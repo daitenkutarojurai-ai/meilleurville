@@ -10460,6 +10460,21 @@
       "slug": "buying-a-viager-in-france-2026",
       "title": "Buying a viager in France: how the life-annuity property sale works and where it goes wrong",
       "emoji": "⏳"
+    },
+    {
+      "slug": "zero-interest-loan-ptz-france-2026",
+      "title": "The PTZ in France: how the zero-interest loan for first-time buyers works",
+      "emoji": "🏷️"
+    },
+    {
+      "slug": "family-loan-to-buy-property-france-2026",
+      "title": "Using a family loan to buy a home in France: paperwork, tax and the gift trap",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "change-borrower-insurance-france-lemoine-law-2026",
+      "title": "Changing your mortgage insurance in France: what the Lemoine law lets you do",
+      "emoji": "🛡️"
     }
   ],
   "tags": [
@@ -10534,6 +10549,11 @@
       "count": 75
     },
     {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 65
+    },
+    {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 65
@@ -10542,11 +10562,6 @@
       "slug": "french-school-system",
       "label": "french school system",
       "count": 63
-    },
-    {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 62
     },
     {
       "slug": "moving-to-france-with-children",
@@ -11024,6 +11039,11 @@
       "count": 4
     },
     {
+      "slug": "mortgage-france",
+      "label": "mortgage france",
+      "count": 4
+    },
+    {
       "slug": "notaire",
       "label": "notaire",
       "count": 4
@@ -11146,6 +11166,11 @@
     {
       "slug": "niort",
       "label": "niort",
+      "count": 3
+    },
+    {
+      "slug": "notary",
+      "label": "notary",
       "count": 3
     },
     {

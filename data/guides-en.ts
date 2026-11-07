@@ -61066,6 +61066,128 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["bordeaux","nice","montpellier","toulouse","nantes"],
     tags: ["viager","life annuity","buying property France","bouquet","rente viagère","notary","property risk","retirement"],
   },
+  {
+    slug: "zero-interest-loan-ptz-france-2026",
+    title: "The PTZ in France: how the zero-interest loan for first-time buyers works",
+    metaTitle: "PTZ in France 2026: The Zero-Interest Loan Explained",
+    metaDesc:
+      "The prêt à taux zéro (PTZ) for foreign and French first-time buyers: who qualifies, what it funds, how it sits beside your main mortgage, and the traps.",
+    category: "budget",
+    emoji: "🏷️",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro:
+      "The PTZ (prêt à taux zéro) is a state-backed loan with no interest, offered by banks to first-time buyers of a main home. It is never the whole mortgage: it is a slice added to a normal bank loan, which lowers the total cost of borrowing and eases the monthly payment. Eligibility rules change often, so treat any figure in an older article, including this one, as a reason to check, not a number to rely on.",
+    sections: [
+      {
+        heading: "Who can get a PTZ?",
+        body: "In outline: you must be buying your first main residence, or be someone who has not owned a main home in the last two years, and your household income must sit under a ceiling that depends on the number of people and the location of the property. You must live in the home as your main residence. Foreign nationals can qualify, and you do not need French citizenship, but you do need to be able to take out a French mortgage and to fit the criteria. Which properties qualify (new-build, old homes with works, flats or houses, and in which areas) has been revised repeatedly, so ask a broker or your bank for the rules in force on the day you sign the offer."
+      },
+      {
+        heading: "How the PTZ sits next to your main loan",
+        body: "The PTZ is a complement. Your bank grants a conventional loan at the market rate and adds the PTZ for a share of the purchase cost. The PTZ usually has a deferral period at the start, during which you repay little or nothing on it, followed by a repayment period. Because it has no interest, the blended rate on the whole financing is lower than the rate on the main loan alone. For a household near the limit of what a bank will lend, it can be the difference between a yes and a no on the file."
+      },
+      {
+        heading: "What it is worth, and what it is not",
+        body: "The saving equals the interest you would otherwise pay on that slice. It matters more when rates are high and when the PTZ share is large. It does not reduce the price, the notary fees (frais de notaire, the transfer taxes and notary costs that add several percent to an old home) or the agency fee. It does not replace a down payment either: banks still want savings and a stable income. Do not choose a home because it qualifies; choose it because it fits your life, and let the PTZ be a bonus."
+      },
+      {
+        heading: "Traps and practical points",
+        body: "Apply before signing the loan offer, not after: the PTZ is part of the financing plan and cannot be added to an existing mortgage. Keep the occupancy rule in mind: if you stop living there or let it out within the first years, the lender can ask questions and the benefit can be affected, so read the clause. Compare several lenders, since the PTZ itself is the same but the rate on the main loan, the insurance and the fees are not. A broker can run the PTZ simulation in minutes; do not rely on an online calculator that has not been updated."
+      },
+      {
+        heading: "Before you apply",
+        body: "Collect your last tax notice (avis d'imposition, the document that fixes your reference income), proof of identity and residence, your bank statements and the purchase agreement. Ask the bank in writing which PTZ rules it applied and to which version of the law. Limits: this guide gives no income ceilings, no percentages and no durations on purpose, because they change with each finance law and vary by zone and by home type."
+      }
+    ],
+    relatedCities: ["lyon","bordeaux","nantes","toulouse","lille"],
+    tags: ["PTZ","zero-interest loan","first-time buyer","mortgage France","buying property France","prêt à taux zéro"],
+  },
+  {
+    slug: "family-loan-to-buy-property-france-2026",
+    title: "Using a family loan to buy a home in France: paperwork, tax and the gift trap",
+    metaTitle: "Family Loan to Buy Property in France: Rules and Traps",
+    metaDesc:
+      "How a loan from parents or relatives can top up your deposit in France: written agreement, tax declaration, interest, and when it is requalified as a gift.",
+    category: "budget",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro:
+      "A loan from a parent or relative is a common way to build a deposit in France, and it is legal without a cap on the amount. The risk is not the loan itself but the lack of paperwork: an informal loan can be treated by the tax office as a disguised gift, and can cause a dispute between siblings after a death. Done properly, it takes an afternoon and costs little.",
+    sections: [
+      {
+        heading: "Loan or gift: why it matters",
+        body: "A loan is repayable; a gift is final. French law taxes gifts and inheritances above allowances that depend on the family relationship, and it lets families give more tax-efficiently than many countries do, so a gift is sometimes the better tool. The loan suits families who want to keep control of their capital, or who want the child to repay it. The main thing is to choose one and to document it as such."
+      },
+      {
+        heading: "Put it in writing",
+        body: "Draw up a loan agreement stating the amount, the duration, the repayment schedule, the interest rate (which may be zero) and what happens on death or default. A private deed signed by both sides is the minimum; for larger sums a notary can draft it, which costs more but makes the document much harder to challenge. A simple acknowledgement of debt (reconnaissance de dette) signed by the borrower is a lighter alternative when there is no fixed schedule."
+      },
+      {
+        heading: "Declare it to the tax office",
+        body: "Loans between individuals above a modest threshold must be declared to the tax authorities on a dedicated form, which is filed by the borrower, and the notary or lender may handle part of it. Do not skip this step: an undeclared loan is the first thing that weakens the case if the tax office later asks questions. Check the current threshold and deadline on the official site impots.gouv.fr or with a notary."
+      },
+      {
+        heading: "Interest and repayment",
+        body: "A zero-rate loan is allowed, but it is the one most likely to be questioned, so make repayments real: regular bank transfers with a clear reference, kept in your records. If interest is charged, the lender reports it as investment income, and the borrower generally cannot deduct it unless the home is let. The key is consistency: duration, amount and repayments should match the family's means. A 'loan' that is never repaid and never mentioned looks like a gift."
+      },
+      {
+        heading: "How banks see it",
+        body: "A bank will count family loan repayments in your debt ratio, so a large one can reduce what you can borrow, and a lender may ask for the agreement. Be open about it: concealing a loan on a mortgage application can create problems. Some families prefer a gift for the deposit because it is not a debt and does not weigh on the ratio."
+      },
+      {
+        heading: "The family side",
+        body: "If a parent lends to one child, the other children may see it later as an advance on the inheritance. Talk about it, and consider a will or notary advice so the loan is treated as intended on death, whether repaid from the estate or forgiven. Limits: this guide gives no tax thresholds or rates on purpose, because they change; confirm them with a notary before you sign."
+      }
+    ],
+    relatedCities: ["lyon","bordeaux","tours","strasbourg","nantes"],
+    tags: ["family loan","deposit","buying property France","gift","notary","tax declaration","first-time buyer"],
+  },
+  {
+    slug: "change-borrower-insurance-france-lemoine-law-2026",
+    title: "Changing your mortgage insurance in France: what the Lemoine law lets you do",
+    metaTitle: "Change Mortgage Insurance in France: Lemoine Law",
+    metaDesc:
+      "Since the Lemoine law you can swap mortgage insurance at any time, free of charge. How to compare offers, what the bank can refuse, and how to switch.",
+    category: "budget",
+    emoji: "🛡️",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro:
+      "In France, the insurance attached to a mortgage often costs a large share of the total borrowing cost, and the bank's own policy is rarely the cheapest. The Lemoine law lets you switch insurer at any time during the loan, without penalty, as long as the new policy gives guarantees equivalent to the old one. It is one of the easiest ways to cut your mortgage cost.",
+    sections: [
+      {
+        heading: "What changed with the Lemoine law",
+        body: "Before 2022 you could switch only during the first year, and then on each anniversary of the loan. Since the Lemoine law (2022), you can change the borrower insurance (assurance emprunteur) at any time, with no fee, on any mortgage, including loans already running. The bank cannot charge for processing the change, and it cannot change the loan rate because you left its policy."
+      },
+      {
+        heading: "How to compare offers",
+        body: "Request quotes from independent insurers and brokers, and give them the same details: your age, the loan amount, the remaining term and the guarantees on your current contract. Compare the total cost over the remaining life of the loan, not just the monthly amount, since a cheap rate on the initial capital can hide a higher cost later. Check the exclusions, the waiting periods, and how the policy treats job loss, back problems and mental health conditions."
+      },
+      {
+        heading: "Equivalence of guarantees",
+        body: "The bank may refuse a new policy only if it fails to match the guarantees the bank required (death, disability, and sometimes loss of work). It lists these as criteria in the loan offer, and the insurer can compare against them. The bank has a short, fixed time to reply and must justify a refusal in writing, so ask for the list of criteria and make the new insurer check it."
+      },
+      {
+        heading: "How to switch in practice",
+        body: "Choose the new policy, send the bank the application with the equivalence evidence by registered letter or a secure channel, and wait for acceptance. When it is accepted, the new contract replaces the old one without gaps, and the previous insurer reimburses the premium paid for the unused period. Do not cancel the old policy yourself before the bank has confirmed in writing, or you may be left uninsured and in breach of your loan terms."
+      },
+      {
+        heading: "Medical questions and age",
+        body: "The Lemoine law also removed the medical questionnaire for some loans: for borrowers under a certain age, and below a certain loan amount, no health questions are asked. For others, the right-to-be-forgotten period for some cancers was shortened. Read the current limits on the official consumer information pages, as they can be adjusted."
+      },
+      {
+        heading: "Who benefits most",
+        body: "Younger and healthier borrowers, those with a large remaining capital, and anyone who took the bank's group policy by default. Limits: this guide gives no savings estimates and no rate figures on purpose, because they depend on your profile; run two or three quotes to see your own number."
+      }
+    ],
+    relatedCities: ["lyon","bordeaux","nantes","toulouse","lille"],
+    tags: ["mortgage insurance","assurance emprunteur","Lemoine law","mortgage France","switching insurer","buying property France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
