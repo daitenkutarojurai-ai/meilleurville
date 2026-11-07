@@ -10082,6 +10082,31 @@
       "emoji": "🏔️"
     },
     {
+      "slug": "things-to-do-in-condom-2026",
+      "title": "Things to do in Condom: Armagnac capital on the Baïse",
+      "emoji": "🥃"
+    },
+    {
+      "slug": "things-to-do-in-embrun-2026",
+      "title": "Things to do in Embrun: the cathedral rock above Serre-Ponçon",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "things-to-do-in-gaillac-2026",
+      "title": "Things to do in Gaillac: abbey, vineyards and the Tarn",
+      "emoji": "🍷"
+    },
+    {
+      "slug": "things-to-do-in-guingamp-2026",
+      "title": "Things to do in Guingamp: basilica, Renaissance fountain and football",
+      "emoji": "⚽"
+    },
+    {
+      "slug": "things-to-do-in-villeneuve-sur-lot-2026",
+      "title": "Things to do in Villeneuve-sur-Lot: a medieval bastide on the river",
+      "emoji": "🌉"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -10481,12 +10506,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 337
+      "count": 342
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 331
+      "count": 336
     },
     {
       "slug": "moving-to-france",
@@ -10511,7 +10536,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 94
+      "count": 95
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -10519,14 +10544,14 @@
       "count": 93
     },
     {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 87
+    },
+    {
       "slug": "ile-de-france",
       "label": "ile de france",
       "count": 86
-    },
-    {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 85
     },
     {
       "slug": "solo-travel",
@@ -10631,7 +10656,7 @@
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
-      "count": 37
+      "count": 38
     },
     {
       "slug": "working-in-france",
@@ -10674,6 +10699,11 @@
       "count": 16
     },
     {
+      "slug": "bretagne",
+      "label": "bretagne",
+      "count": 15
+    },
+    {
       "slug": "cycling",
       "label": "cycling",
       "count": 15
@@ -10687,11 +10717,6 @@
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
-    },
-    {
-      "slug": "bretagne",
-      "label": "bretagne",
-      "count": 14
     },
     {
       "slug": "atlantic-coast",
