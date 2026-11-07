@@ -1377,3 +1377,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-page ville `/villes/[slug]/sport` (+ EN `sports-leisure`).
 2. Hub `/parcs` (index national des parcs, renvoyé par cette page).
 3. Page agenda (hub).
+
+## 2026-11-07 ~03:00 UTC — sous-page ville `/villes/[slug]/sport` (FR) + EN `/cities/[slug]/sports-leisure`
+
+**Surface** : gabarit sport × 593 villes × 2 locales, plus le composant partagé `SportSpots`. Avant : un seul bloc sur fond de page, `Badge` gris, cartes `Card` grises, emoji nu en EN, renvois en cartes à filet.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🏋️ rose, nom de ville en `gradient-text-anim` (FR et EN), pilules `grad-head-0` + blanche indigo (FR) ; score composite (carte blanche, liseré de niveau conservé) + 4 dimensions (fonds de niveau conservés) en `band-indigo` ; « Où s'entraîner » en `band-sky` (`SportSpots` : prop `className`, h2 `.gradient-text`, listes en cartes blanches à ombre cyan) ; méthodologie en carte blanche en `band-pink` ; « Aller plus loin » (cartes blanches lilas, lien classement national en pilule dégradée, paragraphe montagne en carte) en `band-lilac` ; Maps + discussion/feedback en `band-white`. Imports `Card`/`Badge` retirés (FR). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3 fichiers : 0 problème. Captures playwright `/villes/lyon/sport` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/parcs` (index national des parcs).
+2. Hub `/sport` (classement national, renvoyé par cette page).
+3. Page agenda (hub).

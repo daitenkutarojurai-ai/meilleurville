@@ -6,8 +6,7 @@ import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { SportSpots } from "@/components/SportSpots";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   computeSportLeisure,
@@ -118,17 +117,25 @@ export default async function SportPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/villes" className="hover:underline">Villes</Link> ·{" "}
-          <Link href={`/villes/${city.slug}`} className="hover:underline">{city.name}</Link>
-        </nav>
-
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Faire du sport à {city.name}
-        </h1>
-        <p className="mt-3 text-base text-[var(--text-secondary)]">
+      {/* Hero — aurore */}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <nav className="text-xs text-[var(--text-tertiary)] mb-5">
+            <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
+            <Link href="/villes" className="hover:underline">Villes</Link> ·{" "}
+            <Link href={`/villes/${city.slug}`} className="hover:underline">{city.name}</Link>
+          </nav>
+          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
+            🏋️ Sport & loisirs
+          </p>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji="🏋️" tone="pink" />
+            <h1 className="text-3xl md:text-5xl font-bold tracking-tight leading-[1.05] text-[var(--text-primary)]">
+              Faire du sport à{" "}
+              <span className="font-display gradient-text-anim italic">{city.name}</span>
+            </h1>
+          </div>
+          <p className="mt-3 text-base text-[var(--text-secondary)] leading-relaxed">
           Synthèse pédagogique des quatre dimensions qui déterminent la praticabilité du
           sport au quotidien : équipements, cadre outdoor, vie associative et climat.
           Sources :{" "}
@@ -150,42 +157,54 @@ export default async function SportPage({ params }: Props) {
             sports.gouv.fr
           </a>{" "}
           · CREPS · DRAJES · FFRandonnée.
-        </p>
+          </p>
 
-        <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>INJEP · RES · CREPS · DRAJES</Badge>
-        </div>
-
-        {/* Composite hero */}
-        <Card className={`mt-6 border-l-4 ${SPORT_LEVEL_BG[s.level].replace('bg-', 'border-l-').replace('-50', '-500').split(' ')[0]}`}>
-          <div className="flex items-baseline justify-between mb-3">
-            <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold">Score composite</h2>
-            <span className={`text-xs font-bold uppercase ${SPORT_LEVEL_COLOR[s.level]}`}>
-              Terrain {SPORT_LEVEL_LABEL[s.level].toLowerCase()}
-            </span>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs">
+            <span className="grad-head-0 rounded-full px-3 py-1 font-semibold">Synthèse pédagogique</span>
+            <span className="rounded-full bg-white px-3 py-1 font-semibold text-[#3730A3] ring-1 ring-[#DDD0FF]">INJEP · RES · CREPS · DRAJES</span>
           </div>
-          <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
-            {s.composite.toFixed(1)}
-            <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
-          </div>
-          <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
-        </Card>
-
-        {/* 4 dimensions */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Les quatre dimensions</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <SportBlock dim={s.facilities} label="Équipements sportifs" />
-          <SportBlock dim={s.outdoor} label="Cadre outdoor" />
-          <SportBlock dim={s.clubs} label="Vie associative" />
-          <SportBlock dim={s.climate} label="Climat propice" />
         </div>
+      </section>
 
-        <SportSpots citySlug={city.slug} cityName={city.name} locale="fr" />
+      {/* Score composite + 4 dimensions — bande indigo */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <div className={`rounded-2xl bg-white p-5 border-l-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] ${SPORT_LEVEL_BG[s.level].replace('bg-', 'border-l-').replace('-50', '-500').split(' ')[0]}`}>
+            <div className="flex items-baseline justify-between mb-3">
+              <h2 className="text-sm uppercase tracking-wide text-[#4338CA] font-semibold">Score composite</h2>
+              <span className={`text-xs font-bold uppercase ${SPORT_LEVEL_COLOR[s.level]}`}>
+                Terrain {SPORT_LEVEL_LABEL[s.level].toLowerCase()}
+              </span>
+            </div>
+            <div className="text-4xl font-bold tabular-nums text-[var(--text-primary)] mb-3">
+              {s.composite.toFixed(1)}
+              <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
+            </div>
+            <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
+          </div>
 
-        {/* Methodology */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>
-        <Card className="mt-3">
+          <h2 className="mt-10 text-xl font-bold gradient-text">Les quatre dimensions</h2>
+          <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <SportBlock dim={s.facilities} label="Équipements sportifs" />
+            <SportBlock dim={s.outdoor} label="Cadre outdoor" />
+            <SportBlock dim={s.clubs} label="Vie associative" />
+            <SportBlock dim={s.climate} label="Climat propice" />
+          </div>
+        </div>
+      </section>
+
+      {/* Où s'entraîner — bande ciel */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <SportSpots citySlug={city.slug} cityName={city.name} locale="fr" className="" />
+        </div>
+      </section>
+
+      {/* Méthodologie — bande rose */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold gradient-text">Méthodologie</h2>
+          <div className="mt-3 rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Équipements (35 %) :</strong>{" "}
@@ -225,45 +244,56 @@ export default async function SportPage({ params }: Props) {
             </a>{" "}
             (carte officielle des équipements sportifs).
           </p>
-        </Card>
+          </div>
+        </div>
+      </section>
 
-        {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Link href={`/villes/${city.slug}/velo`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🚲</span><span>Vivre à vélo</span></div>
+      {/* Aller plus loin — bande lilas */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-4">
+          <h2 className="text-xl font-bold gradient-text">Aller plus loin</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <Link
+              href={`/villes/${city.slug}/velo`}
+              className="group block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
+            >
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#6D28D9] transition-colors flex items-center gap-2"><span aria-hidden>🚲</span><span>Vivre à vélo</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Réseau, relief, sécurité, climat</div>
-            </Card>
-          </Link>
-          <Link href={`/villes/${city.slug}/a-faire`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🎯</span><span>Que faire ici ?</span></div>
+            </Link>
+            <Link
+              href={`/villes/${city.slug}/a-faire`}
+              className="group block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
+            >
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#6D28D9] transition-colors flex items-center gap-2"><span aria-hidden>🎯</span><span>Que faire ici ?</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Activités, sorties, bons plans</div>
-            </Card>
-          </Link>
-          <Link href={`/villes/${city.slug}/climat`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🌤️</span><span>Climat détaillé</span></div>
+            </Link>
+            <Link
+              href={`/villes/${city.slug}/climat`}
+              className="group block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
+            >
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#6D28D9] transition-colors flex items-center gap-2"><span aria-hidden>🌤️</span><span>Climat détaillé</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Normales mensuelles + saisons</div>
-            </Card>
-          </Link>
-          <Link href={`/villes/${city.slug}/synthese`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2"><span aria-hidden>🧬</span><span>Synthèse 8 axes</span></div>
+            </Link>
+            <Link
+              href={`/villes/${city.slug}/synthese`}
+              className="group block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
+            >
+              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#6D28D9] transition-colors flex items-center gap-2"><span aria-hidden>🧬</span><span>Synthèse 8 axes</span></div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Lecture consolidée du profil</div>
-            </Card>
-          </Link>
-        </div>
+            </Link>
+          </div>
 
-        <div className="mt-8 text-sm">
-          <Link href="/sport" className="text-[var(--accent)] hover:underline">
-            → Voir le classement national des villes sportives
-          </Link>
-        </div>
+          <div className="pt-2">
+            <Link
+              href="/sport"
+              className="inline-flex rounded-full bg-gradient-to-r from-[#4F46E5] to-[#DB2777] px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition-opacity hover:opacity-90"
+            >
+              → Voir le classement national des villes sportives
+            </Link>
+          </div>
 
         {showMountainProfile && (
-          <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+          <p className="rounded-2xl bg-white p-5 text-sm text-[var(--text-secondary)] leading-relaxed shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)]">
             Le cadre outdoor ci-dessus met le relief dans le même sac que la façade
             côtière, le massif forestier et le plan d&apos;eau : deux atouts cumulés
             suffisent à faire monter la note, quels qu&apos;ils soient. Si c&apos;est
@@ -281,11 +311,15 @@ export default async function SportPage({ params }: Props) {
             réel, que le relief allonge.
           </p>
         )}
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pb-8">
-        <MapsQuickSearch topic="sport" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
-        <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+      {/* Recherche Maps + discussion — bande blanche */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <MapsQuickSearch topic="sport" cityName={city.name} department={city.department} locale="fr" className="mb-8" />
+          <DiscussionCTA citySlug={city.slug} cityName={city.name} />
+        </div>
       </section>
 
       <Footer />

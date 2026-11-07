@@ -49,7 +49,17 @@ function SpotRow({ s, cityName, locale }: { s: SportSpot; cityName: string; loca
   );
 }
 
-export function SportSpots({ citySlug, cityName, locale }: { citySlug: string; cityName: string; locale: "fr" | "en" }) {
+export function SportSpots({
+  citySlug,
+  cityName,
+  locale,
+  className = "mt-10",
+}: {
+  citySlug: string;
+  cityName: string;
+  locale: "fr" | "en";
+  className?: string;
+}) {
   const t = (fr: string, en: string) => (locale === "fr" ? fr : en);
   const data = citySportSpots(citySlug);
   const events = upcomingSportEvents(citySlug);
@@ -57,8 +67,8 @@ export function SportSpots({ citySlug, cityName, locale }: { citySlug: string; c
   const total = data ? SPORT_SPOT_KINDS.reduce((n, k) => n + data.counts[k], 0) : 0;
 
   return (
-    <section aria-labelledby="ou-s-entrainer" className="mt-10">
-      <h2 id="ou-s-entrainer" className="text-xl font-semibold text-[var(--text-primary)]">
+    <section aria-labelledby="ou-s-entrainer" className={className}>
+      <h2 id="ou-s-entrainer" className="text-xl font-bold gradient-text">
         {t(`Où s'entraîner à ${cityName} ?`, `Where to train in ${cityName}`)}
       </h2>
 
@@ -86,7 +96,7 @@ export function SportSpots({ citySlug, cityName, locale }: { citySlug: string; c
           {total > 0 && (
             <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3">
               {SPORT_SPOT_KINDS.map((k) => (
-                <div key={k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
+                <div key={k} className="rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)] p-3">
                   <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)]">{data.counts[k]}</div>
                   <div className="text-xs text-[var(--text-secondary)]">
                     <span aria-hidden="true">{SPORT_SPOT_LABEL[k].emoji} </span>
@@ -113,7 +123,7 @@ export function SportSpots({ citySlug, cityName, locale }: { citySlug: string; c
                     </span>
                   )}
                 </h3>
-                <ul className="mt-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4">
+                <ul className="mt-2 rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)] px-4">
                   {head.map((s) => (
                     <SpotRow key={s.id} s={s} cityName={cityName} locale={locale} />
                   ))}
@@ -123,7 +133,7 @@ export function SportSpots({ citySlug, cityName, locale }: { citySlug: string; c
                     <summary className="cursor-pointer text-sm text-[var(--accent)] hover:underline">
                       {t(`Voir les ${rest.length} autres`, `Show ${rest.length} more`)}
                     </summary>
-                    <ul className="mt-2 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4">
+                    <ul className="mt-2 rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)] px-4">
                       {rest.map((s) => (
                         <SpotRow key={s.id} s={s} cityName={cityName} locale={locale} />
                       ))}
@@ -168,7 +178,7 @@ export function SportSpots({ citySlug, cityName, locale }: { citySlug: string; c
       ) : (
         <ul className="mt-2 space-y-2">
           {events.map((e) => (
-            <li key={e.id} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
+            <li key={e.id} className="rounded-xl bg-white shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)] p-3">
               <div className="text-sm font-semibold text-[var(--accent)] first-letter:uppercase">{eventDateLabel(e, locale)}</div>
               <Link href={`${agendaHref}#${e.id}`} className="font-medium text-[var(--text-primary)] hover:underline">
                 {locale === "fr" ? e.title : e.titleEn}

@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { SportSpots } from "@/components/SportSpots";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   computeSportLeisure,
@@ -153,7 +154,9 @@ export default async function EnCitySports({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-16 pb-6">
+      {/* Hero — aurora */}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <nav className="mb-6 text-sm text-[var(--text-secondary)]">
           <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
           {" · "}
@@ -164,9 +167,10 @@ export default async function EnCitySports({ params }: Props) {
           <span>Sport &amp; leisure</span>
         </nav>
         <div className="flex items-center gap-3 mb-3">
-          <span className="text-5xl" aria-hidden>🏋️</span>
-          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Sport &amp; leisure in {c.name}
+          <EmojiBadge emoji="🏋️" tone="pink" />
+          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
+            Sport &amp; leisure in{" "}
+            <span className="font-display gradient-text-anim italic">{c.name}</span>
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
@@ -188,10 +192,13 @@ export default async function EnCitySports({ params }: Props) {
           </a>{" "}
           · sports.gouv.fr · CREPS · DRAJES · FFRandonnée.
         </p>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-2">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">The four dimensions</h2>
+      {/* Four dimensions — indigo band */}
+      <section className="band band-indigo py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold gradient-text mb-3">The four dimensions</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <SportBlock
             dim={s.facilities}
@@ -214,14 +221,21 @@ export default async function EnCitySports({ params }: Props) {
             hint="Weather you can actually train in across the year"
           />
         </div>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6">
-        <SportSpots citySlug={c.slug} cityName={c.name} locale="en" />
+      {/* Where to train — sky band */}
+      <section className="band band-sky py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <SportSpots citySlug={c.slug} cityName={c.name} locale="en" className="" />
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-8">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">How the score is built</h2>
+      {/* Methodology — pink band */}
+      <section className="band band-pink py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold gradient-text mb-3">How the score is built</h2>
+        <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.5)]">
         <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
           <li>
             <strong className="text-[var(--text-primary)]">Facilities (35%):</strong> proxy
@@ -265,14 +279,18 @@ export default async function EnCitySports({ params }: Props) {
           </a>{" "}
           (official map of sports facilities).
         </p>
+        </div>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-3">Go deeper</h2>
+      {/* Go deeper — lilac band */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+        <h2 className="text-xl font-bold gradient-text mb-3">Go deeper</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link
             href={`/cities/${c.slug}/cycling`}
-            className="block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+            className="block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
           >
             <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
               <span aria-hidden>🚲</span><span>Cycling</span>
@@ -281,7 +299,7 @@ export default async function EnCitySports({ params }: Props) {
           </Link>
           <Link
             href={`/cities/${c.slug}/climate`}
-            className="block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+            className="block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
           >
             <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
               <span aria-hidden>🌤️</span><span>Climate</span>
@@ -290,7 +308,7 @@ export default async function EnCitySports({ params }: Props) {
           </Link>
           <Link
             href={`/cities/${c.slug}/synthesis`}
-            className="block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+            className="block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
           >
             <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
               <span aria-hidden>🧬</span><span>8-axis synthesis</span>
@@ -299,7 +317,7 @@ export default async function EnCitySports({ params }: Props) {
           </Link>
           <Link
             href={`/cities/${c.slug}`}
-            className="block rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)]/40 hover:shadow-md transition-all"
+            className="block rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] ring-1 ring-transparent transition-all hover:ring-[#D8B4FE]"
           >
             <div className="text-sm font-semibold text-[var(--text-primary)] flex items-center gap-2">
               <span aria-hidden>↩️</span><span>Back to {c.name}</span>
@@ -307,19 +325,16 @@ export default async function EnCitySports({ params }: Props) {
             <div className="text-xs text-[var(--text-tertiary)] mt-1">Full city profile</div>
           </Link>
         </div>
+        </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-10">
-
-        <MapsQuickSearch topic="sport" cityName={c.name} department={c.department} locale="en" />
-
-      </div>
-
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
-        <FeedbackWidget />
-
-      </div>
+      {/* Maps search + feedback — white band */}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <MapsQuickSearch topic="sport" cityName={c.name} department={c.department} locale="en" className="mb-8" />
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>
