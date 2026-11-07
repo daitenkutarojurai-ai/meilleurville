@@ -75332,6 +75332,55 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["deserts-medicaux-france-villes-eviter-2026", "meilleures-villes-sante-hopital-medecins-france-2025", "professions-sante-infirmier-medecin-quelle-ville-2026"],
     tags: ["accès aux médecins", "APL", "médecins généralistes", "déserts médicaux", "urgences", "pharmacies", "DREES", "santé par ville", "zone sous-dense"],
   },
+  {
+    slug: "villes-taux-de-pauvrete-niveau-de-vie-409-villes-2026",
+    title: "Taux de pauvreté et niveau de vie : le classement de 409 villes (2026)",
+    metaTitle: "Taux de pauvreté par ville : classement de 409 villes",
+    metaDesc: "Maisons-Laffitte 6 %, Roubaix 46 % : taux de pauvreté et niveau de vie médian (Insee, Filosofi 2021) dans 409 villes, par région et par taille.",
+    category: "lifestyle",
+    emoji: "💶",
+    readMinutes: 9,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Dans les 409 communes de 20 000 habitants et plus pour lesquelles l'Insee publie le taux de pauvreté (Filosofi 2021), la médiane est de 19 % de ménages sous le seuil de 60 % du niveau de vie médian national, pour un niveau de vie médian de 21 650 € par an et par unité de consommation. Le taux va de 6 % à Maisons-Laffitte, au Chesnay-Rocquencourt, au Plessis-Robinson, à Carquefou et à Vertou jusqu'à 46 % à Roubaix et à Saint-Benoît (La Réunion). 56 villes sont à 10 % ou moins, 201 à 20 % ou plus et 47 à 30 % ou plus. Ce guide classe les villes sur ces deux mesures, les compare par région et par taille, et les croise avec le prix du m² pour montrer où un revenu local modeste ne rend pas la vie moins chère.",
+    sections: [
+      {
+        heading: "Que mesurent le taux de pauvreté et le niveau de vie ?",
+        body: "Le niveau de vie est le revenu disponible d'un ménage (salaires, retraites, prestations, moins les impôts) divisé par le nombre d'unités de consommation : ce n'est ni un salaire ni un revenu par personne. Le taux de pauvreté est la part des habitants dont le niveau de vie est inférieur à 60 % de la médiane nationale. Le seuil est donc le même partout en France : une commune a un taux élevé parce que beaucoup d'habitants sont sous ce seuil national, pas parce qu'elle est pauvre par rapport à ses voisines. Les deux chiffres viennent du dispositif Filosofi de l'Insee, millésime 2021, et décrivent les résidents de la commune, pas ses emplois ni ses commerces."
+      },
+      {
+        heading: "Où le taux de pauvreté est-il le plus bas ?",
+        body: "Dans les communes résidentielles de l'ouest francilien et de la périphérie des grandes métropoles. Cinq villes sont à 6 % : Maisons-Laffitte (niveau de vie médian de 36 990 €), Le Chesnay-Rocquencourt (33 520 €), Le Plessis-Robinson (31 000 €), Carquefou (27 830 €) et Vertou (27 590 €). Suivent Saint-Cloud (7 %, 39 760 €), Versailles (7 %, 33 780 €), Montigny-le-Bretonneux (7 %, 30 360 €), La Chapelle-sur-Erdre (7 %), Allauch (7 %) et Saint-Médard-en-Jalles (7 %), puis Neuilly-sur-Seine (8 %, 48 010 €, le niveau de vie le plus haut du classement), Saint-Mandé, Sceaux et Vincennes (8 %). Carquefou, Vertou et La Chapelle-sur-Erdre sont dans l'agglomération nantaise, Allauch dans celle de Marseille, Saint-Médard-en-Jalles dans celle de Bordeaux : le faible taux de pauvreté n'est donc pas qu'un phénomène parisien."
+      },
+      {
+        heading: "Où est-il le plus élevé ?",
+        body: "Dans les villes du nord industriel, de la petite couronne nord-est et de La Réunion. Hors Réunion, Roubaix (46 %, 14 580 €) arrive en tête, devant Denain (43 %, 14 890 €), La Courneuve (42 %, 15 150 €), Clichy-sous-Bois (42 %, 15 260 €), Aubervilliers (42 %, 15 330 €), Creil (40 %, 15 440 €), Garges-lès-Gonesse (39 %, 15 750 €), Stains et Villiers-le-Bel (37 %), puis Saint-Denis, Maubeuge, Bobigny, Mulhouse et Béziers (36 % à 37 %). Sur l'île, Saint-Benoît est à 46 % pour un niveau de vie médian de 14 550 € (le plus bas des 409 villes), Saint-André à 44 %, Saint-Joseph et Saint-Louis à 43 %, Le Tampon à 38 %. Le rapport entre le niveau de vie médian le plus haut (Neuilly, 48 010 €) et le plus bas (Saint-Benoît) est de 3,3."
+      },
+      {
+        heading: "Quelles régions s'en sortent le mieux ?",
+        body: "Les Pays de la Loire, la Bretagne et l'Île-de-France. Pour les régions qui comptent au moins dix villes de 20 000 habitants et plus, la médiane du taux de pauvreté est de 13 % dans les Pays de la Loire (19 villes, niveau de vie médian de 23 550 €), 15 % en Bretagne (10 villes, 22 735 €) et 16 % en Île-de-France (153 villes, 24 250 €). Suivent la Nouvelle-Aquitaine et la Provence-Alpes-Côte d'Azur (17 %), puis l'Auvergne-Rhône-Alpes et le Centre-Val de Loire (21 %), l'Occitanie (21,5 %), le Grand Est, la Normandie et la Bourgogne-Franche-Comté (23 %). Les Hauts-de-France (30 villes) sont à 26,5 % pour 18 960 €, et La Réunion (10 villes) à 36 % pour 17 120 € : ses dix villes dépassent toutes 30 %. Dans le Sud, Béziers (36 %), Perpignan (34 %), Avignon (33 %) et Nîmes (31 %) sont les villes les plus touchées."
+      },
+      {
+        heading: "Les grandes villes sont-elles plus pauvres que les petites ?",
+        body: "Un peu, et surtout plus dispersées. La médiane du taux de pauvreté est de 18 % pour les 281 villes de 20 000 à 50 000 habitants (niveau de vie médian de 22 050 €), 21,5 % pour les 86 villes de 50 000 à 100 000 (21 265 €) et 22,5 % pour les 42 villes de 100 000 habitants et plus (21 165 €). Parmi ces dernières, Boulogne-Billancourt (9 %, 35 040 €), Annecy (10 %), Aix-en-Provence (15 %), Lyon et Paris (16 %, 25 430 € et 29 730 €), Nantes, Bordeaux et Dijon (17 %) sont les plus basses ; Rennes, Grenoble, Tours, Caen, Angers et Toulouse sont entre 21 % et 22 %. Marseille (26 %), Strasbourg (26 %), Lille (27 %) et Montpellier (28 %) sont plus haut, et Perpignan (34 %), Mulhouse et Saint-Denis (36 % et 37 %) ferment la liste. Le taux d'une grande ville est une moyenne : ses quartiers s'étalent sur toute l'échelle."
+      },
+      {
+        heading: "Que cache la moyenne en Île-de-France ?",
+        body: "Les écarts les plus grands du pays, à quelques kilomètres. Sur les 153 villes franciliennes du classement, 37 sont à 10 % ou moins et 16 à 30 % ou plus : la région compte donc 37 des 56 villes du pays à 10 % ou moins, et 16 des 47 à 30 % ou plus. En Seine-Saint-Denis, les 28 villes vont de 14 % à 42 % ; dans les Hauts-de-Seine, de 6 % à 28 % ; dans les Yvelines, de 6 % à 32 % ; dans le Val-d'Oise, de 9 % à 39 % ; dans le Val-de-Marne, de 8 % à 34 %. Paris est à 16 % pour un niveau de vie médian de 29 730 €. Pour choisir une commune francilienne, la médiane régionale (16 %) ne dit presque rien : le taux de la commune, puis celui des voisines, comptent davantage."
+      },
+      {
+        heading: "Un faible niveau de vie veut-il dire des logements moins chers ?",
+        body: "Pas en Île-de-France ni sur la Côte d'Azur. Sur les villes où l'on dispose d'au moins 50 ventes d'appartements en 2024-2025, Montreuil (25 % de pauvreté) affiche un prix médian de 5 938 € le m², Pantin (27 %) 5 857 €, Saint-Ouen-sur-Seine (26 %) 6 376 €, Clichy (22 %) 6 875 €, Cannes (21 %) 5 714 € et Nice (22 %) 4 802 €. À l'inverse, plusieurs villes à taux de pauvreté de 30 % ou plus sont réellement bon marché : Maubeuge (961 € le m²), Laon (1 136 €), Denain (1 244 €), Charleville-Mézières (1 306 €) et Alès (1 452 €). Les villes à la fois aisées et abordables sont rares : Mont-Saint-Aignan (10 %, 2 000 € le m²), Olivet (8 %, 2 588 €), Challans (10 %, 2 637 €), Élancourt (11 %, 2 701 €) et Orvault (10 %, 2 907 €) sont les mieux placées parmi les villes à 12 % ou moins."
+      },
+      {
+        heading: "Que faire de ce classement avant de déménager ?",
+        body: "Trois usages. Si vous cherchez un cadre de vie avec peu de précarité, regardez le taux de la commune et celui de ses voisines, puis le quartier : les chiffres de ce classement sont communaux, et notre fiche quartiers aide à regarder plus finement. Si vous investissez, un taux élevé n'est pas un verdict sur la rentabilité, mais il dit quelle part des locataires dépend des aides et du marché du travail local. Si vous cherchez un logement abordable, croisez ce classement avec le prix au m² et les loyers de notre fiche ville. Limites : un seul millésime (2021), les communes de moins de 20 000 habitants hors classement, et un seuil national qui ne tient pas compte du coût de la vie local, notamment du logement."
+      }
+    ],
+    relatedCities: ["maisons-laffitte", "le-chesnay-rocquencourt", "le-plessis-robinson", "carquefou", "vertou", "neuilly-sur-seine", "roubaix", "denain", "la-courneuve", "creil", "mulhouse", "perpignan", "nimes", "versailles"],
+    relatedGuides: ["annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026", "trois-fois-le-loyer-revenu-requis-t2-villes-2026", "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026"],
+    tags: ["taux de pauvreté", "niveau de vie", "niveau de vie médian", "revenus par ville", "Filosofi", "Insee", "précarité", "inégalités", "classement des villes"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

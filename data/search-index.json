@@ -11060,6 +11060,11 @@
       "slug": "villes-acces-medecin-generaliste-apl-413-villes-2026",
       "title": "Accès aux médecins généralistes : le classement APL de 413 villes (2026)",
       "emoji": "🩺"
+    },
+    {
+      "slug": "villes-taux-de-pauvrete-niveau-de-vie-409-villes-2026",
+      "title": "Taux de pauvreté et niveau de vie : le classement de 409 villes (2026)",
+      "emoji": "💶"
     }
   ],
   "tags": [

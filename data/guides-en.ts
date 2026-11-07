@@ -61318,6 +61318,54 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon","bordeaux","nantes","toulouse","lille"],
     tags: ["mortgage insurance","assurance emprunteur","Lemoine law","mortgage France","switching insurer","buying property France"],
   },
+  {
+    slug: "french-cities-poverty-rate-and-living-standards-409-cities-2026",
+    title: "Poverty rate and living standards in 409 French cities (2026)",
+    metaTitle: "Poverty rate by French city: ranking of 409 cities (2026)",
+    metaDesc: "Maisons-Laffitte 6%, Roubaix 46%: poverty rate and median living standard (INSEE, Filosofi 2021) in 409 French cities, by region and size.",
+    category: "lifestyle",
+    emoji: "💶",
+    readMinutes: 9,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Across the 409 French cities of 20,000 residents or more for which INSEE publishes a poverty rate (Filosofi 2021), the median city has 19% of households below 60% of the national median living standard, with a median living standard of €21,650 a year per consumption unit. The rate runs from 6% in Maisons-Laffitte, Le Chesnay-Rocquencourt, Le Plessis-Robinson, Carquefou and Vertou up to 46% in Roubaix and Saint-Benoît (Réunion). 56 cities are at 10% or below, 201 at 20% or above and 47 at 30% or above. This guide ranks cities on both measures, compares regions and city sizes, and sets them against apartment prices to show where a modest local income does not mean cheaper housing.",
+    sections: [
+      {
+        heading: "What do the poverty rate and living standard measure?",
+        body: "Living standard is a household's disposable income (wages, pensions and benefits, minus taxes) divided by the number of consumption units: it is neither a salary nor an income per person. The poverty rate is the share of residents whose living standard falls below 60% of the national median. The threshold is the same everywhere in France, so a city has a high rate because many residents sit under that national line, not because it is poor relative to its neighbours. Both figures come from INSEE's Filosofi system, 2021 vintage, and describe the people who live in the city, not the jobs or shops located there."
+      },
+      {
+        heading: "Where is the poverty rate lowest?",
+        body: "In affluent residential towns of western Paris and on the edge of the big regional metros. Five cities sit at 6%: Maisons-Laffitte (median living standard €36,990), Le Chesnay-Rocquencourt (€33,520), Le Plessis-Robinson (€31,000), Carquefou (€27,830) and Vertou (€27,590). Next come Saint-Cloud (7%, €39,760), Versailles (7%, €33,780), Montigny-le-Bretonneux (7%, €30,360), La Chapelle-sur-Erdre, Allauch and Saint-Médard-en-Jalles (all 7%), then Neuilly-sur-Seine (8%, €48,010, the highest living standard in the ranking), Saint-Mandé, Sceaux and Vincennes (8%). Carquefou, Vertou and La Chapelle-sur-Erdre are in the Nantes area, Allauch in the Marseille area and Saint-Médard-en-Jalles in the Bordeaux area, so low poverty is not only a Paris story."
+      },
+      {
+        heading: "Where is it highest?",
+        body: "In the industrial north, the north-eastern inner suburbs of Paris and Réunion. Excluding Réunion, Roubaix (46%, €14,580) leads, ahead of Denain (43%, €14,890), La Courneuve (42%, €15,150), Clichy-sous-Bois (42%, €15,260), Aubervilliers (42%, €15,330), Creil (40%, €15,440), Garges-lès-Gonesse (39%, €15,750), Stains and Villiers-le-Bel (37%), then Saint-Denis, Maubeuge, Bobigny, Mulhouse and Béziers (36% to 37%). On the island, Saint-Benoît is at 46% with a median living standard of €14,550, the lowest of the 409 cities; Saint-André is at 44%, Saint-Joseph and Saint-Louis at 43% and Le Tampon at 38%. The highest median living standard (Neuilly, €48,010) is 3.3 times the lowest (Saint-Benoît)."
+      },
+      {
+        heading: "Which regions fare best?",
+        body: "The Pays de la Loire, Brittany and Île-de-France. For regions with at least ten cities of 20,000 or more, the median poverty rate is 13% in the Pays de la Loire (19 cities, median living standard €23,550), 15% in Brittany (10 cities, €22,735) and 16% in Île-de-France (153 cities, €24,250). Nouvelle-Aquitaine and Provence-Alpes-Côte d'Azur follow at 17%, then Auvergne-Rhône-Alpes and Centre-Val de Loire at 21%, Occitanie at 21.5%, and Grand Est, Normandy and Bourgogne-Franche-Comté at 23%. The Hauts-de-France (30 cities) sit at 26.5% with €18,960, and Réunion (10 cities) at 36% with €17,120: all ten of its cities are above 30%. In the south, Béziers (36%), Perpignan (34%), Avignon (33%) and Nîmes (31%) are the most affected."
+      },
+      {
+        heading: "Are big cities poorer than small ones?",
+        body: "A little, and above all more uneven. The median poverty rate is 18% for the 281 cities of 20,000 to 50,000 residents (median living standard €22,050), 21.5% for the 86 cities of 50,000 to 100,000 (€21,265) and 22.5% for the 42 cities of 100,000 or more (€21,165). Among the latter, Boulogne-Billancourt (9%, €35,040), Annecy (10%), Aix-en-Provence (15%), Lyon and Paris (16%, €25,430 and €29,730), then Nantes, Bordeaux and Dijon (17%) are lowest; Rennes, Grenoble, Tours, Caen, Angers and Toulouse sit between 21% and 22%. Marseille (26%), Strasbourg (26%), Lille (27%) and Montpellier (28%) are higher, and Perpignan (34%), Mulhouse and Saint-Denis (36% and 37%) close the list. A big city's rate is an average: its neighbourhoods span the whole scale."
+      },
+      {
+        heading: "What does the average hide in Île-de-France?",
+        body: "The widest gaps in the country, a few kilometres apart. Of the 153 Paris-region cities in the ranking, 37 are at 10% or below and 16 at 30% or above, so the region holds 37 of the country's 56 cities at 10% or below and 16 of its 47 at 30% or above. In Seine-Saint-Denis the 28 cities run from 14% to 42%; in Hauts-de-Seine from 6% to 28%; in Yvelines from 6% to 32%; in Val-d'Oise from 9% to 39%; in Val-de-Marne from 8% to 34%. Paris itself is at 16% with a median living standard of €29,730. When choosing a commune in the Paris region, the regional median (16%) says almost nothing: the commune's own rate, then its neighbours', matter far more."
+      },
+      {
+        heading: "Does a low living standard mean cheaper housing?",
+        body: "Not in the Paris region or on the Riviera. Among cities with at least 50 apartment sales in 2024-2025, Montreuil (25% poverty) has a median price of €5,938 per m², Pantin (27%) €5,857, Saint-Ouen-sur-Seine (26%) €6,376, Clichy (22%) €6,875, Cannes (21%) €5,714 and Nice (22%) €4,802. By contrast, several cities with poverty at 30% or above really are cheap: Maubeuge (€961 per m²), Laon (€1,136), Denain (€1,244), Charleville-Mézières (€1,306) and Alès (€1,452). Cities that are both affluent and affordable are rare: among cities at 12% or below, Mont-Saint-Aignan (10%, €2,000 per m²), Olivet (8%, €2,588), Challans (10%, €2,637), Élancourt (11%, €2,701) and Orvault (10%, €2,907) are the best placed."
+      },
+      {
+        heading: "What should you do with this ranking before moving?",
+        body: "Three uses. If you want a setting with little hardship, look at the city's rate and its neighbours', then at the district: the figures here are for the whole commune, and our district data helps you look closer. If you are investing, a high rate is not a verdict on yield, but it tells you how many tenants depend on benefits and the local job market. If you want affordable housing, cross this ranking with price per m² and the rents in our city profile. Limits: a single vintage (2021), cities under 20,000 residents excluded, and a national threshold that ignores local living costs, housing above all."
+      }
+    ],
+    relatedCities: ["maisons-laffitte", "le-chesnay-rocquencourt", "le-plessis-robinson", "carquefou", "vertou", "neuilly-sur-seine", "roubaix", "denain", "la-courneuve", "creil", "mulhouse", "perpignan", "nimes", "versailles"],
+    tags: ["poverty rate", "living standard", "median living standard", "income by city", "Filosofi", "INSEE", "deprivation", "inequality", "French city ranking"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

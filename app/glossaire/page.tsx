@@ -1131,6 +1131,40 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Niveau de vie et pauvreté",
+    emoji: "💶",
+    terms: [
+      {
+        term: "Niveau de vie",
+        def: "Revenu disponible d'un ménage (salaires, retraites, revenus du patrimoine et prestations sociales, moins impôts directs) rapporté à son nombre d'unités de consommation. Ce n'est ni un salaire ni un revenu par tête : deux ménages au même revenu n'ont pas le même niveau de vie s'ils ne comptent pas le même nombre de personnes. C'est la mesure que l'Insee utilise pour comparer les communes ; un classement de villes « par revenu » parle en réalité presque toujours de niveau de vie médian.",
+      },
+      {
+        term: "Unité de consommation (UC)",
+        def: "Pondération qui tient compte des économies d'échelle dans un ménage, selon l'échelle de l'OCDE modifiée : 1 UC pour le premier adulte, 0,5 pour chaque autre personne de 14 ans ou plus, 0,3 pour chaque enfant de moins de 14 ans. Un couple avec deux jeunes enfants compte donc 2,1 UC : son revenu disponible est divisé par 2,1, pas par 4.",
+      },
+      {
+        term: "Médiane et moyenne",
+        def: "La médiane partage la population en deux moitiés égales : la moitié des habitants a un niveau de vie inférieur, l'autre moitié supérieur. La moyenne est tirée vers le haut par les très hauts revenus. Pour décrire une commune, la médiane est la bonne mesure : quelques foyers très aisés font monter la moyenne sans changer ce que vit la moitié des habitants.",
+      },
+      {
+        term: "Seuil de pauvreté à 60 %",
+        def: "Convention française et européenne : est considéré comme pauvre un ménage dont le niveau de vie est inférieur à 60 % du niveau de vie médian national. Le seuil est donc identique à Paris, à Roubaix et à La Réunion et ne tient compte ni du coût du logement local ni du prix des biens sur place. Un seuil à 50 % existe aussi, plus bas, ce qui donne des taux plus faibles : il faut toujours vérifier lequel est cité.",
+      },
+      {
+        term: "Taux de pauvreté communal",
+        def: "Part des habitants d'une commune dont le niveau de vie est sous le seuil national. Il dit combien de personnes sont concernées, pas à quel point elles sont pauvres (c'est l'intensité de la pauvreté, une autre mesure). Il décrit les résidents, pas l'activité de la commune : une ville-centre qui accueille des étudiants a souvent un taux élevé parce que ceux-ci déclarent de faibles ressources, sans que le quartier soit précaire au sens habituel.",
+      },
+      {
+        term: "Filosofi",
+        def: "Fichier localisé social et fiscal de l'Insee : il croise les déclarations de revenus et les données des caisses de prestations pour publier niveau de vie et taux de pauvreté jusqu'à l'échelle de la commune, avec un décalage de deux à trois ans. Les communes les plus petites sont soumises au secret statistique et ne sont pas publiées. Les chiffres de MaVilleIdéale citent le millésime 2021 et le nomment chaque fois.",
+      },
+      {
+        term: "Quartier prioritaire de la politique de la ville (QPV)",
+        def: "Périmètre défini par l'État dans les communes où une forte part des habitants a de bas revenus, sur la base d'un critère de revenu et d'un seuil de population. Il ouvre droit à des dispositifs (renforts éducatifs, exonérations, aides aux commerces). Un taux de pauvreté communal élevé ne signifie pas qu'une commune est entièrement en QPV, et une commune à faible taux peut en compter un : c'est l'écart que masque la moyenne communale.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
