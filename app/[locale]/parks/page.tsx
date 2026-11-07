@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
@@ -97,13 +97,12 @@ export default function ParksHubPage() {
   };
 
   return (
-    <main id="main-content" className="min-h-screen relative">
-      <AmbientBackground />
+    <main id="main-content" className="min-h-screen relative bg-[var(--bg-canvas)]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(itemListJsonLd)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <Navbar />
 
-      <section className="relative overflow-hidden py-12 sm:py-16 border-b border-[var(--border)]">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Home</Link>
@@ -111,18 +110,26 @@ export default function ParksHubPage() {
             <span className="text-[var(--text-secondary)]">Parks &amp; green space</span>
           </nav>
 
-          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🌳 Green space
-          </p>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji="🌳" tone="aqua" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Green space
+            </span>
+          </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--text-primary)] mb-4">
-            Somewhere other than the usual park
+            Somewhere other than <span className="font-display gradient-text-anim italic">the usual park</span>
           </h1>
           <p className="max-w-2xl text-[var(--text-secondary)]">
             Parks, public gardens and playgrounds mapped city by city, with the details that decide a
             Saturday morning: playground, step-free access, drinking water, shade.
           </p>
 
-          <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-3">
+        </div>
+      </section>
+
+      <section className="band band-indigo py-8 sm:py-10">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
               { v: PARKS_TOTAL.toLocaleString("en-GB"), l: "parks mapped" },
               { v: rows.length, l: "cities with a named park" },
@@ -131,9 +138,9 @@ export default function ParksHubPage() {
             ].map((s) => (
               <div
                 key={s.l}
-                className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3"
+                className="rounded-2xl bg-white px-4 py-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]"
               >
-                <div className="text-xl font-bold font-mono-data text-[var(--accent)]">{s.v}</div>
+                <div className="text-2xl font-bold font-mono-data text-[#4338CA]">{s.v}</div>
                 <div className="text-xs text-[var(--text-secondary)] mt-0.5">{s.l}</div>
               </div>
             ))}
@@ -141,9 +148,9 @@ export default function ParksHubPage() {
         </div>
       </section>
 
-      <section className="py-10 sm:py-14">
+      <section className="band band-sky py-10 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-1">
+          <h2 className="text-xl sm:text-2xl font-bold mb-1 gradient-text">
             Cities, best-served first
           </h2>
           <p className="text-sm text-[var(--text-secondary)] mb-6">
@@ -152,17 +159,17 @@ export default function ParksHubPage() {
           </p>
 
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-            {rows.slice(0, INITIAL_VISIBLE).map((r) => (
+            {rows.slice(0, INITIAL_VISIBLE).map((r, i) => (
               <Link
                 key={r.slug}
                 href={`/cities/${r.slug}/parks`}
-                className="group rounded-xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] hover:border-[var(--accent)]/40 hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
+                className="group rounded-2xl bg-white ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)] hover:ring-[#67E8F9] hover:-translate-y-0.5 transition-all px-4 py-3"
               >
                 <div className="flex items-baseline justify-between gap-2">
                   <span className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                     {r.name}
                   </span>
-                  <span className="text-sm font-bold font-mono-data text-[var(--accent)] shrink-0">
+                  <span className={`inline-flex h-7 min-w-7 shrink-0 items-center justify-center rounded-full px-2 text-xs font-bold font-mono-data grad-head-${i % 6}`}>
                     {r.count}
                   </span>
                 </div>
@@ -176,7 +183,7 @@ export default function ParksHubPage() {
                   </div>
                 )}
                 {r.playgrounds > 0 && (
-                  <div className="mt-2 inline-flex items-center rounded-full bg-[var(--accent-soft)] px-2 py-0.5 text-[11px] font-medium text-emerald-700">
+                  <div className="mt-2 inline-flex items-center rounded-full bg-[#CFFAFE] px-2 py-0.5 text-[11px] font-medium text-[#0E7490]">
                     🛝 {r.playgrounds} playground{r.playgrounds > 1 ? "s" : ""}
                   </div>
                 )}
@@ -188,7 +195,7 @@ export default function ParksHubPage() {
               a link ~100 B. Every city stays in the static HTML and crawlable.
               See CLAUDE.md § Performance constraints. */}
           {rows.length > INITIAL_VISIBLE && (
-            <details className="mt-6 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-3">
+            <details className="mt-6 rounded-2xl bg-white px-4 py-3 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
               <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">
                 The other {rows.length - INITIAL_VISIBLE} mapped cities
               </summary>
@@ -208,7 +215,13 @@ export default function ParksHubPage() {
             </details>
           )}
 
-          <p className="mt-8 text-sm text-[var(--text-secondary)]">
+        </div>
+      </section>
+
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <div className="rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)]">
+          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
             All {PARKS_CITY_COUNT} cities on the site have been surveyed on OpenStreetMap.
             {PARKS_CITY_WITHOUT_PARKS_COUNT > 0 && (
               <>
@@ -233,6 +246,7 @@ export default function ParksHubPage() {
             {OSM_CREDIT_EN}. Missing a park? Add it to OpenStreetMap and it will show up here on the
             next survey.
           </p>
+          </div>
         </div>
       </section>
 

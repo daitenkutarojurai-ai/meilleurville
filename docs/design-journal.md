@@ -1390,3 +1390,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/parcs` (index national des parcs).
 2. Hub `/sport` (classement national, renvoyé par cette page).
 3. Page agenda (hub).
+
+## 2026-11-07 ~11:00 UTC — hub `/parcs` (FR) + EN `/parks`
+
+**Surface** : index national des parcs, 2 locales. Avant : `AmbientBackground`, hero blanc à filet, un seul gros bloc sur fond de page, cartes grises à dégradé, pastille aire de jeux en vert émeraude (couleur réservée aux paliers).
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🌳 aqua + pilule `grad-head-0`, fin du titre en `gradient-text-anim` ; 4 chiffres clés sortis du hero en `band-indigo` (cartes blanches à ombre indigo, chiffre 2xl `#4338CA`) ; liste des villes en `band-sky` (cartes blanches à ombre cyan, nombre de parcs en pastille `grad-head-${i % 6}` — pas de numéro de rang, les égalités de nombre sont fréquentes ; aire de jeux en cyan `#0E7490` sur `#CFFAFE` ; index `<details>` en carte blanche) ; couverture OSM + renvoi plein air (FR) + source ODbL dans une carte blanche en `band-lilac` ; feedback (FR) en `band-white`. h2 en `.gradient-text`. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/parcs` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé. Vu (préexistant, en dev) : « 13communes » collé, même symptôme que « 593villes ».
+
+**Prochaines surfaces candidates**
+1. Hub `/sport` (classement national, + EN).
+2. Page agenda (hub).
+3. Hubs Red Flags.
