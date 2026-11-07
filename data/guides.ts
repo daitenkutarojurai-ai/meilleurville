@@ -71090,6 +71090,312 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "vacances-monoparentales-amboise-2026",
+    title: "Vacances monoparentales à Amboise en 2026",
+    metaTitle: "Vacances monoparentales à Amboise 2026",
+    metaDesc: "Amboise : 7,5/10 au composite monoparental, T3 880 €, sécurité 7,5/10. Train depuis Tours, coût, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Amboise sort à 7,5/10 au composite « famille monoparentale », deuxième des soixante et onze destinations (source : notre indice de séjour). Le détail : qualité de vie 8,7/10, sécurité 7,5/10, coût de la vie 6,7/10 et transports 5,6/10 (source : notre fiche ville). Le marché : 880 € le T3 de référence et 2 600 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 13 132 habitants au recensement 2022, contre 13 005 en 2011, soit une hausse de 1,0 % (source : Insee, recensements). Le moteur la classe en €€. La qualité de vie porte la note, avec un point faible assumé : les transports, où elle se place très bas.",
+    sections: [
+      {
+        heading: "Rejoindre Amboise en train, sans voiture",
+        body: "Selon les comparateurs consultés en ligne avant écriture, le trajet en TER entre Tours et Amboise dure environ une vingtaine de minutes (de 18 à 20 minutes selon la source), en train direct, avec une dizaine de départs par jour d'après les mêmes pages. Pour un parent solo venu de loin, le plan est donc en deux temps : un TGV ou un Intercités jusqu'à Tours, puis le TER. Les horaires exacts se vérifient sur SNCF Connect à la date voulue. Le temps de marche entre la gare et le château n'a pas pu être vérifié dans les sources consultées : à mesurer sur une carte avant de partir avec des jambes d'enfant. L'axe transports est à 5,6/10, sous la médiane de série (6,7), soixante et unième des soixante et onze destinations à égalité avec trois autres. Il décrit la commune, pas la liaison avec Tours, qui est bonne : sur place, prévoir de tout faire à pied."
+      },
+      {
+        heading: "Quel budget : où la ville se place dans la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Amboise sort à 6,7/10 (source : notre fiche ville), dix-huitième des soixante et onze destinations à égalité avec huit autres, pour une médiane de série à 6,2. Le marché : 880 € le T3 de référence et 2 600 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Ce sont des repères de marché résidentiel et non des tarifs de vacances : le prix d'une chambre ou d'une location saisonnière varie avec la saison et se vérifie auprès de l'hébergeur. À 23 kilomètres, Tours affiche un T3 à 940 € et un coût de la vie à 5,9/10 : Amboise y est un peu moins chère et plus petite, ce qui joue sur la facture d'un séjour de plusieurs nuits."
+      },
+      {
+        heading: "Château royal, Clos Lucé et centre à pied",
+        body: "Le château royal d'Amboise et le Clos Lucé, où Léonard de Vinci a vécu ses dernières années, sont les deux visites centrales : horaires et tarifs se vérifient auprès des établissements, et le billet se calibre sur l'âge des enfants plutôt que sur l'ambition du parent. La Loire borde le centre, qui se parcourt à pied. Les sorties de repli par mauvais temps sont les mêmes lieux couverts. Deux jours suffisent pour le patrimoine, davantage si l'on ajoute des balades au bord du fleuve. Aucun horaire ni tarif n'est cité ici faute de source vérifiable."
+      },
+      {
+        heading: "6 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 6 espaces verts sur la commune, dont 3 portent une aire de jeux : le parc Leonardo da Vinci, La Sapinière et le parc de la Richardière (source : OpenStreetMap). Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 7,5/10, qualité de vie 8,7/10",
+        body: "Amboise affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), onzième des soixante et onze destinations à égalité avec trois autres, pour une médiane de série à 5,9. Cet indicateur est un agrégat communal : il décrit une commune entière et jamais un quartier ni une heure de la journée, et il est estimé par notre modèle à partir de la taille de la commune et de données départementales, pas à partir de faits constatés. La qualité de vie est à 8,7/10, troisième des soixante et onze destinations à égalité avec trois autres. C'est le meilleur atout de la ville : un parent solo y trouve un centre vivant et compact, où tout se fait à pied. L'envers est la pente touristique : en saison, le centre se remplit autour des deux grands sites."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Tours (Tours-Saint-Symphorien), à 19 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,1 °C de moyenne en janvier et 20,2 °C en juillet. Les ancres propres à la commune viennent du seed : 5 °C en janvier, 22 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis septembre, puis juillet. L'affluence monte jusqu'au niveau 4 en juillet et en août : pour un parent solo qui veut éviter les files au château, juin et septembre sont les mois à viser."
+      },
+      {
+        heading: "Aides : les dispositifs, et pourquoi aucun montant n'est écrit ici",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse d'Indre-et-Loire est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["amboise", "tours", "blois"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Amboise",
+      "parent solo Indre-et-Loire",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-fontainebleau-2026",
+    title: "Vacances monoparentales à Fontainebleau en 2026",
+    metaTitle: "Vacances monoparentales à Fontainebleau 2026",
+    metaDesc: "Fontainebleau : 7,4/10 au composite monoparental, mais T3 1 200 €. Train 40 min de Paris, parcs, coût et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Fontainebleau sort à 7,4/10 au composite « famille monoparentale », troisième des soixante et onze destinations (source : notre indice de séjour), alors que son coût de la vie est à 4,6/10, soixante-troisième. Le détail : qualité de vie 8,7/10, sécurité 8,1/10, transports 6,4/10 (source : notre fiche ville). Le marché : 1 200 € le T3 de référence et 3 800 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 15 787 habitants au recensement 2022, contre 14 708 en 2011, soit une hausse de 7,3 % (source : Insee, recensements). Le moteur la classe en €€€€. Lecture honnête : c'est l'une des destinations les plus chères du lot, qui se justifie surtout en excursion à la journée depuis l'Île-de-France.",
+    sections: [
+      {
+        heading: "Fontainebleau en train depuis Paris, et le dernier kilomètre",
+        body: "Selon les comparateurs consultés en ligne avant écriture, le trajet entre Paris-Gare de Lyon et Fontainebleau-Avon dure environ 40 à 41 minutes sur la ligne R du Transilien. La gare se trouve à Avon, à environ 3 kilomètres du château : des bus desservent la gare à l'arrivée des trains d'après l'office de tourisme local, et une partie du trajet se fait à pied pour qui accepte la marche. Horaires et correspondances se vérifient sur SNCF Connect ou Île-de-France Mobilités. L'axe transports est à 6,4/10, sous la médiane de série (6,7), trente-huitième des soixante et onze destinations à égalité avec treize autres. Pour un parent solo, la formule la plus simple reste la journée : 40 minutes de train, pas de voiture à garer."
+      },
+      {
+        heading: "Le coût : le point faible de la ville",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Fontainebleau sort à 4,6/10 (source : notre fiche ville), soixante-troisième des soixante et onze destinations à égalité avec une autre, pour une médiane de série à 6,2. Le marché : 1 200 € le T3 de référence et 3 800 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Ce sont des repères résidentiels et non des tarifs de vacances, mais l'écart dit le niveau de prix de la zone. À 15 kilomètres, Melun affiche un T3 à 1 010 € pour un coût de la vie de 4,6/10 : la proximité de l'Île-de-France tire les deux villes vers le haut, et seul le séjour court limite la facture."
+      },
+      {
+        heading: "Château et forêt : le programme à pied et en train",
+        body: "Le château de Fontainebleau, classé à l'UNESCO, est la visite centrale, à calibrer sur l'âge des enfants ; ses jardins sont une sortie de plein air qui ne demande rien de plus qu'une paire de chaussures. La forêt de Fontainebleau, qui entoure la ville, offre des promenades et des rochers qui plaisent aux enfants, mais certaines zones sont loin de la gare : se renseigner sur les accès avant de partir sans voiture. Horaires et tarifs se vérifient auprès des établissements."
+      },
+      {
+        heading: "10 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 10 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap), pour environ 31 hectares cumulés. On y trouve le Jardin Français, le Jardin Anglais et le Jardin de Diane, ainsi que des squares aménagés comme le square des Lilas. Le relevé est contributif, pas un registre : ces nombres sont des planchers. La forêt, hors du périmètre communal relevé, s'ajoute à ce décompte."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 8,7/10",
+        body: "Fontainebleau affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), quatrième des soixante et onze destinations à égalité avec trois autres, pour une médiane de série à 5,9. L'indicateur est un agrégat communal estimé par notre modèle à partir de la taille de la commune et de données départementales : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 8,7/10, troisième des soixante et onze destinations à égalité avec trois autres. C'est le contraste de la ville : tout ce qui rend un séjour agréable est en haut du classement, sauf le prix. Pour un budget d'un seul revenu, la question n'est pas de savoir si la ville est bien, mais combien de nuits on peut s'y offrir."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Paris (Paris-Montsouris), à 54 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,4 °C de moyenne en janvier et 20,9 °C en juillet. Les ancres propres à la commune viennent du seed : 4 °C en janvier, 20 °C en juillet et 1 680 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis juillet, puis août. L'affluence reste faible presque toute l'année : la contrainte n'est pas la foule mais le tarif."
+      },
+      {
+        heading: "Aides : dispositifs à examiner, sans montant",
+        body: "Aucun montant d'aide n'est donné ici : les plafonds changent d'une année à l'autre et se règlent sur le quotient familial, donc le bon chiffre est celui de l'organisme, à la date de la demande. Dans l'ordre où je les vérifierais : le comité social et économique de l'employeur, qui finance parfois une partie du séjour ou de la billetterie ; la caisse de Seine-et-Marne, dont les aides aux vacances varient selon les territoires et se consultent sur caf.fr ; VACAF (vacaf.org), qui n'agit que dans des structures conventionnées, à repérer avant de réserver ; les chèques-vacances de l'ANCV (ancv.com), utilisables chez une partie des hébergeurs et des lieux de visite. Les demandes se déposent plusieurs mois avant le départ, et les conditions de résidence priment sur la nationalité."
+      }
+    ],
+    relatedCities: ["fontainebleau", "melun", "paris"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Fontainebleau",
+      "parent solo Seine-et-Marne",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-le-puy-en-velay-2026",
+    title: "Vacances monoparentales au Puy-en-Velay en 2026",
+    metaTitle: "Vacances monoparentales au Puy-en-Velay 2026",
+    metaDesc: "Le Puy-en-Velay : 7,3/10 au composite monoparental, T3 700 €, mais transports dernière de la série. Train, coût, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Le Puy-en-Velay sort à 7,3/10 au composite « famille monoparentale », quatrième des soixante et onze destinations à égalité avec quatre autres (source : notre indice de séjour), tout en étant dernière sur l'axe transports (4,2/10). Le détail : sécurité 8,1/10, coût de la vie 7,6/10, qualité de vie 7,8/10 (source : notre fiche ville). Le marché : 700 € le T3 de référence et 1 600 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 18 989 habitants au recensement 2022, contre 18 537 en 2011, soit une hausse de 2,4 % (source : Insee, recensements). Le moteur la classe en €€. Le contraste est le sujet : bonne note d'ensemble, mais la ville où il est le moins facile de venir sans voiture dans notre échantillon.",
+    sections: [
+      {
+        heading: "Venir au Puy sans voiture : le revers du classement",
+        body: "L'axe transports est à 4,2/10, très sous la médiane de série (6,7) et dernière des soixante et onze destinations. Selon les comparateurs consultés en ligne avant écriture, le TER entre Saint-Étienne et Le Puy dure environ 1 h 15 à 1 h 20, avec de six à neuf départs par jour selon les pages ; depuis Lyon-Part-Dieu, un trajet avec changement à Saint-Étienne-Châteaucreux est annoncé autour de 2 h 14. Horaires exacts sur SNCF Connect, à la date voulue. Pour un parent solo, ça veut dire une journée de voyage avec un enfant fatigué si les correspondances ratent : prévoir de la marge, et un sac de jeux plutôt qu'un écran à court de batterie."
+      },
+      {
+        heading: "Le coût : un des meilleurs rangs de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Le Puy sort à 7,6/10 (source : notre fiche ville), quatrième des soixante et onze destinations à égalité avec sept autres, pour une médiane de série à 6,2. Le marché : 700 € le T3 de référence et 1 600 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. Ce sont des repères résidentiels et non des tarifs de vacances. À 36 kilomètres, Monistrol-sur-Loire affiche un T3 à 830 € ; à 48 kilomètres, Brioude à 600 €. Le coût bas de la destination compense en partie le prix du trajet : c'est le trajet, pas le séjour, qui pèse dans le budget."
+      },
+      {
+        heading: "Cathédrale, rocher d'Aiguilhe et ville haute à pied",
+        body: "La cathédrale Notre-Dame, la chapelle Saint-Michel d'Aiguilhe, perchée sur son rocher volcanique, et la statue Notre-Dame de France sont les visites centrales, à calibrer sur l'âge des enfants : les escaliers et les pentes de la vieille ville fatiguent des petites jambes, et une poussette y est un handicap. Horaires et tarifs se vérifient auprès des établissements. La ville est aussi une étape de pèlerinage."
+      },
+      {
+        heading: "5 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap), pour environ 11 hectares cumulés. Le bois de Bonneterre et le jardin Henri Vinay en font partie. Le relevé est contributif, pas un registre : un équipement non cartographié n'y figure pas, donc ces nombres sont des planchers de ce que la ville offre."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 7,8/10",
+        body: "Le Puy affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), quatrième des soixante et onze destinations à égalité avec trois autres, pour une médiane de série à 5,9. L'indicateur est un agrégat communal, estimé par notre modèle à partir de la taille de la commune et de données départementales : il ne décrit ni un quartier ni une heure de la journée, et ne juge pas les habitants. La qualité de vie est à 7,8/10, huitième des soixante et onze destinations à égalité avec sept autres. La ville est calme, plus patrimoniale que festive. Un parent solo y gagne en sérénité et en prix, et y perd en mobilité autonome : tout dépend du programme qu'il vise."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Clermont-Ferrand (Clermont-Aulnat), à 101 kilomètres (source : normales Météo-France 1991-2020). Elle donne 4,3 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 21 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juillet en tête, puis juin, puis août. La station est à plus de 100 kilomètres : l'inférence est grossière, d'autant que la ville est en altitude. L'affluence reste au niveau 1 ou 2 presque toute l'année, avec un pic modéré en été."
+      },
+      {
+        heading: "Aides : ce qui existe, sans chiffre",
+        body: "Pour les aides, ce guide décrit les dispositifs et renvoie vers les organismes, sans chiffrer : les barèmes dépendent du quotient familial et sont révisés. Quatre portes d'entrée. La caisse d'allocations familiales de la Haute-Loire d'abord, qui peut proposer des aides aux vacances selon les territoires (conditions sur caf.fr). VACAF ensuite (vacaf.org) : l'aide se déduit de la facture, mais seulement dans une structure conventionnée, ce qui se contrôle avant de payer. L'ANCV (ancv.com) et ses chèques-vacances, acceptés par une partie des hébergeurs et des sites culturels. Enfin le comité social et économique de l'employeur, qui négocie souvent des tarifs ou une participation. Plusieurs mois d'avance évitent de découvrir un dossier clos."
+      }
+    ],
+    relatedCities: ["le-puy-en-velay", "monistrol-sur-loire", "brioude"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Le Puy-en-Velay",
+      "parent solo Haute-Loire",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-vitre-2026",
+    title: "Vacances monoparentales à Vitré en 2026",
+    metaTitle: "Vacances monoparentales à Vitré 2026",
+    metaDesc: "Vitré : 7,3/10 au composite monoparental, T3 800 €, sécurité 8,5/10. TGV direct depuis Paris, coût, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Vitré sort à 7,3/10 au composite « famille monoparentale », quatrième des soixante et onze destinations à égalité avec quatre autres (source : notre indice de séjour). Le détail : sécurité 8,5/10, deuxième de la série, coût de la vie 7,6/10, transports 5,6/10 et qualité de vie 6,8/10 (source : notre fiche ville). Le marché : 800 € le T3 de référence et 2 200 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 18 892 habitants au recensement 2022, contre 17 106 en 2011, soit une hausse de 10,4 % (source : Insee, recensements). Le moteur la classe en €€. C'est la sécurité qui porte la note, avec un TGV direct pour Paris.",
+    sections: [
+      {
+        heading: "Vitré en train : un TGV direct depuis Paris",
+        body: "Selon les comparateurs consultés en ligne avant écriture, un TGV direct relie Paris-Montparnasse à Vitré en environ 1 h 32 à 1 h 38 pour le plus rapide ; la durée moyenne annoncée est plus longue, autour de 2 h 20, et les trajets avec correspondance peuvent dépasser 2 h 30. Il faut compter de 9 à 13 départs par jour selon les pages. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 5,6/10, sous la médiane de série (6,7), soixante et unième des soixante et onze destinations à égalité avec trois autres : il décrit la commune, pas la desserte ferroviaire, qui est son vrai atout pour un parent solo venu d'ailleurs. Le temps de marche entre la gare et le centre n'a pas pu être vérifié : à mesurer sur une carte."
+      },
+      {
+        heading: "Quel budget : 300 € de moins que Rennes",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Vitré sort à 7,6/10 (source : notre fiche ville), quatrième des soixante et onze destinations à égalité avec sept autres, pour une médiane de série à 6,2. Le marché : 800 € le T3 de référence et 2 200 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. À 35 kilomètres, Rennes affiche un T3 à 1 100 € et un coût de la vie à 5,7/10 : Vitré coûte 300 € de moins sur ce repère, avec un TER ou un TGV entre les deux. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'une chambre se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Château, rue Beaudrairie et remparts",
+        body: "Le château de Vitré, forteresse médiévale qui domine la ville, et la rue Beaudrairie, bordée de maisons à pans de bois, sont les visites centrales : la rue se fait en une demi-heure à pied avec des enfants, le château demande plus de temps et d'escaliers. Horaires et tarifs se vérifient auprès des établissements. La ville est une étape de séjour court, à coupler avec Rennes ou Laval pour compléter le programme ; à 33 kilomètres, Laval affiche un T3 à 660 €."
+      },
+      {
+        heading: "4 espaces verts relevés, dont 1 avec aire de jeux",
+        body: "Le relevé cartographique retient 4 espaces verts sur la commune, dont 1 porte une aire de jeux, le jardin du Parc (source : OpenStreetMap), pour environ 8 hectares cumulés. On y relève aussi les Tertres Noirs, le Pré des Lavandières et les jardins de la Trémoille. À confirmer sur place avec l'office de tourisme : le relevé est contributif et ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,5/10, qualité de vie 6,8/10",
+        body: "Vitré affiche 8,5/10 sur l'axe sécurité (source : notre fiche ville), deuxième des soixante et onze destinations, pour une médiane de série à 5,9. L'indicateur est un agrégat communal estimé par notre modèle à partir de la taille de la commune et de données départementales : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,8/10, vingt-sixième des soixante et onze destinations à égalité avec onze autres, soit la médiane de série : c'est le point d'attention. La ville est tranquille, et animée surtout les jours de marché ou d'événements. Un parent solo y gagne de la sérénité, et y perd en choix de sorties."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Rennes (Rennes-Saint-Jacques), à 39 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,2 °C de moyenne en janvier et 19,2 °C en juillet. Les ancres propres à la commune viennent du seed : 5,5 °C en janvier, 20,5 °C en juillet et 1 850 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juillet en tête, puis août, puis juin. Le climat est océanique et frais en été : une destination où un pull dans le sac reste un bon réflexe, y compris en juillet."
+      },
+      {
+        heading: "Aides : dispositifs et organismes, sans montant",
+        body: "Aucun montant d'aide n'est donné ici : les plafonds changent d'une année à l'autre et se règlent sur le quotient familial, donc le bon chiffre est celui de l'organisme, à la date de la demande. Dans l'ordre où je les vérifierais : le comité social et économique de l'employeur, qui finance parfois une partie du séjour ou de la billetterie ; la caisse d'Ille-et-Vilaine, dont les aides aux vacances varient selon les territoires et se consultent sur caf.fr ; VACAF (vacaf.org), qui n'agit que dans des structures conventionnées, à repérer avant de réserver ; les chèques-vacances de l'ANCV (ancv.com), utilisables chez une partie des hébergeurs et des lieux de visite. Les demandes se déposent plusieurs mois avant le départ, et les conditions de résidence priment sur la nationalité."
+      }
+    ],
+    relatedCities: ["vitre", "rennes", "laval"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Vitré",
+      "parent solo Ille-et-Vilaine",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-saverne-2026",
+    title: "Vacances monoparentales à Saverne en 2026",
+    metaTitle: "Vacances monoparentales à Saverne 2026",
+    metaDesc: "Saverne : 7,3/10 au composite monoparental, T3 970 €, sécurité 8,1/10. TER de Strasbourg en 25 à 45 min, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Saverne sort à 7,3/10 au composite « famille monoparentale », quatrième des soixante et onze destinations à égalité avec quatre autres (source : notre indice de séjour). Le détail : sécurité 8,1/10, qualité de vie 7,8/10, coût de la vie 6,7/10 et transports 5,6/10 (source : notre fiche ville). Le marché : 970 € le T3 de référence et 2 600 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 11 323 habitants au recensement 2022, contre 11 685 en 2011, soit une baisse de 3,1 % (source : Insee, recensements). Le moteur la classe en €€. C'est une porte d'entrée vers l'Alsace par le train, avec Strasbourg à une demi-heure.",
+    sections: [
+      {
+        heading: "Saverne en TER depuis Strasbourg",
+        body: "Selon les comparateurs consultés en ligne avant écriture, le TER entre Strasbourg et Saverne dure de 25 à 45 minutes selon le train, avec en moyenne une quinzaine de départs par jour d'après les pages consultées. Horaires exacts sur le site TER Grand Est ou SNCF Connect, à la date voulue. L'axe transports est à 5,6/10, sous la médiane de série (6,7), soixante et unième des soixante et onze destinations à égalité avec trois autres. Pour un parent solo, la formule qui marche : loger à Saverne pour son coût plus bas qu'à Strasbourg, et faire les sorties de la métropole en demi-journée, sans voiture ni parking. La distance gare-centre n'a pas pu être vérifiée dans les sources consultées."
+      },
+      {
+        heading: "Le coût : proche de la médiane de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Saverne sort à 6,7/10 (source : notre fiche ville), dix-huitième des soixante et onze destinations à égalité avec huit autres, pour une médiane de série à 6,2. Le marché : 970 € le T3 de référence et 2 600 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. À 32 kilomètres, Obernai (déjà dans la série) affiche un T3 à 1 040 € ; à 23 kilomètres, Sarrebourg, en Moselle, affiche 820 €. Ce sont des repères résidentiels et non des tarifs de vacances."
+      },
+      {
+        heading: "Château des Rohan, roseraie et canal",
+        body: "Le château des Rohan, palais du XVIIIe siècle qui borde le canal de la Marne au Rhin, est la visite centrale, avec la roseraie et le jardin botanique pour une sortie de plein air adaptée aux petits. Le canal se longe à pied ou à vélo, ce qui plaît aux enfants. Les sites de hauteur de la région demandent un véhicule ou une marche soutenue : à calibrer sur l'âge des enfants. Horaires et tarifs se vérifient auprès des établissements."
+      },
+      {
+        heading: "5 espaces verts relevés, dont 0 avec aire de jeux",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune, dont aucun ne porte d'aire de jeux (source : OpenStreetMap), pour environ 4 hectares cumulés : le jardin botanique, la roseraie, un jardin partagé des remparts, le jardin public interreligieux. Le relevé est contributif, pas un registre : une aire de jeux non cartographiée n'y figure pas. Pour des enfants qui ont besoin de se dépenser, vérifier auprès de l'office de tourisme avant de réserver."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 7,8/10",
+        body: "Saverne affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), quatrième des soixante et onze destinations à égalité avec trois autres, pour une médiane de série à 5,9. L'indicateur est un agrégat communal estimé par notre modèle à partir de la taille de la commune et de données départementales : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 7,8/10, huitième des soixante et onze destinations à égalité avec sept autres. La ville est une petite sous-préfecture alsacienne, calme le soir. La population a reculé de 3,1 % depuis 2011 : le recensement le constate, il ne l'explique pas."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Strasbourg (Strasbourg-Entzheim), à 29 kilomètres (source : normales Météo-France 1991-2020). Elle donne 2,5 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 2 °C en janvier, 22,5 °C en juillet et 1 800 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis août, puis juillet. Les hivers sont froids : janvier à 2,5 °C à la station de référence. La destination se visite toute l'année, mais les mois frais demandent des activités couvertes pour les enfants."
+      },
+      {
+        heading: "Aides : les pistes à vérifier, sans montant",
+        body: "Pour les aides, ce guide décrit les dispositifs et renvoie vers les organismes, sans chiffrer : les barèmes dépendent du quotient familial et sont révisés. Quatre portes d'entrée. La caisse d'allocations familiales du Bas-Rhin d'abord, qui peut proposer des aides aux vacances selon les territoires (conditions sur caf.fr). VACAF ensuite (vacaf.org) : l'aide se déduit de la facture, mais seulement dans une structure conventionnée, ce qui se contrôle avant de payer. L'ANCV (ancv.com) et ses chèques-vacances, acceptés par une partie des hébergeurs et des sites culturels. Enfin le comité social et économique de l'employeur, qui négocie souvent des tarifs ou une participation. Plusieurs mois d'avance évitent de découvrir un dossier clos."
+      }
+    ],
+    relatedCities: ["saverne", "sarrebourg", "obernai"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Saverne",
+      "parent solo Bas-Rhin",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-lannion-2026",
+    title: "Vacances monoparentales à Lannion en 2026",
+    metaTitle: "Vacances monoparentales à Lannion 2026",
+    metaDesc: "Lannion : 7,2/10 au composite monoparental, T3 800 €, 14 aires de jeux relevées. Train via Plouaret, coût, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Lannion sort à 7,2/10 au composite « famille monoparentale », neuvième des soixante et onze destinations à égalité avec deux autres (source : notre indice de séjour). Le détail : sécurité 8,2/10, troisième de la série, coût de la vie 7,6/10, qualité de vie 7,4/10 et transports 4,9/10 (source : notre fiche ville). Le marché : 800 € le T3 de référence et 2 100 € le mètre carré (source : notre estimation des loyers), contre une médiane de série à 930 € et 2 500 €. La commune compte 20 525 habitants au recensement 2022, contre 19 920 en 2011, soit une hausse de 3,0 % (source : Insee, recensements). Le moteur la classe en €€. Atout : un équipement jeux fourni. Limite : un accès en train qui demande une correspondance.",
+    sections: [
+      {
+        heading: "Rejoindre Lannion en train : la correspondance de Plouaret",
+        body: "Selon les comparateurs consultés en ligne avant écriture, la liaison Paris-Lannion demande une correspondance (Guingamp, Plouaret-Trégor ou Saint-Brieuc) et dure en moyenne autour de 3 h 30, de 3 h 20 à plus de 5 h selon les trains. La ligne Plouaret-Lannion est un court TER, d'environ 23 minutes au plus. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 4,9/10, très sous la médiane de série (6,7), soixante-neuvième des soixante et onze destinations à égalité avec une autre. Sur place, la côte se joue en bus ou en voiture : se renseigner sur les lignes avant de réserver si l'on ne conduit pas."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Lannion sort à 7,6/10 (source : notre fiche ville), quatrième des soixante et onze destinations à égalité avec sept autres, pour une médiane de série à 6,2. Le marché : 800 € le T3 de référence et 2 100 € le mètre carré (source : notre estimation des loyers), contre 930 € et 2 500 € de médiane de série. À 30 kilomètres, Guingamp affiche un T3 à 720 € ; à 32 kilomètres, Morlaix à 710 €. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'une location sur la côte, plus chère en été, se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Vieille ville, Trégor et Côte de Granit rose",
+        body: "Le centre ancien de Lannion, avec ses maisons à pans de bois, se parcourt à pied, et l'église de Brélévenez domine la ville en haut d'un escalier de pierre qui plaît aux enfants. La Côte de Granit rose, sur le littoral voisin, est la sortie phare : elle demande un transport, donc un budget bus ou voiture à prévoir. Horaires et tarifs se vérifient auprès des établissements et de l'office de tourisme."
+      },
+      {
+        heading: "19 espaces verts relevés, dont 14 avec aire de jeux",
+        body: "Le relevé cartographique retient 19 espaces verts sur la commune, dont 14 portent une aire de jeux (source : OpenStreetMap) : le parc Sainte-Anne, le jardin public, le square de Loguivy, le square des Frères Provost ou encore le jardin des sens dessus dessous. L'emprise cumulée est faible, environ 3 hectares : ce sont surtout de petits squares, faciles à enchaîner à pied. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,2/10, qualité de vie 7,4/10",
+        body: "Lannion affiche 8,2/10 sur l'axe sécurité (source : notre fiche ville), troisième des soixante et onze destinations, pour une médiane de série à 5,9. L'indicateur est un agrégat communal estimé par notre modèle à partir de la taille de la commune et de données départementales : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 7,4/10, dix-septième des soixante et onze destinations à égalité avec trois autres. Avec 20 525 habitants, la ville offre plus de services qu'une petite sous-préfecture, ce qui compte quand un seul adulte gère les courses, la garde et les trajets."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Brest (Brest-Guipavas), à 77 kilomètres (source : normales Météo-France 1991-2020). Elle donne 7,1 °C de moyenne en janvier et 17,0 °C en juillet. Les ancres propres à la commune viennent du seed : 7 °C en janvier, 19 °C en juillet et 1 650 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux d'une ville donnée. Le moteur place juin en tête, puis juillet, puis septembre. Hivers doux, étés frais : janvier à 7,1 °C, juillet à 17,0 °C à la station de référence, qui est à 77 kilomètres. L'affluence atteint le niveau 4 en été sur la côte : juin et septembre sont les mois les plus faciles."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse des Côtes-d'Armor est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["lannion", "guingamp", "morlaix"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Lannion",
+      "parent solo Côtes-d'Armor",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
     slug: "10-choses-a-faire-a-gerardmer-2026",
     title: "10 choses à faire à Gérardmer",
     metaTitle: "10 choses à faire à Gérardmer en 2026",

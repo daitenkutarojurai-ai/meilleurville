@@ -10712,6 +10712,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-amboise-2026",
+      "title": "Vacances monoparentales à Amboise en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-fontainebleau-2026",
+      "title": "Vacances monoparentales à Fontainebleau en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-le-puy-en-velay-2026",
+      "title": "Vacances monoparentales au Puy-en-Velay en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-vitre-2026",
+      "title": "Vacances monoparentales à Vitré en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saverne-2026",
+      "title": "Vacances monoparentales à Saverne en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-lannion-2026",
+      "title": "Vacances monoparentales à Lannion en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-gerardmer-2026",
       "title": "10 choses à faire à Gérardmer",
       "emoji": "🏞️"
@@ -11114,6 +11144,11 @@
       "count": 25
     },
     {
+      "slug": "vacances-en-train-avec-enfants",
+      "label": "vacances en train avec enfants",
+      "count": 24
+    },
+    {
       "slug": "bretagne",
       "label": "Bretagne",
       "count": 22
@@ -11156,11 +11191,6 @@
     {
       "slug": "montpellier",
       "label": "Montpellier",
-      "count": 18
-    },
-    {
-      "slug": "vacances-en-train-avec-enfants",
-      "label": "vacances en train avec enfants",
       "count": 18
     },
     {
@@ -12406,6 +12436,11 @@
     {
       "slug": "outre-mer",
       "label": "Outre-mer",
+      "count": 3
+    },
+    {
+      "slug": "parent-solo-ille-et-vilaine",
+      "label": "parent solo Ille-et-Vilaine",
       "count": 3
     },
     {
