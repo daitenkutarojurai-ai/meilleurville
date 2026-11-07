@@ -625,6 +625,21 @@ export const CITY_EVENTS: CityEvent[] = [
     sourceUrl: "https://ligue1.com/fr/articles/l1_article_5284-ligue-1-mc-donald-s-le-calendrier-de-la-saison-26-27",
     kind: "sport",
   },
+  // ── Sport (ajouts du 2026-11-07, chaque date recoupée sur au moins deux sources) ──
+  {
+    id: "5km-telethon-grenoble-2026-12-05",
+    citySlug: "grenoble",
+    title: "5 km du Téléthon de l'OMS de Grenoble (10e édition)",
+    titleEn: "Grenoble Téléthon 5 km (10th edition)",
+    start: "2026-12-05T10:30:00+01:00",
+    venue: "Anneau de vitesse, parc Paul Mistral",
+    body: "Une course-marche solidaire sur deux boucles de 2,5 km autour de l'anneau de vitesse du parc Paul Mistral, ouverte à tous et sans chronométrage. Les inscriptions sont reversées à l'AFM-Téléthon. Le parc est desservi par le tramway : le plus simple est de venir sans voiture.",
+    bodyEn: "A charity run-or-walk over two 2.5 km loops around the speed-skating ring in Parc Paul Mistral, open to everyone and untimed. Entry fees go to AFM-Téléthon. The park is on the tram network, so it is easiest to come without a car.",
+    organizer: "Office municipal des sports de Grenoble, avec Grenoble Trail",
+    source: "Office municipal des sports de Grenoble et agenda de la Ville de Grenoble",
+    sourceUrl: "https://www.grenoble.fr/agenda/5368/79-5km-du-telethon-de-l-oms-de-grenoble.htm",
+    kind: "sport",
+  },
 ];
 
 assertKnownSlugs({
