@@ -9077,6 +9077,36 @@
       "emoji": "⚓"
     },
     {
+      "slug": "vacances-celibataire-la-roche-sur-yon-2026",
+      "title": "Vacances célibataire à La Roche-sur-Yon en 2026 : TGV, place Napoléon et un deux-pièces à 600 €",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "vacances-celibataire-cholet-2026",
+      "title": "Vacances célibataire à Cholet en 2026 : Puy du Fou, vie du soir en centre-ville et deux-pièces à 600 €",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "vacances-celibataire-bourg-en-bresse-2026",
+      "title": "Vacances célibataire à Bourg-en-Bresse en 2026 : TGV, monastère de Brou et un deux-pièces à 630 €",
+      "emoji": "🐓"
+    },
+    {
+      "slug": "vacances-celibataire-blois-2026",
+      "title": "Vacances célibataire à Blois en 2026 : château, Loire à vélo et un deux-pièces à 610 €",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "vacances-celibataire-chalon-sur-saone-2026",
+      "title": "Vacances célibataire à Chalon-sur-Saône en 2026 : Niépce, quais de Saône et un deux-pièces à 550 €",
+      "emoji": "📷"
+    },
+    {
+      "slug": "vacances-celibataire-charleville-mezieres-2026",
+      "title": "Vacances célibataire à Charleville-Mézières en 2026 : marionnettes, place Ducale et un deux-pièces à 520 €",
+      "emoji": "🎭"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -11844,6 +11874,11 @@
       "count": 5
     },
     {
+      "slug": "week-end-celibataire-grand-est",
+      "label": "week-end célibataire Grand Est",
+      "count": 5
+    },
+    {
       "slug": "albi",
       "label": "Albi",
       "count": 4
@@ -12066,11 +12101,6 @@
     {
       "slug": "week-end-celibataire-bretagne",
       "label": "week-end célibataire Bretagne",
-      "count": 4
-    },
-    {
-      "slug": "week-end-celibataire-grand-est",
-      "label": "week-end célibataire Grand Est",
       "count": 4
     },
     {
@@ -12629,8 +12659,18 @@
       "count": 3
     },
     {
+      "slug": "week-end-celibataire-centre-val-de-loire",
+      "label": "week-end célibataire Centre-Val de Loire",
+      "count": 3
+    },
+    {
       "slug": "week-end-celibataire-ile-de-france",
       "label": "week-end célibataire Île-de-France",
+      "count": 3
+    },
+    {
+      "slug": "week-end-celibataire-pays-de-la-loire",
+      "label": "week-end célibataire Pays de la Loire",
       "count": 3
     },
     {

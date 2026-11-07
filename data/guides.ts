@@ -53461,6 +53461,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Cherbourg","voyage solo Manche","Cherbourg Cité de la Mer","week-end célibataire Normandie","Cherbourg-en-Cotentin séjour solo"],
   },
   {
+    slug: "vacances-celibataire-la-roche-sur-yon-2026",
+    title: "Vacances célibataire à La Roche-sur-Yon en 2026 : TGV, place Napoléon et un deux-pièces à 600 €",
+    metaTitle: "Vacances célibataire La Roche-sur-Yon 2026 : TGV, budget",
+    metaDesc: "La Roche-sur-Yon en séjour célibataire : 22,3 % de 15-29 ans, TGV direct, centre historique, deux-pièces à 600 €. Vie du soir calme, mer à proximité.",
+    category: "lifestyle",
+    emoji: "🐎",
+    readMinutes: 4,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "La Roche-sur-Yon compte 54 699 habitants (Insee 2022), dont 22,3 % de 15-29 ans et 28,6 % de 60 ans et plus. Notre fiche lui donne 7,2/10 en coût, 8/10 en sécurité et 2 000 heures de soleil par an, et notre relevé y signale un TGV direct. Le deux-pièces de référence est à 600 €. C'est une base de séjour tranquille, bien reliée et peu chère, pas une ville de sorties nocturnes en nombre.",
+    sections: [
+      {
+        heading: "Pourquoi La Roche-sur-Yon : un budget bas, un train direct",
+        body: "Studio à 440 €, deux-pièces à 600 €, achat à 2 100 € le m² (notre estimation des loyers). La note de coût est de 7,2/10, celle de sécurité de 8/10, celle de transport de 7/10. La ville gagne 958 habitants depuis 2016 (+1,8 %) : elle ne se vide pas hors saison.",
+      },
+      {
+        heading: "Où dormir : le centre historique",
+        body: "Notre fiche quartiers en documente trois. Le centre historique note 7/10 de vie du soir et 7,5/10 de transport, Les Pyramides 6,5 et 7,5, Beaupuy 5,5 et 6,5. Pour sortir à pied le soir, le centre historique : c'est aussi là que se trouvent la place Napoléon et les halles centrales.",
+      },
+      {
+        heading: "Ce qu'on y fait : la place, les halles, puis la mer",
+        body: "Les repères de notre guide tourisme : la place Napoléon et le plan en pentagone de 1804, les animaux mécaniques, les halles centrales, la vallée de l'Yon. Les Sables-d'Olonne se font en excursion ; aucune salle ni aucun agenda n'est cité ici.",
+      },
+      {
+        heading: "La vie hors saison : jeune sans être étudiante",
+        body: "22,3 % de 15-29 ans et 28,6 % de seniors : la ville passe sous notre plafond de 32 %. Sa vie du soir de 7/10 reste sous notre plancher de 8,0/10 : on y sort, mais en petit nombre, et la semaine sera plus calme que le samedi.",
+      },
+      {
+        heading: "Se déplacer : TGV direct, centre qui se fait à pied",
+        body: "Notre relevé signale un TGV direct, ni tramway ni métro. Le transport est noté 7/10 ; les trois quartiers documentés vont de 6,5 à 7,5/10. Sans voiture, la base centre historique suffit ; les horaires de nuit ne sont pas dans nos données, à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 21,5 °C en juillet, 6,5 °C en janvier",
+        body: "Le seed donne 21,5 °C en juillet, 6,5 °C en janvier et 2 000 heures de soleil. Aucune normale mensuelle n'est publiée ici. Si la plage est le but, l'été ; pour la ville seule, la mi-saison convient.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon"],
+    relatedGuides: ["10-choses-a-faire-a-la-roche-sur-yon-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire La Roche-sur-Yon","voyage solo Vendée","La Roche-sur-Yon place Napoléon","week-end célibataire Pays de la Loire","La Roche-sur-Yon séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-cholet-2026",
+    title: "Vacances célibataire à Cholet en 2026 : Puy du Fou, vie du soir en centre-ville et deux-pièces à 600 €",
+    metaTitle: "Vacances célibataire Cholet 2026 : budget bas, Puy du Fou",
+    metaDesc: "Cholet en séjour célibataire : 18,1 % de 15-29 ans, centre-ville, lac de Ribou, Puy du Fou à 30 km, deux-pièces à 600 €. Sans TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "🧵",
+    readMinutes: 4,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Cholet compte 54 074 habitants (Insee 2022), dont 18,1 % de 15-29 ans et 28,8 % de 60 ans et plus. Notre fiche lui donne 6,7/10 en coût, 7,1/10 en sécurité et 1 900 heures de soleil par an. Le deux-pièces de référence est à 600 €. Notre relevé n'y signale ni TGV ni tramway : c'est une base à petit prix pour rayonner vers le Puy du Fou et les Mauges, avec un seul centre où sortir.",
+    sections: [
+      {
+        heading: "Pourquoi Cholet : le coût d'une ville moyenne, pas d'effet de masse",
+        body: "Studio à 440 €, deux-pièces à 600 €, achat à 1 900 € le m². La note de coût est de 6,7/10 et celle de sécurité de 7,1/10. La culture est à 5,7/10 : le contrepoint est dit, ce n'est pas la ville des grandes scènes.",
+      },
+      {
+        heading: "Où dormir : le centre-ville, pas Maulévrier",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 7/10 de vie du soir et 8/10 de transport. La Vallée note 4,5 en vie du soir, Maulévrier 3. Pour sortir à pied, le centre-ville ; Maulévrier est un séjour de campagne.",
+      },
+      {
+        heading: "Ce qu'on y fait : musées, lac et parc à thème",
+        body: "Les repères de notre guide tourisme : le musée d'Art et d'Histoire, le musée du Textile et de la Mode, le lac de Ribou, le parc oriental de Maulévrier et, à 30 km, le Puy du Fou. Aucune salle ni agenda n'est cité ici.",
+      },
+      {
+        heading: "La vie hors saison : stable, peu étudiante",
+        body: "18,1 % de 15-29 ans et 28,8 % de seniors : sous notre plafond de 32 %, mais la part de jeunes est la plus basse du lot. La population ne bouge presque pas depuis 2016 (+0,7 %). La vie du soir de 7/10 est sous notre plancher de 8,0/10 : prévoir des soirées calmes en semaine.",
+      },
+      {
+        heading: "Se déplacer : pas de réseau dans notre relevé",
+        body: "Le transport est noté 6,2/10 et notre relevé ne signale ni TGV, ni tram, ni métro. Le centre-ville s'y note 8/10. À vérifier avant de réserver : la liaison ferroviaire et les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 22 °C en juillet, 5 °C en janvier",
+        body: "Le seed donne 22 °C en juillet, 5 °C en janvier et 1 900 heures de soleil. Aucune normale mensuelle n'est publiée ici. L'été pour le lac de Ribou et le Puy du Fou ; hors saison, la ville reste ouverte mais discrète.",
+      },
+    ],
+    relatedCities: ["cholet"],
+    relatedGuides: ["10-choses-a-faire-a-cholet-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Cholet","voyage solo Maine-et-Loire","Cholet lac de Ribou","week-end célibataire Pays de la Loire","Cholet séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-bourg-en-bresse-2026",
+    title: "Vacances célibataire à Bourg-en-Bresse en 2026 : TGV, monastère de Brou et un deux-pièces à 630 €",
+    metaTitle: "Vacances célibataire Bourg-en-Bresse 2026 : TGV, Brou",
+    metaDesc: "Bourg-en-Bresse en séjour célibataire : 20,6 % de 15-29 ans, TGV direct, monastère de Brou, deux-pièces à 630 €. Lyon à 70 km pour les soirées.",
+    category: "lifestyle",
+    emoji: "🐓",
+    readMinutes: 4,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Bourg-en-Bresse compte 42 065 habitants (Insee 2022), dont 20,6 % de 15-29 ans et 28,3 % de 60 ans et plus. Notre fiche lui donne 6,6/10 en culture, 6,7/10 en transport et 1 850 heures de soleil par an, et notre relevé y signale un TGV direct. Le deux-pièces de référence est à 630 €. Une ville moyenne bien reliée, avec Lyon à 70 km pour changer d'échelle.",
+    sections: [
+      {
+        heading: "Pourquoi Bourg : la culture avant le coût",
+        body: "Studio à 450 €, deux-pièces à 630 €, achat à 2 300 € le m². La culture est notée 6,6/10, le coût 5,9/10. Le contrepoint est dit : la sécurité n'y est qu'à 5,5/10 dans notre fiche.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 7/10 de vie du soir et 7,5/10 de transport. Châtenoy note 4 en vie du soir, le quartier de Brou 5. Pour sortir à pied, le centre-ville ; Brou convient pour le monastère, moins pour la soirée.",
+      },
+      {
+        heading: "Ce qu'on y fait : Brou, la Bresse, la Dombes",
+        body: "Les repères de notre guide tourisme : le monastère royal de Brou, la Dombes et ses étangs, Pérouges, le marché à la volaille de Louhans, la foire aux volailles de Noël. Lyon est présenté à 70 km. Aucune salle ni agenda n'est cité ici.",
+      },
+      {
+        heading: "La vie hors saison : jeune sans être étudiante",
+        body: "20,6 % de 15-29 ans et 28,3 % de seniors, sous notre plafond de 32 %. La population gagne 700 habitants depuis 2016 (+1,7 %). La vie du soir de 7/10 reste sous notre plancher de 8,0/10 : ville tranquille hors saison.",
+      },
+      {
+        heading: "Se déplacer : TGV direct, pas de tramway",
+        body: "Notre relevé signale un TGV direct, ni tramway ni métro. Le transport est noté 6,7/10. Le centre-ville, à 7,5/10, se fait à pied ; les horaires de nuit et la durée vers Lyon ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 22 °C en juillet, 2,5 °C en janvier",
+        body: "Le seed donne 22 °C en juillet, 2,5 °C en janvier et 1 850 heures de soleil. Aucune normale mensuelle n'est publiée ici. L'hiver est franc ; la fin d'été et l'automne sont les plus confortables pour Brou et la Dombes.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse"],
+    relatedGuides: ["10-choses-a-faire-a-bourg-en-bresse-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Bourg-en-Bresse","voyage solo Ain","Bourg-en-Bresse monastère de Brou","week-end célibataire Auvergne-Rhône-Alpes","Bourg-en-Bresse séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-blois-2026",
+    title: "Vacances célibataire à Blois en 2026 : château, Loire à vélo et un deux-pièces à 610 €",
+    metaTitle: "Vacances célibataire Blois 2026 : château, Loire à vélo",
+    metaDesc: "Blois en séjour célibataire : 21,1 % de 15-29 ans, culture 7,3/10, château royal, Loire à vélo, deux-pièces à 610 €. Sans TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Blois compte 47 092 habitants (Insee 2022), dont 21,1 % de 15-29 ans et 25,9 % de 60 ans et plus. Notre fiche lui donne 7,3/10 en culture, 6,4/10 en coût et 1 850 heures de soleil par an. Le deux-pièces de référence est à 610 €. Notre relevé n'y signale ni TGV ni tramway. C'est la base la plus culturelle de ce lot, avec la part de seniors la plus basse.",
+    sections: [
+      {
+        heading: "Pourquoi Blois : la culture et un budget raisonnable",
+        body: "Studio à 440 €, deux-pièces à 610 €, achat à 2 100 € le m². La culture est notée 7,3/10, le coût 6,4/10. Le contrepoint est dit : la sécurité n'est qu'à 5,3/10 et le transport à 5,5/10.",
+      },
+      {
+        heading: "Où dormir : Centre — Château",
+        body: "Notre fiche quartiers en documente trois. Centre — Château note 7/10 de vie du soir et 8/10 de transport. Vienne note 5 et 7,5, Blois-Sud 4 et 7. Pour sortir à pied, le centre, au pied du château.",
+      },
+      {
+        heading: "Ce qu'on y fait : château, vieille ville, Loire à vélo",
+        body: "Les repères de notre guide tourisme : le château royal, la vieille ville et ses escaliers, la Loire à vélo vers Amboise, Chambord, Cheverny, Chaumont-sur-Loire. Les caves troglodytiques sont citées. Aucune salle ni agenda n'est cité ici.",
+      },
+      {
+        heading: "La vie hors saison : une ville qui croît",
+        body: "21,1 % de 15-29 ans et 25,9 % de seniors : la part de seniors est la plus basse des six villes. La population gagne 1 405 habitants depuis 2016 (+3,1 %). La vie du soir de 7/10 est sous notre plancher de 8,0/10 : calme en semaine.",
+      },
+      {
+        heading: "Se déplacer : aucun réseau dans notre relevé",
+        body: "Le transport est noté 5,5/10 et notre relevé ne signale ni TGV, ni tram, ni métro. Le centre se fait à pied. À vérifier avant de réserver : la liaison ferroviaire et les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 21,5 °C en juillet, 4 °C en janvier",
+        body: "Le seed donne 21,5 °C en juillet, 4 °C en janvier et 1 850 heures de soleil. Aucune normale mensuelle n'est publiée ici. Les châteaux et la Loire à vélo se font de la fin du printemps à l'automne.",
+      },
+    ],
+    relatedCities: ["blois"],
+    relatedGuides: ["10-choses-a-faire-a-blois-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Blois","voyage solo Loir-et-Cher","Blois Loire à vélo","week-end célibataire Centre-Val de Loire","Blois séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-chalon-sur-saone-2026",
+    title: "Vacances célibataire à Chalon-sur-Saône en 2026 : Niépce, quais de Saône et un deux-pièces à 550 €",
+    metaTitle: "Vacances célibataire Chalon-sur-Saône 2026 : Niépce, budget",
+    metaDesc: "Chalon-sur-Saône en séjour célibataire : 19,9 % de 15-29 ans, centre-ville, musée Niépce, quais de Saône, deux-pièces à 550 €. Sans TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "📷",
+    readMinutes: 4,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Chalon-sur-Saône compte 44 592 habitants (Insee 2022), dont 19,9 % de 15-29 ans et 29,7 % de 60 ans et plus. Notre fiche lui donne 7,2/10 en coût, 6,2/10 en culture et 1 900 heures de soleil par an. Le deux-pièces de référence est à 550 €. La ville perd 854 habitants depuis 2016 et notre relevé n'y signale ni TGV ni tramway : une base à petit budget pour la Côte Chalonnaise.",
+    sections: [
+      {
+        heading: "Pourquoi Chalon : un budget bas en Bourgogne",
+        body: "Studio à 400 €, deux-pièces à 550 €, achat à 1 700 € le m². La note de coût est de 7,2/10, la culture de 6,2/10. Le contrepoint est dit : la sécurité est à 5,2/10 dans notre fiche.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 7/10 de vie du soir et 8/10 de transport. Les Bords de Saône notent 5 et 7, Saint-Jean-des-Vignes 4 et 6,5. Pour sortir à pied, le centre-ville ; les quais conviennent en journée.",
+      },
+      {
+        heading: "Ce qu'on y fait : Niépce, quais, voie verte, vignes",
+        body: "Les repères de notre guide tourisme : le musée Nicéphore Niépce, l'île Saint-Laurent et les quais de la Saône, la voie verte Chalon-Mâcon, la Côte Chalonnaise, Tournus, Cluny. Le carnaval et le festival Chalon dans la Rue sont cités sans date ; aucun agenda n'est repris ici.",
+      },
+      {
+        heading: "La vie hors saison : stable mais en recul",
+        body: "19,9 % de 15-29 ans et 29,7 % de seniors, sous notre plafond de 32 %. La population recule de 1,9 % depuis 2016. La vie du soir de 7/10 est sous notre plancher de 8,0/10 : hors festivals, la ville est calme.",
+      },
+      {
+        heading: "Se déplacer : aucun réseau dans notre relevé",
+        body: "Le transport est noté 6,2/10 et notre relevé ne signale ni TGV, ni tram, ni métro. Le centre-ville se fait à pied. À vérifier avant de réserver : la liaison ferroviaire et les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 22,5 °C en juillet, 3 °C en janvier",
+        body: "Le seed donne 22,5 °C en juillet, 3 °C en janvier et 1 900 heures de soleil. Aucune normale mensuelle n'est publiée ici. Les dates des festivals sont à confirmer auprès de l'office de tourisme avant de réserver.",
+      },
+    ],
+    relatedCities: ["chalon-sur-saone"],
+    relatedGuides: ["10-choses-a-faire-a-chalon-sur-saone-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Chalon-sur-Saône","voyage solo Saône-et-Loire","Chalon-sur-Saône musée Niépce","week-end célibataire Bourgogne","Chalon-sur-Saône séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-charleville-mezieres-2026",
+    title: "Vacances célibataire à Charleville-Mézières en 2026 : marionnettes, place Ducale et un deux-pièces à 520 €",
+    metaTitle: "Vacances célibataire Charleville-Mézières 2026 : budget",
+    metaDesc: "Charleville-Mézières en séjour célibataire : 18,6 % de 15-29 ans, place Ducale, musée Rimbaud, deux-pièces à 520 €. Sans TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-11-07",
+    updatedAt: "2026-11-07",
+    intro: "Charleville-Mézières compte 45 634 habitants (Insee 2022), dont 18,6 % de 15-29 ans et 29,5 % de 60 ans et plus. Notre fiche lui donne 8,5/10 en coût, 7,1/10 en nature et 1 640 heures de soleil par an. Le deux-pièces de référence est à 520 €. La ville perd 1 048 habitants depuis 2016 et notre relevé n'y signale ni TGV ni tramway : le séjour le moins cher du lot, au prix d'un hiver calme.",
+    sections: [
+      {
+        heading: "Pourquoi Charleville-Mézières : le budget le plus bas du lot",
+        body: "Studio à 380 €, deux-pièces à 520 €, achat à 1 300 € le m². La note de coût de 8,5/10 est la plus haute du lot, celle de nature de 7,1/10. Le contrepoint est dit : 5,5/10 en transport et en vie, 5,7/10 en sécurité.",
+      },
+      {
+        heading: "Où dormir : la place Ducale",
+        body: "Notre fiche quartiers en documente trois. Place Ducale note 7/10 de vie du soir et 7,5/10 de transport, Mézières 5,5 et 7,5, Mohon 5 et 7. Pour sortir à pied, la place Ducale.",
+      },
+      {
+        heading: "Ce qu'on y fait : Rimbaud, marionnettes, Meuse",
+        body: "Les repères de notre guide tourisme : la place ducale, le musée Rimbaud, le Festival mondial des Théâtres de Marionnettes, la vallée de la Meuse et sa voie verte, le château fort de Sedan. Les dates du festival ne sont pas reprises ici.",
+      },
+      {
+        heading: "La vie hors saison : calme, en recul",
+        body: "18,6 % de 15-29 ans et 29,5 % de seniors, sous notre plafond de 32 %. La population recule de 2,2 % depuis 2016. La vie du soir de 7/10 est sous notre plancher de 8,0/10 : hors festival, très calme.",
+      },
+      {
+        heading: "Se déplacer : aucun réseau dans notre relevé",
+        body: "Le transport est noté 5,5/10 et notre relevé ne signale ni TGV, ni tram, ni métro. Place Ducale et Mézières se notent 7,5/10. À vérifier avant de réserver : la liaison ferroviaire et les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 20,5 °C en juillet, 2,5 °C en janvier",
+        body: "Le seed donne 20,5 °C en juillet, 2,5 °C en janvier et 1 640 heures de soleil, le plus bas du lot. Aucune normale mensuelle n'est publiée ici. La fin du printemps et l'été sont les plus confortables pour la Meuse.",
+      },
+    ],
+    relatedCities: ["charleville-mezieres"],
+    relatedGuides: ["10-choses-a-faire-a-charleville-mezieres-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Charleville-Mézières","voyage solo Ardennes","Charleville-Mézières place Ducale","week-end célibataire Grand Est","Charleville-Mézières séjour solo"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
