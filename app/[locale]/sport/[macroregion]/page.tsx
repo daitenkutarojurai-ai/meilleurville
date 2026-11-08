@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { MACRO_REGIONS, MACRO_REGION_SLUGS, getMacroRegion } from "@/lib/macro-regions";
 import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import {
@@ -124,14 +124,25 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Home</Link> ·{" "}
-          <Link href="/sport" className="hover:underline">Sport</Link>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+        <nav className="flex flex-wrap items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
+          <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Home</Link>
+          <span>/</span>
+          <Link href="/sport" className="hover:text-[var(--text-secondary)] transition-colors">Sport &amp; leisure</Link>
+          <span>/</span>
+          <span className="text-[var(--text-secondary)]">{label}</span>
         </nav>
 
+        <div className="flex items-center gap-3 mb-3">
+          <EmojiBadge emoji={macro.emoji} tone={toneFor(macro.slug)} />
+          <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+            Sport &amp; leisure
+          </span>
+        </div>
+
         <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {macro.emoji} Sport-friendly cities — {label}
+          Sport-friendly cities — <span className="font-display gradient-text-anim italic">{label}</span>
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Composite index restricted to the {cities.length} referenced cities of 10,000+ residents
@@ -140,13 +151,16 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>{cities.length} cities analysed</Badge>
-          <Badge>Average composite: {avgComposite}/10</Badge>
+          <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">{cities.length} cities analysed</span>
+          <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">Average composite: {avgComposite}/10</span>
         </div>
+        </div>
+      </section>
 
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Macro-region aggregate */}
-        <Card className="mt-6">
-          <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold mb-3">
+          <h2 className="text-2xl font-bold gradient-text mb-4">
             Average sport profile of the macro-region
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
@@ -156,9 +170,9 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
               { k: "Clubs", v: avgClubs, hint: "Club tissue" },
               { k: "Climate", v: avgClimate, hint: "Sunshine + heat + cold" },
             ].map((d) => (
-              <div key={d.k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <div className="text-xs text-[var(--text-tertiary)]">{d.k}</div>
-                <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
+              <div key={d.k} className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                <div className="text-xs font-semibold uppercase tracking-wide text-[#4338CA]">{d.k}</div>
+                <div className="text-2xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
                   {d.v.toFixed(1)}
                   <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
@@ -166,20 +180,23 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
               </div>
             ))}
           </div>
-          <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
+          <p className="text-xs text-[var(--text-secondary)] mt-4">
             Sub-scores: 10 = excellent on the dimension (sport convention, opposite to the
             environment convention where 10 = worst).
           </p>
-        </Card>
+        </div>
+      </section>
 
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Top sport-friendly */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <h2 className="text-2xl font-bold gradient-text">
           Top 15 — Most sport-friendly cities in {label}
         </h2>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[#CFFAFE] text-[#0E7490] text-xs uppercase tracking-wide">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">City</th>
@@ -192,8 +209,8 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
               </thead>
               <tbody>
                 {best.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
+                  <tr key={c.slug} className="border-t border-[#CFFAFE]">
+                    <td className="px-3 py-2 font-bold tabular-nums text-[#0E7490]">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
                         href={`/cities/${c.slug}/sports-leisure`}
@@ -219,16 +236,20 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
+        </div>
+      </section>
 
+      <section className="band band-pink py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Worst */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <h2 className="text-2xl font-bold gradient-text">
           Top 10 — Least sport-friendly cities in {label}
         </h2>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[#FCE7F3] text-[#9D174D] text-xs uppercase tracking-wide">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">City</th>
@@ -241,8 +262,8 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
               </thead>
               <tbody>
                 {worst.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
+                  <tr key={c.slug} className="border-t border-[#FCE7F3]">
+                    <td className="px-3 py-2 font-bold tabular-nums text-[#9D174D]">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
                         href={`/cities/${c.slug}/sports-leisure`}
@@ -266,28 +287,39 @@ export default async function EnMacroRegionSportPage({ params }: Props) {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
+        </div>
+      </section>
 
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Other macro-regions */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+        <h2 className="text-xl font-bold gradient-text">
           Other macro-regions
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
           {MACRO_REGIONS.filter((m) => m.slug !== macro.slug).map((m) => (
-            <Link key={m.slug} href={`/sport/${m.slug}`} className="block">
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-2xl mb-1">{m.emoji}</div>
+            <Link key={m.slug} href={`/sport/${m.slug}`} className="group block">
+              <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+                <EmojiBadge emoji={m.emoji} tone={toneFor(m.slug)} size="sm" className="mb-2" />
                 <div className="text-sm font-semibold text-[var(--text-primary)]">{macroLabelEn(m.slug, m.label)}</div>
                 <div className="text-xs text-[var(--text-tertiary)] mt-1">Sport & leisure</div>
-              </Card>
+              </div>
             </Link>
           ))}
         </div>
 
         <div className="mt-8 text-sm">
-          <Link href="/sport" className="text-[var(--accent)] hover:underline">
+          <Link href="/sport" className="inline-flex items-center rounded-full grad-head-0 px-4 py-2 font-semibold shadow-sm transition-transform hover:-translate-y-0.5">
             → See the full national sport ranking
           </Link>
+        </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
         </div>
       </section>
 

@@ -1416,3 +1416,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages `/sport/[macroregion]` (FR + EN), même gabarit de tableaux.
 2. Page agenda (hub).
 3. Hubs Red Flags.
+
+## 2026-11-08 ~11:00 UTC — pages `/sport/[macroregion]` (FR) + EN `/sport/[macroregion]`
+
+**Surface** : 6 macro-régions × 2 locales, gabarit des tableaux sport. Avant : un seul bloc sur fond de page, titre avec emoji nu, `Badge` gris, profil moyen et tableaux dans des `Card` à en-tête gris, autres macro-régions en cartes à filet, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` (emoji de la macro-région, `toneFor`) + pilule `grad-head-0`, fil d'Ariane complet, nom de la macro-région en `gradient-text-anim`, pastilles blanches indigo ; profil moyen en `band-indigo` (4 cartes blanches à ombre indigo, libellés `#4338CA`) ; top 15 en `band-sky` (en-tête `#CFFAFE`/`#0E7490`, rangs cyan gras) ; top 10 inverse en `band-pink` (en-tête `#FCE7F3`/`#9D174D`) ; autres macro-régions en `band-lilac` (cartes blanches lilas, `EmojiBadge` sm) + lien national en pilule dégradée ; `FeedbackWidget` (EN `locale="en"`) en `band-white`. h2 en `.gradient-text`. Couleurs des paliers conservées. Imports `Card`/`Badge` retirés. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/sport/arc-alpin` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Page agenda (hub).
+2. Hubs Red Flags.
+3. Bandeau cookies.
