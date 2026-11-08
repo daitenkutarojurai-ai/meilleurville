@@ -54025,6 +54025,324 @@ export const EN_GUIDES: EnGuide[] = [
       "train holidays with children"
     ]
   },
+  {
+    slug: "single-parent-holidays-amboise-2026",
+    title: "Single-parent holidays in Amboise: a château town twenty minutes from Tours",
+    metaTitle: "Single-Parent Holidays in Amboise 2026",
+    metaDesc: "Amboise scores 7.5/10 on our single-parent index: flat 880 €, safety 7.5/10. Train from Tours, costs, parks and funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Amboise comes out at 7.5/10 on our single-parent composite, second of the seventy-one destinations (source: our trip-fit index). The detail: quality of life 8.7/10, safety 7.5/10, cost of living 6.7/10 and transport 5.6/10 (source: our city profile). The market: 880 € for the reference three-room flat and 2,600 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 13,132 inhabitants at the 2022 census against 13,005 in 2011, a rise of 1.0 % (source: INSEE census). Our engine rates it €€. Quality of life carries the score, with one assumed weak point: transport, where it ranks very low.",
+    sections: [
+      {
+        heading: "Getting to Amboise by train, without a car",
+        body: "Comparison sites checked online before writing give about twenty minutes by regional train (TER) from Tours to Amboise (18 to 20 minutes depending on the source), direct, with around ten departures a day on the same pages. For a solo parent coming from further away, the plan has two steps: a TGV or an Intercités to Tours, then the TER. Exact times are checked on SNCF Connect for your date. The walking time from the station to the château could not be verified in the sources consulted: measure it on a map before setting off with small legs. The transport axis is 5.6/10, below the series median of 6.7, joint sixty-first of the seventy-one, tied with three others. It describes the commune, not the link to Tours, which is good: once there, plan to do everything on foot."
+      },
+      {
+        heading: "Budget: where the town sits in the series",
+        body: "On the cost-of-living axis a high score means affordable. Amboise comes out at 6.7/10 (source: our city profile), joint eighteenth of the seventy-one, tied with eight others, against a series median of 6.2. The market: 880 € for the reference three-room flat and 2,600 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. These are benchmarks for the resident market, not holiday prices: a room or a seasonal let varies with the season and is checked with the host. At 23 kilometres, Tours shows a three-room flat at 940 € and a cost of living of 5.9/10: Amboise is slightly cheaper and smaller, which matters on the bill for a stay of several nights."
+      },
+      {
+        heading: "Royal château, Clos Lucé and a centre on foot",
+        body: "The royal château of Amboise and the Clos Lucé, where Leonardo da Vinci spent his last years, are the two central visits. Hours and prices are checked with the venues, and the ticket is sized to the children's ages rather than the parent's ambition. The Loire runs along the centre, which is walked on foot. The wet-weather fallbacks are the same indoor sites. Two days are enough for the heritage, longer if you add walks along the river. No hours or prices are quoted here for lack of a verifiable source."
+      },
+      {
+        heading: "6 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 6 green spaces in the commune, 3 of them with a playground: the Leonardo da Vinci park, La Sapinière and the Richardière park (source: OpenStreetMap). The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 7.5/10, quality of life 8.7/10",
+        body: "Amboise shows 7.5/10 on the safety axis (source: our city profile), joint eleventh of the seventy-one, tied with three others, against a series median of 5.9. The indicator is a communal aggregate: it describes a whole commune and never a district or an hour of the day. It is estimated by our model from the size of the commune and departmental data, not from observed facts. Quality of life is 8.7/10, joint third of the seventy-one, tied with three others. It is the town's best asset: a solo parent finds a lively, compact centre where everything is done on foot. The flip side is the tourist slope: in season, the centre fills up around the two big sites."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Tours (Tours-Saint-Symphorien), 19 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.1 °C in January and 20.2 °C in July. The commune's own anchors come from our city profile: 5 °C in January, 22 °C in July and 1,900 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then September, then July. Crowding climbs to level 4 in July and August: for a solo parent who wants to avoid queues at the château, June and September are the months to aim for."
+      },
+      {
+        heading: "Funding: the schemes, and why no amount is written here",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Indre-et-Loire one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "amboise",
+      "tours",
+      "blois"
+    ],
+    tags: [
+      "single parent holidays",
+      "amboise with kids",
+      "loire valley with children",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-fontainebleau-2026",
+    title: "Single-parent holidays in Fontainebleau: top-ranked, but a 1,200 € flat",
+    metaTitle: "Single-Parent Holidays in Fontainebleau 2026",
+    metaDesc: "Fontainebleau scores 7.4/10 on our single-parent index, but the flat is 1,200 €. Train 40 min from Paris, parks, costs, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Fontainebleau comes out at 7.4/10 on our single-parent composite, third of the seventy-one destinations (source: our trip-fit index), even though its cost of living is 4.6/10, sixty-third. The detail: quality of life 8.7/10, safety 8.1/10, transport 6.4/10 (source: our city profile). The market: 1,200 € for the reference three-room flat and 3,800 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 15,787 inhabitants at the 2022 census against 14,708 in 2011, a rise of 7.3 % (source: INSEE census). Our engine rates it €€€€. The honest reading: it is one of the most expensive destinations of the batch, best justified as a day trip from the Paris region.",
+    sections: [
+      {
+        heading: "Fontainebleau by train from Paris, and the last stretch",
+        body: "Comparison sites checked online before writing give about 40 to 41 minutes from Paris-Gare de Lyon to Fontainebleau-Avon on Transilien line R. The station is in Avon, about 3 kilometres from the château: according to the local tourist office, buses meet the trains, and part of the way can be walked if you accept the distance. Times and connections are checked on SNCF Connect or Île-de-France Mobilités. The transport axis is 6.4/10, below the series median of 6.7, joint thirty-eighth of the seventy-one, tied with thirteen others. For a solo parent, the simplest formula remains the day trip: 40 minutes by train, no car to park."
+      },
+      {
+        heading: "Cost: the town's weak point",
+        body: "On the cost-of-living axis a high score means affordable. Fontainebleau comes out at 4.6/10 (source: our city profile), joint sixty-third of the seventy-one, tied with one other, against a series median of 6.2. The market: 1,200 € for the reference three-room flat and 3,800 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. These are resident benchmarks, not holiday prices, but the gap shows the price level of the area. At 15 kilometres, Melun shows a flat at 1,010 € for a cost of living of 4.6/10: proximity to the Paris region pulls both towns up, and only a short stay keeps the bill down."
+      },
+      {
+        heading: "Château and forest: a programme on foot and by train",
+        body: "The château of Fontainebleau, a UNESCO site, is the central visit, to be sized to the children's ages; its gardens are an outdoor outing that needs nothing more than a pair of shoes. The Fontainebleau forest around the town offers walks and rocks that children enjoy, but some areas are far from the station: find out about access before setting off without a car. Hours and prices are checked with the venues."
+      },
+      {
+        heading: "10 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 10 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap), for about 31 hectares in all. They include the Jardin Français, the Jardin Anglais and the Jardin de Diane, as well as landscaped squares such as the square des Lilas. The survey is contributory, not a register: these numbers are floors. The forest, outside the mapped communal perimeter, comes on top of this count."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 8.7/10",
+        body: "Fontainebleau shows 8.1/10 on the safety axis (source: our city profile), joint fourth of the seventy-one, tied with three others, against a series median of 5.9. The indicator is a communal aggregate estimated by our model from the size of the commune and departmental data: it describes neither a district nor an hour of the day. Quality of life is 8.7/10, joint third of the seventy-one, tied with three others. That is the town's contrast: everything that makes a stay pleasant is at the top of the ranking, except the price. On a single income, the question is not whether the town is good, but how many nights you can afford there."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Paris (Paris-Montsouris), 54 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.4 °C in January and 20.9 °C in July. The commune's own anchors come from our city profile: 4 °C in January, 20 °C in July and 1,680 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then July, then August. Crowding stays low almost all year: the constraint is not the crowd but the price."
+      },
+      {
+        heading: "Funding: schemes to look at, no amounts",
+        body: "No funding amount is given here: ceilings change from year to year and are set on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household, so the right figure is the agency's, on the date of the claim. In the order I would check them: the employer's works council, which sometimes funds part of the stay or the ticketing; the Seine-et-Marne CAF, whose holiday grants vary by area and are listed on caf.fr; VACAF (vacaf.org), which only acts in approved venues, to be identified before booking; ANCV Chèques-Vacances (ancv.com), usable at some accommodation providers and visitor sites. Claims are filed several months before departure, and residence conditions outweigh nationality."
+      }
+    ],
+    relatedCities: [
+      "fontainebleau",
+      "melun",
+      "paris"
+    ],
+    tags: [
+      "single parent holidays",
+      "fontainebleau with kids",
+      "day trip from paris",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-le-puy-en-velay-2026",
+    title: "Single-parent holidays in Le Puy-en-Velay: a 700 € flat, the hardest town to reach",
+    metaTitle: "Single-Parent Holidays in Le Puy-en-Velay 2026",
+    metaDesc: "Le Puy-en-Velay scores 7.3/10 on our single-parent index, flat 700 €, but last on transport. Train, costs, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Le Puy-en-Velay comes out at 7.3/10 on our single-parent composite, joint fourth of the seventy-one destinations, tied with four others (source: our trip-fit index), while being last on the transport axis (4.2/10). The detail: safety 8.1/10, cost of living 7.6/10, quality of life 7.8/10 (source: our city profile). The market: 700 € for the reference three-room flat and 1,600 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 18,989 inhabitants at the 2022 census against 18,537 in 2011, a rise of 2.4 % (source: INSEE census). Our engine rates it €€. The contrast is the subject: a good overall score, but the town that is hardest to reach without a car in our sample.",
+    sections: [
+      {
+        heading: "Reaching Le Puy without a car: the flip side of the ranking",
+        body: "The transport axis is 4.2/10, far below the series median of 6.7 and last of the seventy-one destinations. Comparison sites checked online before writing give about 1 h 15 to 1 h 20 by regional train (TER) from Saint-Étienne to Le Puy, with six to nine departures a day depending on the page; from Lyon-Part-Dieu, a journey changing at Saint-Étienne-Châteaucreux is quoted at around 2 h 14. Exact times are checked on SNCF Connect for your date. For a solo parent, that means a day of travel with a tired child if a connection is missed: allow slack, and pack games rather than a screen with a flat battery."
+      },
+      {
+        heading: "Cost: one of the best ranks of the series",
+        body: "On the cost-of-living axis a high score means affordable. Le Puy comes out at 7.6/10 (source: our city profile), joint fourth of the seventy-one, tied with seven others, against a series median of 6.2. The market: 700 € for the reference three-room flat and 1,600 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. These are resident benchmarks, not holiday prices. At 36 kilometres, Monistrol-sur-Loire shows a flat at 830 €; at 48 kilometres, Brioude at 600 €. The destination's low cost partly offsets the price of getting there: it is the journey, not the stay, that weighs on the budget."
+      },
+      {
+        heading: "Cathedral, the Aiguilhe rock and the upper town on foot",
+        body: "Notre-Dame cathedral, the chapel of Saint-Michel d'Aiguilhe perched on its volcanic rock, and the Notre-Dame de France statue are the central visits, to be sized to the children's ages: the stairs and slopes of the old town tire small legs, and a pushchair is a handicap there. Hours and prices are checked with the venues. The town is also a pilgrimage stage."
+      },
+      {
+        heading: "5 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 5 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap), for about 11 hectares in all. The Bonneterre wood and the Henri Vinay garden are among them. The survey is contributory, not a register: a facility nobody has mapped does not appear, so these numbers are floors of what the town offers."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 7.8/10",
+        body: "Le Puy shows 8.1/10 on the safety axis (source: our city profile), joint fourth of the seventy-one, tied with three others, against a series median of 5.9. The indicator is a communal aggregate, estimated by our model from the size of the commune and departmental data: it describes neither a district nor an hour of the day, and passes no judgement on residents. Quality of life is 7.8/10, joint eighth of the seventy-one, tied with seven others. The town is calm, more heritage than party. A solo parent gains serenity and a lower bill, and loses independent mobility: it all depends on the programme you have in mind."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Clermont-Ferrand (Clermont-Aulnat), 101 kilometres away (source: Météo-France 1991-2020 normals). It gives 4.3 °C in January and 20.6 °C in July. The commune's own anchors come from our city profile: 3.5 °C in January, 21 °C in July and 1,900 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts July first, then June, then August. The station is more than 100 kilometres away, so the inference is rough, all the more as the town sits at altitude. Crowding stays at level 1 or 2 almost all year, with a moderate summer peak."
+      },
+      {
+        heading: "Funding: what exists, no figures",
+        body: "On funding, this guide describes the schemes and points to the agencies, without quoting amounts: scales depend on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household, and are revised. Four entry points. The Haute-Loire CAF first, which may offer holiday grants depending on the area (conditions on caf.fr). Then VACAF (vacaf.org): the help is deducted from the bill, but only in an approved venue, which you check before paying. ANCV Chèques-Vacances (ancv.com), taken by part of the accommodation and cultural sites. Finally the employer's works council, which often negotiates rates or a contribution. Several months of lead time avoid finding a file closed."
+      }
+    ],
+    relatedCities: [
+      "le-puy-en-velay",
+      "monistrol-sur-loire",
+      "brioude"
+    ],
+    tags: [
+      "single parent holidays",
+      "le puy-en-velay with kids",
+      "haute-loire with children",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-vitre-2026",
+    title: "Single-parent holidays in Vitré: safety 8.5/10 and a direct TGV from Paris",
+    metaTitle: "Single-Parent Holidays in Vitré 2026",
+    metaDesc: "Vitré scores 7.3/10 on our single-parent index: flat 800 €, safety 8.5/10. Direct TGV from Paris, costs, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Vitré comes out at 7.3/10 on our single-parent composite, joint fourth of the seventy-one destinations, tied with four others (source: our trip-fit index). The detail: safety 8.5/10, second of the series, cost of living 7.6/10, transport 5.6/10 and quality of life 6.8/10 (source: our city profile). The market: 800 € for the reference three-room flat and 2,200 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 18,892 inhabitants at the 2022 census against 17,106 in 2011, a rise of 10.4 % (source: INSEE census). Our engine rates it €€. Safety carries the score, with a direct TGV to Paris.",
+    sections: [
+      {
+        heading: "Vitré by train: a direct TGV from Paris",
+        body: "Comparison sites checked online before writing give a direct TGV from Paris-Montparnasse to Vitré in about 1 h 32 to 1 h 38 for the fastest; the quoted average is longer, around 2 h 20, and journeys with a change can exceed 2 h 30. Count on 9 to 13 departures a day depending on the page. Exact times are checked on SNCF Connect for your date. The transport axis is 5.6/10, below the series median of 6.7, joint sixty-first of the seventy-one, tied with three others: it describes the commune, not the rail service, which is its real asset for a solo parent coming from elsewhere. The walking time from the station to the centre could not be verified: measure it on a map."
+      },
+      {
+        heading: "Budget: 300 € less than Rennes",
+        body: "On the cost-of-living axis a high score means affordable. Vitré comes out at 7.6/10 (source: our city profile), joint fourth of the seventy-one, tied with seven others, against a series median of 6.2. The market: 800 € for the reference three-room flat and 2,200 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. At 35 kilometres, Rennes shows a flat at 1,100 € and a cost of living of 5.7/10: Vitré costs 300 € less on this benchmark, with a regional train or a TGV between the two. These are resident benchmarks, not holiday prices: the price of a room is checked with the host."
+      },
+      {
+        heading: "Château, rue Beaudrairie and the ramparts",
+        body: "Vitré castle, a medieval fortress overlooking the town, and rue Beaudrairie, lined with timber-framed houses, are the central visits: the street takes half an hour on foot with children, the castle needs more time and more stairs. Hours and prices are checked with the venues. The town suits a short stay, best paired with Rennes or Laval to fill out the programme; at 33 kilometres, Laval shows a flat at 660 €."
+      },
+      {
+        heading: "4 green spaces mapped, 1 with a playground",
+        body: "The mapping survey records 4 green spaces in the commune, 1 of them with a playground, the jardin du Parc (source: OpenStreetMap), for about 8 hectares in all. It also lists the Tertres Noirs, the Pré des Lavandières and the gardens of La Trémoille. Confirm on the spot with the tourist office: the survey is contributory and these numbers are floors."
+      },
+      {
+        heading: "Safety 8.5/10, quality of life 6.8/10",
+        body: "Vitré shows 8.5/10 on the safety axis (source: our city profile), second of the seventy-one, against a series median of 5.9. The indicator is a communal aggregate estimated by our model from the size of the commune and departmental data: it describes neither a district nor an hour of the day. Quality of life is 6.8/10, joint twenty-sixth of the seventy-one, tied with eleven others, the series median: that is the point of attention. The town is quiet, and lively mostly on market days or event days. A solo parent gains serenity and loses choice of outings."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Rennes (Rennes-Saint-Jacques), 39 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.2 °C in January and 19.2 °C in July. The commune's own anchors come from our city profile: 5.5 °C in January, 20.5 °C in July and 1,850 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts July first, then August, then June. The climate is oceanic and cool in summer: a destination where a jumper in the bag remains a good reflex, July included."
+      },
+      {
+        heading: "Funding: schemes and agencies, no amounts",
+        body: "No funding amount is given here: ceilings change from year to year and are set on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household, so the right figure is the agency's, on the date of the claim. In the order I would check them: the employer's works council, which sometimes funds part of the stay or the ticketing; the Ille-et-Vilaine CAF, whose holiday grants vary by area and are listed on caf.fr; VACAF (vacaf.org), which only acts in approved venues, to be identified before booking; ANCV Chèques-Vacances (ancv.com), usable at some accommodation providers and visitor sites. Claims are filed several months before departure, and residence conditions outweigh nationality."
+      }
+    ],
+    relatedCities: [
+      "vitre",
+      "rennes",
+      "laval"
+    ],
+    tags: [
+      "single parent holidays",
+      "vitre with kids",
+      "brittany with children",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-saverne-2026",
+    title: "Single-parent holidays in Saverne: Alsace by train, Strasbourg half an hour away",
+    metaTitle: "Single-Parent Holidays in Saverne 2026",
+    metaDesc: "Saverne scores 7.3/10 on our single-parent index: flat 970 €, safety 8.1/10. Regional train from Strasbourg, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Saverne comes out at 7.3/10 on our single-parent composite, joint fourth of the seventy-one destinations, tied with four others (source: our trip-fit index). The detail: safety 8.1/10, quality of life 7.8/10, cost of living 6.7/10 and transport 5.6/10 (source: our city profile). The market: 970 € for the reference three-room flat and 2,600 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 11,323 inhabitants at the 2022 census against 11,685 in 2011, a fall of 3.1 % (source: INSEE census). Our engine rates it €€. It is a gateway to Alsace by train, with Strasbourg half an hour away.",
+    sections: [
+      {
+        heading: "Saverne by regional train from Strasbourg",
+        body: "Comparison sites checked online before writing give 25 to 45 minutes by regional train (TER) from Strasbourg to Saverne depending on the train, with on average around fifteen departures a day on the pages consulted. Exact times are checked on the TER Grand Est site or SNCF Connect for your date. The transport axis is 5.6/10, below the series median of 6.7, joint sixty-first of the seventy-one, tied with three others. For a solo parent, the formula that works: stay in Saverne for its lower cost than Strasbourg, and do the city outings in half days, with no car and no parking. The distance from the station to the centre could not be verified in the sources consulted."
+      },
+      {
+        heading: "Cost: close to the series median",
+        body: "On the cost-of-living axis a high score means affordable. Saverne comes out at 6.7/10 (source: our city profile), joint eighteenth of the seventy-one, tied with eight others, against a series median of 6.2. The market: 970 € for the reference three-room flat and 2,600 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. At 32 kilometres, Obernai (already in the series) shows a flat at 1,040 €; at 23 kilometres, Sarrebourg, in Moselle, shows 820 €. These are resident benchmarks, not holiday prices."
+      },
+      {
+        heading: "Rohan château, rose garden and canal",
+        body: "The Rohan château, an eighteenth-century palace on the Marne-Rhine canal, is the central visit, with the rose garden and the botanical garden for an outdoor outing suited to little ones. The canal is walked or cycled along, which children like. The hilltop sites of the region need a vehicle or a sustained walk: size them to the children's ages. Hours and prices are checked with the venues."
+      },
+      {
+        heading: "5 green spaces mapped, 0 with a playground",
+        body: "The mapping survey records 5 green spaces in the commune, none of them with a playground (source: OpenStreetMap), for about 4 hectares in all: the botanical garden, the rose garden, a shared garden on the ramparts, the interfaith public garden. The survey is contributory, not a register: a playground nobody has mapped does not appear. For children who need to burn off energy, check with the tourist office before booking."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 7.8/10",
+        body: "Saverne shows 8.1/10 on the safety axis (source: our city profile), joint fourth of the seventy-one, tied with three others, against a series median of 5.9. The indicator is a communal aggregate estimated by our model from the size of the commune and departmental data: it describes neither a district nor an hour of the day. Quality of life is 7.8/10, joint eighth of the seventy-one, tied with seven others. The town is a small Alsatian sub-prefecture, calm in the evening. The population has fallen by 3.1 % since 2011: the census records it, it does not explain it."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Strasbourg (Strasbourg-Entzheim), 29 kilometres away (source: Météo-France 1991-2020 normals). It gives 2.5 °C in January and 20.6 °C in July. The commune's own anchors come from our city profile: 2 °C in January, 22.5 °C in July and 1,800 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then August, then July. Winters are cold: January at 2.5 °C at the reference station. The destination can be visited all year, but the cool months call for indoor activities for the children."
+      },
+      {
+        heading: "Funding: routes to check, no amounts",
+        body: "On funding, this guide describes the schemes and points to the agencies, without quoting amounts: scales depend on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household, and are revised. Four entry points. The Bas-Rhin CAF first, which may offer holiday grants depending on the area (conditions on caf.fr). Then VACAF (vacaf.org): the help is deducted from the bill, but only in an approved venue, which you check before paying. ANCV Chèques-Vacances (ancv.com), taken by part of the accommodation and cultural sites. Finally the employer's works council, which often negotiates rates or a contribution. Several months of lead time avoid finding a file closed."
+      }
+    ],
+    relatedCities: [
+      "saverne",
+      "sarrebourg",
+      "obernai"
+    ],
+    tags: [
+      "single parent holidays",
+      "saverne with kids",
+      "alsace with children",
+      "train holidays with children"
+    ]
+  },
+  {
+    slug: "single-parent-holidays-lannion-2026",
+    title: "Single-parent holidays in Lannion: 14 playgrounds, and a change at Plouaret",
+    metaTitle: "Single-Parent Holidays in Lannion 2026",
+    metaDesc: "Lannion scores 7.2/10 on our single-parent index: flat 800 €, 14 playgrounds mapped. Train via Plouaret, costs, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Lannion comes out at 7.2/10 on our single-parent composite, joint ninth of the seventy-one destinations, tied with two others (source: our trip-fit index). The detail: safety 8.2/10, third of the series, cost of living 7.6/10, quality of life 7.4/10 and transport 4.9/10 (source: our city profile). The market: 800 € for the reference three-room flat and 2,100 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. The commune counts 20,525 inhabitants at the 2022 census against 19,920 in 2011, a rise of 3.0 % (source: INSEE census). Our engine rates it €€. The asset: a well-stocked set of playgrounds. The limit: train access that needs a change.",
+    sections: [
+      {
+        heading: "Reaching Lannion by train: the change at Plouaret",
+        body: "Comparison sites checked online before writing show that Paris to Lannion needs a change (Guingamp, Plouaret-Trégor or Saint-Brieuc) and takes on average around 3 h 30, from 3 h 20 to more than 5 h depending on the trains. The Plouaret-Lannion line is a short regional train (TER), at most about 23 minutes. Exact times are checked on SNCF Connect for your date. The transport axis is 4.9/10, far below the series median of 6.7, joint sixty-ninth of the seventy-one, tied with one other. Once there, the coast is a matter of bus or car: find out about the lines before booking if you do not drive."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Lannion comes out at 7.6/10 (source: our city profile), joint fourth of the seventy-one, tied with seven others, against a series median of 6.2. The market: 800 € for the reference three-room flat and 2,100 € per square metre (source: our rent estimate), against series medians of 930 € and 2,500 €. At 30 kilometres, Guingamp shows a flat at 720 €; at 32 kilometres, Morlaix at 710 €. These are resident benchmarks, not holiday prices: a coastal let, dearer in summer, is checked with the host."
+      },
+      {
+        heading: "Old town, the Trégor and the Pink Granite Coast",
+        body: "Lannion's old centre, with its timber-framed houses, is walked on foot, and the Brélévenez church overlooks the town at the top of a stone staircase that children enjoy. The Pink Granite Coast on the nearby shore is the headline outing: it needs transport, so budget for a bus or a car. Hours and prices are checked with the venues and the tourist office."
+      },
+      {
+        heading: "19 green spaces mapped, 14 with a playground",
+        body: "The mapping survey records 19 green spaces in the commune, 14 of them with a playground (source: OpenStreetMap): the Sainte-Anne park, the public garden, the Loguivy square, the Frères Provost square and the jardin des sens dessus dessous, among others. The combined footprint is small, about 3 hectares: these are mostly small squares, easy to chain together on foot. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.2/10, quality of life 7.4/10",
+        body: "Lannion shows 8.2/10 on the safety axis (source: our city profile), third of the seventy-one, against a series median of 5.9. The indicator is a communal aggregate estimated by our model from the size of the commune and departmental data: it describes neither a district nor an hour of the day. Quality of life is 7.4/10, joint seventeenth of the seventy-one, tied with three others. With 20,525 inhabitants, the town offers more services than a small sub-prefecture, which matters when a single adult handles the shopping, the childcare and the journeys."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Brest (Brest-Guipavas), 77 kilometres away (source: Météo-France 1991-2020 normals). It gives 7.1 °C in January and 17.0 °C in July. The commune's own anchors come from our city profile: 7 °C in January, 19 °C in July and 1,650 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of any one town. The engine puts June first, then July, then September. Mild winters, cool summers: January at 7.1 °C, July at 17.0 °C at the reference station, which is 77 kilometres away. Crowding reaches level 4 in summer on the coast: June and September are the easiest months."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Côtes-d'Armor one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: [
+      "lannion",
+      "guingamp",
+      "morlaix"
+    ],
+    tags: [
+      "single parent holidays",
+      "lannion with kids",
+      "brittany coast with children",
+      "train holidays with children"
+    ]
+  },
 
 
   {

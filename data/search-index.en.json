@@ -9727,6 +9727,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-amboise-2026",
+      "title": "Single-parent holidays in Amboise: a château town twenty minutes from Tours",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-fontainebleau-2026",
+      "title": "Single-parent holidays in Fontainebleau: top-ranked, but a 1,200 € flat",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-le-puy-en-velay-2026",
+      "title": "Single-parent holidays in Le Puy-en-Velay: a 700 € flat, the hardest town to reach",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-vitre-2026",
+      "title": "Single-parent holidays in Vitré: safety 8.5/10 and a direct TGV from Paris",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saverne-2026",
+      "title": "Single-parent holidays in Saverne: Alsace by train, Strasbourg half an hour away",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-lannion-2026",
+      "title": "Single-parent holidays in Lannion: 14 playgrounds, and a change at Plouaret",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -10594,13 +10624,13 @@
       "count": 75
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 65
-    },
-    {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
+      "count": 71
+    },
+    {
+      "slug": "buying-property-france",
+      "label": "buying property france",
       "count": 65
     },
     {
@@ -10761,6 +10791,11 @@
     {
       "slug": "rural-france",
       "label": "rural france",
+      "count": 12
+    },
+    {
+      "slug": "train-holidays-with-children",
+      "label": "train holidays with children",
       "count": 12
     },
     {
@@ -11006,11 +11041,6 @@
     {
       "slug": "toulon",
       "label": "toulon",
-      "count": 6
-    },
-    {
-      "slug": "train-holidays-with-children",
-      "label": "train holidays with children",
       "count": 6
     },
     {
