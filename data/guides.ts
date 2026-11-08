@@ -75135,6 +75135,291 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "10-choses-a-faire-a-aubenas-2026",
+    title: "10 choses à faire à Aubenas",
+    metaTitle: "10 choses à faire à Aubenas",
+    metaDesc: "Château, vieille ville, Vals-les-Bains, Ardèche : 10 choses à faire à Aubenas, en Ardèche méridionale.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 4,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Aubenas compte environ 12 000 habitants dans notre fiche. C'est la porte d'entrée de l'Ardèche méridionale : une vieille ville perchée, un château et, tout autour, des villages de caractère et des rivières à baignade. Ce guide dit quoi voir en une journée.",
+    sections: [
+      {
+        heading: "1. Le château d'Aubenas",
+        body: "Il domine le centre ancien et sert de repère à toute la ville. L'extérieur et la terrasse sont les premiers arrêts d'une visite."
+      },
+      {
+        heading: "2. La vieille ville",
+        body: "Ruelles en pente, passages voûtés et petites places forment un centre qui se visite à pied. Les escaliers sont raides : emportez de bonnes chaussures."
+      },
+      {
+        heading: "3. L'église Saint-Laurent",
+        body: "Elle se trouve dans le centre ancien. Elle complète la visite du quartier du château sans demander plus d'une demi-heure."
+      },
+      {
+        heading: "4. Les marchés",
+        body: "Aubenas est un marché pour toute la région : fruits, châtaignes et produits de ferme. Vérifiez les jours avant de vous déplacer."
+      },
+      {
+        heading: "5. La châtaigne d'Ardèche",
+        body: "Le pays d'Aubenas est une terre de châtaigniers. Marrons glacés et crème de marrons se trouvent dans les boutiques du centre."
+      },
+      {
+        heading: "6. Vals-les-Bains",
+        body: "Cette commune voisine est une station thermale ancienne, à quelques kilomètres. Elle se rejoint en voiture ou en bus pour une promenade dans le centre."
+      },
+      {
+        heading: "7. L'Ardèche et les villages",
+        body: "Balazuc, Vogüé et Ruoms sont hors commune, accessibles depuis Aubenas. L'été, les rivières attirent beaucoup de monde : arrivez tôt."
+      },
+      {
+        heading: "8. Les gorges de l'Ardèche",
+        body: "Le Pont d'Arc et les gorges sont plus au sud, accessibles depuis Aubenas en voiture. Prévoyez une demi-journée de plus."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 740 € par mois dans notre estimation, contre 710 € à Privas et 700 € à Alès. Aubenas convient à qui veut une base ardéchoise avec commerces et marché, moins à qui cherche le calme total."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le château et la vieille ville. Ajoutez Vals-les-Bains et un village de la vallée pour une journée complète."
+      }
+    ],
+    relatedCities: ["aubenas","privas","ales"],
+    relatedGuides: ["10-choses-a-faire-a-privas-2026","10-choses-a-faire-a-ales-2026"],
+    tags: ["10 choses à faire à Aubenas","activités Aubenas 2026","que faire en Ardèche","château d'Aubenas"]
+  },
+  {
+    slug: "10-choses-a-faire-a-bagnols-sur-ceze-2026",
+    title: "10 choses à faire à Bagnols-sur-Cèze",
+    metaTitle: "10 choses à faire à Bagnols-sur-Cèze",
+    metaDesc: "Musée Albert-André, place Mallet, Cèze, chartreuse de Valbonne : 10 choses à faire à Bagnols-sur-Cèze, dans le Gard.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Bagnols-sur-Cèze compte environ 18 500 habitants dans notre fiche. Cette ville gardoise des bords de la Cèze abrite un musée de peinture inattendu et sert de base pour la vallée du Rhône et les vignobles voisins. Ce guide dit quoi voir en une journée.",
+    sections: [
+      {
+        heading: "1. Le musée Albert-André",
+        body: "Il réunit des peintres impressionnistes et post-impressionnistes, dont Renoir, Monet et Bonnard, dans une ville de moins de 20 000 habitants. C'est le premier arrêt à faire."
+      },
+      {
+        heading: "2. La place Mallet",
+        body: "Cette place du vieux centre est bordée d'arcades. Elle sert de cœur de ville et de lieu de marché."
+      },
+      {
+        heading: "3. La vieille ville",
+        body: "Les rues autour de la place Mallet gardent un plan médiéval. Une heure à pied suffit pour en faire le tour."
+      },
+      {
+        heading: "4. Le pont et les bords de la Cèze",
+        body: "La rivière traverse la ville ; un pont ancien et des quais se prêtent à une promenade. L'été, les abords de la Cèze sont plus frais que le centre."
+      },
+      {
+        heading: "5. Le musée d'art moderne de la ville",
+        body: "Le musée Albert-André est la pièce maîtresse, mais la ville programme aussi des expositions temporaires. Consultez le programme avant de venir."
+      },
+      {
+        heading: "6. La chartreuse de Valbonne",
+        body: "Ce monastère est à Saint-Paulet-de-Caisson, hors commune, accessible depuis Bagnols-sur-Cèze en voiture. Les conditions de visite varient : vérifiez-les d'abord."
+      },
+      {
+        heading: "7. Les cascades du Sautadet",
+        body: "Elles se trouvent à La Roque-sur-Cèze, hors commune. Le site est accessible depuis Bagnols-sur-Cèze en voiture ; la baignade y est réglementée, respectez les panneaux."
+      },
+      {
+        heading: "8. Les vignobles voisins",
+        body: "Lirac, Tavel et les côtes-du-rhône gardois sont à proximité. Une visite de cave se prévoit à l'avance."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 850 € par mois dans notre estimation, contre 700 € à Alès et 1 000 € à Avignon. Bagnols-sur-Cèze convient à qui veut une base gardoise bien reliée, moins à qui cherche une ville touristique à ambiance."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le musée et la vieille ville. Ajoutez la chartreuse ou les vignobles pour une journée complète."
+      }
+    ],
+    relatedCities: ["bagnols-sur-ceze","ales","avignon"],
+    relatedGuides: ["10-choses-a-faire-a-ales-2026","10-choses-a-faire-a-avignon-2026"],
+    tags: ["10 choses à faire à Bagnols-sur-Cèze","activités Bagnols-sur-Cèze 2026","musée Albert-André","que faire dans le Gard"]
+  },
+  {
+    slug: "10-choses-a-faire-a-pont-a-mousson-2026",
+    title: "10 choses à faire à Pont-à-Mousson",
+    metaTitle: "10 choses à faire à Pont-à-Mousson",
+    metaDesc: "Abbaye des Prémontrés, maison des Sept Péchés, colline de Mousson : 10 choses à faire à Pont-à-Mousson, en Meurthe-et-Moselle.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Pont-à-Mousson compte environ 14 000 habitants dans notre fiche. Cette ville lorraine des bords de la Moselle a un patrimoine religieux et civil fourni, entre Nancy et Metz. Ce guide dit quoi voir en une journée.",
+    sections: [
+      {
+        heading: "1. L'abbaye des Prémontrés",
+        body: "Ce grand ensemble classique sur la Moselle abrite aujourd'hui un lieu culturel et d'hébergement. Même sans événement, la façade et les cours valent le coup d'œil."
+      },
+      {
+        heading: "2. La place Duroc",
+        body: "Entourée d'arcades, elle forme le cœur de la ville. Une terrasse suffit pour la prendre en main."
+      },
+      {
+        heading: "3. La maison des Sept Péchés capitaux",
+        body: "Sa façade de la Renaissance, ornée de sculptures, est l'une des images de la ville. Elle se regarde depuis la rue."
+      },
+      {
+        heading: "4. L'église Saint-Martin",
+        body: "De style gothique, elle se trouve dans le centre. Elle complète bien la balade autour de la place Duroc."
+      },
+      {
+        heading: "5. Les bords de la Moselle",
+        body: "Les quais permettent de longer la rivière à pied ou à vélo. Les abords de l'abbaye sont les plus agréables."
+      },
+      {
+        heading: "6. La colline de Mousson",
+        body: "Elle domine la ville et porte les restes d'un ancien château. Le point de vue s'étend sur la vallée de la Moselle."
+      },
+      {
+        heading: "7. Le patrimoine industriel",
+        body: "La ville est liée à la fonderie, qui a marqué son histoire. Les traces s'en lisent dans l'urbanisme plus que dans un musée précis ; renseignez-vous à l'office de tourisme."
+      },
+      {
+        heading: "8. Les environs",
+        body: "Nancy et Metz sont accessibles depuis Pont-à-Mousson en train ou en voiture. Le parc naturel régional de Lorraine est proche."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 870 € par mois dans notre estimation, contre 950 € à Nancy et 910 € à Metz. Pont-à-Mousson convient à qui veut une base lorraine entre deux grandes villes, moins à qui cherche beaucoup de commerces."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la place, l'abbaye et la maison des Sept Péchés. Ajoutez la colline de Mousson pour une journée complète."
+      }
+    ],
+    relatedCities: ["pont-a-mousson","nancy","metz"],
+    relatedGuides: ["10-choses-a-faire-a-nancy-2026","10-choses-a-faire-a-metz-2026"],
+    tags: ["10 choses à faire à Pont-à-Mousson","activités Pont-à-Mousson 2026","abbaye des Prémontrés","que faire en Meurthe-et-Moselle"]
+  },
+  {
+    slug: "10-choses-a-faire-a-sable-sur-sarthe-2026",
+    title: "10 choses à faire à Sablé-sur-Sarthe",
+    metaTitle: "10 choses à faire à Sablé-sur-Sarthe",
+    metaDesc: "Château, bords de la Sarthe, abbaye de Solesmes, sablés : 10 choses à faire à Sablé-sur-Sarthe, dans la Sarthe.",
+    category: "tourisme",
+    emoji: "🍪",
+    readMinutes: 4,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Sablé-sur-Sarthe compte environ 12 400 habitants dans notre fiche. Cette petite ville des bords de la Sarthe est connue pour son biscuit, son château et la proximité de l'abbaye de Solesmes. Ce guide dit quoi voir en une journée.",
+    sections: [
+      {
+        heading: "1. Le château de Sablé",
+        body: "Il domine la rivière. Le parc se parcourt librement ; les conditions de visite de l'intérieur varient, vérifiez-les."
+      },
+      {
+        heading: "2. Les bords de la Sarthe",
+        body: "Le port de plaisance et les quais sont le cadre idéal d'une promenade d'une heure. L'ambiance est calme, surtout hors été."
+      },
+      {
+        heading: "3. Le sablé",
+        body: "Le biscuit porte le nom de la ville. Les boulangeries et biscuiteries locales en vendent ; c'est le souvenir le plus évident."
+      },
+      {
+        heading: "4. Le centre-ville",
+        body: "Ses rues commerçantes et ses maisons de pierre se parcourent à pied. On y trouve les commerces utiles à une halte."
+      },
+      {
+        heading: "5. L'église Notre-Dame",
+        body: "Elle se trouve au cœur de la ville. Une visite courte suffit."
+      },
+      {
+        heading: "6. L'abbaye de Solesmes",
+        body: "Elle est à Solesmes, commune voisine, accessible depuis Sablé-sur-Sarthe en voiture ou à vélo. Les offices et le chant grégorien sont ouverts au public ; respectez le silence."
+      },
+      {
+        heading: "7. Les villages de la vallée",
+        body: "Asnières-sur-Vègre et d'autres bourgs de la vallée sont hors commune, accessibles depuis Sablé-sur-Sarthe en voiture. Comptez une demi-journée."
+      },
+      {
+        heading: "8. Les promenades à vélo",
+        body: "Les abords de la Sarthe se prêtent aux balades en famille. Vérifiez l'état des itinéraires avant de partir."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 680 € par mois dans notre estimation, contre 660 € à Laval et 870 € au Mans. Sablé-sur-Sarthe convient à qui cherche un séjour paisible dans la Sarthe, moins à qui veut une offre culturelle dense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le château, les quais et le centre. Ajoutez Solesmes pour une journée complète."
+      }
+    ],
+    relatedCities: ["sable-sur-sarthe","laval","le-mans"],
+    relatedGuides: ["10-choses-a-faire-a-laval-2026","10-choses-a-faire-a-le-mans-2026"],
+    tags: ["10 choses à faire à Sablé-sur-Sarthe","activités Sablé-sur-Sarthe 2026","abbaye de Solesmes","que faire dans la Sarthe"]
+  },
+  {
+    slug: "10-choses-a-faire-a-valbonne-2026",
+    title: "10 choses à faire à Valbonne",
+    metaTitle: "10 choses à faire à Valbonne",
+    metaDesc: "Village de Valbonne, place des Arcades, Sophia Antipolis, Valmasque : 10 choses à faire à Valbonne, dans les Alpes-Maritimes.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 4,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro: "Valbonne compte environ 13 000 habitants dans notre fiche. Le village provençal est charmant ; la commune abrite surtout le technopôle de Sophia Antipolis et se situe à mi-chemin de Grasse, Cannes et Antibes. Ce guide dit quoi voir en une journée.",
+    sections: [
+      {
+        heading: "1. Le village de Valbonne",
+        body: "Son plan régulier en damier le distingue des villages perchés voisins. Il se visite à pied en une heure."
+      },
+      {
+        heading: "2. La place des Arcades",
+        body: "Bordée d'arcades, elle est le cœur du village. Les terrasses s'y remplissent aux beaux jours."
+      },
+      {
+        heading: "3. Le marché",
+        body: "Le village accueille un marché ; vérifiez les jours avant de venir. L'été, mieux vaut arriver tôt."
+      },
+      {
+        heading: "4. Les ruelles et les boutiques",
+        body: "Les rues autour de la place alternent restaurants et boutiques. Évitez le milieu de journée l'été."
+      },
+      {
+        heading: "5. Sophia Antipolis",
+        body: "Le technopôle s'étend sur plusieurs communes, dont Valbonne. Ce n'est pas un site touristique, mais il explique la population internationale de la commune."
+      },
+      {
+        heading: "6. Le parc de la Valmasque",
+        body: "Ce parc départemental, partagé avec des communes voisines, offre des sentiers boisés. C'est la promenade nature la plus simple depuis Valbonne."
+      },
+      {
+        heading: "7. Grasse et ses parfumeries",
+        body: "Grasse est accessible depuis Valbonne en voiture. Les visites de parfumeries se réservent souvent à l'avance."
+      },
+      {
+        heading: "8. Cannes et Antibes",
+        body: "Les plages sont accessibles depuis Valbonne en voiture. L'été, la circulation sur la côte est dense."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 490 € par mois dans notre estimation, contre 1 450 € à Antibes et 1 080 € à Grasse. Valbonne convient à qui travaille à Sophia Antipolis et veut un village agréable, moins aux petits budgets."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le village et la place des Arcades. Ajoutez le parc de la Valmasque ou Grasse pour une journée complète."
+      }
+    ],
+    relatedCities: ["valbonne","grasse","antibes"],
+    relatedGuides: ["10-choses-a-faire-a-grasse-2026","10-choses-a-faire-a-antibes-2026"],
+    tags: ["10 choses à faire à Valbonne","activités Valbonne 2026","place des Arcades Valbonne","que faire près de Sophia Antipolis"]
+  },
+  {
     slug: "10-choses-a-faire-a-villeneuve-sur-lot-2026",
     title: "10 choses à faire à Villeneuve-sur-Lot",
     metaTitle: "10 choses à faire à Villeneuve-sur-Lot",
