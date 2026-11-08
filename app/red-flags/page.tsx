@@ -331,6 +331,13 @@ export default function RedFlagsPage() {
               silencieuse des 25-35 ans et fiscalité immobilière la plus lourde (DGFiP / OFL).
             </p>
             <p className="mt-3 text-sm text-[var(--text-secondary)]">
+              Un hiver se juge aussi à la lumière : le classement des{" "}
+              <Link href="/red-flags/villes-deficit-soleil-hiver" className="text-[var(--accent)] hover:underline">
+                villes en déficit de soleil l&apos;hiver
+              </Link>{" "}
+              met côte à côte insolation et latitude, là où les photos de juillet ne disent rien de janvier.
+            </p>
+            <p className="mt-3 text-sm text-[var(--text-secondary)]">
               Ces angles sont universels ; pour une lecture calibrée sur un profil précis, croisez
               plutôt avec le{" "}
               <Link href="/pour-qui/sensibles-au-bruit" className="text-[var(--accent)] hover:underline">

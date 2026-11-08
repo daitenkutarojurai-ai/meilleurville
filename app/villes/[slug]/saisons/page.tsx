@@ -193,6 +193,20 @@ export default async function CitySaisonsPage({ params }: Props) {
             respirable et un été supportable. Ce dernier axe se déduit de la même
             température moyenne de juillet que celle lue plus haut : il classe des
             étés moyens, pas un nombre de jours au-dessus d&apos;un seuil.
+            {city.sunshinedays != null && city.sunshinedays <= 1950 &&
+              city.latitude != null && city.latitude >= 45.5 && (
+              <>
+                {" "}Pour l&apos;hiver, le versant sombre de l&apos;année se lit dans le
+                classement des{" "}
+                <Link
+                  href="/red-flags/villes-deficit-soleil-hiver"
+                  className="text-[var(--accent)] underline hover:opacity-80"
+                >
+                  villes où le soleil manque le plus de novembre à février
+                </Link>
+                .
+              </>
+            )}
           </p>
         </Card>
 

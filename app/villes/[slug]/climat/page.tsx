@@ -395,6 +395,17 @@ export default async function ClimatPage({ params }: Props) {
                  sunRank.rank >= sunRank.total - 30 ? " parmi les villes les moins ensoleillées." :
                  " dans la moyenne nationale."}
               </p>
+              {city.sunshinedays != null && city.sunshinedays <= 1950 &&
+                city.latitude != null && city.latitude >= 45.5 && (
+                <p className="text-sm text-[var(--text-secondary)] mt-2">
+                  À cette latitude, le manque de soleil se paie surtout de novembre à février :
+                  le classement des{" "}
+                  <Link href="/red-flags/villes-deficit-soleil-hiver" className="text-[var(--accent)] hover:underline">
+                    villes en déficit chronique de soleil l&apos;hiver
+                  </Link>{" "}
+                  dit où les jours courts et le ciel couvert s&apos;additionnent.
+                </p>
+              )}
             </div>
           )}
         </div>
