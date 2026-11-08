@@ -10505,6 +10505,21 @@
       "slug": "french-cities-poverty-rate-and-living-standards-409-cities-2026",
       "title": "Poverty rate and living standards in 409 French cities (2026)",
       "emoji": "💶"
+    },
+    {
+      "slug": "rent-control-france-2026-cities-and-how-to-invest",
+      "title": "Rent control in France: which cities have it and how landlords work around it",
+      "emoji": "📋"
+    },
+    {
+      "slug": "frr-rural-revitalisation-zones-france-tax-breaks-2026",
+      "title": "France Ruralités Revitalisation zones: the tax breaks for settling in rural France",
+      "emoji": "🌾"
+    },
+    {
+      "slug": "pinel-ends-denormandie-and-alternatives-france-2026",
+      "title": "Pinel is over: what is left for French rental investors in 2026",
+      "emoji": "📊"
     }
   ],
   "tags": [
@@ -10744,6 +10759,11 @@
       "count": 13
     },
     {
+      "slug": "rural-france",
+      "label": "rural france",
+      "count": 12
+    },
+    {
       "slug": "2026",
       "label": "2026",
       "count": 11
@@ -10766,11 +10786,6 @@
     {
       "slug": "pyrenees",
       "label": "pyrenees",
-      "count": 11
-    },
-    {
-      "slug": "rural-france",
-      "label": "rural france",
       "count": 11
     },
     {
@@ -11094,6 +11109,11 @@
       "count": 4
     },
     {
+      "slug": "rental-investment",
+      "label": "rental investment",
+      "count": 4
+    },
+    {
       "slug": "affordable",
       "label": "affordable",
       "count": 3
@@ -11184,6 +11204,11 @@
       "count": 3
     },
     {
+      "slug": "lmnp",
+      "label": "lmnp",
+      "count": 3
+    },
+    {
       "slug": "lorient",
       "label": "lorient",
       "count": 3
@@ -11206,6 +11231,11 @@
     {
       "slug": "paris-suburbs",
       "label": "paris suburbs",
+      "count": 3
+    },
+    {
+      "slug": "property-investment-france",
+      "label": "property investment france",
       "count": 3
     },
     {

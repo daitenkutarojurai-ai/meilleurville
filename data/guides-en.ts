@@ -61366,6 +61366,132 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["maisons-laffitte", "le-chesnay-rocquencourt", "le-plessis-robinson", "carquefou", "vertou", "neuilly-sur-seine", "roubaix", "denain", "la-courneuve", "creil", "mulhouse", "perpignan", "nimes", "versailles"],
     tags: ["poverty rate", "living standard", "median living standard", "income by city", "Filosofi", "INSEE", "deprivation", "inequality", "French city ranking"],
   },
+  {
+    slug: "rent-control-france-2026-cities-and-how-to-invest",
+    title: "Rent control in France: which cities have it and how landlords work around it",
+    metaTitle: "Rent Control in France: Cities, Caps and How It Works",
+    metaDesc:
+      "How rent control (encadrement des loyers) works in France: reference rents, the 20% ceiling, which cities apply it, what tenants can do and what it means for investors.",
+    category: "budget",
+    emoji: "📋",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro:
+      "Rent control in France (encadrement des loyers) caps the rent on new leases and renewals in a list of high-demand cities. It is not a freeze: each flat gets a reference rent from a prefectoral table, and the landlord may charge at most that figure plus 20 percent. Which cities are covered has changed several times since 2019 and the legal status of the scheme is still tied to renewals by Parliament, so check the current list before you sign or buy.",
+    sections: [
+      {
+        heading: "The mechanism in one paragraph",
+        body: "Each covered area is split into zones, and the prefecture publishes a yearly table of reference rents per square metre by number of rooms, construction period and furnished or unfurnished. Two figures matter: the reference rent and the ceiling (reference rent plus 20 percent, the loyer de référence majoré). The rent excluding charges cannot exceed the ceiling, and the lease must state the reference rent and the ceiling used."
+      },
+      {
+        heading: "Where it applies",
+        body: "The scheme started in Paris in 2019 and was then opened to other cities on request, among them Lille, Lyon and Villeurbanne, Bordeaux, Montpellier and a number of communes in the Paris inner suburbs and the Basque coast. Our city pages do not track the legal status, and the list is an administrative decision that moves; the official source is the housing ministry's list and the prefecture's rent tables. Rule of thumb: if you are renting a flat in a large, tight market, assume it might be covered and check the address, because coverage is by commune or by group of communes, not by metropolitan area."
+      },
+      {
+        heading: "The exception: the rent supplement",
+        body: "A landlord may add a complément de loyer exceptionnel above the ceiling if the flat has features that are rare for the zone and not counted in the reference table, such as a large terrace, a notable view or unusual fittings. It must be written in the lease with the reason. Tenants can challenge it within three months of signing, and it is the most disputed item in practice. Do not budget on the assumption that a supplement will hold."
+      },
+      {
+        heading: "What a tenant can do",
+        body: "If the rent looks above the ceiling, ask the landlord to correct it in writing, then go to the local conciliation commission (commission départementale de conciliation), which is free. If that fails, the civil court can reduce the rent and order a refund of the excess. Fines for landlords exist and are decided by the prefect. Keep the lease, the advertisement and the reference table for the year the lease was signed."
+      },
+      {
+        heading: "What it means for an investor",
+        body: "Underwrite the ceiling, not the market rent you see in listings. Furnished leases are covered, including mobility leases; only genuine short-stay tourist lets sit outside the scheme, and those are separately restricted by city rules. Buying below the ceiling's implied yield is a choice, not a mistake, but it should be a known one. In covered cities the realistic levers are the property itself (features that justify a supplement), the tax regime and the purchase price. Outside covered cities, rent is free, but a high gross yield alone says little about the town behind it."
+      },
+      {
+        heading: "Limits of this guide",
+        body: "We give no ceiling figures and no list of covered communes on purpose: both change and a wrong one costs real money. Confirm the current list, the table and the end date of the scheme on service-public.fr or with a local housing advice office (ADIL) before you rely on any of it."
+      }
+    ],
+    relatedCities: ["paris", "lille", "lyon", "bordeaux", "montpellier"],
+    tags: ["rent control","encadrement des loyers","reference rent","landlord","tenant rights","rental investment","tight rental market"],
+  },
+  {
+    slug: "frr-rural-revitalisation-zones-france-tax-breaks-2026",
+    title: "France Ruralités Revitalisation zones: the tax breaks for settling in rural France",
+    metaTitle: "FRR Zones in France: Rural Tax Breaks (ex-ZRR) Explained",
+    metaDesc:
+      "France Ruralités Revitalisation (FRR) replaced the ZRR in 2024. What the tax breaks cover, who can use them, and how to check whether a commune is in the zone.",
+    category: "budget",
+    emoji: "🌾",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro:
+      "If you plan to start a business, practise as a doctor or take over a farm in rural France, one acronym can change the maths: FRR, France Ruralités Revitalisation. It replaced the older ZRR (zones de revitalisation rurale) in July 2024. The benefits are aimed at people who work in the zone, not at people who merely live there, and the commune list is set by decree, so verify any address before you plan around it.",
+    sections: [
+      {
+        heading: "What changed from ZRR to FRR",
+        body: "The ZRR was a long-standing label for sparsely populated rural areas, and its benefits had become a patchwork. The 2024 reform created the FRR label with new criteria based on population density and income, and a stronger tier called FRR+ for the most fragile areas. Communes that lost the old status were given a transition period, and some measures were extended. The practical consequence is simple: do not trust an old list or an estate agent's memory."
+      },
+      {
+        heading: "Who benefits",
+        body: "The core of the scheme is a business tax relief. A business created or taken over in an FRR commune can be exempt from income or corporate tax on profits for the first five years, then on a sliding scale over the following three, within EU limits on state aid. Health professionals settling in under-served rural areas have separate incentives. Employers hiring there may get relief on part of their social contributions, with conditions. Retirees and remote workers who simply move to an FRR commune do not receive an income tax break for living there."
+      },
+      {
+        heading: "The conditions that catch people out",
+        body: "You must carry out the activity in the zone, not just register the company there. Certain businesses and certain transfers (such as a takeover of an existing firm by a related party) are excluded. Some local taxes, such as the business property tax, depend on a decision of the commune or its intercommunal body, so two FRR communes can differ. The tax office rules on eligibility, and a bad assumption can mean repaying the relief."
+      },
+      {
+        heading: "How to check a commune",
+        body: "The state publishes the list of FRR and FRR+ communes by decree, and the local tax office (service des impôts des entreprises) can confirm a specific address. Ask for the answer in writing before signing a lease or a purchase for a business. Also check the date: the status of a commune can end, and relief is generally governed by the date of creation of the business."
+      },
+      {
+        heading: "Is it a reason to move?",
+        body: "Rarely on its own. The tax break is useful for a craft business, a shop or a practice that would exist anyway; it does not fix a thin local market, long distances and poor transport. If remote work is the plan, the better test is broadband and the nearest hospital, which our city pages score separately. For a business case, run the numbers without the relief first and treat it as a margin of safety."
+      },
+      {
+        heading: "Limits of this guide",
+        body: "This guide gives no commune counts, income thresholds or percentages beyond the principle, because they depend on the decree in force. Check the current list and rules on the economy ministry and tax office sites, or with an accountant who knows the zone."
+      }
+    ],
+    relatedCities: ["cahors", "aurillac", "mende", "tulle", "gueret"],
+    tags: ["FRR","ZRR","rural France","tax relief","starting a business","doctors rural","rural revitalisation"],
+  },
+  {
+    slug: "pinel-ends-denormandie-and-alternatives-france-2026",
+    title: "Pinel is over: what is left for French rental investors in 2026",
+    metaTitle: "Pinel Ended: Denormandie and Alternatives in France 2026",
+    metaDesc:
+      "The Pinel tax break stopped for new purchases at the end of 2024. What happens to existing Pinel deals, what Denormandie covers, and the alternatives for a landlord.",
+    category: "budget",
+    emoji: "📊",
+    readMinutes: 6,
+    publishedAt: "2026-11-08",
+    updatedAt: "2026-11-08",
+    intro:
+      "Pinel, the tax reduction that drove new-build rental investment in France for a decade, closed to new purchases on 31 December 2024. Deals already signed keep their reduction until the commitment ends. Denormandie, which rewards buying and renovating old housing in town centres, was kept for longer. Everyone else is left choosing a tax regime rather than a scheme: furnished letting under LMNP, land deficit, or intermediate-rent housing.",
+    sections: [
+      {
+        heading: "What Pinel was, and what happens now",
+        body: "Pinel gave an income tax reduction to people who bought a new flat and let it at capped rents to tenants under income ceilings, for a commitment of six, nine or twelve years. It ended for new purchases at the end of 2024. If you already own a Pinel flat, the reduction continues for the committed period but the conditions keep applying: the rent and tenant income ceilings, and the commitment to let as a main home. Leaving early means losing the reduction."
+      },
+      {
+        heading: "Why it fell out of favour",
+        body: "Critics pointed at three things: new flats bought in weaker markets at prices above the second-hand market, rent ceilings that left yields modest, and vacancy in places where Pinel stock was concentrated. For a buyer, the lesson is general: a tax reduction is not a return. Judge the flat on rent, price and the town, and treat the tax relief as a bonus."
+      },
+      {
+        heading: "Denormandie",
+        body: "Denormandie works like Pinel for old housing: buy in an eligible town centre, renovate to a minimum share of the price, let at capped rents for six, nine or twelve years, and receive an income tax reduction that rises with the commitment. Eligible towns come from state revitalisation programmes (such as Action Cœur de Ville) and the list, works threshold and end date are set by law. Check the current text before relying on it: the scheme has been extended before and could change again."
+      },
+      {
+        heading: "The alternatives",
+        body: "The first is plain furnished letting under the LMNP regime, which lets you depreciate the property and often cuts tax on rental income for years; see our guide to LMNP by city. The second is land deficit (déficit foncier), where renovation costs on an unfurnished let are set against rental income, within limits. The third is intermediate-rent housing (logement locatif intermédiaire), which targets institutional and some individual investors in tight zones. None of these carries a tax reduction on purchase."
+      },
+      {
+        heading: "What to ask before buying",
+        body: "Ask what the rent would be at the ceiling, not at the developer's brochure rent, and compare with second-hand sales nearby. Ask who the tenants will be: a town losing population will not fill a block of new flats. Ask what you do at the end of the commitment, when the building is ten or twelve years old and the tax benefit is gone."
+      },
+      {
+        heading: "Limits of this guide",
+        body: "We give no tax rates, price ceilings or lists of eligible towns, because they change with each finance law. Confirm them on impots.gouv.fr or with a tax adviser before committing."
+      }
+    ],
+    relatedCities: ["lyon", "toulouse", "nantes", "rennes", "montpellier"],
+    tags: ["Pinel","Denormandie","rental investment","tax reduction","LMNP","land deficit","property investment France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
