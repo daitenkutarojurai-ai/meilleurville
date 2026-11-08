@@ -1403,3 +1403,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/sport` (classement national, + EN).
 2. Page agenda (hub).
 3. Hubs Red Flags.
+
+## 2026-11-08 ~03:00 UTC — hub `/sport` (FR) + EN `/sport`
+
+**Surface** : classement national sport, 2 locales. Avant : un seul bloc sur fond de page, titre et `Badge` gris, tableaux dans des `Card` à en-tête gris, renvois en cartes à filet avec emoji nu, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🏅 rose + pilule `grad-head-0`, fil d'Ariane complété, fin du titre en `gradient-text-anim`, pastilles blanches indigo ; top 30 en `band-indigo` (carte blanche à ombre indigo, en-tête `#EEF2FF`/`#4338CA`, rangs en indigo gras) ; top 20 inverse en `band-pink` (en-tête `#FCE7F3`/`#9D174D`) ; méthodologie en carte blanche en `band-sky` ; macro-régions + « Voir aussi » en `band-lilac` (cartes blanches à ombre lilas, `EmojiBadge` sm en rotation) ; `FeedbackWidget` (FR + EN `locale="en"`) en `band-white`. h2 en `.gradient-text`. Couleurs de niveau (paliers) conservées. Imports `Card`/`Badge` retirés. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/sport` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages `/sport/[macroregion]` (FR + EN), même gabarit de tableaux.
+2. Page agenda (hub).
+3. Hubs Red Flags.

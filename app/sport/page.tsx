@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { SPORT_LEVEL_LABEL, SPORT_LEVEL_COLOR } from "@/lib/sport-leisure";
 import { topSportFriendly, bottomSportFriendly } from "@/lib/sport-leisure-rankings";
 import { MACRO_REGIONS } from "@/lib/macro-regions";
@@ -65,18 +65,28 @@ export default function SportHubPage() {
   ]);
 
   return (
-    <main id="main-content" className="min-h-screen">
+    <main id="main-content" className="min-h-screen relative bg-[var(--bg-canvas)]">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+        <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
+          <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Accueil</Link>
+          <span>/</span>
+          <span className="text-[var(--text-secondary)]">Sport &amp; loisirs</span>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Villes sportives en France
+        <div className="flex items-center gap-3 mb-3">
+          <EmojiBadge emoji="🏅" tone="pink" />
+          <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+            Sport &amp; loisirs
+          </span>
+        </div>
+
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)] mb-1">
+          Villes sportives <span className="font-display gradient-text-anim italic">en France</span>
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
           Index composite agrégeant quatre dimensions clés de la pratique sportive
@@ -86,23 +96,28 @@ export default function SportHubPage() {
         </p>
 
         <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>Synthèse pédagogique</Badge>
-          <Badge>4 dimensions · {CITIES_COUNT} villes</Badge>
-          <Badge>Pondération équipements 35 % · outdoor 30 % · clubs 20 % · climat 15 %</Badge>
+          <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">Synthèse pédagogique</span>
+          <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">4 dimensions · {CITIES_COUNT} villes</span>
+          <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">Pondération équipements 35 % · outdoor 30 % · clubs 20 % · climat 15 %</span>
         </div>
 
+        </div>
+      </section>
+
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Top sportive */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <h2 className="text-2xl font-bold gradient-text">
           Top 30 — villes les plus sportives
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Communes cumulant pôle d&apos;excellence (CREPS / INSEP), tissu associatif
           dense, cadre naturel exploitable et climat propice à l&apos;activité régulière.
         </p>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[#EEF2FF] text-xs uppercase tracking-wide text-[#4338CA]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
@@ -116,8 +131,8 @@ export default function SportHubPage() {
               </thead>
               <tbody>
                 {best.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
+                  <tr key={c.slug} className="border-t border-[#E0E7FF]">
+                    <td className="px-3 py-2 font-bold tabular-nums text-[#4338CA]">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
                         href={`/villes/${c.slug}/sport`}
@@ -144,14 +159,19 @@ export default function SportHubPage() {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
         <p className="text-xs text-[var(--text-tertiary)] mt-2">
           Lecture : 10 = idéal pour la pratique sportive régulière. Score &gt; 7 = ville
           profondément sportive (terrain de jeu complet).
         </p>
 
+        </div>
+      </section>
+
+      <section className="band band-pink py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Worst */}
-        <h2 className="mt-12 text-2xl font-semibold text-[var(--text-primary)]">
+        <h2 className="text-2xl font-bold gradient-text">
           Top 20 — villes les moins propices au sport
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
@@ -159,10 +179,10 @@ export default function SportHubPage() {
           et tissu associatif fragile. La pratique reste possible mais nécessite
           déplacement ou installation privée.
         </p>
-        <Card className="mt-4 overflow-hidden p-0">
+        <div className="mt-4 overflow-hidden rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+              <thead className="bg-[#FCE7F3] text-xs uppercase tracking-wide text-[#9D174D]">
                 <tr>
                   <th className="px-3 py-2 text-left">#</th>
                   <th className="px-3 py-2 text-left">Ville</th>
@@ -175,8 +195,8 @@ export default function SportHubPage() {
               </thead>
               <tbody>
                 {worst.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
+                  <tr key={c.slug} className="border-t border-[#FCE7F3]">
+                    <td className="px-3 py-2 font-bold tabular-nums text-[#9D174D]">{i + 1}</td>
                     <td className="px-3 py-2">
                       <Link
                         href={`/villes/${c.slug}/sport`}
@@ -200,11 +220,16 @@ export default function SportHubPage() {
               </tbody>
             </table>
           </div>
-        </Card>
+        </div>
 
+        </div>
+      </section>
+
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Methodology */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">Méthodologie</h2>
-        <Card className="mt-3">
+        <h2 className="text-xl font-bold gradient-text">Méthodologie</h2>
+        <div className="mt-3 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)]">
           <ul className="space-y-2 text-sm text-[var(--text-secondary)] leading-relaxed">
             <li>
               <strong className="text-[var(--text-primary)]">Équipements (35 %)</strong> —
@@ -245,10 +270,15 @@ export default function SportHubPage() {
             </a>
             .
           </p>
-        </Card>
+        </div>
 
+        </div>
+      </section>
+
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Macro-region breakdown */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+        <h2 className="text-xl font-bold gradient-text">
           Par macro-région
         </h2>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
@@ -258,51 +288,51 @@ export default function SportHubPage() {
         </p>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
           {MACRO_REGIONS.map((m) => (
-            <Link key={m.slug} href={`/sport/${m.slug}`} className="block">
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-2xl mb-1">{m.emoji}</div>
+            <Link key={m.slug} href={`/sport/${m.slug}`} className="group block">
+              <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+                <EmojiBadge emoji={m.emoji} tone={toneFor(m.slug)} size="sm" className="mb-2" />
                 <div className="text-sm font-semibold text-[var(--text-primary)]">{m.label}</div>
                 <div className="text-xs text-[var(--text-tertiary)] mt-1">Top sportives + moins propices</div>
-              </Card>
+              </div>
             </Link>
           ))}
         </div>
 
         {/* Cross-links */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">
+        <h2 className="mt-12 text-xl font-bold gradient-text">
           Voir aussi
         </h2>
         <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          <Link href="/velo" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-2xl mb-1">🚲</div>
+          <Link href="/velo" className="group block">
+            <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+              <EmojiBadge emoji="🚲" tone="sky" size="sm" className="mb-2" />
               <div className="text-sm font-semibold text-[var(--text-primary)]">Mobilité vélo</div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Cyclabilité quotidienne</div>
-            </Card>
+            </div>
           </Link>
-          <Link href="/cadre-de-vie" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-2xl mb-1">🌿</div>
+          <Link href="/cadre-de-vie" className="group block">
+            <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+              <EmojiBadge emoji="🌿" tone="aqua" size="sm" className="mb-2" />
               <div className="text-sm font-semibold text-[var(--text-primary)]">Cadre de vie</div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Méga-index env + santé + emploi</div>
-            </Card>
+            </div>
           </Link>
-          <Link href="/palmares" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-2xl mb-1">🏆</div>
+          <Link href="/palmares" className="group block">
+            <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+              <EmojiBadge emoji="🏆" tone="indigo" size="sm" className="mb-2" />
               <div className="text-sm font-semibold text-[var(--text-primary)]">Palmarès synthèse 8 axes</div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Classement national universel</div>
-            </Card>
+            </div>
           </Link>
           {/* Le cadre outdoor de ce composite (30 %) additionne montagne, côte,
               forêt et plan d'eau : deux atouts quelconques suffisent à faire
               monter la note. Le profil montagne ne retient que le relief. */}
-          <Link href="/pour-qui/amateurs-de-montagne" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-2xl mb-1">🏔️</div>
+          <Link href="/pour-qui/amateurs-de-montagne" className="group block">
+            <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+              <EmojiBadge emoji="🏔️" tone="peach" size="sm" className="mb-2" />
               <div className="text-sm font-semibold text-[var(--text-primary)]">Vivre au pied d&apos;un massif</div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Le relief seul, sans le reste de l&apos;outdoor</div>
-            </Card>
+            </div>
           </Link>
           {/* Ce composite est d'abord un inventaire de ce que la commune
               finance : équipements et clubs pèsent plus lourd, ensemble, que le
@@ -311,13 +341,20 @@ export default function SportHubPage() {
               confort d'été — et ne compte ni salle, ni licencié, ni piscine
               municipale. C'est le seul des 36 profils dont l'axe nature est le
               poids cardinal. */}
-          <Link href="/pour-qui/amateurs-de-plein-air" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-2xl mb-1">🥾</div>
+          <Link href="/pour-qui/amateurs-de-plein-air" className="group block">
+            <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+              <EmojiBadge emoji="🥾" tone="pink" size="sm" className="mb-2" />
               <div className="text-sm font-semibold text-[var(--text-primary)]">Vivre dehors sans club ni licence</div>
               <div className="text-xs text-[var(--text-tertiary)] mt-1">Le cadre naturel avant les équipements</div>
-            </Card>
+            </div>
           </Link>
+        </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
         </div>
       </section>
 
