@@ -1429,3 +1429,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Page agenda (hub).
 2. Hubs Red Flags.
 3. Bandeau cookies.
+
+## 2026-11-09 ~03:00 UTC — pages région `/regions/[region]` (FR ×18) + EN `/regions/[region]`
+
+**Surface** : gabarit des 18 pages région, 2 locales. Avant : hero blanc à filet, emoji nu, `Badge` gris, critères en pastilles grises, tout le reste dans un seul bloc sur fond de page, guides en cartes à filet avec emoji nu, renvois en boutons gris ; EN sans feedback.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` (emoji de la région, `toneFor`) + pilule `grad-head-0`, nom de région en `gradient-text-anim`, chiffres du hero en pilules blanches indigo (FR) ; profil moyen (5 cartes blanches à ombre indigo, chiffre `#4338CA`, grille 3/5 colonnes) + teaser Synthèse en `band-indigo` (FR) ; top 3 en `band-pink`, liste complète en `band-sky` (`CityCard` et photos inchangées) ; départements (pilules blanches lilas) + guides (cartes blanches, `EmojiBadge` sm) + renvois (pilules blanches, quiz en pilule dégradée) en `band-lilac` ; feedback en `band-white`. EN : liste classée en `band-indigo` (cartes blanches, rang `#4338CA`, couleurs de palier conservées), guides en `band-lilac`, `FeedbackWidget locale="en"` ajouté en `band-white`. h2 en `.gradient-text`. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/regions/bretagne` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/regions` (FR + EN).
+2. Pages `/departements/[dept]` (FR + EN).
+3. Hub `/comparer` puis `/leaderboard`.

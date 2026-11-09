@@ -3,6 +3,8 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { EN_GUIDES } from "@/data/guides-en";
 import { scoreColor } from "@/lib/utils";
@@ -156,79 +158,91 @@ export default async function EnRegionDetail({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-8">
-        <nav className="mb-6 text-sm text-[var(--text-secondary)]">
-          <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
-          {" · "}
-          <Link href="/regions" className="hover:text-[var(--accent)]">Regions</Link>
-          {" · "}
-          <span>{regionName}</span>
-        </nav>
-        <div className="flex items-center gap-3 mb-4">
-          <span className="text-5xl" aria-hidden>{REGION_EMOJIS[regionName] ?? "🇫🇷"}</span>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav className="mb-5 flex items-center gap-2 text-xs text-[var(--text-tertiary)]">
+            <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/regions" className="hover:text-[var(--text-secondary)] transition-colors">Regions</Link>
+            <span>/</span>
+            <span className="text-[var(--text-secondary)]">{regionName}</span>
+          </nav>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji={REGION_EMOJIS[regionName] ?? "🇫🇷"} tone={toneFor(region)} />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Region
+            </span>
+          </div>
           <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight">
-            Cities in {regionName}
+            Cities in <span className="font-display gradient-text-anim italic">{regionName}</span>
           </h1>
+          <p className="mt-4 text-[var(--text-secondary)] text-lg max-w-3xl leading-relaxed">{intro}</p>
+          <Link
+            href={`/regions/${region}/synthesis`}
+            className="mt-5 inline-flex items-center gap-2 rounded-full grad-head-0 px-4 py-2.5 text-sm font-semibold transition-all hover:-translate-y-0.5"
+          >
+            <span>8-dimension synthesis ranking →</span>
+          </Link>
         </div>
-        <p className="text-[var(--text-secondary)] text-lg max-w-3xl leading-relaxed">{intro}</p>
-        <Link
-          href={`/regions/${region}/synthesis`}
-          className="mt-5 inline-flex items-center gap-2 rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-4 py-2.5 text-sm font-semibold text-[var(--text-primary)] hover:bg-[var(--accent)]/10 transition-colors"
-        >
-          <span>8-dimension synthesis ranking →</span>
-        </Link>
       </section>
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold mb-4 text-[var(--text-primary)]">
-          {cities.length} cities, ranked by quality of life
-        </h2>
-        <ol className="space-y-2">
-          {cities.map((c, i) => (
-            <li key={c.slug}>
-              <Link
-                href={`/cities/${c.slug}`}
-                className="flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
-              >
-                <span className="font-mono-data text-xl font-bold w-10 text-[var(--text-tertiary)]">#{i + 1}</span>
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-[var(--text-primary)] truncate">{c.name}</h3>
-                  <p className="text-xs text-[var(--text-secondary)] truncate">{c.department ?? ""}</p>
-                </div>
-                <span className={`font-mono-data font-bold text-2xl ${scoreColor(c.scores.global)}`}>
-                  {c.scores.global.toFixed(1)}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ol>
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-2xl font-bold gradient-text mb-4">
+            {cities.length} cities, ranked by quality of life
+          </h2>
+          <ol className="space-y-2">
+            {cities.map((c, i) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/cities/${c.slug}`}
+                  className="flex items-center gap-4 rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] transition-all hover:-translate-y-0.5 hover:ring-[#C7D2FE]"
+                >
+                  <span className="font-mono-data text-xl font-bold w-10 text-[#4338CA]">#{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold text-[var(--text-primary)] truncate">{c.name}</h3>
+                    <p className="text-xs text-[var(--text-secondary)] truncate">{c.department ?? ""}</p>
+                  </div>
+                  <span className={`font-mono-data font-bold text-2xl ${scoreColor(c.scores.global)}`}>
+                    {c.scores.global.toFixed(1)}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </div>
       </section>
       {regionGuides.length > 0 && (
-        <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-10">
-          <div className="flex items-baseline justify-between mb-5">
-            <h2 className="text-xl font-bold text-[var(--text-primary)]">
-              Guides about {regionName}
-            </h2>
-            <Link href="/guides" className="text-xs text-[var(--accent)] hover:underline">
-              All guides →
-            </Link>
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {regionGuides.map((g) => (
-              <Link
-                key={g.slug}
-                href={`/guides/${g.slug}`}
-                className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
-              >
-                <span className="text-2xl mb-2 block">{g.emoji}</span>
-                <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
-                  {g.title}
-                </p>
-                <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
+        <section className="band band-lilac py-10 sm:py-12">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
+              <h2 className="text-xl font-bold gradient-text">
+                Guides about {regionName}
+              </h2>
+              <Link href="/guides" className="text-xs font-semibold text-[#4338CA] hover:underline">
+                All guides →
               </Link>
-            ))}
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {regionGuides.map((g) => (
+                <Link key={g.slug} href={`/guides/${g.slug}`} className="group block">
+                  <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+                    <EmojiBadge emoji={g.emoji} tone={toneFor(g.slug)} size="sm" className="mb-2" />
+                    <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
+                      {g.title}
+                    </p>
+                    <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
       )}
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
+        </div>
+      </section>
       <Footer />
     </main>
   );

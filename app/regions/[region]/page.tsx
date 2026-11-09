@@ -4,7 +4,7 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CityCard } from "@/components/CityCard";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
@@ -220,8 +220,8 @@ export default async function RegionPage({ params }: Props) {
       />
 
       {/* Header */}
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
             <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Accueil</Link>
             <span>/</span>
@@ -229,68 +229,78 @@ export default async function RegionPage({ params }: Props) {
             <span>/</span>
             <span className="text-[var(--text-secondary)]">{regionName}</span>
           </nav>
-          <div className="flex items-center gap-4 mb-4">
-            <div className="text-5xl">{emoji}</div>
-            <div>
-              <Badge variant="accent" className="mb-2">Région</Badge>
-              <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)]">
-                {regionName}
-              </h1>
-            </div>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji={emoji} tone={toneFor(regionSlug)} />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Région
+            </span>
           </div>
-          <p className="text-[var(--text-secondary)] max-w-2xl">
-            {cities.length} villes analysées · Score moyen {avgScore.toFixed(1)}/10 · Données 2026
-          </p>
+          <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
+            <span className="font-display gradient-text-anim italic">{regionName}</span>
+          </h1>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs">
+            <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">{cities.length} villes analysées</span>
+            <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">Score moyen {avgScore.toFixed(1)}/10</span>
+            <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">Données 2026</span>
+          </div>
           {regionDesc && (
-            <p className="mt-3 text-sm text-[var(--text-secondary)] max-w-3xl leading-relaxed">
+            <p className="mt-4 text-sm sm:text-base text-[var(--text-secondary)] max-w-3xl leading-relaxed">
               {regionDesc}
             </p>
           )}
-          {/* Criteria bar */}
-          <div className="mt-5 flex flex-wrap gap-3">
-            {Object.entries(avgCriteria).map(([key, val]) => (
-              <div key={key} className="rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-4 py-2 text-center">
-                <div className="text-sm font-bold font-mono-data text-[var(--accent)]">{val.toFixed(1)}</div>
-                <div className="text-[10px] text-[var(--text-tertiary)] capitalize">{key}</div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-12 space-y-10">
-        {/* F66 — Synthèse région teaser */}
-        <Link
-          href={`/regions/${regionSlug}/synthese`}
-          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
-        >
-          <span className="text-2xl shrink-0">✨</span>
-          <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-              Synthèse 8 axes — villes de {regionName}
-            </p>
-            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
-              Palmarès régional sur env / santé / emploi / cadre / vélo / sécurité / démo /
-              services publics + profil moyen de la région.
-            </p>
+      {/* Profil moyen + synthèse */}
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold gradient-text">Profil moyen de la région</h2>
+          <div className="mt-4 grid grid-cols-3 sm:grid-cols-5 gap-3">
+            {Object.entries(avgCriteria).map(([key, val]) => (
+              <div key={key} className="rounded-2xl bg-white px-4 py-3 text-center shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+                <div className="text-xl font-bold font-mono-data text-[#4338CA]">{val.toFixed(1)}</div>
+                <div className="text-xs text-[var(--text-secondary)] capitalize">{key}</div>
+              </div>
+            ))}
           </div>
-          <span className="text-sm text-[var(--accent)] font-medium shrink-0">Voir →</span>
-        </Link>
 
-        {/* Top 3 */}
-        <section>
-          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">Top 3 en {regionName}</h2>
+          {/* F66 — Synthèse région teaser */}
+          <Link
+            href={`/regions/${regionSlug}/synthese`}
+            className="group mt-6 flex flex-wrap items-center gap-3 rounded-2xl bg-white ring-1 ring-transparent hover:ring-[#C7D2FE] shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] hover:-translate-y-0.5 transition-all px-5 py-4"
+          >
+            <EmojiBadge emoji="✨" tone="lilac" size="sm" className="shrink-0" />
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                Synthèse 8 axes — villes de {regionName}
+              </p>
+              <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+                Palmarès régional sur env / santé / emploi / cadre / vélo / sécurité / démo /
+                services publics + profil moyen de la région.
+              </p>
+            </div>
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold shrink-0">Voir →</span>
+          </Link>
+        </div>
+      </section>
+
+      {/* Top 3 */}
+      <section className="band band-pink py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-2xl font-bold gradient-text mb-4">Top 3 en {regionName}</h2>
           <div className="grid gap-4 sm:grid-cols-3">
             {top3.map((city, i) => (
               <CityCard key={city.slug} city={seedToCity(city)} rank={i + 1} />
             ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Full list */}
-        {rest.length > 0 && (
-          <section>
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
+      {/* Full list */}
+      {rest.length > 0 && (
+        <section className="band band-sky py-10 sm:py-12">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <h2 className="text-2xl font-bold gradient-text mb-4">
               Toutes les villes ({cities.length})
             </h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -298,92 +308,92 @@ export default async function RegionPage({ params }: Props) {
                 <CityCard key={city.slug} city={seedToCity(city)} rank={i + 4} />
               ))}
             </div>
-          </section>
-        )}
+          </div>
+        </section>
+      )}
 
-        {/* Departments */}
-        {departments.length > 1 && (
-          <section>
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
-              Départements de {regionName}
-            </h2>
-            <div className="flex flex-wrap gap-2">
-              {departments.map((dept) => {
-                const deptSlug = dept.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-                const deptCities = cities.filter((c) => c.department === dept);
-                return (
-                  <Link
-                    key={dept}
-                    href={`/departements/${deptSlug}`}
-                    className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-2.5 text-sm"
-                  >
-                    <span className="font-medium text-[var(--text-primary)]">{dept}</span>
-                    <span className="ml-1.5 text-xs text-[var(--text-tertiary)]">
-                      {deptCities.length} ville{deptCities.length > 1 ? "s" : ""}
-                    </span>
-                  </Link>
-                );
-              })}
-            </div>
-          </section>
-        )}
-
-        {/* Guides relating to this region */}
-        {regionGuides.length > 0 && (
-          <section className="mb-10">
-            <div className="flex items-baseline justify-between mb-5">
-              <h2 className="text-lg font-bold text-[var(--text-primary)]">
-                {regionGuides.length} guides liés à {regionName}
+      {/* Départements + guides + renvois */}
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-12">
+          {departments.length > 1 && (
+            <div>
+              <h2 className="text-xl font-bold gradient-text mb-4">
+                Départements de {regionName}
               </h2>
-              <Link href="/guides" className="text-xs text-[var(--accent)] hover:underline">
-                Tous les guides →
-              </Link>
+              <div className="flex flex-wrap gap-2">
+                {departments.map((dept) => {
+                  const deptSlug = dept.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+                  const deptCities = cities.filter((c) => c.department === dept);
+                  return (
+                    <Link
+                      key={dept}
+                      href={`/departements/${deptSlug}`}
+                      className="rounded-full bg-white ring-1 ring-[#E9D5FF] hover:ring-[#C084FC] shadow-[0_8px_20px_-16px_rgba(124,58,237,0.5)] transition-all px-4 py-2 text-sm"
+                    >
+                      <span className="font-medium text-[var(--text-primary)]">{dept}</span>
+                      <span className="ml-1.5 text-xs text-[#6D28D9]">
+                        {deptCities.length} ville{deptCities.length > 1 ? "s" : ""}
+                      </span>
+                    </Link>
+                  );
+                })}
+              </div>
             </div>
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {regionGuides.map((g) => (
-                <Link
-                  key={g.slug}
-                  href={`/guides/${g.slug}`}
-                  className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 hover:border-[var(--accent)] transition-colors"
-                >
-                  <span className="text-2xl mb-2 block">{g.emoji}</span>
-                  <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
-                    {g.title}
-                  </p>
-                  <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
-                </Link>
-              ))}
-            </div>
-          </section>
-        )}
-
-        {/* Related links */}
-        <div className="flex flex-wrap gap-3 pt-4">
-          <Link href="/regions" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            ← Toutes les régions
-          </Link>
-          {regionGuide && (
-            <Link
-              href={`/guides/${regionGuide.slug}`}
-              className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--accent)]/40 transition-colors"
-            >
-              {regionGuide.emoji} Guide {regionName.split("-")[0]} →
-            </Link>
           )}
-          <Link href="/classements" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Classements thématiques →
-          </Link>
-          <Link href="/city-match" className="rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-4 py-2.5 text-sm text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-colors">
-            ✨ Quiz : trouver ma ville →
-          </Link>
+
+          {regionGuides.length > 0 && (
+            <div>
+              <div className="flex flex-wrap items-baseline justify-between gap-2 mb-4">
+                <h2 className="text-xl font-bold gradient-text">
+                  {regionGuides.length} guides liés à {regionName}
+                </h2>
+                <Link href="/guides" className="text-xs font-semibold text-[#4338CA] hover:underline">
+                  Tous les guides →
+                </Link>
+              </div>
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {regionGuides.map((g) => (
+                  <Link key={g.slug} href={`/guides/${g.slug}`} className="group block">
+                    <div className="h-full rounded-2xl bg-white p-4 ring-1 ring-transparent shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all group-hover:-translate-y-0.5 group-hover:ring-[#D8B4FE]">
+                      <EmojiBadge emoji={g.emoji} tone={toneFor(g.slug)} size="sm" className="mb-2" />
+                      <p className="text-sm font-semibold text-[var(--text-primary)] leading-snug group-hover:text-[var(--accent)] transition-colors line-clamp-3">
+                        {g.title}
+                      </p>
+                      <p className="text-xs text-[var(--text-tertiary)] mt-2">{g.readMinutes} min</p>
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="flex flex-wrap gap-3">
+            <Link href="/regions" className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all">
+              ← Toutes les régions
+            </Link>
+            {regionGuide && (
+              <Link
+                href={`/guides/${regionGuide.slug}`}
+                className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all"
+              >
+                {regionGuide.emoji} Guide {regionName.split("-")[0]} →
+              </Link>
+            )}
+            <Link href="/classements" className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all">
+              Classements thématiques →
+            </Link>
+            <Link href="/city-match" className="rounded-full grad-head-0 px-4 py-2.5 text-sm font-semibold transition-all hover:-translate-y-0.5">
+              ✨ Quiz : trouver ma ville →
+            </Link>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-
-        <FeedbackWidget />
-
-      </div>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>
