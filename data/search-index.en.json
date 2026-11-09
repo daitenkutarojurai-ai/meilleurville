@@ -10585,6 +10585,11 @@
       "slug": "house-or-flat-in-france-which-to-buy-2026",
       "title": "House or flat in France: which suits you, by life stage and by kind of town",
       "emoji": "🏘️"
+    },
+    {
+      "slug": "french-cities-salaries-highest-and-lowest-358-cities-2026",
+      "title": "Average net salary by city: ranking of 358 French job markets (2026)",
+      "emoji": "💼"
     }
   ],
   "tags": [
@@ -11261,6 +11266,11 @@
     {
       "slug": "healthcare-france",
       "label": "healthcare france",
+      "count": 3
+    },
+    {
+      "slug": "insee",
+      "label": "INSEE",
       "count": 3
     },
     {

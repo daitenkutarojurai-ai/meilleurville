@@ -62032,6 +62032,58 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["nantes","rennes","strasbourg","bordeaux","lyon"],
     tags: ["house or flat","apartment","buying property France","family housing","retirement housing","DPE","town size","moving to France"],
   },
+  {
+    slug: "french-cities-salaries-highest-and-lowest-358-cities-2026",
+    title: "Average net salary by city: ranking of 358 French job markets (2026)",
+    metaTitle: "Average salary by French city: 358 cities ranked (2026)",
+    metaDesc: "Saint-Germain-en-Laye €5,422, Le Tampon €1,931: average net salary by city of work (INSEE, 2024), by region and size, set against a 3-room rent.",
+    category: "budget",
+    emoji: "💼",
+    readMinutes: 9,
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    intro: "Across the 358 cities in our database that offer at least 10,000 local jobs, the average monthly net salary for a full-time equivalent (INSEE, all-employees base, 2024) has a median of about €2,480, against €2,733 for France as a whole. It runs from €5,422 in Saint-Germain-en-Laye to €1,931 in Le Tampon, a ratio of 1 to 2.8. Only 89 cities reach the national average, 56 pass €3,000 and 96 stay under €2,300. Mind what the figure measures: pay for jobs located in the city, not what its residents earn. This guide ranks the cities, compares them by region and size, then sets salary against the rent of a three-room flat to show where the most margin is left.",
+    sections: [
+      {
+        heading: "What does the average net salary by city measure?",
+        body: "It is the average monthly net salary, in full-time equivalent, of salaried jobs located in the commune, published by INSEE in its all-employees database (2024 vintage). Three details change how to read it. It describes the workplace, not the home: an executive who lives in Rennes and works in Courbevoie counts in Courbevoie. It is a mean, pulled up by very high pay, so it sits above what the typical employee earns. And it leaves out the self-employed. It is also not household living standards, which our poverty-rate guide covers separately: a salary is an individual wage, a living standard is household income after tax and benefits."
+      },
+      {
+        heading: "Where are salaries highest?",
+        body: "In the inner western and southern suburbs of Paris and in the Yvelines, communes that offer many jobs for few residents. Among the 358 cities the top of the table is entirely in the Paris region: Saint-Germain-en-Laye (€5,422), Puteaux (€5,152), Courbevoie (€4,942), Meudon (€4,723), Issy-les-Moulineaux (€4,722), Montrouge (€4,649), Bois-Colombes (€4,598), Gentilly (€4,554), Neuilly-sur-Seine (€4,361) and Rueil-Malmaison (€4,317). Puteaux and Courbevoie host 91,510 and 114,242 jobs for 44,198 and 81,945 residents: they are job hubs, and many of the people working there live elsewhere. Paris itself, with 1.8 million jobs, averages €3,836, behind 23 cities in the ranking: the capital counts by volume, not by average level."
+      },
+      {
+        heading: "Which provincial cities pay best?",
+        body: "Only eight pass €3,000, and each is either a specialised job hub or a big metropolis. Blagnac leads (€3,801, 39,066 jobs), ahead of Valbonne (€3,730), Marignane (€3,489), Décines-Charpieu (€3,440), Saint-Priest (€3,073), Épernay (€3,050), Grenoble (€3,020) and Lyon (€3,014). Next come La Chapelle-sur-Erdre (€2,991), Bouguenais (€2,963), Saint-Médard-en-Jalles (€2,947), Toulouse (€2,909), Oullins-Pierre-Bénite (€2,885) and Martigues (€2,881). The pattern is clear: the best salary in a metropolitan area is often in a neighbouring commune rather than the central city. Blagnac pays almost €900 more than Toulouse, and Décines-Charpieu €426 more than Lyon. To aim for a high salary, look at the whole urban area, not only the prefecture."
+      },
+      {
+        heading: "Where are salaries lowest?",
+        body: "On Réunion island, then in mid-sized towns in the north, east, centre and south-west. Outside the overseas departments, Agde (€2,045), Royan (€2,058), Bondy (€2,099), Moulins (€2,107), Soissons (€2,108), Vichy (€2,108), Saint-Dié-des-Vosges and Cambrai (€2,122), Digne-les-Bains (€2,125), Bergerac (€2,130), Bar-le-Duc (€2,131), Saumur (€2,136), Guéret (€2,141) and Fontenay-le-Comte (€2,146) close the list. On Réunion, Le Tampon (€1,931), Saint-André (€1,975), Saint-Benoît (€2,024) and Saint-Louis (€2,073) are the four lowest in the ranking. Bondy is the only Paris-region city among the lowest. Agde and Royan are seaside towns; in Agde the census unemployment rate is 23.7%, against 11.4% for France, a reminder that a low salary often goes with a narrow job market."
+      },
+      {
+        heading: "Does the Paris region really pay more than the rest of France?",
+        body: "Yes, by about €660 a month at the median, but the gap comes from a minority of communes. The 92 Paris-region cities in the ranking have a median salary of €3,060, against €2,400 for the other 266: 60 of them beat the national average (€2,733) and 48 reach €3,000, whereas outside the Paris region only 29 beat the national average and 8 reach €3,000. Inside the region the spread is huge: from €5,422 in Saint-Germain-en-Laye to €2,099 in Bondy and €2,332 in Rosny-sous-Bois. A Paris-region salary therefore compares with a provincial one only for the same job, once the cost of housing has been added, which is what the following section does."
+      },
+      {
+        heading: "Which regions and city sizes pay best outside Paris?",
+        body: "Outside the Paris region, the size of the job market matters more than the region, and regional gaps stay modest. Regional medians (regions with eight or more cities): Normandy €2,491, Auvergne-Rhône-Alpes €2,490, Centre-Val de Loire €2,456, Pays de la Loire €2,454, Provence-Alpes-Côte d'Azur €2,418, Brittany €2,405, Grand Est €2,399, Nouvelle-Aquitaine €2,384, Bourgogne-Franche-Comté €2,326, Occitanie €2,313 and Hauts-de-France €2,266. The spread between these eleven regions is only €225, whereas inside a single region the top and bottom often differ by over €1,000: from €2,045 to €3,801 in Occitanie. By job-market size outside the Paris region, the median rises with the market: €2,315 for the 130 cities with 10,000 to 20,000 jobs, €2,416 for 20,000 to 50,000 (95 cities), €2,481 for 50,000 to 100,000 (27 cities) and €2,716 above 100,000 (14 cities)."
+      },
+      {
+        heading: "What about the overseas departments?",
+        body: "The 15 overseas cities in the ranking have a median of €2,397, close to the €2,401 of the provinces outside the Paris region, with wide differences by island. Le Lamentin (€2,687), Baie-Mahault (€2,613), Les Abymes (€2,535), Fort-de-France (€2,530) and Pointe-à-Pitre (€2,482) sit in the range of mainland prefectures, and Cayenne is at €2,406. On Réunion the eight cities in the ranking have a median of about €2,100, from Sainte-Marie (€2,402) and Saint-Denis (€2,397) down to Le Tampon (€1,931). Census unemployment there runs from 22% to 32% in those eight cities. An overseas salary is hard to compare with a mainland one without allowing for local living costs, which this ranking does not measure."
+      },
+      {
+        heading: "Where does the salary leave the most room against rent?",
+        body: "In mid-sized provincial cities, not in the big metropolises. Set against the city's average net salary, the rent of a three-room flat (our rent estimate) weighs 22% in Cognac (€620 against €2,761), 25% in Aurillac and Belfort, 26% in Laval, Lens, Châtellerault and Saint-Avold, and 27% in Cahors and Roubaix. Among large cities, Clermont-Ferrand (32%), Brest and Limoges (33%) and Grenoble (34%) stand out; Lille and Toulouse are at 40%, Marseille, Nantes and Rennes at 41%, Strasbourg at 42%, Montpellier at 43%, Bordeaux at 44% and Lyon at 46%. At the other end the flat weighs 57% in Neuilly-sur-Seine, 60% in Nice, 62% in Vincennes, 65% in Cannes, 66% in Saint-Maur-des-Fossés and 73% in Paris (€2,800 against €3,836). The ratio is a benchmark, not a budget: a three-room flat is paid by two incomes, the salary is the one at the workplace, and the two figures come from different sources."
+      },
+      {
+        heading: "How should you use this ranking before moving?",
+        body: "Three uses. If you are looking for a job, look at the salary of the whole urban area and the size of the market: a city at €2,400 with 80,000 jobs offers more choice than one at €2,700 with 12,000, and our unemployment guide gives the other half of the picture. If you already have a job or a remote salary, ignore the local pay and look at the rent-to-salary ratio: a Paris salary spent in Belfort or Laval is a different budget. If you are comparing two offers, compare them after rent, not before. Limits: a single vintage (2024), cities with fewer than 10,000 jobs left out, the self-employed not covered, a mean that hides differences between occupations, and a workplace salary that says nothing about residents' lives."
+      }
+    ],
+    relatedCities: ["saint-germain-en-laye", "puteaux", "courbevoie", "blagnac", "valbonne", "grenoble", "lyon", "toulouse", "le-tampon", "cognac", "belfort", "laval", "aurillac", "paris"],
+    tags: ["salary by city", "average net salary", "salaries in France", "INSEE", "jobs by city", "job hubs", "rent and salary", "French city ranking", "purchasing power"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

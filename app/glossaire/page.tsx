@@ -1165,6 +1165,36 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Salaires et lieu de travail",
+    emoji: "💼",
+    terms: [
+      {
+        term: "Salaire brut, net et net après impôt",
+        def: "Le brut est la rémunération avant cotisations ; le net est ce qui reste après les cotisations salariales, avant impôt sur le revenu ; le net après prélèvement à la source est ce qui arrive réellement sur le compte depuis 2019. Les trois chiffres sont légitimes mais ne se comparent pas : une offre d'emploi annonce presque toujours du brut annuel, alors qu'un loyer se paie avec du net mensuel. Les classements de salaires par ville de MaVilleIdéale parlent de net mensuel.",
+      },
+      {
+        term: "Équivalent temps plein (EQTP)",
+        def: "Convention statistique qui ramène un salaire à ce qu'il serait pour un emploi à temps complet sur l'année entière. Sans elle, une ville riche en temps partiels et en contrats courts afficherait des salaires artificiellement bas. L'EQTP corrige le temps de travail, pas le métier : il compare des rémunérations, pas des niveaux de vie.",
+      },
+      {
+        term: "Salaire au lieu de travail et salaire au lieu de résidence",
+        def: "Le salaire du lieu de travail est celui des emplois situés dans la commune, quel que soit l'endroit où vivent les salariés ; celui du lieu de résidence suit les habitants, où qu'ils travaillent. Pour une commune qui accueille beaucoup d'emplois et peu d'habitants (Puteaux, Courbevoie, Blagnac), le premier dit peu de chose sur la vie des résidents. Le salaire moyen par ville publié par l'Insee est un salaire du lieu de travail.",
+      },
+      {
+        term: "Base Tous salariés (BTS)",
+        def: "Fichier de l'Insee issu des déclarations sociales des employeurs, qui permet de publier des salaires moyens par commune de travail. Il porte sur les salariés, pas sur les indépendants, et il décrit une moyenne, pas une médiane : les très hauts salaires la tirent vers le haut. Les communes où trop peu de salariés sont concernés ne sont pas publiées, au titre du secret statistique.",
+      },
+      {
+        term: "Pôle d'emploi (commune)",
+        def: "Au sens courant et non administratif : une commune qui offre davantage d'emplois que d'actifs résidents, et dont une partie des salariés vient d'ailleurs. Ne pas confondre avec France Travail, l'ancien Pôle emploi, qui est l'opérateur public de l'emploi. Repérer un pôle d'emploi sert à chercher un logement dans la ville ou dans une commune voisine mieux reliée, plutôt qu'au seul prix du lieu de travail.",
+      },
+      {
+        term: "Ratio loyer/salaire",
+        def: "Part d'un salaire net absorbée par un loyer. Les bailleurs en demandent un seuil précis au dossier (le plus souvent trois fois le loyer en revenus) ; pour comparer deux villes, le ratio rapporte le loyer d'un logement type au salaire moyen du lieu. Il reste un repère : il ne tient compte ni des charges, ni du fait qu'un logement familial se paie à deux revenus, ni des écarts entre métiers.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);

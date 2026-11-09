@@ -11150,6 +11150,11 @@
       "slug": "villes-taux-de-pauvrete-niveau-de-vie-409-villes-2026",
       "title": "Taux de pauvreté et niveau de vie : le classement de 409 villes (2026)",
       "emoji": "💶"
+    },
+    {
+      "slug": "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026",
+      "title": "Salaire net moyen par ville : le classement de 358 villes d'emploi (2026)",
+      "emoji": "💼"
     }
   ],
   "tags": [
@@ -12351,6 +12356,11 @@
     {
       "slug": "independant",
       "label": "indépendant",
+      "count": 3
+    },
+    {
+      "slug": "insee",
+      "label": "Insee",
       "count": 3
     },
     {

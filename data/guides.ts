@@ -76218,6 +76218,59 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026", "trois-fois-le-loyer-revenu-requis-t2-villes-2026", "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026"],
     tags: ["taux de pauvreté", "niveau de vie", "niveau de vie médian", "revenus par ville", "Filosofi", "Insee", "précarité", "inégalités", "classement des villes"],
   },
+  {
+    slug: "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026",
+    title: "Salaire net moyen par ville : le classement de 358 villes d'emploi (2026)",
+    metaTitle: "Salaire net par ville : classement de 358 villes (2026)",
+    metaDesc: "Saint-Germain-en-Laye 5 422 €, Le Tampon 1 931 € : salaire net moyen par ville d'emploi (Insee, 2024), par région et taille, croisé avec le loyer d'un T3.",
+    category: "budget",
+    emoji: "💼",
+    readMinutes: 9,
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    intro: "Dans les 358 villes de notre base qui offrent au moins 10 000 emplois sur place, le salaire net mensuel moyen en équivalent temps plein (Insee, base tous salariés 2024) a pour médiane environ 2 480 €, contre 2 733 € pour la France entière. Il va de 5 422 € à Saint-Germain-en-Laye à 1 931 € au Tampon, soit un rapport de 1 à 2,8. 89 villes seulement atteignent la moyenne nationale, 56 dépassent 3 000 € et 96 restent sous 2 300 €. Attention à ce que ce chiffre mesure : le salaire des emplois situés dans la ville, pas celui de ses habitants. Ce guide classe les villes, les compare par région et par taille, puis rapporte le salaire au loyer d'un T3 pour dire où il reste le plus de marge.",
+    sections: [
+      {
+        heading: "Que mesure le salaire net moyen par ville ?",
+        body: "C'est le salaire net mensuel moyen, en équivalent temps plein, des emplois salariés situés dans la commune, publié par l'Insee dans sa base Tous salariés (millésime 2024). Trois précisions changent la lecture. Il décrit le lieu de travail, pas le lieu de résidence : un cadre qui habite à Rennes et travaille à Courbevoie compte à Courbevoie. C'est une moyenne, tirée vers le haut par les très hauts salaires, donc supérieure à ce que gagne le salarié « typique ». Et il ne couvre pas les indépendants. Il ne se confond pas avec le niveau de vie des ménages, que notre guide sur le taux de pauvreté traite à part : un salaire est une rémunération individuelle, le niveau de vie est un revenu de ménage après impôts et prestations."
+      },
+      {
+        heading: "Où les salaires sont-ils les plus élevés ?",
+        body: "Dans la proche couronne ouest et sud de Paris et dans les Yvelines, des communes qui offrent beaucoup d'emplois pour peu d'habitants. Parmi les 358 villes, le haut du classement est entièrement francilien : Saint-Germain-en-Laye (5 422 €), Puteaux (5 152 €), Courbevoie (4 942 €), Meudon (4 723 €), Issy-les-Moulineaux (4 722 €), Montrouge (4 649 €), Bois-Colombes (4 598 €), Gentilly (4 554 €), Neuilly-sur-Seine (4 361 €) et Rueil-Malmaison (4 317 €). Puteaux et Courbevoie offrent respectivement 91 510 et 114 242 emplois pour 44 198 et 81 945 habitants : ce sont des pôles d'emploi, et une grande partie de leurs salariés vit ailleurs. Paris, avec 1,8 million d'emplois, est à 3 836 €, derrière 23 villes du classement : la capitale pèse par le volume, pas par le niveau moyen."
+      },
+      {
+        heading: "Quelles villes de province paient le mieux ?",
+        body: "Huit seulement dépassent 3 000 €, et toutes sont des pôles d'emploi spécialisés ou des métropoles. Blagnac arrive en tête (3 801 € pour 39 066 emplois), devant Valbonne (3 730 €), Marignane (3 489 €), Décines-Charpieu (3 440 €), Saint-Priest (3 073 €), Épernay (3 050 €), Grenoble (3 020 €) et Lyon (3 014 €). Viennent ensuite La Chapelle-sur-Erdre (2 991 €), Bouguenais (2 963 €), Saint-Médard-en-Jalles (2 947 €), Toulouse (2 909 €), Oullins-Pierre-Bénite (2 885 €) et Martigues (2 881 €). Le schéma est net : le meilleur salaire d'une agglomération est souvent dans une commune voisine de la ville-centre. Blagnac (3 801 €) paie près de 900 € de plus que Toulouse, Décines-Charpieu 426 € de plus que Lyon (3 014 €). Pour viser un salaire élevé, regardez l'agglomération entière, pas seulement la préfecture."
+      },
+      {
+        heading: "Où sont les salaires les plus bas ?",
+        body: "À La Réunion, puis dans des villes moyennes du Nord, de l'Est, du Centre et du Sud-Ouest. Hors outre-mer, Agde (2 045 €), Royan (2 058 €), Bondy (2 099 €), Moulins (2 107 €), Soissons (2 108 €), Vichy (2 108 €), Saint-Dié-des-Vosges et Cambrai (2 122 €), Digne-les-Bains (2 125 €), Bergerac (2 130 €), Bar-le-Duc (2 131 €), Saumur (2 136 €), Guéret (2 141 €) et Fontenay-le-Comte (2 146 €) ferment la liste. Sur l'île de La Réunion, Le Tampon (1 931 €), Saint-André (1 975 €), Saint-Benoît (2 024 €) et Saint-Louis (2 073 €) sont les quatre plus bas du classement. Bondy est la seule ville francilienne parmi les plus basses. Agde et Royan sont des villes balnéaires ; à Agde, le taux de chômage au recensement est de 23,7 %, contre 11,4 % en France, ce qui rappelle qu'un salaire bas va souvent avec un marché de l'emploi étroit."
+      },
+      {
+        heading: "L'Île-de-France paie-t-elle vraiment plus que le reste du pays ?",
+        body: "Oui, d'environ 660 € par mois en médiane, mais l'écart tient à une minorité de communes. Les 92 villes franciliennes du classement ont un salaire médian de 3 060 €, contre 2 400 € pour les 266 autres : 60 d'entre elles dépassent la moyenne nationale (2 733 €) et 48 atteignent 3 000 €, alors que hors Île-de-France seules 29 dépassent la moyenne nationale et 8 atteignent 3 000 €. Dans la région, l'écart interne est énorme : de 5 422 € à Saint-Germain-en-Laye à 2 099 € à Bondy et 2 332 € à Rosny-sous-Bois. Un salaire francilien ne se compare donc à un salaire de province qu'à emploi identique, après avoir ajouté le coût du logement, ce que fait la section suivante."
+      },
+      {
+        heading: "Quelles régions de province et quelles tailles de villes paient le mieux ?",
+        body: "Hors Île-de-France, la région compte moins que la taille du marché de l'emploi, et les écarts régionaux restent modestes. Médianes régionales (régions de 8 villes ou plus) : Normandie 2 491 €, Auvergne-Rhône-Alpes 2 490 €, Centre-Val de Loire 2 456 €, Pays de la Loire 2 454 €, Provence-Alpes-Côte d'Azur 2 418 €, Bretagne 2 405 €, Grand Est 2 399 €, Nouvelle-Aquitaine 2 384 €, Bourgogne-Franche-Comté 2 326 €, Occitanie 2 313 € et Hauts-de-France 2 266 €. L'écart entre ces onze régions n'est que de 225 €, alors que, dans la même région, le haut et le bas dépassent souvent 1 000 € : de 2 045 € à 3 801 € en Occitanie. Par taille d'emploi hors Île-de-France, la médiane monte avec le marché : 2 315 € pour les 130 villes de 10 000 à 20 000 emplois, 2 416 € de 20 000 à 50 000 (95 villes), 2 481 € de 50 000 à 100 000 (27 villes) et 2 716 € au-delà de 100 000 (14 villes)."
+      },
+      {
+        heading: "Et dans les départements d'outre-mer ?",
+        body: "Les 15 villes ultramarines du classement ont une médiane de 2 397 €, proche des 2 401 € de la province hors Île-de-France, avec de fortes différences selon l'île. Le Lamentin (2 687 €), Baie-Mahault (2 613 €), Les Abymes (2 535 €), Fort-de-France (2 530 €) et Pointe-à-Pitre (2 482 €) se situent dans la fourchette des préfectures métropolitaines, Cayenne est à 2 406 €. À La Réunion, les huit villes du classement ont une médiane d'environ 2 100 €, de Sainte-Marie (2 402 €) et Saint-Denis (2 397 €) au Tampon (1 931 €). Le chômage au recensement y va de 22 % à 32 % dans ces huit villes. Un salaire ultramarin se compare mal à un salaire métropolitain sans tenir compte du coût de la vie sur place, que ce classement ne mesure pas."
+      },
+      {
+        heading: "Où le salaire laisse-t-il le plus de marge face au loyer ?",
+        body: "Dans des villes moyennes de province, pas dans les métropoles. Rapporté au salaire net moyen de la ville, le loyer d'un T3 (notre estimation des loyers) pèse 22 % à Cognac (620 € pour 2 761 €), 25 % à Aurillac et à Belfort, 26 % à Laval, Lens, Châtellerault et Saint-Avold, 27 % à Cahors et à Roubaix. Parmi les grandes villes, Clermont-Ferrand (32 %), Brest et Limoges (33 %) et Grenoble (34 %) se détachent ; Lille et Toulouse sont à 40 %, Marseille, Nantes et Rennes à 41 %, Strasbourg à 42 %, Montpellier à 43 %, Bordeaux à 44 % et Lyon à 46 %. À l'autre bout, le T3 pèse 57 % à Neuilly-sur-Seine, 60 % à Nice, 62 % à Vincennes, 65 % à Cannes, 66 % à Saint-Maur-des-Fossés et 73 % à Paris (2 800 € pour 3 836 €). Ce ratio est un repère, pas un budget : un T3 se paie à deux revenus, le salaire est celui du lieu de travail, et les deux chiffres viennent de sources différentes."
+      },
+      {
+        heading: "Comment utiliser ce classement avant de déménager ?",
+        body: "Trois usages. Si vous cherchez un emploi, regardez le salaire de l'agglomération et la taille du marché : une ville à 2 400 € avec 80 000 emplois offre plus de choix qu'une ville à 2 700 € avec 12 000, et notre guide sur le chômage donne l'autre moitié du tableau. Si vous avez déjà un emploi ou un salaire de télétravail, ignorez le salaire local et regardez le ratio loyer/salaire : une paie parisienne dépensée à Belfort ou à Laval est un autre budget. Si vous comparez deux offres, comparez-les après loyer, pas avant. Limites : un seul millésime (2024), les villes de moins de 10 000 emplois hors classement, les indépendants non couverts, une moyenne qui masque les écarts entre métiers, et un salaire du lieu de travail qui ne dit rien de la vie des habitants."
+      }
+    ],
+    relatedCities: ["saint-germain-en-laye", "puteaux", "courbevoie", "blagnac", "valbonne", "grenoble", "lyon", "toulouse", "le-tampon", "cognac", "belfort", "laval", "aurillac", "paris"],
+    relatedGuides: ["villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026", "villes-taux-de-pauvrete-niveau-de-vie-409-villes-2026", "trois-fois-le-loyer-revenu-requis-t2-villes-2026", "acheter-avec-un-seul-salaire-france-2026"],
+    tags: ["salaire par ville", "salaire net moyen", "salaires en France", "Insee", "emploi par ville", "pôles d'emploi", "loyer et salaire", "classement des villes", "pouvoir d'achat"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
