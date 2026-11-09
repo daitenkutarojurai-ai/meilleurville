@@ -1442,3 +1442,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/regions` (FR + EN).
 2. Pages `/departements/[dept]` (FR + EN).
 3. Hub `/comparer` puis `/leaderboard`.
+
+## 2026-11-09 ~11:00 UTC — hub `/regions` (FR) + EN `/regions`
+
+**Surface** : index des 18 régions, 2 locales. Avant : `AmbientBackground`, hero blanc, finder et 18 cartes dans un seul bloc sur fond de page (`glass` à filet, pastille d'emoji en dégradé indigo → **émeraude**, couleur réservée aux paliers), renvois en boutons gris ; EN : hero blanc, cartes à filet, emoji nu, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + fil d'Ariane + `EmojiBadge` 🗺️ + pilule `grad-head-0`, fin du titre en `gradient-text-anim` (EN aussi, lien « Compare two regions » en pilule dégradée) ; `RegionFinder` en `band-indigo` (composant `AreaFinder` inchangé) ; cartes région en `band-sky` (cartes blanches à ombre cyan, `EmojiBadge` `toneFor(slug)`, nom en `.gradient-text`, « Guide région » en pilule dégradée, top 3 avec rang en pastille `grad-head-0..2`, score `#4338CA`, autres villes en pilules cyan clair) ; renvois en `band-lilac` (pilules blanches indigo, « Chercher une ville » en pilule dégradée) ; `FeedbackWidget` (FR + EN `locale="en"`) en `band-white`. EN : liste en `band-indigo` (cartes blanches à ombre indigo, `EmojiBadge`). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/regions` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages `/departements/[dept]` (FR + EN).
+2. Hub `/departements` (même `AreaFinder`) puis `AreaFinder` lui-même.
+3. Hub `/comparer` puis `/leaderboard`.

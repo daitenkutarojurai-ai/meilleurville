@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
@@ -82,14 +83,21 @@ export default function RegionsPage() {
   return (
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
-      <AmbientBackground />
       <Navbar />
 
-      <section className="relative pt-20 pb-10">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
-          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            🗺️ {sortedRegions.length} régions
-          </p>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <nav className="flex items-center justify-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
+            <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Accueil</Link>
+            <span>/</span>
+            <span className="text-[var(--text-secondary)]">Régions</span>
+          </nav>
+          <div className="flex items-center justify-center gap-3 mb-3">
+            <EmojiBadge emoji="🗺️" tone="indigo" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              {sortedRegions.length} régions
+            </span>
+          </div>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
             Explorer{" "}
             <span className="font-display gradient-text-anim italic">par région</span>
@@ -101,99 +109,105 @@ export default function RegionsPage() {
         </div>
       </section>
 
-      <div className="relative mx-auto max-w-5xl px-4 sm:px-6 pb-12 space-y-5">
-        <RegionFinder regions={regionEntries} cityIndex={cityIndex} />
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <RegionFinder regions={regionEntries} cityIndex={cityIndex} />
+        </div>
+      </section>
 
-        {/* Cartes riches par région — top 3 + pastilles pour les autres villes.
-            La grille compacte du finder ne porte pas ces liens ville par ville,
-            il faut les garder ici pour préserver le maillage interne. */}
-        {sortedRegions.map(({ region, slug, cities, avgScore }) => (
-          <div key={region} className="group rounded-2xl glass border border-white/50 hover:border-[var(--accent)]/30 p-6 shadow-md hover:shadow-xl transition-all">
-            <div className="flex items-start justify-between gap-4 mb-5">
-              <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-gradient-to-br from-[var(--accent)] to-emerald-700 shadow-lg ring-1 ring-white/40 text-2xl">
-                  {REGION_EMOJIS[region] ?? "📍"}
-                </div>
-                <div>
-                  <h2 className="text-xl font-bold text-[var(--text-primary)]">{region}</h2>
-                  <div className="text-xs text-[var(--text-tertiary)] mt-0.5">
-                    {cities.length} ville{cities.length > 1 ? "s" : ""} ·
-                    <span className="ml-1 inline-flex items-center gap-1">
-                      score moyen{" "}
-                      <span className="font-mono-data font-bold text-[var(--accent)]">{avgScore.toFixed(1)}</span>
-                      / 10
-                    </span>
+      {/* Cartes riches par région — top 3 + pastilles pour les autres villes.
+          La grille compacte du finder ne porte pas ces liens ville par ville,
+          il faut les garder ici pour préserver le maillage interne. */}
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-5">
+          {sortedRegions.map(({ region, slug, cities, avgScore }) => (
+            <div key={region} className="rounded-3xl bg-white p-5 sm:p-6 shadow-[0_14px_36px_-22px_rgba(8,145,178,0.55)] ring-1 ring-[#BAE6FD]/70 transition-shadow hover:shadow-[0_18px_44px_-20px_rgba(79,70,229,0.5)]">
+              <div className="flex flex-wrap items-start justify-between gap-3 mb-5">
+                <div className="flex items-center gap-3 min-w-0">
+                  <EmojiBadge emoji={REGION_EMOJIS[region] ?? "📍"} tone={toneFor(slug)} className="shrink-0" />
+                  <div className="min-w-0">
+                    <h2 className="text-xl font-bold gradient-text">{region}</h2>
+                    <div className="text-xs text-[var(--text-secondary)] mt-0.5">
+                      {cities.length} ville{cities.length > 1 ? "s" : ""} ·
+                      <span className="ml-1 inline-flex items-center gap-1">
+                        score moyen{" "}
+                        <span className="font-mono-data font-bold text-[#4338CA]">{avgScore.toFixed(1)}</span>
+                        / 10
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="flex items-center gap-3 flex-shrink-0">
                 <Link
                   href={`/regions/${slug}`}
-                  className="text-xs text-[var(--accent)] hover:underline font-medium"
+                  className="inline-flex items-center rounded-full grad-head-0 px-3 py-1.5 text-xs font-semibold shrink-0 transition-transform hover:-translate-y-0.5"
                 >
                   Guide région →
                 </Link>
               </div>
-            </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {cities.slice(0, 3).map((city, i) => (
-                <Link
-                  key={city.slug}
-                  href={`/villes/${city.slug}`}
-                  className="group flex items-center gap-3 rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
-                >
-                  <div className="text-sm font-mono text-[var(--text-tertiary)] w-5 text-right">{i + 1}</div>
-                  <div className="flex-1 min-w-0">
-                    <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
-                      {city.name}
-                    </div>
-                    <div className="text-xs text-[var(--text-tertiary)] truncate">{city.characterTags.slice(0, 2).join(", ")}</div>
-                  </div>
-                  <div className="text-sm font-bold font-mono-data text-[var(--accent)] flex-shrink-0">
-                    {city.scores.global.toFixed(1)}
-                  </div>
-                </Link>
-              ))}
-            </div>
-
-            {cities.length > 3 && (
-              <div className="mt-3 flex flex-wrap gap-2">
-                {cities.slice(3).map((city) => (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {cities.slice(0, 3).map((city, i) => (
                   <Link
                     key={city.slug}
                     href={`/villes/${city.slug}`}
-                    className="text-xs rounded-full border border-[var(--border)] px-2.5 py-1 text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--accent)]/40 transition-colors"
+                    className="group flex items-center gap-3 rounded-2xl bg-[#F5F7FF] ring-1 ring-[#E0E7FF] hover:ring-[#A5B4FC] hover:bg-[#EEF2FF] transition-all px-4 py-3"
                   >
-                    {city.name}
+                    <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full grad-head-${i} text-xs font-bold`}>{i + 1}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors truncate">
+                        {city.name}
+                      </div>
+                      <div className="text-xs text-[var(--text-secondary)] truncate">{city.characterTags.slice(0, 2).join(", ")}</div>
+                    </div>
+                    <div className="text-sm font-bold font-mono-data text-[#4338CA] flex-shrink-0">
+                      {city.scores.global.toFixed(1)}
+                    </div>
                   </Link>
                 ))}
               </div>
-            )}
-          </div>
-        ))}
 
-        <div className="flex flex-wrap gap-3 pt-4">
-          <Link href="/villes" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
+              {cities.length > 3 && (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {cities.slice(3).map((city) => (
+                    <Link
+                      key={city.slug}
+                      href={`/villes/${city.slug}`}
+                      className="text-xs rounded-full bg-[#F0F9FF] ring-1 ring-[#BAE6FD] px-2.5 py-1 text-[#0E7490] hover:bg-[#E0F2FE] hover:ring-[#7DD3FC] transition-colors"
+                    >
+                      {city.name}
+                    </Link>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 flex flex-wrap gap-3">
+          <Link href="/villes" className="rounded-full grad-head-0 px-4 py-2.5 text-sm font-semibold transition-all hover:-translate-y-0.5">
             Chercher une ville spécifique →
           </Link>
-          <Link href="/departements" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Par département →
-          </Link>
-          <Link href="/comparer-departements" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Comparer deux départements →
-          </Link>
-          <Link href="/guides/categorie/region" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Lire nos guides « vivre en région » →
-          </Link>
-          <Link href="/carte" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Carte interactive →
-          </Link>
-          <Link href="/leaderboard" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Leaderboard global →
-          </Link>
+          {[
+            ["/departements", "Par département →"],
+            ["/comparer-departements", "Comparer deux départements →"],
+            ["/guides/categorie/region", "Lire nos guides « vivre en région » →"],
+            ["/carte", "Carte interactive →"],
+            ["/leaderboard", "Leaderboard global →"],
+          ].map(([href, label]) => (
+            <Link key={href} href={href} className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all">
+              {label}
+            </Link>
+          ))}
         </div>
-      </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>
