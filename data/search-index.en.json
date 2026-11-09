@@ -10137,6 +10137,31 @@
       "emoji": "🌉"
     },
     {
+      "slug": "things-to-do-in-aubenas-2026",
+      "title": "Things to do in Aubenas: Château, old town, Vals-les-Bains and the Ardèche gorges",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "things-to-do-in-bagnols-sur-ceze-2026",
+      "title": "Things to do in Bagnols-sur-Cèze: an unexpected art museum on the Cèze",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-pont-a-mousson-2026",
+      "title": "Things to do in Pont-à-Mousson: abbey, Renaissance façades and a hill over the Moselle",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "things-to-do-in-sable-sur-sarthe-2026",
+      "title": "Things to do in Sablé-sur-Sarthe: castle, river quays and the biscuit that bears its name",
+      "emoji": "🍪"
+    },
+    {
+      "slug": "things-to-do-in-valbonne-2026",
+      "title": "Things to do in Valbonne: a grid-plan village and the Sophia Antipolis tech park",
+      "emoji": "🌳"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -10556,12 +10581,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 342
+      "count": 347
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 336
+      "count": 341
     },
     {
       "slug": "moving-to-france",
@@ -10591,12 +10616,12 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 93
+      "count": 94
     },
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 87
+      "count": 88
     },
     {
       "slug": "ile-de-france",
@@ -10616,7 +10641,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 78
+      "count": 79
     },
     {
       "slug": "hauts-de-france",
@@ -10671,7 +10696,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 55
+      "count": 56
     },
     {
       "slug": "real-estate",
@@ -10699,13 +10724,13 @@
       "count": 45
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 38
-    },
-    {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
+      "count": 39
+    },
+    {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
       "count": 38
     },
     {
