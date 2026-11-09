@@ -2914,3 +2914,17 @@ metaDesc ≤ 160, metaTitle ≤ 56. Pas de dérive (seed intact, table 593). tsc
 Relevé non corrigé : Dole FR « septième rapport de la série » contre EN « the best ratio of the 66 guides » (101 €/point).
 **Reste** : 57 guides FR / 58 EN citent « 363 » (253 + 210 occ.). Suivantes à une occurrence FR : Poitiers, Saint-Denis /
 Saint-Paul / Saint-Pierre (Réunion), Pau, Mérignac, Valence. **Prochain lot** : dès qu'une décision du § 0 est prise.
+
+### 2026-11-09 — aucun lot : cinq paires parent solo remesurées (Poitiers, Pau, Mérignac, Valence, Avignon)
+
+`seed-coverage` : 593 villes, rien en attente du runner hors Carquefou (photo) → lot autorisé, mais **aucune décision au § 0**
+(`git log` depuis le 02/11 hors agents : outreach, perf `/guides`, index FR ; rien sur le seed ni `score-calibration.ts`). Aucune
+ville ajoutée. *Livrable* : remesure « 363 → 416 », méthode du 27/10. Quatre rangs EN étaient des **positions dans un palier** :
+Poitiers 46th → joint 37th, Pau 60th → joint 51st (« better than 300 » → 353), Valence 63rd → joint 51st, Mérignac 222nd → joint 228th
+(palier 16 → 18 : Villejuif, Saint-Cyr-l'École). Avignon « 212e/212th » (titre, metaTitle EN, intertitre) → 228e ex æquo, palier 18,
+PACA 33 → 34. Rangs régionaux eux aussi en position de palier : Poitiers 4ᵉ → 3ᵉ ex æquo sur 30 (avec Châtellerault, Villeneuve-sur-Lot),
+Pau 7ᵉ → 6ᵉ ex æquo sur 30, Valence 10ᵉ → 8ᵉ ex æquo (Annemasse, Oyonnax). Médiane 5,5 → 5,4 (« presque un point » → un point ;
+Poitiers « un point » → un point et un dixième). Titre FR Poitiers « meilleur rapport écoles-loyer du classement » faux dès l'origine
+(37ᵉ) → « de son lot ». **10 guides, `updatedAt` 2026-11-09.** Seed intact, pas de dérive. tsc, integrity, search-index, hreflang, sitemap verts.
+**Reste** : 51 FR / 52 EN citent « 363 » ; suivantes à une occurrence FR : Saint-Denis / Saint-Paul / Saint-Pierre (Réunion), Saint-Nazaire,
+Le Tampon, Soissons, Saint-Dié. **Prochain lot** : dès qu'une décision du § 0 est prise.

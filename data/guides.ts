@@ -56237,7 +56237,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-poitiers-2026",
-    title: "Parent solo à Poitiers en 2026 : le meilleur rapport écoles-loyer du classement",
+    title: "Parent solo à Poitiers en 2026 : le meilleur rapport écoles-loyer de son lot",
     metaTitle: "Parent solo à Poitiers 2026 — T3 880 €, écoles 7,4/10",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. T3 à 880 €, écoles 7,4/10 : 119 € de loyer par point, le meilleur ratio de ce batch. Le calcul complet sur un seul revenu.",
@@ -56245,13 +56245,13 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-16",
-    updatedAt: "2026-08-16",
+    updatedAt: "2026-11-09",
     intro:
-      "Poitiers est la plus petite ville de ce batch avec 89 250 habitants, et la mieux classée : 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 363 de plus de 20 000 habitants, un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail se tient sur les quatre axes : coût de la vie 6,6/10, écoles 7,4/10, transports 6,4/10, sécurité 5,7/10 (source : notre fiche ville). Aucun de ces chiffres n'est spectaculaire, et c'est précisément ce qui fait le résultat : le composite pénalise lourdement les villes qui décrochent sur un axe, et Poitiers ne décroche nulle part. Le T3 moyen est à 880 € et le mètre carré à l'achat à 2 100 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent concrètement quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Poitiers est la plus petite ville de ce batch avec 89 250 habitants, et la mieux classée : 6,5/10 au composite parent solo, dans un palier de 14 communes sur les 416 de plus de 20 000 habitants, un point et un dixième au-dessus de la médiane du classement qui s'établit à 5,4/10. Le détail se tient sur les quatre axes : coût de la vie 6,6/10, écoles 7,4/10, transports 6,4/10, sécurité 5,7/10 (source : notre fiche ville). Aucun de ces chiffres n'est spectaculaire, et c'est précisément ce qui fait le résultat : le composite pénalise lourdement les villes qui décrochent sur un axe, et Poitiers ne décroche nulle part. Le T3 moyen est à 880 € et le mètre carré à l'achat à 2 100 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 650 € par mois. Voici ce que ces chiffres impliquent concrètement quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "Pourquoi Poitiers sort à 6,5/10",
-        body: "Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Ces poids sont ceux du profil correspondant de City Match, et ils traduisent une situation précise : un seul revenu, donc le coût compte plus que tout ; un seul conducteur, donc les transports comptent réellement ; et pas de second adulte pour absorber un imprévu scolaire ou un quartier qui pose problème. Poitiers marque 6,6/10 sur l'axe le plus lourd et 7,4/10 sur les écoles, ce qui suffit à la porter au-dessus des trois quarts du classement sans qu'elle soit première nulle part. C'est la mécanique qu'il faut comprendre avant de lire n'importe quel classement de ce site : une ville régulière bat une ville brillante et bancale. Poitiers est quatrième de Nouvelle-Aquitaine sur 28 communes éligibles, derrière Anglet, Brive-la-Gaillarde et Châtellerault, qui la devance de peu à 6,5 également. Ses autres axes, hors composite : score global 6,1/10, qualité de vie 5,9/10, culture 6,2/10, nature 5,0/10, télétravail 5,8/10.",
+        body: "Le composite parent solo pondère coût 0,30, écoles 0,25, sécurité 0,25, transports 0,20. Ces poids sont ceux du profil correspondant de City Match, et ils traduisent une situation précise : un seul revenu, donc le coût compte plus que tout ; un seul conducteur, donc les transports comptent réellement ; et pas de second adulte pour absorber un imprévu scolaire ou un quartier qui pose problème. Poitiers marque 6,6/10 sur l'axe le plus lourd et 7,4/10 sur les écoles, ce qui suffit à la porter au-dessus des trois quarts du classement sans qu'elle soit première nulle part. C'est la mécanique qu'il faut comprendre avant de lire n'importe quel classement de ce site : une ville régulière bat une ville brillante et bancale. Poitiers est troisième ex æquo de Nouvelle-Aquitaine sur 30 communes éligibles, à 6,5 comme Châtellerault et Villeneuve-sur-Lot, derrière Anglet et Brive-la-Gaillarde. Ses autres axes, hors composite : score global 6,1/10, qualité de vie 5,9/10, culture 6,2/10, nature 5,0/10, télétravail 5,8/10.",
       },
       {
         heading: "119 € de loyer par point d'écoles : le meilleur ratio du lot",
@@ -56776,21 +56776,21 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-avignon-2026",
-    title: "Parent solo à Avignon en 2026 : culture 9/10, et 212e quand même",
+    title: "Parent solo à Avignon en 2026 : culture 9/10, et 228e ex æquo quand même",
     metaTitle: "Parent solo à Avignon 2026 — T3 1 000 €, fit 5,3/10",
     metaDesc:
-      "Fit 5,3/10, palier de 16 communes. Culture 9,0/10, sécurité 4,3/10, T3 à 1 000 € : pourquoi la réputation d'une ville ne pèse rien dans ce classement.",
+      "Fit 5,3/10, palier de 18 communes. Culture 9,0/10, sécurité 4,3/10, T3 à 1 000 € : pourquoi la réputation d'une ville ne pèse rien dans ce classement.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
-    updatedAt: "2026-08-23",
+    updatedAt: "2026-11-09",
     intro:
-      "Avignon est la ville la mieux dotée culturellement de tout ce batch — 9,0/10 sur l'axe culture, l'une des plus hautes valeurs du site (source : notre fiche ville) — et elle sort dans un palier de 16 communes au composite parent solo, avec 5,3/10. Ce n'est pas une anomalie de calcul, c'est le résultat qu'on attend d'un classement qui pondère coût 0,30, écoles 0,25, sécurité 0,25 et transports 0,20 : la culture n'y pèse rien, et c'est assumé. Le détail : coût de la vie 5,7/10, transports 6,1/10, écoles 5,3/10, sécurité 4,3/10 — c'est ce dernier chiffre qui coûte le plus cher. La commune compte 91 760 habitants au recensement 2022 (source : Insee, recensements), une population presque stable sur onze ans et en léger repli depuis 2016. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 050 € par mois. Voici ce que ça change concrètement pour un foyer à un seul adulte.",
+      "Avignon est la ville la mieux dotée culturellement de tout ce batch — 9,0/10 sur l'axe culture, l'une des plus hautes valeurs du site (source : notre fiche ville) — et elle sort dans un palier de 18 communes au composite parent solo, avec 5,3/10. Ce n'est pas une anomalie de calcul, c'est le résultat qu'on attend d'un classement qui pondère coût 0,30, écoles 0,25, sécurité 0,25 et transports 0,20 : la culture n'y pèse rien, et c'est assumé. Le détail : coût de la vie 5,7/10, transports 6,1/10, écoles 5,3/10, sécurité 4,3/10 — c'est ce dernier chiffre qui coûte le plus cher. La commune compte 91 760 habitants au recensement 2022 (source : Insee, recensements), une population presque stable sur onze ans et en léger repli depuis 2016. Le T3 moyen est à 1 000 € et le mètre carré à l'achat à 3 000 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 050 € par mois. Voici ce que ça change concrètement pour un foyer à un seul adulte.",
     sections: [
       {
-        heading: "Pourquoi une ville de festival sort 212e",
-        body: "Le composite parent solo mesure quatre choses et quatre seulement : ce que la ville coûte, ce que le réseau de transport absorbe quand personne d'autre ne peut prendre le relais, ce que l'offre scolaire propose, et le niveau de sécurité communal. Avignon est moyenne sur trois de ces axes et faible sur le quatrième. La culture à 9,0/10 n'entre pas dans le calcul, pas parce qu'elle serait sans valeur, mais parce qu'elle ne résout aucun des problèmes que pose la monoparentalité au quotidien. C'est la démonstration la plus nette de ce batch : la réputation d'une ville et son adéquation à un profil sont deux questions distinctes, et confondre les deux est exactement l'erreur que ce classement existe pour éviter. Le score global d'Avignon, tous axes confondus, est de 5,6/10 — soit 0,3 point au-dessus de son fit parent solo. En Provence-Alpes-Côte d'Azur, la ville est 10e sur 33 communes éligibles, à égalité de score avec Grasse et Manosque, derrière Gap à 5,5 et La Ciotat à 5,7. Un rang obtenu à égalité n'est pas un départage : sur ce palier, l'ordre est celui des noms, pas celui des mérites.",
+        heading: "Pourquoi une ville de festival sort 228e ex æquo",
+        body: "Le composite parent solo mesure quatre choses et quatre seulement : ce que la ville coûte, ce que le réseau de transport absorbe quand personne d'autre ne peut prendre le relais, ce que l'offre scolaire propose, et le niveau de sécurité communal. Avignon est moyenne sur trois de ces axes et faible sur le quatrième. La culture à 9,0/10 n'entre pas dans le calcul, pas parce qu'elle serait sans valeur, mais parce qu'elle ne résout aucun des problèmes que pose la monoparentalité au quotidien. C'est la démonstration la plus nette de ce batch : la réputation d'une ville et son adéquation à un profil sont deux questions distinctes, et confondre les deux est exactement l'erreur que ce classement existe pour éviter. Le score global d'Avignon, tous axes confondus, est de 5,6/10 — soit 0,3 point au-dessus de son fit parent solo. En Provence-Alpes-Côte d'Azur, la ville est 10e sur 34 communes éligibles, à égalité de score avec Grasse et Manosque, derrière Gap à 5,5 et La Ciotat à 5,7. Un rang obtenu à égalité n'est pas un départage : sur ce palier, l'ordre est celui des noms, pas celui des mérites.",
       },
       {
         heading: "Sécurité 4,3/10 : l'axe qui coûte le plus cher au dossier",
@@ -56980,9 +56980,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
-    updatedAt: "2026-08-23",
+    updatedAt: "2026-11-09",
     intro:
-      "Pau est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes sans point faible marqué : écoles 7,4/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 5,7/10 (source : notre fiche ville). C'est la mécanique récurrente de ce classement — une ville régulière bat une ville brillante et bancale, et Avignon, dans le même batch, en fournit la démonstration inverse avec sa culture à 9,0/10 et son 212e rang. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 78 620 habitants au recensement 2022, un chiffre stable à 1,5 % près depuis 2011 (source : Insee, recensements). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Pau est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 416 de plus de 20 000 habitants, un point au-dessus de la médiane du classement qui s'établit à 5,4/10. Le détail tient sur quatre axes sans point faible marqué : écoles 7,4/10, coût de la vie 6,2/10, transports 6,1/10, sécurité 5,7/10 (source : notre fiche ville). C'est la mécanique récurrente de ce classement — une ville régulière bat une ville brillante et bancale, et Avignon, dans le même batch, en fournit la démonstration inverse avec sa culture à 9,0/10 et son 228e rang ex æquo. Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 78 620 habitants au recensement 2022, un chiffre stable à 1,5 % près depuis 2011 (source : Insee, recensements). Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "122 € de loyer par point d'écoles : le meilleur ratio du batch",
@@ -57002,7 +57002,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Où Pau se situe dans sa région",
-        body: "Pau est 7e des 28 communes éligibles de Nouvelle-Aquitaine, à égalité de score avec Limoges à 6,4 — un rang obtenu à égalité n'est pas un départage, sur ce palier l'ordre est celui des noms. La Rochelle suit immédiatement à 6,3, Libourne à 6,2, Niort à 6,1. En tête de région, Anglet sort à 6,9 avec un T3 à 1 200 € : meilleur dossier, 300 € de loyer mensuel supplémentaire, et un seuil d'entrée qui monte en conséquence. Bayonne, sa voisine, retombe à 5,5 malgré un T3 également à 1 200 €, essentiellement parce que son coût de la vie est noté 3,8/10. C'est l'arbitrage classique de la côte basque : la qualité du dossier progresse, le prix progresse plus vite. À l'est, Tarbes affiche 6,3 de fit avec un T3 à 770 € et un coût de la vie à 7,4/10, le plus favorable de la zone — 130 € de loyer mensuel de moins que Pau, pour un score d'écoles inférieur de 1,6 point. Résumé : Pau occupe la position que ce classement récompense le plus, celle où aucun axe ne s'effondre et où le prix reste dans une fourchette atteignable sur un seul salaire.",
+        body: "Pau est 6e ex æquo des 30 communes éligibles de Nouvelle-Aquitaine, à égalité de score avec Limoges à 6,4 — un rang obtenu à égalité n'est pas un départage. La Rochelle suit immédiatement à 6,3, Libourne à 6,2, Niort à 6,1. En tête de région, Anglet sort à 6,9 avec un T3 à 1 200 € : meilleur dossier, 300 € de loyer mensuel supplémentaire, et un seuil d'entrée qui monte en conséquence. Bayonne, sa voisine, retombe à 5,5 malgré un T3 également à 1 200 €, essentiellement parce que son coût de la vie est noté 3,8/10. C'est l'arbitrage classique de la côte basque : la qualité du dossier progresse, le prix progresse plus vite. À l'est, Tarbes affiche 6,3 de fit avec un T3 à 770 € et un coût de la vie à 7,4/10, le plus favorable de la zone — 130 € de loyer mensuel de moins que Pau, pour un score d'écoles inférieur de 1,6 point. Résumé : Pau occupe la position que ce classement récompense le plus, celle où aucun axe ne s'effondre et où le prix reste dans une fourchette atteignable sur un seul salaire.",
       },
       {
         heading: "Le verdict : pour qui Pau fonctionne",
@@ -57122,14 +57122,14 @@ export const GUIDES: Guide[] = [
     title: "Parent solo à Mérignac en 2026 : le prix de Bordeaux sans les écoles de Bordeaux",
     metaTitle: "Parent solo à Mérignac 2026 — T3 1 080 €, fit 5,3/10",
     metaDesc:
-      "Fit 5,3/10, palier de 16 communes. T3 à 1 080 €, écoles 5,5/10 quand Pessac fait 6,6 au même loyer : l'arbitrage chiffré dans la métropole bordelaise.",
+      "Fit 5,3/10, palier de 18 communes. T3 à 1 080 €, écoles 5,5/10 quand Pessac fait 6,6 au même loyer : l'arbitrage chiffré dans la métropole bordelaise.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-23",
-    updatedAt: "2026-08-23",
+    updatedAt: "2026-11-09",
     intro:
-      "Mérignac est le cas « banlieue de métropole » de ce batch, et son dossier se résume en une phrase : on y paie le prix de l'agglomération bordelaise sans en obtenir l'offre scolaire. Au composite parent solo, la ville sort à 5,3/10, dans un palier de 16 communes sur les 363 de plus de 20 000 habitants, sous la médiane du classement fixée à 5,5/10. Le détail : transports 7,7/10 — le meilleur score du batch — écoles 5,5/10, sécurité 4,7/10, coût de la vie 4,0/10, l'avant-dernier du lot (source : notre fiche ville). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 77 136 habitants au recensement 2022 contre 65 882 en 2011, soit 11 254 de plus en onze ans et une croissance de 17,1 %, la plus forte de ce batch (source : Insee, recensements). Voici l'arbitrage, chiffré, entre les communes de la métropole.",
+      "Mérignac est le cas « banlieue de métropole » de ce batch, et son dossier se résume en une phrase : on y paie le prix de l'agglomération bordelaise sans en obtenir l'offre scolaire. Au composite parent solo, la ville sort à 5,3/10, dans un palier de 18 communes sur les 416 de plus de 20 000 habitants, sous la médiane du classement fixée à 5,4/10. Le détail : transports 7,7/10 — le meilleur score du batch — écoles 5,5/10, sécurité 4,7/10, coût de la vie 4,0/10, l'avant-dernier du lot (source : notre fiche ville). Le T3 moyen est à 1 080 € et le mètre carré à l'achat à 3 800 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 3 100 € par mois. La commune compte 77 136 habitants au recensement 2022 contre 65 882 en 2011, soit 11 254 de plus en onze ans et une croissance de 17,1 %, la plus forte de ce batch (source : Insee, recensements). Voici l'arbitrage, chiffré, entre les communes de la métropole.",
     sections: [
       {
         heading: "Le calcul que personne ne fait : Mérignac contre Pessac contre Bordeaux",
@@ -59546,9 +59546,9 @@ export const GUIDES: Guide[] = [
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-28",
-    updatedAt: "2026-08-28",
+    updatedAt: "2026-11-09",
     intro:
-      "Valence est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 363 de plus de 20 000 habitants, presque un point au-dessus de la médiane du classement qui s'établit à 5,5/10. Le détail tient sur quatre axes dont trois se tiennent : transports 7,4/10, coût de la vie 6,7/10, écoles 6,6/10, sécurité 5,2/10 (source : notre fiche ville). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 64 288 habitants au recensement 2022 (source : Insee, recensements), et c'est la seule des neuf villes de ce batch dont la population baisse puis repart : 63 148 en 2011, 62 477 en 2016, 64 288 en 2022. Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
+      "Valence est la ville la mieux classée de ce batch : 6,4/10 au composite parent solo, dans un palier de 13 communes sur les 416 de plus de 20 000 habitants, un point au-dessus de la médiane du classement qui s'établit à 5,4/10. Le détail tient sur quatre axes dont trois se tiennent : transports 7,4/10, coût de la vie 6,7/10, écoles 6,6/10, sécurité 5,2/10 (source : notre fiche ville). Le T3 moyen est à 900 € et le mètre carré à l'achat à 2 400 € (source : notre estimation des loyers), pour un revenu net minimum estimé à 2 750 € par mois. La commune compte 64 288 habitants au recensement 2022 (source : Insee, recensements), et c'est la seule des neuf villes de ce batch dont la population baisse puis repart : 63 148 en 2011, 62 477 en 2016, 64 288 en 2022. Voici le détail du calcul quand il n'y a qu'un salaire et qu'un conducteur.",
     sections: [
       {
         heading: "Transports 7,4/10 : le seul axe capable de supprimer une ligne du budget",
@@ -59568,7 +59568,7 @@ export const GUIDES: Guide[] = [
       },
       {
         heading: "Où Valence se situe dans sa région",
-        body: "Valence est 10e des 39 communes éligibles d'Auvergne-Rhône-Alpes, dans une région où le haut de tableau est dense : Vienne et Villefranche-sur-Saône ouvrent à 6,9, Villeurbanne suit à 6,8, Vichy à 6,7, Grenoble et Lyon à 6,6. Les comparateurs utiles sont plus proches. À une trentaine de kilomètres au sud, Montélimar affiche 6,3 de fit avec un T3 à 780 € et un rapport de 118 € par point d'écoles, meilleur que celui de Valence pour le même score scolaire de 6,6/10 : 120 € de loyer mensuel en moins, 1 440 € par an, contre des transports notés 6,2 au lieu de 7,4. L'arbitrage est net et il se tranche sur la voiture. Au nord, Romans-sur-Isère sort à 5,8 avec un T3 à 740 €, et Bourg-en-Bresse à 6,1 avec un T3 à 840 €. Plus haut dans le classement régional, Clermont-Ferrand affiche 6,3 avec un T3 identique à 900 € et un meilleur rapport écoles-loyer, à 129 €, pour des transports moins bons. Résumé : Valence occupe la place que ce classement récompense, celle où aucun axe ne s'effondre, et son avantage propre est un réseau qui rend le scénario sans voiture crédible à un prix de ville moyenne.",
+        body: "Valence est 8e ex æquo, avec Annemasse et Oyonnax, des 39 communes éligibles d'Auvergne-Rhône-Alpes, dans une région où le haut de tableau est dense : Vienne et Villefranche-sur-Saône ouvrent à 6,9, Villeurbanne suit à 6,8, Vichy à 6,7, Grenoble et Lyon à 6,6. Les comparateurs utiles sont plus proches. À une trentaine de kilomètres au sud, Montélimar affiche 6,3 de fit avec un T3 à 780 € et un rapport de 118 € par point d'écoles, meilleur que celui de Valence pour le même score scolaire de 6,6/10 : 120 € de loyer mensuel en moins, 1 440 € par an, contre des transports notés 6,2 au lieu de 7,4. L'arbitrage est net et il se tranche sur la voiture. Au nord, Romans-sur-Isère sort à 5,8 avec un T3 à 740 €, et Bourg-en-Bresse à 6,1 avec un T3 à 840 €. Plus haut dans le classement régional, Clermont-Ferrand affiche 6,3 avec un T3 identique à 900 € et un meilleur rapport écoles-loyer, à 129 €, pour des transports moins bons. Résumé : Valence occupe la place que ce classement récompense, celle où aucun axe ne s'effondre, et son avantage propre est un réseau qui rend le scénario sans voiture crédible à un prix de ville moyenne.",
       },
       {
         heading: "Le verdict : pour qui Valence fonctionne",

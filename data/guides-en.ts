@@ -31764,18 +31764,18 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single Parent in Poitiers (2026): the Best Schools-to-Rent Ratio Here",
     metaTitle: "Single Parent in Poitiers 2026: T3 €880, Schools 7.4/10",
     metaDesc:
-      "Fit 6.5/10, 46th of 363. T3 at €880, schools 7.4/10: €119 of rent per point, the best ratio in this batch. On one income.",
+      "Fit 6.5/10, joint 37th of 416. T3 at €880, schools 7.4/10: €119 of rent per point, the best ratio in this batch. On one income.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-17",
-    updatedAt: "2026-08-17",
+    updatedAt: "2026-11-09",
     intro:
-      "Poitiers is the smallest city in this batch at 89,250 inhabitants, and the best ranked: 6.5/10 on the single-parent composite, 46th of the 363 communes above 20,000 inhabitants, a point above the ranking's median of 5.5/10. The detail holds across all four axes: cost of living 6.6/10, schools 7.4/10, transport 6.4/10, safety 5.7/10 (source: our city profile). None of those figures is spectacular, and that is precisely what makes the result: the composite penalises cities that drop on one axis heavily, and Poitiers drops nowhere. The average T3 is €880 and a square metre to buy €2,100 (source: our rent estimate), for an estimated minimum net income of €2,650/month. Here is what those numbers mean concretely when there is one salary and one driver.",
+      "Poitiers is the smallest city in this batch at 89,250 inhabitants, and the best ranked: 6.5/10 on the single-parent composite, joint 37th of the 416 communes above 20,000 inhabitants, 1.1 points above the ranking's median of 5.4/10. The detail holds across all four axes: cost of living 6.6/10, schools 7.4/10, transport 6.4/10, safety 5.7/10 (source: our city profile). None of those figures is spectacular, and that is precisely what makes the result: the composite penalises cities that drop on one axis heavily, and Poitiers drops nowhere. The average T3 is €880 and a square metre to buy €2,100 (source: our rent estimate), for an estimated minimum net income of €2,650/month. Here is what those numbers mean concretely when there is one salary and one driver.",
     sections: [
       {
-        heading: "Why Poitiers comes 46th of 363",
-        body: "The single-parent composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Those weights are the ones used by the matching City Match profile, and they translate a precise situation: one income, so cost counts more than anything; one driver, so transport genuinely counts; and no second adult to absorb a school emergency or a district that turns out badly. Poitiers scores 6.6/10 on the heaviest axis and 7.4/10 on schools, enough to carry it above three quarters of the ranking without being first anywhere. That mechanism is worth understanding before reading any ranking on this site: a regular city beats a brilliant, lopsided one. Poitiers is fourth in Nouvelle-Aquitaine out of 28 eligible communes, behind Anglet, Brive-la-Gaillarde and Châtellerault, which edges it at 6.5 as well. Its other axes, outside the composite: overall score 6.1/10, quality of life 5.9/10, culture 6.2/10, nature 5.0/10, remote-work capacity 5.8/10.",
+        heading: "Why Poitiers comes joint 37th of 416",
+        body: "The single-parent composite weights cost 0.30, schools 0.25, safety 0.25, transport 0.20. Those weights are the ones used by the matching City Match profile, and they translate a precise situation: one income, so cost counts more than anything; one driver, so transport genuinely counts; and no second adult to absorb a school emergency or a district that turns out badly. Poitiers scores 6.6/10 on the heaviest axis and 7.4/10 on schools, enough to carry it above three quarters of the ranking without being first anywhere. That mechanism is worth understanding before reading any ranking on this site: a regular city beats a brilliant, lopsided one. Poitiers is joint third in Nouvelle-Aquitaine out of 30 eligible communes, level at 6.5 with Châtellerault and Villeneuve-sur-Lot, behind Anglet and Brive-la-Gaillarde. Its other axes, outside the composite: overall score 6.1/10, quality of life 5.9/10, culture 6.2/10, nature 5.0/10, remote-work capacity 5.8/10.",
       },
       {
         heading: "€119 of rent per point of schools: the best of the lot",
@@ -31847,16 +31847,16 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-in-pau-2026",
     title: "Single parent in Pau (2026): the best rent-per-school-point in this batch",
-    metaTitle: "Single Parent in Pau 2026: T3 €900, 60th of 363",
+    metaTitle: "Single Parent in Pau 2026: T3 €900, joint 51st of 416",
     metaDesc:
-      "Fit 6.4/10, 60th of 363, the strongest file in this batch. T3 at €900, a €2,750 entry floor, schools 7.4/10 for €122 a point.",
+      "Fit 6.4/10, joint 51st of 416, the strongest file in this batch. T3 at €900, a €2,750 entry floor, schools 7.4/10 for €122 a point.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-11-09",
     intro:
-      "Pau is the best-ranked of the nine cities in this batch: 6.4/10 on the single-parent composite, 60th of the 363 communes above 20,000 inhabitants, almost a point above the ranking's median of 5.5/10. The breakdown has no marked weak spot: schools 7.4/10, cost of living 6.2/10, transport 6.1/10, safety 5.7/10 (source: our city profile). That is the recurring mechanic of this ranking — a consistent city beats a brilliant lopsided one, and Avignon in this same batch demonstrates the inverse with culture at 9.0/10 and a 212th place. The average T3, a two-bedroom flat in French shorthand, is €900, and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. One thing that appears in no axis and matters to an English-speaking reader in particular: Pau has had a British and Anglo community since the nineteenth century, which is unusual for a French city of this size.",
+      "Pau is the best-ranked of the nine cities in this batch: 6.4/10 on the single-parent composite, joint 51st of the 416 communes above 20,000 inhabitants, a point above the ranking's median of 5.4/10. The breakdown has no marked weak spot: schools 7.4/10, cost of living 6.2/10, transport 6.1/10, safety 5.7/10 (source: our city profile). That is the recurring mechanic of this ranking — a consistent city beats a brilliant lopsided one, and Avignon in this same batch demonstrates the inverse with culture at 9.0/10 and a joint 228th place. The average T3, a two-bedroom flat in French shorthand, is €900, and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. One thing that appears in no axis and matters to an English-speaking reader in particular: Pau has had a British and Anglo community since the nineteenth century, which is unusual for a French city of this size.",
     sections: [
       {
         heading: "€122 of rent per school point: the best ratio here",
@@ -31880,7 +31880,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "The verdict: who Pau works for",
-        body: "Pau works from €2,750 net a month, and it is the strongest file in this batch for anyone who wants no axis to fail. Nothing here is a superlative: schools 7.4 is matched by La Rochelle, safety 5.7 is beaten by La Rochelle, transport 6.1 is beaten by two cities. What Pau does that none of the others do is clear all four without a hole, at a rent that leaves buying possible on one salary. The population figure supports that reading rather than complicating it: 78,620 at the 2022 census against 79,798 in 2011 (source: INSEE census), stable to within 1.5 per cent over eleven years, which is neither the 17.1 per cent growth of Mérignac nor the 13.4 per cent contraction of Fort-de-France. It does not work for anyone who needs a deep, diversified job market — that is a Bordeaux or Toulouse question, not a Pau one — nor for anyone counting on doing without a car in the outer districts. And a rank of 60th is a relative position, not a verdict on your file: it says Pau clears more of this profile's requirements than 300 other communes, not that your application will clear. The axis-by-axis detail is on /cities/pau/single-parent.",
+        body: "Pau works from €2,750 net a month, and it is the strongest file in this batch for anyone who wants no axis to fail. Nothing here is a superlative: schools 7.4 is matched by La Rochelle, safety 5.7 is beaten by La Rochelle, transport 6.1 is beaten by two cities. What Pau does that none of the others do is clear all four without a hole, at a rent that leaves buying possible on one salary. The population figure supports that reading rather than complicating it: 78,620 at the 2022 census against 79,798 in 2011 (source: INSEE census), stable to within 1.5 per cent over eleven years, which is neither the 17.1 per cent growth of Mérignac nor the 13.4 per cent contraction of Fort-de-France. It does not work for anyone who needs a deep, diversified job market — that is a Bordeaux or Toulouse question, not a Pau one — nor for anyone counting on doing without a car in the outer districts. And a joint 51st place is a relative position, not a verdict on your file: it says Pau clears more of this profile's requirements than 353 other communes, not that your application will clear. The axis-by-axis detail is on /cities/pau/single-parent.",
       },
     ],
     relatedCities: ["pau", "anglet", "bayonne", "biarritz", "tarbes"],
@@ -31973,16 +31973,16 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-in-merignac-2026",
     title: "Single parent in Mérignac (2026): Bordeaux prices without Bordeaux schools",
-    metaTitle: "Single Parent in Mérignac 2026: T3 €1,080, 222nd",
+    metaTitle: "Single Parent in Mérignac 2026: T3 €1,080, joint 228th",
     metaDesc:
-      "Fit 5.3/10, 222nd of 363. T3 at €1,080 and schools 5.5/10, when Pessac gives 6.6 at the same rent. The Bordeaux-metro trade-off, costed.",
+      "Fit 5.3/10, joint 228th of 416. T3 at €1,080 and schools 5.5/10, when Pessac gives 6.6 at the same rent. The Bordeaux-metro trade-off, costed.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-11-09",
     intro:
-      "Mérignac is the metro-suburb case in this batch, and its file comes down to one sentence: you pay Bordeaux-area prices without getting Bordeaux-area school provision. On the single-parent composite the city returns 5.3/10, 222nd of the 363 communes above 20,000 inhabitants, below the ranking's median of 5.5/10. The breakdown: transport 7.7/10 — the best score in this batch — schools 5.5/10, safety 4.7/10, cost of living 4.0/10, the lowest of the nine (source: our city profile). The average T3 is €1,080 and a square metre to buy €3,800 (source: our rent estimate), for an estimated minimum net income of €3,100 a month. The commune counted 77,136 inhabitants at the 2022 census against 65,882 in 2011, 11,254 more in eleven years and growth of 17.1 per cent, the fastest in this batch (source: INSEE census). Here is the arbitration between the metro communes, in numbers.",
+      "Mérignac is the metro-suburb case in this batch, and its file comes down to one sentence: you pay Bordeaux-area prices without getting Bordeaux-area school provision. On the single-parent composite the city returns 5.3/10, joint 228th of the 416 communes above 20,000 inhabitants, below the ranking's median of 5.4/10. The breakdown: transport 7.7/10 — the best score in this batch — schools 5.5/10, safety 4.7/10, cost of living 4.0/10, the lowest of the nine (source: our city profile). The average T3 is €1,080 and a square metre to buy €3,800 (source: our rent estimate), for an estimated minimum net income of €3,100 a month. The commune counted 77,136 inhabitants at the 2022 census against 65,882 in 2011, 11,254 more in eleven years and growth of 17.1 per cent, the fastest in this batch (source: INSEE census). Here is the arbitration between the metro communes, in numbers.",
     sections: [
       {
         heading: "The calculation nobody runs: Mérignac vs Pessac vs Bordeaux",
@@ -32014,21 +32014,21 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-avignon-2026",
-    title: "Single parent in Avignon (2026): culture 9/10, and 212th all the same",
-    metaTitle: "Single Parent in Avignon 2026: Culture 9/10, 212th",
+    title: "Single parent in Avignon (2026): culture 9/10, and joint 228th all the same",
+    metaTitle: "Single Parent in Avignon 2026: Culture 9/10, Joint 228th",
     metaDesc:
-      "Fit 5.3/10, 212th of 363. Culture at 9/10 counts for nothing on this profile; safety at 4.3/10 counts for a quarter. T3 €1,000.",
+      "Fit 5.3/10, joint 228th of 416. Culture at 9/10 counts for nothing on this profile; safety at 4.3/10 counts for a quarter. T3 €1,000.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-25",
-    updatedAt: "2026-08-25",
+    updatedAt: "2026-11-09",
     intro:
-      "Avignon is the best-endowed city in this batch culturally — 9.0/10 on the culture axis, one of the highest values on the site (source: our city profile) — and it comes 212th of 363 on the single-parent composite, at 5.3/10. That is not a calculation error, it is the expected result of a ranking that weights cost at 0.30, schools at 0.25, safety at 0.25 and transport at 0.20: culture counts for nothing in it, deliberately. The breakdown: cost of living 5.7/10, transport 6.1/10, schools 5.3/10, safety 4.3/10 — and it is the last figure that costs the file most. The commune counted 91,760 inhabitants at the 2022 census (source: INSEE census), a population almost flat over eleven years and slightly down since 2016. The average T3 is €1,000 and a square metre to buy €3,000 (source: our rent estimate), for an estimated minimum net income of €3,050 a month. Here is what that changes for a household with one adult in it.",
+      "Avignon is the best-endowed city in this batch culturally — 9.0/10 on the culture axis, one of the highest values on the site (source: our city profile) — and it comes joint 228th of 416 on the single-parent composite, at 5.3/10. That is not a calculation error, it is the expected result of a ranking that weights cost at 0.30, schools at 0.25, safety at 0.25 and transport at 0.20: culture counts for nothing in it, deliberately. The breakdown: cost of living 5.7/10, transport 6.1/10, schools 5.3/10, safety 4.3/10 — and it is the last figure that costs the file most. The commune counted 91,760 inhabitants at the 2022 census (source: INSEE census), a population almost flat over eleven years and slightly down since 2016. The average T3 is €1,000 and a square metre to buy €3,000 (source: our rent estimate), for an estimated minimum net income of €3,050 a month. Here is what that changes for a household with one adult in it.",
     sections: [
       {
-        heading: "Why a festival city comes 212th",
-        body: "The composite measures four things and culture is not one of them. That choice is not a slight against Avignon, it is a statement about what constrains a lone parent: rent that has to clear on one salary, a school run that has to be doable, a district that has to be liveable, provision that has to exist. A world-class July festival changes none of those. What it does change is real but it belongs in a different column — for a parent alone, a city with a dense cultural calendar is a city where free or cheap things happen and where meeting people is easier, and both of those matter more when you are new and single than when you are neither. The site refuses to blend the two into one number, because a blended score would let culture at 9.0 conceal safety at 4.3, and that is precisely the swap a reader would regret. So read the 212th place as what it is: on the four constraints, Avignon is mid-table, and the reason to come here anyway is a reason the ranking does not measure rather than one it got wrong.",
+        heading: "Why a festival city comes joint 228th",
+        body: "The composite measures four things and culture is not one of them. That choice is not a slight against Avignon, it is a statement about what constrains a lone parent: rent that has to clear on one salary, a school run that has to be doable, a district that has to be liveable, provision that has to exist. A world-class July festival changes none of those. What it does change is real but it belongs in a different column — for a parent alone, a city with a dense cultural calendar is a city where free or cheap things happen and where meeting people is easier, and both of those matter more when you are new and single than when you are neither. The site refuses to blend the two into one number, because a blended score would let culture at 9.0 conceal safety at 4.3, and that is precisely the swap a reader would regret. So read the joint 228th place as what it is: on the four constraints, Avignon is mid-table, and the reason to come here anyway is a reason the ranking does not measure rather than one it got wrong.",
       },
       {
         heading: "Safety 4.3/10: the axis that costs the file most",
@@ -37919,14 +37919,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Single parent in Valence (2026): the strongest file in this batch, and what the safety score costs",
     metaTitle: "Single Parent in Valence 2026: Fit 6.4/10",
     metaDesc:
-      "Fit 6.4/10, 63rd of 363, the strongest file in this batch. T3 €900, entry floor €2,750, transport 7.4/10, safety 5.2/10.",
+      "Fit 6.4/10, joint 51st of 416, the strongest file in this batch. T3 €900, entry floor €2,750, transport 7.4/10, safety 5.2/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
     publishedAt: "2026-08-29",
-    updatedAt: "2026-08-29",
+    updatedAt: "2026-11-09",
     intro:
-      "Valence is the best-placed city in this batch: 6.4/10 on the single-parent composite, 63rd of the 363 communes above 20,000 inhabitants, almost a point above the ranking's median of 5.5. Three of the four axes hold together: transport 7.4/10, cost of living 6.7/10, schools 6.6/10, safety 5.2/10 (source: our city profile). The average T3 is €900 and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. The commune counted 64,288 inhabitants at the 2022 census, and it is the only one of the nine cities here whose population falls and then recovers: 63,148 in 2011, 62,477 in 2016, 64,288 in 2022 (source: INSEE census). Here is what the arithmetic looks like when there is one salary and one driver.",
+      "Valence is the best-placed city in this batch: 6.4/10 on the single-parent composite, joint 51st of the 416 communes above 20,000 inhabitants, a point above the ranking's median of 5.4. Three of the four axes hold together: transport 7.4/10, cost of living 6.7/10, schools 6.6/10, safety 5.2/10 (source: our city profile). The average T3 is €900 and a square metre to buy €2,400 (source: our rent estimate), for an estimated minimum net income of €2,750 a month. The commune counted 64,288 inhabitants at the 2022 census, and it is the only one of the nine cities here whose population falls and then recovers: 63,148 in 2011, 62,477 in 2016, 64,288 in 2022 (source: INSEE census). Here is what the arithmetic looks like when there is one salary and one driver.",
     sections: [
       {
         heading: "Transport 7.4/10: the only axis that removes a line from the budget",
@@ -37946,7 +37946,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Where Valence sits in its region",
-        body: "Valence is 10th of the 39 eligible communes in Auvergne-Rhône-Alpes, in a region with a crowded top: Vienne and Villefranche-sur-Saône open at 6.9, Villeurbanne follows at 6.8, Vichy at 6.7, Grenoble and Lyon at 6.6. The useful comparisons are closer to home. Thirty kilometres south, Montélimar returns a 6.3 composite with a T3 at €780 and a ratio of €118 a school point, better than Valence for the identical schools score of 6.6/10: €120 less rent a month, €1,440 a year, against transport marked 6.2 rather than 7.4. The trade is clear and it is settled by the car. North, Romans-sur-Isère comes out at 5.8 with a T3 at €740, and Bourg-en-Bresse at 6.1 with a T3 at €840. Higher up the regional table, Clermont-Ferrand shows 6.3 with an identical €900 T3 and a better rent-per-school-point ratio at €129, for weaker transport. Grenoble, at 6.6, has a €1,020 T3 and a €3,100 floor with transport at 8.1/10, but safety at 4.3. The summary: Valence occupies the position this ranking rewards, the one where no axis collapses, and its own argument is a network that makes the car-free scenario credible at mid-size-city prices.",
+        body: "Valence is joint 8th, with Annemasse and Oyonnax, of the 39 eligible communes in Auvergne-Rhône-Alpes, in a region with a crowded top: Vienne and Villefranche-sur-Saône open at 6.9, Villeurbanne follows at 6.8, Vichy at 6.7, Grenoble and Lyon at 6.6. The useful comparisons are closer to home. Thirty kilometres south, Montélimar returns a 6.3 composite with a T3 at €780 and a ratio of €118 a school point, better than Valence for the identical schools score of 6.6/10: €120 less rent a month, €1,440 a year, against transport marked 6.2 rather than 7.4. The trade is clear and it is settled by the car. North, Romans-sur-Isère comes out at 5.8 with a T3 at €740, and Bourg-en-Bresse at 6.1 with a T3 at €840. Higher up the regional table, Clermont-Ferrand shows 6.3 with an identical €900 T3 and a better rent-per-school-point ratio at €129, for weaker transport. Grenoble, at 6.6, has a €1,020 T3 and a €3,100 floor with transport at 8.1/10, but safety at 4.3. The summary: Valence occupies the position this ranking rewards, the one where no axis collapses, and its own argument is a network that makes the car-free scenario credible at mid-size-city prices.",
       },
       {
         heading: "The verdict: who Valence works for",
