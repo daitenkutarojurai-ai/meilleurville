@@ -2926,5 +2926,5 @@ PACA 33 → 34. Rangs régionaux eux aussi en position de palier : Poitiers 4ᵉ
 Pau 7ᵉ → 6ᵉ ex æquo sur 30, Valence 10ᵉ → 8ᵉ ex æquo (Annemasse, Oyonnax). Médiane 5,5 → 5,4 (« presque un point » → un point ;
 Poitiers « un point » → un point et un dixième). Titre FR Poitiers « meilleur rapport écoles-loyer du classement » faux dès l'origine
 (37ᵉ) → « de son lot ». **10 guides, `updatedAt` 2026-11-09.** Seed intact, pas de dérive. tsc, integrity, search-index, hreflang, sitemap verts.
-**Reste** : 51 FR / 52 EN citent « 363 » ; suivantes à une occurrence FR : Saint-Denis / Saint-Paul / Saint-Pierre (Réunion), Saint-Nazaire,
+**Reste** : 53 FR / 53 EN citent « 363 » ; suivantes à une occurrence FR : Saint-Denis / Saint-Paul / Saint-Pierre (Réunion), Saint-Nazaire,
 Le Tampon, Soissons, Saint-Dié. **Prochain lot** : dès qu'une décision du § 0 est prise.
