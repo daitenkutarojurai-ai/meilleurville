@@ -61940,6 +61940,98 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon", "toulouse", "nantes", "rennes", "montpellier"],
     tags: ["Pinel","Denormandie","rental investment","tax reduction","LMNP","land deficit","property investment France"],
   },
+  {
+    slug: "lmp-professional-furnished-landlord-france-2026",
+    title: "LMP in France: when furnished letting becomes a professional activity, and what changes",
+    metaTitle: "LMP in France: Professional Furnished Letting Explained",
+    metaDesc:
+      "LMP (loueur en meublé professionnel) explained for foreign landlords: the two tests, tax and social-charge effects, capital gains, wealth tax and traps.",
+    category: "budget",
+    emoji: "🏨",
+    readMinutes: 8,
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    intro:
+      "If you let furnished flats in France, you start as a LMNP (loueur en meublé non professionnel), which is the ordinary status for a private landlord. Above certain thresholds you can tip into LMP (loueur en meublé professionnel) without filing anything, and the tax and social-security consequences change. This guide explains the tests, what moves in your favour and against you, and who should care. Thresholds and rates change; confirm the current figures with an accountant before acting.",
+    sections: [
+      {
+        heading: "LMNP and LMP: the short version",
+        body: "Both statuses cover letting a furnished home, and both are taxed in the BIC category (industrial and commercial profits) rather than as property income. The difference is the label the tax office gives your activity. LMNP is the default for a private person with a few furnished lets. LMP treats the letting as a professional activity. The switch is automatic when two tests are both met in the same year: your furnished rental receipts exceed a set annual amount (the figure has been 23,000 euros for years; check the current one), and those receipts are higher than the rest of your household's professional income. Meet only one test and you stay LMNP."
+      },
+      {
+        heading: "Why most foreign landlords stay LMNP",
+        body: "The second test compares letting income to your other earned income. A salaried professional with one or two furnished flats is nowhere near it. A retired owner with a modest pension and several furnished flats can cross it quickly. Note that the comparison uses gross rental receipts, not profit, and that depreciation, which often brings taxable profit near zero, does not reduce the receipts that count. Two things follow: you can be LMP while paying little income tax, and you can cross the line without noticing if you keep buying."
+      },
+      {
+        heading: "What improves under LMP",
+        body: "Several rules become more favourable. Losses from the activity can generally be set against your other income instead of only against future furnished profits. Capital gains on sale follow the professional regime, which can exempt the gain after a period of activity if receipts stay under a ceiling; above it the exemption fades and then disappears. Business assets used in the professional activity can fall outside French wealth tax on real estate (IFI), which matters once your French property is worth well over the IFI threshold. Not every owner qualifies for each benefit, and anti-abuse rules apply, so these are reasons to ask, not promises."
+      },
+      {
+        heading: "What gets worse under LMP",
+        body: "You become a self-employed person for social-security purposes. Contributions are calculated on profit and are on top of income tax, so they can bite even when the tax is low. Registration, a business number and quarterly payments follow, and accounting must be on the real regime with proper statements. Expect to pay a specialist accountant. The first year's instalments are estimates and the adjustment can be large, so set money aside. Going back to LMNP is not a simple election: it depends on falling below the tests."
+      },
+      {
+        heading: "Two examples with invented round numbers",
+        body: "A retiree with a pension of 21,000 euros a year and five small furnished flats bringing in 36,000 euros passes both tests, so LMP applies. The benefits to weigh are the gain exemption on a future sale and the IFI position; the cost is social contributions on profit. A salaried manager earning 70,000 euros with two flats bringing in 19,000 euros passes neither test and stays LMNP on the real regime, which is usually the right place to be. Neither example is advice; they show how the tests behave."
+      },
+      {
+        heading: "Traps to avoid",
+        body: "Not noticing the switch is the main one: if you are LMP in law but file as LMNP, the tax office can correct earlier years with penalties. Mixing up receipts and profit is the second. Sitting just above the capital-gains ceiling the year you sell is the third; timing the sale or a lease start can matter. Fourth, relying on a general accountant for something that needs a specialist. Finally, a non-resident should check the tax treaty between France and their home country, which can change where the income is taxed."
+      },
+      {
+        heading: "What to do next",
+        body: "Add up gross furnished receipts for every property, in every household member's name or company, and compare them with your other professional income. If you are near either line, ask an accountant who handles furnished lets to model both statuses over the holding period, including the sale. If you are far below, stay with LMNP and keep records."
+      }
+    ],
+    relatedCities: ["lille","tours","reims","rennes","nantes"],
+    tags: ["LMP","professional furnished landlord","LMNP","furnished rental France","capital gains","IFI","social contributions","rental tax"],
+  },
+  {
+    slug: "house-or-flat-in-france-which-to-buy-2026",
+    title: "House or flat in France: which suits you, by life stage and by kind of town",
+    metaTitle: "House or Flat in France? How to Choose by Life Stage",
+    metaDesc:
+      "House or apartment in France: running costs, car dependence and the choice by life stage and town size, including the in-between options.",
+    category: "lifestyle",
+    emoji: "🏘️",
+    readMinutes: 7,
+    publishedAt: "2026-11-09",
+    updatedAt: "2026-11-09",
+    intro:
+      "Many newcomers assume a house with a garden is the goal. In France the better question is often where you live, not what type of building. A flat in a big city and a house on its outskirts differ less in price than in daily life: how many cars you need, who maintains what, and how far you are from school and shops. This guide compares the two by life stage and town size without pretending to give prices; check local listings for those.",
+    sections: [
+      {
+        heading: "Costs beyond the purchase price",
+        body: "A flat comes with building charges (charges de copropriété), which pay for the lift, cleaning, shared heating or insurance in many buildings. A house has no such charge, but you pay for the roof, façade, boiler and garden yourself, and the bills arrive unevenly. Both pay annual property tax (taxe foncière). Heating cost depends more on insulation and energy rating than on type: ask for the DPE, and see what a poorly rated home would need to bring up to standard. Add the car: a house far from the centre often means two vehicles, a cost people forget when comparing a purchase price."
+      },
+      {
+        heading: "Single or couple, no children",
+        body: "A flat in or near the centre of a city usually fits: transport, restaurants and work are close, and a car is optional. A house at the edge can be isolating and time-consuming to maintain. The exception is a couple who expect to have children in a few years and want to buy once."
+      },
+      {
+        heading: "Family with young children",
+        body: "It depends on what the neighbourhood offers. A flat close to a nursery, school, doctor and a park saves many car trips and puts you among other parents. A house gives space and a garden but can mean driving for everything. Many families do well in a larger flat with shared garden or a nearby public park until the children are older."
+      },
+      {
+        heading: "Family with school-age children",
+        body: "This is when a house becomes more attractive: separate bedrooms, outdoor space and children who can move around on their own. The sweet spot is often a house in the immediate ring of a large city, within reach of the centre by bike, tram or train. In mid-sized cities a house is more common and more affordable than in big ones."
+      },
+      {
+        heading: "Empty-nesters and retirees",
+        body: "Moving to a smaller flat near services is common: less upkeep, a lift, shops and doctors on foot, and cash freed up. Keep the stairs in mind; a flat above the first floor without a lift is a poor long-term choice. Others keep the house for visits and the garden. Think about the next twenty years, not the next two."
+      },
+      {
+        heading: "By size of town",
+        body: "In the biggest cities, a flat is the default and a house inside the city is expensive. In regional cities the choice is open and depends on the neighbourhood. In smaller towns a house is more often the sensible choice, since land is cheaper and you need a car anyway. In villages it is a house almost by definition. Commuter belts around expensive cities work well for a house if a train gets you to the centre in a reasonable time."
+      },
+      {
+        heading: "In-between options",
+        body: "A flat with a terrace or a shared garden covers many of the needs a house would. A town house in a historic centre gives character and a small garden at a premium. A duplex or top-floor flat with a terrace is another compromise. For many buyers, the real choice is centre against edge, and these hybrids sit between the two."
+      }
+    ],
+    relatedCities: ["nantes","rennes","strasbourg","bordeaux","lyon"],
+    tags: ["house or flat","apartment","buying property France","family housing","retirement housing","DPE","town size","moving to France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

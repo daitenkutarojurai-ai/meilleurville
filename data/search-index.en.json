@@ -10575,6 +10575,16 @@
       "slug": "pinel-ends-denormandie-and-alternatives-france-2026",
       "title": "Pinel is over: what is left for French rental investors in 2026",
       "emoji": "📊"
+    },
+    {
+      "slug": "lmp-professional-furnished-landlord-france-2026",
+      "title": "LMP in France: when furnished letting becomes a professional activity, and what changes",
+      "emoji": "🏨"
+    },
+    {
+      "slug": "house-or-flat-in-france-which-to-buy-2026",
+      "title": "House or flat in France: which suits you, by life stage and by kind of town",
+      "emoji": "🏘️"
     }
   ],
   "tags": [
@@ -10591,7 +10601,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 297
+      "count": 298
     },
     {
       "slug": "single-parent-in-france",
@@ -10656,7 +10666,7 @@
     {
       "slug": "buying-property-france",
       "label": "buying property france",
-      "count": 65
+      "count": 66
     },
     {
       "slug": "french-school-system",
@@ -11104,6 +11114,11 @@
       "count": 5
     },
     {
+      "slug": "dpe",
+      "label": "dpe",
+      "count": 4
+    },
+    {
       "slug": "french-alps",
       "label": "french alps",
       "count": 4
@@ -11136,6 +11151,11 @@
     {
       "slug": "la-rochelle",
       "label": "la rochelle",
+      "count": 4
+    },
+    {
+      "slug": "lmnp",
+      "label": "lmnp",
       "count": 4
     },
     {
@@ -11214,11 +11234,6 @@
       "count": 3
     },
     {
-      "slug": "dpe",
-      "label": "dpe",
-      "count": 3
-    },
-    {
       "slug": "drome",
       "label": "drome",
       "count": 3
@@ -11256,11 +11271,6 @@
     {
       "slug": "living-in-france",
       "label": "living in france",
-      "count": 3
-    },
-    {
-      "slug": "lmnp",
-      "label": "lmnp",
       "count": 3
     },
     {
