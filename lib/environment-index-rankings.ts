@@ -1,6 +1,10 @@
 // Seed-dependent ranking section, split out of lib/environment-index so the
 // base module (computeEnvironmentIndex + constants) stays seed-free — it's
 // reached by QolHeroBadge via lib/quality-of-life-index.
+//
+// **Convention** : `topHealthiest` trie sur `healthScore` (10 = sain, descendant),
+// `topMostStressed` sur `stressComposite` (10 = pire, descendant). Deux champs,
+// deux noms : aucune surface n'a à inverser l'un pour obtenir l'autre.
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeEnvironmentIndex, type EnvironmentIndex } from "@/lib/environment-index";
 

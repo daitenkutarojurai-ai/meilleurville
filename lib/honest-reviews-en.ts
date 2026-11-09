@@ -19,7 +19,7 @@ export const AXIS_EN: Record<string, { label: string; pro: string; con: string }
 export const OWNER_LABEL_EN: Record<string, string> = {
   score_canicule: "Heat resilience",
   score_solitude: "Social connection",
-  score_bruit: "Noise level",
+  score_bruit: "Quietness",
   score_securite_nocturne: "Night safety",
   score_sans_voiture: "Car-free living",
   score_teletravail: "Remote connectivity",

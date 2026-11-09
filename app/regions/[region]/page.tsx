@@ -148,6 +148,14 @@ export default async function RegionPage({ params }: Props) {
     culture: cities.reduce((s, c) => s + c.scores.culture, 0) / cities.length,
   };
 
+  const AXIS_LABEL_FR: Record<keyof typeof avgCriteria, string> = {
+    nature: "Nature",
+    cost: "Coût de la vie",
+    safety: "Sécurité",
+    transport: "Transports",
+    culture: "Culture",
+  };
+
   const regionDesc = REGION_DESCRIPTIONS[regionSlug];
   const departments = [...new Set(cities.map((c) => c.department))];
   const topCity = cities[0];
@@ -259,10 +267,13 @@ export default async function RegionPage({ params }: Props) {
             {Object.entries(avgCriteria).map(([key, val]) => (
               <div key={key} className="rounded-2xl bg-white px-4 py-3 text-center shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
                 <div className="text-xl font-bold font-mono-data text-[#4338CA]">{val.toFixed(1)}</div>
-                <div className="text-xs text-[var(--text-secondary)] capitalize">{key}</div>
+                <div className="text-xs text-[var(--text-secondary)]">{AXIS_LABEL_FR[key as keyof typeof avgCriteria]}</div>
               </div>
             ))}
           </div>
+          <p className="mt-2 text-xs text-[var(--text-tertiary)]">
+            Moyenne des villes de la région, sur 10 : 10 = le meilleur sur chaque axe (coût de la vie : 10 = le plus abordable).
+          </p>
 
           {/* F66 — Synthèse région teaser */}
           <Link

@@ -3,6 +3,10 @@
 // Séparé de lib/cycling-mobility.ts pour que le compute mono-ville + les
 // maps LABEL/COLOR/BG restent seed-free (sinon tout import value embarque
 // CITIES_SEED dans le bundle client).
+//
+// **Convention** : `composite` 10 = excellent pour le vélo (cf. lib/cycling-mobility.ts).
+// Les « meilleures » trient en descendant, les « plus difficiles » en ascendant ;
+// la valeur n'est jamais inversée ici.
 
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeCyclingMobility, type CyclingMobility } from "@/lib/cycling-mobility";

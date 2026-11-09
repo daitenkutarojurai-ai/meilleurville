@@ -3,6 +3,10 @@
 // Séparé de lib/sport-leisure.ts pour que le compute mono-ville + les
 // maps LABEL/COLOR/BG restent seed-free (sinon tout import value embarque
 // CITIES_SEED dans le bundle client).
+//
+// **Convention** : `composite` 10 = excellent pour la pratique (cf. lib/sport-leisure.ts).
+// Les « meilleures » trient en descendant, les « plus en retrait » en ascendant ;
+// la valeur n'est jamais inversée ici.
 
 import { CITIES_SEED } from "@/data/cities-seed";
 import { computeSportLeisure, type SportLeisure } from "@/lib/sport-leisure";

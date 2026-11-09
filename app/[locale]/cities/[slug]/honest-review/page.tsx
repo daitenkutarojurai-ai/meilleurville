@@ -7,12 +7,11 @@ import { Footer } from "@/components/Footer";
 import { ThumbsUp, ThumbsDown, CheckCircle2, Sparkles } from "lucide-react";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
-import { computeOwnerScores } from "@/lib/owner-scores";
 import { buildHonestReview } from "@/lib/honest-reviews";
 import { cityAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { clampMeta, fitTitle } from "@/lib/brand";
-import { AXIS_EN, OWNER_LABEL_EN, OWNER_EN_PRO, OWNER_EN_CON, PROFILE_LABEL_EN } from "@/lib/honest-reviews-en";
+import { PROFILE_LABEL_EN, bulletTextEn } from "@/lib/honest-reviews-en";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -44,46 +43,19 @@ function ratingBadge(score: number): string {
   return "bg-red-500/15 text-red-700 border-red-400/30";
 }
 
-function dedupe(bullets: Bullet[]): Bullet[] {
-  const seen = new Set<string>();
-  return bullets.filter((b) => { const k = b.label.toLowerCase(); return seen.has(k) ? false : (seen.add(k), true); });
-}
-
+// Same bullets as the FR twin (`/villes/[slug]/avis-honnete`), translated at
+// the display site. This page used to rebuild the list with English labels,
+// so the dedupe (by label) kept both "Remote connectivity" and "Remote work"
+// where FR merged them under « Télétravail » — 66 cities showed a different
+// set of scores than their hreflang twin. Cf. docs/integrite-2026-11-09.md.
 function buildBullets(city: Seed) {
-  const axisKeys = (Object.keys(city.scores) as Array<keyof typeof city.scores>).filter((k) => k !== "global");
-  const owner = computeOwnerScores(city);
-
-  const strengthCandidates: Bullet[] = [
-    ...axisKeys.filter((k) => city.scores[k] >= 7.0).map((k) => ({
-      label: AXIS_EN[k]?.label ?? k,
-      detail: AXIS_EN[k]?.pro ?? "",
-      score: city.scores[k],
-    })),
-    ...owner.filter((s) => s.value >= 7.0).map((s) => ({
-      label: OWNER_LABEL_EN[s.key] ?? s.key,
-      detail: OWNER_EN_PRO[s.key] ?? s.key,
-      score: s.value,
-    })),
-  ];
-  strengthCandidates.sort((a, b) => b.score - a.score);
-  const strengths = dedupe(strengthCandidates).slice(0, 4);
-
-  const weaknessCandidates: Bullet[] = [
-    ...axisKeys.filter((k) => city.scores[k] <= 4.8).map((k) => ({
-      label: AXIS_EN[k]?.label ?? k,
-      detail: AXIS_EN[k]?.con ?? "",
-      score: city.scores[k],
-    })),
-    ...owner.filter((s) => s.value <= 4.8).map((s) => ({
-      label: OWNER_LABEL_EN[s.key] ?? s.key,
-      detail: OWNER_EN_CON[s.key] ?? s.key,
-      score: s.value,
-    })),
-  ];
-  weaknessCandidates.sort((a, b) => a.score - b.score);
-  const weaknesses = dedupe(weaknessCandidates).slice(0, 3);
-
-  return { strengths, weaknesses };
+  const review = buildHonestReview(city);
+  const tr = (b: (typeof review.strengths)[number]): Bullet => ({
+    label: bulletTextEn(b.label, b.source),
+    detail: bulletTextEn(b.detail, b.source),
+    score: b.score,
+  });
+  return { strengths: review.strengths.map(tr), weaknesses: review.weaknesses.map(tr) };
 }
 
 function buildOneLine(city: Seed, strengths: Bullet[], weaknesses: Bullet[]): string {
