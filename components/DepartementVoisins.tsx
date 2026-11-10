@@ -43,7 +43,7 @@ export function DepartementVoisins({
 
   return (
     <section>
-      <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">
+      <h2 className="text-xl font-bold gradient-text mb-1">
         {en ? `Departments bordering ${department}` : `Départements limitrophes de ${department}`}
       </h2>
       <p className="text-xs text-[var(--text-tertiary)] mb-4">
@@ -57,7 +57,7 @@ export function DepartementVoisins({
           return (
             <div
               key={r.name}
-              className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-4"
+              className="rounded-2xl bg-white p-4 ring-1 ring-transparent hover:ring-[#D8B4FE] shadow-[0_10px_28px_-18px_rgba(124,58,237,0.45)] transition-all"
             >
               <div className="flex items-baseline justify-between gap-2">
                 <Link
@@ -84,7 +84,7 @@ export function DepartementVoisins({
               {r.sameRegion && (
                 <Link
                   href={`${compareBase}/${deptToSlug(x)}-vs-${deptToSlug(y)}`}
-                  className="mt-2 inline-block text-xs text-[var(--text-tertiary)] hover:text-[var(--accent)] transition-colors"
+                  className="mt-2 inline-block text-xs font-semibold text-[#6D28D9] hover:underline"
                 >
                   {en ? "Compare the two →" : "Comparer les deux →"}
                 </Link>

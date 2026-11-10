@@ -3,6 +3,8 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { DepartementFiche } from "@/components/DepartementFiche";
 import { DepartementVoisins } from "@/components/DepartementVoisins";
 import { CITIES_SEED } from "@/data/cities-seed";
@@ -95,86 +97,99 @@ export default async function EnDepartmentDetail({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-6">
-        <nav className="mb-6 text-sm text-[var(--text-secondary)]">
-          <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
-          {" · "}
-          <Link href="/departments" className="hover:text-[var(--accent)]">Departments</Link>
-          {" · "}
-          <span>{name}</span>
-        </nav>
-        <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight mb-3">
-          Cities in {name}
-        </h1>
-        <p className="text-[var(--text-secondary)]">
-          {cities.length} cities in the department, ranked by quality of life. Click a city to see its full profile.
-        </p>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav className="flex items-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
+            <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Home</Link>
+            <span>/</span>
+            <Link href="/departments" className="hover:text-[var(--text-secondary)] transition-colors">Departments</Link>
+            <span>/</span>
+            <span className="text-[var(--text-secondary)]">{name}</span>
+          </nav>
+          <div className="flex items-center gap-3 mb-3">
+            <EmojiBadge emoji="📍" tone={toneFor(dept)} />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Department
+            </span>
+          </div>
+          <h1 className="text-3xl sm:text-5xl font-bold tracking-tight mb-3">
+            Cities in <span className="font-display gradient-text-anim italic">{name}</span>
+          </h1>
+          <p className="text-[var(--text-secondary)] max-w-3xl">
+            {cities.length} cities in the department, ranked by quality of life. Click a city to see its full profile.
+          </p>
+        </div>
       </section>
+
       {/* Department sub-pages — mirrors the two teasers on the FR department page. */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-2 space-y-3">
-        <Link
-          href={`/departments/${dept}/synthesis`}
-          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
-        >
-          <span className="text-2xl shrink-0">✨</span>
-          <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-              {name} cities ranked on 8 dimensions
-            </p>
-            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
-              Environment, healthcare, employment, quality of life, cycling, safety, demographics,
-              public services — plus the department average on each axis.
-            </p>
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-10">
+          <div className="grid gap-3 md:grid-cols-2">
+            <Link
+              href={`/departments/${dept}/synthesis`}
+              className="group flex flex-wrap items-center gap-3 rounded-2xl bg-white ring-1 ring-transparent hover:ring-[#C7D2FE] shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] hover:-translate-y-0.5 transition-all px-5 py-4"
+            >
+              <EmojiBadge emoji="✨" tone="lilac" size="sm" className="shrink-0" />
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                  {name} cities ranked on 8 dimensions
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+                  Environment, healthcare, employment, quality of life, cycling, safety, demographics,
+                  public services — plus the department average on each axis.
+                </p>
+              </div>
+              <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold shrink-0">View →</span>
+            </Link>
+            <Link
+              href={`/departments/${dept}/tax`}
+              className="group flex flex-wrap items-center gap-3 rounded-2xl bg-white ring-1 ring-transparent hover:ring-[#C7D2FE] shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] hover:-translate-y-0.5 transition-all px-5 py-4"
+            >
+              <EmojiBadge emoji="💰" tone="sky" size="sm" className="shrink-0" />
+              <div className="flex-1 min-w-0">
+                <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
+                  Property tax in {name}
+                </p>
+                <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+                  Taxe foncière, second-home tax and transfer duties — 2026 department estimate, plus a
+                  page per city.
+                </p>
+              </div>
+              <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold shrink-0">View →</span>
+            </Link>
           </div>
-          <span className="text-sm text-[var(--accent)] font-medium shrink-0">View →</span>
-        </Link>
-        <Link
-          href={`/departments/${dept}/tax`}
-          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:shadow-md transition-all px-5 py-4"
-        >
-          <span className="text-2xl shrink-0">💰</span>
-          <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-              Property tax in {name}
-            </p>
-            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
-              Taxe foncière, second-home tax and transfer duties — 2026 department estimate, plus a
-              page per city.
-            </p>
-          </div>
-          <span className="text-sm text-[var(--accent)] font-medium shrink-0">View →</span>
-        </Link>
+
+          <DepartementFiche department={name} locale="en" />
+        </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-6">
-        <DepartementFiche department={name} locale="en" />
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <ol className="space-y-2">
+            {cities.map((c, i) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/cities/${c.slug}`}
+                  className="flex items-center gap-4 rounded-2xl bg-white p-4 ring-1 ring-transparent hover:ring-[#A5F3FC] shadow-[0_10px_28px_-18px_rgba(8,145,178,0.5)] transition-all hover:-translate-y-0.5"
+                >
+                  <span className="font-mono-data text-xl font-bold w-10 text-[#4338CA]">#{i + 1}</span>
+                  <div className="flex-1 min-w-0">
+                    <h3 className="font-bold text-[var(--text-primary)] truncate">{c.name}</h3>
+                    <p className="text-xs text-[var(--text-secondary)] truncate">{c.region ?? ""}</p>
+                  </div>
+                  <span className={`font-mono-data font-bold text-2xl ${scoreColor(c.scores.global)}`}>
+                    {c.scores.global.toFixed(1)}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ol>
+        </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <ol className="space-y-2">
-          {cities.map((c, i) => (
-            <li key={c.slug}>
-              <Link
-                href={`/cities/${c.slug}`}
-                className="flex items-center gap-4 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
-              >
-                <span className="font-mono-data text-xl font-bold w-10 text-[var(--text-tertiary)]">#{i + 1}</span>
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-[var(--text-primary)] truncate">{c.name}</h3>
-                  <p className="text-xs text-[var(--text-secondary)] truncate">{c.region ?? ""}</p>
-                </div>
-                <span className={`font-mono-data font-bold text-2xl ${scoreColor(c.scores.global)}`}>
-                  {c.scores.global.toFixed(1)}
-                </span>
-              </Link>
-            </li>
-          ))}
-        </ol>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-8">
-        <DepartementVoisins department={name} locale="en" />
-      </section>
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-12">
+          <DepartementVoisins department={name} locale="en" />
 
       {(() => {
         // Neighbouring departments of the same region — the pairs the
@@ -191,8 +206,8 @@ export default async function EnDepartmentDetail({ params }: Props) {
         ].sort((a, b) => a.localeCompare(b, "fr"));
         if (siblings.length === 0) return null;
         return (
-          <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-10">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+          <div>
+            <h2 className="text-xl font-bold gradient-text mb-3">
               Compare {name} with its neighbours
             </h2>
             <div className="flex flex-wrap gap-2">
@@ -202,16 +217,24 @@ export default async function EnDepartmentDetail({ params }: Props) {
                   <Link
                     key={s}
                     href={`/compare-departments/${deptToSlug(x)}-vs-${deptToSlug(y)}`}
-                    className="rounded-full border border-[var(--border)] px-3 py-1.5 text-xs font-medium text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--accent)] transition-colors"
+                    className="rounded-full bg-white ring-1 ring-[#E9D5FF] hover:ring-[#C084FC] shadow-[0_8px_20px_-16px_rgba(124,58,237,0.5)] px-3 py-1.5 text-xs font-medium text-[#6D28D9] transition-all"
                   >
                     vs {s}
                   </Link>
                 );
               })}
             </div>
-          </section>
+          </div>
         );
       })()}
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
+        </div>
+      </section>
 
       <Footer />
     </main>

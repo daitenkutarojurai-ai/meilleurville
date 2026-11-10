@@ -70,16 +70,16 @@ export function DepartementFiche({
 
   return (
     <section aria-labelledby="fiche-dept">
-      <h2 id="fiche-dept" className="text-lg font-bold text-[var(--text-primary)] mb-4">
+      <h2 id="fiche-dept" className="text-xl font-bold gradient-text mb-4">
         {t("Fiche du département", "Department at a glance")}
       </h2>
       <div className="flex flex-wrap gap-3 mb-5 text-sm">
-        <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2">
-          <div className="text-[10px] text-[var(--text-tertiary)]">{t("Numéro", "Number")}</div>
+        <div className="rounded-2xl bg-white px-4 py-2 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+          <div className="text-[11px] font-semibold text-[#4338CA]">{t("Numéro", "Number")}</div>
           <div className="font-bold font-mono-data text-[var(--text-primary)]">{num}</div>
         </div>
-        <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-4 py-2">
-          <div className="text-[10px] text-[var(--text-tertiary)]">
+        <div className="rounded-2xl bg-white px-4 py-2 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
+          <div className="text-[11px] font-semibold text-[#4338CA]">
             {t("Population des villes analysées", "Population of the cities analysed")}
             {popComplete ? "" : t(" (hors villes sans donnée)", " (excluding cities without data)")}
           </div>
@@ -88,19 +88,19 @@ export function DepartementFiche({
           </div>
         </div>
       </div>
-      <div className="overflow-x-auto rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)]">
+      <div className="overflow-x-auto rounded-2xl bg-white shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
         <table className="w-full text-sm">
           <thead>
-            <tr className="text-left text-[11px] text-[var(--text-tertiary)]">
-              <th className="px-4 py-2 font-medium">{t("Axe", "Axis")}</th>
-              <th className="px-4 py-2 font-medium">{t("Moyenne", "Average")}</th>
-              <th className="px-4 py-2 font-medium">{t("Écart national", "Vs national average")}</th>
-              <th className="px-4 py-2 font-medium">{t("Meilleure ville", "Best city")}</th>
+            <tr className="text-left text-[11px] uppercase tracking-wide bg-[#EEF2FF] text-[#4338CA]">
+              <th className="px-4 py-2.5 font-semibold">{t("Axe", "Axis")}</th>
+              <th className="px-4 py-2.5 font-semibold">{t("Moyenne", "Average")}</th>
+              <th className="px-4 py-2.5 font-semibold">{t("Écart national", "Vs national average")}</th>
+              <th className="px-4 py-2.5 font-semibold">{t("Meilleure ville", "Best city")}</th>
             </tr>
           </thead>
           <tbody>
             {rows.map((r) => (
-              <tr key={r.key} className="border-t border-[var(--border)]">
+              <tr key={r.key} className="border-t border-[#E0E7FF]">
                 <td className="px-4 py-2 text-[var(--text-secondary)]">{r.label}</td>
                 <td className="px-4 py-2 font-mono-data font-bold" style={{ color: scoreHex(r.avg) }}>
                   {fmt(r.avg)}

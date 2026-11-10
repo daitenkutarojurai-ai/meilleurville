@@ -1455,3 +1455,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages `/departements/[dept]` (FR + EN).
 2. Hub `/departements` (même `AreaFinder`) puis `AreaFinder` lui-même.
 3. Hub `/comparer` puis `/leaderboard`.
+
+## 2026-11-10 ~03:00 UTC — pages `/departements/[dept]` (FR) + EN `/departments/[dept]` + `DepartementFiche` / `DepartementVoisins`
+
+**Surface** : gabarit des pages département, 2 locales, et ses deux composants partagés. Avant : hero blanc à filet, emoji nu, `Badge` gris, axes en pastilles grises, tout le reste dans un seul bloc sur fond de page (teasers à filet, fiche et voisins en cartes à filet, libellés de catégorie de guide en émeraude/orange, couleurs réservées aux paliers) ; EN : hero blanc, liste à filet, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 📍 `toneFor(slug)` + pilule `grad-head-0`, nom en `gradient-text-anim`, chiffres en pilules blanches indigo ; profil moyen (5 cartes blanches) + teasers fiscalité/synthèse (cartes blanches, `EmojiBadge` sm, « Voir » en pilule dégradée, 2 colonnes) + `DepartementFiche` en `band-indigo` ; top 3 en `band-pink`, autres villes en `band-sky` (`CityCard`/photos inchangées) ; guides (catégorie en indigo) + voisins + comparaisons (pilules lilas) + renvois (pilules blanches, quiz dégradé) en `band-lilac` ; feedback en `band-white`. EN : teasers + fiche en `band-indigo`, liste classée en `band-sky` (rang `#4338CA`, paliers conservés), voisins + comparaisons en `band-lilac`, `FeedbackWidget locale="en"` ajouté. `DepartementFiche` : cartes blanches ombrées, en-tête de tableau `#EEF2FF`/`#4338CA`, h2 `.gradient-text` ; `DepartementVoisins` : cartes blanches lilas. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 4 fichiers : 0 problème. Captures playwright `/departements/finistere` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/departements` (FR + EN) puis `AreaFinder`.
+2. Sous-pages `/departements/[dept]/fiscalite` et `/synthese` (FR + EN).
+3. Hub `/comparer` puis `/leaderboard`.
