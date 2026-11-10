@@ -1468,3 +1468,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/departements` (FR + EN) puis `AreaFinder`.
 2. Sous-pages `/departements/[dept]/fiscalite` et `/synthese` (FR + EN).
 3. Hub `/comparer` puis `/leaderboard`.
+
+## 2026-11-10 ~16:00 UTC — hub `/departements` (FR) + EN `/departments` + `AreaFinder` (partagé avec `/regions`)
+
+**Surface** : index des départements, 2 locales, et le chercheur partagé `AreaFinder` (`DepartementFinder` + `RegionFinder`). Avant : `AmbientBackground`, hero blanc, carte + finder + index replié dans un seul bloc sur fond de page, index en `glass` à filet, renvois en boutons gris ; EN : hero blanc, pas de feedback. `AreaFinder` : recherche `glass`, tri en pastilles grises, tuiles à filet sur fond canvas, état vide en pointillés.
+
+**Changé** : hero `.bg-aurora` + fil d'Ariane + `EmojiBadge` 🏙️ rose + pilule `grad-head-0`, fin du titre en `gradient-text-anim` (EN aussi) ; carte `DepartementMap` en `band-indigo`, finder en `band-sky`, index replié (carte blanche à ombre lilas, titre `.gradient-text`, n° en pastille indigo, « guide → » en rose `#BE185D`) + renvois (pilule dégradée + pilules blanches indigo) en `band-lilac`, `FeedbackWidget` (EN `locale="en"` ajouté) en `band-white`. `AreaFinder` : recherche blanche à anneau indigo, tri actif en `grad-head-0`, compteur `#4338CA`, tuiles blanches ombrées avec n° en pastille indigo, état vide sans pointillés. Couleurs de palier des scores conservées. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3 fichiers : 0 erreur (1 avertissement préexistant `exhaustive-deps` dans `AreaFinder`). Captures playwright `/departements` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Sous-pages `/departements/[dept]/fiscalite` et `/synthese` (FR + EN).
+2. Hub `/comparer` puis `/leaderboard`.
+3. `DepartementMap` (cadre de la figure, légende) et page agenda.

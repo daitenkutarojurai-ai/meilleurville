@@ -129,8 +129,8 @@ export function AreaFinder({
   return (
     <div>
       <div className="mb-5 flex gap-2 sm:gap-3">
-        <div className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl glass-strong border border-white/60 px-3 py-3 sm:px-4 shadow-md focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/30 transition-all">
-          <Search className="h-4 w-4 flex-shrink-0 text-[var(--accent)]" />
+        <div className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl bg-white ring-1 ring-[#C7D2FE] px-3 py-3 sm:px-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)] focus-within:ring-2 focus-within:ring-[#818CF8] transition-all">
+          <Search className="h-4 w-4 flex-shrink-0 text-[#4F46E5]" />
           <input
             type="search"
             inputMode="search"
@@ -150,7 +150,7 @@ export function AreaFinder({
             </button>
           )}
         </div>
-        <div className="flex flex-shrink-0 items-center gap-1 rounded-2xl border border-[var(--border)] bg-[var(--bg-canvas)] p-1">
+        <div className="flex flex-shrink-0 items-center gap-1 rounded-2xl bg-white ring-1 ring-[#C7D2FE] p-1 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.45)]">
           {sorts.map((id) => (
             <button
               key={id}
@@ -158,8 +158,8 @@ export function AreaFinder({
               aria-pressed={sort === id}
               className={`rounded-xl px-2.5 py-1.5 text-xs font-medium transition-colors ${
                 sort === id
-                  ? "bg-[var(--accent)]/10 text-[var(--accent)]"
-                  : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]"
+                  ? "grad-head-0 font-semibold"
+                  : "text-[var(--text-secondary)] hover:bg-[#EEF2FF] hover:text-[#4338CA]"
               }`}
             >
               {en ? SORT_LABELS_EN[id] : SORT_LABELS[id]}
@@ -168,7 +168,7 @@ export function AreaFinder({
         </div>
       </div>
 
-      <p className="mb-3 text-sm text-[var(--text-secondary)]">
+      <p className="mb-3 text-sm font-medium text-[#4338CA]">
         {visible.length} {visible.length > 1 ? copy.plural : copy.singular}
       </p>
 
@@ -178,18 +178,18 @@ export function AreaFinder({
             <Link
               key={a.slug}
               href={`${hrefPrefix}/${a.slug}`}
-              className="group flex items-center gap-2.5 rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2.5 transition-all hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)]"
+              className="group flex items-center gap-2.5 rounded-2xl bg-white px-3 py-2.5 ring-1 ring-[#E0E7FF] shadow-[0_8px_22px_-18px_rgba(79,70,229,0.6)] transition-all hover:-translate-y-0.5 hover:ring-[#A5B4FC]"
             >
               {anyNum && (
-                <span className="flex-shrink-0 font-mono-data text-xs font-bold text-[var(--text-tertiary)]">
+                <span className="flex-shrink-0 rounded-md bg-[#EEF2FF] px-1.5 py-0.5 font-mono-data text-[11px] font-bold text-[#4338CA]">
                   {a.num ?? ""}
                 </span>
               )}
               <span className="min-w-0 flex-1">
-                <span className="block truncate text-sm font-medium text-[var(--text-primary)] transition-colors group-hover:text-[var(--accent)]">
+                <span className="block truncate text-sm font-medium text-[var(--text-primary)] transition-colors group-hover:text-[#4338CA]">
                   {a.label}
                 </span>
-                <span className="block text-[11px] text-[var(--text-tertiary)]">
+                <span className="block text-[11px] text-[var(--text-secondary)]">
                   {en ? `${a.count} ${a.count > 1 ? "cities" : "city"}` : `${a.count} ville${a.count > 1 ? "s" : ""}`}
                 </span>
               </span>
@@ -203,7 +203,7 @@ export function AreaFinder({
           ))}
         </div>
       ) : (
-        <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 px-6 py-10 text-center">
+        <div className="rounded-2xl bg-white ring-1 ring-[#C7D2FE] px-6 py-10 text-center">
           <p className="text-sm text-[var(--text-secondary)]">
             {copy.emptyHint.replace("{q}", query)}
           </p>

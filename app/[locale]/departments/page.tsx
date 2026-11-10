@@ -7,6 +7,8 @@ import { deptToSlug, deptNumber } from "@/lib/dept-slug";
 import { DepartementFinder, type DeptEntry } from "@/components/DepartementFinder";
 import { DepartementMap, type DeptMapEntry } from "@/components/DepartementMap";
 import { pathAlternatesEn } from "@/lib/i18n";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge } from "@/components/EmojiBadge";
 
 export const metadata: Metadata = {
   title: "Cities by department · All French departments",
@@ -57,37 +59,58 @@ export default function EnDepartmentsHub() {
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-20 pb-8 text-center">
-        <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
-          Cities by department
-        </h1>
-        <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
-          {sortedDepts.length} French departments, {CITIES_SEED.length} cities ranked by overall score. Click the map, or type a number, a name or your city.
-        </p>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <nav className="flex items-center justify-center gap-2 text-xs text-[var(--text-tertiary)] mb-5">
+            <Link href="/" className="hover:text-[var(--text-secondary)] transition-colors">Home</Link>
+            <span>/</span>
+            <span className="text-[var(--text-secondary)]">Departments</span>
+          </nav>
+          <div className="flex items-center justify-center gap-3 mb-3">
+            <EmojiBadge emoji="🏙️" tone="pink" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              {sortedDepts.length} departments
+            </span>
+          </div>
+          <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
+            Cities by <span className="font-display gradient-text-anim italic">department</span>
+          </h1>
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
+            {sortedDepts.length} French departments, {CITIES_SEED.length} cities ranked by overall score. Click the map, or type a number, a name or your city.
+          </p>
+        </div>
       </section>
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <DepartementMap entries={mapEntries} locale="en" />
-        <DepartementFinder depts={deptEntries} cityIndex={cityIndex} locale="en" />
-
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <DepartementMap entries={mapEntries} locale="en" />
+        </div>
+      </section>
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <DepartementFinder depts={deptEntries} cityIndex={cityIndex} locale="en" />
+        </div>
+      </section>
+      <section className="band band-lilac py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Full city-by-city index: collapsed but in the static HTML, so all
             city links stay crawlable. */}
-        <details className="mt-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-          <summary className="cursor-pointer text-sm font-semibold text-[var(--text-primary)]">
+        <details className="rounded-3xl bg-white p-5 sm:p-6 shadow-[0_14px_36px_-22px_rgba(124,58,237,0.5)] ring-1 ring-[#DDD6FE]">
+          <summary className="cursor-pointer text-base font-bold gradient-text">
             All cities, department by department
           </summary>
           <div className="mt-5 space-y-5">
             {sortedDepts.map(({ dept, num, cities, avgScore }) => (
               <div key={dept}>
                 <h2 className="text-sm font-bold text-[var(--text-primary)]">
-                  <span className="font-mono-data text-[var(--text-tertiary)]">{num}</span> {dept}{" "}
+                  <span className="mr-1 inline-flex rounded-md bg-[#EEF2FF] px-1.5 py-0.5 font-mono-data text-xs text-[#4338CA]">{num}</span> {dept}{" "}
                   <Link
                     href={`/departments/${deptToSlug(dept)}`}
-                    className="text-xs font-medium text-[var(--accent)] hover:underline"
+                    className="text-xs font-semibold text-[#BE185D] hover:underline"
                   >
                     guide →
                   </Link>
                 </h2>
-                <div className="mt-0.5 text-xs text-[var(--text-tertiary)]">
+                <div className="mt-0.5 text-xs text-[var(--text-secondary)]">
                   {cities.length} {cities.length > 1 ? "cities" : "city"} · average {avgScore.toFixed(1)}/10
                 </div>
                 <div className="mt-2 flex flex-wrap gap-x-3 gap-y-1.5">
@@ -95,7 +118,7 @@ export default function EnDepartmentsHub() {
                     <Link
                       key={city.slug}
                       href={`/cities/${city.slug}`}
-                      className="text-sm text-[var(--text-secondary)] transition-colors hover:text-[var(--accent)]"
+                      className="text-sm text-[var(--text-secondary)] transition-colors hover:text-[#4338CA]"
                     >
                       {city.name}{" "}
                       <span className="font-mono-data text-xs text-[var(--text-tertiary)]">
@@ -108,14 +131,20 @@ export default function EnDepartmentsHub() {
             ))}
           </div>
         </details>
+          <div className="pt-8">
+            <Link
+              href="/compare-departments"
+              className="inline-flex items-center gap-2 rounded-full grad-head-0 px-4 py-2.5 text-sm font-semibold transition-all hover:-translate-y-0.5"
+            >
+              📍 Compare two departments side by side
+            </Link>
+          </div>
+        </div>
       </section>
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 pb-10">
-        <Link
-          href="/compare-departments"
-          className="inline-flex items-center gap-2 rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)]/40 hover:text-[var(--accent)]"
-        >
-          📍 Compare two departments side by side
-        </Link>
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
+        </div>
       </section>
       <Footer />
     </main>
