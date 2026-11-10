@@ -62084,6 +62084,120 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["saint-germain-en-laye", "puteaux", "courbevoie", "blagnac", "valbonne", "grenoble", "lyon", "toulouse", "le-tampon", "cognac", "belfort", "laval", "aurillac", "paris"],
     tags: ["salary by city", "average net salary", "salaries in France", "INSEE", "jobs by city", "job hubs", "rent and salary", "French city ranking", "purchasing power"],
   },
+  {
+    slug: "energy-rating-dpe-f-g-buying-renovating-france-2026",
+    title: "Buying a French home rated F or G: what the energy label means for price, letting and renovation",
+    metaTitle: "French Energy Label DPE F or G: Buy, Renovate or Avoid?",
+    metaDesc:
+      "The DPE energy label explained: letting bans for F and G homes, the energy audit, price discounts, renovation aid and when a poorly rated home makes sense.",
+    category: "budget",
+    emoji: "🏚️",
+    readMinutes: 8,
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    intro:
+      "Every French home for sale or rent carries a DPE (diagnostic de performance énergétique), a label from A to G. Homes rated F and G, known in France as passoires thermiques (thermal sieves), are cheaper to buy, may be banned from the rental market, and often need serious work. This guide explains what the label legally implies and how to decide. Dates, subsidies and loan ceilings are revised often, so confirm them on the government's renovation advice service before committing.",
+    sections: [
+      {
+        heading: "What the DPE is and why it matters now",
+        body: "The DPE rates a home's energy use and greenhouse-gas emissions on a scale from A (best) to G (worst). It is mandatory in sale and rental listings. Since 2021 it is legally enforceable, meaning that a buyer or tenant can complain if the rating was wrong. The label is not a precise bill: it is a modelled estimate, and the method has been revised, notably for small flats. Read the full report, not just the letter, to see which element drives the rating: heating, insulation, windows or ventilation."
+      },
+      {
+        heading: "The letting ban, and why it affects price",
+        body: "France is phasing out poorly rated homes from the rental market. The worst homes were barred first, G-rated homes have been unable to be let on new or renewed leases since 2025, F-rated homes follow in 2028 and E-rated homes in 2034. Rent increases on F and G homes are also frozen. Owners who cannot or will not renovate are therefore selling, and landlords who would have bought are cautious. That is the main reason a poor label lowers the price. The discount differs by market: larger in tight rental markets such as Paris, smaller where most buyers are owner-occupiers. It is not automatically equal to the cost of works, so compare the two for each property."
+      },
+      {
+        heading: "The energy audit for houses",
+        body: "When a single-family house rated F or G is sold, the seller must provide an energy audit (audit énergétique), and the obligation extends to progressively better ratings over the coming years. The audit proposes a sequence of works with estimated costs and the label you would reach. It is far more useful than the DPE alone. Insist on seeing it before you make an offer, and treat the cost estimates as a starting point to be checked with local builders."
+      },
+      {
+        heading: "Paying for the work",
+        body: "Two main public schemes exist. MaPrimeRénov' is a grant from the housing agency ANAH; its level depends on household income and the type of works, and it is aimed at owners who live in the home. The eco-PTZ is an interest-free loan for energy renovation, without an income test, with a ceiling that depends on the works. Rules, who qualifies and how much is paid out have been revised several times, and some routes require certified contractors. Do not sign a works quote until you have checked the eligibility of both schemes for your exact project, and never start work before the grant file is accepted if the rules require it."
+      },
+      {
+        heading: "When buying a poorly rated home makes sense",
+        body: "It can work if you will live in the home, the discount exceeds the net cost of works after grants, and you can do the works within the first year or two. Look at which fixes move the label most: insulating the roof space and replacing an old fossil-fuel boiler usually matter more than windows. It works badly if you are a landlord counting on a quick re-let, if the walls need expensive insulation in a protected or listed area, or if the building is a flat in a condominium that must vote on communal works. Do not assume the rules will soften: the calendar is set in law. Ask your notary and an independent energy auditor before you sign."
+      }
+    ],
+    relatedCities: ["paris","bordeaux","lyon","nantes","dijon","grenoble"],
+    tags: ["DPE","energy rating","MaPrimeRénov","eco-PTZ","renovation France","buying property France","landlord rules","energy audit"],
+  },
+  {
+    slug: "short-term-rental-airbnb-rules-france-2026",
+    title: "Letting your French home on Airbnb: registration, night caps and tax",
+    metaTitle: "Airbnb in France: Registration, Night Caps and Tax Rules",
+    metaDesc:
+      "Short-term letting in France explained: main vs second home rules, the 120-night cap, registration numbers, change of use, micro-BIC and platform reporting.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 8,
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    intro:
+      "Letting a French flat or house on Airbnb, Booking.com or similar looks like a quick way to cover costs. In France it is regulated by national law, by town hall decisions and by the building's own rules, and the tax treatment has been tightened more than once. This guide sets out the framework so you know what to check before you list. Thresholds and allowances change with each finance law; check the current figures with an accountant or the tax office.",
+    sections: [
+      {
+        heading: "Main home or second home: the first question",
+        body: "The rules depend on whether the property is your main home, meaning you live there most of the year, or a second home. A main home can be let to tourists for a limited number of nights each year without any special permission; the national limit is 120 nights, and a town hall can set a lower cap. Beyond the cap you move into the second-home regime. A second home let as a tourist rental is treated as a business use of the property, and in larger towns that means a formal change-of-use authorization."
+      },
+      {
+        heading: "Registration and change of use",
+        body: "Many towns require you to register the property with the town hall and to show the registration number in every listing. A national registration system has been rolled out in recent years, so assume that you need one. Platforms are required to remove or block listings that have no valid number. Cities with tight housing markets, in particular towns above 200,000 inhabitants and others designated by decree, also require a change-of-use permit, sometimes with a requirement to convert another property to housing in compensation. In practice, that makes a second-home Airbnb in Paris or Bordeaux much harder than in a rural area. Check the town hall's rules before buying with that plan in mind."
+      },
+      {
+        heading: "Condominium and lease rules",
+        body: "If the property is in a condominium building, read the co-ownership rules (règlement de copropriété): they can forbid commercial use, and neighbours can bring a complaint. If you rent the property yourself rather than own it, you need your landlord's written consent to sublet. Either problem can end a listing faster than any tax rule."
+      },
+      {
+        heading: "How the income is taxed",
+        body: "Furnished tourist lets are taxed as industrial and commercial profit (BIC), not as ordinary property income. Under the simplified micro-BIC regime you declare your gross receipts and the tax office applies a flat allowance for costs; the real-profit regime lets you deduct actual costs and depreciation instead. The size of the allowance depends on whether the property is a classified tourist furnished let and whether it sits in a high-demand area, and the rules for tourist lets were made less generous in recent finance laws. Social charges may apply on top, and non-resident owners have their own position. Ask an accountant to model both regimes for your numbers."
+      },
+      {
+        heading: "What the authorities can see",
+        body: "Since 2020 platforms report hosts and the income they receive to the French tax authorities under EU rules, so the tax office usually knows about your income before you file. Platforms often collect the local tourist tax and pass it to the town. Town halls cross-check registration data with listings, and Paris in particular enforces actively. Fines for letting without a registration number or without a permit can be high. If short-term letting is part of your purchase plan, run the numbers with realistic occupancy, after tax, cleaning and platform fees, and compare them with a standard long-term lease before you decide."
+      }
+    ],
+    relatedCities: ["paris","bordeaux","nice","annecy","strasbourg","la-rochelle"],
+    tags: ["Airbnb France","short-term rental","furnished tourist rental","micro-BIC","change of use","registration number","landlord France","property investment France"],
+  },
+  {
+    slug: "self-build-kit-house-france-2026",
+    title: "Building your own house in France: self-build, kit houses and what the rules require",
+    metaTitle: "Self-Build and Kit Houses in France: Permits and Insurance",
+    metaDesc:
+      "Self-build in France explained: permit and architect thresholds, soil study, thermal regulation, the mandatory damage insurance and a realistic view of the effort.",
+    category: "budget",
+    emoji: "🔨",
+    readMinutes: 8,
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    intro:
+      "Building your own house, or assembling a kit house, is one of the cheaper routes to a new home in France, and one of the most demanding. You carry the planning, the insurance and the schedule yourself. This guide explains the formal steps and the traps, based on how French law works for an individual building a home to live in. It does not give a cost per square metre, since prices vary too much by region and year. Verify each rule with the town hall's planning office and your notary.",
+    sections: [
+      {
+        heading: "Self-build, partial self-build and kits",
+        body: "Pure self-build means you do almost everything yourself. Most people do partial self-build: contractors handle the groundwork, frame, roof and electrics, and the owner takes insulation, interior walls and finishing. A kit house arrives as prefabricated parts, often a timber frame, and is erected on site by the owner or a crew. Each route shifts risk: the more you hire out, the more of the build is covered by the contractors' legal warranties. The more you do, the more of it rests on you."
+      },
+      {
+        heading: "Land, planning and the permit",
+        body: "Start with the land. Check that the plot is buildable under the local planning document (PLU) and get a certificate of planning information (certificat d'urbanisme) before you buy. Building a new house needs a building permit (permis de construire); a small extension may only need a prior declaration. An architect must prepare the plans when the new floor area of a private house passes 150 square metres. Below that, you may draw your own plans, but you still have to meet the planning document and the thermal regulation. A permit takes several months to be decided and can be appealed by neighbours, so keep the timing out of any financing you cannot stretch."
+      },
+      {
+        heading: "Soil study, thermal regulation and connections",
+        body: "In areas where clay soil shrinks and swells, a soil study is required before building, because cracked foundations are one of the costliest defects. New homes must comply with the current thermal regulation (RE2020), which is proved by calculations at permit and completion. You also need to pay for connection to water, electricity, telecoms and sewage, or install a septic system and have it inspected. At the end of the works you file a declaration of completion (DAACT) with the town hall, and the electrical installation normally needs a conformity certificate."
+      },
+      {
+        heading: "Insurance: the point that decides resale",
+        body: "A person who builds a home must take out damage insurance (assurance dommages-ouvrage) before works begin. Many insurers decline owner-builders or price the cover high, so ask for quotes early. It is a legal duty, but the point to understand is the effect on resale: if you sell within ten years, the deed must say whether you took out that cover. Selling without it is not forbidden, but a buyer, a bank and a notary will all treat it as a flaw, and the price will show it. Hiring contractors for structural work means their ten-year liability insurance covers it; you cannot insure your own labour in that way."
+      },
+      {
+        heading: "An honest view of effort and risk",
+        body: "Self-build saves money mainly by replacing paid labour with yours. The cost is time, often measured in years of evenings and weekends, plus stress on the household. Typical problems are underestimated schedules, budget overruns, weather, delivery delays and quality faults in electrics or plumbing that must be checked by a professional. It suits people with real building skills, a cash reserve and flexibility. It suits poorly a buyer in a hurry, with no experience, who needs to sell within a few years. Before you commit, talk to a builder about a partly finished option and visit self-builders who completed similar projects."
+      }
+    ],
+    relatedCities: ["rennes","nantes","tours","poitiers","limoges"],
+    tags: ["self-build","kit house","building permit France","RE2020","damage insurance","buying land France","construction France","property France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

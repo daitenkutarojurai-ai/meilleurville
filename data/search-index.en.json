@@ -10590,6 +10590,21 @@
       "slug": "french-cities-salaries-highest-and-lowest-358-cities-2026",
       "title": "Average net salary by city: ranking of 358 French job markets (2026)",
       "emoji": "💼"
+    },
+    {
+      "slug": "energy-rating-dpe-f-g-buying-renovating-france-2026",
+      "title": "Buying a French home rated F or G: what the energy label means for price, letting and renovation",
+      "emoji": "🏚️"
+    },
+    {
+      "slug": "short-term-rental-airbnb-rules-france-2026",
+      "title": "Letting your French home on Airbnb: registration, night caps and tax",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "self-build-kit-house-france-2026",
+      "title": "Building your own house in France: self-build, kit houses and what the rules require",
+      "emoji": "🔨"
     }
   ],
   "tags": [
@@ -10671,7 +10686,7 @@
     {
       "slug": "buying-property-france",
       "label": "buying property france",
-      "count": 66
+      "count": 67
     },
     {
       "slug": "french-school-system",
@@ -11099,6 +11114,11 @@
       "count": 5
     },
     {
+      "slug": "dpe",
+      "label": "dpe",
+      "count": 5
+    },
+    {
       "slug": "franche-comte",
       "label": "franche-comte",
       "count": 5
@@ -11117,11 +11137,6 @@
       "slug": "saint-etienne",
       "label": "saint-etienne",
       "count": 5
-    },
-    {
-      "slug": "dpe",
-      "label": "dpe",
-      "count": 4
     },
     {
       "slug": "french-alps",
@@ -11186,6 +11201,11 @@
     {
       "slug": "poitiers",
       "label": "poitiers",
+      "count": 4
+    },
+    {
+      "slug": "property-investment-france",
+      "label": "property investment france",
       "count": 4
     },
     {
@@ -11306,11 +11326,6 @@
     {
       "slug": "paris-suburbs",
       "label": "paris suburbs",
-      "count": 3
-    },
-    {
-      "slug": "property-investment-france",
-      "label": "property investment france",
       "count": 3
     },
     {
