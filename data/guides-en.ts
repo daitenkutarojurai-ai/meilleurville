@@ -62198,6 +62198,58 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["rennes","nantes","tours","poitiers","limoges"],
     tags: ["self-build","kit house","building permit France","RE2020","damage insurance","buying land France","construction France","property France"],
   },
+  {
+    slug: "apartment-prices-per-m2-french-cities-552-cities-dvf-2026",
+    title: "Apartment price per m² by city: 552 French cities ranked (DVF 2024-2025)",
+    metaTitle: "Apartment price per m² by French city: 552 ranked (2026)",
+    metaDesc: "Saint-Tropez €11,173/m², Montluçon €680/m²: median price of apartments sold in 2024-2025 across 552 French cities, by region and size (DVF).",
+    category: "budget",
+    emoji: "🏢",
+    readMinutes: 9,
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    intro: "Across the 552 cities in our database where enough apartments sold in 2024 and 2025, the median price per m² tops €5,000 in 68 cities and stays under €2,000 in 180. It runs from €11,173 in Saint-Tropez to €680 in Montluçon (setting aside La Souterraine, €514 on only 24 sales), a ratio of 1 to 16. These are not asking prices: they are medians of sales actually recorded by notaries and published by the tax administration (the DVF file). This guide ranks the cities, separates Paris, the provinces, the resorts and the mid-sized towns, and shows what 50 m² really costs in each. Alsace and Moselle, which run on a separate land register, are not in the data.",
+    sections: [
+      {
+        heading: "Where do these prices come from, and how do they differ from listings?",
+        body: "They come from completed sales. The French tax administration (DGFiP) publishes every property transaction as Demandes de valeurs foncières (DVF). We keep apartment sales from 2024 and 2025, one dwelling per sale, and compute the median price per m² for each municipality. A median is the value that splits the cheaper half of sales from the dearer half, so one mansion sold at a huge price does not move it. A listing shows an asking price, often negotiable; a deed shows the price paid. We only publish a city if at least 20 apartments sold over the two years. Three cautions: these are medians of sales, not the value of your flat; they mix old and new-build; and our city pages carry a separate editorial price benchmark that can differ from this measured figure without either being wrong.",
+      },
+      {
+        heading: "Which are the most expensive cities in France?",
+        body: "A Riviera resort first, then western Paris. Saint-Tropez comes in at €11,173 per m² (247 sales), ahead of Neuilly-sur-Seine (€10,382, 1,701 sales), Paris (€9,646, 54,257 sales), Levallois-Perret (€8,935), Saint-Mandé (€8,552), Vincennes (€8,547) and Boulogne-Billancourt (€8,243). Hossegor (€7,704), Arcachon (€7,644) and Cassis (€7,573) slot in, followed by Issy-les-Moulineaux (€7,511), Charenton-le-Pont (€7,400), Biarritz (€7,150), Montrouge (€7,107) and Puteaux (€7,020). Fifteen cities pass €7,000: ten are in Paris or its inner suburbs, five are resorts (Saint-Tropez, Hossegor, Arcachon, Cassis, Biarritz). At those levels a 50 m² flat costs about €482,000 in Paris, and more in Neuilly or Saint-Tropez.",
+      },
+      {
+        heading: "Which are the cheapest cities?",
+        body: "Industrial or rural towns in the centre, east and north, where a flat costs a fraction of its Paris price. Montluçon is the cheapest city with a solid sample, at €680 per m² on 601 sales, ahead of Thiers (€703), Aubusson (€729), Lure (€832), Saint-Claude (€833), Mauriac (€853), Sedan (€864), Romilly-sur-Seine (€868), Tulle (€871) and Commercy (€895). Vierzon (€917), Montbard (€925), Montbéliard (€934), Autun (€956), Maubeuge (€961) and Joigny (€966) follow. La Souterraine (€514) is at the very bottom, but on only 24 sales: read it with care, as with the other cities under 50 sales (33 of the 552). In Montluçon a 50 m² flat costs about €34,000, fourteen times less than in Paris. At that price, check the condition of the flat and local demand before calling it a bargain.",
+      },
+      {
+        heading: "What does an apartment cost in the big cities?",
+        body: "Between €1,200 and €9,650 per m², and the order does not follow city size. Among the 39 cities of more than 100,000 people that we cover, only Paris (€9,646) and Boulogne-Billancourt (€8,243) are above €6,000. Then come Montreuil (€5,938), Saint-Paul on Réunion (€5,304), Annecy (€5,092), Aix-en-Provence (€4,819), Nice (€4,802), Lyon (€4,475), Bordeaux (€4,171) and Saint-Denis (€3,926). The big provincial metropolises sit between €3,100 and €3,800: Lille (€3,705), Rennes (€3,667), Villeurbanne (€3,554), Nantes (€3,413), Montpellier (€3,354), Toulouse (€3,222), Marseille (€3,154) and Angers (€3,143). Lower down: Caen (€2,893), Tours (€2,827), Rouen (€2,692), Toulon (€2,667), Dijon (€2,625), Orléans (€2,538), Grenoble (€2,500), Brest (€2,134), Le Mans (€1,933), Limoges (€1,518), Perpignan (€1,500) and Saint-Étienne (€1,197). Strasbourg, Metz and Mulhouse are absent: the Alsace-Moselle land register is not in DVF.",
+      },
+      {
+        heading: "Is the Paris region more expensive than the rest of France?",
+        body: "Yes, by more than €1,500 per m² at the median, but with wide gaps inside the region. The 163 Île-de-France cities in our ranking have a median price of €3,646 per m², against €2,115 for the 389 provincial cities. In Île-de-France, 46 of 163 cities pass €5,000; at the other end are Clichy-sous-Bois (€1,835), Sarcelles (€1,940), Ris-Orangis (€2,008) and Provins (€2,026). In the provinces, 46 cities pass €4,000, among them the resorts below and the big metropolises. So a flat in Évry-Courcouronnes (€2,189) or Sevran (€2,189) costs less than in Caen, Tours or Angers. The region is not just Paris, and the provinces are not just Montluçon.",
+      },
+      {
+        heading: "Which resorts and provincial cities have become unaffordable?",
+        body: "The Atlantic and Mediterranean coasts, a few Alpine towns and the liveliest regional capitals. Outside Île-de-France the ten highest prices are Saint-Tropez (€11,173), Hossegor (€7,704), Arcachon (€7,644), Cassis (€7,573), Biarritz (€7,150), the Île de Ré (€6,900), La Baule-Escoublac (€6,483), Sanary-sur-Mer (€6,163), Carnac (€5,917) and Saint-Jean-de-Luz (€5,874). Cannes (€5,714), Sainte-Maxime (€5,692), Quiberon (€5,657) and Dinard (€5,639) are close behind. In these towns the price partly reflects demand from non-residents rather than local incomes; our rankings of salaries and living standards by city let you measure the gap.",
+      },
+      {
+        heading: "How do prices vary by region?",
+        body: "The regional median of our cities runs from €1,275 in Bourgogne-Franche-Comté to €3,646 in Île-de-France. Regional medians, computed on the cities in our database (regions with six or more cities): Île-de-France €3,646, Provence-Alpes-Côte d'Azur €3,154, Corsica €2,874, Pays de la Loire €2,637, Brittany €2,574, Nouvelle-Aquitaine €2,313, Réunion €2,306, Auvergne-Rhône-Alpes €2,234, Normandy €2,000, Hauts-de-France €1,739, Occitanie €1,720, Centre-Val de Loire €1,570, Grand Est €1,352 and Bourgogne-Franche-Comté €1,275. Two traps. These are medians of cities, not weighted by population: Occitanie looks cheap at €1,720 even though Toulouse (€3,222) and Montpellier (€3,354) drive it, because many small towns weigh as much as they do. And the Grand Est figure leaves out Strasbourg, Metz, Mulhouse and Colmar, which are not in DVF.",
+      },
+      {
+        heading: "What does a 50 m² flat cost, city by city?",
+        body: "About €131,000 in the median city of our ranking (€2,615 per m²), under €86,000 in one city out of four and over €183,000 in one out of four. Orders of magnitude for 50 m², multiplying the median price per m²: Paris about €482,000; Lyon €224,000; Bordeaux €209,000; Lille €185,000; Toulouse €161,000; Brest €107,000; Saint-Étienne €60,000; Montluçon €34,000. The calculation is deliberately crude: price per m² falls as size rises and climbs for small units, because a studio costs more per m² than a five-room flat on the same street. Compare cities at equal size, not one city's studio against another's family flat.",
+      },
+      {
+        heading: "How should you use this ranking before buying?",
+        body: "As a first filter, never as a valuation. Three uses. For a given budget, spot the cities where your target size fits, then cross-check with rents: our guide on years of living standard needed to buy 50 m² sets prices against local incomes. To compare buying and renting, set the median price per m² against the rent of a three-room flat on our city page. For a purchase in a small town, check the number of sales: under 50 in two years means a thin market and a possibly slow resale. Limits of this data: two years only (2024-2025), no split between old and new-build, and a city median hides big differences between neighbourhoods. Houses follow different prices and are not covered here.",
+      }
+    ],
+    relatedCities: ["paris", "neuilly-sur-seine", "lyon", "bordeaux", "lille", "toulouse", "brest", "saint-etienne", "montlucon", "arcachon", "biarritz", "nantes"],
+    tags: ["property prices by city", "price per m²", "DVF", "apartment prices France", "property transactions", "buying an apartment in France", "French city ranking", "median price", "French property market"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

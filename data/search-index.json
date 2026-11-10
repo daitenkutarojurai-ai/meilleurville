@@ -11155,6 +11155,16 @@
       "slug": "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026",
       "title": "Salaire net moyen par ville : le classement de 358 villes d'emploi (2026)",
       "emoji": "💼"
+    },
+    {
+      "slug": "prix-appartement-m2-par-ville-552-villes-dvf-2026",
+      "title": "Prix d'un appartement au m² par ville : 552 villes classées (DVF 2024-2025)",
+      "emoji": "🏢"
+    },
+    {
+      "slug": "villes-maison-moins-chere-que-appartement-m2-dvf-2026",
+      "title": "Maison ou appartement : dans quelles villes la maison coûte moins cher au m² ? (DVF)",
+      "emoji": "🏡"
     }
   ],
   "tags": [
@@ -11934,6 +11944,11 @@
       "count": 4
     },
     {
+      "slug": "classement-des-villes",
+      "label": "classement des villes",
+      "count": 4
+    },
+    {
       "slug": "colmar",
       "label": "Colmar",
       "count": 4
@@ -12046,6 +12061,11 @@
     {
       "slug": "pollution",
       "label": "pollution",
+      "count": 4
+    },
+    {
+      "slug": "prix-au-m",
+      "label": "prix au m²",
       "count": 4
     },
     {
@@ -12276,6 +12296,11 @@
     {
       "slug": "drom",
       "label": "DROM",
+      "count": 3
+    },
+    {
+      "slug": "dvf",
+      "label": "DVF",
       "count": 3
     },
     {

@@ -1195,6 +1195,32 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Prix de l'immobilier mesuré",
+    emoji: "🏷️",
+    terms: [
+      {
+        term: "DVF (Demandes de valeurs foncières)",
+        def: "Fichier public de la DGFiP qui recense les ventes immobilières enregistrées chez les notaires : date, prix, type de bien, surface bâtie, adresse. C'est la source des prix « réellement signés » par opposition aux prix d'annonce. Il ne couvre ni l'Alsace-Moselle ni Mayotte, et il ne dit rien de l'état du bien ni de la négociation : il donne le prix de l'acte, pas le prix du marché de demain.",
+      },
+      {
+        term: "Prix médian au m²",
+        def: "Valeur qui sépare la moitié des ventes la moins chère de la moitié la plus chère, rapportée à la surface. Contrairement à la moyenne, elle ne bouge pas parce qu'un seul bien d'exception s'est vendu très cher. Une médiane de ville n'est pas la valeur de votre logement : elle mêle quartiers, âges de construction et surfaces.",
+      },
+      {
+        term: "Livre foncier (Alsace-Moselle)",
+        def: "Régime de publicité foncière propre au Bas-Rhin, au Haut-Rhin et à la Moselle, hérité du droit allemand et tenu par des tribunaux et non par la conservation des hypothèques. Ses ventes ne figurent pas dans DVF : Strasbourg, Metz, Mulhouse ou Colmar n'ont donc pas de prix médian mesuré dans nos classements, ce qui ne veut pas dire que ces villes sont bon marché ou chères.",
+      },
+      {
+        term: "Écart de prix maison / appartement",
+        def: "Différence entre le prix médian au m² des maisons et celui des appartements d'une même commune, exprimée en pourcentage du prix de l'appartement. Elle est positive presque partout (la maison coûte plus cher au m²), mais pas dans certaines villes du Nord ni sur des littoraux touristiques. Le prix d'une maison inclut le terrain alors que seule la surface bâtie est comptée, ce qui rend les deux m² comparables par convention, pas à l'euro près.",
+      },
+      {
+        term: "Effet de petite surface",
+        def: "Un studio coûte plus cher au m² qu'un grand appartement dans la même rue, parce que le prix d'un logement ne baisse pas proportionnellement à sa surface. Une ville riche en petits logements affiche donc un prix au m² élevé sans pour autant être chère à l'achat. Comparer deux villes sur le seul prix au m² suppose de comparer des surfaces voisines.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);

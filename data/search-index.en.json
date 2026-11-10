@@ -10605,6 +10605,11 @@
       "slug": "self-build-kit-house-france-2026",
       "title": "Building your own house in France: self-build, kit houses and what the rules require",
       "emoji": "🔨"
+    },
+    {
+      "slug": "apartment-prices-per-m2-french-cities-552-cities-dvf-2026",
+      "title": "Apartment price per m² by city: 552 French cities ranked (DVF 2024-2025)",
+      "emoji": "🏢"
     }
   ],
   "tags": [
@@ -11276,6 +11281,11 @@
     {
       "slug": "fatca",
       "label": "fatca",
+      "count": 3
+    },
+    {
+      "slug": "french-city-ranking",
+      "label": "French city ranking",
       "count": 3
     },
     {

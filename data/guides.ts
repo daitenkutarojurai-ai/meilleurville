@@ -76271,6 +76271,108 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026", "villes-taux-de-pauvrete-niveau-de-vie-409-villes-2026", "trois-fois-le-loyer-revenu-requis-t2-villes-2026", "acheter-avec-un-seul-salaire-france-2026"],
     tags: ["salaire par ville", "salaire net moyen", "salaires en France", "Insee", "emploi par ville", "pôles d'emploi", "loyer et salaire", "classement des villes", "pouvoir d'achat"],
   },
+  {
+    slug: "prix-appartement-m2-par-ville-552-villes-dvf-2026",
+    title: "Prix d'un appartement au m² par ville : 552 villes classées (DVF 2024-2025)",
+    metaTitle: "Prix au m² d'un appartement par ville : 552 villes (2026)",
+    metaDesc: "Saint-Tropez 11 173 €/m², Montluçon 680 €/m² : prix médian des appartements vendus en 2024-2025 dans 552 villes, par région et taille (DVF).",
+    category: "budget",
+    emoji: "🏢",
+    readMinutes: 9,
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    intro: "Dans les 552 villes de notre base où assez d'appartements ont été vendus en 2024 et 2025, le prix médian au m² dépasse 5 000 € dans 68 villes et reste sous 2 000 € dans 180. Il va de 11 173 € à Saint-Tropez à 680 € à Montluçon (hors La Souterraine, 514 € sur seulement 24 ventes), soit un rapport de 1 à 16. Ces prix ne sont pas des annonces : ce sont les médianes des ventes réellement enregistrées par les notaires et publiées par la DGFiP (fichier DVF). Ce guide classe les villes, sépare Paris, la province, les stations et les villes moyennes, et dit ce que 50 m² coûtent vraiment ici ou là. L'Alsace et la Moselle, régies par le livre foncier, n'y figurent pas.",
+    sections: [
+      {
+        heading: "D'où viennent ces prix, et en quoi diffèrent-ils d'une annonce ?",
+        body: "Ils viennent des actes de vente. La DGFiP publie chaque transaction immobilière sous le nom de Demandes de valeurs foncières (DVF) ; nous retenons les ventes d'appartements de 2024 et 2025, un seul logement par vente, et nous calculons la médiane du prix au m² par commune. Une médiane est la valeur qui sépare la moitié des ventes la moins chère de la moitié la plus chère : un seul hôtel particulier vendu très cher ne la déplace pas. Une annonce affiche un prix demandé, souvent négociable ; l'acte affiche le prix payé. Nous ne publions une ville que si au moins 20 appartements y ont été vendus sur les deux ans. Trois précisions : les prix sont des médianes de ventes, pas la valeur de votre logement ; ils mêlent ancien et neuf ; et notre fiche ville garde par ailleurs un repère éditorial unique, qui peut différer de ce chiffre mesuré sans que l'un soit faux.",
+      },
+      {
+        heading: "Quelles sont les villes les plus chères de France ?",
+        body: "Une station de la Côte d'Azur en tête, puis l'ouest parisien. Saint-Tropez affiche 11 173 € le m² (247 ventes), devant Neuilly-sur-Seine (10 382 €, 1 701 ventes), Paris (9 646 €, 54 257 ventes), Levallois-Perret (8 935 €), Saint-Mandé (8 552 €), Vincennes (8 547 €) et Boulogne-Billancourt (8 243 €). Hossegor (7 704 €), Arcachon (7 644 €) et Cassis (7 573 €) s'intercalent, puis Issy-les-Moulineaux (7 511 €), Charenton-le-Pont (7 400 €), Biarritz (7 150 €), Montrouge (7 107 €) et Puteaux (7 020 €). Quinze villes dépassent 7 000 € : dix sont à Paris ou dans la petite couronne, cinq sont des stations (Saint-Tropez, Hossegor, Arcachon, Cassis, Biarritz). À ce niveau, un 50 m² se paie environ 482 000 € à Paris, davantage à Neuilly ou à Saint-Tropez.",
+      },
+      {
+        heading: "Quelles sont les villes les moins chères ?",
+        body: "Des villes industrielles ou rurales du Centre, de l'Est et du Nord, où un appartement coûte une fraction de son prix parisien. Montluçon est la moins chère des villes à l'échantillon solide, avec 680 € le m² sur 601 ventes, avant Thiers (703 €), Aubusson (729 €), Lure (832 €), Saint-Claude (833 €), Mauriac (853 €), Sedan (864 €), Romilly-sur-Seine (868 €), Tulle (871 €) et Commercy (895 €). Suivent Vierzon (917 €), Montbard (925 €), Montbéliard (934 €), Autun (956 €), Maubeuge (961 €) et Joigny (966 €). La Souterraine (514 €) est tout en bas, mais sur 24 ventes seulement : un chiffre à lire avec prudence, comme les autres villes de moins de 50 ventes (33 des 552). À Montluçon, un 50 m² se paie environ 34 000 €, soit quatorze fois moins qu'à Paris. À ce prix, regardez l'état du bien et la demande locale avant d'y voir une affaire.",
+      },
+      {
+        heading: "Combien coûte un appartement dans les grandes villes ?",
+        body: "Entre 1 200 € et 9 650 € le m² selon la ville, et la hiérarchie n'est pas celle de la taille. Parmi les 39 villes de plus de 100 000 habitants que nous couvrons, Paris (9 646 €) et Boulogne-Billancourt (8 243 €) sont seules au-dessus de 6 000 €. Viennent Montreuil (5 938 €), Saint-Paul de La Réunion (5 304 €), Annecy (5 092 €), Aix-en-Provence (4 819 €), Nice (4 802 €), Lyon (4 475 €), Bordeaux (4 171 €) et Saint-Denis (3 926 €). Le groupe des grandes métropoles de province se tient entre 3 100 € et 3 800 € : Lille (3 705 €), Rennes (3 667 €), Villeurbanne (3 554 €), Nantes (3 413 €), Montpellier (3 354 €), Toulouse (3 222 €), Marseille (3 154 €) et Angers (3 143 €). Plus bas : Caen (2 893 €), Tours (2 827 €), Rouen (2 692 €), Toulon (2 667 €), Dijon (2 625 €), Orléans (2 538 €), Grenoble (2 500 €), Brest (2 134 €), Le Mans (1 933 €), Limoges (1 518 €), Perpignan (1 500 €) et Saint-Étienne (1 197 €). Strasbourg, Metz et Mulhouse ne figurent pas : le livre foncier d'Alsace-Moselle n'est pas dans DVF.",
+      },
+      {
+        heading: "L'Île-de-France est-elle plus chère que la province ?",
+        body: "Oui, de plus de 1 500 € le m² en médiane, mais avec de grands écarts à l'intérieur de la région. Les 163 villes franciliennes de notre classement ont un prix médian de 3 646 € le m², contre 2 115 € pour les 389 villes de province. En Île-de-France, 46 villes sur 163 dépassent 5 000 € ; à l'autre bout, on trouve Clichy-sous-Bois (1 835 €), Sarcelles (1 940 €), Ris-Orangis (2 008 €) et Provins (2 026 €). En province, 46 villes dépassent 4 000 €, parmi lesquelles les stations du paragraphe suivant et les grandes métropoles. Autrement dit : un appartement à Évry-Courcouronnes (2 189 €) ou à Sevran (2 189 €) coûte moins qu'à Caen, à Tours ou à Angers. La région ne se résume pas à Paris, et la province ne se résume pas à Montluçon.",
+      },
+      {
+        heading: "Quelles stations et villes de province sont devenues inabordables ?",
+        body: "Le littoral atlantique et méditerranéen, quelques villes alpines et les capitales de région les plus dynamiques. Hors Île-de-France, les dix prix les plus élevés sont ceux de Saint-Tropez (11 173 €), Hossegor (7 704 €), Arcachon (7 644 €), Cassis (7 573 €), Biarritz (7 150 €), l'île de Ré (6 900 €), La Baule-Escoublac (6 483 €), Sanary-sur-Mer (6 163 €), Carnac (5 917 €) et Saint-Jean-de-Luz (5 874 €). Cannes (5 714 €), Sainte-Maxime (5 692 €), Quiberon (5 657 €) et Dinard (5 639 €) suivent de près. Dans ces communes, le prix reflète en partie la demande de non-résidents plutôt que les revenus locaux ; notre classement des salaires et du niveau de vie par ville permet de mesurer l'écart.",
+      },
+      {
+        heading: "Comment le prix varie-t-il selon les régions ?",
+        body: "La médiane des villes de la région va de 1 275 € en Bourgogne-Franche-Comté à 3 646 € en Île-de-France. Voici les médianes régionales, calculées sur les villes de notre base (région de six villes ou plus) : Île-de-France 3 646 €, Provence-Alpes-Côte d'Azur 3 154 €, Corse 2 874 €, Pays de la Loire 2 637 €, Bretagne 2 574 €, Nouvelle-Aquitaine 2 313 €, La Réunion 2 306 €, Auvergne-Rhône-Alpes 2 234 €, Normandie 2 000 €, Hauts-de-France 1 739 €, Occitanie 1 720 €, Centre-Val de Loire 1 570 €, Grand Est 1 352 € et Bourgogne-Franche-Comté 1 275 €. Deux pièges de lecture. Ce sont des médianes de villes, non pondérées par la population : l'Occitanie paraît bon marché à 1 720 € alors que Toulouse (3 222 €) et Montpellier (3 354 €) en sont les moteurs, parce que de nombreuses petites villes pèsent autant. Et la valeur du Grand Est exclut Strasbourg, Metz, Mulhouse et Colmar, absents de DVF.",
+      },
+      {
+        heading: "Que coûte un 50 m² selon la ville ?",
+        body: "Environ 131 000 € dans la ville médiane de notre classement (2 615 € le m²), moins de 86 000 € dans une ville sur quatre et plus de 183 000 € dans une ville sur quatre. Ordre de grandeur pour 50 m², en multipliant le prix médian au m² : Paris, environ 482 000 € ; Lyon, 224 000 € ; Bordeaux, 209 000 € ; Lille, 185 000 € ; Toulouse, 161 000 € ; Brest, 107 000 € ; Saint-Étienne, 60 000 € ; Montluçon, 34 000 €. Le calcul est volontairement brut : le prix au m² baisse quand la surface augmente, et monte quand elle est petite, car un studio coûte plus cher au m² qu'un cinq-pièces dans la même rue. Comparez les villes à surface égale, pas un studio de l'une à un grand appartement de l'autre.",
+      },
+      {
+        heading: "Comment utiliser ce classement avant d'acheter ?",
+        body: "Comme un premier filtre, jamais comme une estimation. Trois usages. Pour un budget donné, repérez les villes où votre surface cible tient dans l'enveloppe, puis recoupez avec le loyer : notre guide sur les années de niveau de vie nécessaires pour acheter 50 m² met le prix en regard des revenus locaux. Pour comparer achat et location, mettez le prix médian au m² en regard du loyer d'un T3 de notre fiche ville. Pour un achat dans une petite ville, regardez le nombre de ventes : en dessous de 50 en deux ans, le marché est étroit et la revente peut être longue. Limites de ces données : deux années seulement (2024-2025), les ventes à mêmes prix ne distinguent pas ancien et neuf, et le prix médian d'une commune cache de fortes différences entre quartiers. Pour les maisons, qui obéissent à d'autres prix, voir notre guide sur l'écart entre maison et appartement.",
+      }
+    ],
+    relatedCities: ["paris", "neuilly-sur-seine", "lyon", "bordeaux", "lille", "toulouse", "brest", "saint-etienne", "montlucon", "arcachon", "biarritz", "nantes"],
+    relatedGuides: ["annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026", "acheter-moins-200000-euros-france-quelles-villes-2026", "acheter-appartement-moins-100000-euros-villes-2026", "villes-maison-moins-chere-que-appartement-m2-dvf-2026"],
+    tags: ["prix immobilier par ville", "prix au m²", "DVF", "appartement", "valeurs foncières", "acheter un appartement", "classement des villes", "prix médian", "marché immobilier"],
+  },
+  {
+    slug: "villes-maison-moins-chere-que-appartement-m2-dvf-2026",
+    title: "Maison ou appartement : dans quelles villes la maison coûte moins cher au m² ? (DVF)",
+    metaTitle: "Maison moins chère que l'appartement : 69 villes (DVF)",
+    metaDesc: "Dans 69 villes sur 545, la maison coûte moins cher au m² que l'appartement : Lille −24 %, Roubaix −29 %. Ailleurs +18 % en médiane (DVF 2024-2025).",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 8,
+    publishedAt: "2026-11-10",
+    updatedAt: "2026-11-10",
+    intro: "En France, une maison coûte en général plus cher au m² qu'un appartement : +18 % en médiane dans les 545 villes de notre base où les deux prix sont publiés (ventes 2024-2025, DVF). Mais dans 69 de ces villes, c'est l'inverse : la maison est moins chère au m². C'est le cas de Lille (−24 %), de Roubaix (−29 %), de Calais (−23 %), d'Arras (−20 %), d'Albi (−16 %) ou de La Baule-Escoublac (−13 %). À l'opposé, la maison coûte plus de 50 % de plus à Saint-Étienne (+81 %), à Toulon (+69 %) ou à Chenôve (+107 %). Ce guide classe ces écarts, explique ce qu'ils mesurent et ce qu'ils ne disent pas, et donne la région où l'on a le plus de chances de payer sa maison moins cher que l'appartement voisin.",
+    sections: [
+      {
+        heading: "Comment lire l'écart de prix entre maison et appartement ?",
+        body: "L'écart est la différence entre le prix médian au m² des maisons vendues et celui des appartements vendus dans la même commune en 2024 et 2025, rapportée au prix de l'appartement. +18 % signifie qu'une maison coûte 18 % de plus au m² ; −24 % qu'elle coûte 24 % de moins. Les prix viennent des actes de vente publiés par la DGFiP (DVF). Deux réserves de fond. Le prix d'une maison inclut le terrain, alors que la surface comptée est la seule surface bâtie : un jardin gonfle donc le prix au m² d'une maison. Et les appartements de petite taille coûtent plus cher au m² que les grands : une ville de studios étudiants et de T2 affiche un prix au m² élevé sans que son marché soit cher pour autant. Le m² d'une maison et celui d'un appartement ne sont pas la même unité à l'euro près, c'est la convention des notaires.",
+      },
+      {
+        heading: "Combien de villes ont une maison moins chère que l'appartement ?",
+        body: "69 sur 545, soit une sur huit environ. Si l'on ne retient que les villes avec au moins 50 ventes de chaque type sur les deux ans, pour écarter les effets de petit échantillon, il en reste 64 sur 499 : le phénomène ne tient donc pas aux petites villes. L'écart médian de l'ensemble est de +18 %, et 101 villes ont un écart compris entre 0 et +10 % : dans environ une ville sur cinq, maison et appartement se valent à moins de dix points près. À l'autre extrémité, 46 villes affichent une maison plus de 50 % plus chère au m². Le « prix maison » n'est donc jamais un multiple fixe du « prix appartement » : il dépend de la ville, et de sa région plus que de sa taille.",
+      },
+      {
+        heading: "Quelles villes ont la plus grande décote sur la maison ?",
+        body: "Surtout des villes du Nord, mais pas seulement. Parmi les villes avec au moins 50 ventes de chaque type, Fort-de-France (−30 %, 2 628 € le m² l'appartement pour 1 845 € la maison), Roubaix (−29 %, 1 931 € contre 1 364 €), Hazebrouck (−27 %), Saint-Paul de La Réunion (−26 %), Lille (−24 %, 3 705 € contre 2 815 €), Guingamp (−24 %), Calais (−23 %), Arras (−20 %), Cambrai (−20 %) et Berck (−19 %) ouvrent la liste. Lens (−17 %), Valenciennes (−17 %), Ozoir-la-Ferrière (−17 %), Albi (−16 %) et Les Sables-d'Olonne (−15 %, 4 647 € contre 3 960 €) suivent. À Lille, la mesure repose sur 4 735 ventes d'appartements et 1 773 de maisons : ce n'est pas un accident d'échantillon.",
+      },
+      {
+        heading: "Pourquoi la maison peut-elle coûter moins cher que l'appartement ?",
+        body: "Ce que les données montrent, c'est où ; pourquoi, c'est une lecture, pas une mesure. Hypothèse : dans les villes denses du Nord et des littoraux touristiques, le marché de l'appartement est tiré par une demande d'investisseurs, de résidences secondaires et de petites surfaces, qui se paient cher au m² ; la maison y est souvent un bien de quartier ancien, sans terrain important, vendu au prix de la brique plutôt qu'à celui du jardin. À Lille, notre hypothèse est que le prix des appartements reflète le marché étudiant et du centre-ville ; à La Baule ou aux Sables-d'Olonne, celui de la résidence secondaire. Vérifiez la lecture avec nos fiches ville : une commune où le loyer d'un T3 et le prix du m² montent ensemble n'a pas le même marché qu'une station où seul le prix s'envole.",
+      },
+      {
+        heading: "Quelles villes ont la plus forte prime sur la maison ?",
+        body: "Des villes d'Auvergne-Rhône-Alpes, de Bourgogne et de Provence, où l'appartement est bon marché et la maison nettement plus chère. Chenôve (+107 %, 1 210 € contre 2 500 €), Firminy (+105 %, 1 005 € contre 2 059 €), Saint-Chamond (+86 %), Fontaine (+84 %), Saint-Étienne (+81 %, 1 197 € contre 2 164 €), Échirolles (+78 %), Apt (+78 %), Annonay (+77 %) et Saint-Claude (+76 %) forment la tête de ce classement. Sainte-Foy-lès-Lyon (+70 %, 3 256 € contre 5 538 €), Toulon (+69 %, 2 667 € contre 4 518 €) et Mons-en-Barœul (+68 %) suivent. Ce sont des villes où l'appartement se vend peu cher et où la maison, plus rare ou mieux située, se paie nettement plus : la mesure s'arrête là, et seule une visite dit si l'écart vaut la différence.",
+      },
+      {
+        heading: "Quelles régions ont les maisons les moins chères par rapport aux appartements ?",
+        body: "Les Hauts-de-France, loin devant : sur 32 villes comparables avec au moins 50 ventes de chaque type, 19 ont une maison moins chère que l'appartement, et l'écart médian est de −4 %. À l'inverse, Auvergne-Rhône-Alpes (+32 %, une seule ville inversée sur 57), Provence-Alpes-Côte d'Azur (+32 %, aucune sur 46), Bourgogne-Franche-Comté (+25 %), Grand Est (+24 %) et Île-de-France (+23 %, 9 villes inversées sur 151) montrent une prime nette sur la maison. L'Ouest est entre les deux : Bretagne +3 % (7 villes inversées sur 18) et Pays de la Loire +4 % (7 sur 24), puis Nouvelle-Aquitaine +10 %, Normandie +11 % et Centre-Val de Loire +11 %. Pour qui hésite entre les deux, ces régions disent d'abord où le choix maison ou appartement ne se paie presque pas.",
+      },
+      {
+        heading: "Et dans les grandes villes ?",
+        body: "Parmi les villes de plus de 150 000 habitants, la maison est plus chère au m² presque partout, sauf à Lille. Paris +28 % (9 646 € l'appartement, 12 300 € la maison), Marseille +48 %, Grenoble +37 %, Nice +34 %, Lyon +25 %, Rennes +24 %, Dijon +24 %, Nantes +21 %, Bordeaux +17 %, Montpellier +16 % et Toulouse +15 % : le m² d'une maison de ville dépasse partout celui d'un appartement. Reims est à 0 %, Angers à +3 % et Le Havre à +6 % : maison et appartement s'y négocient presque au même prix. Lille est la seule de ces villes à −24 %, et ce n'est pas un accident statistique, avec près de 6 500 ventes sur la période.",
+      },
+      {
+        heading: "Faut-il acheter une maison parce qu'elle est moins chère au m² ?",
+        body: "Non, pas sur ce seul critère. Un prix au m² plus bas ne dit rien du budget total : une maison de 110 m² à 2 815 € le m² (Lille) coûte environ 310 000 €, alors qu'un appartement de 50 m² à 3 705 € coûte environ 185 000 € : le premier est moins cher au m², pas dans le budget. Comparez à besoin égal. Ajoutez à la maison le terrain à entretenir, la toiture, l'isolation et le DPE, qui pèsent sur le coût d'usage. Et ne confondez pas décote et affaire : un prix inférieur au m² peut signaler un marché peu demandé, ce qui pèse à la revente. Pour trouver le prix des appartements, voir notre classement du prix au m² dans 552 villes ; pour choisir entre les deux formats, notre guide sur la maison ou l'appartement.",
+      }
+    ],
+    relatedCities: ["lille", "roubaix", "calais", "arras", "albi", "la-baule", "les-sables-d-olonne", "saint-etienne", "toulon", "marseille", "paris", "reims"],
+    relatedGuides: ["prix-appartement-m2-par-ville-552-villes-dvf-2026", "acheter-moins-200000-euros-france-quelles-villes-2026", "annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026"],
+    tags: ["maison ou appartement", "prix au m²", "DVF", "prix immobilier par ville", "écart de prix", "acheter une maison", "classement des villes", "valeurs foncières", "marché immobilier"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
