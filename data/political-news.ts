@@ -46,9 +46,20 @@ export const POLITICAL_NEWS_KIND_LABEL: Record<PoliticalNewsKind, string> = {
   parlement: "Parlement",
 };
 
-export const POLITICAL_NEWS_AS_OF = "2026-11-06";
+export const POLITICAL_NEWS_AS_OF = "2026-11-10";
 
 export const POLITICAL_NEWS: PoliticalNews[] = [
+  {
+    id: "budget-2027-rejet-premiere-partie-2026-11-04",
+    date: "2026-11-04",
+    kind: "budget",
+    title: "Budget 2027 : l'Assemblée rejette la première partie du projet de loi de finances",
+    summary:
+      "Le 4 novembre au soir, les députés ont rejeté la partie recettes du projet de loi de finances 2027 par 458 voix contre, aucune pour et deux abstentions. La seconde partie n'est donc pas examinée à l'Assemblée et le texte initial du gouvernement part au Sénat, qui doit l'examiner à partir du 20 novembre.",
+    source: "LCP – Assemblée nationale / Maire-info",
+    sourceUrl:
+      "https://lcp.fr/actualites/budget-2027-l-assemblee-rejette-a-l-unanimite-la-partie-recettes-le-projet-de-loi-de",
+  },
   {
     id: "ifop-lci-fin-octobre-2026-10-29",
     date: "2026-10-29",
