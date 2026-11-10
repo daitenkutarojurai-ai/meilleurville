@@ -140,7 +140,11 @@ export default async function MentalitePage({ params }: Props) {
               </Link>{" "}
               repart d&apos;une mesure et non d&apos;une règle : la part des ménages d&apos;une
               seule personne au recensement. Il ne couvre pas tous les départements, et
-              il le dit avant de citer le moindre rang.
+              il le dit avant de citer le moindre rang. Le revers existe aussi : les{" "}
+              <Link href="/red-flags/villes-isolement-social" className="text-[var(--accent)] hover:underline">
+                villes où l&apos;on se sent le plus seul
+              </Link>{" "}
+              en font le portrait, anonymat des grandes métropoles compris.
             </p>
 
             <p className="mt-8 text-xs text-[var(--text-tertiary)] leading-relaxed">

@@ -331,6 +331,13 @@ export default function RedFlagsPage() {
               silencieuse des 25-35 ans et fiscalité immobilière la plus lourde (DGFiP / OFL).
             </p>
             <p className="mt-3 text-sm text-[var(--text-secondary)]">
+              Une métropole animée peut aussi laisser seul : voyez les{" "}
+              <Link href="/red-flags/villes-isolement-social" className="text-[var(--accent)] hover:underline">
+                villes où l&apos;isolement social pèse le plus
+              </Link>
+              , là où la densité ne crée aucune relation à elle seule.
+            </p>
+            <p className="mt-3 text-sm text-[var(--text-secondary)]">
               Un hiver se juge aussi à la lumière : le classement des{" "}
               <Link href="/red-flags/villes-deficit-soleil-hiver" className="text-[var(--accent)] hover:underline">
                 villes en déficit de soleil l&apos;hiver

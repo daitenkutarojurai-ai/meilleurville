@@ -394,6 +394,11 @@ export default async function DemographiePage({ params }: Props) {
               → Où la part des ménages d&apos;une seule personne reste la plus basse
             </Link>
           </div>
+          <div>
+            <Link href="/red-flags/villes-isolement-social" className="text-[var(--accent)] hover:underline">
+              → Les villes où le lien social est le plus fragile
+            </Link>
+          </div>
         </div>
       </section>
 
