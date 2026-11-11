@@ -8,6 +8,7 @@ import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
+import { redFlagThemeAlternatesEn } from "@/lib/red-flag-theme-twins";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -470,7 +471,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: theme.metaTitle,
     description: clampMeta(theme.metaDescription),
-    alternates: { canonical: `${EN_BASE}/red-flags/themes/${slug}` },
+    alternates:
+      redFlagThemeAlternatesEn(theme.frSlug, slug) ?? { canonical: `${EN_BASE}/red-flags/themes/${slug}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.

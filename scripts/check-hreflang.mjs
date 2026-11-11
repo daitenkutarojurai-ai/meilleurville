@@ -219,6 +219,48 @@ function sameRoute(a, b) {
 
 console.log(`autres familles   — ${pairs} paires déclarées à la main, chemins rapprochés des deux arbres de routes`);
 
+// --- Thèmes Red Flags : page FR statique face à route EN dynamique --------------
+//
+// C'est le cas que la règle stricte de `served` refuse de deviner (voir plus
+// haut) : `/red-flags/villes-bruit-cauchemar` face à `/red-flags/themes/[slug]`.
+// Les paires ne passent donc pas par un appel littéral dans une page mais par la
+// table `lib/red-flag-theme-twins.ts`, et c'est ici qu'on prouve que chaque slug
+// annoncé existe : la page FR sur le disque, le slug EN dans le
+// `generateStaticParams` d'en face (les `enSlug` de EN_THEMES), avec le même
+// `frSlug` des deux côtés. Un thème EN absent de la table reste sans hreflang,
+// ce qui est signalé, pas bloquant.
+{
+  const twinsSrc = fs.readFileSync(path.join(ROOT, "lib", "red-flag-theme-twins.ts"), "utf8");
+  const table = [...twinsSrc.matchAll(/^\s*"([a-z0-9-]+)": "([a-z0-9-]+)",\s*$/gm)].map((m) => [m[1], m[2]]);
+  const enPagePath = path.join(APP, "[locale]", "red-flags", "themes", "[slug]", "page.tsx");
+  const enSrc = fs.readFileSync(enPagePath, "utf8");
+  const enThemes = new Map(
+    [...enSrc.matchAll(/enSlug: "([^"]+)",\s*frSlug: "([^"]+)"/g)].map((m) => [m[1], m[2]]),
+  );
+  if (!/redFlagThemeAlternatesEn\(/.test(enSrc))
+    errors.push("app/[locale]/red-flags/themes/[slug]/page.tsx n'appelle plus redFlagThemeAlternatesEn");
+  const seenEn = new Set();
+  for (const [frSlug, enSlug] of table) {
+    const frPage = path.join(APP, "red-flags", frSlug, "page.tsx");
+    if (!fs.existsSync(frPage)) {
+      errors.push(`red-flag-theme-twins : pas de page FR app/red-flags/${frSlug}/page.tsx`);
+    } else if (!/redFlagThemeAlternates\(/.test(fs.readFileSync(frPage, "utf8"))) {
+      errors.push(`app/red-flags/${frSlug}/page.tsx n'appelle pas redFlagThemeAlternates : son hreflang ne sortirait pas`);
+    }
+    if (enThemes.get(enSlug) !== frSlug)
+      errors.push(`red-flag-theme-twins : ${frSlug} → ${enSlug}, mais EN_THEMES ${enThemes.has(enSlug) ? `rattache ${enSlug} à ${enThemes.get(enSlug)}` : `n'a pas de thème ${enSlug}`}`);
+    if (seenEn.has(enSlug)) errors.push(`red-flag-theme-twins : ${enSlug} annoncé par deux thèmes FR`);
+    seenEn.add(enSlug);
+  }
+  const orphans = [...enThemes.keys()].filter((s) => !seenEn.has(s));
+  console.log(
+    `thèmes Red Flags  — ${table.length} paires FR ↔ EN, chaque slug vérifié des deux côtés` +
+      (orphans.length ? ` · ${orphans.length} thème(s) EN hors table : ${orphans.join(", ")}` : ""),
+  );
+}
+
+
+
 if (errors.length) {
   console.error(`\n${errors.length} problème(s) :\n- ${errors.join("\n- ")}`);
   process.exit(1);

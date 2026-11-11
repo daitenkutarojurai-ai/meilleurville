@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { RedFlagThemePage } from "@/components/RedFlagThemePage";
 import { getRedFlagTheme } from "@/lib/red-flag-themes";
 import { clampMeta } from "@/lib/brand";
+import { redFlagThemeAlternates } from "@/lib/red-flag-theme-twins";
 
 const theme = getRedFlagTheme("villes-isolement-social");
 
@@ -10,7 +11,7 @@ export const metadata: Metadata = theme
   ? {
       title: theme.metaTitle,
       description: clampMeta(theme.metaDescription),
-      alternates: { canonical: `/red-flags/${theme.slug}` },
+      alternates: redFlagThemeAlternates(theme.slug),
       openGraph: { title: theme.metaTitle, description: theme.metaDescription, images: ["/opengraph-image"] },
     }
   : {};
