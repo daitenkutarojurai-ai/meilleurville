@@ -36,12 +36,15 @@ export function DromStrip({ locale = "fr", cities }: { locale?: "fr" | "en"; cit
   return (
     <div className="relative mt-5">
       <div className="flex items-baseline justify-between mb-2 px-1">
-        <span className="text-[11px] uppercase tracking-widest text-[var(--text-tertiary)] font-semibold">
+        {/* Le bandeau vit sur le fond vert sombre des deux cartes : libellé et lien
+            en clair, cartes en blanc opaque (elles étaient à 60 % d'opacité, texte
+            sombre sur gris sombre). */}
+        <span className="text-[11px] uppercase tracking-widest text-white/75 font-semibold">
           {L("Outre-mer", "Overseas")}
         </span>
         <Link
           href="/regions"
-          className="text-[11px] text-[var(--accent)] hover:underline font-medium"
+          className="text-[11px] text-[#C7D2FE] hover:text-white hover:underline font-medium"
         >
           {L("Toutes les régions →", "All regions →")}
         </Link>
@@ -50,7 +53,7 @@ export function DromStrip({ locale = "fr", cities }: { locale?: "fr" | "en"; cit
         {byRegion.map((r) => (
           <div
             key={r.regionSlug}
-            className="group rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)]/60 hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all p-3"
+            className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all p-3"
           >
             <Link
               href={`/regions/${r.regionSlug}`}

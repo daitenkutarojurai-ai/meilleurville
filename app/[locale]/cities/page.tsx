@@ -60,6 +60,22 @@ export default function EnCitiesIndex() {
 
       <section className="mx-auto max-w-7xl px-4 sm:px-6 py-6">
         <VillesSearch cities={CITIES_LIGHT} leanMeta={LEAN_META} locale="en" />
+        {/* The grid renders its first 60 cards only (the rest on click). This index
+            keeps a plain HTML link to every city, readable without JavaScript. */}
+        <details className="mt-10 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">
+            A → Z index of all {count} cities
+          </summary>
+          <ul className="mt-4 columns-2 gap-x-6 text-sm sm:columns-3 lg:columns-4 [&_a]:inline-block [&_a]:py-1.5 [&_a]:text-[var(--text-secondary)] [&_a:hover]:text-[var(--accent)]">
+            {[...CITIES_LIGHT]
+              .sort((a, b) => a.name.localeCompare(b.name, "fr"))
+              .map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/cities/${c.slug}`}>{c.name}</Link>
+                </li>
+              ))}
+          </ul>
+        </details>
       </section>
 
       <Footer />

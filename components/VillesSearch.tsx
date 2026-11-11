@@ -88,7 +88,7 @@ function normalize(s: string): string {
 // How many city cards are prerendered into the SSG HTML before "show all".
 // The cap also applies to filtered results: a one-letter query matches ~540
 // cities, and rendering them all froze low-end phones.
-const INITIAL_VISIBLE = 120;
+const INITIAL_VISIBLE = 60;
 
 const POSTAL: Record<string, string[]> = POSTAL_BY_SLUG;
 

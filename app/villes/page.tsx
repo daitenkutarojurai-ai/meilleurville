@@ -70,6 +70,23 @@ export default function VillesPage() {
 
       <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16">
         <VillesSearch cities={CITIES_LIGHT} leanMeta={LEAN_META} />
+        {/* La grille ne rend que ses 60 premières cartes (le reste au clic). Cet
+            index donne un lien HTML vers chaque ville, lisible sans JavaScript :
+            deux balises par ville, styles portés par la liste. */}
+        <details className="mt-10 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">
+            Index A → Z des {CITIES_LIGHT.length} villes
+          </summary>
+          <ul className="mt-4 columns-2 gap-x-6 text-sm sm:columns-3 lg:columns-4 [&_a]:inline-block [&_a]:py-1.5 [&_a]:text-[var(--text-secondary)] [&_a:hover]:text-[var(--accent)]">
+            {[...CITIES_LIGHT]
+              .sort((a, b) => a.name.localeCompare(b.name, "fr"))
+              .map((c) => (
+                <li key={c.slug}>
+                  <Link href={`/villes/${c.slug}`}>{c.name}</Link>
+                </li>
+              ))}
+          </ul>
+        </details>
       </div>
 
       <Footer />
