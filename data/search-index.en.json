@@ -10610,6 +10610,16 @@
       "slug": "apartment-prices-per-m2-french-cities-552-cities-dvf-2026",
       "title": "Apartment price per m² by city: 552 French cities ranked (DVF 2024-2025)",
       "emoji": "🏢"
+    },
+    {
+      "slug": "intergenerational-flatshare-france-student-senior-housing-2026",
+      "title": "Intergenerational flatshare in France: living with a senior for cheap rent",
+      "emoji": "🏠"
+    },
+    {
+      "slug": "buying-a-shop-or-cafe-with-living-space-france-2026",
+      "title": "Buying a French shop, bakery or café with a flat above: what to check",
+      "emoji": "🥖"
     }
   ],
   "tags": [
@@ -10704,13 +10714,13 @@
       "count": 62
     },
     {
-      "slug": "international-students",
-      "label": "international students",
-      "count": 60
-    },
-    {
       "slug": "student-housing-france",
       "label": "student housing france",
+      "count": 61
+    },
+    {
+      "slug": "international-students",
+      "label": "international students",
       "count": 60
     },
     {
@@ -10844,14 +10854,14 @@
       "count": 13
     },
     {
-      "slug": "strasbourg",
-      "label": "strasbourg",
+      "slug": "rural-france",
+      "label": "rural france",
       "count": 13
     },
     {
-      "slug": "rural-france",
-      "label": "rural france",
-      "count": 12
+      "slug": "strasbourg",
+      "label": "strasbourg",
+      "count": 13
     },
     {
       "slug": "train-holidays-with-children",

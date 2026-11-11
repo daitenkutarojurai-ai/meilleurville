@@ -62250,6 +62250,90 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["paris", "neuilly-sur-seine", "lyon", "bordeaux", "lille", "toulouse", "brest", "saint-etienne", "montlucon", "arcachon", "biarritz", "nantes"],
     tags: ["property prices by city", "price per m²", "DVF", "apartment prices France", "property transactions", "buying an apartment in France", "French city ranking", "median price", "French property market"],
   },
+  {
+    slug: "intergenerational-flatshare-france-student-senior-housing-2026",
+    title: "Intergenerational flatshare in France: living with a senior for cheap rent",
+    metaTitle: "Intergenerational Flatshare in France: How It Works",
+    metaDesc:
+      "Cheap housing for students and young workers in France: how living with a senior works, the two formulas, who arranges it, risks and how to apply.",
+    category: "budget",
+    emoji: "🏠",
+    readMinutes: 7,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Colocation intergénérationnelle is a housing arrangement in which an older homeowner with a spare room hosts a student or young worker at a low rent, or for free, in exchange for company and light help. It has existed in France for decades and is run mostly by non-profits. It suits people who would otherwise pay a full studio rent in a tight market, but it is a shared home, not a discount flat. Programmes, fees and city coverage change; check each association's current offer before you plan around it.",
+    sections: [
+      {
+        heading: "The two formulas",
+        body: "Under the first, a reduced-rent formula, the young person pays a rent well below the local market, plus a share of utilities, and commits to being at home on most nights and to a few hours of help a week. Under the second, a near-free formula, the young person pays little or nothing but is expected to be there on set nights and to give more day-to-day support. In both cases the help is practical (shopping, taking out bins, company in the evening). It is explicitly not nursing or medical care, and a good association will say so in the contract. The exact rents and expected hours vary by association and city, so ask for the written terms rather than relying on forum figures."
+      },
+      {
+        heading: "Who runs it",
+        body: "Almost every arrangement goes through an intermediary: a national or local non-profit that interviews both sides, matches them, drafts the agreement and follows up afterwards. Search for 'cohabitation intergénérationnelle solidaire' plus the city name, and ask the student housing office (CROUS, or the university's housing service) and the town hall's social action office (CCAS), which often know the local scheme. Some arrangements are made privately, but without an intermediary there is no mediator if it goes wrong, so be cautious. Whatever the route, you should never pay a fee to an unregistered individual before meeting the host."
+      },
+      {
+        heading: "What each side gets",
+        body: "For the host, the gain is company, a presence in the house at night and modest practical help, sometimes with a small income. For the young person, the gain is housing in a city where the market rate would otherwise swallow a student budget, and often a calmer setting than a shared student flat. The price is less freedom: you keep the host's rhythm, have limited scope for guests and cannot treat it as a private studio. It suits people with regular routines and a real interest in the relationship. It suits badly people who work nights, party often or travel most weekends."
+      },
+      {
+        heading: "Where it works best",
+        body: "Associations are concentrated in larger university cities, with Paris and its region, Lyon, Bordeaux, Nantes, Rennes, Toulouse, Grenoble, Montpellier, Lille and Strasbourg usually cited as the most active. In small towns a scheme may exist but with few hosts, so waiting lists can be long. If you are arriving from abroad for the autumn term, begin contacting associations several months ahead, as matches are made through interviews and meetings rather than online booking."
+      },
+      {
+        heading: "Contract, housing benefit and the paperwork",
+        body: "Insist on a written agreement that sets out the rent or contribution, the nights you must be present, the services expected, notice periods and rules on guests. A trial period of a few months is sensible before you commit to the full academic year. Ask the association whether housing benefit from the CAF (the family allowances office, which pays APL housing aid) can apply to your arrangement, and whether the host's home insurance covers you; do not assume either. Non-EU students should also check that the address and contract satisfy what their residence permit application needs. Keep a copy of everything."
+      },
+      {
+        heading: "Where it goes wrong, and how to avoid it",
+        body: "Problems are rarely about money. They come from mismatched rhythms (late nights against early mornings), requests that grow beyond what was agreed, or a young person who is rarely there. Prevent them with a written list of expected tasks and nights, a frank first interview, a trial period and an association that checks in monthly. If it fails, the notice terms in the agreement and the association's mediation matter more than anything you improvise. People who do well are those who wanted company on both sides, not only cheap rent."
+      }
+    ],
+    relatedCities: ["paris", "lyon", "bordeaux", "nantes", "rennes", "toulouse"],
+    tags: ["intergenerational housing", "student housing France", "cheap rent France", "flatshare", "senior host", "colocation", "student budget", "CROUS"],
+  },
+  {
+    slug: "buying-a-shop-or-cafe-with-living-space-france-2026",
+    title: "Buying a French shop, bakery or café with a flat above: what to check",
+    metaTitle: "Buy a Business With a Home in France: Bakery, Café, B&B",
+    metaDesc:
+      "Taking over a French bakery, café, village shop or guesthouse with living space: costs to expect, financing, licence and training rules, and the traps.",
+    category: "budget",
+    emoji: "🥖",
+    readMinutes: 9,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Many foreign buyers dream of a village bakery, café or guesthouse with a home attached. In France such deals are common in small towns where the last business is for sale, and the building is often cheaper than a similar house in a city. But you are buying a job, not an investment: long hours, regulated trades and thin margins. This guide covers how the purchase is structured and what to verify. Prices, loan terms and subsidies vary by area and year, so treat any figure as a prompt to ask, not a quote.",
+    sections: [
+      {
+        heading: "What you actually buy",
+        body: "Two things are usually sold together: the fonds de commerce (the goodwill: the customer base, the name, equipment, the lease rights and sometimes stock) and the building, or a commercial lease on it. Many owners hold the property through a family property company (a SCI) and the business through a separate operating company, so the two can be sold separately. Both need a notary or a specialised lawyer. Ask who owns what before you talk price, and whether you are buying the walls or only the right to lease them. A lease for business premises carries its own rules on rent increases and renewal, which a lawyer should read."
+      },
+      {
+        heading: "Bakery, café, shop or guesthouse: how they differ",
+        body: "A bakery is the classic village purchase, with steady daily demand and a local monopoly if it is the last one, but it means very early starts, heavy equipment and, in practice, a baker's qualification or a hired baker. A café or restaurant needs a licence to sell alcohol, which depends on the type of drinks and is regulated, and its income is more seasonal and more dependent on the owner's presence. A multi-service village shop combines groceries, bread depot, parcel point, press and sometimes a café, with modest margins and a lower entry price. A guesthouse or gîte earns most in the summer season, has its own tax and registration rules, and is a lifestyle business rather than a salary. Ask each seller for real figures, not averages."
+      },
+      {
+        heading: "Qualifications and who may trade",
+        body: "France regulates some trades. Baking and pastry-making generally require a recognised qualification or the employment of a qualified person, and serving alcohol or running a restaurant brings licensing and mandatory food-hygiene training. Non-EU buyers must also hold a residence permit that allows self-employment before they can register the business. Check the requirements with the local chamber of commerce (CCI) or chamber of trades (chambre des métiers) before you sign, not after."
+      },
+      {
+        heading: "Financing",
+        body: "Banks usually lend on both the business and the property, expecting a meaningful personal contribution, and they will want a business plan with several years of accounts from the seller. The loan on the business generally runs shorter than a mortgage and at a higher rate. Regional and departmental schemes, the national investment bank (Bpifrance), and village revitalisation programmes sometimes add grants or cheap loans, particularly in areas losing their last shop. Eligibility is local and changes, so ask the town hall, the CCI and a broker. Do not assume you can get a standard mortgage as a non-resident; many banks treat a business purchase more strictly."
+      },
+      {
+        heading: "The traps",
+        body: "The first is a flattering seller. Ask for several years of accounts and VAT returns and have an independent accountant review them. The second is the owner's own labour: if the figures only work because the previous owner and spouse worked unpaid, they will not work for you. The third is old premises that need accessibility, hygiene or energy works. The fourth is a customer base that came for the person, not the shop. The fifth is the strain on a couple who both work in the business, with no winter income if it is seasonal. Many failures come from underestimating working capital for the first year."
+      },
+      {
+        heading: "Where to look, and who should do it",
+        body: "Inland rural areas of central and southern France, Brittany's interior and parts of the north-east offer the lowest entry prices and the most last-business sales, but also the weakest local demand. Medium-sized towns offer steadier trade for more money. The people who do well tend to be committed, have a real cash cushion, accept years of long hours and are happy in a small community that notices everything. If you want the rural life without the shop, see our guide to buying a country house, and for tax and visa side questions speak to an accountant who knows foreign buyers."
+      }
+    ],
+    relatedCities: ["aurillac", "rodez", "le-puy-en-velay", "tulle", "auxerre", "cahors"],
+    tags: ["buying a business France", "bakery", "café", "village shop", "gîte", "rural France", "fonds de commerce", "career change"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
