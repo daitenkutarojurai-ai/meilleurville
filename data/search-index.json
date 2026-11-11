@@ -11185,6 +11185,16 @@
       "slug": "villes-maison-moins-chere-que-appartement-m2-dvf-2026",
       "title": "Maison ou appartement : dans quelles villes la maison coûte moins cher au m² ? (DVF)",
       "emoji": "🏡"
+    },
+    {
+      "slug": "villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026",
+      "title": "Où vivent les 30-44 ans ? La part des trentenaires et quadragénaires dans 413 villes",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "villes-emplois-pour-100-actifs-villes-dortoirs-413-villes-2026",
+      "title": "Villes-dortoirs ou pôles d'emploi : combien d'emplois pour 100 actifs dans 413 villes ?",
+      "emoji": "🏢"
     }
   ],
   "tags": [
@@ -12004,6 +12014,11 @@
       "count": 4
     },
     {
+      "slug": "demographie-par-ville",
+      "label": "démographie par ville",
+      "count": 4
+    },
+    {
       "slug": "espaces-verts",
       "label": "espaces verts",
       "count": 4
@@ -12304,11 +12319,6 @@
       "count": 3
     },
     {
-      "slug": "demographie-par-ville",
-      "label": "démographie par ville",
-      "count": 3
-    },
-    {
       "slug": "desert-medical",
       "label": "désert médical",
       "count": 3
@@ -12411,6 +12421,11 @@
     {
       "slug": "investissement-immobilier",
       "label": "investissement immobilier",
+      "count": 3
+    },
+    {
+      "slug": "jeunes-actifs",
+      "label": "jeunes actifs",
       "count": 3
     },
     {
@@ -12606,6 +12621,11 @@
     {
       "slug": "que-faire-en-vendee",
       "label": "que faire en Vendée",
+      "count": 3
+    },
+    {
+      "slug": "recensement-2022",
+      "label": "recensement 2022",
       "count": 3
     },
     {

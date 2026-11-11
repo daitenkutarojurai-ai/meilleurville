@@ -62334,6 +62334,58 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["aurillac", "rodez", "le-puy-en-velay", "tulle", "auxerre", "cahors"],
     tags: ["buying a business France", "bakery", "café", "village shop", "gîte", "rural France", "fonds de commerce", "career change"],
   },
+  {
+    slug: "french-commuter-towns-vs-job-hubs-jobs-per-100-workers-413-cities-2026",
+    title: "Commuter towns or job hubs: how many jobs per 100 working residents in 413 French cities?",
+    metaTitle: "French commuter towns vs job hubs: jobs per 100 workers",
+    metaDesc: "Puteaux 361 jobs per 100 working residents, Aurillac 194, Gagny 27: 413 French cities of 20,000+ ranked by local jobs vs resident workers (INSEE 2023).",
+    category: "lifestyle",
+    emoji: "🏢",
+    readMinutes: 8,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "In the median city among the 413 French municipalities of 20,000 people or more, there are 104 local jobs for every 100 working-age residents (15 to 64) in the labour force. Puteaux tops the list at 361, ahead of Vélizy-Villacoublay (320), Blagnac (267) and Courbevoie (247); Gagny is at the bottom with 27, next to Morsang-sur-Orge and Vigneux-sur-Seine (29). Eighty-six cities sit below 60 jobs per 100 workers, and 67 of them are in the Paris region: those are the commuter towns. This guide ranks cities on that ratio, from INSEE's 2023 census, and says what it tells a job-seeker or a home-hunter.",
+    sections: [
+      {
+        heading: "How do you tell a commuter town from a job hub?",
+        body: "By dividing the jobs located in the municipality (place of work, 2023 census) by the labour-force residents aged 15 to 64. A ratio of 100 means as many jobs as working residents; well above it, the city pulls in workers from elsewhere; well below, its residents go to work somewhere else. It is not a commuting rate: a city at 150 can employ people from neighbouring towns while still sending many of its own residents away. The ratio describes the function of the municipality, hub or bedroom, and nothing more. We computed it for the 413 municipalities of 20,000 inhabitants or more."
+      },
+      {
+        heading: "Which cities have the most jobs per 100 workers?",
+        body: "Puteaux (361), Vélizy-Villacoublay (320), Blagnac (267), Courbevoie (247), Guyancourt (244), Carquefou (210), Orly (200), Saintes (198), Neuilly-sur-Seine (196), Nanterre and Aurillac (194), Vannes and Saint-Herblain (193), Rodez (192), Sarreguemines (190), La Roche-sur-Yon (187), Rochefort and Baie-Mahault (186), Issy-les-Moulineaux (185) and Bourg-en-Bresse (184). Two families mix here: the business districts and industrial zones of Hauts-de-Seine and Yvelines (Puteaux has 91,510 jobs for 25,321 working residents), and mid-sized prefectures and sub-prefectures that act as the capital of their catchment area (Aurillac, 22,061 jobs for 11,387 workers; Rodez, 21,865 for 11,382). Seventy-nine cities are at 150 or more, and 167 at 120 or more."
+      },
+      {
+        heading: "Which cities are the most 'bedroom' towns?",
+        body: "Gagny (27), Morsang-sur-Orge and Vigneux-sur-Seine (29), Houilles (30), Saint-Cyr-l'École and Le Perreux-sur-Marne (32), Savigny-sur-Orge and Chaville (33), Yerres (34), Franconville and L'Haÿ-les-Roses (36), Villemomble (37), Saint-Gratien (38), Sannois (39), Sevran, Achères and Le Blanc-Mesnil (40), Épinay-sur-Seine, Villiers-le-Bel and Livry-Gargan (41). Gagny has 5,666 jobs for 20,823 working residents. Forty-nine cities are below 50, 86 below 60 and 131 below 80. Sixty-seven of the 86 below 60 are in the Paris region: the map of the commuter town is the map of Île-de-France."
+      },
+      {
+        heading: "Are big cities job hubs?",
+        body: "Almost all of them: the median for the 42 cities of 100,000 and over is 129 jobs per 100 workers, against 94 for cities under 30,000 and 104 for those between 30,000 and 100,000. The most job-rich: Clermont-Ferrand (158), Paris (157), Rouen and Perpignan (154), Caen (153), Lille (152), Aix-en-Provence, Bordeaux and Limoges (148), Boulogne-Billancourt and Saint-Denis (145). Lyon is at 124, Nantes at 125, Toulouse at 131, Strasbourg at 128, Nice at 100 and Marseille at 97. A few large municipalities look like commuter towns: Villeurbanne (82), Saint-Paul on Réunion (70) and above all Argenteuil (59, with 30,102 jobs for 51,109 working residents)."
+      },
+      {
+        heading: "Which regions are the most 'bedroom' regions?",
+        body: "Île-de-France has the lowest median (64 jobs per 100 workers across 153 cities), tied with La Réunion (64, ten cities). Sixty-seven of the 86 cities below 60 are in the Paris region, which is 44% of the region's cities in the sample. Next come French Guiana (88), Provence-Alpes-Côte d'Azur (98) and Auvergne-Rhône-Alpes (111). At the other end, Bourgogne-Franche-Comté (154, eleven cities), Guadeloupe (150, two cities) and Nouvelle-Aquitaine (148, 30 cities) have towns that concentrate the jobs of their whole area, followed by Brittany (139), Occitanie (136), Normandy (134) and Martinique (133). Outside Paris, a city of 20,000 or more is nearly always a hub; inside it, only about one in twelve is (13 cities at 150 or more out of 153)."
+      },
+      {
+        heading: "Does a job hub protect against unemployment?",
+        body: "No, and that is the misreading to avoid: a city's jobs are not necessarily its residents' jobs. Alès (147 jobs per 100 workers) has 23.0% unemployment on the census definition, Lens (159) 23.0%, Maubeuge (139) 26.7%, Cayenne (113) 29.0%; Mulhouse (123) is at 22.8% and Perpignan (154) at 22.5%. Conversely, commuter towns have lower unemployment: 11.2% in the median of the 86 cities below 60, against 13.1% across all 413 and 14.6% in the 167 cities at 120 or more (14.9% in the 79 at 150 or more). The Paris-region bedroom town is rich in commuters; the provincial hub is rich in public services, hospitals and shops, not always in jobs held by its own residents."
+      },
+      {
+        heading: "Are commuter towns more expensive to live in?",
+        body: "Yes, and by a wide margin, because the region matters more than the ratio. In the 86 cities below 60, the benchmark 3-room flat in our rent estimate is €1,250 a month in the median and buying is €3,950 per m²; in the 167 cities at 120 or more, €900 and €2,400; in the 79 at 150 or more, €840 and €2,200. Across all 413 cities the figures are €1,080 and €3,200. Aurillac has a 3-room flat at €560, Rodez €680, Saintes €700, Vannes €1,150, Puteaux €1,850, Gagny €1,220 and Argenteuil €1,200. A provincial job hub offers work and a low rent; a Paris-region commuter town offers a rent below the neighbouring hub's, but a daily trip to pay for."
+      },
+      {
+        heading: "Which cities are creating the most jobs?",
+        body: "Between 2017 and 2023 the number of jobs located in a city grew 6.8% in the median, in line with the national figure (6.6%). The most dynamic: Saint-Laurent-du-Maroni (+59.6%), Tremblay-en-France (+52.2%), Roissy-en-Brie (+50.3%), Issy-les-Moulineaux (+36.4%), Brétigny-sur-Orge (+32.1%), Champs-sur-Marne (+30.4%) and Couëron (+29.6%). Fifteen cities grew by 20% or more and 43 lost jobs: Bagnolet (−9.2%), Trappes (−7.3%), La Garenne-Colombes (−6.6%), Suresnes (−6.5%), Saint-Cloud (−6.1%) and Béthune (−5.8%). Among big cities, Villeurbanne (+21.0%), Saint-Paul (+17.6%), Aix-en-Provence (+15.8%), Bordeaux (+15.1%), Montpellier (+14.2%) and Angers (+13.6%) added the most; Paris (−0.4%), Mulhouse (+1.2%), Argenteuil (+1.8%) and Nancy (+2.4%) the least."
+      },
+      {
+        heading: "How should you use this ratio to pick where to live?",
+        body: "Three cases. To find a job, aim at a hub (a ratio of 120 or more), but check local unemployment and pay: the ratio does not say who fills the posts. To work remotely or in another city, a commuter town is coherent, since its local life is built around housing rather than business; count the commute. For an investor, a hub brings tenants who work there but live elsewhere, a commuter town brings families. Limits: the ratio sets jobs of all ages against residents aged 15 to 64; municipal boundaries blur the picture (Puteaux sits next to La Défense, whose jobs are partly counted in Courbevoie); municipalities under 20,000 are excluded. Source: INSEE, 2023 population census."
+      }
+    ],
+    relatedCities: ["puteaux", "velizy-villacoublay", "blagnac", "aurillac", "rodez", "vannes", "gagny", "argenteuil", "paris", "lille", "bordeaux", "villeurbanne", "ales"],
+    tags: ["commuter towns France", "job hubs", "jobs per resident worker", "job creation by city", "French labour market", "2023 census"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

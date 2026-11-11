@@ -1196,6 +1196,28 @@ const SECTIONS: Section[] = [
     ],
   },
   {
+    title: "Structure par âge et emploi local",
+    emoji: "👥",
+    terms: [
+      {
+        term: "Emplois pour 100 actifs (rapport emplois/actifs)",
+        def: "Nombre d'emplois situés dans une commune, rapporté à 100 actifs de 15 à 64 ans qui y résident (recensement de l'Insee). À 100, la commune offre autant d'emplois que d'actifs habitants ; au-dessus, elle attire des travailleurs d'ailleurs ; en dessous, ses habitants travaillent en partie ailleurs. Médiane de 104 sur les 413 villes de 20 000 habitants et plus au recensement 2023, de 361 à Puteaux à 27 à Gagny. Le chiffre décrit la fonction de la commune, pas le chômage de ses habitants : Alès (147) ou Lens (159) ont autant d'emplois que d'actifs et un chômage supérieur à 20 %.",
+      },
+      {
+        term: "Ville-dortoir",
+        def: "Au sens courant et non administratif : une commune dont une grande partie des actifs part travailler ailleurs, et où les emplois sont peu nombreux face aux habitants. Nous la repérons par un rapport inférieur à 60 emplois pour 100 actifs, ce qui donne 86 villes sur 413, dont 67 en Île-de-France. Le terme n'a rien de péjoratif en soi : ces villes sont souvent riches en pavillons, en écoles et en espaces verts, et pauvres en bureaux. Avant d'acheter, chiffrer le trajet quotidien, car c'est lui qui paie la différence de loyer avec le pôle d'emploi voisin.",
+      },
+      {
+        term: "Actifs de 15 à 64 ans (au sens du recensement)",
+        def: "Personnes en emploi ou en recherche d'emploi, âgées de 15 à 64 ans, selon leur déclaration au recensement. Les chômeurs en font partie, les étudiants sans emploi, les retraités et les personnes au foyer non. C'est le dénominateur du taux de chômage du recensement et du rapport emplois/actifs : changer de définition d'actif change les deux chiffres, et c'est pourquoi on ne les compare pas à ceux de l'enquête Emploi ou des statistiques trimestrielles.",
+      },
+      {
+        term: "Part des 30-44 ans",
+        def: "Proportion des habitants d'une commune âgés de 30 à 44 ans au recensement. C'est l'âge de l'installation, de l'achat et de la naissance des enfants : une part élevée annonce une demande forte de logements de trois et quatre pièces, de crèches et de classes. Médiane de 19,1 % sur les 413 villes de 20 000 habitants et plus en 2022, de 26,2 % à Saint-Ouen-sur-Seine à 11,9 % aux Sables-d'Olonne. Une mesure de composition, jamais une note : une part basse décrit une ville de retraités ou d'étudiants, pas une ville ratée.",
+      },
+    ],
+  },
+  {
     title: "Prix de l'immobilier mesuré",
     emoji: "🏷️",
     terms: [

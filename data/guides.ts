@@ -76601,6 +76601,112 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["prix-appartement-m2-par-ville-552-villes-dvf-2026", "acheter-moins-200000-euros-france-quelles-villes-2026", "annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026"],
     tags: ["maison ou appartement", "prix au m²", "DVF", "prix immobilier par ville", "écart de prix", "acheter une maison", "classement des villes", "valeurs foncières", "marché immobilier"],
   },
+  {
+    slug: "villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026",
+    title: "Où vivent les 30-44 ans ? La part des trentenaires et quadragénaires dans 413 villes",
+    metaTitle: "Villes des 30-44 ans : classement par part (Insee 2022)",
+    metaDesc: "Saint-Ouen 26,2 %, Pantin 26,1 %, Annemasse 25,9 % : 413 villes de 20 000 habitants et plus classées par part des 30-44 ans (Insee 2022).",
+    category: "famille",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 7,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Parmi les 413 communes de 20 000 habitants et plus, la ville médiane compte 19,1 % d'habitants de 30 à 44 ans, l'âge où l'on s'installe, achète et fait des enfants. Saint-Ouen-sur-Seine est en tête (26,2 %), devant Pantin (26,1 %), Annemasse (25,9 %), Puteaux et Clichy (25,7 %). Les Sables-d'Olonne ferment le classement à 11,9 %. Ce guide classe les villes sur ce seul chiffre, la part des 30-44 ans au recensement 2022 de l'Insee, et montre où se concentrent les jeunes actifs en famille, et ce que cela coûte.",
+    sections: [
+      {
+        heading: "Pourquoi regarder la part des 30-44 ans ?",
+        body: "Parce que c'est la tranche d'âge qui achète, qui loue des trois-pièces et qui met des enfants à l'école : une ville qui en compte beaucoup attire des ménages en phase d'installation. Nous rapportons les 30-44 ans du recensement 2022 de l'Insee à la population totale, sur les 413 communes de 20 000 habitants et plus. C'est une mesure de composition, pas une note : une ville à 11,9 % n'est pas ratée, elle est surtout peuplée de retraités. Le chiffre complète ceux de nos guides sur les 0-14 ans, les 15-29 ans et les 75 ans et plus."
+      },
+      {
+        heading: "Quelles villes comptent le plus de 30-44 ans ?",
+        body: "Saint-Ouen-sur-Seine (26,2 %), Pantin (26,1 %), Annemasse (25,9 %), Puteaux et Clichy (25,7 %), Asnières-sur-Seine (25,3 %), Vincennes (25,0 %), Issy-les-Moulineaux (24,7 %), Romainville et Suresnes (24,6 %), Fresnes, Saint-Cyr-l'École et Montreuil (24,5 %), Massy et Levallois-Perret (24,4 %), Montrouge (24,1 %), Bezons (24,0 %), Courbevoie (23,9 %), Aubervilliers (23,7 %) et Alfortville (23,6 %). Six villes dépassent 25 %, dix-sept atteignent 24 % ou plus, vingt-neuf 23 % ou plus et cinquante-neuf 22 % ou plus. Le haut du tableau est presque entièrement francilien : Annemasse, collée à Genève, est la seule exception avant le 26ᵉ rang (Bègles, 23,2 %)."
+      },
+      {
+        heading: "Où les 30-44 ans sont-ils les plus rares ?",
+        body: "Sur le littoral et dans les villes de retraite ou de petite industrie. Les Sables-d'Olonne sont à 11,9 %, devant Saint-Raphaël (12,5 %), Agde (13,1 %), Vichy (13,4 %), Bergerac (13,7 %), Châtellerault (13,8 %), Concarneau (13,9 %), Challans et Saint-Malo (14,0 %), Sète (14,1 %), Dieppe (14,2 %) et Montluçon (14,3 %). Quarante-sept villes sont à 16 % ou moins, quatre-vingt-deux à 17 % ou moins. Dans ces 47 villes, les 60 ans et plus pèsent 34,3 % de la population en médiane : le creux des 30-44 ans est l'envers du poids des retraités."
+      },
+      {
+        heading: "Les grandes villes attirent-elles plus de 30-44 ans ?",
+        body: "Pas vraiment : la taille ne change presque rien. La médiane est de 18,9 % pour les villes de 20 000 à 30 000 habitants, 19,2 % pour celles de 30 000 à 100 000 et 18,9 % pour les 42 villes de 100 000 et plus. Parmi ces dernières, les plus riches en 30-44 ans sont Montreuil (24,5 %), Saint-Denis (22,6 %), Boulogne-Billancourt (22,5 %), Argenteuil (22,3 %), Paris, Bordeaux et Nantes (21,6 %), Villeurbanne (21,5 %), Lyon (21,4 %) et Toulouse (21,3 %). Les moins riches : Limoges (16,1 %), Angers (16,6 %), Besançon (16,8 %), Nîmes, Caen et Le Mans (16,9 %). Lille est à 20,4 %, Grenoble à 20,0 %, Strasbourg à 19,8 %, Montpellier à 19,7 %, Marseille à 19,5 %, Rennes à 18,9 % et Nice à 18,4 %."
+      },
+      {
+        heading: "Quelles régions comptent le plus de 30-44 ans ?",
+        body: "L'Île-de-France écrase les autres : médiane de 21,3 % sur 153 villes, contre 17,6 % pour l'ensemble des villes hors Île-de-France. Quarante-huit des cinquante premières villes et 83 des cent premières sont franciliennes. Derrière viennent la Corse (20,6 %, deux villes), la Guyane (18,9 %, deux villes), l'Auvergne-Rhône-Alpes (18,5 %, 40 villes) et La Réunion (18,4 %, dix villes). Les plus basses : l'Occitanie (16,7 %, 22 villes), la Martinique (16,8 %, trois villes), la Bretagne (16,9 %, dix villes) et le Centre-Val de Loire (17,2 %, onze villes). La Nouvelle-Aquitaine est à 17,4 %, la Bourgogne-Franche-Comté à 17,3 %."
+      },
+      {
+        heading: "Les villes de trentenaires sont-elles chères ?",
+        body: "Oui, nettement. Dans les 59 villes à 22 % de 30-44 ans ou plus, le T3 de référence de notre estimation des loyers est à 1 350 € par mois en médiane et l'achat à 4 900 € le m², contre 1 080 € et 3 200 € pour l'ensemble des 413 villes. Dans les 17 villes à 24 % ou plus, les chiffres montent à 1 550 € et 5 500 € le m² : Levallois-Perret (2 000 € et 7 500 €), Puteaux (1 850 € et 7 500 €) ou Vincennes (1 800 € et 6 800 €) sont au sommet, Bezons (1 240 € et 3 700 €) ou Fresnes (1 250 € et 4 500 €) en bas du groupe. Dans les 47 villes à 16 % ou moins, le T3 est à 800 € et l'achat à 1 900 € le m². Les jeunes ménages vont là où les emplois sont, pas là où le logement est abordable."
+      },
+      {
+        heading: "Ces villes gagnent-elles des habitants et des emplois ?",
+        body: "Elles gagnent plus que la moyenne. Entre 2016 et 2022, les 59 villes à 22 % ou plus ont crû de 4,8 % en médiane, contre 2,4 % pour les 413 villes ; les 17 villes à 24 % ou plus de 6,8 % ; les 47 villes à 16 % ou moins de 0,9 % seulement. Côté emploi, le taux de chômage au sens du recensement est de 11,7 % en médiane dans les 59 villes à 22 % ou plus et de 10,0 % dans les 17 à 24 % ou plus, contre 13,1 % pour l'ensemble et 14,4 % dans les villes à 16 % ou moins. Le salaire net mensuel moyen des emplois privés situés dans ces communes est de 2 925 € en médiane pour le premier groupe et de 3 618 € pour le second."
+      },
+      {
+        heading: "Trentenaires et enfants : où se retrouvent-ils ?",
+        body: "Les 30-44 ans et les 0-14 ans vont souvent ensemble, puisque les uns sont les parents des autres. Quarante-quatre villes cumulent 22 % ou plus de 30-44 ans et 18 % ou plus d'enfants, presque toutes en petite et grande couronne parisienne. Les villes étudiantes font exception : les 40 villes où les 15-29 ans pèsent 25 % ou plus ont une part de 30-44 ans de 18,3 % en médiane, sous la médiane générale de 19,1 %. Dans le top 10, les 15-29 ans sont aussi très présents (Clichy 22,1 %, Saint-Ouen 21,5 %, Annemasse 21,1 %) : ce sont des villes de passage et de premier emploi, pas seulement des villes de familles installées."
+      },
+      {
+        heading: "Que faire de ce classement, et quelles sont ses limites ?",
+        body: "Trois usages. Pour un jeune couple qui veut des voisins du même âge, un fort pourcentage signale des crèches, des écoles et des commerces calibrés pour des ménages actifs, mais aussi des listes d'attente et une concurrence forte pour le logement. Pour un actif plus âgé ou un retraité, une part basse annonce des villes plus calmes et moins chères. Pour un investisseur, la part de 30-44 ans indique une demande locative de T3 et de T4, pas un rendement. Limites : le recensement mesure les résidents d'une année, pas les trajectoires ; les communes de moins de 20 000 habitants sont exclues ; et le découpage communal avantage la petite couronne, où une commune dense de 20 000 à 60 000 habitants côtoie ses voisines. Source : Insee, recensement de la population 2022."
+      }
+    ],
+    relatedCities: ["saint-ouen-sur-seine", "pantin", "annemasse", "puteaux", "clichy", "vincennes", "montreuil", "bordeaux", "nantes", "lyon", "toulouse", "les-sables-d-olonne", "limoges"],
+    relatedGuides: ["villes-avec-le-plus-d-enfants-part-des-0-14-ans-2026", "villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026", "villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026", "meilleures-villes-jeunes-actifs-france-2025", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
+    tags: ["villes des 30-44 ans", "part des 30-44 ans", "jeunes actifs", "jeunes parents", "démographie par ville", "recensement 2022"],
+  },
+  {
+    slug: "villes-emplois-pour-100-actifs-villes-dortoirs-413-villes-2026",
+    title: "Villes-dortoirs ou pôles d'emploi : combien d'emplois pour 100 actifs dans 413 villes ?",
+    metaTitle: "Villes-dortoirs ou pôles d'emploi : emplois pour 100 actifs",
+    metaDesc: "Puteaux 361 emplois pour 100 actifs, Aurillac 194, Gagny 27 : 413 villes classées par rapport emplois sur place / actifs résidents (Insee 2023).",
+    category: "lifestyle",
+    emoji: "🏢",
+    readMinutes: 8,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Dans la ville médiane parmi les 413 communes de 20 000 habitants et plus, on compte 104 emplois sur place pour 100 actifs de 15 à 64 ans qui y habitent. Puteaux est au sommet (361), devant Vélizy-Villacoublay (320), Blagnac (267) et Courbevoie (247) ; Gagny est tout en bas (27), avec Morsang-sur-Orge et Vigneux-sur-Seine (29). Quatre-vingt-six villes sont sous 60 emplois pour 100 actifs, dont 67 en Île-de-France : ce sont les villes-dortoirs. Ce guide classe les villes sur ce rapport, mesuré au recensement 2023 de l'Insee, et dit ce que le chiffre apprend à qui cherche un emploi ou un logement.",
+    sections: [
+      {
+        heading: "Comment mesure-t-on une ville-dortoir ?",
+        body: "En rapportant les emplois situés dans la commune (lieu de travail, recensement 2023) aux actifs de 15 à 64 ans qui y résident. Un ratio de 100 signifie autant d'emplois que d'actifs habitants ; bien au-dessus, la ville attire des travailleurs d'ailleurs ; bien en dessous, ses habitants vont travailler ailleurs. Ce n'est pas un taux de navetteurs : une ville à 150 peut employer des résidents d'autres communes tout en envoyant ses propres habitants travailler plus loin. Le ratio décrit la fonction de la commune, dortoir ou pôle, rien de plus. Nous l'avons calculé sur les 413 communes de 20 000 habitants et plus."
+      },
+      {
+        heading: "Quelles villes ont le plus d'emplois pour 100 actifs ?",
+        body: "Puteaux (361), Vélizy-Villacoublay (320), Blagnac (267), Courbevoie (247), Guyancourt (244), Carquefou (210), Orly (200), Saintes (198), Neuilly-sur-Seine (196), Nanterre et Aurillac (194), Vannes et Saint-Herblain (193), Rodez (192), Sarreguemines (190), La Roche-sur-Yon (187), Rochefort et Baie-Mahault (186), Issy-les-Moulineaux (185) et Bourg-en-Bresse (184). Deux familles se mêlent : les quartiers d'affaires et zones industrielles des Hauts-de-Seine et des Yvelines (Puteaux a 91 510 emplois pour 25 321 actifs), et les préfectures et sous-préfectures de taille moyenne qui font office de capitale de bassin (Aurillac, 22 061 emplois pour 11 387 actifs ; Rodez, 21 865 pour 11 382). Soixante-dix-neuf villes sont à 150 ou plus, cent soixante-sept à 120 ou plus."
+      },
+      {
+        heading: "Quelles villes sont les plus dortoirs ?",
+        body: "Gagny (27), Morsang-sur-Orge et Vigneux-sur-Seine (29), Houilles (30), Saint-Cyr-l'École et Le Perreux-sur-Marne (32), Savigny-sur-Orge et Chaville (33), Yerres (34), Franconville et L'Haÿ-les-Roses (36), Villemomble (37), Saint-Gratien (38), Sannois (39), Sevran, Achères et Le Blanc-Mesnil (40), Épinay-sur-Seine, Villiers-le-Bel et Livry-Gargan (41). Gagny compte 5 666 emplois pour 20 823 actifs. Quarante-neuf villes sont sous 50, quatre-vingt-six sous 60, cent trente et une sous 80. Soixante-sept d'entre elles sont franciliennes : la carte du dortoir est celle de l'Île-de-France."
+      },
+      {
+        heading: "Les grandes villes sont-elles des pôles d'emploi ?",
+        body: "Presque toutes : la médiane des 42 villes de 100 000 habitants et plus est de 129 emplois pour 100 actifs, contre 94 pour les villes de moins de 30 000 habitants et 104 pour celles de 30 000 à 100 000. Les plus fournies : Clermont-Ferrand (158), Paris (157), Rouen et Perpignan (154), Caen (153), Lille (152), Aix-en-Provence, Bordeaux et Limoges (148), Boulogne-Billancourt et Saint-Denis (145). Lyon est à 124, Nantes à 125, Toulouse à 131, Strasbourg à 128, Nice à 100, Marseille à 97. Quelques grandes communes ont un profil de dortoir : Villeurbanne (82), Saint-Paul de La Réunion (70) et surtout Argenteuil (59, avec 30 102 emplois pour 51 109 actifs)."
+      },
+      {
+        heading: "Quelles régions sont les plus dortoirs ?",
+        body: "L'Île-de-France a la médiane la plus basse (64 emplois pour 100 actifs sur 153 villes), à égalité avec La Réunion (64, dix villes). Soixante-sept des 86 villes sous 60 sont franciliennes, soit 44 % des villes d'Île-de-France de l'échantillon. Viennent la Guyane (88), la Provence-Alpes-Côte d'Azur (98) et l'Auvergne-Rhône-Alpes (111). À l'autre bout, la Bourgogne-Franche-Comté (154, onze villes), la Guadeloupe (150, deux villes) et la Nouvelle-Aquitaine (148, 30 villes) ont des villes qui concentrent l'emploi de leur bassin. Suivent la Bretagne (139), l'Occitanie (136), la Normandie (134) et la Martinique (133). En province, une ville de 20 000 habitants et plus est presque toujours un pôle ; en Île-de-France, elle ne l'est qu'une fois sur douze (13 villes à 150 ou plus sur 153)."
+      },
+      {
+        heading: "Un pôle d'emploi protège-t-il du chômage ?",
+        body: "Non, et c'est le contresens à éviter. Les emplois d'une ville ne sont pas forcément ceux de ses habitants. Alès (147 emplois pour 100 actifs) a 23,0 % de chômage au sens du recensement, Lens (159) 23,0 %, Maubeuge (139) 26,7 %, Cayenne (113) 29,0 % ; Mulhouse (123) est à 22,8 %, Perpignan (154) à 22,5 %. À l'inverse, les villes-dortoirs ont un chômage plus bas : 11,2 % en médiane dans les 86 villes sous 60, contre 13,1 % pour l'ensemble et 14,6 % dans les 167 villes à 120 ou plus (14,9 % dans les 79 à 150 ou plus). Le dortoir francilien est riche de ses navetteurs ; le pôle de province l'est de ses services publics, de son hôpital et de son commerce, pas toujours de ses habitants."
+      },
+      {
+        heading: "Les villes-dortoirs coûtent-elles plus cher à vivre ?",
+        body: "Oui, et l'écart est massif, parce que la région compte plus que le ratio. Dans les 86 villes sous 60, le T3 de référence de notre estimation des loyers est à 1 250 € par mois en médiane et l'achat à 3 950 € le m² ; dans les 167 villes à 120 ou plus, à 900 € et 2 400 € ; dans les 79 à 150 ou plus, à 840 € et 2 200 €. Pour l'ensemble des 413 villes : 1 080 € et 3 200 €. Aurillac affiche un T3 à 560 €, Rodez 680 €, Saintes 700 €, Vannes 1 150 €, Puteaux 1 850 €, Gagny 1 220 € et Argenteuil 1 200 €. Un pôle d'emploi de province offre du travail et un loyer bas ; un dortoir francilien offre un loyer moins élevé que le pôle voisin, mais un trajet quotidien à payer."
+      },
+      {
+        heading: "Quelles villes créent le plus d'emplois ?",
+        body: "Sur 2017-2023, le nombre d'emplois situés dans une ville a progressé de 6,8 % en médiane, au niveau de la moyenne nationale (6,6 %). Les plus dynamiques : Saint-Laurent-du-Maroni (+59,6 %), Tremblay-en-France (+52,2 %), Roissy-en-Brie (+50,3 %), Issy-les-Moulineaux (+36,4 %), Brétigny-sur-Orge (+32,1 %), Champs-sur-Marne (+30,4 %) et Couëron (+29,6 %). Quinze villes gagnent 20 % ou plus, quarante-trois en perdent : Bagnolet (−9,2 %), Trappes (−7,3 %), La Garenne-Colombes (−6,6 %), Suresnes (−6,5 %), Saint-Cloud (−6,1 %), Béthune (−5,8 %). Parmi les grandes villes, Villeurbanne (+21,0 %), Saint-Paul (+17,6 %), Aix-en-Provence (+15,8 %), Bordeaux (+15,1 %), Montpellier (+14,2 %) et Angers (+13,6 %) créent le plus ; Paris (−0,4 %), Mulhouse (+1,2 %), Argenteuil (+1,8 %) et Nancy (+2,4 %) le moins."
+      },
+      {
+        heading: "Comment utiliser ce ratio pour choisir où vivre ?",
+        body: "Trois cas. Pour chercher un emploi, visez un pôle (ratio de 120 ou plus), mais vérifiez le chômage et le salaire local : le ratio ne dit pas qui occupe les postes. Pour télétravailler ou travailler dans une autre ville, un dortoir est cohérent, sa vie locale étant tournée vers l'habitat plutôt que vers l'activité ; comptez le trajet. Pour un investisseur, un pôle assure une demande locative de salariés venus d'ailleurs, un dortoir une demande de familles. Limites : le ratio rapproche des emplois de tous âges d'actifs de 15 à 64 ans ; les limites communales faussent la lecture (Puteaux est collée à La Défense, dont les emplois relèvent en partie de Courbevoie) ; les communes de moins de 20 000 habitants sont exclues. Source : Insee, recensement de la population 2023."
+      }
+    ],
+    relatedCities: ["puteaux", "velizy-villacoublay", "blagnac", "aurillac", "rodez", "vannes", "gagny", "argenteuil", "paris", "lille", "bordeaux", "villeurbanne", "ales"],
+    relatedGuides: ["villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026", "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026", "meilleures-villes-jeunes-actifs-france-2025", "villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026"],
+    tags: ["ville-dortoir", "pôle d'emploi", "emplois par actif", "création d'emplois par ville", "marché du travail", "recensement 2023"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
