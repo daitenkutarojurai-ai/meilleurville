@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { clampMeta, fitTitle } from "@/lib/brand";
@@ -136,135 +136,178 @@ export default async function DeptSynthesePage({ params }: Props) {
     },
   ]);
 
+  const tableShell = "rounded-2xl bg-white overflow-hidden";
+  const theadCls = "bg-[#EEF2FF] text-xs uppercase tracking-wide text-[#4338CA]";
+
   return (
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/departements" className="hover:underline">Départements</Link> ·{" "}
-          <Link href={`/departements/${deptSlug}`} className="hover:underline">{dept}</Link>
-        </nav>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav className="text-xs text-[var(--text-secondary)]">
+            <Link href="/" className="hover:text-[var(--accent)] hover:underline">Accueil</Link> ·{" "}
+            <Link href="/departements" className="hover:text-[var(--accent)] hover:underline">Départements</Link> ·{" "}
+            <Link href={`/departements/${deptSlug}`} className="hover:text-[var(--accent)] hover:underline">{dept}</Link>
+          </nav>
+          <div className="mt-5 flex items-center gap-3">
+            <EmojiBadge emoji="🧭" tone={toneFor(deptSlug)} />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Synthèse
+            </span>
+          </div>
+          <h1 className="mt-4 text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+            Synthèse — villes du département{" "}
+            <span className="font-display gradient-text-anim italic">{dept}</span>
+          </h1>
+          <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
+            Classement synthèse restreint aux {n} ville{n > 1 ? "s" : ""}
+            {" "}du département {dept} référencée{n > 1 ? "s" : ""} dans le seed. Les 8
+            dimensions data agrégées en un score unifié 0-10, 10 = excellent.
+          </p>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          Synthèse — villes du département {dept}
-        </h1>
-        <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Classement synthèse restreint aux {n} ville{n > 1 ? "s" : ""}
-          {" "}du département {dept} référencée{n > 1 ? "s" : ""} dans le seed. Les 8
-          dimensions data agrégées en un score unifié 0-10, 10 = excellent.
-        </p>
-
-        <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>{n} ville{n > 1 ? "s" : ""}</Badge>
-          <Badge>Global moyen : {avgGlobal}/10</Badge>
-          <Badge>Cohérence : ±{avgSpread}/10</Badge>
+          <div className="mt-5 flex flex-wrap gap-2 text-xs">
+            {[
+              `${n} ville${n > 1 ? "s" : ""}`,
+              `Global moyen : ${avgGlobal}/10`,
+              `Cohérence : ±${avgSpread}/10`,
+            ].map((label) => (
+              <span
+                key={label}
+                className="inline-flex items-center rounded-full bg-white/90 ring-1 ring-[#C7D2FE] px-3 py-1 font-semibold text-[#4338CA] tabular-nums"
+              >
+                {label}
+              </span>
+            ))}
+          </div>
         </div>
+      </section>
 
-        {/* Profil moyen du département */}
-        <Card className="mt-6">
-          <h2 className="text-sm uppercase tracking-wide text-[var(--text-tertiary)] font-semibold mb-3">
+      {/* Profil moyen du département */}
+      <section className="band band-indigo py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold gradient-text mb-4">
             Profil moyen du département (8 axes)
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {axisKeys.map((k) => (
-              <div key={k} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-3">
-                <div className="text-xs text-[var(--text-tertiary)]">{axisLabels[k].label}</div>
-                <div className="text-xl font-bold tabular-nums text-[var(--text-primary)] mt-1">
+              <div
+                key={k}
+                className="rounded-2xl bg-white p-4 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]"
+              >
+                <div className="text-xs font-semibold uppercase tracking-wide text-[#4338CA]">{axisLabels[k].label}</div>
+                <div className="text-2xl font-bold tabular-nums text-[#312E81] mt-1">
                   {avgByAxis[k].toFixed(1)}
                   <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
                 </div>
-                <div className="text-[11px] text-[var(--text-tertiary)] mt-1 leading-tight">
+                <div className="text-[11px] text-[var(--text-secondary)] mt-1 leading-tight">
                   {axisLabels[k].hint}
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-[11px] text-[var(--text-tertiary)] mt-3">
+          <p className="text-[11px] text-[var(--text-secondary)] mt-3">
             Convention : 10 = excellent. Moyenne arithmétique sur les villes du département.
           </p>
-        </Card>
+        </div>
+      </section>
 
-        {/* Top */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
-          {top.length === sorted.length
-            ? "Toutes les villes du département"
-            : `Top ${top.length} — profils les plus favorables`}
-        </h2>
-        <Card className="mt-4 overflow-hidden p-0">
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
-                <tr>
-                  <th className="px-3 py-2 text-left">#</th>
-                  <th className="px-3 py-2 text-left">Ville</th>
-                  <th className="px-3 py-2 text-right">Global</th>
-                  <th className="px-3 py-2 text-right hidden sm:table-cell">Cohérence</th>
-                  <th className="px-3 py-2 text-left hidden md:table-cell">Force #1</th>
-                  <th className="px-3 py-2 text-left hidden md:table-cell">Tension #1</th>
-                </tr>
-              </thead>
-              <tbody>
-                {top.map((c, i) => (
-                  <tr key={c.slug} className="border-t border-[var(--border)]">
-                    <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
-                    <td className="px-3 py-2">
-                      <Link
-                        href={`/villes/${c.slug}/synthese`}
-                        className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
-                      >
-                        {c.name}
-                      </Link>
-                    </td>
-                    <td className="px-3 py-2 text-right">
-                      <span className={`font-bold tabular-nums ${SYNTHESIS_LEVEL_COLOR[c.synthesis.level]}`}>
-                        {c.synthesis.global.toFixed(1)}
-                      </span>
-                      <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
-                        {SYNTHESIS_LEVEL_LABEL[c.synthesis.level]}
-                      </span>
-                    </td>
-                    <td className="px-3 py-2 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">
-                      ±{c.synthesis.spread.toFixed(1)}
-                    </td>
-                    <td className="px-3 py-2 text-[var(--text-secondary)] hidden md:table-cell text-xs">
-                      {c.synthesis.strengths[0]?.label} {c.synthesis.strengths[0]?.score.toFixed(1)}
-                    </td>
-                    <td className="px-3 py-2 text-[var(--text-secondary)] hidden md:table-cell text-xs">
-                      {c.synthesis.tensions[0]?.label} {c.synthesis.tensions[0]?.score.toFixed(1)}
-                    </td>
+      {/* Top */}
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-2xl font-bold gradient-text">
+            {top.length === sorted.length
+              ? "Toutes les villes du département"
+              : `Top ${top.length} — profils les plus favorables`}
+          </h2>
+          <div className={`mt-4 ${tableShell} shadow-[0_12px_32px_-20px_rgba(8,145,178,0.6)]`}>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className={theadCls}>
+                  <tr>
+                    <th className="px-3 py-2.5 text-left">#</th>
+                    <th className="px-3 py-2.5 text-left">Ville</th>
+                    <th className="px-3 py-2.5 text-right">Global</th>
+                    <th className="px-3 py-2.5 text-right hidden sm:table-cell">Cohérence</th>
+                    <th className="px-3 py-2.5 text-left hidden md:table-cell">Force #1</th>
+                    <th className="px-3 py-2.5 text-left hidden md:table-cell">Tension #1</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {top.map((c, i) => (
+                    <tr key={c.slug} className="border-t border-[#E0E7FF] hover:bg-[#F5F7FF] transition-colors">
+                      <td className="px-3 py-2.5">
+                        <span
+                          className={`inline-flex h-6 min-w-6 items-center justify-center rounded-full px-1.5 text-[11px] font-bold tabular-nums ${
+                            i < 3 ? `grad-head-${i}` : "bg-[#EEF2FF] text-[#4338CA]"
+                          }`}
+                        >
+                          {i + 1}
+                        </span>
+                      </td>
+                      <td className="px-3 py-2.5">
+                        <Link
+                          href={`/villes/${c.slug}/synthese`}
+                          className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
+                        >
+                          {c.name}
+                        </Link>
+                      </td>
+                      <td className="px-3 py-2.5 text-right whitespace-nowrap">
+                        <span className={`font-bold tabular-nums ${SYNTHESIS_LEVEL_COLOR[c.synthesis.level]}`}>
+                          {c.synthesis.global.toFixed(1)}
+                        </span>
+                        <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">
+                          {SYNTHESIS_LEVEL_LABEL[c.synthesis.level]}
+                        </span>
+                      </td>
+                      <td className="px-3 py-2.5 text-right tabular-nums text-[var(--text-secondary)] hidden sm:table-cell">
+                        ±{c.synthesis.spread.toFixed(1)}
+                      </td>
+                      <td className="px-3 py-2.5 text-[var(--text-secondary)] hidden md:table-cell text-xs">
+                        {c.synthesis.strengths[0]?.label} {c.synthesis.strengths[0]?.score.toFixed(1)}
+                      </td>
+                      <td className="px-3 py-2.5 text-[var(--text-secondary)] hidden md:table-cell text-xs">
+                        {c.synthesis.tensions[0]?.label} {c.synthesis.tensions[0]?.score.toFixed(1)}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
-        </Card>
+        </div>
+      </section>
 
-        {/* Bottom (only if enough villes) */}
-        {bottom.length > 0 && (
-          <>
-            <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+      {/* Bottom (only if enough villes) */}
+      {bottom.length > 0 && (
+        <section className="band band-pink py-10 sm:py-12">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <h2 className="text-2xl font-bold gradient-text">
               Top {bottom.length} — profils les plus tendus
             </h2>
-            <Card className="mt-4 overflow-hidden p-0">
+            <div className={`mt-4 ${tableShell} shadow-[0_12px_32px_-20px_rgba(219,39,119,0.5)]`}>
               <div className="overflow-x-auto">
                 <table className="w-full text-sm">
-                  <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
+                  <thead className="bg-[#FDF2F8] text-xs uppercase tracking-wide text-[#BE185D]">
                     <tr>
-                      <th className="px-3 py-2 text-left">#</th>
-                      <th className="px-3 py-2 text-left">Ville</th>
-                      <th className="px-3 py-2 text-right">Global</th>
-                      <th className="px-3 py-2 text-left hidden md:table-cell">Tension #1</th>
+                      <th className="px-3 py-2.5 text-left">#</th>
+                      <th className="px-3 py-2.5 text-left">Ville</th>
+                      <th className="px-3 py-2.5 text-right">Global</th>
+                      <th className="px-3 py-2.5 text-left hidden md:table-cell">Tension #1</th>
                     </tr>
                   </thead>
                   <tbody>
                     {bottom.map((c, i) => (
-                      <tr key={c.slug} className="border-t border-[var(--border)]">
-                        <td className="px-3 py-2 text-[var(--text-tertiary)] tabular-nums">{i + 1}</td>
-                        <td className="px-3 py-2">
+                      <tr key={c.slug} className="border-t border-[#FCE7F3] hover:bg-[#FDF2F8] transition-colors">
+                        <td className="px-3 py-2.5">
+                          <span className="inline-flex h-6 min-w-6 items-center justify-center rounded-full bg-[#FCE7F3] px-1.5 text-[11px] font-bold tabular-nums text-[#BE185D]">
+                            {i + 1}
+                          </span>
+                        </td>
+                        <td className="px-3 py-2.5">
                           <Link
                             href={`/villes/${c.slug}/synthese`}
                             className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
@@ -272,13 +315,13 @@ export default async function DeptSynthesePage({ params }: Props) {
                             {c.name}
                           </Link>
                         </td>
-                        <td className="px-3 py-2 text-right">
+                        <td className="px-3 py-2.5 text-right whitespace-nowrap">
                           <span className="font-bold tabular-nums text-red-600">
                             {c.synthesis.global.toFixed(1)}
                           </span>
                           <span className="text-[10px] uppercase tracking-wide text-[var(--text-tertiary)] ml-1">/10</span>
                         </td>
-                        <td className="px-3 py-2 text-[var(--text-secondary)] hidden md:table-cell text-xs">
+                        <td className="px-3 py-2.5 text-[var(--text-secondary)] hidden md:table-cell text-xs">
                           {c.synthesis.tensions[0]?.label} {c.synthesis.tensions[0]?.score.toFixed(1)}
                         </td>
                       </tr>
@@ -286,31 +329,40 @@ export default async function DeptSynthesePage({ params }: Props) {
                   </tbody>
                 </table>
               </div>
-            </Card>
-          </>
-        )}
+            </div>
+          </div>
+        </section>
+      )}
 
-        {/* Cross-links */}
-        <h2 className="mt-12 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
-        <div className="mt-3 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          <Link href={`/departements/${deptSlug}`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">← Département {dept}</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Vue d&apos;ensemble + guides</div>
-            </Card>
-          </Link>
-          <Link href={`/departements/${deptSlug}/fiscalite`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Fiscalité {dept}</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Taxe foncière, THRS, DMTO</div>
-            </Card>
-          </Link>
-          <Link href="/palmares" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Palmarès national</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">Classement universel 8 axes</div>
-            </Card>
-          </Link>
+      {/* Cross-links */}
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <h2 className="text-xl font-bold gradient-text">Aller plus loin</h2>
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {[
+              { href: `/departements/${deptSlug}`, emoji: "📍", title: `← Département ${dept}`, sub: "Vue d'ensemble + guides" },
+              { href: `/departements/${deptSlug}/fiscalite`, emoji: "💰", title: `Fiscalité ${dept}`, sub: "Taxe foncière, THRS, DMTO" },
+              { href: "/palmares", emoji: "🏆", title: "Palmarès national", sub: "Classement universel 8 axes" },
+            ].map((l) => (
+              <Link
+                key={l.href}
+                href={l.href}
+                className="group flex items-center gap-3 rounded-2xl bg-white p-4 ring-1 ring-transparent hover:ring-[#C4B5FD] shadow-[0_10px_26px_-18px_rgba(124,58,237,0.5)] hover:-translate-y-0.5 transition-all"
+              >
+                <EmojiBadge emoji={l.emoji} tone={toneFor(l.href)} size="sm" />
+                <div className="min-w-0">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">{l.title}</div>
+                  <div className="text-xs text-[var(--text-secondary)] mt-0.5">{l.sub}</div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
         </div>
       </section>
 

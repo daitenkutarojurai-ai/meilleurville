@@ -1494,3 +1494,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `/departements/[dept]/synthese` (FR) + EN `/departments/[dept]/synthesis`.
 2. Hub `/comparer` puis `/leaderboard`.
 3. `DepartementMap` (cadre, légende) et page agenda.
+
+## 2026-11-11 ~11:00 UTC — `/departements/[dept]/synthese` (FR) + EN `/departments/[dept]/synthesis`
+
+**Surface** : gabarit synthèse départementale, 2 locales. Avant : hero blanc, `Badge` gris, profil moyen + 2 tableaux + renvois dans un seul bloc sur fond de page, cartes `Card` à filet, en-têtes de tableau gris, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🧭 `toneFor(slug)` + pilule `grad-head-0`, nom du département en `gradient-text-anim`, chiffres en pilules blanches indigo ; profil moyen 8 axes (cartes blanches ombrées, chiffre `#312E81`) en `band-indigo` ; top en `band-sky` (tableau blanc, en-tête `#EEF2FF`/`#4338CA`, rang en pastille `grad-head-0..2` puis indigo clair) ; « profils les plus tendus » en `band-pink` (en-tête rose) ; renvois en cartes blanches avec `EmojiBadge` en `band-lilac` ; `FeedbackWidget` (EN `locale="en"`) ajouté en `band-white`. Fil d'Ariane gardé en `<nav>` simple (le composant `Breadcrumbs` aurait doublé le JSON-LD BreadcrumbList). Couleurs de palier conservées. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/departements/finistere/synthese` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hub `/comparer` (FR + EN).
+2. `/leaderboard` (FR + EN).
+3. `DepartementMap` (cadre, légende) et page agenda.
