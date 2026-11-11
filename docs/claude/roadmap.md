@@ -10,7 +10,8 @@
 **Audit 2026-11-11** (`docs/audits/audit-2026-11-11.md`) — livré : bandeau cookies compact sur téléphone, radar triplet en SVG serveur (recharts retiré, −103 Ko gzip), 34 titres et 52 descriptions ramenés sous 60 / 165 caractères. Deuxième lot : mêmes corrections sur le site EN (13 titres, 31 descriptions, 17 titres de thèmes Red Flags), podium de l'accueil en défilement horizontal sur téléphone, une seule légende sur la carte, cibles tactiles des classements.
 Troisième lot : `/leaderboard` plafonné à 100 lignes, `/orientation-politique` 10 338 → 6 780 balises, hreflang de 28 thèmes Red Flags, garde `meta-len` dans `integrity`.
 Quatrième lot : `/leaderboard` EN plafonné, projection `CITIES_CORE` (119 Ko au lieu de 277) pour le leaderboard et le comparateur.
-Reste : 448 `metaTitle` de guides FR et 262 EN au-delà de 65 caractères (à réécrire à la main, pas par `fitTitle`), `CITIES_LIGHT` chez les autres composants client, `gtag.js` différé (après confirmation de la validation Search Console).
+Cinquième lot : 710 `metaTitle` de guides (448 FR, 262 EN) ramenés à 65 caractères au plus, garde `meta-len` étendue aux guides.
+Reste : `CITIES_LIGHT` chez les autres composants client, `gtag.js` différé (après confirmation de la validation Search Console).
 
 Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
 

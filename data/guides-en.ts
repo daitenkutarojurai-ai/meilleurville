@@ -622,7 +622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-cities-tech-jobs-2026",
     title: "Best French cities for tech workers in 2026",
-    metaTitle: "Best French Cities for Tech Jobs 2026 — Startups, Salaries & Quality of Life",
+    metaTitle: "Best French Cities for Tech Jobs 2026 — Startups, Salaries",
     metaDesc:
       "Paris isn't the only option. Lyon, Bordeaux, Nantes, Rennes and Toulouse all have serious tech ecosystems — at half the rent.",
     category: "moving",
@@ -1776,7 +1776,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "annecy-living-guide-2026",
     title: "Living in Annecy: the price of paradise",
-    metaTitle: "Living in Annecy 2026 — Honest Guide to France's Most Beautiful Town",
+    metaTitle: "Living in Annecy 2026 — Honest Guide to the Alpine Lake Town",
     metaDesc:
       "Annecy is consistently voted France's most beautiful city. It is also one of the most expensive outside Paris. A realistic look at what living here involves.",
     category: "lifestyle",
@@ -1852,7 +1852,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-social-security-expats-guide-2026",
     title: "French social security for newcomers: what you're actually entitled to",
-    metaTitle: "French Social Security for Expats 2026 — PUMA, Healthcare & Benefits",
+    metaTitle: "French Social Security for Expats 2026 — PUMA, Healthcare",
     metaDesc:
       "How the French social security system works for non-citizens — PUMA affiliation, healthcare reimbursements, unemployment rights, family allowances. What you get and when.",
     category: "moving",
@@ -2118,7 +2118,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "basque-country-living-guide-2026",
     title: "Living in the French Basque Country: what makes it different, and what it costs",
-    metaTitle: "Living in French Basque Country 2026 — Bayonne, Biarritz, Saint-Jean",
+    metaTitle: "Living in French Basque Country 2026 — Bayonne, Biarritz",
     metaDesc:
       "The Basque Country has the most distinctive regional identity in France, excellent surf, good weather and one of the highest property price growth rates in the country.",
     category: "lifestyle",
@@ -2156,7 +2156,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-australian-expats-2026",
     title: "Moving to France from Australia: the practical questions answered",
-    metaTitle: "Moving to France from Australia 2026 — Guide for Australian Expats",
+    metaTitle: "Moving to France from Australia 2026 — Expat Guide",
     metaDesc:
       "Visa options, healthcare access, superannuation, tax obligations, and which French cities work best for Australians. The information gaps the general guides miss.",
     category: "moving",
@@ -2422,7 +2422,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-mountain-towns-live-work-2026",
     title: "The best French mountain towns to live and work in 2026",
-    metaTitle: "Best French Mountain Towns to Live In 2026 — Beyond the Ski Resort",
+    metaTitle: "Best French Mountain Towns to Live In 2026",
     metaDesc:
       "Annecy, Grenoble, Chambéry, Briançon, Gap, Moûtiers — which French mountain towns work for year-round living, remote work, and long-term relocation, beyond the ski season.",
     category: "lifestyle",
@@ -3196,7 +3196,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-wine-regions-where-to-live-2026",
     title: "Living in France's wine regions: which one actually suits you?",
-    metaTitle: "Living in French Wine Regions 2026 — Bordeaux, Burgundy, Alsace, Loire",
+    metaTitle: "Living in French Wine Regions 2026 — Bordeaux, Burgundy, Alsace",
     metaDesc:
       "France has five major wine regions you can actually live in. Each has different costs, climates, and job markets. Where wine-lovers should base themselves for the vineyard lifestyle.",
     category: "lifestyle",
@@ -3302,7 +3302,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "navigating-french-bureaucracy-2026",
     title: "Navigating French bureaucracy: a guide that actually helps",
-    metaTitle: "French Bureaucracy Guide for Expats 2026 — Practical Survival Guide",
+    metaTitle: "French Bureaucracy for Expats 2026 — Practical Survival Guide",
     metaDesc:
       "French administrative processes are genuinely complex. This guide covers the préfecture system, the key registrations in sequence, how to avoid the most common mistakes, and what to expect.",
     category: "moving",
@@ -3590,7 +3590,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "dijon-relocation-guide-2026",
     title: "Living in Dijon: Burgundy's underrated capital that quietly ticks every box",
-    metaTitle: "Relocating to Dijon 2026 — expat guide: cost, lifestyle, pros & cons",
+    metaTitle: "Relocating to Dijon 2026 — expat guide: cost, lifestyle, pros",
     metaDesc: "Dijon: TGV 1h35 to Paris, genuinely affordable housing, world-class food culture, strong university. The honest guide to living in Burgundy's capital.",
     category: "city-guide",
     emoji: "🍷",
@@ -3626,7 +3626,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lyon-best-alternatives-2026",
     title: "Leaving Lyon: where to go when France's second city stops fitting your life",
-    metaTitle: "Leaving Lyon 2026 — best alternative cities for expats and Lyonnais",
+    metaTitle: "Leaving Lyon 2026 — Best Alternative Cities for Expats",
     metaDesc: "Housing costs, commute fatigue, neighbourhood change: the honest guide to leaving Lyon and the 8 destinations worth considering in 2026.",
     category: "moving",
     emoji: "🚀",
@@ -3662,7 +3662,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-healthcare-guide-expats-2026",
     title: "French healthcare for expats: how the system works and how to use it",
-    metaTitle: "French healthcare expats 2026 — PUMA, mutuelle, GP, hospital guide",
+    metaTitle: "French healthcare expats 2026 — PUMA, mutuelle, GP",
     metaDesc: "How to register for French state healthcare (PUMA), what a mutuelle covers, how to find a GP, and what to expect from French hospitals. Practical guide for expats 2026.",
     category: "moving",
     emoji: "🏥",
@@ -3698,7 +3698,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "grenoble-relocation-guide-2026",
     title: "Living in Grenoble: the tech city with mountains at the door — an honest assessment",
-    metaTitle: "Relocating to Grenoble 2026 — expat guide: tech jobs, mountains, cost of living",
+    metaTitle: "Relocating to Grenoble 2026 — expat guide: tech jobs, mountains",
     metaDesc: "Grenoble: semiconductors, ski resorts, affordable housing, grey winters. The complete honest guide for expats and remote workers considering France's most tech-dense city outside Paris.",
     category: "city-guide",
     emoji: "⛷️",
@@ -3734,7 +3734,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-school-system-expat-guide-2026",
     title: "The French school system: what expat families need to know before enrolling",
-    metaTitle: "French school system expat guide 2026 — maternelle to baccalauréat explained",
+    metaTitle: "French School System 2026 — Expat Guide, Maternelle to Bac",
     metaDesc: "Maternelle, CP, collège, lycée, baccalauréat, international sections: everything expat parents need to understand about French education before choosing a city or school.",
     category: "family",
     emoji: "📚",
@@ -3770,7 +3770,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-seniors-retirees-2026",
     title: "Best French cities for seniors and retirees: where to live well on a fixed income",
-    metaTitle: "Best French cities for retirees 2026 — seniors guide: healthcare, climate, cost",
+    metaTitle: "Best French Cities for Retirees 2026 — Healthcare, Climate, Cost",
     metaDesc: "Healthcare access, warm climate, affordable housing, and cultural life: the 8 best French cities for retirees and seniors in 2026, with honest scores and real numbers.",
     category: "lifestyle",
     emoji: "🌞",
@@ -3806,7 +3806,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-banking-guide-expats-2026",
     title: "Banking in France as an expat: how to open an account without losing your mind",
-    metaTitle: "France banking expats 2026 — open account, best banks, transfer money",
+    metaTitle: "France banking expats 2026 — open account, best banks",
     metaDesc: "How to open a French bank account as a foreign resident, which banks accept expats easily, what to do while waiting, and how to transfer money internationally. Practical 2026 guide.",
     category: "moving",
     emoji: "🏦",
@@ -3842,7 +3842,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "montpellier-relocation-guide-2026",
     title: "Living in Montpellier: 300,000 sun hours and the housing market that goes with it",
-    metaTitle: "Relocating to Montpellier 2026 — expat guide: cost, climate, pros & cons",
+    metaTitle: "Relocating to Montpellier 2026 — expat guide: cost, climate, pros",
     metaDesc: "Montpellier: best sunshine in mainland France, top medical faculty, rising housing prices, young energy. The honest guide for expats and remote workers in 2026.",
     category: "city-guide",
     emoji: "☀️",
@@ -3878,7 +3878,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-property-tax-guide-expats-2026",
     title: "Property tax in France: what you'll actually pay as a homeowner or landlord",
-    metaTitle: "France property tax guide expats 2026 — taxe foncière, local taxes, what to expect",
+    metaTitle: "France Property Tax for Expats 2026 — Taxe Foncière Explained",
     metaDesc: "Taxe foncière, taxe d'habitation on second homes, DPE-linked surcharges: what property owners in France pay and how to avoid surprises. Practical 2026 guide.",
     category: "budget",
     emoji: "💶",
@@ -3914,7 +3914,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-scandinavian-expats-2026",
     title: "France for Scandinavian expats: the real adjustments — and why most don't regret it",
-    metaTitle: "France for Scandinavian expats 2026 — Danish, Swedish, Norwegian, Finnish guide",
+    metaTitle: "France for Scandinavian expats 2026 — Danish, Swedish, Norwegian",
     metaDesc: "What Swedes, Danes, Norwegians and Finns actually find when they move to France: bureaucracy, taxes, healthcare, social life, and which cities suit Scandinavian sensibilities best.",
     category: "moving",
     emoji: "🇫🇷",
@@ -3950,7 +3950,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-outdoor-sports-2026",
     title: "Best French cities for outdoor sports: where to live when the weekend matters as much as the job",
-    metaTitle: "Best French cities outdoor sports 2026 — cycling, skiing, hiking, surfing guide",
+    metaTitle: "Best French cities outdoor sports 2026 — cycling, skiing, hiking",
     metaDesc: "Skiing 30 minutes away, cycling routes from your door, Atlantic surf, trail running: the 8 French cities with the best outdoor sports access. Honest 2026 guide.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -3986,7 +3986,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "cost-of-living-france-paris-vs-province-2026",
     title: "Cost of living in France: Paris vs. 10 provincial cities — the real numbers",
-    metaTitle: "France cost of living 2026 — Paris vs Bordeaux, Lyon, Rennes, Nantes, Montpellier",
+    metaTitle: "France cost of living 2026 — Paris vs Bordeaux, Lyon, Rennes",
     metaDesc: "Side-by-side monthly budget comparison: Paris vs. 10 French cities. Rent, food, transport, dining out, taxes. Who saves €500/month by leaving Paris?",
     category: "budget",
     emoji: "💸",
@@ -4022,7 +4022,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-driving-licence-guide-expats-2026",
     title: "Your driving licence in France: what expats actually need to know",
-    metaTitle: "Driving Licence in France 2026 — Expat Guide: Exchange, Tests, Rules",
+    metaTitle: "Driving Licence in France 2026 — Expat Guide: Exchange, Tests",
     metaDesc: "Can you drive on your foreign licence? When do you need to exchange it? How hard is the French driving test? Honest answers for expats in France in 2026.",
     category: "moving",
     emoji: "🚗",
@@ -4058,7 +4058,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "caen-living-guide-2026",
     title: "Living in Caen: Normandy's pragmatic capital — honest expat guide",
-    metaTitle: "Living in Caen 2026 — Expat & Relocation Guide: Cost, Housing, Life",
+    metaTitle: "Living in Caen 2026 — Expat & Relocation Guide: Cost, Housing",
     metaDesc: "Caen: affordable housing, direct ferry to Portsmouth, good university, Calvados countryside. What it's genuinely like to live in Normandy's largest city.",
     category: "city-guide",
     emoji: "🏰",
@@ -4130,7 +4130,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-rental-market-expats-guide-2026",
     title: "Renting in France: what expats need to know before signing",
-    metaTitle: "Renting in France 2026 — Expat Guide: Guarantees, Deposits, Tenant Rights",
+    metaTitle: "Renting in France 2026 — Expat Guide: Guarantees, Deposits",
     metaDesc: "Proof of income, guarantors, rental deposit, tenant rights, giving notice: everything you need to rent an apartment in France as a foreigner in 2026.",
     category: "moving",
     emoji: "🏠",
@@ -4166,7 +4166,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-remote-workers-2026",
     title: "The best French cities for remote workers in 2026",
-    metaTitle: "Best French Cities for Remote Work 2026 — Fibre, Coworking, Cost & Quality of Life",
+    metaTitle: "Best French Cities for Remote Work 2026 — Fibre, Coworking, Cost",
     metaDesc: "Fibre coverage, coworking density, cost of living, climate, and community: the honest ranking of the best French cities for full-time remote workers in 2026.",
     category: "remote-work",
     emoji: "💻",
@@ -4210,7 +4210,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-visa-for-remote-workers-2026",
     title: "Working remotely from France: which visa, which status, what it costs",
-    metaTitle: "France Remote Work Visa 2026 — Visa Talent, APS, Auto-entrepreneur: Guide",
+    metaTitle: "France Remote Work Visa 2026 — Visa Talent, APS",
     metaDesc: "Non-EU citizen working remotely from France: the Visa Talent (Passeport Talent), the APS, auto-entrepreneur status, and the tax implications. Honest answers.",
     category: "remote-work",
     emoji: "🛂",
@@ -4246,7 +4246,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nice-living-guide-for-expats-2026",
     title: "Living in Nice: the honest guide for expats in 2026",
-    metaTitle: "Living in Nice 2026 — Expat Guide: Cost, Pros, Cons, Which Neighbourhood",
+    metaTitle: "Living in Nice 2026 — Expat Guide: Cost, Pros, Cons",
     metaDesc: "Nice: 300 sunny days, Italy 30 minutes away, Promenade des Anglais. But also: expensive, earthquake risk, summer crowds. The complete honest picture.",
     category: "city-guide",
     emoji: "🌊",
@@ -4282,7 +4282,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "bordeaux-living-guide-for-expats-2026",
     title: "Living in Bordeaux: the honest expat guide for 2026",
-    metaTitle: "Living in Bordeaux 2026 — Expat Guide: Cost, Neighbourhoods, Pros and Cons",
+    metaTitle: "Living in Bordeaux 2026 — Expat Guide: Cost, Neighbourhoods, Pros",
     metaDesc: "Bordeaux: wine country, TGV to Paris in 2h, affordable by French standards. But also: rising prices, Atlantic rain, tech jobs outside Paris are harder to find. Full picture.",
     category: "city-guide",
     emoji: "🍷",
@@ -4318,7 +4318,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lille-living-guide-for-expats-2026",
     title: "Living in Lille: the honest expat guide for 2026",
-    metaTitle: "Living in Lille 2026 — Expat Guide: Cost, Pros and Cons, Which Neighbourhood",
+    metaTitle: "Living in Lille 2026 — Expat Guide: Cost, Pros and Cons",
     metaDesc: "Lille: affordable, flat, well-connected to Paris and Brussels. But also: grey, cold, and a job market that depends heavily on which sector you work in. Full honest picture.",
     category: "city-guide",
     emoji: "🧇",
@@ -4354,7 +4354,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-paris-best-cities-2026",
     title: "Leaving Paris in 2026: where people actually go (and why)",
-    metaTitle: "Leaving Paris 2026 — Where to Move: Bordeaux, Nantes, Rennes, Lyon, or Smaller?",
+    metaTitle: "Leaving Paris 2026 — Where to Move: Bordeaux, Nantes, Rennes",
     metaDesc: "Paris leavers in 2026 don't all go to Bordeaux. The data on where people actually move, what they gain, what they miss, and which French cities genuinely deliver on the promise.",
     category: "lifestyle",
     emoji: "🗼",
@@ -4390,7 +4390,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "montpellier-living-guide-for-expats-2026",
     title: "Living in Montpellier: the honest expat guide for 2026",
-    metaTitle: "Living in Montpellier 2026 — Expat Guide: Cost, Beaches, University, Pros and Cons",
+    metaTitle: "Living in Montpellier 2026 — Expat Guide: Cost, Beaches",
     metaDesc: "Montpellier: Mediterranean sun, 12km from the sea, 250,000 students, TGV to Paris. But also: summer heat, housing tension, and a job market that is narrower than it looks. Full picture.",
     category: "city-guide",
     emoji: "☀️",
@@ -4426,7 +4426,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-for-families-2026",
     title: "Best French cities for families in 2026: the honest ranking",
-    metaTitle: "Best French Cities for Families 2026 — Schools, Safety, Cost, Quality of Life",
+    metaTitle: "Best French Cities for Families 2026 — Schools, Safety, Cost",
     metaDesc: "The best French cities for families in 2026, based on school quality, safety, housing costs, green space, and family infrastructure. The data-led ranking.",
     category: "family",
     emoji: "👨‍👩‍👧",
@@ -4462,7 +4462,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "grenoble-living-guide-for-expats-2026",
     title: "Living in Grenoble: the honest expat guide for 2026",
-    metaTitle: "Living in Grenoble 2026 — Expat Guide: Alps Access, Cost, Research City, Pros & Cons",
+    metaTitle: "Living in Grenoble 2026 — Expat Guide: Alps Access, Cost",
     metaDesc: "Grenoble: surrounded by three mountain ranges, Europe's leading research hub, affordable housing. But also: pollution in winter, limited nightlife, heavy industry legacy. Honest picture.",
     category: "city-guide",
     emoji: "⛰️",
@@ -4498,7 +4498,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "clermont-ferrand-living-guide-for-expats-2026",
     title: "Living in Clermont-Ferrand: the honest expat guide for 2026",
-    metaTitle: "Living in Clermont-Ferrand 2026 — Expat Guide: Volcanoes, Michelin, Cost, Pros & Cons",
+    metaTitle: "Living in Clermont-Ferrand 2026 — Expat Guide & Costs",
     metaDesc: "Clermont-Ferrand: volcanoes, Michelin, affordable housing, mountain access. And one of France's most underrated cities for quality of life. The honest expat picture for 2026.",
     category: "city-guide",
     emoji: "🌋",
@@ -4534,7 +4534,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "strasbourg-living-guide-for-expats-2026",
     title: "Living in Strasbourg as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Strasbourg 2026 — expat guide: cost of living, neighbourhoods, pros & cons",
+    metaTitle: "Living in Strasbourg 2026 — Expat Guide: Costs, Neighbourhoods",
     metaDesc: "Everything expats need to know about Strasbourg: rent, EU institutions, German border life, neighbourhoods, healthcare, and the real daily experience.",
     category: "city-guide",
     emoji: "🇪🇺",
@@ -4574,7 +4574,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "rennes-living-guide-for-expats-2026",
     title: "Living in Rennes as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Rennes 2026 — expat guide: cost of living, tech scene, Brittany life",
+    metaTitle: "Living in Rennes 2026 — expat guide: cost of living, tech scene",
     metaDesc: "Everything expats need to know about Rennes in 2026: rent, tech industry, neighbourhoods, Breton culture, and the real daily experience.",
     category: "city-guide",
     emoji: "🦁",
@@ -4614,7 +4614,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nantes-living-guide-for-expats-2026",
     title: "Living in Nantes as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Nantes 2026 — expat guide: cost of living, culture, Loire lifestyle",
+    metaTitle: "Living in Nantes 2026 — expat guide: cost of living, culture",
     metaDesc: "Everything expats need to know about Nantes in 2026: rent prices, industries, neighbourhoods, cultural scene, and the real daily experience in France's Atlantic capital.",
     category: "city-guide",
     emoji: "🐘",
@@ -4654,7 +4654,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-education-system-guide-for-expat-parents-2026",
     title: "The French Education System: What Expat Parents Need to Know (2026)",
-    metaTitle: "French Education System Guide for Expats 2026 — schools, enrolment, what to expect",
+    metaTitle: "French Education System for Expats 2026 — Schools & Enrolment",
     metaDesc: "A practical guide to enrolling children in French schools as an expat. Public vs private, maternelle to lycée, bilingual options, baccalaureate, and the realities.",
     category: "moving",
     emoji: "🎒",
@@ -4694,7 +4694,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "driving-in-france-expat-guide-2026",
     title: "Driving in France as an Expat: Licence Exchange, Rules & What's Changed (2026)",
-    metaTitle: "Driving in France as Expat 2026 — licence exchange, rules, fines, motorway system",
+    metaTitle: "Driving in France as Expat 2026 — licence exchange, rules, fines",
     metaDesc: "Complete guide to driving in France as an expat in 2026: licence exchange rules, French road laws, fines, speed cameras, motorway system, and buying a car.",
     category: "moving",
     emoji: "🚗",
@@ -4730,7 +4730,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "toulouse-living-guide-for-expats-2026",
     title: "Living in Toulouse as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Toulouse 2026 — expat guide: Airbus, cost of living, neighbourhoods, pink city",
+    metaTitle: "Living in Toulouse 2026 — expat guide: Airbus, cost of living",
     metaDesc: "Everything expats need to know about Toulouse in 2026: aerospace industry, rent, neighbourhoods, the Garonne, and the real experience of France's fourth city.",
     category: "city-guide",
     emoji: "🚀",
@@ -4770,7 +4770,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lyon-living-guide-for-expats-2026",
     title: "Living in Lyon as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Lyon 2026 — expat guide: cost of living, arrondissements, food, Rhône-Alpes",
+    metaTitle: "Living in Lyon 2026 — Expat Guide: Costs, Arrondissements, Food",
     metaDesc: "Everything expats need to know about Lyon in 2026: rent, best arrondissements, the food scene, international schools, healthcare, and the real daily experience.",
     category: "city-guide",
     emoji: "🦁",
@@ -4810,7 +4810,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "marseille-living-guide-for-expats-2026",
     title: "Living in Marseille as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Marseille 2026 — expat guide: neighbourhoods, safety, cost of living, Mediterranean life",
+    metaTitle: "Living in Marseille 2026 — expat guide: neighbourhoods, safety",
     metaDesc: "The honest guide to Marseille for expats in 2026: best neighbourhoods, realistic safety picture, cost of living, port culture, and what actually makes it work.",
     category: "city-guide",
     emoji: "⚓",
@@ -4850,7 +4850,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-renting-apartment-guide-expats-2026",
     title: "Renting a Flat in France as an Expat: The Complete Guide (2026)",
-    metaTitle: "Renting in France 2026 Expat Guide — dossier, garantie, lease, tenant rights",
+    metaTitle: "Renting in France 2026 Expat Guide — dossier, garantie, lease",
     metaDesc: "How to rent a flat in France as a foreigner in 2026: what a dossier needs, guarantees, the lease, tenant rights, and traps to avoid.",
     category: "moving",
     emoji: "🔑",
@@ -4890,7 +4890,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "bordeaux-living-guide-for-expats-deep-dive-2026",
     title: "Living in Bordeaux as an Expat in 2026: What Nobody Tells You",
-    metaTitle: "Living in Bordeaux 2026 — the real expat guide: beyond the wine and postcards",
+    metaTitle: "Living in Bordeaux 2026 — The Real Expat Guide Beyond the Wine",
     metaDesc: "The unvarnished Bordeaux expat guide for 2026: real cost of living, neighbourhoods after gentrification, the Bordeaux paradox, and what actually works long-term.",
     category: "city-guide",
     emoji: "🍷",
@@ -4930,7 +4930,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-pets-to-france-complete-guide-2026",
     title: "Moving Your Pet to France: The Complete 2026 Guide",
-    metaTitle: "Moving Pets to France 2026 — dogs, cats, requirements, paperwork, transport, vet costs",
+    metaTitle: "Moving Pets to France 2026 — dogs, cats, requirements, paperwork",
     metaDesc: "How to move your dog or cat to France in 2026: EU pet passport, rabies vaccination, microchip, airline rules, costs, vet network, and city-by-city pet-friendliness.",
     category: "moving",
     emoji: "🐾",
@@ -4970,7 +4970,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "childcare-france-expat-parents-guide-2026",
     title: "Childcare in France for Expat Parents: Nursery to Maternelle (2026)",
-    metaTitle: "Childcare in France 2026 — crèche, assistante maternelle, école maternelle, costs, expat parent guide",
+    metaTitle: "Childcare in France 2026 — crèche, assistante maternelle",
     metaDesc: "How childcare works in France in 2026 for expat parents: crèche vs. assistante maternelle vs. private daycare, school enrolment, CAF subsidies, real costs.",
     category: "family",
     emoji: "👶",
@@ -5010,7 +5010,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-climate-change-outlook-expats-2026",
     title: "France in 2040: A Climate-Informed Relocation Guide (2026)",
-    metaTitle: "France Climate 2040 — where to live as the climate changes, expat relocation guide",
+    metaTitle: "France Climate 2040 — Where to Live as the Climate Changes",
     metaDesc: "If you are moving to France in 2026 with a 10-15 year horizon, here is what climate science says about which French regions will remain liveable, and which will struggle.",
     category: "lifestyle",
     emoji: "🌡️",
@@ -5050,7 +5050,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "auto-entrepreneur-france-expat-guide-2026",
     title: "Becoming an Auto-Entrepreneur in France as an Expat (2026)",
-    metaTitle: "Auto-Entrepreneur France 2026 — micro-entreprise expat guide, registration, taxes, ceilings",
+    metaTitle: "Auto-Entrepreneur in France 2026 — Expat Guide, Taxes, Ceilings",
     metaDesc: "How to register as an auto-entrepreneur (micro-entreprise) in France in 2026 as an expat: eligibility, registration, social charges, VAT, ceilings, common traps.",
     category: "remote-work",
     emoji: "💼",
@@ -5090,7 +5090,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-utilities-internet-mobile-setup-expat-2026",
     title: "Setting Up Utilities, Internet and Mobile in France as an Expat (2026)",
-    metaTitle: "France Utilities Setup 2026 — EDF, internet, mobile, water, gas, expat guide",
+    metaTitle: "France Utilities Setup 2026 — EDF, internet, mobile, water, gas",
     metaDesc: "How to set up electricity (EDF), internet (Free, Orange, SFR), mobile, gas and water in France as an expat in 2026: providers, costs, contracts, billing.",
     category: "moving",
     emoji: "⚡",
@@ -5130,7 +5130,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "pregnancy-giving-birth-france-expat-guide-2026",
     title: "Pregnancy and Giving Birth in France as an Expat (2026)",
-    metaTitle: "Pregnancy & Birth in France 2026 — expat guide: prenatal care, hospital, costs, paperwork",
+    metaTitle: "Pregnancy & Birth in France 2026 — Expat Guide, Care, Costs",
     metaDesc: "How prenatal care and giving birth work in France for expats in 2026: gynae, sage-femme, hospital choice, costs, maternity leave, and birth registration.",
     category: "family",
     emoji: "🤰",
@@ -5170,7 +5170,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-citizenship-naturalisation-expat-guide-2026",
     title: "Becoming French: Citizenship and Naturalisation for Expats (2026)",
-    metaTitle: "French Citizenship 2026 — naturalisation, eligibility, dossier, process, expat guide",
+    metaTitle: "French Citizenship 2026 — naturalisation, eligibility, dossier",
     metaDesc: "How to obtain French citizenship in 2026 as an expat: eligibility, residency requirement, dossier, language test, naturalisation interview, timelines.",
     category: "moving",
     emoji: "🇫🇷",
@@ -5210,7 +5210,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "pacs-marriage-france-expat-guide-2026",
     title: "PACS vs Marriage in France: An Expat's Guide (2026)",
-    metaTitle: "PACS vs Marriage France 2026 — expat guide: rights, taxes, residency, procedure",
+    metaTitle: "PACS vs Marriage France 2026 — expat guide: rights, taxes",
     metaDesc: "PACS or marriage in France in 2026? Tax, residency, inheritance, social rights compared. How expats register a PACS or get married — procedure, paperwork.",
     category: "family",
     emoji: "💍",
@@ -5250,7 +5250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "shipping-belongings-to-france-expat-guide-2026",
     title: "Shipping Your Belongings to France: The 2026 Expat Guide",
-    metaTitle: "Shipping Belongings to France 2026 — costs, providers, customs, container, expat guide",
+    metaTitle: "Shipping Belongings to France 2026 — costs, providers, customs",
     metaDesc: "How to ship your furniture and belongings to France in 2026: choose a mover, sea vs air freight, customs forms, costs, what to bring and what to sell.",
     category: "moving",
     emoji: "📦",
@@ -5290,7 +5290,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "le-mans-living-guide-expats-2026",
     title: "Living in Le Mans as an Expat: A Loire-Sarthe Guide (2026)",
-    metaTitle: "Living in Le Mans 2026 — expat guide: cost of living, neighbourhoods, Paris TGV access",
+    metaTitle: "Living in Le Mans 2026 — Expat Guide: Costs, Paris by TGV",
     metaDesc: "Honest expat guide to Le Mans in 2026: 55-min TGV to Paris, half the property prices, medieval Cité Plantagenêt, real cost of living.",
     category: "city-guide",
     emoji: "🏎️",
@@ -5330,7 +5330,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "saint-etienne-living-guide-expats-2026",
     title: "Living in Saint-Étienne as an Expat: The Underdog Guide (2026)",
-    metaTitle: "Living in Saint-Étienne 2026 — expat guide: cheapest French metro, Lyon access, design city",
+    metaTitle: "Living in Saint-Étienne 2026 — Expat Guide, Cheapest Metro",
     metaDesc: "Honest expat guide to Saint-Étienne in 2026: France's cheapest major city, Lyon at 40 min, UNESCO Design City, the Stade Geoffroy-Guichard pulse.",
     category: "city-guide",
     emoji: "⚙️",
@@ -5370,7 +5370,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-lgbtq-expat-guide-2026",
     title: "France for LGBTQ+ Expats: The 2026 Guide",
-    metaTitle: "LGBTQ+ Moving to France 2026 — best cities, legal rights, community, expat guide",
+    metaTitle: "LGBTQ+ Moving to France 2026 — best cities, legal rights",
     metaDesc: "Moving to France as an LGBTQ+ expat in 2026: legal rights (marriage, adoption, healthcare), the most welcoming cities, communities and what to know.",
     category: "lifestyle",
     emoji: "🏳️‍🌈",
@@ -5410,7 +5410,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "limoges-living-guide-expats-2026",
     title: "Living in Limoges as an Expat: The Forgotten Bargain (2026)",
-    metaTitle: "Living in Limoges 2026 — expat guide: cost of living, neighbourhoods, porcelain capital",
+    metaTitle: "Living in Limoges 2026 — Expat Guide: Costs, Neighbourhoods",
     metaDesc: "Honest expat guide to Limoges in 2026: cheapest major city in France, central French nature, porcelain heritage, what it lacks and offers.",
     category: "city-guide",
     emoji: "🏺",
@@ -5450,7 +5450,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "tours-vs-orleans-loire-comparison-expats-2026",
     title: "Tours vs Orléans: Which Loire Valley City for Expats? (2026)",
-    metaTitle: "Tours vs Orléans 2026 — Loire valley expat city comparison, cost of living, transport, lifestyle",
+    metaTitle: "Tours vs Orléans 2026 — Loire Valley Expat City Comparison",
     metaDesc: "Tours or Orléans for expats in 2026? Compared by cost of living, TGV access to Paris, neighbourhoods, expat community, schools, lifestyle.",
     category: "city-guide",
     emoji: "🏰",
@@ -5494,7 +5494,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-winter-ski-expat-guide-2026",
     title: "France for Winter & Ski Lovers: The Expat Settler's Guide (2026)",
-    metaTitle: "Living in French Alps & Pyrenees 2026 — ski expat guide: where to live, costs, work, schools",
+    metaTitle: "Living in the French Alps & Pyrenees 2026 — Ski Expat Guide",
     metaDesc: "Where to live in the French Alps or Pyrenees as a ski-loving expat in 2026: best resort towns, real costs, remote work, schools, year-round liveability.",
     category: "lifestyle",
     emoji: "⛷️",
@@ -5534,7 +5534,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "biarritz-basque-coast-expat-guide-2026",
     title: "Living in Biarritz & the Basque Coast as an Expat (2026)",
-    metaTitle: "Biarritz Basque Coast 2026 — expat guide: surf, cost of living, neighbourhoods, year-round",
+    metaTitle: "Biarritz Basque Coast 2026 — expat guide: surf, cost of living",
     metaDesc: "Honest expat guide to Biarritz, Anglet, Saint-Jean-de-Luz, Bayonne in 2026: surf culture, real cost of living, neighbourhoods, Basque identity, year-round life.",
     category: "city-guide",
     emoji: "🌊",
@@ -5578,7 +5578,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "mortgage-france-foreigner-expat-guide-2026",
     title: "Getting a Mortgage in France as a Foreigner (2026)",
-    metaTitle: "France Mortgage for Foreigners 2026 — non-resident, expat, rates, banks, dossier guide",
+    metaTitle: "France Mortgage for Foreigners 2026 — non-resident, expat, rates",
     metaDesc: "How to get a mortgage in France as a foreigner in 2026: non-resident vs resident, banks, rates, dossier, LTV, broker, taxes, the complete process.",
     category: "moving",
     emoji: "🏦",
@@ -5622,7 +5622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "bringing-car-to-france-immatriculation-expat-guide-2026",
     title: "Bringing Your Car to France: Import & Registration Guide (2026)",
-    metaTitle: "Importing Car to France 2026 — immatriculation, customs, EU and non-EU, expat guide",
+    metaTitle: "Importing Car to France 2026 — immatriculation, customs, EU",
     metaDesc: "How to bring your car to France in 2026: EU vs non-EU imports, customs, TVA, technical inspection, immatriculation, costs, timeline.",
     category: "moving",
     emoji: "🚗",
@@ -5662,7 +5662,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "dental-vision-care-france-expat-guide-2026",
     title: "Dental and Vision Care in France for Expats (2026)",
-    metaTitle: "France Dental Vision Care 2026 — expat guide: costs, reimbursement, 100% santé, mutuelle",
+    metaTitle: "Dental & Vision Care in France 2026 — Expat Guide, Costs",
     metaDesc: "How dental and vision care work in France for expats in 2026: Assurance Maladie reimbursement, 100% Santé reform, mutuelle, costs of glasses, crowns, implants.",
     category: "lifestyle",
     emoji: "🦷",
@@ -5702,7 +5702,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-cross-border-workers-expat-guide-2026",
     title: "France for Cross-Border Workers: Switzerland, Germany, Luxembourg, Belgium (2026)",
-    metaTitle: "Cross-Border Workers France 2026 — Switzerland Germany Luxembourg Belgium expat guide",
+    metaTitle: "Cross-Border Workers in France 2026 — Expat Guide",
     metaDesc: "Living in France while working in Switzerland, Germany, Luxembourg or Belgium in 2026: taxation, healthcare, transport, the best border cities, costs.",
     category: "remote-work",
     emoji: "🌍",
@@ -5742,7 +5742,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "aix-en-provence-vs-marseille-expat-comparison-2026",
     title: "Aix-en-Provence vs Marseille: Which for Expats? (2026)",
-    metaTitle: "Aix vs Marseille 2026 — expat city comparison, cost of living, neighbourhoods, lifestyle",
+    metaTitle: "Aix vs Marseille 2026 — expat city comparison, cost of living",
     metaDesc: "Aix-en-Provence or Marseille for expats in 2026? Compared by cost of living, neighbourhoods, safety, schools, expat community, climate, and lifestyle.",
     category: "city-guide",
     emoji: "🌞",
@@ -5790,7 +5790,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-from-france-foreign-employer-expat-guide-2026",
     title: "Working from France for a Foreign Employer: Your Options (2026)",
-    metaTitle: "Working from France for Foreign Employer 2026 — EOR, contractor, branch, expat guide",
+    metaTitle: "Working from France for Foreign Employer 2026 — EOR, contractor",
     metaDesc: "Working remotely from France for a US, UK or international employer in 2026: employer of record (EOR), contractor status, French branch, tax and social charges.",
     category: "remote-work",
     emoji: "💻",
@@ -5834,7 +5834,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lille-north-france-expat-guide-2026",
     title: "Living in Lille and the North as an Expat (2026)",
-    metaTitle: "Living in Lille 2026 — expat guide: cost of living, Eurostar, Brussels, Paris, Hauts-de-France",
+    metaTitle: "Living in Lille 2026 — expat guide: cost of living, Eurostar",
     metaDesc: "Honest expat guide to Lille and the Hauts-de-France region in 2026: 1h to Paris, 35min to Brussels, real cost of living, neighbourhoods, the Flemish-French culture.",
     category: "city-guide",
     emoji: "🍺",
@@ -5878,7 +5878,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "studying-in-france-non-eu-students-guide-2026",
     title: "Studying in France as a Non-EU Student: The 2026 Guide",
-    metaTitle: "Studying in France 2026 — non-EU student guide: visa, fees, accommodation, work, costs",
+    metaTitle: "Studying in France 2026 — non-EU student guide: visa, fees",
     metaDesc: "Studying in France as a non-EU student in 2026: visa (VLS-TS), Campus France, universities, fees, accommodation, working rights, healthcare, life after graduation.",
     category: "moving",
     emoji: "🎓",
@@ -5922,7 +5922,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-marseille-where-to-go-expat-2026",
     title: "Leaving Marseille: Where to Go (2026)",
-    metaTitle: "Leaving Marseille 2026 — best cities to move to, alternatives, expat guide",
+    metaTitle: "Leaving Marseille 2026 — best cities to move to, alternatives",
     metaDesc: "Where to move if leaving Marseille in 2026: top alternatives by profile (family, remote work, Mediterranean lover, professional). Honest comparisons.",
     category: "city-guide",
     emoji: "🧭",
@@ -5962,7 +5962,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "perpignan-roussillon-mediterranean-expat-guide-2026",
     title: "Living in Perpignan and the Roussillon as an Expat (2026)",
-    metaTitle: "Living in Perpignan 2026 — expat guide: Mediterranean, Spain border, Catalan culture, cost of living",
+    metaTitle: "Living in Perpignan 2026 — Expat Guide: Mediterranean, Costs",
     metaDesc: "Honest expat guide to Perpignan and the French Catalan coast in 2026: cheap Mediterranean property, Spain proximity, Catalan culture, climate trade-offs.",
     category: "city-guide",
     emoji: "🍷",
@@ -6006,7 +6006,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-rural-property-france-expat-guide-2026",
     title: "Buying Rural Property in France as an Expat (2026)",
-    metaTitle: "Buying Rural Property France 2026 — expat guide: where, costs, renovation, traps",
+    metaTitle: "Buying Rural Property France 2026 — expat guide: where, costs",
     metaDesc: "How to buy rural property in France as an expat in 2026: best regions, real costs, renovation reality, water and septic, taxes, and pitfalls to avoid.",
     category: "moving",
     emoji: "🏚️",
@@ -6050,7 +6050,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lyon-expat-where-to-move-2026",
     title: "Leaving Lyon: Where to Move (2026)",
-    metaTitle: "Leaving Lyon 2026 — best cities to move to, alternatives, expat guide",
+    metaTitle: "Leaving Lyon 2026 — best cities to move to, alternatives",
     metaDesc: "Where to move from Lyon in 2026: top alternatives by profile (family, professional, cheaper, sunnier). Honest comparisons and trade-offs.",
     category: "city-guide",
     emoji: "🧭",
@@ -6090,7 +6090,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "annecy-deep-dive-expat-guide-2026",
     title: "Living in Annecy as an Expat: The Lake-and-Alps Deep Dive (2026)",
-    metaTitle: "Living in Annecy 2026 — expat guide: deep dive, neighbourhoods, cost, Geneva commute, lifestyle",
+    metaTitle: "Living in Annecy 2026 — expat guide: deep dive, neighbourhoods",
     metaDesc: "Honest deep-dive expat guide to Annecy in 2026: lake, Alps, real cost of living, Geneva commute, neighbourhoods, schools, climate, and the reality after a year.",
     category: "city-guide",
     emoji: "🏔️",
@@ -6138,7 +6138,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-property-france-step-by-step-expat-guide-2026",
     title: "Buying Property in France: The Step-by-Step Expat Guide (2026)",
-    metaTitle: "Buying Property France 2026 — step by step expat guide: process, notaire, costs, taxes",
+    metaTitle: "Buying Property in France 2026 — Step-by-Step Expat Guide",
     metaDesc: "Step-by-step guide to buying property in France in 2026: from search to keys, the notaire system, costs, taxes, common pitfalls for foreign buyers.",
     category: "moving",
     emoji: "🔑",
@@ -6182,7 +6182,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-with-disabled-chronic-illness-expat-guide-2026",
     title: "France with a Disability or Chronic Illness: An Expat Guide (2026)",
-    metaTitle: "Disability Chronic Illness France 2026 — expat guide: accessibility, healthcare, MDPH, ALD, rights",
+    metaTitle: "Disability & Chronic Illness in France 2026 — Expat Guide",
     metaDesc: "Living in France with a disability or chronic illness as an expat in 2026: accessibility, MDPH, ALD healthcare, accessible cities, benefits, and the real picture.",
     category: "lifestyle",
     emoji: "♿",
@@ -6226,7 +6226,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "navigating-cpam-doctolib-france-healthcare-expat-2026",
     title: "Navigating CPAM, Doctolib and Finding a Doctor in France (2026)",
-    metaTitle: "CPAM Doctolib France 2026 — expat guide: registration, médecin traitant, appointments, system",
+    metaTitle: "CPAM & Doctolib in France 2026 — Expat Healthcare Guide",
     metaDesc: "How to register with CPAM, declare a médecin traitant, use Doctolib and navigate the French healthcare system in 2026 as a new expat in France.",
     category: "moving",
     emoji: "🏥",
@@ -6270,7 +6270,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-pension-retirement-system-expat-guide-2026",
     title: "The French Pension and Retirement System for Expats (2026)",
-    metaTitle: "France Pension Retirement 2026 — expat guide: how it works, totalisation, EU and non-EU",
+    metaTitle: "French Pension System 2026 — Expat Guide, EU and Non-EU",
     metaDesc: "How the French pension and retirement system works for expats in 2026: regimes, totalisation with other countries, retirement age, complementary pensions, taxes.",
     category: "moving",
     emoji: "👴",
@@ -6314,7 +6314,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-holiday-home-france-expat-guide-2026",
     title: "Buying a Holiday Home (Résidence Secondaire) in France (2026)",
-    metaTitle: "France Holiday Home 2026 — résidence secondaire guide for expats: tax, costs, regions",
+    metaTitle: "Holiday Home in France 2026 — Expat Guide: Tax, Costs, Regions",
     metaDesc: "Buying a holiday home in France in 2026: best regions, tax implications, taxe d'habitation, rental income, mortgage availability for non-residents, real costs.",
     category: "moving",
     emoji: "🏖️",
@@ -6354,7 +6354,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-toulouse-where-to-move-expat-2026",
     title: "Leaving Toulouse: Where to Move (2026)",
-    metaTitle: "Leaving Toulouse 2026 — best cities to move to, alternatives, expat guide",
+    metaTitle: "Leaving Toulouse 2026 — best cities to move to, alternatives",
     metaDesc: "Where to move if leaving Toulouse in 2026: top alternatives by profile (family, aerospace careers, cheaper, cooler climate). Honest comparisons.",
     category: "city-guide",
     emoji: "🧭",
@@ -6394,7 +6394,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-vs-germany-expat-comparison-2026",
     title: "France vs Germany: Where Should an Expat Move? (2026)",
-    metaTitle: "France vs Germany 2026 — expat comparison: cost of living, salary, healthcare, language, lifestyle",
+    metaTitle: "France vs Germany 2026 — expat comparison: cost of living, salary",
     metaDesc: "France or Germany for expats in 2026? Comparing cost of living, salaries, taxes, healthcare, language, schools, lifestyle and career mobility honestly.",
     category: "lifestyle",
     emoji: "🇫🇷",
@@ -6438,7 +6438,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-bordeaux-where-to-move-expat-2026",
     title: "Leaving Bordeaux: Where to Move (2026)",
-    metaTitle: "Leaving Bordeaux 2026 — best cities to move to, alternatives, expat guide",
+    metaTitle: "Leaving Bordeaux 2026 — best cities to move to, alternatives",
     metaDesc: "Where to move from Bordeaux in 2026: top alternatives by profile (Atlantic, cheaper, family, career). Honest comparisons and trade-offs.",
     category: "city-guide",
     emoji: "🧭",
@@ -6478,7 +6478,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "reims-champagne-living-expat-guide-2026",
     title: "Living in Reims and the Champagne Region as an Expat (2026)",
-    metaTitle: "Living in Reims 2026 — expat guide: 45min TGV to Paris, Champagne capital, cost of living",
+    metaTitle: "Living in Reims 2026 — Expat Guide: 45 min to Paris, Costs",
     metaDesc: "Honest expat guide to Reims and the Champagne region in 2026: 45 minutes TGV to Paris, the Champagne industry, cost of living, neighbourhoods, family infrastructure.",
     category: "city-guide",
     emoji: "🥂",
@@ -6522,7 +6522,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "americans-retiring-in-france-deep-guide-2026",
     title: "Americans Retiring in France: The Deep 2026 Guide",
-    metaTitle: "Americans Retiring in France 2026 — deep guide: visa, healthcare, taxes, best cities",
+    metaTitle: "Americans Retiring in France 2026 — deep guide: visa, healthcare",
     metaDesc: "Americans retiring in France in 2026: long-stay visa, Medicare and healthcare, US tax obligations, FATCA, social security, where to live, real costs.",
     category: "moving",
     emoji: "🦅",
@@ -6566,7 +6566,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "vannes-morbihan-coast-living-expat-2026",
     title: "Living in Vannes and the Morbihan Coast as an Expat (2026)",
-    metaTitle: "Living in Vannes 2026 — Morbihan expat guide, Gulf of Morbihan, cost of living, neighbourhoods",
+    metaTitle: "Living in Vannes 2026 — Morbihan expat guide, Gulf of Morbihan",
     metaDesc: "Honest expat guide to Vannes and the Morbihan coast in 2026: Gulf of Morbihan, mild climate, real cost of living, neighbourhoods, family infrastructure.",
     category: "city-guide",
     emoji: "⛵",
@@ -6606,7 +6606,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "british-retiring-in-france-post-brexit-2026",
     title: "British Retiring in France Post-Brexit: The 2026 Guide",
-    metaTitle: "British Retiring France 2026 — post-Brexit guide, visa, NHS, healthcare, taxes",
+    metaTitle: "British Retiring France 2026 — post-Brexit guide, visa, NHS",
     metaDesc: "How British nationals retire in France in 2026 post-Brexit: long-stay visa, NHS-to-French healthcare transition, pension, S1 form, tax, residency.",
     category: "moving",
     emoji: "🇬🇧",
@@ -6650,7 +6650,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "caen-vs-rouen-normandy-expat-comparison-2026",
     title: "Caen vs Rouen: Which Normandy City for Expats? (2026)",
-    metaTitle: "Caen vs Rouen 2026 — Normandy expat city comparison, cost of living, Paris, lifestyle",
+    metaTitle: "Caen vs Rouen 2026 — Normandy Expat City Comparison",
     metaDesc: "Caen or Rouen for expats in 2026? Compared by cost of living, Paris access, neighbourhoods, schools, climate, lifestyle, expat community.",
     category: "city-guide",
     emoji: "⚓",
@@ -6694,7 +6694,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-tech-entrepreneurs-startup-expat-guide-2026",
     title: "France for Tech Entrepreneurs and Startup Founders (2026)",
-    metaTitle: "France Tech Entrepreneurs 2026 — startup founder expat guide: BPI, visa, ecosystems, cities",
+    metaTitle: "Tech Founders in France 2026 — Startup Expat Guide, Visa, BPI",
     metaDesc: "Founding a tech startup in France as an expat in 2026: passeport talent, BPI funding, French Tech ecosystems, best cities, tax credits, real costs.",
     category: "remote-work",
     emoji: "🚀",
@@ -6738,7 +6738,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-nice-cote-azur-where-to-move-2026",
     title: "Leaving Nice and the Côte d'Azur: Where to Move (2026)",
-    metaTitle: "Leaving Nice 2026 — best cities to move to from Côte d'Azur, alternatives, expat guide",
+    metaTitle: "Leaving Nice 2026 — Best Cities to Move to from the Côte d'Azur",
     metaDesc: "Where to move if leaving Nice or the Côte d'Azur in 2026: top alternatives by profile (Mediterranean, cheaper, family, climate). Honest comparisons.",
     category: "city-guide",
     emoji: "🧭",
@@ -6778,7 +6778,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-inheritance-succession-law-expat-guide-2026",
     title: "French Inheritance and Succession Law for Expats (2026)",
-    metaTitle: "French Inheritance Law 2026 — succession, forced heirship, wills, taxes for expats",
+    metaTitle: "French Inheritance Law 2026 — succession, forced heirship, wills",
     metaDesc: "How French succession law works for expats: forced heirship, EU Regulation 650/2012, wills, inheritance tax bands, and how to plan around French rules.",
     category: "moving",
     emoji: "⚖️",
@@ -6818,7 +6818,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "insurance-france-expat-guide-mutuelle-home-car-2026",
     title: "Insurance in France for Expats: Mutuelle, Home, Car (2026)",
-    metaTitle: "France Insurance Expat 2026 — mutuelle complementaire, home, car insurance guide",
+    metaTitle: "France Insurance Expat 2026 — mutuelle complementaire, home",
     metaDesc: "Complete expat guide to French insurance: top-up mutuelle health, home (assurance habitation), car, and the small print that catches foreigners.",
     category: "moving",
     emoji: "🛡️",
@@ -6854,7 +6854,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-corsica-expat-guide-2026",
     title: "Living in Corsica as an Expat: The Honest 2026 Guide",
-    metaTitle: "Living in Corsica 2026 — expat guide to Ajaccio, Bastia, Porto-Vecchio, costs, realities",
+    metaTitle: "Living in Corsica 2026 — expat guide to Ajaccio, Bastia",
     metaDesc: "Living in Corsica as an expat in 2026: cost of living, where to settle (Ajaccio, Bastia, Porto-Vecchio), pros, cons, what no one tells you about island life.",
     category: "lifestyle",
     emoji: "🏝️",
@@ -6890,7 +6890,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "paris-arrondissements-expat-guide-2026",
     title: "Paris Arrondissements: An Expat Guide to Picking Your District (2026)",
-    metaTitle: "Paris Arrondissements Expat 2026 — district-by-district guide, where expats live, prices",
+    metaTitle: "Paris Arrondissements 2026 — District-by-District Expat Guide",
     metaDesc: "An honest expat guide to Paris's 20 arrondissements: who lives where, rents, lifestyle, English-friendliness, best districts for families, professionals, students.",
     category: "city-guide",
     emoji: "🗼",
@@ -6930,7 +6930,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "marseille-vs-lyon-which-city-expat-2026",
     title: "Marseille vs Lyon: Which French City for Expats? (2026)",
-    metaTitle: "Marseille vs Lyon 2026 — head-to-head expat comparison, prices, job market, lifestyle",
+    metaTitle: "Marseille vs Lyon 2026 — head-to-head expat comparison, prices",
     metaDesc: "Marseille vs Lyon as an expat in 2026: cost of living, salaries, climate, safety, job market, family life. Honest head-to-head between France's #2 and #3.",
     category: "city-guide",
     emoji: "🏛️",
@@ -6974,7 +6974,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "renovating-old-french-house-expat-guide-2026",
     title: "Renovating an Old French House as an Expat: The Honest 2026 Guide",
-    metaTitle: "Renovating French House Expat 2026 — costs, permits, artisans, pitfalls guide",
+    metaTitle: "Renovating French House Expat 2026 — costs, permits, artisans",
     metaDesc: "Honest 2026 guide to renovating an old French house as an expat: costs, permits, finding artisans, dealing with the Mairie, and the budget multipliers no one warns you about.",
     category: "moving",
     emoji: "🔨",
@@ -7014,7 +7014,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-notaire-system-expat-guide-2026",
     title: "Working with a French Notaire: An Expat Guide (2026)",
-    metaTitle: "French Notaire Expat 2026 — how the notaire system works for foreigners",
+    metaTitle: "French Notaire 2026 — How the System Works for Foreigners",
     metaDesc: "The French notaire system explained for expats: what notaires do, how they differ from Anglo lawyers, fees, choosing yours, and using them for property, marriage, succession.",
     category: "moving",
     emoji: "📜",
@@ -7054,7 +7054,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-foodies-expat-2026",
     title: "Best French Cities for Foodies: An Expat Guide (2026)",
-    metaTitle: "Best French Cities Foodies 2026 — where to live for the food, ranked for expats",
+    metaTitle: "Best French Cities for Foodies 2026 — Ranked for Expats",
     metaDesc: "France for serious eaters: the cities where the food scene actually merits a move. Markets, gastronomy, restaurants, wine regions, expat-friendly cooking life.",
     category: "lifestyle",
     emoji: "🍽️",
@@ -7090,7 +7090,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-near-paris-ile-de-france-expat-guide-2026",
     title: "Living Near Paris: The Île-de-France Expat Guide (2026)",
-    metaTitle: "Living Near Paris 2026 — best Île-de-France suburbs for expats, commute, schools",
+    metaTitle: "Living Near Paris 2026 — Best Île-de-France Suburbs for Expats",
     metaDesc: "Where to live near Paris as an expat: best Île-de-France suburbs by profile (family, professional, budget), commute realities, schools, prices, with honest neighbourhood guides.",
     category: "moving",
     emoji: "🏘️",
@@ -7130,7 +7130,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-female-expats-france-guide-2026",
     title: "Solo Female Expats in France: An Honest Guide (2026)",
-    metaTitle: "Solo Female Expats France 2026 — best cities, safety, community, practical guide",
+    metaTitle: "Solo Female Expats France 2026 — best cities, safety, community",
     metaDesc: "Honest 2026 guide for solo female expats moving to France: best cities for safety and community, dating/social life, the practicalities, and what to expect.",
     category: "lifestyle",
     emoji: "🚺",
@@ -7170,7 +7170,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-vs-italy-where-to-live-expat-2026",
     title: "France vs Italy: Where Should an Expat Live? (2026)",
-    metaTitle: "France vs Italy Expat 2026 — honest comparison: cost, healthcare, lifestyle, bureaucracy",
+    metaTitle: "France vs Italy Expat 2026 — honest comparison: cost, healthcare",
     metaDesc: "France vs Italy as an expat in 2026: head-to-head on cost of living, healthcare, bureaucracy, climate, jobs, and lifestyle. Honest comparison from someone who's lived both.",
     category: "moving",
     emoji: "🇫🇷",
@@ -7210,7 +7210,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-mountain-lovers-expat-2026",
     title: "Best French Cities for Mountain Lovers: An Expat Guide (2026)",
-    metaTitle: "Best French Cities Mountain Lovers Expat 2026 — Alps, Pyrenees, Massif Central",
+    metaTitle: "Best French Cities Mountain Lovers Expat 2026 — Alps, Pyrenees",
     metaDesc: "Best French cities for mountain-loving expats: Annecy, Grenoble, Chambéry, Pau, Briançon. Skiing, hiking, climbing, expat life in the Alps and Pyrenees.",
     category: "lifestyle",
     emoji: "⛰️",
@@ -7250,7 +7250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-vs-uk-expat-comparison-2026",
     title: "France vs the UK: An Expat Comparison (2026)",
-    metaTitle: "France vs UK Expat 2026 — cost, healthcare, jobs, lifestyle, schools comparison",
+    metaTitle: "France vs UK Expat 2026 — cost, healthcare, jobs, lifestyle",
     metaDesc: "France vs the UK as an expat in 2026: head-to-head comparison on cost of living, NHS vs CPAM, schools, jobs, taxes, lifestyle. Honest read for those weighing both.",
     category: "moving",
     emoji: "🇬🇧",
@@ -7294,7 +7294,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-cycling-bike-friendly-2026",
     title: "Best French Cities for Cyclists: A Bike-Friendly Guide (2026)",
-    metaTitle: "Best French Cycling Cities 2026 — bike-friendly cities for expats and locals",
+    metaTitle: "Best French Cycling Cities 2026 — Bike-Friendly Places to Live",
     metaDesc: "Best French cities for cycling in 2026: Strasbourg, Grenoble, Bordeaux, Nantes, Rennes — bike infrastructure, daily cycling, weekend routes, cycling community.",
     category: "lifestyle",
     emoji: "🚴",
@@ -7334,7 +7334,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "dordogne-perigord-living-guide-expats-2026",
     title: "Living in the Dordogne and Périgord: the honest expat guide (2026)",
-    metaTitle: "Dordogne Périgord living guide expats 2026 — cost, community, reality",
+    metaTitle: "Dordogne Périgord living guide expats 2026 — cost, community",
     metaDesc: "Thinking of moving to the Dordogne or Périgord? The honest expat guide: costs, healthcare, English-speaking community, what no one tells you about rural France. Updated 2026.",
     category: "lifestyle",
     emoji: "🏡",
@@ -7370,7 +7370,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-alps-annecy-chambery-living-guide-2026",
     title: "Living in the French Alps: Annecy, Chambéry and the mountain lifestyle (2026)",
-    metaTitle: "French Alps living guide expats 2026 — Annecy Chambéry cost quality of life",
+    metaTitle: "Living in the French Alps 2026 — Annecy, Chambéry Expat Guide",
     metaDesc: "Moving to the French Alps: Annecy, Chambéry, Grenoble. Cost of living, skiing, outdoor lifestyle, expat community, job market. Honest guide for 2026.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -7406,7 +7406,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "occitanie-rural-lot-aveyron-tarn-expat-guide-2026",
     title: "Rural Occitanie: living in the Lot, Aveyron and Tarn as an expat (2026)",
-    metaTitle: "Lot Aveyron Tarn expat guide 2026 — rural France cheap and beautiful",
+    metaTitle: "Lot, Aveyron, Tarn Expat Guide 2026 — Cheap Rural France",
     metaDesc: "Living in rural Occitanie: the Lot, Aveyron and Tarn. Affordable property, space, landscape, honest assessment of healthcare and community. Expat guide 2026.",
     category: "lifestyle",
     emoji: "🌾",
@@ -7442,7 +7442,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "bordeaux-wine-country-medoc-saint-emilion-living-2026",
     title: "Living in Bordeaux wine country: the Médoc, Saint-Émilion and surrounds (2026)",
-    metaTitle: "Bordeaux wine country living expats 2026 — Médoc Saint-Émilion guide",
+    metaTitle: "Living in Bordeaux Wine Country 2026 — Médoc, Saint-Émilion",
     metaDesc: "Living in the Bordeaux wine country: the Médoc, Saint-Émilion, Entre-Deux-Mers. Property, lifestyle, expat community, distance to Bordeaux city. Honest guide 2026.",
     category: "lifestyle",
     emoji: "🍷",
@@ -7478,7 +7478,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "normandy-coast-versus-brittany-coast-expat-2026",
     title: "Normandy coast vs Brittany coast: which is right for you? (2026 expat guide)",
-    metaTitle: "Normandy vs Brittany coast expat 2026 — cost, climate, community comparison",
+    metaTitle: "Normandy vs Brittany coast expat 2026 — cost, climate",
     metaDesc: "Normandy coast vs Brittany coast for expats: honest comparison of costs, climate, community size, ferry access, quality of life. Which Atlantic coast suits you? Guide 2026.",
     category: "moving",
     emoji: "⚓",
@@ -7514,7 +7514,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-cities-for-food-lovers-expat-guide-2026",
     title: "The best French cities for food lovers: an expat's guide (2026)",
-    metaTitle: "Best French cities food lovers expats 2026 — markets, restaurants, gastronomy",
+    metaTitle: "Best French cities food lovers expats 2026 — markets, restaurants",
     metaDesc: "Best French cities for food lovers: local markets, restaurants, food culture, regional specialities. Honest guide for expats who put food at the centre of the decision. 2026.",
     category: "lifestyle",
     emoji: "🧀",
@@ -7678,7 +7678,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-bayonne-pays-basque-expat-guide-2026",
     title: "Living in Bayonne: the Basque Capital That Nobody Overhypes (2026)",
-    metaTitle: "Living in Bayonne and the French Basque Country: honest expat guide 2026",
+    metaTitle: "Living in Bayonne & the French Basque Country — Expat Guide 2026",
     metaDesc: "Bayonne, Anglet, Biarritz: the real costs, the real character, and what it's like to actually live on the Basque coast versus just holiday there.",
     category: "city-guide",
     emoji: "🦅",
@@ -7798,7 +7798,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "rouen-living-guide-expats-2026",
     title: "Living in Rouen: the expat guide 2026",
-    metaTitle: "Living in Rouen, France: Expat Guide 2026 | Costs, Neighbourhoods, Pros & Cons",
+    metaTitle: "Living in Rouen, France: Expat Guide 2026 | Costs, Neighbourhoods",
     metaDesc: "Honest expat guide to living in Rouen: property prices €1,900–3,200/m², rents, best quartiers, 75 minutes from Paris, healthcare, schools.",
     category: "city-guide",
     emoji: "⚓",
@@ -7842,7 +7842,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "orleans-living-guide-expats-2026",
     title: "Living in Orléans: the expat guide 2026",
-    metaTitle: "Living in Orléans, France: Expat Guide 2026 | Loire Valley, Paris 1h, Costs",
+    metaTitle: "Living in Orléans: Expat Guide 2026 | Loire Valley, Paris 1h",
     metaDesc: "Complete expat guide to Orléans: property prices €2,200–3,400/m², trams, best quartiers, 1h05 from Paris, Loire Valley lifestyle.",
     category: "city-guide",
     emoji: "⚔️",
@@ -7886,7 +7886,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "besancon-living-guide-expats-2026",
     title: "Living in Besançon: the expat's complete guide 2026",
-    metaTitle: "Living in Besançon, France: Expat Guide 2026 | UNESCO Citadel, Swiss Border, Costs",
+    metaTitle: "Living in Besançon: Expat Guide 2026 | Citadel, Swiss Border",
     metaDesc: "Honest expat guide to Besançon: property €1,700–2,800/m², tram city, Swiss border lifestyle, healthcare city, Franche-Comté at its best.",
     category: "city-guide",
     emoji: "🏰",
@@ -7930,7 +7930,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-buy-to-let-investment-guide-2026",
     title: "Buy-to-let in France: the honest investor's guide 2026",
-    metaTitle: "Buy-to-Let in France 2026: Best Cities, Rental Yields, Tax, Expat Guide",
+    metaTitle: "Buy-to-Let in France 2026: Best Cities, Rental Yields, Tax",
     metaDesc: "Honest guide to property investment in France as a foreigner: best cities for rental yield, LMNP tax regime, student cities, coastal vs inland, yield data by city.",
     category: "budget",
     emoji: "🏠",
@@ -7974,7 +7974,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "atlantic-coast-france-best-cities-expats-2026",
     title: "Living on the Atlantic coast of France: expat guide 2026",
-    metaTitle: "Atlantic Coast France: Best Cities for Expats 2026 | La Rochelle, Biarritz, Nantes",
+    metaTitle: "Atlantic Coast France: Best Cities for Expats 2026",
     metaDesc: "Complete guide to the French Atlantic coast for expats: La Rochelle, Nantes, Biarritz, Bayonne, Vannes. Costs, climate, surfing, lifestyle, honest comparison.",
     category: "lifestyle",
     emoji: "🌊",
@@ -8018,7 +8018,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "sunshine-cities-france-beat-winter-blues-expats-2026",
     title: "France's sunniest cities: beating the winter blues as an expat",
-    metaTitle: "Sunniest Cities in France 2026: Beat Winter Blues, Best for SAD, Expat Guide",
+    metaTitle: "Sunniest Cities in France 2026: Beat Winter Blues, Best for SAD",
     metaDesc: "Which French cities get the most winter sunshine? Ranked and explained for expats who struggle with grey winters: Mediterranean vs Atlantic, data vs myths.",
     category: "lifestyle",
     emoji: "☀️",
@@ -8062,7 +8062,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-aix-en-provence-where-to-go-2026",
     title: "Leaving Aix-en-Provence: where to go when Provence gets too expensive",
-    metaTitle: "Leaving Aix-en-Provence 2026: Best Alternatives for Expats | Cheaper Provence Options",
+    metaTitle: "Leaving Aix-en-Provence 2026: Cheaper Provence Alternatives",
     metaDesc: "Aix-en-Provence at €5,000–6,500/m²: where do expats go when they leave? Avignon, Arles, Toulon, Nîmes — honest comparison for 2026.",
     category: "lifestyle",
     emoji: "🌿",
@@ -8102,7 +8102,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-strasbourg-where-to-go-expat-2026",
     title: "Leaving Strasbourg: where to go when Alsace feels small",
-    metaTitle: "Leaving Strasbourg 2026: Best Alternatives for Expats | Colmar, Nancy, Basel",
+    metaTitle: "Leaving Strasbourg 2026: Alternatives | Colmar, Nancy, Basel",
     metaDesc: "Honest guide to leaving Strasbourg in 2026: Colmar, Nancy, Metz, or crossing into Germany/Switzerland. Costs, why people leave, what to expect.",
     category: "lifestyle",
     emoji: "🥨",
@@ -8142,7 +8142,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-grenoble-where-to-go-2026",
     title: "Leaving Grenoble: the honest guide to alternatives in 2026",
-    metaTitle: "Leaving Grenoble 2026: Best Alternatives | Annecy, Lyon, Valence, Chambéry",
+    metaTitle: "Leaving Grenoble 2026: Best Alternatives | Annecy, Lyon, Valence",
     metaDesc: "Honest guide to leaving Grenoble for expats: Annecy, Lyon, Valence, Chambéry. Why people leave, what they find, costs. Complete 2026 guide.",
     category: "lifestyle",
     emoji: "⛷️",
@@ -8182,7 +8182,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-annecy-where-to-go-expat-2026",
     title: "Leaving Annecy: when the most beautiful French city gets too expensive",
-    metaTitle: "Leaving Annecy 2026: Cheaper Alpine Alternatives | Chambéry, Grenoble, Aix-les-Bains",
+    metaTitle: "Leaving Annecy 2026: Cheaper Alpine Alternatives for Expats",
     metaDesc: "Annecy at €4,500–7,000/m²: honest guide to leaving when costs become unsustainable. Chambéry, Grenoble, Aix-les-Bains, Thonon-les-Bains — real alternatives.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -8222,7 +8222,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-biarritz-where-to-go-2026",
     title: "Leaving Biarritz: where to go when the Basque coast gets unaffordable",
-    metaTitle: "Leaving Biarritz 2026: Cheaper Alternatives | Bayonne, Anglet, Dax, Pau",
+    metaTitle: "Leaving Biarritz 2026: Cheaper Alternatives | Bayonne, Anglet",
     metaDesc: "Biarritz at €5,000–7,500/m²: honest guide to leaving. Bayonne, Anglet, Saint-Jean-de-Luz, Dax — where expats go and what they find. 2026 guide.",
     category: "lifestyle",
     emoji: "🏄",
@@ -8262,7 +8262,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lille-where-to-go-expat-2026",
     title: "Leaving Lille: where to go when northern France isn't enough",
-    metaTitle: "Leaving Lille 2026: Best Alternatives for Expats | Ghent, Amiens, Paris, Brussels",
+    metaTitle: "Leaving Lille 2026: Best Alternatives for Expats | Ghent, Amiens",
     metaDesc: "Honest guide to leaving Lille for expats: Ghent, Brussels, Amiens, Reims, Paris. Why people leave, where they go, costs. 2026 guide.",
     category: "lifestyle",
     emoji: "🍺",
@@ -8302,7 +8302,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nice-vs-marseille-expat-comparison-2026",
     title: "Nice vs Marseille: which city for expats in 2026?",
-    metaTitle: "Nice vs Marseille 2026: Which City for Expats? Honest Comparison | Costs, Lifestyle",
+    metaTitle: "Nice vs Marseille 2026: Which City for Expats? Costs, Lifestyle",
     metaDesc: "Nice vs Marseille for expats: honest comparison of costs, property prices, lifestyle, safety, healthcare, transport. Which Mediterranean city wins for you?",
     category: "city-guide",
     emoji: "🌊",
@@ -8342,7 +8342,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lyon-vs-bordeaux-expat-comparison-2026",
     title: "Lyon vs Bordeaux for expats: which French city in 2026?",
-    metaTitle: "Lyon vs Bordeaux 2026: Which City for Expats? Complete Honest Comparison",
+    metaTitle: "Lyon vs Bordeaux 2026: Which City for Expats? Honest Comparison",
     metaDesc: "Lyon vs Bordeaux for expats: costs, property, job market, lifestyle, food scene. Which of France's two most popular expat cities is right for you?",
     category: "city-guide",
     emoji: "🍷",
@@ -8382,7 +8382,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "rennes-vs-nantes-expat-comparison-2026",
     title: "Rennes vs Nantes: which Atlantic France city for expats?",
-    metaTitle: "Rennes vs Nantes 2026: Which City for Expats? Brittany vs Loire Comparison",
+    metaTitle: "Rennes vs Nantes 2026: Which City for Expats?",
     metaDesc: "Rennes vs Nantes for expats: costs, property, tech economy, lifestyle, transport. Two of France's most dynamic cities — which one is right for your profile?",
     category: "city-guide",
     emoji: "🦁",
@@ -8422,7 +8422,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "montpellier-vs-toulouse-expat-comparison-2026",
     title: "Montpellier vs Toulouse: Occitania for expats in 2026",
-    metaTitle: "Montpellier vs Toulouse 2026: Which Occitanie City for Expats? Complete Guide",
+    metaTitle: "Montpellier vs Toulouse 2026: Which Occitanie City for Expats?",
     metaDesc: "Montpellier vs Toulouse for expats: costs, careers, sunshine, students, lifestyle. Which Occitanie city wins for your profile?",
     category: "city-guide",
     emoji: "☀️",
@@ -8462,7 +8462,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nantes-vs-bordeaux-expat-comparison-2026",
     title: "Nantes vs Bordeaux: which Atlantic city for expats in 2026?",
-    metaTitle: "Nantes vs Bordeaux 2026: Which City for Expats? Atlantic France Comparison",
+    metaTitle: "Nantes vs Bordeaux 2026: Which Atlantic City for Expats?",
     metaDesc: "Nantes vs Bordeaux for expats: costs, jobs, lifestyle, climate, wine versus Brittany. Which Atlantic city is right for you in 2026?",
     category: "city-guide",
     emoji: "🍇",
@@ -8502,7 +8502,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "strasbourg-vs-colmar-alsace-expat-2026",
     title: "Strasbourg vs Colmar: which Alsace city for expats?",
-    metaTitle: "Strasbourg vs Colmar 2026: Which Alsace City for Expats? Honest Comparison",
+    metaTitle: "Strasbourg vs Colmar 2026: Which Alsace City for Expats?",
     metaDesc: "Strasbourg vs Colmar for expats: costs, EU careers, Basel access, Alsatian life. Which Alsace city is right for your profile?",
     category: "city-guide",
     emoji: "🥨",
@@ -8542,7 +8542,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "toulouse-for-expats-complete-guide-2026",
     title: "Moving to Toulouse: the complete expat guide (2026)",
-    metaTitle: "Moving to Toulouse 2026: Complete Expat Guide — Costs, Jobs, Neighbourhoods",
+    metaTitle: "Moving to Toulouse 2026: Complete Expat Guide — Costs, Jobs",
     metaDesc: "Everything about moving to Toulouse as an expat: property prices, Airbus jobs, English-speaking community, best neighbourhoods, healthcare, schools. Honest 2026 guide.",
     category: "city-guide",
     emoji: "✈️",
@@ -8582,7 +8582,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "bordeaux-for-expats-complete-guide-2026",
     title: "Moving to Bordeaux: the complete expat guide (2026)",
-    metaTitle: "Moving to Bordeaux 2026: Complete Expat Guide — Costs, Wine, Neighbourhoods",
+    metaTitle: "Moving to Bordeaux 2026: Complete Expat Guide — Costs, Wine",
     metaDesc: "Everything about moving to Bordeaux as an expat: property prices by quarter, English-speaking community, best neighbourhoods, lifestyle, healthcare. Honest 2026 guide.",
     category: "city-guide",
     emoji: "🍷",
@@ -8618,7 +8618,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-to-france-best-cities-2026",
     title: "Retiring to France in 2026: which cities actually work for expat retirees?",
-    metaTitle: "Retiring to France 2026: Best Cities for Expat Retirees — Honest Guide",
+    metaTitle: "Retiring to France 2026: Best Cities for Expat Retirees",
     metaDesc: "Planning to retire in France? The cities that actually work for English-speaking retirees: healthcare access, cost of living, English community, climate. Honest comparison 2026.",
     category: "lifestyle",
     emoji: "🌅",
@@ -8658,7 +8658,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nice-vs-marseille-expat-guide-2026",
     title: "Nice vs Marseille: which Mediterranean city for expats in 2026?",
-    metaTitle: "Nice vs Marseille 2026: Which Mediterranean City for Expats? Honest Comparison",
+    metaTitle: "Nice vs Marseille 2026: Which Mediterranean City for Expats?",
     metaDesc: "Nice or Marseille for expats? Property prices, safety, English community, beaches, careers. Two very different Mediterranean cities. Honest 2026 comparison.",
     category: "city-guide",
     emoji: "🌊",
@@ -8694,7 +8694,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-alps-cities-expats-annecy-grenoble-chambery-2026",
     title: "French Alps cities for expats: Annecy, Grenoble, or Chambéry?",
-    metaTitle: "Annecy vs Grenoble vs Chambéry 2026: Which Alpine City for Expats?",
+    metaTitle: "Annecy vs Grenoble vs Chambéry 2026: Which City for Expats?",
     metaDesc: "Annecy, Grenoble, or Chambéry for expats? Property prices, jobs, mountains access, English community. Honest 2026 comparison of the three main French Alps cities.",
     category: "city-guide",
     emoji: "⛰️",
@@ -8730,7 +8730,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lyon-for-expats-complete-guide-2026",
     title: "Moving to Lyon: the complete expat guide (2026)",
-    metaTitle: "Moving to Lyon 2026: Complete Expat Guide — Costs, Food, Neighbourhoods",
+    metaTitle: "Moving to Lyon 2026: Complete Expat Guide — Costs, Food",
     metaDesc: "Everything about moving to Lyon as an expat: property prices, Presqu'île vs Croix-Rousse, food culture, English community, jobs. Honest 2026 expat guide.",
     category: "city-guide",
     emoji: "🥩",
@@ -8878,7 +8878,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "marseille-for-expats-honest-guide-2026",
     title: "Moving to Marseille: an honest expat guide (2026)",
-    metaTitle: "Moving to Marseille 2026: Honest Expat Guide — Neighbourhoods, Safety, Costs",
+    metaTitle: "Moving to Marseille 2026: Honest Expat Guide, Safety, Costs",
     metaDesc: "Honest guide to moving to Marseille as an expat: which neighbourhoods work, what safety is actually like, costs, the cultural adjustment. 2026 reality check.",
     category: "city-guide",
     emoji: "⚓",
@@ -8914,7 +8914,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "rennes-for-expats-guide-2026",
     title: "Moving to Rennes: the expat guide (2026)",
-    metaTitle: "Moving to Rennes 2026: Expat Guide — Tech Jobs, Breton Life, Costs",
+    metaTitle: "Moving to Rennes 2026: Expat Guide — Tech Jobs, Breton Life",
     metaDesc: "Rennes for expats: the tech hub, Breton culture, property prices, English community, getting settled. Honest 2026 guide for anyone considering Rennes.",
     category: "city-guide",
     emoji: "🌊",
@@ -9058,7 +9058,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-remote-workers-complete-guide-2026",
     title: "France for remote workers: the complete guide (2026)",
-    metaTitle: "France for Remote Workers 2026: Complete Guide — Visa, Cities, Costs, Internet",
+    metaTitle: "France for Remote Workers 2026: Complete Guide — Visa, Cities",
     metaDesc: "Everything about working remotely from France: the best cities, internet quality, co-working spaces, visa options, tax implications. Complete 2026 guide for remote workers.",
     category: "remote-work",
     emoji: "💻",
@@ -9094,7 +9094,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nantes-for-expats-guide-2026",
     title: "Moving to Nantes: the expat guide (2026)",
-    metaTitle: "Moving to Nantes 2026: Expat Guide — Atlantic City, Costs, English Community",
+    metaTitle: "Moving to Nantes 2026: Expat Guide — Atlantic City, Costs",
     metaDesc: "Nantes for expats: Atlantic city life, property prices, English community, Pays de la Loire lifestyle. Honest 2026 guide for anyone considering Nantes.",
     category: "city-guide",
     emoji: "🏰",
@@ -9166,7 +9166,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "expat-families-france-which-cities-2026",
     title: "France for expat families: which cities work best in 2026?",
-    metaTitle: "Best Cities France for Expat Families 2026: Schools, Safety, Quality of Life",
+    metaTitle: "Best Cities France for Expat Families 2026: Schools, Safety",
     metaDesc: "Best French cities for expat families: international schools, safe neighbourhoods, parks, space. Honest 2026 guide for families moving to France.",
     category: "family",
     emoji: "👨‍👩‍👧",
@@ -9202,7 +9202,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "grenoble-for-expats-guide-2026",
     title: "Moving to Grenoble: the expat guide (2026)",
-    metaTitle: "Moving to Grenoble 2026: Expat Guide — Science City, Alps Access, Costs",
+    metaTitle: "Moving to Grenoble 2026: Expat Guide — Science City, Alps Access",
     metaDesc: "Grenoble for expats: CERN, CEA, ski slopes from the city, international scientific community, property prices. Honest 2026 guide.",
     category: "city-guide",
     emoji: "⛷️",
@@ -9240,7 +9240,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-bureaucracy-survival-guide-2026",
     title: "French Bureaucracy Survival Guide for Expats (2026)",
-    metaTitle: "French Bureaucracy Survival Guide 2026 — Visa, CAF, CPAM, Titre de Séjour",
+    metaTitle: "French Bureaucracy Survival Guide 2026 — Visa, CAF, CPAM",
     metaDesc: "A no-nonsense walkthrough of French admin: residence permits, CAF housing aid, CPAM health coverage, bank accounts, and the prefecture system — what to expect and in what order.",
     category: "moving",
     emoji: "📋",
@@ -9288,7 +9288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-property-in-france-expat-guide-2026",
     title: "Buying Property in France as a Foreigner — Complete Guide (2026)",
-    metaTitle: "Buying Property in France as a Foreigner 2026 — Step-by-Step Guide",
+    metaTitle: "Buying Property in France as a Foreigner 2026 — Full Guide",
     metaDesc: "How to buy a house or apartment in France as a non-resident or expat: the notaire process, mortgage rules, taxes, fees, and what the agents won't tell you upfront.",
     category: "moving",
     emoji: "🏡",
@@ -9332,7 +9332,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lyon-vs-bordeaux-which-city-to-move-to-2026",
     title: "Lyon vs Bordeaux — Which French City Should You Move To? (2026)",
-    metaTitle: "Lyon vs Bordeaux 2026 — Expat City Comparison: Cost, Jobs, Lifestyle",
+    metaTitle: "Lyon vs Bordeaux 2026 — Expat City Comparison: Cost, Jobs",
     metaDesc: "A direct comparison of Lyon and Bordeaux for expats and remote workers: property prices, job market, transport, climate, cultural life, and daily quality of life in 2026.",
     category: "city-guide",
     emoji: "⚖️",
@@ -9420,7 +9420,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "learning-french-in-france-guide-2026",
     title: "Learning French in France — Schools, Methods, and Realistic Expectations (2026)",
-    metaTitle: "Learning French in France 2026 — Language Schools, Apps, Immersion Guide",
+    metaTitle: "Learning French in France 2026 — Language Schools, Apps",
     metaDesc: "How to learn French as an expat living in France: language schools, Alliance Française, immersion strategies, DELF/DALF certification, and realistic timelines by level.",
     category: "moving",
     emoji: "🗣️",
@@ -9460,7 +9460,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-to-france-guide-2026",
     title: "Retiring to France — A Realistic Guide for Non-EU Nationals (2026)",
-    metaTitle: "Retiring to France 2026 — Visa, Taxes, Healthcare, Best Cities Guide",
+    metaTitle: "Retiring to France 2026 — Visa, Taxes, Healthcare",
     metaDesc: "How to retire to France as a British, American, or non-EU national: long-stay visa, income requirements, tax treaties, healthcare options, and the best cities for retirees.",
     category: "moving",
     emoji: "🌻",
@@ -10544,7 +10544,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-arles-2026",
     title: "Things to do in Arles: Roman stones and Van Gogh's light",
-    metaTitle: "Things to Do in Arles (2026) — Roman Arena, Van Gogh & the Camargue",
+    metaTitle: "Things to Do in Arles (2026) — Roman Arena, Van Gogh",
     metaDesc:
       "Arles's Roman amphitheatre, the Van Gogh trail, the world-class photography festival and the wild Camargue on its doorstep.",
     category: "city-guide",
@@ -10586,7 +10586,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nimes-2026",
     title: "Things to do in Nîmes: the best-preserved Roman city in France",
-    metaTitle: "Things to Do in Nîmes (2026) — Roman Arena, Maison Carrée & Pont du Gard",
+    metaTitle: "Things to Do in Nîmes (2026) — Roman Arena, Maison Carrée",
     metaDesc:
       "Nîmes's astonishing Roman amphitheatre and temple, the modern Musée de la Romanité, the gardens, and the Pont du Gard nearby.",
     category: "city-guide",
@@ -10628,7 +10628,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bayeux-2026",
     title: "Things to do in Bayeux: the Tapestry and the D-Day beaches",
-    metaTitle: "Things to Do in Bayeux (2026) — The Tapestry, Cathedral & D-Day Beaches",
+    metaTitle: "Things to Do in Bayeux (2026) — The Tapestry, Cathedral",
     metaDesc:
       "Bayeux's medieval tapestry, its soaring cathedral, the spared old town, and the D-Day landing beaches and cemeteries on its doorstep.",
     category: "city-guide",
@@ -10704,7 +10704,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tours-2026",
     title: "Things to do in Tours: the gateway to the Loire châteaux",
-    metaTitle: "Things to Do in Tours (2026) — Old Town, Cathedral & Loire Châteaux",
+    metaTitle: "Things to Do in Tours (2026) — Old Town, Cathedral",
     metaDesc:
       "Tours's handsome old town and cathedral, its lively student energy and food scene, and the great Loire Valley châteaux on its doorstep.",
     category: "city-guide",
@@ -10746,7 +10746,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-beaune-2026",
     title: "Things to do in Beaune: the capital of Burgundy wine",
-    metaTitle: "Things to Do in Beaune (2026) — Hospices, Wine Cellars & the Côte d'Or",
+    metaTitle: "Things to Do in Beaune (2026) — Hospices, Wine Cellars",
     metaDesc:
       "Beaune's glittering Hospices, the cellars beneath the ramparts, the Côte de Beaune vineyards and the grand cru villages all around.",
     category: "city-guide",
@@ -10784,7 +10784,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sarlat-la-caneda-2026",
     title: "Things to do in Sarlat: the golden capital of the Dordogne",
-    metaTitle: "Things to Do in Sarlat (2026) — Medieval Town, Markets & the Dordogne",
+    metaTitle: "Things to Do in Sarlat (2026) — Medieval Town, Markets",
     metaDesc:
       "Sarlat's honey-stone medieval centre, its famous markets and foie gras, and the castles, caves and river valleys of the Périgord around it.",
     category: "city-guide",
@@ -10864,7 +10864,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-paul-de-vence-2026",
     title: "Things to do in Saint-Paul-de-Vence: an art village above the coast",
-    metaTitle: "Things to Do in Saint-Paul-de-Vence (2026) — Ramparts, Galleries & the Maeght",
+    metaTitle: "Things to Do in Saint-Paul-de-Vence (2026) — Ramparts, Galleries",
     metaDesc:
       "Saint-Paul-de-Vence's ramparts and galleries, the world-class Fondation Maeght, the artists' legacy and nearby Vence and the coast.",
     category: "city-guide",
@@ -10902,7 +10902,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-ajaccio-2026",
     title: "Things to do in Ajaccio: Napoleon's city on the Corsican coast",
-    metaTitle: "Things to Do in Ajaccio (2026) — Napoleon, Beaches & the Sanguinaires",
+    metaTitle: "Things to Do in Ajaccio (2026) — Napoleon, Beaches",
     metaDesc:
       "Ajaccio's Napoleon heritage, its old town and market, the golden beaches and the boat trip out to the Sanguinaire islands.",
     category: "city-guide",
@@ -10978,7 +10978,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-blois-2026",
     title: "Things to do in Blois: a royal city between Chambord and Chambord",
-    metaTitle: "Things to Do in Blois (2026) — Royal Château, Old Town & the Loire",
+    metaTitle: "Things to Do in Blois (2026) — Royal Château, Old Town",
     metaDesc:
       "Blois's royal château with its famous spiral staircase, the steep old town, the house of magic, and Chambord and Chaumont nearby.",
     category: "city-guide",
@@ -11088,7 +11088,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bayonne-2026",
     title: "Things to do in Bayonne: chocolate, ham and Basque colour",
-    metaTitle: "Things to Do in Bayonne (2026) — Old Town, Cathedral & Basque Culture",
+    metaTitle: "Things to Do in Bayonne (2026) — Old Town, Cathedral",
     metaDesc:
       "Bayonne's red-and-green Basque old town, its Gothic cathedral, the famous ham and chocolate, the Basque museum and nearby Biarritz.",
     category: "city-guide",
@@ -11164,7 +11164,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dinan-2026",
     title: "Things to do in Dinan: a walled medieval town above the Rance",
-    metaTitle: "Things to Do in Dinan (2026) — Ramparts, Old Town & the Rance Valley",
+    metaTitle: "Things to Do in Dinan (2026) — Ramparts, Old Town",
     metaDesc:
       "Dinan's complete medieval ramparts, the cobbled old town and timber houses, the steep port on the Rance, and Brittany's north coast nearby.",
     category: "city-guide",
@@ -11278,7 +11278,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gordes-2026",
     title: "Things to do in Gordes: the postcard hill village of the Luberon",
-    metaTitle: "Things to Do in Gordes (2026) — Hill Village, Sénanque & the Luberon",
+    metaTitle: "Things to Do in Gordes (2026) — Hill Village, Sénanque",
     metaDesc:
       "Gordes's tumbling stone village, the lavender abbey of Sénanque, the dry-stone Village des Bories, and the Luberon villages around it.",
     category: "city-guide",
@@ -11316,7 +11316,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-metz-2026",
     title: "Things to do in Metz: golden stone, glass and a Pompidou",
-    metaTitle: "Things to Do in Metz (2026) — Cathedral, Centre Pompidou & Old Town",
+    metaTitle: "Things to Do in Metz (2026) — Cathedral, Centre Pompidou",
     metaDesc:
       "Metz's luminous Gothic cathedral, the Centre Pompidou-Metz, the German Imperial quarter and the gardens along the Moselle.",
     category: "city-guide",
@@ -11354,7 +11354,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nancy-2026",
     title: "Things to do in Nancy: a royal square and Art Nouveau",
-    metaTitle: "Things to Do in Nancy (2026) — Place Stanislas, Art Nouveau & Old Town",
+    metaTitle: "Things to Do in Nancy (2026) — Place Stanislas, Art Nouveau",
     metaDesc:
       "Nancy's golden Place Stanislas, the Art Nouveau of the École de Nancy, the medieval old town and the ducal palace.",
     category: "city-guide",
@@ -11426,7 +11426,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-arcachon-2026",
     title: "Things to do in Arcachon: oysters, dunes and the bay",
-    metaTitle: "Things to Do in Arcachon (2026) — Dune du Pilat, Oysters & the Bay",
+    metaTitle: "Things to Do in Arcachon (2026) — Dune du Pilat, Oysters",
     metaDesc:
       "Arcachon's belle-époque villas, the towering Dune du Pilat, the oyster ports of the bay, and boat trips to the Île aux Oiseaux.",
     category: "city-guide",
@@ -11464,7 +11464,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-collioure-2026",
     title: "Things to do in Collioure: the Catalan harbour that inspired Fauvism",
-    metaTitle: "Things to Do in Collioure (2026) — Harbour, Castle & the Fauvist Trail",
+    metaTitle: "Things to Do in Collioure (2026) — Harbour, Castle",
     metaDesc:
       "Collioure's bell-tower harbour, the royal castle, the Fauvism trail of Matisse and Derain, the anchovies, and the Vermilion Coast.",
     category: "city-guide",
@@ -11502,7 +11502,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pau-2026",
     title: "Things to do in Pau: a Pyrenean balcony and a royal castle",
-    metaTitle: "Things to Do in Pau (2026) — Château, Boulevard des Pyrénées & Funicular",
+    metaTitle: "Things to Do in Pau (2026) — Château, Boulevard des Pyrénées",
     metaDesc:
       "Pau's royal castle birthplace of Henri IV, the mountain-view Boulevard des Pyrénées, the English-era parks and the gateway to the Pyrenees.",
     category: "city-guide",
@@ -11578,7 +11578,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-royan-2026",
     title: "Things to do in Royan: 1950s seaside modernism and Atlantic beaches",
-    metaTitle: "Things to Do in Royan (2026) — Beaches, Modernist Architecture & the Estuary",
+    metaTitle: "Things to Do in Royan (2026) — Beaches, Modernist Architecture",
     metaDesc:
       "Royan's curved 1950s architecture, the concrete Notre-Dame church, the sandy conches, and the Gironde estuary and Zoo de la Palmyre nearby.",
     category: "city-guide",
@@ -11692,7 +11692,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-albi-2026",
     title: "Things to do in Albi: a red-brick cathedral-fortress and Toulouse-Lautrec",
-    metaTitle: "Things to Do in Albi (2026) — Sainte-Cécile, Toulouse-Lautrec & the Old Town",
+    metaTitle: "Things to Do in Albi (2026) — Sainte-Cécile, Toulouse-Lautrec",
     metaDesc:
       "Albi's vast brick cathedral, the Toulouse-Lautrec museum in the bishop's palace, the UNESCO old town and the banks of the Tarn.",
     category: "city-guide",
@@ -11726,7 +11726,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cahors-2026",
     title: "Things to do in Cahors: a fortified bridge and dark red wine",
-    metaTitle: "Things to Do in Cahors (2026) — Pont Valentré, Old Town & Lot Valley",
+    metaTitle: "Things to Do in Cahors (2026) — Pont Valentré, Old Town",
     metaDesc:
       "Cahors's UNESCO fortified medieval bridge, the cathedral and old town in a loop of the Lot, the black wine, and the valley beyond.",
     category: "city-guide",
@@ -11764,7 +11764,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-perigueux-2026",
     title: "Things to do in Périgueux: Roman ruins and a domed cathedral",
-    metaTitle: "Things to Do in Périgueux (2026) — Cathedral, Roman Town & Markets",
+    metaTitle: "Things to Do in Périgueux (2026) — Cathedral, Roman Town",
     metaDesc:
       "Périgueux's Byzantine-domed cathedral, the medieval old town, the Roman quarter and Gallo-Roman museum, and the famous Périgord markets.",
     category: "city-guide",
@@ -11802,7 +11802,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chartres-2026",
     title: "Things to do in Chartres: the greatest Gothic cathedral and its blue glass",
-    metaTitle: "Things to Do in Chartres (2026) — Cathedral, Stained Glass & Old Town",
+    metaTitle: "Things to Do in Chartres (2026) — Cathedral, Stained Glass",
     metaDesc:
       "Chartres's UNESCO cathedral and its famous medieval stained glass, the old town on the Eure, the light festival, and an easy day from Paris.",
     category: "city-guide",
@@ -11840,7 +11840,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-amiens-2026",
     title: "Things to do in Amiens: France's largest cathedral and floating gardens",
-    metaTitle: "Things to Do in Amiens (2026) — Cathedral, Hortillonnages & Jules Verne",
+    metaTitle: "Things to Do in Amiens (2026) — Cathedral, Hortillonnages",
     metaDesc:
       "Amiens's vast Gothic cathedral, the floating market gardens of the Hortillonnages, the Jules Verne house, and the Saint-Leu quarter.",
     category: "city-guide",
@@ -11874,7 +11874,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bourges-2026",
     title: "Things to do in Bourges: a cathedral, a palace and medieval lanes",
-    metaTitle: "Things to Do in Bourges (2026) — Cathedral, Palais Jacques-Cœur & Old Town",
+    metaTitle: "Things to Do in Bourges (2026) — Cathedral, Palais Jacques-Cœur",
     metaDesc:
       "Bourges's UNESCO cathedral, the lavish Palais Jacques-Cœur, the half-timbered old town and the marshland gardens.",
     category: "city-guide",
@@ -11908,7 +11908,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-orleans-2026",
     title: "Things to do in Orléans: Joan of Arc and the upper Loire",
-    metaTitle: "Things to Do in Orléans (2026) — Joan of Arc, Cathedral & the Loire",
+    metaTitle: "Things to Do in Orléans (2026) — Joan of Arc, Cathedral",
     metaDesc:
       "Orléans's Joan of Arc heritage, the twin-spired cathedral, the restored old town, the riverside, and the Loire châteaux nearby.",
     category: "city-guide",
@@ -11946,7 +11946,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-grasse-2026",
     title: "Things to do in Grasse: the perfume capital of the world",
-    metaTitle: "Things to Do in Grasse (2026) — Perfume Houses, Old Town & the Hills",
+    metaTitle: "Things to Do in Grasse (2026) — Perfume Houses, Old Town",
     metaDesc:
       "Grasse's historic perfume houses and museum, the steep old town, the flower fields behind the Riviera, and the hill villages around.",
     category: "city-guide",
@@ -12022,7 +12022,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-narbonne-2026",
     title: "Things to do in Narbonne: Roman roots and a half-built cathedral",
-    metaTitle: "Things to Do in Narbonne (2026) — Cathedral, Roman Horreum & the Canal",
+    metaTitle: "Things to Do in Narbonne (2026) — Cathedral, Roman Horreum",
     metaDesc:
       "Narbonne's soaring unfinished cathedral, the archbishops' palace, the Roman road and underground granary, the new Narbo Via museum and the canal.",
     category: "city-guide",
@@ -12060,7 +12060,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-angers-2026",
     title: "Things to do in Angers: a black-stone château and the Apocalypse tapestry",
-    metaTitle: "Things to Do in Angers (2026) — Château, Apocalypse Tapestry & Old Town",
+    metaTitle: "Things to Do in Angers (2026) — Château, Apocalypse Tapestry",
     metaDesc:
       "Angers's massive château and its medieval Apocalypse tapestry, the old town and cathedral, the Cointreau distillery, and the Loire's Anjou.",
     category: "city-guide",
@@ -12098,7 +12098,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-mans-2026",
     title: "Things to do in Le Mans: a Roman-walled old city and the 24 Hours",
-    metaTitle: "Things to Do in Le Mans (2026) — Cité Plantagenêt, Roman Walls & the Circuit",
+    metaTitle: "Things to Do in Le Mans (2026) — Cité Plantagenêt, Roman Walls",
     metaDesc:
       "Le Mans's medieval Cité Plantagenêt inside Roman walls, the great cathedral, the 24 Hours racing museum, and the night-light show.",
     category: "city-guide",
@@ -12136,7 +12136,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-limoges-2026",
     title: "Things to do in Limoges: porcelain, enamels and a covered market",
-    metaTitle: "Things to Do in Limoges (2026) — Porcelain, Cathedral & the Old Town",
+    metaTitle: "Things to Do in Limoges (2026) — Porcelain, Cathedral",
     metaDesc:
       "Limoges's world-famous porcelain and the Adrien Dubouché museum, the medieval old town, the cathedral, and the art-nouveau market hall.",
     category: "city-guide",
@@ -12174,7 +12174,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-angouleme-2026",
     title: "Things to do in Angoulême: comic-strip capital on a hill",
-    metaTitle: "Things to Do in Angoulême (2026) — Comics, Ramparts & the Old Town",
+    metaTitle: "Things to Do in Angoulême (2026) — Comics, Ramparts",
     metaDesc:
       "Angoulême's comic-strip heritage and museum, the ramparts walk with valley views, the cathedral, the painted murals and the Charente river.",
     category: "city-guide",
@@ -12212,7 +12212,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lourdes-2026",
     title: "Things to do in Lourdes: a great pilgrimage in the Pyrenees",
-    metaTitle: "Things to Do in Lourdes (2026) — Sanctuary, Castle & the Mountains",
+    metaTitle: "Things to Do in Lourdes (2026) — Sanctuary, Castle",
     metaDesc:
       "Lourdes's pilgrimage sanctuary and grotto, the hilltop castle, the Pic du Jer funicular, and the Pyrenees on the doorstep.",
     category: "city-guide",
@@ -12250,7 +12250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-hyeres-2026",
     title: "Things to do in Hyères: palms, islands and a modernist villa",
-    metaTitle: "Things to Do in Hyères (2026) — Old Town, Îles d'Or & Villa Noailles",
+    metaTitle: "Things to Do in Hyères (2026) — Old Town, Îles d'Or",
     metaDesc:
       "Hyères's medieval hilltop old town, the modernist Villa Noailles, the golden islands of Porquerolles and Port-Cros, and the salt-pan beaches.",
     category: "city-guide",
@@ -12326,7 +12326,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chambery-2026",
     title: "Things to do in Chambéry: a Savoyard capital between the mountains",
-    metaTitle: "Things to Do in Chambéry (2026) — Castle, Old Town & the Elephants",
+    metaTitle: "Things to Do in Chambéry (2026) — Castle, Old Town",
     metaDesc:
       "Chambéry's dukes-of-Savoy castle, the arcaded old town, the famous Elephant Fountain, Rousseau's house, and the Alps and lakes around.",
     category: "city-guide",
@@ -12364,7 +12364,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aix-les-bains-2026",
     title: "Things to do in Aix-les-Bains: a belle-époque spa on the lake",
-    metaTitle: "Things to Do in Aix-les-Bains (2026) — Lac du Bourget, Spa & Abbey",
+    metaTitle: "Things to Do in Aix-les-Bains (2026) — Lac du Bourget, Spa",
     metaDesc:
       "Aix-les-Bains's lakeside on Lac du Bourget, the thermal baths and belle-époque heritage, the Hautecombe abbey by boat, and the Alpine views.",
     category: "city-guide",
@@ -12478,7 +12478,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-puy-en-velay-2026",
     title: "Things to do in Le Puy-en-Velay: chapels on volcanic pinnacles",
-    metaTitle: "Things to Do in Le Puy-en-Velay (2026) — Cathedral, Rocks & the Camino",
+    metaTitle: "Things to Do in Le Puy-en-Velay (2026) — Cathedral, Rocks",
     metaDesc:
       "Le Puy's cathedral and rock-top chapel, the giant red statue, the start of the Camino pilgrim route, the lace and green lentils.",
     category: "city-guide",
@@ -12516,7 +12516,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-millau-2026",
     title: "Things to do in Millau: the great viaduct and the Tarn gorges",
-    metaTitle: "Things to Do in Millau (2026) — Viaduct, Gorges du Tarn & Roquefort",
+    metaTitle: "Things to Do in Millau (2026) — Viaduct, Gorges du Tarn",
     metaDesc:
       "Millau's record-breaking viaduct, the Tarn and Jonte gorges, outdoor sports, the glove-making heritage, and Roquefort cheese caves nearby.",
     category: "city-guide",
@@ -12554,7 +12554,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-rodez-2026",
     title: "Things to do in Rodez: a red cathedral and the Soulages museum",
-    metaTitle: "Things to Do in Rodez (2026) — Cathedral, Musée Soulages & Old Town",
+    metaTitle: "Things to Do in Rodez (2026) — Cathedral, Musée Soulages",
     metaDesc:
       "Rodez's towering red sandstone cathedral, the striking Soulages museum of abstract art, the old town, and the Aveyron countryside.",
     category: "city-guide",
@@ -12592,7 +12592,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saintes-2026",
     title: "Things to do in Saintes: a Roman town on the Charente",
-    metaTitle: "Things to Do in Saintes (2026) — Roman Arena, Arch & the Abbaye aux Dames",
+    metaTitle: "Things to Do in Saintes (2026) — Roman Arena, Arch",
     metaDesc:
       "Saintes's Roman amphitheatre and triumphal arch, the Abbaye aux Dames, the riverside old town, and the Charente countryside.",
     category: "city-guide",
@@ -12630,7 +12630,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cognac-2026",
     title: "Things to do in Cognac: brandy houses on the Charente",
-    metaTitle: "Things to Do in Cognac (2026) — Brandy Houses, Old Town & the River",
+    metaTitle: "Things to Do in Cognac (2026) — Brandy Houses, Old Town",
     metaDesc:
       "Cognac's great brandy houses and cellar tours, the old town and castle, the 'angels' share' atmosphere, and the Charente vineyards.",
     category: "city-guide",
@@ -12668,7 +12668,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bourg-en-bresse-2026",
     title: "Things to do in Bourg-en-Bresse: a flamboyant monastery and famous chicken",
-    metaTitle: "Things to Do in Bourg-en-Bresse (2026) — Brou Monastery, Old Town & Bresse Chicken",
+    metaTitle: "Things to Do in Bourg-en-Bresse (2026) — Brou Monastery, Old Town",
     metaDesc:
       "Bourg-en-Bresse's masterpiece monastery of Brou, the old town's timbered houses, the famous AOC Bresse chicken, and the Dombes lakes nearby.",
     category: "city-guide",
@@ -12744,7 +12744,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-compiegne-2026",
     title: "Things to do in Compiègne: an imperial palace and an armistice clearing",
-    metaTitle: "Things to Do in Compiègne (2026) — Imperial Palace, Forest & the Armistice",
+    metaTitle: "Things to Do in Compiègne (2026) — Imperial Palace, Forest",
     metaDesc:
       "Compiègne's vast imperial palace, the great forest, the Armistice clearing where both world wars' truces were signed, and the old town.",
     category: "city-guide",
@@ -12782,7 +12782,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-beauvais-2026",
     title: "Things to do in Beauvais: the tallest Gothic choir ever built",
-    metaTitle: "Things to Do in Beauvais (2026) — Cathedral, Astronomical Clock & Tapestry",
+    metaTitle: "Things to Do in Beauvais (2026) — Cathedral, Astronomical Clock",
     metaDesc:
       "Beauvais's audacious unfinished cathedral with the tallest Gothic choir, its astronomical clock, the tapestry heritage, and an easy hop from Paris.",
     category: "city-guide",
@@ -12816,7 +12816,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-clermont-ferrand-2026",
     title: "Things to do in Clermont-Ferrand: a black cathedral and a ring of volcanoes",
-    metaTitle: "Things to Do in Clermont-Ferrand (2026) — Cathedral, Volcanoes & Old Town",
+    metaTitle: "Things to Do in Clermont-Ferrand (2026) — Cathedral, Volcanoes",
     metaDesc:
       "Clermont-Ferrand's black lava cathedral, the old town, the Puy de Dôme volcano and its rack railway, and the Auvergne volcano park.",
     category: "city-guide",
@@ -12888,7 +12888,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chantilly-2026",
     title: "Things to do in Chantilly: a château, an art collection and horses",
-    metaTitle: "Things to Do in Chantilly (2026) — Château, Condé Museum & the Great Stables",
+    metaTitle: "Things to Do in Chantilly (2026) — Château, Condé Museum",
     metaDesc:
       "Chantilly's fairytale château and Condé art museum, the Great Stables and living horse museum, the gardens, and the famous cream.",
     category: "city-guide",
@@ -12926,7 +12926,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-fontainebleau-2026",
     title: "Things to do in Fontainebleau: a royal palace and a forest of rocks",
-    metaTitle: "Things to Do in Fontainebleau (2026) — Château, Forest & Bouldering",
+    metaTitle: "Things to Do in Fontainebleau (2026) — Château, Forest",
     metaDesc:
       "Fontainebleau's vast royal château and gardens, the world-famous forest for walking and bouldering, and the artists' village of Barbizon.",
     category: "city-guide",
@@ -12964,7 +12964,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-poitiers-2026",
     title: "Things to do in Poitiers: Romanesque churches and a theme park",
-    metaTitle: "Things to Do in Poitiers (2026) — Notre-Dame-la-Grande, Old Town & Futuroscope",
+    metaTitle: "Things to Do in Poitiers (2026) — Notre-Dame-la-Grande, Old Town",
     metaDesc:
       "Poitiers's richly carved Romanesque churches, the medieval old town, the baptistery, and the Futuroscope theme park nearby.",
     category: "city-guide",
@@ -13002,7 +13002,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-troyes-2026",
     title: "Things to do in Troyes: a half-timbered champagne capital",
-    metaTitle: "Things to Do in Troyes (2026) — Old Town, Churches & Outlet Shopping",
+    metaTitle: "Things to Do in Troyes (2026) — Old Town, Churches",
     metaDesc:
       "Troyes's beautifully preserved half-timbered old town, its stained-glass churches, the cork-shaped medieval plan, and the famous outlet stores.",
     category: "city-guide",
@@ -13078,7 +13078,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mulhouse-2026",
     title: "Things to do in Mulhouse: world-class museums in industrial Alsace",
-    metaTitle: "Things to Do in Mulhouse (2026) — Car Museum, Train Museum & Old Town",
+    metaTitle: "Things to Do in Mulhouse (2026) — Car Museum, Train Museum",
     metaDesc:
       "Mulhouse's extraordinary car and railway museums, the painted old-town square, the printed-textile heritage, and the Alsace wine route nearby.",
     category: "city-guide",
@@ -13116,7 +13116,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-concarneau-2026",
     title: "Things to do in Concarneau: a walled island in a fishing port",
-    metaTitle: "Things to Do in Concarneau (2026) — Ville Close, Fishing Port & Beaches",
+    metaTitle: "Things to Do in Concarneau (2026) — Ville Close, Fishing Port",
     metaDesc:
       "Concarneau's walled island old town (Ville Close), the working fishing port, the fishing museum, the beaches and the south Brittany coast.",
     category: "city-guide",
@@ -13188,7 +13188,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-epernay-2026",
     title: "Things to do in Épernay: the capital of champagne",
-    metaTitle: "Things to Do in Épernay (2026) — Avenue de Champagne, Cellars & Vineyards",
+    metaTitle: "Things to Do in Épernay (2026) — Avenue de Champagne, Cellars",
     metaDesc:
       "Épernay's grand Avenue de Champagne and its great houses, the kilometres of cellars, tastings, and the vineyards of the Marne valley.",
     category: "city-guide",
@@ -13260,7 +13260,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-boulogne-sur-mer-2026",
     title: "Things to do in Boulogne-sur-Mer: a walled town and a great aquarium",
-    metaTitle: "Things to Do in Boulogne-sur-Mer (2026) — Nausicaá, Old Town & the Coast",
+    metaTitle: "Things to Do in Boulogne-sur-Mer (2026) — Nausicaá, Old Town",
     metaDesc:
       "Boulogne's huge Nausicaá sea-life centre, the walled upper town and basilica, the fishing port, and the cliffs of the Opal Coast nearby.",
     category: "city-guide",
@@ -13298,7 +13298,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-calais-2026",
     title: "Things to do in Calais: Rodin's burghers, lace and the Channel",
-    metaTitle: "Things to Do in Calais (2026) — The Burghers, Lace Museum & the Coast",
+    metaTitle: "Things to Do in Calais (2026) — The Burghers, Lace Museum",
     metaDesc:
       "Calais's Rodin 'Burghers' sculpture, the lace and fashion museum, the dragon machine, the beach and lighthouse, and the Opal Coast.",
     category: "city-guide",
@@ -13332,7 +13332,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dunkerque-2026",
     title: "Things to do in Dunkirk: beaches, carnival and 1940",
-    metaTitle: "Things to Do in Dunkerque (2026) — Beaches, Carnival & the 1940 Operation",
+    metaTitle: "Things to Do in Dunkerque (2026) — Beaches, Carnival",
     metaDesc:
       "Dunkirk's long beach at Malo-les-Bains, the Operation Dynamo war museum, the wild carnival, the port museum and the Flemish coast.",
     category: "city-guide",
@@ -13370,7 +13370,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cagnes-sur-mer-2026",
     title: "Things to do in Cagnes-sur-Mer: Renoir's home and a hilltop village",
-    metaTitle: "Things to Do in Cagnes-sur-Mer (2026) — Renoir Museum, Haut-de-Cagnes & the Beach",
+    metaTitle: "Things to Do in Cagnes-sur-Mer (2026) — Renoir Museum & Beach",
     metaDesc:
       "Cagnes-sur-Mer's Renoir house and museum, the medieval hill village of Haut-de-Cagnes and its castle, and the Riviera beaches.",
     category: "city-guide",
@@ -13404,7 +13404,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-raphael-2026",
     title: "Things to do in Saint-Raphaël: a Riviera resort beneath red hills",
-    metaTitle: "Things to Do in Saint-Raphaël (2026) — Beaches, Old Town & the Estérel",
+    metaTitle: "Things to Do in Saint-Raphaël (2026) — Beaches, Old Town",
     metaDesc:
       "Saint-Raphaël's beaches and seafront, the old town and basilica, boat trips to Saint-Tropez, and the red Estérel coast for hiking and diving.",
     category: "city-guide",
@@ -13442,7 +13442,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-martigues-2026",
     title: "Things to do in Martigues: the 'Venice of Provence'",
-    metaTitle: "Things to Do in Martigues (2026) — Canals, Old Town & the Côte Bleue",
+    metaTitle: "Things to Do in Martigues (2026) — Canals, Old Town",
     metaDesc:
       "Martigues's colourful canals and the painters' corner, the old town on its islands, the étang de Berre, and the Côte Bleue creeks nearby.",
     category: "city-guide",
@@ -13476,7 +13476,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-macon-2026",
     title: "Things to do in Mâcon: the Saône, Lamartine and southern Burgundy wine",
-    metaTitle: "Things to Do in Mâcon (2026) — Riverside, Wine & the Rock of Solutré",
+    metaTitle: "Things to Do in Mâcon (2026) — Riverside, Wine",
     metaDesc:
       "Mâcon's Saône-side quays, the Lamartine heritage, the white wines of Pouilly-Fuissé, and the dramatic Rock of Solutré nearby.",
     category: "city-guide",
@@ -13510,7 +13510,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-beziers-2026",
     title: "Things to do in Béziers: a cathedral over the vines and the Canal du Midi",
-    metaTitle: "Things to Do in Béziers (2026) — Cathedral, Canal du Midi & Fonseranes Locks",
+    metaTitle: "Things to Do in Béziers (2026) — Cathedral, Canal du Midi",
     metaDesc:
       "Béziers's hilltop cathedral over the Orb, the Canal du Midi and the staircase of Fonseranes locks, the old town, and the Languedoc wine country.",
     category: "city-guide",
@@ -13548,7 +13548,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-porto-vecchio-2026",
     title: "Things to do in Porto-Vecchio: Corsica's dream beaches",
-    metaTitle: "Things to Do in Porto-Vecchio (2026) — Palombaggia, Old Town & the South",
+    metaTitle: "Things to Do in Porto-Vecchio (2026) — Palombaggia, Old Town",
     metaDesc:
       "Porto-Vecchio's world-famous beaches like Palombaggia and Santa Giulia, the hilltop old town, the salt marshes, and the wild south of Corsica.",
     category: "city-guide",
@@ -13586,7 +13586,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montauban-2026",
     title: "Things to do in Montauban: a pink-brick city and the painter Ingres",
-    metaTitle: "Things to Do in Montauban (2026) — Place Nationale, Ingres Bourdelle & the Tarn",
+    metaTitle: "Things to Do in Montauban (2026) — Place Nationale & the Tarn",
     metaDesc:
       "Montauban's arcaded pink-brick Place Nationale, the Ingres Bourdelle museum, the old bridge over the Tarn, and the southwest countryside.",
     category: "city-guide",
@@ -13658,7 +13658,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-evian-les-bains-2026",
     title: "Things to do in Évian-les-Bains: a spa town on Lake Geneva",
-    metaTitle: "Things to Do in Évian-les-Bains (2026) — Lakefront, Spa Heritage & the Water",
+    metaTitle: "Things to Do in Évian-les-Bains (2026) — Lakefront, Spa Heritage",
     metaDesc:
       "Évian's Lake Geneva promenade and boats to Switzerland, the belle-époque spa architecture, the famous water spring, and the Alps behind.",
     category: "city-guide",
@@ -13696,7 +13696,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-apt-2026",
     title: "Things to do in Apt: ochre country and the great Luberon market",
-    metaTitle: "Things to Do in Apt (2026) — Saturday Market, Ochre Trails & the Luberon",
+    metaTitle: "Things to Do in Apt (2026) — Saturday Market, Ochre Trails",
     metaDesc:
       "Apt's famous Saturday market, the candied-fruit and ochre heritage, the Colorado Provençal and Roussillon cliffs, and the Luberon villages.",
     category: "city-guide",
@@ -13772,7 +13772,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-nazaire-2026",
     title: "Things to do in Saint-Nazaire: giant ships and an Atlantic past",
-    metaTitle: "Things to Do in Saint-Nazaire (2026) — Shipyards, Submarine Base & Beaches",
+    metaTitle: "Things to Do in Saint-Nazaire (2026) — Shipyards, Submarine Base",
     metaDesc:
       "Saint-Nazaire's shipyard and ocean-liner heritage, the WWII submarine base, the Escal'Atlantic experience, the beaches, and the Loire estuary.",
     category: "city-guide",
@@ -13810,7 +13810,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lorient-2026",
     title: "Things to do in Lorient: sailing, a submarine base and a Celtic festival",
-    metaTitle: "Things to Do in Lorient (2026) — Cité de la Voile, Submarine Base & Interceltique",
+    metaTitle: "Things to Do in Lorient (2026) — Cité de la Voile, Submarine Base",
     metaDesc:
       "Lorient's sailing museum and Eric Tabarly heritage, the WWII submarine base, the great Interceltique festival, and the south Brittany coast.",
     category: "city-guide",
@@ -13848,7 +13848,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chalon-sur-saone-2026",
     title: "Things to do in Chalon-sur-Saône: birthplace of photography on the river",
-    metaTitle: "Things to Do in Chalon-sur-Saône (2026) — Niépce Museum, Old Town & Wine",
+    metaTitle: "Things to Do in Chalon-sur-Saône (2026) — Niépce Museum, Old Town",
     metaDesc:
       "Chalon-sur-Saône's photography museum honouring Niépce, the half-timbered old town, the riverside and island, and the Côte Chalonnaise wines.",
     category: "city-guide",
@@ -13886,7 +13886,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nevers-2026",
     title: "Things to do in Nevers: faience, a ducal palace and the Loire",
-    metaTitle: "Things to Do in Nevers (2026) — Ducal Palace, Faience & Saint Bernadette",
+    metaTitle: "Things to Do in Nevers (2026) — Ducal Palace, Faience",
     metaDesc:
       "Nevers's ducal palace and cathedral, the famous blue faience pottery, the shrine of Saint Bernadette, and the Loire riverside.",
     category: "city-guide",
@@ -13924,7 +13924,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-etienne-2026",
     title: "Things to do in Saint-Étienne: design, art and industrial reinvention",
-    metaTitle: "Things to Do in Saint-Étienne (2026) — Design, Modern Art & Le Corbusier",
+    metaTitle: "Things to Do in Saint-Étienne (2026) — Design, Modern Art",
     metaDesc:
       "Saint-Étienne's design heritage and biennale, the modern art museum, the Cité du Design, and Le Corbusier's Firminy site nearby.",
     category: "city-guide",
@@ -13996,7 +13996,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cherbourg-2026",
     title: "Things to do in Cherbourg: a great port and the Cité de la Mer",
-    metaTitle: "Things to Do in Cherbourg (2026) — Cité de la Mer, Umbrellas & the Cotentin",
+    metaTitle: "Things to Do in Cherbourg (2026) — Cité de la Mer, Umbrellas",
     metaDesc:
       "Cherbourg's Cité de la Mer with its giant submarine and Titanic story, the famous umbrellas, the art museum, and the wild Cotentin coast.",
     category: "city-guide",
@@ -14034,7 +14034,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-laon-2026",
     title: "Things to do in Laon: a cathedral city on a crowned mountain",
-    metaTitle: "Things to Do in Laon (2026) — Cathedral, Ramparts & the Upper Town",
+    metaTitle: "Things to Do in Laon (2026) — Cathedral, Ramparts",
     metaDesc:
       "Laon's early-Gothic cathedral with its ox towers, the long ramparts walk, the hilltop old town, and the views over the Picardy plain.",
     category: "city-guide",
@@ -14068,7 +14068,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tarbes-2026",
     title: "Things to do in Tarbes: a garden city at the foot of the Pyrenees",
-    metaTitle: "Things to Do in Tarbes (2026) — Massey Garden, Stud Farm & the Mountains",
+    metaTitle: "Things to Do in Tarbes (2026) — Massey Garden, Stud Farm",
     metaDesc:
       "Tarbes's beautiful Massey garden, the national stud farm, the Foch museum, and the gateway to the high Pyrenees and Lourdes.",
     category: "city-guide",
@@ -14106,7 +14106,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pezenas-2026",
     title: "Things to do in Pézenas: Molière's town of art and crafts",
-    metaTitle: "Things to Do in Pézenas (2026) — Old Town, Molière & Artisan Workshops",
+    metaTitle: "Things to Do in Pézenas (2026) — Old Town, Molière",
     metaDesc:
       "Pézenas's beautifully preserved old town, its Molière heritage, the artisan and antique workshops, the markets, and the Languedoc wine country.",
     category: "city-guide",
@@ -14144,7 +14144,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-moulins-2026",
     title: "Things to do in Moulins: the dukes of Bourbon and a costume museum",
-    metaTitle: "Things to Do in Moulins (2026) — Cathedral, Stage-Costume Museum & Old Town",
+    metaTitle: "Things to Do in Moulins (2026) — Cathedral, Stage-Costume Museum",
     metaDesc:
       "Moulins's cathedral triptych, the national stage-costume museum, the Bourbon old town and clock tower, and the Allier riverside.",
     category: "city-guide",
@@ -14178,7 +14178,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-castres-2026",
     title: "Things to do in Castres: a Goya museum on a painted river",
-    metaTitle: "Things to Do in Castres (2026) — Goya Museum, Riverside Houses & the Sidobre",
+    metaTitle: "Things to Do in Castres (2026) — Goya Museum, Riverside Houses",
     metaDesc:
       "Castres's Goya museum of Spanish art, the colourful houses along the Agout, the Goudouli garden, and the granite Sidobre nearby.",
     category: "city-guide",
@@ -14216,7 +14216,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-libourne-2026",
     title: "Things to do in Libourne: a bastide gateway to Saint-Émilion",
-    metaTitle: "Things to Do in Libourne (2026) — Bastide Square, Wine & Saint-Émilion",
+    metaTitle: "Things to Do in Libourne (2026) — Bastide Square, Wine",
     metaDesc:
       "Libourne's arcaded bastide square and riverside, and its role as the gateway to the Saint-Émilion and Pomerol wine country.",
     category: "city-guide",
@@ -14292,7 +14292,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lens-2026",
     title: "Things to do in Lens: the Louvre in mining country",
-    metaTitle: "Things to Do in Lens (2026) — Louvre-Lens, Mining Heritage & UNESCO Slag Heaps",
+    metaTitle: "Things to Do in Lens (2026) — Louvre-Lens, Mining Heritage",
     metaDesc:
       "Lens's Louvre-Lens museum, the UNESCO mining basin and its slag heaps, the WWI memorials nearby, and the region's football passion.",
     category: "city-guide",
@@ -14326,7 +14326,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-niort-2026",
     title: "Things to do in Niort: a keep and the Green Venice",
-    metaTitle: "Things to Do in Niort (2026) — Keep, Old Town & the Marais Poitevin",
+    metaTitle: "Things to Do in Niort (2026) — Keep, Old Town",
     metaDesc:
       "Niort's medieval double keep, the old town and covered market, and the canals of the Marais Poitevin 'Green Venice' nearby.",
     category: "city-guide",
@@ -14360,7 +14360,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-omer-2026",
     title: "Things to do in Saint-Omer: a marsh of market gardens and a great cathedral",
-    metaTitle: "Things to Do in Saint-Omer (2026) — Cathedral, Marais & La Coupole",
+    metaTitle: "Things to Do in Saint-Omer (2026) — Cathedral, Marais",
     metaDesc:
       "Saint-Omer's Gothic cathedral and Sandelin museum, the cultivated marsh explored by boat, and La Coupole WWII bunker nearby.",
     category: "city-guide",
@@ -14394,7 +14394,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-charleville-mezieres-2026",
     title: "Things to do in Charleville-Mézières: Rimbaud and the puppet capital",
-    metaTitle: "Things to Do in Charleville-Mézières (2026) — Place Ducale, Rimbaud & Puppets",
+    metaTitle: "Things to Do in Charleville-Mézières (2026) — Place Ducale",
     metaDesc:
       "Charleville-Mézières's grand Place Ducale, the Rimbaud museum, the world puppet festival and museum, and the Meuse valley of the Ardennes.",
     category: "city-guide",
@@ -14432,7 +14432,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-digne-les-bains-2026",
     title: "Things to do in Digne-les-Bains: lavender, fossils and Alpine spa",
-    metaTitle: "Things to Do in Digne-les-Bains (2026) — Lavender, UNESCO Geopark & the Alps",
+    metaTitle: "Things to Do in Digne-les-Bains (2026) — Lavender, UNESCO Geopark",
     metaDesc:
       "Digne-les-Bains's lavender, the UNESCO geological reserve and giant ammonite slab, the Alexandra David-Néel house, and the spa and mountains.",
     category: "city-guide",
@@ -14470,7 +14470,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montbeliard-2026",
     title: "Things to do in Montbéliard: a castle, a car museum and a festival of light",
-    metaTitle: "Things to Do in Montbéliard (2026) — Château, Peugeot Museum & Lights of Christmas",
+    metaTitle: "Things to Do in Montbéliard (2026) — Château, Peugeot Museum",
     metaDesc:
       "Montbéliard's twin-towered château, the Peugeot Adventure car museum, the colourful old town, and the famous Christmas lights festival.",
     category: "city-guide",
@@ -14508,7 +14508,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chalons-en-champagne-2026",
     title: "Things to do in Châlons-en-Champagne: canals and Gothic churches",
-    metaTitle: "Things to Do in Châlons-en-Champagne (2026) — Cathedral, Canals & Champagne",
+    metaTitle: "Things to Do in Châlons-en-Champagne (2026) — Cathedral, Canals",
     metaDesc:
       "Châlons-en-Champagne's cathedral and Notre-Dame-en-Vaux, the canals and 'Petite Venise', the half-timbered houses, and the champagne country.",
     category: "city-guide",
@@ -14546,7 +14546,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-auch-2026",
     title: "Things to do in Auch: d'Artagnan's Gascony and a grand staircase",
-    metaTitle: "Things to Do in Auch (2026) — Cathedral, Monumental Stair & Gascony",
+    metaTitle: "Things to Do in Auch (2026) — Cathedral, Monumental Stair",
     metaDesc:
       "Auch's cathedral with its carved choir and Renaissance glass, the monumental staircase and d'Artagnan statue, the old town, and Gascony around.",
     category: "city-guide",
@@ -14584,7 +14584,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-brieuc-2026",
     title: "Things to do in Saint-Brieuc: a bay, cliffs and a coastal path",
-    metaTitle: "Things to Do in Saint-Brieuc (2026) — Old Town, the Bay & the GR34 Coast",
+    metaTitle: "Things to Do in Saint-Brieuc (2026) — Old Town, the Bay",
     metaDesc:
       "Saint-Brieuc's cathedral and old town, the great bay with its huge tides, the coastal path and beaches, and the pink granite coast nearby.",
     category: "city-guide",
@@ -14622,7 +14622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gap-2026",
     title: "Things to do in Gap: the sunny capital of the southern Alps",
-    metaTitle: "Things to Do in Gap (2026) — Old Town, Domaine de Charance & the Alps",
+    metaTitle: "Things to Do in Gap (2026) — Old Town, Domaine de Charance",
     metaDesc:
       "Gap's lively old town, the Domaine de Charance gardens and lake, the surrounding mountains and lakes, and the gateway to the Écrins.",
     category: "city-guide",
@@ -14690,7 +14690,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-agen-2026",
     title: "Things to do in Agen: prunes, art and a canal over a river",
-    metaTitle: "Things to Do in Agen (2026) — Fine Arts Museum, Canal Bridge & Prunes",
+    metaTitle: "Things to Do in Agen (2026) — Fine Arts Museum, Canal Bridge",
     metaDesc:
       "Agen's fine-arts museum with its Goya and Venus, the great canal bridge over the Garonne, the old town, and the famous prunes.",
     category: "city-guide",
@@ -14758,7 +14758,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-roanne-2026",
     title: "Things to do in Roanne: gastronomy on the upper Loire",
-    metaTitle: "Things to Do in Roanne (2026) — Food, the Loire Gorges & the Old Town",
+    metaTitle: "Things to Do in Roanne (2026) — Food, the Loire Gorges",
     metaDesc:
       "Roanne's celebrated food scene, the riverside and port, the museum, and the Loire gorges and Roannais wine country nearby.",
     category: "city-guide",
@@ -14792,7 +14792,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-epinal-2026",
     title: "Things to do in Épinal: printed images and the Vosges",
-    metaTitle: "Things to Do in Épinal (2026) — Imagerie, Old Town & the Vosges Forest",
+    metaTitle: "Things to Do in Épinal (2026) — Imagerie, Old Town",
     metaDesc:
       "Épinal's famous imagerie print workshop and image museum, the old town and basilica on the Moselle, the park, and the Vosges nearby.",
     category: "city-guide",
@@ -14830,7 +14830,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pontarlier-2026",
     title: "Things to do in Pontarlier: absinthe and the high Jura",
-    metaTitle: "Things to Do in Pontarlier (2026) — Absinthe, Old Town & the Jura Mountains",
+    metaTitle: "Things to Do in Pontarlier (2026) — Absinthe, Old Town",
     metaDesc:
       "Pontarlier's absinthe heritage, the old town gate, the dramatic Cluse de Joux fortress, and the lakes and slopes of the high Jura.",
     category: "city-guide",
@@ -14868,7 +14868,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-die-des-vosges-2026",
     title: "Things to do in Saint-Dié-des-Vosges: where America got its name",
-    metaTitle: "Things to Do in Saint-Dié-des-Vosges (2026) — Cathedral, the America Map & the Vosges",
+    metaTitle: "Things to Do in Saint-Dié-des-Vosges (2026) — Cathedral & Vosges",
     metaDesc:
       "Saint-Dié's cathedral and cloister, its claim as the 'godmother of America', the Pierre d'Appel and Camp Celtique, and the Vosges around.",
     category: "city-guide",
@@ -14974,7 +14974,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aurillac-2026",
     title: "Things to do in Aurillac: street theatre and the heart of the Cantal",
-    metaTitle: "Things to Do in Aurillac (2026) — Old Town, Street-Arts Festival & the Volcanoes",
+    metaTitle: "Things to Do in Aurillac (2026) — Old Town, Street-Arts Festival",
     metaDesc:
       "Aurillac's old town and castle keep, the famous international street-theatre festival, the Cantal cheese, and the volcanic mountains around.",
     category: "city-guide",
@@ -15042,7 +15042,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-lo-2026",
     title: "Things to do in Saint-Lô: a rebuilt city of ramparts and horses",
-    metaTitle: "Things to Do in Saint-Lô (2026) — Ramparts, Stud Farm & the Bocage",
+    metaTitle: "Things to Do in Saint-Lô (2026) — Ramparts, Stud Farm",
     metaDesc:
       "Saint-Lô's surviving ramparts and rebuilt centre, the national stud farm, the art museum, and the Normandy bocage and D-Day sites nearby.",
     category: "city-guide",
@@ -15076,7 +15076,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cholet-2026",
     title: "Things to do in Cholet: textiles, the Vendée wars and a great lake",
-    metaTitle: "Things to Do in Cholet (2026) — History Museum, Textiles & Lac de Ribou",
+    metaTitle: "Things to Do in Cholet (2026) — History Museum, Textiles",
     metaDesc:
       "Cholet's history and textile museums, the red handkerchief heritage, the Vendée wars story, and the Lac de Ribou for outdoor leisure.",
     category: "city-guide",
@@ -15110,7 +15110,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-la-roche-sur-yon-2026",
     title: "Things to do in La Roche-sur-Yon: Napoleon's planned town",
-    metaTitle: "Things to Do in La Roche-sur-Yon (2026) — Place Napoléon, Star Plan & the Vendée",
+    metaTitle: "Things to Do in La Roche-sur-Yon (2026) — Place Napoléon, Vendée",
     metaDesc:
       "La Roche-sur-Yon's pentagonal Napoleonic plan and grand square, the animated animal statues, the haras, and the Vendée coast nearby.",
     category: "city-guide",
@@ -15148,7 +15148,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chateauroux-2026",
     title: "Things to do in Châteauroux: the Berry, George Sand country",
-    metaTitle: "Things to Do in Châteauroux (2026) — Old Town, Bertrand Museum & the Berry",
+    metaTitle: "Things to Do in Châteauroux (2026) — Old Town, Bertrand Museum",
     metaDesc:
       "Châteauroux's old town and the Raymond Bertrand museum, the riverside, the Déols abbey nearby, and George Sand's Berry countryside.",
     category: "city-guide",
@@ -15250,7 +15250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-draguignan-2026",
     title: "Things to do in Draguignan: a Provençal town and a great dolmen",
-    metaTitle: "Things to Do in Draguignan (2026) — Old Town, Pierre de la Fée & the Verdon",
+    metaTitle: "Things to Do in Draguignan (2026) — Old Town, Pierre de la Fée",
     metaDesc:
       "Draguignan's old town and clock tower, the giant Pierre de la Fée dolmen, the American war cemetery, and the Verdon and Var country nearby.",
     category: "city-guide",
@@ -15288,7 +15288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mont-de-marsan-2026",
     title: "Things to do in Mont-de-Marsan: a town of three rivers and sculpture",
-    metaTitle: "Things to Do in Mont-de-Marsan (2026) — Old Town, Sculpture Museum & the Landes",
+    metaTitle: "Things to Do in Mont-de-Marsan (2026) — Old Town & the Landes",
     metaDesc:
       "Mont-de-Marsan's confluence of rivers and old town, the figurative-sculpture museum, the férias, and the Landes forest and coast nearby.",
     category: "city-guide",
@@ -15326,7 +15326,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-annonay-2026",
     title: "Things to do in Annonay: the birthplace of the hot-air balloon",
-    metaTitle: "Things to Do in Annonay (2026) — Montgolfier Heritage, Old Town & the Ardèche",
+    metaTitle: "Things to Do in Annonay (2026) — Montgolfier Heritage, Old Town",
     metaDesc:
       "Annonay's Montgolfier balloon heritage and museum, the old town and viaducts, the paper-making history, and the northern Ardèche hills.",
     category: "city-guide",
@@ -15398,7 +15398,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lons-le-saunier-2026",
     title: "Things to do in Lons-le-Saunier: salt, an anthem and the Jura",
-    metaTitle: "Things to Do in Lons-le-Saunier (2026) — Arcades, Rouget de Lisle & the Vineyards",
+    metaTitle: "Things to Do in Lons-le-Saunier (2026) — Arcades, Rouget de Lisle",
     metaDesc:
       "Lons-le-Saunier's arcaded old town, the Rouget de Lisle and Marseillaise heritage, the salt-spa past, and the Jura vineyards and lakes nearby.",
     category: "city-guide",
@@ -15470,7 +15470,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tulle-2026",
     title: "Things to do in Tulle: lace, accordions and the Corrèze",
-    metaTitle: "Things to Do in Tulle (2026) — Cathedral, Accordion Heritage & the Corrèze",
+    metaTitle: "Things to Do in Tulle (2026) — Cathedral, Accordion Heritage",
     metaDesc:
       "Tulle's cathedral and cloister, the lace ('poinct de Tulle') and accordion-making heritage, the stepped old town, and the green Corrèze valleys.",
     category: "city-guide",
@@ -15546,7 +15546,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bar-le-duc-2026",
     title: "Things to do in Bar-le-Duc: a Renaissance upper town and redcurrant jam",
-    metaTitle: "Things to Do in Bar-le-Duc (2026) — Ville Haute, the Skeleton & Lorraine Jam",
+    metaTitle: "Things to Do in Bar-le-Duc (2026) — Ville Haute, the Skeleton",
     metaDesc:
       "Bar-le-Duc's remarkable Renaissance upper town, Ligier Richier's macabre skeleton statue, the famous seeded redcurrant jam, and the Meuse.",
     category: "city-guide",
@@ -15584,7 +15584,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chaumont-2026",
     title: "Things to do in Chaumont: a giant viaduct and graphic design",
-    metaTitle: "Things to Do in Chaumont (2026) — Viaduct, Le Signe & the Old Town",
+    metaTitle: "Things to Do in Chaumont (2026) — Viaduct, Le Signe",
     metaDesc:
       "Chaumont's monumental railway viaduct, the Le Signe graphic-design centre and poster biennial, the old town and keep, and the Haute-Marne.",
     category: "city-guide",
@@ -15656,7 +15656,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-clermont-l-herault-2026",
     title: "Things to do in Clermont-l'Hérault: a red lake and Languedoc hills",
-    metaTitle: "Things to Do in Clermont-l'Hérault (2026) — Lac du Salagou, Old Town & Mourèze",
+    metaTitle: "Things to Do in Clermont-l'Hérault (2026) — Lac du Salagou",
     metaDesc:
       "Clermont-l'Hérault's old town and Gothic church, the striking red shores of the Lac du Salagou, the dolomite chaos of Mourèze, and the Languedoc wine.",
     category: "city-guide",
@@ -15694,7 +15694,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chatellerault-2026",
     title: "Things to do in Châtellerault: a grand bridge and industrial heritage",
-    metaTitle: "Things to Do in Châtellerault (2026) — Pont Henri IV, Car Museum & the Vienne",
+    metaTitle: "Things to Do in Châtellerault (2026) — Pont Henri IV, Car Museum",
     metaDesc:
       "Châtellerault's monumental Pont Henri IV, the automobile and industrial museum in the old arms factory, the old town, and the Vienne valley.",
     category: "city-guide",
@@ -15732,7 +15732,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-anglet-2026",
     title: "Things to do in Anglet: the Basque coast, minus the resort prices",
-    metaTitle: "Things to Do in Anglet (2026) — Surf Beaches, Pine Forest & the BAB",
+    metaTitle: "Things to Do in Anglet (2026) — Surf Beaches, Pine Forest",
     metaDesc:
       "Anglet's chain of surf beaches, the Pignada pine forest, the Chiberta links course, and Bayonne and Biarritz both a tram ride away.",
     category: "city-guide",
@@ -15774,7 +15774,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aubagne-2026",
     title: "Things to do in Aubagne: Pagnol's hills and clay figurines",
-    metaTitle: "Things to Do in Aubagne (2026) — Garlaban, Santons & the Sainte-Baume",
+    metaTitle: "Things to Do in Aubagne (2026) — Garlaban, Santons",
     metaDesc:
       "Marcel Pagnol's home town: the Garlaban hills he wrote about, the santon workshops, the Foreign Legion museum, and Cassis 20 km away.",
     category: "city-guide",
@@ -15812,7 +15812,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-autun-2026",
     title: "Things to do in Autun: a Roman city on the edge of the Morvan",
-    metaTitle: "Things to Do in Autun (2026) — Roman Theatre, Gislebertus & Bibracte",
+    metaTitle: "Things to Do in Autun (2026) — Roman Theatre, Gislebertus",
     metaDesc:
       "Autun's Roman theatre and gates, the signed Romanesque tympanum of Saint-Lazare, the Gaulish hillfort of Bibracte, and the Morvan park.",
     category: "city-guide",
@@ -15850,7 +15850,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bagneres-de-bigorre-2026",
     title: "Things to do in Bagnères-de-Bigorre: spa town under the Pic du Midi",
-    metaTitle: "Things to Do in Bagnères-de-Bigorre (2026) — Pic du Midi, Caves & Thermal Baths",
+    metaTitle: "Things to Do in Bagnères-de-Bigorre (2026) — Pic du Midi, Caves",
     metaDesc:
       "The Pic du Midi observatory, the Grand Tourmalet ski area, the Médous and Esparros caves, the Payolle lake and a Roman-era spa tradition.",
     category: "city-guide",
@@ -15892,7 +15892,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-denis-reunion-2026",
     title: "Things to do in Saint-Denis de La Réunion: creole capital under the volcano",
-    metaTitle: "Things to Do in Saint-Denis, Réunion (2026) — Barachois, Mafate & the Volcano",
+    metaTitle: "Things to Do in Saint-Denis, Réunion (2026) — Barachois, Mafate",
     metaDesc:
       "Réunion's capital: the Barachois seafront, creole houses on the rue de Paris, the botanical garden, and the Mafate and Salazie cirques above town.",
     category: "city-guide",
@@ -15938,7 +15938,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-paul-reunion-2026",
     title: "Things to do in Saint-Paul: Réunion's lagoon coast",
-    metaTitle: "Things to Do in Saint-Paul, Réunion (2026) — Lagoon, Maïdo & Whales",
+    metaTitle: "Things to Do in Saint-Paul, Réunion (2026) — Lagoon, Maïdo",
     metaDesc:
       "The Ermitage lagoon, the seafront market, the pirate's grave in the marine cemetery, the Maïdo viewpoint over Mafate, and humpback whale season.",
     category: "city-guide",
@@ -15984,7 +15984,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-pierre-reunion-2026",
     title: "Things to do in Saint-Pierre: the south of Réunion",
-    metaTitle: "Things to Do in Saint-Pierre, Réunion (2026) — Market, Lava Coast & Cilaos",
+    metaTitle: "Things to Do in Saint-Pierre, Réunion (2026) — Market, Lava Coast",
     metaDesc:
       "Saint-Pierre's Saturday market and seafront, the rum museum, the wild south and its lava flows, and the mountain roads to Cilaos and the volcano.",
     category: "city-guide",
@@ -16030,7 +16030,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-fort-de-france-2026",
     title: "Things to do in Fort-de-France: Martinique's capital",
-    metaTitle: "Things to Do in Fort-de-France (2026) — Schœlcher Library, Balata & Rum",
+    metaTitle: "Things to Do in Fort-de-France (2026) — Schœlcher Library, Balata",
     metaDesc:
       "The Schœlcher library, the covered market, the Balata botanical garden, Aimé Césaire's city, the ferry to Trois-Îlets and Martinique's AOC rum.",
     category: "city-guide",
@@ -16076,7 +16076,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pointe-a-pitre-2026",
     title: "Things to do in Pointe-à-Pitre: Guadeloupe's working capital",
-    metaTitle: "Things to Do in Pointe-à-Pitre (2026) — Mémorial ACTe, Markets & Island Ferries",
+    metaTitle: "Things to Do in Pointe-à-Pitre (2026) — Mémorial ACTe, Markets",
     metaDesc:
       "The Mémorial ACTe slavery museum, the spice market, the creole centre, ferries to Les Saintes and Marie-Galante, and the Soufrière volcano.",
     category: "city-guide",
@@ -16122,7 +16122,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cayenne-2026",
     title: "Things to do in Cayenne: France on the edge of the Amazon",
-    metaTitle: "Things to Do in Cayenne (2026) — Market, Space Centre & Îles du Salut",
+    metaTitle: "Things to Do in Cayenne (2026) — Market, Space Centre",
     metaDesc:
       "Cayenne's place des Palmistes and creole centre, the market, the Kourou space centre, the penal-colony islands, and the Kaw marshes.",
     category: "city-guide",
@@ -16928,7 +16928,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "where-to-buy-in-toulouse-2026",
     title: "Where to Buy Property in Toulouse: An International Buyer's Guide (2026)",
-    metaTitle: "Where to Buy in Toulouse 2026 — Areas, Prices & Foreign Buyer Guide",
+    metaTitle: "Where to Buy in Toulouse 2026 — Areas, Prices",
     metaDesc: "Where to buy property in Toulouse in 2026: real €/m² by neighbourhood, what your budget buys, and how foreigners purchase French property step by step.",
     category: "budget",
     emoji: "🏠",
@@ -17008,7 +17008,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "where-to-buy-in-bordeaux-2026",
     title: "Where to Buy Property in Bordeaux: A Foreign Buyer's Guide (2026)",
-    metaTitle: "Where to Buy in Bordeaux 2026: Neighbourhoods & Prices (Expat Guide)",
+    metaTitle: "Where to Buy in Bordeaux 2026: Neighbourhoods & Prices",
     metaDesc: "Where to buy property in Bordeaux in 2026: real prices per neighbourhood, value picks, what your budget buys, and the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
@@ -18208,7 +18208,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-charente-maritime-2026",
     title: "Living in Charente-Maritime: An Expat Guide to France's Sunniest Atlantic Coast",
-    metaTitle: "Living in Charente-Maritime 2026: La Rochelle, Royan & Île de Ré Guide",
+    metaTitle: "Living in Charente-Maritime 2026: La Rochelle, Royan",
     metaDesc: "Moving to Charente-Maritime? Real 2026 property prices, climate, La Rochelle vs Royan, the Île de Ré premium, and who this Atlantic coast suits.",
     category: "moving",
     emoji: "🦪",
@@ -18288,7 +18288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-occitanie-2026",
     title: "Living in Occitanie: An Expat Guide to the Sunny South (2026)",
-    metaTitle: "Living in Occitanie 2026: Expat & Relocation Guide to South France",
+    metaTitle: "Living in Occitanie 2026: Expat Guide to South France",
     metaDesc: "Moving to Occitanie? An honest expat guide to Toulouse, Montpellier, the Med coast and the Pyrenees — sunshine, property prices, costs and downsides.",
     category: "moving",
     emoji: "☀️",
@@ -20977,7 +20977,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-lgbt-friendly-2026",
     title: "Best French Cities for LGBT+ People in 2026",
-    metaTitle: "Best LGBT-Friendly Cities in France 2026: Paris, Lyon, Montpellier",
+    metaTitle: "Best LGBT-Friendly Cities in France 2026: Paris, Lyon",
     metaDesc: "Where LGBT+ people actually feel at home in France: scene, Pride, family healthcare and safety, ranked honestly for anyone moving here in 2026.",
     category: "lifestyle",
     emoji: "🏳️‍🌈",

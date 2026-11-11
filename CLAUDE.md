@@ -260,6 +260,10 @@ Distribution mean ≈ 5.35. Penalties:
   **only if the result stays ≤ 60 chars**; use `hubTitle()` from `lib/brand.ts`
   rather than hardcoding the suffix. `openGraph`/`twitter` titles keep the brand
   — those are social cards, not search results.
+- **Longueurs gardées par `npm run integrity` (garde `meta-len`, 2026-11-11)** : titre littéral de page
+  statique ≤ 60, description ≤ 165, `metaTitle` de guide (FR et EN) ≤ 65. Un guide au titre plus long
+  fait échouer `integrity` : raccourcir en gardant le mot-clé de tête et la ville, jamais en coupant
+  au milieu d'une liste (« — guide », « : le guide complet » sont les premiers à partir).
 - **Meta descriptions ≤ ~160 chars.** Don't pad with generic tails
   ("Comparez avec d'autres villes.", "Estimation déterministe dérivée des
   scores…") — they push the figures a searcher actually scans out of the

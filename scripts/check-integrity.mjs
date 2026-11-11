@@ -1630,8 +1630,21 @@ if (!failed) {
       if (m[1].length > TITLE_MAX) over.push(`${file} : metaTitle (${label}) de ${m[1].length} caractères — « ${m[1]} »`);
     }
   }
+  // Guides : `metaTitle` ≤ 65, le plafond de `fitTitle` pour les titres de contenu.
+  // 710 guides (448 FR, 262 EN) le dépassaient avant le 2026-11-11 ; ils ont été
+  // réécrits en gardant les mots-clés de tête, pas coupés mécaniquement.
+  const GUIDE_TITLE_MAX = 65;
+  for (const file of ["data/guides.ts", "data/guides-en.ts"]) {
+    const src = readFileSync(path.join(ROOT, file), "utf8");
+    for (const m of src.matchAll(/metaTitle:\s*"((?:[^"\\]|\\.)*)"/g)) {
+      seen++;
+      const title = m[1].replace(/\\(.)/g, "$1");
+      if (title.length > GUIDE_TITLE_MAX)
+        over.push(`${file} : metaTitle de ${title.length} caractères (max ${GUIDE_TITLE_MAX}) — « ${title} »`);
+    }
+  }
   if (over.length === 0) {
-    console.log(`  ok  meta-len    ${seen} titres et descriptions littéraux de pages statiques, tous ≤ ${TITLE_MAX} / ${DESC_MAX} caractères`);
+    console.log(`  ok  meta-len    ${seen} titres et descriptions littéraux, ≤ ${TITLE_MAX} / ${DESC_MAX} caractères, metaTitle de guides ≤ ${GUIDE_TITLE_MAX}`);
   } else {
     failed = true;
     console.error(`\n  ÉCHEC  meta-len : ${over.length} métadonnée(s) trop longue(s) pour un résultat Google`);

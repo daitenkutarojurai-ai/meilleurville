@@ -190,7 +190,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravail-bretagne-guide",
     title: "Télétravailler en Bretagne : est-ce vraiment possible ?",
-    metaTitle: "Télétravail en Bretagne — Guide complet 2025 (Rennes, Brest, Nantes)",
+    metaTitle: "Télétravail en Bretagne 2025 — Rennes, Brest, Nantes",
     metaDesc:
       "Fibre, coworking, salaires, connexions TGV : tout ce qu'il faut savoir avant de partir télétravailler en Bretagne. Retours d'expérience et données réelles.",
     category: "teletravail",
@@ -228,7 +228,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "soleil-france-guide",
     title: "Les villes les plus ensoleillées de France : classement et guide de vie",
-    metaTitle: "Villes les plus ensoleillées de France — Top 10 avec données réelles",
+    metaTitle: "Villes les plus ensoleillées de France — Top 10 chiffré",
     metaDesc:
       "Nombre de jours de soleil, températures, qualité de vie : classement des villes françaises les plus ensoleillées avec données météo officielles et avis habitants.",
     category: "lifestyle",
@@ -450,7 +450,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "bordeaux-lyon-nantes-quelle-ville-choisir",
     title: "Bordeaux, Lyon ou Nantes : laquelle choisir en 2025 ?",
-    metaTitle: "Bordeaux vs Lyon vs Nantes — Quelle grande ville choisir en 2025 ?",
+    metaTitle: "Bordeaux vs Lyon vs Nantes — Quelle ville choisir en 2025 ?",
     metaDesc: "Comparaison approfondie entre Bordeaux, Lyon et Nantes : coût de la vie, emploi, qualité de vie, quartiers. Le guide pour choisir la bonne métropole.",
     category: "comparaison",
     emoji: "⚖️",
@@ -538,7 +538,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-france-guide-2025",
     title: "Vivre sans voiture en France : les 10 villes où c'est vraiment possible",
-    metaTitle: "Vivre sans voiture en France — Top villes 2025 (vélo, tramway, TGV)",
+    metaTitle: "Vivre sans voiture en France — Top villes 2025 (vélo, tramway)",
     metaDesc:
       "Tramway, vélo, marchabilité : notre classement des villes françaises où vous pouvez vous passer de voiture au quotidien. Données transports 2025.",
     category: "lifestyle",
@@ -585,7 +585,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "paris-province-guide-demenagement-2025",
     title: "Quitter Paris pour la province : le guide complet 2025",
-    metaTitle: "Quitter Paris : guide demenagement province 2025 — Choisir sa ville",
+    metaTitle: "Quitter Paris pour la province 2025 — Choisir sa ville",
     metaDesc: "Salaire, loyer, TGV, qualité de vie : tout ce que vous devez savoir avant de quitter Paris pour une ville de province en 2025. Villes recommandées selon votre profil.",
     category: "lifestyle",
     emoji: "🚂",
@@ -626,7 +626,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "normandie-rouen-caen-le-havre-guide-2025",
     title: "Vivre en Normandie en 2025 : Rouen, Caen ou Le Havre ?",
-    metaTitle: "Vivre en Normandie 2025 — Rouen, Caen, Le Havre : laquelle choisir ?",
+    metaTitle: "Vivre en Normandie 2025 — Rouen, Caen ou Le Havre ?",
     metaDesc:
       "Guide complet pour s'installer en Normandie : comparatif Rouen vs Caen vs Le Havre, loyers, qualité de vie, TGV Paris, économie locale. Tout ce qu'il faut savoir avant de déménager.",
     category: "region",
@@ -665,7 +665,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "cote-atlantique-bordeaux-la-rochelle-bayonne",
     title: "Côte Atlantique : Bordeaux, La Rochelle ou Bayonne — Laquelle vous correspond ?",
-    metaTitle: "Bordeaux vs La Rochelle vs Bayonne — Vivre sur la Côte Atlantique 2025",
+    metaTitle: "Bordeaux vs La Rochelle vs Bayonne — Côte Atlantique 2025",
     metaDesc:
       "Comparatif complet des trois grandes villes de la côte atlantique française : Bordeaux (métropole), La Rochelle (port), Bayonne (Pays Basque). Loyers, qualité de vie, profils d'habitants.",
     category: "comparaison",
@@ -704,7 +704,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investissement-locatif-meilleures-villes-2025",
     title: "Investissement locatif 2025 : les 8 meilleures villes françaises",
-    metaTitle: "Meilleures villes investissement locatif France 2025 — Rendement & Tension",
+    metaTitle: "Investissement locatif 2025 — Meilleures villes, rendement",
     metaDesc:
       "Classement des meilleures villes françaises pour investir dans l'immobilier locatif en 2025 : rendement brut, tension locative, prix au m², perspectives de valorisation.",
     category: "budget",
@@ -751,7 +751,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-pays-basque-bayonne-biarritz-pau",
     title: "Vivre au Pays Basque Français — Bayonne, Biarritz ou Pau ?",
-    metaTitle: "Vivre au Pays Basque 2025 : Bayonne, Biarritz, Pau — laquelle choisir ?",
+    metaTitle: "Vivre au Pays Basque 2025 : Bayonne, Biarritz ou Pau ?",
     metaDesc:
       "Guide complet pour s'installer au Pays Basque français : Bayonne (ville centre), Biarritz (station balnéaire) ou Pau (Pyrénées). Loyers, qualité de vie, culture basque.",
     category: "region",
@@ -790,7 +790,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "auvergne-rhone-alpes-lyon-grenoble-annecy",
     title: "Lyon, Grenoble ou Annecy : quel choix en Auvergne-Rhône-Alpes ?",
-    metaTitle: "Lyon vs Grenoble vs Annecy — Laquelle choisir en Auvergne-Rhône-Alpes ?",
+    metaTitle: "Lyon vs Grenoble vs Annecy — Laquelle choisir en 2025 ?",
     metaDesc:
       "Comparatif des trois grandes villes d'Auvergne-Rhône-Alpes pour s'y installer : Lyon (métropole), Grenoble (technopole alpine), Annecy (lac et nature). Loyers, emploi, qualité de vie.",
     category: "comparaison",
@@ -829,7 +829,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "retraite-france-meilleures-villes-2025",
     title: "Prendre sa retraite en France : les 10 meilleures villes 2025",
-    metaTitle: "Retraite en France : meilleures villes 2025 — Soleil, budget, santé",
+    metaTitle: "Retraite en France : meilleures villes 2025 — Soleil, budget",
     metaDesc: "Soleil, accès aux soins, sécurité, coût de la vie : notre guide complet pour choisir la meilleure ville française pour votre retraite. Top 10 avec données réelles.",
     category: "lifestyle",
     emoji: "☀️",
@@ -878,7 +878,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-dans-le-sud-france-guide-2025",
     title: "Vivre dans le Sud de la France : le guide complet 2025",
-    metaTitle: "Vivre dans le Sud de la France 2025 — PACA, Occitanie : guide complet",
+    metaTitle: "Vivre dans le Sud de la France 2025 — PACA, Occitanie",
     metaDesc: "Soleil, mer, qualité de vie : notre guide complet pour s'installer dans le sud de la France. Marseille, Nice, Montpellier, Toulon — où vivre vraiment dans le Sud ?",
     category: "region",
     emoji: "🌊",
@@ -923,7 +923,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "hauts-de-france-lille-arras-amiens-guide-2025",
     title: "Vivre dans les Hauts-de-France : Lille, Arras, Amiens — Guide 2025",
-    metaTitle: "Vivre dans les Hauts-de-France 2025 — Lille, Arras, Amiens : guide complet",
+    metaTitle: "Vivre dans les Hauts-de-France 2025 — Lille, Arras, Amiens",
     metaDesc: "Immobilier abordable, Eurotunnel, Bruxelles à 35 min : les Hauts-de-France sont la région la plus sous-estimée. Notre guide honnête pour s'y installer.",
     category: "region",
     emoji: "🌾",
@@ -968,7 +968,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "centre-val-de-loire-tours-orleans-guide-2025",
     title: "Vivre en Centre-Val de Loire : Tours, Orléans, Chartres — le guide 2025",
-    metaTitle: "Vivre en Centre-Val de Loire 2025 : Tours, Orléans, Chartres — Guide",
+    metaTitle: "Vivre en Centre-Val de Loire 2025 : Tours, Orléans, Chartres",
     metaDesc:
       "Tours, Orléans, Chartres, Blois : qualité de vie, loyers, châteaux de la Loire et douceur angevine. Guide complet pour s'installer en Centre-Val de Loire.",
     category: "region",
@@ -1015,7 +1015,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-immobilier-france-meilleures-villes-2025",
     title: "Acheter un bien immobilier en France : les 12 villes où investir en 2025",
-    metaTitle: "Meilleures villes pour acheter un logement en France — Classement 2025",
+    metaTitle: "Meilleures villes pour acheter un logement — Classement 2025",
     metaDesc:
       "Prix au m², rendement locatif, dynamisme : notre classement des meilleures villes françaises pour acheter sa résidence principale ou un investissement locatif en 2025.",
     category: "budget",
@@ -1113,7 +1113,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Nouvelle-Aquitaine : Bordeaux, Pau, La Rochelle, Poitiers — Guide 2025",
     emoji: "🍷",
     category: "region",
-    metaTitle: "Vivre en Nouvelle-Aquitaine : Bordeaux, Pau, La Rochelle, Poitiers — Guide 2025",
+    metaTitle: "Vivre en Nouvelle-Aquitaine : Bordeaux, Pau, La Rochelle",
     metaDesc: "Guide complet pour s'installer en Nouvelle-Aquitaine : Bordeaux, Bayonne, Pau, La Rochelle, Poitiers, Limoges, Cognac, Saintes. Qualité de vie, coût du logement, emploi.",
     intro: "La Nouvelle-Aquitaine est la plus grande région de France en superficie, du Bassin Arcachon aux contreforts pyrénéens. Bordeaux en est la métropole, mais la région regorge d'alternatives moins chères et tout aussi séduisantes : Pau pour les Pyrénées, La Rochelle pour l'Atlantique, ou encore Saintes et Cognac pour l'authenticité charentaise.",
     readMinutes: 10,
@@ -1158,7 +1158,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Valence — Guide 2025",
     emoji: "🏔️",
     category: "region",
-    metaTitle: "Vivre en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Valence — Guide 2025",
+    metaTitle: "Vivre en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Valence",
     metaDesc: "Guide complet pour s'installer en Auvergne-Rhône-Alpes : Lyon, Grenoble, Annecy, Chambéry, Clermont-Ferrand, Valence, Montélimar, Romans. Emploi, logement, qualité de vie montagne-soleil.",
     intro: "Auvergne-Rhône-Alpes est la région la plus polyvalente de France : des Alpes à la Provence en passant par les volcans d'Auvergne, elle offre une diversité de paysages et de modes de vie unique. Lyon en est la locomotive économique, mais Grenoble, Annecy, Chambéry et Valence proposent chacune une équation qualité de vie / coût très convaincante.",
     readMinutes: 10,
@@ -1203,7 +1203,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Saint-Nazaire — Guide 2025",
     emoji: "🌊",
     category: "region",
-    metaTitle: "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Cholet — Guide 2025",
+    metaTitle: "Vivre en Pays de la Loire : Nantes, Angers, Le Mans, Cholet",
     metaDesc: "Guide complet pour s'installer en Pays de la Loire : Nantes, Angers, Le Mans, Saint-Nazaire, Laval, Cholet. Emploi, logement, qualité de vie entre Atlantique et vallée de la Loire.",
     intro: "Le Pays de la Loire attire de plus en plus de Franciliens en quête de qualité de vie. Nantes, régulièrement élue ville où il fait bon vivre, en est la figure de proue. Mais Angers, Le Mans, Laval et Saint-Nazaire proposent des alternatives convaincantes à des prix nettement plus doux.",
     readMinutes: 9,
@@ -1248,7 +1248,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Provence-Alpes-Côte d'Azur : Nice, Marseille, Aix, Toulon — Guide 2025",
     emoji: "🌞",
     category: "region",
-    metaTitle: "Vivre en PACA : Nice, Marseille, Aix-en-Provence, Toulon — Guide 2025",
+    metaTitle: "Vivre en PACA : Nice, Marseille, Aix-en-Provence, Toulon",
     metaDesc: "Guide complet pour s'installer en Provence-Alpes-Côte d'Azur : Nice, Marseille, Aix-en-Provence, Toulon, Avignon, Draguignan, Arles. Soleil, mer, mais aussi red flags.",
     intro: "PACA est le rêve de millions de Français : soleil, mer, lavande, gastronomie. Mais cette attractivité a un coût : immobilier sous tension, inégalités criantes, embouteillages. Ce guide démêle le vrai du faux pour vous aider à choisir la bonne ville et le bon quartier.",
     readMinutes: 11,
@@ -1293,7 +1293,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort — Guide 2025",
     emoji: "🍷",
     category: "region",
-    metaTitle: "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort — Guide 2025",
+    metaTitle: "Vivre en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre",
     metaDesc: "Guide complet pour s'installer en Bourgogne-Franche-Comté : Dijon, Besançon, Auxerre, Belfort, Mâcon, Chalon-sur-Saône. Vignobles, Jura, qualité de vie et immobilier abordable.",
     intro: "La Bourgogne-Franche-Comté est une région souvent sous-estimée. Connue pour ses vins et ses moutardes, elle abrite aussi Besançon, l'une des villes les plus agréables de France, et Dijon, capitale gastronomique mondiale. Une région où l'immobilier reste accessible et la qualité de vie élevée.",
     readMinutes: 8,
@@ -1338,7 +1338,7 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes pour la retraite en France — Guide 2025",
     emoji: "🌅",
     category: "lifestyle",
-    metaTitle: "Meilleures villes françaises pour prendre sa retraite — Guide 2025",
+    metaTitle: "Meilleures villes françaises pour prendre sa retraite",
     metaDesc: "Quelles villes choisir pour sa retraite en France ? Notre guide 2025 classe les meilleures villes selon le soleil, la santé, le coût de la vie, la sécurité et la qualité de vie pour les séniors.",
     intro: "La retraite est une opportunité de vie, et le choix de la ville où s'installer peut faire une différence considérable sur la qualité du quotidien. Soleil, accès aux soins, vie sociale, sécurité, logement abordable : voici les critères et les villes qui cochent toutes les cases.",
     readMinutes: 8,
@@ -1383,7 +1383,7 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes côtières françaises 2025 — Mer, Qualité de vie, Prix",
     emoji: "🌊",
     category: "lifestyle",
-    metaTitle: "Meilleures villes côtières France 2025 — Atlantique, Méditerranée, Manche",
+    metaTitle: "Meilleures villes côtières France 2025 — Atlantique, Méditerranée",
     metaDesc: "Quelles villes côtières choisir en France ? Comparatif 2025 des meilleures villes au bord de la mer : Atlantique (La Rochelle, Brest, Saint-Nazaire), Méditerranée (Sète, Toulon, Antibes), Manche (Caen, Cherbourg).",
     intro: "Vivre au bord de la mer est un rêve pour beaucoup de Français. Mais la mer a un prix, et selon la côte choisie, il peut varier du simple au décuple. Ce guide compare les meilleures villes côtières selon le coût, la qualité de vie à l'année, et ce que la côte apporte vraiment au quotidien.",
     readMinutes: 8,
@@ -1428,7 +1428,7 @@ export const GUIDES: Guide[] = [
     title: "Les 10 villes françaises sous-estimées qui méritent d'être connues — 2025",
     emoji: "💎",
     category: "comparaison",
-    metaTitle: "Villes françaises sous-estimées et méconnues — Top 10 Pépites 2025",
+    metaTitle: "Villes françaises sous-estimées — Top 10 des pépites 2025",
     metaDesc: "Ces 10 villes françaises sont des pépites cachées : qualité de vie exceptionnelle, prix abordables, mais méconnues du grand public. Figeac, Rodez, Saintes, Vannes, Besançon...",
     intro: "Pendant que tout le monde se dispute Bordeaux et Annecy, des dizaines de villes françaises offrent une qualité de vie remarquable à des prix qui n'ont pas encore explosé. Ce guide les révèle avant qu'il ne soit trop tard.",
     readMinutes: 7,
@@ -1489,7 +1489,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter l'Île-de-France : les meilleures alternatives à la banlieue parisienne",
     emoji: "🗺️",
     category: "teletravail",
-    metaTitle: "Quitter l'Île-de-France : meilleures alternatives à la banlieue parisienne 2025",
+    metaTitle: "Quitter l'Île-de-France 2025 : alternatives à la banlieue",
     metaDesc: "Vous vivez en banlieue parisienne et cherchez mieux ? Guide 2025 des villes hors Île-de-France accessibles en TGV où vivre comme en banlieue pour deux fois moins cher.",
     intro: "Un T3 en grande banlieue à 1 200€, 2h de RER quotidien, un logement toujours trop petit : le compromis francilien est devenu difficile à défendre. À 2h de Paris en TGV, la même vie coûte moitié moins cher, sans les trajets. Ce guide s'adresse aux familles et aux télétravailleurs qui pèsent sérieusement le saut.",
     readMinutes: 9,
@@ -1534,7 +1534,7 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes françaises pour élever ses enfants — Écoles, Sécurité, Espaces verts",
     emoji: "👨‍👩‍👧‍👦",
     category: "famille",
-    metaTitle: "Meilleures villes françaises pour les familles 2025 — Écoles et Sécurité",
+    metaTitle: "Meilleures villes pour les familles 2025 — Écoles, sécurité",
     metaDesc: "Quelles villes françaises choisir pour élever ses enfants ? Guide 2025 des meilleures villes pour les familles : écoles publiques, sécurité, espaces verts, prix et qualité des services.",
     intro: "Pour les familles avec enfants, le choix de la ville est un pari qui engage plusieurs années. Qualité des écoles, sécurité du quartier, espaces verts accessibles, médecins de famille disponibles : ce guide classe les villes selon les critères qui comptent vraiment pour les parents.",
     readMinutes: 9,
@@ -1579,7 +1579,7 @@ export const GUIDES: Guide[] = [
     title: "Quitter Paris : le guide pratique complet 2025 — Où aller, comment préparer son départ",
     emoji: "🚀",
     category: "lifestyle",
-    metaTitle: "Quitter Paris 2025 — Guide pratique complet : où aller, comment faire",
+    metaTitle: "Quitter Paris 2025 — Guide pratique : où aller, comment faire",
     metaDesc: "Vous pensez à quitter Paris ? Notre guide 2025 couvre tout : les meilleures destinations, les erreurs à éviter, la préparation du déménagement, et les villes qui offrent le meilleur rapport qualité de vie / coût comparé à Paris.",
     intro: "Quitter Paris est le projet de vie de millions de Français, mais beaucoup restent bloqués par l'incertitude : où aller, comment choisir, comment gérer la transition professionnelle. Ce guide couvre tous les aspects pratiques du départ, des destinations les plus demandées aux erreurs classiques à éviter.",
     readMinutes: 11,
@@ -1628,7 +1628,7 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes françaises pour les jeunes actifs 2025 — Emploi, vie sociale et logement abordable",
     emoji: "⚡",
     category: "lifestyle",
-    metaTitle: "Meilleures villes pour jeunes actifs 2025 — Emploi, Fêtes et Logement",
+    metaTitle: "Meilleures villes pour jeunes actifs 2025 — Emploi, Fêtes",
     metaDesc: "Vous avez 25-35 ans et cherchez votre ville ? Classement 2025 des meilleures villes françaises pour les jeunes actifs : emploi, logement accessible, vie nocturne, réseau professionnel et qualité de vie.",
     intro: "À 27 ans, on ne choisit pas sa ville comme à 45. Le premier CDI ou le second job, un T1 sous les 600 €, une vraie vie sociale à trois mois de l'installation, un secteur qui recrute encore dans cinq ans : le cahier des charges tient sur une main, mais chaque critère élimine la moitié des candidates. Ce classement pondère pour ces contraintes précises, pas pour la retraite au soleil ni la maison de famille.",
     readMinutes: 8,
@@ -1763,7 +1763,7 @@ export const GUIDES: Guide[] = [
     title: "Les meilleures villes françaises sans voiture — Mobilité douce, vélo et transports 2025",
     emoji: "🚲",
     category: "lifestyle",
-    metaTitle: "Vivre sans voiture en France 2025 — Meilleures villes vélo et transports",
+    metaTitle: "Vivre sans voiture en France 2025 — Villes vélo et transports",
     metaDesc: "Quelle ville française permet de vivre sans voiture ? Classement 2025 des meilleures villes pour la mobilité douce : réseau vélo, transports en commun, walkability et qualité de vie sans automobile.",
     intro: "Vivre sans voiture est possible dans beaucoup de villes françaises, mais le confort varie énormément. Ce guide classe les villes selon leur walkscore, leur réseau cyclable, leurs transports en commun, et les témoignages de résidents sans voiture.",
     readMinutes: 7,
@@ -1808,7 +1808,7 @@ export const GUIDES: Guide[] = [
     title: "Guide pour expatriés : s'installer en France en 2025 — Meilleures villes et conseils pratiques",
     emoji: "✈️",
     category: "comparaison",
-    metaTitle: "S'installer en France 2025 — Guide expatriés : meilleures villes et conseils",
+    metaTitle: "S'installer en France 2025 — Guide expatriés, meilleures villes",
     metaDesc: "Vous êtes expatrié et souhaitez vous installer en France ? Guide complet 2025 : les meilleures villes pour les étrangers, les démarches administratives, le coût de la vie, et les communautés d'expatriés.",
     intro: "La France accueille chaque année des dizaines de milliers d'expatriés venant du monde entier. Mais toutes les villes ne sont pas égales pour s'installer : communauté internationale, maîtrise de l'anglais, accès aux services administratifs, et qualité de vie varient considérablement.",
     readMinutes: 10,
@@ -1988,7 +1988,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Île-de-France 2025 — Paris, banlieue et alternatives : le guide complet",
     emoji: "🗼",
     category: "region",
-    metaTitle: "Vivre en Île-de-France 2025 — Paris, banlieue chic et villes nouvelles",
+    metaTitle: "Vivre en Île-de-France 2025 — Paris, banlieue chic",
     metaDesc: "Où vivre en Île-de-France en 2025 ? Comparatif Paris intra-muros, banlieue chic (Versailles, Vincennes, Boulogne-Billancourt), banlieue accessible (Cergy, Montreuil) — pros, cons et prix.",
     intro: "L'Île-de-France est la région la plus dense, la plus chère et la plus complexe de France. Pourtant, elle reste la région avec la plus forte concentration d'emplois, d'opportunités culturelles et de transports. Ce guide décrypte les différents profils de territoires franciliens pour vous aider à trouver votre niche.",
     readMinutes: 10,
@@ -2033,7 +2033,7 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes françaises pour la tech et le numérique en 2025",
     emoji: "💻",
     category: "teletravail",
-    metaTitle: "Meilleures villes tech & numérique France 2025 — French Tech, startups, remote",
+    metaTitle: "Meilleures villes tech & numérique 2025 — French Tech, startups",
     metaDesc: "Paris, Lyon, Nantes, Bordeaux, Toulouse, Grenoble, Rennes : quelle ville française offre le meilleur écosystème tech pour un développeur, designer ou entrepreneur numérique en 2025 ?",
     intro: "La France possède l'un des écosystèmes tech les plus dynamiques d'Europe. Mais l'écosystème ne se concentre plus uniquement à Paris : la French Tech s'est profondément décentralisée depuis 2015. Ce guide classe les meilleures villes françaises pour les profils du numérique.",
     readMinutes: 9,
@@ -2078,7 +2078,7 @@ export const GUIDES: Guide[] = [
     title: "Mutation professionnelle : comment choisir sa prochaine ville en France",
     emoji: "📦",
     category: "lifestyle",
-    metaTitle: "Mutation pro : comment choisir sa ville en France 2025 — guide décision",
+    metaTitle: "Mutation pro 2025 : comment choisir sa ville en France",
     metaDesc: "Mutation professionnelle en France : nos critères pour choisir votre prochaine ville — emploi du conjoint, écoles, logement, transport, qualité de vie. Grille de décision complète.",
     intro: "Une mutation professionnelle, c'est l'une des transitions de vie les plus complexes. Voici une méthode structurée pour choisir sa prochaine ville sans se perdre dans les comparatifs infinis.",
     readMinutes: 8,
@@ -2123,7 +2123,7 @@ export const GUIDES: Guide[] = [
     title: "Paris vs Province 2025 — Qualité de vie : le vrai comparatif",
     emoji: "⚖️",
     category: "comparaison",
-    metaTitle: "Paris vs Province 2025 — Comparatif qualité de vie, salaires, logement",
+    metaTitle: "Paris vs Province 2025 — Comparatif qualité de vie, salaires",
     metaDesc: "Paris ou la province ? Salaire net ajusté du coût de la vie, temps de trajet, espace de vie, stress, culture : notre comparatif honnête pour 2025.",
     intro: "Le débat Paris vs Province est l'un des plus anciens de la sociologie française. Mais au-delà des clichés, il existe des données réelles pour trancher. Ce guide donne une analyse honnête des deux options.",
     readMinutes: 9,
@@ -2303,7 +2303,7 @@ export const GUIDES: Guide[] = [
     title: "Petites villes de France : les trésors de qualité de vie sous 50 000 habitants",
     emoji: "🏡",
     category: "lifestyle",
-    metaTitle: "Petites villes France — qualité de vie, charme et accessibilité 2025",
+    metaTitle: "Petites villes France — qualité de vie, charme",
     metaDesc: "Les meilleures petites villes françaises (moins de 50 000 habitants) pour vivre bien : Bayeux, Sarlat, Figeac, Millau, Saint-Malo, Dole… Qualité de vie, coûts, emploi.",
     intro: "Pas besoin d'une grande métropole pour avoir une qualité de vie exceptionnelle. Les petites villes françaises offrent souvent ce que le pays a de meilleur : patrimoine, convivialité, nature proche, coût de la vie accessible. Reste à savoir lesquelles valent vraiment le détour.",
     readMinutes: 9,
@@ -3066,7 +3066,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-dordogne-perigord-guide-2025",
     title: "Vivre en Dordogne-Périgord en 2025 : Périgueux, Bergerac, Sarlat — le guide complet",
-    metaTitle: "Vivre en Dordogne-Périgord 2025 : Périgueux, Bergerac, Sarlat — Guide",
+    metaTitle: "Vivre en Dordogne-Périgord 2025 : Périgueux, Bergerac, Sarlat",
     metaDesc:
       "S'installer en Dordogne : qualité de vie, prix immobiliers, économie locale, cuisine. Guide complet Périgueux vs Bergerac vs Sarlat, avec avis d'habitants.",
     category: "region",
@@ -3187,7 +3187,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "cote-opale-nord-pas-de-calais-vivre-guide-2025",
     title: "Vivre sur la Côte d'Opale en 2025 : Boulogne-sur-Mer, Calais, Le Touquet — guide complet",
-    metaTitle: "Côte d'Opale 2025 : Boulogne-sur-Mer, Calais, Le Touquet — Où s'installer ?",
+    metaTitle: "Côte d'Opale 2025 : Boulogne, Calais, Le Touquet — où vivre ?",
     metaDesc:
       "Guide complet pour vivre sur la Côte d'Opale : qualité de vie, prix immobiliers, emploi, liaisons Londres. Comparatif Boulogne vs Calais vs Le Touquet.",
     category: "region",
@@ -3226,7 +3226,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-charentes-angouleme-la-rochelle-saintes-guide-2025",
     title: "Vivre en Charentes en 2025 : Angoulême, La Rochelle, Saintes, Cognac — le guide complet",
-    metaTitle: "Vivre en Charentes 2025 : Angoulême, La Rochelle, Saintes — Guide complet",
+    metaTitle: "Vivre en Charentes 2025 : Angoulême, La Rochelle, Saintes",
     metaDesc:
       "S'installer en Charente ou Charente-Maritime : comparatif Angoulême / La Rochelle / Saintes / Cognac, loyers, qualité de vie, économie. Guide 2025.",
     category: "region",
@@ -3265,7 +3265,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sur-cote-atlantique-surf-guide-2025",
     title: "Vivre sur la Côte Atlantique Surf en 2025 : Hossegor, Capbreton, Biscarrosse, Mimizan",
-    metaTitle: "Côte Atlantique Surf 2025 : Hossegor, Capbreton, Biscarrosse — Où s'installer ?",
+    metaTitle: "Côte Atlantique surf 2025 : Hossegor, Capbreton, Biscarrosse",
     metaDesc:
       "Guide pour s'installer sur la Côte Atlantique : Hossegor, Capbreton, Biscarrosse, Mimizan. Loyers, qualité de vie, communautés surf, emploi. 2025.",
     category: "lifestyle",
@@ -3304,7 +3304,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-ile-de-france-alternatives-pas-cheres-2025",
     title: "Quitter la région parisienne sans aller trop loin : les meilleures villes à 1h de Paris",
-    metaTitle: "Meilleures villes à 1h de Paris 2025 : alternatives pas chères en Île-de-France",
+    metaTitle: "Meilleures villes à 1h de Paris 2025 : alternatives pas chères",
     metaDesc:
       "Rester accessible à Paris tout en gagnant en espace et qualité de vie : notre guide des meilleures villes à 1-1h30 de Paris avec bons prix immobiliers.",
     category: "lifestyle",
@@ -3343,7 +3343,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-bretagne-nord-guide-2025",
     title: "Bretagne Nord en 2025 : Saint-Malo, Dinard, Morlaix, Brest — le guide pour s'installer",
-    metaTitle: "Bretagne Nord 2025 : Saint-Malo, Dinard, Morlaix, Brest — Où s'installer ?",
+    metaTitle: "Bretagne Nord 2025 : Saint-Malo, Dinard, Morlaix, Brest",
     metaDesc:
       "Guide complet pour vivre en Bretagne Nord : comparatif Saint-Malo vs Dinard vs Morlaix vs Brest. Loyers, qualité de vie, emploi. 2025.",
     category: "region",
@@ -3421,7 +3421,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-alsace-route-des-vins-villages-guide-2025",
     title: "Vivre sur la Route des Vins d'Alsace en 2025 : Obernai, Ribeauvillé, Riquewihr, Kaysersberg",
-    metaTitle: "Route des Vins Alsace 2025 : vivre à Obernai, Ribeauvillé, Riquewihr — Guide",
+    metaTitle: "Route des Vins Alsace 2025 : vivre à Obernai, Ribeauvillé",
     metaDesc:
       "S'installer sur la Route des Vins d'Alsace : comparatif des villages les plus beaux et vivables. Qualité de vie, loyers, communautés. Guide 2025.",
     category: "region",
@@ -3460,7 +3460,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "toulouse-vs-bordeaux-comparatif-2025",
     title: "Toulouse vs Bordeaux : laquelle choisir pour s'installer ?",
-    metaTitle: "Toulouse vs Bordeaux 2025 : comparatif complet pour choisir sa ville",
+    metaTitle: "Toulouse vs Bordeaux 2025 : comparatif complet",
     metaDesc: "Toulouse ou Bordeaux ? Emploi, prix immobilier, qualité de vie, soleil : comparatif détaillé pour les familles et actifs qui hésitent entre les deux grandes métropoles du Sud-Ouest.",
     category: "comparaison",
     emoji: "⚖️",
@@ -3501,7 +3501,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-franche-comte-jura-guide-2025",
     title: "Vivre en Franche-Comté et dans le Jura : nature, Suisse, qualité de vie",
-    metaTitle: "Vivre en Franche-Comté et Jura — Guide 2025 : Besançon, Pontarlier, Belfort",
+    metaTitle: "Vivre en Franche-Comté et Jura 2025 : Besançon, Pontarlier",
     metaDesc: "Guide complet pour vivre en Franche-Comté : Besançon, Pontarlier, Dole, Belfort. Prix immobilier, qualité de vie, frontaliers Suisse, activités outdoor. Région sous-cotée et accessible.",
     category: "region",
     emoji: "🏔️",
@@ -3624,7 +3624,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-alpes-du-sud-provence-alpine-guide-2025",
     title: "Vivre dans les Alpes du Sud : Provence alpine, lavande et soleil à prix abordables",
-    metaTitle: "Vivre dans les Alpes du Sud — Guide 2025 : Gap, Sisteron, Digne, Manosque",
+    metaTitle: "Vivre dans les Alpes du Sud 2025 : Gap, Sisteron, Digne, Manosque",
     metaDesc: "Guide pour s'installer dans les Alpes du Sud : Gap, Sisteron, Digne-les-Bains, Manosque. Soleil provençal, nature alpine et prix 3x moins chers que la Côte d'Azur.",
     category: "region",
     emoji: "🌞",
@@ -3665,7 +3665,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-dordogne-quercy-perigord-guide-2025",
     title: "Vivre en Dordogne et Quercy : le Périgord Noir et Blanc pour s'installer",
-    metaTitle: "Vivre en Dordogne et Quercy — Guide 2025 : Périgueux, Sarlat, Cahors",
+    metaTitle: "Vivre en Dordogne et Quercy 2025 : Périgueux, Sarlat, Cahors",
     metaDesc: "S'installer en Dordogne et Quercy : Périgueux, Sarlat, Bergerac, Cahors, Figeac. Prix immobilier, qualité de vie, gastronomie et art de vivre dans le Sud-Ouest.",
     category: "region",
     emoji: "🦆",
@@ -3706,7 +3706,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-vendee-guide-2025",
     title: "Vivre en Vendée : entre mer, bocage et qualité de vie",
-    metaTitle: "Vivre en Vendée — Guide 2025 : La Roche, Les Sables, Challans, Fontenay",
+    metaTitle: "Vivre en Vendée 2025 : La Roche, Les Sables, Challans, Fontenay",
     metaDesc: "Guide complet pour s'installer en Vendée : La Roche-sur-Yon, Les Sables-d'Olonne, Challans, Fontenay-le-Comte. Immobilier, soleil, qualité de vie et activités.",
     category: "region",
     emoji: "🌊",
@@ -3747,7 +3747,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-30-min-mer-france-2025",
     title: "Habiter à 30 minutes de la mer : les meilleures villes abordables de France",
-    metaTitle: "Meilleures villes à 30 min de la mer — Guide 2025 : abordables et qualitatives",
+    metaTitle: "Meilleures villes à 30 min de la mer 2025 — abordables",
     metaDesc: "Habiter près de la mer sans payer le prix du bord de mer : top des meilleures villes françaises à 20-30 min des plages. Atlantique, Méditerranée, Manche — comparatif complet.",
     category: "budget",
     emoji: "🏖️",
@@ -3829,7 +3829,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "angers-vs-nantes-comparatif-2025",
     title: "Angers vs Nantes : laquelle choisir pour vivre dans l'Ouest ?",
-    metaTitle: "Angers vs Nantes 2025 : comparatif complet pour choisir sa ville de l'Ouest",
+    metaTitle: "Angers vs Nantes 2025 : comparatif complet, quelle ville ?",
     metaDesc: "Angers ou Nantes ? Prix immobilier, emploi, qualité de vie, transports : comparatif détaillé pour les familles et actifs qui hésitent entre les deux capitales de l'Ouest de la France.",
     category: "comparaison",
     emoji: "⚖️",
@@ -3870,7 +3870,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-aveyron-lot-guide-2025",
     title: "Vivre en Aveyron et dans le Lot : Rodez, Millau, Cahors et les causses",
-    metaTitle: "Vivre en Aveyron et Lot — Guide 2025 : Rodez, Millau, Cahors, Figeac",
+    metaTitle: "Vivre en Aveyron et Lot 2025 : Rodez, Millau, Cahors, Figeac",
     metaDesc: "Guide pour s'installer en Aveyron et dans le Lot : Rodez, Millau, Cahors, Figeac. Causses, viaducs, nature préservée et prix très accessibles dans le Sud-Ouest profond.",
     category: "region",
     emoji: "🏞️",
@@ -4034,7 +4034,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-familles-budget-serre-2025",
     title: "Meilleures villes françaises pour les familles à budget serré en 2025",
-    metaTitle: "Meilleures villes familles budget serré 2025 — Top villes abordables",
+    metaTitle: "Meilleures villes familles budget serré 2025 — abordables",
     metaDesc: "Quelles villes françaises offrent le meilleur cadre familial avec un budget limité ? Écoles, sécurité, espace, activités : notre top 10 des villes abordables pour les familles en 2025.",
     category: "famille",
     emoji: "👨‍👩‍👧",
@@ -4723,7 +4723,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-ecoles-bilingues-internationales-france-2025",
     title: "Villes françaises avec les meilleures écoles bilingues et internationales",
-    metaTitle: "Écoles bilingues & internationales : les meilleures villes en France 2025",
+    metaTitle: "Écoles bilingues et internationales : meilleures villes 2025",
     metaDesc: "Sections bilingues, lycées internationaux, enseignement en anglais, allemand ou espagnol : les villes françaises où vos enfants peuvent apprendre une langue dès le plus jeune âge.",
     category: "famille",
     emoji: "🌍",
@@ -4772,7 +4772,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-jardins-espaces-verts-enfants-familles-2025",
     title: "Les meilleures villes françaises pour les familles qui aiment la nature et les espaces verts",
-    metaTitle: "Villes avec parcs, jardins et nature pour les familles — France 2025",
+    metaTitle: "Villes avec parcs, jardins et nature pour les familles 2025",
     metaDesc: "Parcs municipaux, forêts accessibles, bords de rivière, jardins partagés : quelles villes françaises offrent le plus d'espaces naturels aux familles avec enfants ?",
     category: "famille",
     emoji: "🌳",
@@ -4821,7 +4821,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-paris-province-teletravail-guide-complet-2025",
     title: "Quitter Paris pour la province en télétravail : le guide complet 2025",
-    metaTitle: "Quitter Paris pour travailler en remote depuis la province — Guide 2025",
+    metaTitle: "Quitter Paris pour travailler en remote depuis la province",
     metaDesc: "Salaire parisien, loyer de province : le guide complet pour quitter Paris en télétravail. Villes, budgets, fibre optique, coût réel de la vie, retours d'expérience.",
     category: "teletravail",
     emoji: "🚂",
@@ -5013,7 +5013,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-achat-immobilier-moins-150000-euros-2025",
     title: "Acheter un appartement ou une maison à moins de 150 000€ en France en 2025",
-    metaTitle: "Achat immobilier moins de 150 000€ — Meilleures villes France 2025",
+    metaTitle: "Achat immobilier moins de 150 000 € — Meilleures villes 2025",
     metaDesc: "Où acheter un T3 ou une maison pour moins de 150 000€ en France ? Villes abordables, qualité de vie, rendement locatif : notre sélection 2025.",
     category: "budget",
     emoji: "🏠",
@@ -5303,7 +5303,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-grandes-tables-gastronomie-budget-reduit-2025",
     title: "Les villes françaises où manger excellemment bien sans se ruiner",
-    metaTitle: "Manger bien à petit budget — Villes gastronomiques abordables France 2025",
+    metaTitle: "Bien manger à petit budget — Villes gastronomiques 2025",
     metaDesc: "Bistrots, marchés, boucheries artisanales, cuisine de terroir : les villes françaises où la gastronomie est excellente sans être hors de prix. Nos coups de cœur.",
     category: "lifestyle",
     emoji: "🍽️",
@@ -5728,7 +5728,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-lyon-guide-2026",
     title: "Quitter Lyon en 2026 : où aller, pourquoi, et combien on récupère",
-    metaTitle: "Quitter Lyon 2026 — Le guide honnête (Annecy, Grenoble, Saint-Étienne, ailleurs)",
+    metaTitle: "Quitter Lyon 2026 — Annecy, Grenoble, Saint-Étienne, ailleurs",
     metaDesc:
       "Pollution, prix au m², circulation, A7 saturée : pourquoi de plus en plus de Lyonnais s'exilent. Les vraies destinations, le vrai calcul, et les pièges à éviter.",
     category: "comparaison",
@@ -5779,7 +5779,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-marseille-guide-2026",
     title: "Quitter Marseille en 2026 : qui part, où, pourquoi",
-    metaTitle: "Quitter Marseille 2026 — Aix, Toulon, Avignon, Montpellier : le guide honnête",
+    metaTitle: "Quitter Marseille 2026 — Aix, Toulon, Avignon, Montpellier",
     metaDesc:
       "Pourquoi tant de Marseillais cherchent à partir, et qui le devrait vraiment. Aix, Toulon, Avignon, Montpellier, Aubagne : avantages, vrais coûts et faux espoirs.",
     category: "comparaison",
@@ -5830,7 +5830,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-lille-guide-2026",
     title: "Quitter Lille en 2026 : la métropole, et après ?",
-    metaTitle: "Quitter Lille 2026 — Arras, Roubaix, Valenciennes, Bruxelles : guide complet",
+    metaTitle: "Quitter Lille 2026 — Arras, Roubaix, Valenciennes, Bruxelles",
     metaDesc:
       "Lille est une métropole attachante mais le bassin évolue vite. Où aller depuis Lille (vers Arras, la Belgique frontalière, ou plus loin) et à quel coût.",
     category: "comparaison",
@@ -5877,7 +5877,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-toulouse-guide-2026",
     title: "Quitter Toulouse en 2026 : où va-t-on quand on en a fait le tour ?",
-    metaTitle: "Quitter Toulouse 2026 — Albi, Montauban, Pau, Bordeaux, Montpellier : honnête",
+    metaTitle: "Quitter Toulouse 2026 — Albi, Montauban, Pau, Bordeaux",
     metaDesc:
       "Toulouse a explosé démographiquement : prix, embouteillages, canicules. Les vrais arbitrages pour partir : vers la périphérie, l'Occitanie ou la Nouvelle-Aquitaine.",
     category: "comparaison",
@@ -5924,7 +5924,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-bordeaux-guide-2026",
     title: "Quitter Bordeaux en 2026 : la rançon du succès",
-    metaTitle: "Quitter Bordeaux 2026 — Arcachon, Bayonne, La Rochelle, Périgueux : guide",
+    metaTitle: "Quitter Bordeaux 2026 — Arcachon, Bayonne, La Rochelle, Périgueux",
     metaDesc:
       "Bordeaux est devenue une des villes les plus chères de France hors capitale. Où vont les Bordelais qui ne suivent plus, et qui devrait vraiment partir.",
     category: "comparaison",
@@ -5975,7 +5975,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-outre-mer-guide-2026",
     title: "Vivre en Outre-mer en 2026 : Antilles, Guyane, Réunion, Mayotte sans filtre",
-    metaTitle: "Vivre en Outre-mer 2026 — Guide complet : DROM, climat, coût, métiers",
+    metaTitle: "Vivre en Outre-mer 2026 — DROM, climat, coût, métiers",
     metaDesc:
       "Antilles, Guyane, La Réunion, Mayotte : où vivre, à quel coût, quels avantages, quels écueils. Le guide honnête pour s'installer dans un département d'outre-mer.",
     category: "region",
@@ -6038,7 +6038,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-nantes-guide-2026",
     title: "Quitter Nantes en 2026 : où aller quand la Loire Atlantique devient trop chère",
-    metaTitle: "Quitter Nantes 2026 — Angers, La Rochelle, Rennes, Vannes : le guide honnête",
+    metaTitle: "Quitter Nantes 2026 — Angers, La Rochelle, Rennes, Vannes",
     metaDesc:
       "Nantes a décroché son étoile mais ses prix ont suivi. Pourquoi les Nantais cherchent à partir et quelles villes offrent le meilleur rapport qualité-de-vie prix à moins de 2h.",
     category: "comparaison",
@@ -6089,7 +6089,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-rennes-guide-2026",
     title: "Quitter Rennes en 2026 : les alternatives quand la Bretagne capitale devient trop dense",
-    metaTitle: "Quitter Rennes 2026 — Brest, Lorient, Vannes, Saint-Brieuc : le guide honnête",
+    metaTitle: "Quitter Rennes 2026 — Brest, Lorient, Vannes, Saint-Brieuc",
     metaDesc:
       "Rennes a rattrapé les métropoles en prix sans tout à fait les égaler en offre. Qui quitte et pourquoi. Les vraies options bretonnes et la carte Anjou ou Maine.",
     category: "comparaison",
@@ -6136,7 +6136,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-montpellier-guide-2026",
     title: "Quitter Montpellier en 2026 : quand le soleil ne justifie plus le loyer",
-    metaTitle: "Quitter Montpellier 2026 — Sète, Béziers, Nîmes, Perpignan : le guide honnête",
+    metaTitle: "Quitter Montpellier 2026 — Sète, Béziers, Nîmes, Perpignan",
     metaDesc:
       "Montpellier a gagné 100 000 habitants en 15 ans et ses prix ont suivi. Qui quitte, pourquoi, et quelles villes occitanes offrent mer + soleil à moindre coût.",
     category: "comparaison",
@@ -6230,7 +6230,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-hauts-de-france-guide-2026",
     title: "Vivre en Hauts-de-France en 2026 : Lille, Amiens, Arras, Valenciennes — le guide complet",
-    metaTitle: "Vivre en Hauts-de-France 2026 — Guide complet Lille, Amiens, Arras",
+    metaTitle: "Vivre en Hauts-de-France 2026 — Lille, Amiens, Arras",
     metaDesc:
       "La région la plus proche de Paris et de Londres offre bien plus que Lille. Notre guide honnête des villes des Hauts-de-France : coût, emploi, qualité de vie, sans clichés.",
     category: "region",
@@ -6277,7 +6277,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-centre-val-de-loire-guide-2026",
     title: "Vivre en Centre-Val de Loire en 2026 : Tours, Orléans, Blois — le guide complet",
-    metaTitle: "Vivre en Centre-Val de Loire 2026 — Tours, Orléans, Blois : guide honnête",
+    metaTitle: "Vivre en Centre-Val de Loire 2026 — Tours, Orléans, Blois",
     metaDesc:
       "Châteaux, vignobles et 1h de TGV depuis Paris. Le Centre-Val de Loire est la région la plus accessible de France pour qui veut quitter la capitale sans aller loin. Notre guide complet.",
     category: "region",
@@ -6324,7 +6324,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-seniors-actifs-france-2026",
     title: "Les meilleures villes pour les seniors actifs en France en 2026",
-    metaTitle: "Meilleures villes seniors actifs France 2026 — Randonnée, culture, budget",
+    metaTitle: "Meilleures villes seniors actifs France 2026 — Randonnée, culture",
     metaDesc:
       "Retraite active, sport, culture, santé accessible : notre guide des villes françaises les plus adaptées aux 60-75 ans qui refusent de ralentir.",
     category: "lifestyle",
@@ -6375,7 +6375,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-bretagne-guide-2026",
     title: "Télétravailler depuis la Bretagne en 2026 : le guide complet",
-    metaTitle: "Télétravailler depuis la Bretagne 2026 — Rennes, Brest, Lorient, Vannes",
+    metaTitle: "Télétravailler depuis la Bretagne 2026 — Rennes, Brest, Lorient",
     metaDesc:
       "Fibre, coworking, TGV Paris : la Bretagne est-elle vraiment compatible avec le télétravail ? Notre guide honnête des villes bretonnes pour les remote workers.",
     category: "teletravail",
@@ -6426,7 +6426,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-strasbourg-guide-2026",
     title: "Quitter Strasbourg en 2026 : où aller quand le Rhin coûte trop cher",
-    metaTitle: "Quitter Strasbourg 2026 — Mulhouse, Colmar, Metz, Nancy : le guide honnête",
+    metaTitle: "Quitter Strasbourg 2026 — Mulhouse, Colmar, Metz, Nancy",
     metaDesc:
       "Strasbourg est devenue l'une des villes les plus chères du Grand Est. Qui quitte, où, et pourquoi. Les vraies alternatives alsaciennes et lorraines, sans langue de bois.",
     category: "comparaison",
@@ -6473,7 +6473,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-nice-guide-2026",
     title: "Quitter Nice en 2026 : qui part, où, et ce qu'on gagne vraiment",
-    metaTitle: "Quitter Nice 2026 — Toulon, Antibes, Montpellier, Aix : le guide honnête",
+    metaTitle: "Quitter Nice 2026 — Toulon, Antibes, Montpellier, Aix",
     metaDesc:
       "Nice est magnifique et hors de prix. Pourquoi de plus en plus de Niçois regardent vers Toulon, l'arrière-pays ou Montpellier, et ce que le calcul donne vraiment.",
     category: "comparaison",
@@ -6520,7 +6520,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-pays-basque-guide-2026",
     title: "Vivre en Pays Basque en 2026 : Bayonne, Biarritz, Saint-Jean-de-Luz — le guide honnête",
-    metaTitle: "Vivre au Pays Basque 2026 — Guide complet Bayonne, Biarritz, Anglet",
+    metaTitle: "Vivre au Pays Basque 2026 — Bayonne, Biarritz, Anglet",
     metaDesc:
       "Le Pays Basque est la région de France dont les prix ont le plus augmenté en 10 ans. Notre guide honnête : qui peut encore s'y installer, et à quel prix réel.",
     category: "region",
@@ -6567,7 +6567,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "bordeaux-vs-rennes-comparatif-2026",
     title: "Bordeaux vs Rennes en 2026 : le grand duel des métropoles atlantiques",
-    metaTitle: "Bordeaux vs Rennes 2026 — Coût, emploi, qualité de vie : comparatif complet",
+    metaTitle: "Bordeaux vs Rennes 2026 — Coût, emploi, qualité de vie",
     metaDesc:
       "Les deux alternatives favorites des Parisiens qui partent vers l'Atlantique. Bordeaux vs Rennes : laquelle choisir selon votre profil, votre budget et votre projet de vie ?",
     category: "comparaison",
@@ -6614,7 +6614,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-artistes-creatifs-france-2026",
     title: "Les meilleures villes françaises pour les artistes et créatifs en 2026",
-    metaTitle: "Meilleures villes artistes et créatifs France 2026 — Studios, galeries, coût de vie",
+    metaTitle: "Meilleures villes artistes et créatifs 2026 — Studios, galeries",
     metaDesc:
       "Ateliers abordables, scène culturelle vivante, communauté active : notre guide des villes françaises où un artiste ou créatif peut vraiment travailler et vivre sans se saigner.",
     category: "lifestyle",
@@ -6665,7 +6665,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-normandie-guide-2026",
     title: "Télétravailler depuis la Normandie en 2026 : le guide complet",
-    metaTitle: "Télétravailler depuis la Normandie 2026 — Caen, Rouen, Le Havre, Cherbourg",
+    metaTitle: "Télétravailler depuis la Normandie 2026 — Caen, Rouen, Le Havre",
     metaDesc:
       "2h de Paris en TGV, prix divisés par deux, mer à portée de main : la Normandie est l'une des régions les plus sous-estimées pour le télétravail. Notre guide complet 2026.",
     category: "teletravail",
@@ -6712,7 +6712,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-provence-guide-2026",
     title: "Télétravailler depuis la Provence en 2026 : PACA, Luberon, Aix, Avignon",
-    metaTitle: "Télétravailler depuis la Provence 2026 — Aix, Avignon, Aubagne, Luberon",
+    metaTitle: "Télétravailler depuis la Provence 2026 — Aix, Avignon, Aubagne",
     metaDesc:
       "Soleil 300 jours/an, lavande et TGV : la Provence attire les télétravailleurs. Notre guide 2026 sur ce qui fonctionne vraiment, les prix réels et les villes à éviter.",
     category: "teletravail",
@@ -6759,7 +6759,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-gastronomie-france-2026",
     title: "Les meilleures villes françaises pour les amateurs de gastronomie en 2026",
-    metaTitle: "Meilleures villes gastronomie France 2026 — Restaurants, marchés, vignobles",
+    metaTitle: "Meilleures villes gastronomie France 2026 — Restaurants, marchés",
     metaDesc:
       "Lyon, Bordeaux, Strasbourg, San Sebastián à 30 km : les villes françaises où bien manger quotidiennement sans se ruiner. Notre classement honnête 2026.",
     category: "lifestyle",
@@ -6806,7 +6806,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-grenoble-guide-2026",
     title: "Quitter Grenoble en 2026 : quand la montagne et la pollution ne suffisent plus",
-    metaTitle: "Quitter Grenoble 2026 — Valence, Chambéry, Lyon, Gap : le guide honnête",
+    metaTitle: "Quitter Grenoble 2026 — Valence, Chambéry, Lyon, Gap",
     metaDesc:
       "Grenoble attire et frustre en parts égales. Qui part, pourquoi, et quelles villes offrent la montagne sans les inversions thermiques ni la saturation routière.",
     category: "comparaison",
@@ -6853,7 +6853,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-clermont-ferrand-guide-2026",
     title: "Quitter Clermont-Ferrand en 2026 : et si l'Auvergne avait mieux à offrir juste à côté ?",
-    metaTitle: "Quitter Clermont-Ferrand 2026 — Vichy, Issoire, Lyon, Riom : guide honnête",
+    metaTitle: "Quitter Clermont-Ferrand 2026 — Vichy, Issoire, Lyon, Riom",
     metaDesc:
       "Clermont n'est pas Lyon. Mais elle est aussi différente d'elle-même selon le quartier. Qui part, pourquoi, et les vraies alternatives auvergnates avant de traverser le Massif Central.",
     category: "comparaison",
@@ -6896,7 +6896,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "toulon-vs-marseille-comparatif-2026",
     title: "Toulon vs Marseille en 2026 : deux villes méditerranéennes, deux destins",
-    metaTitle: "Toulon vs Marseille 2026 — Rade, calanques, coût, emploi : comparatif complet",
+    metaTitle: "Toulon vs Marseille 2026 — Rade, calanques, coût, emploi",
     metaDesc:
       "Toulon ou Marseille ? Les deux villes partagent la Méditerranée et un fort caractère. Mais elles ont divergé radicalement en termes de coût, de sécurité, de dynamisme et de qualité de vie quotidienne.",
     category: "comparaison",
@@ -6943,7 +6943,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-auvergne-profonde-guide-2026",
     title: "Vivre en Auvergne profonde en 2026 : Cantal, Haute-Loire, Allier — le guide honnête",
-    metaTitle: "Vivre en Auvergne profonde 2026 — Aurillac, Le Puy-en-Velay, Moulins",
+    metaTitle: "Vivre en Auvergne profonde 2026 — Aurillac, Le Puy-en-Velay",
     metaDesc:
       "L'Auvergne au-delà de Clermont : Cantal, Haute-Loire, Allier. Pour qui, à quel prix, et ce que personne ne vous dit sur la vie dans le Massif Central.",
     category: "region",
@@ -6990,7 +6990,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-cyclistes-france-2026",
     title: "Les meilleures villes françaises pour les cyclistes en 2026",
-    metaTitle: "Meilleures villes cyclistes France 2026 — Pistes, culture vélo, topographie",
+    metaTitle: "Meilleures villes cyclistes France 2026 — Pistes, culture vélo",
     metaDesc:
       "Strasbourg, Bordeaux, Nantes, Grenoble : quelles villes françaises ont vraiment construit une culture du vélo du quotidien ? Notre classement honnête 2026 par profil cycliste.",
     category: "lifestyle",
@@ -7037,7 +7037,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-primo-accedants-france-2026",
     title: "Premier achat immobilier : les meilleures villes françaises en 2026",
-    metaTitle: "Premier achat immobilier France 2026 — Villes accessibles pour primo-accédants",
+    metaTitle: "Premier achat immobilier 2026 — Villes pour primo-accédants",
     metaDesc:
       "PTZ, prix du m², loyer résiduel : notre guide des villes françaises où un primo-accédant avec un revenu médian peut encore acheter en 2026 sans sacrifier la qualité de vie.",
     category: "budget",
@@ -7088,7 +7088,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-grand-est-guide-2026",
     title: "Télétravailler depuis le Grand Est en 2026 : Reims, Troyes, Champagne, Lorraine",
-    metaTitle: "Télétravailler depuis le Grand Est 2026 — Reims, Troyes, Metz, Nancy",
+    metaTitle: "Télétravailler depuis le Grand Est 2026 — Reims, Troyes, Metz",
     metaDesc:
       "À 45 minutes de TGV de Paris, Reims et Troyes sont parmi les villes les moins connues et les plus rentables pour les télétravailleurs. Notre guide complet du Grand Est 2026.",
     category: "teletravail",
@@ -7135,7 +7135,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-surf-sports-nautiques-france-2026",
     title: "Les meilleures villes françaises pour le surf et les sports nautiques en 2026",
-    metaTitle: "Meilleures villes surf et sports nautiques France 2026 — Biarritz, Hossegor, Brest",
+    metaTitle: "Meilleures villes surf et sports nautiques France 2026",
     metaDesc:
       "Surf, voile, kayak, kitesurf : notre guide des villes françaises où pratiquer des sports nautiques au quotidien, avec le vrai coût de la vie et les spots par niveau.",
     category: "lifestyle",
@@ -7182,7 +7182,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-dans-les-landes-guide-2026",
     title: "Vivre dans les Landes en 2026 : forêt, océan, Mont-de-Marsan, Dax — le guide complet",
-    metaTitle: "Vivre dans les Landes 2026 — Mont-de-Marsan, Dax, Biscarrosse, Hossegor",
+    metaTitle: "Vivre dans les Landes 2026 — Mont-de-Marsan, Dax, Biscarrosse",
     metaDesc:
       "Forêt de pins, côte atlantique, thermalisme, pelote basque : les Landes sont la grande oubliée des guides de relocation. Notre guide honnête 2026 du plus grand département forestier de France.",
     category: "region",
@@ -7229,7 +7229,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-roussillon-guide-2026",
     title: "Vivre en Roussillon en 2026 : Perpignan, Collioure, Céret — le guide honnête",
-    metaTitle: "Vivre en Roussillon 2026 — Perpignan, Côte Vermeille, Pyrénées-Orientales",
+    metaTitle: "Vivre en Roussillon 2026 — Perpignan, Côte Vermeille",
     metaDesc:
       "Le Roussillon offre mer, montagne catalane, soleil et des prix parmi les plus bas du Midi. Notre guide honnête sur ce qu'on y gagne vraiment et ce qu'on n'y trouve pas.",
     category: "region",
@@ -7276,7 +7276,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "caen-vs-rouen-comparatif-2026",
     title: "Caen vs Rouen en 2026 : deux capitales normandes, deux projets de vie",
-    metaTitle: "Caen vs Rouen 2026 — Mer, Seine, qualité de vie : comparatif complet",
+    metaTitle: "Caen vs Rouen 2026 — Mer, Seine, qualité de vie",
     metaDesc:
       "Caen ou Rouen pour s'installer en Normandie ? Les deux villes ont des profils très différents malgré leur proximité. Notre comparatif honnête pour choisir selon votre situation.",
     category: "comparaison",
@@ -7323,7 +7323,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "dijon-vs-lyon-comparatif-2026",
     title: "Dijon vs Lyon en 2026 : la capitale bourguignonne face à la métropole rhônalpine",
-    metaTitle: "Dijon vs Lyon 2026 — Prix, emploi, gastronomie : comparatif complet",
+    metaTitle: "Dijon vs Lyon 2026 — Prix, emploi, gastronomie",
     metaDesc:
       "Dijon est à 1h40 de TGV de Lyon. Pour la moitié du prix. Est-ce suffisant pour en faire une alternative crédible ? Notre comparatif honnête Dijon vs Lyon 2026.",
     category: "comparaison",
@@ -7370,7 +7370,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-randonnee-trail-france-2026",
     title: "Les meilleures villes françaises pour la randonnée et le trail en 2026",
-    metaTitle: "Meilleures villes randonnée et trail France 2026 — GR, massifs, sentiers",
+    metaTitle: "Meilleures villes randonnée et trail France 2026 — GR, massifs",
     metaDesc:
       "Sortir randonner ou trailrunner depuis chez soi en 20 minutes : notre guide des villes françaises où c'est possible, avec les massifs accessibles, les clubs et le coût de vie.",
     category: "lifestyle",
@@ -7417,7 +7417,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-retraite-anticipee-fire-2026",
     title: "Retraite anticipée et FIRE en France : les meilleures villes pour s'arrêter à 45 ans",
-    metaTitle: "Retraite anticipée et FIRE France 2026 — Villes à faible coût, haute qualité de vie",
+    metaTitle: "Retraite anticipée et FIRE France 2026 — Villes à faible coût",
     metaDesc:
       "S'arrêter de travailler à 40-50 ans en France : dans quelles villes est-ce financièrement viable avec un capital de 400 000 à 700 000 € ? Notre analyse 2026.",
     category: "lifestyle",
@@ -7464,7 +7464,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-bourgogne-guide-2026",
     title: "Télétravailler depuis la Bourgogne en 2026 : Dijon, Beaune, Auxerre, Mâcon",
-    metaTitle: "Télétravailler depuis la Bourgogne 2026 — Dijon, Beaune, vignobles et TGV",
+    metaTitle: "Télétravailler depuis la Bourgogne 2026 — Dijon, Beaune",
     metaDesc:
       "La Bourgogne est à 1h35 de TGV de Paris, trois fois moins chère, et propose une qualité de vie gastronomique unique. Notre guide complet pour télétravailler depuis les vignes.",
     category: "teletravail",
@@ -7511,7 +7511,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-freelances-independants-france-2026",
     title: "Les meilleures villes françaises pour les freelances et indépendants en 2026",
-    metaTitle: "Meilleures villes freelances et indépendants France 2026 — Coworking, réseau, coût",
+    metaTitle: "Meilleures villes freelances et indépendants France 2026",
     metaDesc:
       "Coworking abordable, réseau professionnel actif, cotisations sociales : notre guide 2026 des villes françaises où un freelance peut développer son activité sans se ruiner.",
     category: "teletravail",
@@ -7558,7 +7558,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-dijon-guide-2026",
     title: "Quitter Dijon en 2026 : quand la Bourgogne devient trop petite",
-    metaTitle: "Quitter Dijon 2026 — Lyon, Besançon, Chalon, Mâcon : le guide honnête",
+    metaTitle: "Quitter Dijon 2026 — Lyon, Besançon, Chalon, Mâcon",
     metaDesc:
       "Dijon est agréable mais son marché de l'emploi est étroit. Qui part, pourquoi, et quelles villes offrent plus sans tout sacrifier : calcul honnête.",
     category: "comparaison",
@@ -7605,7 +7605,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "nantes-vs-bordeaux-comparatif-2026",
     title: "Nantes vs Bordeaux en 2026 : le match des métropoles atlantiques enfin tranché",
-    metaTitle: "Nantes vs Bordeaux 2026 — Coût, emploi, qualité de vie : comparatif complet",
+    metaTitle: "Nantes vs Bordeaux 2026 — Coût, emploi, qualité de vie",
     metaDesc:
       "Nantes ou Bordeaux pour s'installer ? Les deux métropoles atlantiques sont les premières destinations des Parisiens qui partent. Ce comparatif honnête aide à choisir selon votre profil.",
     category: "comparaison",
@@ -7652,7 +7652,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "pau-vs-bayonne-comparatif-2026",
     title: "Pau vs Bayonne en 2026 : deux visions du Sud-Ouest pyrénéen",
-    metaTitle: "Pau vs Bayonne 2026 — Pyrénées, mer, prix, emploi : comparatif complet",
+    metaTitle: "Pau vs Bayonne 2026 — Pyrénées, mer, prix, emploi",
     metaDesc:
       "Pau ou Bayonne pour s'installer dans le Sud-Ouest ? Une préfecture calme et abordable contre une cité basque bouillonnante et chère. Notre comparatif honnête.",
     category: "comparaison",
@@ -7699,7 +7699,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-dans-l-ain-guide-2026",
     title: "Vivre dans l'Ain en 2026 : Bourg-en-Bresse, Pays de Gex, Belley — le guide complet",
-    metaTitle: "Vivre dans l'Ain 2026 — Bourg-en-Bresse, Pays de Gex, frontaliers Genève",
+    metaTitle: "Vivre dans l'Ain 2026 — Bourg-en-Bresse, Pays de Gex",
     metaDesc:
       "L'Ain est le département français qui compte le plus de travailleurs frontaliers. Entre Pays de Gex à 20 minutes de Genève et Bresse authentique, notre guide complet 2026.",
     category: "region",
@@ -7746,7 +7746,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-pays-de-la-loire-guide-2026",
     title: "Télétravailler depuis les Pays de la Loire en 2026 : Nantes, Angers, Le Mans, Saumur",
-    metaTitle: "Télétravailler depuis les Pays de la Loire 2026 — Nantes, Angers, Le Mans",
+    metaTitle: "Télétravailler depuis les Pays de la Loire 2026 — Nantes, Angers",
     metaDesc:
       "TGV < 2h10 de Paris, prix divisés par deux, Loire à Vélo : les Pays de la Loire sont peut-être la région la plus cohérente de France pour télétravailler. Notre guide complet 2026.",
     category: "teletravail",
@@ -7793,7 +7793,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-culture-festivals-france-2026",
     title: "Les meilleures villes françaises pour la culture et les festivals en 2026",
-    metaTitle: "Meilleures villes culture et festivals France 2026 — Musique, théâtre, art",
+    metaTitle: "Meilleures villes culture et festivals France 2026",
     metaDesc:
       "Avignon, Rennes, Clermont-Ferrand, Montpellier : quelles villes françaises ont une vie culturelle intense toute l'année ? Notre guide honnête par type de culture.",
     category: "lifestyle",
@@ -7840,7 +7840,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investissement-locatif-moins-100000-euros-france-2026",
     title: "Investissement locatif sous 100 000 € : les villes françaises où c'est encore possible en 2026",
-    metaTitle: "Investissement locatif < 100 000 € France 2026 — Rentabilité, risques, villes",
+    metaTitle: "Investissement locatif < 100 000 € 2026 — Rentabilité, villes",
     metaDesc:
       "Studio ou T2 sous 100 000 € avec un loyer viable : les villes françaises où ce profil reste possible en 2026, rentabilité brute, vacance locative, pièges à éviter.",
     category: "budget",
@@ -7887,7 +7887,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "expatries-retour-france-quelle-ville-2026",
     title: "Expatriés : retour en France en 2026 — dans quelle ville s'installer ?",
-    metaTitle: "Expatriés retour France 2026 — Quelle ville choisir après l'étranger ?",
+    metaTitle: "Expatriés de retour en France 2026 — Quelle ville choisir ?",
     metaDesc:
       "Après des années à Londres, New York, Singapour ou Dubaï : comment choisir sa ville en France ? Notre guide pour les expatriés qui rentrent, selon leur budget et leur profil.",
     category: "lifestyle",
@@ -7934,7 +7934,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-rouen-guide-2026",
     title: "Quitter Rouen en 2026 : quand la Seine devient trop contraignante",
-    metaTitle: "Quitter Rouen 2026 — Caen, Le Havre, Évreux, Paris : le guide honnête",
+    metaTitle: "Quitter Rouen 2026 — Caen, Le Havre, Évreux, Paris",
     metaDesc:
       "Rouen attire mais ses embouteillages, sa topographie et ses prix en hausse poussent certains à partir. Qui quitte, où, et ce qu'on gagne ou perd vraiment.",
     category: "comparaison",
@@ -7981,7 +7981,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-annecy-guide-2026",
     title: "Quitter Annecy en 2026 : quand le lac ne justifie plus le prix",
-    metaTitle: "Quitter Annecy 2026 — Chambéry, Aix-les-Bains, Grenoble, Thonon : le guide honnête",
+    metaTitle: "Quitter Annecy 2026 — Chambéry, Aix-les-Bains, Grenoble, Thonon",
     metaDesc:
       "Annecy est la ville française la plus chère hors Paris pour son niveau de services. Qui peut encore y rester, et où partent ceux qui n'en ont plus les moyens.",
     category: "comparaison",
@@ -8028,7 +8028,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "annecy-vs-chambery-comparatif-2026",
     title: "Annecy vs Chambéry en 2026 : deux capitales savoyardes, deux rapports au prix",
-    metaTitle: "Annecy vs Chambéry 2026 — Lac, montagne, immobilier : comparatif complet",
+    metaTitle: "Annecy vs Chambéry 2026 — Lac, montagne, immobilier",
     metaDesc:
       "Annecy ou Chambéry pour s'installer en Savoie ? L'une est la plus belle et la plus chère ; l'autre offre presque autant pour 40 % de moins. Notre comparatif honnête.",
     category: "comparaison",
@@ -8122,7 +8122,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-ariege-guide-2026",
     title: "Vivre en Ariège en 2026 : Foix, Pamiers, Tarascon — le guide honnête",
-    metaTitle: "Vivre en Ariège 2026 — Foix, Pamiers, Pyrénées ariégeoises : guide complet",
+    metaTitle: "Vivre en Ariège 2026 — Foix, Pamiers, Pyrénées ariégeoises",
     metaDesc:
       "L'Ariège est le département le moins cher de l'arc pyrénéen et le moins connu des guides de relocation. Pour qui, à quel prix, et ce qu'on n'y trouve vraiment pas.",
     category: "region",
@@ -8169,7 +8169,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-auvergne-guide-2026",
     title: "Télétravailler depuis l'Auvergne en 2026 : Clermont, Vichy, Aurillac, Le Puy",
-    metaTitle: "Télétravailler depuis l'Auvergne 2026 — Clermont-Ferrand, volcans, Massif Central",
+    metaTitle: "Télétravailler depuis l'Auvergne 2026 — Clermont-Ferrand, volcans",
     metaDesc:
       "L'Auvergne cumule prix bas, nature volcanique unique et fibre en progression. Notre guide complet 2026 pour télétravailler depuis le Massif Central.",
     category: "teletravail",
@@ -8216,7 +8216,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-zero-dechet-ecologie-france-2026",
     title: "Les meilleures villes françaises pour vivre zéro déchet et éco-responsable en 2026",
-    metaTitle: "Meilleures villes zéro déchet et écologie France 2026 — Vrac, vélo, circuits courts",
+    metaTitle: "Meilleures villes zéro déchet et écologie France 2026",
     metaDesc:
       "Vrac, compost, vélo, circuits courts, énergie renouvelable : quelles villes françaises ont vraiment construit une infrastructure du quotidien durable ? Notre guide 2026.",
     category: "lifestyle",
@@ -8263,7 +8263,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "survivre-etudiant-province-moins-700-euros-2026",
     title: "Étudiant en province : vivre avec moins de 700 €/mois en 2026 — les villes où c'est possible",
-    metaTitle: "Étudiant province moins 700 €/mois 2026 — Villes accessibles, APL, CROUS",
+    metaTitle: "Étudiant province moins 700 €/mois 2026 — Villes accessibles, APL",
     metaDesc:
       "APL, CROUS, colocation, budget alimentation : quelles villes françaises permettent à un étudiant de vivre décemment avec 700 €/mois tout compris en 2026 ?",
     category: "budget",
@@ -8310,7 +8310,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-nimes-guide-2026",
     title: "Quitter Nîmes : ce que personne ne vous dit avant de partir",
-    metaTitle: "Quitter Nîmes en 2026 : alternatives, coûts et vraies raisons de partir",
+    metaTitle: "Quitter Nîmes en 2026 : alternatives, coûts, raisons de partir",
     metaDesc: "Embouteillages, marché de l'emploi limité, départs de jeunes actifs : pourquoi on quitte Nîmes et où aller. Montpellier, Avignon, Marseille — le comparatif honnête.",
     category: "comparaison",
     emoji: "🏛️",
@@ -8356,7 +8356,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-toulon-guide-2026",
     title: "Quitter Toulon : la ville navale qui divise, et où aller vraiment",
-    metaTitle: "Quitter Toulon en 2026 : alternatives honnêtes et analyse coût-bénéfice",
+    metaTitle: "Quitter Toulon en 2026 : alternatives honnêtes, coût-bénéfice",
     metaDesc: "Toulon a la réputation la plus clivante de la Côte d'Azur. Faut-il vraiment partir ? Marseille, Nice, Aix, La Ciotat — le guide sans filtre pour décider.",
     category: "comparaison",
     emoji: "⚓",
@@ -8402,7 +8402,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "la-rochelle-vs-bayonne-comparatif-2026",
     title: "La Rochelle vs Bayonne : deux villes atlantiques, deux styles de vie",
-    metaTitle: "La Rochelle vs Bayonne 2026 : comparatif complet — coût, qualité de vie, emploi",
+    metaTitle: "La Rochelle vs Bayonne 2026 : coût, qualité de vie, emploi",
     metaDesc: "La Rochelle ou Bayonne ? Deux perles de l'Atlantique avec des identités radicalement différentes. Le comparatif honnête pour trouver votre ville.",
     category: "comparaison",
     emoji: "🌊",
@@ -8444,7 +8444,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "brest-vs-lorient-comparatif-2026",
     title: "Brest vs Lorient : deux villes bretonnes navales, lequel vous convient ?",
-    metaTitle: "Brest vs Lorient 2026 : comparatif complet — prix, emploi, vie étudiante",
+    metaTitle: "Brest vs Lorient 2026 : comparatif complet — prix, emploi",
     metaDesc: "Brest ou Lorient ? Deux villes portuaires de Bretagne Sud/Ouest avec des profils très différents. Prix, météo, jobs, vie sociale — le comparatif sans langue de bois.",
     category: "comparaison",
     emoji: "🌧️",
@@ -8486,7 +8486,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-ardennes-meuse-guide-2026",
     title: "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
-    metaTitle: "Vivre en Ardennes et Meuse 2026 : coût, nature, télétravail et réalité du quotidien",
+    metaTitle: "Vivre en Ardennes et Meuse 2026 : coût, nature, télétravail",
     metaDesc: "Les départements les moins chers de France, des forêts immenses, et des villes qui se réinventent. Qui vit vraiment bien en Ardennes et Meuse ? Le guide sans fard.",
     category: "region",
     emoji: "🌲",
@@ -8528,7 +8528,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-creuse-guide-2026",
     title: "Vivre en Creuse : l'immobilier le moins cher de France et ce que ça cache",
-    metaTitle: "Vivre en Creuse 2026 : guide complet pour télétravailleurs, retraités et néoruraux",
+    metaTitle: "Vivre en Creuse 2026 : télétravailleurs, retraités, néoruraux",
     metaDesc: "La Creuse : maisons à 40 000 €, silence absolu, nature préservée. Mais aussi déserts médicaux et isolement. Le guide honnête pour ceux qui envisagent le grand saut.",
     category: "region",
     emoji: "🐄",
@@ -8570,7 +8570,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
     title: "Télétravailler depuis la Nouvelle-Aquitaine : la région la plus diverse de France",
-    metaTitle: "Télétravail Nouvelle-Aquitaine 2026 : meilleures villes, fibre, coworking et coût",
+    metaTitle: "Télétravail Nouvelle-Aquitaine 2026 : meilleures villes, fibre",
     metaDesc: "De l\'Atlantique aux Pyrénées, la Nouvelle-Aquitaine offre une gamme incroyable pour le télétravail. Pau, La Rochelle, Périgueux, Libourne — le guide complet.",
     category: "teletravail",
     emoji: "🍷",
@@ -8612,7 +8612,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-grande-couronne-ile-de-france-2026",
     title: "Télétravailler depuis la Grande Couronne : rester près de Paris sans en payer le prix",
-    metaTitle: "Télétravail Grande Couronne Île-de-France 2026 : Meaux, Melun, Fontainebleau, Chartres",
+    metaTitle: "Télétravail Grande Couronne Île-de-France 2026 : Meaux, Melun",
     metaDesc: "Ni Paris ni la province : la Grande Couronne pour les télétravailleurs qui veulent de l\'espace, des prix bas et un accès TGV en moins de 60 minutes.",
     category: "teletravail",
     emoji: "🚆",
@@ -8654,7 +8654,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-animaux-chiens-france-2026",
     title: "Meilleures villes françaises pour les propriétaires d\'animaux et de chiens",
-    metaTitle: "Meilleures villes pour chiens et animaux en France 2026 : classement et critères",
+    metaTitle: "Meilleures villes pour chiens et animaux en France 2026",
     metaDesc: "Parcs, zones sans laisse, vétérinaires, terrasses dog-friendly : quelles villes françaises accueillent vraiment bien les chiens et leurs propriétaires ?",
     category: "lifestyle",
     emoji: "🐕",
@@ -8696,7 +8696,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-musique-scene-france-2026",
     title: "Meilleures villes françaises pour la musique et la scène live en 2026",
-    metaTitle: "Meilleures villes pour la musique en France 2026 : scènes, festivals, studios",
+    metaTitle: "Meilleures villes pour la musique 2026 : scènes, festivals",
     metaDesc: "Rennes, Nantes, Bordeaux, Lyon, Marseille : quel est le vrai vivier musical de France ? Classement par scène live, festivals, salles de répétition et culture indie.",
     category: "lifestyle",
     emoji: "🎸",
@@ -8738,7 +8738,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-colocation-jeunes-actifs-2026",
     title: "Meilleures villes pour la colocation de jeunes actifs en 2026",
-    metaTitle: "Colocation jeunes actifs 2026 : meilleures villes France — prix, transport, social",
+    metaTitle: "Colocation jeunes actifs 2026 : meilleures villes, prix",
     metaDesc: "25-35 ans, CDI ou freelance, vous voulez optimiser coût et vie sociale. Quelles villes offrent les meilleures colocations pour jeunes actifs ? Rennes, Toulouse, Lyon, Nantes.",
     category: "budget",
     emoji: "🏠",
@@ -8780,7 +8780,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-ecoles-alternatives-montessori-2026",
     title: "Écoles alternatives en France : quelles villes ont la meilleure offre en 2026 ?",
-    metaTitle: "Écoles Montessori, Steiner, écoles démocratiques France 2026 : villes et tarifs",
+    metaTitle: "Écoles Montessori, Steiner, démocratiques 2026 : villes, tarifs",
     metaDesc: "Montessori, Waldorf-Steiner, écoles démocratiques, unschooling : quelles villes françaises ont la densité d\'écoles alternatives la plus forte ? Guide pour familles.",
     category: "famille",
     emoji: "🎨",
@@ -8822,7 +8822,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "familles-expatriees-retour-france-quelle-ville-2026",
     title: "Familles expatriées : quelle ville choisir pour rentrer en France en 2026 ?",
-    metaTitle: "Retour en France expatriés 2026 : quelle ville choisir pour votre famille ?",
+    metaTitle: "Retour en France en famille 2026 : quelle ville choisir ?",
     metaDesc: "Vous revenez de Londres, New York, Dubaï ou Singapour avec des enfants. Quel ville française offre les meilleures écoles internationales, un réseau expat et un vrai marché du travail ?",
     category: "famille",
     emoji: "✈️",
@@ -8864,7 +8864,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "le-mans-vs-tours-comparatif-2026",
     title: "Le Mans vs Tours : quelle ville choisir en 2026 ?",
-    metaTitle: "Le Mans vs Tours : comparatif complet 2026 — prix, transports, qualité de vie",
+    metaTitle: "Le Mans vs Tours : comparatif complet 2026 — prix, transports",
     metaDesc:
       "Le Mans à 9 €/m² ou Tours à 3 300 €/m² ? Deux villes de Centre-Val de Loire à moins d'1h de Paris en TGV : comparaison honnête pour choisir celle qui correspond à votre profil.",
     category: "comparaison",
@@ -8914,7 +8914,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "perpignan-vs-montpellier-comparatif-2026",
     title: "Perpignan vs Montpellier : soleil catalan ou métropole occitane ?",
-    metaTitle: "Perpignan vs Montpellier 2026 : comparatif complet — prix, emploi, qualité de vie",
+    metaTitle: "Perpignan vs Montpellier 2026 : comparatif complet — prix, emploi",
     metaDesc:
       "Perpignan à 1 400 €/m² ou Montpellier à 3 600 €/m² ? Les deux promettent le soleil et la Méditerranée, mais avec des réalités très différentes. Comparatif objectif 2026.",
     category: "comparaison",
@@ -8965,7 +8965,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "metz-vs-nancy-comparatif-2026",
     title: "Metz vs Nancy : le duel lorrain tranché en 2026",
-    metaTitle: "Metz vs Nancy 2026 : comparatif complet — culture, immobilier, qualité de vie",
+    metaTitle: "Metz vs Nancy 2026 : comparatif complet — culture, immobilier",
     metaDesc:
       "Metz (Centre Pompidou) ou Nancy (Place Stanislas) ? Deux rivales lorraines à 55 km l'une de l'autre, même prix immobilier, mais des identités et des atouts très différents.",
     category: "comparaison",
@@ -9015,7 +9015,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-perigord-dordogne-guide-2026",
     title: "Vivre en Périgord-Dordogne : le guide complet 2026",
-    metaTitle: "Vivre en Périgord-Dordogne 2026 : prix, expats, qualité de vie, inconvénients",
+    metaTitle: "Vivre en Périgord-Dordogne 2026 : prix, expats, qualité de vie",
     metaDesc:
       "Maison en pierre à 100 000 €, truffes et canard confit, grottes préhistoriques. Mais aussi peu d'emplois et des hivers qui font gris. Le vrai guide pour s'installer en Dordogne.",
     category: "region",
@@ -9064,7 +9064,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-alsace-guide-2026",
     title: "Vivre en Alsace : le guide complet 2026",
-    metaTitle: "Vivre en Alsace 2026 : Strasbourg, Colmar, Mulhouse — prix, emploi, qualité de vie",
+    metaTitle: "Vivre en Alsace 2026 : Strasbourg, Colmar, Mulhouse — prix",
     metaDesc:
       "Institutions européennes, marché de Noël, bretzels et choucroute. Mais aussi loyers en hausse à Strasbourg et hiver froid. Le vrai guide pour s'installer en Alsace.",
     category: "region",
@@ -9113,7 +9113,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-charente-maritime-guide-2026",
     title: "Vivre en Charente-Maritime : le guide complet 2026",
-    metaTitle: "Vivre en Charente-Maritime 2026 : La Rochelle, îles, retraite, télétravail — prix réels",
+    metaTitle: "Vivre en Charente-Maritime 2026 : La Rochelle, îles, retraite",
     metaDesc:
       "La Rochelle à 3 000 €/m², Oléron à 5 500 €/m², Rochefort à 1 800 €/m². Oysters, soleil atlantique et lifestyle côtier : le vrai guide pour s'installer en Charente-Maritime.",
     category: "region",
@@ -9163,7 +9163,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-occitanie-guide-2026",
     title: "Télétravailler depuis l'Occitanie : le guide 2026",
-    metaTitle: "Télétravail en Occitanie 2026 : Montpellier, Toulouse, Nîmes, Perpignan — guide complet",
+    metaTitle: "Télétravail en Occitanie 2026 : Montpellier, Toulouse, Nîmes",
     metaDesc:
       "Fibre, TGV Paris 3h15, coworkings actifs et 300 jours de soleil. Les meilleures villes d'Occitanie pour télétravailler en 2026, avec les prix et les pièges réels.",
     category: "teletravail",
@@ -9213,7 +9213,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-hauts-de-france-guide-2026",
     title: "Télétravailler depuis les Hauts-de-France : le guide 2026",
-    metaTitle: "Télétravail Hauts-de-France 2026 : Lille, Amiens, Arras, Valenciennes — guide complet",
+    metaTitle: "Télétravail Hauts-de-France 2026 : Lille, Amiens, Arras",
     metaDesc:
       "À 1h de Paris en TGV et 3x moins cher : Lille, Amiens, Arras. Le guide pour télétravailler depuis les Hauts-de-France en 2026, avec les prix, la fibre et les pièges.",
     category: "teletravail",
@@ -9262,7 +9262,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-bien-etre-spas-france-2026",
     title: "Les meilleures villes pour le bien-être et les spas en France — 2026",
-    metaTitle: "Meilleures villes bien-être et spas France 2026 : Annecy, Vichy, Aix, Biarritz",
+    metaTitle: "Meilleures villes bien-être et spas France 2026 : Annecy, Vichy",
     metaDesc:
       "Villes thermales, yoga, randonnée et spas : les meilleures villes françaises pour un lifestyle centré sur le bien-être en 2026. Classement et analyse factuelle.",
     category: "lifestyle",
@@ -9311,7 +9311,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-entrepreneurs-startups-france-2026",
     title: "Les meilleures villes pour les entrepreneurs et startups en France — 2026",
-    metaTitle: "Meilleures villes startups & entrepreneurs France 2026 : Paris, Bordeaux, Nantes, Rennes",
+    metaTitle: "Meilleures villes startups et entrepreneurs France 2026",
     metaDesc:
       "French Tech, accélérateurs, talent pool, coût de bureau : classement 2026 des meilleures villes françaises pour lancer une startup ou développer son entreprise.",
     category: "lifestyle",
@@ -9360,7 +9360,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-retraite-1500-euros-mois-france-2026",
     title: "Vivre avec 1 500 €/mois de retraite en France : les meilleures villes",
-    metaTitle: "Retraite 1 500 €/mois France 2026 : quelles villes sont vraiment viables ?",
+    metaTitle: "Retraite à 1 500 €/mois en France 2026 : villes viables",
     metaDesc:
       "1 500 €/mois est la retraite médiane française. Où peut-on vivre décemment avec ce budget ? Guide 2026 avec les villes, les loyers réels et les calculs concrets.",
     category: "budget",
@@ -9410,7 +9410,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-smic-quelle-ville-france-2026",
     title: "Vivre au SMIC en France : quelles villes sont réellement vivables en 2026 ?",
-    metaTitle: "Vivre au SMIC 2026 : quelles villes françaises permettent de s'en sortir ?",
+    metaTitle: "Vivre au SMIC 2026 : les villes françaises où s'en sortir",
     metaDesc:
       "1 426 €/mois nets au SMIC en 2026 : où peut-on vivre sans s'asphyxier financièrement ? Loyers, APL, transport, analyse concrète ville par ville.",
     category: "budget",
@@ -9459,7 +9459,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-familles-monoparentales-france-2026",
     title: "Meilleures villes pour les familles monoparentales en France — 2026",
-    metaTitle: "Meilleures villes familles monoparentales France 2026 : Rennes, Nantes, Strasbourg",
+    metaTitle: "Meilleures villes familles monoparentales France 2026",
     metaDesc:
       "Crèches, logement abordable, transports, soutien CAF : les meilleures villes françaises pour les familles monoparentales en 2026. Classement factuel.",
     category: "famille",
@@ -9508,7 +9508,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-accessibilite-handicap-france-2026",
     title: "Meilleures villes pour les personnes en situation de handicap en France — 2026",
-    metaTitle: "Accessibilité handicap France 2026 : Grenoble, Strasbourg, Lyon, Nantes — classement",
+    metaTitle: "Accessibilité handicap 2026 : Grenoble, Strasbourg, Lyon, Nantes",
     metaDesc:
       "MDPH, transport adapté, logement PMR, emploi inclusif : les villes françaises les plus accessibles aux personnes handicapées en 2026. Classement et analyse factuelle.",
     category: "famille",
@@ -9557,7 +9557,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-reims-guide-2026",
     title: "Quitter Reims en 2026 : quand la cathédrale ne compense plus la grisaille",
-    metaTitle: "Quitter Reims 2026 — Châlons, Épernay, Troyes, Paris : le guide honnête",
+    metaTitle: "Quitter Reims 2026 — Châlons, Épernay, Troyes, Paris",
     metaDesc:
       "Reims attire pour sa cathédrale et son TGV à 45 minutes de Paris, mais son climat, son tissu d'emploi et certains quartiers font partir. Où partent les Rémois, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
@@ -9614,7 +9614,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-la-campagne-france-guide-2026",
     title: "Vivre à la campagne en France — vraie liberté ou faux rêve ? Guide 2026",
-    metaTitle: "Vivre à la campagne en France 2026 : prix, télétravail, services — réalité",
+    metaTitle: "Vivre à la campagne en France 2026 : prix, télétravail, services",
     metaDesc:
       "Loyers divisés par trois, fibre disponible, services médicaux fragiles : ce que vivre à la campagne en France veut vraiment dire en 2026. Avantages, angles morts, où s'installer.",
     category: "lifestyle",
@@ -9664,7 +9664,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-universitaires-etudiants-etrangers-france-2026",
     title: "Meilleures villes universitaires françaises pour les étudiants étrangers — 2026",
-    metaTitle: "Universités France étudiants étrangers 2026 : Toulouse, Lyon, Montpellier, Strasbourg",
+    metaTitle: "Universités France étudiants étrangers 2026 : Toulouse, Lyon",
     metaDesc:
       "Logement étudiant, démarches préfecture, services internationaux, coût de la vie : les villes françaises les plus accueillantes pour les étudiants internationaux en 2026.",
     category: "lifestyle",
@@ -9712,7 +9712,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-dans-le-vaucluse-guide-2026",
     title: "Vivre dans le Vaucluse — Provence authentique, mistral inclus — Guide 2026",
-    metaTitle: "Vivre dans le Vaucluse 2026 : Avignon, Carpentras, Luberon — coût et qualité de vie",
+    metaTitle: "Vivre dans le Vaucluse 2026 : Avignon, Carpentras, Luberon",
     metaDesc:
       "Avignon, Orange, Carpentras, Luberon : que vaut vraiment le Vaucluse en 2026 ? Climat, prix de l'immobilier, transports, désert médical. Le vrai bilan d'une installation provençale.",
     category: "region",
@@ -9761,7 +9761,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-saint-etienne-guide-2026",
     title: "Quitter Saint-Étienne en 2026 — vers Lyon, vers la montagne, vers la mer ?",
-    metaTitle: "Quitter Saint-Étienne 2026 : Lyon, Annecy, Saint-Chamond, Roanne — le guide",
+    metaTitle: "Quitter Saint-Étienne 2026 : Lyon, Annecy, Saint-Chamond, Roanne",
     metaDesc:
       "Saint-Étienne attire pour son immobilier (parmi les moins chers de France) mais fait partir pour son emploi, sa réputation et son climat. Vers où partent les Stéphanois, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
@@ -9810,7 +9810,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-mulhouse-guide-2026",
     title: "Quitter Mulhouse en 2026 — Suisse, Allemagne, ou Strasbourg ?",
-    metaTitle: "Quitter Mulhouse 2026 : Bâle, Fribourg, Strasbourg, Colmar — le guide honnête",
+    metaTitle: "Quitter Mulhouse 2026 : Bâle, Fribourg, Strasbourg, Colmar",
     metaDesc:
       "Mulhouse a des avantages rares (frontière suisse, immobilier abordable) mais une réputation qui pèse. Vers où partent vraiment les Mulhousiens, et qui regrette ?",
     category: "comparaison",
@@ -9858,7 +9858,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "aix-en-provence-vs-marseille-comparatif-2026",
     title: "Aix-en-Provence vs Marseille — vivre, travailler, élever ses enfants — 2026",
-    metaTitle: "Aix-en-Provence vs Marseille 2026 : coût, sécurité, écoles, transport — comparatif",
+    metaTitle: "Aix-en-Provence vs Marseille 2026 : coût, sécurité, écoles",
     metaDesc:
       "Aix bourgeoise, Marseille cosmopolite, à 30 km l'une de l'autre : tout les sépare sauf la géographie. Comparatif complet sur 8 critères pour choisir entre les deux capitales provençales.",
     category: "comparaison",
@@ -9911,7 +9911,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-bretagne-interieure-guide-2026",
     title: "Vivre en Bretagne intérieure (Morbihan & Côtes-d'Armor) — 2026",
-    metaTitle: "Vivre en Bretagne intérieure 2026 : Pontivy, Loudéac, Carhaix, Vannes-couronne",
+    metaTitle: "Vivre en Bretagne intérieure 2026 : Pontivy, Loudéac, Carhaix",
     metaDesc:
       "La Bretagne loin du littoral surcoté : Pontivy, Loudéac, Rostrenen, Carhaix. Prix divisés par trois, fibre disponible, climat océanique tempéré. La vraie alternative bretonne en 2026.",
     category: "region",
@@ -9959,7 +9959,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-lgbt-friendly-france-2026",
     title: "Meilleures villes LGBT+-friendly en France — 2026",
-    metaTitle: "Villes LGBT+ friendly France 2026 : Paris, Lyon, Marseille, Lille, Montpellier",
+    metaTitle: "Villes LGBT+ friendly France 2026 : Paris, Lyon, Marseille, Lille",
     metaDesc:
       "Tissu associatif, visibilité, sécurité ressentie, accueil familles homoparentales : les villes françaises où la communauté LGBT+ se sent réellement chez elle. Classement et grille de lecture honnête.",
     category: "lifestyle",
@@ -10008,7 +10008,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-le-havre-guide-2026",
     title: "Quitter Le Havre en 2026 — vers Rouen, vers Caen, vers Paris ?",
-    metaTitle: "Quitter Le Havre 2026 : Rouen, Caen, Paris, Deauville — le guide honnête",
+    metaTitle: "Quitter Le Havre 2026 : Rouen, Caen, Paris, Deauville",
     metaDesc:
       "Le Havre attire pour son immobilier UNESCO abordable et son port, mais fait partir pour l'emploi cadre limité, le vent et la grisaille. Vers où partent les Havrais, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
@@ -10057,7 +10057,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-tours-guide-2026",
     title: "Quitter Tours en 2026 — vers Paris, vers Nantes, vers la campagne tourangelle ?",
-    metaTitle: "Quitter Tours 2026 : Paris (TGV), Nantes, Orléans, Poitiers — le guide",
+    metaTitle: "Quitter Tours 2026 : Paris (TGV), Nantes, Orléans, Poitiers",
     metaDesc:
       "Tours offre une qualité de vie reconnue et un TGV Paris en 1h, mais fait partir pour le manque de dynamisme cadre et la pression immobilière. Vers où partent les Tourangeaux, analyse honnête.",
     category: "comparaison",
@@ -10106,7 +10106,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-angers-guide-2026",
     title: "Quitter Angers en 2026 — vers Nantes, vers Paris, vers la campagne ?",
-    metaTitle: "Quitter Angers 2026 : Nantes, Paris (TGV), Le Mans, Saumur — le guide",
+    metaTitle: "Quitter Angers 2026 : Nantes, Paris (TGV), Le Mans, Saumur",
     metaDesc:
       "Angers a la qualité de vie mais le marché de l'emploi cadre reste modeste. Vers où partent vraiment les Angevins qui s'en vont, Nantes, Paris, ou la campagne du Maine-et-Loire ?",
     category: "comparaison",
@@ -10155,7 +10155,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-brest-guide-2026",
     title: "Quitter Brest en 2026 — vers Rennes, vers Nantes, vers Paris ?",
-    metaTitle: "Quitter Brest 2026 : Rennes, Nantes, Quimper, Lorient — le guide honnête",
+    metaTitle: "Quitter Brest 2026 : Rennes, Nantes, Quimper, Lorient",
     metaDesc:
       "Brest a la mer, la marine et un immobilier accessible, mais la grisaille et l'éloignement font partir. Vers où vont vraiment les Brestois qui quittent la pointe, analyse data-led.",
     category: "comparaison",
@@ -10253,7 +10253,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-avignon-guide-2026",
     title: "Quitter Avignon en 2026 — vers Aix, vers Marseille, vers la campagne provençale ?",
-    metaTitle: "Quitter Avignon 2026 : Aix-en-Provence, Marseille, Nîmes, Montpellier — le guide",
+    metaTitle: "Quitter Avignon 2026 : Aix-en-Provence, Marseille, Nîmes",
     metaDesc:
       "Avignon a le patrimoine, le Festival, le TGV, mais une saisonnalité dure et un marché cadre limité. Vers où partent vraiment les Avignonnais, Aix, Marseille, Montpellier, ou la campagne ?",
     category: "comparaison",
@@ -10302,7 +10302,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-limoges-guide-2026",
     title: "Quitter Limoges en 2026 — vers Bordeaux, vers Poitiers, vers Clermont ?",
-    metaTitle: "Quitter Limoges 2026 : Bordeaux, Poitiers, Clermont-Ferrand, Brive — le guide",
+    metaTitle: "Quitter Limoges 2026 : Bordeaux, Poitiers, Clermont-Ferrand",
     metaDesc:
       "Limoges a un immobilier parmi les plus accessibles de France et un cadre vert, mais le marché cadre reste étroit. Où vont vraiment les Limougeauds, et ce que coûte chaque option.",
     category: "comparaison",
@@ -10351,7 +10351,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-besancon-guide-2026",
     title: "Quitter Besançon en 2026 — vers Dijon, vers Lyon, vers la Suisse ?",
-    metaTitle: "Quitter Besançon 2026 : Dijon, Lyon, Strasbourg, Suisse frontalière — le guide",
+    metaTitle: "Quitter Besançon 2026 : Dijon, Lyon, Strasbourg",
     metaDesc:
       "Besançon a la qualité de vie comtoise et un cadre exceptionnel, mais le marché cadre reste limité. Vers où partent les Bisontins, Dijon, Lyon, Suisse, ou le Jura ?",
     category: "comparaison",
@@ -10400,7 +10400,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-pau-guide-2026",
     title: "Quitter Pau en 2026 — vers Bordeaux, vers Toulouse, vers Bayonne ?",
-    metaTitle: "Quitter Pau 2026 : Bordeaux, Toulouse, Bayonne, Tarbes — le guide honnête",
+    metaTitle: "Quitter Pau 2026 : Bordeaux, Toulouse, Bayonne, Tarbes",
     metaDesc:
       "Pau a les Pyrénées en face et un climat doux, mais le marché cadre reste limité. Où vont vraiment les Palois, Bordeaux, Toulouse, Pays Basque, ou montagne ?",
     category: "comparaison",
@@ -10449,7 +10449,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-bayonne-guide-2026",
     title: "Quitter Bayonne en 2026 — vers Bordeaux, vers Pau, vers l'Espagne ?",
-    metaTitle: "Quitter Bayonne 2026 : Bordeaux, Pau, San Sebastian, Landes — le guide",
+    metaTitle: "Quitter Bayonne 2026 : Bordeaux, Pau, San Sebastian, Landes",
     metaDesc:
       "Bayonne et le BAB (Bayonne-Anglet-Biarritz) ont vu les prix exploser. Où vont les Bayonnais qui ne peuvent plus suivre, Bordeaux, Espagne, Landes, ou Pau ?",
     category: "comparaison",
@@ -10498,7 +10498,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-perpignan-guide-2026",
     title: "Quitter Perpignan en 2026 — vers Montpellier, vers Toulouse, vers Barcelone ?",
-    metaTitle: "Quitter Perpignan 2026 : Montpellier, Toulouse, Barcelone, Narbonne — le guide",
+    metaTitle: "Quitter Perpignan 2026 : Montpellier, Toulouse, Barcelone",
     metaDesc:
       "Perpignan a le soleil et la frontière catalane, mais le chômage et la sécurité ressentie font partir. Où vont vraiment les Perpignanais, Montpellier, Barcelone, ou le Roussillon rural ?",
     category: "comparaison",
@@ -10547,7 +10547,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-la-rochelle-guide-2026",
     title: "Quitter La Rochelle en 2026 — vers Bordeaux, vers Nantes, vers Niort ?",
-    metaTitle: "Quitter La Rochelle 2026 : Bordeaux, Nantes, Niort, Île de Ré — le guide",
+    metaTitle: "Quitter La Rochelle 2026 : Bordeaux, Nantes, Niort, Île de Ré",
     metaDesc:
       "La Rochelle a vu ses prix exploser et sa saisonnalité s'intensifier. Où vont les Rochelais qui ne suivent plus, Bordeaux, Nantes, Niort, ou l'arrière-pays charentais ?",
     category: "comparaison",
@@ -10596,7 +10596,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-metz-guide-2026",
     title: "Quitter Metz en 2026 — vers Nancy, vers le Luxembourg, vers Strasbourg ?",
-    metaTitle: "Quitter Metz 2026 : Nancy, Luxembourg (frontalier), Strasbourg, Thionville — le guide",
+    metaTitle: "Quitter Metz 2026 : Nancy, Luxembourg (frontalier), Strasbourg",
     metaDesc:
       "Metz a la qualité de vie lorraine et le frontalier Luxembourg, mais le marché cadre local reste étroit. Où vont vraiment les Messins, Nancy, Lux, Strasbourg, ou les villes voisines ?",
     category: "comparaison",
@@ -10645,7 +10645,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-nancy-guide-2026",
     title: "Quitter Nancy en 2026 — vers Metz, vers Strasbourg, vers Paris ?",
-    metaTitle: "Quitter Nancy 2026 : Metz, Strasbourg, Paris (TGV 1h30), Épinal — le guide",
+    metaTitle: "Quitter Nancy 2026 : Metz, Strasbourg, Paris (TGV 1h30), Épinal",
     metaDesc:
       "Nancy a la qualité de vie et l'identité lorraine, mais le marché cadre reste contraint. Où vont vraiment les Nancéiens, Metz, Strasbourg, Paris, Luxembourg, ou la campagne ?",
     category: "comparaison",
@@ -10694,7 +10694,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-amiens-guide-2026",
     title: "Quitter Amiens en 2026 — vers Lille, vers Paris, vers la baie de Somme ?",
-    metaTitle: "Quitter Amiens 2026 : Lille, Paris, Beauvais, Abbeville — le guide honnête",
+    metaTitle: "Quitter Amiens 2026 : Lille, Paris, Beauvais, Abbeville",
     metaDesc:
       "Amiens a la cathédrale UNESCO et le TGV vers Paris, mais le marché cadre est étroit. Où vont vraiment les Amiénois, Lille, Paris, ou la côte picarde ?",
     category: "comparaison",
@@ -10743,7 +10743,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-reims-paris-lille-epernay-2026",
     title: "Quitter Reims en 2026 — vers Paris, vers Lille, vers Épernay ?",
-    metaTitle: "Quitter Reims 2026 : Paris (TGV 45 min), Lille, Châlons, Épernay — le guide",
+    metaTitle: "Quitter Reims 2026 : Paris (TGV 45 min), Lille, Châlons, Épernay",
     metaDesc:
       "Reims est à 45 min de Paris en TGV mais le marché cadre local reste étroit. Où vont vraiment les Rémois, Paris, Lille, ou la Champagne viticole ?",
     category: "comparaison",
@@ -10792,7 +10792,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-le-mans-guide-2026",
     title: "Quitter Le Mans en 2026 — vers Paris, vers Nantes, vers la Sarthe rurale ?",
-    metaTitle: "Quitter Le Mans 2026 : Paris (TGV 55 min), Nantes, Tours, Sarthe rurale — le guide",
+    metaTitle: "Quitter Le Mans 2026 : Paris (TGV 55 min), Nantes, Tours",
     metaDesc:
       "Le Mans est à 55 min de Paris en TGV avec un immobilier accessible, mais le marché cadre reste étroit. Où vont les Manceaux, Paris, Nantes, Tours, ou la campagne sarthoise ?",
     category: "comparaison",
@@ -10841,7 +10841,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-paris-guide-2026",
     title: "Vivre sans voiture à Paris en 2026 — vraiment possible ?",
-    metaTitle: "Vivre sans voiture à Paris 2026 : métro, vélo, Vélib, autopartage — guide",
+    metaTitle: "Vivre sans voiture à Paris 2026 : métro, vélo, Vélib, autopartage",
     metaDesc:
       "Paris est la ville la plus compatible no-car de France. Le vrai chiffrage : transports, autopartage, livraisons, week-ends. Combien on économise vraiment.",
     category: "lifestyle",
@@ -10890,7 +10890,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-lyon-guide-2026",
     title: "Vivre sans voiture à Lyon en 2026 — quartiers, transports, vrais coûts",
-    metaTitle: "Vivre sans voiture à Lyon 2026 : TCL, Vélo'v, autopartage Citiz — guide",
+    metaTitle: "Vivre sans voiture à Lyon 2026 : TCL, Vélo'v, autopartage Citiz",
     metaDesc:
       "Lyon est la 2e ville française la plus compatible no-car. Métro, Vélo'v, Citiz, TER : ce que ça coûte vraiment et dans quels quartiers ça marche.",
     category: "lifestyle",
@@ -11037,7 +11037,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-nantes-guide-2026",
     title: "Vivre sans voiture à Nantes en 2026 — tram, Bicloo, navibus",
-    metaTitle: "Vivre sans voiture à Nantes 2026 : TAN, Bicloo, Navibus, Marguerite — guide",
+    metaTitle: "Vivre sans voiture à Nantes 2026 : TAN, Bicloo, Navibus",
     metaDesc:
       "Nantes a 3 lignes de tram historiques, le Navibus sur la Loire, Bicloo, Marguerite autopartage. Combien on économise, où ça marche, où ça coince.",
     category: "lifestyle",
@@ -11135,7 +11135,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-lyon-quel-quartier-budget-2026",
     title: "Acheter à Lyon en 2026 — quel arrondissement pour quel budget ?",
-    metaTitle: "Acheter à Lyon 2026 : Croix-Rousse, Confluence, 7e, budget, prix m² — guide",
+    metaTitle: "Acheter à Lyon 2026 : Croix-Rousse, Confluence, 7e, budget",
     metaDesc:
       "Lyon en 2026 : prix au m² par arrondissement, vrais budgets T2/T3/T4, quartiers en hausse, conseils primo-accédant et investisseur.",
     category: "budget",
@@ -11184,7 +11184,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-marseille-quel-quartier-budget-2026",
     title: "Acheter à Marseille en 2026 — quel arrondissement pour quel budget ?",
-    metaTitle: "Acheter à Marseille 2026 : 6e 7e 8e 13e, prix m², quartiers — guide",
+    metaTitle: "Acheter à Marseille 2026 : 6e 7e 8e 13e, prix m², quartiers",
     metaDesc:
       "Marseille en 2026 : amplitude énorme de prix entre arrondissements (3 000 à 6 500 €/m²). Quel quartier pour quel budget, où acheter, où éviter, guide honnête.",
     category: "budget",
@@ -11233,7 +11233,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-toulouse-quel-quartier-budget-2026",
     title: "Acheter à Toulouse en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Toulouse 2026 : Saint-Cyprien, Carmes, Côte Pavée, prix m² — guide",
+    metaTitle: "Acheter à Toulouse 2026 : Saint-Cyprien, Carmes, Côte Pavée",
     metaDesc:
       "Toulouse en 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Compans, Bonnefoy), où acheter ne reviendra plus en arrière.",
     category: "budget",
@@ -11282,7 +11282,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-lille-quel-quartier-budget-2026",
     title: "Acheter à Lille en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Lille 2026 : Vieux-Lille, Wazemmes, Vauban, prix m² — guide",
+    metaTitle: "Acheter à Lille 2026 : Vieux-Lille, Wazemmes, Vauban, prix m²",
     metaDesc:
       "Lille en 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Fives, Moulins), conseils primo-accédant et investisseur locatif.",
     category: "budget",
@@ -11331,7 +11331,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "ou-vivre-france-meteo-qualite-air-2026",
     title: "Météo, climat et qualité de l'air — où vivre en France en 2026 ?",
-    metaTitle: "Où vivre en France 2026 : climat, pluviométrie, soleil, qualité air — guide",
+    metaTitle: "Où vivre en France 2026 : climat, pluviométrie, soleil",
     metaDesc:
       "Soleil annuel, pluviométrie, vagues de chaleur, qualité de l'air : la cartographie honnête des villes françaises où le climat est tenable en 2026 et au-delà.",
     category: "lifestyle",
@@ -11380,7 +11380,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-famille-bilingue-anglais-2026",
     title: "Villes françaises pour élever une famille bilingue français-anglais en 2026",
-    metaTitle: "Famille bilingue FR/EN France 2026 : écoles, communauté, ressources — guide",
+    metaTitle: "Famille bilingue FR/EN France 2026 : écoles, communauté",
     metaDesc:
       "Où vivre en France pour élever des enfants bilingues français-anglais : écoles bilingues publiques et privées, communautés expat, ressources culturelles.",
     category: "famille",
@@ -11433,7 +11433,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-universitaires-cout-vie-raisonnable-france-2026",
     title: "Villes universitaires françaises à coût de vie raisonnable — 2026",
-    metaTitle: "Villes universitaires France 2026 : Poitiers, Limoges, Le Mans, budget étudiant — guide",
+    metaTitle: "Villes universitaires France 2026 : Poitiers, Limoges, Le Mans",
     metaDesc:
       "Universités françaises où étudier coûte vraiment moins cher : Poitiers, Limoges, Le Mans, Pau, Rennes... Loyer, transport, courses comparés 2026.",
     category: "budget",
@@ -11482,7 +11482,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-etape-expatries-retour-france-2026",
     title: "Villes-étapes pour expatriés revenant en France en 2026",
-    metaTitle: "Retour expatrié France 2026 : villes-étape Bordeaux, Annecy, Aix, La Rochelle — guide",
+    metaTitle: "Retour expatrié France 2026 : villes-étape Bordeaux, Annecy, Aix",
     metaDesc:
       "Revenir en France après 10 ans à l'étranger : quelles villes facilitent la réintégration ? Communauté internationale, scolarité bilingue, marché emploi cadre.",
     category: "lifestyle",
@@ -11535,7 +11535,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-cotieres-teletravail-connexion-cadre-2026",
     title: "Villes côtières françaises pour télétravail — connexion fibre et cadre 2026",
-    metaTitle: "Télétravail côte France 2026 : La Rochelle, Quimper, Hossegor, Cassis — guide",
+    metaTitle: "Télétravail côte France 2026 : La Rochelle, Quimper, Hossegor",
     metaDesc:
       "Vivre à la mer en télétravail en 2026 : couverture fibre vérifiée, climat, services et cadre. La Rochelle, Brest, Hossegor, Cassis, Bayonne comparées.",
     category: "teletravail",
@@ -11588,7 +11588,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-toulouse-guide-2026",
     title: "Vivre sans voiture à Toulouse en 2026 — métro, vélo, Tisséo",
-    metaTitle: "Vivre sans voiture à Toulouse 2026 : Tisséo, VélôToulouse, Citiz — guide",
+    metaTitle: "Vivre sans voiture à Toulouse 2026 : Tisséo, VélôToulouse, Citiz",
     metaDesc:
       "Toulouse 2026 : métro A/B, vélo, Tisséo, Citiz. Combien on économise sans voiture, dans quels quartiers, quels pièges éviter.",
     category: "lifestyle",
@@ -11637,7 +11637,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-grenoble-guide-2026",
     title: "Vivre sans voiture à Grenoble en 2026 — tram, vélo, montagne",
-    metaTitle: "Vivre sans voiture à Grenoble 2026 : TAG, Métrovélo, Citiz — guide",
+    metaTitle: "Vivre sans voiture à Grenoble 2026 : TAG, Métrovélo, Citiz",
     metaDesc:
       "Grenoble est la 2e ville française pour la part vélo. Tram, Métrovélo, Citiz, TER Alpes, combien on économise et où ça marche vraiment.",
     category: "lifestyle",
@@ -11686,7 +11686,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-rennes-guide-2026",
     title: "Vivre sans voiture à Rennes en 2026 — métro, vélo, STAR",
-    metaTitle: "Vivre sans voiture à Rennes 2026 : STAR, LE vélo STAR, métro a/b — guide",
+    metaTitle: "Vivre sans voiture à Rennes 2026 : STAR, LE vélo STAR, métro a/b",
     metaDesc:
       "Rennes a 2 lignes de métro, LE vélo STAR, Citiz Ouest et un climat doux. Combien on économise sans voiture, dans quels quartiers ça marche.",
     category: "lifestyle",
@@ -11735,7 +11735,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-montpellier-guide-2026",
     title: "Vivre sans voiture à Montpellier en 2026 — tram, vélo, TaM",
-    metaTitle: "Vivre sans voiture à Montpellier 2026 : TaM, Vélomagg, tram gratuit — guide",
+    metaTitle: "Vivre sans voiture à Montpellier 2026 : TaM, Vélomagg",
     metaDesc:
       "Montpellier 2026 : 4 lignes de tram (gratuit pour résidents), Vélomagg, climat ensoleillé. Combien on économise sans voiture, quartiers et écueils.",
     category: "lifestyle",
@@ -11784,7 +11784,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-nice-guide-2026",
     title: "Vivre sans voiture à Nice en 2026 — tram, vélo, climat exceptionnel",
-    metaTitle: "Vivre sans voiture à Nice 2026 : Lignes d'Azur, Vélo Bleu, tram T1/T2/T3 — guide",
+    metaTitle: "Vivre sans voiture à Nice 2026 : Lignes d'Azur, Vélo Bleu",
     metaDesc:
       "Nice 2026 : 3 lignes de tram, climat le plus doux de France, vélo praticable. Combien on économise sans voiture, dans quels quartiers ça tient.",
     category: "lifestyle",
@@ -11833,7 +11833,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-bordeaux-quel-quartier-budget-2026",
     title: "Acheter à Bordeaux en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Bordeaux 2026 : Chartrons, Saint-Pierre, Caudéran, prix m² — guide",
+    metaTitle: "Acheter à Bordeaux 2026 : Chartrons, Saint-Pierre, Caudéran",
     metaDesc:
       "Bordeaux 2026 : prix au m² par quartier après la correction 2024-2025, T2/T3/T4 budgets, quartiers en hausse, conseils primo-accédant.",
     category: "budget",
@@ -11882,7 +11882,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-nantes-quel-quartier-budget-2026",
     title: "Acheter à Nantes en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Nantes 2026 : Île de Nantes, Decré, Madeleine, prix m² — guide",
+    metaTitle: "Acheter à Nantes 2026 : Île de Nantes, Decré, Madeleine, prix m²",
     metaDesc:
       "Nantes 2026 : prix au m² par quartier, budget T2/T3/T4 réaliste, quartiers en hausse (Doulon, Bottière), conseils primo-accédant.",
     category: "budget",
@@ -11931,7 +11931,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-strasbourg-quel-quartier-budget-2026",
     title: "Acheter à Strasbourg en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Strasbourg 2026 : Krutenau, Neudorf, Robertsau, prix m² — guide",
+    metaTitle: "Acheter à Strasbourg 2026 : Krutenau, Neudorf, Robertsau, prix m²",
     metaDesc:
       "Strasbourg 2026 : prix au m² par quartier, T2/T3/T4 budgets, quartiers en hausse (Neudorf, Kœnigshoffen), conseils achat.",
     category: "budget",
@@ -11980,7 +11980,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-rennes-quel-quartier-budget-2026",
     title: "Acheter à Rennes en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Rennes 2026 : Centre, Thabor, Beaulieu, Cleunay, prix m² — guide",
+    metaTitle: "Acheter à Rennes 2026 : Centre, Thabor, Beaulieu, Cleunay",
     metaDesc:
       "Rennes 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Maurepas, Cleunay), conseils achat primo-accédant.",
     category: "budget",
@@ -12029,7 +12029,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-montpellier-quel-quartier-budget-2026",
     title: "Acheter à Montpellier en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Montpellier 2026 : Antigone, Beaux-Arts, Comédie, prix m² — guide",
+    metaTitle: "Acheter à Montpellier 2026 : Antigone, Beaux-Arts, Comédie",
     metaDesc:
       "Montpellier 2026 : prix au m² par quartier, T2/T3/T4 budget, quartiers en hausse (Port-Marianne, Cévennes), conseils primo-accédant et investisseur.",
     category: "budget",
@@ -12078,7 +12078,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-sud-est-mediterraneen-france",
     title: "Climat 2040 dans le Sud-Est méditerranéen — où vivre face à la canicule ?",
-    metaTitle: "Climat 2040 Sud-Est : Marseille, Montpellier, Nice, canicule, sécheresse — guide",
+    metaTitle: "Climat 2040 Sud-Est : Marseille, Montpellier, Nice, canicule",
     metaDesc:
       "Le Sud-Est méditerranéen face à 2040 : canicules à 45°C, sécheresses, incendies, montée Méditerranée. Où vivre, où adapter, où partir. Analyse honnête.",
     category: "lifestyle",
@@ -12127,7 +12127,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-facade-atlantique-france",
     title: "Climat 2040 sur la façade Atlantique — montée des eaux, tempêtes, submersion ?",
-    metaTitle: "Climat 2040 Atlantique : Bordeaux, La Rochelle, Bretagne, submersion — guide",
+    metaTitle: "Climat 2040 Atlantique : Bordeaux, La Rochelle, Bretagne",
     metaDesc:
       "La façade Atlantique face à 2040 : montée du niveau marin, tempêtes plus intenses, érosion côtière. Où vivre, où éviter, comment adapter. Analyse honnête.",
     category: "lifestyle",
@@ -12176,7 +12176,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-ile-de-france-paris",
     title: "Climat 2040 en Île-de-France — canicule urbaine, où vivre dans le Grand Paris ?",
-    metaTitle: "Climat 2040 Île-de-France : Paris, canicule, îlot chaleur urbain — guide",
+    metaTitle: "Climat 2040 Île-de-France : Paris, canicule, îlot chaleur urbain",
     metaDesc:
       "L'Île-de-France face à 2040 : canicules à 42°C, nuits tropicales, îlot de chaleur urbain Paris. Où vivre, comment s'adapter, quels quartiers privilégier.",
     category: "lifestyle",
@@ -12225,7 +12225,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-au-vert-pres-de-paris-1h-2026",
     title: "Vivre au vert près de Paris en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Paris 2026 : Fontainebleau, Provins, Senlis, Chartres — guide",
+    metaTitle: "Vivre au vert près de Paris 2026 : Fontainebleau, Provins, Senlis",
     metaDesc:
       "Quitter Paris pour le vert sans renoncer au travail parisien : Fontainebleau, Provins, Senlis, Chartres, Mantes. Comparaison train/budget/cadre.",
     category: "lifestyle",
@@ -12282,7 +12282,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-au-vert-pres-de-lyon-1h-2026",
     title: "Vivre au vert près de Lyon en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Lyon 2026 : Beaujolais, Vienne, Pérouges, Bourgoin — guide",
+    metaTitle: "Vivre au vert près de Lyon 2026 : Beaujolais, Vienne, Pérouges",
     metaDesc:
       "Quitter Lyon pour le vert sans rompre le travail : Beaujolais, Vienne, Bourgoin-Jallieu, Pérouges. Comparaison train/budget/cadre.",
     category: "lifestyle",
@@ -12339,7 +12339,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-au-vert-pres-de-bordeaux-1h-2026",
     title: "Vivre au vert près de Bordeaux en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Bordeaux 2026 : Saint-Émilion, Arcachon, Libourne, Bergerac — guide",
+    metaTitle: "Vivre au vert près de Bordeaux 2026 : Saint-Émilion, Arcachon",
     metaDesc:
       "Quitter Bordeaux pour le vert : Saint-Émilion, Libourne, Arcachon, Bergerac, Sainte-Foy-la-Grande. Comparaison train/budget/cadre.",
     category: "lifestyle",
@@ -12396,7 +12396,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-au-vert-pres-de-marseille-1h-2026",
     title: "Vivre au vert près de Marseille en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Marseille 2026 : Cassis, Aubagne, Aix, Calanques — guide",
+    metaTitle: "Vivre au vert près de Marseille 2026 : Cassis, Aubagne, Aix",
     metaDesc:
       "Quitter Marseille pour le vert : Cassis, Aubagne, Salon, Aix, La Ciotat. Comparaison transport/budget/cadre. Guide honnête 2026.",
     category: "lifestyle",
@@ -12453,7 +12453,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-au-vert-pres-de-toulouse-1h-2026",
     title: "Vivre au vert près de Toulouse en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Toulouse 2026 : Albi, Montauban, Auch, Saint-Lys — guide",
+    metaTitle: "Vivre au vert près de Toulouse 2026 : Albi, Montauban, Auch",
     metaDesc:
       "Quitter Toulouse pour le vert : Albi, Montauban, Auch, Castelnaudary, Foix. Comparaison train/budget/cadre. Guide 2026.",
     category: "lifestyle",
@@ -12510,7 +12510,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-locatif-bordeaux-2026",
     title: "Investir en locatif à Bordeaux en 2026 — rendement, quartiers, pièges",
-    metaTitle: "Investir locatif Bordeaux 2026 : rendement T2 T3, Bastide, Capucins — guide",
+    metaTitle: "Investir locatif Bordeaux 2026 : rendement T2 T3, Bastide",
     metaDesc:
       "Investir dans l'immobilier locatif à Bordeaux en 2026 : rendement brut/net par quartier, fiscalité réelle, quartiers à viser (Bastide, Capucins, Saint-Augustin).",
     category: "budget",
@@ -12559,7 +12559,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-locatif-lyon-2026",
     title: "Investir en locatif à Lyon en 2026 — rendement, arrondissements, fiscalité",
-    metaTitle: "Investir locatif Lyon 2026 : rendement T2 T3, Villeurbanne, 7e Gerland — guide",
+    metaTitle: "Investir locatif Lyon 2026 : rendement T2 T3, Villeurbanne",
     metaDesc:
       "Investir locatif Lyon 2026 : rendement brut/net par arrondissement, fiscalité LMNP/réel, quartiers à viser (Villeurbanne, 7e Gerland, 9e Vaise).",
     category: "budget",
@@ -12608,7 +12608,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-locatif-toulouse-2026",
     title: "Investir en locatif à Toulouse en 2026 — rendement, quartiers, fiscalité",
-    metaTitle: "Investir locatif Toulouse 2026 : Rangueil, Saint-Aubin, Bonnefoy — guide",
+    metaTitle: "Investir locatif Toulouse 2026 : Rangueil, Saint-Aubin, Bonnefoy",
     metaDesc:
       "Investir locatif Toulouse 2026 : rendement brut/net par quartier, fiscalité LMNP, quartiers à viser (Rangueil, Saint-Aubin, Bonnefoy).",
     category: "budget",
@@ -12657,7 +12657,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-locatif-montpellier-2026",
     title: "Investir en locatif à Montpellier en 2026 — rendement, quartiers, fiscalité",
-    metaTitle: "Investir locatif Montpellier 2026 : Hôpitaux-Facultés, Cévennes — guide",
+    metaTitle: "Investir locatif Montpellier 2026 : Hôpitaux-Facultés, Cévennes",
     metaDesc:
       "Investir locatif Montpellier 2026 : rendement brut/net par quartier, fiscalité, quartiers à viser (Hôpitaux-Facultés, Cévennes, Antigone).",
     category: "budget",
@@ -12706,7 +12706,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-locatif-rennes-2026",
     title: "Investir en locatif à Rennes en 2026 — rendement, quartiers, fiscalité",
-    metaTitle: "Investir locatif Rennes 2026 : Villejean, Maurepas, Beaulieu — guide",
+    metaTitle: "Investir locatif Rennes 2026 : Villejean, Maurepas, Beaulieu",
     metaDesc:
       "Investir locatif Rennes 2026 : rendement brut/net par quartier, fiscalité LMNP, quartiers à viser (Villejean, Maurepas, Beaulieu).",
     category: "budget",
@@ -12755,7 +12755,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-massif-central-montagne-refuge",
     title: "Climat 2040 dans le Massif Central et la montagne — refuge climatique ?",
-    metaTitle: "Climat 2040 Massif Central : Clermont, Aurillac, Le Puy, montagne refuge — guide",
+    metaTitle: "Climat 2040 Massif Central : Clermont, Aurillac, Le Puy",
     metaDesc:
       "Le Massif Central et la moyenne montagne face à 2040 : altitude, eau, fraîcheur estivale. Où vivre, quels villages, quels arbitrages honnêtes.",
     category: "lifestyle",
@@ -12804,7 +12804,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-bretagne-cote-interieure",
     title: "Climat 2040 en Bretagne — façade encore préservée ou en mutation ?",
-    metaTitle: "Climat 2040 Bretagne : Rennes, Brest, Quimper, Vannes — guide honnête",
+    metaTitle: "Climat 2040 Bretagne : Rennes, Brest, Quimper, Vannes",
     metaDesc:
       "La Bretagne face à 2040 : climat océanique, sécheresses estivales en hausse, tempêtes, montée des eaux côtière. Où vivre, où arbitrer.",
     category: "lifestyle",
@@ -12853,7 +12853,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-nord-hauts-de-france",
     title: "Climat 2040 dans le Nord et les Hauts-de-France — réchauffement bienvenu ou inattendu ?",
-    metaTitle: "Climat 2040 Hauts-de-France : Lille, Amiens, Calais, côte Opale — guide",
+    metaTitle: "Climat 2040 Hauts-de-France : Lille, Amiens, Calais, côte Opale",
     metaDesc:
       "Le Nord et les Hauts-de-France face à 2040 : étés plus chauds, hivers plus doux, montée des eaux côte d'Opale. Où vivre, où arbitrer.",
     category: "lifestyle",
@@ -12902,7 +12902,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-grand-est-alsace-lorraine",
     title: "Climat 2040 dans le Grand Est — Alsace, Lorraine, Champagne face au réchauffement",
-    metaTitle: "Climat 2040 Grand Est : Strasbourg, Nancy, Metz, Reims — guide honnête",
+    metaTitle: "Climat 2040 Grand Est : Strasbourg, Nancy, Metz, Reims",
     metaDesc:
       "Le Grand Est face à 2040 : continentalité accentuée, canicules estivales, sécheresses, vignobles en mutation. Où vivre, où arbitrer en Alsace, Lorraine, Champagne.",
     category: "lifestyle",
@@ -12951,7 +12951,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-sud-ouest-pyrenees-bassin-aquitain",
     title: "Climat 2040 dans le Sud-Ouest et les Pyrénées — bassin aquitain face à la canicule",
-    metaTitle: "Climat 2040 Sud-Ouest : Toulouse, Bordeaux, Bayonne, Pau, Pyrénées — guide",
+    metaTitle: "Climat 2040 Sud-Ouest : Toulouse, Bordeaux, Bayonne, Pau",
     metaDesc:
       "Le Sud-Ouest face à 2040 : canicules toulousaines, sécheresse Aquitaine, Pyrénées comme refuge. Où vivre, où adapter, où monter en altitude.",
     category: "lifestyle",
@@ -13004,7 +13004,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-vallee-du-rhone-axe-lyon-avignon",
     title: "Climat 2040 dans la vallée du Rhône — axe Lyon-Valence-Avignon face à la canicule",
-    metaTitle: "Climat 2040 vallée du Rhône : Lyon, Valence, Avignon, mistral, canicule — guide",
+    metaTitle: "Climat 2040 vallée du Rhône : Lyon, Valence, Avignon, mistral",
     metaDesc:
       "La vallée du Rhône face à 2040 : couloir caniculaire, mistral, ozone, sécheresses, refuge altitude. Où vivre de Lyon à Avignon en 2040.",
     category: "lifestyle",
@@ -13057,7 +13057,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-normandie-cotentin-cote",
     title: "Climat 2040 en Normandie — Cotentin, côte d'Albâtre, intérieur face au réchauffement",
-    metaTitle: "Climat 2040 Normandie : Caen, Rouen, Cherbourg, côte d'Albâtre — guide",
+    metaTitle: "Climat 2040 Normandie : Caen, Rouen, Cherbourg, côte d'Albâtre",
     metaDesc:
       "La Normandie face à 2040 : tempêtes Manche, montée des eaux, étés tempérés, intérieur préservé. Où vivre du Cotentin à la Seine, sans cliché.",
     category: "lifestyle",
@@ -13110,7 +13110,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-centre-val-de-loire-vallee",
     title: "Climat 2040 en Centre-Val de Loire — vallée de la Loire, Beauce, Berry face au réchauffement",
-    metaTitle: "Climat 2040 Centre-Val de Loire : Tours, Orléans, Bourges, Loire — guide",
+    metaTitle: "Climat 2040 Centre-Val de Loire : Tours, Orléans, Bourges, Loire",
     metaDesc:
       "Le Centre-Val de Loire face à 2040 : climat continental, sécheresses Beauce, vignobles Loire, refuge intermédiaire entre Paris et Sud. Analyse honnête.",
     category: "lifestyle",
@@ -13163,7 +13163,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-bourgogne-franche-comte-jura",
     title: "Climat 2040 en Bourgogne-Franche-Comté — Jura, Morvan, Saône face au réchauffement",
-    metaTitle: "Climat 2040 Bourgogne-Franche-Comté : Dijon, Besançon, Jura, Morvan — guide",
+    metaTitle: "Climat 2040 Bourgogne-Franche-Comté : Dijon, Besançon, Jura",
     metaDesc:
       "La Bourgogne-Franche-Comté face à 2040 : continentalité, refuge Jura/Morvan, vignobles en mutation, frontaliers Suisse. Analyse honnête.",
     category: "lifestyle",
@@ -13216,7 +13216,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-corse-incendies-secheresse",
     title: "Climat 2040 en Corse — canicule, incendies, sécheresse, montée Méditerranée",
-    metaTitle: "Climat 2040 Corse : Ajaccio, Bastia, intérieur, incendies, sécheresse — guide",
+    metaTitle: "Climat 2040 Corse : Ajaccio, Bastia, intérieur, incendies",
     metaDesc:
       "La Corse face à 2040 : canicules méditerranéennes, incendies majeurs, sécheresse, montée des eaux côte. Où vivre, où adapter, où partir.",
     category: "lifestyle",
@@ -13269,7 +13269,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-alpes-savoie-refuge-altitude",
     title: "Climat 2040 dans les Alpes et Savoie — refuge altitude, fin du ski moyenne montagne ?",
-    metaTitle: "Climat 2040 Alpes Savoie : Annecy, Chambéry, Grenoble, stations ski — guide",
+    metaTitle: "Climat 2040 Alpes Savoie : Annecy, Chambéry, Grenoble",
     metaDesc:
       "Les Alpes et la Savoie face à 2040 : refuge climatique altitude, fin ski moyenne montagne, glaciers, vallées chaudes. Où vivre, où arbitrer.",
     category: "lifestyle",
@@ -13322,7 +13322,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "climat-2040-outre-mer-drom-cyclones-mer",
     title: "Climat 2040 en Outre-mer — cyclones, montée des eaux, sécheresse dans les DROM",
-    metaTitle: "Climat 2040 DROM : Réunion, Martinique, Guadeloupe, Guyane, Mayotte — guide",
+    metaTitle: "Climat 2040 DROM : Réunion, Martinique, Guadeloupe, Guyane",
     metaDesc:
       "Les DROM face à 2040 : cyclones plus intenses, montée Atlantique/Caraïbes, sécheresse, biodiversité menacée. Où vivre, où arbitrer dans l'outre-mer.",
     category: "lifestyle",
@@ -13428,7 +13428,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "elever-famille-bilingue-france-quelles-villes-2026",
     title: "Élever une famille bilingue en France — quelles villes pour FR/EN, FR/DE, FR/ES",
-    metaTitle: "Famille bilingue en France 2026 : meilleures villes FR/EN, FR/DE, FR/ES — guide",
+    metaTitle: "Famille bilingue en France 2026 : meilleures villes FR/EN, FR/DE",
     metaDesc:
       "Quelles villes françaises pour élever une famille bilingue ? Écoles internationales, communautés expat, sections européennes. FR/EN, FR/DE, FR/ES.",
     category: "famille",
@@ -13477,7 +13477,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "petites-villes-50000-habitants-tout-france-2026",
     title: "Petites villes <50 000 habitants qui ont tout — TGV, hôpital, fibre, vie",
-    metaTitle: "Petites villes France 2026 : <50 000 habitants avec tout (TGV, hôpital, fibre)",
+    metaTitle: "Petites villes 2026 : moins de 50 000 habitants, tout sur place",
     metaDesc:
       "Petites villes françaises <50 000 habitants qui cumulent TGV, hôpital, fibre, écoles, vie culturelle. Liste honnête 2026, sans cliché 'rural mort'.",
     category: "lifestyle",
@@ -13530,7 +13530,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-moins-200000-euros-france-quelles-villes-2026",
     title: "Acheter à moins de 200 000 € en 2026 — quelles villes (vraiment) accessibles",
-    metaTitle: "Acheter <200 000 € France 2026 : villes vraiment accessibles — guide",
+    metaTitle: "Acheter <200 000 € France 2026 : villes vraiment accessibles",
     metaDesc:
       "Quelles villes françaises permettent d'acheter sa résidence principale à moins de 200 000 € en 2026 ? T3 ancien, neuf, types de villes, pièges à éviter.",
     category: "budget",
@@ -13579,7 +13579,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-frontalieres-suisse-allemagne-belgique-luxembourg-2026",
     title: "Villes frontalières en France — Suisse, Allemagne, Belgique, Luxembourg en 2026",
-    metaTitle: "Frontaliers France 2026 : Suisse, Allemagne, Belgique, Luxembourg — guide",
+    metaTitle: "Frontaliers France 2026 : Suisse, Allemagne, Belgique, Luxembourg",
     metaDesc:
       "Travailler en Suisse, Allemagne, Belgique, Luxembourg en vivant en France : quelles villes choisir, fiscalité, transports, marché logement.",
     category: "comparaison",
@@ -13632,7 +13632,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "devenir-freelance-en-province-quelles-villes-france-2026",
     title: "Devenir freelance en province en 2026 — quelles villes pour réussir",
-    metaTitle: "Freelance en province 2026 : meilleures villes (fibre, coworkings, réseau)",
+    metaTitle: "Freelance en province 2026 : meilleures villes, fibre, réseau",
     metaDesc:
       "Quitter Paris/Lyon pour devenir freelance en province : quelles villes offrent fibre, coworkings, écosystème, clients locaux. Sélection 2026 honnête.",
     category: "teletravail",
@@ -13681,7 +13681,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-paris-30-ans-couple-sans-enfant-2026",
     title: "Quitter Paris à 30 ans en couple sans enfant — où aller, comment, pour quoi",
-    metaTitle: "Quitter Paris 30 ans couple sans enfant 2026 : meilleures villes — guide",
+    metaTitle: "Quitter Paris 30 ans couple sans enfant 2026 : meilleures villes",
     metaDesc:
       "Quitter Paris à 30 ans, en couple, sans enfant : quelles villes pour un duo dual-income, sans contrainte famille. Analyse honnête 2026.",
     category: "comparaison",
@@ -13734,7 +13734,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-maison-campagne-france-2026-vraiment-vivable",
     title: "Acheter une maison de campagne en France 2026 — où c'est vraiment vivable",
-    metaTitle: "Maison de campagne 2026 : où c'est vivable en France (fibre, services, climat)",
+    metaTitle: "Maison de campagne 2026 : où c'est vraiment vivable en France",
     metaDesc:
       "Acheter une maison à la campagne en 2026 : où c'est vraiment vivable (fibre, hôpital, école), où ce n'est qu'un rêve. Analyse honnête par région.",
     category: "lifestyle",
@@ -13844,7 +13844,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-lmnp-par-ville-france-2026",
     title: "Investir en LMNP par ville en 2026 — étudiant, cadre, saisonnier",
-    metaTitle: "LMNP par ville 2026 : étudiant, cadre, saisonnier — rendement réel",
+    metaTitle: "LMNP par ville 2026 : étudiant, cadre, saisonnier, rendement",
     metaDesc:
       "Investir en LMNP en 2026 : étudiant vs cadre vs saisonnier, micro-BIC vs réel, rendement net après fiscalité, top villes par segment. Analyse honnête.",
     category: "budget",
@@ -13950,7 +13950,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-france-retraite-etrangere-fiscalite-2026",
     title: "Vivre en France avec une retraite étrangère en 2026 — fiscalité et villes",
-    metaTitle: "Retraite étrangère France 2026 : fiscalité, villes, convention — guide",
+    metaTitle: "Retraite étrangère France 2026 : fiscalité, villes, convention",
     metaDesc:
       "Vivre en France avec une retraite étrangère (UK, US, Canada, Maghreb, Suisse) : convention fiscale, double pension, villes adaptées, services médicaux.",
     category: "lifestyle",
@@ -14007,7 +14007,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "residence-secondaire-france-pieges-fiscaux-2026",
     title: "Résidence secondaire en France 2026 — pièges fiscaux et où c'est pertinent",
-    metaTitle: "Résidence secondaire France 2026 : pièges fiscaux, THRS, IFI — guide",
+    metaTitle: "Résidence secondaire France 2026 : pièges fiscaux, THRS, IFI",
     metaDesc:
       "Acheter une résidence secondaire en France 2026 : THRS majoration jusqu'à +60 %, IFI, plus-value, location saisonnière encadrée. Villes pertinentes vs piégeuses.",
     category: "budget",
@@ -14060,7 +14060,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "construire-sa-maison-france-2026-ou-comment-prix",
     title: "Construire sa maison en France 2026 — où, comment, prix réels",
-    metaTitle: "Construire sa maison France 2026 : où, comment, prix au m² — guide",
+    metaTitle: "Construire sa maison France 2026 : où, comment, prix au m²",
     metaDesc:
       "Construire sa maison en France 2026 : terrain + permis + constructeur, prix au m² par région, RE2020, pièges sol/raccordements/délais. Analyse honnête.",
     category: "budget",
@@ -14121,7 +14121,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "partir-vivre-dans-le-sud-france-pieges-2026",
     title: "Partir vivre dans le Sud en 2026 — pièges et alternatives lucides",
-    metaTitle: "Partir vivre dans le Sud 2026 : pièges (canicule, eau, prix) — guide",
+    metaTitle: "Partir vivre dans le Sud 2026 : pièges (canicule, eau, prix)",
     metaDesc:
       "Partir vivre dans le Sud de la France en 2026 : fantasme vs réalité (canicule, sécheresse, foncier surévalué). Pièges, villes à éviter, alternatives.",
     category: "comparaison",
@@ -14243,7 +14243,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-maison-a-renover-france-2026-vrai-cout",
     title: "Acheter une maison à rénover en 2026 — le vrai coût total",
-    metaTitle: "Maison à rénover 2026 : vrai coût (DPE, MaPrimeRénov', travaux) — guide",
+    metaTitle: "Maison à rénover 2026 : vrai coût (DPE, MaPrimeRénov', travaux)",
     metaDesc:
       "Acheter une maison à rénover en 2026 : coût rénovation par type travaux, MaPrimeRénov', DPE F/G obligation, ratio achat+rénovation vs neuf.",
     category: "budget",
@@ -14296,7 +14296,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "maison-vs-appartement-quel-choix-france-2026",
     title: "Maison ou appartement en 2026 — quel choix par profil et par ville",
-    metaTitle: "Maison vs appartement 2026 : quel choix par profil et ville — guide",
+    metaTitle: "Maison vs appartement 2026 : quel choix par profil et ville",
     metaDesc:
       "Maison ou appartement en France 2026 : par profil (célibataire, couple, famille) et par ville (métropole, ville moyenne, bourg). Coûts comparés, qualité de vie.",
     category: "comparaison",
@@ -14471,7 +14471,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "scpi-vs-locatif-direct-france-2026-quel-choix",
     title: "SCPI vs locatif direct en 2026 — quel choix par profil d'investisseur",
-    metaTitle: "SCPI vs locatif direct 2026 : rendement, fiscalité, liquidité — guide",
+    metaTitle: "SCPI vs locatif direct 2026 : rendement, fiscalité, liquidité",
     metaDesc:
       "SCPI ou locatif direct en 2026 : rendement net réel, fiscalité, liquidité, ticket d'entrée, profils investisseurs. Analyse honnête des deux options.",
     category: "budget",
@@ -14528,7 +14528,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "demenager-sintegrer-province-sans-reseau-2026",
     title: "Déménager en province sans connaître personne — comment s'intégrer en 2026",
-    metaTitle: "S'intégrer en province sans réseau 2026 : associations, sport, voisinage",
+    metaTitle: "S'intégrer en province sans réseau 2026 : associations, sport",
     metaDesc:
       "Déménager dans une nouvelle ville sans connaître personne : comment se faire des amis adultes, associations, sport, sociabilité. Villes accueillantes.",
     category: "lifestyle",
@@ -14589,7 +14589,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "encadrement-loyers-france-2026-villes-investir-malgre-tout",
     title: "Encadrement des loyers en France 2026 — villes concernées et comment investir",
-    metaTitle: "Encadrement loyers France 2026 : villes concernées, comment investir",
+    metaTitle: "Encadrement des loyers 2026 : villes concernées, où investir",
     metaDesc:
       "Encadrement des loyers 2026 : 28 villes concernées, plafonds par zone, comment investir malgré l'encadrement, exceptions légales, alternatives.",
     category: "budget",
@@ -14646,7 +14646,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
     title: "Vivre en ZRR en 2026 — aides fiscales, où c'est encore actif, qui peut en bénéficier",
-    metaTitle: "ZRR France 2026 : aides fiscales, exonérations, communes éligibles — guide",
+    metaTitle: "ZRR France 2026 : aides fiscales, exonérations",
     metaDesc:
       "ZRR (Zones de Revitalisation Rurale) en 2026 : exonérations IR/taxe foncière/cotisations, créateurs d'entreprise, communes éligibles France Ruralités Revitalisation.",
     category: "budget",
@@ -14768,7 +14768,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-immobilier-apres-50-ans-strategie-france-2026",
     title: "Acheter de l'immobilier après 50 ans en 2026 — stratégie fin de carrière",
-    metaTitle: "Acheter immobilier 50 ans+ 2026 : prêt court, downsize, viager — guide",
+    metaTitle: "Acheter immobilier 50 ans+ 2026 : prêt court, downsize, viager",
     metaDesc:
       "Acheter de l'immobilier après 50 ans en 2026 : prêt court 10-15 ans, downsize, viager, démembrement transmission, fiscalité. Stratégies par profil.",
     category: "budget",
@@ -14825,7 +14825,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quand-acheter-immobilier-france-2026-timing-marche",
     title: "Quand acheter de l'immobilier en France 2026 — timing du marché",
-    metaTitle: "Quand acheter immobilier 2026 : timing marché, taux, signaux — guide",
+    metaTitle: "Quand acheter immobilier 2026 : timing marché, taux, signaux",
     metaDesc:
       "Quand acheter en France 2026 : cycle baissier 2022-2025, taux directeurs BCE, signaux retournement, attendre vs acheter maintenant, saisonnalité.",
     category: "budget",
@@ -14886,7 +14886,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "habitat-participatif-coliving-france-2026",
     title: "Habitat participatif et coliving en France 2026 — modèles, villes, projets concrets",
-    metaTitle: "Habitat participatif coliving France 2026 : modèles, villes, juridique",
+    metaTitle: "Habitat participatif coliving France 2026 : modèles, villes",
     metaDesc:
       "Habitat participatif et coliving en France 2026 : coopératives d'habitat, écoquartiers, coliving adultes, communes pionnières, juridique, coût comparé.",
     category: "lifestyle",
@@ -14947,7 +14947,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-avec-un-seul-salaire-france-2026",
     title: "Acheter avec un seul salaire en 2026 — quelles villes, quels biens, quelles aides",
-    metaTitle: "Acheter seul salaire 2026 : villes accessibles, PTZ majoré — guide",
+    metaTitle: "Acheter seul salaire 2026 : villes accessibles, PTZ majoré",
     metaDesc:
       "Acheter sa résidence principale avec un seul salaire en 2026 : capacité d'emprunt mono-revenu, villes accessibles, PTZ, types de biens, pièges.",
     category: "budget",
@@ -15126,7 +15126,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "mutation-professionnelle-vendre-acheter-vite-france-2026",
     title: "Mutation professionnelle en 2026 — vendre et acheter vite sans piège",
-    metaTitle: "Mutation pro 2026 : vendre rapide, acheter vite, prêt relais — guide",
+    metaTitle: "Mutation pro 2026 : vendre rapide, acheter vite, prêt relais",
     metaDesc:
       "Mutation professionnelle en 2026 : prêt relais, location temporaire, indemnités employeur, timing 3-6 mois. Stratégies pour vendre vite et acheter vite.",
     category: "comparaison",
@@ -15183,7 +15183,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "diviser-grand-logement-louer-une-partie-france-2026",
     title: "Diviser un grand logement pour en louer une partie en 2026",
-    metaTitle: "Diviser logement louer 2026 : T5 → T3+T2, copro, fiscalité — guide",
+    metaTitle: "Diviser logement louer 2026 : T5 → T3+T2, copro, fiscalité",
     metaDesc:
       "Diviser un grand logement (maison T6, appartement T5) pour louer une partie en 2026 : autorisation copro, fiscalité, stratégie patrimoniale, villes adaptées.",
     category: "budget",
@@ -15305,7 +15305,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-montagne-toute-annee-france-2026",
     title: "Vivre en montagne toute l'année en 2026 — stations, villages, vraies villes",
-    metaTitle: "Vivre en montagne toute l'année 2026 : stations, villages, services — guide",
+    metaTitle: "Vivre en montagne toute l'année 2026 : stations, villages",
     metaDesc:
       "Vivre en montagne en France 2026 toute l'année : stations vs villages, services hiver, fibre, écoles, économie 4 saisons, climat 2040.",
     category: "lifestyle",
@@ -15366,7 +15366,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "reprendre-commerce-avec-logement-france-2026",
     title: "Reprendre un commerce avec logement en 2026 — boulangerie, café, gîte, épicerie",
-    metaTitle: "Reprendre commerce + logement 2026 : boulangerie, café, épicerie — guide",
+    metaTitle: "Reprendre commerce + logement 2026 : boulangerie, café, épicerie",
     metaDesc:
       "Reprendre un commerce avec logement intégré en 2026 : boulangerie, café, gîte, épicerie. Financement BPI, villes en désertification, opportunités, pièges.",
     category: "budget",
@@ -15427,7 +15427,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "pinel-denormandie-2026-fin-dispositif-alternatives",
     title: "Pinel et Denormandie en 2026 — fin du Pinel, Denormandie reconduit, alternatives",
-    metaTitle: "Pinel fin 2024, Denormandie 2026 : alternatives investissement — guide",
+    metaTitle: "Pinel fin 2024, Denormandie 2026 : alternatives investissement",
     metaDesc:
       "Pinel terminé 2024, Denormandie reconduit 2025-2027 : conditions, fiscalité, villes éligibles. Alternatives : LLI, LMNP, déficit foncier. Analyse 2026.",
     category: "budget",
@@ -15488,7 +15488,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
     title: "Quitter le télétravail urbain pour le rural en 2026 — risques et opportunités",
-    metaTitle: "Quitter télétravail urbain pour rural 2026 : risques, reconversion — guide",
+    metaTitle: "Quitter la ville pour le rural 2026 : risques, reconversion",
     metaDesc:
       "Quitter le télétravail urbain pour s'installer en rural en 2026 : risques perte revenu, reconversion, néo-paysans, communautés. Analyse honnête.",
     category: "comparaison",
@@ -15545,7 +15545,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-au-bord-fleuve-riviere-france-2026",
     title: "Acheter au bord d'un fleuve ou rivière en France 2026 — Rhône, Loire, Garonne, Seine, Dordogne",
-    metaTitle: "Acheter au bord fleuve 2026 : Loire, Rhône, Garonne, Seine — guide",
+    metaTitle: "Acheter au bord fleuve 2026 : Loire, Rhône, Garonne, Seine",
     metaDesc:
       "Acheter au bord d'un fleuve en France 2026 : Rhône, Loire, Garonne, Seine, Dordogne. Risque inondation PPRI, valeur patrimoniale, climat 2040, pièges.",
     category: "lifestyle",
@@ -15667,7 +15667,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-france-non-resident-etranger-2026",
     title: "Acheter en France comme non-résident étranger en 2026 — démarches, fiscalité, villes",
-    metaTitle: "Acheter France non-résident 2026 : démarches, banques, fiscalité — guide",
+    metaTitle: "Acheter France non-résident 2026 : démarches, banques, fiscalité",
     metaDesc:
       "Acheter en France comme non-résident étranger en 2026 : démarches, financement banques françaises, fiscalité, conventions bilatérales, villes attractives.",
     category: "comparaison",
@@ -15728,7 +15728,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "securite-ressentie-vs-reelle-ville-france-2026",
     title: "Sécurité ressentie vs réelle par ville en 2026 — décrypter les vrais signaux",
-    metaTitle: "Sécurité ville France 2026 : SSMSI vs perception, comment vérifier — guide",
+    metaTitle: "Sécurité des villes 2026 : SSMSI vs perception, vérifier",
     metaDesc:
       "Sécurité ressentie vs réelle dans les villes françaises 2026 : décrypter SSMSI, quartiers vraiment à risque, perception médiatique vs faits.",
     category: "lifestyle",
@@ -15789,7 +15789,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "bilan-energetique-avant-achat-france-2026",
     title: "Bilan énergétique avant achat en 2026 — DPE, audit, étiquette CO2, interdictions",
-    metaTitle: "DPE achat immobilier 2026 : audit, étiquette CO2, interdictions — guide",
+    metaTitle: "DPE achat immobilier 2026 : audit, étiquette CO2, interdictions",
     metaDesc:
       "Bilan énergétique avant achat immobilier 2026 : DPE, audit énergétique obligatoire, étiquette CO2, interdictions location 2025-2034, coût rénovation.",
     category: "budget",
@@ -15850,7 +15850,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-grange-a-renover-france-2026",
     title: "Acheter une grange à rénover en France 2026 — permis, coûts, régions",
-    metaTitle: "Acheter grange à rénover 2026 : permis, transformation, coûts — guide",
+    metaTitle: "Acheter grange à rénover 2026 : permis, transformation, coûts",
     metaDesc:
       "Acheter une grange à rénover en France 2026 : permis transformation usage, ENS, coûts rénovation 80-200k€, villes/régions, néo-ruraux.",
     category: "lifestyle",
@@ -15911,7 +15911,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-proche-autoroute-tgv-france-2026-realite-bruit",
     title: "Vivre proche d'une autoroute ou ligne TGV en 2026 — bruit, pollution, accès",
-    metaTitle: "Vivre proche autoroute/TGV 2026 : bruit, pollution, distances — guide",
+    metaTitle: "Vivre proche autoroute/TGV 2026 : bruit, pollution, distances",
     metaDesc:
       "Vivre proche autoroute ou TGV en France 2026 : bruit infrastructures, pollution, commodité accès, distances minimales, villes accessibles.",
     category: "lifestyle",
@@ -16159,7 +16159,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-viager-france-2026-opportunites-risques",
     title: "Acheter un viager en 2026 — opportunités, calcul, risques réels",
-    metaTitle: "Acheter viager 2026 : occupé vs libre, calcul rente, risques — guide",
+    metaTitle: "Acheter viager 2026 : occupé vs libre, calcul rente, risques",
     metaDesc:
       "Acheter un viager en France 2026 : viager occupé vs libre, calcul rente, espérance de vie, fiscalité, profils acheteurs, pièges éthiques.",
     category: "budget",
@@ -16220,7 +16220,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-dans-bourg-2000-habitants-france-2026",
     title: "Vivre dans un bourg de 2 000 habitants en 2026 — services réels au seuil critique",
-    metaTitle: "Bourg 2 000 habitants 2026 : services réels, fibre, médecin — guide",
+    metaTitle: "Bourg 2 000 habitants 2026 : services réels, fibre, médecin",
     metaDesc:
       "Vivre dans un bourg de 2 000 habitants en France 2026 : services réels au seuil critique, désertification, fibre, école, médecin, communes pionnières.",
     category: "lifestyle",
@@ -16277,7 +16277,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "garantie-loyers-impayes-gli-visale-france-2026",
     title: "GLI ou Visale en 2026 — quel choix entre assurance bailleur et caution État",
-    metaTitle: "GLI vs Visale 2026 : assurance loyers impayés ou caution État — guide",
+    metaTitle: "GLI vs Visale 2026 : assurance loyers impayés ou caution État",
     metaDesc:
       "GLI ou Visale en 2026 : comparaison assurance loyers impayés bailleur (2-3% loyers) vs caution État Visale gratuite. Conditions, sinistres, choix.",
     category: "budget",
@@ -16338,7 +16338,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-maison-pecheur-atlantique-france-2026",
     title: "Acheter une maison de pêcheur sur l'Atlantique en 2026 — Bretagne, Vendée, Charente",
-    metaTitle: "Maison pêcheur Atlantique 2026 : ports, climat 2040, érosion — guide",
+    metaTitle: "Maison pêcheur Atlantique 2026 : ports, climat 2040, érosion",
     metaDesc:
       "Acheter une maison de pêcheur sur l'Atlantique en 2026 : bâti vernaculaire, ports atlantiques, climat 2040, érosion, communautés, communes éligibles.",
     category: "lifestyle",
@@ -16586,7 +16586,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-avec-pret-familial-france-2026",
     title: "Acheter avec un prêt familial en 2026 — modalités, fiscalité, formalisation",
-    metaTitle: "Prêt familial achat immobilier 2026 : modalités, fiscalité — guide",
+    metaTitle: "Prêt familial achat immobilier 2026 : modalités, fiscalité",
     metaDesc:
       "Acheter avec un prêt familial en France 2026 : modalités, fiscalité, formalisation notaire, intérêts, donation déguisée, alternatives.",
     category: "budget",
@@ -16651,7 +16651,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "autoconstruction-kit-maison-france-2026",
     title: "Autoconstruction et kit maison en France 2026 — économies, risques, démarches",
-    metaTitle: "Autoconstruction kit maison 2026 : économies, permis, assurances — guide",
+    metaTitle: "Autoconstruction kit maison 2026 : économies, permis, assurances",
     metaDesc:
       "Autoconstruction et kit maison en France 2026 : kits bois Allemagne/Pologne, container, paille, économies vs CCMI, permis, assurances décennale.",
     category: "budget",
@@ -16712,7 +16712,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "scpi-dans-assurance-vie-france-2026",
     title: "Les SCPI dans une assurance-vie en 2026 — mécanisme, fiscalité, rendement",
-    metaTitle: "SCPI assurance-vie 2026 : fiscalité avantageuse, rendement — guide",
+    metaTitle: "SCPI assurance-vie 2026 : fiscalité avantageuse, rendement",
     metaDesc:
       "SCPI dans assurance-vie en France 2026 : mécanisme, fiscalité avantageuse vs détention directe, rendement net, choix UC, top contrats, sortie 8 ans.",
     category: "budget",
@@ -16777,7 +16777,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-dans-une-ville-thermale-france-2026",
     title: "Vivre dans une ville thermale en France 2026 — qualité de vie réelle, prix, pièges",
-    metaTitle: "Vivre en ville thermale 2026 : Vichy, Dax, Aix-les-Bains, Évian — guide honnête",
+    metaTitle: "Vivre en ville thermale 2026 : Vichy, Dax, Aix-les-Bains, Évian",
     metaDesc:
       "Vivre toute l'année dans une ville thermale française : qualité de vie hors saison, prix immobiliers, démographie, services médicaux. Les 6 villes du panel décortiquées.",
     category: "lifestyle",
@@ -16842,7 +16842,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-ville-action-coeur-de-ville-france-2026-bilan",
     title: "Vivre dans une ville Action Cœur de Ville en 2026 — bilan honnête, prix, opportunités, pièges",
-    metaTitle: "Action Cœur de Ville 2026 : Limoges, Périgueux, Cahors, Châteauroux — bilan 8 ans après",
+    metaTitle: "Action Cœur de Ville 2026 : Limoges, Périgueux, Cahors — bilan",
     metaDesc:
       "Sept ans après le lancement du programme Action Cœur de Ville (2018), où en sont les 234 villes signataires ? Centres rénovés, vacance commerciale, marché immobilier. Données ANCT, Banque des Territoires, Cerema, DVF 2024.",
     category: "lifestyle",
@@ -16907,7 +16907,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-proche-centrale-nucleaire-france-2026",
     title: "Vivre proche d'une centrale nucléaire en France 2026 — risques réels, fiscalité, emploi, immobilier",
-    metaTitle: "Vivre près d'une centrale nucléaire 2026 : PPI, IFER, emploi, immobilier — bilan honnête",
+    metaTitle: "Vivre près d'une centrale nucléaire 2026 : PPI, emploi, prix",
     metaDesc:
       "PPI 20 km, distribution d'iode, IFER, emploi local, décote immobilière ou rente fiscale ? Bilan calme et chiffré des 18 sites EDF et de la relance EPR2. Sources ASN, IRSN, EDF, DGFiP.",
     category: "lifestyle",
@@ -17027,7 +17027,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "louer-meuble-tourisme-airbnb-france-2026",
     title: "Louer en meublé de tourisme en France : ce que la loi vous permet vraiment en 2026",
-    metaTitle: "Louer sur Airbnb en France 2026 : réglementation, fiscalité, plafonds",
+    metaTitle: "Louer sur Airbnb en France 2026 : réglementation, fiscalité",
     metaDesc:
       "Résidence principale ou secondaire, zone tendue, plafond de 120 nuits, régime fiscal micro-BIC ou réel : le guide complet pour louer en meublé de tourisme en France sans mauvaise surprise.",
     category: "budget",
@@ -17070,7 +17070,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "trouver-appartement-france-guide-pratique-2026",
     title: "Trouver un appartement en France : le guide pratique pour ne pas perdre six mois",
-    metaTitle: "Trouver un appartement en France en 2026 : dossier locataire, astuces, villes",
+    metaTitle: "Trouver un appartement en France 2026 : dossier, astuces",
     metaDesc:
       "Constituer un dossier béton, choisir les bons canaux, négocier le loyer, comprendre le bail : tout ce qu'il faut savoir pour louer un appartement en France sans galérer.",
     category: "budget",
@@ -17113,7 +17113,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-fibre-optique-teletravail-france-2026",
     title: "Fibre optique et télétravail : les villes françaises où la connexion ne vous lâchera pas",
-    metaTitle: "Meilleures villes France fibre optique télétravail 2026 — couverture réelle",
+    metaTitle: "Meilleures villes fibre optique et télétravail France 2026",
     metaDesc:
       "Couverture fibre ARCEP, débit moyen, alternatives en zone blanche : le classement des villes françaises pour télétravailler sans galère de connexion en 2026.",
     category: "teletravail",
@@ -17156,7 +17156,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "auto-entrepreneur-choisir-sa-ville-france-2026",
     title: "Auto-entrepreneur en France : choisir sa ville pour payer moins et vivre mieux",
-    metaTitle: "Auto-entrepreneur en France 2026 : quelle ville choisir pour optimiser son coût de vie ?",
+    metaTitle: "Auto-entrepreneur 2026 : quelle ville choisir en France ?",
     metaDesc:
       "Charges sociales, cotisation foncière des entreprises, loyer, coworking, réseau professionnel : le guide pour choisir sa ville quand on est auto-entrepreneur en France en 2026.",
     category: "teletravail",
@@ -17199,7 +17199,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-france-avec-animaux-guide-2026",
     title: "Vivre avec des animaux en France : les villes les plus adaptées et les pièges à éviter",
-    metaTitle: "Vivre avec animaux France 2026 : meilleures villes, logement, parcs, réglementation",
+    metaTitle: "Vivre avec animaux France 2026 : meilleures villes, logement",
     metaDesc:
       "Chien, chat, lapin, furet : trouver un logement, choisir la bonne ville et connaître les règles de copropriété. Le guide pratique pour propriétaires d'animaux en France.",
     category: "lifestyle",
@@ -17242,7 +17242,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-accessibles-budget-etudiant-hors-paris-2026",
     title: "Étudier hors Paris : les meilleures villes pour un budget serré en 2026",
-    metaTitle: "Meilleures villes étudiantes France hors Paris budget 2026 — loyer, vie, qualité",
+    metaTitle: "Meilleures villes étudiantes hors Paris 2026 — loyer, budget",
     metaDesc:
       "Loyers sous 500 €, bonne offre universitaire, transports inclus, vie culturelle réelle : le classement des villes étudiantes abordables hors Paris pour 2026.",
     category: "budget",
@@ -17328,7 +17328,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-grenoble-quel-quartier-budget-2026",
     title: "Acheter à Grenoble en 2026 : quel quartier, quel budget et pourquoi le marché reste accessible",
-    metaTitle: "Acheter à Grenoble 2026 — prix par quartier, budget, quartiers en hausse",
+    metaTitle: "Acheter à Grenoble 2026 — prix par quartier, budget",
     metaDesc:
       "Prix au m² par quartier à Grenoble, budget primo-accédant, secteurs tech en hausse, pièges à éviter : le guide complet pour acheter un appartement à Grenoble en 2026.",
     category: "budget",
@@ -17371,7 +17371,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "ptz-pret-taux-zero-2026-guide-complet",
     title: "PTZ 2026 : comment fonctionne le prêt à taux zéro et qui peut vraiment en bénéficier",
-    metaTitle: "PTZ 2026 : guide complet — conditions, plafonds, zones, simulation",
+    metaTitle: "PTZ 2026 : guide complet — conditions, plafonds, zones",
     metaDesc:
       "Plafonds de ressources, zones éligibles, quotité maximale, neuf vs ancien avec travaux : le guide complet du PTZ 2026 pour primo-accédants en France.",
     category: "budget",
@@ -17414,7 +17414,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-dijon-quel-quartier-budget-2026",
     title: "Acheter à Dijon en 2026 : prix honnêtes, quartiers, pourquoi le marché reste l'un des meilleurs de France",
-    metaTitle: "Acheter à Dijon 2026 — prix m² par quartier, budget réel, opportunités",
+    metaTitle: "Acheter à Dijon 2026 — prix m² par quartier, budget réel",
     metaDesc:
       "Prix au m² par quartier à Dijon, budget primo-accédant avec PTZ, quartiers en valeur, pièges à éviter : guide complet pour acheter un appartement à Dijon en 2026.",
     category: "budget",
@@ -17457,7 +17457,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "succession-immobilier-france-guide-2026",
     title: "Succession et immobilier en France : ce que vous allez payer et comment le réduire légalement",
-    metaTitle: "Succession immobilier France 2026 — droits, abattements, SCI, donation",
+    metaTitle: "Succession immobilier France 2026 — droits, abattements, SCI",
     metaDesc:
       "Droits de succession sur un bien immobilier, abattements légaux, donation en démembrement, SCI familiale : le guide complet pour préparer la transmission de votre patrimoine en 2026.",
     category: "budget",
@@ -17500,7 +17500,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "negocier-prix-immobilier-france-guide-2026",
     title: "Négocier le prix d'un appartement en France : méthode, arguments, combien espérer",
-    metaTitle: "Négocier prix immobilier France 2026 — méthode, arguments, marge réelle",
+    metaTitle: "Négocier prix immobilier France 2026 — méthode, arguments",
     metaDesc:
       "Marché tendu ou détendu, délai de vente, DPE, travaux : les arguments qui font baisser le prix et ceux qui ne servent à rien. Guide pratique pour négocier un achat immobilier en France en 2026.",
     category: "budget",
@@ -17586,7 +17586,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "demenager-avec-enfants-france-guide-2026",
     title: "Déménager avec des enfants en France : quand partir, comment préparer, et ce que les études montrent vraiment",
-    metaTitle: "Déménager avec des enfants France 2026 — école, garde, intégration, timing",
+    metaTitle: "Déménager avec des enfants France 2026 — école, garde",
     metaDesc:
       "Quel âge est le moins perturbant, comment gérer l'école, trouver une crèche ou assistante maternelle dans une nouvelle ville : le guide pratique pour déménager avec des enfants en France.",
     category: "famille",
@@ -17629,7 +17629,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "colocation-intergenerationnelle-france-2026",
     title: "Colocation intergénérationnelle en France : comment ça marche, ce que ça coûte vraiment",
-    metaTitle: "Colocation intergénérationnelle France 2026 — programme, loyer, contrat, villes",
+    metaTitle: "Colocation intergénérationnelle France 2026 — programme, loyer",
     metaDesc:
       "Jeune logeant chez un senior en échange de services ou de loyer réduit : fonctionnement, programmes COSI et CAES, villes les plus actives, loyer moyen. Guide pratique 2026.",
     category: "budget",
@@ -17672,7 +17672,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-bretagne-mer-bilan-honnete-2026",
     title: "Vivre en Bretagne face à la mer : le bilan honnête après 12 mois",
-    metaTitle: "Vivre en Bretagne bord de mer 2026 — bilan honnête : météo, isolement, coût",
+    metaTitle: "Vivre en Bretagne bord de mer 2026 — météo, isolement, coût",
     metaDesc:
       "Météo, isolement hivernal, transport, opportunités d'emploi, coût du littoral breton : le bilan réaliste pour ceux qui envisagent de s'installer en Bretagne côtière en 2026.",
     category: "region",
@@ -17758,7 +17758,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-qualite-internet-fibre-debit-2026",
     title: "Qualité d'internet par ville en France en 2026 : fibre, débit et zones blanches",
-    metaTitle: "Qualité internet France 2026 — fibre optique, débit moyen et zones blanches par ville",
+    metaTitle: "Qualité internet France 2026 — fibre optique, débit moyen",
     metaDesc: "Taux de couverture fibre, débit moyen par ville, zones blanches et zones grises en France. Le guide honnête pour les télétravailleurs et les nomades numériques.",
     category: "teletravail",
     emoji: "📡",
@@ -17799,7 +17799,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "seniors-decouvrir-france-villes-accessibles-2026",
     title: "Villes françaises accessibles et actives pour les seniors en 2026",
-    metaTitle: "Meilleures villes pour seniors actifs France 2026 — accessibilité, services, qualité de vie",
+    metaTitle: "Meilleures villes pour seniors actifs France 2026",
     metaDesc: "Transport en commun, soins de proximité, activités, coût de la vie : le guide honnête des villes françaises les plus adaptées aux seniors actifs en 2026.",
     category: "lifestyle",
     emoji: "🌞",
@@ -17877,7 +17877,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-toulon-bilan-honnete-2026",
     title: "Vivre à Toulon en 2026 : le bilan honnête",
-    metaTitle: "Vivre à Toulon 2026 — qualité de vie, logement, inconvénients réels",
+    metaTitle: "Vivre à Toulon 2026 — qualité de vie, logement",
     metaDesc: "Toulon : mer, soleil, loyers bas par rapport à la PACA, mais aussi sécurité en deçà de la moyenne et offre économique limitée. Le guide sans filtre.",
     category: "lifestyle",
     emoji: "⚓",
@@ -17955,7 +17955,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-alpes-guide-2026",
     title: "Télétravailler depuis les Alpes en 2026 : le guide honnête",
-    metaTitle: "Télétravail Alpes France 2026 — connexion, logement, réalités quotidiennes",
+    metaTitle: "Télétravail Alpes France 2026 — connexion, logement",
     metaDesc: "Annecy, Grenoble, Chambéry, Gap : télétravailler depuis les Alpes, c'est possible. La qualité des connexions, les logements disponibles, les contraintes réelles.",
     category: "teletravail",
     emoji: "⛷️",
@@ -17992,7 +17992,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-lille-guide-2026",
     title: "Vivre sans voiture à Lille en 2026 : bilan honnête",
-    metaTitle: "Vivre sans voiture à Lille 2026 — métro, vélo, transports : est-ce vraiment possible ?",
+    metaTitle: "Vivre sans voiture à Lille 2026 — métro, vélo, transports",
     metaDesc: "Métro automatique, réseau de bus dense, vélos en libre-service : le bilan complet pour se passer de voiture à Lille en 2026.",
     category: "lifestyle",
     emoji: "🚇",
@@ -18062,7 +18062,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "habitat-participatif-france-guide-2026",
     title: "L'habitat participatif en France : guide pratique 2026",
-    metaTitle: "Habitat participatif France 2026 — guide complet : fonctionnement, coûts, villes",
+    metaTitle: "Habitat participatif France 2026 — fonctionnement, coûts, villes",
     metaDesc: "Coopératives d'habitants, groupes d'autopromotion, habitat solidaire : le guide honnête sur l'habitat participatif en France en 2026.",
     category: "lifestyle",
     emoji: "🏘️",
@@ -18103,7 +18103,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "retraite-early-budget-serré-où-vivre-france-2026",
     title: "FIRE et retraite anticipée avec un budget serré : quelle ville française en 2026 ?",
-    metaTitle: "FIRE France ville 2026 — retraite anticipée budget serré : où vivre ?",
+    metaTitle: "FIRE France 2026 — retraite anticipée, budget serré : où vivre ?",
     metaDesc: "Vivre en retraite anticipée avec 1 200 à 2 000 €/mois en France : les villes où c'est confortable, les villes à éviter absolument.",
     category: "budget",
     emoji: "🏖️",
@@ -18140,7 +18140,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-clermont-ferrand-quel-quartier-budget-2026",
     title: "Acheter à Clermont-Ferrand en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Clermont-Ferrand 2026 — prix m² quartiers, Montferrand, Royat, budget",
+    metaTitle: "Acheter à Clermont-Ferrand 2026 — prix m² quartiers, Montferrand",
     metaDesc: "Clermont-Ferrand : une des villes françaises les plus abordables avec une vraie vie universitaire. Prix m² par quartier et calcul honnête pour acheter en 2026.",
     category: "budget",
     emoji: "🌋",
@@ -18177,7 +18177,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-caen-quel-quartier-budget-2026",
     title: "Acheter à Caen en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Caen 2026 — prix m² quartiers, Grâce de Dieu, Vaucelles, budget réel",
+    metaTitle: "Acheter à Caen 2026 — prix m² quartiers, Grâce de Dieu, Vaucelles",
     metaDesc: "Caen : 1h45 de Paris, mer à 20 km, une des villes les plus sûres de France. Prix m² par quartier et calcul honnête pour acheter à Caen en 2026.",
     category: "budget",
     emoji: "🏰",
@@ -18214,7 +18214,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-pau-quel-quartier-budget-2026",
     title: "Acheter à Pau en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Pau 2026 — prix m² quartiers, Boulevard des Pyrénées, Trespoey, guide",
+    metaTitle: "Acheter à Pau 2026 — prix m² quartiers, Boulevard des Pyrénées",
     metaDesc: "Pau : les Pyrénées en arrière-plan depuis le Boulevard, prix immobiliers raisonnables, marché de l'emploi solide (Total, Safran). Le guide honnête pour acheter à Pau.",
     category: "budget",
     emoji: "🏔️",
@@ -18251,7 +18251,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-normandie-interieure-guide-2026",
     title: "Vivre en Normandie intérieure en 2026 : Évreux, Alençon, Argentan, Lisieux",
-    metaTitle: "Vivre en Normandie intérieure 2026 — Évreux, Alençon, Argentan : guide honnête",
+    metaTitle: "Vivre en Normandie intérieure 2026 — Évreux, Alençon, Argentan",
     metaDesc: "La Normandie intérieure, loin de Rouen, Caen et des côtes. Bocage, silence, prix bas, mais aussi un marché de l'emploi limité. Le guide sans bullshit.",
     category: "region",
     emoji: "🌿",
@@ -18288,7 +18288,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-toulon-quel-quartier-budget-2026",
     title: "Acheter à Toulon en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Toulon 2026 — prix m² par quartier, Mourillon, Le Pradet, budget réel",
+    metaTitle: "Acheter à Toulon 2026 — prix m² par quartier, Mourillon",
     metaDesc: "Toulon offre les prix au m² les plus bas de la Côte d'Azur. Mais pas tous les quartiers se valent. Le guide honnête pour acheter à Toulon en 2026.",
     category: "budget",
     emoji: "⚓",
@@ -18329,7 +18329,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-rouen-quel-quartier-budget-2026",
     title: "Acheter à Rouen en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Rouen 2026 — prix m² par quartier, Rive Gauche, Martainville, guide",
+    metaTitle: "Acheter à Rouen 2026 — prix m² par quartier, Rive Gauche",
     metaDesc: "Rouen : 1h20 de Paris Saint-Lazare, prix immobiliers encore raisonnables. Mais tous les quartiers ne sont pas équivalents. Le guide honnête avec les vrais chiffres 2026.",
     category: "budget",
     emoji: "⚜️",
@@ -18370,7 +18370,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-marseille-guide-2026",
     title: "Vivre sans voiture à Marseille en 2026 : possible, pas facile",
-    metaTitle: "Vivre sans voiture à Marseille 2026 — métro, bus, RTM, vélo : le guide honnête",
+    metaTitle: "Vivre sans voiture à Marseille 2026 — métro, bus, RTM, vélo",
     metaDesc: "Marseille sans voiture : le métro couvre 2 lignes, les bus RTM sont lents, le vélo est risqué. Mais certains quartiers tiennent sans. Le guide honnête.",
     category: "lifestyle",
     emoji: "🚢",
@@ -18407,7 +18407,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-annecy-guide-2026",
     title: "Vivre sans voiture à Annecy en 2026 : le paradoxe cyclable",
-    metaTitle: "Vivre sans voiture à Annecy 2026 — vélo, SIBRA, mobilité douce : guide honnête",
+    metaTitle: "Vivre sans voiture à Annecy 2026 — vélo, SIBRA, mobilité douce",
     metaDesc: "Annecy : ville vélo d'exception au bord du lac, mais entourée de montagnes et d'une périphérie qui reste automobile. Le guide sans bullshit.",
     category: "lifestyle",
     emoji: "🚴",
@@ -18444,7 +18444,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-sans-voiture-dijon-guide-2026",
     title: "Vivre sans voiture à Dijon en 2026 : le modèle qui fonctionne",
-    metaTitle: "Vivre sans voiture à Dijon 2026 — tram, DiviaVélo, mobilité : le guide complet",
+    metaTitle: "Vivre sans voiture à Dijon 2026 — tram, DiviaVélo, mobilité",
     metaDesc: "Dijon a le tram, des pistes cyclables honnêtes et un centre à taille humaine. Vivre sans voiture y est plus facile que dans beaucoup de grandes villes. Voici les faits.",
     category: "lifestyle",
     emoji: "🍇",
@@ -19281,7 +19281,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
-    metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade, kayak, ski, VTT",
+    metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade",
     metaDesc: "Trail, escalade, VTT, kayak, ski : quelles villes françaises offrent le meilleur accès aux sports outdoor ? Le classement honnête avec les distances réelles.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -19318,7 +19318,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-haute-savoie-guide-2026",
     title: "Vivre en Haute-Savoie en 2026 : le guide complet (Annecy, Thonon, Cluses)",
-    metaTitle: "Vivre en Haute-Savoie 2026 — Annecy, Thonon-les-Bains, Cluses : guide complet",
+    metaTitle: "Vivre en Haute-Savoie 2026 — Annecy, Thonon-les-Bains, Cluses",
     metaDesc: "Haute-Savoie : les Alpes, le lac Léman, la Suisse à portée. Mais aussi les prix immobiliers les plus chers de province et les hivers qui durent. Guide honnête 2026.",
     category: "region",
     emoji: "🏔️",
@@ -19359,7 +19359,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "retraite-bord-de-mer-france-villes-guide-2026",
     title: "Prendre sa retraite au bord de la mer en France : les vraies villes pour 2026",
-    metaTitle: "Retraite bord de mer France 2026 — La Rochelle, Sète, Vannes, Bayonne : le guide",
+    metaTitle: "Retraite bord de mer France 2026 — La Rochelle, Sète, Vannes",
     metaDesc: "Retraite au bord de la mer en France : quelles côtes sont viables financièrement, lesquelles sont saturées de touristes, où trouver l'équilibre ? Le guide honnête 2026.",
     category: "lifestyle",
     emoji: "🌊",
@@ -19400,7 +19400,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-jeunes-professionnels-france-2026",
     title: "Les meilleures villes de France pour les jeunes professionnels en 2026",
-    metaTitle: "Meilleures villes jeunes pros France 2026 — salaires, logement, vie nocturne, carrière",
+    metaTitle: "Meilleures villes jeunes pros France 2026 — salaires, logement",
     metaDesc: "Pour un jeune professionnel en France : Rennes, Lyon, Nantes ou Bordeaux ? Le classement basé sur les salaires nets de charge vs. loyers, la densité d'employeurs et la vie sociale.",
     category: "lifestyle",
     emoji: "🚀",
@@ -19437,7 +19437,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "divorce-separation-demenager-quelle-ville-france-2026",
     title: "Après une séparation : quelle ville pour repartir en France en 2026 ?",
-    metaTitle: "Repartir après séparation : quelle ville choisir en France 2026 ? Le guide",
+    metaTitle: "Repartir après une séparation 2026 : quelle ville choisir ?",
     metaDesc: "Après un divorce ou une séparation : budget réduit, un seul revenu, peut-être des enfants. Quelles villes françaises offrent un nouveau départ réaliste ? Le guide sans bullshit.",
     category: "budget",
     emoji: "🌱",
@@ -19474,7 +19474,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-cote-d-azur-guide-2026",
     title: "Vivre sur la Côte d'Azur en 2026 : Nice, Cannes, Antibes, Menton — le guide complet",
-    metaTitle: "Vivre Côte d'Azur 2026 — Nice, Cannes, Antibes : guide honnête, prix, réalités",
+    metaTitle: "Vivre sur la Côte d'Azur 2026 — Nice, Cannes, Antibes, prix",
     metaDesc: "Côte d'Azur 2026 : le soleil est réel, les prix aussi. Nice, Cannes, Antibes, Menton : que choisir et pour quel budget ? Le guide sans illusions.",
     category: "region",
     emoji: "🌊",
@@ -19515,7 +19515,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-naturalistes-biodiversite-france-2026",
     title: "Les meilleures villes de France pour les amateurs de nature et de biodiversité en 2026",
-    metaTitle: "Meilleures villes nature biodiversité France 2026 — parcs naturels, zones humides, oiseaux",
+    metaTitle: "Meilleures villes nature et biodiversité France 2026",
     metaDesc: "Birdwatching, botaniste, observateur des oiseaux, amoureux de la nature sauvage : quelles villes françaises offrent le meilleur accès aux espaces naturels protégés ? Guide 2026.",
     category: "lifestyle",
     emoji: "🌿",
@@ -19552,7 +19552,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-var-guide-2026",
     title: "Vivre dans le Var en 2026 : Toulon, Draguignan, Hyères — guide complet",
-    metaTitle: "Vivre dans le Var 2026 — Toulon, Draguignan, Hyères, Brignoles : guide honnête",
+    metaTitle: "Vivre dans le Var 2026 — Toulon, Draguignan, Hyères, Brignoles",
     metaDesc: "Le Var : mer, Provence, forêts, mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2026.",
     category: "region",
     emoji: "🌿",
@@ -19593,7 +19593,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "investir-dans-logements-etudiants-france-2026",
     title: "Investir dans les logements étudiants en France en 2026 : guide complet",
-    metaTitle: "Investissement locatif étudiant France 2026 — studios, résidences, rendements réels",
+    metaTitle: "Investissement locatif étudiant France 2026 — studios, résidences",
     metaDesc: "Investir dans les logements étudiants en France : meilleures villes universitaires, rendements locatifs bruts, pièges à éviter, loi Pinel vs meublé LMNP. Guide 2026.",
     category: "budget",
     emoji: "🎓",
@@ -19675,7 +19675,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-nancy-quel-quartier-budget-2026",
     title: "Acheter à Nancy en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Nancy 2026 — prix m², quartiers, conseils primo-accédant",
+    metaTitle: "Acheter à Nancy 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Nancy 2026 : prix par quartier (Place Stanislas, Trois-Maisons, Haussonville, Rives de Meurthe), fourchettes budget et tendances.",
     category: "budget",
     emoji: "⚜️",
@@ -19757,7 +19757,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-reims-quel-quartier-budget-2026",
     title: "Acheter à Reims en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Reims 2026 — prix m², quartiers, conseils primo-accédant",
+    metaTitle: "Acheter à Reims 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Reims 2026 : prix par quartier (Centre cathédrale, Clairmarais, Europe, Croix-Rouge), budget d'achat et tendances du marché.",
     category: "budget",
     emoji: "🍾",
@@ -19798,7 +19798,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-poitou-guide-2026",
     title: "Vivre en Poitou en 2026 : Poitiers, Niort, Châtellerault — bilan honnête",
-    metaTitle: "Vivre en Poitou 2026 — Poitiers, Niort, Châtellerault : coût de vie, emploi, qualité de vie",
+    metaTitle: "Vivre en Poitou 2026 — Poitiers, Niort, Châtellerault",
     metaDesc: "Guide Poitou 2026 : Poitiers la universitaire, Niort la mutualisante, Châtellerault la discrète. Loyers, scores, réalité du terrain.",
     category: "region",
     emoji: "🦅",
@@ -19839,7 +19839,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-vegans-vegetariens-france-2026",
     title: "Meilleures villes de France pour les végans et végétariens en 2026",
-    metaTitle: "Meilleures villes végans végétariens France 2026 — restaurants, épiceries, communauté",
+    metaTitle: "Meilleures villes véganes et végétariennes France 2026",
     metaDesc: "Où vivre en France quand on est végan ou végétarien ? Classement des 10 meilleures villes : offre culinaire, épiceries bio, communauté, coût de vie.",
     category: "lifestyle",
     emoji: "🌱",
@@ -19880,7 +19880,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "guide-mobilite-douce-france-villes-2026",
     title: "Mobilité douce en France 2026 : les villes où voiture = option, pas obligation",
-    metaTitle: "Mobilité douce France 2026 — vélo, tram, bus : les meilleures villes sans voiture",
+    metaTitle: "Mobilité douce 2026 — vélo, tram, bus : villes sans voiture",
     metaDesc: "Guide mobilité douce 2026 : les 12 villes françaises où vélo, transports en commun et marche permettent de vivre sans voiture. Scores, infrastructure, réalité.",
     category: "lifestyle",
     emoji: "🚲",
@@ -19921,7 +19921,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "brest-vs-rennes-comparatif-2026",
     title: "Brest ou Rennes en 2026 : laquelle choisir ? Comparatif complet",
-    metaTitle: "Brest vs Rennes 2026 — comparatif : prix, emploi, qualité de vie, météo",
+    metaTitle: "Brest vs Rennes 2026 — comparatif : prix, emploi, qualité de vie",
     metaDesc: "Brest ou Rennes ? Comparatif complet 2026 : loyers, marché de l'emploi, vie culturelle, météo, transport, pour choisir la bonne ville bretonne.",
     category: "comparaison",
     emoji: "⚓",
@@ -19966,7 +19966,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "angers-vs-tours-comparatif-2026",
     title: "Angers ou Tours en 2026 : laquelle choisir ? Comparatif complet",
-    metaTitle: "Angers vs Tours 2026 — comparatif : prix, emploi, qualité de vie, Val de Loire",
+    metaTitle: "Angers vs Tours 2026 — comparatif : prix, emploi, qualité de vie",
     metaDesc: "Angers ou Tours ? Comparatif complet 2026 : loyers, marché de l'emploi, patrimoine UNESCO, vie étudiante et connexions TGV.",
     category: "comparaison",
     emoji: "🏰",
@@ -20007,7 +20007,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "clermont-ferrand-vs-limoges-comparatif-2026",
     title: "Clermont-Ferrand ou Limoges en 2026 : comparatif complet",
-    metaTitle: "Clermont-Ferrand vs Limoges 2026 — coût de vie, emploi, qualité de vie Massif Central",
+    metaTitle: "Clermont-Ferrand vs Limoges 2026 — coût de vie, emploi",
     metaDesc: "Clermont-Ferrand ou Limoges ? Comparatif 2026 : loyers, marché de l'emploi, vie étudiante, cadre naturel et connexions.",
     category: "comparaison",
     emoji: "🌋",
@@ -20048,7 +20048,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-oenophiles-vins-france-2026",
     title: "Les meilleures villes de France pour les amateurs de vin en 2026",
-    metaTitle: "Meilleures villes amateurs de vin France 2026 — vignobles à portée, culture viticole, restaurants",
+    metaTitle: "Meilleures villes pour amateurs de vin France 2026",
     metaDesc: "Où vivre en France quand le vin est une passion ? Classement des 10 meilleures villes : proximité des vignobles, caves, restaurants, événements viticoles.",
     category: "lifestyle",
     emoji: "🍷",
@@ -20089,7 +20089,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-berry-guide-2026",
     title: "Vivre dans le Berry en 2026 : Bourges, Châteauroux — bilan honnête",
-    metaTitle: "Vivre dans le Berry 2026 — Bourges, Châteauroux : coût de vie, patrimoine, qualité de vie",
+    metaTitle: "Vivre dans le Berry 2026 — Bourges, Châteauroux, coût de vie",
     metaDesc: "Guide Berry 2026 : Bourges la médiévale, Châteauroux l'accessible. Loyers très bas, patrimoine classé UNESCO, marché de l'emploi réel et vie quotidienne.",
     category: "region",
     emoji: "🐏",
@@ -20130,7 +20130,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-teletravail-et-nature-2026",
     title: "Télétravail + nature : les villes françaises qui combinent les deux en 2026",
-    metaTitle: "Télétravail et nature France 2026 — top 12 villes : fibre, espace, grand air",
+    metaTitle: "Télétravail et nature France 2026 — top 12 villes : fibre, espace",
     metaDesc: "Les meilleures villes françaises pour télétravailler tout en vivant au vert : fibre optique, nature à 20 min, logement spacieux, communauté de remote workers.",
     category: "teletravail",
     emoji: "🌲",
@@ -20167,7 +20167,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-bayonne-quel-quartier-budget-2026",
     title: "Acheter à Bayonne en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Bayonne 2026 — prix m², quartiers, budget primo-accédant Pays Basque",
+    metaTitle: "Acheter à Bayonne 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Bayonne 2026 : prix par quartier (Grand Bayonne, Petit Bayonne, Saint-Esprit, Mousserolles), budget d'achat et marché immobilier basque.",
     category: "budget",
     emoji: "🏉",
@@ -20208,7 +20208,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-brest-quel-quartier-budget-2026",
     title: "Acheter à Brest en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Brest 2026 — prix m², quartiers, budget primo-accédant Finistère",
+    metaTitle: "Acheter à Brest 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Brest 2026 : prix par quartier (Recouvrance, Saint-Marc, Lambézellec, Europe), budget d'achat, marché en hausse. La ville la moins chère de France ?",
     category: "budget",
     emoji: "⚓",
@@ -20249,7 +20249,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-tours-quel-quartier-budget-2026",
     title: "Acheter à Tours en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Tours 2026 — prix m², quartiers, budget primo-accédant Val de Loire",
+    metaTitle: "Acheter à Tours 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Tours 2026 : prix par quartier (Vieux-Tours, Prébendes, Saint-Symphorien, Sanitas), budget d'achat, marché accessible proche Paris.",
     category: "budget",
     emoji: "🏰",
@@ -20290,7 +20290,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-angers-quel-quartier-budget-2026",
     title: "Acheter à Angers en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Angers 2026 — prix m², quartiers, budget primo-accédant Maine-et-Loire",
+    metaTitle: "Acheter à Angers 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Angers 2026 : prix par quartier (centre, Doutre, Belle-Beille, Roseraie), budget d'achat, TGV Paris 1h35.",
     category: "budget",
     emoji: "🏯",
@@ -20331,7 +20331,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-nimes-quel-quartier-budget-2026",
     title: "Acheter à Nîmes en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Nîmes 2026 — prix m², quartiers, budget primo-accédant Gard",
+    metaTitle: "Acheter à Nîmes 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Nîmes 2026 : prix par quartier (Écusson, Croix de Fer, Mas de Mingue, Haut-Gravier), budget d'achat dans la capitale du Gard.",
     category: "budget",
     emoji: "🏛️",
@@ -20372,7 +20372,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-avignon-quel-quartier-budget-2026",
     title: "Acheter à Avignon en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Avignon 2026 — prix m², intra-muros, Monclar, budget Provence",
+    metaTitle: "Acheter à Avignon 2026 — prix m², intra-muros, Monclar",
     metaDesc: "Guide immobilier Avignon 2026 : prix par quartier (intra-muros, Monclar, Courtine, Montfavet), budget d'achat. Festival, Palais des Papes, TGV Marseille 35 min.",
     category: "budget",
     emoji: "🎭",
@@ -20413,7 +20413,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-perpignan-quel-quartier-budget-2026",
     title: "Acheter à Perpignan en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Perpignan 2026 — prix m², quartiers, budget primo-accédant Pyrénées-Orientales",
+    metaTitle: "Acheter à Perpignan 2026 — prix m², quartiers, primo-accédant",
     metaDesc: "Guide immobilier Perpignan 2026 : prix par quartier (centre, Saint-Jacques, Moulin à vent, Saint-Assiscle), budgets et rentabilité. La ville la moins chère du littoral méditerranéen.",
     category: "budget",
     emoji: "🌊",
@@ -20454,7 +20454,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-aix-en-provence-quel-quartier-budget-2026",
     title: "Acheter à Aix-en-Provence en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Aix-en-Provence 2026 — prix m², quartiers, ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Aix-en-Provence 2026 — prix m², quartiers",
     metaDesc: "Guide immobilier Aix-en-Provence 2026 : prix m² par quartier (Mazarin, Cours Mirabeau, Jas de Bouffan, périphérie), dynamique du marché, et les pièges à éviter dans cette ville chère et sous tension.",
     category: "budget",
     emoji: "🌿",
@@ -20495,7 +20495,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-saint-etienne-quel-quartier-budget-2026",
     title: "Acheter à Saint-Étienne en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Saint-Étienne 2026 — prix m² imbattables, quartiers, réalité du marché",
+    metaTitle: "Acheter à Saint-Étienne 2026 — prix m² imbattables, quartiers",
     metaDesc: "Immobilier Saint-Étienne 2026 : T2 à 50 000 €, maisons à 80 000 €, les prix les plus bas de France pour une ville de 170 000 habitants. Mais faut-il y aller ? Le guide honnête.",
     category: "budget",
     emoji: "⚙️",
@@ -20536,7 +20536,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-le-havre-quel-quartier-budget-2026",
     title: "Acheter au Havre en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter au Havre 2026 — prix m², quartiers Perret, Saint-François, périphérie",
+    metaTitle: "Acheter au Havre 2026 — prix m², quartiers Perret, Saint-François",
     metaDesc: "Immobilier Le Havre 2026 : patrimoine Perret classé UNESCO, front de mer, accès ferroviaire Paris en 2h. Prix m² par quartier, dynamique du marché normand, ce qu'il faut savoir avant d'acheter.",
     category: "budget",
     emoji: "🚢",
@@ -20577,7 +20577,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-orleans-quel-quartier-budget-2026",
     title: "Acheter à Orléans en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Orléans 2026 — prix m², quartiers, Beaugency, Saint-Jean, Argonne",
+    metaTitle: "Acheter à Orléans 2026 — prix m², quartiers, Beaugency",
     metaDesc: "Immobilier Orléans 2026 : TGV Paris en 1h05, université, marché accessible à 2 000–3 200 €/m². Les quartiers qui montent, ceux à éviter, et le calcul navetteur-Paris.",
     category: "budget",
     emoji: "⚔️",
@@ -20618,7 +20618,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-limoges-quel-quartier-budget-2026",
     title: "Acheter à Limoges en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Limoges 2026 — prix m² parmi les plus bas de France, quartiers, réalité",
+    metaTitle: "Acheter à Limoges 2026 — prix m² très bas, quartiers, réalité",
     metaDesc: "Immobilier Limoges 2026 : T3 à 100 000–160 000 €, maisons avec jardin à 130 000 €. Les prix les plus bas des grandes villes françaises. Le guide honnête pour acheter à Limoges.",
     category: "budget",
     emoji: "🏺",
@@ -20659,7 +20659,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-amiens-quel-quartier-budget-2026",
     title: "Acheter à Amiens en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Amiens 2026 — prix m², quartiers, navetteur Paris, réalité du marché",
+    metaTitle: "Acheter à Amiens 2026 — prix m², quartiers, navetteur Paris",
     metaDesc: "Immobilier Amiens 2026 : TGV Paris en 1h05, cathédrale gothique, marché à 1 800–2 800 €/m². Quartiers Saint-Leu, Montplaisir, Saint-Acheul, guide honnête pour acheter dans la Somme.",
     category: "budget",
     emoji: "🕌",
@@ -20700,7 +20700,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "guide-vivre-seul-france-quelle-ville-2026",
     title: "Vivre seul en France : quelle ville choisir en 2026 ?",
-    metaTitle: "Vivre seul France 2026 — meilleures villes pour les célibataires et personnes solo",
+    metaTitle: "Vivre seul en France 2026 — meilleures villes pour célibataires",
     metaDesc: "Où vivre seul en France en 2026 ? Guide complet : studios accessibles, vie sociale, sécurité, transports, communauté, sans budget couple.",
     category: "lifestyle",
     emoji: "🧭",
@@ -20741,7 +20741,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-alsace-guide-2026",
     title: "Télétravailler depuis l'Alsace en 2026 : guide complet",
-    metaTitle: "Télétravailler depuis l'Alsace 2026 — Strasbourg, Colmar, Mulhouse : fibre, coût, qualité de vie",
+    metaTitle: "Télétravailler depuis l'Alsace 2026 — Strasbourg, Colmar",
     metaDesc: "Guide télétravail Alsace 2026 : où s'installer dans le Bas-Rhin et le Haut-Rhin, coût de vie, connexion, communauté remote workers, accès nature.",
     category: "teletravail",
     emoji: "🥨",
@@ -20782,7 +20782,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "familles-enfants-en-bas-age-quelle-ville-france-2026",
     title: "Quelle ville choisir pour élever des enfants en bas âge en France ? Guide 2026",
-    metaTitle: "Meilleures villes France pour enfants en bas âge 2026 — crèches, parcs, sécurité, budget",
+    metaTitle: "Meilleures villes pour enfants en bas âge 2026 — crèches, parcs",
     metaDesc: "Guide 2026 pour les parents de jeunes enfants (0-6 ans) : quelles villes françaises combinent crèches accessibles, parcs, sécurité et budget maîtrisé ?",
     category: "famille",
     emoji: "🧸",
@@ -20823,7 +20823,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-litteraires-patrimoine-culturel-2026",
     title: "Les villes littéraires et culturelles de France : où vivre si vous aimez les livres et les arts",
-    metaTitle: "Villes littéraires culturelles France 2026 — librairies, théâtres, musées, patrimoine",
+    metaTitle: "Villes littéraires culturelles France 2026 — librairies, théâtres",
     metaDesc: "Classement des villes françaises les plus riches culturellement : librairies indépendantes, théâtres, musées, festivals littéraires, patrimoine, pour les amateurs d'art et de culture.",
     category: "lifestyle",
     emoji: "📚",
@@ -20905,7 +20905,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "van-life-france-choisir-base-ville-guide-2026",
     title: "Van life en France : quelle ville choisir comme base en 2026",
-    metaTitle: "Van life France base ville 2026 — quelle ville choisir pour nomader",
+    metaTitle: "Van life en France 2026 — quelle ville choisir comme base ?",
     metaDesc: "Van life en France : quelle ville utiliser comme base fixe ou de départ ? Critères : stationnement, domiciliation, accès nature, coût de la vie, météo. Guide pratique 2026.",
     category: "lifestyle",
     emoji: "🚐",
@@ -20946,7 +20946,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "ingenieur-aeronautique-defense-france-2026",
     title: "Ingénieur aéronautique et défense en France : où s'installer en 2026",
-    metaTitle: "Ingénieur aéronautique défense France 2026 — Toulouse Bordeaux où vivre",
+    metaTitle: "Ingénieur aéronautique et défense 2026 — Toulouse, Bordeaux",
     metaDesc: "Ingénieur dans l'aéronautique ou la défense en France : les meilleures villes pour travailler chez Airbus, Safran, Thales, MBDA, Naval Group. Qualité de vie, salaires, logement, bassins d'emploi.",
     category: "lifestyle",
     emoji: "✈️",
@@ -20987,7 +20987,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "enseignants-professeurs-quelle-ville-france-2026",
     title: "Enseignants : quelle ville choisir pour son poste en 2026",
-    metaTitle: "Enseignant quelle ville France 2026 — académie mutation qualité de vie",
+    metaTitle: "Enseignant 2026 : quelle ville, académie, mutation",
     metaDesc: "Enseignants en mutation ou primo-affectés : quelle ville choisir pour son poste ? Qualité de vie, coût du logement, écoles pour vos enfants, ambiance académique. Guide 2026.",
     category: "lifestyle",
     emoji: "🎓",
@@ -21028,7 +21028,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "expats-anglophones-france-villes-installation-2026",
     title: "Expats anglophones en France : les meilleures villes pour s'installer en 2026",
-    metaTitle: "Expats anglophones France 2026 — meilleures villes installation guide",
+    metaTitle: "Expats anglophones en France 2026 — meilleures villes",
     metaDesc: "Anglophones s'installant en France : quelles villes choisir ? Communautés anglophone actives, services en anglais, qualité de vie, coût de la vie, écoles bilingues. Guide complet 2026.",
     category: "lifestyle",
     emoji: "🌍",
@@ -21069,7 +21069,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "professions-sante-infirmier-medecin-quelle-ville-2026",
     title: "Professions de santé : quelle ville choisir pour exercer en France en 2026",
-    metaTitle: "Médecin infirmier quelle ville France 2026 — déserts médicaux, salaires, qualité de vie",
+    metaTitle: "Médecin, infirmier 2026 : quelle ville choisir en France ?",
     metaDesc: "Médecins, infirmiers, kinés, pharmaciens : quelle ville choisir pour exercer en France ? Déserts médicaux, primes d'installation, qualité de vie, hôpitaux et cliniques. Guide 2026.",
     category: "lifestyle",
     emoji: "🩺",
@@ -21110,7 +21110,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-besancon-quel-quartier-budget-2026",
     title: "Acheter à Besançon en 2026 : quartiers, prix et budget",
-    metaTitle: "Acheter à Besançon 2026 — Prix par quartier, budget, conseils achat immobilier",
+    metaTitle: "Acheter à Besançon 2026 — Prix par quartier, budget",
     metaDesc: "Guide complet pour acheter à Besançon : prix au m² par quartier (Boucle, Battant, Mouillère), budget studio à maison, citadelle UNESCO, frontière suisse. Données 2026.",
     category: "budget",
     emoji: "🏰",
@@ -21155,7 +21155,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-troyes-quel-quartier-budget-2026",
     title: "Acheter à Troyes en 2026 : prix, quartiers, budget achat immobilier",
-    metaTitle: "Acheter à Troyes 2026 — Prix par quartier, guide achat immobilier Aube",
+    metaTitle: "Acheter à Troyes 2026 — Prix par quartier, achat immobilier",
     metaDesc: "Guide achat immobilier Troyes 2026 : prix au m² centre médiéval, Saint-Martin, périphérie. À 1h30 de Paris, l'une des plus belles villes médiévales de France.",
     category: "budget",
     emoji: "🦢",
@@ -21200,7 +21200,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-valence-quel-quartier-budget-2026",
     title: "Acheter à Valence en 2026 : prix, quartiers et conseils",
-    metaTitle: "Acheter à Valence (Drôme) 2026 — Prix immobiliers par quartier, guide achat",
+    metaTitle: "Acheter à Valence (Drôme) 2026 — Prix immobiliers par quartier",
     metaDesc: "Guide achat immobilier Valence 2026 : prix 1 900–2 800 €/m², quartiers Victor Hugo, Fontbarlettes, plan-les-Ouates. Soleil, TGV Lyon 35min.",
     category: "budget",
     emoji: "🌻",
@@ -21245,7 +21245,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-poitiers-quel-quartier-budget-2026",
     title: "Acheter à Poitiers en 2026 : quartiers, prix au m², conseils",
-    metaTitle: "Acheter à Poitiers 2026 — Prix immobilier par quartier, guide achat Vienne",
+    metaTitle: "Acheter à Poitiers 2026 — Prix immobilier par quartier",
     metaDesc: "Guide achat immobilier Poitiers 2026 : centre médiéval, Demi-Lune, banlieues. Prix 1 400–2 500 €/m². 30 000 étudiants, Paris 1h20 TGV, rendements locatifs étudiants.",
     category: "budget",
     emoji: "🐴",
@@ -21290,7 +21290,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-vannes-quel-quartier-budget-2026",
     title: "Acheter à Vannes en 2026 : quartiers, prix et budget",
-    metaTitle: "Acheter à Vannes 2026 — Prix immobilier Morbihan, guide achat quartier par quartier",
+    metaTitle: "Acheter à Vannes 2026 — Prix immobilier quartier par quartier",
     metaDesc: "Guide achat immobilier Vannes 2026 : prix 2 500–4 500 €/m² (centre médiéval, Saint-Patern, Tohannic). Golfe du Morbihan, tram, TGV Paris 2h40.",
     category: "budget",
     emoji: "⛵",
@@ -21335,7 +21335,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-mulhouse-quel-quartier-budget-2026",
     title: "Acheter à Mulhouse en 2026 : prix, quartiers et marché immobilier",
-    metaTitle: "Acheter à Mulhouse 2026 — Prix immobilier par quartier, guide achat Haut-Rhin",
+    metaTitle: "Acheter à Mulhouse 2026 — Prix immobilier par quartier",
     metaDesc: "Guide achat immobilier Mulhouse 2026 : prix 900–2 200 €/m² selon quartier. Frontalier Suisse (Bâle 25km), tramway, rendements locatifs élevés, pièges à éviter.",
     category: "budget",
     emoji: "🏭",
@@ -21380,7 +21380,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-aix-en-provence-guide-2026",
     title: "Quitter Aix-en-Provence en 2026 : où aller quand Provence devient trop chère",
-    metaTitle: "Quitter Aix-en-Provence 2026 — les alternatives quand Aix n'est plus accessible",
+    metaTitle: "Quitter Aix-en-Provence 2026 — les alternatives abordables",
     metaDesc: "Aix-en-Provence à 5 000 €/m² et des loyers qui dépassent Lyon : qui part, où va-t-on, et quelles alternatives provençales ou occitanes permettent de garder le soleil sans le prix ?",
     category: "comparaison",
     emoji: "🌿",
@@ -21425,7 +21425,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-françaises-qui-perdent-habitants-2026",
     title: "Les villes françaises qui perdent des habitants en 2026 — comprendre et décider",
-    metaTitle: "Villes françaises en déclin démographique 2026 — quelles villes perdent des habitants",
+    metaTitle: "Villes françaises en déclin démographique 2026 — lesquelles ?",
     metaDesc: "Quelles villes françaises perdent le plus d'habitants en 2026 ? Déclin démographique : causes, conséquences sur l'immobilier et les services, et pourquoi certaines méritent quand même d'être considérées.",
     category: "lifestyle",
     emoji: "📉",
@@ -21470,7 +21470,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "deserts-medicaux-france-villes-eviter-2026",
     title: "Déserts médicaux en France 2026 : ce que ça change concrètement pour choisir sa ville",
-    metaTitle: "Déserts médicaux France 2026 — zones sous-dotées, comment choisir sa ville",
+    metaTitle: "Déserts médicaux France 2026 — zones sous-dotées, où vivre",
     metaDesc: "Déserts médicaux en France : cartographie 2026 par département, impact sur la qualité de vie, et comment éviter de vous installer dans une zone où trouver un médecin prend 6 mois.",
     category: "lifestyle",
     emoji: "🏥",
@@ -21515,7 +21515,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "immobilier-sous-cote-france-2026-villes",
     title: "Les villes françaises immobilièrement sous-cotées en 2026 — le guide honnête",
-    metaTitle: "Immobilier sous-coté France 2026 — villes oubliées avec bon ratio qualité/prix",
+    metaTitle: "Immobilier sous-coté France 2026 — villes au bon rapport prix",
     metaDesc: "Quelles villes françaises offrent le meilleur rapport qualité de vie / prix immobilier en 2026 ? Le guide des marchés sous-cotés qui n'ont pas encore rattrapé leur retard.",
     category: "budget",
     emoji: "💎",
@@ -21560,7 +21560,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "nouvelles-villes-montantes-france-2026",
     title: "Les nouvelles villes qui montent en France en 2026 — émergence et trajectoires",
-    metaTitle: "Villes françaises montantes 2026 — émergence, trajectoires et opportunités",
+    metaTitle: "Villes françaises montantes 2026 — émergence, trajectoires",
     metaDesc: "Quelles villes françaises gagnent en attractivité en 2026 ? Émergence post-Covid, télétravail, réurbanisation des villes moyennes: les marchés en train de se retourner.",
     category: "lifestyle",
     emoji: "🚀",
@@ -21605,7 +21605,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "tgv-paris-accessibilite-villes-2026",
     title: "Accessibilité TGV depuis Paris en 2026 : le guide pour choisir sa ville",
-    metaTitle: "TGV Paris vers les villes françaises 2026 — temps de trajet, coût, fréquence",
+    metaTitle: "TGV Paris vers les villes françaises 2026 — temps de trajet, coût",
     metaDesc: "Temps de trajet TGV depuis Paris vers les principales villes françaises en 2026. Fréquences, coût de l'abonnement, gares secondaires : le guide pratique pour le navetteur et le choisisseur de ville.",
     category: "teletravail",
     emoji: "🚄",
@@ -21650,7 +21650,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-valence-guide-2026",
     title: "Quitter Valence (Drôme) en 2026 : où aller et pourquoi",
-    metaTitle: "Quitter Valence 2026 — Les alternatives quand la Drôme ne suffit plus",
+    metaTitle: "Quitter Valence 2026 — les alternatives hors de la Drôme",
     metaDesc: "Pourquoi quitte-t-on Valence ? Emploi limité, pression locative, manque de centre-ville vivant. Les alternatives crédibles : Grenoble, Lyon, Montélimar, Bourg-lès-Valence.",
     category: "comparaison",
     emoji: "🌻",
@@ -21740,7 +21740,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-vannes-guide-2026",
     title: "Quitter Vannes en 2026 : où aller quand le Golfe du Morbihan devient trop cher",
-    metaTitle: "Quitter Vannes 2026 — Alternatives quand le Morbihan ne rentre plus dans le budget",
+    metaTitle: "Quitter Vannes 2026 — alternatives quand le Morbihan est cher",
     metaDesc: "Vannes à 3 500–4 500 €/m² : qui quitte, où va-t-on ? Lorient, Brest, Rennes, Saint-Brieuc. Guide complet quitter Vannes 2026.",
     category: "comparaison",
     emoji: "⛵",
@@ -21785,7 +21785,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-poitiers-guide-2026",
     title: "Quitter Poitiers en 2026 : alternatives à la Vienne",
-    metaTitle: "Quitter Poitiers 2026 — Où aller après la Vienne, les alternatives crédibles",
+    metaTitle: "Quitter Poitiers 2026 — où aller, les alternatives crédibles",
     metaDesc: "Pourquoi quitter Poitiers ? Emploi limité hors université, ville terne. Les alternatives : La Rochelle, Tours, Bordeaux, Niort. Guide 2026.",
     category: "comparaison",
     emoji: "🐴",
@@ -21875,7 +21875,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-biarritz-guide-2026",
     title: "Quitter Biarritz en 2026 : quand le Pays Basque devient inaccessible",
-    metaTitle: "Quitter Biarritz 2026 — Alternatives côte basque, où partir quand Biarritz est trop cher",
+    metaTitle: "Quitter Biarritz 2026 — alternatives sur la côte basque",
     metaDesc: "Biarritz à 5 000–7 500 €/m² : qui part, où va-t-on ? Bayonne, Anglet, Saint-Jean-de-Luz, Dax. Guide complet quitter Biarritz 2026.",
     category: "comparaison",
     emoji: "🏄",
@@ -21920,7 +21920,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-chartres-quel-quartier-budget-2026",
     title: "Acheter à Chartres en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Chartres 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter à Chartres 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Chartres 2026. Prix 2 000–3 200 €/m², 1h08 de Paris Montparnasse. Quartiers Cathédrale, Beaulieu, Rechèvres. Comparatif complet.",
     category: "budget",
     emoji: "⛪",
@@ -21960,7 +21960,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-lorient-quel-quartier-budget-2026",
     title: "Acheter à Lorient en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Lorient 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter à Lorient 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Lorient 2026. Prix 1 600–2 800 €/m², port militaire, festival interceltique. Quartiers Lorient centre, Keryado, Lanester. Guide complet.",
     category: "budget",
     emoji: "🛳️",
@@ -22000,7 +22000,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-chambery-quel-quartier-budget-2026",
     title: "Acheter à Chambéry en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Chambéry 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter à Chambéry 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Chambéry 2026. Prix 2 200–3 600 €/m², alternative à Annecy. Quartiers Vieux-Chambéry, Jacob-Bellecombette, Bissy. Comparatif complet.",
     category: "budget",
     emoji: "🏰",
@@ -22040,7 +22040,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-colmar-quel-quartier-budget-2026",
     title: "Acheter à Colmar en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Colmar 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter à Colmar 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Colmar 2026. Prix 2 200–3 800 €/m², frontaliers Bâle-Fribourg. Quartiers Petite Venise, Tanner, Ladhof. Comparatif complet 2026.",
     category: "budget",
     emoji: "🍷",
@@ -22081,7 +22081,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-arles-quel-quartier-budget-2026",
     title: "Acheter à Arles en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Arles 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter à Arles 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Arles 2026. Prix 1 900–3 500 €/m², LUMA, Camargue. Quartiers Arles centre, Trinquetaille, Griffeuille. Comparatif complet 2026.",
     category: "budget",
     emoji: "🌾",
@@ -22121,7 +22121,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-biarritz-quel-quartier-budget-2026",
     title: "Acheter à Biarritz en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Biarritz 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter à Biarritz 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Biarritz 2026. Prix 4 500–8 000 €/m², surf, côte basque. Quartiers Centre, Côte des Basques, Milady, Angloy. Comparatif complet.",
     category: "budget",
     emoji: "🏄",
@@ -22202,7 +22202,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "montpellier-vs-toulouse-comparatif-2026",
     title: "Montpellier vs Toulouse 2026 : laquelle choisir pour s'installer ?",
-    metaTitle: "Montpellier vs Toulouse 2026 — Comparatif complet pour s'installer",
+    metaTitle: "Montpellier vs Toulouse 2026 — Comparatif pour s'installer",
     metaDesc: "Montpellier ou Toulouse ? Comparatif immobilier, emploi, étudiants, soleil, transports 2026. Deux métropoles du Sud en pleine croissance. Guide objectif.",
     category: "comparaison",
     emoji: "☀️",
@@ -22243,7 +22243,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "strasbourg-vs-colmar-comparatif-2026",
     title: "Strasbourg vs Colmar 2026 : laquelle choisir pour s'installer en Alsace ?",
-    metaTitle: "Strasbourg vs Colmar 2026 — Comparatif complet pour s'installer en Alsace",
+    metaTitle: "Strasbourg vs Colmar 2026 — Comparatif pour vivre en Alsace",
     metaDesc: "Strasbourg ou Colmar ? Comparatif immobilier, emploi, frontaliers, charme, transports 2026. Deux villes alsaciennes très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🥨",
@@ -22325,7 +22325,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-chambery-guide-2026",
     title: "Quitter Chambéry en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Chambéry 2026 — Alternatives Savoie, où partir après Chambéry",
+    metaTitle: "Quitter Chambéry 2026 — alternatives en Savoie, où partir",
     metaDesc: "Pourquoi quitter Chambéry ? Emploi limité, Annecy trop chère. Les alternatives : Grenoble, Lyon, Annecy, Aix-les-Bains. Guide comparatif 2026.",
     category: "comparaison",
     emoji: "🏰",
@@ -22407,7 +22407,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-lorient-guide-2026",
     title: "Quitter Lorient en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Lorient 2026 — Alternatives Bretagne, où partir après Lorient",
+    metaTitle: "Quitter Lorient 2026 — alternatives en Bretagne, où partir",
     metaDesc: "Pourquoi quitter Lorient ? Chômage élevé, emploi limité. Les alternatives : Vannes, Quimper, Rennes, Brest. Guide comparatif 2026.",
     category: "comparaison",
     emoji: "🛳️",
@@ -22448,7 +22448,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-orleans-guide-2026",
     title: "Quitter Orléans en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Orléans 2026 — Alternatives Loire, où partir après Orléans",
+    metaTitle: "Quitter Orléans 2026 — alternatives sur la Loire, où partir",
     metaDesc: "Pourquoi quitter Orléans ? Proximité Paris stressante, centre-ville commercial en souffrance. Les alternatives : Tours, Blois, Paris, Nantes. Guide comparatif 2026.",
     category: "comparaison",
     emoji: "🌹",
@@ -22612,7 +22612,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-a-le-mans-quel-quartier-budget-2026",
     title: "Acheter au Mans en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter au Mans 2026 — Prix immobilier, quartiers, budget réaliste",
+    metaTitle: "Acheter au Mans 2026 — Prix immobilier, quartiers",
     metaDesc: "Guide achat immobilier Le Mans 2026. Prix 1 400–2 600 €/m², TGV Paris 56 min. Quartiers Vieux-Mans, Jacobins, Ronceray-Glonnières. Comparatif complet.",
     category: "budget",
     emoji: "🏎️",
@@ -22733,7 +22733,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "budget-mensuel-realiste-bordeaux-2026",
     title: "Budget mensuel réaliste à Bordeaux en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Bordeaux 2026 — Ce que coûte vraiment vivre à Bordeaux",
+    metaTitle: "Budget mensuel Bordeaux 2026 — ce que coûte vraiment la vie",
     metaDesc: "Combien faut-il pour vivre à Bordeaux en 2026 ? Budget mensuel détaillé : loyer, tram, courses, vin. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🍷",
@@ -22773,7 +22773,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "budget-mensuel-realiste-toulouse-2026",
     title: "Budget mensuel réaliste à Toulouse en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Toulouse 2026 — Ce que coûte vraiment vivre à Toulouse",
+    metaTitle: "Budget mensuel Toulouse 2026 — ce que coûte vraiment la vie",
     metaDesc: "Combien faut-il pour vivre à Toulouse en 2026 ? Budget mensuel détaillé : loyer, métro, courses, cassoulet. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🌹",
@@ -22813,7 +22813,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "budget-mensuel-realiste-montpellier-2026",
     title: "Budget mensuel réaliste à Montpellier en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Montpellier 2026 — Ce que coûte vraiment vivre à Montpellier",
+    metaTitle: "Budget mensuel Montpellier 2026 — ce que coûte vraiment la vie",
     metaDesc: "Combien faut-il pour vivre à Montpellier en 2026 ? Budget mensuel détaillé : loyer, tram, mer, plages. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🌊",
@@ -23014,7 +23014,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "lille-vs-amiens-comparatif-2026",
     title: "Lille vs Amiens 2026 : laquelle choisir pour s'installer dans le Nord ?",
-    metaTitle: "Lille vs Amiens 2026 — Comparatif pour s'installer dans les Hauts-de-France",
+    metaTitle: "Lille vs Amiens 2026 — Comparatif Hauts-de-France",
     metaDesc: "Lille ou Amiens ? Comparatif immobilier, emploi, Eurostar, qualité de vie nord France 2026. Deux villes des Hauts-de-France très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🍺",
@@ -23055,7 +23055,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "tours-vs-orléans-comparatif-2026",
     title: "Tours vs Orléans 2026 : laquelle choisir pour s'installer sur la Loire ?",
-    metaTitle: "Tours vs Orléans 2026 — Comparatif pour s'installer en Val de Loire",
+    metaTitle: "Tours vs Orléans 2026 — Comparatif pour vivre en Val de Loire",
     metaDesc: "Tours ou Orléans ? Comparatif immobilier, TGV Paris, emploi, châteaux Loire 2026. Deux villes ligériennes très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🏰",
@@ -23096,7 +23096,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "budget-mensuel-realiste-strasbourg-2026",
     title: "Budget mensuel réaliste à Strasbourg en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Strasbourg 2026 — Ce que coûte vraiment vivre à Strasbourg",
+    metaTitle: "Budget mensuel Strasbourg 2026 — ce que coûte vraiment la vie",
     metaDesc: "Combien faut-il pour vivre à Strasbourg en 2026 ? Budget mensuel détaillé : loyer, tram, bière, Parlement Européen. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🥨",
@@ -23176,7 +23176,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "lyon-vs-grenoble-comparatif-2026",
     title: "Lyon vs Grenoble 2026 : laquelle choisir pour s'installer en Auvergne-Rhône-Alpes ?",
-    metaTitle: "Lyon vs Grenoble 2026 — Comparatif pour s'installer en Rhône-Alpes",
+    metaTitle: "Lyon vs Grenoble 2026 — Comparatif pour vivre en Rhône-Alpes",
     metaDesc: "Lyon ou Grenoble ? Comparatif immobilier, emploi, Alpes, qualité de vie 2026. Deux métropoles alpines très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🏔️",
@@ -23217,7 +23217,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-moins-cheres-2026-top-10",
     title: "Top 10 des villes françaises les moins chères pour s'installer en 2026",
-    metaTitle: "Top 10 villes France moins chères 2026 — Immobilier abordable, où s'installer",
+    metaTitle: "Top 10 des villes les moins chères de France 2026",
     metaDesc: "Les 10 villes françaises les moins chères pour s'installer en 2026 : immobilier abordable, coût de la vie, qualité de vie. Classement honnête avec données réelles.",
     category: "budget",
     emoji: "💰",
@@ -23260,7 +23260,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-paris-2026",
     title: "10 choses à faire à Paris (au-delà des clichés)",
-    metaTitle: "10 choses à faire à Paris 2026 — sorties locales et spots moins connus",
+    metaTitle: "10 choses à faire à Paris 2026 — activités et sorties locales",
     metaDesc: "Au-delà de la tour Eiffel : 10 activités concrètes à Paris pour vivre la ville comme un habitant, marchés, quartiers vivants, scènes culturelles.",
     category: "tourisme",
     emoji: "🗼",
@@ -23380,7 +23380,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bordeaux-2026",
     title: "10 choses à faire à Bordeaux (et sa métropole)",
-    metaTitle: "10 choses à faire à Bordeaux 2026 — activités, sorties et spots locaux",
+    metaTitle: "10 choses à faire à Bordeaux 2026 — activités et sorties locales",
     metaDesc: "Vignobles, miroir d'eau, Darwin et Cité du Vin : 10 activités à Bordeaux pour aller au-delà du centre-ville et profiter de ce que les habitants connaissent.",
     category: "tourisme",
     emoji: "🍷",
@@ -23560,7 +23560,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nice-2026",
     title: "10 choses à faire à Nice (au-delà de la Promenade des Anglais)",
-    metaTitle: "10 choses à faire à Nice 2026 — activités locales et spots méconnus",
+    metaTitle: "10 choses à faire à Nice 2026 — activités et sorties locales",
     metaDesc: "Vieux-Nice, colline du Château, marché du Cours Saleya et arrière-pays : 10 activités concrètes à Nice pour aller au-delà des promenades touristiques.",
     category: "tourisme",
     emoji: "🌊",
@@ -23620,7 +23620,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nantes-2026",
     title: "10 choses à faire à Nantes (bien plus qu'un éléphant mécanique)",
-    metaTitle: "10 choses à faire à Nantes 2026 — activités créatives et sorties locales",
+    metaTitle: "10 choses à faire à Nantes 2026 — activités et sorties locales",
     metaDesc: "Machines de l'Île, Île de Nantes, Loire et vie nocturne : 10 activités concrètes à Nantes pour aller au-delà de la carte postale industrielle et créative.",
     category: "tourisme",
     emoji: "🐘",
@@ -23740,7 +23740,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-strasbourg-2026",
     title: "10 choses à faire à Strasbourg (la ville qui réconcilie tout)",
-    metaTitle: "10 choses à faire à Strasbourg 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Strasbourg 2026 — activités et sorties",
     metaDesc: "Cathédrale, Petite France, Parlement européen et forêt-noire à portée : 10 activités à Strasbourg pour vivre la ville alsacienne de l'intérieur.",
     category: "tourisme",
     emoji: "🥨",
@@ -23800,7 +23800,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montpellier-2026",
     title: "10 choses à faire à Montpellier (la ville méditerranéenne qui bouge)",
-    metaTitle: "10 choses à faire à Montpellier 2026 — activités locales et sorties",
+    metaTitle: "10 choses à faire à Montpellier 2026 — activités et sorties",
     metaDesc: "Plages à 20 minutes, vieille ville, garrigue et scène étudiante : 10 activités à Montpellier pour vivre la capitale héraultaise de l'intérieur.",
     category: "tourisme",
     emoji: "🌞",
@@ -23920,7 +23920,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-grenoble-2026",
     title: "10 choses à faire à Grenoble (la capitale des Alpes accessible)",
-    metaTitle: "10 choses à faire à Grenoble 2026 — activités montagne et vie locale",
+    metaTitle: "10 choses à faire à Grenoble 2026 — activités et sorties locales",
     metaDesc: "Bastille, Vercors, vie étudiante et Musée de Grenoble : 10 activités à Grenoble pour vivre la ville entre Alpes et plaine iséroise.",
     category: "tourisme",
     emoji: "⛰️",
@@ -25180,7 +25180,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-rochelle-2026",
     title: "10 choses à faire à La Rochelle (le port et le large)",
-    metaTitle: "10 choses à faire à La Rochelle 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à La Rochelle 2026 — activités et sorties",
     metaDesc: "Vieux-Port, tours médiévales, Île de Ré et gastronomie charentaise : 10 activités à La Rochelle pour vivre la capitale atlantique au-delà des cartes postales.",
     category: "tourisme",
     emoji: "⛵",
@@ -25842,7 +25842,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-malo-2026",
     title: "10 choses à faire à Saint-Malo (la cité corsaire et la mer d'Iroise)",
-    metaTitle: "10 choses à faire à Saint-Malo 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Malo 2026 — activités et sorties",
     metaDesc: "Remparts intra-muros, îles du large, Route du Rhum et huîtres de Cancale : 10 activités à Saint-Malo pour découvrir la cité corsaire de Bretagne.",
     category: "tourisme",
     emoji: "⚓",
@@ -27043,7 +27043,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chalon-sur-saone-2026",
     title: "10 choses à faire à Chalon-sur-Saône (le carnaval et les vins de Bourgogne du Sud)",
-    metaTitle: "10 choses à faire à Chalon-sur-Saône 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Chalon-sur-Saône 2026 — activités et sorties",
     metaDesc: "Carnaval de Chalon, musée Nicéphore Niépce, côte chalonnaise et abbaye de Cluny : 10 activités à Chalon-sur-Saône pour découvrir la capitale du Sud Bourgogne.",
     category: "tourisme",
     emoji: "🎪",
@@ -27103,7 +27103,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-etienne-2026",
     title: "10 choses à faire à Saint-Étienne (le design et l'héritage industriel du Forez)",
-    metaTitle: "10 choses à faire à Saint-Étienne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Étienne 2026 — activités et sorties",
     metaDesc: "Cité du Design, musée d'Art Moderne, gorges de la Loire et Pilat : 10 activités à Saint-Étienne pour découvrir la ville UNESCO du design et de l'industrie.",
     category: "tourisme",
     emoji: "⚙️",
@@ -27404,7 +27404,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-boulogne-sur-mer-2026",
     title: "10 choses à faire à Boulogne-sur-Mer (Nausicaá et le premier port de pêche de France)",
-    metaTitle: "10 choses à faire à Boulogne-sur-Mer 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Boulogne-sur-Mer 2026 — activités et sorties",
     metaDesc: "Nausicaá, ville haute médiévale, cap Gris-Nez et hareng fumé : 10 activités à Boulogne-sur-Mer pour découvrir le premier port de pêche de France.",
     category: "tourisme",
     emoji: "🐟",
@@ -27524,7 +27524,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bourg-en-bresse-2026",
     title: "10 choses à faire à Bourg-en-Bresse (le monastère royal de Brou et la volaille AOP)",
-    metaTitle: "10 choses à faire à Bourg-en-Bresse 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bourg-en-Bresse 2026 — activités et sorties",
     metaDesc: "Monastère royal de Brou, volaille de Bresse AOP, Haut-Bugey et lacs du Jura : 10 activités à Bourg-en-Bresse pour découvrir la capitale de l'Ain.",
     category: "tourisme",
     emoji: "🐔",
@@ -27704,7 +27704,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-clermont-l-herault-2026",
     title: "10 choses à faire à Clermont-l'Hérault (le lac du Salagou et Saint-Guilhem)",
-    metaTitle: "10 choses à faire à Clermont-l'Hérault 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Clermont-l'Hérault 2026",
     metaDesc: "Lac du Salagou, cirque de Mourèze, Saint-Guilhem-le-Désert UNESCO et grotte de Clamouse : 10 activités à Clermont-l'Hérault pour découvrir le cœur géologique de l'Hérault.",
     category: "tourisme",
     emoji: "🏞️",
@@ -27883,7 +27883,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-draguignan-2026",
     title: "10 choses à faire à Draguignan (la porte du Verdon et l'arrière-pays varois)",
-    metaTitle: "10 choses à faire à Draguignan 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Draguignan 2026 — activités et sorties",
     metaDesc: "Tour de l'Horloge, gorges du Verdon, Lorgues, cascade de Sillans et Aups truffes : 10 activités à Draguignan pour explorer le Var intérieur.",
     category: "tourisme",
     emoji: "🌲",
@@ -28062,7 +28062,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-nazaire-2026",
     title: "10 choses à faire à Saint-Nazaire (les chantiers navals et la base sous-marine)",
-    metaTitle: "10 choses à faire à Saint-Nazaire 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Nazaire 2026 — activités et sorties",
     metaDesc: "Chantiers de l'Atlantique, Escal'Atlantic, base sous-marine, Brière et plage de Monsieur Hulot : 10 activités à Saint-Nazaire pour découvrir le port estuarien.",
     category: "tourisme",
     emoji: "⚓",
@@ -28180,7 +28180,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-roche-sur-yon-2026",
     title: "10 choses à faire à La Roche-sur-Yon (la ville Napoléon et le bocage vendéen)",
-    metaTitle: "10 choses à faire à La Roche-sur-Yon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à La Roche-sur-Yon 2026 — activités et sorties",
     metaDesc: "Place Napoléon, Haras de la Vendée, Puy du Fou et Sables-d'Olonne : 10 activités à La Roche-sur-Yon pour découvrir la préfecture impériale de Vendée.",
     category: "tourisme",
     emoji: "🐎",
@@ -28239,7 +28239,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chatellerault-2026",
     title: "10 choses à faire à Châtellerault (la manufacture d'armes et le Futuroscope)",
-    metaTitle: "10 choses à faire à Châtellerault 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Châtellerault 2026 — activités et sorties",
     metaDesc: "Pont Henri-IV, Manufacture d'armes, musée Auto Moto Vélo, maison de Descartes et Futuroscope : 10 activités à Châtellerault, dans le nord du Poitou.",
     category: "tourisme",
     emoji: "⚙️",
@@ -28476,7 +28476,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-carcassonne-2026",
     title: "10 choses à faire à Carcassonne (la cité médiévale UNESCO et le pays cathare)",
-    metaTitle: "10 choses à faire à Carcassonne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Carcassonne 2026 — activités et sorties",
     metaDesc: "Cité médiévale UNESCO, château comtal, canal du Midi, châteaux cathares et vignobles Corbières : 10 activités à Carcassonne pour découvrir le berceau cathare.",
     category: "tourisme",
     emoji: "🏰",
@@ -28535,7 +28535,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aix-les-bains-2026",
     title: "10 choses à faire à Aix-les-Bains (la Riviera des Alpes et le lac du Bourget)",
-    metaTitle: "10 choses à faire à Aix-les-Bains 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Aix-les-Bains 2026 — activités et sorties",
     metaDesc: "Lac du Bourget, thermes nationaux, Abbaye de Hautecombe, Mont Revard et casino : 10 activités à Aix-les-Bains pour découvrir la Riviera des Alpes.",
     category: "tourisme",
     emoji: "🛁",
@@ -28594,7 +28594,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-evian-les-bains-2026",
     title: "10 choses à faire à Évian-les-Bains (la source mondiale et le Léman)",
-    metaTitle: "10 choses à faire à Évian-les-Bains 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Évian-les-Bains 2026 — activités et sorties",
     metaDesc: "Source Cachat, palais Lumière, Léman, jardins d'Évian et abbaye d'Abondance : 10 activités à Évian-les-Bains pour découvrir la perle du Léman français.",
     category: "tourisme",
     emoji: "💧",
@@ -29304,7 +29304,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-puy-en-velay-2026",
     title: "10 choses à faire au Puy-en-Velay (les pitons volcaniques et le chemin de Compostelle)",
-    metaTitle: "10 choses à faire au Puy-en-Velay 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire au Puy-en-Velay 2026 — activités et sorties",
     metaDesc: "Notre-Dame du Puy, statue Saint-Michel d'Aiguilhe, rocher Corneille, dentelle du Puy et lentille verte AOP : 10 activités au Puy-en-Velay pour découvrir la cité jacquaire.",
     category: "tourisme",
     emoji: "🌋",
@@ -29484,7 +29484,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bar-le-duc-2026",
     title: "10 choses à faire à Bar-le-Duc (la ville haute Renaissance et la Voie sacrée)",
-    metaTitle: "10 choses à faire à Bar-le-Duc 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bar-le-Duc 2026 — activités et sorties",
     metaDesc: "Ville haute Renaissance, Voie sacrée, Verdun, Saint-Mihiel et confiture à pépin de groseille : 10 activités à Bar-le-Duc pour découvrir le sud de la Meuse.",
     category: "tourisme",
     emoji: "🍓",
@@ -29663,7 +29663,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-brieuc-2026",
     title: "10 choses à faire à Saint-Brieuc (la baie aux marées et la côte de Goëlo)",
-    metaTitle: "10 choses à faire à Saint-Brieuc 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Brieuc 2026 — activités et sorties",
     metaDesc: "Baie de Saint-Brieuc, falaises de Plouha, Cap Fréhel, île de Bréhat et marées XXL : 10 activités à Saint-Brieuc pour découvrir le nord des Côtes-d'Armor.",
     category: "tourisme",
     emoji: "🌊",
@@ -29960,7 +29960,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-charleville-mezieres-2026",
     title: "10 choses à faire à Charleville-Mézières (la place ducale et Rimbaud)",
-    metaTitle: "10 choses à faire à Charleville-Mézières 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Charleville-Mézières 2026",
     metaDesc: "Place ducale, musée Rimbaud, Festival mondial des Théâtres de Marionnettes et vallée de la Meuse : 10 activités à Charleville-Mézières pour découvrir la préfecture ardennaise.",
     category: "tourisme",
     emoji: "🎭",
@@ -30019,7 +30019,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-die-des-vosges-2026",
     title: "10 choses à faire à Saint-Dié-des-Vosges (la cité du géographe et le massif vosgien)",
-    metaTitle: "10 choses à faire à Saint-Dié-des-Vosges 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Dié-des-Vosges 2026",
     metaDesc: "Cathédrale, baptême de l'Amérique, Festival international de Géographie, Gérardmer et Hautes-Vosges : 10 activités à Saint-Dié-des-Vosges.",
     category: "tourisme",
     emoji: "🌲",
@@ -30078,7 +30078,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pontarlier-2026",
     title: "10 choses à faire à Pontarlier (la ville la plus haute de France et l'absinthe)",
-    metaTitle: "10 choses à faire à Pontarlier 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Pontarlier 2026 — activités et sorties",
     metaDesc: "Absinthe, musée du Pays du Haut-Doubs, lac Saint-Point, château de Joux et fromage Comté : 10 activités à Pontarlier pour découvrir le Doubs frontalier.",
     category: "tourisme",
     emoji: "🌿",
@@ -30138,7 +30138,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-omer-2026",
     title: "10 choses à faire à Saint-Omer (le marais audomarois et la cathédrale)",
-    metaTitle: "10 choses à faire à Saint-Omer 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Omer 2026 — activités et sorties",
     metaDesc: "Marais audomarois, cathédrale, ruines de Saint-Bertin, distillerie de gin et coupole d'Helfaut : 10 activités à Saint-Omer pour découvrir le sud des Hauts-de-France.",
     category: "tourisme",
     emoji: "🛶",
@@ -30197,7 +30197,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chateauroux-2026",
     title: "10 choses à faire à Châteauroux (le couvent des Cordeliers et la Brenne)",
-    metaTitle: "10 choses à faire à Châteauroux 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Châteauroux 2026 — activités et sorties",
     metaDesc: "Couvent des Cordeliers, château Raoul, parc Balsan, parc naturel régional de la Brenne et George Sand : 10 activités à Châteauroux pour découvrir la préfecture de l'Indre.",
     category: "tourisme",
     emoji: "🦆",
@@ -30374,7 +30374,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lons-le-saunier-2026",
     title: "10 choses à faire à Lons-le-Saunier (la cité du sel et le vin jaune)",
-    metaTitle: "10 choses à faire à Lons-le-Saunier 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Lons-le-Saunier 2026 — activités et sorties",
     metaDesc: "Place de la Liberté, Marseillaise, vignobles du Jura, Château-Chalon et lacs de Cascades du Hérisson : 10 activités à Lons-le-Saunier pour découvrir le Jura.",
     category: "tourisme",
     emoji: "🍷",
@@ -30553,7 +30553,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-digne-les-bains-2026",
     title: "10 choses à faire à Digne-les-Bains (la cité thermale et la route des Lavandes)",
-    metaTitle: "10 choses à faire à Digne-les-Bains 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Digne-les-Bains 2026 — activités et sorties",
     metaDesc: "Thermes de Digne, route des Lavandes, géologie UNESCO, train des Pignes et plateau de Valensole : 10 activités à Digne-les-Bains pour découvrir les Alpes-de-Haute-Provence.",
     category: "tourisme",
     emoji: "💜",
@@ -30612,7 +30612,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mont-de-marsan-2026",
     title: "10 choses à faire à Mont-de-Marsan (la cité Carcen et la course landaise)",
-    metaTitle: "10 choses à faire à Mont-de-Marsan 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Mont-de-Marsan 2026 — activités et sorties",
     metaDesc: "Musée Despiau-Wlérick, courses landaises, plages de Capbreton, forêt des Landes et Hossegor : 10 activités à Mont-de-Marsan pour découvrir la préfecture des Landes.",
     category: "tourisme",
     emoji: "🐃",
@@ -30731,7 +30731,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chalons-en-champagne-2026",
     title: "10 choses à faire à Châlons-en-Champagne (la capitale champenoise et la Marne)",
-    metaTitle: "10 choses à faire à Châlons-en-Champagne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Châlons-en-Champagne 2026",
     metaDesc: "Cathédrale Saint-Étienne, Notre-Dame-en-Vaux, Reims, Épernay et caves de champagne : 10 activités à Châlons-en-Champagne pour découvrir la préfecture de la Marne.",
     category: "tourisme",
     emoji: "🥂",
@@ -30910,7 +30910,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-fontainebleau-2026",
     title: "10 choses à faire à Fontainebleau (le château royal et la forêt de l'École)",
-    metaTitle: "10 choses à faire à Fontainebleau 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Fontainebleau 2026 — activités et sorties",
     metaDesc: "Château royal, forêt de Fontainebleau, escalade, Barbizon et Vaux-le-Vicomte : 10 activités à Fontainebleau pour découvrir la cité royale et son massif forestier.",
     category: "tourisme",
     emoji: "🌳",
@@ -31028,7 +31028,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sarlat-la-caneda-2026",
     title: "10 choses à faire à Sarlat-la-Canéda (la cité médiévale dorée et le foie gras)",
-    metaTitle: "10 choses à faire à Sarlat-la-Canéda 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Sarlat-la-Canéda 2026 — activités et sorties",
     metaDesc: "Vieille ville Renaissance, marché aux truffes, châteaux du Périgord, gouffre de Padirac et Rocamadour : 10 activités à Sarlat pour découvrir le cœur du Périgord noir.",
     category: "tourisme",
     emoji: "🦆",
@@ -31325,7 +31325,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-tropez-2026",
     title: "10 choses à faire à Saint-Tropez (la presqu'île et la baie des Canoubiers)",
-    metaTitle: "10 choses à faire à Saint-Tropez 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Tropez 2026 — activités et sorties",
     metaDesc: "Vieux port, citadelle, plage de Pampelonne, sentier du Littoral et îles d'Hyères : 10 activités à Saint-Tropez pour découvrir la plus glamour des cités varoises.",
     category: "tourisme",
     emoji: "🛥️",
@@ -31682,7 +31682,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-concarneau-2026",
     title: "10 choses à faire à Concarneau (la Ville Close fortifiée et les Glénan)",
-    metaTitle: "10 choses à faire à Concarneau 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Concarneau 2026 — activités et sorties",
     metaDesc: "Ville Close, port de pêche, archipel des Glénan, Pont-Aven et école de peinture : 10 activités à Concarneau pour découvrir la côte du Finistère sud.",
     category: "tourisme",
     emoji: "🐟",
@@ -31741,7 +31741,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-jean-de-luz-2026",
     title: "10 choses à faire à Saint-Jean-de-Luz (la baie basque et le mariage de Louis XIV)",
-    metaTitle: "10 choses à faire à Saint-Jean-de-Luz 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Jean-de-Luz 2026 — activités et sorties",
     metaDesc: "Plage de la Grande Plage, église Saint-Jean-Baptiste, Espelette, Sare et corniche basque : 10 activités à Saint-Jean-de-Luz pour découvrir la côte basque.",
     category: "tourisme",
     emoji: "🌊",
@@ -31918,7 +31918,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-paul-de-vence-2026",
     title: "10 choses à faire à Saint-Paul-de-Vence (la cité des artistes et la Riviera de l'arrière-pays)",
-    metaTitle: "10 choses à faire à Saint-Paul-de-Vence 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Paul-de-Vence 2026",
     metaDesc: "Cité fortifiée, Fondation Maeght, Colombe d'Or, Vence et villages perchés : 10 activités à Saint-Paul-de-Vence pour découvrir la Riviera des artistes.",
     category: "tourisme",
     emoji: "🎨",
@@ -32276,7 +32276,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cagnes-sur-mer-2026",
     title: "10 choses à faire à Cagnes-sur-Mer (Renoir et l'hippodrome de la Côte d'Azur)",
-    metaTitle: "10 choses à faire à Cagnes-sur-Mer 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cagnes-sur-Mer 2026 — activités et sorties",
     metaDesc: "Musée Renoir, Haut-de-Cagnes médiéval, hippodrome de la Côte d'Azur, Vence et Saint-Paul-de-Vence : 10 activités à Cagnes-sur-Mer pour découvrir la commune où vécut Renoir.",
     category: "tourisme",
     emoji: "🎨",
@@ -32336,7 +32336,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-raphael-2026",
     title: "10 choses à faire à Saint-Raphaël (l'Estérel rouge et la baie d'Agay)",
-    metaTitle: "10 choses à faire à Saint-Raphaël 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Raphaël 2026 — activités et sorties",
     metaDesc: "Massif de l'Estérel, baie d'Agay, port de plaisance, Fréjus et Cannes : 10 activités à Saint-Raphaël pour découvrir la côte d'Esterel rouge.",
     category: "tourisme",
     emoji: "🏝️",
@@ -32692,7 +32692,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-porto-vecchio-2026",
     title: "10 choses à faire à Porto-Vecchio (les plages turquoise et l'Alta Rocca)",
-    metaTitle: "10 choses à faire à Porto-Vecchio 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Porto-Vecchio 2026 — activités et sorties",
     metaDesc: "Plage de Palombaggia, Santa-Giulia, Bonifacio, Alta Rocca et marais salants : 10 activités à Porto-Vecchio pour découvrir le sud-est de la Corse.",
     category: "tourisme",
     emoji: "🏝️",
@@ -33343,7 +33343,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montbeliard-2026",
     title: "10 choses à faire à Montbéliard (le château des Württemberg et l'Alsace francophone)",
-    metaTitle: "10 choses à faire à Montbéliard 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Montbéliard 2026 — activités et sorties",
     metaDesc: "Château, Lumières de Noël, musée Peugeot, vallée de la Loue et Sochaux : 10 activités à Montbéliard pour découvrir le nord du Doubs.",
     category: "tourisme",
     emoji: "🎄",
@@ -33768,7 +33768,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-pres-aeroport-france-bruit-aerien-2026",
     title: "Vivre près d'un aéroport en France 2026 — bruit aérien, PEB, décote, où regarder vraiment",
-    metaTitle: "Vivre près d'un aéroport 2026 : PEB, bruit, décote — guide honnête",
+    metaTitle: "Vivre près d'un aéroport 2026 : PEB, bruit, décote",
     metaDesc:
       "Vivre près d'un aéroport en France 2026 : zones PEB A à D, niveaux Lden réels, couloirs d'approche, décote immobilière, vols de nuit, à vérifier avant achat.",
     category: "lifestyle",
@@ -33990,7 +33990,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bordeaux-2026",
     title: "Vivre à Bordeaux en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Bordeaux 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Bordeaux 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Bordeaux en 2026 : quartiers où chercher, budget réel, marché de l'emploi, océan à 50 min. Le guide honnête, effet TGV compris.",
     category: "lifestyle",
     emoji: "🍷",
@@ -34037,7 +34037,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-toulouse-2026",
     title: "Vivre à Toulouse en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Toulouse 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Toulouse 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Toulouse en 2026 : quartiers, budget réel, Airbus et l'emploi tech, Pyrénées à 1h30. Le guide honnête de la Ville Rose.",
     category: "lifestyle",
     emoji: "🌹",
@@ -34083,7 +34083,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-nantes-2026",
     title: "Vivre à Nantes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Nantes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Nantes 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Nantes en 2026 : quartiers, budget réel, emploi diversifié, Atlantique à 50 min. Le guide honnête de la métropole de l'Ouest.",
     category: "lifestyle",
     emoji: "🐘",
@@ -34130,7 +34130,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-montpellier-2026",
     title: "Vivre à Montpellier en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Montpellier 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Montpellier 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Montpellier en 2026 : quartiers, budget réel, la mer à 12 km, et les limites du marché de l'emploi. Le guide honnête de la métropole méditerranéenne.",
     category: "lifestyle",
     emoji: "☀️",
@@ -34176,7 +34176,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-rennes-2026",
     title: "Vivre à Rennes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Rennes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Rennes 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Rennes en 2026 : quartiers, budget réel, le tech breton, Paris en 1h27. Le guide honnête de la capitale bretonne.",
     category: "lifestyle",
     emoji: "🥞",
@@ -34223,7 +34223,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-strasbourg-2026",
     title: "Vivre à Strasbourg en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Strasbourg 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Strasbourg 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Strasbourg en 2026 : quartiers, budget réel, institutions européennes, vélo roi et frontière allemande. Le guide honnête de la capitale alsacienne.",
     category: "lifestyle",
     emoji: "🥨",
@@ -34315,7 +34315,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-marseille-2026",
     title: "Vivre à Marseille en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Marseille 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Marseille 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Marseille en 2026 : quartiers qui fonctionnent, budget réel, mer et calanques au quotidien, et les sujets que la ville ne cache même pas. Guide honnête.",
     category: "lifestyle",
     emoji: "⛵",
@@ -34407,7 +34407,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-grenoble-2026",
     title: "Vivre à Grenoble en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Grenoble 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Grenoble 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Grenoble en 2026 : quartiers, budget réel, pôle tech mondial, trois massifs à 45 min. Le guide honnête de la capitale des Alpes.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -34453,7 +34453,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-angers-2026",
     title: "Vivre à Angers en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Angers 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Angers 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Angers en 2026 : quartiers, budget réel, la douceur angevine chiffrée, Nantes à 50 min et Paris à 1h30. Le guide honnête.",
     category: "lifestyle",
     emoji: "🌿",
@@ -34683,7 +34683,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-clermont-ferrand-2026",
     title: "Vivre à Clermont-Ferrand en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Clermont-Ferrand 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Clermont-Ferrand 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Clermont-Ferrand en 2026 : quartiers, budget réel, Michelin, les volcans à 20 min. Le guide honnête de la capitale auvergnate.",
     category: "lifestyle",
     emoji: "🌋",
@@ -34729,7 +34729,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-la-rochelle-2026",
     title: "Vivre à La Rochelle en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à La Rochelle 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à La Rochelle 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à La Rochelle en 2026 : quartiers, budget réel après la surchauffe, l'Atlantique au quotidien et les limites d'une ville de 80 000 habitants. Guide honnête.",
     category: "lifestyle",
     emoji: "⚓",
@@ -34877,7 +34877,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-annecy-2026",
     title: "Vivre à Annecy en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Annecy 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Annecy 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Annecy en 2026 : quartiers, budget réel (la ville la plus chère hors Paris), lac, Genève à 40 min. Le guide honnête de la Venise des Alpes.",
     category: "lifestyle",
     emoji: "🏞️",
@@ -35015,7 +35015,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-orleans-2026",
     title: "Vivre à Orléans en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Orléans 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Orléans 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Orléans en 2026 : quartiers, budget réel, Paris à 1h05, la Loire sauvage. Le guide honnête de la porte sud de l'Île-de-France.",
     category: "lifestyle",
     emoji: "🌊",
@@ -35153,7 +35153,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bayonne-2026",
     title: "Vivre à Bayonne en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Bayonne 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Bayonne 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Bayonne en 2026 : quartiers, budget réel du Pays basque, l'océan à 8 km, la pression immobilière. Le guide honnête de la capitale basque.",
     category: "lifestyle",
     emoji: "🔴",
@@ -35245,7 +35245,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-au-havre-2026",
     title: "Vivre au Havre en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre au Havre 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre au Havre 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer au Havre en 2026 : le centre Perret UNESCO, la plage en ville, des prix à 2 000 €/m². Le guide honnête de la ville la plus mal jugée de France.",
     category: "lifestyle",
     emoji: "🚢",
@@ -35291,7 +35291,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-toulon-2026",
     title: "Vivre à Toulon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Toulon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Toulon 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Toulon en 2026 : quartiers, budget réel, plus de soleil que Nice à moitié prix, la rade et le Faron. Le guide honnête du littoral abordable.",
     category: "lifestyle",
     emoji: "☀️",
@@ -35383,7 +35383,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-avignon-2026",
     title: "Vivre à Avignon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Avignon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Avignon 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Avignon en 2026 : intra ou extra-muros, budget réel, le Festival, la Provence sans les prix d'Aix. Le guide honnête de la cité des Papes.",
     category: "lifestyle",
     emoji: "🎭",
@@ -35429,7 +35429,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-perpignan-2026",
     title: "Vivre à Perpignan en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Perpignan 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Perpignan 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Perpignan en 2026 : la Méditerranée la moins chère de France, Barcelone à 1h, le Canigou en vitrine. Le guide honnête de la catalane.",
     category: "lifestyle",
     emoji: "🌅",
@@ -35475,7 +35475,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-besancon-2026",
     title: "Vivre à Besançon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Besançon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Besançon 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Besançon en 2026 : la Boucle du Doubs, Vauban, la Suisse à 1h, des prix doux. Le guide honnête de la capitale comtoise.",
     category: "lifestyle",
     emoji: "🏞️",
@@ -35521,7 +35521,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-limoges-2026",
     title: "Vivre à Limoges en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Limoges 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Limoges 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Limoges en 2026 : la grande ville la moins chère de France (1 600 €/m²), CHU réputé, la campagne limousine. Le guide honnête, sans vernis.",
     category: "lifestyle",
     emoji: "🍽️",
@@ -35567,7 +35567,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-amiens-2026",
     title: "Vivre à Amiens en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Amiens 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Amiens 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Amiens en 2026 : Saint-Leu et les hortillonnages, Paris à 1h05, des prix picards. Le guide honnête de la capitale de la Somme.",
     category: "lifestyle",
     emoji: "🚣",
@@ -35613,7 +35613,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-saint-etienne-2026",
     title: "Vivre à Saint-Étienne en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Saint-Étienne 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Saint-Étienne 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Saint-Étienne en 2026 : la grande ville la moins chère de France avec Limoges, Lyon à 45 min, le Pilat. Le guide honnête du pari stéphanois.",
     category: "lifestyle",
     emoji: "💚",
@@ -35659,7 +35659,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-mulhouse-2026",
     title: "Vivre à Mulhouse en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Mulhouse 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Mulhouse 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Mulhouse en 2026 : Bâle à 30 min et ses salaires suisses, des prix à 1 700 €/m². Le guide honnête de l'équation frontalière la plus rentable de France.",
     category: "lifestyle",
     emoji: "🇨🇭",
@@ -35705,7 +35705,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-colmar-2026",
     title: "Vivre à Colmar en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Colmar 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Colmar 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Colmar en 2026 : la Petite Venise à l'année, la route des vins, 2 millions de touristes. Le guide honnête de la plus belle ville d'Alsace.",
     category: "lifestyle",
     emoji: "🍇",
@@ -35751,7 +35751,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-vannes-2026",
     title: "Vivre à Vannes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Vannes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Vannes 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Vannes en 2026 : le golfe du Morbihan au quotidien, la ville close, des prix bretons hauts. Le guide honnête de la préférée de la Bretagne sud.",
     category: "lifestyle",
     emoji: "⛵",
@@ -35797,7 +35797,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-lorient-2026",
     title: "Vivre à Lorient en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Lorient 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Lorient 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Lorient en 2026 : la capitale de la voile à -30 % de Vannes, la rade, Groix en face. Le guide honnête du port de travail breton.",
     category: "lifestyle",
     emoji: "🌊",
@@ -35843,7 +35843,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-quimper-2026",
     title: "Vivre à Quimper en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Quimper 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Quimper 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Quimper en 2026 : la capitale de la Cornouaille, la Bretagne la plus bretonne, des prix doux. Le guide honnête de la préfecture du bout de terre.",
     category: "lifestyle",
     emoji: "🦩",
@@ -35889,7 +35889,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-poitiers-2026",
     title: "Vivre à Poitiers en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Poitiers 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Poitiers 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Poitiers en 2026 : Paris en 1h20 pour 2 100 €/m², la ville aux cent clochers, une des plus étudiantes de France. Le guide honnête.",
     category: "lifestyle",
     emoji: "🏛️",
@@ -35935,7 +35935,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-aix-en-provence-2026",
     title: "Vivre à Aix-en-Provence en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Aix-en-Provence 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Aix-en-Provence 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Aix en 2026 : le cours Mirabeau, Sainte-Victoire, des prix à 5 000 €/m². Le guide honnête de la Provence bourgeoise.",
     category: "lifestyle",
     emoji: "⛲",
@@ -35981,7 +35981,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-chambery-2026",
     title: "Vivre à Chambéry en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Chambéry 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Chambéry 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Chambéry en 2026 : les Alpes au prix raisonnable, le lac du Bourget à 15 min, les 3 Vallées à 1h15. Le guide honnête de l'anti-Annecy.",
     category: "lifestyle",
     emoji: "🐘",
@@ -36027,7 +36027,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-valence-2026",
     title: "Vivre à Valence en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Valence 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Valence 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Valence en 2026 : Lyon à 35 min de TGV, la Drôme provençale au sud, des prix doux. Le guide honnête de la porte du Midi.",
     category: "lifestyle",
     emoji: "🍑",
@@ -36073,7 +36073,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-beziers-2026",
     title: "Vivre à Béziers en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Béziers 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Béziers 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Béziers en 2026 : la Méditerranée à 25 km pour 1 500 €/m², le canal du Midi, la feria. Le guide honnête de la moins chère du littoral sud.",
     category: "lifestyle",
     emoji: "🍷",
@@ -36119,7 +36119,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-troyes-2026",
     title: "Vivre à Troyes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Troyes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Troyes 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Troyes en 2026 : le bouchon de champagne médiéval, Paris à 1h30, des prix à 2 000 €/m². Le guide honnête de la belle discrète de l'Aube.",
     category: "lifestyle",
     emoji: "🏘️",
@@ -36165,7 +36165,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bourges-2026",
     title: "Vivre à Bourges en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Bourges 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Bourges 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Bourges en 2026 : capitale européenne de la culture 2028, cathédrale UNESCO, 1 900 €/m² au centre de la France. Le guide honnête du Berry.",
     category: "lifestyle",
     emoji: "🕍",
@@ -36211,7 +36211,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-cherbourg-2026",
     title: "Vivre à Cherbourg en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Cherbourg 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Cherbourg 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Cherbourg en 2026 : la plus grande rade artificielle d'Europe, l'EPR, le Cotentin sauvage, 1 900 €/m². Le guide honnête du bout de presqu'île.",
     category: "lifestyle",
     emoji: "🌦️",
@@ -36257,7 +36257,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-saint-malo-2026",
     title: "Vivre à Saint-Malo en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Saint-Malo 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "Vivre à Saint-Malo 2026 — Quartiers, budget, emploi",
     metaDesc: "S'installer à Saint-Malo en 2026 : la cité corsaire à l'année, les marées record, 4 000 €/m² et 2 millions de touristes. Le guide honnête intra et extra-muros.",
     category: "lifestyle",
     emoji: "🏴‍☠️",
@@ -36947,7 +36947,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "etudiant-a-clermont-ferrand-2026",
     title: "Étudiant à Clermont-Ferrand en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Clermont-Ferrand 2026 — Logement, budget, campus : le guide",
+    metaTitle: "Étudiant à Clermont-Ferrand 2026 — Logement, budget, campus",
     metaDesc: "Étudier à Clermont en 2026 : 36 000 étudiants, loyers doux, les volcans après les cours, Michelin pour les stages. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
@@ -39645,7 +39645,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "famille-a-clermont-ferrand-2026",
     title: "En famille à Clermont-Ferrand en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Clermont-Ferrand 2026 — Quartiers, écoles, budget : le guide",
+    metaTitle: "Famille à Clermont-Ferrand 2026 — Quartiers, écoles, budget",
     metaDesc: "S'installer en famille à Clermont en 2026 : Chamalières ou Beaumont, écoles, budget doux, les volcans en terrain de jeu. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -49792,7 +49792,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-boulogne-billancourt-2026",
     title: "10 choses à faire à Boulogne-Billancourt (jardins d'Albert Kahn, île Seguin et années 1930)",
-    metaTitle: "10 choses à faire à Boulogne-Billancourt 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Boulogne-Billancourt 2026",
     metaDesc: "Musée Albert-Kahn, Seine Musicale sur l'île Seguin, musée des Années Trente, musée Paul-Belmondo, marché Escudier : 10 activités à Boulogne-Billancourt.",
     category: "tourisme",
     emoji: "🌿",
@@ -49853,7 +49853,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-villeurbanne-2026",
     title: "10 choses à faire à Villeurbanne (les Gratte-Ciel, le TNP et l'art contemporain)",
-    metaTitle: "10 choses à faire à Villeurbanne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Villeurbanne 2026 — activités et sorties",
     metaDesc: "Gratte-Ciel de 1934, TNP, Institut d'art contemporain, Le Rize, parc de la Feyssine, usines TASE : 10 activités à Villeurbanne, aux portes de Lyon.",
     category: "tourisme",
     emoji: "🏙️",
@@ -50021,7 +50021,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vacances-celibataire-lyon-2026",
     title: "Vacances célibataire à Lyon en 2026 : sorties, bouchons, quartiers pour un séjour seul·e",
-    metaTitle: "Vacances célibataire Lyon 2026 — Sortir seul·e, bouchons, quartiers",
+    metaTitle: "Vacances célibataire Lyon 2026 — Sortir seul·e, bouchons",
     metaDesc: "Lyon en séjour célibataire : où sortir en semaine, quartiers vivants tous les soirs, se déplacer sans voiture après minuit, éviter le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -50067,7 +50067,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vacances-celibataire-bordeaux-2026",
     title: "Vacances célibataire à Bordeaux en 2026 : bars à vins, quartiers, séjour sans voiture",
-    metaTitle: "Vacances célibataire Bordeaux 2026 — Bars à vins, quartiers, sortir",
+    metaTitle: "Vacances célibataire Bordeaux 2026 — Bars à vins, quartiers",
     metaDesc: "Bordeaux pour un séjour célibataire : bars à vins de Saint-Pierre, quartier des Chartrons, tramway jusqu'à minuit, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -50297,7 +50297,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vacances-celibataire-bayonne-2026",
     title: "Vacances célibataire à Bayonne en 2026 : pintxos, Petit Bayonne, séjour sans voiture",
-    metaTitle: "Vacances célibataire Bayonne 2026 — Pintxos, sortir seul·e, budget",
+    metaTitle: "Vacances célibataire Bayonne 2026 — Pintxos, sortir seul·e",
     metaDesc: "Bayonne en séjour célibataire : bars à pintxos de Petit Bayonne, ambiance basque toute l'année, TGV direct, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -50343,7 +50343,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vacances-celibataire-toulouse-2026",
     title: "Vacances célibataire à Toulouse en 2026 : Carmes, Saint-Cyprien, séjour sans voiture",
-    metaTitle: "Vacances célibataire Toulouse 2026 — Sortir seul·e, quartiers, budget",
+    metaTitle: "Vacances célibataire Toulouse 2026 — Sortir seul·e, quartiers",
     metaDesc: "Toulouse en séjour célibataire : bars des Carmes, ambiance étudiante et rugby toute l'année, métro tardif le week-end, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -50478,7 +50478,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vacances-celibataire-angers-2026",
     title: "Vacances célibataire à Angers en 2026 : Doutre, Cité, séjour sans voiture",
-    metaTitle: "Vacances célibataire Angers 2026 — Sortir seul·e, budget, quartiers",
+    metaTitle: "Vacances célibataire Angers 2026 — Sortir seul·e, budget",
     metaDesc: "Angers en séjour célibataire : ville étudiante vivante toute l'année, Le Chabada, TGV Paris 1h30, tramway récent, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -50568,7 +50568,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vacances-celibataire-dijon-2026",
     title: "Vacances célibataire à Dijon en 2026 : centre historique, bars à vins, séjour sans voiture",
-    metaTitle: "Vacances célibataire Dijon 2026 — Sortir seul·e, budget, quartiers",
+    metaTitle: "Vacances célibataire Dijon 2026 — Sortir seul·e, budget",
     metaDesc: "Dijon en séjour célibataire : centre historique piéton, bars à vins de Bourgogne, TGV Paris 1h30, tramway récent, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",

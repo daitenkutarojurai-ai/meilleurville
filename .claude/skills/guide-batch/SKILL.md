@@ -32,7 +32,7 @@ Deux guides du même lot ne partagent ni phrase d'intro, ni ordre de sections id
 - Pas de contenu « pour l'IA » séparé, pas de bourrage de mots-clés : Google le dit explicitement, le texte s'écrit pour un lecteur humain.
 
 ## 4. Gabarit technique
-- Spec `Guide` en tête de `data/guides.ts` (EN : `data/guides-en.ts`). `metaTitle` ≤ 60 caractères, `metaDesc` ≤ 160, `publishedAt` = `updatedAt` = date du jour, `relatedCities` sur des slugs vérifiés de `CITIES_SEED`, `relatedGuides` sur des slugs qui existent (l'intégrité le vérifie).
+- Spec `Guide` en tête de `data/guides.ts` (EN : `data/guides-en.ts`). `metaTitle` ≤ 60 caractères (`npm run integrity` échoue au-delà de 65, garde `meta-len`), `metaDesc` ≤ 160, `publishedAt` = `updatedAt` = date du jour, `relatedCities` sur des slugs vérifiés de `CITIES_SEED`, `relatedGuides` sur des slugs qui existent (l'intégrité le vérifie).
 - Accents et unités intacts (`€`, `°`, `m²`). Densité d'accents FR > 0,09 (sinon c'est un texte ascii-stripped).
 - EN : anglais natif, pas traduit. Le lecteur s'installe depuis l'étranger : explique CAF, DPE, taxe foncière en une incise. **Mêmes chiffres** que la jumelle FR (alternates hreflang).
 - **Piège CRLF** : le checkout Windows est en CRLF. Un script d'insertion qui cherche `'\n  },\n'` rend -1 et insère en tête de fichier. Détecte `\r\n` d'abord, ou insère avec l'outil Edit à un ancrage exact (le dernier guide de la série).
