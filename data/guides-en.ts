@@ -48377,6 +48377,246 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["solo travel","solo travel cherbourg","travelling alone in france","normandy","port town"],
   },
   {
+    slug: "solo-travel-in-la-roche-sur-yon-2026",
+    title: "Solo travel in La Roche-sur-Yon (2026): a direct TGV, Place Napoléon and a two-room flat at 600 €",
+    metaTitle: "Solo Travel in La Roche-sur-Yon 2026: TGV, Budget",
+    metaDesc: "La Roche-sur-Yon alone: 22.3% aged 15 to 29, direct TGV, a historic centre, a two-room flat at 600 €. A quiet evening scene, the coast within reach.",
+    category: "lifestyle",
+    emoji: "🐎",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "La Roche-sur-Yon has 54,699 residents (INSEE 2022), with 22.3% aged 15 to 29 and 28.6% aged 60 or over. Our profile gives 7.2/10 for cost, 8/10 for safety and 2,000 hours of sunshine a year, and our survey lists a direct TGV. The reference two-room flat is 600 €. It is a calm, well-connected and cheap base, not a town of big nights out.",
+    sections: [
+      {
+        heading: "Why La Roche-sur-Yon: a low budget and a direct train",
+        body: "A studio at 440 €, a two-room flat at 600 € and a purchase price of 2,100 € per square metre (our rent estimate). The cost score is 7.2/10, safety 8/10 and transport 7/10. The town has gained 958 residents since 2016 (+1.8%): it does not empty out in the off-season.",
+      },
+      {
+        heading: "Where to stay: the historic centre",
+        body: "Our district notes cover three areas. The historic centre scores 7/10 for evenings and 7.5/10 for transport, Les Pyramides 6.5 and 7.5, Beaupuy 5.5 and 6.5. To go out on foot, the historic centre: it is also where Place Napoléon and the covered market are.",
+      },
+      {
+        heading: "What to do: the square, the market, then the sea",
+        body: "The landmarks in our tourism guide: Place Napoléon and the pentagon plan of 1804, the mechanical animals, the covered market and the Yon valley. Les Sables-d'Olonne is a day trip; no venue or programme is quoted here.",
+      },
+      {
+        heading: "Off-season life: young without being a student town",
+        body: "With 22.3% aged 15 to 29 and 28.6% aged 60 or over, the town falls under our 32% ceiling. Its evening score of 7/10 is under our 8.0/10 floor: people do go out, but in small numbers, and weeknights will be quieter than Saturday.",
+      },
+      {
+        heading: "Getting around: direct TGV, a centre you can walk",
+        body: "Our survey lists a direct TGV and no tram or metro. The transport score is 7/10; the three documented districts run from 6.5 to 7.5/10. Without a car, the historic-centre base is enough. Night timetables are not in our data: check before you book.",
+      },
+      {
+        heading: "When to go: 21.5 °C in July, 6.5 °C in January",
+        body: "Our profile gives 21.5 °C in July, 6.5 °C in January and 2,000 hours of sunshine. No monthly normals are published here. If the beach is the point, go in summer; for the town alone, the shoulder seasons work.",
+      },
+    ],
+    relatedCities: ["la-roche-sur-yon"],
+    tags: ["solo travel","solo travel la roche-sur-yon","travelling alone in france","vendee","pays de la loire"],
+  },
+  {
+    slug: "solo-travel-in-cholet-2026",
+    title: "Solo travel in Cholet (2026): Puy du Fou, an evening scene in the centre and a two-room flat at 600 €",
+    metaTitle: "Solo Travel in Cholet 2026: Low Budget, Puy du Fou",
+    metaDesc: "Cholet alone: 18.1% aged 15 to 29, a town centre, Lac de Ribou, Puy du Fou 30 km away, a two-room flat at 600 €. No TGV in our survey.",
+    category: "lifestyle",
+    emoji: "🧵",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Cholet has 54,074 residents (INSEE 2022), with 18.1% aged 15 to 29 and 28.8% aged 60 or over. Our profile gives 6.7/10 for cost, 7.1/10 for safety and 1,900 hours of sunshine a year. The reference two-room flat is 600 €. Our survey lists no TGV or tram: it is a cheap base for reaching the Puy du Fou and the Mauges, with a single centre to go out in.",
+    sections: [
+      {
+        heading: "Why Cholet: the cost of a mid-sized town, no crowd effect",
+        body: "A studio at 440 €, a two-room flat at 600 € and a purchase price of 1,900 € per square metre. The cost score is 6.7/10 and safety 7.1/10. Culture is 5.7/10: the counterpoint is stated, this is not a town of big stages.",
+      },
+      {
+        heading: "Where to stay: the town centre, not Maulévrier",
+        body: "Our district notes cover three areas. The town centre scores 7/10 for evenings and 8/10 for transport. La Vallée scores 4.5 for evenings, Maulévrier 3. To go out on foot, the town centre; Maulévrier is a countryside stay.",
+      },
+      {
+        heading: "What to do: museums, a lake and a theme park",
+        body: "The landmarks in our tourism guide: the Art and History museum, the Textile and Fashion museum, Lac de Ribou, the oriental park at Maulévrier and, 30 km away, the Puy du Fou. No venue or programme is quoted here.",
+      },
+      {
+        heading: "Off-season life: stable, not student",
+        body: "With 18.1% aged 15 to 29 and 28.8% aged 60 or over, the town falls under our 32% ceiling, but its share of young people is on the low side. The population has barely moved since 2016 (+0.7%). The evening score of 7/10 is under our 8.0/10 floor: expect quiet weeknights.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "The transport score is 6.2/10 and our survey lists no TGV, tram or metro. The town centre scores 8/10. Check before you book: the rail link and night timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 22 °C in July, 5 °C in January",
+        body: "Our profile gives 22 °C in July, 5 °C in January and 1,900 hours of sunshine. No monthly normals are published here. Summer for Lac de Ribou and the Puy du Fou; off-season the town stays open but discreet.",
+      },
+    ],
+    relatedCities: ["cholet"],
+    tags: ["solo travel","solo travel cholet","travelling alone in france","maine-et-loire","pays de la loire"],
+  },
+  {
+    slug: "solo-travel-in-bourg-en-bresse-2026",
+    title: "Solo travel in Bourg-en-Bresse (2026): a direct TGV, the Brou monastery and a two-room flat at 630 €",
+    metaTitle: "Solo Travel in Bourg-en-Bresse 2026: TGV, Brou",
+    metaDesc: "Bourg-en-Bresse alone: 20.6% aged 15 to 29, direct TGV, the Brou monastery, a two-room flat at 630 €. Lyon is 70 km away for bigger nights.",
+    category: "lifestyle",
+    emoji: "🐓",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Bourg-en-Bresse has 42,065 residents (INSEE 2022), with 20.6% aged 15 to 29 and 28.3% aged 60 or over. Our profile gives 6.6/10 for culture, 6.7/10 for transport and 1,850 hours of sunshine a year, and our survey lists a direct TGV. The reference two-room flat is 630 €. A well-connected mid-sized town, with Lyon 70 km away when you want a bigger scale.",
+    sections: [
+      {
+        heading: "Why Bourg: culture before cost",
+        body: "A studio at 450 €, a two-room flat at 630 € and a purchase price of 2,300 € per square metre. Culture is 6.6/10, cost 5.9/10. The counterpoint is stated: safety is only 5.5/10 in our profile.",
+      },
+      {
+        heading: "Where to stay: the town centre",
+        body: "Our district notes cover three areas. The town centre scores 7/10 for evenings and 7.5/10 for transport. Châtenoy scores 4 for evenings, the Brou district 5. To go out on foot, the town centre; Brou suits the monastery, less so the evening.",
+      },
+      {
+        heading: "What to do: Brou, the Bresse, the Dombes",
+        body: "The landmarks in our tourism guide: the royal monastery of Brou, the Dombes and its ponds, Pérouges, the poultry market at Louhans and the Christmas poultry fair. Lyon is listed at 70 km. No venue or programme is quoted here.",
+      },
+      {
+        heading: "Off-season life: young without being a student town",
+        body: "With 20.6% aged 15 to 29 and 28.3% aged 60 or over, the town falls under our 32% ceiling. The population has gained 700 residents since 2016 (+1.7%). The evening score of 7/10 is under our 8.0/10 floor: a quiet town off-season.",
+      },
+      {
+        heading: "Getting around: direct TGV, no tram",
+        body: "Our survey lists a direct TGV and no tram or metro. The transport score is 6.7/10. The centre, at 7.5/10, can be walked; night timetables and the journey time to Lyon are not in our data.",
+      },
+      {
+        heading: "When to go: 22 °C in July, 2.5 °C in January",
+        body: "Our profile gives 22 °C in July, 2.5 °C in January and 1,850 hours of sunshine. No monthly normals are published here. Winter is sharp; late summer and autumn are the most comfortable for Brou and the Dombes.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse"],
+    tags: ["solo travel","solo travel bourg-en-bresse","travelling alone in france","ain","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "solo-travel-in-blois-2026",
+    title: "Solo travel in Blois (2026): a château, the Loire by bike and a two-room flat at 610 €",
+    metaTitle: "Solo Travel in Blois 2026: Château, Loire by Bike",
+    metaDesc: "Blois alone: 21.1% aged 15 to 29, culture 7.3/10, a royal château, the Loire by bike, a two-room flat at 610 €. No TGV in our survey.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Blois has 47,092 residents (INSEE 2022), with 21.1% aged 15 to 29 and 25.9% aged 60 or over. Our profile gives 7.3/10 for culture, 6.4/10 for cost and 1,850 hours of sunshine a year. The reference two-room flat is 610 €. Our survey lists no TGV or tram. It is a culture-led base, and its share of residents aged 60 or over is the lowest among the towns in this series' latest round.",
+    sections: [
+      {
+        heading: "Why Blois: culture and a reasonable budget",
+        body: "A studio at 440 €, a two-room flat at 610 € and a purchase price of 2,100 € per square metre. Culture is 7.3/10, cost 6.4/10. The counterpoint is stated: safety is only 5.3/10 and transport 5.5/10.",
+      },
+      {
+        heading: "Where to stay: Centre-Château",
+        body: "Our district notes cover three areas. Centre-Château scores 7/10 for evenings and 8/10 for transport. Vienne scores 5 and 7.5, Blois-Sud 4 and 7. To go out on foot, the centre, at the foot of the château.",
+      },
+      {
+        heading: "What to do: the château, the old town, the Loire by bike",
+        body: "The landmarks in our tourism guide: the royal château, the old town and its stairways, the Loire by bike towards Amboise, Chambord, Cheverny and Chaumont-sur-Loire. The troglodyte caves are listed. No venue or programme is quoted here.",
+      },
+      {
+        heading: "Off-season life: a growing town",
+        body: "With 21.1% aged 15 to 29 and 25.9% aged 60 or over, the older share is modest. The population has gained 1,405 residents since 2016 (+3.1%). The evening score of 7/10 is under our 8.0/10 floor: quiet on weeknights.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "The transport score is 5.5/10 and our survey lists no TGV, tram or metro. The centre can be walked. Check before you book: the rail link and night timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 21.5 °C in July, 4 °C in January",
+        body: "Our profile gives 21.5 °C in July, 4 °C in January and 1,850 hours of sunshine. No monthly normals are published here. The châteaux and the Loire by bike work from late spring to autumn.",
+      },
+    ],
+    relatedCities: ["blois"],
+    tags: ["solo travel","solo travel blois","travelling alone in france","loire valley","centre-val de loire"],
+  },
+  {
+    slug: "solo-travel-in-chalon-sur-saone-2026",
+    title: "Solo travel in Chalon-sur-Saône (2026): Niépce, the Saône quays and a two-room flat at 550 €",
+    metaTitle: "Solo Travel in Chalon-sur-Saône 2026: Niépce, Budget",
+    metaDesc: "Chalon-sur-Saône alone: 19.9% aged 15 to 29, a town centre, the Niépce museum, the Saône quays, a two-room flat at 550 €. No TGV in our survey.",
+    category: "lifestyle",
+    emoji: "📷",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Chalon-sur-Saône has 44,592 residents (INSEE 2022), with 19.9% aged 15 to 29 and 29.7% aged 60 or over. Our profile gives 7.2/10 for cost, 6.2/10 for culture and 1,900 hours of sunshine a year. The reference two-room flat is 550 €. The town has lost 854 residents since 2016 and our survey lists no TGV or tram: a low-budget base for the Côte Chalonnaise.",
+    sections: [
+      {
+        heading: "Why Chalon: a low budget in Burgundy",
+        body: "A studio at 400 €, a two-room flat at 550 € and a purchase price of 1,700 € per square metre. The cost score is 7.2/10, culture 6.2/10. The counterpoint is stated: safety is 5.2/10 in our profile.",
+      },
+      {
+        heading: "Where to stay: the town centre",
+        body: "Our district notes cover three areas. The town centre scores 7/10 for evenings and 8/10 for transport. Les Bords de Saône score 5 and 7, Saint-Jean-des-Vignes 4 and 6.5. To go out on foot, the town centre; the quays suit daytime.",
+      },
+      {
+        heading: "What to do: Niépce, quays, greenway, vineyards",
+        body: "The landmarks in our tourism guide: the Nicéphore Niépce museum, Île Saint-Laurent and the Saône quays, the Chalon-Mâcon greenway, the Côte Chalonnaise, Tournus and Cluny. The carnival and the Chalon dans la Rue festival are listed without dates; no programme is quoted here.",
+      },
+      {
+        heading: "Off-season life: stable but shrinking",
+        body: "With 19.9% aged 15 to 29 and 29.7% aged 60 or over, the town falls under our 32% ceiling. The population is down 1.9% since 2016. The evening score of 7/10 is under our 8.0/10 floor: outside festivals, the town is quiet.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "The transport score is 6.2/10 and our survey lists no TGV, tram or metro. The town centre can be walked. Check before you book: the rail link and night timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 22.5 °C in July, 3 °C in January",
+        body: "Our profile gives 22.5 °C in July, 3 °C in January and 1,900 hours of sunshine. No monthly normals are published here. Confirm festival dates with the tourist office before you book.",
+      },
+    ],
+    relatedCities: ["chalon-sur-saone"],
+    tags: ["solo travel","solo travel chalon-sur-saone","travelling alone in france","burgundy","saone-et-loire"],
+  },
+  {
+    slug: "solo-travel-in-charleville-mezieres-2026",
+    title: "Solo travel in Charleville-Mézières (2026): puppets, Place Ducale and a two-room flat at 520 €",
+    metaTitle: "Solo Travel in Charleville-Mézières 2026: Budget",
+    metaDesc: "Charleville-Mézières alone: 18.6% aged 15 to 29, Place Ducale, the Rimbaud museum, a two-room flat at 520 €. No TGV in our survey.",
+    category: "lifestyle",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Charleville-Mézières has 45,634 residents (INSEE 2022), with 18.6% aged 15 to 29 and 29.5% aged 60 or over. Our profile gives 8.5/10 for cost, 7.1/10 for nature and 1,640 hours of sunshine a year. The reference two-room flat is 520 €. The town has lost 1,048 residents since 2016 and our survey lists no TGV or tram: a very cheap stay, at the price of a quiet winter.",
+    sections: [
+      {
+        heading: "Why Charleville-Mézières: a very low budget",
+        body: "A studio at 380 €, a two-room flat at 520 € and a purchase price of 1,300 € per square metre. The cost score of 8.5/10 is the headline, nature scores 7.1/10. The counterpoint is stated: 5.5/10 for transport and for city life, 5.7/10 for safety.",
+      },
+      {
+        heading: "Where to stay: Place Ducale",
+        body: "Our district notes cover three areas. Place Ducale scores 7/10 for evenings and 7.5/10 for transport, Mézières 5.5 and 7.5, Mohon 5 and 7. To go out on foot, Place Ducale.",
+      },
+      {
+        heading: "What to do: Rimbaud, puppets, the Meuse",
+        body: "The landmarks in our tourism guide: Place Ducale, the Rimbaud museum, the World Puppet Theatre Festival, the Meuse valley and its greenway, and the fortress of Sedan. Festival dates are not quoted here.",
+      },
+      {
+        heading: "Off-season life: calm and shrinking",
+        body: "With 18.6% aged 15 to 29 and 29.5% aged 60 or over, the town falls under our 32% ceiling. The population is down 2.2% since 2016. The evening score of 7/10 is under our 8.0/10 floor: outside the festival, very quiet.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "The transport score is 5.5/10 and our survey lists no TGV, tram or metro. Place Ducale and Mézières both score 7.5/10. Check before you book: the rail link and night timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 20.5 °C in July, 2.5 °C in January",
+        body: "Our profile gives 20.5 °C in July, 2.5 °C in January and 1,640 hours of sunshine, on the low side. No monthly normals are published here. Late spring and summer are the most comfortable for the Meuse.",
+      },
+    ],
+    relatedCities: ["charleville-mezieres"],
+    tags: ["solo travel","solo travel charleville-mezieres","travelling alone in france","ardennes","grand est"],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",

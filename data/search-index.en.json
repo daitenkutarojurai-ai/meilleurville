@@ -9147,6 +9147,36 @@
       "emoji": "⚓"
     },
     {
+      "slug": "solo-travel-in-la-roche-sur-yon-2026",
+      "title": "Solo travel in La Roche-sur-Yon (2026): a direct TGV, Place Napoléon and a two-room flat at 600 €",
+      "emoji": "🐎"
+    },
+    {
+      "slug": "solo-travel-in-cholet-2026",
+      "title": "Solo travel in Cholet (2026): Puy du Fou, an evening scene in the centre and a two-room flat at 600 €",
+      "emoji": "🧵"
+    },
+    {
+      "slug": "solo-travel-in-bourg-en-bresse-2026",
+      "title": "Solo travel in Bourg-en-Bresse (2026): a direct TGV, the Brou monastery and a two-room flat at 630 €",
+      "emoji": "🐓"
+    },
+    {
+      "slug": "solo-travel-in-blois-2026",
+      "title": "Solo travel in Blois (2026): a château, the Loire by bike and a two-room flat at 610 €",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "solo-travel-in-chalon-sur-saone-2026",
+      "title": "Solo travel in Chalon-sur-Saône (2026): Niépce, the Saône quays and a two-room flat at 550 €",
+      "emoji": "📷"
+    },
+    {
+      "slug": "solo-travel-in-charleville-mezieres-2026",
+      "title": "Solo travel in Charleville-Mézières (2026): puppets, Place Ducale and a two-room flat at 520 €",
+      "emoji": "🎭"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -10659,14 +10689,14 @@
       "count": 99
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 95
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 94
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 95
     },
     {
       "slug": "occitanie",
@@ -10681,17 +10711,17 @@
     {
       "slug": "solo-travel",
       "label": "solo travel",
-      "count": 80
+      "count": 86
     },
     {
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
-      "count": 80
+      "count": 86
     },
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 79
+      "count": 80
     },
     {
       "slug": "hauts-de-france",
@@ -10734,6 +10764,11 @@
       "count": 60
     },
     {
+      "slug": "pays-de-la-loire",
+      "label": "pays de la loire",
+      "count": 58
+    },
+    {
       "slug": "brittany",
       "label": "brittany",
       "count": 57
@@ -10742,11 +10777,6 @@
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 57
-    },
-    {
-      "slug": "pays-de-la-loire",
-      "label": "pays de la loire",
-      "count": 56
     },
     {
       "slug": "real-estate",
@@ -10774,14 +10804,14 @@
       "count": 45
     },
     {
-      "slug": "provence-alpes-cote-d-azur",
-      "label": "provence-alpes-cote-d-azur",
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
       "count": 39
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 38
+      "slug": "provence-alpes-cote-d-azur",
+      "label": "provence-alpes-cote-d-azur",
+      "count": 39
     },
     {
       "slug": "working-in-france",
@@ -10804,19 +10834,19 @@
       "count": 23
     },
     {
+      "slug": "burgundy",
+      "label": "burgundy",
+      "count": 20
+    },
+    {
       "slug": "alsace",
       "label": "alsace",
       "count": 19
     },
     {
-      "slug": "burgundy",
-      "label": "burgundy",
-      "count": 19
-    },
-    {
       "slug": "loire-valley",
       "label": "loire valley",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "reunion",
@@ -11391,6 +11421,11 @@
     {
       "slug": "vannes",
       "label": "vannes",
+      "count": 3
+    },
+    {
+      "slug": "vendee",
+      "label": "vendee",
       "count": 3
     },
     {
