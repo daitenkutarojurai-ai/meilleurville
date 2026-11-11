@@ -36,6 +36,8 @@ const PODIUM_AXES = [
 ] as const;
 
 export default function EnLeaderboardPage() {
+  // Rows rendered in the table; the remaining ranks go in a compact list below it.
+  const TABLE_ROWS = 100;
   const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
   const podium = sorted.slice(0, 3);
   const avg = sorted.reduce((s, c) => s + c.scores.global, 0) / sorted.length;
@@ -145,7 +147,7 @@ export default function EnLeaderboardPage() {
                 </tr>
               </thead>
               <tbody>
-                {sorted.map((city, i) => (
+                {sorted.slice(0, TABLE_ROWS).map((city, i) => (
                   <tr
                     key={city.slug}
                     className={`border-b border-[var(--border)] last:border-0 transition-colors hover:bg-[var(--bg-elevated)] ${
@@ -177,6 +179,25 @@ export default function EnLeaderboardPage() {
               </tbody>
             </table>
           </div>
+          {/* Ranks beyond the table: two tags a row (li + a) instead of ten, no JS.
+              The full table used to render every row — the heaviest part of the page. */}
+          {sorted.length > TABLE_ROWS && (
+            <details className="mt-4 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]">
+              <summary className="cursor-pointer px-4 py-3 text-sm font-semibold text-[var(--text-primary)]">
+                Ranks {TABLE_ROWS + 1} to {sorted.length}
+              </summary>
+              <ol
+                start={TABLE_ROWS + 1}
+                className="list-inside list-decimal columns-1 gap-x-6 px-4 pb-4 text-sm text-[var(--text-tertiary)] marker:text-xs sm:columns-2 lg:columns-3 [&_a]:inline-block [&_a]:py-1 [&_a]:text-[var(--text-primary)] [&_a:hover]:text-[var(--accent)]"
+              >
+                {sorted.slice(TABLE_ROWS).map((city) => (
+                  <li key={city.slug}>
+                    <Link href={`/cities/${city.slug}`}>{city.name}</Link> {city.scores.global.toFixed(1)}
+                  </li>
+                ))}
+              </ol>
+            </details>
+          )}
         </div>
 
         {/* Stats strip */}

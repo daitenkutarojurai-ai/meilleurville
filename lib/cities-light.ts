@@ -26,6 +26,17 @@ export const MAP_CITIES: MapCity[] = CITIES_LIGHT.map(
   ({ slug, name, region, latitude, longitude, population, scores }) => ({ slug, name, region, latitude, longitude, population, scores })
 );
 
+// Core projection for the client surfaces that only render a name, a region and
+// the nine scores (LeaderboardTable, CompareTool). Passing CITIES_LIGHT put
+// 277 kB of JSON in the page for those four fields (characterTags alone is
+// 52 kB); this one is ~118 kB. A component that starts reading another field
+// fails `tsc` here rather than silently shipping `undefined`.
+export type CityCore = Pick<CityLight, "slug" | "name" | "region" | "scores">;
+
+export const CITIES_CORE: CityCore[] = CITIES_LIGHT.map(
+  ({ slug, name, region, scores }) => ({ slug, name, region, scores })
+);
+
 // Metropolitan-bbox subset (excludes DROM) — for the climate timelapse map.
 export const CITIES_LIGHT_METRO: CityLight[] = CITIES_LIGHT.filter(
   (c) => c.longitude >= -6 && c.longitude <= 10 && c.latitude >= 40 && c.latitude <= 52,

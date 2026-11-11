@@ -7,7 +7,7 @@ import { AmbientBackground } from "@/components/AmbientBackground";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { LeaderboardTable } from "@/components/LeaderboardTable";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { CITIES_LIGHT, RENT_T2_BY_SLUG } from "@/lib/cities-light";
+import { CITIES_CORE, RENT_T2_BY_SLUG } from "@/lib/cities-light";
 import { scoreColor as scoreClass } from "@/lib/utils";
 import { pathAlternates } from "@/lib/i18n";
 
@@ -128,7 +128,7 @@ export default function LeaderboardPage() {
           <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">
             Classement complet — {sorted.length} villes
           </h2>
-          <LeaderboardTable cities={CITIES_LIGHT} rentT2BySlug={RENT_T2_BY_SLUG} />
+          <LeaderboardTable cities={CITIES_CORE} rentT2BySlug={RENT_T2_BY_SLUG} />
           {/* Le tableau ne rend que ses 100 premières lignes (le reste au clic).
               Cet index garde un lien HTML vers chaque ville, rang et note
               compris, lisible sans JavaScript et par les robots. */}

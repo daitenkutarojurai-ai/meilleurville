@@ -1,13 +1,13 @@
 "use client";
 import { useState, useMemo, useRef, useEffect } from "react";
 import { Plus, X, Search, MapPin } from "lucide-react";
-import type { CityLight } from "@/lib/cities-light";
+import type { CityCore } from "@/lib/cities-light";
 import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { cn, scoreColor } from "@/lib/utils";
 import Link from "@/components/AppLink";
 
-type CitySeed = CityLight;
+type CitySeed = CityCore;
 type Locale = "fr" | "en";
 
 const SCORE_ROWS: Array<{ key: keyof CitySeed["scores"]; label: string; labelEn: string; emoji: string }> = [
@@ -33,7 +33,7 @@ function CityPicker({
   colorClass,
   locale,
 }: {
-  allCities: CityLight[];
+  allCities: CityCore[];
   selected: CitySeed | null;
   onSelect: (c: CitySeed | null) => void;
   exclude: string[];
@@ -138,7 +138,7 @@ export function CompareTool({
   locale = "fr",
   cities: allCities,
   headingLevel = "h1",
-}: { locale?: Locale; cities: CityLight[]; headingLevel?: "h1" | "h2" }) {
+}: { locale?: Locale; cities: CityCore[]; headingLevel?: "h1" | "h2" }) {
   const Heading = headingLevel;
   const t = (fr: string, en: string) => (locale === "en" ? en : fr);
   const cityHref = (slug: string) => (locale === "en" ? `/cities/${slug}` : `/villes/${slug}`);

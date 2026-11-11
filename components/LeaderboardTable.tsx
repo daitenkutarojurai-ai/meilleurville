@@ -1,7 +1,7 @@
 "use client";
 import { useState, useMemo } from "react";
 import Link from "@/components/AppLink";
-import type { CityLight } from "@/lib/cities-light";
+import type { CityCore } from "@/lib/cities-light";
 import { cn, scoreColor as scoreClass } from "@/lib/utils";
 
 const MEDAL = ["🥇", "🥈", "🥉"];
@@ -17,7 +17,7 @@ const CRITERIA = [
   { key: "schools" as const, label: "Écoles" },
 ];
 
-type SortKey = "global" | keyof CityLight["scores"];
+type SortKey = "global" | keyof CityCore["scores"];
 
 // Le tableau rendait ses 593 lignes d'un coup (10 669 balises, 1,0 Mo de balisage,
 // HTML statique compris). Seules les INITIAL_VISIBLE premières sont rendues ; le
@@ -32,7 +32,7 @@ export function LeaderboardTable({
   cities,
   rentT2BySlug,
 }: {
-  cities: CityLight[];
+  cities: CityCore[];
   rentT2BySlug: Record<string, number>;
 }) {
   const [region, setRegion] = useState("Toutes");

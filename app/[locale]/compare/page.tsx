@@ -3,7 +3,7 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { CITIES_LIGHT } from "@/lib/cities-light";
+import { CITIES_CORE } from "@/lib/cities-light";
 import { pathAlternatesEn } from "@/lib/i18n";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { CompareTool } from "@/app/comparer/CompareTool";
@@ -32,7 +32,7 @@ export default function EnCompareIndex() {
     <main id="main-content" className="min-h-screen">
       <Navbar />
       {/* Interactive picker (parity with FR /comparer) — provides the page h1. */}
-      <CompareTool locale="en" cities={CITIES_LIGHT} />
+      <CompareTool locale="en" cities={CITIES_CORE} />
       <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-4 text-center">
         <Link
           href="/compare-regions"
