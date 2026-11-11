@@ -22,8 +22,8 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: `Overall ranking 2026 · Best quality of life in France across all dimensions`,
-  description: `National ranking of ${CITIES_COUNT} French cities across 8 data dimensions (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services). Top 30 most favourable profiles vs top 20 most strained.`,
+  title: "Overall ranking 2026 · Best quality of life in France",
+  description: `National ranking of ${CITIES_COUNT} French cities across 8 dimensions: environment, healthcare, jobs, quality of life, cycling, safety, demographics, services.`,
   alternates: pathAlternatesEn("/palmares", "/overall-ranking"),
 };
 

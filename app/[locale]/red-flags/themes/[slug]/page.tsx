@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { RED_FLAG_THEMES } from "@/lib/red-flag-themes";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -33,7 +34,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-regrets-achat",
     emoji: "💸",
     title: "Cities you'll regret buying in",
-    metaTitle: "Cities you'll regret buying in 2026 — Where property isn't worth the price",
+    metaTitle: "Cities you'll regret buying in · France 2026",
     metaDescription:
       "Top cities where the purchase price (DVF data) significantly exceeds actual quality of life. Global score, median €/m², climate. Every city in our calibrated dataset.",
     intro:
@@ -48,7 +49,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-sans-voiture-difficile",
     emoji: "🚗",
     title: "Cities where living car-free is genuinely hard",
-    metaTitle: "Car-dependent cities 2026 — Where the 'bike-friendly' pitch doesn't hold up",
+    metaTitle: "Car-dependent French cities 2026 · Hard without a car",
     metaDescription:
       "French cities over 30,000 where living without a car is still complicated: no tram, limited rail service. Car-free score calibrated on transport network + density.",
     intro:
@@ -63,7 +64,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-belles-invivables-ete",
     emoji: "🥵",
     title: "Beautiful cities… that are unbearable in summer",
-    metaTitle: "Unbearable summers 2026 — Beautiful on Instagram, suffocating in July",
+    metaTitle: "Unbearable summers 2026 · Beautiful but suffocating cities",
     metaDescription:
       "French cities that look great in photos but swelter in summer: heatwaves, mass tourism, average July temperatures ≥ 27 °C. Based on Météo-France 1991-2020 climatology.",
     intro:
@@ -78,9 +79,9 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-pollution-air-chronique",
     emoji: "🌫️",
     title: "Cities with chronically bad air in winter",
-    metaTitle: "Chronic air pollution 2026 — French cities with highest winter PM2.5",
+    metaTitle: "Air pollution 2026 · French cities with the highest PM2.5",
     metaDescription:
-      "2026 ranking of French cities chronically exceeding WHO air quality thresholds: Alpine valleys (thermal inversion), Paris basin NO₂, Rhône corridor, industrial ports. Source: ATMO France PM2.5.",
+      "2026 ranking of French cities chronically above WHO air quality limits: Alpine valleys, Paris basin, Rhône corridor, industrial ports. Source: ATMO France.",
     intro:
       "The estate agent highlights the Alpine views or the Haussmann boulevards. Nobody mentions the thick January–February fog when thermal inversion traps fine particles in the valley, or the chronic NO₂ alerts along the Paris ring road.",
     reality:
@@ -93,7 +94,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-risques-naturels",
     emoji: "⚠️",
     title: "Cities most exposed to natural hazards",
-    metaTitle: "Natural hazards 2026 — Most exposed French cities (flood, clay, wildfire, seismic)",
+    metaTitle: "Natural hazards 2026 · Most exposed French cities",
     metaDescription:
       "2026 ranking of French cities with the highest composite across 4 hazards: flooding, clay shrink-swell (BRGM), wildfire (ONF/ECASC), seismics (2011 zoning). Open data: Géorisques.",
     intro:
@@ -108,7 +109,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-bruit-cauchemar",
     emoji: "🔊",
     title: "Cities where noise is a daily nightmare",
-    metaTitle: "Noise nightmare 2026 — Most noise-exposed French cities (road, air, night)",
+    metaTitle: "Noisiest cities in France · 2026 ranking",
     metaDescription:
       "2026 ranking of French cities where noise compounds saturated road traffic, airport overflights (PEB zones), high-speed rail and nightlife. Aggregate composite from CBS / DGAC / Bruitparif.",
     intro:
@@ -123,7 +124,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-sans-eau-ete",
     emoji: "💧",
     title: "Cities facing water shortages every summer",
-    metaTitle: "Water stress 2026 — French cities with the highest summer drought risk",
+    metaTitle: "Water stress 2026 · French cities most at risk of drought",
     metaDescription:
       "2026 ranking of French cities with recurring drought: near-annual Propluvia crisis orders, low BRGM groundwater levels, drinking water supply under pressure. Aggregate composite.",
     intro:
@@ -138,7 +139,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-desert-medical",
     emoji: "🩺",
     title: "Cities with critical healthcare access problems",
-    metaTitle: "Medical deserts 2026 — French cities below the GP shortage threshold",
+    metaTitle: "Medical deserts 2026 · French cities short of GPs",
     metaDescription:
       "French cities over 10,000 below the official GP shortage threshold (DREES APL 2024 under 2.5 visits a year per resident) — most of them in the Paris suburbs.",
     intro:
@@ -153,7 +154,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-chomage-eleve",
     emoji: "📉",
     title: "Cities with chronically weak job markets",
-    metaTitle: "Chronic unemployment 2026 — French cities with the most distressed labour markets",
+    metaTitle: "Unemployment 2026 · French cities with weak job markets",
     metaDescription:
       "French cities over 15,000 combining high unemployment, shrinking local jobs and low pay, measured town by town by INSEE: Sedan, Bruay-la-Buissière…",
     intro:
@@ -168,9 +169,9 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-cadre-de-vie-tendu",
     emoji: "😓",
     title: "Cities where quality of life is stretched across every dimension",
-    metaTitle: "Quality of life stretched 2026 — French cities with the lowest composite QoL index",
+    metaTitle: "Lowest quality of life in France · 2026 city ranking",
     metaDescription:
-      "2026 ranking of French cities over 15,000 with the lowest quality-of-life mega-index: degraded environment + difficult healthcare access + distressed labour market. Aggregate composite.",
+      "2026 ranking of French cities over 15,000 with the lowest quality-of-life index: degraded environment, difficult healthcare access, weak labour market.",
     intro:
       "On paper: affordable housing, reasonable taxes, neighbourhood life. On the ground: poor air, medical desert, distressed job market. When three pillars collapse together, every life project becomes a series of losing trade-offs.",
     reality:
@@ -183,7 +184,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-couts-explosifs",
     emoji: "💥",
     title: "Cities where living costs exceed the local salary",
-    metaTitle: "Cost explosion 2026 — Cities where family costs exceed the local median salary",
+    metaTitle: "Cost of living 2026 · French cities too dear for families",
     metaDescription:
       "2026 ranking of French cities over 20,000 where monthly family household cost exceeds 60% of the departmental median net salary. Rent, heating, mobility, property tax.",
     intro:
@@ -198,7 +199,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-desert-services-publics",
     emoji: "🏛️",
     title: "Cities in a public services desert",
-    metaTitle: "Public services desert 2026 — French cities with the most broken provision",
+    metaTitle: "Public services 2026 · The worst-served French cities",
     metaDescription:
       "2026 ranking of cities over 10,000 with a public services composite ≥ 6.5/10: schools, post offices & France Services centres, town halls, libraries. A commune-level estimate, not a directory of facilities.",
     intro:
@@ -213,7 +214,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-anti-velo",
     emoji: "🚲",
     title: "Cities where daily cycling is out of reach",
-    metaTitle: "Anti-cycling cities 2026 — Where daily cycling is still not viable",
+    metaTitle: "Anti-cycling cities 2026 · Where daily cycling fails",
     metaDescription:
       "2026 ranking of cities over 15,000 with a cyclability composite ≤ 4.5/10: sparse network, terrain, danger, hostile climate. A commune-level estimate, not the FUB barometer score.",
     intro:
@@ -228,7 +229,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-pauvres-en-sport",
     emoji: "🏟️",
     title: "Cities where regular sport is a logistical struggle",
-    metaTitle: "Sports-poor cities 2026 — Where regular practice is a struggle",
+    metaTitle: "Sports-poor French cities 2026 · Where practice is hard",
     metaDescription:
       "2026 ranking of cities over 15,000 with a sport & leisure composite ≤ 4.5/10: thin municipal facilities, fragile club network, limited outdoor playground. Sources: INJEP RES + DRAJES + Météo-France.",
     intro:
@@ -258,7 +259,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-nuit-tendue",
     emoji: "🌙",
     title: "Cities with tense night safety in party districts",
-    metaTitle: "Tense night safety 2026 — French cities with the most nocturnal crime pressure",
+    metaTitle: "Night safety 2026 · French cities under the most pressure",
     metaDescription:
       "2026 ranking of cities over 15,000 with a night safety sub-score exceeding 6.5/10: fights, nocturnal assaults concentrated on festive/student/tourist centres. A commune-level estimate, not recorded crime.",
     intro:
@@ -393,7 +394,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-manque-de-creches",
     emoji: "🍼",
     title: "Cities where a daycare place is a full-blown ordeal",
-    metaTitle: "Childcare shortage 2026 — French cities where a nursery place is unfindable",
+    metaTitle: "Childcare shortage 2026 · Cities with no nursery places",
     metaDescription:
       "2026 ranking of French cities over 25,000 in the Paris region, coastal PACA and overseas departments where nursery places saturate. Sources: Onape, CAF, CNAF.",
     intro:
@@ -438,7 +439,7 @@ const EN_THEMES: EnTheme[] = [
     frSlug: "villes-internet-precaire",
     emoji: "📡",
     title: "Cities where fast broadband is still a compromise",
-    metaTitle: "Patchy internet 2026 — French cities where fibre hasn't landed",
+    metaTitle: "Patchy internet 2026 · French cities still without fibre",
     metaDescription:
       "2026 ranking of French cities where fibre still hasn't arrived: capped ADSL, saturated fixed 4G, thinly covered départements (Creuse, Cantal, Lozère).",
     intro:
@@ -468,7 +469,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!theme) return {};
   return {
     title: theme.metaTitle,
-    description: theme.metaDescription,
+    description: clampMeta(theme.metaDescription),
     alternates: { canonical: `${EN_BASE}/red-flags/themes/${slug}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

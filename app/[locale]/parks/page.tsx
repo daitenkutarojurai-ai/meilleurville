@@ -33,7 +33,7 @@ export function generateStaticParams() {
 
 export const metadata: Metadata = {
   title: `Parks & green space · ${PARKS_TOTAL} parks in ${PARKS_CITY_COUNT} French cities`,
-  description: `Parks, public gardens and playgrounds across ${PARKS_CITY_COUNT} French cities, mapped from OpenStreetMap. Playground, step-free access, drinking water — what actually decides a Saturday morning.`,
+  description: `Parks, public gardens and playgrounds across ${PARKS_CITY_COUNT} French cities, mapped from OpenStreetMap: play areas, step-free access, drinking water.`,
   alternates: pathAlternatesEn("/parcs", "/parks"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

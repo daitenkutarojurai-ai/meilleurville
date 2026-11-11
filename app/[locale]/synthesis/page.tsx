@@ -46,7 +46,7 @@ const EN_SYNTHESIS_LABEL: Record<SynthesisLevel, string> = {
 
 export const metadata: Metadata = {
   title: "8-axis synthesis · French city rankings | BestCitiesInFrance",
-  description: `8-dimension data synthesis (environment, healthcare, employment, quality of life, cycling, safety, demographics, public services) across ${CITIES_COUNT} cities, 102 departments, 18 regions, 6 macro-regions and a national leaderboard. Compare two cities or two regions side by side.`,
+  description: `8-dimension data synthesis (environment, healthcare, jobs, quality of life, cycling, safety, demographics, services) across ${CITIES_COUNT} French cities.`,
   alternates: pathAlternatesEn("/synthese", "/synthesis"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Weekend getaways from your city · Destinations by travel time 2026",
+  title: "Weekend getaways from your city · By travel time, 2026",
   description:
     "Pick your departure city and see every French destination ranked by travel time. Ideal for planning a weekend or a short break.",
   alternates: pathAlternatesEn("/depuis", "/weekend-getaways"),

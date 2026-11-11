@@ -14,7 +14,7 @@ const BANDS = ["band-indigo", "band-pink", "band-sky", "band-aqua", "band-lilac"
 export const metadata: Metadata = {
   title: `${EN_GUIDES.length} guides — choosing where to live in France`,
   description:
-    "Practical, no-fluff guides for moving to and living in France: city guides, remote work, families, cost of living, expat practicalities, leaving Paris, retirement. Updated 2026.",
+    "Practical, no-fluff guides for moving to and living in France: cities, remote work, families, cost of living, expat practicalities, retirement.",
   alternates: pathAlternatesEn("/guides", "/guides"),
 };
 

@@ -20,7 +20,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "City Vibe Map France — energy & atmosphere by city",
   description:
-    `Which energy does each French city give off? Calm, lively, festive, restorative, intense — ${CITIES_COUNT} cities ranked by atmosphere. Deterministic estimates, not real-time data.`,
+    `Calm, lively, festive, restorative, intense: ${CITIES_COUNT} French cities ranked by atmosphere. Deterministic estimates, not real-time data.`,
   alternates: pathAlternatesEn("/vibe", "/vibe"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

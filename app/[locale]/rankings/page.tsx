@@ -11,7 +11,7 @@ import { t, pathAlternatesEn } from "@/lib/i18n";
 // pour 19 classements réellement rendus juste en dessous.
 export const metadata: Metadata = {
   title: `French city rankings · ${RANKINGS_COUNT} themed leaderboards`,
-  description: `Independent rankings of French cities across ${RANKINGS_COUNT} themes (remote work, families, retirees, climate, cycling, seaside living…). Calibrated on official data — Insee, SSMSI, observatoires des loyers.`,
+  description: `Independent rankings of French cities across ${RANKINGS_COUNT} themes: remote work, families, retirees, climate, cycling, seaside. Built on official data.`,
   alternates: pathAlternatesEn("/classements", "/rankings"),
 };
 

@@ -33,7 +33,7 @@ export function RankingTableTail({ rows }: { rows: RankingTailRow[] }) {
             <td className="px-4 py-3">
               <a
                 href={`/villes/${r.slug}`}
-                className="font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                className="inline-block py-1.5 font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
               >
                 {r.name}
               </a>

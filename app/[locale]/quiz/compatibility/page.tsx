@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   title: "City compatibility quiz · France | BestCitiesInFrance",
-  description: `10 questions about your budget, climate preference, family situation, work style and lifestyle priorities. Algorithm calibrated across ${CITIES_SEED.length} French cities. Top 5 results with a % score and per-criterion breakdown.`,
+  description: `10 questions on budget, climate, family, work and lifestyle, matched against ${CITIES_SEED.length} French cities. Top 5 results with a % score per criterion.`,
   alternates: pathAlternatesEn("/quiz-compatibilite", "/quiz/compatibility"),
 };
 

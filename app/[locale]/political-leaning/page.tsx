@@ -30,9 +30,9 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "2027 French presidential election: city-by-city projection · Political leaning",
+  title: "2027 French presidential election: city-by-city projection",
   description:
-    `Estimated political leaning of ${allPoliticalLeans().length} French cities based on the 2022 presidential first round (Ministry of the Interior). Ranked city by city: left, centre, right, far right.`,
+    `Political leaning of ${allPoliticalLeans().length} French cities from the 2022 presidential first round, city by city: left, centre, right, far right.`,
   alternates: pathAlternatesEn("/orientation-politique", "/political-leaning"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

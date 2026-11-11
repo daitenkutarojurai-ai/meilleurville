@@ -63,7 +63,9 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
           </Link>
         </div>
 
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+        {/* Sous sm : défilement horizontal à cran (CSS seul, marche sans JS). Empilées,
+            les 5 cartes prenaient ~1 600 px de hauteur avant la section suivante. */}
+        <div className="-mx-4 flex snap-x snap-mandatory gap-3 overflow-x-auto px-4 pb-2 sm:mx-0 sm:grid sm:grid-cols-2 sm:overflow-visible sm:px-0 sm:pb-0 lg:grid-cols-5">
           {top5.map((city, i) => {
             const rank = i + 1;
             const photo = cardPhoto(city.slug);
@@ -79,7 +81,7 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
               <Link
                 key={city.slug}
                 href={locale === "en" ? `/cities/${city.slug}` : `/villes/${city.slug}`}
-                className="group relative flex flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)] transition-colors overflow-hidden"
+                className="group relative flex w-[72vw] max-w-[280px] shrink-0 snap-start flex-col rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] hover:border-[var(--accent)] transition-colors overflow-hidden sm:w-auto sm:max-w-none sm:shrink"
               >
                 {/* Photo cover (same as CityCard), falling back to the map sheet
                     with the place name on an enamel plaque — a name, never the
@@ -121,7 +123,7 @@ export function TopFiveCities({ locale = "fr" }: { locale?: "fr" | "en" } = {}) 
                   <p className="text-xs text-[var(--text-secondary)] mt-3 leading-snug line-clamp-2 sm:line-clamp-3 flex-1">
                     {tagline(city, locale)}
                   </p>
-                  <div className="mt-4 flex items-end justify-between border-t border-dashed border-[var(--border)] pt-3">
+                  <div className="mt-4 flex items-end justify-between border-t border-[var(--border)] pt-3">
                     <div>
                       <div className="text-[10px] uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">
                         {L("Score global", "Overall score")}

@@ -881,23 +881,6 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               )}
             </div>
 
-            {/* Legend */}
-            <div className="relative mt-4 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
-              <span className="text-[#A8C4A8]">{L("Score :", "Score:")}</span>
-              {[
-                { c: "#EF4444", l: "< 4.0" },
-                { c: "#F97316", l: "4.0–5.0" },
-                { c: "#F59E0B", l: "5.0–6.0" },
-                { c: "#84CC16", l: "6.0–7.0" },
-                { c: "#16A34A", l: "7.0–7.5" },
-                { c: "#A855F7", l: "≥ 7.5 ✦" },
-              ].map((s) => (
-                <span key={s.l} className="flex items-center gap-1.5">
-                  <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />
-                  <span className="text-[#C4D5C0] font-mono-data">{s.l}</span>
-                </span>
-              ))}
-            </div>
 
             <DromStrip locale={locale} cities={cities} />
           </div>
@@ -981,14 +964,6 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                   "Big dots = big cities. Small ones = countryside gems."
                 )}
               </p>
-              <ul className="relative mt-2 grid grid-cols-2 gap-x-3 gap-y-1 text-[11px] text-[var(--text-secondary)]">
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#A855F7" }} aria-hidden /> {L("Violet · exceptionnel", "Purple · exceptional")}</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#16A34A" }} aria-hidden /> {L("Vert · excellent", "Green · excellent")}</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#84CC16" }} aria-hidden /> {L("Lime · bon", "Lime · good")}</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F59E0B" }} aria-hidden /> {L("Ambre · moyen", "Amber · average")}</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#F97316" }} aria-hidden /> {L("Orange · en dessous", "Orange · below par")}</li>
-                <li className="flex items-center gap-1.5"><span className="h-2 w-2 rounded-full" style={{ background: "#EF4444" }} aria-hidden /> {L("Rouge · mauvais", "Red · poor")}</li>
-              </ul>
             </div>
 
             <Link

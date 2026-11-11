@@ -36,7 +36,7 @@ const EN_SAFETY_LABEL: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Safety in France · 2026 ranking — safest cities vs most strained",
+  title: "Safety in France 2026 · Safest and most strained cities",
   description:
     "National ranking of French cities by safety: property crime, personal crime, night safety, domestic violence. A commune-level estimate, not recorded crime counts.",
   alternates: pathAlternatesEn("/securite", "/safety"),

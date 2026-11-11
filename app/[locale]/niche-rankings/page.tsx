@@ -15,7 +15,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "Niche city rankings — France 2026 · BestCitiesInFrance",
   description:
-    "10 specialised city rankings for France: best air quality, quietest, safest for women, car-free, heatwave-resistant, remote work (fibre-adjusted), social capital, and more.",
+    "10 specialised city rankings for France: air quality, quiet, safety for women, car-free living, heatwave resistance, remote work, social capital.",
   alternates: { canonical: `${EN_BASE}/niche-rankings` },
 };
 

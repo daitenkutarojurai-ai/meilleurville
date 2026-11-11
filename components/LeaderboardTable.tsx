@@ -147,7 +147,7 @@ export function LeaderboardTable({
                     {i < 3 && region === "Toutes" && sortKey === "global" && !search ? MEDAL[i] : `${i + 1}`}
                   </td>
                   <td className="px-4 py-3">
-                    <Link href={`/villes/${city.slug}`} className="font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors">
+                    <Link href={`/villes/${city.slug}`} className="inline-block py-1.5 font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors">
                       {city.name}
                     </Link>
                     <div className="text-xs text-[var(--text-tertiary)]">{city.region}</div>

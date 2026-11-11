@@ -13,8 +13,8 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Moving from one French city to another — honest comparisons 2026",
-  description: `${QUITTER_PAIRS.length} origin → destination comparisons: Paris → Lyon, Marseille → Aix, Lille → Amiens, and more. Fixed costs, quality-of-life delta, and a verdict on who the move actually makes sense for.`,
+  title: "Moving between French cities · Honest comparisons 2026",
+  description: `${QUITTER_PAIRS.length} origin → destination comparisons: Paris → Lyon, Marseille → Aix, Lille → Amiens. Fixed costs, quality-of-life delta and a clear verdict.`,
   alternates: pathAlternatesEn("/quitter", "/moving-from"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -20,7 +20,7 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: "Healthcare access in France · hospitals vs deserts 2026",
   description:
-    "National ranking of French cities by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 hardest. GP access measured (DREES APL), specialists estimated.",
+    "French cities ranked by healthcare access: GPs, specialists, A&E, pharmacies. Top 30 best-served cities vs top 20 hardest to get care in.",
   alternates: pathAlternatesEn("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -48,7 +48,7 @@ const pct = (n: number, d: number) => (d ? Math.round((n / d) * 100) : 0);
 
 export const metadata: Metadata = {
   title: `Air quality in French cities — ${AIR_MEASURE_YEAR} measurements`,
-  description: `Air pollution measured in ${AIR_MEASURE_YEAR} by official monitoring stations: the French cities with the cleanest and most polluted air (NO₂, fine particles, ozone), ${no2.pool} cities ranked.`,
+  description: `Air pollution measured in ${AIR_MEASURE_YEAR} by official monitoring stations: French cities with the cleanest and most polluted air. ${no2.pool} cities ranked.`,
   alternates: pathAlternatesEn("/qualite-de-l-air", "/air-quality"),
   openGraph: {
     images: ["/opengraph-image"],

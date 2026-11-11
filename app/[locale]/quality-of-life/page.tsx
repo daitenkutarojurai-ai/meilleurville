@@ -19,7 +19,7 @@ export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Best quality of life in France · Composite index 2026",
-  description: `Quality-of-life mega-index aggregating environment (air, noise, water, risks), healthcare access and job market for all ${CITIES_COUNT} French cities. Top 30 cities for quality of life.`,
+  description: `Quality-of-life index combining environment, healthcare access and job market for ${CITIES_COUNT} French cities. Top 30 cities for quality of life.`,
   alternates: pathAlternatesEn("/cadre-de-vie", "/quality-of-life"),
 };
 

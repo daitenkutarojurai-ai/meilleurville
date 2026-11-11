@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Living in France on X €/month 2026 · Top cities by salary bracket",
+  title: "Living in France on X €/month · Cities by salary bracket",
   description:
     "Best French cities for your net monthly salary: 1,500, 2,000, 2,500, 3,000, 4,000, 5,000 €. Disposable income simulation + Paris comparison.",
   alternates: pathAlternatesEn("/vivre-avec", "/living-on"),

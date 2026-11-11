@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: `Salary equivalent between French cities 2026 · Disposable income calculator`,
+  title: "Salary equivalent between French cities · 2026 calculator",
   description: `How much do you need to earn in another French city to keep the same disposable income? Interactive calculator across ${CITIES_SEED.length} cities: rent, heating, mobility, taxes.`,
   alternates: pathAlternatesEn("/salaire-equivalent", "/salary-equivalent"),
 };

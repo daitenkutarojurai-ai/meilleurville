@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   // `/glossaire` n'en porte pas.
   title: "French property & relocation glossary 2026",
   description:
-    "Complete glossary: DPE energy rating, LMNP landlord status, taxe foncière, ZFE low-emission zones, rent control, notary fees, FTTH fibre... All the terms you need before buying, renting or moving in France.",
+    "French property glossary: DPE energy rating, LMNP, taxe foncière, ZFE zones, rent control, notary fees. The terms you need before buying or renting.",
   alternates: pathAlternatesEn("/glossaire", "/glossary"),
 };
 

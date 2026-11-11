@@ -36,7 +36,7 @@ const EN_SERVICES_LABEL: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Public services in France · school, post office, town hall access 2026",
+  title: "Public services in France 2026 · Schools, post, town hall",
   description:
     "National ranking of French cities by public services access: schools, post offices, town halls, libraries. Top 30 best-served vs top 20 under-served.",
   alternates: pathAlternatesEn("/services-publics", "/public-services"),

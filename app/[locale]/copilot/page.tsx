@@ -14,7 +14,7 @@ export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "AI Relocation Copilot — ask anything about French cities",
-  description: `Ask our AI assistant about any of ${CITIES_COUNT} French cities: rents, quality-of-life scores, taxes, transport. Personalised recommendations in seconds. Ask in English or French.`,
+  description: `Ask our AI assistant about any of ${CITIES_COUNT} French cities: rents, quality-of-life scores, taxes, transport. Answers in English or French.`,
   alternates: pathAlternatesEn("/copilot", "/copilot"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

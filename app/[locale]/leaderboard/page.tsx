@@ -12,7 +12,7 @@ const EN_BASE = ORIGIN_BY_LOCALE.en;
 export const metadata: Metadata = {
   title: "Leaderboard · Top French cities by quality of life (2026)",
   description:
-    "The global ranking of every French city we cover, by quality of life. A weighted score across eight axes: life, transport, nature, cost, safety, culture, schools and remote work.",
+    "Every French city we cover, ranked by quality of life: a weighted score across life, transport, nature, cost, safety, culture, schools and remote work.",
   alternates: pathAlternatesEn("/leaderboard", "/leaderboard"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -158,7 +158,7 @@ export default function EnLeaderboardPage() {
                     <td className="px-4 py-3">
                       <Link
                         href={`/cities/${city.slug}`}
-                        className="font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                        className="inline-block py-1.5 font-medium text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
                       >
                         {city.name}
                       </Link>

@@ -20,9 +20,9 @@ export function generateStaticParams() {
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: "Community profiles — who's moving to French cities and why · 2026",
+    title: "Community profiles · Who moves to French cities, and why",
     description:
-      "6 fictional profiles illustrating the main relocation patterns inside France: remote workers, retirees, students, families, expats, nature lovers. Real compatibility scores per city.",
+      "6 fictional profiles illustrating how people relocate inside France: remote workers, retirees, students, families, expats, nature lovers.",
     alternates: pathAlternatesEn("/portraits-types", "/community-profiles"),
   };
 }

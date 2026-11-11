@@ -63,7 +63,7 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Single parent in France 2026 — French cities that actually work",
+  title: "Single parent in France 2026 · Cities that actually work",
   description:
     "Top 30 French cities where single-parent life holds: cost, transit, schools, safety. Weighted composite of 4 axes, estimated minimum income to rent a T3.",
   alternates: pathAlternatesEn("/parent-solo", "/single-parent"),

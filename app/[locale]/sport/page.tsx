@@ -20,7 +20,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   title: "Most sport-friendly cities in France · 2026 ranking",
   description:
-    "National ranking of French cities by everyday sport: facilities, outdoor playground, club scene, climate. Top 30 most sport-friendly cities vs top 20 most challenging. Sources: INJEP · RES · CREPS · DRAJES.",
+    "French cities ranked for everyday sport: facilities, outdoor spaces, club scene, climate. Top 30 most sport-friendly vs top 20 most challenging.",
   alternates: pathAlternatesEn("/sport", "/sport"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
