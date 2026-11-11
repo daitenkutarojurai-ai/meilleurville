@@ -75363,6 +75363,234 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Sablé-sur-Sarthe","activités Sablé-sur-Sarthe 2026","abbaye de Solesmes","que faire dans la Sarthe"]
   },
   {
+    slug: "10-choses-a-faire-a-reze-2026",
+    title: "10 choses à faire à Rezé",
+    metaTitle: "10 choses à faire à Rezé",
+    metaDesc: "Trentemoult, Maison radieuse de Le Corbusier, bords de Loire, Navibus : 10 choses à faire à Rezé, aux portes de Nantes.",
+    category: "tourisme",
+    emoji: "⛴️",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Rezé compte environ 42 000 habitants dans notre fiche. C'est la commune qui fait face à Nantes, de l'autre côté de la Loire. Elle est surtout connue pour son village de Trentemoult et pour un immeuble de Le Corbusier. Ce guide dit quoi voir en une demi-journée, en bateau depuis Nantes.",
+    sections: [
+      {
+        heading: "1. Trentemoult",
+        body: "Ce quartier de bord de Loire est un ancien village de marins aux maisons colorées. C'est la visite la plus facile de Rezé, et elle se fait à pied."
+      },
+      {
+        heading: "2. Prendre le Navibus",
+        body: "Un bateau du réseau de transport nantais relie Trentemoult à la rive nantaise. C'est la façon la plus agréable d'arriver, et il se prend avec un titre de transport urbain."
+      },
+      {
+        heading: "3. La Maison radieuse",
+        body: "Cet immeuble d'habitation de Le Corbusier est ouvert à la visite à certains moments. Renseignez-vous sur les horaires avant de venir, ils varient selon la saison."
+      },
+      {
+        heading: "4. Les quais de Loire",
+        body: "La promenade longe le fleuve, avec vue sur l'île de Nantes. Elle convient bien à une balade courte, à pied ou à vélo."
+      },
+      {
+        heading: "5. Le Chronographe et Ratiatum",
+        body: "Rezé occupe l'emplacement d'une ville gallo-romaine appelée Ratiatum. Le site archéologique et son musée rappellent ce passé, que beaucoup de visiteurs ignorent."
+      },
+      {
+        heading: "6. Les terrasses de Trentemoult",
+        body: "Quelques bars et restaurants occupent les ruelles du quartier. Aux beaux jours, mieux vaut réserver pour un déjeuner de week-end."
+      },
+      {
+        heading: "7. Pont-Rousseau",
+        body: "Ce quartier commerçant est le centre vivant de Rezé. Il se visite surtout pour ses commerces et son marché ; vérifiez les jours avant de venir."
+      },
+      {
+        heading: "8. Prolonger vers Nantes",
+        body: "Le centre de Nantes est à quelques minutes, en bateau ou en tramway. Le guide de Nantes détaille les incontournables de l'autre rive."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 920 € par mois dans notre estimation, contre 1 150 € à Nantes et 900 € à Saint-Herblain. Rezé convient à qui veut la proximité de Nantes à un loyer plus bas, moins à qui cherche un décor de carte postale."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour Trentemoult et la Maison radieuse. Ajoutez Nantes pour une journée complète, en bateau à l'aller."
+      }
+    ],
+    relatedCities: ["reze","nantes","saint-herblain"],
+    relatedGuides: ["10-choses-a-faire-a-nantes-2026"],
+    tags: ["10 choses à faire à Rezé","activités Rezé 2026","Trentemoult","que faire près de Nantes"]
+  },
+  {
+    slug: "10-choses-a-faire-a-annemasse-2026",
+    title: "10 choses à faire à Annemasse",
+    metaTitle: "10 choses à faire à Annemasse",
+    metaDesc: "Villa du Parc, Château Rouge, Léman Express, Salève : 10 choses à faire à Annemasse, aux portes de Genève.",
+    category: "tourisme",
+    emoji: "🏔️",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Annemasse compte environ 37 000 habitants dans notre fiche. C'est une ville de Haute-Savoie collée à la frontière suisse, à quelques minutes de Genève. Elle est plus fonctionnelle que pittoresque, mais elle sert de base commode pour le Salève et le Léman. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La Villa du Parc",
+        body: "Ce centre d'art contemporain occupe une villa de la ville. L'entrée est en général libre ou peu chère ; vérifiez les expositions en cours avant de venir."
+      },
+      {
+        heading: "2. Le Château Rouge",
+        body: "Ce lieu culturel accueille des concerts et des spectacles. Consultez la programmation, elle change chaque mois."
+      },
+      {
+        heading: "3. Les parcs de la ville",
+        body: "Annemasse compte quelques parcs, utiles pour une pause entre deux visites. Ils ne justifient pas un déplacement à eux seuls."
+      },
+      {
+        heading: "4. Le marché",
+        body: "La ville a un marché ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "5. Le Léman Express",
+        body: "Le train régional relie Annemasse à Genève et à plusieurs villes suisses et françaises. C'est ce qui fait de la ville une base pratique pour la région."
+      },
+      {
+        heading: "6. Genève en une demi-journée",
+        body: "La ville suisse est toute proche. Pensez à emporter une pièce d'identité et à vérifier les tarifs des transports avant de partir."
+      },
+      {
+        heading: "7. Le Salève",
+        body: "Cette montagne qui domine la région est proche d'Annemasse. Elle offre des sentiers et des points de vue sur Genève ; un téléphérique la dessert côté Étrembières."
+      },
+      {
+        heading: "8. Le lac Léman",
+        body: "Thonon-les-Bains et ses plages sont accessibles depuis Annemasse. L'été, la circulation sur les routes du lac est dense."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 350 € par mois dans notre estimation, contre 1 200 € à Thonon-les-Bains et 1 450 € à Annecy. Annemasse convient à qui travaille côté suisse, moins aux petits budgets."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la ville elle-même. Ajoutez Genève, le Salève ou le lac pour une journée complète."
+      }
+    ],
+    relatedCities: ["annemasse","thonon-les-bains","annecy"],
+    relatedGuides: ["10-choses-a-faire-a-thonon-les-bains-2026","10-choses-a-faire-a-annecy-2026"],
+    tags: ["10 choses à faire à Annemasse","activités Annemasse 2026","Villa du Parc","que faire près de Genève"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-louis-haut-rhin-2026",
+    title: "10 choses à faire à Saint-Louis",
+    metaTitle: "10 choses à faire à Saint-Louis",
+    metaDesc: "Fondation Fernet-Branca, tram vers Bâle, frontière des trois pays : 10 choses à faire à Saint-Louis, dans le Haut-Rhin.",
+    category: "tourisme",
+    emoji: "🌉",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Saint-Louis compte environ 22 000 habitants dans notre fiche. C'est la commune française collée à Bâle, dans le Haut-Rhin, à la frontière avec la Suisse et l'Allemagne. Elle vaut moins par son centre que par sa position et par un musée d'art contemporain. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La Fondation Fernet-Branca",
+        body: "Ce centre d'art contemporain occupe d'anciens bâtiments industriels de la ville. Vérifiez les expositions et les horaires avant de venir."
+      },
+      {
+        heading: "2. Le centre-ville",
+        body: "La place de l'hôtel de ville et les rues autour forment le cœur commerçant. Une promenade d'une heure suffit."
+      },
+      {
+        heading: "3. Le tram vers Bâle",
+        body: "Une ligne de tramway relie Saint-Louis au centre de Bâle. C'est le moyen le plus simple de visiter la ville suisse sans voiture."
+      },
+      {
+        heading: "4. Bâle en une demi-journée",
+        body: "La vieille ville et la cathédrale se visitent à pied. Pensez à emporter une pièce d'identité et à vérifier les tarifs avant de partir."
+      },
+      {
+        heading: "5. La frontière des trois pays",
+        body: "Saint-Louis est proche du point où se touchent la France, la Suisse et l'Allemagne. Les bords du Rhin se parcourent à pied ou à vélo."
+      },
+      {
+        heading: "6. Huningue et le Rhin",
+        body: "La commune voisine offre une promenade au bord du fleuve. Elle complète bien une visite de Saint-Louis."
+      },
+      {
+        heading: "7. Les marchés et les commerces",
+        body: "La ville compte des commerces qui attirent aussi la clientèle frontalière. Vérifiez les jours de marché avant de venir."
+      },
+      {
+        heading: "8. Mulhouse et ses musées",
+        body: "Mulhouse, à une courte distance en train ou en voiture, héberge plusieurs musées reconnus. Le guide de Mulhouse en détaille les incontournables."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 010 € par mois dans notre estimation, contre 780 € à Mulhouse. Saint-Louis convient à qui travaille côté suisse et accepte une ville fonctionnelle, moins aux amateurs de centre historique."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la fondation et le centre. Ajoutez Bâle pour une journée complète."
+      }
+    ],
+    relatedCities: ["saint-louis-haut-rhin","mulhouse"],
+    relatedGuides: ["10-choses-a-faire-a-mulhouse-2026"],
+    tags: ["10 choses à faire à Saint-Louis","activités Saint-Louis 2026","Fondation Fernet-Branca","que faire près de Bâle"]
+  },
+  {
+    slug: "10-choses-a-faire-a-creteil-2026",
+    title: "10 choses à faire à Créteil",
+    metaTitle: "10 choses à faire à Créteil",
+    metaDesc: "Lac de Créteil, Maison des Arts, bords de Marne, métro ligne 8 : 10 choses à faire à Créteil, dans le Val-de-Marne.",
+    category: "tourisme",
+    emoji: "🛶",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro: "Créteil compte environ 91 000 habitants dans notre fiche. C'est la préfecture du Val-de-Marne, au sud-est de Paris, desservie par le métro. Ce n'est pas une destination touristique classique ; elle offre un lac, un centre d'arts et des bords de Marne. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le lac de Créteil",
+        body: "Ce plan d'eau est le grand espace de loisirs de la ville. On y marche, on y fait du vélo et on y pratique des sports nautiques."
+      },
+      {
+        heading: "2. La Maison des Arts",
+        body: "Ce centre culturel programme du théâtre, de la danse et des expositions. Consultez la programmation, elle change chaque saison."
+      },
+      {
+        heading: "3. La cathédrale Notre-Dame",
+        body: "Créteil est le siège d'un évêché, et sa cathédrale est un édifice moderne. Elle se visite en quelques minutes."
+      },
+      {
+        heading: "4. Le vieux Créteil",
+        body: "Le village ancien, près de la Marne, garde quelques rues et l'église Saint-Christophe. C'est le coin le plus calme de la ville."
+      },
+      {
+        heading: "5. Les bords de Marne",
+        body: "La rivière se longe à pied ou à vélo. C'est la promenade la plus simple pour sortir du béton."
+      },
+      {
+        heading: "6. Le quartier de l'Échat et le Mont-Mesly",
+        body: "Ces quartiers de grands ensembles se découvrent surtout pour leur architecture des années 1960 et 1970. Ce n'est pas une visite touristique, mais elle intéresse les curieux d'urbanisme."
+      },
+      {
+        heading: "7. Le métro ligne 8",
+        body: "La ligne relie Créteil au centre de Paris. C'est ce qui explique la population de la commune."
+      },
+      {
+        heading: "8. Vincennes et son château",
+        body: "Vincennes est accessible depuis Créteil en transports. Le guide de Vincennes détaille le château et le bois."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 250 € par mois dans notre estimation, contre 1 800 € à Vincennes et 2 800 € à Paris. Créteil convient à qui travaille à Paris et veut un loyer plus bas, moins à qui cherche un centre historique."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le lac et le vieux Créteil. Ajoutez Paris ou Vincennes pour une journée complète."
+      }
+    ],
+    relatedCities: ["creteil","vincennes","paris"],
+    relatedGuides: ["10-choses-a-faire-a-vincennes-2026","10-choses-a-faire-a-paris-2026"],
+    tags: ["10 choses à faire à Créteil","activités Créteil 2026","lac de Créteil","que faire dans le Val-de-Marne"]
+  },
+  {
     slug: "10-choses-a-faire-a-valbonne-2026",
     title: "10 choses à faire à Valbonne",
     metaTitle: "10 choses à faire à Valbonne",
