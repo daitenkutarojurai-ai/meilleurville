@@ -44,3 +44,4 @@ Demande du propriétaire. Deux briques, rendues par `components/SportSpots.tsx` 
   Alimenté par la routine `meilleurville-agenda-sport`. Un horaire de coup d'envoi ne s'écrit que publié par la
   ligue ou le club ; sinon date seule.
 
+- 2026-11-11 agenda-sport : +7 (Toulon, Dijon, Metz, Le Mans, Besançon, Le Havre, Reims) ; 49 sport au total ; prochain lot : Perpignan, Clermont, Tours, Nîmes, Amiens, Limoges, Caen (dates à recouper).
