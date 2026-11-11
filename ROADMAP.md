@@ -54,6 +54,14 @@ mesurée (`grep -c`). Anglais produit par un script de scratch (hors dépôt) qu
 compare les nombres FR/EN guide par guide : 0 écart (hors « 35 % » répété dans la phrase de règle). `tsc`, `integrity`, `search-index` + `:check`
 verts ; `GUIDES` EN 1 380 ; `npm run build` non lancé. **Prochain run : FR batch 18** sur le palier 5,7.
 
+### F58 — série parent solo, batch 18 : `parent-solo-a-[ville]-2026` (2026-11-11)
+
+**+15 guides** (Saint-Malo, Évreux, Valenciennes, Aurillac, Châteauroux, Mont-de-Marsan, La Ciotat, Vandœuvre-lès-Nancy, Saint-Louis,
+La Garenne-Colombes, Chaville, Eysines, Couëron, La Chapelle-sur-Erdre, Carquefou) : **palier 5,7** (18 communes sur 416, 3 avaient déjà
+leur guide), pris en entier ; **toute commune notée 5,7 ou plus a son guide**. Compteur `grep -c 'slug: "parent-solo-a-'` = **191** ; `GUIDES` 1 542.
+Médianes remesurées (coût 5,2, transports 6,4, écoles 5,5, sécurité 5,0, seuil 3 200 €, niveau de vie 21 675 €), identiques aux batches 14-17 ; 7 sections, 0 em-dash.
+`tsc`, `integrity`, `search-index` + `:check` verts ; `npm run build` non lancé. **Prochain run : miroir EN** (`single-parent-in-*`, écart 15), puis FR batch 19 sur le palier 5,6.
+
 ### F58 — série parent solo, batch 17 : `parent-solo-a-[ville]-2026` (2026-11-04)
 
 **+17 guides** (Rochefort, Périgueux, Rodez, Romans-sur-Isère, Douai, Colombes, Argenteuil, Menton, Saint-Raphaël, Caluire-et-Cuire,
