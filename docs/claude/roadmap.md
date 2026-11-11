@@ -8,7 +8,8 @@
 ## Technical roadmap — pending
 
 **Audit 2026-11-11** (`docs/audits/audit-2026-11-11.md`) — livré : bandeau cookies compact sur téléphone, radar triplet en SVG serveur (recharts retiré, −103 Ko gzip), 34 titres et 52 descriptions ramenés sous 60 / 165 caractères. Deuxième lot : mêmes corrections sur le site EN (13 titres, 31 descriptions, 17 titres de thèmes Red Flags), podium de l'accueil en défilement horizontal sur téléphone, une seule légende sur la carte, cibles tactiles des classements.
-Reste, par gain : alléger `/orientation-politique` (10 338 balises) et `/leaderboard` (594 lignes), sortir `CITIES_LIGHT` du HTML de ~30 pages, différer `gtag.js`, longueurs des familles dynamiques (non mesurées), hreflang des 29 thèmes Red Flags, garde de longueur des métadonnées dans `integrity`.
+Troisième lot : `/leaderboard` plafonné à 100 lignes, `/orientation-politique` 10 338 → 6 780 balises, hreflang de 28 thèmes Red Flags, garde `meta-len` dans `integrity`.
+Reste : sortir `CITIES_LIGHT` du HTML de ~30 pages, différer `gtag.js` (décision du propriétaire), tableau EN `/leaderboard`, titres des guides et des paires comparer (non mesurés).
 
 Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
 

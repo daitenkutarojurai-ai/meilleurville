@@ -107,7 +107,7 @@ export default function GuidesPage() {
             </summary>
             {/* Style posé une fois sur la liste : répété sur 1 474 liens, le
                 même attribut class pesait ~230 Ko (DOM + charge RSC). */}
-            <ul className="mt-4 grid gap-x-6 gap-y-1.5 sm:grid-cols-2 text-xs [&_a]:text-[var(--text-secondary)] [&_a]:transition-colors [&_a:hover]:text-[var(--accent)]">
+            <ul className="mt-4 grid gap-x-6 sm:grid-cols-2 text-xs [&_a]:inline-block [&_a]:py-1.5 [&_a]:text-[var(--text-secondary)] [&_a]:transition-colors [&_a:hover]:text-[var(--accent)]">
               {GUIDES.map((g) => (
                 <li key={g.slug}>
                   <Link href={`/guides/${g.slug}`}>{g.title}</Link>
