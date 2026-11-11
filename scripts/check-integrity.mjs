@@ -1575,6 +1575,71 @@ if (!failed) {
   }
 }
 
+// --- Longueur des métadonnées des pages statiques -------------------------------
+//
+// Google affiche ~60 caractères de titre et ~160 de description. L'audit du
+// 2026-11-11 a trouvé 47 titres et 83 descriptions au-delà sur les routes
+// statiques FR et EN : la partie tronquée était le plus souvent ce qui
+// distinguait la page. Garde étroite, sans faux positif : elle ne lit que les
+// `title:` / `description:` de premier niveau de `export const metadata` écrits
+// en chaîne littérale SANS interpolation (une valeur calculée ou passée par
+// `clampMeta` / `fitTitle` / `hubTitle` n'est pas lue), plus les `metaTitle` des
+// thèmes Red Flags. Elle ne voit donc pas un titre gabarit trop long.
+{
+  const TITLE_MAX = 60;
+  const DESC_MAX = 165;
+  const over = [];
+  let seen = 0;
+  const walk = (dir) => {
+    for (const name of readdirSync(dir)) {
+      const full = path.join(dir, name);
+      if (statSync(full).isDirectory()) {
+        // `[locale]` est le seul segment dynamique dont les pages sont statiques.
+        if (name.startsWith("[") && name !== "[locale]") continue;
+        walk(full);
+      } else if (name === "page.tsx") {
+        const src = readFileSync(full, "utf8");
+        const at = src.indexOf("export const metadata");
+        if (at < 0) continue;
+        const end = src.indexOf("\n};", at);
+        const body = src.slice(at, end < 0 ? undefined : end);
+        if (/robots:\s*\{[^}]*index:\s*false/.test(body)) continue;
+        const rel = path.relative(ROOT, full);
+        const lit = (key) => body.match(new RegExp(`^  ${key}:\\s*\\n?\\s*"((?:[^"\\\\]|\\\\.)*)",?\\r?$`, "m"))?.[1];
+        const title = lit("title");
+        const desc = lit("description");
+        if (title !== undefined) {
+          seen++;
+          if (title.length > TITLE_MAX) over.push(`${rel} : titre de ${title.length} caractères (max ${TITLE_MAX})`);
+        }
+        if (desc !== undefined) {
+          seen++;
+          if (desc.length > DESC_MAX) over.push(`${rel} : description de ${desc.length} caractères (max ${DESC_MAX})`);
+        }
+      }
+    }
+  };
+  walk(path.join(ROOT, "app"));
+  for (const [file, label] of [
+    ["lib/red-flag-themes.ts", "thème Red Flags FR"],
+    ["app/[locale]/red-flags/themes/[slug]/page.tsx", "thème Red Flags EN"],
+  ]) {
+    const src = readFileSync(path.join(ROOT, file), "utf8");
+    for (const m of src.matchAll(/metaTitle: "((?:[^"\\]|\\.)*)"/g)) {
+      seen++;
+      if (m[1].length > TITLE_MAX) over.push(`${file} : metaTitle (${label}) de ${m[1].length} caractères — « ${m[1]} »`);
+    }
+  }
+  if (over.length === 0) {
+    console.log(`  ok  meta-len    ${seen} titres et descriptions littéraux de pages statiques, tous ≤ ${TITLE_MAX} / ${DESC_MAX} caractères`);
+  } else {
+    failed = true;
+    console.error(`\n  ÉCHEC  meta-len : ${over.length} métadonnée(s) trop longue(s) pour un résultat Google`);
+    for (const o of over.slice(0, 20)) console.error(`    ${o}`);
+    console.error("    Raccourcir à la main, ou passer la valeur par clampMeta() / fitTitle() (lib/brand.ts).\n");
+  }
+}
+
 // --- Air mesuré : projection du moteur ------------------------------------------
 //
 // `lib/air-quality.ts` note NO2, PM2.5 et ozone depuis data/city-air-light.json,

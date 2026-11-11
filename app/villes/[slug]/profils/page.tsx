@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { fitTitle } from "@/lib/brand";
 import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
@@ -71,7 +72,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = [...PROFILE_META].sort((a, b) => niche[b.key] - niche[a.key]);
   const top2 = best.slice(0, 2).map((p) => p.label.toLowerCase()).join(" et ");
   return {
-    title: `${city.name} pour quel profil ? Compatibilité par style de vie`,
+    // Le nom en tête n'est jamais coupé : la queue tombe pour une commune longue.
+    title: fitTitle(`Vivre à ${city.name} : pour quel profil ? · Styles de vie`, 60),
     description: `${city.name} convient particulièrement aux ${top2}. Compatibilité : expats, télétravail, retraités, étudiants.`,
     alternates: cityAlternates("profils", slug),
     openGraph: {
