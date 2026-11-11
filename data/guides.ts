@@ -77412,6 +77412,186 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026", "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026", "meilleures-villes-jeunes-actifs-france-2025", "villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026"],
     tags: ["ville-dortoir", "pôle d'emploi", "emplois par actif", "création d'emplois par ville", "marché du travail", "recensement 2023"],
   },
+  {
+    slug: "ou-vivre-en-france-2027-villes-les-mieux-notees",
+    title: "Où vivre en France en 2027 ? Les villes les mieux notées, taille par taille",
+    metaTitle: "Où vivre en France en 2027 : les villes les mieux notées",
+    metaDesc:
+      "Sur 593 villes notées, Obernai mène à 8,4/10 et Strasbourg est première des grandes villes (7,5). Notes, loyers et limites du classement 2027.",
+    category: "lifestyle",
+    emoji: "🏆",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Sur les 593 villes que nous notons, Obernai arrive en tête pour 2027 avec 8,4/10, devant Fontainebleau et Amboise (7,9). Parmi les 42 villes de plus de 100 000 habitants, Strasbourg mène à 7,5, devant Rennes (7,4) et Annecy (7,3). La note moyenne est de 5,4 : seules 69 villes sur 593, soit 12 %, atteignent 7.",
+    sections: [
+      {
+        heading: "Quelles sont les villes les mieux notées pour 2027 ?",
+        body: "Obernai (Bas-Rhin) : 8,4. Fontainebleau et Amboise : 7,9. Autun : 7,8. Cinq villes à 7,7 : Le Puy-en-Velay, Senlis, Gex, Saint-Rémy-de-Provence et Beaune. Six à 7,6 : Anglet, Carnac, l'île de Ré, Saverne, Chinon et Villefranche-de-Rouergue. La liste s'arrête là parce que le palier suivant, 7,5, réunit quatre villes ex æquo (Strasbourg, Vaison-la-Romaine, Pontarlier, Fontenay-le-Comte). À l'intérieur d'un palier, l'ordre n'a pas de sens : ces villes ont la même note.\n\nAucune de ces quinze villes ne dépasse 40 000 habitants. Elles cumulent ce que les métropoles n'ont pas en même temps : sécurité, patrimoine et écoles. Obernai obtient 8,6 en sécurité, 8,7 en culture et 9,0 pour les écoles, avec un T2 à 770 € dans notre estimation des loyers.",
+      },
+      {
+        heading: "Quelles grandes villes sont les mieux notées ?",
+        body: "Parmi les 42 villes de plus de 100 000 habitants : Strasbourg 7,5 ; Rennes 7,4 ; Annecy 7,3 ; Lyon et Villeurbanne 7,1 ; Nantes et Bordeaux 6,9 ; Grenoble 6,8 ; Angers 6,7 ; Toulouse 6,6. Le palier suivant, 6,5, réunit Aix-en-Provence et Besançon.\n\nPlus bas : Lille 5,7, Montpellier 5,6, Nice 5,4, Paris 5,1 et Marseille 3,8. Côté loyers, le T2 va de 750 € à Grenoble et Angers à 1 100 € à Annecy, contre 1 800 € à Paris (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Pourquoi les métropoles perdent-elles des points ?",
+        body: "Sur deux axes : la sécurité et le coût. Strasbourg est à 5,3 en sécurité, Lyon à 5,1, Nantes à 4,6, Toulouse et Grenoble à 4,3. Lyon tombe à 4,2 sur le coût, Annecy à 3,1. Or la note globale n'est pas une simple moyenne : un axe sous 4,5 retire des points, pour qu'une ville ne cache pas une faiblesse derrière ses points forts.\n\nC'est ce qui explique Paris (nature 2,3, coût 2,2, sécurité 3,9) et Marseille (sécurité 2,7, écoles 2,4), malgré un 9,0 en culture pour les deux.",
+      },
+      {
+        heading: "Combien coûte la vie dans une ville bien notée ?",
+        body: "Tout dépend de laquelle. Dans le haut du classement, le T2 est à 530 € au Puy-en-Velay et à Villefranche-de-Rouergue, 540 € à Autun, 610 € à Chinon, 660 € à Amboise. Il monte à 980 € à Saint-Rémy-de-Provence, 1 100 € à Gex et 1 200 € sur l'île de Ré. La médiane de nos 593 villes est à 710 €.\n\nMême écart à l'achat : 1 400 € le m² à Autun et à Villefranche-de-Rouergue, 1 600 € au Puy-en-Velay, contre 5 200 € à Gex et 7 500 € sur l'île de Ré, pour une médiane de 2 700 € (source : notre estimation des prix).",
+      },
+      {
+        heading: "Pourquoi ce classement diffère-t-il du palmarès « où il fait bon vivre » ?",
+        body: "Le palmarès 2026 de l'association Villes et villages où il fait bon vivre place Biarritz, Annecy et Angers sur son podium des communes de plus de 2 000 habitants. Nos notes donnent Annecy à 7,3 et Angers à 6,7, mais Biarritz à 5,6.\n\nLa raison tient au logement. Nous comptons le coût comme un axe à part entière, et Biarritz y obtient 2,9 : 1 000 € le T2 et 6 500 € le m² dans notre estimation. Les deux classements ne répondent pas à la même question. Le leur mesure l'équipement et le cadre d'une commune ; le nôtre demande aussi ce qu'il faut gagner pour y habiter.",
+      },
+      {
+        heading: "Quelles sont les limites de ces notes ?",
+        body: "Trois limites à garder en tête. La première : les petites villes en tête sont mal desservies. Le transport est à 4,9 à Autun et à 4,2 au Puy-en-Velay, à Carnac, à Chinon et à Villefranche-de-Rouergue : sans voiture, c'est difficile. La deuxième : l'emploi local n'entre pas dans la note globale, qui ne dit donc pas si vous y trouverez un poste. La troisième : loyers et prix sont des estimations moyennes par ville, pas le prix d'un bien précis.",
+      },
+      {
+        heading: "Quelle ville pour quel profil en 2027 ?",
+        body: "En télétravail avec un budget serré : Autun, Chinon ou Villefranche-de-Rouergue, notées 7,5 sur l'axe télétravail avec un T2 à 610 € ou moins. En famille avec un emploi en métropole : Rennes (9,0 pour les écoles comme pour le télétravail) ou Strasbourg (9,0 en transport). Travailleur frontalier : Gex, 9,0 pour les écoles, mais 1 100 € le T2. Avec un budget limité, l'île de Ré et Annecy sont à écarter malgré leurs notes : le coût y est à 3,7 et 3,1.",
+      },
+    ],
+    relatedCities: ["obernai", "fontainebleau", "amboise", "autun", "strasbourg", "rennes", "annecy", "biarritz"],
+    relatedGuides: ["villes-moyennes-ou-il-fait-bon-vivre-2027", "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2", "tresors-caches-villes-sous-estimees-france-2025"],
+    tags: ["où vivre", "classement 2027", "qualité de vie", "meilleures villes", "grandes villes"],
+  },
+  {
+    slug: "villes-moyennes-ou-il-fait-bon-vivre-2027",
+    title: "Villes moyennes où il fait bon vivre en 2027 : le classement des 20 000 à 100 000 habitants",
+    metaTitle: "Villes moyennes où il fait bon vivre en 2027 : le classement",
+    metaDesc:
+      "374 villes de 20 000 à 100 000 habitants notées : Fontainebleau 7,9, Beaune 7,7, Anglet 7,6. Et celles à plus de 7 avec un T2 à 620 € ou moins.",
+    category: "lifestyle",
+    emoji: "🏘️",
+    readMinutes: 3,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Parmi les 374 villes de 20 000 à 100 000 habitants que nous notons, Fontainebleau arrive première pour 2027 (7,9/10), devant Beaune (7,7) et Anglet (7,6). Mais les mieux notées ne sont pas les moins chères : le T2 y coûte 800 € ou plus. Pour un loyer à 620 € ou moins, il faut regarder Lannion, Saint-Dié-des-Vosges, Laon, Saumur, Albi ou La Roche-sur-Yon, toutes notées 7,0 ou plus.",
+    sections: [
+      {
+        heading: "Quel est le classement 2027 des villes moyennes ?",
+        body: "Fontainebleau 7,9 ; Beaune 7,7 ; Anglet 7,6 ; Les Sables-d'Olonne 7,4. À 7,3 : Lannion, Saint-Dié-des-Vosges et Villefranche-sur-Saône. À 7,2 : La Rochelle et Laon. À 7,1 : Albi, Saumur, Vienne et Challans. La Roche-sur-Yon est à 7,0 et Vannes à 6,9. Le palier suivant, 6,8, réunit quatre villes : la liste s'arrête avant pour ne pas en choisir une au hasard. Dans un même palier, les villes sont ex æquo.",
+      },
+      {
+        heading: "Les villes moyennes du littoral valent-elles leur prix ?",
+        body: "Elles sont très bien notées, et chères. Anglet : T2 à 890 €, 4 300 € le m², coût noté 4,5. La Rochelle : 820 € et 4 200 € le m², coût à 4,6. Vannes : 850 € et 3 900 € le m². Les Sables-d'Olonne : 790 € et 3 500 € le m². En échange, la nature y est notée de 7,2 à 8,5 et la qualité de vie de 7,8 à 8,7 (source : notre estimation des loyers et des prix).",
+      },
+      {
+        heading: "Quelles villes moyennes ont le plus de patrimoine et de culture ?",
+        body: "Beaune et Vienne obtiennent 9,0 en culture, Laon et Saumur 8,7, Albi 8,0, Fontainebleau 7,8. Fontainebleau ajoute 8,5 en nature et 8,7 pour les écoles, ce qui explique sa première place, au prix d'un T2 à 880 € et d'un coût noté 4,6. Saumur et Laon donnent presque autant de patrimoine pour 600 € et 550 € de loyer.",
+      },
+      {
+        heading: "Quelles villes moyennes sont bien notées et pas chères ?",
+        body: "Sept villes à 7,0 ou plus ont un T2 à 640 € ou moins. Saint-Dié-des-Vosges : 500 € le T2, 1 100 € le m², coût et nature notés 8,5. Laon : 550 € et 1 400 € le m². Lannion : 600 € et 2 100 € le m², sécurité à 8,2. La Roche-sur-Yon : 600 € et 2 100 € le m², sécurité à 8,0. Saumur : 600 € et 1 900 € le m². Albi : 620 € et 2 200 € le m². Challans : 640 € et 2 100 € le m², sécurité à 8,3.\n\nLe revers est connu : à Saint-Dié-des-Vosges, la qualité de vie n'est notée que 5,9 et le transport 4,9.",
+      },
+      {
+        heading: "Peut-on travailler depuis une ville moyenne ?",
+        body: "Pas depuis toutes. Sur l'axe télétravail, Villefranche-sur-Saône et La Rochelle sont à 8,8, quand Les Sables-d'Olonne et Saumur restent à 6,3. Pour rejoindre une métropole, le transport est à 7,7 à Anglet et à Vienne, à 7,0 à La Rochelle, Villefranche-sur-Saône et La Roche-sur-Yon. Il tombe à 4,9 à Lannion, Saumur, Challans et Saint-Dié-des-Vosges, où un aller-retour régulier vers un bureau devient pénible.",
+      },
+      {
+        heading: "Que ne mesure pas ce classement ?",
+        body: "La note porte sur la commune, pas sur son agglomération, et l'emploi local n'y entre pas. Une ville moyenne bien notée peut offrir peu de postes dans votre métier. Les loyers et les prix sont des estimations moyennes par ville. Enfin, 20 000 habitants et 100 000 habitants ne sont pas la même vie : Lannion compte 20 000 habitants, La Rochelle plus de 76 000.",
+      },
+      {
+        heading: "Quelle ville moyenne pour quel profil ?",
+        body: "Famille avec un emploi à Paris ou à Lyon : Fontainebleau (écoles 8,7) ou Villefranche-sur-Saône (écoles 8,7, transport 7,0). Télétravail au bord de l'océan : La Rochelle, si 820 € pour un T2 passe dans le budget. Petit budget : Laon, Saint-Dié-des-Vosges ou Saumur, à 600 € ou moins. Priorité à la tranquillité : Challans, Lannion ou La Roche-sur-Yon, toutes à 8,0 ou plus en sécurité.",
+      },
+    ],
+    relatedCities: ["fontainebleau", "beaune", "anglet", "les-sables-d-olonne", "lannion", "saint-die-des-vosges", "la-roche-sur-yon", "albi"],
+    relatedGuides: ["ou-vivre-en-france-2027-villes-les-mieux-notees", "petites-villes-50000-habitants-tout-france-2026", "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2"],
+    tags: ["villes moyennes", "classement 2027", "qualité de vie", "loyers", "où vivre"],
+  },
+  {
+    slug: "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2",
+    title: "Où acheter en 2027 ? Les villes bien notées à moins de 2 000 € le m²",
+    metaTitle: "Où acheter en 2027 : villes bien notées sous 2 000 €/m²",
+    metaDesc:
+      "88 villes de plus de 20 000 habitants restent à 2 000 €/m² ou moins. Les mieux notées : Saint-Dié-des-Vosges, Laon, Saumur. Prix d'un 70 m² et pièges.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 3,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "88 villes de plus de 20 000 habitants restent à 2 000 € le m² ou moins dans notre estimation des prix, dont 35 à 1 500 € ou moins. Les mieux notées pour y vivre sont Saint-Dié-des-Vosges (7,3/10, 1 100 € le m²), Laon (7,2, 1 400 €) et Saumur (7,1, 1 900 €). À ces prix, un 70 m² coûte entre 77 000 € et 133 000 €, hors frais de notaire.",
+    sections: [
+      {
+        heading: "Quelles villes à moins de 2 000 € le m² sont les mieux notées ?",
+        body: "Saint-Dié-des-Vosges 7,3 (1 100 € le m²) ; Laon 7,2 (1 400 €) ; Saumur 7,1 (1 900 €). À 6,8 : Brive-la-Gaillarde (2 000 €), Dole (1 800 €) et Chaumont (950 €). Dieppe 6,7 (1 800 €). À 6,6 : Cholet (1 900 €), Sens (1 900 €) et Soissons (1 700 €). À 6,5 : Vichy (1 700 €), Auch (1 500 €) et Villeneuve-sur-Lot (1 500 €). Abbeville 6,4 (1 500 €). Le palier suivant, 6,3, réunit quatre villes ex æquo.\n\nPour situer ces prix : la médiane de nos 593 villes est à 2 700 € le m², et la note moyenne à 5,4.",
+      },
+      {
+        heading: "Combien coûte un 70 m² dans ces villes ?",
+        body: "En multipliant le prix moyen par 70 : 66 500 € à Chaumont, 77 000 € à Saint-Dié-des-Vosges, 98 000 € à Laon, 105 000 € à Auch, Villeneuve-sur-Lot et Abbeville, 119 000 € à Soissons et Vichy, 126 000 € à Dole et Dieppe, 133 000 € à Saumur, Cholet et Sens, 140 000 € à Brive-la-Gaillarde.\n\nLe même calcul donne 294 000 € à Nantes, 350 000 € à Lyon et 735 000 € à Paris. Ce sont des ordres de grandeur tirés d'un prix moyen par ville, pas le prix d'un bien donné ; ajoutez les frais de notaire.",
+      },
+      {
+        heading: "Vaut-il mieux acheter ou louer dans ces villes ?",
+        body: "Comparé au loyer, l'achat y est bien moins lourd qu'en métropole. En prenant un T3 pour 70 m², le prix d'achat représente 9,6 années de loyer à Saint-Dié-des-Vosges (T3 à 670 € par mois), 13,9 à Saumur (800 €) et 15,0 à Brive-la-Gaillarde (780 €), contre 21,1 à Lyon (1 380 €).\n\nMoins d'années de loyer, c'est un achat amorti plus vite. Mais ce ratio bas dit aussi que la demande est faible : la revente peut être longue.",
+      },
+      {
+        heading: "Que cache un prix au m² aussi bas ?",
+        body: "D'abord une desserte limitée. Le transport est noté 4,9 à Saint-Dié-des-Vosges et à Chaumont, 4,2 à Vichy, Auch et Villeneuve-sur-Lot. Ensuite des axes faibles selon votre projet : le télétravail est à 5,1 à Dole, Vichy et Auch, les écoles à 5,5 à Chaumont.\n\nEnfin, un prix moyen bas recouvre souvent un parc ancien. Avant de signer, regardez le diagnostic de performance énergétique et la taxe foncière du bien : ces deux postes pèsent davantage quand le prix d'achat est faible.",
+      },
+      {
+        heading: "Lesquelles gardent un bon accès aux transports et au télétravail ?",
+        body: "Brive-la-Gaillarde et Dieppe sont à 7,0 en transport, Laon, Dole et Sens à 6,4, Cholet à 6,2. Sur l'axe télétravail, cinq villes de la liste sont à 7,5 : Saint-Dié-des-Vosges, Laon, Dieppe, Sens et Soissons. Laon, Dieppe et Sens sont les trois seules à cumuler 6,4 ou plus en transport et 7,5 en télétravail.",
+      },
+      {
+        heading: "Qui a intérêt à acheter dans ces villes en 2027 ?",
+        body: "Le primo-accédant qui travaille sur place ou à distance : à 140 000 € ou moins pour 70 m², l'apport demandé reste accessible. Le retraité qui vend en métropole : Saumur (culture 8,7) ou Vichy laissent une marge après l'achat. À éviter si vous comptez revendre dans les trois ans, ou si votre emploi impose des trajets fréquents depuis une ville notée moins de 5 en transport.",
+      },
+    ],
+    relatedCities: ["saint-die-des-vosges", "laon", "saumur", "brive-la-gaillarde", "dole", "chaumont", "dieppe", "cholet"],
+    relatedGuides: ["meilleures-villes-primo-accedants-france-2026", "immobilier-sous-cote-france-2026-villes", "villes-moyennes-ou-il-fait-bon-vivre-2027"],
+    tags: ["acheter", "immobilier 2027", "prix au m²", "primo-accédant", "villes pas chères"],
+  },
+  {
+    slug: "ou-prendre-sa-retraite-en-france-en-2027",
+    title: "Où prendre sa retraite en France en 2027 ? Les villes les mieux notées",
+    metaTitle: "Où prendre sa retraite en France en 2027 : le classement",
+    metaDesc:
+      "Score retraite 2027 sur 535 villes : Fontenay-le-Comte 8,6, puis Lannion, Dinan et Mende. Loyers, sécurité, et pourquoi Nice n'est qu'à 5,0.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 3,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Fontenay-le-Comte, en Vendée, obtient le meilleur score retraite pour 2027 : 8,6/10, avec un T2 à 560 € et 8,8 en sécurité. Suivent Lannion, Dinan et Mende (8,4), puis Biscarrosse et Ussel (8,3). Sur 535 villes de plus de 10 000 habitants, 76 atteignent 7,5 ou plus. Les grandes villes du soleil sont loin : Nice est à 5,0, Perpignan et Montpellier à 5,6.",
+    sections: [
+      {
+        heading: "Comment est calculé le score retraite ?",
+        body: "Le score retraite pondère cinq axes de la fiche ville : la sécurité pour 30 %, le coût de la vie pour 25 %, la nature pour 20 %, la qualité de vie pour 15 % et le transport pour 10 %. S'y ajoutent 0,6 point pour une ville de moins de 50 000 habitants, plus calme, et 0,4 point quand la température moyenne de janvier atteint 6 °C. Une ville de plus de 300 000 habitants perd 0,8 point. L'accès aux soins n'entre pas dans le calcul : voir plus bas.",
+      },
+      {
+        heading: "Quelles sont les six villes en tête pour 2027 ?",
+        body: "Fontenay-le-Comte (8,6) : T2 à 560 €, 1 700 € le m², sécurité 8,8, nature 7,8. Lannion (8,4) : 600 € et 2 100 € le m², sécurité 8,2. Dinan (8,4) : 600 € et 2 300 € le m², sécurité et culture à 8,7. Mende (8,4) : 480 € et 1 300 € le m², nature 8,5, sécurité 8,8. Biscarrosse (8,3) : 780 € et 2 900 € le m², nature 8,5, qualité de vie 8,7. Ussel (8,3) : 460 € et 900 € le m².\n\nLe palier suivant, 8,2, réunit neuf villes ex æquo : Les Sables-d'Olonne, Le Puy-en-Velay, Dinard, Obernai, Challans, Lourdes, Limoux, Guéret et Autun (source : notre estimation des loyers et des prix).",
+      },
+      {
+        heading: "Et pour une retraite dans une vraie ville ?",
+        body: "Au-dessus de 50 000 habitants, le score baisse mais les services suivent. La Roche-sur-Yon arrive première à 7,6, avec un T2 à 600 € et 8,0 en sécurité. Viennent Vannes (7,0), La Rochelle (6,9), Annecy et Pau (6,7), puis Brest, Quimper et Cholet (6,6). Annecy doit sa place à la nature et à la sécurité, pas à son coût : le T2 y est à 1 100 €.",
+      },
+      {
+        heading: "Pourquoi les villes du Sud sont-elles mal classées ?",
+        body: "Parce que le soleil ne pèse que 0,4 point, face à la sécurité et au coût qui font 55 % du score. Nice paie son coût (3,3, T2 à 1 100 €). Perpignan et Montpellier paient leur sécurité, notée 3,7 dans les deux villes. Marseille tombe à 4,4 avec 2,7 en sécurité. Biarritz s'en sort mieux, à 6,7, malgré un coût noté 2,9 : la sécurité (6,1) et la nature (7,5) compensent.",
+      },
+      {
+        heading: "Que ne mesure pas ce score ?",
+        body: "Les soins, et c'est la principale réserve. La distance à un hôpital, le nombre de généralistes ou de spécialistes n'entrent pas dans le calcul, alors qu'ils comptent plus à 75 ans qu'à 62. Vérifiez la page Santé de la fiche de chaque ville avant de choisir.\n\nDeuxième réserve : la voiture. Mende et Ussel sont notées 2,7 en transport, Fontenay-le-Comte 4,2. Sans permis ou le jour où l'on ne conduit plus, ces villes deviennent compliquées.",
+      },
+      {
+        heading: "Quelle ville pour quelle retraite ?",
+        body: "Petite pension : Ussel, Mende ou Fontenay-le-Comte, où le T2 va de 460 € à 560 €. Retraite au bord de la mer : Biscarrosse, Lannion, ou Les Sables-d'Olonne et Dinard à 8,2. Besoin d'une ville avec ses services : La Roche-sur-Yon, Vannes ou La Rochelle. Sans voiture : La Rochelle et La Roche-sur-Yon, toutes deux à 7,0 en transport, plutôt que les petites villes en tête du classement.",
+      },
+    ],
+    relatedCities: ["fontenay-le-comte", "lannion", "dinan", "mende", "biscarrosse", "ussel", "la-roche-sur-yon", "vannes"],
+    relatedGuides: ["retraite-france-meilleures-villes-2025", "retraite-bord-de-mer-france-villes-guide-2026", "vivre-retraite-1500-euros-mois-france-2026"],
+    tags: ["retraite", "classement 2027", "où vivre", "sécurité", "coût de la vie"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

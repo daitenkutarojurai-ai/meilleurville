@@ -10655,6 +10655,16 @@
       "slug": "french-commuter-towns-vs-job-hubs-jobs-per-100-workers-413-cities-2026",
       "title": "Commuter towns or job hubs: how many jobs per 100 working residents in 413 French cities?",
       "emoji": "🏢"
+    },
+    {
+      "slug": "best-places-to-live-in-france-2027",
+      "title": "Best Places to Live in France in 2027: The Top-Rated Towns and Cities",
+      "emoji": "🏆"
+    },
+    {
+      "slug": "where-to-retire-in-france-2027",
+      "title": "Where to Retire in France in 2027: The Best-Rated Towns",
+      "emoji": "🌅"
     }
   ],
   "tags": [
@@ -10671,7 +10681,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 298
+      "count": 299
     },
     {
       "slug": "single-parent-in-france",
@@ -10791,7 +10801,7 @@
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 49
+      "count": 50
     },
     {
       "slug": "normandy",
@@ -11089,6 +11099,11 @@
       "count": 7
     },
     {
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
+      "count": 7
+    },
+    {
       "slug": "reims",
       "label": "reims",
       "count": 7
@@ -11126,11 +11141,6 @@
     {
       "slug": "lorraine",
       "label": "lorraine",
-      "count": 6
-    },
-    {
-      "slug": "quality-of-life",
-      "label": "quality-of-life",
       "count": 6
     },
     {
@@ -11399,8 +11409,18 @@
       "count": 3
     },
     {
+      "slug": "retire-in-france",
+      "label": "retire in france",
+      "count": 3
+    },
+    {
       "slug": "retire-on-the-cote-d-azur",
       "label": "retire on the Côte d'Azur",
+      "count": 3
+    },
+    {
+      "slug": "retirement",
+      "label": "retirement",
       "count": 3
     },
     {

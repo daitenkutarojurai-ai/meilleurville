@@ -62626,6 +62626,94 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["puteaux", "velizy-villacoublay", "blagnac", "aurillac", "rodez", "vannes", "gagny", "argenteuil", "paris", "lille", "bordeaux", "villeurbanne", "ales"],
     tags: ["commuter towns France", "job hubs", "jobs per resident worker", "job creation by city", "French labour market", "2023 census"],
   },
+  {
+    slug: "best-places-to-live-in-france-2027",
+    title: "Best Places to Live in France in 2027: The Top-Rated Towns and Cities",
+    metaTitle: "Best Places to Live in France in 2027 — Top-Rated Cities",
+    metaDesc:
+      "593 French cities scored for 2027: Obernai leads on 8.4/10, Strasbourg tops the big cities on 7.5. Scores, rents and what the ranking leaves out.",
+    category: "moving",
+    emoji: "🏆",
+    readMinutes: 4,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Of the 593 French cities we score, Obernai in Alsace comes first for 2027 on 8.4/10, ahead of Fontainebleau and Amboise (7.9). Among the 42 cities with more than 100,000 residents, Strasbourg leads on 7.5, then Rennes (7.4) and Annecy (7.3). The average score is 5.4, and only 69 cities out of 593, or 12%, reach 7.",
+    sections: [
+      {
+        heading: "Which French towns score highest for 2027?",
+        body: "Obernai (Bas-Rhin): 8.4. Fontainebleau and Amboise: 7.9. Autun: 7.8. Five towns on 7.7: Le Puy-en-Velay, Senlis, Gex, Saint-Rémy-de-Provence and Beaune. Six on 7.6: Anglet, Carnac, Île de Ré, Saverne, Chinon and Villefranche-de-Rouergue. The list stops there because the next tier, 7.5, is a four-way tie (Strasbourg, Vaison-la-Romaine, Pontarlier, Fontenay-le-Comte). Within a tier the order means nothing: those towns have the same score.\n\nNone of the fifteen has more than 40,000 residents. They combine what big cities rarely offer together: safety, heritage and schools. Obernai scores 8.6 for safety, 8.7 for culture and 9.0 for schools, with a one-bedroom flat (a T2 in French listings) at €770 a month in our rent estimate.",
+      },
+      {
+        heading: "Which big French cities score best?",
+        body: "Among the 42 cities above 100,000 residents: Strasbourg 7.5; Rennes 7.4; Annecy 7.3; Lyon and Villeurbanne 7.1; Nantes and Bordeaux 6.9; Grenoble 6.8; Angers 6.7; Toulouse 6.6. The next tier, 6.5, is shared by Aix-en-Provence and Besançon.\n\nFurther down: Lille 5.7, Montpellier 5.6, Nice 5.4, Paris 5.1 and Marseille 3.8. A one-bedroom runs from €750 in Grenoble and Angers to €1,100 in Annecy, against €1,800 in Paris (source: our rent estimate).",
+      },
+      {
+        heading: "Why do the big cities lose points?",
+        body: "On two axes: safety and cost. Strasbourg scores 5.3 for safety, Lyon 5.1, Nantes 4.6, Toulouse and Grenoble 4.3. Lyon drops to 4.2 on cost and Annecy to 3.1. The overall score is not a plain average: any axis below 4.5 takes points off, so a city cannot hide one weakness behind its strengths.\n\nThat is what happens to Paris (nature 2.3, cost 2.2, safety 3.9) and Marseille (safety 2.7, schools 2.4), even though both score 9.0 for culture.",
+      },
+      {
+        heading: "What does it cost to live in a top-rated town?",
+        body: "It depends entirely on which one. Near the top of the ranking, a one-bedroom is €530 in Le Puy-en-Velay and Villefranche-de-Rouergue, €540 in Autun, €610 in Chinon and €660 in Amboise. It climbs to €980 in Saint-Rémy-de-Provence, €1,100 in Gex and €1,200 on Île de Ré. The median across our 593 cities is €710.\n\nBuying shows the same gap: €1,400 per m² in Autun and Villefranche-de-Rouergue and €1,600 in Le Puy-en-Velay, against €5,200 in Gex and €7,500 on Île de Ré, for a median of €2,700 (source: our price estimate).",
+      },
+      {
+        heading: "Why does this differ from France's best-known liveability ranking?",
+        body: "The 2026 ranking by the association Villes et villages où il fait bon vivre puts Biarritz, Annecy and Angers on its podium for communes above 2,000 residents. Our scores give Annecy 7.3 and Angers 6.7, but Biarritz 5.6.\n\nThe reason is housing. We treat cost as a full axis, and Biarritz scores 2.9 on it: €1,000 for a one-bedroom and €6,500 per m² in our estimate. The two rankings answer different questions. Theirs measures a commune's amenities and setting; ours also asks what you need to earn to live there.",
+      },
+      {
+        heading: "What are the limits of these scores?",
+        body: "Three things to keep in mind. First, the small towns at the top are poorly connected: transport scores 4.9 in Autun and 4.2 in Le Puy-en-Velay, Carnac, Chinon and Villefranche-de-Rouergue, so life without a car is hard. Second, local jobs are not part of the overall score, which therefore says nothing about finding work there. Third, rents and prices are city-wide average estimates, not the price of a given property.",
+      },
+      {
+        heading: "Which place suits which profile in 2027?",
+        body: "Remote worker on a tight budget: Autun, Chinon or Villefranche-de-Rouergue, all on 7.5 for remote work with a one-bedroom at €610 or less. Family with a city job: Rennes (9.0 for both schools and remote work) or Strasbourg (9.0 for transport). Cross-border worker near Geneva: Gex, 9.0 for schools but €1,100 for a one-bedroom. On a limited budget, skip Île de Ré and Annecy despite their scores: cost sits at 3.7 and 3.1.",
+      },
+    ],
+    relatedCities: ["obernai", "fontainebleau", "amboise", "autun", "strasbourg", "rennes", "annecy", "biarritz"],
+    tags: ["best places to live", "2027 ranking", "quality of life", "French cities", "moving to France"],
+  },
+  {
+    slug: "where-to-retire-in-france-2027",
+    title: "Where to Retire in France in 2027: The Best-Rated Towns",
+    metaTitle: "Where to Retire in France in 2027 — Best-Rated Towns",
+    metaDesc:
+      "2027 retirement score across 535 French towns: Fontenay-le-Comte leads on 8.6, then Lannion, Dinan and Mende. Rents, safety, and why Nice scores 5.0.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 3,
+    publishedAt: "2026-11-11",
+    updatedAt: "2026-11-11",
+    intro:
+      "Fontenay-le-Comte, in the Vendée, has the best retirement score for 2027: 8.6/10, with a one-bedroom flat at €560 a month and 8.8 for safety. Next come Lannion, Dinan and Mende (8.4), then Biscarrosse and Ussel (8.3). Of 535 towns above 10,000 residents, 76 score 7.5 or more. The big sunny cities are far behind: Nice is on 5.0, Perpignan and Montpellier on 5.6.",
+    sections: [
+      {
+        heading: "How is the retirement score calculated?",
+        body: "The retirement score weights five axes from each city profile: safety 30%, cost of living 25%, nature 20%, quality of life 15% and transport 10%. A town under 50,000 residents gains 0.6 point for calm, and 0.4 point is added where the average January temperature reaches 6°C. A city above 300,000 residents loses 0.8 point. Access to healthcare is not part of the calculation: see below.",
+      },
+      {
+        heading: "Which six towns lead for 2027?",
+        body: "Fontenay-le-Comte (8.6): one-bedroom at €560, €1,700 per m², safety 8.8, nature 7.8. Lannion (8.4): €600 and €2,100 per m², safety 8.2. Dinan (8.4): €600 and €2,300 per m², safety and culture both 8.7. Mende (8.4): €480 and €1,300 per m², nature 8.5, safety 8.8. Biscarrosse (8.3): €780 and €2,900 per m², nature 8.5, quality of life 8.7. Ussel (8.3): €460 and €900 per m².\n\nThe next tier, 8.2, is a nine-way tie: Les Sables-d'Olonne, Le Puy-en-Velay, Dinard, Obernai, Challans, Lourdes, Limoux, Guéret and Autun (source: our rent and price estimates).",
+      },
+      {
+        heading: "What about retiring to a proper city?",
+        body: "Above 50,000 residents the score drops but services follow. La Roche-sur-Yon comes first on 7.6, with a one-bedroom at €600 and 8.0 for safety. Then Vannes (7.0), La Rochelle (6.9), Annecy and Pau (6.7), and Brest, Quimper and Cholet (6.6). Annecy owes its place to nature and safety, not cost: a one-bedroom there is €1,100.",
+      },
+      {
+        heading: "Why does the south of France rank so low?",
+        body: "Because sunshine is worth only 0.4 point, against safety and cost, which make up 55% of the score. Nice pays for its cost (3.3, one-bedroom at €1,100). Perpignan and Montpellier pay for safety, 3.7 in both. Marseille falls to 4.4 with 2.7 for safety. Biarritz does better, on 6.7, despite a cost score of 2.9: safety (6.1) and nature (7.5) make up for it.",
+      },
+      {
+        heading: "What does the score leave out?",
+        body: "Healthcare, and that is the main caveat. Distance to a hospital and the number of GPs or specialists are not in the calculation, yet they matter more at 75 than at 62. Check the healthcare page of each city profile before choosing.\n\nSecond caveat: the car. Mende and Ussel score 2.7 for transport and Fontenay-le-Comte 4.2. Without a licence, or once you stop driving, these towns become difficult.",
+      },
+      {
+        heading: "Which town for which retirement?",
+        body: "Small pension: Ussel, Mende or Fontenay-le-Comte, where a one-bedroom runs from €460 to €560. By the sea: Biscarrosse, Lannion, or Les Sables-d'Olonne and Dinard on 8.2. A city with its own services: La Roche-sur-Yon, Vannes or La Rochelle. Without a car: La Rochelle and La Roche-sur-Yon, both on 7.0 for transport, rather than the small towns at the top of the list.",
+      },
+    ],
+    relatedCities: ["fontenay-le-comte", "lannion", "dinan", "mende", "biscarrosse", "ussel", "la-roche-sur-yon", "vannes"],
+    tags: ["retire in France", "2027 ranking", "retirement", "cost of living", "safety"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

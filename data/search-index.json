@@ -11270,6 +11270,26 @@
       "slug": "villes-emplois-pour-100-actifs-villes-dortoirs-413-villes-2026",
       "title": "Villes-dortoirs ou pôles d'emploi : combien d'emplois pour 100 actifs dans 413 villes ?",
       "emoji": "🏢"
+    },
+    {
+      "slug": "ou-vivre-en-france-2027-villes-les-mieux-notees",
+      "title": "Où vivre en France en 2027 ? Les villes les mieux notées, taille par taille",
+      "emoji": "🏆"
+    },
+    {
+      "slug": "villes-moyennes-ou-il-fait-bon-vivre-2027",
+      "title": "Villes moyennes où il fait bon vivre en 2027 : le classement des 20 000 à 100 000 habitants",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2",
+      "title": "Où acheter en 2027 ? Les villes bien notées à moins de 2 000 € le m²",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "ou-prendre-sa-retraite-en-france-en-2027",
+      "title": "Où prendre sa retraite en France en 2027 ? Les villes les mieux notées",
+      "emoji": "🌅"
     }
   ],
   "tags": [
@@ -11301,7 +11321,7 @@
     {
       "slug": "qualite-de-vie",
       "label": "qualité de vie",
-      "count": 37
+      "count": 39
     },
     {
       "slug": "bordeaux",
@@ -11351,7 +11371,7 @@
     {
       "slug": "primo-accedant",
       "label": "primo-accédant",
-      "count": 19
+      "count": 20
     },
     {
       "slug": "soleil",
@@ -11384,6 +11404,11 @@
       "count": 16
     },
     {
+      "slug": "retraite",
+      "label": "retraite",
+      "count": 16
+    },
+    {
       "slug": "strasbourg",
       "label": "Strasbourg",
       "count": 16
@@ -11401,11 +11426,6 @@
     {
       "slug": "coworking",
       "label": "coworking",
-      "count": 15
-    },
-    {
-      "slug": "retraite",
-      "label": "retraite",
       "count": 15
     },
     {
@@ -11699,6 +11719,11 @@
       "count": 8
     },
     {
+      "slug": "securite",
+      "label": "sécurité",
+      "count": 8
+    },
+    {
       "slug": "tours",
       "label": "Tours",
       "count": 8
@@ -11781,11 +11806,6 @@
     {
       "slug": "rendement",
       "label": "rendement",
-      "count": 7
-    },
-    {
-      "slug": "securite",
-      "label": "sécurité",
       "count": 7
     },
     {
@@ -11919,6 +11939,11 @@
       "count": 5
     },
     {
+      "slug": "cout-de-la-vie",
+      "label": "coût de la vie",
+      "count": 5
+    },
+    {
       "slug": "expatries",
       "label": "expatriés",
       "count": 5
@@ -11976,6 +12001,11 @@
     {
       "slug": "perigueux",
       "label": "Périgueux",
+      "count": 5
+    },
+    {
+      "slug": "prix-au-m",
+      "label": "prix au m²",
       "count": 5
     },
     {
@@ -12084,11 +12114,6 @@
       "count": 4
     },
     {
-      "slug": "cout-de-la-vie",
-      "label": "coût de la vie",
-      "count": 4
-    },
-    {
       "slug": "crous",
       "label": "CROUS",
       "count": 4
@@ -12186,11 +12211,6 @@
     {
       "slug": "pollution",
       "label": "pollution",
-      "count": 4
-    },
-    {
-      "slug": "prix-au-m",
-      "label": "prix au m²",
       "count": 4
     },
     {
@@ -12371,6 +12391,11 @@
     {
       "slug": "charente-maritime",
       "label": "Charente-Maritime",
+      "count": 3
+    },
+    {
+      "slug": "classement-2027",
+      "label": "classement 2027",
       "count": 3
     },
     {
@@ -12644,6 +12669,11 @@
       "count": 3
     },
     {
+      "slug": "ou-vivre",
+      "label": "où vivre",
+      "count": 3
+    },
+    {
       "slug": "outre-mer",
       "label": "Outre-mer",
       "count": 3
@@ -12826,6 +12856,11 @@
     {
       "slug": "troyes",
       "label": "Troyes",
+      "count": 3
+    },
+    {
+      "slug": "villes-moyennes",
+      "label": "villes moyennes",
       "count": 3
     },
     {

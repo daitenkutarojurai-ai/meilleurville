@@ -2369,3 +2369,10 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 - 2026-11-10 (run contenu) : FR `prix-appartement-m2-par-ville-552-villes-dvf-2026` + jumelle EN `apartment-prices-per-m2-french-cities-552-cities-dvf-2026` (DVF 2024-2025, 552 villes ; Alsace-Moselle absente, livre foncier) + FR `villes-maison-moins-chere-que-appartement-m2-dvf-2026` (69 villes sur 545, écart médian +18 %) + glossaire « Prix de l'immobilier mesuré » (5 termes). Compteurs mesurés (`grep -c '^    slug: "'`) : FR 1515, EN 1397 ; search-index 1521 FR / 1410 EN. Prochain lot : jumelle EN de l'écart maison/appartement, ou part des 30-44 ans / résidences secondaires.
 
 - 2026-11-11 content multisection : FR `villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026` + FR `villes-emplois-pour-100-actifs-villes-dortoirs-413-villes-2026` (Insee RP 2022/2023, 413 villes) + EN jumelle `french-commuter-towns-vs-job-hubs-jobs-per-100-workers-413-cities-2026` ; glossaire +4 termes (section « Structure par âge et emploi local », 263 termes). Compteurs mesurés (`grep -c "^    slug: \""`) : FR 1521, EN 1400 ; search-index 1 527 FR / 1 413 EN. Prochain lot : jumelle EN du guide 30-44 ans, puis taille des ménages.
+
+## Série « 2027 » (2026-11-11)
+
+- Livré : 4 guides FR (`ou-vivre-en-france-2027-villes-les-mieux-notees`, `villes-moyennes-ou-il-fait-bon-vivre-2027`, `ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2`, `ou-prendre-sa-retraite-en-france-en-2027`) et 2 EN (`best-places-to-live-in-france-2027`, `where-to-retire-in-france-2027`).
+- Pourquoi : les éditions annuelles (« où s'installer en 2026 ») sortent chaque décembre chez SeLoger, Cafpi, MySweetImmo ; aucune page 2027 n'existait. Aucun volume de recherche mesuré (pas d'outil).
+- Données : notes rendues de `CITIES_SEED`, `HOUSING`, `computeNicheScores`, listes coupées avant un palier ex æquo. Compteurs : 1 546 guides FR, 1 415 EN.
+- Prochain lot possible, mêmes données : télétravail 2027, familles 2027, louer pas cher 2027, jumelles EN des guides villes moyennes et achat.
