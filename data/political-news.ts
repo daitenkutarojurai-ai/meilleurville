@@ -46,9 +46,20 @@ export const POLITICAL_NEWS_KIND_LABEL: Record<PoliticalNewsKind, string> = {
   parlement: "Parlement",
 };
 
-export const POLITICAL_NEWS_AS_OF = "2026-11-10";
+export const POLITICAL_NEWS_AS_OF = "2026-11-11";
 
 export const POLITICAL_NEWS: PoliticalNews[] = [
+  {
+    id: "riner-candidat-2026-11-09",
+    date: "2026-11-09",
+    kind: "candidature",
+    title: "Teddy Riner annonce sa candidature à l'élection présidentielle de 2027",
+    summary:
+      "Le judoka Teddy Riner a déclaré sa candidature le 9 novembre 2026, dans une vidéo publiée sur ses réseaux sociaux et un entretien au Parisien. Il se présente comme « ni de droite ni de gauche ». Comme tout candidat, il doit réunir 500 parrainages d'élus, à transmettre au Conseil constitutionnel au plus tard le 12 mars 2027.",
+    source: "LCP – Assemblée nationale",
+    sourceUrl:
+      "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920",
+  },
   {
     id: "budget-2027-rejet-premiere-partie-2026-11-04",
     date: "2026-11-04",
