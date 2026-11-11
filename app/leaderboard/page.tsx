@@ -129,6 +129,23 @@ export default function LeaderboardPage() {
             Classement complet — {sorted.length} villes
           </h2>
           <LeaderboardTable cities={CITIES_LIGHT} rentT2BySlug={RENT_T2_BY_SLUG} />
+          {/* Le tableau ne rend que ses 100 premières lignes (le reste au clic).
+              Cet index garde un lien HTML vers chaque ville, rang et note
+              compris, lisible sans JavaScript et par les robots. */}
+          <details className="mt-4 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)]">
+            <summary className="cursor-pointer px-4 py-3 text-sm font-semibold text-[var(--text-primary)]">
+              Toutes les villes classées, du rang 1 au rang {sorted.length}
+            </summary>
+            {/* Deux balises par ligne (li + a), styles portés par la liste : cet
+                index est écrit deux fois dans le HTML (balisage + charge RSC). */}
+            <ol className="list-inside list-decimal columns-1 gap-x-6 px-4 pb-4 text-sm text-[var(--text-tertiary)] marker:text-xs sm:columns-2 lg:columns-3 [&_a]:inline-block [&_a]:py-1 [&_a]:text-[var(--text-primary)] [&_a:hover]:text-[var(--accent)]">
+              {sorted.map((city) => (
+                <li key={city.slug}>
+                  <Link href={`/villes/${city.slug}`}>{city.name}</Link> {city.scores.global.toFixed(1)}
+                </li>
+              ))}
+            </ol>
+          </details>
         </div>
 
         {/* Stats strip */}

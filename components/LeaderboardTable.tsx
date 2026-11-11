@@ -19,6 +19,13 @@ const CRITERIA = [
 
 type SortKey = "global" | keyof CityLight["scores"];
 
+// Le tableau rendait ses 593 lignes d'un coup (10 669 balises, 1,0 Mo de balisage,
+// HTML statique compris). Seules les INITIAL_VISIBLE premières sont rendues ; le
+// reste se révèle au clic, les données étant déjà dans la page. Le plafond vaut
+// aussi pour un filtre ou un tri. Les liens vers toutes les villes restent
+// crawlables par l'index compact que la page émet sous le tableau.
+const INITIAL_VISIBLE = 100;
+
 // scoreClass = scoreColor from @/lib/utils (aliased import above)
 
 export function LeaderboardTable({
@@ -31,6 +38,7 @@ export function LeaderboardTable({
   const [region, setRegion] = useState("Toutes");
   const [sortKey, setSortKey] = useState<SortKey>("global");
   const [search, setSearch] = useState("");
+  const [showAll, setShowAll] = useState(false);
 
   const REGIONS = useMemo(
     () => ["Toutes", ...Array.from(new Set(cities.map((c) => c.region))).sort()],
@@ -50,6 +58,9 @@ export function LeaderboardTable({
         return bVal - aVal;
       });
   }, [cities, region, sortKey, search]);
+
+  const capped = !showAll && filtered.length > INITIAL_VISIBLE;
+  const visible = capped ? filtered.slice(0, INITIAL_VISIBLE) : filtered;
 
   return (
     <div className="space-y-6">
@@ -141,7 +152,7 @@ export function LeaderboardTable({
               </tr>
             </thead>
             <tbody className="divide-y divide-[var(--border)]">
-              {filtered.map((city, i) => (
+              {visible.map((city, i) => (
                 <tr key={city.slug} className="hover:bg-[var(--bg-elevated)] transition-colors group">
                   <td className="px-4 py-3 text-[var(--text-tertiary)] font-mono text-xs">
                     {i < 3 && region === "Toutes" && sortKey === "global" && !search ? MEDAL[i] : `${i + 1}`}
@@ -173,6 +184,17 @@ export function LeaderboardTable({
             </tbody>
           </table>
         </div>
+        {capped && (
+          <div className="border-t border-[var(--border)] px-4 py-4 text-center">
+            <button
+              type="button"
+              onClick={() => setShowAll(true)}
+              className="inline-flex min-h-11 items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-6 py-2.5 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+            >
+              Afficher les {filtered.length - INITIAL_VISIBLE} villes suivantes
+            </button>
+          </div>
+        )}
         {filtered.length === 0 && (
           <div className="py-12 text-center text-[var(--text-secondary)]">
             Aucune ville trouvée pour ces critères.

@@ -30,6 +30,19 @@ function Bar({ blocs, tall }: { blocs: Record<Bloc, number>; tall?: boolean }) {
   );
 }
 
+// Même barre en UN seul élément (dégradé à paliers nets) pour la liste des
+// 593 villes : la version à un <span> par famille pesait ~6 balises par ligne,
+// soit ~3 500 balises dans un <details> fermé.
+function barGradient(blocs: Record<Bloc, number>): string {
+  let at = 0;
+  const stops = BLOC_ORDER.filter((b) => blocs[b] > 0).map((b) => {
+    const from = at;
+    at += blocs[b];
+    return `${BLOC_COLORS[b]} ${from.toFixed(1)}% ${at.toFixed(1)}%`;
+  });
+  return `linear-gradient(to right, ${stops.join(", ")})`;
+}
+
 export function Projection2027Hub({ rows, locale }: { rows: HubCityRow[]; locale: "fr" | "en" }) {
   const t = (fr: string, en: string) => (locale === "fr" ? fr : en);
   const L = BLOC_LABEL[locale];
@@ -160,7 +173,7 @@ export function Projection2027Hub({ rows, locale }: { rows: HubCityRow[]; locale
               <Link href={cityHref(r.slug)} className="w-32 shrink-0 truncate text-sm text-[var(--text-primary)] hover:text-[var(--accent)] hover:underline sm:w-48">
                 {r.name}
               </Link>
-              <div className="min-w-0 flex-1"><Bar blocs={r.p.blocs} /></div>
+              <span className="h-2 min-w-0 flex-1 rounded-full" style={{ background: barGradient(r.p.blocs) }} aria-hidden />
               <span className="w-24 shrink-0 text-right text-xs sm:w-32">
                 <span className="font-semibold" style={{ color: BLOC_COLORS[r.p.lead] }}>{L[r.p.lead]}</span>{" "}
                 <span className="tabular-nums text-[var(--text-tertiary)]">{r.p.blocs[r.p.lead]}%</span>
