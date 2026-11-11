@@ -15,13 +15,14 @@ import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Couverture commerciale · palmarès villes 2026",
   description:
-    "Où l'offre commerciale est la plus dense et où la dévitalisation gagne. Top 30 villes les mieux couvertes vs top 20 en tension. Proxy honnête, pas un décompte terrain.",
+    clampMeta("Où l'offre commerciale est la plus dense et où la dévitalisation gagne. Top 30 villes les mieux couvertes vs top 20 en tension. Proxy honnête, pas un décompte terrain."),
   alternates: pathAlternates("/commerces", "/retail-coverage"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

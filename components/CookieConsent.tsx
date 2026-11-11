@@ -105,26 +105,29 @@ export function CookieConsent() {
       role="dialog"
       aria-live="polite"
       aria-label={COPY.title}
-      className="fixed bottom-3 left-3 right-3 z-[90] sm:left-5 sm:right-auto sm:bottom-5 sm:max-w-[360px] animate-cookie-in"
+      // Sous lg, le bandeau se pose AU-DESSUS de la barre d'onglets du bas (3,75 rem
+      // + encoche) : collé en bas, il masquait toute la navigation tant que le
+      // visiteur n'avait pas répondu.
+      className="fixed bottom-[calc(3.75rem+env(safe-area-inset-bottom)+0.5rem)] left-3 right-3 z-[90] sm:left-5 sm:right-auto sm:max-w-[360px] lg:bottom-5 animate-cookie-in"
     >
       {/* « Couleurs » (2026-10-25): white card with a vivid indigo → violet →
           pink header strip carrying the eyebrow and the title, a pastel cookie
           medallion, gradient primary button. No paper, no contour strip, no
           dashed rules — the old « Carte & plaque » slip is gone. */}
       <div className="relative overflow-hidden rounded-2xl bg-[var(--bg-surface)] ring-1 ring-[#C7D2FE] shadow-[0_18px_44px_-16px_rgba(79,70,229,0.55)]">
-        <div className="relative px-4 pt-3.5 pb-3 pr-11 sm:px-5" style={{ background: "var(--band-bold)" }}>
+        <div className="relative px-4 py-2.5 pr-11 sm:px-5 sm:pt-3.5 sm:pb-3" style={{ background: "var(--band-bold)" }}>
           <div className="flex items-center gap-3">
             <span
-              className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-white/95 text-xl shadow-[0_4px_12px_-4px_rgba(30,27,75,0.5)]"
+              className="hidden h-10 w-10 shrink-0 place-items-center rounded-xl bg-white/95 text-xl shadow-[0_4px_12px_-4px_rgba(30,27,75,0.5)] sm:grid"
               aria-hidden="true"
             >
               🍪
             </span>
             <div className="min-w-0 flex-1">
-              <div className="text-[10px] font-semibold uppercase tracking-[0.16em] text-white">
+              <div className="hidden text-[10px] font-semibold uppercase tracking-[0.16em] text-white sm:block">
                 {COPY.eyebrow}
               </div>
-              <div className="mt-0.5 font-display text-[18px] leading-tight text-white">
+              <div className="font-display text-[17px] leading-tight text-white sm:mt-0.5 sm:text-[18px]">
                 {COPY.title}
               </div>
             </div>
@@ -139,31 +142,31 @@ export function CookieConsent() {
           </button>
         </div>
 
-        <div className="px-4 pt-3 pb-3.5 sm:px-5 sm:pb-4">
-          <p className="text-[13px] leading-relaxed text-[var(--text-secondary)]">
+        <div className="px-4 pt-2.5 pb-3 sm:px-5 sm:pt-3 sm:pb-4">
+          <p className="text-[12.5px] leading-snug text-[var(--text-secondary)] sm:text-[13px] sm:leading-relaxed">
             {COPY.body}
           </p>
 
-          <div className="mt-3.5 flex items-center gap-2">
+          <div className="mt-2.5 flex items-center gap-2 sm:mt-3.5">
             <button
               type="button"
               onClick={() => persist("granted")}
-              className="btn-couleurs flex-1 rounded-full px-3.5 py-2 text-[13px] font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2"
+              className="btn-couleurs min-h-10 flex-1 rounded-full px-3.5 py-2 text-[13px] font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)] focus-visible:ring-offset-2"
             >
               {COPY.accept}
             </button>
             <button
               type="button"
               onClick={() => persist("denied")}
-              className="flex-1 rounded-full bg-[var(--accent-soft)] px-3.5 py-2 text-[13px] font-semibold text-[var(--accent-hover)] ring-1 ring-[#C7D2FE] hover:bg-[var(--band-indigo)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
+              className="min-h-10 flex-1 rounded-full bg-[var(--accent-soft)] px-3.5 py-2 text-[13px] font-semibold text-[var(--accent-hover)] ring-1 ring-[#C7D2FE] hover:bg-[var(--band-indigo)] transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]"
             >
               {COPY.refuse}
             </button>
           </div>
 
-          <div className="mt-3 flex items-center justify-between gap-2">
+          <div className="mt-2.5 flex items-center justify-end gap-2 sm:mt-3 sm:justify-between">
             <span
-              className="inline-flex items-center gap-1 rounded-full bg-[var(--band-aqua)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0E7490]"
+              className="hidden items-center gap-1 sm:inline-flex rounded-full bg-[var(--band-aqua)] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#0E7490]"
               aria-hidden="true"
             >
               <Cookie size={11} strokeWidth={2.4} />

@@ -10,13 +10,14 @@ import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
 import { AIR_MEASURED_MAX_KM, AIR_MEASURED_YEAR } from "@/lib/air-quality";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Villes les plus saines de France · index environnemental 2026",
+  title: "Villes les plus saines de France · Index 2026",
   description:
-    "Classement national des villes françaises selon leur santé environnementale : qualité de l'air, bruit, stress hydrique, risques naturels. Top 30 villes les plus saines + top 20 villes les plus exposées. Méthodologie publique.",
+    clampMeta("Classement national des villes françaises selon leur santé environnementale : qualité de l'air, bruit, stress hydrique, risques naturels. Top 30 villes les plus saines + top 20 villes les plus exposées. Méthodologie publique."),
   alternates: pathAlternates("/environnement", "/environment"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -12,7 +12,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Week-end depuis votre ville · Destinations accessibles en train 2026",
+  title: "Week-end en train depuis votre ville · Destinations 2026",
   description:
     "Choisissez votre ville de départ et découvrez toutes les destinations françaises classées par temps de trajet. Idéal pour planifier un week-end ou une escapade.",
   alternates: pathAlternates("/depuis", "/weekend-getaways"),

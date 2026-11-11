@@ -18,11 +18,12 @@ import type { City } from "@/lib/types";
 import { RANKINGS_COUNT } from "@/lib/site-stats";
 import { getRankedCities, type RankingSlug } from "@/lib/rankings";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Classements villes françaises 2026 · Famille, Budget",
   description:
-    "Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité, culture, mobilité, investissement, logement abordable. Données 2026.",
+    clampMeta("Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité. Données 2026."),
   openGraph: {
     title: "Classements des meilleures villes françaises 2026",
     description: `${RANKINGS_COUNT} classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, gastronomie, investissement, logement, jeunes actifs et plus.`,

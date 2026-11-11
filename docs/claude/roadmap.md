@@ -7,6 +7,9 @@
 
 ## Technical roadmap — pending
 
+**Audit 2026-11-11** (`docs/audits/audit-2026-11-11.md`) — livré : bandeau cookies compact sur téléphone, radar triplet en SVG serveur (recharts retiré, −103 Ko gzip), 34 titres et 52 descriptions ramenés sous 60 / 165 caractères.
+Reste, par gain : alléger `/orientation-politique` (10 338 balises) et `/leaderboard` (594 lignes), sortir `CITIES_LIGHT` du HTML de ~30 pages, différer `gtag.js`, hreflang des 29 thèmes Red Flags, garde de longueur des métadonnées dans `integrity`.
+
 Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.
 
 - [x] **`NEXT_PUBLIC_BASE_URL`** — set in `wrangler.toml [vars]` (`https://www.mavilleideale.fr`); EN export sets `NEXT_PUBLIC_DEFAULT_LOCALE=en`.

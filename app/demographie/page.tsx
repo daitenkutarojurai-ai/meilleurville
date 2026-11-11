@@ -14,7 +14,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Démographie en France · villes dynamiques vs. vieillissantes 2026",
+  title: "Démographie 2026 · Villes dynamiques ou vieillissantes",
   description:
     "Classement des villes françaises selon le profil démographique : vieillissement et trajectoire mesurés au recensement Insee, jeunes actifs et renouvellement estimés.",
   alternates: pathAlternates("/demographie", "/demographics"),

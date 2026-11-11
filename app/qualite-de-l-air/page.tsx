@@ -17,6 +17,7 @@ import {
   airRankingHead,
   rankAir,
 } from "@/lib/air-measured-ranking";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
@@ -45,7 +46,7 @@ const pct = (n: number, d: number) => (d ? Math.round((n / d) * 100) : 0);
 
 export const metadata: Metadata = {
   title: `Qualité de l'air dans les villes de France — mesures ${AIR_MEASURE_YEAR}`,
-  description: `Pollution de l'air mesurée en ${AIR_MEASURE_YEAR} par les stations officielles : les villes où l'air est le plus pur et le plus pollué (NO₂, particules fines, ozone), ${no2.pool} villes classées.`,
+  description: clampMeta(`Pollution de l'air mesurée en ${AIR_MEASURE_YEAR} par les stations officielles : les villes où l'air est le plus pur et le plus pollué (NO₂, particules fines, ozone), ${no2.pool} villes classées.`),
   alternates: pathAlternates("/qualite-de-l-air", "/air-quality"),
   openGraph: {
     images: ["/opengraph-image"],

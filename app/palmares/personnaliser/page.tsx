@@ -6,13 +6,14 @@ import { Badge } from "@/components/ui/Badge";
 import { PersonalSynthesisQuiz } from "@/components/PersonalSynthesisQuiz";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Palmarès personnalisé 8 axes · top 10 villes 2026",
   description:
-    "Quiz court 8 sliders : pondérez environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics selon vos priorités. Top 10 villes recalculé en direct + lien partageable.",
+    clampMeta("Quiz court 8 sliders : pondérez environnement, santé, emploi, cadre de vie, vélo, sécurité, démographie, services publics selon vos priorités. Top 10 villes recalculé en direct + lien partageable."),
   alternates: { canonical: "/palmares/personnaliser" },
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

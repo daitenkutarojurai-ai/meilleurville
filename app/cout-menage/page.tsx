@@ -10,7 +10,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: `Coût de la vie : solo, couple, famille, retraité (${CITIES_COUNT} villes)`,
+  title: `Coût de la vie : solo, couple, famille (${CITIES_COUNT} villes)`,
   description: `Charges fixes mensuelles dans ${CITIES_COUNT} villes françaises selon 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Médians DGFiP + ADEME. Indicatif.`,
   alternates: pathAlternates("/cout-menage", "/household-cost"),
   openGraph: {

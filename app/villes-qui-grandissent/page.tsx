@@ -15,13 +15,14 @@ import {
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { CITIES_COUNT, POPULATION_MEASURED_COUNT } from "@/lib/site-stats";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript, SITE_URL } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Villes qui grandissent (et qui perdent) en France · Insee 2016-2022",
+  title: "Villes qui grandissent ou se vident · Insee 2016-2022",
   description:
-    "Classement Insee des villes françaises qui gagnent le plus d'habitants entre 2016 et 2022, et de celles qui en perdent le plus. Chiffres réels du recensement, filtre 15 000 habitants.",
+    clampMeta("Classement Insee des villes françaises qui gagnent le plus d'habitants entre 2016 et 2022, et de celles qui en perdent le plus. Chiffres réels du recensement, filtre 15 000 habitants."),
   alternates: { canonical: "/villes-qui-grandissent" },
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -15,13 +15,14 @@ import {
 } from "@/lib/city-badge";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { ChevronRight } from "lucide-react";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Badge « Nᵉ ville de France » à embarquer sur votre site",
   description:
-    "Badge libre et gratuit à intégrer sur votre site : classement de votre ville selon les 8 axes de qualité de vie de MaVilleIdéale. Copier-coller HTML, sans compte, sans tracker.",
+    clampMeta("Badge libre et gratuit à intégrer sur votre site : classement de votre ville selon les 8 axes de qualité de vie de MaVilleIdéale. Copier-coller HTML, sans compte, sans tracker."),
   alternates: { canonical: "/badge" },
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

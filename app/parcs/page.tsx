@@ -19,6 +19,7 @@ import {
   PARKS_TOTAL,
   type CityParks,
 } from "@/lib/city-parks";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
@@ -29,7 +30,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.
 
 export const metadata: Metadata = {
   title: `Parcs & espaces verts · ${PARKS_TOTAL} parcs dans ${PARKS_CITY_COUNT} villes`,
-  description: `Les parcs, jardins publics et aires de jeux de ${PARKS_CITY_COUNT} villes françaises, référencés sur OpenStreetMap. Aire de jeux, accessibilité poussette, point d'eau — de quoi changer de parc ce week-end.`,
+  description: clampMeta(`Les parcs, jardins publics et aires de jeux de ${PARKS_CITY_COUNT} villes françaises, référencés sur OpenStreetMap. Aire de jeux, accessibilité poussette, point d'eau — de quoi changer de parc ce week-end.`),
   alternates: pathAlternates("/parcs", "/parks"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

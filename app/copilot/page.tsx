@@ -5,10 +5,11 @@ import { CopilotClient } from "./CopilotClient";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Copilote Déménagement IA",
-  description: `Posez vos questions à notre assistant IA : il connaît les ${CITIES_COUNT} villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports. Recommandations personnalisées en quelques secondes.`,
+  description: clampMeta(`Posez vos questions à notre assistant IA : il connaît les ${CITIES_COUNT} villes françaises, leurs loyers, scores de qualité de vie, fiscalité et transports. Recommandations personnalisées en quelques secondes.`),
   alternates: pathAlternates("/copilot", "/copilot"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

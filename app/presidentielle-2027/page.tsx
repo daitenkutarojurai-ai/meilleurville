@@ -25,7 +25,7 @@ export const dynamic = "force-static";
 // présidentielle 2027 », « date présidentielle 2027 », « candidats 2027 ».
 // Cette page les réunit et renvoie vers la projection de chaque ville.
 export const metadata: Metadata = {
-  title: "Présidentielle 2027 : sondages, dates, candidats et votre ville",
+  title: "Présidentielle 2027 : sondages, dates, candidats, villes",
   description:
     `1er tour le 18 avril 2027 : moyenne des sondages, candidats, calendrier, actualité et projection du vote dans ${allPoliticalLeans().length} villes.`,
   alternates: { canonical: "/presidentielle-2027" },

@@ -9,11 +9,12 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Meilleur rapport qualité/prix 2026 · Villes sous-cotées",
   description:
-    "Top 50 villes françaises au meilleur rapport qualité de vie / prix m² 2026. Indicateur unique : score qualité de vie pondéré par le prix immobilier. Les bons plans sous-cotés.",
+    clampMeta("Top 50 villes françaises au meilleur rapport qualité de vie / prix m² 2026. Indicateur unique : score qualité de vie pondéré par le prix immobilier. Les bons plans sous-cotés."),
   alternates: { canonical: "/classements/meilleur-rapport-qualite-prix" },
 };
 

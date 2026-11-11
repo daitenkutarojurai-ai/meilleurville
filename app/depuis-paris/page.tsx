@@ -9,7 +9,7 @@ import { scoreColor, formatScore } from "@/lib/utils";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Les villes les plus accessibles depuis Paris en train · Classement 2026",
+  title: "Villes accessibles en train depuis Paris · Classement 2026",
   description: "Temps de trajet ferroviaire Paris ↔ chaque ville française. Top villes < 1 h, < 2 h, < 3 h depuis Paris-gares. Idéal télétravailleurs et week-end commuters.",
   alternates: pathAlternates("/depuis-paris", "/from-paris"),
   openGraph: {

@@ -11,7 +11,7 @@ export const revalidate = false;
 export const dynamicParams = false;
 
 export const metadata: Metadata = {
-  title: "City Match — quelle ville française vous correspond vraiment ?",
+  title: "City Match · La ville française qui vous correspond",
   description:
     `8 questions, 90 secondes : on calcule votre match personnel parmi ${CITIES_LIGHT.length} villes françaises. Top 3 + match surprise, classement live à chaque réponse, lien partageable.`,
   alternates: pathAlternates("/city-match", "/city-match"),

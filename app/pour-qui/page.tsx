@@ -8,10 +8,11 @@ import { Badge } from "@/components/ui/Badge";
 import { PROFILE_PAGES } from "@/lib/profile-pages";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Pour qui · Villes françaises adaptées à votre profil 2026",
-  description: `${PROFILE_PAGES.length} profils de vie, ${PROFILE_PAGES.length} classements top 20 calibrés sur les axes qui comptent : familles, couples, jeunes actifs, retraités, freelances, étudiants, primo-accédants, et plus.`,
+  description: clampMeta(`${PROFILE_PAGES.length} profils de vie, ${PROFILE_PAGES.length} classements top 20 : familles, couples, jeunes actifs, retraités, freelances, étudiants, primo-accédants.`),
   alternates: pathAlternates("/pour-qui", "/for-who"),
 };
 

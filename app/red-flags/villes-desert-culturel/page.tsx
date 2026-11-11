@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { RedFlagThemePage } from "@/components/RedFlagThemePage";
 import { getRedFlagTheme } from "@/lib/red-flag-themes";
+import { clampMeta } from "@/lib/brand";
 
 const theme = getRedFlagTheme("villes-desert-culturel");
 
 export const metadata: Metadata = theme
   ? {
       title: theme.metaTitle,
-      description: theme.metaDescription,
+      description: clampMeta(theme.metaDescription),
       alternates: { canonical: `/red-flags/${theme.slug}` },
       openGraph: { title: theme.metaTitle, description: theme.metaDescription, images: ["/opengraph-image"] },
     }

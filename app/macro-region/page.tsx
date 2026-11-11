@@ -9,11 +9,12 @@ import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { citiesInMacroRegion } from "@/lib/macro-regions-rankings";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Macro-régions françaises 2026 · Côte, arc, vallée",
   description:
-    "6 macro-régions thématiques au-delà du découpage administratif : côte atlantique, arc méditerranéen, arc alpin, sud-ouest gascon, vallée du Rhône, Île-de-France élargie.",
+    clampMeta("6 macro-régions au-delà du découpage administratif : côte atlantique, arc méditerranéen, arc alpin, sud-ouest, vallée du Rhône, Île-de-France élargie."),
   alternates: pathAlternates("/macro-region", "/geographic-zones"),
 };
 

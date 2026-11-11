@@ -17,7 +17,7 @@ const nextConfig: NextConfig = {
   // module graph into the shared chunk — the icon set alone built a 4.7 MB one.
   // This rewrites them to deep imports at compile time.
   experimental: {
-    optimizePackageImports: ["lucide-react", "recharts"],
+    optimizePackageImports: ["lucide-react"],
   },
 };
 

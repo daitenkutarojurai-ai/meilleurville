@@ -12,11 +12,12 @@ import {
 } from "@/lib/regions";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Comparer les régions françaises · 78 comparatifs 2026",
   description:
-    "Comparez 2 régions françaises côte à côte : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. 78 combinaisons des 13 régions métropolitaines.",
+    clampMeta("Comparez 2 régions françaises côte à côte : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. 78 combinaisons des 13 régions métropolitaines."),
   alternates: pathAlternates("/comparer-regions", "/compare-regions"),
 };
 

@@ -14,13 +14,14 @@ import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Risques naturels en France · palmarès par ville 2026",
   description:
-    "Quelles villes cumulent le plus de risques naturels (inondation, sismicité, argile, feux) vs lesquelles sont les plus tranquilles. Synthèse 4 aléas, BCSF + BRGM + ONF.",
+    clampMeta("Quelles villes cumulent le plus de risques naturels (inondation, sismicité, argile, feux) vs lesquelles sont les plus tranquilles. Synthèse 4 aléas, BCSF + BRGM + ONF."),
   alternates: pathAlternates("/risques", "/natural-risks"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

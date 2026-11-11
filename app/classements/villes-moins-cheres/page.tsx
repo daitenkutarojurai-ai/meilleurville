@@ -10,11 +10,12 @@ import { HOUSING } from "@/data/housing";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Villes les moins chères de France 2026 · Loyer T2",
   description:
-    "Top 50 des villes françaises où se loger coûte le moins cher en 2026. Classement par loyer T2 médian croissant — données observatoires des loyers (ANIL) et prix m² DVF.",
+    clampMeta("Top 50 des villes françaises où se loger coûte le moins cher en 2026, classées par loyer T2 médian. Sources : observatoires des loyers (ANIL), DVF."),
   alternates: pathAlternates("/classements/villes-moins-cheres", "/cheapest-cities"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

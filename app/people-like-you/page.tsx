@@ -9,14 +9,15 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
 
 export const metadata: Metadata = {
-  title: "Les profils comme vous vont là — recommandations de destinations 2026",
+  title: "Où vont les profils comme vous · Villes recommandées 2026",
   description:
-    "Choisissez votre profil de vie (famille, freelance, retraité·e, jeune actif…) et votre ville actuelle : on calcule les destinations où des gens comme vous s'épanouissent davantage.",
+    clampMeta("Choisissez votre profil de vie et votre ville actuelle : on calcule les destinations où des gens comme vous s'épanouissent davantage."),
   alternates: pathAlternates("/people-like-you", "/people-like-you"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

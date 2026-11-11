@@ -10,13 +10,14 @@ import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Accès aux soins en France · meilleurs hôpitaux vs. déserts médicaux 2026",
+  title: "Accès aux soins 2026 · Villes bien dotées, déserts médicaux",
   description:
-    "Classement national des villes françaises selon l'accès aux soins : médecins généralistes, spécialistes, urgences, pharmacies. Top 30 meilleur accès vs. top 20 accès difficile. Généralistes mesurés (APL DREES), spécialistes estimés.",
+    clampMeta("Classement des villes françaises selon l'accès aux soins : généralistes, spécialistes, urgences, pharmacies. Top 30 meilleur accès, top 20 accès difficile."),
   alternates: pathAlternates("/sante", "/healthcare"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -10,13 +10,14 @@ import { MACRO_REGIONS } from "@/lib/macro-regions";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Sécurité en France — villes calmes vs. tendues 2026",
   description:
-    "Classement des villes françaises selon la sécurité : atteintes aux biens, aux personnes, nuit, violences faites aux femmes. Estimation communale, pas les faits enregistrés.",
+    clampMeta("Classement des villes françaises selon la sécurité : atteintes aux biens, aux personnes, nuit, violences faites aux femmes. Estimation communale, pas les faits enregistrés."),
   alternates: pathAlternates("/securite", "/safety"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

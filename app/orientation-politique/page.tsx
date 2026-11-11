@@ -25,15 +25,16 @@ import { Projection2027Hub, type HubCityRow } from "@/components/Projection2027H
 import { PollTracker } from "@/components/PollTracker";
 import { PoliticalNewsFeed } from "@/components/PoliticalNewsFeed";
 import { ReportCTA } from "@/components/ReportCTA";
+import { clampMeta } from "@/lib/brand";
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
 
 export const dynamic = "force-static";
 
 export const metadata: Metadata = {
-  title: "Présidentielle 2027 : projection ville par ville · Orientation politique",
+  title: "Présidentielle 2027 : projection ville par ville",
   description:
-    `Qui arriverait en tête au 1er tour 2027 dans votre ville ? Projection pour ${allPoliticalLeans().length} villes d'après les derniers sondages nationaux, et rappel du vote 2022 (Ministère de l'Intérieur).`,
+    clampMeta(`Qui arriverait en tête au 1er tour 2027 dans votre ville ? Projection pour ${allPoliticalLeans().length} villes d'après les derniers sondages, et rappel du vote 2022.`),
   alternates: pathAlternates("/orientation-politique", "/political-leaning"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine

@@ -21,12 +21,13 @@ import {
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { MapPin, ChevronRight, Calendar, Sparkles } from "lucide-react";
 import { pathAlternates } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Où partir en vacances en France 2026 · guide mois par mois",
-  description: `Le bon mois, la bonne destination. Classement honnête des ${CITIES_COUNT} villes françaises pour vos vacances : plage, montagne, citytrip, vignobles. Données climat + affluence + budget.`,
+  description: clampMeta(`Le bon mois, la bonne destination. Classement honnête des ${CITIES_COUNT} villes françaises pour vos vacances : plage, montagne, citytrip, vignobles. Données climat + affluence + budget.`),
   alternates: pathAlternates("/vacances", "/vacations"),
   openGraph: {
     title: "Vacances en France · où partir, quand, pour quoi",

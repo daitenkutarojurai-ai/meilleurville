@@ -2841,7 +2841,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-voiture-difficile",
     title: "Villes où vivre sans voiture est vraiment difficile",
-    metaTitle: "Villes sans voiture difficile 2026 — Le revers du discours « bike-friendly »",
+    metaTitle: "Villes où vivre sans voiture est difficile · 2026",
     metaDescription:
       "Classement des villes françaises ≥ 30 000 hab. où vivre sans voiture reste compliqué : pas de tram, offre TER limitée. Score sans-voiture calibré sur transport + densité réseau.",
     emoji: "🚗",
@@ -2856,7 +2856,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-belles-invivables-ete",
     title: "Villes belles… mais invivables l'été",
-    metaTitle: "Villes invivables l'été 2026 — Belles sur photo, étouffantes en juillet",
+    metaTitle: "Villes invivables l'été 2026 : belles, mais étouffantes",
     metaDescription:
       "Classement des villes françaises séduisantes mais en surchauffe estivale : canicule, tourisme de masse, étés ≥ 27 °C. Données Météo-France (climato 1991-2020).",
     emoji: "🥵",
@@ -2871,9 +2871,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-pollution-air-chronique",
     title: "Villes à l'air irrespirable l'hiver",
-    metaTitle: "Pollution air chronique 2026 — Villes françaises au PM2.5 hivernal élevé",
+    metaTitle: "Pollution de l'air 2026 : les villes au PM2.5 élevé",
     metaDescription:
-      "Classement 2026 des villes françaises où l'air dépasse durablement le seuil OMS : cuvettes alpines (inversion thermique), bassin parisien NO₂, couloir rhodanien, façades portuaires. Source ATMO France PM2.5.",
+      "Classement 2026 des villes françaises où l'air dépasse durablement le seuil OMS : cuvettes alpines, bassin parisien, couloir rhodanien. Source ATMO France.",
     emoji: "🌫️",
     intro:
       "L'agence immobilière vante la vue sur les Alpes ou les boulevards haussmanniens. Personne ne mentionne le brouillard épais de janvier-février quand l'inversion thermique piège les particules fines au fond de la vallée, ni les alertes NO₂ chroniques le long du périphérique parisien. La pollution chronique ne se voit pas sur la photo immobilière — mais elle se respire 365 jours par an.",
@@ -2886,7 +2886,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-risques-naturels",
     title: "Villes les plus exposées aux risques naturels",
-    metaTitle: "Risques naturels 2026 — Villes françaises les plus exposées (inondation, argile, feu, séisme)",
+    metaTitle: "Risques naturels 2026 : les villes les plus exposées",
     metaDescription:
       "Classement 2026 des villes françaises au composite le plus élevé sur les 4 aléas : inondation, retrait-gonflement argile (BRGM), feu de forêt (ONF/ECASC), sismicité (zonage 2011). Données ouvertes Géorisques.",
     emoji: "⚠️",
@@ -2901,7 +2901,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-bruit-cauchemar",
     title: "Villes où le bruit est un cauchemar quotidien",
-    metaTitle: "Bruit cauchemar 2026 — Villes françaises les plus exposées (routier, aérien, nocturne)",
+    metaTitle: "Villes les plus bruyantes de France · classement 2026",
     metaDescription:
       "Classement 2026 des villes françaises où le bruit cumule trafic routier saturé, survols aéroportuaires (PEB), LGV et vie nocturne. Données CBS / DGAC / Bruitparif. Composite agrégé.",
     emoji: "🔊",
@@ -2916,9 +2916,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-eau-ete",
     title: "Villes où l'eau manquera l'été — sécheresse & restrictions",
-    metaTitle: "Sécheresse 2026 — Villes françaises au stress hydrique le plus élevé (Propluvia, BRGM)",
+    metaTitle: "Sécheresse 2026 : villes au stress hydrique le plus élevé",
     metaDescription:
-      "Classement 2026 des villes françaises où la sécheresse est devenue récurrente : arrêtés Propluvia crise quasi-annuels, nappes BRGM basses, alimentation eau potable sous tension. Composite agrégé.",
+      "Classement 2026 des villes françaises où la sécheresse est devenue récurrente : arrêtés Propluvia quasi annuels, nappes basses, eau potable sous tension.",
     emoji: "💧",
     intro:
       "L'annonce vante le climat ensoleillé, la piscine, le jardin méditerranéen. Personne ne mentionne que l'arrosage est interdit cinq mois par an, que la piscine se vide à la mi-juillet, que la nappe locale est basse depuis trois ans et que la commune envisage des tours d'eau l'été prochain. La sécheresse ne se voit pas sur la photo en mai — elle se subit en août.",
@@ -2931,7 +2931,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-desert-medical",
     title: "Villes désert médical — accès aux soins critique",
-    metaTitle: "Désert médical 2026 — les villes sous le seuil de zone sous-dense",
+    metaTitle: "Déserts médicaux 2026 : les villes en zone sous-dense",
     metaDescription:
       "Villes de 10 000 hab. et plus sous le seuil de zone sous-dense en médecine générale (APL DREES 2024 < 2,5) : " + CORPUS_DESERT_MEDICAL.n + " villes, dont " + CORPUS_DESERT_MEDICAL.idf + " en Île-de-France.",
     emoji: "🩺",
@@ -2946,9 +2946,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-chomage-eleve",
     title: "Villes au chômage chronique — marché du travail sinistré",
-    metaTitle: "Chômage chronique 2026 — Villes françaises au marché du travail le plus tendu",
+    metaTitle: "Chômage 2026 : les villes au marché du travail tendu",
     metaDescription:
-      "Villes françaises ≥ 15 000 hab. qui cumulent chômage élevé, emplois en recul et salaires bas, mesurés commune par commune par l'Insee : Sedan, Bruay-la-Buissière…",
+      "Villes françaises ≥ 15 000 hab. qui cumulent chômage élevé, emplois en recul et salaires bas, mesurés commune par commune par l'Insee.",
     emoji: "📉",
     intro:
       "L'agence vante la maison de ville à 1 200 €/mois, le centre-ville charmant, la possibilité de tout payer cash. Personne ne mentionne que le bassin d'emploi local est sinistré depuis la fermeture du dernier site industriel, que près d'un actif sur cinq se déclare au chômage et que la commune compte moins d'emplois qu'il y a six ans. Le chômage chronique ne se voit pas sur la photo immobilière — il se découvre en cherchant un emploi six mois après l'installation.",
@@ -2961,9 +2961,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-cadre-de-vie-tendu",
     title: "Villes au cadre de vie tendu — cumul environnement + santé + emploi",
-    metaTitle: "Cadre de vie tendu 2026 — Villes françaises au composite le plus faible",
+    metaTitle: "Cadre de vie tendu 2026 : les villes les moins bien notées",
     metaDescription:
-      "Classement 2026 des villes françaises ≥ 15 000 hab. au méga-index Cadre de Vie le plus bas : cumul environnement dégradé + accès aux soins difficile + marché du travail tendu. Composite agrégé.",
+      "Classement 2026 des villes ≥ 15 000 hab. au Cadre de Vie le plus bas : environnement dégradé, accès aux soins difficile et marché du travail tendu.",
     emoji: "😓",
     intro:
       "Sur le papier : maison accessible, fiscalité raisonnable, vie de quartier. Sur le terrain : air médiocre, désert médical, marché du travail sinistré. Quand un seul pilier dérape, on s'adapte ; quand deux ou trois piliers s'effondrent en même temps, le projet de vie devient une succession de compromis perdants. Le cadre de vie tendu ne se voit pas sur la photo — il se subit à chaque appel chez le médecin, à chaque recherche d'emploi, à chaque pic de pollution.",
@@ -2976,7 +2976,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-couts-explosifs",
     title: "Villes aux coûts explosifs — quand le ménage famille pèse plus que le salaire local",
-    metaTitle: "Coûts explosifs 2026 — Villes où le coût famille dépasse le salaire médian dept",
+    metaTitle: "Coût de la vie 2026 : villes trop chères pour une famille",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 20 000 hab. où le coût mensuel d'un ménage famille (lib) dépasse 60 % du salaire net médian départemental. Loyer, chauffage, mobilité, taxes.",
     emoji: "💥",
@@ -2991,7 +2991,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-desert-services-publics",
     title: "Villes en désert de services publics — la double peine du rural et des DROM tendus",
-    metaTitle: "Désert services publics 2026 — Villes françaises au maillage rompu",
+    metaTitle: "Services publics 2026 : les villes les moins bien loties",
     metaDescription:
       "Classement 2026 des villes ≥ 10 000 hab. au composite services publics ≥ 6,5/10 : écoles, La Poste & France Services, mairie, médiathèque. Sources DEPP / CAF / La Poste / ANCT.",
     emoji: "🏛️",
@@ -3006,7 +3006,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-anti-velo",
     title: "Villes où le vélo au quotidien reste hors de portée",
-    metaTitle: "Villes anti-vélo 2026 — Où le vélo quotidien reste hors d'atteinte",
+    metaTitle: "Villes anti-vélo 2026 : où pédaler au quotidien coince",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. au composite cyclabilité ≤ 4,5/10 : faible réseau, relief, dangerosité, climat hostile. Sources Baromètre FUB + EuroVelo + Vélo & Territoires.",
     emoji: "🚲",
@@ -3021,7 +3021,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-vieillissement-critique",
     title: "Villes en vieillissement critique — pyramide étroite à la base et solde négatif",
-    metaTitle: "Vieillissement critique 2026 — Villes françaises en décroissance démographique",
+    metaTitle: "Villes qui vieillissent et se dépeuplent · 2026",
     metaDescription:
       "Classement 2026 des villes ≥ 10 000 hab. au composite démographique ≥ 7/10 : seniors 60+, déficit jeunes actifs, solde naturel + migratoire négatif. Source INSEE RP + Bilan démographique.",
     emoji: "🕰️",
@@ -3036,9 +3036,9 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-nuit-tendue",
     title: "Villes à la sécurité nocturne tendue — centres festifs sous pression",
-    metaTitle: "Sécurité nocturne tendue 2026 — Villes françaises festives sous pression SSMSI",
+    metaTitle: "Sécurité la nuit 2026 : les villes festives sous tension",
     metaDescription:
-      "Classement 2026 des villes ≥ 15 000 hab. dont le sous-score sécurité nocturne dépasse 6,5/10 : rixes, agressions nocturnes concentrées sur les centres festifs / étudiants / touristiques. Source SSMSI.",
+      "Classement 2026 des villes ≥ 15 000 hab. où la nuit est la plus tendue : rixes et agressions concentrées dans les centres festifs. Source SSMSI.",
     emoji: "🌙",
     intro:
       "La sécurité globale dit « moyenne », mais le ressenti nocturne dans certaines hyper-centres festifs, étudiants ou touristiques est tout autre : rixes en sortie de boîte, agressions sur le retour de soirée, signalements concentrés sur 4 rues du centre. Indicateur particulièrement pertinent pour étudiantes, jeunes actifs, femmes seules en sortie nocturne.",
@@ -3066,7 +3066,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-hiver-rude",
     title: "Villes où l'hiver est le plus rude",
-    metaTitle: "Hiver rude 2026 — Villes françaises les plus dures en janvier",
+    metaTitle: "Hiver rude 2026 : les villes les plus dures en janvier",
     metaDescription:
       "Classement 2026 des villes françaises au pire hiver : janvier glacial et grisaille tenace cumulés. Températures et ensoleillement Météo-France 1991-2020.",
     emoji: "❄️",
@@ -3098,7 +3098,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     title: "Villes que les 25-35 ans quittent en silence",
     metaTitle: "Villes fuite jeunes actifs 2026 — 25-35 ans en départ",
     metaDescription:
-      "Classement 2026 des villes françaises que les jeunes actifs 25-35 ans quittent : déficit démographique, trajectoire, chômage et emploi local mesurés par l'Insee.",
+      "Classement 2026 des villes françaises que les 25-35 ans quittent : déficit démographique, chômage et emploi local mesurés par l'Insee.",
     emoji: "🎒",
     intro:
       "Le scénario ne se voit pas sur les plaquettes d'attractivité. Les 18-22 ans partent étudier à Lyon, Bordeaux ou Toulouse, certains envisagent vaguement de revenir « plus tard, quand ce sera le moment de fonder une famille »… et ne reviennent jamais. À 30 ans, la promotion entière a basculé sur les pôles métropolitains, et la ville se retrouve avec une démographie de couvercle : les seniors qui restent, les ados qui partiront, et un trou béant en haut de la pyramide active. C'est l'inverse exact du discours de revitalisation des centres-villes.",
@@ -3141,7 +3141,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-pauvres-en-sport",
     title: "Villes où la pratique sportive régulière reste compliquée",
-    metaTitle: "Villes pauvres en sport 2026 — Pratique régulière compliquée",
+    metaTitle: "Villes pauvres en sport 2026 : pratiquer y est compliqué",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. au composite sport & loisirs ≤ 4,5/10 : peu d'équipements municipaux, tissu associatif fragile, cadre outdoor limité. Sources INJEP/RES + DRAJES + Météo-France.",
     emoji: "🏟️",
@@ -3186,7 +3186,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-enseignement-superieur",
     title: "Villes où les enfants devront partir étudier ailleurs",
-    metaTitle: "Sans enseignement supérieur 2026 — Top 12 villes ≥ 30k hab.",
+    metaTitle: "Villes sans enseignement supérieur 2026 · top 12",
     metaDescription:
       "Classement 2026 des villes ≥ 30 000 hab. sans université, école d'ingénieur, école de commerce ni Sciences Po. Source MESR / CGE 2024.",
     emoji: "🎓",
@@ -3216,7 +3216,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-erosion-cotiere",
     title: "Villes en péril côtier — érosion littorale & submersion marine",
-    metaTitle: "Érosion côtière 2026 — Villes du littoral les plus exposées",
+    metaTitle: "Érosion côtière 2026 : les villes du littoral exposées",
     metaDescription:
       "Classement 2026 des villes du littoral français les plus exposées au recul du trait de côte : érosion, falaise, submersion. Sources BRGM TRAIT + GIEC AR6.",
     emoji: "🌊",
@@ -3231,7 +3231,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-chauffage-hivernal-couteux",
     title: "Villes où le chauffage hivernal pèse le plus sur le salaire local",
-    metaTitle: "Chauffage hivernal coûteux 2026 — Précarité énergétique latente",
+    metaTitle: "Chauffage coûteux 2026 : villes à précarité énergétique",
     metaDescription:
       "Classement 2026 des villes françaises où la facture chauffage T2 (ADEME) pèse le plus dans le salaire net médian départemental. Zone climatique, altitude, salaire INSEE.",
     emoji: "🥶",
@@ -3261,7 +3261,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-deficit-soleil-hiver",
     title: "Villes en déficit chronique de soleil l'hiver",
-    metaTitle: "Déficit de soleil hivernal 2026 — Top 12 villes les plus sombres",
+    metaTitle: "Villes les moins ensoleillées l'hiver · top 12, 2026",
     metaDescription:
       "Classement 2026 des villes françaises au-dessus du 45,5e parallèle avec ≤ 1 950 h de soleil/an : Bretagne, Normandie, Hauts-de-France, Lorraine. Insolation, latitude, janvier.",
     emoji: "☁️",
@@ -3291,7 +3291,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-manque-de-verdure",
     title: "Villes où la verdure quotidienne manque cruellement",
-    metaTitle: "Villes manque de verdure 2026 — Où la nature ne tient pas au quotidien",
+    metaTitle: "Villes qui manquent de verdure · classement 2026",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 30 000 hab. au score nature ≤ 5/10 : peu de parcs, ceinture verte lointaine, densité urbaine étouffante. Familles, retraités, télétravailleurs.",
     emoji: "🌵",
@@ -3306,7 +3306,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-parking-cauchemar",
     title: "Villes où se garer devient un cauchemar quotidien",
-    metaTitle: "Parking cauchemar 2026 — Villes françaises où stationner épuise",
+    metaTitle: "Stationnement 2026 : les villes où se garer épuise",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 40 000 hab. avec centre historique saturé, hyper-centre sans stationnement, tournée 15-25 min pour se garer. Cerema, INDIGO, FNMS.",
     emoji: "🅿️",

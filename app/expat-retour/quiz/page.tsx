@@ -9,11 +9,12 @@ import { Badge } from "@/components/ui/Badge";
 import { Card } from "@/components/ui/Card";
 import { ExpatQuiz } from "@/components/ExpatQuiz";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
+import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
   title: "Quiz expat retour France · Quelle ville pour vous ? 2026",
   description:
-    "Quiz adapté aux Français rentrant de Suisse, Luxembourg, Belgique, UK ou Canada. 5 questions sur votre profil expat → 5 villes françaises calibrées (frontalière ou métropole).",
+    clampMeta("Quiz pour les Français qui rentrent de Suisse, du Luxembourg, de Belgique, du Royaume-Uni ou du Canada : 5 questions, 5 villes françaises calibrées."),
   alternates: { canonical: "/expat-retour/quiz" },
 };
 
