@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
 import { FISC_EN, fiscStateEn } from "@/lib/fiscalite-en";
@@ -105,11 +106,10 @@ export default async function EnDeptTaxPage({ params }: Props) {
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
-      <AmbientBackground />
       <Navbar />
 
-      <section className="relative pt-12 pb-6">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
           <nav className="text-sm text-[var(--text-secondary)]">
             <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
             {" · "}
@@ -119,14 +119,20 @@ export default async function EnDeptTaxPage({ params }: Props) {
             {" · "}
             <span>Property tax</span>
           </nav>
-          <div className={`mt-4 inline-flex items-center gap-2 rounded-full border ${tone.border} ${tone.bg} ${tone.text} px-3 py-1 text-xs font-semibold`}>
+          <div className="mt-5 flex items-center gap-3">
+            <EmojiBadge emoji="💰" tone={toneFor(deptSlug)} />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Property tax
+            </span>
+          </div>
+          <div className={`mt-4 inline-flex items-center gap-2 rounded-full border bg-white/85 ${tone.border} ${tone.text} px-3 py-1 text-xs font-semibold`}>
             <Coins className="h-3.5 w-3.5" />
             {en.label}
           </div>
           <h1 className="mt-4 text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
-            Property tax in {dept}
+            Property tax in <span className="font-display gradient-text-anim italic">{dept}</span>
           </h1>
-          <p className="mt-3 text-[var(--text-secondary)] leading-relaxed">
+          <p className="mt-3 max-w-3xl text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
             A 2026 estimate for the {dept} department ({region}): the annual property tax an owner
             pays, the second-home surcharge, and the duties due on the day you buy.{" "}
             {citiesInDept.length} cit{citiesInDept.length > 1 ? "ies" : "y"} profiled.
@@ -134,11 +140,11 @@ export default async function EnDeptTaxPage({ params }: Props) {
         </div>
       </section>
 
-      <section className="relative pb-12">
+      <section className="band band-indigo py-10 sm:py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           {/* Disclaimer before any figure — the department average is not a quote. */}
-          <div className="mb-8 rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 flex gap-3">
-            <AlertTriangle className="h-5 w-5 text-amber-700 shrink-0 mt-0.5" />
+          <div className="mb-8 rounded-2xl bg-white p-4 flex gap-3 ring-1 ring-[#FBCFE8] shadow-[0_10px_28px_-20px_rgba(219,39,119,0.5)]">
+            <AlertTriangle className="h-5 w-5 text-[#BE185D] shrink-0 mt-0.5" />
             <div className="text-sm text-[var(--text-primary)] leading-relaxed">
               <strong>Department-level estimate.</strong> The figures below are ranges computed for
               the {dept} department as a whole. The municipal share of the property tax and the
@@ -148,13 +154,13 @@ export default async function EnDeptTaxPage({ params }: Props) {
             </div>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-3 mb-8">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <div className="grid gap-4 sm:grid-cols-3">
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center gap-2 mb-3">
-                <HomeIcon className="h-4 w-4 text-[var(--text-secondary)]" />
-                <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Property tax</span>
+                <HomeIcon className="h-4 w-4 text-[#4F46E5]" />
+                <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Property tax</span>
               </div>
-              <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+              <p className="text-xl font-bold text-[#312E81] font-mono-data mb-1">
                 {en.taxeFonciere}
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -163,12 +169,12 @@ export default async function EnDeptTaxPage({ params }: Props) {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center gap-2 mb-3">
-                <FileText className="h-4 w-4 text-[var(--text-secondary)]" />
-                <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Second-home tax</span>
+                <FileText className="h-4 w-4 text-[#4F46E5]" />
+                <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Second-home tax</span>
               </div>
-              <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+              <p className="text-xl font-bold text-[#312E81] font-mono-data mb-1">
                 {f.zoneTendue ? "+0 to +60%" : "Standard"}
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -178,12 +184,12 @@ export default async function EnDeptTaxPage({ params }: Props) {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center gap-2 mb-3">
-                <Coins className="h-4 w-4 text-[var(--text-secondary)]" />
-                <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Duties + notary</span>
+                <Coins className="h-4 w-4 text-[#4F46E5]" />
+                <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Duties + notary</span>
               </div>
-              <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+              <p className="text-xl font-bold text-[#312E81] font-mono-data mb-1">
                 ~{dmtoTotal}%
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -191,22 +197,26 @@ export default async function EnDeptTaxPage({ params }: Props) {
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 mb-8">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+      <section className="band band-pink py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
+            <h2 className="text-xl font-bold gradient-text mb-3">
               The takeaway for {dept}
             </h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{en.notes}</p>
           </div>
 
           {/* The three French terms a foreign buyer will meet on paper. */}
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 mb-8">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
+            <h2 className="text-xl font-bold gradient-text mb-4">
               What you are actually paying
             </h2>
             <ul className="space-y-3 text-sm text-[var(--text-secondary)]">
               <li className="flex items-start gap-2">
-                <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
+                <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-[#DB2777] shrink-0" />
                 <span>
                   <strong className="text-[var(--text-primary)]">Taxe foncière</strong> — the annual
                   property tax, owed by whoever owns the property on 1 January. It is calculated
@@ -215,7 +225,7 @@ export default async function EnDeptTaxPage({ params }: Props) {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
+                <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-[#DB2777] shrink-0" />
                 <span>
                   <strong className="text-[var(--text-primary)]">THRS</strong> — the second-home
                   tax. Abolished on main residences in 2023, kept on second homes, and surchargeable
@@ -223,7 +233,7 @@ export default async function EnDeptTaxPage({ params }: Props) {
                 </span>
               </li>
               <li className="flex items-start gap-2">
-                <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-[var(--accent)] shrink-0" />
+                <span className="mt-1.5 inline-block h-1.5 w-1.5 rounded-full bg-[#DB2777] shrink-0" />
                 <span>
                   <strong className="text-[var(--text-primary)]">DMTO</strong> — transfer duties,
                   paid once at completion. In {dept} the department share is{" "}
@@ -237,9 +247,13 @@ export default async function EnDeptTaxPage({ params }: Props) {
               Source: DGFiP, Observatoire des Finances Locales 2024, French tax code.
             </p>
           </div>
+        </div>
+      </section>
 
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div>
+            <h2 className="text-xl font-bold gradient-text mb-1">
               Property tax by city
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-5">
@@ -251,42 +265,52 @@ export default async function EnDeptTaxPage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/cities/${c.slug}/tax`}
-                  className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                  className="group flex items-center justify-between rounded-xl bg-white ring-1 ring-transparent hover:ring-[#A5F3FC] shadow-[0_8px_22px_-16px_rgba(8,145,178,0.6)] hover:-translate-y-0.5 transition-all px-4 py-3"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                       {c.name}
                     </div>
-                    <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5">
+                    <div className="text-[11px] font-medium text-[#0E7490] mt-0.5">
                       Overall score {c.scores.global.toFixed(1)}/10
                     </div>
                   </div>
-                  <MapPin className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] shrink-0 transition-colors" />
+                  <MapPin className="h-4 w-4 text-[#0891B2] group-hover:text-[var(--accent)] shrink-0 transition-colors" />
                 </Link>
               ))}
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-10 flex flex-wrap gap-3">
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex flex-wrap gap-3">
             <Link
               href={`/departments/${deptSlug}`}
-              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+              className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all"
             >
               ← {dept} department
             </Link>
             <Link
               href={`/departments/${deptSlug}/synthesis`}
-              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+              className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all"
             >
               8-dimension profile →
             </Link>
             <Link
               href="/glossary"
-              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+              className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all"
             >
               Glossary (DPE, PLU, taxe foncière…) →
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
         </div>
       </section>
 

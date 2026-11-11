@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { fiscalityForCity, TIER_TONE } from "@/lib/fiscalite";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
@@ -96,11 +97,10 @@ export default async function DeptFiscalitePage({ params }: Props) {
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
-      <AmbientBackground />
       <Navbar />
 
-      <section className="relative pt-12 pb-6">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
           <Breadcrumbs
             items={[
               { label: "Accueil", href: "/" },
@@ -109,24 +109,30 @@ export default async function DeptFiscalitePage({ params }: Props) {
               { label: "Fiscalité" },
             ]}
           />
-          <div className={`mt-4 inline-flex items-center gap-2 rounded-full border ${tone.border} ${tone.bg} ${tone.text} px-3 py-1 text-xs font-semibold`}>
+          <div className="mt-5 flex items-center gap-3">
+            <EmojiBadge emoji="💰" tone={toneFor(deptSlug)} />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Fiscalité
+            </span>
+          </div>
+          <div className={`mt-4 inline-flex items-center gap-2 rounded-full border bg-white/85 ${tone.border} ${tone.text} px-3 py-1 text-xs font-semibold`}>
             <Coins className="h-3.5 w-3.5" />
             {f.tierLabel}
           </div>
           <h1 className="mt-4 text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight">
-            Fiscalité immobilière — {dept}
+            Fiscalité immobilière — <span className="font-display gradient-text-anim italic">{dept}</span>
           </h1>
-          <p className="mt-3 text-[var(--text-secondary)] leading-relaxed">
+          <p className="mt-3 max-w-3xl text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
             Estimation départementale 2026. Taxe foncière, THRS, droits de mutation pour acheter dans le département {dept} ({region}). {citiesInDept.length} ville{citiesInDept.length > 1 ? "s" : ""} profilée{citiesInDept.length > 1 ? "s" : ""}.
           </p>
         </div>
       </section>
 
-      <section className="relative pb-12">
+      <section className="band band-indigo py-10 sm:py-12">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           {/* Disclaimer */}
-          <div className="mb-8 rounded-2xl border border-amber-500/30 bg-amber-500/5 p-4 flex gap-3">
-            <AlertTriangle className="h-5 w-5 text-amber-700 shrink-0 mt-0.5" />
+          <div className="mb-8 rounded-2xl bg-white p-4 flex gap-3 ring-1 ring-[#FBCFE8] shadow-[0_10px_28px_-20px_rgba(219,39,119,0.5)]">
+            <AlertTriangle className="h-5 w-5 text-[#BE185D] shrink-0 mt-0.5" />
             <div className="text-sm text-[var(--text-primary)] leading-relaxed">
               <strong>Estimation départementale.</strong> Les valeurs ci-dessous sont des
               fourchettes calculées au niveau du département {dept}. La taxe foncière communale
@@ -137,13 +143,13 @@ export default async function DeptFiscalitePage({ params }: Props) {
           </div>
 
           {/* 3 cards: same anatomy as per-city, all department-level */}
-          <div className="grid gap-4 sm:grid-cols-3 mb-8">
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+          <div className="grid gap-4 sm:grid-cols-3">
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center gap-2 mb-3">
-                <HomeIcon className="h-4 w-4 text-[var(--text-secondary)]" />
-                <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">Taxe foncière</span>
+                <HomeIcon className="h-4 w-4 text-[#4F46E5]" />
+                <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">Taxe foncière</span>
               </div>
-              <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+              <p className="text-xl font-bold text-[#312E81] font-mono-data mb-1">
                 {f.taxeFonciereT3}
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -151,12 +157,12 @@ export default async function DeptFiscalitePage({ params }: Props) {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center gap-2 mb-3">
-                <FileText className="h-4 w-4 text-[var(--text-secondary)]" />
-                <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">THRS</span>
+                <FileText className="h-4 w-4 text-[#4F46E5]" />
+                <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">THRS</span>
               </div>
-              <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+              <p className="text-xl font-bold text-[#312E81] font-mono-data mb-1">
                 {f.zoneTendue ? "+0 à +60 %" : "Standard"}
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -166,12 +172,12 @@ export default async function DeptFiscalitePage({ params }: Props) {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
+            <div className="rounded-2xl bg-white p-5 shadow-[0_10px_28px_-18px_rgba(79,70,229,0.55)]">
               <div className="flex items-center gap-2 mb-3">
-                <Coins className="h-4 w-4 text-[var(--text-secondary)]" />
-                <span className="text-xs uppercase tracking-wider text-[var(--text-tertiary)] font-semibold">DMTO + notaire</span>
+                <Coins className="h-4 w-4 text-[#4F46E5]" />
+                <span className="text-xs uppercase tracking-wider text-[#4338CA] font-semibold">DMTO + notaire</span>
               </div>
-              <p className="text-xl font-bold text-[var(--text-primary)] font-mono-data mb-1">
+              <p className="text-xl font-bold text-[#312E81] font-mono-data mb-1">
                 ~{dmtoTotal} %
               </p>
               <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
@@ -179,20 +185,28 @@ export default async function DeptFiscalitePage({ params }: Props) {
               </p>
             </div>
           </div>
+        </div>
+      </section>
 
+      <section className="band band-pink py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
           {/* Narrative */}
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6 mb-8">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+          <div className="rounded-2xl bg-white p-6 shadow-[0_10px_28px_-18px_rgba(219,39,119,0.45)]">
+            <h2 className="text-xl font-bold gradient-text mb-3">
               Ce qu&apos;il faut retenir — {dept}
             </h2>
             <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
               {f.notes}
             </p>
           </div>
+        </div>
+      </section>
 
-          {/* Cities in this department, with link to per-city fiche */}
-          <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-1">
+      {/* Cities in this department, with link to per-city fiche */}
+      <section className="band band-sky py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div>
+            <h2 className="text-xl font-bold gradient-text mb-1">
               Fiches fiscalité par ville
             </h2>
             <p className="text-sm text-[var(--text-secondary)] mb-5">
@@ -203,36 +217,46 @@ export default async function DeptFiscalitePage({ params }: Props) {
                 <Link
                   key={c.slug}
                   href={`/villes/${c.slug}/fiscalite`}
-                  className="group flex items-center justify-between rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] hover:border-[var(--accent)]/40 hover:bg-[var(--bg-elevated)] transition-all px-4 py-3"
+                  className="group flex items-center justify-between rounded-xl bg-white ring-1 ring-transparent hover:ring-[#A5F3FC] shadow-[0_8px_22px_-16px_rgba(8,145,178,0.6)] hover:-translate-y-0.5 transition-all px-4 py-3"
                 >
                   <div className="min-w-0">
                     <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                       {c.name}
                     </div>
-                    <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5">
+                    <div className="text-[11px] font-medium text-[#0E7490] mt-0.5">
                       Score global {c.scores.global.toFixed(1)}/10
                     </div>
                   </div>
-                  <MapPin className="h-4 w-4 text-[var(--text-tertiary)] group-hover:text-[var(--accent)] shrink-0 transition-colors" />
+                  <MapPin className="h-4 w-4 text-[#0891B2] group-hover:text-[var(--accent)] shrink-0 transition-colors" />
                 </Link>
               ))}
             </div>
           </div>
+        </div>
+      </section>
 
-          <div className="mt-10 flex flex-wrap gap-3">
+      <section className="band band-lilac py-10">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex flex-wrap gap-3">
             <Link
               href={`/departements/${deptSlug}`}
-              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+              className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all"
             >
               ← Département {dept}
             </Link>
             <Link
               href="/glossaire"
-              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+              className="rounded-full bg-white ring-1 ring-[#C7D2FE] px-4 py-2.5 text-sm font-medium text-[#4338CA] hover:ring-[#818CF8] transition-all"
             >
               Glossaire (DPE, LMNP, Pinel...) →
             </Link>
           </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
         </div>
       </section>
 

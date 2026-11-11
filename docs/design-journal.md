@@ -1481,3 +1481,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Sous-pages `/departements/[dept]/fiscalite` et `/synthese` (FR + EN).
 2. Hub `/comparer` puis `/leaderboard`.
 3. `DepartementMap` (cadre de la figure, légende) et page agenda.
+
+## 2026-11-11 ~03:00 UTC — `/departements/[dept]/fiscalite` (FR) + EN `/departments/[dept]/tax`
+
+**Surface** : gabarit fiscalité départementale, 2 locales. Avant : `AmbientBackground`, hero blanc, avertissement en **ambre** (couleur réservée aux paliers), cartes à filet, tout dans un seul bloc sur fond de page, renvois en boutons gris, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 💰 `toneFor(slug)` + pilule `grad-head-0`, nom du département en `gradient-text-anim`, pastille de palier fiscal conservée (palette `TIER_TONE` par niveau) sur fond blanc ; avertissement (carte blanche à anneau rose, icône `#BE185D`) + 3 cartes chiffrées (blanches ombrées, libellés/chiffres indigo) en `band-indigo` ; « Ce qu'il faut retenir » (EN : + « What you are actually paying », puces roses) en `band-pink` ; fiches par ville en `band-sky` (tuiles blanches à ombre cyan) ; renvois en pilules blanches indigo en `band-lilac` ; `FeedbackWidget` (EN `locale="en"`) ajouté en `band-white`. h2 en `.gradient-text`. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/departements/finistere/fiscalite` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `/departements/[dept]/synthese` (FR) + EN `/departments/[dept]/synthesis`.
+2. Hub `/comparer` puis `/leaderboard`.
+3. `DepartementMap` (cadre, légende) et page agenda.
