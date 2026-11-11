@@ -15,6 +15,8 @@ import { CITIES_LIGHT } from "@/lib/cities-light";
 import { scoreColor } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { profilePageAlternates } from "@/lib/profile-page-twins";
+import { clampMeta } from "@/lib/brand";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -33,8 +35,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!p) return {};
   return {
     title: p.metaTitle,
-    description: p.metaDescription,
-    alternates: { canonical: `/pour-qui/${profil}` },
+    description: clampMeta(p.metaDescription),
+    alternates: profilePageAlternates(profil),
     openGraph: { title: p.metaTitle, description: p.metaDescription, images: ["/opengraph-image"] },
   };
 }

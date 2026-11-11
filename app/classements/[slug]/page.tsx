@@ -14,6 +14,11 @@ import { HOUSING } from "@/data/housing";
 import { GUIDES } from "@/data/guides";
 import { scoreColor } from "@/lib/utils";
 import { clampMeta } from "@/lib/brand";
+
+// Titres de résultat Google quand le H1 (`headline`) dépasse ~60 caractères.
+const SERP_TITLE: Record<string, string> = {
+  ecologie: "Villes les plus écologiques de France : nature, air, vélo",
+};
 import { hreflangLanguages } from "@/lib/i18n";
 import { RankingTableTail, type RankingTailRow } from "./RankingTableTail";
 
@@ -36,7 +41,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // fine as body copy, three times what a SERP renders. Clamp the tag only.
   const metaDesc = clampMeta(meta.description);
   return {
-    title: meta.headline,
+    // `headline` est aussi le H1 : un titre de résultat plus court se déclare ici.
+    title: SERP_TITLE[slug] ?? meta.headline,
     description: metaDesc,
     alternates: { canonical: `/classements/${slug}`, languages: hreflangLanguages(`/classements/${slug}`) },
     openGraph: { title: meta.headline, description: metaDesc, images: ["/opengraph-image"] },

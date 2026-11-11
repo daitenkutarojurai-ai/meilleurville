@@ -11,6 +11,7 @@
 Troisième lot : `/leaderboard` plafonné à 100 lignes, `/orientation-politique` 10 338 → 6 780 balises, hreflang de 28 thèmes Red Flags, garde `meta-len` dans `integrity`.
 Quatrième lot : `/leaderboard` EN plafonné, projection `CITIES_CORE` (119 Ko au lieu de 277) pour le leaderboard et le comparateur.
 Cinquième lot : 710 `metaTitle` de guides (448 FR, 262 EN) ramenés à 65 caractères au plus, garde `meta-len` étendue aux guides.
+Sixième lot : `/villes` à 60 cartes + index A → Z (593 villes liées), hreflang de 13 pages « pour qui », bandeau outre-mer lisible.
 Reste : `CITIES_LIGHT` chez les autres composants client, `gtag.js` différé (après confirmation de la validation Search Console).
 
 Hosting is **Cloudflare** (Workers + `wrangler.toml`), not Vercel.

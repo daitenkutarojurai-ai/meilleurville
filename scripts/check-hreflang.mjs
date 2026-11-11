@@ -219,6 +219,39 @@ function sameRoute(a, b) {
 
 console.log(`autres familles   — ${pairs} paires déclarées à la main, chemins rapprochés des deux arbres de routes`);
 
+// --- Pages « pour qui » : deux routes dynamiques, slugs non traduisibles ---------
+//
+// `/pour-qui/[profil]` ↔ `/for-who/[slug]` passerait la règle « dynamique face à
+// dynamique » sans rien prouver. Les paires viennent de `lib/profile-page-twins.ts` ;
+// on vérifie ici que chaque slug FR est un profil de `lib/profile-pages.ts` (donc
+// dans le generateStaticParams FR) et que chaque slug EN est un `enSlug` de
+// EN_PROFILES rattaché au même profil FR.
+{
+  const twinsSrc = fs.readFileSync(path.join(ROOT, "lib", "profile-page-twins.ts"), "utf8");
+  const table = [...twinsSrc.matchAll(/^\s*"([a-z0-9-]+)": "([a-z0-9-]+)",\s*$/gm)].map((m) => [m[1], m[2]]);
+  const frProfiles = new Set(
+    [...fs.readFileSync(path.join(ROOT, "lib", "profile-pages.ts"), "utf8").matchAll(/^\s*slug: "([a-z0-9-]+)"/gm)].map((m) => m[1]),
+  );
+  const enSrc = fs.readFileSync(path.join(APP, "[locale]", "for-who", "[slug]", "page.tsx"), "utf8");
+  const enProfiles = new Map([...enSrc.matchAll(/enSlug: "([^"]+)",\s*slug: "([^"]+)"/g)].map((m) => [m[1], m[2]]));
+  const frSrc = fs.readFileSync(path.join(APP, "pour-qui", "[profil]", "page.tsx"), "utf8");
+  if (!/profilePageAlternates\(/.test(frSrc)) errors.push("app/pour-qui/[profil]/page.tsx n'appelle plus profilePageAlternates");
+  if (!/profilePageAlternatesEn\(/.test(enSrc)) errors.push("app/[locale]/for-who/[slug]/page.tsx n'appelle plus profilePageAlternatesEn");
+  const seenEn = new Set();
+  for (const [frSlug, enSlug] of table) {
+    if (!frProfiles.has(frSlug)) errors.push(`profile-page-twins : ${frSlug} n'est pas un profil de lib/profile-pages.ts`);
+    if (enProfiles.get(enSlug) !== frSlug)
+      errors.push(`profile-page-twins : ${frSlug} → ${enSlug}, mais EN_PROFILES ${enProfiles.has(enSlug) ? `rattache ${enSlug} à ${enProfiles.get(enSlug)}` : `n'a pas de profil ${enSlug}`}`);
+    if (seenEn.has(enSlug)) errors.push(`profile-page-twins : ${enSlug} annoncé par deux profils FR`);
+    seenEn.add(enSlug);
+  }
+  const orphans = [...enProfiles.keys()].filter((s) => !seenEn.has(s));
+  console.log(
+    `pages « pour qui » — ${table.length} paires FR ↔ EN, chaque slug vérifié des deux côtés` +
+      (orphans.length ? ` · ${orphans.length} profil(s) EN hors table : ${orphans.join(", ")}` : ""),
+  );
+}
+
 // --- Thèmes Red Flags : page FR statique face à route EN dynamique --------------
 //
 // C'est le cas que la règle stricte de `served` refuse de deviner (voir plus

@@ -9,6 +9,7 @@ import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 import { CITIES_LIGHT, type CityLight } from "@/lib/cities-light";
+import { profilePageAlternatesEn } from "@/lib/profile-page-twins";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -221,9 +222,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: profile.metaTitle,
     description: profile.metaDescription,
-    alternates: {
-      canonical: `${EN_BASE}/for-who/${slug}`,
-    },
+    alternates:
+      profilePageAlternatesEn(profile.slug, slug) ?? { canonical: `${EN_BASE}/for-who/${slug}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
