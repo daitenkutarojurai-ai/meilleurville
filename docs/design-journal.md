@@ -1520,3 +1520,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `/leaderboard` (FR + EN).
 2. Pages paire `/comparer/[pair]` (FR + EN).
 3. `DepartementMap` (cadre, légende) et page agenda.
+
+## 2026-11-12 ~11:00 UTC — `/leaderboard` (FR + EN) + `LeaderboardTable` (partagé)
+
+**Surface** : classement global, 2 locales, et le tableau client filtrable. Avant : `AmbientBackground`, hero blanc, podium + tableau + stats + renvois dans un seul bloc sur fond de page, cartes à filet, en-têtes de tableau gris, renvois en boutons gris ; EN : sans feedback, tableau à lignes canvas.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🏆 + pilule `grad-head-0`, « leaderboard » en `gradient-text-anim` (EN aussi) ; podium en `band-pink` (cartes blanches, bandeau de tête `grad-head-0..2` « 1re/2e/3e place ») ; tableau en `band-sky` (carte blanche ombrée cyan, en-tête `#EEF2FF`/`#4338CA`, colonne triée en rose `#BE185D`, lignes alternées, rang en pastille indigo, « Afficher la suite » en pilule `grad-head-0`, recherche et sélecteurs en pilules blanches, recherche pleine largeur sur téléphone) ; index replié en carte blanche ; stats + renvois (pilule dégradée + pilules blanches) en `band-lilac` ; `FeedbackWidget` en `band-white` (EN `locale="en"` ajouté). Couleurs de palier conservées. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3 fichiers : 0 problème. Captures playwright `/leaderboard` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages paire `/comparer/[pair]` (FR + EN).
+2. `DepartementMap` (cadre, légende).
+3. Page agenda.
