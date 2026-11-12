@@ -23,12 +23,27 @@ villes. Comment écrire un lot : skill `.claude/skills/guide-batch/`.
 
 | # | Série FR | Jumelle EN | FR mesuré | EN mesuré | Cible | Statut |
 |---|---|---|---|---|---|---|
-| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`, `famille-au-havre-2026`) | `family-in-[city]-2026` | 61 | 60 | 60 | 🟢 cible FR atteinte, parité EN sauf le-mans (reportée) ; prochain run = série 2 (retraite-a, lot 4) |
-| 2 | `retraite-a-[ville]-2026` | `retiring-in-[city]-2026` | 49 | 49 (+1 guide national) | 50 | 🟢 parité atteinte 2026-10-29 ; prochain run = série 3 (etudiant-a, lot FR 4) ou retraite-a lot 7 (colmar reportée) |
-| 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 59 | 59 (+1 guide national) | 60 | 🟢 parité atteinte 2026-10-31 (lot EN 6) ; reste 1 guide FR (beauvais, chalons-en-champagne, nevers) puis sa jumelle |
-| 4 | `vivre-sans-voiture-[ville]-guide-2026` | `car-free-living-in-[city]-2026` | 33 (+1 guide national) | 33 | 36 | 🟢 parité atteinte 2026-11-02 (lot EN 4) ; prochain run = lot FR 5 (3 restantes pour la cible 36 : candidates saint-etienne déjà fait → poitiers, limoges, perpignan à mesurer) ; mulhouse reportée (sans DVF) |
+| 1 | `famille-a-[ville]-2026` (+ `famille-au-mans-2026`, `famille-au-havre-2026`) | `family-in-[city]-2026` | 61 | 60 | 75 | 🟢 cible relevée le 2026-11-12 (61 → 75) : lots FR 7+, voir « Relevé » |
+| 2 | `retraite-a-[ville]-2026` | `retiring-in-[city]-2026` | 49 | 49 (+1 guide national) | 70 | 🟢 cible relevée le 2026-11-12 (50 → 70) : **prochain run = lot FR 6**, voir « Relevé » |
+| 3 | `etudiant-a-[ville]-2026` | `studying-in-[city]-2026` | 59 | 59 (+1 guide national) | 70 | 🟢 cible relevée le 2026-11-12 (60 → 70) : lots FR 5+, voir « Relevé » |
+| 4 | `vivre-sans-voiture-[ville]-guide-2026` | `car-free-living-in-[city]-2026` | 33 (+1 guide national) | 33 | 44 | 🟢 cible relevée le 2026-11-12 (36 → 44) : lots FR 5+, voir « Relevé » |
 | 5 | `demenager-a-*` (close FR, 50) | `moving-to-[city]-2026` | 50 | 48 | 50 | 🟢 EN seule ; lot 2026-11-02 : metz, nancy, saint-etienne, brest, amiens, orleans ; lot 2026-11-03 : le-mans, perpignan, villeurbanne, argenteuil, nanterre, boulogne-billancourt ; restent mulhouse (sans DVF), aubervilliers, le-tampon, saint-denis(+reunion), saint-paul-reunion |
 | 6 | `vivre-a-*` (close FR, 51) | `living-in-[city]-2026` | 51 | 45 | 51 | 🟢 EN seule |
+
+### Relevé des cibles (décision de maintenance, 2026-11-12)
+Les 4 séries étaient à la cible depuis le 2026-11-08 et 12 runs de suite sont sortis sans lot. Cibles relevées ;
+ordre de priorité ci-dessous (villes **sans guide** de la série, mesuré le 2026-11-12 sur `data/guides.ts` et
+`data/city-population.json`, pop ≥ 35 000). Le filtre anti-page-mince reste appliqué ville par ville.
+- **retraite-a (priorité, plus gros gisement)** : reims, saint-etienne, dijon, grenoble, clermont-ferrand, brest, tours, amiens,
+  limoges, metz, besancon, le-havre, antibes, cannes, frejus, beziers, aix-en-provence, avignon (colmar reportée). Retraité
+  qui choisit une grande ville : angle santé (CHU, densité médicale), loyers T2, transports, climat, voisines côtières.
+- **famille-a** : villeurbanne, roubaix, tourcoing, dunkerque, versailles, creteil, montreuil, vitry-sur-seine,
+  boulogne-billancourt, nanterre ; reste reportée : paris, mulhouse/colmar (pas de DVF), le-mans (FR à réécrire).
+- **etudiant-a** : villeurbanne, versailles, creteil, montreuil, nanterre, roubaix, tourcoing, cherbourg, beziers ; beauvais,
+  chalons-en-champagne, saint-denis à mesurer. Angle IDF : jamais le même texte que Paris, se rattacher au réseau (RER, tram).
+- **vivre-sans-voiture** : toulon, nimes, aix-en-provence, limoges, perpignan, poitiers, versailles, creteil, villeurbanne
+  (déjà un vrai réseau tram/métro) ; ne garder que les villes dont la donnée transports du seed le montre. Mulhouse reportée.
+- Alternance inchangée : dès que le FR a 8 guides d'avance sur la jumelle EN, le run suivant est le lot EN.
 
 ### 1. famille-a — prochains lots
 Déjà couvertes : lyon, nantes, bordeaux, toulouse, rennes, strasbourg, angers, lille, montpellier,
@@ -123,3 +138,4 @@ Liste des manques : diff des slugs de ville FR/EN (`grep -o 'slug: "demenager-a-
 - 2026-11-11 (run séries, 3e) : aucun lot livré, même blocage. Mesuré : famille-a 61 / family-in 60, retraite-a 49 / retiring-in 50, etudiant-a 59 / studying-in 60, vivre-sans-voiture 34 (dont 1 national) / car-free-living 33, moving-to EN 48. Aucun lot de 6 légitime ; décision propriétaire attendue.
 - 2026-11-12 (run séries) : aucun lot livré, même blocage. Mesuré : famille-a 61 / family-in 60, retraite-a 49 / retiring-in 50, etudiant-a 59 / studying-in 60, vivre-sans-voiture 34 (dont 1 national) / car-free-living 33, moving-to EN 48. Décision propriétaire attendue.
 - 2026-11-12 (run séries, 2e) : aucun lot livré, même blocage. Mesuré : famille-a 61 / family-in 60, retraite-a 49 / retiring-in 50, etudiant-a 59 / studying-in 60, vivre-sans-voiture 34 (dont 1 national) / car-free-living 33, moving-to EN 48. Aucun lot de 6 légitime ; décision propriétaire attendue.
+- 2026-11-12 (maintenance, à la demande du propriétaire) : cibles relevées (famille 75, retraite 70, etudiant 70, vivre-sans-voiture 44) et gisements listés dans « Relevé des cibles » ; le prochain run livre le lot FR 6 de retraite-a.
