@@ -5902,6 +5902,12 @@ n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit 
 - **Contrôle sans rien à corriger** : aucune donnée neuve depuis le 29/10 (le seul commit touchant `lib/biodiversity.ts` est un maillage de liens). Couverture **593/593** (593 mesurables, 0 sous le seuil) ; `tsc` et `npm run integrity` verts.
 - **Non couvert, inchangé** : `overall` `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`, casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni (recrawl local requis).
 
+### F62 — point d'étape 2026-11-12 (routine biodiversité)
+
+- **Contrôle sans rien à corriger** : aucune donnée neuve depuis le 05/11 (le seul commit touchant les fichiers F62 est un guide de narration). Couverture **593/593** (593 mesurables, 0 sous le seuil) ; `tsc` et `npm run integrity` verts.
+- **Vérifié** : `biodiversityProfile()` sur les 593 slugs : aucun `NaN`/`undefined`/`Infinity`, `richnessPending: "incomparable"` partout, `overall` `null` partout.
+- **Non couvert, inchangé** : `overall` `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`, casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni (recrawl local requis).
+
 ---
 
 ## Flotte de routines — état 2026-08-03
