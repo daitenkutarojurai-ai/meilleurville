@@ -1507,3 +1507,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hub `/comparer` (FR + EN).
 2. `/leaderboard` (FR + EN).
 3. `DepartementMap` (cadre, légende) et page agenda.
+
+## 2026-11-12 ~03:00 UTC — hub `/comparer` (FR) + EN `/compare` + `CompareTool` (partagé)
+
+**Surface** : comparateur de villes, 2 locales, et l'outil client partagé. Avant : `AmbientBackground`, hero blanc, outil + duels sur fond de page, couleurs de ville **bleu / violet / ambre** (violet et ambre réservés aux paliers), sélecteurs en pointillés, carte gagnante en émeraude, CTA quiz en accent pâle, cartes de duel tronquées à 390 px (« Ann… vs Greno… »), pas de feedback ; EN : aucun hero, liens en boutons à filet.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` ⚖️ + pilule `grad-head-0`, liens du chapeau en indigo ; outil en `band-indigo` (EN : `bg-aurora`, l'outil porte le h1) ; `CompareTool` : couleurs de ville indigo / rose / cyan, pilule `grad-head-0` + titre `.gradient-text`, recherche blanche à anneau indigo (plus de pointillés), tableau blanc ombré (en-tête `#EEF2FF`/`#4338CA`, lignes alternées), cartes résultat blanches (gagnante en anneau indigo), CTA quiz en `band-bold` (seul bloc vif de la page), état vide avec `EmojiBadge`. Duels en `band-sky` (cartes blanches à ombre cyan, « vs » en pastille `grad-head-5`, noms empilés et entiers sur téléphone) ; EN : renvois en `band-lilac` (pilule dégradée + pilule blanche), liste en `band-sky` ; `FeedbackWidget` ajouté en `band-white` (FR + EN). Couleurs vert/rouge du meilleur/pire score conservées (sémantique). Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 3 fichiers : 0 problème. Captures playwright `/comparer` (Lyon vs Grenoble sélectionnées) 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker). `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `/leaderboard` (FR + EN).
+2. Pages paire `/comparer/[pair]` (FR + EN).
+3. `DepartementMap` (cadre, légende) et page agenda.

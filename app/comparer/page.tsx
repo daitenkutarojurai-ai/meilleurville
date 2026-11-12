@@ -1,7 +1,8 @@
 import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { CompareTool } from "./CompareTool";
 import { CITIES_CORE } from "@/lib/cities-light";
 import { comparePairSlug } from "@/lib/comparer-pairs";
@@ -79,14 +80,16 @@ export default function ComparerPage() {
   return (
     <main id="main-content" className="min-h-screen relative">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(comparerBreadcrumb)} />
-      <AmbientBackground />
       <Navbar />
 
-      <section className="relative pt-16 pb-6">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6 text-center">
-          <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-            ⚖️ Comparateur
-          </p>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12 sm:pb-14">
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6 text-center">
+          <div className="flex items-center justify-center gap-3 mb-3">
+            <EmojiBadge emoji="⚖️" tone="indigo" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Comparateur
+            </span>
+          </div>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.05]">
             On <span className="font-display gradient-text-anim italic">tranche</span> entre vos villes
           </h1>
@@ -95,18 +98,18 @@ export default function ComparerPage() {
           </p>
           <p className="mt-4 text-sm text-[var(--text-tertiary)] max-w-2xl mx-auto">
             Vous hésitez plutôt entre deux zones entières ? Passez par les{" "}
-            <Link href="/comparer-departements" className="underline underline-offset-2 hover:text-[var(--accent)]">
+            <Link href="/comparer-departements" className="font-medium text-[#4338CA] underline underline-offset-2 hover:text-[#BE185D]">
               comparatifs de départements
             </Link>{" "}
             ou les{" "}
-            <Link href="/comparer-regions" className="underline underline-offset-2 hover:text-[var(--accent)]">
+            <Link href="/comparer-regions" className="font-medium text-[#4338CA] underline underline-offset-2 hover:text-[#BE185D]">
               comparatifs de régions
             </Link>
             .
           </p>
           <p className="mt-2 text-sm text-[var(--text-tertiary)] max-w-2xl mx-auto">
             Le comparateur aligne les scores ; quand c&apos;est le raisonnement qui manque, nos{" "}
-            <Link href="/guides/categorie/comparaison" className="underline underline-offset-2 hover:text-[var(--accent)]">
+            <Link href="/guides/categorie/comparaison" className="font-medium text-[#4338CA] underline underline-offset-2 hover:text-[#BE185D]">
               guides qui opposent deux villes en prose
             </Link>{" "}
             reprennent les duels les plus lus et disent laquelle perd, sur quoi.
@@ -114,16 +117,21 @@ export default function ComparerPage() {
         </div>
       </section>
 
-      <CompareTool cities={CITIES_CORE} headingLevel="h2" />
+      <section className="band band-indigo">
+        <CompareTool cities={CITIES_CORE} headingLevel="h2" />
+      </section>
 
-      <section className="relative border-t border-[var(--border)] py-14">
+      <section className="band band-sky py-12 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
           <div className="text-center mb-8">
-            <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
-              ✨ Populaires
-            </p>
+            <div className="flex items-center justify-center gap-3 mb-3">
+              <EmojiBadge emoji="✨" tone="pink" size="sm" />
+              <span className="inline-flex items-center rounded-full grad-head-1 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+                Populaires
+              </span>
+            </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-[var(--text-primary)]">
-              Les <span className="font-display gradient-text-anim italic">duels</span> qu&apos;on lit le plus
+              Les <span className="font-display gradient-text-anim italic pr-1">duels</span> qu&apos;on lit le plus
             </h2>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
@@ -136,17 +144,23 @@ export default function ComparerPage() {
               <Link
                 key={`${a}-${b}`}
                 href={`/comparer/${pairSlug}`}
-                className="group relative overflow-hidden rounded-xl border border-[var(--border)] bg-white/70 backdrop-blur hover:border-[var(--accent)]/40 hover:bg-white hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
+                className="group relative overflow-hidden rounded-xl bg-white shadow-[0_10px_28px_-20px_rgba(8,145,178,0.6)] ring-1 ring-[#BAE6FD] hover:ring-[#38BDF8] hover:shadow-lg hover:-translate-y-0.5 transition-all px-4 py-3"
               >
-                <div className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors leading-snug flex items-center justify-between gap-2">
-                  <span className="truncate">{labelA}</span>
-                  <span className="text-[10px] font-bold text-[var(--text-tertiary)] uppercase tracking-wider">vs</span>
-                  <span className="truncate">{labelB}</span>
+                <div className="text-sm font-medium text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors leading-snug flex flex-col items-center gap-1 text-center sm:flex-row sm:justify-between sm:gap-2 sm:text-left">
+                  <span className="max-w-full sm:truncate">{labelA}</span>
+                  <span className="shrink-0 rounded-full grad-head-5 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wider">vs</span>
+                  <span className="max-w-full sm:truncate">{labelB}</span>
                 </div>
               </Link>
               );
             })}
           </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
         </div>
       </section>
 

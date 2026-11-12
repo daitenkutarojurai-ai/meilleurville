@@ -3,7 +3,7 @@ import { useState, useMemo, useRef, useEffect } from "react";
 import { Plus, X, Search, MapPin } from "lucide-react";
 import type { CityCore } from "@/lib/cities-light";
 import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { cn, scoreColor } from "@/lib/utils";
 import Link from "@/components/AppLink";
 
@@ -22,8 +22,14 @@ const SCORE_ROWS: Array<{ key: keyof CitySeed["scores"]; label: string; labelEn:
   { key: "schools", label: "Écoles", labelEn: "Schools", emoji: "🏫" },
 ];
 
-const CITY_COLORS = ["text-blue-600", "text-violet-400", "text-amber-400"];
-const CITY_BG = ["bg-blue-400/10 border-blue-400/20", "bg-violet-400/10 border-violet-400/20", "bg-amber-400/10 border-amber-400/20"];
+// « Couleurs » : une teinte par ville dans les familles décoratives indigo / rose / cyan.
+// Violet, ambre, vert… restent réservés aux paliers de score (CLAUDE.md § Design identity).
+const CITY_COLORS = ["text-[#4338CA]", "text-[#BE185D]", "text-[#0E7490]"];
+const CITY_BG = [
+  "bg-[#EEF2FF] border-[#C7D2FE]",
+  "bg-[#FDF2F8] border-[#FBCFE8]",
+  "bg-[#ECFEFF] border-[#A5F3FC]",
+];
 
 function CityPicker({
   allCities,
@@ -94,8 +100,8 @@ function CityPicker({
 
   return (
     <div className="relative" ref={wrapRef}>
-      <div className="flex items-center gap-2 rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)] p-4 transition-colors focus-within:border-[var(--accent)]/50 focus-within:ring-2 focus-within:ring-[var(--accent)]/30">
-        <Search className="h-4 w-4 text-[var(--text-secondary)]" />
+      <div className="flex items-center gap-2 rounded-2xl bg-white p-4 shadow-[0_10px_28px_-20px_rgba(79,70,229,0.55)] ring-1 ring-[#C7D2FE] transition-shadow focus-within:ring-2 focus-within:ring-[#6366F1]">
+        <Search className="h-4 w-4 text-[#4F46E5]" />
         <input
           type="text"
           value={query}
@@ -110,12 +116,12 @@ function CityPicker({
       </div>
 
       {open && filtered.length > 0 && (
-        <div id="city-picker-options" role="listbox" className="absolute top-full left-0 right-0 z-50 mt-1 overflow-hidden rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] shadow-xl">
+        <div id="city-picker-options" role="listbox" className="absolute top-full left-0 right-0 z-50 mt-1 overflow-hidden rounded-xl bg-white shadow-xl ring-1 ring-[#C7D2FE]">
           {filtered.map((c) => (
             <button
               key={c.slug}
               onClick={() => { onSelect(c); setQuery(""); setOpen(false); }}
-              className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-[var(--bg-elevated)] focus-visible:bg-[var(--bg-elevated)] focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]"
+              className="flex w-full items-center gap-3 px-4 py-3 text-left transition-colors hover:bg-[#EEF2FF] focus-visible:bg-[#EEF2FF] focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-[var(--accent)]"
             >
               <MapPin className="h-3.5 w-3.5 flex-shrink-0 text-[var(--text-secondary)]" />
               <div className="flex-1 min-w-0">
@@ -168,9 +174,11 @@ export function CompareTool({
     <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12">
       {/* Header */}
       <div className="mb-10">
-        <Badge variant="accent" className="mb-3">{t("Comparateur", "Compare")}</Badge>
+        <span className="mb-3 inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+          {t("Comparateur", "Compare")}
+        </span>
         <Heading className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
-          {t("Comparez les villes côte à côte", "Compare cities side by side")}
+          <span className="gradient-text">{t("Comparez les villes côte à côte", "Compare cities side by side")}</span>
         </Heading>
         <p className="text-[var(--text-secondary)]">
           {t(
@@ -205,7 +213,7 @@ export function CompareTool({
         {cities.length < 3 && (
           <button
             onClick={addSlot}
-            className="flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-[var(--border)] p-6 text-[var(--text-secondary)] transition-colors hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] cursor-pointer"
+            className="flex flex-col items-center justify-center gap-2 rounded-2xl bg-white/70 p-6 text-[#4338CA] ring-1 ring-[#C7D2FE] transition-all hover:bg-white hover:ring-[#818CF8] hover:-translate-y-0.5 cursor-pointer"
           >
             <Plus className="h-6 w-6" />
             <span className="text-sm">{t("Ajouter une ville", "Add a city")}</span>
@@ -217,11 +225,11 @@ export function CompareTool({
       {selected.length >= 1 && (
         <div className="space-y-8">
           {/* Score grid */}
-          <div className="overflow-x-auto rounded-2xl border border-[var(--border)]">
+          <div className="overflow-x-auto rounded-2xl bg-white shadow-[0_14px_36px_-22px_rgba(79,70,229,0.5)] ring-1 ring-[#C7D2FE]">
             <table className="w-full min-w-[480px]">
               <thead>
-                <tr className="border-b border-[var(--border)] bg-[var(--bg-surface)]">
-                  <th className="px-6 py-4 text-left text-xs font-semibold text-[var(--text-secondary)]">
+                <tr className="border-b border-[#C7D2FE] bg-[#EEF2FF]">
+                  <th className="px-6 py-4 text-left text-xs font-semibold uppercase tracking-wider text-[#4338CA]">
                     {t("Critère", "Metric")}
                   </th>
                   {cities.map((city, i) =>
@@ -232,7 +240,7 @@ export function CompareTool({
                     ) : null
                   )}
                   {selected.length >= 2 && (
-                    <th className="px-6 py-4 text-right text-xs font-semibold text-[var(--text-secondary)]">
+                    <th className="px-6 py-4 text-right text-xs font-semibold uppercase tracking-wider text-[#4338CA]">
                       {t("Meilleur", "Best")}
                     </th>
                   )}
@@ -248,8 +256,8 @@ export function CompareTool({
                     <tr
                       key={key}
                       className={cn(
-                        "border-b border-[var(--border)] last:border-0 transition-colors hover:bg-[var(--bg-elevated)]",
-                        rowIdx === 0 ? "bg-[var(--bg-surface)]" : "bg-[var(--bg-canvas)]"
+                        "border-b border-[#E0E7FF] last:border-0 transition-colors hover:bg-[#EEF2FF]",
+                        rowIdx === 0 ? "bg-[#F5F3FF] font-semibold" : rowIdx % 2 === 0 ? "bg-[#F8F9FF]" : "bg-white"
                       )}
                     >
                       <td className="px-6 py-4 text-sm text-[var(--text-secondary)]">
@@ -261,7 +269,7 @@ export function CompareTool({
                           <td key={city.slug} className="px-6 py-4 text-right">
                             <div className="flex items-center justify-end gap-2">
                               {selected.length >= 2 && vals.length > 1 && (
-                                <div className="h-1.5 w-16 hidden sm:block rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                                <div className="h-1.5 w-16 hidden sm:block rounded-full bg-[#E0E7FF] overflow-hidden">
                                   <div
                                     className={cn(
                                       "h-full rounded-full",
@@ -321,8 +329,8 @@ export function CompareTool({
                           return c.scores[key] === Math.max(...vals);
                         }).length
                       ))
-                        ? "border-emerald-400/30 bg-emerald-500/5"
-                        : "border-[var(--border)] bg-[var(--bg-surface)]"
+                        ? "border-transparent bg-white shadow-[0_14px_36px_-20px_rgba(79,70,229,0.6)] ring-2 ring-[#818CF8]"
+                        : "border-transparent bg-white shadow-[0_10px_28px_-22px_rgba(79,70,229,0.5)] ring-1 ring-[#E0E7FF]"
                     )}
                   >
                     <div className={cn("text-xl font-bold mb-1", CITY_COLORS[i])}>
@@ -348,7 +356,7 @@ export function CompareTool({
                     <div className="mt-3">
                       <Link
                         href={cityHref(city.slug)}
-                        className="text-xs text-[var(--accent)] hover:underline"
+                        className="text-xs font-semibold text-[#4338CA] hover:underline"
                       >
                         {t("Voir le profil complet →", "See full profile →")}
                       </Link>
@@ -360,25 +368,26 @@ export function CompareTool({
           )}
 
           {/* Quiz CTA */}
-          <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-6 text-center">
-            <p className="text-[var(--text-secondary)] mb-3">
+          <div className="band-bold rounded-2xl p-6 text-center">
+            <p className="mb-3 text-white">
               {t(
                 "Vous hésitez encore ? Notre IA peut analyser votre profil exact.",
                 "Still unsure? Our AI can analyse your exact profile."
               )}
             </p>
-            <Link href="/city-match">
-              <Button className="gap-2">
-                {t("✨ Lancer le quiz de matching", "✨ Start the matching quiz")}
-              </Button>
+            <Link
+              href="/city-match"
+              className="inline-flex items-center gap-2 rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#4338CA] shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+            >
+              {t("✨ Lancer le quiz de matching", "✨ Start the matching quiz")}
             </Link>
           </div>
         </div>
       )}
 
       {selected.length === 0 && (
-        <div className="py-20 text-center text-[var(--text-secondary)]">
-          <div className="text-5xl mb-4">🏙️</div>
+        <div className="rounded-3xl bg-white/70 py-16 text-center text-[var(--text-secondary)] ring-1 ring-[#E0E7FF]">
+          <div className="mb-4 flex justify-center"><EmojiBadge emoji="🏙️" tone="indigo" size="lg" /></div>
           <p className="text-lg">
             {t(
               "Sélectionnez au moins une ville pour commencer la comparaison.",
