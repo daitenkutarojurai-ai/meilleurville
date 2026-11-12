@@ -62714,6 +62714,208 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["fontenay-le-comte", "lannion", "dinan", "mende", "biscarrosse", "ussel", "la-roche-sur-yon", "vannes"],
     tags: ["retire in France", "2027 ranking", "retirement", "cost of living", "safety"],
   },
+  {
+    "slug": "living-near-a-french-nuclear-power-plant-2026",
+    "title": "Living Near a Nuclear Power Plant in France (2026): Risk, Tax, Jobs, Prices",
+    "metaTitle": "Living Near a French Nuclear Plant 2026: Risk and Prices",
+    "metaDesc": "What the 20 km emergency zone means, how real the risk is, why nearby towns are well funded and what it does to house prices. A sober guide for buyers.",
+    "category": "lifestyle",
+    "emoji": "⚛️",
+    "readMinutes": 9,
+    "intro": "Living near a French nuclear plant is a trade-off, not a verdict: measured radiation exposure for residents is a small fraction of natural background, local services are usually better funded than in comparable rural towns, and the cost is a modest price discount close to the site plus the sirens, iodine tablets and drills that come with the 20 km emergency zone. France runs 56 reactors on 18 sites, operated by EDF, and a new-build programme (the EPR2 reactors) means the question will be around for decades. This guide is written for someone who has found a decent house at a surprising price and wants to know what they would actually be signing up to.",
+    "sections": [
+      {
+        "heading": "How many nuclear sites are there, and how close is too close?",
+        "body": "France has 56 operating reactors across 18 sites, mostly inland on large rivers (the Loire, Rhône, Garonne, Meuse and Moselle) and a few on the coast such as Gravelines, Paluel, Penly, Flamanville and Blayais. Nuclear supplies roughly two thirds of the country's electricity. There is no legal minimum distance for living near a plant. What exists is an emergency-planning perimeter: the PPI (Plan Particulier d'Intervention), which was extended from 10 km to 20 km around every site after 2019. Roughly speaking, a village at 3 km and a town at 18 km are both inside the same crisis-management system, but their daily lives are very different. Most of the practical effects described below fade quickly beyond 10 km."
+      },
+      {
+        "heading": "What does the 20 km emergency zone change for residents?",
+        "body": "Four concrete things. First, stable iodine tablets are distributed free of charge to households, schools and businesses in the zone, by periodic national campaign; you collect them from a pharmacy with a voucher and keep them at home. Second, your commune must have a municipal safeguarding plan (PCS, plan communal de sauvegarde) with evacuation routes and assembly points, and schools run shelter-in-place drills. Third, the national alert sirens are tested on the first Wednesday of each month at noon, which is the same everywhere in France, not specific to plants. Fourth, the sale documents for a property in the zone include the risk information that French law requires sellers to give buyers. None of this limits where you can build or whether you can get a mortgage. Ask the town hall for the PPI and the PCS before you offer; both are public."
+      },
+      {
+        "heading": "How real is the radiation risk?",
+        "body": "The independent figures are public. The nuclear safety authority (ASN) and the radiation protection institute (IRSN) publish annual reports and run an open environmental monitoring network (mesure de la radioactivité de l'environnement, at mesures-radioactivite.fr). The added dose for someone living at the fence of a plant in normal operation is a tiny fraction of the average natural exposure in France, which comes mostly from radon gas and cosmic rays. Radon is the better reason to read a map: a house on granite in the Massif Central or Brittany can carry more natural exposure than a house next to a plant, and the radon potential map for your commune is also public. Incidents are classified on the INES scale from 0 to 7; the overwhelming majority of French events are level 0 or 1. The residual risk is a low-probability, high-impact accident, and no honest guide can remove it. What you can do is choose to be comfortable with it or not."
+      },
+      {
+        "heading": "Why are towns next to a nuclear plant often so well equipped?",
+        "body": "Because the plant pays local tax. EDF owes a flat-rate network tax (IFER, imposition forfaitaire sur les entreprises de réseaux) on each reactor in service, plus the usual business property taxes, and part of the proceeds goes to the host commune and its intercommunal authority. For a village of a few thousand people this can mean a pool, a sports hall, resurfaced roads and a school that a comparable village elsewhere could not afford. The catch is a geographic one: the money lands in the host commune and its group of communes, not in every village inside the 20 km circle. A neighbouring commune can carry the constraints without the income. Before buying, look at the commune's published budget (compte administratif) and check whether it actually receives the nuclear tax. And remember that this revenue stops, on a delay, if the plant closes."
+      },
+      {
+        "heading": "What does a plant do to local jobs?",
+        "body": "A plant is a large, stable, skilled employer: direct EDF staff plus a permanent layer of subcontractors in maintenance, logistics and engineering. During scheduled outages, thousands of extra contractors can arrive for weeks, which fills hotels, rental flats and restaurants. This is why rental demand near plants is steadier than the size of the town suggests, and why a small furnished flat can find tenants all year. It also makes the local economy dependent on one site. If you work remotely or in the industrial sector, that is an advantage; if you need a varied job market for a partner with a different profession, check the nearest city's labour market first, because plants are often deliberately placed away from big urban areas."
+      },
+      {
+        "heading": "What happens to house prices near a plant?",
+        "body": "Expect a discount, concentrated close to the site. Studies of property transactions find that houses within a few kilometres of a plant sell for noticeably less than comparable houses further away in the same département, and the gap fades with distance until it becomes statistically hard to see beyond about 10 km. The liquidity of the market is better than the folklore suggests, because there is a steady stream of buyers who work at the plant. What you should not expect is a quick resale gain: the discount is a standing feature, not a temporary mispricing. If you plan to sell within five years, or if capital growth is the point of the purchase, look at a commune 10 to 20 km out instead, where you keep the commute and the jobs and lose most of the discount."
+      },
+      {
+        "heading": "What happens when a plant closes? The Fessenheim lesson",
+        "body": "France's only recent closure is Fessenheim in Alsace, whose two reactors stopped in 2020. A closure is not an overnight event: decommissioning takes decades and keeps a reduced workforce on site, but the tax income to the host communities falls and the wider supply chain shrinks. State-backed redevelopment plans were announced and are still being delivered, slowly, which is a fair warning that industrial reconversion takes longer than a mortgage. Newer plants have licences that run much longer, and the government has authorised new reactors, so a closure within the lifetime of a typical mortgage is unlikely for most sites. It is still a risk to put in your spreadsheet if you are buying in a commune whose budget depends on the plant."
+      },
+      {
+        "heading": "Who should buy near a plant, and who should not?",
+        "body": "It works for: people who work at the plant or for its contractors; first-time buyers who want a larger house for the money and are happy in a smaller commune 10 to 20 km from the site; active retirees who value well-run local services and low prices; and landlords targeting contractors on long missions, who should verify local rents rather than trust national yields. It does not work for: anyone who would feel anxious every first Wednesday of the month when the sirens sound, families with a strong personal reason to avoid the risk, buyers who want a fast capital gain, and anyone who needs a metropolitan labour market within easy reach. The anxiety point is a legitimate reason to say no. Measured exposure is low, but living with a feeling of risk is a cost too."
+      },
+      {
+        "heading": "What should you check before you make an offer?",
+        "body": "Five checks. Read the PPI and the commune's PCS at the town hall to see the evacuation routes and the assembly points. Look at the commune's budget to see whether it really receives the nuclear tax, and how much per resident. Look at the high-voltage lines leaving the site, which are a separate nuisance and carry building restrictions close to the line. Ask where the cooling towers are in relation to the house, since a tower's vapour plume can add fog on cold days nearby. And price the house against a comparable one 15 km away so you know what the discount is worth to you. A good local notary or estate agent can show you recent sales on both sides of the line."
+      },
+      {
+        "heading": "What is the honest verdict?",
+        "body": "Living near a French nuclear plant is neither the disaster its critics describe nor the fiscal paradise some host towns advertise. Measured exposure is low, services are usually good, jobs are stable, and the price discount close to the site is real but modest. The costs are psychological, a standing price discount, and a local economy tied to one employer. For buyers who accept those costs, a commune a little way out from the fence line is often the best compromise: jobs and low prices without the full discount, and without sirens in the garden."
+      }
+    ],
+    "relatedCities": [
+      "chinon",
+      "dunkerque",
+      "cherbourg",
+      "montelimar",
+      "valence",
+      "thionville"
+    ],
+    "tags": [
+      "nuclear",
+      "safety",
+      "buying property",
+      "small towns",
+      "risk",
+      "EDF",
+      "expat"
+    ],
+    "publishedAt": "2026-11-12",
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "slug": "living-in-a-french-spa-town-2026",
+    "title": "Living in a French Spa Town (2026): Vichy, Dax, Aix-les-Bains and Others",
+    "metaTitle": "Living in a French Spa Town 2026: Vichy, Dax, Aix",
+    "metaDesc": "Can a French thermal town work as a main home? What Vichy, Aix-les-Bains, Dax, Évian, Lourdes and Bagnères-de-Bigorre offer, who thrives there and who gets bored.",
+    "category": "lifestyle",
+    "emoji": "♨️",
+    "readMinutes": 8,
+    "intro": "A French spa town (ville thermale) can work as a main home if you want a walkable, well-kept historic centre, decent healthcare, cheaper property than the nearest big city and a calendar that revolves around visitors rather than students. It is a poor choice if you need a varied job market, or if you cannot stand a town that goes quiet outside the cure season. Roughly a hundred French towns have a thermal establishment, and for decades the guidebooks have treated them as places for a three-week cure, not as places to live. This guide looks at six of them that are also real towns with year-round life: Vichy, Aix-les-Bains, Dax, Évian-les-Bains, Lourdes and Bagnères-de-Bigorre.",
+    "sections": [
+      {
+        "heading": "What is a French thermal town, and why does it matter for residents?",
+        "body": "A thermal town is built around natural mineral springs and a licensed establishment that offers the treatments. French health insurance (the Assurance Maladie) can partly reimburse a standard 18-day cure when a doctor prescribes it for a recognised condition such as rheumatism or respiratory disease, which is why a large share of visitors are retired and keep coming back every year. For a resident the consequences are mostly positive: nineteenth-century architecture, a spa park, a casino or theatre, good pharmacies and physiotherapists, and local authorities that invest in public space because visitors expect it. The downside is seasonality. Many shops and restaurants are tuned to the cure calendar, which in most towns runs from spring to autumn."
+      },
+      {
+        "heading": "Vichy: the grande dame that has come back into fashion",
+        "body": "Vichy, in the Allier département, is the most complete example: a grand thermal establishment, big parks along the river Allier, a historic opera house, a university presence and a regional hospital. In 2021 it was listed by UNESCO as one of the Great Spa Towns of Europe, which has helped the local tourism and heritage economy. It is roughly three hours from Paris by train, and the nearest big city is Clermont-Ferrand, which is close enough to use for hospital specialists and a larger job market. Property is inexpensive compared with the national average. Vichy suits retirees, remote workers who want good train links, and anyone who values a compact city with heritage and parks over nightlife."
+      },
+      {
+        "heading": "Aix-les-Bains: thermal town plus lake, at a premium",
+        "body": "Aix-les-Bains sits on the Lac du Bourget, France's largest natural lake, in the Savoie département, with mountains behind and Chambéry and Annecy within easy reach. It pairs a spa tradition with lake sports, hiking and skiing within about an hour, so it attracts remote workers and commuters towards Chambéry and Geneva-area employers as well as retirees. That mix pushes property prices well above those of other thermal towns, and it is the town of the six where a spa location stops being the main reason to move. Check commuting times and road congestion in peak season before committing."
+      },
+      {
+        "heading": "Dax: a mild-climate bet in the south-west",
+        "body": "Dax, in the Landes, is one of France's largest spa towns by number of cures, with its hot springs sitting in the middle of town and the river Adour running through it. The climate is mild and the Atlantic beaches are about forty minutes away. It is flat, easy to cycle and has a strong local sports and festival culture, including the bullfighting tradition of the south-west that some newcomers love and others find difficult. Property is cheaper than on the coast, and it suits retirees and anyone who wants the south-west lifestyle without coastal prices. Its job market is limited, so plan for remote or local work."
+      },
+      {
+        "heading": "Évian, Lourdes and Bagnères-de-Bigorre: three special cases",
+        "body": "Évian-les-Bains, on the south shore of Lake Geneva, is an expensive lakeside town with a bottled-water brand, a ferry link to Switzerland and cross-border workers; it behaves more like a Geneva suburb than a typical spa town. Lourdes is a pilgrimage centre first: a very large number of visitors pass through each year, hotels dominate the economy, and the permanent resident population is small and stable, so the property market is thin and the town feels very different in the off-season. Bagnères-de-Bigorre, in the Pyrenees, is a modest, affordable spa and mountain town for people who want hiking and skiing on the doorstep and can accept a slow market and long distances to a big city."
+      },
+      {
+        "heading": "What do these towns have in common?",
+        "body": "A well-kept historic centre and a poorer periphery. Inside the spa quarter you find parks, covered walkways and period buildings; outside it you often find ordinary commercial strips and postwar housing. Typical features of living there: a population older than the national average, good medical and paramedical services, a calendar of concerts and festivals, and property prices that are low compared with a metropolitan area of the same size. Younger buyers tend to find the choice of jobs and nightlife limited, and should check the school and activities offer before choosing."
+      },
+      {
+        "heading": "Who thrives in a thermal town, and who does not?",
+        "body": "It works for: retirees who value health services and walkability; remote workers on a fast fibre line who want a calm base with a train station; people who like heritage, parks and a small-town cultural life; and buyers on a budget who want a historic centre rather than a new development. It does not work for: people who need a large and varied job market, anyone who hates seasonal quiet, those who want a young and student-driven nightlife, and families who need a wide choice of schools and activities for teenagers. If you are unsure, rent for a winter before buying; most spa towns look their best in July, and the test is February."
+      },
+      {
+        "heading": "What are the classic mistakes?",
+        "body": "Buying on the strength of the summer. Many shops, restaurants and thermal activities slow down or close out of season, so visit in winter and ask what stays open. Overpaying for a flat in the spa quarter without checking charges and the condition of the building, since period buildings can mean heavy renovation costs shared between owners; ask for the last three years of meeting minutes and any planned works. Assuming a tourist town will have the medical specialists of a city; check the distance to the nearest hospital with the specialty you need. Counting on short-term rental income without checking the local rules and the town's own registration requirements."
+      },
+      {
+        "heading": "What is the honest verdict?",
+        "body": "A thermal town is a good arbitrage for a specific profile: someone who wants a lived-in historic centre, parks and good health services for much less than they would pay in a large city, and who can work remotely or does not need to work locally. It is a weak choice for anyone who needs a dynamic job market or a youthful atmosphere. Of the six, Vichy and Dax offer the most for the money, Aix-les-Bains and Évian are lake towns with premium prices, and Lourdes and Bagnères-de-Bigorre are niche choices for people who know why they want to be there."
+      }
+    ],
+    "relatedCities": [
+      "vichy",
+      "aix-les-bains",
+      "dax",
+      "evian-les-bains",
+      "lourdes",
+      "bagneres-de-bigorre"
+    ],
+    "tags": [
+      "spa towns",
+      "thermal",
+      "retirement",
+      "small towns",
+      "remote work",
+      "lifestyle"
+    ],
+    "publishedAt": "2026-11-12",
+    "updatedAt": "2026-11-12"
+  },
+  {
+    "slug": "living-near-an-airport-in-france-noise-2026",
+    "title": "Living Near an Airport in France (2026): Noise Zones, Prices and Checks",
+    "metaTitle": "Living Near a French Airport 2026: Noise and Prices",
+    "metaDesc": "How French airport noise zones (PEB) work, why flight paths matter more than distance, what it does to prices and how to check a property before you buy.",
+    "category": "lifestyle",
+    "emoji": "✈️",
+    "readMinutes": 8,
+    "intro": "What you hear near a French airport depends on the flight paths, the prevailing wind and whether flights run at night, much more than on the distance to the runway. A flat 2 km from a runway but off the take-off axis can be quieter than a house 15 km away directly under it. French law gives you a map, the PEB (plan d'exposition au bruit), which defines the zones where building is restricted and where you must be informed. That map is a legal tool; it does not tell you how a Tuesday at 6 a.m. actually sounds. This guide explains what the PEB does and does not say, what to check yourself, and when living near an airport is a smart choice.",
+    "sections": [
+      {
+        "heading": "What is the PEB, and what does it actually tell you?",
+        "body": "The PEB is a zoning document drawn up around the larger French airports, with zones labelled A (strongest noise) to D (weakest). It restricts new housing in the noisiest zones and sets conditions for renovation, and it triggers an information obligation: if a property is inside a PEB, the seller or landlord must give the buyer or tenant a note on aircraft noise as part of the sale or lease paperwork. It is based on modelled average noise over a year, not on the loudest events, and it is revised infrequently. It does not tell you how many aircraft pass overhead at what hour, or how it feels in a garden in summer. Treat it as the minimum check, not the full one."
+      },
+      {
+        "heading": "Why does distance matter less than flight paths?",
+        "body": "Aircraft noise follows corridors. On take-off and approach, planes use set tracks, and the loudest stretches are the straight lines extending from the runway ends, plus the turns that follow. The wind decides which direction the runway is used in, so a house may be quiet for weeks and then noisy in a week of reversed wind. Altitude, aircraft type and the time of day change the picture further. That is why two streets a few hundred metres apart can have very different noise, and why average noise maps hide the best and worst cases."
+      },
+      {
+        "heading": "Which big French airports raise the question?",
+        "body": "Paris-Charles de Gaulle and Orly dominate Île-de-France and have the most active residents' groups, including noise-monitoring work by Bruitparif and a night restriction at Orly. Outside Paris, the main passenger airports with residential areas nearby include Nice Côte d'Azur, Marseille Provence, Toulouse-Blagnac, Lyon-Saint-Exupéry, Bordeaux-Mérignac, Nantes Atlantique, Lille, Strasbourg and Montpellier. Toulouse-Blagnac and Bordeaux-Mérignac matter for buyers because their suburbs, which share the airports' names, are popular with aerospace and other workers. Small regional airports, flying clubs and military airfields also create noise and may have their own PEBs, which is easy to overlook."
+      },
+      {
+        "heading": "How much does an airport discount a property?",
+        "body": "A discount exists inside the noisiest zones and it varies by airport and by market. Studies of property transactions generally find a few percent to low double digits off, concentrated under the corridors, with little effect elsewhere. In very tight markets, such as around Paris, the convenience of the airport and good transport links can offset the discount, and the demand from airline and airport workers is steady. Do not assume a discount equals a bargain: noise-exposed property can be slower to resell and harder to insure against vacancy, so the lower price needs to be large enough to compensate."
+      },
+      {
+        "heading": "How do you check a property before you buy?",
+        "body": "Five steps. First, find out if the address lies in a PEB zone using the Géoportail de l'urbanisme or the town hall. Second, look at the airport's published flight tracks and the noise-measurement reports, which many airport operators and local associations publish. Third, visit at different times: early morning, evening and a weekend, and with the windows open. Fourth, ask the neighbours how often the planes pass and whether it is worse in summer. Fifth, check the windows and insulation: in the noisiest zones, residents can be eligible for a subsidy for soundproofing, funded by a tax on airline tickets, and if the previous owner has already done the work, it is worth a lot."
+      },
+      {
+        "heading": "Who can live with it, and who cannot?",
+        "body": "It works for: airport and airline employees; frequent flyers who value a short trip to the terminal; people who sleep well with background noise and have good double glazing; and investors who target the stable rental demand from airport-related jobs. It does not work for: light sleepers, anyone working night shifts who sleeps by day, families who plan to use the garden a lot in summer, and anyone for whom quiet is the point of the purchase. If you are in doubt, rent for a few months before you buy, especially through a summer."
+      },
+      {
+        "heading": "What are the classic traps?",
+        "body": "Judging by a single quiet visit; the wind may send the planes the other way that day. Relying on distance alone and missing the corridor. Ignoring night flights, which matter more for sleep than the daytime average. Skipping the paperwork: if your property is in the PEB and the information note is missing from the sale documents, ask for it. Paying full price for a property whose windows need replacing, since good acoustic glazing costs several thousand euros. And forgetting the future: a planned runway or traffic increase can change the noise map, so check the airport's development plans."
+      },
+      {
+        "heading": "When is living near an airport still a good idea?",
+        "body": "When you travel a lot or work at or around the airport, when the property is outside the corridors and clearly in the less exposed PEB zone, when it has proper acoustic glazing and the price reflects the situation, and when you plan to hold the property for a long time. Under those conditions you buy a short commute and good transport links at a discount, and the noise is a managed cost rather than a surprise."
+      },
+      {
+        "heading": "What is the honest verdict?",
+        "body": "The corridor, the night flights and your own sensitivity matter more than the distance on the map. Use the PEB as the legal minimum, add your own visits at different times and the flight tracks, and buy only if the discount pays for the glazing and the lost quiet. If you cannot answer how many flights pass over the house at night, you have not finished your due diligence."
+      }
+    ],
+    "relatedCities": [
+      "blagnac",
+      "merignac",
+      "tremblay-en-france",
+      "nice",
+      "marseille"
+    ],
+    "tags": [
+      "airport",
+      "noise",
+      "buying property",
+      "risk",
+      "due diligence",
+      "expat"
+    ],
+    "publishedAt": "2026-11-12",
+    "updatedAt": "2026-11-12"
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

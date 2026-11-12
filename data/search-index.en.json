@@ -10665,6 +10665,21 @@
       "slug": "where-to-retire-in-france-2027",
       "title": "Where to Retire in France in 2027: The Best-Rated Towns",
       "emoji": "🌅"
+    },
+    {
+      "slug": "living-near-a-french-nuclear-power-plant-2026",
+      "title": "Living Near a Nuclear Power Plant in France (2026): Risk, Tax, Jobs, Prices",
+      "emoji": "⚛️"
+    },
+    {
+      "slug": "living-in-a-french-spa-town-2026",
+      "title": "Living in a French Spa Town (2026): Vichy, Dax, Aix-les-Bains and Others",
+      "emoji": "♨️"
+    },
+    {
+      "slug": "living-near-an-airport-in-france-noise-2026",
+      "title": "Living Near an Airport in France (2026): Noise Zones, Prices and Checks",
+      "emoji": "✈️"
     }
   ],
   "tags": [
@@ -10859,6 +10874,11 @@
       "count": 19
     },
     {
+      "slug": "expat",
+      "label": "expat",
+      "count": 17
+    },
+    {
       "slug": "reunion",
       "label": "reunion",
       "count": 16
@@ -10871,11 +10891,6 @@
     {
       "slug": "cycling",
       "label": "cycling",
-      "count": 15
-    },
-    {
-      "slug": "expat",
-      "label": "expat",
       "count": 15
     },
     {
@@ -10979,6 +10994,11 @@
       "count": 9
     },
     {
+      "slug": "lifestyle",
+      "label": "lifestyle",
+      "count": 9
+    },
+    {
       "slug": "mediterranean",
       "label": "mediterranean",
       "count": 9
@@ -11011,11 +11031,6 @@
     {
       "slug": "grenoble",
       "label": "grenoble",
-      "count": 8
-    },
-    {
-      "slug": "lifestyle",
-      "label": "lifestyle",
       "count": 8
     },
     {
@@ -11274,6 +11289,11 @@
       "count": 4
     },
     {
+      "slug": "retirement",
+      "label": "retirement",
+      "count": 4
+    },
+    {
       "slug": "affordable",
       "label": "affordable",
       "count": 3
@@ -11296,6 +11316,11 @@
     {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
+      "count": 3
+    },
+    {
+      "slug": "buying-property",
+      "label": "buying property",
       "count": 3
     },
     {
@@ -11404,6 +11429,11 @@
       "count": 3
     },
     {
+      "slug": "remote-work",
+      "label": "remote work",
+      "count": 3
+    },
+    {
       "slug": "renting-in-france",
       "label": "renting in france",
       "count": 3
@@ -11419,8 +11449,8 @@
       "count": 3
     },
     {
-      "slug": "retirement",
-      "label": "retirement",
+      "slug": "safety",
+      "label": "safety",
       "count": 3
     },
     {
