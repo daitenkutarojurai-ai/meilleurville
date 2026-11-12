@@ -62916,6 +62916,94 @@ export const EN_GUIDES: EnGuide[] = [
     "publishedAt": "2026-11-12",
     "updatedAt": "2026-11-12"
   },
+  {
+    slug: "best-mid-sized-towns-to-live-in-france-2027",
+    title: "Best Mid-Sized Towns to Live in France in 2027: 20,000 to 100,000 Residents Ranked",
+    metaTitle: "Best Mid-Sized Towns to Live in France in 2027",
+    metaDesc:
+      "374 French towns of 20,000 to 100,000 residents scored: Fontainebleau 7.9, Beaune 7.7, Anglet 7.6. Plus those above 7 with a one-bedroom at €620 or less.",
+    category: "moving",
+    emoji: "🏘️",
+    readMinutes: 3,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro:
+      "Of the 374 French towns with 20,000 to 100,000 residents that we score, Fontainebleau comes first for 2027 (7.9/10), ahead of Beaune (7.7) and Anglet (7.6). The best-rated are not the cheapest: a one-bedroom flat there costs €800 a month or more. For €620 or less, look at Lannion, Saint-Dié-des-Vosges, Laon, Saumur, Albi or La Roche-sur-Yon, all scoring 7.0 or above.",
+    sections: [
+      {
+        heading: "What is the 2027 ranking of mid-sized French towns?",
+        body: "Fontainebleau 7.9; Beaune 7.7; Anglet 7.6; Les Sables-d'Olonne 7.4. On 7.3: Lannion, Saint-Dié-des-Vosges and Villefranche-sur-Saône. On 7.2: La Rochelle and Laon. On 7.1: Albi, Saumur, Vienne and Challans. La Roche-sur-Yon scores 7.0 and Vannes 6.9. The next tier, 6.8, is a four-way tie, so the list stops before it rather than pick one at random. Towns in the same tier are level.",
+      },
+      {
+        heading: "Are the coastal towns worth the price?",
+        body: "They score very well, and they are expensive. Anglet: one-bedroom at €890, €4,300 per m², cost score 4.5. La Rochelle: €820 and €4,200 per m², cost 4.6. Vannes: €850 and €3,900 per m². Les Sables-d'Olonne: €790 and €3,500 per m². In return, nature scores 7.2 to 8.5 and quality of life 7.8 to 8.7 (source: our rent and price estimates).",
+      },
+      {
+        heading: "Which mid-sized towns have the most heritage and culture?",
+        body: "Beaune and Vienne score 9.0 for culture, Laon and Saumur 8.7, Albi 8.0 and Fontainebleau 7.8. Fontainebleau adds 8.5 for nature and 8.7 for schools, which explains its first place, at the price of a one-bedroom at €880 and a cost score of 4.6. Saumur and Laon offer almost as much heritage for €600 and €550 in rent.",
+      },
+      {
+        heading: "Which mid-sized towns are well rated and cheap?",
+        body: "Seven towns on 7.0 or above have a one-bedroom at €640 or less. Saint-Dié-des-Vosges: €500 rent, €1,100 per m², cost and nature both 8.5. Laon: €550 and €1,400 per m². Lannion: €600 and €2,100 per m², safety 8.2. La Roche-sur-Yon: €600 and €2,100 per m², safety 8.0. Saumur: €600 and €1,900 per m². Albi: €620 and €2,200 per m². Challans: €640 and €2,100 per m², safety 8.3.\n\nThe trade-off is plain: in Saint-Dié-des-Vosges quality of life scores only 5.9 and transport 4.9.",
+      },
+      {
+        heading: "Can you work remotely from a mid-sized town?",
+        body: "Not from all of them. On the remote-work axis, Villefranche-sur-Saône and La Rochelle score 8.8, while Les Sables-d'Olonne and Saumur stay at 6.3. For reaching a big city, transport scores 7.7 in Anglet and Vienne, and 7.0 in La Rochelle, Villefranche-sur-Saône and La Roche-sur-Yon. It drops to 4.9 in Lannion, Saumur, Challans and Saint-Dié-des-Vosges, where a regular trip to an office becomes a chore.",
+      },
+      {
+        heading: "What does this ranking leave out?",
+        body: "The score covers the commune itself, not its wider urban area, and local jobs are not part of it. A well-rated town may offer few positions in your field. Rents and prices are city-wide average estimates. And 20,000 residents is not the same life as 100,000: Lannion has 20,000 people, La Rochelle more than 76,000.",
+      },
+      {
+        heading: "Which mid-sized town for which profile?",
+        body: "Family with a job in Paris or Lyon: Fontainebleau (schools 8.7) or Villefranche-sur-Saône (schools 8.7, transport 7.0). Remote work by the ocean: La Rochelle, if €820 for a one-bedroom fits the budget. Small budget: Laon, Saint-Dié-des-Vosges or Saumur, at €600 or less. Peace and quiet first: Challans, Lannion or La Roche-sur-Yon, all on 8.0 or more for safety.",
+      },
+    ],
+    relatedCities: ["fontainebleau", "beaune", "anglet", "les-sables-d-olonne", "lannion", "saint-die-des-vosges", "la-roche-sur-yon", "albi"],
+    tags: ["mid-sized towns", "2027 ranking", "quality of life", "rents", "moving to France"],
+  },
+  {
+    slug: "where-to-buy-property-in-france-2027-under-2000-per-m2",
+    title: "Where to Buy Property in France in 2027: Well-Rated Towns Under €2,000 per m²",
+    metaTitle: "Where to Buy in France in 2027: Towns Under €2,000/m²",
+    metaDesc:
+      "88 French towns above 20,000 residents are still at €2,000 per m² or less. Best rated: Saint-Dié-des-Vosges, Laon, Saumur. What 70 m² costs, and the catches.",
+    category: "budget",
+    emoji: "🔑",
+    readMinutes: 3,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro:
+      "88 French towns with more than 20,000 residents are still at €2,000 per m² or less in our price estimate, 35 of them at €1,500 or less. The best rated to live in are Saint-Dié-des-Vosges (7.3/10, €1,100 per m²), Laon (7.2, €1,400) and Saumur (7.1, €1,900). At those prices a 70 m² home costs between €77,000 and €133,000, before notaire fees, the legal and transfer costs paid by the buyer.",
+    sections: [
+      {
+        heading: "Which towns under €2,000 per m² score best?",
+        body: "Saint-Dié-des-Vosges 7.3 (€1,100 per m²); Laon 7.2 (€1,400); Saumur 7.1 (€1,900). On 6.8: Brive-la-Gaillarde (€2,000), Dole (€1,800) and Chaumont (€950). Dieppe 6.7 (€1,800). On 6.6: Cholet (€1,900), Sens (€1,900) and Soissons (€1,700). On 6.5: Vichy (€1,700), Auch (€1,500) and Villeneuve-sur-Lot (€1,500). Abbeville 6.4 (€1,500). The next tier, 6.3, is a four-way tie.\n\nFor context, the median across our 593 cities is €2,700 per m² and the average score is 5.4.",
+      },
+      {
+        heading: "What does a 70 m² home cost in these towns?",
+        body: "Multiplying the average price by 70: €66,500 in Chaumont, €77,000 in Saint-Dié-des-Vosges, €98,000 in Laon, €105,000 in Auch, Villeneuve-sur-Lot and Abbeville, €119,000 in Soissons and Vichy, €126,000 in Dole and Dieppe, €133,000 in Saumur, Cholet and Sens, and €140,000 in Brive-la-Gaillarde.\n\nThe same sum gives €294,000 in Nantes, €350,000 in Lyon and €735,000 in Paris. These are orders of magnitude from a city-wide average, not the price of a given property; add notaire fees.",
+      },
+      {
+        heading: "Is it better to buy or rent in these towns?",
+        body: "Set against rent, buying is far lighter here than in a big city. Taking a two-bedroom flat (a T3) as 70 m², the purchase price equals 9.6 years of rent in Saint-Dié-des-Vosges (€670 a month), 13.9 in Saumur (€800) and 15.0 in Brive-la-Gaillarde (€780), against 21.1 in Lyon (€1,380).\n\nFewer years of rent means a purchase that pays for itself sooner. But a low ratio also signals weak demand: reselling can take a long time.",
+      },
+      {
+        heading: "What does such a low price per m² hide?",
+        body: "First, limited connections. Transport scores 4.9 in Saint-Dié-des-Vosges and Chaumont, and 4.2 in Vichy, Auch and Villeneuve-sur-Lot. Then weak axes depending on your plans: remote work scores 5.1 in Dole, Vichy and Auch, and schools 5.5 in Chaumont.\n\nFinally, a low average price often means older housing stock. Before signing, look at the property's DPE (the mandatory energy-performance rating) and its taxe foncière (the annual property tax): both weigh more when the purchase price is low.",
+      },
+      {
+        heading: "Which ones keep decent transport and remote-work scores?",
+        body: "Brive-la-Gaillarde and Dieppe score 7.0 for transport, Laon, Dole and Sens 6.4, and Cholet 6.2. On the remote-work axis, five towns on the list score 7.5: Saint-Dié-des-Vosges, Laon, Dieppe, Sens and Soissons. Laon, Dieppe and Sens are the only three to combine 6.4 or more for transport with 7.5 for remote work.",
+      },
+      {
+        heading: "Who should buy in these towns in 2027?",
+        body: "A first-time buyer who works locally or remotely: at €140,000 or less for 70 m², the deposit stays within reach. A retiree selling up elsewhere: Saumur (culture 8.7) or Vichy leave money over after the purchase. Avoid them if you expect to resell within three years, or if your job means frequent travel from a town scoring under 5 for transport.",
+      },
+    ],
+    relatedCities: ["saint-die-des-vosges", "laon", "saumur", "brive-la-gaillarde", "dole", "chaumont", "dieppe", "cholet"],
+    tags: ["buying property", "2027", "price per m²", "cheap towns", "first-time buyer"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

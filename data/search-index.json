@@ -11290,6 +11290,21 @@
       "slug": "ou-prendre-sa-retraite-en-france-en-2027",
       "title": "Où prendre sa retraite en France en 2027 ? Les villes les mieux notées",
       "emoji": "🌅"
+    },
+    {
+      "slug": "meilleures-villes-pour-une-famille-en-2027",
+      "title": "Meilleures villes pour une famille en 2027 : écoles, sécurité, nature et budget",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "ou-teletravailler-en-france-en-2027",
+      "title": "Où télétravailler en France en 2027 ? Les villes les mieux notées, loyer compris",
+      "emoji": "💻"
+    },
+    {
+      "slug": "ou-louer-pas-cher-en-2027-villes-t2-a-moins-de-550-euros",
+      "title": "Où louer pas cher en 2027 ? Les villes où le T2 reste à 550 € ou moins",
+      "emoji": "🏷️"
     }
   ],
   "tags": [
@@ -11306,7 +11321,7 @@
     {
       "slug": "teletravail",
       "label": "télétravail",
-      "count": 49
+      "count": 50
     },
     {
       "slug": "demenagement",
@@ -11374,14 +11389,14 @@
       "count": 20
     },
     {
-      "slug": "soleil",
-      "label": "soleil",
+      "slug": "famille",
+      "label": "famille",
       "count": 19
     },
     {
-      "slug": "famille",
-      "label": "famille",
-      "count": 18
+      "slug": "soleil",
+      "label": "soleil",
+      "count": 19
     },
     {
       "slug": "famille-monoparentale-auvergne-rhone-alpes",
@@ -11489,6 +11504,11 @@
       "count": 13
     },
     {
+      "slug": "budget",
+      "label": "budget",
+      "count": 12
+    },
+    {
       "slug": "marseille",
       "label": "Marseille",
       "count": 12
@@ -11502,11 +11522,6 @@
       "slug": "vacances-sans-voiture",
       "label": "vacances sans voiture",
       "count": 12
-    },
-    {
-      "slug": "budget",
-      "label": "budget",
-      "count": 11
     },
     {
       "slug": "famille-monoparentale-occitanie",
@@ -11654,6 +11669,11 @@
       "count": 9
     },
     {
+      "slug": "securite",
+      "label": "sécurité",
+      "count": 9
+    },
+    {
       "slug": "tgv-paris",
       "label": "TGV Paris",
       "count": 9
@@ -11719,11 +11739,6 @@
       "count": 8
     },
     {
-      "slug": "securite",
-      "label": "sécurité",
-      "count": 8
-    },
-    {
       "slug": "tours",
       "label": "Tours",
       "count": 8
@@ -11771,6 +11786,11 @@
     {
       "slug": "dpe",
       "label": "DPE",
+      "count": 7
+    },
+    {
+      "slug": "ecoles",
+      "label": "écoles",
       "count": 7
     },
     {
@@ -11831,11 +11851,6 @@
     {
       "slug": "clermont-ferrand",
       "label": "Clermont-Ferrand",
-      "count": 6
-    },
-    {
-      "slug": "ecoles",
-      "label": "écoles",
       "count": 6
     },
     {
@@ -11934,6 +11949,11 @@
       "count": 5
     },
     {
+      "slug": "classement-2027",
+      "label": "classement 2027",
+      "count": 5
+    },
+    {
       "slug": "classement-mensuel-villes-france",
       "label": "classement mensuel villes France",
       "count": 5
@@ -11996,6 +12016,11 @@
     {
       "slug": "orleans",
       "label": "Orléans",
+      "count": 5
+    },
+    {
+      "slug": "ou-vivre",
+      "label": "où vivre",
       "count": 5
     },
     {
@@ -12239,6 +12264,11 @@
       "count": 4
     },
     {
+      "slug": "remote",
+      "label": "remote",
+      "count": 4
+    },
+    {
       "slug": "rendement-locatif",
       "label": "rendement locatif",
       "count": 4
@@ -12391,11 +12421,6 @@
     {
       "slug": "charente-maritime",
       "label": "Charente-Maritime",
-      "count": 3
-    },
-    {
-      "slug": "classement-2027",
-      "label": "classement 2027",
       "count": 3
     },
     {
@@ -12669,11 +12694,6 @@
       "count": 3
     },
     {
-      "slug": "ou-vivre",
-      "label": "où vivre",
-      "count": 3
-    },
-    {
       "slug": "outre-mer",
       "label": "Outre-mer",
       "count": 3
@@ -12746,11 +12766,6 @@
     {
       "slug": "refuge-climatique",
       "label": "refuge climatique",
-      "count": 3
-    },
-    {
-      "slug": "remote",
-      "label": "remote",
       "count": 3
     },
     {
@@ -12846,6 +12861,11 @@
     {
       "slug": "sud-ouest",
       "label": "sud-ouest",
+      "count": 3
+    },
+    {
+      "slug": "t2",
+      "label": "T2",
       "count": 3
     },
     {

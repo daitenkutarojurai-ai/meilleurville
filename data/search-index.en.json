@@ -10680,6 +10680,16 @@
       "slug": "living-near-an-airport-in-france-noise-2026",
       "title": "Living Near an Airport in France (2026): Noise Zones, Prices and Checks",
       "emoji": "✈️"
+    },
+    {
+      "slug": "best-mid-sized-towns-to-live-in-france-2027",
+      "title": "Best Mid-Sized Towns to Live in France in 2027: 20,000 to 100,000 Residents Ranked",
+      "emoji": "🏘️"
+    },
+    {
+      "slug": "where-to-buy-property-in-france-2027-under-2000-per-m2",
+      "title": "Where to Buy Property in France in 2027: Well-Rated Towns Under €2,000 per m²",
+      "emoji": "🔑"
     }
   ],
   "tags": [
@@ -10696,7 +10706,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 299
+      "count": 300
     },
     {
       "slug": "single-parent-in-france",
@@ -11039,6 +11049,11 @@
       "count": 8
     },
     {
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
+      "count": 8
+    },
+    {
       "slug": "visa",
       "label": "visa",
       "count": 8
@@ -11111,11 +11126,6 @@
     {
       "slug": "paris",
       "label": "paris",
-      "count": 7
-    },
-    {
-      "slug": "quality-of-life",
-      "label": "quality-of-life",
       "count": 7
     },
     {
@@ -11214,6 +11224,11 @@
       "count": 5
     },
     {
+      "slug": "buying-property",
+      "label": "buying property",
+      "count": 4
+    },
+    {
       "slug": "french-alps",
       "label": "french alps",
       "count": 4
@@ -11294,6 +11309,11 @@
       "count": 4
     },
     {
+      "slug": "2027-ranking",
+      "label": "2027 ranking",
+      "count": 3
+    },
+    {
       "slug": "affordable",
       "label": "affordable",
       "count": 3
@@ -11316,11 +11336,6 @@
     {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
-      "count": 3
-    },
-    {
-      "slug": "buying-property",
-      "label": "buying property",
       "count": 3
     },
     {
@@ -11361,6 +11376,11 @@
     {
       "slug": "fatca",
       "label": "fatca",
+      "count": 3
+    },
+    {
+      "slug": "first-time-buyer",
+      "label": "first-time buyer",
       "count": 3
     },
     {

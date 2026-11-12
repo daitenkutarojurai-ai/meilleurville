@@ -77592,6 +77592,143 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["retraite-france-meilleures-villes-2025", "retraite-bord-de-mer-france-villes-guide-2026", "vivre-retraite-1500-euros-mois-france-2026"],
     tags: ["retraite", "classement 2027", "où vivre", "sécurité", "coût de la vie"],
   },
+  {
+    slug: "meilleures-villes-pour-une-famille-en-2027",
+    title: "Meilleures villes pour une famille en 2027 : écoles, sécurité, nature et budget",
+    metaTitle: "Meilleures villes pour une famille en 2027 : le classement",
+    metaDesc:
+      "Score famille 2027 sur 593 villes : Obernai 7,9, Gex et Fontainebleau 7,7. Annecy première des grandes villes. Et où louer un T3 à 800 € ou moins.",
+    category: "famille",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 3,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro:
+      "Obernai obtient le meilleur score famille pour 2027 (7,9/10), devant Gex et Fontainebleau (7,7). Parmi les villes de plus de 100 000 habitants, Annecy mène à 7,3, devant Grenoble (7,1) et Rennes (7,0). Pour un T3 à 800 € ou moins, Lannion et La Roche-sur-Yon arrivent en tête à 7,4.",
+    sections: [
+      {
+        heading: "Comment est calculé le score famille ?",
+        body: "C'est le barème de notre classement Famille : les écoles comptent pour 30 %, la sécurité pour 25 %, la nature pour 20 %, le coût de la vie pour 15 % et le transport pour 10 %. Les cinq notes viennent de la fiche de chaque ville. La culture et le télétravail n'entrent pas dans ce score.",
+      },
+      {
+        heading: "Quelles villes ont le meilleur score famille en 2027 ?",
+        body: "Obernai : 7,9, avec 9,0 pour les écoles et 8,6 en sécurité, pour un T3 à 1 040 €. À 7,7 : Gex (écoles 9,0, T3 à 1 490 €) et Fontainebleau (écoles 8,7, nature 8,5, T3 à 1 200 €). À 7,6 : La Flèche (T3 à 790 €, écoles 8,7), Pontarlier (940 €, nature 8,5), Le Puy-en-Velay (700 €) et Albertville (1 000 €, nature 8,5). Saverne est à 7,5, avec un T3 à 970 €.\n\nLe palier suivant, 7,4, réunit neuf villes ex æquo, dont Les Sables-d'Olonne, Vitré, Anglet, Lannion et La Roche-sur-Yon (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Quelles grandes villes conviennent le mieux à une famille ?",
+        body: "Annecy : 7,3, portée par la nature (8,9) et les écoles (8,7), mais le T3 y coûte 1 450 €. Grenoble : 7,1, avec 9,0 pour les écoles et 8,4 en nature, malgré une sécurité à 4,3. Rennes : 7,0, écoles à 9,0, T3 à 1 100 €. Strasbourg : 6,8. Besançon : 6,6, avec le T3 le moins cher du groupe, 900 €. Le palier suivant, 6,5, réunit Angers, Brest, Clermont-Ferrand et Lyon.\n\nPlus bas : Toulouse et Nantes 6,3, Bordeaux 6,1, Montpellier 5,8, Lille 5,7, Nice 5,5, Paris 5,0 et Marseille 4,2.",
+      },
+      {
+        heading: "Où loger une famille pour 800 € par mois ?",
+        body: "81 villes de plus de 20 000 habitants ont un T3 à 800 € ou moins dans notre estimation. Les mieux notées pour une famille : Lannion (7,4, sécurité 8,2) et La Roche-sur-Yon (7,4, sécurité 8,0, transport 7,0), toutes deux à 800 €. Saint-Dié-des-Vosges : 7,3, T3 à 670 €. Dole : 7,1, T3 à 780 €, écoles 7,7. Cholet : 6,9, 800 €. À 6,8 : Laon (740 €) et Auch (640 €). À 6,7 : Chaumont (630 €) et Vichy (640 €). Le palier suivant, 6,6, réunit Brive-la-Gaillarde et Saumur.",
+      },
+      {
+        heading: "Que ne mesure pas le score famille ?",
+        body: "Trois choses qui pèsent dans la vie d'une famille. Les places en crèche et les modes de garde ne sont pas dans le calcul. L'emploi non plus : une ville bien notée ne garantit pas deux postes pour deux parents. Et la note des écoles vaut pour la ville entière, pas pour un établissement précis : consultez la page Écoles de la fiche ville avant de choisir un quartier.\n\nUn exemple de ce que cache une moyenne : Chaumont figure dans la liste des loyers bas grâce à son coût (8,5) alors que ses écoles ne sont notées que 5,5.",
+      },
+      {
+        heading: "Quelle ville pour quelle famille ?",
+        body: "Budget large et priorité aux écoles : Obernai, Gex ou Fontainebleau, toutes à 8,7 ou plus. Besoin d'une grande ville : Rennes ou Grenoble, à 9,0 pour les écoles, en acceptant une sécurité plus faible à Grenoble. Budget serré : Lannion, La Roche-sur-Yon ou Dole, avec un T3 à 800 € ou moins et des écoles à 7,7. Envie de montagne : Pontarlier ou Albertville, nature à 8,5.",
+      },
+    ],
+    relatedCities: ["obernai", "gex", "fontainebleau", "la-fleche", "pontarlier", "annecy", "grenoble", "rennes"],
+    relatedGuides: ["meilleure-ville-famille-france", "ou-vivre-en-france-2027-villes-les-mieux-notees", "villes-moyennes-ou-il-fait-bon-vivre-2027"],
+    tags: ["famille", "classement 2027", "écoles", "sécurité", "où vivre"],
+  },
+  {
+    slug: "ou-teletravailler-en-france-en-2027",
+    title: "Où télétravailler en France en 2027 ? Les villes les mieux notées, loyer compris",
+    metaTitle: "Où télétravailler en France en 2027 : le classement",
+    metaDesc:
+      "Score télétravail 2027 : Vendôme, Rennes et Vaison-la-Romaine en tête (7,8). Et les villes à 7 ou plus avec un T2 à 650 € ou moins : Laon, Lannion, Albi.",
+    category: "teletravail",
+    emoji: "💻",
+    readMinutes: 3,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro:
+      "Vendôme, Rennes et Vaison-la-Romaine partagent la première place de notre classement télétravail pour 2027, à 7,8/10. Pour un T2 à 650 € ou moins dans une ville de plus de 20 000 habitants, Laon arrive en tête (7,3), devant Lannion (7,1), Albi et Dieppe (7,0).",
+    sections: [
+      {
+        heading: "Comment est calculé le score télétravail ?",
+        body: "C'est le barème de notre classement Télétravail. L'axe télétravail de la fiche ville compte pour 37,5 %, la qualité de vie pour 25 %, le coût de la vie pour près de 19 %, le transport pour 12,5 % et la culture pour un peu plus de 6 %. Une ville très connectée mais chère ou enclavée perd donc des points.",
+      },
+      {
+        heading: "Quelles villes sont en tête pour 2027 ?",
+        body: "À 7,8 : Vendôme (axe télétravail 9,0, transport 7,1, T2 à 540 €), Rennes (9,0, T2 à 820 €) et Vaison-la-Romaine (8,8, T2 à 700 €). À 7,7 : Senlis (8,8, T2 à 760 €) et Villeurbanne (8,8, T2 à 870 €). À 7,6 : Nantes, Villefranche-sur-Saône, Obernai, Issy-les-Moulineaux, Lyon et Gérardmer. Le palier suivant, 7,5, réunit Amboise, La Rochelle, Strasbourg et Gex.\n\nDans un même palier, les villes sont ex æquo : l'ordre de la phrase n'est pas un rang (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Quelles grandes villes pour télétravailler ?",
+        body: "Parmi les villes de plus de 100 000 habitants : Rennes 7,8 ; Villeurbanne 7,7 ; Nantes et Lyon 7,6 ; Strasbourg 7,5 ; Bordeaux 7,4 ; Annecy 7,3. Le palier suivant, 7,2, réunit Angers et Toulouse. Plus bas : Lille 7,0, Paris 6,9, Montpellier 6,7, Nice 5,8 et Marseille 5,0.\n\nLe loyer fait l'écart : le T2 est à 820 € à Rennes et 850 € à Nantes, contre 1 000 € à Lyon et 1 800 € à Paris.",
+      },
+      {
+        heading: "Où télétravailler sans payer un loyer de métropole ?",
+        body: "113 villes de plus de 20 000 habitants ont un T2 à 650 € ou moins. Les mieux classées : Laon (7,3, T2 à 550 €, transport 6,4), Lannion (7,1, 600 €), Albi (7,0, 620 €) et Dieppe (7,0, 610 €, transport 7,0). Puis Saint-Dié-des-Vosges (6,9, 500 €) et Challans (6,8, 640 €). À 6,7 : Saumur (600 €), Brest (650 €) et Brive-la-Gaillarde (580 €). Le palier suivant, 6,6, réunit La Roche-sur-Yon et Châtellerault.",
+      },
+      {
+        heading: "Quel est le piège du télétravail en petite ville ?",
+        body: "Le trajet des jours de bureau. Le transport est noté 3,4 à Vaison-la-Romaine et à Gérardmer, 4,9 à Lannion, Saint-Dié-des-Vosges, Challans et Saumur : un aller-retour hebdomadaire vers un siège y coûte une journée. À l'inverse, Vendôme, desservie par le TGV, est à 7,1, Dieppe, Brive-la-Gaillarde et Villefranche-sur-Saône à 7,0.\n\nSi votre employeur impose deux jours de présence par semaine, regardez la note de transport avant la note de télétravail.",
+      },
+      {
+        heading: "Que ne mesure pas ce classement ?",
+        body: "L'axe télétravail est une note à l'échelle de la ville. Il ne dit pas si la fibre arrive à l'adresse que vous visez : vérifiez l'éligibilité du logement, et consultez la page Connexion internet de la fiche ville. Le score ne tient pas compte non plus de votre secteur : s'il faut un jour retrouver un poste sur place, la taille du marché de l'emploi local comptera.",
+      },
+      {
+        heading: "Quelle ville pour quel télétravailleur ?",
+        body: "Télétravail complet et petit budget : Laon, Saint-Dié-des-Vosges ou Lannion, avec un T2 à 600 € ou moins. Deux jours de bureau à Paris : Vendôme ou Senlis. Vie de grande ville : Rennes, première des métropoles. Cadre de vie d'abord : Vaison-la-Romaine ou Gérardmer, qualité de vie à 8,7, en acceptant d'être loin de tout.",
+      },
+    ],
+    relatedCities: ["vendome", "rennes", "vaison-la-romaine", "senlis", "villeurbanne", "laon", "lannion", "dieppe"],
+    relatedGuides: ["vivre-en-france-teletravail-guide-2025", "ou-vivre-en-france-2027-villes-les-mieux-notees", "villes-moyennes-ou-il-fait-bon-vivre-2027"],
+    tags: ["télétravail", "classement 2027", "loyers", "remote", "où vivre"],
+  },
+  {
+    slug: "ou-louer-pas-cher-en-2027-villes-t2-a-moins-de-550-euros",
+    title: "Où louer pas cher en 2027 ? Les villes où le T2 reste à 550 € ou moins",
+    metaTitle: "Où louer pas cher en 2027 : villes avec un T2 sous 550 €",
+    metaDesc:
+      "32 villes de plus de 30 000 habitants ont un T2 à 550 € ou moins. La moins chère : Lens, 440 €. Les mieux notées : Castres, Roanne, Châtellerault.",
+    category: "budget",
+    emoji: "🏷️",
+    readMinutes: 3,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro:
+      "Sur les 281 villes de plus de 30 000 habitants que nous suivons, 32 ont un T2 à 550 € ou moins dans notre estimation des loyers, dont 14 à 500 € ou moins. La moins chère est Lens, à 440 €. Les mieux notées pour y vivre sont Castres, Roanne et Châtellerault, à 6,3/10.",
+    sections: [
+      {
+        heading: "Dans quelles villes le T2 est-il le moins cher ?",
+        body: "Lens : 440 €. À 480 € : Calais, Cambrai, Châtellerault, Saint-Quentin, Châteauroux et Liévin. À 490 € : Montluçon, Laval, Auxerre, Épinal et Valenciennes. Le palier suivant, 500 €, réunit Douai et Maubeuge.\n\nPour comparer : la médiane de nos 593 villes est à 710 €, et le T2 est à 1 000 € à Lyon et 1 800 € à Paris (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Lesquelles sont les mieux notées pour y vivre ?",
+        body: "Parmi les 32 villes à 550 € ou moins : à 6,3, Castres (520 €), Roanne (520 €) et Châtellerault (480 €). À 6,2 : Charleville-Mézières (520 €) et Saint-Quentin (480 €). À 6,1 : Laval et Auxerre (490 €). À 6,0 : Chalon-sur-Saône et Romans-sur-Isère (550 €), Cambrai (480 €) et Nevers (530 €). Le palier suivant, 5,9, réunit Montluçon, Périgueux, Belfort et Épinal.\n\nAucune ne dépasse 6,3 : à ce niveau de loyer, on reste au-dessus de la moyenne nationale (5,4), sans atteindre le haut du classement.",
+      },
+      {
+        heading: "Un loyer bas suffit-il à faire une bonne adresse ?",
+        body: "Non, et l'écart est grand entre deux villes au même prix. À 480 € le T2, Châtellerault est notée 6,3 et Liévin 2,8. Calais, au même loyer, est à 4,4 avec une sécurité à 3,7. Lens, la moins chère, est à 5,3, avec 3,8 sur l'axe télétravail et 4,5 pour les écoles. Valenciennes, à 490 €, est à 5,1.\n\nLe loyer dit ce que vous payez, la note ce que vous obtenez en échange.",
+      },
+      {
+        heading: "Où louer pas cher dans une grande ville ?",
+        body: "Parmi les villes de plus de 100 000 habitants, les T2 les moins chers sont à Saint-Étienne et Mulhouse (580 €), puis Limoges (600 €). À 650 € : Brest, Le Mans, Perpignan et Le Havre. Le palier suivant, 680 €, réunit Clermont-Ferrand, Reims, Metz, Amiens et Besançon.\n\nCôté notes, Brest (6,4) et Limoges (6,1) sont les mieux placées de ce groupe, devant Mulhouse (5,8), Le Mans (5,7), Saint-Étienne et Le Havre (5,5), et Perpignan (4,7).",
+      },
+      {
+        heading: "Combien gagne-t-on à déménager ?",
+        body: "Le calcul est simple. Passer d'un T2 à Lyon (1 000 €) à un T2 à Roanne (520 €) libère 480 € par mois, soit 5 760 € par an. De Paris (1 800 €) à Châtellerault (480 €) : 1 320 € par mois, 15 840 € par an.\n\nCes sommes ne valent que si le revenu suit : les salaires sont souvent plus bas dans ces villes, et un bailleur demande en général un revenu de trois fois le loyer, soit 1 560 € nets pour un T2 à 520 €.",
+      },
+      {
+        heading: "Quelles sont les limites de ces chiffres ?",
+        body: "Ce sont des loyers moyens estimés par ville, tous biens confondus : un T2 rénové en centre-ville coûtera plus, un logement ancien mal isolé moins, avec une facture de chauffage en face. Les charges ne sont pas comprises. Et un loyer bas ne dit rien de la facilité à trouver : consultez la page Tension locative de la fiche ville avant de chercher.",
+      },
+      {
+        heading: "Quelle ville pour quel budget ?",
+        body: "Moins de 500 € pour un T2 dans une ville correcte : Châtellerault, Saint-Quentin, Laval ou Auxerre, toutes à 6,1 ou plus. Besoin d'une grande ville : Brest ou Limoges. Sans voiture : Châtellerault et Saint-Quentin, à 7,7 en transport. À regarder de près avant de signer : Liévin, Calais et Valenciennes, dont la note reste sous la moyenne.",
+      },
+    ],
+    relatedCities: ["lens", "castres", "roanne", "chatellerault", "saint-quentin", "laval", "auxerre", "brest"],
+    relatedGuides: ["villes-france-moins-cheres-2026-top-10", "vivre-smic-quelle-ville-france-2026", "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2"],
+    tags: ["louer", "loyers 2027", "T2", "villes pas chères", "budget"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
