@@ -44210,6 +44210,282 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Béziers 2026","prendre sa retraite à Béziers","retraite Hérault","budget retraité Béziers","retraite petit budget Occitanie"],
   },
   {
+    slug: "retraite-a-reims-2026",
+    title: "Retraite à Reims en 2026 : un CHU en ville, des loyers modérés, une population qui baisse",
+    metaTitle: "Retraite à Reims 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Reims en 2026 : T2 à 680 €, m² à 2 300 €, 21,9 % de 60 ans et plus, accès aux soins 7,9/10, CHU dans la ville. Budget mensuel et limites.",
+    category: "lifestyle",
+    emoji: "🥂",
+    readMinutes: 7,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro: "Reims offre à un retraité un accès aux soins parmi les meilleurs de ce lot (7,9/10 sur notre fiche santé, CHU dans la commune) pour un deux-pièces à 680 € et un mètre carré à 2 300 € (source : notre estimation des loyers), soit environ 138 000 € pour 60 m². La ville compte 178 478 habitants, dont seulement 21,9 % de 60 ans et plus, sous la médiane de 26,2 % des villes que nous suivons (source : Insee, recensement 2022), et elle en perd 2,5 % entre 2016 et 2022. Notre score retraite est de 5,4/10, dans un palier de trente-cinq villes à égalité, derrière 411 autres : c'est une ville de services plus qu'une ville de retraite.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Reims pour un retraité ?",
+        body: "Notre moteur d'accès aux soins place Reims à 7,9/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). Les généralistes y sont mesurés à 4,97 consultations accessibles par an et par habitant selon la DREES, nettement au-dessus de la moyenne nationale de 3,72, avec 180 généralistes libéraux recensés dans la commune (Insee, BPE). Un site de CHU se trouve dans la ville : les spécialistes et les urgences n'imposent aucun trajet vers une autre agglomération. Le tramway, ligne A, dessert l'hôpital Robert-Debré. Ces chiffres mesurent la présence de l'offre, pas le délai d'un rendez-vous.",
+      },
+      {
+        heading: "Combien coûte un logement à Reims ?",
+        body: "T1 à 490 €, T2 à 680 €, T3 à 900 € et 2 300 € le mètre carré à l'achat (source : notre estimation des loyers). Châlons-en-Champagne est moins chère (540 € le T2, 1 700 €/m²), Troyes aussi (650 € et 2 000 €/m²), Épernay à 630 € et 2 100 €/m². Reims est donc le choix cher de la Champagne, mais reste à moins de la moitié du prix au mètre carré d'une métropole comme Lyon (5 000 €/m²).",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Reims",
+        body: "Personne seule locataire d'un deux-pièces : loyer 680 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 370 € par mois. Couple locataire d'un trois-pièces : loyer 900 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 930 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 130 € de marge à une personne seule, et ne suffit pas à un couple sans seconde pension.",
+      },
+      {
+        heading: "Une ville qui se vide un peu : ce que ça change",
+        body: "Reims a perdu 4 635 habitants entre 2016 et 2022 (−2,5 %, source : Insee, recensement 2022). Pour un retraité, la baisse a deux faces : un marché locatif détendu, donc des loyers qui restent raisonnables, et une ville dont l'attractivité auprès des actifs est moins nette. Le niveau de vie médian est de 20 210 € par an avec 24 % de pauvreté (source : Insee, Filosofi 2021), et la sécurité est à 5,1/10 sur notre fiche ville : à regarder quartier par quartier, en visitant à plusieurs heures.",
+      },
+      {
+        heading: "Vie quotidienne : cathédrale, tram, climat sans excès",
+        body: "La cathédrale Notre-Dame, lieu de sacre des rois de France, fait du centre une promenade à plat, praticable sans voiture. Le climat est tempéré sans excès : 3,2 °C en janvier, 21,5 °C en juillet et environ 1 664 heures de soleil par an, moins qu'un retraité du Sud ne l'espère. Paris est à portée de train pour les petits-enfants et les rendez-vous, sans en payer le loyer.",
+      },
+      {
+        heading: "Pour qui Reims fonctionne, et pour qui non",
+        body: "Reims convient au retraité qui veut un CHU à côté, un centre sans voiture et un loyer sous 700 €, et qui n'attend pas du soleil. Elle convient moins à celui qui cherche une ville déjà vieillissante où le commerce et les services sont pensés pour les seniors, ou à un couple à une seule pension moyenne : le budget d'un trois-pièces passe au-dessus de 1 900 € par mois.",
+      },
+    ],
+    relatedCities: ["reims","chalons-en-champagne","troyes","epernay"],
+    relatedGuides: [
+      "vivre-a-reims-2026",
+      "acheter-a-reims-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-reims-2026",
+      "retraite-a-nimes-2026",
+    ],
+    tags: ["retraite Reims 2026","prendre sa retraite à Reims","retraite Marne","budget retraité Reims","retraite grande ville Grand Est"],
+  },
+  {
+    slug: "retraite-a-saint-etienne-2026",
+    title: "Retraite à Saint-Étienne en 2026 : la grande ville la moins chère, relief compris",
+    metaTitle: "Retraite à Saint-Étienne 2026 : budget, santé, relief",
+    metaDesc: "Retraite à Saint-Étienne en 2026 : T2 à 580 €, m² à 1 500 €, 25,7 % de 60 ans et plus, accès aux soins 7,2/10, CHU en ville. Budget, relief et limites.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 7,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro: "Saint-Étienne est la grande ville la moins chère de ce lot : 580 € le deux-pièces et 1 500 € le mètre carré (source : notre estimation des loyers), soit environ 90 000 € pour 60 m², avec un CHU dans la commune. La ville compte 172 569 habitants, dont 25,7 % de 60 ans et plus, proche de la médiane de 26,2 % (source : Insee, recensement 2022), et elle se stabilise : +0,4 % entre 2016 et 2022. Notre score retraite est de 5,6/10, dans un palier de dix-sept villes à égalité, derrière 374 autres. Les réserves sont sociales (28 % de pauvreté) et topographiques (la ville est à 520 mètres d'altitude, sur des collines).",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Étienne coûte moins que Lyon, à une heure de là",
+        body: "Le coût de la vie y est à 7,1/10 sur notre fiche ville, le meilleur de ce lot. Le deux-pièces y vaut 580 € contre 1 000 € à Lyon, et le mètre carré 1 500 € contre 5 000 € (source : notre estimation des loyers) : un retraité qui veut rester dans l'orbite d'une métropole, pour la gare, les spécialistes ou la famille, paie le tiers du prix. Le Puy-en-Velay (530 € et 1 600 €/m²) et Roanne (520 € et 1 500 €/m²) sont du même ordre, avec moins de services.",
+      },
+      {
+        heading: "Quel accès aux soins à Saint-Étienne ?",
+        body: "Notre moteur place Saint-Étienne à 7,2/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). Les généralistes sont mesurés à 3,81 consultations accessibles par an et par habitant selon la DREES, proche de la moyenne nationale de 3,72, avec 161 généralistes libéraux recensés dans la commune. Un site de CHU est dans la ville, donc les spécialités sont sur place. C'est l'accès aux généralistes, plus que l'hôpital, qui est ici au niveau de la moyenne : choisir son médecin traitant avant de signer un bail est un bon réflexe.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Saint-Étienne",
+        body: "Personne seule locataire d'un deux-pièces : loyer 580 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 270 € par mois. Couple locataire d'un trois-pièces : loyer 770 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 800 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 230 € de marge à une personne seule, la plus large de ce lot.",
+      },
+      {
+        heading: "Le relief et le contexte social, à regarder avant de choisir",
+        body: "La ville s'étire sur des collines à 520 mètres d'altitude : une rue en pente est un obstacle quotidien à 75 ans, même avec un tramway. Le niveau de vie médian est de 19 010 € par an, 28 % de la population vit sous le seuil de pauvreté (source : Insee, Filosofi 2021) et la sécurité est à 4,3/10 sur notre fiche ville. Les prix bas décrivent un marché populaire : le quartier se choisit à pied, à plusieurs heures de la journée.",
+      },
+      {
+        heading: "Vie quotidienne : design, tram, Pilat",
+        body: "La Cité du design, installée dans l'ancienne manufacture d'armes, est desservie par la ligne T2 du tramway, qui rend la visite possible sans voiture. Saint-Étienne est la ville la plus peuplée du parc naturel régional du Pilat, qui offre des balades à quelques kilomètres du centre. Le climat est plus rude que celui du Sud : 3,5 °C en janvier, 21 °C en juillet, environ 1 820 heures de soleil par an.",
+      },
+      {
+        heading: "Pour qui Saint-Étienne fonctionne, et pour qui non",
+        body: "Saint-Étienne convient au retraité à pension moyenne qui veut un hôpital universitaire, des commerces et un loyer sous 600 €, et qui accepte le relief. Elle convient moins à celui qui a des difficultés à marcher en côte, ou qui cherche un cadre sûr et calme : avec 28 % de pauvreté et une sécurité à 4,3/10, la visite avant de s'engager n'est pas facultative.",
+      },
+    ],
+    relatedCities: ["saint-etienne","lyon","le-puy-en-velay","roanne"],
+    relatedGuides: [
+      "vivre-a-saint-etienne-2026",
+      "acheter-a-saint-etienne-quel-quartier-budget-2026",
+      "vivre-sans-voiture-saint-etienne-guide-2026",
+      "retraite-a-le-puy-en-velay-2026",
+    ],
+    tags: ["retraite Saint-Étienne 2026","prendre sa retraite à Saint-Étienne","retraite Loire","budget retraité Saint-Étienne","retraite petit budget grande ville"],
+  },
+  {
+    slug: "retraite-a-dijon-2026",
+    title: "Retraite à Dijon en 2026 : la ville qui grossit, à un budget serré",
+    metaTitle: "Retraite à Dijon 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Dijon en 2026 : T2 à 720 €, m² à 2 600 €, 22,9 % de 60 ans et plus, accès aux soins 7,6/10, CHU dans la ville. Budget mensuel et limites.",
+    category: "lifestyle",
+    emoji: "🍇",
+    readMinutes: 7,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro: "À Dijon, le deux-pièces est à 720 € et le mètre carré à 2 600 € (source : notre estimation des loyers), soit environ 156 000 € pour 60 m² : une personne seule avec la pension moyenne y garde environ 90 € de marge par mois. La ville compte 159 941 habitants, dont 22,9 % de 60 ans et plus, sous la médiane de 26,2 % (source : Insee, recensement 2022), et elle gagne 3,1 % d'habitants entre 2016 et 2022. Notre score retraite est de 6,0/10, dans un palier de quatorze villes à égalité, derrière 308 autres, et la sécurité est correcte (5,7/10) : une ville vivante, avec un CHU, mais pas une retraite bon marché.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Dijon ?",
+        body: "Notre moteur d'accès aux soins place Dijon à 7,6/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). Les généralistes y sont mesurés à 4,54 consultations accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72, avec 184 généralistes libéraux recensés dans la commune. Un site de CHU est dans la ville, avec deux services d'urgences recensés (Insee, BPE). Aucun trajet vers une autre agglomération n'est nécessaire pour les spécialités.",
+      },
+      {
+        heading: "Combien coûte un logement à Dijon ?",
+        body: "T1 à 520 €, T2 à 720 €, T3 à 950 € et 2 600 € le mètre carré à l'achat (source : notre estimation des loyers). Besançon, voisine de région, est un peu moins chère (680 € le T2, 2 300 €/m²) et Auxerre nettement moins (490 € et 1 600 €/m²). Dijon est donc la plus chère de ce comparatif, avec un marché porté par la croissance démographique.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Dijon",
+        body: "Personne seule locataire d'un deux-pièces : loyer 720 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 410 € par mois. Couple locataire d'un trois-pièces : loyer 950 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 980 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 90 € de marge à une personne seule : confortable seulement avec une pension au-dessus de la moyenne ou un patrimoine.",
+      },
+      {
+        heading: "Une ville qui attire des jeunes : ce que ça change pour un retraité",
+        body: "Avec 22,9 % de 60 ans et plus, Dijon est une ville plutôt jeune, nourrie par ses étudiants et ses emplois. L'avantage est une offre culturelle et de services large (culture 7,3/10 et transports 7,0/10 sur notre fiche ville). Le prix de cette vitalité est un marché locatif plus tendu que dans les villes en recul. Le niveau de vie médian est de 22 720 € par an, avec 17 % de pauvreté (source : Insee, Filosofi 2021), le meilleur de ce lot.",
+      },
+      {
+        heading: "Vie quotidienne : jardin Darcy, lac Kir, cité de la gastronomie",
+        body: "Le jardin Darcy, face à la gare, offre une promenade à plat avec un grand bassin. Le palais des ducs, qui abrite le musée des Beaux-Arts, est au cœur d'un centre piéton dense. Le lac Kir, sur le côté ouest de la ville, à cheval sur Fontaine-lès-Dijon, sert de parcours de marche au bord de l'eau. La Cité internationale de la gastronomie et du vin occupe l'ancien hôpital général. Le climat est continental : 2,9 °C en janvier, 22,5 °C en juillet, environ 1 820 heures de soleil.",
+      },
+      {
+        heading: "Pour qui Dijon fonctionne, et pour qui non",
+        body: "Dijon convient au retraité qui a une pension supérieure à la moyenne, ou un logement déjà acheté, et qui veut un CHU, un centre vivant et un niveau de vie médian élevé. Elle convient moins à celui qui compte chaque euro : Auxerre ou Besançon donnent le même type de services à un loyer plus bas.",
+      },
+    ],
+    relatedCities: ["dijon","besancon","auxerre"],
+    relatedGuides: [
+      "vivre-a-dijon-2026",
+      "acheter-a-dijon-quel-quartier-budget-2026",
+      "vivre-sans-voiture-dijon-guide-2026",
+      "10-choses-a-faire-a-dijon-2026",
+    ],
+    tags: ["retraite Dijon 2026","prendre sa retraite à Dijon","retraite Côte-d'Or","budget retraité Dijon","retraite Bourgogne"],
+  },
+  {
+    slug: "retraite-a-grenoble-2026",
+    title: "Retraite à Grenoble en 2026 : nature et soins au rendez-vous, budget tendu",
+    metaTitle: "Retraite à Grenoble 2026 : budget, santé, limites",
+    metaDesc: "Retraite à Grenoble en 2026 : T2 à 750 €, m² à 3 200 €, 19,6 % de 60 ans et plus, accès aux soins 7,5/10, nature 8,4/10. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro: "Grenoble est la ville la plus chère de ce lot : 750 € le deux-pièces et 3 200 € le mètre carré (source : notre estimation des loyers), soit environ 192 000 € pour 60 m², et seulement 60 € de marge par mois pour une personne seule avec la pension moyenne. En échange, elle affiche la meilleure nature du lot (8,4/10 sur notre fiche ville), un accès aux soins de 7,5/10 et des montagnes à l'horizon. La ville compte 156 389 habitants, dont 19,6 % de 60 ans et plus, la part la plus faible de ce lot (médiane : 26,2 %, source : Insee, recensement 2022). Notre score retraite est de 6,1/10, dans un palier de vingt-deux villes à égalité, derrière 286 autres.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Grenoble ?",
+        body: "Notre moteur d'accès aux soins place Grenoble à 7,5/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). Les généralistes sont mesurés à 3,96 consultations accessibles par an et par habitant selon la DREES, légèrement au-dessus de la moyenne nationale de 3,72, avec 157 généralistes libéraux recensés dans la commune. Notre moteur compte un site de CHU dans la commune et 59 pharmacies (Insee, BPE) : les soins spécialisés sont sur place.",
+      },
+      {
+        heading: "Combien coûte un logement à Grenoble ?",
+        body: "T1 à 560 €, T2 à 750 €, T3 à 1 020 € et 3 200 € le mètre carré à l'achat (source : notre estimation des loyers). Chambéry est plus chère au mètre carré (3 600 €) mais avec un T2 à 820 €, Annecy beaucoup plus (1 100 € le T2, 5 500 €/m²), Lyon à 1 000 € et 5 000 €/m². Grenoble est donc la moins chère des grandes villes alpines, mais reste au-dessus de toutes les autres villes de ce lot.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Grenoble",
+        body: "Personne seule locataire d'un deux-pièces : loyer 750 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 440 € par mois. Couple locataire d'un trois-pièces : loyer 1 020 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 2 050 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 60 € de marge à une personne seule : Grenoble suppose une pension supérieure à la moyenne.",
+      },
+      {
+        heading: "Grenoble est-elle une ville de retraite ?",
+        body: "Pas par sa démographie : 19,6 % de 60 ans et plus, et une population en légère baisse (−1,1 % entre 2016 et 2022, source : Insee, recensement 2022). C'est une ville d'étudiants, de chercheurs et d'actifs. Ses atouts pour un retraité sont ailleurs : transports 8,1/10 sur notre fiche ville, un tramway étendu, la nature 8,4/10 et, pour les promeneurs, le téléphérique de la Bastille, ouvert en 1934, dont la gare basse est à l'entrée du Jardin de Ville.",
+      },
+      {
+        heading: "Les réserves : sécurité et cuvette",
+        body: "La sécurité est à 4,3/10 sur notre fiche ville, la plus faible de ce lot avec Saint-Étienne. Le niveau de vie médian est de 22 140 € par an avec 21 % de pauvreté (source : Insee, Filosofi 2021). La ville est une cuvette : 23,8 °C en juillet, 2,8 °C en janvier, environ 1 900 heures de soleil par an, et des épisodes de chaleur et de pollution à vérifier avant de s'engager.",
+      },
+      {
+        heading: "Pour qui Grenoble fonctionne, et pour qui non",
+        body: "Grenoble convient au retraité actif qui aime la randonnée et qui a une pension confortable, ou un patrimoine. Elle convient moins à une personne seule à pension moyenne, ou à celui qui cherche une ville où les seniors sont nombreux : pour le même type de services à moindre prix, Clermont-Ferrand ou Saint-Étienne se comparent.",
+      },
+    ],
+    relatedCities: ["grenoble","chambery","annecy","lyon"],
+    relatedGuides: [
+      "vivre-a-grenoble-2026",
+      "acheter-a-grenoble-quel-quartier-budget-2026",
+      "vivre-sans-voiture-grenoble-guide-2026",
+      "retraite-a-annecy-2026",
+    ],
+    tags: ["retraite Grenoble 2026","prendre sa retraite à Grenoble","retraite Isère","budget retraité Grenoble","retraite montagne"],
+  },
+  {
+    slug: "retraite-a-clermont-ferrand-2026",
+    title: "Retraite à Clermont-Ferrand en 2026 : volcans à l'horizon, CHU à portée",
+    metaTitle: "Retraite à Clermont-Ferrand 2026 : budget, santé",
+    metaDesc: "Retraite à Clermont-Ferrand en 2026 : T2 à 680 €, m² à 2 400 €, 21 % de 60 ans et plus, accès aux soins 7,5/10, nature 7,2/10. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro: "Clermont-Ferrand coûte 680 € le deux-pièces et 2 400 € le mètre carré (source : notre estimation des loyers), soit environ 144 000 € pour 60 m², avec une nature à 7,2/10 sur notre fiche ville et un accès aux soins de 7,5/10. La ville compte 147 751 habitants, dont 21 % de 60 ans et plus, sous la médiane de 26,2 % (source : Insee, recensement 2022), et elle gagne 3,5 % d'habitants entre 2016 et 2022, la plus forte hausse de ce lot. Notre score retraite est de 6,3/10, dans un palier de seize villes à égalité, derrière 244 autres.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Clermont-Ferrand ?",
+        body: "Notre moteur place Clermont-Ferrand à 7,5/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). Les généralistes sont mesurés à 4,10 consultations accessibles par an et par habitant selon la DREES, au-dessus de la moyenne nationale de 3,72. Un site de CHU est dans la commune, avec trois services d'urgences recensés (Insee, BPE). La ville compte 122 généralistes libéraux dans la commune, le chiffre le plus bas de ce lot pour une ville de cette taille : l'indicateur DREES, qui inclut les communes voisines, reste néanmoins bon.",
+      },
+      {
+        heading: "Combien coûte un logement à Clermont-Ferrand ?",
+        body: "T1 à 480 €, T2 à 680 €, T3 à 900 € et 2 400 € le mètre carré à l'achat (source : notre estimation des loyers). Limoges est moins chère à l'achat (600 € le T2, 1 600 €/m²) et Vichy bien moins (480 € et 1 700 €/m²) mais avec 41,5 % de 60 ans et plus. Clermont-Ferrand est au niveau de Reims pour le loyer, avec un marché soutenu par sa croissance démographique.",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Clermont-Ferrand",
+        body: "Personne seule locataire d'un deux-pièces : loyer 680 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 370 € par mois. Couple locataire d'un trois-pièces : loyer 900 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 930 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 130 € de marge à une personne seule.",
+      },
+      {
+        heading: "Qu'offre la nature autour de Clermont-Ferrand ?",
+        body: "La chaîne des Puys, inscrite au patrimoine mondial de l'Unesco en 2018, domine l'ouest de la ville, avec le puy de Dôme à 1 465 mètres comme point de vue. La nature est à 7,2/10 sur notre fiche ville, la deuxième de ce lot après Grenoble. La cathédrale, bâtie en pierre de Volvic, donne au centre sa teinte sombre. Le revers est un hiver plus frais que sur la côte : 3,7 °C en janvier, 22,4 °C en juillet, environ 1 757 heures de soleil.",
+      },
+      {
+        heading: "Le contexte social et la sécurité",
+        body: "Le niveau de vie médian est de 20 430 € par an avec 25 % de pauvreté (source : Insee, Filosofi 2021), et la sécurité est à 5,5/10 sur notre fiche ville, dans la moyenne basse. Le coût de la vie est à 6,4/10, à égalité avec Brest et derrière Saint-Étienne. Clermont-Ferrand est une ville de bonne note d'ensemble, sans point faible aussi net que Grenoble ou Saint-Étienne.",
+      },
+      {
+        heading: "Pour qui Clermont-Ferrand fonctionne, et pour qui non",
+        body: "Clermont-Ferrand convient au retraité qui veut des volcans à proximité, un CHU et un loyer à 680 € sans les réserves sociales de Saint-Étienne. Elle convient moins à celui qui veut un hiver doux ou de la mer : pour cela, Brest ou la côte atlantique.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand","vichy","limoges"],
+    relatedGuides: [
+      "vivre-a-clermont-ferrand-2026",
+      "acheter-a-clermont-ferrand-quel-quartier-budget-2026",
+      "vivre-sans-voiture-clermont-ferrand-guide-2026",
+      "10-choses-a-faire-a-clermont-ferrand-2026",
+    ],
+    tags: ["retraite Clermont-Ferrand 2026","prendre sa retraite à Clermont-Ferrand","retraite Puy-de-Dôme","budget retraité Clermont-Ferrand","retraite Auvergne"],
+  },
+  {
+    slug: "retraite-a-brest-2026",
+    title: "Retraite à Brest en 2026 : le meilleur score retraite du lot, avec la pluie",
+    metaTitle: "Retraite à Brest 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Brest en 2026 : T2 à 650 €, m² à 2 500 €, 22,5 % de 60 ans et plus, accès aux soins 7,9/10, janvier à 6,2 °C. Budget et limites.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-11-12",
+    updatedAt: "2026-11-12",
+    intro: "Brest a le meilleur score retraite de ce lot (6,6/10, dans un palier de dix-sept villes à égalité, derrière 200 autres) grâce à un accès aux soins de 7,9/10 et à un hiver doux : 6,2 °C en janvier contre 2,8 °C à Grenoble. Le deux-pièces est à 650 € et le mètre carré à 2 500 € (source : notre estimation des loyers), soit environ 150 000 € pour 60 m². La ville compte 140 993 habitants, dont 22,5 % de 60 ans et plus, sous la médiane de 26,2 % (source : Insee, recensement 2022), et gagne 1,2 % d'habitants entre 2016 et 2022. Le prix du doux hiver est un été frais (18,6 °C en juillet) et environ 1 600 heures de soleil.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Brest ?",
+        body: "Notre moteur place Brest à 7,9/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé), à égalité avec Reims pour le meilleur de ce lot. Les généralistes sont mesurés à 5,34 consultations accessibles par an et par habitant selon la DREES, le meilleur chiffre de ce lot et bien au-dessus de la moyenne nationale de 3,72, avec 178 généralistes libéraux recensés dans la commune et quatre services d'urgences (Insee, BPE). Un site de CHU est dans la ville. La commune compte moins de pharmacies que ses voisines du lot, 36 recensées, ce qui ne change pas la disponibilité des soins.",
+      },
+      {
+        heading: "Combien coûte un logement à Brest ?",
+        body: "T1 à 480 €, T2 à 650 €, T3 à 850 € et 2 500 € le mètre carré à l'achat (source : notre estimation des loyers). Quimper est plus chère (700 € le T2, 2 800 €/m²), Lorient aussi (680 € et 2 800 €/m²), Morlaix moins (530 € et 1 700 €/m²). Brest est la moins chère des grandes villes bretonnes du comparatif, et loin de Rennes (820 € le T2, 3 800 €/m²).",
+      },
+      {
+        heading: "Budget mensuel d'un retraité à Brest",
+        body: "Personne seule locataire d'un deux-pièces : loyer 650 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 340 € par mois. Couple locataire d'un trois-pièces : loyer 850 €, énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs et divers 100 €, soit environ 1 880 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse environ 160 € de marge à une personne seule.",
+      },
+      {
+        heading: "Un hiver doux, un ciel gris : le vrai bilan climatique",
+        body: "Brest affiche 6,2 °C en janvier et 18,6 °C en juillet : les extrêmes de chaleur y sont rares, un avantage pour un retraité sensible aux canicules. Le revers est l'ensoleillement, environ 1 600 heures par an, le plus bas de ce lot, et la pluie fréquente. À vérifier par un séjour hivernal avant de s'engager : le moral d'un retraité seul compte autant que le loyer.",
+      },
+      {
+        heading: "Vie quotidienne : rade, cours Dajot, téléphérique",
+        body: "Le cours Dajot, ancienne promenade sur les remparts, offre une vue sur la rade. Le téléphérique urbain, en service depuis novembre 2016, franchit la Penfeld entre le plateau des Capucins et le centre, et se raccorde au tramway et aux bus. Océanopolis est accessible en transports en commun. La sécurité est à 5,7/10 sur notre fiche ville, et le niveau de vie médian de 21 420 € par an avec 19 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Pour qui Brest fonctionne, et pour qui non",
+        body: "Brest convient au retraité qui veut la mer, un hôpital universitaire et un climat sans canicule, avec un loyer à 650 €. Elle convient moins à celui qui a besoin de soleil, ou d'une ville qui offre autour d'elle un grand nombre de seniors : la part de 60 ans et plus y est inférieure à la médiane.",
+      },
+    ],
+    relatedCities: ["brest","quimper","morlaix","lorient"],
+    relatedGuides: [
+      "vivre-a-brest-2026",
+      "acheter-a-brest-quel-quartier-budget-2026",
+      "retraite-a-quimper-2026",
+      "retraite-a-lorient-2026",
+    ],
+    tags: ["retraite Brest 2026","prendre sa retraite à Brest","retraite Finistère","budget retraité Brest","retraite Bretagne"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",

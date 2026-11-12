@@ -8082,6 +8082,36 @@
       "emoji": "🚢"
     },
     {
+      "slug": "retraite-a-reims-2026",
+      "title": "Retraite à Reims en 2026 : un CHU en ville, des loyers modérés, une population qui baisse",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "retraite-a-saint-etienne-2026",
+      "title": "Retraite à Saint-Étienne en 2026 : la grande ville la moins chère, relief compris",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "retraite-a-dijon-2026",
+      "title": "Retraite à Dijon en 2026 : la ville qui grossit, à un budget serré",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "retraite-a-grenoble-2026",
+      "title": "Retraite à Grenoble en 2026 : nature et soins au rendez-vous, budget tendu",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retraite-a-clermont-ferrand-2026",
+      "title": "Retraite à Clermont-Ferrand en 2026 : volcans à l'horizon, CHU à portée",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "retraite-a-brest-2026",
+      "title": "Retraite à Brest en 2026 : le meilleur score retraite du lot, avec la pluie",
+      "emoji": "⚓"
+    },
+    {
       "slug": "demenager-a-paris-2026",
       "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
       "emoji": "📦"
@@ -12781,6 +12811,11 @@
     {
       "slug": "retraite-alpes-maritimes",
       "label": "retraite Alpes-Maritimes",
+      "count": 3
+    },
+    {
+      "slug": "retraite-bretagne",
+      "label": "retraite Bretagne",
       "count": 3
     },
     {
