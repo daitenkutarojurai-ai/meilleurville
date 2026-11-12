@@ -10690,6 +10690,21 @@
       "slug": "where-to-buy-property-in-france-2027-under-2000-per-m2",
       "title": "Where to Buy Property in France in 2027: Well-Rated Towns Under €2,000 per m²",
       "emoji": "🔑"
+    },
+    {
+      "slug": "best-cities-for-families-in-france-2027",
+      "title": "Best Cities for Families in France in 2027: Schools, Safety, Nature and Budget",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "where-to-work-remotely-in-france-2027",
+      "title": "Where to Work Remotely in France in 2027: Best-Rated Towns, Rent Included",
+      "emoji": "💻"
+    },
+    {
+      "slug": "where-to-rent-cheap-in-france-2027-one-bed-under-550",
+      "title": "Where to Rent Cheap in France in 2027: Towns Where a 1-Bed Is €550 or Less",
+      "emoji": "🏷️"
     }
   ],
   "tags": [
@@ -10866,7 +10881,7 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 23
+      "count": 24
     },
     {
       "slug": "burgundy",
@@ -11184,6 +11199,11 @@
       "count": 6
     },
     {
+      "slug": "2027-ranking",
+      "label": "2027 ranking",
+      "count": 5
+    },
+    {
       "slug": "amiens",
       "label": "amiens",
       "count": 5
@@ -11299,6 +11319,11 @@
       "count": 4
     },
     {
+      "slug": "remote-work",
+      "label": "remote work",
+      "count": 4
+    },
+    {
       "slug": "rental-investment",
       "label": "rental investment",
       "count": 4
@@ -11309,9 +11334,9 @@
       "count": 4
     },
     {
-      "slug": "2027-ranking",
-      "label": "2027 ranking",
-      "count": 3
+      "slug": "safety",
+      "label": "safety",
+      "count": 4
     },
     {
       "slug": "affordable",
@@ -11449,11 +11474,6 @@
       "count": 3
     },
     {
-      "slug": "remote-work",
-      "label": "remote work",
-      "count": 3
-    },
-    {
       "slug": "renting-in-france",
       "label": "renting in france",
       "count": 3
@@ -11469,8 +11489,8 @@
       "count": 3
     },
     {
-      "slug": "safety",
-      "label": "safety",
+      "slug": "schools",
+      "label": "schools",
       "count": 3
     },
     {
@@ -11496,6 +11516,11 @@
     {
       "slug": "vendee",
       "label": "vendee",
+      "count": 3
+    },
+    {
+      "slug": "where-to-live",
+      "label": "where to live",
       "count": 3
     },
     {

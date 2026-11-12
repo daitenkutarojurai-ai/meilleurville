@@ -2376,4 +2376,5 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 - Pourquoi : les éditions annuelles (« où s'installer en 2026 ») sortent chaque décembre chez SeLoger, Cafpi, MySweetImmo ; aucune page 2027 n'existait. Aucun volume de recherche mesuré (pas d'outil).
 - Données : notes rendues de `CITIES_SEED`, `HOUSING`, `computeNicheScores`, listes coupées avant un palier ex æquo. Compteurs : 1 546 guides FR, 1 415 EN.
 - Lot 2 (2026-11-12) : FR `meilleures-villes-pour-une-famille-en-2027`, `ou-teletravailler-en-france-en-2027`, `ou-louer-pas-cher-en-2027-villes-t2-a-moins-de-550-euros` (barèmes de `getRankedCities("famille" | "teletravail")`) ; EN `best-mid-sized-towns-to-live-in-france-2027`, `where-to-buy-property-in-france-2027-under-2000-per-m2`. Série : 7 FR, 4 EN. Index de recherche : 1 549 FR / 1 426 EN.
-- Prochain lot possible : jumelles EN famille, télétravail et louer ; étudiants 2027 ; bord de mer 2027.
+- Lot 3 (2026-11-12) : jumelles EN `best-cities-for-families-in-france-2027`, `where-to-work-remotely-in-france-2027`, `where-to-rent-cheap-in-france-2027-one-bed-under-550` (mêmes chiffres que le FR). Série : 7 FR, 7 EN. Index : 1 549 FR / 1 429 EN.
+- Prochain lot possible : étudiants 2027 ; bord de mer 2027 .
