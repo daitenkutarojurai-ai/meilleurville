@@ -9582,6 +9582,81 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-saint-malo-2026",
+      "title": "Single parent in Saint-Malo (2026): an entry floor of €3,250, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-evreux-2026",
+      "title": "Single parent in Évreux (2026): an entry floor of €2,500, 1 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-valenciennes-2026",
+      "title": "Single parent in Valenciennes (2026): an entry floor of €2,000, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-aurillac-2026",
+      "title": "Single parent in Aurillac (2026): an entry floor of €1,700, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chateauroux-2026",
+      "title": "Single parent in Châteauroux (2026): an entry floor of €1,950, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-mont-de-marsan-2026",
+      "title": "Single parent in Mont-de-Marsan (2026): an entry floor of €2,250, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-la-ciotat-2026",
+      "title": "Single parent in La Ciotat (2026): an entry floor of €3,800, 1 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-vandoeuvre-les-nancy-2026",
+      "title": "Single parent in Vandœuvre-lès-Nancy (2026): an entry floor of €2,550, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-louis-haut-rhin-2026",
+      "title": "Single parent in Saint-Louis (Haut-Rhin) (2026): an entry floor of €3,050, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-la-garenne-colombes-2026",
+      "title": "Single parent in La Garenne-Colombes (2026): an entry floor of €4,450, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chaville-2026",
+      "title": "Single parent in Chaville (2026): an entry floor of €5,400, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-eysines-2026",
+      "title": "Single parent in Eysines (2026): an entry floor of €3,100, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-coueron-2026",
+      "title": "Single parent in Couëron (2026): an entry floor of €2,700, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-la-chapelle-sur-erdre-2026",
+      "title": "Single parent in La Chapelle-sur-Erdre (2026): an entry floor of €2,700, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-carquefou-2026",
+      "title": "Single parent in Carquefou (2026): an entry floor of €2,700, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -10736,17 +10811,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 302
+      "count": 317
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 236
+      "count": 251
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 177
+      "count": 192
     },
     {
       "slug": "relocation",

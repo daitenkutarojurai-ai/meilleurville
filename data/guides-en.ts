@@ -52544,6 +52544,696 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["single parent saint-genis-laval", "single parent in france", "expat single parent", "moving to france", "auvergne-rhône-alpes"],
   },
   {
+    slug: "single-parent-in-saint-malo-2026",
+    title: "Single parent in Saint-Malo (2026): an entry floor of €3,250, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Malo 2026: Floor €3,250",
+    metaDesc:
+      "Fit 5.7/10, T3 €1,080, floor €3,250 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Saint-Malo returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 5.0/10, transport 5.2/10, schools 6.2/10, safety 6.5/10 (source: our city profile). The average T3 is €1,080 a month and a square metre to buy €4,000 (source: our rent estimate), for an estimated minimum net income of €3,250 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 47,255 inhabitants at the 2022 census against 46,005 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €3,250: 2 of 4 axes above the median",
+        body: "The minimum net income of €3,250 a month comes from the 33% rule applied to the €1,080 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 14 have a lower floor and 3 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €50 above it. Cost of living is marked 5.0/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €23,490 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 13%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,545 a month, against a floor of €3,250: €705 short. The median local household therefore covers only 78% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 5.0, transport 5.2, schools 6.2, safety 6.5",
+        body: "Cost of living: 5.0/10, against a median of 5.2 (0.2 points lower). Transport: 5.2/10, against a median of 6.4 (1.2 points lower). Schools: 6.2/10, against a median of 5.5 (0.7 points higher). Safety: 6.5/10, against a median of 5.0 (1.5 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: schools, safety. Below it: cost of living, transport.",
+      },
+      {
+        heading: "A spread of 1.5 points, and the limit of the composite",
+        body: "The spread between the best axis (safety, 6.5) and the worst (cost of living, 5.0) is 1.5 points, against a median of 2.7 across the 416 ranked communes; Saint-Malo ranks 16th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Saint-Malo against the other ranked communes of its département (Ille-et-Vilaine)",
+        body: "The ranking includes 2 communes of the département (Ille-et-Vilaine), Saint-Malo among them. The closest by size: Rennes (fit 7.1, T3 €1,100). At regional level (Bretagne), 10 communes are ranked; 7 have a T3 cheaper than €1,080. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 41.2% aged 60 and over",
+        body: "Saint-Malo counted 47,255 inhabitants in 2022, against 46,005 in 2016 and 45,201 in 2011 (source: INSEE census), that is +2.7% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 41.2%, against a median of 23.3% across ranked communes, and under-30s 26.4%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Saint-Malo works for",
+        body: "Saint-Malo works from €3,250 net a month, a floor €50 above the ranking median (€3,200). It suits best a single parent who puts safety (6.5/10) first and accepts compromising on cost of living (5.0/10). A household at the local median standard of living does not cover the floor, €705 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Saint-Malo should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/saint-malo/single-parent.",
+      },
+    ],
+    relatedCities: ["saint-malo", "rennes"],
+    tags: ["single parent saint-malo", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-evreux-2026",
+    title: "Single parent in Évreux (2026): an entry floor of €2,500, 1 of 4 axes above the median",
+    metaTitle: "Single Parent in Évreux 2026: Floor €2,500",
+    metaDesc:
+      "Fit 5.7/10, T3 €820, floor €2,500 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Évreux returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 6.3/10, transport 6.2/10, schools 5.5/10, safety 4.7/10 (source: our city profile). The average T3 is €820 a month and a square metre to buy €2,000 (source: our rent estimate), for an estimated minimum net income of €2,500 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 48,335 inhabitants at the 2022 census against 48,899 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,500: 1 of 4 axes above the median",
+        body: "The minimum net income of €2,500 a month comes from the 33% rule applied to the €820 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 5 have a lower floor and 11 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €700 below it. Cost of living is marked 6.3/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €18,580 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 29%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,013 a month, against a floor of €2,500: €487 short. The median local household therefore covers only 81% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 6.3, transport 6.2, schools 5.5, safety 4.7",
+        body: "Cost of living: 6.3/10, against a median of 5.2 (1.1 points higher). Transport: 6.2/10, against a median of 6.4 (0.2 points lower). Schools: 5.5/10, at the median (5.5). Safety: 4.7/10, against a median of 5.0 (0.3 points lower). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living. Below it: transport, safety.",
+      },
+      {
+        heading: "A spread of 1.6 points, and the limit of the composite",
+        body: "The spread between the best axis (cost of living, 6.3) and the worst (safety, 4.7) is 1.6 points, against a median of 2.7 across the 416 ranked communes; Évreux ranks 14th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Évreux against the other ranked communes of its département (Eure)",
+        body: "The ranking includes 2 communes of the département (Eure), Évreux among them. The closest by size: Vernon (fit 5.1, T3 €940). At regional level (Normandie), 11 communes are ranked; 1 has a T3 cheaper than €820. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "Population and age: 23.0% aged 60 and over, a commune losing residents",
+        body: "Évreux counted 48,335 inhabitants in 2022, against 48,899 in 2016 and 49,359 in 2011 (source: INSEE census), that is −1.2% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 23.0%, against a median of 23.3% across ranked communes, and under-30s 40.0%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Évreux works for",
+        body: "Évreux works from €2,500 net a month, a floor €700 below the ranking median (€3,200). It suits best a single parent who puts cost of living (6.3/10) first and accepts compromising on safety (4.7/10). A household at the local median standard of living does not cover the floor, €487 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Évreux should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/evreux/single-parent.",
+      },
+    ],
+    relatedCities: ["evreux", "vernon"],
+    tags: ["single parent évreux", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-valenciennes-2026",
+    title: "Single parent in Valenciennes (2026): an entry floor of €2,000, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Valenciennes 2026: Floor €2,000",
+    metaDesc:
+      "Fit 5.7/10, T3 €660, floor €2,000 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Valenciennes returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 6.4/10, transport 6.1/10, schools 5.8/10, safety 4.3/10 (source: our city profile). The average T3 is €660 a month and a square metre to buy €1,600 (source: our rent estimate), for an estimated minimum net income of €2,000 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 42,979 inhabitants at the 2022 census against 43,680 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,000: 2 of 4 axes above the median",
+        body: "The minimum net income of €2,000 a month comes from the 33% rule applied to the €660 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 2 have a lower floor and 15 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €1,200 below it. Cost of living is marked 6.4/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that covers the floor",
+        body: "The commune's median standard of living is €20,250 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 25%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,194 a month, against a floor of €2,000: €194 to spare. The median local household therefore covers 110% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 6.4, transport 6.1, schools 5.8, safety 4.3",
+        body: "Cost of living: 6.4/10, against a median of 5.2 (1.2 points higher). Transport: 6.1/10, against a median of 6.4 (0.3 points lower). Schools: 5.8/10, against a median of 5.5 (0.3 points higher). Safety: 4.3/10, against a median of 5.0 (0.7 points lower). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living, schools. Below it: transport, safety.",
+      },
+      {
+        heading: "A spread of 2.1 points, and the limit of the composite",
+        body: "The spread between the best axis (cost of living, 6.4) and the worst (safety, 4.3) is 2.1 points, against a median of 2.7 across the 416 ranked communes; Valenciennes ranks 7th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here safety is at 4.3, below that threshold: the composite smooths over a weakness the global score would penalise. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Valenciennes against the other ranked communes of its département (Nord)",
+        body: "The ranking includes 13 communes of the département (Nord), Valenciennes among them. The closest by size: Wattrelos (fit 4.5, T3 €730); Douai (fit 5.8, T3 €670); Cambrai (fit 6.4, T3 €640). At regional level (Hauts-de-France), 29 communes are ranked; 5 have a T3 cheaper than €660. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "Population and age: 23.0% aged 60 and over, a commune losing residents",
+        body: "Valenciennes counted 42,979 inhabitants in 2022, against 43,680 in 2016 and 43,471 in 2011 (source: INSEE census), that is −1.6% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 23.0%, against a median of 23.3% across ranked communes, and under-30s 41.1%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Valenciennes works for",
+        body: "Valenciennes works from €2,000 net a month, a floor €1,200 below the ranking median (€3,200). It suits best a single parent who puts cost of living (6.4/10) first and accepts compromising on safety (4.3/10). A household at the local median standard of living covers the floor, with €194 to spare: a favourable point, not a guarantee that a home is available. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Valenciennes should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/valenciennes/single-parent.",
+      },
+    ],
+    relatedCities: ["valenciennes", "wattrelos", "douai"],
+    tags: ["single parent valenciennes", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-aurillac-2026",
+    title: "Single parent in Aurillac (2026): an entry floor of €1,700, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Aurillac 2026: Floor €1,700",
+    metaDesc:
+      "Fit 5.7/10, T3 €560, floor €1,700 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Aurillac returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 6.7/10, transport 4.0/10, schools 5.3/10, safety 6.1/10 (source: our city profile). The average T3 is €560 a month and a square metre to buy €1,200 (source: our rent estimate), for an estimated minimum net income of €1,700 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 26,189 inhabitants at the 2022 census against 25,954 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €1,700: 2 of 4 axes above the median",
+        body: "The minimum net income of €1,700 a month comes from the 33% rule applied to the €560 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 0 have a lower floor and 17 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €1,500 below it. Cost of living is marked 6.7/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that covers the floor",
+        body: "The commune's median standard of living is €21,860 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 16%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,368 a month, against a floor of €1,700: €668 to spare. The median local household therefore covers 139% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 6.7, transport 4.0, schools 5.3, safety 6.1",
+        body: "Cost of living: 6.7/10, against a median of 5.2 (1.5 points higher). Transport: 4.0/10, against a median of 6.4 (2.4 points lower). Schools: 5.3/10, against a median of 5.5 (0.2 points lower). Safety: 6.1/10, against a median of 5.0 (1.1 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living, safety. Below it: transport, schools.",
+      },
+      {
+        heading: "A spread of 2.7 points, and the limit of the composite",
+        body: "The spread between the best axis (cost of living, 6.7) and the worst (transport, 4.0) is 2.7 points, against a median of 2.7 across the 416 ranked communes; Aurillac ranks 4th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here transport is at 4.0, below that threshold: the composite smooths over a weakness the global score would penalise. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Aurillac against the other ranked communes of its département (Cantal)",
+        body: "The ranking includes 1 commune of the département (Cantal), Aurillac among them. No other commune of the département reaches 20,000 inhabitants in our ranking: Aurillac is alone there, so the comparison is with neighbours in the adjoining départements. At regional level (Auvergne-Rhône-Alpes), 39 communes are ranked; 0 have a T3 cheaper than €560. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "Population and age: 34.2% aged 60 and over",
+        body: "Aurillac counted 26,189 inhabitants in 2022, against 25,954 in 2016 and 27,338 in 2011 (source: INSEE census), that is +0.9% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 34.2%, against a median of 23.3% across ranked communes, and under-30s 31.5%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Aurillac works for",
+        body: "Aurillac works from €1,700 net a month, a floor €1,500 below the ranking median (€3,200). It suits best a single parent who puts cost of living (6.7/10) first and accepts compromising on transport (4.0/10). A household at the local median standard of living covers the floor, with €668 to spare: a favourable point, not a guarantee that a home is available. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Aurillac should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/aurillac/single-parent.",
+      },
+    ],
+    relatedCities: ["aurillac"],
+    tags: ["single parent aurillac", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-chateauroux-2026",
+    title: "Single parent in Châteauroux (2026): an entry floor of €1,950, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Châteauroux 2026: Floor €1,950",
+    metaDesc:
+      "Fit 5.7/10, T3 €640, floor €1,950 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Châteauroux returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 7.1/10, transport 4.6/10, schools 5.3/10, safety 5.3/10 (source: our city profile). The average T3 is €640 a month and a square metre to buy €1,400 (source: our rent estimate), for an estimated minimum net income of €1,950 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 43,079 inhabitants at the 2022 census against 44,088 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €1,950: 2 of 4 axes above the median",
+        body: "The minimum net income of €1,950 a month comes from the 33% rule applied to the €640 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 1 has a lower floor and 16 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €1,250 below it. Cost of living is marked 7.1/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that covers the floor",
+        body: "The commune's median standard of living is €20,300 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 23%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,199 a month, against a floor of €1,950: €249 to spare. The median local household therefore covers 113% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 7.1, transport 4.6, schools 5.3, safety 5.3",
+        body: "Cost of living: 7.1/10, against a median of 5.2 (1.9 points higher). Transport: 4.6/10, against a median of 6.4 (1.8 points lower). Schools: 5.3/10, against a median of 5.5 (0.2 points lower). Safety: 5.3/10, against a median of 5.0 (0.3 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living, safety. Below it: transport, schools.",
+      },
+      {
+        heading: "A spread of 2.5 points, and the limit of the composite",
+        body: "The spread between the best axis (cost of living, 7.1) and the worst (transport, 4.6) is 2.5 points, against a median of 2.7 across the 416 ranked communes; Châteauroux ranks 6th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Châteauroux against the other ranked communes of its département (Indre)",
+        body: "The ranking includes 1 commune of the département (Indre), Châteauroux among them. No other commune of the département reaches 20,000 inhabitants in our ranking: Châteauroux is alone there, so the comparison is with neighbours in the adjoining départements. At regional level (Centre-Val de Loire), 11 communes are ranked; 0 have a T3 cheaper than €640. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "Population and age: 31.3% aged 60 and over, a commune losing residents",
+        body: "Châteauroux counted 43,079 inhabitants in 2022, against 44,088 in 2016 and 45,521 in 2011 (source: INSEE census), that is −2.3% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 31.3%, against a median of 23.3% across ranked communes, and under-30s 34.2%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Châteauroux works for",
+        body: "Châteauroux works from €1,950 net a month, a floor €1,250 below the ranking median (€3,200). It suits best a single parent who puts cost of living (7.1/10) first and accepts compromising on transport (4.6/10). A household at the local median standard of living covers the floor, with €249 to spare: a favourable point, not a guarantee that a home is available. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Châteauroux should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/chateauroux/single-parent.",
+      },
+    ],
+    relatedCities: ["chateauroux"],
+    tags: ["single parent châteauroux", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-mont-de-marsan-2026",
+    title: "Single parent in Mont-de-Marsan (2026): an entry floor of €2,250, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Mont-de-Marsan 2026: Floor €2,250",
+    metaDesc:
+      "Fit 5.7/10, T3 €740, floor €2,250 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Mont-de-Marsan returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 6.2/10, transport 4.6/10, schools 5.8/10, safety 5.7/10 (source: our city profile). The average T3 is €740 a month and a square metre to buy €1,900 (source: our rent estimate), for an estimated minimum net income of €2,250 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 31,455 inhabitants at the 2022 census against 29,885 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,250: 3 of 4 axes above the median",
+        body: "The minimum net income of €2,250 a month comes from the 33% rule applied to the €740 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 3 have a lower floor and 13 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €950 below it. Cost of living is marked 6.2/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that covers the floor",
+        body: "The commune's median standard of living is €22,030 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 16%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,387 a month, against a floor of €2,250: €137 to spare. The median local household therefore covers 106% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 6.2, transport 4.6, schools 5.8, safety 5.7",
+        body: "Cost of living: 6.2/10, against a median of 5.2 (1.0 point higher). Transport: 4.6/10, against a median of 6.4 (1.8 points lower). Schools: 5.8/10, against a median of 5.5 (0.3 points higher). Safety: 5.7/10, against a median of 5.0 (0.7 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living, schools, safety. Below it: transport.",
+      },
+      {
+        heading: "A spread of 1.6 points, and the limit of the composite",
+        body: "The spread between the best axis (cost of living, 6.2) and the worst (transport, 4.6) is 1.6 points, against a median of 2.7 across the 416 ranked communes; Mont-de-Marsan ranks 15th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Mont-de-Marsan against the other ranked communes of its département (Landes)",
+        body: "The ranking includes 2 communes of the département (Landes), Mont-de-Marsan among them. The closest by size: Dax (fit 5.5, T3 €780). At regional level (Nouvelle-Aquitaine), 30 communes are ranked; 5 have a T3 cheaper than €740. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 28.5% aged 60 and over",
+        body: "Mont-de-Marsan counted 31,455 inhabitants in 2022, against 29,885 in 2016 and 31,188 in 2011 (source: INSEE census), that is +5.3% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 28.5%, against a median of 23.3% across ranked communes, and under-30s 35.0%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Mont-de-Marsan works for",
+        body: "Mont-de-Marsan works from €2,250 net a month, a floor €950 below the ranking median (€3,200). It suits best a single parent who puts cost of living (6.2/10) first and accepts compromising on transport (4.6/10). A household at the local median standard of living covers the floor, with €137 to spare: a favourable point, not a guarantee that a home is available. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Mont-de-Marsan should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/mont-de-marsan/single-parent.",
+      },
+    ],
+    relatedCities: ["mont-de-marsan", "dax"],
+    tags: ["single parent mont-de-marsan", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-la-ciotat-2026",
+    title: "Single parent in La Ciotat (2026): an entry floor of €3,800, 1 of 4 axes above the median",
+    metaTitle: "Single Parent in La Ciotat 2026: Floor €3,800",
+    metaDesc:
+      "Fit 5.7/10, T3 €1,250, floor €3,800 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "La Ciotat returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 5.2/10, transport 6.2/10, schools 6.6/10, safety 4.8/10 (source: our city profile). The average T3 is €1,250 a month and a square metre to buy €4,200 (source: our rent estimate), for an estimated minimum net income of €3,800 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 37,599 inhabitants at the 2022 census against 35,366 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €3,800: 1 of 4 axes above the median",
+        body: "The minimum net income of €3,800 a month comes from the 33% rule applied to the €1,250 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 15 have a lower floor and 2 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €600 above it. Cost of living is marked 5.2/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €23,580 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 15%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,555 a month, against a floor of €3,800: €1,245 short. The median local household therefore covers only 67% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 5.2, transport 6.2, schools 6.6, safety 4.8",
+        body: "Cost of living: 5.2/10, at the median (5.2). Transport: 6.2/10, against a median of 6.4 (0.2 points lower). Schools: 6.6/10, against a median of 5.5 (1.1 points higher). Safety: 4.8/10, against a median of 5.0 (0.2 points lower). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: schools. Below it: transport, safety.",
+      },
+      {
+        heading: "A spread of 1.8 points, and the limit of the composite",
+        body: "The spread between the best axis (schools, 6.6) and the worst (safety, 4.8) is 1.8 points, against a median of 2.7 across the 416 ranked communes; La Ciotat ranks 13th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "La Ciotat against the other ranked communes of its département (Bouches-du-Rhône)",
+        body: "The ranking includes 11 communes of the département (Bouches-du-Rhône), La Ciotat among them. The closest by size: Vitrolles (fit 4.4, T3 €970); Marignane (fit 4.4, T3 €960); Istres (fit 4.5, T3 €940). At regional level (Provence-Alpes-Côte d'Azur), 34 communes are ranked; 22 have a T3 cheaper than €1,250. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 35.8% aged 60 and over",
+        body: "La Ciotat counted 37,599 inhabitants in 2022, against 35,366 in 2016 and 33,738 in 2011 (source: INSEE census), that is +6.3% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 35.8%, against a median of 23.3% across ranked communes, and under-30s 27.2%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who La Ciotat works for",
+        body: "La Ciotat works from €3,800 net a month, a floor €600 above the ranking median (€3,200). It suits best a single parent who puts schools (6.6/10) first and accepts compromising on safety (4.8/10). A household at the local median standard of living does not cover the floor, €1,245 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, La Ciotat should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/la-ciotat/single-parent.",
+      },
+    ],
+    relatedCities: ["la-ciotat", "vitrolles", "marignane"],
+    tags: ["single parent la ciotat", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-vandoeuvre-les-nancy-2026",
+    title: "Single parent in Vandœuvre-lès-Nancy (2026): an entry floor of €2,550, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Vandœuvre-lès-Nancy 2026: Floor €2,550",
+    metaDesc:
+      "Fit 5.7/10, T3 €840, floor €2,550 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Vandœuvre-lès-Nancy returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 5.4/10, transport 7.7/10, schools 5.5/10, safety 4.5/10 (source: our city profile). The average T3 is €840 a month and a square metre to buy €2,200 (source: our rent estimate), for an estimated minimum net income of €2,550 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 29,697 inhabitants at the 2022 census against 30,182 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,550: 2 of 4 axes above the median",
+        body: "The minimum net income of €2,550 a month comes from the 33% rule applied to the €840 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 7 have a lower floor and 10 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €650 below it. Cost of living is marked 5.4/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €18,680 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 30%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,024 a month, against a floor of €2,550: €526 short. The median local household therefore covers only 79% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 5.4, transport 7.7, schools 5.5, safety 4.5",
+        body: "Cost of living: 5.4/10, against a median of 5.2 (0.2 points higher). Transport: 7.7/10, against a median of 6.4 (1.3 points higher). Schools: 5.5/10, at the median (5.5). Safety: 4.5/10, against a median of 5.0 (0.5 points lower). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living, transport. Below it: safety.",
+      },
+      {
+        heading: "A spread of 3.2 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 7.7) and the worst (safety, 4.5) is 3.2 points, against a median of 2.7 across the 416 ranked communes; Vandœuvre-lès-Nancy ranks 3rd of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Vandœuvre-lès-Nancy against the other ranked communes of its département (Meurthe-et-Moselle)",
+        body: "The ranking includes 2 communes of the département (Meurthe-et-Moselle), Vandœuvre-lès-Nancy among them. The closest by size: Nancy (fit 6.4, T3 €950). At regional level (Grand Est), 24 communes are ranked; 9 have a T3 cheaper than €840. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "Population and age: 23.1% aged 60 and over, a commune losing residents",
+        body: "Vandœuvre-lès-Nancy counted 29,697 inhabitants in 2022, against 30,182 in 2016 and 30,646 in 2011 (source: INSEE census), that is −1.6% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 23.1%, against a median of 23.3% across ranked communes, and under-30s 46.7%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Vandœuvre-lès-Nancy works for",
+        body: "Vandœuvre-lès-Nancy works from €2,550 net a month, a floor €650 below the ranking median (€3,200). It suits best a single parent who puts transport (7.7/10) first and accepts compromising on safety (4.5/10). A household at the local median standard of living does not cover the floor, €526 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Vandœuvre-lès-Nancy should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/vandoeuvre-les-nancy/single-parent.",
+      },
+    ],
+    relatedCities: ["vandoeuvre-les-nancy", "nancy"],
+    tags: ["single parent vandœuvre-lès-nancy", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-saint-louis-haut-rhin-2026",
+    title: "Single parent in Saint-Louis (Haut-Rhin) (2026): an entry floor of €3,050, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Louis (Haut-Rhin) 2026: Floor €3,050",
+    metaDesc:
+      "Fit 5.7/10, T3 €1,010, floor €3,050 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Saint-Louis (Haut-Rhin) returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 5.3/10, transport 6.4/10, schools 5.5/10, safety 6.0/10 (source: our city profile). The average T3 is €1,010 a month and a square metre to buy €3,000 (source: our rent estimate), for an estimated minimum net income of €3,050 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 22,530 inhabitants at the 2022 census against 20,642 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €3,050: 2 of 4 axes above the median",
+        body: "The minimum net income of €3,050 a month comes from the 33% rule applied to the €1,010 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is 5 or above, the engine keeps the strict rule at 33%. In the tier of 18 communes, 12 have a lower floor and 5 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €150 below it. Cost of living is marked 5.3/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €24,530 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 20%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,657 a month, against a floor of €3,050: €393 short. The median local household therefore covers only 87% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 5.3, transport 6.4, schools 5.5, safety 6.0",
+        body: "Cost of living: 5.3/10, against a median of 5.2 (0.1 points higher). Transport: 6.4/10, at the median (6.4). Schools: 5.5/10, at the median (5.5). Safety: 6.0/10, against a median of 5.0 (1.0 point higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: cost of living, safety.",
+      },
+      {
+        heading: "A spread of 1.1 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 6.4) and the worst (cost of living, 5.3) is 1.1 points, against a median of 2.7 across the 416 ranked communes; Saint-Louis (Haut-Rhin) ranks 18th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Saint-Louis (Haut-Rhin) against the other ranked communes of its département (Haut-Rhin)",
+        body: "The ranking includes 3 communes of the département (Haut-Rhin), Saint-Louis (Haut-Rhin) among them. The closest by size: Colmar (fit 6.3, T3 €1,000); Mulhouse (fit 5.9, T3 €780). At regional level (Grand Est), 24 communes are ranked; 22 have a T3 cheaper than €1,010. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 22.0% aged 60 and over",
+        body: "Saint-Louis (Haut-Rhin) counted 22,530 inhabitants in 2022, against 20,642 in 2016 and 20,294 in 2011 (source: INSEE census), that is +9.1% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 22.0%, against a median of 23.3% across ranked communes, and under-30s 36.0%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Saint-Louis (Haut-Rhin) works for",
+        body: "Saint-Louis (Haut-Rhin) works from €3,050 net a month, a floor €150 below the ranking median (€3,200). It suits best a single parent who puts transport (6.4/10) first and accepts compromising on cost of living (5.3/10). A household at the local median standard of living does not cover the floor, €393 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Saint-Louis (Haut-Rhin) should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/saint-louis-haut-rhin/single-parent.",
+      },
+    ],
+    relatedCities: ["saint-louis-haut-rhin", "colmar", "mulhouse"],
+    tags: ["single parent saint-louis (haut-rhin)", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-la-garenne-colombes-2026",
+    title: "Single parent in La Garenne-Colombes (2026): an entry floor of €4,450, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in La Garenne-Colombes 2026: Floor €4,450",
+    metaDesc:
+      "Fit 5.7/10, T3 €1,550, floor €4,450 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "La Garenne-Colombes returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 2.2/10, transport 7.7/10, schools 7.7/10, safety 6.2/10 (source: our city profile). The average T3 is €1,550 a month and a square metre to buy €6,800 (source: our rent estimate), for an estimated minimum net income of €4,450 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 29,828 inhabitants at the 2022 census against 29,248 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €4,450: 3 of 4 axes above the median",
+        body: "The minimum net income of €4,450 a month comes from the 35% rule applied to the €1,550 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is below 5, the engine relaxes the rule to 35%. In the tier of 18 communes, 16 have a lower floor and 1 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €1,250 above it. Cost of living is marked 2.2/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €33,090 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 8%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €3,585 a month, against a floor of €4,450: €865 short. The median local household therefore covers only 81% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 2.2, transport 7.7, schools 7.7, safety 6.2",
+        body: "Cost of living: 2.2/10, against a median of 5.2 (3.0 points lower). Transport: 7.7/10, against a median of 6.4 (1.3 points higher). Schools: 7.7/10, against a median of 5.5 (2.2 points higher). Safety: 6.2/10, against a median of 5.0 (1.2 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: transport, schools, safety. Below it: cost of living.",
+      },
+      {
+        heading: "A spread of 5.5 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 7.7) and the worst (cost of living, 2.2) is 5.5 points, against a median of 2.7 across the 416 ranked communes; La Garenne-Colombes ranks 2nd of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here cost of living is at 2.2, below that threshold: the composite smooths over a weakness the global score would penalise. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "La Garenne-Colombes against the other ranked communes of its département (Hauts-de-Seine)",
+        body: "The ranking includes 32 communes of the département (Hauts-de-Seine), La Garenne-Colombes among them. The closest by size: Le Plessis-Robinson (fit 5.5, T3 €1,750); Saint-Cloud (fit 5.9, T3 €1,980); Bois-Colombes (fit 5.8, T3 €1,500). At regional level (Île-de-France), 156 communes are ranked; 126 have a T3 cheaper than €1,550. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 18.9% aged 60 and over",
+        body: "La Garenne-Colombes counted 29,828 inhabitants in 2022, against 29,248 in 2016 and 28,297 in 2011 (source: INSEE census), that is +2.0% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 18.9%, against a median of 23.3% across ranked communes, and under-30s 37.3%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who La Garenne-Colombes works for",
+        body: "La Garenne-Colombes works from €4,450 net a month, a floor €1,250 above the ranking median (€3,200). It suits best a single parent who puts transport (7.7/10) first and accepts compromising on cost of living (2.2/10). A household at the local median standard of living does not cover the floor, €865 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, La Garenne-Colombes should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/la-garenne-colombes/single-parent.",
+      },
+    ],
+    relatedCities: ["la-garenne-colombes", "le-plessis-robinson", "saint-cloud"],
+    tags: ["single parent la garenne-colombes", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-chaville-2026",
+    title: "Single parent in Chaville (2026): an entry floor of €5,400, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Chaville 2026: Floor €5,400",
+    metaDesc:
+      "Fit 5.7/10, T3 €1,890, floor €5,400 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Chaville returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 2.2/10, transport 7.1/10, schools 8.1/10, safety 6.5/10 (source: our city profile). The average T3 is €1,890 a month and a square metre to buy €7,600 (source: our rent estimate), for an estimated minimum net income of €5,400 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 20,198 inhabitants at the 2022 census against 20,322 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €5,400: 3 of 4 axes above the median",
+        body: "The minimum net income of €5,400 a month comes from the 35% rule applied to the €1,890 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is below 5, the engine relaxes the rule to 35%. In the tier of 18 communes, 17 have a lower floor and 0 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €2,200 above it. Cost of living is marked 2.2/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €32,290 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 8%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €3,498 a month, against a floor of €5,400: €1,902 short. The median local household therefore covers only 65% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 2.2, transport 7.1, schools 8.1, safety 6.5",
+        body: "Cost of living: 2.2/10, against a median of 5.2 (3.0 points lower). Transport: 7.1/10, against a median of 6.4 (0.7 points higher). Schools: 8.1/10, against a median of 5.5 (2.6 points higher). Safety: 6.5/10, against a median of 5.0 (1.5 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: transport, schools, safety. Below it: cost of living.",
+      },
+      {
+        heading: "A spread of 5.9 points, and the limit of the composite",
+        body: "The spread between the best axis (schools, 8.1) and the worst (cost of living, 2.2) is 5.9 points, against a median of 2.7 across the 416 ranked communes; Chaville ranks 1st of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here cost of living is at 2.2, below that threshold: the composite smooths over a weakness the global score would penalise. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Chaville against the other ranked communes of its département (Hauts-de-Seine)",
+        body: "The ranking includes 32 communes of the département (Hauts-de-Seine), Chaville among them. The closest by size: Bourg-la-Reine (fit 6.0, T3 €1,500); Sceaux (fit 6.0, T3 €1,500); Sèvres (fit 5.6, T3 €1,920). At regional level (Île-de-France), 156 communes are ranked; 149 have a T3 cheaper than €1,890. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "Population and age: 20.0% aged 60 and over",
+        body: "Chaville counted 20,198 inhabitants in 2022, against 20,322 in 2016 and 18,852 in 2011 (source: INSEE census), that is −0.6% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 20.0%, against a median of 23.3% across ranked communes, and under-30s 37.4%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Chaville works for",
+        body: "Chaville works from €5,400 net a month, a floor €2,200 above the ranking median (€3,200). It suits best a single parent who puts schools (8.1/10) first and accepts compromising on cost of living (2.2/10). A household at the local median standard of living does not cover the floor, €1,902 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Chaville should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/chaville/single-parent.",
+      },
+    ],
+    relatedCities: ["chaville", "bourg-la-reine", "sceaux"],
+    tags: ["single parent chaville", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-eysines-2026",
+    title: "Single parent in Eysines (2026): an entry floor of €3,100, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Eysines 2026: Floor €3,100",
+    metaDesc:
+      "Fit 5.7/10, T3 €1,080, floor €3,100 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Eysines returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 4.5/10, transport 7.1/10, schools 6.4/10, safety 5.4/10 (source: our city profile). The average T3 is €1,080 a month and a square metre to buy €3,800 (source: our rent estimate), for an estimated minimum net income of €3,100 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 24,436 inhabitants at the 2022 census against 23,120 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €3,100: 3 of 4 axes above the median",
+        body: "The minimum net income of €3,100 a month comes from the 35% rule applied to the €1,080 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is below 5, the engine relaxes the rule to 35%. In the tier of 18 communes, 13 have a lower floor and 4 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €100 below it. Cost of living is marked 4.5/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €23,980 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 12%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,598 a month, against a floor of €3,100: €502 short. The median local household therefore covers only 84% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 4.5, transport 7.1, schools 6.4, safety 5.4",
+        body: "Cost of living: 4.5/10, against a median of 5.2 (0.7 points lower). Transport: 7.1/10, against a median of 6.4 (0.7 points higher). Schools: 6.4/10, against a median of 5.5 (0.9 points higher). Safety: 5.4/10, against a median of 5.0 (0.4 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: transport, schools, safety. Below it: cost of living.",
+      },
+      {
+        heading: "A spread of 2.6 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 7.1) and the worst (cost of living, 4.5) is 2.6 points, against a median of 2.7 across the 416 ranked communes; Eysines ranks 5th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Eysines against the other ranked communes of its département (Gironde)",
+        body: "The ranking includes 11 communes of the département (Gironde), Eysines among them. The closest by size: Le Bouscat (fit 5.8, T3 €1,260); Libourne (fit 6.2, T3 €960); Gradignan (fit 5.6, T3 €1,080). At regional level (Nouvelle-Aquitaine), 30 communes are ranked; 17 have a T3 cheaper than €1,080. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 23.1% aged 60 and over",
+        body: "Eysines counted 24,436 inhabitants in 2022, against 23,120 in 2016 and 20,122 in 2011 (source: INSEE census), that is +5.7% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 23.1%, against a median of 23.3% across ranked communes, and under-30s 37.0%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Eysines works for",
+        body: "Eysines works from €3,100 net a month, a floor €100 below the ranking median (€3,200). It suits best a single parent who puts transport (7.1/10) first and accepts compromising on cost of living (4.5/10). A household at the local median standard of living does not cover the floor, €502 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Eysines should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/eysines/single-parent.",
+      },
+    ],
+    relatedCities: ["eysines", "le-bouscat", "libourne"],
+    tags: ["single parent eysines", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-coueron-2026",
+    title: "Single parent in Couëron (2026): an entry floor of €2,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Couëron 2026: Floor €2,700",
+    metaDesc:
+      "Fit 5.7/10, T3 €940, floor €2,700 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Couëron returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 4.7/10, transport 6.8/10, schools 6.2/10, safety 5.4/10 (source: our city profile). The average T3 is €940 a month and a square metre to buy €3,700 (source: our rent estimate), for an estimated minimum net income of €2,700 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 23,541 inhabitants at the 2022 census against 20,900 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,700: 3 of 4 axes above the median",
+        body: "The minimum net income of €2,700 a month comes from the 35% rule applied to the €940 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is below 5, the engine relaxes the rule to 35%. In the tier of 18 communes, 9 have a lower floor and 6 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €500 below it. Cost of living is marked 4.7/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that does not cover the floor",
+        body: "The commune's median standard of living is €24,290 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 9%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €2,631 a month, against a floor of €2,700: €69 short. The median local household therefore covers only 97% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 4.7, transport 6.8, schools 6.2, safety 5.4",
+        body: "Cost of living: 4.7/10, against a median of 5.2 (0.5 points lower). Transport: 6.8/10, against a median of 6.4 (0.4 points higher). Schools: 6.2/10, against a median of 5.5 (0.7 points higher). Safety: 5.4/10, against a median of 5.0 (0.4 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: transport, schools, safety. Below it: cost of living.",
+      },
+      {
+        heading: "A spread of 2.1 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 6.8) and the worst (cost of living, 4.7) is 2.1 points, against a median of 2.7 across the 416 ranked communes; Couëron ranks 8th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Couëron against the other ranked communes of its département (Loire-Atlantique)",
+        body: "The ranking includes 11 communes of the département (Loire-Atlantique), Couëron among them. The closest by size: Vertou (fit 5.5, T3 €960); Carquefou (fit 5.7, T3 €950); La Chapelle-sur-Erdre (fit 5.7, T3 €940). At regional level (Pays de la Loire), 19 communes are ranked; 11 have a T3 cheaper than €940. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 20.8% aged 60 and over",
+        body: "Couëron counted 23,541 inhabitants in 2022, against 20,900 in 2016 and 19,085 in 2011 (source: INSEE census), that is +12.6% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 20.8%, against a median of 23.3% across ranked communes, and under-30s 36.9%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Couëron works for",
+        body: "Couëron works from €2,700 net a month, a floor €500 below the ranking median (€3,200). It suits best a single parent who puts transport (6.8/10) first and accepts compromising on cost of living (4.7/10). A household at the local median standard of living does not cover the floor, €69 short: a point to watch, not a verdict. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Couëron should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/coueron/single-parent.",
+      },
+    ],
+    relatedCities: ["coueron", "vertou", "carquefou"],
+    tags: ["single parent couëron", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-la-chapelle-sur-erdre-2026",
+    title: "Single parent in La Chapelle-sur-Erdre (2026): an entry floor of €2,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in La Chapelle-sur-Erdre 2026: Floor €2,700",
+    metaDesc:
+      "Fit 5.7/10, T3 €940, floor €2,700 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "La Chapelle-sur-Erdre returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 4.7/10, transport 6.8/10, schools 6.2/10, safety 5.4/10 (source: our city profile). The average T3 is €940 a month and a square metre to buy €4,100 (source: our rent estimate), for an estimated minimum net income of €2,700 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 20,483 inhabitants at the 2022 census against 19,348 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,700: 3 of 4 axes above the median",
+        body: "The minimum net income of €2,700 a month comes from the 35% rule applied to the €940 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is below 5, the engine relaxes the rule to 35%. In the tier of 18 communes, 9 have a lower floor and 6 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €500 below it. Cost of living is marked 4.7/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that covers the floor",
+        body: "The commune's median standard of living is €28,210 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 7%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €3,056 a month, against a floor of €2,700: €356 to spare. The median local household therefore covers 113% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 4.7, transport 6.8, schools 6.2, safety 5.4",
+        body: "Cost of living: 4.7/10, against a median of 5.2 (0.5 points lower). Transport: 6.8/10, against a median of 6.4 (0.4 points higher). Schools: 6.2/10, against a median of 5.5 (0.7 points higher). Safety: 5.4/10, against a median of 5.0 (0.4 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: transport, schools, safety. Below it: cost of living.",
+      },
+      {
+        heading: "A spread of 2.1 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 6.8) and the worst (cost of living, 4.7) is 2.1 points, against a median of 2.7 across the 416 ranked communes; La Chapelle-sur-Erdre ranks 9th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "La Chapelle-sur-Erdre against the other ranked communes of its département (Loire-Atlantique)",
+        body: "The ranking includes 11 communes of the département (Loire-Atlantique), La Chapelle-sur-Erdre among them. The closest by size: Bouguenais (fit 5.6, T3 €930); Carquefou (fit 5.7, T3 €950); Couëron (fit 5.7, T3 €940). At regional level (Pays de la Loire), 19 communes are ranked; 11 have a T3 cheaper than €940. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 25.3% aged 60 and over",
+        body: "La Chapelle-sur-Erdre counted 20,483 inhabitants in 2022, against 19,348 in 2016 and 17,443 in 2011 (source: INSEE census), that is +5.9% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 25.3%, against a median of 23.3% across ranked communes, and under-30s 35.1%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who La Chapelle-sur-Erdre works for",
+        body: "La Chapelle-sur-Erdre works from €2,700 net a month, a floor €500 below the ranking median (€3,200). It suits best a single parent who puts transport (6.8/10) first and accepts compromising on cost of living (4.7/10). A household at the local median standard of living covers the floor, with €356 to spare: a favourable point, not a guarantee that a home is available. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, La Chapelle-sur-Erdre should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/la-chapelle-sur-erdre/single-parent.",
+      },
+    ],
+    relatedCities: ["la-chapelle-sur-erdre", "bouguenais", "carquefou"],
+    tags: ["single parent la chapelle-sur-erdre", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
+    slug: "single-parent-in-carquefou-2026",
+    title: "Single parent in Carquefou (2026): an entry floor of €2,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Carquefou 2026: Floor €2,700",
+    metaDesc:
+      "Fit 5.7/10, T3 €950, floor €2,700 a month: the breakdown axis by axis.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Carquefou returns 5.7/10 on the single-parent composite, inside a tier of 18 communes at 5.7/10 that our scale does not separate (3 already have a guide; the others are covered in the same batch). The detail is cost of living 4.6/10, transport 6.7/10, schools 6.4/10, safety 5.6/10 (source: our city profile). The average T3 is €950 a month and a square metre to buy €3,600 (source: our rent estimate), for an estimated minimum net income of €2,700 a month. A T3, in French listings, is a living room plus two bedrooms. The commune counted 20,535 inhabitants at the 2022 census against 19,384 in 2016 (source: INSEE census).",
+    sections: [
+      {
+        heading: "A floor of €2,700: 3 of 4 axes above the median",
+        body: "The minimum net income of €2,700 a month comes from the 35% rule applied to the €950 T3 (the usual French landlord test: rent should not exceed a third of income). Because the cost-of-living score is below 5, the engine relaxes the rule to 35%. In the tier of 18 communes, 9 have a lower floor and 6 a higher one; the median of the 416 ranked communes is €3,200, which makes this floor €500 below it. Cost of living is marked 4.6/10, against a median of 5.2: it weighs 0.30 in the composite, ahead of schools and safety at 0.25 each and transport at 0.20. The floor includes no transport, childcare or utilities: it is an order of magnitude for a T3 rented on the market, not a budget.",
+      },
+      {
+        heading: "A median local household that covers the floor",
+        body: "The commune's median standard of living is €27,830 a year per consumption unit, against €21,675 for the median of ranked communes (source: INSEE, Filosofi 2021). The poverty rate is 6%. For a single parent with one child under 14, 1.3 consumption units on the modified OECD scale, a disposable income at the local median standard of living comes to about €3,015 a month, against a floor of €2,700: €315 to spare. The median local household therefore covers 112% of the floor. The standard of living is a disposable income, benefits included, calculated per consumption unit: it is not a salary, and the 2021 figures say nothing about 2026 rents.",
+      },
+      {
+        heading: "What each axis measures: cost of living 4.6, transport 6.7, schools 6.4, safety 5.6",
+        body: "Cost of living: 4.6/10, against a median of 5.2 (0.6 points lower). Transport: 6.7/10, against a median of 6.4 (0.3 points higher). Schools: 6.4/10, against a median of 5.5 (0.9 points higher). Safety: 5.6/10, against a median of 5.0 (0.6 points higher). It is worth saying what each figure measures. The schools mark describes communal provision, the density of establishments and services relative to population, and not how pupils do. The safety mark is a communal indicator: it says nothing about a district or a street. The transport mark describes access to the commune's networks and stations, not the frequency of a given line. Above the median: transport, schools, safety. Below it: cost of living.",
+      },
+      {
+        heading: "A spread of 2.1 points, and the limit of the composite",
+        body: "The spread between the best axis (transport, 6.7) and the worst (cost of living, 4.6) is 2.1 points, against a median of 2.7 across the 416 ranked communes; Carquefou ranks 10th of 18 in the tier on that measure (on a tie the order is the seed's, not a tiebreak). Limit of the method: this composite is a weighted mean of four axes, without the worst-axis penalty that the site's global score applies when an axis falls below 4.5. Here no axis is below 4.5: the limit does not bite on this file. We publish the limit; we do not reweight.",
+      },
+      {
+        heading: "Carquefou against the other ranked communes of its département (Loire-Atlantique)",
+        body: "The ranking includes 11 communes of the département (Loire-Atlantique), Carquefou among them. The closest by size: La Chapelle-sur-Erdre (fit 5.7, T3 €940); Bouguenais (fit 5.6, T3 €930); Couëron (fit 5.7, T3 €940). At regional level (Pays de la Loire), 19 communes are ranked; 13 have a T3 cheaper than €950. On districts, the site publishes no verdict by area: our district data covers a limited number of districts, on a scale of its own that cannot be compared with the communal score.",
+      },
+      {
+        heading: "A commune gaining residents, 23.2% aged 60 and over",
+        body: "Carquefou counted 20,535 inhabitants in 2022, against 19,384 in 2016 and 18,022 in 2011 (source: INSEE census), that is +5.9% since 2016. The census counts residents: the figure says nothing about how attractive the town is. People aged 60 and over make up 23.2%, against a median of 23.3% across ranked communes, and under-30s 39.3%. These measures are in none of the four axes of the composite, and we draw no cause from them: our data does not measure class openings or closures, which are a question for the town hall or the school district (académie).",
+      },
+      {
+        heading: "The verdict: who Carquefou works for",
+        body: "Carquefou works from €2,700 net a month, a floor €500 below the ranking median (€3,200). It suits best a single parent who puts transport (6.7/10) first and accepts compromising on cost of living (4.6/10). A household at the local median standard of living covers the floor, with €315 to spare: a favourable point, not a guarantee that a home is available. The fit of 5.7 is a weighted mean of four axes and says nothing about districts, childcare or whether a home is actually available. At an equal mark, Carquefou should be compared with the other communes of the tier on the floor and on the axis that matters to you, not on the mark. Detail: /cities/carquefou/single-parent.",
+      },
+    ],
+    relatedCities: ["carquefou", "la-chapelle-sur-erdre", "bouguenais"],
+    tags: ["single parent carquefou", "single parent in france", "expat single parent", "moving to france"],
+  },
+  {
     slug: "single-parent-holidays-anglet-2026",
     title: "Single-parent holidays in Anglet: no railway station, but the airport is here",
     metaTitle: "Single-Parent Holidays in Anglet 2026",
