@@ -10,6 +10,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_CORE, RENT_T2_BY_SLUG } from "@/lib/cities-light";
 import { scoreColor as scoreClass } from "@/lib/utils";
 import { pathAlternates } from "@/lib/i18n";
+import { competitionRanks, hasTieInTop } from "@/lib/tie-rank";
 
 export const metadata: Metadata = {
   title: "Leaderboard · Top villes France par qualité de vie",
@@ -28,6 +29,9 @@ const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.
 
 const MEDAL = ["🥇", "🥈", "🥉"];
 const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
+// Les ex æquo partagent le rang (1, 2, 2, 4…) : une note à une décimale ne départage pas.
+const RANKS = competitionRanks(sorted.map((c) => c.scores.global));
+const TOP_TIED = hasTieInTop(sorted.map((c) => c.scores.global), 20);
 
 export default function LeaderboardPage() {
   const podium = sorted.slice(0, 3);
@@ -45,12 +49,14 @@ export default function LeaderboardPage() {
       {
     "@type": "ItemList",
     name: "Classement des meilleures villes françaises par qualité de vie 2026",
-    description: "Score global agrégé sur 9 critères : nature, transport, coût de la vie, sécurité, culture, écoles, qualité de vie, télétravail.",
+    description: "Score global agrégé sur 8 critères : nature, transport, coût de la vie, sécurité, culture, écoles, qualité de vie, télétravail.",
     url: `${BASE_URL}/leaderboard`,
     numberOfItems: sorted.length,
+    // Ex æquo dans le top 20 : liste non ordonnée, sans position (convention des classements).
+    itemListOrder: TOP_TIED ? "https://schema.org/ItemListUnordered" : "https://schema.org/ItemListOrderDescending",
     itemListElement: sorted.slice(0, 20).map((city, i) => ({
       "@type": "ListItem",
-      position: i + 1,
+      ...(TOP_TIED ? {} : { position: i + 1 }),
       name: city.name,
       url: `${BASE_URL}/villes/${city.slug}`,
       description: `Score ${city.scores.global.toFixed(1)}/10 — ${city.region}`,
@@ -111,7 +117,8 @@ export default function LeaderboardPage() {
                 className="group overflow-hidden rounded-2xl bg-white shadow-[0_14px_34px_-22px_rgba(219,39,119,0.55)] ring-1 ring-[#FBCFE8] hover:ring-[#EC4899] hover:-translate-y-0.5 hover:shadow-lg transition-all text-center"
               >
                 <div className={`grad-head-${i} px-4 py-2 text-xs font-bold uppercase tracking-widest`}>
-                  {MEDAL[i]} {i + 1}<sup>{i === 0 ? "re" : "e"}</sup> place
+                  {MEDAL[RANKS[i] - 1]} {RANKS[i]}<sup>{RANKS[i] === 1 ? "re" : "e"}</sup> place
+                  {(RANKS[i + 1] === RANKS[i] || (i > 0 && RANKS[i - 1] === RANKS[i])) && " ex æquo"}
                 </div>
                 <div className="p-6 pt-5">
                   <div className={`text-3xl font-black font-mono-data mb-1 ${scoreClass(city.scores.global)}`}>
@@ -145,6 +152,10 @@ export default function LeaderboardPage() {
             </h2>
           </div>
           <LeaderboardTable cities={CITIES_CORE} rentT2BySlug={RENT_T2_BY_SLUG} />
+          <p className="mt-3 text-xs text-[var(--text-secondary)]">
+            Notes sur 10 (10 = le meilleur). Les villes à égalité de note partagent le même rang ; à l&apos;intérieur
+            d&apos;un palier, l&apos;ordre d&apos;affichage est stable, ce n&apos;est pas un départage.
+          </p>
           {/* Le tableau ne rend que ses 100 premières lignes (le reste au clic).
               Cet index garde un lien HTML vers chaque ville, rang et note
               compris, lisible sans JavaScript et par les robots. */}
@@ -154,9 +165,10 @@ export default function LeaderboardPage() {
             </summary>
             {/* Deux balises par ligne (li + a), styles portés par la liste : cet
                 index est écrit deux fois dans le HTML (balisage + charge RSC). */}
-            <ol className="list-inside list-decimal columns-1 gap-x-6 px-4 pb-4 text-sm text-[var(--text-tertiary)] marker:text-xs sm:columns-2 lg:columns-3 [&_a]:inline-block [&_a]:py-1 [&_a]:text-[var(--text-primary)] [&_a:hover]:text-[#4338CA]">
-              {sorted.map((city) => (
+            <ol className="list-none columns-1 gap-x-6 px-4 pb-4 text-sm text-[var(--text-tertiary)] marker:text-xs sm:columns-2 lg:columns-3 [&_a]:inline-block [&_a]:py-1 [&_a]:text-[var(--text-primary)] [&_a:hover]:text-[#4338CA]">
+              {sorted.map((city, i) => (
                 <li key={city.slug}>
+                  <span className="font-mono-data text-xs">{RANKS[i]}.</span>{" "}
                   <Link href={`/villes/${city.slug}`}>{city.name}</Link> {city.scores.global.toFixed(1)}
                 </li>
               ))}

@@ -8,6 +8,7 @@ import { ScoreBar } from "@/components/ui/ScoreBar";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { scoreColor } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, pathAlternatesEn } from "@/lib/i18n";
+import { competitionRanks, hasTieInTop } from "@/lib/tie-rank";
 
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
@@ -29,7 +30,6 @@ export const metadata: Metadata = {
 };
 
 const MEDAL = ["🥇", "🥈", "🥉"];
-const PLACE = ["1st", "2nd", "3rd"];
 
 const PODIUM_AXES = [
   { key: "life", label: "Quality of life" },
@@ -43,6 +43,14 @@ export default function EnLeaderboardPage() {
   const TABLE_ROWS = 100;
   const sorted = [...CITIES_SEED].sort((a, b) => b.scores.global - a.scores.global);
   const podium = sorted.slice(0, 3);
+  // Tied cities share a rank (1, 2, 2, 4…): a one-decimal score does not split them.
+  const ranks = competitionRanks(sorted.map((c) => c.scores.global));
+  const topTied = hasTieInTop(sorted.map((c) => c.scores.global), 20);
+  const ordinal = (n: number) => {
+    const t = n % 100;
+    if (t >= 11 && t <= 13) return `${n}th`;
+    return `${n}${["th", "st", "nd", "rd"][n % 10] ?? "th"}`;
+  };
   const avg = sorted.reduce((s, c) => s + c.scores.global, 0) / sorted.length;
   const max = Math.max(...sorted.map((c) => c.scores.global));
 
@@ -63,9 +71,11 @@ export default function EnLeaderboardPage() {
           "Global score weighted across eight quality-of-life axes: life, transport, nature, cost, safety, culture, schools and remote work.",
         url: `${EN_BASE}/leaderboard`,
         numberOfItems: sorted.length,
+        // Ties in the top 20: unordered list, no position (ranking convention).
+        itemListOrder: topTied ? "https://schema.org/ItemListUnordered" : "https://schema.org/ItemListOrderDescending",
         itemListElement: sorted.slice(0, 20).map((city, i) => ({
           "@type": "ListItem",
-          position: i + 1,
+          ...(topTied ? {} : { position: i + 1 }),
           name: city.name,
           url: `${EN_BASE}/cities/${city.slug}`,
           description: `Score ${city.scores.global.toFixed(1)}/10 — ${city.region ?? ""}`,
@@ -124,7 +134,8 @@ export default function EnLeaderboardPage() {
                 className="group overflow-hidden rounded-2xl bg-white shadow-[0_14px_34px_-22px_rgba(219,39,119,0.55)] ring-1 ring-[#FBCFE8] hover:ring-[#EC4899] hover:-translate-y-0.5 hover:shadow-lg transition-all text-center"
               >
                 <div className={`grad-head-${i} px-4 py-2 text-xs font-bold uppercase tracking-widest`}>
-                  {MEDAL[i]} {PLACE[i]} place
+                  {MEDAL[ranks[i] - 1]} {ordinal(ranks[i])} place
+                  {(ranks[i + 1] === ranks[i] || (i > 0 && ranks[i - 1] === ranks[i])) && " (tied)"}
                 </div>
                 <div className="p-6 pt-5">
                   <div className={`text-3xl font-black font-mono-data mb-1 ${scoreColor(city.scores.global)}`}>
@@ -176,10 +187,10 @@ export default function EnLeaderboardPage() {
                     <td className="px-4 py-3">
                       <span
                         className={`inline-flex h-7 min-w-7 items-center justify-center rounded-full px-1.5 text-xs font-bold font-mono-data ${
-                          i < 3 ? `grad-head-${i}` : "bg-[#EEF2FF] text-[#4338CA]"
+                          ranks[i] <= 3 ? `grad-head-${ranks[i] - 1}` : "bg-[#EEF2FF] text-[#4338CA]"
                         }`}
                       >
-                        {i + 1}
+                        {ranks[i]}
                       </span>
                     </td>
                     <td className="px-4 py-3">
@@ -204,19 +215,23 @@ export default function EnLeaderboardPage() {
               </tbody>
             </table>
           </div>
+          <p className="mt-3 text-xs text-[var(--text-secondary)]">
+            Scores out of 10 (10 = best). Cities with the same score share a rank; within a tie the display order is
+            stable, not a tie-break.
+          </p>
           {/* Ranks beyond the table: two tags a row (li + a) instead of ten, no JS.
               The full table used to render every row — the heaviest part of the page. */}
           {sorted.length > TABLE_ROWS && (
             <details className="mt-4 rounded-2xl bg-white shadow-[0_10px_28px_-20px_rgba(8,145,178,0.6)] ring-1 ring-[#BAE6FD]">
               <summary className="cursor-pointer px-4 py-3 text-sm font-semibold text-[#4338CA]">
-                Ranks {TABLE_ROWS + 1} to {sorted.length}
+                Rows {TABLE_ROWS + 1} to {sorted.length}
               </summary>
               <ol
-                start={TABLE_ROWS + 1}
-                className="list-inside list-decimal columns-1 gap-x-6 px-4 pb-4 text-sm text-[var(--text-tertiary)] marker:text-xs sm:columns-2 lg:columns-3 [&_a]:inline-block [&_a]:py-1 [&_a]:text-[var(--text-primary)] [&_a:hover]:text-[#4338CA]"
+                className="list-none columns-1 gap-x-6 px-4 pb-4 text-sm text-[var(--text-tertiary)] marker:text-xs sm:columns-2 lg:columns-3 [&_a]:inline-block [&_a]:py-1 [&_a]:text-[var(--text-primary)] [&_a:hover]:text-[#4338CA]"
               >
-                {sorted.slice(TABLE_ROWS).map((city) => (
+                {sorted.slice(TABLE_ROWS).map((city, j) => (
                   <li key={city.slug}>
+                    <span className="font-mono-data text-xs">{ranks[TABLE_ROWS + j]}.</span>{" "}
                     <Link href={`/cities/${city.slug}`}>{city.name}</Link> {city.scores.global.toFixed(1)}
                   </li>
                 ))}

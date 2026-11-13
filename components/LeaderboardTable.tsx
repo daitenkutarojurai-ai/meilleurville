@@ -3,6 +3,7 @@ import { useState, useMemo } from "react";
 import Link from "@/components/AppLink";
 import type { CityCore } from "@/lib/cities-light";
 import { cn, scoreColor as scoreClass } from "@/lib/utils";
+import { competitionRanks } from "@/lib/tie-rank";
 
 const MEDAL = ["🥇", "🥈", "🥉"];
 
@@ -59,6 +60,11 @@ export function LeaderboardTable({
       });
   }, [cities, region, sortKey, search]);
 
+  // Rang de compétition : deux villes à la même note (une décimale) partagent le rang.
+  const ranks = useMemo(
+    () => competitionRanks(filtered.map((c) => (sortKey === "global" ? c.scores.global : c.scores[sortKey as keyof typeof c.scores]))),
+    [filtered, sortKey],
+  );
   const capped = !showAll && filtered.length > INITIAL_VISIBLE;
   const visible = capped ? filtered.slice(0, INITIAL_VISIBLE) : filtered;
 
@@ -155,10 +161,10 @@ export function LeaderboardTable({
               {visible.map((city, i) => (
                 <tr key={city.slug} className={cn("hover:bg-[#F5F3FF] transition-colors group", i % 2 === 1 ? "bg-[#FAFBFF]" : "bg-white")}>
                   <td className="px-4 py-3 font-mono text-xs">
-                    {i < 3 && region === "Toutes" && sortKey === "global" && !search ? (
-                      <span className="text-base">{MEDAL[i]}</span>
+                    {ranks[i] <= 3 && region === "Toutes" && sortKey === "global" && !search ? (
+                      <span className="text-base" title={`Rang ${ranks[i]}`}>{MEDAL[ranks[i] - 1]}</span>
                     ) : (
-                      <span className="inline-flex h-7 min-w-7 items-center justify-center rounded-full bg-[#EEF2FF] px-1.5 font-bold text-[#4338CA]">{i + 1}</span>
+                      <span className="inline-flex h-7 min-w-7 items-center justify-center rounded-full bg-[#EEF2FF] px-1.5 font-bold text-[#4338CA]">{ranks[i]}</span>
                     )}
                   </td>
                   <td className="px-4 py-3">
