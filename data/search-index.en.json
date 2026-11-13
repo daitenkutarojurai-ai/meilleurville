@@ -7387,6 +7387,36 @@
       "emoji": "🚢"
     },
     {
+      "slug": "retiring-in-reims-2026",
+      "title": "Retiring in Reims (2026): A University Hospital in Town, Moderate Rents, a Shrinking Population",
+      "emoji": "🥂"
+    },
+    {
+      "slug": "retiring-in-saint-etienne-2026",
+      "title": "Retiring in Saint-Étienne (2026): The Cheapest Big City, Hills Included",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "retiring-in-dijon-2026",
+      "title": "Retiring in Dijon (2026): A Growing City on a Tight Budget",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "retiring-in-grenoble-2026",
+      "title": "Retiring in Grenoble (2026): Nature and Care at the Door, a Stretched Budget",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retiring-in-clermont-ferrand-2026",
+      "title": "Retiring in Clermont-Ferrand (2026): Volcanoes on the Horizon, a University Hospital Close",
+      "emoji": "🌋"
+    },
+    {
+      "slug": "retiring-in-brest-2026",
+      "title": "Retiring in Brest (2026): The Best Retirement Score of the Batch, Rain Included",
+      "emoji": "⚓"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -10914,6 +10944,11 @@
       "count": 57
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 57
+    },
+    {
       "slug": "single-supplement",
       "label": "single supplement",
       "count": 57
@@ -10922,11 +10957,6 @@
       "slug": "real-estate",
       "label": "real estate",
       "count": 53
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 51
     },
     {
       "slug": "cost-of-living",
@@ -11536,6 +11566,11 @@
     {
       "slug": "medical-deserts",
       "label": "medical deserts",
+      "count": 3
+    },
+    {
+      "slug": "mild-winter-retirement-france",
+      "label": "mild winter retirement France",
       "count": 3
     },
     {

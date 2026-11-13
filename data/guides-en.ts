@@ -31416,6 +31416,300 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-reims-2026",
+    title: "Retiring in Reims (2026): A University Hospital in Town, Moderate Rents, a Shrinking Population",
+    metaTitle: "Retiring in Reims 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Reims: two-bed at €680, €2,300/m², 21.9% aged 60+, healthcare access 7.9/10, university hospital in town. Monthly budget and limits.",
+    category: "moving",
+    emoji: "🥂",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Reims gives a retiree some of the best healthcare access in this batch (7.9/10 on our health sheet, with a university hospital inside the town) for a two-bedroom at €680 and €2,300/m² to buy (our rent estimate), so about €138,000 for 60 m². It has 178,478 residents, only 21.9% of them aged 60 or over, below the 26.2% median of the towns we track (INSEE census, 2022), and it lost 2.5% of its population between 2016 and 2022. Our retirement score is 5.4/10, in a thirty-five-way tie, behind 411 other towns: this is a services town more than a retirement town.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Reims for a retiree?",
+        body: "Our healthcare-access engine rates Reims 7.9/10, where 10 means excellent access: an \"easy\" level (our health sheet). GP access is measured at 4.97 GP consultations within reach per resident per year according to DREES (the official health statistics service), well above the national average of 3.72, with 180 private GPs recorded in the town (INSEE, BPE facilities database). A CHU (university hospital) site is in the town itself, so specialists and emergency care do not mean a trip to another city. Tram line A serves the Robert-Debré hospital. These figures measure how much care exists, not how long an appointment takes.",
+      },
+      {
+        heading: "How much does housing cost in Reims?",
+        body: "One-bedroom €490, two-bedroom €680, three-bedroom €900 and €2,300/m² to buy (our rent estimate). Châlons-en-Champagne is cheaper (€540 for a two-bedroom, €1,700/m²), as is Troyes (€650 and €2,000/m²), while Épernay is at €630 and €2,100/m². Reims is the expensive choice in Champagne, yet still under half the per-square-metre price of a metropolis like Lyon (€5,000/m²).",
+      },
+      {
+        heading: "A retiree's monthly budget in Reims",
+        body: "A single person renting a two-bedroom: rent €680 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,370 a month. A couple renting a three-bedroom: rent €900, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,930 a month. The average pension of about €1,500 net (DREES) leaves around €130 of margin for a single tenant, and does not cover a couple living on one pension.",
+      },
+      {
+        heading: "A town that is emptying slightly: what it means",
+        body: "Reims lost 4,635 residents between 2016 and 2022 (−2.5%, INSEE census 2022). For a retiree the decline cuts both ways: a relaxed rental market, so rents stay reasonable, and a town that is less of a magnet for working-age people. The median standard of living is €20,210 a year with a 24% poverty rate (INSEE, Filosofi 2021), and safety is 5.1/10 on our city sheet: worth checking district by district, at different times of day.",
+      },
+      {
+        heading: "Daily life: cathedral, tram, a climate without extremes",
+        body: "Notre-Dame cathedral, where French kings were crowned, makes the centre a flat walk that works without a car. The climate is temperate: 3.2 °C in January, 21.5 °C in July and about 1,664 hours of sun a year, less than a retiree heading south would hope for. Paris is a train ride away for grandchildren and appointments, without Paris rents.",
+      },
+      {
+        heading: "Who Reims suits, and who it does not",
+        body: "Reims suits the retiree who wants a university hospital next door, a centre that works without a car and rent under €700, and who does not expect sunshine. It suits less someone looking for an already-ageing town where shops and services are built around seniors, or a couple on a single average pension: a three-bedroom budget goes above €1,900 a month.",
+      },
+    ],
+    relatedCities: ["reims", "chalons-en-champagne", "troyes", "epernay"],
+    tags: [
+      "retiring in Reims 2026",
+      "Champagne expat retirement",
+      "Reims retirement budget",
+      "retire near Paris France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-saint-etienne-2026",
+    title: "Retiring in Saint-Étienne (2026): The Cheapest Big City, Hills Included",
+    metaTitle: "Retiring in Saint-Étienne 2026: Budget, Health, Hills",
+    metaDesc:
+      "Retiring in Saint-Étienne: two-bed at €580, €1,500/m², 25.7% aged 60+, healthcare access 7.2/10, university hospital in town. Budget, hills and limits.",
+    category: "moving",
+    emoji: "🚋",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Saint-Étienne is the cheapest big city in this batch: €580 a two-bedroom and €1,500/m² to buy (our rent estimate), so about €90,000 for 60 m², with a university hospital in the town. It has 172,569 residents, 25.7% of them aged 60 or over, close to the 26.2% median (INSEE census, 2022), and its population is steady: +0.4% between 2016 and 2022. Our retirement score is 5.6/10, in a seventeen-way tie, behind 374 other towns. The reservations are social (a 28% poverty rate) and physical (the town sits at 520 metres on a set of hills).",
+    sections: [
+      {
+        heading: "Why Saint-Étienne costs less than Lyon, an hour away",
+        body: "Cost of living is 7.1/10 on our city sheet, the best in this batch. A two-bedroom is €580 against €1,000 in Lyon, and a square metre €1,500 against €5,000 (our rent estimate): a retiree who wants to stay within reach of a metropolis, for the station, the specialists or the family, pays a third of the price. Le Puy-en-Velay (€530 and €1,600/m²) and Roanne (€520 and €1,500/m²) are in the same range, with fewer services.",
+      },
+      {
+        heading: "What is healthcare access like in Saint-Étienne?",
+        body: "Our engine rates Saint-Étienne 7.2/10, where 10 means excellent access: an \"easy\" level (our health sheet). GP access is measured at 3.81 consultations within reach per resident per year according to DREES, close to the national average of 3.72, with 161 private GPs recorded in the town. A CHU (university hospital) site is in the town, so specialties are on the spot. It is GP access, more than the hospital, that sits at the average: choosing a family doctor before signing a lease is a sound habit.",
+      },
+      {
+        heading: "A retiree's monthly budget in Saint-Étienne",
+        body: "A single person renting a two-bedroom: rent €580 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,270 a month. A couple renting a three-bedroom: rent €770, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,800 a month. The average pension of about €1,500 net (DREES) leaves around €230 of margin for a single tenant, the widest in this batch.",
+      },
+      {
+        heading: "The hills and the social context, before you choose",
+        body: "The town stretches over hills at 520 metres: a sloping street is a daily obstacle at 75, tram or no tram. The median standard of living is €19,010 a year, 28% of residents live below the poverty line (INSEE, Filosofi 2021) and safety is 4.3/10 on our city sheet. Low prices describe a working-class market: choose the district on foot, at several times of day.",
+      },
+      {
+        heading: "Daily life: design, tram, the Pilat",
+        body: "The Cité du design, housed in the former arms factory, is served by tram line T2, which makes the visit possible without a car. Saint-Étienne is the most populous town in the Pilat regional nature park, which offers walks a few kilometres from the centre. The climate is harsher than in the south: 3.5 °C in January, 21 °C in July, about 1,820 hours of sun a year.",
+      },
+      {
+        heading: "Who Saint-Étienne suits, and who it does not",
+        body: "Saint-Étienne suits the retiree on an average pension who wants a university hospital, shops and rent under €600, and who accepts the hills. It suits less someone who struggles to walk uphill or who wants a safe, quiet setting: with 28% poverty and safety at 4.3/10, visiting before committing is not optional.",
+      },
+    ],
+    relatedCities: ["saint-etienne", "lyon", "le-puy-en-velay", "roanne"],
+    tags: [
+      "retiring in Saint-Étienne 2026",
+      "Loire expat retirement",
+      "cheap retirement big city France",
+      "Saint-Étienne retirement budget",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-dijon-2026",
+    title: "Retiring in Dijon (2026): A Growing City on a Tight Budget",
+    metaTitle: "Retiring in Dijon 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Dijon: two-bed at €720, €2,600/m², 22.9% aged 60+, healthcare access 7.6/10, university hospital in town. Monthly budget and limits.",
+    category: "moving",
+    emoji: "🍇",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "In Dijon a two-bedroom is €720 and a square metre €2,600 (our rent estimate), so about €156,000 for 60 m²: a single person on the average pension keeps around €90 of margin a month. It has 159,941 residents, 22.9% of them aged 60 or over, below the 26.2% median (INSEE census, 2022), and it gained 3.1% in population between 2016 and 2022. Our retirement score is 6.0/10, in a fourteen-way tie, behind 308 other towns, and safety is decent (5.7/10): a lively city with a university hospital, but not a cheap retirement.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Dijon?",
+        body: "Our healthcare-access engine rates Dijon 7.6/10, where 10 means excellent access: an \"easy\" level (our health sheet). GP access is measured at 4.54 consultations within reach per resident per year according to DREES, above the national average of 3.72, with 184 private GPs recorded in the town. A CHU (university hospital) site is in the town, with two emergency departments recorded (INSEE, BPE facilities database). No trip to another city is needed for specialties.",
+      },
+      {
+        heading: "How much does housing cost in Dijon?",
+        body: "One-bedroom €520, two-bedroom €720, three-bedroom €950 and €2,600/m² to buy (our rent estimate). Besançon, in the neighbouring region, is a little cheaper (€680 and €2,300/m²) and Auxerre clearly so (€490 and €1,600/m²). Dijon is the dearest of this comparison, with a market carried by population growth.",
+      },
+      {
+        heading: "A retiree's monthly budget in Dijon",
+        body: "A single person renting a two-bedroom: rent €720 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,410 a month. A couple renting a three-bedroom: rent €950, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,980 a month. The average pension of about €1,500 net (DREES) leaves around €90 of margin for a single tenant: comfortable only with an above-average pension or some savings.",
+      },
+      {
+        heading: "A city that attracts young people: what it means for a retiree",
+        body: "With 22.9% aged 60 or over, Dijon is a fairly young city, fed by its students and its jobs. The upside is a broad offer of culture and services (culture 7.3/10 and transport 7.0/10 on our city sheet). The price of that vitality is a tighter rental market than in shrinking towns. The median standard of living is €22,720 a year, with a 17% poverty rate (INSEE, Filosofi 2021), the best in this batch.",
+      },
+      {
+        heading: "Daily life: Darcy garden, Lake Kir, the gastronomy centre",
+        body: "The Darcy garden, opposite the station, offers a flat walk with a large pond. The Palace of the Dukes, home of the fine-arts museum, sits in the middle of a dense pedestrian centre. Lake Kir, on the west side of town and spilling into Fontaine-lès-Dijon, is a walking circuit by the water. The International City of Gastronomy and Wine occupies the former general hospital. The climate is continental: 2.9 °C in January, 22.5 °C in July, about 1,820 hours of sun.",
+      },
+      {
+        heading: "Who Dijon suits, and who it does not",
+        body: "Dijon suits the retiree with an above-average pension, or a home already paid for, who wants a university hospital, a lively centre and a high median standard of living. It suits less someone counting every euro: Auxerre or Besançon give a similar level of services at a lower rent.",
+      },
+    ],
+    relatedCities: ["dijon", "besancon", "auxerre"],
+    tags: [
+      "retiring in Dijon 2026",
+      "Burgundy expat retirement",
+      "Dijon retirement budget",
+      "retire in a university city France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-grenoble-2026",
+    title: "Retiring in Grenoble (2026): Nature and Care at the Door, a Stretched Budget",
+    metaTitle: "Retiring in Grenoble 2026: Budget, Health, Limits",
+    metaDesc:
+      "Retiring in Grenoble: two-bed at €750, €3,200/m², 19.6% aged 60+, healthcare access 7.5/10, nature 8.4/10. Monthly budget and limits.",
+    category: "moving",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Grenoble is the dearest city in this batch: €750 a two-bedroom and €3,200/m² to buy (our rent estimate), so about €192,000 for 60 m², and only €60 of monthly margin for a single person on the average pension. In return it has the best nature score of the batch (8.4/10 on our city sheet), healthcare access of 7.5/10 and mountains on the horizon. It has 156,389 residents, 19.6% of them aged 60 or over, the lowest share of the batch (median 26.2%, INSEE census, 2022). Our retirement score is 6.1/10, in a twenty-two-way tie, behind 286 other towns.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Grenoble?",
+        body: "Our healthcare-access engine rates Grenoble 7.5/10, where 10 means excellent access: an \"easy\" level (our health sheet). GP access is measured at 3.96 consultations within reach per resident per year according to DREES, slightly above the national average of 3.72, with 157 private GPs recorded in the town. Our engine counts a CHU (university hospital) site in the town and 59 pharmacies (INSEE, BPE facilities database): specialist care is on the spot.",
+      },
+      {
+        heading: "How much does housing cost in Grenoble?",
+        body: "One-bedroom €560, two-bedroom €750, three-bedroom €1,020 and €3,200/m² to buy (our rent estimate). Chambéry is dearer per square metre (€3,600) but with a two-bedroom at €820, Annecy far dearer (€1,100 and €5,500/m²), and Lyon is at €1,000 and €5,000/m². Grenoble is the cheapest of the big Alpine cities, yet above every other town in this batch.",
+      },
+      {
+        heading: "A retiree's monthly budget in Grenoble",
+        body: "A single person renting a two-bedroom: rent €750 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,440 a month. A couple renting a three-bedroom: rent €1,020, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €2,050 a month. The average pension of about €1,500 net (DREES) leaves around €60 of margin for a single tenant: Grenoble assumes an above-average pension.",
+      },
+      {
+        heading: "Is Grenoble a retirement city?",
+        body: "Not by its demographics: 19.6% aged 60 or over, and a slightly falling population (−1.1% between 2016 and 2022, INSEE census 2022). It is a city of students, researchers and working-age residents. Its strengths for a retiree lie elsewhere: transport 8.1/10 on our city sheet, an extensive tram network, nature 8.4/10 and, for walkers, the Bastille cable car, opened in 1934, whose lower station is at the entrance to the Jardin de Ville.",
+      },
+      {
+        heading: "The reservations: safety and the basin",
+        body: "Safety is 4.3/10 on our city sheet, the weakest in this batch together with Saint-Étienne. The median standard of living is €22,140 a year with a 21% poverty rate (INSEE, Filosofi 2021). The city sits in a basin: 23.8 °C in July, 2.8 °C in January, about 1,900 hours of sun a year, and heat and pollution episodes worth checking before you commit.",
+      },
+      {
+        heading: "Who Grenoble suits, and who it does not",
+        body: "Grenoble suits the active retiree who loves hiking and has a comfortable pension or some capital. It suits less a single person on an average pension, or someone who wants a town with many seniors: for a similar level of services at a lower price, compare Clermont-Ferrand or Saint-Étienne.",
+      },
+    ],
+    relatedCities: ["grenoble", "chambery", "annecy", "lyon"],
+    tags: [
+      "retiring in Grenoble 2026",
+      "Alps expat retirement",
+      "Grenoble retirement budget",
+      "mountain retirement France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-clermont-ferrand-2026",
+    title: "Retiring in Clermont-Ferrand (2026): Volcanoes on the Horizon, a University Hospital Close",
+    metaTitle: "Retiring in Clermont-Ferrand 2026: Budget, Health",
+    metaDesc:
+      "Retiring in Clermont-Ferrand: two-bed at €680, €2,400/m², 21% aged 60+, healthcare access 7.5/10, nature 7.2/10. Monthly budget and limits.",
+    category: "moving",
+    emoji: "🌋",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Clermont-Ferrand costs €680 a two-bedroom and €2,400/m² to buy (our rent estimate), so about €144,000 for 60 m², with nature at 7.2/10 on our city sheet and healthcare access of 7.5/10. It has 147,751 residents, 21% of them aged 60 or over, below the 26.2% median (INSEE census, 2022), and it gained 3.5% in population between 2016 and 2022, the strongest rise in this batch. Our retirement score is 6.3/10, in a sixteen-way tie, behind 244 other towns.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Clermont-Ferrand?",
+        body: "Our engine rates Clermont-Ferrand 7.5/10, where 10 means excellent access: an \"easy\" level (our health sheet). GP access is measured at 4.10 consultations within reach per resident per year according to DREES, above the national average of 3.72. A CHU (university hospital) site is in the town, with three emergency departments recorded (INSEE, BPE facilities database). The town counts 122 private GPs within its limits, the lowest figure in this batch for a city of this size: the DREES indicator, which includes neighbouring communes, is nonetheless good.",
+      },
+      {
+        heading: "How much does housing cost in Clermont-Ferrand?",
+        body: "One-bedroom €480, two-bedroom €680, three-bedroom €900 and €2,400/m² to buy (our rent estimate). Limoges is cheaper to buy in (€600 and €1,600/m²) and Vichy far cheaper (€480 and €1,700/m²) but with 41.5% aged 60 or over. Clermont-Ferrand is level with Reims on rent, with a market supported by population growth.",
+      },
+      {
+        heading: "A retiree's monthly budget in Clermont-Ferrand",
+        body: "A single person renting a two-bedroom: rent €680 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,370 a month. A couple renting a three-bedroom: rent €900, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,930 a month. The average pension of about €1,500 net (DREES) leaves around €130 of margin for a single tenant.",
+      },
+      {
+        heading: "What does the nature around Clermont-Ferrand offer?",
+        body: "The Chaîne des Puys, a UNESCO World Heritage site since 2018, rises to the west of the city, with the Puy de Dôme at 1,465 metres as the viewpoint. Nature is 7.2/10 on our city sheet, second in this batch after Grenoble. The cathedral, built of Volvic stone, gives the centre its dark tone. The flip side is a cooler winter than on the coast: 3.7 °C in January, 22.4 °C in July, about 1,757 hours of sun.",
+      },
+      {
+        heading: "The social context and safety",
+        body: "The median standard of living is €20,430 a year with a 25% poverty rate (INSEE, Filosofi 2021), and safety is 5.5/10 on our city sheet, in the lower middle. Cost of living is 6.4/10, level with Brest and behind Saint-Étienne. Clermont-Ferrand is a city with a good overall mark and no weakness as sharp as Grenoble's or Saint-Étienne's.",
+      },
+      {
+        heading: "Who Clermont-Ferrand suits, and who it does not",
+        body: "Clermont-Ferrand suits the retiree who wants volcanoes nearby, a university hospital and rent at €680, without the social reservations of Saint-Étienne. It suits less someone who wants a mild winter or the sea: for that, look at Brest or the Atlantic coast.",
+      },
+    ],
+    relatedCities: ["clermont-ferrand", "vichy", "limoges"],
+    tags: [
+      "retiring in Clermont-Ferrand 2026",
+      "Auvergne expat retirement",
+      "Clermont-Ferrand retirement budget",
+      "retire near volcanoes France",
+      "expat retirement",
+    ],
+  },
+
+  {
+    slug: "retiring-in-brest-2026",
+    title: "Retiring in Brest (2026): The Best Retirement Score of the Batch, Rain Included",
+    metaTitle: "Retiring in Brest 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Brest: two-bed at €650, €2,500/m², 22.5% aged 60+, healthcare access 7.9/10, January at 6.2 °C. Monthly budget and limits.",
+    category: "moving",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Brest has the best retirement score of this batch (6.6/10, in a seventeen-way tie, behind 200 other towns), thanks to healthcare access of 7.9/10 and a mild winter: 6.2 °C in January against 2.8 °C in Grenoble. A two-bedroom is €650 and a square metre €2,500 (our rent estimate), so about €150,000 for 60 m². It has 140,993 residents, 22.5% of them aged 60 or over, below the 26.2% median (INSEE census, 2022), and gained 1.2% in population between 2016 and 2022. The price of the mild winter is a cool summer (18.6 °C in July) and about 1,600 hours of sun.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Brest?",
+        body: "Our engine rates Brest 7.9/10, where 10 means excellent access: an \"easy\" level (our health sheet), level with Reims for the best in this batch. GP access is measured at 5.34 consultations within reach per resident per year according to DREES, the best figure of the batch and well above the national average of 3.72, with 178 private GPs recorded in the town and four emergency departments (INSEE, BPE facilities database). A CHU (university hospital) site is in the town. The town has fewer pharmacies than its batch neighbours, 36 recorded, which does not change how available care is.",
+      },
+      {
+        heading: "How much does housing cost in Brest?",
+        body: "One-bedroom €480, two-bedroom €650, three-bedroom €850 and €2,500/m² to buy (our rent estimate). Quimper is dearer (€700 and €2,800/m²), as is Lorient (€680 and €2,800/m²), Morlaix cheaper (€530 and €1,700/m²). Brest is the cheapest of the large Breton cities in this comparison, and a long way from Rennes (€820 and €3,800/m²).",
+      },
+      {
+        heading: "A retiree's monthly budget in Brest",
+        body: "A single person renting a two-bedroom: rent €650 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,340 a month. A couple renting a three-bedroom: rent €850, energy €130, groceries €500, two mutuelles €240, transport €60, leisure and sundries €100, about €1,880 a month. The average pension of about €1,500 net (DREES) leaves around €160 of margin for a single tenant.",
+      },
+      {
+        heading: "A mild winter, a grey sky: the real climate balance",
+        body: "Brest records 6.2 °C in January and 18.6 °C in July: heat extremes are rare, an advantage for a retiree sensitive to heatwaves. The flip side is sunshine, about 1,600 hours a year, the lowest in this batch, and frequent rain. Test it with a winter stay before committing: the morale of a retiree living alone matters as much as the rent.",
+      },
+      {
+        heading: "Daily life: the harbour, Cours Dajot, the cable car",
+        body: "The Cours Dajot, a former rampart promenade, looks over the harbour. The urban cable car, in service since November 2016, crosses the Penfeld between the Capucins plateau and the centre and connects to the tram and buses. Océanopolis is reachable by public transport. Safety is 5.7/10 on our city sheet, and the median standard of living is €21,420 a year with a 19% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Who Brest suits, and who it does not",
+        body: "Brest suits the retiree who wants the sea, a university hospital and a climate without heatwaves, with rent at €650. It suits less someone who needs sunshine, or a town with a great many seniors around: the share aged 60 or over is below the median.",
+      },
+    ],
+    relatedCities: ["brest", "quimper", "morlaix", "lorient"],
+    tags: [
+      "retiring in Brest 2026",
+      "Brittany expat retirement",
+      "Brest retirement budget",
+      "mild winter retirement France",
+      "expat retirement",
+    ],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",
