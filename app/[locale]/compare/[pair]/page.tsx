@@ -4,6 +4,8 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { VsBattle } from "@/components/VsBattle";
+import { EmojiBadge } from "@/components/EmojiBadge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { scoreColor } from "@/lib/utils";
@@ -103,7 +105,10 @@ function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeo
   const [a, b, c] = cities;
   const topCity = [a, b, c].reduce((best, city) => city.scores.global > best.scores.global ? city : best);
 
-  const COLORS = ["text-blue-600", "text-violet-600", "text-amber-600"];
+  // Couleurs de ville « Couleurs » : indigo / rose / cyan (violet et ambre sont réservés aux paliers).
+  const COLORS = ["text-[#4338CA]", "text-[#BE185D]", "text-[#0E7490]"];
+  const HEAD = ["grad-head-0", "grad-head-1", "grad-head-3"];
+  const PILL = ["bg-[#E0E7FF] text-[#4338CA]", "bg-[#FCE7F3] text-[#BE185D]", "bg-[#CFFAFE] text-[#0E7490]"];
 
   const pairSlug = `${a.slug}-vs-${b.slug}-vs-${c.slug}`;
   const jsonLd = {
@@ -149,167 +154,183 @@ function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeo
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pt-16 pb-8">
-        <nav className="mb-6 text-sm text-[var(--text-secondary)]">
-          <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
-          {" · "}
-          <Link href="/compare" className="hover:text-[var(--accent)]">Compare</Link>
-          {" · "}
-          <span>{a.name} vs {b.name} vs {c.name}</span>
-        </nav>
-        <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight mb-3">
-          {a.name} vs {b.name} vs {c.name}
-        </h1>
-        <p className="text-[var(--text-secondary)]">
-          On the overall score, <strong className="text-[var(--text-primary)]">{topCity.name}</strong> leads at{" "}
-          <strong className="text-[var(--text-primary)]">{topCity.scores.global.toFixed(1)}/10</strong> — but check the breakdown below before deciding.
-        </p>
-      </section>
 
-      {/* Cross-link: 8-dimension synthesis */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 pb-2">
-        <Link
-          href={`/compare/${pairSlug}/synthesis`}
-          className="group flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all px-5 py-4"
-        >
-          <span className="text-2xl shrink-0">✨</span>
-          <div className="flex-1 min-w-0">
-            <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-              8 dimensions compared — {a.name} vs {b.name} vs {c.name}
-            </p>
-            <p className="text-xs text-[var(--text-secondary)] mt-0.5">
-              Environment, healthcare, employment, quality of life, cycling, safety,
-              demographics, public services. Ahead only counts from 0.3 pts.
-            </p>
+      {/* Header */}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10 sm:pb-12">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav aria-label="Breadcrumb" className="mb-4 text-xs text-[var(--text-tertiary)]">
+            <Link href="/" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Home</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <Link href="/compare" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Compare</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <span>{a.name} vs {b.name} vs {c.name}</span>
+          </nav>
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <EmojiBadge emoji="🥊" tone="indigo" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              2026 comparison · 3 cities
+            </span>
           </div>
-          <span className="text-sm text-[var(--accent)] font-medium shrink-0">View →</span>
-        </Link>
+          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.1] mb-3">
+            <span className="gradient-text-anim pr-1">{a.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2 py-0.5 text-xs sm:text-sm font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{b.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2 py-0.5 text-xs sm:text-sm font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{c.name}</span>
+          </h1>
+          <p className="text-[var(--text-secondary)] max-w-3xl">
+            On the overall score, <strong className="text-[var(--text-primary)]">{topCity.name}</strong> leads at{" "}
+            <strong className="text-[var(--text-primary)]">{topCity.scores.global.toFixed(1)}/10</strong> — but check the breakdown below before deciding.
+          </p>
+        </div>
       </section>
 
-      {/* Score cards */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-4 grid grid-cols-3 gap-3">
-        {[a, b, c].map((city) => (
+      {/* Score cards + synthesis link */}
+      <section className="band band-indigo py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+            {[a, b, c].map((city, i) => (
+              <Link
+                key={city.slug}
+                href={`/cities/${city.slug}`}
+                className="overflow-hidden rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] transition-all hover:ring-[#4F46E5] hover:-translate-y-0.5 hover:shadow-lg"
+              >
+                <div className={`h-1.5 ${HEAD[i]}`} aria-hidden />
+                <div className="p-5">
+                  <p className="text-xs text-[var(--text-secondary)]">{city.region ?? ""}</p>
+                  <h2 className={`text-lg font-bold ${COLORS[i]}`}>{city.name}</h2>
+                  <p className={`font-mono-data text-3xl font-bold mt-1 ${scoreColor(city.scores.global)}`}>
+                    {city.scores.global.toFixed(1)}
+                    <span className="text-sm text-[var(--text-tertiary)]">/10</span>
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+
+          {/* Cross-link: 8-dimension synthesis */}
           <Link
-            key={city.slug}
-            href={`/cities/${city.slug}`}
-            className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 transition-all hover:border-[var(--accent)]/40 hover:shadow-lg"
+            href={`/compare/${pairSlug}/synthesis`}
+            className="group flex flex-wrap items-center gap-3 rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] hover:ring-[#4F46E5] hover:-translate-y-0.5 hover:shadow-lg transition-all px-5 py-4"
           >
-            <p className="text-xs text-[var(--text-secondary)]">{city.region ?? ""}</p>
-            <h2 className="text-lg font-bold text-[var(--text-primary)]">{city.name}</h2>
-            <p className={`font-mono-data text-3xl font-bold mt-1 ${scoreColor(city.scores.global)}`}>
-              {city.scores.global.toFixed(1)}
-              <span className="text-sm text-[var(--text-tertiary)]">/10</span>
-            </p>
+            <EmojiBadge emoji="✨" tone="pink" size="sm" />
+            <div className="flex-1 min-w-0">
+              <p className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
+                8 dimensions compared — {a.name} vs {b.name} vs {c.name}
+              </p>
+              <p className="text-xs text-[var(--text-secondary)] mt-0.5">
+                Environment, healthcare, employment, quality of life, cycling, safety,
+                demographics, public services. Ahead only counts from 0.3 pts.
+              </p>
+            </div>
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold shrink-0">View →</span>
           </Link>
-        ))}
+        </div>
       </section>
 
       {/* Score table */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Score by score</h2>
-        <div className="overflow-x-auto rounded-2xl border border-[var(--border)]">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="bg-[var(--bg-elevated)] text-[var(--text-secondary)]">
-                <th className="text-left p-3 font-semibold">Criterion</th>
-                {[a, b, c].map((city, i) => (
-                  <th key={city.slug} className={`text-center p-3 font-semibold ${COLORS[i]}`}>{city.name}</th>
-                ))}
-                <th className="text-center p-3 font-semibold">Winner</th>
-              </tr>
-            </thead>
-            <tbody>
-              {SCORE_ROWS.map((row) => {
-                const scores = [a, b, c].map((city) => city.scores[row.key]);
-                const maxScore = Math.max(...scores);
-                const winner = scores.filter((s) => s === maxScore).length === 1
-                  ? [a, b, c][scores.indexOf(maxScore)].name
-                  : "Tie";
-                return (
-                  <tr key={row.key} className="border-t border-[var(--border)]">
-                    <td className="p-3 text-[var(--text-primary)] font-medium">{row.label}</td>
-                    {[a, b, c].map((city) => {
-                      const v = city.scores[row.key];
-                      return (
-                        <td key={city.slug} className={`p-3 text-center font-mono-data font-bold ${v === maxScore ? scoreColor(v) : "text-[var(--text-secondary)]"}`}>
-                          {v.toFixed(1)}
-                        </td>
-                      );
-                    })}
-                    <td className="p-3 text-center text-[var(--text-secondary)] text-xs">{winner}</td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
+      <section className="band band-sky py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-6">
+            <EmojiBadge emoji="📊" tone="sky" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Score by score</span>
+            </h2>
+          </div>
+          <div className="overflow-x-auto rounded-2xl bg-white ring-1 ring-[#BAE6FD] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)]">
+            <table className="w-full text-sm">
+              <thead>
+                <tr className="bg-[#EEF2FF] text-[#4338CA]">
+                  <th className="text-left p-3 font-semibold">Criterion</th>
+                  {[a, b, c].map((city, i) => (
+                    <th key={city.slug} className={`text-center p-3 font-semibold ${COLORS[i]}`}>{city.name}</th>
+                  ))}
+                  <th className="text-center p-3 font-semibold">Winner</th>
+                </tr>
+              </thead>
+              <tbody>
+                {SCORE_ROWS.map((row, ri) => {
+                  const scores = [a, b, c].map((city) => city.scores[row.key]);
+                  const maxScore = Math.max(...scores);
+                  const winner = scores.filter((s) => s === maxScore).length === 1
+                    ? [a, b, c][scores.indexOf(maxScore)].name
+                    : "Tie";
+                  return (
+                    <tr key={row.key} className={`border-t border-[#E0E7FF] ${ri % 2 ? "bg-[#F8FAFF]" : ""}`}>
+                      <td className="p-3 text-[var(--text-primary)] font-medium">{row.label}</td>
+                      {[a, b, c].map((city) => {
+                        const v = city.scores[row.key];
+                        return (
+                          <td key={city.slug} className={`p-3 text-center font-mono-data font-bold ${v === maxScore ? scoreColor(v) : "text-[var(--text-secondary)]"}`}>
+                            {v.toFixed(1)}
+                          </td>
+                        );
+                      })}
+                      <td className="p-3 text-center text-[var(--text-secondary)] text-xs">{winner}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
         </div>
       </section>
 
       {/* Profile picks */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Which one for your profile?</h2>
-        <div className="grid sm:grid-cols-2 gap-3">
-          {PROFILES.map((p) => {
-            const scores = [a, b, c].map((city) => ({ city, score: profileScore(city, p.keys) }));
-            scores.sort((x, y) => y.score - x.score);
-            const [first, second] = scores;
-            const tied = first.score === second.score;
-            return (
-              <div key={p.label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <div className="flex items-center gap-2 mb-1">
-                  <span aria-hidden className="text-2xl">{p.emoji}</span>
-                  <h3 className="font-bold text-[var(--text-primary)]">{p.label}</h3>
+      <section className="band band-pink py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-6">
+            <EmojiBadge emoji="🧭" tone="pink" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Which one for your profile?</span>
+            </h2>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">
+            {PROFILES.map((p) => {
+              const scores = [a, b, c].map((city, i) => ({ city, i, score: profileScore(city, p.keys) }));
+              scores.sort((x, y) => y.score - x.score);
+              const [first, second] = scores;
+              const tied = first.score === second.score;
+              return (
+                <div key={p.label} className="rounded-2xl bg-white ring-1 ring-[#FBCFE8] shadow-[0_14px_34px_-24px_rgba(219,39,119,0.55)] p-5">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span aria-hidden className="text-2xl">{p.emoji}</span>
+                    <h3 className="font-bold text-[var(--text-primary)]">{p.label}</h3>
+                  </div>
+                  <p className="text-xs text-[var(--text-secondary)] mb-3">{p.desc}</p>
+                  {tied ? (
+                    <p className="text-sm text-[var(--text-primary)]">
+                      <span className="rounded-full bg-[#F1F0FF] px-2.5 py-0.5 text-[#4338CA]">Too close to call</span>{" "}
+                      — {first.city.name} and {second.city.name} tie at {first.score.toFixed(1)}/10.
+                    </p>
+                  ) : (
+                    <p className="flex flex-wrap items-center gap-1.5 text-sm text-[var(--text-primary)]">
+                      Best fit:{" "}
+                      <strong className={`rounded-full px-2.5 py-0.5 ${PILL[first.i]}`}>{first.city.name}</strong>
+                      <span className="text-xs text-[var(--text-tertiary)]">({first.score.toFixed(1)}/10)</span>
+                    </p>
+                  )}
                 </div>
-                <p className="text-xs text-[var(--text-secondary)] mb-2">{p.desc}</p>
-                <p className="text-sm text-[var(--text-primary)]">
-                  {tied
-                    ? <>Too close to call — {first.city.name} and {second.city.name} tie at {first.score.toFixed(1)}/10.</>
-                    : <>Best fit: <strong>{first.city.name}</strong> ({first.score.toFixed(1)}/10)</>
-                  }
-                </p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </section>
 
-      {/* Climate */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Climate</h2>
-        <div className="overflow-x-auto rounded-2xl border border-[var(--border)]">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="bg-[var(--bg-elevated)] text-[var(--text-secondary)]">
-                <th className="text-left p-3 font-semibold">Metric</th>
-                {[a, b, c].map((city, i) => (
-                  <th key={city.slug} className={`text-center p-3 font-semibold ${COLORS[i]}`}>{city.name}</th>
-                ))}
-              </tr>
-            </thead>
-            <tbody>
-              {[
-                { label: "Sunshine days/year", vals: [a, b, c].map((city) => city.sunshinedays ? `${Math.round(city.sunshinedays / 9.5)} d` : "—") },
-                { label: "July avg °C", vals: [a, b, c].map((city) => city.avgTempJuly ? `${city.avgTempJuly}°` : "—") },
-                { label: "January avg °C", vals: [a, b, c].map((city) => city.avgTempJanuary ? `${city.avgTempJanuary}°` : "—") },
-              ].map(({ label, vals }) => (
-                <tr key={label} className="border-t border-[var(--border)]">
-                  <td className="p-3 text-[var(--text-primary)] font-medium">{label}</td>
-                  {vals.map((v, i) => <td key={i} className="p-3 text-center font-mono-data">{v}</td>)}
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </section>
-
-      {/* Housing */}
-      {([a, b, c].some((city) => getHousing(city.slug))) && (
-        <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Housing</h2>
-          <div className="overflow-x-auto rounded-2xl border border-[var(--border)]">
+      {/* Climate + housing */}
+      <section className="band band-aqua py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
+          <div className="flex items-center gap-3">
+            <EmojiBadge emoji="🌤️" tone="aqua" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Climate and housing</span>
+            </h2>
+          </div>
+          <div className="overflow-x-auto rounded-2xl bg-white ring-1 ring-[#A5F3FC] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)]">
+            <h3 className="grad-head-5 px-5 py-2.5 text-sm font-bold uppercase tracking-widest">Climate</h3>
             <table className="w-full text-sm">
               <thead>
-                <tr className="bg-[var(--bg-elevated)] text-[var(--text-secondary)]">
+                <tr className="bg-[#EEF2FF] text-[#4338CA]">
                   <th className="text-left p-3 font-semibold">Metric</th>
                   {[a, b, c].map((city, i) => (
                     <th key={city.slug} className={`text-center p-3 font-semibold ${COLORS[i]}`}>{city.name}</th>
@@ -318,53 +339,95 @@ function TripletPage({ cities }: { cities: [(typeof CITIES_SEED)[number], (typeo
               </thead>
               <tbody>
                 {[
-                  { label: "T2 rent / month", vals: [a, b, c].map((city) => { const h = getHousing(city.slug); return h?.avgRentT2 ? `€${h.avgRentT2}` : "—"; }) },
-                  { label: "Buy price / m²", vals: [a, b, c].map((city) => { const h = getHousing(city.slug); return h?.avgBuyPriceM2 ? `€${h.avgBuyPriceM2}` : "—"; }) },
-                ].map(({ label, vals }) => (
-                  <tr key={label} className="border-t border-[var(--border)]">
+                  { label: "Sunshine days/year", vals: [a, b, c].map((city) => city.sunshinedays ? `${Math.round(city.sunshinedays / 9.5)} d` : "—") },
+                  { label: "July avg °C", vals: [a, b, c].map((city) => city.avgTempJuly ? `${city.avgTempJuly}°` : "—") },
+                  { label: "January avg °C", vals: [a, b, c].map((city) => city.avgTempJanuary ? `${city.avgTempJanuary}°` : "—") },
+                ].map(({ label, vals }, ri) => (
+                  <tr key={label} className={`border-t border-[#E0E7FF] ${ri % 2 ? "bg-[#F8FAFF]" : ""}`}>
                     <td className="p-3 text-[var(--text-primary)] font-medium">{label}</td>
-                    {vals.map((v, i) => <td key={i} className="p-3 text-center font-mono-data">{v}</td>)}
+                    {vals.map((v, i) => <td key={i} className="p-3 text-center font-mono-data font-bold">{v}</td>)}
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-        </section>
-      )}
 
-      {/* Pair links */}
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6">
-        <h2 className="text-base font-semibold text-[var(--text-primary)] mb-3">Compare pairs</h2>
-        <div className="flex flex-wrap gap-2">
-          {[[a, b], [a, c], [b, c]].map(([x, y]) => {
-            const pairSlug = comparePairSlug(x.slug, y.slug);
-            if (!pairSlug) return null;
-            return (
-              <Link
-                key={`${x.slug}-${y.slug}`}
-                href={`/compare/${pairSlug}`}
-                className="rounded-full border border-[var(--border)] px-4 py-1.5 text-sm text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
-              >
-                {x.name} vs {y.name}
-              </Link>
-            );
-          })}
+          {([a, b, c].some((city) => getHousing(city.slug))) && (
+            <div className="overflow-x-auto rounded-2xl bg-white ring-1 ring-[#A5F3FC] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)]">
+              <h3 className="grad-head-0 px-5 py-2.5 text-sm font-bold uppercase tracking-widest">Housing</h3>
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[#EEF2FF] text-[#4338CA]">
+                    <th className="text-left p-3 font-semibold">Metric</th>
+                    {[a, b, c].map((city, i) => (
+                      <th key={city.slug} className={`text-center p-3 font-semibold ${COLORS[i]}`}>{city.name}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    { label: "T2 rent / month", vals: [a, b, c].map((city) => { const h = getHousing(city.slug); return h?.avgRentT2 ? `€${h.avgRentT2}` : "—"; }) },
+                    { label: "Buy price / m²", vals: [a, b, c].map((city) => { const h = getHousing(city.slug); return h?.avgBuyPriceM2 ? `€${h.avgBuyPriceM2}` : "—"; }) },
+                  ].map(({ label, vals }, ri) => (
+                    <tr key={label} className={`border-t border-[#E0E7FF] ${ri % 2 ? "bg-[#F8FAFF]" : ""}`}>
+                      <td className="p-3 text-[var(--text-primary)] font-medium">{label}</td>
+                      {vals.map((v, i) => <td key={i} className="p-3 text-center font-mono-data font-bold">{v}</td>)}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-6 flex flex-wrap gap-3">
-        {[a, b, c].map((city) => (
-          <Link
-            key={city.slug}
-            href={`/cities/${city.slug}`}
-            className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90"
-          >
-            {city.name} profile
-          </Link>
-        ))}
-        <Link href="/compare" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">
-          More comparisons
-        </Link>
+      {/* Pair links + profiles */}
+      <section className="band band-lilac py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <EmojiBadge emoji="🔁" tone="lilac" size="sm" />
+              <h2 className="text-xl sm:text-2xl font-bold">
+                <span className="gradient-text">Compare pairs</span>
+              </h2>
+            </div>
+            <div className="flex flex-wrap gap-2">
+              {[[a, b], [a, c], [b, c]].map(([x, y]) => {
+                const pairSlug = comparePairSlug(x.slug, y.slug);
+                if (!pairSlug) return null;
+                return (
+                  <Link
+                    key={`${x.slug}-${y.slug}`}
+                    href={`/compare/${pairSlug}`}
+                    className="rounded-full bg-white px-4 py-2 text-xs font-semibold text-[#4338CA] ring-1 ring-[#DDD6FE] hover:ring-[#4F46E5] hover:-translate-y-0.5 transition-all"
+                  >
+                    {x.name} <span className="text-[#BE185D]">vs</span> {y.name}
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+          <div className="flex flex-wrap gap-3">
+            {[a, b, c].map((city) => (
+              <Link
+                key={city.slug}
+                href={`/cities/${city.slug}`}
+                className="inline-flex items-center rounded-full grad-head-0 px-5 py-2.5 text-sm font-semibold shadow-sm hover:-translate-y-0.5 hover:shadow-md transition-all"
+              >
+                {city.name} profile
+              </Link>
+            ))}
+            <Link href="/compare" className="inline-flex items-center rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-[#4338CA] ring-1 ring-[#DDD6FE] hover:ring-[#4F46E5] hover:-translate-y-0.5 transition-all">
+              More comparisons
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10 sm:py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
+        </div>
       </section>
       <Footer />
     </main>
@@ -448,106 +511,154 @@ export default async function EnComparePair({ params }: Props) {
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 pt-16 pb-8">
-        <nav className="mb-6 text-sm text-[var(--text-secondary)]">
-          <Link href="/" className="hover:text-[var(--accent)]">Home</Link>
-          {" · "}
-          <Link href="/compare" className="hover:text-[var(--accent)]">Compare</Link>
-          {" · "}
-          <span>{a.name} vs {b.name}</span>
-        </nav>
-        <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight mb-3">
-          {a.name} vs {b.name}
-        </h1>
-        <p className="text-[var(--text-secondary)] text-lg">
-          {overallWinner
-            ? `On the overall score, ${overallWinner.name} comes out ahead — but the right answer depends on what you're optimising for. Here's the full breakdown.`
-            : `${a.name} and ${b.name} tie on the overall score. The decision comes down to which axes matter most to you.`}
-        </p>
-      </section>
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
-        <VsBattle a={a} b={b} locale="en" />
-      </section>
-
-      {/* Cross-link: 8-dimension synthesis (EN twin of the FR « Synthèse 8 axes ») */}
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 pb-2">
-        <Link
-          href={`/compare/${a.slug}-vs-${b.slug}/synthesis`}
-          className="block rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all p-5 group"
-        >
-          <div className="flex items-center justify-between gap-3">
-            <div className="min-w-0">
-              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                ✨ 8 dimensions compared — {a.name} vs {b.name}
-              </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Environment, healthcare, employment, quality of life, cycling, safety,
-                demographics and public services — a gap counts from 0.3 pts.
-              </div>
-            </div>
-            <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
+      {/* Header */}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10 sm:pb-12">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav aria-label="Breadcrumb" className="mb-4 text-xs text-[var(--text-tertiary)]">
+            <Link href="/" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Home</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <Link href="/compare" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Compare</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <span>{a.name} vs {b.name}</span>
+          </nav>
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <EmojiBadge emoji="⚔️" tone="indigo" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              2026 comparison · Head to head
+            </span>
           </div>
-        </Link>
+          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.08] mb-3">
+            <span className="gradient-text-anim pr-1">{a.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2.5 py-0.5 text-sm sm:text-base font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{b.name}</span>
+          </h1>
+          <p className="text-[var(--text-secondary)] text-base sm:text-lg max-w-3xl">
+            {overallWinner
+              ? `On the overall score, ${overallWinner.name} comes out ahead — but the right answer depends on what you're optimising for. Here's the full breakdown.`
+              : `${a.name} and ${b.name} tie on the overall score. The decision comes down to which axes matter most to you.`}
+          </p>
+        </div>
+      </section>
+
+      {/* Duel */}
+      <section className="band band-indigo py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-8">
+          <VsBattle a={a} b={b} locale="en" />
+
+          {/* Cross-link: 8-dimension synthesis (EN twin of the FR « Synthèse 8 axes ») */}
+          <Link
+            href={`/compare/${a.slug}-vs-${b.slug}/synthesis`}
+            className="block rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] hover:ring-[#4F46E5] hover:-translate-y-0.5 hover:shadow-lg transition-all p-5 group"
+          >
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex min-w-0 items-center gap-3">
+                <EmojiBadge emoji="✨" tone="pink" size="sm" />
+                <div className="min-w-0">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
+                    8 dimensions compared — {a.name} vs {b.name}
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                    Environment, healthcare, employment, quality of life, cycling, safety,
+                    demographics and public services — a gap counts from 0.3 pts.
+                  </div>
+                </div>
+              </div>
+              <span className="shrink-0 inline-flex h-8 w-8 items-center justify-center rounded-full grad-head-0 text-sm font-bold" aria-hidden>→</span>
+            </div>
+          </Link>
+        </div>
       </section>
 
       {(housingA || housingB) && (
-        <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
-          <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Housing</h2>
-          <div className="overflow-hidden rounded-2xl border border-[var(--border)]">
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="bg-[var(--bg-elevated)] text-[var(--text-secondary)]">
-                  <th className="text-left p-3 font-semibold">Metric</th>
-                  <th className="text-center p-3 font-semibold">{a.name}</th>
-                  <th className="text-center p-3 font-semibold">{b.name}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-t border-[var(--border)]">
-                  <td className="p-3 text-[var(--text-primary)] font-medium">T2 rent / month</td>
-                  <td className="p-3 text-center font-mono-data">{housingA ? `€${housingA.avgRentT2}` : "—"}</td>
-                  <td className="p-3 text-center font-mono-data">{housingB ? `€${housingB.avgRentT2}` : "—"}</td>
-                </tr>
-                <tr className="border-t border-[var(--border)]">
-                  <td className="p-3 text-[var(--text-primary)] font-medium">Buy price / m²</td>
-                  <td className="p-3 text-center font-mono-data">{housingA ? `€${housingA.avgBuyPriceM2}` : "—"}</td>
-                  <td className="p-3 text-center font-mono-data">{housingB ? `€${housingB.avgBuyPriceM2}` : "—"}</td>
-                </tr>
-              </tbody>
-            </table>
+        <section className="band band-sky py-10 sm:py-14">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6">
+            <div className="flex items-center gap-3 mb-6">
+              <EmojiBadge emoji="🏠" tone="sky" size="sm" />
+              <h2 className="text-2xl sm:text-3xl font-bold">
+                <span className="gradient-text">Housing</span>
+              </h2>
+            </div>
+            <div className="overflow-hidden rounded-2xl bg-white ring-1 ring-[#BAE6FD] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)]">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="bg-[#EEF2FF] text-[#4338CA]">
+                    <th className="text-left p-3 font-semibold">Metric</th>
+                    <th className="text-center p-3 font-semibold">{a.name}</th>
+                    <th className="text-center p-3 font-semibold text-[#BE185D]">{b.name}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr className="border-t border-[#E0E7FF]">
+                    <td className="p-3 text-[var(--text-primary)] font-medium">T2 rent / month</td>
+                    <td className="p-3 text-center font-mono-data font-bold">{housingA ? `€${housingA.avgRentT2}` : "—"}</td>
+                    <td className="p-3 text-center font-mono-data font-bold">{housingB ? `€${housingB.avgRentT2}` : "—"}</td>
+                  </tr>
+                  <tr className="border-t border-[#E0E7FF] bg-[#F8FAFF]">
+                    <td className="p-3 text-[var(--text-primary)] font-medium">Buy price / m²</td>
+                    <td className="p-3 text-center font-mono-data font-bold">{housingA ? `€${housingA.avgBuyPriceM2}` : "—"}</td>
+                    <td className="p-3 text-center font-mono-data font-bold">{housingB ? `€${housingB.avgBuyPriceM2}` : "—"}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </section>
       )}
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
-        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">Which one for your profile?</h2>
-        <div className="grid sm:grid-cols-2 gap-3">
-          {PROFILES.map((p) => {
-            const sa = profileScore(a, p.keys);
-            const sb = profileScore(b, p.keys);
-            const pick = sa === sb ? null : sa > sb ? a : b;
-            return (
-              <div key={p.label} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                <div className="flex items-center gap-2 mb-1">
-                  <span aria-hidden className="text-2xl">{p.emoji}</span>
-                  <h3 className="font-bold text-[var(--text-primary)]">{p.label}</h3>
+      <section className="band band-pink py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-6">
+            <EmojiBadge emoji="🧭" tone="pink" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Which one for your profile?</span>
+            </h2>
+          </div>
+          <div className="grid sm:grid-cols-2 gap-3 sm:gap-4">
+            {PROFILES.map((p) => {
+              const sa = profileScore(a, p.keys);
+              const sb = profileScore(b, p.keys);
+              const pick = sa === sb ? null : sa > sb ? a : b;
+              return (
+                <div key={p.label} className="rounded-2xl bg-white ring-1 ring-[#FBCFE8] shadow-[0_14px_34px_-24px_rgba(219,39,119,0.55)] p-5">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span aria-hidden className="text-2xl">{p.emoji}</span>
+                    <h3 className="font-bold text-[var(--text-primary)]">{p.label}</h3>
+                  </div>
+                  <p className="text-xs text-[var(--text-secondary)] mb-3">{p.desc}</p>
+                  {pick ? (
+                    <p className="flex flex-wrap items-center gap-1.5 text-sm text-[var(--text-primary)]">
+                      Better fit:{" "}
+                      <strong className={`rounded-full px-2.5 py-0.5 ${pick === a ? "bg-[#E0E7FF] text-[#4338CA]" : "bg-[#FCE7F3] text-[#BE185D]"}`}>{pick.name}</strong>
+                      <span className="text-xs text-[var(--text-tertiary)]">({Math.max(sa, sb).toFixed(1)}/10)</span>
+                    </p>
+                  ) : (
+                    <p className="text-sm text-[var(--text-primary)]">
+                      <span className="rounded-full bg-[#F1F0FF] px-2.5 py-0.5 text-[#4338CA]">Too close to call</span>{" "}
+                      — both score {sa.toFixed(1)}/10.
+                    </p>
+                  )}
                 </div>
-                <p className="text-xs text-[var(--text-secondary)] mb-2">{p.desc}</p>
-                <p className="text-sm text-[var(--text-primary)]">
-                  {pick ? <>Better fit: <strong>{pick.name}</strong> ({Math.max(sa, sb).toFixed(1)}/10)</> : <>Too close to call — both score {sa.toFixed(1)}/10.</>}
-                </p>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">
-        <div className="flex flex-wrap gap-3">
-          <Link href={`/cities/${a.slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">{a.name} profile</Link>
-          <Link href={`/cities/${b.slug}`} className="rounded-full bg-[var(--accent)] px-5 py-2.5 text-white font-semibold hover:opacity-90">{b.name} profile</Link>
-          <Link href="/compare" className="rounded-full border border-[var(--border)] px-5 py-2.5 font-semibold text-[var(--text-primary)] hover:bg-[var(--bg-elevated)]">More comparisons</Link>
+      <section className="band band-bold py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center space-y-4">
+          <p className="text-lg sm:text-xl font-semibold">Read the full profile of each city before you decide.</p>
+          <div className="flex flex-wrap gap-3 justify-center">
+            <Link href={`/cities/${a.slug}`} className="inline-flex items-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#4338CA] shadow-sm hover:-translate-y-0.5 hover:shadow-md transition-all">{a.name} profile</Link>
+            <Link href={`/cities/${b.slug}`} className="inline-flex items-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#BE185D] shadow-sm hover:-translate-y-0.5 hover:shadow-md transition-all">{b.name} profile</Link>
+            <Link href="/compare" className="inline-flex items-center rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/50 hover:bg-white/25 hover:-translate-y-0.5 transition-all">More comparisons</Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="band band-white py-10 sm:py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget locale="en" />
         </div>
       </section>
       <Footer />

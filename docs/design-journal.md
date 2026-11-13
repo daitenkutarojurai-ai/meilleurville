@@ -1546,3 +1546,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. EN `/compare/[pair]` (sections encore à la rotation automatique, CTA et liens à recolorer) + `TripletView` (branche 3 villes).
 2. `/comparer/[pair]/synthese` (FR + EN `synthesis`).
 3. `DepartementMap` (cadre, légende) puis page agenda.
+
+## 2026-11-13 ~16:00 UTC — EN `/compare/[pair]` (branche 2 villes + branche 3 villes)
+
+**Surface** : jumelle EN des pages duel, et les pages trio EN. Avant : hero blanc, tout en sections à rotation automatique sans titre illustré, tableaux gris à filet, villes trio en **bleu / violet / ambre** (violet et ambre réservés aux paliers), liens en boutons accent plats, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + fil d'Ariane indigo + `EmojiBadge` (⚔️ / 🥊) + pilule `grad-head-0`, noms en `gradient-text-anim` séparés par des pastilles « vs » `grad-head-5`. Duo : `VsBattle` + lien synthèse (carte blanche) en `band-indigo` ; logement en `band-sky` (tableau blanc, en-tête `#EEF2FF`) ; profils en `band-pink` (gagnant en pastille indigo/rose) ; liens fiches en `band-bold` ; `FeedbackWidget locale="en"` en `band-white`. Trio : villes en indigo / rose / cyan (`COLORS`, `HEAD`, `PILL`), cartes score à liseré dégradé + synthèse en `band-indigo`, tableau par critère en `band-sky` (lignes alternées), profils en `band-pink`, climat + logement en `band-aqua` (cartes à bandeau `grad-head-5` / `grad-head-0`), paires + fiches en `band-lilac`, feedback en `band-white`. Chiffres gardent les couleurs de palier. Données, JSON-LD inchangés ; seule copie ajoutée : l'accroche du `band-bold` duo.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` du fichier : 0 problème. Captures playwright `/en/compare/lyon-vs-grenoble` et `/en/compare/lyon-vs-marseille-vs-toulouse` (dev sert l'arbre `/en/` directement) 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. FR `TripletView` (branche 3 villes de `/comparer/[pair]`).
+2. `/comparer/[pair]/synthese` (FR + EN `synthesis`).
+3. `DepartementMap` (cadre, légende) puis page agenda.
