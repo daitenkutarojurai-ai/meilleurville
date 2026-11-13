@@ -31710,6 +31710,264 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-limoges-2026",
+    title: "Retiring in Limoges (2026): €600 Two-Bed, Easy Care, a Town That Is Shrinking",
+    metaTitle: "Retiring in Limoges 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Limoges: two-bed at €600, €1,600/m², healthcare access 7.9/10, three emergency departments. Real budget and the limits of a shrinking town.",
+    category: "moving",
+    emoji: "🏺",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Limoges is the cheapest town of this batch for a retiree: €600 for a two-bedroom and €1,600 a square metre, about €96,000 for 60 m² (our rent estimate), with healthcare access of 7.9/10 and three emergency departments in the town. Its retirement score is 6.2/10, in a 26-way tie, behind 260 other towns. The catch is demographic: 129,754 residents in 2022 (INSEE census) and 2.2% fewer than in 2016, a loss of 2,906 people. Whether a quiet, cheap town that is shrinking counts as an asset or a warning is for you to judge.",
+    sections: [
+      {
+        heading: "How much does a retiree's life cost in Limoges?",
+        body: "A single person renting a two-bedroom: rent €600 (our rent estimate), energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120, the last five lines being our own assumptions. Total: about €1,290 a month. A couple renting a three-bedroom at €800: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,830 a month. With an average pension of about €1,500 net (DREES, the French health statistics office), a single person keeps around €210 of margin, the most comfortable of this batch.",
+      },
+      {
+        heading: "What is healthcare access like in Limoges?",
+        body: "Our engine rates Limoges 7.9/10, where 10 means excellent access: an \"easy\" level (our health sheet). GP access measured by DREES is 4.82 consultations within reach per resident per year, against 3.72 nationally, with 166 private GPs, 54 pharmacies and three emergency departments recorded in the town (INSEE, BPE facilities database). A CHU (university hospital) site is in the town, so someone who develops a serious condition does not have to move to be followed.",
+      },
+      {
+        heading: "Limoges against Brive and Poitiers: where does the budget go furthest?",
+        body: "Brive-la-Gaillarde is slightly cheaper (€580 for a two-bed, €2,000/m²) but GP access falls to 3.13, barely above the national average, and 34.4% of its residents are 60 or over. Poitiers is dearer (€660 and €2,100/m²) with access of 4.73, close to Limoges. At €1,600, Limoges has the lowest square-metre price of the three: that is the one price argument that holds.",
+      },
+      {
+        heading: "A town that is losing residents: what it means for you",
+        body: "Limoges loses 0.37% of its population a year between 2016 and 2022, and 28% of residents are 60 or over, above the 26.2% median of the towns in our database (INSEE census, 2022). For a buyer this explains the low prices but also a slower resale. The median standard of living is €20,590 a year with a 24% poverty rate (INSEE, Filosofi 2021): the town is not rich, which shows in the neighbourhood shops outside the centre.",
+      },
+      {
+        heading: "Climate and surroundings: Limoges day to day",
+        body: "Limoges records 4.5 °C in January and 22 °C in July, with about 1,870 hours of sun a year: a temperate climate without the heatwaves of the south. The setting is one of porcelain and architecture: the Bénédictins railway station, built between 1924 and 1929 by Roger Gonthier and listed as a historic monument, the Saint-Étienne cathedral, begun in 1273, and the Évêché gardens overlooking the Vienne. Safety is 6.1/10 on our city sheet.",
+      },
+      {
+        heading: "Who Limoges suits, and who it does not",
+        body: "Limoges suits the retiree on a modest pension who wants a university hospital, rent under €600 and a climate without extremes. It suits less someone who wants a growing town, a coastline or a young crowd: the population is falling and the sea is far away.",
+      },
+    ],
+    relatedCities: ["limoges","brive-la-gaillarde","poitiers","angouleme"],
+    tags: ["retiring in Limoges 2026","Limousin expat retirement","Limoges retirement budget","cheap retirement France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-tours-2026",
+    title: "Retiring in Tours (2026): Loire by Bike, a University Hospital, €700 Two-Bed",
+    metaTitle: "Retiring in Tours 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Tours: two-bed at €700, €2,700/m², healthcare access 7.9/10, 23.5% aged 60+, 1,880 hours of sun. Monthly budget and limits.",
+    category: "moving",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "In Tours a retiree pays €700 for a two-bedroom and €2,700 a square metre (our rent estimate), about €162,000 for 60 m², for healthcare access of 7.9/10 and a retirement score of 5.8/10: a 15-way tie, behind 336 other towns. That is a notch below Limoges or Besançon in this batch, and it is the price of a growing town: 138,668 residents in 2022, 1.5% more than in 2016 (INSEE census). Tours is not the best-value retirement town; it is a lively one where you can grow old without changing your bearings.",
+    sections: [
+      {
+        heading: "What is a retiree's budget in Tours?",
+        body: "A single person renting a two-bedroom: rent €700, energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120 (rent from our estimate; the rest are our assumptions). Total: about €1,390 a month. A couple renting a three-bedroom at €940: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,970 a month. An average pension of about €1,500 net (DREES) leaves only €110 of margin for a single person, the thinnest of this batch.",
+      },
+      {
+        heading: "Healthcare in Tours: a university hospital and available GPs?",
+        body: "Yes: 7.9/10 in our engine, an \"easy\" level (our health sheet), with 4.88 GP consultations within reach per resident per year according to DREES (3.72 nationally), 152 private GPs, 48 pharmacies and one emergency department recorded in the town. A CHU (university hospital) site is in Tours. A single emergency department is fewer than Limoges has (three): check the address nearest your future home.",
+      },
+      {
+        heading: "Tours, Blois or Angers: which one?",
+        body: "Blois is cheaper (€610 for a two-bed, €2,100/m²) but GP access there is 3.35, barely above the national average, against 4.88 in Tours. Angers costs more (€750 and €3,000/m²) with access of 5.96: better, but €50 more in rent. Tours sits in the middle on price and ahead of Blois on care, which is its real argument.",
+      },
+      {
+        heading: "Daily life: the old town, the Loire, the gardens",
+        body: "Old Tours and place Plumereau, with its restored half-timbered houses, concentrate bars and terraces and are very busy in the evening: a retiree sensitive to noise will not look for a flat there. Tours is a stage on the Loire à Vélo cycle route and the centre is flat, so it is easy to cycle. The Prébendes d'Oé garden is a few minutes from the historic centre. Safety is 5.5/10 on our city sheet and the median standard of living is €21,250 a year with a 21% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Climate: 5 °C in winter, 22.6 °C in summer",
+        body: "Tours records 5 °C in January and 22.6 °C in July, with about 1,880 hours of sun a year: a mild climate without extremes, sunnier than Brest, Amiens or Metz. The share aged 60 or over is 23.5%, below the 26.2% median (INSEE census, 2022): the town stays student and working-age, not a town of retirees.",
+      },
+      {
+        heading: "Verdict: who Tours suits",
+        body: "Tours suits the retiree who keeps a budget around €1,400 and wants a university hospital, cycling and a cultural life without leaving the Loire. It suits less a tight pension: at €700 for a two-bed, the margin is €110 a month for a single person.",
+      },
+    ],
+    relatedCities: ["tours","blois","angers","orleans"],
+    tags: ["retiring in Tours 2026","Loire Valley expat retirement","Tours retirement budget","retire near Loire France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-amiens-2026",
+    title: "Retiring in Amiens (2026): The Best Healthcare Access of the Batch, the Greyest Sky",
+    metaTitle: "Retiring in Amiens 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Amiens: two-bed at €680, €2,200/m², healthcare access 8.1/10, 1,570 hours of sun, January at 3.2 °C. Budget and limits.",
+    category: "moving",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Amiens has the best healthcare access of this batch (8.1/10 in our engine, 5.95 GP consultations within reach per resident per year against 3.72 nationally) for a two-bedroom at €680 and €2,200 a square metre (our rent estimate). Its retirement score is only average: 5.2/10, a 13-way tie, behind 457 other towns, held back by safety (4.5/10) and a dim sky of about 1,570 hours of sun a year. Amiens is for the retiree who puts health before sunshine.",
+    sections: [
+      {
+        heading: "Does Amiens really have good healthcare access?",
+        body: "Yes, it is its strong point: 8.1/10, an \"easy\" level (our health sheet), with 176 private GPs, 46 pharmacies and two emergency departments in the town (INSEE, BPE facilities database) and a DREES accessibility figure of 5.95, the highest of this batch. A CHU (university hospital) site is in the town. For a retiree expecting regular consultations, that is a better figure than Tours (4.88) or Besançon (5.10).",
+      },
+      {
+        heading: "How much does a retiree cost in Amiens?",
+        body: "A single person renting a two-bedroom at €680 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and sundries €120 (our assumptions), about €1,370 a month. A couple in a three-bedroom at €900: about €1,930 a month with €130 of energy, €500 of groceries, €240 of mutuelles, €60 of transport and €100 of leisure. The margin on an average pension of €1,500 net (DREES) is €130 for a single person. Buying: about €132,000 for 60 m².",
+      },
+      {
+        heading: "Amiens, Arras or Rouen?",
+        body: "Arras is clearly cheaper (€540 for a two-bed, €1,800/m²) with GP access of 4.19, decent without matching Amiens. Rouen costs €720 and €2,600/m² for access of 5.41. Of the three, Amiens has the most doctors and sits in the middle on price: if you can stand €140 more in rent than Arras, you gain on care.",
+      },
+      {
+        heading: "A grey sky and a cold winter: the climate balance",
+        body: "Amiens records 3.2 °C in January and 19.8 °C in July, with about 1,570 hours of sun a year: the lowest figure of this batch, with Le Havre. Summers are cool, which avoids heatwaves, but the winter is long. Plan a winter stay before buying, and a realistic heating budget.",
+      },
+      {
+        heading: "Daily life: the cathedral, Saint-Leu, the hortillonnages",
+        body: "Notre-Dame cathedral, a UNESCO World Heritage site since 1981, is the town's landmark. The Saint-Leu district, a former craftsmen's quarter on the water, is now lively with restaurants, so noisy in the evening. The hortillonnages, market gardens on the water, are about a fifteen-minute walk from the cathedral. Safety is 4.5/10 on our city sheet, and the median standard of living is €19,650 a year with a 26% poverty rate (INSEE, Filosofi 2021), the lowest of this batch.",
+      },
+      {
+        heading: "Who Amiens suits, and who it does not",
+        body: "Amiens suits the retiree who prioritises medical follow-up, rent under €700 and a human-sized town (134,780 residents, up 0.8% since 2016, 20.7% aged 60 or over, INSEE census 2022). It suits less someone who wants sun or a very safe town: the safety score is low.",
+      },
+    ],
+    relatedCities: ["amiens","arras","saint-quentin","rouen"],
+    tags: ["retiring in Amiens 2026","Hauts-de-France expat retirement","Amiens retirement budget","retire in northern France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-metz-2026",
+    title: "Retiring in Metz (2026): A Growing Town, but the University Hospital Is in Nancy",
+    metaTitle: "Retiring in Metz 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Metz: two-bed at €680, €2,300/m², healthcare access 7.2/10, population up 3.2% since 2016, January at 2.7 °C. Budget and limits.",
+    category: "moving",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Metz is growing faster than the other towns of this batch (3.2% more residents between 2016 and 2022, 3,805 people, for 121,695 in all, INSEE census) and offers a two-bedroom at €680 and a square metre at €2,300 (our rent estimate). The flip side: healthcare access is 7.2/10, the lowest of the five batch towns with a university hospital, because our list puts the nearest CHU site in Nancy, 47.5 km away as the crow flies. Retirement score: 5.7/10, a 23-way tie, behind 351 other towns.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Metz?",
+        body: "7.2/10 in our engine, an \"easy\" level (our health sheet), with 5.26 GP consultations within reach per resident per year according to DREES (3.72 nationally), 142 private GPs, 39 pharmacies and two emergency departments in the town. The score is lower than Limoges or Tours (7.9) because our list places no CHU (university hospital) site in the town: the nearest is Nancy, 47.5 km as the crow flies, which is not a travel time. For a common condition Metz is enough; for specialist follow-up, check the hospital circuit of the area.",
+      },
+      {
+        heading: "How much does a retiree cost in Metz?",
+        body: "A single person renting a two-bedroom at €680 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure €120 (assumptions), about €1,370 a month. A couple in a three-bedroom at €910: about €1,940 a month. Margin on an average pension of about €1,500 net (DREES): €130 for a single person. Buying, about €138,000 for 60 m².",
+      },
+      {
+        heading: "Metz, Nancy or Thionville: which is better value?",
+        body: "Nancy is slightly dearer (€710 for a two-bed, €2,400/m²) but has a CHU site and GP access of 5.10. Thionville costs €660 and €2,400/m², with access of 4.25 and 25.9% aged 60 or over. Metz is the cheapest of the three per square metre (€2,300) and the best on GPs: its weakness remains the university hospital, on Nancy's side.",
+      },
+      {
+        heading: "A cold winter: 2.7 °C in January",
+        body: "Metz records 2.7 °C in January and 21.2 °C in July, with about 1,640 hours of sun a year. The climate is continental: cold winters, mild summers. This is not a sun-belt retirement town, and it is worth testing with a January stay before any purchase.",
+      },
+      {
+        heading: "Daily life: the cathedral, Pompidou, green space",
+        body: "Saint-Étienne cathedral, built between 1220 and 1522, with its 42-metre vault, dominates the centre. The Centre Pompidou-Metz, opened in May 2010, gives the town a major cultural venue. The 22.9% aged 60 or over are below the 26.2% median: Metz is not a town of retirees. Safety is 5.3/10 on our city sheet, and the median standard of living is €20,940 a year with a 24% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Who Metz suits, and who it does not",
+        body: "Metz suits the culture-minded retiree who accepts cold winters and a university hospital in Nancy, and who wants a growing town and a budget around €1,370. It suits less someone expecting heavy hospital follow-up, or wanting sun.",
+      },
+    ],
+    relatedCities: ["metz","nancy","thionville"],
+    tags: ["retiring in Metz 2026","Lorraine expat retirement","Metz retirement budget","retire in eastern France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-besancon-2026",
+    title: "Retiring in Besançon (2026): 6.3/10, the Best Score of the Batch, with a 2.1 °C Winter",
+    metaTitle: "Retiring in Besançon 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Besançon: two-bed at €680, €2,300/m², healthcare access 7.9/10, population up 3.1%, January at 2.1 °C. Budget and limits.",
+    category: "moving",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Besançon scores 6.3/10 for retirement, the best of this batch: a 16-way tie, behind 244 other towns. It owes that to healthcare access of 7.9/10 with a CHU (university hospital) site in the town, to population growth of 3.1% between 2016 and 2022 (120,057 residents, INSEE census) and to its natural setting. A two-bedroom is €680 and a square metre €2,300 (our rent estimate), about €138,000 for 60 m². The price to pay is a hard winter: 2.1 °C in January, the lowest of the batch.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Besançon?",
+        body: "7.9/10, an \"easy\" level (our health sheet): 5.10 GP consultations within reach per resident per year according to DREES, against 3.72 nationally, 155 private GPs, 40 pharmacies and one emergency department recorded in the town (INSEE, BPE facilities database). A CHU site is in Besançon: that is what separates it from Metz, further from its university hospital.",
+      },
+      {
+        heading: "What monthly budget for a retiree in Besançon?",
+        body: "A single person renting a two-bedroom at €680 (our rent estimate): energy €100 (raise it in a cold region), groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure €120 (assumptions), about €1,370 a month. A couple in a three-bedroom at €900: about €1,930 a month. Margin on an average pension of about €1,500 net (DREES): €130 for a single person.",
+      },
+      {
+        heading: "Besançon against Dijon and Belfort",
+        body: "Dijon costs €720 for a two-bed and €2,600/m² for access of 4.54 and 22.9% aged 60 or over. Belfort is much cheaper (€520 and €1,550/m²) but its GP access is 3.19, barely above the national average. Besançon sits between: €40 cheaper than Dijon in rent, €300 less per square metre, with better GP access (5.10) than both.",
+      },
+      {
+        heading: "The Doubs loop: setting and heritage",
+        body: "Besançon's old town is wrapped in a loop of the Doubs, closed by the citadel hill. Vauban's citadel, with Fort Griffon and the town ramparts, has been a UNESCO site since 7 July 2008. The 23.5% aged 60 or over are below the 26.2% median (INSEE census, 2022): the town is as much student as retired. Safety is 5.7/10 on our city sheet, and the median standard of living is €20,680 a year with a 23% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Climate: the weak point",
+        body: "Besançon records 2.1 °C in January and 21.5 °C in July, with about 1,780 hours of sun a year. Winter is colder than in Metz (2.7 °C) and Tours (5 °C): allow for heating and snow clearing, especially if you aim at a home on the heights. Sunshine is decent, above Amiens or Metz.",
+      },
+      {
+        heading: "Who Besançon suits, and who it does not",
+        body: "Besançon suits the walking or cycling retiree who wants a university hospital, nature around and a budget near €1,370. It suits less someone who struggles with cold or slopes, or who expects a comfortable margin: €130 a month on an average pension.",
+      },
+    ],
+    relatedCities: ["besancon","dijon","belfort"],
+    tags: ["retiring in Besançon 2026","Franche-Comté expat retirement","Besançon retirement budget","retire in eastern France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-le-havre-2026",
+    title: "Retiring in Le Havre (2026): €650 Two-Bed and the Sea, but the University Hospital Is in Caen",
+    metaTitle: "Retiring in Le Havre 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Le Havre: two-bed at €650, €2,000/m², healthcare access 6.4/10, 26.6% aged 60+, 1,590 hours of sun. Budget and limits.",
+    category: "moving",
+    emoji: "🚢",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Le Havre offers the sea and a two-bedroom at €650 (€2,000 a square metre, about €120,000 for 60 m², our rent estimate) in the largest town of this batch: 166,462 residents in 2022 (INSEE census). Its healthcare access is the weakest of the batch, 6.4/10, a \"decent\" level, because the nearest CHU (university hospital) is in Caen, 48.9 km away as the crow flies. Retirement score: 5.3/10, an 11-way tie, behind 446 other towns. The town has lost 2.3% of its residents since 2016.",
+    sections: [
+      {
+        heading: "What is healthcare access like in Le Havre?",
+        body: "6.4/10 in our engine, a \"decent\" level (our health sheet): DREES GP accessibility is 3.71 consultations per resident per year, the national average (3.72), with 153 private GPs, 45 pharmacies and two emergency departments in the town (INSEE, BPE facilities database). No CHU site is in Le Havre in our list; the nearest is Caen, 48.9 km as the crow flies, and Rouen has GP access of 5.41. That is the real limit of the town for a retiree.",
+      },
+      {
+        heading: "How much does a retiree cost in Le Havre?",
+        body: "A single person renting a two-bedroom at €650 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure €120 (assumptions), about €1,340 a month. A couple renting a three-bedroom at €870: about €1,900 a month. Margin on an average pension of about €1,500 net (DREES): €160 for a single person.",
+      },
+      {
+        heading: "Le Havre or Rouen, Caen, Dieppe?",
+        body: "Rouen costs €720 for a two-bed and €2,600/m², Caen €700 and €2,500/m² with GP access of 5.52: within €20 of rent, Le Havre is €500 to €600 a square metre cheaper, but 1.8 points of DREES access behind. Dieppe is cheaper (€610 and €1,800/m²) with access of 3.54, and 37.6% aged 60 or over: an already very old town. In Le Havre, 26.6% are 60 or over, above the 26.2% median.",
+      },
+      {
+        heading: "A UNESCO centre, a sea without sun",
+        body: "The centre rebuilt by Auguste Perret between 1945 and 1964 has been a UNESCO site since 15 July 2005. The climate is oceanic: 4.8 °C in January and 19.5 °C in July, with about 1,590 hours of sun a year: mild in winter, cool in summer, no heatwaves. Safety is 4.5/10 on our city sheet, and the median standard of living is €20,180 a year with a 23% poverty rate (INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "A shrinking town: 2.3% fewer residents",
+        body: "Le Havre has lost 0.38% of its residents a year since 2016, or 3,890 people. As in Limoges, that pulls prices down, but Le Havre keeps the sea and a port. The gap with Metz or Besançon, which grow by more than 3%, is clear: a retiree planning to sell in ten years should factor it in.",
+      },
+      {
+        heading: "Who Le Havre suits, and who it does not",
+        body: "Le Havre suits the independent retiree who wants the sea and rent at €650, and accepts a university hospital in Caen for heavy care. It suits less someone whose health needs regular specialist follow-up, or who wants sun.",
+      },
+    ],
+    relatedCities: ["le-havre","rouen","caen","dieppe"],
+    tags: ["retiring in Le Havre 2026","Normandy expat retirement","Le Havre retirement budget","seaside retirement France","expat retirement"],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",

@@ -7417,6 +7417,36 @@
       "emoji": "⚓"
     },
     {
+      "slug": "retiring-in-limoges-2026",
+      "title": "Retiring in Limoges (2026): €600 Two-Bed, Easy Care, a Town That Is Shrinking",
+      "emoji": "🏺"
+    },
+    {
+      "slug": "retiring-in-tours-2026",
+      "title": "Retiring in Tours (2026): Loire by Bike, a University Hospital, €700 Two-Bed",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "retiring-in-amiens-2026",
+      "title": "Retiring in Amiens (2026): The Best Healthcare Access of the Batch, the Greyest Sky",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "retiring-in-metz-2026",
+      "title": "Retiring in Metz (2026): A Growing Town, but the University Hospital Is in Nancy",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "retiring-in-besancon-2026",
+      "title": "Retiring in Besançon (2026): 6.3/10, the Best Score of the Batch, with a 2.1 °C Winter",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "retiring-in-le-havre-2026",
+      "title": "Retiring in Le Havre (2026): €650 Two-Bed and the Sea, but the University Hospital Is in Caen",
+      "emoji": "🚢"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -10909,6 +10939,11 @@
       "count": 67
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 63
+    },
+    {
       "slug": "french-school-system",
       "label": "french school system",
       "count": 63
@@ -10941,11 +10976,6 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 57
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
       "count": 57
     },
     {
