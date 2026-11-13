@@ -44486,6 +44486,282 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Brest 2026","prendre sa retraite à Brest","retraite Finistère","budget retraité Brest","retraite Bretagne"],
   },
   {
+    slug: "retraite-a-limoges-2026",
+    title: "Retraite à Limoges en 2026 : T2 à 600 €, soins faciles, mais une ville qui se vide",
+    metaTitle: "Retraite à Limoges 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Limoges en 2026 : T2 à 600 €, m² à 1 600 €, accès aux soins 7,9/10, 3 services d'urgences. Budget réel et limites d'une ville qui perd des habitants.",
+    category: "lifestyle",
+    emoji: "🏺",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro: "Limoges est la ville la moins chère de ce lot pour un retraité : 600 € le deux-pièces et 1 600 € le mètre carré, soit environ 96 000 € pour 60 m² (source : notre estimation des loyers), avec un accès aux soins de 7,9/10 et trois services d'urgences dans la commune. Son score retraite est de 6,2/10, dans un palier de 26 villes à égalité, derrière 260 autres. La contrepartie est démographique : 129 754 habitants en 2022 (source : Insee, recensement 2022) et 2,2 % de population en moins entre 2016 et 2022, soit 2 906 personnes. À vous de voir si une ville calme et bon marché, qui rétrécit, est un atout ou un avertissement.",
+    sections: [
+      {
+        heading: "Combien coûte la vie d'un retraité à Limoges ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 600 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 290 € par mois. Couple locataire d'un trois-pièces à 800 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 830 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 210 € de marge, la plus confortable de ce lot.",
+      },
+      {
+        heading: "Quel accès aux soins à Limoges ?",
+        body: "Notre moteur place Limoges à 7,9/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 4,82 consultations par an et par habitant, contre 3,72 en moyenne nationale, avec 166 généralistes libéraux, 54 pharmacies et trois services d'urgences recensés dans la commune (Insee, BPE). Un site de CHU est dans la ville : un retraité qui développe une pathologie lourde n'a pas à changer de ville pour être suivi.",
+      },
+      {
+        heading: "Limoges face à Brive et Poitiers : où le budget va-t-il le plus loin ?",
+        body: "Brive-la-Gaillarde est un peu moins chère (580 € le T2, 2 000 €/m²) mais son accès aux généralistes tombe à 3,13, à peine au-dessus de la moyenne nationale, et 34,4 % de ses habitants ont 60 ans ou plus. Poitiers est plus chère (660 € le T2, 2 100 €/m²) avec un accès de 4,73, proche de celui de Limoges. Le mètre carré de Limoges, à 1 600 €, est le plus bas de ces trois villes : c'est le seul argument de prix qui tient.",
+      },
+      {
+        heading: "Une ville qui perd des habitants : ce que ça change pour vous",
+        body: "Limoges perd 0,37 % de population par an entre 2016 et 2022, et 28 % de ses habitants ont 60 ans et plus, au-dessus de la médiane de 26,2 % des villes de notre base (source : Insee, recensement 2022). Pour un acheteur, cela explique le prix bas, mais aussi un risque de revente plus lent. Le niveau de vie médian est de 20 590 € par an avec 24 % de pauvreté (source : Insee, Filosofi 2021) : la ville n'est pas riche, ce qui se voit dans l'offre de commerces de proximité hors du centre.",
+      },
+      {
+        heading: "Climat et cadre de vie : Limoges au quotidien",
+        body: "Limoges affiche 4,5 °C en janvier et 22 °C en juillet, avec environ 1 870 heures de soleil par an : un climat tempéré, sans les canicules du Sud. Le cadre est celui d'une ville de porcelaine et d'architecture : la gare des Bénédictins, construite entre 1924 et 1929 par Roger Gonthier et classée monument historique, la cathédrale Saint-Étienne, commencée en 1273, et les jardins de l'Évêché qui surplombent la Vienne. La sécurité est à 6,1/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Limoges fonctionne, et pour qui non",
+        body: "Limoges convient au retraité à petite pension qui veut un hôpital universitaire, un loyer sous 600 € et un climat sans excès. Elle convient moins à celui qui cherche une ville en croissance, du littoral ou une ville jeune : la population baisse et la mer est loin.",
+      },
+    ],
+    relatedCities: ["limoges","brive-la-gaillarde","poitiers","angouleme"],
+    relatedGuides: [
+      "vivre-a-limoges-2026",
+      "acheter-a-limoges-quel-quartier-budget-2026",
+      "retraite-a-tulle-2026",
+      "retraite-a-angers-2026",
+    ],
+    tags: ["retraite Limoges 2026","prendre sa retraite à Limoges","retraite Haute-Vienne","budget retraité Limoges","retraite Limousin"],
+  },
+  {
+    slug: "retraite-a-tours-2026",
+    title: "Retraite à Tours en 2026 : la Loire à vélo, un CHU, et 700 € le T2",
+    metaTitle: "Retraite à Tours 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Tours en 2026 : T2 à 700 €, m² à 2 700 €, accès aux soins 7,9/10, 23,5 % de 60 ans et plus, 1 880 h de soleil. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro: "À Tours, un retraité paie 700 € un deux-pièces et 2 700 € le mètre carré (source : notre estimation des loyers), soit environ 162 000 € pour 60 m², pour un accès aux soins de 7,9/10 et un score retraite de 5,8/10 : un palier de 15 villes à égalité, derrière 336 autres. C'est un cran sous Limoges ou Besançon dans ce lot, et c'est le prix d'une ville en croissance : 138 668 habitants en 2022 et 1,5 % de plus qu'en 2016 (source : Insee, recensement 2022). Tours n'est pas la ville de retraite la plus avantageuse, c'est une ville vivante où l'on peut vieillir sans changer de repères.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Tours ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 700 €, énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (loyer : notre estimation ; le reste, nos hypothèses). Total : environ 1 390 € par mois. Couple locataire d'un trois-pièces à 940 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 970 € par mois. Une pension moyenne d'environ 1 500 € nets (source : DREES) ne laisse que 110 € de marge à une personne seule : la plus mince de ce lot.",
+      },
+      {
+        heading: "Les soins à Tours : un CHU et des généralistes disponibles ?",
+        body: "Oui : 7,9/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec 4,88 consultations de généraliste accessibles par an et par habitant selon la DREES (3,72 en moyenne nationale), 152 généralistes libéraux, 48 pharmacies et un service d'urgences recensés dans la commune. Un site de CHU est à Tours. Un seul service d'urgences est un chiffre plus bas que Limoges (trois) : vérifiez l'adresse la plus proche de votre futur logement.",
+      },
+      {
+        heading: "Tours ou Blois, Angers : lequel choisir ?",
+        body: "Blois est moins chère (610 € le T2, 2 100 €/m²) mais l'accès aux généralistes y est de 3,35, à peine au-dessus de la moyenne nationale, contre 4,88 à Tours. Angers coûte plus (750 € le T2, 3 000 €/m²) avec un accès de 5,96 : meilleur, mais 50 € de loyer en plus. Tours se place au milieu sur le prix et devant Blois sur les soins, ce qui est son vrai argument.",
+      },
+      {
+        heading: "Le quotidien : vieux Tours, Loire, jardins",
+        body: "Le Vieux Tours et la place Plumereau, avec ses maisons à pans de bois restaurées, concentrent bars et terrasses, très animés en soirée : un retraité sensible au bruit évitera d'y chercher un logement. Tours est une étape de la Loire à Vélo, et le centre est plat, donc cyclable. Le jardin des Prébendes d'Oé est à quelques minutes du centre historique. La sécurité est à 5,5/10 sur notre fiche ville et le niveau de vie médian de 21 250 € par an, avec 21 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Climat : 5 °C l'hiver, 22,6 °C l'été",
+        body: "Tours affiche 5 °C en janvier et 22,6 °C en juillet, avec environ 1 880 heures de soleil par an : un climat doux et sans extrême, plus ensoleillé que Brest, Amiens ou Metz. La part de 60 ans et plus est de 23,5 %, sous la médiane de 26,2 % (source : Insee, recensement 2022) : la ville reste étudiante et active, pas une ville de retraités.",
+      },
+      {
+        heading: "Verdict : pour qui Tours fonctionne",
+        body: "Tours convient au retraité qui garde un budget autour de 1 400 €, veut un CHU, des déplacements à vélo et une vie culturelle sans quitter la Loire. Elle convient moins à une pension serrée : à 700 € le T2, la marge est de 110 € par mois pour une personne seule.",
+      },
+    ],
+    relatedCities: ["tours","blois","angers","orleans"],
+    relatedGuides: [
+      "vivre-a-tours-2026",
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "retraite-a-angers-2026",
+      "retraite-a-vendome-2026",
+    ],
+    tags: ["retraite Tours 2026","prendre sa retraite à Tours","retraite Indre-et-Loire","budget retraité Tours","retraite Val de Loire"],
+  },
+  {
+    slug: "retraite-a-amiens-2026",
+    title: "Retraite à Amiens en 2026 : le meilleur accès aux soins du lot, le ciel le plus gris",
+    metaTitle: "Retraite à Amiens 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Amiens en 2026 : T2 à 680 €, m² à 2 200 €, accès aux soins 8,1/10, 1 570 h de soleil, janvier à 3,2 °C. Budget et limites.",
+    category: "lifestyle",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro: "Amiens a le meilleur accès aux soins de ce lot (8,1/10 dans notre moteur, 5,95 consultations de généraliste accessibles par an et par habitant, contre 3,72 en moyenne nationale) pour un deux-pièces à 680 € et un mètre carré à 2 200 € (source : notre estimation des loyers). Son score retraite reste moyen : 5,2/10, un palier de 13 villes à égalité, derrière 457 autres, pénalisé par la sécurité (4,5/10) et un ciel peu ensoleillé : environ 1 570 heures par an. Amiens s'adresse au retraité qui met la santé avant le soleil.",
+    sections: [
+      {
+        heading: "Amiens a-t-elle vraiment un bon accès aux soins ?",
+        body: "Oui, c'est son point fort : 8,1/10, niveau « facile » (source : notre fiche santé), avec 176 généralistes libéraux, 46 pharmacies et deux services d'urgences dans la commune (Insee, BPE) et une accessibilité DREES de 5,95, la plus haute de ce lot. Un site de CHU est dans la ville. Pour un retraité qui anticipe des consultations régulières, c'est un meilleur chiffre que Tours (4,88) ou Besançon (5,10).",
+      },
+      {
+        heading: "Combien coûte un retraité à Amiens ?",
+        body: "Personne seule locataire d'un deux-pièces à 680 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses de notre part), soit environ 1 370 € par mois. Couple dans un trois-pièces à 900 € : environ 1 930 € par mois avec 130 € d'énergie, 500 € de courses, 240 € de mutuelles, 60 € de transports et 100 € de loisirs. La marge d'une pension moyenne de 1 500 € nets (source : DREES) est de 130 € pour une personne seule. Achat : environ 132 000 € pour 60 m².",
+      },
+      {
+        heading: "Amiens, Arras ou Rouen ?",
+        body: "Arras est nettement moins chère (540 € le T2, 1 800 €/m²) avec un accès aux généralistes de 4,19, correct sans égaler Amiens. Rouen coûte 720 € le T2 et 2 600 €/m² pour un accès de 5,41. Entre les trois, Amiens est la plus dense en médecins et se glisse au milieu pour le prix : si vous pouvez supporter 140 € de loyer en plus qu'Arras, vous gagnez en soins.",
+      },
+      {
+        heading: "Un ciel gris et un hiver froid : le bilan climatique",
+        body: "Amiens affiche 3,2 °C en janvier et 19,8 °C en juillet, avec environ 1 570 heures de soleil par an : le chiffre le plus bas de ce lot avec Le Havre. Les étés sont frais, ce qui évite les canicules, mais l'hiver est long. Prévoyez un séjour hivernal avant d'acheter, et un budget chauffage réaliste.",
+      },
+      {
+        heading: "Vie quotidienne : cathédrale, Saint-Leu, hortillonnages",
+        body: "La cathédrale Notre-Dame, inscrite au patrimoine mondial de l'UNESCO depuis 1981, est le repère de la ville. Le quartier Saint-Leu, ancien quartier d'artisans au bord de l'eau, est aujourd'hui animé par ses restaurants, donc bruyant le soir. Les hortillonnages, jardins maraîchers sur l'eau, sont à environ quinze minutes à pied de la cathédrale. La sécurité est à 4,5/10 sur notre fiche ville, et le niveau de vie médian de 19 650 € par an avec 26 % de pauvreté (source : Insee, Filosofi 2021), le plus bas de ce lot.",
+      },
+      {
+        heading: "Pour qui Amiens fonctionne, et pour qui non",
+        body: "Amiens convient au retraité qui privilégie le suivi médical, un loyer sous 700 € et une ville à taille humaine (134 780 habitants, +0,8 % depuis 2016, 20,7 % de 60 ans et plus, source : Insee, recensement 2022). Elle convient moins à celui qui veut du soleil ou une ville très sûre : la note de sécurité est basse.",
+      },
+    ],
+    relatedCities: ["amiens","arras","saint-quentin","rouen"],
+    relatedGuides: [
+      "vivre-a-amiens-2026",
+      "acheter-a-amiens-quel-quartier-budget-2026",
+      "retraite-a-reims-2026",
+      "retraite-a-brest-2026",
+    ],
+    tags: ["retraite Amiens 2026","prendre sa retraite à Amiens","retraite Somme","budget retraité Amiens","retraite Hauts-de-France"],
+  },
+  {
+    slug: "retraite-a-metz-2026",
+    title: "Retraite à Metz en 2026 : une ville qui gagne des habitants, mais le CHU est à Nancy",
+    metaTitle: "Retraite à Metz 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Metz en 2026 : T2 à 680 €, m² à 2 300 €, accès aux soins 7,2/10, +3,2 % d'habitants depuis 2016, janvier à 2,7 °C. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🎨",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro: "Metz croît plus vite que les autres villes de ce lot (+3,2 % d'habitants entre 2016 et 2022, soit 3 805 personnes, pour 121 695 habitants, source : Insee, recensement 2022) et offre un deux-pièces à 680 € et un mètre carré à 2 300 € (source : notre estimation des loyers). Le revers : son accès aux soins est de 7,2/10, le plus bas des cinq villes à CHU de ce lot, car notre liste place le site de CHU le plus proche à Nancy, à 47,5 km à vol d'oiseau. Score retraite : 5,7/10, un palier de 23 villes à égalité, derrière 351 autres.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Metz ?",
+        body: "7,2/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec 5,26 consultations de généraliste accessibles par an et par habitant selon la DREES (3,72 en moyenne nationale), 142 généralistes libéraux, 39 pharmacies et deux services d'urgences dans la commune. La note est plus basse qu'à Limoges ou Tours (7,9) parce que notre liste ne place aucun site de CHU dans la commune : le plus proche est celui de Nancy, à 47,5 km à vol d'oiseau, soit pas un temps de trajet. Pour une pathologie courante, Metz suffit ; pour un suivi spécialisé, vérifiez le circuit hospitalier de la métropole.",
+      },
+      {
+        heading: "Combien coûte un retraité à Metz ?",
+        body: "Personne seule locataire d'un deux-pièces à 680 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs 120 € (hypothèses), soit environ 1 370 € par mois. Couple dans un trois-pièces à 910 € : environ 1 940 € par mois. Marge d'une pension moyenne d'environ 1 500 € nets (source : DREES) : 130 € pour une personne seule. À l'achat, environ 138 000 € pour 60 m².",
+      },
+      {
+        heading: "Metz ou Nancy, Thionville : lequel est le plus avantageux ?",
+        body: "Nancy est un peu plus chère (710 € le T2, 2 400 €/m²) mais abrite un site de CHU et son accès aux généralistes est de 5,10. Thionville coûte 660 € le T2 et 2 400 €/m², avec un accès de 4,25 et 25,9 % de 60 ans et plus. Metz est la moins chère des trois au mètre carré (2 300 €) et la meilleure en généralistes : sa faiblesse reste l'hôpital universitaire, côté Nancy.",
+      },
+      {
+        heading: "Un hiver froid : 2,7 °C en janvier",
+        body: "Metz affiche 2,7 °C en janvier et 21,2 °C en juillet, avec environ 1 640 heures de soleil par an. Le climat est continental : hivers froids, étés doux. Ce n'est pas une ville de retraite au soleil, et c'est un point à éprouver par un séjour en janvier avant tout achat.",
+      },
+      {
+        heading: "Vie quotidienne : cathédrale, Pompidou, vert",
+        body: "La cathédrale Saint-Étienne, construite entre 1220 et 1522, et sa voûte de 42 mètres dominent le centre. Le Centre Pompidou-Metz, ouvert en mai 2010, donne à la ville un équipement culturel d'envergure. Les 22,9 % de 60 ans et plus sont sous la médiane de 26,2 % : Metz n'est pas une ville de retraités. La sécurité est à 5,3/10 sur notre fiche ville, et le niveau de vie médian de 20 940 € par an avec 24 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Pour qui Metz fonctionne, et pour qui non",
+        body: "Metz convient au retraité curieux de culture, qui accepte des hivers froids et un CHU à Nancy, et qui veut une ville en croissance et un budget autour de 1 370 €. Elle convient moins à celui qui anticipe un suivi hospitalier lourd ou qui veut du soleil.",
+      },
+    ],
+    relatedCities: ["metz","nancy","thionville"],
+    relatedGuides: [
+      "vivre-a-metz-2026",
+      "acheter-a-metz-quel-quartier-budget-2026",
+      "retraite-a-reims-2026",
+      "retraite-a-dijon-2026",
+    ],
+    tags: ["retraite Metz 2026","prendre sa retraite à Metz","retraite Moselle","budget retraité Metz","retraite Lorraine"],
+  },
+  {
+    slug: "retraite-a-besancon-2026",
+    title: "Retraite à Besançon en 2026 : 6,3/10, le meilleur score du lot, avec un hiver à 2,1 °C",
+    metaTitle: "Retraite à Besançon 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Besançon en 2026 : T2 à 680 €, m² à 2 300 €, accès aux soins 7,9/10, +3,1 % d'habitants, janvier à 2,1 °C. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro: "Besançon obtient 6,3/10 au score retraite, le meilleur de ce lot : un palier de 16 villes à égalité, derrière 244 autres. Elle le doit à un accès aux soins de 7,9/10 avec un site de CHU dans la commune, à une croissance de 3,1 % de la population entre 2016 et 2022 (120 057 habitants, source : Insee, recensement 2022) et à un cadre naturel. Le deux-pièces est à 680 € et le mètre carré à 2 300 € (source : notre estimation des loyers), environ 138 000 € pour 60 m². Le prix à payer est un hiver rude : 2,1 °C en janvier, le plus bas du lot.",
+    sections: [
+      {
+        heading: "Quel accès aux soins à Besançon ?",
+        body: "7,9/10, niveau « facile » (source : notre fiche santé) : 5,10 consultations de généraliste accessibles par an et par habitant selon la DREES, contre 3,72 en moyenne nationale, 155 généralistes libéraux, 40 pharmacies et un service d'urgences recensés dans la commune (Insee, BPE). Un site de CHU est à Besançon : c'est ce qui la sépare de Metz, plus loin de son hôpital universitaire.",
+      },
+      {
+        heading: "Quel budget mensuel pour un retraité à Besançon ?",
+        body: "Personne seule locataire d'un deux-pièces à 680 € (source : notre estimation des loyers) : énergie 100 € (à relever en région froide), courses 300 €, mutuelle 120 €, transports 50 €, loisirs 120 € (hypothèses), soit environ 1 370 € par mois. Couple dans un trois-pièces à 900 € : environ 1 930 € par mois. Marge d'une pension moyenne d'environ 1 500 € nets (source : DREES) : 130 € pour une personne seule.",
+      },
+      {
+        heading: "Besançon face à Dijon et Belfort",
+        body: "Dijon coûte 720 € le T2 et 2 600 €/m² pour un accès de 4,54 et 22,9 % de 60 ans et plus. Belfort est bien moins chère (520 € le T2, 1 550 €/m²) mais son accès aux généralistes est de 3,19, à peine au-dessus de la moyenne nationale. Besançon s'intercale : 40 € moins cher que Dijon au loyer, 300 € de moins au mètre carré, avec un meilleur accès aux soins (5,10) que les deux.",
+      },
+      {
+        heading: "La Boucle du Doubs : cadre et patrimoine",
+        body: "La vieille ville de Besançon est enserrée dans une boucle du Doubs, fermée par la colline de la citadelle. La citadelle de Vauban, avec le fort Griffon et l'enceinte urbaine, est inscrite à l'UNESCO depuis le 7 juillet 2008. Les 23,5 % de 60 ans et plus sont sous la médiane de 26,2 % (source : Insee, recensement 2022) : la ville est étudiante autant que retraitée. La sécurité est à 5,7/10 sur notre fiche ville, et le niveau de vie médian de 20 680 € par an avec 23 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Climat : le point faible",
+        body: "Besançon affiche 2,1 °C en janvier et 21,5 °C en juillet, avec environ 1 780 heures de soleil par an. L'hiver est plus froid qu'à Metz (2,7 °C) et que Tours (5 °C) : prévoyez le chauffage et le déneigement, surtout si vous visez un logement sur les hauteurs. L'ensoleillement est correct, au-dessus d'Amiens ou de Metz.",
+      },
+      {
+        heading: "Pour qui Besançon fonctionne, et pour qui non",
+        body: "Besançon convient au retraité marcheur ou cycliste, qui veut un CHU, de la nature autour et un budget proche de 1 370 €. Elle convient moins à celui qui a du mal avec le froid ou les pentes, ou qui attend une marge confortable : 130 € par mois pour une pension moyenne.",
+      },
+    ],
+    relatedCities: ["besancon","dijon","belfort"],
+    relatedGuides: [
+      "vivre-a-besancon-2026",
+      "acheter-a-besancon-quel-quartier-budget-2026",
+      "retraite-a-pontarlier-2026",
+      "retraite-a-dijon-2026",
+    ],
+    tags: ["retraite Besançon 2026","prendre sa retraite à Besançon","retraite Doubs","budget retraité Besançon","retraite Franche-Comté"],
+  },
+  {
+    slug: "retraite-au-havre-2026",
+    title: "Retraite au Havre en 2026 : 650 € le T2 et la mer, mais le CHU est à Caen",
+    metaTitle: "Retraite au Havre 2026 : budget, santé, climat",
+    metaDesc: "Retraite au Havre en 2026 : T2 à 650 €, m² à 2 000 €, accès aux soins 6,4/10, 26,6 % de 60 ans et plus, 1 590 h de soleil. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🚢",
+    readMinutes: 7,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro: "Le Havre offre la mer et un deux-pièces à 650 € (2 000 € le mètre carré, soit environ 120 000 € pour 60 m², source : notre estimation des loyers) dans la plus grande ville de ce lot : 166 462 habitants en 2022 (source : Insee, recensement 2022). Son accès aux soins est le plus faible du lot, 6,4/10, niveau « correct », parce que le CHU le plus proche est à Caen, à 48,9 km à vol d'oiseau. Score retraite : 5,3/10, un palier de 11 villes à égalité, derrière 446 autres. La ville perd 2,3 % d'habitants depuis 2016.",
+    sections: [
+      {
+        heading: "Quel accès aux soins au Havre ?",
+        body: "6,4/10 dans notre moteur, niveau « correct » (source : notre fiche santé) : l'accessibilité DREES aux généralistes est de 3,71 consultations par an et par habitant, soit la moyenne nationale (3,72), avec 153 généralistes libéraux, 45 pharmacies et deux services d'urgences dans la commune (Insee, BPE). Aucun site de CHU n'est au Havre dans notre liste ; le plus proche est celui de Caen, à 48,9 km à vol d'oiseau, et Rouen compte un accès de 5,41. C'est la vraie limite de la ville pour un retraité.",
+      },
+      {
+        heading: "Combien coûte un retraité au Havre ?",
+        body: "Personne seule locataire d'un deux-pièces à 650 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs 120 € (hypothèses), soit environ 1 340 € par mois. Couple locataire d'un trois-pièces à 870 € : environ 1 900 € par mois. Marge d'une pension moyenne d'environ 1 500 € nets (source : DREES) : 160 € pour une personne seule.",
+      },
+      {
+        heading: "Le Havre ou Rouen, Caen, Dieppe ?",
+        body: "Rouen coûte 720 € le T2 et 2 600 €/m², Caen 700 € et 2 500 €/m² avec un accès aux généralistes de 5,52 : à 20 € près, le Havre est moins chère de 500 à 600 € le mètre carré, mais 1,8 point d'accès DREES derrière. Dieppe est moins chère (610 € le T2, 1 800 €/m²) avec un accès de 3,54, et 37,6 % de 60 ans et plus : une ville déjà très âgée. Au Havre, 26,6 % ont 60 ans et plus, au-dessus de la médiane de 26,2 %.",
+      },
+      {
+        heading: "Un patrimoine UNESCO, une mer sans soleil",
+        body: "Le centre reconstruit par Auguste Perret entre 1945 et 1964 est inscrit à l'UNESCO depuis le 15 juillet 2005. Le climat est océanique : 4,8 °C en janvier et 19,5 °C en juillet, avec environ 1 590 heures de soleil par an : doux l'hiver, frais l'été, sans canicule. La sécurité est à 4,5/10 sur notre fiche ville, et le niveau de vie médian de 20 180 € par an avec 23 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Une ville qui rétrécit : 2,3 % d'habitants en moins",
+        body: "Le Havre perd 0,38 % d'habitants par an depuis 2016, soit 3 890 personnes. Comme Limoges, cela tire les prix vers le bas, mais le Havre garde la mer et un port. L'écart de trajectoire avec Metz ou Besançon, qui gagnent plus de 3 %, est net : un retraité qui compte revendre dans dix ans doit en tenir compte.",
+      },
+      {
+        heading: "Pour qui Le Havre fonctionne, et pour qui non",
+        body: "Le Havre convient au retraité autonome qui veut la mer, un loyer à 650 € et accepte un CHU à Caen pour les soins lourds. Il convient moins à celui dont la santé exige un suivi spécialisé régulier, ou qui veut du soleil.",
+      },
+    ],
+    relatedCities: ["le-havre","rouen","caen","dieppe"],
+    relatedGuides: [
+      "vivre-au-havre-2026",
+      "acheter-a-le-havre-quel-quartier-budget-2026",
+      "retraite-a-saint-malo-2026",
+      "retraite-a-brest-2026",
+    ],
+    tags: ["retraite Le Havre 2026","prendre sa retraite au Havre","retraite Seine-Maritime","budget retraité Le Havre","retraite Normandie"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",
