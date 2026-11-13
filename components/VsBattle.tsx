@@ -63,8 +63,8 @@ const KEYFRAMES = `
 @keyframes vsb-bar-r { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 @keyframes vsb-row-in { from { transform: translateY(6px); opacity: 0; } to { transform: none; opacity: 1; } }
 @keyframes vsb-flash {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
-  50%      { box-shadow: 0 0 22px 6px rgba(34, 197, 94, 0.45); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(79, 70, 229, 0); }
+  50%      { box-shadow: 0 0 24px 6px rgba(219, 39, 119, 0.32); }
 }
 .vsb-in-l    { animation: vsb-in-left  .6s ease-out 0s both; }
 .vsb-in-r    { animation: vsb-in-right .6s ease-out 0s both; }
@@ -101,9 +101,9 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
     <div className="relative">
       <style dangerouslySetInnerHTML={{ __html: KEYFRAMES }} />
 
-      <div className="grid grid-cols-[1fr,auto,1fr] items-stretch gap-2 sm:gap-6">
-        <div className="vsb-in-l rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent-soft)] p-3 sm:p-6 text-center">
-          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-1">Challenger A</div>
+      <div className="grid grid-cols-[1fr_auto_1fr] items-stretch gap-2 sm:gap-6">
+        <div className="vsb-in-l rounded-2xl bg-gradient-to-b from-[#EEF2FF] to-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-22px_rgba(79,70,229,0.6)] p-3 sm:p-6 text-center">
+          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[#4338CA] font-semibold mb-1">Challenger A</div>
           <div className="text-lg sm:text-3xl font-bold text-[var(--text-primary)] leading-tight">{a.name}</div>
           {a.region && (
             <div className="text-[10px] sm:text-xs text-[var(--text-tertiary)] mt-0.5 truncate">{a.region}</div>
@@ -120,14 +120,14 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
         </div>
 
         <div className="relative flex items-center justify-center">
-          <div className="vsb-ring absolute h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-[var(--accent)]/25 pointer-events-none" aria-hidden />
+          <div className="vsb-ring absolute h-14 w-14 sm:h-20 sm:w-20 rounded-full bg-[#EC4899]/25 pointer-events-none" aria-hidden />
           <div className="vsb-pop relative z-10 plaque h-12 w-12 sm:h-20 sm:w-20 justify-center !rounded-full !p-0 font-extrabold text-base sm:text-3xl">
             VS
           </div>
         </div>
 
-        <div className="vsb-in-r rounded-2xl border border-[var(--accent-pink)]/30 bg-[#FBEFE7] p-3 sm:p-6 text-center">
-          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[var(--accent-pink)] font-semibold mb-1">Challenger B</div>
+        <div className="vsb-in-r rounded-2xl bg-gradient-to-b from-[#FDF2F8] to-white ring-1 ring-[#FBCFE8] shadow-[0_14px_34px_-22px_rgba(219,39,119,0.6)] p-3 sm:p-6 text-center">
+          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[#BE185D] font-semibold mb-1">Challenger B</div>
           <div className="text-lg sm:text-3xl font-bold text-[var(--text-primary)] leading-tight">{b.name}</div>
           {b.region && (
             <div className="text-[10px] sm:text-xs text-[var(--text-tertiary)] mt-0.5 truncate">{b.region}</div>
@@ -144,9 +144,9 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
         </div>
       </div>
 
-      <div className="mt-6 sm:mt-8 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4 sm:p-6">
-        <h2 className="text-base font-semibold text-[var(--text-primary)] mb-5">
-          {locale === "en" ? "Head-to-head by criterion" : "Le duel critère par critère"}
+      <div className="mt-6 sm:mt-8 rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_18px_40px_-26px_rgba(79,70,229,0.55)] p-4 sm:p-6">
+        <h2 className="text-lg sm:text-xl font-bold mb-5">
+          <span className="gradient-text">{locale === "en" ? "Head-to-head by criterion" : "Le duel critère par critère"}</span>
         </h2>
         <div className="space-y-4 sm:space-y-5">
           {ROWS.map(({ key, label, icon }, i) => {
@@ -167,13 +167,13 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
                 className="vsb-row-in"
                 style={{ animationDelay: `${baseDelay}s` }}
               >
-                <div className="grid grid-cols-[auto,1fr,auto,1fr,auto] items-center gap-1.5 sm:gap-3">
+                <div className="grid grid-cols-[auto_1fr_auto_1fr_auto] items-center gap-1.5 sm:gap-3">
                   <span
                     className={`w-8 sm:w-10 text-right text-xs sm:text-sm font-bold font-mono-data tabular-nums ${aWins ? scoreColor(va) : "text-[var(--text-tertiary)]"}`}
                   >
                     {va.toFixed(1)}
                   </span>
-                  <div className="h-2.5 sm:h-3 rounded-l-full bg-[var(--bg-elevated)] overflow-hidden flex justify-end">
+                  <div className="h-2.5 sm:h-3 rounded-l-full bg-[#EEF2FF] overflow-hidden flex justify-end">
                     <div
                       className="vsb-bar-l h-full rounded-l-full"
                       style={{
@@ -189,7 +189,7 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
                     <span className="block text-sm sm:text-base" aria-hidden>{icon}</span>
                     <span className="block">{label}</span>
                   </div>
-                  <div className="h-2.5 sm:h-3 rounded-r-full bg-[var(--bg-elevated)] overflow-hidden">
+                  <div className="h-2.5 sm:h-3 rounded-r-full bg-[#FDF2F8] overflow-hidden">
                     <div
                       className="vsb-bar-r h-full rounded-r-full"
                       style={{
@@ -212,12 +212,12 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
                   style={{ animationDelay: `${badgeDelay}s` }}
                 >
                   {tie ? (
-                    <span className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[var(--bg-elevated)] text-[var(--text-tertiary)]">
+                    <span className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold bg-[#F1F0FF] text-[#4338CA]">
                       = {locale === "en" ? "Tie" : "Égalité"}
                     </span>
                   ) : (
                     <span
-                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold ${aWins ? "bg-[var(--accent-soft)] text-[var(--accent)]" : "bg-[#FBEFE7] text-[var(--accent-pink)]"}`}
+                      className={`inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-semibold ${aWins ? "bg-[#E0E7FF] text-[#4338CA]" : "bg-[#FCE7F3] text-[#BE185D]"}`}
                     >
                       ✓ {(aWins ? a : b).name}
                       <span className="opacity-70">+{Math.abs(va - vb).toFixed(1)}</span>
@@ -230,21 +230,21 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
         </div>
 
         <div
-          className="vsb-row-in vsb-flash mt-8 rounded-2xl border border-emerald-400/40 p-5 sm:p-6 text-center"
+          className="vsb-row-in vsb-flash mt-8 rounded-2xl ring-1 ring-[#DDD6FE] p-5 sm:p-6 text-center"
           style={{
             animationDelay: `${verdictDelay}s, ${verdictDelay + 0.4}s`,
             animationFillMode: "both, both",
             background:
-              "linear-gradient(135deg, rgba(34, 197, 94, 0.14), rgba(16, 185, 129, 0.04))",
+              "linear-gradient(135deg, #EEF2FF 0%, #FDF2F8 55%, #ECFEFF 100%)",
           }}
         >
-          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-emerald-600 font-bold mb-1">
+          <div className="text-[10px] sm:text-xs uppercase tracking-widest text-[#4338CA] font-bold mb-1">
             {locale === "en" ? "Final verdict" : "Verdict final"}
           </div>
           {winner ? (
             <>
-              <p className="text-xl sm:text-2xl font-bold text-emerald-600">
-                🏆 {locale === "en" ? `${winner.name} wins` : `${winner.name} l’emporte`}
+              <p className="text-xl sm:text-2xl font-bold">
+                <span aria-hidden>🏆 </span><span className="gradient-text">{locale === "en" ? `${winner.name} wins` : `${winner.name} l’emporte`}</span>
               </p>
               <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">
                 {locale === "en"
@@ -254,7 +254,7 @@ export function VsBattle({ a, b, locale = "fr" }: Props) {
             </>
           ) : (
             <>
-              <p className="text-xl sm:text-2xl font-bold text-amber-500">
+              <p className="text-xl sm:text-2xl font-bold text-[#4338CA]">
                 ⚖️ {locale === "en" ? "Perfect tie" : "Égalité parfaite"}
               </p>
               <p className="text-xs sm:text-sm text-[var(--text-secondary)] mt-1">

@@ -6,8 +6,7 @@ import { hreflangLanguages } from "@/lib/i18n";
 import { Footer } from "@/components/Footer";
 import { CommentSection } from "@/components/CommentSection";
 import { CITIES_SEED } from "@/data/cities-seed";
-import { Badge } from "@/components/ui/Badge";
-import { Card } from "@/components/ui/Card";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import type { City } from "@/lib/types";
 import Link from "@/components/AppLink";
 import { getHousing } from "@/data/housing";
@@ -237,153 +236,195 @@ export default async function PairPage({ params }: Props) {
       />
 
       {/* Header */}
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-8 sm:py-10">
-        <div className="mx-auto max-w-5xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Comparaison 2026 · Mode battle</Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-2">
-            {seedA.name}{" "}
-            <span className="text-[var(--text-secondary)]">vs</span>{" "}
-            {seedB.name}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10 sm:pb-12">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav aria-label="Fil d'Ariane" className="mb-4 text-xs text-[var(--text-tertiary)]">
+            <Link href="/comparer" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Comparer</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <span>{seedA.name} vs {seedB.name}</span>
+          </nav>
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <EmojiBadge emoji="⚔️" tone="indigo" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              Comparaison 2026 · Mode battle
+            </span>
+          </div>
+          <h1 className="text-3xl sm:text-5xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.08]">
+            <span className="gradient-text-anim pr-1">{seedA.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2.5 py-0.5 text-sm sm:text-base font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{seedB.name}</span>
           </h1>
-          <p className="text-[var(--text-secondary)]">
+          <p className="text-[var(--text-secondary)] text-base sm:text-lg">
             Duel critère par critère, avec verdict final.
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-5xl px-4 sm:px-6 py-8 sm:py-12 space-y-10">
-        <VsBattle a={seedA} b={seedB} />
+      {/* Duel */}
+      <section className="band band-indigo py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-8">
+          <VsBattle a={seedA} b={seedB} />
 
-        {/* F63 cross-link: synthèse 8 axes */}
-        <Link
-          href={`/comparer/${pair}/synthese`}
-          className="block rounded-2xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 hover:border-[var(--accent)] hover:shadow-md transition-all p-5 group"
-        >
-          <div className="flex items-center justify-between gap-3">
-            <div className="min-w-0">
-              <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                ✨ Synthèse 8 axes — {seedA.name} vs {seedB.name}
+          {/* F63 cross-link: synthèse 8 axes */}
+          <Link
+            href={`/comparer/${pair}/synthese`}
+            className="block rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] hover:ring-[#4F46E5] hover:-translate-y-0.5 hover:shadow-lg transition-all p-5 group"
+          >
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex min-w-0 items-center gap-3">
+                <EmojiBadge emoji="✨" tone="pink" size="sm" />
+                <div className="min-w-0">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
+                    Synthèse 8 axes — {seedA.name} vs {seedB.name}
+                  </div>
+                  <div className="text-xs text-[var(--text-tertiary)] mt-1">
+                    Comparaison sur env / santé / emploi / cadre / vélo / sécurité / démo / services
+                    publics, écart significatif ±0,3 pt par axe.
+                  </div>
+                </div>
               </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Comparaison sur env / santé / emploi / cadre / vélo / sécurité / démo / services
-                publics, écart significatif ±0,3 pt par axe.
-              </div>
+              <span className="shrink-0 inline-flex h-8 w-8 items-center justify-center rounded-full grad-head-0 text-sm font-bold" aria-hidden>→</span>
             </div>
-            <span className="shrink-0 text-[var(--accent)] text-sm font-semibold">→</span>
-          </div>
-        </Link>
+          </Link>
+        </div>
+      </section>
 
-        {/* Climate */}
-        <Card>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">Climat</h2>
-          <div className="grid grid-cols-3 gap-4 text-center text-sm">
-            <div />
-            <div className="font-semibold text-blue-600">{seedA.name}</div>
-            <div className="font-semibold text-violet-400">{seedB.name}</div>
-            {[
-              { label: "Soleil / an", a: seedA.sunshinedays ? `${Math.round(seedA.sunshinedays / 9.5)} j` : "—", b: seedB.sunshinedays ? `${Math.round(seedB.sunshinedays / 9.5)} j` : "—" },
-              { label: "Juillet", a: seedA.avgTempJuly ? `${seedA.avgTempJuly}°C` : "—", b: seedB.avgTempJuly ? `${seedB.avgTempJuly}°C` : "—" },
-              { label: "Janvier", a: seedA.avgTempJanuary ? `${seedA.avgTempJanuary}°C` : "—", b: seedB.avgTempJanuary ? `${seedB.avgTempJanuary}°C` : "—" },
-            ].map(({ label, a, b }) => (
-              <React.Fragment key={label}>
-                <div className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
-                <div className="font-mono-data font-bold text-[var(--text-primary)]">{a}</div>
-                <div className="font-mono-data font-bold text-[var(--text-primary)]">{b}</div>
-              </React.Fragment>
-            ))}
+      {/* Climat + immobilier */}
+      <section className="band band-sky py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-6">
+            <EmojiBadge emoji="🌤️" tone="sky" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Climat et logement</span>
+            </h2>
           </div>
-        </Card>
-
-        {/* Housing prices */}
-        {(getHousing(slugA) || getHousing(slugB)) && (
-          <Card>
-            <h2 className="text-base font-semibold text-[var(--text-primary)] mb-4">Immobilier & Loyers</h2>
-            <div className="grid grid-cols-3 gap-4 text-center text-sm">
-              <div />
-              <div className="font-semibold text-blue-600">{seedA.name}</div>
-              <div className="font-semibold text-violet-400">{seedB.name}</div>
-              {[
-                { label: "Loyer T1 / mois", a: getHousing(slugA)?.avgRentT1, b: getHousing(slugB)?.avgRentT1, unit: "€" },
-                { label: "Loyer T2 / mois", a: getHousing(slugA)?.avgRentT2, b: getHousing(slugB)?.avgRentT2, unit: "€" },
-                { label: "Loyer T3 / mois", a: getHousing(slugA)?.avgRentT3, b: getHousing(slugB)?.avgRentT3, unit: "€" },
-                { label: "Prix achat / m²", a: getHousing(slugA)?.avgBuyPriceM2, b: getHousing(slugB)?.avgBuyPriceM2, unit: "€/m²" },
-              ].map(({ label, a, b, unit }) => {
-                const cheaper = a && b ? (a < b ? "a" : b < a ? "b" : "equal") : null;
-                return (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+            <div className="overflow-hidden rounded-2xl bg-white ring-1 ring-[#BAE6FD] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)]">
+              <h3 className="grad-head-5 px-5 py-2.5 text-sm font-bold uppercase tracking-widest">Climat</h3>
+              <div className="grid grid-cols-3 gap-4 p-5 text-center text-sm">
+                <div />
+                <div className="font-semibold text-[#4338CA]">{seedA.name}</div>
+                <div className="font-semibold text-[#BE185D]">{seedB.name}</div>
+                {[
+                  { label: "Soleil / an", a: seedA.sunshinedays ? `${Math.round(seedA.sunshinedays / 9.5)} j` : "—", b: seedB.sunshinedays ? `${Math.round(seedB.sunshinedays / 9.5)} j` : "—" },
+                  { label: "Juillet", a: seedA.avgTempJuly ? `${seedA.avgTempJuly}°C` : "—", b: seedB.avgTempJuly ? `${seedB.avgTempJuly}°C` : "—" },
+                  { label: "Janvier", a: seedA.avgTempJanuary ? `${seedA.avgTempJanuary}°C` : "—", b: seedB.avgTempJanuary ? `${seedB.avgTempJanuary}°C` : "—" },
+                ].map(({ label, a, b }) => (
                   <React.Fragment key={label}>
                     <div className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
-                    <div className={`font-mono-data font-bold ${cheaper === "a" ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>
-                      {a ? `${a.toLocaleString("fr-FR")} ${unit}` : "—"}
-                    </div>
-                    <div className={`font-mono-data font-bold ${cheaper === "b" ? "text-emerald-600" : "text-[var(--text-primary)]"}`}>
-                      {b ? `${b.toLocaleString("fr-FR")} ${unit}` : "—"}
-                    </div>
+                    <div className="font-mono-data font-bold text-[var(--text-primary)]">{a}</div>
+                    <div className="font-mono-data font-bold text-[var(--text-primary)]">{b}</div>
                   </React.Fragment>
-                );
-              })}
+                ))}
+              </div>
             </div>
-            <p className="text-xs text-[var(--text-tertiary)] mt-4">
-              Prix médians indicatifs (source : DVF / données marché 2024). La couleur verte indique la ville la moins chère.
-            </p>
-          </Card>
-        )}
 
-        {/* Pour qui ? */}
-        <Card>
-          <h2 className="text-base font-semibold text-[var(--text-primary)] mb-5">
-            Pour quel profil choisir chaque ville ?
-          </h2>
-          <div className="grid grid-cols-2 gap-3">
+            {/* Housing prices */}
+            {(getHousing(slugA) || getHousing(slugB)) && (
+              <div className="overflow-hidden rounded-2xl bg-white ring-1 ring-[#BAE6FD] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)]">
+                <h3 className="grad-head-0 px-5 py-2.5 text-sm font-bold uppercase tracking-widest">Immobilier & Loyers</h3>
+                <div className="grid grid-cols-3 gap-4 p-5 pb-0 text-center text-sm">
+                  <div />
+                  <div className="font-semibold text-[#4338CA]">{seedA.name}</div>
+                  <div className="font-semibold text-[#BE185D]">{seedB.name}</div>
+                  {[
+                    { label: "Loyer T1 / mois", a: getHousing(slugA)?.avgRentT1, b: getHousing(slugB)?.avgRentT1, unit: "€" },
+                    { label: "Loyer T2 / mois", a: getHousing(slugA)?.avgRentT2, b: getHousing(slugB)?.avgRentT2, unit: "€" },
+                    { label: "Loyer T3 / mois", a: getHousing(slugA)?.avgRentT3, b: getHousing(slugB)?.avgRentT3, unit: "€" },
+                    { label: "Prix achat / m²", a: getHousing(slugA)?.avgBuyPriceM2, b: getHousing(slugB)?.avgBuyPriceM2, unit: "€/m²" },
+                  ].map(({ label, a, b, unit }) => {
+                    const cheaper = a && b ? (a < b ? "a" : b < a ? "b" : "equal") : null;
+                    return (
+                      <React.Fragment key={label}>
+                        <div className="text-xs text-[var(--text-secondary)] text-left">{label}</div>
+                        <div className={`font-mono-data font-bold ${cheaper === "a" ? "text-emerald-700" : "text-[var(--text-primary)]"}`}>
+                          {a ? `${a.toLocaleString("fr-FR")} ${unit}` : "—"}
+                        </div>
+                        <div className={`font-mono-data font-bold ${cheaper === "b" ? "text-emerald-700" : "text-[var(--text-primary)]"}`}>
+                          {b ? `${b.toLocaleString("fr-FR")} ${unit}` : "—"}
+                        </div>
+                      </React.Fragment>
+                    );
+                  })}
+                </div>
+                <p className="text-xs text-[var(--text-tertiary)] p-5">
+                  Prix médians indicatifs (source : DVF / données marché 2024). La couleur verte indique la ville la moins chère.
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      </section>
+
+      {/* Pour qui ? */}
+      <section className="band band-pink py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-6">
+            <EmojiBadge emoji="🧭" tone="pink" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Pour quel profil choisir chaque ville ?</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 gap-3 sm:gap-4">
             {PROFILES.map(({ label, emoji, keys, desc }) => {
               const scoreA = keys.reduce((s, k) => s + seedA.scores[k], 0) / keys.length;
               const scoreB = keys.reduce((s, k) => s + seedB.scores[k], 0) / keys.length;
               const diff = Math.abs(scoreA - scoreB);
               const profileWinner = scoreA > scoreB ? seedA : scoreB > scoreA ? seedB : null;
               return (
-                <div key={label} className="rounded-xl border border-[var(--border)] bg-[var(--bg-elevated)] p-4">
+                <div key={label} className="rounded-2xl bg-white ring-1 ring-[#FBCFE8] shadow-[0_14px_34px_-24px_rgba(219,39,119,0.55)] p-4">
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-lg">{emoji}</span>
+                    <span className="text-lg" aria-hidden>{emoji}</span>
                     <span className="text-sm font-semibold text-[var(--text-primary)]">{label}</span>
                   </div>
-                  <p className="text-xs text-[var(--text-tertiary)] mb-2">{desc}</p>
+                  <p className="text-xs text-[var(--text-tertiary)] mb-3">{desc}</p>
                   {profileWinner ? (
-                    <div className="flex items-center gap-1.5">
-                      <span className="text-sm font-bold text-emerald-600">{profileWinner.name}</span>
+                    <div className="flex flex-wrap items-center gap-1.5">
+                      <span className={`rounded-full px-2.5 py-0.5 text-sm font-bold ${profileWinner === seedA ? "bg-[#E0E7FF] text-[#4338CA]" : "bg-[#FCE7F3] text-[#BE185D]"}`}>{profileWinner.name}</span>
                       <span className="text-xs text-[var(--text-tertiary)]">+{diff.toFixed(1)} pts</span>
                     </div>
                   ) : (
-                    <span className="text-sm text-[var(--text-tertiary)]">Égalité</span>
+                    <span className="rounded-full bg-[#F1F0FF] px-2.5 py-0.5 text-sm text-[#4338CA]">Égalité</span>
                   )}
                 </div>
               );
             })}
           </div>
-        </Card>
+        </div>
+      </section>
 
-        {/* CTA */}
-        <div className="text-center space-y-3">
-          <p className="text-[var(--text-secondary)]">
+      {/* CTA */}
+      <section className="band band-bold py-10 sm:py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center space-y-4">
+          <p className="text-lg sm:text-xl font-semibold">
             Vous hésitez encore ? Notre IA peut analyser votre profil exact.
           </p>
           <div className="flex flex-wrap gap-3 justify-center">
-            <Link href="/city-match">
-              <Badge variant="accent" className="px-4 py-2 text-sm cursor-pointer hover:opacity-90 transition-opacity">
-                ✨ Quiz de matching IA
-              </Badge>
+            <Link
+              href="/city-match"
+              className="inline-flex items-center rounded-full bg-white px-5 py-3 text-sm font-semibold text-[#4338CA] shadow-sm hover:-translate-y-0.5 hover:shadow-md transition-all"
+            >
+              ✨ Quiz de matching IA
             </Link>
-            <Link href="/comparer">
-              <Badge variant="default" className="px-4 py-2 text-sm cursor-pointer hover:opacity-90 transition-opacity">
-                Comparateur libre
-              </Badge>
+            <Link
+              href="/comparer"
+              className="inline-flex items-center rounded-full bg-white/15 px-5 py-3 text-sm font-semibold text-white ring-1 ring-white/50 hover:bg-white/25 hover:-translate-y-0.5 transition-all"
+            >
+              Comparateur libre
             </Link>
           </div>
         </div>
+      </section>
 
-        {/* Related comparisons */}
-        <div>
-          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-4">
-            Comparaisons similaires
-          </h2>
+      {/* Related comparisons */}
+      <section className="band band-lilac py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-5">
+            <EmojiBadge emoji="🔁" tone="lilac" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Comparaisons similaires</span>
+            </h2>
+          </div>
           <div className="flex flex-wrap gap-2">
             {SEO_PAIRS.filter(([a, b]) =>
               (a === slugA || b === slugA || a === slugB || b === slugB) &&
@@ -396,27 +437,29 @@ export default async function PairPage({ params }: Props) {
                 <Link
                   key={`${a}-vs-${b}`}
                   href={`/comparer/${a}-vs-${b}`}
-                  className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-1.5 text-xs text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)] transition-colors"
+                  className="rounded-full bg-white px-4 py-2 text-xs font-semibold text-[#4338CA] ring-1 ring-[#DDD6FE] hover:ring-[#4F46E5] hover:-translate-y-0.5 transition-all"
                 >
-                  {ca.name} vs {cb.name}
+                  {ca.name} <span className="text-[#BE185D]">vs</span> {cb.name}
                 </Link>
               );
             })}
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-16">
-        <CommentSection
-          topic={`compare:${[slugA, slugB].sort().join("-")}`}
-          title={`${seedA.name} vs ${seedB.name} — votre verdict`}
-          emptyHint={`Vous avez vécu dans l'une ou l'autre ? Donnez votre avis honnête : on n'a pas tout dit.`}
-          subscribeContext={`${seedA.name} / ${seedB.name}`}
-        />
-      </div>
+      <section className="band band-white py-10 sm:py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 space-y-8">
+          <CommentSection
+            topic={`compare:${[slugA, slugB].sort().join("-")}`}
+            title={`${seedA.name} vs ${seedB.name} — votre verdict`}
+            emptyHint={`Vous avez vécu dans l'une ou l'autre ? Donnez votre avis honnête : on n'a pas tout dit.`}
+            subscribeContext={`${seedA.name} / ${seedB.name}`}
+          />
+          <FeedbackWidget />
+        </div>
+      </section>
 
       <Footer />
     </main>
   );
 }
-

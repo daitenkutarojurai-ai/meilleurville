@@ -1533,3 +1533,16 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages paire `/comparer/[pair]` (FR + EN).
 2. `DepartementMap` (cadre, légende).
 3. Page agenda.
+
+## 2026-11-13 ~03:00 UTC — `/comparer/[pair]` (FR, branche 2 villes) + `VsBattle` (partagé FR/EN)
+
+**Surface** : pages duel (~centaines de paires) et le composant `VsBattle`, aussi rendu par l'EN `/compare/[pair]`. Avant : hero blanc à `Badge`, tout dans un seul bloc sur fond de page, cartes `Card` à filet, noms de ville en **bleu / violet** (violet réservé), challenger B sur pêche `#FBEFE7` (héritage crème), verdict en **émeraude** / égalité en **ambre** (réservés), CTA en badges, pas de feedback. Bug : `grid-cols-[1fr,auto,1fr]` (syntaxe Tailwind v3, ignorée en v4) → le duel s'empilait, barres et libellés sur des lignes séparées, FR et EN.
+
+**Changé** : hero `.bg-aurora` + fil d'Ariane + `EmojiBadge` ⚔️ + pilule `grad-head-0`, noms en `gradient-text-anim` autour d'une pastille « vs » `grad-head-5` ; duel + lien synthèse en `band-indigo` ; climat + logement en `band-sky` (deux cartes blanches à bandeau `grad-head-5` / `grad-head-0`, côte à côte dès `lg`) ; « Pour quel profil » en `band-pink` (gagnant en pastille indigo / rose selon la ville) ; CTA en `band-bold` (seul bloc vif) ; comparaisons similaires en pilules blanches `band-lilac` ; commentaires + `FeedbackWidget` (ajouté) en `band-white`. `VsBattle` : grilles `[1fr_auto_1fr]` / `[auto_1fr_auto_1fr_auto]` (duel enfin côte à côte), challengers en dégradé indigo / rose sur blanc, carte duel blanche à titre `.gradient-text`, verdict en dégradé indigo → rose → cyan, gagnant en `.gradient-text`, égalité en indigo, halo rose. « Moins cher » passé en `emerald-700` (AA). Barres et chiffres gardent les couleurs de palier. Copie, données, JSON-LD inchangés.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` sur les 2 fichiers : 0 problème. Captures playwright `/comparer/lyon-vs-grenoble` 1440 et 390 px, `scrollWidth` = viewport. EN non capturé (routage Worker) mais profite du correctif `VsBattle`. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. EN `/compare/[pair]` (sections encore à la rotation automatique, CTA et liens à recolorer) + `TripletView` (branche 3 villes).
+2. `/comparer/[pair]/synthese` (FR + EN `synthesis`).
+3. `DepartementMap` (cadre, légende) puis page agenda.
