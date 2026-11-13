@@ -63138,6 +63138,132 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lens", "castres", "roanne", "chatellerault", "saint-quentin", "laval", "auxerre", "brest"],
     tags: ["renting", "2027 rents", "1-bed", "cheap towns", "budget"],
   },
+  {
+    slug: "where-to-live-in-france-after-divorce-or-separation-2026",
+    title: "Where to Live in France After a Divorce or Separation (2026)",
+    metaTitle: "Where to Live in France After a Divorce or Separation",
+    metaDesc:
+      "One income, a flat to find fast, maybe shared custody. What to weigh when choosing a French city after a split, which mistakes to avoid, and which aid to claim.",
+    category: "budget",
+    emoji: "🌱",
+    readMinutes: 6,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "After a separation, choose a mid-sized city where one income covers a 2-bed flat, where your support network is within a few hours' travel, and where schools, childcare and a GP are actually available. Prestige towns fail this test; Rennes, Clermont-Ferrand, Caen and Pau pass it. The rest of this guide explains the criteria, the traps and the French benefits worth claiming.",
+    sections: [
+      {
+        heading: "What changes when two incomes become one?",
+        body: "Rent takes a larger share of the budget overnight, and you usually need to find a flat quickly, often with a French landlord who asks for proof of income of about three times the monthly rent. If children split their time between two homes, you also need a second bedroom within reach of their school. Three things matter more than the postcode: the rent for the size of flat you need, the people who can help on a bad week, and the ease of getting a school place, childcare and a doctor.",
+      },
+      {
+        heading: "Which criteria should drive the choice?",
+        body: "Housing cost comes first: with one income, aim for a place where the flat you need is clearly affordable, not just possible. Support network second: a city where family, close friends or professional contacts already live is easier than a blank start while you are rebuilding. Schools and childcare third: with shared custody, check crèche (nursery) places, after-school care (périscolaire) and the school offer. Mental-health care fourth: psychologists and counsellors are thin outside the larger cities, and waiting lists are common. Jobs fifth: if you are changing employer at the same time, local market depth matters more than the city's reputation.",
+      },
+      {
+        heading: "Which cities give a realistic fresh start?",
+        body: "Rennes combines a solid job market and a real social life, and its size makes it easy to build a local circle. Clermont-Ferrand is among the cheapest large French cities for rent, which helps if the local job market fits your profile. Caen is safe, affordable, 20 minutes from the sea and underrated for this situation. Pau is human-scale with the Pyrenees in reach, and easier to live in than a big metropolis when you are starting over. Compare each on its city profile (rent estimate, safety, schools, remote-work score) rather than on a holiday memory.",
+      },
+      {
+        heading: "Which mistakes should you avoid?",
+        body: "Choosing on emotion: a good holiday in a town says nothing about daily commutes, doctor waiting times or the local job market. Moving too far from your support network: distance from parents, close friends or your children creates isolation, especially in the first years. Overrating fashionable small towns: places such as Uzès or Honfleur are charming, but access to healthcare, jobs and services can be too thin to run a household on one income. Underestimating the other costs in popular cities: in places such as La Rochelle, Bordeaux or Annecy, rent is the biggest bill but not the only one, because everyday services and leisure also cost more.",
+      },
+      {
+        heading: "Which French aid and rights should you check?",
+        body: "If you leave a shared home with children, contact the CAF (Caisse d'Allocations Familiales, the family-benefits office) to check your entitlement to APL, the housing benefit, which depends on income and rent. Single-parent status can also help with a childcare place. If you take a job in a new area, France Travail (the national job agency) can offer mobility help towards moving costs; eligibility rules change, so confirm them with your adviser. If you own the home and must sell, the main residence is generally exempt from capital-gains tax. Child support is taxable for the parent who receives it and deductible for the one who pays, within the rules of the French tax code; an accountant or the tax office can confirm your case. Rules and thresholds change every year: treat this as a checklist of questions, not as advice.",
+      },
+      {
+        heading: "What should you do first?",
+        body: "Fix your realistic rent ceiling from your single income. Shortlist three or four cities where that buys the flat you need. Check each one's school, childcare and GP situation on the ground, and talk to the CAF before you sign a lease. If you have a choice, favour a mid-sized city with a university hospital and a working tram or bus network over a small, pretty town: when life is already in flux, convenience beats charm.",
+      },
+    ],
+    relatedCities: ["rennes", "caen", "pau", "clermont-ferrand", "nantes"],
+    tags: ["divorce", "separation", "single income", "single parent", "budget", "starting over"],
+  },
+  {
+    slug: "medical-deserts-france-2026-check-doctor-access-before-you-move",
+    title: "Medical Deserts in France: How to Check Doctor Access Before You Move",
+    metaTitle: "Medical Deserts in France: Check Doctor Access Before Moving",
+    metaDesc:
+      "Millions of people in France have no registered GP. How doctor access is measured (APL), how to check a town before signing, and what to do if you land in one.",
+    category: "lifestyle",
+    emoji: "🏥",
+    readMinutes: 6,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "Before you rent or buy in France, check whether a GP is taking new patients within reach. Around six million people are commonly reported to have no registered family doctor (médecin traitant), and shortages hit some mid-sized towns as hard as villages. This guide shows how access is measured, three checks you can run in an evening, and what helps if you end up in an under-served area.",
+    sections: [
+      {
+        heading: "Why does the médecin traitant matter so much?",
+        body: "In France you register a GP as your médecin traitant (your designated family doctor). Seeing specialists without going through one is reimbursed at a lower rate by the health insurance system, so not having one costs you money as well as convenience. When a doctor retires without a successor, a whole neighbourhood can lose access at once. For a newcomer without a local network, finding a doctor accepting new patients is one of the hardest practical tasks of settling in.",
+      },
+      {
+        heading: "How is access to doctors measured?",
+        body: "The official indicator is the APL (Accessibilité Potentielle Localisée, localised potential accessibility), published by DREES, the health ministry's statistics office. It estimates how many GP consultations are available per inhabitant per year within reach of a commune, adjusted for age and for how far people can travel. The government treats roughly 2.5 consultations per inhabitant per year as the threshold below which an area counts as under-served; a lower value means a more serious shortage. The official map and exact thresholds are updated regularly, so read the latest figure for the commune rather than relying on a number quoted in an article.",
+      },
+      {
+        heading: "Which towns are at risk?",
+        body: "Rural départements with an ageing population and few young doctors are the best-known cases, but not the only ones. Some industrial or mid-sized towns have lost surgeries in recent years because retirements were not replaced. Large cities are not immune either: in major university cities, waits for specialists such as ophthalmologists, dermatologists and gynaecologists can run to several months even if you have a GP. University-hospital cities (CHU) generally keep a fuller range of specialities, which helps, though waiting times remain. Treat any list of named towns as a starting point and check the current data for your own target.",
+      },
+      {
+        heading: "What three checks can you run before signing?",
+        body: "First, search Doctolib (the main French booking platform) for GPs accepting new patients within about 5 km of the address; zero results is a strong warning sign. Second, look for a maison de santé pluridisciplinaire (MSP, a multi-professional health centre) nearby on the health ministry's map: one within a couple of kilometres is a good sign of stable access. Third, look up the commune's APL on the official government health-access map. If you have a chronic condition that needs regular follow-up, treat a low APL as a real risk to your plan, not a detail.",
+      },
+      {
+        heading: "What can you do if you are already in an under-served area?",
+        body: "Ask the local CPAM (the health-insurance office) whether a CPTS (Communauté Professionnelle Territoriale de Santé, a local network of health professionals) covers your area and can help you find a doctor. Some municipalities employ salaried doctors in municipal health centres. Teleconsultation is a useful supplement for non-urgent needs but not a substitute for ongoing care. For emergencies call 15 (SAMU, the medical emergency line) or 112 from anywhere in France.",
+      },
+      {
+        heading: "Does medical access affect property values?",
+        body: "Yes, indirectly. Towns with good care attract retirees and families, which supports demand; towns losing doctors can enter a loop of fewer residents and fewer services. If you are buying as an investment or planning to resell in ten years, health access is a useful signal alongside jobs and transport. Check the Healthcare page of the city profile on this site for a comparison before you shortlist.",
+      },
+    ],
+    relatedCities: ["limoges", "poitiers", "reims", "gueret", "clermont-ferrand"],
+    tags: ["healthcare", "medical deserts", "GP", "doctor", "moving to France", "APL"],
+  },
+  {
+    slug: "low-emission-zones-zfe-france-2026-what-they-mean-for-your-move",
+    title: "Low-Emission Zones (ZFE) in France: What They Mean for Your Move",
+    metaTitle: "Low-Emission Zones (ZFE) in France: What They Mean for You",
+    metaDesc:
+      "Crit'Air stickers, ZFE perimeters and the car you bring or buy. How French low-emission zones work, why the exact perimeter matters, and what to check first.",
+    category: "lifestyle",
+    emoji: "🚦",
+    readMinutes: 6,
+    publishedAt: "2026-11-13",
+    updatedAt: "2026-11-13",
+    intro:
+      "A ZFE (zone à faibles émissions) is an urban perimeter where older, more polluting vehicles are restricted, based on the Crit'Air sticker. If you plan to drive an older diesel in a big French metropolis, it can decide where you live. If you live car-free, or drive a recent or electric vehicle, it barely changes your choice. The rules and their enforcement have been the subject of political debate in France, so check the current status of each zone before you decide.",
+    sections: [
+      {
+        heading: "What is a ZFE, and what is it not?",
+        body: "A ZFE restricts, within a defined perimeter, the circulation of vehicles with the highest emissions. The classification is the Crit'Air sticker, numbered 1 to 5, with a separate green sticker for electric and hydrogen vehicles; older diesels carry the highest numbers and unclassified vehicles are the oldest of all. It is not a ban on cars in city centres: a vehicle with an allowed sticker drives as usual, and the restricted perimeter is usually a part of the metropolitan area, not all of it.",
+      },
+      {
+        heading: "Where do they apply?",
+        body: "ZFEs were set up in a limited number of large metropolitan areas first, among them Paris and its surrounding area, Lyon, Grenoble, Marseille, Toulouse, Montpellier, Strasbourg and Nice, and national legislation aimed to extend them to larger urban areas. The calendar, the stickers excluded and the level of enforcement differ by city, and the national framework has been revised and contested more than once. Do not rely on a list from an article, including this one: each metropolitan authority publishes its own official perimeter and timetable.",
+      },
+      {
+        heading: "Why does the exact perimeter matter more than the city name?",
+        body: "Because the zone almost never covers the whole commune, let alone the whole region. In the Paris area the zone is drawn around the inner ring of the A86 motorway, so a town outside it is not covered even though it is still in Île-de-France. In other metropolises only some communes of the agglomeration are in. Before you sign a lease or a purchase offer, get the official map and check whether the address is inside, on the edge or outside. An address just outside can still be awkward if the school, the doctor and the station are all inside the zone.",
+      },
+      {
+        heading: "What does it mean for the car you bring or buy?",
+        body: "If you ship an older diesel from abroad, work out its Crit'Air sticker first: the French certificate-of-air-quality service issues it from the vehicle's registration details, and a foreign-registered vehicle can be asked for one too. An older diesel can lose a large part of its resale market once big cities exclude it, so factor that into any second-hand purchase you plan to keep for several years. For a tight budget, the rational options are usually either a recent vehicle whose sticker will stay allowed, or going car-free in a city with good public transport and cycling.",
+      },
+      {
+        heading: "Who should care, and who can ignore it?",
+        body: "It matters for tradespeople and self-employed workers who depend on an older van, for low-income households whose only car is an older diesel, and for commuters from outside the zone who must drive in. It matters little for residents of towns with no ZFE, for owners of recent or electric vehicles, and for people who already walk, cycle or take transit. For these groups it is one more input, not a reason to drop a city.",
+      },
+      {
+        heading: "What should you check before you commit?",
+        body: "Check, in this order: whether your target commune is in an active, planned or no ZFE, using the metropolitan authority's official map; the Crit'Air sticker of your vehicle and whether it is still allowed there; how many of your daily trips cross the zone; and the cost of replacing the car or going without, including any conversion aid you may qualify for. Then weigh the ZFE like any other factor: a city that scores well on cost, services and quality of life does not become a bad choice because it has one.",
+      },
+    ],
+    relatedCities: ["lyon", "grenoble", "strasbourg", "toulouse", "montpellier", "nice"],
+    tags: ["ZFE", "low-emission zone", "Crit'Air", "car", "diesel", "moving to France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

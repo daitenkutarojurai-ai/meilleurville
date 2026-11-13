@@ -10705,6 +10705,21 @@
       "slug": "where-to-rent-cheap-in-france-2027-one-bed-under-550",
       "title": "Where to Rent Cheap in France in 2027: Towns Where a 1-Bed Is €550 or Less",
       "emoji": "🏷️"
+    },
+    {
+      "slug": "where-to-live-in-france-after-divorce-or-separation-2026",
+      "title": "Where to Live in France After a Divorce or Separation (2026)",
+      "emoji": "🌱"
+    },
+    {
+      "slug": "medical-deserts-france-2026-check-doctor-access-before-you-move",
+      "title": "Medical Deserts in France: How to Check Doctor Access Before You Move",
+      "emoji": "🏥"
+    },
+    {
+      "slug": "low-emission-zones-zfe-france-2026-what-they-mean-for-your-move",
+      "title": "Low-Emission Zones (ZFE) in France: What They Mean for Your Move",
+      "emoji": "🚦"
     }
   ],
   "tags": [
@@ -10721,7 +10736,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 300
+      "count": 302
     },
     {
       "slug": "single-parent-in-france",
@@ -10881,7 +10896,7 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 24
+      "count": 25
     },
     {
       "slug": "burgundy",
@@ -11441,6 +11456,11 @@
     {
       "slug": "lorient",
       "label": "lorient",
+      "count": 3
+    },
+    {
+      "slug": "medical-deserts",
+      "label": "medical deserts",
       "count": 3
     },
     {
