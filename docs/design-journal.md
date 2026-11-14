@@ -1559,3 +1559,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. FR `TripletView` (branche 3 villes de `/comparer/[pair]`).
 2. `/comparer/[pair]/synthese` (FR + EN `synthesis`).
 3. `DepartementMap` (cadre, légende) puis page agenda.
+
+## 2026-11-14 ~03:00 UTC — FR `/comparer/[pair]` branche 3 villes (`TripletView`)
+
+**Surface** : pages trio FR. Avant : hero blanc à `Badge`, tout dans un seul bloc en `Card` à filet, villes en **bleu ciel / violet / orange** (violet et orange réservés aux paliers), verdict et gagnants de profil en **émeraude**, CTA en badges, renvois en boutons gris, feedback hors de `<main>`.
+
+**Changé** : hero `.bg-aurora` + fil d'Ariane + `EmojiBadge` 🥊 + pilule `grad-head-0`, noms en `gradient-text-anim` séparés par des pastilles « vs » `grad-head-5`, régions en pilules indigo/rose/cyan ; synthèse + `CityCard` (photos gardées) + verdict (liseré dégradé, gagnant en `.gradient-text`) en `band-indigo` ; radar + tableau (vrai `<table>`, en-tête `#EEF2FF`, « top » en pastille indigo) côte à côte dès `lg` en `band-sky` ; profils en `band-pink` (gagnant en pilule couleur de ville) ; climat + logement en `band-aqua` (bandeaux `grad-head-5` / `grad-head-0`) ; CTA quiz en `band-bold` ; renvois en pilules blanches `band-lilac` ; commentaires + `FeedbackWidget` (déplacé de `page.tsx`) en `band-white`. Villes : `CITY_COLORS` indigo/rose/cyan (radar compris). « Moins cher » en `emerald-700`. Copie, données, JSON-LD inchangés.
+
+**Fichiers** : `app/comparer/[pair]/TripletView.tsx`, `app/comparer/[pair]/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 2 fichiers : 0 problème. Captures playwright `/comparer/lyon-vs-marseille-vs-toulouse` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `/comparer/[pair]/synthese` (FR + EN `synthesis`).
+2. `DepartementMap` (cadre, légende).
+3. Page agenda.

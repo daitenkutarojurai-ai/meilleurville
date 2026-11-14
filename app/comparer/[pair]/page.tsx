@@ -131,9 +131,6 @@ export default async function PairPage({ params }: Props) {
       <>
         <Navbar />
         <TripletView cities={tripletCities} slug={pair} />
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 pb-10">
-          <FeedbackWidget />
-        </div>
         <Footer />
       </>
     );
