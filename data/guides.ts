@@ -41698,6 +41698,307 @@ export const GUIDES: Guide[] = [
     tags: ["famille Belfort 2026","vivre en famille Belfort","loyer T3 Belfort","écoles Belfort","Belfort avec enfants"],
   },
   {
+    slug: "famille-a-villeurbanne-2026",
+    title: "Famille à Villeurbanne en 2026 : un T3 à 1 150 €, 230 € sous Lyon, avec Écoles 7,7",
+    metaTitle: "Famille à Villeurbanne 2026 : T3 1 150 €, Écoles 7,7, 3 554 €/m²",
+    metaDesc: "Famille à Villeurbanne : T3 à 1 150 €, appartements à 3 554 €/m², Écoles 7,7, Transports 9,0, 21 % de pauvreté, 16,6 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "À Villeurbanne, un T3 se loue 1 150 € (notre estimation des loyers), 230 € de moins qu'à Lyon, et l'appartement se vend 3 554 € le m², 21 % sous Lyon. Les Écoles y sont notées 7,7 (rang 38 sur 593) et les Transports 9,0, premier rang. La commune est la plus peuplée du lot : 162 207 habitants, 8,8 % de plus qu'en 2016, dont 16,6 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Villeurbanne ?",
+        body: "Le T3 est à 1 150 €, le T2 à 870 €. L'appartement vaut 3 554 € le m² (3 578 ventes en 2024-2025) et la maison 4 153 € (170 ventes), soit 17 % de plus. Un appartement familial de 80 m² dépasse ainsi 284 000 € au prix médian, hors frais, contre plus de 358 000 € à Lyon.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 540 € par unité de consommation (Insee, Filosofi 2021), au rang 286 sur 586, avec 21 % de pauvreté. Lyon est à 25 430 € et 16 % ; Vaulx-en-Velin, voisine, à 17 180 € et 33 %. Villeurbanne se situe entre les deux, au niveau d'une grande ville moyenne plus que d'un quartier aisé de Lyon.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 7,7 (rang 38, 52 villes à égalité), Transports 9,0 (rang 1, 23 à égalité), Sécurité 5,7 (rang 241, 31 à égalité), Coût 5,4 (rang 307), Nature 4,3 (rang 420, 43 à égalité). Les écoles et le réseau portent la ville ; la nature est le point faible, et les espaces verts se cherchent hors de la commune.",
+      },
+      {
+        heading: "Que faire avec des enfants à Villeurbanne ?",
+        body: "Le quartier des Gratte-Ciel, inauguré en 1934, est le centre-ville : la station Gratte-Ciel de la ligne A du métro y dépose directement, et le Théâtre national populaire (TNP) se tient place du Docteur-Lazare-Goujon, au bord du quartier. Le métro A relie Villeurbanne au centre de Lyon sans voiture, ce qui compte pour une famille qui n'en veut qu'une.",
+      },
+      {
+        heading: "Villeurbanne face à Lyon et à Vaulx-en-Velin",
+        body: "Lyon loue un T3 1 380 € avec 8,9 en Écoles ; Vaulx-en-Velin, 1 000 € avec 2,4. Villeurbanne (1 150 € ; 7,7) est 230 € sous Lyon pour 1,2 point d'école de moins, et 150 € au-dessus de Vaulx, avec 5,3 points d'école de plus. C'est la ville du gradient : l'école de Lyon, moins le loyer de Lyon, sans le quartier de Vaulx.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Villeurbanne convient aux familles qui travaillent à Lyon, veulent des Écoles à 7,7 et le métro à la porte, et acceptent une nature à 4,3. Celles qui cherchent un grand jardin ou un achat sous 3 000 € le m² regarderont plus loin dans l'agglomération.",
+      },
+    ],
+    relatedCities: ["villeurbanne","lyon","vaulx-en-velin","saint-priest"],
+    relatedGuides: [
+      "10-choses-a-faire-a-villeurbanne-2026",
+    ],
+    tags: ["famille Villeurbanne 2026","vivre en famille Villeurbanne","loyer T3 Villeurbanne","écoles Villeurbanne","Villeurbanne avec enfants"],
+  },
+  {
+    slug: "famille-a-versailles-2026",
+    title: "Famille à Versailles en 2026 : Écoles 9,0 au rang 1, mais un appartement à 6 491 € le m²",
+    metaTitle: "Famille à Versailles 2026 : Écoles 9,0, T3 1 700 €, 6 491 €/m²",
+    metaDesc: "Famille à Versailles : T3 à 1 700 €, appartements à 6 491 €/m², Écoles 9,0, Sécurité 6,3, 7 % de pauvreté, 18,0 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Versailles obtient 9,0 en Écoles (rang 1 sur 593, 13 villes à égalité) et vend ce résultat cher : le T3 se loue 1 700 € (notre estimation des loyers) et l'appartement se vend 6 491 € le m². Le niveau de vie médian est de 33 780 €, au rang 10 sur 586, avec 7 % de pauvreté. La commune compte 83 918 habitants, 1,7 % de moins qu'en 2016, et 18,0 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Versailles ?",
+        body: "Le T3 est à 1 700 €, le T2 à 1 200 €. L'appartement vaut 6 491 € le m² (1 603 ventes en 2024-2025) et la maison 8 935 € (171 ventes), 38 % de plus ; ce dernier prix inclut le terrain. Un appartement de 80 m² dépasse 519 000 € au prix médian, hors frais.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 33 780 € par unité de consommation (Insee, Filosofi 2021), au rang 10 sur 586, avec 7 % de pauvreté. Saint-Germain-en-Laye est à 33 250 € et 9 %. Le revenu local suit le prix du marché : les familles qui achètent ici le font en majorité avec un revenu déjà haut.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 9,0 (rang 1, 13 à égalité), Transports 8,4 (rang 28, 14 à égalité), Sécurité 6,3 (rang 177, 12 à égalité), Nature 5,0 (rang 346, 51 à égalité), Coût 2,4 (rang 563, 4 à égalité). Le coût est la seule note qui pénalise nettement ; le reste est de haut de tableau.",
+      },
+      {
+        heading: "Que faire avec des enfants à Versailles ?",
+        body: "Le Potager du Roi, au 10 rue du Maréchal-Joffre, propose des visites et des animations pour les familles, dont certaines à partir de 3 ans ; le programme change, il se vérifie avant de venir. Il se rejoint à pied depuis la gare Versailles-Château-Rive-Gauche du RER C, en une dizaine de minutes. Depuis Paris-Montparnasse, la ligne N mène à Versailles-Chantiers.",
+      },
+      {
+        heading: "Versailles face à Saint-Germain-en-Laye et à Boulogne",
+        body: "Saint-Germain-en-Laye loue un T3 1 600 € avec 9,0 en Écoles et vend l'appartement 6 429 € le m² ; Boulogne-Billancourt, 2 000 € avec 8,7 et 8 243 €. Versailles (1 700 € ; 9,0 ; 6 491 €) est au niveau de Saint-Germain pour l'école et le prix, et 300 € sous Boulogne en loyer, avec une meilleure note d'école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Versailles convient aux familles à revenu élevé qui placent l'école au premier rang et travaillent à Paris par le RER C ou le train. Celles qui ont un budget logement serré regarderont une ville moins chère avec une école notée 6 à 7, plutôt que de s'étirer pour 9,0.",
+      },
+    ],
+    relatedCities: ["versailles","saint-germain-en-laye","boulogne-billancourt","paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-versailles-2026",
+    ],
+    tags: ["famille Versailles 2026","vivre en famille Versailles","loyer T3 Versailles","écoles Versailles","Versailles avec enfants"],
+  },
+  {
+    slug: "famille-a-boulogne-billancourt-2026",
+    title: "Famille à Boulogne-Billancourt en 2026 : Écoles 8,7, un T3 à 2 000 € et 8 243 € le m²",
+    metaTitle: "Famille à Boulogne-Billancourt 2026 : T3 2 000 €, Écoles 8,7",
+    metaDesc: "Famille à Boulogne-Billancourt : T3 à 2 000 €, appartements à 8 243 €/m², Écoles 8,7, Transports 9,0, 9 % de pauvreté, 16,1 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Boulogne-Billancourt loue un T3 2 000 € (notre estimation des loyers) et vend un appartement 8 243 € le m², pour des Écoles à 8,7 (rang 15 sur 593) et des Transports à 9,0. C'est la ville la plus chère du lot, avec une note Coût de 2,2 (rang 570). La commune compte 120 205 habitants, presque stable (+0,5 % depuis 2016), et 16,1 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Boulogne-Billancourt ?",
+        body: "Le T3 est à 2 000 €, le T2 à 1 400 €. L'appartement vaut 8 243 € le m² (2 877 ventes en 2024-2025). La maison est à 12 621 € le m², mais sur 67 ventes seulement : un échantillon mince, à lire avec prudence. Un appartement de 80 m² dépasse 659 000 € au prix médian, hors frais.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 35 040 € par unité de consommation (Insee, Filosofi 2021), au rang 7 sur 586, avec 9 % de pauvreté. Paris est à 29 730 € et 16 %. Le revenu est très haut, et il est ce qui permet d'acheter : le prix du m² suppose un apport ou un double salaire élevé.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Écoles 8,7 (rang 15, 15 à égalité), Transports 9,0 (rang 1), Sécurité 5,7 (rang 241, 31 à égalité), Nature 4,5 (rang 416, 4 à égalité), Coût 2,2 (rang 570, 24 à égalité). Une ville de haut de tableau pour l'école et le réseau, au milieu pour la sécurité, et la plus chère de toutes pour le coût.",
+      },
+      {
+        heading: "Que faire avec des enfants à Boulogne-Billancourt ?",
+        body: "Le musée départemental Albert-Kahn, avec ses quelque 4 hectares de jardins, se trouve près du terminus Pont de Saint-Cloud de la ligne 10 du métro ; il ferme en janvier et ses tarifs se vérifient sur le site officiel. La ligne 9 dessert les stations Marcel-Sembat, Billancourt et Pont de Sèvres. Le tramway T2 passe côté Seine, à Parc de Saint-Cloud.",
+      },
+      {
+        heading: "Boulogne-Billancourt face à Issy-les-Moulineaux et à Courbevoie",
+        body: "Issy-les-Moulineaux loue un T3 1 800 € avec 9,0 en Écoles (appartement 7 511 € le m²) ; Courbevoie, 1 750 € avec 8,7 (6 658 €). Boulogne (2 000 € ; 8,7 ; 8 243 €) est 200 € au-dessus d'Issy pour une note d'école inférieure de 0,3, et 250 € au-dessus de Courbevoie pour la même note. Son avantage est la taille et la desserte, pas le prix.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Boulogne-Billancourt convient aux familles à très haut revenu qui veulent Paris à portée de métro et une école à 8,7. Celles qui comparent les prix prendront Courbevoie, à même note d'école et 1 585 € le m² moins cher à l'achat, ou Issy-les-Moulineaux, mieux notée.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt","issy-les-moulineaux","courbevoie","paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-boulogne-billancourt-2026",
+    ],
+    tags: ["famille Boulogne-Billancourt 2026","vivre en famille Boulogne-Billancourt","loyer T3 Boulogne-Billancourt","écoles Boulogne-Billancourt","Boulogne-Billancourt avec enfants"],
+  },
+  {
+    slug: "famille-a-dunkerque-2026",
+    title: "Famille à Dunkerque en 2026 : un T3 à 750 €, la maison moins chère que l'appartement et un bus gratuit",
+    metaTitle: "Famille à Dunkerque 2026 : T3 750 €, Écoles 5,8, bus gratuit",
+    metaDesc: "Famille à Dunkerque : T3 à 750 €, appartements à 2 227 €/m², maisons à 2 027 €, Écoles 5,8, 22 % de pauvreté, population en baisse de 1,2 %.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Dunkerque loue un T3 750 € (notre estimation des loyers) et vend la maison 2 027 € le m², 9 % sous l'appartement (2 227 €). Le réseau de bus y est gratuit depuis le 1er septembre 2018. Les Écoles sont notées 5,8 (rang 249 sur 593) et le Coût 6,4 (rang 175). La commune compte 87 013 habitants, 1,2 % de moins qu'en 2016, et 16,5 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Dunkerque ?",
+        body: "Le T3 est à 750 €, le T2 à 560 €. L'appartement vaut 2 227 € le m² (847 ventes en 2024-2025) et la maison 2 027 € (1 182 ventes) : la maison, avec son terrain, coûte moins cher au m² que l'appartement. Un appartement de 80 m² vaut près de 178 000 € au prix médian, hors frais.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 20 240 € par unité de consommation (Insee, Filosofi 2021), au rang 407 sur 586, avec 22 % de pauvreté. Calais est à 18 090 € et 29 % ; Lille à 20 520 € et 27 %. Dunkerque a le meilleur taux des trois.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Coût 6,4 (rang 175, 28 à égalité), Écoles 5,8 (rang 249, 22 à égalité), Transports 6,1 (rang 281, 20 à égalité), Nature 5,0 (rang 346, 51 à égalité), Sécurité 4,5 (rang 431, 31 à égalité). Le logement tire la ville ; la sécurité est le point à regarder de près, rue par rue.",
+      },
+      {
+        heading: "Que faire avec des enfants à Dunkerque ?",
+        body: "La plage de Malo-les-Bains et sa digue sont desservies par le bus gratuit, les lignes C4 et C4A ayant pour terminus Malo-Plage ; quatre arrêts bordent la digue toute l'année. Pas de ticket à valider : une famille sans voiture rejoint la mer à moindre coût. Les horaires se vérifient sur l'application DK'Bus.",
+      },
+      {
+        heading: "Dunkerque face à Calais et à Lille",
+        body: "Calais loue un T3 640 € avec 4,5 en Écoles et a perdu 9,9 % d'habitants depuis 2016 ; Lille, 1 080 € avec 7,9 (appartement 3 705 € le m²). Dunkerque (750 € ; 5,8 ; 2 227 €) est 110 € au-dessus de Calais avec 1,3 point d'école de plus et une population presque stable, et 330 € sous Lille.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Dunkerque convient aux familles qui veulent acheter une maison sous 2 100 € le m², vivre près de la mer et se passer d'une deuxième voiture grâce au bus gratuit. Celles qui placent l'école au-dessus de tout regarderont Lille, notée 7,9, au prix d'un loyer plus haut de 330 €.",
+      },
+    ],
+    relatedCities: ["dunkerque","calais","lille","valenciennes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-dunkerque-2026",
+    ],
+    tags: ["famille Dunkerque 2026","vivre en famille Dunkerque","loyer T3 Dunkerque","écoles Dunkerque","Dunkerque avec enfants"],
+  },
+  {
+    slug: "famille-a-creteil-2026",
+    title: "Famille à Créteil en 2026 : un T3 à 1 250 €, la ligne 8 jusqu'au lac et 3 495 € le m²",
+    metaTitle: "Famille à Créteil 2026 : T3 1 250 €, 3 495 €/m², Écoles 5,3",
+    metaDesc: "Famille à Créteil : T3 à 1 250 €, appartements à 3 495 €/m², Écoles 5,3, Transports 9,0, 21 % de pauvreté, 19,7 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Créteil loue un T3 1 250 € (notre estimation des loyers) et vend un appartement 3 495 € le m², 59 % sous Vincennes (8 547 €). Les Transports y sont notés 9,0, premier rang, les Écoles 5,3 (rang 376 sur 593). C'est une ville jeune : 19,7 % de ses 92 859 habitants ont moins de 15 ans, et sa population a augmenté de 3,9 % depuis 2016.",
+    sections: [
+      {
+        heading: "Quel budget logement à Créteil ?",
+        body: "Le T3 est à 1 250 €, le T2 à 950 €. L'appartement vaut 3 495 € le m² (993 ventes en 2024-2025) et la maison 5 574 € (118 ventes), 59 % de plus. Un appartement de 80 m² vaut près de 280 000 € au prix médian, hors frais, soit moins de la moitié du prix de Vincennes (8 547 € le m²).",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 270 € par unité de consommation (Insee, Filosofi 2021), au rang 316 sur 586, avec 21 % de pauvreté. Vincennes est à 34 880 € et 8 % ; Vitry-sur-Seine à 19 490 € et 26 %. Créteil se place à mi-chemin, avec un revenu proche de celui d'une grande ville de province.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Transports 9,0 (rang 1, 23 à égalité), Écoles 5,3 (rang 376, 34 à égalité), Sécurité 4,1 (rang 488, 14 à égalité), Coût 4,0 (rang 488, 8 à égalité), Nature 3,6 (rang 481, 31 à égalité). Le réseau est la seule note de haut de tableau ; l'école et la sécurité sont sous la médiane.",
+      },
+      {
+        heading: "Que faire avec des enfants à Créteil ?",
+        body: "Le lac de Créteil, ancienne carrière d'environ quarante hectares et quatre kilomètres de tour, fait partie de l'île de loisirs ; l'entrée est gratuite, certaines activités (bassin à vagues, accrobranche, location de bateaux) sont payantes, et la baignade dans le lac est interdite par arrêté préfectoral. La station Pointe du Lac, terminus de la ligne 8 depuis 2011, est à côté.",
+      },
+      {
+        heading: "Créteil face à Vincennes et à Vitry-sur-Seine",
+        body: "Vincennes loue un T3 1 800 € avec 8,7 en Écoles ; Vitry-sur-Seine, 1 300 € avec 5,5 et un appartement à 3 842 € le m². Créteil (1 250 € ; 5,3 ; 3 495 €) est 550 € sous Vincennes, 50 € sous Vitry, avec une note d'école de 3,4 points sous Vincennes. Le prix d'achat est le plus bas des trois.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Créteil convient aux familles qui veulent un T3 sous 1 300 €, le métro jusqu'à Paris et un lac à proximité, et qui regarderont l'école secteur par secteur. Celles qui veulent une école à 8 ou plus iront à Vincennes, plus de deux fois plus chère à l'achat.",
+      },
+    ],
+    relatedCities: ["creteil","vincennes","vitry-sur-seine","paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-creteil-2026",
+    ],
+    tags: ["famille Créteil 2026","vivre en famille Créteil","loyer T3 Créteil","écoles Créteil","Créteil avec enfants"],
+  },
+  {
+    slug: "famille-a-montreuil-2026",
+    title: "Famille à Montreuil en 2026 : un T3 à 1 400 €, 5 938 € le m² et un revenu médian de 21 150 €",
+    metaTitle: "Famille à Montreuil 2026 : T3 1 400 €, 5 938 €/m², Écoles 5,3",
+    metaDesc: "Famille à Montreuil : T3 à 1 400 €, appartements à 5 938 €/m², Écoles 5,3, Transports 9,0, 25 % de pauvreté, 19,4 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Montreuil loue un T3 1 400 € (notre estimation des loyers) et vend l'appartement 5 938 € le m², 38 % sous Paris (9 646 €). Le niveau de vie médian est de 21 150 €, avec 25 % de pauvreté : le prix est celui d'une commune parisienne, le revenu non. Les Transports sont notés 9,0, les Écoles 5,3 (rang 376 sur 593). La commune compte 110 758 habitants, 2,2 % de plus qu'en 2016, et 19,4 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Montreuil ?",
+        body: "Le T3 est à 1 400 €, le T2 à 1 050 €. L'appartement vaut 5 938 € le m² (1 649 ventes en 2024-2025) et la maison 6 000 € (369 ventes) : les deux prix sont presque identiques. Un appartement de 80 m² dépasse 475 000 € au prix médian, hors frais.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 150 € par unité de consommation (Insee, Filosofi 2021), au rang 332 sur 586, avec 25 % de pauvreté. Vincennes, à la porte, est à 34 880 € et 8 % ; Saint-Denis à 16 470 € et 37 %. Montreuil est une ville de contrastes, avec un revenu proche de celui de Vitry-sur-Seine et un prix du m² proche de celui des communes parisiennes.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Transports 9,0 (rang 1, 23 à égalité), Écoles 5,3 (rang 376, 34 à égalité), Coût 3,8 (rang 498, 8 à égalité), Sécurité 3,9 (rang 515, 8 à égalité), Nature 2,8 (rang 556, 2 à égalité). Le réseau est le seul point fort chiffré ; les parcs sont à chercher dans les pages ville, ils ne remontent pas dans cette note.",
+      },
+      {
+        heading: "Que faire avec des enfants à Montreuil ?",
+        body: "Le parc Jean-Moulin-Les Guilands se rejoint depuis la station Mairie de Montreuil, terminus de la ligne 9, en remontant le boulevard Rouget-de-Lisle ; il se prolonge vers les parcs des Beaumonts et Montreau. Les Murs à pêches, patrimoine agricole de la ville, ne sont ouverts qu'à certaines dates, souvent le dimanche après-midi ; la ligne 11 dessert aussi la commune (station Montreuil-Hôpital).",
+      },
+      {
+        heading: "Montreuil face à Vincennes et à Paris",
+        body: "Vincennes loue un T3 1 800 € avec 8,7 en Écoles et vend l'appartement 8 547 € le m² ; Paris, 2 800 € avec 7,9 et 9 646 €. Montreuil (1 400 € ; 5,3 ; 5 938 €) est 400 € sous Vincennes et 1 400 € sous Paris sur le loyer, avec 3,4 points d'école de moins que Vincennes. L'économie est réelle, la note d'école ne suit pas.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Montreuil convient aux familles qui travaillent à Paris, veulent le métro à la porte et acceptent de regarder les écoles une par une. Celles qui placent la sécurité ou une école très bien notée au premier rang regarderont Vincennes, à 400 € de loyer de plus.",
+      },
+    ],
+    relatedCities: ["montreuil","vincennes","paris","saint-denis"],
+    relatedGuides: [
+      "10-choses-a-faire-a-montreuil-2026",
+    ],
+    tags: ["famille Montreuil 2026","vivre en famille Montreuil","loyer T3 Montreuil","écoles Montreuil","Montreuil avec enfants"],
+  },
+  {
+    slug: "famille-a-nanterre-2026",
+    title: "Famille à Nanterre en 2026 : un T3 à 1 400 €, Écoles 5,8, 4 996 € le m² et 4,1 % d'habitants en plus",
+    metaTitle: "Famille à Nanterre 2026 : T3 1 400 €, 4 996 €/m², Écoles 5,8",
+    metaDesc: "Famille à Nanterre : T3 à 1 400 €, appartements à 4 996 €/m², Écoles 5,8, Transports 9,0, 22 % de pauvreté, 19,6 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Nanterre loue un T3 1 400 € (notre estimation des loyers), 350 € de moins que Courbevoie, et vend l'appartement 4 996 € le m². Les Transports y sont notés 9,0 (rang 1 sur 593), les Écoles 5,8 (rang 249), la Sécurité 4,1 (rang 488). La commune compte 98 119 habitants, 4,1 % de plus qu'en 2016, et 19,6 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Nanterre ?",
+        body: "Le T3 est à 1 400 €, le T2 à 1 050 €. L'appartement vaut 4 996 € le m² (654 ventes en 2024-2025) et la maison 6 166 € (206 ventes), 23 % de plus. Un appartement de 80 m² vaut près de 400 000 € au prix médian, hors frais.",
+      },
+      {
+        heading: "Quels revenus et quelle pauvreté ?",
+        body: "Le niveau de vie médian est de 21 620 € par unité de consommation (Insee, Filosofi 2021), au rang 281 sur 586, avec 22 % de pauvreté. Rueil-Malmaison, voisine, est à 32 980 € et 8 % ; Courbevoie à 32 080 € et 11 %. L'écart de revenu avec les communes voisines est de plus de dix mille euros.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité, la nature ?",
+        body: "Transports 9,0 (rang 1, 23 à égalité), Écoles 5,8 (rang 249, 22 à égalité), Coût 3,3 (rang 531, 8 à égalité), Sécurité 4,1 (rang 488, 14 à égalité), Nature 3,1 (rang 522, 2 à égalité). Le réseau est la force de la ville ; la note de nature ne rend pas compte d'un grand parc, que le point suivant détaille.",
+      },
+      {
+        heading: "Que faire avec des enfants à Nanterre ?",
+        body: "Le parc André-Malraux, d'environ 25 hectares et doté d'un lac, est l'un des plus grands espaces verts des Hauts-de-Seine ; la gare RER A Nanterre-Préfecture est la plus proche. L'université Paris Nanterre a sa propre station, Nanterre-Université, desservie par le RER A et la ligne L : une famille d'étudiants et d'enfants plus jeunes reste dans le même réseau.",
+      },
+      {
+        heading: "Nanterre face à Rueil-Malmaison et à Courbevoie",
+        body: "Rueil-Malmaison loue un T3 1 600 € avec 9,0 en Écoles et 7,2 en Sécurité, l'appartement à 5 478 € le m² ; Courbevoie, 1 750 € avec 8,7 et 6,7, à 6 658 €. Nanterre (1 400 € ; 5,8 ; 4,1) est 200 € sous Rueil et 350 € sous Courbevoie, avec 3,2 points d'école de moins que Rueil. L'écart de prix à l'achat est de 482 € le m² avec Rueil.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Nanterre convient aux familles qui travaillent à La Défense ou à Paris par le RER A, veulent un T3 à 1 400 € et un grand parc, et vérifient l'école par secteur. Celles qui placent l'école et la sécurité au premier rang prendront Rueil-Malmaison, 200 € plus cher.",
+      },
+    ],
+    relatedCities: ["nanterre","rueil-malmaison","courbevoie","paris"],
+    relatedGuides: [
+      "10-choses-a-faire-a-nanterre-2026",
+    ],
+    tags: ["famille Nanterre 2026","vivre en famille Nanterre","loyer T3 Nanterre","écoles Nanterre","Nanterre avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
