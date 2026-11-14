@@ -54581,6 +54581,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Charleville-Mézières","voyage solo Ardennes","Charleville-Mézières place Ducale","week-end célibataire Grand Est","Charleville-Mézières séjour solo"],
   },
   {
+    slug: "vacances-celibataire-pessac-2026",
+    title: "Vacances célibataire à Pessac en 2026 : Le Corbusier, Haut-Brion et le tram B jusqu'à Bordeaux",
+    metaTitle: "Vacances célibataire Pessac 2026 : tram, budget, campus",
+    metaDesc: "Pessac en séjour célibataire : 26,3 % de 15-29 ans, cité Frugès-Le Corbusier, tram B, T2 à 800 €. Un coût noté 4/10, dit sans détour.",
+    category: "lifestyle",
+    emoji: "🏛️",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Pessac compte 66 874 habitants (Insee 2022), dont 26,3 % de 15-29 ans et seulement 22,4 % de 60 ans et plus : sur ce critère, c'est une commune étudiante à l'année, pas une station. Notre fiche lui donne 7,7/10 en transport, 5,7/10 en culture et 4/10 en coût. Le deux-pièces de référence est à 800 €, la population a gagné 5 015 habitants depuis 2016. Pessac se visite comme une base à côté de Bordeaux, pas comme une destination de soirées à elle seule.",
+    sections: [
+      {
+        heading: "Pourquoi Pessac : une commune étudiante à l'année",
+        body: "26,3 % de 15-29 ans et 22,4 % de seniors : la commune vit à l'année autour du campus. Le contrepoint est chiffré : 4/10 en coût et 4,9/10 en sécurité. Le studio est à 580 € et le deux-pièces à 800 € dans notre estimation des loyers : ce n'est pas un séjour au rabais.",
+      },
+      {
+        heading: "Où dormir : Saige ou le centre, tous deux sur le tram B",
+        body: "Notre fiche quartiers en documente deux. Saige (étudiant) note 6,5/10 de vie du soir et 8/10 de transport, avec un deux-pièces à 720 €. Centre Pessac note 6/10 et 7,8/10, pour 850 €. Les deux sont rattachés au tramway B. Saige est le choix le moins cher et le plus animé.",
+      },
+      {
+        heading: "Ce qu'on y fait : Le Corbusier, vignobles, cinéma",
+        body: "Les repères de notre guide tourisme : la cité Frugès-Le Corbusier, inscrite à l'UNESCO, la maison municipale du même nom, les châteaux Haut-Brion et Pape Clément, l'appellation Pessac-Léognan, l'écosite du Bourgailh et le cinéma Jean Eustache. Le Festival international du film d'histoire est cité sans dates : à confirmer avant de réserver.",
+      },
+      {
+        heading: "La vie hors saison : le campus tourne de septembre à juin",
+        body: "Avec 26,3 % de 15-29 ans, la commune garde du monde hors des vacances d'été. La vie du soir de 6,5/10 dans le meilleur quartier est sous notre plancher de 8,0/10 : on sort, mais on rentre à Bordeaux pour la grande soirée. La part étudiante baisse l'été, ce que les données ne chiffrent pas.",
+      },
+      {
+        heading: "Se déplacer : le tram B comme colonne vertébrale",
+        body: "Le transport est noté 7,7/10. Notre fiche quartiers cite le tramway B pour Saige et le centre. Notre relevé des transports ne contient pas d'entrée propre à Pessac : la desserte ferroviaire et les horaires de nuit ne sont pas dans nos données, à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 23 °C en juillet, 6,9 °C en janvier",
+        body: "Notre fiche donne 23 °C en juillet, 6,9 °C en janvier et 2 050 jours-soleil. Aucune normale mensuelle n'est publiée ici. Pour les châteaux et le Bourgailh, la fin du printemps et septembre évitent la chaleur.",
+      },
+    ],
+    relatedCities: ["pessac","bordeaux"],
+    relatedGuides: ["10-choses-a-faire-a-pessac-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Pessac","voyage solo Gironde","Pessac cité Frugès Le Corbusier","week-end célibataire Nouvelle-Aquitaine","Pessac séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-laval-2026",
+    title: "Vacances célibataire à Laval en 2026 : musée d'art naïf, vieux quartier et T2 à 490 €",
+    metaTitle: "Vacances célibataire Laval 2026 : budget, vieux Laval",
+    metaDesc: "Laval en séjour célibataire : 22,5 % de 15-29 ans, château, musée d'Art naïf, vieux quartier animé, T2 à 490 €. TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Laval compte 49 474 habitants (Insee 2022), dont 22,5 % de 15-29 ans et 27,8 % de 60 ans et plus ; la population est stable depuis 2016 (−18 habitants). Notre fiche lui donne 7,2/10 en coût, 6,8/10 en sécurité et 4,8/10 en culture. Le deux-pièces est à 490 €. Notre relevé des transports y signale un TGV direct. Le séjour tient au prix et à un centre médiéval qui sort le soir, pas à une scène culturelle large.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 490 €",
+        body: "Studio à 350 €, deux-pièces à 490 €, achat à 1 550 € le m². La note de coût est de 7,2/10, celle de sécurité de 6,8/10. Le contrepoint est dit : 4,8/10 en culture et 5,1/10 en télétravail, donc peu de programmation en dehors des rendez-vous annoncés par l'office de tourisme.",
+      },
+      {
+        heading: "Où dormir : le Vieux-Laval, seul quartier qui sort",
+        body: "Notre fiche quartiers en documente trois. Le Vieux-Laval note 6,5/10 de vie du soir et 7,5/10 de transport (deux-pièces à 500 €), Saint-Nicolas 5 et 6,5, Le Moulin 5 et 6. Pour sortir à pied, le Vieux-Laval : médiéval, boutiques, animé.",
+      },
+      {
+        heading: "Ce qu'on y fait : château, art naïf, Port-du-Salut",
+        body: "Les repères de notre guide tourisme : le château, le musée d'Art naïf, les bains-douches municipaux classés Art déco, le quartier médiéval autour de la rue de Bootz et du pont Vieux, la cathédrale de la Trinité, l'abbaye du Port-du-Salut, Sainte-Suzanne et Jublains, en excursion.",
+      },
+      {
+        heading: "La vie hors saison : stable, étudiante à moitié",
+        body: "22,5 % de 15-29 ans et 27,8 % de seniors, sous notre plafond de 32 %. La population ne bouge pas depuis 2016. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10 : un jeudi de novembre est calme, mais pas vide.",
+      },
+      {
+        heading: "Se déplacer : le TGV oui, le tram non",
+        body: "Le transport est noté 5,5/10. Notre relevé signale un TGV direct et ni tram ni métro. Le Vieux-Laval se note 7,5/10 en transport : on s'y déplace à pied. Les horaires de bus en soirée ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 20,5 °C en juillet, 4,5 °C en janvier",
+        body: "Notre fiche donne 20,5 °C en juillet, 4,5 °C en janvier et 1 930 jours-soleil. Aucune normale mensuelle n'est publiée ici. Les excursions à Sainte-Suzanne et Jublains se font mieux hors des mois froids.",
+      },
+    ],
+    relatedCities: ["laval"],
+    relatedGuides: ["10-choses-a-faire-a-laval-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Laval","voyage solo Mayenne","Laval musée d'art naïf","week-end célibataire Pays de la Loire","Laval séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-boulogne-sur-mer-2026",
+    title: "Vacances célibataire à Boulogne-sur-Mer en 2026 : Nausicaá, ville haute et un T2 à 580 €",
+    metaTitle: "Vacances célibataire Boulogne-sur-Mer 2026 : budget",
+    metaDesc: "Boulogne-sur-Mer en séjour célibataire : 22 % de 15-29 ans, Nausicaá, remparts, port, T2 à 580 €. Sécurité notée 4,3/10, dite sans détour.",
+    category: "lifestyle",
+    emoji: "🐟",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Boulogne-sur-Mer compte 41 039 habitants (Insee 2022), dont 22 % de 15-29 ans et 25,5 % de 60 ans et plus ; la ville perd 630 habitants depuis 2016. Notre fiche lui donne 6,4/10 en coût, 5,9/10 en culture et 4,3/10 en sécurité. Le deux-pièces est à 580 €. C'est un séjour de mer du Nord, avec 1 620 heures de soleil par an : on y va pour le port et Nausicaá, pas pour la douceur.",
+    sections: [
+      {
+        heading: "Le budget : 580 € le deux-pièces, 6,4/10 en coût",
+        body: "Studio à 420 €, deux-pièces à 580 €, achat à 1 900 € le m². Le contrepoint est dit : la sécurité est notée 4,3/10 et le transport 5,2/10. Le télétravail, à 4,3/10, ne convient pas à un séjour long.",
+      },
+      {
+        heading: "Où dormir : Basse-Ville ou Haute-Ville",
+        body: "Notre fiche quartiers en documente trois. La Basse-Ville note 6,5/10 de vie du soir et 7,5/10 de transport (port, marché, commerce, animé), la Haute-Ville 6,5 et 7 (remparts, cathédrale), Outreau 4,5 et 7. Pour sortir à pied, la Basse-Ville.",
+      },
+      {
+        heading: "Ce qu'on y fait : Nausicaá, remparts, criée",
+        body: "Les repères de notre guide tourisme : Nausicaá, la ville haute fortifiée et ses remparts, le port de pêche et la criée, le château-musée, puis en excursion Wimereux, le cap Gris-Nez et Le Portel. Aucun horaire ni tarif n'est repris ici.",
+      },
+      {
+        heading: "La vie hors saison : réelle, mais en recul",
+        body: "22 % de 15-29 ans et 25,5 % de seniors, sous notre plafond de 32 %. La population recule de 1,5 % depuis 2016. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10 : le port et le centre vivent, la ville ne se transforme pas le soir.",
+      },
+      {
+        heading: "Se déplacer : aucun réseau dans notre relevé",
+        body: "Notre relevé ne signale ni TGV, ni tram, ni métro. Le transport est noté 5,2/10 ; la Basse-Ville et Outreau se notent 7,5 et 7/10. La liaison ferroviaire et les horaires de nuit ne sont pas dans nos données : à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 19,5 °C en juillet, 4,5 °C en janvier",
+        body: "Notre fiche donne 19,5 °C en juillet, 4,5 °C en janvier et 1 620 heures de soleil. Aucune normale mensuelle n'est publiée ici. Pour le littoral, la fin du printemps et l'été sont les plus confortables.",
+      },
+    ],
+    relatedCities: ["boulogne-sur-mer"],
+    relatedGuides: ["10-choses-a-faire-a-boulogne-sur-mer-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Boulogne-sur-Mer","voyage solo Pas-de-Calais","Boulogne-sur-Mer Nausicaá","week-end célibataire Hauts-de-France","Boulogne-sur-Mer séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-saint-brieuc-2026",
+    title: "Vacances célibataire à Saint-Brieuc en 2026 : baie, centre animé et un T2 à 580 €",
+    metaTitle: "Vacances célibataire Saint-Brieuc 2026 : budget, baie",
+    metaDesc: "Saint-Brieuc en séjour célibataire : 21 % de 15-29 ans, baie aux grandes marées, centre-ville animé, T2 à 580 €. TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Saint-Brieuc compte 44 607 habitants (Insee 2022), dont 21 % de 15-29 ans et 28,8 % de 60 ans et plus. Notre fiche lui donne 6,4/10 en nature, 6,4/10 en coût et 4,9/10 en transport. Le deux-pièces est à 580 €. Notre relevé des transports y signale un TGV direct. C'est une base pour la côte du Goëlo et la baie, avec un centre qui sort un peu le soir.",
+    sections: [
+      {
+        heading: "Pourquoi Saint-Brieuc : une base bretonne à prix moyen",
+        body: "Studio à 420 €, deux-pièces à 580 €, achat à 1 800 € le m². Coût noté 6,4/10, nature 6,4/10 et 2 000 jours-soleil dans notre fiche. Le contrepoint est dit : le transport n'est noté que 4,9/10.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 6,5/10 de vie du soir et 7/10 de transport (deux-pièces à 590 €), Cesson 4,5 et 6,5, Binic-Étables 5 et 5,5. Pour sortir à pied, le centre-ville.",
+      },
+      {
+        heading: "Ce qu'on y fait : baie, cathédrale, côte",
+        body: "Les repères de notre guide tourisme : la baie de Saint-Brieuc et ses marées, la cathédrale Saint-Étienne, les falaises de Plouha, le cap Fréhel, l'île de Bréhat, Paimpol, Dinan et Saint-Malo, en excursion. Les excursions demandent des trajets que nos données ne détaillent pas.",
+      },
+      {
+        heading: "La vie hors saison : stable, tournée vers les résidents",
+        body: "21 % de 15-29 ans et 28,8 % de seniors, sous notre plafond de 32 %. La population recule de 0,9 % depuis 2016, ce que le recensement ne distingue pas d'une stabilité. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10.",
+      },
+      {
+        heading: "Se déplacer : TGV oui, urbain limité",
+        body: "Notre relevé signale un TGV direct et ni tram ni métro. Le transport est noté 4,9/10 ; le centre-ville se note 7/10. Pour les excursions sur la côte, notre relevé ne dit rien des cars : à vérifier.",
+      },
+      {
+        heading: "Quand y aller : 19,5 °C en juillet, 5 °C en janvier",
+        body: "Notre fiche donne 19,5 °C en juillet, 5 °C en janvier et 2 000 jours-soleil. Aucune normale mensuelle n'est publiée ici. Pour la côte et les falaises, la fin du printemps et l'été sont les plus confortables.",
+      },
+    ],
+    relatedCities: ["saint-brieuc"],
+    relatedGuides: ["10-choses-a-faire-a-saint-brieuc-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Saint-Brieuc","voyage solo Côtes-d'Armor","Saint-Brieuc baie","week-end célibataire Bretagne","Saint-Brieuc séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-saint-quentin-2026",
+    title: "Vacances célibataire à Saint-Quentin en 2026 : Art déco, pastels de La Tour et un T2 à 480 €",
+    metaTitle: "Vacances célibataire Saint-Quentin 2026 : Art déco, budget",
+    metaDesc: "Saint-Quentin en séjour célibataire : 20,3 % de 15-29 ans, circuit Art déco, musée Lécuyer, T2 à 480 €, culture 7,5/10. Sécurité 4,7/10.",
+    category: "lifestyle",
+    emoji: "🏙️",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Saint-Quentin compte 52 995 habitants (Insee 2022), dont 20,3 % de 15-29 ans et 28,3 % de 60 ans et plus ; la ville perd 1 378 habitants depuis 2016. Notre fiche lui donne 8,3/10 en coût, 4,7/10 en sécurité et 7,7/10 en transport. Le deux-pièces est à 480 €. Pour un séjour solo, c'est une ville d'architecture et de musées à très petit prix, pas une ville de nuits longues.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 480 €, coût noté 8,3/10",
+        body: "Studio à 350 €, deux-pièces à 480 €, achat à 1 500 € le m². Le contrepoint est dit : 4,7/10 en sécurité, 5,5/10 en vie et 5/10 en nature.",
+      },
+      {
+        heading: "Où dormir : le centre art déco",
+        body: "Notre fiche quartiers en documente trois. Le centre art déco note 6,5/10 de vie du soir (deux-pièces à 490 €), Isle / Parc 5/10 et Remicourt 4/10. Pour sortir à pied, le centre.",
+      },
+      {
+        heading: "Ce qu'on y fait : basilique, Art déco, pastels",
+        body: "Les repères de notre guide tourisme : la basilique, l'hôtel de ville, le circuit Art déco de la ville reconstruite, le musée Antoine-Lécuyer et ses pastels de La Tour, la réserve des marais d'Isle et le parc d'Isle. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : calme, en recul",
+        body: "20,3 % de 15-29 ans et 28,3 % de seniors, sous notre plafond de 32 %. La population recule de 2,5 % depuis 2016. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10 : en semaine, le centre se vide tôt.",
+      },
+      {
+        heading: "Se déplacer : transport noté 7,7/10, relevé muet",
+        body: "Le transport est noté 7,7/10 dans notre fiche, mais notre relevé ne signale ni TGV, ni tram, ni métro. Les liaisons ferroviaires vers Paris ou Lille ne sont pas dans nos données : à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 19 °C en juillet, 2,5 °C en janvier",
+        body: "Notre fiche donne 19 °C en juillet, 2,5 °C en janvier et 1 700 jours-soleil. Aucune normale mensuelle n'est publiée ici. Les musées se visitent toute l'année, les marais d'Isle mieux au printemps et à l'été.",
+      },
+    ],
+    relatedCities: ["saint-quentin"],
+    relatedGuides: ["10-choses-a-faire-a-saint-quentin-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Saint-Quentin","voyage solo Aisne","Saint-Quentin Art déco","week-end célibataire Hauts-de-France","Saint-Quentin séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-thionville-2026",
+    title: "Vacances célibataire à Thionville en 2026 : quais de Moselle, forts et un T2 à 660 €",
+    metaTitle: "Vacances célibataire Thionville 2026 : Moselle, budget",
+    metaDesc: "Thionville en séjour célibataire : 18,7 % de 15-29 ans, centre animé sur la Moselle, tour aux Puces, T2 à 660 €. Une ville qui gagne des habitants.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Thionville compte 42 778 habitants (Insee 2022), dont 18,7 % de 15-29 ans et 25,9 % de 60 ans et plus ; elle a gagné 2 192 habitants depuis 2016. Notre fiche lui donne 6,2/10 en coût, 6,1/10 en transport, 5,9/10 en culture et 5,1/10 en sécurité. Le deux-pièces est à 660 €. Le séjour tient au centre sur la Moselle, pas à une population étudiante.",
+    sections: [
+      {
+        heading: "Pourquoi Thionville : une ville qui grandit, un centre qui sort",
+        body: "Studio à 480 €, deux-pièces à 660 €, achat à 2 400 € le m². Coût noté 6,2/10. La commune a gagné 5,4 % d'habitants depuis 2016, la tendance est à la hausse. Le contrepoint est dit : 18,7 % de 15-29 ans seulement, et 5/10 en nature.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 6,5/10 de vie du soir et 8/10 de transport (deux-pièces à 670 €), Beauregard 4,5 et 6,5, Garche 3,5 et 5,5. Pour sortir à pied, le centre-ville.",
+      },
+      {
+        heading: "Ce qu'on y fait : tour aux Puces, beffroi, forts",
+        body: "Les repères de notre guide tourisme : la tour aux Puces et son musée, le beffroi, le centre ancien et les quais de Moselle, le fort de Guentrange, le château de La Grange à Manom, le fort du Hackenberg et l'équipement culturel Puzzle. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : tirée par l'emploi, pas par le campus",
+        body: "18,7 % de 15-29 ans, donc peu d'étudiants, et 25,9 % de seniors. Notre fiche la classe en frontalière, avec le Luxembourg comme moteur d'emploi : la ville vit donc la semaine. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10.",
+      },
+      {
+        heading: "Se déplacer : centre noté 8/10 en transport",
+        body: "Le transport est noté 6,1/10 pour la ville et 8/10 pour le centre-ville. Notre relevé ne signale ni TGV, ni tram, ni métro : la liaison avec Metz et Luxembourg et les horaires de nuit ne sont pas dans nos données, à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 20,5 °C en juillet, 2,5 °C en janvier",
+        body: "Notre fiche donne 20,5 °C en juillet, 2,5 °C en janvier et 1 750 jours-soleil. Aucune normale mensuelle n'est publiée ici. Les forts et la Moselle se visitent de la fin du printemps à septembre.",
+      },
+    ],
+    relatedCities: ["thionville"],
+    relatedGuides: ["10-choses-a-faire-a-thionville-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Thionville","voyage solo Moselle","Thionville quais de Moselle","week-end célibataire Grand Est","Thionville séjour solo"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",

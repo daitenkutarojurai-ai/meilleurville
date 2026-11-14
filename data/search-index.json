@@ -9202,6 +9202,36 @@
       "emoji": "🎭"
     },
     {
+      "slug": "vacances-celibataire-pessac-2026",
+      "title": "Vacances célibataire à Pessac en 2026 : Le Corbusier, Haut-Brion et le tram B jusqu'à Bordeaux",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "vacances-celibataire-laval-2026",
+      "title": "Vacances célibataire à Laval en 2026 : musée d'art naïf, vieux quartier et T2 à 490 €",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "vacances-celibataire-boulogne-sur-mer-2026",
+      "title": "Vacances célibataire à Boulogne-sur-Mer en 2026 : Nausicaá, ville haute et un T2 à 580 €",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "vacances-celibataire-saint-brieuc-2026",
+      "title": "Vacances célibataire à Saint-Brieuc en 2026 : baie, centre animé et un T2 à 580 €",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "vacances-celibataire-saint-quentin-2026",
+      "title": "Vacances célibataire à Saint-Quentin en 2026 : Art déco, pastels de La Tour et un T2 à 480 €",
+      "emoji": "🏙️"
+    },
+    {
+      "slug": "vacances-celibataire-thionville-2026",
+      "title": "Vacances célibataire à Thionville en 2026 : quais de Moselle, forts et un T2 à 660 €",
+      "emoji": "🏰"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -11849,6 +11879,11 @@
       "count": 9
     },
     {
+      "slug": "week-end-celibataire-nouvelle-aquitaine",
+      "label": "week-end célibataire Nouvelle-Aquitaine",
+      "count": 9
+    },
+    {
       "slug": "alpes",
       "label": "alpes",
       "count": 8
@@ -11911,11 +11946,6 @@
     {
       "slug": "tours",
       "label": "Tours",
-      "count": 8
-    },
-    {
-      "slug": "week-end-celibataire-nouvelle-aquitaine",
-      "label": "week-end célibataire Nouvelle-Aquitaine",
       "count": 8
     },
     {
@@ -12109,6 +12139,16 @@
       "count": 6
     },
     {
+      "slug": "week-end-celibataire-grand-est",
+      "label": "week-end célibataire Grand Est",
+      "count": 6
+    },
+    {
+      "slug": "week-end-celibataire-hauts-de-france",
+      "label": "week-end célibataire Hauts-de-France",
+      "count": 6
+    },
+    {
       "slug": "accessibilite",
       "label": "accessibilité",
       "count": 5
@@ -12259,8 +12299,8 @@
       "count": 5
     },
     {
-      "slug": "week-end-celibataire-grand-est",
-      "label": "week-end célibataire Grand Est",
+      "slug": "week-end-celibataire-bretagne",
+      "label": "week-end célibataire Bretagne",
       "count": 5
     },
     {
@@ -12514,16 +12554,6 @@
       "count": 4
     },
     {
-      "slug": "week-end-celibataire-bretagne",
-      "label": "week-end célibataire Bretagne",
-      "count": 4
-    },
-    {
-      "slug": "week-end-celibataire-hauts-de-france",
-      "label": "week-end célibataire Hauts-de-France",
-      "count": 4
-    },
-    {
       "slug": "week-end-celibataire-normandie",
       "label": "week-end célibataire Normandie",
       "count": 4
@@ -12531,6 +12561,11 @@
     {
       "slug": "week-end-celibataire-occitanie",
       "label": "week-end célibataire Occitanie",
+      "count": 4
+    },
+    {
+      "slug": "week-end-celibataire-pays-de-la-loire",
+      "label": "week-end célibataire Pays de la Loire",
       "count": 4
     },
     {
@@ -13111,11 +13146,6 @@
     {
       "slug": "week-end-celibataire-ile-de-france",
       "label": "week-end célibataire Île-de-France",
-      "count": 3
-    },
-    {
-      "slug": "week-end-celibataire-pays-de-la-loire",
-      "label": "week-end célibataire Pays de la Loire",
       "count": 3
     },
     {
