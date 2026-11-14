@@ -11217,6 +11217,46 @@
       "emoji": "🌉"
     },
     {
+      "slug": "10-choses-a-faire-a-levallois-perret-2026",
+      "title": "10 choses à faire à Levallois-Perret",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "10-choses-a-faire-a-courbevoie-2026",
+      "title": "10 choses à faire à Courbevoie",
+      "emoji": "🏙️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-puteaux-2026",
+      "title": "10 choses à faire à Puteaux",
+      "emoji": "🏢"
+    },
+    {
+      "slug": "10-choses-a-faire-a-colombes-2026",
+      "title": "10 choses à faire à Colombes",
+      "emoji": "⚽"
+    },
+    {
+      "slug": "10-choses-a-faire-a-nanterre-2026",
+      "title": "10 choses à faire à Nanterre",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-asnieres-sur-seine-2026",
+      "title": "10 choses à faire à Asnières-sur-Seine",
+      "emoji": "🐕"
+    },
+    {
+      "slug": "10-choses-a-faire-a-evry-courcouronnes-2026",
+      "title": "10 choses à faire à Évry-Courcouronnes",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-ivry-sur-seine-2026",
+      "title": "10 choses à faire à Ivry-sur-Seine",
+      "emoji": "🎨"
+    },
+    {
       "slug": "10-choses-a-faire-a-creteil-2026",
       "title": "10 choses à faire à Créteil",
       "emoji": "🛶"
@@ -12111,6 +12151,11 @@
     {
       "slug": "que-faire-dans-les-hauts-de-seine",
       "label": "que faire dans les Hauts-de-Seine",
+      "count": 5
+    },
+    {
+      "slug": "que-faire-pres-de-paris",
+      "label": "que faire près de Paris",
       "count": 5
     },
     {

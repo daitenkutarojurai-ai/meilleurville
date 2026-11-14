@@ -76791,6 +76791,462 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Saint-Louis","activités Saint-Louis 2026","Fondation Fernet-Branca","que faire près de Bâle"]
   },
   {
+    slug: "10-choses-a-faire-a-levallois-perret-2026",
+    title: "10 choses à faire à Levallois-Perret",
+    metaTitle: "10 choses à faire à Levallois-Perret",
+    metaDesc: "Île de la Jatte, bords de Seine, métro ligne 3 : 10 choses à faire à Levallois-Perret, aux portes de Paris.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Levallois-Perret compte environ 66 000 habitants dans notre fiche. C'est une commune dense des Hauts-de-Seine, collée au nord-ouest de Paris, plus connue pour ses bureaux et ses loyers que pour ses monuments. Elle a pourtant de quoi occuper une journée, surtout au bord de l'eau. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. L'île de la Jatte",
+        body: "L'île de la Grande Jatte, au milieu de la Seine, est partagée avec Neuilly-sur-Seine. C'est celle du tableau de Georges Seurat. On y fait le tour à pied ou à vélo, avec des bords de Seine calmes et quelques restaurants."
+      },
+      {
+        heading: "2. Les bords de Seine",
+        body: "Les quais côté Levallois se parcourent à pied vers Clichy ou vers Neuilly. C'est la promenade la plus agréable de la ville, surtout en fin d'après-midi."
+      },
+      {
+        heading: "3. L'hôtel de ville et le centre",
+        body: "Le centre se visite en une heure : l'hôtel de ville, les rues commerçantes autour et les façades du XIXᵉ siècle. Ce n'est pas un centre historique, c'est un centre vivant."
+      },
+      {
+        heading: "4. L'église Saint-Justin",
+        body: "L'église de la ville mérite un coup d'œil si vous passez à proximité. Vérifiez les horaires d'ouverture avant de venir."
+      },
+      {
+        heading: "5. Les marchés",
+        body: "La ville a des marchés de quartier ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "6. Le métro ligne 3 vers Paris",
+        body: "Plusieurs stations de la ligne 3 desservent Levallois, dont Pont de Levallois et Anatole France. Vous êtes à l'Opéra sans changement, ce qui fait de la commune une base commode pour Paris."
+      },
+      {
+        heading: "7. L'Arc de Triomphe à pied",
+        body: "Depuis le sud de la commune, l'Arc de Triomphe et les Champs-Élysées sont proches, en transport ou à pied pour les marcheurs. C'est l'argument principal de la ville pour un séjour court."
+      },
+      {
+        heading: "8. La Défense en transport",
+        body: "Le quartier d'affaires est tout proche. Une sortie de quelques heures permet de voir la Grande Arche et l'esplanade."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 2 000 € par mois dans notre estimation, contre 2 800 € à Paris et 1 550 € à Asnières-sur-Seine. Levallois convient à qui veut vivre à deux pas de Paris et accepte d'en payer le prix."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la ville elle-même. Combinez-la avec Paris ou la Défense pour une journée complète."
+      }
+    ],
+    relatedCities: ["levallois-perret","paris","asnieres-sur-seine"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-asnieres-sur-seine-2026"],
+    tags: ["10 choses à faire à Levallois-Perret","activités Levallois-Perret 2026","Île de la Jatte","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-courbevoie-2026",
+    title: "10 choses à faire à Courbevoie",
+    metaTitle: "10 choses à faire à Courbevoie",
+    metaDesc: "La Défense, parc de Bécon, musée Roybet Fould, bords de Seine : 10 choses à faire à Courbevoie.",
+    category: "tourisme",
+    emoji: "🏙️",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Courbevoie compte environ 81 000 habitants dans notre fiche. Une partie du quartier d'affaires de La Défense s'étend sur son territoire, mais la ville a aussi des quartiers résidentiels, un parc et un petit musée. Ce guide dit quoi y faire, en séparant ce qui est de La Défense et ce qui est de la commune.",
+    sections: [
+      {
+        heading: "1. Le quartier de La Défense",
+        body: "Les tours et l'esplanade se partagent entre Courbevoie, Puteaux et Nanterre. Le site se parcourt à pied en une à deux heures ; le week-end il est beaucoup plus calme qu'en semaine."
+      },
+      {
+        heading: "2. Les œuvres d'art de l'esplanade",
+        body: "La Défense fait office de musée à ciel ouvert, avec des sculptures de grands noms de l'art moderne. Il suffit de marcher sur la dalle en levant les yeux."
+      },
+      {
+        heading: "3. Le monument de La Défense de Paris",
+        body: "La statue qui a donné son nom au quartier se trouve à Courbevoie. Elle rappelle la guerre de 1870 et se voit en quelques minutes."
+      },
+      {
+        heading: "4. Le parc de Bécon",
+        body: "Ce parc est l'espace vert le plus agréable de la ville. Il sert de pause entre deux visites."
+      },
+      {
+        heading: "5. Le musée Roybet Fould",
+        body: "Ce petit musée municipal présente des collections d'art. Vérifiez les horaires et les expositions en cours avant de venir."
+      },
+      {
+        heading: "6. Les bords de Seine",
+        body: "Les quais se longent à pied vers Asnières ou vers Puteaux. La promenade est plate et peu fréquentée en dehors des heures de bureau."
+      },
+      {
+        heading: "7. Le marché",
+        body: "La ville a des marchés ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "8. Paris en transport",
+        body: "Le RER A, le métro ligne 1 et le tramway T2 desservent le secteur de La Défense. Le centre de Paris est rapidement accessible en transport."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 750 € par mois dans notre estimation, contre 2 000 € à Levallois-Perret et 1 300 € à Colombes. Courbevoie convient à qui travaille à La Défense, moins à qui cherche un cadre de vie historique."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Associez La Défense, le parc de Bécon et une promenade au bord de la Seine."
+      }
+    ],
+    relatedCities: ["courbevoie","puteaux","colombes"],
+    relatedGuides: ["10-choses-a-faire-a-puteaux-2026","10-choses-a-faire-a-colombes-2026"],
+    tags: ["10 choses à faire à Courbevoie","activités Courbevoie 2026","La Défense","que faire à La Défense"]
+  },
+  {
+    slug: "10-choses-a-faire-a-puteaux-2026",
+    title: "10 choses à faire à Puteaux",
+    metaTitle: "10 choses à faire à Puteaux",
+    metaDesc: "Grande Arche, Fontaine Agam, île de Puteaux, Les 4 Temps : 10 choses à faire à Puteaux, au cœur de La Défense.",
+    category: "tourisme",
+    emoji: "🏢",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Puteaux compte environ 45 000 habitants dans notre fiche. La commune porte une grande partie de La Défense, avec la Grande Arche, mais elle a aussi une île sur la Seine et un centre plus calme. Ce guide dit quoi y faire, en partant de la dalle de La Défense.",
+    sections: [
+      {
+        heading: "1. La Grande Arche",
+        body: "Le grand cube ouvert se situe sur la commune. On le voit de loin et on s'en approche par l'esplanade ; vérifiez ce qui est ouvert au public avant de venir."
+      },
+      {
+        heading: "2. La Fontaine Agam",
+        body: "Cette fontaine colorée est l'une des œuvres les plus connues de l'esplanade. Elle se trouve au cœur du quartier d'affaires."
+      },
+      {
+        heading: "3. Les sculptures de la dalle",
+        body: "L'esplanade rassemble des œuvres d'artistes reconnus. Une promenade d'une heure permet d'en voir plusieurs."
+      },
+      {
+        heading: "4. Le CNIT et les bâtiments du quartier",
+        body: "L'architecture de La Défense mérite un coup d'œil, du CNIT aux tours les plus récentes. Les photographes y trouvent leur compte."
+      },
+      {
+        heading: "5. Le centre commercial Les 4 Temps",
+        body: "C'est l'un des plus grands centres commerciaux de la région parisienne. Il sert de repère pratique plus que de visite."
+      },
+      {
+        heading: "6. L'île de Puteaux",
+        body: "L'île de Puteaux, au milieu de la Seine, a des allées plantées et des bords d'eau. Elle offre une pause très différente de la dalle."
+      },
+      {
+        heading: "7. Les bords de Seine",
+        body: "Les quais se longent vers Suresnes ou Courbevoie. La promenade est plate, calme et gratuite."
+      },
+      {
+        heading: "8. Le centre-ville",
+        body: "Le vieux Puteaux, autour de l'hôtel de ville, garde un visage de ville de banlieue ancienne. C'est le contraste avec la Défense qui rend la visite intéressante."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 850 € par mois dans notre estimation, contre 2 000 € à Levallois-Perret et 1 750 € à Courbevoie. Puteaux convient à qui travaille sur place."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Le RER A, le métro ligne 1 et le tramway T2 desservent le secteur."
+      }
+    ],
+    relatedCities: ["puteaux","courbevoie","nanterre"],
+    relatedGuides: ["10-choses-a-faire-a-courbevoie-2026","10-choses-a-faire-a-nanterre-2026"],
+    tags: ["10 choses à faire à Puteaux","activités Puteaux 2026","Grande Arche","que faire à La Défense"]
+  },
+  {
+    slug: "10-choses-a-faire-a-colombes-2026",
+    title: "10 choses à faire à Colombes",
+    metaTitle: "10 choses à faire à Colombes",
+    metaDesc: "Stade Yves-du-Manoir, île Marante, parc Pierre-Lagravère : 10 choses à faire à Colombes, dans les Hauts-de-Seine.",
+    category: "tourisme",
+    emoji: "⚽",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Colombes compte environ 90 000 habitants dans notre fiche. C'est une grande commune résidentielle des Hauts-de-Seine, connue pour son stade olympique historique et ses bords de Seine. Elle est moins chère que ses voisines. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le stade Yves-du-Manoir",
+        body: "Ce stade a accueilli les Jeux olympiques de 1924 et reste un lieu sportif important. Vérifiez les événements et les possibilités de visite avant de venir."
+      },
+      {
+        heading: "2. Le parc Pierre-Lagravère",
+        body: "Ce grand parc offre de la pelouse, des allées et des équipements sportifs, pour une pause ou un pique-nique."
+      },
+      {
+        heading: "3. L'île Marante",
+        body: "L'île Marante, sur la Seine, est un espace de nature en pleine zone urbaine. On y vient pour la promenade et les bords d'eau."
+      },
+      {
+        heading: "4. Les bords de Seine",
+        body: "Les quais se longent à pied vers Asnières ou Gennevilliers. La promenade est plate et tranquille."
+      },
+      {
+        heading: "5. Le musée d'art et d'histoire",
+        body: "Le musée municipal présente l'histoire de la ville et des collections locales. Vérifiez les horaires avant de venir."
+      },
+      {
+        heading: "6. Le marché du centre",
+        body: "La ville a un marché ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "7. Le centre-ville et ses pavillons",
+        body: "Colombes garde des rues de pavillons qui tranchent avec les communes de bureaux voisines. Une promenade d'une heure suffit à s'en faire une idée."
+      },
+      {
+        heading: "8. Paris en train",
+        body: "Le Transilien relie Colombes à la gare Saint-Lazare, à Paris. C'est le moyen le plus simple de rejoindre la capitale."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 300 € par mois dans notre estimation, contre 1 750 € à Courbevoie et 1 400 € à Nanterre. Colombes convient à qui veut rester près de La Défense sans en payer les loyers."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Associez le stade, le parc et une promenade sur la Seine."
+      }
+    ],
+    relatedCities: ["colombes","courbevoie","nanterre"],
+    relatedGuides: ["10-choses-a-faire-a-courbevoie-2026","10-choses-a-faire-a-nanterre-2026"],
+    tags: ["10 choses à faire à Colombes","activités Colombes 2026","Stade Yves-du-Manoir","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-nanterre-2026",
+    title: "10 choses à faire à Nanterre",
+    metaTitle: "10 choses à faire à Nanterre",
+    metaDesc: "Paris La Défense Arena, parc André-Malraux, théâtre Nanterre-Amandiers : 10 choses à faire à Nanterre.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Nanterre compte environ 96 000 habitants dans notre fiche. C'est la préfecture des Hauts-de-Seine, une ville à la fois universitaire, culturelle et industrielle, à l'ouest de La Défense. Elle surprend par ses parcs et ses théâtres. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Paris La Défense Arena",
+        body: "Cette grande salle accueille concerts et matchs de rugby. Consultez la programmation, elle change chaque semaine."
+      },
+      {
+        heading: "2. Le parc André-Malraux",
+        body: "C'est le grand parc de la ville, avec des allées, des pelouses et des plans d'eau. Il convient à une promenade ou à un pique-nique."
+      },
+      {
+        heading: "3. Le théâtre Nanterre-Amandiers",
+        body: "Ce centre dramatique est l'un des lieux de théâtre les plus connus de la banlieue parisienne. Vérifiez la programmation avant de venir."
+      },
+      {
+        heading: "4. La Maison de la musique",
+        body: "Ce lieu culturel propose concerts et spectacles. Les tarifs restent en général modérés ; vérifiez-les avant de venir."
+      },
+      {
+        heading: "5. Le parc du Chemin de l'Île",
+        body: "Ce parc longe la Seine et mêle espaces de promenade et activités de loisirs. Il offre une pause au bord de l'eau."
+      },
+      {
+        heading: "6. L'université Paris Nanterre",
+        body: "Le campus fait vivre la ville et sa vie étudiante, avec une architecture des années 1960. On s'y promène librement en dehors des examens."
+      },
+      {
+        heading: "7. La Défense à pied",
+        body: "La partie ouest du quartier d'affaires est sur la commune. Une promenade sur l'esplanade se fait en quelques minutes depuis la gare."
+      },
+      {
+        heading: "8. Sainte-Geneviève, patronne de Paris",
+        body: "Selon la tradition, la sainte est née à Nanterre. La commune lui rend hommage, et son nom revient dans plusieurs lieux de la ville."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 400 € par mois dans notre estimation, contre 1 300 € à Colombes et 1 750 € à Courbevoie. Nanterre convient à qui cherche un prix modéré près de La Défense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Le RER A relie Nanterre à Paris et à La Défense en quelques minutes."
+      }
+    ],
+    relatedCities: ["nanterre","puteaux","colombes"],
+    relatedGuides: ["10-choses-a-faire-a-puteaux-2026","10-choses-a-faire-a-colombes-2026"],
+    tags: ["10 choses à faire à Nanterre","activités Nanterre 2026","Paris La Défense Arena","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-asnieres-sur-seine-2026",
+    title: "10 choses à faire à Asnières-sur-Seine",
+    metaTitle: "10 choses à faire à Asnières-sur-Seine",
+    metaDesc: "Cimetière des Chiens, château d'Asnières, bords de Seine : 10 choses à faire à Asnières-sur-Seine.",
+    category: "tourisme",
+    emoji: "🐕",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Asnières-sur-Seine compte environ 87 000 habitants dans notre fiche. C'est une grande commune des Hauts-de-Seine, sur la Seine, au nord-ouest de Paris. Elle a une curiosité réellement unique, un cimetière pour animaux, et des bords d'eau agréables. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le Cimetière des Chiens",
+        body: "Ce cimetière animalier, l'un des plus anciens du genre, occupe une pointe de l'île des Ravageurs. C'est la visite la plus originale de la commune ; vérifiez les horaires avant de venir."
+      },
+      {
+        heading: "2. L'île des Ravageurs",
+        body: "L'île, sur la Seine, mêle cimetière, nature et vieux bâtiments. Elle se visite tranquillement."
+      },
+      {
+        heading: "3. Le château d'Asnières",
+        body: "Ce château du XVIIIᵉ siècle est un des rares témoins du passé de la ville. Vérifiez les possibilités de visite avant de venir."
+      },
+      {
+        heading: "4. Les bords de Seine",
+        body: "Les quais se longent à pied vers Gennevilliers ou Colombes. La promenade est plate et tranquille, surtout le week-end."
+      },
+      {
+        heading: "5. La Seine des impressionnistes",
+        body: "La Seine d'Asnières a inspiré plusieurs peintres du XIXᵉ siècle, dont Seurat. On reconnaît encore l'esprit du lieu au bord de l'eau."
+      },
+      {
+        heading: "6. Le centre-ville",
+        body: "Le centre est animé et commerçant. Une promenade d'une heure suffit pour s'en faire une idée."
+      },
+      {
+        heading: "7. Le marché",
+        body: "La ville a des marchés ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "8. Paris en train",
+        body: "Le Transilien relie Asnières à la gare Saint-Lazare en quelques minutes. C'est le meilleur atout pratique de la commune."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 550 € par mois dans notre estimation, contre 2 000 € à Levallois-Perret et 1 300 € à Colombes. Asnières convient à qui veut Paris à portée de train à un prix intermédiaire."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Combinez le cimetière, les bords de Seine et le centre."
+      }
+    ],
+    relatedCities: ["asnieres-sur-seine","colombes","levallois-perret"],
+    relatedGuides: ["10-choses-a-faire-a-colombes-2026","10-choses-a-faire-a-levallois-perret-2026"],
+    tags: ["10 choses à faire à Asnières-sur-Seine","activités Asnières 2026","Cimetière des Chiens","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-evry-courcouronnes-2026",
+    title: "10 choses à faire à Évry-Courcouronnes",
+    metaTitle: "10 choses à faire à Évry-Courcouronnes",
+    metaDesc: "Cathédrale de la Résurrection, pagode Khánh-Anh, Agora : 10 choses à faire à Évry-Courcouronnes, en Essonne.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Évry-Courcouronnes compte environ 70 000 habitants dans notre fiche. C'est la préfecture de l'Essonne et une ville nouvelle des années 1960-1970, donc sans centre ancien, mais avec une architecture moderne assez singulière. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La cathédrale de la Résurrection",
+        body: "Cette cathédrale en briques, œuvre de l'architecte suisse Mario Botta, est un cylindre planté d'arbres sur le toit. C'est le monument le plus original de la ville."
+      },
+      {
+        heading: "2. La pagode Khánh-Anh",
+        body: "Ce temple bouddhiste est l'un des plus grands d'Europe. On y entre avec respect ; vérifiez les horaires avant de venir."
+      },
+      {
+        heading: "3. L'Agora",
+        body: "Ce quartier central, conçu pour la ville nouvelle, mêle immeubles et places publiques. Il se visite comme un exemple d'urbanisme des années 1970."
+      },
+      {
+        heading: "4. La Grande Mosquée",
+        body: "L'un des principaux lieux de culte musulman de la région, remarquable par son architecture. Vérifiez les possibilités de visite avant de venir."
+      },
+      {
+        heading: "5. Le parc aux Lièvres",
+        body: "Ce grand parc offre pelouses, allées et espaces de jeux. Il convient à une pause entre deux visites."
+      },
+      {
+        heading: "6. Les bords de Seine",
+        body: "La Seine traverse la ville ; les berges se longent à pied ou à vélo."
+      },
+      {
+        heading: "7. Le centre commercial Évry 2",
+        body: "C'est un grand centre commercial de la région. Il sert de repère pratique plus que de visite."
+      },
+      {
+        heading: "8. Le marché",
+        body: "La ville a des marchés ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 150 € par mois dans notre estimation, contre 2 800 € à Paris et 1 250 € à Créteil. Évry convient à qui veut un loyer modéré avec un RER pour Paris."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Le RER D relie Évry-Courcouronnes à Paris."
+      }
+    ],
+    relatedCities: ["evry-courcouronnes","creteil","paris"],
+    relatedGuides: ["10-choses-a-faire-a-creteil-2026","10-choses-a-faire-a-paris-2026"],
+    tags: ["10 choses à faire à Évry-Courcouronnes","activités Évry 2026","Cathédrale de la Résurrection","que faire en Essonne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-ivry-sur-seine-2026",
+    title: "10 choses à faire à Ivry-sur-Seine",
+    metaTitle: "10 choses à faire à Ivry-sur-Seine",
+    metaDesc: "Manufacture des Œillets, Crédac, parc des Cormailles : 10 choses à faire à Ivry-sur-Seine, aux portes de Paris.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Ivry-sur-Seine compte environ 62 000 habitants dans notre fiche. C'est une commune du Val-de-Marne, collée au sud-est de Paris, ancienne ville industrielle devenue un pôle de culture et de théâtre. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La Manufacture des Œillets",
+        body: "Cette ancienne manufacture abrite un théâtre et un centre d'art. Vérifiez la programmation avant de venir."
+      },
+      {
+        heading: "2. Le Crédac",
+        body: "Ce centre d'art contemporain présente des expositions. L'entrée est en général libre ou peu chère ; vérifiez les horaires avant de venir."
+      },
+      {
+        heading: "3. Le parc des Cormailles",
+        body: "Ce parc offre de la pelouse et des allées, en bordure de la ville. Il convient à une pause ou à une promenade."
+      },
+      {
+        heading: "4. Ivry-Port et les bords de Seine",
+        body: "L'ancien port industriel se longe à pied. La promenade est plate et change de ton selon les quartiers."
+      },
+      {
+        heading: "5. Les anciennes usines",
+        body: "Le quartier garde des traces de son passé industriel, entre briques et hangars reconvertis. Une promenade d'une heure suffit pour s'en faire une idée."
+      },
+      {
+        heading: "6. Le centre-ville",
+        body: "Le centre est animé et commerçant, autour de l'hôtel de ville et de la place centrale."
+      },
+      {
+        heading: "7. Le marché",
+        body: "La ville a des marchés ; vérifiez les jours avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "8. Paris en métro",
+        body: "La ligne 7 du métro et le RER C relient Ivry au centre de Paris. C'est l'un des atouts pratiques de la commune."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 350 € par mois dans notre estimation, contre 2 800 € à Paris et 1 300 € à Vitry-sur-Seine. Ivry convient à qui veut Paris à portée de métro à un loyer plus doux."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit. Associez un spectacle, une exposition et une promenade au bord de la Seine."
+      }
+    ],
+    relatedCities: ["ivry-sur-seine","vitry-sur-seine","paris"],
+    relatedGuides: ["10-choses-a-faire-a-vitry-sur-seine-2026","10-choses-a-faire-a-paris-2026"],
+    tags: ["10 choses à faire à Ivry-sur-Seine","activités Ivry 2026","Manufacture des Œillets","que faire près de Paris"]
+  },
+  {
     slug: "10-choses-a-faire-a-creteil-2026",
     title: "10 choses à faire à Créteil",
     metaTitle: "10 choses à faire à Créteil",
