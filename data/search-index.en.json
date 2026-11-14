@@ -7447,6 +7447,41 @@
       "emoji": "🚢"
     },
     {
+      "slug": "retiring-in-albi-2026",
+      "title": "Retiring in Albi (2026): €620 Two-Bed, a UNESCO Cathedral Town, Toulouse 67 km Away",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "retiring-in-carcassonne-2026",
+      "title": "Retiring in Carcassonne (2026): €530 Two-Bed and 2,500 Hours of Sun, With 28% Poverty",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "retiring-in-saint-raphael-2026",
+      "title": "Retiring in Saint-Raphaël (2026): Nearly One Resident in Two Is 60 or Over",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "retiring-in-cagnes-sur-mer-2026",
+      "title": "Retiring in Cagnes-sur-Mer (2026): Easy GP Access, Nice 10 km Away, €920 Two-Bed",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "retiring-in-poitiers-2026",
+      "title": "Retiring in Poitiers (2026): A CHU in Town and €660 Two-Bed, in a Student City",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "retiring-in-valence-2026",
+      "title": "Retiring in Valence (2026): €680 Two-Bed Between the Rhône and the Vercors, CHU 68 km Away",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retiring-in-saint-nazaire-2026",
+      "title": "Retiring in Saint-Nazaire (2026): €640 Two-Bed, the Atlantic, Nantes 50 km Away",
+      "emoji": "⚓"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -10949,14 +10984,14 @@
       "count": 71
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 70
+    },
+    {
       "slug": "buying-property-france",
       "label": "buying property france",
       "count": 67
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 63
     },
     {
       "slug": "french-school-system",
@@ -11339,6 +11374,11 @@
       "count": 6
     },
     {
+      "slug": "french-riviera-expat-retirement",
+      "label": "French Riviera expat retirement",
+      "count": 6
+    },
+    {
       "slug": "itinerary",
       "label": "itinerary",
       "count": 6
@@ -11424,11 +11464,6 @@
       "count": 4
     },
     {
-      "slug": "french-riviera-expat-retirement",
-      "label": "French Riviera expat retirement",
-      "count": 4
-    },
-    {
       "slug": "guadeloupe",
       "label": "guadeloupe",
       "count": 4
@@ -11494,6 +11529,11 @@
       "count": 4
     },
     {
+      "slug": "retire-on-the-cote-d-azur",
+      "label": "retire on the Côte d'Azur",
+      "count": 4
+    },
+    {
       "slug": "retirement",
       "label": "retirement",
       "count": 4
@@ -11506,6 +11546,11 @@
     {
       "slug": "affordable",
       "label": "affordable",
+      "count": 3
+    },
+    {
+      "slug": "atlantic-coast-retirement-france",
+      "label": "Atlantic coast retirement France",
       "count": 3
     },
     {
@@ -11661,11 +11706,6 @@
     {
       "slug": "retire-in-france",
       "label": "retire in france",
-      "count": 3
-    },
-    {
-      "slug": "retire-on-the-cote-d-azur",
-      "label": "retire on the Côte d'Azur",
       "count": 3
     },
     {

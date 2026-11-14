@@ -31967,6 +31967,308 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["retiring in Le Havre 2026","Normandy expat retirement","Le Havre retirement budget","seaside retirement France","expat retirement"],
   },
 
+
+  {
+    slug: "retiring-in-albi-2026",
+    title: "Retiring in Albi (2026): €620 Two-Bed, a UNESCO Cathedral Town, Toulouse 67 km Away",
+    metaTitle: "Retiring in Albi 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Albi: two-bed at €620, €2,200/m², retirement score 7.5/10, healthcare access 6.6/10, university hospital in Toulouse 67 km away.",
+    category: "moving",
+    emoji: "🧱",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Albi is one of the best-rated mid-sized towns in our database for a retiree: a retirement score of 7.5/10, in a 15-way tie, behind 97 other towns. A two-bedroom rents for €620 and a square metre costs €2,200, about €132,000 for 60 m² (our rent estimate). One limit to know before signing: the nearest CHU (university hospital) is in Toulouse, 67 km as the crow flies, and a third of the town's 50,605 residents are already 60 or over.",
+    sections: [
+      {
+        heading: "How much does a retiree spend in Albi?",
+        body: "A single person renting a two-bedroom at €620 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,310 a month. A couple renting a three-bedroom at €840: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,870 a month. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €190 of margin.",
+      },
+      {
+        heading: "Can you get proper medical care in Albi without going to Toulouse?",
+        body: "For everyday care, yes: our engine puts Albi at 6.6/10 for healthcare access, where 10 is excellent, a \"comfortable\" level (our health sheet). DREES GP accessibility is 4.62 consultations per resident per year against 3.72 nationally, with 56 private GPs, 20 pharmacies and two emergency departments in the town (INSEE, BPE facilities database). For major surgery or a rare specialism, the CHU is in Toulouse, 67 km away.",
+      },
+      {
+        heading: "Albi, Montauban or Castres: which southwestern town for a small pension?",
+        body: "Castres is cheaper (€520 for a two-bed, €1,700/m²) and scores 7.0/10 for retirement, but its GP access drops to 3.35, below the national average, with 41 GPs for 42,700 residents. Montauban costs about the same as Albi (€650 and €2,200/m²) and sits closer to Toulouse, 46 km, but scores 6.1/10 with access of 3.74. Albi is the only one of the three to combine a retirement score of 7.5 with GP access above 4.5.",
+      },
+      {
+        heading: "A growing town where one resident in three is 60 or over",
+        body: "Albi gained 1,581 residents between 2016 and 2022, or +3.2%, and 33.6% of its population is 60 or over, against a median of 26.2% in our database (INSEE census 2022). The median standard of living is €21,650 a year with a 20% poverty rate (INSEE, Filosofi 2021). For a buyer, rising demand and an older population make resale less risky than in a town that is emptying out.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Albi averages 5.5 °C in January and 25.5 °C in July, with about 2,050 hours of sun a year: a mild winter and a hot summer without the Mediterranean heatwaves. The episcopal city has been a UNESCO site since 2010: Sainte-Cécile cathedral, built in brick between 1282 and 1480, the Berbie palace housing the Toulouse-Lautrec museum, and the Pont-Vieux over the Tarn. Safety is 6.7/10 on our city sheet.",
+      },
+      {
+        heading: "Who Albi suits, and who it does not",
+        body: "Albi suits the retiree who wants a human-scale town of 50,000, rent under €650 and GPs who take new patients, and who accepts Toulouse as the reference hospital. It suits less someone who needs a university hospital within 30 minutes, or who wants the sea: the coast is far.",
+      },
+    ],
+    relatedCities: ["albi","castres","montauban","toulouse"],
+    tags: ["retiring in Albi 2026","Occitanie expat retirement","Albi retirement budget","retire in southwest France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-carcassonne-2026",
+    title: "Retiring in Carcassonne (2026): €530 Two-Bed and 2,500 Hours of Sun, With 28% Poverty",
+    metaTitle: "Retiring in Carcassonne 2026: Budget, Health",
+    metaDesc:
+      "Retiring in Carcassonne: two-bed at €530, €1,500/m², 2,500 hours of sun, healthcare access 6.1/10, CHU in Toulouse 85 km away. Budget and limits.",
+    category: "moving",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Carcassonne is the cheapest town of this batch: €530 for a two-bedroom and €1,500 a square metre, about €90,000 for 60 m² (our rent estimate), with roughly 2,500 hours of sun a year. Its retirement score is 6.3/10, in a 16-way tie, behind 244 other towns. The trade-offs show in the numbers: 28% of residents live below the poverty line, safety is 4.5/10 on our city sheet, and the nearest CHU (university hospital) is in Toulouse, 85 km away.",
+    sections: [
+      {
+        heading: "What monthly budget does a retiree need in Carcassonne?",
+        body: "A single person renting a two-bedroom at €530 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,220 a month. A couple renting a three-bedroom at €710: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,740. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €280 of margin, the widest in this batch.",
+      },
+      {
+        heading: "Is healthcare access in Carcassonne good enough?",
+        body: "Decent, no more: our engine puts Carcassonne at 6.1/10, where 10 is excellent, a \"decent\" level (our health sheet). DREES GP accessibility is 3.79 consultations per resident per year, barely above the national 3.72, with 34 private GPs for 46,429 residents, 17 pharmacies and two emergency departments (INSEE, BPE facilities database). The nearest CHU is in Toulouse, 85 km away: a retiree who develops a serious condition must plan for that journey.",
+      },
+      {
+        heading: "Carcassonne against Narbonne and Béziers: the most sun for the least money?",
+        body: "Narbonne costs more (€680 for a two-bed, €2,400/m²) but has better GP cover, with access of 4.74 against 3.79; it scores 5.5/10 for retirement. Béziers costs the same as Carcassonne (€530 and €1,500/m²), its access falls to 3.64 and its median standard of living is €16,830 a year against €19,240 in Carcassonne. Carcassonne matches Béziers on rent and has the best retirement score of the three: 6.3 against 5.5 for Narbonne and 5.4 for Béziers.",
+      },
+      {
+        heading: "A stable, older and modest population",
+        body: "Carcassonne gained 534 residents between 2016 and 2022, or +1.2%, and 32.5% of its population is 60 or over, against a median of 26.2% in our database (INSEE census 2022). The median standard of living is €19,240 a year and the poverty rate 28% (INSEE, Filosofi 2021). These are the figures of a modest town: low prices reflect them, and a retiree who buys should ask what the resale market will make of it.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Carcassonne averages 6.5 °C in January and 26 °C in July, with about 2,500 hours of sun a year: an inland Mediterranean climate. The medieval Cité has been a UNESCO site since 1997, and the Canal du Midi, listed in 1996, runs through the lower town, the 13th-century bastide Saint-Louis. Safety is 4.5/10 on our city sheet: that is the weak point of the file, to check on the ground before choosing a neighbourhood.",
+      },
+      {
+        heading: "Who Carcassonne suits, and who it does not",
+        body: "Carcassonne suits the retiree on a small pension who wants sun, rent at €530 and a heritage setting, and who accepts a trip to Toulouse for heavy care. It suits less someone looking for a lively town, a high local standard of living or flawless neighbourhood safety.",
+      },
+    ],
+    relatedCities: ["carcassonne","narbonne","beziers","toulouse"],
+    tags: ["retiring in Carcassonne 2026","Aude expat retirement","Carcassonne retirement budget","cheap retirement south of France","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-saint-raphael-2026",
+    title: "Retiring in Saint-Raphaël (2026): Nearly One Resident in Two Is 60 or Over",
+    metaTitle: "Retiring in Saint-Raphaël 2026: Budget, Health",
+    metaDesc:
+      "Retiring in Saint-Raphaël: two-bed at €970, €4,500/m², 48.5% aged 60+, no emergency department in town (Fréjus, 5 km). Budget and limits.",
+    category: "moving",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "In Saint-Raphaël, 48.5% of residents are 60 or over (INSEE census 2022): the oldest town of this batch, and the most expensive. A two-bedroom rents for €970 and a square metre costs €4,500, about €270,000 for 60 m² (our rent estimate). The retirement score is 7.1/10, in a 10-way tie, behind 144 other towns, with 2,850 hours of sun a year, but an average pension does not cover the standard budget of a single renter.",
+    sections: [
+      {
+        heading: "What does retirement cost in Saint-Raphaël?",
+        body: "A single person renting a two-bedroom at €970 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,660 a month, roughly €160 more than an average pension of €1,500 net (DREES). A couple renting a three-bedroom at €1,300: about €2,330 a month. Here retirement is funded by buying, a survivor's pension or savings.",
+      },
+      {
+        heading: "What about medical care in a town with no emergency department?",
+        body: "Saint-Raphaël has no emergency department of its own: the nearest is in Fréjus, 5.1 km away (INSEE, BPE facilities database). Our engine puts healthcare access at 5.7/10, where 10 is excellent, a \"decent\" level (our health sheet). DREES GP accessibility is 3.21 consultations per resident per year, below the national 3.72, with 39 private GPs and 15 pharmacies. A CHU (university hospital) is in Nice, 51 km away: routine care is local, heavy care is in Nice.",
+      },
+      {
+        heading: "Saint-Raphaël or Fréjus: same coast, two budgets?",
+        body: "Fréjus, the immediate neighbour, is cheaper (€850 for a two-bed, €3,800/m²) with better GP access (4.01 against 3.21) and 60 GPs for 58,499 residents. Yet it scores 5.5/10 for retirement against 7.1 for Saint-Raphaël. Cannes is far dearer (€1,250 and €6,500/m²) for access of 4.86. The sum is simple: Saint-Raphaël is worth its €120 of extra rent over Fréjus if the setting matters, not if finding a doctor comes first.",
+      },
+      {
+        heading: "A town of retirees: advantage or lock-in?",
+        body: "Saint-Raphaël gained 1,410 residents between 2016 and 2022, or +4.0%, and 48.5% of its population is 60 or over, against a median of 26.2% in our database (INSEE census 2022). The median standard of living is €25,010 a year with 13% poverty (INSEE, Filosofi 2021). Shops, clubs and doctors adapt to this public; in exchange the town is not very mixed and jobs and youth activity are thin.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Saint-Raphaël averages 10 °C in January and 27 °C in July, with about 2,850 hours of sun a year: one of the mildest winters in our database. The setting is the Estérel massif running down to the sea, with the bay of Agay, a district of Saint-Raphaël, as its gateway, and a seafront dominated by the neo-Byzantine basilica Notre-Dame-de-la-Victoire, by the architect Pierre Aublé. The town has a railway station, Saint-Raphaël-Valescure, served by regional TER trains. Safety is 6.2/10 on our city sheet.",
+      },
+      {
+        heading: "Who Saint-Raphaël suits, and who it does not",
+        body: "Saint-Raphaël suits the retiree who owns a home or has a high pension and wants sun, sea and a town of their own age, with Nice for heavy care. It suits less someone who must rent on an average pension, who wants a GP who is easy to find, or who dislikes a very old population.",
+      },
+    ],
+    relatedCities: ["saint-raphael","frejus","cannes","nice"],
+    tags: ["retiring in Saint-Raphaël 2026","French Riviera expat retirement","Saint-Raphaël retirement budget","retire on the Côte d'Azur","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-cagnes-sur-mer-2026",
+    title: "Retiring in Cagnes-sur-Mer (2026): Easy GP Access, Nice 10 km Away, €920 Two-Bed",
+    metaTitle: "Retiring in Cagnes-sur-Mer 2026: Budget, Health",
+    metaDesc:
+      "Retiring in Cagnes-sur-Mer: two-bed at €920, €3,800/m², GP access 5.11, CHU in Nice 10 km away. Budget and how it compares with Antibes.",
+    category: "moving",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Cagnes-sur-Mer is the town of this batch where a doctor is easiest to find: 5.11 consultations per resident per year by DREES measure, against 3.72 nationally, with the CHU (university hospital) of Nice 10.5 km away. A two-bedroom rents for €920 and a square metre costs €3,800, about €228,000 for 60 m² (our rent estimate). The retirement score is 6.1/10, in a 22-way tie, behind 286 other towns: good local health, paid for at Riviera prices.",
+    sections: [
+      {
+        heading: "How much does a retiree spend in Cagnes-sur-Mer?",
+        body: "A single person renting a two-bedroom at €920 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,610 a month, roughly €110 more than an average pension of €1,500 net (DREES). A couple renting a three-bedroom at €1,240: about €2,270 a month. The budget holds with an above-average pension or a home you own.",
+      },
+      {
+        heading: "What is healthcare access like in Cagnes-sur-Mer?",
+        body: "Our engine puts Cagnes-sur-Mer at 7.2/10, where 10 is excellent, a \"comfortable\" level (our health sheet). With DREES access of 5.11, 86 private GPs, 17 pharmacies and an emergency department in the town (INSEE, BPE facilities database), it is better served than its neighbour Antibes on GP access alone. The Nice CHU is 10.5 km away: a retiree who develops a serious condition stays within the same urban area.",
+      },
+      {
+        heading: "Cagnes-sur-Mer against Antibes and Nice: what do you gain by moving out?",
+        body: "Antibes is dearer (€1,050 for a two-bed, €5,200/m²), with access of 4.91 and 117 GPs; it scores 5.6/10 for retirement. Nice costs €1,100 and €5,200/m², with access of 4.86 and a retirement score of 5.0/10. Cagnes-sur-Mer therefore saves €130 to €180 of rent a month and €1,400 a square metre on a purchase, without losing on healthcare: that is the central argument of this file.",
+      },
+      {
+        heading: "A town that is growing and ageing",
+        body: "Cagnes-sur-Mer gained 2,950 residents between 2016 and 2022, or +5.9%, and 34% of its population is 60 or over, against a median of 26.2% in our database (INSEE census 2022). The median standard of living is €23,940 a year with 14% poverty (INSEE, Filosofi 2021). Rising demand supports prices: good for an owner, heavier for someone who still has to buy.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Cagnes-sur-Mer averages 9.5 °C in January and 26 °C in July, with about 2,850 hours of sun a year. The setting pairs the seafront with Haut-de-Cagnes, a hilltop village under the Grimaldi castle, a municipal museum since 1946, and the Collettes estate, where Renoir lived from 1907 until his death in 1919 and which houses the Renoir museum: check opening hours before travelling. Safety is 5.3/10 on our city sheet.",
+      },
+      {
+        heading: "Who Cagnes-sur-Mer suits, and who it does not",
+        body: "Cagnes-sur-Mer suits the retiree who wants the Riviera without Antibes or Nice prices, with a GP who is easy to reach and a CHU 10 km away. It suits less someone who must rent on a €1,500 pension, or who wants a quiet town: the Nice conurbation is dense and busy with traffic.",
+      },
+    ],
+    relatedCities: ["cagnes-sur-mer","antibes","nice","cannes"],
+    tags: ["retiring in Cagnes-sur-Mer 2026","French Riviera expat retirement","Cagnes-sur-Mer retirement budget","retire near Nice","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-poitiers-2026",
+    title: "Retiring in Poitiers (2026): A CHU in Town and €660 Two-Bed, in a Student City",
+    metaTitle: "Retiring in Poitiers 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Poitiers: two-bed at €660, €2,100/m², healthcare access 7.8/10, university hospital and 101 GPs. Budget and the limits of a young town.",
+    category: "moving",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Poitiers has a CHU (university hospital) inside the town, healthcare access of 7.8/10 and 101 private GPs, for a two-bedroom at €660 and a square metre at €2,100, about €126,000 for 60 m² (our rent estimate). Its retirement score is only 5.9/10, in a 14-way tie, behind 322 other towns: just 20% of its 89,472 residents are 60 or over, and it is a student city before it is a retirees' town.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Poitiers?",
+        body: "A single person renting a two-bedroom at €660 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,350 a month. A couple renting a three-bedroom at €880: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,910 a month. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €150 of margin.",
+      },
+      {
+        heading: "Why is Poitiers a good town to be ill in?",
+        body: "Our engine puts Poitiers at 7.8/10, where 10 is excellent, a \"comfortable\" level (our health sheet). DREES GP accessibility is 4.73 consultations per resident per year against 3.72 nationally, with 101 private GPs, 29 pharmacies and two emergency departments in the town (INSEE, BPE facilities database). The CHU is in the town: that is the main retirement argument of the file, one that Niort, 68 km from its CHU, cannot offer.",
+      },
+      {
+        heading: "Poitiers against Limoges and Niort",
+        body: "Limoges is cheaper (€600 for a two-bed, €1,600/m²), with access of 4.82 close to Poitiers and a CHU also in town, but it is losing 2.2% of its residents. Niort costs about the same as Poitiers (€640 and €2,100/m²) and scores 5.9/10 like it, but its GP access is 3.91. At similar prices Poitiers gives better access; Limoges gives rent €60 lower.",
+      },
+      {
+        heading: "A young town: what that means for a retiree",
+        body: "Poitiers gained 1,511 residents between 2016 and 2022, or +1.7%, and only 20% of its population is 60 or over, against a median of 26.2% in our database (INSEE census 2022). The median standard of living is €20,150 a year with 26% poverty, a rate the large student population probably explains in part (INSEE, Filosofi 2021). The centre is lively and cultural, but the offer is not built around older customers as it is on the coast.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Poitiers averages 4.8 °C in January and 22.5 °C in July, with about 1,970 hours of sun a year: a temperate oceanic climate without extremes. The old centre is Romanesque: Notre-Dame-la-Grande church, a masterpiece of Poitevin Romanesque art, and the Saint-Jean baptistery, often cited among the oldest Christian monuments in France. Safety is 5.7/10 on our city sheet.",
+      },
+      {
+        heading: "Who Poitiers suits, and who it does not",
+        body: "Poitiers suits the retiree who wants a university hospital in town, rent under €700 and a cultural city, and does not care about the coast. It suits less someone looking for a town of their own age, sun or the sea: life runs to the university's rhythm, and the Atlantic is not next door.",
+      },
+    ],
+    relatedCities: ["poitiers","limoges","niort","tours"],
+    tags: ["retiring in Poitiers 2026","Nouvelle-Aquitaine expat retirement","Poitiers retirement budget","retire near a university hospital","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-valence-2026",
+    title: "Retiring in Valence (2026): €680 Two-Bed Between the Rhône and the Vercors, CHU 68 km Away",
+    metaTitle: "Retiring in Valence 2026: Budget, Health, Climate",
+    metaDesc:
+      "Retiring in Valence (Drôme): two-bed at €680, €2,400/m², 2,310 hours of sun, healthcare access 6.1/10. Budget, care and a comparison with Montélimar.",
+    category: "moving",
+    emoji: "🌅",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Valence offers a two-bedroom at €680 and a square metre at €2,400, about €144,000 for 60 m² (our rent estimate), with roughly 2,310 hours of sun a year and a January average of 5.2 °C. Its retirement score is 6.2/10, in a 26-way tie, behind 260 other towns. The point to check is health: access of 6.1/10, a single emergency department, and the nearest CHU (university hospital) in Saint-Étienne, 68 km away.",
+    sections: [
+      {
+        heading: "What monthly budget does a retiree need in Valence?",
+        body: "A single person renting a two-bedroom at €680 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,370 a month. A couple renting a three-bedroom at €900: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,930 a month. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €130 of margin.",
+      },
+      {
+        heading: "What is the quality of care in Valence, with no CHU in town?",
+        body: "Our engine puts Valence at 6.1/10, where 10 is excellent, a \"decent\" level (our health sheet). DREES GP accessibility is 3.64 consultations per resident per year, a little under the national 3.72, with 62 private GPs, 25 pharmacies and one emergency department (INSEE, BPE facilities database). The nearest CHU is in Saint-Étienne, 68 km as the crow flies: routine care is in Valence, heavy care is elsewhere.",
+      },
+      {
+        heading: "Valence, Montélimar or Grenoble: where does a retirement budget go furthest?",
+        body: "Montélimar is cheaper (€580 for a two-bed, €2,200/m²) and scores 6.9/10 for retirement, but its GP access falls to 3.34, with 32 GPs for 40,356 residents, and its CHU is in Nîmes, 86 km away. Grenoble is dearer (€750 and €3,200/m²), with only 19.6% seniors, but has a CHU in the city. Valence is a compromise: a few more doctors than Montélimar, €70 less rent than Grenoble.",
+      },
+      {
+        heading: "A mid-sized town that is gaining residents",
+        body: "Valence gained 1,811 residents between 2016 and 2022, or +2.9%, and 26.7% of its population is 60 or over, close to the 26.2% median of our database (INSEE census 2022). The median standard of living is €20,610 a year with 22% poverty (INSEE, Filosofi 2021). The town is neither a retirees' town nor a declining one, which keeps the resale market active.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Valence averages 5.2 °C in January and 25.8 °C in July, with about 2,310 hours of sun a year: the South without the coast, with a hot summer in the Rhône valley. The centre has the Maison des Têtes, a 16th-century townhouse with a façade of sculpted heads, and the Peynet kiosk, facing the Jouvet park at the end of the Champ de Mars. The Rhône and the Ardèche on the far bank are at the door. Safety is 5.2/10 on our city sheet.",
+      },
+      {
+        heading: "Who Valence suits, and who it does not",
+        body: "Valence suits the retiree who wants sun, rent under €700 and a human-scale town between Lyon and Provence, with a reachable GP. It suits less someone whose health needs a CHU within 30 minutes, or who wants the sea: the Mediterranean is not next door.",
+      },
+    ],
+    relatedCities: ["valence","montelimar","grenoble","avignon"],
+    tags: ["retiring in Valence 2026","Drôme expat retirement","Valence retirement budget","retire in the Rhône valley","expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-saint-nazaire-2026",
+    title: "Retiring in Saint-Nazaire (2026): €640 Two-Bed, the Atlantic, Nantes 50 km Away",
+    metaTitle: "Retiring in Saint-Nazaire 2026: Budget, Health",
+    metaDesc:
+      "Retiring in Saint-Nazaire: two-bed at €640, €2,200/m², +4.9% residents, 89 GPs, CHU in Nantes 50 km away. Budget and how it compares.",
+    category: "moving",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Saint-Nazaire rents its two-bedroom for €640, €210 less than Nantes 50 km away, and sells a square metre at €2,200: about €132,000 for 60 m², against €252,000 in Nantes (our rent estimate). Its retirement score is 6.3/10, in a 16-way tie, behind 244 other towns. It has gained 3,392 residents since 2016, or +4.9%, far from the towns that are emptying: the ocean, at mid-sized-town prices.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Saint-Nazaire?",
+        body: "A single person renting a two-bedroom at €640 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,330 a month. A couple renting a three-bedroom at €850: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,880 a month. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €170 of margin.",
+      },
+      {
+        heading: "How do you get medical care in Saint-Nazaire?",
+        body: "Our engine puts Saint-Nazaire at 6.0/10, where 10 is excellent, a \"decent\" level (our health sheet). DREES GP accessibility is 3.70 consultations per resident per year, the national average of 3.72, with 89 private GPs, 24 pharmacies and one emergency department in the town (INSEE, BPE facilities database). The CHU is in Nantes, 50 km as the crow flies: you are treated locally and go up to Nantes for major procedures.",
+      },
+      {
+        heading: "Saint-Nazaire against Nantes and Lorient",
+        body: "Nantes is the urban benchmark: €850 for a two-bed, €4,200/m², GP access of 4.69 and a CHU in town, but only 18.5% seniors and a retirement score of 5.0/10. Lorient, another port town, costs €680 and €2,800/m², with access of 4.47 but a CHU in Brest, 110 km away. Saint-Nazaire is the cheapest of the three, and the least well placed for routine care.",
+      },
+      {
+        heading: "A town that grows and stays balanced",
+        body: "Saint-Nazaire gained 3,392 residents between 2016 and 2022, or +4.9%, and 30.5% of its population is 60 or over, against a median of 26.2% in our database (INSEE census 2022). The median standard of living is €21,900 a year with 17% poverty (INSEE, Filosofi 2021). It is an industrial port town, not a resort: services aimed at retirees are thinner than on the southern Breton coast.",
+      },
+      {
+        heading: "What are the climate and the setting like?",
+        body: "Saint-Nazaire averages 6 °C in January and 21 °C in July, with about 2,050 hours of sun a year: a mild oceanic climate, with summers cooler than the South. The setting mixes the port, the former submarine base, which houses Escal'Atlantic, a visit devoted to transatlantic liners, and the Brière, the second-largest marsh in France after the Camargue according to tourist offices, a quarter of an hour by road. Safety is 5.5/10 on our city sheet.",
+      },
+      {
+        heading: "Who Saint-Nazaire suits, and who it does not",
+        body: "Saint-Nazaire suits the retiree who wants the ocean, rent at €640 and a short run to Nantes, without Breton-coast prices. It suits less someone looking for a seaside resort with a retirement atmosphere, a Mediterranean climate or a CHU in town: it remains a large industrial port.",
+      },
+    ],
+    relatedCities: ["saint-nazaire","nantes","lorient","vannes"],
+    tags: ["retiring in Saint-Nazaire 2026","Loire-Atlantique expat retirement","Saint-Nazaire retirement budget","Atlantic coast retirement France","expat retirement"],
+  },
+
   {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
