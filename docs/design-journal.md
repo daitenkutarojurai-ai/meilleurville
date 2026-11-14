@@ -1574,3 +1574,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `/comparer/[pair]/synthese` (FR + EN `synthesis`).
 2. `DepartementMap` (cadre, légende).
 3. Page agenda.
+
+## 2026-11-14 ~11:00 UTC — FR `/comparer/[pair]/synthese` (branches 2 et 3 villes)
+
+**Surface** : pages synthèse 8 axes des paires et trios FR. Avant : hero blanc à `Badge`, tout dans un seul bloc en `Card` à filet, cartes score teintées palier, gagnant d'axe en **émeraude** (réservé), villes trio en **bleu ciel / violet / orange** (réservés), renvois en `Card` grises, pas de feedback.
+
+**Changé** : hero `.bg-aurora` + fil d'Ariane indigo + `EmojiBadge` ✨ + pilule `grad-head-0`, noms en `gradient-text-anim` séparés par des pastilles « vs » `grad-head-5`, scores en pilules couleur de ville ; verdict en `band-indigo` (cartes blanches à bandeau `grad-head-0/1/3`, carte verdict à liseré dégradé, décompte en pilules) ; tableau axe par axe en `band-sky` (carte blanche, en-tête `#EEF2FF`, lignes alternées, gagnant en pilule indigo/rose/cyan) ; renvois en cartes blanches à liseré dégradé `band-lilac` ; `FeedbackWidget` en `band-white`. Chiffres gardent les couleurs de palier. Espace manquant « Annecydépasse » corrigé. Copie, données, JSON-LD inchangés.
+
+**Fichiers** : `app/comparer/[pair]/synthese/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` du fichier : 0 problème. Captures playwright `/comparer/annecy-vs-grenoble/synthese` et `/comparer/lyon-vs-marseille-vs-toulouse/synthese` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. EN `/compare/[pair]/synthesis` (miroir quasi exact du FR : même traitement, mêmes constantes `TEXT`/`PILL`/`HEAD`/`LINK_CARD`).
+2. `DepartementMap` (cadre, légende).
+3. Page agenda.

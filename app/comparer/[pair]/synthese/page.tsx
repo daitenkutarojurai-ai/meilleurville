@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge } from "@/components/EmojiBadge";
+import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { SEO_PAIRS } from "@/lib/comparer-pairs";
 import { SEO_TRIPLETS } from "@/lib/comparer-triplets";
@@ -12,7 +12,6 @@ import {
   computeCitySynthesis,
   SYNTHESIS_LEVEL_LABEL,
   SYNTHESIS_LEVEL_COLOR,
-  SYNTHESIS_LEVEL_BG,
   type CitySynthesis,
 } from "@/lib/city-synthesis";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -34,7 +33,17 @@ export function generateStaticParams() {
   ];
 }
 
-const TRIPLET_COLORS = ["#0ea5e9", "#a78bfa", "#f97316"] as const;
+// Villes en indigo / rose / cyan (« Couleurs ») — le violet, le vert et l'orange
+// restent réservés aux paliers de score. Teintes foncées pour le contraste AA.
+const TEXT = ["text-[#4338CA]", "text-[#BE185D]", "text-[#0E7490]"] as const;
+const PILL = [
+  "bg-[#E0E7FF] text-[#4338CA]",
+  "bg-[#FCE7F3] text-[#BE185D]",
+  "bg-[#CFFAFE] text-[#0E7490]",
+] as const;
+const HEAD = ["grad-head-0", "grad-head-1", "grad-head-3"] as const;
+const LINK_CARD =
+  "group block h-full overflow-hidden rounded-2xl bg-white ring-1 ring-[#DDD6FE] shadow-[0_14px_34px_-26px_rgba(124,58,237,0.55)] hover:ring-[#4F46E5] hover:-translate-y-0.5 hover:shadow-lg transition-all";
 
 /**
  * Titre court si le gabarit long dépasse les ~60 caractères rendus par Google.
@@ -174,181 +183,215 @@ export default async function PairSynthesePage({ params }: Props) {
     },
   ]);
 
+  const sides = [
+    { city: cityA, syn: synA, wins: winsA, head: HEAD[0], pill: PILL[0] },
+    { city: cityB, syn: synB, wins: winsB, head: HEAD[1], pill: PILL[1] },
+  ];
+
   return (
     <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-4xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/comparer" className="hover:underline">Comparer</Link> ·{" "}
-          <Link href={`/comparer/${pair}`} className="hover:underline">
-            {cityA.name} vs {cityB.name}
-          </Link>
-        </nav>
-
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {cityA.name} vs {cityB.name} — synthèse 8 axes
-        </h1>
-        <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Comparatif détaillé sur les 8 dimensions data du site : environnement, santé,
-          emploi, cadre de vie, vélo, sécurité, démographie, services publics. Convention
-          unifiée 10 = excellent, écart significatif fixé à ±0,3 pt.
-        </p>
-
-        <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>8 axes comparés</Badge>
-          <Badge>
-            {cityA.name} {synA.global}/10 vs {cityB.name} {synB.global}/10
-          </Badge>
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10 sm:pb-12">
+        <div className="relative mx-auto max-w-4xl px-4 sm:px-6">
+          <nav aria-label="Fil d'Ariane" className="mb-4 text-xs text-[var(--text-tertiary)]">
+            <Link href="/" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Accueil</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <Link href="/comparer" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Comparer</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <Link href={`/comparer/${pair}`} className="font-medium text-[#4338CA] hover:text-[#BE185D]">
+              {cityA.name} vs {cityB.name}
+            </Link>
+          </nav>
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <EmojiBadge emoji="✨" tone="pink" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              8 axes comparés
+            </span>
+          </div>
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)] leading-[1.1]">
+            <span className="gradient-text-anim pr-1">{cityA.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2 py-0.5 text-xs sm:text-sm font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{cityB.name}</span>{" "}
+            <span className="text-[var(--text-primary)]">— synthèse 8 axes</span>
+          </h1>
+          <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
+            Comparatif détaillé sur les 8 dimensions data du site : environnement, santé,
+            emploi, cadre de vie, vélo, sécurité, démographie, services publics. Convention
+            unifiée 10 = excellent, écart significatif fixé à ±0,3 pt.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs">
+            {sides.map((s) => (
+              <span key={s.city.slug} className={`rounded-full px-3 py-1 font-semibold ${s.pill}`}>
+                {s.city.name} {s.syn.global}/10
+              </span>
+            ))}
+          </div>
         </div>
+      </section>
 
-        {/* Hero verdict */}
-        <Card className="mt-6">
-          <div className="grid grid-cols-2 gap-3 mb-4">
-            <div className={`rounded-2xl border p-4 ${SYNTHESIS_LEVEL_BG[synA.level]}`}>
-              <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)] mb-1">
-                {cityA.name}
+      {/* Verdict */}
+      <section className="band band-indigo py-10 sm:py-14">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6 space-y-6">
+          <div className="flex items-center gap-3">
+            <EmojiBadge emoji="⚖️" tone="indigo" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Le verdict</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-2 gap-3 sm:gap-4">
+            {sides.map((s) => (
+              <div
+                key={s.city.slug}
+                className="rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] overflow-hidden"
+              >
+                <div className={`${s.head} px-4 py-2 text-xs font-bold uppercase tracking-widest truncate`}>
+                  {s.city.name}
+                </div>
+                <div className="p-4">
+                  <div className="text-3xl font-bold tabular-nums text-[var(--text-primary)]">
+                    {s.syn.global.toFixed(1)}
+                    <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
+                  </div>
+                  <div className={`text-xs font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[s.syn.level]}`}>
+                    {SYNTHESIS_LEVEL_LABEL[s.syn.level]} · cohérence ±{s.syn.spread.toFixed(1)}
+                  </div>
+                </div>
               </div>
-              <div className="text-3xl font-bold tabular-nums text-[var(--text-primary)]">
-                {synA.global.toFixed(1)}
-                <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
-              </div>
-              <div className={`text-xs font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[synA.level]}`}>
-                {SYNTHESIS_LEVEL_LABEL[synA.level]} · cohérence ±{synA.spread.toFixed(1)}
+            ))}
+          </div>
+          <div className="rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] overflow-hidden">
+            <div className="h-1.5 grad-head-0" aria-hidden />
+            <div className="p-5">
+              <p className="text-sm text-[var(--text-primary)] leading-relaxed">{verdict}</p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                {sides.map((s) => (
+                  <span key={s.city.slug} className={`rounded-full px-3 py-1 font-semibold ${s.pill}`}>
+                    {s.wins} axes pour {s.city.name}
+                  </span>
+                ))}
+                <span className="rounded-full px-3 py-1 font-semibold bg-[#F1F5F9] text-[var(--text-secondary)]">
+                  {draws} équivalents
+                </span>
               </div>
             </div>
-            <div className={`rounded-2xl border p-4 ${SYNTHESIS_LEVEL_BG[synB.level]}`}>
-              <div className="text-xs uppercase tracking-wide text-[var(--text-tertiary)] mb-1">
-                {cityB.name}
-              </div>
-              <div className="text-3xl font-bold tabular-nums text-[var(--text-primary)]">
-                {synB.global.toFixed(1)}
-                <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
-              </div>
-              <div className={`text-xs font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[synB.level]}`}>
-                {SYNTHESIS_LEVEL_LABEL[synB.level]} · cohérence ±{synB.spread.toFixed(1)}
-              </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Axis-by-axis comparison */}
+      <section className="band band-sky py-10 sm:py-14">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <div className="flex items-center gap-3">
+            <EmojiBadge emoji="📊" tone="sky" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Comparaison axe par axe</span>
+            </h2>
+          </div>
+          <p className="mt-3 text-sm text-[var(--text-secondary)]">
+            Convention unifiée 10 = excellent. Le « delta » est positif quand {cityA.name}{" "}
+            dépasse {cityB.name}. Écart significatif : ≥ 0,3 pt.
+          </p>
+          <div className="mt-5 rounded-2xl bg-white ring-1 ring-[#BAE6FD] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)] overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="bg-[#EEF2FF] text-xs uppercase tracking-wide text-[#4338CA]">
+                  <tr>
+                    <th className="px-3 py-2.5 text-left">Axe</th>
+                    <th className={`px-3 py-2.5 text-right ${TEXT[0]}`}>{cityA.name}</th>
+                    <th className={`px-3 py-2.5 text-right ${TEXT[1]}`}>{cityB.name}</th>
+                    <th className="px-3 py-2.5 text-right">Δ</th>
+                    <th className="px-3 py-2.5 text-left hidden sm:table-cell">Gagnant</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((r, idx) => {
+                    const winnerIdx = Math.abs(r.delta) < 0.3 ? -1 : r.delta > 0 ? 0 : 1;
+                    return (
+                      <tr
+                        key={r.key}
+                        className={`border-t border-[#E0E7FF] ${idx % 2 === 1 ? "bg-[#F8FAFF]" : ""}`}
+                      >
+                        <td className="px-3 py-2.5">
+                          <Link
+                            href={r.a.href}
+                            className="font-semibold text-[var(--text-primary)] hover:text-[#4338CA]"
+                          >
+                            {r.label}
+                          </Link>
+                          <div className="text-[10px] text-[var(--text-tertiary)] mt-0.5">
+                            {r.hint}
+                          </div>
+                        </td>
+                        <td className="px-3 py-2.5 text-right">
+                          <span className={`font-bold tabular-nums ${SYNTHESIS_LEVEL_COLOR[r.a.level]}`}>
+                            {r.a.score.toFixed(1)}
+                          </span>
+                        </td>
+                        <td className="px-3 py-2.5 text-right">
+                          <span className={`font-bold tabular-nums ${SYNTHESIS_LEVEL_COLOR[r.b.level]}`}>
+                            {r.b.score.toFixed(1)}
+                          </span>
+                        </td>
+                        <td className="px-3 py-2.5 text-right tabular-nums text-xs text-[var(--text-secondary)]">
+                          {deltaLabel(r.delta)}
+                        </td>
+                        <td className="px-3 py-2.5 text-xs font-semibold hidden sm:table-cell">
+                          {winnerIdx === -1 ? (
+                            <span className="text-[var(--text-tertiary)]">—</span>
+                          ) : (
+                            <span className={`rounded-full px-2.5 py-0.5 ${PILL[winnerIdx]}`}>
+                              {sides[winnerIdx].city.name}
+                            </span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
             </div>
           </div>
-          <p className="text-sm text-[var(--text-primary)] leading-relaxed">{verdict}</p>
-          <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            <Badge>{winsA} axes pour {cityA.name}</Badge>
-            <Badge>{winsB} axes pour {cityB.name}</Badge>
-            <Badge>{draws} équivalents</Badge>
-          </div>
-        </Card>
+        </div>
+      </section>
 
-        {/* Axis-by-axis comparison */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
-          Comparaison axe par axe
-        </h2>
-        <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Convention unifiée 10 = excellent. Le « delta » est positif quand {cityA.name}
-          dépasse {cityB.name}. Écart significatif : ≥ 0,3 pt.
-        </p>
-        <Card className="mt-4 overflow-hidden p-0">
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
-                <tr>
-                  <th className="px-3 py-2 text-left">Axe</th>
-                  <th className="px-3 py-2 text-right">{cityA.name}</th>
-                  <th className="px-3 py-2 text-right">{cityB.name}</th>
-                  <th className="px-3 py-2 text-right">Δ</th>
-                  <th className="px-3 py-2 text-left hidden sm:table-cell">Gagnant</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((r) => {
-                  const winner =
-                    Math.abs(r.delta) < 0.3 ? "—" : r.delta > 0 ? cityA.name : cityB.name;
-                  const winnerColor =
-                    winner === "—"
-                      ? "text-[var(--text-tertiary)]"
-                      : winner === cityA.name
-                        ? "text-emerald-700"
-                        : "text-emerald-700";
-                  return (
-                    <tr key={r.key} className="border-t border-[var(--border)]">
-                      <td className="px-3 py-2">
-                        <Link
-                          href={r.a.href}
-                          className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
-                        >
-                          {r.label}
-                        </Link>
-                        <div className="text-[10px] text-[var(--text-tertiary)] mt-0.5">
-                          {r.hint}
-                        </div>
-                      </td>
-                      <td className="px-3 py-2 text-right">
-                        <span className={`font-bold tabular-nums ${SYNTHESIS_LEVEL_COLOR[r.a.level]}`}>
-                          {r.a.score.toFixed(1)}
-                        </span>
-                      </td>
-                      <td className="px-3 py-2 text-right">
-                        <span className={`font-bold tabular-nums ${SYNTHESIS_LEVEL_COLOR[r.b.level]}`}>
-                          {r.b.score.toFixed(1)}
-                        </span>
-                      </td>
-                      <td className="px-3 py-2 text-right tabular-nums text-xs text-[var(--text-secondary)]">
-                        {deltaLabel(r.delta)}
-                      </td>
-                      <td className={`px-3 py-2 text-xs font-semibold hidden sm:table-cell ${winnerColor}`}>
-                        {winner}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+      {/* Cross-links */}
+      <section className="band band-lilac py-10 sm:py-14">
+        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-4">
+            <EmojiBadge emoji="🧭" tone="lilac" size="sm" />
+            <h2 className="text-xl sm:text-2xl font-bold">
+              <span className="gradient-text">Aller plus loin</span>
+            </h2>
           </div>
-        </Card>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { href: `/comparer/${pair}`, title: "← Comparatif classique", sub: "Scores seed, coût de la vie, immobilier" },
+              { href: `/villes/${cityA.slug}/synthese`, title: `Synthèse ${cityA.name}`, sub: "Forces, tensions, méthodologie" },
+              { href: `/villes/${cityB.slug}/synthese`, title: `Synthèse ${cityB.name}`, sub: "Forces, tensions, méthodologie" },
+              { href: "/palmares", title: "Palmarès national", sub: "Top 30 profils favorables sur les 8 axes" },
+            ].map((l, i) => (
+              <Link key={l.href} href={l.href} className={LINK_CARD}>
+                <div className={`h-1.5 grad-head-${i % 6}`} aria-hidden />
+                <div className="px-4 py-3">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
+                    {l.title}
+                  </div>
+                  <div className="text-xs text-[var(--text-secondary)] mt-1">{l.sub}</div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
 
-        {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Link href={`/comparer/${pair}`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">
-                ← Comparatif classique
-              </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Scores seed, coût de la vie, immobilier
-              </div>
-            </Card>
-          </Link>
-          <Link href={`/villes/${cityA.slug}/synthese`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Synthèse {cityA.name}
-              </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Forces, tensions, méthodologie
-              </div>
-            </Card>
-          </Link>
-          <Link href={`/villes/${cityB.slug}/synthese`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Synthèse {cityB.name}
-              </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Forces, tensions, méthodologie
-              </div>
-            </Card>
-          </Link>
-          <Link href="/palmares" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">Palmarès national</div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Top 30 profils favorables sur les 8 axes
-              </div>
-            </Card>
-          </Link>
+      {/* Feedback */}
+      <section className="band band-white py-10 sm:py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
         </div>
       </section>
 
@@ -445,101 +488,133 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
-          <Link href="/" className="hover:underline">Accueil</Link> ·{" "}
-          <Link href="/comparer" className="hover:underline">Comparer</Link> ·{" "}
-          <Link href={`/comparer/${pair}`} className="hover:underline">
-            {s0.name} vs {s1.name} vs {s2.name}
-          </Link>
-        </nav>
-
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
-          {s0.name} vs {s1.name} vs {s2.name} — synthèse 8 axes
-        </h1>
-        <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
-          Comparatif à 3 sur les 8 dimensions data du site. Convention unifiée
-          10 = excellent. « Gagnant » par axe attribué seulement si la ville en
-          tête devance la suivante de ≥ 0,3 pt.
-        </p>
-
-        <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>8 axes comparés</Badge>
-          <Badge>{s0.name} {syn0.global}/10</Badge>
-          <Badge>{s1.name} {syn1.global}/10</Badge>
-          <Badge>{s2.name} {syn2.global}/10</Badge>
+      {/* Hero */}
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-10 sm:pb-12">
+        <div className="relative mx-auto max-w-5xl px-4 sm:px-6">
+          <nav aria-label="Fil d'Ariane" className="mb-4 text-xs text-[var(--text-tertiary)]">
+            <Link href="/" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Accueil</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <Link href="/comparer" className="font-medium text-[#4338CA] hover:text-[#BE185D]">Comparer</Link>
+            <span className="mx-1.5" aria-hidden>/</span>
+            <Link href={`/comparer/${pair}`} className="font-medium text-[#4338CA] hover:text-[#BE185D]">
+              {s0.name} vs {s1.name} vs {s2.name}
+            </Link>
+          </nav>
+          <div className="flex flex-wrap items-center gap-3 mb-3">
+            <EmojiBadge emoji="✨" tone="pink" />
+            <span className="inline-flex items-center rounded-full grad-head-0 px-3 py-1 text-xs font-semibold uppercase tracking-widest">
+              8 axes comparés
+            </span>
+          </div>
+          <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)] leading-[1.1]">
+            <span className="gradient-text-anim pr-1">{s0.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2 py-0.5 text-xs sm:text-sm font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{s1.name}</span>{" "}
+            <span className="inline-flex align-middle items-center justify-center rounded-full grad-head-5 px-2 py-0.5 text-xs sm:text-sm font-extrabold">vs</span>{" "}
+            <span className="gradient-text-anim pr-1">{s2.name}</span>{" "}
+            <span className="text-[var(--text-primary)]">— synthèse 8 axes</span>
+          </h1>
+          <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
+            Comparatif à 3 sur les 8 dimensions data du site. Convention unifiée
+            10 = excellent. « Gagnant » par axe attribué seulement si la ville en
+            tête devance la suivante de ≥ 0,3 pt.
+          </p>
+          <div className="mt-4 flex flex-wrap gap-2 text-xs">
+            {seeds.map((s, i) => (
+              <span key={s.slug} className={`rounded-full px-3 py-1 font-semibold ${PILL[i]}`}>
+                {s.name} {syns[i].global}/10
+              </span>
+            ))}
+          </div>
         </div>
+      </section>
 
-        {/* Hero — 3 cartes */}
-        <Card className="mt-6">
-          <div className="grid grid-cols-3 gap-3 mb-4">
+      {/* Verdict — 3 cartes */}
+      <section className="band band-indigo py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-6">
+          <div className="flex items-center gap-3">
+            <EmojiBadge emoji="⚖️" tone="indigo" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Le verdict</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
             {seeds.map((s, i) => (
               <div
                 key={s.slug}
-                className={`rounded-2xl border p-3 sm:p-4 ${SYNTHESIS_LEVEL_BG[syns[i].level]}`}
+                className="rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] overflow-hidden"
               >
-                <div
-                  className="text-xs uppercase tracking-wide mb-1 font-semibold"
-                  style={{ color: TRIPLET_COLORS[i] }}
-                >
+                <div className={`${HEAD[i]} px-4 py-2 text-xs font-bold uppercase tracking-widest truncate`}>
                   {s.name}
                 </div>
-                <div className="text-2xl sm:text-3xl font-bold tabular-nums text-[var(--text-primary)]">
-                  {syns[i].global.toFixed(1)}
-                  <span className="text-xs font-normal text-[var(--text-tertiary)] ml-0.5">
-                    /10
-                  </span>
-                </div>
-                <div
-                  className={`text-[11px] font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[syns[i].level]}`}
-                >
-                  {SYNTHESIS_LEVEL_LABEL[syns[i].level]} · ±{syns[i].spread.toFixed(1)}
+                <div className="p-4">
+                  <div className="text-3xl font-bold tabular-nums text-[var(--text-primary)]">
+                    {syns[i].global.toFixed(1)}
+                    <span className="text-sm font-normal text-[var(--text-tertiary)] ml-0.5">/10</span>
+                  </div>
+                  <div className={`text-[11px] font-bold uppercase mt-1 ${SYNTHESIS_LEVEL_COLOR[syns[i].level]}`}>
+                    {SYNTHESIS_LEVEL_LABEL[syns[i].level]} · ±{syns[i].spread.toFixed(1)}
+                  </div>
                 </div>
               </div>
             ))}
           </div>
-          <p className="text-sm text-[var(--text-primary)] leading-relaxed">{verdict}</p>
-          <div className="mt-3 flex flex-wrap gap-2 text-xs">
-            {seeds.map((s, i) => (
-              <Badge key={s.slug}>
-                {wins[i]} axes pour {s.name}
-              </Badge>
-            ))}
-            <Badge>{draws} équivalents</Badge>
+          <div className="rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-[0_14px_34px_-24px_rgba(79,70,229,0.6)] overflow-hidden">
+            <div className="h-1.5 grad-head-0" aria-hidden />
+            <div className="p-5">
+              <p className="text-sm text-[var(--text-primary)] leading-relaxed">{verdict}</p>
+              <div className="mt-3 flex flex-wrap gap-2 text-xs">
+                {seeds.map((s, i) => (
+                  <span key={s.slug} className={`rounded-full px-3 py-1 font-semibold ${PILL[i]}`}>
+                    {wins[i]} axes pour {s.name}
+                  </span>
+                ))}
+                <span className="rounded-full px-3 py-1 font-semibold bg-[#F1F5F9] text-[var(--text-secondary)]">
+                  {draws} équivalents
+                </span>
+              </div>
+            </div>
           </div>
-        </Card>
+        </div>
+      </section>
 
-        {/* Axis-by-axis comparison */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">
-          Comparaison axe par axe
-        </h2>
-        <p className="mt-2 text-sm text-[var(--text-secondary)]">
-          Le « gagnant » est la ville en tête, à condition que son avance sur la
-          suivante atteigne 0,3 pt. Sinon, les écarts sont jugés non significatifs.
-        </p>
-        <Card className="mt-4 overflow-hidden p-0">
-          <div className="overflow-x-auto">
-            <table className="w-full text-sm">
-              <thead className="bg-[var(--bg-elevated)] text-xs uppercase tracking-wide text-[var(--text-tertiary)]">
-                <tr>
-                  <th className="px-3 py-2 text-left">Axe</th>
-                  {seeds.map((s, i) => (
-                    <th key={s.slug} className="px-3 py-2 text-right">
-                      <span style={{ color: TRIPLET_COLORS[i] }}>{s.name}</span>
-                    </th>
-                  ))}
-                  <th className="px-3 py-2 text-left hidden sm:table-cell">Gagnant</th>
-                </tr>
-              </thead>
-              <tbody>
-                {rows.map((r) => {
-                  const winnerName = r.winner === -1 ? "—" : seeds[r.winner].name;
-                  return (
-                    <tr key={r.key} className="border-t border-[var(--border)]">
-                      <td className="px-3 py-2">
+      {/* Axis-by-axis comparison */}
+      <section className="band band-sky py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3">
+            <EmojiBadge emoji="📊" tone="sky" size="sm" />
+            <h2 className="text-2xl sm:text-3xl font-bold">
+              <span className="gradient-text">Comparaison axe par axe</span>
+            </h2>
+          </div>
+          <p className="mt-3 text-sm text-[var(--text-secondary)]">
+            Le « gagnant » est la ville en tête, à condition que son avance sur la
+            suivante atteigne 0,3 pt. Sinon, les écarts sont jugés non significatifs.
+          </p>
+          <div className="mt-5 rounded-2xl bg-white ring-1 ring-[#BAE6FD] shadow-[0_14px_34px_-24px_rgba(8,145,178,0.6)] overflow-hidden">
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="bg-[#EEF2FF] text-xs uppercase tracking-wide text-[#4338CA]">
+                  <tr>
+                    <th className="px-3 py-2.5 text-left">Axe</th>
+                    {seeds.map((s, i) => (
+                      <th key={s.slug} className={`px-3 py-2.5 text-right ${TEXT[i]}`}>
+                        {s.name}
+                      </th>
+                    ))}
+                    <th className="px-3 py-2.5 text-left hidden sm:table-cell">Gagnant</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {rows.map((r, idx) => (
+                    <tr
+                      key={r.key}
+                      className={`border-t border-[#E0E7FF] ${idx % 2 === 1 ? "bg-[#F8FAFF]" : ""}`}
+                    >
+                      <td className="px-3 py-2.5">
                         <Link
                           href={r.href}
-                          className="font-semibold text-[var(--text-primary)] hover:text-[var(--accent)]"
+                          className="font-semibold text-[var(--text-primary)] hover:text-[#4338CA]"
                         >
                           {r.label}
                         </Link>
@@ -550,69 +625,72 @@ function renderTriplet(seeds: SeedCity[], pair: string) {
                       {r.scores.map((score, i) => {
                         const isWinner = r.winner === i;
                         return (
-                          <td key={i} className="px-3 py-2 text-right">
+                          <td key={i} className="px-3 py-2.5 text-right">
                             <span
-                              className={`tabular-nums ${isWinner ? "font-bold" : "font-medium"}`}
-                              style={isWinner ? { color: TRIPLET_COLORS[i] } : undefined}
+                              className={`tabular-nums ${
+                                isWinner ? `font-bold ${TEXT[i]}` : "font-medium text-[var(--text-primary)]"
+                              }`}
                             >
                               {score.toFixed(1)}
                             </span>
                           </td>
                         );
                       })}
-                      <td
-                        className={`px-3 py-2 text-xs font-semibold hidden sm:table-cell ${
-                          r.winner === -1 ? "text-[var(--text-tertiary)]" : ""
-                        }`}
-                        style={
-                          r.winner === -1 ? undefined : { color: TRIPLET_COLORS[r.winner] }
-                        }
-                      >
-                        {winnerName}
+                      <td className="px-3 py-2.5 text-xs font-semibold hidden sm:table-cell">
+                        {r.winner === -1 ? (
+                          <span className="text-[var(--text-tertiary)]">—</span>
+                        ) : (
+                          <span className={`rounded-full px-2.5 py-0.5 ${PILL[r.winner]}`}>
+                            {seeds[r.winner].name}
+                          </span>
+                        )}
                       </td>
                     </tr>
-                  );
-                })}
-              </tbody>
-            </table>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
-        </Card>
+        </div>
+      </section>
 
-        {/* Cross-links */}
-        <h2 className="mt-10 text-xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <Link href={`/comparer/${pair}`} className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">
-                ← Comparatif classique 3 villes
-              </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Radar 3 polygones, scores seed, climat, immobilier
-              </div>
-            </Card>
-          </Link>
-          {seeds.map((s) => (
-            <Link key={s.slug} href={`/villes/${s.slug}/synthese`} className="block">
-              <Card className="hover:shadow-md transition-shadow h-full">
-                <div className="text-sm font-semibold text-[var(--text-primary)]">
-                  Synthèse {s.name}
+      {/* Cross-links */}
+      <section className="band band-lilac py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+          <div className="flex items-center gap-3 mb-4">
+            <EmojiBadge emoji="🧭" tone="lilac" size="sm" />
+            <h2 className="text-xl sm:text-2xl font-bold">
+              <span className="gradient-text">Aller plus loin</span>
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { href: `/comparer/${pair}`, title: "← Comparatif classique 3 villes", sub: "Radar 3 polygones, scores seed, climat, immobilier" },
+              ...seeds.map((s) => ({
+                href: `/villes/${s.slug}/synthese`,
+                title: `Synthèse ${s.name}`,
+                sub: "Forces, tensions, méthodologie",
+              })),
+              { href: "/synthese", title: "Hub Synthèse 8 axes", sub: "Pyramide complète ville → national" },
+            ].map((l, i) => (
+              <Link key={l.href} href={l.href} className={LINK_CARD}>
+                <div className={`h-1.5 grad-head-${i % 6}`} aria-hidden />
+                <div className="px-4 py-3">
+                  <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
+                    {l.title}
+                  </div>
+                  <div className="text-xs text-[var(--text-secondary)] mt-1">{l.sub}</div>
                 </div>
-                <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                  Forces, tensions, méthodologie
-                </div>
-              </Card>
-            </Link>
-          ))}
-          <Link href="/synthese" className="block">
-            <Card className="hover:shadow-md transition-shadow h-full">
-              <div className="text-sm font-semibold text-[var(--text-primary)]">
-                Hub Synthèse 8 axes
-              </div>
-              <div className="text-xs text-[var(--text-tertiary)] mt-1">
-                Pyramide complète ville → national
-              </div>
-            </Card>
-          </Link>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Feedback */}
+      <section className="band band-white py-10 sm:py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <FeedbackWidget />
         </div>
       </section>
 
