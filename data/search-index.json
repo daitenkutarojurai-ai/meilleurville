@@ -8142,6 +8142,41 @@
       "emoji": "🚢"
     },
     {
+      "slug": "retraite-a-albi-2026",
+      "title": "Retraite à Albi en 2026 : T2 à 620 €, cité épiscopale et Toulouse à 67 km",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "retraite-a-carcassonne-2026",
+      "title": "Retraite à Carcassonne en 2026 : T2 à 530 €, soleil, mais 28 % de pauvreté",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "retraite-a-saint-raphael-2026",
+      "title": "Retraite à Saint-Raphaël en 2026 : près d'un habitant sur deux a 60 ans ou plus",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "retraite-a-cagnes-sur-mer-2026",
+      "title": "Retraite à Cagnes-sur-Mer en 2026 : généralistes faciles, Nice à 10 km, T2 à 920 €",
+      "emoji": "🖼️"
+    },
+    {
+      "slug": "retraite-a-poitiers-2026",
+      "title": "Retraite à Poitiers en 2026 : CHU sur place, T2 à 660 €, mais une ville d'étudiants",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "retraite-a-valence-2026",
+      "title": "Retraite à Valence en 2026 : T2 à 680 €, Rhône et Vercors, CHU à 68 km",
+      "emoji": "🌅"
+    },
+    {
+      "slug": "retraite-a-saint-nazaire-2026",
+      "title": "Retraite à Saint-Nazaire en 2026 : T2 à 640 €, océan, Nantes à 50 km",
+      "emoji": "⚓"
+    },
+    {
       "slug": "demenager-a-paris-2026",
       "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
       "emoji": "📦"
@@ -12379,6 +12414,16 @@
       "count": 4
     },
     {
+      "slug": "retraite-alpes-maritimes",
+      "label": "retraite Alpes-Maritimes",
+      "count": 4
+    },
+    {
+      "slug": "retraite-cote-d-azur",
+      "label": "retraite Côte d'Azur",
+      "count": 4
+    },
+    {
       "slug": "saint-etienne",
       "label": "Saint-Étienne",
       "count": 4
@@ -12884,11 +12929,6 @@
       "count": 3
     },
     {
-      "slug": "retraite-alpes-maritimes",
-      "label": "retraite Alpes-Maritimes",
-      "count": 3
-    },
-    {
       "slug": "retraite-bretagne",
       "label": "retraite Bretagne",
       "count": 3
@@ -12901,6 +12941,11 @@
     {
       "slug": "retraite-pays-basque",
       "label": "retraite Pays basque",
+      "count": 3
+    },
+    {
+      "slug": "retraite-var",
+      "label": "retraite Var",
       "count": 3
     },
     {

@@ -44762,6 +44762,328 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Le Havre 2026","prendre sa retraite au Havre","retraite Seine-Maritime","budget retraité Le Havre","retraite Normandie"],
   },
   {
+    slug: "retraite-a-albi-2026",
+    title: "Retraite à Albi en 2026 : T2 à 620 €, cité épiscopale et Toulouse à 67 km",
+    metaTitle: "Retraite à Albi 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Albi en 2026 : T2 à 620 €, m² à 2 200 €, score retraite 7,5/10, accès aux soins 6,6/10. Budget réel, médecins, CHU de Toulouse à 67 km.",
+    category: "lifestyle",
+    emoji: "🧱",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Albi est l'une des villes moyennes les mieux notées de notre base pour un retraité : score retraite de 7,5/10, dans un palier de 15 villes à égalité, derrière 97 autres. Le deux-pièces s'y loue 620 € et le mètre carré s'achète 2 200 €, soit environ 132 000 € pour 60 m² (source : notre estimation des loyers). Reste une limite à connaître avant de signer : le CHU le plus proche est à Toulouse, à 67 km à vol d'oiseau, et la commune compte 50 605 habitants dont un tiers a 60 ans ou plus.",
+    sections: [
+      {
+        heading: "Combien coûte la vie d'un retraité à Albi ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 620 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 310 € par mois. Couple locataire d'un trois-pièces à 840 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 870 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 190 € de marge.",
+      },
+      {
+        heading: "Peut-on se faire soigner à Albi sans aller à Toulouse ?",
+        body: "Pour le quotidien, oui : notre moteur place Albi à 6,6/10 en accès aux soins, où 10 signifie un excellent accès, niveau « facile » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 4,62 consultations par an et par habitant, contre 3,72 en moyenne nationale, avec 56 généralistes libéraux, 20 pharmacies et 2 services d'urgences dans la commune (Insee, BPE). Pour une chirurgie lourde ou un suivi de spécialité rare, le CHU est à Toulouse, à 67 km.",
+      },
+      {
+        heading: "Albi, Montauban ou Castres : quelle ville du Sud-Ouest pour une petite pension ?",
+        body: "Castres est moins chère (520 € le T2, 1 700 €/m²) et note 7,0/10 en retraite, mais son accès aux généralistes tombe à 3,35, sous la moyenne nationale, avec 41 généralistes pour 42 700 habitants. Montauban coûte à peu près comme Albi (650 € le T2, 2 200 €/m²) et se trouve plus près de Toulouse, à 46 km, mais note 6,1/10 avec un accès de 3,74. Albi est la seule des trois à cumuler un score retraite de 7,5 et un accès aux généralistes au-dessus de 4,5.",
+      },
+      {
+        heading: "Une ville qui grandit, mais où un habitant sur trois a plus de 60 ans",
+        body: "Albi a gagné 1 581 habitants entre 2016 et 2022, soit +3,2 %, et 33,6 % de sa population a 60 ans ou plus, contre une médiane de 26,2 % dans notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 21 650 € par an avec 20 % de pauvreté (source : Insee, Filosofi 2021). Pour un acheteur, une demande qui progresse et une population âgée rendent la revente moins risquée que dans une ville qui se vide.",
+      },
+      {
+        heading: "Quel cadre et quel climat pour une retraite à Albi ?",
+        body: "Albi affiche 5,5 °C en janvier et 25,5 °C en juillet, avec environ 2 050 heures de soleil par an : un hiver doux et un été chaud sans la canicule méditerranéenne. La cité épiscopale, inscrite à l'UNESCO en 2010, réunit la cathédrale Sainte-Cécile, bâtie en brique entre 1282 et 1480, le palais de la Berbie, qui abrite le musée Toulouse-Lautrec, et le Pont-Vieux sur le Tarn. La sécurité est à 6,7/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Albi fonctionne, et pour qui non",
+        body: "Albi convient au retraité qui veut une ville de 50 000 habitants à taille humaine, un loyer sous 650 € et des généralistes disponibles, en acceptant Toulouse comme hôpital de référence. Elle convient moins à celui qui a besoin d'un CHU à moins de 30 minutes, ou qui veut la mer : le littoral est loin.",
+      },
+    ],
+    relatedCities: ["albi","castres","montauban","toulouse"],
+    relatedGuides: [
+      "famille-a-albi-2026",
+      "10-choses-a-faire-a-albi-2026",
+      "retraite-a-gaillac-2026",
+      "retraite-a-limoges-2026",
+    ],
+    tags: ["retraite Albi 2026","prendre sa retraite à Albi","retraite Tarn","budget retraité Albi","retraite Occitanie"],
+  },
+  {
+    slug: "retraite-a-carcassonne-2026",
+    title: "Retraite à Carcassonne en 2026 : T2 à 530 €, soleil, mais 28 % de pauvreté",
+    metaTitle: "Retraite à Carcassonne 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Carcassonne en 2026 : T2 à 530 €, m² à 1 500 €, 2 500 h de soleil, accès aux soins 6,1/10. Budget réel et limites : CHU à Toulouse, 85 km.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Carcassonne est la ville la moins chère de ce lot : 530 € le deux-pièces et 1 500 € le mètre carré, soit environ 90 000 € pour 60 m² (source : notre estimation des loyers), avec environ 2 500 heures de soleil par an. Son score retraite est de 6,3/10, dans un palier de 16 villes à égalité, derrière 244 autres. Les contreparties se lisent dans les chiffres : 28 % de la population sous le seuil de pauvreté, une sécurité à 4,5/10 sur notre fiche ville et un CHU à Toulouse, à 85 km.",
+    sections: [
+      {
+        heading: "Quel budget mensuel pour un retraité à Carcassonne ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 530 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 220 € par mois. Couple locataire d'un trois-pièces à 710 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 740 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 280 € de marge, la plus large de ce lot.",
+      },
+      {
+        heading: "Carcassonne offre-t-elle un accès aux soins correct ?",
+        body: "Correct, sans plus : notre moteur place Carcassonne à 6,1/10, où 10 signifie un excellent accès, niveau « correct » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 3,79 consultations par an et par habitant, à peine au-dessus de la moyenne nationale de 3,72, avec 34 généralistes libéraux pour 46 429 habitants, 17 pharmacies et 2 services d'urgences (Insee, BPE). Le CHU le plus proche est à Toulouse, à 85 km : un retraité qui développe une pathologie lourde doit prévoir le trajet.",
+      },
+      {
+        heading: "Carcassonne face à Narbonne et Béziers : le soleil au meilleur prix ?",
+        body: "Narbonne est plus chère (680 € le T2, 2 400 €/m²) mais mieux dotée en généralistes, avec un accès de 4,74 contre 3,79 ; elle note 5,5/10 en retraite. Béziers coûte autant que Carcassonne (530 € le T2, 1 500 €/m²), son accès tombe à 3,64 et son niveau de vie médian est de 16 830 € par an, contre 19 240 € à Carcassonne. Carcassonne a le même loyer que Béziers et le meilleur score retraite des trois, 6,3 contre 5,5 pour Narbonne et 5,4 pour Béziers.",
+      },
+      {
+        heading: "Une population stable, âgée et modeste",
+        body: "Carcassonne a gagné 534 habitants entre 2016 et 2022, soit +1,2 %, et 32,5 % de sa population a 60 ans ou plus, contre une médiane de 26,2 % dans notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 19 240 € par an et le taux de pauvreté de 28 % (source : Insee, Filosofi 2021). Ce sont des chiffres de ville modeste : les prix bas en sont le reflet, et un retraité qui achète doit se demander ce que le marché de la revente en tirera.",
+      },
+      {
+        heading: "Quel climat et quel cadre à Carcassonne ?",
+        body: "Carcassonne affiche 6,5 °C en janvier et 26 °C en juillet, avec environ 2 500 heures de soleil par an : un climat méditerranéen d'arrière-pays. La Cité médiévale est inscrite à l'UNESCO depuis 1997 et le canal du Midi, inscrit en 1996, traverse la ville basse, la bastide Saint-Louis, fondée au XIIIᵉ siècle. La sécurité est à 4,5/10 sur notre fiche ville : c'est le point faible du dossier, à vérifier sur place avant de choisir un quartier.",
+      },
+      {
+        heading: "Pour qui Carcassonne fonctionne, et pour qui non",
+        body: "Carcassonne convient au retraité à petite pension qui veut du soleil, un loyer à 530 € et un cadre patrimonial, et qui accepte de faire Toulouse pour les soins lourds. Elle convient moins à celui qui cherche une ville dynamique, un niveau de vie élevé autour de lui ou une sécurité de quartier irréprochable.",
+      },
+    ],
+    relatedCities: ["carcassonne","narbonne","beziers","toulouse"],
+    relatedGuides: [
+      "10-choses-a-faire-a-carcassonne-2026",
+      "retraite-a-narbonne-2026",
+      "retraite-a-beziers-2026",
+      "retraite-a-perpignan-2026",
+    ],
+    tags: ["retraite Carcassonne 2026","prendre sa retraite à Carcassonne","retraite Aude","budget retraité Carcassonne","retraite Occitanie"],
+  },
+  {
+    slug: "retraite-a-saint-raphael-2026",
+    title: "Retraite à Saint-Raphaël en 2026 : près d'un habitant sur deux a 60 ans ou plus",
+    metaTitle: "Retraite à Saint-Raphaël 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Saint-Raphaël en 2026 : T2 à 970 €, m² à 4 500 €, 48,5 % d'habitants de 60 ans et plus, urgences à Fréjus, 5 km. Budget réel et limites.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "À Saint-Raphaël, 48,5 % des habitants ont 60 ans ou plus (source : Insee, recensement 2022) : c'est la ville la plus âgée de ce lot, et la plus chère. Le deux-pièces se loue 970 € et le mètre carré s'achète 4 500 €, soit environ 270 000 € pour 60 m² (source : notre estimation des loyers). Le score retraite est de 7,1/10, dans un palier de 10 villes à égalité, derrière 144 autres, avec 2 850 heures de soleil par an, mais une pension moyenne ne couvre pas le budget type d'une personne seule locataire.",
+    sections: [
+      {
+        heading: "Quel budget faut-il pour vivre à Saint-Raphaël en retraite ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 970 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 660 € par mois, soit environ 160 € de plus qu'une pension moyenne de 1 500 € nets (source : DREES). Couple locataire d'un trois-pièces à 1 300 € : environ 2 330 € par mois. Ici, la retraite se finance par l'achat, la pension de réversion ou un patrimoine.",
+      },
+      {
+        heading: "Quels soins à Saint-Raphaël, une commune sans service d'urgences ?",
+        body: "Saint-Raphaël n'a aucun service d'urgences sur son territoire : le plus proche est à Fréjus, à 5,1 km (Insee, BPE). Notre moteur place l'accès aux soins à 5,7/10, où 10 signifie un excellent accès, niveau « correct » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 3,21 consultations par an et par habitant, sous la moyenne nationale de 3,72, avec 39 généralistes libéraux et 15 pharmacies. Un CHU est à Nice, à 51 km : les soins courants sont locaux, les soins lourds sont à Nice.",
+      },
+      {
+        heading: "Saint-Raphaël ou Fréjus : le même littoral, deux budgets ?",
+        body: "Fréjus, voisine immédiate, est moins chère (850 € le T2, 3 800 €/m²), avec un meilleur accès aux généralistes (4,01 contre 3,21) et 60 généralistes pour 58 499 habitants. Elle note pourtant 5,5/10 en retraite, contre 7,1 pour Saint-Raphaël. Cannes est nettement plus chère (1 250 € le T2, 6 500 €/m²) pour un accès de 4,86. Le calcul est simple : Saint-Raphaël vaut ses 120 € de loyer de plus que Fréjus si le cadre compte, pas si l'accès au médecin prime.",
+      },
+      {
+        heading: "Une ville de retraités : avantage ou verrou ?",
+        body: "Saint-Raphaël a gagné 1 410 habitants entre 2016 et 2022, soit +4,0 %, et 48,5 % de sa population a 60 ans ou plus, contre une médiane de 26,2 % dans notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 25 010 € par an avec 13 % de pauvreté (source : Insee, Filosofi 2021). Les commerces, la vie associative et les médecins s'adaptent à ce public ; en contrepartie, la ville est peu mixte, et l'offre d'emploi ou de jeunesse est mince.",
+      },
+      {
+        heading: "Quel climat et quel cadre à Saint-Raphaël ?",
+        body: "Saint-Raphaël affiche 10 °C en janvier et 27 °C en juillet, avec environ 2 850 heures de soleil par an : l'un des hivers les plus doux de notre base. Le cadre est celui du massif de l'Estérel, qui descend jusqu'à la mer et dont la rade d'Agay, quartier de Saint-Raphaël, est la porte d'entrée, et d'un front de mer dominé par la basilique néo-byzantine Notre-Dame-de-la-Victoire, de l'architecte Pierre Aublé. La ville compte une gare, Saint-Raphaël-Valescure, desservie par le TER. La sécurité est à 6,2/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Saint-Raphaël fonctionne, et pour qui non",
+        body: "Saint-Raphaël convient au retraité propriétaire ou à pension élevée, qui veut le soleil, la mer et une ville de son âge, avec Nice pour les soins lourds. Elle convient moins à celui qui doit louer avec une pension moyenne, à celui qui veut un généraliste facile à trouver, ou à celui qui supporte mal une population très vieillissante.",
+      },
+    ],
+    relatedCities: ["saint-raphael","frejus","cannes","nice"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-raphael-2026",
+      "retraite-a-frejus-2026",
+      "retraite-a-cannes-2026",
+      "retraite-a-hyeres-2026",
+    ],
+    tags: ["retraite Saint-Raphaël 2026","prendre sa retraite à Saint-Raphaël","retraite Var","budget retraité Saint-Raphaël","retraite Côte d'Azur"],
+  },
+  {
+    slug: "retraite-a-cagnes-sur-mer-2026",
+    title: "Retraite à Cagnes-sur-Mer en 2026 : généralistes faciles, Nice à 10 km, T2 à 920 €",
+    metaTitle: "Retraite à Cagnes-sur-Mer 2026 : budget, santé",
+    metaDesc: "Retraite à Cagnes-sur-Mer en 2026 : T2 à 920 €, m² à 3 800 €, accès aux généralistes 5,11, CHU de Nice à 10 km. Budget réel et comparaison avec Antibes.",
+    category: "lifestyle",
+    emoji: "🖼️",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Cagnes-sur-Mer est la ville de ce lot où le médecin est le plus facile à trouver : 5,11 consultations par an et par habitant selon la DREES, contre 3,72 en moyenne nationale, et le CHU de Nice à 10,5 km. Le deux-pièces se loue 920 € et le mètre carré s'achète 3 800 €, soit environ 228 000 € pour 60 m² (source : notre estimation des loyers). Le score retraite est de 6,1/10, dans un palier de 22 villes à égalité, derrière 286 autres : une bonne santé locale, payée au prix de la Côte d'Azur.",
+    sections: [
+      {
+        heading: "Combien coûte la vie d'un retraité à Cagnes-sur-Mer ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 920 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 610 € par mois, soit environ 110 € de plus qu'une pension moyenne de 1 500 € nets (source : DREES). Couple locataire d'un trois-pièces à 1 240 € : environ 2 270 € par mois. Le budget tient avec une pension supérieure à la moyenne ou un logement acheté.",
+      },
+      {
+        heading: "Quel accès aux soins à Cagnes-sur-Mer ?",
+        body: "Notre moteur place Cagnes-sur-Mer à 7,2/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). Avec un APL de 5,11, 86 généralistes libéraux, 17 pharmacies et un service d'urgences dans la commune (Insee, BPE), la ville est mieux dotée que sa voisine Antibes sur le seul accès aux généralistes. Le CHU de Nice est à 10,5 km : un retraité qui développe une pathologie lourde reste dans la même agglomération.",
+      },
+      {
+        heading: "Cagnes-sur-Mer face à Antibes et à Nice : que gagne-t-on à s'éloigner ?",
+        body: "Antibes est plus chère (1 050 € le T2, 5 200 €/m²), avec un APL de 4,91 et 117 généralistes ; elle note 5,6/10 en retraite. Nice coûte 1 100 € le T2 et 5 200 €/m², pour un APL de 4,86 et un score retraite de 5,0/10. Cagnes-sur-Mer économise donc 130 à 180 € de loyer par mois et 1 400 € par mètre carré à l'achat, sans perdre sur les soins : c'est l'argument central de ce dossier.",
+      },
+      {
+        heading: "Une ville qui grandit et qui vieillit",
+        body: "Cagnes-sur-Mer a gagné 2 950 habitants entre 2016 et 2022, soit +5,9 %, et 34 % de sa population a 60 ans ou plus, contre une médiane de 26,2 % dans notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 23 940 € par an avec 14 % de pauvreté (source : Insee, Filosofi 2021). Une demande qui monte soutient les prix : bon pour un propriétaire, plus lourd pour qui doit encore acheter.",
+      },
+      {
+        heading: "Quel climat et quel cadre à Cagnes-sur-Mer ?",
+        body: "Cagnes-sur-Mer affiche 9,5 °C en janvier et 26 °C en juillet, avec environ 2 850 heures de soleil par an. Le cadre associe le bord de mer au Haut-de-Cagnes, village perché dominé par le château Grimaldi, devenu musée municipal en 1946, et le domaine des Collettes, où Renoir a vécu de 1907 à sa mort en 1919 et qui abrite le musée Renoir : vérifiez les horaires d'ouverture avant de vous déplacer. La sécurité est à 5,3/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Cagnes-sur-Mer fonctionne, et pour qui non",
+        body: "Cagnes-sur-Mer convient au retraité qui veut la Côte d'Azur sans le prix d'Antibes ou de Nice, avec un généraliste facile à joindre et un CHU à 10 km. Elle convient moins à celui qui doit louer avec une pension de 1 500 €, ou qui cherche une ville calme : l'agglomération niçoise est dense et circulante.",
+      },
+    ],
+    relatedCities: ["cagnes-sur-mer","antibes","nice","cannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cagnes-sur-mer-2026",
+      "retraite-a-antibes-2026",
+      "retraite-a-nice-2026",
+      "retraite-a-menton-2026",
+    ],
+    tags: ["retraite Cagnes-sur-Mer 2026","prendre sa retraite à Cagnes-sur-Mer","retraite Alpes-Maritimes","budget retraité Cagnes-sur-Mer","retraite Côte d'Azur"],
+  },
+  {
+    slug: "retraite-a-poitiers-2026",
+    title: "Retraite à Poitiers en 2026 : CHU sur place, T2 à 660 €, mais une ville d'étudiants",
+    metaTitle: "Retraite à Poitiers 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Poitiers en 2026 : T2 à 660 €, m² à 2 100 €, accès aux soins 7,8/10, CHU et 101 généralistes. Budget réel et limites d'une ville jeune.",
+    category: "lifestyle",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Poitiers a un CHU dans la commune, un accès aux soins de 7,8/10 et 101 généralistes libéraux, pour un deux-pièces à 660 € et un mètre carré à 2 100 €, soit environ 126 000 € pour 60 m² (source : notre estimation des loyers). Son score retraite n'est pourtant que de 5,9/10, dans un palier de 14 villes à égalité, derrière 322 autres : seuls 20 % des 89 472 habitants ont 60 ans ou plus, et c'est une ville d'étudiants avant d'être une ville de retraités.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Poitiers ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 660 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 350 € par mois. Couple locataire d'un trois-pièces à 880 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 910 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 150 € de marge.",
+      },
+      {
+        heading: "Pourquoi Poitiers est une bonne ville pour se soigner",
+        body: "Notre moteur place Poitiers à 7,8/10, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 4,73 consultations par an et par habitant, contre 3,72 en moyenne nationale, avec 101 généralistes libéraux, 29 pharmacies et 2 services d'urgences recensés dans la commune (Insee, BPE). Le CHU est dans la ville : c'est le principal argument retraite du dossier, que Niort, à 68 km du CHU, ne peut pas offrir.",
+      },
+      {
+        heading: "Poitiers face à Limoges et à Niort",
+        body: "Limoges est moins chère (600 € le T2, 1 600 €/m²), avec un APL de 4,82 proche de celui de Poitiers et un CHU également sur place, mais elle perd 2,2 % de ses habitants. Niort coûte à peu près comme Poitiers (640 € le T2, 2 100 €/m²) et note 5,9/10 comme elle, mais son accès aux généralistes est de 3,91. À prix voisins, Poitiers apporte un meilleur accès, Limoges un loyer inférieur de 60 €.",
+      },
+      {
+        heading: "Une ville jeune : ce que cela change pour un retraité",
+        body: "Poitiers a gagné 1 511 habitants entre 2016 et 2022, soit +1,7 %, et seulement 20 % de sa population a 60 ans ou plus, contre une médiane de 26,2 % dans notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 20 150 € par an avec 26 % de pauvreté, un taux que la forte présence d'étudiants explique sans doute en partie (source : Insee, Filosofi 2021). Le centre est animé et culturel, mais l'offre n'est pas pensée pour une clientèle âgée comme sur le littoral.",
+      },
+      {
+        heading: "Quel climat et quel cadre à Poitiers ?",
+        body: "Poitiers affiche 4,8 °C en janvier et 22,5 °C en juillet, avec environ 1 970 heures de soleil par an : un climat océanique tempéré, sans excès. Le centre ancien porte le roman : l'église Notre-Dame-la-Grande, chef-d'œuvre de l'art roman poitevin, et le baptistère Saint-Jean, souvent cité parmi les plus anciens monuments chrétiens de France. La sécurité est à 5,7/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Poitiers fonctionne, et pour qui non",
+        body: "Poitiers convient au retraité qui veut un CHU dans la commune, un loyer sous 700 € et une ville culturelle, sans se soucier du littoral. Elle convient moins à celui qui cherche une ville de son âge, du soleil ou la mer : la vie y est rythmée par l'université, et l'océan n'est pas à côté.",
+      },
+    ],
+    relatedCities: ["poitiers","limoges","niort","tours"],
+    relatedGuides: [
+      "vivre-a-poitiers-2026",
+      "acheter-a-poitiers-quel-quartier-budget-2026",
+      "retraite-a-limoges-2026",
+      "retraite-a-tours-2026",
+    ],
+    tags: ["retraite Poitiers 2026","prendre sa retraite à Poitiers","retraite Vienne","budget retraité Poitiers","retraite Nouvelle-Aquitaine"],
+  },
+  {
+    slug: "retraite-a-valence-2026",
+    title: "Retraite à Valence en 2026 : T2 à 680 €, Rhône et Vercors, CHU à 68 km",
+    metaTitle: "Retraite à Valence 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Valence (Drôme) en 2026 : T2 à 680 €, m² à 2 400 €, 2 310 h de soleil, accès aux soins 6,1/10. Budget réel, soins, comparaison avec Montélimar.",
+    category: "lifestyle",
+    emoji: "🌅",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Valence offre un deux-pièces à 680 € et un mètre carré à 2 400 €, soit environ 144 000 € pour 60 m² (source : notre estimation des loyers), avec environ 2 310 heures de soleil par an et un hiver à 5,2 °C. Son score retraite est de 6,2/10, dans un palier de 26 villes à égalité, derrière 260 autres. Le point à vérifier est la santé : accès de 6,1/10, un seul service d'urgences et le CHU le plus proche à Saint-Étienne, à 68 km.",
+    sections: [
+      {
+        heading: "Quel budget mensuel à Valence pour un retraité ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 680 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 370 € par mois. Couple locataire d'un trois-pièces à 900 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 930 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 130 € de marge.",
+      },
+      {
+        heading: "Quelle qualité de soins à Valence, sans CHU sur place ?",
+        body: "Notre moteur place Valence à 6,1/10, où 10 signifie un excellent accès : niveau « correct » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 3,64 consultations par an et par habitant, un peu sous la moyenne nationale de 3,72, avec 62 généralistes libéraux, 25 pharmacies et 1 service d'urgences (Insee, BPE). Le CHU le plus proche est à Saint-Étienne, à 68 km à vol d'oiseau : les soins courants sont à Valence, les soins lourds sont ailleurs.",
+      },
+      {
+        heading: "Valence, Montélimar ou Grenoble : où le budget retraite va-t-il le plus loin ?",
+        body: "Montélimar est moins chère (580 € le T2, 2 200 €/m²) et note 6,9/10 en retraite, mais son accès aux généralistes tombe à 3,34, avec 32 généralistes pour 40 356 habitants, et son CHU est à Nîmes, à 86 km. Grenoble est plus chère (750 € le T2, 3 200 €/m²), à 19,6 % de seniors seulement, mais avec un CHU dans la ville. Valence est un compromis : un peu plus de médecins que Montélimar, 70 € de loyer de moins que Grenoble.",
+      },
+      {
+        heading: "Une ville moyenne qui gagne des habitants",
+        body: "Valence a gagné 1 811 habitants entre 2016 et 2022, soit +2,9 %, et 26,7 % de sa population a 60 ans ou plus, un niveau proche de la médiane de 26,2 % de notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 20 610 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021). La ville n'est ni une ville de retraités ni une ville en déclin, ce qui garde un marché de revente actif.",
+      },
+      {
+        heading: "Quel climat et quel cadre à Valence ?",
+        body: "Valence affiche 5,2 °C en janvier et 25,8 °C en juillet, avec environ 2 310 heures de soleil par an : le Sud sans le littoral, avec un été chaud dans la vallée du Rhône. Le centre compte la Maison des Têtes, hôtel particulier du XVIᵉ siècle à la façade ornée de têtes sculptées, et le kiosque Peynet, face au parc Jouvet, au bout du Champ de Mars. Le Rhône et l'Ardèche de l'autre rive sont à la porte. La sécurité est à 5,2/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Valence fonctionne, et pour qui non",
+        body: "Valence convient au retraité qui veut du soleil, un loyer sous 700 € et une ville à taille humaine entre Lyon et la Provence, avec un généraliste accessible. Elle convient moins à celui dont la santé exige un CHU à moins de 30 minutes, ou à celui qui veut la mer : la Méditerranée n'est pas à côté.",
+      },
+    ],
+    relatedCities: ["valence","montelimar","grenoble","avignon"],
+    relatedGuides: [
+      "vivre-a-valence-2026",
+      "acheter-a-valence-quel-quartier-budget-2026",
+      "retraite-a-avignon-2026",
+      "retraite-a-grenoble-2026",
+    ],
+    tags: ["retraite Valence 2026","prendre sa retraite à Valence","retraite Drôme","budget retraité Valence","retraite Auvergne-Rhône-Alpes"],
+  },
+  {
+    slug: "retraite-a-saint-nazaire-2026",
+    title: "Retraite à Saint-Nazaire en 2026 : T2 à 640 €, océan, Nantes à 50 km",
+    metaTitle: "Retraite à Saint-Nazaire 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Saint-Nazaire en 2026 : T2 à 640 €, m² à 2 200 €, +4,9 % d'habitants, 89 généralistes, CHU de Nantes à 50 km. Budget réel et comparaison.",
+    category: "lifestyle",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Saint-Nazaire loue son deux-pièces 640 €, soit 210 € de moins que Nantes à 50 km, et vend son mètre carré 2 200 €, soit environ 132 000 € pour 60 m² contre 252 000 € à Nantes (source : notre estimation des loyers). Son score retraite est de 6,3/10, dans un palier de 16 villes à égalité, derrière 244 autres. La ville a gagné 3 392 habitants depuis 2016, soit +4,9 %, loin des villes qui se vident : l'océan, à prix de ville moyenne.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Saint-Nazaire ?",
+        body: "Personne seule locataire d'un deux-pièces : loyer 640 € (source : notre estimation des loyers), énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 €, ces cinq dernières lignes étant des hypothèses de notre part. Total : environ 1 330 € par mois. Couple locataire d'un trois-pièces à 850 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 880 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 170 € de marge.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Saint-Nazaire ?",
+        body: "Notre moteur place Saint-Nazaire à 6,0/10, où 10 signifie un excellent accès : niveau « correct » (source : notre fiche santé). L'accessibilité aux généralistes mesurée par la DREES est de 3,70 consultations par an et par habitant, soit la moyenne nationale de 3,72, avec 89 généralistes libéraux, 24 pharmacies et 1 service d'urgences dans la commune (Insee, BPE). Le CHU est à Nantes, à 50 km à vol d'oiseau : on se soigne localement, et on monte à Nantes pour les actes lourds.",
+      },
+      {
+        heading: "Saint-Nazaire face à Nantes et à Lorient",
+        body: "Nantes est la référence urbaine : 850 € le T2, 4 200 €/m², un APL de 4,69, un CHU sur place, mais 18,5 % de seniors seulement et un score retraite de 5,0/10. Lorient, autre ville portuaire, coûte 680 € le T2 et 2 800 €/m², avec un APL de 4,47 mais un CHU à Brest, à 110 km. Saint-Nazaire est la moins chère des trois, et la moins bien placée sur les soins courants.",
+      },
+      {
+        heading: "Une ville qui grandit et reste équilibrée",
+        body: "Saint-Nazaire a gagné 3 392 habitants entre 2016 et 2022, soit +4,9 %, et 30,5 % de sa population a 60 ans ou plus, contre une médiane de 26,2 % dans notre base (source : Insee, recensement 2022). Le niveau de vie médian est de 21 900 € par an avec 17 % de pauvreté (source : Insee, Filosofi 2021). C'est une ville industrielle et portuaire, pas une station : l'offre de services pour retraités y est moins étoffée que sur la côte sud de la Bretagne.",
+      },
+      {
+        heading: "Quel climat et quel cadre à Saint-Nazaire ?",
+        body: "Saint-Nazaire affiche 6 °C en janvier et 21 °C en juillet, avec environ 2 050 heures de soleil par an : un climat océanique doux, aux étés plus frais que le Sud. Le cadre mêle le port, l'ancienne base sous-marine, qui abrite Escal'Atlantic, un parcours consacré aux paquebots transatlantiques, et la Brière, deuxième grand marais de France après la Camargue selon les offices de tourisme, à un quart d'heure de route. La sécurité est à 5,5/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pour qui Saint-Nazaire fonctionne, et pour qui non",
+        body: "Saint-Nazaire convient au retraité qui veut l'océan, un loyer à 640 € et la proximité de Nantes, sans le prix du littoral breton. Elle convient moins à celui qui cherche une station balnéaire à l'ambiance de retraite, un climat méditerranéen ou un CHU sur place : la ville reste un grand port industriel.",
+      },
+    ],
+    relatedCities: ["saint-nazaire","nantes","lorient","vannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-nazaire-2026",
+      "retraite-a-les-sables-d-olonne-2026",
+      "retraite-a-lorient-2026",
+      "retraite-a-vannes-2026",
+    ],
+    tags: ["retraite Saint-Nazaire 2026","prendre sa retraite à Saint-Nazaire","retraite Loire-Atlantique","budget retraité Saint-Nazaire","retraite Pays de la Loire"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",
