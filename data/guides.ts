@@ -79059,6 +79059,59 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-france-moins-cheres-2026-top-10", "vivre-smic-quelle-ville-france-2026", "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2"],
     tags: ["louer", "loyers 2027", "T2", "villes pas chères", "budget"],
   },
+  {
+    slug: "villes-60-74-ans-part-jeunes-retraites-413-villes-2026",
+    title: "Où vivent les 60-74 ans ? La part des jeunes retraités dans 413 villes",
+    metaTitle: "Villes des 60-74 ans : classement par part (Insee 2022)",
+    metaDesc: "Les Sables-d'Olonne 28,5 %, Agde 27,3 %, Saint-Raphaël 25,9 % : 413 villes de 20 000 habitants et plus classées par part des 60-74 ans (Insee 2022).",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Parmi les 413 communes de 20 000 habitants et plus, la ville médiane compte 14,5 % d'habitants de 60 à 74 ans, l'âge des jeunes retraités. Les Sables-d'Olonne sont en tête (28,5 %), devant Agde (27,3 %), Saint-Raphaël (25,9 %), Concarneau (24,9 %) et Sète (24,4 %). Saint-Laurent-du-Maroni ferme le classement à 4,3 %, devant Melun (9,3 %), Cayenne (9,5 %) et Lille (9,6 %). Ce guide classe les villes sur ce seul chiffre, la part des 60-74 ans au recensement 2022 de l'Insee, et montre où l'on vit entouré de jeunes retraités, où l'on n'en croise presque pas, et ce que cela coûte.",
+    sections: [
+      {
+        heading: "Pourquoi regarder la part des 60-74 ans plutôt que celle des 75 ans et plus ?",
+        body: "Parce que ce sont deux populations différentes. À 60-74 ans, on est le plus souvent retraité mais autonome : on déménage, on s'installe près de la mer, on cherche un logement, des associations, des loisirs. Après 75 ans, ce sont les besoins de santé et de services qui pèsent. La part des 60-74 ans mesure donc l'attractivité d'une ville pour ceux qui choisissent où passer leur retraite ; celle des 75 ans et plus, ce que la ville doit fournir à ceux qui y sont restés. Nous rapportons les 60-74 ans du recensement 2022 de l'Insee à la population totale, sur les 413 communes de 20 000 habitants et plus. C'est une mesure de composition, pas une note : une ville à 9 % n'est pas ratée, elle est surtout jeune."
+      },
+      {
+        heading: "Quelles villes comptent le plus de 60-74 ans ?",
+        body: "Les Sables-d'Olonne (28,5 %), Agde (27,3 %), Saint-Raphaël (25,9 %), Concarneau (24,9 %), Sète (24,4 %), Challans et Saint-Malo (24,3 %), Six-Fours-les-Plages (23,9 %), Bergerac (23,5 %), Biarritz (23,4 %), Mandelieu-la-Napoule (22,8 %), Saintes et Dieppe (22,1 %), Rochefort (21,7 %), Anglet (21,6 %), Vichy et La Ciotat (21,5 %), Sarreguemines (21,2 %), Hyères (21,1 %), Fréjus (21,0 %), Villeneuve-sur-Lot (20,9 %) et Millau (20,7 %). Vingt-sept villes dépassent 20 %, quarante-cinq atteignent 19 % ou plus, soixante-douze 18 % ou plus et cent deux 17 % ou plus. Le haut du tableau est presque entièrement littoral : Atlantique, Manche et Méditerranée dominent, avec quelques villes d'eau ou de sous-préfecture de l'intérieur (Vichy, Bergerac, Villeneuve-sur-Lot, Millau)."
+      },
+      {
+        heading: "Où les 60-74 ans sont-ils les plus rares ?",
+        body: "Dans les villes jeunes, étudiantes et de banlieue dense. Hors Guyane (Saint-Laurent-du-Maroni, 4,3 %), le classement se ferme sur Melun (9,3 %), Cayenne (9,5 %), Lille (9,6 %), Stains (9,8 %), Cergy (9,9 %), Fresnes (10,1 %), Creil, Corbeil-Essonnes et Saint-Martin-d'Hères (10,2 %), Villeneuve-Saint-Georges (10,3 %), Saint-Cyr-l'École (10,4 %), Trappes, Annemasse, Toulouse et La Courneuve (10,6 %). Six villes sont à 10 % ou moins, soixante-trois à 12 % ou moins, cent vingt-quatre à 13 % ou moins. Dans les 182 villes à 14 % ou moins, les 30-44 ans pèsent 21,2 % de la population en médiane : le creux des 60-74 ans est l'envers de la présence des familles actives."
+      },
+      {
+        heading: "Les grandes villes comptent-elles moins de jeunes retraités ?",
+        body: "Oui, mais l'écart est modeste. La médiane est de 15,4 % pour les 141 villes de 20 000 à 30 000 habitants, 14,2 % pour les 230 villes de 30 000 à 100 000 et 13,4 % pour les 42 villes de 100 000 et plus. Parmi ces dernières, les plus riches en 60-74 ans sont Toulon (17,3 %), Nice (16,9 %), Nîmes (16,7 %), Limoges (16,6 %), Le Havre et Perpignan (16,5 %), Le Mans (16,3 %), Marseille (15,3 %), Metz (15,0 %) et Annecy (14,9 %). Les moins riches : Lille (9,6 %), Toulouse (10,6 %), Villeurbanne (10,7 %), Rennes et Saint-Denis (11,0 %), Lyon (11,2 %), Nantes (11,3 %), Grenoble et Rouen (11,4 %), Bordeaux (11,6 %). Paris est à 14,3 %, Strasbourg à 12,1 % et Montpellier à 11,7 %. Ce sont les métropoles universitaires qui tirent la moyenne vers le bas, pas la taille en soi."
+      },
+      {
+        heading: "Quelles régions comptent le plus de jeunes retraités ?",
+        body: "Le Sud et l'Ouest, sans surprise, mais avec un classement plus nuancé que celui des 75 ans et plus. La Martinique est en tête (19,0 %, trois villes), devant la Provence-Alpes-Côte d'Azur (18,2 %, 33 villes), la Bretagne (17,8 %, dix villes), la Corse (17,4 %, deux villes) et l'Occitanie (17,2 %, 22 villes). Suivent la Bourgogne-Franche-Comté (16,8 %), la Nouvelle-Aquitaine (16,6 %, 30 villes), le Centre-Val de Loire (16,5 %), les Pays de la Loire et la Guadeloupe (16,3 %). Au bas du tableau, l'Auvergne-Rhône-Alpes (14,8 %, 40 villes), La Réunion (14,1 %, dix villes), l'Île-de-France (12,7 %, 153 villes) et la Guyane (6,9 %, deux villes). Hors Île-de-France, la médiane monte à 16,4 %. Sur les cinquante premières villes, treize sont en PACA, neuf en Nouvelle-Aquitaine, six en Occitanie et quatre en Bretagne."
+      },
+      {
+        heading: "Les villes de jeunes retraités sont-elles chères ?",
+        body: "Pas tant que cela, sauf sur la Côte d'Azur et la côte basque. Dans les 27 villes à 20 % de 60-74 ans ou plus, le T3 de référence de notre estimation des loyers est à 920 € par mois en médiane et l'achat à 2 600 € le m², contre 1 080 € et 3 200 € pour l'ensemble des 413 villes. Dans les 45 villes à 19 % ou plus : 870 € et 2 300 € le m². À l'inverse, dans les 182 villes à 14 % ou moins, le T3 est à 1 240 € et l'achat à 3 800 € le m². Le groupe est très contrasté : Bergerac (T3 à 660 €, achat à 1 700 € le m²), Saintes (700 € et 1 800 €), Challans (860 € et 2 100 €) ou Agde (930 € et 2 500 €) sont accessibles ; Saint-Raphaël (1 300 € et 4 500 €), Mandelieu-la-Napoule (1 500 € et 5 800 €) et Biarritz (1 400 € et 6 500 €) comptent parmi les plus chères. Pour un budget serré, le classement dit où chercher : Saintes, Bergerac et Challans, pas Biarritz."
+      },
+      {
+        heading: "Ces villes gagnent-elles ou perdent-elles des habitants ?",
+        body: "Elles gagnent moins que la moyenne, avec de fortes exceptions. Entre 2016 et 2022, la population des 413 villes a crû de 2,4 % en médiane ; celle des 45 villes à 19 % de 60-74 ans ou plus de 0,8 % seulement, celle des 27 villes à 20 % ou plus de 3,4 %. Le détail sépare deux familles. Les villes de l'Ouest atlantique, du Var et de l'Hérault attirent : Les Sables-d'Olonne (+12,8 %), Challans (+12,7 %), Six-Fours-les-Plages (+10,8 %), Concarneau (+8,3 %), Agde (+7,0 %). Les villes d'intérieur et Mandelieu-la-Napoule reculent ou stagnent : Bergerac (−1,5 %), Saintes (−0,2 %), Mandelieu-la-Napoule (−4,4 %). Une forte part de jeunes retraités ne dit donc pas qu'une ville se développe : certaines se remplissent, d'autres vieillissent sur place."
+      },
+      {
+        heading: "60-74 ans et 75 ans et plus : où les deux vont-ils ensemble ?",
+        body: "Presque toujours en haut du classement. Dans les 45 villes à 19 % de 60-74 ans ou plus, les 75 ans et plus pèsent 14,6 % de la population en médiane, contre 8,8 % pour l'ensemble ; 44 d'entre elles ont plus de 11 % de 75 ans et plus. Pour les 27 villes à 20 % ou plus, la médiane des 75 ans et plus monte à 16,0 %. Saint-Raphaël cumule 25,9 % et 22,6 %, Biarritz 23,4 % et 21,2 %, Les Sables-d'Olonne 28,5 % et 20,2 %. Autrement dit, les villes qui attirent des jeunes retraités sont aussi celles où l'on vieillit : le retraité qui s'y installe à 65 ans y sera, dix ans plus tard, entouré de 75 ans et plus. Cela pèse sur les médecins, les transports et les services de proximité, que notre guide sur les 75 ans et plus détaille."
+      },
+      {
+        heading: "Que faire de ce classement, et quelles sont ses limites ?",
+        body: "Trois usages. Pour un futur retraité qui veut des voisins du même âge, une part élevée signale des associations, des commerces et des loisirs calibrés pour lui, mais aussi des prix parfois élevés (voir plus haut). Pour un actif qui cherche une vie plus jeune, une part basse annonce des villes plus animées et plus étudiantes. Pour un investisseur, la part de 60-74 ans indique une demande de résidences principales de retraités et de résidences secondaires, pas un rendement. Limites : le recensement mesure les résidents d'une année, pas les trajectoires ; il compte les personnes, pas leurs revenus, ni leur état de santé ; les communes de moins de 20 000 habitants, où l'on retrouve de nombreux villages de retraite, sont exclues ; et un découpage communal étroit avantage ou pénalise une ville collée à ses voisines. Les loyers et prix cités viennent de notre estimation, pas d'annonces. Source : Insee, recensement de la population 2022."
+      }
+    ],
+    relatedCities: ["les-sables-d-olonne","agde","saint-raphael","concarneau","sete","saint-malo","biarritz","bergerac","toulon","nice","perpignan","lille","toulouse"],
+    relatedGuides: ["villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026","villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026","villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026","villes-avec-le-plus-d-enfants-part-des-0-14-ans-2026","meilleures-villes-pour-retraite-france-2025","villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
+    tags: ["villes des 60-74 ans","jeunes retraités","part des 60-74 ans","où prendre sa retraite","démographie par ville","recensement 2022"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

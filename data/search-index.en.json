@@ -10860,6 +10860,16 @@
       "slug": "buying-property-in-france-after-50-strategy-2026",
       "title": "Buying Property in France After 50 (2026): Shorter Loans, Downsizing, Passing It On",
       "emoji": "🎯"
+    },
+    {
+      "slug": "french-cities-with-the-most-30-44-year-olds-413-cities-2026",
+      "title": "Where do 30-44 year olds live in France? The share of thirty- and forty-somethings in 413 cities",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "slug": "french-cities-house-cheaper-than-apartment-per-m2-dvf-2026",
+      "title": "House or apartment: in which French cities is a house cheaper per m²? (DVF)",
+      "emoji": "🏡"
     }
   ],
   "tags": [
@@ -11626,6 +11636,11 @@
     {
       "slug": "paris-suburbs",
       "label": "paris suburbs",
+      "count": 3
+    },
+    {
+      "slug": "price-per-m",
+      "label": "price per m²",
       "count": 3
     },
     {

@@ -64553,6 +64553,106 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["aix-en-provence", "annecy", "pau", "reims", "strasbourg"],
     tags: ["buying property over 50 France","downsizing France","usufruct démembrement","borrower insurance Lemoine","expat estate planning","buy retirement home France"],
   },
+  {
+    slug: "french-cities-with-the-most-30-44-year-olds-413-cities-2026",
+    title: "Where do 30-44 year olds live in France? The share of thirty- and forty-somethings in 413 cities",
+    metaTitle: "French cities with the most 30-44 year olds (INSEE 2022)",
+    metaDesc: "Saint-Ouen 26.2%, Pantin 26.1%, Annemasse 25.9%: 413 French cities of 20,000+ ranked by share of residents aged 30 to 44 (INSEE 2022).",
+    category: "family",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 7,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Among the 413 French municipalities of 20,000 people or more, the median city has 19.1% of residents aged 30 to 44, the age when people settle, buy and have children. Saint-Ouen-sur-Seine tops the table (26.2%), ahead of Pantin (26.1%), Annemasse (25.9%), and Puteaux and Clichy (25.7%). Les Sables-d'Olonne closes it at 11.9%. This guide ranks cities on that one figure, the share of 30-44 year olds in INSEE's 2022 census, and shows where young working families concentrate and what housing costs there.",
+    sections: [
+      {
+        heading: "Why look at the share of 30-44 year olds?",
+        body: "Because it is the age group that buys, rents three-room flats and puts children in school: a city with many of them is attracting households in the settling-down phase. We divide the 30-44 year olds counted in INSEE's 2022 census by each city's total population, across the 413 municipalities of 20,000 or more. It describes composition, not quality: a city at 11.9% is not a failure, it is mostly home to retirees. The figure complements our guides on the under-15s, the 15-29s and the over-75s."
+      },
+      {
+        heading: "Which cities have the most 30-44 year olds?",
+        body: "Saint-Ouen-sur-Seine (26.2%), Pantin (26.1%), Annemasse (25.9%), Puteaux and Clichy (25.7%), Asnières-sur-Seine (25.3%), Vincennes (25.0%), Issy-les-Moulineaux (24.7%), Romainville and Suresnes (24.6%), Fresnes, Saint-Cyr-l'École and Montreuil (24.5%), Massy and Levallois-Perret (24.4%), Montrouge (24.1%), Bezons (24.0%), Courbevoie (23.9%), Aubervilliers (23.7%) and Alfortville (23.6%). Six cities top 25%, seventeen reach 24% or more, twenty-nine 23% or more and fifty-nine 22% or more. The top of the table is almost entirely Paris region: Annemasse, next to Geneva, is the only exception before 26th place (Bègles, 23.2%)."
+      },
+      {
+        heading: "Where are 30-44 year olds scarcest?",
+        body: "On the coast and in retirement or small-industry towns. Les Sables-d'Olonne sits at 11.9%, ahead of Saint-Raphaël (12.5%), Agde (13.1%), Vichy (13.4%), Bergerac (13.7%), Châtellerault (13.8%), Concarneau (13.9%), Challans and Saint-Malo (14.0%), Sète (14.1%), Dieppe (14.2%) and Montluçon (14.3%). Forty-seven cities are at 16% or below, eighty-two at 17% or below. In those 47 cities, residents aged 60 and over make up 34.3% of the population in the median: the dip in 30-44 year olds is the mirror image of the weight of retirees."
+      },
+      {
+        heading: "Do big cities attract more 30-44 year olds?",
+        body: "Not really: size changes almost nothing. The median is 18.9% for cities of 20,000 to 30,000 people, 19.2% for those of 30,000 to 100,000 and 18.9% for the 42 cities of 100,000 and over. Among the latter, the richest in 30-44 year olds are Montreuil (24.5%), Saint-Denis (22.6%), Boulogne-Billancourt (22.5%), Argenteuil (22.3%), Paris, Bordeaux and Nantes (21.6%), Villeurbanne (21.5%), Lyon (21.4%) and Toulouse (21.3%). The lowest: Limoges (16.1%), Angers (16.6%), Besançon (16.8%), and Nîmes, Caen and Le Mans (16.9%). Lille is at 20.4%, Grenoble at 20.0%, Strasbourg at 19.8%, Montpellier at 19.7%, Marseille at 19.5%, Rennes at 18.9% and Nice at 18.4%."
+      },
+      {
+        heading: "Which regions have the most 30-44 year olds?",
+        body: "Île-de-France dwarfs the rest: a median of 21.3% across 153 cities, against 17.6% for all cities outside the Paris region. Forty-eight of the top fifty cities and 83 of the top hundred are in Île-de-France. Behind come Corsica (20.6%, two cities), French Guiana (18.9%, two cities), Auvergne-Rhône-Alpes (18.5%, 40 cities) and La Réunion (18.4%, ten cities). The lowest: Occitanie (16.7%, 22 cities), Martinique (16.8%, three cities), Brittany (16.9%, ten cities) and Centre-Val de Loire (17.2%, eleven cities). Nouvelle-Aquitaine is at 17.4% and Bourgogne-Franche-Comté at 17.3%."
+      },
+      {
+        heading: "Are cities full of thirty-somethings expensive?",
+        body: "Yes, markedly. In the 59 cities at 22% or more 30-44 year olds, the reference three-room flat in our rent estimate is €1,350 a month in the median and buying is €4,900 per m², against €1,080 and €3,200 across all 413 cities. In the 17 cities at 24% or more, figures rise to €1,550 and €5,500 per m²: Levallois-Perret (€2,000 and €7,500), Puteaux (€1,850 and €7,500) and Vincennes (€1,800 and €6,800) are at the top, Bezons (€1,240 and €3,700) and Fresnes (€1,250 and €4,500) at the bottom of the group. In the 47 cities at 16% or below, the three-room flat is €800 and buying is €1,900 per m². Young households go where the jobs are, not where housing is cheap."
+      },
+      {
+        heading: "Are these cities gaining residents and jobs?",
+        body: "They are gaining more than average. Between 2016 and 2022, the 59 cities at 22% or more grew by 4.8% in the median, against 2.4% for all 413 cities; the 17 cities at 24% or more by 6.8%; the 47 cities at 16% or below by only 0.9%. On jobs, the census unemployment rate is 11.7% in the median in the 59 cities at 22% or more and 10.0% in the 17 at 24% or more, against 13.1% overall and 14.4% in cities at 16% or below. The average net monthly wage of private-sector jobs located in these cities is €2,925 in the median for the first group and €3,618 for the second."
+      },
+      {
+        heading: "Thirty-somethings and children: where do they overlap?",
+        body: "30-44 year olds and under-15s often go together, since one group is the other's parents. Forty-four cities combine 22% or more 30-44 year olds and 18% or more children, almost all in the inner and outer Paris suburbs. University cities are the exception: the 40 cities where 15-29 year olds make up 25% or more have a median 30-44 share of 18.3%, below the overall median of 19.1%. In the top 10, 15-29 year olds are also very present (Clichy 22.1%, Saint-Ouen 21.5%, Annemasse 21.1%): these are cities of transit and first jobs, not only of settled families."
+      },
+      {
+        heading: "What should you do with this ranking, and what are its limits?",
+        body: "Three uses. For a young couple who want neighbours of the same age, a high percentage signals nurseries, schools and shops sized for working households, but also waiting lists and fierce competition for housing. For an older worker or a retiree, a low share points to quieter, cheaper cities. For an investor, the 30-44 share indicates demand for three- and four-room rentals, not a yield. Limits: the census measures residents in one year, not trajectories; municipalities under 20,000 people are excluded; and municipal boundaries favour the inner Paris suburbs, where a dense commune of 20,000 to 60,000 people sits next to its neighbours. Source: INSEE, 2022 population census."
+      }
+    ],
+    relatedCities: ["saint-ouen-sur-seine","pantin","annemasse","puteaux","clichy","vincennes","montreuil","bordeaux","nantes","lyon","toulouse","les-sables-d-olonne","limoges"],
+    tags: ["30-44 year olds","young families","young professionals","demographics by city","INSEE census 2022","French cities ranking"],
+  },
+  {
+    slug: "french-cities-house-cheaper-than-apartment-per-m2-dvf-2026",
+    title: "House or apartment: in which French cities is a house cheaper per m²? (DVF)",
+    metaTitle: "Houses cheaper than apartments per m²: 69 French cities",
+    metaDesc: "In 69 of 545 French cities a house costs less per m² than an apartment: Lille −24%, Roubaix −29%. Elsewhere +18% in the median (DVF 2024-2025).",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 8,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "In France a house usually costs more per m² than an apartment: +18% in the median across the 545 cities in our database where both prices are published (2024-2025 sales, DVF). But in 69 of those cities it is the other way round: the house is cheaper per m². That is the case in Lille (−24%), Roubaix (−29%), Calais (−23%), Arras (−20%), Albi (−16%) and La Baule-Escoublac (−13%). At the other extreme the house costs over 50% more in Saint-Étienne (+81%), Toulon (+69%) and Chenôve (+107%). This guide ranks those gaps, explains what they measure and what they do not say, and names the region where you are most likely to pay less for a house than for the flat next door.",
+    sections: [
+      {
+        heading: "How do you read the price gap between a house and an apartment?",
+        body: "The gap is the difference between the median price per m² of houses sold and that of apartments sold in the same municipality in 2024 and 2025, divided by the apartment price. +18% means a house costs 18% more per m²; −24% means it costs 24% less. Prices come from deeds published by the tax administration (DVF). Two caveats. A house price includes the land, while the surface counted is the built area only, so a garden inflates the per-m² price of a house. And small flats cost more per m² than large ones: a city of student studios and two-room flats shows a high per-m² price without being an expensive market. The m² of a house and the m² of a flat are not the same unit to the euro, and that is the notaries' convention."
+      },
+      {
+        heading: "How many cities have houses cheaper than apartments?",
+        body: "69 out of 545, roughly one in eight. If we keep only cities with at least 50 sales of each type over the two years, to remove small-sample effects, 64 out of 499 remain: the phenomenon is not a small-town artefact. The median gap across the whole set is +18%, and 101 cities have a gap between 0 and +10%: in about one city in five, house and apartment are within ten points of each other. At the other end, 46 cities show a house more than 50% dearer per m². The \"house price\" is therefore never a fixed multiple of the \"apartment price\": it depends on the city, and on its region more than on its size."
+      },
+      {
+        heading: "Which cities have the biggest discount on houses?",
+        body: "Mostly cities in the north, but not only. Among cities with at least 50 sales of each type, Fort-de-France (−30%, €2,628 per m² for the apartment against €1,845 for the house), Roubaix (−29%, €1,931 against €1,364), Hazebrouck (−27%), Saint-Paul de La Réunion (−26%), Lille (−24%, €3,705 against €2,815), Guingamp (−24%), Calais (−23%), Arras (−20%), Cambrai (−20%) and Berck (−19%) open the list. Lens (−17%), Valenciennes (−17%), Ozoir-la-Ferrière (−17%), Albi (−16%) and Les Sables-d'Olonne (−15%, €4,647 against €3,960) follow. In Lille the measure rests on 4,735 apartment sales and 1,773 house sales: this is not a sampling accident."
+      },
+      {
+        heading: "Why can a house cost less than an apartment?",
+        body: "The data show where; why is a reading, not a measurement. Our hypothesis: in dense northern cities and tourist coastlines, the apartment market is driven by investor demand, second homes and small units, which sell at a high price per m²; the house there is often an older neighbourhood home with little land, sold at the price of the bricks rather than the garden. In Lille our hypothesis is that apartment prices reflect the student and city-centre market; in La Baule or Les Sables-d'Olonne, second homes. Check the reading against our city pages: a commune where the rent of a three-room flat and the price per m² rise together does not have the same market as a resort where only the price soars."
+      },
+      {
+        heading: "Which cities have the biggest premium on houses?",
+        body: "Cities in Auvergne-Rhône-Alpes, Burgundy and Provence, where apartments are cheap and houses clearly dearer. Chenôve (+107%, €1,210 against €2,500), Firminy (+105%, €1,005 against €2,059), Saint-Chamond (+86%), Fontaine (+84%), Saint-Étienne (+81%, €1,197 against €2,164), Échirolles (+78%), Apt (+78%), Annonay (+77%) and Saint-Claude (+76%) lead this ranking. Sainte-Foy-lès-Lyon (+70%, €3,256 against €5,538), Toulon (+69%, €2,667 against €4,518) and Mons-en-Barœul (+68%) follow. These are cities where apartments sell cheaply and where the house, scarcer or better placed, sells at a clear premium: the measure stops there, and only a visit says whether the gap is worth the difference."
+      },
+      {
+        heading: "Which regions have the cheapest houses relative to apartments?",
+        body: "Hauts-de-France, well ahead: of 32 comparable cities with at least 50 sales of each type, 19 have a house cheaper than the apartment, and the median gap is −4%. At the other end, Auvergne-Rhône-Alpes (+32%, only one inverted city out of 57), Provence-Alpes-Côte d'Azur (+32%, none out of 46), Bourgogne-Franche-Comté (+25%), Grand Est (+24%) and Île-de-France (+23%, 9 inverted cities out of 151) show a clear house premium. The west sits in between: Brittany +3% (7 inverted cities out of 18) and Pays de la Loire +4% (7 out of 24), then Nouvelle-Aquitaine +10%, Normandy +11% and Centre-Val de Loire +11%. For anyone hesitating between the two, these regions first tell you where the house-or-apartment choice barely costs anything."
+      },
+      {
+        heading: "And in the big cities?",
+        body: "Among cities of over 150,000 people, the house is dearer per m² almost everywhere, except in Lille. Paris +28% (€9,646 for the apartment, €12,300 for the house), Marseille +48%, Grenoble +37%, Nice +34%, Lyon +25%, Rennes +24%, Dijon +24%, Nantes +21%, Bordeaux +17%, Montpellier +16% and Toulouse +15%: the per-m² price of a town house exceeds that of an apartment everywhere. Reims is at 0%, Angers at +3% and Le Havre at +6%: house and apartment trade at almost the same price. Lille is the only one of these cities at −24%, and it is not a statistical accident, with nearly 6,500 sales over the period."
+      },
+      {
+        heading: "Should you buy a house because it is cheaper per m²?",
+        body: "Not on that criterion alone. A lower price per m² says nothing about the total budget: a 110 m² house at €2,815 per m² (Lille) costs about €310,000, whereas a 50 m² apartment at €3,705 costs about €185,000: the first is cheaper per m², not in budget. Compare like for like. Add to the house the land to maintain, the roof, the insulation and the energy rating (DPE), which weigh on running costs. And do not confuse a discount with a bargain: a lower price per m² can signal a market with little demand, which weighs at resale. For apartment prices, see our ranking of the price per m² in 552 cities."
+      }
+    ],
+    relatedCities: ["lille","roubaix","calais","arras","albi","la-baule","les-sables-d-olonne","saint-etienne","toulon","marseille","paris","reims"],
+    tags: ["house or apartment","price per m²","DVF","property prices by city","price gap","buying a house in France","city ranking","French property market"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

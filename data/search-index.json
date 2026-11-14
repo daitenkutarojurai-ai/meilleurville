@@ -11440,6 +11440,11 @@
       "slug": "ou-louer-pas-cher-en-2027-villes-t2-a-moins-de-550-euros",
       "title": "Où louer pas cher en 2027 ? Les villes où le T2 reste à 550 € ou moins",
       "emoji": "🏷️"
+    },
+    {
+      "slug": "villes-60-74-ans-part-jeunes-retraites-413-villes-2026",
+      "title": "Où vivent les 60-74 ans ? La part des jeunes retraités dans 413 villes",
+      "emoji": "🌴"
     }
   ],
   "tags": [
@@ -12099,6 +12104,11 @@
       "count": 5
     },
     {
+      "slug": "demographie-par-ville",
+      "label": "démographie par ville",
+      "count": 5
+    },
+    {
       "slug": "expatries",
       "label": "expatriés",
       "count": 5
@@ -12284,11 +12294,6 @@
       "count": 4
     },
     {
-      "slug": "demographie-par-ville",
-      "label": "démographie par ville",
-      "count": 4
-    },
-    {
       "slug": "espaces-verts",
       "label": "espaces verts",
       "count": 4
@@ -12396,6 +12401,11 @@
     {
       "slug": "que-faire-en-martinique",
       "label": "que faire en Martinique",
+      "count": 4
+    },
+    {
+      "slug": "recensement-2022",
+      "label": "recensement 2022",
       "count": 4
     },
     {
@@ -12906,11 +12916,6 @@
     {
       "slug": "que-faire-en-vendee",
       "label": "que faire en Vendée",
-      "count": 3
-    },
-    {
-      "slug": "recensement-2022",
-      "label": "recensement 2022",
       "count": 3
     },
     {
