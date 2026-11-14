@@ -64506,6 +64506,53 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon", "grenoble", "strasbourg", "toulouse", "montpellier", "nice"],
     tags: ["ZFE", "low-emission zone", "Crit'Air", "car", "diesel", "moving to France"],
   },
+
+  {
+    slug: "buying-property-in-france-after-50-strategy-2026",
+    title: "Buying Property in France After 50 (2026): Shorter Loans, Downsizing, Passing It On",
+    metaTitle: "Buying Property in France After 50: Loans & Estate Plan",
+    metaDesc:
+      "Buying in France after 50: loan terms and borrower insurance by age, downsizing, usufruct, gifts, life-insurance allowance and viager, by profile.",
+    category: "budget",
+    emoji: "🎯",
+    readMinutes: 8,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro:
+      "Buying after 50 is a different sum from buying at 30. The loan is shorter, borrower insurance costs more, and the estate has to be planned at the same time as the purchase. In exchange you usually have peak income, accumulated capital and a clear idea of how you want to live in ten years. This guide sets out what changes by age and by situation, for people moving to France or already settled there. It covers rules that are stable; it deliberately gives no price per square metre, because prices belong in the city profiles.",
+    sections: [
+      {
+        heading: "Is it still worth buying after 50?",
+        body: "Often yes, if the purchase matches the life you expect at 65 to 70. Three things work in your favour: income is typically at its peak, so the lender's debt-ratio cap (35% of income, insurance included, set by France's financial stability council) leaves room; you can put down a large deposit, which improves the rate; and the property you are buying is the one you will actually live in. Two things work against you: the loan must end before the lender's age limit, and borrower insurance becomes the largest variable cost. Buying out of impatience, with no view on where you will want to live in retirement, is the main mistake.",
+      },
+      {
+        heading: "How long can you borrow, and what does the insurance cost?",
+        body: "French banks cap the maximum term at 25 years, and most want the loan to end by an age between 70 and 75 (a bank policy, not a law; the insurer's own age limit is usually what binds). At 50 you can still borrow over 20 to 25 years; at 60, expect 10 to 15; at 65, shorter still, and often only with a large deposit. Borrower insurance is priced on age and health, so it climbs steeply: ask for a quote at the same time as the loan offer. Since the Lemoine law of 2022 you can change insurer at any time, free of charge, and the medical questionnaire is waived for loans of up to €200,000 per borrower that end before your 60th birthday. The right to be forgotten for cancer now applies five years after the end of treatment. Compare the cost of the insurance, not just the loan rate (the APR, called the TAEG, includes it).",
+      },
+      {
+        heading: "If you are downsizing: sell first, or buy first?",
+        body: "A couple whose children have left typically owns a house that has become too large. The sale of a main residence is exempt from capital-gains tax in France, which makes downsizing the cheapest way to release capital. The practical risk is the gap between selling and buying. Either arrange a bridging loan (a prêt relais), or rent for a few months between the two, or, if you are bringing capital from abroad, buy first with that money and sell later. A smaller property in a mid-sized city with a hospital, a station and shops within walking distance usually beats a smaller house in the same village: you will want services close once driving gets tiresome.",
+      },
+      {
+        heading: "If you are buying your retirement home ten years early",
+        body: "Between 55 and 65, income is still high and the lender still sees a long career ahead. That is the moment to borrow, not on the first day of retirement, when pensions replace salary and the borrowing capacity drops. Choose a property for the person you will be at 75: a ground floor or a lift, a garden or terrace you can maintain, a bakery, a doctor and a pharmacy within a short walk, and an energy rating (DPE, the French energy performance certificate) of A to C so heating does not eat a fixed pension. Our guide to DPE F and G homes explains why a poor rating changes what you can rent out and what you will spend.",
+      },
+      {
+        heading: "Estate planning: gifts, usufruct and life insurance",
+        body: "Four tools do most of the work, and each has a limit. First, each parent can give each child €100,000 free of gift tax every 15 years. Second, usufruct splitting (démembrement): you give the bare ownership of a property to your children and keep the right to live in it, and its value for tax purposes depends on your age at the time of the gift, as set by a statutory scale (for example 50% of the full value if you are between 51 and 60, 40% between 61 and 70, 30% between 71 and 80). The children then recover full ownership at your death without a second tax charge, but the arrangement cannot be undone. Third, a French life-insurance policy (assurance-vie) passes up to €152,500 per beneficiary tax-free on premiums paid before age 70, outside the normal inheritance rules. Fourth, a family property company (SCI) lets you hand over shares gradually, at the price of annual accounts and legal fees. If you are not a French resident, the rules for non-residents and for foreign nationals differ: see our guide to French inheritance law for expats and take advice from a French notary before signing anything.",
+      },
+      {
+        heading: "Is a viager worth considering?",
+        body: "A viager is the purchase of a property from an older owner, who keeps living there until death, in return for a lump sum and a monthly annuity. The price is reduced against the market, but you cannot know how long you will wait, and you pay the major repairs on the building. It suits a buyer with capital, no urgency to move in and a clear conscience about the arrangement. It does not suit anyone who needs the property to become their home within a few years. Our guide to buying a viager goes through the mechanics and the traps.",
+      },
+      {
+        heading: "What to avoid",
+        body: "Do not borrow over 15 years at 65 or later without checking the insurance quote first. Do not buy a home that only works while you can drive. Do not split ownership with your children before you have taken advice, because a usufruct arrangement is hard to reverse. And do not let a bank rate decide for you: the cost of the borrower insurance and the notary fees (about 7 to 8% of the price on an older property) frequently weigh more than half a point of interest.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "annecy", "pau", "reims", "strasbourg"],
+    tags: ["buying property over 50 France","downsizing France","usufruct démembrement","borrower insurance Lemoine","expat estate planning","buy retirement home France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
