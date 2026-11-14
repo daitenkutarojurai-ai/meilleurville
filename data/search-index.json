@@ -10942,6 +10942,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-autun-2026",
+      "title": "Vacances monoparentales à Autun en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-pontarlier-2026",
+      "title": "Vacances monoparentales à Pontarlier en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-chinon-2026",
+      "title": "Vacances monoparentales à Chinon en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-dinan-2026",
+      "title": "Vacances monoparentales à Dinan en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-paray-le-monial-2026",
+      "title": "Vacances monoparentales à Paray-le-Monial en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-challans-2026",
+      "title": "Vacances monoparentales à Challans en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-gerardmer-2026",
       "title": "10 choses à faire à Gérardmer",
       "emoji": "🏞️"
@@ -11484,6 +11514,11 @@
       "count": 31
     },
     {
+      "slug": "vacances-en-train-avec-enfants",
+      "label": "vacances en train avec enfants",
+      "count": 30
+    },
+    {
       "slug": "famille-monoparentale-ile-de-france",
       "label": "famille monoparentale Île-de-France",
       "count": 29
@@ -11492,11 +11527,6 @@
       "slug": "lyon",
       "label": "Lyon",
       "count": 25
-    },
-    {
-      "slug": "vacances-en-train-avec-enfants",
-      "label": "vacances en train avec enfants",
-      "count": 24
     },
     {
       "slug": "bretagne",
@@ -12861,6 +12891,21 @@
     {
       "slug": "parent-solo-ille-et-vilaine",
       "label": "parent solo Ille-et-Vilaine",
+      "count": 3
+    },
+    {
+      "slug": "parent-solo-indre-et-loire",
+      "label": "parent solo Indre-et-Loire",
+      "count": 3
+    },
+    {
+      "slug": "parent-solo-saone-et-loire",
+      "label": "parent solo Saône-et-Loire",
+      "count": 3
+    },
+    {
+      "slug": "parent-solo-vendee",
+      "label": "parent solo Vendée",
       "count": 3
     },
     {

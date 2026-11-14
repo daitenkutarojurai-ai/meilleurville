@@ -73221,6 +73221,312 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "vacances-monoparentales-autun-2026",
+    title: "Vacances monoparentales à Autun en 2026",
+    metaTitle: "Vacances monoparentales à Autun 2026",
+    metaDesc: "Autun : 7,4/10 au composite monoparental, T3 720 €, 3e sur 77. Train avec changement, vestiges romains, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Autun sort à 7,4/10 au composite « famille monoparentale », troisième des soixante-dix-sept destinations à égalité avec une autre (source : notre indice de séjour). C'est la ville la moins chère de la série sur l'axe coût, 8,5/10 à égalité avec Paray-le-Monial, et son T3 de référence est à 720 € contre une médiane de série à 910 € (source : notre estimation des loyers). Le revers est dans les transports : 4,9/10, soixante-dixième sur soixante-dix-sept. Autun compte 13 144 habitants au recensement 2022, contre 14 426 en 2011, soit une baisse de 8,9 % (source : Insee, recensements). Le moteur la classe en €. Atout : un budget qui tient sur un seul revenu et un patrimoine romain à pied. Limite : on n'y arrive pas sans changement.",
+    sections: [
+      {
+        heading: "Rejoindre Autun en train : pas de direct depuis Paris",
+        body: "Selon les comparateurs consultés en ligne avant écriture, il n'y a pas de liaison directe Paris-Autun : le trajet se fait avec changement (Étang-sur-Arroux, Le Creusot ou Dijon) et dure de l'ordre de 3 h 25 à 3 h 50 pour les meilleures combinaisons. Autun-Dijon se donne autour de 1 h 40 en TER, Autun-Le Creusot autour de 45 minutes avec changement à Étang. Horaires exacts sur SNCF Connect, à la date voulue, les durées variant beaucoup d'un train à l'autre. L'axe transports est à 4,9/10, très sous la médiane de série (6,4), soixante-dixième des soixante-dix-sept destinations à égalité avec trois autres. Sur place, le centre se fait à pied ; le Morvan voisin demande un bus ou une voiture."
+      },
+      {
+        heading: "Quel budget : la ville la moins chère de la série",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Autun sort à 8,5/10 (source : notre fiche ville), première des soixante-dix-sept destinations à égalité avec une autre, pour une médiane de série à 6,3. Le marché : 720 € le T3 de référence, cinquième moins cher de la série, et 1 400 € le mètre carré, deuxième moins cher (source : notre estimation des loyers), contre 910 € et 2 400 € de médiane. Aucune ville du seed n'est à moins de 40 kilomètres : Beaune, à 42 kilomètres, affiche un T3 à 1 080 € et Chalon-sur-Saône, à 46 kilomètres, à 740 €. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'une chambre ou d'un gîte se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Le théâtre romain, les portes et la cathédrale",
+        body: "Autun garde des vestiges de son passé gallo-romain, dont les portes d'Arroux et Saint-André, et les restes d'un théâtre antique : des lieux gratuits à regarder, faciles à enchaîner à pied avec des enfants. La cathédrale Saint-Lazare est connue pour ses sculptures romanes, attribuées à Gislebertus (le relevé cartographique garde d'ailleurs son nom dans un clos de la ville). Horaires et tarifs des musées se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "5 espaces verts relevés, dont 2 avec aire de jeux",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune, dont 2 portent une aire de jeux (source : OpenStreetMap) : le parc Robert Schuman et la promenade des Marbres. L'emprise cumulée est d'environ 5 hectares. C'est peu pour une ville de cette taille : prévoyez les après-midi de pluie ailleurs. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 6,8/10",
+        body: "Autun affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), septième des soixante-dix-sept destinations à égalité avec six autres, pour une médiane de série à 6,1. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,8/10, vingt-neuvième sur soixante-dix-sept à égalité avec treize autres, pile sur la médiane de série (6,8). Avec 13 144 habitants et une population en baisse depuis 2011, la ville est calme mais ses services se concentrent dans le centre."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Dijon (Dijon-Longvic), à 69 kilomètres (source : normales Météo-France 1991-2020). Elle donne 2,7 °C de moyenne en janvier et 20,8 °C en juillet. Les ancres propres à la commune viennent du seed : 2,5 °C en janvier, 23 °C en juillet et 1 800 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux. Le moteur place juin en tête, puis septembre, puis août."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Saône-et-Loire est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["autun","beaune","chalon-sur-saone"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Autun",
+      "parent solo Saône-et-Loire",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-pontarlier-2026",
+    title: "Vacances monoparentales à Pontarlier en 2026",
+    metaTitle: "Vacances monoparentales à Pontarlier 2026",
+    metaDesc: "Pontarlier : 7,3/10 au composite monoparental, T3 940 €, sécurité 8,1/10. TER via Frasne, ville de montagne, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Pontarlier sort à 7,3/10 au composite « famille monoparentale », cinquième des soixante-dix-sept destinations à égalité avec cinq autres (source : notre indice de séjour). Le détail : sécurité 8,1/10, qualité de vie 7,8/10, coût de la vie 6,7/10 et transports 5,6/10 (source : notre fiche ville). Le marché est plus tendu qu'on ne l'imagine à cette altitude : 940 € le T3 de référence, au-dessus de la médiane de série à 910 €, et 2 400 € le mètre carré, pile sur la médiane (source : notre estimation des loyers). La commune compte 17 928 habitants au recensement 2022, contre 17 998 en 2011 (source : Insee, recensements). Le moteur la classe en €€. Atout : une ville de montagne vivante, à la frontière suisse. Limite : une saison hivernale très fréquentée.",
+    sections: [
+      {
+        heading: "Rejoindre Pontarlier en train : la correspondance de Frasne",
+        body: "Selon les comparateurs consultés en ligne avant écriture, il n'y a pas de train direct Paris-Pontarlier : le TGV s'arrête à Frasne, d'où un court TER d'une quinzaine de minutes mène à Pontarlier. Comptez autour de 3 h au mieux, plus selon les jours, le TGV Paris-Frasne ne circulant que quelques fois par jour. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 5,6/10, sous la médiane de série (6,4), soixante et unième des soixante-dix-sept destinations à égalité avec quatre autres. Sur place, le centre se parcourt à pied ; les sites de montagne autour demandent un bus ou une voiture."
+      },
+      {
+        heading: "Quel budget : plus cher que les autres villes de campagne",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Pontarlier sort à 6,7/10 (source : notre fiche ville), vingt-troisième des soixante-dix-sept destinations à égalité avec neuf autres, pour une médiane de série à 6,3. Le marché : 940 € le T3 de référence et 2 400 € le mètre carré (source : notre estimation des loyers), contre 910 € et 2 400 € de médiane de série. À 45 kilomètres, Besançon affiche un T3 à 900 € ; à 66 kilomètres, Lons-le-Saunier à 820 €. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'une location varie fortement entre la haute saison d'hiver et le reste de l'année."
+      },
+      {
+        heading: "Le Haut-Doubs : forêts, absinthe et ski de fond",
+        body: "Pontarlier se visite comme une porte d'entrée sur le Haut-Doubs : la ville a une histoire liée à l'absinthe, une porte monumentale (la porte Saint-Pierre) et des forêts de sapins à la sortie. Le ski de fond et la randonnée hivernale sont les activités phares, et plusieurs sites de montagne (dont le fort de Joux, sur la commune voisine de La Cluse-et-Mijoux) demandent un transport. Horaires et tarifs se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "8 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 8 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap) : le parc des Ouillons, le Grand Cours et le square Clemenceau. L'emprise cumulée est d'environ 7 hectares, dont plus de 4 pour le seul parc des Ouillons. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 7,8/10",
+        body: "Pontarlier affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), septième des soixante-dix-sept destinations à égalité avec six autres, pour une médiane de série à 6,1. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 7,8/10, huitième sur soixante-dix-sept à égalité avec dix autres, au-dessus de la médiane de série (6,8). Avec 17 928 habitants, la ville offre des commerces et des services de taille moyenne, ce qui compte quand un seul adulte gère les courses, la garde et les trajets."
+      },
+      {
+        heading: "Quand y aller : ici l'hiver est la haute saison",
+        body: "Ne vous fiez pas à la station climatique de référence : celle de Dijon (Dijon-Longvic) est à 104 kilomètres, sur un site bien plus bas (source : normales Météo-France 1991-2020), donc peu représentative. Les ancres propres à la commune viennent du seed : −0,5 °C en janvier, 20,5 °C en juillet, 837 mètres d'altitude et 1 700 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 5 en janvier, février, juillet, août et décembre ; niveau 4 en juin et en septembre ; niveau 3 le reste de l'année (source : notre calendrier des saisons). C'est un indicateur régional générique. Le moteur place juin en tête, puis septembre, puis juillet : ce sont les mois les plus faciles, hors pic."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Doubs est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["pontarlier","besancon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Pontarlier",
+      "parent solo Doubs",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-chinon-2026",
+    title: "Vacances monoparentales à Chinon en 2026",
+    metaTitle: "Vacances monoparentales à Chinon 2026",
+    metaDesc: "Chinon : 7,2/10 au composite monoparental, T3 820 €, 11e sur 77. TER via Tours, forteresse, parcs et aides sans montant.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Chinon sort à 7,2/10 au composite « famille monoparentale », onzième des soixante-dix-sept destinations à égalité avec cinq autres (source : notre indice de séjour). Le détail : sécurité 8,1/10, qualité de vie 7,8/10, coût de la vie 7,6/10, sixième de la série, et transports 4,2/10, soixante-quatorzième (source : notre fiche ville). Le marché : 820 € le T3 de référence et 2 000 € le mètre carré (source : notre estimation des loyers), contre 910 € et 2 400 € de médiane de série. La commune compte 8 121 habitants au recensement 2022, contre 7 911 en 2011, soit une hausse de 2,7 % (source : Insee, recensements). Le moteur la classe en €€. Atout : une forteresse royale et une vieille ville à taille d'enfant. Limite : tout passe par Tours.",
+    sections: [
+      {
+        heading: "Rejoindre Chinon en train : tout passe par Tours",
+        body: "Selon les comparateurs consultés en ligne avant écriture, le trajet Tours-Chinon se fait en TER, en 47 minutes à 1 heure selon les trains, environ six fois par jour. Paris-Chinon se fait avec un changement à Tours, autour de 2 h 30 au mieux. Horaires exacts sur SNCF Connect, à la date voulue, et nombre de départs à vérifier le week-end. L'axe transports est à 4,2/10, très sous la médiane de série (6,4), soixante-quatorzième des soixante-dix-sept destinations à égalité avec deux autres : c'est le plus bas niveau de la série, partagé avec trois autres. Sur place, la vieille ville se fait à pied ; les châteaux voisins demandent un bus ou une voiture."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Chinon sort à 7,6/10 (source : notre fiche ville), sixième des soixante-dix-sept destinations à égalité avec huit autres, pour une médiane de série à 6,3. Le marché : 820 € le T3 de référence et 2 000 € le mètre carré. À 26 kilomètres, Saumur, déjà dans la série, affiche un T3 à 800 € ; à 38 kilomètres, Joué-lès-Tours à 860 €. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'un hébergement en saison se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "La forteresse, la vieille ville et la Vienne",
+        body: "Chinon est connue pour sa forteresse royale, où Jeanne d'Arc rencontra le futur Charles VII en 1429, et pour son quartier médiéval au pied du château, qui se parcourt à pied. Les quais de la Vienne et le souvenir de Rabelais, natif du pays, donnent le fil des sorties. Les vignes de l'appellation Chinon couvrent les coteaux voisins : à regarder, pas à boire, pour les enfants. Horaires et tarifs du château se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "5 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap) : le jardin Anglais, le square Denise Durand et la place de Tiverton. L'emprise cumulée est d'environ 3 hectares : ce sont de petits jardins, faciles à enchaîner. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 7,8/10",
+        body: "Chinon affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), septième des soixante-dix-sept destinations à égalité avec six autres, pour une médiane de série à 6,1. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 7,8/10, huitième sur soixante-dix-sept à égalité avec dix autres, au-dessus de la médiane de série (6,8). Avec 8 121 habitants, la ville est petite : les services restent concentrés autour du centre."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Tours (Tours-Saint-Symphorien), à 47 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,1 °C de moyenne en janvier et 20,2 °C en juillet. Les ancres propres à la commune viennent du seed : 4,5 °C en janvier, 23 °C en juillet et 1 950 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique. Le moteur place juin en tête, puis septembre, puis juillet : les deux premiers évitent le pic d'été."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse d'Indre-et-Loire est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["chinon","saumur","joue-les-tours"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Chinon",
+      "parent solo Indre-et-Loire",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-dinan-2026",
+    title: "Vacances monoparentales à Dinan en 2026",
+    metaTitle: "Vacances monoparentales à Dinan 2026",
+    metaDesc: "Dinan : 7,2/10 au composite monoparental, sécurité 8,7/10 (1re sur 77), T3 800 €. TER via Rennes, remparts, parcs et aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Dinan sort à 7,2/10 au composite « famille monoparentale », onzième des soixante-dix-sept destinations à égalité avec cinq autres (source : notre indice de séjour). Elle prend la première place de la série sur la sécurité, 8,7/10, seule à ce niveau, devant les 8,6 de Paray-le-Monial (source : notre fiche ville). Le marché : 800 € le T3 de référence et 2 300 € le mètre carré (source : notre estimation des loyers), contre 910 € et 2 400 € de médiane de série. La commune compte 14 966 habitants au recensement 2022, contre 13 935 en 2011, soit une hausse de 7,4 % (source : Insee, recensements). Le moteur la classe en €€. Atout : une ville fortifiée au-dessus de la Rance. Limite : transports à 4,2/10 et une forte pente entre la ville haute et le port.",
+    sections: [
+      {
+        heading: "Rejoindre Dinan en train : par Rennes",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Paris-Dinan se fait via Rennes (environ 1 h 30 de TGV de Paris-Montparnasse à Rennes) puis par un TER qui met de l'ordre d'une heure à Dinan, à une cadence horaire aux heures de pointe, soit environ 2 h 50 au total selon les comparateurs. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 4,2/10, très sous la médiane de série (6,4), soixante-quatorzième des soixante-dix-sept destinations à égalité avec deux autres. Sur place, la vieille ville se fait à pied ; la côte, à une vingtaine de kilomètres, se joue en bus ou en voiture."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Dinan sort à 7,2/10 (source : notre fiche ville), quinzième des soixante-dix-sept destinations à égalité avec cinq autres, pour une médiane de série à 6,3. Le marché : 800 € le T3 de référence et 2 300 € le mètre carré. À 20 kilomètres, Dinard affiche un T3 à 1 070 € ; à 22 kilomètres, Saint-Malo, déjà dans la série, à 1 080 €. Autrement dit, la côte voisine coûte environ un tiers de plus en loyers : ce sont des repères résidentiels et non des tarifs de vacances, mais l'écart dit où loger si le budget est serré."
+      },
+      {
+        heading: "Remparts, Jerzual et le port sur la Rance",
+        body: "Dinan est connue pour ses remparts, sa tour de l'Horloge et la rue du Jerzual, qui descend en pente raide vers le port sur la Rance. La descente est pittoresque, la remontée avec une poussette ou un enfant fatigué est un vrai effort : prévoyez le sens de la journée en conséquence. Le port se visite à pied ou en promenade fluviale selon la saison. Horaires et tarifs se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "5 espaces verts relevés, dont 1 avec aire de jeux",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune, dont 1 porte une aire de jeux (source : OpenStreetMap) : le jardin du Val Cocherel. Le reste est fait de jardins médiévaux, du jardin de l'abbaye et du jardin Anglais, à regarder plutôt qu'à fréquenter avec de jeunes enfants. L'emprise cumulée est d'environ 5 hectares. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,7/10, qualité de vie 7,8/10",
+        body: "Dinan affiche 8,7/10 sur l'axe sécurité (source : notre fiche ville), première des soixante-dix-sept destinations, pour une médiane de série à 6,1. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 7,8/10, huitième sur soixante-dix-sept à égalité avec dix autres, au-dessus de la médiane de série (6,8). Avec 14 966 habitants, la ville offre plus de services qu'un simple bourg."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Rennes (Rennes-Saint-Jacques), à 49 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,2 °C de moyenne en janvier et 19,2 °C en juillet. Les ancres propres à la commune viennent du seed : 6,5 °C en janvier, 20 °C en juillet et 1 750 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics locaux de la côte voisine. Le moteur place juin en tête, puis juillet, puis août."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse des Côtes-d'Armor est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["dinan","dinard","saint-malo"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Dinan",
+      "parent solo Côtes-d'Armor",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-paray-le-monial-2026",
+    title: "Vacances monoparentales à Paray-le-Monial en 2026",
+    metaTitle: "Vacances monoparentales à Paray-le-Monial 2026",
+    metaDesc: "Paray-le-Monial : 7,2/10 au composite monoparental, sécurité 8,6/10, T3 720 €, 1 300 €/m². Train via Montchanin, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Paray-le-Monial sort à 7,2/10 au composite « famille monoparentale », onzième des soixante-dix-sept destinations à égalité avec cinq autres (source : notre indice de séjour). Elle cumule deux premières places de la série : le prix au mètre carré le plus bas, 1 300 € contre une médiane de série à 2 400 €, et un coût de la vie à 8,5/10 à égalité avec Autun (source : notre estimation des loyers, notre fiche ville). Le T3 de référence est à 720 €, la sécurité à 8,6/10, deuxième de la série. En revanche la qualité de vie est à 6,4/10, quarante-huitième, et les transports à 4,2/10. La commune compte 9 256 habitants au recensement 2022, contre 9 094 en 2011, soit une hausse de 1,8 % (source : Insee, recensements). Le moteur la classe en €. Atout : un budget très bas et un grand parc. Limite : une ville de pèlerinage, calme et peu équipée.",
+    sections: [
+      {
+        heading: "Rejoindre Paray-le-Monial en train : le changement de Montchanin",
+        body: "Selon les comparateurs consultés en ligne avant écriture, la meilleure combinaison depuis Paris est un TGV jusqu'au Creusot-Montceau-Montchanin puis un TER, autour de 2 h 30 ; les itinéraires par Dijon montent à 3 h 30 et plus. Dijon-Paray-le-Monial se fait en TER autour de 1 h 40 avec changement à Montchanin. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 4,2/10, très sous la médiane de série (6,4), soixante-quatorzième des soixante-dix-sept destinations à égalité avec deux autres. Sur place, le centre se parcourt à pied."
+      },
+      {
+        heading: "Quel budget : le plus bas de la série au mètre carré",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Paray-le-Monial sort à 8,5/10 (source : notre fiche ville), première des soixante-dix-sept destinations à égalité avec Autun, pour une médiane de série à 6,3. Le marché : 720 € le T3 de référence, cinquième moins cher de la série, et 1 300 € le mètre carré, le plus bas des soixante-dix-sept (source : notre estimation des loyers). Roanne, à 47 kilomètres, affiche un T3 à 700 €, Mâcon, à 57 kilomètres, à 800 €. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'un hébergement se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "La basilique romane et les bords de la Bourbince",
+        body: "Paray-le-Monial est une ville de pèlerinage, connue pour sa basilique romane du Sacré-Cœur, au centre, et pour les bords de la Bourbince, qui offrent une promenade à plat. Le tourisme religieux rythme la ville : il apporte des visiteurs aux beaux jours et des offres d'accueil collectif, mais les activités pour enfants sont plus rares qu'ailleurs. Horaires et tarifs se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "7 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 7 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap) : le parc du Moulin Liron, le jardin des bords de Bourbince et le square des Droits de l'Enfant. L'emprise cumulée est d'environ 21 hectares, dont près de 16 pour le seul parc du Moulin Liron : c'est le plus grand terrain de jeu des six villes de ce lot. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,6/10, qualité de vie 6,4/10",
+        body: "Paray-le-Monial affiche 8,6/10 sur l'axe sécurité (source : notre fiche ville), deuxième des soixante-dix-sept destinations à égalité avec une autre, pour une médiane de série à 6,1. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,4/10, quarante-huitième sur soixante-dix-sept, sous la médiane de série (6,8). Avec 9 256 habitants, la ville est petite : si l'on cherche de l'animation, elle n'en offre pas beaucoup."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Lyon (Lyon-Bron), à 103 kilomètres, donc peu précise (source : normales Météo-France 1991-2020). Elle donne 4,1 °C de moyenne en janvier et 22,6 °C en juillet. Les ancres propres à la commune viennent du seed : 2,5 °C en janvier, 23 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics de pèlerinage. Le moteur place septembre en tête, puis mai, puis juin."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Saône-et-Loire est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["paray-le-monial","roanne","macon"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Paray-le-Monial",
+      "parent solo Saône-et-Loire",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-challans-2026",
+    title: "Vacances monoparentales à Challans en 2026",
+    metaTitle: "Vacances monoparentales à Challans 2026",
+    metaDesc: "Challans : 7,0/10 au composite monoparental, T3 860 €, sécurité 8,3/10, 5e sur 77. TER direct de Nantes, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-14",
+    updatedAt: "2026-11-14",
+    intro: "Challans sort à 7,0/10 au composite « famille monoparentale », vingtième des soixante-dix-sept destinations à égalité avec deux autres (source : notre indice de séjour). Le détail : sécurité 8,3/10, cinquième de la série et seule à ce niveau, coût de la vie 7,2/10, qualité de vie 6,8/10 et transports 4,9/10 (source : notre fiche ville). Le marché : 860 € le T3 de référence et 2 100 € le mètre carré (source : notre estimation des loyers), contre 910 € et 2 400 € de médiane de série. C'est la commune qui grandit le plus de ce lot : 22 890 habitants au recensement 2022, contre 18 930 en 2011, soit une hausse de 20,9 % (source : Insee, recensements). Le moteur la classe en €€. Atout : un TER direct de Nantes et un grand parc de loisirs. Limite : la mer est ailleurs.",
+    sections: [
+      {
+        heading: "Rejoindre Challans en train : un TER direct depuis Nantes",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Challans est reliée à Nantes par un TER direct d'environ une heure (de 51 minutes à 1 h 02 selon les trains), à raison de quelques départs par jour ; Paris-Challans passe donc par Nantes. Horaires exacts sur SNCF Connect, à la date voulue. Le guichet de la gare n'est ouvert que certains jours : il faut acheter son billet en ligne ou sur mobile. L'axe transports est à 4,9/10, très sous la médiane de série (6,4), soixante-dixième des soixante-dix-sept destinations à égalité avec trois autres. Sur place, la côte vendéenne demande un bus ou une voiture."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Challans sort à 7,2/10 (source : notre fiche ville), quinzième des soixante-dix-sept destinations à égalité avec cinq autres, pour une médiane de série à 6,3. Le marché : 860 € le T3 de référence et 2 100 € le mètre carré. À 33 kilomètres, Noirmoutier-en-l'Île affiche un T3 à 1 100 € ; à 40 kilomètres, La Roche-sur-Yon, déjà dans la série, à 800 € et Les Sables-d'Olonne, également dans la série, à 1 050 €. Ce sont des repères résidentiels et non des tarifs de vacances : la location sur la côte, plus chère en été, se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Marché, canard et Marais breton",
+        body: "Challans est connue pour son marché et son canard, et ouvre sur le Marais breton vendéen, un paysage plat de canaux, accessible à vélo ou en balade. La ville elle-même est un bourg commerçant plus qu'une destination de monuments : on y vient pour la table et l'arrière-pays, puis on rejoint la côte en bus ou en voiture. Horaires du marché et des sorties se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "7 espaces verts relevés, dont 1 avec aire de jeux",
+        body: "Le relevé cartographique retient 7 espaces verts sur la commune, dont 1 porte une aire de jeux (source : OpenStreetMap) : le parc de Loisirs de la Sablière, qui à lui seul dépasse 10 hectares. L'emprise cumulée est d'environ 18 hectares, avec le bois du Breuil et le parc de la Juisière. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,3/10, qualité de vie 6,8/10",
+        body: "Challans affiche 8,3/10 sur l'axe sécurité (source : notre fiche ville), cinquième des soixante-dix-sept destinations, pour une médiane de série à 6,1. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,8/10, vingt-neuvième sur soixante-dix-sept à égalité avec treize autres, pile sur la médiane de série. Avec 22 890 habitants, la ville est la plus peuplée de ce lot et offre plus de services que ses voisines."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Nantes (Nantes-Bouguenais), à 39 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,4 °C de moyenne en janvier et 19,7 °C en juillet. Les ancres propres à la commune viennent du seed : 6 °C en janvier, 22,5 °C en juillet et 2 100 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne dit rien des plages voisines, bien plus fréquentées l'été. Le moteur place juin en tête, puis septembre, puis juillet."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Vendée est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["challans","la-roche-sur-yon","les-sables-d-olonne"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Challans",
+      "parent solo Vendée",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
     slug: "10-choses-a-faire-a-gerardmer-2026",
     title: "10 choses à faire à Gérardmer",
     metaTitle: "10 choses à faire à Gérardmer en 2026",
