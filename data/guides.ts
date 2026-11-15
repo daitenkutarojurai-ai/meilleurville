@@ -41999,6 +41999,323 @@ export const GUIDES: Guide[] = [
     tags: ["famille Nanterre 2026","vivre en famille Nanterre","loyer T3 Nanterre","écoles Nanterre","Nanterre avec enfants"],
   },
   {
+    slug: "famille-a-merignac-2026",
+    title: "Famille à Mérignac en 2026 : un T3 à 1 080 €, 3 439 € le m², Transports 7,7 et 9,7 % d'habitants en plus",
+    metaTitle: "Famille à Mérignac 2026 : T3 1 080 €, 3 439 €/m², Écoles 5,5",
+    metaDesc: "Famille à Mérignac : T3 à 1 080 €, appartements à 3 439 €/m², Écoles 5,5, Transports 7,7, 16,1 % de moins de 15 ans, forêt du Bourgailh.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Mérignac loue un T3 1 080 € (notre estimation des loyers), 120 € de moins que Bordeaux, et vend l'appartement 3 439 € le m², 732 € sous Bordeaux. Les Transports y sont notés 7,7 (rang 59 sur 593), les Écoles 5,5 (rang 271), la Sécurité 4,7 (rang 399). La commune a gagné 9,7 % d'habitants depuis 2016 pour atteindre 77 136, dont 16,1 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Mérignac ?",
+        body: "Le T3 est à 1 080 €, le T2 à 800 €. L'appartement vaut 3 439 € le m² (1 320 ventes en 2024-2025) et la maison 4 068 € (700 ventes), 18 % de plus. Un appartement de 80 m² au prix médian coûte environ 275 000 €, hors frais. Le Bouscat, voisine au nord de Bordeaux, loue le T3 1 260 € et vend à 3 700 € le m².",
+      },
+      {
+        heading: "Quels revenus, quelle population ?",
+        body: "Le niveau de vie médian est de 24 770 € par unité de consommation (Insee, Filosofi 2021) avec 12 % de pauvreté, contre 24 870 € et 17 % à Bordeaux : le revenu est le même, la pauvreté est plus faible de cinq points. La population a progressé de 9,7 % entre 2016 et 2022 ; 22,7 % des habitants ont 60 ans ou plus.",
+      },
+      {
+        heading: "Que valent les écoles, la sécurité et la nature ?",
+        body: "Écoles 5,5 (rang 271, 105 à égalité), Sécurité 4,7 (rang 399, 28 à égalité), Nature 4,3 (rang 420, 43 à égalité), Coût 4,0 (rang 488, 8 à égalité). Les Écoles sont 1,9 point sous Bordeaux (7,4) et 1,1 sous Pessac (6,6) : c'est le point faible du dossier, à vérifier par secteur scolaire avant de signer.",
+      },
+      {
+        heading: "Où sortir avec des enfants à Mérignac ?",
+        body: "La forêt du Bourgailh couvre 83 hectares selon OpenStreetMap, à cheval sur Mérignac et Pessac. Le parc de Bourran (18 hectares, aire de jeux) et les parcs du Luchey et du Vivier (9 hectares chacun) complètent l'offre. La nature est notée 4,3 : l'espace vert existe, mais la ville reste très urbanisée et aéroportuaire.",
+      },
+      {
+        heading: "Comment se déplacer sans voiture ?",
+        body: "Le tram A dessert Mérignac Centre et, depuis avril 2023, l'aéroport de Bordeaux-Mérignac, et rejoint Bordeaux et ses lignes. Avec Transports 7,7, la commune est dans les 10 % les mieux notés : un parent peut travailler dans Bordeaux sans voiture, ce que les communes de seconde couronne ne permettent pas toutes.",
+      },
+      {
+        heading: "Mérignac face à Pessac et à Bordeaux",
+        body: "Pessac loue le même T3 (1 080 €) et vend l'appartement 3 482 €, avec Écoles 6,6 et Sécurité 4,9 contre 5,5 et 4,7 à Mérignac. Bordeaux est à 1 200 € et 4 171 € le m², Écoles 7,4, Sécurité 5,1. Mérignac est donc la moins chère des trois à l'achat, avec la note d'école la plus basse.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Mérignac convient aux familles qui veulent un T3 à 1 080 €, un tram direct vers Bordeaux et un achat à 3 439 € le m². Celles qui placent l'école d'abord regarderont Pessac, au même loyer et 1,1 point plus haut en Écoles.",
+      },
+    ],
+    relatedCities: ["merignac", "pessac", "bordeaux", "le-bouscat"],
+    relatedGuides: [
+      "10-choses-a-faire-a-merignac-2026",
+      "parent-solo-a-merignac-2026",
+    ],
+    tags: ["famille Mérignac 2026", "vivre en famille Mérignac", "loyer T3 Mérignac", "écoles Mérignac", "Mérignac avec enfants"],
+  },
+  {
+    slug: "famille-a-pessac-2026",
+    title: "Famille à Pessac en 2026 : un T3 à 1 080 €, Écoles 6,6, 3 482 € le m² et un campus voisin",
+    metaTitle: "Famille à Pessac 2026 : T3 1 080 €, 3 482 €/m², Écoles 6,6",
+    metaDesc: "Famille à Pessac : T3 à 1 080 €, appartements à 3 482 €/m², Écoles 6,6, Transports 7,7, 13 % de pauvreté, 15,6 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "À Pessac, un T3 se loue 1 080 € (notre estimation des loyers) et un appartement se vend 3 482 € le m², contre 1 200 € et 4 171 € à Bordeaux. Les Écoles y sont notées 6,6 (rang 105 sur 593), les Transports 7,7 (rang 59), la Sécurité 4,9 (rang 376). La commune compte 66 874 habitants, 8,1 % de plus qu'en 2016, dont 15,6 % de moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel loyer et quel prix pour une famille à Pessac ?",
+        body: "Le T3 est à 1 080 €, le T2 à 800 €. L'appartement vaut 3 482 € le m² (549 ventes en 2024-2025) ; la maison, 3 839 € (749 ventes), soit 10 % de plus seulement. Pessac vend plus de maisons que d'appartements, ce qui la distingue de Bordeaux, où les appartements dominent (6 344 ventes contre 1 991).",
+      },
+      {
+        heading: "Quel niveau de vie dans la commune ?",
+        body: "Le niveau de vie médian est de 25 940 € par unité de consommation (Insee, Filosofi 2021), avec 13 % de pauvreté. Talence, à 3 km, est à 24 260 € et 17 % ; Gradignan à 25 980 € et 11 %. Pessac se range avec les communes résidentielles du sud-ouest de l'agglomération plutôt qu'avec la ville-centre.",
+      },
+      {
+        heading: "Les écoles et la sécurité justifient-elles le choix ?",
+        body: "Écoles 6,6 (rang 105, 110 à égalité), Sécurité 4,9 (rang 376, 8 à égalité), Nature 5,0 (rang 346, 51 à égalité), Coût 4,0 (rang 488). L'école est au-dessus de Mérignac (5,5) mais sous Talence (7,7) : la note est bonne sans être le point fort, et la sécurité reste moyenne.",
+      },
+      {
+        heading: "Quels espaces verts pour les enfants ?",
+        body: "Le bois des Sources du Peugue couvre 116 hectares selon OpenStreetMap, la forêt du Bourgailh 83 hectares (partagée avec Mérignac) et le parc de Cap de Bos 11 hectares, avec aire de jeux. C'est un atout net pour des sorties à pied ou à vélo.",
+      },
+      {
+        heading: "Que change le campus universitaire ?",
+        body: "Le campus de Bordeaux Montaigne est dans la commune, avec son propre parc. Pour une famille, cela veut dire des enfants plus grands qui peuvent étudier sur place et un parc locatif étudiant qui tire les petites surfaces. La ligne B du tram relie Pessac Centre à Bordeaux, avec des Transports à 7,7.",
+      },
+      {
+        heading: "Pessac face à Talence et à Mérignac",
+        body: "Talence demande 1 150 € pour un T3 (70 € de plus), vend à 3 851 € le m², avec Écoles 7,7. Mérignac est au même loyer, 3 439 € le m², Écoles 5,5. Pessac occupe le milieu : 1,1 point d'école de moins que Talence, 1,1 de plus que Mérignac, et le prix d'achat entre les deux.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Pessac convient aux familles qui veulent un T3 à 1 080 €, du bois à pied et une école à 6,6 sans payer le prix de Talence. Celles qui veulent le meilleur secteur scolaire de l'agglomération iront à Talence ; celles qui veulent acheter le moins cher, à Mérignac.",
+      },
+    ],
+    relatedCities: ["pessac", "talence", "merignac", "bordeaux"],
+    relatedGuides: [
+      "10-choses-a-faire-a-pessac-2026",
+      "parent-solo-a-pessac-2026",
+    ],
+    tags: ["famille Pessac 2026", "vivre en famille Pessac", "loyer T3 Pessac", "écoles Pessac", "Pessac avec enfants"],
+  },
+  {
+    slug: "famille-a-saint-nazaire-2026",
+    title: "Famille à Saint-Nazaire en 2026 : un T3 à 850 €, Coût 6,3, 2 849 € le m² et 30,5 % de 60 ans et plus",
+    metaTitle: "Famille à Saint-Nazaire 2026 : T3 850 €, 2 849 €/m²",
+    metaDesc: "Famille à Saint-Nazaire : T3 à 850 €, appartements à 2 849 €/m², Écoles 6,6, Sécurité 5,5, Coût 6,3, 30,5 % de 60 ans et plus.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Saint-Nazaire loue un T3 850 € (notre estimation des loyers), 300 € de moins que Nantes, et vend l'appartement 2 849 € le m². Les Écoles y sont notées 6,6 (rang 105 sur 593), la Sécurité 5,5 (rang 275), le Coût 6,3 (rang 203). La ville compte 73 111 habitants, 4,9 % de plus qu'en 2016, mais 30,5 % ont 60 ans ou plus et 16,2 % moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Saint-Nazaire ?",
+        body: "Le T3 est à 850 €, le T2 à 640 €. L'appartement vaut 2 849 € le m² (1 147 ventes en 2024-2025) et la maison 2 936 € (895 ventes), 3 % de plus : l'écart est faible. Un appartement de 80 m² au prix médian coûte environ 228 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie, quelle structure d'âge ?",
+        body: "Le niveau de vie médian est de 21 900 € par unité de consommation (Insee, Filosofi 2021), avec 17 % de pauvreté. Près d'un habitant sur trois a 60 ans ou plus (30,5 %) : les services de proximité sont taillés pour une population âgée, et les enfants sont minoritaires (16,2 % de moins de 15 ans).",
+      },
+      {
+        heading: "Écoles, sécurité, nature : que disent les notes ?",
+        body: "Écoles 6,6 (rang 105, 110 à égalité), Sécurité 5,5 (rang 275, 25 à égalité), Transports 6,2 (rang 248, 33 à égalité), Nature 5,7 (rang 262, 58 à égalité), Coût 6,3 (rang 203, 23 à égalité). Sur ces cinq axes, aucune note ne passe sous 5,5 : le profil est sans point faible marqué.",
+      },
+      {
+        heading: "Que faire avec des enfants à Saint-Nazaire ?",
+        body: "L'ancienne base sous-marine abrite Escal'Atlantic, qui reconstitue un paquebot transatlantique, et le sous-marin Espadon se visite à flot ; l'Écomusée raconte l'histoire industrielle et portuaire de la ville. Le Parc Paysager (23 hectares selon OpenStreetMap) et les plages du littoral complètent la semaine. Les horaires et tarifs changent : à vérifier auprès de l'office de tourisme.",
+      },
+      {
+        heading: "Saint-Nazaire face à La Baule et à Nantes",
+        body: "La Baule, à 14 km, loue le T3 1 250 € et vend à 6 483 € le m², avec Écoles 7,7, Sécurité 7,3 et 8 % de pauvreté. Nantes est à 1 150 € et 3 413 € le m², Écoles 7,9, Sécurité 4,6. Saint-Nazaire est la moins chère des trois à la location et la moins chère à l'achat, avec 1,3 point d'école de moins que Nantes.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Saint-Nazaire convient aux familles qui veulent la mer, un T3 à 850 € et un achat à 2 849 € le m², et acceptent une ville portuaire et industrielle plutôt qu'une station. Celles qui veulent une sécurité à 7,3 et des écoles à 7,7 regarderont La Baule, à 400 € de loyer de plus.",
+      },
+    ],
+    relatedCities: ["saint-nazaire", "la-baule", "nantes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-saint-nazaire-2026",
+      "parent-solo-a-saint-nazaire-2026",
+    ],
+    tags: ["famille Saint-Nazaire 2026", "vivre en famille Saint-Nazaire", "loyer T3 Saint-Nazaire", "écoles Saint-Nazaire", "Saint-Nazaire avec enfants"],
+  },
+  {
+    slug: "famille-a-antibes-2026",
+    title: "Famille à Antibes en 2026 : un T3 à 1 450 €, 5 149 € le m², Nature 7,0 et seulement 13,8 % de moins de 15 ans",
+    metaTitle: "Famille à Antibes 2026 : T3 1 450 €, 5 149 €/m², Écoles 5,3",
+    metaDesc: "Famille à Antibes : T3 à 1 450 €, appartements à 5 149 €/m², Nature 7,0, Écoles 5,3, 13,8 % de moins de 15 ans, 33,8 % de 60 ans et plus.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Antibes loue un T3 1 450 € (notre estimation des loyers), 250 € de moins que Cannes, et vend l'appartement 5 149 € le m². La Nature y est notée 7,0 (rang 161 sur 593), mais les Écoles 5,3 (rang 376), la Sécurité 5,1 (rang 350) et le Coût 3,3 (rang 531). Sur 76 612 habitants, 13,8 % ont moins de 15 ans et 33,8 % ont 60 ans ou plus.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Antibes ?",
+        body: "Le T3 est à 1 450 €, le T2 à 1 050 €. L'appartement vaut 5 149 € le m² (3 664 ventes en 2024-2025) et la maison 6 992 € (391 ventes), 36 % de plus. Un appartement de 80 m² au prix médian coûte environ 412 000 €, hors frais ; la maison dépasse 6 900 € le m².",
+      },
+      {
+        heading: "Quel profil de population ?",
+        body: "Le niveau de vie médian est de 24 410 € par unité de consommation (Insee, Filosofi 2021), avec 15 % de pauvreté. La commune a gagné 3,8 % d'habitants depuis 2016. Un tiers des habitants a 60 ans ou plus et moins d'un sur sept a moins de 15 ans : c'est une ville de retraités et d'actifs, où les enfants sont rares.",
+      },
+      {
+        heading: "Que valent les écoles et la sécurité ?",
+        body: "Écoles 5,3 (rang 376, 34 à égalité), Sécurité 5,1 (rang 350, 16 à égalité), Transports 5,2 (rang 358, 11 à égalité), Coût 3,3 (rang 531, 8 à égalité). Parmi ces quatre axes, aucun ne dépasse 5,3 : la ville se choisit pour son cadre et sa côte, pas pour son école.",
+      },
+      {
+        heading: "Quels espaces extérieurs avec des enfants ?",
+        body: "Nature 7,0 (rang 161, 11 à égalité). Selon OpenStreetMap, les jardins d'Eilenroc couvrent 10 hectares, le Fort Carré 6 hectares et le parc des Semboules 5 hectares, avec aire de jeux. La côte compte autant que les parcs : la mer est la vraie cour de récréation.",
+      },
+      {
+        heading: "Antibes face à Vallauris, Cannes et Valbonne",
+        body: "Vallauris, à 6 km, loue le T3 1 330 € et vend à 4 225 € le m², Écoles 6,2. Cannes est à 1 700 € et 5 714 €, Écoles 4,5, Sécurité 4,5. Valbonne est à 1 490 € et 4 495 €, avec Écoles 9,0, Sécurité 7,7 et 29 220 € de niveau de vie. Pour une famille, Valbonne coûte 40 € de loyer de plus qu'Antibes et note l'école 3,7 points plus haut.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Antibes convient aux familles qui travaillent sur la Côte d'Azur, veulent la mer et acceptent un T3 à 1 450 € et un achat à plus de 5 000 € le m². Celles qui visent d'abord l'école iront à Valbonne ; celles qui veulent payer moins cher, à Vallauris, à 120 € de loyer de moins.",
+      },
+    ],
+    relatedCities: ["antibes", "valbonne", "vallauris", "cannes"],
+    relatedGuides: [
+      "10-choses-a-faire-a-antibes-2026",
+      "demenager-a-antibes-2026",
+    ],
+    tags: ["famille Antibes 2026", "vivre en famille Antibes", "loyer T3 Antibes", "écoles Antibes", "Antibes avec enfants"],
+  },
+  {
+    slug: "famille-a-rueil-malmaison-2026",
+    title: "Famille à Rueil-Malmaison en 2026 : Écoles 9,0 au rang 1, un T3 à 1 600 € et 5 478 € le m²",
+    metaTitle: "Famille à Rueil-Malmaison 2026 : Écoles 9,0, T3 1 600 €",
+    metaDesc: "Famille à Rueil-Malmaison : Écoles 9,0 (rang 1), T3 à 1 600 €, appartements à 5 478 €/m², Sécurité 7,2, 19,2 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Rueil-Malmaison note ses Écoles 9,0, au rang 1 sur 593 (13 villes à égalité), pour un T3 à 1 600 € (notre estimation des loyers) et un appartement à 5 478 € le m². La Sécurité y est à 7,2 (rang 116), le Coût à 2,2 (rang 570). Sur 80 842 habitants, 19,2 % ont moins de 15 ans et 8 % vivent sous le seuil de pauvreté.",
+    sections: [
+      {
+        heading: "Quel budget pour se loger à Rueil-Malmaison ?",
+        body: "Le T3 est à 1 600 €, le T2 à 1 150 €. L'appartement vaut 5 478 € le m² (1 352 ventes en 2024-2025) et la maison 7 647 € (413 ventes), 40 % de plus. Un appartement de 80 m² au prix médian coûte environ 438 000 €, hors frais. Le Coût est noté 2,2 : c'est le prix de l'école.",
+      },
+      {
+        heading: "Quel niveau de vie, quel âge moyen ?",
+        body: "Le niveau de vie médian est de 32 980 € par unité de consommation (Insee, Filosofi 2021), avec 8 % de pauvreté. La population a progressé de 3,4 % depuis 2016 ; 19,2 % des habitants ont moins de 15 ans et 21,7 % ont 60 ans ou plus.",
+      },
+      {
+        heading: "Que valent vraiment les écoles et la sécurité ?",
+        body: "Écoles 9,0 (rang 1, 13 à égalité), Sécurité 7,2 (rang 116, 5 à égalité), Transports 7,7 (rang 59, 37 à égalité), Nature 5,7 (rang 262, 58 à égalité). Les voisines sont en dessous sur l'école : Saint-Cloud est à 8,7 et 6,5, Suresnes à 6,6 et 5,2.",
+      },
+      {
+        heading: "Que faire avec des enfants à Rueil-Malmaison ?",
+        body: "Le château de Malmaison, ancienne résidence de l'impératrice Joséphine, est dans la commune, ainsi que le domaine de Bois-Préau, dont le parc couvre 16 hectares selon OpenStreetMap, et la plaine des Closeaux (8 hectares). La gare Rueil-Malmaison est sur le RER A, qui mène à La Défense et à Paris.",
+      },
+      {
+        heading: "Rueil-Malmaison face à Suresnes, Saint-Cloud et Houilles",
+        body: "Suresnes loue le T3 1 680 € et vend à 6 649 € le m² (Écoles 6,6). Saint-Cloud est à 1 980 € et 6 433 € le m², avec Écoles 8,7, Sécurité 6,5 et 39 760 € de niveau de vie. Houilles est à 1 480 € et 4 352 €, Écoles 5,5. Rueil est 380 € sous Saint-Cloud pour 0,3 point d'école de plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Rueil-Malmaison convient aux familles qui placent l'école en premier, travaillent à La Défense ou à Paris et peuvent loger un T3 à 1 600 €. Celles dont le budget plafonne à 1 480 € de loyer iront à Houilles, en acceptant une école à 5,5.",
+      },
+    ],
+    relatedCities: ["rueil-malmaison", "saint-cloud", "suresnes", "houilles", "nanterre"],
+    relatedGuides: [
+      "10-choses-a-faire-a-rueil-malmaison-2026",
+      "demenager-a-rueil-malmaison-2026",
+    ],
+    tags: ["famille Rueil-Malmaison 2026", "vivre en famille Rueil-Malmaison", "loyer T3 Rueil-Malmaison", "écoles Rueil-Malmaison", "Rueil-Malmaison avec enfants"],
+  },
+  {
+    slug: "famille-a-cergy-2026",
+    title: "Famille à Cergy en 2026 : un T3 à 1 150 €, 23,4 % de moins de 15 ans, Transports 8,4 et 3 192 € le m²",
+    metaTitle: "Famille à Cergy 2026 : T3 1 150 €, 3 192 €/m², Écoles 6,6",
+    metaDesc: "Famille à Cergy : T3 à 1 150 €, appartements à 3 192 €/m², Transports 8,4, Écoles 6,6, Sécurité 4,4, 23,4 % de moins de 15 ans.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Cergy est une ville d'enfants : 23,4 % de ses 69 578 habitants ont moins de 15 ans, 12,8 % seulement ont 60 ans ou plus. Le T3 s'y loue 1 150 € (notre estimation des loyers), l'appartement s'y vend 3 192 € le m². Transports 8,4 (rang 28), Écoles 6,6 (rang 105), Sécurité 4,4 (rang 462).",
+    sections: [
+      {
+        heading: "Quel budget logement à Cergy ?",
+        body: "Le T3 est à 1 150 €, le T2 à 880 €. L'appartement vaut 3 192 € le m² (860 ventes en 2024-2025) ; la maison, 2 971 € (220 ventes), 7 % de moins : à Cergy la maison est moins chère au m² que l'appartement. Un appartement de 80 m² au prix médian coûte environ 255 000 €.",
+      },
+      {
+        heading: "Quel niveau de vie, quelle jeunesse ?",
+        body: "Le niveau de vie médian est de 20 270 € par unité de consommation (Insee, Filosofi 2021), avec 23 % de pauvreté. La population a augmenté de 9,0 % depuis 2016. Avec 23,4 % de moins de 15 ans, les écoles et les crèches sont dimensionnées pour de nombreux enfants, mais la demande de places l'est aussi.",
+      },
+      {
+        heading: "Les notes d'école, de sécurité et de transport",
+        body: "Transports 8,4 (rang 28, 14 à égalité), Écoles 6,6 (rang 105, 110 à égalité), Sécurité 4,4 (rang 462, 4 à égalité), Coût 5,9 (rang 257, 33 à égalité), Nature 5,0 (rang 346). La sécurité est le point à examiner quartier par quartier ; les transports sont la force.",
+      },
+      {
+        heading: "Quelles sorties pour les enfants ?",
+        body: "L'île de loisirs de Cergy-Pontoise couvre 51 hectares selon OpenStreetMap. L'Axe Majeur, parcours d'architecture et de paysage de plus de 3 km signé Dani Karavan, mène à l'île de loisirs. Le RER A dessert Cergy-Préfecture et Cergy-Saint-Christophe, et l'île de loisirs s'atteint ensuite en bus.",
+      },
+      {
+        heading: "Cergy face à Pontoise, Conflans et Maisons-Laffitte",
+        body: "Pontoise, à 3 km, loue le T3 1 480 € (330 € de plus) et vend à 2 991 € le m², avec Écoles 5,8. Conflans-Sainte-Honorine est à 1 240 € et 3 106 €, Écoles 5,5, 27 320 € de niveau de vie. Maisons-Laffitte est à 1 400 € et 5 456 €, Écoles 5,5. Cergy a la meilleure note d'école des quatre.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Cergy convient aux familles avec enfants en bas âge qui veulent un T3 à 1 150 €, le RER A et des équipements pour de nombreux enfants. Celles qui placent la sécurité d'abord regarderont Conflans (4,9) ou Maisons-Laffitte (5,1), qui louent le T3 plus cher (1 240 € et 1 400 €).",
+      },
+    ],
+    relatedCities: ["cergy", "pontoise", "conflans-sainte-honorine", "maisons-laffitte"],
+    relatedGuides: [
+      "10-choses-a-faire-a-cergy-2026",
+      "parent-solo-a-cergy-2026",
+    ],
+    tags: ["famille Cergy 2026", "vivre en famille Cergy", "loyer T3 Cergy", "écoles Cergy", "Cergy avec enfants"],
+  },
+  {
+    slug: "famille-a-beziers-2026",
+    title: "Famille à Béziers en 2026 : un T3 à 720 €, 1 667 € le m², mais Écoles 3,6 et 36 % de pauvreté",
+    metaTitle: "Famille à Béziers 2026 : T3 720 €, 1 667 €/m², Écoles 3,6",
+    metaDesc: "Famille à Béziers : T3 à 720 €, appartements à 1 667 €/m², mais Écoles 3,6, Sécurité 3,5 et 36 % de pauvreté. Chiffres et alternatives proches.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Béziers loue un T3 720 € (notre estimation des loyers) et vend l'appartement 1 667 € le m², avec le 3e loyer T3 le plus bas des 96 villes de plus de 60 000 habitants du seed. Le revers : Écoles 3,6 (rang 513 sur 593), Sécurité 3,5 (rang 541), 36 % de pauvreté. Le Coût est noté 6,4 (rang 175). Sur 80 815 habitants, 17,9 % ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Béziers ?",
+        body: "Le T3 est à 720 €, le T2 à 530 €. L'appartement vaut 1 667 € le m² (1 747 ventes en 2024-2025) et la maison 2 239 € (978 ventes), 34 % de plus. Un appartement de 80 m² au prix médian coûte environ 133 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie ?",
+        body: "Le niveau de vie médian est de 16 830 € par unité de consommation (Insee, Filosofi 2021), avec 36 % de pauvreté, le 6e taux le plus élevé des 96 villes de plus de 60 000 habitants du seed. La population a progressé de 5,7 % depuis 2016 ; 29,6 % des habitants ont 60 ans ou plus. Le bas prix du logement reflète ce niveau de vie local.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 3,6 (rang 513, 3 à égalité), Sécurité 3,5 (rang 541, 2 à égalité), Transports 4,9 (rang 369, 58 à égalité), Nature 5,6 (rang 320, 20 à égalité). C'est le dossier à regarder en face : une famille qui s'installe doit étudier la carte scolaire et le quartier avant la visite, y compris le privé sous contrat.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "Le domaine départemental de Bayssan (9 hectares, aire de jeux selon OpenStreetMap) et le parcours sportif Bourbaki (30 hectares) offrent de l'espace. Le canal du Midi et les neuf écluses de Fonséranes sont un but de promenade connu, et les plages de Valras sont accessibles depuis la ville.",
+      },
+      {
+        heading: "Béziers face à Pézenas, Agde et Narbonne",
+        body: "Pézenas, à 21 km, loue le T3 810 € et vend à 2 042 € le m², Écoles 6,6, Sécurité 6,0, 28 % de pauvreté. Agde est à 930 € et 3 669 €, Écoles 5,5. Narbonne est à 920 € et 2 238 €, Écoles 4,5. Pézenas note l'école 3,0 points plus haut que Béziers pour 90 € de loyer de plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Béziers convient aux familles au budget serré qui veulent acheter 80 m² pour 133 000 € environ et peuvent trouver une école de secteur correcte. Celles qui placent l'école et la sécurité d'abord iront à Pézenas, à 21 km, ou à Agde, plus près de la côte.",
+      },
+    ],
+    relatedCities: ["beziers", "pezenas", "agde", "narbonne"],
+    relatedGuides: [
+      "vivre-a-beziers-2026",
+      "10-choses-a-faire-a-beziers-2026",
+      "parent-solo-a-beziers-2026",
+    ],
+    tags: ["famille Béziers 2026", "vivre en famille Béziers", "loyer T3 Béziers", "écoles Béziers", "Béziers avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
