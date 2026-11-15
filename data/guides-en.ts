@@ -37775,6 +37775,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["nanterre","moving to france with children","french school system","ile-de-france"],
   },
   {
+    slug: "family-in-merignac-2026",
+    title: "Family life in Mérignac (2026): a €1,080 T3, €3,439 per m², transport 7.7 and 9.7% more residents",
+    metaTitle: "Family Life in Mérignac 2026: €1,080 T3, €3,439 per m²",
+    metaDesc:
+      "Raising children in Mérignac in 2026: a €1,080 T3, flats at €3,439 per m², schools 5.5, transport 7.7, 16.1% under 15, Bourgailh forest.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Mérignac rents a T3 (two bedrooms and a living room) at €1,080 on our rent estimate, €120 under Bordeaux, and sells a flat at €3,439 per m², €732 under Bordeaux. Transport scores 7.7 (rank 59 of 593), schools 5.5 (rank 271) and safety 4.7 (rank 399). The commune grew 9.7% since 2016 to 77,136 residents, and 16.1% are under 15.",
+    sections: [
+      {
+        heading: "What housing budget does a family need in Mérignac?",
+        body: "The T3 is €1,080 and the T2 €800. A flat is €3,439 per m² (1,320 sales in 2024-2025, national DVF property register) and a house €4,068 (700 sales), 18% more. An 80 m² flat at the median price is about €275,000 before fees. Le Bouscat, just north of Bordeaux, rents a T3 at €1,260 and sells at €3,700 per m².",
+      },
+      {
+        heading: "Incomes and population",
+        body: "Median standard of living is €24,770 per consumption unit (Insee, Filosofi 2021) with 12% poverty, against €24,870 and 17% in Bordeaux: the same income, with poverty five points lower. The population rose 9.7% between 2016 and 2022, and 22.7% of residents are 60 or over.",
+      },
+      {
+        heading: "How do schools, safety and nature score?",
+        body: "Schools 5.5 (rank 271, 105 tied), safety 4.7 (rank 399, 28 tied), nature 4.3 (rank 420, 43 tied), cost 4.0 (rank 488, 8 tied). Schools are 1.9 points under Bordeaux (7.4) and 1.1 under Pessac (6.6): that is the weak spot of the file, to check against the carte scolaire (the catchment map tied to your address) before signing.",
+      },
+      {
+        heading: "Where can children play?",
+        body: "The Bourgailh forest covers 83 hectares according to OpenStreetMap, straddling Mérignac and Pessac. Parc de Bourran (18 hectares, playground) and the Luchey and Vivier parks (9 hectares each) add to it. Nature scores 4.3: the green space exists, but the town stays heavily built up and shaped by the airport.",
+      },
+      {
+        heading: "Mérignac against Pessac and Bordeaux",
+        body: "Pessac has the same €1,080 T3 and sells flats at €3,482 per m², with schools 6.6 and safety 4.9 against 5.5 and 4.7 in Mérignac. Bordeaux is €1,200 and €4,171 per m², schools 7.4, safety 5.1. Mérignac is the cheapest of the three to buy in, with the lowest school mark. On transport, tram line A serves Mérignac Centre and, since April 2023, Bordeaux-Mérignac airport, so a parent can work in Bordeaux without a car.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a €1,080 T3, a direct tram into Bordeaux and a purchase at €3,439 per m². Those who put schools first should look at Pessac, same rent and 1.1 points higher on schools.",
+      },
+    ],
+    relatedCities: ["merignac","pessac","bordeaux","le-bouscat"],
+    tags: ["merignac","moving to france with children","french school system","bordeaux"],
+  },
+  {
+    slug: "family-in-pessac-2026",
+    title: "Family life in Pessac (2026): a €1,080 T3, schools 6.6, €3,482 per m² and a university next door",
+    metaTitle: "Family Life in Pessac 2026: €1,080 T3, €3,482 per m²",
+    metaDesc:
+      "Raising children in Pessac in 2026: a €1,080 T3, flats at €3,482 per m², schools 6.6, transport 7.7, 13% poverty, 15.6% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "In Pessac a T3 (two bedrooms and a living room) rents at €1,080 on our rent estimate and a flat sells at €3,482 per m², against €1,200 and €4,171 in Bordeaux. Schools score 6.6 (rank 105 of 593), transport 7.7 (rank 59) and safety 4.9 (rank 376). The commune has 66,874 residents, 8.1% more than in 2016, and 15.6% are under 15.",
+    sections: [
+      {
+        heading: "What do rent and purchase prices look like in Pessac?",
+        body: "The T3 is €1,080 and the T2 €800. A flat is €3,482 per m² (549 sales in 2024-2025, national DVF property register); a house is €3,839 (749 sales), only 10% more. Pessac sells more houses than flats, which sets it apart from Bordeaux, where flats dominate (6,344 sales against 1,991).",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €25,940 per consumption unit (Insee, Filosofi 2021), with 13% poverty. Talence, 3 km away, is at €24,260 and 17%; Gradignan at €25,980 and 11%. Pessac sits with the residential communes of the south-west of the conurbation rather than with the city centre.",
+      },
+      {
+        heading: "Do schools and safety justify the choice?",
+        body: "Schools 6.6 (rank 105, 110 tied), safety 4.9 (rank 376, 8 tied), nature 5.0 (rank 346, 51 tied), cost 4.0 (rank 488). Schools sit above Mérignac (5.5) but under Talence (7.7): a good mark without being the standout, and safety stays middling. Catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "Which green spaces are there for children?",
+        body: "The Sources du Peugue wood covers 116 hectares according to OpenStreetMap, the Bourgailh forest 83 hectares (shared with Mérignac) and Parc de Cap de Bos 11 hectares, with a playground. The Bordeaux Montaigne university campus is in the commune with its own park, and tram line B links Pessac Centre to Bordeaux, so older children can study locally.",
+      },
+      {
+        heading: "Pessac against Talence and Mérignac",
+        body: "Talence asks €1,150 for a T3 (€70 more), sells at €3,851 per m², with schools 7.7. Mérignac has the same rent, €3,439 per m², schools 5.5. Pessac sits in the middle: 1.1 points under Talence on schools, 1.1 above Mérignac, and a purchase price between the two.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a €1,080 T3, woodland on foot and schools at 6.6 without paying Talence prices. Those chasing the best school sector of the conurbation will go to Talence; those who want the cheapest purchase, to Mérignac.",
+      },
+    ],
+    relatedCities: ["pessac","talence","merignac","bordeaux"],
+    tags: ["pessac","moving to france with children","french school system","bordeaux"],
+  },
+  {
+    slug: "family-in-saint-nazaire-2026",
+    title: "Family life in Saint-Nazaire (2026): a €850 T3, cost 6.3, €2,849 per m² and 30.5% aged 60+",
+    metaTitle: "Family Life in Saint-Nazaire 2026: €850 T3, €2,849 per m²",
+    metaDesc:
+      "Raising children in Saint-Nazaire in 2026: a €850 T3, flats at €2,849 per m², schools 6.6, safety 5.5, cost 6.3, 30.5% aged 60 and over.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Saint-Nazaire rents a T3 (two bedrooms and a living room) at €850 on our rent estimate, €300 under Nantes, and sells a flat at €2,849 per m². Schools score 6.6 (rank 105 of 593), safety 5.5 (rank 275) and cost 6.3 (rank 203). The town has 73,111 residents, 4.9% more than in 2016, but 30.5% are 60 or over and 16.2% under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Saint-Nazaire?",
+        body: "The T3 is €850 and the T2 €640. A flat is €2,849 per m² (1,147 sales in 2024-2025, national DVF property register) and a house €2,936 (895 sales), 3% more: the gap is small. An 80 m² flat at the median price is about €228,000 before fees.",
+      },
+      {
+        heading: "Standard of living and age profile",
+        body: "Median standard of living is €21,900 per consumption unit (Insee, Filosofi 2021), with 17% poverty. Nearly one resident in three is 60 or over (30.5%): local services are built for an older population, and children are a minority (16.2% under 15).",
+      },
+      {
+        heading: "What do schools, safety and nature scores say?",
+        body: "Schools 6.6 (rank 105, 110 tied), safety 5.5 (rank 275, 25 tied), transport 6.2 (rank 248, 33 tied), nature 5.7 (rank 262, 58 tied), cost 6.3 (rank 203, 23 tied). No mark falls under 5.5 on these five axes: the profile has no marked weak point. Catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The former submarine base houses Escal'Atlantic, a recreated transatlantic liner, and the submarine Espadon can be visited afloat; the Écomusée tells the industrial and port history of the town. Parc Paysager (23 hectares according to OpenStreetMap) and the coastal beaches fill out the week. Opening hours and prices change, so check with the tourist office.",
+      },
+      {
+        heading: "Saint-Nazaire against La Baule and Nantes",
+        body: "La Baule, 14 km away, rents a T3 at €1,250 and sells at €6,483 per m², with schools 7.7, safety 7.3 and 8% poverty. Nantes is €1,150 and €3,413 per m², schools 7.9, safety 4.6. Saint-Nazaire is the cheapest of the three to rent and to buy, with 1.3 points less on schools than Nantes.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the sea, a €850 T3 and a purchase at €2,849 per m², and accept a port and industrial town rather than a resort. Those who want safety at 7.3 and schools at 7.7 should look at La Baule, €400 a month more in rent.",
+      },
+    ],
+    relatedCities: ["saint-nazaire","la-baule","nantes"],
+    tags: ["saint-nazaire","moving to france with children","french school system","pays de la loire"],
+  },
+  {
+    slug: "family-in-antibes-2026",
+    title: "Family life in Antibes (2026): a €1,450 T3, €5,149 per m², nature 7.0 and only 13.8% under 15",
+    metaTitle: "Family Life in Antibes 2026: €1,450 T3, €5,149 per m²",
+    metaDesc:
+      "Raising children in Antibes in 2026: a €1,450 T3, flats at €5,149 per m², nature 7.0, schools 5.3, 13.8% under 15, 33.8% aged 60 and over.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Antibes rents a T3 (two bedrooms and a living room) at €1,450 on our rent estimate, €250 under Cannes, and sells a flat at €5,149 per m². Nature scores 7.0 (rank 161 of 593), but schools 5.3 (rank 376), safety 5.1 (rank 350) and cost 3.3 (rank 531). Of 76,612 residents, 13.8% are under 15 and 33.8% are 60 or over.",
+    sections: [
+      {
+        heading: "What housing budget does a family need in Antibes?",
+        body: "The T3 is €1,450 and the T2 €1,050. A flat is €5,149 per m² (3,664 sales in 2024-2025, national DVF property register) and a house €6,992 (391 sales), 36% more. An 80 m² flat at the median price is about €412,000 before fees; houses run past €6,900 per m².",
+      },
+      {
+        heading: "What does the population look like?",
+        body: "Median standard of living is €24,410 per consumption unit (Insee, Filosofi 2021), with 15% poverty. The commune gained 3.8% in residents since 2016. A third of residents are 60 or over and fewer than one in seven is under 15: it is a town of retirees and working adults, where children are scarce.",
+      },
+      {
+        heading: "How good are schools and safety?",
+        body: "Schools 5.3 (rank 376, 34 tied), safety 5.1 (rank 350, 16 tied), transport 5.2 (rank 358, 11 tied), cost 3.3 (rank 531, 8 tied). None of these four axes passes 5.3: the town is chosen for its setting and its coastline, not for its schools. Catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What outdoor space is there with children?",
+        body: "Nature 7.0 (rank 161, 11 tied). According to OpenStreetMap, the Eilenroc gardens cover 10 hectares, Fort Carré 6 hectares and the Semboules park 5 hectares, with a playground. The coast counts as much as the parks: the sea is the real playground.",
+      },
+      {
+        heading: "Antibes against Vallauris, Cannes and Valbonne",
+        body: "Vallauris, 6 km away, rents a T3 at €1,330 and sells at €4,225 per m², schools 6.2. Cannes is €1,700 and €5,714, schools 4.5, safety 4.5. Valbonne is €1,490 and €4,495, with schools 9.0, safety 7.7 and a €29,220 standard of living. For a family, Valbonne costs €40 a month more in rent than Antibes and scores 3.7 points higher on schools.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who work on the Riviera, want the sea and accept a €1,450 T3 and a purchase above €5,000 per m². Those who aim for schools first should go to Valbonne; those who want to pay less, to Vallauris, €120 a month cheaper in rent.",
+      },
+    ],
+    relatedCities: ["antibes","valbonne","vallauris","cannes"],
+    tags: ["antibes","moving to france with children","french school system","french riviera"],
+  },
+  {
+    slug: "family-in-rueil-malmaison-2026",
+    title: "Family life in Rueil-Malmaison (2026): schools 9.0 at rank 1, a €1,600 T3 and €5,478 per m²",
+    metaTitle: "Family Life in Rueil-Malmaison 2026: Schools 9.0, €1,600 T3",
+    metaDesc:
+      "Raising children in Rueil-Malmaison in 2026: schools 9.0 (rank 1), a €1,600 T3, flats at €5,478 per m², safety 7.2, 19.2% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Rueil-Malmaison scores 9.0 on schools, rank 1 of 593 (13 towns tied), for a T3 (two bedrooms and a living room) at €1,600 on our rent estimate and a flat at €5,478 per m². Safety is 7.2 (rank 116), cost 2.2 (rank 570). Of 80,842 residents, 19.2% are under 15 and 8% live below the poverty line.",
+    sections: [
+      {
+        heading: "What does housing cost in Rueil-Malmaison?",
+        body: "The T3 is €1,600 and the T2 €1,150. A flat is €5,478 per m² (1,352 sales in 2024-2025, national DVF property register) and a house €7,647 (413 sales), 40% more. An 80 m² flat at the median price is about €438,000 before fees. Cost scores 2.2: that is the price of the schools.",
+      },
+      {
+        heading: "Incomes and age profile",
+        body: "Median standard of living is €32,980 per consumption unit (Insee, Filosofi 2021), with 8% poverty. The population grew 3.4% since 2016; 19.2% of residents are under 15 and 21.7% are 60 or over.",
+      },
+      {
+        heading: "How good are schools and safety, really?",
+        body: "Schools 9.0 (rank 1, 13 tied), safety 7.2 (rank 116, 5 tied), transport 7.7 (rank 59, 37 tied), nature 5.7 (rank 262, 58 tied). The neighbours are lower on schools: Saint-Cloud is at 8.7 and 6.5, Suresnes at 6.6 and 5.2. The mark is a town average; actual catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The château de Malmaison, former home of Empress Joséphine, is in the commune, along with the Bois-Préau estate, whose park covers 16 hectares according to OpenStreetMap, and the plaine des Closeaux (8 hectares). Rueil-Malmaison station is on RER A (the regional express line), which runs to La Défense and Paris.",
+      },
+      {
+        heading: "Rueil-Malmaison against Suresnes, Saint-Cloud and Houilles",
+        body: "Suresnes rents a T3 at €1,680 and sells at €6,649 per m² (schools 6.6). Saint-Cloud is €1,980 and €6,433 per m², with schools 8.7, safety 6.5 and a €39,760 standard of living. Houilles is €1,480 and €4,352, schools 5.5. Rueil is €380 under Saint-Cloud for 0.3 points more on schools.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who put schools first, work at La Défense or in Paris and can house themselves in a €1,600 T3. Those whose budget tops out at €1,480 in rent should go to Houilles, accepting schools at 5.5.",
+      },
+    ],
+    relatedCities: ["rueil-malmaison","saint-cloud","suresnes","houilles","nanterre"],
+    tags: ["rueil-malmaison","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-cergy-2026",
+    title: "Family life in Cergy (2026): a €1,150 T3, 23.4% under 15, transport 8.4 and €3,192 per m²",
+    metaTitle: "Family Life in Cergy 2026: €1,150 T3, €3,192 per m²",
+    metaDesc:
+      "Raising children in Cergy in 2026: a €1,150 T3, flats at €3,192 per m², transport 8.4, schools 6.6, safety 4.4, 23.4% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Cergy is a town of children: 23.4% of its 69,578 residents are under 15, and only 12.8% are 60 or over. A T3 (two bedrooms and a living room) rents at €1,150 on our rent estimate and a flat sells at €3,192 per m². Transport scores 8.4 (rank 28 of 593), schools 6.6 (rank 105), safety 4.4 (rank 462).",
+    sections: [
+      {
+        heading: "What is the housing budget in Cergy?",
+        body: "The T3 is €1,150 and the T2 €880. A flat is €3,192 per m² (860 sales in 2024-2025, national DVF property register); a house is €2,971 (220 sales), 7% less: in Cergy the house is cheaper per m² than the flat. An 80 m² flat at the median price is about €255,000.",
+      },
+      {
+        heading: "Incomes and a young population",
+        body: "Median standard of living is €20,270 per consumption unit (Insee, Filosofi 2021), with 23% poverty. The population rose 9.0% since 2016. With 23.4% under 15, schools and nurseries are sized for many children, but so is the demand for places.",
+      },
+      {
+        heading: "How do schools, safety and transport score?",
+        body: "Transport 8.4 (rank 28, 14 tied), schools 6.6 (rank 105, 110 tied), safety 4.4 (rank 462, 4 tied), cost 5.9 (rank 257, 33 tied), nature 5.0 (rank 346). Safety is the point to examine district by district; transport is the strength. Catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What can children do?",
+        body: "The Cergy-Pontoise leisure island covers 51 hectares according to OpenStreetMap. The Axe Majeur, an architecture and landscape walk of more than 3 km designed by Dani Karavan, leads to the island. RER A (the regional express line) serves Cergy-Préfecture and Cergy-Saint-Christophe, and the island is reached by bus from there.",
+      },
+      {
+        heading: "Cergy against Pontoise, Conflans and Maisons-Laffitte",
+        body: "Pontoise, 3 km away, rents a T3 at €1,480 (€330 more) and sells at €2,991 per m², schools 5.8. Conflans-Sainte-Honorine is €1,240 and €3,106, schools 5.5, a €27,320 standard of living. Maisons-Laffitte is €1,400 and €5,456, schools 5.5. Cergy has the best school mark of the four.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families with young children who want a €1,150 T3, RER A and facilities sized for many children. Those who put safety first should look at Conflans (4.9) or Maisons-Laffitte (5.1), which rent the T3 higher (€1,240 and €1,400).",
+      },
+    ],
+    relatedCities: ["cergy","pontoise","conflans-sainte-honorine","maisons-laffitte"],
+    tags: ["cergy","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-beziers-2026",
+    title: "Family life in Béziers (2026): a €720 T3, €1,667 per m², but schools 3.6 and 36% poverty",
+    metaTitle: "Family Life in Béziers 2026: €720 T3, €1,667 per m²",
+    metaDesc:
+      "Raising children in Béziers in 2026: a €720 T3, flats at €1,667 per m², but schools 3.6, safety 3.5 and 36% poverty. Figures and nearby options.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Béziers rents a T3 (two bedrooms and a living room) at €720 on our rent estimate and sells a flat at €1,667 per m², the 3rd-lowest T3 rent of the 96 towns over 60,000 residents in our data. The catch: schools 3.6 (rank 513 of 593), safety 3.5 (rank 541) and 36% poverty. Cost scores 6.4 (rank 175). Of 80,815 residents, 17.9% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Béziers?",
+        body: "The T3 is €720 and the T2 €530. A flat is €1,667 per m² (1,747 sales in 2024-2025, national DVF property register) and a house €2,239 (978 sales), 34% more. An 80 m² flat at the median price is about €133,000 before fees.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €16,830 per consumption unit (Insee, Filosofi 2021), with 36% poverty, the 6th-highest rate of the 96 towns over 60,000 residents in our data. The population rose 5.7% since 2016; 29.6% of residents are 60 or over. Cheap housing reflects that local standard of living.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 3.6 (rank 513, 3 tied), safety 3.5 (rank 541, 2 tied), transport 4.9 (rank 369, 58 tied), nature 5.6 (rank 320, 20 tied). This is the file to look at squarely: a family moving in should study the carte scolaire (the catchment map tied to your address) and the district before viewing, private schools under state contract included.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "The Bayssan departmental estate (9 hectares, playground according to OpenStreetMap) and the Bourbaki fitness trail (30 hectares) offer room to run. The Canal du Midi and the nine Fonséranes locks are a well-known walk, and the beaches of Valras can be reached from town.",
+      },
+      {
+        heading: "Béziers against Pézenas, Agde and Narbonne",
+        body: "Pézenas, 21 km away, rents a T3 at €810 and sells at €2,042 per m², schools 6.6, safety 6.0, 28% poverty. Agde is €930 and €3,669, schools 5.5. Narbonne is €920 and €2,238, schools 4.5. Pézenas scores 3.0 points higher on schools than Béziers for €90 a month more in rent.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families on a tight budget who want to buy 80 m² for around €133,000 and can find a decent catchment school. Those who put schools and safety first should go to Pézenas, 21 km away, or Agde, closer to the coast.",
+      },
+    ],
+    relatedCities: ["beziers","pezenas","agde","narbonne"],
+    tags: ["beziers","moving to france with children","french school system","occitanie"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",

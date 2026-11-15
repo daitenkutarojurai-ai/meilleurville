@@ -8097,6 +8097,41 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-merignac-2026",
+      "title": "Family life in Mérignac (2026): a €1,080 T3, €3,439 per m², transport 7.7 and 9.7% more residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-pessac-2026",
+      "title": "Family life in Pessac (2026): a €1,080 T3, schools 6.6, €3,482 per m² and a university next door",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-saint-nazaire-2026",
+      "title": "Family life in Saint-Nazaire (2026): a €850 T3, cost 6.3, €2,849 per m² and 30.5% aged 60+",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-antibes-2026",
+      "title": "Family life in Antibes (2026): a €1,450 T3, €5,149 per m², nature 7.0 and only 13.8% under 15",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-rueil-malmaison-2026",
+      "title": "Family life in Rueil-Malmaison (2026): schools 9.0 at rank 1, a €1,600 T3 and €5,478 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-cergy-2026",
+      "title": "Family life in Cergy (2026): a €1,150 T3, 23.4% under 15, transport 8.4 and €3,192 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-beziers-2026",
+      "title": "Family life in Béziers (2026): a €720 T3, €1,667 per m², but schools 3.6 and 36% poverty",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -11044,6 +11079,11 @@
       "count": 192
     },
     {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 99
+    },
+    {
       "slug": "relocation",
       "label": "relocation",
       "count": 99
@@ -11054,11 +11094,6 @@
       "count": 97
     },
     {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 97
-    },
-    {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
       "count": 95
@@ -11066,7 +11101,7 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 88
+      "count": 89
     },
     {
       "slug": "solo-travel",
@@ -11084,6 +11119,11 @@
       "count": 81
     },
     {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 77
+    },
+    {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 77
@@ -11094,19 +11134,14 @@
       "count": 76
     },
     {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 76
+    },
+    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 70
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 70
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 69
     },
     {
       "slug": "buying-property-france",
@@ -11131,7 +11166,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 58
+      "count": 59
     },
     {
       "slug": "brittany",
@@ -11219,6 +11254,11 @@
       "count": 16
     },
     {
+      "slug": "bordeaux",
+      "label": "bordeaux",
+      "count": 15
+    },
+    {
       "slug": "bretagne",
       "label": "bretagne",
       "count": 15
@@ -11234,18 +11274,13 @@
       "count": 15
     },
     {
-      "slug": "atlantic-coast",
-      "label": "atlantic coast",
-      "count": 13
-    },
-    {
-      "slug": "bordeaux",
-      "label": "bordeaux",
-      "count": 13
-    },
-    {
       "slug": "french-riviera",
       "label": "french riviera",
+      "count": 14
+    },
+    {
+      "slug": "atlantic-coast",
+      "label": "atlantic coast",
       "count": 13
     },
     {
@@ -11659,6 +11694,11 @@
       "count": 3
     },
     {
+      "slug": "antibes",
+      "label": "antibes",
+      "count": 3
+    },
+    {
       "slug": "atlantic-coast-retirement-france",
       "label": "Atlantic coast retirement France",
       "count": 3
@@ -11826,6 +11866,11 @@
     {
       "slug": "retire-in-france",
       "label": "retire in france",
+      "count": 3
+    },
+    {
+      "slug": "rueil-malmaison",
+      "label": "rueil-malmaison",
       "count": 3
     },
     {
