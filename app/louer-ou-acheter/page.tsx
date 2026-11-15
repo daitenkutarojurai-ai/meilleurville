@@ -211,6 +211,16 @@ export default function LouerOuAcheterIndexPage() {
         </p>
 
         <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
+          Le prix de vente lui-même peut tromper : dans certaines communes, le quart le plus cher
+          des appartements se vend près de deux fois plus cher au m² que le quart le moins cher, et
+          une médiane unique n&apos;y décrit aucun achat réel. Le classement des{" "}
+          <Link href="/red-flags/villes-prix-au-m2-trompeur" className="text-[var(--accent)] underline hover:no-underline">
+            villes où le prix au m² affiché ne veut rien dire
+          </Link>
+          {" "}signale celles où il faut raisonner par quartier avant de comparer un loyer à une mensualité.
+        </p>
+
+        <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">
           Le ratio arbitre entre deux façons de se loger, pas entre deux villes : il ignore les
           courses, les transports et les charges, qui pèsent souvent plus lourd que l&apos;écart
           loyer-mensualité. Nos{" "}

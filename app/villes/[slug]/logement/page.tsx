@@ -70,6 +70,12 @@ export default async function LogementPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
 
+  // Même critère que le classement « prix au m² trompeur » : au moins 100 ventes
+  // d'appartement et un quart haut ≥ 1,75 fois le quart bas.
+  const aptStat = cityPropertyPrices(slug)?.apartment;
+  const wideSpread =
+    !!aptStat?.p25M2 && !!aptStat.p75M2 && aptStat.sales >= 100 && aptStat.p75M2 / aptStat.p25M2 >= 1.75;
+
   const h = getHousing(slug);
   const neighborhoods = getNeighborhoods(slug);
   const tension = rentalTension(city);
@@ -218,6 +224,17 @@ export default async function LogementPage({ params }: Props) {
 
           {/* Prix mesurés, par type de bien */}
           <PropertyPriceTable slug={city.slug} name={city.name} />
+          {wideSpread && (
+            <p className="mt-3 text-sm text-[var(--text-secondary)] leading-relaxed">
+              À {city.name}, l&apos;écart entre les ventes les moins chères et les plus chères est
+              large : la médiane ci-dessus ne dit pas à quel prix un bien précis se négocie. Notre
+              classement des{" "}
+              <Link href="/red-flags/villes-prix-au-m2-trompeur" className="text-[var(--accent)] underline hover:no-underline">
+                villes où le prix au m² affiché ne veut rien dire
+              </Link>
+              {" "}explique comment lire ce marché quartier par quartier.
+            </p>
+          )}
           </div>
         </section>
 

@@ -14,6 +14,7 @@ import { getNeighborhoods } from "@/data/neighborhoods";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { cityAlternates } from "@/lib/i18n";
 import { fitTitle } from "@/lib/brand";
+import { cityPropertyPrices } from "@/lib/property-prices";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -79,6 +80,12 @@ export default async function QuartiersPage({ params }: Props) {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) notFound();
   const photo = cityPhoto(city.slug);
+
+  // Même critère que le classement « prix au m² trompeur » : au moins 100 ventes
+  // d'appartement et un quart haut ≥ 1,75 fois le quart bas.
+  const aptStat = cityPropertyPrices(slug)?.apartment;
+  const wideSpread =
+    !!aptStat?.p25M2 && !!aptStat.p75M2 && aptStat.sales >= 100 && aptStat.p75M2 / aptStat.p25M2 >= 1.75;
 
   const neighborhoods = getNeighborhoods(slug);
 
@@ -280,6 +287,17 @@ export default async function QuartiersPage({ params }: Props) {
       {/* Renvois + discussion — bande blanche */}
       <section className="band band-white py-10">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 space-y-8">
+          {wideSpread && (
+            <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
+              À {city.name}, les prix de vente varient fortement d&apos;un côté à l&apos;autre de la
+              ville : c&apos;est le cas typique où le prix au m² communal ne suffit pas. Voir le
+              classement des{" "}
+              <Link href="/red-flags/villes-prix-au-m2-trompeur" className="text-[var(--accent)] underline hover:no-underline">
+                villes où le prix au m² affiché ne veut rien dire
+              </Link>
+              .
+            </p>
+          )}
           <div className="flex gap-3 flex-wrap">
             <Link
               href={`/villes/${slug}`}

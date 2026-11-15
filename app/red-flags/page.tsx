@@ -417,6 +417,16 @@ export default function RedFlagsPage() {
               pleine reconversion ».
             </p>
             <p className="mt-2 text-sm text-[var(--text-secondary)]">
+              Un prix au m² peut aussi être exact et pourtant ne servir à rien : quand
+              une même commune mêle un parc rénové et des copropriétés dégradées, la
+              médiane masque deux marchés. Le classement des{" "}
+              <Link href="/red-flags/villes-prix-au-m2-trompeur" className="text-[var(--accent)] hover:underline">
+                villes où le prix au m² affiché ne veut rien dire
+              </Link>{" "}
+              les repère à partir des prix de vente enregistrés, et rappelle qu&apos;il
+              faut alors budgéter quartier par quartier.
+            </p>
+            <p className="mt-2 text-sm text-[var(--text-secondary)]">
               Le red flag{" "}
               <Link href="/red-flags/villes-desert-medical" className="text-[var(--accent)] hover:underline">
                 désert médical
