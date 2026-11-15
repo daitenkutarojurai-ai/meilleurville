@@ -9992,6 +9992,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-autun-2026",
+      "title": "Single-parent holidays in Autun: the cheapest town of the series, and no direct train",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-pontarlier-2026",
+      "title": "Single-parent holidays in Pontarlier: a mountain town where winter is peak season",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-chinon-2026",
+      "title": "Single-parent holidays in Chinon: a royal fortress, and everything goes through Tours",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-dinan-2026",
+      "title": "Single-parent holidays in Dinan: first for safety, and a steep hill to the port",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-paray-le-monial-2026",
+      "title": "Single-parent holidays in Paray-le-Monial: the lowest price per square metre of the series",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-challans-2026",
+      "title": "Single-parent holidays in Challans: a direct train from Nantes, and the sea elsewhere",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -11054,14 +11084,14 @@
       "count": 81
     },
     {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 77
+    },
+    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
       "count": 76
-    },
-    {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 71
     },
     {
       "slug": "expat-retirement",

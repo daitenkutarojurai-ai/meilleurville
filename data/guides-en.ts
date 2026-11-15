@@ -56424,6 +56424,270 @@ export const EN_GUIDES: EnGuide[] = [
 
 
   {
+    slug: "single-parent-holidays-autun-2026",
+    title: "Single-parent holidays in Autun: the cheapest town of the series, and no direct train",
+    metaTitle: "Single-Parent Holidays in Autun 2026",
+    metaDesc: "Autun scores 7.4/10 on our single-parent index: flat 720 €, Roman remains, parks mapped. Train with a change, costs, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Autun comes out at 7.4/10 on our single-parent composite, joint third of the seventy-seven destinations, tied with one other (source: our trip-fit index). It is the cheapest town of the series on the cost axis, 8.5/10 jointly with Paray-le-Monial, and its reference three-room flat is 720 € against a series median of 910 € (source: our rent estimate). The downside is transport: 4.9/10, seventieth of the seventy-seven. Autun has 13,144 inhabitants at the 2022 census against 14,426 in 2011, a fall of 8.9 % (source: INSEE census). Our engine rates it €. The asset: a budget that holds on one income, and Roman remains within walking distance. The limit: you do not get there without a change.",
+    sections: [
+      {
+        heading: "Reaching Autun by train: no direct service from Paris",
+        body: "Comparison sites checked online before writing show no direct Paris to Autun service: the journey needs a change (Étang-sur-Arroux, Le Creusot or Dijon) and takes in the order of 3 h 25 to 3 h 50 for the best combinations. Autun to Dijon is around 1 h 40 by regional train (TER), Autun to Le Creusot around 45 minutes with a change at Étang. Exact times are checked on SNCF Connect for your date, because durations vary a lot from one train to the next. The transport axis is 4.9/10, far below the series median of 6.4, joint seventieth of the seventy-seven, tied with three others. Once there, the centre is walked on foot; the Morvan hills nearby need a bus or a car."
+      },
+      {
+        heading: "Budget: the cheapest town of the series",
+        body: "On the cost-of-living axis a high score means affordable. Autun comes out at 8.5/10 (source: our city profile), joint first of the seventy-seven, tied with one other, against a series median of 6.3. The market: 720 € for the reference three-room flat, fifth cheapest of the series, and 1,400 € per square metre, second cheapest (source: our rent estimate), against medians of 910 € and 2,400 €. No town of our seed is within 40 kilometres: Beaune, at 42 kilometres, shows a flat at 1,080 € and Chalon-sur-Saône, at 46 kilometres, at 740 €. These are resident benchmarks, not holiday prices: the cost of a room or a gîte is checked with the host."
+      },
+      {
+        heading: "The Roman theatre, the gates and the cathedral",
+        body: "Autun keeps remains of its Gallo-Roman past, among them the Arroux and Saint-André gates and what is left of an ancient theatre: free places to look at, easy to chain on foot with children. The Saint-Lazare cathedral is known for its Romanesque sculpture, attributed to Gislebertus. Museum hours and prices are checked with the tourist office."
+      },
+      {
+        heading: "5 green spaces mapped, 2 with a playground",
+        body: "The mapping survey records 5 green spaces in the commune, 2 of them with a playground (source: OpenStreetMap): the Robert Schuman park and the Marbres promenade. The combined footprint is about 5 hectares. That is little for a town this size: plan rainy afternoons elsewhere. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 6.8/10",
+        body: "Autun shows 8.1/10 on the safety axis (source: our city profile), joint seventh of the seventy-seven, tied with six others, against a series median of 6.1. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 6.8/10, joint twenty-ninth of the seventy-seven, tied with thirteen others, right on the series median (6.8). With 13,144 inhabitants and a population falling since 2011, the town is quiet but its services are concentrated in the centre."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Dijon (Dijon-Longvic), 69 kilometres away (source: Météo-France 1991-2020 normals). It gives 2.7 °C in January and 20.8 °C in July. The commune's own anchors come from our city profile: 2.5 °C in January, 23 °C in July and 1,800 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture local peaks. The engine puts June first, then September, then August."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Saône-et-Loire one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["autun","beaune","chalon-sur-saone"],
+    tags: ["single parent holidays","autun with kids","burgundy train holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-pontarlier-2026",
+    title: "Single-parent holidays in Pontarlier: a mountain town where winter is peak season",
+    metaTitle: "Single-Parent Holidays in Pontarlier 2026",
+    metaDesc: "Pontarlier scores 7.3/10 on our single-parent index: flat 940 €, safety 8.1/10. Train via Frasne, winter crowds, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Pontarlier comes out at 7.3/10 on our single-parent composite, joint fifth of the seventy-seven destinations, tied with five others (source: our trip-fit index). The detail: safety 8.1/10, quality of life 7.8/10, cost of living 6.7/10 and transport 5.6/10 (source: our city profile). The market is tighter than you would expect in the countryside: 940 € for the reference three-room flat, above the series median of 910 €, and 2,400 € per square metre, right on the median (source: our rent estimate). The commune counts 17,928 inhabitants at the 2022 census against 17,998 in 2011 (source: INSEE census). Our engine rates it €€. The asset: a lively mountain town on the Swiss border. The limit: a very busy winter season.",
+    sections: [
+      {
+        heading: "Reaching Pontarlier by train: the change at Frasne",
+        body: "Comparison sites checked online before writing show no direct Paris to Pontarlier train: the high-speed TGV stops at Frasne, from where a short regional train (TER) of about fifteen minutes reaches Pontarlier. Allow around 3 h at best, more on some days, since the Paris to Frasne TGV runs only a few times a day. Exact times are checked on SNCF Connect for your date. The transport axis is 5.6/10, below the series median of 6.4, joint sixty-first of the seventy-seven, tied with four others. Once there, the centre is walked on foot; the mountain sites around need a bus or a car."
+      },
+      {
+        heading: "Budget: dearer than the other country towns",
+        body: "On the cost-of-living axis a high score means affordable. Pontarlier comes out at 6.7/10 (source: our city profile), joint twenty-third of the seventy-seven, tied with nine others, against a series median of 6.3. The market: 940 € for the reference three-room flat and 2,400 € per square metre (source: our rent estimate), against series medians of 910 € and 2,400 €. At 45 kilometres, Besançon shows a flat at 900 €; at 66 kilometres, Lons-le-Saunier at 820 €. These are resident benchmarks, not holiday prices: a let varies sharply between the winter peak and the rest of the year."
+      },
+      {
+        heading: "The Haut-Doubs: forests, absinthe and cross-country skiing",
+        body: "Pontarlier is visited as a gateway to the Haut-Doubs: the town has a history tied to absinthe, a monumental gate (the Saint-Pierre gate) and fir forests at its edge. Cross-country skiing and winter walking are the headline activities, and several mountain sites, among them the Fort de Joux in the neighbouring commune of La Cluse-et-Mijoux, need transport. Hours and prices are checked with the tourist office."
+      },
+      {
+        heading: "8 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 8 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap): the Ouillons park, the Grand Cours and the Clemenceau square. The combined footprint is about 7 hectares, more than 4 of them for the Ouillons park alone. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 7.8/10",
+        body: "Pontarlier shows 8.1/10 on the safety axis (source: our city profile), joint seventh of the seventy-seven, tied with six others, against a series median of 6.1. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 7.8/10, joint eighth of the seventy-seven, tied with ten others, above the series median (6.8). With 17,928 inhabitants, the town offers mid-sized shops and services, which matters when a single adult handles the shopping, the childcare and the journeys."
+      },
+      {
+        heading: "When to go: here winter is the peak season",
+        body: "Do not rely on the reference weather station: Dijon (Dijon-Longvic) is 104 kilometres away on a much lower site (source: Météo-France 1991-2020 normals), so it is poorly representative. The commune's own anchors come from our city profile: −0.5 °C in January, 20.5 °C in July, 837 metres of altitude and 1,700 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 5 in January, February, July, August and December; level 4 in June and September; level 3 the rest of the year (source: our seasons calendar). It is a generic regional indicator. The engine puts June first, then September, then July: these are the easiest months, off the peak."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Doubs one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["pontarlier","besancon"],
+    tags: ["single parent holidays","pontarlier with kids","jura mountains with children"]
+  },
+  {
+    slug: "single-parent-holidays-chinon-2026",
+    title: "Single-parent holidays in Chinon: a royal fortress, and everything goes through Tours",
+    metaTitle: "Single-Parent Holidays in Chinon 2026",
+    metaDesc: "Chinon scores 7.2/10 on our single-parent index: flat 820 €, safety 8.1/10. Regional train via Tours, fortress, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Chinon comes out at 7.2/10 on our single-parent composite, joint eleventh of the seventy-seven destinations, tied with five others (source: our trip-fit index). The detail: safety 8.1/10, quality of life 7.8/10, cost of living 7.6/10, sixth of the series, and transport 4.2/10, seventy-fourth (source: our city profile). The market: 820 € for the reference three-room flat and 2,000 € per square metre (source: our rent estimate), against series medians of 910 € and 2,400 €. The commune counts 8,121 inhabitants at the 2022 census against 7,911 in 2011, a rise of 2.7 % (source: INSEE census). Our engine rates it €€. The asset: a royal fortress and an old town on a child's scale. The limit: everything goes through Tours.",
+    sections: [
+      {
+        heading: "Reaching Chinon by train: everything goes through Tours",
+        body: "Comparison sites checked online before writing show that Tours to Chinon is a regional train (TER) taking 47 minutes to 1 hour depending on the train, about six times a day. Paris to Chinon needs a change at Tours, around 2 h 30 at best. Exact times are checked on SNCF Connect for your date, and the number of weekend departures is worth checking. The transport axis is 4.2/10, far below the series median of 6.4, joint seventy-fourth of the seventy-seven, tied with two others: it is the lowest level of the series, shared with three others. Once there, the old town is walked on foot; the nearby châteaux need a bus or a car."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Chinon comes out at 7.6/10 (source: our city profile), joint sixth of the seventy-seven, tied with eight others, against a series median of 6.3. The market: 820 € for the reference three-room flat and 2,000 € per square metre. At 26 kilometres, Saumur, already in the series, shows a flat at 800 €; at 38 kilometres, Joué-lès-Tours at 860 €. These are resident benchmarks, not holiday prices: the cost of in-season accommodation is checked with the host."
+      },
+      {
+        heading: "The fortress, the old town and the Vienne",
+        body: "Chinon is known for its royal fortress, where Joan of Arc met the future Charles VII in 1429, and for its medieval quarter at the foot of the castle, which is walked on foot. The Vienne embankments and the memory of Rabelais, a native of the area, give the thread of the outings. The vines of the Chinon appellation cover the nearby slopes: something to look at, not to taste, for the children. Castle hours and prices are checked with the tourist office."
+      },
+      {
+        heading: "5 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 5 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap): the English garden, the Denise Durand square and the Tiverton square. The combined footprint is about 3 hectares: small gardens, easy to chain together. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 7.8/10",
+        body: "Chinon shows 8.1/10 on the safety axis (source: our city profile), joint seventh of the seventy-seven, tied with six others, against a series median of 6.1. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 7.8/10, joint eighth of the seventy-seven, tied with ten others, above the series median (6.8). With 8,121 inhabitants, the town is small: services stay concentrated around the centre."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Tours (Tours-Saint-Symphorien), 47 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.1 °C in January and 20.2 °C in July. The commune's own anchors come from our city profile: 4.5 °C in January, 23 °C in July and 1,950 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator. The engine puts June first, then September, then July: the first two avoid the summer peak."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Indre-et-Loire one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["chinon","saumur","joue-les-tours"],
+    tags: ["single parent holidays","chinon with kids","loire valley train holidays"]
+  },
+  {
+    slug: "single-parent-holidays-dinan-2026",
+    title: "Single-parent holidays in Dinan: first for safety, and a steep hill to the port",
+    metaTitle: "Single-Parent Holidays in Dinan 2026",
+    metaDesc: "Dinan scores 7.2/10 on our single-parent index: safety 8.7/10, first of 77, flat 800 €. Train via Rennes, ramparts, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Dinan comes out at 7.2/10 on our single-parent composite, joint eleventh of the seventy-seven destinations, tied with five others (source: our trip-fit index). It takes first place of the series on safety, 8.7/10, alone at that level, ahead of the 8.6 of Paray-le-Monial (source: our city profile). The market: 800 € for the reference three-room flat and 2,300 € per square metre (source: our rent estimate), against series medians of 910 € and 2,400 €. The commune counts 14,966 inhabitants at the 2022 census against 13,935 in 2011, a rise of 7.4 % (source: INSEE census). Our engine rates it €€. The asset: a walled town above the Rance. The limit: transport at 4.2/10 and a steep slope between the upper town and the port.",
+    sections: [
+      {
+        heading: "Reaching Dinan by train: via Rennes",
+        body: "Comparison sites checked online before writing show Paris to Dinan going via Rennes (about 1 h 30 by TGV from Paris-Montparnasse to Rennes) then a regional train (TER) of around an hour to Dinan, hourly at peak times, so about 2 h 50 in total according to the comparison sites. Exact times are checked on SNCF Connect for your date. The transport axis is 4.2/10, far below the series median of 6.4, joint seventy-fourth of the seventy-seven, tied with two others. Once there, the old town is walked on foot; the coast, some twenty kilometres away, is a matter of bus or car."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Dinan comes out at 7.2/10 (source: our city profile), joint fifteenth of the seventy-seven, tied with five others, against a series median of 6.3. The market: 800 € for the reference three-room flat and 2,300 € per square metre. At 20 kilometres, Dinard shows a flat at 1,070 €; at 22 kilometres, Saint-Malo, already in the series, at 1,080 €. In other words the neighbouring coast costs about a third more in rents: these are resident benchmarks, not holiday prices, but the gap says where to stay if the budget is tight."
+      },
+      {
+        heading: "Ramparts, the Jerzual and the port on the Rance",
+        body: "Dinan is known for its ramparts, its Clock Tower and the rue du Jerzual, which drops steeply to the port on the Rance. The descent is picturesque; the climb back with a pushchair or a tired child is real effort, so plan the direction of the day accordingly. The port is visited on foot or by river trip depending on the season. Hours and prices are checked with the tourist office."
+      },
+      {
+        heading: "5 green spaces mapped, 1 with a playground",
+        body: "The mapping survey records 5 green spaces in the commune, 1 of them with a playground (source: OpenStreetMap): the Val Cocherel garden. The rest is medieval gardens, the abbey garden and the English garden, to look at rather than to spend time in with young children. The combined footprint is about 5 hectares. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.7/10, quality of life 7.8/10",
+        body: "Dinan shows 8.7/10 on the safety axis (source: our city profile), first of the seventy-seven, against a series median of 6.1. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 7.8/10, joint eighth of the seventy-seven, tied with ten others, above the series median (6.8). With 14,966 inhabitants, the town offers more services than a mere village."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Rennes (Rennes-Saint-Jacques), 49 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.2 °C in January and 19.2 °C in July. The commune's own anchors come from our city profile: 6.5 °C in January, 20 °C in July and 1,750 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture the local peaks of the neighbouring coast. The engine puts June first, then July, then August."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Côtes-d'Armor one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["dinan","dinard","saint-malo"],
+    tags: ["single parent holidays","dinan with kids","brittany train holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-paray-le-monial-2026",
+    title: "Single-parent holidays in Paray-le-Monial: the lowest price per square metre of the series",
+    metaTitle: "Single-Parent Holidays in Paray-le-Monial 2026",
+    metaDesc: "Paray-le-Monial scores 7.2/10 on our single-parent index: safety 8.6/10, flat 720 €, 1,300 €/m². Train via Montchanin, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Paray-le-Monial comes out at 7.2/10 on our single-parent composite, joint eleventh of the seventy-seven destinations, tied with five others (source: our trip-fit index). It holds two firsts of the series: the lowest price per square metre, 1,300 € against a series median of 2,400 €, and a cost of living at 8.5/10 jointly with Autun (source: our rent estimate, our city profile). The reference three-room flat is 720 €, safety is 8.6/10, second of the series. Quality of life, however, is 6.4/10, forty-eighth, and transport 4.2/10. The commune counts 9,256 inhabitants at the 2022 census against 9,094 in 2011, a rise of 1.8 % (source: INSEE census). Our engine rates it €. The asset: a very low budget and a large park. The limit: a pilgrimage town, quiet and thinly equipped.",
+    sections: [
+      {
+        heading: "Reaching Paray-le-Monial by train: the change at Montchanin",
+        body: "Comparison sites checked online before writing show the best combination from Paris as a TGV to Le Creusot-Montceau-Montchanin then a regional train (TER), around 2 h 30; routes via Dijon rise to 3 h 30 and more. Dijon to Paray-le-Monial is a TER of around 1 h 40 with a change at Montchanin. Exact times are checked on SNCF Connect for your date. The transport axis is 4.2/10, far below the series median of 6.4, joint seventy-fourth of the seventy-seven, tied with two others. Once there, the centre is walked on foot."
+      },
+      {
+        heading: "Budget: the lowest per square metre of the series",
+        body: "On the cost-of-living axis a high score means affordable. Paray-le-Monial comes out at 8.5/10 (source: our city profile), joint first of the seventy-seven with Autun, against a series median of 6.3. The market: 720 € for the reference three-room flat, fifth cheapest of the series, and 1,300 € per square metre, the lowest of the seventy-seven (source: our rent estimate). Roanne, at 47 kilometres, shows a flat at 700 €, Mâcon, at 57 kilometres, at 800 €. These are resident benchmarks, not holiday prices: the cost of accommodation is checked with the host."
+      },
+      {
+        heading: "The Romanesque basilica and the banks of the Bourbince",
+        body: "Paray-le-Monial is a pilgrimage town, known for its Romanesque basilica of the Sacred Heart in the centre and for the banks of the Bourbince, which give a flat walk. Religious tourism sets the rhythm of the town: it brings visitors in fine weather and collective-lodging offers, but activities for children are scarcer than elsewhere. Hours and prices are checked with the tourist office."
+      },
+      {
+        heading: "7 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 7 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap): the Moulin Liron park, the Bourbince riverside garden and the Children's Rights square. The combined footprint is about 21 hectares, nearly 16 of them for the Moulin Liron park alone: it is the largest playground of the six towns of this batch. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.6/10, quality of life 6.4/10",
+        body: "Paray-le-Monial shows 8.6/10 on the safety axis (source: our city profile), joint second of the seventy-seven, tied with one other, against a series median of 6.1. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 6.4/10, forty-eighth of the seventy-seven, below the series median (6.8). With 9,256 inhabitants, the town is small: if you want liveliness, it does not offer much."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Lyon (Lyon-Bron), 103 kilometres away, so not very precise (source: Météo-France 1991-2020 normals). It gives 4.1 °C in January and 22.6 °C in July. The commune's own anchors come from our city profile: 2.5 °C in January, 23 °C in July and 1,900 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture pilgrimage peaks. The engine puts September first, then May, then June."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Saône-et-Loire one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["paray-le-monial","roanne","macon"],
+    tags: ["single parent holidays","paray-le-monial with kids","burgundy budget holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-challans-2026",
+    title: "Single-parent holidays in Challans: a direct train from Nantes, and the sea elsewhere",
+    metaTitle: "Single-Parent Holidays in Challans 2026",
+    metaDesc: "Challans scores 7.0/10 on our single-parent index: flat 860 €, safety 8.3/10. Direct regional train from Nantes, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "Challans comes out at 7.0/10 on our single-parent composite, joint twentieth of the seventy-seven destinations, tied with two others (source: our trip-fit index). The detail: safety 8.3/10, fifth of the series and alone at that level, cost of living 7.2/10, quality of life 6.8/10 and transport 4.9/10 (source: our city profile). The market: 860 € for the reference three-room flat and 2,100 € per square metre (source: our rent estimate), against series medians of 910 € and 2,400 €. It is the fastest-growing commune of this batch: 22,890 inhabitants at the 2022 census against 18,930 in 2011, a rise of 20.9 % (source: INSEE census). Our engine rates it €€. The asset: a direct regional train from Nantes and a large leisure park. The limit: the sea is elsewhere.",
+    sections: [
+      {
+        heading: "Reaching Challans by train: a direct regional train from Nantes",
+        body: "Comparison sites checked online before writing show Challans linked to Nantes by a direct regional train (TER) of about an hour (51 minutes to 1 h 02 depending on the train), a few departures a day; Paris to Challans therefore goes through Nantes. Exact times are checked on SNCF Connect for your date. The station ticket office is open only on certain days, so buy your ticket online or on mobile. The transport axis is 4.9/10, far below the series median of 6.4, joint seventieth of the seventy-seven, tied with three others. Once there, the Vendée coast needs a bus or a car."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Challans comes out at 7.2/10 (source: our city profile), joint fifteenth of the seventy-seven, tied with five others, against a series median of 6.3. The market: 860 € for the reference three-room flat and 2,100 € per square metre. At 33 kilometres, Noirmoutier-en-l'Île shows a flat at 1,100 €; at 40 kilometres, La Roche-sur-Yon, already in the series, at 800 € and Les Sables-d'Olonne, also in the series, at 1,050 €. These are resident benchmarks, not holiday prices: a coastal let, dearer in summer, is checked with the host."
+      },
+      {
+        heading: "Market, duck and the Breton marsh",
+        body: "Challans is known for its market and its duck, and opens onto the Marais breton vendéen, a flat landscape of canals, reached by bike or on a walk. The town itself is a market town more than a destination of monuments: you come for the table and the hinterland, then reach the coast by bus or car. Market hours and outing times are checked with the tourist office."
+      },
+      {
+        heading: "7 green spaces mapped, 1 with a playground",
+        body: "The mapping survey records 7 green spaces in the commune, 1 of them with a playground (source: OpenStreetMap): the Sablière leisure park, which alone exceeds 10 hectares. The combined footprint is about 18 hectares, with the Breuil wood and the Juisière park. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.3/10, quality of life 6.8/10",
+        body: "Challans shows 8.3/10 on the safety axis (source: our city profile), fifth of the seventy-seven, against a series median of 6.1. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 6.8/10, joint twenty-ninth of the seventy-seven, tied with thirteen others, right on the series median. With 22,890 inhabitants, the town is the most populous of this batch and offers more services than its neighbours."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Nantes (Nantes-Bouguenais), 39 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.4 °C in January and 19.7 °C in July. The commune's own anchors come from our city profile: 6 °C in January, 22.5 °C in July and 2,100 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and says nothing about the nearby beaches, far busier in summer. The engine puts June first, then September, then July."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Vendée one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["challans","la-roche-sur-yon","les-sables-d-olonne"],
+    tags: ["single parent holidays","challans with kids","vendee train holidays with children"]
+  },
+  {
     slug: "things-to-do-in-selestat-2026",
     title: "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
     metaTitle: "Things to Do in Sélestat, Alsace (2026)",
