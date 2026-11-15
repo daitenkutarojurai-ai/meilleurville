@@ -10362,6 +10362,46 @@
       "emoji": "🌳"
     },
     {
+      "slug": "things-to-do-in-annemasse-2026",
+      "title": "Things to do in Annemasse: the French side of Geneva, with the Salève above",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "things-to-do-in-saint-louis-haut-rhin-2026",
+      "title": "Things to do in Saint-Louis: the French town against Basel, and the three-country corner",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-courbevoie-2026",
+      "title": "Things to do in Courbevoie: part of La Défense, plus a park and a small museum",
+      "emoji": "🏙️"
+    },
+    {
+      "slug": "things-to-do-in-colombes-2026",
+      "title": "Things to do in Colombes: an Olympic stadium, an island on the Seine, cheaper rents",
+      "emoji": "⚽"
+    },
+    {
+      "slug": "things-to-do-in-asnieres-sur-seine-2026",
+      "title": "Things to do in Asnières-sur-Seine: a pet cemetery, a château and the Seine banks",
+      "emoji": "🐕"
+    },
+    {
+      "slug": "things-to-do-in-evry-courcouronnes-2026",
+      "title": "Things to do in Évry-Courcouronnes: a 1970s new town with a Botta cathedral",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-creteil-2026",
+      "title": "Things to do in Créteil: a lake, an arts centre and the Marne banks",
+      "emoji": "🛶"
+    },
+    {
+      "slug": "things-to-do-in-levallois-perret-2026",
+      "title": "Things to do in Levallois-Perret: Seurat's island and the Seine, next to Paris",
+      "emoji": "🌳"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -10916,12 +10956,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 347
+      "count": 355
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 341
+      "count": 349
     },
     {
       "slug": "moving-to-france",
@@ -10946,7 +10986,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 95
+      "count": 96
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -10954,14 +10994,14 @@
       "count": 95
     },
     {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 92
+    },
+    {
       "slug": "occitanie",
       "label": "occitanie",
       "count": 88
-    },
-    {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 86
     },
     {
       "slug": "solo-travel",
@@ -10976,7 +11016,7 @@
     {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 80
+      "count": 81
     },
     {
       "slug": "hauts-de-france",
