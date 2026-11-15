@@ -8062,6 +8062,41 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-villeurbanne-2026",
+      "title": "Family life in Villeurbanne (2026): a €1,150 T3, €230 under Lyon, with schools 7.7",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-versailles-2026",
+      "title": "Family life in Versailles (2026): schools 9.0 at rank 1, but flats at €6,491 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-boulogne-billancourt-2026",
+      "title": "Family life in Boulogne-Billancourt (2026): schools 8.7, a €2,000 T3 and €8,243 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-dunkerque-2026",
+      "title": "Family life in Dunkerque (2026): a €750 T3, houses cheaper than flats and free buses",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-creteil-2026",
+      "title": "Family life in Créteil (2026): a €1,250 T3, metro line 8 to the lake and €3,495 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-montreuil-2026",
+      "title": "Family life in Montreuil (2026): a €1,400 T3, €5,938 per m² and a €21,150 median income",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-nanterre-2026",
+      "title": "Family life in Nanterre (2026): a €1,400 T3, schools 5.8, €4,996 per m² and 4.1% more residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -10986,17 +11021,17 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 96
+      "count": 97
+    },
+    {
+      "slug": "ile-de-france",
+      "label": "ile de france",
+      "count": 97
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
       "count": 95
-    },
-    {
-      "slug": "ile-de-france",
-      "label": "ile de france",
-      "count": 92
     },
     {
       "slug": "occitanie",
@@ -11021,7 +11056,7 @@
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 75
+      "count": 76
     },
     {
       "slug": "single-parent-holidays",
@@ -11034,19 +11069,19 @@
       "count": 70
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 67
-    },
-    {
       "slug": "french-school-system",
       "label": "french school system",
-      "count": 63
+      "count": 70
     },
     {
       "slug": "moving-to-france-with-children",
       "label": "moving to france with children",
-      "count": 62
+      "count": 69
+    },
+    {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 67
     },
     {
       "slug": "student-housing-france",
@@ -11614,6 +11649,11 @@
       "count": 3
     },
     {
+      "slug": "boulogne-billancourt",
+      "label": "boulogne-billancourt",
+      "count": 3
+    },
+    {
       "slug": "brittany-retirement-expat",
       "label": "Brittany retirement expat",
       "count": 3
@@ -11631,6 +11671,11 @@
     {
       "slug": "cherbourg",
       "label": "cherbourg",
+      "count": 3
+    },
+    {
+      "slug": "creteil",
+      "label": "creteil",
       "count": 3
     },
     {
@@ -11781,6 +11826,11 @@
     {
       "slug": "vendee",
       "label": "vendee",
+      "count": 3
+    },
+    {
+      "slug": "villeurbanne",
+      "label": "villeurbanne",
       "count": 3
     },
     {

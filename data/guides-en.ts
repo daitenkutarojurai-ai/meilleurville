@@ -37481,6 +37481,300 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["belfort","moving to france with children","french school system","bourgogne-franche-comte"],
   },
   {
+    slug: "family-in-villeurbanne-2026",
+    title: "Family life in Villeurbanne (2026): a €1,150 T3, €230 under Lyon, with schools 7.7",
+    metaTitle: "Family Life in Villeurbanne 2026: €1,150 T3, Schools 7.7",
+    metaDesc:
+      "Raising children in Villeurbanne in 2026: a €1,150 T3, flats at €3,554 per m², schools 7.7, transport 9.0, 21% poverty, 16.6% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "A T3 (two bedrooms and a living room) in Villeurbanne rents at €1,150 on our rent estimate, €230 less than in Lyon, and a flat sells at €3,554 per m², 21% under Lyon. Schools score 7.7 (rank 38 of 593) and transport 9.0, joint first. It is the most populous commune in this set: 162,207 residents, 8.8% more than in 2016, and 16.6% of them are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Villeurbanne?",
+        body: "The T3 is €1,150 and the T2 €870. A flat is €3,554 per m² (3,578 sales in 2024-2025, national DVF property register) and a house €4,153 (170 sales), 17% more. An 80 m² family flat therefore costs more than €284,000 at the median price before fees, against more than €358,000 in Lyon.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,540 per consumption unit (Insee, Filosofi 2021), rank 286 of 586, with 21% poverty. Lyon is at €25,430 and 16%; neighbouring Vaulx-en-Velin at €17,180 and 33%. Villeurbanne sits between the two, closer to a mid-sized city than to a wealthy Lyon district.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 7.7 (rank 38, 52 cities tied), transport 9.0 (rank 1, 23 tied), safety 5.7 (rank 241, 31 tied), cost 5.4 (rank 307), nature 4.3 (rank 420, 43 tied). Schools and the transit network carry the town; nature is the weak point, and green space has to be found outside the commune. Catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Gratte-Ciel district, opened in 1934, is the town centre: the Gratte-Ciel station on metro line A drops you right there, and the Théâtre national populaire (TNP) stands on place du Docteur-Lazare-Goujon, at the edge of the district. Metro A links Villeurbanne to central Lyon without a car, which matters for a family that wants only one.",
+      },
+      {
+        heading: "Villeurbanne against Lyon and Vaulx-en-Velin",
+        body: "Lyon rents a T3 at €1,380 with 8.9 on schools; Vaulx-en-Velin at €1,000 with 2.4. Villeurbanne (€1,150; 7.7) is €230 under Lyon for 1.2 points less on schools, and €150 above Vaulx with 5.3 points more. It is the gradient town: Lyon's schooling, minus Lyon's rent, without Vaulx's neighbourhood profile.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who work in Lyon, want schools at 7.7 and the metro at the door, and accept nature at 4.3. Those after a large garden or a purchase under €3,000 per m² will look further out in the metropolitan area.",
+      },
+    ],
+    relatedCities: ["villeurbanne","lyon","vaulx-en-velin","saint-priest"],
+    tags: ["villeurbanne","moving to france with children","french school system","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-versailles-2026",
+    title: "Family life in Versailles (2026): schools 9.0 at rank 1, but flats at €6,491 per m²",
+    metaTitle: "Family Life in Versailles 2026: Schools 9.0, T3 €1,700",
+    metaDesc:
+      "Raising children in Versailles in 2026: a €1,700 T3, flats at €6,491 per m², schools 9.0, safety 6.3, 7% poverty, 18.0% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Versailles scores 9.0 on schools (rank 1 of 593, 13 cities tied) and charges for it: the T3 (two bedrooms and a living room) rents at €1,700 on our rent estimate and a flat sells at €6,491 per m². Median standard of living is €33,780, rank 10 of 586, with 7% poverty. The commune has 83,918 residents, 1.7% fewer than in 2016, and 18.0% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Versailles?",
+        body: "The T3 is €1,700 and the T2 €1,200. A flat is €6,491 per m² (1,603 sales in 2024-2025, national DVF property register) and a house €8,935 (171 sales), 38% more; that last price includes the plot. An 80 m² flat tops €519,000 at the median price before fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €33,780 per consumption unit (Insee, Filosofi 2021), rank 10 of 586, with 7% poverty. Saint-Germain-en-Laye is at €33,250 and 9%. Local income tracks the property market: most families buying here do so on an already high income.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 9.0 (rank 1, 13 tied), transport 8.4 (rank 28, 14 tied), safety 6.3 (rank 177, 12 tied), nature 5.0 (rank 346, 51 tied), cost 2.4 (rank 563, 4 tied). Cost is the only mark that clearly weighs on the town; the rest sits in the upper table.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Potager du Roi, at 10 rue du Maréchal-Joffre, runs visits and activities for families, some from age 3; the programme changes, so check before you go. It is a walk of about ten minutes from Versailles-Château-Rive-Gauche station on RER C. From Paris-Montparnasse, line N runs to Versailles-Chantiers.",
+      },
+      {
+        heading: "Versailles against Saint-Germain-en-Laye and Boulogne",
+        body: "Saint-Germain-en-Laye rents a T3 at €1,600 with 9.0 on schools and sells flats at €6,429 per m²; Boulogne-Billancourt at €2,000 with 8.7 and €8,243. Versailles (€1,700; 9.0; €6,491) matches Saint-Germain on schools and price, and is €300 under Boulogne on rent with a higher school mark.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "High-income families who put schools first and commute to Paris by RER C or train. Those with a tight housing budget will look at a cheaper town with schools at 6 to 7 rather than stretch for 9.0.",
+      },
+    ],
+    relatedCities: ["versailles","saint-germain-en-laye","boulogne-billancourt","paris"],
+    tags: ["versailles","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-boulogne-billancourt-2026",
+    title: "Family life in Boulogne-Billancourt (2026): schools 8.7, a €2,000 T3 and €8,243 per m²",
+    metaTitle: "Family Life in Boulogne-Billancourt 2026: T3 €2,000",
+    metaDesc:
+      "Raising children in Boulogne-Billancourt in 2026: a €2,000 T3, flats at €8,243 per m², schools 8.7, transport 9.0, 9% poverty, 16.1% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Boulogne-Billancourt rents a T3 (two bedrooms and a living room) at €2,000 on our rent estimate and sells a flat at €8,243 per m², for schools at 8.7 (rank 15 of 593) and transport at 9.0. It is the most expensive town in this set, with a cost mark of 2.2 (rank 570). The commune has 120,205 residents, almost flat (+0.5% since 2016), and 16.1% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Boulogne-Billancourt?",
+        body: "The T3 is €2,000 and the T2 €1,400. A flat is €8,243 per m² (2,877 sales in 2024-2025, national DVF property register). A house is €12,621 per m², but on only 67 sales: a thin sample, to read with care. An 80 m² flat tops €659,000 at the median price before fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €35,040 per consumption unit (Insee, Filosofi 2021), rank 7 of 586, with 9% poverty. Paris is at €29,730 and 16%. Income is very high, and it is what makes buying possible: the price per m² assumes a deposit or two strong salaries.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Schools 8.7 (rank 15, 15 tied), transport 9.0 (rank 1), safety 5.7 (rank 241, 31 tied), nature 4.5 (rank 416, 4 tied), cost 2.2 (rank 570, 24 tied). Upper table for schools and transit, middle for safety, and the most expensive of all on cost.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The Albert-Kahn departmental museum, with about 4 hectares of gardens, is near Pont de Saint-Cloud, the terminus of metro line 10; it closes in January and its prices should be checked on the official site. Line 9 serves Marcel-Sembat, Billancourt and Pont de Sèvres. Tram T2 runs along the Seine at Parc de Saint-Cloud.",
+      },
+      {
+        heading: "Boulogne-Billancourt against Issy-les-Moulineaux and Courbevoie",
+        body: "Issy-les-Moulineaux rents a T3 at €1,800 with 9.0 on schools (flats €7,511 per m²); Courbevoie at €1,750 with 8.7 (€6,658). Boulogne (€2,000; 8.7; €8,243) is €200 above Issy for a school mark 0.3 lower, and €250 above Courbevoie for the same mark. Its edge is size and transit, not price.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Very high-income families who want Paris within metro reach and schools at 8.7. Those comparing prices will take Courbevoie, same school mark and €1,585 per m² cheaper to buy, or Issy-les-Moulineaux, better rated.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt","issy-les-moulineaux","courbevoie","paris"],
+    tags: ["boulogne-billancourt","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-dunkerque-2026",
+    title: "Family life in Dunkerque (2026): a €750 T3, houses cheaper than flats and free buses",
+    metaTitle: "Family Life in Dunkerque 2026: €750 T3, Free Buses",
+    metaDesc:
+      "Raising children in Dunkerque in 2026: a €750 T3, flats at €2,227 per m², houses at €2,027, schools 5.8, 22% poverty, population down 1.2%.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Dunkerque rents a T3 (two bedrooms and a living room) at €750 on our rent estimate and sells houses at €2,027 per m², 9% under flats (€2,227). The bus network has been free since 1 September 2018. Schools score 5.8 (rank 249 of 593) and cost 6.4 (rank 175). The commune has 87,013 residents, 1.2% fewer than in 2016, and 16.5% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Dunkerque?",
+        body: "The T3 is €750 and the T2 €560. A flat is €2,227 per m² (847 sales in 2024-2025, national DVF property register) and a house €2,027 (1,182 sales): the house, plot included, costs less per m² than the flat. An 80 m² flat is close to €178,000 at the median price before fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €20,240 per consumption unit (Insee, Filosofi 2021), rank 407 of 586, with 22% poverty. Calais is at €18,090 and 29%; Lille at €20,520 and 27%. Dunkerque has the best poverty rate of the three.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Cost 6.4 (rank 175, 28 tied), schools 5.8 (rank 249, 22 tied), transport 6.1 (rank 281, 20 tied), nature 5.0 (rank 346, 51 tied), safety 4.5 (rank 431, 31 tied). Housing lifts the town; safety is the mark to look at closely, street by street.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "The beach at Malo-les-Bains and its seafront promenade are served by the free bus, lines C4 and C4A ending at Malo-Plage; four stops run along the promenade all year. There is no ticket to validate, so a family without a car reaches the sea at no cost. Timetables are on the DK'Bus app.",
+      },
+      {
+        heading: "Dunkerque against Calais and Lille",
+        body: "Calais rents a T3 at €640 with 4.5 on schools and has lost 9.9% of its residents since 2016; Lille at €1,080 with 7.9 (flats €3,705 per m²). Dunkerque (€750; 5.8; €2,227) is €110 above Calais with 1.3 points more on schools and a near-stable population, and €330 under Lille.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want to buy a house under €2,100 per m², live by the sea and drop the second car thanks to the free bus. Those who put schools above everything will look at Lille, rated 7.9, at the price of a rent €330 higher.",
+      },
+    ],
+    relatedCities: ["dunkerque","calais","lille","valenciennes"],
+    tags: ["dunkerque","moving to france with children","french school system","hauts-de-france"],
+  },
+  {
+    slug: "family-in-creteil-2026",
+    title: "Family life in Créteil (2026): a €1,250 T3, metro line 8 to the lake and €3,495 per m²",
+    metaTitle: "Family Life in Créteil 2026: €1,250 T3, €3,495 per m²",
+    metaDesc:
+      "Raising children in Créteil in 2026: a €1,250 T3, flats at €3,495 per m², schools 5.3, transport 9.0, 21% poverty, 19.7% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Créteil rents a T3 (two bedrooms and a living room) at €1,250 on our rent estimate and sells a flat at €3,495 per m², 59% under Vincennes (€8,547). Transport scores 9.0, joint first, and schools 5.3 (rank 376 of 593). It is a young town: 19.7% of its 92,859 residents are under 15, and the population has grown 3.9% since 2016.",
+    sections: [
+      {
+        heading: "What is the housing budget in Créteil?",
+        body: "The T3 is €1,250 and the T2 €950. A flat is €3,495 per m² (993 sales in 2024-2025, national DVF property register) and a house €5,574 (118 sales), 59% more. An 80 m² flat is close to €280,000 at the median price before fees, less than half the price in Vincennes (€8,547 per m²).",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,270 per consumption unit (Insee, Filosofi 2021), rank 316 of 586, with 21% poverty. Vincennes is at €34,880 and 8%; Vitry-sur-Seine at €19,490 and 26%. Créteil sits halfway, with an income close to that of a large provincial city.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Transport 9.0 (rank 1, 23 tied), schools 5.3 (rank 376, 34 tied), safety 4.1 (rank 488, 14 tied), cost 4.0 (rank 488, 8 tied), nature 3.6 (rank 481, 31 tied). The network is the only upper-table mark; schools and safety are below the median, so check catchments with the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Créteil lake, a former quarry of about forty hectares with a four-kilometre circuit, is part of the leisure island; entry is free, some activities (wave pool, tree-top course, boat hire) are paid, and swimming in the lake is banned by prefectoral order. Pointe du Lac station, the terminus of metro line 8 since 2011, is next to it.",
+      },
+      {
+        heading: "Créteil against Vincennes and Vitry-sur-Seine",
+        body: "Vincennes rents a T3 at €1,800 with 8.7 on schools; Vitry-sur-Seine at €1,300 with 5.5 and flats at €3,842 per m². Créteil (€1,250; 5.3; €3,495) is €550 under Vincennes and €50 under Vitry, with a school mark 3.4 points under Vincennes. Its purchase price is the lowest of the three.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a T3 under €1,300, the metro to Paris and a lake nearby, and who will assess schools one catchment at a time. Those wanting schools at 8 or more will go to Vincennes, more than twice as expensive to buy.",
+      },
+    ],
+    relatedCities: ["creteil","vincennes","vitry-sur-seine","paris"],
+    tags: ["creteil","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-montreuil-2026",
+    title: "Family life in Montreuil (2026): a €1,400 T3, €5,938 per m² and a €21,150 median income",
+    metaTitle: "Family Life in Montreuil 2026: €1,400 T3, €5,938 per m²",
+    metaDesc:
+      "Raising children in Montreuil in 2026: a €1,400 T3, flats at €5,938 per m², schools 5.3, transport 9.0, 25% poverty, 19.4% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Montreuil rents a T3 (two bedrooms and a living room) at €1,400 on our rent estimate and sells a flat at €5,938 per m², 38% under Paris (€9,646). Median standard of living is €21,150 with 25% poverty: the price is that of a Paris-edge commune, the income is not. Transport scores 9.0 and schools 5.3 (rank 376 of 593). The commune has 110,758 residents, 2.2% more than in 2016, and 19.4% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Montreuil?",
+        body: "The T3 is €1,400 and the T2 €1,050. A flat is €5,938 per m² (1,649 sales in 2024-2025, national DVF property register) and a house €6,000 (369 sales): the two prices are almost identical. An 80 m² flat tops €475,000 at the median price before fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,150 per consumption unit (Insee, Filosofi 2021), rank 332 of 586, with 25% poverty. Vincennes, next door, is at €34,880 and 8%; Saint-Denis at €16,470 and 37%. Montreuil is a town of contrasts, with an income close to Vitry-sur-Seine's and a price per m² close to the Paris communes'.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Transport 9.0 (rank 1, 23 tied), schools 5.3 (rank 376, 34 tied), cost 3.8 (rank 498, 8 tied), safety 3.9 (rank 515, 8 tied), nature 2.8 (rank 556, 2 tied). The network is the only strong figure; parks are best found on the city profile, as they do not show up in this mark.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Parc Jean-Moulin-Les Guilands is reached from Mairie de Montreuil, the terminus of metro line 9, by walking up boulevard Rouget-de-Lisle; it continues into the Beaumonts and Montreau parks. The Murs à pêches, the town's old peach-growing walls, open only on certain dates, often Sunday afternoons; line 11 also serves the commune (Montreuil-Hôpital).",
+      },
+      {
+        heading: "Montreuil against Vincennes and Paris",
+        body: "Vincennes rents a T3 at €1,800 with 8.7 on schools and sells flats at €8,547 per m²; Paris at €2,800 with 7.9 and €9,646. Montreuil (€1,400; 5.3; €5,938) is €400 under Vincennes and €1,400 under Paris on rent, with a school mark 3.4 points under Vincennes. The saving is real; the school mark does not follow.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who work in Paris, want the metro at the door and are willing to look at schools one by one. Those who put safety or a very well-rated school first will look at Vincennes, at a rent €400 higher.",
+      },
+    ],
+    relatedCities: ["montreuil","vincennes","paris","saint-denis"],
+    tags: ["montreuil","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-nanterre-2026",
+    title: "Family life in Nanterre (2026): a €1,400 T3, schools 5.8, €4,996 per m² and 4.1% more residents",
+    metaTitle: "Family Life in Nanterre 2026: €1,400 T3, €4,996 per m²",
+    metaDesc:
+      "Raising children in Nanterre in 2026: a €1,400 T3, flats at €4,996 per m², schools 5.8, transport 9.0, 22% poverty, 19.6% under 15.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro:
+      "Nanterre rents a T3 (two bedrooms and a living room) at €1,400 on our rent estimate, €350 under Courbevoie, and sells a flat at €4,996 per m². Transport scores 9.0 (rank 1 of 593), schools 5.8 (rank 249) and safety 4.1 (rank 488). The commune has 98,119 residents, 4.1% more than in 2016, and 19.6% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Nanterre?",
+        body: "The T3 is €1,400 and the T2 €1,050. A flat is €4,996 per m² (654 sales in 2024-2025, national DVF property register) and a house €6,166 (206 sales), 23% more. An 80 m² flat is close to €400,000 at the median price before fees.",
+      },
+      {
+        heading: "Incomes and poverty",
+        body: "Median standard of living is €21,620 per consumption unit (Insee, Filosofi 2021), rank 281 of 586, with 22% poverty. Neighbouring Rueil-Malmaison is at €32,980 and 8%; Courbevoie at €32,080 and 11%. The income gap with the surrounding communes is more than ten thousand euros.",
+      },
+      {
+        heading: "Schools, safety, nature",
+        body: "Transport 9.0 (rank 1, 23 tied), schools 5.8 (rank 249, 22 tied), cost 3.3 (rank 531, 8 tied), safety 4.1 (rank 488, 14 tied), nature 3.1 (rank 522, 2 tied). The network is the town's strength; the nature mark does not capture a large park, covered next. Catchments follow the carte scolaire, the map tied to your address.",
+      },
+      {
+        heading: "What is there to do with children?",
+        body: "Parc André-Malraux, about 25 hectares with a lake, is one of the largest green spaces in the Hauts-de-Seine; Nanterre-Préfecture, on RER A, is the nearest station. Paris Nanterre university has its own station, Nanterre-Université, served by RER A and line L, so a household with students and younger children stays on the same network.",
+      },
+      {
+        heading: "Nanterre against Rueil-Malmaison and Courbevoie",
+        body: "Rueil-Malmaison rents a T3 at €1,600 with 9.0 on schools and 7.2 on safety, flats at €5,478 per m²; Courbevoie at €1,750 with 8.7 and 6.7, at €6,658. Nanterre (€1,400; 5.8; 4.1) is €200 under Rueil and €350 under Courbevoie, with a school mark 3.2 points under Rueil. The purchase gap with Rueil is €482 per m².",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who work at La Défense or in Paris by RER A, want a €1,400 T3 and a large park, and check schools by catchment. Those who put schools and safety first will take Rueil-Malmaison, €200 dearer.",
+      },
+    ],
+    relatedCities: ["nanterre","rueil-malmaison","courbevoie","paris"],
+    tags: ["nanterre","moving to france with children","french school system","ile-de-france"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",
