@@ -1604,3 +1604,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `DepartementMap` (cadre, légende).
 2. Page agenda.
 3. Hub `/comparer` (FR) + `/compare` (EN).
+
+## 2026-11-15 ~16:00 UTC — `DepartementMap` (cadre + légende, FR `/departements` + EN `/departments`)
+
+**Surface** : la carte cliquable des départements (composant partagé FR/EN ; les pages hub étaient déjà en bandes). Avant : `figure` blanche à filet gris, légende **dessinée dans le SVG** (texte réduit à ~3 px sur un téléphone de 390 px), France en gris `--bg-elevated`, petit texte de légende en 10,5 px.
+
+**Changé** : cadre blanc à anneau indigo + ombre colorée ; en-tête `grad-head-5` avec `EmojiBadge` 🗺️ et pilule de comptage translucide ; zone carte sur dégradé indigo → blanc → cyan pâle, France remplie d'un dégradé SVG indigo → rose → cyan (`#dept-map-land`), contour `#A5B4FC` ; bulles à liseré blanc plus épais + ombre portée indigo, traits de décalage IDF en indigo ; légende sortie du SVG en pastilles HTML (point de palier + libellé + seuil « ≥ 7,5 »…, titre « Score moyen du département (10 = meilleur) »), lisible sur mobile. Couleurs de palier inchangées, liens toujours sans JS, liste sr-only conservée.
+
+**Fichiers** : `components/DepartementMap.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` du fichier : 0 problème. Captures playwright `/departements` et `/en/departments` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Page agenda.
+2. Hub `/comparer` (FR) + `/compare` (EN).
+3. `DromStrip` (cartes outre-mer sous les cartes de France).
