@@ -1589,3 +1589,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. EN `/compare/[pair]/synthesis` (miroir quasi exact du FR : même traitement, mêmes constantes `TEXT`/`PILL`/`HEAD`/`LINK_CARD`).
 2. `DepartementMap` (cadre, légende).
 3. Page agenda.
+
+## 2026-11-15 ~11:00 UTC — EN `/compare/[pair]/synthesis` (branches 2 et 3 villes)
+
+**Surface** : jumelle EN des pages synthèse 8 axes. Avant : hero blanc à `Badge`, tout dans un seul bloc en `Card` à filet, cartes score teintées palier, gagnant d'axe en **émeraude**, villes trio en **bleu ciel / violet / orange** (réservés), renvois en `Card` grises, pas de feedback.
+
+**Changé** : même traitement que le FR (mêmes constantes `TEXT`/`PILL`/`HEAD`/`LINK_CARD`) : hero `.bg-aurora` + fil d'Ariane indigo + `EmojiBadge` ✨ + pilule `grad-head-0`, noms en `gradient-text-anim` avec pastilles « vs » ; verdict en `band-indigo` ; tableau en `band-sky` (en-tête `#EEF2FF`, lignes alternées, gagnant en pilule indigo/rose/cyan) ; renvois en `band-lilac` (composant local `GoFurther`) ; `FeedbackWidget locale="en"` en `band-white` (ajouté). Chiffres gardent les couleurs de palier. Copie, données, JSON-LD inchangés.
+
+**Fichiers** : `app/[locale]/compare/[pair]/synthesis/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` du fichier : 0 problème. Captures playwright `/en/compare/annecy-vs-grenoble/synthesis` et `/en/compare/lyon-vs-marseille-vs-toulouse/synthesis` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `DepartementMap` (cadre, légende).
+2. Page agenda.
+3. Hub `/comparer` (FR) + `/compare` (EN).
