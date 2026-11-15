@@ -64955,6 +64955,58 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lille","roubaix","calais","arras","albi","la-baule","les-sables-d-olonne","saint-etienne","toulon","marseille","paris","reims"],
     tags: ["house or apartment","price per m²","DVF","property prices by city","price gap","buying a house in France","city ranking","French property market"],
   },
+  {
+    slug: "buying-barn-to-convert-france-2026",
+    title: "Buying a barn to convert in France 2026: planning, costs, regions",
+    metaTitle: "Buying a barn to convert in France: permit, costs, regions",
+    metaDesc: "Converting a French barn into a home: change-of-use rules, the CUb check, a realistic budget and the pitfalls that sink projects. 2026 guide.",
+    category: "lifestyle",
+    emoji: "🏚️",
+    readMinutes: 8,
+    publishedAt: "2026-11-15",
+    updatedAt: "2026-11-15",
+    intro: "A barn conversion in France is feasible, but only where the local plan allows it, and it is a long, expensive project rather than a bargain. The deciding question is not the price of the barn but whether the building may legally change from agricultural use to housing. Get that answer in writing before you sign anything. After that, plan on a total budget well above the purchase price, 18 to 30 months from offer to moving in, and a cost overrun you should assume rather than hope to avoid.",
+    sections: [
+      {
+        heading: "Can you legally turn a barn into a house in France?",
+        body: "Only if the local land-use plan (PLU, plan local d'urbanisme) lets you. Converting a barn means a change of use (changement de destination) from agricultural building to dwelling, and that is decided by the zoning. In urban and village zones (marked U) it is usually straightforward. In agricultural (A) and natural (N) zones it is the exception: a barn can change use only if the plan has specifically listed it as a building of architectural or heritage interest, and the application then goes through a departmental commission before the mayor decides. A barn you love in a field zoned A, with no listing, is very often a barn you cannot convert, whatever the estate agent says."
+      },
+      {
+        heading: "How do you check before signing?",
+        body: "Ask the town hall (mairie) for the zoning of the plot and whether the building is listed for change of use, then make the purchase conditional on an operational planning certificate (certificat d'urbanisme opérationnel, CUb). A CUb tells you whether this specific project is feasible on this specific plot, and it is binding on the authorities for a limited period. Also ask which services reach the plot: drinking water, electricity, and whether the house would connect to a sewer or need its own septic system. The departmental land authority (DDT) and the architect-adviser of the CAUE, a free public advisory body in most départements, will often talk to you before you have a compromis de vente. Use them."
+      },
+      {
+        heading: "What permit do you need, and when do you need an architect?",
+        body: "A change of use combined with works needs a building permit (permis de construire), which the authorities have two to four months to decide on in most cases, longer if a heritage body or a commission has to give an opinion. Once your permit is displayed on the plot, neighbours have two months to challenge it; ask for a certificate that no appeal was filed before you start spending. You must use a registered architect when the finished dwelling exceeds 150 m² of floor area (surface de plancher), and many people use one below that anyway, because a barn is a structural project, not a decoration job. Architect fees are commonly a percentage of the works, in the high single digits to low teens."
+      },
+      {
+        heading: "What does a barn conversion really cost?",
+        body: "Expect the works to cost more than the barn. As a rough planning range, a 200 m² barn turned into a home of 100 to 150 m² of living space commonly lands between 150,000 and 280,000 euros in works, and 200,000 to 350,000 euros all-in with the purchase and connections. Those are planning figures from French practice, not quotes: they swing with the region, the state of the roof and the standard of finish. The big lines are structure (foundations, floors, new openings), the roof, insulation to modern energy standards, windows, electrics, plumbing and heating, then finishes. Budget a reserve of 30% on top. Overruns of that size are normal on conversions, because you discover the real state of the stone, the timber and the soil only once the work starts."
+      },
+      {
+        heading: "What are the hidden costs people forget?",
+        body: "Four come up again and again. Utility connections: if the nearest mains are hundreds of metres away, trenching and connection fees can run to five figures. Septic: where there is no mains drainage, you need a compliant individual system, inspected by the local service (SPANC), at several thousand euros. Studies: a structural survey, a soil study and an energy study before the permit application are money well spent. And tax: an agricultural building often pays little or no property tax (taxe foncière), but once it is a dwelling it is reassessed. Ask the tax office what the new rateable value is likely to be, because the annual bill can rise considerably. Mandatory insurance is another line: works under a building permit require a construction-damage policy (assurance dommages-ouvrage), which the contractor's ten-year liability cover does not replace."
+      },
+      {
+        heading: "Which regions have barns worth looking at?",
+        body: "Barns exist everywhere there was farming, so the useful question is where the stock, the prices and the planning attitude line up. The south-west (Dordogne, Lot, Lot-et-Garonne) has stone barns and an established foreign-buyer market, so there are English-speaking builders and agents, at the cost of prices that already reflect it. The Massif Central (Aveyron, Cantal, Lozère) is far cheaper but remote, with long drives to services and hard winters. Inland Brittany has long farm buildings at moderate prices and a milder climate. The Cévennes and Ardèche have terraced stone buildings and strict heritage rules. The inland Provence and Luberon market is the most expensive and the most heavily regulated. Treat any price range you read online as a starting point: barn prices vary enormously within one département depending on road access, hamlet versus isolated plot and, above all, planning status."
+      },
+      {
+        heading: "What are the classic mistakes?",
+        body: "Buying first and asking about planning afterwards is the one that ends projects. After that: underestimating the structure (a barn with no foundations, an earth floor or tired roof timbers is a rebuild, not a renovation), ignoring the access road and utilities, planning to live on site in a caravan through a winter of works, and hiring by price rather than by references. Agricultural easements are another trap, such as a neighbour's right of way for machinery, water rights or hunting, so read what the deed (acte) and the land register say. Finally, do not count on subsidies: the main renovation grant, MaPrimeRénov', is aimed at existing homes and its rules and amounts change often, so check eligibility for your case before it appears in your budget."
+      },
+      {
+        heading: "Who is a barn conversion right for?",
+        body: "It suits someone who can take on a project of two to three years, has cash or borrowing capacity beyond the purchase, and either works remotely or has a local activity. It suits a builder or architect who can oversee works, or a retiree with time and capital who plans to stay a long time. It does not suit a first-time buyer without a capital cushion, a family with very young children who would have to live through the works, or anyone who needs a quick, resellable asset: an isolated converted barn can be slow to sell. If your goal is simply a house in the countryside, an existing farmhouse in good condition often costs less in total and takes a fraction of the time."
+      },
+      {
+        heading: "Barn, farmhouse or agricultural shed: what is the difference?",
+        body: "A stone barn is the most sought-after and the most heritage-protected, and the one where change of use is most often tied to a listing in the plan. A full farm complex (house, barn and outbuildings) lets you buy a lived-in home and convert the barn later, which spreads the cost and de-risks the planning question. A modern steel or concrete shed is usually cheaper and easier to get, but is much less charming, and conversion is often refused or costly. Old wine stores (chais) and stables convert too, and are usually less well insulated than a thick-walled barn. Whichever you pick, the order of work is the same: planning status first, structure second, price last."
+      }
+    ],
+    relatedCities: ["cahors","rodez","perigueux","mende","aurillac","quimper","ales","privas","agen","saint-brieuc"],
+    tags: ["barn conversion","buying a barn in France","change of use","building permit","CUb","renovation costs","rural property","French property"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
