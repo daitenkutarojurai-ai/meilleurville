@@ -11640,6 +11640,16 @@
       "slug": "villes-ou-l-emploi-progresse-le-plus-2017-2023-414-villes-2026",
       "title": "Où l'emploi progresse-t-il le plus ? Évolution des emplois de 2017 à 2023 dans 414 villes",
       "emoji": "📈"
+    },
+    {
+      "slug": "ou-etudier-en-france-en-2027-grandes-villes-etudiantes",
+      "title": "Où étudier en France en 2027 ? Les grandes villes étudiantes, score et loyer du studio",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "villes-bord-de-mer-ou-vivre-en-2027",
+      "title": "Vivre en bord de mer en 2027 : les villes du littoral les mieux notées",
+      "emoji": "🌊"
     }
   ],
   "tags": [
@@ -11964,6 +11974,11 @@
       "count": 9
     },
     {
+      "slug": "etudiant",
+      "label": "étudiant",
+      "count": 9
+    },
+    {
       "slug": "famille-monoparentale-bourgogne-franche-comte",
       "label": "famille monoparentale Bourgogne-Franche-Comté",
       "count": 9
@@ -12049,11 +12064,6 @@
       "count": 8
     },
     {
-      "slug": "etudiant",
-      "label": "étudiant",
-      "count": 8
-    },
-    {
       "slug": "le-mans",
       "label": "Le Mans",
       "count": 8
@@ -12111,6 +12121,11 @@
     {
       "slug": "champagne",
       "label": "Champagne",
+      "count": 7
+    },
+    {
+      "slug": "classement-2027",
+      "label": "classement 2027",
       "count": 7
     },
     {
@@ -12254,6 +12269,11 @@
       "count": 6
     },
     {
+      "slug": "ou-vivre",
+      "label": "où vivre",
+      "count": 6
+    },
+    {
       "slug": "perigord",
       "label": "Périgord",
       "count": 6
@@ -12294,13 +12314,13 @@
       "count": 5
     },
     {
-      "slug": "bourgogne",
-      "label": "Bourgogne",
+      "slug": "bord-de-mer",
+      "label": "bord de mer",
       "count": 5
     },
     {
-      "slug": "classement-2027",
-      "label": "classement 2027",
+      "slug": "bourgogne",
+      "label": "Bourgogne",
       "count": 5
     },
     {
@@ -12374,11 +12394,6 @@
       "count": 5
     },
     {
-      "slug": "ou-vivre",
-      "label": "où vivre",
-      "count": 5
-    },
-    {
       "slug": "perigueux",
       "label": "Périgueux",
       "count": 5
@@ -12446,11 +12461,6 @@
     {
       "slug": "apl",
       "label": "APL",
-      "count": 4
-    },
-    {
-      "slug": "bord-de-mer",
-      "label": "bord de mer",
       "count": 4
     },
     {
@@ -12556,6 +12566,11 @@
     {
       "slug": "loyer",
       "label": "loyer",
+      "count": 4
+    },
+    {
+      "slug": "loyers",
+      "label": "loyers",
       "count": 4
     },
     {
@@ -12929,6 +12944,11 @@
       "count": 3
     },
     {
+      "slug": "littoral",
+      "label": "littoral",
+      "count": 3
+    },
+    {
       "slug": "luberon",
       "label": "Luberon",
       "count": 3
@@ -13236,6 +13256,11 @@
     {
       "slug": "startup",
       "label": "startup",
+      "count": 3
+    },
+    {
+      "slug": "studio",
+      "label": "studio",
       "count": 3
     },
     {

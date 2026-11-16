@@ -80947,6 +80947,96 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-emplois-pour-100-actifs-villes-dortoirs-413-villes-2026", "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026", "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
     tags: ["évolution de l'emploi", "emplois par ville", "où l'emploi progresse", "marché du travail", "recensement 2023", "villes dynamiques"],
   },
+  {
+    slug: "ou-etudier-en-france-en-2027-grandes-villes-etudiantes",
+    title: "Où étudier en France en 2027 ? Les grandes villes étudiantes, score et loyer du studio",
+    metaTitle: "Où étudier en 2027 : les grandes villes étudiantes notées",
+    metaDesc:
+      "Score étudiant 2027 des 42 villes de plus de 100 000 habitants : Strasbourg 7,7, Villeurbanne 7,4, Lyon 7,3. Studio dès 420 € à Saint-Étienne et Mulhouse.",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Parmi les 42 villes de plus de 100 000 habitants, Strasbourg obtient le meilleur score étudiant pour 2027 (7,7/10), devant Villeurbanne (7,4) et Lyon (7,3). Le studio coûte 580 € à Strasbourg et 720 € à Lyon, contre 1 200 € à Paris. Les moins chers sont à Saint-Étienne et Mulhouse : 420 €.",
+    sections: [
+      {
+        heading: "Comment est calculé le score étudiant ?",
+        body: "C'est le barème de notre classement Étudiant : la culture compte pour 37,5 %, le coût de la vie pour 31 %, le transport pour 25 % et la nature pour 6 %. Le score ne mesure pas l'offre de formations. C'est pourquoi ce guide se limite aux villes de plus de 100 000 habitants, où se concentre l'essentiel de l'enseignement supérieur : sur l'ensemble des 593 villes, de petites villes comme Laon ou Autun arrivent en tête grâce à leurs loyers et à leur patrimoine, sans offrir le choix de formations d'une métropole.",
+      },
+      {
+        heading: "Quelles grandes villes ont le meilleur score étudiant ?",
+        body: "Strasbourg : 7,7, avec 9,0 en culture comme en transport et un studio à 580 €. Villeurbanne : 7,4, transport à 9,0, studio à 600 €. Lyon : 7,3, culture et transport à 9,0, studio à 720 €. Lille : 7,1, transport à 8,7, studio à 580 €. À 7,0 : Marseille (590 €) et Nantes (600 €). À 6,9 : Rennes (590 €), Bordeaux (650 €) et Grenoble (560 €). Le palier suivant, 6,8, réunit Toulouse, Nancy et Angers (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Dans quelles grandes villes le studio est-il le moins cher ?",
+        body: "Saint-Étienne et Mulhouse : 420 €. Limoges : 440 €. À 470 € : Le Mans, Perpignan et Le Havre. À 480 € : Brest et Clermont-Ferrand. Au total, 14 villes de plus de 100 000 habitants ont un studio à 500 € ou moins.\n\nCôté score étudiant, Mulhouse (6,7) est la mieux placée de ces villes, devant Saint-Étienne et Brest (6,5), Clermont-Ferrand (6,4) et Limoges (6,3).",
+      },
+      {
+        heading: "Les villes chères valent-elles l'écart de loyer ?",
+        body: "Pas d'après le score. Paris est à 6,5 avec un studio à 1 200 € : 620 € de plus par mois qu'à Strasbourg, soit 7 440 € par an, pour une note inférieure. Nice est à 6,0 (780 €), Aix-en-Provence à 6,2 (760 €). Montpellier fait mieux, 6,6 pour 620 €, et Bordeaux 6,9 pour 650 €.\n\nLe choix d'une ville chère se justifie par la formation qu'on y trouve, pas par le cadre de vie étudiant.",
+      },
+      {
+        heading: "Que ne mesure pas ce score ?",
+        body: "Trois choses. La formation elle-même, d'abord : aucune note ne remplace le contenu d'un cursus. La sécurité, ensuite, qui n'entre pas dans le barème : Marseille obtient 7,0 avec une sécurité notée 2,7, Lille 7,1 avec 3,9, Grenoble 6,9 avec 4,3. Enfin la difficulté à trouver un logement à la rentrée : consultez la page Tension locative de la fiche ville. Les résidences universitaires, moins chères, ne sont pas comptées dans nos loyers.",
+      },
+      {
+        heading: "Quelle ville pour quel étudiant ?",
+        body: "Budget minimal : Saint-Étienne, Mulhouse ou Limoges, avec un studio à 440 € ou moins. Équilibre entre score et loyer : Strasbourg, Rennes ou Grenoble, à 590 € ou moins. Grande métropole : Lyon ou Villeurbanne, la seconde étant 120 € moins chère pour le même transport. Sans voiture : Strasbourg, Lyon et Villeurbanne, toutes à 9,0 en transport.",
+      },
+    ],
+    relatedCities: ["strasbourg", "villeurbanne", "lyon", "lille", "nantes", "rennes", "grenoble", "saint-etienne"],
+    relatedGuides: ["meilleures-villes-etudiantes-france-2026", "ou-louer-pas-cher-en-2027-villes-t2-a-moins-de-550-euros", "ou-vivre-en-france-2027-villes-les-mieux-notees"],
+    tags: ["étudiant", "classement 2027", "studio", "loyers", "villes étudiantes"],
+  },
+  {
+    slug: "villes-bord-de-mer-ou-vivre-en-2027",
+    title: "Vivre en bord de mer en 2027 : les villes du littoral les mieux notées",
+    metaTitle: "Vivre en bord de mer en 2027 : les villes les mieux notées",
+    metaDesc:
+      "Score bord de mer 2027 sur 55 villes côtières : Quiberon 8,8, Hossegor 8,7, Saint-Tropez 8,6. Et celles avec un T2 à 700 € ou moins : Royan, Lannion.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Quiberon obtient le meilleur score bord de mer pour 2027 (8,8/10), devant Hossegor (8,7) et Saint-Tropez (8,6). Mais le littoral se paie : le T2 est à 820 € à Quiberon et à 1 800 € à Saint-Tropez. Pour un T2 à 700 € ou moins, Royan (7,8) et Lannion (7,5) sont les mieux placées.",
+    sections: [
+      {
+        heading: "Comment est calculé le score bord de mer ?",
+        body: "Le classement porte sur 55 villes au caractère côtier, dont 16 en Provence-Alpes-Côte d'Azur, 11 en Bretagne et 11 en Nouvelle-Aquitaine. La nature compte pour 35 %, la qualité de vie pour 29 %, la sécurité pour 18 %, la culture pour 12 % et le coût pour 6 %. S'ajoutent 0,4 point au-delà de 2 400 heures de soleil par an, 0,3 pour une station balnéaire ou de surf, 0,2 sous 30 000 habitants.\n\nLe critère est le caractère maritime de la ville, pas une distance mesurée : Challans et Quimper, retenues, sont à environ 14 km du rivage.",
+      },
+      {
+        heading: "Quelles villes du littoral sont les mieux notées en 2027 ?",
+        body: "Quiberon 8,8 ; Hossegor 8,7 ; Saint-Tropez 8,6 ; Carnac 8,5. À 8,4 : Cassis et Sainte-Maxime. La Baule-Escoublac 8,2. À 8,1 : Biscarrosse, Les Sables-d'Olonne, Dinard et Sanary-sur-Mer. Saint-Jean-de-Luz 8,0. La ville suivante est Anglet, à 7,9.\n\nDans un même palier, les villes sont ex æquo. Toutes ces villes comptent moins de 50 000 habitants.",
+      },
+      {
+        heading: "Combien coûte la vie dans ces villes ?",
+        body: "Du simple au double, et bien plus à l'achat. Le T2 est à 780 € à Biscarrosse, 790 € à Carnac, Dinard et aux Sables-d'Olonne, 820 € à Quiberon. Il monte à 990 € à Hossegor, 1 000 € à Saint-Jean-de-Luz, 1 050 € à Sainte-Maxime, 1 200 € à Cassis et 1 800 € à Saint-Tropez.\n\nÀ l'achat : 2 900 € le m² à Biscarrosse, 3 300 € à Carnac, 3 600 € à Quiberon, contre 5 500 € à Hossegor, Sainte-Maxime et Saint-Jean-de-Luz, 7 500 € à Cassis et 12 000 € à Saint-Tropez (source : notre estimation des loyers et des prix).",
+      },
+      {
+        heading: "Où vivre en bord de mer avec un T2 à 700 € ou moins ?",
+        body: "22 des 55 villes ont un T2 à 700 € ou moins. Les mieux notées : Royan (7,8, T2 à 700 €, 2 900 € le m²), Lannion (7,5, 600 €, 2 100 € le m²) et Challans (7,2, 640 €). À 7,1 : Agde (690 €) et Saint-Paul, à La Réunion (700 €). Saint-Pierre, à La Réunion : 6,9 pour 650 €. Douarnenez : 6,7, avec le T2 le moins cher du groupe, 510 €, et 1 600 € le m². Le palier suivant, 6,6, réunit Morlaix et Granville.\n\nÀ noter : Agde n'obtient que 4,5 en sécurité.",
+      },
+      {
+        heading: "Et pour une vraie ville au bord de la mer ?",
+        body: "Parmi les 19 villes côtières de plus de 50 000 habitants : La Rochelle 7,2, avec un T2 à 820 € et 7,0 en transport. Saint-Paul (La Réunion) 7,1 et Saint-Pierre (La Réunion) 6,9. Nice 6,8, pour un T2 à 1 100 €. À 6,7 : Cagnes-sur-Mer (920 €) et Bayonne (900 €). Hyères 6,6. Quimper 6,4, à 700 €. La ville suivante est Brest, à 6,2.",
+      },
+      {
+        heading: "Quelles sont les limites de ce classement ?",
+        body: "Les stations en tête sont enclavées : le transport est noté 2,2 à Saint-Tropez, 3,4 à Quiberon et à Hossegor. Les écoles sont à 5,5 à Saint-Tropez et à Cassis. Et le score ne dit rien de la vie hors saison, quand une partie des commerces ferme, ni des résidences secondaires qui pèsent sur l'offre de logements à l'année.\n\nPour l'érosion et la submersion, consultez la page Risques de la fiche ville avant d'acheter près du rivage.",
+      },
+      {
+        heading: "Quelle ville de bord de mer pour quel projet ?",
+        body: "Budget large, cadre d'abord : Quiberon ou Carnac, à 8,8 en sécurité. Surf et nature avec un prix d'achat encore contenu : Biscarrosse, 2 900 € le m². Budget serré : Lannion ou Douarnenez, à 600 € ou moins. Besoin de services et de trains : La Rochelle. À la retraite : Les Sables-d'Olonne ou Dinard, à 8,0 en sécurité.",
+      },
+    ],
+    relatedCities: ["quiberon", "hossegor", "carnac", "biscarrosse", "les-sables-d-olonne", "dinard", "royan", "la-rochelle"],
+    relatedGuides: ["retraite-bord-de-mer-france-villes-guide-2026", "villes-moyennes-ou-il-fait-bon-vivre-2027", "ou-prendre-sa-retraite-en-france-en-2027"],
+    tags: ["bord de mer", "littoral", "classement 2027", "loyers", "où vivre"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------
