@@ -334,8 +334,8 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
     <section className="band band-sky relative overflow-hidden py-8 sm:py-20">
       {/* Aurora backdrop behind the map */}
       <div className="pointer-events-none absolute inset-0" aria-hidden>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_45%,rgba(16,185,129,0.18),transparent_70%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_30%_at_80%_80%,rgba(245,158,11,0.12),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_45%,rgba(79,70,229,0.14),transparent_70%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_40%_30%_at_80%_80%,rgba(8,145,178,0.12),transparent_70%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_30%_25%_at_15%_20%,rgba(236,72,153,0.10),transparent_70%)]" />
       </div>
 
@@ -462,19 +462,19 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
           {/* Map surface — deep forest gradient with aurora glow + cursor spotlight */}
           <div
             ref={mapRef}
-            className="group relative rounded-3xl border border-[#0F2419]/40 shadow-2xl shadow-[var(--accent)]/20 p-4 sm:p-6 overflow-hidden"
+            className="group relative rounded-3xl border border-[#312E81]/50 shadow-2xl shadow-[var(--accent)]/20 p-4 sm:p-6 overflow-hidden"
             style={{
               ["--mx" as never]: "50%",
               ["--my" as never]: "50%",
               background:
-                "radial-gradient(ellipse 80% 100% at 50% 0%, #1F3A2A 0%, #15301F 55%, #0B1E14 100%)",
+                "radial-gradient(ellipse 80% 100% at 50% 0%, #3B34A8 0%, #251D72 50%, #170F3D 100%)",
             }}
           >
             {/* Aurora glow inside the surface */}
             <div className="pointer-events-none absolute inset-0 rounded-3xl" aria-hidden>
-              <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#22C55E]/25 blur-[120px]" />
-              <div className="absolute top-0 right-0 h-72 w-72 rounded-full bg-[#F59E0B]/15 blur-[100px]" />
-              <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[#84CC16]/15 blur-[100px]" />
+              <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#6366F1]/35 blur-[120px]" />
+              <div className="absolute top-0 right-0 h-72 w-72 rounded-full bg-[#EC4899]/22 blur-[100px]" />
+              <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[#06B6D4]/22 blur-[100px]" />
             </div>
 
             {/* Cursor spotlight */}
@@ -483,7 +483,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               className="pointer-events-none absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
               style={{
                 background:
-                  "radial-gradient(420px circle at var(--mx) var(--my), rgba(132,204,22,0.25), transparent 65%)",
+                  "radial-gradient(420px circle at var(--mx) var(--my), rgba(165,180,252,0.28), transparent 65%)",
               }}
             />
 
@@ -500,14 +500,14 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
             >
               <defs>
                 <radialGradient id="franceFill" cx="50%" cy="40%" r="60%">
-                  <stop offset="0%" stopColor="#34D399" stopOpacity="0.18" />
-                  <stop offset="60%" stopColor="#22C55E" stopOpacity="0.12" />
-                  <stop offset="100%" stopColor="#0F2419" stopOpacity="0.05" />
+                  <stop offset="0%" stopColor="#C7D2FE" stopOpacity="0.22" />
+                  <stop offset="60%" stopColor="#818CF8" stopOpacity="0.16" />
+                  <stop offset="100%" stopColor="#1E1B4B" stopOpacity="0.08" />
                 </radialGradient>
                 <linearGradient id="franceStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#15803D" />
-                  <stop offset="50%" stopColor="#22C55E" />
-                  <stop offset="100%" stopColor="#84CC16" />
+                  <stop offset="0%" stopColor="#818CF8" />
+                  <stop offset="50%" stopColor="#F472B6" />
+                  <stop offset="100%" stopColor="#22D3EE" />
                 </linearGradient>
                 <filter id="dotGlow" x="-150%" y="-150%" width="400%" height="400%">
                   <feGaussianBlur stdDeviation="2.5" result="b" />
@@ -528,28 +528,22 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
                 </filter>
-                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(132,204,22,0.07)" strokeWidth="1" />
-                </pattern>
                 <clipPath id="franceClip">
                   <path d={BORDER_PATH} />
                   <path d={CORSICA_PATH} />
                 </clipPath>
               </defs>
 
-              {/* Grid background */}
-              <rect width={W} height={H} fill="url(#grid)" />
-
               {/* Soft outer glow shadow */}
               <path
                 d={BORDER_PATH}
-                fill="rgba(22,163,74,0.18)"
+                fill="rgba(99,102,241,0.30)"
                 filter="url(#borderGlow)"
                 transform="translate(0 6)"
               />
               <path
                 d={CORSICA_PATH}
-                fill="rgba(22,163,74,0.18)"
+                fill="rgba(99,102,241,0.30)"
                 filter="url(#borderGlow)"
                 transform="translate(0 6)"
               />
@@ -577,7 +571,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               <path
                 d={BORDER_PATH}
                 fill="none"
-                stroke="rgba(132,204,22,0.45)"
+                stroke="rgba(165,180,252,0.50)"
                 strokeWidth="6"
                 strokeLinejoin="round"
                 filter="url(#borderGlow)"
@@ -601,7 +595,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               <path
                 d={CORSICA_PATH}
                 fill="none"
-                stroke="rgba(132,204,22,0.45)"
+                stroke="rgba(165,180,252,0.50)"
                 strokeWidth="6"
                 strokeLinejoin="round"
                 filter="url(#borderGlow)"
@@ -621,7 +615,6 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                   y2={MAP_H}
                   stroke="rgba(229,231,235,0.15)"
                   strokeWidth={1}
-                  strokeDasharray="4 4"
                 />
                 {(() => {
                   const droms = [
@@ -650,7 +643,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                           height={boxH}
                           rx={6}
                           ry={6}
-                          fill="rgba(15,36,25,0.7)"
+                          fill="rgba(23,15,61,0.78)"
                           stroke={color}
                           strokeOpacity={0.8}
                           strokeWidth={1}
@@ -743,10 +736,10 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                 >
                   <circle cx={rg.x} cy={rg.y} r={rg.r * 1.7} fill={rg.color} opacity="0.18" filter="url(#dotGlow)" />
                   <circle cx={rg.x} cy={rg.y} r={rg.r} fill={rg.color} opacity="0.85" stroke="white" strokeWidth="1.5" />
-                  <text x={rg.x} y={rg.y + 4} textAnchor="middle" fontSize="13" fontWeight="800" fill="white" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3, strokeLinejoin: "round" }}>
+                  <text x={rg.x} y={rg.y + 4} textAnchor="middle" fontSize="13" fontWeight="800" fill="white" style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 3, strokeLinejoin: "round" }}>
                     {rg.avg.toFixed(1)}
                   </text>
-                  <text x={rg.x} y={rg.y + rg.r + 13} textAnchor="middle" fontSize="10" fontWeight="700" fill="#E5E7EB" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3.5, strokeLinejoin: "round" }}>
+                  <text x={rg.x} y={rg.y + rg.r + 13} textAnchor="middle" fontSize="10" fontWeight="700" fill="#E5E7EB" style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 3.5, strokeLinejoin: "round" }}>
                     {rg.region}
                   </text>
                 </a>
@@ -768,7 +761,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                   <title>{`${dg.dept} · ${dg.avg.toFixed(1)}/10`}</title>
                   <circle cx={dg.x} cy={dg.y} r={dg.r * 1.5} fill={dg.color} opacity="0.15" filter="url(#dotGlow)" />
                   <circle cx={dg.x} cy={dg.y} r={dg.r} fill={dg.color} opacity="0.85" stroke="white" strokeWidth="1.2" />
-                  <text x={dg.x} y={dg.y + 3} textAnchor="middle" fontSize="9" fontWeight="800" fill="white" style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 2.5, strokeLinejoin: "round" }}>
+                  <text x={dg.x} y={dg.y + 3} textAnchor="middle" fontSize="9" fontWeight="800" fill="white" style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 2.5, strokeLinejoin: "round" }}>
                     {dg.avg.toFixed(1)}
                   </text>
                 </a>

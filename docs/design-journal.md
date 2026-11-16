@@ -1619,3 +1619,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Page agenda.
 2. Hub `/comparer` (FR) + `/compare` (EN).
 3. `DromStrip` (cartes outre-mer sous les cartes de France).
+
+## 2026-11-16 ~03:00 UTC — surface carte de France (`FranceHeatmap` accueil FR/EN + `/carte` `CarteClient`)
+
+**Surface** : les deux cartes de France (accueil FR + EN, `/carte`). Avant : fond **vert forêt** `#0B1E14→#1F3A2A`, halos vert/ambre/lime, France remplie et cerclée de **vert/lime** (réservés aux paliers ; les points « Bon » lime se fondaient dans le remplissage), quadrillage SVG (motif à lignes), séparateur pointillé, contrôles `/carte` en lime.
+
+**Changé** : fond nuit indigo `#3B34A8→#251D72→#170F3D`, halos indigo/rose/cyan, projecteur curseur indigo pâle ; France remplie indigo pâle, contour dégradé indigo → rose → cyan, lueurs indigo ; quadrillage et pointillé supprimés ; cartouches DROM et contours de texte en indigo nuit ; contrôles `/carte` (onglets Villes/Départements/Régions, 2D, pilule de coloriage, légende) en indigo pâle/blanc ; halos de section verts/ambre → indigo/cyan. Couleurs de palier des points et légendes inchangées.
+
+**Fichiers** : `components/FranceHeatmap.tsx`, `app/carte/CarteClient.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 2 fichiers : 1 erreur + 4 avertissements, identiques avant/après. Captures playwright `/` et `/carte` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `DromStrip` (cartes blanches simples sous les deux cartes : bandeau dégradé, pastilles).
+2. Panneau latéral de `FranceHeatmap` (cartes `glass`, podium) et rail Top 10 de `/carte`.
+3. Hero `/carte` (bandeau lilas uni, sans aurore ni emoji).

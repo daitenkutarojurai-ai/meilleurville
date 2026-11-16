@@ -431,19 +431,19 @@ export function CarteClient({
         {/* Map */}
         <div
           ref={mapRef}
-          className="group relative rounded-3xl border border-[#0F2419]/40 shadow-2xl shadow-[var(--accent)]/20 p-4 sm:p-6 overflow-hidden"
+          className="group relative rounded-3xl border border-[#312E81]/50 shadow-2xl shadow-[var(--accent)]/20 p-4 sm:p-6 overflow-hidden"
           style={{
             ["--mx" as never]: "50%",
             ["--my" as never]: "50%",
             background:
-              "radial-gradient(ellipse 80% 100% at 50% 0%, #1F3A2A 0%, #15301F 55%, #0B1E14 100%)",
+              "radial-gradient(ellipse 80% 100% at 50% 0%, #3B34A8 0%, #251D72 50%, #170F3D 100%)",
           }}
         >
           {/* Aurora glow */}
           <div className="pointer-events-none absolute inset-0 rounded-3xl" aria-hidden>
-            <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#22C55E]/25 blur-[120px]" />
-            <div className="absolute top-0 right-0 h-72 w-72 rounded-full bg-[#F59E0B]/15 blur-[100px]" />
-            <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[#84CC16]/15 blur-[100px]" />
+            <div className="absolute -top-32 left-1/4 h-96 w-96 rounded-full bg-[#6366F1]/35 blur-[120px]" />
+            <div className="absolute top-0 right-0 h-72 w-72 rounded-full bg-[#EC4899]/22 blur-[100px]" />
+            <div className="absolute bottom-0 left-0 h-72 w-72 rounded-full bg-[#06B6D4]/22 blur-[100px]" />
           </div>
 
           {/* Cursor spotlight */}
@@ -452,26 +452,26 @@ export function CarteClient({
             className="pointer-events-none absolute inset-0 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"
             style={{
               background:
-                "radial-gradient(420px circle at var(--mx) var(--my), rgba(132,204,22,0.25), transparent 65%)",
+                "radial-gradient(420px circle at var(--mx) var(--my), rgba(165,180,252,0.28), transparent 65%)",
             }}
           />
           <div className="grain rounded-3xl" style={{ opacity: 0.18, mixBlendMode: "overlay" }} />
 
           <div className="relative">
             <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-              <div className="text-[11px] uppercase tracking-widest text-[#84CC16]/80 font-semibold">
+              <div className="text-[11px] uppercase tracking-widest text-[#C7D2FE] font-semibold">
                 {currentLabel} · {view === "regions" ? `${regionAgg.length} régions` : view === "departements" ? `${deptAgg.length} départements` : `${sorted.length} villes`}
               </div>
               <div className="flex flex-wrap items-center gap-2">
                 {/* Villes / Régions layer toggle */}
-                <div className="inline-flex rounded-full border border-[#84CC16]/20 bg-white/5 p-0.5 text-[10px] font-bold uppercase tracking-widest">
+                <div className="inline-flex rounded-full border border-[#A5B4FC]/20 bg-white/5 p-0.5 text-[10px] font-bold uppercase tracking-widest">
                   {(["villes", "departements", "regions"] as const).map((v) => (
                     <button
                       key={v}
                       onClick={() => { setView(v); setHover(null); }}
                       className={
                         "rounded-full px-2.5 py-1 transition-all " +
-                        (view === v ? "bg-[#84CC16]/25 text-[#BEF264]" : "text-[#84CC16]/60 hover:text-[#84CC16]")
+                        (view === v ? "bg-[#A5B4FC]/25 text-white" : "text-[#C7D2FE]/80 hover:text-white")
                       }
                       aria-pressed={view === v}
                     >
@@ -485,8 +485,8 @@ export function CarteClient({
                   className={
                     "rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-widest transition-all border " +
                     (is3D
-                      ? "bg-[#84CC16]/25 text-[#BEF264] border-[#84CC16]/50 ring-1 ring-[#84CC16]/30"
-                      : "bg-white/5 text-[#84CC16]/70 border-[#84CC16]/20 hover:border-[#84CC16]/50")
+                      ? "bg-[#A5B4FC]/25 text-white border-[#A5B4FC]/50 ring-1 ring-[#A5B4FC]/30"
+                      : "bg-white/5 text-[#C7D2FE]/90 border-[#A5B4FC]/20 hover:border-[#A5B4FC]/50")
                   }
                   aria-label="Basculer vue 3D"
                 >
@@ -495,7 +495,7 @@ export function CarteClient({
                 )}
                 <div
                   key={scoreKey}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-[#84CC16]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-[#BEF264] ring-1 ring-[#84CC16]/30"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-[#A5B4FC]/15 px-2.5 py-1 text-[10px] font-bold uppercase tracking-widest text-white ring-1 ring-[#A5B4FC]/30"
                   style={{ animation: "carte-axis-pop 0.45s cubic-bezier(.34,1.56,.64,1) both" }}
                 >
                   {SCORE_OPTIONS.find((o) => o.key === scoreKey)?.emoji}{" "}
@@ -528,14 +528,14 @@ export function CarteClient({
             >
               <defs>
                 <radialGradient id="cFranceFill" cx="50%" cy="40%" r="60%">
-                  <stop offset="0%" stopColor="#34D399" stopOpacity="0.18" />
-                  <stop offset="60%" stopColor="#22C55E" stopOpacity="0.12" />
-                  <stop offset="100%" stopColor="#0F2419" stopOpacity="0.05" />
+                  <stop offset="0%" stopColor="#C7D2FE" stopOpacity="0.22" />
+                  <stop offset="60%" stopColor="#818CF8" stopOpacity="0.16" />
+                  <stop offset="100%" stopColor="#1E1B4B" stopOpacity="0.08" />
                 </radialGradient>
                 <linearGradient id="cFranceStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#15803D" />
-                  <stop offset="50%" stopColor="#22C55E" />
-                  <stop offset="100%" stopColor="#84CC16" />
+                  <stop offset="0%" stopColor="#818CF8" />
+                  <stop offset="50%" stopColor="#F472B6" />
+                  <stop offset="100%" stopColor="#22D3EE" />
                 </linearGradient>
                 <filter id="cDotGlow" x="-150%" y="-150%" width="400%" height="400%">
                   <feGaussianBlur stdDeviation="3" result="b" />
@@ -558,17 +558,11 @@ export function CarteClient({
                     <feMergeNode in="SourceGraphic" />
                   </feMerge>
                 </filter>
-                <pattern id="cGrid" width="40" height="40" patternUnits="userSpaceOnUse">
-                  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(132,204,22,0.07)" strokeWidth="1" />
-                </pattern>
                 <clipPath id="cFranceClip">
                   <path d={BORDER_PATH} />
                   <path d={CORSICA_PATH} />
                 </clipPath>
               </defs>
-
-              {/* Grid */}
-              <rect width={W} height={H} fill="url(#cGrid)" />
 
               {/* Heat layer (top cities for current metric) */}
               {view === "villes" && <CarteHeatLayer cities={heatCities} scoreKey={scoreKey} />}
@@ -591,7 +585,7 @@ export function CarteClient({
               <path
                 d={BORDER_PATH}
                 fill="none"
-                stroke="rgba(132,204,22,0.45)"
+                stroke="rgba(165,180,252,0.50)"
                 strokeWidth="6"
                 strokeLinejoin="round"
                 filter="url(#cBorderGlow)"
@@ -615,7 +609,7 @@ export function CarteClient({
               <path
                 d={CORSICA_PATH}
                 fill="none"
-                stroke="rgba(132,204,22,0.45)"
+                stroke="rgba(165,180,252,0.50)"
                 strokeWidth="6"
                 strokeLinejoin="round"
                 filter="url(#cBorderGlow)"
@@ -663,7 +657,7 @@ export function CarteClient({
                         fontSize="13"
                         fontWeight="800"
                         fill="white"
-                        style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3, strokeLinejoin: "round" }}
+                        style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 3, strokeLinejoin: "round" }}
                       >
                         {rg.avg.toFixed(1)}
                       </text>
@@ -673,8 +667,8 @@ export function CarteClient({
                         textAnchor="middle"
                         fontSize="10"
                         fontWeight="700"
-                        fill="#DCFCE7"
-                        style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 3.5, strokeLinejoin: "round" }}
+                        fill="#E0E7FF"
+                        style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 3.5, strokeLinejoin: "round" }}
                       >
                         {rg.region}
                       </text>
@@ -700,7 +694,7 @@ export function CarteClient({
                         fontSize="9"
                         fontWeight="800"
                         fill="white"
-                        style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 2.5, strokeLinejoin: "round" }}
+                        style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 2.5, strokeLinejoin: "round" }}
                       >
                         {dg.avg.toFixed(1)}
                       </text>
@@ -725,7 +719,7 @@ export function CarteClient({
                     fontSize="13"
                     fontWeight="700"
                     fill="white"
-                    style={{ paintOrder: "stroke", stroke: "#0B1E14", strokeWidth: 4, strokeLinejoin: "round" }}
+                    style={{ paintOrder: "stroke", stroke: "#170F3D", strokeWidth: 4, strokeLinejoin: "round" }}
                   >
                     {hovered.name}
                   </text>
@@ -737,7 +731,7 @@ export function CarteClient({
 
           {/* Legend */}
           <div className="relative mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs">
-            <span className="text-[#A8C4A8]">Score :</span>
+            <span className="text-[#C7D2FE]">Score :</span>
             {[
               { c: "#EF4444", l: "< 4.0" },
               { c: "#F97316", l: "4.0–5.0" },
@@ -748,10 +742,10 @@ export function CarteClient({
             ].map((s) => (
               <span key={s.l} className="flex items-center gap-1.5">
                 <span className="h-2.5 w-2.5 rounded-full" style={{ background: s.c, boxShadow: `0 0 10px ${s.c}` }} />
-                <span className="text-[#C4D5C0] font-mono-data">{s.l}</span>
+                <span className="text-[#E0E7FF] font-mono-data">{s.l}</span>
               </span>
             ))}
-            <span className="ml-auto text-[#A8C4A8]">
+            <span className="ml-auto text-[#C7D2FE]">
               {view === "regions"
                 ? "Vue régions — bulle = score moyen · cliquez pour ouvrir la région"
                 : view === "departements"
