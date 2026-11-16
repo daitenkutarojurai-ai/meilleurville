@@ -80894,6 +80894,59 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-les-plus-agees-de-france-part-des-75-ans-et-plus-2026","villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026","villes-les-plus-jeunes-de-france-part-des-15-29-ans-2026","villes-avec-le-plus-d-enfants-part-des-0-14-ans-2026","meilleures-villes-pour-retraite-france-2025","villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
     tags: ["villes des 60-74 ans","jeunes retraités","part des 60-74 ans","où prendre sa retraite","démographie par ville","recensement 2022"],
   },
+  {
+    slug: "villes-ou-l-emploi-progresse-le-plus-2017-2023-414-villes-2026",
+    title: "Où l'emploi progresse-t-il le plus ? Évolution des emplois de 2017 à 2023 dans 414 villes",
+    metaTitle: "Villes où l'emploi progresse le plus (Insee 2017-2023)",
+    metaDesc: "Issy-les-Moulineaux +36 %, Villeurbanne +21 %, Bordeaux +15 % : l'évolution des emplois sur place de 2017 à 2023 dans 414 villes de 20 000 habitants et plus.",
+    category: "lifestyle",
+    emoji: "📈",
+    readMinutes: 8,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Entre 2017 et 2023, le nombre d'emplois situés dans la commune a progressé de 6,85 % en médiane parmi les 414 villes de 20 000 habitants et plus, un peu au-dessus de la France entière (+6,6 %). Saint-Laurent-du-Maroni (+59,6 %) et Tremblay-en-France (+52,2 %) sont en tête ; parmi les grands pôles d'emploi, Issy-les-Moulineaux progresse de 36,4 % (70 719 emplois), devant Montrouge (+23,0 %) et Villeurbanne (+21,0 %). Quarante-quatre villes en ont perdu, de Chilly-Mazarin (−13,1 %) à Suresnes (−6,5 %). Ce guide classe les villes sur ce seul chiffre, issu des recensements 2017 et 2023 de l'Insee, et dit ce qu'il apprend à qui cherche un emploi, et ce qu'il ne prouve pas.",
+    sections: [
+      {
+        heading: "Que mesure l'évolution des emplois entre 2017 et 2023 ?",
+        body: "Le nombre d'emplois situés dans la commune (lieu de travail), comparé entre les recensements 2017 et 2023 de l'Insee. Un emploi compte dans la ville où l'on travaille, pas dans celle où l'on dort : Courbevoie gagne les bureaux de ses entreprises, pas l'emploi de ses résidents. Nous l'avons calculé sur les 414 communes de 20 000 habitants et plus pour lesquelles les deux recensements existent. Le chiffre décrit le volume d'activité installé dans la commune, pas la facilité à y trouver un poste : une ville peut créer des milliers d'emplois qu'occuperont des navetteurs. Pour cet angle, voir notre guide sur les emplois pour 100 actifs.",
+      },
+      {
+        heading: "Quelles villes ont vu leurs emplois progresser le plus ?",
+        body: "Saint-Laurent-du-Maroni (+59,6 %, 11 089 emplois), Tremblay-en-France (+52,2 %, 33 000 emplois), Roissy-en-Brie (+50,3 %, 7 319), Issy-les-Moulineaux (+36,4 %), Brétigny-sur-Orge (+32,1 %), Champs-sur-Marne (+30,4 %), Couëron (+29,6 %), Romainville (+27,2 %), Saint-Mandé (+24,4 %), Saint-Cyr-l'École (+23,7 %), Montrouge (+23,0 %), Sainte-Marie à La Réunion (+22,9 %), Châtillon (+21,1 %), Villeurbanne (+21,0 %) et Neuilly-sur-Seine (+20,5 %). Quinze villes dépassent 20 %, quarante-deux 15 % ou plus, cent dix-sept 10 % ou plus et deux cent cinquante-huit 5 % ou plus. Attention aux petites bases : Roissy-en-Brie, Saint-Cyr-l'École ou Couëron comptent moins de 8 000 emplois, quelques entreprises installées ou parties y suffisent à faire bouger le pourcentage.",
+      },
+      {
+        heading: "Quelles sont les vraies villes d'emploi qui progressent ?",
+        body: "Celles qui comptent déjà plus de 20 000 emplois et en gagnent beaucoup. Elles sont 180 dans l'échantillon. En tête : Tremblay-en-France (+52,2 %), Issy-les-Moulineaux (+36,4 %), Montrouge (+23,0 %, 33 549 emplois), Villeurbanne (+21,0 %, 69 137), Neuilly-sur-Seine (+20,5 %), Massy (+19,9 %), Mérignac (+19,6 %, 63 949), Carquefou (+18,9 %), Saint-Herblain (+18,7 %, 48 979) et Saint-Paul à La Réunion (+17,6 %). En volume, les plus fortes créations sont à Toulouse (environ +42 700 emplois, soit +13,5 %), Bordeaux (environ +27 800, +15,1 %), Marseille (environ +27 700, +8,1 %), Nantes (environ +24 200, +12,7 %) et Montpellier (environ +22 400, +14,2 %). Lyon suit à environ +20 300 emplois (+6,3 %).",
+      },
+      {
+        heading: "Quelles villes ont perdu des emplois ?",
+        body: "Quarante-quatre villes sur 414, dont huit de plus de 5 %. Chilly-Mazarin (−13,1 %), Bagnolet (−9,2 %), Trappes (−7,3 %), La Garenne-Colombes (−6,6 %), Suresnes (−6,5 %), Saint-Cloud (−6,1 %), Béthune (−5,8 %) et Montigny-lès-Metz (−5,2 %). Viennent ensuite Sotteville-lès-Rouen (−4,8 %), Sèvres (−4,6 %), Bourg-la-Reine (−3,9 %), Douai (−3,7 %), Yerres (−3,4 %) et Belfort (−3,3 %). Parmi les villes de plus de 20 000 emplois, les reculs les plus marqués sont Suresnes (environ −1 900 emplois), Douai (environ −1 000) et Belfort (environ −900). Paris perd 0,4 % de ses emplois, soit environ 7 300 sur 1,81 million : une baisse infime en pourcentage, la plus lourde en volume. Les villes qui perdent des emplois comptent un chômage médian de 12,4 %, contre 13,1 % pour l'ensemble : une perte d'emplois sur place ne dit pas que les habitants sont sans travail, beaucoup travaillent ailleurs.",
+      },
+      {
+        heading: "Les grandes villes créent-elles plus d'emplois ?",
+        body: "Oui, et l'écart est net. La progression médiane est de 6,0 % pour les 135 villes de 20 000 à 30 000 habitants, de 6,9 % pour les 237 villes de 30 000 à 100 000 et de 7,9 % pour les 42 villes de 100 000 et plus. Parmi ces dernières : Villeurbanne (+21,0 %), Saint-Paul (+17,6 %), Aix-en-Provence (+15,8 %), Bordeaux (+15,1 %), Montpellier (+14,2 %), Angers (+13,6 %), Toulouse (+13,5 %), Nantes (+12,7 %), Rennes (+11,9 %) et Montreuil (+11,3 %). Nice est à +9,4 %, Lille à +8,8 %, Marseille à +8,1 %, Strasbourg à +7,8 %, Lyon à +6,3 %. En bas du tableau : Paris (−0,4 %), Mulhouse (+1,2 %), Argenteuil (+1,8 %), Nancy (+2,4 %), Limoges (+2,9 %), Le Havre (+3,1 %), Orléans (+3,5 %) et Saint-Étienne (+3,7 %). Le Grand Ouest et le Sud-Ouest tirent la hausse, les métropoles du Nord-Est et du Centre restent en retrait.",
+      },
+      {
+        heading: "Quelles régions créent le plus d'emplois ?",
+        body: "La Guyane est en tête (+34,2 % en médiane, deux villes), devant La Réunion (+13,9 %, dix villes), les Pays de la Loire (+12,7 %, 19 villes, aucune en recul), la Nouvelle-Aquitaine (+10,7 %, 30 villes), la Bretagne et la Guadeloupe (+9,8 %), la Provence-Alpes-Côte d'Azur (+8,1 %), l'Occitanie (+7,9 %), la Corse (+7,5 %) et l'Auvergne-Rhône-Alpes (+7,2 %). Sous la barre nationale : l'Île-de-France (+6,5 %, 155 villes), les Hauts-de-France (+4,0 %, 29 villes dont six en recul), la Normandie (+3,9 %), la Martinique (+3,8 %), la Bourgogne-Franche-Comté (+3,0 %) et le Grand Est (+2,4 %, 24 villes dont cinq en recul). Hors Île-de-France, la médiane est de 7,1 %. Dans les régions les plus faibles, quelques villes tiennent bon : Cherbourg-en-Cotentin (+12,2 %), Abbeville (+12,4 %) et Schiltigheim (+16,0 %).",
+      },
+      {
+        heading: "L'Île-de-France est-elle gagnante ou perdante ?",
+        body: "Les deux, selon la commune. L'Île-de-France compte 18 des 42 villes à 15 % ou plus, 43 des 117 à 10 % ou plus, et 26 des 44 villes qui ont perdu des emplois. Le gain se concentre sur l'ouest et le sud de la petite couronne (Issy, Montrouge, Châtillon, Neuilly, Courbevoie à +17,2 % avec 114 242 emplois, Puteaux à +16,9 %) et quelques pôles du sud et de l'est (Massy, Brétigny-sur-Orge, Champs-sur-Marne, Tremblay-en-France). Les pertes frappent des communes résidentielles ou industrielles : Chilly-Mazarin, Bagnolet, Trappes, Suresnes, Saint-Cloud. La région pèse une moyenne, pas une tendance : on ne choisit pas « l'Île-de-France », on choisit une commune.",
+      },
+      {
+        heading: "Les villes qui créent des emplois sont-elles chères ?",
+        body: "Un peu plus que la moyenne, mais l'écart est modéré. Dans les 42 villes à 15 % de hausse ou plus, le T3 de référence de notre estimation des loyers est à 1 170 € par mois en médiane et l'achat à 3 850 € le m², contre 1 080 € et 3 200 € pour les 414 villes. Dans les 44 villes en recul : 1 240 € et 3 400 €. Le salaire net mensuel moyen des emplois privés situés dans les villes en forte hausse est de 2 750 € en médiane, contre 2 482 € pour l'ensemble et 2 492 € pour les villes en recul. Le chômage médian des habitants est de 11,1 % dans le premier groupe, 13,1 % pour l'ensemble. Des emplois qui progressent aident, sans garantir un loyer bas.",
+      },
+      {
+        heading: "Que faire de ce classement, et quelles sont ses limites ?",
+        body: "Trois usages. Pour un actif qui cherche un emploi, une ville qui crée des postes est une bonne piste, à condition de regarder aussi le chômage et les salaires locaux (nos guides dédiés). Pour un investisseur, c'est un signal de demande de logements, pas un rendement. Pour un chef d'entreprise, c'est un indice de dynamisme. Limites : le recensement compte des emplois à une date, et un déménagement de siège change tout d'un coup ; les petites communes sont volatiles ; l'évolution porte sur six ans seulement, avec la crise de 2020 au milieu ; et le périmètre communal étroit pénalise une ville collée à ses voisines. Les loyers et prix cités viennent de notre estimation, pas d'annonces. Source : Insee, recensements de la population 2017 et 2023, base tous salariés 2024.",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux", "villeurbanne", "bordeaux", "toulouse", "nantes", "montpellier", "merignac", "saint-herblain", "paris", "belfort"],
+    relatedGuides: ["villes-emplois-pour-100-actifs-villes-dortoirs-413-villes-2026", "villes-chomage-le-plus-bas-et-le-plus-haut-414-villes-2026", "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026", "villes-qui-gagnent-le-plus-d-habitants-2016-2022-413-villes-2026"],
+    tags: ["évolution de l'emploi", "emplois par ville", "où l'emploi progresse", "marché du travail", "recensement 2023", "villes dynamiques"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

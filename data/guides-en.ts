@@ -66163,6 +66163,110 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["lyon","bordeaux","nantes","toulouse","strasbourg"],
     tags: ["cross-dismemberment","usufruct","bare ownership","PACS","unmarried couple","survivor protection","French succession law","French notary"],
   },
+  {
+    slug: "french-cities-with-the-most-60-74-year-olds-413-cities-2026",
+    title: "Where do 60-74 year olds live in France? The share of young retirees in 413 cities",
+    metaTitle: "French cities with the most 60-74 year olds (INSEE 2022)",
+    metaDesc: "Les Sables-d'Olonne 28.5%, Agde 27.3%, Saint-Raphaël 25.9%: 413 French cities of 20,000+ ranked by share of residents aged 60 to 74 (INSEE 2022).",
+    category: "lifestyle",
+    emoji: "🌴",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Among the 413 French municipalities of 20,000 people or more, the median city has 14.5% of residents aged 60 to 74, the age of young retirees. Les Sables-d'Olonne tops the table (28.5%), ahead of Agde (27.3%), Saint-Raphaël (25.9%), Concarneau (24.9%) and Sète (24.4%). Saint-Laurent-du-Maroni closes it at 4.3%, ahead of Melun (9.3%), Cayenne (9.5%) and Lille (9.6%). This guide ranks cities on that one figure, the share of 60-74 year olds in INSEE's 2022 census, and shows where you live among young retirees, where you hardly meet any, and what it costs.",
+    sections: [
+      {
+        heading: "Why look at 60-74 year olds rather than the over-75s?",
+        body: "Because they are two different populations. At 60 to 74, people are usually retired but independent: they move, settle by the sea, look for housing, clubs and leisure. After 75, health and services weigh more. The share of 60-74 year olds therefore measures how attractive a city is to people choosing where to spend their retirement; the share of over-75s measures what the city must provide for those who stayed. We divide the 60-74 year olds counted in INSEE's 2022 census by each city's total population, across the 413 municipalities of 20,000 or more. It describes composition, not quality: a city at 9% is not a failure, it is mostly young.",
+      },
+      {
+        heading: "Which cities have the most 60-74 year olds?",
+        body: "Les Sables-d'Olonne (28.5%), Agde (27.3%), Saint-Raphaël (25.9%), Concarneau (24.9%), Sète (24.4%), Challans and Saint-Malo (24.3%), Six-Fours-les-Plages (23.9%), Bergerac (23.5%), Biarritz (23.4%), Mandelieu-la-Napoule (22.8%), Saintes and Dieppe (22.1%), Rochefort (21.7%), Anglet (21.6%), Vichy and La Ciotat (21.5%), Sarreguemines (21.2%), Hyères (21.1%), Fréjus (21.0%), Villeneuve-sur-Lot (20.9%) and Millau (20.7%). Twenty-seven cities top 20%, forty-five reach 19% or more, seventy-two reach 18% or more and 102 reach 17% or more. The top of the table is almost entirely coastal: the Atlantic, the Channel and the Mediterranean dominate, with a few inland spa or sub-prefecture towns (Vichy, Bergerac, Villeneuve-sur-Lot, Millau).",
+      },
+      {
+        heading: "Where are 60-74 year olds scarcest?",
+        body: "In young, student and dense suburban cities. Outside French Guiana (Saint-Laurent-du-Maroni, 4.3%), the table closes on Melun (9.3%), Cayenne (9.5%), Lille (9.6%), Stains (9.8%), Cergy (9.9%), Fresnes (10.1%), Creil, Corbeil-Essonnes and Saint-Martin-d'Hères (10.2%), Villeneuve-Saint-Georges (10.3%), Saint-Cyr-l'École (10.4%), Trappes, Annemasse, Toulouse and La Courneuve (10.6%). Six cities are at 10% or below, sixty-three at 12% or below, 124 at 13% or below. In the 182 cities at 14% or below, 30-44 year olds make up 21.2% of the population in the median: the dip in 60-74 year olds is the mirror image of working families.",
+      },
+      {
+        heading: "Do big cities have fewer young retirees?",
+        body: "Yes, but the gap is modest. The median is 15.4% for the 141 cities of 20,000 to 30,000 people, 14.2% for the 230 cities of 30,000 to 100,000 and 13.4% for the 42 cities of 100,000 and over. Among the latter, the richest in 60-74 year olds are Toulon (17.3%), Nice (16.9%), Nîmes (16.7%), Limoges (16.6%), Le Havre and Perpignan (16.5%), Le Mans (16.3%), Marseille (15.3%), Metz (15.0%) and Annecy (14.9%). The lowest: Lille (9.6%), Toulouse (10.6%), Villeurbanne (10.7%), Rennes and Saint-Denis (11.0%), Lyon (11.2%), Nantes (11.3%), Grenoble and Rouen (11.4%), Bordeaux (11.6%). Paris is at 14.3%, Strasbourg at 12.1% and Montpellier at 11.7%. University metropolises pull the average down, not size itself.",
+      },
+      {
+        heading: "Which regions have the most young retirees?",
+        body: "The South and the West, unsurprisingly, but with a more nuanced ranking than for the over-75s. Martinique leads (19.0%, three cities), ahead of Provence-Alpes-Côte d'Azur (18.2%, 33 cities), Brittany (17.8%, ten cities), Corsica (17.4%, two cities) and Occitanie (17.2%, 22 cities). Next come Bourgogne-Franche-Comté (16.8%), Nouvelle-Aquitaine (16.6%, 30 cities), Centre-Val de Loire (16.5%), Pays de la Loire and Guadeloupe (16.3%). At the bottom: Auvergne-Rhône-Alpes (14.8%, 40 cities), La Réunion (14.1%, ten cities), Île-de-France (12.7%, 153 cities) and French Guiana (6.9%, two cities). Outside Île-de-France the median rises to 16.4%. Of the top fifty cities, thirteen are in PACA, nine in Nouvelle-Aquitaine, six in Occitanie and four in Brittany.",
+      },
+      {
+        heading: "Are young-retiree cities expensive?",
+        body: "Not so much, except on the Riviera and the Basque coast. In the 27 cities at 20% or more 60-74 year olds, the reference three-room flat in our rent estimate is €920 a month in the median and buying is €2,600 per m², against €1,080 and €3,200 across all 413 cities. In the 45 cities at 19% or more: €870 and €2,300 per m². By contrast, in the 182 cities at 14% or below, the three-room flat is €1,240 and buying is €3,800 per m². The group is very uneven: Bergerac (three-room flat €660, buying €1,700 per m²), Saintes (€700 and €1,800), Challans (€860 and €2,100) or Agde (€930 and €2,500) are affordable; Saint-Raphaël (€1,300 and €4,500), Mandelieu-la-Napoule (€1,500 and €5,800) and Biarritz (€1,400 and €6,500) are among the most expensive. On a tight budget the ranking tells you where to look: Saintes, Bergerac and Challans, not Biarritz.",
+      },
+      {
+        heading: "Are these cities gaining or losing residents?",
+        body: "They gain less than average, with strong exceptions. Between 2016 and 2022, the population of the 413 cities grew by 2.4% in the median; that of the 45 cities at 19% or more by only 0.8%, that of the 27 cities at 20% or more by 3.4%. The detail splits two families. Cities on the Atlantic West coast, in the Var and in the Hérault attract people: Les Sables-d'Olonne (+12.8%), Challans (+12.7%), Six-Fours-les-Plages (+10.8%), Concarneau (+8.3%), Agde (+7.0%). Inland cities and Mandelieu-la-Napoule shrink or stagnate: Bergerac (−1.5%), Saintes (−0.2%), Mandelieu-la-Napoule (−4.4%). A high share of young retirees therefore does not mean a city is growing: some fill up, others grow old in place.",
+      },
+      {
+        heading: "60-74 and over-75s: where do the two go together?",
+        body: "Almost always at the top of the table. In the 45 cities at 19% or more 60-74 year olds, residents aged 75 and over make up 14.6% of the population in the median, against 8.8% overall; 44 of them have more than 11% over-75s. For the 27 cities at 20% or more, the median share of over-75s rises to 16.0%. Saint-Raphaël combines 25.9% and 22.6%, Biarritz 23.4% and 21.2%, Les Sables-d'Olonne 28.5% and 20.2%. In other words, the cities that attract young retirees are also those where people grow old: someone who settles there at 65 will, ten years on, be surrounded by people over 75. That weighs on doctors, transport and local services, which our guide on the over-75s details.",
+      },
+      {
+        heading: "What should you do with this ranking, and what are its limits?",
+        body: "Three uses. For a future retiree who wants neighbours of the same age, a high share signals clubs, shops and leisure sized for them, but also sometimes high prices (see above). For a working-age person looking for a younger life, a low share points to livelier, more student cities. For an investor, the 60-74 share indicates demand for retirees' main homes and second homes, not a yield. Limits: the census measures residents in one year, not trajectories; it counts people, not their income or health; municipalities under 20,000 people, where many retirement villages are found, are excluded; and a narrow municipal boundary favours or penalises a city pressed against its neighbours. Rents and prices quoted come from our own estimate, not from listings. Source: INSEE, 2022 population census.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne", "agde", "saint-raphael", "concarneau", "sete", "saint-malo", "biarritz", "bergerac", "toulon", "nice", "perpignan", "lille", "toulouse"],
+    tags: ["60-74 year olds", "young retirees", "retire in France", "demographics by city", "INSEE census 2022", "French cities ranking"],
+  },
+  {
+    slug: "french-cities-where-jobs-grew-most-2017-2023-414-cities",
+    title: "Where are jobs growing in France? Change in local jobs from 2017 to 2023 in 414 cities",
+    metaTitle: "French cities where jobs grew most (INSEE 2017-2023)",
+    metaDesc: "Issy-les-Moulineaux +36%, Villeurbanne +21%, Bordeaux +15%: change in jobs located in 414 French cities of 20,000+ between 2017 and 2023 (INSEE).",
+    category: "lifestyle",
+    emoji: "📈",
+    readMinutes: 8,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Between 2017 and 2023, the number of jobs located in the municipality grew by 6.85% in the median across the 414 French cities of 20,000 people or more, slightly above the national figure (+6.6%). Saint-Laurent-du-Maroni (+59.6%) and Tremblay-en-France (+52.2%) lead the table; among the big job hubs, Issy-les-Moulineaux grew by 36.4% (70,719 jobs), ahead of Montrouge (+23.0%) and Villeurbanne (+21.0%). Forty-four cities lost jobs, from Chilly-Mazarin (−13.1%) to Suresnes (−6.5%). This guide ranks cities on that single figure, from INSEE's 2017 and 2023 censuses, and shows what it tells a job seeker, and what it does not prove.",
+    sections: [
+      {
+        heading: "What does the change in jobs between 2017 and 2023 measure?",
+        body: "The number of jobs located in the municipality (place of work), compared between INSEE's 2017 and 2023 censuses. A job counts in the city where people work, not where they sleep: Courbevoie gains its companies' offices, not its residents' employment. We calculated it for the 414 municipalities of 20,000 or more for which both censuses exist. The figure describes the volume of activity based in a city, not how easy it is to find a post there: a city can add thousands of jobs that commuters will fill. For that angle, see our guide on jobs per 100 workers.",
+      },
+      {
+        heading: "Which cities added the most jobs?",
+        body: "Saint-Laurent-du-Maroni (+59.6%, 11,089 jobs), Tremblay-en-France (+52.2%, 33,000 jobs), Roissy-en-Brie (+50.3%, 7,319), Issy-les-Moulineaux (+36.4%), Brétigny-sur-Orge (+32.1%), Champs-sur-Marne (+30.4%), Couëron (+29.6%), Romainville (+27.2%), Saint-Mandé (+24.4%), Saint-Cyr-l'École (+23.7%), Montrouge (+23.0%), Sainte-Marie on La Réunion (+22.9%), Châtillon (+21.1%), Villeurbanne (+21.0%) and Neuilly-sur-Seine (+20.5%). Fifteen cities top 20%, forty-two reach 15% or more, 117 reach 10% or more and 258 reach 5% or more. Beware small bases: Roissy-en-Brie, Saint-Cyr-l'École and Couëron have fewer than 8,000 jobs, so a few firms arriving or leaving is enough to move the percentage.",
+      },
+      {
+        heading: "Which real job hubs are growing?",
+        body: "Those that already have more than 20,000 jobs and still add many. There are 180 of them in the sample. At the top: Tremblay-en-France (+52.2%), Issy-les-Moulineaux (+36.4%), Montrouge (+23.0%, 33,549 jobs), Villeurbanne (+21.0%, 69,137), Neuilly-sur-Seine (+20.5%), Massy (+19.9%), Mérignac (+19.6%, 63,949), Carquefou (+18.9%), Saint-Herblain (+18.7%, 48,979) and Saint-Paul on La Réunion (+17.6%). In raw numbers, the biggest gains are in Toulouse (about +42,700 jobs, or +13.5%), Bordeaux (about +27,800, +15.1%), Marseille (about +27,700, +8.1%), Nantes (about +24,200, +12.7%) and Montpellier (about +22,400, +14.2%). Lyon follows with about +20,300 jobs (+6.3%).",
+      },
+      {
+        heading: "Which cities lost jobs?",
+        body: "Forty-four out of 414, eight of them by more than 5%. Chilly-Mazarin (−13.1%), Bagnolet (−9.2%), Trappes (−7.3%), La Garenne-Colombes (−6.6%), Suresnes (−6.5%), Saint-Cloud (−6.1%), Béthune (−5.8%) and Montigny-lès-Metz (−5.2%). Next come Sotteville-lès-Rouen (−4.8%), Sèvres (−4.6%), Bourg-la-Reine (−3.9%), Douai (−3.7%), Yerres (−3.4%) and Belfort (−3.3%). Among cities with more than 20,000 jobs, the sharpest falls are Suresnes (about −1,900 jobs), Douai (about −1,000) and Belfort (about −900). Paris loses 0.4% of its jobs, about 7,300 out of 1.81 million: a tiny drop in percentage, the largest in volume. Cities that lost jobs have a median census unemployment rate of 12.4%, against 13.1% for all cities: losing jobs locally does not mean residents are out of work, since many work elsewhere.",
+      },
+      {
+        heading: "Do big cities create more jobs?",
+        body: "Yes, and the gap is clear. The median growth is 6.0% for the 135 cities of 20,000 to 30,000 people, 6.9% for the 237 cities of 30,000 to 100,000 and 7.9% for the 42 cities of 100,000 and over. Among the latter: Villeurbanne (+21.0%), Saint-Paul (+17.6%), Aix-en-Provence (+15.8%), Bordeaux (+15.1%), Montpellier (+14.2%), Angers (+13.6%), Toulouse (+13.5%), Nantes (+12.7%), Rennes (+11.9%) and Montreuil (+11.3%). Nice is at +9.4%, Lille at +8.8%, Marseille at +8.1%, Strasbourg at +7.8% and Lyon at +6.3%. At the bottom: Paris (−0.4%), Mulhouse (+1.2%), Argenteuil (+1.8%), Nancy (+2.4%), Limoges (+2.9%), Le Havre (+3.1%), Orléans (+3.5%) and Saint-Étienne (+3.7%). The Grand West and the South-West drive the increase; the metropolises of the North-East and the centre lag behind.",
+      },
+      {
+        heading: "Which regions are creating the most jobs?",
+        body: "French Guiana leads (+34.2% in the median, two cities), ahead of La Réunion (+13.9%, ten cities), Pays de la Loire (+12.7%, 19 cities, none shrinking), Nouvelle-Aquitaine (+10.7%, 30 cities), Brittany and Guadeloupe (+9.8%), Provence-Alpes-Côte d'Azur (+8.1%), Occitanie (+7.9%), Corsica (+7.5%) and Auvergne-Rhône-Alpes (+7.2%). Below the national line: Île-de-France (+6.5%, 155 cities), Hauts-de-France (+4.0%, 29 cities, six of them shrinking), Normandy (+3.9%), Martinique (+3.8%), Bourgogne-Franche-Comté (+3.0%) and Grand Est (+2.4%, 24 cities, five shrinking). Outside Île-de-France the median is 7.1%. In the weakest regions a few cities hold up: Cherbourg-en-Cotentin (+12.2%), Abbeville (+12.4%) and Schiltigheim (+16.0%).",
+      },
+      {
+        heading: "Is Île-de-France a winner or a loser?",
+        body: "Both, depending on the municipality. Île-de-France has 18 of the 42 cities at 15% or more, 43 of the 117 at 10% or more, and 26 of the 44 cities that lost jobs. The gains cluster on the west and south of the inner suburbs (Issy, Montrouge, Châtillon, Neuilly, Courbevoie at +17.2% with 114,242 jobs, Puteaux at +16.9%) and a few southern and eastern hubs (Massy, Brétigny-sur-Orge, Champs-sur-Marne, Tremblay-en-France). The losses hit residential or industrial towns: Chilly-Mazarin, Bagnolet, Trappes, Suresnes, Saint-Cloud. The region is an average, not a trend: you do not choose Île-de-France, you choose a municipality.",
+      },
+      {
+        heading: "Are job-creating cities expensive?",
+        body: "A little more than average, but the gap is moderate. In the 42 cities with growth of 15% or more, the reference three-room flat in our rent estimate is €1,170 a month in the median and buying is €3,850 per m², against €1,080 and €3,200 across the 414 cities. In the 44 shrinking cities: €1,240 and €3,400. The average net monthly wage of private-sector jobs located in the fast-growing cities is €2,750 in the median, against €2,482 overall and €2,492 for the shrinking cities. Median unemployment among residents is 11.1% in the first group and 13.1% overall. Growing jobs help, but they do not guarantee low rent.",
+      },
+      {
+        heading: "What should you do with this ranking, and what are its limits?",
+        body: "Three uses. For a job seeker, a city that creates posts is a good lead, provided you also check local unemployment and wages (see our dedicated guides). For an investor, it signals housing demand, not a yield. For a business owner, it is a sign of dynamism. Limits: the census counts jobs on one date, and a head-office move changes everything at once; small municipalities are volatile; the change covers only six years, with the 2020 crisis in the middle; and a narrow municipal boundary penalises a city pressed against its neighbours. Rents and prices quoted come from our own estimate, not from listings. Source: INSEE, 2017 and 2023 population censuses, all-employees file 2024.",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux", "villeurbanne", "bordeaux", "toulouse", "nantes", "montpellier", "merignac", "saint-herblain", "paris", "belfort"],
+    tags: ["job growth by city", "jobs by city", "where jobs are growing", "French labour market", "INSEE census 2023", "dynamic cities France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

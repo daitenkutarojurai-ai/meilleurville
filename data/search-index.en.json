@@ -11060,6 +11060,16 @@
       "slug": "cross-dismemberment-property-couples-france-2026",
       "title": "Cross-dismemberment in France: protecting a partner who is not a spouse",
       "emoji": "♻️"
+    },
+    {
+      "slug": "french-cities-with-the-most-60-74-year-olds-413-cities-2026",
+      "title": "Where do 60-74 year olds live in France? The share of young retirees in 413 cities",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "french-cities-where-jobs-grew-most-2017-2023-414-cities",
+      "title": "Where are jobs growing in France? Change in local jobs from 2017 to 2023 in 414 cities",
+      "emoji": "📈"
     }
   ],
   "tags": [
@@ -11684,6 +11694,11 @@
       "count": 4
     },
     {
+      "slug": "retire-in-france",
+      "label": "retire in france",
+      "count": 4
+    },
+    {
       "slug": "retire-on-the-cote-d-azur",
       "label": "retire on the Côte d'Azur",
       "count": 4
@@ -11809,6 +11824,11 @@
       "count": 3
     },
     {
+      "slug": "jobs-by-city",
+      "label": "jobs by city",
+      "count": 3
+    },
+    {
       "slug": "limoges",
       "label": "limoges",
       "count": 3
@@ -11871,11 +11891,6 @@
     {
       "slug": "renting-in-france",
       "label": "renting in france",
-      "count": 3
-    },
-    {
-      "slug": "retire-in-france",
-      "label": "retire in france",
       "count": 3
     },
     {
