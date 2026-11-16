@@ -66401,6 +66401,148 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["strasbourg", "villeurbanne", "lyon", "lille", "nantes", "rennes", "grenoble", "saint-etienne"],
     tags: ["student cities", "2027 ranking", "studio rent", "studying in France", "cost of living"],
   },
+  {
+    slug: "best-regions-to-live-in-france-2027",
+    title: "Best Regions to Live in France in 2027: All 13 Mainland Regions Ranked",
+    metaTitle: "Best Regions to Live in France in 2027 — Ranked",
+    metaDesc:
+      "Average city score per French region: Brittany 6.6, Burgundy-Franche-Comté and Pays de la Loire 6.3, Paris region 4.4. Rents and what an average hides.",
+    category: "moving",
+    emoji: "🗺️",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Brittany has the best average score of France's 13 mainland regions for 2027: 6.6/10 across its 18 scored cities, ahead of Bourgogne-Franche-Comté and Pays de la Loire (6.3). Île-de-France, the Paris region, comes last on 4.4, dragged down by cost (4.1) and nature (4.0) despite the best transport in the country (7.2).",
+    sections: [
+      {
+        heading: "How are the regions ranked?",
+        body: "Each region gets the average overall score of its cities, among the 593 we score. It is an average of cities, not of residents: a metropolis counts as much as a small county town. The number of cities varies widely, from 6 in Corsica to 163 in Île-de-France, where suburban communes dominate.\n\nA regional average therefore shows a tendency, not a verdict on every town. The overseas territories are covered separately below.",
+      },
+      {
+        heading: "What is the 2027 ranking of French regions?",
+        body: "Brittany: 6.6. Bourgogne-Franche-Comté and Pays de la Loire: 6.3. Centre-Val de Loire and Nouvelle-Aquitaine: 6.1. Occitanie: 6.0. Grand Est: 5.8. Auvergne-Rhône-Alpes and Normandy: 5.7. Provence-Alpes-Côte d'Azur: 5.6. Corsica: 4.8. Hauts-de-France: 4.6. Île-de-France: 4.4.\n\nRegions named together have the same score to one decimal: they are level.",
+      },
+      {
+        heading: "Why does Brittany come first?",
+        body: "Because it has no marked weakness on what weighs most. Safety and quality of life both average 7.0, and nature 6.8. Seven of its 18 cities reach 7, including Carnac (7.6), Rennes and Dinan (7.4).\n\nIts flaw is transport, on 5.0. On budget, the median one-bedroom flat is €660 a month and the median price €2,550 per m² (source: our rent and price estimates).",
+      },
+      {
+        heading: "Which regions are cheapest?",
+        body: "Bourgogne-Franche-Comté: cost score 7.5, median one-bedroom at €540 and €1,525 per m². Then Centre-Val de Loire (7.0, €590, €1,900 per m²), Occitanie (6.9, €570, €1,650 per m²) and Grand Est (6.8, €630, €1,900 per m²).\n\nHauts-de-France is cheap too, with a median one-bedroom at €550, but its average score is only 4.6: safety sits at 4.5 and quality of life at 4.3.",
+      },
+      {
+        heading: "Which regions are most expensive?",
+        body: "Île-de-France, with a median one-bedroom at €970 and €4,200 per m². Provence-Alpes-Côte d'Azur follows: €820 and €3,500 per m², for a cost score of 4.7. It makes up ground on nature (6.8) but not on safety (5.4). Corsica has the same median rent, €820, with the weakest transport on the mainland: 3.2.",
+      },
+      {
+        heading: "Does a good region guarantee a good town?",
+        body: "No, and that is the limit of the exercise. The best-rated town in the country, Obernai (8.4), is in Grand Est, the seventh region. Senlis (7.7) and Laon (7.2) are in Hauts-de-France, second from last. Fontainebleau (7.9) is in Île-de-France. Le Puy-en-Velay and Gex (7.7) are in Auvergne-Rhône-Alpes, and Saint-Rémy-de-Provence (7.7) in Provence-Alpes-Côte d'Azur.\n\nChoosing a region means choosing a climate and a budget. The town comes next, on its own profile.",
+      },
+      {
+        heading: "What about the overseas territories?",
+        body: "The five territories are scored on few cities: ten on Réunion, four in Martinique, three in Guadeloupe, two in French Guiana and one in Mayotte. Averages run from 4.6 on Réunion and in Guadeloupe to 4.4 in Martinique, 3.6 in French Guiana and 3.0 in Mayotte.\n\nNature is above 7 everywhere, from 7.2 in Guadeloupe to 7.9 in French Guiana. Transport, between 2.5 and 4.2, and safety pull the scores down.",
+      },
+      {
+        heading: "Which region for which plan?",
+        body: "All-round balance: Brittany or Pays de la Loire. Tight budget: Bourgogne-Franche-Comté or Occitanie, with a median one-bedroom under €580. Career and transport: Île-de-France is still first for transport, if you accept its cost. Sun and nature: Provence-Alpes-Côte d'Azur, counting €820 for a one-bedroom.",
+      },
+    ],
+    relatedCities: ["carnac", "rennes", "dinan", "autun", "obernai", "fontainebleau", "amboise", "saint-remy-de-provence"],
+    tags: ["French regions", "2027 ranking", "Brittany", "cost of living", "moving to France"],
+  },
+  {
+    slug: "towns-within-2-hours-of-paris-by-train-for-remote-work",
+    title: "Towns Within 2 Hours of Paris by Train: The Best for Remote Work",
+    metaTitle: "Towns Within 2 Hours of Paris by Train for Remote Work",
+    metaDesc:
+      "Under 2 hours from Paris by direct train: Rennes 7.8/10, Lyon 7.6, Strasbourg 7.5. Around one hour: Lille and Tours, with a one-bedroom at €800 and €700.",
+    category: "remote-work",
+    emoji: "🚄",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Among the cities under 2 hours from Paris by direct train, Rennes has the best remote-work score (7.8/10, at 1h30), ahead of Lyon (7.6, at 1h57) and Strasbourg (7.5, at 1h50). At around one hour, Lille (7.0) and Tours (6.8) are the best placed, with a one-bedroom flat at €800 and €700 a month against €1,800 in Paris.",
+    sections: [
+      {
+        heading: "Where do these journey times come from?",
+        body: "They are the best direct-train times between each city's main station and Paris, from SNCF timetables checked in June 2025. They are station to station: add the trip to the station and the metro at the other end. Not every train matches the best time, and frequency varies a great deal from one line to another. The remote-work score is the one from our ranking, rent and transport included.",
+      },
+      {
+        heading: "Which cities under 2 hours have the best remote-work score?",
+        body: "Rennes: 7.8, at 1h30, one-bedroom at €820. Lyon: 7.6, at 1h57, €1,000. Strasbourg: 7.5, at 1h50, €800. Angers: 7.2, at 1h35, €750. Lille: 7.0, at 1h02, €800. Tours: 6.8, at 1h05, €700. Dijon: 6.7, at 1h35, €720. Caen: 6.5, at 1h50, €700. Nancy: 6.4, at 1h30, €710. Rouen: 6.2, at 1h10, €720.\n\nThe next tier, 6.1, is shared by Reims, Chartres, Metz, Poitiers and Troyes. Paris itself scores 6.9 (source: our rent estimate).",
+      },
+      {
+        heading: "Which towns are about an hour from Paris?",
+        body: "Reims: 45 minutes, score 6.1, one-bedroom at €680. Arras: 50 minutes, 6.0, €540. Évreux: 55 minutes, 5.0, €610. Le Mans and Chartres: 1 hour, 5.7 and 6.1, for €650 and €680. Lille: 1h02. Tours: 1h05. Rouen and Orléans: 1h10.\n\nAt this distance, two office days a week stay manageable. Lille and Tours are the only ones in this group to score above 6.5.",
+      },
+      {
+        heading: "How much do you save on rent?",
+        body: "Compared with a Paris one-bedroom at €1,800: €1,260 a month in Arras, €1,120 in Reims, €1,100 in Tours, €1,000 in Lille and Strasbourg, and €980 in Rennes. Over a year that is €13,200 in Tours and €11,760 in Rennes.\n\nFrom that sum, take off the rail season ticket, which is not counted here and depends on how many return trips you make.",
+      },
+      {
+        heading: "What is life like in these cities?",
+        body: "Very uneven. Rennes scores 7.4 overall, Strasbourg 7.5, Lyon 7.1 and Angers 6.7. Closer to Paris the scores drop: Tours 6.4, Chartres 6.0, Rouen and Orléans 5.8, and Reims, Arras, Lille and Le Mans 5.7. Safety is the weak point in Lille (3.9), Rouen (4.7) and Évreux (4.7).",
+      },
+      {
+        heading: "What are the limits of this ranking?",
+        body: "It only keeps cities with a station on a direct line: a neighbouring commune may be cheaper for twenty minutes more. It ignores the price and reliability of trains. And a city-wide score does not say whether fibre reaches your address: check the internet page of the city profile.",
+      },
+      {
+        heading: "Which city for your office rhythm?",
+        body: "Two or three days a week in Paris: Lille, Tours or Reims, about an hour away. One day a week: Rennes, Angers or Dijon, better rated and 1h30 to 1h35 away. Once a month: Strasbourg or Lyon, the best overall scores on the list. Lowest rent: Arras, at €540 for a one-bedroom.",
+      },
+    ],
+    relatedCities: ["rennes", "lyon", "strasbourg", "angers", "lille", "tours", "reims", "dijon"],
+    tags: ["remote work", "train from Paris", "TGV", "rents", "moving to France"],
+  },
+  {
+    slug: "sea-or-mountains-where-to-live-in-france",
+    title: "Sea or Mountains: Where to Live in France? Scores and Rents Compared",
+    metaTitle: "Sea or Mountains: Where to Live in France?",
+    metaDesc:
+      "42 French mountain towns average 6.3/10, 55 coastal towns 6.0. The mountains win on safety and price: median one-bedroom €580 against €800.",
+    category: "lifestyle",
+    emoji: "🏔️",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "The 42 French mountain towns we score average 6.3/10, against 6.0 for the 55 coastal towns. The mountains win on nature (7.7 against 7.1), safety (7.1 against 6.1) and above all price: a median one-bedroom flat at €580 a month, against €800 by the sea.",
+    sections: [
+      {
+        heading: "Which towns are compared?",
+        body: "On the coast, the 55 towns of our seaside ranking. In the mountains, 42 towns at 500 m of altitude or more, or with a strong mountain character: resorts and high-altitude county towns, but also foothill cities such as Grenoble and Pau. No town is in both groups.",
+      },
+      {
+        heading: "Where do the mountains do better?",
+        body: "On four points. Nature: 7.7 against 7.1. Safety: 7.1 against 6.1. Cost of living: 6.7 against 5.1. And the overall score, 6.3 against 6.0.\n\nTwelve towns in each group reach 7, which is 29% of the mountain towns and 22% of the coastal ones. The best-rated mountain towns are Le Puy-en-Velay and Gex (7.7), then Pontarlier (7.5).",
+      },
+      {
+        heading: "Where does the coast do better?",
+        body: "On quality of life (6.9 against 6.6), culture (6.3 against 5.7) and transport (5.1 against 4.4). Coastal towns are a little better connected and livelier. The best rated are Anglet and Carnac (7.6), then Les Sables-d'Olonne (7.4).",
+      },
+      {
+        heading: "What does it cost by the sea and in the mountains?",
+        body: "This is the clearest gap. The median one-bedroom is €580 in the mountains and €800 on the coast. To buy, the median price is €1,700 per m² in the mountains against €3,500 by the sea: half the price.\n\nFor 70 m², that makes €119,000 on one side and €245,000 on the other, before notaire fees (source: our rent and price estimates).",
+      },
+      {
+        heading: "And in a big city?",
+        body: "In the mountains, Grenoble scores 6.8, Chambéry 6.5, Pau 6.4 and Saint-Étienne 5.5. By the sea, La Rochelle is on 7.2, Brest 6.4 and Nice 5.4. In both cases the big city lowers safety: 4.3 in Grenoble, 5.1 in Nice.",
+      },
+      {
+        heading: "What do these averages leave out?",
+        body: "They measure neither winter at altitude, with snow on the roads and hospitals far away, nor the season on the coast, when the population swells in summer and part of the shops close in winter. Transport is weak on both sides: 4.4 in the mountains, 5.1 by the sea. The risks differ too: read the natural-risks page of the city profile, for coastal erosion as much as for mountain floods.",
+      },
+      {
+        heading: "Sea or mountains: which for your profile?",
+        body: "Tight budget or buying: the mountains, half the price per m². Services, culture and trains: the coast, ideally a city such as La Rochelle. Safety first: the mountains, on 7.1. Retirement in the sun: the coast, if you accept the price.",
+      },
+    ],
+    relatedCities: ["le-puy-en-velay", "gex", "pontarlier", "anglet", "carnac", "les-sables-d-olonne", "grenoble", "la-rochelle"],
+    tags: ["seaside", "mountains", "comparison", "rents", "moving to France"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

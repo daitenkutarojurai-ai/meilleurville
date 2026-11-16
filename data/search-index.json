@@ -11655,6 +11655,26 @@
       "slug": "villes-les-plus-sures-de-france-2027",
       "title": "Villes les plus sûres de France en 2027 : le classement par taille de ville",
       "emoji": "🛡️"
+    },
+    {
+      "slug": "dans-quelle-region-vivre-en-2027-classement-des-regions",
+      "title": "Dans quelle région vivre en 2027 ? Le classement des 13 régions métropolitaines",
+      "emoji": "🗺️"
+    },
+    {
+      "slug": "grande-ville-ou-ville-moyenne-ou-vit-on-le-mieux",
+      "title": "Grande ville, ville moyenne ou petite ville : où vit-on le mieux ?",
+      "emoji": "⚖️"
+    },
+    {
+      "slug": "mer-ou-montagne-ou-s-installer-en-france",
+      "title": "Mer ou montagne : où s'installer en France ? Notes et loyers comparés",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "teletravailler-a-moins-de-2h-de-paris-en-train",
+      "title": "Télétravailler à moins de 2 h de Paris en train : les villes les mieux notées",
+      "emoji": "🚄"
     }
   ],
   "tags": [
@@ -11671,7 +11691,7 @@
     {
       "slug": "teletravail",
       "label": "télétravail",
-      "count": 50
+      "count": 51
     },
     {
       "slug": "demenagement",
@@ -11711,7 +11731,7 @@
     {
       "slug": "bretagne",
       "label": "Bretagne",
-      "count": 22
+      "count": 23
     },
     {
       "slug": "comparatif",
@@ -11794,6 +11814,11 @@
       "count": 15
     },
     {
+      "slug": "montagne",
+      "label": "montagne",
+      "count": 15
+    },
+    {
       "slug": "toulouse",
       "label": "Toulouse",
       "count": 15
@@ -11829,11 +11854,6 @@
       "count": 14
     },
     {
-      "slug": "montagne",
-      "label": "montagne",
-      "count": 14
-    },
-    {
       "slug": "patrimoine",
       "label": "patrimoine",
       "count": 14
@@ -11854,6 +11874,11 @@
       "count": 13
     },
     {
+      "slug": "paris",
+      "label": "Paris",
+      "count": 13
+    },
+    {
       "slug": "budget",
       "label": "budget",
       "count": 12
@@ -11864,8 +11889,8 @@
       "count": 12
     },
     {
-      "slug": "paris",
-      "label": "Paris",
+      "slug": "mer",
+      "label": "mer",
       "count": 12
     },
     {
@@ -11894,13 +11919,13 @@
       "count": 11
     },
     {
-      "slug": "mer",
-      "label": "mer",
+      "slug": "nature",
+      "label": "nature",
       "count": 11
     },
     {
-      "slug": "nature",
-      "label": "nature",
+      "slug": "tgv",
+      "label": "TGV",
       "count": 11
     },
     {
@@ -11926,6 +11951,11 @@
     {
       "slug": "lmnp",
       "label": "LMNP",
+      "count": 10
+    },
+    {
+      "slug": "ou-vivre",
+      "label": "où vivre",
       "count": 10
     },
     {
@@ -11959,11 +11989,6 @@
       "count": 10
     },
     {
-      "slug": "tgv",
-      "label": "TGV",
-      "count": 10
-    },
-    {
       "slug": "velo",
       "label": "vélo",
       "count": 10
@@ -11976,6 +12001,11 @@
     {
       "slug": "bayonne",
       "label": "Bayonne",
+      "count": 9
+    },
+    {
+      "slug": "classement-2027",
+      "label": "classement 2027",
       "count": 9
     },
     {
@@ -12056,11 +12086,6 @@
     {
       "slug": "canicule",
       "label": "canicule",
-      "count": 8
-    },
-    {
-      "slug": "classement-2027",
-      "label": "classement 2027",
       "count": 8
     },
     {
@@ -12164,13 +12189,13 @@
       "count": 7
     },
     {
-      "slug": "nice",
-      "label": "Nice",
+      "slug": "loyers",
+      "label": "loyers",
       "count": 7
     },
     {
-      "slug": "ou-vivre",
-      "label": "où vivre",
+      "slug": "nice",
+      "label": "Nice",
       "count": 7
     },
     {
@@ -12216,6 +12241,11 @@
     {
       "slug": "clermont-ferrand",
       "label": "Clermont-Ferrand",
+      "count": 6
+    },
+    {
+      "slug": "comparaison",
+      "label": "comparaison",
       "count": 6
     },
     {
@@ -12489,11 +12519,6 @@
       "count": 4
     },
     {
-      "slug": "comparaison",
-      "label": "comparaison",
-      "count": 4
-    },
-    {
       "slug": "cote",
       "label": "côte",
       "count": 4
@@ -12571,11 +12596,6 @@
     {
       "slug": "loyer",
       "label": "loyer",
-      "count": 4
-    },
-    {
-      "slug": "loyers",
-      "label": "loyers",
       "count": 4
     },
     {

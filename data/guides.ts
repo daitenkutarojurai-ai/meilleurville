@@ -81084,6 +81084,198 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["securite-ressentie-vs-reelle-ville-france-2026", "ou-vivre-en-france-2027-villes-les-mieux-notees", "meilleures-villes-pour-une-famille-en-2027"],
     tags: ["sécurité", "villes sûres", "classement 2027", "où vivre", "délinquance"],
   },
+  {
+    slug: "dans-quelle-region-vivre-en-2027-classement-des-regions",
+    title: "Dans quelle région vivre en 2027 ? Le classement des 13 régions métropolitaines",
+    metaTitle: "Dans quelle région vivre en 2027 ? Le classement",
+    metaDesc:
+      "Note moyenne des villes de chaque région : Bretagne 6,6, Bourgogne-Franche-Comté et Pays de la Loire 6,3, Île-de-France 4,4. Loyers et limites.",
+    category: "region",
+    emoji: "🗺️",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "La Bretagne obtient la meilleure note moyenne des 13 régions métropolitaines pour 2027 : 6,6/10 sur ses 18 villes notées, devant la Bourgogne-Franche-Comté et les Pays de la Loire (6,3). L'Île-de-France est dernière à 4,4, tirée vers le bas par le coût (4,1) et la nature (4,0), malgré le meilleur transport du pays (7,2).",
+    sections: [
+      {
+        heading: "Comment les régions sont-elles classées ?",
+        body: "Chaque région reçoit la moyenne des notes globales de ses villes, parmi les 593 que nous notons. C'est une moyenne de villes, pas d'habitants : une métropole compte autant qu'une sous-préfecture. Le nombre de villes varie beaucoup, de 6 en Corse à 163 en Île-de-France, où dominent les communes de banlieue.\n\nUne moyenne régionale donne donc une tendance, pas un verdict sur chaque ville. L'outre-mer est traité à part, plus bas.",
+      },
+      {
+        heading: "Quel est le classement 2027 des régions ?",
+        body: "Bretagne : 6,6. Bourgogne-Franche-Comté et Pays de la Loire : 6,3. Centre-Val de Loire et Nouvelle-Aquitaine : 6,1. Occitanie : 6,0. Grand Est : 5,8. Auvergne-Rhône-Alpes et Normandie : 5,7. Provence-Alpes-Côte d'Azur : 5,6. Corse : 4,8. Hauts-de-France : 4,6. Île-de-France : 4,4.\n\nLes régions citées ensemble ont la même note à une décimale : elles sont ex æquo.",
+      },
+      {
+        heading: "Pourquoi la Bretagne arrive-t-elle en tête ?",
+        body: "Parce qu'elle n'a pas de point faible marqué sur ce qui pèse le plus. La sécurité et la qualité de vie y sont à 7,0 en moyenne, la nature à 6,8. Sept de ses 18 villes atteignent 7, dont Carnac (7,6), Rennes et Dinan (7,4).\n\nSon défaut est le transport, à 5,0. Côté budget, le T2 médian y est à 660 € et le prix médian à 2 550 € le m² (source : notre estimation des loyers et des prix).",
+      },
+      {
+        heading: "Quelles régions sont les moins chères ?",
+        body: "La Bourgogne-Franche-Comté : coût noté 7,5, T2 médian à 540 € et 1 525 € le m². Puis le Centre-Val de Loire (7,0, 590 €, 1 900 € le m²), l'Occitanie (6,9, 570 €, 1 650 € le m²) et le Grand Est (6,8, 630 €, 1 900 € le m²).\n\nLes Hauts-de-France sont aussi bon marché, avec un T2 médian à 550 €, mais la note moyenne n'y est que de 4,6 : la sécurité est à 4,5 et la qualité de vie à 4,3.",
+      },
+      {
+        heading: "Quelles régions sont les plus chères ?",
+        body: "L'Île-de-France, avec un T2 médian à 970 € et 4 200 € le m². La Provence-Alpes-Côte d'Azur suit : 820 € et 3 500 € le m², pour un coût noté 4,7. Elle se rattrape sur la nature (6,8) mais pas sur la sécurité (5,4). La Corse affiche le même loyer médian, 820 €, avec le transport le plus faible de métropole : 3,2.",
+      },
+      {
+        heading: "Une bonne région garantit-elle une bonne ville ?",
+        body: "Non, et c'est la limite de l'exercice. La ville la mieux notée du pays, Obernai (8,4), est dans le Grand Est, septième région. Senlis (7,7) et Laon (7,2) sont dans les Hauts-de-France, avant-derniers. Fontainebleau (7,9) est en Île-de-France. Le Puy-en-Velay et Gex (7,7) sont en Auvergne-Rhône-Alpes, Saint-Rémy-de-Provence (7,7) en Provence-Alpes-Côte d'Azur.\n\nChoisir une région, c'est choisir un climat et un budget. La ville se choisit ensuite, sur sa propre fiche.",
+      },
+      {
+        heading: "Et l'outre-mer ?",
+        body: "Les cinq territoires sont notés sur peu de villes : dix à La Réunion, quatre en Martinique, trois en Guadeloupe, deux en Guyane, une à Mayotte. Les moyennes vont de 4,6 à La Réunion et en Guadeloupe à 4,4 en Martinique, 3,6 en Guyane et 3,0 à Mayotte.\n\nLa nature y est partout au-dessus de 7, de 7,2 en Guadeloupe à 7,9 en Guyane. Ce sont le transport, de 2,5 à 4,2, et la sécurité qui font baisser les notes.",
+      },
+      {
+        heading: "Quelle région pour quel projet ?",
+        body: "Équilibre général : la Bretagne ou les Pays de la Loire. Budget serré : la Bourgogne-Franche-Comté ou l'Occitanie, avec un T2 médian sous 580 €. Carrière et transports : l'Île-de-France reste première en transport, à condition d'accepter son coût. Soleil et nature : la Provence-Alpes-Côte d'Azur, en comptant 820 € pour un T2.",
+      },
+    ],
+    relatedCities: ["carnac", "rennes", "dinan", "autun", "obernai", "fontainebleau", "amboise", "saint-remy-de-provence"],
+    relatedGuides: ["ou-vivre-en-france-2027-villes-les-mieux-notees", "villes-moyennes-ou-il-fait-bon-vivre-2027", "vivre-en-bretagne-nord-guide-2025"],
+    tags: ["régions", "classement 2027", "où vivre", "Bretagne", "loyers"],
+  },
+  {
+    slug: "grande-ville-ou-ville-moyenne-ou-vit-on-le-mieux",
+    title: "Grande ville, ville moyenne ou petite ville : où vit-on le mieux ?",
+    metaTitle: "Grande ville ou ville moyenne : où vit-on le mieux ?",
+    metaDesc:
+      "Hors Île-de-France, les petites villes obtiennent 6,2/10 en moyenne, les grandes 6,1, les villes moyennes 5,4. Sécurité, transport, loyers : le détail.",
+    category: "comparaison",
+    emoji: "⚖️",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Hors Île-de-France, les petites villes obtiennent la meilleure note moyenne (6,2/10), juste devant les grandes villes (6,1). Les villes moyennes, de 20 000 à 100 000 habitants, sont dernières à 5,4 : elles n'ont ni la sécurité des petites (5,3 contre 7,3), ni les transports des grandes (5,9 contre 7,0).",
+    sections: [
+      {
+        heading: "Sur quelles villes porte la comparaison ?",
+        body: "Sur 410 villes de métropole hors Île-de-France : 168 de moins de 20 000 habitants, 207 de 20 000 à 100 000 et 35 de plus de 100 000. L'Île-de-France est écartée parce que 151 de ses communes, presque toutes en banlieue parisienne, tombent dans la tranche moyenne et en fausseraient la moyenne. Les notes sont celles des fiches ville.",
+      },
+      {
+        heading: "Que gagne-t-on dans une petite ville ?",
+        body: "La sécurité, la nature et le prix. Les petites villes sont à 7,3 en sécurité, 6,9 en nature et 6,9 sur le coût. Seules 3 sur 168 ont une sécurité sous 4,5. Le T2 médian y est à 570 € et le prix médian à 1 600 € le m².\n\nLe prix à payer est le transport : 4,3 en moyenne, et seulement 2 petites villes sur 168 atteignent 7. Sans voiture, la plupart sont difficiles à vivre.",
+      },
+      {
+        heading: "Que gagne-t-on dans une grande ville ?",
+        body: "Les transports, la culture et les écoles. Les villes de plus de 100 000 habitants sont à 7,0 en transport, 7,3 en culture, 7,0 pour les écoles et 6,7 sur l'axe télétravail. Dix-sept sur 35 atteignent 7 en transport.\n\nElles perdent sur la sécurité, 5,0 en moyenne, avec 9 villes sur 35 sous 4,5. Le T2 médian est à 720 € et le prix médian à 2 700 € le m².",
+      },
+      {
+        heading: "Pourquoi les villes moyennes sont-elles dernières ?",
+        body: "Parce qu'elles cumulent des notes moyennes partout sans exceller nulle part : 5,9 en transport, 5,3 en sécurité, 5,7 en culture, 5,5 en nature. Sur 207, 38 ont une sécurité sous 4,5. Et elles ne sont pas données : 670 € le T2 médian, 2 400 € le m², soit 100 € de loyer de plus qu'une petite ville pour une note inférieure de 0,8 point.\n\nC'est une moyenne : elle recouvre des villes très bien notées et d'autres qui le sont beaucoup moins.",
+      },
+      {
+        heading: "Quelles villes moyennes échappent à la moyenne ?",
+        body: "Treize villes moyennes atteignent 7 : Beaune (7,7), Anglet (7,6), Les Sables-d'Olonne (7,4), Lannion, Saint-Dié-des-Vosges et Villefranche-sur-Saône (7,3), La Rochelle et Laon (7,2), Albi, Saumur, Vienne et Challans (7,1), La Roche-sur-Yon (7,0).\n\nEn proportion, 29 % des petites villes atteignent 7 (49 sur 168), 14 % des grandes (5 sur 35) et 6 % des moyennes (13 sur 207).",
+      },
+      {
+        heading: "Quelles sont les limites de cette comparaison ?",
+        body: "Une moyenne par taille ne décrit aucune ville en particulier. L'emploi n'entre pas dans la note, or c'est souvent lui qui impose la grande ville. Et la note porte sur la commune : une petite ville collée à une métropole profite de ses services sans que cela se voie dans sa fiche.",
+      },
+      {
+        heading: "Quelle taille de ville pour quel profil ?",
+        body: "Télétravail complet ou retraite, avec une voiture : la petite ville, plus sûre et moins chère. Carrière, études ou vie sans voiture : la grande ville. Ville moyenne : à choisir une par une, parmi les treize qui dépassent 7, plutôt que pour sa taille.",
+      },
+    ],
+    relatedCities: ["beaune", "anglet", "la-rochelle", "strasbourg", "rennes", "obernai", "autun", "annecy"],
+    relatedGuides: ["villes-moyennes-ou-il-fait-bon-vivre-2027", "vivre-campagne-vs-ville-moyenne-france-2025", "ou-vivre-en-france-2027-villes-les-mieux-notees"],
+    tags: ["grande ville", "ville moyenne", "petite ville", "comparaison", "où vivre"],
+  },
+  {
+    slug: "mer-ou-montagne-ou-s-installer-en-france",
+    title: "Mer ou montagne : où s'installer en France ? Notes et loyers comparés",
+    metaTitle: "Mer ou montagne : où s'installer en France ?",
+    metaDesc:
+      "42 villes de montagne à 6,3/10 en moyenne, 55 villes du littoral à 6,0. La montagne gagne sur la sécurité et le prix : T2 médian à 580 € contre 800 €.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Les 42 villes de montagne que nous notons obtiennent 6,3/10 en moyenne, contre 6,0 pour les 55 villes du littoral. La montagne l'emporte sur la nature (7,7 contre 7,1), la sécurité (7,1 contre 6,1) et surtout le prix : 580 € le T2 médian, contre 800 € en bord de mer.",
+    sections: [
+      {
+        heading: "Quelles villes sont comparées ?",
+        body: "Côté mer, les 55 villes de notre classement Bord de mer. Côté montagne, 42 villes situées à 500 m d'altitude ou plus, ou au caractère montagnard affirmé : on y trouve des stations et des sous-préfectures d'altitude, mais aussi des villes de piémont comme Grenoble et Pau. Aucune ville n'est dans les deux groupes.",
+      },
+      {
+        heading: "Où la montagne fait-elle mieux ?",
+        body: "Sur quatre points. La nature : 7,7 contre 7,1. La sécurité : 7,1 contre 6,1. Le coût de la vie : 6,7 contre 5,1. Et la note globale, 6,3 contre 6,0.\n\nDouze villes de chaque groupe atteignent 7, soit 29 % des villes de montagne et 22 % des villes du littoral. Les mieux notées en montagne sont Le Puy-en-Velay et Gex (7,7), puis Pontarlier (7,5).",
+      },
+      {
+        heading: "Où la mer fait-elle mieux ?",
+        body: "Sur la qualité de vie (6,9 contre 6,6), la culture (6,3 contre 5,7) et le transport (5,1 contre 4,4). Les villes du littoral sont un peu mieux desservies et plus animées. Les mieux notées sont Anglet et Carnac (7,6), puis Les Sables-d'Olonne (7,4).",
+      },
+      {
+        heading: "Combien coûte la vie à la mer et à la montagne ?",
+        body: "C'est l'écart le plus net. Le T2 médian est à 580 € en montagne et à 800 € sur le littoral. À l'achat, le prix médian est de 1 700 € le m² en montagne contre 3 500 € en bord de mer : deux fois moins cher.\n\nPour 70 m², cela fait 119 000 € d'un côté et 245 000 € de l'autre, hors frais de notaire (source : notre estimation des loyers et des prix).",
+      },
+      {
+        heading: "Et pour vivre dans une grande ville ?",
+        body: "Côté montagne, Grenoble est notée 6,8, Chambéry 6,5, Pau 6,4 et Saint-Étienne 5,5. Côté mer, La Rochelle est à 7,2, Brest à 6,4 et Nice à 5,4. Dans les deux cas, la grande ville fait baisser la sécurité : 4,3 à Grenoble, 5,1 à Nice.",
+      },
+      {
+        heading: "Que ne disent pas ces moyennes ?",
+        body: "Elles ne mesurent ni l'hiver en altitude, avec la neige sur la route et l'éloignement des hôpitaux, ni la saison sur la côte, quand la population gonfle l'été et qu'une partie des commerces ferme l'hiver. Le transport est faible des deux côtés : 4,4 en montagne, 5,1 en bord de mer. Et les risques diffèrent : consultez la page Risques de la fiche ville, pour l'érosion du littoral comme pour les crues de montagne.",
+      },
+      {
+        heading: "Mer ou montagne : que choisir selon votre profil ?",
+        body: "Budget serré ou achat : la montagne, deux fois moins chère au m². Besoin de services, de culture et de trains : le littoral, de préférence une ville comme La Rochelle. Priorité à la sécurité : la montagne, à 7,1. Retraite au soleil : le littoral, en acceptant d'y mettre le prix.",
+      },
+    ],
+    relatedCities: ["le-puy-en-velay", "gex", "pontarlier", "anglet", "carnac", "les-sables-d-olonne", "grenoble", "la-rochelle"],
+    relatedGuides: ["villes-bord-de-mer-ou-vivre-en-2027", "vivre-en-montagne-toute-annee-france-2026", "ou-vivre-en-france-2027-villes-les-mieux-notees"],
+    tags: ["mer", "montagne", "comparaison", "loyers", "où vivre"],
+  },
+  {
+    slug: "teletravailler-a-moins-de-2h-de-paris-en-train",
+    title: "Télétravailler à moins de 2 h de Paris en train : les villes les mieux notées",
+    metaTitle: "Télétravailler à moins de 2 h de Paris en train : où ?",
+    metaDesc:
+      "À moins de 2 h de Paris en train direct : Rennes 7,8/10, Lyon 7,6, Strasbourg 7,5. À une heure : Lille et Tours, avec un T2 à 800 € et 700 €.",
+    category: "teletravail",
+    emoji: "🚄",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Parmi les villes à moins de 2 heures de Paris en train direct, Rennes obtient le meilleur score télétravail (7,8/10, à 1 h 30), devant Lyon (7,6, à 1 h 57) et Strasbourg (7,5, à 1 h 50). À une heure environ, Lille (7,0) et Tours (6,8) sont les mieux placées, avec un T2 à 800 € et 700 € contre 1 800 € à Paris.",
+    sections: [
+      {
+        heading: "D'où viennent ces temps de trajet ?",
+        body: "Ce sont les meilleurs temps en train direct entre la gare principale de chaque ville et Paris, d'après les horaires SNCF relevés en juin 2025. Ils valent de gare à gare : ajoutez le trajet jusqu'à la gare et le métro à l'arrivée. Tous les trains ne tiennent pas le meilleur temps, et la fréquence varie beaucoup d'une ligne à l'autre. Le score télétravail est celui de notre classement, loyer et transport compris.",
+      },
+      {
+        heading: "Quelles villes à moins de 2 h ont le meilleur score télétravail ?",
+        body: "Rennes : 7,8, à 1 h 30, T2 à 820 €. Lyon : 7,6, à 1 h 57, 1 000 €. Strasbourg : 7,5, à 1 h 50, 800 €. Angers : 7,2, à 1 h 35, 750 €. Lille : 7,0, à 1 h 02, 800 €. Tours : 6,8, à 1 h 05, 700 €. Dijon : 6,7, à 1 h 35, 720 €. Caen : 6,5, à 1 h 50, 700 €. Nancy : 6,4, à 1 h 30, 710 €. Rouen : 6,2, à 1 h 10, 720 €.\n\nLe palier suivant, 6,1, réunit Reims, Chartres, Metz, Poitiers et Troyes. Paris obtient 6,9 (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Quelles villes sont à une heure de Paris ou presque ?",
+        body: "Reims : 45 minutes, score 6,1, T2 à 680 €. Arras : 50 minutes, 6,0, 540 €. Évreux : 55 minutes, 5,0, 610 €. Le Mans et Chartres : 1 heure, 5,7 et 6,1, pour 650 € et 680 €. Lille : 1 h 02. Tours : 1 h 05. Rouen et Orléans : 1 h 10.\n\nÀ cette distance, deux jours de bureau par semaine restent tenables. Lille et Tours sont les seules de ce groupe à dépasser 6,5.",
+      },
+      {
+        heading: "Combien économise-t-on sur le loyer ?",
+        body: "Par rapport à un T2 parisien à 1 800 € : 1 260 € par mois à Arras, 1 120 € à Reims, 1 100 € à Tours, 1 000 € à Lille et à Strasbourg, 980 € à Rennes. Sur un an, cela représente 13 200 € à Tours et 11 760 € à Rennes.\n\nDe cette somme, il faut retirer l'abonnement de train, qui n'est pas compté ici et qui dépend du nombre d'allers-retours.",
+      },
+      {
+        heading: "Que vaut le cadre de vie dans ces villes ?",
+        body: "Très inégal. Rennes est notée 7,4 au global, Strasbourg 7,5, Lyon 7,1, Angers 6,7. Plus près de Paris, les notes baissent : Tours 6,4, Chartres 6,0, Rouen et Orléans 5,8, Reims, Arras, Lille et Le Mans 5,7. La sécurité est le point faible de Lille (3,9), de Rouen (4,7) et d'Évreux (4,7).",
+      },
+      {
+        heading: "Quelles sont les limites de ce classement ?",
+        body: "Il ne retient que les villes avec une gare en liaison directe : une commune voisine peut être moins chère pour vingt minutes de plus. Il ignore le prix et la régularité des trains. Et un score de ville ne dit pas si la fibre arrive à votre adresse : vérifiez-le sur la page Connexion internet de la fiche ville.",
+      },
+      {
+        heading: "Quelle ville selon votre rythme de bureau ?",
+        body: "Deux ou trois jours par semaine à Paris : Lille, Tours ou Reims, à une heure environ. Un jour par semaine : Rennes, Angers ou Dijon, mieux notées et à 1 h 30 ou 1 h 35. Une fois par mois : Strasbourg ou Lyon, les meilleures notes globales de la liste. Loyer le plus bas : Arras, à 540 € le T2.",
+      },
+    ],
+    relatedCities: ["rennes", "lyon", "strasbourg", "angers", "lille", "tours", "reims", "dijon"],
+    relatedGuides: ["ou-teletravailler-en-france-en-2027", "tgv-paris-accessibilite-villes-2026", "vivre-au-vert-pres-de-paris-1h-2026"],
+    tags: ["télétravail", "train", "Paris", "TGV", "loyers"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

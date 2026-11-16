@@ -2390,3 +2390,10 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 
 - 2026-11-16 content guides data-led : FR `villes-ou-l-emploi-progresse-le-plus-2017-2023-414-villes-2026` (`jobGrowth` Insee 2017→2023, 414 villes ≥ 20 000 hab., lu par module) + EN jumelles `french-cities-where-jobs-grew-most-2017-2023-414-cities` et `french-cities-with-the-most-60-74-year-olds-413-cities-2026` (jumelle du guide FR 60-74 ans). Compteurs mesurés (`grep -c '^    slug: "'`) : voir ligne suivante. Prochain lot : taille des ménages / résidences secondaires (donnée à collecter).
 - Compteurs mesurés 2026-11-16 : FR 1610, EN 1486.
+
+## Guides data-led hors série 2027 — région, comparaison, télétravail (2026-11-16)
+
+- Livré : FR `dans-quelle-region-vivre-en-2027-classement-des-regions` (region), `grande-ville-ou-ville-moyenne-ou-vit-on-le-mieux` et `mer-ou-montagne-ou-s-installer-en-france` (comparaison), `teletravailler-a-moins-de-2h-de-paris-en-train` (teletravail) ; EN `best-regions-to-live-in-france-2027`, `towns-within-2-hours-of-paris-by-train-for-remote-work`, `sea-or-mountains-where-to-live-in-france`.
+- Données : moyennes de `CITIES_SEED` par région et par taille (tailles calculées hors Île-de-France : 151 communes de banlieue faussaient la tranche 20 000-100 000), 55 villes du classement Bord de mer face à 42 villes de montagne (altitude ≥ 500 m ou étiquette), temps de train de `lib/paris-commute.ts` en gare directe seulement.
+- Vérifié avant écriture : aucun slug FR ou EN sur ces sujets. Index de recherche : 1 623 FR / 1 508 EN.
+- Prochain lot possible : jumelle EN du guide tailles de ville ; nord ou sud ; quelle région pour télétravailler.

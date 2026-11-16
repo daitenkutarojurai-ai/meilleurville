@@ -11085,6 +11085,21 @@
       "slug": "best-student-cities-in-france-2027",
       "title": "Best Student Cities in France in 2027: Scores and the Cost of a Studio",
       "emoji": "🎓"
+    },
+    {
+      "slug": "best-regions-to-live-in-france-2027",
+      "title": "Best Regions to Live in France in 2027: All 13 Mainland Regions Ranked",
+      "emoji": "🗺️"
+    },
+    {
+      "slug": "towns-within-2-hours-of-paris-by-train-for-remote-work",
+      "title": "Towns Within 2 Hours of Paris by Train: The Best for Remote Work",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "sea-or-mountains-where-to-live-in-france",
+      "title": "Sea or Mountains: Where to Live in France? Scores and Rents Compared",
+      "emoji": "🏔️"
     }
   ],
   "tags": [
@@ -11101,7 +11116,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 319
+      "count": 322
     },
     {
       "slug": "single-parent-in-france",
@@ -11206,7 +11221,7 @@
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 57
+      "count": 58
     },
     {
       "slug": "single-supplement",
@@ -11221,7 +11236,7 @@
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 51
+      "count": 52
     },
     {
       "slug": "normandy",
@@ -11389,6 +11404,11 @@
       "count": 10
     },
     {
+      "slug": "2027-ranking",
+      "label": "2027 ranking",
+      "count": 9
+    },
+    {
       "slug": "corsica",
       "label": "corsica",
       "count": 9
@@ -11422,11 +11442,6 @@
       "slug": "toulouse",
       "label": "toulouse",
       "count": 9
-    },
-    {
-      "slug": "2027-ranking",
-      "label": "2027 ranking",
-      "count": 8
     },
     {
       "slug": "basque-country",
@@ -11624,6 +11639,16 @@
       "count": 5
     },
     {
+      "slug": "remote-work",
+      "label": "remote work",
+      "count": 5
+    },
+    {
+      "slug": "rents",
+      "label": "rents",
+      "count": 5
+    },
+    {
       "slug": "safety",
       "label": "safety",
       "count": 5
@@ -11701,11 +11726,6 @@
     {
       "slug": "property-investment-france",
       "label": "property investment france",
-      "count": 4
-    },
-    {
-      "slug": "remote-work",
-      "label": "remote work",
       "count": 4
     },
     {
@@ -11874,6 +11894,11 @@
       "count": 3
     },
     {
+      "slug": "mountains",
+      "label": "mountains",
+      "count": 3
+    },
+    {
       "slug": "niort",
       "label": "niort",
       "count": 3
@@ -11906,11 +11931,6 @@
     {
       "slug": "renting-in-france",
       "label": "renting in france",
-      "count": 3
-    },
-    {
-      "slug": "rents",
-      "label": "rents",
       "count": 3
     },
     {
