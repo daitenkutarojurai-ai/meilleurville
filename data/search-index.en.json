@@ -6897,6 +6897,36 @@
       "emoji": "🎓"
     },
     {
+      "slug": "studying-in-villeurbanne-2026",
+      "title": "Studying in Villeurbanne (2026): La Doua campus, INSA, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-versailles-2026",
+      "title": "Studying in Versailles (2026): architecture, landscape, rents",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-creteil-2026",
+      "title": "Studying in Créteil (2026): UPEC, metro line 8, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-nanterre-2026",
+      "title": "Studying in Nanterre (2026): university, RER A, rents, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-montreuil-2026",
+      "title": "Living in Montreuil while studying in Paris: rents, budget 2026",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-beauvais-2026",
+      "title": "Studying in Beauvais (2026): UniLaSalle, IUT, budget",
+      "emoji": "🎓"
+    },
+    {
       "slug": "solo-travel-in-paris-2026",
       "title": "Solo travel in Paris: where to stay, where to drink, when to go",
       "emoji": "🍸"
@@ -11131,7 +11161,7 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 99
+      "count": 103
     },
     {
       "slug": "relocation",
@@ -11141,7 +11171,7 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 97
+      "count": 98
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -11174,14 +11204,14 @@
       "count": 77
     },
     {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
       "count": 77
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 76
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 77
     },
     {
       "slug": "moving-to-france-with-children",
@@ -11201,17 +11231,17 @@
     {
       "slug": "student-housing-france",
       "label": "student housing france",
-      "count": 61
+      "count": 67
     },
     {
       "slug": "international-students",
       "label": "international students",
-      "count": 60
+      "count": 66
     },
     {
       "slug": "student-visa-france",
       "label": "student visa france",
-      "count": 60
+      "count": 66
     },
     {
       "slug": "pays-de-la-loire",

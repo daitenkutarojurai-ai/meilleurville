@@ -26494,6 +26494,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["studying in valence", "international students", "student housing france", "student visa france", "auvergne-rhône-alpes"],
   },
   {
+    slug: "studying-in-villeurbanne-2026",
+    title: "Studying in Villeurbanne (2026): La Doua campus, INSA, budget",
+    metaTitle: "Studying in Villeurbanne 2026: La Doua, INSA, Budget",
+    metaDesc:
+      "A studio at €600 on our estimate, the La Doua campus, tram T1 and T4. The figure-by-figure guide, with Lyon and Grenoble as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Villeurbanne scores 7.7/10 on our student-life score, ranked 4th of 593 and tied with one other city, a hair behind Lyon (7.8) and above Grenoble (7.3). A studio costs €600 and a one-bedroom €870, which is €120 less than a studio in Lyon (€720) (our rent estimate). People aged 15 to 29 make up 29.2% of the 162,207 residents (INSEE, 2022 census): a real student town, stuck to the side of Lyon.",
+    sections: [
+      {
+        heading: "What can you study in Villeurbanne?",
+        body: "The LyonTech-La Doua campus sits in Villeurbanne. It hosts INSA Lyon, an engineering school, and part of Université Lyon 1, served by tram T1 (stops Université Lyon 1, La Doua - Gaston Berger and INSA - Einstein) and tram T4 (La Doua - Gaston Berger), according to INSA. From Part-Dieu station, count metro B then T1, or T4 direct. It is an engineering and science hub; for law, humanities or medicine you head to other Lyon sites.",
+      },
+      {
+        heading: "What does a student flat cost in Villeurbanne?",
+        body: "A studio is estimated at €600 and a one-bedroom at €870 a month (our rent estimate). Lyon is at €720 and €1,000, Grenoble at €560 and €750. Villeurbanne therefore rents €120 below Lyon for a daily life that stays one tram stop from Part-Dieu or Charpennes. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing, since G-rated flats can no longer be newly let.",
+      },
+      {
+        heading: "Monthly budget: about €960",
+        body: "Studio: €600 (our rent estimate). Transport: €30, our assumption, to check with the TCL network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €960 a month before aid, against €1,080 in Lyon and €920 in Grenoble on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution). Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Villeurbanne, Lyon or Grenoble?",
+        body: "Lyon and Villeurbanne have the same share of 15-29s (29.2%), Grenoble 31.3%. On scores, Lyon is at 7.8, Villeurbanne 7.7 and Grenoble 7.3. Villeurbanne sits slightly below Lyon on culture (8.4 against 9.0), level on transport (9.0) and costs less; Grenoble is still €40 a month cheaper on our standard budget, with a smaller network. For a big-city ecosystem without Lyon's rent, Villeurbanne wins.",
+      },
+      {
+        heading: "What is student life like in Villeurbanne?",
+        body: "It is not a dormitory suburb: our culture score is 8.4/10 and transport 9.0/10, with the whole Lyon area a tram or metro ride away. The median income is €21,540 a year and the poverty rate 21% (INSEE, Filosofi 2021): a working-class town, more affordable than Lyon (€25,430). It has gained 13,188 residents since 2016 (149,019 in 2016, 162,207 in 2022), up 8.9%.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Internships and work-study contracts draw on the whole Lyon area: industry, digital, health, logistics; part-time jobs are in Lyon retail and catering (a student permit allows up to 964 hours of work a year). Verdict: Villeurbanne suits an engineering or science student at La Doua who wants a €600 studio and the metro on foot. It suits less anyone dreaming of a historic city centre: Lyon is the answer, for €120 more a month on the studio.",
+      },
+    ],
+    relatedCities: ["villeurbanne", "lyon", "grenoble", "saint-etienne"],
+    tags: ["studying in villeurbanne", "international students", "student housing france", "student visa france", "auvergne-rhône-alpes"],
+  },
+  {
+    slug: "studying-in-versailles-2026",
+    title: "Studying in Versailles (2026): architecture, landscape, rents",
+    metaTitle: "Studying in Versailles 2026: Schools, Rents, Budget",
+    metaDesc:
+      "A studio at €800 on our estimate, the architecture and landscape schools. The figure-by-figure guide, with Paris and Cergy as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Studying in Versailles means €800 for a studio and €1,200 for a one-bedroom: €400 less than a studio in Paris (€1,200) but €200 more than in Cergy (€600) (our rent estimate). Our student-life score is 7.0/10, ranked 31st of 593 and tied with ten other cities, almost level with Paris (7.1). This is a town for specialists, not for crowds: 20.8% of the 83,918 residents are aged 15 to 29 (INSEE, 2022 census).",
+    sections: [
+      {
+        heading: "What do you study in Versailles?",
+        body: "The schools occupy the grounds of the royal palace estate: the École nationale supérieure d'architecture de Versailles (5 avenue de Sceaux), with 11,500 m² of listed buildings, and the École nationale supérieure de paysage, which uses the Potager du Roi (the king's kitchen garden) as a teaching site. The Université de Versailles Saint-Quentin-en-Yvelines (UVSQ) also has a site in Versailles, among its campuses at Vélizy, Rambouillet, Mantes and Saint-Quentin. You choose Versailles for a specific course, rarely for a general degree.",
+      },
+      {
+        heading: "How much does a studio cost in Versailles?",
+        body: "A studio is estimated at €800 and a one-bedroom at €1,200 a month (our rent estimate). That puts Versailles €400 under Paris but €200 above Cergy. Two people sharing a one-bedroom bring the rent to €600 each. Visale, the free state rent guarantee, replaces a French guarantor; check the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "A student budget in Versailles: €1,220",
+        body: "Studio: €800 (our rent estimate). Transport: €90, our assumption for an Île-de-France pass, to check with Île-de-France Mobilités. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,220 a month before aid, against €1,620 in Paris on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution). Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Versailles, Paris or Cergy?",
+        body: "Paris has 24.3% of residents aged 15 to 29 and a score of 7.1; Cergy 26.3% and 6.6; Versailles 20.8% and 7.0. Versailles has the lowest share of young people of the three: nobody comes for a mass student scene. It is the dearer of the two outer cities, but it offers a first-rate cultural setting (culture 9.0/10, transport 8.4/10).",
+      },
+      {
+        heading: "What is student life like in Versailles?",
+        body: "Student life in a heritage town: the setting is exceptional and nights out are quieter than in the capital. The median income is €33,780 a year and the poverty rate 7% (INSEE, Filosofi 2021): the town is affluent, which explains the rents. Its population fell 1.7% since 2016 (85,346, then 83,918 in 2022).",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Internships are found in heritage, culture, landscape and architecture, and more widely across the Paris region (a student permit allows up to 964 hours of work a year). Verdict: Versailles suits an architecture or landscape student who wants to live on the spot and accepts an €800 studio. It suits less anyone who needs a tight rent and a lively student scene: Cergy is the answer, with a studio €200 cheaper.",
+      },
+    ],
+    relatedCities: ["versailles", "paris", "cergy", "rueil-malmaison"],
+    tags: ["studying in versailles", "international students", "student housing france", "student visa france", "île-de-france"],
+  },
+  {
+    slug: "studying-in-creteil-2026",
+    title: "Studying in Créteil (2026): UPEC, metro line 8, budget",
+    metaTitle: "Studying in Créteil 2026: UPEC, Metro 8, Budget",
+    metaDesc:
+      "A studio at €650 on our estimate, Paris-Est Créteil University and metro line 8. The figure-by-figure guide, with Paris and Nanterre.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "A studio in Créteil costs €650, €550 less than in Paris (€1,200), and the Créteil-Université metro station serves the campus directly (our rent estimate; UPEC). Our student-life score is 6.1/10, ranked 190th of 593 and tied with seventeen other cities: this is a campus town, not a nightlife town. 22.1% of the 92,859 residents are aged 15 to 29 (INSEE, 2022 census).",
+    sections: [
+      {
+        heading: "What can you study in Créteil?",
+        body: "The town is home to Université Paris-Est Créteil (UPEC), several of whose campuses are in Créteil. Headcounts vary by source: 42,000 students in 2023-2024 according to the university's mobility plan, 38,895 in 2024-2025 according to Onisep. Take it as between 39,000 and 42,000. UPEC says its Créteil campuses are under 30 minutes from central Paris by metro (line 8).",
+      },
+      {
+        heading: "What does a student flat cost in Créteil?",
+        body: "A studio is estimated at €650 and a one-bedroom at €950 a month (our rent estimate). That is €550 less than Paris and €70 less than Nanterre (€720). The saving is clear if you study in Créteil itself; if you work in Paris, weigh it against the commute. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "What monthly budget for a student in Créteil?",
+        body: "Studio: €650 (our rent estimate). Transport: €90, our assumption for an Île-de-France pass, to check with Île-de-France Mobilités. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,070 a month before aid, against €1,620 in Paris and €1,140 in Nanterre on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution). Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Créteil, Paris or Nanterre?",
+        body: "Paris has 24.3% of residents aged 15 to 29 and a score of 7.1; Nanterre 22.7% and 6.2; Créteil 22.1% and 6.1. The two suburbs resemble each other: rents within €70, a big campus each, a rail or metro link to Paris. Créteil has a weaker culture score (6.2/10) than Paris (9.0/10), but its transport is 9.0/10.",
+      },
+      {
+        heading: "What is student life like in Créteil?",
+        body: "Student life centres on the campus and the prefecture, and the big nights out happen in Paris, half an hour away by metro. The median income is €21,270 a year and the poverty rate 21% (INSEE, Filosofi 2021), close to Nanterre. The population is rising: 89,392 residents in 2016, 92,859 in 2022 (up 3.9%).",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Part-time jobs are in Val-de-Marne retail and catering, internships across the Paris region, which the metro brings closer (a student permit allows up to 964 hours of work a year). Verdict: Créteil suits a UPEC student who wants a €650 studio and the capital within reach of line 8. It suits less anyone who wants a neighbourhood that is lively at night: Paris is the answer, with a studio €550 dearer.",
+      },
+    ],
+    relatedCities: ["creteil", "paris", "nanterre", "montreuil"],
+    tags: ["studying in créteil", "international students", "student housing france", "student visa france", "île-de-france"],
+  },
+  {
+    slug: "studying-in-nanterre-2026",
+    title: "Studying in Nanterre (2026): university, RER A, rents, budget",
+    metaTitle: "Studying in Nanterre 2026: University, RER A, Budget",
+    metaDesc:
+      "A studio at €720 on our estimate, Paris Nanterre University and the RER A. The figure-by-figure guide, with Paris and Créteil.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "A studio in Nanterre rents for €720 and a one-bedroom for €1,050: €480 less than a studio in Paris but €70 more than in Créteil (our rent estimate). Our student-life score is 6.2/10, ranked 168th of 593 and tied with twenty-one other cities. Paris Nanterre University, about 33,000 students, makes the town a hub for law and the humanities: 22.7% of the 98,119 residents are aged 15 to 29 (INSEE, 2022 census).",
+    sections: [
+      {
+        heading: "How good is Paris Nanterre University?",
+        body: "The university reports 33,152 students in 2024-2025 according to the HCERES evaluation (the state research-evaluation agency), excluding double enrolments in preparatory classes, and close to 35,000 in its November 2025 press release. The main campus is served by the RER A suburban line at Nanterre-Université station. Law, literature and the humanities and social sciences dominate.",
+      },
+      {
+        heading: "How much does student housing cost in Nanterre?",
+        body: "A studio is estimated at €720 and a one-bedroom at €1,050 a month (our rent estimate). That is €480 less than Paris (€1,200) and €70 more than Créteil (€650). Nanterre is the dearer of the two campus suburbs, with an RER A line linking it to central Paris. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Budget: about €1,140 a month",
+        body: "Studio: €720 (our rent estimate). Transport: €90, our assumption for an Île-de-France pass, to check with Île-de-France Mobilités. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,140 a month before aid, against €1,620 in Paris and €1,070 in Créteil on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution). Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Nanterre or Créteil, with Paris in the background?",
+        body: "Nanterre has 22.7% of residents aged 15 to 29 and a score of 6.2; Créteil 22.1% and 6.1; Paris 24.3% and 7.1. Between the two suburbs, the gap comes down to €70 of rent and the link (RER A at Nanterre, metro 8 at Créteil). Nanterre has a bit more culture than Créteil (6.6/10 against 6.2/10) and transport of 9.0/10.",
+      },
+      {
+        heading: "What is student life like in Nanterre?",
+        body: "A campus student life: you study here, and nights out mostly happen in Paris or La Défense, by RER A. The median income is €21,620 a year and the poverty rate 22% (INSEE, Filosofi 2021). The population grew from 94,258 in 2016 to 98,119 in 2022, up 4.1%.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Internships and work-study draw on the Hauts-de-Seine business district a few RER stops away, and part-time jobs on retail and catering (a student permit allows up to 964 hours of work a year). Verdict: Nanterre suits a law or humanities student who wants a €720 studio and a campus within reach of the RER. It suits less anyone counting on a lively neighbourhood evening scene: Paris remains the answer, with a studio €480 dearer.",
+      },
+    ],
+    relatedCities: ["nanterre", "paris", "creteil", "rueil-malmaison"],
+    tags: ["studying in nanterre", "international students", "student housing france", "student visa france", "île-de-france"],
+  },
+  {
+    slug: "studying-in-montreuil-2026",
+    title: "Living in Montreuil while studying in Paris: rents, budget 2026",
+    metaTitle: "Studying in Montreuil 2026: Rents, Metro, Budget",
+    metaDesc:
+      "A studio at €700 on our estimate, €500 less than Paris, metro lines 9 and 11. The figure-by-figure guide, with Paris and Saint-Denis.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "You choose Montreuil for the rent and the metro: a studio costs €700, which is €500 less than in Paris, and a one-bedroom €1,050 (our rent estimate). Our student-life score is 6.5/10, ranked 101st of 593 and tied with twenty-six other cities. Only 19.2% of the 110,758 residents are aged 15 to 29 (INSEE, 2022 census): people often live here to study elsewhere, in Paris.",
+    sections: [
+      {
+        heading: "Why live in Montreuil to study in Paris?",
+        body: "For the price: a €700 studio against €1,200 in Paris frees up €500 a month in a student budget. The price of the link is travel time. Metro line 9 serves the town, and line 11 has been extended since 13 June 2024 to Rosny – Bois-Perrier with six new stations, including Montreuil - Hôpital; the RATP (Paris transit operator) announces 25 minutes between Rosny – Bois-Perrier and Châtelet, against 55 before.",
+      },
+      {
+        heading: "What does a student flat cost in Montreuil?",
+        body: "A studio is estimated at €700 and a one-bedroom at €1,050 a month (our rent estimate). That is €500 less than Paris and €50 more than Saint-Denis (€650). Montreuil is therefore not the cheapest close suburb: you pay for the proximity to Paris and a more fashionable setting. Visale, the free state rent guarantee, replaces a French guarantor; check the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "What budget for a student in Montreuil?",
+        body: "Studio: €700 (our rent estimate). Transport: €90, our assumption for an Île-de-France pass, to check with Île-de-France Mobilités. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €1,120 a month before aid, against €1,620 in Paris and €1,070 in Saint-Denis on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution). Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Montreuil, Paris or Saint-Denis?",
+        body: "Paris has 24.3% of residents aged 15 to 29 and a score of 7.1; Saint-Denis 22.7% and 5.7; Montreuil 19.2% and 6.5. Montreuil comes clearly ahead of Saint-Denis on our score and stays €500 under Paris. Its culture score is 7.3/10 and transport 9.0/10, for a town livelier than its student numbers suggest.",
+      },
+      {
+        heading: "What is daily life like in Montreuil?",
+        body: "A town of neighbourhoods, cafés and small shops more than a campus town. The median income is €21,150 a year and the poverty rate 25% (INSEE, Filosofi 2021), a level that explains the range of rents. The population rose from 108,402 in 2016 to 110,758 in 2022 (up 2.2%).",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Internships and work-study contracts are won in Paris and eastern Île-de-France, which the metro brings closer; part-time jobs are in local catering and retail (a student permit allows up to 964 hours of work a year). Verdict: Montreuil suits a Paris student who wants the metro on foot and to save €500 a month on the studio. It suits less anyone who wants a campus on the spot: Créteil or Nanterre are the answer, with their big universities.",
+      },
+    ],
+    relatedCities: ["montreuil", "paris", "saint-denis", "creteil"],
+    tags: ["studying in montreuil", "international students", "student housing france", "student visa france", "île-de-france"],
+  },
+  {
+    slug: "studying-in-beauvais-2026",
+    title: "Studying in Beauvais (2026): UniLaSalle, IUT, budget",
+    metaTitle: "Studying in Beauvais 2026: UniLaSalle, IUT, Budget",
+    metaDesc:
+      "A studio at €470 on our estimate, UniLaSalle and the Oise IUT. The figure-by-figure guide, with Amiens and Compiègne as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Beauvais houses its students at €470 for a studio and €650 for a one-bedroom: €20 less than in Amiens and €60 less than in Compiègne (our rent estimate). Our student-life score is 6.9/10, ranked 42nd of 593 and tied with seven other cities, ahead of Amiens (6.5) but behind Compiègne (7.1). The town has 55,906 residents, of whom 21.4% are aged 15 to 29 (INSEE, 2022 census): a compact campus for a small budget.",
+    sections: [
+      {
+        heading: "What can you study in Beauvais?",
+        body: "Two main sites. UniLaSalle claims about 2,295 students and 20 hectares on its Beauvais campus, the institute's largest, with courses in earth, life and environmental sciences. The IUT de l'Oise, Beauvais campus, part of the Université de Picardie Jules Verne (54 boulevard Saint-André), offers BUT degrees (three-year technical degrees) such as business administration or marketing. A university annex and a CROUS restaurant and residence near the IUT complete the offer.",
+      },
+      {
+        heading: "What does a student flat cost in Beauvais?",
+        body: "A studio is estimated at €470 and a one-bedroom at €650 a month (our rent estimate). Amiens is at €490 and €680, Compiègne at €530 and €730. Beauvais is the cheapest of the three, with a CROUS residence near the IUT to aim even lower. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Monthly budget: about €830",
+        body: "Studio: €470 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €830 a month before aid, against €850 in Amiens and €890 in Compiègne on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution). Since 4 May 2026 any student can eat a CROUS meal (the state student service) for €1. Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted, and the CROUS grant is effectively closed to them; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Beauvais, Amiens or Compiègne?",
+        body: "Amiens has 29.0% of residents aged 15 to 29 and a score of 6.5; Compiègne 23.9% and 7.1; Beauvais 21.4% and 6.9. Amiens is the largest of the three; Beauvais is the cheapest, with a culture score of 7.5/10, equal to Compiègne's, and transport of 7.7/10. For a BUT or an environmental course, Beauvais is enough.",
+      },
+      {
+        heading: "What is student life like in Beauvais?",
+        body: "Student life in a mid-sized town: few students in proportion, but low rents and a centre you can cross on foot. The median income is €19,520 a year and the poverty rate 25% (INSEE, Filosofi 2021). The population is stable: 56,020 residents in 2016, 55,906 in 2022.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Management and business internships are found around the Oise, environmental ones with local firms, and part-time jobs in retail and catering (a student permit allows up to 964 hours of work a year). Verdict: Beauvais suits an UniLaSalle or IUT student who wants a €470 studio and a human-sized town. It suits less anyone who wants a general university: Amiens is the answer, with a studio €20 dearer.",
+      },
+    ],
+    relatedCities: ["beauvais", "amiens", "compiegne", "creil"],
+    tags: ["studying in beauvais", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
     metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",
