@@ -66067,6 +66067,102 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["cahors","rodez","perigueux","mende","aurillac","quimper","ales","privas","agen","saint-brieuc"],
     tags: ["barn conversion","buying a barn in France","change of use","building permit","CUb","renovation costs","rural property","French property"],
   },
+  {
+    slug: "family-property-company-sci-france-2026",
+    title: "Family property company (SCI) in France: set-up, tax and when it is worth it",
+    metaTitle: "Family SCI in France 2026: when it is worth it",
+    metaDesc: "A family SCI holds property through a company. How it works, income tax vs corporate tax, gifting shares, costs, and who should skip it.",
+    category: "budget",
+    emoji: "👨‍👩‍👧",
+    readMinutes: 9,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "A société civile immobilière (SCI) is a private company that owns property on behalf of its members, usually relatives. It is useful for passing property down gradually and for avoiding the deadlock of joint ownership, but it adds paperwork, accounting and borrowing friction. For a single home and one or two heirs it is often more machinery than the situation needs. This guide covers what it does, the two tax options, the costs, and who should look at something simpler.",
+    sections: [
+      {
+        heading: "What is a family SCI and what does it actually do?",
+        body: "An SCI is a civil (non-trading) company that holds real estate. It needs at least two members (associés), who can be parents, children or a couple, and the rules of the game are written in its statutes: who manages it, how decisions are voted, whether shares can be sold to outsiders. The property belongs to the company, and each member owns shares in it. That separation is the whole point. You can give or sell shares without re-registering the property each time, and the statutes, not the default rules for joint ownership (indivision), decide who has the final say. The company must keep annual accounts and file a tax return (form 2072 when it is under the default income-tax regime). Members are personally liable for the company's debts in proportion to their shares, so it is not a liability shield the way a limited company is."
+      },
+      {
+        heading: "Why do families set one up?",
+        body: "Three reasons come up repeatedly. First, to avoid joint-ownership deadlock. French law lets any co-owner force a sale of jointly owned property, which is a real risk once an estate passes to several heirs. In an SCI, shares are passed on while the property stays whole, and the statutes can restrict exits. Second, to give gradually. Instead of gifting a share of a flat, you gift SCI shares in tranches, and French law lets each parent give each child a set amount free of gift tax every 15 years (the allowance is currently 100,000 euros per parent per child; check the current figure). Third, to split use from ownership: parents can keep the right to live in or rent out the property (usufruct) while the children receive the bare ownership. The taxable value of the gifted bare ownership is lower, set by an age-based scale in the tax code, which is why this is the standard estate-planning combination."
+      },
+      {
+        heading: "Income tax or corporate tax: which option?",
+        body: "By default an SCI is tax-transparent: rental profit is taxed in the members' hands at their income-tax rate plus social charges. You can deduct interest and running costs, and a rental loss on unfurnished lets can be set against other income within legal limits. The sale of the property is taxed under the private-individual capital-gains rules, which include a holding-period allowance that eventually exempts long-held assets. The alternative is to opt for corporate tax (impôt sur les sociétés, IS). The company can then depreciate the building and keep profits inside to reinvest, at corporate rates. The price is on exit: the gain on a sale is calculated on the depreciated value and taxed with no holding-period relief, and taking profits out as dividends is taxed again. The IS option is difficult to reverse. As a rule of thumb, the default income-tax option suits a family home or a modest letting portfolio held for the long term and handed down. Corporate tax can suit a larger letting business that will reinvest for decades. Get a written simulation before choosing, because the gap grows with the holding period."
+      },
+      {
+        heading: "What does it cost to set up and run?",
+        body: "Budget for three kinds of cost. Creation: drafting statutes, registering the company and publishing a legal notice. A notary is not mandatory to create the SCI, but the transfer of an existing property into it goes through a notary and is taxed like any other transfer, so putting an existing home into an SCI is not free. Running: a yearly accountant is optional under the default regime but advisable, and the company needs a written annual approval of accounts. Borrowing: banks are more cautious lending to a company and usually ask the members for personal guarantees. Also note that first-time buyer schemes aimed at private individuals, such as the interest-free loan (PTZ, a state-backed zero-rate loan for first homes), are not available to a company. We have not quoted fee ranges here because they vary by notary, accountant and region; ask for three quotes."
+      },
+      {
+        heading: "How does an SCI protect a surviving partner?",
+        body: "Where a couple is unmarried or married under separate property and the home is held jointly, the death of one partner can leave the other in joint ownership with the deceased's heirs, and the heirs can in principle force a sale. A well-drafted SCI can prevent that. The statutes can give the survivor the right to stay, for instance through a lifetime right of use over the shares or a requirement that heirs agree before a sale. French succession law protects children's minimum share (réserve héréditaire), so the structure has to be designed around it rather than against it. This is the case where a notary's advice is worth the fee: a clause that looks protective but ignores forced heirship can be challenged later."
+      },
+      {
+        heading: "What are the usual traps?",
+        body: "The most common is buying a structure nobody needed. Advisers sometimes recommend an SCI to households where one gift or a will would do the same job. The second is the corporate-tax option chosen for the depreciation and regretted at sale, because it is hard to unwind. The third is neglect: companies that skip annual approvals and accounts make a later dispute with the tax office or with relatives much harder to settle. Fourth, irreversibility: once usufruct has been split from bare ownership, selling the property generally needs everyone's agreement. Fifth, family conflict: an SCI does not remove disagreements, it just moves them into the shareholders' meeting, so the statutes need clear rules on exits, valuation of shares and who decides on a sale. Finally, a mortgage held by the SCI usually means personal guarantees from the members, so it does not ring-fence your own finances."
+      },
+      {
+        heading: "What are the simpler alternatives?",
+        body: "For a modest estate, a plain gift (donation) from parent to child uses the same 15-year allowance with a lot less paperwork. A gift of the bare ownership of a property, with the parents keeping usufruct, achieves much of the same effect without a company. A will can arrange the surviving partner's position within the limits of forced heirship. Life insurance sits outside the normal succession and has its own allowance per beneficiary for premiums paid before age 70, though the rules are specific, so check them for your case. A division-of-estate gift (donation-partage) fixes the value each child receives and reduces later arguments. These are not mutually exclusive with an SCI, but when only one home and one or two heirs are involved, they often get you most of the benefit."
+      },
+      {
+        heading: "Who is an SCI right for?",
+        body: "It tends to make sense for a family with several properties or a property of real value, several heirs who might disagree, a plan to give in stages over many years, or a blended family where children come from different relationships. It also suits investors who will hold several lets for decades and have modelled the corporate-tax option. It rarely makes sense for a young couple buying their first home, for a household with one child and one property, or for a short-term investment. If you are a foreign buyer, add one more check: how the structure interacts with the tax rules of the country you live in. In every case, take advice from a notary who handles estate planning before signing the statutes."
+      }
+    ],
+    relatedCities: ["lyon","bordeaux","nantes","toulouse","paris"],
+    tags: ["SCI","family property company","estate planning France","gifting property","usufruct","income tax vs corporate tax","joint ownership","French notary"],
+  },
+  {
+    slug: "cross-dismemberment-property-couples-france-2026",
+    title: "Cross-dismemberment in France: protecting a partner who is not a spouse",
+    metaTitle: "Cross-dismemberment in France: protect a partner",
+    metaDesc: "How cross-dismemberment of ownership lets a surviving partner keep the home in France, who it suits, its limits and the tax-challenge risk.",
+    category: "budget",
+    emoji: "♻️",
+    readMinutes: 8,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Cross-dismemberment (démembrement croisé) is a French estate-planning technique for couples who buy a home together. Each partner holds the usufruct of one half of the property and the bare ownership of the other half, so when one dies the survivor keeps the right to live in the whole home for life. It matters most for couples whose law gives the survivor little automatic protection: unmarried partners, civil partners (PACS) and separated-property couples with children from earlier relationships. It is also one of the more technical, and more legally scrutinised, structures in French property law, so treat this as a map for the conversation with a notary, not a do-it-yourself plan.",
+    sections: [
+      {
+        heading: "What are usufruct and bare ownership?",
+        body: "French law lets full ownership of a property be split in two. Usufruct (usufruit) is the right to use the property or collect its rent. Bare ownership (nue-propriété) is ownership without the right to use it, which becomes full ownership when the usufruct ends. A usufruct usually ends at the holder's death, and its end is not treated as an inheritance of that right. That is why splitting ownership is a standard estate-planning tool. A usufruct is valued as a percentage of the full value, using a scale in the tax code that depends on the holder's age: the older the holder, the lower the usufruct is worth."
+      },
+      {
+        heading: "How does the cross version work?",
+        body: "The couple buys the property jointly, but the deed is drafted so that partner A holds the usufruct of half X and the bare ownership of half Y, and partner B holds the reverse: the bare ownership of half X and the usufruct of half Y. While both are alive, each has the use of the whole home. When A dies, A's usufruct over half X ends, so B's bare ownership of X becomes full ownership. B also keeps the usufruct of half Y for life, while A's heirs hold only the bare ownership of Y. The result: B has the right to live in the whole property until death, and A's heirs cannot force a sale or evict B. When B dies, the usufruct ends and the heirs of both partners hold the full property in their respective halves."
+      },
+      {
+        heading: "Who is it for?",
+        body: "The technique targets couples whose default legal position is weak. Unmarried partners have no inheritance rights over each other at all, and the surviving partner can be left co-owning with the other's relatives. Civil partners (PACS) also have no automatic inheritance rights unless a will provides them. Married couples have more protection by default, including a right to stay in the family home for a period, but the survivor can still end up sharing ownership with children from an earlier relationship. It is also used to protect the survivor when the heirs are the partner's children and the couple has none together. The technique fits couples who plan to stay in the home for the long term and who are in a stable relationship."
+      },
+      {
+        heading: "What are the tax effects?",
+        body: "It is often described as a way to pass on the home free of tax. That is overstated. When the first partner dies, the value of the bare ownership of their half goes to their heirs and is taxed as an inheritance at the rate that applies to those heirs; the survivor's right to stay is what is protected, not the tax bill. Rates for heirs who are not close relatives, or for unmarried partners if the share passes by will to the survivor, can be high, whereas a PACS partner or spouse is exempt from inheritance tax on what they receive. The real tax benefit is narrower: the survivor's usufruct is not taxed on its extinction, and valuation of the bare ownership at the time of acquisition is set in the deed. Take a written calculation for your age gap and property value rather than relying on a generic percentage."
+      },
+      {
+        heading: "What are the limits and risks?",
+        body: "First, it is hard to undo. If the couple separates, the dismembered ownership has to be unwound by agreement, which can be slow and costly, so it is poorly suited to a relationship that may not last. Second, any sale needs the agreement of both the usufructuary and the bare owner. Third, the tax authority can challenge a structure it sees as having no purpose other than avoiding tax, under the abuse-of-law rules (abus de droit); the structure is safest when it is set up at the time of purchase with a documented reason, such as protecting the survivor, and with each partner funding their own share. Fourth, setting it up after the purchase means a gift or exchange between partners, with its own tax. Fifth, banks are not always comfortable with the structure, so talk to the lender before the deed. Sixth, it protects against some heirs but not against the children's minimum share (réserve héréditaire) in every configuration, so the notary must model the heirs in your case."
+      },
+      {
+        heading: "How do you set it up?",
+        body: "Ask for a notary experienced in estate planning, because not every notary handles this regularly. Set it up at the time of purchase, with the purchase price allocated between the two partners according to what each contributes and the value of the usufruct and bare ownership calculated using the legal scale. The deed states the dismemberment; you will also need an updated will in most cases. Ask the notary to model four scenarios: you die first, your partner dies first, you separate, and you sell. Ask what it costs and what each scenario costs. If you are buying through a company (SCI), the same logic can be applied to the shares, and in that case the SCI guide on this site is the one to read first."
+      },
+      {
+        heading: "What are the alternatives?",
+        body: "A will can leave your partner the right to stay in the home, within the limits of forced heirship. Marriage changes the default position fundamentally, and a marriage contract can add more. A joint-ownership clause giving the survivor the whole property (tontine clause) is possible but is taxed heavily for unmarried partners, so check it carefully. A life-insurance policy naming your partner sits outside normal succession and can provide cash. An SCI lets you fix the rules on shares and the survivor's rights in the statutes. None of these is automatically better: they trade flexibility, cost and tax differently, which is why a notary's comparison for your facts is worth the fee."
+      },
+      {
+        heading: "Who should skip it?",
+        body: "Skip it if the relationship is recent or unstable, if you may sell within a few years, if the property is modest and a will would do, or if a bank is financing most of the price on terms that make the structure difficult. Consider it if you are an unmarried or civil-partner couple, buying a long-term home, with an age gap or children from earlier relationships that make the default outcome unattractive. And if you are a foreign buyer, check how your home country will treat a split-ownership structure before you sign."
+      }
+    ],
+    relatedCities: ["lyon","bordeaux","nantes","toulouse","strasbourg"],
+    tags: ["cross-dismemberment","usufruct","bare ownership","PACS","unmarried couple","survivor protection","French succession law","French notary"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
