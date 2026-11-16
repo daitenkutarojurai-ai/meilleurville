@@ -39011,6 +39011,276 @@ export const GUIDES: Guide[] = [
     tags: ["étudiant Valence 2026", "étudier à Valence", "logement étudiant Valence", "budget étudiant Valence", "campus Briffaut IUT Valence ESISAR"],
   },
   {
+    slug: "etudiant-a-villeurbanne-2026",
+    title: "Étudiant à Villeurbanne en 2026 : La Doua, INSA, loyers, budget",
+    metaTitle: "Étudiant à Villeurbanne 2026 : La Doua, INSA, budget",
+    metaDesc: "Étudier à Villeurbanne en 2026 : studio à 600 € sur notre estimation, campus de la Doua, tram T1 et T4. Le guide chiffré, avec Lyon et Grenoble.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Villeurbanne obtient 7,7/10 sur notre score vie étudiante, au 4e rang sur 593 (à égalité avec une autre ville), à un cheveu de Lyon (7,8) et au-dessus de Grenoble (7,3) (source : notre fiche profils). Le studio y coûte 600 €, soit 120 € de moins qu'à Lyon (720 €), et le deux-pièces 870 € (source : notre estimation des loyers). Les 15-29 ans pèsent 29,2 % des 162 207 habitants (source : Insee, recensement 2022) : on est ici dans une vraie ville étudiante, collée à Lyon.",
+    sections: [
+      {
+        heading: "Quelles études à Villeurbanne ?",
+        body: "Le campus LyonTech-La Doua est à Villeurbanne : on y trouve l'INSA Lyon et une partie de l'Université Lyon 1, desservis par les tramways T1 (arrêts Université Lyon 1, La Doua - Gaston Berger et INSA - Einstein) et T4 (La Doua - Gaston Berger), selon l'INSA. Depuis Part-Dieu, il faut compter le métro B puis le T1, ou le T4 direct. C'est un pôle d'ingénieurs et de sciences ; pour le droit, les lettres ou la médecine, on file vers les autres sites lyonnais.",
+      },
+      {
+        heading: "Quel loyer étudiant à Villeurbanne ?",
+        body: "Un studio est estimé à 600 € et un deux-pièces à 870 € par mois (source : notre estimation des loyers). Lyon est à 720 € et 1 000 €, Grenoble à 560 € et 750 €. Villeurbanne se loue donc 120 € sous Lyon pour une vie quotidienne qui reste à une station de tram de la Part-Dieu ou de Charpennes. Visale remplace le garant ; le DPE est à lire avant de signer, les logements classés G étant interdits à la nouvelle location.",
+      },
+      {
+        heading: "Combien coûte un mois d'étudiant à Villeurbanne ?",
+        body: "Studio : 600 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, à vérifier auprès de TCL. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 960 € par mois avant aides, contre 1 080 € à Lyon et 920 € à Grenoble avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Villeurbanne, Lyon ou Grenoble ?",
+        body: "Lyon et Villeurbanne comptent la même part de 15-29 ans (29,2 %), Grenoble 31,3 %. Côté scores, Lyon est à 7,8, Villeurbanne à 7,7 et Grenoble à 7,3. Villeurbanne est un peu en dessous de Lyon sur la culture (8,4 contre 9,0), à égalité sur le transport (9,0), et coûte moins cher ; Grenoble reste 40 € plus économe par mois sur notre budget type, avec un réseau plus petit. Pour l'écosystème d'une métropole sans le loyer lyonnais, Villeurbanne gagne.",
+      },
+      {
+        heading: "Quelle vie étudiante à Villeurbanne ?",
+        body: "La ville n'est pas un dortoir : notre score culture est de 8,4/10 et le transport de 9,0/10 (source : notre fiche ville), avec la métropole lyonnaise à portée de tram et de métro. Le revenu médian est de 21 540 € par an et le taux de pauvreté de 21 % (source : Insee, Filosofi 2021) : une ville populaire, plus abordable que Lyon (25 430 €). Elle a gagné 13 188 habitants depuis 2016 (149 019 en 2016, 162 207 en 2022), soit +8,9 %.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages et alternances s'adressent à tout le bassin lyonnais : industrie, numérique, santé, logistique ; les jobs d'appoint se trouvent dans le commerce et la restauration lyonnais. Verdict : Villeurbanne convient à un élève ingénieur ou scientifique de la Doua qui veut un studio à 600 € et le métro à pied. Elle convient moins à qui rêve d'un hypercentre historique : Lyon est la réponse, pour 120 € de plus par mois sur le studio.",
+      },
+    ],
+    relatedCities: ["villeurbanne", "lyon", "grenoble", "saint-etienne"],
+    relatedGuides: [
+      "etudiant-a-lyon-2026",
+      "famille-a-villeurbanne-2026",
+      "10-choses-a-faire-a-villeurbanne-2026",
+    ],
+    tags: ["étudiant Villeurbanne 2026", "étudier à Villeurbanne", "logement étudiant Villeurbanne", "budget étudiant Villeurbanne", "campus La Doua INSA Lyon"],
+  },
+  {
+    slug: "etudiant-a-versailles-2026",
+    title: "Étudiant à Versailles en 2026 : architecture, paysage, loyers",
+    metaTitle: "Étudiant à Versailles 2026 : écoles, loyers, budget",
+    metaDesc: "Étudier à Versailles en 2026 : studio à 800 € sur notre estimation, école d'architecture et de paysage. Le guide chiffré, avec Paris et Cergy.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Étudier à Versailles coûte 800 € le studio et 1 200 € le deux-pièces, soit 400 € de moins qu'à Paris pour un studio (1 200 €), mais 200 € de plus qu'à Cergy (600 €) (source : notre estimation des loyers). Notre score vie étudiante est de 7,0/10, au 31e rang sur 593 à égalité avec dix autres villes, presque au niveau de Paris (7,1) (source : notre fiche profils). C'est une ville de spécialistes, pas de masse : 20,8 % de 15-29 ans sur 83 918 habitants (source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Pour quelles études choisir Versailles ?",
+        body: "Les écoles occupent le domaine national du château : l'École nationale supérieure d'architecture de Versailles (5 avenue de Sceaux), qui dispose de 11 500 m² de bâtiments classés, et l'École nationale supérieure de paysage, dont le Potager du Roi sert de site de formation. L'Université de Versailles Saint-Quentin-en-Yvelines (UVSQ) a aussi un site à Versailles, parmi ses campus de Vélizy, Rambouillet, Mantes et Saint-Quentin. Versailles se choisit pour une filière précise, rarement pour un cursus généraliste.",
+      },
+      {
+        heading: "Combien coûte un studio à Versailles ?",
+        body: "Un studio est estimé à 800 € et un deux-pièces à 1 200 € par mois (source : notre estimation des loyers). Cela place Versailles 400 € sous Paris, mais 200 € au-dessus de Cergy. La colocation à deux dans un deux-pièces ramène le loyer à 600 € chacun. Visale remplace le garant ; vérifiez le DPE avant de signer.",
+      },
+      {
+        heading: "Un budget étudiant à Versailles : 1 220 euros",
+        body: "Studio : 800 € (source : notre estimation des loyers). Transport : 90 €, une hypothèse de notre part pour un abonnement francilien, à vérifier auprès d'Île-de-France Mobilités. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 220 € par mois avant aides, contre 1 620 € à Paris avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Versailles, Paris ou Cergy ?",
+        body: "Paris a 24,3 % de 15-29 ans et un score de 7,1 ; Cergy, 26,3 % et 6,6 ; Versailles, 20,8 % et 7,0. La part de jeunes est la plus basse des trois : on ne vient pas pour l'ambiance étudiante de masse. Versailles est la plus chère des deux villes périphériques, mais elle offre un cadre culturel de premier ordre (culture 9,0/10, transport 8,4/10) (source : notre fiche ville).",
+      },
+      {
+        heading: "Quelle vie étudiante à Versailles ?",
+        body: "Une vie étudiante de ville patrimoniale : le cadre est exceptionnel, les sorties plus calmes que dans la capitale. Le revenu médian est de 33 780 € par an et le taux de pauvreté de 7 % (source : Insee, Filosofi 2021) : la ville est aisée, ce qui explique le niveau des loyers. Sa population a reculé de 1,7 % depuis 2016 (85 346, puis 83 918 en 2022).",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages se trouvent dans le patrimoine, la culture, le paysage et l'architecture, et plus largement dans le bassin francilien. Verdict : Versailles convient à un étudiant d'architecture ou de paysage qui veut vivre sur place et accepte un studio à 800 €. Elle convient moins à qui cherche un loyer serré et une vie étudiante animée : Cergy est la réponse, avec un studio moins cher de 200 €.",
+      },
+    ],
+    relatedCities: ["versailles", "paris", "cergy", "rueil-malmaison"],
+    relatedGuides: [
+      "etudiant-a-paris-2026",
+      "etudiant-a-cergy-2026",
+      "famille-a-versailles-2026",
+    ],
+    tags: ["étudiant Versailles 2026", "étudier à Versailles", "logement étudiant Versailles", "budget étudiant Versailles", "école d'architecture Versailles"],
+  },
+  {
+    slug: "etudiant-a-creteil-2026",
+    title: "Étudiant à Créteil en 2026 : UPEC, métro ligne 8, budget",
+    metaTitle: "Étudiant à Créteil 2026 : UPEC, métro 8, budget",
+    metaDesc: "Étudier à Créteil en 2026 : studio à 650 € sur notre estimation, université Paris-Est Créteil et métro ligne 8. Le guide chiffré, avec Paris et Nanterre.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Le studio à Créteil coûte 650 €, 550 € de moins qu'à Paris (1 200 €), et la station de métro Créteil-Université dessert directement le campus (source : notre estimation des loyers ; UPEC). Notre score vie étudiante est de 6,1/10, au 190e rang sur 593 à égalité avec dix-sept autres villes (source : notre fiche profils) : c'est une ville de campus, pas de sorties. 22,1 % des 92 859 habitants ont entre 15 et 29 ans (source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quelles études à Créteil ?",
+        body: "La ville est le siège de l'Université Paris-Est Créteil (UPEC), dont plusieurs campus sont situés à Créteil. Les effectifs varient selon la source : 42 000 étudiants en 2023-2024 d'après le plan de mobilité de l'université, 38 895 en 2024-2025 selon l'Onisep. Retenez un ordre de grandeur entre 39 000 et 42 000. L'UPEC indique que ses campus créteillois sont à moins de 30 minutes du centre de Paris en métro (ligne 8).",
+      },
+      {
+        heading: "Quel loyer étudiant à Créteil ?",
+        body: "Un studio est estimé à 650 € et un deux-pièces à 950 € par mois (source : notre estimation des loyers). C'est 550 € de moins qu'à Paris et 70 € de moins qu'à Nanterre (720 €). Le gain est net pour qui fait ses études à Créteil même ; pour qui travaille à Paris, il faut le mettre en balance avec le temps de transport. Visale remplace le garant ; lisez le DPE avant de signer.",
+      },
+      {
+        heading: "Quel budget mensuel pour un étudiant à Créteil ?",
+        body: "Studio : 650 € (source : notre estimation des loyers). Transport : 90 €, une hypothèse de notre part pour un abonnement francilien, à vérifier auprès d'Île-de-France Mobilités. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 070 € par mois avant aides, contre 1 620 € à Paris et 1 140 € à Nanterre avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Créteil, Paris ou Nanterre ?",
+        body: "Paris a 24,3 % de 15-29 ans et un score de 7,1 ; Nanterre, 22,7 % et 6,2 ; Créteil, 22,1 % et 6,1. Les deux villes de banlieue se ressemblent : mêmes loyers à 70 € près, même grand campus, même rattachement au métro ou au RER. Créteil a un score culture plus faible (6,2/10) que Paris (9,0/10), mais son transport est à 9,0/10 (source : notre fiche ville).",
+      },
+      {
+        heading: "Quelle vie étudiante à Créteil ?",
+        body: "La vie étudiante se concentre autour du campus et de la préfecture, et les grandes sorties se font à Paris, à une demi-heure de métro. Le revenu médian est de 21 270 € par an et le taux de pauvreté de 21 % (source : Insee, Filosofi 2021), proche de Nanterre. La population est en hausse : 89 392 habitants en 2016, 92 859 en 2022 (+3,9 %).",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs d'appoint se trouvent dans le commerce et la restauration du Val-de-Marne, et les stages sur tout le bassin francilien, que le métro rapproche. Verdict : Créteil convient à un étudiant de l'UPEC qui veut un studio à 650 € et la capitale à portée de ligne 8. Elle convient moins à qui veut vivre dans un quartier animé de nuit : Paris est la réponse, avec un studio plus cher de 550 €.",
+      },
+    ],
+    relatedCities: ["creteil", "paris", "nanterre", "montreuil"],
+    relatedGuides: [
+      "etudiant-a-paris-2026",
+      "famille-a-creteil-2026",
+      "10-choses-a-faire-a-creteil-2026",
+    ],
+    tags: ["étudiant Créteil 2026", "étudier à Créteil", "logement étudiant Créteil", "budget étudiant Créteil", "UPEC Créteil métro ligne 8"],
+  },
+  {
+    slug: "etudiant-a-nanterre-2026",
+    title: "Étudiant à Nanterre en 2026 : université, RER A, loyers, budget",
+    metaTitle: "Étudiant à Nanterre 2026 : université, RER A, budget",
+    metaDesc: "Étudier à Nanterre en 2026 : studio à 720 € sur notre estimation, université Paris Nanterre et RER A. Le guide chiffré, avec Paris et Créteil.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Un studio à Nanterre se loue 720 € et un deux-pièces 1 050 €, soit 480 € de moins qu'à Paris pour un studio, mais 70 € de plus qu'à Créteil (source : notre estimation des loyers). Notre score vie étudiante est de 6,2/10, au 168e rang sur 593 à égalité avec vingt et une autres villes (source : notre fiche profils). L'université Paris Nanterre, environ 33 000 étudiants, fait de la ville un pôle de droit et de sciences humaines : 22,7 % des 98 119 habitants ont 15 à 29 ans (source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Que vaut l'université Paris Nanterre ?",
+        body: "L'université annonce 33 152 étudiants en 2024-2025 selon l'évaluation du HCERES, hors doubles inscriptions en classes préparatoires, et près de 35 000 selon son communiqué de novembre 2025. Le campus principal est desservi par le RER A, à la station Nanterre-Université. Les filières de droit, de lettres, de sciences humaines et sociales y dominent.",
+      },
+      {
+        heading: "Combien coûte le logement étudiant à Nanterre ?",
+        body: "Un studio est estimé à 720 € et un deux-pièces à 1 050 € par mois (source : notre estimation des loyers). C'est 480 € de moins qu'à Paris (1 200 €) et 70 € de plus qu'à Créteil (650 €). Nanterre est donc la plus chère des deux banlieues à campus, avec un RER A qui relie la ville au centre de Paris. Visale remplace le garant ; lisez le DPE avant de signer.",
+      },
+      {
+        heading: "Budget : environ 1 140 euros par mois",
+        body: "Studio : 720 € (source : notre estimation des loyers). Transport : 90 €, une hypothèse de notre part pour un abonnement francilien, à vérifier auprès d'Île-de-France Mobilités. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 140 € par mois avant aides, contre 1 620 € à Paris et 1 070 € à Créteil avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Nanterre ou Créteil, Paris en toile de fond ?",
+        body: "Nanterre a 22,7 % de 15-29 ans et un score de 6,2 ; Créteil, 22,1 % et 6,1 ; Paris, 24,3 % et 7,1. Entre les deux banlieues, l'écart tient aux 70 € de loyer et à la desserte (RER A à Nanterre, métro 8 à Créteil). Nanterre a un peu plus de culture que Créteil (6,6/10 contre 6,2/10), un transport de 9,0/10 et un coût de la vie moins favorable (source : notre fiche ville).",
+      },
+      {
+        heading: "Quelle vie étudiante à Nanterre ?",
+        body: "Une vie étudiante de campus : on y étudie, les sorties se font surtout à Paris ou à La Défense, par le RER A. Le revenu médian est de 21 620 € par an et le taux de pauvreté de 22 % (source : Insee, Filosofi 2021). La population a augmenté de 94 258 habitants en 2016 à 98 119 en 2022, soit +4,1 %.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages et alternances s'appuient sur le bassin d'affaires des Hauts-de-Seine, à quelques stations de RER, et les jobs d'appoint sur le commerce et la restauration. Verdict : Nanterre convient à un étudiant en droit ou en sciences humaines qui veut un studio à 720 € et un campus à portée de RER. Elle convient moins à qui compte sur une vie de quartier animée le soir : Paris reste la réponse, avec un studio plus cher de 480 €.",
+      },
+    ],
+    relatedCities: ["nanterre", "paris", "creteil", "rueil-malmaison"],
+    relatedGuides: [
+      "etudiant-a-paris-2026",
+      "famille-a-nanterre-2026",
+      "10-choses-a-faire-a-nanterre-2026",
+    ],
+    tags: ["étudiant Nanterre 2026", "étudier à Nanterre", "logement étudiant Nanterre", "budget étudiant Nanterre", "université Paris Nanterre RER A"],
+  },
+  {
+    slug: "etudiant-a-montreuil-2026",
+    title: "Habiter à Montreuil quand on étudie à Paris : loyers, budget 2026",
+    metaTitle: "Étudiant à Montreuil 2026 : loyers, métro, budget",
+    metaDesc: "Étudiant à Montreuil en 2026 : studio à 700 € sur notre estimation, 500 € de moins qu'à Paris, métro 9 et 11. Le guide chiffré, avec Paris et Saint-Denis.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Montreuil se choisit pour son loyer et son métro : le studio y coûte 700 €, soit 500 € de moins qu'à Paris, et le deux-pièces 1 050 € (source : notre estimation des loyers). Notre score vie étudiante est de 6,5/10, au 101e rang sur 593 à égalité avec vingt-six autres villes (source : notre fiche profils). Les 15-29 ans ne sont que 19,2 % des 110 758 habitants (source : Insee, recensement 2022) : on y habite souvent pour étudier ailleurs, à Paris.",
+    sections: [
+      {
+        heading: "Pourquoi loger à Montreuil pour étudier à Paris ?",
+        body: "Pour le prix : un studio à 700 € contre 1 200 € à Paris, ce qui libère 500 € par mois sur un budget étudiant. Le prix de la liaison est le temps de trajet. Le métro 9 dessert la commune, et la ligne 11 est prolongée depuis le 13 juin 2024 jusqu'à Rosny – Bois-Perrier avec six nouvelles stations, dont Montreuil - Hôpital ; RATP annonce 25 minutes entre Rosny – Bois-Perrier et Châtelet, contre 55 auparavant.",
+      },
+      {
+        heading: "Quel loyer étudiant à Montreuil ?",
+        body: "Un studio est estimé à 700 € et un deux-pièces à 1 050 € par mois (source : notre estimation des loyers). C'est 500 € de moins qu'à Paris et 50 € de plus qu'à Saint-Denis (650 €). Montreuil n'est donc pas la commune la moins chère de la proche banlieue : on paie la proximité de Paris et un cadre plus prisé. Visale remplace le garant ; vérifiez le DPE avant de signer.",
+      },
+      {
+        heading: "Quel budget pour un étudiant montreuillois ?",
+        body: "Studio : 700 € (source : notre estimation des loyers). Transport : 90 €, une hypothèse de notre part pour un abonnement francilien, à vérifier auprès d'Île-de-France Mobilités. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 1 120 € par mois avant aides, contre 1 620 € à Paris et 1 070 € à Saint-Denis avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Montreuil, Paris ou Saint-Denis ?",
+        body: "Paris a 24,3 % de 15-29 ans et un score de 7,1 ; Saint-Denis, 22,7 % et 5,7 ; Montreuil, 19,2 % et 6,5. Montreuil passe nettement devant Saint-Denis sur notre score et reste 500 € sous Paris. Sa culture est à 7,3/10 et son transport à 9,0/10 (source : notre fiche ville), pour une ville plus vivante que son nombre d'étudiants ne le laisse penser.",
+      },
+      {
+        heading: "Quelle vie quotidienne à Montreuil ?",
+        body: "Une ville de quartiers, de cafés et de petits commerces, plus qu'une ville de campus. Le revenu médian est de 21 150 € par an et le taux de pauvreté de 25 % (source : Insee, Filosofi 2021), un niveau qui explique la diversité des loyers. La population est passée de 108 402 habitants en 2016 à 110 758 en 2022 (+2,2 %).",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages et alternances se décrochent à Paris et dans l'est francilien, que le métro rapproche ; les jobs d'appoint dans la restauration et le commerce du quartier. Verdict : Montreuil convient à un étudiant parisien qui veut garder le métro à pied et économiser 500 € par mois sur le studio. Elle convient moins à qui veut un campus sur place : Créteil ou Nanterre sont la réponse, avec leur grande université.",
+      },
+    ],
+    relatedCities: ["montreuil", "paris", "saint-denis", "creteil"],
+    relatedGuides: [
+      "etudiant-a-paris-2026",
+      "famille-a-montreuil-2026",
+      "10-choses-a-faire-a-montreuil-2026",
+    ],
+    tags: ["étudiant Montreuil 2026", "étudier à Montreuil", "logement étudiant Montreuil", "budget étudiant Montreuil", "habiter Montreuil étudier Paris"],
+  },
+  {
+    slug: "etudiant-a-beauvais-2026",
+    title: "Étudiant à Beauvais en 2026 : UniLaSalle, IUT de l'Oise, budget",
+    metaTitle: "Étudiant à Beauvais 2026 : UniLaSalle, IUT, budget",
+    metaDesc: "Étudier à Beauvais en 2026 : studio à 470 € sur notre estimation, UniLaSalle et IUT de l'Oise. Le guide chiffré, avec Amiens et Compiègne.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Beauvais loge ses étudiants à 470 € le studio et 650 € le deux-pièces, 20 € de moins qu'à Amiens et 60 € de moins qu'à Compiègne (source : notre estimation des loyers). Notre score vie étudiante est de 6,9/10, au 42e rang sur 593 à égalité avec sept autres villes, devant Amiens (6,5) mais derrière Compiègne (7,1) (source : notre fiche profils). La ville compte 55 906 habitants, dont 21,4 % de 15-29 ans (source : Insee, recensement 2022) : un campus compact, pour un petit budget.",
+    sections: [
+      {
+        heading: "Quelles études à Beauvais ?",
+        body: "Deux sites principaux : UniLaSalle, qui revendique environ 2 295 étudiants et 20 hectares sur son campus de Beauvais, le plus grand de l'institut, avec des formations en sciences de la Terre, du vivant et de l'environnement, et l'IUT de l'Oise, campus de Beauvais, rattaché à l'Université de Picardie Jules Verne (54 boulevard Saint-André), qui propose des BUT comme GEA ou Techniques de commercialisation. Une antenne universitaire et un Crous, avec restaurant et résidence près de l'IUT, complètent l'offre.",
+      },
+      {
+        heading: "Quel loyer étudiant à Beauvais ?",
+        body: "Un studio est estimé à 470 € et un deux-pièces à 650 € par mois (source : notre estimation des loyers). Amiens est à 490 € et 680 €, Compiègne à 530 € et 730 €. Beauvais est la moins chère des trois, avec une résidence Crous près de l'IUT pour viser plus bas encore. Visale remplace le garant ; lisez le DPE avant de signer.",
+      },
+      {
+        heading: "Budget mensuel : 830 euros environ",
+        body: "Studio : 470 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, à vérifier auprès du réseau local. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 830 € par mois avant aides, contre 850 € à Amiens et 890 € à Compiègne avec les mêmes hypothèses. Le repas Crous à 1 € est ouvert à tous depuis le 4 mai 2026 (source : Crous). Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Beauvais, Amiens ou Compiègne ?",
+        body: "Amiens a 29,0 % de 15-29 ans et un score de 6,5 ; Compiègne, 23,9 % et 7,1 ; Beauvais, 21,4 % et 6,9. Amiens est la plus grande des trois ; Beauvais est la moins chère, avec un score culture de 7,5/10, égal à celui de Compiègne, et un transport de 7,7/10 (source : notre fiche ville). Pour un BUT ou une formation environnementale, Beauvais suffit.",
+      },
+      {
+        heading: "Quelle vie étudiante à Beauvais ?",
+        body: "Une vie étudiante de ville moyenne : peu d'étudiants en proportion, mais des loyers bas et un centre à parcourir à pied. Le revenu médian est de 19 520 € par an et le taux de pauvreté de 25 % (source : Insee, Filosofi 2021). La population est stable : 56 020 habitants en 2016, 55 906 en 2022.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages en gestion et en commerce se trouvent dans le bassin de l'Oise, ceux de l'environnement auprès des entreprises du bassin, et les jobs d'appoint dans le commerce et la restauration. Verdict : Beauvais convient à un étudiant d'UniLaSalle ou d'IUT qui veut un studio à 470 € et une ville à taille humaine. Elle convient moins à qui veut une université généraliste : Amiens est la réponse, avec un studio plus cher de 20 €.",
+      },
+    ],
+    relatedCities: ["beauvais", "amiens", "compiegne", "creil"],
+    relatedGuides: [
+      "etudiant-a-amiens-2026",
+      "etudiant-a-compiegne-2026",
+      "10-choses-a-faire-a-beauvais-2026",
+    ],
+    tags: ["étudiant Beauvais 2026", "étudier à Beauvais", "logement étudiant Beauvais", "budget étudiant Beauvais", "UniLaSalle IUT de l'Oise Beauvais"],
+  },
+  {
     slug: "famille-a-lyon-2026",
     title: "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
     metaTitle: "Famille à Lyon 2026 — Quartiers, écoles, budget : le guide",
