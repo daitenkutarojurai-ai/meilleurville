@@ -11382,6 +11382,36 @@
       "emoji": "🌉"
     },
     {
+      "slug": "10-choses-a-faire-a-suresnes-2026",
+      "title": "10 choses à faire à Suresnes",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-maur-des-fosses-2026",
+      "title": "10 choses à faire à Saint-Maur-des-Fossés",
+      "emoji": "🚣"
+    },
+    {
+      "slug": "10-choses-a-faire-a-chelles-2026",
+      "title": "10 choses à faire à Chelles",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-caluire-et-cuire-2026",
+      "title": "10 choses à faire à Caluire-et-Cuire",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-herblain-2026",
+      "title": "10 choses à faire à Saint-Herblain",
+      "emoji": "🎤"
+    },
+    {
+      "slug": "10-choses-a-faire-a-talence-2026",
+      "title": "10 choses à faire à Talence",
+      "emoji": "🎓"
+    },
+    {
       "slug": "10-choses-a-faire-a-levallois-perret-2026",
       "title": "10 choses à faire à Levallois-Perret",
       "emoji": "🌳"
@@ -12094,6 +12124,11 @@
       "count": 7
     },
     {
+      "slug": "que-faire-pres-de-paris",
+      "label": "que faire près de Paris",
+      "count": 7
+    },
+    {
       "slug": "rendement",
       "label": "rendement",
       "count": 7
@@ -12336,11 +12371,6 @@
     {
       "slug": "que-faire-dans-les-hauts-de-seine",
       "label": "que faire dans les Hauts-de-Seine",
-      "count": 5
-    },
-    {
-      "slug": "que-faire-pres-de-paris",
-      "label": "que faire près de Paris",
       "count": 5
     },
     {

@@ -78283,6 +78283,348 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Saint-Louis","activités Saint-Louis 2026","Fondation Fernet-Branca","que faire près de Bâle"]
   },
   {
+    slug: "10-choses-a-faire-a-suresnes-2026",
+    title: "10 choses à faire à Suresnes",
+    metaTitle: "10 choses à faire à Suresnes",
+    metaDesc: "Mont-Valérien, vignes, cimetière américain, bords de Seine : 10 choses à faire à Suresnes.",
+    category: "tourisme",
+    emoji: "🍇",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Suresnes compte environ 49 000 habitants dans notre fiche. C'est une commune des Hauts-de-Seine posée entre la Seine et la colline du Mont-Valérien, face au bois de Boulogne. Elle a plus d'histoire qu'on ne le croit : une mémoire de la Résistance, un vignoble urbain et des cités-jardins. Ce guide dit quoi y faire, dans l'ordre où on y passe.",
+    sections: [
+      {
+        heading: "1. Le Mont-Valérien et le Mémorial de la France combattante",
+        body: "Sur la colline, la clairière des fusillés rappelle que des résistants y ont été exécutés pendant l'Occupation. Le site est un lieu de mémoire, pas une attraction : comptez une visite recueillie, et vérifiez les conditions d'accès avant de venir."
+      },
+      {
+        heading: "2. Le cimetière américain",
+        body: "Ce cimetière militaire accueille des soldats américains morts pendant la Première Guerre mondiale. Les alignements de croix blanches et la vue sur Paris valent le détour, même pour une courte visite."
+      },
+      {
+        heading: "3. Les vignes de Suresnes",
+        body: "La ville entretient un petit vignoble sur ses coteaux et en fait une tradition locale. Ne comptez pas sur un grand domaine : c'est une curiosité, surtout intéressante au moment des vendanges."
+      },
+      {
+        heading: "4. Le musée d'histoire urbaine et sociale",
+        body: "Le musée raconte la ville ouvrière puis résidentielle, avec ses cités-jardins du XXᵉ siècle. Vérifiez les horaires d'ouverture avant de venir."
+      },
+      {
+        heading: "5. Les cités-jardins",
+        body: "Le quartier de la cité-jardin se parcourt à pied. Ses rues sinueuses et ses maisons basses contrastent avec la densité habituelle de la petite couronne."
+      },
+      {
+        heading: "6. Les bords de Seine",
+        body: "Les quais se parcourent à pied ou à vélo, avec la vue sur le bois de Boulogne de l'autre côté du fleuve. C'est la promenade la plus simple de la commune."
+      },
+      {
+        heading: "7. Le bois de Boulogne tout proche",
+        body: "Le pont de Suresnes mène directement au bois de Boulogne, où l'on peut marcher ou louer une barque selon la saison. Pour une journée en famille, l'argument pèse lourd."
+      },
+      {
+        heading: "8. Paris en transport",
+        body: "La commune est reliée à Paris par le tramway T2 et par le train depuis la gare de Suresnes–Mont-Valérien. La Défense est de l'autre côté de la colline."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 680 € par mois dans notre estimation, contre 2 800 € à Paris, 1 600 € à Rueil-Malmaison et 1 400 € à Nanterre. Suresnes convient à qui veut du vert et de la mémoire à dix minutes de Paris, et accepte un loyer élevé."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le Mont-Valérien et le cimetière. Ajoutez le bois de Boulogne ou Paris pour remplir la journée."
+      }
+    ],
+    relatedCities: ["suresnes","paris","rueil-malmaison","nanterre"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-rueil-malmaison-2026"],
+    tags: ["10 choses à faire à Suresnes","activités Suresnes 2026","Mont-Valérien","vignes de Suresnes","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-maur-des-fosses-2026",
+    title: "10 choses à faire à Saint-Maur-des-Fossés",
+    metaTitle: "10 choses à faire à Saint-Maur-des-Fossés",
+    metaDesc: "Bords de Marne, presqu'île, parcs, RER A : 10 choses à faire à Saint-Maur-des-Fossés.",
+    category: "tourisme",
+    emoji: "🚣",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Saint-Maur-des-Fossés compte environ 76 000 habitants dans notre fiche. C'est une grande commune résidentielle du Val-de-Marne, enserrée dans une boucle de la Marne. Pas de monument phare, mais de l'eau, des parcs et une atmosphère de bords de rivière qui change de la petite couronne habituelle. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Les bords de Marne",
+        body: "Les berges se parcourent à pied ou à vélo sur une longue portion de la boucle. Ce sont les paysages les plus agréables de la commune, surtout au printemps et en fin de journée."
+      },
+      {
+        heading: "2. La presqu'île de la Marne",
+        body: "La boucle de la rivière dessine une presqu'île où se mêlent maisons anciennes, jardins et quais. On s'y promène sans objectif précis, en suivant l'eau."
+      },
+      {
+        heading: "3. Le parc de l'Abbaye",
+        body: "Ce parc rappelle l'abbaye qui a donné son nom à la ville. Il offre une pause verte au milieu des quartiers résidentiels."
+      },
+      {
+        heading: "4. Le parc du Château",
+        body: "Plus classique, ce parc est un lieu de promenade pour les familles du quartier. Vérifiez les horaires d'ouverture avant de venir."
+      },
+      {
+        heading: "5. L'histoire des guinguettes",
+        body: "Les bords de Marne ont longtemps été un lieu de bals et de guinguettes pour les Parisiens. Il en reste surtout la mémoire et quelques restaurants au bord de l'eau."
+      },
+      {
+        heading: "6. Le canoë et les sports d'eau",
+        body: "Plusieurs clubs de la Marne proposent canoë et aviron sur ce tronçon de rivière. Renseignez-vous directement auprès d'eux pour les conditions d'essai."
+      },
+      {
+        heading: "7. Le bois de Vincennes à proximité",
+        body: "Le RER A conduit au bois de Vincennes et à son château en quelques arrêts. Pour une journée, la combinaison Marne puis Vincennes fonctionne bien."
+      },
+      {
+        heading: "8. Paris en RER A",
+        body: "Les gares de Saint-Maur–Créteil et de La Varenne–Chennevières placent la ville sur l'axe du RER A. C'est la clé de sa popularité auprès des Parisiens qui veulent de l'eau et du calme."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 680 € par mois dans notre estimation, contre 2 800 € à Paris et 1 250 € à Créteil. Saint-Maur convient à qui cherche la Marne et des parcs sans quitter l'Île-de-France."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée de promenade suffit. Combinez-la avec Vincennes pour une journée complète."
+      }
+    ],
+    relatedCities: ["saint-maur-des-fosses","paris","creteil"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-creteil-2026"],
+    tags: ["10 choses à faire à Saint-Maur-des-Fossés","activités Saint-Maur-des-Fossés 2026","bords de Marne","presqu'île de Saint-Maur","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-chelles-2026",
+    title: "10 choses à faire à Chelles",
+    metaTitle: "10 choses à faire à Chelles",
+    metaDesc: "Abbaye royale, musée Alfred Bonno, bords de Marne : 10 choses à faire à Chelles, en Seine-et-Marne.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Chelles compte environ 54 000 habitants dans notre fiche. C'est une ville de Seine-et-Marne, à l'est de Paris, sur la Marne. Son histoire est plus ancienne que son allure : une abbaye royale y a existé pendant des siècles. Ce guide dit quoi y voir, sans prétendre que Chelles est une destination touristique à part entière.",
+    sections: [
+      {
+        heading: "1. L'abbaye royale de Chelles",
+        body: "Fondée au haut Moyen Âge, l'abbaye de Chelles fut l'un des grands monastères du royaume. Il en reste des vestiges intégrés à la ville, à voir avec la mémoire du lieu plutôt qu'avec la monumentalité."
+      },
+      {
+        heading: "2. Le musée Alfred Bonno",
+        body: "Le musée municipal installé dans le centre présente l'histoire de la ville, de l'abbaye et de ses environs. Vérifiez les horaires d'ouverture avant de venir."
+      },
+      {
+        heading: "3. Le centre-ville et l'église Saint-André",
+        body: "Le cœur ancien se traverse en une heure. On y voit l'église paroissiale et les rues commerçantes qui l'entourent."
+      },
+      {
+        heading: "4. Les bords de Marne",
+        body: "Les berges offrent des promenades calmes et des vues sur les péniches. Ce sont les espaces verts les plus faciles à atteindre depuis le centre."
+      },
+      {
+        heading: "5. Le canal de Chelles",
+        body: "Le canal longe la ville et se prête au vélo et à la marche. C'est un parcours simple, sans dénivelé."
+      },
+      {
+        heading: "6. La base nautique de Vaires-sur-Marne",
+        body: "La base voisine de Vaires-Torcy accueille l'aviron et le canoë-kayak et a servi aux Jeux de 2024. Pour un après-midi sportif, c'est la sortie la plus marquante de la zone."
+      },
+      {
+        heading: "7. Les marchés",
+        body: "La ville a des marchés dont les jours sont à vérifier avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "8. Paris et Marne-la-Vallée en train",
+        body: "La gare de Chelles–Gournay est sur la ligne du RER E, qui relie Paris-Haussmann–Saint-Lazare. La commune est un bon point de chute pour qui visite l'est de la région."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 340 € par mois dans notre estimation, contre 2 800 € à Paris et 1 380 € à Meaux. Chelles convient à qui cherche un point de chute abordable à l'est de Paris."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour l'abbaye, le musée et les bords de Marne. Combinez avec Vaires-sur-Marne ou Paris."
+      }
+    ],
+    relatedCities: ["chelles","paris","meaux"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-meaux-2026"],
+    tags: ["10 choses à faire à Chelles","activités Chelles 2026","abbaye de Chelles","musée Alfred Bonno","que faire à l'est de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-caluire-et-cuire-2026",
+    title: "10 choses à faire à Caluire-et-Cuire",
+    metaTitle: "10 choses à faire à Caluire-et-Cuire",
+    metaDesc: "Vieux Cuire, bords du Rhône, mémoire de Jean Moulin : 10 choses à faire à Caluire-et-Cuire, aux portes de Lyon.",
+    category: "tourisme",
+    emoji: "🌉",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Caluire-et-Cuire compte environ 43 000 habitants dans notre fiche. C'est la commune qui prolonge Lyon vers le nord, sur le plateau de la Croix-Rousse et au bord du Rhône. Elle est surtout connue des Lyonnais, mais l'histoire de la Résistance y a laissé une trace précise. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La mémoire de Jean Moulin",
+        body: "C'est à Caluire que Jean Moulin a été arrêté en juin 1943, dans une maison du quartier. L'histoire de cette arrestation est l'une des plus connues de la Résistance française."
+      },
+      {
+        heading: "2. Le vieux Cuire",
+        body: "Le village ancien de Cuire a gardé ses petites rues et ses maisons bourgeoises. Il se parcourt à pied en une heure, loin de l'agitation lyonnaise."
+      },
+      {
+        heading: "3. Les bords du Rhône",
+        body: "Les quais se prêtent à la marche et au vélo. On rejoint à pied ou à vélo les grands espaces verts du nord de Lyon."
+      },
+      {
+        heading: "4. Le parc de la Tête d'Or tout proche",
+        body: "Le grand parc lyonnais est à portée de vélo ou de transport depuis Caluire. C'est l'adresse évidente pour une journée avec des enfants."
+      },
+      {
+        heading: "5. Le parc de Montessuy",
+        body: "Ce parc de la commune offre une pause verte sur les hauteurs. Il est apprécié des familles du quartier."
+      },
+      {
+        heading: "6. La vue sur Lyon",
+        body: "Le plateau de Caluire domine la ville. Cherchez un point de vue côté sud pour voir Fourvière en face."
+      },
+      {
+        heading: "7. Les marchés",
+        body: "La commune a des marchés dont les jours sont à vérifier avant de venir. C'est un bon moment pour voir la vie du plateau."
+      },
+      {
+        heading: "8. Lyon en métro C",
+        body: "La ligne C du métro dessert Caluire par la station Cuire. Le centre de Lyon est atteint en quelques arrêts avec un changement."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 450 € par mois dans notre estimation, contre 1 380 € à Lyon et 1 150 € à Villeurbanne. Caluire convient à qui veut un cadre résidentiel, plus calme et plus vert que la presqu'île."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le vieux Cuire et la mémoire de Jean Moulin. Ajoutez le parc de la Tête d'Or ou la Croix-Rousse pour une journée."
+      }
+    ],
+    relatedCities: ["caluire-et-cuire","lyon","villeurbanne"],
+    relatedGuides: ["10-choses-a-faire-a-lyon-2026","10-choses-a-faire-a-villeurbanne-2026"],
+    tags: ["10 choses à faire à Caluire-et-Cuire","activités Caluire-et-Cuire 2026","Jean Moulin Caluire","vieux Cuire","que faire près de Lyon"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-herblain-2026",
+    title: "10 choses à faire à Saint-Herblain",
+    metaTitle: "10 choses à faire à Saint-Herblain",
+    metaDesc: "Zénith, Onyx, parc de la Bégraisière, Loire : 10 choses à faire à Saint-Herblain, aux portes de Nantes.",
+    category: "tourisme",
+    emoji: "🎤",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Saint-Herblain compte environ 51 000 habitants dans notre fiche. C'est la grande commune de l'ouest de Nantes Métropole, entre Loire et zones commerciales. Elle n'a pas de centre historique, mais elle accueille des salles de spectacle et de beaux espaces verts. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le Zénith Nantes Métropole",
+        body: "La grande salle de concert de l'agglomération se trouve à Saint-Herblain. Consultez la programmation avant de venir : c'est la première raison de s'y rendre."
+      },
+      {
+        heading: "2. Le théâtre Onyx",
+        body: "Cette salle programme théâtre, musique et danse pour un public plus intimiste. Vérifiez les dates sur le site de la ville."
+      },
+      {
+        heading: "3. Le parc de la Bégraisière",
+        body: "Plan d'eau et sentiers en font la balade la plus simple de la commune. C'est un lieu de détente pour les familles."
+      },
+      {
+        heading: "4. Les bords de Loire",
+        body: "La commune longe le fleuve à l'ouest de Nantes. On rejoint à vélo des portions calmes en direction de l'estuaire."
+      },
+      {
+        heading: "5. Le vélo vers Nantes",
+        body: "Les aménagements cyclables permettent de rejoindre le centre de Nantes sans passer par les grands axes. C'est la manière la plus agréable de relier les deux villes."
+      },
+      {
+        heading: "6. Les marchés",
+        body: "La commune a des marchés dont les jours sont à vérifier avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "7. Le centre commercial Atlantis",
+        body: "Atlantis est l'un des plus grands centres commerciaux de l'agglomération. Ce n'est pas une visite touristique, mais c'est ce que cherchent beaucoup d'habitants."
+      },
+      {
+        heading: "8. Nantes en tramway",
+        body: "Le réseau de transports en commun de Nantes Métropole dessert la commune, avec le tramway et les bus. Vérifiez la ligne et l'arrêt avant de partir : le centre-ville se rejoint sans voiture."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 900 € par mois dans notre estimation, contre 1 150 € à Nantes. Saint-Herblain convient à qui cherche un loyer plus bas à côté de Nantes, et qui accepte une ville sans cœur historique."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le parc de la Bégraisière. Ajoutez un concert au Zénith ou une journée à Nantes."
+      }
+    ],
+    relatedCities: ["saint-herblain","nantes"],
+    relatedGuides: ["10-choses-a-faire-a-nantes-2026"],
+    tags: ["10 choses à faire à Saint-Herblain","activités Saint-Herblain 2026","Zénith Nantes","parc de la Bégraisière","que faire près de Nantes"]
+  },
+  {
+    slug: "10-choses-a-faire-a-talence-2026",
+    title: "10 choses à faire à Talence",
+    metaTitle: "10 choses à faire à Talence",
+    metaDesc: "Campus, château de Thouars, tramway B, vins de Pessac-Léognan : 10 choses à faire à Talence, aux portes de Bordeaux.",
+    category: "tourisme",
+    emoji: "🎓",
+    readMinutes: 4,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro: "Talence compte environ 46 000 habitants dans notre fiche. C'est la commune du sud de Bordeaux où se concentre une grande partie du campus universitaire. Elle vit au rythme des étudiants, avec des parcs et des vestiges de châteaux. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le campus universitaire",
+        body: "Le campus étale ses bâtiments dans un cadre arboré. Une promenade permet de voir l'animation étudiante sans prétendre à une visite monumentale."
+      },
+      {
+        heading: "2. Le château de Thouars",
+        body: "Ce domaine abrite un château et un parc qui servent de cadre à des événements. Vérifiez les horaires d'ouverture avant de venir."
+      },
+      {
+        heading: "3. Le parc de Thouars",
+        body: "Le parc est la balade la plus agréable de la commune. Il est apprécié des familles et des étudiants."
+      },
+      {
+        heading: "4. Le Forum des arts et de la culture",
+        body: "Le Forum accueille spectacles et expositions. C'est le lieu culturel principal de la commune."
+      },
+      {
+        heading: "5. Le centre de Talence",
+        body: "Le cœur de la ville se visite en une heure. L'église et les rues commerçantes donnent une idée de la vie de quartier."
+      },
+      {
+        heading: "6. Les marchés",
+        body: "La commune a des marchés dont les jours sont à vérifier avant de venir. C'est le meilleur moment pour voir la vie locale."
+      },
+      {
+        heading: "7. Les vignobles de Pessac-Léognan tout proches",
+        body: "La commune voisine de Pessac ouvre sur l'appellation Pessac-Léognan, l'un des vignobles des Graves. Réservez directement auprès des domaines avant d'y aller."
+      },
+      {
+        heading: "8. Bordeaux en tramway B",
+        body: "Le tramway B dessert Talence et rejoint le centre de Bordeaux sans voiture. C'est ce qui fait de la commune un bon point de chute."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 150 € par mois dans notre estimation, contre 1 200 € à Bordeaux. Talence convient aux étudiants, à qui cherche une base pour Bordeaux et le vignoble, et pas à qui veut un cœur historique."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour le parc et le centre. Ajoutez Bordeaux ou une visite de domaine à Pessac pour une journée complète."
+      }
+    ],
+    relatedCities: ["talence","bordeaux","pessac"],
+    relatedGuides: ["10-choses-a-faire-a-bordeaux-2026","10-choses-a-faire-a-pessac-2026"],
+    tags: ["10 choses à faire à Talence","activités Talence 2026","château de Thouars","campus de Talence","que faire près de Bordeaux"]
+  },
+  {
     slug: "10-choses-a-faire-a-levallois-perret-2026",
     title: "10 choses à faire à Levallois-Perret",
     metaTitle: "10 choses à faire à Levallois-Perret",
