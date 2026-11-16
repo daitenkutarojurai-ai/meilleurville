@@ -11072,21 +11072,6 @@
       "emoji": "📈"
     },
     {
-      "slug": "best-french-cities-for-families-2027",
-      "title": "Best French Cities for Families in 2027: Schools, Safety, Nature and Budget",
-      "emoji": "👨‍👩‍👧"
-    },
-    {
-      "slug": "best-places-for-remote-work-in-france-2027",
-      "title": "Best Places for Remote Work in France in 2027, Rent Included",
-      "emoji": "💻"
-    },
-    {
-      "slug": "cheapest-rents-in-france-2027-one-bedroom-under-550",
-      "title": "Cheapest Rents in France in 2027: Towns Where a One-Bedroom Is €550 or Less",
-      "emoji": "🏷️"
-    },
-    {
       "slug": "best-seaside-towns-to-live-in-france-2027",
       "title": "Best Seaside Towns to Live in France in 2027: The Top-Rated Coastal Places",
       "emoji": "🌊"
@@ -11106,7 +11091,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 321
+      "count": 318
     },
     {
       "slug": "single-parent-in-france",
@@ -11226,7 +11211,7 @@
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 51
+      "count": 50
     },
     {
       "slug": "normandy",
@@ -11429,11 +11414,6 @@
       "count": 9
     },
     {
-      "slug": "2027-ranking",
-      "label": "2027 ranking",
-      "count": 8
-    },
-    {
       "slug": "basque-country",
       "label": "basque country",
       "count": 8
@@ -11544,6 +11524,11 @@
       "count": 7
     },
     {
+      "slug": "2027-ranking",
+      "label": "2027 ranking",
+      "count": 6
+    },
+    {
       "slug": "aix-en-provence",
       "label": "aix-en-provence",
       "count": 6
@@ -11629,16 +11614,6 @@
       "count": 5
     },
     {
-      "slug": "remote-work",
-      "label": "remote work",
-      "count": 5
-    },
-    {
-      "slug": "safety",
-      "label": "safety",
-      "count": 5
-    },
-    {
       "slug": "saint-etienne",
       "label": "saint-etienne",
       "count": 5
@@ -11714,13 +11689,13 @@
       "count": 4
     },
     {
-      "slug": "rental-investment",
-      "label": "rental investment",
+      "slug": "remote-work",
+      "label": "remote work",
       "count": 4
     },
     {
-      "slug": "rents",
-      "label": "rents",
+      "slug": "rental-investment",
+      "label": "rental investment",
       "count": 4
     },
     {
@@ -11739,8 +11714,8 @@
       "count": 4
     },
     {
-      "slug": "schools",
-      "label": "schools",
+      "slug": "safety",
+      "label": "safety",
       "count": 4
     },
     {
@@ -11804,11 +11779,6 @@
       "count": 3
     },
     {
-      "slug": "digital-nomad",
-      "label": "digital nomad",
-      "count": 3
-    },
-    {
       "slug": "dordogne",
       "label": "dordogne",
       "count": 3
@@ -11826,11 +11796,6 @@
     {
       "slug": "expat-comparison",
       "label": "expat comparison",
-      "count": 3
-    },
-    {
-      "slug": "families",
-      "label": "families",
       "count": 3
     },
     {
@@ -11934,8 +11899,18 @@
       "count": 3
     },
     {
+      "slug": "rents",
+      "label": "rents",
+      "count": 3
+    },
+    {
       "slug": "rueil-malmaison",
       "label": "rueil-malmaison",
+      "count": 3
+    },
+    {
+      "slug": "schools",
+      "label": "schools",
       "count": 3
     },
     {

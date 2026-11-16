@@ -65613,14 +65613,14 @@ export const EN_GUIDES: EnGuide[] = [
     title: "Best Cities for Families in France in 2027: Schools, Safety, Nature and Budget",
     metaTitle: "Best Cities for Families in France 2027: The Ranking",
     metaDesc:
-      "Family score 2027 across 593 towns: Obernai 7.9, Gex and Fontainebleau 7.7. Annecy leads the big cities. Plus where a 3-bed rents for €800 or less.",
+      "Family score 2027 across 593 towns: Obernai 7.9, Gex and Fontainebleau 7.7. Annecy leads the big cities. Plus where a two-bedroom rents for €800 or less.",
     category: "family",
     emoji: "👨‍👩‍👧",
     readMinutes: 3,
     publishedAt: "2026-11-12",
     updatedAt: "2026-11-12",
     intro:
-      "Obernai has the best family score for 2027 (7.9/10), ahead of Gex and Fontainebleau (7.7). Among cities above 100,000 residents, Annecy leads at 7.3, ahead of Grenoble (7.1) and Rennes (7.0). For a 3-bedroom flat at €800 a month or less, Lannion and La Roche-sur-Yon top the list at 7.4.",
+      "Obernai has the best family score for 2027 (7.9/10), ahead of Gex and Fontainebleau (7.7). Among cities above 100,000 residents, Annecy leads at 7.3, ahead of Grenoble (7.1) and Rennes (7.0). For a two-bedroom flat at €800 a month or less, Lannion and La Roche-sur-Yon top the list at 7.4.",
     sections: [
       {
         heading: "How is the family score calculated?",
@@ -65628,15 +65628,15 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Which towns have the best family score in 2027?",
-        body: "Obernai: 7.9, with 9.0 for schools and 8.6 for safety, and a 3-bed at €1,040. On 7.7: Gex (schools 9.0, 3-bed €1,490) and Fontainebleau (schools 8.7, nature 8.5, 3-bed €1,200). On 7.6: La Flèche (3-bed €790, schools 8.7), Pontarlier (€940, nature 8.5), Le Puy-en-Velay (€700) and Albertville (€1,000, nature 8.5). Saverne is on 7.5, with a 3-bed at €970.\n\nThe next tier, 7.4, is a nine-way tie that includes Les Sables-d'Olonne, Vitré, Anglet, Lannion and La Roche-sur-Yon (source: our rent estimate).",
+        body: "Obernai: 7.9, with 9.0 for schools and 8.6 for safety, and a two-bedroom at €1,040. On 7.7: Gex (schools 9.0, two-bedroom €1,490) and Fontainebleau (schools 8.7, nature 8.5, two-bedroom €1,200). On 7.6: La Flèche (two-bedroom €790, schools 8.7), Pontarlier (€940, nature 8.5), Le Puy-en-Velay (€700) and Albertville (€1,000, nature 8.5). Saverne is on 7.5, with a two-bedroom at €970.\n\nThe next tier, 7.4, is a nine-way tie that includes Les Sables-d'Olonne, Vitré, Anglet, Lannion and La Roche-sur-Yon (source: our rent estimate).",
       },
       {
         heading: "Which big cities suit a family best?",
-        body: "Annecy: 7.3, carried by nature (8.9) and schools (8.7), but a 3-bed costs €1,450. Grenoble: 7.1, with 9.0 for schools and 8.4 for nature, despite safety at 4.3. Rennes: 7.0, schools 9.0, 3-bed €1,100. Strasbourg: 6.8. Besançon: 6.6, with the cheapest 3-bed of the group at €900. The next tier, 6.5, is a four-way tie: Angers, Brest, Clermont-Ferrand and Lyon.\n\nFurther down: Toulouse and Nantes 6.3, Bordeaux 6.1, Montpellier 5.8, Lille 5.7, Nice 5.5, Paris 5.0 and Marseille 4.2.",
+        body: "Annecy: 7.3, carried by nature (8.9) and schools (8.7), but a two-bedroom costs €1,450. Grenoble: 7.1, with 9.0 for schools and 8.4 for nature, despite safety at 4.3. Rennes: 7.0, schools 9.0, two-bedroom €1,100. Strasbourg: 6.8. Besançon: 6.6, with the cheapest two-bedroom of the group at €900. The next tier, 6.5, is a four-way tie: Angers, Brest, Clermont-Ferrand and Lyon.\n\nFurther down: Toulouse and Nantes 6.3, Bordeaux 6.1, Montpellier 5.8, Lille 5.7, Nice 5.5, Paris 5.0 and Marseille 4.2.",
       },
       {
         heading: "Where can a family find housing for €800 a month?",
-        body: "81 towns above 20,000 residents have a 3-bed at €800 or less in our estimate. The best rated for families: Lannion (7.4, safety 8.2) and La Roche-sur-Yon (7.4, safety 8.0, transport 7.0), both at €800. Saint-Dié-des-Vosges: 7.3, 3-bed €670. Dole: 7.1, 3-bed €780, schools 7.7. Cholet: 6.9, €800. On 6.8: Laon (€740) and Auch (€640). On 6.7: Chaumont (€630) and Vichy (€640). The next tier, 6.6, is a tie between Brive-la-Gaillarde and Saumur.",
+        body: "81 towns above 20,000 residents have a two-bedroom at €800 or less in our estimate. The best rated for families: Lannion (7.4, safety 8.2) and La Roche-sur-Yon (7.4, safety 8.0, transport 7.0), both at €800. Saint-Dié-des-Vosges: 7.3, two-bedroom €670. Dole: 7.1, two-bedroom €780, schools 7.7. Cholet: 6.9, €800. On 6.8: Laon (€740) and Auch (€640). On 6.7: Chaumont (€630) and Vichy (€640). The next tier, 6.6, is a tie between Brive-la-Gaillarde and Saumur.",
       },
       {
         heading: "What does the family score leave out?",
@@ -65644,7 +65644,7 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "Which town for which family?",
-        body: "Bigger budget and schools first: Obernai, Gex or Fontainebleau, all at 8.7 or more for schools. Need a big city: Rennes or Grenoble, both 9.0 for schools, accepting weaker safety in Grenoble. Tight budget: Lannion, La Roche-sur-Yon or Dole, with a 3-bed at €800 or less and schools at 7.7 or more. Want mountains: Pontarlier or Albertville, nature at 8.5.",
+        body: "Bigger budget and schools first: Obernai, Gex or Fontainebleau, all at 8.7 or more for schools. Need a big city: Rennes or Grenoble, both 9.0 for schools, accepting weaker safety in Grenoble. Tight budget: Lannion, La Roche-sur-Yon or Dole, with a two-bedroom at €800 or less and schools at 7.7 or more. Want mountains: Pontarlier or Albertville, nature at 8.5.",
       },
     ],
     relatedCities: ["obernai", "gex", "fontainebleau", "la-fleche", "pontarlier", "annecy", "grenoble", "rennes"],
@@ -66266,140 +66266,6 @@ export const EN_GUIDES: EnGuide[] = [
     ],
     relatedCities: ["issy-les-moulineaux", "villeurbanne", "bordeaux", "toulouse", "nantes", "montpellier", "merignac", "saint-herblain", "paris", "belfort"],
     tags: ["job growth by city", "jobs by city", "where jobs are growing", "French labour market", "INSEE census 2023", "dynamic cities France"],
-  },
-  {
-    slug: "best-french-cities-for-families-2027",
-    title: "Best French Cities for Families in 2027: Schools, Safety, Nature and Budget",
-    metaTitle: "Best French Cities for Families in 2027 — The Ranking",
-    metaDesc:
-      "2027 family score across 593 French cities: Obernai 7.9, Gex and Fontainebleau 7.7. Annecy tops the big cities. Plus where a two-bedroom costs €800 or less.",
-    category: "family",
-    emoji: "👨‍👩‍👧",
-    readMinutes: 3,
-    publishedAt: "2026-11-16",
-    updatedAt: "2026-11-16",
-    intro:
-      "Obernai has the best family score for 2027 (7.9/10), ahead of Gex and Fontainebleau (7.7). Among cities above 100,000 residents, Annecy leads on 7.3, then Grenoble (7.1) and Rennes (7.0). For a two-bedroom flat at €800 a month or less, Lannion and La Roche-sur-Yon come first on 7.4.",
-    sections: [
-      {
-        heading: "How is the family score calculated?",
-        body: "It is the scale behind our Families ranking: schools count for 30%, safety 25%, nature 20%, cost of living 15% and transport 10%. All five scores come from each city profile. Culture and remote work are not part of this score.",
-      },
-      {
-        heading: "Which towns have the best family score in 2027?",
-        body: "Obernai: 7.9, with 9.0 for schools and 8.6 for safety, and a two-bedroom flat (a T3 in French listings) at €1,040. On 7.7: Gex (schools 9.0, two-bedroom at €1,490) and Fontainebleau (schools 8.7, nature 8.5, €1,200). On 7.6: La Flèche (€790, schools 8.7), Pontarlier (€940, nature 8.5), Le Puy-en-Velay (€700) and Albertville (€1,000, nature 8.5). Saverne scores 7.5, with a two-bedroom at €970.\n\nThe next tier, 7.4, is a nine-way tie that includes Les Sables-d'Olonne, Vitré, Anglet, Lannion and La Roche-sur-Yon (source: our rent estimate).",
-      },
-      {
-        heading: "Which big cities suit a family best?",
-        body: "Annecy: 7.3, carried by nature (8.9) and schools (8.7), but a two-bedroom costs €1,450. Grenoble: 7.1, with 9.0 for schools and 8.4 for nature, despite safety at 4.3. Rennes: 7.0, schools 9.0, two-bedroom at €1,100. Strasbourg: 6.8. Besançon: 6.6, with the cheapest two-bedroom of the group at €900. The next tier, 6.5, is shared by Angers, Brest, Clermont-Ferrand and Lyon.\n\nFurther down: Toulouse and Nantes 6.3, Bordeaux 6.1, Montpellier 5.8, Lille 5.7, Nice 5.5, Paris 5.0 and Marseille 4.2.",
-      },
-      {
-        heading: "Where can a family rent for €800 a month?",
-        body: "81 towns above 20,000 residents have a two-bedroom at €800 or less in our estimate. The best rated for families: Lannion (7.4, safety 8.2) and La Roche-sur-Yon (7.4, safety 8.0, transport 7.0), both at €800. Saint-Dié-des-Vosges: 7.3, two-bedroom at €670. Dole: 7.1, €780, schools 7.7. Cholet: 6.9, €800. On 6.8: Laon (€740) and Auch (€640). On 6.7: Chaumont (€630) and Vichy (€640). The next tier, 6.6, is shared by Brive-la-Gaillarde and Saumur.",
-      },
-      {
-        heading: "What does the family score leave out?",
-        body: "Three things that weigh on family life. Nursery places and childcare are not in the calculation. Neither are jobs: a well-rated town does not guarantee two positions for two parents. And the schools score covers the whole town, not a given school: check the schools page of the city profile before choosing a neighbourhood.\n\nOne example of what an average hides: Chaumont makes the low-rent list thanks to its cost score (8.5) while its schools score only 5.5.",
-      },
-      {
-        heading: "Which town for which family?",
-        body: "Comfortable budget, schools first: Obernai, Gex or Fontainebleau, all on 8.7 or more. Need a big city: Rennes or Grenoble, both 9.0 for schools, accepting weaker safety in Grenoble. Tight budget: Lannion, La Roche-sur-Yon or Dole, with a two-bedroom at €800 or less and schools at 7.7. Mountains: Pontarlier or Albertville, nature 8.5.",
-      },
-    ],
-    relatedCities: ["obernai", "gex", "fontainebleau", "la-fleche", "pontarlier", "annecy", "grenoble", "rennes"],
-    tags: ["families", "2027 ranking", "schools", "safety", "moving to France"],
-  },
-  {
-    slug: "best-places-for-remote-work-in-france-2027",
-    title: "Best Places for Remote Work in France in 2027, Rent Included",
-    metaTitle: "Best Places for Remote Work in France in 2027",
-    metaDesc:
-      "2027 remote-work score: Vendôme, Rennes and Vaison-la-Romaine lead on 7.8. Plus towns on 7 or more with a one-bedroom at €650 or less: Laon, Lannion, Albi.",
-    category: "remote-work",
-    emoji: "💻",
-    readMinutes: 3,
-    publishedAt: "2026-11-16",
-    updatedAt: "2026-11-16",
-    intro:
-      "Vendôme, Rennes and Vaison-la-Romaine share first place in our remote-work ranking for 2027, on 7.8/10. For a one-bedroom flat at €650 a month or less in a town above 20,000 residents, Laon comes first (7.3), ahead of Lannion (7.1), Albi and Dieppe (7.0).",
-    sections: [
-      {
-        heading: "How is the remote-work score calculated?",
-        body: "It is the scale behind our Remote Work ranking. The remote-work axis of the city profile counts for 37.5%, quality of life 25%, cost of living just under 19%, transport 12.5% and culture a little over 6%. A well-connected town that is expensive or isolated therefore loses points.",
-      },
-      {
-        heading: "Which places lead for 2027?",
-        body: "On 7.8: Vendôme (remote-work axis 9.0, transport 7.1, one-bedroom at €540), Rennes (9.0, €820) and Vaison-la-Romaine (8.8, €700). On 7.7: Senlis (8.8, €760) and Villeurbanne (8.8, €870). On 7.6: Nantes, Villefranche-sur-Saône, Obernai, Issy-les-Moulineaux, Lyon and Gérardmer. The next tier, 7.5, is shared by Amboise, La Rochelle, Strasbourg and Gex.\n\nTowns in the same tier are level: the order in the sentence is not a rank (source: our rent estimate).",
-      },
-      {
-        heading: "Which big cities are best for remote work?",
-        body: "Among cities above 100,000 residents: Rennes 7.8; Villeurbanne 7.7; Nantes and Lyon 7.6; Strasbourg 7.5; Bordeaux 7.4; Annecy 7.3. The next tier, 7.2, is shared by Angers and Toulouse. Further down: Lille 7.0, Paris 6.9, Montpellier 6.7, Nice 5.8 and Marseille 5.0.\n\nRent makes the difference: a one-bedroom is €820 in Rennes and €850 in Nantes, against €1,000 in Lyon and €1,800 in Paris.",
-      },
-      {
-        heading: "Where can you work remotely without big-city rent?",
-        body: "113 towns above 20,000 residents have a one-bedroom at €650 or less. The best placed: Laon (7.3, €550, transport 6.4), Lannion (7.1, €600), Albi (7.0, €620) and Dieppe (7.0, €610, transport 7.0). Then Saint-Dié-des-Vosges (6.9, €500) and Challans (6.8, €640). On 6.7: Saumur (€600), Brest (€650) and Brive-la-Gaillarde (€580). The next tier, 6.6, is shared by La Roche-sur-Yon and Châtellerault.",
-      },
-      {
-        heading: "What is the catch with remote work in a small town?",
-        body: "The trip on office days. Transport scores 3.4 in Vaison-la-Romaine and Gérardmer, and 4.9 in Lannion, Saint-Dié-des-Vosges, Challans and Saumur: a weekly return trip to head office costs a day. By contrast Vendôme, which has a TGV high-speed rail station, scores 7.1, and Dieppe, Brive-la-Gaillarde and Villefranche-sur-Saône 7.0.\n\nIf your employer requires two days a week on site, look at the transport score before the remote-work score.",
-      },
-      {
-        heading: "What does this ranking leave out?",
-        body: "The remote-work axis is a town-wide score. It does not say whether fibre reaches the address you have in mind: check the property's eligibility, and read the internet page of the city profile. Nor does the score take your sector into account: if you ever need a local job, the size of the local labour market will matter.",
-      },
-      {
-        heading: "Which place for which remote worker?",
-        body: "Fully remote on a small budget: Laon, Saint-Dié-des-Vosges or Lannion, with a one-bedroom at €600 or less. Two office days in Paris: Vendôme or Senlis. Big-city life: Rennes, first among the large cities. Setting first: Vaison-la-Romaine or Gérardmer, quality of life 8.7, accepting that both are far from everything.",
-      },
-    ],
-    relatedCities: ["vendome", "rennes", "vaison-la-romaine", "senlis", "villeurbanne", "laon", "lannion", "dieppe"],
-    tags: ["remote work", "2027 ranking", "rents", "digital nomad", "moving to France"],
-  },
-  {
-    slug: "cheapest-rents-in-france-2027-one-bedroom-under-550",
-    title: "Cheapest Rents in France in 2027: Towns Where a One-Bedroom Is €550 or Less",
-    metaTitle: "Cheapest Rents in France in 2027: One-Bedroom Under €550",
-    metaDesc:
-      "32 French towns above 30,000 residents have a one-bedroom at €550 or less. Cheapest: Lens, €440. Best rated to live in: Castres, Roanne, Châtellerault.",
-    category: "budget",
-    emoji: "🏷️",
-    readMinutes: 3,
-    publishedAt: "2026-11-16",
-    updatedAt: "2026-11-16",
-    intro:
-      "Of the 281 French towns above 30,000 residents that we track, 32 have a one-bedroom flat at €550 a month or less in our rent estimate, 14 of them at €500 or less. The cheapest is Lens, at €440. The best rated to live in are Castres, Roanne and Châtellerault, on 6.3/10.",
-    sections: [
-      {
-        heading: "Where is a one-bedroom cheapest?",
-        body: "Lens: €440. At €480: Calais, Cambrai, Châtellerault, Saint-Quentin, Châteauroux and Liévin. At €490: Montluçon, Laval, Auxerre, Épinal and Valenciennes. The next tier, €500, is shared by Douai and Maubeuge.\n\nFor comparison, the median across our 593 cities is €710, and a one-bedroom (a T2 in French listings) is €1,000 in Lyon and €1,800 in Paris (source: our rent estimate).",
-      },
-      {
-        heading: "Which of them are best rated to live in?",
-        body: "Among the 32 towns at €550 or less: on 6.3, Castres (€520), Roanne (€520) and Châtellerault (€480). On 6.2: Charleville-Mézières (€520) and Saint-Quentin (€480). On 6.1: Laval and Auxerre (€490). On 6.0: Chalon-sur-Saône and Romans-sur-Isère (€550), Cambrai (€480) and Nevers (€530). The next tier, 5.9, is shared by Montluçon, Périgueux, Belfort and Épinal.\n\nNone scores above 6.3: at this rent level you stay above the national average (5.4) without reaching the top of the ranking.",
-      },
-      {
-        heading: "Is a low rent enough to make a good address?",
-        body: "No, and the gap is wide between two towns at the same price. At €480 for a one-bedroom, Châtellerault scores 6.3 and Liévin 2.8. Calais, at the same rent, scores 4.4 with safety at 3.7. Lens, the cheapest, scores 5.3, with 3.8 on the remote-work axis and 4.5 for schools. Valenciennes, at €490, scores 5.1.\n\nRent tells you what you pay; the score tells you what you get for it.",
-      },
-      {
-        heading: "Where is rent cheap in a big city?",
-        body: "Among cities above 100,000 residents, the cheapest one-bedrooms are in Saint-Étienne and Mulhouse (€580), then Limoges (€600). At €650: Brest, Le Mans, Perpignan and Le Havre. The next tier, €680, is shared by Clermont-Ferrand, Reims, Metz, Amiens and Besançon.\n\nOn scores, Brest (6.4) and Limoges (6.1) are the best placed of the group, ahead of Mulhouse (5.8), Le Mans (5.7), Saint-Étienne and Le Havre (5.5), and Perpignan (4.7).",
-      },
-      {
-        heading: "How much do you save by moving?",
-        body: "The sum is simple. Moving from a one-bedroom in Lyon (€1,000) to one in Roanne (€520) frees €480 a month, or €5,760 a year. From Paris (€1,800) to Châtellerault (€480): €1,320 a month, €15,840 a year.\n\nThose savings only hold if income follows: pay is often lower in these towns, and a French landlord generally asks for income of three times the rent, so €1,560 net for a €520 flat.",
-      },
-      {
-        heading: "What are the limits of these figures?",
-        body: "These are estimated average rents per town, all properties combined: a renovated flat in the centre will cost more, an older poorly insulated one less, with a heating bill to match. Service charges are not included. And a low rent says nothing about how easy it is to find a place: read the rental-pressure page of the city profile before you start looking.",
-      },
-      {
-        heading: "Which town for which budget?",
-        body: "Under €500 for a one-bedroom in a decent town: Châtellerault, Saint-Quentin, Laval or Auxerre, all on 6.1 or more. Need a big city: Brest or Limoges. Without a car: Châtellerault and Saint-Quentin, both 7.7 for transport. Look closely before signing: Liévin, Calais and Valenciennes, whose scores sit below the average.",
-      },
-    ],
-    relatedCities: ["lens", "castres", "roanne", "chatellerault", "saint-quentin", "laval", "auxerre", "brest"],
-    tags: ["cheap rent", "2027", "one-bedroom", "cost of living", "moving to France"],
   },
   {
     slug: "best-seaside-towns-to-live-in-france-2027",
