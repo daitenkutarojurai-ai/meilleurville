@@ -885,6 +885,35 @@ export const CITY_EVENTS: CityEvent[] = [
     sourceUrl: "https://www.asm-rugby.com/billetterie/billetterie-grand-public/calendrier-2026-27-grand-public",
     kind: "sport",
   },
+  // ── Sport (ajouts du 2026-11-16, chaque date recoupée sur au moins deux sources) ──
+  {
+    id: "nimes-urban-trail-2027-02-21",
+    citySlug: "nimes",
+    title: "Nîmes Urban Trail 2027",
+    titleEn: "Nîmes Urban Trail 2027",
+    start: "2027-02-21",
+    venue: "Avenue Feuchères, départ face à la gare — arrivée aux Arènes de Nîmes",
+    body: "Course urbaine dans le centre historique : le départ est donné avenue Feuchères, près de la gare, et l'arrivée se joue aux Arènes. Le parcours enchaîne ruelles, escaliers et monuments romains ; une randonnée de 10 km et des épreuves jeunes sont proposées autour de la course principale. Les inscriptions se prennent en ligne, avant le jour J.",
+    bodyEn: "An urban trail through the historic centre: the start is on avenue Feuchères near the railway station, and the finish is inside the Roman Arena. The route strings together lanes, staircases and Roman monuments; a 10 km walk and youth races run alongside the main event. Registration is online, ahead of race day.",
+    organizer: "Organisateur du Nîmes Urban Trail",
+    source: "Finishers, Campus Coach et GoTrail (dimanche 21 février 2027)",
+    sourceUrl: "https://www.finishers.com/course/nimes-urban-trail",
+    kind: "sport",
+  },
+  {
+    id: "semi-marathon-de-cannes-2027-02-21",
+    citySlug: "cannes",
+    title: "Semi-marathon de Cannes 2027",
+    titleEn: "Cannes Half Marathon 2027",
+    start: "2027-02-21",
+    venue: "Bord de mer, Cannes",
+    body: "Le semi-marathon de Cannes se court le dimanche 21 février 2027, avec un 10 km et un 5 km le même jour. Une course de fin d'hiver sur le front de mer, plate et souvent clémente en température. Prévoir de s'inscrire à l'avance et de vérifier les horaires de départ sur le site de l'organisateur.",
+    bodyEn: "The Cannes half marathon takes place on Sunday 21 February 2027, with a 10 km and a 5 km on the same day. A late-winter race along the seafront, flat and usually mild. Register ahead and check start times on the organiser's site.",
+    organizer: "Organisateur du Semi de Cannes",
+    source: "Office de tourisme de Cannes (Palais des Festivals), Finishers et werun.world",
+    sourceUrl: "https://www.finishers.com/course/le-semi-de-cannes",
+    kind: "sport",
+  },
 ];
 
 assertKnownSlugs({
