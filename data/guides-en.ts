@@ -66313,6 +66313,94 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["quiberon", "hossegor", "carnac", "biscarrosse", "les-sables-d-olonne", "dinard", "royan", "la-rochelle"],
     tags: ["seaside", "coastal towns", "2027 ranking", "rents", "moving to France"],
   },
+  {
+    slug: "safest-cities-in-france-2027",
+    title: "Safest Cities in France in 2027: The Ranking by City Size",
+    metaTitle: "Safest Cities in France in 2027 — The Ranking",
+    metaDesc:
+      "2027 safety score across 593 French cities: 13 towns on 8.8/10, Annecy the only big city above 7. Ranking by size, rents and what the score leaves out.",
+    category: "lifestyle",
+    emoji: "🛡️",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Thirteen towns share the best safety score for 2027: 8.8/10, all with fewer than 15,000 residents. Among the 42 cities above 100,000 residents, Annecy is the only one above 7 (7.3), ahead of Limoges (6.1). Of 593 cities, 76 reach 8 and 132 stay below 4.5.",
+    sections: [
+      {
+        heading: "How is safety scored?",
+        body: "It is the safety axis of each city profile, out of 10, where 10 means safest. The score is anchored in recorded crime figures from the police and gendarmerie, published by the statistics office of the French Interior Ministry. The average across the 593 cities is 5.6 and the median 5.5.\n\nIt does not measure how safe people feel, and it covers the whole commune rather than a given neighbourhood.",
+      },
+      {
+        heading: "Which French towns score highest in 2027?",
+        body: "Thirteen towns are level on 8.8: Mende, Florac-Trois-Rivières, Guéret, Aubusson, La Souterraine, Saint-Flour, Saint-Girons, Villefranche-de-Rouergue, Mayenne, Fontenay-le-Comte, Noirmoutier-en-l'Île, Carnac and Quiberon. The next tier, 8.7, is shared by Dinan, Rumilly, Guingamp and Château-Gontier-sur-Mayenne.\n\nThree are in the Creuse, two in the Lozère, two in the Morbihan and two in the Vendée. A one-bedroom flat runs from €390 a month in La Souterraine to €820 in Noirmoutier-en-l'Île and Quiberon (source: our rent estimate).",
+      },
+      {
+        heading: "Which towns of 20,000 to 50,000 residents are safest?",
+        body: "Challans: 8.3. Lannion: 8.2. Fontainebleau and Beaune: 8.1. Les Sables-d'Olonne: 8.0. On 7.5: Auch, Chaumont and Saint-Dié-des-Vosges. Saumur: 7.4. Anglet: 7.2. The next tier, 7.1, is shared by Alençon and Menton.\n\nOn rent, a one-bedroom is €470 in Chaumont, €480 in Auch and €500 in Saint-Dié-des-Vosges, against €880 in Fontainebleau and €890 in Anglet.",
+      },
+      {
+        heading: "And among towns of 50,000 to 100,000 residents?",
+        body: "Of 89 towns this size, La Roche-sur-Yon is clearly first on 8.0, with a one-bedroom at €600. On 7.2: Levallois-Perret, Issy-les-Moulineaux and Rueil-Malmaison, all in the Paris suburbs, where a one-bedroom runs from €1,150 to €1,400. Cholet: 7.1, for €600. Vannes: 6.9. Laval: 6.8, for €490. On 6.7: Neuilly-sur-Seine and Courbevoie. La Rochelle: 6.5. The next tier, 6.3, is shared by Chambéry and Versailles.",
+      },
+      {
+        heading: "Which big cities score best?",
+        body: "Annecy: 7.3. Limoges: 6.1. On 5.9: Rennes, Aix-en-Provence and Caen. The next tier, 5.7, is shared by Brest, Dijon, Besançon, Angers, Boulogne-Billancourt and Villeurbanne. Only two of the 42 cities above 100,000 residents reach 6, and thirteen are below 4.5.\n\nFor the main metropolises: Strasbourg 5.3; Lyon, Bordeaux and Nice 5.1; Nantes 4.6; Toulouse 4.3. The lowest scores in this group belong to Saint-Denis (2.2), Marseille (2.7), Montpellier and Perpignan (3.7), then Lille, Nîmes, Paris, Montreuil and Argenteuil on 3.9.",
+      },
+      {
+        heading: "What are the limits of this ranking?",
+        body: "A commune-wide score smooths over large gaps between neighbourhoods: in a big city, two adjacent streets can have little in common. Recorded crime also depends on reports being filed, and so on police presence and local habits.\n\nSafety is not everything either. Mende, on 8.8, scores only 2.7 for transport: a very safe town can be one where nothing is possible without a car.",
+      },
+      {
+        heading: "Which safe town for which plan?",
+        body: "Family near Paris: Fontainebleau, 8.1. Tight budget: La Roche-sur-Yon, Cholet or Laval, with a one-bedroom at €600 or less. Big city: Annecy if the budget allows (€1,100 for a one-bedroom), otherwise Limoges (€600). By the sea: Les Sables-d'Olonne, Carnac or Quiberon. Quiet small town: Fontenay-le-Comte or Villefranche-de-Rouergue, on 8.8 with a one-bedroom under €570.",
+      },
+    ],
+    relatedCities: ["mende", "carnac", "quiberon", "fontenay-le-comte", "challans", "lannion", "la-roche-sur-yon", "annecy"],
+    tags: ["safest cities", "safety", "2027 ranking", "crime", "moving to France"],
+  },
+  {
+    slug: "best-student-cities-in-france-2027",
+    title: "Best Student Cities in France in 2027: Scores and the Cost of a Studio",
+    metaTitle: "Best Student Cities in France in 2027 — Scores and Rents",
+    metaDesc:
+      "2027 student score for the 42 French cities above 100,000 residents: Strasbourg 7.7, Villeurbanne 7.4, Lyon 7.3. Studios from €420 in Saint-Étienne.",
+    category: "budget",
+    emoji: "🎓",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Among the 42 French cities above 100,000 residents, Strasbourg has the best student score for 2027 (7.7/10), ahead of Villeurbanne (7.4) and Lyon (7.3). A studio costs €580 a month in Strasbourg and €720 in Lyon, against €1,200 in Paris. The cheapest are in Saint-Étienne and Mulhouse: €420.",
+    sections: [
+      {
+        heading: "How is the student score calculated?",
+        body: "It is the scale behind our Students ranking: culture counts for 37.5%, cost of living 31%, transport 25% and nature 6%. The score does not measure what you can study there. That is why this guide sticks to cities above 100,000 residents, where most French higher education is concentrated: across all 593 cities, small towns such as Laon or Autun come out on top thanks to their rents and heritage, without offering a big city's choice of courses.",
+      },
+      {
+        heading: "Which big cities have the best student score?",
+        body: "Strasbourg: 7.7, with 9.0 for both culture and transport and a studio at €580. Villeurbanne: 7.4, transport 9.0, studio at €600. Lyon: 7.3, culture and transport both 9.0, studio at €720. Lille: 7.1, transport 8.7, studio at €580. On 7.0: Marseille (€590) and Nantes (€600). On 6.9: Rennes (€590), Bordeaux (€650) and Grenoble (€560). The next tier, 6.8, is shared by Toulouse, Nancy and Angers (source: our rent estimate).",
+      },
+      {
+        heading: "In which big cities is a studio cheapest?",
+        body: "Saint-Étienne and Mulhouse: €420. Limoges: €440. At €470: Le Mans, Perpignan and Le Havre. At €480: Brest and Clermont-Ferrand. In all, 14 cities above 100,000 residents have a studio at €500 or less.\n\nOn the student score, Mulhouse (6.7) is the best placed of these, ahead of Saint-Étienne and Brest (6.5), Clermont-Ferrand (6.4) and Limoges (6.3).",
+      },
+      {
+        heading: "Are the expensive cities worth the extra rent?",
+        body: "Not according to the score. Paris is on 6.5 with a studio at €1,200: €620 a month more than Strasbourg, or €7,440 a year, for a lower score. Nice is on 6.0 (€780) and Aix-en-Provence on 6.2 (€760). Montpellier does better, 6.6 for €620, and Bordeaux 6.9 for €650.\n\nChoosing an expensive city makes sense for the course it offers, not for the student lifestyle.",
+      },
+      {
+        heading: "What does the score leave out?",
+        body: "Three things. The course itself, first: no score replaces the content of a degree. Safety, second, which is not part of the scale: Marseille scores 7.0 with safety at 2.7, Lille 7.1 with 3.9 and Grenoble 6.9 with 4.3. Third, how hard it is to find a flat in September: read the rental-pressure page of the city profile. University residences, which are cheaper, are not counted in our rents.",
+      },
+      {
+        heading: "Which city for which student?",
+        body: "Minimum budget: Saint-Étienne, Mulhouse or Limoges, with a studio at €440 or less. Balance of score and rent: Strasbourg, Rennes or Grenoble, at €590 or less. Big metropolis: Lyon or Villeurbanne, the latter €120 cheaper for the same transport score. Without a car: Strasbourg, Lyon and Villeurbanne, all 9.0 for transport.",
+      },
+    ],
+    relatedCities: ["strasbourg", "villeurbanne", "lyon", "lille", "nantes", "rennes", "grenoble", "saint-etienne"],
+    tags: ["student cities", "2027 ranking", "studio rent", "studying in France", "cost of living"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

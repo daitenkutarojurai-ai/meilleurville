@@ -81037,6 +81037,53 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["retraite-bord-de-mer-france-villes-guide-2026", "villes-moyennes-ou-il-fait-bon-vivre-2027", "ou-prendre-sa-retraite-en-france-en-2027"],
     tags: ["bord de mer", "littoral", "classement 2027", "loyers", "où vivre"],
   },
+  {
+    slug: "villes-les-plus-sures-de-france-2027",
+    title: "Villes les plus sûres de France en 2027 : le classement par taille de ville",
+    metaTitle: "Villes les plus sûres de France en 2027 : le classement",
+    metaDesc:
+      "Note de sécurité 2027 sur 593 villes : 13 villes à 8,8/10, Annecy seule grande ville au-dessus de 7. Classement par taille, loyers et limites.",
+    category: "lifestyle",
+    emoji: "🛡️",
+    readMinutes: 3,
+    publishedAt: "2026-11-16",
+    updatedAt: "2026-11-16",
+    intro:
+      "Treize villes partagent la meilleure note de sécurité pour 2027 : 8,8/10, toutes de moins de 15 000 habitants. Parmi les 42 villes de plus de 100 000 habitants, Annecy est la seule au-dessus de 7 (7,3), devant Limoges (6,1). Sur 593 villes, 76 atteignent 8 et 132 restent sous 4,5.",
+    sections: [
+      {
+        heading: "Comment est notée la sécurité ?",
+        body: "C'est l'axe sécurité de chaque fiche ville, sur 10, où 10 signifie le plus sûr. La note est calée sur les chiffres de la délinquance enregistrée par les services de police et de gendarmerie, publiés par le service statistique du ministère de l'Intérieur. La moyenne des 593 villes est de 5,6 et la médiane de 5,5.\n\nCe n'est pas une mesure du sentiment d'insécurité, et la note vaut pour la commune entière, pas pour un quartier.",
+      },
+      {
+        heading: "Quelles sont les villes les mieux notées en 2027 ?",
+        body: "Treize villes sont ex æquo à 8,8 : Mende, Florac-Trois-Rivières, Guéret, Aubusson, La Souterraine, Saint-Flour, Saint-Girons, Villefranche-de-Rouergue, Mayenne, Fontenay-le-Comte, Noirmoutier-en-l'Île, Carnac et Quiberon. Le palier suivant, 8,7, réunit Dinan, Rumilly, Guingamp et Château-Gontier-sur-Mayenne.\n\nTrois sont dans la Creuse, deux en Lozère, deux dans le Morbihan, deux en Vendée. Le T2 y va de 390 € à La Souterraine à 820 € à Noirmoutier-en-l'Île et à Quiberon (source : notre estimation des loyers).",
+      },
+      {
+        heading: "Quelles villes de 20 000 à 50 000 habitants sont les plus sûres ?",
+        body: "Challans : 8,3. Lannion : 8,2. Fontainebleau et Beaune : 8,1. Les Sables-d'Olonne : 8,0. À 7,5 : Auch, Chaumont et Saint-Dié-des-Vosges. Saumur : 7,4. Anglet : 7,2. Le palier suivant, 7,1, réunit Alençon et Menton.\n\nCôté loyers, le T2 est à 470 € à Chaumont, 480 € à Auch, 500 € à Saint-Dié-des-Vosges, contre 880 € à Fontainebleau et 890 € à Anglet.",
+      },
+      {
+        heading: "Et parmi les villes de 50 000 à 100 000 habitants ?",
+        body: "Sur 89 villes de cette taille, La Roche-sur-Yon arrive nettement en tête à 8,0, avec un T2 à 600 €. À 7,2 : Levallois-Perret, Issy-les-Moulineaux et Rueil-Malmaison, où le T2 va de 1 150 € à 1 400 €. Cholet : 7,1, pour 600 €. Vannes : 6,9. Laval : 6,8, pour 490 €. À 6,7 : Neuilly-sur-Seine et Courbevoie. La Rochelle : 6,5. Le palier suivant, 6,3, réunit Chambéry et Versailles.",
+      },
+      {
+        heading: "Quelles grandes villes sont les mieux notées ?",
+        body: "Annecy : 7,3. Limoges : 6,1. À 5,9 : Rennes, Aix-en-Provence et Caen. Le palier suivant, 5,7, réunit Brest, Dijon, Besançon, Angers, Boulogne-Billancourt et Villeurbanne. Seules deux des 42 villes de plus de 100 000 habitants atteignent 6, et treize sont sous 4,5.\n\nPour situer les métropoles : Strasbourg 5,3 ; Lyon, Bordeaux et Nice 5,1 ; Nantes 4,6 ; Toulouse 4,3. Les notes les plus basses de ce groupe sont celles de Saint-Denis (2,2), Marseille (2,7), Montpellier et Perpignan (3,7), puis Lille, Nîmes, Paris, Montreuil et Argenteuil, à 3,9.",
+      },
+      {
+        heading: "Quelles sont les limites de ce classement ?",
+        body: "Une note communale lisse de grands écarts entre quartiers : dans une métropole, deux rues voisines peuvent avoir peu en commun. La délinquance enregistrée dépend aussi des plaintes déposées, donc de la présence des services et des habitudes locales.\n\nEnfin la sécurité ne fait pas tout. Mende, à 8,8, n'obtient que 2,7 en transport : une ville très sûre peut être une ville où l'on ne fait rien sans voiture.",
+      },
+      {
+        heading: "Quelle ville sûre pour quel projet ?",
+        body: "En famille près de Paris : Fontainebleau, 8,1. Budget serré : La Roche-sur-Yon, Cholet ou Laval, avec un T2 à 600 € ou moins. Grande ville : Annecy si le budget suit (T2 à 1 100 €), sinon Limoges (600 €). Bord de mer : Les Sables-d'Olonne, Carnac ou Quiberon. Petite ville au calme : Fontenay-le-Comte ou Villefranche-de-Rouergue, à 8,8 avec un T2 sous 570 €.",
+      },
+    ],
+    relatedCities: ["mende", "carnac", "quiberon", "fontenay-le-comte", "challans", "lannion", "la-roche-sur-yon", "annecy"],
+    relatedGuides: ["securite-ressentie-vs-reelle-ville-france-2026", "ou-vivre-en-france-2027-villes-les-mieux-notees", "meilleures-villes-pour-une-famille-en-2027"],
+    tags: ["sécurité", "villes sûres", "classement 2027", "où vivre", "délinquance"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

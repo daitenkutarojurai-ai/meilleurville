@@ -11650,6 +11650,11 @@
       "slug": "villes-bord-de-mer-ou-vivre-en-2027",
       "title": "Vivre en bord de mer en 2027 : les villes du littoral les mieux notées",
       "emoji": "🌊"
+    },
+    {
+      "slug": "villes-les-plus-sures-de-france-2027",
+      "title": "Villes les plus sûres de France en 2027 : le classement par taille de ville",
+      "emoji": "🛡️"
     }
   ],
   "tags": [
@@ -11949,6 +11954,11 @@
       "count": 10
     },
     {
+      "slug": "securite",
+      "label": "sécurité",
+      "count": 10
+    },
+    {
       "slug": "tgv",
       "label": "TGV",
       "count": 10
@@ -12019,11 +12029,6 @@
       "count": 9
     },
     {
-      "slug": "securite",
-      "label": "sécurité",
-      "count": 9
-    },
-    {
       "slug": "tgv-paris",
       "label": "TGV Paris",
       "count": 9
@@ -12051,6 +12056,11 @@
     {
       "slug": "canicule",
       "label": "canicule",
+      "count": 8
+    },
+    {
+      "slug": "classement-2027",
+      "label": "classement 2027",
       "count": 8
     },
     {
@@ -12124,11 +12134,6 @@
       "count": 7
     },
     {
-      "slug": "classement-2027",
-      "label": "classement 2027",
-      "count": 7
-    },
-    {
       "slug": "dordogne",
       "label": "Dordogne",
       "count": 7
@@ -12161,6 +12166,11 @@
     {
       "slug": "nice",
       "label": "Nice",
+      "count": 7
+    },
+    {
+      "slug": "ou-vivre",
+      "label": "où vivre",
       "count": 7
     },
     {
@@ -12266,11 +12276,6 @@
     {
       "slug": "occitanie",
       "label": "Occitanie",
-      "count": 6
-    },
-    {
-      "slug": "ou-vivre",
-      "label": "où vivre",
       "count": 6
     },
     {

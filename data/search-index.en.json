@@ -11075,6 +11075,16 @@
       "slug": "best-seaside-towns-to-live-in-france-2027",
       "title": "Best Seaside Towns to Live in France in 2027: The Top-Rated Coastal Places",
       "emoji": "🌊"
+    },
+    {
+      "slug": "safest-cities-in-france-2027",
+      "title": "Safest Cities in France in 2027: The Ranking by City Size",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "best-student-cities-in-france-2027",
+      "title": "Best Student Cities in France in 2027: Scores and the Cost of a Studio",
+      "emoji": "🎓"
     }
   ],
   "tags": [
@@ -11091,7 +11101,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 318
+      "count": 319
     },
     {
       "slug": "single-parent-in-france",
@@ -11211,7 +11221,7 @@
     {
       "slug": "cost-of-living",
       "label": "cost of living",
-      "count": 50
+      "count": 51
     },
     {
       "slug": "normandy",
@@ -11414,6 +11424,11 @@
       "count": 9
     },
     {
+      "slug": "2027-ranking",
+      "label": "2027 ranking",
+      "count": 8
+    },
+    {
       "slug": "basque-country",
       "label": "basque country",
       "count": 8
@@ -11524,11 +11539,6 @@
       "count": 7
     },
     {
-      "slug": "2027-ranking",
-      "label": "2027 ranking",
-      "count": 6
-    },
-    {
       "slug": "aix-en-provence",
       "label": "aix-en-provence",
       "count": 6
@@ -11611,6 +11621,11 @@
     {
       "slug": "pau",
       "label": "pau",
+      "count": 5
+    },
+    {
+      "slug": "safety",
+      "label": "safety",
       "count": 5
     },
     {
@@ -11711,11 +11726,6 @@
     {
       "slug": "retirement",
       "label": "retirement",
-      "count": 4
-    },
-    {
-      "slug": "safety",
-      "label": "safety",
       "count": 4
     },
     {
