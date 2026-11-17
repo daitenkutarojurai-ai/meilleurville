@@ -45,3 +45,5 @@ Demande du propriétaire. Deux briques, rendues par `components/SportSpots.tsx` 
   ligue ou le club ; sinon date seule.
 
 - 2026-11-11 agenda-sport : +7 (Toulon, Dijon, Metz, Le Mans, Besançon, Le Havre, Reims) ; 49 sport au total ; prochain lot : Perpignan, Clermont, Tours, Nîmes, Amiens, Limoges, Caen (dates à recouper).
+
+- 2026-11-17 agenda sport : +10 matchs Ligue 1 (J12 27-29/11, J13 05/12 : Brest, Angers, Paris, Le Mans, Nice, Auxerre, Lyon, Lille, Marseille, Strasbourg), dates seules. Courses de décembre non ajoutées (agrégateurs seuls). Prochain lot : Ligue 2 / Top 14 / Betclic Élite dates fixées, corridas de Noël avec site officiel.
