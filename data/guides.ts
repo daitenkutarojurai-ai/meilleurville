@@ -19279,6 +19279,321 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture La Rochelle","vélo La Rochelle","Yélo La Rochelle","mobilité La Rochelle","sans voiture Charente-Maritime 2026"],
   },
   {
+    slug: "vivre-sans-voiture-villeurbanne-guide-2026",
+    title: "Vivre sans voiture à Villeurbanne en 2026 : métro A, tram et T2 à 870 €",
+    metaTitle: "Vivre sans voiture à Villeurbanne 2026 : métro A, tram, loyers",
+    metaDesc: "À Villeurbanne, métro A et trams rendent la voiture facultative, avec un T2 à 870 €, 130 € de moins qu'à Lyon. Score transport 9,0/10. Comparatif chiffré.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Villeurbanne se vit très bien sans voiture : le métro A traverse la ville (Gratte-Ciel, République-Villeurbanne, Flachet) et les trams T1 et T4 desservent le campus de la Doua. Le T2 y coûte 870 € par mois sur notre estimation des loyers, 130 € de moins qu'à Lyon, et notre score transport atteint 9,0/10, au 1er rang à égalité avec 22 autres villes sur 593.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Villeurbanne ?",
+        body: "Le métro A relie Villeurbanne à Lyon : on y trouve les stations Gratte-Ciel, République-Villeurbanne et Flachet, avec une correspondance à Charpennes. Les trams T1 et T4 s'arrêtent à La Doua Gaston Berger, au cœur du campus. Les horaires et tarifs changent : consultez le site du réseau TCL avant de vous décider.",
+      },
+      {
+        heading: "Combien coûte un logement à Villeurbanne ?",
+        body: "Notre estimation des loyers donne 600 € pour un studio, 870 € pour un T2 et 1 150 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 3 554 € le m², sur 3 578 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Lyon est à 4 475 €, soit 921 € de plus : sur 50 m², l'écart atteint 46 050 €.",
+      },
+      {
+        heading: "Une ville qui grandit vite",
+        body: "Villeurbanne compte 162 207 habitants en 2022, soit +8,8 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 29,2 % de la population. Le niveau de vie médian est de 21 540 € par an avec 21 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 5,7/10, coût de la vie 5,4/10, nature 4,3/10.",
+      },
+      {
+        heading: "Villeurbanne ou Lyon : que change la frontière ?",
+        body: "Les deux villes sont à 9,0/10 en transport : le métro et les trams ne s'arrêtent pas à la limite communale. La différence se joue sur le budget : T2 à 870 € contre 1 000 € à Lyon, soit 1 560 € par an, et un T3 à 1 150 € contre 1 380 €. Côté sécurité, Villeurbanne est à 5,7/10 contre 5,1/10 à Lyon. Contre-partie : la nature est à 4,3/10, la ville est dense et peu verte.",
+      },
+      {
+        heading: "Les limites sans voiture à Villeurbanne",
+        body: "Les trajets de banlieue à banlieue, hors des axes de métro et de tram, restent plus longs en bus. Les offres de vélo et les itinéraires évoluent : vérifiez-les sur place. Le prix du logement près des stations de métro est plus élevé que la médiane communale.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : un studio à 600 € et un tram jusqu'à la Doua suffisent, sans voiture. Couple actif : un T2 à 870 € avec le métro A vers le travail est un bon rapport coût-transport. Famille : le T3 à 1 150 € reste lisible, avec 7,7/10 en écoles. Retraité : la densité et la nature à 4,3/10 sont à peser avant de louer.",
+      },
+    ],
+    relatedCities: ["villeurbanne", "lyon", "nanterre"],
+    relatedGuides: [
+      "vivre-sans-voiture-lyon-guide-2026",
+      "vivre-sans-voiture-france-guide-2025",
+      "famille-a-villeurbanne-2026",
+    ],
+    tags: ["vivre sans voiture Villeurbanne", "métro A Villeurbanne", "tram La Doua", "mobilité Villeurbanne", "sans voiture Lyon métropole 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-creteil-guide-2026",
+    title: "Vivre sans voiture à Créteil en 2026 : métro 8 et T2 à 950 €",
+    metaTitle: "Vivre sans voiture à Créteil 2026 : métro 8, loyers, budget",
+    metaDesc: "À Créteil, le métro 8 relie Paris sans voiture et le T2 est à 950 €, 850 € de moins qu'à Paris. Score transport 9,0/10. Comparatif chiffré et limites.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Créteil se vit sans voiture grâce à la ligne 8 du métro, qui dessert Créteil-L'Échat, Créteil-Préfecture et Pointe du Lac, et son T2 est à 950 € par mois sur notre estimation des loyers, 850 € de moins qu'à Paris. Notre score transport est de 9,0/10, au 1er rang à égalité avec 22 autres villes sur 593 ; en revanche la nature n'y vaut que 3,6/10.",
+    sections: [
+      {
+        heading: "Quelle ligne de métro dessert Créteil ?",
+        body: "La ligne 8 du métro parisien dessert Créteil : Créteil-L'Échat, Créteil-Préfecture, puis Pointe du Lac, station ouverte en 2011 quand la ligne a été prolongée de 1,3 km. Pour les nouveaux tracés (Grand Paris Express) et les horaires, consultez les sites d'Île-de-France Mobilités et de la RATP : nous ne citons ni tarif ni date d'ouverture.",
+      },
+      {
+        heading: "Combien coûte un logement à Créteil ?",
+        body: "Notre estimation des loyers donne 650 € pour un studio, 950 € pour un T2 et 1 250 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 3 495 € le m², sur 993 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Paris est à 9 646 €, soit 6 151 € de plus : sur 50 m², l'écart atteint 307 550 €.",
+      },
+      {
+        heading: "Qui vit à Créteil ?",
+        body: "Créteil compte 92 859 habitants en 2022, soit +3,9 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans représentent 22,1 % de la population. Le niveau de vie médian est de 21 270 € par an avec 21 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : coût de la vie 4,0/10, sécurité 4,1/10, nature 3,6/10.",
+      },
+      {
+        heading: "Créteil ou Paris : ce que la ligne 8 change",
+        body: "Les deux sont à 9,0/10 en transport, mais le T2 est à 950 € à Créteil contre 1 800 € à Paris : 850 € par mois, 10 200 € par an. Le T3 passe de 2 800 € à 1 250 €. La sécurité (4,1/10 contre 3,9/10) est proche ; le prix d'achat divise par près de trois. On paie ce gain en temps de trajet et en cadre de vie moins vert.",
+      },
+      {
+        heading: "Les limites sans voiture à Créteil",
+        body: "Les zones d'activité et les communes voisines hors de la ligne 8 passent par le bus. La nature (3,6/10) oblige à partir en week-end pour trouver de l'espace. Vérifiez à pied le trajet entre votre logement et la station.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : un studio à 650 € est plus abordable qu'à Paris, avec la ligne 8 pour la fac. Couple actif : un T2 à 950 € près d'une station est le meilleur compromis du lot francilien. Famille : le T3 à 1 250 € est lisible, mais les écoles sont à 5,3/10. Retraité : le métro compense, la nature à 3,6/10 moins.",
+      },
+    ],
+    relatedCities: ["creteil", "nanterre", "versailles"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-france-guide-2025",
+      "famille-a-creteil-2026",
+    ],
+    tags: ["vivre sans voiture Créteil", "métro 8 Créteil", "mobilité Val-de-Marne", "sans voiture Île-de-France", "loyers Créteil 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-versailles-guide-2026",
+    title: "Vivre sans voiture à Versailles en 2026 : trois gares et T2 à 1 200 €",
+    metaTitle: "Vivre sans voiture à Versailles 2026 : trois gares, loyers",
+    metaDesc: "À Versailles, trois gares relient Paris sans voiture, mais le T2 est à 1 200 € sur notre estimation. Score transport 8,4/10. Comparatif avec Paris et Nanterre.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Versailles se vit sans voiture grâce à ses trois gares : Versailles-Chantiers, Versailles Rive Droite et Versailles Château Rive Gauche. Le T2 y coûte 1 200 € par mois sur notre estimation des loyers, 600 € de moins qu'à Paris, mais 250 € de plus qu'à Nanterre. Notre score transport est de 8,4/10, au 28e rang sur 593 à égalité avec 13 autres villes.",
+    sections: [
+      {
+        heading: "Quelles gares desservent Versailles ?",
+        body: "Versailles-Chantiers est desservie par le Transilien N, certains trains U et des TER ; Versailles Rive Droite par la ligne L depuis Paris-Saint-Lazare ; Versailles Château Rive Gauche est le terminus du RER C, le plus proche du palais. Les itinéraires et les noms de lignes ont changé récemment : vérifiez-les sur Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Versailles ?",
+        body: "Notre estimation des loyers donne 800 € pour un studio, 1 200 € pour un T2 et 1 700 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 6 491 € le m², sur 1 603 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Paris est à 9 646 €, soit 3 155 € de plus : sur 50 m², l'écart atteint 157 750 €.",
+      },
+      {
+        heading: "Un profil de ville aisée",
+        body: "Versailles compte 83 918 habitants en 2022, soit −1,7 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 33 780 € par an avec 7 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : écoles 9,0/10, sécurité 6,3/10, télétravail 8,8/10, mais coût de la vie 2,4/10, le plus bas de ce lot.",
+      },
+      {
+        heading: "Versailles ou Paris : l'arbitrage",
+        body: "Paris est à 9,0/10 en transport contre 8,4/10 à Versailles : le réseau y est plus dense, mais le T2 passe de 1 800 € à 1 200 €, soit 7 200 € par an, et la sécurité est de 6,3/10 contre 3,9/10. Face à Nanterre, également à 9,0/10, Versailles est 150 € plus chère (1 200 € contre 1 050 € pour un T2) mais Versailles affiche 6,3/10 en sécurité contre 4,1/10 pour Nanterre.",
+      },
+      {
+        heading: "Les limites sans voiture à Versailles",
+        body: "Le trajet entre la gare Chantiers et le palais se fait à pied ou en bus, avec 15 à 20 minutes selon les sources. La ville est calme le soir. Et le budget : un T2 à 1 200 € demande un revenu confortable, ce qui reflète un coût de la vie à 2,4/10.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 800 € pèse lourd, privilégiez Créteil. Couple actif : un T2 à 1 200 € et la ligne L ou N fonctionnent si l'emploi est à Paris. Famille : écoles à 9,0/10, le T3 est à 1 700 €. Retraité : sécurité 6,3/10 et cadre calme conviennent si le budget suit.",
+      },
+    ],
+    relatedCities: ["versailles", "nanterre", "creteil"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-france-guide-2025",
+      "famille-a-versailles-2026",
+    ],
+    tags: ["vivre sans voiture Versailles", "gare Versailles Chantiers", "RER C Versailles", "mobilité Yvelines", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-nimes-guide-2026",
+    title: "Vivre sans voiture à Nîmes en 2026 : tram'bus Tango et T2 à 720 €",
+    metaTitle: "Vivre sans voiture à Nîmes 2026 : Tango, loyers, limites",
+    metaDesc: "À Nîmes, le réseau Tango de tram'bus rend la voiture facultative en ville, avec un T2 à 720 €. Score transport 6,1/10. Comparatif avec Montpellier et Avignon.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Nîmes peut se vivre sans voiture en centre-ville, avec un T2 à 720 € par mois sur notre estimation des loyers, 130 € de moins qu'à Montpellier. Mais notre score transport n'est que de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes : c'est un réseau de tram'bus, pas de métro.",
+    sections: [
+      {
+        heading: "Que comprend le réseau Tango ?",
+        body: "Le réseau Tango de Nîmes Métropole s'appuie sur des lignes de tram'bus : T1 en service depuis 2012, T2 inaugurée en août 2022 avec le nouveau réseau, puis T3 et T4 créées la même année. Les fréquences, tarifs et extensions changent : consultez le site du réseau Tango avant de vous installer.",
+      },
+      {
+        heading: "Combien coûte un logement à Nîmes ?",
+        body: "Notre estimation des loyers donne 520 € pour un studio, 720 € pour un T2 et 960 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 106 € le m², sur 3 203 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Montpellier est à 3 354 €, soit 1 248 € de plus : sur 50 m², l'écart atteint 62 400 €.",
+      },
+      {
+        heading: "Une ville stable mais modeste",
+        body: "Nîmes compte 150 444 habitants en 2022, soit −0,4 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 18 760 € par an avec 31 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 3,9/10, coût de la vie 5,9/10, nature 5,6/10.",
+      },
+      {
+        heading: "Nîmes, Montpellier ou Avignon ?",
+        body: "Montpellier a un meilleur score transport (7,7/10 contre 6,1/10) et un tramway, mais son T2 est à 850 € contre 720 € à Nîmes : 1 560 € par an. Avignon est au même niveau de transport (6,1/10) avec un T2 à 750 €, soit 30 € de plus qu'à Nîmes. Nîmes est la moins chère des trois, avec une sécurité à 3,9/10 contre 4,3/10 à Avignon.",
+      },
+      {
+        heading: "Les limites sans voiture à Nîmes",
+        body: "Hors des axes de tram'bus, les quartiers périphériques et les communes voisines se rejoignent plus lentement en bus. L'été, la chaleur pèse sur le vélo. Et la sécurité (3,9/10) est un critère à vérifier quartier par quartier.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 520 € est bas, avec une ligne de tram'bus sur le trajet. Couple actif : un T2 à 720 € se justifie si le travail est sur un axe T1 ou T2. Retraité : budget doux, mais sécurité 3,9/10 à peser. Famille : le T3 à 960 € est lisible, écoles à 5,3/10.",
+      },
+    ],
+    relatedCities: ["nimes", "montpellier", "avignon"],
+    relatedGuides: [
+      "vivre-sans-voiture-montpellier-guide-2026",
+      "vivre-sans-voiture-avignon-guide-2026",
+      "vivre-a-nimes-2026",
+    ],
+    tags: ["vivre sans voiture Nîmes", "Tango Nîmes", "tram'bus Nîmes", "mobilité Gard", "sans voiture Occitanie 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-aix-en-provence-guide-2026",
+    title: "Vivre sans voiture à Aix-en-Provence en 2026 : bus, vélo et T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Aix-en-Provence 2026 : bus, loyers",
+    metaDesc: "À Aix-en-Provence, centre compact et gare routière rendent la voiture facultative, mais le T2 est à 1 050 €. Score transport 6,1/10. Comparatif avec Marseille.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Aix-en-Provence se vit sans voiture dans son centre compact, mais pas à bon marché : le T2 est à 1 050 € par mois sur notre estimation des loyers, 230 € de plus qu'à Marseille. Notre score transport est de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes : la ville n'a ni métro ni tram.",
+    sections: [
+      {
+        heading: "Comment se déplacer à Aix sans voiture ?",
+        body: "La gare routière, à quelques minutes à pied de la gare du centre-ville, est le point d'accès aux bus. Des navettes la relient à la gare TGV, située à plus de 10 km du centre, et à l'aéroport Marseille-Provence, à environ 30 minutes. Les numéros de ligne et tarifs varient selon les sources : vérifiez-les sur le site du réseau.",
+      },
+      {
+        heading: "Combien coûte un logement à Aix ?",
+        body: "Notre estimation des loyers donne 760 € pour un studio, 1 050 € pour un T2 et 1 400 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 4 819 € le m², sur 3 319 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Marseille est à 3 154 €, soit 1 665 € de moins : sur 50 m², l'écart atteint 83 250 €.",
+      },
+      {
+        heading: "Une ville jeune et aisée",
+        body: "Aix compte 147 933 habitants en 2022, soit +3,4 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 26,5 % de la population. Le niveau de vie médian est de 25 810 € par an avec 15 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : écoles 8,3/10, sécurité 5,9/10, coût de la vie 3,6/10.",
+      },
+      {
+        heading: "Aix ou Marseille : l'arbitrage",
+        body: "Les deux villes sont à 6,1/10 en transport. Le T2 coûte 1 050 € à Aix contre 820 € à Marseille, soit 2 760 € de plus par an ; en échange, la sécurité est de 5,9/10 contre 2,7/10. Aix choisit la tranquillité et paie le loyer ; Marseille offre un métro et un tram, avec un budget plus léger.",
+      },
+      {
+        heading: "Les limites sans voiture à Aix",
+        body: "Le vélo et la marche suffisent dans le centre, moins dans les quartiers étalés et les zones d'activité. Le coût de la vie, à 3,6/10, peut absorber l'économie d'une voiture. Calculez avant de signer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 760 € est cher, comparez avec Marseille. Couple actif : un T2 à 1 050 € se justifie si l'emploi est dans le centre. Famille : le T3 à 1 400 € est élevé, écoles à 8,3/10. Retraité : sécurité 5,9/10 et centre compact conviennent si le budget suit.",
+      },
+    ],
+    relatedCities: ["aix-en-provence", "marseille", "avignon"],
+    relatedGuides: [
+      "vivre-sans-voiture-marseille-guide-2026",
+      "vivre-sans-voiture-avignon-guide-2026",
+      "vivre-a-aix-en-provence-2026",
+    ],
+    tags: ["vivre sans voiture Aix-en-Provence", "bus Aix-en-Provence", "mobilité Bouches-du-Rhône", "sans voiture Provence 2026", "loyers Aix-en-Provence 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-limoges-guide-2026",
+    title: "Vivre sans voiture à Limoges en 2026 : trolleybus et T2 à 600 €",
+    metaTitle: "Vivre sans voiture à Limoges 2026 : trolleybus, loyers",
+    metaDesc: "À Limoges, un réseau de trolleybus et un T2 à 600 € permettent de se passer de voiture. Score transport 6,1/10. Comparatif avec Clermont-Ferrand.",
+    category: "lifestyle",
+    emoji: "🚎",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Limoges se vit sans voiture à très petit budget : le T2 est à 600 € par mois sur notre estimation des loyers, 80 € de moins qu'à Clermont-Ferrand, avec un réseau de trolleybus que peu de villes françaises ont gardé. Notre score transport est de 6,1/10, au 281e rang sur 593 à égalité avec 19 autres villes.",
+    sections: [
+      {
+        heading: "Que comprend le réseau STCL ?",
+        body: "La Société des transports en commun de Limoges exploite des lignes de bus et un réseau de trolleybus. La gare des Bénédictins est intégrée à un pôle d'échanges avec les bus urbains. Les évolutions du réseau, projets et tarifs changent : consultez le site de Limoges Métropole.",
+      },
+      {
+        heading: "Combien coûte un logement à Limoges ?",
+        body: "Notre estimation des loyers donne 440 € pour un studio, 600 € pour un T2 et 800 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 1 518 € le m², sur 2 575 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Clermont-Ferrand est à 2 105 €, soit 587 € de plus : sur 50 m², l'écart atteint 29 350 €.",
+      },
+      {
+        heading: "Une ville qui perd des habitants",
+        body: "Limoges compte 129 754 habitants en 2022, soit −2,2 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 20 590 € par an avec 24 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : coût de la vie 7,1/10, sécurité 6,1/10, nature 5,6/10.",
+      },
+      {
+        heading: "Limoges ou Clermont-Ferrand ?",
+        body: "Clermont-Ferrand est à 6,4/10 en transport contre 6,1/10 à Limoges, avec un tramway. Mais le T2 y coûte 680 € contre 600 € à Limoges : 960 € par an. Le coût de la vie est de 7,1/10 à Limoges contre 6,4/10 à Clermont, et la sécurité de 6,1/10 contre 5,5/10. Limoges est moins bien desservie, mais nettement moins chère.",
+      },
+      {
+        heading: "Les limites sans voiture à Limoges",
+        body: "La ville est vallonnée, ce qui pèse sur le vélo. Hors des lignes principales, les fréquences baissent, et les communes voisines se rejoignent mal. La population baisse : un marché locatif détendu, mais un tissu économique plus mince.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : un studio à 440 € est le plus bas de ce lot. Couple actif : un T2 à 600 € laisse de la marge si l'emploi est sur une ligne. Retraité : budget doux et sécurité 6,1/10 conviennent. Famille : le T3 à 800 € est abordable, écoles à 6,2/10.",
+      },
+    ],
+    relatedCities: ["limoges", "clermont-ferrand", "poitiers"],
+    relatedGuides: [
+      "vivre-sans-voiture-clermont-ferrand-guide-2026",
+      "vivre-a-limoges-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Limoges", "trolleybus Limoges", "STCL Limoges", "mobilité Haute-Vienne", "sans voiture Nouvelle-Aquitaine 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-poitiers-guide-2026",
+    title: "Vivre sans voiture à Poitiers en 2026 : bus Vitalis, TGV et T2 à 660 €",
+    metaTitle: "Vivre sans voiture à Poitiers 2026 : Vitalis, TGV, loyers",
+    metaDesc: "À Poitiers, le réseau Vitalis et le TGV rendent la voiture facultative, avec un T2 à 660 €. Score transport 6,4/10. Comparatif avec Tours et Limoges.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Poitiers se vit sans voiture : le réseau de bus Vitalis dessert la gare, où s'arrêtent TGV et Ouigo vers Paris et Bordeaux, et le T2 est à 660 € par mois sur notre estimation des loyers. Notre score transport est de 6,4/10, au 200e rang sur 593 à égalité avec 47 autres villes.",
+    sections: [
+      {
+        heading: "Que comprend le réseau Vitalis ?",
+        body: "Vitalis est le réseau de bus de Grand Poitiers : plusieurs lignes urbaines desservent la gare, et des vélos en libre-service sont accessibles à proximité. La gare propose des TGV Inoui et des Ouigo vers Paris, Bordeaux, Saint-Pierre-des-Corps et Toulouse. Tarifs et horaires changent : consultez les sites officiels.",
+      },
+      {
+        heading: "Combien coûte un logement à Poitiers ?",
+        body: "Notre estimation des loyers donne 480 € pour un studio, 660 € pour un T2 et 880 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 2 200 € le m², sur 1 655 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Tours est à 2 827 €, soit 627 € de plus : sur 50 m², l'écart atteint 31 350 €.",
+      },
+      {
+        heading: "Une ville étudiante",
+        body: "Poitiers compte 89 472 habitants en 2022, soit +1,7 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 36,0 % de la population, la part la plus élevée de ce lot. Le niveau de vie médian est de 20 150 € par an avec 26 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : écoles 7,4/10, coût de la vie 6,6/10, nature 5,0/10.",
+      },
+      {
+        heading: "Poitiers, Tours ou Limoges ?",
+        body: "Tours est à 7,0/10 en transport contre 6,4/10 à Poitiers, avec un tramway ; son T2 est à 700 € contre 660 € à Poitiers, soit 480 € par an. Limoges est à 6,1/10, avec un T2 à 600 € : 60 € de moins qu'à Poitiers. Poitiers se place entre les deux, avec un TGV vers Paris et des écoles à 7,4/10.",
+      },
+      {
+        heading: "Les limites sans voiture à Poitiers",
+        body: "La ville est bâtie sur un promontoire : montées pour le vélo. Le soir et le week-end, les fréquences des bus baissent. Les campus et zones d'activité hors du centre demandent de vérifier la desserte.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : un studio à 480 € et 36,0 % de 15-29 ans, c'est la ville étudiante du lot. Couple actif : un T2 à 660 € avec le TGV vers Paris est un bon compromis. Famille : le T3 à 880 € est lisible, écoles à 7,4/10. Retraité : sécurité 5,7/10 et centre compact conviennent.",
+      },
+    ],
+    relatedCities: ["poitiers", "tours", "limoges"],
+    relatedGuides: [
+      "vivre-sans-voiture-tours-guide-2026",
+      "vivre-a-poitiers-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Poitiers", "Vitalis Poitiers", "TGV Poitiers", "mobilité Vienne", "sans voiture Nouvelle-Aquitaine 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade",
