@@ -20573,6 +20573,286 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["la-rochelle","poitiers","nantes"],
     tags: ["car-free La Rochelle","La Rochelle bike","Yélo La Rochelle","La Rochelle without a car","nouvelle-aquitaine"],
   },
+  {
+    slug: "car-free-living-in-villeurbanne-2026",
+    title: "Car-Free Living in Villeurbanne 2026: Metro A, Trams and a €870 T2",
+    metaTitle: "Car-Free Living in Villeurbanne 2026: Metro A, Rents",
+    metaDesc: "In Villeurbanne, metro line A and two tram lines make a car optional, with a T2 at €870, €130 less than Lyon. Transport score 9.0/10. Figures compared.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Villeurbanne works very well without a car: metro line A crosses the city (Gratte-Ciel, République-Villeurbanne, Flachet) and trams T1 and T4 serve the La Doua campus. A two-room flat (T2) costs €870 a month on our rent estimate, €130 less than in Lyon, and our transport score reaches 9.0/10, ranked 1st in a tie with 22 other cities out of 593.",
+    sections: [
+      {
+        heading: "Which lines serve Villeurbanne?",
+        body: "Metro line A links Villeurbanne to Lyon, with stops at Gratte-Ciel, République-Villeurbanne and Flachet and an interchange at Charpennes. Trams T1 and T4 stop at La Doua Gaston Berger, in the middle of the campus. Timetables and fares change: check the TCL network website before you commit.",
+      },
+      {
+        heading: "How much does housing cost in Villeurbanne?",
+        body: "Our rent estimate gives €600 a month for a studio, €870 for a T2 and €1,150 for a T3 (three rooms). The median apartment price is €3,554 per m² across 3,578 sales in 2024-2025 (source: our price page, DVF notarial sales). Lyon is at €4,475, which is €921 more: on 50 m², the gap reaches €46,050.",
+      },
+      {
+        heading: "A fast-growing city",
+        body: "Villeurbanne had 162,207 inhabitants in 2022, up 8.8% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 29.2% of the population. Median living standard is €21,540 a year, with a 21% poverty rate (source: INSEE, Filosofi 2021). Our scores: safety 5.7/10, cost of living 5.4/10, nature 4.3/10.",
+      },
+      {
+        heading: "Villeurbanne or Lyon: what does the city limit change?",
+        body: "Both cities score 9.0/10 on transport: the metro and trams do not stop at the municipal boundary. The difference is the budget: a T2 at €870 against €1,000 in Lyon is €1,560 a year, and a T3 at €1,150 against €1,380. On safety, Villeurbanne scores 5.7/10 against 5.1/10 for Lyon. The trade-off: nature is 4.3/10, and the city is dense and not very green.",
+      },
+      {
+        heading: "The limits of going car-free in Villeurbanne",
+        body: "Suburb-to-suburb trips away from the metro and tram axes are slower by bus. Bike offers and routes keep changing, so check them on the ground. Rents near metro stations run above the city median.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €600 studio and a tram to La Doua are enough, no car needed. Working couple: an €870 T2 with metro A to work is a good cost-to-transport ratio. Family: the €1,150 T3 stays reasonable, with a 7.7/10 schools score. Retiree: weigh the density and the 4.3/10 nature score before signing a lease.",
+      },
+    ],
+    relatedCities: ["villeurbanne","lyon","nanterre"],
+    tags: ["car-free Villeurbanne","Villeurbanne metro A","La Doua tram","Villeurbanne without a car","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "car-free-living-in-creteil-2026",
+    title: "Car-Free Living in Créteil 2026: Metro Line 8 and a €950 T2",
+    metaTitle: "Car-Free Living in Créteil 2026: Metro 8, Rents, Budget",
+    metaDesc: "In Créteil, metro line 8 links you to Paris without a car and a T2 is €950, €850 less than Paris. Transport score 9.0/10. Figures and limits compared.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Créteil works without a car thanks to Paris metro line 8, which serves Créteil-L'Échat, Créteil-Préfecture and Pointe du Lac, and a two-room flat (T2) is €950 a month on our rent estimate, €850 less than in Paris. Our transport score is 9.0/10, ranked 1st in a tie with 22 other cities out of 593; nature, however, scores only 3.6/10.",
+    sections: [
+      {
+        heading: "Which metro line serves Créteil?",
+        body: "Paris metro line 8 serves Créteil: Créteil-L'Échat, Créteil-Préfecture and Pointe du Lac. For new routes (the Grand Paris Express) and timetables, check Île-de-France Mobilités and RATP: we quote no fare and no opening date.",
+      },
+      {
+        heading: "How much does housing cost in Créteil?",
+        body: "Our rent estimate gives €650 a month for a studio, €950 for a T2 and €1,250 for a T3 (three rooms). The median apartment price is €3,495 per m² across 993 sales in 2024-2025 (source: our price page, DVF notarial sales). Paris is at €9,646, which is €6,151 more: on 50 m², the gap reaches €307,550.",
+      },
+      {
+        heading: "Who lives in Créteil?",
+        body: "Créteil had 92,859 inhabitants in 2022, up 3.9% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 22.1% of the population. Median living standard is €21,270 a year, with a 21% poverty rate (source: INSEE, Filosofi 2021). Our scores: cost of living 4.0/10, safety 4.1/10, nature 3.6/10.",
+      },
+      {
+        heading: "Créteil or Paris: what line 8 changes",
+        body: "Both score 9.0/10 on transport, but a T2 is €950 in Créteil against €1,800 in Paris: €850 a month, €10,200 a year. A T3 drops from €2,800 to €1,250. Safety (4.1/10 against 3.9/10) is close; the purchase price is divided by almost three. You pay for the gain in travel time and a less green setting.",
+      },
+      {
+        heading: "The limits of going car-free in Créteil",
+        body: "Business parks and neighbouring towns away from line 8 depend on buses. A 3.6/10 nature score means weekend trips to find open space. Walk the route between your flat and the station before you sign.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €650 studio is cheaper than in Paris, with line 8 to campus. Working couple: a €950 T2 near a station is the best compromise of the Paris-region cities in this series. Family: the €1,250 T3 is reasonable, but schools score 5.3/10. Retiree: the metro helps, the 3.6/10 nature score less so.",
+      },
+    ],
+    relatedCities: ["creteil","nanterre","versailles"],
+    tags: ["car-free Créteil","Créteil metro 8","Val-de-Marne transport","car-free Paris region","Créteil rents 2026"],
+  },
+  {
+    slug: "car-free-living-in-versailles-2026",
+    title: "Car-Free Living in Versailles 2026: Three Stations and a €1,200 T2",
+    metaTitle: "Car-Free Living in Versailles 2026: Three Stations, Rents",
+    metaDesc: "In Versailles, three train stations link you to Paris without a car, but a T2 is €1,200 on our rent estimate. Transport score 8.4/10. Versus Paris, Nanterre.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Versailles works without a car thanks to its three stations: Versailles-Chantiers, Versailles Rive Droite and Versailles Château Rive Gauche. A two-room flat (T2) costs €1,200 a month on our rent estimate, €600 less than in Paris but €150 more than in Nanterre. Our transport score is 8.4/10, ranked 28th of 593 in a tie with 13 other cities.",
+    sections: [
+      {
+        heading: "Which stations serve Versailles?",
+        body: "Versailles-Chantiers is served by Transilien line N, some U trains and regional TER services; Versailles Rive Droite by line L from Paris-Saint-Lazare; Versailles Château Rive Gauche is the terminus of RER C, the closest to the palace. Routes and line names have changed recently: check them with Île-de-France Mobilités.",
+      },
+      {
+        heading: "How much does housing cost in Versailles?",
+        body: "Our rent estimate gives €800 a month for a studio, €1,200 for a T2 and €1,700 for a T3 (three rooms). The median apartment price is €6,491 per m² across 1,603 sales in 2024-2025 (source: our price page, DVF notarial sales). Paris is at €9,646, which is €3,155 more: on 50 m², the gap reaches €157,750.",
+      },
+      {
+        heading: "A well-off city profile",
+        body: "Versailles had 83,918 inhabitants in 2022, down 1.7% since 2016 (source: INSEE, 2022 census). Median living standard is €33,780 a year, with a 7% poverty rate (source: INSEE, Filosofi 2021). Our scores: schools 9.0/10, safety 6.3/10, remote work 8.8/10, but cost of living 2.4/10, the lowest of this batch.",
+      },
+      {
+        heading: "Versailles or Paris: the trade-off",
+        body: "Paris scores 9.0/10 on transport against 8.4/10 for Versailles: its network is denser, but a T2 goes from €1,800 to €1,200, which is €7,200 a year, and safety is 6.3/10 against 3.9/10. Against Nanterre, also at 9.0/10, Versailles costs €150 more (€1,200 against €1,050 for a T2), but scores 6.3/10 on safety against 4.1/10 for Nanterre.",
+      },
+      {
+        heading: "The limits of going car-free in Versailles",
+        body: "Getting from Chantiers station to the palace means walking or taking a bus. The town is quiet in the evening. And the budget: a €1,200 T2 calls for a comfortable income, which is what a 2.4/10 cost-of-living score reflects.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €800 studio weighs heavily; look at Créteil instead. Working couple: a €1,200 T2 and line L or N work if the job is in Paris. Family: schools at 9.0/10, with a T3 at €1,700. Retiree: safety of 6.3/10 and a calm setting suit, if the budget follows.",
+      },
+    ],
+    relatedCities: ["versailles","nanterre","creteil"],
+    tags: ["car-free Versailles","Versailles Chantiers station","RER C Versailles","Yvelines transport","car-free Paris region 2026"],
+  },
+  {
+    slug: "car-free-living-in-nimes-2026",
+    title: "Car-Free Living in Nîmes 2026: Tango Tram-Bus and a €720 T2",
+    metaTitle: "Car-Free Living in Nîmes 2026: Tango Tram-Bus, Rents",
+    metaDesc: "In Nîmes, the Tango tram-bus network makes a car optional in town, with a T2 at €720. Transport score 6.1/10. Compared with Montpellier and Avignon.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Nîmes can be lived in without a car in the centre, with a two-room flat (T2) at €720 a month on our rent estimate, €130 less than in Montpellier. But our transport score is only 6.1/10, ranked 281st of 593 in a tie with 19 other cities: this is a tram-bus network, not a metro.",
+    sections: [
+      {
+        heading: "What does the Tango network include?",
+        body: "The Tango network of Nîmes Métropole relies on tram-bus lines, a bus rapid transit system running on dedicated lanes. Frequencies, fares and extensions change: check the Tango network website before you settle.",
+      },
+      {
+        heading: "How much does housing cost in Nîmes?",
+        body: "Our rent estimate gives €520 a month for a studio, €720 for a T2 and €960 for a T3 (three rooms). The median apartment price is €2,106 per m² across 3,203 sales in 2024-2025 (source: our price page, DVF notarial sales). Montpellier is at €3,354, which is €1,248 more: on 50 m², the gap reaches €62,400.",
+      },
+      {
+        heading: "A stable but modest city",
+        body: "Nîmes had 150,444 inhabitants in 2022, down 0.4% since 2016 (source: INSEE, 2022 census). Median living standard is €18,760 a year, with a 31% poverty rate (source: INSEE, Filosofi 2021). Our scores: safety 3.9/10, cost of living 5.9/10, nature 5.6/10.",
+      },
+      {
+        heading: "Nîmes, Montpellier or Avignon?",
+        body: "Montpellier has a better transport score (7.7/10 against 6.1/10) and a tramway, but its T2 is €850 against €720 in Nîmes: €1,560 a year. Avignon sits at the same transport level (6.1/10) with a T2 at €750, €30 more than Nîmes. Nîmes is the cheapest of the three, with safety at 3.9/10 against 4.3/10 in Avignon.",
+      },
+      {
+        heading: "The limits of going car-free in Nîmes",
+        body: "Away from the tram-bus axes, outlying districts and neighbouring towns are slower to reach by bus. In summer, heat weighs on cycling. And safety (3.9/10) is a criterion to check district by district.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €520 studio is low, with a tram-bus line on the way. Working couple: a €720 T2 makes sense if work is on a main axis. Retiree: a gentle budget, but weigh the 3.9/10 safety score. Family: the €960 T3 is reasonable, with schools at 5.3/10.",
+      },
+    ],
+    relatedCities: ["nimes","montpellier","avignon"],
+    tags: ["car-free Nîmes","Tango Nîmes","Nîmes tram-bus","Gard transport","car-free Occitanie 2026"],
+  },
+  {
+    slug: "car-free-living-in-aix-en-provence-2026",
+    title: "Car-Free Living in Aix-en-Provence 2026: Buses, Bikes and a €1,050 T2",
+    metaTitle: "Car-Free Living in Aix-en-Provence 2026: Buses, Rents",
+    metaDesc: "In Aix-en-Provence, a compact centre and a bus station make a car optional, but a T2 is €1,050. Transport score 6.1/10. Compared with Marseille.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Aix-en-Provence works without a car in its compact centre, but not cheaply: a two-room flat (T2) is €1,050 a month on our rent estimate, €230 more than in Marseille. Our transport score is 6.1/10, ranked 281st of 593 in a tie with 19 other cities: the city has neither a metro nor a tram.",
+    sections: [
+      {
+        heading: "How do you get around Aix without a car?",
+        body: "The bus station, a few minutes' walk from the town-centre train station, is the gateway to the bus network. Shuttles link it to the TGV station, more than 10 km from the centre, and to Marseille-Provence airport. Line numbers and fares vary by source: check them on the network website.",
+      },
+      {
+        heading: "How much does housing cost in Aix?",
+        body: "Our rent estimate gives €760 a month for a studio, €1,050 for a T2 and €1,400 for a T3 (three rooms). The median apartment price is €4,819 per m² across 3,319 sales in 2024-2025 (source: our price page, DVF notarial sales). Marseille is at €3,154, which is €1,665 less: on 50 m², the gap reaches €83,250.",
+      },
+      {
+        heading: "A young, well-off city",
+        body: "Aix had 147,933 inhabitants in 2022, up 3.4% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 26.5% of the population. Median living standard is €25,810 a year, with a 15% poverty rate (source: INSEE, Filosofi 2021). Our scores: schools 8.3/10, safety 5.9/10, cost of living 3.6/10.",
+      },
+      {
+        heading: "Aix or Marseille: the trade-off",
+        body: "Both cities score 6.1/10 on transport. A T2 costs €1,050 in Aix against €820 in Marseille, €2,760 more a year; in exchange, safety is 5.9/10 against 2.7/10. Aix picks calm and pays the rent; Marseille offers a metro and a tram, with a lighter budget.",
+      },
+      {
+        heading: "The limits of going car-free in Aix",
+        body: "Walking and cycling are enough in the centre, less so in the sprawling districts and business parks. A cost-of-living score of 3.6/10 can swallow the saving from not owning a car. Do the sums before you sign.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: the €760 studio is dear; compare with Marseille. Working couple: a €1,050 T2 is justified if the job is in the centre. Family: the €1,400 T3 is high, with schools at 8.3/10. Retiree: safety of 5.9/10 and a compact centre suit, if the budget follows.",
+      },
+    ],
+    relatedCities: ["aix-en-provence","marseille","avignon"],
+    tags: ["car-free Aix-en-Provence","Aix-en-Provence buses","Bouches-du-Rhône transport","car-free Provence 2026","Aix-en-Provence rents 2026"],
+  },
+  {
+    slug: "car-free-living-in-limoges-2026",
+    title: "Car-Free Living in Limoges 2026: Trolleybuses and a €600 T2",
+    metaTitle: "Car-Free Living in Limoges 2026: Trolleybuses, Rents",
+    metaDesc: "In Limoges, a trolleybus network and a €600 T2 make a car optional. Transport score 6.1/10. Compared with Clermont-Ferrand.",
+    category: "lifestyle",
+    emoji: "🚎",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Limoges works without a car on a very small budget: a two-room flat (T2) is €600 a month on our rent estimate, €80 less than in Clermont-Ferrand, with a trolleybus network that few French cities have kept. Our transport score is 6.1/10, ranked 281st of 593 in a tie with 19 other cities.",
+    sections: [
+      {
+        heading: "What does the STCL network include?",
+        body: "The Limoges public transport company (STCL) runs bus lines and a trolleybus network. The Bénédictins station is built into an interchange with the urban buses. Network changes, projects and fares move: check the Limoges Métropole website.",
+      },
+      {
+        heading: "How much does housing cost in Limoges?",
+        body: "Our rent estimate gives €440 a month for a studio, €600 for a T2 and €800 for a T3 (three rooms). The median apartment price is €1,518 per m² across 2,575 sales in 2024-2025 (source: our price page, DVF notarial sales). Clermont-Ferrand is at €2,105, which is €587 more: on 50 m², the gap reaches €29,350.",
+      },
+      {
+        heading: "A city that is losing residents",
+        body: "Limoges had 129,754 inhabitants in 2022, down 2.2% since 2016 (source: INSEE, 2022 census). Median living standard is €20,590 a year, with a 24% poverty rate (source: INSEE, Filosofi 2021). Our scores: cost of living 7.1/10, safety 6.1/10, nature 5.6/10.",
+      },
+      {
+        heading: "Limoges or Clermont-Ferrand?",
+        body: "Clermont-Ferrand scores 6.4/10 on transport against 6.1/10 for Limoges, and has a tramway. But a T2 costs €680 there against €600 in Limoges: €960 a year. Cost of living is 7.1/10 in Limoges against 6.4/10 in Clermont, and safety 6.1/10 against 5.5/10. Limoges is less well served, but clearly cheaper.",
+      },
+      {
+        heading: "The limits of going car-free in Limoges",
+        body: "The city is hilly, which weighs on cycling. Away from the main lines, frequencies drop and neighbouring towns are poorly connected. With a falling population, the rental market is relaxed, but the local economy is thinner.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €440 studio is the lowest of this series. Working couple: a €600 T2 leaves room to manoeuvre if work is on a line. Retiree: a gentle budget and safety of 6.1/10 suit. Family: the €800 T3 is affordable, with schools at 6.2/10.",
+      },
+    ],
+    relatedCities: ["limoges","clermont-ferrand","poitiers"],
+    tags: ["car-free Limoges","Limoges trolleybus","STCL Limoges","Haute-Vienne transport","car-free Nouvelle-Aquitaine 2026"],
+  },
+  {
+    slug: "car-free-living-in-poitiers-2026",
+    title: "Car-Free Living in Poitiers 2026: Vitalis Buses, TGV and a €660 T2",
+    metaTitle: "Car-Free Living in Poitiers 2026: Vitalis, TGV, Rents",
+    metaDesc: "In Poitiers, the Vitalis bus network and the TGV make a car optional, with a T2 at €660. Transport score 6.4/10. Compared with Tours and Limoges.",
+    category: "lifestyle",
+    emoji: "🚌",
+    readMinutes: 6,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Poitiers works without a car: the Vitalis bus network serves the station, where TGV trains run to Paris and Bordeaux, and a two-room flat (T2) is €660 a month on our rent estimate. Our transport score is 6.4/10, ranked 200th of 593 in a tie with 47 other cities.",
+    sections: [
+      {
+        heading: "What does the Vitalis network include?",
+        body: "Vitalis is the bus network of Grand Poitiers: several urban lines serve the station, and shared bikes are available nearby. The station offers TGV services to Paris, Bordeaux, Saint-Pierre-des-Corps and Toulouse. Fares and timetables change: check the official websites.",
+      },
+      {
+        heading: "How much does housing cost in Poitiers?",
+        body: "Our rent estimate gives €480 a month for a studio, €660 for a T2 and €880 for a T3 (three rooms). The median apartment price is €2,200 per m² across 1,655 sales in 2024-2025 (source: our price page, DVF notarial sales). Tours is at €2,827, which is €627 more: on 50 m², the gap reaches €31,350.",
+      },
+      {
+        heading: "A student city",
+        body: "Poitiers had 89,472 inhabitants in 2022, up 1.7% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 36.0% of the population, the highest share in this series. Median living standard is €20,150 a year, with a 26% poverty rate (source: INSEE, Filosofi 2021). Our scores: schools 7.4/10, cost of living 6.6/10, nature 5.0/10.",
+      },
+      {
+        heading: "Poitiers, Tours or Limoges?",
+        body: "Tours scores 7.0/10 on transport against 6.4/10 for Poitiers, and has a tramway; its T2 is €700 against €660 in Poitiers, €480 a year. Limoges is at 6.1/10, with a T2 at €600: €60 less than Poitiers. Poitiers sits between the two, with a TGV to Paris and schools at 7.4/10.",
+      },
+      {
+        heading: "The limits of going car-free in Poitiers",
+        body: "The city is built on a promontory: expect climbs by bike. In the evening and at weekends, bus frequencies drop. Campuses and business parks outside the centre need a check on their bus service.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €480 studio and 36.0% of residents aged 15 to 29 make this the student city of the series. Working couple: a €660 T2 with the TGV to Paris is a good compromise. Family: the €880 T3 is reasonable, with schools at 7.4/10. Retiree: safety of 5.7/10 and a compact centre suit.",
+      },
+    ],
+    relatedCities: ["poitiers","tours","limoges"],
+    tags: ["car-free Poitiers","Vitalis Poitiers","Poitiers TGV","Vienne transport","car-free Nouvelle-Aquitaine 2026"],
+  },
 
   {
     slug: "living-in-ile-de-france-2026",

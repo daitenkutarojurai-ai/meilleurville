@@ -6217,6 +6217,41 @@
       "emoji": "🚲"
     },
     {
+      "slug": "car-free-living-in-villeurbanne-2026",
+      "title": "Car-Free Living in Villeurbanne 2026: Metro A, Trams and a €870 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-creteil-2026",
+      "title": "Car-Free Living in Créteil 2026: Metro Line 8 and a €950 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-versailles-2026",
+      "title": "Car-Free Living in Versailles 2026: Three Stations and a €1,200 T2",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "car-free-living-in-nimes-2026",
+      "title": "Car-Free Living in Nîmes 2026: Tango Tram-Bus and a €720 T2",
+      "emoji": "🚌"
+    },
+    {
+      "slug": "car-free-living-in-aix-en-provence-2026",
+      "title": "Car-Free Living in Aix-en-Provence 2026: Buses, Bikes and a €1,050 T2",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-limoges-2026",
+      "title": "Car-Free Living in Limoges 2026: Trolleybuses and a €600 T2",
+      "emoji": "🚎"
+    },
+    {
+      "slug": "car-free-living-in-poitiers-2026",
+      "title": "Car-Free Living in Poitiers 2026: Vitalis Buses, TGV and a €660 T2",
+      "emoji": "🚌"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -11184,14 +11219,14 @@
       "count": 103
     },
     {
-      "slug": "relocation",
-      "label": "relocation",
+      "slug": "auvergne-rhone-alpes",
+      "label": "auvergne-rhone-alpes",
       "count": 99
     },
     {
-      "slug": "auvergne-rhone-alpes",
-      "label": "auvergne-rhone-alpes",
-      "count": 98
+      "slug": "relocation",
+      "label": "relocation",
+      "count": 99
     },
     {
       "slug": "nouvelle-aquitaine",
