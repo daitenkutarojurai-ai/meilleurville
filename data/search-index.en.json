@@ -11130,6 +11130,21 @@
       "slug": "sea-or-mountains-where-to-live-in-france",
       "title": "Sea or Mountains: Where to Live in France? Scores and Rents Compared",
       "emoji": "🏔️"
+    },
+    {
+      "slug": "living-near-motorway-or-tgv-line-france-noise-2026",
+      "title": "Living near a motorway or TGV line in France: noise, air, access",
+      "emoji": "🚄"
+    },
+    {
+      "slug": "perceived-vs-real-safety-french-cities-2026",
+      "title": "Perceived vs real safety in French cities: how to read the data",
+      "emoji": "🛡️"
+    },
+    {
+      "slug": "pel-cel-per-saving-for-a-french-home-deposit-2026",
+      "title": "PEL, CEL and PER: using French savings plans for a home deposit",
+      "emoji": "💳"
     }
   ],
   "tags": [
@@ -11146,7 +11161,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 322
+      "count": 325
     },
     {
       "slug": "single-parent-in-france",
@@ -11306,7 +11321,7 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "burgundy",
@@ -11599,6 +11614,11 @@
       "count": 6
     },
     {
+      "slug": "buying-property",
+      "label": "buying property",
+      "count": 6
+    },
+    {
       "slug": "clermont-ferrand",
       "label": "clermont ferrand",
       "count": 6
@@ -11626,6 +11646,11 @@
     {
       "slug": "rouen",
       "label": "rouen",
+      "count": 6
+    },
+    {
+      "slug": "safety",
+      "label": "safety",
       "count": 6
     },
     {
@@ -11679,19 +11704,9 @@
       "count": 5
     },
     {
-      "slug": "safety",
-      "label": "safety",
-      "count": 5
-    },
-    {
       "slug": "saint-etienne",
       "label": "saint-etienne",
       "count": 5
-    },
-    {
-      "slug": "buying-property",
-      "label": "buying property",
-      "count": 4
     },
     {
       "slug": "french-alps",
@@ -11726,6 +11741,11 @@
     {
       "slug": "lmnp",
       "label": "lmnp",
+      "count": 4
+    },
+    {
+      "slug": "mortgage",
+      "label": "mortgage",
       "count": 4
     },
     {
@@ -11839,6 +11859,11 @@
       "count": 3
     },
     {
+      "slug": "crime",
+      "label": "crime",
+      "count": 3
+    },
+    {
       "slug": "dordogne",
       "label": "dordogne",
       "count": 3
@@ -11919,11 +11944,6 @@
       "count": 3
     },
     {
-      "slug": "mortgage",
-      "label": "mortgage",
-      "count": 3
-    },
-    {
       "slug": "mountains",
       "label": "mountains",
       "count": 3
@@ -11981,6 +12001,11 @@
     {
       "slug": "tax",
       "label": "tax",
+      "count": 3
+    },
+    {
+      "slug": "tgv",
+      "label": "tgv",
       "count": 3
     },
     {
