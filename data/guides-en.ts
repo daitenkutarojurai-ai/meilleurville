@@ -66840,6 +66840,69 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: [],
     tags: ["savings","mortgage","buying property","budget","moving to France"],
   },
+  {
+    "slug": "price-per-m2-spread-within-french-cities-383-cities-dvf-2026",
+    "title": "How much does the price per m² vary within a French city? 383 cities ranked (2024–2025 sales)",
+    "metaTitle": "Price per m² spread inside French cities: 383 cities (DVF)",
+    "metaDesc": "Montbéliard ×2.21, Marseille ×1.83, Paris ×1.41, La Chapelle-sur-Erdre ×1.15: the gap between the cheapest and dearest quarters of flat sales.",
+    "category": "budget",
+    "emoji": "📏",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "intro": "Across the 383 French cities of 20,000 residents or more with at least 100 apartment sales in 2024 and 2025, the priciest quarter of sales fetches a median 1.47 times the price per m² of the cheapest quarter. The spread runs from ×2.21 in Montbéliard (€624 per m² against €1,382) and ×2.13 in Les Abymes down to ×1.15 in La Chapelle-sur-Erdre (€3,170 against €3,661). Marseille sits at ×1.83, Cannes at ×1.79, Nice at ×1.61, Paris at ×1.41. In some cities the median price tells you what to expect; in others it hides a factor of two. This guide measures that spread and says what it changes when you set a budget.",
+    "sections": [
+      {
+        "heading": "What does the ratio between the bottom and top quarter measure?",
+        "body": "For each city we ranked the apartment sales of 2024 and 2025 (the tax office's DVF register of notarised sales) by price per m². The first quartile (P25) is the price below which 25% of flats sold; the third (P75) is the price above which the dearest 25% sold. P75 divided by P25 tells you how many times the low price fits into the high one: a ratio of 1.5 means the top quarter costs 50% more per m² than the bottom quarter. The sample is the 383 cities of 20,000 residents or more with at least 100 apartment sales. Strasbourg and the cities of Alsace-Moselle are missing from DVF, which does not cover them. Note that the spread mixes neighbourhoods with old and new-build, floors and condition: it measures price dispersion, not the pure effect of the address."
+      },
+      {
+        "heading": "Where is the gap between addresses widest?",
+        "body": "In very different mid-sized cities (Montbéliard, Beauvais, Montluçon, Montélimar), along the Mediterranean arc and in Marseille. Montbéliard (×2.21, €624 to €1,382 per m², 431 sales), Les Abymes (×2.13, €1,317 to €2,805), Aulnay-sous-Bois (×1.93, €2,070 to €4,000), Rillieux-la-Pape (×1.92), Échirolles (×1.87, €1,255 to €2,344), Beauvais (×1.84), Marseille (×1.83, €2,267 to €4,143), Vaulx-en-Velin (×1.82), Montluçon (×1.81, €500 to €906) and Montélimar (×1.81) lead. Orange (×1.79), Cannes (×1.79, €4,301 to €7,691), Avignon and Saint-Priest (×1.78), then Béziers, Salon-de-Provence and Nîmes (×1.75 to ×1.77) follow. Seventy-one cities exceed ×1.6 and 160 exceed ×1.5. In these cities, quoting an average price per m² to guide a purchase means averaging a two-speed market."
+      },
+      {
+        "heading": "Where is the price most uniform from one address to the next?",
+        "body": "Mostly in outer communes, where the building stock is often recent and uniform. La Chapelle-sur-Erdre (×1.15, €3,170 to €3,661), Eysines (×1.19, €3,101 to €3,699), Tournefeuille (×1.21), Bussy-Saint-Georges, Ozoir-la-Ferrière and Couëron (×1.22), Saint-Médard-en-Jalles (×1.23), Vélizy-Villacoublay and Romainville (×1.25) are the tightest. Next come Cugnaux, Cormeilles-en-Parisis, Bègles, Villenave-d'Ornon, Vertou, Levallois-Perret (×1.26, €7,946 to €10,000) and Saint-Mandé (×1.26, €7,600 to €9,562). Twenty-nine cities sit below ×1.3. A low ratio does not mean a cheap city: Levallois-Perret and Saint-Mandé are among the dearest in the file, with a uniform market. What it says is that the address matters little to the price there."
+      },
+      {
+        "heading": "Do big cities have a wider spread?",
+        "body": "Slightly. The median ratio is ×1.44 for the 127 cities of 20,000 to 30,000 residents, ×1.48 for the 132 cities of 30,000 to 50,000, ×1.47 for the 85 cities of 50,000 to 100,000 and ×1.54 for the 39 cities of 100,000 or more. Among the largest, the widest are Marseille (×1.83), Nîmes (×1.75), Le Havre (×1.71), Perpignan (×1.68), Toulon (×1.64), Saint-Denis (×1.62), Nice (×1.61), Toulouse, Saint-Étienne and Le Mans (×1.59), Rouen (×1.58) and Grenoble (×1.57). The tightest are Boulogne-Billancourt (×1.31), Paris and Villeurbanne (×1.41), Bordeaux (×1.42), Nancy (×1.43), Nantes (×1.44), Lyon (×1.45), Annecy (×1.46) and Aix-en-Provence (×1.48). Lille and Rennes are at ×1.50 and ×1.51."
+      },
+      {
+        "heading": "Which regions have the widest spread?",
+        "body": "For regions with at least ten cities in the sample, Provence-Alpes-Côte d'Azur has the highest median (×1.60, 33 cities), ahead of Normandy (×1.58, 12 cities), Bourgogne-Franche-Comté and Centre-Val de Loire (×1.56, 11 cities each), Hauts-de-France (×1.54, 23 cities), Auvergne-Rhône-Alpes and Grand Est (×1.53). Occitanie is at ×1.49, Brittany at ×1.48, Nouvelle-Aquitaine and Pays de la Loire at ×1.45. The Paris region closes the list at ×1.40 across 152 cities: in the inner and outer suburbs the price per m² is more uniform from one address to the next than in Provence or Normandy."
+      },
+      {
+        "heading": "How much is that in euros?",
+        "body": "In absolute terms the widest gap is Cannes (€3,390 per m² between P25 and P75, from €4,301 to €7,691), ahead of Paris (€3,316, from €8,139 to €11,455), Biarritz (€2,918), Saint-Germain-en-Laye (€2,878), Neuilly-sur-Seine (€2,786), Meudon (€2,636), Montreuil (€2,353), Nice (€2,292) and Versailles (€2,262). For a 65 m² flat, by simple multiplication: in Marseille, from €147,000 (P25) to €269,000 (P75); in Cannes, from €280,000 to €500,000; in Paris, from €529,000 to €745,000; in Montluçon, from €33,000 to €59,000. These are arithmetic orders of magnitude, not valuations: a given flat depends on its floor, condition and street."
+      },
+      {
+        "heading": "How should you use the spread when you plan a purchase?",
+        "body": "In a wide-spread city (Marseille, Montbéliard, Cannes, Nîmes) the headline price per m² is little use until you have picked a neighbourhood: compare street-level sales, ask your notaire for the prices actually signed, or look up DVF for the address. In a narrow-spread city (La Chapelle-sur-Erdre, Eysines, Levallois-Perret) the median price is a good guide and negotiation turns on the condition of the flat. Either way, start from the city's median price to place your budget, then check the spread to see how far that figure commits you. For each city's median, see our guide to apartment prices per m²."
+      }
+    ],
+    "relatedCities": [
+      "marseille",
+      "cannes",
+      "paris",
+      "nice",
+      "nimes",
+      "toulon",
+      "boulogne-billancourt",
+      "nantes",
+      "montlucon",
+      "aulnay-sous-bois",
+      "beauvais"
+    ],
+    "tags": [
+      "price per m²",
+      "DVF",
+      "property prices",
+      "buying property",
+      "neighbourhoods",
+      "apartments"
+    ]
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

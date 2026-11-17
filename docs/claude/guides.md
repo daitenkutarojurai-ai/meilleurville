@@ -2397,3 +2397,7 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 - Données : moyennes de `CITIES_SEED` par région et par taille (tailles calculées hors Île-de-France : 151 communes de banlieue faussaient la tranche 20 000-100 000), 55 villes du classement Bord de mer face à 42 villes de montagne (altitude ≥ 500 m ou étiquette), temps de train de `lib/paris-commute.ts` en gare directe seulement.
 - Vérifié avant écriture : aucun slug FR ou EN sur ces sujets. Index de recherche : 1 623 FR / 1 508 EN.
 - Prochain lot possible : jumelle EN du guide tailles de ville ; nord ou sud ; quelle région pour télétravailler.
+
+## Guides data-led DVF — activité et dispersion des prix (2026-11-17)
+- 2026-11-17 content guides : FR `villes-marche-immobilier-actif-ventes-pour-1000-habitants-400-villes-2026` (ventes DVF 2024-2025 / pop. 2022, 400 villes ≥ 20 000 hab.), FR `ecart-prix-m2-entre-adresses-appartements-383-villes-dvf-2026` (P75/P25 appartements, ≥ 100 ventes) + EN native `price-per-m2-spread-within-french-cities-383-cities-dvf-2026`.
+- Compteurs mesurés : FR 1624, EN 1501. Alsace-Moselle absente de DVF (Strasbourg manque). Prochain lot : jumelle EN du guide « marché actif » ; densité de ventes par type (maison/appartement).

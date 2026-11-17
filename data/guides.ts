@@ -81591,6 +81591,148 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["ou-teletravailler-en-france-en-2027", "tgv-paris-accessibilite-villes-2026", "vivre-au-vert-pres-de-paris-1h-2026"],
     tags: ["télétravail", "train", "Paris", "TGV", "loyers"],
   },
+  {
+    "slug": "villes-marche-immobilier-actif-ventes-pour-1000-habitants-400-villes-2026",
+    "title": "Où l'immobilier se vend-il le plus ? Les ventes DVF 2024-2025 pour 1 000 habitants dans 400 villes",
+    "metaTitle": "Marché immobilier le plus actif : ventes pour 1 000 habitants",
+    "metaDesc": "Agde 124,5 ventes pour 1 000 habitants, Cannes 63,2, Nice 40,4, Paris 25,8, Gennevilliers 5,6 : l'activité du marché immobilier (DVF 2024-2025) dans 400 villes.",
+    "category": "lifestyle",
+    "emoji": "🔑",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "intro": "Sur 2024 et 2025, les 400 villes de 20 000 habitants et plus pour lesquelles nous avons à la fois les ventes DVF et la population 2022 ont enregistré 24,5 ventes de maisons et d'appartements pour 1 000 habitants en cumulé, avec une médiane de 22,3. Agde (124,5) devance Mandelieu-la-Napoule (71,2), Saint-Raphaël (66,9), Cannes (63,2) et Menton (60,8) ; Nice est à 40,4, Paris à 25,8, Lyon à 24,8. À l'autre bout, Gennevilliers (5,6) et La Courneuve (5,5) n'ont vu qu'une vente pour 180 habitants. Ce guide classe les villes sur ce seul chiffre et dit ce qu'il apprend à un acheteur : l'étendue du choix, la facilité de revendre, et ce qu'il ne dit pas du prix.",
+    "sections": [
+      {
+        "heading": "Que mesure le nombre de ventes pour 1 000 habitants ?",
+        "body": "Le nombre de ventes de maisons et d'appartements enregistrées en 2024 et 2025 dans la base DVF (Demandes de valeurs foncières, publiée par la DGFiP à partir des actes notariés), rapporté à la population 2022 de l'Insee et exprimé pour 1 000 habitants. C'est un indicateur d'activité : plus il est haut, plus le marché de la commune est fréquenté par des acheteurs et des vendeurs. Il ne dit rien du prix, ni de la durée pour vendre un bien donné. Nous l'avons calculé sur les 400 villes de 20 000 habitants et plus pour lesquelles les deux sources existent. Les villes d'Alsace et de Moselle, Strasbourg en tête, n'y figurent pas : leur droit foncier particulier les laisse hors du fichier DVF. Les chiffres couvrent deux années cumulées, pas une année : divisez par deux pour une cadence annuelle."
+      },
+      {
+        "heading": "Où le marché immobilier est-il le plus actif ?",
+        "body": "Sur le littoral méditerranéen et dans quelques villes thermales. Agde (124,5 ventes pour 1 000 habitants, soit 3 687 ventes pour 29 612 habitants), Mandelieu-la-Napoule (71,2), Saint-Raphaël (66,9), Cannes (63,2), Menton (60,8), Antibes (52,9), Biarritz (52,4), Vichy (52,3), Le Cannet (46,3), Fréjus (45,8), Les Sables-d'Olonne (45,7) et Sète (44,8) forment la tête. Suivent Vallauris (44,5), Dax (43,8) et Six-Fours-les-Plages (43,4). Dix-huit villes dépassent 40 ventes pour 1 000 habitants, 74 dépassent 30 et 151 dépassent 25. Agde est à part : 2 954 des 3 687 ventes sont des appartements, soit environ 100 ventes d'appartements pour 1 000 habitants, dans une commune dont le Cap d'Agde concentre une vaste offre d'appartements de vacances. Un marché très actif ne signifie donc pas une ville où l'on déménage beaucoup : dans ces stations, une part des ventes est la rotation de résidences secondaires, que le fichier ne distingue pas des résidences principales."
+      },
+      {
+        "heading": "Où le marché est-il le plus calme ?",
+        "body": "En Île-de-France (Seine-Saint-Denis, Val-d'Oise, Hauts-de-Seine), à Creil et en outre-mer. Sur le continent, les plus bas sont La Courneuve (5,5 ventes pour 1 000 habitants, 258 ventes), Gennevilliers (5,6, 287), Bobigny (6,2, 344), Stains (7,1, 288), Garges-lès-Gonesse (7,4, 312), Villeneuve-la-Garenne (7,5, 193), Clichy-sous-Bois (8,4, 247), Sarcelles et Trappes (8,7), Nanterre (8,8, 860), Creil (8,9) et Le Blanc-Mesnil (9,0). Vingt-neuf villes sont sous 10, dont une partie des villes d'outre-mer : la médiane des 17 villes de Guadeloupe, de Martinique, de Guyane et de La Réunion est de 8,8, avec un maximum de 16,5 (Saint-Denis de La Réunion) et un minimum de 0,6 à Saint-Laurent-du-Maroni (60 ventes pour 51 732 habitants). Un marché calme n'est pas un marché sans valeur : c'est un marché où peu de logements changent de mains, parce que peu de ménages sont propriétaires de leur logement, ou que les propriétaires restent. Ce chiffre ne distingue pas les deux explications."
+      },
+      {
+        "heading": "Les grandes villes sont-elles plus actives que les petites ?",
+        "body": "Un peu, mais le classement est surtout régional. Les 39 villes de 100 000 habitants et plus ont une médiane d'environ 28 ventes pour 1 000 habitants, contre 22 pour l'ensemble. Nice (40,4), Dijon (35,2), Brest (33,6), Bordeaux (31,4), Tours (30,0), Grenoble (29,9), Toulouse et Nantes (28,6), Montpellier (28,0), Rennes (27,9), Angers (27,4) et Lille (27,3) dominent. Paris (25,8, soit 54 500 ventes), Marseille (25,7) et Lyon (24,8) sont plus bas, parce que leur population compte beaucoup de locataires. Au bas de la liste des grandes villes : Montreuil (18,2), Saint-Denis de La Réunion (16,5), Argenteuil (15,3), Saint-Denis de la Seine-Saint-Denis (10,1) et Saint-Paul de La Réunion (9,7)."
+      },
+      {
+        "heading": "Quelles régions ont le marché le plus actif ?",
+        "body": "Pour les régions qui comptent au moins dix villes, la médiane la plus haute est celle de la Bretagne (32,3, 10 villes), devant la Nouvelle-Aquitaine (30,8, 30 villes) et la Provence-Alpes-Côte d'Azur (30,0, 33 villes). Suivent la Bourgogne-Franche-Comté (28,5), l'Occitanie (27,9), les Pays de la Loire (27,7), le Centre-Val de Loire (27,1), l'Auvergne-Rhône-Alpes (25,2), la Normandie (24,7) et le Grand Est (24,1). Les Hauts-de-France sont à 21,6 (30 villes), l'Île-de-France à 18,2 (153 villes, bien plus bas que les autres régions du continent) et La Réunion à 8,9 (10 villes). Dans l'Île-de-France, les plus actives sont Vincennes (30,5), Neuilly-sur-Seine (29,4), Saint-Maur-des-Fossés (28,2), Nogent-sur-Marne (27,2), Saint-Mandé (27,0) et Montrouge (26,8) : des villes aux prix élevés, à l'inverse des communes de Seine-Saint-Denis citées plus haut."
+      },
+      {
+        "heading": "Où achète-t-on surtout des maisons, où achète-t-on surtout des appartements ?",
+        "body": "Vingt-huit villes comptent au moins 70 % de maisons dans leurs ventes, trente-six en comptent 10 % ou moins. Parmi les villes qui ont au moins 300 ventes, les plus tournées vers la maison sont Denain (94 % des ventes), Saint-Joseph de La Réunion (92 %), Liévin (91 %), Saint-Louis de La Réunion (91 %), Bruay-la-Buissière (89 %), Wattrelos et Halluin (88 %) et Hénin-Beaumont (84 %). En ventes de maisons pour 1 000 habitants, Les Sables-d'Olonne (27), Villeneuve-sur-Lot, Agde, Bergerac et Vierzon (25 chacune), puis Saintes, Challans et Niort (22) sont en tête : des villes moyennes où le pavillon domine. En ventes d'appartements, la liste est celle de la Côte d'Azur : Agde (100), Mandelieu-la-Napoule (64), Cannes (61), Menton (58), Saint-Raphaël (52) et Antibes (48)."
+      },
+      {
+        "heading": "Que faire de ce classement quand on veut acheter ?",
+        "body": "Trois usages. Un marché actif offre plus de biens à comparer et, en général, une revente moins longue : à Dijon, Brest ou Bordeaux, vous aurez davantage d'annonces à visiter qu'à Garges-lès-Gonesse ou à Sarcelles. Un marché calme laisse moins de choix mais aussi moins de concurrence entre acheteurs. Et pour un investisseur, un volume élevé de ventes est un signal de liquidité, à croiser avec le prix et le loyer. Limites : le fichier ne dit pas quelle part des ventes sont des résidences secondaires, des ventes entre particuliers ou des lots neufs ; deux années seulement sont couvertes ; et un petit périmètre communal (Vincennes, Saint-Mandé) se compare mal à une grande commune étendue. Pour le prix lui-même, voir notre guide du prix au m² par ville ; pour l'effort que cela demande, celui des années de niveau de vie."
+      }
+    ],
+    "relatedCities": [
+      "agde",
+      "cannes",
+      "nice",
+      "biarritz",
+      "vichy",
+      "sete",
+      "antibes",
+      "dijon",
+      "brest",
+      "bordeaux",
+      "mandelieu-la-napoule",
+      "saint-raphael",
+      "les-sables-d-olonne"
+    ],
+    "relatedGuides": [
+      "prix-appartement-m2-par-ville-552-villes-dvf-2026",
+      "villes-maison-moins-chere-que-appartement-m2-dvf-2026",
+      "annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026",
+      "rendement-locatif-brut-villes-pas-cheres-piege-2026",
+      "villes-bord-de-mer-ou-vivre-en-2027"
+    ],
+    "tags": [
+      "ventes immobilières",
+      "DVF",
+      "marché immobilier",
+      "acheter",
+      "liquidité",
+      "nombre de transactions"
+    ]
+  },
+  {
+    "slug": "ecart-prix-m2-entre-adresses-appartements-383-villes-dvf-2026",
+    "title": "Le prix au m² dépend-il de l'adresse ? L'écart de prix entre adresses dans 383 villes (DVF 2024-2025)",
+    "metaTitle": "Prix au m² : l'écart entre adresses dans 383 villes (DVF)",
+    "metaDesc": "Montbéliard ×2,21, Marseille ×1,83, Paris ×1,41, La Chapelle-sur-Erdre ×1,15 : l'écart entre le quart le moins cher et le plus cher des ventes d'appartements.",
+    "category": "budget",
+    "emoji": "📏",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-17",
+    "updatedAt": "2026-11-17",
+    "intro": "Dans les 383 villes de 20 000 habitants et plus qui ont enregistré au moins 100 ventes d'appartements en 2024 et 2025, le quart de ventes le plus cher se négocie en médiane 1,47 fois le prix au m² du quart le moins cher. L'écart va de ×2,21 à Montbéliard (624 € le m² contre 1 382 €) et ×2,13 aux Abymes à ×1,15 à La Chapelle-sur-Erdre (3 170 € contre 3 661 €). Marseille est à ×1,83, Cannes à ×1,79, Nice à ×1,61, Paris à ×1,41. Autrement dit : dans certaines villes le prix médian résume bien le marché, dans d'autres il cache un facteur deux. Ce guide mesure cet écart et dit ce qu'il change à la préparation d'un achat.",
+    "sections": [
+      {
+        "heading": "Que mesure ce rapport entre le quart bas et le quart haut ?",
+        "body": "Pour chaque ville, nous avons classé les ventes d'appartements de 2024 et 2025 (base DVF de la DGFiP) par prix au m². Le premier quartile (P25) est le prix sous lequel se sont vendus 25 % des biens ; le troisième (P75) est celui au-dessus duquel se sont vendus les 25 % les plus chers. Le rapport P75 / P25 dit de combien il faut multiplier le prix bas pour atteindre le prix haut. Un rapport de 1,5 signifie que le quart haut coûte 50 % de plus au m² que le quart bas. L'échantillon compte les 383 villes de 20 000 habitants et plus, avec au moins 100 ventes d'appartements. Strasbourg et les villes d'Alsace-Moselle sont absentes du fichier DVF. Attention : l'écart mêle les quartiers, mais aussi l'ancien et le neuf, les étages et l'état des biens ; il mesure la dispersion des prix, pas le seul effet de l'adresse."
+      },
+      {
+        "heading": "Où l'écart de prix entre adresses est-il le plus fort ?",
+        "body": "Dans des villes moyennes très diverses (Montbéliard, Beauvais, Montluçon, Montélimar), dans l'arc méditerranéen et à Marseille. Montbéliard (×2,21, de 624 à 1 382 € le m², 431 ventes), Les Abymes (×2,13, de 1 317 à 2 805 €), Aulnay-sous-Bois (×1,93, de 2 070 à 4 000 €), Rillieux-la-Pape (×1,92), Échirolles (×1,87, de 1 255 à 2 344 €), Beauvais (×1,84), Marseille (×1,83, de 2 267 à 4 143 €), Vaulx-en-Velin (×1,82), Montluçon (×1,81, de 500 à 906 €) et Montélimar (×1,81) forment la tête. Suivent Orange (×1,79), Cannes (×1,79, de 4 301 à 7 691 €), Avignon et Saint-Priest (×1,78), Béziers, Salon-de-Provence et Nîmes (×1,75 à ×1,77). Soixante et onze villes dépassent ×1,6 et 160 dépassent ×1,5. Dans ces villes, annoncer un prix moyen au m² pour guider un achat revient à moyenner un marché à deux vitesses."
+      },
+      {
+        "heading": "Où le prix est-il le plus homogène d'une adresse à l'autre ?",
+        "body": "Surtout dans des communes de périphérie, où le parc est souvent récent et uniforme. La Chapelle-sur-Erdre (×1,15, de 3 170 à 3 661 €), Eysines (×1,19, de 3 101 à 3 699 €), Tournefeuille (×1,21), Bussy-Saint-Georges, Ozoir-la-Ferrière et Couëron (×1,22), Saint-Médard-en-Jalles (×1,23), Vélizy-Villacoublay et Romainville (×1,25) sont les plus resserrées. Viennent ensuite Cugnaux, Cormeilles-en-Parisis, Bègles, Villenave-d'Ornon, Vertou, Levallois-Perret (×1,26, de 7 946 à 10 000 €) et Saint-Mandé (×1,26, de 7 600 à 9 562 €). Vingt-neuf villes sont sous ×1,3. Un rapport bas ne dit pas que la ville est bon marché : Levallois-Perret et Saint-Mandé sont parmi les plus chères du fichier, mais leur marché est homogène. Ce qu'il dit, c'est que l'adresse y compte peu pour le prix."
+      },
+      {
+        "heading": "Les grandes villes ont-elles un écart plus fort ?",
+        "body": "Légèrement. Le rapport médian est de ×1,44 pour les 127 villes de 20 000 à 30 000 habitants, de ×1,48 pour les 132 villes de 30 000 à 50 000, de ×1,47 pour les 85 villes de 50 000 à 100 000 et de ×1,54 pour les 39 villes de 100 000 habitants et plus. Parmi ces dernières, les plus étalées sont Marseille (×1,83), Nîmes (×1,75), Le Havre (×1,71), Perpignan (×1,68), Toulon (×1,64), Saint-Denis (×1,62), Nice (×1,61), Toulouse, Saint-Étienne et Le Mans (×1,59), Rouen (×1,58) et Grenoble (×1,57). Les plus resserrées sont Boulogne-Billancourt (×1,31), Paris et Villeurbanne (×1,41), Bordeaux (×1,42), Nancy (×1,43), Nantes (×1,44), Lyon (×1,45), Annecy (×1,46) et Aix-en-Provence (×1,48). Lille et Rennes sont à ×1,50 et ×1,51."
+      },
+      {
+        "heading": "Quelles régions ont l'écart le plus fort ?",
+        "body": "Pour les régions qui comptent au moins dix villes dans l'échantillon, la médiane la plus haute est celle de la Provence-Alpes-Côte d'Azur (×1,60, 33 villes), devant la Normandie (×1,58, 12 villes), la Bourgogne-Franche-Comté et le Centre-Val de Loire (×1,56, 11 villes chacune), les Hauts-de-France (×1,54, 23 villes), l'Auvergne-Rhône-Alpes et le Grand Est (×1,53). L'Occitanie est à ×1,49, la Bretagne à ×1,48, la Nouvelle-Aquitaine et les Pays de la Loire à ×1,45. L'Île-de-France ferme la liste à ×1,40 pour 152 villes : en petite et grande couronne, le prix du m² est plus homogène d'une adresse à l'autre qu'en Provence ou en Normandie."
+      },
+      {
+        "heading": "Combien cela représente-t-il en euros ?",
+        "body": "En écart absolu, le plus large est celui de Cannes (3 390 € le m² entre P25 et P75, de 4 301 à 7 691 €), devant Paris (3 316 €, de 8 139 à 11 455 €), Biarritz (2 918 €), Saint-Germain-en-Laye (2 878 €), Neuilly-sur-Seine (2 786 €), Meudon (2 636 €), Montreuil (2 353 €), Nice (2 292 €) et Versailles (2 262 €). Pour un appartement de 65 m², par simple multiplication : à Marseille, de 147 000 € (P25) à 269 000 € (P75) ; à Cannes, de 280 000 € à 500 000 € ; à Paris, de 529 000 € à 745 000 € ; à Montluçon, de 33 000 € à 59 000 €. Ce sont des ordres de grandeur arithmétiques, pas des estimations de valeur : un bien précis dépend de son étage, de son état et de sa rue."
+      },
+      {
+        "heading": "Comment utiliser cet écart quand on prépare un achat ?",
+        "body": "Dans une ville à fort écart (Marseille, Montbéliard, Cannes, Nîmes), le prix moyen annoncé ne sert à rien tant que l'on n'a pas choisi le quartier : comparez les ventes par rue, demandez les prix réellement signés à votre notaire ou consultez la base DVF sur l'adresse. Dans une ville à faible écart (La Chapelle-sur-Erdre, Eysines, Levallois-Perret), le prix médian est un bon repère et la négociation se joue sur l'état du bien. Dans les deux cas, partez du prix médian par ville pour situer votre budget, puis mesurez l'écart pour savoir à quel point ce chiffre vous engage. Pour le prix médian de chaque ville, voir notre guide du prix au m² ; pour le nombre de ventes, notre guide de l'activité du marché."
+      }
+    ],
+    "relatedCities": [
+      "marseille",
+      "cannes",
+      "paris",
+      "nice",
+      "nimes",
+      "toulon",
+      "boulogne-billancourt",
+      "nantes",
+      "montlucon",
+      "aulnay-sous-bois",
+      "beauvais"
+    ],
+    "relatedGuides": [
+      "prix-appartement-m2-par-ville-552-villes-dvf-2026",
+      "annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026",
+      "villes-maison-moins-chere-que-appartement-m2-dvf-2026",
+      "acheter-appartement-moins-100000-euros-villes-2026",
+      "ou-acheter-en-2027-villes-a-moins-de-2000-euros-le-m2"
+    ],
+    "tags": [
+      "prix au m²",
+      "DVF",
+      "écart de prix",
+      "acheter",
+      "quartiers",
+      "appartement"
+    ]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

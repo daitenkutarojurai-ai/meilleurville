@@ -11710,6 +11710,16 @@
       "slug": "teletravailler-a-moins-de-2h-de-paris-en-train",
       "title": "Télétravailler à moins de 2 h de Paris en train : les villes les mieux notées",
       "emoji": "🚄"
+    },
+    {
+      "slug": "villes-marche-immobilier-actif-ventes-pour-1000-habitants-400-villes-2026",
+      "title": "Où l'immobilier se vend-il le plus ? Les ventes DVF 2024-2025 pour 1 000 habitants dans 400 villes",
+      "emoji": "🔑"
+    },
+    {
+      "slug": "ecart-prix-m2-entre-adresses-appartements-383-villes-dvf-2026",
+      "title": "Le prix au m² dépend-il de l'adresse ? L'écart de prix entre adresses dans 383 villes (DVF 2024-2025)",
+      "emoji": "📏"
     }
   ],
   "tags": [
@@ -12349,6 +12359,11 @@
       "count": 6
     },
     {
+      "slug": "prix-au-m",
+      "label": "prix au m²",
+      "count": 6
+    },
+    {
       "slug": "que-faire-dans-les-yvelines",
       "label": "que faire dans les Yvelines",
       "count": 6
@@ -12409,6 +12424,11 @@
       "count": 5
     },
     {
+      "slug": "dvf",
+      "label": "DVF",
+      "count": 5
+    },
+    {
       "slug": "expatries",
       "label": "expatriés",
       "count": 5
@@ -12466,11 +12486,6 @@
     {
       "slug": "perigueux",
       "label": "Périgueux",
-      "count": 5
-    },
-    {
-      "slug": "prix-au-m",
-      "label": "prix au m²",
       "count": 5
     },
     {
@@ -12789,6 +12804,11 @@
       "count": 3
     },
     {
+      "slug": "acheter",
+      "label": "acheter",
+      "count": 3
+    },
+    {
       "slug": "action-c-ur-de-ville",
       "label": "Action Cœur de Ville",
       "count": 3
@@ -12811,6 +12831,11 @@
     {
       "slug": "annemasse",
       "label": "Annemasse",
+      "count": 3
+    },
+    {
+      "slug": "appartement",
+      "label": "appartement",
       "count": 3
     },
     {
@@ -12901,11 +12926,6 @@
     {
       "slug": "drom",
       "label": "DROM",
-      "count": 3
-    },
-    {
-      "slug": "dvf",
-      "label": "DVF",
       "count": 3
     },
     {
@@ -13026,6 +13046,11 @@
     {
       "slug": "marche-du-travail",
       "label": "marché du travail",
+      "count": 3
+    },
+    {
+      "slug": "marche-immobilier",
+      "label": "marché immobilier",
       "count": 3
     },
     {

@@ -11145,6 +11145,11 @@
       "slug": "pel-cel-per-saving-for-a-french-home-deposit-2026",
       "title": "PEL, CEL and PER: using French savings plans for a home deposit",
       "emoji": "💳"
+    },
+    {
+      "slug": "price-per-m2-spread-within-french-cities-383-cities-dvf-2026",
+      "title": "How much does the price per m² vary within a French city? 383 cities ranked (2024–2025 sales)",
+      "emoji": "📏"
     }
   ],
   "tags": [
@@ -11529,6 +11534,11 @@
       "count": 7
     },
     {
+      "slug": "buying-property",
+      "label": "buying property",
+      "count": 7
+    },
+    {
       "slug": "caen",
       "label": "caen",
       "count": 7
@@ -11611,11 +11621,6 @@
     {
       "slug": "brest",
       "label": "brest",
-      "count": 6
-    },
-    {
-      "slug": "buying-property",
-      "label": "buying property",
       "count": 6
     },
     {
@@ -11774,6 +11779,11 @@
       "count": 4
     },
     {
+      "slug": "price-per-m",
+      "label": "price per m²",
+      "count": 4
+    },
+    {
       "slug": "property-investment-france",
       "label": "property investment france",
       "count": 4
@@ -11879,6 +11889,11 @@
       "count": 3
     },
     {
+      "slug": "dvf",
+      "label": "DVF",
+      "count": 3
+    },
+    {
       "slug": "expat-comparison",
       "label": "expat comparison",
       "count": 3
@@ -11949,6 +11964,11 @@
       "count": 3
     },
     {
+      "slug": "neighbourhoods",
+      "label": "neighbourhoods",
+      "count": 3
+    },
+    {
       "slug": "niort",
       "label": "niort",
       "count": 3
@@ -11961,11 +11981,6 @@
     {
       "slug": "paris-suburbs",
       "label": "paris suburbs",
-      "count": 3
-    },
-    {
-      "slug": "price-per-m",
-      "label": "price per m²",
       "count": 3
     },
     {
