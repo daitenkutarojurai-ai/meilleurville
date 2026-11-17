@@ -1634,3 +1634,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `DromStrip` (cartes blanches simples sous les deux cartes : bandeau dégradé, pastilles).
 2. Panneau latéral de `FranceHeatmap` (cartes `glass`, podium) et rail Top 10 de `/carte`.
 3. Hero `/carte` (bandeau lilas uni, sans aurore ni emoji).
+
+## 2026-11-17 ~03:00 UTC — `DromStrip` (outre-mer sous les cartes : accueil FR/EN + `/carte`)
+
+**Surface** : le bandeau des 5 DROM sous les deux cartes de France. Avant : cartes blanches simples à filet gris, titre noir, villes en liens 10 px avec un point de palier et **sans note**, libellé « Outre-mer » en texte nu ; sur `/carte` (colonne étroite) 5 colonnes à ~130 px.
+
+**Changé** : chaque territoire a un bandeau dégradé cliquable (`grad-head-0…4`, rotation par index) avec emoji, nom et pilule du nombre de villes ; villes en lignes nom + pilule de note (point de palier + note à virgule FR / point EN), survol indigo pâle, « +N autres villes » ; cartes arrondies ombrées ; libellé « 🏝️ Outre-mer » en pastille translucide ; grille en container queries (2 / 3 / 5 colonnes selon la largeur réelle), le dernier territoire impair prend toute la ligne sur téléphone. Couleurs de palier inchangées, liens sans JS.
+
+**Fichiers** : `components/DromStrip.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` du fichier : 0 problème. Captures playwright `/`, `/carte`, `/en` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Panneau latéral de `FranceHeatmap` (cartes `glass`, podium) et rail Top 10 de `/carte`.
+2. Hero `/carte` (bandeau lilas uni, sans aurore ni emoji).
+3. Page agenda.
