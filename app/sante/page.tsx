@@ -163,7 +163,12 @@ export default function HealthcareHubPage() {
           <Link href="/red-flags/villes-desert-medical" className="text-[var(--accent)] hover:underline">
             la page désert médical
           </Link>
-          .
+          . Pour les communes où les très âgés sont déjà nombreux, la lecture se déplace : le
+          classement des{" "}
+          <Link href="/red-flags/villes-vieillir-loin-des-soins" className="text-[var(--accent)] hover:underline">
+            villes où l&apos;on vieillit loin des soins
+          </Link>{" "}
+          croise la part des 75 ans et plus avec cet accès aux généralistes.
         </p>
         <Card className="mt-4 overflow-hidden p-0">
           <div className="overflow-x-auto">

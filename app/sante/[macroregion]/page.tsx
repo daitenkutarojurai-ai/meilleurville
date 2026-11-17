@@ -276,6 +276,15 @@ export default async function MacroRegionHealthcarePage({ params }: Props) {
           </p>
           <p>
             <Link
+              href="/red-flags/villes-vieillir-loin-des-soins"
+              className="text-[var(--accent)] hover:underline"
+            >
+              → Pour une retraite longue : les villes où la part des très âgés est haute alors
+              que l&apos;offre de généralistes reste faible
+            </Link>
+          </p>
+          <p>
+            <Link
               href="/pour-qui/suivi-medical-regulier"
               className="text-[var(--accent)] hover:underline"
             >

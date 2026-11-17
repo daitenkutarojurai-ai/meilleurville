@@ -431,7 +431,12 @@ export default function RedFlagsPage() {
               <Link href="/red-flags/villes-desert-medical" className="text-[var(--accent)] hover:underline">
                 désert médical
               </Link>{" "}
-              dit où l&apos;accès aux soins s&apos;effondre ; il ne dit pas où aller quand
+              dit où l&apos;accès aux soins s&apos;effondre, sans regarder l&apos;âge des habitants :
+              le classement des{" "}
+              <Link href="/red-flags/villes-vieillir-loin-des-soins" className="text-[var(--accent)] hover:underline">
+                villes où l&apos;on vieillit loin des soins
+              </Link>{" "}
+              ajoute cette lecture, là où les 75 ans et plus sont nombreux. Il ne dit pas où aller quand
               on ne peut pas s&apos;en passer. C&apos;est l&apos;objet des{" "}
               <Link href="/pour-qui/suivi-medical-regulier" className="text-[var(--accent)] hover:underline">
                 villes pour un suivi médical régulier

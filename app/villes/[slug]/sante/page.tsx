@@ -27,6 +27,7 @@ import {
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta, fitTitle } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
+import { cityPopulation } from "@/lib/city-population";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -88,6 +89,15 @@ export default async function SantePage({ params }: Props) {
   const h = computeHealthcareAccess(city);
   const m = h.measured;
   const perPharmacy = m ? residentsPerPharmacy(m) : null;
+  // Même critère que le classement « vieillir loin des soins » : commune de
+  // 10 000 habitants et plus, au moins 12 % de 75 ans et plus, APL sous la moyenne nationale.
+  const ageMix = cityPopulation(slug);
+  const oldShare =
+    ageMix?.ages && ageMix.pop2022 >= 10_000
+      ? ((ageMix.ages.a7589 + ageMix.ages.a90p) /
+          (ageMix.ages.a0014 + ageMix.ages.a1529 + ageMix.ages.a3044 + ageMix.ages.a4559 + ageMix.ages.a6074 + ageMix.ages.a7589 + ageMix.ages.a90p)) * 100
+      : 0;
+  const agingLowAccess = oldShare >= 12 && m?.apl !== undefined && m.apl < APL_NATIONAL;
 
   const breadcrumb = breadcrumbJsonLd([
     { name: "Accueil", path: "/" },
@@ -320,6 +330,17 @@ export default async function SantePage({ params }: Props) {
               ? "Aucun délai de rendez-vous n'est relevé, et l'APL ne dit pas quels médecins prennent de nouveaux patients. Le zonage opposable (ZIP/ZAC) et les aides à l'installation sont publiés par l'ARS, par territoire de vie-santé et non par commune ; la situation évolue vite avec les départs en retraite."
               : "Ces quatre scores sont des estimations à l'échelle communale, pas des relevés : aucune densité médicale, aucun délai de rendez-vous et aucun zonage parcellaire ne sont ingérés pour cette commune. Le zonage précis (ZIP/ZAC) et les aides à l'installation sont publiés par l'ARS, et la situation évolue vite avec les départs en retraite."}
           </p>
+          {agingLowAccess && (
+            <p className="text-sm text-[var(--text-secondary)] leading-relaxed mt-4">
+              À {city.name}, les 75 ans et plus pèsent lourd dans la population alors que l&apos;offre de
+              généralistes reste sous la moyenne nationale : c&apos;est le cas que décrit notre
+              classement des{" "}
+              <Link href="/red-flags/villes-vieillir-loin-des-soins" className="text-[var(--accent)] underline hover:no-underline">
+                villes où l&apos;on vieillit loin des soins
+              </Link>
+              .
+            </p>
+          )}
         </div>
         </div>
       </section>

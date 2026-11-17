@@ -285,6 +285,32 @@ export default async function ProfilePage({ params }: Props) {
           </section>
         )}
 
+        {/* Pendant santé — retraite longue : où les très âgés sont nombreux et l'offre de généralistes faible. */}
+        {["retraites", "futurs-retraites"].includes(profile.slug) && (
+          <section>
+            <h3 className="text-lg font-bold text-[var(--text-primary)] mb-3">
+              Le pendant à éviter — vieillir loin des soins
+            </h3>
+            <Link href="/red-flags/villes-vieillir-loin-des-soins" className="block">
+              <Card className="hover:border-[var(--accent)]/40 cursor-pointer transition-colors">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl" aria-hidden>🩺</span>
+                  <div>
+                    <p className="font-semibold text-[var(--text-primary)]">
+                      Villes où l&apos;on vieillit loin des soins
+                    </p>
+                    <p className="text-xs text-[var(--text-secondary)] mt-1">
+                      Une ville agréable à 65 ans peut être mal armée à 85. Croisez le top
+                      ci-dessus avec les communes où les très âgés sont déjà nombreux et où
+                      l&apos;accès aux généralistes est sous la moyenne nationale.
+                    </p>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </section>
+        )}
+
         {/* Heating counterpart — visible for profiles whose budget is most
             exposed to a winter heating bill (fixed pension, single income,
             rural neo-installés, primo-accédants qui découvrent la facture
