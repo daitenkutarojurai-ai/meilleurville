@@ -878,66 +878,66 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
             <DromStrip locale={locale} cities={cities} />
           </div>
 
-          {/* Side panel */}
-          <aside className="space-y-3">
+          {/* Side panel — identité « Couleurs » : cartes blanches à bandeau dégradé */}
+          <aside className="space-y-4">
             {/* Stats card */}
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-md">
-              <p className="text-xs font-semibold uppercase tracking-wider text-[var(--accent)] mb-3">
-                {L("📊 Vue d'ensemble", "📊 Overview")}
-              </p>
-              <div className="grid grid-cols-2 gap-3">
-                <div>
-                  <div className="text-2xl font-bold font-mono-data text-[var(--text-primary)]">{stats.count}</div>
+            <div className="rounded-2xl bg-white overflow-hidden ring-1 ring-[#C7D2FE] shadow-lg shadow-[#4F46E5]/10">
+              <div className="grad-head-0 flex items-center gap-2.5 px-4 py-3">
+                <span className="grid h-8 w-8 place-items-center rounded-xl bg-white/20 text-base ring-1 ring-white/40" aria-hidden>📊</span>
+                <p className="text-sm font-bold tracking-tight">{L("Vue d'ensemble", "Overview")}</p>
+              </div>
+              <div className="grid grid-cols-2 gap-2.5 p-3">
+                <div className="rounded-xl bg-[#EEF2FF] px-3 py-2.5">
+                  <div className="text-2xl font-bold font-mono-data text-[#3730A3]">{stats.count}</div>
                   <div className="text-[11px] text-[var(--text-secondary)]">{L("villes notées", "rated cities")}</div>
                 </div>
-                <div>
-                  <div className="text-2xl font-bold font-mono-data text-[var(--accent)]">{stats.avg.toFixed(1)}</div>
+                <div className="rounded-xl bg-[#FDF2F8] px-3 py-2.5">
+                  <div className="text-2xl font-bold font-mono-data text-[#BE185D]">{stats.avg.toFixed(1)}</div>
                   <div className="text-[11px] text-[var(--text-secondary)]">{L("score moyen", "average score")}</div>
                 </div>
-                <div>
+                <div className="rounded-xl bg-[#F5F3FF] px-3 py-2.5">
                   <div className="text-2xl font-bold font-mono-data" style={{ color: scoreColor(stats.best) }}>{stats.best.toFixed(1)}</div>
                   <div className="text-[11px] text-[var(--text-secondary)]">{L("meilleure ville", "top city")}</div>
                 </div>
-                <div>
-                  <div className="text-2xl font-bold font-mono-data text-[var(--accent-warm)]">{stats.top}</div>
+                <div className="rounded-xl bg-[#ECFEFF] px-3 py-2.5">
+                  <div className="text-2xl font-bold font-mono-data text-[#0E7490]">{stats.top}</div>
                   <div className="text-[11px] text-[var(--text-secondary)]">{L("villes ≥ 7.0", "cities ≥ 7.0")}</div>
                 </div>
               </div>
             </div>
 
             {/* Podium */}
-            <div className="rounded-2xl glass border border-white/50 p-5 shadow-md">
-              <p className="text-xs font-semibold uppercase tracking-wider text-[var(--accent)] mb-3">
-                {L("🏆 Podium national", "🏆 National podium")}
-              </p>
-              <div className="space-y-2">
+            <div className="rounded-2xl bg-white overflow-hidden ring-1 ring-[#FBCFE8] shadow-lg shadow-[#DB2777]/10">
+              <div className="grad-head-1 flex items-center gap-2.5 px-4 py-3">
+                <span className="grid h-8 w-8 place-items-center rounded-xl bg-white/20 text-base ring-1 ring-white/40" aria-hidden>🏆</span>
+                <p className="text-sm font-bold tracking-tight">{L("Podium national", "National podium")}</p>
+              </div>
+              <div className="space-y-1.5 p-3">
                 {top3.map((c, i) => {
                   const medals = ["🥇", "🥈", "🥉"];
                   return (
                     <Link
                       key={c.slug}
                       href={cityHref(c.slug)}
-                      className="flex items-center gap-3 rounded-xl bg-white/60 hover:bg-[var(--accent-soft)] hover:scale-[1.02] transition-all p-2.5 group ring-1 ring-white/60"
+                      className="flex items-center gap-3 rounded-xl bg-gradient-to-r from-[#FDF2F8] to-[#EEF2FF] hover:from-[#FCE7F3] hover:to-[#E0E7FF] transition-colors p-2.5 group"
                     >
-                      <span className="text-2xl flex-shrink-0">{medals[i]}</span>
+                      <span className="text-2xl flex-shrink-0" aria-hidden>{medals[i]}</span>
                       <div className="flex-1 min-w-0">
                         <div className="text-sm font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                           {c.name}
                         </div>
-                        <div className="mt-1 h-1 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                        <div className="mt-1 h-1.5 rounded-full bg-white overflow-hidden">
                           <div
                             className="h-full rounded-full"
                             style={{
                               width: `${(c.scores.global / 10) * 100}%`,
-                              background: `linear-gradient(90deg, ${scoreColor(c.scores.global)}, ${scoreColor(c.scores.global)}33)`,
+                              background: scoreColor(c.scores.global),
                             }}
                           />
                         </div>
                       </div>
-                      <span
-                        className="text-sm font-bold font-mono-data"
-                        style={{ color: scoreColor(c.scores.global) }}
-                      >
+                      <span className="flex items-center gap-1.5 rounded-full bg-white px-2 py-0.5 ring-1 ring-[#E0E7FF] text-sm font-bold font-mono-data text-[var(--text-primary)]">
+                        <span className="h-2 w-2 rounded-full" style={{ background: scoreColor(c.scores.global) }} aria-hidden />
                         {c.scores.global.toFixed(1)}
                       </span>
                     </Link>
@@ -946,27 +946,27 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               </div>
             </div>
 
-            <div className="rounded-2xl border border-[var(--accent)]/20 bg-gradient-to-br from-[var(--accent-soft)] to-white p-5 relative overflow-hidden">
-              <div className="absolute -top-4 -right-4 h-20 w-20 rounded-full bg-[var(--accent-warm)]/30 blur-2xl" aria-hidden />
-              <p className="relative text-sm font-semibold text-[var(--accent)] mb-1">
-                {L("💡 Astuce", "💡 Tip")}
-              </p>
-              <p className="relative text-xs text-[var(--text-secondary)] leading-relaxed">
-                {L(
-                  "Les gros points = grandes villes. Les petits = pépites de campagne.",
-                  "Big dots = big cities. Small ones = countryside gems."
-                )}
-              </p>
+            <div className="rounded-2xl bg-gradient-to-br from-[#E0F2FE] via-[#ECFEFF] to-[#F5F3FF] ring-1 ring-[#A5F3FC] p-4 flex items-start gap-3">
+              <EmojiBadge emoji="💡" tone="aqua" size="sm" />
+              <div>
+                <p className="text-sm font-bold text-[#0E7490] mb-0.5">{L("Astuce", "Tip")}</p>
+                <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+                  {L(
+                    "Les gros points = grandes villes. Les petits = pépites de campagne.",
+                    "Big dots = big cities. Small ones = countryside gems."
+                  )}
+                </p>
+              </div>
             </div>
 
             <Link
               href={locale === "en" ? "/map" : "/carte"}
-              className="block text-center rounded-2xl border-2 border-[var(--accent)]/30 bg-white hover:bg-[var(--accent-soft)] hover:border-[var(--accent)] transition-all p-4 shine"
+              className="block text-center rounded-2xl bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#DB2777] text-white shadow-lg shadow-[#7C3AED]/25 hover:shadow-xl hover:shadow-[#7C3AED]/35 transition-shadow p-4 shine"
             >
-              <div className="text-sm font-bold text-[var(--accent)]">
+              <div className="text-sm font-bold">
                 {L("Carte interactive complète →", "Full interactive map →")}
               </div>
-              <div className="text-[11px] text-[var(--text-tertiary)] mt-0.5">
+              <div className="text-[11px] text-white/85 mt-0.5">
                 {L("Filtres · Zoom · Cherche par critère", "Filters · Zoom · Search by criterion")}
               </div>
             </Link>

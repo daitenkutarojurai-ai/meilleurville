@@ -1649,3 +1649,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Panneau latéral de `FranceHeatmap` (cartes `glass`, podium) et rail Top 10 de `/carte`.
 2. Hero `/carte` (bandeau lilas uni, sans aurore ni emoji).
 3. Page agenda.
+
+## 2026-11-17 ~11:00 UTC — panneaux latéraux des cartes (`FranceHeatmap` accueil FR/EN + rail `/carte`)
+
+**Surface** : colonne à droite des deux cartes de France. Avant : cartes `glass` blanches à filet gris, titres en petites capitales, stat « villes ≥ 7.0 » et halo de l'astuce en **ambre** (réservé aux paliers), podium et Top 10 en notes colorées nues ; sur `/carte`, Top 10 en liste grise, fiche survolée `glass-strong`, liens bas blancs.
+
+**Changé** : accueil — cartes blanches à bandeau dégradé (`grad-head-0` 📊 Vue d'ensemble, `grad-head-1` 🏆 Podium), 4 stats en tuiles pastel indigo / rose / lilas / cyan, podium sur dégradé rose → indigo pâle avec pilule de note (point de palier), astuce en carte aqua + `EmojiBadge` 💡, lien « Carte interactive » en dégradé indigo → violet → rose. `/carte` — Top 10 à bandeau `grad-head-0`, rangs en pastilles (podium en `grad-head-1`), notes en pilules ; fiche survolée à bandeau `grad-head-5` ; liens bas en aqua et dégradé. Couleurs de palier inchangées, copie inchangée.
+
+**Fichiers** : `components/FranceHeatmap.tsx`, `app/carte/CarteClient.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 2 fichiers : 1 erreur + 4 avertissements, identiques avant/après. Captures playwright `/`, `/en`, `/carte` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hero `/carte` (bandeau lilas uni, sans aurore ni emoji ; bande blanche sous le hero).
+2. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
+3. Page agenda.

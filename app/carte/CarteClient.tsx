@@ -764,13 +764,16 @@ export function CarteClient({
           {hovered ? (
             <Link
               href={`/villes/${hovered.slug}`}
-              className="block rounded-2xl border border-[var(--accent)]/30 glass-strong p-5 hover:scale-[1.02] transition-all shadow-lg"
+              className="block rounded-2xl bg-white overflow-hidden ring-1 ring-[#C7D2FE] shadow-lg shadow-[#4F46E5]/15 transition-shadow hover:shadow-xl"
             >
-              <div className="text-xs text-[var(--text-tertiary)] mb-1">
-                {hovered.region} · {hovered.department}
+              <div className="grad-head-5 px-5 py-3.5">
+                <div className="text-xs text-white/85 mb-0.5">
+                  {hovered.region} · {hovered.department}
+                </div>
+                <h3 className="text-lg font-bold text-white">{hovered.name}</h3>
               </div>
-              <h3 className="text-lg font-bold text-[var(--text-primary)] mb-1">{hovered.name}</h3>
-              <div className="text-3xl font-black font-mono-data mb-3" style={{ color: scoreColor(hovered.scores[scoreKey]) }}>
+              <div className="p-5 pt-4">
+              <div className="inline-flex items-baseline gap-1 rounded-2xl bg-[#EEF2FF] px-3 py-1.5 text-3xl font-black font-mono-data mb-3" style={{ color: scoreColor(hovered.scores[scoreKey]) }}>
                 {hovered.scores[scoreKey].toFixed(1)}
                 <span className="text-sm font-normal text-[var(--text-tertiary)]">/10</span>
               </div>
@@ -778,7 +781,7 @@ export function CarteClient({
                 {(["global", "nature", "cost", "safety", "transport", "culture"] as ScoreKey[]).map((k) => (
                   <div key={k} className="flex items-center gap-2">
                     <span className="w-16 text-[var(--text-secondary)] capitalize">{k}</span>
-                    <div className="flex-1 h-1 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                    <div className="flex-1 h-1.5 rounded-full bg-[#EEF2FF] overflow-hidden">
                       <div
                         className="h-full rounded-full"
                         style={{
@@ -799,32 +802,43 @@ export function CarteClient({
                   </div>
                 )}
               </div>
-              <div className="mt-4 text-center rounded-xl bg-[var(--accent)] text-white text-xs font-semibold py-2">
+              <div className="mt-4 text-center rounded-xl bg-gradient-to-r from-[#4F46E5] to-[#DB2777] text-white text-xs font-semibold py-2">
                 Voir la fiche complète →
+              </div>
               </div>
             </Link>
           ) : (
-            <div className="rounded-2xl border border-[var(--border)] glass p-5">
-              <p className="text-xs text-[var(--text-tertiary)] mb-3 uppercase tracking-widest font-semibold">
-                Top 10 — {currentLabel}
-              </p>
-              <div className="space-y-2">
+            <div className="rounded-2xl bg-white overflow-hidden ring-1 ring-[#C7D2FE] shadow-lg shadow-[#4F46E5]/10">
+              <div className="grad-head-0 flex items-center gap-2.5 px-4 py-3">
+                <span className="grid h-8 w-8 place-items-center rounded-xl bg-white/20 text-base ring-1 ring-white/40" aria-hidden>🏆</span>
+                <p className="text-sm font-bold tracking-tight min-w-0">
+                  Top 10 <span className="font-medium text-white/85">· {currentLabel}</span>
+                </p>
+              </div>
+              <div className="space-y-1 p-3">
                 {sorted.slice(0, 10).map((city, i) => (
                   <Link
                     key={city.slug}
                     href={`/villes/${city.slug}`}
-                    className="flex items-center gap-3 group rounded-lg p-2 hover:bg-[var(--bg-elevated)] transition-colors"
+                    className={`flex items-center gap-3 group rounded-xl px-2 py-1.5 transition-colors hover:bg-[#EEF2FF] ${i < 3 ? "bg-gradient-to-r from-[#FDF2F8] to-white" : ""}`}
                     onMouseEnter={() => {
                       const [x, y] = project(city.longitude, city.latitude);
                       setHover({ slug: city.slug, x, y });
                     }}
                     onMouseLeave={() => setHover(null)}
                   >
-                    <span className="text-[10px] font-mono-data text-[var(--text-tertiary)] w-4">{i + 1}</span>
+                    <span
+                      className={`grid h-6 w-6 shrink-0 place-items-center rounded-lg text-[11px] font-bold font-mono-data ${
+                        i < 3 ? "grad-head-1" : "bg-[#EEF2FF] text-[#3730A3]"
+                      }`}
+                    >
+                      {i + 1}
+                    </span>
                     <span className="flex-1 text-sm text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors truncate">
                       {city.name}
                     </span>
-                    <span className="text-sm font-bold font-mono-data" style={{ color: scoreColor(city.scores[scoreKey]) }}>
+                    <span className="flex items-center gap-1.5 rounded-full bg-white px-2 py-0.5 ring-1 ring-[#E0E7FF] text-sm font-bold font-mono-data text-[var(--text-primary)]">
+                      <span className="h-2 w-2 rounded-full" style={{ background: scoreColor(city.scores[scoreKey]) }} aria-hidden />
                       {city.scores[scoreKey].toFixed(1)}
                     </span>
                   </Link>
@@ -836,13 +850,13 @@ export function CarteClient({
           <div className="flex flex-col gap-2">
             <Link
               href="/classements"
-              className="rounded-xl border border-[var(--border)] bg-white/60 backdrop-blur px-4 py-2.5 text-sm text-center text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-white transition-colors"
+              className="rounded-xl bg-gradient-to-r from-[#E0F2FE] to-[#ECFEFF] ring-1 ring-[#A5F3FC] px-4 py-2.5 text-sm text-center font-semibold text-[#0E7490] hover:ring-[#22D3EE] transition-shadow"
             >
               Classements thématiques →
             </Link>
             <Link
               href="/city-match"
-              className="rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/10 px-4 py-2.5 text-sm text-center text-[var(--accent)] hover:bg-[var(--accent)]/20 transition-colors font-semibold"
+              className="rounded-xl bg-gradient-to-r from-[#4F46E5] via-[#7C3AED] to-[#DB2777] px-4 py-2.5 text-sm text-center text-white shadow-md shadow-[#7C3AED]/25 hover:shadow-lg transition-shadow font-semibold"
             >
               ✨ Quiz : trouver ma ville →
             </Link>
