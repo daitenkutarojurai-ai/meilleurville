@@ -46287,6 +46287,282 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Saint-Nazaire 2026","prendre sa retraite à Saint-Nazaire","retraite Loire-Atlantique","budget retraité Saint-Nazaire","retraite Pays de la Loire"],
   },
   {
+    slug: "retraite-a-caen-2026",
+    title: "Retraite à Caen en 2026 : CHU sur place, T2 à 700 € et la mer à 15 km",
+    metaTitle: "Retraite à Caen 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Caen en 2026 : T2 à 700 €, m² à 2 500 €, accès aux soins 8,1/10, CHU sur place, +2,8 % d'habitants, janvier à 5,6 °C. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Caen loue son deux-pièces 700 € et vend son mètre carré 2 500 €, soit environ 150 000 € pour 60 m² (source : notre estimation des loyers), avec un accès aux soins de 8,1/10, niveau « facile », et un site de CHU dans la commune. Son score retraite est de 6,1/10, un palier de 22 villes à égalité, derrière 286 autres. C'est une ville de 108 398 habitants (source : Insee, recensement 2022) qui coche l'essentiel pour un retraité : l'hôpital au pied de l'immeuble, des loyers de ville moyenne, un climat océanique sans excès.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Caen ?",
+        body: "Personne seule locataire d'un deux-pièces à 700 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (ces cinq lignes sont des hypothèses de notre part), soit environ 1 390 € par mois. Couple dans un trois-pièces à 930 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 960 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 110 € de marge.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Caen ?",
+        body: "8,1/10 dans notre moteur, où 10 signifie un excellent accès : niveau « facile » (source : notre fiche santé). La DREES mesure 5,52 consultations de généraliste accessibles par an et par habitant, contre 3,72 en moyenne nationale ; la commune compte 168 généralistes libéraux, 33 pharmacies et 3 services d'urgences (Insee, BPE). Le site de CHU est dans la commune : c'est ce qui sépare Caen des villes normandes voisines, où l'on monte à Caen pour les actes lourds.",
+      },
+      {
+        heading: "Caen, Bayeux ou Le Havre : où retraiter en Normandie ?",
+        body: "Bayeux, à 26 km, coûte moins cher (570 € le T2, 2 200 €/m²) et obtient 6,7/10 de score retraite, mais 38,1 % de ses 12 754 habitants ont 60 ans ou plus et la ville n'a pas de CHU. Le Havre, à 49 km, est sous Caen sur le loyer (650 € le T2) et sur l'accès aux généralistes (3,71 contre 5,52). Caen est la plus chère des trois, et la seule à réunir hôpital universitaire et vie urbaine complète.",
+      },
+      {
+        heading: "Quelle vie quotidienne à Caen quand on est retraité ?",
+        body: "23,5 % des habitants ont 60 ans ou plus, sous la médiane de 26,2 % de notre base : Caen reste une ville mélangée, avec une population étudiante, pas une ville de retraités. Le centre rassemble le château ducal, bâti vers 1060, et l'Abbaye aux Hommes, qui abrite l'hôtel de ville et la tombe de Guillaume le Conquérant. Le Mémorial de Caen, musée consacré à la Seconde Guerre mondiale et au Débarquement, se visite hors du centre. Le niveau de vie médian est de 21 600 € par an avec 21 % de pauvreté (source : Insee, Filosofi 2021) ; la sécurité est à 5,9/10 et les transports à 7,0/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Quel climat à Caen ?",
+        body: "Caen affiche 5,6 °C en janvier et 18 °C en juillet, avec environ 1 750 heures de soleil par an (normales de la station la plus proche, à 6 km). Climat océanique : hivers doux, étés frais, pluie fréquente. Ce n'est pas la ville du retraité en quête de soleil, mais les extrêmes y sont rares.",
+      },
+      {
+        heading: "Pour qui Caen fonctionne, et pour qui non",
+        body: "Caen convient au retraité qui veut un CHU sur place, une ville animée et une marge raisonnable avec environ 1 390 € de budget mensuel, la mer étant à portée de voiture. Elle convient moins à celui qui cherche le soleil, une station tranquille ou un loyer sous 600 € : Bayeux ou Saint-Lô répondent mieux, avec l'hôpital à distance.",
+      },
+    ],
+    relatedCities: ["caen","bayeux","le-havre","herouville-saint-clair"],
+    relatedGuides: [
+      "vivre-a-caen-2026",
+      "acheter-a-caen-quel-quartier-budget-2026",
+      "retraite-a-metz-2026",
+      "retraite-a-saint-malo-2026",
+    ],
+    tags: ["retraite Caen 2026","prendre sa retraite à Caen","retraite Calvados","budget retraité Caen","retraite Normandie"],
+  },
+  {
+    slug: "retraite-a-rennes-2026",
+    title: "Retraite à Rennes en 2026 : 6,3/10 et un CHU, mais 1 510 € par mois pour une personne seule",
+    metaTitle: "Retraite à Rennes 2026 : budget, santé, métro",
+    metaDesc: "Retraite à Rennes en 2026 : T2 à 820 €, m² à 3 800 €, accès aux soins 7,6/10, +5,3 % d'habitants, seulement 18,6 % de 60 ans et plus. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🥞",
+    readMinutes: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Rennes demande 820 € pour un deux-pièces et 3 800 € le mètre carré, soit environ 228 000 € pour 60 m² (source : notre estimation des loyers) : le budget d'une personne seule monte à environ 1 510 € par mois, au-dessus d'une pension moyenne de 1 500 € nets. Le score retraite est pourtant de 6,3/10, un palier de 16 villes à égalité, derrière 244 autres. La ville a gagné 11 562 habitants depuis 2016 (+5,3 %, pour 227 830 habitants, source : Insee, recensement 2022) : c'est une métropole jeune, pas une ville de retraités.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Rennes ?",
+        body: "Personne seule locataire d'un deux-pièces à 820 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 510 € par mois. Couple dans un trois-pièces à 1 100 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 2 130 € par mois. Face à une pension moyenne d'environ 1 500 € nets (source : DREES), la marge d'une personne seule est nulle : à Rennes, il faut être propriétaire ou avoir un complément.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Rennes ?",
+        body: "7,6/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune. La DREES mesure 4,77 consultations de généraliste accessibles par an et par habitant (3,72 en moyenne nationale) ; la commune compte 246 généralistes libéraux, 57 pharmacies et 2 services d'urgences (Insee, BPE). C'est bon, mais en dessous de Caen (8,1) : une grande ville étudiante répartit ses médecins sur beaucoup d'habitants.",
+      },
+      {
+        heading: "Rennes, Vitré ou Saint-Malo : où se poser en Bretagne ?",
+        body: "Vitré, à 35 km, loue son T2 600 € et vend 2 200 €/m², avec 8,5/10 en sécurité et un score retraite de 7,9, mais seulement 18 892 habitants et 3,67 d'accès aux généralistes. Saint-Malo, à 65 km, est aussi chère que Rennes au loyer (800 €) et bien plus au mètre carré (4 000 €), avec 41,2 % de seniors. Rennes est la seule des trois qui combine hôpital universitaire et métro.",
+      },
+      {
+        heading: "Peut-on vivre sans voiture à Rennes ?",
+        body: "Oui : les transports sont à 8,1/10 sur notre fiche ville. Deux lignes de métro desservent le centre : la ligne A passe à la station Pontchaillou, près du CHU, et la ligne B à Saint-Germain, près du Parlement de Bretagne et du parc du Thabor ; Sainte-Anne est desservie par les deux lignes. Pour un retraité qui renonce à la voiture, c'est le principal argument de la ville.",
+      },
+      {
+        heading: "Une ville jeune : ce que ça change",
+        body: "Seuls 18,6 % des habitants ont 60 ans ou plus, contre une médiane de 26,2 % : Rennes ne propose pas l'entre-soi de Saint-Malo, mais une vie culturelle et des services pensés pour tous les âges. Le niveau de vie médian est de 22 770 € par an avec 21 % de pauvreté (source : Insee, Filosofi 2021), la sécurité à 5,9/10. Le climat est océanique : 6,2 °C en janvier, 19,2 °C en juillet, environ 1 760 heures de soleil par an.",
+      },
+      {
+        heading: "Pour qui Rennes fonctionne, et pour qui non",
+        body: "Rennes convient au retraité propriétaire, ou à celui dont les revenus dépassent la pension moyenne, qui veut métro, culture et hôpital universitaire sans voiture. Elle convient moins à celui qui compte sur 1 500 € par mois et un loyer : Vitré ou Dinan offrent un budget plus léger, avec les soins à distance.",
+      },
+    ],
+    relatedCities: ["rennes","vitre","saint-malo","dinan"],
+    relatedGuides: [
+      "vivre-a-rennes-2026",
+      "acheter-a-rennes-quel-quartier-budget-2026",
+      "retraite-a-vitre-2026",
+      "retraite-a-dinan-2026",
+    ],
+    tags: ["retraite Rennes 2026","prendre sa retraite à Rennes","retraite Ille-et-Vilaine","budget retraité Rennes","retraite Bretagne"],
+  },
+  {
+    slug: "retraite-a-strasbourg-2026",
+    title: "Retraite à Strasbourg en 2026 : le meilleur accès aux généralistes du lot, un budget de 1 490 €",
+    metaTitle: "Retraite à Strasbourg 2026 : budget, santé, tram",
+    metaDesc: "Retraite à Strasbourg en 2026 : T2 à 800 €, m² à 3 800 €, 463 généralistes, accès aux soins 8,0/10, +4,4 % d'habitants, janvier à 2,5 °C. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🥨",
+    readMinutes: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Strasbourg offre le meilleur accès aux généralistes de ses villes comparables (6,53 consultations accessibles par an et par habitant selon la DREES, pour 3,72 en moyenne nationale) avec 463 généralistes libéraux dans la commune, mais demande 800 € pour un deux-pièces et 3 800 € le mètre carré, soit environ 228 000 € pour 60 m² (source : notre estimation des loyers). Le score retraite est de 6,1/10, un palier de 22 villes à égalité, derrière 286 autres. La ville a gagné 12 425 habitants depuis 2016 (+4,4 %, 291 709 habitants, source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Strasbourg ?",
+        body: "Personne seule locataire d'un deux-pièces à 800 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 490 € par mois, une marge d'environ 10 € sur une pension moyenne d'environ 1 500 € nets (source : DREES). Couple dans un trois-pièces à 1 080 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 2 110 € par mois.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Strasbourg ?",
+        body: "8,0/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune. Les chiffres sont les plus solides de ce lot : 463 généralistes libéraux, 78 pharmacies, 4 services d'urgences (Insee, BPE) et un APL DREES de 6,53, presque le double de la moyenne nationale. Pour un retraité qui anticipe des soins réguliers, c'est l'argument central.",
+      },
+      {
+        heading: "Strasbourg, Haguenau ou Colmar : quel arbitrage ?",
+        body: "Haguenau, plus au nord, loue son T2 700 € et vend 2 900 €/m², avec un APL de 5,33 et 25,7 % de seniors. Colmar est à 750 € le T2 et 3 000 €/m², APL de 4,39. Strasbourg est la plus chère des trois d'environ 800 € au mètre carré, mais aussi la mieux dotée en médecins : on paie la proximité de l'hôpital et du tram.",
+      },
+      {
+        heading: "Quelle vie quotidienne à Strasbourg ?",
+        body: "Les transports sont à 9,0/10 sur notre fiche ville, le plus haut niveau de ce lot : le tram dessert l'essentiel de l'agglomération, ce qui permet de se passer de voiture. La Grande-Île est classée à l'UNESCO depuis 1988, avec la Petite France, et la Neustadt, le quartier bâti à partir de 1870, l'est depuis 2017. Seuls 19,1 % des habitants ont 60 ans ou plus (médiane : 26,2 %).",
+      },
+      {
+        heading: "Un hiver à 2,5 °C et un niveau de vie plus bas",
+        body: "Strasbourg affiche 2,5 °C en janvier et 20,6 °C en juillet, avec environ 1 750 heures de soleil par an : climat semi-continental, hivers froids, étés chauds. Le niveau de vie médian est de 20 260 € par an, avec 26 % de pauvreté (source : Insee, Filosofi 2021), et la sécurité de 5,3/10 sur notre fiche ville : c'est une grande ville aux contrastes, pas un havre.",
+      },
+      {
+        heading: "Pour qui Strasbourg fonctionne, et pour qui non",
+        body: "Strasbourg convient au retraité qui place la santé avant tout, qui veut vivre au tram et à la culture et dispose d'un budget d'environ 1 490 € ou plus. Elle convient moins à celui qui supporte mal le froid, qui vise un loyer sous 700 € ou qui préfère une petite ville : Haguenau ou Colmar gardent l'Alsace pour moins cher.",
+      },
+    ],
+    relatedCities: ["strasbourg","haguenau","colmar","schiltigheim"],
+    relatedGuides: [
+      "vivre-a-strasbourg-2026",
+      "acheter-a-strasbourg-quel-quartier-budget-2026",
+      "retraite-a-metz-2026",
+      "retraite-a-dijon-2026",
+    ],
+    tags: ["retraite Strasbourg 2026","prendre sa retraite à Strasbourg","retraite Bas-Rhin","budget retraité Strasbourg","retraite Alsace"],
+  },
+  {
+    slug: "retraite-a-rouen-2026",
+    title: "Retraite à Rouen en 2026 : +5,6 % d'habitants, accès aux soins 8,0/10, mais un score de 5,4",
+    metaTitle: "Retraite à Rouen 2026 : budget, santé, avis",
+    metaDesc: "Retraite à Rouen en 2026 : T2 à 720 €, m² à 2 600 €, accès aux soins 8,0/10, +5,6 % d'habitants, sécurité 4,7/10. Budget et limites avant de choisir.",
+    category: "lifestyle",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Rouen demande 720 € pour un deux-pièces et 2 600 € le mètre carré, soit environ 156 000 € pour 60 m² (source : notre estimation des loyers), et offre un accès aux soins de 8,0/10 avec un site de CHU dans la commune. Son score retraite reste modeste : 5,4/10, un palier de 35 villes à égalité, derrière 411 autres. Le frein est la sécurité, à 4,7/10 sur notre fiche ville. La ville a gagné 6 214 habitants depuis 2016 (+5,6 %, 116 331 habitants, source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Rouen ?",
+        body: "Personne seule locataire d'un deux-pièces à 720 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 410 € par mois. Couple dans un trois-pièces à 950 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 980 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 90 € de marge.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Rouen ?",
+        body: "8,0/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune. La DREES mesure 5,41 consultations de généraliste accessibles par an et par habitant (3,72 en moyenne nationale) ; Rouen compte 159 généralistes libéraux, 35 pharmacies et 2 services d'urgences (Insee, BPE). Louviers, à 26 km, n'atteint que 3,38 consultations accessibles par an et par habitant.",
+      },
+      {
+        heading: "Rouen, Le Havre ou Dieppe : quelle ville normande choisir ?",
+        body: "Le Havre loue son T2 650 € et vend 2 000 €/m², avec 26,6 % de seniors et un accès aux généralistes de 3,71. Dieppe, au bord de la Manche, est à 610 € le T2 et 1 800 €/m², avec 37,6 % de seniors et un score retraite de 7,6, mais un APL de 3,54. Rouen est plus chère, et c'est la seule des trois à offrir un hôpital universitaire et une vie culturelle de grande ville.",
+      },
+      {
+        heading: "Quel cadre de vie à Rouen ?",
+        body: "Le centre historique réunit la cathédrale, le Gros-Horloge, dont l'horloge date de 1389 et l'arche de la Renaissance, et le musée des Beaux-Arts, dont les collections permanentes sont gratuites selon le guide de la ville. La Seine borde le centre. 18,6 % des habitants ont 60 ans ou plus (médiane : 26,2 %), le niveau de vie médian est de 21 330 € par an avec 23 % de pauvreté (source : Insee, Filosofi 2021) et les transports sont à 6,7/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Pourquoi le score retraite reste-t-il à 5,4 ?",
+        body: "Parce que la sécurité (4,7/10 sur notre fiche ville) et un score de ville dense pèsent plus que les soins dans le calcul de notre indice, qui est un classement de villes, pas un diagnostic de quartier. Beaucoup de retraités qui aiment Rouen choisissent un quartier calme ou une commune de l'agglomération ; avant d'acheter, passez une semaine sur place, à plusieurs heures de la journée.",
+      },
+      {
+        heading: "Pour qui Rouen fonctionne, et pour qui non",
+        body: "Rouen convient au retraité qui veut un CHU sur place, un patrimoine à pied et un budget autour de 1 410 € sans quitter la Normandie. Elle convient moins à celui qui cherche la tranquillité d'une petite ville ou un score de sécurité élevé : Louviers ou Dieppe sont plus calmes, avec l'hôpital universitaire à distance.",
+      },
+    ],
+    relatedCities: ["rouen","le-havre","dieppe","louviers"],
+    relatedGuides: [
+      "vivre-a-rouen-2026",
+      "acheter-a-rouen-quel-quartier-budget-2026",
+      "retraite-au-havre-2026",
+      "retraite-a-amiens-2026",
+    ],
+    tags: ["retraite Rouen 2026","prendre sa retraite à Rouen","retraite Seine-Maritime","budget retraité Rouen","retraite Normandie"],
+  },
+  {
+    slug: "retraite-a-nancy-2026",
+    title: "Retraite à Nancy en 2026 : T2 à 710 €, CHU sur place, une ville qui ne grandit plus",
+    metaTitle: "Retraite à Nancy 2026 : budget, santé, patrimoine",
+    metaDesc: "Retraite à Nancy en 2026 : T2 à 710 €, m² à 2 400 €, accès aux soins 8,0/10, CHU sur place, population stable (-0,2 %). Budget et comparaison avec Metz.",
+    category: "lifestyle",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Nancy loue son deux-pièces 710 € et vend son mètre carré 2 400 €, soit environ 144 000 € pour 60 m² (source : notre estimation des loyers), avec un accès aux soins de 8,0/10 et un site de CHU dans la commune. Son score retraite est de 5,7/10, un palier de 23 villes à égalité, derrière 351 autres. Sa population est stable : 104 387 habitants, soit 205 de moins qu'en 2016 (−0,2 %, source : Insee, recensement 2022), à rebours de Metz, qui progresse de 3,2 %.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Nancy ?",
+        body: "Personne seule locataire d'un deux-pièces à 710 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 400 € par mois. Couple dans un trois-pièces à 950 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 980 € par mois. Marge d'une personne seule sur une pension moyenne d'environ 1 500 € nets (source : DREES) : environ 100 €.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Nancy ?",
+        body: "8,0/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune : c'est ce qui manque à Metz, dont le plus proche site est à Nancy. La DREES mesure 5,10 consultations de généraliste accessibles par an et par habitant (3,72 en moyenne nationale) ; la commune compte 115 généralistes libéraux, 42 pharmacies et 2 services d'urgences (Insee, BPE). Le CHRU de Nancy, à Brabois, est réputé pour la chirurgie robotique.",
+      },
+      {
+        heading: "Nancy ou Metz, Épinal : comment arbitrer ?",
+        body: "Metz coûte moins cher au loyer (680 € le T2 contre 710 €) et au mètre carré (2 300 € contre 2 400 €), a un meilleur accès aux généralistes (5,26) et gagne des habitants, mais n'a pas de CHU dans la commune. Épinal, à une soixantaine de kilomètres, est nettement moins chère (490 € le T2, 1 500 €/m²) avec un APL de 4,96. Nancy est le meilleur choix des trois quand l'hôpital passe avant le prix.",
+      },
+      {
+        heading: "Quel cadre de vie à Nancy ?",
+        body: "La place Stanislas, la place de la Carrière et la place d'Alliance sont classées à l'UNESCO depuis 1983 ; la place a été aménagée par Emmanuel Héré entre 1752 et 1756. Nancy est aussi la capitale de l'Art nouveau avec l'École de Nancy (Gallé, Majorelle, Daum), dont le musée occupe une villa de 1909. 19,2 % des habitants ont 60 ans ou plus (médiane : 26,2 %), le niveau de vie médian est de 22 360 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021), la sécurité à 5,1/10 et les transports à 7,0/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Un hiver lorrain à préparer",
+        body: "Le climat est semi-continental : hivers froids, avec des gelées fréquentes, étés plutôt chauds. Nous ne citons pas de normales pour Nancy, la station météo de notre base la plus proche étant trop éloignée pour que les chiffres soient fiables. Un séjour en janvier avant tout achat reste la meilleure vérification.",
+      },
+      {
+        heading: "Pour qui Nancy fonctionne, et pour qui non",
+        body: "Nancy convient au retraité sensible au patrimoine et à la culture, qui veut un CHU sur place et un budget autour de 1 400 €. Elle convient moins à celui qui cherche une ville en croissance, du soleil ou un loyer sous 600 € : Metz ou Épinal sont alors à comparer.",
+      },
+    ],
+    relatedCities: ["nancy","metz","epinal","laxou"],
+    relatedGuides: [
+      "vivre-a-nancy-2026",
+      "acheter-a-nancy-quel-quartier-budget-2026",
+      "retraite-a-metz-2026",
+      "retraite-a-besancon-2026",
+    ],
+    tags: ["retraite Nancy 2026","prendre sa retraite à Nancy","retraite Meurthe-et-Moselle","budget retraité Nancy","retraite Lorraine"],
+  },
+  {
+    slug: "retraite-a-cherbourg-2026",
+    title: "Retraite à Cherbourg-en-Cotentin en 2026 : T2 à 620 €, mais le CHU est à Caen, à 104 km",
+    metaTitle: "Retraite à Cherbourg 2026 : budget, santé, climat",
+    metaDesc: "Retraite à Cherbourg en 2026 : T2 à 620 €, m² à 1 900 €, 28,3 % de 60 ans et plus, accès aux soins 5,9/10, CHU de Caen à 104 km. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🚢",
+    readMinutes: 7,
+    publishedAt: "2026-11-17",
+    updatedAt: "2026-11-17",
+    intro: "Cherbourg-en-Cotentin loue son deux-pièces 620 € et vend son mètre carré 1 900 €, soit environ 114 000 € pour 60 m² (source : notre estimation des loyers), le budget le plus léger de ce lot de villes normandes : environ 1 310 € par mois pour une personne seule. Le revers est médical : accès aux soins 5,9/10, niveau « correct », et le site de CHU le plus proche est à Caen, à 104 km à vol d'oiseau. Score retraite : 5,7/10, un palier de 23 villes à égalité, derrière 351 autres. La population recule : 78 028 habitants, 2 048 de moins qu'en 2016 (−2,6 %, source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Cherbourg ?",
+        body: "Personne seule locataire d'un deux-pièces à 620 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 310 € par mois. Couple dans un trois-pièces à 820 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 850 € par mois. La marge d'une personne seule sur une pension moyenne d'environ 1 500 € nets (source : DREES) est d'environ 190 €, la meilleure du lot.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Cherbourg ?",
+        body: "5,9/10 dans notre moteur, niveau « correct » (source : notre fiche santé). L'accès aux généralistes est de 3,44 consultations par an et par habitant selon la DREES, sous la moyenne nationale de 3,72, avec 64 généralistes libéraux, 24 pharmacies et 1 service d'urgences dans la commune (Insee, BPE). Aucun site de CHU dans la commune : le plus proche est celui de Caen, à 104 km à vol d'oiseau, soit un trajet bien plus long par la route. Pour un suivi lourd, c'est la vraie limite.",
+      },
+      {
+        heading: "Cherbourg, Saint-Lô ou Granville : quel arbitrage dans la Manche ?",
+        body: "Saint-Lô, à 69 km, loue son T2 570 € et vend 1 600 €/m², avec un APL de 4,20 et 29,5 % de seniors. Granville, à 89 km, est à 610 € le T2 et 2 100 €/m², avec 46,7 % de seniors, la ville la plus tournée vers la retraite des trois. Cherbourg est la plus grande (78 028 habitants) et la plus industrielle, mais son APL de 3,44 est le plus bas des trois.",
+      },
+      {
+        heading: "Quelle vie quotidienne à Cherbourg ?",
+        body: "28,3 % des habitants ont 60 ans ou plus, au-dessus de la médiane de 26,2 % : on y croise beaucoup de retraités. La Cité de la Mer occupe l'ancienne gare maritime transatlantique, inaugurée en 1933, et abrite le sous-marin Le Redoutable. Le niveau de vie médian est de 22 650 € par an avec 14 % de pauvreté seulement (source : Insee, Filosofi 2021), la sécurité à 5,3/10 et les transports à 4,9/10 sur notre fiche ville : la voiture reste utile.",
+      },
+      {
+        heading: "Quel climat à Cherbourg ?",
+        body: "Climat océanique de la pointe du Cotentin : hivers doux, étés frais, vent et pluie fréquents. Nous ne citons pas de normales chiffrées pour Cherbourg : la station météo de notre base est trop éloignée pour que les valeurs soient fiables. Un séjour d'hiver reste le meilleur test.",
+      },
+      {
+        heading: "Pour qui Cherbourg fonctionne, et pour qui non",
+        body: "Cherbourg convient au retraité en bonne santé qui veut la mer, un budget autour de 1 310 € et la compagnie d'autres retraités, et qui accepte de se rendre à Caen pour les soins spécialisés. Elle convient moins à celui qui anticipe un suivi hospitalier régulier, ne conduit plus ou cherche du soleil : Caen est alors un meilleur choix.",
+      },
+    ],
+    relatedCities: ["cherbourg","saint-lo","granville","caen"],
+    relatedGuides: [
+      "vivre-a-cherbourg-2026",
+      "10-choses-a-faire-a-cherbourg-2026",
+      "retraite-a-saint-lo-2026",
+      "retraite-a-caen-2026",
+    ],
+    tags: ["retraite Cherbourg 2026","prendre sa retraite à Cherbourg","retraite Manche","budget retraité Cherbourg","retraite Cotentin"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",

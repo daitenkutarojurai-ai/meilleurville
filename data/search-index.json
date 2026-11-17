@@ -8312,6 +8312,36 @@
       "emoji": "⚓"
     },
     {
+      "slug": "retraite-a-caen-2026",
+      "title": "Retraite à Caen en 2026 : CHU sur place, T2 à 700 € et la mer à 15 km",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "retraite-a-rennes-2026",
+      "title": "Retraite à Rennes en 2026 : 6,3/10 et un CHU, mais 1 510 € par mois pour une personne seule",
+      "emoji": "🥞"
+    },
+    {
+      "slug": "retraite-a-strasbourg-2026",
+      "title": "Retraite à Strasbourg en 2026 : le meilleur accès aux généralistes du lot, un budget de 1 490 €",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "retraite-a-rouen-2026",
+      "title": "Retraite à Rouen en 2026 : +5,6 % d'habitants, accès aux soins 8,0/10, mais un score de 5,4",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "retraite-a-nancy-2026",
+      "title": "Retraite à Nancy en 2026 : T2 à 710 €, CHU sur place, une ville qui ne grandit plus",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "retraite-a-cherbourg-2026",
+      "title": "Retraite à Cherbourg-en-Cotentin en 2026 : T2 à 620 €, mais le CHU est à Caen, à 104 km",
+      "emoji": "🚢"
+    },
+    {
       "slug": "demenager-a-paris-2026",
       "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
       "emoji": "📦"
@@ -12724,6 +12754,11 @@
       "count": 4
     },
     {
+      "slug": "retraite-bretagne",
+      "label": "retraite Bretagne",
+      "count": 4
+    },
+    {
       "slug": "retraite-cote-d-azur",
       "label": "retraite Côte d'Azur",
       "count": 4
@@ -13264,13 +13299,18 @@
       "count": 3
     },
     {
-      "slug": "retraite-bretagne",
-      "label": "retraite Bretagne",
+      "slug": "retraite-charente-maritime",
+      "label": "retraite Charente-Maritime",
       "count": 3
     },
     {
-      "slug": "retraite-charente-maritime",
-      "label": "retraite Charente-Maritime",
+      "slug": "retraite-ille-et-vilaine",
+      "label": "retraite Ille-et-Vilaine",
+      "count": 3
+    },
+    {
+      "slug": "retraite-normandie",
+      "label": "retraite Normandie",
       "count": 3
     },
     {
