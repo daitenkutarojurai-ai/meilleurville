@@ -32802,6 +32802,252 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-caen-2026",
+    title: "Retiring in Caen (2026): University Hospital in Town, €700 Two-Bed, the Sea 15 km Away",
+    metaTitle: "Retiring in Caen 2026: Budget, Health, Climate",
+    metaDesc: "Retiring in Caen: two-bed at €700, €2,500/m², health access 8.1/10, CHU in town, +2.8% residents, January at 5.6 °C. Budget and limits.",
+    category: "moving",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Caen rents a two-bedroom for €700 and sells a square metre at €2,500, about €150,000 for 60 m² (our rent estimate), with health access of 8.1/10, an \"easy\" level, and a CHU (centre hospitalier universitaire, a university hospital) inside the town. Its retirement score is 6.1/10, in a 22-way tie, behind 286 other towns. It is a town of 108,398 people (INSEE census 2022) that ticks most boxes for a retiree: the hospital at the foot of the building, mid-sized-town rents and an oceanic climate without extremes.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Caen?",
+        body: "A single person renting a two-bedroom at €700 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,390 a month. A couple renting a three-bedroom at €930: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,960 a month. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €110 of margin.",
+      },
+      {
+        heading: "How do you get medical care in Caen?",
+        body: "Our engine puts Caen at 8.1/10, where 10 is excellent access: an \"easy\" level (our health sheet). DREES GP accessibility is 5.52 consultations per resident per year against 3.72 nationally, and the town has 168 private GPs, 33 pharmacies and 3 emergency departments (INSEE, BPE facilities database). The CHU is in the town itself, which is what separates Caen from its Norman neighbours: elsewhere in the region you go up to Caen for major procedures.",
+      },
+      {
+        heading: "Caen, Bayeux or Le Havre: where to retire in Normandy?",
+        body: "Bayeux, 26 km away, is cheaper (€570 for a two-bed, €2,200/m²) and scores 6.7/10 for retirement, but 38.1% of its 12,754 residents are 60 or over and it has no CHU. Le Havre, 49 km away, is below Caen on rent (€650 for a two-bed) and on GP access (3.71 against 5.52). Caen is the most expensive of the three and the only one combining a university hospital with a full urban life.",
+      },
+      {
+        heading: "What is daily life like in Caen for a retiree?",
+        body: "23.5% of residents are 60 or over, below the 26.2% median of our database: Caen is a mixed town with a large student population, not a retirement town. The centre has the ducal castle, begun around 1060, and the Abbaye aux Hommes, which houses the town hall and the tomb of William the Conqueror. The Mémorial de Caen, a museum on the Second World War and the D-Day landings, sits outside the centre. Median standard of living is €21,600 a year with 21% poverty (INSEE, Filosofi 2021); safety is 5.9/10 and transport 7.0/10 on our city sheet.",
+      },
+      {
+        heading: "What is the climate like in Caen?",
+        body: "Caen averages 5.6 °C in January and 18 °C in July, with about 1,750 hours of sun a year (normals from the nearest station, 6 km away). It is an oceanic climate: mild winters, cool summers, frequent rain. It is not the town for a retiree chasing sun, but extremes are rare.",
+      },
+      {
+        heading: "Who Caen suits, and who it does not",
+        body: "Caen suits the retiree who wants a CHU in town, a lively city and a reasonable margin on a budget of about €1,390 a month, with the sea within driving distance. It suits less someone looking for sun, a quiet resort or rent under €600: Bayeux or Saint-Lô fit better, with the hospital at a distance.",
+      },
+    ],
+    relatedCities: ["caen", "bayeux", "le-havre", "herouville-saint-clair"],
+    tags: ["retiring in Caen 2026", "Calvados expat retirement", "Caen retirement budget", "Normandy retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-rennes-2026",
+    title: "Retiring in Rennes (2026): 6.3/10 and a CHU, but €1,510 a Month for One Person",
+    metaTitle: "Retiring in Rennes 2026: Budget, Health, Metro",
+    metaDesc: "Retiring in Rennes: two-bed at €820, €3,800/m², health access 7.6/10, +5.3% residents, only 18.6% aged 60+. Budget and limits.",
+    category: "moving",
+    emoji: "🥞",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Rennes asks €820 for a two-bedroom and €3,800 a square metre, about €228,000 for 60 m² (our rent estimate): a single person's budget climbs to about €1,510 a month, above an average pension of €1,500 net. Its retirement score is still 6.3/10, in a 16-way tie, behind 244 other towns. The city has gained 11,562 residents since 2016 (+5.3%, to 227,830, INSEE census 2022): a young metropolis, not a retirement town.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Rennes?",
+        body: "A single person renting a two-bedroom at €820 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,510 a month. A couple renting a three-bedroom at €1,100: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €2,130 a month. Against an average pension of about €1,500 net (DREES), a single person has no margin: in Rennes you need to own your home or have extra income.",
+      },
+      {
+        heading: "How do you get medical care in Rennes?",
+        body: "Our engine gives Rennes 7.6/10, an \"easy\" level (our health sheet), with a CHU (university hospital) in the town. DREES measures 4.77 accessible GP consultations per resident per year (3.72 nationally); the town has 246 private GPs, 57 pharmacies and 2 emergency departments (INSEE, BPE facilities database). That is good but below Caen (8.1): a large student city spreads its doctors across many residents.",
+      },
+      {
+        heading: "Rennes, Vitré or Saint-Malo: where to settle in Brittany?",
+        body: "Vitré, 35 km away, rents a two-bed at €600 and sells at €2,200/m², with 8.5/10 on safety and a retirement score of 7.9, but only 18,892 residents and GP access of 3.67. Saint-Malo, 65 km away, matches Rennes on rent (€800) and is well above on price per square metre (€4,000), with 41.2% of residents aged 60 or over. Rennes is the only one of the three combining a university hospital and a metro.",
+      },
+      {
+        heading: "Can you live in Rennes without a car?",
+        body: "Yes: transport scores 8.1/10 on our city sheet. Two metro lines serve the centre: line A stops at Pontchaillou, near the CHU, and line B at Saint-Germain, near the Parlement de Bretagne and the Thabor park; Sainte-Anne is served by both. For a retiree giving up the car, that is the town's main argument.",
+      },
+      {
+        heading: "A young city: what that changes",
+        body: "Only 18.6% of residents are 60 or over, against a median of 26.2%: Rennes does not offer the retiree enclave of Saint-Malo, but a cultural life and services built for all ages. Median standard of living is €22,770 a year with 21% poverty (INSEE, Filosofi 2021), safety 5.9/10. The climate is oceanic: 6.2 °C in January, 19.2 °C in July, about 1,760 hours of sun a year.",
+      },
+      {
+        heading: "Who Rennes suits, and who it does not",
+        body: "Rennes suits the retiree who owns their home, or whose income exceeds the average pension, and wants a metro, culture and a university hospital without a car. It suits less someone counting on €1,500 a month and a rent: Vitré or Dinan offer a lighter budget, with care at a distance.",
+      },
+    ],
+    relatedCities: ["rennes", "vitre", "saint-malo", "dinan"],
+    tags: ["retiring in Rennes 2026", "Ille-et-Vilaine expat retirement", "Rennes retirement budget", "Brittany retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-strasbourg-2026",
+    title: "Retiring in Strasbourg (2026): Best GP Access of the Batch, a €1,490 Budget",
+    metaTitle: "Retiring in Strasbourg 2026: Budget, Health, Tram",
+    metaDesc: "Retiring in Strasbourg: two-bed at €800, €3,800/m², 463 GPs, health access 8.0/10, +4.4% residents, January at 2.5 °C. Budget and limits.",
+    category: "moving",
+    emoji: "🥨",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Strasbourg has the best GP access among comparable towns (6.53 accessible consultations per resident per year according to DREES, against 3.72 nationally) with 463 private GPs in the town, but asks €800 for a two-bedroom and €3,800 a square metre, about €228,000 for 60 m² (our rent estimate). Its retirement score is 6.1/10, in a 22-way tie, behind 286 other towns. The city has gained 12,425 residents since 2016 (+4.4%, to 291,709, INSEE census 2022).",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Strasbourg?",
+        body: "A single person renting a two-bedroom at €800 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,490 a month, leaving roughly €10 of margin on an average pension of about €1,500 net (DREES). A couple renting a three-bedroom at €1,080: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €2,110 a month.",
+      },
+      {
+        heading: "How do you get medical care in Strasbourg?",
+        body: "Our engine gives Strasbourg 8.0/10, an \"easy\" level (our health sheet), with a CHU (university hospital) in the town. The figures are the strongest of this batch: 463 private GPs, 78 pharmacies, 4 emergency departments (INSEE, BPE facilities database) and a DREES accessibility figure of 6.53, almost double the national average. For a retiree expecting regular care, that is the central argument.",
+      },
+      {
+        heading: "Strasbourg, Haguenau or Colmar: what is the trade-off?",
+        body: "Haguenau, further north, rents a two-bed at €700 and sells at €2,900/m², with GP access of 5.33 and 25.7% seniors. Colmar is at €750 for a two-bed and €3,000/m², access 4.39. Strasbourg is the dearest of the three by about €800 a square metre, but also the best supplied with doctors: you pay for the hospital and the tram.",
+      },
+      {
+        heading: "What is daily life like in Strasbourg?",
+        body: "Transport scores 9.0/10 on our city sheet, the highest in this batch: the tram serves most of the urban area, so you can do without a car. The Grande-Île has been a UNESCO site since 1988, with La Petite France, and the Neustadt, the district built from 1870, since 2017. Only 19.1% of residents are 60 or over (median: 26.2%).",
+      },
+      {
+        heading: "A winter at 2.5 °C and a lower standard of living",
+        body: "Strasbourg averages 2.5 °C in January and 20.6 °C in July, with about 1,750 hours of sun a year: a semi-continental climate, cold winters, hot summers. Median standard of living is €20,260 a year with 26% poverty (INSEE, Filosofi 2021), and safety is 5.3/10 on our city sheet: a big city of contrasts, not a haven.",
+      },
+      {
+        heading: "Who Strasbourg suits, and who it does not",
+        body: "Strasbourg suits the retiree who puts health first, wants to live by the tram and culture, and has a budget of about €1,490 or more. It suits less someone who handles cold badly, aims for rent under €700 or prefers a small town: Haguenau or Colmar keep Alsace for less.",
+      },
+    ],
+    relatedCities: ["strasbourg", "haguenau", "colmar", "schiltigheim"],
+    tags: ["retiring in Strasbourg 2026", "Bas-Rhin expat retirement", "Strasbourg retirement budget", "Alsace retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-rouen-2026",
+    title: "Retiring in Rouen (2026): +5.6% Residents, Health Access 8.0/10, but a Score of 5.4",
+    metaTitle: "Retiring in Rouen 2026: Budget, Health, Safety",
+    metaDesc: "Retiring in Rouen: two-bed at €720, €2,600/m², health access 8.0/10, +5.6% residents, safety 4.7/10. Budget and limits before you choose.",
+    category: "moving",
+    emoji: "⛪",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Rouen asks €720 for a two-bedroom and €2,600 a square metre, about €156,000 for 60 m² (our rent estimate), and offers health access of 8.0/10 with a CHU (university hospital) in the town. Its retirement score stays modest at 5.4/10, in a 35-way tie, behind 411 other towns. The brake is safety, at 4.7/10 on our city sheet. The city has gained 6,214 residents since 2016 (+5.6%, to 116,331, INSEE census 2022).",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Rouen?",
+        body: "A single person renting a two-bedroom at €720 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,410 a month. A couple renting a three-bedroom at €950: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,980 a month. Against an average pension of about €1,500 net (DREES), a single person keeps roughly €90 of margin.",
+      },
+      {
+        heading: "How do you get medical care in Rouen?",
+        body: "Our engine gives Rouen 8.0/10, an \"easy\" level (our health sheet), with a CHU in the town. DREES measures 5.41 accessible GP consultations per resident per year (3.72 nationally); Rouen has 159 private GPs, 35 pharmacies and 2 emergency departments (INSEE, BPE facilities database). Louviers, 26 km away, reaches only 3.38.",
+      },
+      {
+        heading: "Rouen, Le Havre or Dieppe: which Norman town?",
+        body: "Le Havre rents a two-bed at €650 and sells at €2,000/m², with 26.6% seniors and GP access of 3.71. Dieppe, on the Channel, is at €610 for a two-bed and €1,800/m², with 37.6% seniors and a retirement score of 7.6, but access of 3.54. Rouen is dearer, and the only one of the three with a university hospital and the cultural life of a big city.",
+      },
+      {
+        heading: "What is the setting like in Rouen?",
+        body: "The historic centre brings together the cathedral, the Gros-Horloge, whose clock dates from 1389, with its Renaissance arch, and the Musée des Beaux-Arts, whose permanent collections are free according to the city's own guide. The Seine runs along the centre. 18.6% of residents are 60 or over (median: 26.2%), median standard of living is €21,330 a year with 23% poverty (INSEE, Filosofi 2021), and transport scores 6.7/10 on our city sheet.",
+      },
+      {
+        heading: "Why does the retirement score stay at 5.4?",
+        body: "Because safety (4.7/10 on our city sheet) and the profile of a dense city weigh more than care in our index, which ranks towns and is not a street-by-street diagnosis. Many retirees who like Rouen pick a quiet district or a commune in the urban area; before you buy, spend a week there, at several times of day.",
+      },
+      {
+        heading: "Who Rouen suits, and who it does not",
+        body: "Rouen suits the retiree who wants a CHU in town, heritage on foot and a budget around €1,410 without leaving Normandy. It suits less someone seeking the calm of a small town or a high safety score: Louviers or Dieppe are quieter, with the university hospital at a distance.",
+      },
+    ],
+    relatedCities: ["rouen", "le-havre", "dieppe", "louviers"],
+    tags: ["retiring in Rouen 2026", "Seine-Maritime expat retirement", "Rouen retirement budget", "Normandy retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-nancy-2026",
+    title: "Retiring in Nancy (2026): €710 Two-Bed, CHU in Town, a City That Has Stopped Growing",
+    metaTitle: "Retiring in Nancy 2026: Budget, Health, Heritage",
+    metaDesc: "Retiring in Nancy: two-bed at €710, €2,400/m², health access 8.0/10, CHU in town, stable population (-0.2%). Budget and comparison with Metz.",
+    category: "moving",
+    emoji: "🏛️",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Nancy rents its two-bedroom for €710 and sells a square metre at €2,400, about €144,000 for 60 m² (our rent estimate), with health access of 8.0/10 and a CHU (university hospital) in the town. Its retirement score is 5.7/10, in a 23-way tie, behind 351 other towns. Its population is flat: 104,387 residents, 205 fewer than in 2016 (−0.2%, INSEE census 2022), against Metz, which has grown by 3.2%.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Nancy?",
+        body: "A single person renting a two-bedroom at €710 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,400 a month. A couple renting a three-bedroom at €950: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,980 a month. A single person's margin on an average pension of about €1,500 net (DREES) is around €100.",
+      },
+      {
+        heading: "How do you get medical care in Nancy?",
+        body: "Our engine gives Nancy 8.0/10, an \"easy\" level (our health sheet), with a CHU in the town: that is what Metz lacks, its nearest site being in Nancy. DREES measures 5.10 accessible GP consultations per resident per year (3.72 nationally); the town has 115 private GPs, 42 pharmacies and 2 emergency departments (INSEE, BPE facilities database). The Nancy CHRU, at Brabois, is known for robotic surgery.",
+      },
+      {
+        heading: "Nancy against Metz and Épinal: how to choose?",
+        body: "Metz is cheaper on rent (€680 for a two-bed against €710) and per square metre (€2,300 against €2,400), has better GP access (5.26) and is gaining residents, but has no CHU in the town. Épinal, about sixty kilometres away, is much cheaper (€490 for a two-bed, €1,500/m²) with access of 4.96. Nancy is the best of the three when the hospital matters more than the price.",
+      },
+      {
+        heading: "What is the setting like in Nancy?",
+        body: "Place Stanislas, Place de la Carrière and Place d'Alliance have been UNESCO-listed since 1983; the square was laid out by Emmanuel Héré between 1752 and 1756. Nancy is also the capital of Art Nouveau through the École de Nancy (Gallé, Majorelle, Daum), whose museum occupies a villa from 1909. 19.2% of residents are 60 or over (median: 26.2%), median standard of living is €22,360 a year with 22% poverty (INSEE, Filosofi 2021), safety 5.1/10 and transport 7.0/10 on our city sheet.",
+      },
+      {
+        heading: "A Lorraine winter to prepare for",
+        body: "The climate is semi-continental: cold winters with frequent frosts, rather hot summers. We quote no climate normals for Nancy, because the nearest weather station in our database is too far away for the figures to be reliable. A stay in January before any purchase remains the best check.",
+      },
+      {
+        heading: "Who Nancy suits, and who it does not",
+        body: "Nancy suits the retiree drawn to heritage and culture, who wants a CHU in town and a budget around €1,400. It suits less someone seeking a growing city, sun or rent under €600: Metz or Épinal are then worth comparing.",
+      },
+    ],
+    relatedCities: ["nancy", "metz", "epinal", "laxou"],
+    tags: ["retiring in Nancy 2026", "Meurthe-et-Moselle expat retirement", "Nancy retirement budget", "Lorraine retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-cherbourg-2026",
+    title: "Retiring in Cherbourg-en-Cotentin (2026): €620 Two-Bed, but the CHU Is in Caen, 104 km Away",
+    metaTitle: "Retiring in Cherbourg 2026: Budget, Health, Climate",
+    metaDesc: "Retiring in Cherbourg: two-bed at €620, €1,900/m², 28.3% aged 60+, health access 5.9/10, CHU in Caen 104 km away. Budget and limits.",
+    category: "moving",
+    emoji: "🚢",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Cherbourg-en-Cotentin rents its two-bedroom for €620 and sells a square metre at €1,900, about €114,000 for 60 m² (our rent estimate), the lightest budget of this batch of Norman towns: about €1,310 a month for a single person. The catch is medical: health access of 5.9/10, a \"decent\" level, and the nearest CHU (university hospital) is in Caen, 104 km as the crow flies. Retirement score: 5.7/10, in a 23-way tie, behind 351 other towns. The population is shrinking: 78,028 residents, 2,048 fewer than in 2016 (−2.6%, INSEE census 2022).",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Cherbourg?",
+        body: "A single person renting a two-bedroom at €620 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,310 a month. A couple renting a three-bedroom at €820: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,850 a month. A single person's margin on an average pension of about €1,500 net (DREES) is about €190, the best of the batch.",
+      },
+      {
+        heading: "How do you get medical care in Cherbourg?",
+        body: "Our engine gives Cherbourg 5.9/10, a \"decent\" level (our health sheet). DREES GP accessibility is 3.44 consultations per resident per year, below the national 3.72, with 64 private GPs, 24 pharmacies and 1 emergency department in the town (INSEE, BPE facilities database). There is no CHU in the town: the nearest is in Caen, 104 km as the crow flies, a much longer drive by road. For heavy follow-up, that is the real limit.",
+      },
+      {
+        heading: "Cherbourg, Saint-Lô or Granville: what is the trade-off in the Manche?",
+        body: "Saint-Lô, 69 km away, rents a two-bed at €570 and sells at €1,600/m², with GP access of 4.20 and 29.5% seniors. Granville, 89 km away, is at €610 for a two-bed and €2,100/m², with 46.7% seniors, the town most oriented to retirement of the three. Cherbourg is the largest (78,028 residents) and the most industrial, but its access figure of 3.44 is the lowest of the three.",
+      },
+      {
+        heading: "What is daily life like in Cherbourg?",
+        body: "28.3% of residents are 60 or over, above the 26.2% median: you will meet many retirees. The Cité de la Mer occupies the former transatlantic liner terminal, opened in 1933, and houses the submarine Le Redoutable. Median standard of living is €22,650 a year with only 14% poverty (INSEE, Filosofi 2021), safety 5.3/10 and transport 4.9/10 on our city sheet: a car remains useful.",
+      },
+      {
+        heading: "What is the climate like in Cherbourg?",
+        body: "The oceanic climate of the tip of the Cotentin: mild winters, cool summers, frequent wind and rain. We quote no figures for Cherbourg: the weather station in our database is too far away for the values to be reliable. A winter stay remains the best test.",
+      },
+      {
+        heading: "Who Cherbourg suits, and who it does not",
+        body: "Cherbourg suits the healthy retiree who wants the sea, a budget around €1,310 and the company of other retirees, and who accepts travelling to Caen for specialist care. It suits less someone expecting regular hospital follow-up, who no longer drives or who wants sun: Caen is then the better choice.",
+      },
+    ],
+    relatedCities: ["cherbourg", "saint-lo", "granville", "caen"],
+    tags: ["retiring in Cherbourg 2026", "Manche expat retirement", "Cherbourg retirement budget", "Cotentin retirement France", "expat retirement"],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",

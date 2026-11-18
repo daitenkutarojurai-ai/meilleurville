@@ -7547,6 +7547,36 @@
       "emoji": "⚓"
     },
     {
+      "slug": "retiring-in-caen-2026",
+      "title": "Retiring in Caen (2026): University Hospital in Town, €700 Two-Bed, the Sea 15 km Away",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "retiring-in-rennes-2026",
+      "title": "Retiring in Rennes (2026): 6.3/10 and a CHU, but €1,510 a Month for One Person",
+      "emoji": "🥞"
+    },
+    {
+      "slug": "retiring-in-strasbourg-2026",
+      "title": "Retiring in Strasbourg (2026): Best GP Access of the Batch, a €1,490 Budget",
+      "emoji": "🥨"
+    },
+    {
+      "slug": "retiring-in-rouen-2026",
+      "title": "Retiring in Rouen (2026): +5.6% Residents, Health Access 8.0/10, but a Score of 5.4",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "retiring-in-nancy-2026",
+      "title": "Retiring in Nancy (2026): €710 Two-Bed, CHU in Town, a City That Has Stopped Growing",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "retiring-in-cherbourg-2026",
+      "title": "Retiring in Cherbourg-en-Cotentin (2026): €620 Two-Bed, but the CHU Is in Caen, 104 km Away",
+      "emoji": "🚢"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -11314,14 +11344,14 @@
       "count": 77
     },
     {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
+      "slug": "expat-retirement",
+      "label": "expat retirement",
       "count": 76
     },
     {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 70
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 76
     },
     {
       "slug": "buying-property-france",
