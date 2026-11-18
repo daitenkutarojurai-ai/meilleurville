@@ -8342,6 +8342,36 @@
       "emoji": "🚢"
     },
     {
+      "slug": "retraite-a-orleans-2026",
+      "title": "Retraite à Orléans en 2026 : un CHU sur place, un T2 à 700 € et un budget de 1 390 €",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "retraite-a-dunkerque-2026",
+      "title": "Retraite à Dunkerque en 2026 : le T2 le moins cher du lot à 560 €, mais le CHU est à 66 km",
+      "emoji": "🌬️"
+    },
+    {
+      "slug": "retraite-a-nantes-2026",
+      "title": "Retraite à Nantes en 2026 : un CHU et un tram, mais 1 540 € par mois pour une personne seule",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "retraite-a-lyon-2026",
+      "title": "Retraite à Lyon en 2026 : 709 généralistes et 5 urgences, mais 1 690 € par mois pour une personne seule",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "retraite-a-toulouse-2026",
+      "title": "Retraite à Toulouse en 2026 : 2 075 heures de soleil et le métro, mais un T2 à 850 €",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "retraite-a-lille-2026",
+      "title": "Retraite à Lille en 2026 : le meilleur accès aux généralistes du lot, mais seulement 14,6 % de 60 ans et plus",
+      "emoji": "🧇"
+    },
+    {
       "slug": "demenager-a-paris-2026",
       "title": "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
       "emoji": "📦"
@@ -13314,6 +13344,11 @@
       "count": 3
     },
     {
+      "slug": "retraite-hauts-de-france",
+      "label": "retraite Hauts-de-France",
+      "count": 3
+    },
+    {
       "slug": "retraite-ille-et-vilaine",
       "label": "retraite Ille-et-Vilaine",
       "count": 3
@@ -13324,8 +13359,18 @@
       "count": 3
     },
     {
+      "slug": "retraite-occitanie",
+      "label": "retraite Occitanie",
+      "count": 3
+    },
+    {
       "slug": "retraite-pays-basque",
       "label": "retraite Pays basque",
+      "count": 3
+    },
+    {
+      "slug": "retraite-pays-de-la-loire",
+      "label": "retraite Pays de la Loire",
       "count": 3
     },
     {

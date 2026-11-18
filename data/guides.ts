@@ -46563,6 +46563,282 @@ export const GUIDES: Guide[] = [
     tags: ["retraite Cherbourg 2026","prendre sa retraite à Cherbourg","retraite Manche","budget retraité Cherbourg","retraite Cotentin"],
   },
   {
+    slug: "retraite-a-orleans-2026",
+    title: "Retraite à Orléans en 2026 : un CHU sur place, un T2 à 700 € et un budget de 1 390 €",
+    metaTitle: "Retraite à Orléans 2026 : budget, santé, tram",
+    metaDesc: "Retraite à Orléans en 2026 : T2 à 700 €, m² à 2 400 €, CHU dans la commune, 21,1 % de 60 ans et plus, tram A jusqu'à l'hôpital. Budget et limites.",
+    category: "lifestyle",
+    emoji: "⚜️",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Orléans demande 700 € pour un deux-pièces et 2 400 € le mètre carré, soit environ 144 000 € pour 60 m² (source : notre estimation des loyers) : une personne seule y vit avec environ 1 390 € par mois, sous une pension moyenne de 1 500 € nets. Le score retraite est de 5,5/10, un palier de 20 villes à égalité, derrière 391 autres : la note est moyenne, mais l'hôpital universitaire est dans la commune. La ville compte 116 344 habitants, +1,4 % depuis 2016 (source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Orléans ?",
+        body: "Personne seule locataire d'un deux-pièces à 700 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (ces cinq lignes sont des hypothèses de notre part), soit environ 1 390 € par mois. Couple dans un trois-pièces à 930 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 960 € par mois. Face à une pension moyenne d'environ 1 500 € nets (source : DREES), une personne seule garde environ 110 € de marge.",
+      },
+      {
+        heading: "Orléans a un CHU : suffit-il pour se soigner facilement ?",
+        body: "Le site de CHU est dans la commune et notre moteur donne 6,7/10 d'accès aux soins (10 = excellent), niveau « facile » (source : notre fiche santé). Mais la densité est moyenne : la DREES mesure 3,04 consultations de généraliste accessibles par an et par habitant, sous la moyenne nationale de 3,72, pour 84 généralistes libéraux, 25 pharmacies et 1 service d'urgences (Insee, BPE). Autrement dit, l'hôpital est là, mais trouver un médecin traitant peut demander de la patience.",
+      },
+      {
+        heading: "Orléans, Olivet ou Chartres : où poser ses valises dans le Val de Loire ?",
+        body: "Olivet, voisine immédiate de 22 988 habitants, loue son T2 750 € et vend 3 000 €/m², plus cher qu'Orléans, avec un score retraite de 6,4 et 27,8 % de 60 ans et plus. Chartres, à moins de 100 km, loue 680 € et vend 2 500 €/m², avec le même score de 6,4 mais un accès aux généralistes bien plus faible (2,52 contre 3,04). Blois offre 610 € le T2 et 2 100 €/m² pour 3,35 d'accès. Orléans est la seule des quatre à réunir CHU et ville complète.",
+      },
+      {
+        heading: "Peut-on se passer de voiture à Orléans ?",
+        body: "En grande partie : les transports sont à 6,4/10 sur notre fiche ville. La ligne A du tramway va du nord de l'agglomération jusqu'à l'Hôpital de la Source, terminus qui dessert le CHU, et la ligne B traverse d'est en ouest avec une correspondance à la station De Gaulle (source : réseau TAO). Pour un retraité qui doit se rendre à des consultations, c'est un vrai atout, à condition de vérifier les travaux en cours sur le site du réseau.",
+      },
+      {
+        heading: "Quelle vie quotidienne à Orléans quand on a plus de 60 ans ?",
+        body: "Seuls 21,1 % des habitants ont 60 ans ou plus, contre une médiane de 26,2 % dans notre base : la ville est active, plutôt jeune, sans entre-soi de retraités. Elle s'étire sur la Loire, avec la cathédrale Sainte-Croix pour repère du centre. Le niveau de vie médian est de 21 370 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021) ; la sécurité est à 5,1/10 et la culture à 6,6/10 sur notre fiche ville. Le climat est tempéré, mais la station météo la plus proche est à 100 km : nous ne citons pas de normales.",
+      },
+      {
+        heading: "Pour qui Orléans fonctionne, et pour qui non",
+        body: "Orléans convient au retraité qui veut un hôpital universitaire, un tram et un loyer de ville moyenne, avec Paris à portée de train et environ 1 390 € de budget mensuel. Elle convient moins à celui qui cherche le soleil, la mer ou un cadre de nature : le score nature n'est que de 4,8/10. Dans ce cas, mieux vaut regarder du côté de Tours ou de Vannes.",
+      },
+    ],
+    relatedCities: ["orleans","olivet","chartres","blois"],
+    relatedGuides: [
+      "vivre-a-orleans-2026",
+      "acheter-a-orleans-quel-quartier-budget-2026",
+      "retraite-a-tours-2026",
+      "vivre-sans-voiture-orleans-guide-2026",
+    ],
+    tags: ["retraite Orléans 2026","prendre sa retraite à Orléans","retraite Loiret","budget retraité Orléans","retraite Centre-Val de Loire"],
+  },
+  {
+    slug: "retraite-a-dunkerque-2026",
+    title: "Retraite à Dunkerque en 2026 : le T2 le moins cher du lot à 560 €, mais le CHU est à 66 km",
+    metaTitle: "Retraite à Dunkerque 2026 : budget, santé, mer",
+    metaDesc: "Retraite à Dunkerque en 2026 : T2 à 560 €, m² à 1 800 €, 28,7 % de 60 ans et plus, accès aux soins 6,1/10, CHU de Lille à 66 km. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🌬️",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Dunkerque loue son deux-pièces 560 € et vend son mètre carré 1 800 €, soit environ 108 000 € pour 60 m² (source : notre estimation des loyers) : une personne seule vit avec environ 1 250 € par mois, ce qui lui laisse environ 250 € de marge sur une pension moyenne de 1 500 € nets. Le revers : le CHU le plus proche est à Lille, à 66 km, et la population baisse (87 013 habitants, −1,2 % depuis 2016, source : Insee, recensement 2022). Score retraite : 5,4/10, un palier de 35 villes à égalité, derrière 411 autres.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Dunkerque ?",
+        body: "Personne seule locataire d'un deux-pièces à 560 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 250 € par mois. Couple dans un trois-pièces à 750 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 1 780 € par mois. Avec une pension moyenne d'environ 1 500 € nets (source : DREES), c'est la marge la plus confortable d'une grande ville du Nord.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Dunkerque ?",
+        body: "6,1/10 dans notre moteur, niveau « correct » (source : notre fiche santé), sans site de CHU dans la commune : le plus proche est à Lille, à environ 66 km. L'accès aux généralistes est proche de la moyenne : 3,55 consultations accessibles par an et par habitant selon la DREES, pour 3,72 au niveau national, avec 73 généralistes libéraux, 37 pharmacies et 1 service d'urgences (Insee, BPE). Pour les actes lourds ou les spécialistes rares, il faut compter le trajet vers Lille.",
+      },
+      {
+        heading: "Dunkerque, Calais ou Lille : quelle ville du Nord choisir ?",
+        body: "Calais, à une quarantaine de kilomètres, est encore moins chère (480 € le T2, 1 350 €/m²) mais son score retraite tombe à 4,8 et son accès aux généralistes est de 3,84. Lille loue le T2 800 € et vend 3 500 €/m², mais offre un CHU sur place et un APL de 6,21. Saint-Omer, petite ville de 14 358 habitants, loue 530 € et ne compte que 12 généralistes. Dunkerque se place au milieu : un vrai tissu urbain sans le prix de Lille.",
+      },
+      {
+        heading: "Quelle vie au bord de la mer du Nord ?",
+        body: "28,7 % des habitants ont 60 ans ou plus, au-dessus de la médiane de 26,2 % : la ville vieillit, comme beaucoup de villes portuaires. Le quartier balnéaire de Malo-les-Bains offre une plage et une digue de mer, et la plage de Dunkerque fut en 1940 le point d'embarquement principal de l'opération Dynamo. Le niveau de vie médian est de 20 240 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021) ; la sécurité est à 4,5/10 et les transports à 6,1/10 sur notre fiche ville.",
+      },
+      {
+        heading: "Quel climat à Dunkerque ?",
+        body: "Climat océanique du Nord, venté, avec des étés frais et des hivers doux mais gris. Nous ne citons pas de normales chiffrées : la station météo la plus proche est à Lille-Lesquin, à 73 km, ce qui rend l'inférence trop grossière sur un littoral. Si le soleil compte, ce n'est pas la ville du retraité en quête de chaleur.",
+      },
+      {
+        heading: "Pour qui Dunkerque fonctionne, et pour qui non",
+        body: "Dunkerque convient au retraité au budget serré qui veut la mer, une vraie ville et un loyer sous 600 €, avec environ 250 € de marge sur une pension moyenne. Elle convient moins à celui qui a des soins lourds réguliers (Lille est à 66 km), ou qui cherche le soleil : l'axe nature est à 5,0/10.",
+      },
+    ],
+    relatedCities: ["dunkerque","calais","lille","saint-omer"],
+    relatedGuides: [
+      "famille-a-dunkerque-2026",
+      "vivre-sans-voiture-dunkerque-guide-2026",
+      "retraite-au-havre-2026",
+      "retraite-a-cherbourg-2026",
+    ],
+    tags: ["retraite Dunkerque 2026","prendre sa retraite à Dunkerque","retraite Nord","budget retraité Dunkerque","retraite Hauts-de-France"],
+  },
+  {
+    slug: "retraite-a-nantes-2026",
+    title: "Retraite à Nantes en 2026 : un CHU et un tram, mais 1 540 € par mois pour une personne seule",
+    metaTitle: "Retraite à Nantes 2026 : budget, santé, transports",
+    metaDesc: "Retraite à Nantes en 2026 : T2 à 850 €, m² à 4 200 €, 384 généralistes, accès aux soins 7,6/10, 18,5 % de 60 ans et plus. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🐘",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Nantes loue son deux-pièces 850 € et vend son mètre carré 4 200 €, soit environ 252 000 € pour 60 m² (source : notre estimation des loyers) : le budget d'une personne seule monte à environ 1 540 € par mois, 40 € au-dessus d'une pension moyenne de 1 500 € nets. Le score retraite est de 5,0/10, un palier de 18 villes à égalité, derrière 481 autres : Nantes est une métropole de 325 070 habitants, +6,0 % depuis 2016 (source : Insee, recensement 2022), conçue pour les actifs plus que pour les retraités. Ce qu'elle offre : un hôpital universitaire et des transports notés 8,1/10.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Nantes ?",
+        body: "Personne seule locataire d'un deux-pièces à 850 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 540 € par mois. Couple dans un trois-pièces à 1 150 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 2 180 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) ne couvre pas le loyer : à Nantes, mieux vaut être propriétaire ou avoir un complément.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Nantes ?",
+        body: "7,6/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune. La DREES mesure 4,69 consultations de généraliste accessibles par an et par habitant, contre 3,72 en moyenne nationale ; la commune compte 384 généralistes libéraux, 81 pharmacies et 2 services d'urgences (Insee, BPE). Pour un retraité, c'est l'argument qui justifie le loyer.",
+      },
+      {
+        heading: "Nantes, Saint-Nazaire ou Angers : quelle ville de Loire pour la retraite ?",
+        body: "Saint-Nazaire, à une soixantaine de kilomètres, loue son T2 640 € et vend 2 200 €/m², avec un score retraite de 6,3 et 30,5 % de seniors, mais l'accès aux généralistes tombe à 3,70. Angers loue 750 € et vend 3 000 €/m², avec un APL de 5,96 (248 généralistes) : meilleur que Nantes sur l'accès aux médecins, moins cher, mais sans la même taille. Rezé, collée à Nantes, loue 680 € le T2 et obtient un APL de 5,51. Nantes est la plus chère des trois grandes, et la seule à offrir tram, CHU et vie culturelle à ce niveau.",
+      },
+      {
+        heading: "Peut-on vivre sans voiture à Nantes ?",
+        body: "Oui : les transports sont à 8,1/10 sur notre fiche ville, et la culture à 7,8/10. Le tramway et les lignes de bus à haut niveau de service quadrillent la métropole, ce qui permet de renoncer à la voiture et d'économiser un budget que les loyers nantais ont déjà consommé.",
+      },
+      {
+        heading: "Une ville jeune : ce que ça change",
+        body: "Seuls 18,5 % des habitants ont 60 ans ou plus, contre une médiane de 26,2 % : Nantes ne propose pas l'entre-soi des stations balnéaires, mais des services pensés pour tous les âges. Le niveau de vie médian est de 24 170 € par an avec 17 % de pauvreté (source : Insee, Filosofi 2021) ; la sécurité est à 4,6/10 sur notre fiche ville. Le climat est océanique : en janvier de 3,4 °C à 9,3 °C, en juillet de 14,3 °C à 25,1 °C, environ 1 870 heures de soleil par an (normales de la station la plus proche, à 9 km).",
+      },
+      {
+        heading: "Pour qui Nantes fonctionne, et pour qui non",
+        body: "Nantes convient au retraité propriétaire, ou à celui dont les revenus dépassent la pension moyenne, qui veut hôpital universitaire, transports et culture sans voiture. Elle convient moins à celui qui compte sur 1 500 € par mois et un loyer : Saint-Nazaire ou Vannes offrent un budget plus léger et le littoral.",
+      },
+    ],
+    relatedCities: ["nantes","saint-nazaire","angers","reze"],
+    relatedGuides: [
+      "vivre-a-nantes-2026",
+      "acheter-a-nantes-quel-quartier-budget-2026",
+      "retraite-a-angers-2026",
+      "retraite-a-saint-nazaire-2026",
+    ],
+    tags: ["retraite Nantes 2026","prendre sa retraite à Nantes","retraite Loire-Atlantique","budget retraité Nantes","retraite Pays de la Loire"],
+  },
+  {
+    slug: "retraite-a-lyon-2026",
+    title: "Retraite à Lyon en 2026 : 709 généralistes et 5 urgences, mais 1 690 € par mois pour une personne seule",
+    metaTitle: "Retraite à Lyon 2026 : budget, santé, métro",
+    metaDesc: "Retraite à Lyon en 2026 : T2 à 1 000 €, m² à 5 000 €, 709 généralistes, accès aux soins 7,7/10, 19,0 % de 60 ans et plus. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🦁",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Lyon loue son deux-pièces 1 000 € et vend son mètre carré 5 000 €, soit environ 300 000 € pour 60 m² (source : notre estimation des loyers) : une personne seule y vit avec environ 1 690 € par mois, soit 190 € de plus qu'une pension moyenne de 1 500 € nets. C'est la ville la plus chère de ce lot et la plus mal classée : score retraite de 4,7/10, un palier de 6 villes à égalité, derrière 527 autres. En contrepartie, 709 généralistes libéraux, 5 services d'urgences et un CHU sur place, pour 520 774 habitants (+1,0 % depuis 2016, source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Lyon ?",
+        body: "Personne seule locataire d'un deux-pièces à 1 000 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 690 € par mois. Couple dans un trois-pièces à 1 380 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 2 410 € par mois. Face à une pension moyenne d'environ 1 500 € nets (source : DREES), il manque environ 190 € par mois à une personne seule locataire : Lyon se fait avec un patrimoine, pas avec la seule pension.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Lyon ?",
+        body: "7,7/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune. Les volumes sont les plus élevés du lot : 709 généralistes libéraux, 155 pharmacies et 5 services d'urgences (Insee, BPE), pour un APL de 4,60 selon la DREES, contre 3,72 en moyenne nationale. Ce n'est pas le meilleur ratio par habitant (Lille fait 6,21), mais c'est la plus grande offre de soins disponible sans quitter la commune.",
+      },
+      {
+        heading: "Lyon, Villefranche ou Vienne : où retraiter autour du Rhône ?",
+        body: "Vienne, au sud, loue son T2 700 € et vend 2 200 €/m² : 300 € de loyer en moins, avec un score retraite de 6,9, mais seulement 30 généralistes. Villefranche-sur-Saône, au nord, loue 800 € et vend 2 500 €/m², score retraite 6,9 aussi, mais 26 généralistes pour 36 224 habitants. Caluire-et-Cuire, collée à Lyon, est plus chère encore (1 080 € le T2, 5 200 €/m²). Pour un retraité qui peut renoncer à l'hôpital sur place, Vienne et Villefranche allègent le loyer d'environ 100 à 300 € par mois.",
+      },
+      {
+        heading: "Peut-on vivre sans voiture à Lyon ?",
+        body: "C'est la force de la ville : les transports sont à 9,0/10 sur notre fiche ville, parmi les meilleurs du pays, avec quatre lignes de métro (A, B, C, D) et un réseau de tramways. Un retraité peut renoncer à la voiture et récupérer une partie du surcoût du loyer. La culture est à 9,0/10 : musées, théâtres, patrimoine, dont le Vieux-Lyon, classé à l'UNESCO en 1998.",
+      },
+      {
+        heading: "Une ville de 19 % de seniors",
+        body: "19,0 % des habitants ont 60 ans ou plus, contre une médiane de 26,2 % : Lyon est une ville d'étudiants et d'actifs. Le niveau de vie médian est de 25 430 € par an avec 16 % de pauvreté (source : Insee, Filosofi 2021), parmi les plus hauts du lot ; la sécurité est à 5,1/10 sur notre fiche ville, le score nature à 5,0/10. Le climat est semi-continental : en janvier de 1,1 °C à 7,1 °C, en juillet de 17,0 °C à 28,2 °C, environ 2 050 heures de soleil par an (normales de la station de Bron, à 8 km).",
+      },
+      {
+        heading: "Pour qui Lyon fonctionne, et pour qui non",
+        body: "Lyon convient au retraité propriétaire ou au couple à deux pensions, qui veut les meilleurs soins, le meilleur réseau de transports et une offre culturelle complète. Elle convient moins à celui qui n'a que 1 500 € par mois : Vienne ou Villefranche offrent un budget nettement plus léger, avec Lyon accessible pour les actes lourds.",
+      },
+    ],
+    relatedCities: ["lyon","vienne","villefranche-sur-saone","caluire-et-cuire"],
+    relatedGuides: [
+      "vivre-a-lyon-2026",
+      "acheter-a-lyon-quel-quartier-budget-2026",
+      "vivre-sans-voiture-lyon-guide-2026",
+      "retraite-a-grenoble-2026",
+    ],
+    tags: ["retraite Lyon 2026","prendre sa retraite à Lyon","retraite Rhône","budget retraité Lyon","retraite Auvergne-Rhône-Alpes"],
+  },
+  {
+    slug: "retraite-a-toulouse-2026",
+    title: "Retraite à Toulouse en 2026 : 2 075 heures de soleil et le métro, mais un T2 à 850 €",
+    metaTitle: "Retraite à Toulouse 2026 : budget, santé, soleil",
+    metaDesc: "Retraite à Toulouse en 2026 : T2 à 850 €, m² à 4 000 €, accès aux soins 7,6/10, 559 généralistes, +7,6 % d'habitants, 2 075 h de soleil. Budget.",
+    category: "lifestyle",
+    emoji: "🧱",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Toulouse loue son deux-pièces 850 € et vend son mètre carré 4 000 €, soit environ 240 000 € pour 60 m² (source : notre estimation des loyers) : le budget d'une personne seule monte à environ 1 540 € par mois, 40 € au-dessus d'une pension moyenne de 1 500 € nets. Le score retraite est de 5,0/10, un palier de 18 villes à égalité, derrière 481 autres. La ville grossit vite : 511 684 habitants, +36 246 depuis 2016, soit +7,6 % (source : Insee, recensement 2022), et elle offre à peu près 2 075 heures de soleil par an.",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Toulouse ?",
+        body: "Personne seule locataire d'un deux-pièces à 850 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 540 € par mois. Couple dans un trois-pièces à 1 150 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 2 180 € par mois. La pension moyenne d'environ 1 500 € nets (source : DREES) laisse une personne seule locataire à −40 € : Toulouse demande un petit complément ou un logement acheté.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Toulouse ?",
+        body: "7,6/10 dans notre moteur, niveau « facile » (source : notre fiche santé), avec un site de CHU dans la commune. La commune compte 559 généralistes libéraux, 152 pharmacies et 5 services d'urgences (Insee, BPE) ; l'APL DREES est de 4,41, au-dessus des 3,72 nationaux. Comme à Lyon, c'est une grande offre de soins, sans être le meilleur ratio par habitant.",
+      },
+      {
+        heading: "Toulouse, Albi ou Montauban : où se poser en Occitanie ?",
+        body: "Albi, à 75 km environ, loue son T2 620 € et vend 2 200 €/m², avec le meilleur score retraite de ce comparatif (7,5/10), un APL de 4,62 et 33,6 % de seniors : c'est une ville pensée pour les retraités. Montauban loue 650 € et vend 2 200 €/m², avec un score de 6,1 et 28,5 % de seniors, mais un APL de 3,74. Colomiers et Blagnac, voisines de Toulouse, restent à 750 € et 800 € le T2. Pour un retraité qui veut Toulouse sans son loyer, Albi tient la comparaison.",
+      },
+      {
+        heading: "Peut-on vivre sans voiture à Toulouse ?",
+        body: "En grande partie : les transports sont à 7,5/10 sur notre fiche ville, avec deux lignes de métro (A et B) et des tramways ; la culture est à 8,0/10, avec le Capitole pour repère du centre et le canal du Midi, inscrit à l'UNESCO en 1996, comme promenade. Le réseau est moins dense que celui de Lyon, mais il suffit pour un retraité qui vit dans l'hypercentre.",
+      },
+      {
+        heading: "Quelle vie à Toulouse quand on a plus de 60 ans ?",
+        body: "Seuls 17,1 % des habitants ont 60 ans ou plus, contre une médiane de 26,2 % : la ville est portée par les étudiants et l'aéronautique. Le niveau de vie médian est de 22 140 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021) ; la sécurité est à 4,3/10 sur notre fiche ville, et c'est le point faible de la ville. Le climat est ensoleillé : en janvier de 2,9 °C à 9,7 °C, en juillet de 17,0 °C à 28,2 °C (normales de la station de Blagnac, à 6 km).",
+      },
+      {
+        heading: "Pour qui Toulouse fonctionne, et pour qui non",
+        body: "Toulouse convient au retraité propriétaire qui veut soleil, hôpital universitaire et vie culturelle, avec un budget d'environ 1 540 € par mois s'il loue. Elle convient moins à celui qui compte sur 1 500 € et un loyer, ou qui est sensible à la sécurité : Albi ou Montauban offrent un budget plus léger avec Toulouse à portée de train pour les actes lourds.",
+      },
+    ],
+    relatedCities: ["toulouse","albi","montauban","colomiers"],
+    relatedGuides: [
+      "vivre-a-toulouse-2026",
+      "acheter-a-toulouse-quel-quartier-budget-2026",
+      "vivre-sans-voiture-toulouse-guide-2026",
+      "retraite-a-albi-2026",
+    ],
+    tags: ["retraite Toulouse 2026","prendre sa retraite à Toulouse","retraite Haute-Garonne","budget retraité Toulouse","retraite Occitanie"],
+  },
+  {
+    slug: "retraite-a-lille-2026",
+    title: "Retraite à Lille en 2026 : le meilleur accès aux généralistes du lot, mais seulement 14,6 % de 60 ans et plus",
+    metaTitle: "Retraite à Lille 2026 : budget, santé, métro",
+    metaDesc: "Retraite à Lille en 2026 : T2 à 800 €, m² à 3 500 €, accès aux soins 8,1/10, 309 généralistes, 14,6 % de 60 ans et plus. Budget et limites.",
+    category: "lifestyle",
+    emoji: "🧇",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Lille offre le meilleur accès aux généralistes de ce lot (6,21 consultations accessibles par an et par habitant selon la DREES, pour 3,72 en moyenne nationale, avec 309 généralistes libéraux dans la commune), pour un deux-pièces à 800 € et un mètre carré à 3 500 €, soit environ 210 000 € pour 60 m² (source : notre estimation des loyers). Le budget d'une personne seule est d'environ 1 490 € par mois, sur le fil d'une pension de 1 500 € nets. Score retraite : 4,9/10, un palier de 17 villes à égalité, derrière 499 autres : la ville est jeune (14,6 % de 60 ans et plus) et dense, 238 695 habitants (+2,7 % depuis 2016, source : Insee, recensement 2022).",
+    sections: [
+      {
+        heading: "Quel budget pour un retraité à Lille ?",
+        body: "Personne seule locataire d'un deux-pièces à 800 € (source : notre estimation des loyers) : énergie 100 €, courses 300 €, mutuelle 120 €, transports 50 €, loisirs et divers 120 € (hypothèses), soit environ 1 490 € par mois, une marge d'environ 10 € sur une pension moyenne d'environ 1 500 € nets (source : DREES). Couple dans un trois-pièces à 1 080 € : énergie 130 €, courses 500 €, mutuelles 240 €, transports 60 €, loisirs 100 €, soit environ 2 110 € par mois.",
+      },
+      {
+        heading: "Comment se soigne-t-on à Lille ?",
+        body: "8,1/10 dans notre moteur, niveau « facile » (source : notre fiche santé), le meilleur du lot, avec un site de CHU dans la commune. Les chiffres tiennent : 309 généralistes libéraux, 77 pharmacies et 4 services d'urgences (Insee, BPE), et un APL de 6,21, presque le double de la moyenne nationale. Pour un retraité qui anticipe des soins réguliers, c'est l'argument central de la ville.",
+      },
+      {
+        heading: "Lille, Arras ou Lens : quelle ville du Nord moins chère ?",
+        body: "Arras loue son T2 540 € et vend 1 800 €/m², avec un score retraite de 6,1 et un APL de 4,19, soit 260 € de loyer en moins qu'à Lille. Lens est plus économique encore : 440 € le T2, 1 200 €/m², score de 6,2 et APL de 5,72, avec 32 697 habitants. Roubaix, collée à Lille, loue 520 € mais obtient un score retraite de 3,8. Lille reste la seule à combiner CHU, métro et grande ville, mais Lens offre une vraie alternative pour un budget serré.",
+      },
+      {
+        heading: "Peut-on vivre sans voiture à Lille ?",
+        body: "Oui : les transports sont à 8,7/10 sur notre fiche ville, avec deux lignes de métro (1 et 2) et des tramways, et la culture à 8,0/10, avec la Vieille Bourse en cœur de ville. La compacité du centre et la densité de l'offre de soins permettent de renoncer à la voiture, sauf pour les sorties en nature : le score nature est de 3,4/10, le plus bas de ce comparatif.",
+      },
+      {
+        heading: "Une ville jeune et plus pauvre",
+        body: "Seuls 14,6 % des habitants ont 60 ans ou plus, contre une médiane de 26,2 % : c'est le plus faible taux du lot. Le niveau de vie médian est de 20 520 € par an avec 27 % de pauvreté (source : Insee, Filosofi 2021) ; la sécurité est à 3,9/10 sur notre fiche ville, le plus bas du lot. Le climat est océanique : en janvier de 1,7 °C à 6,6 °C, en juillet de 14,2 °C à 23,7 °C, environ 1 630 heures de soleil par an (normales de la station de Lesquin, à 7 km).",
+      },
+      {
+        heading: "Pour qui Lille fonctionne, et pour qui non",
+        body: "Lille convient au retraité qui veut un accès aux soins maximal, un réseau de transports de grande ville et une vie culturelle dense, avec un budget d'environ 1 490 € par mois. Elle convient moins à celui qui cherche le calme, la nature, le soleil ou une sécurité élevée : Arras ou Lens offrent un cadre plus tranquille, avec Lille à portée de train pour les consultations lourdes.",
+      },
+    ],
+    relatedCities: ["lille","arras","lens","roubaix"],
+    relatedGuides: [
+      "vivre-a-lille-2026",
+      "acheter-a-lille-quel-quartier-budget-2026",
+      "vivre-sans-voiture-lille-guide-2026",
+      "retraite-a-amiens-2026",
+    ],
+    tags: ["retraite Lille 2026","prendre sa retraite à Lille","retraite Nord","budget retraité Lille","retraite Hauts-de-France"],
+  },
+  {
     slug: "demenager-a-paris-2026",
     title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",
