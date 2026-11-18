@@ -33048,6 +33048,252 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "retiring-in-orleans-2026",
+    title: "Retiring in Orléans (2026): a CHU in Town, a €700 Two-Bed and a €1,390 Budget",
+    metaTitle: "Retiring in Orléans 2026: Budget, Health, Tram",
+    metaDesc: "Retiring in Orléans: two-bed at €700, €2,400/m², CHU in town, 21.1% aged 60+, tram line A to the hospital. Budget and limits.",
+    category: "moving",
+    emoji: "⚜️",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Orléans asks €700 for a two-bedroom and €2,400 a square metre, about €144,000 for 60 m² (our rent estimate): a single person lives on about €1,390 a month, against an average pension of €1,500 net. Its retirement score is 5.5/10, in a 20-way tie, behind 391 other towns: an average mark, but the university hospital (CHU) is inside the town. Population: 116,344, up 1.4% since 2016 (INSEE census 2022).",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Orléans?",
+        body: "A single person renting a two-bedroom at €700 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,390 a month. A couple renting a three-bedroom at €930: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,960 a month. Against an average pension of about €1,500 net (DREES), a single person keeps a margin of about €110.",
+      },
+      {
+        heading: "Orléans has a CHU: is that enough to get care easily?",
+        body: "There is a CHU site in the town, and our engine gives 6.7/10 for access to care (10 = excellent), an \"easy\" level (our health sheet). Density is only average, though: DREES measures 3.04 accessible GP consultations per resident per year, under the national 3.72, with 84 private GPs, 25 pharmacies and 1 emergency department (INSEE, BPE facilities database). The hospital is there, but finding a regular GP can take patience.",
+      },
+      {
+        heading: "Orléans, Olivet or Chartres: where to settle in the Loire Valley?",
+        body: "Olivet, the immediate neighbour with 22,988 residents, rents its two-bed at €750 and sells at €3,000/m², dearer than Orléans, with a retirement score of 6.4 and 27.8% aged 60+. Chartres, under 100 km away, rents at €680 and sells at €2,500/m², with the same 6.4 score but much weaker GP access (2.52 against 3.04). Blois offers €610 for a two-bed and €2,100/m², with 3.35 for access. Orléans is the only one of the four to combine a CHU with a full-sized town.",
+      },
+      {
+        heading: "Can you live without a car in Orléans?",
+        body: "Largely: transport scores 6.4/10 on our city sheet. Tram line A runs from the north of the conurbation to the Hôpital de la Source, whose terminus serves the CHU, and line B crosses east-west with a connection at De Gaulle station (TAO network). For a retiree with regular appointments that is a real asset, provided you check ongoing works on the network's website.",
+      },
+      {
+        heading: "What is daily life like in Orléans after 60?",
+        body: "Only 21.1% of residents are 60 or over, against a median of 26.2% in our database: the town is active and fairly young, with no retiree enclave feel. It stretches along the Loire, with Sainte-Croix cathedral as the centre's landmark. Median standard of living is €21,370 a year with 22% poverty (INSEE, Filosofi 2021); safety scores 5.1/10 and culture 6.6/10 on our city sheet. The climate is temperate, but the nearest weather station is 100 km away, so we quote no normals.",
+      },
+      {
+        heading: "Who Orléans suits, and who it does not",
+        body: "Orléans suits the retiree who wants a university hospital, a tram and mid-sized-town rents, with Paris within reach by train and a budget near €1,390 a month. It suits less someone looking for sun, sea or nature: its nature score is only 4.8/10. Tours or Vannes are then worth a look.",
+      },
+    ],
+    relatedCities: ["orleans", "olivet", "chartres", "blois"],
+    tags: ["retiring in Orléans 2026", "Loiret expat retirement", "Orléans retirement budget", "Centre-Val de Loire retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-dunkerque-2026",
+    title: "Retiring in Dunkirk (2026): the Cheapest Two-Bed of the Batch at €560, but the CHU Is 66 km Away",
+    metaTitle: "Retiring in Dunkirk 2026: Budget, Health, Sea",
+    metaDesc: "Retiring in Dunkirk: two-bed at €560, €1,800/m², 28.7% aged 60+, health access 6.1/10, Lille CHU 66 km away. Budget and limits.",
+    category: "moving",
+    emoji: "🌬️",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Dunkirk rents its two-bedroom for €560 and sells a square metre at €1,800, about €108,000 for 60 m² (our rent estimate): a single person lives on about €1,250 a month, leaving about €250 of margin on an average pension of €1,500 net. The catch: the nearest CHU (university hospital) is in Lille, 66 km away, and the population is falling (87,013 residents, −1.2% since 2016, INSEE census 2022). Retirement score: 5.4/10, in a 35-way tie, behind 411 other towns.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Dunkirk?",
+        body: "A single person renting a two-bedroom at €560 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,250 a month. A couple renting a three-bedroom at €750: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €1,780 a month. With an average pension of about €1,500 net (DREES), that is the most comfortable margin of any large town in the north.",
+      },
+      {
+        heading: "How do you get medical care in Dunkirk?",
+        body: "Our engine gives 6.1/10, a \"decent\" level (our health sheet), with no CHU site in the town: the nearest is in Lille, about 66 km away. GP access is close to average: DREES measures 3.55 accessible consultations per resident per year, against 3.72 nationally, with 73 private GPs, 37 pharmacies and 1 emergency department (INSEE, BPE facilities database). For heavy procedures or rare specialists, count on the trip to Lille.",
+      },
+      {
+        heading: "Dunkirk, Calais or Lille: which northern town to pick?",
+        body: "Calais, about forty kilometres away, is cheaper still (€480 for a two-bed, €1,350/m²) but its retirement score drops to 4.8 and its GP access is 3.84. Lille rents a two-bed at €800 and sells at €3,500/m², but has a CHU in town and an access figure of 6.21. Saint-Omer, a small town of 14,358 residents, rents at €530 and has only 12 GPs. Dunkirk sits in the middle: a real urban fabric without Lille's prices.",
+      },
+      {
+        heading: "What is life like on the North Sea?",
+        body: "28.7% of residents are 60 or over, above the 26.2% median: the town is ageing, like many port towns. The seaside district of Malo-les-Bains has a beach and a sea wall, and Dunkirk's beach was the main embarkation point of Operation Dynamo in 1940. Median standard of living is €20,240 a year with 22% poverty (INSEE, Filosofi 2021); safety scores 4.5/10 and transport 6.1/10 on our city sheet.",
+      },
+      {
+        heading: "What is the climate like in Dunkirk?",
+        body: "A northern oceanic climate: windy, with cool summers and mild but grey winters. We quote no figures: the nearest weather station is at Lille-Lesquin, 73 km away, too coarse an inference on a coastline. If sun matters, this is not the town for a retiree chasing warmth.",
+      },
+      {
+        heading: "Who Dunkirk suits, and who it does not",
+        body: "Dunkirk suits the retiree on a tight budget who wants the sea, a proper town and rent under €600, with about €250 of margin on an average pension. It suits less someone needing regular heavy care (Lille is 66 km away) or sunshine: its nature score is 5.0/10.",
+      },
+    ],
+    relatedCities: ["dunkerque", "calais", "lille", "saint-omer"],
+    tags: ["retiring in Dunkirk 2026", "Nord expat retirement", "Dunkirk retirement budget", "Hauts-de-France retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-nantes-2026",
+    title: "Retiring in Nantes (2026): a CHU and a Tram, but €1,540 a Month for a Single Person",
+    metaTitle: "Retiring in Nantes 2026: Budget, Health, Transport",
+    metaDesc: "Retiring in Nantes: two-bed at €850, €4,200/m², 384 GPs, health access 7.6/10, 18.5% aged 60+. Budget and limits.",
+    category: "moving",
+    emoji: "🐘",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Nantes rents its two-bedroom for €850 and sells a square metre at €4,200, about €252,000 for 60 m² (our rent estimate): a single person's budget climbs to about €1,540 a month, €40 above an average pension of €1,500 net. Its retirement score is 5.0/10, in an 18-way tie, behind 481 other towns: Nantes is a metropolis of 325,070 residents, up 6.0% since 2016 (INSEE census 2022), built for the working-age more than for retirees. What it offers: a university hospital and transport scored 8.1/10.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Nantes?",
+        body: "A single person renting a two-bedroom at €850 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,540 a month. A couple renting a three-bedroom at €1,150: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €2,180 a month. The average pension of about €1,500 net (DREES) does not cover the rent: in Nantes, you do better owning your home or having extra income.",
+      },
+      {
+        heading: "How do you get medical care in Nantes?",
+        body: "Our engine gives 7.6/10, an \"easy\" level (our health sheet), with a CHU site in the town. DREES measures 4.69 accessible GP consultations per resident per year, against 3.72 nationally; the town has 384 private GPs, 81 pharmacies and 2 emergency departments (INSEE, BPE facilities database). For a retiree, it is the argument that justifies the rent.",
+      },
+      {
+        heading: "Nantes, Saint-Nazaire or Angers: which Loire town for retirement?",
+        body: "Saint-Nazaire, about sixty kilometres away, rents a two-bed at €640 and sells at €2,200/m², with a retirement score of 6.3 and 30.5% seniors, but GP access falls to 3.70. Angers rents at €750 and sells at €3,000/m², with an access figure of 5.96 (248 GPs): better than Nantes for finding a doctor, and cheaper, but not as big. Rezé, right next to Nantes, rents at €680 and scores 5.51. Nantes is the dearest of the three large towns, and the only one with tram, CHU and cultural life at this level.",
+      },
+      {
+        heading: "Can you live without a car in Nantes?",
+        body: "Yes: transport scores 8.1/10 on our city sheet, and culture 7.8/10. The tramway and high-frequency bus lines cover the metropolis, so you can drop the car and save a budget that Nantes rents have already used up.",
+      },
+      {
+        heading: "A young town: what that changes",
+        body: "Only 18.5% of residents are 60 or over, against a median of 26.2%: Nantes does not offer the retiree enclave of the seaside resorts, but services designed for all ages. Median standard of living is €24,170 a year with 17% poverty (INSEE, Filosofi 2021); safety scores 4.6/10 on our city sheet. The climate is oceanic: January from 3.4 °C to 9.3 °C, July from 14.3 °C to 25.1 °C, about 1,870 hours of sun a year (normals from the nearest station, 9 km away).",
+      },
+      {
+        heading: "Who Nantes suits, and who it does not",
+        body: "Nantes suits the retiree who owns, or whose income exceeds the average pension, and wants a university hospital, transport and culture without a car. It suits less someone counting on €1,500 a month plus a rent: Saint-Nazaire or Vannes offer a lighter budget and the coast.",
+      },
+    ],
+    relatedCities: ["nantes", "saint-nazaire", "angers", "reze"],
+    tags: ["retiring in Nantes 2026", "Loire-Atlantique expat retirement", "Nantes retirement budget", "Pays de la Loire retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-lyon-2026",
+    title: "Retiring in Lyon (2026): 709 GPs and 5 Emergency Departments, but €1,690 a Month for a Single Person",
+    metaTitle: "Retiring in Lyon 2026: Budget, Health, Metro",
+    metaDesc: "Retiring in Lyon: two-bed at €1,000, €5,000/m², 709 GPs, health access 7.7/10, 19.0% aged 60+. Budget and limits.",
+    category: "moving",
+    emoji: "🦁",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Lyon rents its two-bedroom for €1,000 and sells a square metre at €5,000, about €300,000 for 60 m² (our rent estimate): a single person lives on about €1,690 a month, €190 more than an average pension of €1,500 net. It is the dearest town of this batch and the lowest ranked: retirement score 4.7/10, in a 6-way tie, behind 527 other towns. In return, 709 private GPs, 5 emergency departments and a CHU in town, for 520,774 residents (+1.0% since 2016, INSEE census 2022).",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Lyon?",
+        body: "A single person renting a two-bedroom at €1,000 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,690 a month. A couple renting a three-bedroom at €1,380: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €2,410 a month. Against an average pension of about €1,500 net (DREES), a single tenant is short by about €190 a month: Lyon works with savings or property, not with a pension alone.",
+      },
+      {
+        heading: "How do you get medical care in Lyon?",
+        body: "Our engine gives 7.7/10, an \"easy\" level (our health sheet), with a CHU site in the town. Volumes are the highest of the batch: 709 private GPs, 155 pharmacies and 5 emergency departments (INSEE, BPE facilities database), for a DREES access figure of 4.60 against 3.72 nationally. It is not the best ratio per resident (Lille reaches 6.21), but it is the largest care offer available without leaving the town.",
+      },
+      {
+        heading: "Lyon, Villefranche or Vienne: where to retire around the Rhône?",
+        body: "Vienne, to the south, rents a two-bed at €700 and sells at €2,200/m²: €300 less in rent, with a retirement score of 6.9, but only 30 GPs. Villefranche-sur-Saône, to the north, rents at €800 and sells at €2,500/m², also scoring 6.9, but has 26 GPs for 36,224 residents. Caluire-et-Cuire, right next to Lyon, is dearer still (€1,080 for a two-bed, €5,200/m²). For a retiree who can do without an on-site hospital, Vienne and Villefranche cut the rent by roughly €100 to €300 a month.",
+      },
+      {
+        heading: "Can you live without a car in Lyon?",
+        body: "That is the town's strength: transport scores 9.0/10 on our city sheet, among the best in the country, with four metro lines (A, B, C, D) and a tram network. A retiree can give up the car and recover part of the rent premium. Culture scores 9.0/10: museums, theatres and heritage, including Vieux-Lyon, UNESCO-listed in 1998.",
+      },
+      {
+        heading: "A town with 19% seniors",
+        body: "19.0% of residents are 60 or over, against a median of 26.2%: Lyon is a town of students and working people. Median standard of living is €25,430 a year with 16% poverty (INSEE, Filosofi 2021), among the highest of the batch; safety scores 5.1/10 on our city sheet and nature 5.0/10. The climate is semi-continental: January from 1.1 °C to 7.1 °C, July from 17.0 °C to 28.2 °C, about 2,050 hours of sun a year (normals from the Bron station, 8 km away).",
+      },
+      {
+        heading: "Who Lyon suits, and who it does not",
+        body: "Lyon suits the retiree who owns, or a couple on two pensions, who wants the best care, the best transport network and a full cultural offer. It suits less someone with only €1,500 a month: Vienne or Villefranche give a much lighter budget, with Lyon within reach for heavy procedures.",
+      },
+    ],
+    relatedCities: ["lyon", "vienne", "villefranche-sur-saone", "caluire-et-cuire"],
+    tags: ["retiring in Lyon 2026", "Rhône expat retirement", "Lyon retirement budget", "Auvergne-Rhône-Alpes retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-toulouse-2026",
+    title: "Retiring in Toulouse (2026): 2,075 Hours of Sun and the Metro, but an €850 Two-Bed",
+    metaTitle: "Retiring in Toulouse 2026: Budget, Health, Sun",
+    metaDesc: "Retiring in Toulouse: two-bed at €850, €4,000/m², health access 7.6/10, 559 GPs, +7.6% residents, 2,075 sun hours. Budget.",
+    category: "moving",
+    emoji: "🧱",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Toulouse rents its two-bedroom for €850 and sells a square metre at €4,000, about €240,000 for 60 m² (our rent estimate): a single person's budget climbs to about €1,540 a month, €40 above an average pension of €1,500 net. Its retirement score is 5.0/10, in an 18-way tie, behind 481 other towns. The town is growing fast: 511,684 residents, 36,246 more than in 2016, or +7.6% (INSEE census 2022), and it gets roughly 2,075 hours of sun a year.",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Toulouse?",
+        body: "A single person renting a two-bedroom at €850 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,540 a month. A couple renting a three-bedroom at €1,150: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €2,180 a month. The average pension of about €1,500 net (DREES) leaves a single tenant €40 short: Toulouse needs a small top-up or a home you own.",
+      },
+      {
+        heading: "How do you get medical care in Toulouse?",
+        body: "Our engine gives 7.6/10, an \"easy\" level (our health sheet), with a CHU site in the town. The town has 559 private GPs, 152 pharmacies and 5 emergency departments (INSEE, BPE facilities database); the DREES access figure is 4.41, above the national 3.72. As in Lyon, it is a large care offer without being the best ratio per resident.",
+      },
+      {
+        heading: "Toulouse, Albi or Montauban: where to settle in Occitanie?",
+        body: "Albi, about 75 km away, rents a two-bed at €620 and sells at €2,200/m², with the best retirement score of this comparison (7.5/10), an access figure of 4.62 and 33.6% seniors: a town built around retirees. Montauban rents at €650 and sells at €2,200/m², with a score of 6.1 and 28.5% seniors, but access of 3.74. Colomiers and Blagnac, next to Toulouse, stay at €750 and €800 for a two-bed. For a retiree who wants Toulouse without its rent, Albi holds its own.",
+      },
+      {
+        heading: "Can you live without a car in Toulouse?",
+        body: "Largely: transport scores 7.5/10 on our city sheet, with two metro lines (A and B) and trams; culture scores 8.0/10, with the Capitole as the centre's landmark and the Canal du Midi, UNESCO-listed in 1996, as a walk. The network is less dense than Lyon's, but it is enough for a retiree living in the centre.",
+      },
+      {
+        heading: "What is life like in Toulouse after 60?",
+        body: "Only 17.1% of residents are 60 or over, against a median of 26.2%: the town is driven by students and the aerospace industry. Median standard of living is €22,140 a year with 22% poverty (INSEE, Filosofi 2021); safety scores 4.3/10 on our city sheet, the town's weak point. The climate is sunny: January from 2.9 °C to 9.7 °C, July from 17.0 °C to 28.2 °C (normals from the Blagnac station, 6 km away).",
+      },
+      {
+        heading: "Who Toulouse suits, and who it does not",
+        body: "Toulouse suits the retiree who owns and wants sun, a university hospital and cultural life, on a budget of about €1,540 a month if renting. It suits less someone counting on €1,500 plus a rent, or sensitive to safety: Albi or Montauban give a lighter budget, with Toulouse within train reach for heavy procedures.",
+      },
+    ],
+    relatedCities: ["toulouse", "albi", "montauban", "colomiers"],
+    tags: ["retiring in Toulouse 2026", "Haute-Garonne expat retirement", "Toulouse retirement budget", "Occitanie retirement France", "expat retirement"],
+  },
+
+  {
+    slug: "retiring-in-lille-2026",
+    title: "Retiring in Lille (2026): the Best GP Access of the Batch, but Only 14.6% Aged 60+",
+    metaTitle: "Retiring in Lille 2026: Budget, Health, Metro",
+    metaDesc: "Retiring in Lille: two-bed at €800, €3,500/m², health access 8.1/10, 309 GPs, 14.6% aged 60+. Budget and limits.",
+    category: "moving",
+    emoji: "🧇",
+    readMinutes: 7,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Lille has the best GP access of this batch (DREES measures 6.21 accessible consultations per resident per year, against 3.72 nationally, with 309 private GPs in the town), for a two-bedroom at €800 and a square metre at €3,500, about €210,000 for 60 m² (our rent estimate). A single person's budget is about €1,490 a month, right on the edge of a €1,500 net pension. Retirement score: 4.9/10, in a 17-way tie, behind 499 other towns: the town is young (14.6% aged 60+) and dense, with 238,695 residents (+2.7% since 2016, INSEE census 2022).",
+    sections: [
+      {
+        heading: "What budget does a retiree need in Lille?",
+        body: "A single person renting a two-bedroom at €800 (our rent estimate): energy €100, groceries €300, top-up health insurance (the mutuelle) €120, transport €50, leisure and extras €120, the last five being our assumptions. About €1,490 a month. A couple renting a three-bedroom at €1,080: energy €130, groceries €500, two mutuelles €240, transport €60, leisure €100, about €2,110 a month. Against an average pension of about €1,500 net (DREES), a single tenant has a margin of about €10.",
+      },
+      {
+        heading: "How do you get medical care in Lille?",
+        body: "Our engine gives 8.1/10, an \"easy\" level (our health sheet), the best of the batch, with a CHU site in the town. The figures hold up: 309 private GPs, 77 pharmacies and 4 emergency departments (INSEE, BPE facilities database), and an access figure of 6.21, almost double the national average. For a retiree expecting regular care, it is the town's central argument.",
+      },
+      {
+        heading: "Lille, Arras or Lens: which cheaper northern town?",
+        body: "Arras rents a two-bed at €540 and sells at €1,800/m², with a retirement score of 6.1 and an access figure of 4.19: €260 less in rent than Lille. Lens is cheaper still: €440 for a two-bed, €1,200/m², a score of 6.2 and access of 5.72, with 32,697 residents. Roubaix, next to Lille, rents at €520 but scores 3.8 for retirement. Lille remains the only one to combine CHU, metro and a large town, but Lens is a real alternative on a tight budget.",
+      },
+      {
+        heading: "Can you live without a car in Lille?",
+        body: "Yes: transport scores 8.7/10 on our city sheet, with two metro lines (1 and 2) and trams, and culture 8.0/10, with the Vieille Bourse in the heart of town. The compact centre and the density of care make a car unnecessary, except for trips into nature: the nature score is 3.4/10, the lowest of this comparison.",
+      },
+      {
+        heading: "A young and poorer town",
+        body: "Only 14.6% of residents are 60 or over, against a median of 26.2%: the lowest share of the batch. Median standard of living is €20,520 a year with 27% poverty (INSEE, Filosofi 2021); safety scores 3.9/10 on our city sheet, the lowest of the batch. The climate is oceanic: January from 1.7 °C to 6.6 °C, July from 14.2 °C to 23.7 °C, about 1,630 hours of sun a year (normals from the Lesquin station, 7 km away).",
+      },
+      {
+        heading: "Who Lille suits, and who it does not",
+        body: "Lille suits the retiree who wants maximum access to care, a big-town transport network and dense cultural life, on a budget of about €1,490 a month. It suits less someone seeking quiet, nature, sun or high safety: Arras or Lens offer a calmer setting, with Lille within train reach for heavy consultations.",
+      },
+    ],
+    relatedCities: ["lille", "arras", "lens", "roubaix"],
+    tags: ["retiring in Lille 2026", "Nord expat retirement", "Lille retirement budget", "Hauts-de-France retirement France", "expat retirement"],
+  },
+
+  {
     slug: "single-parent-in-nimes-2026",
     title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
     metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",

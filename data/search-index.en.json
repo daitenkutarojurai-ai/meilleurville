@@ -7577,6 +7577,36 @@
       "emoji": "🚢"
     },
     {
+      "slug": "retiring-in-orleans-2026",
+      "title": "Retiring in Orléans (2026): a CHU in Town, a €700 Two-Bed and a €1,390 Budget",
+      "emoji": "⚜️"
+    },
+    {
+      "slug": "retiring-in-dunkerque-2026",
+      "title": "Retiring in Dunkirk (2026): the Cheapest Two-Bed of the Batch at €560, but the CHU Is 66 km Away",
+      "emoji": "🌬️"
+    },
+    {
+      "slug": "retiring-in-nantes-2026",
+      "title": "Retiring in Nantes (2026): a CHU and a Tram, but €1,540 a Month for a Single Person",
+      "emoji": "🐘"
+    },
+    {
+      "slug": "retiring-in-lyon-2026",
+      "title": "Retiring in Lyon (2026): 709 GPs and 5 Emergency Departments, but €1,690 a Month for a Single Person",
+      "emoji": "🦁"
+    },
+    {
+      "slug": "retiring-in-toulouse-2026",
+      "title": "Retiring in Toulouse (2026): 2,075 Hours of Sun and the Metro, but an €850 Two-Bed",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "retiring-in-lille-2026",
+      "title": "Retiring in Lille (2026): the Best GP Access of the Batch, but Only 14.6% Aged 60+",
+      "emoji": "🧇"
+    },
+    {
       "slug": "single-parent-in-nimes-2026",
       "title": "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
       "emoji": "🧑‍🍼"
@@ -11359,6 +11389,11 @@
       "count": 89
     },
     {
+      "slug": "expat-retirement",
+      "label": "expat retirement",
+      "count": 82
+    },
+    {
       "slug": "grand-est",
       "label": "grand est",
       "count": 82
@@ -11377,11 +11412,6 @@
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 77
-    },
-    {
-      "slug": "expat-retirement",
-      "label": "expat retirement",
-      "count": 76
     },
     {
       "slug": "moving-to-france-with-children",
