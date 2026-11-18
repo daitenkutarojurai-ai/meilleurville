@@ -2401,3 +2401,8 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 ## Guides data-led DVF — activité et dispersion des prix (2026-11-17)
 - 2026-11-17 content guides : FR `villes-marche-immobilier-actif-ventes-pour-1000-habitants-400-villes-2026` (ventes DVF 2024-2025 / pop. 2022, 400 villes ≥ 20 000 hab.), FR `ecart-prix-m2-entre-adresses-appartements-383-villes-dvf-2026` (P75/P25 appartements, ≥ 100 ventes) + EN native `price-per-m2-spread-within-french-cities-383-cities-dvf-2026`.
 - Compteurs mesurés : FR 1624, EN 1501. Alsace-Moselle absente de DVF (Strasbourg manque). Prochain lot : jumelle EN du guide « marché actif » ; densité de ventes par type (maison/appartement).
+
+## Tourisme — batch EN, rattrapage de parité (2026-11-18)
+- 2026-11-18 : +8 jumelles `things-to-do-in-*` (rezé, suresnes, saint-maur-des-fossés, chelles, caluire-et-cuire, saint-herblain, talence, puteaux), mêmes chiffres que les guides FR.
+- Compteurs mesurés : FR 360 (`10-choses-a-faire-a[ux]*`), EN 357. Villes FR encore sans jumelle EN : nanterre, ivry-sur-seine.
+- Prochain lot : 2 jumelles EN restantes (+ batch FR de villes non couvertes, mesurer sur `CITIES_SEED`).

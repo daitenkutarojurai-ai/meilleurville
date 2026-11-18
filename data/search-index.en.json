@@ -10567,6 +10567,46 @@
       "emoji": "🌳"
     },
     {
+      "slug": "things-to-do-in-reze-2026",
+      "title": "Things to do in Rezé: Trentemoult and Le Corbusier, across the Loire from Nantes",
+      "emoji": "⛴️"
+    },
+    {
+      "slug": "things-to-do-in-suresnes-2026",
+      "title": "Things to do in Suresnes: Mont-Valérien, urban vines and the Seine",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "things-to-do-in-saint-maur-des-fosses-2026",
+      "title": "Things to do in Saint-Maur-des-Fossés: a Marne peninsula east of Paris",
+      "emoji": "🚣"
+    },
+    {
+      "slug": "things-to-do-in-chelles-2026",
+      "title": "Things to do in Chelles: a royal abbey and the Marne, east of Paris",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-caluire-et-cuire-2026",
+      "title": "Things to do in Caluire-et-Cuire: Jean Moulin, old Cuire and the Rhône, next to Lyon",
+      "emoji": "🌉"
+    },
+    {
+      "slug": "things-to-do-in-saint-herblain-2026",
+      "title": "Things to do in Saint-Herblain: the Zénith and Loire parks, west of Nantes",
+      "emoji": "🎤"
+    },
+    {
+      "slug": "things-to-do-in-talence-2026",
+      "title": "Things to do in Talence: the campus, Thouars and the wine country, south of Bordeaux",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "things-to-do-in-puteaux-2026",
+      "title": "Things to do in Puteaux: the Grande Arche, an island and a quieter old centre",
+      "emoji": "🏢"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -11196,12 +11236,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 355
+      "count": 363
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 349
+      "count": 357
     },
     {
       "slug": "moving-to-france",
@@ -11221,12 +11261,12 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 103
+      "count": 107
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 99
+      "count": 100
     },
     {
       "slug": "relocation",
@@ -11236,7 +11276,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 95
+      "count": 96
     },
     {
       "slug": "occitanie",
@@ -11306,7 +11346,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 59
+      "count": 61
     },
     {
       "slug": "brittany",
