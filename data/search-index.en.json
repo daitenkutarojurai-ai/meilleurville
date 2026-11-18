@@ -11182,6 +11182,11 @@
       "emoji": "🏡"
     },
     {
+      "slug": "house-prices-per-m2-french-cities-560-cities-dvf-2026",
+      "title": "House prices per m² in French cities: 560 cities ranked (DVF 2024-2025)",
+      "emoji": "🏡"
+    },
+    {
       "slug": "buying-barn-to-convert-france-2026",
       "title": "Buying a barn to convert in France 2026: planning, costs, regions",
       "emoji": "🏚️"
@@ -11809,6 +11814,11 @@
       "count": 5
     },
     {
+      "slug": "price-per-m",
+      "label": "price per m²",
+      "count": 5
+    },
+    {
       "slug": "remote-work",
       "label": "remote work",
       "count": 5
@@ -11822,6 +11832,11 @@
       "slug": "saint-etienne",
       "label": "saint-etienne",
       "count": 5
+    },
+    {
+      "slug": "dvf",
+      "label": "DVF",
+      "count": 4
     },
     {
       "slug": "french-alps",
@@ -11886,11 +11901,6 @@
     {
       "slug": "poitiers",
       "label": "poitiers",
-      "count": 4
-    },
-    {
-      "slug": "price-per-m",
-      "label": "price per m²",
       "count": 4
     },
     {
@@ -11959,6 +11969,11 @@
       "count": 3
     },
     {
+      "slug": "buying-a-house-in-france",
+      "label": "buying a house in France",
+      "count": 3
+    },
+    {
       "slug": "buying-property-in-france",
       "label": "buying property in france",
       "count": 3
@@ -11999,11 +12014,6 @@
       "count": 3
     },
     {
-      "slug": "dvf",
-      "label": "DVF",
-      "count": 3
-    },
-    {
       "slug": "expat-comparison",
       "label": "expat comparison",
       "count": 3
@@ -12021,6 +12031,11 @@
     {
       "slug": "french-city-ranking",
       "label": "French city ranking",
+      "count": 3
+    },
+    {
+      "slug": "french-property-market",
+      "label": "French property market",
       "count": 3
     },
     {

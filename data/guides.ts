@@ -81010,6 +81010,59 @@ export const GUIDES: Guide[] = [
     tags: ["maison ou appartement", "prix au m²", "DVF", "prix immobilier par ville", "écart de prix", "acheter une maison", "classement des villes", "valeurs foncières", "marché immobilier"],
   },
   {
+    slug: "prix-maison-m2-par-ville-560-villes-dvf-2026",
+    title: "Prix d'une maison au m² par ville : 560 villes classées (DVF 2024-2025)",
+    metaTitle: "Prix d'une maison au m² par ville : 560 villes (2026)",
+    metaDesc: "Saint-Tropez 18 649 €/m², Vierzon 1 024 €/m² : prix médian des maisons vendues en 2024-2025 dans 560 villes, par région et taille (DVF).",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Dans les 560 villes de notre base où assez de maisons ont été vendues en 2024 et 2025, le prix médian au m² est de 3 090 €. Il dépasse 5 000 € dans 99 villes et reste sous 2 000 € dans 150, de 18 649 € à Saint-Tropez à 741 € à Clamecy, soit un rapport de 1 à 25. Ces prix ne sont pas des annonces : ce sont les médianes des ventes réellement enregistrées par les notaires et publiées par la DGFiP (fichier DVF). Ce guide classe les villes, sépare Paris, la province et les stations, et dit ce que 100 m² coûtent vraiment ici ou là. L'Alsace et la Moselle, régies par le livre foncier, n'y figurent pas, ni Mayotte.",
+    sections: [
+      {
+        heading: "D'où viennent ces prix, et que comptent-ils vraiment ?",
+        body: "Ils viennent des actes de vente. La DGFiP publie chaque transaction immobilière sous le nom de Demandes de valeurs foncières (DVF) ; nous retenons les ventes de maisons de 2024 et 2025, un seul bien par vente, et nous calculons la médiane du prix au m² par commune. Une médiane sépare la moitié des ventes la moins chère de la moitié la plus chère : une propriété exceptionnelle ne la déplace pas. Nous ne publions une ville que si au moins 20 maisons y ont été vendues sur les deux ans. Une précision décisive pour une maison : le prix inclut le terrain, alors que la surface comptée est la seule surface bâtie, et les dépendances (garage, cave) sont dans le prix sans être dans la surface. Le m² d'une maison n'est donc pas celui d'un appartement à l'euro près ; c'est la convention des notaires. Notre fiche ville garde par ailleurs un repère éditorial unique tous biens confondus, qui peut différer de ce chiffre mesuré sans que l'un soit faux."
+      },
+      {
+        heading: "Quelles sont les villes où la maison coûte le plus cher ?",
+        body: "Saint-Tropez arrive en tête avec 18 649 € le m² (53 ventes), devant Neuilly-sur-Seine (16 333 €, 37 ventes), Boulogne-Billancourt (12 621 €), Paris (12 300 €, 243 ventes), Vincennes (10 965 €) et Hossegor (10 923 €, 134 ventes). Suivent Montrouge (10 087 €), Puteaux (9 829 €), Saint-Cloud (9 580 €), Cassis (9 458 €), Courbevoie (9 159 €), Versailles (8 935 €) et Issy-les-Moulineaux (8 901 €). Parmi les vingt-cinq premières villes, vingt sont en Île-de-France et cinq sont des stations : Saint-Tropez, Hossegor, Cassis, Arcachon (8 344 €) et Biarritz (8 232 €). À ces niveaux, 100 m² se paient plus d'un million d'euros à Paris (environ 1 230 000 €). Attention aux petits échantillons : Neuilly, Puteaux, Montrouge et Pantin comptent moins de 50 ventes de maisons sur deux ans, ce qui rend leur rang moins stable que celui de Paris ou de Versailles (171 ventes)."
+      },
+      {
+        heading: "Quelles sont les villes où la maison coûte le moins cher ?",
+        body: "Des villes industrielles ou rurales du Centre, du Nord et de l'Est. Clamecy est la moins chère de notre base avec 741 € le m² (68 ventes), devant Aubusson (857 €), Denain (878 €, 334 ventes), Le Blanc (892 €), Thiers (1 000 €), Vierzon (1 024 €, 620 ventes), Issoudun (1 026 €), Bellac (1 037 €), Maubeuge (1 087 €), Saint-Quentin (1 087 €, 1 004 ventes) et Montluçon (1 088 €, 529 ventes). 62 villes sur 560 restent sous 1 500 € le m². À Clamecy, 100 m² se paient environ 74 000 € ; à Vierzon environ 102 000 €. À ce prix, le prix d'achat n'est qu'une partie de l'équation : regardez l'état du bâti, le DPE, la demande locale et le marché de l'emploi avant d'y voir une affaire. Notre Red Flag « villes qui se vident » donne l'autre moitié du tableau."
+      },
+      {
+        heading: "Combien coûte une maison dans les grandes villes ?",
+        body: "De 1 867 € le m² à Limoges à 12 621 € à Boulogne-Billancourt, et la hiérarchie n'est pas celle de la taille. Parmi les 39 villes de plus de 100 000 habitants couvertes, Boulogne-Billancourt (12 621 €) et Paris (12 300 €) sont à part. Viennent Nice (6 455 €), Annecy (6 237 €), Aix-en-Provence (6 171 €), Montreuil (6 000 €), Lyon (5 583 €), Bordeaux (4 899 €), Marseille (4 667 €), Rennes (4 529 €), Toulon (4 518 €), Villeurbanne (4 153 €) et Nantes (4 128 €). Plus bas : Montpellier (3 889 €), Toulouse (3 690 €), Caen (3 545 €), Grenoble (3 436 €), Dijon (3 264 €), Tours (3 246 €), Angers (3 235 €), Nîmes (2 852 €), Lille (2 815 €), Rouen (2 797 €), Brest (2 394 €), Saint-Étienne (2 164 €) et Limoges (1 867 €). Strasbourg, relevant du livre foncier, n'a pas de prix DVF."
+      },
+      {
+        heading: "L'Île-de-France est-elle plus chère que la province ?",
+        body: "Oui, de près de 1 900 € le m² en médiane, mais la Provence-Alpes-Côte d'Azur la dépasse. Les 158 villes franciliennes ont un prix médian de 4 276 € le m², contre 2 386 € pour les 402 villes de province. Mais la médiane des 48 villes de Provence-Alpes-Côte d'Azur est de 4 668 €, plus haute que celle de l'Île-de-France : hypothèse : la maison y est rare en ville et la demande littorale la tire vers le haut, ce que ces données ne prouvent pas. En Île-de-France, 58 villes sur 158 dépassent 5 000 € ; à l'autre bout, on trouve Provins (1 950 €), Étampes (2 606 €), Savigny-le-Temple et Évry-Courcouronnes (2 840 €), Mantes-la-Jolie (2 852 €) et Meaux (2 908 €). En province, 75 villes dépassent 4 000 €."
+      },
+      {
+        heading: "Quelles stations et villes de province sont devenues inabordables ?",
+        body: "Le littoral atlantique et méditerranéen, quelques villes alpines et des communes de l'arrière-pays à la mode. Hors Île-de-France, les prix les plus élevés sont ceux de Saint-Tropez (18 649 €), Hossegor (10 923 €), Cassis (9 458 €), Arcachon (8 344 €), Biarritz (8 232 €), Sainte-Maxime (7 500 €), Antibes (6 992 €), Anglet (6 719 €), Porto-Vecchio (6 699 €), Cannes (6 653 €), Valbonne (6 598 €) et Gordes (6 519 €), puis Nice (6 455 €). Dans ces communes, le prix reflète en partie la demande de non-résidents plutôt que les revenus locaux ; notre classement du niveau de vie par ville permet de mesurer l'écart. Les prix des appartements dans ces mêmes stations sont dans notre guide sur le prix d'un appartement au m²."
+      },
+      {
+        heading: "Comment le prix d'une maison varie-t-il selon les régions ?",
+        body: "La médiane des villes de la région va de 1 611 € en Bourgogne-Franche-Comté à 4 668 € en Provence-Alpes-Côte d'Azur. Voici les médianes régionales, calculées sur les villes de notre base (régions de six villes ou plus) : Provence-Alpes-Côte d'Azur 4 668 €, Île-de-France 4 276 €, Pays de la Loire 2 936 €, Auvergne-Rhône-Alpes 2 920 €, Bretagne 2 700 €, La Réunion 2 488 €, Normandie 2 346 €, Nouvelle-Aquitaine 2 135 €, Occitanie 2 030 €, Hauts-de-France 1 800 €, Centre-Val de Loire 1 758 €, Grand Est 1 667 € et Bourgogne-Franche-Comté 1 611 €. Deux pièges de lecture. Ce sont des médianes de villes, non pondérées par la population : une région à une grosse métropole et à beaucoup de petites villes affiche une médiane basse. Et le Grand Est est ici sans l'Alsace et la Moselle, qui ne figurent pas dans DVF."
+      },
+      {
+        heading: "Que coûte une maison de 100 m² selon la ville ?",
+        body: "Environ 309 000 € dans la ville médiane de notre classement, moins de 194 000 € dans une ville sur quatre et plus de 436 000 € dans une ville sur quatre. Ordre de grandeur pour 100 m², en multipliant le prix médian au m² : Paris, environ 1 230 000 € ; Lyon, 558 000 € ; Bordeaux, 490 000 € ; Nantes, 413 000 € ; Toulouse, 369 000 € ; Lille, 282 000 € ; Brest, 239 000 € ; Saint-Étienne, 216 000 € ; Montluçon, 109 000 €. Le calcul est brut : il compte le terrain dans le prix et la seule surface bâtie, et la surface moyenne des maisons vendues n'est pas 100 m². Comparez les villes à surface égale, et gardez en tête que la maison de ville, serrée, ne se vend pas comme le pavillon avec jardin."
+      },
+      {
+        heading: "Comment utiliser ce classement avant d'acheter une maison ?",
+        body: "Comme un premier filtre, jamais comme une estimation. Pour un budget donné, repérez les villes où votre surface cible tient dans l'enveloppe, puis recoupez avec le niveau de vie local et le marché de l'emploi. Pour comparer avec l'appartement, notre guide sur les villes où la maison coûte moins cher que l'appartement donne l'écart ville par ville. Pour une petite ville, regardez le nombre de ventes : sous 50 en deux ans, le marché est étroit et la revente peut être longue (15 des 560 villes sont dans ce cas). Limites : deux années seulement (2024-2025), ancien et neuf mêlés, un prix communal qui masque de grandes différences entre quartiers, et la surface bâtie qui ignore le terrain."
+      }
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "neuilly-sur-seine", "saint-tropez", "hossegor", "arcachon", "biarritz", "lyon", "bordeaux", "nantes", "lille", "brest", "saint-etienne", "montlucon", "vierzon"],
+    relatedGuides: ["prix-appartement-m2-par-ville-552-villes-dvf-2026", "villes-maison-moins-chere-que-appartement-m2-dvf-2026", "maison-vs-appartement-quel-choix-france-2026", "meilleures-villes-maison-jardin-moins-200000-euros-2025"],
+    tags: ["prix maison par ville", "prix au m²", "DVF", "maison", "valeurs foncières", "acheter une maison", "classement des villes", "prix médian", "marché immobilier"],
+  },
+  {
     slug: "villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026",
     title: "Où vivent les 30-44 ans ? La part des trentenaires et quadragénaires dans 413 villes",
     metaTitle: "Villes des 30-44 ans : classement par part (Insee 2022)",

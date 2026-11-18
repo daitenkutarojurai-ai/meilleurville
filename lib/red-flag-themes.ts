@@ -56,6 +56,7 @@ import { cityIncome } from "@/lib/city-income";
 import { cityPopulation } from "@/lib/city-population";
 import { cityPropertyPrices } from "@/lib/property-prices";
 import { coastDistanceKm } from "@/lib/city-coast";
+import { cityEmploymentMeasure, UNEMPLOYMENT_NATIONAL, JOB_GROWTH_NATIONAL, JOBS_FROM, RP_YEAR } from "@/lib/city-employment";
 
 // Tag patterns that signal a strong seasonal/touristic vocation. Matched on
 // the joined character-tags string (lowercased) of each city seed entry.
@@ -2822,6 +2823,63 @@ function rankLittoralTauxEffort(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes où l'emploi recule et où le chômage est déjà haut » (2026-11-18).
+//
+// Deux mesures publiées, aucun score : l'évolution du nombre d'emplois **situés
+// dans la commune** entre 2017 et 2023 (recensement, `lib/city-employment.ts`) et
+// le taux de chômage des 15-64 ans des habitants (même recensement). Une ville
+// entre quand ses emplois ont **reculé** (variation < 0) alors que le chômage de
+// ses habitants est au moins égal à la moyenne nationale du même recensement.
+//
+// ⚠️ `jobs` compte les emplois du **lieu de travail**, pas ceux des habitants : une
+// commune qui perd des emplois sur son sol peut avoir des habitants qui travaillent
+// ailleurs. C'est pourquoi le filtre chômage est obligatoire — sans lui, le
+// classement dirait « zone d'activité qui se vide », pas « marché local en
+// difficulté ». ⚠️ Le chômage « au sens du recensement » est déclaratif et tourne
+// plus haut que le taux BIT (11,4 % ici contre ~7,5 %) : ne jamais comparer les deux.
+// Distinct de `villes-chomage-eleve` (score composite du site), de
+// `villes-fuite-jeunes-actifs` (démographie) et de `villes-qui-se-vident`
+// (habitants, pas emplois) : ici deux mesures de l'Insee seulement.
+const RECUL_MIN_POP = 20_000;
+
+function reculEligible() {
+  const out: { city: SeedCity; growth: number; unemployment: number; jobs: number | null }[] = [];
+  for (const city of CITIES_SEED) {
+    const p = cityPopulation(city.slug);
+    const e = cityEmploymentMeasure(city.slug);
+    if (!p || p.pop2022 < RECUL_MIN_POP || !e || e.jobGrowth == null || e.unemployment == null) continue;
+    out.push({ city, growth: e.jobGrowth, unemployment: e.unemployment, jobs: e.jobs ?? null });
+  }
+  return out;
+}
+
+export const CORPUS_RECUL = (() => {
+  const e = reculEligible();
+  const fell = e.filter((x) => x.growth < 0);
+  const both = fell.filter((x) => x.unemployment >= UNEMPLOYMENT_NATIONAL);
+  return {
+    n: e.length,
+    medianGrowth: medianOf(e.map((x) => x.growth)),
+    fell: fell.length,
+    fellLowUnemployment: fell.length - both.length,
+    both: both.length,
+    deep: both.filter((x) => x.growth <= -3).length,
+  };
+})();
+
+function rankEmploisEnRecul(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const { city, growth, unemployment, jobs } of reculEligible()) {
+    if (growth >= 0 || unemployment < UNEMPLOYMENT_NATIONAL) continue;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; 0,25 point par point d'emplois perdus,
+    // 0,1 par point de chômage au-dessus de la moyenne nationale, plafond 10/10.
+    const severity = Math.min(10, 6 + 0.25 * -growth + 0.1 * (unemployment - UNEMPLOYMENT_NATIONAL));
+    const reason = `${fmtOne(growth).replace("-", "−")} % d'emplois sur place entre ${JOBS_FROM} et ${RP_YEAR}${jobs != null ? ` (${fmtInt(jobs)} emplois en ${RP_YEAR})` : ""}, contre +${fmtOne(JOB_GROWTH_NATIONAL)} % pour la France · chômage des habitants à ${fmtOne(unemployment)} % contre ${fmtOne(UNEMPLOYMENT_NATIONAL)} % en moyenne`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3497,6 +3555,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : loyer T3 de référence × 12, divisé par le niveau de vie médian communal × 1,8 UC. Entrée à 35 % au moins. Severity = 6 + 0,25 × (taux en points au-dessus de 35), plafonnée à 10/10 (atteinte à 51 %) : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : métropole uniquement, population Insee 2022 ≥ 20 000 habitants, loyer et niveau de vie connus, soit " + CORPUS_LITTORAL.n + " villes ; le littoral ultramarin est exclu parce que Filosofi ne couvre ni la Guadeloupe, ni la Guyane, ni Mayotte, et que la comparaison serait inégale. Filtre littoral : mer ouverte à 10 km ou moins, `data/city-coast.json` (Natural Earth), avec un filtre de largeur d'eau. Sources : Insee, Filosofi 2021 via `lib/city-income.ts` (niveau de vie par unité de consommation, pas un salaire) ; Insee, recensement 2022 via `lib/city-population.ts` pour l'éligibilité ; `data/housing.ts` pour le loyer T3, un repère éditorial de marché et non une moyenne d'annonces. Cinq limites. Les revenus datent de 2021 et les loyers de 2026, donc les taux absolus sont surestimés et seul le classement tient. Le taux d'effort ne mesure ni la part de propriétaires, ni le parc social, ni l'effet des résidences secondaires, nombreuses sur le littoral et absentes du niveau de vie des résidents. La tranche de 1,8 UC est une hypothèse de ménage : la changer déplace le niveau du taux, pas l'ordre. Le seuil de 10 km est un choix, une ville à 11 km n'est pas moins littorale. Aucune causalité n'est affirmée. Distinct de `villes-pauvres-loyers-hauts` (pauvreté et loyer, sans notion de mer), de `villes-couts-explosifs` (dépenses mensuelles face à un proxy de salaire) et de `villes-achat-hors-de-portee` (prix d'achat rapporté au niveau de vie) : ici le loyer face au revenu local, restreint à la façade maritime.",
     rank: rankLittoralTauxEffort,
+  },
+  {
+    slug: "villes-emplois-en-recul",
+    title: "Villes où l'emploi recule alors que le chômage est déjà haut",
+    metaTitle: "Emplois en recul et chômage haut : 24 villes (2017-2023)",
+    metaDescription:
+      "24 villes de 20 000 habitants et plus où le nombre d'emplois a reculé depuis 2017 et où le chômage dépasse 11,4 % : Bagnolet, Trappes, Béthune, Douai, Belfort.",
+    emoji: "📉",
+    intro:
+      "Une ville peut perdre des habitants sans que son marché du travail s'effondre, et gagner des emplois sans que ses habitants en profitent. Le cas le plus net est plus rare et plus simple : le nombre d'emplois sur place baisse, alors que le chômage était déjà au-dessus de la moyenne. Dans un pays où le nombre d'emplois a progressé de 6,6 % entre 2017 et 2023, ces villes sont allées dans l'autre sens. Ce n'est pas un verdict sur leur qualité de vie. C'est un fait à connaître avant de s'y installer pour trouver un poste sur place : le marché local ne s'est pas élargi, il s'est resserré.",
+    reality:
+      "Ce classement ne repose sur aucun score : il croise deux mesures de l'Insee issues du recensement. La première est l'évolution du nombre d'emplois situés dans la commune entre " + JOBS_FROM + " et " + RP_YEAR + ". La seconde est le taux de chômage des 15-64 ans qui y habitent, au sens du recensement, dont la moyenne nationale est de " + fmtOne(UNEMPLOYMENT_NATIONAL) + " %. Sur les " + CORPUS_RECUL.n + " villes de 20 000 habitants et plus dont les deux chiffres sont publiés, la variation médiane des emplois est de +" + fmtOne(CORPUS_RECUL.medianGrowth) + " %. " + CORPUS_RECUL.fell + " villes comptent moins d'emplois en " + RP_YEAR + " qu'en " + JOBS_FROM + ", et " + CORPUS_RECUL.both + " d'entre elles cumulent ce recul avec un chômage au moins égal à la moyenne : ce sont celles du classement. Les " + CORPUS_RECUL.fellLowUnemployment + " autres perdent des emplois sur leur sol, mais leurs habitants ne sont pas plus au chômage que la moyenne, ce qui laisse penser à une commune dont les actifs travaillent ailleurs, sans que ces données le prouvent. En tête, Bagnolet (−9,2 % d'emplois, 16,8 % de chômage), Trappes (−7,3 %, 15,3 %) et Béthune (−5,8 %, 17,9 %). Douai perd 3,7 % de ses emplois pour un chômage de 21,6 %, Belfort 3,3 % pour 19,1 %, Montbéliard 1,5 % pour 20,8 %. Forbach (23,4 %) et Creil (23,5 %) ont les chômages les plus hauts de la liste, avec des reculs plus modestes. Deux géographies se dessinent : des communes de la petite couronne et du Val-d'Oise ou des Yvelines, où l'emploi se déplace dans l'agglomération, et des villes du Nord, de l'Est et du Centre, anciennes villes industrielles, où le recul accompagne un chômage durablement haut. Trois réserves. Les emplois sont ceux du lieu de travail : un recul peut tenir à un établissement qui déménage d'une commune à la voisine. Le chômage du recensement est déclaratif et plus élevé que celui publié chaque trimestre. Et deux dates ne font pas une tendance : 2017 et 2023 encadrent la période du Covid. Aucune causalité n'est affirmée.",
+    methodology:
+      "Indicateur : variation en % du nombre d'emplois situés dans la commune entre 2017 et 2023 (strictement négative), croisée avec un taux de chômage des 15-64 ans de la commune au moins égal à la moyenne nationale du recensement (11,4 %). Severity = 6 + 0,25 × (points d'emplois perdus) + 0,1 × (points de chômage au-dessus de 11,4), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, évolution de l'emploi et chômage publiés, soit " + CORPUS_RECUL.n + " villes ; la Guadeloupe, la Guyane et Mayotte sont hors du fichier mesuré, comme Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en 2025). Sources : Insee, recensement de la population " + RP_YEAR + ", emplois au lieu de travail et chômage des 15-64 ans, via `lib/city-employment.ts`. Le taux de chômage du recensement est déclaratif : il tourne plus haut que le taux BIT et les deux ne se comparent pas. Distinct de `villes-chomage-eleve` (score composite du site, sans évolution des emplois), de `villes-fuite-jeunes-actifs` et de `villes-qui-se-vident` (habitants et non emplois) : ici deux mesures publiées seulement, l'une sur le sol de la commune, l'autre sur ses habitants.",
+    rank: rankEmploisEnRecul,
   },
 ];
 

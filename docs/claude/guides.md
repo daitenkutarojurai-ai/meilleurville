@@ -2406,3 +2406,5 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 - 2026-11-18 : +8 jumelles `things-to-do-in-*` (rezé, suresnes, saint-maur-des-fossés, chelles, caluire-et-cuire, saint-herblain, talence, puteaux), mêmes chiffres que les guides FR.
 - Compteurs mesurés : FR 360 (`10-choses-a-faire-a[ux]*`), EN 357. Villes FR encore sans jumelle EN : nanterre, ivry-sur-seine.
 - Prochain lot : 2 jumelles EN restantes (+ batch FR de villes non couvertes, mesurer sur `CITIES_SEED`).
+
+**2026-11-18 (run contenu)** : +1 guide FR `prix-maison-m2-par-ville-560-villes-dvf-2026` et son jumeau EN `house-prices-per-m2-french-cities-560-cities-dvf-2026` (médianes DVF maisons 2024-2025, 560 villes ; pendant du guide appartements). Index de recherche régénéré. Prochain : maisons × niveau de vie si un angle distinct de `annees-de-niveau-de-vie-…` se justifie.

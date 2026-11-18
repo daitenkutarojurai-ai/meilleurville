@@ -128,3 +128,5 @@ d'attraction gagne — la méthodologie affichée le dit, ne pas l'alléger. Dis
 `villes-vieillissement-critique` et `villes-fuite-jeunes-actifs`, qui classent des scores de tension
 de `lib/demography.ts` : recouvrement mesuré de 4/15 et 2/15 sur le top 15.
 
+
+**2026-11-18 (run contenu)** : thème `villes-emplois-en-recul` 📉 (51ᵉ) — emplois au lieu de travail en recul 2017-2023 (Insee RP) ET chômage ≥ 11,4 % : 24 villes sur 413 (43 perdent des emplois, 19 écartées car chômage sous la moyenne). Mesures seulement, pas de score ; pas de jumelle EN. Prochain : thème sur une autre mesure Insee non encore croisée.

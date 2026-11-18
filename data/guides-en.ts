@@ -67002,6 +67002,58 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["house or apartment","price per m²","DVF","property prices by city","price gap","buying a house in France","city ranking","French property market"],
   },
   {
+    slug: "house-prices-per-m2-french-cities-560-cities-dvf-2026",
+    title: "House prices per m² in French cities: 560 cities ranked (DVF 2024-2025)",
+    metaTitle: "House prices per m² in French cities: 560 cities (2026)",
+    metaDesc: "Saint-Tropez €18,649/m², Vierzon €1,024/m²: median price of houses sold in 2024-2025 in 560 French cities, by region and size (DVF).",
+    category: "budget",
+    emoji: "🏡",
+    readMinutes: 9,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Across the 560 cities in our database where enough houses sold in 2024 and 2025, the median price is €3,090 per m². It tops €5,000 in 99 cities and stays under €2,000 in 150, from €18,649 in Saint-Tropez to €741 in Clamecy: a 25-to-1 spread. These are not asking prices. They are medians of actual sales recorded by notaries and published by the tax administration (the DVF file). This guide ranks the cities, separates Paris, the provinces and the resorts, and shows what 100 m² really costs. Alsace and Moselle, which run on a separate land register, are not in the file, nor is Mayotte.",
+    sections: [
+      {
+        heading: "Where do these prices come from, and what do they count?",
+        body: "They come from sale deeds. The tax administration publishes every property transaction as Demandes de valeurs foncières (DVF). We keep house sales from 2024 and 2025, one property per sale, and compute the median price per m² for each municipality. A median splits the cheaper half of sales from the dearer half, so one extraordinary estate does not move it. We publish a city only if at least 20 houses sold over the two years. One point matters a lot for houses: the price includes the land, while the surface counted is the built area only, and outbuildings (garage, cellar) are in the price but not in the surface. A house m² is therefore not an apartment m² to the euro; that is the notaries' convention. Our city profile also keeps a single editorial benchmark across all property types, which can differ from this measured figure without either being wrong."
+      },
+      {
+        heading: "Which cities have the most expensive houses?",
+        body: "Saint-Tropez comes first at €18,649 per m² (53 sales), ahead of Neuilly-sur-Seine (€16,333, 37 sales), Boulogne-Billancourt (€12,621), Paris (€12,300, 243 sales), Vincennes (€10,965) and Hossegor (€10,923, 134 sales). Next come Montrouge (€10,087), Puteaux (€9,829), Saint-Cloud (€9,580), Cassis (€9,458), Courbevoie (€9,159), Versailles (€8,935) and Issy-les-Moulineaux (€8,901). Of the top 25 cities, twenty are in Île-de-France and five are resorts: Saint-Tropez, Hossegor, Cassis, Arcachon (€8,344) and Biarritz (€8,232). At these levels 100 m² costs over a million euros in Paris (about €1,230,000). Watch the small samples: Neuilly, Puteaux, Montrouge and Pantin have fewer than 50 house sales over two years, so their rank is less stable than Paris or Versailles (171 sales)."
+      },
+      {
+        heading: "Which cities have the cheapest houses?",
+        body: "Industrial or rural towns in central, northern and eastern France. Clamecy is the cheapest in our database at €741 per m² (68 sales), ahead of Aubusson (€857), Denain (€878, 334 sales), Le Blanc (€892), Thiers (€1,000), Vierzon (€1,024, 620 sales), Issoudun (€1,026), Bellac (€1,037), Maubeuge (€1,087), Saint-Quentin (€1,087, 1,004 sales) and Montluçon (€1,088, 529 sales). 62 of the 560 cities stay under €1,500 per m². In Clamecy 100 m² costs about €74,000; in Vierzon about €102,000. At that price the purchase price is only part of the equation: look at the condition of the building, the energy rating, local demand and the job market before calling it a bargain."
+      },
+      {
+        heading: "How much does a house cost in the big cities?",
+        body: "From €1,867 per m² in Limoges to €12,621 in Boulogne-Billancourt, and the order is not the order of size. Among the 39 cities over 100,000 inhabitants we cover, Boulogne-Billancourt (€12,621) and Paris (€12,300) stand apart. Then come Nice (€6,455), Annecy (€6,237), Aix-en-Provence (€6,171), Montreuil (€6,000), Lyon (€5,583), Bordeaux (€4,899), Marseille (€4,667), Rennes (€4,529), Toulon (€4,518), Villeurbanne (€4,153) and Nantes (€4,128). Lower down: Montpellier (€3,889), Toulouse (€3,690), Caen (€3,545), Grenoble (€3,436), Dijon (€3,264), Tours (€3,246), Angers (€3,235), Nîmes (€2,852), Lille (€2,815), Rouen (€2,797), Brest (€2,394), Saint-Étienne (€2,164) and Limoges (€1,867). Strasbourg, under the land-register regime, has no DVF price."
+      },
+      {
+        heading: "Is Île-de-France more expensive than the rest of France?",
+        body: "Yes, by nearly €1,900 per m² in the median, but Provence-Alpes-Côte d'Azur beats it. The 158 Île-de-France cities have a median of €4,276 per m², against €2,386 for the 402 provincial cities. The median of the 48 Provence-Alpes-Côte d'Azur cities is €4,668, higher than Île-de-France: our hypothesis is that houses are scarce in town and coastal demand pulls prices up, which these data do not prove. In Île-de-France, 58 of 158 cities top €5,000; at the other end are Provins (€1,950), Étampes (€2,606), Savigny-le-Temple and Évry-Courcouronnes (€2,840), Mantes-la-Jolie (€2,852) and Meaux (€2,908). Outside the region, 75 cities top €4,000."
+      },
+      {
+        heading: "Which resorts and provincial towns have become unaffordable?",
+        body: "The Atlantic and Mediterranean coasts, a few Alpine towns and some fashionable hinterland villages. Outside Île-de-France the highest prices are Saint-Tropez (€18,649), Hossegor (€10,923), Cassis (€9,458), Arcachon (€8,344), Biarritz (€8,232), Sainte-Maxime (€7,500), Antibes (€6,992), Anglet (€6,719), Porto-Vecchio (€6,699), Cannes (€6,653), Valbonne (€6,598) and Gordes (€6,519), then Nice (€6,455). In these places the price partly reflects demand from non-residents rather than local incomes; our ranking of living standards by city lets you measure the gap. Apartment prices in the same resorts are in our guide to apartment prices per m²."
+      },
+      {
+        heading: "How do house prices vary by region?",
+        body: "The median city price runs from €1,611 in Bourgogne-Franche-Comté to €4,668 in Provence-Alpes-Côte d'Azur. Regional medians, calculated on the cities in our database (regions with six or more cities): Provence-Alpes-Côte d'Azur €4,668, Île-de-France €4,276, Pays de la Loire €2,936, Auvergne-Rhône-Alpes €2,920, Brittany €2,700, La Réunion €2,488, Normandy €2,346, Nouvelle-Aquitaine €2,135, Occitanie €2,030, Hauts-de-France €1,800, Centre-Val de Loire €1,758, Grand Est €1,667 and Bourgogne-Franche-Comté €1,611. Two reading traps. These are medians of cities, not weighted by population: a region with one big metropolis and many small towns shows a low median. And Grand Est here excludes Alsace and Moselle, which are not in DVF."
+      },
+      {
+        heading: "What does a 100 m² house cost in each city?",
+        body: "About €309,000 in the median city of our ranking, under €194,000 in one city in four and over €436,000 in one in four. Rough orders of magnitude for 100 m², multiplying the median price per m²: Paris about €1,230,000; Lyon €558,000; Bordeaux €490,000; Nantes €413,000; Toulouse €369,000; Lille €282,000; Brest €239,000; Saint-Étienne €216,000; Montluçon €109,000. The sum is crude: the price includes the land while the surface is built area only, and the average house sold is not 100 m². Compare cities at equal surface, and remember that a tight town house does not sell like a detached home with a garden."
+      },
+      {
+        heading: "How should you use this ranking before buying a house?",
+        body: "As a first filter, never as a valuation. For a given budget, spot the cities where your target surface fits, then cross-check with local living standards and the job market. To compare with flats, our guide to cities where a house is cheaper than an apartment gives the gap city by city. For a small town, look at the number of sales: below 50 in two years the market is narrow and resale can be slow (15 of the 560 cities are in that case). Limits: two years only (2024-2025), old and new homes mixed, a municipal price that hides large differences between districts, and a built-area surface that ignores the land."
+      }
+    ],
+    relatedCities: ["paris", "boulogne-billancourt", "neuilly-sur-seine", "saint-tropez", "hossegor", "arcachon", "biarritz", "lyon", "bordeaux", "nantes", "lille", "brest", "saint-etienne", "montlucon", "vierzon"],
+    tags: ["house prices by city", "price per m²", "DVF", "houses in France", "property transactions", "buying a house in France", "city ranking", "median price", "French property market"],
+  },
+  {
     slug: "buying-barn-to-convert-france-2026",
     title: "Buying a barn to convert in France 2026: planning, costs, regions",
     metaTitle: "Buying a barn to convert in France: permit, costs, regions",

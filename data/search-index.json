@@ -11652,6 +11652,11 @@
       "emoji": "🏡"
     },
     {
+      "slug": "prix-maison-m2-par-ville-560-villes-dvf-2026",
+      "title": "Prix d'une maison au m² par ville : 560 villes classées (DVF 2024-2025)",
+      "emoji": "🏡"
+    },
+    {
       "slug": "villes-30-44-ans-part-jeunes-parents-actifs-413-villes-2026",
       "title": "Où vivent les 30-44 ans ? La part des trentenaires et quadragénaires dans 413 villes",
       "emoji": "👨‍👩‍👧"
@@ -12284,6 +12289,11 @@
       "count": 7
     },
     {
+      "slug": "prix-au-m",
+      "label": "prix au m²",
+      "count": 7
+    },
+    {
       "slug": "que-faire-pres-de-paris",
       "label": "que faire près de Paris",
       "count": 7
@@ -12321,6 +12331,11 @@
     {
       "slug": "comparaison",
       "label": "comparaison",
+      "count": 6
+    },
+    {
+      "slug": "dvf",
+      "label": "DVF",
       "count": 6
     },
     {
@@ -12389,11 +12404,6 @@
       "count": 6
     },
     {
-      "slug": "prix-au-m",
-      "label": "prix au m²",
-      "count": 6
-    },
-    {
       "slug": "que-faire-dans-les-yvelines",
       "label": "que faire dans les Yvelines",
       "count": 6
@@ -12439,6 +12449,11 @@
       "count": 5
     },
     {
+      "slug": "classement-des-villes",
+      "label": "classement des villes",
+      "count": 5
+    },
+    {
       "slug": "classement-mensuel-villes-france",
       "label": "classement mensuel villes France",
       "count": 5
@@ -12451,11 +12466,6 @@
     {
       "slug": "demographie-par-ville",
       "label": "démographie par ville",
-      "count": 5
-    },
-    {
-      "slug": "dvf",
-      "label": "DVF",
       "count": 5
     },
     {
@@ -12589,11 +12599,6 @@
       "count": 4
     },
     {
-      "slug": "classement-des-villes",
-      "label": "classement des villes",
-      "count": 4
-    },
-    {
       "slug": "colmar",
       "label": "Colmar",
       "count": 4
@@ -12676,6 +12681,11 @@
     {
       "slug": "loyer",
       "label": "loyer",
+      "count": 4
+    },
+    {
+      "slug": "marche-immobilier",
+      "label": "marché immobilier",
       "count": 4
     },
     {
@@ -13074,6 +13084,11 @@
       "count": 3
     },
     {
+      "slug": "maison",
+      "label": "maison",
+      "count": 3
+    },
+    {
       "slug": "maprimerenov",
       "label": "MaPrimeRénov'",
       "count": 3
@@ -13081,11 +13096,6 @@
     {
       "slug": "marche-du-travail",
       "label": "marché du travail",
-      "count": 3
-    },
-    {
-      "slug": "marche-immobilier",
-      "label": "marché immobilier",
       "count": 3
     },
     {
@@ -13411,6 +13421,11 @@
     {
       "slug": "troyes",
       "label": "Troyes",
+      "count": 3
+    },
+    {
+      "slug": "valeurs-foncieres",
+      "label": "valeurs foncières",
       "count": 3
     },
     {
