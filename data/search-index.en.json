@@ -9437,6 +9437,36 @@
       "emoji": "🎭"
     },
     {
+      "slug": "solo-travel-in-pessac-2026",
+      "title": "Solo travel in Pessac (2026): Le Corbusier, Haut-Brion and tram B into Bordeaux",
+      "emoji": "🏛️"
+    },
+    {
+      "slug": "solo-travel-in-laval-2026",
+      "title": "Solo travel in Laval (2026): naïve art museum, old town and a two-room flat at 490 €",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "solo-travel-in-boulogne-sur-mer-2026",
+      "title": "Solo travel in Boulogne-sur-Mer (2026): Nausicaá, the upper town and a two-room flat at 580 €",
+      "emoji": "🐟"
+    },
+    {
+      "slug": "solo-travel-in-saint-brieuc-2026",
+      "title": "Solo travel in Saint-Brieuc (2026): the bay, a lively centre and a two-room flat at 580 €",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "solo-travel-in-saint-quentin-2026",
+      "title": "Solo travel in Saint-Quentin (2026): Art Deco, La Tour pastels and a two-room flat at 480 €",
+      "emoji": "🏙️"
+    },
+    {
+      "slug": "solo-travel-in-thionville-2026",
+      "title": "Solo travel in Thionville (2026): Moselle quays, forts and a two-room flat at 660 €",
+      "emoji": "🏰"
+    },
+    {
       "slug": "single-parent-in-annemasse-2026",
       "title": "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
       "emoji": "🧑‍🍼"
@@ -11311,7 +11341,17 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 96
+      "count": 97
+    },
+    {
+      "slug": "solo-travel",
+      "label": "solo travel",
+      "count": 92
+    },
+    {
+      "slug": "travelling-alone-in-france",
+      "label": "travelling alone in france",
+      "count": 92
     },
     {
       "slug": "occitanie",
@@ -11319,28 +11359,18 @@
       "count": 89
     },
     {
-      "slug": "solo-travel",
-      "label": "solo travel",
-      "count": 86
-    },
-    {
-      "slug": "travelling-alone-in-france",
-      "label": "travelling alone in france",
-      "count": 86
-    },
-    {
       "slug": "grand-est",
       "label": "grand est",
-      "count": 81
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 77
+      "count": 82
     },
     {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
+      "count": 79
+    },
+    {
+      "slug": "french-school-system",
+      "label": "french school system",
       "count": 77
     },
     {
@@ -11381,12 +11411,12 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 61
+      "count": 62
     },
     {
       "slug": "brittany",
       "label": "brittany",
-      "count": 58
+      "count": 59
     },
     {
       "slug": "single-supplement",

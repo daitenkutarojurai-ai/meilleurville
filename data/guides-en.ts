@@ -50837,6 +50837,246 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["solo travel","solo travel charleville-mezieres","travelling alone in france","ardennes","grand est"],
   },
   {
+    slug: "solo-travel-in-pessac-2026",
+    title: "Solo travel in Pessac (2026): Le Corbusier, Haut-Brion and tram B into Bordeaux",
+    metaTitle: "Solo Travel in Pessac 2026: Tram B, Budget, Campus",
+    metaDesc: "Pessac alone: 26.3% aged 15 to 29, the Frugès–Le Corbusier estate, tram B, a two-room flat at 800 €. Cost scores 4/10, stated plainly.",
+    category: "lifestyle",
+    emoji: "🏛️",
+    readMinutes: 4,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Pessac has 66,874 residents (INSEE 2022), with 26.3% aged 15 to 29 and only 22.4% aged 60 or over: by that measure it is a student town all year round, not a resort. Our profile gives 7.7/10 for transport, 5.7/10 for culture and 4/10 for cost. The reference two-room flat is 800 €, and the population has gained 5,015 residents since 2016. Treat Pessac as a base next to Bordeaux, not as an evening destination in its own right.",
+    sections: [
+      {
+        heading: "Why Pessac: a student town all year",
+        body: "26.3% aged 15 to 29 and 22.4% aged 60 or over: the town lives around the campus all year. The counterpoint is quantified: cost 4/10 and safety 4.9/10. A studio is 580 € and a two-room flat 800 € in our rent estimate: this is not a bargain stay.",
+      },
+      {
+        heading: "Where to stay: Saige or the centre, both on tram B",
+        body: "Our district notes cover two areas. Saige (student) scores 6.5/10 for evenings and 8/10 for transport, with a two-room flat at 720 €. Centre Pessac scores 6 and 7.8, for 850 €. Both are served by tram B. Saige is the cheaper and livelier choice.",
+      },
+      {
+        heading: "What to do: Le Corbusier, vineyards, cinema",
+        body: "The landmarks in our tourism guide: the UNESCO-listed Frugès–Le Corbusier estate, the municipal Maison Frugès–Le Corbusier, the Haut-Brion and Pape Clément châteaux, the Pessac-Léognan appellation, the Bourgailh ecosite and the Jean Eustache cinema. The international history film festival is listed without dates: confirm before you book.",
+      },
+      {
+        heading: "Off-season life: the campus runs September to June",
+        body: "With 26.3% aged 15 to 29, the town keeps people around outside the summer holidays. The evening score of 6.5/10 in the best district is under our 8.0/10 floor: you can go out, but the big night is back in Bordeaux. The student share drops in summer; our data does not quantify by how much.",
+      },
+      {
+        heading: "Getting around: tram B as the spine",
+        body: "Transport scores 7.7/10. Our district notes cite tram B for Saige and the centre. Our transport survey has no entry specific to Pessac: the rail link and night timetables are not in our data, so check before you book.",
+      },
+      {
+        heading: "When to go: 23 °C in July, 6.9 °C in January",
+        body: "Our profile gives 23 °C in July, 6.9 °C in January and 2,050 hours of sunshine. No monthly normals are published here. For the châteaux and the Bourgailh, late spring and September avoid the heat.",
+      },
+    ],
+    relatedCities: ["pessac","bordeaux"],
+    tags: ["solo travel","travelling alone in france","solo travel pessac","gironde","le corbusier pessac","nouvelle-aquitaine"],
+  },
+  {
+    slug: "solo-travel-in-laval-2026",
+    title: "Solo travel in Laval (2026): naïve art museum, old town and a two-room flat at 490 €",
+    metaTitle: "Solo Travel in Laval 2026: Budget, Old Town",
+    metaDesc: "Laval alone: 22.5% aged 15 to 29, a château, the Naïve Art museum, a lively old town, a two-room flat at 490 €. TGV in our survey.",
+    category: "lifestyle",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Laval has 49,474 residents (INSEE 2022), with 22.5% aged 15 to 29 and 27.8% aged 60 or over; the population is stable since 2016 (−18 residents). Our profile gives 7.2/10 for cost, 6.8/10 for safety and 4.8/10 for culture. The two-room flat is 490 €. Our transport survey lists a direct TGV. The stay rests on price and a medieval centre that goes out in the evening, not on a broad cultural scene.",
+    sections: [
+      {
+        heading: "The budget: a two-room flat at 490 €",
+        body: "A studio at 350 €, a two-room flat at 490 € and a purchase price of 1,550 € per square metre. Cost scores 7.2/10 and safety 6.8/10. The counterpoint is stated: culture is 4.8/10 and remote work 5.1/10, so little programming beyond what the tourist office announces.",
+      },
+      {
+        heading: "Where to stay: Vieux-Laval, the only district that goes out",
+        body: "Our district notes cover three areas. Vieux-Laval scores 6.5/10 for evenings and 7.5/10 for transport (two-room flat at 500 €), Saint-Nicolas 5 and 6.5, Le Moulin 5 and 6. To go out on foot, Vieux-Laval: medieval, shops, lively.",
+      },
+      {
+        heading: "What to do: château, naïve art, Port-du-Salut",
+        body: "The landmarks in our tourism guide: the château, the Naïve Art museum, the Art Deco municipal bathhouse, the medieval quarter around rue de Bootz and the Pont Vieux, the Trinity cathedral, Port-du-Salut abbey, and Sainte-Suzanne and Jublains as excursions.",
+      },
+      {
+        heading: "Off-season life: stable, half-student",
+        body: "22.5% aged 15 to 29 and 27.8% aged 60 or over, under our 32% ceiling. The population has not moved since 2016. The evening score of 6.5/10 is under our 8.0/10 floor: a November Thursday is quiet, but not empty.",
+      },
+      {
+        heading: "Getting around: TGV yes, tram no",
+        body: "Transport scores 5.5/10. Our survey lists a direct TGV and no tram or metro. Vieux-Laval scores 7.5/10 for transport: you get around on foot. Evening bus timetables are not in our data.",
+      },
+      {
+        heading: "When to go: 20.5 °C in July, 4.5 °C in January",
+        body: "Our profile gives 20.5 °C in July, 4.5 °C in January and 1,930 hours of sunshine. No monthly normals are published here. The excursions to Sainte-Suzanne and Jublains are better outside the cold months.",
+      },
+    ],
+    relatedCities: ["laval"],
+    tags: ["solo travel","travelling alone in france","solo travel laval","mayenne","naive art museum","pays de la loire"],
+  },
+  {
+    slug: "solo-travel-in-boulogne-sur-mer-2026",
+    title: "Solo travel in Boulogne-sur-Mer (2026): Nausicaá, the upper town and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Boulogne-sur-Mer 2026: Budget",
+    metaDesc: "Boulogne-sur-Mer alone: 22% aged 15 to 29, Nausicaá, ramparts, harbour, a two-room flat at 580 €. Safety scores 4.3/10, stated plainly.",
+    category: "lifestyle",
+    emoji: "🐟",
+    readMinutes: 4,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Boulogne-sur-Mer has 41,039 residents (INSEE 2022), with 22% aged 15 to 29 and 25.5% aged 60 or over; the town has lost 630 residents since 2016. Our profile gives 6.4/10 for cost, 5.9/10 for culture and 4.3/10 for safety. The two-room flat is 580 €. This is a North Sea stay with 1,620 hours of sunshine a year: you go for the harbour and Nausicaá, not for mild weather.",
+    sections: [
+      {
+        heading: "The budget: 580 € for a two-room flat, cost 6.4/10",
+        body: "A studio at 420 €, a two-room flat at 580 € and a purchase price of 1,900 € per square metre. The counterpoint is stated: safety scores 4.3/10 and transport 5.2/10. Remote work, at 4.3/10, does not suit a long stay.",
+      },
+      {
+        heading: "Where to stay: the lower town or the upper town",
+        body: "Our district notes cover three areas. The Basse-Ville scores 6.5/10 for evenings and 7.5/10 for transport (harbour, market, shops, lively), the Haute-Ville 6.5 and 7 (ramparts, cathedral), Outreau 4.5 and 7. To go out on foot, the Basse-Ville.",
+      },
+      {
+        heading: "What to do: Nausicaá, ramparts, fish auction",
+        body: "The landmarks in our tourism guide: Nausicaá, the fortified upper town and its ramparts, the fishing harbour and fish auction, the château-museum, then Wimereux, Cap Gris-Nez and Le Portel as excursions. No timetable or price is quoted here.",
+      },
+      {
+        heading: "Off-season life: real, but shrinking",
+        body: "22% aged 15 to 29 and 25.5% aged 60 or over, under our 32% ceiling. The population is down 1.5% since 2016. The evening score of 6.5/10 is under our 8.0/10 floor: the harbour and centre are alive, but the town does not transform at night.",
+      },
+      {
+        heading: "Getting around: no network in our survey",
+        body: "Our survey lists no TGV, tram or metro. Transport scores 5.2/10; the Basse-Ville and Outreau score 7.5 and 7/10. The rail link and night timetables are not in our data: check before you book.",
+      },
+      {
+        heading: "When to go: 19.5 °C in July, 4.5 °C in January",
+        body: "Our profile gives 19.5 °C in July, 4.5 °C in January and 1,620 hours of sunshine. No monthly normals are published here. For the coast, late spring and summer are the most comfortable.",
+      },
+    ],
+    relatedCities: ["boulogne-sur-mer"],
+    tags: ["solo travel","travelling alone in france","solo travel boulogne-sur-mer","pas-de-calais","nausicaa","hauts-de-france"],
+  },
+  {
+    slug: "solo-travel-in-saint-brieuc-2026",
+    title: "Solo travel in Saint-Brieuc (2026): the bay, a lively centre and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Saint-Brieuc 2026: Budget, Bay",
+    metaDesc: "Saint-Brieuc alone: 21% aged 15 to 29, a bay with big tides, a lively town centre, a two-room flat at 580 €. TGV in our survey.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 4,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Saint-Brieuc has 44,607 residents (INSEE 2022), with 21% aged 15 to 29 and 28.8% aged 60 or over. Our profile gives 6.4/10 for nature, 6.4/10 for cost and 4.9/10 for transport. The two-room flat is 580 €. Our transport survey lists a direct TGV. It is a base for the Goëlo coast and the bay, with a centre that goes out a little in the evening.",
+    sections: [
+      {
+        heading: "Why Saint-Brieuc: a Breton base at a middling price",
+        body: "A studio at 420 €, a two-room flat at 580 € and a purchase price of 1,800 € per square metre. Cost scores 6.4/10, nature 6.4/10, with 2,000 hours of sunshine in our profile. The counterpoint is stated: transport is only 4.9/10.",
+      },
+      {
+        heading: "Where to stay: the town centre",
+        body: "Our district notes cover three areas. The centre scores 6.5/10 for evenings and 7/10 for transport (two-room flat at 590 €), Cesson 4.5 and 6.5, Binic-Étables 5 and 5.5. To go out on foot, the centre.",
+      },
+      {
+        heading: "What to do: bay, cathedral, coast",
+        body: "The landmarks in our tourism guide: the bay of Saint-Brieuc and its tides, Saint-Étienne cathedral, the Plouha cliffs, Cap Fréhel, Bréhat island, and Paimpol, Dinan and Saint-Malo as excursions. The excursions need journeys our data does not detail.",
+      },
+      {
+        heading: "Off-season life: stable, resident-oriented",
+        body: "21% aged 15 to 29 and 28.8% aged 60 or over, under our 32% ceiling. The population is down 0.9% since 2016, which the census cannot tell apart from stability. The evening score of 6.5/10 is under our 8.0/10 floor.",
+      },
+      {
+        heading: "Getting around: TGV yes, urban network limited",
+        body: "Our survey lists a direct TGV and no tram or metro. Transport scores 4.9/10; the centre scores 7/10. For coastal excursions our survey says nothing about coaches: check.",
+      },
+      {
+        heading: "When to go: 19.5 °C in July, 5 °C in January",
+        body: "Our profile gives 19.5 °C in July, 5 °C in January and 2,000 hours of sunshine. No monthly normals are published here. For the coast and cliffs, late spring and summer are the most comfortable.",
+      },
+    ],
+    relatedCities: ["saint-brieuc"],
+    tags: ["solo travel","travelling alone in france","solo travel saint-brieuc","cotes-d'armor","brittany","bay of saint-brieuc"],
+  },
+  {
+    slug: "solo-travel-in-saint-quentin-2026",
+    title: "Solo travel in Saint-Quentin (2026): Art Deco, La Tour pastels and a two-room flat at 480 €",
+    metaTitle: "Solo Travel in Saint-Quentin 2026: Art Deco, Budget",
+    metaDesc: "Saint-Quentin alone: 20.3% aged 15 to 29, an Art Deco trail, the Lécuyer museum, a two-room flat at 480 €, culture 7.5/10. Safety 4.7/10.",
+    category: "lifestyle",
+    emoji: "🏙️",
+    readMinutes: 4,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Saint-Quentin has 52,995 residents (INSEE 2022), with 20.3% aged 15 to 29 and 28.3% aged 60 or over; the town has lost 1,378 residents since 2016. Our profile gives 8.3/10 for cost, 4.7/10 for safety and 7.7/10 for transport. The two-room flat is 480 €. For a solo stay it is a town of architecture and museums at a very low price, not a town of long nights.",
+    sections: [
+      {
+        heading: "The budget: a two-room flat at 480 €, cost 8.3/10",
+        body: "A studio at 350 €, a two-room flat at 480 € and a purchase price of 1,500 € per square metre. The counterpoint is stated: safety is 4.7/10, life 5.5/10 and nature 5/10.",
+      },
+      {
+        heading: "Where to stay: the Art Deco centre",
+        body: "Our district notes cover three areas. The Art Deco centre scores 6.5/10 for evenings (two-room flat at 490 €), Isle / Parc 5/10 and Remicourt 4/10. To go out on foot, the centre.",
+      },
+      {
+        heading: "What to do: basilica, Art Deco, pastels",
+        body: "The landmarks in our tourism guide: the basilica, the town hall, the Art Deco trail through the rebuilt town, the Antoine-Lécuyer museum and its La Tour pastels, the Marais d'Isle reserve and the Parc d'Isle. Opening hours are not quoted here.",
+      },
+      {
+        heading: "Off-season life: quiet, shrinking",
+        body: "20.3% aged 15 to 29 and 28.3% aged 60 or over, under our 32% ceiling. The population is down 2.5% since 2016. The evening score of 6.5/10 is under our 8.0/10 floor: on weeknights the centre empties early.",
+      },
+      {
+        heading: "Getting around: transport scores 7.7/10, survey silent",
+        body: "Transport scores 7.7/10 in our profile, but our survey lists no TGV, tram or metro. Rail links to Paris or Lille are not in our data: check before you book.",
+      },
+      {
+        heading: "When to go: 19 °C in July, 2.5 °C in January",
+        body: "Our profile gives 19 °C in July, 2.5 °C in January and 1,700 hours of sunshine. No monthly normals are published here. The museums work all year, the Marais d'Isle better in spring and summer.",
+      },
+    ],
+    relatedCities: ["saint-quentin"],
+    tags: ["solo travel","travelling alone in france","solo travel saint-quentin","aisne","art deco","hauts-de-france"],
+  },
+  {
+    slug: "solo-travel-in-thionville-2026",
+    title: "Solo travel in Thionville (2026): Moselle quays, forts and a two-room flat at 660 €",
+    metaTitle: "Solo Travel in Thionville 2026: Moselle, Budget",
+    metaDesc: "Thionville alone: 18.7% aged 15 to 29, a lively centre on the Moselle, the Tour aux Puces, a two-room flat at 660 €. A growing town.",
+    category: "lifestyle",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-18",
+    updatedAt: "2026-11-18",
+    intro: "Thionville has 42,778 residents (INSEE 2022), with 18.7% aged 15 to 29 and 25.9% aged 60 or over; it has gained 2,192 residents since 2016. Our profile gives 6.2/10 for cost, 6.1/10 for transport, 5.9/10 for culture and 5.1/10 for safety. The two-room flat is 660 €. The stay rests on the centre by the Moselle, not on a student population.",
+    sections: [
+      {
+        heading: "Why Thionville: a growing town, a centre that goes out",
+        body: "A studio at 480 €, a two-room flat at 660 € and a purchase price of 2,400 € per square metre. Cost scores 6.2/10. The town has gained 5.4% in residents since 2016, a rising trend. The counterpoint is stated: only 18.7% aged 15 to 29, and nature at 5/10.",
+      },
+      {
+        heading: "Where to stay: the town centre",
+        body: "Our district notes cover three areas. The centre scores 6.5/10 for evenings and 8/10 for transport (two-room flat at 670 €), Beauregard 4.5 and 6.5, Garche 3.5 and 5.5. To go out on foot, the centre.",
+      },
+      {
+        heading: "What to do: Tour aux Puces, belfry, forts",
+        body: "The landmarks in our tourism guide: the Tour aux Puces and its museum, the belfry, the old town and the Moselle quays, Guentrange fort, La Grange château at Manom, Hackenberg fort and the Puzzle cultural venue. Opening hours are not quoted here.",
+      },
+      {
+        heading: "Off-season life: driven by jobs, not the campus",
+        body: "18.7% aged 15 to 29, so few students, and 25.9% aged 60 or over. Our profile classes it as a cross-border town, with Luxembourg as the jobs engine: the town lives on the working week. The evening score of 6.5/10 is under our 8.0/10 floor.",
+      },
+      {
+        heading: "Getting around: centre scores 8/10 for transport",
+        body: "Transport scores 6.1/10 for the town and 8/10 for the centre. Our survey lists no TGV, tram or metro: the link to Metz and Luxembourg and night timetables are not in our data, so check before you book.",
+      },
+      {
+        heading: "When to go: 20.5 °C in July, 2.5 °C in January",
+        body: "Our profile gives 20.5 °C in July, 2.5 °C in January and 1,750 hours of sunshine. No monthly normals are published here. The forts and the Moselle are best from late spring to September.",
+      },
+    ],
+    relatedCities: ["thionville"],
+    tags: ["solo travel","travelling alone in france","solo travel thionville","moselle","grand est","moselle quays"],
+  },
+  {
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
