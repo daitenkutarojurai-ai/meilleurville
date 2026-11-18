@@ -67183,6 +67183,72 @@ export const EN_GUIDES: EnGuide[] = [
       "apartments"
     ]
   },
+  {
+      "slug": "building-a-house-in-france-2026-land-contract-costs",
+      "title": "Building a House in France in 2026: Land, Contract, Real Costs",
+      "metaTitle": "Building a House in France 2026: Land, CCMI, Real Costs",
+      "metaDesc": "Building a new house in France: land checks, the CCMI fixed-price contract, RE2020 energy rules, timeline and the costs buyers forget. Plain-English guide.",
+      "category": "budget",
+      "emoji": "🏗️",
+      "readMinutes": 9,
+      "publishedAt": "2026-11-18",
+      "updatedAt": "2026-11-18",
+      "intro": "Building in France usually costs more than buying an old house and renovating it, and it takes 18 to 30 months from land purchase to move-in. What you get for the extra money is a new home built to the RE2020 energy standard (the current French building regulation) and a ten-year builder's warranty. As a planning benchmark, a 100 m² house with a garage lands around €280,000 to €450,000 all-in, land included, depending on the region. This guide covers where the money goes, the contract that protects you, and the checks to make before you sign anything for the plot.",
+      "sections": [
+          {
+              "heading": "What does a new house in France really cost?",
+              "body": "For a 100 m² three-bedroom house, plan on four blocks of spending. Serviced land (a plot already connected to the road and mains) runs from roughly €60,000 in rural areas to €180,000 around a mid-sized city, and well above that near Paris, Lyon or Bordeaux. The build itself is roughly €1,800 to €2,100 per m² with a package builder and €2,200 to €2,800 per m² with an architect or site manager hiring trades separately, so €180,000 to €280,000 for 100 m². Add soil survey, insurance and fees (a few thousand euros each), utility connections (€5,000 to €25,000 depending on distance from the networks) and the outdoor work: fencing, driveway, terrace, planting (€8,000 to €25,000). These are our editorial ranges for planning, not quotes: get written estimates before you commit."
+          },
+          {
+              "heading": "How do build costs differ by region?",
+              "body": "Brittany, Pays de la Loire, Normandy, Centre-Val de Loire, Hauts-de-France and Grand Est sit at the low end of the build range, roughly €1,800 to €2,200 per m² for a standard package build. Nouvelle-Aquitaine and Burgundy run slightly higher, Occitanie and inland Provence higher again, and the Riviera coast and Paris region reach €2,400 to €2,900 per m² because trades are scarce. Alpine resort areas can go beyond €2,800 per m² (snow load, access, tougher seismic rules) and the overseas departments add cyclone-resistant construction and imported materials. The gap between regions is bigger for land than for construction, so the land price usually decides the total."
+          },
+          {
+              "heading": "How do you check a plot is buildable before you sign?",
+              "body": "Never rely on the seller's word that land is « constructible ». Before the preliminary sale agreement (compromis de vente), ask the town hall for a certificat d'urbanisme opérationnel, which confirms in writing that your project can be built on that plot. Read the local zoning plan (PLU, plan local d'urbanisme) for the zone, maximum footprint and height, and check easements such as shared driveways, pipes and rights of way. Pull the natural-risk report for the address on the government Géorisques website: flooding, shrink-swell clay and landslide risk all change the foundation bill. Get utility connection quotes from the electricity network operator and the water provider before you commit, because a plot far from the mains can add tens of thousands of euros. Make the sale conditional on obtaining the building permit and your mortgage."
+          },
+          {
+              "heading": "What is the CCMI contract and why does it matter?",
+              "body": "The CCMI (contrat de construction de maison individuelle) is the regulated fixed-price contract for a single-family house, governed by a 1990 law. One builder designs and builds the house for a firm price and a contractual completion date. It must come with a completion guarantee at the agreed price and date (garantie de livraison à prix et délais convenus), which pays for the house to be finished if the builder goes bust. It also carries the ten-year structural warranty (garantie décennale), and you must take out damage insurance (dommages-ouvrage) before work starts. The trade-off is standardised plans: you choose from the builder's range and adapt it, rather than designing from scratch. Check that the guarantee is issued by a bank or insurer, not just promised in the brochure."
+          },
+          {
+              "heading": "CCMI or architect-led build: which should you pick?",
+              "body": "A package builder under CCMI suits a first build of moderate size (up to about 130 m²) on a simple plot: one contract, one price, one counterpart if something goes wrong. An architect or independent site manager with separate trades gives you custom design and better handling of an awkward site, but you carry the coordination risk, and a trade going bankrupt mid-job becomes your problem, so insist on each firm's ten-year insurance certificate. Expect higher cost per m² and a price that can drift 5 to 15 % during the job unless contracts are fixed. Self-build with kits is a third route with its own pitfalls: see our guide to self-build kit houses in France."
+          },
+          {
+              "heading": "What does the RE2020 energy standard change?",
+              "body": "Every new house permitted since 2022 must meet RE2020, the environmental building regulation that replaced RT2012. It caps heating demand, limits the carbon footprint of materials and operation, which favours timber, fired clay and bio-based insulation, and sets a summer-comfort test so the house doesn't overheat. It adds a few percent to the build price compared with the previous rules, in return for very low heating bills and an A-grade energy label (DPE, the diagnostic that rates a home's energy use from A to G). One caveat in the south: the regulatory minimum for summer comfort is not always enough. Orientation, roof overhangs, shutters and through-ventilation matter more there than the label."
+          },
+          {
+              "heading": "How long does it take from land to keys?",
+              "body": "Budget 18 to 30 months end to end. Finding land takes 3 to 12 months. The preliminary agreement, loan approval and building permit take 4 to 7 months; the permit itself is decided in about two months in a straightforward case, and a neighbour's appeal can add several months. Site preparation (soil tests, connections) takes 1 to 3 months. The build is 10 to 14 months for a standard 100 m² package house and 14 to 20 for a bespoke one. CCMI contracts set late-delivery penalties, so read the daily rate and any cap. Plan temporary housing, usually a rental, for the whole period, and remember you may pay rent and loan interest at the same time."
+          },
+          {
+              "heading": "What are the common mistakes?",
+              "body": "The expensive ones are almost always about the ground and the paperwork. Skipping or skimping on the soil study: in clay-heavy areas, foundations that were not designed for the soil crack within years, and repairs cost tens of thousands. Underestimating utility connections. Discovering a hidden constraint late, such as an old quarry, a filled pond or a drainage easement. Signing with a builder without checking the completion guarantee. Buying a plot in an area where a neighbour is likely to challenge the permit. And in the south, assuming the energy label guarantees summer comfort. Each of these can be checked on paper before you commit."
+          },
+          {
+              "heading": "Where does building make sense, and when should you buy old instead?",
+              "body": "Building is most defensible where land is cheap and the area is serviced: inland Brittany, rural Pays de la Loire, Centre-Val de Loire, parts of inland Nouvelle-Aquitaine, Hauts-de-France and Grand Est. Near tight markets such as Paris outskirts, Annecy or the Bordeaux ring, land is scarce and permits slow. Building gives you a new, efficient, warrantied house and a design that fits you; buying an old house gives you an established location, usually a lower purchase price, and a renovation bill that is easy to underestimate. As a rough planning rule, building needs about 20 % more budget than buying and renovating, in exchange for lower running costs and ten years of warranty. If your search is for a ready-made home instead, start with our guides on renovating an old French house and on energy ratings (DPE F and G) when buying."
+          }
+      ],
+      "relatedCities": [
+          "rennes",
+          "nantes",
+          "tours",
+          "limoges",
+          "aurillac"
+      ],
+      "tags": [
+          "building a house",
+          "CCMI",
+          "RE2020",
+          "land",
+          "building permit",
+          "new build",
+          "buying property"
+      ]
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

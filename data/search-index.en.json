@@ -11185,6 +11185,11 @@
       "slug": "price-per-m2-spread-within-french-cities-383-cities-dvf-2026",
       "title": "How much does the price per m² vary within a French city? 383 cities ranked (2024–2025 sales)",
       "emoji": "📏"
+    },
+    {
+      "slug": "building-a-house-in-france-2026-land-contract-costs",
+      "title": "Building a House in France in 2026: Land, Contract, Real Costs",
+      "emoji": "🏗️"
     }
   ],
   "tags": [
@@ -11534,6 +11539,11 @@
       "count": 8
     },
     {
+      "slug": "buying-property",
+      "label": "buying property",
+      "count": 8
+    },
+    {
       "slug": "france-climate-2040",
       "label": "france climate 2040",
       "count": 8
@@ -11566,11 +11576,6 @@
     {
       "slug": "alps",
       "label": "alps",
-      "count": 7
-    },
-    {
-      "slug": "buying-property",
-      "label": "buying property",
       "count": 7
     },
     {
