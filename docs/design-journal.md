@@ -1679,3 +1679,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
 2. Page agenda.
 3. Hub `/comparer` (FR) + `/compare` (EN).
+
+## 2026-11-18 ~11:00 UTC — hub `/villes` (FR) + EN `/cities` + `VillesSearch` (partagé)
+
+**Surface** : le hub de navigation de toutes les villes. Avant : hero sur fond uni (FR + `AmbientBackground`), stats en pilule `glass` avec « 3 % » en `purple-500` décoratif (contraste < 4,5:1), recherche `glass-strong` et bouton Filtres blanc ; panneau de filtres gris à puces filet gris ; grille et index A → Z posés sur le canevas ; en FR, terrain affiché avec un emoji en double (« 🌾 🌾 Plaine »).
+
+**Changé** : hero en `.bg-aurora` + `EmojiBadge` 🧭, titre dégradé (EN `.gradient-text`) ; stats en tuiles pastel indigo / rose / cyan (point de palier violet devant « ≥ 7.5 ») ; recherche + grille en bande `band-sky` (fond collant mobile accordé au ciel) ; bouton Filtres en dégradé `grad-head-0` (`grad-head-5` ouvert, `aria-expanded`) ; panneau de filtres blanc à bandeau `grad-head-0` 🎛️, libellés de groupe à pastille d'icône teintée, puces actives en dégradé indigo → violet ; compteur en pilule ; « Afficher les N villes restantes » en dégradé ; état vide en carte rose + `EmojiBadge` ; index A → Z en bande `band-lilac`, `<details>` à bandeau `grad-head-4`. Copie, tri, cartes `CityCard` et couleurs de palier inchangés.
+
+**Fichiers** : `app/villes/page.tsx`, `app/[locale]/cities/page.tsx`, `components/VillesSearch.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 3 fichiers : 0 problème. Captures playwright `/villes` et `/en/cities` 1440 et 390 px (+ panneau de filtres ouvert), `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
+2. `components/ui/Badge.tsx` / `Button.tsx` variante `secondary` (encore blanche à filet gris, partout).
+3. Hub `/avis` (FR) + EN `/reviews`.

@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { AmbientBackground } from "@/components/AmbientBackground";
+import { EmojiBadge } from "@/components/EmojiBadge";
+import { scoreHex } from "@/lib/utils";
 import { VillesSearch } from "@/components/VillesSearch";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT, LEAN_META } from "@/lib/cities-light";
@@ -26,13 +27,14 @@ export default function VillesPage() {
   ]);
 
   return (
-    <main id="main-content" className="min-h-screen relative">
+    <main id="main-content" className="min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
-      <AmbientBackground />
       <Navbar />
 
-      <section className="relative pt-20 pb-10">
+      {/* Hero en aurore, pastille emoji, titre dégradé (identité « Couleurs ») */}
+      <section className="relative overflow-hidden bg-aurora pt-14 pb-12 sm:pt-20">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
+          <EmojiBadge emoji="🧭" tone="indigo" size="lg" className="mb-5 shadow-[0_12px_28px_-12px_rgba(79,70,229,0.6)]" />
           <p className="text-xs uppercase tracking-widest text-[var(--accent)] font-semibold mb-2">
             🌍 {count} villes profilées
           </p>
@@ -42,52 +44,66 @@ export default function VillesPage() {
           </h1>
           <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
             Scores calibrés sur Insee + Ministère Intérieur,{" "}
-            <Link href="/avis" className="text-[var(--accent)] hover:underline">
+            <Link href="/avis" className="font-medium text-[var(--accent)] hover:underline">
               avis d&apos;habitants
             </Link>
             , données locales. Filtrez, triez, comparez — sans bullshit.
           </p>
 
-          {/* Honest mini stats */}
-          <div className="mt-8 inline-flex flex-wrap items-center justify-center gap-x-6 gap-y-2 rounded-2xl glass border border-white/50 px-6 py-3 shadow-md">
-            <span className="flex items-center gap-1.5 text-sm">
-              <span className="font-bold font-mono-data text-[var(--text-primary)]">{count}</span>
-              <span className="text-[var(--text-secondary)]">villes</span>
-            </span>
-            <span className="text-[var(--border)]">·</span>
-            <span className="flex items-center gap-1.5 text-sm">
-              <span className="font-bold font-mono-data text-[var(--accent)]">{avg}</span>
-              <span className="text-[var(--text-secondary)]">/10 score moyen</span>
-            </span>
-            <span className="text-[var(--border)]">·</span>
-            <span className="flex items-center gap-1.5 text-sm">
-              <span className="font-bold font-mono-data text-purple-500">{topPct}%</span>
-              <span className="text-[var(--text-secondary)]">avec score ≥ 7.5</span>
-            </span>
-          </div>
+          {/* Honest mini stats, en tuiles pastel */}
+          <dl className="mx-auto mt-8 grid max-w-2xl grid-cols-3 gap-2 sm:gap-3">
+            <div className="rounded-2xl bg-white/85 px-2 py-3 shadow-[0_10px_24px_-16px_rgba(79,70,229,0.6)] ring-1 ring-[#C7D2FE]">
+              <dt className="sr-only">Villes</dt>
+              <dd className="font-mono-data text-2xl font-bold text-[#4338CA]">{count}</dd>
+              <dd className="text-xs text-[var(--text-secondary)]">villes</dd>
+            </div>
+            <div className="rounded-2xl bg-white/85 px-2 py-3 shadow-[0_10px_24px_-16px_rgba(219,39,119,0.6)] ring-1 ring-[#FBCFE8]">
+              <dt className="sr-only">Score moyen</dt>
+              <dd className="font-mono-data text-2xl font-bold text-[#BE185D]">{avg}</dd>
+              <dd className="text-xs text-[var(--text-secondary)]">/10 score moyen</dd>
+            </div>
+            <div className="rounded-2xl bg-white/85 px-2 py-3 shadow-[0_10px_24px_-16px_rgba(8,145,178,0.6)] ring-1 ring-[#A5F3FC]">
+              <dt className="sr-only">Part des villes notées 7,5 ou plus</dt>
+              <dd className="flex items-center justify-center gap-1.5 font-mono-data text-2xl font-bold text-[#0E7490]">
+                <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ backgroundColor: scoreHex(7.5) }} aria-hidden />
+                {topPct}%
+              </dd>
+              <dd className="text-xs text-[var(--text-secondary)]">avec score ≥ 7.5</dd>
+            </div>
+          </dl>
         </div>
       </section>
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 pb-16">
-        <VillesSearch cities={CITIES_LIGHT} leanMeta={LEAN_META} />
-        {/* La grille ne rend que ses 60 premières cartes (le reste au clic). Cet
-            index donne un lien HTML vers chaque ville, lisible sans JavaScript :
-            deux balises par ville, styles portés par la liste. */}
-        <details className="mt-10 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-          <summary className="cursor-pointer text-sm font-semibold text-[var(--accent)]">
-            Index A → Z des {CITIES_LIGHT.length} villes
-          </summary>
-          <ul className="mt-4 columns-2 gap-x-6 text-sm sm:columns-3 lg:columns-4 [&_a]:inline-block [&_a]:py-1.5 [&_a]:text-[var(--text-secondary)] [&_a:hover]:text-[var(--accent)]">
-            {[...CITIES_LIGHT]
-              .sort((a, b) => a.name.localeCompare(b.name, "fr"))
-              .map((c) => (
-                <li key={c.slug}>
-                  <Link href={`/villes/${c.slug}`}>{c.name}</Link>
-                </li>
-              ))}
-          </ul>
-        </details>
-      </div>
+      {/* Recherche + grille en bande ciel */}
+      <section className="band band-sky">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
+          <VillesSearch cities={CITIES_LIGHT} leanMeta={LEAN_META} />
+        </div>
+      </section>
+
+      {/* La grille ne rend que ses 60 premières cartes (le reste au clic). Cet
+          index donne un lien HTML vers chaque ville, lisible sans JavaScript :
+          deux balises par ville, styles portés par la liste. */}
+      <section className="band band-lilac">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 py-10">
+          <details className="group overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-20px_rgba(124,58,237,0.6)]">
+            <summary className="grad-head-4 flex cursor-pointer list-none items-center gap-3 px-5 py-4 text-sm font-semibold [&::-webkit-details-marker]:hidden">
+              <span aria-hidden className="text-lg leading-none">🔤</span>
+              <span className="flex-1">Index A → Z des {CITIES_LIGHT.length} villes</span>
+              <span aria-hidden className="text-lg leading-none transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <ul className="columns-2 gap-x-6 p-5 text-sm sm:columns-3 lg:columns-4 [&_a]:inline-block [&_a]:py-1.5 [&_a]:text-[var(--text-secondary)] [&_a:hover]:text-[var(--accent)]">
+              {[...CITIES_LIGHT]
+                .sort((a, b) => a.name.localeCompare(b.name, "fr"))
+                .map((c) => (
+                  <li key={c.slug}>
+                    <Link href={`/villes/${c.slug}`}>{c.name}</Link>
+                  </li>
+                ))}
+            </ul>
+          </details>
+        </div>
+      </section>
 
       <Footer />
     </main>

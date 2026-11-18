@@ -4,7 +4,7 @@ import { Search, SlidersHorizontal, X, ArrowUpDown, Tag, Users, Mountain, MapPin
 import type { CityLight, LeanMeta } from "@/lib/cities-light";
 import { CityCard } from "@/components/CityCard";
 import { Badge } from "@/components/ui/Badge";
-import { Button } from "@/components/ui/Button";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { cn } from "@/lib/utils";
 import type { City } from "@/lib/types";
 import { computeNicheScores, TERRAIN_LABELS, type Terrain } from "@/lib/niche-scores";
@@ -80,6 +80,17 @@ const TERRAIN_LABELS_EN: Record<Terrain, string> = {
   plaine: "Plains",
   vallee: "Valley",
 };
+
+// Puces de filtre « Couleurs » : inactives blanches à anneau indigo pâle,
+// actives en dégradé indigo → violet (texte blanc, ≥ 4,5:1 aux deux bouts).
+const CHIP_ON = "grad-head-0 border-transparent shadow-[0_6px_14px_-8px_rgba(79,70,229,0.8)]";
+const CHIP_OFF = "border-[#C7D2FE] bg-white text-[var(--text-secondary)] hover:bg-[var(--band-indigo)] hover:text-[#4338CA]";
+// Libellés de groupe : icône dans une pastille teintée, en rotation indigo / rose / cyan.
+const GROUP_ICON = [
+  "bg-[var(--band-indigo)] text-[#4338CA]",
+  "bg-[var(--band-pink)] text-[#BE185D]",
+  "bg-[var(--band-aqua)] text-[#0E7490]",
+] as const;
 
 function normalize(s: string): string {
   return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "");
@@ -230,8 +241,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
       {/* Search & filter bar. One row at every width: stacking it on mobile made
           the sticky block ~110px tall with a transparent gap the cards scrolled
           through. The opaque backdrop below sm is what keeps them behind it. */}
-      <div className="mb-6 sticky top-[var(--nav-h)] transition-[top] duration-300 z-30 flex gap-2 sm:gap-3 max-sm:bg-[var(--bg-canvas)]/95 max-sm:backdrop-blur-sm max-sm:py-2">
-        <div className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl glass-strong border border-white/60 px-3 py-3 sm:px-4 shadow-md focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/30 transition-all">
+      <div className="mb-6 sticky top-[var(--nav-h)] transition-[top] duration-300 z-30 flex gap-2 sm:gap-3 max-sm:bg-[#DFEEFF]/95 max-sm:backdrop-blur-sm max-sm:py-2">
+        <div className="flex min-w-0 flex-1 items-center gap-2 rounded-2xl bg-white ring-1 ring-[#C7D2FE] px-3 py-3 sm:px-4 shadow-[0_10px_24px_-16px_rgba(79,70,229,0.6)] focus-within:shadow-lg focus-within:ring-2 focus-within:ring-[var(--accent)]/50 transition-all">
           <Search className="h-4 w-4 flex-shrink-0 text-[var(--accent)]" />
           <input
             type="search"
@@ -250,37 +261,47 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
             </button>
           )}
         </div>
-        <Button
-          variant="secondary"
-          className="flex-shrink-0 gap-2 whitespace-nowrap max-sm:px-3"
+        <button
+          type="button"
+          className={cn(
+            "flex flex-shrink-0 items-center gap-2 whitespace-nowrap rounded-2xl px-4 text-sm font-semibold transition-shadow max-sm:px-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]",
+            showFilters
+              ? "grad-head-5 shadow-[0_10px_24px_-12px_rgba(219,39,119,0.7)]"
+              : "grad-head-0 shadow-[0_10px_24px_-12px_rgba(79,70,229,0.7)] hover:shadow-[0_12px_28px_-10px_rgba(79,70,229,0.8)]"
+          )}
           onClick={() => setShowFilters(!showFilters)}
           aria-label={L("Filtres", "Filters")}
+          aria-expanded={showFilters}
         >
           <SlidersHorizontal className="h-4 w-4" />
           <span className="max-sm:sr-only">{L("Filtres", "Filters")}</span>
           {hasFilters && (
-            <span className="flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-[var(--accent)] text-[10px] text-white">
+            <span className="flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full bg-white text-[10px] font-bold text-[#BE185D]">
               !
             </span>
           )}
-        </Button>
+        </button>
       </div>
 
       {/* Filters panel */}
       {showFilters && (
-        <div className="mb-6 rounded-2xl border border-[var(--border)] bg-gradient-to-b from-[var(--bg-surface)] to-[var(--bg-elevated)]/40 ring-1 ring-black/[0.03] shadow-lg shadow-[var(--accent)]/[0.04] p-5 space-y-5">
-          <div className="flex items-center justify-between">
-            <span className="text-sm font-semibold text-[var(--text-primary)]">{L("Filtres", "Filters")}</span>
+        <div className="mb-6 overflow-hidden rounded-2xl bg-white shadow-[0_16px_36px_-22px_rgba(79,70,229,0.7)]">
+          <div className="grad-head-0 flex items-center justify-between gap-3 px-5 py-3">
+            <span className="flex items-center gap-2 text-sm font-semibold">
+              <span aria-hidden>🎛️</span>
+              {L("Filtres", "Filters")}
+            </span>
             {hasFilters && (
-              <button onClick={clearFilters} className="text-xs text-[var(--accent)] hover:underline">
+              <button onClick={clearFilters} className="rounded-full bg-white/20 px-3 py-1 text-xs font-semibold text-white transition-colors hover:bg-white/30">
                 {L("Réinitialiser", "Reset")}
               </button>
             )}
           </div>
+          <div className="space-y-5 p-5">
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <ArrowUpDown className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Trier par", "Sort by")}
+            <label className="text-xs font-semibold text-[var(--text-primary)] flex items-center gap-2 mb-2">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[0]}`} aria-hidden><ArrowUpDown className="h-3.5 w-3.5" /></span> {L("Trier par", "Sort by")}
             </label>
             <div className="flex flex-wrap gap-2">
               {SORT_OPTIONS.map((opt) => (
@@ -291,8 +312,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                   className={cn(
                     "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                     sortBy === opt.id
-                      ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                      : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                      ? CHIP_ON
+                      : CHIP_OFF
                   )}
                 >
                   <span aria-hidden>{opt.emoji}</span>
@@ -303,8 +324,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <Tag className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Ambiance / Profil", "Vibe / profile")}
+            <label className="text-xs font-semibold text-[var(--text-primary)] flex items-center gap-2 mb-2">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[1]}`} aria-hidden><Tag className="h-3.5 w-3.5" /></span> {L("Ambiance / Profil", "Vibe / profile")}
             </label>
             <div className="flex flex-wrap gap-2">
               <button
@@ -313,8 +334,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                 className={cn(
                   "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                   tag === ""
-                    ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                    : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                    ? CHIP_ON
+                    : CHIP_OFF
                 )}
               >
                 {L("Toutes", "All")}
@@ -327,8 +348,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                   className={cn(
                     "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer capitalize",
                     tag === t
-                      ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                      : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                      ? CHIP_ON
+                      : CHIP_OFF
                   )}
                 >
                   <span aria-hidden>{emoji}</span>
@@ -339,8 +360,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] flex flex-wrap items-center gap-1.5 mb-2">
-              <Users className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Profils de vie · niche", "Lifestyle profiles · niche")}
+            <label className="text-xs font-semibold text-[var(--text-primary)] flex flex-wrap items-center gap-2 mb-2">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[2]}`} aria-hidden><Users className="h-3.5 w-3.5" /></span> {L("Profils de vie · niche", "Lifestyle profiles · niche")}
               {niches.size > 0 && (
                 <span className="ml-2 text-[10px] text-[var(--text-tertiary)]">
                   {L("Score mini :", "Min score:")} <span className="font-mono-data font-bold">{nicheMin.toFixed(1)}</span>/10
@@ -359,8 +380,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                     className={cn(
                       "rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                       active
-                        ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                        : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                        ? CHIP_ON
+                        : CHIP_OFF
                     )}
                   >
                     {locale === "en" ? n.labelEn : n.label}
@@ -383,8 +404,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
           </div>
 
           <div>
-            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <Mountain className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Terrain", "Terrain")}
+            <label className="text-xs font-semibold text-[var(--text-primary)] flex items-center gap-2 mb-2">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[0]}`} aria-hidden><Mountain className="h-3.5 w-3.5" /></span> {L("Terrain", "Terrain")}
             </label>
             <div className="flex flex-wrap gap-2">
               {TERRAIN_OPTIONS.map((t) => {
@@ -397,12 +418,12 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                     className={cn(
                       "flex items-center gap-1.5 rounded-xl border px-3 py-1.5 text-xs font-medium transition-colors cursor-pointer",
                       active
-                        ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]"
-                        : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"
+                        ? CHIP_ON
+                        : CHIP_OFF
                     )}
                   >
                     <span aria-hidden>{TERRAIN_EMOJIS[t]}</span>
-                    {locale === "en" ? TERRAIN_LABELS_EN[t] : TERRAIN_LABELS[t]}
+                    {locale === "en" ? TERRAIN_LABELS_EN[t] : TERRAIN_LABELS[t].replace(/^\S+\s/u, "")}
                   </button>
                 );
               })}
@@ -411,14 +432,14 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div>
-              <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Région", "Region")}
+              <label className="text-xs font-semibold text-[var(--text-primary)] flex items-center gap-2 mb-2">
+                <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[1]}`} aria-hidden><MapPin className="h-3.5 w-3.5" /></span> {L("Région", "Region")}
               </label>
               <select
                 value={region}
                 onChange={(e) => { setRegion(e.target.value); setDept(""); }}
                 aria-label={L("Filtrer par région", "Filter by region")}
-                className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
+                className="w-full rounded-xl border border-[#C7D2FE] bg-[#F5F7FF] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
                 <option value="">{L("Toutes les régions", "All regions")}</option>
                 {REGIONS.map((r) => (
@@ -428,14 +449,14 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
             </div>
 
             <div>
-              <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-                <MapPin className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Département", "Department")}
+              <label className="text-xs font-semibold text-[var(--text-primary)] flex items-center gap-2 mb-2">
+                <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[2]}`} aria-hidden><MapPin className="h-3.5 w-3.5" /></span> {L("Département", "Department")}
               </label>
               <select
                 value={dept}
                 onChange={(e) => { setDept(e.target.value); setRegion(""); }}
                 aria-label={L("Filtrer par département", "Filter by department")}
-                className="w-full rounded-xl border border-[var(--border)] bg-[var(--bg-canvas)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
+                className="w-full rounded-xl border border-[#C7D2FE] bg-[#F5F7FF] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[var(--accent)]/50 transition-colors cursor-pointer"
               >
                 <option value="">{L("Tous les départements", "All departments")}</option>
                 {DEPARTMENTS.map((d) => (
@@ -446,15 +467,15 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
           </div>
 
           <div className="mt-4">
-            <label className="text-xs text-[var(--text-secondary)] flex items-center gap-1.5 mb-2">
-              <Vote className="h-3.5 w-3.5 text-[var(--accent)]" /> {L("Orientation politique", "Political leaning")}
+            <label className="text-xs font-semibold text-[var(--text-primary)] flex items-center gap-2 mb-2">
+              <span className={`flex h-6 w-6 items-center justify-center rounded-lg ${GROUP_ICON[0]}`} aria-hidden><Vote className="h-3.5 w-3.5" /></span> {L("Orientation politique", "Political leaning")}
               <span className="text-[var(--text-tertiary)]">{L("· vote 1ᵉʳ tour 2022 · indicatif", "· 2022 1st-round vote · indicative")}</span>
             </label>
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setLean("")}
                 aria-pressed={lean === ""}
-                className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors ${lean === "" ? "border-[var(--accent)] bg-[var(--accent)]/10 text-[var(--accent)]" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
+                className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors ${lean === "" ? CHIP_ON : CHIP_OFF}`}
               >
                 {L("Toutes", "All")}
               </button>
@@ -463,7 +484,7 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                   key={b}
                   onClick={() => setLean(lean === b ? "" : b)}
                   aria-pressed={lean === b}
-                  className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors flex items-center gap-1.5 ${lean === b ? "text-white" : "border-[var(--border)] text-[var(--text-secondary)] hover:border-[var(--accent)]/40"}`}
+                  className={`rounded-full px-3 py-1.5 text-xs font-medium border transition-colors flex items-center gap-1.5 ${lean === b ? "text-white" : CHIP_OFF}`}
                   style={lean === b ? { backgroundColor: leanMeta.colors[b], borderColor: leanMeta.colors[b] } : undefined}
                 >
                   <span className="inline-block h-2 w-2 rounded-sm" style={{ backgroundColor: lean === b ? "rgba(255,255,255,0.9)" : leanMeta.colors[b] }} />
@@ -472,13 +493,14 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
               ))}
             </div>
           </div>
+          </div>
         </div>
       )}
 
       {/* Results count */}
       <div className="mb-4 flex items-center gap-2">
-        <span className="text-sm text-[var(--text-secondary)]">
-          {filtered.length} {L(filtered.length !== 1 ? "villes" : "ville", filtered.length !== 1 ? "cities" : "city")}
+        <span className="rounded-full bg-white px-3 py-1 text-sm text-[var(--text-secondary)] shadow-sm ring-1 ring-[#BAE6FD]">
+          <span className="font-mono-data font-bold text-[#0369A1]">{filtered.length}</span> {L(filtered.length !== 1 ? "villes" : "ville", filtered.length !== 1 ? "cities" : "city")}
         </span>
         {(() => {
           const o = sortBy !== "global" ? SORT_OPTIONS.find((s) => s.id === sortBy) : undefined;
@@ -510,7 +532,7 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
                     type="button"
                     aria-expanded={false}
                     onClick={() => setShowAll(true)}
-                    className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-6 py-3 text-sm font-semibold text-[var(--accent)] transition-colors hover:border-[var(--accent)] hover:bg-[var(--accent)]/10 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+                    className="grad-head-5 inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold shadow-[0_12px_28px_-12px_rgba(219,39,119,0.7)] transition-shadow hover:shadow-[0_14px_32px_-10px_rgba(219,39,119,0.8)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
                   >
                     {L(`Afficher les ${filtered.length - INITIAL_VISIBLE} villes restantes`, `Show the remaining ${filtered.length - INITIAL_VISIBLE} cities`)}
                   </button>
@@ -520,8 +542,8 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
           );
         })()
       ) : (
-        <div className="rounded-2xl border border-dashed border-[var(--border)] bg-[var(--bg-surface)]/50 py-16 px-6 text-center">
-          <div className="text-5xl mb-3" aria-hidden>🔍</div>
+        <div className="rounded-2xl bg-white py-16 px-6 text-center shadow-[0_16px_36px_-22px_rgba(219,39,119,0.6)] ring-1 ring-[#FBCFE8]">
+          <EmojiBadge emoji="🔍" tone="pink" size="lg" className="mb-4" />
           <p className="text-base font-semibold text-[var(--text-primary)] mb-1">
             {L("Aucune ville ne correspond", "No city matches")} {query ? <>{L("à", "")} «&nbsp;{query}&nbsp;»</> : L("à vos filtres", "your filters")}.
           </p>
@@ -531,7 +553,7 @@ export function VillesSearch({ cities, leanMeta, locale = "fr" }: { cities: City
           {hasFilters && (
             <button
               onClick={clearFilters}
-              className="inline-flex items-center gap-1.5 rounded-full bg-[var(--accent)]/10 hover:bg-[var(--accent)]/15 text-[var(--accent)] text-xs font-semibold px-4 py-2 transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
+              className="grad-head-0 inline-flex items-center gap-1.5 rounded-full text-xs font-semibold px-4 py-2 shadow-sm focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
             >
               {L("Réinitialiser les filtres", "Reset filters")}
             </button>
