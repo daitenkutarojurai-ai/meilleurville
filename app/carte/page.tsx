@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { CITIES_LIGHT, LEAN_META, RENT_T2_BY_SLUG } from "@/lib/cities-light";
 import { CarteClient } from "./CarteClient";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hubTitle } from "@/lib/brand";
 import { pathAlternates } from "@/lib/i18n";
@@ -27,21 +28,28 @@ export default function CartePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(carteBreadcrumb)} />
       <Navbar />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="relative overflow-hidden bg-aurora py-12 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <Badge variant="accent" className="mb-3">Carte interactive</Badge>
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-            Carte des villes françaises
-          </h1>
-          <p className="text-[var(--text-secondary)] max-w-2xl">
-            {CITIES_SEED.length} villes visualisées par score. La taille et la couleur de chaque point reflètent le critère sélectionné.
-          </p>
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
+            <EmojiBadge emoji="🗺️" tone="indigo" size="lg" className="shrink-0 shadow-[0_12px_28px_-12px_rgba(79,70,229,0.6)]" />
+            <div className="min-w-0">
+              <Badge variant="accent" className="mb-3">Carte interactive</Badge>
+              <h1 className="text-3xl sm:text-4xl font-bold tracking-tight gradient-text mb-3">
+                Carte des villes françaises
+              </h1>
+              <p className="text-[var(--text-secondary)] max-w-2xl">
+                {CITIES_SEED.length} villes visualisées par score. La taille et la couleur de chaque point reflètent le critère sélectionné.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
-        <CarteClient cities={CITIES_LIGHT} rentT2BySlug={RENT_T2_BY_SLUG} leanMeta={LEAN_META} />
-      </div>
+      <section className="band band-sky">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+          <CarteClient cities={CITIES_LIGHT} rentT2BySlug={RENT_T2_BY_SLUG} leanMeta={LEAN_META} />
+        </div>
+      </section>
 
       <Footer />
     </main>

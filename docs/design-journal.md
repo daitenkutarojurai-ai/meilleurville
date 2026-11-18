@@ -1664,3 +1664,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hero `/carte` (bandeau lilas uni, sans aurore ni emoji ; bande blanche sous le hero).
 2. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
 3. Page agenda.
+
+## 2026-11-18 ~03:00 UTC — pages carte (hero + bandes, FR `/carte` + EN `/map`)
+
+**Surface** : gabarit des deux pages carte. Avant : hero **blanc** à filet gris (`bg-[var(--bg-surface)]`, qui bloquait la rotation des bandes), titre noir, carte posée sur le fond canevas ; côté EN, listes DROM et Top 10 en lignes blanches à filet gris dans le même bloc que la carte.
+
+**Changé** : hero en `.bg-aurora` + `EmojiBadge` (🗺️ FR, 📍 EN car `FranceHeatmap` EN porte déjà 🗺️) + titre `.gradient-text` ; carte en bande `band-sky` ; EN — DROM en bande `band-pink` (🏝️, cartes blanches à anneau rose), Top 10 en bande `band-aqua` (🏆, rangs en pastilles `grad-head-1` podium / `grad-head-0`, notes en pilules point de palier + note). Copie et couleurs de palier inchangées.
+
+**Fichiers** : `app/carte/page.tsx`, `app/[locale]/map/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 2 fichiers : 0 problème. Captures playwright `/carte` et `/en/map` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
+2. Page agenda.
+3. Hub `/comparer` (FR) + `/compare` (EN).

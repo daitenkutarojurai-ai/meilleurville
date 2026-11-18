@@ -4,11 +4,12 @@ import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { MAP_CITIES } from "@/lib/cities-light";
-import { scoreColor } from "@/lib/utils";
+import { scoreColor, scoreHex } from "@/lib/utils";
 import { FranceHeatmap, type DeptBubble } from "@/components/FranceHeatmap";
 import { deptToSlug } from "@/lib/dept-slug";
 import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
+import { EmojiBadge } from "@/components/EmojiBadge";
 
 export const metadata: Metadata = {
   title: "Map of French cities — quality of life visualised",
@@ -57,63 +58,95 @@ export default function EnMapPage() {
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-12">
+      <section className="relative overflow-hidden bg-aurora py-12 sm:py-14">
         <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <h1 className="text-3xl sm:text-4xl font-bold text-[var(--text-primary)] mb-3">
-            Map of French cities
-          </h1>
-          <p className="text-[var(--text-secondary)] max-w-2xl">
-            {CITIES_COUNT} cities placed by geographic position. Each dot is coloured by its overall quality-of-life score. Hover a dot to see the city; click to open its profile.
-          </p>
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center">
+            <EmojiBadge emoji="📍" tone="indigo" size="lg" className="shrink-0 shadow-[0_12px_28px_-12px_rgba(79,70,229,0.6)]" />
+            <div className="min-w-0">
+              <h1 className="text-3xl sm:text-4xl font-bold tracking-tight gradient-text mb-3">
+                Map of French cities
+              </h1>
+              <p className="text-[var(--text-secondary)] max-w-2xl">
+                {CITIES_COUNT} cities placed by geographic position. Each dot is coloured by its overall quality-of-life score. Hover a dot to see the city; click to open its profile.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
-        {/* Full locale-aware heatmap: France mainland + Corsica outline, aurora
-            backdrop, score legend and per-axis filters, EN /cities links. */}
-        <FranceHeatmap locale="en" showRegionToggle cities={MAP_CITIES} departments={DEPT_BUBBLES} />
+      <section className="band band-sky">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+          {/* Full locale-aware heatmap: France mainland + Corsica outline, aurora
+              backdrop, score legend and per-axis filters, EN /cities links. */}
+          <FranceHeatmap locale="en" showRegionToggle cities={MAP_CITIES} departments={DEPT_BUBBLES} />
+        </div>
+      </section>
 
-        {drom.length > 0 && (
-          <div className="mt-8">
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Overseas departments (DROM)</h2>
-            <p className="text-sm text-[var(--text-secondary)] mb-4">
+      {drom.length > 0 && (
+        <section className="band band-pink">
+          <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+            <div className="flex items-center gap-3 mb-3">
+              <EmojiBadge emoji="🏝️" tone="pink" size="sm" />
+              <h2 className="text-xl font-bold text-[var(--text-primary)]">Overseas departments (DROM)</h2>
+            </div>
+            <p className="text-sm text-[var(--text-secondary)] mb-5">
               These cities sit outside the mainland bounding box, so they are listed rather than plotted.
             </p>
-            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2.5">
               {drom.map((c) => (
                 <li key={c.slug}>
                   <Link
                     href={`/cities/${c.slug}`}
-                    className="flex items-center justify-between rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm hover:border-[var(--accent)]/40"
+                    className="flex items-center justify-between gap-2 rounded-xl bg-white px-3 py-2.5 text-sm shadow-[0_6px_18px_-12px_rgba(219,39,119,0.55)] ring-1 ring-[#FBCFE8] transition hover:ring-[var(--accent-pink)]/60 hover:-translate-y-0.5"
                   >
-                    <span className="text-[var(--text-primary)] truncate">{c.name}</span>
-                    <span className={`font-mono-data font-bold ${scoreColor(c.scores.global)}`}>{c.scores.global.toFixed(1)}</span>
+                    <span className="text-[var(--text-primary)] font-medium truncate">{c.name}</span>
+                    <ScorePill score={c.scores.global} />
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
-        )}
+        </section>
+      )}
 
-        <div className="mt-10">
-          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">Top 10 cities on the map</h2>
-          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+      <section className="band band-aqua">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 py-10">
+          <div className="flex items-center gap-3 mb-5">
+            <EmojiBadge emoji="🏆" tone="aqua" size="sm" />
+            <h2 className="text-xl font-bold text-[var(--text-primary)]">Top 10 cities on the map</h2>
+          </div>
+          <ol className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
             {top10.map((c, i) => (
               <li key={c.slug}>
                 <Link
                   href={`/cities/${c.slug}`}
-                  className="flex items-center gap-3 rounded-lg border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 hover:border-[var(--accent)]/40"
+                  className="flex items-center gap-3 rounded-xl bg-white px-3 py-2.5 shadow-[0_6px_18px_-12px_rgba(8,145,178,0.6)] ring-1 ring-[#A5F3FC] transition hover:ring-[var(--accent-cyan)]/60 hover:-translate-y-0.5"
                 >
-                  <span className="font-mono-data font-bold text-[var(--text-tertiary)] w-7">#{i + 1}</span>
+                  <span
+                    className={`${i < 3 ? "grad-head-1" : "grad-head-0"} flex h-8 w-8 shrink-0 items-center justify-center rounded-lg font-mono-data text-sm font-bold`}
+                  >
+                    {i + 1}
+                  </span>
                   <span className="flex-1 text-[var(--text-primary)] font-medium truncate">{c.name}</span>
-                  <span className={`font-mono-data font-bold ${scoreColor(c.scores.global)}`}>{c.scores.global.toFixed(1)}</span>
+                  <ScorePill score={c.scores.global} />
                 </Link>
               </li>
             ))}
           </ol>
         </div>
       </section>
+
       <Footer />
     </main>
+  );
+}
+
+/** Score pill: tier dot + one-decimal score, tier colour kept for the number. */
+function ScorePill({ score }: { score: number }) {
+  return (
+    <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-[var(--bg-canvas)] px-2 py-0.5 ring-1 ring-[var(--border)]">
+      <span className="h-2 w-2 rounded-full" style={{ background: scoreHex(score) }} aria-hidden />
+      <span className={`font-mono-data text-sm font-bold ${scoreColor(score)}`}>{score.toFixed(1)}</span>
+    </span>
   );
 }
