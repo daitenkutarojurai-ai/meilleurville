@@ -10792,6 +10792,56 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "parent-solo-a-millau-2026",
+      "title": "Parent solo à Millau en 2026 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-venissieux-2026",
+      "title": "Parent solo à Vénissieux en 2026 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-sevres-2026",
+      "title": "Parent solo à Sèvres en 2026 : un seuil à 5 500 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-torcy-2026",
+      "title": "Parent solo à Torcy en 2026 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-joinville-le-pont-2026",
+      "title": "Parent solo à Joinville-le-Pont en 2026 : un seuil à 4 950 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-gradignan-2026",
+      "title": "Parent solo à Gradignan en 2026 : un seuil à 3 100 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-chilly-mazarin-2026",
+      "title": "Parent solo à Chilly-Mazarin en 2026 : un seuil à 4 200 €, 1 axe sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-saint-sebastien-sur-loire-2026",
+      "title": "Parent solo à Saint-Sébastien-sur-Loire en 2026 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-bouguenais-2026",
+      "title": "Parent solo à Bouguenais en 2026 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "parent-solo-a-ozoir-la-ferriere-2026",
+      "title": "Parent solo à Ozoir-la-Ferrière en 2026 : un seuil à 3 800 €, 2 axes sur 4 au-dessus de la médiane",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-pontoise-2026",
       "title": "10 choses à faire à Pontoise",
       "emoji": "🎨"
@@ -11796,7 +11846,7 @@
     {
       "slug": "securite-et-ecoles-parent-seul",
       "label": "sécurité et écoles parent seul",
-      "count": 69
+      "count": 79
     },
     {
       "slug": "teletravail",
@@ -11819,6 +11869,11 @@
       "count": 39
     },
     {
+      "slug": "famille-monoparentale-ile-de-france",
+      "label": "famille monoparentale Île-de-France",
+      "count": 34
+    },
+    {
       "slug": "bordeaux",
       "label": "Bordeaux",
       "count": 31
@@ -11827,11 +11882,6 @@
       "slug": "vacances-en-train-avec-enfants",
       "label": "vacances en train avec enfants",
       "count": 30
-    },
-    {
-      "slug": "famille-monoparentale-ile-de-france",
-      "label": "famille monoparentale Île-de-France",
-      "count": 29
     },
     {
       "slug": "lyon",
@@ -11874,19 +11924,19 @@
       "count": 19
     },
     {
-      "slug": "soleil",
-      "label": "soleil",
-      "count": 19
-    },
-    {
       "slug": "famille-monoparentale-auvergne-rhone-alpes",
       "label": "famille monoparentale Auvergne-Rhône-Alpes",
-      "count": 18
+      "count": 19
     },
     {
       "slug": "famille-monoparentale-nouvelle-aquitaine",
       "label": "famille monoparentale Nouvelle-Aquitaine",
-      "count": 18
+      "count": 19
+    },
+    {
+      "slug": "soleil",
+      "label": "soleil",
+      "count": 19
     },
     {
       "slug": "montpellier",
@@ -11921,6 +11971,11 @@
     {
       "slug": "coworking",
       "label": "coworking",
+      "count": 15
+    },
+    {
+      "slug": "monoparental-hauts-de-seine",
+      "label": "monoparental Hauts-de-Seine",
       "count": 15
     },
     {
@@ -11959,14 +12014,14 @@
       "count": 14
     },
     {
-      "slug": "monoparental-hauts-de-seine",
-      "label": "monoparental Hauts-de-Seine",
-      "count": 14
-    },
-    {
       "slug": "patrimoine",
       "label": "patrimoine",
       "count": 14
+    },
+    {
+      "slug": "famille-monoparentale-pays-de-la-loire",
+      "label": "famille monoparentale Pays de la Loire",
+      "count": 13
     },
     {
       "slug": "grenoble",
@@ -11994,6 +12049,11 @@
       "count": 12
     },
     {
+      "slug": "famille-monoparentale-occitanie",
+      "label": "famille monoparentale Occitanie",
+      "count": 12
+    },
+    {
       "slug": "marseille",
       "label": "Marseille",
       "count": 12
@@ -12007,16 +12067,6 @@
       "slug": "vacances-sans-voiture",
       "label": "vacances sans voiture",
       "count": 12
-    },
-    {
-      "slug": "famille-monoparentale-occitanie",
-      "label": "famille monoparentale Occitanie",
-      "count": 11
-    },
-    {
-      "slug": "famille-monoparentale-pays-de-la-loire",
-      "label": "famille monoparentale Pays de la Loire",
-      "count": 11
     },
     {
       "slug": "investissement-locatif",
@@ -12304,6 +12354,16 @@
       "count": 7
     },
     {
+      "slug": "monoparental-gironde",
+      "label": "monoparental Gironde",
+      "count": 7
+    },
+    {
+      "slug": "monoparental-loire-atlantique",
+      "label": "monoparental Loire-Atlantique",
+      "count": 7
+    },
+    {
       "slug": "nice",
       "label": "Nice",
       "count": 7
@@ -12409,8 +12469,8 @@
       "count": 6
     },
     {
-      "slug": "monoparental-gironde",
-      "label": "monoparental Gironde",
+      "slug": "monoparental-metropole-de-lyon",
+      "label": "monoparental métropole de Lyon",
       "count": 6
     },
     {
@@ -12539,13 +12599,8 @@
       "count": 5
     },
     {
-      "slug": "monoparental-loire-atlantique",
-      "label": "monoparental Loire-Atlantique",
-      "count": 5
-    },
-    {
-      "slug": "monoparental-metropole-de-lyon",
-      "label": "monoparental métropole de Lyon",
+      "slug": "monoparental-val-de-marne",
+      "label": "monoparental Val-de-Marne",
       "count": 5
     },
     {
@@ -12719,13 +12774,18 @@
       "count": 4
     },
     {
+      "slug": "monoparental-essonne",
+      "label": "monoparental Essonne",
+      "count": 4
+    },
+    {
       "slug": "monoparental-nord",
       "label": "monoparental Nord",
       "count": 4
     },
     {
-      "slug": "monoparental-val-de-marne",
-      "label": "monoparental Val-de-Marne",
+      "slug": "monoparental-seine-et-marne",
+      "label": "monoparental Seine-et-Marne",
       "count": 4
     },
     {
@@ -13166,11 +13226,6 @@
     {
       "slug": "monoparental-drome",
       "label": "monoparental Drôme",
-      "count": 3
-    },
-    {
-      "slug": "monoparental-essonne",
-      "label": "monoparental Essonne",
       "count": 3
     },
     {
