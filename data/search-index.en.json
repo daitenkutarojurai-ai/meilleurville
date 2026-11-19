@@ -11325,6 +11325,11 @@
       "slug": "building-a-house-in-france-2026-land-contract-costs",
       "title": "Building a House in France in 2026: Land, Contract, Real Costs",
       "emoji": "🏗️"
+    },
+    {
+      "slug": "french-cities-without-emergency-room-distance-to-hospital-591-cities-2026",
+      "title": "French cities with no emergency room: 242 cities, 42 more than 10 km away (2026)",
+      "emoji": "🚑"
     }
   ],
   "tags": [
@@ -11934,6 +11939,11 @@
       "count": 4
     },
     {
+      "slug": "medical-deserts",
+      "label": "medical deserts",
+      "count": 4
+    },
+    {
       "slug": "mortgage",
       "label": "mortgage",
       "count": 4
@@ -12134,11 +12144,6 @@
       "count": 3
     },
     {
-      "slug": "medical-deserts",
-      "label": "medical deserts",
-      "count": 3
-    },
-    {
       "slug": "mild-winter-retirement-france",
       "label": "mild winter retirement France",
       "count": 3
@@ -12196,6 +12201,11 @@
     {
       "slug": "sea-level-rise",
       "label": "sea level rise",
+      "count": 3
+    },
+    {
+      "slug": "small-towns",
+      "label": "small towns",
       "count": 3
     },
     {

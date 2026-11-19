@@ -11865,6 +11865,11 @@
       "slug": "ecart-prix-m2-entre-adresses-appartements-383-villes-dvf-2026",
       "title": "Le prix au m² dépend-il de l'adresse ? L'écart de prix entre adresses dans 383 villes (DVF 2024-2025)",
       "emoji": "📏"
+    },
+    {
+      "slug": "villes-sans-urgences-distance-hopital-591-villes-2026",
+      "title": "Villes sans service d'urgences : 242 villes, 42 à plus de 10 km (2026)",
+      "emoji": "🚑"
     }
   ],
   "tags": [
@@ -13159,6 +13164,11 @@
       "count": 3
     },
     {
+      "slug": "hopital",
+      "label": "hôpital",
+      "count": 3
+    },
+    {
       "slug": "hors-saison-val-de-loire",
       "label": "hors saison Val de Loire",
       "count": 3
@@ -13351,6 +13361,11 @@
     {
       "slug": "passoire-thermique",
       "label": "passoire thermique",
+      "count": 3
+    },
+    {
+      "slug": "petites-villes",
+      "label": "petites villes",
       "count": 3
     },
     {

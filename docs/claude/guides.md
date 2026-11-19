@@ -2408,3 +2408,5 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 - Prochain lot : 2 jumelles EN restantes (+ batch FR de villes non couvertes, mesurer sur `CITIES_SEED`).
 
 **2026-11-18 (run contenu)** : +1 guide FR `prix-maison-m2-par-ville-560-villes-dvf-2026` et son jumeau EN `house-prices-per-m2-french-cities-560-cities-dvf-2026` (médianes DVF maisons 2024-2025, 560 villes ; pendant du guide appartements). Index de recherche régénéré. Prochain : maisons × niveau de vie si un angle distinct de `annees-de-niveau-de-vie-…` se justifie.
+
+**2026-11-19 (run contenu)** : +1 guide FR `villes-sans-urgences-distance-hopital-591-villes-2026` et son jumeau EN `french-cities-without-emergency-room-distance-to-hospital-591-cities-2026` (BPE 2025 `erKm` : 242/591 villes sans urgences, 42 à ≥ 10 km). Mesuré : `grep -c '^    slug: "'` → FR 1 654, EN 1 536 (tous gabarits). Index de recherche régénéré. `sitemap:check` rouge hors de ce run (2 jumelles EN red-flags sans URL au sitemap). Prochain : zones protégées (`city-protected-areas.json`, couverture à 15 km) en guide mesuré.

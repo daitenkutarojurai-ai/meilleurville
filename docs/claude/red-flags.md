@@ -130,3 +130,5 @@ de `lib/demography.ts` : recouvrement mesuré de 4/15 et 2/15 sur le top 15.
 
 
 **2026-11-18 (run contenu)** : thème `villes-emplois-en-recul` 📉 (51ᵉ) — emplois au lieu de travail en recul 2017-2023 (Insee RP) ET chômage ≥ 11,4 % : 24 villes sur 413 (43 perdent des emplois, 19 écartées car chômage sous la moyenne). Mesures seulement, pas de score ; pas de jumelle EN. Prochain : thème sur une autre mesure Insee non encore croisée.
+
+**2026-11-19 (run contenu)** : thème `villes-urgences-eloignees` 🚑 (52ᵉ) — distance à vol d'oiseau au service d'urgences le plus proche (Insee BPE 2025, `erKm`) : 42 villes sur 591 à ≥ 10 km, dont 11 à ≥ 20 km, 4 cumulant APL < 2,5 (Méru, Les Andelys, Gex, Delle). Mesure seule, pas de score ; pas de jumelle EN. Prochain : jumelle EN + thème sur une autre mesure BPE.

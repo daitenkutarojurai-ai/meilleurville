@@ -68241,6 +68241,58 @@ export const EN_GUIDES: EnGuide[] = [
           "buying property"
       ]
   },
+  {
+    slug: "french-cities-without-emergency-room-distance-to-hospital-591-cities-2026",
+    title: "French cities with no emergency room: 242 cities, 42 more than 10 km away (2026)",
+    metaTitle: "Cities with no ER in France: 242 of 591, 42 beyond 10 km",
+    metaDesc: "242 of 591 French cities have no emergency department; 42 sit 10 km or more from the nearest one, from La Souterraine (31.5 km) to Hendaye (10.9 km).",
+    category: "lifestyle",
+    emoji: "🚑",
+    readMinutes: 8,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "242 of the 591 cities in our database, 41%, have no emergency department within their limits. For half of them the nearest one is under 4.2 km away as the crow flies, and 137 are within 5 km. But 42 cities are 10 km or more from one, up to 31.5 km for La Souterraine in the Creuse, and that is where the question matters before you move. This guide measures, city by city, the distance to the nearest emergency department (INSEE, permanent facilities database 2025), lists the 42 cities beyond 10 km, and shows why no city of 100,000 people or more is affected while 108 of the 162 Paris-region cities have no unit of their own.",
+    sections: [
+      {
+        heading: "What is measured: presence or distance?",
+        body: "Two things, both from INSEE's permanent facilities database (BPE 2025). First, the number of emergency departments recorded in the municipality: zero means none inside it, not none nearby. Second, for municipalities with zero, the straight-line distance between town centres to the nearest municipality that has one. That is not a drive time: a mountain road, a bridge or an estuary can double the real journey. The 591 cities covered are those in our database for which INSEE publishes the facility count; Mamoudzou (Mayotte) and Pierrefitte-sur-Seine, merged into Saint-Denis in 2025, are not included.",
+      },
+      {
+        heading: "How many French cities have no emergency department?",
+        body: "242 of 591, or 41%. 280 cities have exactly one and 69 have two or more. The 242 cities without one hold 6.76 million people, about a quarter (25%) of the 27.3 million living in the cities covered. The median distance to the nearest department is 4.2 km: 137 cities are under 5 km away, 63 between 5 and 10 km, 19 between 10 and 15 km, 12 between 15 and 20 km and 11 at 20 km or more. In more than eight cases out of ten (200 of 242), having no unit in town means a few minutes' drive. The distance becomes a deciding factor only in the last 42 cases, home to 664,750 people, 2.4% of the population of the cities covered.",
+      },
+      {
+        heading: "Which cities are more than 20 km from an emergency department?",
+        body: "Eleven, almost all small: La Souterraine (31.5 km, to Guéret), Ribérac (29.5 km, Périgueux), Noirmoutier-en-l'Île (29.2 km, Saint-Nazaire), Saint-Chély-d'Apcher (28.5 km, Saint-Flour), Florac-Trois-Rivières (26.3 km, Mende), Commercy (25.6 km, Toul), Bellac (25.5 km, Saint-Junien), Obernai (22.7 km, Sélestat), Quiberon (22.3 km, Auray), Collioure (21.6 km, Cabestany) and Fleurance (21.2 km, Auch). Obernai is the only one above 12,000 residents (12,303). Three of the eleven are on the water or on a peninsula (Noirmoutier, Quiberon, Collioure), where the straight-line figure understates the real journey.",
+      },
+      {
+        heading: "And between 10 and 20 km?",
+        body: "31 cities. Between 15 and 20 km: Gaillac (19.5 km, Albi), Limoux (19.1 km, Quillan), Crépy-en-Valois (18.5 km, Compiègne), Montbard (18.3 km, Semur-en-Auxois), Méru (17.1 km, Beaumont-sur-Oise), Les Andelys (16.9 km, Vernon), Saint-Rémy-de-Provence (16.8 km, Cavaillon), Le François in Martinique (16.7 km, La Trinité), the Île de Ré (15.6 km, La Rochelle), Sainte-Suzanne in Réunion (15.5 km, Saint-Denis), Rumilly (15.3 km, Annecy) and Sablé-sur-Sarthe (15.3 km, Le Bailleul). Between 10 and 15 km: Saint-André (14.7 km, Saint-Benoît), Cluses (14.6 km, Sallanches), Saint-Joseph (14.6 km, Saint-Pierre), Gex (14.5 km, Saint-Claude), Gordes (14.5 km, Apt), Couëron (14.1 km, Nantes), Saint-Médard-en-Jalles (13.7 km, Pessac), Monistrol-sur-Loire (13.5 km, Firminy), Sainte-Maxime (13.5 km, Gassin), Pamiers (13.0 km), Saint-Louis in Réunion (12.6 km, Saint-Pierre), La Flèche (12.4 km, Le Bailleul), Cernay (12.1 km, Mulhouse), Vertou (11.8 km, Nantes), Le Tampon (11.6 km, Saint-Pierre), Jarnac (11.5 km), Delle (11.4 km), Bressuire (11.2 km) and Hendaye (10.9 km, Saint-Jean-de-Luz).",
+      },
+      {
+        heading: "Are big cities spared?",
+        body: "Clearly. None of the 42 cities of 100,000 or more lacks an emergency department. Between 50,000 and 100,000 residents, 25 of 89 (28%) have none, at a median 2.5 km: Asnières-sur-Seine, Courbevoie, Drancy and Maisons-Alfort sit right next to a neighbouring hospital. The only cities over 50,000 that are more than 10 km away are in Réunion: Saint-André (57,546 residents, 14.7 km), Saint-Louis (54,478, 12.6 km) and Le Tampon (81,964, 11.6 km), the most populous of all cities beyond 10 km. Between 20,000 and 50,000 the share without one is highest, 143 of 282 (51%), but the median distance is only 3.6 km. Of the 66 cities under 10,000 residents, 30 (45%) have none, at a median 14.5 km: this is the size where having none weighs most.",
+      },
+      {
+        heading: "Why do so many Paris-region cities have no unit without it being a distance problem?",
+        body: "Because the urban area is dense: 108 of the 162 Paris-region cities in our database (67%) have no emergency department within their limits, yet none is more than 8.4 km from one. The furthest are Roissy-en-Brie (8.4 km, Jossigny), Ozoir-la-Ferrière (7.8 km, Tournan-en-Brie), Pontault-Combault (7.8 km, Champigny-sur-Marne), Savigny-le-Temple (7.5 km, Melun), Saint-Michel-sur-Orge (6.7 km, Longjumeau) and Herblay-sur-Seine (6.1 km, Maisons-Laffitte). Read the distance, not the presence: a Paris-region town without a unit is almost always a few kilometres from a hospital, while a town in the Creuse or the Dordogne without one is 30 km away. What this measure does not show is how crowded the existing units are.",
+      },
+      {
+        heading: "Which regions have the most distant cities?",
+        body: "Of the 42 cities 10 km or more away: Nouvelle-Aquitaine 8, Occitanie 7, Pays de la Loire 5, Réunion 5, Auvergne-Rhône-Alpes 4, Provence-Alpes-Côte d'Azur 3, Grand Est 3, Hauts-de-France 2, Bourgogne-Franche-Comté 2, then Normandy, Brittany and Martinique with 1 each. Île-de-France, Centre-Val de Loire, Corsica, Guadeloupe and French Guiana have none. Réunion stands out: 6 of its 10 cities have no unit and 5 are 10 km or more away (Sainte-Suzanne 15.5 km, Saint-André 14.7 km, Saint-Joseph 14.6 km, Saint-Louis 12.6 km, Le Tampon 11.6 km). Corsica is the opposite: all 6 of its cities have one.",
+      },
+      {
+        heading: "Which cities combine distance with poor access to GPs?",
+        body: "Crossing distance with access to general practitioners (DREES's 2024 APL, where 2.5 consultations per year per resident is the under-served threshold) shows four of the 42 with both handicaps: Méru (17.1 km from an emergency department, APL 1.52), Les Andelys (16.9 km, APL 1.70), Gex (14.5 km, APL 2.07) and Delle (11.4 km, APL 2.11). The reverse also happens: Ribérac (29.5 km away) scores 2.64, Quiberon (22.3 km) 2.63 and La Souterraine (31.5 km) 4.07, above the national average of 3.72. A city without an emergency room can serve everyday care well; it is the two gaps together that make the cases to avoid for an older or frail person.",
+      },
+      {
+        heading: "What does the measure hide, and what should you check before moving?",
+        body: "Four limits. The distance is straight-line between centres, not a drive time. It counts only emergency departments recorded in France, so a border town such as Gex or Hendaye may be closer to a hospital abroad, which is not measured here. It says nothing about mobile emergency units (SMUR), helicopters or health centres, which change response times. And it looks at one municipality alone: Sablé-sur-Sarthe and La Flèche share a unit recorded in a third municipality, Le Bailleul. Before settling more than 10 km from a unit, run the drive at rush hour and on a Saturday night, check the local doctors, and keep the reflex: in a life-threatening emergency, call 15 (SAMU) or 112. For GP access see our APL ranking; for the most fragile areas, our guide to medical deserts. Sources: INSEE, BPE 2025 and 2022 census; DREES, APL 2024.",
+      },
+    ],
+    relatedCities: ["la-souterraine","riberac","noirmoutier","florac-trois-rivieres","commercy","obernai","quiberon","gaillac","meru","les-andelys","saint-medard-en-jalles","coueron","le-tampon","saint-andre-reunion","roissy-en-brie","hendaye"],
+    tags: ["emergency room","hospital distance","medical deserts","healthcare access","BPE","healthcare by city","cities without ER","small towns"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

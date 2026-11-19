@@ -83069,6 +83069,59 @@ export const GUIDES: Guide[] = [
       "appartement"
     ]
   },
+  {
+    slug: "villes-sans-urgences-distance-hopital-591-villes-2026",
+    title: "Villes sans service d'urgences : 242 villes, 42 à plus de 10 km (2026)",
+    metaTitle: "Villes sans urgences : 242 sur 591, 42 à 10 km ou plus",
+    metaDesc: "242 des 591 villes n'ont aucun service d'urgences ; 42 sont à 10 km ou plus du plus proche, de La Souterraine (31,5 km) à Hendaye (10,9 km). Liste complète.",
+    category: "lifestyle",
+    emoji: "🚑",
+    readMinutes: 9,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "242 des 591 villes de notre base, soit 41 %, n'ont aucun service d'urgences sur leur territoire. Pour la moitié d'entre elles, l'hôpital le plus proche est à moins de 4,2 km à vol d'oiseau : dans 137 cas, à moins de 5 km. Mais 42 villes sont à 10 km ou plus, jusqu'à 31,5 km pour La Souterraine (Creuse), et c'est là que la question se pose vraiment avant un déménagement. Ce guide mesure, commune par commune, la distance jusqu'au service d'urgences le plus proche (Insee, base permanente des équipements 2025), liste les 42 villes à plus de 10 km, et montre pourquoi aucune ville de 100 000 habitants et plus n'est concernée, alors que 108 des 162 communes franciliennes n'ont pas de service sur place.",
+    sections: [
+      {
+        heading: "Que mesure-t-on exactement : une présence ou une distance ?",
+        body: "Deux choses, toutes deux tirées de la base permanente des équipements (BPE 2025) de l'Insee. D'abord le nombre de services d'urgences recensés dans la commune : zéro veut dire « aucun sur place », pas « aucun à proximité ». Ensuite, pour les communes à zéro, la distance à vol d'oiseau, de centre de commune à centre de commune, jusqu'à la commune la plus proche qui en compte un. Ce n'est pas un temps de trajet : une route de montagne, un pont ou un bras de mer peuvent doubler la durée réelle. Les 591 villes couvertes sont celles de notre base pour lesquelles l'Insee publie l'équipement ; Mamoudzou (Mayotte) et Pierrefitte-sur-Seine, fusionnée dans Saint-Denis en 2025, n'y figurent pas.",
+      },
+      {
+        heading: "Combien de villes n'ont pas de service d'urgences ?",
+        body: "242 sur 591, soit 41 %. 280 villes en ont exactement un et 69 en ont deux ou plus. Les 242 villes sans service regroupent 6,76 millions d'habitants, environ un quart (25 %) des 27,3 millions d'habitants des villes couvertes. La distance médiane jusqu'au service le plus proche est de 4,2 km. 137 villes sont à moins de 5 km, 63 entre 5 et 10 km, 19 entre 10 et 15 km, 12 entre 15 et 20 km et 11 à 20 km ou plus. Autrement dit, dans plus de huit cas sur dix (200 villes sur 242), l'absence d'urgences sur place se règle par quelques minutes de route ; c'est dans les 42 derniers cas, soit 664 750 habitants (2,4 % des habitants des villes couvertes), que la distance devient un critère de choix.",
+      },
+      {
+        heading: "Quelles villes sont à plus de 20 km d'un service d'urgences ?",
+        body: "Onze villes, presque toutes petites : La Souterraine (31,5 km, Guéret), Ribérac (29,5 km, Périgueux), Noirmoutier-en-l'Île (29,2 km, Saint-Nazaire), Saint-Chély-d'Apcher (28,5 km, Saint-Flour), Florac-Trois-Rivières (26,3 km, Mende), Commercy (25,6 km, Toul), Bellac (25,5 km, Saint-Junien), Obernai (22,7 km, Sélestat), Quiberon (22,3 km, Auray), Collioure (21,6 km, Cabestany) et Fleurance (21,2 km, Auch). Obernai est la seule à dépasser 12 000 habitants (12 303). Trois de ces onze villes sont au bord de l'eau ou sur une presqu'île (Noirmoutier, Quiberon, Collioure) : la distance à vol d'oiseau y sous-estime le trajet réel.",
+      },
+      {
+        heading: "Et entre 10 et 20 km ?",
+        body: "31 villes. Entre 15 et 20 km : Gaillac (19,5 km, Albi), Limoux (19,1 km, Quillan), Crépy-en-Valois (18,5 km, Compiègne), Montbard (18,3 km, Semur-en-Auxois), Méru (17,1 km, Beaumont-sur-Oise), Les Andelys (16,9 km, Vernon), Saint-Rémy-de-Provence (16,8 km, Cavaillon), Le François en Martinique (16,7 km, La Trinité), l'Île de Ré (15,6 km, La Rochelle), Sainte-Suzanne à La Réunion (15,5 km, Saint-Denis), Rumilly (15,3 km, Annecy) et Sablé-sur-Sarthe (15,3 km, Le Bailleul). Entre 10 et 15 km : Saint-André (14,7 km, Saint-Benoît), Cluses (14,6 km, Sallanches), Saint-Joseph (14,6 km, Saint-Pierre), Gex (14,5 km, Saint-Claude), Gordes (14,5 km, Apt), Couëron (14,1 km, Nantes), Saint-Médard-en-Jalles (13,7 km, Pessac), Monistrol-sur-Loire (13,5 km, Firminy), Sainte-Maxime (13,5 km, Gassin), Pamiers (13,0 km), Saint-Louis à La Réunion (12,6 km, Saint-Pierre), La Flèche (12,4 km, Le Bailleul), Cernay (12,1 km, Mulhouse), Vertou (11,8 km, Nantes), Le Tampon (11,6 km, Saint-Pierre), Jarnac (11,5 km), Delle (11,4 km), Bressuire (11,2 km) et Hendaye (10,9 km, Saint-Jean-de-Luz).",
+      },
+      {
+        heading: "Les grandes villes sont-elles épargnées ?",
+        body: "Oui, nettement. Aucune des 42 villes de 100 000 habitants et plus n'est sans urgences. Entre 50 000 et 100 000 habitants, 25 villes sur 89 (28 %) n'en ont pas, à 2,5 km en médiane : Asnières-sur-Seine, Courbevoie, Drancy ou Maisons-Alfort sont collées à un hôpital voisin. Les seules villes de plus de 50 000 habitants à plus de 10 km sont à La Réunion : Saint-André (57 546 habitants, 14,7 km), Saint-Louis (54 478 habitants, 12,6 km) et Le Tampon (81 964 habitants, 11,6 km), la plus peuplée de toutes les villes à plus de 10 km. Entre 20 000 et 50 000 habitants, la part sans urgences est la plus haute, 143 villes sur 282 (51 %), mais à seulement 3,6 km en médiane. Les villes de moins de 10 000 habitants sont 30 sur 66 (45 %) dans ce cas, à 14,5 km en médiane : c'est la taille où l'absence pèse le plus.",
+      },
+      {
+        heading: "Pourquoi l'Île-de-France compte-t-elle autant de villes sans urgences, sans que ce soit un problème de distance ?",
+        body: "Parce que l'agglomération est dense : 108 des 162 villes franciliennes de notre base (67 %) n'ont pas de service d'urgences sur leur territoire, mais aucune n'est à plus de 8,4 km du plus proche. Les plus éloignées sont Roissy-en-Brie (8,4 km, Jossigny), Ozoir-la-Ferrière (7,8 km, Tournan-en-Brie), Pontault-Combault (7,8 km, Champigny-sur-Marne), Savigny-le-Temple (7,5 km, Melun), Saint-Michel-sur-Orge (6,7 km, Longjumeau) et Herblay-sur-Seine (6,1 km, Maisons-Laffitte). Le chiffre à regarder est donc la distance, pas la présence : une commune francilienne sans service est presque toujours à quelques kilomètres d'un hôpital, quand une commune creusoise ou périgourdine sans service est à 30 km. Le revers est la saturation des services existants, que cette mesure ne dit pas.",
+      },
+      {
+        heading: "Quelles régions comptent le plus de villes éloignées ?",
+        body: "Sur les 42 villes à 10 km ou plus : Nouvelle-Aquitaine 8, Occitanie 7, Pays de la Loire 5, La Réunion 5, Auvergne-Rhône-Alpes 4, Provence-Alpes-Côte d'Azur 3, Grand Est 3, Hauts-de-France 2, Bourgogne-Franche-Comté 2, puis Normandie, Bretagne et Martinique 1 chacune. L'Île-de-France, le Centre-Val de Loire, la Corse, la Guadeloupe et la Guyane n'en comptent aucune. La Réunion ressort : 6 de ses 10 villes n'ont pas d'urgences sur place et 5 sont à 10 km ou plus (Sainte-Suzanne 15,5 km, Saint-André 14,7 km, Saint-Joseph 14,6 km, Saint-Louis 12,6 km, Le Tampon 11,6 km). La Corse est l'inverse : ses 6 villes ont toutes un service.",
+      },
+      {
+        heading: "Quelles villes cumulent éloignement et faible accès aux généralistes ?",
+        body: "Il est utile de croiser la distance avec l'accès aux médecins généralistes (APL 2024 de la DREES, seuil de zone sous-dense à 2,5 consultations par an et par habitant). Quatre des 42 villes cumulent les deux handicaps : Méru (17,1 km d'un service d'urgences, APL 1,52), Les Andelys (16,9 km, APL 1,70), Gex (14,5 km, APL 2,07) et Delle (11,4 km, APL 2,11). À l'inverse, des villes très éloignées d'un service gardent un accès aux généralistes correct : Ribérac (29,5 km) est à 2,64, Quiberon (22,3 km) à 2,63 et La Souterraine (31,5 km) à 4,07, au-dessus de la moyenne nationale de 3,72. Une ville sans urgences peut donc bien servir en soins courants ; ce sont les deux manques ensemble qui font les cas à éviter pour une personne âgée ou fragile.",
+      },
+      {
+        heading: "Que cache la mesure, et que vérifier avant de s'installer ?",
+        body: "Quatre limites. La distance est à vol d'oiseau et centre à centre, pas un temps de trajet. Elle ne compte que les services d'urgences recensés en France : une commune frontalière comme Gex ou Hendaye peut être plus proche d'un hôpital étranger, sans que ce soit mesuré ici. Elle ne dit rien des SMUR, des hélicoptères ni des maisons de santé, qui changent le délai de prise en charge. Elle porte enfin sur la commune seule : Sablé-sur-Sarthe et La Flèche partagent le même service, recensé dans une troisième commune, Le Bailleul. Avant de vous installer à plus de 10 km d'un service, simulez le trajet en voiture à l'heure de pointe et un samedi soir, vérifiez les médecins du territoire et rappelez le réflexe : en cas d'urgence vitale, le 15 (SAMU) ou le 112. Pour l'accès aux généralistes, voyez notre classement APL ; pour les territoires les plus fragiles, le guide des déserts médicaux. Sources : Insee, BPE 2025 et recensement 2022 ; DREES, APL 2024.",
+      },
+    ],
+    relatedCities: ["la-souterraine","riberac","noirmoutier","florac-trois-rivieres","commercy","obernai","quiberon","gaillac","meru","les-andelys","saint-medard-en-jalles","coueron","le-tampon","saint-andre-reunion","roissy-en-brie","hendaye"],
+    relatedGuides: ["villes-acces-medecin-generaliste-apl-413-villes-2026","deserts-medicaux-france-villes-eviter-2026","meilleures-villes-sante-hopital-medecins-france-2025"],
+    tags: ["urgences","hôpital","distance hôpital","déserts médicaux","accès aux soins","BPE","santé par ville","villes sans urgences","petites villes"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

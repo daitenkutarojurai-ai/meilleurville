@@ -35,7 +35,7 @@ import { computeNaturalRisks } from "@/lib/natural-risks";
 import { computeWaterStress } from "@/lib/water-stress";
 import { computeNoiseExposure } from "@/lib/noise-exposure";
 import { computeHealthcareAccess } from "@/lib/healthcare-access";
-import { APL_NATIONAL, APL_UNDERSERVED } from "@/lib/city-healthcare";
+import { APL_NATIONAL, APL_UNDERSERVED, BPE_YEAR, cityHealthcareMeasure } from "@/lib/city-healthcare";
 import { computeEmploymentMarket, estimatedDeptSalaryTier } from "@/lib/employment-market";
 import { climateZoneFor } from "@/lib/cost-living";
 import { computeQualityOfLife } from "@/lib/quality-of-life-index";
@@ -2880,6 +2880,58 @@ function rankEmploisEnRecul(): RedFlagRow[] {
   return rows.sort((a, b) => b.severity - a.severity);
 }
 
+// « Villes loin d'un service d'urgences » (2026-11-19).
+//
+// Une mesure publiée, aucun score : la distance à vol d'oiseau (centre à centre) de la
+// commune au service d'urgences le plus proche quand elle n'en compte aucun elle-même
+// (Insee, BPE, `lib/city-healthcare.ts`, champ `erKm`). Entrée à 10 km ou plus.
+//
+// ⚠️ Ce n'est PAS un temps de trajet : île, presqu'île et route de montagne allongent le
+// trajet réel, et un hôpital étranger plus proche (Gex, Hendaye) n'est pas compté. ⚠️ Une
+// commune qui compte un service (`emergency` > 0) n'a pas d'`erKm` : elle sort, pas de repli
+// constant. Distinct de `villes-desert-medical` (APL aux généralistes) et de
+// `villes-vieillir-loin-des-soins` (âge × APL) : ici seulement l'hôpital, plus un bonus
+// quand l'APL est aussi sous le seuil de zone sous-dense.
+const URGENCES_MIN_KM = 10;
+
+function urgencesEligible() {
+  const out: { city: SeedCity; km: number; nearest: string; apl: number | null; pop: number }[] = [];
+  for (const city of CITIES_SEED) {
+    const m = cityHealthcareMeasure(city.slug);
+    if (!m || m.emergency > 0 || m.erKm == null) continue;
+    out.push({ city, km: m.erKm, nearest: m.erNearest ?? "", apl: m.apl ?? null, pop: m.pop });
+  }
+  return out;
+}
+
+export const CORPUS_URGENCES = (() => {
+  const e = urgencesEligible();
+  const far = e.filter((x) => x.km >= URGENCES_MIN_KM);
+  return {
+    covered: CITIES_SEED.filter((c) => cityHealthcareMeasure(c.slug) != null).length,
+    noUnit: e.length,
+    medianKm: medianOf(e.map((x) => x.km)),
+    far: far.length,
+    veryFar: far.filter((x) => x.km >= 20).length,
+    farPop: far.reduce((a, x) => a + x.pop, 0),
+    farLowApl: far.filter((x) => x.apl != null && x.apl < APL_UNDERSERVED).length,
+  };
+})();
+
+function rankUrgencesEloignees(): RedFlagRow[] {
+  const rows: RedFlagRow[] = [];
+  for (const { city, km, nearest, apl, pop } of urgencesEligible()) {
+    if (km < URGENCES_MIN_KM) continue;
+    const lowApl = apl != null && apl < APL_UNDERSERVED;
+    // Le seuil d'entrée EST le plancher de gravité (6) ; 0,2 point par km au-delà de 10,
+    // +0,5 quand l'APL aux généralistes est aussi sous 2,5 ; plafond 10/10.
+    const severity = Math.min(10, 6 + 0.2 * (km - URGENCES_MIN_KM) + (lowApl ? 0.5 : 0));
+    const reason = `${fmtOne(km)} km à vol d'oiseau du service d'urgences le plus proche${nearest ? ` (${nearest})` : ""}, aucun sur place · ${fmtInt(pop)} habitants${lowApl ? ` · APL aux généralistes ${fmtTwo(apl as number)}, sous le seuil de ${fmtOne(APL_UNDERSERVED)}` : ""}`;
+    rows.push({ city, severity, reason });
+  }
+  return rows.sort((a, b) => b.severity - a.severity);
+}
+
 export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
@@ -3570,6 +3622,21 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
     methodology:
       "Indicateur : variation en % du nombre d'emplois situés dans la commune entre 2017 et 2023 (strictement négative), croisée avec un taux de chômage des 15-64 ans de la commune au moins égal à la moyenne nationale du recensement (11,4 %). Severity = 6 + 0,25 × (points d'emplois perdus) + 0,1 × (points de chômage au-dessus de 11,4), plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : population Insee 2022 ≥ 20 000 habitants, évolution de l'emploi et chômage publiés, soit " + CORPUS_RECUL.n + " villes ; la Guadeloupe, la Guyane et Mayotte sont hors du fichier mesuré, comme Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en 2025). Sources : Insee, recensement de la population " + RP_YEAR + ", emplois au lieu de travail et chômage des 15-64 ans, via `lib/city-employment.ts`. Le taux de chômage du recensement est déclaratif : il tourne plus haut que le taux BIT et les deux ne se comparent pas. Distinct de `villes-chomage-eleve` (score composite du site, sans évolution des emplois), de `villes-fuite-jeunes-actifs` et de `villes-qui-se-vident` (habitants et non emplois) : ici deux mesures publiées seulement, l'une sur le sol de la commune, l'autre sur ses habitants.",
     rank: rankEmploisEnRecul,
+  },
+  {
+    slug: "villes-urgences-eloignees",
+    title: "Villes à plus de 10 km d'un service d'urgences",
+    metaTitle: "Loin des urgences : 42 villes à 10 km ou plus (2026)",
+    metaDescription:
+      "42 villes sans service d'urgences sur place et à 10 km ou plus du plus proche (Insee, BPE 2025) : La Souterraine, Ribérac, Noirmoutier, Quiberon, Méru…",
+    emoji: "🚑",
+    intro:
+      "On choisit une ville pour son marché, ses écoles, sa plage. On ne se demande presque jamais où est l'hôpital. Tant que tout va bien, la question paraît théorique. Elle cesse de l'être avec un enfant en bas âge, une maladie chronique, un parent de 80 ans ou simplement une mauvaise chute. Dans la plupart des villes sans service d'urgences, l'hôpital est à quelques minutes. Dans une poignée, il ne l'est pas : le service le plus proche est dans une autre ville, à 10, 20 ou 30 km. Ce classement ne dit pas que ces villes sont dangereuses. Il dit que l'éloignement existe, qu'il se mesure, et qu'il se vérifie avant de signer.",
+    reality:
+      "Ce classement ne repose sur aucun score : il lit une mesure de l'Insee. La base permanente des équipements " + BPE_YEAR + " recense les services d'urgences par commune ; pour celles qui n'en comptent aucun, nous mesurons la distance à vol d'oiseau, de centre à centre, jusqu'à la commune la plus proche qui en a un. Sur les " + CORPUS_URGENCES.covered + " villes couvertes, " + CORPUS_URGENCES.noUnit + " n'ont aucun service d'urgences sur place, à " + fmtOne(CORPUS_URGENCES.medianKm) + " km en médiane du plus proche. " + CORPUS_URGENCES.far + " sont à " + URGENCES_MIN_KM + " km ou plus, dont " + CORPUS_URGENCES.veryFar + " à 20 km ou plus, soit " + fmtInt(CORPUS_URGENCES.farPop) + " habitants. " + CORPUS_URGENCES.farLowApl + " cumulent cet éloignement et un accès aux généralistes sous le seuil de zone sous-dense (APL inférieure à " + fmtOne(APL_UNDERSERVED) + ") : Méru, Les Andelys, Gex et Delle. Les grandes villes sont épargnées : aucune ville de 100 000 habitants et plus n'est concernée, et les seules villes de plus de 50 000 habitants du classement sont à La Réunion.",
+    methodology:
+      "Indicateur : distance à vol d'oiseau en km, de centre de commune à centre de commune, de la commune sans service d'urgences à la commune la plus proche qui en compte un (Insee, base permanente des équipements " + BPE_YEAR + " ; géolocalisation geo.api.gouv.fr), via `lib/city-healthcare.ts`. Entrée à 10 km ou plus. Severity = 6 + 0,2 × (km au-delà de 10) + 0,5 si l'APL aux généralistes de la DREES (2024) est aussi sous 2,5, plafonnée à 10/10 : le seuil d'entrée est le plancher de gravité, et le tri porte sur la valeur non arrondie. Villes comparées : " + CORPUS_URGENCES.covered + " villes dont l'équipement est publié ; Mamoudzou et Pierrefitte-sur-Seine (fusionnée dans Saint-Denis en 2025) sont hors du fichier. Limites : la distance n'est pas un temps de trajet (île, presqu'île, route de montagne) ; seuls les services recensés en France sont comptés, donc un hôpital étranger plus proche n'apparaît pas ; les SMUR, hélicoptères et maisons de santé, qui changent le délai de prise en charge, ne sont pas mesurés ; deux villes voisines peuvent partager un service recensé dans une troisième commune (Sablé-sur-Sarthe et La Flèche, Le Bailleul). En cas d'urgence vitale : 15 (SAMU) ou 112.",
+    rank: rankUrgencesEloignees,
   },
 ];
 
