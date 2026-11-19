@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { formatScore, scoreColor, scoreLabel } from "@/lib/utils";
+import { formatScore, scoreColor, scoreHex, scoreLabel } from "@/lib/utils";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternatesEn } from "@/lib/i18n";
 
@@ -47,19 +46,20 @@ const TIER_EN: Record<string, string> = {
   moyen: "average", "en dessous": "below average", mauvais: "poor",
 };
 
-const AXES: { key: keyof (typeof CITIES_LIGHT)[number]["scores"]; label: string }[] = [
-  { key: "life", label: "Quality of life" },
-  { key: "transport", label: "Transport" },
-  { key: "nature", label: "Nature" },
-  { key: "cost", label: "Cost of living" },
-  { key: "safety", label: "Safety" },
-  { key: "culture", label: "Culture" },
-  { key: "remoteWork", label: "Remote work" },
-  { key: "schools", label: "Schools" },
+const AXES: { key: keyof (typeof CITIES_LIGHT)[number]["scores"]; label: string; emoji: string }[] = [
+  { key: "life", label: "Quality of life", emoji: "🌿" },
+  { key: "transport", label: "Transport", emoji: "🚆" },
+  { key: "nature", label: "Nature", emoji: "🌳" },
+  { key: "cost", label: "Cost of living", emoji: "💶" },
+  { key: "safety", label: "Safety", emoji: "🛡️" },
+  { key: "culture", label: "Culture", emoji: "🎭" },
+  { key: "remoteWork", label: "Remote work", emoji: "💻" },
+  { key: "schools", label: "Schools", emoji: "🎓" },
 ];
 
-function CityRow({ rank, slug, name, department, score }: {
+function CityRow({ rank, slug, name, department, score, podium = false }: {
   rank: number;
+  podium?: boolean;
   slug: string;
   name: string;
   department: string;
@@ -68,15 +68,22 @@ function CityRow({ rank, slug, name, department, score }: {
   return (
     <Link
       href={`/cities/${slug}`}
-      className="flex items-center gap-3 px-4 py-2.5 hover:bg-[var(--bg-subtle)] transition-colors"
+      className="group flex items-center gap-3 px-4 py-2.5 hover:bg-[#EEF2FF] transition-colors"
     >
-      <span className="w-6 shrink-0 text-xs tabular-nums text-[var(--text-tertiary)]">{rank}</span>
-      <span className="min-w-0 flex-1 truncate text-sm font-medium text-[var(--text-primary)]">
+      <span
+        className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold tabular-nums ${
+          podium ? "grad-head-1 shadow-sm" : "bg-[#EEF2FF] text-[#4338CA] ring-1 ring-[#C7D2FE]"
+        }`}
+      >
+        {rank}
+      </span>
+      <span className="min-w-0 flex-1 truncate text-sm font-medium text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
         {name}
         <span className="ml-2 text-xs font-normal text-[var(--text-tertiary)]">{department}</span>
       </span>
-      <span className={`shrink-0 text-sm font-bold tabular-nums ${scoreColor(score)}`}>
-        {formatScore(score)}
+      <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-white px-2 py-0.5 ring-1 ring-[var(--border)]">
+        <span className="h-2 w-2 rounded-full" style={{ background: scoreHex(score) }} aria-hidden />
+        <span className={`text-sm font-bold tabular-nums ${scoreColor(score)}`}>{formatScore(score)}</span>
       </span>
       <span className="hidden sm:inline shrink-0 w-28 text-right text-xs text-[var(--text-tertiary)]">
         {TIER_EN[scoreLabel(score)] ?? scoreLabel(score)}
@@ -128,12 +135,16 @@ export default function ReviewsHubPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
+      <section className="relative overflow-hidden bg-aurora py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <nav className="text-xs text-[var(--text-tertiary)] mb-4">
           <Link href="/" className="hover:underline">Home</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+        <EmojiBadge emoji="⭐" tone="pink" size="lg" className="shadow-[0_12px_28px_-12px_rgba(219,39,119,0.55)]" />
+        <div className="min-w-0">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight gradient-text">
           French city ratings and resident reviews
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
@@ -144,14 +155,18 @@ export default function ReviewsHubPage() {
           where to look, the reviews tell you what the data misses.
         </p>
 
-        <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>{CITIES_COUNT} cities rated</Badge>
-          <Badge>8 measured criteria</Badge>
-          <Badge>No bought reviews</Badge>
+        <div className="mt-5 flex flex-wrap gap-2 text-xs font-semibold">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#EEF2FF] px-3 py-1.5 text-[#3730A3] ring-1 ring-[#C7D2FE]"><span aria-hidden>🏙️</span>{CITIES_COUNT} cities rated</span>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#FDF2F8] px-3 py-1.5 text-[#9D174D] ring-1 ring-[#FBCFE8]"><span aria-hidden>📏</span>8 measured criteria</span>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#ECFEFF] px-3 py-1.5 text-[#155E75] ring-1 ring-[#A5F3FC]"><span aria-hidden>🤝</span>No bought reviews</span>
+        </div>
+        </div>
         </div>
 
         {/* Find your city — the number one intent on this page */}
-        <Card className="mt-6 p-5">
+        <div className="mt-8 overflow-hidden rounded-2xl bg-white shadow-[0_18px_40px_-24px_rgba(79,70,229,0.55)] ring-1 ring-[#C7D2FE]">
+          <div aria-hidden className="h-1.5 grad-head-5" />
+          <div className="p-5">
           <h2 className="text-lg font-semibold text-[var(--text-primary)]">
             Look up a city&apos;s rating
           </h2>
@@ -161,23 +176,31 @@ export default function ReviewsHubPage() {
           <div className="mt-4 flex flex-wrap gap-2">
             <Link
               href="/cities"
-              className="rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90 transition-opacity"
+              className="rounded-xl grad-head-5 px-4 py-2 text-sm font-semibold shadow-[0_10px_24px_-12px_rgba(219,39,119,0.7)] hover:-translate-y-0.5 transition-transform"
             >
               Search a city →
             </Link>
             <Link
               href="/map"
-              className="rounded-xl border border-[var(--border)] px-4 py-2 text-sm font-semibold text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors"
+              className="rounded-xl bg-[#ECFEFF] px-4 py-2 text-sm font-semibold text-[#155E75] ring-1 ring-[#A5F3FC] hover:bg-[#CFFAFE] transition-colors"
             >
               See the ratings map
             </Link>
           </div>
-        </Card>
+          </div>
+        </div>
+        </div>
+      </section>
 
+      <section className="band band-indigo py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* The 8 criteria */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="📏" tone="indigo" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">
           What a city is rated on
         </h2>
+        </div>
         <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
           Each axis is scored out of 10, where 10 is best. The overall rating
           aggregates them, then subtracts a penalty on the weakest axis: that is
@@ -185,55 +208,71 @@ export default function ReviewsHubPage() {
           fourth from finishing ahead of one that is solid everywhere.
         </p>
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
-          {AXES.map((a) => (
+          {AXES.map((a, i) => (
             <div
               key={a.key}
-              className="rounded-xl border border-[var(--border)] px-3 py-2.5 text-sm text-[var(--text-primary)]"
+              className="flex items-center gap-2.5 rounded-xl bg-white px-3 py-2.5 text-sm font-medium text-[var(--text-primary)] shadow-[0_8px_20px_-16px_rgba(79,70,229,0.6)] ring-1 ring-[#C7D2FE]"
             >
-              {a.label}
+              <EmojiBadge emoji={a.emoji} tone={toneFor(i)} size="sm" className="!h-8 !w-8 !text-base" />
+              <span className="min-w-0">{a.label}</span>
             </div>
           ))}
         </div>
         <p className="mt-3 text-sm text-[var(--text-secondary)]">
           The calculation, source by source, is on the{" "}
-          <Link href="/methodology" className="text-[var(--accent)] hover:underline">
+          <Link href="/methodology" className="font-medium text-[#4338CA] underline underline-offset-2 hover:text-[#BE185D]">
             methodology page
           </Link>
           .
         </p>
+        </div>
+      </section>
 
+      <section className="band band-sky py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Best rated */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="🏆" tone="sky" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">
           The 20 highest-rated cities
         </h2>
+        </div>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Cities of more than {MIN_POP.toLocaleString("en-GB")} people, sorted by
           overall rating.
         </p>
-        <Card className="mt-3 divide-y divide-[var(--border)] p-0 overflow-hidden">
+        <div className="mt-4 divide-y divide-[#E0E7FF] overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-22px_rgba(3,105,161,0.6)] ring-1 ring-[#BAE6FD]">
           {best.map((c, i) => (
             <CityRow
               key={c.slug}
               rank={i + 1}
+              podium={i < 3}
               slug={c.slug}
               name={c.name}
               department={c.department}
               score={c.scores.global}
             />
           ))}
-        </Card>
+        </div>
+        </div>
+      </section>
 
+      <section className="band band-pink py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Lowest rated */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="📉" tone="pink" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">
           The 10 lowest ratings
         </h2>
+        </div>
         <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
           Publishing only the top of the table would be dishonest. These cities
           drop on at least one heavy axis — most often safety, employment, or
           housing cost relative to local income. It does not mean life there is
           bad: it means you should know what you are trading away.
         </p>
-        <Card className="mt-3 divide-y divide-[var(--border)] p-0 overflow-hidden">
+        <div className="mt-4 divide-y divide-[#FCE7F3] overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-22px_rgba(190,24,93,0.55)] ring-1 ring-[#FBCFE8]">
           {worst.map((c, i) => (
             <CityRow
               key={c.slug}
@@ -244,50 +283,61 @@ export default function ReviewsHubPage() {
               score={c.scores.global}
             />
           ))}
-        </Card>
+        </div>
+        </div>
+      </section>
 
         {/* Leave a review */}
-        <Card className="mt-10 p-5 border-l-4 border-l-[var(--accent)]">
-          <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+      <section className="band band-bold py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <div className="flex justify-center"><span aria-hidden className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/20 text-3xl ring-1 ring-white/40">💬</span></div>
+          <h2 className="mt-4 text-2xl sm:text-3xl font-bold">
             Rate your city, or say what is wrong with it
           </h2>
-          <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          <p className="mt-3 text-base text-white/90">
             The data does not capture the feel of a neighbourhood, the noise of a
             main road, or what has changed in the last five years. Every city
             profile has an open discussion at the bottom: open yours and write
             what you would have wanted to read before you moved in. We do not
             delete a review for being negative.
           </p>
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
               href="/cities"
-              className="rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90 transition-opacity"
+              className="rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-[#4338CA] shadow-lg hover:-translate-y-0.5 transition-transform"
             >
               Find my city and leave a review →
             </Link>
             <Link
               href="/methodology"
-              className="rounded-xl border border-[var(--border)] px-4 py-2 text-sm font-semibold text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors"
+              className="rounded-xl bg-white/10 px-5 py-2.5 text-sm font-semibold text-white ring-1 ring-white/60 hover:bg-white/20 transition-colors"
             >
               How the rating is calculated
             </Link>
           </div>
-        </Card>
+        </div>
+      </section>
 
+      <section className="band band-lilac py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Full index — crawlable, ~100 bytes a link rather than a card.
             See "Performance constraints": never a whole collection in a grid,
             but the internal linking has to stay in the static HTML. */}
-        <details className="mt-10 rounded-2xl border border-[var(--border)] p-5">
-          <summary className="cursor-pointer text-lg font-semibold text-[var(--text-primary)]">
+        <details className="group overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-20px_rgba(124,58,237,0.6)]">
+          <summary className="grad-head-4 flex cursor-pointer list-none items-center gap-3 px-5 py-4 text-base font-semibold [&::-webkit-details-marker]:hidden">
+            <span aria-hidden className="text-lg leading-none">🔤</span>
+            <span className="flex-1">
             All rated cities ({CITIES_COUNT})
+            </span>
+            <span aria-hidden className="text-lg leading-none transition-transform group-open:rotate-45">+</span>
           </summary>
-          <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          <p className="px-5 pt-4 text-sm text-[var(--text-secondary)]">
             Alphabetical. The overall rating follows the name.
           </p>
-          <ul className="mt-4 columns-1 sm:columns-2 lg:columns-3 gap-4 text-sm">
+          <ul className="columns-1 gap-4 p-5 text-sm sm:columns-2 lg:columns-3">
             {alphabetical.map((c) => (
               <li key={c.slug} className="break-inside-avoid py-0.5">
-                <Link href={`/cities/${c.slug}`} className="hover:underline text-[var(--text-secondary)]">
+                <Link href={`/cities/${c.slug}`} className="text-[var(--text-secondary)] hover:text-[var(--accent)] hover:underline">
                   {c.name}
                 </Link>{" "}
                 <span className={`tabular-nums text-xs font-semibold ${scoreColor(c.scores.global)}`}>
@@ -297,15 +347,22 @@ export default function ReviewsHubPage() {
             ))}
           </ul>
         </details>
+        </div>
+      </section>
 
+      <section className="band band-aqua py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Go further */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">Go further</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="🧭" tone="aqua" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">Go further</h2>
+        </div>
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link
             href="/rankings"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#C7D2FE] hover:ring-[#818CF8] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               🏆 Rankings by criterion
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
@@ -314,9 +371,9 @@ export default function ReviewsHubPage() {
           </Link>
           <Link
             href="/city-match"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#FBCFE8] hover:ring-[#F472B6] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               🎯 Your own rating
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
@@ -325,9 +382,9 @@ export default function ReviewsHubPage() {
           </Link>
           <Link
             href="/compare"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#A5F3FC] hover:ring-[#22D3EE] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               ⚖️ Compare two cities
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
@@ -336,15 +393,16 @@ export default function ReviewsHubPage() {
           </Link>
           <Link
             href="/red-flags"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#E9D5FF] hover:ring-[#C084FC] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               🚩 What nobody tells you
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
               The traps by city type, before you sign a lease.
             </div>
           </Link>
+        </div>
         </div>
       </section>
 

@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
-import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { CITIES_LIGHT } from "@/lib/cities-light";
 import { CITIES_COUNT } from "@/lib/site-stats";
-import { scoreColor, scoreLabel } from "@/lib/utils";
+import { scoreColor, scoreHex, scoreLabel } from "@/lib/utils";
 import { hubTitle } from "@/lib/brand";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { pathAlternates } from "@/lib/i18n";
@@ -33,19 +32,20 @@ export const metadata: Metadata = {
 // personne ne cherche l'avis — le même seuil que /palmares.
 const MIN_POP = 15_000;
 
-const AXES: { key: keyof (typeof CITIES_LIGHT)[number]["scores"]; label: string }[] = [
-  { key: "life", label: "Qualité de vie" },
-  { key: "transport", label: "Transports" },
-  { key: "nature", label: "Nature" },
-  { key: "cost", label: "Coût de la vie" },
-  { key: "safety", label: "Sécurité" },
-  { key: "culture", label: "Culture" },
-  { key: "remoteWork", label: "Télétravail" },
-  { key: "schools", label: "Écoles" },
+const AXES: { key: keyof (typeof CITIES_LIGHT)[number]["scores"]; label: string; emoji: string }[] = [
+  { key: "life", label: "Qualité de vie", emoji: "🌿" },
+  { key: "transport", label: "Transports", emoji: "🚆" },
+  { key: "nature", label: "Nature", emoji: "🌳" },
+  { key: "cost", label: "Coût de la vie", emoji: "💶" },
+  { key: "safety", label: "Sécurité", emoji: "🛡️" },
+  { key: "culture", label: "Culture", emoji: "🎭" },
+  { key: "remoteWork", label: "Télétravail", emoji: "💻" },
+  { key: "schools", label: "Écoles", emoji: "🎓" },
 ];
 
-function CityRow({ rank, slug, name, department, score }: {
+function CityRow({ rank, slug, name, department, score, podium = false }: {
   rank: number;
+  podium?: boolean;
   slug: string;
   name: string;
   department: string;
@@ -54,15 +54,22 @@ function CityRow({ rank, slug, name, department, score }: {
   return (
     <Link
       href={`/villes/${slug}`}
-      className="flex items-center gap-3 px-4 py-2.5 hover:bg-[var(--bg-subtle)] transition-colors"
+      className="group flex items-center gap-3 px-4 py-2.5 hover:bg-[#EEF2FF] transition-colors"
     >
-      <span className="w-6 shrink-0 text-xs tabular-nums text-[var(--text-tertiary)]">{rank}</span>
-      <span className="min-w-0 flex-1 truncate text-sm font-medium text-[var(--text-primary)]">
+      <span
+        className={`inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold tabular-nums ${
+          podium ? "grad-head-1 shadow-sm" : "bg-[#EEF2FF] text-[#4338CA] ring-1 ring-[#C7D2FE]"
+        }`}
+      >
+        {rank}
+      </span>
+      <span className="min-w-0 flex-1 truncate text-sm font-medium text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
         {name}
         <span className="ml-2 text-xs font-normal text-[var(--text-tertiary)]">{department}</span>
       </span>
-      <span className={`shrink-0 text-sm font-bold tabular-nums ${scoreColor(score)}`}>
-        {score.toFixed(1).replace(".", ",")}
+      <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-white px-2 py-0.5 ring-1 ring-[var(--border)]">
+        <span className="h-2 w-2 rounded-full" style={{ background: scoreHex(score) }} aria-hidden />
+        <span className={`text-sm font-bold tabular-nums ${scoreColor(score)}`}>{score.toFixed(1).replace(".", ",")}</span>
       </span>
       <span className="hidden sm:inline shrink-0 w-24 text-right text-xs text-[var(--text-tertiary)]">
         {scoreLabel(score)}
@@ -114,12 +121,16 @@ export default function AvisHubPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(faq)} />
       <Navbar />
 
-      <section className="mx-auto max-w-5xl px-4 sm:px-6 py-10">
-        <nav className="text-xs text-[var(--text-tertiary)] mb-3">
+      <section className="relative overflow-hidden bg-aurora py-10 sm:py-14">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
+        <nav className="text-xs text-[var(--text-tertiary)] mb-4">
           <Link href="/" className="hover:underline">Accueil</Link>
         </nav>
 
-        <h1 className="text-3xl md:text-4xl font-bold tracking-tight text-[var(--text-primary)]">
+        <div className="flex flex-col gap-5 sm:flex-row sm:items-start">
+        <EmojiBadge emoji="⭐" tone="pink" size="lg" className="shadow-[0_12px_28px_-12px_rgba(219,39,119,0.55)]" />
+        <div className="min-w-0">
+        <h1 className="text-3xl md:text-4xl font-bold tracking-tight gradient-text">
           Avis et notes des villes de France
         </h1>
         <p className="mt-3 text-base text-[var(--text-secondary)] max-w-3xl">
@@ -130,14 +141,18 @@ export default function AvisHubPage() {
           capte pas.
         </p>
 
-        <div className="mt-4 flex flex-wrap gap-2 text-xs">
-          <Badge>{CITIES_COUNT} villes notées</Badge>
-          <Badge>8 critères mesurés</Badge>
-          <Badge>Aucun avis acheté</Badge>
+        <div className="mt-5 flex flex-wrap gap-2 text-xs font-semibold">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#EEF2FF] px-3 py-1.5 text-[#3730A3] ring-1 ring-[#C7D2FE]"><span aria-hidden>🏙️</span>{CITIES_COUNT} villes notées</span>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#FDF2F8] px-3 py-1.5 text-[#9D174D] ring-1 ring-[#FBCFE8]"><span aria-hidden>📏</span>8 critères mesurés</span>
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-[#ECFEFF] px-3 py-1.5 text-[#155E75] ring-1 ring-[#A5F3FC]"><span aria-hidden>🤝</span>Aucun avis acheté</span>
+        </div>
+        </div>
         </div>
 
         {/* Trouver sa ville — l'intention n°1 de cette page */}
-        <Card className="mt-6 p-5">
+        <div className="mt-8 overflow-hidden rounded-2xl bg-white shadow-[0_18px_40px_-24px_rgba(79,70,229,0.55)] ring-1 ring-[#C7D2FE]">
+          <div aria-hidden className="h-1.5 grad-head-5" />
+          <div className="p-5">
           <h2 className="text-lg font-semibold text-[var(--text-primary)]">
             Chercher la note d&apos;une ville
           </h2>
@@ -147,23 +162,31 @@ export default function AvisHubPage() {
           <div className="mt-4 flex flex-wrap gap-2">
             <Link
               href="/villes"
-              className="rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90 transition-opacity"
+              className="rounded-xl grad-head-5 px-4 py-2 text-sm font-semibold shadow-[0_10px_24px_-12px_rgba(219,39,119,0.7)] hover:-translate-y-0.5 transition-transform"
             >
               Rechercher une ville →
             </Link>
             <Link
               href="/carte"
-              className="rounded-xl border border-[var(--border)] px-4 py-2 text-sm font-semibold text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors"
+              className="rounded-xl bg-[#ECFEFF] px-4 py-2 text-sm font-semibold text-[#155E75] ring-1 ring-[#A5F3FC] hover:bg-[#CFFAFE] transition-colors"
             >
               Voir la carte des notes
             </Link>
           </div>
-        </Card>
+          </div>
+        </div>
+        </div>
+      </section>
 
+      <section className="band band-indigo py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Les 8 critères */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="📏" tone="indigo" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">
           Sur quoi une ville est notée
         </h2>
+        </div>
         <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
           Chaque axe est noté sur 10, 10 = meilleur. La note globale les agrège, puis retranche
           une pénalité sur l&apos;axe le plus faible : c&apos;est ce qui empêche une ville
@@ -171,54 +194,70 @@ export default function AvisHubPage() {
           solide partout.
         </p>
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-2">
-          {AXES.map((a) => (
+          {AXES.map((a, i) => (
             <div
               key={a.key}
-              className="rounded-xl border border-[var(--border)] px-3 py-2.5 text-sm text-[var(--text-primary)]"
+              className="flex items-center gap-2.5 rounded-xl bg-white px-3 py-2.5 text-sm font-medium text-[var(--text-primary)] shadow-[0_8px_20px_-16px_rgba(79,70,229,0.6)] ring-1 ring-[#C7D2FE]"
             >
-              {a.label}
+              <EmojiBadge emoji={a.emoji} tone={toneFor(i)} size="sm" className="!h-8 !w-8 !text-base" />
+              <span className="min-w-0">{a.label}</span>
             </div>
           ))}
         </div>
         <p className="mt-3 text-sm text-[var(--text-secondary)]">
           Le détail du calcul, source par source, est sur la{" "}
-          <Link href="/methode" className="text-[var(--accent)] hover:underline">
+          <Link href="/methode" className="font-medium text-[#4338CA] underline underline-offset-2 hover:text-[#BE185D]">
             page méthode
           </Link>
           .
         </p>
+        </div>
+      </section>
 
+      <section className="band band-sky py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Mieux notées */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="🏆" tone="sky" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">
           Les 20 villes les mieux notées
         </h2>
+        </div>
         <p className="mt-2 text-sm text-[var(--text-secondary)]">
           Villes de plus de {MIN_POP.toLocaleString("fr-FR")} habitants, triées par note globale.
         </p>
-        <Card className="mt-3 divide-y divide-[var(--border)] p-0 overflow-hidden">
+        <div className="mt-4 divide-y divide-[#E0E7FF] overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-22px_rgba(3,105,161,0.6)] ring-1 ring-[#BAE6FD]">
           {best.map((c, i) => (
             <CityRow
               key={c.slug}
               rank={i + 1}
+              podium={i < 3}
               slug={c.slug}
               name={c.name}
               department={c.department}
               score={c.scores.global}
             />
           ))}
-        </Card>
+        </div>
+        </div>
+      </section>
 
+      <section className="band band-pink py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Moins bien notées */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="📉" tone="pink" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">
           Les 10 notes les plus basses
         </h2>
+        </div>
         <p className="mt-2 text-sm text-[var(--text-secondary)] max-w-3xl">
           Publier uniquement le haut du classement serait malhonnête. Ces villes décrochent sur
           au moins un axe lourd — le plus souvent sécurité, emploi ou coût du logement rapporté
           aux revenus. Ça ne veut pas dire qu&apos;on n&apos;y vit pas bien : ça veut dire
           qu&apos;il faut savoir sur quoi on arbitre.
         </p>
-        <Card className="mt-3 divide-y divide-[var(--border)] p-0 overflow-hidden">
+        <div className="mt-4 divide-y divide-[#FCE7F3] overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-22px_rgba(190,24,93,0.55)] ring-1 ring-[#FBCFE8]">
           {worst.map((c, i) => (
             <CityRow
               key={c.slug}
@@ -229,49 +268,60 @@ export default function AvisHubPage() {
               score={c.scores.global}
             />
           ))}
-        </Card>
+        </div>
+        </div>
+      </section>
 
         {/* Donner son avis */}
-        <Card className="mt-10 p-5 border-l-4 border-l-[var(--accent)]">
-          <h2 className="text-lg font-semibold text-[var(--text-primary)]">
+      <section className="band band-bold py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <div className="flex justify-center"><span aria-hidden className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/20 text-3xl ring-1 ring-white/40">💬</span></div>
+          <h2 className="mt-4 text-2xl sm:text-3xl font-bold">
             Noter votre ville, ou dire ce qui cloche
           </h2>
-          <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          <p className="mt-3 text-base text-white/90">
             La donnée ne capte pas l&apos;ambiance d&apos;un quartier, le bruit d&apos;un axe, ni
             ce qui a changé depuis cinq ans. Chaque fiche ville a une discussion ouverte en bas de
             page : ouvrez la vôtre et écrivez-y ce que vous auriez voulu lire avant
             d&apos;emménager. On ne supprime pas un avis parce qu&apos;il est négatif.
           </p>
-          <div className="mt-4 flex flex-wrap gap-2">
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
               href="/villes"
-              className="rounded-xl bg-[var(--accent)] px-4 py-2 text-sm font-semibold text-white hover:opacity-90 transition-opacity"
+              className="rounded-xl bg-white px-5 py-2.5 text-sm font-semibold text-[#4338CA] shadow-lg hover:-translate-y-0.5 transition-transform"
             >
               Trouver ma ville et donner mon avis →
             </Link>
             <Link
               href="/methode"
-              className="rounded-xl border border-[var(--border)] px-4 py-2 text-sm font-semibold text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors"
+              className="rounded-xl bg-white/10 px-5 py-2.5 text-sm font-semibold text-white ring-1 ring-white/60 hover:bg-white/20 transition-colors"
             >
               Comment la note est calculée
             </Link>
           </div>
-        </Card>
+        </div>
+      </section>
 
+      <section className="band band-lilac py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Index complet — crawlable, ~100 octets par lien plutôt qu'une carte.
             Cf. « Performance constraints » : jamais une collection entière en
             grille, mais le maillage interne doit rester dans le HTML statique. */}
-        <details className="mt-10 rounded-2xl border border-[var(--border)] p-5">
-          <summary className="cursor-pointer text-lg font-semibold text-[var(--text-primary)]">
+        <details className="group overflow-hidden rounded-2xl bg-white shadow-[0_14px_32px_-20px_rgba(124,58,237,0.6)]">
+          <summary className="grad-head-4 flex cursor-pointer list-none items-center gap-3 px-5 py-4 text-base font-semibold [&::-webkit-details-marker]:hidden">
+            <span aria-hidden className="text-lg leading-none">🔤</span>
+            <span className="flex-1">
             Toutes les villes notées ({CITIES_COUNT})
+            </span>
+            <span aria-hidden className="text-lg leading-none transition-transform group-open:rotate-45">+</span>
           </summary>
-          <p className="mt-2 text-sm text-[var(--text-secondary)]">
+          <p className="px-5 pt-4 text-sm text-[var(--text-secondary)]">
             Par ordre alphabétique. La note globale suit le nom.
           </p>
-          <ul className="mt-4 columns-1 sm:columns-2 lg:columns-3 gap-4 text-sm">
+          <ul className="columns-1 gap-4 p-5 text-sm sm:columns-2 lg:columns-3">
             {alphabetical.map((c) => (
               <li key={c.slug} className="break-inside-avoid py-0.5">
-                <Link href={`/villes/${c.slug}`} className="hover:underline text-[var(--text-secondary)]">
+                <Link href={`/villes/${c.slug}`} className="text-[var(--text-secondary)] hover:text-[var(--accent)] hover:underline">
                   {c.name}
                 </Link>{" "}
                 <span className={`tabular-nums text-xs font-semibold ${scoreColor(c.scores.global)}`}>
@@ -281,15 +331,22 @@ export default function AvisHubPage() {
             ))}
           </ul>
         </details>
+        </div>
+      </section>
 
+      <section className="band band-aqua py-12">
+        <div className="mx-auto max-w-5xl px-4 sm:px-6">
         {/* Aller plus loin */}
-        <h2 className="mt-10 text-2xl font-semibold text-[var(--text-primary)]">Aller plus loin</h2>
-        <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 gap-3">
+        <div className="flex items-center gap-3">
+        <EmojiBadge emoji="🧭" tone="aqua" size="sm" />
+        <h2 className="text-2xl font-bold text-[var(--text-primary)]">Aller plus loin</h2>
+        </div>
+        <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link
             href="/classements"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#C7D2FE] hover:ring-[#818CF8] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               🏆 Classements par critère
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
@@ -298,9 +355,9 @@ export default function AvisHubPage() {
           </Link>
           <Link
             href="/city-match"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#FBCFE8] hover:ring-[#F472B6] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               🎯 Votre note à vous
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
@@ -309,9 +366,9 @@ export default function AvisHubPage() {
           </Link>
           <Link
             href="/comparer"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#A5F3FC] hover:ring-[#22D3EE] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               ⚖️ Comparer deux villes
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
@@ -320,15 +377,16 @@ export default function AvisHubPage() {
           </Link>
           <Link
             href="/red-flags"
-            className="rounded-2xl border border-[var(--border)] p-4 hover:border-[var(--accent)] transition-colors"
+            className="group rounded-2xl bg-white p-4 shadow-[0_10px_26px_-20px_rgba(14,116,144,0.7)] ring-1 ring-[#E9D5FF] hover:ring-[#C084FC] hover:-translate-y-0.5 hover:shadow-lg transition-all"
           >
-            <div className="text-sm font-semibold text-[var(--text-primary)]">
+            <div className="text-sm font-semibold text-[var(--text-primary)] group-hover:text-[#4338CA] transition-colors">
               🚩 Ce qu&apos;on ne vous dit pas
             </div>
             <div className="mt-1 text-xs text-[var(--text-tertiary)]">
               Les pièges par type de ville, avant de signer un bail.
             </div>
           </Link>
+        </div>
         </div>
       </section>
 

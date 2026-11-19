@@ -1694,3 +1694,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
 2. `components/ui/Badge.tsx` / `Button.tsx` variante `secondary` (encore blanche à filet gris, partout).
 3. Hub `/avis` (FR) + EN `/reviews`.
+
+## 2026-11-19 ~03:00 UTC — hub `/avis` (FR) + EN `/reviews`
+
+**Surface** : le hub « Avis et notes des villes ». Avant : **une seule section blanche** sans aucune bande (titre noir, badges gris, cartes `Card` à filet gris, listes top 20 / flop 10 en lignes grises à note nue, CTA à liseré gauche, `<details>` à filet, cartes « Aller plus loin » à filet).
+
+**Changé** : 7 sections — hero `.bg-aurora` + `EmojiBadge` ⭐ + titre `.gradient-text`, stats en pilules pastel indigo / rose / cyan, carte de recherche blanche à liseré dégradé (bouton `grad-head-5`, secondaire aqua) ; critères en bande `band-indigo` (8 tuiles blanches à pastille emoji, `toneFor`) ; top 20 en `band-sky` et flop 10 en `band-pink` (rangs en pastilles, podium `grad-head-1`, notes en pilules point de palier + note) ; CTA « Noter votre ville » en `band-bold` (seul de la page) ; index A → Z en `band-lilac` (`<details>` à bandeau `grad-head-4`) ; « Aller plus loin » en `band-aqua` (cartes blanches à anneau teinté en rotation). Copie, tri, couleurs de palier inchangés ; `Card`/`Badge` plus importés.
+
+**Fichiers** : `app/avis/page.tsx`, `app/[locale]/reviews/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 2 fichiers : 0 problème (avant/après). Captures playwright `/avis` et `/en/reviews` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
+2. `components/ui/Badge.tsx` (`default`) / `Button.tsx` (`secondary`) : encore blancs à filet gris, partout.
+3. Pages `/methode` (FR) + EN `/methodology`.
