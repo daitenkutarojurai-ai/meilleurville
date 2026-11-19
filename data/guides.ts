@@ -39596,6 +39596,267 @@ export const GUIDES: Guide[] = [
     tags: ["étudiant Beauvais 2026", "étudier à Beauvais", "logement étudiant Beauvais", "budget étudiant Beauvais", "UniLaSalle IUT de l'Oise Beauvais"],
   },
   {
+    slug: "etudiant-a-roubaix-2026",
+    title: "Étudiant à Roubaix en 2026 : IUT de Lille, ESMOD, studio à 380 €",
+    metaTitle: "Étudiant à Roubaix 2026 : studio à 380 €, IUT, budget",
+    metaDesc: "Étudier à Roubaix en 2026 : studio à 380 € sur notre estimation, IUT de Lille, ESMOD et ENSAIT. Le guide chiffré, avec Tourcoing et Lille.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Roubaix est l'une des villes les moins chères de la série : 380 € le studio et 520 € le deux-pièces, contre 580 € et 800 € à Lille, reliée par le métro (source : notre estimation des loyers). Notre score vie étudiante est de 5,6/10, au 289e rang sur 593 à égalité avec 21 autres villes, loin de Lille (7,5, au 6e rang) (source : notre fiche profils). La ville compte 99 507 habitants, dont 23,1 % de 15-29 ans (source : Insee, recensement 2022) : on y vient pour le loyer et pour une formation précise, pas pour une vie de campus.",
+    sections: [
+      {
+        heading: "Quelles études à Roubaix ?",
+        body: "Le site roubaisien de l'IUT de Lille, 53 rue de l'Alma, propose trois BUT d'après les fiches 2025-2026 de l'Université de Lille : Carrières juridiques, Science des données et Techniques de commercialisation. Le textile et la mode sont l'autre spécificité : ESMOD Roubaix pour le design et le business de la mode, l'ENSAIT pour l'ingénierie textile. Un espace universitaire neuf a été inauguré en février 2017 ; pour une licence généraliste ou un master, l'offre se trouve à Villeneuve-d'Ascq ou à Lille.",
+      },
+      {
+        heading: "Quel loyer étudiant à Roubaix ?",
+        body: "Un studio est estimé à 380 € et un deux-pièces à 520 € par mois (source : notre estimation des loyers). Tourcoing, voisine, est à 400 € et 550 € ; Lille à 580 € et 800 €. Le studio roubaisien coûte donc 200 € de moins qu'à Lille, soit 2 400 € sur douze mois. Visale remplace le garant ; lisez le DPE avant de signer, une partie du parc ancien est mal isolée.",
+      },
+      {
+        heading: "Budget mensuel : 740 euros environ",
+        body: "Studio : 380 € (source : notre estimation des loyers). Transport : 30 €, une hypothèse de notre part, à vérifier auprès du réseau local. Courses : 220 €, une hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 740 € par mois avant aides, contre 760 € à Tourcoing et 940 € à Lille avec les mêmes hypothèses. Inscription : 178 € en licence, 255 € en master, plus 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Roubaix, Tourcoing ou Lille ?",
+        body: "Roubaix a un score de 5,6 et 23,1 % de 15-29 ans ; Tourcoing, 5,5 et 21,3 % ; Lille, 7,5 et 36,8 %. Côté équipements, Roubaix affiche une culture à 5,7/10 et un transport à 7,7/10, Lille 8,0 et 8,7, Tourcoing 4,8 et 7,7 (source : notre fiche ville). Roubaix est la moins chère des trois, avec un transport au niveau de Tourcoing et une ville universitaire à portée de métro.",
+      },
+      {
+        heading: "Quel contexte social pour un étudiant à Roubaix ?",
+        body: "Le niveau de vie médian est de 14 580 € par an et le taux de pauvreté de 46 % (source : Insee, Filosofi 2021), un niveau de précarité très élevé. Les loyers bas reflètent ce marché détendu, pas une ville vide : la population a augmenté, de 96 412 habitants en 2016 à 99 507 en 2022. Beaucoup d'étudiants y habitent et sortent à Lille.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs d'appoint se trouvent dans le commerce, la restauration et la logistique de la métropole lilloise, les stages dans le textile, la vente à distance et le numérique du secteur. Verdict : Roubaix convient à un étudiant d'IUT, d'ESMOD ou de l'ENSAIT qui veut un studio à 380 € et Lille à portée. Elle convient moins à qui cherche un campus animé le soir : Lille est la réponse, avec un studio plus cher de 200 €.",
+      },
+    ],
+    relatedCities: ["roubaix","tourcoing","lille"],
+    relatedGuides: [
+      "etudiant-a-lille-2026",
+    ],
+    tags: ["étudiant Roubaix 2026", "étudier à Roubaix", "logement étudiant Roubaix", "budget étudiant Roubaix", "IUT de Lille Roubaix ESMOD ENSAIT"],
+  },
+  {
+    slug: "etudiant-a-tourcoing-2026",
+    title: "Étudiant à Tourcoing en 2026 : IUT de Lille, loyers, budget",
+    metaTitle: "Étudiant à Tourcoing 2026 : IUT, loyer, budget mensuel",
+    metaDesc: "Étudier à Tourcoing en 2026 : studio à 400 € sur notre estimation, IUT de Lille rue Sainte-Barbe. Budget chiffré, comparé à Roubaix et Lille.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Un studio à Tourcoing coûte 400 € par mois, 180 € de moins qu'à Lille, pour un budget étudiant d'environ 760 € avant aides (source : notre estimation des loyers). Notre score vie étudiante est de 5,5/10, au 311e rang sur 593 à égalité avec 21 autres villes, à 2,0 points de Lille (source : notre fiche profils). Tourcoing compte 99 160 habitants, dont 21,3 % de 15-29 ans (source : Insee, recensement 2022) : une ville de rattachement pour les BUT de l'IUT, avec la métropole lilloise pour le reste.",
+    sections: [
+      {
+        heading: "Quelles formations à Tourcoing ?",
+        body: "Le site tourquennois de l'IUT de Lille occupe une ancienne filature reconvertie, 35 rue Sainte-Barbe, sur le campus Roubaix-Tourcoing de l'Université de Lille. Les fiches 2025-2026 y placent notamment des BUT Carrières sociales, Techniques de commercialisation, Information-communication et Gestion logistique et transport, en formation initiale ou en alternance. L'IUT s'étend sur trois sites : Villeneuve-d'Ascq, Roubaix et Tourcoing.",
+      },
+      {
+        heading: "Combien coûte un logement étudiant à Tourcoing ?",
+        body: "Le studio est estimé à 400 € et le deux-pièces à 550 € par mois (source : notre estimation des loyers). Roubaix, collée à Tourcoing, est 20 € moins chère sur le studio (380 €) ; Lille monte à 580 € et 800 €. Visale peut tenir lieu de garant, et le DPE se lit avant signature.",
+      },
+      {
+        heading: "Quel budget mensuel à Tourcoing ?",
+        body: "Studio : 400 € (source : notre estimation des loyers). Transport : 30 €, hypothèse à vérifier auprès du réseau. Courses : 220 €, hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 760 € par mois, contre 740 € à Roubaix et 940 € à Lille aux mêmes hypothèses. À cela s'ajoutent 178 € d'inscription en licence ou 255 € en master et 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Tourcoing, Roubaix ou Lille pour étudier ?",
+        body: "Tourcoing totalise 5,5 et 21,3 % de 15-29 ans ; Roubaix 5,6 et 23,1 % ; Lille 7,5 et 36,8 %. Tourcoing est la plus faible des trois sur la culture, 4,8/10 contre 5,7 à Roubaix et 8,0 à Lille, mais son transport, à 7,7/10, égale celui de Roubaix (source : notre fiche ville). Choisir Tourcoing, c'est accepter de sortir ailleurs.",
+      },
+      {
+        heading: "Quel profil social et démographique ?",
+        body: "Le niveau de vie médian est de 18 300 € par an et le taux de pauvreté de 29 % (source : Insee, Filosofi 2021), un profil plus proche de la moyenne de la série que celui de Roubaix. La population est presque stable, de 97 476 habitants en 2016 à 99 160 en 2022. Le centre est desservi et plus calme que Lille.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs d'appoint viennent du commerce, de la logistique et de la restauration du versant nord de la métropole, les stages de la vente à distance et du transport. Verdict : Tourcoing sert un étudiant en BUT Gestion logistique et transport ou Carrières sociales qui veut garder un loyer sous 400 €. Elle sert moins celui qui veut un campus de centre-ville : Lille offre cela pour 180 € de plus.",
+      },
+    ],
+    relatedCities: ["tourcoing","roubaix","lille"],
+    relatedGuides: [
+      "etudiant-a-lille-2026",
+    ],
+    tags: ["étudiant Tourcoing 2026", "étudier à Tourcoing", "logement étudiant Tourcoing", "budget étudiant Tourcoing", "IUT de Lille Tourcoing"],
+  },
+  {
+    slug: "etudiant-a-cherbourg-2026",
+    title: "Étudiant à Cherbourg en 2026 : IUT, ESIX, loyers, budget",
+    metaTitle: "Étudiant à Cherbourg 2026 : IUT, ESIX, budget",
+    metaDesc: "Étudier à Cherbourg-en-Cotentin en 2026 : studio à 450 € sur notre estimation, IUT et école d'ingénieurs ESIX. Le guide chiffré, avec Caen.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Cherbourg-en-Cotentin loge ses étudiants à 450 € le studio et 620 € le deux-pièces, 60 € de moins qu'à Caen (source : notre estimation des loyers). Notre score vie étudiante est de 5,7/10, au 272e rang sur 593 à égalité avec 16 autres villes, contre 6,8 à Caen (source : notre fiche profils). La ville compte 78 028 habitants, dont 18,8 % de 15-29 ans (source : Insee, recensement 2022) : un petit pôle de l'Université de Caen, tourné vers l'industrie et la mer.",
+    sections: [
+      {
+        heading: "Quelles études à Cherbourg ?",
+        body: "L'enseignement supérieur repose sur un site délocalisé de l'Université de Caen Normandie, avec deux composantes : l'IUT, aujourd'hui IUT Grand Ouest Normandie, 60 rue Max-Pol Fouchet, qui prépare à des BUT comme le GEII (génie électrique et informatique industrielle), et ESIX Normandie, l'école d'ingénieurs interne à l'université. Un Campus connecté a ouvert à la rentrée 2021 pour suivre à distance des cours d'autres universités. Pour une licence généraliste ou une médecine, la suite se fait à Caen.",
+      },
+      {
+        heading: "Quel loyer à Cherbourg ?",
+        body: "Un studio est estimé à 450 € et un deux-pièces à 620 € par mois (source : notre estimation des loyers), contre 510 € et 700 € à Caen. Les 60 € d'écart sur le studio font 720 € sur l'année. Visale tient lieu de garant pour qui n'a pas de caution familiale ; le DPE se lit avant de signer, face à la Manche l'humidité compte.",
+      },
+      {
+        heading: "Budget mensuel : 810 euros environ",
+        body: "Studio : 450 € (source : notre estimation des loyers). Transport : 30 €, hypothèse à vérifier auprès du réseau local. Courses : 220 €, hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 810 € par mois avant aides, contre 870 € à Caen aux mêmes hypothèses. S'ajoutent 178 € d'inscription en licence, 255 € en master et 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Cherbourg ou Caen ?",
+        body: "Cherbourg affiche 5,7 et 18,8 % de 15-29 ans ; Caen, 6,8 et 33,3 %. Sur nos axes, Cherbourg a une culture à 5,9/10 et un transport à 4,9/10, ce qui compte : la voiture ou le vélo y pèsent plus qu'en ville de tram (source : notre fiche ville). Caen est une vraie ville étudiante ; Cherbourg est une ville de formation ciblée.",
+      },
+      {
+        heading: "Quelle vie étudiante et quel contexte ?",
+        body: "Le niveau de vie médian est de 22 650 € par an et le taux de pauvreté de 14 % (source : Insee, Filosofi 2021), un des profils les plus aisés de ce lot. La population recule doucement : 80 076 habitants en 2016, 78 028 en 2022. Une vie étudiante discrète, avec la rade, les ports et l'industrie navale et nucléaire pour toile de fond.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages se cherchent dans l'industrie du Cotentin, en électricité, mécanique et informatique industrielle, selon la formation. Verdict : Cherbourg convient à un étudiant du GEII ou d'ESIX qui préfère un studio à 450 € et une ville où l'on finit ses études sans se disperser. Elle convient moins à qui veut une grande vie étudiante ou une licence généraliste : Caen est la réponse, avec 60 € de loyer en plus.",
+      },
+    ],
+    relatedCities: ["cherbourg","caen"],
+    relatedGuides: [
+      "etudiant-a-caen-2026",
+    ],
+    tags: ["étudiant Cherbourg 2026", "étudier à Cherbourg", "logement étudiant Cherbourg", "budget étudiant Cherbourg", "IUT ESIX Cherbourg-en-Cotentin"],
+  },
+  {
+    slug: "etudiant-a-beziers-2026",
+    title: "Étudiant à Béziers en 2026 : IUT, antenne universitaire, budget",
+    metaTitle: "Étudiant à Béziers 2026 : IUT, studio à 380 €, budget",
+    metaDesc: "Étudier à Béziers en 2026 : studio à 380 € sur notre estimation, IUT et antenne universitaire. Le guide chiffré, avec Montpellier et Narbonne.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Béziers loge un étudiant pour 380 € le studio, 240 € de moins qu'à Montpellier, une métropole à portée (source : notre estimation des loyers). Notre score vie étudiante est de 5,5/10, au 311e rang sur 593 à égalité avec 21 autres villes, contre 6,9 à Montpellier (source : notre fiche profils). La ville compte 80 815 habitants, dont 17,7 % de 15-29 ans (source : Insee, recensement 2022) : on y étudie sur place les premières années, on part pour le master.",
+    sections: [
+      {
+        heading: "Quelles études à Béziers ?",
+        body: "Le site universitaire Du Guesclin réunit l'IUT de Béziers, rattaché à l'Université de Montpellier, une antenne de l'Université Paul-Valéry Montpellier 3 et le centre inter-régional de développement de l'occitan. L'IUT prépare à des BUT et des licences professionnelles, dont des BUT réseaux et télécommunications ou métiers du multimédia et de l'internet d'après le livret 2026-2027. Une journée d'accueil des étudiants biterrois réunit l'IUT, les universités de Montpellier, l'IFMS et les lycées du bassin.",
+      },
+      {
+        heading: "Quel loyer étudiant à Béziers ?",
+        body: "Un studio est estimé à 380 € et un deux-pièces à 530 € par mois (source : notre estimation des loyers). Narbonne est à 490 € et 680 €, Montpellier à 620 € et 850 €. Béziers est la moins chère des trois : le studio y coûte 240 € de moins qu'à Montpellier, soit 2 880 € sur l'année. Visale peut remplacer le garant ; lisez le DPE, la chaleur d'été compte autant que le chauffage.",
+      },
+      {
+        heading: "Budget mensuel : 740 euros environ",
+        body: "Studio : 380 € (source : notre estimation des loyers). Transport : 30 €, hypothèse à vérifier auprès du réseau local. Courses : 220 €, hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 740 € par mois avant aides, contre 850 € à Narbonne et 980 € à Montpellier aux mêmes hypothèses. S'ajoutent 178 € d'inscription en licence, 255 € en master et 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Béziers, Narbonne ou Montpellier ?",
+        body: "Béziers a un score de 5,5 et 17,7 % de 15-29 ans ; Narbonne, 5,5 et 16,9 % ; Montpellier, 6,9 et 31,5 %. Béziers a la meilleure culture des deux petites villes, 6,6/10, mais un transport à 4,9/10 (source : notre fiche ville). Béziers ressemble à Narbonne par le score, avec un studio 110 € moins cher ; Montpellier est un autre monde, avec 307 101 habitants.",
+      },
+      {
+        heading: "Quel contexte social à Béziers ?",
+        body: "Le niveau de vie médian est de 16 830 € par an et le taux de pauvreté de 36 % (source : Insee, Filosofi 2021), un marché détendu qui explique les loyers bas. La ville gagne des habitants : 76 493 en 2016, 80 815 en 2022. En 2019, une question parlementaire relevait que Béziers n'accueillait que 1,4 % des étudiants de l'académie, contre 78 % pour Montpellier : l'offre y est petite.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les jobs d'appoint se trouvent dans le commerce, la restauration et le tourisme saisonnier du littoral, les stages dans les entreprises du bassin biterrois et à Montpellier. Verdict : Béziers convient à un étudiant d'IUT qui veut un studio à 380 € et une licence professionnelle sans quitter la maison. Elle convient moins à qui vise un master ou une vie étudiante dense : Montpellier est la réponse, avec 240 € de loyer en plus.",
+      },
+    ],
+    relatedCities: ["beziers","montpellier","narbonne","sete"],
+    relatedGuides: [
+      "etudiant-a-montpellier-2026",
+      "retraite-a-narbonne-2026",
+    ],
+    tags: ["étudiant Béziers 2026", "étudier à Béziers", "logement étudiant Béziers", "budget étudiant Béziers", "IUT de Béziers"],
+  },
+  {
+    slug: "etudiant-a-nevers-2026",
+    title: "Étudiant à Nevers en 2026 : ISAT, IUT, loyers, budget",
+    metaTitle: "Étudiant à Nevers 2026 : ISAT, IUT, budget mensuel",
+    metaDesc: "Étudier à Nevers en 2026 : studio à 390 € sur notre estimation, ISAT et IUT Dijon-Auxerre. Le guide chiffré, avec Bourges et Auxerre.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Nevers cumule un studio à 390 €, un coût de la vie noté 8,2/10 et un score vie étudiante de 6,3/10, au 147e rang sur 593 à égalité avec 20 autres villes (source : notre fiche profils et notre estimation des loyers). La ville compte 33 172 habitants, dont 19,8 % de 15-29 ans (source : Insee, recensement 2022) : une petite ville avec une école d'ingénieurs automobile qui attire bien au-delà du Nivernais.",
+    sections: [
+      {
+        heading: "Quelles études à Nevers ?",
+        body: "Le site universitaire de Nevers de l'Université Bourgogne Europe, créée en décembre 2024 en remplacement de l'Université de Bourgogne, regroupe l'ISAT (Institut supérieur de l'automobile et des transports, école d'ingénieurs fondée en 1991), l'UFR Droit et Science politique, l'INSPE et l'IUT Dijon-Auxerre. Son département informatique y a ouvert à la rentrée 2021, et les étudiants en BUT Informatique travaillent dans un bâtiment rénové, inauguré en 2025.",
+      },
+      {
+        heading: "Quel loyer à Nevers ?",
+        body: "Un studio est estimé à 390 € et un deux-pièces à 530 € par mois (source : notre estimation des loyers). Bourges est à 410 € et 570 €, Auxerre à 360 € et 490 €. Nevers est au milieu : 30 € de plus qu'Auxerre sur le studio, 20 € de moins que Bourges. Visale remplace le garant ; le DPE se lit avant de signer.",
+      },
+      {
+        heading: "Budget mensuel : 750 euros environ",
+        body: "Studio : 390 € (source : notre estimation des loyers). Transport : 30 €, hypothèse à vérifier auprès du réseau local. Courses : 220 €, hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 750 € par mois avant aides, contre 770 € à Bourges et 720 € à Auxerre aux mêmes hypothèses. S'ajoutent 178 € d'inscription en licence, 255 € en master et 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Nevers, Bourges ou Auxerre ?",
+        body: "Nevers marque 6,3 et 19,8 % de 15-29 ans ; Bourges, 6,1 et 20,3 % ; Auxerre, 6,4 et 18,3 %. Nevers a un transport à 5,5/10 et une culture à 5,7/10 (source : notre fiche ville). Les trois villes sont proches par le score ; Nevers se distingue par l'ISAT, Bourges par une population plus nombreuse (64 238 habitants), Auxerre par le loyer le plus bas.",
+      },
+      {
+        heading: "Quel profil social à Nevers ?",
+        body: "Le niveau de vie médian est de 20 050 € par an et le taux de pauvreté de 23 % (source : Insee, Filosofi 2021). La population est stable : 33 235 habitants en 2016, 33 172 en 2022. Nevers Agglomération gère la restauration universitaire dans le cadre d'une convention avec le Crous, qui instruit les dossiers de bourse et de logement.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages d'ingénieur se font dans l'automobile et les transports, souvent hors du Nivernais, les jobs d'appoint dans le commerce et la restauration locale. Verdict : Nevers convient à un étudiant de l'ISAT ou d'informatique qui veut un cadre calme et un budget à 750 €. Elle convient moins à qui cherche une grande vie étudiante : Dijon, siège de l'université, offre bien davantage.",
+      },
+    ],
+    relatedCities: ["nevers","bourges","auxerre"],
+    relatedGuides: [
+      "famille-a-bourges-2026",
+      "famille-a-auxerre-2026",
+    ],
+    tags: ["étudiant Nevers 2026", "étudier à Nevers", "logement étudiant Nevers", "budget étudiant Nevers", "ISAT Nevers"],
+  },
+  {
+    slug: "etudiant-a-chalons-en-champagne-2026",
+    title: "Étudiant à Châlons-en-Champagne en 2026 : Arts et Métiers, IUT, budget",
+    metaTitle: "Étudiant à Châlons-en-Champagne 2026 : budget, écoles",
+    metaDesc: "Étudier à Châlons-en-Champagne en 2026 : studio à 390 €, Arts et Métiers et IUT de Reims-Châlons-Charleville. Budget chiffré, avec Reims et Troyes.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Châlons-en-Champagne propose un studio à 390 €, 100 € de moins qu'à Reims, pour un budget étudiant d'environ 750 € avant aides (source : notre estimation des loyers). Notre score vie étudiante est de 6,3/10, au 147e rang sur 593 à égalité avec 20 autres villes, contre 6,7 à Reims (source : notre fiche profils). La ville compte 43 218 habitants, dont 20,7 % de 15-29 ans (source : Insee, recensement 2022) : une préfecture avec un campus d'ingénieurs historique.",
+    sections: [
+      {
+        heading: "Quelles études à Châlons-en-Champagne ?",
+        body: "Le campus d'Arts et Métiers de Châlons est le plus ancien des huit de l'école, avec plus de 210 ans d'histoire ; le diplôme d'ingénieur en mécanique y avait 36 places en 2025 d'après l'Onisep, en lien avec l'ITII Champagne-Ardenne. L'IUT de Reims-Châlons-Charleville a un site chaussée du Port, avec trois formations : CS, GIM et RT. Une école privée, In&ma, y a ouvert en 2019. Pour une université généraliste, il faut aller à Reims.",
+      },
+      {
+        heading: "Quel loyer étudiant à Châlons ?",
+        body: "Un studio est estimé à 390 € et un deux-pièces à 540 € par mois (source : notre estimation des loyers), contre 490 € et 680 € à Reims et 470 € et 650 € à Troyes. L'écart avec Reims est de 100 € sur le studio, 1 200 € par an. Visale peut remplacer le garant ; le DPE se lit avant de signer.",
+      },
+      {
+        heading: "Budget mensuel : 750 euros environ",
+        body: "Studio : 390 € (source : notre estimation des loyers). Transport : 30 €, hypothèse à vérifier auprès du réseau local. Courses : 220 €, hypothèse. Téléphone et internet : 30 €. Sorties et divers : 80 €. Total : environ 750 € par mois avant aides, contre 850 € à Reims et 830 € à Troyes aux mêmes hypothèses. S'ajoutent 178 € d'inscription en licence, 255 € en master et 105 € de CVEC (source : service-public.fr).",
+      },
+      {
+        heading: "Châlons, Reims ou Troyes ?",
+        body: "Châlons a 6,3 et 20,7 % de 15-29 ans ; Reims, 6,7 et 27,5 % ; Troyes, 6,8 et 24,6 %. Châlons a une culture à 6,6/10 et un transport à 6,2/10 (source : notre fiche ville). La ville est la moins étudiante des trois mais la moins chère ; Reims, plus grande (178 478 habitants), joue le rôle d'université d'appui.",
+      },
+      {
+        heading: "Quel contexte à Châlons ?",
+        body: "Le niveau de vie médian est de 20 320 € par an et le taux de pauvreté de 22 % (source : Insee, Filosofi 2021). La population recule : 44 980 habitants en 2016, 43 218 en 2022. Une vie étudiante de petite préfecture, calme, qui se joue surtout autour du campus d'ingénieurs et des sorties à Reims.",
+      },
+      {
+        heading: "Jobs, stages et verdict",
+        body: "Les stages d'ingénieur se trouvent dans la métallurgie, l'automobile, le ferroviaire, l'aéronautique et l'agroalimentaire, selon l'Onisep, les jobs d'appoint dans le commerce local. Verdict : Châlons convient à un futur ingénieur mécanicien ou à un étudiant d'IUT qui veut un studio à 390 €. Elle convient moins à qui veut une vie étudiante nombreuse : Reims offre cela pour 100 € de plus.",
+      },
+    ],
+    relatedCities: ["chalons-en-champagne","reims","troyes"],
+    relatedGuides: [
+      "etudiant-a-reims-2026",
+      "etudiant-a-troyes-2026",
+    ],
+    tags: ["étudiant Châlons-en-Champagne 2026", "étudier à Châlons-en-Champagne", "logement étudiant Châlons", "budget étudiant Châlons-en-Champagne", "Arts et Métiers Châlons"],
+  },
+  {
     slug: "famille-a-lyon-2026",
     title: "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
     metaTitle: "Famille à Lyon 2026 — Quartiers, écoles, budget : le guide",
