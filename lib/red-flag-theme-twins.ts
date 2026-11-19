@@ -39,6 +39,8 @@ export const RED_FLAG_THEME_EN_SLUG: Record<string, string> = {
   "villes-erosion-cotiere": "coastal-erosion",
   "villes-parking-cauchemar": "parking-nightmare",
   "villes-internet-precaire": "patchy-internet",
+  "villes-emplois-en-recul": "shrinking-job-markets",
+  "villes-qui-se-vident": "cities-emptying-out",
 };
 
 /** `alternates` d'une page de thème FR : canonical seul si le thème n'a pas de jumelle EN. */
