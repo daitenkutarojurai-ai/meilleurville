@@ -19594,6 +19594,276 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture Poitiers", "Vitalis Poitiers", "TGV Poitiers", "mobilité Vienne", "sans voiture Nouvelle-Aquitaine 2026"],
   },
   {
+    slug: "vivre-sans-voiture-roubaix-guide-2026",
+    title: "Vivre sans voiture à Roubaix en 2026 : métro 2 vers Lille et T2 à 520 €",
+    metaTitle: "Vivre sans voiture à Roubaix 2026 : métro, loyers, Lille",
+    metaDesc: "À Roubaix, la ligne 2 du métro lillois rend la voiture facultative, avec un T2 à 520 €. Score transport 7,7/10. Comparatif avec Lille et Tourcoing.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Roubaix se vit sans voiture : la ligne 2 du métro de Lille traverse la ville, avec une station Gare Jean Lebas, et le T2 est à 520 € par mois sur notre estimation des loyers, contre 800 € à Lille. Notre score transport est de 7,7/10, au 59e rang sur 593 à égalité avec 36 autres villes.",
+    sections: [
+      {
+        heading: "Quel réseau pour se passer de voiture à Roubaix ?",
+        body: "Roubaix est desservie par la ligne 2 du métro de Lille, qui relie Saint-Philibert (Lomme) à CH Dron (Tourcoing) en passant par Roubaix Grand Place et Gare Jean Lebas. Le tramway de la métropole lilloise, le Mongy, complète le métro vers Tourcoing et Lille. Le réseau est exploité par Ilévia : tarifs et horaires changent, consultez le site officiel.",
+      },
+      {
+        heading: "Quel loyer pour vivre sans voiture à Roubaix ?",
+        body: "Notre estimation des loyers donne 380 € pour un studio, 520 € pour un T2 et 700 € pour un T3 par mois. Lille est à 800 € le T2 : 280 € de moins à Roubaix, soit 3 360 € par an. À l'achat, le prix médian des appartements est de 1 931 € le m², sur 475 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF), contre 3 705 € à Lille.",
+      },
+      {
+        heading: "Ce que dit la démographie",
+        body: "Roubaix compte 99 507 habitants en 2022, soit +3,2 % depuis 2016 (source : Insee, recensement 2022). Les moins de 15 ans pèsent 24,9 % de la population, les 60 ans et plus 16,4 %. Le niveau de vie médian est de 14 580 € par an et le taux de pauvreté de 46 % (source : Insee, Filosofi 2021) : sans voiture, le budget transport compte pour beaucoup de ménages.",
+      },
+      {
+        heading: "Roubaix ou Lille ?",
+        body: "Lille est à 8,7/10 en transport contre 7,7/10 pour Roubaix, avec un T2 à 800 € contre 520 €. Sur le score de sécurité, Roubaix est à 2,2/10 : c'est le point à regarder de près avant de signer, rue par rue. Le coût de la vie est noté 6,3/10. Rester à Roubaix et prendre le métro, c'est accepter un trajet vers Lille en échange de loyers plus d'un tiers plus bas.",
+      },
+      {
+        heading: "Quelles limites sans voiture ?",
+        body: "Le métro s'arrête tôt le soir, comme tous les métros : vérifiez les derniers départs. Les zones d'activité en périphérie se rejoignent moins bien que le centre. Notre score nature est de 2,2/10 : les sorties vertes demandent un trajet.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant ou jeune actif lillois : le T2 à 520 € et la ligne 2 donnent un vrai gain de loyer. Salarié sur la métropole : le métro évite la voiture si l'emploi est sur l'axe de la ligne. Famille : le T3 à 700 € est lisible, mais l'axe écoles est à 2,2/10, à étudier de près. Retraité : le métro est un atout, la sécurité à 2,2/10 demande une visite.",
+      },
+    ],
+    relatedCities: ["roubaix", "lille", "tourcoing"],
+    relatedGuides: [
+      "vivre-sans-voiture-lille-guide-2026",
+      "etudiant-a-roubaix-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Roubaix", "métro Roubaix", "ligne 2 métro Lille", "mobilité Nord", "sans voiture Hauts-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-tourcoing-guide-2026",
+    title: "Vivre sans voiture à Tourcoing en 2026 : terminus du métro 2, T2 à 550 €",
+    metaTitle: "Vivre sans voiture à Tourcoing 2026 : métro 2, T2 à 550 €",
+    metaDesc: "À Tourcoing, le métro 2 s'arrête à CH Dron et le T2 coûte 550 €. Score transport 7,7/10. Comparatif avec Roubaix et Lille, pour vivre sans voiture.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 6,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "À Tourcoing, la voiture est facultative pour qui travaille sur l'axe du métro : la ligne 2 y a son terminus, CH Dron, et la gare de Tourcoing est sur le tracé. Le T2 est à 550 € par mois sur notre estimation des loyers, 250 € de moins qu'à Lille. Score transport : 7,7/10, au 59e rang sur 593 à égalité avec 36 autres villes.",
+    sections: [
+      {
+        heading: "Où le métro et le tramway s'arrêtent-ils à Tourcoing ?",
+        body: "Du côté Roubaix, la ligne 2 enchaîne Alsace, Mercure, Carliers puis la gare de Tourcoing, avant le terminus CH Dron, à côté du centre hospitalier Gustave-Dron. Le tramway lillois, le Mongy, dessert aussi la ville. Les stations sont gérées par Ilévia : vérifiez les fréquences et les derniers passages sur son site.",
+      },
+      {
+        heading: "Quel budget logement pour une vie sans voiture ?",
+        body: "Notre estimation des loyers donne 400 € pour un studio, 550 € pour un T2 et 740 € pour un T3 par mois. À Roubaix, le T2 est à 520 € : 30 € de moins. À l'achat, le prix médian des appartements est de 1 739 € le m², sur 805 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Lille est à 3 705 € le m², soit 1 966 € de plus.",
+      },
+      {
+        heading: "Qui habite Tourcoing ?",
+        body: "Tourcoing compte 99 160 habitants en 2022, soit +1,7 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 21,3 % de la population et les 60 ans et plus 18,5 %. Le niveau de vie médian est de 18 300 € par an, avec 29 % de pauvreté (source : Insee, Filosofi 2021), contre 14 580 € et 46 % à Roubaix.",
+      },
+      {
+        heading: "Tourcoing, Roubaix ou Lille ?",
+        body: "Lille est à 8,7/10 en transport, Tourcoing et Roubaix à 7,7/10 chacune. Le T2 y est à 800 € contre 550 € : 3 000 € d'écart par an. Sur la sécurité, Tourcoing est à 2,6/10 contre 2,2/10 à Roubaix ; côté écoles, 2,8/10. La différence avec Roubaix tient surtout au niveau de vie médian, nettement plus haut.",
+      },
+      {
+        heading: "Les limites sans voiture à Tourcoing",
+        body: "Les deux villes sont proches de la frontière belge, mais le réseau n'est pas le même de l'autre côté : un trajet transfrontalier demande de vérifier la correspondance. Notre score nature est de 2,2/10 : les espaces verts se rejoignent en transport ou à vélo. Le soir, les fréquences baissent.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Actif sur la métropole : le T2 à 550 € et la ligne 2 sont le cœur de l'intérêt. Soignant du centre hospitalier : le terminus CH Dron est au pied de l'établissement. Étudiant : un studio à 400 €, avec la ligne 2 vers Lille. Famille ou retraité : regardez l'axe écoles à 2,8/10 et la sécurité à 2,6/10 avant de choisir le quartier.",
+      },
+    ],
+    relatedCities: ["tourcoing", "roubaix", "lille"],
+    relatedGuides: [
+      "vivre-sans-voiture-lille-guide-2026",
+      "vivre-sans-voiture-roubaix-guide-2026",
+      "etudiant-a-tourcoing-2026",
+    ],
+    tags: ["vivre sans voiture Tourcoing", "métro Tourcoing", "CH Dron métro", "Mongy tramway Lille", "sans voiture Nord 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-merignac-guide-2026",
+    title: "Vivre sans voiture à Mérignac en 2026 : tram A jusqu'à l'aéroport, T2 à 800 €",
+    metaTitle: "Vivre sans voiture à Mérignac 2026 : tram A, aéroport, loyers",
+    metaDesc: "À Mérignac, le tram A mène à Bordeaux et à l'aéroport depuis 2023, avec un T2 à 800 €. Score transport 7,7/10. Comparatif avec Bordeaux, sans voiture.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Mérignac se vit sans voiture le long du tram A, prolongé jusqu'à l'aéroport en avril 2023. Le T2 est à 800 € par mois sur notre estimation des loyers, 100 € de moins qu'à Bordeaux. Notre score transport est de 7,7/10, au 59e rang sur 593 à égalité avec 36 autres villes.",
+    sections: [
+      {
+        heading: "Que dessert le tram A à Mérignac ?",
+        body: "Le tram A de Bordeaux Métropole traverse Mérignac : la station Mérignac Centre a été son terminus de 2007 à 2015, avant un prolongement vers Le Haillan Rostand. Depuis le 29 avril 2023, un second prolongement de 5 km ajoute cinq stations (Mérignac Soleil, Chemin Long, Cadera-Issartier, Caroline Aigle et Aéroport). Le réseau est exploité par Keolis pour la métropole ; la Liane 1 s'arrête désormais à Mérignac Centre.",
+      },
+      {
+        heading: "Combien coûte l'habitat à Mérignac, sans voiture ?",
+        body: "Notre estimation des loyers donne 580 € pour un studio, 800 € pour un T2 et 1 080 € pour un T3 par mois, contre 900 € pour un T2 à Bordeaux : 1 200 € d'économie par an. À l'achat, le prix médian des appartements est de 3 439 € le m², sur 1 320 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Bordeaux est à 4 171 €, soit 732 € de plus : sur 50 m², 36 600 €.",
+      },
+      {
+        heading: "Une commune qui s'agrandit",
+        body: "Mérignac compte 77 136 habitants en 2022, soit +9,7 % depuis 2016 (source : Insee, recensement 2022) : la croissance a suivi le tram. Les moins de 15 ans pèsent 16,1 % de la population, les 60 ans et plus 22,7 %. Le niveau de vie médian est de 24 770 € par an, avec 12 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Mérignac ou Bordeaux ?",
+        body: "Bordeaux est à 7,8/10 en transport, Mérignac à 7,7/10 : l'écart est mince. La ville centre a la culture (8,4/10 contre 4,8/10 à Mérignac) ; Mérignac a le loyer plus bas et le travail à distance à 6,3/10. Le coût de la vie y est noté 4,0/10 et la sécurité 4,7/10.",
+      },
+      {
+        heading: "Les limites du tram à Mérignac",
+        body: "La commune est étendue : les quartiers à l'écart du tracé et les zones d'activité autour de l'aéroport se rejoignent en bus ou à vélo, avec des fréquences plus basses. Le soir, les derniers passages sont à vérifier sur le site officiel. Les sorties nature demandent un trajet (4,3/10).",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Salarié de l'aéroport ou de la zone aéronautique : le tram A rend la voiture facultative. Couple actif : le T2 à 800 € avec un tram direct vers Bordeaux est un compromis lisible. Famille : T3 à 1 080 €, écoles 5,5/10. Retraité : 22,7 % de 60 ans et plus, tram à portée, mais le coût de la vie à 4,0/10 pèse.",
+      },
+    ],
+    relatedCities: ["merignac", "bordeaux", "pessac"],
+    relatedGuides: [
+      "vivre-sans-voiture-bordeaux-guide-2026",
+      "famille-a-merignac-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Mérignac", "tram A Mérignac", "tram aéroport Bordeaux", "mobilité Gironde", "sans voiture Nouvelle-Aquitaine 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-saint-herblain-guide-2026",
+    title: "Vivre sans voiture à Saint-Herblain en 2026 : tram 1 et T2 à 670 €",
+    metaTitle: "Vivre sans voiture à Saint-Herblain 2026 : tram 1, loyers",
+    metaDesc: "À Saint-Herblain, le tram 1 relie Atlantis à Nantes et le T2 coûte 670 €. Score transport 7,7/10. Comparatif avec Nantes pour vivre sans voiture.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Saint-Herblain se vit sans voiture le long de la ligne 1 du tramway nantais, qui y a son terminus François-Mitterrand. Le T2 est à 670 € par mois sur notre estimation des loyers, 180 € de moins qu'à Nantes. Notre score transport est de 7,7/10, au 59e rang sur 593 à égalité avec 36 autres villes.",
+    sections: [
+      {
+        heading: "Comment le tram 1 dessert-il Saint-Herblain ?",
+        body: "La ligne 1 relie Haluchère, à l'est de Nantes, à François-Mitterrand, côté Saint-Herblain, où elle dessert la zone commerciale d'Atlantis depuis 2000. Le terminus est aussi celui prévu de la future ligne 7. Le réseau Naolib a connu des travaux de rénovation de voie en 2026 : consultez le site officiel pour l'état actuel et les horaires.",
+      },
+      {
+        heading: "Quel loyer à Saint-Herblain, comparé à Nantes ?",
+        body: "Notre estimation des loyers donne 480 € pour un studio, 670 € pour un T2 et 900 € pour un T3 par mois. À Nantes, le T2 est à 850 € : 2 160 € d'économie par an. À l'achat, le prix médian des appartements est de 2 567 € le m², sur 902 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF), contre 3 413 € à Nantes : 846 € de moins, soit 42 300 € sur 50 m².",
+      },
+      {
+        heading: "Un profil de commune d'agglomération",
+        body: "Saint-Herblain compte 50 561 habitants en 2022, soit +8,5 % depuis 2016 (source : Insee, recensement 2022). Les moins de 15 ans pèsent 18,2 % de la population, les 60 ans et plus 23,5 %. Le niveau de vie médian est de 23 000 € par an, avec 16 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Saint-Herblain ou Nantes ?",
+        body: "Nantes est à 8,1/10 en transport contre 7,7/10 pour Saint-Herblain. Le travail à distance est à 5,8/10 contre 9,0/10 à Nantes, la culture à 4,8/10 contre 7,8/10. En échange : un T2 à 670 € et un tram direct. Sécurité 4,5/10, coût de la vie 4,4/10, nature 4,3/10.",
+      },
+      {
+        heading: "Où la voiture reprend le dessus",
+        body: "Atlantis est desservie, mais les zones d'activité et les quartiers éloignés de la ligne 1 demandent un bus ou un vélo. Le week-end et le soir, les fréquences sont plus basses. La nature (4,3/10) est à chercher hors de la commune.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Actif nantais : le T2 à 670 € et un tram direct jusqu'au centre sont l'intérêt principal. Famille : T3 à 900 €, écoles 5,5/10. Retraité : 23,5 % de 60 ans et plus, commerces accessibles à Atlantis. Étudiant : le studio à 480 € reste lisible avec le tram.",
+      },
+    ],
+    relatedCities: ["saint-herblain", "nantes", "reze"],
+    relatedGuides: [
+      "vivre-sans-voiture-nantes-guide-2026",
+      "10-choses-a-faire-a-saint-herblain-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Saint-Herblain", "tram 1 Nantes", "Atlantis Saint-Herblain", "mobilité Loire-Atlantique", "sans voiture Pays de la Loire 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-annemasse-guide-2026",
+    title: "Vivre sans voiture à Annemasse en 2026 : Léman Express, tram 17 et T2 à 1 000 €",
+    metaTitle: "Vivre sans voiture à Annemasse 2026 : Léman Express, loyers",
+    metaDesc: "À Annemasse, le Léman Express et le tram 17 rendent la voiture facultative, avec un T2 à 1 000 €. Score transport 9,0/10. Comparatif avec Annecy.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Annemasse est l'une des villes les mieux notées de notre site pour se passer de voiture : 9,0/10 en transport, au 1er rang sur 593 à égalité avec 22 autres villes. La gare, sur le Léman Express, et le tram 17 vers Genève rendent la voiture facultative ; le T2 est à 1 000 € par mois sur notre estimation des loyers.",
+    sections: [
+      {
+        heading: "Comment aller de Annemasse à Genève sans voiture ?",
+        body: "Annemasse est reliée à Genève par le Léman Express, le réseau ferroviaire transfrontalier ouvert en décembre 2019 : les sources donnent une vingtaine de minutes jusqu'à Genève-Cornavin. Le tram 17 relie Annemasse (Parc Montessuit) à Lancy-Pont-Rouge, aussi station du Léman Express, depuis la même date. Tarifs et fréquences changent : consultez le site officiel des transports.",
+      },
+      {
+        heading: "Combien coûte un logement à Annemasse ?",
+        body: "Notre estimation des loyers donne 720 € pour un studio, 1 000 € pour un T2 et 1 350 € pour un T3 par mois. À l'achat, le prix médian des appartements est de 3 506 € le m², sur 1 125 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF). Annecy est à 5 092 €, soit 1 586 € de plus : sur 50 m², 79 300 €.",
+      },
+      {
+        heading: "Une ville qui grandit, avec peu de pauvreté",
+        body: "Annemasse compte 37 595 habitants en 2022, soit +7,3 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 21,1 % de la population, les 60 ans et plus 16,9 %. Le niveau de vie médian est de 22 800 € par an, avec 22 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Annemasse ou Annecy ?",
+        body: "Annecy est à 6,4/10 en transport contre 9,0/10 pour Annemasse, mais à 5 092 € le m². Le T2 y est à 1 100 € : 100 € de plus par mois, 1 200 € par an. Annecy garde la nature (8,9/10 contre 6,4/10) ; Annemasse compense avec écoles 7,7/10, sécurité 6,8/10 et travail à distance 7,5/10.",
+      },
+      {
+        heading: "Les limites sans voiture à Annemasse",
+        body: "Le coût de la vie est noté 3,4/10 sur notre fiche ville : se passer de voiture ne fait pas baisser le loyer. Le Léman Express a ses horaires, ses pointes et ses incidents ; le dernier train du soir est à vérifier. Les communes voisines, hors Léman Express, restent plus dépendantes de la voiture.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Frontalier ou actif à Genève : gare et tram à portée rendent la voiture inutile ; le T2 à 1 000 € est le vrai arbitrage. Famille : T3 à 1 350 €, écoles à 7,7/10. Retraité : sécurité à 6,8/10 et services accessibles à pied. Étudiant : le studio à 720 € demande un budget que d'autres villes ne demandent pas.",
+      },
+    ],
+    relatedCities: ["annemasse", "annecy", "thonon-les-bains"],
+    relatedGuides: [
+      "vivre-sans-voiture-annecy-guide-2026",
+      "parent-solo-a-annemasse-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Annemasse", "Léman Express Annemasse", "tram 17 Annemasse Genève", "mobilité Haute-Savoie", "sans voiture Auvergne-Rhône-Alpes 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-saint-martin-d-heres-guide-2026",
+    title: "Vivre sans voiture à Saint-Martin-d'Hères en 2026 : tram B, C, D et T2 à 670 €",
+    metaTitle: "Vivre sans voiture à Saint-Martin-d'Hères 2026 : trams, T2",
+    metaDesc: "À Saint-Martin-d'Hères, trois lignes de tram desservent le campus de Grenoble et le T2 coûte 670 €. Score transport 8,4/10. Comparatif avec Grenoble.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro: "Saint-Martin-d'Hères se vit sans voiture grâce à un campus desservi par plusieurs lignes de tram grenobloises, et le T2 est à 670 € par mois sur notre estimation des loyers, 80 € de moins qu'à Grenoble. Notre score transport est de 8,4/10, au 28e rang sur 593 à égalité avec 13 autres villes, devant Grenoble (8,1/10).",
+    sections: [
+      {
+        heading: "Quelles lignes de tram à Saint-Martin-d'Hères ?",
+        body: "La station Bibliothèques universitaires est desservie par les lignes B et C : l'université indique la ligne B depuis la gare de Grenoble jusqu'à cet arrêt. La ligne D dessert un autre arrêt du campus, Les Taillées - Universités. Les horaires et les perturbations changent : consultez le site du réseau.",
+      },
+      {
+        heading: "Quel budget logement par rapport à Grenoble ?",
+        body: "Notre estimation des loyers donne 480 € pour un studio, 670 € pour un T2 et 900 € pour un T3 par mois. À Grenoble, le studio est à 560 € et le T2 à 750 € : 960 € d'économie par an sur un T2. À l'achat, le prix médian des appartements est de 2 183 € le m², sur 623 ventes de 2024-2025 (source : notre fiche prix, ventes notariales DVF), contre 2 500 € à Grenoble.",
+      },
+      {
+        heading: "Une ville d'étudiants",
+        body: "Saint-Martin-d'Hères compte 38 022 habitants en 2022, soit −1,6 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 35,2 % de la population, la part la plus haute de ce lot ; les moins de 15 ans 15,3 %. Le niveau de vie médian est de 21 160 € par an, avec 19 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Saint-Martin-d'Hères ou Grenoble ?",
+        body: "Grenoble est à 8,1/10 en transport, contre 8,4/10 ici, mais sa culture est à 6,9/10 contre 5,7/10 et ses écoles à 9,0/10 contre 6,2/10. Les écarts de prix à l'achat sont modestes : 317 € le m², soit 15 850 € sur 50 m². Sécurité 4,5/10 et coût de la vie 4,8/10 sont à lire avant de choisir.",
+      },
+      {
+        heading: "Les limites sans voiture",
+        body: "La population baisse sur la période, signe d'une commune qui ne se renouvelle pas partout au même rythme. Les quartiers loin des arrêts demandent un bus ou un vélo. La nature, notée 4,8/10, est à chercher dans le massif voisin : les accès se font par transport ou voiture.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le studio à 480 € et le tram sur le campus font de la commune une base solide. Jeune actif : le T2 à 670 € avec la ligne B est un bon rapport. Famille : T3 à 900 €, écoles à 6,2/10, moins bien que Grenoble. Retraité : le tram est un atout, mais la sécurité à 4,5/10 demande une visite.",
+      },
+    ],
+    relatedCities: ["saint-martin-d-heres", "grenoble", "echirolles"],
+    relatedGuides: [
+      "vivre-sans-voiture-grenoble-guide-2026",
+      "parent-solo-a-saint-martin-d-heres-2026",
+      "vivre-sans-voiture-france-guide-2025",
+    ],
+    tags: ["vivre sans voiture Saint-Martin-d'Hères", "tram B Grenoble", "campus Grenoble tram", "mobilité Isère", "sans voiture Auvergne-Rhône-Alpes 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade",
