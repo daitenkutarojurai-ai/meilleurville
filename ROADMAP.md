@@ -5932,6 +5932,12 @@ n'est faux, mais un champ dérivé que personne ne lit est un champ qu'on finit 
 - **Vérifié** : `biodiversityProfile()` sur les 593 slugs : aucun `NaN`/`undefined`/`Infinity`, `richnessPending: "incomparable"` partout, `overall` `null` partout.
 - **Non couvert, inchangé** : `overall` `null`, `RICHNESS_RANKING_PUBLISHED = false`, pas de `/classements/biodiversite`, casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni (recrawl local requis).
 
+### F62 — point d'étape 2026-11-19 (routine biodiversité)
+
+- **Contrôle sans rien à corriger** : aucun commit de donnée F62 depuis le 05/11. Couverture **593/593** (593 mesurables, 0 sous le seuil) ; `tsc` et `npm run integrity` verts.
+- **Vérifié** : `biodiversityProfile()` sur les 593 slugs : aucun `NaN`/`undefined`/`Infinity`, `richnessPending: "incomparable"` partout, `overall` `null` partout.
+- **Non couvert, inchangé** : `overall` `null`, rang de richesse non publié, pas de `/classements/biodiversite`, casiers « Animalia spec » de Cayenne et Saint-Laurent-du-Maroni (recrawl local requis).
+
 ---
 
 ## Flotte de routines — état 2026-08-03
