@@ -490,7 +490,7 @@ export function Navbar() {
                   : "Pas sûr(e) par où commencer ? Essayez City Match."}
               </p>
               <Link href="/city-match" onClick={() => setMenuOpen(false)}>
-                <Button size="sm" className="gap-1.5 !rounded-full border-0 !bg-white !text-[#4338CA] shadow-md hover:!bg-[#F5F3FF]">
+                <Button size="sm" className="gap-1.5 !rounded-full border-0 !bg-none !bg-white !text-[#4338CA] shadow-md hover:!bg-[#F5F3FF]">
                   <Heart className="h-3.5 w-3.5 fill-current" />
                   {IS_EN ? "Find my city" : "Trouver ma ville"}
                 </Button>

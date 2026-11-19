@@ -1709,3 +1709,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
 2. `components/ui/Badge.tsx` (`default`) / `Button.tsx` (`secondary`) : encore blancs à filet gris, partout.
 3. Pages `/methode` (FR) + EN `/methodology`.
+
+## 2026-11-19 ~11:00 UTC — primitives partagées `Badge` + `Button` (`components/ui/`)
+
+**Surface** : les deux primitives UI de tout le site (≈ 323 `<Badge>` par défaut, 85 `accent`, 24 `<Button>`, FR + EN). Avant : badge par défaut gris (`--bg-elevated`, filet gris, texte secondaire — illisible si posé dans une `.band-bold`, où le texte devient blanc), `accent` en indigo pâle plat, `subtle` gris ; bouton primaire indigo uni, secondaire gris à filet gris.
+
+**Changé** : Badge — `default` en puce pastel indigo → lilas, encre fixe `#3730A3` (≈ 9:1, lisible même en bande vive) ; `accent` en pilule dégradée indigo → rose, texte blanc semi-gras ; `subtle` en étiquette aqua (`#155E75` sur `#E0F7FB`) ; `success/warning/danger` inchangés (sémantiques). Button — `primary` en dégradé indigo → violet ; `secondary` blanc à anneau indigo, texte indigo ; `ghost` survol indigo pâle. Navbar : bouton blanc forcé reçoit `!bg-none` pour ne pas hériter du dégradé.
+
+**Fichiers** : `components/ui/Badge.tsx`, `components/ui/Button.tsx`, `components/Navbar.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 3 fichiers : 1 erreur Navbar (setState-in-effect l. 340) identique avant/après. Captures playwright `/villes/lyon`, `/classements/sans-voiture`, `/quitter`, 404 à 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
+2. Pages `/methode` (FR) + EN `/methodology`.
+3. Hub `/comparer` (FR) + EN `/compare`.
