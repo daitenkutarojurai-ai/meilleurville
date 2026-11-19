@@ -27026,6 +27026,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["studying in beauvais", "international students", "student housing france", "student visa france", "hauts-de-france"],
   },
   {
+    slug: "studying-in-roubaix-2026",
+    title: "Studying in Roubaix (2026): IUT, ESMOD, €380 studio",
+    metaTitle: "Studying in Roubaix 2026: €380 Studio, IUT, Budget",
+    metaDesc:
+      "A studio at €380 on our estimate, IUT de Lille, ESMOD and ENSAIT. The figure-by-figure student guide, with Tourcoing and Lille as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro:
+      "Roubaix is one of the cheapest student cities in this series: €380 for a studio and €520 for a one-bedroom, against €580 and €800 in Lille, a metro ride away (our rent estimate). Our student-life score is 5.6/10, ranked 289th of 593 and tied with 21 other cities, well behind Lille (7.5, ranked 6th) (our profiles data). The city has 99,507 residents, of whom 23.1% are aged 15 to 29 (INSEE, 2022 census): you come for the rent and for one specific course, not for a campus atmosphere.",
+    sections: [
+      {
+        heading: "What can you study in Roubaix?",
+        body: "The Roubaix site of the IUT de Lille, 53 rue de l'Alma, runs three BUT degrees (three-year technical degrees) according to the University of Lille's 2025-2026 course sheets: legal careers, data science and sales techniques. Textiles and fashion are the other speciality: ESMOD Roubaix for fashion design and business, ENSAIT for textile engineering. A new university building opened in February 2017; for a general bachelor's or a master's, the offer is in Villeneuve-d'Ascq or Lille.",
+      },
+      {
+        heading: "What does a student flat cost in Roubaix?",
+        body: "A studio is estimated at €380 and a one-bedroom at €520 a month (our rent estimate). Neighbouring Tourcoing is at €400 and €550; Lille at €580 and €800. A Roubaix studio therefore costs €200 less than in Lille, or €2,400 over twelve months. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing, as part of the older housing stock is poorly insulated.",
+      },
+      {
+        heading: "Monthly budget: about €740",
+        body: "Studio: €380 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €740 a month before aid, against €760 in Tourcoing and €940 in Lille on the same assumptions. Enrolment costs €178 for a licence (bachelor's) and €255 for a master's, plus the €105 CVEC levy (the compulsory student-life contribution) (service-public.fr). Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Roubaix, Tourcoing or Lille?",
+        body: "Roubaix has a score of 5.6 and 23.1% of residents aged 15 to 29; Tourcoing 5.5 and 21.3%; Lille 7.5 and 36.8%. On our axes, Roubaix shows culture at 5.7/10 and transport at 7.7/10, Lille 8.0 and 8.7, Tourcoing 4.8 and 7.7. Roubaix is the cheapest of the three, with transport level with Tourcoing and a university city within metro reach.",
+      },
+      {
+        heading: "What is the social context for a student in Roubaix?",
+        body: "The median income is €14,580 a year and the poverty rate 46% (INSEE, Filosofi 2021), a very high level of hardship. Low rents reflect a slack housing market, not an empty city: the population grew from 96,412 in 2016 to 99,507 in 2022. Many students live here and go out in Lille.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Part-time jobs are found in retail, catering and logistics across the Lille metropolitan area (a student permit allows up to 964 hours of work a year), internships in textiles, mail order and local digital firms. Verdict: Roubaix suits an IUT, ESMOD or ENSAIT student who wants a €380 studio with Lille within reach. It suits less anyone who wants a lively campus in the evening: Lille is the answer, with a studio €200 dearer.",
+      },
+    ],
+    relatedCities: ["roubaix", "tourcoing", "lille"],
+    tags: ["studying in roubaix", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-tourcoing-2026",
+    title: "Studying in Tourcoing (2026): IUT de Lille, rent, budget",
+    metaTitle: "Studying in Tourcoing 2026: IUT, Rent, Monthly Budget",
+    metaDesc:
+      "A studio at €400 on our estimate, IUT de Lille on rue Sainte-Barbe. The student budget in figures, against Roubaix and Lille.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro:
+      "A studio in Tourcoing costs €400 a month, €180 less than in Lille, for a student budget of about €760 before aid (our rent estimate). Our student-life score is 5.5/10, ranked 311th of 593 and tied with 21 other cities, 2.0 points behind Lille (our profiles data). Tourcoing has 99,160 residents, of whom 21.3% are aged 15 to 29 (INSEE, 2022 census): a base for the IUT's BUT degrees, with the Lille metropolitan area for everything else.",
+    sections: [
+      {
+        heading: "What can you study in Tourcoing?",
+        body: "The Tourcoing site of the IUT de Lille occupies a converted textile mill at 35 rue Sainte-Barbe, on the University of Lille's Roubaix-Tourcoing campus. The 2025-2026 course sheets place several BUT degrees (three-year technical degrees) there, including social careers, sales techniques, information-communication, and logistics and transport management, full-time or as work-study. The IUT spreads across three sites: Villeneuve-d'Ascq, Roubaix and Tourcoing.",
+      },
+      {
+        heading: "How much does student housing cost in Tourcoing?",
+        body: "A studio is estimated at €400 and a one-bedroom at €550 a month (our rent estimate). Roubaix, next door, is €20 cheaper on the studio (€380); Lille rises to €580 and €800. Visale, the free state rent guarantee, can stand in for a guarantor, and the energy rating (DPE) is worth reading before signing.",
+      },
+      {
+        heading: "What is the monthly budget in Tourcoing?",
+        body: "Studio: €400 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €760 a month, against €740 in Roubaix and €940 in Lille on the same assumptions. On top come €178 enrolment for a licence (bachelor's) or €255 for a master's and the €105 CVEC levy (the compulsory student-life contribution) (service-public.fr). Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted.",
+      },
+      {
+        heading: "Tourcoing, Roubaix or Lille for studying?",
+        body: "Tourcoing totals 5.5 and 21.3% of residents aged 15 to 29; Roubaix 5.6 and 23.1%; Lille 7.5 and 36.8%. Tourcoing is the weakest of the three on culture, 4.8/10 against 5.7 in Roubaix and 8.0 in Lille, but its transport, at 7.7/10, matches Roubaix's. Choosing Tourcoing means accepting that you go out elsewhere.",
+      },
+      {
+        heading: "What is the social and demographic profile?",
+        body: "The median income is €18,300 a year and the poverty rate 29% (INSEE, Filosofi 2021), a profile closer to the series average than Roubaix's. The population is almost flat, from 97,476 in 2016 to 99,160 in 2022. The centre is well served and calmer than Lille.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Part-time jobs come from retail, logistics and catering on the northern side of the metropolitan area (a student permit allows up to 964 hours of work a year), internships from mail order and transport. Verdict: Tourcoing serves a student in the logistics-and-transport or social-careers BUT who wants to keep rent under €400. It serves less anyone who wants a city-centre campus: Lille offers that for €180 more.",
+      },
+    ],
+    relatedCities: ["tourcoing", "roubaix", "lille"],
+    tags: ["studying in tourcoing", "international students", "student housing france", "student visa france", "hauts-de-france"],
+  },
+  {
+    slug: "studying-in-cherbourg-2026",
+    title: "Studying in Cherbourg (2026): IUT, ESIX, rent, budget",
+    metaTitle: "Studying in Cherbourg 2026: IUT, ESIX, Budget",
+    metaDesc:
+      "A studio at €450 on our estimate, an IUT and the ESIX engineering school. The student guide in figures, with Caen as the benchmark.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro:
+      "Cherbourg-en-Cotentin houses its students at €450 for a studio and €620 for a one-bedroom, €60 less than in Caen (our rent estimate). Our student-life score is 5.7/10, ranked 272nd of 593 and tied with 16 other cities, against 6.8 for Caen (our profiles data). The town has 78,028 residents, of whom 18.8% are aged 15 to 29 (INSEE, 2022 census): a small outpost of the University of Caen, geared to industry and the sea.",
+    sections: [
+      {
+        heading: "What can you study in Cherbourg?",
+        body: "Higher education rests on a satellite site of the University of Caen Normandie with two parts: the IUT, now IUT Grand Ouest Normandie, at 60 rue Max-Pol Fouchet, which prepares BUT degrees (three-year technical degrees) such as electrical engineering and industrial computing, and ESIX Normandie, the university's in-house engineering school. A Campus connecté opened in autumn 2021 to follow other universities' courses remotely. For a general bachelor's or medicine, the next step is Caen.",
+      },
+      {
+        heading: "What does rent cost in Cherbourg?",
+        body: "A studio is estimated at €450 and a one-bedroom at €620 a month (our rent estimate), against €510 and €700 in Caen. The €60 gap on the studio adds up to €720 over the year. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing, because on the Channel coast damp matters.",
+      },
+      {
+        heading: "Monthly budget: about €810",
+        body: "Studio: €450 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €810 a month before aid, against €870 in Caen on the same assumptions. On top come €178 enrolment for a licence (bachelor's), €255 for a master's and the €105 CVEC levy (the compulsory student-life contribution) (service-public.fr). Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted; CAF housing benefit is open with a valid residence permit.",
+      },
+      {
+        heading: "Cherbourg or Caen?",
+        body: "Cherbourg shows 5.7 and 18.8% of residents aged 15 to 29; Caen 6.8 and 33.3%. On our axes, Cherbourg has culture at 5.9/10 and transport at 4.9/10, which matters: a car or a bike counts for more here than in a tram city. Caen is a true student city; Cherbourg is a targeted training town.",
+      },
+      {
+        heading: "What is student life like, and the context?",
+        body: "The median income is €22,650 a year and the poverty rate 14% (INSEE, Filosofi 2021), one of the better-off profiles in this batch. The population is slipping gently: 80,076 in 2016, 78,028 in 2022. Student life is quiet, with the harbour, the ports and the naval and nuclear industries as a backdrop.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Internships are found in the Cotentin's industry, in electrical, mechanical and industrial computing work, depending on the course (a student permit allows up to 964 hours of work a year). Verdict: Cherbourg suits an electrical-engineering BUT or ESIX student who prefers a €450 studio and a town where you finish your studies without scattering. It suits less anyone who wants a big student scene or a general bachelor's: Caen is the answer, with €60 more in rent.",
+      },
+    ],
+    relatedCities: ["cherbourg", "caen"],
+    tags: ["studying in cherbourg", "international students", "student housing france", "student visa france", "normandy"],
+  },
+  {
+    slug: "studying-in-beziers-2026",
+    title: "Studying in Béziers (2026): IUT, university outpost, budget",
+    metaTitle: "Studying in Béziers 2026: IUT, €380 Studio, Budget",
+    metaDesc:
+      "A studio at €380 on our estimate, an IUT and a university outpost. The student guide in figures, with Montpellier and Narbonne as benchmarks.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro:
+      "Béziers houses a student for €380 a studio, €240 less than in Montpellier, a big city within reach (our rent estimate). Our student-life score is 5.5/10, ranked 311th of 593 and tied with 21 other cities, against 6.9 for Montpellier (our profiles data). The city has 80,815 residents, of whom 17.7% are aged 15 to 29 (INSEE, 2022 census): you study on the spot for the first years, then leave for a master's.",
+    sections: [
+      {
+        heading: "What can you study in Béziers?",
+        body: "The Du Guesclin university site brings together the IUT de Béziers, attached to the Université de Montpellier, an outpost of the Université Paul-Valéry Montpellier 3 and the inter-regional Occitan language centre. The IUT prepares BUT degrees (three-year technical degrees) and professional licences, including BUTs in networks and telecoms and in multimedia and internet trades according to the 2026-2027 booklet. A welcome day for Béziers students brings together the IUT, the Montpellier universities, the IFMS and local lycées.",
+      },
+      {
+        heading: "What does a student flat cost in Béziers?",
+        body: "A studio is estimated at €380 and a one-bedroom at €530 a month (our rent estimate). Narbonne is at €490 and €680, Montpellier at €620 and €850. Béziers is the cheapest of the three: a studio costs €240 less than in Montpellier, or €2,880 over the year. Visale, the free state rent guarantee, can replace a guarantor; read the energy rating (DPE), because summer heat matters as much as heating.",
+      },
+      {
+        heading: "Monthly budget: about €740",
+        body: "Studio: €380 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €740 a month before aid, against €850 in Narbonne and €980 in Montpellier on the same assumptions. On top come €178 enrolment for a licence (bachelor's), €255 for a master's and the €105 CVEC levy (the compulsory student-life contribution) (service-public.fr). Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted.",
+      },
+      {
+        heading: "Béziers, Narbonne or Montpellier?",
+        body: "Béziers has a score of 5.5 and 17.7% of residents aged 15 to 29; Narbonne 5.5 and 16.9%; Montpellier 6.9 and 31.5%. Béziers has the better culture score of the two small cities, 6.6/10, but transport at 4.9/10. Béziers resembles Narbonne on score, with a studio €110 cheaper; Montpellier is another world, with 307,101 residents.",
+      },
+      {
+        heading: "What is the social context in Béziers?",
+        body: "The median income is €16,830 a year and the poverty rate 36% (INSEE, Filosofi 2021), a slack market that explains the low rents. The city is gaining residents: 76,493 in 2016, 80,815 in 2022. A 2019 parliamentary question noted that Béziers hosted only 1.4% of the students of its académie (the regional education district), against 78% for Montpellier: the offer here is small.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Part-time jobs are found in retail, catering and the seasonal tourism of the coast (a student permit allows up to 964 hours of work a year), internships with firms around Béziers and in Montpellier. Verdict: Béziers suits an IUT student who wants a €380 studio and a professional licence without leaving home. It suits less anyone aiming for a master's or a dense student life: Montpellier is the answer, with €240 more in rent.",
+      },
+    ],
+    relatedCities: ["beziers", "montpellier", "narbonne", "sete"],
+    tags: ["studying in beziers", "international students", "student housing france", "student visa france", "occitanie"],
+  },
+  {
+    slug: "studying-in-nevers-2026",
+    title: "Studying in Nevers (2026): ISAT, IUT, rent, budget",
+    metaTitle: "Studying in Nevers 2026: ISAT, IUT, Monthly Budget",
+    metaDesc:
+      "A studio at €390 on our estimate, the ISAT engineering school and an IUT. The student guide in figures, with Bourges and Auxerre.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro:
+      "Nevers combines a €390 studio, a cost-of-living score of 8.2/10 and a student-life score of 6.3/10, ranked 147th of 593 and tied with 20 other cities (our profiles data and rent estimate). The town has 33,172 residents, of whom 19.8% are aged 15 to 29 (INSEE, 2022 census): a small town with an automotive engineering school that draws well beyond the Nivernais.",
+    sections: [
+      {
+        heading: "What can you study in Nevers?",
+        body: "The Nevers site of the Université Bourgogne Europe, created in December 2024 to replace the Université de Bourgogne, brings together the ISAT (Institut supérieur de l'automobile et des transports, an engineering school founded in 1991), the law and political science faculty, the teacher-training institute and the IUT Dijon-Auxerre. Its computing department opened here in autumn 2021, and BUT computing students (three-year technical degree) work in a renovated building inaugurated in 2025.",
+      },
+      {
+        heading: "What does rent cost in Nevers?",
+        body: "A studio is estimated at €390 and a one-bedroom at €530 a month (our rent estimate). Bourges is at €410 and €570, Auxerre at €360 and €490. Nevers sits in the middle: €30 more than Auxerre on the studio, €20 less than Bourges. Visale, the free state rent guarantee, replaces a French guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Monthly budget: about €750",
+        body: "Studio: €390 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €750 a month before aid, against €770 in Bourges and €720 in Auxerre on the same assumptions. On top come €178 enrolment for a licence (bachelor's), €255 for a master's and the €105 CVEC levy (the compulsory student-life contribution) (service-public.fr). Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted.",
+      },
+      {
+        heading: "Nevers, Bourges or Auxerre?",
+        body: "Nevers scores 6.3 and 19.8% of residents aged 15 to 29; Bourges 6.1 and 20.3%; Auxerre 6.4 and 18.3%. Nevers has transport at 5.5/10 and culture at 5.7/10. The three towns are close on score; Nevers stands out for the ISAT, Bourges for a larger population (64,238 residents), Auxerre for the lowest rent.",
+      },
+      {
+        heading: "What is the social profile of Nevers?",
+        body: "The median income is €20,050 a year and the poverty rate 23% (INSEE, Filosofi 2021). The population is stable: 33,235 in 2016, 33,172 in 2022. Nevers Agglomération runs university catering under an agreement with the Crous (the state student service), which also handles grant and housing applications.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Engineering internships are in automotive and transport firms, often outside the Nivernais, and part-time jobs in local retail and catering (a student permit allows up to 964 hours of work a year). Verdict: Nevers suits an ISAT or computing student who wants a quiet setting and a €750 budget. It suits less anyone who wants a big student scene: Dijon, seat of the university, offers far more.",
+      },
+    ],
+    relatedCities: ["nevers", "bourges", "auxerre"],
+    tags: ["studying in nevers", "international students", "student housing france", "student visa france", "burgundy"],
+  },
+  {
+    slug: "studying-in-chalons-en-champagne-2026",
+    title: "Studying in Châlons-en-Champagne (2026): Arts et Métiers, IUT",
+    metaTitle: "Studying in Châlons-en-Champagne 2026: Budget, Schools",
+    metaDesc:
+      "A studio at €390, Arts et Métiers and the IUT Reims-Châlons-Charleville. The student budget in figures, with Reims and Troyes.",
+    category: "lifestyle",
+    emoji: "🎓",
+    readMinutes: 7,
+    publishedAt: "2026-11-19",
+    updatedAt: "2026-11-19",
+    intro:
+      "Châlons-en-Champagne offers a studio at €390, €100 less than in Reims, for a student budget of about €750 before aid (our rent estimate). Our student-life score is 6.3/10, ranked 147th of 593 and tied with 20 other cities, against 6.7 for Reims (our profiles data). The city has 43,218 residents, of whom 20.7% are aged 15 to 29 (INSEE, 2022 census): a prefecture with a long-established engineering campus.",
+    sections: [
+      {
+        heading: "What can you study in Châlons-en-Champagne?",
+        body: "The Arts et Métiers campus in Châlons is the oldest of the school's eight, with more than 210 years of history; its mechanical engineering degree had 36 places in 2025 according to Onisep (the state careers service), linked to the ITII Champagne-Ardenne work-study scheme. The IUT Reims-Châlons-Charleville has a site on chaussée du Port with three courses. A private school, In&ma, opened here in 2019. For a general university, you go to Reims.",
+      },
+      {
+        heading: "What does a student flat cost in Châlons?",
+        body: "A studio is estimated at €390 and a one-bedroom at €540 a month (our rent estimate), against €490 and €680 in Reims and €470 and €650 in Troyes. The gap with Reims is €100 on the studio, €1,200 a year. Visale, the free state rent guarantee, can replace a guarantor; read the energy rating (DPE) before signing.",
+      },
+      {
+        heading: "Monthly budget: about €750",
+        body: "Studio: €390 (our rent estimate). Transport: €30, our assumption, to check with the local network. Groceries: €220, our assumption. Phone and internet: €30. Going out and extras: €80. Total: about €750 a month before aid, against €850 in Reims and €830 in Troyes on the same assumptions. On top come €178 enrolment for a licence (bachelor's), €255 for a master's and the €105 CVEC levy (the compulsory student-life contribution) (service-public.fr). Non-EU students face differentiated fees of about €2,900 and €3,950 unless exempted.",
+      },
+      {
+        heading: "Châlons, Reims or Troyes?",
+        body: "Châlons has 6.3 and 20.7% of residents aged 15 to 29; Reims 6.7 and 27.5%; Troyes 6.8 and 24.6%. Châlons has culture at 6.6/10 and transport at 6.2/10. It is the least student-heavy of the three but the cheapest; Reims, larger (178,478 residents), plays the backup university role.",
+      },
+      {
+        heading: "What is the context in Châlons?",
+        body: "The median income is €20,320 a year and the poverty rate 22% (INSEE, Filosofi 2021). The population is shrinking: 44,980 in 2016, 43,218 in 2022. Student life is that of a small prefecture, quiet, played out mostly around the engineering campus and evenings out in Reims.",
+      },
+      {
+        heading: "Jobs, internships and verdict",
+        body: "Engineering internships are found in metalworking, automotive, rail, aerospace and food processing, according to Onisep, and part-time jobs in local retail (a student permit allows up to 964 hours of work a year). Verdict: Châlons suits a future mechanical engineer or an IUT student who wants a €390 studio. It suits less anyone who wants a large student crowd: Reims offers that for €100 more.",
+      },
+    ],
+    relatedCities: ["chalons-en-champagne", "reims", "troyes"],
+    tags: ["studying in chalons-en-champagne", "international students", "student housing france", "student visa france", "grand est"],
+  },
+  {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
     metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",

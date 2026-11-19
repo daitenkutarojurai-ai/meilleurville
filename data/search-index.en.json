@@ -6962,6 +6962,36 @@
       "emoji": "🎓"
     },
     {
+      "slug": "studying-in-roubaix-2026",
+      "title": "Studying in Roubaix (2026): IUT, ESMOD, €380 studio",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-tourcoing-2026",
+      "title": "Studying in Tourcoing (2026): IUT de Lille, rent, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-cherbourg-2026",
+      "title": "Studying in Cherbourg (2026): IUT, ESIX, rent, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-beziers-2026",
+      "title": "Studying in Béziers (2026): IUT, university outpost, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-nevers-2026",
+      "title": "Studying in Nevers (2026): ISAT, IUT, rent, budget",
+      "emoji": "🎓"
+    },
+    {
+      "slug": "studying-in-chalons-en-champagne-2026",
+      "title": "Studying in Châlons-en-Champagne (2026): Arts et Métiers, IUT",
+      "emoji": "🎓"
+    },
+    {
       "slug": "solo-travel-in-paris-2026",
       "title": "Solo travel in Paris: where to stay, where to drink, when to go",
       "emoji": "🍸"
@@ -11391,7 +11421,12 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 89
+      "count": 90
+    },
+    {
+      "slug": "grand-est",
+      "label": "grand est",
+      "count": 83
     },
     {
       "slug": "expat-retirement",
@@ -11399,14 +11434,9 @@
       "count": 82
     },
     {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 82
-    },
-    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
-      "count": 79
+      "count": 81
     },
     {
       "slug": "french-school-system",
@@ -11424,24 +11454,24 @@
       "count": 76
     },
     {
-      "slug": "buying-property-france",
-      "label": "buying property france",
-      "count": 67
-    },
-    {
       "slug": "student-housing-france",
       "label": "student housing france",
-      "count": 67
+      "count": 73
     },
     {
       "slug": "international-students",
       "label": "international students",
-      "count": 66
+      "count": 72
     },
     {
       "slug": "student-visa-france",
       "label": "student visa france",
-      "count": 66
+      "count": 72
+    },
+    {
+      "slug": "buying-property-france",
+      "label": "buying property france",
+      "count": 67
     },
     {
       "slug": "pays-de-la-loire",
@@ -11471,7 +11501,7 @@
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 45
+      "count": 46
     },
     {
       "slug": "provence",
@@ -11511,7 +11541,7 @@
     {
       "slug": "burgundy",
       "label": "burgundy",
-      "count": 20
+      "count": 21
     },
     {
       "slug": "alsace",
