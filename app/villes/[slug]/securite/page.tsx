@@ -151,6 +151,14 @@ export default async function SecuritePage({ params }: Props) {
             <span className="text-lg font-normal text-[var(--text-tertiary)] ml-1">/10</span>
           </div>
           <p className="text-xs text-[var(--text-tertiary)] mb-2">10 = ville la plus sûre · estimation communale suivant le découpage SSMSI, pas les faits enregistrés.</p>
+          {/* Le composite n'est pas l'axe sécurité de la fiche ville, et les deux
+              chiffres diffèrent (écart médian 0,5, jusqu'à 2,2 points — run
+              intégrité du 2026-11-20) : le dire, sinon la page contredit la fiche. */}
+          <p className="text-xs text-[var(--text-tertiary)] mb-2">
+            Le score sécurité de la fiche {city.name} est de {city.scores.safety.toFixed(1).replace(".", ",")}/10 ; ce
+            composite part de ce score et l&apos;ajuste selon la taille, le profil (métropole, tourisme, passé
+            industriel) et le territoire de la commune, d&apos;où l&apos;écart.
+          </p>
           <p className="text-sm text-[var(--text-primary)] leading-relaxed">{s.signature}</p>
         </Card>
 

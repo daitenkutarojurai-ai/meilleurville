@@ -92,13 +92,20 @@ export default async function EnCitySafety({ params }: Props) {
           </h1>
         </div>
         <p className="text-[var(--text-secondary)] text-lg leading-relaxed">
-          Safety score: <span className={`font-mono-data font-bold ${scoreColor(safetyScore)}`}>{safetyScore.toFixed(1)}/10</span>{" "}
+          Composite safety score: <span className={`font-mono-data font-bold ${scoreColor(safetyScore)}`}>{safetyScore.toFixed(1)}/10</span>{" "}
           ({LEVEL_LABEL[safety.level]}). {HERO_VERDICT[safety.level]}
         </p>
         <p className="mt-2 text-xs text-[var(--text-tertiary)]">
           10 = safest. Estimated at commune level from the city's safety score, its size
           and its profile — it follows the SSMSI categories but reuses none of their
           rates, so these are not the offences recorded here.
+          {/* Same disclosure as the FR twin: this composite is not the safety
+              axis shown on the city profile, and the two numbers differ (median
+              gap 0.5, up to 2.2 points — integrity run 2026-11-20). */}{" "}
+          The safety score on the {c.name} profile is{" "}
+          {c.scores.safety.toFixed(1)}/10; this composite starts from it and adjusts
+          it for the town&apos;s size, profile (large metro, tourism, industrial past)
+          and territory, hence the gap.
         </p>
       </section>
 
