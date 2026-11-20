@@ -10037,6 +10037,56 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-in-millau-2026",
+      "title": "Single parent in Millau (2026): an entry floor of €1,800, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-venissieux-2026",
+      "title": "Single parent in Vénissieux (2026): an entry floor of €3,750, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-sevres-2026",
+      "title": "Single parent in Sèvres (2026): an entry floor of €5,500, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-torcy-2026",
+      "title": "Single parent in Torcy (2026): an entry floor of €3,750, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-joinville-le-pont-2026",
+      "title": "Single parent in Joinville-le-Pont (2026): an entry floor of €4,950, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-gradignan-2026",
+      "title": "Single parent in Gradignan (2026): an entry floor of €3,100, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-chilly-mazarin-2026",
+      "title": "Single parent in Chilly-Mazarin (2026): an entry floor of €4,200, 1 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-saint-sebastien-sur-loire-2026",
+      "title": "Single parent in Saint-Sébastien-sur-Loire (2026): an entry floor of €2,650, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-bouguenais-2026",
+      "title": "Single parent in Bouguenais (2026): an entry floor of €2,650, 3 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-in-ozoir-la-ferriere-2026",
+      "title": "Single parent in Ozoir-la-Ferrière (2026): an entry floor of €3,800, 2 of 4 axes above the median",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "single-parent-holidays-anglet-2026",
       "title": "Single-parent holidays in Anglet: no railway station, but the airport is here",
       "emoji": "🧑‍🍼"
@@ -11421,17 +11471,17 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 325
+      "count": 335
     },
     {
       "slug": "single-parent-in-france",
       "label": "single parent in france",
-      "count": 251
+      "count": 261
     },
     {
       "slug": "expat-single-parent",
       "label": "expat single parent",
-      "count": 192
+      "count": 202
     },
     {
       "slug": "ile-de-france",
