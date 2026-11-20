@@ -1739,3 +1739,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
 2. `components/StaticPageCrossLink.tsx` (encore blanc à filet gris, bas de toutes les pages statiques).
 3. Hub `/comparer` (FR) + EN `/compare`.
+
+## 2026-11-20 ~11:00 UTC — `FranceHeatmap` : info-bulle + puces d'axe (accueil FR/EN, `/en/map`)
+
+**Surface** : la carte de France de l'accueil (plus fort trafic) et de l'EN `/map`. Avant : info-bulle `glass-strong` translucide, note en texte de couleur de palier (lime/ambre < 4,5:1 sur blanc), barres sur gris ; puces d'axe blanches translucides à filet gris, actif indigo uni ; bascule Villes/Régions grise. Bug : la position de l'info-bulle était calculée en % d'un bloc qui inclut aussi la bande DROM → carte décalée vers le bas, et sur téléphone elle débordait à gauche de l'écran.
+
+**Changé** : info-bulle blanche à bandeau `grad-head-5` (nom, région, population en blanc), note dans une pastille blanche à point de palier + encre sombre, axe en étiquette translucide, axes à emoji sur rail `#EEF2FF`, « Voir la fiche » en pilule dégradée ; boîte de positionnement `relative` ajustée au seul SVG ; au toucher, carte centrée horizontalement au-dessus/au-dessous du point. Puces d'axe blanches à anneau indigo, active en dégradé indigo → violet (`aria-pressed`) ; bascule Villes/Départements/Régions en piste indigo pâle, active en dégradé rose. Copie et couleurs de palier inchangées.
+
+**Fichiers** : `components/FranceHeatmap.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 1 erreur (set-state-in-effect l. 226) identique avant/après. Captures playwright `/` et `/en` 1440 et 390 px (tactile émulé), info-bulle Lyon ouverte, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `components/StaticPageCrossLink.tsx` (encore blanc à filet gris, bas des pages statiques).
+2. Hub `/comparer` (FR) + EN `/compare`.
+3. `components/DromStrip.tsx` : tuiles « Outre-mer » à texte de palier sur fond sombre (vérifier contraste).

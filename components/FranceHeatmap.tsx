@@ -370,11 +370,12 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               <button
                 key={key}
                 onClick={() => setScoreKey(key)}
+                aria-pressed={active}
                 className={
                   "rounded-full px-4 py-1.5 text-sm font-medium transition-all border " +
                   (active
-                    ? "bg-[var(--accent)] text-white border-[var(--accent)] shadow-lg shadow-[var(--accent)]/30"
-                    : "bg-white/70 backdrop-blur text-[var(--text-secondary)] border-[var(--border)] hover:border-[var(--accent)]/40 hover:text-[var(--text-primary)]")
+                    ? "bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] text-white border-transparent shadow-lg shadow-[#7C3AED]/30"
+                    : "bg-white text-[#3730A3] border-[#C7D2FE] hover:border-[#818CF8] hover:bg-[#EEF2FF]")
                 }
               >
                 <span className="mr-1.5">{emoji}</span>
@@ -387,7 +388,7 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
         {/* Villes / Régions layer toggle (opt-in via showRegionToggle) */}
         {showRegionToggle && (
           <div className="mb-3 flex justify-center">
-            <div className="inline-flex rounded-full border border-[var(--border)] bg-white/70 backdrop-blur p-0.5 text-xs font-semibold">
+            <div className="inline-flex rounded-full border border-[#C7D2FE] bg-[#EEF2FF] p-0.5 text-xs font-semibold">
               {(departments ? (["cities", "departments", "regions"] as const) : (["cities", "regions"] as const)).map((v) => (
                 <button
                   key={v}
@@ -396,8 +397,8 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                   className={
                     "rounded-full px-4 py-1.5 transition-all " +
                     (view === v
-                      ? "bg-[var(--accent)] text-white shadow-md shadow-[var(--accent)]/30"
-                      : "text-[var(--text-secondary)] hover:text-[var(--text-primary)]")
+                      ? "bg-gradient-to-r from-[#DB2777] to-[#EC4899] text-white shadow-md shadow-[#DB2777]/30"
+                      : "text-[#3730A3] hover:bg-white")
                   }
                 >
                   {v === "cities" ? L("Villes", "Cities") : v === "departments" ? L("Départements", "Departments") : L("Régions", "Regions")}
@@ -490,6 +491,10 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
             {/* Grain on top */}
             <div className="grain rounded-3xl" style={{ opacity: 0.18, mixBlendMode: "overlay" }} />
 
+            {/* Positioning box for the tooltip: exactly the SVG's size, so the
+                dot's x/y percentages map onto it (the surface also holds the
+                DROM strip, which skewed the vertical anchor). */}
+            <div className="relative">
             <svg
               ref={svgRef}
               viewBox={`0 0 ${W} ${H}`}
@@ -778,53 +783,64 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
               )}
             </svg>
 
-            {/* Glass tooltip — viewport-aware, flips when near edges */}
+            {/* Tooltip « Couleurs » — bandeau dégradé, corps blanc ; viewport-aware, flips when near edges */}
             {hover && (() => {
               const xPct = (hover.x / W) * 100;
               const yPct = (hover.y / H) * 100;
               const flipX = xPct > 60;
               const flipY = yPct > 70;
+              const axisOpt = SCORE_OPTIONS.find((x) => x.key === scoreKey);
+              const axisLbl = axisOpt ? optionLabel(axisOpt) : "";
               return (
                 <Link
                   href={cityHref(hover.slug)}
-                  className="absolute pointer-events-auto rounded-2xl glass-strong border border-white/60 px-5 py-4 shadow-2xl shadow-[var(--accent)]/30 text-left transition-transform hover:scale-[1.02] z-20"
-                  style={{
-                    left: flipX ? `calc(${xPct}% - 16px)` : `calc(${xPct}% + 16px)`,
-                    top: flipY ? `calc(${yPct}% - 16px)` : `calc(${yPct}% + 16px)`,
-                    transform: `translate(${flipX ? "-100%" : "0"}, ${flipY ? "-100%" : "0"})`,
-                    width: "min(280px, calc(100vw - 32px))",
-                    maxWidth: 280,
-                  }}
+                  className="group/tip absolute pointer-events-auto overflow-hidden rounded-2xl bg-white ring-1 ring-[#C7D2FE] shadow-2xl shadow-[#4F46E5]/30 text-left transition-transform hover:scale-[1.02] z-20"
+                  style={
+                    coarse
+                      ? {
+                          // Touch: a card offset sideways from the dot ran off
+                          // the ~350 px-wide map on phones. Centre it
+                          // horizontally and keep it above/below the dot.
+                          left: "50%",
+                          top: flipY ? `calc(${yPct}% - 20px)` : `calc(${yPct}% + 20px)`,
+                          transform: `translate(-50%, ${flipY ? "-100%" : "0"})`,
+                          width: "min(280px, calc(100% - 16px))",
+                        }
+                      : {
+                          left: flipX ? `calc(${xPct}% - 16px)` : `calc(${xPct}% + 16px)`,
+                          top: flipY ? `calc(${yPct}% - 16px)` : `calc(${yPct}% + 16px)`,
+                          transform: `translate(${flipX ? "-100%" : "0"}, ${flipY ? "-100%" : "0"})`,
+                          width: "min(280px, calc(100vw - 32px))",
+                          maxWidth: 280,
+                        }
+                  }
                 >
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className="inline-block h-3.5 w-3.5 rounded-full ring-2 ring-white shadow" style={{ background: hover.color }} />
-                    <span className="text-lg font-bold text-[var(--text-primary)] truncate">{hover.name}</span>
-                    <span
-                      className="ml-auto text-xl font-bold font-mono-data shrink-0"
-                      style={{ color: hover.color }}
-                    >
-                      {hover.scores.global.toFixed(1)}
-                    </span>
+                  <div className="grad-head-5 px-4 py-3">
+                    <div className="flex items-center gap-2">
+                      <span className="min-w-0 flex-1 text-lg font-bold leading-tight text-white truncate">{hover.name}</span>
+                      <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-white px-2.5 py-0.5 shadow-sm">
+                        <span className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: hover.color }} aria-hidden="true" />
+                        <span className="text-base font-bold font-mono-data text-[#141B2D]">{hover.scores.global.toFixed(1)}</span>
+                      </span>
+                    </div>
+                    <div className="mt-0.5 truncate text-xs text-white">
+                      {hover.region} · {hover.population.toLocaleString(locale === "en" ? "en-US" : "fr-FR")} {L("hab.", "pop.")}
+                    </div>
+                    <div className="mt-1.5 inline-flex max-w-full items-center rounded-full bg-white/20 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-white">
+                      <span className="truncate">{locale === "en" ? <>on the {axisLbl} axis</> : <>sur l&apos;axe {axisLbl}</>}</span>
+                    </div>
                   </div>
-                  <div className="text-[10px] uppercase tracking-wider font-semibold mb-2 text-right text-[var(--text-tertiary)]">
-                    {(() => {
-                      const o = SCORE_OPTIONS.find((x) => x.key === scoreKey);
-                      const lbl = o ? optionLabel(o) : "";
-                      return locale === "en" ? <>on the {lbl} axis</> : <>sur l&apos;axe {lbl}</>;
-                    })()}
-                  </div>
-                  <div className="text-xs text-[var(--text-tertiary)] mb-3 truncate">
-                    {hover.region} · {hover.population.toLocaleString(locale === "en" ? "en-US" : "fr-FR")} {L("hab.", "pop.")}
-                  </div>
-                  <div className="space-y-2">
+                  <div className="space-y-2 px-4 pt-3">
                     {[
-                      { label: L("Nature", "Nature"), val: hover.scores.nature },
-                      { label: L("Transport", "Transport"), val: hover.scores.transport },
-                      { label: L("Coût", "Cost"), val: hover.scores.cost },
+                      { label: L("Nature", "Nature"), emoji: "🌲", val: hover.scores.nature },
+                      { label: L("Transport", "Transport"), emoji: "🚆", val: hover.scores.transport },
+                      { label: L("Coût", "Cost"), emoji: "💸", val: hover.scores.cost },
                     ].map((s) => (
                       <div key={s.label} className="flex items-center gap-2 text-xs">
-                        <span className="w-16 text-[var(--text-secondary)] font-medium">{s.label}</span>
-                        <div className="flex-1 h-1.5 rounded-full bg-[var(--bg-elevated)] overflow-hidden">
+                        <span className="w-[5.5rem] shrink-0 text-[#3730A3] font-semibold">
+                          <span className="mr-1" aria-hidden="true">{s.emoji}</span>{s.label}
+                        </span>
+                        <div className="flex-1 h-2 rounded-full bg-[#EEF2FF] overflow-hidden">
                           <div
                             className="h-full rounded-full"
                             style={{
@@ -838,8 +854,8 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                       </div>
                     ))}
                   </div>
-                  <div className="mt-3 pt-3 border-t border-[var(--border)]/60 flex items-center justify-between gap-2">
-                    <span className="text-xs text-[var(--accent)] font-semibold">
+                  <div className="px-4 pb-4 pt-3 flex flex-wrap items-center justify-between gap-2">
+                    <span className="inline-flex items-center rounded-full bg-gradient-to-r from-[#4F46E5] to-[#7C3AED] px-3 py-1 text-xs font-semibold text-white shadow-sm shadow-[#7C3AED]/30">
                       {L("Voir la fiche complète →", "See the full profile →")}
                     </span>
                     {coarse && (
@@ -851,6 +867,8 @@ export function FranceHeatmap({ locale = "fr", showRegionToggle = false, cities,
                 </Link>
               );
             })()}
+
+            </div>
 
             {/* Screen reader fallback — text listing of map content */}
             <div className="sr-only">
