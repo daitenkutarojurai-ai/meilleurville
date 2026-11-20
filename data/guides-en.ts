@@ -39585,6 +39585,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["beziers","moving to france with children","french school system","occitanie"],
   },
   {
+    slug: "family-in-compiegne-2026",
+    title: "Family life in Compiègne (2026): a €980 T3, schools 7.7 and 14,000 hectares of forest next door",
+    metaTitle: "Family Life in Compiègne 2026: €980 T3, Schools 7.7",
+    metaDesc:
+      "Raising children in Compiègne in 2026: a €980 T3, flats at €2,273 per m², schools 7.7, safety 6.2. Budget, forest, parks and nearby towns compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro:
+      "Compiègne rents a T3 (two bedrooms and a living room) at €980 on our rent estimate and sells a flat at €2,273 per m², with a schools score of 7.7 (rank 38 of 593). Safety is 6.2 (rank 189) and cost 5.9. Of 40,808 residents, 17.5% are under 15, and the forest on the town's doorstep covers more than 14,000 hectares.",
+    sections: [
+      {
+        heading: "What is the housing budget in Compiègne?",
+        body: "The T3 is €980 and the T2 €730. A flat is €2,273 per m² (747 sales in 2024-2025, national DVF property register) and a house €3,000 (261 sales), 32% more. An 80 m² flat at the median price is about €182,000 before fees. The flat-to-house gap is wide: a family that wants a garden sees the budget jump quickly.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €21,000 per consumption unit (Insee, Filosofi 2021), with 22% poverty. The population rose 1.4% since 2016: the town is not emptying, nor is it growing much. 17.5% of residents are under 15 and 24.2% are 60 or over.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 7.7 (rank 38, 52 tied), safety 6.2 (rank 189, 9 tied), transport 7.7 (rank 59, 37 tied), nature 7.1 (rank 102, 59 tied), culture 7.5 (rank 69). Schools are the strong point; safety is upper-middle and no more. These marks describe the town as a whole, so check the carte scolaire (the catchment map tied to your address) before signing a lease.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "The Compiègne forest, over 14,000 hectares, is reachable on foot or by bike from the station. In town, according to OpenStreetMap, the Grand Parc (23 hectares), the Petit Parc (19 hectares) and the Muids basin (30 hectares) give room to run, and the parc de Bayser and parc Songeons have playgrounds. The château is a walk from the station; Pierrefonds and its castle, restored by Viollet-le-Duc, can be reached from town, about fifteen kilometres away.",
+      },
+      {
+        heading: "Compiègne against Senlis, Soissons and Creil",
+        body: "Senlis, 29 km away, rents a T3 at €1,030 and sells at €3,308 per m², schools 8.7, safety 7.5. Soissons, 36 km, is €930 and €1,646, schools 6.6. Creil, 31 km, is €800 and €1,711, but schools 2.4 and 40% poverty. Senlis costs €1,035 more per m² than Compiègne for 1.0 more point on schools; Creil is cheaper but does not hold up on schools.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a real town of 40,000 people, a highly rated school mark and rent under €1,000. Those who want the top schools mark of the towns compared here and accept paying more should look at Senlis; those after the lowest price will go to Soissons, with a schools score one point lower.",
+      },
+    ],
+    relatedCities: ["compiegne","senlis","soissons","creil"],
+    tags: ["compiegne","moving to france with children","french school system","hauts-de-france"],
+  },
+  {
+    slug: "family-in-les-sables-d-olonne-2026",
+    title: "Family life in Les Sables-d'Olonne (2026): safety 8.0 and nature 8.5, but €4,647 per m² and 10% children",
+    metaTitle: "Family Life in Les Sables-d'Olonne 2026: €1,050 T3",
+    metaDesc:
+      "Raising children in Les Sables-d'Olonne in 2026: a €1,050 T3, flats at €4,647 per m², safety 8.0, nature 8.5, but only 10% under 15. Figures and options.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro:
+      "Les Sables-d'Olonne scores safety 8.0 (rank 72 of 593), nature 8.5 (rank 3) and schools 7.7 (rank 38), for a T3 (two bedrooms and a living room) at €1,050 on our rent estimate and a flat at €4,647 per m². The flip side: only 10.3% of its 48,740 residents are under 15, against 48.7% aged 60 or over. It is a seaside town more than a children's town.",
+    sections: [
+      {
+        heading: "What is the housing budget in Les Sables-d'Olonne?",
+        body: "The T3 is €1,050 and the T2 €790. A flat is €4,647 per m² (902 sales in 2024-2025, national DVF property register) and a house €3,960 (1,323 sales): here the house is 15% cheaper per m² than the flat, because flats sell with sea views. An 80 m² flat at the median price is about €372,000 before fees.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €24,520 per consumption unit (Insee, Filosofi 2021), with 9% poverty. The population rose 12.8% since 2016, the fastest pace of the six towns in this batch. Under-15s are 10.3% and those 60 or over 48.7%: services are tuned for an older public, which matters for opening hours and youth provision.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 7.7 (rank 38, 52 tied), safety 8.0 (rank 72, 5 tied), nature 8.5 (rank 3, 27 tied), daily life 7.8 (rank 32), culture 6.6, transport 6.2 (rank 248, 33 tied) and cost 5.4 (rank 307). Cost is the weak mark: housing is dear for the region, and getting around without a car is only average.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "The main beach, the seafront promenade and the Tanchet beach are the obvious playground; the La Chaume district and its channel are where the Vendée Globe round-the-world race sets off. For green space, according to OpenStreetMap, the parc de la Jarrie (6 hectares, playground), the parc des Roses and the parc de la Marion have children's play areas. Green space inside the town stays small beside the sea.",
+      },
+      {
+        heading: "Les Sables-d'Olonne against La Roche-sur-Yon and Challans",
+        body: "La Roche-sur-Yon, 33 km away, rents a T3 at €800 and sells at €2,404 per m², schools 7.7, safety 8.0, 15% poverty: the same schools mark, €250 less in rent and a flat at under half the price. Challans, 40 km, is €860 and €2,637, schools 7.7 and safety 8.3. What Les Sables adds is the sea, not the school.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the sea every day, safety and nature, with €372,000 for 80 m² or €1,050 in rent. Families looking first for space for the money, or a town with plenty of other children, should look at La Roche-sur-Yon, 33 km away.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne","la-roche-sur-yon","challans","la-rochelle"],
+    tags: ["les-sables-d-olonne","moving to france with children","french school system","pays de la loire"],
+  },
+  {
+    slug: "family-in-anglet-2026",
+    title: "Family life in Anglet (2026): schools 8.7 and 11 beaches, but €5,188 per m² and a cost score of 4.5",
+    metaTitle: "Family Life in Anglet 2026: €1,200 T3, Schools 8.7",
+    metaDesc:
+      "Raising children in Anglet in 2026: a €1,200 T3, flats at €5,188 per m², schools 8.7, safety 7.2, cost 4.5. Beaches, forest, Bayonne and Biarritz compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro:
+      "Anglet scores schools 8.7 (rank 15 of 593) and daily life 8.7 (rank 13), but cost only 4.5 (rank 453): a T3 (two bedrooms and a living room) is €1,200 on our rent estimate and a flat €5,188 per m². Of 42,288 residents, 11.7% are under 15 and 37.3% are 60 or over. For a family the question is not quality but the price of entry.",
+    sections: [
+      {
+        heading: "What is the housing budget in Anglet?",
+        body: "The T3 is €1,200 and the T2 €890. A flat is €5,188 per m² (1,047 sales in 2024-2025, national DVF property register) and a house €6,719 (398 sales), 30% more. An 80 m² flat at the median price is about €415,000 before fees. A house is out of reach for most local family budgets.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €25,060 per consumption unit (Insee, Filosofi 2021), with 10% poverty. The population rose 9.4% since 2016, a brisk pace. Under-15s are 11.7% and those 60 or over 37.3%: Anglet draws well-off households and retirees first, which shows in the housing market.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 8.7 (rank 15, 15 tied), safety 7.2 (rank 116, 5 tied), nature 7.8 (rank 40, 42 tied), transport 7.7 (rank 59), remote work 7.5 (rank 39), cost 4.5 (rank 453, 10 tied). It is a two-speed profile: very high on quality of life and schools, low on cost. The family's case therefore turns on budget, not on the neighbourhood.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "Anglet has eleven beaches linked by a coastal promenade running from the Petite Chambre d'Amour to La Barre, the Chambre d'Amour being the best known. The Pignada forest, also called the Chiberta forest, covers more than 200 hectares of maritime pines north of town. According to OpenStreetMap, the parc du Maharin (6 hectares) and the parc Belay have a playground.",
+      },
+      {
+        heading: "Anglet against Bayonne and Biarritz",
+        body: "Bayonne, 4 km away, rents the same €1,200 T3 but sells flats at €4,039 per m², €1,149 less, with schools 7.0 and safety 5.9. Biarritz, 3 km, is €1,400 and €7,150, schools 6.6. Dax, 46 km, is €780 and €2,538. At equal rent, Bayonne is clearly cheaper to buy in than Anglet, for 1.7 points less on schools.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families with a comfortable budget who want the beach, the forest and a school marked 8.7. Those looking to buy under €400,000 for 80 m² should look at Bayonne, 4 km away, or rent in Anglet while they wait. Families who want rent under €1,000 will have to leave the conurbation.",
+      },
+    ],
+    relatedCities: ["anglet","bayonne","biarritz","dax"],
+    tags: ["anglet","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-saint-germain-en-laye-2026",
+    title: "Family life in Saint-Germain-en-Laye (2026): schools 9.0 (rank 1), but a €1,600 T3 and €6,429 per m²",
+    metaTitle: "Family Life in Saint-Germain-en-Laye 2026: €1,600 T3",
+    metaDesc:
+      "Raising children in Saint-Germain-en-Laye in 2026: schools 9.0, a €1,600 T3, flats at €6,429 per m², RER A to Paris. Budget and Poissy, Rueil compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro:
+      "Saint-Germain-en-Laye gets schools 9.0, the best mark in our data (rank 1 of 593, 13 towns tied), but cost only 2.2 (rank 570): a T3 (two bedrooms and a living room) is €1,600 on our rent estimate and a flat €6,429 per m². Of its 45,286 residents, 19.3% are under 15, the highest share of the six towns in this batch.",
+    sections: [
+      {
+        heading: "What is the housing budget in Saint-Germain-en-Laye?",
+        body: "The T3 is €1,600 and the T2 €1,150. A flat is €6,429 per m² (845 sales in 2024-2025, national DVF property register) and a house €7,058 (153 sales), 10% more. An 80 m² flat at the median price is about €514,000 before fees. The flat-to-house gap is small: the market is expensive across the board.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €33,250 per consumption unit (Insee, Filosofi 2021), with 9% poverty. The population rose 2.9% since 2016. 19.3% of residents are under 15 and 23.6% are 60 or over: this is a town of settled families, where the neighbourhood school weighs on purchase decisions.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 9.0 (rank 1, 13 tied), transport 8.4 (rank 28, 14 tied), remote work 8.3 (rank 29), culture 7.6 (rank 59), safety 6.5 (rank 151, 26 tied), nature 5.9 (rank 245) and cost 2.2 (rank 570, 24 tied). Schools and the rail network are very high; cost is among the worst, which sums up the choice.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "The château houses the National Archaeology Museum, a few minutes' walk from the RER A station (the Paris regional express line). The national estate (31 hectares, playground according to OpenStreetMap) and its neighbouring woods, including the Champs Millet forest park (27 hectares), serve as a playground. The RER A links older children to the rest of the Paris region without a car.",
+      },
+      {
+        heading: "Saint-Germain-en-Laye against Poissy and Rueil-Malmaison",
+        body: "Poissy, 5 km away, rents a T3 at €1,280 and sells flats at €3,648 per m², €2,781 less, with schools 4.9 and safety 4.5. Rueil-Malmaison, 7 km, is €1,600 and €5,478, schools 9.0, safety 7.2. Maisons-Laffitte is €1,400 and €5,456, schools 5.5. Poissy saves €320 in rent but loses 4.1 points on schools; only Rueil matches the mark.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who put schools first and have €514,000 for 80 m² or €1,600 a month for a T3. Those who want to stay in the Yvelines département for less should look at Poissy or Sartrouville, accepting a schools score 4.1 points lower.",
+      },
+    ],
+    relatedCities: ["saint-germain-en-laye","poissy","rueil-malmaison","maisons-laffitte"],
+    tags: ["saint-germain-en-laye","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-arras-2026",
+    title: "Family life in Arras (2026): a €720 T3, €2,450 per m², but nature 4.2 and 25% poverty",
+    metaTitle: "Family Life in Arras 2026: €720 T3, €2,450 per m²",
+    metaDesc:
+      "Raising children in Arras in 2026: a €720 T3, flats at €2,450 per m², schools 6.6, safety 5.3, nature 4.2. Budget, places and Lens, Douai, Cambrai compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro:
+      "Arras rents a T3 (two bedrooms and a living room) at €720 on our rent estimate and sells a flat at €2,450 per m², with schools 6.6 (rank 105 of 593) and culture 7.3 (rank 83). The weak points: nature 4.2 (rank 463) and safety 5.3 (rank 306). Of 42,621 residents, 17.1% are under 15, and the town has grown 4.2% since 2016.",
+    sections: [
+      {
+        heading: "What is the housing budget in Arras?",
+        body: "The T3 is €720 and the T2 €540. A flat is €2,450 per m² (549 sales in 2024-2025, national DVF property register) and a house €1,949 (467 sales): here the house is 20% cheaper per m² than the flat. An 80 m² flat at the median price is about €196,000 before fees.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €20,230 per consumption unit (Insee, Filosofi 2021), with 25% poverty. The population rose 4.2% since 2016. 17.1% of residents are under 15 and 22.4% are 60 or over.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 6.6 (rank 105, 110 tied), culture 7.3 (rank 83, 19 tied), transport 6.1 (rank 281), cost 6.2 (rank 226), safety 5.3 (rank 306, 11 tied) and nature 4.2 (rank 463, 14 tied). Schools are upper-middle and culture is well marked; the lack of nature is the real point to weigh for children.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "The historic centre, with the Grand'Place, the Place des Héros, Vauban's citadel (UNESCO-listed in 2008) and the also-listed belfry, makes a pedestrian setting. The Wellington Quarry, dug by New Zealand tunnellers in 1916-1917, can be visited. For green space, according to OpenStreetMap, the Hautes-Fontaines green space (8 hectares) and the jardin des Allées cover the essentials, without a big park.",
+      },
+      {
+        heading: "Arras against Lens, Douai and Cambrai",
+        body: "Lens, 16 km away, rents a T3 at €590 and sells flats at €1,666 per m², schools 4.5 and 32% poverty. Douai, 23 km, is €670 and €1,561, schools 5.8. Cambrai, 35 km, is €640 and €1,714, schools 6.6. Arras costs €784 more per m² than Lens for 2.1 more points on schools; only Cambrai matches the mark, for €80 less in rent.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a town with a strong heritage, rent under €750 and a school in the upper-middle range, without expecting much nature. Those who want more greenery or a lower budget should look at Cambrai; those aiming for the highest school scores will have to leave the region.",
+      },
+    ],
+    relatedCities: ["arras","lens","douai","cambrai"],
+    tags: ["arras","moving to france with children","french school system","hauts-de-france"],
+  },
+  {
+    slug: "family-in-bourg-en-bresse-2026",
+    title: "Family life in Bourg-en-Bresse (2026): a €840 T3, €1,866 per m², schools 6.6 and a 61-hectare park",
+    metaTitle: "Family Life in Bourg-en-Bresse 2026: €840 T3",
+    metaDesc:
+      "Raising children in Bourg-en-Bresse in 2026: a €840 T3, flats at €1,866 per m², schools 6.6, safety 5.5. Budget, Bouvent park and Mâcon, Villefranche compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro:
+      "Bourg-en-Bresse rents a T3 (two bedrooms and a living room) at €840 on our rent estimate and sells a flat at €1,866 per m², with schools 6.6 (rank 105 of 593) and safety 5.5 (rank 275). Of 42,065 residents, 16.2% are under 15. The budget stays well below that of the region's big cities.",
+    sections: [
+      {
+        heading: "What is the housing budget in Bourg-en-Bresse?",
+        body: "The T3 is €840 and the T2 €630. A flat is €1,866 per m² (868 sales in 2024-2025, national DVF property register) and a house €2,267 (237 sales), 21% more. An 80 m² flat at the median price is about €149,000 before fees.",
+      },
+      {
+        heading: "What standard of living does the town have?",
+        body: "Median standard of living is €20,210 per consumption unit (Insee, Filosofi 2021), with 24% poverty. The population rose 1.7% since 2016. 16.2% of residents are under 15 and 28.3% are 60 or over: the town ages slowly but keeps a base of families.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 6.6 (rank 105, 110 tied), safety 5.5 (rank 275, 25 tied), transport 6.7 (rank 185), nature 6.1 (rank 235), cost 5.9 (rank 257) and remote work 5.1 (rank 342). The profile is balanced with no standout strength: a town where you pick the neighbourhood and the school carefully rather than by the overall score.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "According to OpenStreetMap, the Bouvent leisure park (61 hectares, playground) and the parc des Baudières (12 hectares) are the town's big open spaces; the parc Colette Besson and the parc Jean Monnet also have play areas. The royal monastery of Brou, a flamboyant Gothic masterpiece built between 1506 and 1532, houses the town museum.",
+      },
+      {
+        heading: "Bourg-en-Bresse against Mâcon, Oyonnax and Villefranche-sur-Saône",
+        body: "Mâcon, 33 km away, rents a T3 at €800 and sells at €1,659 per m², schools 6.2. Oyonnax, 33 km, is €800 and €1,364, schools 6.6. Villefranche-sur-Saône, 46 km, is €1,070 and €2,439, with schools 8.7. Villefranche costs €573 more per m² and €230 more in rent for 2.1 more points on schools.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want to buy 80 m² for around €149,000 in a préfecture (county seat) with parks and heritage. Those who put schools above budget will go to Villefranche-sur-Saône, 46 km away; those after the lowest price can look at Oyonnax, 33 km away.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse","macon","oyonnax","villefranche-sur-saone"],
+    tags: ["bourg-en-bresse","moving to france with children","french school system","auvergne-rhone-alpes"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",

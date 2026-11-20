@@ -8317,6 +8317,36 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-compiegne-2026",
+      "title": "Family life in Compiègne (2026): a €980 T3, schools 7.7 and 14,000 hectares of forest next door",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-les-sables-d-olonne-2026",
+      "title": "Family life in Les Sables-d'Olonne (2026): safety 8.0 and nature 8.5, but €4,647 per m² and 10% children",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-anglet-2026",
+      "title": "Family life in Anglet (2026): schools 8.7 and 11 beaches, but €5,188 per m² and a cost score of 4.5",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-saint-germain-en-laye-2026",
+      "title": "Family life in Saint-Germain-en-Laye (2026): schools 9.0 (rank 1), but a €1,600 T3 and €6,429 per m²",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-arras-2026",
+      "title": "Family life in Arras (2026): a €720 T3, €2,450 per m², but nature 4.2 and 25% poverty",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-bourg-en-bresse-2026",
+      "title": "Family life in Bourg-en-Bresse (2026): a €840 T3, €1,866 per m², schools 6.6 and a 61-hectare park",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -11486,12 +11516,12 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 107
+      "count": 108
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 100
+      "count": 101
     },
     {
       "slug": "relocation",
@@ -11501,7 +11531,7 @@
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 97
+      "count": 98
     },
     {
       "slug": "solo-travel",
@@ -11519,8 +11549,18 @@
       "count": 90
     },
     {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 83
+    },
+    {
       "slug": "grand-est",
       "label": "grand est",
+      "count": 83
+    },
+    {
+      "slug": "hauts-de-france",
+      "label": "hauts-de-france",
       "count": 83
     },
     {
@@ -11529,24 +11569,14 @@
       "count": 82
     },
     {
-      "slug": "hauts-de-france",
-      "label": "hauts-de-france",
-      "count": 81
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 77
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 82
     },
     {
       "slug": "single-parent-holidays",
       "label": "single parent holidays",
       "count": 77
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 76
     },
     {
       "slug": "student-housing-france",
@@ -11571,7 +11601,7 @@
     {
       "slug": "pays-de-la-loire",
       "label": "pays de la loire",
-      "count": 62
+      "count": 63
     },
     {
       "slug": "brittany",
@@ -12139,6 +12169,11 @@
       "count": 3
     },
     {
+      "slug": "arras",
+      "label": "arras",
+      "count": 3
+    },
+    {
       "slug": "atlantic-coast-retirement-france",
       "label": "Atlantic coast retirement France",
       "count": 3
@@ -12161,6 +12196,11 @@
     {
       "slug": "boulogne-billancourt",
       "label": "boulogne-billancourt",
+      "count": 3
+    },
+    {
+      "slug": "bourg-en-bresse",
+      "label": "bourg-en-bresse",
       "count": 3
     },
     {
@@ -12261,6 +12301,11 @@
     {
       "slug": "jobs-by-city",
       "label": "jobs by city",
+      "count": 3
+    },
+    {
+      "slug": "les-sables-d-olonne",
+      "label": "les sables-d'olonne",
       "count": 3
     },
     {
