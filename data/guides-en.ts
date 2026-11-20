@@ -68545,6 +68545,174 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["la-souterraine","riberac","noirmoutier","florac-trois-rivieres","commercy","obernai","quiberon","gaillac","meru","les-andelys","saint-medard-en-jalles","coueron","le-tampon","saint-andre-reunion","roissy-en-brie","hendaye"],
     tags: ["emergency room","hospital distance","medical deserts","healthcare access","BPE","healthcare by city","cities without ER","small towns"],
   },
+  {
+    "slug": "buying-off-plan-vefa-new-build-france-2026",
+    "title": "Buying off-plan in France (VEFA): what protects you and what doesn't",
+    "metaTitle": "Buying Off-Plan in France (VEFA) — Guarantees and Traps",
+    "metaDesc": "VEFA explained for foreign buyers: reduced notary fees, the completion guarantee, staged payments, delivery delays and the pre-delivery inspection.",
+    "category": "budget",
+    "emoji": "🏗️",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "intro": "VEFA (vente en l'état futur d'achèvement) is France's off-plan purchase: you buy a flat or house that is not built yet, from a developer, and pay in stages as it goes up. The pitch is lower notary fees and a brand-new, energy-efficient home. The catch is that you carry delivery risk for 18 to 30 months. The law protects buyers better than in most countries, but only if you use the protections.",
+    "sections": [
+      {
+        "heading": "What does VEFA actually mean for a buyer?",
+        "body": "You sign a reservation contract, then a sale deed at the notary while the building is still a plan. Ownership of the land and of each stage of construction passes to you as work progresses; you do not pay the full price on day one. The seller is a property developer (promoteur), not a private owner, so the contract is a standard document you can negotiate only at the margins: finishes, options and sometimes the price on unsold units."
+      },
+      {
+        "heading": "Why is VEFA cheaper to buy than an older flat?",
+        "body": "Notary fees on a new-build are roughly 2 to 3 % of the price, against roughly 7 to 8 % on an older property, because most of the cost in the old market is transfer tax that new-builds largely escape. On a €300,000 purchase that is a saving in the five-figure range. Against that, the price per square metre is usually higher than a comparable older flat, so compare the total cost, not the notary line. New-builds also meet the current energy regulation (RE2020), so heating bills are typically far below a poorly rated older flat. Check the energy label (DPE) in the sales file."
+      },
+      {
+        "heading": "What is the completion guarantee, and who checks it?",
+        "body": "The key protection is the garantie financière d'achèvement (GFA): a bank or insurer commits to finish the building, or refund you, if the developer goes bust. It must be stated in the sale deed. Ask the notary for the name of the guarantor and confirm it in writing before you sign. Separately, the developer must take out damage-to-structure insurance (dommages-ouvrage) that pays for repairs first and chases the builder afterwards. A developer who is vague about either one is a reason to walk away."
+      },
+      {
+        "heading": "How do staged payments work?",
+        "body": "French law caps what a developer can ask for at each milestone: a maximum of 35 % once foundations are done, 70 % once the building is watertight, 95 % at completion, with the last 5 % due at handover. That final 5 % is your leverage: if you note defects at handover, you can withhold it until they are fixed. Never pay ahead of the schedule, and never accept a payment call that does not match a stage in the contract. The reservation deposit is also capped and goes into a blocked account until the sale deed. You have a ten-day withdrawal period after receiving the reservation contract."
+      },
+      {
+        "heading": "What happens if the building is late?",
+        "body": "Delays are the most common complaint. The sale deed sets a delivery date, and the contract lists legitimate reasons for pushing it back: bad weather, strikes, insolvency of a contractor. Check the late-delivery penalty clause, often a small daily fraction of the price with a ceiling, and how many days of \"legitimate\" delay the developer can claim before penalties begin. If you are renting in the meantime, or have a bridging loan, a 6-month slip has a real cost. Ask the developer how many past programmes were delivered on the promised date."
+      },
+      {
+        "heading": "How does the handover inspection work?",
+        "body": "At delivery you walk the unit with the developer's representative and write a list of reserves (defects). Everything you do not note on the day is harder to claim later, so do not rush. Many buyers hire an independent surveyor for a few hundred euros, which usually pays for itself in defects found. After handover the standard guarantees run: one year for anything that was reported or appears (parfait achèvement), two years for fittings such as windows and boilers (bon fonctionnement), and ten years for structural and watertightness problems (garantie décennale)."
+      },
+      {
+        "heading": "Is VEFA right for you?",
+        "body": "It suits a long-term owner-occupier who can wait two years, wants low energy bills and does not want a renovation project. It suits less well an investor chasing quick yield, or a buyer who needs to move at a fixed date. Before reserving, read the technical notice (notice descriptive), the draft co-ownership rules and the forecast service charges, and compare the price with recent sales of older flats nearby. Mortgage-subsidy eligibility for new-builds (the zero-interest loan, PTZ) depends on household income, the zone and the property type, and the rules have changed repeatedly, so check the current conditions with your lender before signing. This guide gives no city figures; for local prices see our price-per-m² pages."
+      }
+    ],
+    "relatedCities": [
+      "bordeaux",
+      "toulouse",
+      "nantes",
+      "montpellier",
+      "lille"
+    ],
+    "tags": [
+      "VEFA",
+      "off-plan",
+      "new build",
+      "notary fees",
+      "completion guarantee",
+      "buying property",
+      "RE2020",
+      "first-time buyer"
+    ]
+  },
+  {
+    "slug": "when-to-buy-property-in-france-timing-rates-seasons-2026",
+    "title": "When to buy property in France: rates, seasons and why timing the market fails",
+    "metaTitle": "When to Buy Property in France — Timing, Rates, Seasons",
+    "metaDesc": "Should you buy now or wait? How French mortgage rates, the loan rules, seasonality and the buying calendar affect timing, and what to do instead of guessing.",
+    "category": "budget",
+    "emoji": "🗓️",
+    "readMinutes": 7,
+    "publishedAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "intro": "Nobody reliably calls the bottom of a property market, and the French one is slow to move. What you can control is your own timeline: your deposit, your loan capacity and the paperwork calendar. This guide covers what drives timing in France and the decision rules that hold up whatever prices do. It gives no market forecast and quotes no price statistic, because those date within weeks.",
+    "sections": [
+      {
+        "heading": "Should you buy now or wait?",
+        "body": "Buy when the purchase works at today's mortgage rate and you plan to stay at least five to seven years. Costs on entry are heavy: notary fees on an older property run roughly 7 to 8 % of the price, and they are not recovered if you sell early. Waiting for a better rate can pay off, but you can refinance a loan later, whereas you cannot re-buy a home you missed. Run the monthly payment at your current rate and at one point higher. If both are comfortable, timing is a secondary question."
+      },
+      {
+        "heading": "How do interest rates and loan rules shape what you can borrow?",
+        "body": "French mortgages are mostly fixed-rate, so the rate on your offer is the rate for life. Lenders follow a banking-regulator guideline (HCSF) that caps total debt service at 35 % of income, insurance included, and the loan term at 25 years, with some flexibility for new-builds and major renovations. That means a rate change moves your borrowing power directly, but the 35 % ceiling stays. Use a broker to compare, and get a pre-approval before house hunting so your offer is credible."
+      },
+      {
+        "heading": "Is there a best season to buy?",
+        "body": "Activity peaks in spring and early summer, when families want to move before the school year, so choice is widest and negotiation is thinnest. August is slow because notaries, banks and sellers are on holiday and deals drag. Late autumn and winter bring fewer listings but more motivated sellers, particularly for homes that stayed unsold through the summer. If you are flexible, an autumn search often gives the best balance. A French sale also takes time whatever the season: expect two to four months from offer to keys."
+      },
+      {
+        "heading": "What is the buying calendar from offer to completion?",
+        "body": "Once you and the seller agree, you sign a preliminary contract (compromis or promesse de vente). You then get a ten-day cooling-off period during which you can withdraw without penalty. The contract normally includes a mortgage condition: if the loan is refused, the sale falls through and your deposit is returned, typically with 45 to 60 days to obtain the loan. A bank must keep its loan offer open for a minimum period before you can accept, and then the notary books the final deed, usually two to three months after the preliminary contract. Build that into any move date, school start or lease end."
+      },
+      {
+        "heading": "Why does the energy label matter to timing?",
+        "body": "France is phasing out rentals of the worst-rated homes (DPE G is already barred from new leases, with F and E scheduled after it). For an owner-occupier this is leverage: poorly rated homes sell at a discount, and you can budget the renovation into the price. For a landlord it is a hard deadline. Get the DPE and the works quotes before you offer. Our guide to buying a home rated F or G covers the numbers."
+      },
+      {
+        "heading": "What should you do instead of trying to time the market?",
+        "body": "Fix the things you control. Save a deposit that covers fees as well as the down payment. Check you meet the 35 % ceiling with a margin. Choose a city on the daily-life criteria that decide whether you stay: jobs, schools, healthcare access, transport. Then negotiate hard: in France, sellers commonly accept offers below the asking price, especially on homes that have been listed for months. If rates fall later, ask your bank or a broker about renegotiating or refinancing, mindful of early-repayment penalties and fees. Check current rules and rates with a broker; they change."
+      }
+    ],
+    "relatedCities": [
+      "lyon",
+      "bordeaux",
+      "nantes",
+      "rennes",
+      "toulouse"
+    ],
+    "tags": [
+      "buying property",
+      "mortgage",
+      "interest rates",
+      "notary fees",
+      "seasonality",
+      "compromis de vente",
+      "HCSF",
+      "DPE"
+    ]
+  },
+  {
+    "slug": "gross-rental-yield-cheap-french-cities-trap-2026",
+    "title": "Gross rental yield in cheap French cities: why the headline number misleads",
+    "metaTitle": "Gross Rental Yield in France — Why Cheap Cities Mislead",
+    "metaDesc": "A high gross yield in a cheap French town can hide vacancy, charges, repairs and a hard resale. How to turn gross yield into net, with a checklist.",
+    "category": "budget",
+    "emoji": "📊",
+    "readMinutes": 7,
+    "publishedAt": "2026-11-20",
+    "updatedAt": "2026-11-20",
+    "intro": "Rental-yield rankings put small, cheap French towns on top, and the numbers are real: rent is a high percentage of a low price. But gross yield is the number before everything that eats it. For a foreign buyer who will not be on the ground, the gap between gross and net is where the investment is won or lost. This guide explains how to close that gap. It deliberately quotes no per-city yields, so check current figures on our city pages.",
+    "sections": [
+      {
+        "heading": "What is gross rental yield, and what does it leave out?",
+        "body": "Gross yield is annual rent divided by the purchase price, as a percentage. It ignores the notary fees on the purchase, the annual property tax (taxe foncière, paid by the owner), the owner's share of building charges (charges de copropriété), landlord insurance, repairs, agency fees, periods without a tenant and income tax. A 9 % gross yield can be 5 % or less once these are counted, and a lower-yield flat in a strong market can end up ahead."
+      },
+      {
+        "heading": "How do you turn gross yield into net?",
+        "body": "Start with a full year of rent. Subtract vacancy (budget at least a month, more in a weak market), then the taxe foncière, the non-recoverable charges, insurance and a maintenance allowance. Subtract management fees if an agency collects the rent: in France they commonly run into the high single digits as a percentage of rent. Add the notary fees and any renovation to the price you divide by. Only then compare. If the seller or agent quotes a yield, ask for the lease, the last three years of charges and the property tax notice, and rebuild it yourself."
+      },
+      {
+        "heading": "Why do cheap cities carry hidden risks?",
+        "body": "A low price usually means weak demand. Tenants take longer to find, stay a shorter time and leave when the local employer does. Resale is slower: a flat that is easy to buy is not always easy to sell, and you can end up unable to exit at the price you paid. Older stock in these towns often has poor energy ratings, which brings renovation costs and, for the worst ratings, a ban on new leases. And the market can be one landlord-friendly employer or one university away from a vacancy problem."
+      },
+      {
+        "heading": "How do energy rules and rent controls affect a landlord?",
+        "body": "France is phasing out the rental of the least efficient homes. Check the DPE energy label before you buy, because the rules apply to the landlord regardless of what the seller disclosed. Some big cities also cap rents at renewal or new lease (encadrement des loyers), so the rent you assumed may be a ceiling. Furnished lets in a small city can carry a different tax treatment from empty lets; see our guide to furnished rentals. Rules change each finance law, so confirm them with an accountant."
+      },
+      {
+        "heading": "What should you check before buying?",
+        "body": "Look for demand drivers that do not depend on a single employer: a university, a hospital, a rail link, a diverse job base. Look at the stock of similar flats for rent and how long listings stay online. Check population and job trends, which our city pages show. Ask a local agent for realistic rents, not asking rents. Inspect the co-ownership accounts for planned works, which become your bill. And prefer a property you could comfortably own for a decade without any rent."
+      },
+      {
+        "heading": "A simple rule of thumb",
+        "body": "Treat gross yield as a way to shortlist, never to decide. Aim for a net yield you can defend on a pessimistic case: one month more of vacancy, one repair bill, one tax increase. If the deal only works on the optimistic case, it is a bet on the town, not an investment in the property. For help choosing where, start from the daily-life data on the city profile, because a place people want to live in is the one that keeps tenants."
+      }
+    ],
+    "relatedCities": [
+      "saint-etienne",
+      "limoges",
+      "mulhouse",
+      "lille",
+      "toulouse"
+    ],
+    "tags": [
+      "rental yield",
+      "property investment",
+      "buy to let",
+      "landlord",
+      "taxe foncière",
+      "DPE",
+      "cheap cities"
+    ]
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -11360,6 +11360,21 @@
       "slug": "french-cities-without-emergency-room-distance-to-hospital-591-cities-2026",
       "title": "French cities with no emergency room: 242 cities, 42 more than 10 km away (2026)",
       "emoji": "🚑"
+    },
+    {
+      "slug": "buying-off-plan-vefa-new-build-france-2026",
+      "title": "Buying off-plan in France (VEFA): what protects you and what doesn't",
+      "emoji": "🏗️"
+    },
+    {
+      "slug": "when-to-buy-property-in-france-timing-rates-seasons-2026",
+      "title": "When to buy property in France: rates, seasons and why timing the market fails",
+      "emoji": "🗓️"
+    },
+    {
+      "slug": "gross-rental-yield-cheap-french-cities-trap-2026",
+      "title": "Gross rental yield in cheap French cities: why the headline number misleads",
+      "emoji": "📊"
     }
   ],
   "tags": [
@@ -11634,6 +11649,11 @@
       "count": 11
     },
     {
+      "slug": "buying-property",
+      "label": "buying property",
+      "count": 10
+    },
+    {
       "slug": "champagne",
       "label": "champagne",
       "count": 10
@@ -11709,11 +11729,6 @@
       "count": 8
     },
     {
-      "slug": "buying-property",
-      "label": "buying property",
-      "count": 8
-    },
-    {
       "slug": "france-climate-2040",
       "label": "france climate 2040",
       "count": 8
@@ -11756,6 +11771,11 @@
     {
       "slug": "car-free-holidays-france",
       "label": "car-free holidays france",
+      "count": 7
+    },
+    {
+      "slug": "dpe",
+      "label": "dpe",
       "count": 7
     },
     {
@@ -11889,11 +11909,6 @@
       "count": 5
     },
     {
-      "slug": "dpe",
-      "label": "dpe",
-      "count": 5
-    },
-    {
       "slug": "franche-comte",
       "label": "franche-comte",
       "count": 5
@@ -11901,6 +11916,11 @@
     {
       "slug": "le-mans",
       "label": "le mans",
+      "count": 5
+    },
+    {
+      "slug": "mortgage",
+      "label": "mortgage",
       "count": 5
     },
     {
@@ -11931,6 +11951,11 @@
     {
       "slug": "dvf",
       "label": "DVF",
+      "count": 4
+    },
+    {
+      "slug": "first-time-buyer",
+      "label": "first-time buyer",
       "count": 4
     },
     {
@@ -11971,11 +11996,6 @@
     {
       "slug": "medical-deserts",
       "label": "medical deserts",
-      "count": 4
-    },
-    {
-      "slug": "mortgage",
-      "label": "mortgage",
       "count": 4
     },
     {
@@ -12069,6 +12089,11 @@
       "count": 3
     },
     {
+      "slug": "buy-to-let",
+      "label": "buy-to-let",
+      "count": 3
+    },
+    {
       "slug": "buying-a-house-in-france",
       "label": "buying a house in France",
       "count": 3
@@ -12121,11 +12146,6 @@
     {
       "slug": "fatca",
       "label": "fatca",
-      "count": 3
-    },
-    {
-      "slug": "first-time-buyer",
-      "label": "first-time buyer",
       "count": 3
     },
     {
@@ -12211,6 +12231,11 @@
     {
       "slug": "quimper",
       "label": "quimper",
+      "count": 3
+    },
+    {
+      "slug": "re2020",
+      "label": "RE2020",
       "count": 3
     },
     {
