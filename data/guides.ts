@@ -43432,6 +43432,276 @@ export const GUIDES: Guide[] = [
     tags: ["famille Béziers 2026", "vivre en famille Béziers", "loyer T3 Béziers", "écoles Béziers", "Béziers avec enfants"],
   },
   {
+    slug: "famille-a-compiegne-2026",
+    title: "Famille à Compiègne en 2026 : un T3 à 980 €, Écoles 7,7 et 14 000 hectares de forêt à côté",
+    metaTitle: "Famille à Compiègne 2026 : T3 980 €, Écoles 7,7, forêt",
+    metaDesc: "Famille à Compiègne : T3 à 980 €, appartements à 2 273 €/m², Écoles 7,7, Sécurité 6,2. Budget, parcs, forêt et comparaison avec Senlis et Creil.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Compiègne loue un T3 980 € (notre estimation des loyers) et vend l'appartement 2 273 € le m², avec un score Écoles de 7,7 (rang 38 sur 593). La Sécurité est notée 6,2 (rang 189), le Coût 5,9. Sur 40 808 habitants, 17,5 % ont moins de 15 ans, et la forêt qui borde la ville dépasse 14 000 hectares.",
+    sections: [
+      {
+        heading: "Quel budget logement à Compiègne ?",
+        body: "Le T3 est à 980 €, le T2 à 730 €. L'appartement se vend 2 273 € le m² (747 ventes en 2024-2025, DVF) et la maison 3 000 € (261 ventes), soit 32 % de plus. Un appartement de 80 m² au prix médian coûte environ 182 000 €, hors frais. L'écart entre appartement et maison est net : pour une famille qui veut un jardin, le budget bascule vite.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 21 000 € par unité de consommation (Insee, Filosofi 2021), avec 22 % de pauvreté. La population a progressé de 1,4 % depuis 2016 : la ville ne se vide pas, elle ne grossit pas non plus. 17,5 % des habitants ont moins de 15 ans et 24,2 % ont 60 ans ou plus.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 7,7 (rang 38, 52 villes à égalité), Sécurité 6,2 (rang 189, 9 à égalité), Transports 7,7 (rang 59, 37 à égalité), Nature 7,1 (rang 102, 59 à égalité), Culture 7,5 (rang 69). Le dossier scolaire est le point fort ; la sécurité est dans la moyenne haute, sans plus. Les notes sont à l'échelle de la ville : la carte scolaire du quartier reste à vérifier avant de signer.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "La forêt de Compiègne, plus de 14 000 hectares, est accessible à pied ou à vélo depuis la gare. En ville, d'après OpenStreetMap, le Grand Parc (23 hectares), le Petit Parc (19 hectares) et le bassin des Muids (30 hectares) offrent de l'espace, et le parc de Bayser comme le parc Songeons ont une aire de jeux. Le château de Compiègne se rejoint à pied depuis la gare ; Pierrefonds et son château restaurés par Viollet-le-Duc sont accessibles depuis la ville, à une quinzaine de kilomètres.",
+      },
+      {
+        heading: "Compiègne face à Senlis, Soissons et Creil",
+        body: "Senlis, à 29 km, loue le T3 1 030 € et vend à 3 308 € le m², avec Écoles 8,7 et Sécurité 7,5. Soissons, à 36 km, est à 930 € et 1 646 €, Écoles 6,6. Creil, à 31 km, est à 800 € et 1 711 €, mais Écoles 2,4 et 40 % de pauvreté. Senlis coûte 1 035 € de plus au m² que Compiègne pour 1,0 point d'école en plus ; Creil est moins cher mais ne tient pas la comparaison côté école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Compiègne convient aux familles qui veulent une vraie ville de 40 000 habitants, une école notée haut et un budget sous les 1 000 € de loyer. Celles qui veulent la note scolaire la plus haute des villes comparées ici et acceptent de payer plus regarderont Senlis ; celles qui cherchent le prix le plus bas iront vers Soissons, avec un score Écoles plus faible d'un point.",
+      },
+    ],
+    relatedCities: ["compiegne", "senlis", "soissons", "creil"],
+    relatedGuides: [
+      "10-choses-a-faire-a-compiegne-2026",
+      "parent-solo-a-compiegne-2026",
+      "etudiant-a-compiegne-2026",
+    ],
+    tags: ["famille Compiègne 2026", "vivre en famille Compiègne", "loyer T3 Compiègne", "écoles Compiègne", "Compiègne avec enfants"],
+  },
+  {
+    slug: "famille-a-les-sables-d-olonne-2026",
+    title: "Famille aux Sables-d'Olonne en 2026 : Sécurité 8,0 et Nature 8,5, mais 4 647 € le m² et 10 % d'enfants",
+    metaTitle: "Famille aux Sables-d'Olonne 2026 : T3 1 050 €, 4 647 €/m²",
+    metaDesc: "Famille aux Sables-d'Olonne : T3 à 1 050 €, appartements à 4 647 €/m², Sécurité 8,0, Nature 8,5, mais 10 % de moins de 15 ans. Comparaison avec La Roche-sur-Yon.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Les Sables-d'Olonne affichent Sécurité 8,0 (rang 72 sur 593), Nature 8,5 (rang 3) et Écoles 7,7 (rang 38), pour un T3 à 1 050 € (notre estimation des loyers) et un appartement à 4 647 € le m². Le revers : seuls 10,3 % des 48 740 habitants ont moins de 15 ans, contre 48,7 % de 60 ans ou plus. C'est une ville de bord de mer plus qu'une ville d'enfants.",
+    sections: [
+      {
+        heading: "Quel budget logement aux Sables-d'Olonne ?",
+        body: "Le T3 est à 1 050 €, le T2 à 790 €. L'appartement vaut 4 647 € le m² (902 ventes en 2024-2025, DVF) et la maison 3 960 € (1 323 ventes) : ici la maison est 15 % moins chère au m² que l'appartement, parce que l'appartement se vend face à la mer. Un appartement de 80 m² au prix médian coûte environ 372 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 24 520 € par unité de consommation (Insee, Filosofi 2021), avec 9 % de pauvreté. La population a progressé de 12,8 % depuis 2016, le rythme le plus rapide des six guides de ce lot. Les moins de 15 ans pèsent 10,3 %, les 60 ans et plus 48,7 % : les services sont calibrés pour un public âgé, ce qui compte pour les horaires et l'offre jeunesse.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 7,7 (rang 38, 52 à égalité), Sécurité 8,0 (rang 72, 5 à égalité), Nature 8,5 (rang 3, 27 à égalité), Vie quotidienne 7,8 (rang 32), Culture 6,6, Transports 6,2 (rang 248, 33 à égalité) et Coût 5,4 (rang 307). La note de coût est le point faible : le logement est cher pour la région, et les transports sans voiture sont moyens.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "La grande plage, le remblai et la plage de Tanchet sont le terrain de jeu évident ; le quartier de La Chaume et son chenal sont le décor du départ du Vendée Globe. Côté espaces verts, d'après OpenStreetMap, le parc de la Jarrie (6 hectares, aire de jeux), le parc des Roses et le parc de la Marion ont des jeux d'enfants. L'offre verte intra-muros reste petite à côté de la mer.",
+      },
+      {
+        heading: "Les Sables-d'Olonne face à La Roche-sur-Yon et Challans",
+        body: "La Roche-sur-Yon, à 33 km, loue le T3 800 € et vend à 2 404 € le m², Écoles 7,7, Sécurité 8,0, 15 % de pauvreté : même note d'école, 250 € de loyer en moins et un appartement à moins de la moitié du prix. Challans, à 40 km, est à 860 € et 2 637 €, Écoles 7,7 et Sécurité 8,3. Ce que les Sables apportent en plus, c'est la mer, pas l'école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Les Sables-d'Olonne conviennent aux familles qui veulent la mer au quotidien, la sécurité et la nature, et qui ont un budget à 372 000 € pour 80 m² ou 1 050 € de loyer. Les familles qui cherchent d'abord de l'espace pour le prix, ou une ville avec beaucoup d'enfants, gagneront à regarder La Roche-sur-Yon, à 33 km.",
+      },
+    ],
+    relatedCities: ["les-sables-d-olonne", "la-roche-sur-yon", "challans", "la-rochelle"],
+    relatedGuides: [
+      "retraite-a-les-sables-d-olonne-2026",
+      "parent-solo-a-les-sables-d-olonne-2026",
+      "vacances-monoparentales-les-sables-d-olonne-2026",
+    ],
+    tags: ["famille Les Sables-d'Olonne 2026", "vivre en famille Les Sables-d'Olonne", "loyer T3 Les Sables-d'Olonne", "écoles Les Sables-d'Olonne", "Les Sables-d'Olonne avec enfants"],
+  },
+  {
+    slug: "famille-a-anglet-2026",
+    title: "Famille à Anglet en 2026 : Écoles 8,7 et 11 plages, mais 5 188 € le m² et un Coût noté 4,5",
+    metaTitle: "Famille à Anglet 2026 : T3 1 200 €, 5 188 €/m², Écoles 8,7",
+    metaDesc: "Famille à Anglet : T3 à 1 200 €, appartements à 5 188 €/m², Écoles 8,7, Sécurité 7,2, Coût 4,5. Plages, forêt, comparaison avec Bayonne et Biarritz.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Anglet note Écoles 8,7 (rang 15 sur 593) et Vie quotidienne 8,7 (rang 13), mais le Coût n'est que de 4,5 (rang 453) : le T3 est à 1 200 € (notre estimation des loyers) et l'appartement à 5 188 € le m². Sur 42 288 habitants, 11,7 % ont moins de 15 ans et 37,3 % ont 60 ans ou plus. Pour une famille, la question n'est pas la qualité, c'est le prix d'entrée.",
+    sections: [
+      {
+        heading: "Quel budget logement à Anglet ?",
+        body: "Le T3 est à 1 200 €, le T2 à 890 €. L'appartement se vend 5 188 € le m² (1 047 ventes en 2024-2025, DVF) et la maison 6 719 € (398 ventes), 30 % de plus. Un appartement de 80 m² au prix médian coûte environ 415 000 €, hors frais. La maison est hors de portée de la plupart des budgets familiaux locaux.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 25 060 € par unité de consommation (Insee, Filosofi 2021), avec 10 % de pauvreté. La population a progressé de 9,4 % depuis 2016, un rythme soutenu. Les moins de 15 ans pèsent 11,7 % et les 60 ans et plus 37,3 % : Anglet attire d'abord des ménages aisés et des retraités, ce qui se voit dans le marché du logement.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 8,7 (rang 15, 15 villes à égalité), Sécurité 7,2 (rang 116, 5 à égalité), Nature 7,8 (rang 40, 42 à égalité), Transports 7,7 (rang 59), Télétravail 7,5 (rang 39), Coût 4,5 (rang 453, 10 à égalité). C'est un profil à deux vitesses : très haut sur la qualité de vie et l'école, bas sur le coût. Le dossier de la famille se joue donc sur le budget, pas sur le quartier.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "Anglet compte onze plages reliées par une promenade littorale qui va de la Petite Chambre d'Amour jusqu'à la Barre, la Chambre d'Amour étant la plus connue. La forêt du Pignada, aussi appelée forêt de Chiberta, couvre plus de 200 hectares de pins maritimes au nord de la ville. D'après OpenStreetMap, le parc du Maharin (6 hectares) et le parc Belay ont une aire de jeux.",
+      },
+      {
+        heading: "Anglet face à Bayonne et Biarritz",
+        body: "Bayonne, à 4 km, loue le même T3 1 200 € mais vend l'appartement 4 039 € le m², soit 1 149 € de moins, avec Écoles 7,0 et Sécurité 5,9. Biarritz, à 3 km, est à 1 400 € et 7 150 €, Écoles 6,6. Dax, à 46 km, est à 780 € et 2 538 €. À loyer égal, Bayonne coûte nettement moins cher à l'achat qu'Anglet, pour 1,7 point d'école en moins.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Anglet convient aux familles à budget confortable qui veulent la plage, la forêt et une école notée 8,7. Celles qui cherchent à acheter sous 400 000 € pour 80 m² regarderont Bayonne, à 4 km, ou louer à Anglet en attendant. Celles qui veulent un loyer sous 1 000 € devront sortir de l'agglomération.",
+      },
+    ],
+    relatedCities: ["anglet", "bayonne", "biarritz", "dax"],
+    relatedGuides: [
+      "retraite-a-anglet-2026",
+      "10-choses-a-faire-a-anglet-2026",
+      "parent-solo-a-anglet-2026",
+    ],
+    tags: ["famille Anglet 2026", "vivre en famille Anglet", "loyer T3 Anglet", "écoles Anglet", "Anglet avec enfants"],
+  },
+  {
+    slug: "famille-a-saint-germain-en-laye-2026",
+    title: "Famille à Saint-Germain-en-Laye en 2026 : Écoles 9,0 (rang 1), mais un T3 à 1 600 € et 6 429 € le m²",
+    metaTitle: "Famille à Saint-Germain-en-Laye 2026 : T3 1 600 €, Écoles 9,0",
+    metaDesc: "Famille à Saint-Germain-en-Laye : Écoles 9,0, T3 à 1 600 €, appartements à 6 429 €/m², RER A. Budget et comparaison avec Poissy et Rueil-Malmaison.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Saint-Germain-en-Laye obtient Écoles 9,0, la meilleure note de notre base (rang 1 sur 593, 13 villes à égalité), mais le Coût n'est que de 2,2 (rang 570) : le T3 est à 1 600 € (notre estimation des loyers) et l'appartement à 6 429 € le m². La ville de 45 286 habitants compte 19,3 % d'enfants de moins de 15 ans, le taux le plus élevé des six guides de ce lot.",
+    sections: [
+      {
+        heading: "Quel budget logement à Saint-Germain-en-Laye ?",
+        body: "Le T3 est à 1 600 €, le T2 à 1 150 €. L'appartement se vend 6 429 € le m² (845 ventes en 2024-2025, DVF) et la maison 7 058 € (153 ventes), 10 % de plus. Un appartement de 80 m² au prix médian coûte environ 514 000 €, hors frais. L'écart entre appartement et maison est faible : le marché est cher partout.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 33 250 € par unité de consommation (Insee, Filosofi 2021), avec 9 % de pauvreté. La population a progressé de 2,9 % depuis 2016. 19,3 % des habitants ont moins de 15 ans et 23,6 % ont 60 ans ou plus : c'est une ville de familles installées, où l'école de quartier pèse dans les décisions d'achat.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 9,0 (rang 1, 13 à égalité), Transports 8,4 (rang 28, 14 à égalité), Télétravail 8,3 (rang 29), Culture 7,6 (rang 59), Sécurité 6,5 (rang 151, 26 à égalité), Nature 5,9 (rang 245) et Coût 2,2 (rang 570, 24 à égalité). L'école et le réseau de transport sont très hauts ; le coût est l'un des plus mauvais, ce qui résume le choix.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "Le château abrite le musée d'Archéologie nationale, à quelques minutes à pied de la gare RER A ; le Domaine national (31 hectares, aire de jeux d'après OpenStreetMap) et ses forêts voisines (parc forestier du Champs Millet, 27 hectares) servent de terrain de jeu. Le RER A dessert la ville, ce qui relie les enfants plus grands au reste de l'Île-de-France sans voiture.",
+      },
+      {
+        heading: "Saint-Germain-en-Laye face à Poissy et Rueil-Malmaison",
+        body: "Poissy, à 5 km, loue le T3 1 280 € et vend l'appartement 3 648 € le m², soit 2 781 € de moins, avec Écoles 4,9 et Sécurité 4,5. Rueil-Malmaison, à 7 km, est à 1 600 € et 5 478 €, Écoles 9,0, Sécurité 7,2. Maisons-Laffitte est à 1 400 € et 5 456 €, Écoles 5,5. Poissy coûte 320 € de loyer en moins mais perd 4,1 points d'école ; seule Rueil tient la même note.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Saint-Germain-en-Laye convient aux familles qui placent l'école d'abord et qui ont un budget de 514 000 € pour 80 m² ou 1 600 € de loyer pour un T3. Celles qui veulent rester en Yvelines à moindre prix regarderont Poissy ou Sartrouville, en acceptant un score Écoles plus bas de 4,1 points.",
+      },
+    ],
+    relatedCities: ["saint-germain-en-laye", "poissy", "rueil-malmaison", "maisons-laffitte"],
+    relatedGuides: [
+      "famille-a-rueil-malmaison-2026",
+      "10-choses-a-faire-a-saint-germain-en-laye-2026",
+      "parent-solo-a-saint-germain-en-laye-2026",
+    ],
+    tags: ["famille Saint-Germain-en-Laye 2026", "vivre en famille Saint-Germain-en-Laye", "loyer T3 Saint-Germain-en-Laye", "écoles Saint-Germain-en-Laye", "Saint-Germain-en-Laye avec enfants"],
+  },
+  {
+    slug: "famille-a-arras-2026",
+    title: "Famille à Arras en 2026 : un T3 à 720 €, 2 450 € le m², mais Nature 4,2 et 25 % de pauvreté",
+    metaTitle: "Famille à Arras 2026 : T3 720 €, 2 450 €/m², Écoles 6,6",
+    metaDesc: "Famille à Arras : T3 à 720 €, appartements à 2 450 €/m², Écoles 6,6, Sécurité 5,3, Nature 4,2. Budget, lieux et comparaison avec Lens, Douai, Cambrai.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Arras loue un T3 720 € (notre estimation des loyers) et vend l'appartement 2 450 € le m², avec Écoles 6,6 (rang 105 sur 593) et Culture 7,3 (rang 83). Les points faibles : Nature 4,2 (rang 463) et Sécurité 5,3 (rang 306). Sur 42 621 habitants, 17,1 % ont moins de 15 ans, et la ville a gagné 4,2 % depuis 2016.",
+    sections: [
+      {
+        heading: "Quel budget logement à Arras ?",
+        body: "Le T3 est à 720 €, le T2 à 540 €. L'appartement se vend 2 450 € le m² (549 ventes en 2024-2025, DVF) et la maison 1 949 € (467 ventes) : ici la maison est 20 % moins chère au m² que l'appartement. Un appartement de 80 m² au prix médian coûte environ 196 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 20 230 € par unité de consommation (Insee, Filosofi 2021), avec 25 % de pauvreté. La population a progressé de 4,2 % depuis 2016. 17,1 % des habitants ont moins de 15 ans et 22,4 % ont 60 ans ou plus.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 6,6 (rang 105, 110 à égalité), Culture 7,3 (rang 83, 19 à égalité), Transports 6,1 (rang 281), Coût 6,2 (rang 226), Sécurité 5,3 (rang 306, 11 à égalité) et Nature 4,2 (rang 463, 14 à égalité). L'école est dans la moyenne haute et la culture bien notée ; le manque de nature est le vrai point à peser pour des enfants.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "Le centre historique, avec la Grand'Place et la place des Héros, la citadelle de Vauban (inscrite à l'Unesco en 2008) et le beffroi, également classé, offre un cadre piéton. La Carrière Wellington, creusée par des sapeurs néo-zélandais en 1916-1917, se visite. Côté espaces verts, d'après OpenStreetMap, l'espace vert des Hautes-Fontaines (8 hectares) et le jardin des Allées ont l'essentiel, sans grand parc.",
+      },
+      {
+        heading: "Arras face à Lens, Douai et Cambrai",
+        body: "Lens, à 16 km, loue le T3 590 € et vend l'appartement 1 666 € le m², Écoles 4,5 et 32 % de pauvreté. Douai, à 23 km, est à 670 € et 1 561 €, Écoles 5,8. Cambrai, à 35 km, est à 640 € et 1 714 €, Écoles 6,6. Arras coûte 784 € de plus au m² que Lens pour 2,1 points d'école en plus ; seule Cambrai tient la même note, pour 80 € de loyer en moins.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Arras convient aux familles qui cherchent une ville au patrimoine très présent, un loyer sous 750 € et une école dans la moyenne haute, sans attendre beaucoup de nature. Celles qui veulent plus de verdure ou un budget plus bas regarderont Cambrai ; celles qui visent le plus haut score scolaire devront sortir de la région.",
+      },
+    ],
+    relatedCities: ["arras", "lens", "douai", "cambrai"],
+    relatedGuides: [
+      "10-choses-a-faire-a-arras-2026",
+      "parent-solo-a-arras-2026",
+      "etudiant-a-arras-2026",
+    ],
+    tags: ["famille Arras 2026", "vivre en famille Arras", "loyer T3 Arras", "écoles Arras", "Arras avec enfants"],
+  },
+  {
+    slug: "famille-a-bourg-en-bresse-2026",
+    title: "Famille à Bourg-en-Bresse en 2026 : un T3 à 840 €, 1 866 € le m², Écoles 6,6 et un parc de 61 hectares",
+    metaTitle: "Famille à Bourg-en-Bresse 2026 : T3 840 €, 1 866 €/m²",
+    metaDesc: "Famille à Bourg-en-Bresse : T3 à 840 €, appartements à 1 866 €/m², Écoles 6,6, Sécurité 5,5. Budget, parc de Bouvent et comparaison avec Mâcon et Villefranche.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Bourg-en-Bresse loue un T3 840 € (notre estimation des loyers) et vend l'appartement 1 866 € le m², avec Écoles 6,6 (rang 105 sur 593) et Sécurité 5,5 (rang 275). Sur 42 065 habitants, 16,2 % ont moins de 15 ans. Le budget reste très en dessous de celui des grandes villes de la région.",
+    sections: [
+      {
+        heading: "Quel budget logement à Bourg-en-Bresse ?",
+        body: "Le T3 est à 840 €, le T2 à 630 €. L'appartement se vend 1 866 € le m² (868 ventes en 2024-2025, DVF) et la maison 2 267 € (237 ventes), 21 % de plus. Un appartement de 80 m² au prix médian coûte environ 149 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 20 210 € par unité de consommation (Insee, Filosofi 2021), avec 24 % de pauvreté. La population a progressé de 1,7 % depuis 2016. 16,2 % des habitants ont moins de 15 ans et 28,3 % ont 60 ans ou plus : la ville vieillit lentement mais garde une base de familles.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 6,6 (rang 105, 110 à égalité), Sécurité 5,5 (rang 275, 25 à égalité), Transports 6,7 (rang 185), Nature 6,1 (rang 235), Coût 5,9 (rang 257) et Télétravail 5,1 (rang 342). Le profil est équilibré, sans point fort marqué : une ville où l'on choisit le quartier et l'école avec soin plutôt qu'au score global.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "D'après OpenStreetMap, le parc de loisirs de Bouvent (61 hectares, aire de jeux) et le parc des Baudières (12 hectares) sont les grands espaces de la ville ; le parc Colette Besson et le parc Jean Monnet ont aussi des jeux. Le monastère royal de Brou, chef-d'œuvre gothique flamboyant bâti entre 1506 et 1532, abrite le musée de la ville.",
+      },
+      {
+        heading: "Bourg-en-Bresse face à Mâcon, Oyonnax et Villefranche-sur-Saône",
+        body: "Mâcon, à 33 km, loue le T3 800 € et vend à 1 659 € le m², Écoles 6,2. Oyonnax, à 33 km, est à 800 € et 1 364 €, Écoles 6,6. Villefranche-sur-Saône, à 46 km, est à 1 070 € et 2 439 €, avec Écoles 8,7. Villefranche vaut 573 € de plus au m² et 230 € de loyer de plus pour 2,1 points d'école en plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Bourg-en-Bresse convient aux familles qui veulent acheter 80 m² autour de 149 000 € dans une préfecture avec parcs et patrimoine. Celles qui placent l'école au-dessus du budget iront vers Villefranche-sur-Saône, à 46 km ; celles qui veulent le prix le plus bas pourront regarder Oyonnax, à 33 km.",
+      },
+    ],
+    relatedCities: ["bourg-en-bresse", "macon", "oyonnax", "villefranche-sur-saone"],
+    relatedGuides: [
+      "10-choses-a-faire-a-bourg-en-bresse-2026",
+      "parent-solo-a-bourg-en-bresse-2026",
+      "vacances-celibataire-bourg-en-bresse-2026",
+    ],
+    tags: ["famille Bourg-en-Bresse 2026", "vivre en famille Bourg-en-Bresse", "loyer T3 Bourg-en-Bresse", "écoles Bourg-en-Bresse", "Bourg-en-Bresse avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
