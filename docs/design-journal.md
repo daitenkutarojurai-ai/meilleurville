@@ -1724,3 +1724,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
 2. Pages `/methode` (FR) + EN `/methodology`.
 3. Hub `/comparer` (FR) + EN `/compare`.
+
+## 2026-11-20 ~03:00 UTC — pages méthodologie (FR `/methode` + EN `/methodology`)
+
+**Surface** : gabarit des deux pages méthode. Avant : FR — hero sur `AmbientBackground`, toutes les sections dans un seul conteneur (une seule bande), cartes `Card` à filet gris, tableaux `glass` à en-tête gris, coches `emerald-600` et puces `amber-400` (couleurs de palier en décoration), CTA blanc à liseré ; EN — un seul bloc blanc de listes à puces « · ».
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` 🔍 + titre `.gradient-text` + pilules pastel ; FR — 8 sections : principes `band-indigo` (pastilles d'icône `grad-head-*`), formule `band-sky` (bandeau `grad-head-0`), calibration `band-pink` (bandeaux Étape 1/2 `grad-head-5`/`-4`, exemples en encarts teintés), sources `band-aqua` (en-tête `grad-head-0`, poids en pilules indigo, coches cyan), profils propriétaires `band-lilac` (en-tête `grad-head-4`, clés en étiquettes lilas), limites `band-indigo` (6 cartes numérotées), CTA `band-bold`. EN — 7 sections : axes en cartes à emoji (`band-indigo`), pipeline en 3 cartes à bandeau (`band-sky`), score global (`band-pink`, puces numérotées), sources (`band-aqua`), « don't do » (`band-lilac`), liens en `band-bold`. Copie inchangée.
+
+**Fichiers** : `app/methode/page.tsx`, `app/[locale]/methodology/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 2 fichiers : 0 problème. Captures playwright `/methode` et `/en/methodology` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Info-bulle de survol de `FranceHeatmap` (`glass-strong`).
+2. `components/StaticPageCrossLink.tsx` (encore blanc à filet gris, bas de toutes les pages statiques).
+3. Hub `/comparer` (FR) + EN `/compare`.
