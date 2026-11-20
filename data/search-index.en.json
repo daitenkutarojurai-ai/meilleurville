@@ -6252,6 +6252,36 @@
       "emoji": "🚌"
     },
     {
+      "slug": "car-free-living-in-roubaix-2026",
+      "title": "Car-Free Living in Roubaix 2026: Metro Line 2 to Lille and a €520 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-tourcoing-2026",
+      "title": "Car-Free Living in Tourcoing 2026: End of Metro Line 2 and a €550 T2",
+      "emoji": "🚊"
+    },
+    {
+      "slug": "car-free-living-in-merignac-2026",
+      "title": "Car-Free Living in Mérignac 2026: Tram A to the Airport and an €800 T2",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-saint-herblain-2026",
+      "title": "Car-Free Living in Saint-Herblain 2026: Tram 1 and a €670 T2",
+      "emoji": "🚋"
+    },
+    {
+      "slug": "car-free-living-in-annemasse-2026",
+      "title": "Car-Free Living in Annemasse 2026: Léman Express, Tram 17 and a €1,000 T2",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "car-free-living-in-saint-martin-d-heres-2026",
+      "title": "Car-Free Living in Saint-Martin-d'Hères 2026: Trams B, C, D and a €670 T2",
+      "emoji": "🚋"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -12101,6 +12131,11 @@
     {
       "slug": "buying-property-in-france",
       "label": "buying property in france",
+      "count": 3
+    },
+    {
+      "slug": "car-free-nouvelle-aquitaine-2026",
+      "label": "car-free Nouvelle-Aquitaine 2026",
       "count": 3
     },
     {

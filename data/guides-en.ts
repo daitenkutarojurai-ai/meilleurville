@@ -20853,6 +20853,246 @@ export const EN_GUIDES: EnGuide[] = [
     relatedCities: ["poitiers","tours","limoges"],
     tags: ["car-free Poitiers","Vitalis Poitiers","Poitiers TGV","Vienne transport","car-free Nouvelle-Aquitaine 2026"],
   },
+  {
+    slug: "car-free-living-in-roubaix-2026",
+    title: "Car-Free Living in Roubaix 2026: Metro Line 2 to Lille and a €520 T2",
+    metaTitle: "Car-Free Living in Roubaix 2026: Metro, Rents, Lille",
+    metaDesc: "In Roubaix, Lille metro line 2 makes a car optional, with a T2 at €520. Transport score 7.7/10. Compared with Lille and Tourcoing.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Roubaix works without a car: line 2 of the Lille metro runs through the city, with a Gare Jean Lebas station, and a two-room flat (T2) is €520 a month on our rent estimate, against €800 in Lille. Our transport score is 7.7/10, ranked 59th of 593 in a tie with 36 other cities.",
+    sections: [
+      {
+        heading: "Which network lets you skip the car in Roubaix?",
+        body: "Roubaix is served by Lille metro line 2, which links Saint-Philibert (Lomme) to CH Dron (Tourcoing) via Roubaix Grand Place and Gare Jean Lebas. The Mongy tramway completes the metro towards Tourcoing and Lille. The network is run by Ilévia: fares and timetables change, so check the official website.",
+      },
+      {
+        heading: "How much is rent in Roubaix?",
+        body: "Our rent estimate gives €380 a month for a studio, €520 for a T2 and €700 for a T3 (three rooms). Lille's T2 is €800: €280 less in Roubaix, or €3,360 a year. The median apartment price is €1,931 per m² across 475 sales in 2024-2025 (source: our price page, DVF notarial sales), against €3,705 in Lille.",
+      },
+      {
+        heading: "What does the demographic profile look like?",
+        body: "Roubaix had 99,507 inhabitants in 2022, up 3.2% since 2016 (source: INSEE, 2022 census). Under-15s make up 24.9% of the population and people aged 60 and over 16.4%. Median living standard is €14,580 a year and the poverty rate 46% (source: INSEE, Filosofi 2021): without a car, transport weighs heavily on many household budgets.",
+      },
+      {
+        heading: "Roubaix or Lille?",
+        body: "Lille scores 8.7/10 on transport against 7.7/10 for Roubaix, with a T2 at €800 against €520. On safety, Roubaix scores 2.2/10: look at it street by street before signing. Cost of living is rated 6.3/10. Staying in Roubaix and taking the metro means accepting a commute to Lille in exchange for rents more than a third lower.",
+      },
+      {
+        heading: "What are the limits of going car-free?",
+        body: "Like any metro, line 2 stops running early in the evening: check the last departures. Business parks on the outskirts are harder to reach than the centre. Our nature score is 2.2/10, so green outings need a trip.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student or young professional working in Lille: the €520 T2 and line 2 give a real rent saving. Employee in the metropolitan area: the metro replaces the car if the job is on the line. Family: the €700 T3 is readable, but schools score 2.2/10 and deserve a close look. Retiree: the metro is an asset, but safety at 2.2/10 calls for a visit.",
+      },
+    ],
+    relatedCities: ["roubaix","lille","tourcoing"],
+    tags: ["car-free Roubaix","Roubaix metro","Lille metro line 2","Nord transport","car-free Hauts-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-tourcoing-2026",
+    title: "Car-Free Living in Tourcoing 2026: End of Metro Line 2 and a €550 T2",
+    metaTitle: "Car-Free Living in Tourcoing 2026: Metro 2, €550 T2",
+    metaDesc: "In Tourcoing, metro line 2 ends at CH Dron and a T2 costs €550. Transport score 7.7/10. Compared with Roubaix and Lille, for car-free living.",
+    category: "lifestyle",
+    emoji: "🚊",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "In Tourcoing the car is optional if you work along the metro: line 2 ends here at CH Dron, and the Tourcoing station sits on the route. A two-room flat (T2) is €550 a month on our rent estimate, €250 less than in Lille. Transport score: 7.7/10, ranked 59th of 593 in a tie with 36 other cities.",
+    sections: [
+      {
+        heading: "Where do the metro and tramway stop in Tourcoing?",
+        body: "Coming from Roubaix, line 2 runs through Alsace, Mercure, Carliers and Tourcoing station before the CH Dron terminus, next to the Gustave-Dron hospital. The Lille tramway, the Mongy, also serves the town. Stations are run by Ilévia: check frequencies and last departures on its website.",
+      },
+      {
+        heading: "What housing budget goes with a car-free life?",
+        body: "Our rent estimate gives €400 a month for a studio, €550 for a T2 and €740 for a T3 (three rooms). In Roubaix the T2 is €520: €30 less. The median apartment price is €1,739 per m² across 805 sales in 2024-2025 (source: our price page, DVF notarial sales). Lille is at €3,705 per m², €1,966 more.",
+      },
+      {
+        heading: "Who lives in Tourcoing?",
+        body: "Tourcoing had 99,160 inhabitants in 2022, up 1.7% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 21.3% of the population and those 60 and over 18.5%. Median living standard is €18,300 a year, with 29% poverty (source: INSEE, Filosofi 2021), against €14,580 and 46% in Roubaix.",
+      },
+      {
+        heading: "Tourcoing, Roubaix or Lille?",
+        body: "Lille scores 8.7/10 on transport, Tourcoing and Roubaix 7.7/10 each. A T2 there is €800 against €550: a gap of €3,000 a year. On safety, Tourcoing scores 2.6/10 against 2.2/10 in Roubaix; schools score 2.8/10. What separates it from Roubaix is mostly a clearly higher median living standard.",
+      },
+      {
+        heading: "What are the limits of going car-free in Tourcoing?",
+        body: "Both towns sit close to the Belgian border, but the network is not the same on the other side: a cross-border trip needs a connection check. Our nature score is 2.2/10, so green spaces mean transit or a bike ride. Frequencies drop in the evening.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Worker in the metropolitan area: the €550 T2 and line 2 are the heart of the case. Hospital staff: the CH Dron terminus is at the foot of the site. Student: a €400 studio with line 2 to Lille. Family or retiree: look at schools at 2.8/10 and safety at 2.6/10 before choosing a neighbourhood.",
+      },
+    ],
+    relatedCities: ["tourcoing","roubaix","lille"],
+    tags: ["car-free Tourcoing","Tourcoing metro","CH Dron metro","Mongy tramway Lille","car-free Nord 2026"],
+  },
+  {
+    slug: "car-free-living-in-merignac-2026",
+    title: "Car-Free Living in Mérignac 2026: Tram A to the Airport and an €800 T2",
+    metaTitle: "Car-Free Living in Mérignac 2026: Tram A, Airport, Rents",
+    metaDesc: "In Mérignac, tram A reaches Bordeaux and the airport since 2023, with a T2 at €800. Transport score 7.7/10. Compared with Bordeaux.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Mérignac works without a car along tram A, extended to the airport in April 2023. A two-room flat (T2) is €800 a month on our rent estimate, €100 less than in Bordeaux. Our transport score is 7.7/10, ranked 59th of 593 in a tie with 36 other cities.",
+    sections: [
+      {
+        heading: "What does tram A serve in Mérignac?",
+        body: "Tram A in Bordeaux Métropole crosses Mérignac: Mérignac Centre was its terminus from 2007 to 2015, before an extension to Le Haillan Rostand. Since 29 April 2023 a second 5 km extension has added five stops (Mérignac Soleil, Chemin Long, Cadera-Issartier, Caroline Aigle and Aéroport). The network is run by Keolis for the metropolis; Liane 1 now stops at Mérignac Centre.",
+      },
+      {
+        heading: "How much does housing cost in Mérignac?",
+        body: "Our rent estimate gives €580 a month for a studio, €800 for a T2 and €1,080 for a T3 (three rooms), against €900 for a T2 in Bordeaux: €1,200 a year saved. The median apartment price is €3,439 per m² across 1,320 sales in 2024-2025 (source: our price page, DVF notarial sales). Bordeaux is at €4,171, which is €732 more: on 50 m², €36,600.",
+      },
+      {
+        heading: "A growing commune",
+        body: "Mérignac had 77,136 inhabitants in 2022, up 9.7% since 2016 (source: INSEE, 2022 census): growth followed the tram. Under-15s make up 16.1% of the population and people 60 and over 22.7%. Median living standard is €24,770 a year, with 12% poverty (source: INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Mérignac or Bordeaux?",
+        body: "Bordeaux scores 7.8/10 on transport, Mérignac 7.7/10: the gap is thin. The central city has culture (8.4/10 against 4.8/10 in Mérignac); Mérignac has the lower rent and remote work at 6.3/10. Cost of living there is rated 4.0/10 and safety 4.7/10.",
+      },
+      {
+        heading: "What are the limits of the tram in Mérignac?",
+        body: "The commune is sprawling: neighbourhoods away from the line and the business parks around the airport are reached by bus or bike, with lower frequencies. Check the last evening departures on the official website. Nature outings need a trip (4.3/10).",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Airport or aerospace employee: tram A makes the car optional. Working couple: the €800 T2 with a direct tram to Bordeaux is a readable compromise. Family: €1,080 T3, schools 5.5/10. Retiree: 22.7% of residents are 60 or over and the tram is close, but cost of living at 4.0/10 weighs.",
+      },
+    ],
+    relatedCities: ["merignac","bordeaux","pessac"],
+    tags: ["car-free Mérignac","tram A Mérignac","Bordeaux airport tram","Gironde transport","car-free Nouvelle-Aquitaine 2026"],
+  },
+  {
+    slug: "car-free-living-in-saint-herblain-2026",
+    title: "Car-Free Living in Saint-Herblain 2026: Tram 1 and a €670 T2",
+    metaTitle: "Car-Free Living in Saint-Herblain 2026: Tram 1, Rents",
+    metaDesc: "In Saint-Herblain, tram 1 links Atlantis to Nantes and a T2 costs €670. Transport score 7.7/10. Compared with Nantes, for car-free living.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Saint-Herblain works without a car along Nantes tram line 1, which ends here at François-Mitterrand. A two-room flat (T2) is €670 a month on our rent estimate, €180 less than in Nantes. Our transport score is 7.7/10, ranked 59th of 593 in a tie with 36 other cities.",
+    sections: [
+      {
+        heading: "How does tram 1 serve Saint-Herblain?",
+        body: "Line 1 links Haluchère, east of Nantes, to François-Mitterrand on the Saint-Herblain side, where it has served the Atlantis shopping zone since 2000. The terminus is also the planned terminus of the future line 7. The Naolib network had track renovation work in 2026: check the official website for current status and timetables.",
+      },
+      {
+        heading: "What is rent in Saint-Herblain compared with Nantes?",
+        body: "Our rent estimate gives €480 a month for a studio, €670 for a T2 and €900 for a T3 (three rooms). In Nantes the T2 is €850: €2,160 a year saved. The median apartment price is €2,567 per m² across 902 sales in 2024-2025 (source: our price page, DVF notarial sales), against €3,413 in Nantes: €846 less, or €42,300 on 50 m².",
+      },
+      {
+        heading: "A suburban profile",
+        body: "Saint-Herblain had 50,561 inhabitants in 2022, up 8.5% since 2016 (source: INSEE, 2022 census). Under-15s make up 18.2% of the population and people 60 and over 23.5%. Median living standard is €23,000 a year, with 16% poverty (source: INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Saint-Herblain or Nantes?",
+        body: "Nantes scores 8.1/10 on transport against 7.7/10 for Saint-Herblain. Remote work is 5.8/10 against 9.0/10 in Nantes, culture 4.8/10 against 7.8/10. In exchange: a €670 T2 and a direct tram. Safety 4.5/10, cost of living 4.4/10, nature 4.3/10.",
+      },
+      {
+        heading: "Where does the car take over again?",
+        body: "Atlantis is served, but business parks and neighbourhoods away from line 1 need a bus or a bike. Evenings and weekends have lower frequencies. Nature (4.3/10) is to be found outside the commune.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Worker in Nantes: the €670 T2 and a direct tram to the centre are the main draw. Family: €900 T3, schools 5.5/10. Retiree: 23.5% of residents are 60 or over, with shops reachable at Atlantis. Student: the €480 studio stays readable with the tram.",
+      },
+    ],
+    relatedCities: ["saint-herblain","nantes","reze"],
+    tags: ["car-free Saint-Herblain","Nantes tram 1","Atlantis Saint-Herblain","Loire-Atlantique transport","car-free Pays de la Loire 2026"],
+  },
+  {
+    slug: "car-free-living-in-annemasse-2026",
+    title: "Car-Free Living in Annemasse 2026: Léman Express, Tram 17 and a €1,000 T2",
+    metaTitle: "Car-Free Living in Annemasse 2026: Léman Express, Rents",
+    metaDesc: "In Annemasse, the Léman Express and tram 17 make a car optional, with a T2 at €1,000. Transport score 9.0/10. Compared with Annecy.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Annemasse is one of the best-rated cities on our site for going without a car: 9.0/10 on transport, ranked 1st of 593 in a tie with 22 other cities. The station on the Léman Express and tram 17 towards Geneva make a car optional; a two-room flat (T2) is €1,000 a month on our rent estimate.",
+    sections: [
+      {
+        heading: "How do you get from Annemasse to Geneva without a car?",
+        body: "Annemasse is linked to Geneva by the Léman Express, the cross-border rail network opened in December 2019: sources give about twenty minutes to Genève-Cornavin. Tram 17 links Annemasse (Parc Montessuit) to Lancy-Pont-Rouge, also a Léman Express station, since the same date. Fares and frequencies change: check the official transport websites.",
+      },
+      {
+        heading: "How much does housing cost in Annemasse?",
+        body: "Our rent estimate gives €720 a month for a studio, €1,000 for a T2 and €1,350 for a T3 (three rooms). The median apartment price is €3,506 per m² across 1,125 sales in 2024-2025 (source: our price page, DVF notarial sales). Annecy is at €5,092, which is €1,586 more: on 50 m², €79,300.",
+      },
+      {
+        heading: "A growing city with little poverty",
+        body: "Annemasse had 37,595 inhabitants in 2022, up 7.3% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 21.1% of the population and those 60 and over 16.9%. Median living standard is €22,800 a year, with 22% poverty (source: INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Annemasse or Annecy?",
+        body: "Annecy scores 6.4/10 on transport against 9.0/10 for Annemasse, but sits at €5,092 per m². A T2 there is €1,100: €100 more a month, €1,200 a year. Annecy keeps nature (8.9/10 against 6.4/10); Annemasse makes up for it with schools at 7.7/10, safety 6.8/10 and remote work 7.5/10.",
+      },
+      {
+        heading: "What are the limits of going car-free in Annemasse?",
+        body: "Cost of living is rated 3.4/10 on our city profile: skipping the car does not lower the rent. The Léman Express has its timetables, rush hours and incidents; check the last evening train. Neighbouring communes without a Léman Express station stay more car-dependent.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Cross-border commuter or Geneva worker: station and tram within reach make a car pointless; the €1,000 T2 is the real trade-off. Family: €1,350 T3, schools 7.7/10. Retiree: safety 6.8/10 and services within walking distance. Student: a €720 studio needs a budget other cities do not ask for.",
+      },
+    ],
+    relatedCities: ["annemasse","annecy","thonon-les-bains"],
+    tags: ["car-free Annemasse","Léman Express Annemasse","tram 17 Annemasse Geneva","Haute-Savoie transport","car-free Auvergne-Rhône-Alpes 2026"],
+  },
+  {
+    slug: "car-free-living-in-saint-martin-d-heres-2026",
+    title: "Car-Free Living in Saint-Martin-d'Hères 2026: Trams B, C, D and a €670 T2",
+    metaTitle: "Car-Free Living in Saint-Martin-d'Hères 2026: Trams, T2",
+    metaDesc: "In Saint-Martin-d'Hères, three tram lines serve the Grenoble campus and a T2 costs €670. Transport score 8.4/10. Compared with Grenoble.",
+    category: "lifestyle",
+    emoji: "🚋",
+    readMinutes: 6,
+    publishedAt: "2026-11-20",
+    updatedAt: "2026-11-20",
+    intro: "Saint-Martin-d'Hères works without a car thanks to a campus served by several Grenoble tram lines, and a two-room flat (T2) is €670 a month on our rent estimate, €80 less than in Grenoble. Our transport score is 8.4/10, ranked 28th of 593 in a tie with 13 other cities, ahead of Grenoble (8.1/10).",
+    sections: [
+      {
+        heading: "Which tram lines serve Saint-Martin-d'Hères?",
+        body: "The Bibliothèques universitaires stop is served by lines B and C: the university lists line B from Grenoble station to that stop. Line D serves another campus stop, Les Taillées - Universités. Timetables and disruptions change: check the network website.",
+      },
+      {
+        heading: "What is the housing budget compared with Grenoble?",
+        body: "Our rent estimate gives €480 a month for a studio, €670 for a T2 and €900 for a T3 (three rooms). In Grenoble a studio is €560 and a T2 €750: €960 a year saved on a T2. The median apartment price is €2,183 per m² across 623 sales in 2024-2025 (source: our price page, DVF notarial sales), against €2,500 in Grenoble.",
+      },
+      {
+        heading: "A student town",
+        body: "Saint-Martin-d'Hères had 38,022 inhabitants in 2022, down 1.6% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 35.2% of the population, the highest share in this batch; under-15s are 15.3%. Median living standard is €21,160 a year, with 19% poverty (source: INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "Saint-Martin-d'Hères or Grenoble?",
+        body: "Grenoble scores 8.1/10 on transport against 8.4/10 here, but its culture is 6.9/10 against 5.7/10 and its schools 9.0/10 against 6.2/10. Purchase price gaps are modest: €317 per m², or €15,850 on 50 m². Safety at 4.5/10 and cost of living at 4.8/10 are worth reading before choosing.",
+      },
+      {
+        heading: "What are the limits of going car-free?",
+        body: "The population fell over the period, a sign of a commune that does not renew itself at the same pace everywhere. Neighbourhoods far from stops need a bus or a bike. Nature, rated 4.8/10, is to be found in the nearby mountains, reached by transit or car.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €480 studio and the tram on campus make the commune a solid base. Young professional: a €670 T2 with line B is good value. Family: €900 T3, schools 6.2/10, weaker than Grenoble. Retiree: the tram is an asset, but safety at 4.5/10 calls for a visit.",
+      },
+    ],
+    relatedCities: ["saint-martin-d-heres","grenoble","echirolles"],
+    tags: ["car-free Saint-Martin-d'Hères","Grenoble tram B","Grenoble campus tram","Isère transport","car-free Auvergne-Rhône-Alpes 2026"],
+  },
 
   {
     slug: "living-in-ile-de-france-2026",
