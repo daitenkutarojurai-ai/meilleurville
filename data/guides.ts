@@ -83662,6 +83662,348 @@ export const GUIDES: Guide[] = [
     relatedGuides: ["villes-acces-medecin-generaliste-apl-413-villes-2026","deserts-medicaux-france-villes-eviter-2026","meilleures-villes-sante-hopital-medecins-france-2025"],
     tags: ["urgences","hôpital","distance hôpital","déserts médicaux","accès aux soins","BPE","santé par ville","villes sans urgences","petites villes"],
   },
+  {
+    slug: "10-choses-a-faire-a-antony-2026",
+    title: "10 choses à faire à Antony",
+    metaTitle: "10 choses à faire à Antony",
+    metaDesc: "Parc de Sceaux voisin, bois de Verrières, parcs et RER B : 10 choses à faire à Antony.",
+    category: "tourisme",
+    emoji: "🌳",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Antony compte environ 63 000 habitants dans notre fiche. C'est une grande commune résidentielle des Hauts-de-Seine, au sud de Paris, collée à deux grands espaces verts. Elle n'a pas de monument phare : on y vient pour marcher, pour les parcs et pour la ligne B du RER. Ce guide dit quoi y faire, dans l'ordre où on y passe.",
+    sections: [
+      {
+        heading: "1. Le parc de Sceaux, à côté",
+        body: "Le grand parc de Sceaux, dessiné au XVIIᵉ siècle, touche la commune voisine et se rejoint à pied depuis Antony. Allées, grand canal et pelouses : c'est la meilleure raison de passer la journée dans le coin."
+      },
+      {
+        heading: "2. Le bois de Verrières",
+        body: "La forêt s'étend au sud de la commune et offre des sentiers de promenade sans quitter la banlieue. Prévoyez de bonnes chaussures après la pluie."
+      },
+      {
+        heading: "3. Le parc Heller",
+        body: "Un parc urbain dans la ville, avec des pelouses et des aires de jeux. C'est l'étape simple d'une sortie en famille."
+      },
+      {
+        heading: "4. L'église Saint-Saturnin",
+        body: "L'église du centre ancien rappelle qu'Antony était un village avant d'être une banlieue. Le centre se parcourt vite, à pied."
+      },
+      {
+        heading: "5. Le marché et le centre-ville",
+        body: "Le centre concentre commerces et terrasses. On y flâne une heure, sans plus : ce n'est pas une destination en soi."
+      },
+      {
+        heading: "6. La Bièvre et ses abords",
+        body: "La vallée de la Bièvre traverse le secteur ; ses abords arborés se prêtent à une promenade tranquille."
+      },
+      {
+        heading: "7. Le vélo dans les espaces verts",
+        body: "Entre le parc de Sceaux et le bois de Verrières, on enchaîne des sorties à vélo en restant dans la verdure."
+      },
+      {
+        heading: "8. Paris par le RER B",
+        body: "La commune est desservie par le RER B, qui rejoint le centre de Paris sans changement. C'est ce qui rend la ville utile comme base."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 450 € par mois dans notre estimation, contre 2 800 € à Paris, 1 500 € à Sceaux et 1 400 € à Montrouge. Antony convient à qui cherche du vert et un loyer plus bas qu'à Paris, avec une desserte directe par le RER."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée suffit : parc de Sceaux le matin, centre et parc Heller l'après-midi."
+      }
+    ],
+    relatedCities: ["antony","sceaux","paris","montrouge"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-sceaux-2026"],
+    tags: ["10 choses à faire à Antony","activités Antony 2026","Parc de Sceaux","bois de Verrières","que faire près de Paris"]
+  },
+  {
+    slug: "10-choses-a-faire-a-maisons-alfort-2026",
+    title: "10 choses à faire à Maisons-Alfort",
+    metaTitle: "10 choses à faire à Maisons-Alfort",
+    metaDesc: "Musée Fragonard, bords de Marne, métro 8 : 10 choses à faire à Maisons-Alfort.",
+    category: "tourisme",
+    emoji: "🦴",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Maisons-Alfort compte environ 55 000 habitants dans notre fiche. C'est une commune du Val-de-Marne, au confluent de la Seine et de la Marne, qui garde une curiosité rare : le musée d'anatomie de l'École nationale vétérinaire. Le reste est une ville résidentielle, bien desservie par le métro. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le musée Fragonard",
+        body: "Installé dans l'École nationale vétérinaire d'Alfort, ce cabinet d'anatomie conserve des préparations anatomiques anciennes, dont les célèbres écorchés. C'est la visite la plus singulière de la commune : elle n'est pas pour tout le monde, vérifiez les jours d'ouverture avant de venir."
+      },
+      {
+        heading: "2. L'École nationale vétérinaire",
+        body: "Le campus, un des plus anciens établissements vétérinaires d'Europe, s'aperçoit depuis la rue. L'accès à l'intérieur est limité, renseignez-vous avant de venir."
+      },
+      {
+        heading: "3. Les bords de Marne",
+        body: "Les berges offrent une promenade à pied ou à vélo, avec la rivière d'un côté et les maisons de l'autre. C'est la balade la plus agréable de la commune."
+      },
+      {
+        heading: "4. Le confluent Seine-Marne",
+        body: "Au nord de la ville, les deux cours d'eau se rejoignent. Le paysage est industriel et fluvial plutôt que pittoresque, mais il vaut un coup d'œil."
+      },
+      {
+        heading: "5. Le centre-ville et le marché",
+        body: "Les rues commerçantes du centre se parcourent en une heure. Pas de monument ici, de la vie de quartier."
+      },
+      {
+        heading: "6. Les parcs et squares",
+        body: "Plusieurs squares et espaces verts jalonnent la commune. Ils servent surtout aux familles qui y habitent."
+      },
+      {
+        heading: "7. Le canal et la Seine à vélo",
+        body: "Les berges de Seine et de Marne se prêtent à une sortie à vélo qui relie plusieurs communes voisines sans trafic."
+      },
+      {
+        heading: "8. Paris en métro",
+        body: "La ligne 8 dessert la commune et rejoint le centre de Paris. C'est l'atout principal de la ville comme base."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 550 € par mois dans notre estimation, contre 2 800 € à Paris, 1 800 € à Vincennes et 1 250 € à Créteil. Maisons-Alfort convient à qui veut le métro et un loyer moindre qu'à Paris ou Vincennes, sans chercher de décor."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Deux heures pour le musée, une autre pour les bords de Marne : une demi-journée suffit."
+      }
+    ],
+    relatedCities: ["maisons-alfort","paris","vincennes","creteil"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-creteil-2026"],
+    tags: ["10 choses à faire à Maisons-Alfort","activités Maisons-Alfort 2026","musée Fragonard","École vétérinaire d'Alfort","bords de Marne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-fontenay-sous-bois-2026",
+    title: "10 choses à faire à Fontenay-sous-Bois",
+    metaTitle: "10 choses à faire à Fontenay-sous-Bois",
+    metaDesc: "Bois de Vincennes voisin, château de Vincennes, RER A : 10 choses à faire à Fontenay-sous-Bois.",
+    category: "tourisme",
+    emoji: "🌲",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Fontenay-sous-Bois compte environ 53 000 habitants dans notre fiche. C'est une commune du Val-de-Marne, à l'est de Paris, contiguë au bois de Vincennes. Elle n'a pas de grand site propre : sa valeur touristique tient à ses voisins. Ce guide dit quoi y faire, et quoi visiter autour.",
+    sections: [
+      {
+        heading: "1. Le bois de Vincennes",
+        body: "Le plus grand espace vert de l'est parisien borde la commune. Lacs, pelouses et allées cyclables s'atteignent à pied depuis les quartiers de l'ouest de la ville."
+      },
+      {
+        heading: "2. Le château de Vincennes",
+        body: "La forteresse royale de Vincennes est toute proche. Son donjon est parmi les plus hauts d'Europe pour un château médiéval ; vérifiez les horaires et les tarifs avant de venir."
+      },
+      {
+        heading: "3. Le parc floral",
+        body: "Dans le bois de Vincennes, ce parc paysager est une sortie familiale classique. Les conditions d'accès varient selon la saison."
+      },
+      {
+        heading: "4. L'église Saint-Germain-de-Paris",
+        body: "L'église du vieux centre rappelle l'origine villageoise de la commune. Le quartier se parcourt vite."
+      },
+      {
+        heading: "5. Le centre-ville et le marché",
+        body: "Le marché et les rues commerçantes donnent à la ville une vraie vie de quartier. Comptez une heure."
+      },
+      {
+        heading: "6. Les promenades dans les quartiers pavillonnaires",
+        body: "L'est de la commune garde des rues de pavillons et de jardins, qui contrastent avec la densité de la petite couronne."
+      },
+      {
+        heading: "7. Vélo vers Vincennes",
+        body: "Les pistes du bois et les rues apaisées relient la commune à Vincennes et à Paris sans passer par les grands axes."
+      },
+      {
+        heading: "8. Paris par le RER A",
+        body: "Le RER A dessert la commune et rejoint le centre de Paris sans changement. Le RER E s'arrête à Val-de-Fontenay."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 620 € par mois dans notre estimation, contre 2 800 € à Paris, 1 800 € à Vincennes et 1 250 € à Créteil. Fontenay-sous-Bois convient à qui veut le bois de Vincennes à pied et un loyer sous celui de Vincennes."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée dans le bois, une autre pour le château de Vincennes : deux demi-journées couvrent le secteur."
+      }
+    ],
+    relatedCities: ["fontenay-sous-bois","vincennes","paris","creteil"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-creteil-2026"],
+    tags: ["10 choses à faire à Fontenay-sous-Bois","activités Fontenay-sous-Bois 2026","bois de Vincennes","château de Vincennes","RER A"]
+  },
+  {
+    slug: "10-choses-a-faire-a-montrouge-2026",
+    title: "10 choses à faire à Montrouge",
+    metaTitle: "10 choses à faire à Montrouge",
+    metaDesc: "Beffroi, Salon de Montrouge, théâtre et métro 4 : 10 choses à faire à Montrouge.",
+    category: "tourisme",
+    emoji: "🎨",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Montrouge compte environ 46 000 habitants dans notre fiche. C'est une commune dense des Hauts-de-Seine, collée à la porte d'Orléans, avec un atout culturel : un salon d'art contemporain qui compte dans le milieu. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le Salon de Montrouge",
+        body: "Chaque année, ce salon présente de jeunes artistes contemporains. Il est organisé dans le beffroi de la ville, et son calendrier change : vérifiez les dates."
+      },
+      {
+        heading: "2. Le beffroi",
+        body: "Le bâtiment du beffroi domine le centre-ville et abrite des expositions. Il sert de repère pour se promener dans le secteur."
+      },
+      {
+        heading: "3. Le théâtre de Montrouge",
+        body: "La ville a son théâtre, avec une programmation de spectacles. Consultez la saison avant de venir."
+      },
+      {
+        heading: "4. L'église Saint-Jacques-le-Majeur",
+        body: "L'église du centre est un repère du vieux Montrouge. La visite est brève."
+      },
+      {
+        heading: "5. L'avenue de la République et les commerces",
+        body: "L'axe principal concentre commerces, cafés et terrasses. On y passe une heure."
+      },
+      {
+        heading: "6. Les squares",
+        body: "La ville est dense, mais quelques squares et petits parcs permettent de souffler."
+      },
+      {
+        heading: "7. Le cimetière parisien de Bagneux, tout proche",
+        body: "Le grand cimetière parisien jouxte la commune. Il intéresse surtout ceux qui cherchent des tombes précises."
+      },
+      {
+        heading: "8. Paris en métro",
+        body: "La ligne 4 dessert la commune et rejoint le centre de Paris sans changement, en quelques stations depuis la porte d'Orléans."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 400 € par mois dans notre estimation, contre 2 800 € à Paris, 1 450 € à Antony et 1 580 € à Clamart. Montrouge est une ville dense pour qui veut Paris à portée du métro. Le prix au m² à l'achat y reste élevé : notre estimation le place bien au-dessus d'Antony."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit : le beffroi, le centre, puis Paris."
+      }
+    ],
+    relatedCities: ["montrouge","paris","antony","clamart"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-antony-2026"],
+    tags: ["10 choses à faire à Montrouge","activités Montrouge 2026","Salon de Montrouge","beffroi de Montrouge","métro 4"]
+  },
+  {
+    slug: "10-choses-a-faire-a-clamart-2026",
+    title: "10 choses à faire à Clamart",
+    metaTitle: "10 choses à faire à Clamart",
+    metaDesc: "Forêt de Meudon, parc Maison Blanche, tramway : 10 choses à faire à Clamart.",
+    category: "tourisme",
+    emoji: "🌿",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Clamart compte environ 59 000 habitants dans notre fiche. C'est une commune des Hauts-de-Seine adossée à la forêt de Meudon, sur des coteaux qui dominent Paris. Peu de monuments, mais beaucoup de vert et une bonne desserte en tramway. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La forêt de Meudon",
+        body: "La forêt domaniale borde la commune et offre des sentiers de promenade et de course. C'est l'argument principal de la ville."
+      },
+      {
+        heading: "2. Le parc de la Maison Blanche",
+        body: "Un parc urbain pour une pause en famille, avec pelouses et jeux. Il se parcourt en une heure."
+      },
+      {
+        heading: "3. Les coteaux et les vues sur Paris",
+        body: "Le relief donne des points de vue sur la capitale. Le dénivelé se sent à pied, prévoyez des chaussures confortables."
+      },
+      {
+        heading: "4. Le marché de Clamart",
+        body: "Le marché du centre anime la ville plusieurs jours par semaine. Vérifiez les jours avant de venir."
+      },
+      {
+        heading: "5. L'observatoire de Meudon, à côté",
+        body: "Le site historique de l'observatoire se trouve sur la commune voisine. Les conditions de visite varient : informez-vous avant."
+      },
+      {
+        heading: "6. Le centre ancien",
+        body: "Le vieux Clamart garde quelques rues anciennes autour de l'église. La balade est courte."
+      },
+      {
+        heading: "7. Le vélo en forêt",
+        body: "Les chemins forestiers se prêtent au vélo, avec une pratique plutôt sportive à cause des pentes."
+      },
+      {
+        heading: "8. Le tramway et la gare",
+        body: "Le tramway T6 et le tramway T10 desservent la commune, et la gare relie Paris-Montparnasse par le Transilien. Le métro n'y arrive pas : comptez une correspondance."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 580 € par mois dans notre estimation, contre 2 800 € à Paris, 1 450 € à Antony et 1 400 € à Montrouge. Clamart convient à qui veut la forêt à pied et un loyer moindre qu'à Paris, et accepte d'être sans métro."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée entière : forêt le matin, parc et marché ensuite."
+      }
+    ],
+    relatedCities: ["clamart","paris","antony","montrouge"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-antony-2026"],
+    tags: ["10 choses à faire à Clamart","activités Clamart 2026","forêt de Meudon","Clamart","tramway T6"]
+  },
+  {
+    slug: "10-choses-a-faire-a-villejuif-2026",
+    title: "10 choses à faire à Villejuif",
+    metaTitle: "10 choses à faire à Villejuif",
+    metaDesc: "Parc des Hautes-Bruyères, roseraie voisine, métro 7 et 14 : 10 choses à faire à Villejuif.",
+    category: "tourisme",
+    emoji: "🌹",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Villejuif compte environ 60 000 habitants dans notre fiche. C'est une commune du Val-de-Marne, au sud de Paris, en pleine transformation avec l'arrivée de nouvelles lignes de métro. Ce n'est pas une destination touristique classique : on y vient pour les parcs et pour la roseraie voisine. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le parc départemental des Hautes-Bruyères",
+        body: "C'est le grand espace vert de la commune, avec pelouses et allées. Il sert de poumon aux quartiers alentour."
+      },
+      {
+        heading: "2. La roseraie du Val-de-Marne",
+        body: "À L'Haÿ-les-Roses, tout près, la roseraie réunit une vaste collection de rosiers. La floraison de printemps est le bon moment ; vérifiez les dates d'ouverture."
+      },
+      {
+        heading: "3. Le centre et le marché",
+        body: "Le centre-ville concentre commerces et marché. Comptez une heure pour le parcourir."
+      },
+      {
+        heading: "4. L'église Saint-Cyr-Sainte-Julitte",
+        body: "L'église du centre est un repère du vieux Villejuif, loin des chantiers récents."
+      },
+      {
+        heading: "5. Les nouveaux quartiers autour du métro",
+        body: "L'arrivée du métro a fait pousser de nouveaux quartiers. L'architecture récente est plus curieuse que charmante."
+      },
+      {
+        heading: "6. Les squares",
+        body: "La commune compte plusieurs squares où se poser entre deux sorties."
+      },
+      {
+        heading: "7. Le vélo vers les villes voisines",
+        body: "Les itinéraires cyclables relient la commune à Ivry et à Paris, avec des tronçons encore en chantier."
+      },
+      {
+        heading: "8. Paris par le métro 7 et le métro 14",
+        body: "La ligne 7 dessert plusieurs stations de la commune. La ligne 14 y arrive aussi, ce qui raccourcit le trajet vers le centre de Paris."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer moyen d'un T3 y est de 1 430 € par mois dans notre estimation, contre 2 800 € à Paris, 1 350 € à Ivry-sur-Seine et 1 250 € à Créteil. Villejuif convient à qui veut le métro et un loyer sensiblement moins élevé qu'à Paris."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée : parc des Hautes-Bruyères le matin, roseraie à côté l'après-midi."
+      }
+    ],
+    relatedCities: ["villejuif","paris","ivry-sur-seine","creteil"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-creteil-2026"],
+    tags: ["10 choses à faire à Villejuif","activités Villejuif 2026","parc des Hautes-Bruyères","roseraie du Val-de-Marne","métro 14"]
+  }
 ];
 
 // --- Build-time integrity check -------------------------------------------

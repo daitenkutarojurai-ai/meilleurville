@@ -2410,3 +2410,7 @@ Vivre sans voiture +5, Acheter à [ville] +5, and the "Lire ensuite" reading lis
 **2026-11-18 (run contenu)** : +1 guide FR `prix-maison-m2-par-ville-560-villes-dvf-2026` et son jumeau EN `house-prices-per-m2-french-cities-560-cities-dvf-2026` (médianes DVF maisons 2024-2025, 560 villes ; pendant du guide appartements). Index de recherche régénéré. Prochain : maisons × niveau de vie si un angle distinct de `annees-de-niveau-de-vie-…` se justifie.
 
 **2026-11-19 (run contenu)** : +1 guide FR `villes-sans-urgences-distance-hopital-591-villes-2026` et son jumeau EN `french-cities-without-emergency-room-distance-to-hospital-591-cities-2026` (BPE 2025 `erKm` : 242/591 villes sans urgences, 42 à ≥ 10 km). Mesuré : `grep -c '^    slug: "'` → FR 1 654, EN 1 536 (tous gabarits). Index de recherche régénéré. `sitemap:check` rouge hors de ce run (2 jumelles EN red-flags sans URL au sitemap). Prochain : zones protégées (`city-protected-areas.json`, couverture à 15 km) en guide mesuré.
+
+**Tourisme batch 77 — FR, 2026-11-21** : +6 `10-choses-a-faire-a-*-2026` (antony, maisons-alfort, fontenay-sous-bois, montrouge, clamart, villejuif), loyers T3 de `data/housing.ts`, aucun tarif ni horaire.
+Compteurs mesurés : FR 366 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`), EN 357 ; search-index 1 680 FR / 1 585 EN. 236 villes du seed encore sans guide (surtout petite couronne).
+Écart FR→EN : 8 jumelles manquantes (nanterre, ivry-sur-seine + ces 6) → **prochain run : batch EN**.

@@ -11930,6 +11930,36 @@
       "slug": "villes-sans-urgences-distance-hopital-591-villes-2026",
       "title": "Villes sans service d'urgences : 242 villes, 42 à plus de 10 km (2026)",
       "emoji": "🚑"
+    },
+    {
+      "slug": "10-choses-a-faire-a-antony-2026",
+      "title": "10 choses à faire à Antony",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "10-choses-a-faire-a-maisons-alfort-2026",
+      "title": "10 choses à faire à Maisons-Alfort",
+      "emoji": "🦴"
+    },
+    {
+      "slug": "10-choses-a-faire-a-fontenay-sous-bois-2026",
+      "title": "10 choses à faire à Fontenay-sous-Bois",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "10-choses-a-faire-a-montrouge-2026",
+      "title": "10 choses à faire à Montrouge",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-clamart-2026",
+      "title": "10 choses à faire à Clamart",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "10-choses-a-faire-a-villejuif-2026",
+      "title": "10 choses à faire à Villejuif",
+      "emoji": "🌹"
     }
   ],
   "tags": [
@@ -12364,6 +12394,11 @@
       "count": 8
     },
     {
+      "slug": "que-faire-pres-de-paris",
+      "label": "que faire près de Paris",
+      "count": 8
+    },
+    {
       "slug": "quitter-paris",
       "label": "quitter Paris",
       "count": 8
@@ -12476,11 +12511,6 @@
     {
       "slug": "prix-au-m",
       "label": "prix au m²",
-      "count": 7
-    },
-    {
-      "slug": "que-faire-pres-de-paris",
-      "label": "que faire près de Paris",
       "count": 7
     },
     {
