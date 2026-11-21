@@ -39837,6 +39837,258 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["bourg-en-bresse","moving to france with children","french school system","auvergne-rhone-alpes"],
   },
   {
+    slug: "family-in-brive-la-gaillarde-2026",
+    title: "Family life in Brive-la-Gaillarde (2026): a €780 T3, €1,834 per m², safety 6.7 and culture 7.5",
+    metaTitle: "Family Life in Brive-la-Gaillarde 2026: €780 T3",
+    metaDesc:
+      "Raising children in Brive-la-Gaillarde in 2026: a €780 T3, flats at €1,834 per m², schools 6.6, safety 6.7. Budget, parks and Limoges, Périgueux compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro:
+      "A family in Brive-la-Gaillarde rents a T3 (two bedrooms and a living room) for €780 on our rent estimate and can buy an 80 m² flat for about €147,000 at €1,834 per m². The family-relevant marks are safety 6.7 (rank 145 of 593), schools 6.6 (rank 105) and culture 7.5 (rank 69). Of 46,769 residents, only 13.8% are under 15, and 34.4% are 60 or over.",
+    sections: [
+      {
+        heading: "What is the housing budget in Brive-la-Gaillarde?",
+        body: "The T3 is €780, the T2 €580 and the T1 €420. A flat sells at €1,834 per m² (885 sales in 2024-2025, national DVF property register) and a house at €1,922 (829 sales), only 4.8% more: moving from a flat to a house costs little per square metre here. An 80 m² flat at the median price is about €147,000 before fees.",
+      },
+      {
+        heading: "How old is the population and how well off?",
+        body: "Median standard of living is €21,210 per consumption unit (Insee, Filosofi 2021), with 18% poverty. The population has slipped 0.5% since 2016. Under-15s make up 13.8% and over-60s 34.4% (INSEE census 2022): the town is older than the average of the cities we track, so do not expect a school-gate crowd on every street.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Safety 6.7 (rank 145, 5 tied), schools 6.6 (rank 105, 110 tied), transport 7.0 (rank 131), cost 6.7 (rank 135), nature 6.4 (rank 173) and culture 7.5 (rank 69, 14 tied). Safety is the best mark in the family profile; schools sit in the upper middle, with nothing separating Brive from the 109 other cities on the same mark.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "According to OpenStreetMap, the Tujac sports field (23 hectares, on the Corrèze river) is the town's main outdoor sports area, with handball, basketball, football and volleyball pitches. The Guierle public garden in the centre has a playground for small children, which the tourist office describes as accessible to children with reduced mobility. The parc Simone Veil adds a neighbourhood option.",
+      },
+      {
+        heading: "Brive against Tulle, Périgueux and Limoges",
+        body: "Tulle, 22 km away, rents a T3 at €700 and sells at €871 per m², schools 5.5. Périgueux, 64 km, is €720 and €1,846, schools 5.8. Limoges, 78 km, is €800 and €1,518, schools 6.2. Brive costs €316 more per m² than Limoges for 0.4 more school points and a T3 €20 cheaper to rent; Périgueux sells at about the same price with 0.8 fewer school points.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want above-average safety, a purchase under €150,000 for 80 m² and a town of 47,000 people that keeps a cultural life. Those who want a big choice of activities for teenagers should look at Limoges; those after the lowest price can go to Tulle and accept a lower-rated school.",
+      },
+    ],
+    relatedCities: ["brive-la-gaillarde","tulle","perigueux","limoges"],
+    tags: ["brive-la-gaillarde","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-castres-2026",
+    title: "Family life in Castres (2026): a €700 T3, €1,695 per m², cost 7.2 but transport 5.5",
+    metaTitle: "Family Life in Castres 2026: €700 T3, €1,695/m²",
+    metaDesc:
+      "Raising children in Castres in 2026: a €700 T3, flats at €1,695 per m², schools 6.6, transport 5.5. Budget, Gourjade park and Albi, Toulouse compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro:
+      "Castres is a budget play with one catch. A T3 (two bedrooms and a living room) rents at €700 on our rent estimate and an 80 m² flat costs about €136,000 at €1,695 per m², with schools 6.6 (rank 105 of 593) and cost 7.2 (rank 110). The catch is getting around: transport 5.5 (rank 332). Of 42,700 residents, 15.6% are under 15, and the town has grown 3.3% since 2016.",
+    sections: [
+      {
+        heading: "What is the housing budget in Castres?",
+        body: "The T3 is €700 and the T2 €520. A flat sells at €1,695 per m² (285 sales in 2024-2025, national DVF property register) and a house at €1,608 (649 sales): the house is 5.1% cheaper per m² than the flat, and the market is mostly houses. An 80 m² flat at the median price costs about €136,000 before fees.",
+      },
+      {
+        heading: "How old is the population and how well off?",
+        body: "Median standard of living is €20,940 per consumption unit (Insee, Filosofi 2021), with 21% poverty. The population has grown 3.3% since 2016. 15.6% of residents are under 15 and 32.3% are 60 or over (INSEE census 2022).",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Cost 7.2 (rank 110, 18 tied), schools 6.6 (rank 105, 110 tied), culture 6.6 (rank 152), safety 6.2 (rank 189, 9 tied), nature 5.7 (rank 262) and transport 5.5 (rank 332, 25 tied). Budget is the main argument; without a car, a family's daily routine stays difficult.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "The Gourjade park, free and open all year according to the Occitanie tourist board, has playgrounds, a small farm and picnic areas; a river shuttle boat links it to the centre along the Agout. The Mail garden in the centre also has a playground. The Goya museum, the only museum in France devoted entirely to Iberian art, runs visits for children.",
+      },
+      {
+        heading: "Castres against Albi, Gaillac, Carcassonne and Toulouse",
+        body: "Albi, 37 km away, rents a T3 at €840 and sells at €2,392 per m², schools 7.7. Gaillac, 43 km, is €800 and €1,669, schools 6.6. Carcassonne, 44 km, is €710 and €1,288, schools 5.3, with 28% poverty. Toulouse, 65 km, is €1,150 and €3,222, schools 9.0. Albi costs €697 more per m² and €140 more in rent for 1.1 more school points.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who buy around €136,000 for 80 m², drive, and want a big free park within reach. Those who put schools first will look at Albi, at €697 more per m²; those who plan to work in Toulouse will find 65 km heavy for a daily commute.",
+      },
+    ],
+    relatedCities: ["castres","albi","gaillac","carcassonne","toulouse"],
+    tags: ["castres","moving to france with children","french school system","occitanie"],
+  },
+  {
+    slug: "family-in-annemasse-2026",
+    title: "Family life in Annemasse (2026): a €1,350 T3, €3,506 per m², schools 7.7 and transport 9.0",
+    metaTitle: "Family Life in Annemasse 2026: €1,350 T3, Schools 7.7",
+    metaDesc:
+      "Raising children in Annemasse in 2026: a €1,350 T3, flats at €3,506 per m², schools 7.7, transport 9.0, cost 3.4. Budget and Annecy, Thonon, Cluses compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro:
+      "Annemasse, next to Geneva, charges for what it offers: a T3 (two bedrooms and a living room) at €1,350 on our rent estimate and an 80 m² flat at about €280,000 (€3,506 per m²). In return, schools 7.7 (rank 38 of 593) and transport 9.0 (rank 1, 23 cities tied). The downside is cost 3.4 (rank 522). It is the youngest town in this batch: 20.2% of its 37,595 residents are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Annemasse?",
+        body: "The T3 is €1,350, the T2 €1,000 and the T1 €720. A flat sells at €3,506 per m² (1,125 sales in 2024-2025, national DVF property register); houses are very rare (45 sales) at €5,167 per m², a figure to read with care on so small a sample. An 80 m² flat at the median price comes to about €280,000 before fees.",
+      },
+      {
+        heading: "How old is the population and how well off?",
+        body: "Median standard of living is €22,800 per consumption unit (Insee, Filosofi 2021), with 22% poverty: the town is expensive but not uniform. The population has grown 7.3% since 2016, the fastest rise in the batch. 20.2% of residents are under 15 and 16.9% are 60 or over (INSEE census 2022).",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Transport 9.0 (rank 1, 23 tied), schools 7.7 (rank 38, 52 tied), remote work 7.5 (rank 39), safety 6.8 (rank 138), culture 6.6 (rank 152), nature 6.4 (rank 173) and cost 3.4 (rank 522, 9 tied). A family gains on schools and getting around, and pays for it in housing.",
+      },
+      {
+        heading: "What are the transport links and places for children?",
+        body: "The Léman Express regional train links Annemasse station to Geneva-Cornavin in about twenty minutes according to regional sites, and tram 17 runs from Annemasse-Parc Montessuit to Lancy-Pont-Rouge, in service since 15 December 2019. For green space, per OpenStreetMap, the parc Montessuit (playground) and the Romagny play area are small: the mountains and the lake, 30 minutes by car, do the rest.",
+      },
+      {
+        heading: "Annemasse against Annecy, Thonon and Cluses",
+        body: "Annecy, 34 km away, rents a T3 at €1,450 and sells at €5,092 per m², schools 8.7. Thonon-les-Bains, 27 km, is €1,200 and €3,594, schools 5.8. Cluses, 30 km, is €1,050 and €2,234, schools 5.3. Annemasse is €1,586 cheaper per m² than Annecy for 1.0 fewer school points; against Cluses it adds €1,272 per m² and €300 in rent for 2.4 school points.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families with a budget of €280,000 for 80 m² or €1,350 for a T3 who want a train and a tram within walking distance and a well-rated school. Those with under €1,100 in rent will look at Cluses and accept schools at 5.3; those who put schools above everything will go to Annecy, at €1,586 more per m².",
+      },
+    ],
+    relatedCities: ["annemasse","annecy","thonon-les-bains","cluses"],
+    tags: ["annemasse","moving to france with children","french school system","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-issy-les-moulineaux-2026",
+    title: "Family life in Issy-les-Moulineaux (2026): a €1,800 T3, €7,511 per m², schools 9.0, nature 4.3",
+    metaTitle: "Family Life in Issy-les-Moulineaux 2026: €1,800 T3",
+    metaDesc:
+      "Raising children in Issy-les-Moulineaux in 2026: a €1,800 T3, flats at €7,511 per m², schools 9.0, nature 4.3. Budget, parks, metro and Vanves, Meudon compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro:
+      "Issy-les-Moulineaux has the top school mark in our ranking (9.0, rank 1 of 593, 13 cities tied) and one of the heaviest bills: a T3 (two bedrooms and a living room) at €1,800 on our rent estimate and a flat at €7,511 per m², about €601,000 for 80 m². Cost 2.2 (rank 570) and nature 4.3 (rank 420) are the trade-off. Of 67,695 residents, 17.9% are under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Issy-les-Moulineaux?",
+        body: "The T3 is €1,800, the T2 €1,300 and the T1 €850. A flat sells at €7,511 per m² (1,265 sales in 2024-2025, national DVF property register) and a house at €8,901 (86 sales), 18.5% more. An 80 m² flat at the median price is about €601,000 before fees: this is a purchase for a high-income household.",
+      },
+      {
+        heading: "How old is the population and how well off?",
+        body: "Median standard of living is €33,650 per consumption unit (Insee, Filosofi 2021), with 8% poverty, the highest income in this batch. The population has fallen 1.0% since 2016. 17.9% of residents are under 15 and 18.8% are 60 or over (INSEE census 2022).",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Schools 9.0 (rank 1, 13 tied), transport 9.0 (rank 1, 23 tied), remote work 9.0 (rank 1, 14 tied), safety 7.2 (rank 116, 5 tied), culture 7.5 (rank 69), nature 4.3 (rank 420) and cost 2.2 (rank 570, 24 tied). It is the profile of a town where everything works except the budget and the greenery.",
+      },
+      {
+        heading: "What are the transport links and places for children?",
+        body: "The town has two stops on metro line 12 (Corentin Celton and Mairie d'Issy) and three on tram line T2, according to public transport data. For children, per OpenStreetMap, the parc de l'île Saint-Germain (reached by RER C at Issy-Val-de-Seine or by the T2), the parc Suzanne Lenglen and the parc Henri Barbusse (4 hectares, playgrounds) are the main green spaces, which explains the modest nature mark.",
+      },
+      {
+        heading: "Issy against Vanves, Clamart, Meudon and Boulogne-Billancourt",
+        body: "Vanves, 1 km away, rents a T3 at €1,400 and sells at €6,222 per m², schools 5.5. Clamart, 2 km, is €1,580 and €5,535, schools 6.6. Meudon, 3 km, is €1,860 and €5,503, schools 8.3. Boulogne-Billancourt, 3 km, is €2,000 and €8,243, schools 8.7. Meudon is €2,008 cheaper per m² than Issy for 0.7 fewer school points: the sharpest trade-off of the five.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families with a budget of €601,000 for 80 m² or €1,800 for a T3 who want the best-rated school, the metro and the tram. Those who want more nature or a lower budget should look at Meudon or Clamart, which cost €1,976 to €2,008 less per m².",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux","vanves","clamart","meudon","boulogne-billancourt"],
+    tags: ["issy-les-moulineaux","moving to france with children","french school system","ile-de-france"],
+  },
+  {
+    slug: "family-in-villefranche-sur-saone-2026",
+    title: "Family life in Villefranche-sur-Saône (2026): a €1,070 T3, €2,439 per m² and schools 8.7",
+    metaTitle: "Family Life in Villefranche-sur-Saône 2026: €1,070 T3",
+    metaDesc:
+      "Raising children in Villefranche-sur-Saône in 2026: a €1,070 T3, flats at €2,439 per m², schools 8.7, safety 6.3. Budget, train to Lyon and Mâcon, Bourg compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro:
+      "Villefranche-sur-Saône pairs a schools mark of 8.7 (rank 15 of 593, 15 cities tied) with a T3 (two bedrooms and a living room) at €1,070 on our rent estimate and flats at €2,439 per m², about €195,000 for 80 m². Of 36,224 residents, 18.6% are under 15, but 25% live below the poverty line: the town has an internal contrast worth knowing about.",
+    sections: [
+      {
+        heading: "What is the housing budget in Villefranche-sur-Saône?",
+        body: "The T3 is €1,070, the T2 €800 and the T1 €560. A flat sells at €2,439 per m² (881 sales in 2024-2025, national DVF property register) and a house at €2,920 (163 sales), 20% more. An 80 m² flat at the median price is about €195,000 before fees.",
+      },
+      {
+        heading: "How old is the population and how well off?",
+        body: "Median standard of living is €19,640 per consumption unit (Insee, Filosofi 2021), with 25% poverty. The population has fallen 2.8% since 2016. 18.6% of residents are under 15 and 24.5% are 60 or over (INSEE census 2022).",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Remote work 8.8 (rank 15), schools 8.7 (rank 15, 15 tied), culture 7.5 (rank 69), transport 7.0 (rank 131), safety 6.3 (rank 177, 12 tied), cost 5.9 (rank 257) and nature 5.7 (rank 262). Schools are the headline mark; the low median income is a reminder that an average says little about one neighbourhood versus the next.",
+      },
+      {
+        heading: "How easy is Lyon, and what is there for children?",
+        body: "The regional TER train links Villefranche to Lyon-Part-Dieu in 22 to 28 minutes according to SNCF and TER sites, with about thirty departures a day per the TER Auvergne-Rhône-Alpes site. For green space, per OpenStreetMap, the parc Vermorel, the parc Simone Veil and the Schkeuditz garden have playgrounds, but there is no large park: the Beaujolais countryside is next door.",
+      },
+      {
+        heading: "Villefranche against Mâcon and Bourg-en-Bresse",
+        body: "Mâcon, 36 km away, rents a T3 at €800 and sells at €1,659 per m², schools 6.2, with 25% poverty. Bourg-en-Bresse, 46 km, is €840 and €1,866, schools 6.6. Villefranche costs €780 more per m² than Mâcon and €270 more in rent for 2.5 more school points; against Bourg the gap is €573 per m² for 2.1 school points.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want one of the best-rated schools in the country without Lyon's prices, and who count on the TER for a Lyon job. Those who want more green space or rent under €850 will go to Bourg-en-Bresse or Mâcon, giving up 2.1 to 2.5 school points.",
+      },
+    ],
+    relatedCities: ["villefranche-sur-saone","macon","bourg-en-bresse"],
+    tags: ["villefranche-sur-saone","moving to france with children","french school system","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-montelimar-2026",
+    title: "Family life in Montélimar (2026): a €780 T3, €1,760 per m², cost 6.7 and nature 6.4",
+    metaTitle: "Family Life in Montélimar 2026: €780 T3, €1,760/m²",
+    metaDesc:
+      "Raising children in Montélimar in 2026: a €780 T3, flats at €1,760 per m², schools 6.6, nature 6.4, safety 5.7. Budget and Valence, Orange, Bagnols compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro:
+      "A T3 (two bedrooms and a living room) in Montélimar rents for €780 on our rent estimate, and an 80 m² flat sells for about €141,000 (€1,760 per m²). Marks: schools 6.6 (rank 105 of 593), cost 6.7 (rank 135) and nature 6.4 (rank 173). Safety is more mixed at 5.7 (rank 241). Of 40,356 residents, 17.9% are under 15, and the town has grown 4.3% since 2016.",
+    sections: [
+      {
+        heading: "What is the housing budget in Montélimar?",
+        body: "The T3 is €780 and the T2 €580. A flat sells at €1,760 per m² (652 sales in 2024-2025, national DVF property register) and a house at €2,438 (473 sales), 39% more: that is the widest flat-to-house gap in the batch, and worth comparing before you set your heart on a house. An 80 m² flat at the median price is about €141,000 before fees.",
+      },
+      {
+        heading: "How old is the population and how well off?",
+        body: "Median standard of living is €21,350 per consumption unit (Insee, Filosofi 2021), with 20% poverty. The population has grown 4.3% since 2016. 17.9% of residents are under 15 and 28.1% are 60 or over (INSEE census 2022).",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Cost 6.7 (rank 135, 34 tied), schools 6.6 (rank 105, 110 tied), culture 6.6 (rank 152), nature 6.4 (rank 173, 61 tied), transport 6.2 (rank 248), safety 5.7 (rank 241, 31 tied) and remote work 5.1 (rank 342). The profile is balanced on price, with one point to watch on safety depending on the neighbourhood.",
+      },
+      {
+        heading: "What places are there for children?",
+        body: "Per OpenStreetMap, the Montmeillan leisure base (41 hectares, playground) is the town's big outdoor space, and the Jean-Joseph Fleury-Bith garden (4 hectares, playgrounds) is the main urban park. The château des Adhémar, built in the 12th century, overlooks the town and now houses a contemporary art centre; nougat, the local speciality, has its own places to visit.",
+      },
+      {
+        heading: "Montélimar against Valence, Orange and Bagnols-sur-Cèze",
+        body: "Valence, 43 km away, rents a T3 at €900 and sells at €1,989 per m², schools 6.6. Orange, 47 km, is €920 and €1,833, schools 6.6. Bagnols-sur-Cèze, 45 km, is €850 and €1,538, schools 5.5, with 29% poverty. Montélimar is €120 a month cheaper than Valence for the same school mark; Bagnols is €222 cheaper per m², with 1.1 fewer school points.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a T3 under €800, a school in the upper middle and a big outdoor space, with the Rhône valley close by. Those who work in Valence or Orange will face 43 to 47 km; those who want a house with a garden should weigh the 39% per-m² gap before choosing.",
+      },
+    ],
+    relatedCities: ["montelimar","valence","orange","bagnols-sur-ceze"],
+    tags: ["montelimar","moving to france with children","french school system","auvergne-rhone-alpes"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",

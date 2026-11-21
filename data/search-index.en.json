@@ -8347,6 +8347,36 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-brive-la-gaillarde-2026",
+      "title": "Family life in Brive-la-Gaillarde (2026): a €780 T3, €1,834 per m², safety 6.7 and culture 7.5",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-castres-2026",
+      "title": "Family life in Castres (2026): a €700 T3, €1,695 per m², cost 7.2 but transport 5.5",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-annemasse-2026",
+      "title": "Family life in Annemasse (2026): a €1,350 T3, €3,506 per m², schools 7.7 and transport 9.0",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-issy-les-moulineaux-2026",
+      "title": "Family life in Issy-les-Moulineaux (2026): a €1,800 T3, €7,511 per m², schools 9.0, nature 4.3",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-villefranche-sur-saone-2026",
+      "title": "Family life in Villefranche-sur-Saône (2026): a €1,070 T3, €2,439 per m² and schools 8.7",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-montelimar-2026",
+      "title": "Family life in Montélimar (2026): a €780 T3, €1,760 per m², cost 6.7 and nature 6.4",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -11541,22 +11571,22 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 108
+      "count": 109
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 101
+      "count": 104
+    },
+    {
+      "slug": "nouvelle-aquitaine",
+      "label": "nouvelle-aquitaine",
+      "count": 99
     },
     {
       "slug": "relocation",
       "label": "relocation",
       "count": 99
-    },
-    {
-      "slug": "nouvelle-aquitaine",
-      "label": "nouvelle-aquitaine",
-      "count": 98
     },
     {
       "slug": "solo-travel",
@@ -11571,12 +11601,17 @@
     {
       "slug": "occitanie",
       "label": "occitanie",
-      "count": 90
+      "count": 91
     },
     {
       "slug": "french-school-system",
       "label": "french school system",
-      "count": 83
+      "count": 89
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 88
     },
     {
       "slug": "grand-est",
@@ -11591,11 +11626,6 @@
     {
       "slug": "expat-retirement",
       "label": "expat retirement",
-      "count": 82
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
       "count": 82
     },
     {
