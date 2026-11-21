@@ -1769,3 +1769,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `/outils` : en-tête blanc à filet gris + grille d'outils sur canevas.
 2. `/calendrier-immobilier` : en-tête blanc à filet + mois en cartes grises.
 3. `/glossaire` : en-tête blanc + sections sans bande (1 300 lignes, découpage par lettre).
+
+## 2026-11-21 ~11:00 UTC — hub Outils (FR `/outils` + EN `/tools`)
+
+**Surface** : les deux hubs d'outils. Avant : en-tête blanc à filet gris + badge, 20 (FR) / 13 (EN) outils en une seule grille de cartes à filet gris sur le canevas (une seule bande), clé React `href` en double (`/city-match` ×2).
+
+**Changé** : nouveau composant serveur partagé `components/ToolsHub.tsx` — hero `.bg-aurora` + `EmojiBadge` 🧰 + titre `.gradient-text`, puces d'ancre pastel vers chaque famille (sans JS) ; outils regroupés par famille (FR : Trouver ma ville / Budget et simulateurs / Comparer et explorer / Références ; EN : Find / Budget / Compare), une bande par famille (indigo, pink, sky, aqua → cross-link lilas), cartes blanches à anneau teinté indigo/rose/cyan en rotation, pastille emoji, appel coloré ; grille 3 colonnes en lg. Ordre de la liste source et ItemList JSON-LD inchangés ; copie des outils inchangée (titres de familles ajoutés).
+
+**Fichiers** : `components/ToolsHub.tsx`, `app/outils/page.tsx`, `app/[locale]/tools/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 3 fichiers : 0 problème. Captures playwright `/outils` et `/en/tools` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `/calendrier-immobilier` : en-tête blanc à filet + mois en cartes grises.
+2. `/glossaire` : en-tête blanc + sections sans bande (1 300 lignes, découpage par lettre).
+3. Hub `/comparer` (FR) + EN `/compare`.

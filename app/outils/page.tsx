@@ -1,8 +1,7 @@
 import { Metadata } from "next";
-import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { ToolsHub, type HubGroup } from "@/components/ToolsHub";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CITIES_COUNT, GUIDES_COUNT, GLOSSARY_TERMS_COUNT } from "@/lib/site-stats";
@@ -16,17 +15,28 @@ export const metadata: Metadata = {
   alternates: pathAlternates("/outils", "/tools"),
 };
 
+type GroupId = "trouver" | "budget" | "comparer" | "reference";
+
+const GROUPS: (HubGroup & { id: GroupId })[] = [
+  { id: "trouver", emoji: "🎯", title: "Trouver ma ville", lead: "Quiz, copilote et projections : vos priorités en entrée, une short-list de villes en sortie." },
+  { id: "budget", emoji: "💶", title: "Budget et simulateurs", lead: "Loyer, salaire, reste à vivre : ce que la ville vous laisse vraiment chaque mois." },
+  { id: "comparer", emoji: "🧭", title: "Comparer et explorer", lead: "Cartes, classements, comparateur et drapeaux rouges pour départager les finalistes." },
+  { id: "reference", emoji: "📚", title: "Références", lead: "Le vocabulaire, le calendrier du marché et le flux des guides, à garder sous la main." },
+];
+
 type Tool = {
   href: string;
   emoji: string;
   title: string;
   desc: string;
   cta: string;
+  group: GroupId;
 };
 
 const TOOLS: Tool[] = [
   {
     href: "/copilot",
+    group: "trouver",
     emoji: "🤖",
     title: "Copilote Déménagement IA",
     desc:
@@ -35,6 +45,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/projection-5ans",
+    group: "trouver",
     emoji: "🔭",
     title: "Projection 5 ans",
     desc: "Votre situation dans 5 ans : famille, carrière, budget. Quelles villes correspondent à ce que vous serez (pas ce que vous êtes), avec le risque climatique 2040 intégré.",
@@ -42,6 +53,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/city-match",
+    group: "trouver",
     emoji: "🌸",
     title: "City Match",
     desc:
@@ -50,6 +62,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/future-you",
+    group: "trouver",
     emoji: "✨",
     title: "Future You — la vie en chiffres",
     desc:
@@ -58,6 +71,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/people-like-you",
+    group: "trouver",
     emoji: "👥",
     title: "People like you",
     desc:
@@ -66,6 +80,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/vibe",
+    group: "trouver",
     emoji: "✨",
     title: "Ambiance par ville",
     desc: "Estimations éditoriales : quelle énergie se dégage de chaque ville ? Calme, animé, festif, ressourcant. Dérivé des scores officiels, pas de données en temps réel.",
@@ -73,6 +88,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/climat-2040-timelapse",
+    group: "comparer",
     emoji: "🌡️",
     title: "Climat 2040 — timelapse",
     desc:
@@ -81,6 +97,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/city-match",
+    group: "trouver",
     emoji: "🧠",
     title: "Quiz IA classique",
     desc:
@@ -89,6 +106,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/#simulateur",
+    group: "budget",
     emoji: "💸",
     title: "Simulateur de pouvoir d'achat",
     desc:
@@ -97,6 +115,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/vivre-avec",
+    group: "budget",
     emoji: "💶",
     title: "Vivre avec X €/mois",
     desc:
@@ -105,6 +124,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/comparer",
+    group: "comparer",
     emoji: "⚖️",
     title: "Comparateur de villes",
     desc:
@@ -113,6 +133,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/carte",
+    group: "comparer",
     emoji: "🗺️",
     title: "Carte interactive",
     desc:
@@ -121,6 +142,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/leaderboard",
+    group: "comparer",
     emoji: "🏆",
     title: "Top 100 villes France",
     desc:
@@ -129,6 +151,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/parent-solo",
+    group: "budget",
     emoji: "🧑‍🍼",
     title: "Parent solo — villes qui tiennent",
     desc:
@@ -137,6 +160,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/red-flags",
+    group: "comparer",
     emoji: "🚩",
     title: "Red Flag Radar",
     desc:
@@ -145,6 +169,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/glossaire",
+    group: "reference",
     emoji: "📑",
     title: "Glossaire immobilier",
     desc:
@@ -153,6 +178,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/calendrier-immobilier",
+    group: "reference",
     emoji: "📅",
     title: "Calendrier 2026",
     desc:
@@ -161,6 +187,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/expat-retour/quiz",
+    group: "trouver",
     emoji: "✈️",
     title: "Quiz retour d'expatriation",
     desc:
@@ -169,6 +196,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/depuis",
+    group: "comparer",
     emoji: "🚄",
     title: "Destinations depuis votre ville",
     desc:
@@ -177,6 +205,7 @@ const TOOLS: Tool[] = [
   },
   {
     href: "/feed.xml",
+    group: "reference",
     emoji: "📡",
     title: "Flux RSS des guides",
     desc:
@@ -209,49 +238,24 @@ export default function OutilsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+      <ToolsHub
+        tools={TOOLS}
+        groups={GROUPS}
+        breadcrumb={
           <Breadcrumbs
             items={[
               { label: "Accueil", href: "/" },
               { label: "Outils" },
             ]}
           />
-          <Badge variant="accent" className="mb-3">Outils</Badge>
-          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">
-            {TOOLS.length} outils pour choisir où vivre
-          </h1>
-          <p className="text-[var(--text-secondary)] leading-relaxed max-w-2xl">
-            Quiz, simulateurs, comparateur, glossaire, calendrier. Tout ce qu&apos;il faut pour
-            décider, sans bullshit et avec les données vraies.
-          </p>
-        </div>
-      </section>
-
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-12">
-        <div className="grid sm:grid-cols-2 gap-4">
-          {TOOLS.map((t) => (
-            <Link
-              key={t.href}
-              href={t.href}
-              className="group rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 hover:border-[var(--accent)] transition-colors flex flex-col"
-            >
-              <div className="flex items-center gap-3 mb-3">
-                <span className="text-3xl">{t.emoji}</span>
-                <h2 className="text-base font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">
-                  {t.title}
-                </h2>
-              </div>
-              <p className="text-sm text-[var(--text-secondary)] leading-relaxed flex-1 mb-4">
-                {t.desc}
-              </p>
-              <span className="text-sm font-semibold text-[var(--accent)] group-hover:underline">
-                {t.cta} →
-              </span>
-            </Link>
-          ))}
-        </div>
-      </div>
+        }
+        eyebrow="Outils"
+        titleLead={`${TOOLS.length} outils pour`}
+        titleAccent="choisir où vivre"
+        intro="Quiz, simulateurs, comparateur, glossaire, calendrier. Tout ce qu'il faut pour décider, sans bullshit et avec les données vraies."
+        countLabel={(n) => `${n} outil${n > 1 ? "s" : ""}`}
+        jumpLabel="Familles d'outils"
+      />
 
       <StaticPageCrossLink exclude="/outils" />
       <Footer />
