@@ -77069,6 +77069,312 @@ export const GUIDES: Guide[] = [
     ]
   },
   {
+    slug: "vacances-monoparentales-saint-die-des-vosges-2026",
+    title: "Vacances monoparentales à Saint-Dié-des-Vosges en 2026",
+    metaTitle: "Vacances monoparentales à Saint-Dié-des-Vosges 2026",
+    metaDesc: "Saint-Dié-des-Vosges : 7,0/10 au composite monoparental, T3 670 €, coût 8,5/10, 1re sur 83. TER direct de Nancy, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Saint-Dié-des-Vosges sort à 7,0/10 au composite « famille monoparentale », vingtième des quatre-vingt-trois destinations à égalité avec quatre autres (source : notre indice de séjour). Son argument tient en un chiffre : le coût de la vie est à 8,5/10, premier de la série à égalité avec deux autres (source : notre fiche ville), pour un T3 de référence à 670 €, soit un des quatre loyers les plus bas du lot (source : notre estimation des loyers). Le reste du profil : sécurité 7,5/10, qualité de vie 5,9/10 et transports 4,9/10. La ville perd des habitants : 19 324 au recensement 2022 contre 21 361 en 2011, soit 9,5 % de moins (source : Insee, recensements). Le moteur la classe en €. Atout : le budget et un TER direct de Nancy. Limite : peu d'animation et un réseau local mince.",
+    sections: [
+      {
+        heading: "Rejoindre Saint-Dié en train : un TER direct depuis Nancy",
+        body: "Selon les comparateurs consultés en ligne avant écriture, un TER relie Nancy à Saint-Dié-des-Vosges sans correspondance en 1 h 05 à 1 h 20 selon les trains, avec jusqu'à deux trains par heure et 17 allers-retours par jour d'après la page TER de la ligne. Vers Strasbourg, les sources se contredisent : certaines annoncent un direct en 1 h 30 à 1 h 50, d'autres une correspondance et près de deux heures. Paris-Saint-Dié passe par Nancy ou Strasbourg. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 4,9/10, sous la médiane de série (6,4), soixante-treizième des quatre-vingt-trois destinations à égalité avec quatre autres : sur place, on marche ou on prend le bus."
+      },
+      {
+        heading: "Quel budget : la ville la moins chère du lot sur le coût de la vie",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Saint-Dié sort à 8,5/10 (source : notre fiche ville), première des quatre-vingt-trois destinations à égalité avec deux autres, pour une médiane de série à 6,4. Le marché : 670 € le T3 de référence et 1 100 € le mètre carré (source : notre estimation des loyers), contre 900 € et 2 300 € de médiane de série. À 38 kilomètres à vol d'oiseau, Colmar, déjà dans la série, affiche un T3 à 1 000 € ; à 44 kilomètres, Obernai, également dans la série, à 1 040 € ; à 39 kilomètres, Épinal à 660 €. Ce sont des repères résidentiels et non des tarifs de vacances : le prix d'une nuit se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Le Corbusier, la tour de la Liberté et le nom « America »",
+        body: "Saint-Dié est une ville reconstruite après 1944, et cela se lit dans ses rues. Deux visites tiennent en une demi-journée : l'usine Duval, bâtiment de Le Corbusier, et la tour de la Liberté. La ville revendique aussi l'impression du nom « America » sur la carte de Waldseemüller en 1507, ce qui sert de fil rouge pour les enfants qui aiment les cartes. Chaque automne, un festival de géographie anime la ville. Horaires, visites et dates se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "12 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 12 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap) : le jardin Simone Veil, et deux espaces de jeux séparés par âge, l'un pour les grands et l'autre pour les petits. L'emprise cumulée est d'environ 4 hectares, le plus grand étant le parc Jean Mansuy, autour d'un hectare : c'est de la promenade courte, pas un parc de journée. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 7,5/10, qualité de vie 5,9/10",
+        body: "Saint-Dié affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), dix-neuvième des quatre-vingt-trois destinations à égalité avec sept autres, pour une médiane de série à 6,2. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 5,9/10, soixante-deuxième à égalité avec treize autres, sous la médiane de série (6,8) : c'est la limite du dossier. Avec 19 324 habitants et une population en baisse, la ville offre moins d'animation que ses scores de sécurité et de coût ne le laissent croire."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Strasbourg (Strasbourg-Entzheim), à 59 kilomètres (source : normales Météo-France 1991-2020). Elle donne 2,5 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 1,5 °C en janvier, 21 °C en juillet et 1 650 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne dit rien des lacs et des sommets voisins, plus fréquentés l'été. Le moteur place juin en tête, puis août, puis juillet."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse des Vosges est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["saint-die-des-vosges","colmar","obernai"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Saint-Dié-des-Vosges",
+      "parent solo Vosges",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-gaillac-2026",
+    title: "Vacances monoparentales à Gaillac en 2026",
+    metaTitle: "Vacances monoparentales à Gaillac 2026",
+    metaDesc: "Gaillac : 7,0/10 au composite monoparental, T3 800 €, sécurité 8,1/10, vie 7,8/10. TER direct de Toulouse, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Gaillac sort à 7,0/10 au composite « famille monoparentale », vingtième des quatre-vingt-trois destinations à égalité avec quatre autres (source : notre indice de séjour). Le détail : sécurité 8,1/10, huitième de la série à égalité avec sept autres, qualité de vie 7,8/10, huitième à égalité avec onze autres, coût de la vie 7,6/10 et transports 4,2/10 (source : notre fiche ville). Le marché : 800 € le T3 de référence et 1 800 € le mètre carré (source : notre estimation des loyers), contre 900 € et 2 300 € de médiane de série. La ville gagne des habitants : 16 080 au recensement 2022 contre 13 629 en 2011, soit 18,0 % de plus (source : Insee, recensements). Le moteur la classe en €€. Atout : un TER direct de Toulouse et le vignoble. Limite : l'axe transports, l'un des six plus bas de la série.",
+    sections: [
+      {
+        heading: "Rejoindre Gaillac en train : un TER direct depuis Toulouse",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Gaillac est reliée à Toulouse-Matabiau par un TER direct en 38 minutes à 50 minutes selon les trains, avec une douzaine de trains par jour d'après un comparateur ; Paris-Gaillac passe donc par Toulouse. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 4,2/10, très sous la médiane de série (6,4), soixante-dix-huitième des quatre-vingt-trois destinations à égalité avec cinq autres : en ville, on circule à pied, et le vignoble demande une voiture ou un vélo."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Gaillac sort à 7,6/10 (source : notre fiche ville), huitième des quatre-vingt-trois destinations à égalité avec onze autres, pour une médiane de série à 6,4. Le marché : 800 € le T3 de référence et 1 800 € le mètre carré. À 20 kilomètres à vol d'oiseau, Albi, déjà dans la série, affiche un T3 à 840 € ; à 49 kilomètres, Toulouse, également dans la série, à 1 150 € et 4 000 € le mètre carré. Le loyer de Gaillac est donc inférieur de 40 € à celui d'Albi et de 350 € à celui de Toulouse. Ce sont des repères résidentiels et non des tarifs de vacances : la nuitée se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Vignoble, abbaye Saint-Michel et bords du Tarn",
+        body: "Gaillac est une ville de vin : son vignoble, l'un des plus anciens de France, entoure la ville et structure l'offre locale, avec des caves ouvertes à la visite et des fêtes aux vendanges. L'abbaye Saint-Michel, sur les bords du Tarn, est le monument qui regroupe le patrimoine du centre. Avec des enfants, on garde le vin pour l'arrière-plan et on privilégie la promenade au bord de l'eau et le parc. Horaires, dates de fêtes et visites se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "3 espaces verts relevés, dont 1 avec aire de jeux",
+        body: "Le relevé cartographique retient 3 espaces verts sur la commune, dont 1 porte une aire de jeux (source : OpenStreetMap) : le parc Foucault, d'environ 7 hectares, le plus grand terrain de jeu de la ville. L'emprise cumulée est d'environ 10 hectares avec le parc Pichery, autour de 2,5 hectares. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers : trois espaces seulement, c'est peu pour une ville de 16 000 habitants, et le Tarn fait le complément."
+      },
+      {
+        heading: "Sécurité 8,1/10, qualité de vie 7,8/10",
+        body: "Gaillac affiche 8,1/10 sur l'axe sécurité (source : notre fiche ville), huitième des quatre-vingt-trois destinations à égalité avec sept autres, pour une médiane de série à 6,2. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 7,8/10, huitième à égalité avec onze autres, au-dessus de la médiane de série (6,8) : c'est la meilleure des six villes de ce lot. Avec 16 080 habitants, la ville offre plus de services qu'un bourg, sans atteindre ceux d'une grande ville."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Toulouse (Toulouse-Blagnac), à 52 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,3 °C de moyenne en janvier et 22,6 °C en juillet. Les ancres propres à la commune viennent du seed : 5 °C en janvier, 25,5 °C en juillet et 2 200 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 2 de janvier à mai et d'octobre à décembre ; niveau 3 en juin et en septembre ; niveau 4 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas l'affluence des vendanges. Le moteur place septembre en tête, puis juin, puis mai."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Tarn est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["gaillac","albi","toulouse"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Gaillac",
+      "parent solo Tarn",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-provins-2026",
+    title: "Vacances monoparentales à Provins en 2026",
+    metaTitle: "Vacances monoparentales à Provins 2026",
+    metaDesc: "Provins : 6,9/10 au composite monoparental, T3 930 €, sécurité 7,5/10, 25e sur 83. Transilien P direct de Paris-Est, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Provins sort à 6,9/10 au composite « famille monoparentale », vingt-cinquième des quatre-vingt-trois destinations à égalité avec neuf autres (source : notre indice de séjour). Le détail : sécurité 7,5/10, coût de la vie 6,7/10, qualité de vie 6,8/10 et transports 5,6/10 (source : notre fiche ville). Le marché : 930 € le T3 de référence et 2 300 € le mètre carré (source : notre estimation des loyers), au-dessus de la médiane de série pour le loyer (900 €) et à son niveau pour le mètre carré (2 300 €). C'est la seule des six villes de ce lot en Île-de-France : 11 824 habitants au recensement 2022 contre 12 206 en 2011, soit 3,1 % de moins (source : Insee, recensements). Le moteur la classe en €€. Atout : une ville médiévale classée à l'Unesco, desservie en direct depuis Paris-Est. Limite : un trajet d'environ 1 h 25.",
+    sections: [
+      {
+        heading: "Rejoindre Provins en train : la ligne P depuis Paris-Est",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Provins est le terminus d'une branche de la ligne P du Transilien, directe depuis Paris-Est en 1 h 23 à 1 h 26, à raison d'un train par heure d'après un agrégateur ; la ligne subit des travaux réguliers. Horaires exacts sur SNCF Connect ou transilien.com, à la date voulue. L'axe transports est à 5,6/10, sous la médiane de série (6,4), soixante et unième des quatre-vingt-trois destinations à égalité avec sept autres : sur place, la vieille ville se parcourt à pied, la ville basse demande de marcher ou de prendre le bus."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Provins sort à 6,7/10 (source : notre fiche ville), vingt-huitième des quatre-vingt-trois destinations à égalité avec dix autres, pour une médiane de série à 6,4. Le marché : 930 € le T3 de référence et 2 300 € le mètre carré. À 40 kilomètres à vol d'oiseau, Sens, déjà dans la série, affiche un T3 à 920 € ; à 47 kilomètres, Fontainebleau, également dans la série, à 1 200 € et 3 800 € le mètre carré. Ce sont des repères résidentiels et non des tarifs de vacances : la nuitée se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Cité médiévale, remparts et roses",
+        body: "La cité médiévale de Provins est inscrite au patrimoine mondial de l'Unesco depuis 2001. Elle réunit la tour César, des remparts, des souterrains et un programme de spectacles médiévaux en saison, ce qui en fait l'une des rares destinations du lot où les enfants ont un décor à explorer. La rose de Provins, cultivée ici depuis le Moyen Âge, a donné son nom à une roseraie. Horaires, spectacles et tarifs se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "16 espaces verts relevés, dont 1 avec aire de jeux",
+        body: "Le relevé cartographique retient 16 espaces verts sur la commune, dont 1 seul porte une aire de jeux (source : OpenStreetMap) : le parc de l'office de tourisme. L'emprise cumulée est d'environ 23 hectares, la plus grande du lot : le parc du boulevard d'Aligre (5 hectares), le parc des Remparts (4 hectares) et la roseraie (3,5 hectares). C'est un cadre de promenade plus qu'un terrain de jeu : peu d'aires équipées pour beaucoup de verdure. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 7,5/10, qualité de vie 6,8/10",
+        body: "Provins affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), dix-neuvième des quatre-vingt-trois destinations à égalité avec sept autres, pour une médiane de série à 6,2. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,8/10, trentième à égalité avec seize autres, pile sur la médiane de série. Avec 11 824 habitants, c'est la plus petite des six villes de ce lot."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Paris (Paris-Montsouris), à 76 kilomètres, donc peu précise (source : normales Météo-France 1991-2020). Elle donne 5,4 °C de moyenne en janvier et 20,9 °C en juillet. Les ancres propres à la commune viennent du seed : 4 °C en janvier, 21,5 °C en juillet et 1 750 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les week-ends de spectacles médiévaux. Le moteur place juin en tête, puis juillet, puis août."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Seine-et-Marne est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["provins","sens","fontainebleau"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Provins",
+      "parent solo Seine-et-Marne",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-issoire-2026",
+    title: "Vacances monoparentales à Issoire en 2026",
+    metaTitle: "Vacances monoparentales à Issoire 2026",
+    metaDesc: "Issoire : 6,9/10 au composite monoparental, T3 720 €, coût 7,6/10, sécurité 7,5/10. TER direct de Clermont-Ferrand, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Issoire sort à 6,9/10 au composite « famille monoparentale », vingt-cinquième des quatre-vingt-trois destinations à égalité avec neuf autres (source : notre indice de séjour). Le détail : sécurité 7,5/10, coût de la vie 7,6/10, huitième de la série à égalité avec onze autres, qualité de vie 6,8/10 et transports 5,6/10 (source : notre fiche ville). Le marché : 720 € le T3 de référence, un des six loyers les plus bas du lot, et 1 600 € le mètre carré (source : notre estimation des loyers), contre 900 € et 2 300 € de médiane de série. La ville gagne des habitants : 15 078 au recensement 2022 contre 14 170 en 2011, soit 6,4 % de plus (source : Insee, recensements). Le moteur la classe en €€. Atout : un TER direct de Clermont-Ferrand en une demi-heure. Limite : les volcans d'Auvergne demandent un véhicule.",
+    sections: [
+      {
+        heading: "Rejoindre Issoire en train : un TER direct depuis Clermont-Ferrand",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Issoire est reliée à Clermont-Ferrand par un TER direct en 25 à 40 minutes selon les trains, avec plus de vingt trains par jour d'après un comparateur. Les autres destinations passent par Clermont. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 5,6/10, sous la médiane de série (6,4), soixante et unième des quatre-vingt-trois destinations à égalité avec sept autres : une fois arrivé, le centre se fait à pied, l'arrière-pays demande un bus ou une voiture."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Issoire sort à 7,6/10 (source : notre fiche ville), huitième des quatre-vingt-trois destinations à égalité avec onze autres, pour une médiane de série à 6,4. Le marché : 720 € le T3 de référence et 1 600 € le mètre carré. À 29 kilomètres à vol d'oiseau, Clermont-Ferrand affiche un T3 à 900 €, soit 180 € de plus ; à 66 kilomètres, Vichy à 640 €. Ce sont des repères résidentiels et non des tarifs de vacances : la nuitée se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "L'abbatiale romane et la porte des volcans",
+        body: "Issoire est connue pour son abbatiale Saint-Austremoine, grand édifice roman d'Auvergne, et pour sa tour de l'Horloge. La ville est aussi la porte d'entrée de paysages volcaniques que l'on rejoint en voiture ou en autocar, sans que notre dossier permette de citer une desserte précise : à vérifier auprès de l'office de tourisme. Pour des enfants, la ville se parcourt en une demi-journée, les parcs faisant le reste."
+      },
+      {
+        heading: "5 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 5 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap) : le parc Edith Piaf, d'environ 3 hectares, le square André Rioux et le parc Cassin. L'emprise cumulée est d'environ 6 hectares. Trois aires de jeux sur cinq espaces, c'est un ratio élevé pour le lot : le jeu y est le plus facile à trouver, à pied depuis le centre. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 7,5/10, qualité de vie 6,8/10",
+        body: "Issoire affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), dix-neuvième des quatre-vingt-trois destinations à égalité avec sept autres, pour une médiane de série à 6,2. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,8/10, trentième à égalité avec seize autres, pile sur la médiane de série. Avec 15 078 habitants, la ville offre ceux d'une petite ville, pas d'une agglomération."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Clermont-Ferrand (Clermont-Aulnat), à 28 kilomètres (source : normales Météo-France 1991-2020). Elle donne 4,3 °C de moyenne en janvier et 20,6 °C en juillet. Les ancres propres à la commune viennent du seed : 3,5 °C en janvier, 23,5 °C en juillet et 1 900 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne dit rien de la fréquentation des sommets. Le moteur place juillet en tête, puis juin, puis août."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse du Puy-de-Dôme est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["issoire","clermont-ferrand","vichy"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Issoire",
+      "parent solo Puy-de-Dôme",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-saint-lo-2026",
+    title: "Vacances monoparentales à Saint-Lô en 2026",
+    metaTitle: "Vacances monoparentales à Saint-Lô 2026",
+    metaDesc: "Saint-Lô : 6,9/10 au composite monoparental, T3 760 €, sécurité 8,2/10, 6e sur 83. TER direct de Caen, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Saint-Lô sort à 6,9/10 au composite « famille monoparentale », vingt-cinquième des quatre-vingt-trois destinations à égalité avec neuf autres (source : notre indice de séjour). Sa force : la sécurité, 8,2/10, sixième de la série à égalité avec une autre, la meilleure des six villes de ce lot (source : notre fiche ville). Le reste : coût de la vie 7,6/10, transports 5,6/10 et qualité de vie 5,9/10. Le marché : 760 € le T3 de référence et 1 600 € le mètre carré (source : notre estimation des loyers), contre 900 € et 2 300 € de médiane de série. La ville gagne des habitants : 19 352 au recensement 2022 contre 18 874 en 2011, soit 2,5 % de plus (source : Insee, recensements). Le moteur la classe en €€. Atout : un TER direct de Caen. Limite : la qualité de vie sous la médiane.",
+    sections: [
+      {
+        heading: "Rejoindre Saint-Lô en train : un TER direct depuis Caen",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Saint-Lô est reliée à Caen par un TER direct en 43 à 55 minutes selon les trains, à raison de 14 à 16 trains par jour d'après SNCF Connect ; Paris-Saint-Lô se fait avec correspondance, à vérifier. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 5,6/10, sous la médiane de série (6,4), soixante et unième des quatre-vingt-trois destinations à égalité avec sept autres : en ville, on marche, et la côte demande un bus ou une voiture."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Saint-Lô sort à 7,6/10 (source : notre fiche ville), huitième des quatre-vingt-trois destinations à égalité avec onze autres, pour une médiane de série à 6,4. Le marché : 760 € le T3 de référence et 1 600 € le mètre carré. À 53 kilomètres à vol d'oiseau, Caen, déjà dans la série, affiche un T3 à 930 € et 2 500 € le mètre carré ; à 34 kilomètres, Bayeux à 760 €, au même loyer. Ce sont des repères résidentiels et non des tarifs de vacances : la nuitée se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "Ville reconstruite, haras et remparts",
+        body: "Saint-Lô a été détruite en 1944 puis reconstruite : l'urbanisme de l'après-guerre en fait une ville peu pittoresque, mais lisible et sûre, bâtie autour d'un rempart conservé et de l'église Notre-Dame. Le haras national et ses chevaux sont la sortie qui plaît le plus aux enfants. Les plages du Débarquement et Bayeux sont à une demi-journée de déplacement ; leurs accès et horaires se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "4 espaces verts relevés, dont 2 avec aire de jeux",
+        body: "Le relevé cartographique retient 4 espaces verts sur la commune, dont 2 portent une aire de jeux (source : OpenStreetMap) : le vallon de la Dollée, d'environ 6 hectares, et le square des Beaux-Regards. L'emprise cumulée est d'environ 7 hectares. Le vallon de la Dollée est la plus grande aire de jeu du lot après celle de Gaillac. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 8,2/10, qualité de vie 5,9/10",
+        body: "Saint-Lô affiche 8,2/10 sur l'axe sécurité (source : notre fiche ville), sixième des quatre-vingt-trois destinations à égalité avec une autre, pour une médiane de série à 6,2. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 5,9/10, soixante-deuxième à égalité avec treize autres, sous la médiane de série (6,8) : c'est le contrepoint du dossier. Avec 19 352 habitants, c'est la plus peuplée des six villes de ce lot."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Caen (Caen-Carpiquet), à 47 kilomètres (source : normales Météo-France 1991-2020). Elle donne 5,6 °C de moyenne en janvier et 18 °C en juillet. Les ancres propres à la commune viennent du seed : 5,5 °C en janvier, 20 °C en juillet et 1 700 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne dit rien des plages du Débarquement, bien plus fréquentées l'été. Le moteur place juillet en tête, puis août, puis juin."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de la Manche est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["saint-lo","bayeux","caen"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Saint-Lô",
+      "parent solo Manche",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
+    slug: "vacances-monoparentales-moissac-2026",
+    title: "Vacances monoparentales à Moissac en 2026",
+    metaTitle: "Vacances monoparentales à Moissac 2026",
+    metaDesc: "Moissac : 6,9/10 au composite monoparental, T3 790 €, coût 8,0/10, 25e sur 83. TER direct de Toulouse, cloître roman, parcs, aides.",
+    category: "famille",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Moissac sort à 6,9/10 au composite « famille monoparentale », vingt-cinquième des quatre-vingt-trois destinations à égalité avec neuf autres (source : notre indice de séjour). Le détail : coût de la vie 8,0/10, sixième de la série à égalité avec une autre, sécurité 7,5/10, qualité de vie 6,8/10 et transports 4,2/10 (source : notre fiche ville). Le marché : 790 € le T3 de référence et 1 500 € le mètre carré (source : notre estimation des loyers), contre 900 € et 2 300 € de médiane de série. La commune a gagné 1 287 habitants en onze ans : 13 652 habitants au recensement 2022 contre 12 365 en 2011, soit 10,4 % de plus (source : Insee, recensements). Le moteur la classe en €. Atout : un cloître roman et le canal. Limite : les parcs sont minuscules et le réseau local est mince.",
+    sections: [
+      {
+        heading: "Rejoindre Moissac en train : un TER direct depuis Toulouse",
+        body: "Selon les comparateurs consultés en ligne avant écriture, Moissac est reliée à Toulouse-Matabiau par un TER direct en 48 à 59 minutes selon les sources, à raison d'une douzaine de trains par jour d'après un comparateur. Vers Bordeaux, les comparateurs se contredisent sur l'existence d'un direct : l'itinéraire habituel passe par Toulouse. Horaires exacts sur SNCF Connect, à la date voulue. L'axe transports est à 4,2/10, très sous la médiane de série (6,4), soixante-dix-huitième des quatre-vingt-trois destinations à égalité avec cinq autres : en ville, la marche suffit pour le centre, et le canal se parcourt à vélo."
+      },
+      {
+        heading: "Quel budget : repères de coût et villes voisines",
+        body: "Sur l'axe coût de la vie, un score haut signifie abordable. Moissac sort à 8,0/10 (source : notre fiche ville), sixième des quatre-vingt-trois destinations à égalité avec une autre, pour une médiane de série à 6,4. Le marché : 790 € le T3 de référence et 1 500 € le mètre carré. À 24 kilomètres à vol d'oiseau, Montauban affiche un T3 à 860 € et 2 200 € le mètre carré ; à 38 kilomètres, Agen à 750 €. Ce sont des repères résidentiels et non des tarifs de vacances : la nuitée se vérifie auprès de l'hébergeur."
+      },
+      {
+        heading: "L'abbaye, son cloître et le canal de Garonne",
+        body: "Moissac vaut pour l'abbaye Saint-Pierre et son cloître roman, inscrits au patrimoine mondial de l'Unesco au titre des chemins de Saint-Jacques-de-Compostelle, et pour le canal latéral à la Garonne, plat et propice au vélo. La ville est aussi connue pour son chasselas, un raisin de table. Pour les enfants, le canal et le chemin de halage comptent plus que le cloître. Horaires, visites et dates se vérifient auprès de l'office de tourisme."
+      },
+      {
+        heading: "8 espaces verts relevés, dont 3 avec aire de jeux",
+        body: "Le relevé cartographique retient 8 espaces verts sur la commune, dont 3 portent une aire de jeux (source : OpenStreetMap) : l'aire de loisirs du Petit Bois, le square du Sarlac et le jardin Firmin Bouisset. L'emprise cumulée est d'environ 1 hectare : c'est la plus petite du lot, ce sont des squares de quartier et non des parcs. Les bords du canal compensent, mais ils n'apparaissent pas dans ce relevé. Le relevé est contributif, pas un registre, donc ces nombres sont des planchers."
+      },
+      {
+        heading: "Sécurité 7,5/10, qualité de vie 6,8/10",
+        body: "Moissac affiche 7,5/10 sur l'axe sécurité (source : notre fiche ville), dix-neuvième des quatre-vingt-trois destinations à égalité avec sept autres, pour une médiane de série à 6,2. L'indicateur est un agrégat communal estimé par notre modèle : il ne décrit ni un quartier ni une heure de la journée. La qualité de vie est à 6,8/10, trentième à égalité avec seize autres, pile sur la médiane de série. Avec 13 652 habitants, la ville offre ceux d'une petite ville, pas d'une agglomération."
+      },
+      {
+        heading: "Quand y aller, et la limite de notre indicateur",
+        body: "La station climatique de référence est celle de Toulouse (Toulouse-Blagnac), à 58 kilomètres (source : normales Météo-France 1991-2020). Elle donne 6,3 °C de moyenne en janvier et 22,6 °C en juillet. Les ancres propres à la commune viennent du seed : 5,5 °C en janvier, 26 °C en juillet et 2 100 heures de soleil annuelles (source : notre fiche ville). Notre indicateur d'affluence donne, de 1 (très calme) à 5 (saturé) : niveau 1 de janvier à mai et d'octobre à décembre ; niveau 2 en juin et en septembre ; niveau 3 en juillet et en août (source : notre calendrier des saisons). C'est un indicateur régional générique : il ne capte pas les pics de pèlerinage. Le moteur place septembre en tête, puis juin, puis mai."
+      },
+      {
+        heading: "Aides : dispositifs, organismes, aucun montant",
+        body: "Les barèmes sont révisés régulièrement et dépendent du quotient familial : les citer ici reviendrait à publier un chiffre faux à moyen terme, donc aucun montant n'est écrit. Quatre pistes à examiner avant de réserver. VACAF, sur vacaf.org, conventionne des structures d'accueil et déduit son aide de la facture, ce qui suppose de choisir un établissement agréé et de le vérifier avant la réservation, pas après. Les chèques-vacances de l'ANCV, sur ancv.com, sont acceptés dans une partie de l'hébergement et en billetterie culturelle. Certaines caisses d'allocations familiales proposent des aides aux vacances, et la caisse de Tarn-et-Garonne est à interroger : leur existence et leurs conditions se vérifient sur caf.fr, plusieurs mois à l'avance. Le comité social et économique de l'employeur négocie souvent de la billetterie ou une participation au séjour. Tous ces dispositifs se calculent sur le quotient familial : ils suivent la résidence en France, pas la nationalité."
+      }
+    ],
+    relatedCities: ["moissac","montauban","agen"],
+    relatedGuides: [
+      "partir-en-vacances-seul-avec-ses-enfants-2026"
+    ],
+    tags: [
+      "vacances monoparentales Moissac",
+      "parent solo Tarn-et-Garonne",
+      "vacances en train avec enfants"
+    ]
+  },
+  {
     slug: "10-choses-a-faire-a-gerardmer-2026",
     title: "10 choses à faire à Gérardmer",
     metaTitle: "10 choses à faire à Gérardmer en 2026",

@@ -11367,6 +11367,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "vacances-monoparentales-saint-die-des-vosges-2026",
+      "title": "Vacances monoparentales à Saint-Dié-des-Vosges en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-gaillac-2026",
+      "title": "Vacances monoparentales à Gaillac en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-provins-2026",
+      "title": "Vacances monoparentales à Provins en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-issoire-2026",
+      "title": "Vacances monoparentales à Issoire en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-saint-lo-2026",
+      "title": "Vacances monoparentales à Saint-Lô en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "vacances-monoparentales-moissac-2026",
+      "title": "Vacances monoparentales à Moissac en 2026",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "10-choses-a-faire-a-gerardmer-2026",
       "title": "10 choses à faire à Gérardmer",
       "emoji": "🏞️"
@@ -12029,6 +12059,11 @@
       "count": 40
     },
     {
+      "slug": "vacances-en-train-avec-enfants",
+      "label": "vacances en train avec enfants",
+      "count": 36
+    },
+    {
       "slug": "famille-monoparentale-ile-de-france",
       "label": "famille monoparentale Île-de-France",
       "count": 34
@@ -12037,11 +12072,6 @@
       "slug": "bordeaux",
       "label": "Bordeaux",
       "count": 31
-    },
-    {
-      "slug": "vacances-en-train-avec-enfants",
-      "label": "vacances en train avec enfants",
-      "count": 30
     },
     {
       "slug": "lyon",
