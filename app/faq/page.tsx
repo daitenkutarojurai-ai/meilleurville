@@ -3,6 +3,7 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { Badge } from "@/components/ui/Badge";
+import { EmojiBadge, toneFor } from "@/components/EmojiBadge";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { CITIES_COUNT, REGIONS_COUNT, DEPARTMENTS_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
@@ -134,6 +135,16 @@ const FAQ_SECTIONS = [
   },
 ];
 
+// Identité « Couleurs » : une bande par rubrique, jamais deux voisines identiques
+// (6 rubriques → la 6e reprend l'indigo, séparée de la 1re par quatre bandes).
+const SECTION_BANDS = ["band-indigo", "band-sky", "band-pink", "band-aqua", "band-lilac", "band-indigo"];
+const SECTION_EMOJIS = ["📊", "💬", "🔒", "⚖️", "🧭", "📚"];
+const CHIP_TONES = [
+  "bg-[#EEF2FF] text-[#3730A3] ring-[#C7D2FE]",
+  "bg-[#FDF2F8] text-[#9D174D] ring-[#FBCFE8]",
+  "bg-[#ECFEFF] text-[#155E75] ring-[#A5F3FC]",
+];
+
 export default function FaqPage() {
   const allQuestions = FAQ_SECTIONS.flatMap((s) => s.questions);
   const jsonLd = {
@@ -157,58 +168,100 @@ export default function FaqPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <div className="flex justify-center mb-4">
+            <EmojiBadge emoji="❓" tone="pink" size="lg" className="shadow-[0_12px_28px_-12px_rgba(219,39,119,0.5)]" />
+          </div>
           <Badge variant="accent" className="mb-3">FAQ</Badge>
-          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">Questions fréquentes</h1>
-          <p className="text-[var(--text-secondary)]">
+          <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
+            Questions <span className="font-display gradient-text italic pr-1">fréquentes</span>
+          </h1>
+          <p className="text-[var(--text-secondary)] text-lg max-w-2xl mx-auto">
             Tout ce que vous voulez savoir sur MaVilleIdéale — les scores, les avis et la méthode.
           </p>
+          <nav aria-label="Rubriques de la FAQ" className="mt-7 flex flex-wrap justify-center gap-2 text-xs font-semibold">
+            {FAQ_SECTIONS.map((section, i) => {
+              const tone = CHIP_TONES[i % CHIP_TONES.length];
+              return (
+                <a
+                  key={section.title}
+                  href={`#faq-${i + 1}`}
+                  className={`inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 ring-1 transition-transform hover:-translate-y-0.5 ${tone}`}
+                >
+                  <span aria-hidden="true">{SECTION_EMOJIS[i % SECTION_EMOJIS.length]}</span>
+                  {section.title}
+                </a>
+              );
+            })}
+          </nav>
         </div>
       </section>
 
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12 space-y-12">
-        {FAQ_SECTIONS.map((section) => (
-          <div key={section.title}>
-            <h2 className="text-lg font-bold text-[var(--text-primary)] mb-5 pb-3 border-b border-[var(--border)]">
-              {section.title}
-            </h2>
-            <div className="space-y-5">
-              {section.questions.map((item) => (
-                <div key={item.q} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                  <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.q}</h3>
-                  <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{item.a}</p>
+      {FAQ_SECTIONS.map((section, i) => {
+        const band = SECTION_BANDS[i % SECTION_BANDS.length];
+        return (
+          <section key={section.title} id={`faq-${i + 1}`} className={`band ${band} scroll-mt-20 py-12`}>
+            <div className="mx-auto max-w-3xl px-4 sm:px-6">
+              <div className="flex items-center gap-3 mb-6">
+                <EmojiBadge emoji={SECTION_EMOJIS[i % SECTION_EMOJIS.length]} tone={toneFor(i)} />
+                <div>
+                  <p className="text-[11px] uppercase tracking-widest font-semibold text-[#4338CA]">
+                    Rubrique {i + 1} / {FAQ_SECTIONS.length}
+                  </p>
+                  <h2 className="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">{section.title}</h2>
                 </div>
-              ))}
+              </div>
+              <div className="space-y-4">
+                {section.questions.map((item, j) => (
+                  <div
+                    key={item.q}
+                    className="flex gap-4 rounded-2xl bg-white p-5 shadow-[0_12px_30px_-22px_rgba(67,56,202,0.55)] ring-1 ring-[#E0E7FF]"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className={`grad-head-${(i + j) % 6} flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-bold`}
+                    >
+                      Q
+                    </span>
+                    <div className="min-w-0">
+                      <h3 className="font-semibold text-[var(--text-primary)] mb-2">{item.q}</h3>
+                      <p className="text-sm text-[var(--text-secondary)] leading-relaxed">{item.a}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
-        ))}
+          </section>
+        );
+      })}
 
-        <div className="rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/5 p-8 text-center">
-          <p className="font-semibold text-[var(--text-primary)] mb-2">Vous n&apos;avez pas trouvé votre réponse ?</p>
-          <p className="text-sm text-[var(--text-secondary)] mb-5">
+      <section className="band band-bold py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <span aria-hidden="true" className="text-3xl">💬</span>
+          <p className="mt-2 text-xl font-semibold text-[var(--text-primary)] mb-2">Vous n&apos;avez pas trouvé votre réponse ?</p>
+          <p className="text-sm text-[var(--text-secondary)] mb-6">
             Notre équipe répond sous 48h ouvrables.
           </p>
           <Link
             href="/contact"
-            className="inline-flex items-center gap-2 rounded-xl bg-[var(--accent)] text-white font-semibold px-5 py-2.5 text-sm hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 rounded-xl bg-white text-[#4338CA] font-semibold px-5 py-2.5 text-sm shadow-[0_10px_24px_-12px_rgba(0,0,0,0.35)] hover:-translate-y-0.5 transition-transform"
           >
             Contacter l&apos;équipe →
           </Link>
+          <div className="mt-6 flex flex-wrap justify-center gap-2.5">
+            <Link href="/methode" className="rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/35 hover:bg-white/25 transition-colors">
+              Méthodologie →
+            </Link>
+            <Link href="/donnees" className="rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/35 hover:bg-white/25 transition-colors">
+              Données & Sources →
+            </Link>
+            <Link href="/city-match" className="rounded-full bg-white/15 px-4 py-2 text-sm font-medium text-white ring-1 ring-white/35 hover:bg-white/25 transition-colors">
+              Faire le quiz →
+            </Link>
+          </div>
         </div>
-
-        <div className="flex flex-wrap gap-3">
-          <Link href="/methode" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Méthodologie →
-          </Link>
-          <Link href="/donnees" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Données & Sources →
-          </Link>
-          <Link href="/city-match" className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors">
-            Faire le quiz →
-          </Link>
-        </div>
-      </div>
+      </section>
 
       <StaticPageCrossLink exclude="/faq" />
       <Footer />

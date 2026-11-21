@@ -1754,3 +1754,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `components/StaticPageCrossLink.tsx` (encore blanc à filet gris, bas des pages statiques).
 2. Hub `/comparer` (FR) + EN `/compare`.
 3. `components/DromStrip.tsx` : tuiles « Outre-mer » à texte de palier sur fond sombre (vérifier contraste).
+
+## 2026-11-21 ~03:00 UTC — FAQ (FR `/faq` + EN `/faq`) + bloc partagé `StaticPageCrossLink`
+
+**Surface** : la page FAQ des deux locales et le bloc « Ailleurs sur MaVilleIdéale » (bas de `/faq`, `/outils`, `/glossaire`, `/calendrier-immobilier`, `/methode`). Avant : FAQ FR en en-tête blanc à filet gris, six rubriques sur le canevas en cartes à filet gris, CTA indigo pâle, liens en boutons gris ; EN en un seul bloc blanc ; cross-link blanc à cartes grises.
+
+**Changé** : hero `.bg-aurora` + `EmojiBadge` ❓ + titre `.gradient-text` ; FR — puces d'ancre vers les 6 rubriques (pastels indigo / rose / cyan, sans JS), une bande par rubrique (indigo, sky, pink, aqua, lilac, indigo) avec pastille emoji et « Rubrique N / 6 », questions en cartes blanches à pastille « Q » `grad-head-*` ; CTA contact + 3 liens en `band-bold` (seul de la page). EN — questions en `band-indigo`, même cartes, ligne de compteurs en pilule. Cross-link en `band-lilac`, cartes blanches à pastille emoji et anneau teinté en rotation. Copie et JSON-LD inchangés.
+
+**Fichiers** : `app/faq/page.tsx`, `app/[locale]/faq/page.tsx`, `components/StaticPageCrossLink.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 3 fichiers : 0 problème. Captures playwright `/faq`, `/en/faq`, `/outils` 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `/outils` : en-tête blanc à filet gris + grille d'outils sur canevas.
+2. `/calendrier-immobilier` : en-tête blanc à filet + mois en cartes grises.
+3. `/glossaire` : en-tête blanc + sections sans bande (1 300 lignes, découpage par lettre).

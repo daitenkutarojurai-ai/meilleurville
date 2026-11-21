@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
+import { EmojiBadge } from "@/components/EmojiBadge";
 import { pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT, GUIDES_COUNT, RANKINGS_COUNT } from "@/lib/site-stats";
 
@@ -68,22 +69,46 @@ export default function EnFaq() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
-      <section className="mx-auto max-w-3xl px-4 sm:px-6 pt-20 pb-16">
-        <h1 className="text-4xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight mb-4">FAQ</h1>
-        <p className="text-lg text-[var(--text-secondary)] leading-relaxed mb-10">
-          What people ask about our French city rankings — methodology, data, updates, editorial independence. {GUIDES_COUNT} long-form guides cover everything else.
-        </p>
-        <dl className="space-y-6">
-          {FAQ.map((f) => (
-            <div key={f.q} className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-6">
-              <dt className="font-bold text-[var(--text-primary)] mb-2">{f.q}</dt>
-              <dd className="text-[var(--text-secondary)] leading-relaxed">{f.a}</dd>
-            </div>
-          ))}
-        </dl>
-        <p className="mt-10 text-sm text-[var(--text-tertiary)]">
-          {RANKINGS_COUNT} themed rankings · {CITIES_COUNT} cities · all data sourced from official French open data.
-        </p>
+      <section className="relative overflow-hidden bg-aurora pt-20 pb-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
+          <div className="flex justify-center mb-4">
+            <EmojiBadge emoji="❓" tone="pink" size="lg" className="shadow-[0_12px_28px_-12px_rgba(219,39,119,0.5)]" />
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight mb-4 leading-[1.05]">
+            <span className="font-display gradient-text italic pr-1">FAQ</span>
+          </h1>
+          <p className="text-lg text-[var(--text-secondary)] leading-relaxed max-w-2xl mx-auto">
+            What people ask about our French city rankings — methodology, data, updates, editorial independence. {GUIDES_COUNT} long-form guides cover everything else.
+          </p>
+        </div>
+      </section>
+      <section className="band band-indigo py-12">
+        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+          <dl className="space-y-4">
+            {FAQ.map((f, i) => (
+              <div
+                key={f.q}
+                className="flex gap-4 rounded-2xl bg-white p-5 sm:p-6 shadow-[0_12px_30px_-22px_rgba(67,56,202,0.55)] ring-1 ring-[#E0E7FF]"
+              >
+                <span
+                  aria-hidden="true"
+                  className={`grad-head-${i % 6} flex h-8 w-8 shrink-0 items-center justify-center rounded-xl text-sm font-bold`}
+                >
+                  Q
+                </span>
+                <div className="min-w-0">
+                  <dt className="font-bold text-[var(--text-primary)] mb-2">{f.q}</dt>
+                  <dd className="text-[var(--text-secondary)] leading-relaxed">{f.a}</dd>
+                </div>
+              </div>
+            ))}
+          </dl>
+          <p className="mt-8 text-center">
+            <span className="inline-flex flex-wrap items-center justify-center gap-1 rounded-full bg-white px-4 py-2 text-sm font-medium text-[#3730A3] ring-1 ring-[#C7D2FE]">
+              {RANKINGS_COUNT} themed rankings · {CITIES_COUNT} cities · all data sourced from official French open data.
+            </span>
+          </p>
+        </div>
       </section>
       <Footer />
     </main>
