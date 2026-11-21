@@ -43702,6 +43702,276 @@ export const GUIDES: Guide[] = [
     tags: ["famille Bourg-en-Bresse 2026", "vivre en famille Bourg-en-Bresse", "loyer T3 Bourg-en-Bresse", "écoles Bourg-en-Bresse", "Bourg-en-Bresse avec enfants"],
   },
   {
+    slug: "famille-a-brive-la-gaillarde-2026",
+    title: "Famille à Brive-la-Gaillarde en 2026 : un T3 à 780 €, 1 834 € le m², Culture 7,5 et Sécurité 6,7",
+    metaTitle: "Famille à Brive-la-Gaillarde 2026 : T3 780 €, 1 834 €/m²",
+    metaDesc: "Famille à Brive : T3 à 780 €, appartements à 1 834 €/m², Écoles 6,6, Sécurité 6,7, Culture 7,5. Budget, parcs et comparaison avec Limoges et Périgueux.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Brive-la-Gaillarde loue un T3 780 € (notre estimation des loyers) et vend l'appartement 1 834 € le m², soit environ 147 000 € pour 80 m². Les notes d'une famille : Sécurité 6,7 (rang 145 sur 593), Écoles 6,6 (rang 105) et Culture 7,5 (rang 69). Sur 46 769 habitants, seuls 13,8 % ont moins de 15 ans, et 34,4 % ont 60 ans ou plus.",
+    sections: [
+      {
+        heading: "Quel budget logement à Brive-la-Gaillarde ?",
+        body: "Le T3 est à 780 €, le T2 à 580 € et le T1 à 420 €. L'appartement se vend 1 834 € le m² (885 ventes en 2024-2025, DVF) et la maison 1 922 € (829 ventes), soit seulement 4,8 % de plus : ici, passer de l'appartement à la maison coûte peu au m². Un appartement de 80 m² au prix médian revient à environ 147 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 21 210 € par unité de consommation (Insee, Filosofi 2021), avec 18 % de pauvreté. La population recule de 0,5 % depuis 2016. Les moins de 15 ans pèsent 13,8 % et les 60 ans et plus 34,4 % (Insee, recensement 2022) : la ville est plus âgée que la moyenne des villes que nous suivons.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Sécurité 6,7 (rang 145, 5 à égalité), Écoles 6,6 (rang 105, 110 à égalité), Transports 7,0 (rang 131), Coût 6,7 (rang 135), Nature 6,4 (rang 173) et Culture 7,5 (rang 69, 14 à égalité). La sécurité est la meilleure note du profil famille ; l'école est dans la moyenne haute, sans écart marqué avec les 109 autres villes qui ont la même note.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "D'après OpenStreetMap, la plaine des jeux de Tujac (23 hectares, au bord de la Corrèze) est le grand espace sportif de la ville, avec des terrains de hand, basket, foot et volley. Le jardin public de la Guierle, en centre-ville, a une aire de jeux pour les plus petits, accessible aux enfants à mobilité réduite d'après l'office de tourisme. Le parc Simone Veil complète l'offre côté quartier.",
+      },
+      {
+        heading: "Brive face à Tulle, Périgueux et Limoges",
+        body: "Tulle, à 22 km, loue le T3 700 € et vend l'appartement 871 € le m², avec Écoles 5,5. Périgueux, à 64 km, est à 720 € et 1 846 €, Écoles 5,8. Limoges, à 78 km, est à 800 € et 1 518 €, Écoles 6,2. Brive coûte 316 € de plus au m² que Limoges pour 0,4 point d'école en plus et un loyer T3 inférieur de 20 € ; Périgueux est au même prix d'achat avec 0,8 point d'école en moins.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Brive convient aux familles qui veulent une sécurité au-dessus de la moyenne, un achat sous 150 000 € pour 80 m² et une ville de 47 000 habitants qui garde une vie culturelle. Celles qui cherchent une grande offre d'activités pour adolescents regarderont Limoges ; celles qui veulent le prix le plus bas pourront aller à Tulle, avec une école moins bien notée.",
+      },
+    ],
+    relatedCities: ["brive-la-gaillarde", "tulle", "perigueux", "limoges"],
+    relatedGuides: [
+      "famille-a-limoges-2026",
+      "10-choses-a-faire-a-brive-la-gaillarde-2026",
+      "parent-solo-a-brive-la-gaillarde-2026",
+    ],
+    tags: ["famille Brive-la-Gaillarde 2026", "vivre en famille Brive-la-Gaillarde", "loyer T3 Brive-la-Gaillarde", "écoles Brive-la-Gaillarde", "Brive-la-Gaillarde avec enfants"],
+  },
+  {
+    slug: "famille-a-castres-2026",
+    title: "Famille à Castres en 2026 : un T3 à 700 €, 1 695 € le m², Coût 7,2 mais Transports 5,5",
+    metaTitle: "Famille à Castres 2026 : T3 700 €, 1 695 €/m², Écoles 6,6",
+    metaDesc: "Famille à Castres : T3 à 700 €, appartements à 1 695 €/m², Écoles 6,6, Coût 7,2, Transports 5,5. Budget, Gourjade et comparaison avec Albi et Toulouse.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Castres loue un T3 700 € (notre estimation des loyers) et vend l'appartement 1 695 € le m², soit environ 136 000 € pour 80 m², avec Écoles 6,6 (rang 105 sur 593) et Coût 7,2 (rang 110). Le point faible est la mobilité : Transports 5,5 (rang 332). Sur 42 700 habitants, 15,6 % ont moins de 15 ans, et la ville a gagné 3,3 % depuis 2016.",
+    sections: [
+      {
+        heading: "Quel budget logement à Castres ?",
+        body: "Le T3 est à 700 €, le T2 à 520 €. L'appartement se vend 1 695 € le m² (285 ventes en 2024-2025, DVF) et la maison 1 608 € (649 ventes) : la maison est 5,1 % moins chère au m² que l'appartement, et le marché porte surtout sur des maisons. Un appartement de 80 m² au prix médian coûte environ 136 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 20 940 € par unité de consommation (Insee, Filosofi 2021), avec 21 % de pauvreté. La population a progressé de 3,3 % depuis 2016. 15,6 % des habitants ont moins de 15 ans et 32,3 % ont 60 ans ou plus (Insee, recensement 2022).",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Coût 7,2 (rang 110, 18 à égalité), Écoles 6,6 (rang 105, 110 à égalité), Culture 6,6 (rang 152), Sécurité 6,2 (rang 189, 9 à égalité), Nature 5,7 (rang 262) et Transports 5,5 (rang 332, 25 à égalité). Le budget est l'argument principal ; sans voiture, le quotidien d'une famille reste difficile.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "Le parc de Gourjade, gratuit et ouvert toute l'année d'après l'office de tourisme d'Occitanie, offre des aires de jeux, une mini-ferme et des espaces de pique-nique ; un coche d'eau le relie au centre-ville par l'Agout. Le jardin du Mail, en centre-ville, a aussi une aire de jeux. Le musée Goya, seul musée de France entièrement consacré à l'art ibérique, propose des visites pour enfants.",
+      },
+      {
+        heading: "Castres face à Albi, Gaillac, Carcassonne et Toulouse",
+        body: "Albi, à 37 km, loue le T3 840 € et vend l'appartement 2 392 € le m², Écoles 7,7. Gaillac, à 43 km, est à 800 € et 1 669 €, Écoles 6,6. Carcassonne, à 44 km, est à 710 € et 1 288 €, Écoles 5,3, avec 28 % de pauvreté. Toulouse, à 65 km, est à 1 150 € et 3 222 €, Écoles 9,0. Albi coûte 697 € de plus au m² et 140 € de loyer de plus pour 1,1 point d'école en plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Castres convient aux familles qui achètent autour de 136 000 € pour 80 m², roulent en voiture et veulent un grand parc gratuit à portée. Celles qui placent l'école d'abord regarderont Albi, au prix de 697 € de plus au m² ; celles qui veulent travailler à Toulouse trouveront la distance de 65 km lourde au quotidien.",
+      },
+    ],
+    relatedCities: ["castres", "albi", "gaillac", "carcassonne", "toulouse"],
+    relatedGuides: [
+      "famille-a-albi-2026",
+      "10-choses-a-faire-a-castres-2026",
+      "parent-solo-a-castres-2026",
+    ],
+    tags: ["famille Castres 2026", "vivre en famille Castres", "loyer T3 Castres", "écoles Castres", "Castres avec enfants"],
+  },
+  {
+    slug: "famille-a-annemasse-2026",
+    title: "Famille à Annemasse en 2026 : un T3 à 1 350 €, 3 506 € le m², Écoles 7,7 et Transports 9,0",
+    metaTitle: "Famille à Annemasse 2026 : T3 1 350 €, 3 506 €/m², Écoles 7,7",
+    metaDesc: "Famille à Annemasse : T3 à 1 350 €, appartements à 3 506 €/m², Écoles 7,7, Transports 9,0, Coût 3,4. Budget et comparaison avec Annecy, Thonon, Cluses.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Annemasse loue un T3 1 350 € (notre estimation des loyers) et vend l'appartement 3 506 € le m², soit environ 280 000 € pour 80 m². En échange, Écoles 7,7 (rang 38 sur 593) et Transports 9,0 (rang 1, 23 villes à égalité). Le revers : Coût 3,4 (rang 522). C'est la plus jeune des villes de ce lot : 20,2 % des 37 595 habitants ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Annemasse ?",
+        body: "Le T3 est à 1 350 €, le T2 à 1 000 € et le T1 à 720 €. L'appartement se vend 3 506 € le m² (1 125 ventes en 2024-2025, DVF) ; les maisons, très rares (45 ventes), sont à 5 167 € le m², un prix à lire avec prudence sur un si petit échantillon. Un appartement de 80 m² au prix médian revient à environ 280 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 22 800 € par unité de consommation (Insee, Filosofi 2021), avec 22 % de pauvreté : la ville est chère, mais pas homogène. La population a progressé de 7,3 % depuis 2016, la plus forte hausse du lot. 20,2 % des habitants ont moins de 15 ans et 16,9 % ont 60 ans ou plus (Insee, recensement 2022).",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Transports 9,0 (rang 1, 23 à égalité), Écoles 7,7 (rang 38, 52 à égalité), Télétravail 7,5 (rang 39), Sécurité 6,8 (rang 138), Culture 6,6 (rang 152), Nature 6,4 (rang 173) et Coût 3,4 (rang 522, 9 à égalité). Une famille y gagne en école et en déplacements, et paie en logement.",
+      },
+      {
+        heading: "Quels transports et quels lieux pour les enfants ?",
+        body: "Le Léman Express relie la gare d'Annemasse à Genève-Cornavin en une vingtaine de minutes d'après les sites régionaux, et le tram 17 va d'Annemasse-Parc Montessuit à Lancy-Pont-Rouge, en service depuis le 15 décembre 2019. Côté espaces verts, d'après OpenStreetMap, le parc Montessuit (jeux) et la plaine de jeux de Romagny sont petits : la montagne et le lac, à 30 minutes en voiture, font le reste.",
+      },
+      {
+        heading: "Annemasse face à Annecy, Thonon et Cluses",
+        body: "Annecy, à 34 km, loue le T3 1 450 € et vend l'appartement 5 092 € le m², Écoles 8,7. Thonon-les-Bains, à 27 km, est à 1 200 € et 3 594 €, Écoles 5,8. Cluses, à 30 km, est à 1 050 € et 2 234 €, Écoles 5,3. Annemasse coûte 1 586 € de moins au m² qu'Annecy pour 1,0 point d'école en moins ; face à Cluses, elle ajoute 1 272 € au m² et 300 € de loyer pour 2,4 points d'école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Annemasse convient aux familles qui ont un budget de 280 000 € pour 80 m² ou de 1 350 € pour un T3 et qui veulent un train et un tram à pied, avec une école bien notée. Celles qui ont moins de 1 100 € de loyer regarderont Cluses, en acceptant une école à 5,3 ; celles qui placent l'école au-dessus de tout iront à Annecy, au prix de 1 586 € de plus au m².",
+      },
+    ],
+    relatedCities: ["annemasse", "annecy", "thonon-les-bains", "cluses"],
+    relatedGuides: [
+      "famille-a-annecy-2026",
+      "vivre-sans-voiture-annemasse-guide-2026",
+      "10-choses-a-faire-a-annemasse-2026",
+    ],
+    tags: ["famille Annemasse 2026", "vivre en famille Annemasse", "loyer T3 Annemasse", "écoles Annemasse", "Annemasse avec enfants"],
+  },
+  {
+    slug: "famille-a-issy-les-moulineaux-2026",
+    title: "Famille à Issy-les-Moulineaux en 2026 : un T3 à 1 800 €, 7 511 € le m², Écoles 9,0 et Nature 4,3",
+    metaTitle: "Famille à Issy-les-Moulineaux 2026 : T3 1 800 €, Écoles 9,0",
+    metaDesc: "Famille à Issy : T3 à 1 800 €, appartements à 7 511 €/m², Écoles 9,0, Nature 4,3, Coût 2,2. Budget, parcs, transports et comparaison avec Vanves et Meudon.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Issy-les-Moulineaux a la meilleure note Écoles du classement (9,0, rang 1 sur 593, 13 villes à égalité) et la plus lourde facture : un T3 à 1 800 € (notre estimation des loyers) et un appartement à 7 511 € le m², soit environ 601 000 € pour 80 m². Coût 2,2 (rang 570) et Nature 4,3 (rang 420) en sont la contrepartie. 17,9 % des 67 695 habitants ont moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Issy-les-Moulineaux ?",
+        body: "Le T3 est à 1 800 €, le T2 à 1 300 € et le T1 à 850 €. L'appartement se vend 7 511 € le m² (1 265 ventes en 2024-2025, DVF) et la maison 8 901 € (86 ventes), 18,5 % de plus. Un appartement de 80 m² au prix médian revient à environ 601 000 €, hors frais : c'est un achat pour un ménage à revenus élevés.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 33 650 € par unité de consommation (Insee, Filosofi 2021), avec 8 % de pauvreté, le plus haut revenu de ce lot. La population recule de 1,0 % depuis 2016. 17,9 % des habitants ont moins de 15 ans et 18,8 % ont 60 ans ou plus (Insee, recensement 2022).",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Écoles 9,0 (rang 1, 13 à égalité), Transports 9,0 (rang 1, 23 à égalité), Télétravail 9,0 (rang 1, 14 à égalité), Sécurité 7,2 (rang 116, 5 à égalité), Culture 7,5 (rang 69), Nature 4,3 (rang 420) et Coût 2,2 (rang 570, 24 à égalité). C'est le profil d'une ville où tout fonctionne, sauf le budget et la verdure.",
+      },
+      {
+        heading: "Quels transports et quels lieux pour les enfants ?",
+        body: "La ville compte deux stations de la ligne 12 du métro (Corentin Celton et Mairie d'Issy) et trois stations du tramway T2, d'après les données de transport en commun. Pour les enfants, d'après OpenStreetMap, le parc de l'île Saint-Germain (accessible par le RER C à Issy-Val-de-Seine ou le T2), le parc Suzanne Lenglen et le parc Henri Barbusse (4 hectares, jeux) sont les principaux espaces verts, ce qui explique une note Nature modeste.",
+      },
+      {
+        heading: "Issy face à Vanves, Clamart, Meudon et Boulogne-Billancourt",
+        body: "Vanves, à 1 km, loue le T3 1 400 € et vend l'appartement 6 222 € le m², Écoles 5,5. Clamart, à 2 km, est à 1 580 € et 5 535 €, Écoles 6,6. Meudon, à 3 km, est à 1 860 € et 5 503 €, Écoles 8,3. Boulogne-Billancourt, à 3 km, est à 2 000 € et 8 243 €, Écoles 8,7. Meudon offre 2 008 € de moins au m² qu'Issy pour 0,7 point d'école en moins : c'est l'arbitrage le plus net.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Issy convient aux familles qui ont un budget de 601 000 € pour 80 m² ou de 1 800 € pour un T3 et qui veulent la meilleure école, le métro et le tram. Celles qui veulent plus de nature ou un budget plus bas regarderont Meudon ou Clamart, qui coûtent 1 976 € à 2 008 € de moins au m².",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux", "vanves", "clamart", "meudon", "boulogne-billancourt"],
+    relatedGuides: [
+      "famille-a-boulogne-billancourt-2026",
+      "10-choses-a-faire-a-issy-les-moulineaux-2026",
+      "parent-solo-a-issy-les-moulineaux-2026",
+    ],
+    tags: ["famille Issy-les-Moulineaux 2026", "vivre en famille Issy-les-Moulineaux", "loyer T3 Issy-les-Moulineaux", "écoles Issy-les-Moulineaux", "Issy-les-Moulineaux avec enfants"],
+  },
+  {
+    slug: "famille-a-villefranche-sur-saone-2026",
+    title: "Famille à Villefranche-sur-Saône en 2026 : un T3 à 1 070 €, 2 439 € le m² et Écoles 8,7",
+    metaTitle: "Famille à Villefranche-sur-Saône 2026 : T3 1 070 €, Écoles 8,7",
+    metaDesc: "Famille à Villefranche-sur-Saône : T3 à 1 070 €, appartements à 2 439 €/m², Écoles 8,7, Sécurité 6,3. Budget, TER vers Lyon et comparaison avec Mâcon et Bourg.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Villefranche-sur-Saône a une note Écoles de 8,7 (rang 15 sur 593, 15 villes à égalité) pour un T3 à 1 070 € (notre estimation des loyers) et un appartement à 2 439 € le m², soit environ 195 000 € pour 80 m². Sur 36 224 habitants, 18,6 % ont moins de 15 ans, mais 25 % vivent sous le seuil de pauvreté : la ville a un contraste interne à connaître.",
+    sections: [
+      {
+        heading: "Quel budget logement à Villefranche-sur-Saône ?",
+        body: "Le T3 est à 1 070 €, le T2 à 800 € et le T1 à 560 €. L'appartement se vend 2 439 € le m² (881 ventes en 2024-2025, DVF) et la maison 2 920 € (163 ventes), 20 % de plus. Un appartement de 80 m² au prix médian revient à environ 195 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 19 640 € par unité de consommation (Insee, Filosofi 2021), avec 25 % de pauvreté. La population recule de 2,8 % depuis 2016. 18,6 % des habitants ont moins de 15 ans et 24,5 % ont 60 ans ou plus (Insee, recensement 2022).",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Télétravail 8,8 (rang 15), Écoles 8,7 (rang 15, 15 à égalité), Culture 7,5 (rang 69), Transports 7,0 (rang 131), Sécurité 6,3 (rang 177, 12 à égalité), Coût 5,9 (rang 257) et Nature 5,7 (rang 262). L'école est la note vedette ; le revenu médian bas rappelle que la moyenne ne dit pas tout d'un quartier à l'autre.",
+      },
+      {
+        heading: "Quel accès à Lyon et quels lieux pour les enfants ?",
+        body: "Le TER relie Villefranche à Lyon-Part-Dieu en 22 à 28 minutes selon les sites SNCF et TER, avec une trentaine de départs quotidiens d'après le site TER Auvergne-Rhône-Alpes. Côté espaces verts, d'après OpenStreetMap, le parc Vermorel, le parc Simone Veil et le jardin de Schkeuditz ont des aires de jeux, mais aucun grand parc : la campagne du Beaujolais est à côté.",
+      },
+      {
+        heading: "Villefranche face à Mâcon et Bourg-en-Bresse",
+        body: "Mâcon, à 36 km, loue le T3 800 € et vend l'appartement 1 659 € le m², Écoles 6,2, avec 25 % de pauvreté. Bourg-en-Bresse, à 46 km, est à 840 € et 1 866 €, Écoles 6,6. Villefranche coûte 780 € de plus au m² que Mâcon et 270 € de loyer de plus pour 2,5 points d'école en plus ; face à Bourg, l'écart est de 573 € au m² pour 2,1 points d'école.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Villefranche convient aux familles qui veulent une des écoles les mieux notées du pays sans le prix de Lyon et qui comptent sur le TER pour un emploi lyonnais. Celles qui veulent plus d'espaces verts ou un budget sous 850 € de loyer iront vers Bourg-en-Bresse ou Mâcon, en perdant 2,1 à 2,5 points d'école.",
+      },
+    ],
+    relatedCities: ["villefranche-sur-saone", "macon", "bourg-en-bresse"],
+    relatedGuides: [
+      "famille-a-bourg-en-bresse-2026",
+      "10-choses-a-faire-a-villefranche-sur-saone-2026",
+      "parent-solo-a-villefranche-sur-saone-2026",
+    ],
+    tags: ["famille Villefranche-sur-Saône 2026", "vivre en famille Villefranche-sur-Saône", "loyer T3 Villefranche-sur-Saône", "écoles Villefranche-sur-Saône", "Villefranche-sur-Saône avec enfants"],
+  },
+  {
+    slug: "famille-a-montelimar-2026",
+    title: "Famille à Montélimar en 2026 : un T3 à 780 €, 1 760 € le m², Coût 6,7 et Nature 6,4",
+    metaTitle: "Famille à Montélimar 2026 : T3 780 €, 1 760 €/m², Écoles 6,6",
+    metaDesc: "Famille à Montélimar : T3 à 780 €, appartements à 1 760 €/m², Écoles 6,6, Nature 6,4, Sécurité 5,7. Budget et comparaison avec Valence, Orange, Bagnols.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Montélimar loue un T3 780 € (notre estimation des loyers) et vend l'appartement 1 760 € le m², soit environ 141 000 € pour 80 m², avec Écoles 6,6 (rang 105 sur 593), Coût 6,7 (rang 135) et Nature 6,4 (rang 173). La sécurité est plus nuancée : 5,7 (rang 241). Sur 40 356 habitants, 17,9 % ont moins de 15 ans, et la ville a gagné 4,3 % depuis 2016.",
+    sections: [
+      {
+        heading: "Quel budget logement à Montélimar ?",
+        body: "Le T3 est à 780 €, le T2 à 580 €. L'appartement se vend 1 760 € le m² (652 ventes en 2024-2025, DVF) et la maison 2 438 € (473 ventes), 39 % de plus : l'écart entre les deux est le plus large du lot, et il vaut la peine de comparer avant de viser une maison. Un appartement de 80 m² au prix médian revient à environ 141 000 €, hors frais.",
+      },
+      {
+        heading: "Quel niveau de vie et quelle population ?",
+        body: "Le niveau de vie médian est de 21 350 € par unité de consommation (Insee, Filosofi 2021), avec 20 % de pauvreté. La population a progressé de 4,3 % depuis 2016. 17,9 % des habitants ont moins de 15 ans et 28,1 % ont 60 ans ou plus (Insee, recensement 2022).",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Coût 6,7 (rang 135, 34 à égalité), Écoles 6,6 (rang 105, 110 à égalité), Culture 6,6 (rang 152), Nature 6,4 (rang 173, 61 à égalité), Transports 6,2 (rang 248), Sécurité 5,7 (rang 241, 31 à égalité) et Télétravail 5,1 (rang 342). Le profil est équilibré à l'achat, avec un point à surveiller côté sécurité selon le quartier.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "D'après OpenStreetMap, la base de loisirs de Montmeillan (41 hectares, aire de jeux) est le grand espace de plein air de la ville, et le jardin Jean-Joseph Fleury-Bith (4 hectares, jeux) est le principal parc urbain. Le château des Adhémar, bâti au XIIe siècle, domine la ville et abrite aujourd'hui un centre d'art contemporain ; le nougat, spécialité locale, a ses lieux de visite.",
+      },
+      {
+        heading: "Montélimar face à Valence, Orange et Bagnols-sur-Cèze",
+        body: "Valence, à 43 km, loue le T3 900 € et vend l'appartement 1 989 € le m², Écoles 6,6. Orange, à 47 km, est à 920 € et 1 833 €, Écoles 6,6. Bagnols-sur-Cèze, à 45 km, est à 850 € et 1 538 €, Écoles 5,5, avec 29 % de pauvreté. Montélimar est 120 € moins chère par mois que Valence pour la même note d'école ; Bagnols est 222 € moins chère au m², avec 1,1 point d'école en moins.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Montélimar convient aux familles qui veulent un T3 sous 800 €, une école dans la moyenne haute et un grand espace de plein air, avec la vallée du Rhône à portée. Celles qui travaillent à Valence ou à Orange feront 43 à 47 km ; celles qui veulent une maison avec jardin trouveront l'écart de 39 % au m² à peser avant de choisir.",
+      },
+    ],
+    relatedCities: ["montelimar", "valence", "orange", "bagnols-sur-ceze"],
+    relatedGuides: [
+      "famille-a-valence-2026",
+      "10-choses-a-faire-a-montelimar-2026",
+      "parent-solo-a-montelimar-2026",
+    ],
+    tags: ["famille Montélimar 2026", "vivre en famille Montélimar", "loyer T3 Montélimar", "écoles Montélimar", "Montélimar avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
