@@ -57653,6 +57653,252 @@ export const GUIDES: Guide[] = [
     tags: ["vacances célibataire Thionville","voyage solo Moselle","Thionville quais de Moselle","week-end célibataire Grand Est","Thionville séjour solo"],
   },
   {
+    slug: "vacances-celibataire-draguignan-2026",
+    title: "Vacances célibataire à Draguignan en 2026 : marché, Verdon et un T2 à 720 €",
+    metaTitle: "Vacances célibataire Draguignan 2026 : Verdon, budget",
+    metaDesc: "Draguignan en séjour célibataire : 34,1 % de 15-29 ans, centre à 7/10 de vie du soir, T2 à 720 €, base pour le Verdon. Aucun TGV dans notre relevé.",
+    category: "lifestyle",
+    emoji: "🌿",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Draguignan compte 40 789 habitants (Insee 2022), dont 34,1 % de 15-29 ans et 28,2 % de 60 ans et plus ; la ville a gagné 736 habitants depuis 2016. Notre fiche lui donne 5,9/10 en coût, 5,5/10 en vie et 4,6/10 en transport. Le deux-pièces est à 720 €. Pour un séjour solo, c'est une base provençale à l'écart de la côte, pas une ville de nuits longues.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 720 €, coût noté 5,9/10",
+        body: "Studio à 520 €, deux-pièces à 720 €, T3 à 960 €, achat à 2 800 € le m². Le contrepoint est dit : 4,7/10 en sécurité, 4,6/10 en transport et 5,5/10 en culture.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 7/10 de vie du soir et 7/10 de transport (deux-pièces à 730 €), Les Arcs-sur-Argens 4,5/10 de vie du soir, Flayosc 3/10. Pour sortir à pied, le centre.",
+      },
+      {
+        heading: "Ce qu'on y fait : Tour de l'Horloge, marchés, Verdon",
+        body: "Les repères de notre guide tourisme : le vieux Draguignan avec sa Tour de l'Horloge et ses halles, le marché de Lorgues, Aups et son marché aux truffes, la cascade de Sillans, l'abbaye du Thoronet, le château d'Entrecasteaux et les gorges du Verdon. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : 34,1 % de 15-29 ans, mais une vie du soir à 7/10",
+        body: "La part des 15-29 ans est élevée et celle des seniors reste sous notre plafond de 32 %. La vie du soir du centre, 7/10, est sous notre plancher de 8,0/10 : on y sort, sans l'ambiance d'une grande ville.",
+      },
+      {
+        heading: "Se déplacer : transport noté 4,6/10, voiture utile",
+        body: "Notre relevé ne signale ni TGV, ni tram, ni métro. Le transport est noté 4,6/10 pour la ville et 7/10 pour le centre. Pour le Verdon, Sillans ou Le Thoronet, les liaisons ne sont pas dans nos données : à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 27,5 °C en juillet, 7 °C en janvier",
+        body: "Notre fiche donne 27,5 °C en juillet, 7 °C en janvier et 2 700 jours-soleil. Aucune normale mensuelle n'est publiée ici. Les marchés fonctionnent toute l'année, le Verdon se visite mieux hors des mois les plus chauds.",
+      },
+    ],
+    relatedCities: ["draguignan"],
+    relatedGuides: ["10-choses-a-faire-a-draguignan-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Draguignan","voyage solo Var","Draguignan Verdon","week-end célibataire Provence","Draguignan séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-saint-nazaire-2026",
+    title: "Vacances célibataire à Saint-Nazaire en 2026 : estuaire, base sous-marine et un T2 à 640 €",
+    metaTitle: "Vacances célibataire Saint-Nazaire 2026 : estuaire, budget",
+    metaDesc: "Saint-Nazaire en séjour célibataire : 33,2 % de 15-29 ans, TGV, base sous-marine, T2 à 640 €, ville qui gagne des habitants. Vie du soir 6,5/10.",
+    category: "lifestyle",
+    emoji: "🚢",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Saint-Nazaire compte 73 111 habitants (Insee 2022), dont 33,2 % de 15-29 ans et 30,5 % de 60 ans et plus ; elle a gagné 3 392 habitants depuis 2016. Notre fiche lui donne 6,3/10 en coût, 6,2/10 en transport et 5,7/10 en culture. Le deux-pièces est à 640 €. Un séjour solo y tient au port, à la base sous-marine et à la côte voisine, avec un TGV direct dans notre relevé.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 640 €, coût noté 6,3/10",
+        body: "Studio à 460 €, deux-pièces à 640 €, T3 à 850 €, achat à 2 200 € le m². Le contrepoint est dit : 5,5/10 en sécurité et 5,7/10 en nature.",
+      },
+      {
+        heading: "Où dormir : le centre-ville ou Pornichet",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 6,5/10 de vie du soir et 7,5/10 de transport (deux-pièces à 650 €), Pornichet 6,5 et 5,5 (720 €), Val-Fleuri 4,5 et 6,5. Pour sortir à pied, le centre ; Pornichet pour la plage, avec un deux-pièces plus cher.",
+      },
+      {
+        heading: "Ce qu'on y fait : chantiers, base sous-marine, Brière",
+        body: "Les repères de notre guide tourisme : les Chantiers de l'Atlantique, la base sous-marine et Escal'Atlantic, le sous-marin Espadon, la plage de Monsieur Hulot à Saint-Marc, le pont de Saint-Nazaire, le parc naturel régional de Brière, Pornichet et La Baule, la voie verte de l'estuaire. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : une ville de travail qui grandit",
+        body: "33,2 % de 15-29 ans, 30,5 % de seniors, sous notre plafond de 32 % de peu : la ville vit toute l'année autour de l'industrie navale et de l'estuaire. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10.",
+      },
+      {
+        heading: "Se déplacer : TGV direct, urbain non relevé",
+        body: "Notre relevé signale un TGV direct et ni tram ni métro. Le transport est noté 6,2/10. Notre guide tourisme situe Nantes à 50 km, par TGV ou autoroute ; les horaires de nuit ne sont pas dans nos données.",
+      },
+      {
+        heading: "Quand y aller : 21 °C en juillet, 6 °C en janvier",
+        body: "Notre fiche donne 21 °C en juillet, 6 °C en janvier et 2 050 jours-soleil. Aucune normale mensuelle n'est publiée ici. Le port et la base sous-marine se visitent toute l'année, la côte et la Brière mieux de la fin du printemps à septembre.",
+      },
+    ],
+    relatedCities: ["saint-nazaire"],
+    relatedGuides: ["10-choses-a-faire-a-saint-nazaire-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Saint-Nazaire","voyage solo Loire-Atlantique","Saint-Nazaire base sous-marine","week-end célibataire Pays de la Loire","Saint-Nazaire séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-grasse-2026",
+    title: "Vacances célibataire à Grasse en 2026 : parfumeries, vieille ville et un T2 à 800 €",
+    metaTitle: "Vacances célibataire Grasse 2026 : parfum, budget",
+    metaDesc: "Grasse en séjour célibataire : 32,8 % de 15-29 ans, culture 7,5/10, vieille ville, T2 à 800 €, coût 4/10. La population recule de 4 % depuis 2016.",
+    category: "lifestyle",
+    emoji: "🌸",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Grasse compte 48 669 habitants (Insee 2022), dont 32,8 % de 15-29 ans et 26,8 % de 60 ans et plus ; elle a perdu 2 008 habitants depuis 2016. Notre fiche lui donne 7,5/10 en culture, 6,8/10 en vie, mais 4/10 en coût. Le deux-pièces est à 800 €. Pour un séjour solo, c'est une ville de musées et de parfumeries, pas une ville bon marché.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 800 €, coût noté 4/10",
+        body: "Studio à 560 €, deux-pièces à 800 €, T3 à 1 080 €, achat à 3 200 € le m². C'est le point faible de la fiche : 4/10 en coût, 5,5/10 en transport, 5,3/10 en sécurité.",
+      },
+      {
+        heading: "Où dormir : la vieille ville",
+        body: "Notre fiche quartiers en documente trois. La vieille ville note 6,5/10 de vie du soir et 6,5/10 de transport (deux-pièces à 820 €), Saint-Claude 5/10 de vie du soir, Val de Tignet 4/10. Pour sortir à pied, la vieille ville.",
+      },
+      {
+        heading: "Ce qu'on y fait : parfumeries et musées",
+        body: "Les repères de notre guide tourisme : la parfumerie Fragonard et son musée gratuit, Galimard et son atelier de création, Molinard, le Musée international de la Parfumerie, la villa-musée Fragonard, la vieille ville, Cabris, les champs de roses et de jasmin et La Napoule. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : 32,8 % de 15-29 ans, population en recul",
+        body: "La ville a perdu 4 % de ses habitants depuis 2016 ; la part des 15-29 ans reste élevée et celle des seniors est sous notre plafond de 32 %. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10. Les musées font tenir le séjour hors des beaux jours.",
+      },
+      {
+        heading: "Se déplacer : transport noté 5,5/10, relevé muet",
+        body: "Notre relevé ne signale ni TGV, ni tram, ni métro. Notre guide tourisme place la vieille ville à 330 m d'altitude et la côte à quelques kilomètres ; les liaisons vers Cannes et Nice ne sont pas dans nos données : à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 26,5 °C en juillet, 7,5 °C en janvier",
+        body: "Notre fiche donne 26,5 °C en juillet, 7,5 °C en janvier et 2 750 jours-soleil. Aucune normale mensuelle n'est publiée ici. Les musées se visitent toute l'année ; les champs de fleurs sont une affaire de saison, dates à vérifier.",
+      },
+    ],
+    relatedCities: ["grasse"],
+    relatedGuides: ["10-choses-a-faire-a-grasse-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Grasse","voyage solo Alpes-Maritimes","Grasse parfumeries","week-end célibataire Côte d'Azur","Grasse séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-chateauroux-2026",
+    title: "Vacances célibataire à Châteauroux en 2026 : Berry, Brenne et un T2 à 480 €",
+    metaTitle: "Vacances célibataire Châteauroux 2026 : Berry, budget",
+    metaDesc: "Châteauroux en séjour célibataire : 34,2 % de 15-29 ans, centre à 6,5/10 de vie du soir, T2 à 480 €, base pour la Brenne et Nohant. Séjour calme.",
+    category: "lifestyle",
+    emoji: "🦆",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Châteauroux compte 43 079 habitants (Insee 2022), dont 34,2 % de 15-29 ans et 31,3 % de 60 ans et plus ; elle a perdu 1 009 habitants depuis 2016. Notre fiche lui donne 7,1/10 en coût, 5,5/10 en vie et 4,6/10 en transport. Le deux-pièces est à 480 €. Pour un séjour solo, c'est une base très peu chère pour le Berry et la Brenne, pas une destination de sorties.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 480 €, coût noté 7,1/10",
+        body: "Studio à 350 €, deux-pièces à 480 €, T3 à 640 €, achat à 1 400 € le m². Le contrepoint est dit : 4,6/10 en transport, 4,3/10 en télétravail et 5/10 en nature.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 6,5/10 de vie du soir et 7/10 de transport (deux-pièces à 490 €), Saint-Maur 4,5/10 de vie du soir, la périphérie pavillonnaire 2,5/10. Pour sortir à pied, le centre.",
+      },
+      {
+        heading: "Ce qu'on y fait : Cordeliers, Brenne, Nohant",
+        body: "Les repères de notre guide tourisme : le couvent des Cordeliers, le château Raoul, le parc Balsan, le musée Bertrand, le parc naturel régional de la Brenne, la maison de George Sand à Nohant, Issoudun, la forêt de Châteauroux. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : calme, avec 31,3 % de seniors",
+        body: "La part des 15-29 ans est de 34,2 %, mais celle des seniors, 31,3 %, touche notre plafond de 32 %. La population recule de 2,3 % depuis 2016. La vie du soir de 6,5/10 est sous notre plancher de 8,0/10 : on y vient pour le calme.",
+      },
+      {
+        heading: "Se déplacer : transport noté 4,6/10, voiture utile",
+        body: "Notre relevé ne signale ni TGV, ni tram, ni métro. Notre fiche quartiers mentionne une desserte TER du centre ; les horaires ne sont pas dans nos données. Pour la Brenne et Nohant, la voiture est utile, à vérifier selon votre trajet.",
+      },
+      {
+        heading: "Quand y aller : 23 °C en juillet, 4 °C en janvier",
+        body: "Notre fiche donne 23 °C en juillet, 4 °C en janvier et 1 900 jours-soleil. Aucune normale mensuelle n'est publiée ici. Le centre se visite toute l'année, la Brenne et la forêt mieux du printemps à l'automne.",
+      },
+    ],
+    relatedCities: ["chateauroux"],
+    relatedGuides: ["10-choses-a-faire-a-chateauroux-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Châteauroux","voyage solo Indre","Châteauroux Brenne","week-end célibataire Centre-Val de Loire","Châteauroux séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-evreux-2026",
+    title: "Vacances célibataire à Évreux en 2026 : cathédrale, Giverny et un T2 à 610 €",
+    metaTitle: "Vacances célibataire Évreux 2026 : cathédrale, budget",
+    metaDesc: "Évreux en séjour célibataire : 40 % de 15-29 ans, 23 % de seniors, cathédrale, train vers Paris-Saint-Lazare, T2 à 610 €. Vie du soir 6/10.",
+    category: "lifestyle",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Évreux compte 48 335 habitants (Insee 2022), dont 40 % de 15-29 ans et 23 % de 60 ans et plus ; elle a perdu 564 habitants depuis 2016. Notre fiche lui donne 6,3/10 en coût, 6,2/10 en transport et 5,7/10 en culture. Le deux-pièces est à 610 €. Pour un séjour solo, c'est une ville jeune et abordable, avec Giverny à 30 km selon notre guide tourisme.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 610 €, coût noté 6,3/10",
+        body: "Studio à 440 €, deux-pièces à 610 €, T3 à 820 €, achat à 2 000 € le m². Le contrepoint est dit : 4,7/10 en sécurité, 4,9/10 en vie et 5/10 en nature.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 6/10 de vie du soir et 7/10 de transport (deux-pièces à 620 €), Navarre 4/10 de vie du soir, Cambolle 3,5/10. Pour sortir à pied, le centre.",
+      },
+      {
+        heading: "Ce qu'on y fait : cathédrale, beffroi, Giverny",
+        body: "Les repères de notre guide tourisme : la cathédrale Notre-Dame, le beffroi et la tour de l'Horloge, le musée municipal, la vallée de l'Iton, la forêt d'Évreux, le château de Gaillon, le château de Beaumesnil, Lyons-la-Forêt et Giverny à 30 km. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : 40 % de 15-29 ans, seniors à 23 %",
+        body: "La part des 15-29 ans est élevée et celle des seniors bien sous notre plafond de 32 %. La population recule de 1,2 % depuis 2016. La vie du soir de 6/10 est sous notre plancher de 8,0/10 : une ville qui vit, sans scène nocturne marquée.",
+      },
+      {
+        heading: "Se déplacer : train vers Paris, relevé muet",
+        body: "Notre relevé ne signale ni TGV, ni tram, ni métro. Notre fiche quartiers dit le centre bien desservi par le train vers Paris-Saint-Lazare ; fréquences et durées ne sont pas dans nos données, à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 20 °C en juillet, 3,5 °C en janvier",
+        body: "Notre fiche donne 20 °C en juillet, 3,5 °C en janvier et 1 700 jours-soleil. Aucune normale mensuelle n'est publiée ici. La cathédrale et le musée se visitent toute l'année, les jardins et les forêts mieux au printemps et à l'été.",
+      },
+    ],
+    relatedCities: ["evreux"],
+    relatedGuides: ["10-choses-a-faire-a-evreux-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Évreux","voyage solo Eure","Évreux cathédrale","week-end célibataire Normandie","Évreux séjour solo"],
+  },
+  {
+    slug: "vacances-celibataire-calais-2026",
+    title: "Vacances célibataire à Calais en 2026 : dentelle, falaises et un T2 à 480 €",
+    metaTitle: "Vacances célibataire Calais 2026 : dentelle, budget",
+    metaDesc: "Calais en séjour célibataire : 38,4 % de 15-29 ans, musée de la dentelle, Cap Blanc-Nez, T2 à 480 €. Sécurité 3,7/10, population en recul de 9,9 %.",
+    category: "lifestyle",
+    emoji: "🌊",
+    readMinutes: 4,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Calais compte 67 585 habitants (Insee 2022), dont 38,4 % de 15-29 ans et 24,7 % de 60 ans et plus ; elle a perdu 7 393 habitants depuis 2016, soit 9,9 %. Notre fiche lui donne 6,4/10 en coût, 6,1/10 en transport, mais 3,7/10 en sécurité. Le deux-pièces est à 480 €. Pour un séjour solo, c'est un port à très petit prix avec la côte d'Opale à portée, pas une destination de nuits.",
+    sections: [
+      {
+        heading: "Le budget : un deux-pièces à 480 €, coût noté 6,4/10",
+        body: "Studio à 340 €, deux-pièces à 480 €, T3 à 640 €, achat à 1 350 € le m². Le contrepoint est dit : 3,7/10 en sécurité, 4,2/10 en nature et 4,5/10 en vie.",
+      },
+      {
+        heading: "Où dormir : le centre-ville",
+        body: "Notre fiche quartiers en documente trois. Le centre-ville note 6/10 de vie du soir et 8/10 de transport (deux-pièces à 490 €), Saint-Pierre 5/10 de vie du soir, Blériot-Plage 4/10. Pour sortir à pied, le centre ; Blériot-Plage pour les dunes.",
+      },
+      {
+        heading: "Ce qu'on y fait : dentelle, Rodin, Cap Blanc-Nez",
+        body: "Les repères de notre guide tourisme : le musée de la Dentelle et de la Mode, les Bourgeois de Calais de Rodin, le musée des Beaux-Arts, le front de mer, Cité Europe, le Cap Blanc-Nez, Gravelines, Saint-Omer et Boulogne-sur-Mer. Les horaires ne sont pas repris ici.",
+      },
+      {
+        heading: "La vie hors saison : 38,4 % de 15-29 ans, mais une ville qui se vide",
+        body: "La part des 15-29 ans est élevée et celle des seniors est de 24,7 %. La population baisse nettement, de 1,7 % par an. La vie du soir de 6/10 est sous notre plancher de 8,0/10. Les musées font tenir le séjour hors des beaux jours.",
+      },
+      {
+        heading: "Se déplacer : centre noté 8/10, relevé muet",
+        body: "Le transport est noté 6,1/10 pour la ville et 8/10 pour le centre. Notre relevé ne signale ni TGV, ni tram, ni métro ; notre guide tourisme cite l'accès au tunnel sous la Manche. Les liaisons ferroviaires ne sont pas dans nos données : à vérifier avant de réserver.",
+      },
+      {
+        heading: "Quand y aller : 19 °C en juillet, 4 °C en janvier",
+        body: "Notre fiche donne 19 °C en juillet, 4 °C en janvier et 1 700 jours-soleil. Aucune normale mensuelle n'est publiée ici. Les musées se visitent toute l'année, les falaises et les dunes mieux de la fin du printemps à septembre.",
+      },
+    ],
+    relatedCities: ["calais"],
+    relatedGuides: ["10-choses-a-faire-a-calais-2026","partir-en-vacances-seul-2026"],
+    tags: ["vacances célibataire Calais","voyage solo Pas-de-Calais","Calais dentelle","week-end célibataire Hauts-de-France","Calais séjour solo"],
+  },
+  {
     slug: "partir-en-vacances-seul-2026",
     title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
     metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",

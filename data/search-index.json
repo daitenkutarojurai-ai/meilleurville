@@ -9547,6 +9547,36 @@
       "emoji": "🏰"
     },
     {
+      "slug": "vacances-celibataire-draguignan-2026",
+      "title": "Vacances célibataire à Draguignan en 2026 : marché, Verdon et un T2 à 720 €",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "vacances-celibataire-saint-nazaire-2026",
+      "title": "Vacances célibataire à Saint-Nazaire en 2026 : estuaire, base sous-marine et un T2 à 640 €",
+      "emoji": "🚢"
+    },
+    {
+      "slug": "vacances-celibataire-grasse-2026",
+      "title": "Vacances célibataire à Grasse en 2026 : parfumeries, vieille ville et un T2 à 800 €",
+      "emoji": "🌸"
+    },
+    {
+      "slug": "vacances-celibataire-chateauroux-2026",
+      "title": "Vacances célibataire à Châteauroux en 2026 : Berry, Brenne et un T2 à 480 €",
+      "emoji": "🦆"
+    },
+    {
+      "slug": "vacances-celibataire-evreux-2026",
+      "title": "Vacances célibataire à Évreux en 2026 : cathédrale, Giverny et un T2 à 610 €",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "vacances-celibataire-calais-2026",
+      "title": "Vacances célibataire à Calais en 2026 : dentelle, falaises et un T2 à 480 €",
+      "emoji": "🌊"
+    },
+    {
       "slug": "partir-en-vacances-seul-2026",
       "title": "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
       "emoji": "🍸"
@@ -12589,6 +12619,11 @@
       "count": 7
     },
     {
+      "slug": "week-end-celibataire-hauts-de-france",
+      "label": "week-end célibataire Hauts-de-France",
+      "count": 7
+    },
+    {
       "slug": "amiens",
       "label": "Amiens",
       "count": 6
@@ -12706,11 +12741,6 @@
     {
       "slug": "week-end-celibataire-grand-est",
       "label": "week-end célibataire Grand Est",
-      "count": 6
-    },
-    {
-      "slug": "week-end-celibataire-hauts-de-france",
-      "label": "week-end célibataire Hauts-de-France",
       "count": 6
     },
     {
@@ -12851,6 +12881,16 @@
     {
       "slug": "week-end-celibataire-bretagne",
       "label": "week-end célibataire Bretagne",
+      "count": 5
+    },
+    {
+      "slug": "week-end-celibataire-normandie",
+      "label": "week-end célibataire Normandie",
+      "count": 5
+    },
+    {
+      "slug": "week-end-celibataire-pays-de-la-loire",
+      "label": "week-end célibataire Pays de la Loire",
       "count": 5
     },
     {
@@ -13104,18 +13144,13 @@
       "count": 4
     },
     {
-      "slug": "week-end-celibataire-normandie",
-      "label": "week-end célibataire Normandie",
+      "slug": "week-end-celibataire-centre-val-de-loire",
+      "label": "week-end célibataire Centre-Val de Loire",
       "count": 4
     },
     {
       "slug": "week-end-celibataire-occitanie",
       "label": "week-end célibataire Occitanie",
-      "count": 4
-    },
-    {
-      "slug": "week-end-celibataire-pays-de-la-loire",
-      "label": "week-end célibataire Pays de la Loire",
       "count": 4
     },
     {
@@ -13759,13 +13794,13 @@
       "count": 3
     },
     {
-      "slug": "week-end-celibataire-centre-val-de-loire",
-      "label": "week-end célibataire Centre-Val de Loire",
+      "slug": "week-end-celibataire-ile-de-france",
+      "label": "week-end célibataire Île-de-France",
       "count": 3
     },
     {
-      "slug": "week-end-celibataire-ile-de-france",
-      "label": "week-end célibataire Île-de-France",
+      "slug": "week-end-celibataire-provence",
+      "label": "week-end célibataire Provence",
       "count": 3
     },
     {
