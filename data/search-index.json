@@ -5647,6 +5647,36 @@
       "emoji": "🚋"
     },
     {
+      "slug": "vivre-sans-voiture-boulogne-billancourt-guide-2026",
+      "title": "Vivre sans voiture à Boulogne-Billancourt en 2026 : métro 9 et 10, T2 à 1 400 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-montreuil-guide-2026",
+      "title": "Vivre sans voiture à Montreuil en 2026 : métros 9 et 11, T2 à 1 050 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-vincennes-guide-2026",
+      "title": "Vivre sans voiture à Vincennes en 2026 : métro 1 et T2 à 1 300 €",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "vivre-sans-voiture-saint-denis-guide-2026",
+      "title": "Vivre sans voiture à Saint-Denis en 2026 : métros 13 et 14, T2 à 950 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-pantin-guide-2026",
+      "title": "Vivre sans voiture à Pantin en 2026 : métro 5, T3b et T2 à 1 050 €",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "vivre-sans-voiture-nanterre-guide-2026",
+      "title": "Vivre sans voiture à Nanterre en 2026 : RER A et E, T2 à 1 050 €",
+      "emoji": "🚆"
+    },
+    {
       "slug": "meilleures-villes-sports-outdoor-plein-air-france-2026",
       "title": "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
       "emoji": "🏔️"
@@ -12614,6 +12644,11 @@
       "count": 7
     },
     {
+      "slug": "sans-voiture-ile-de-france-2026",
+      "label": "sans voiture Île-de-France 2026",
+      "count": 7
+    },
+    {
       "slug": "surf",
       "label": "surf",
       "count": 7
@@ -13436,6 +13471,11 @@
     {
       "slug": "mobilite-douce",
       "label": "mobilité douce",
+      "count": 3
+    },
+    {
+      "slug": "mobilite-seine-saint-denis",
+      "label": "mobilité Seine-Saint-Denis",
       "count": 3
     },
     {

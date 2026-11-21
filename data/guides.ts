@@ -19864,6 +19864,276 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture Saint-Martin-d'Hères", "tram B Grenoble", "campus Grenoble tram", "mobilité Isère", "sans voiture Auvergne-Rhône-Alpes 2026"],
   },
   {
+    slug: "vivre-sans-voiture-boulogne-billancourt-guide-2026",
+    title: "Vivre sans voiture à Boulogne-Billancourt en 2026 : métro 9 et 10, T2 à 1 400 €",
+    metaTitle: "Vivre sans voiture à Boulogne-Billancourt 2026 : métro, loyers",
+    metaDesc: "À Boulogne-Billancourt, métros 9 et 10 rendent la voiture inutile, mais le T2 est à 1 400 € (400 € sous Paris). Score transport 9/10. Comparatif Issy et Paris.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Boulogne-Billancourt se vit sans voiture sans effort : notre score transport est de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes, et deux lignes de métro desservent la ville. La contrepartie est le loyer : 1 400 € par mois pour un T2 sur notre estimation des loyers, soit 400 € de moins qu'à Paris mais 100 € de plus qu'à Issy-les-Moulineaux.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Boulogne-Billancourt ?",
+        body: "Le métro 9 relie Pont de Sèvres, à l'ouest de la ville, à Mairie de Montreuil, de l'autre côté de Paris. Le métro 10 dessert la commune jusqu'à Boulogne–Jean Jaurès, atteinte le 3 octobre 1980, puis Boulogne–Pont de Saint-Cloud, ouverte en 1981. Deux lignes qui traversent Paris sans correspondance font de la voiture un choix, pas une nécessité. Horaires et tarifs sont à vérifier sur le site d'Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Boulogne-Billancourt ?",
+        body: "Notre estimation des loyers donne 900 € pour un T1, 1 400 € pour un T2 et 2 000 € pour un T3 par mois. Paris est à 1 800 € pour un T2 : sur un an, l'écart avec Boulogne atteint 4 800 €. Un ménage qui ne possède pas de voiture économise en plus l'assurance, le carburant et surtout le stationnement, très cher en petite couronne ; ce poste n'est pas chiffré ici, faute de donnée propre.",
+      },
+      {
+        heading: "Quel profil d'habitants à Boulogne ?",
+        body: "La commune compte 120 205 habitants en 2022, soit +0,5 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 35 040 € par an, avec 9 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : écoles 8,7/10, sécurité 5,7/10, nature 4,5/10, coût de la vie 2,2/10 : la ville offre un accès exceptionnel, à un prix qui le reflète.",
+      },
+      {
+        heading: "Boulogne, Issy ou Paris : lequel pour se passer de voiture ?",
+        body: "Les trois sont à 9/10 en transport. Issy-les-Moulineaux demande 100 € de moins par mois pour un T2 (1 300 €) et affiche une sécurité de 7,2/10 contre 5,7/10 à Boulogne. Paris offre plus de lignes mais coûte 400 € de plus pour un T2, avec une sécurité de 3,9/10. Boulogne est le compromis : un pied dans Paris, un loyer plus doux et un score écoles de 8,7/10.",
+      },
+      {
+        heading: "Les limites sans voiture à Boulogne-Billancourt",
+        body: "Le coût de la vie, à 2,2/10, est le vrai frein : l'économie d'une voiture ne compense pas un loyer de 1 400 € pour un T2. Les quartiers loin d'une station de métro se rejoignent en bus, plus lentement. Enfin, la nature n'est que de 4,5/10 : les week-ends verts supposent de sortir de la ville.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Couple actif travaillant à Paris : le T2 à 1 400 € se justifie, deux lignes évitent toute correspondance. Famille : le T3 à 2 000 € est lourd, mais les écoles à 8,7/10 pèsent dans la balance. Étudiant : le T1 à 900 € reste cher, comparez avec Montreuil. Retraité : accès et services sont là, le budget doit suivre.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt", "issy-les-moulineaux", "paris"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "famille-a-boulogne-billancourt-2026",
+      "famille-a-issy-les-moulineaux-2026",
+    ],
+    tags: ["vivre sans voiture Boulogne-Billancourt", "métro 9 Boulogne", "métro 10 Boulogne", "mobilité Hauts-de-Seine", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-montreuil-guide-2026",
+    title: "Vivre sans voiture à Montreuil en 2026 : métros 9 et 11, T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Montreuil 2026 : métros 9 et 11, loyers",
+    metaDesc: "À Montreuil, métros 9 et 11 rendent la voiture facultative, avec un T2 à 1 050 € contre 1 800 € à Paris. Score transport 9/10. Comparatif avec Pantin et Paris.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "À Montreuil, la voiture est facultative : le T2 coûte 1 050 € par mois sur notre estimation des loyers, 750 € de moins qu'à Paris, avec un score transport de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes. Soit 9 000 € d'écart par an pour des lignes de métro qui entrent directement dans Paris.",
+    sections: [
+      {
+        heading: "Comment circule-t-on à Montreuil sans voiture ?",
+        body: "Le métro 9 relie Mairie de Montreuil à Pont de Sèvres en traversant Paris. Depuis le 13 juin 2024, le métro 11 a été prolongé de Mairie des Lilas jusqu'à Rosny – Bois-Perrier, avec une station Montreuil-Hôpital parmi les six nouvelles. Deux lignes différentes, deux axes vers Paris : c'est ce qui distingue Montreuil des communes à une seule ligne. Vérifiez les horaires sur le site d'Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Montreuil ?",
+        body: "Notre estimation des loyers donne 700 € pour un T1, 1 050 € pour un T2 et 1 400 € pour un T3 par mois. Paris est à 1 800 € pour un T2. Même sans voiture, le budget transport reste un poste à compter : l'abonnement s'ajoute au loyer. En revanche, aucune assurance ni stationnement à prévoir.",
+      },
+      {
+        heading: "Une ville jeune et contrastée",
+        body: "Montreuil compte 110 758 habitants en 2022, soit +2,2 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 19,2 % de la population. Le niveau de vie médian est de 21 150 € par an avec 25 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 3,9/10, écoles 5,3/10, nature 2,8/10, culture 7,3/10.",
+      },
+      {
+        heading: "Montreuil, Pantin ou Paris ?",
+        body: "Pantin a le même T2 à 1 050 € et le même score transport, mais une sécurité de 3,7/10 contre 3,9/10 ici. Paris est à 1 800 € pour un T2, soit 9 000 € de plus par an, avec une sécurité de 3,9/10 : identique. Montreuil offre donc l'accès de Paris pour 750 € de moins, avec la même sécurité et une culture à 7,3/10 contre 9/10 à Paris.",
+      },
+      {
+        heading: "Les limites sans voiture à Montreuil",
+        body: "Les quartiers éloignés d'une station de métro se rejoignent en bus, plus lentement. La sécurité à 3,9/10 et la nature à 2,8/10 sont des critères à peser. Les loyers varient fortement d'un quartier à l'autre : notre estimation est une moyenne communale.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le T1 à 700 € est plus doux que Paris, avec la ligne 9 pour rejoindre la capitale. Couple actif : un T2 à 1 050 € se justifie dès que l'on travaille sur la ligne 9 ou 11. Famille : le T3 à 1 400 € est accessible, écoles à 5,3/10 à vérifier. Retraité : transports excellents, mais sécurité 3,9/10 à peser.",
+      },
+    ],
+    relatedCities: ["montreuil", "pantin", "paris"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "famille-a-montreuil-2026",
+      "etudiant-a-montreuil-2026",
+    ],
+    tags: ["vivre sans voiture Montreuil", "métro 9 Montreuil", "métro 11 Montreuil", "mobilité Seine-Saint-Denis", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-vincennes-guide-2026",
+    title: "Vivre sans voiture à Vincennes en 2026 : métro 1 et T2 à 1 300 €",
+    metaTitle: "Vivre sans voiture à Vincennes 2026 : métro 1, loyers",
+    metaDesc: "À Vincennes, le métro 1 mène à Paris sans voiture, mais le T2 est à 1 300 €. Score transport 9/10, écoles 8,7/10. Comparatif avec Montreuil et Paris.",
+    category: "lifestyle",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Vincennes est l'une des communes de petite couronne où la voiture se discute le moins : le métro 1 y arrive en droite ligne depuis Paris et notre score transport est de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes. Le prix à payer est un T2 à 1 300 € par mois sur notre estimation des loyers, 250 € de plus qu'à Montreuil.",
+    sections: [
+      {
+        heading: "Quel réseau dessert Vincennes ?",
+        body: "Le métro 1 a son terminus à Château de Vincennes, station ouverte le 24 mars 1934 à la limite de la commune et du bois. La ligne est entièrement automatique depuis le 15 décembre 2012 et traverse Paris d'est en ouest jusqu'à La Défense. Une seule ligne de métro : consultez les horaires d'Île-de-France Mobilités avant de choisir votre rue.",
+      },
+      {
+        heading: "Combien coûte un logement à Vincennes ?",
+        body: "Notre estimation des loyers donne 850 € pour un T1, 1 300 € pour un T2 et 1 800 € pour un T3 par mois. Paris est à 1 800 € pour un T2 : sur un an, l'écart atteint 6 000 € en faveur de Vincennes. Montreuil, voisine à l'est, est à 1 050 € : 3 000 € de moins par an pour le même score transport.",
+      },
+      {
+        heading: "Une ville aisée et stable",
+        body: "Vincennes compte 48 368 habitants en 2022, soit −3 % depuis 2016 (source : Insee, recensement 2022). Le niveau de vie médian est de 34 880 € par an, avec 8 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : écoles 8,7/10, sécurité 6,1/10, nature 5,6/10, coût de la vie 2,2/10.",
+      },
+      {
+        heading: "Vincennes ou Montreuil : l'arbitrage",
+        body: "Montreuil offre deux lignes de métro et un T2 à 1 050 €, mais une sécurité de 3,9/10 et des écoles à 5,3/10. Vincennes est plus chère de 250 € par mois, avec une sécurité de 6,1/10 et des écoles à 8,7/10. Ce n'est pas un écart de transport mais de cadre de vie : on paie la tranquillité et la nature à 5,6/10, plus haute qu'à Montreuil (2,8/10).",
+      },
+      {
+        heading: "Les limites sans voiture à Vincennes",
+        body: "Une ligne unique rend la commune dépendante de ses perturbations ; le bus et le RER A offrent des solutions de repli. Le coût de la vie à 2,2/10 est la vraie limite : l'économie d'une voiture ne compense pas le loyer. La population recule de 3 % depuis 2016 (Insee, recensement 2022).",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Couple actif : le T2 à 1 300 € se justifie, ligne 1 directe vers le centre de Paris. Famille : le T3 à 1 800 € est lourd mais les écoles (8,7/10) et la sécurité tiennent leurs promesses. Étudiant : le T1 à 850 € reste élevé, Montreuil est moins cher. Retraité : cadre calme, accès aux soins de Paris par le métro.",
+      },
+    ],
+    relatedCities: ["vincennes", "montreuil", "paris"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-montreuil-guide-2026",
+      "parent-solo-a-vincennes-2026",
+    ],
+    tags: ["vivre sans voiture Vincennes", "métro 1 Vincennes", "Château de Vincennes métro", "mobilité Val-de-Marne", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-saint-denis-guide-2026",
+    title: "Vivre sans voiture à Saint-Denis en 2026 : métros 13 et 14, T2 à 950 €",
+    metaTitle: "Vivre sans voiture à Saint-Denis 2026 : métros 13 et 14",
+    metaDesc: "À Saint-Denis, métros 13 et 14 et RER D rendent la voiture inutile, avec un T2 à 950 €. Score transport 9/10, mais sécurité 2,2/10. Comparatif Pantin et Paris.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Saint-Denis cumule un excellent accès et des fragilités : transport 9/10, au 1er rang sur 593 à égalité avec 22 autres villes, mais une sécurité de 2,2/10 et des écoles à 2,4/10 sur notre fiche. Le T2 est à 950 € par mois sur notre estimation des loyers, 850 € de moins qu'à Paris, soit 10 200 € par an.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Saint-Denis ?",
+        body: "Le métro 14 y a son terminus à Saint-Denis–Pleyel, station ouverte le 24 juin 2024 avec la prolongation de la ligne vers le nord ; la ligne atteint aussi Orly au sud. Le métro 13 et le RER D complètent le réseau. Trois modes de transport différents, sans voiture : c'est la raison du score de 9/10. Horaires et tarifs sont à vérifier sur le site d'Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Saint-Denis ?",
+        body: "Notre estimation des loyers donne 650 € pour un T1, 950 € pour un T2 et 1 250 € pour un T3 par mois. Pantin est à 1 050 € pour un T2 : 100 € de moins ici, soit 1 200 € par an. Paris est à 1 800 € : l'écart est le plus fort des six villes de ce lot, et il va de pair avec des scores sécurité et écoles bas.",
+      },
+      {
+        heading: "Une ville en croissance, avec des fragilités",
+        body: "Saint-Denis compte 148 907 habitants en 2022, soit +5,6 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 22,7 % de la population. Le niveau de vie médian est de 16 470 € par an avec 37 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 2,2/10, écoles 2,4/10, nature 2,3/10, coût de la vie 5,0/10.",
+      },
+      {
+        heading: "Saint-Denis, Pantin ou Paris ?",
+        body: "Pantin demande 100 € de plus par mois et monte à 3,7/10 en sécurité, contre 2,2/10 ici. Paris coûte 850 € de plus et passe à 3,9/10. Saint-Denis a l'avantage du prix et du coût de la vie à 5,0/10, le plus élevé des six villes de ce lot, mais la sécurité et les écoles pèsent plus que le loyer pour beaucoup de profils.",
+      },
+      {
+        heading: "Les limites sans voiture à Saint-Denis",
+        body: "Le réseau est dense, mais la qualité de vie dépend du quartier : écoles à 2,4/10 et sécurité à 2,2/10 sont des moyennes communales qui cachent de fortes différences. Visitez à différentes heures, parlez aux habitants.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le T1 à 650 € est parmi les plus bas de la petite couronne, métro 13 et 14 pour rejoindre Paris. Couple actif : un T2 à 950 € convient si le travail est sur la ligne 14. Famille : le T3 à 1 250 € est abordable, mais écoles à 2,4/10 à étudier de près. Retraité : transports excellents, sécurité 2,2/10 à peser.",
+      },
+    ],
+    relatedCities: ["saint-denis", "pantin", "paris"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-pantin-guide-2026",
+      "demenager-a-saint-denis-2026",
+    ],
+    tags: ["vivre sans voiture Saint-Denis", "métro 14 Saint-Denis Pleyel", "métro 13 Saint-Denis", "mobilité Seine-Saint-Denis", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-pantin-guide-2026",
+    title: "Vivre sans voiture à Pantin en 2026 : métro 5, T3b et T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Pantin 2026 : métro 5, loyers",
+    metaDesc: "À Pantin, le métro 5 rend la voiture facultative, avec un T2 à 1 050 € contre 1 800 € à Paris. Score transport 9/10, +10 % d'habitants. Comparatif Montreuil.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Pantin est la commune qui a le plus grossi de ce lot : +10,1 % d'habitants depuis 2016, avec un score transport de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes. Le T2 est à 1 050 € par mois sur notre estimation des loyers, 750 € de moins qu'à Paris.",
+    sections: [
+      {
+        heading: "Quel réseau dessert Pantin ?",
+        body: "Le métro 5 est l'axe principal : la station Église de Pantin a ouvert le 12 octobre 1942 et a été terminus jusqu'au 25 avril 1985, avant le prolongement vers Bobigny–Pablo Picasso. La ligne passe aussi à Hoche et à Porte de Pantin, où elle croise le tramway T3b. Le canal de l'Ourcq longe la commune : à pied ou à vélo, il sert d'axe doux. Horaires et tarifs sur le site d'Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Pantin ?",
+        body: "Notre estimation des loyers donne 700 € pour un T1, 1 050 € pour un T2 et 1 400 € pour un T3 par mois. Saint-Denis est à 950 € pour un T2 : 100 € de moins. Paris est à 1 800 € : sur un an, l'écart avec Pantin atteint 9 000 €, que l'on dépense en abonnement et non en voiture.",
+      },
+      {
+        heading: "Une ville qui gagne des habitants",
+        body: "Pantin compte 60 954 habitants en 2022, soit +10,1 % depuis 2016, soit 5 612 habitants de plus (source : Insee, recensement 2022). Le niveau de vie médian est de 19 740 € par an avec 27 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 3,7/10, écoles 5,3/10, nature 2,8/10, culture 5,9/10.",
+      },
+      {
+        heading: "Pantin, Montreuil ou Saint-Denis ?",
+        body: "Montreuil a le même T2 à 1 050 € et le même score transport, mais une culture à 7,3/10 contre 5,9/10 ici. Saint-Denis est 100 € moins cher avec une sécurité de 2,2/10 contre 3,7/10 à Pantin. Pantin est donc le milieu de gamme : un peu plus sûre que Saint-Denis, un peu moins culturelle que Montreuil, au même prix que cette dernière.",
+      },
+      {
+        heading: "Les limites sans voiture à Pantin",
+        body: "La croissance rapide signifie des chantiers et des loyers qui montent : notre estimation est une moyenne communale. La nature n'est que de 2,8/10 : prévoyez le canal et les parcs voisins. La sécurité à 3,7/10 invite à visiter plusieurs quartiers.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le T1 à 700 € est plus doux que Paris, avec le métro 5 jusqu'à la gare du Nord. Couple actif : un T2 à 1 050 € se justifie si l'emploi est sur la ligne 5. Famille : le T3 à 1 400 € est correct, écoles à 5,3/10. Retraité : accès facile à Paris, sécurité à 3,7/10 à peser.",
+      },
+    ],
+    relatedCities: ["pantin", "montreuil", "saint-denis"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-montreuil-guide-2026",
+      "vivre-sans-voiture-saint-denis-guide-2026",
+    ],
+    tags: ["vivre sans voiture Pantin", "métro 5 Pantin", "Église de Pantin métro", "mobilité Seine-Saint-Denis", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-nanterre-guide-2026",
+    title: "Vivre sans voiture à Nanterre en 2026 : RER A et E, T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Nanterre 2026 : RER A, RER E, loyers",
+    metaDesc: "À Nanterre, RER A et RER E prolongé en 2024 rendent la voiture facultative, avec un T2 à 1 050 €. Score transport 9/10. Comparatif Boulogne et Paris.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-21",
+    updatedAt: "2026-11-21",
+    intro: "Nanterre se vit sans voiture grâce au RER, et non au métro : notre score transport est de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes, pour un T2 à 1 050 € par mois sur notre estimation des loyers, 350 € de moins qu'à Boulogne-Billancourt. Depuis le 6 mai 2024, le RER E s'y arrête aussi.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Nanterre ?",
+        body: "Le RER A dessert la commune. Le RER E, prolongé le 6 mai 2024 à l'ouest depuis Haussmann–Saint-Lazare, dessert Nanterre–La Folie en passant par Neuilly–Porte Maillot et La Défense–Grande Arche. Depuis le 15 décembre 2024, toutes les circulations de Haussmann–Saint-Lazare sont prolongées jusqu'à Nanterre–La Folie, à environ 12 minutes. Les fréquences changent : vérifiez-les sur Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Nanterre ?",
+        body: "Notre estimation des loyers donne 720 € pour un T1, 1 050 € pour un T2 et 1 400 € pour un T3 par mois. Boulogne-Billancourt est à 1 400 € pour un T2 : sur un an, l'écart atteint 4 200 € en faveur de Nanterre. Paris est à 1 800 €, soit 9 000 € de plus par an.",
+      },
+      {
+        heading: "Une ville universitaire et en croissance",
+        body: "Nanterre compte 98 119 habitants en 2022, soit +4,1 % depuis 2016 (source : Insee, recensement 2022). Les 15-29 ans pèsent 22,7 % de la population. Le niveau de vie médian est de 21 620 € par an avec 22 % de pauvreté (source : Insee, Filosofi 2021). Nos scores : sécurité 4,1/10, écoles 5,8/10, nature 3,1/10, culture 6,6/10.",
+      },
+      {
+        heading: "Nanterre ou Boulogne-Billancourt ?",
+        body: "Boulogne a les mêmes 9/10 en transport, mais un T2 à 1 400 €, une sécurité de 5,7/10 et des écoles à 8,7/10. Nanterre est 350 € moins chère par mois, avec une sécurité de 4,1/10 et des écoles à 5,8/10. Le coût de la vie est de 3,3/10 ici contre 2,2/10 à Boulogne : l'écart de loyer se retrouve dans le reste du budget.",
+      },
+      {
+        heading: "Les limites sans voiture à Nanterre",
+        body: "Le RER se prend à des gares éloignées de certains quartiers : le bus doit alors prendre le relais. Et la nature, à 3,1/10, invite à sortir de la ville pour le vert. Vérifiez la distance gare-logement avant de signer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le T1 à 720 € est abordable et le campus est dans la commune. Couple actif : un T2 à 1 050 € se justifie pour travailler à La Défense ou Saint-Lazare. Famille : le T3 à 1 400 € est accessible, écoles à 5,8/10. Retraité : accès facile au centre de Paris, sécurité à 4,1/10 à peser.",
+      },
+    ],
+    relatedCities: ["nanterre", "boulogne-billancourt", "paris"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "famille-a-nanterre-2026",
+      "etudiant-a-nanterre-2026",
+    ],
+    tags: ["vivre sans voiture Nanterre", "RER A Nanterre", "RER E Nanterre-La Folie", "mobilité Hauts-de-Seine", "sans voiture Île-de-France 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade",
