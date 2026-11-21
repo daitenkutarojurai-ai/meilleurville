@@ -84273,7 +84273,82 @@ export const GUIDES: Guide[] = [
     relatedCities: ["villejuif","paris","ivry-sur-seine","creteil"],
     relatedGuides: ["10-choses-a-faire-a-paris-2026","10-choses-a-faire-a-creteil-2026"],
     tags: ["10 choses à faire à Villejuif","activités Villejuif 2026","parc des Hautes-Bruyères","roseraie du Val-de-Marne","métro 14"]
-  }
+  },
+  {
+    "slug": "villes-escalade-crossfit-street-workout-582-villes-2026",
+    "title": "Où s'entraîner en France ? Escalade, CrossFit et street workout dans 582 villes",
+    "metaTitle": "Escalade, CrossFit, street workout : 582 villes comparées",
+    "metaDesc": "202 villes sur 582 ont une salle d'escalade cartographiée, 105 un CrossFit, 409 des agrès de street workout : Paris, Toulouse, Grenoble en tête (OpenStreetMap).",
+    "category": "lifestyle",
+    "emoji": "🧗",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "intro": "Sur les 582 villes pour lesquelles nous avons relevé les lieux sportifs cartographiés dans OpenStreetMap, 202 comptent au moins une salle ou un mur d'escalade, 105 au moins un lieu de CrossFit ou de cross-training, 409 au moins un spot de street workout et 492 au moins une salle de sport. Paris domine tous les décomptes (30 lieux d'escalade, 11 de CrossFit, 147 spots de street workout, 327 salles), devant Toulouse, Lyon et Marseille. Mais ramené aux habitants, Issy-les-Moulineaux, Massy et Cergy font mieux que la capitale, et 35 communes de moins de 20 000 habitants ont leur salle d'escalade. Ce guide dit où chaque pratique est la plus facile à trouver, ce que le décompte ne voit pas, et comment s'en servir pour choisir une ville.",
+    "sections": [
+      {
+        "heading": "Que mesure ce classement, et que ne mesure-t-il pas ?",
+        "body": "Il compte les lieux sportifs que des contributeurs ont cartographiés dans OpenStreetMap (© les contributeurs OpenStreetMap, licence ODbL), relevés en octobre 2026 dans chaque commune : les salles de sport (fitness), les spots de street workout (agrès en plein air regroupés quand ils sont à moins de 80 m l'un de l'autre), le CrossFit (le tag `sport=crossfit` est rare, nous ajoutons donc les lieux dont le nom contient « CrossFit » ou « cross training ») et l'escalade. C'est ce qui est cartographié, pas un annuaire exhaustif : une salle ouverte récemment, ou jamais ajoutée à la carte, n'y figure pas. 582 villes sur les 593 de notre base ont une collecte valide ; les 11 autres sont à mettre de côté, pas à lire comme « zéro ». La population est celle du recensement Insee 2022. Un nombre de lieux ne dit rien des tarifs, des horaires, de la taille d'une salle ni de son niveau."
+      },
+      {
+        "heading": "Quelles villes ont le plus de salles d'escalade ?",
+        "body": "Paris (30 lieux d'escalade), Marseille (14), Toulouse (9), Lyon (8), Montpellier et Grenoble (7 chacune), Nantes (6), puis Strasbourg, Bordeaux, Rennes, Saint-Étienne et Saint-Martin-d'Hères (5 chacune). Au nombre brut, les grandes villes gagnent forcément. Rapporté à la population pour les villes de 50 000 habitants et plus, le classement change : Massy (3 lieux, soit 5,9 pour 100 000 habitants) et Issy-les-Moulineaux (4, 5,9) devancent Cergy (4, 5,7), Bourges (3, 4,7), Grenoble (7, 4,5) et Aubervilliers (4, 4,5). Paris tombe à 1,4 pour 100 000 habitants et Marseille à 1,6. Dans l'agglomération grenobloise, Saint-Martin-d'Hères (38 022 habitants) en compte 5 à elle seule."
+      },
+      {
+        "heading": "Faut-il habiter une grande ville pour grimper ?",
+        "body": "Pour trouver le choix, oui ; pour trouver une salle, non. Sur les 42 villes de 100 000 habitants et plus, 39 ont une salle d'escalade cartographiée (93 %). Entre 50 000 et 100 000 habitants, c'est 47 villes sur 89 (53 %), entre 20 000 et 50 000 habitants 81 sur 272 (30 %), et sous 20 000 habitants 35 sur 179 (20 %). Parmi les 131 villes de 50 000 habitants et plus, 45 n'ont aucune salle d'escalade cartographiée : Mulhouse, Cannes, Béziers, Antibes, Cherbourg-en-Cotentin, Lorient, Roubaix, Tourcoing, Argenteuil ou Pessac, par exemple. À l'inverse, des communes de moins de 10 000 habitants en ont une : Hossegor (3 669 habitants), Gourdon (4 080), Carnac (4 215), Montbard (4 751), Quiberon (4 782) ou Saint-Flour (6 390). Dans les villes de 20 000 à 50 000 habitants, Saint-Martin-d'Hères (5 lieux), Gap, Millau, Salon-de-Provence, Saint-Germain-en-Laye, Voiron et Meudon (3 chacune) ont le plus de choix."
+      },
+      {
+        "heading": "Où trouve-t-on du CrossFit ?",
+        "body": "Surtout dans les très grandes villes. Paris compte 11 lieux, Toulouse 7, Lyon 5, puis Strasbourg, Bordeaux, Aix-en-Provence et Saint-Denis de La Réunion 3 chacune. Au total 105 villes sur 582 en ont au moins un : 28 des 42 villes de 100 000 habitants et plus (67 %), 18 des 89 villes de 50 000 à 100 000 habitants (20 %), 43 des 272 villes de 20 000 à 50 000 habitants (16 %) et 16 des 179 communes plus petites (9 %). Prudence sur les zéros : Nantes, Rennes, Montpellier, Clermont-Ferrand, Tours, Toulon, Le Havre, Orléans et Nîmes, des villes de plus de 100 000 habitants, n'ont aucun lieu de CrossFit cartographié, ce qui tient très probablement à la façon dont ces boxes ont été saisies dans OpenStreetMap plutôt qu'à leur absence. Pour le CrossFit, vérifiez sur place avant de conclure."
+      },
+      {
+        "heading": "Où l'offre de salles de sport et de street workout est-elle la plus dense ?",
+        "body": "Pour les salles de sport, Paris (327), Lyon (89), Toulouse (67), Marseille (50), Nantes (47), Bordeaux (40), Rennes (39), Montpellier (36), Grenoble (29) et Tours (26) ont le plus grand nombre. Rapportée à la population dans les villes de 20 000 habitants et plus, la densité la plus forte est celle de villes moyennes : Montélimar (17 salles, 4,2 pour 10 000 habitants), Anglet (16, 3,8), Orange (10, 3,4), Voiron (7, 3,2) et Bourgoin-Jallieu (9, 3,0). Pour le street workout, Paris (147 spots), Toulouse (46), Rennes (35), Marseille (31), Gennevilliers (24), Strasbourg et Saint-Étienne (23 chacune), Lyon (22), Pau (21) et Saint-Priest (19) sont en tête. C'est la pratique la plus répandue en petite ville : 41 des 42 villes de 100 000 habitants et plus en ont un, 74 des 89 villes de 50 000 à 100 000 habitants, 212 des 272 de 20 000 à 50 000 habitants et 82 des 179 plus petites (46 %)."
+      },
+      {
+        "heading": "Quelles villes cumulent escalade, CrossFit et street workout ?",
+        "body": "Cinquante-neuf villes ont à la fois de l'escalade, du CrossFit et du street workout cartographiés, dont 55 de 20 000 habitants et plus. Parmi les villes de 20 000 à 100 000 habitants, 27 ont ces trois pratiques : Avignon, Poitiers, Courbevoie, Mérignac, Saint-Nazaire, Clichy, Quimper, Montauban, Bobigny, Bayonne, Saint-Ouen-sur-Seine, Fontenay-sous-Bois, Saint-Priest, Suresnes, Castres, Arras, Villenave-d'Ornon, Saint-Martin-d'Hères, Chartres, La Ciotat, Agen, Tournefeuille, Sotteville-lès-Rouen, Blagnac, Cormeilles-en-Parisis, Eysines et Lanester. Parmi elles, Montauban (2 lieux d'escalade, 2 de CrossFit, 7 spots de street workout) et Saint-Martin-d'Hères (5, 2, 2) sont les mieux dotées en volume."
+      },
+      {
+        "heading": "Quelles régions comptent le plus de villes avec escalade ?",
+        "body": "La part de villes qui ont une salle d'escalade cartographiée est la plus haute en Auvergne-Rhône-Alpes (30 villes sur 60, 50 %), devant la Provence-Alpes-Côte d'Azur (22 sur 48, 46 %), les Pays de la Loire (11 sur 26, 42 %), la Normandie (8 sur 20, 40 %), l'Occitanie (18 sur 46, 39 %) et la Bretagne (7 sur 18, 39 %). Suivent la Nouvelle-Aquitaine (18 sur 52, 35 %), l'Île-de-France (47 sur 156, 30 %), le Grand Est (13 sur 48, 27 %) et les Hauts-de-France (9 sur 37, 24 %). Outre-mer, seule La Réunion en compte (2 villes sur 9) ; la Guadeloupe, la Martinique, la Guyane et Mayotte n'en ont aucune de cartographiée. Le total reste dépendant de la façon dont les contributeurs locaux ont rempli la carte."
+      },
+      {
+        "heading": "Comment s'en servir pour choisir une ville ?",
+        "body": "Trois règles simples. Si vous grimpez ou faites du CrossFit toute l'année, écartez d'abord les villes à zéro lieu, puis comparez l'offre par habitant plutôt que le total : Issy-les-Moulineaux ou Massy valent mieux, pour un grimpeur, qu'une ville de 100 000 habitants avec un seul mur. Si vous pratiquez en plein air, le street workout est quasi universel dans les villes de plus de 50 000 habitants, mais les agrès ne remplacent pas un club. Enfin, vérifiez toujours sur la carte : ouvrez la page sport de la ville (rubrique « Où s'entraîner ») et confirmez horaires et tarifs auprès du lieu. Pour la nature et les sports de plein air hors salle, voir notre classement des villes outdoor ; pour les enfants, celui des clubs et activités."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "toulouse",
+      "lyon",
+      "marseille",
+      "grenoble",
+      "montpellier",
+      "nantes",
+      "rennes",
+      "bordeaux",
+      "strasbourg",
+      "saint-etienne",
+      "saint-martin-d-heres",
+      "montauban"
+    ],
+    "relatedGuides": [
+      "meilleures-villes-sports-outdoor-plein-air-france-2026",
+      "meilleures-villes-outdoor-sport-nature-france-2025",
+      "meilleures-villes-sport-enfants-clubs-activites-2025"
+    ],
+    "tags": [
+      "escalade",
+      "CrossFit",
+      "street workout",
+      "salles de sport",
+      "OpenStreetMap",
+      "sport",
+      "qualité de vie"
+    ]
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

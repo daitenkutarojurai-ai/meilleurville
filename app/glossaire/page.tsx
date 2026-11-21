@@ -1243,6 +1243,28 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Activité du marché et données cartographiées",
+    emoji: "🧭",
+    terms: [
+      {
+        term: "Ventes pour 1 000 habitants",
+        def: "Nombre de ventes de maisons et d'appartements enregistrées dans DVF sur une période donnée, rapporté à la population de l'Insee et exprimé pour 1 000 habitants. C'est un indicateur d'activité du marché, pas de prix : il monte dans les stations balnéaires où les résidences secondaires tournent, et reste bas dans les communes à forte part de locataires. Il se lit sur la période cumulée annoncée (deux ans dans nos guides), pas par an.",
+      },
+      {
+        term: "Liquidité d'un marché immobilier",
+        def: "Facilité avec laquelle un bien se revend sans baisser son prix : plus il se vend de logements dans une commune, plus il y a d'acheteurs en face. Le nombre de ventes pour 1 000 habitants en donne une première idée, à croiser avec le prix et le délai de vente observé localement. Un volume élevé ne garantit pas la revente d'un bien précis : une rue, un étage ou un mauvais DPE peuvent suffire à l'allonger.",
+      },
+      {
+        term: "Donnée cartographiée (OpenStreetMap)",
+        def: "Information saisie par des contributeurs dans la base ouverte OpenStreetMap (licence ODbL, mention « © les contributeurs OpenStreetMap » obligatoire). Elle dit ce qui est cartographié, pas ce qui existe : une salle d'escalade absente de la carte compte pour zéro. Nos décomptes de salles, de parcs ou de spots sportifs se lisent comme un minimum, et un zéro est un signal à vérifier sur place, pas un constat.",
+      },
+      {
+        term: "Spot de street workout",
+        def: "Ensemble d'agrès de plein air (barres de traction, barres parallèles, espaliers) cartographié comme station de fitness. Dans nos relevés, des agrès situés à moins de 80 m l'un de l'autre comptent pour un seul spot, pour ne pas gonfler le total. Un spot ne dit rien de l'état des équipements ni de leur fréquentation ; il est gratuit et en accès libre, à la différence d'un club.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);

@@ -69869,6 +69869,141 @@ export const EN_GUIDES: EnGuide[] = [
       "living in France"
     ]
   },
+  {
+    "slug": "french-cities-climbing-gyms-crossfit-street-workout-582-cities-2026",
+    "title": "Where to train in France: climbing, CrossFit and street workout in 582 cities",
+    "metaTitle": "Climbing, CrossFit, street workout: 582 French cities",
+    "metaDesc": "202 of 582 French cities have a mapped climbing gym, 105 a CrossFit box, 409 street workout spots. Paris, Toulouse and Grenoble lead (OpenStreetMap data).",
+    "category": "lifestyle",
+    "emoji": "🧗",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "intro": "Of the 582 cities where we pulled the sports venues mapped in OpenStreetMap, 202 have at least one climbing gym or wall, 105 at least one CrossFit or cross-training venue, 409 at least one street workout spot and 492 at least one gym. Paris tops every count (30 climbing venues, 11 CrossFit, 147 street workout spots, 327 gyms), ahead of Toulouse, Lyon and Marseille. Per resident, though, Issy-les-Moulineaux, Massy and Cergy beat the capital, and 35 towns under 20,000 people have a climbing gym. This guide shows where each activity is easiest to find, what a venue count cannot see, and how to use it when choosing where to live.",
+    "sections": [
+      {
+        "heading": "What does this ranking measure, and what does it miss?",
+        "body": "It counts the sports venues that contributors have mapped in OpenStreetMap (© OpenStreetMap contributors, ODbL licence), collected in October 2026 for each city: gyms (fitness centres), street workout spots (outdoor bars and rigs, grouped when they sit within 80 m of each other), CrossFit (the dedicated tag is rare, so we also include venues with \"CrossFit\" or \"cross training\" in the name) and climbing. It is what has been mapped, not a complete directory: a gym that opened recently, or was never added to the map, is missing. 582 of the 593 cities in our database have a valid collection; treat the other 11 as unknown, not as zero. Population is the 2022 INSEE census. A venue count tells you nothing about prices, opening hours, size or level."
+      },
+      {
+        "heading": "Which cities have the most climbing gyms?",
+        "body": "Paris (30 climbing venues), Marseille (14), Toulouse (9), Lyon (8), Montpellier and Grenoble (7 each), Nantes (6), then Strasbourg, Bordeaux, Rennes, Saint-Étienne and Saint-Martin-d'Hères (5 each). In raw numbers the big cities win by default. Per capita, for cities of 50,000 and over, the order changes: Massy (3 venues, 5.9 per 100,000 residents) and Issy-les-Moulineaux (4, 5.9) edge out Cergy (4, 5.7), Bourges (3, 4.7), Grenoble (7, 4.5) and Aubervilliers (4, 4.5). Paris drops to 1.4 per 100,000 and Marseille to 1.6. In the Grenoble area, Saint-Martin-d'Hères (38,022 residents) has 5 on its own."
+      },
+      {
+        "heading": "Do you need a big city to climb?",
+        "body": "For choice, yes; for a gym, no. Of the 42 cities with 100,000 residents or more, 39 have a mapped climbing gym (93%). Between 50,000 and 100,000 it is 47 of 89 (53%), between 20,000 and 50,000 it is 81 of 272 (30%), and under 20,000 it is 35 of 179 (20%). Among the 131 cities of 50,000 and over, 45 have no mapped climbing gym: Mulhouse, Cannes, Béziers, Antibes, Cherbourg-en-Cotentin, Lorient, Roubaix, Tourcoing, Argenteuil and Pessac, for instance. Meanwhile some places under 10,000 residents have one: Hossegor (3,669), Gourdon (4,080), Carnac (4,215), Montbard (4,751), Quiberon (4,782) and Saint-Flour (6,390). Among cities of 20,000 to 50,000, Saint-Martin-d'Hères (5 venues), Gap, Millau, Salon-de-Provence, Saint-Germain-en-Laye, Voiron and Meudon (3 each) offer the most choice."
+      },
+      {
+        "heading": "Where can you find CrossFit?",
+        "body": "Mostly in the largest cities. Paris has 11 venues, Toulouse 7, Lyon 5, then Strasbourg, Bordeaux, Aix-en-Provence and Saint-Denis (La Réunion) 3 each. In all, 105 of 582 cities have at least one: 28 of the 42 cities of 100,000 and over (67%), 18 of 89 cities of 50,000 to 100,000 (20%), 43 of 272 cities of 20,000 to 50,000 (16%) and 16 of 179 smaller towns (9%). Be careful with the zeros: Nantes, Rennes, Montpellier, Clermont-Ferrand, Tours, Toulon, Le Havre, Orléans and Nîmes, all above 100,000 residents, have no CrossFit venue mapped, which most likely reflects how those boxes were entered in OpenStreetMap rather than a real absence. For CrossFit, check locally before drawing a conclusion."
+      },
+      {
+        "heading": "Where is the supply of gyms and street workout densest?",
+        "body": "For gyms, Paris (327), Lyon (89), Toulouse (67), Marseille (50), Nantes (47), Bordeaux (40), Rennes (39), Montpellier (36), Grenoble (29) and Tours (26) have the largest numbers. Per resident, among cities of 20,000 and over, the highest densities belong to mid-sized towns: Montélimar (17 gyms, 4.2 per 10,000 residents), Anglet (16, 3.8), Orange (10, 3.4), Voiron (7, 3.2) and Bourgoin-Jallieu (9, 3.0). For street workout, Paris (147 spots), Toulouse (46), Rennes (35), Marseille (31), Gennevilliers (24), Strasbourg and Saint-Étienne (23 each), Lyon (22), Pau (21) and Saint-Priest (19) lead. It is the most widespread activity in smaller cities: 41 of the 42 cities of 100,000 and over have a spot, 74 of the 89 cities of 50,000 to 100,000, 212 of the 272 of 20,000 to 50,000 and 82 of the 179 smaller ones (46%)."
+      },
+      {
+        "heading": "Which cities have climbing, CrossFit and street workout all together?",
+        "body": "Fifty-nine cities have all three mapped, 55 of them with 20,000 residents or more. Among cities of 20,000 to 100,000, 27 have the full set: Avignon, Poitiers, Courbevoie, Mérignac, Saint-Nazaire, Clichy, Quimper, Montauban, Bobigny, Bayonne, Saint-Ouen-sur-Seine, Fontenay-sous-Bois, Saint-Priest, Suresnes, Castres, Arras, Villenave-d'Ornon, Saint-Martin-d'Hères, Chartres, La Ciotat, Agen, Tournefeuille, Sotteville-lès-Rouen, Blagnac, Cormeilles-en-Parisis, Eysines and Lanester. Of these, Montauban (2 climbing venues, 2 CrossFit, 7 street workout spots) and Saint-Martin-d'Hères (5, 2, 2) have the most in volume."
+      },
+      {
+        "heading": "Which regions have the most cities with climbing?",
+        "body": "The share of cities with a mapped climbing gym is highest in Auvergne-Rhône-Alpes (30 of 60, 50%), ahead of Provence-Alpes-Côte d'Azur (22 of 48, 46%), Pays de la Loire (11 of 26, 42%), Normandy (8 of 20, 40%), Occitanie (18 of 46, 39%) and Brittany (7 of 18, 39%). Next come Nouvelle-Aquitaine (18 of 52, 35%), Île-de-France (47 of 156, 30%), Grand Est (13 of 48, 27%) and Hauts-de-France (9 of 37, 24%). Overseas, only La Réunion has any (2 of 9 cities); Guadeloupe, Martinique, Guyane and Mayotte have none mapped. The totals still depend on how thoroughly local contributors have filled in the map."
+      },
+      {
+        "heading": "How should you use this to choose a city?",
+        "body": "Three simple rules. If you climb or do CrossFit all year, first rule out cities with zero venues, then compare supply per resident rather than the total: for a climber, Issy-les-Moulineaux or Massy beat a city of 100,000 with a single wall. If you train outdoors, street workout is almost universal in cities above 50,000, but outdoor bars are no substitute for a club. Finally, always check on the map: open the city's sports page (the \"Where to train\" block) and confirm hours and prices with the venue itself. For nature and outdoor sports beyond the gym, see our ranking of the best French cities for outdoor sports."
+      }
+    ],
+    "relatedCities": [
+      "paris",
+      "toulouse",
+      "lyon",
+      "marseille",
+      "grenoble",
+      "montpellier",
+      "nantes",
+      "rennes",
+      "bordeaux",
+      "strasbourg",
+      "saint-etienne",
+      "saint-martin-d-heres",
+      "montauban"
+    ],
+    "tags": [
+      "climbing",
+      "CrossFit",
+      "street workout",
+      "gyms",
+      "OpenStreetMap",
+      "sport",
+      "quality of life"
+    ]
+  },
+  {
+    "slug": "french-cities-most-active-property-markets-sales-per-1000-residents-400-cities-2026",
+    "title": "Where do homes sell the most? Property sales per 1,000 residents in 400 French cities (DVF 2024-2025)",
+    "metaTitle": "Most active property markets in France: sales per 1,000",
+    "metaDesc": "Agde 124.5 sales per 1,000 residents, Cannes 63.2, Nice 40.4, Paris 25.8, Gennevilliers 5.6: how active the property market is in 400 French cities (DVF 2024-2025).",
+    "category": "lifestyle",
+    "emoji": "🔑",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "intro": "Across 2024 and 2025, the 400 cities of 20,000 residents or more for which we have both DVF sales and 2022 population recorded 24.5 house and apartment sales per 1,000 residents over the two years combined, with a median of 22.3. Agde (124.5) leads Mandelieu-la-Napoule (71.2), Saint-Raphaël (66.9), Cannes (63.2) and Menton (60.8); Nice is at 40.4, Paris at 25.8, Lyon at 24.8. At the other end, Gennevilliers (5.6) and La Courneuve (5.5) saw about one sale for every 180 residents. This guide ranks cities on that single number and explains what it tells a buyer: the range of choice, how easily you can resell, and what it says nothing about, which is price.",
+    "sections": [
+      {
+        "heading": "What does sales per 1,000 residents measure?",
+        "body": "The number of house and apartment sales recorded in 2024 and 2025 in the DVF database (Demandes de valeurs foncières, published by the tax authority DGFiP from notarial deeds), divided by the 2022 INSEE population and expressed per 1,000 residents. It is an activity indicator: the higher it is, the busier a city's market is with buyers and sellers. It says nothing about price, or about how long a given property takes to sell. We computed it for the 400 cities of 20,000 and over where both sources exist. Alsace and Moselle cities, Strasbourg first, are missing: their separate land-registry law keeps them out of the DVF file. The figures cover two years combined, not one: halve them for an annual pace."
+      },
+      {
+        "heading": "Where is the property market most active?",
+        "body": "On the Mediterranean coast and in a few spa towns. Agde (124.5 sales per 1,000 residents, i.e. 3,687 sales for 29,612 residents), Mandelieu-la-Napoule (71.2), Saint-Raphaël (66.9), Cannes (63.2), Menton (60.8), Antibes (52.9), Biarritz (52.4), Vichy (52.3), Le Cannet (46.3), Fréjus (45.8), Les Sables-d'Olonne (45.7) and Sète (44.8) form the top. Vallauris (44.5), Dax (43.8) and Six-Fours-les-Plages (43.4) follow. Eighteen cities exceed 40 sales per 1,000 residents, 74 exceed 30 and 151 exceed 25. Agde stands apart: 2,954 of its 3,687 sales are apartments, about 100 apartment sales per 1,000 residents, in a municipality whose Cap d'Agde holds a large stock of holiday flats. A very active market therefore does not mean a place where people move a lot: in these resorts, part of the sales is turnover of second homes, which the file cannot tell apart from main residences."
+      },
+      {
+        "heading": "Where is the market quietest?",
+        "body": "In Île-de-France (Seine-Saint-Denis, Val-d'Oise, Hauts-de-Seine), in Creil and overseas. On the mainland the lowest are La Courneuve (5.5 sales per 1,000 residents, 258 sales), Gennevilliers (5.6, 287), Bobigny (6.2, 344), Stains (7.1, 288), Garges-lès-Gonesse (7.4, 312), Villeneuve-la-Garenne (7.5, 193), Clichy-sous-Bois (8.4, 247), Sarcelles and Trappes (8.7), Nanterre (8.8, 860), Creil (8.9) and Le Blanc-Mesnil (9.0). Twenty-nine cities are below 10, including some overseas cities: the median of the 17 cities of Guadeloupe, Martinique, Guyane and La Réunion is 8.8, with a high of 16.5 (Saint-Denis, La Réunion) and a low of 0.6 in Saint-Laurent-du-Maroni (60 sales for 51,732 residents). A quiet market is not a worthless one: it is a market where few homes change hands, because few households own their home or because owners stay put. This number cannot tell the two explanations apart."
+      },
+      {
+        "heading": "Are big cities more active than small ones?",
+        "body": "A little, but the ranking is mostly regional. The 39 cities of 100,000 and over have a median of about 28 sales per 1,000 residents, against 22 for all cities. Nice (40.4), Dijon (35.2), Brest (33.6), Bordeaux (31.4), Tours (30.0), Grenoble (29.9), Toulouse and Nantes (28.6), Montpellier (28.0), Rennes (27.9), Angers (27.4) and Lille (27.3) lead. Paris (25.8, or 54,500 sales), Marseille (25.7) and Lyon (24.8) sit lower because so many of their residents are renters. At the bottom among large cities: Montreuil (18.2), Saint-Denis in La Réunion (16.5), Argenteuil (15.3), Saint-Denis in Seine-Saint-Denis (10.1) and Saint-Paul in La Réunion (9.7)."
+      },
+      {
+        "heading": "Which regions have the most active market?",
+        "body": "Among regions with at least ten cities, the highest median is Brittany's (32.3, 10 cities), ahead of Nouvelle-Aquitaine (30.8, 30 cities) and Provence-Alpes-Côte d'Azur (30.0, 33 cities). Next are Bourgogne-Franche-Comté (28.5), Occitanie (27.9), Pays de la Loire (27.7), Centre-Val de Loire (27.1), Auvergne-Rhône-Alpes (25.2), Normandy (24.7) and Grand Est (24.1). Hauts-de-France is at 21.6 (30 cities), Île-de-France at 18.2 (153 cities, far below the other mainland regions) and La Réunion at 8.9 (10 cities). Within Île-de-France, the busiest are Vincennes (30.5), Neuilly-sur-Seine (29.4), Saint-Maur-des-Fossés (28.2), Nogent-sur-Marne (27.2), Saint-Mandé (27.0) and Montrouge (26.8): high-price cities, the opposite of the Seine-Saint-Denis towns named above."
+      },
+      {
+        "heading": "Where do people mostly buy houses, and where apartments?",
+        "body": "Twenty-eight cities have at least 70% houses in their sales, thirty-six have 10% or less. Among cities with at least 300 sales, the most house-oriented are Denain (94% of sales), Saint-Joseph in La Réunion (92%), Liévin (91%), Saint-Louis in La Réunion (91%), Bruay-la-Buissière (89%), Wattrelos and Halluin (88%) and Hénin-Beaumont (84%). In house sales per 1,000 residents, Les Sables-d'Olonne (27), Villeneuve-sur-Lot, Agde, Bergerac and Vierzon (25 each), then Saintes, Challans and Niort (22) lead: mid-sized towns where detached housing dominates. In apartment sales, the list is the Riviera's: Agde (100), Mandelieu-la-Napoule (64), Cannes (61), Menton (58), Saint-Raphaël (52) and Antibes (48)."
+      },
+      {
+        "heading": "What should a buyer do with this ranking?",
+        "body": "Three things. An active market offers more properties to compare and usually a shorter resale: in Dijon, Brest or Bordeaux you will have more listings to visit than in Garges-lès-Gonesse or Sarcelles. A quiet market gives less choice but also less competition between buyers. And for an investor, a high sales volume is a liquidity signal, to be read against price and rent. Limits: the file does not say which share of sales are second homes, private sales or new-builds; only two years are covered; and a small municipal perimeter (Vincennes, Saint-Mandé) compares poorly with a large sprawling municipality. For prices themselves, see our guide to apartment prices per m² by city."
+      }
+    ],
+    "relatedCities": [
+      "agde",
+      "cannes",
+      "nice",
+      "biarritz",
+      "vichy",
+      "sete",
+      "antibes",
+      "dijon",
+      "brest",
+      "bordeaux",
+      "mandelieu-la-napoule",
+      "saint-raphael",
+      "les-sables-d-olonne"
+    ],
+    "tags": [
+      "property sales",
+      "DVF",
+      "property market",
+      "buying",
+      "liquidity",
+      "number of transactions"
+    ]
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

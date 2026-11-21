@@ -11500,6 +11500,16 @@
       "slug": "living-in-a-french-city-with-a-tgv-station-2026",
       "title": "Living in a French city with a TGV station: what direct high-speed rail really changes",
       "emoji": "🚄"
+    },
+    {
+      "slug": "french-cities-climbing-gyms-crossfit-street-workout-582-cities-2026",
+      "title": "Where to train in France: climbing, CrossFit and street workout in 582 cities",
+      "emoji": "🧗"
+    },
+    {
+      "slug": "french-cities-most-active-property-markets-sales-per-1000-residents-400-cities-2026",
+      "title": "Where do homes sell the most? Property sales per 1,000 residents in 400 French cities (DVF 2024-2025)",
+      "emoji": "🔑"
     }
   ],
   "tags": [
@@ -11844,6 +11854,11 @@
       "count": 9
     },
     {
+      "slug": "quality-of-life",
+      "label": "quality-of-life",
+      "count": 9
+    },
+    {
       "slug": "rennes",
       "label": "rennes",
       "count": 9
@@ -11866,11 +11881,6 @@
     {
       "slug": "marseille",
       "label": "marseille",
-      "count": 8
-    },
-    {
-      "slug": "quality-of-life",
-      "label": "quality-of-life",
       "count": 8
     },
     {
@@ -12039,6 +12049,11 @@
       "count": 5
     },
     {
+      "slug": "dvf",
+      "label": "DVF",
+      "count": 5
+    },
+    {
       "slug": "franche-comte",
       "label": "franche-comte",
       "count": 5
@@ -12077,11 +12092,6 @@
       "slug": "saint-etienne",
       "label": "saint-etienne",
       "count": 5
-    },
-    {
-      "slug": "dvf",
-      "label": "DVF",
-      "count": 4
     },
     {
       "slug": "first-time-buyer",
