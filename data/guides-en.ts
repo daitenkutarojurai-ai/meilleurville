@@ -69665,6 +69665,210 @@ export const EN_GUIDES: EnGuide[] = [
       "cheap cities"
     ]
   },
+  {
+    "slug": "cities-with-covered-markets-france-2026",
+    "title": "Living near a covered market in France: which cities still shop daily",
+    "metaTitle": "Covered Markets in France: Cities to Shop Daily (2026)",
+    "metaDesc": "Halles and daily covered markets in Bordeaux, Lyon, Toulouse, Dijon and Narbonne: what daily fresh shopping changes, and how to check a town's market.",
+    "category": "lifestyle",
+    "emoji": "🥖",
+    "readMinutes": 6,
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "intro": "A covered market (marché couvert, or halles) is a permanent building where food traders sell fresh produce most days of the week, unlike an open-air market that sets up two or three mornings. A handful of French cities still run one in the centre that people actually use for weekday shopping: Bordeaux, Lyon, Toulouse, Dijon and Narbonne are the clearest cases. If you can reach one on foot before lunchtime, you can drop most of your supermarket trips for fresh food. Opening days change, so check the town's own listing before you plan around one.",
+    "sections": [
+      {
+        "heading": "What a daily market changes in your routine",
+        "body": "On seasonal fresh food (fruit, vegetables, common fish, standard cheese) prices at a good market are comparable to a supermarket once you match the quality. The premium shows up on specialities such as prime fish, salt-marsh lamb or long-aged AOP cheese. What really changes is how you eat: you buy what is in season, in small quantities, every couple of days, and you throw less away. The catch is timing. Most halles are a morning affair, so it suits people who are home or flexible before 1 pm."
+      },
+      {
+        "heading": "Bordeaux: Marché des Capucins",
+        "body": "The Capucins market is often called the belly of Bordeaux. It holds fishmongers, greengrocers, butchers, cheese sellers, oyster farmers from the Arcachon basin and a handful of counters where you eat standing up. The neighbourhood around it was long working-class and has been renovated without losing its character. Living within a short walk means you can realistically skip the city-centre supermarket for fresh food, which is rare in a large French city."
+      },
+      {
+        "heading": "Lyon: Les Halles Paul Bocuse and the neighbourhood markets",
+        "body": "Les Halles de Lyon Paul Bocuse, in the 3rd arrondissement, is the showcase: a few dozen hand-picked traders and prices that match the standing. Day-to-day shopping in Lyon leans more on the open-air markets, such as Croix-Rousse and the quayside market at Saint-Antoine. If you live in the 1st, 3rd, 4th or 7th arrondissement, you will almost always have a market within walking distance during the week."
+      },
+      {
+        "heading": "Toulouse: Marché Victor Hugo",
+        "body": "Marché Victor Hugo sits in the historic centre, with butchers specialising in Gascon meat, fishmongers, delicatessens and the south-west staples: duck, foie gras, cassoulet. Several restaurants upstairs cook what was bought downstairs that morning. Living in the central districts around the Capitole puts it within about a ten-minute walk, a real point in its favour when you compare two otherwise similar residential areas."
+      },
+      {
+        "heading": "Dijon: the central Halles",
+        "body": "Dijon's central halles date from the late nineteenth century and are tied to Gustave Eiffel's name. The Saturday morning market spills out into the surrounding streets and is among the liveliest in Burgundy. For a mid-sized city the density of regional products is unusual: mustard, gingerbread, blackcurrant liqueur, local cheeses and wine. The pedestrian centre around the halles makes shopping on foot or by bike easy."
+      },
+      {
+        "heading": "Narbonne: halles open on days when others close",
+        "body": "Narbonne's halles are known for opening on days when most French markets rest, including Mondays, which is unusual for a town of its size. The early twentieth-century building houses fishmongers, butchers, greengrocers, charcutiers and cheese sellers, with Mediterranean fish coming in from the nearby coast. If you live in the old centre you can usually count on fresh food at hand all week."
+      },
+      {
+        "heading": "Other cities worth a look",
+        "body": "Marseille leans on open-air street markets more than covered halles, but daily fresh food is easy to find in the centre. Limoges has a central hall in the same iron-and-glass style, with local Limousin meat and a reputation for low prices. Aix-en-Provence has a morning market on the Place Richelme and others through the week, which brightens the old town and partly offsets high property prices."
+      },
+      {
+        "heading": "What a missing market tells you",
+        "body": "When a town closes its covered market or turns it into a tourist food court, the small food traders that remain usually pay commercial rents and prices rise, so customers drift back to the supermarket. Before settling in a mid-sized city for its quality of life, look at the market on a Tuesday morning in February. A busy one means the town still has a living food economy. A market that only appears on Saturdays for visitors is a different signal."
+      }
+    ],
+    "relatedCities": [
+      "bordeaux",
+      "lyon",
+      "toulouse",
+      "dijon",
+      "narbonne",
+      "marseille",
+      "limoges",
+      "aix-en-provence"
+    ],
+    "tags": [
+      "covered market",
+      "halles",
+      "fresh food france",
+      "Bordeaux",
+      "Lyon",
+      "Toulouse",
+      "Dijon",
+      "Narbonne",
+      "daily shopping"
+    ]
+  },
+  {
+    "slug": "cities-to-recover-after-burnout-france-2026",
+    "title": "Where to recover after burnout in France: eight calmer cities",
+    "metaTitle": "Where to Recover After Burnout in France (2026)",
+    "metaDesc": "Eight French cities that suit a long recovery: mild climate, walkable nature, manageable size. And the honest limits on doctors, cost and summer crowds.",
+    "category": "lifestyle",
+    "emoji": "🌿",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "intro": "There is no single best French city for recovering from burnout, and this guide is not medical advice. What a city can do is make the long months afterwards easier or harder: a mild climate, nature you can reach without a car, a size where you see familiar faces, and a way into the healthcare system. Pau, La Rochelle, Annecy, Aix-les-Bains, Vannes, Biarritz, Sarlat and Saint-Malo are the eight we would look at first, each with a real drawback named below. Whatever you choose, line up a doctor and any mental-health follow-up before you move.",
+    "sections": [
+      {
+        "heading": "What to look for in a recovery city",
+        "body": "The first test is not the prettiest city but the least tiring one. In practice that means four things. A climate without a very dark winter or a long heatwave. Nature you can walk to, because needing a car to breathe adds mental load. Healthcare: a GP (médecin traitant, the doctor you register with so the state reimburses properly) who accepts new patients, a psychologist or psychiatrist, and a physiotherapist. And a social setting where you can go a week without speaking to anyone and also strike up a conversation at a café. No city ticks every box."
+      },
+      {
+        "heading": "Pau: mild climate, mountains in view",
+        "body": "Pau rarely appears in popular rankings, which suits a quiet period. Winters are mild, and on a clear day the Pyrenees are visible from the Boulevard des Pyrénées, ten minutes' walk from the centre. The foothills are within about an hour by car for a day's walking. The town has a university hospital nearby and is much cheaper than the Basque coast, which matters if sick leave drags on."
+      },
+      {
+        "heading": "La Rochelle: walk, cycle, see the sea daily",
+        "body": "The centre is flat, dense and easy to cover on foot or by bike, and the sea begins where the streets end. Île de Ré is a short bus or bike ride away and is quiet out of season. The limit is healthcare: psychiatrists are in short supply, as on most attractive coastlines, so start the process before you arrive."
+      },
+      {
+        "heading": "Annecy: lake and mountains on foot",
+        "body": "The lake is walkable from the whole centre and the paths along both shores keep you away from traffic. Mountain trails are under an hour's drive. The drawback is cost: Annecy is among the most expensive housing markets in France, so many people can only afford a few weeks of seasonal rental rather than a long lease. Air quality is better than in the nearby Arve valley but can worsen on winter inversion days."
+      },
+      {
+        "heading": "Aix-les-Bains: a spa town built for convalescence",
+        "body": "Aix-les-Bains grew up around thermal spas, so rehabilitation and recovery are part of the local economy: many physiotherapists, accommodation used to long stays, and easy access to spa treatments. Lac du Bourget is quieter than Annecy's lake and good for walking and swimming outside summer. It is small, which can weigh over time, but in recovery fewer demands can be a plus."
+      },
+      {
+        "heading": "Vannes: the Gulf of Morbihan",
+        "body": "Vannes sits on an inland sea with bays, coastal paths and fishing villages within twenty minutes. The oceanic climate avoids extremes, with few heatwaves and mild, damp winters. The town is a manageable size with markets and active associations. Healthcare is adequate for the local population but not abundant, and waits for public psychiatry are long, as across Brittany."
+      },
+      {
+        "heading": "Biarritz: the ocean in the off-season",
+        "body": "From October to June Biarritz is a calm town where the tides set the pace. The Basque climate is mild and humid, without harsh cold or long continental heatwaves, and the local wellness scene is dense. Two warnings: housing is tight and expensive, and July and August are too crowded for a nervous system in repair."
+      },
+      {
+        "heading": "Sarlat-la-Canéda: slow Périgord",
+        "body": "This is the most radical option: a small medieval town in a rural area, low density, little traffic and endless walking in the surrounding valleys. Healthcare is the weak point, especially specialists, so confirm a GP will take you before signing a lease. Summer brings crowds for about six weeks; renting on the edge of town helps."
+      },
+      {
+        "heading": "Saint-Malo: wind, tides, a human-sized town",
+        "body": "A cool oceanic climate reduces summer heat fatigue, the ramparts and beaches give you a daily walking route all year, and Paramé and Saint-Servan are calm residential districts. The drawbacks are grey winters, which can weigh on people sensitive to low light, and a packed walled town in high season."
+      },
+      {
+        "heading": "Which places to be careful with",
+        "body": "Big cities such as Paris, Lyon, Marseille and central Bordeaux pile on noise and density, and waits to see a specialist are long. Resort towns in peak season, such as Cassis or Saint-Tropez, swing into an intensity that does not suit recovery. Remote rural areas can look ideal but force long trips for care. Inland Provence and the Rhône valley can have long heatwaves. Match the place to your own triggers and see a professional before deciding."
+      }
+    ],
+    "relatedCities": [
+      "pau",
+      "la-rochelle",
+      "annecy",
+      "aix-les-bains",
+      "vannes",
+      "biarritz",
+      "sarlat-la-caneda",
+      "saint-malo"
+    ],
+    "tags": [
+      "burnout",
+      "recovery",
+      "quiet cities",
+      "slow living",
+      "healthcare access",
+      "Pau",
+      "La Rochelle",
+      "Annecy",
+      "Vannes"
+    ]
+  },
+  {
+    "slug": "living-in-a-french-city-with-a-tgv-station-2026",
+    "title": "Living in a French city with a TGV station: what direct high-speed rail really changes",
+    "metaTitle": "Living in a French City With a TGV Station (2026)",
+    "metaDesc": "What a TGV station changes: real door-to-door times, central versus out-of-town stations, frequency and season tickets, and who actually benefits.",
+    "category": "moving",
+    "emoji": "🚄",
+    "readMinutes": 8,
+    "publishedAt": "2026-11-21",
+    "updatedAt": "2026-11-21",
+    "intro": "The TGV is France's high-speed rail network. A TGV station in the middle of town lets you keep a Paris job while living hundreds of kilometres away, visit family without a long drive, and reach specialists or interviews on short notice. The headline journey time overstates the benefit, though: what matters is whether the station is central, how often trains run, and what the season ticket costs. This guide gives a four-step check to run before you let a station decide where you live.",
+    "sections": [
+      {
+        "heading": "Why the station matters more than people expect",
+        "body": "Most buyers weigh climate, housing cost, schools and jobs, and leave rail for later. A central TGV station changes three things. It makes a weekly or fortnightly commute to a Paris employer physically bearable. It frees weekends, since you can see friends or family in another city without a long drive both ways. And it makes unplanned trips, such as a hospital appointment, easy. That turns a mid-sized city into a connected base rather than an isolated one."
+      },
+      {
+        "heading": "Three kinds of station town",
+        "body": "The first group is the big central stations of the major cities: Lyon, Marseille, Bordeaux, Lille, Rennes, Nantes, Strasbourg and Montpellier. They are in the centre, well connected by tram or metro, and often have frequent trains. The second is mid-sized cities with a central station and several daily trains to Paris or Lyon, such as Tours, Le Mans, Reims, Angers, Poitiers, Dijon, Metz and Nancy. The third is towns served by a station built out in the countryside to avoid the detour into the centre, which brings its own problems."
+      },
+      {
+        "heading": "The real journey time",
+        "body": "Do not trust the timetable figure. Add the way to the departure station, boarding, arrival, and the last stretch to your actual destination. If your station is central and your Paris office is close to the arrival terminal, add maybe 45 minutes to an hour to the stated journey. If you start from an out-of-town station twenty minutes by car away, or finish with a metro change and a suburban train, the door-to-door time grows quickly and the commute stops being tenable."
+      },
+      {
+        "heading": "Effect on property prices",
+        "body": "A TGV link does lift the area around a central station, but the effect is usually smaller than sales pitches suggest, and it sits alongside neighbourhood quality, services and schools. Cities that gained from the high-speed line, such as Rennes, Bordeaux and Strasbourg, mostly gained notoriety among Parisians looking for a way out. The classic trap is paying a station premium for a home you will use for a handful of trips a year."
+      },
+      {
+        "heading": "The out-of-town station trap",
+        "body": "Several TGV stations sit in open country: Champagne-Ardenne TGV is some distance from Reims, Lorraine TGV lies between Metz and Nancy without serving either directly, and Aix-en-Provence TGV is a drive from the city centre. They offer fast journeys without crossing a city, but each trip turns into a multi-step expedition with a car, parking or a shuttle. Check exactly which station serves the town before assuming it counts as connected."
+      },
+      {
+        "heading": "Frequency and the season ticket",
+        "body": "Two hidden variables decide whether a commuter plan works: how many trains run and what you pay. With a train every hour, a missed train costs an hour. With only a few return trips a day, any delay at the office or on the suburban line costs hours. Heads of the high-speed network such as Lyon, Bordeaux, Lille, Rennes, Nantes, Strasbourg and Montpellier are best served. A commuter pass on high-speed rail is a major annual cost, so price it before comparing it with the rent you save. Fares change, so check the operator's current offer."
+      },
+      {
+        "heading": "Who benefits, and who does not",
+        "body": "Paris-to-province commuters benefit most, since their whole trade-off depends on the train. Dual-career couples working in two different cities also gain, as do freelancers with national clients and families spread across the country. Others, such as people who work locally, remote workers who rarely travel, or those who prefer driving, gain little and should not pay a premium for it."
+      },
+      {
+        "heading": "A four-step check before you sign",
+        "body": "First, confirm the station is central and not an out-of-town stop. Second, look at the actual train frequency and first and last departures to your key destinations, not only the quickest journey. Third, work out your door-to-door time and convert it into monthly hours at your travel rhythm. Fourth, add up the annual cost of tickets, station parking and urban transport at the other end, and compare it with the rent or mortgage difference. If the numbers still work, the station is an asset. If not, it is decoration."
+      }
+    ],
+    "relatedCities": [
+      "rennes",
+      "bordeaux",
+      "strasbourg",
+      "tours",
+      "lyon"
+    ],
+    "tags": [
+      "TGV",
+      "high-speed rail",
+      "train station",
+      "commuting",
+      "Paris commute",
+      "property prices",
+      "living in France"
+    ]
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

@@ -11485,6 +11485,21 @@
       "slug": "gross-rental-yield-cheap-french-cities-trap-2026",
       "title": "Gross rental yield in cheap French cities: why the headline number misleads",
       "emoji": "📊"
+    },
+    {
+      "slug": "cities-with-covered-markets-france-2026",
+      "title": "Living near a covered market in France: which cities still shop daily",
+      "emoji": "🥖"
+    },
+    {
+      "slug": "cities-to-recover-after-burnout-france-2026",
+      "title": "Where to recover after burnout in France: eight calmer cities",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "living-in-a-french-city-with-a-tgv-station-2026",
+      "title": "Living in a French city with a TGV station: what direct high-speed rail really changes",
+      "emoji": "🚄"
     }
   ],
   "tags": [
@@ -11684,14 +11699,14 @@
       "count": 17
     },
     {
-      "slug": "reunion",
-      "label": "reunion",
+      "slug": "bordeaux",
+      "label": "bordeaux",
       "count": 16
     },
     {
-      "slug": "bordeaux",
-      "label": "bordeaux",
-      "count": 15
+      "slug": "reunion",
+      "label": "reunion",
+      "count": 16
     },
     {
       "slug": "bretagne",
@@ -11729,6 +11744,11 @@
       "count": 13
     },
     {
+      "slug": "lyon",
+      "label": "lyon",
+      "count": 12
+    },
+    {
       "slug": "train-holidays-with-children",
       "label": "train holidays with children",
       "count": 12
@@ -11746,11 +11766,6 @@
     {
       "slug": "auvergne",
       "label": "auvergne",
-      "count": 11
-    },
-    {
-      "slug": "lyon",
-      "label": "lyon",
       "count": 11
     },
     {
@@ -11779,6 +11794,11 @@
       "count": 10
     },
     {
+      "slug": "dijon",
+      "label": "dijon",
+      "count": 10
+    },
+    {
       "slug": "nantes",
       "label": "nantes",
       "count": 10
@@ -11786,6 +11806,11 @@
     {
       "slug": "savoie",
       "label": "savoie",
+      "count": 10
+    },
+    {
+      "slug": "toulouse",
+      "label": "toulouse",
       "count": 10
     },
     {
@@ -11801,11 +11826,6 @@
     {
       "slug": "corsica",
       "label": "corsica",
-      "count": 9
-    },
-    {
-      "slug": "dijon",
-      "label": "dijon",
       "count": 9
     },
     {
@@ -11826,11 +11846,6 @@
     {
       "slug": "rennes",
       "label": "rennes",
-      "count": 9
-    },
-    {
-      "slug": "toulouse",
-      "label": "toulouse",
       "count": 9
     },
     {
@@ -11959,6 +11974,11 @@
       "count": 6
     },
     {
+      "slug": "annecy",
+      "label": "annecy",
+      "count": 6
+    },
+    {
       "slug": "brest",
       "label": "brest",
       "count": 6
@@ -11981,6 +12001,11 @@
     {
       "slug": "lorraine",
       "label": "lorraine",
+      "count": 6
+    },
+    {
+      "slug": "pau",
+      "label": "pau",
       "count": 6
     },
     {
@@ -12009,11 +12034,6 @@
       "count": 5
     },
     {
-      "slug": "annecy",
-      "label": "annecy",
-      "count": 5
-    },
-    {
       "slug": "avignon",
       "label": "avignon",
       "count": 5
@@ -12024,6 +12044,11 @@
       "count": 5
     },
     {
+      "slug": "la-rochelle",
+      "label": "la rochelle",
+      "count": 5
+    },
+    {
       "slug": "le-mans",
       "label": "le mans",
       "count": 5
@@ -12031,11 +12056,6 @@
     {
       "slug": "mortgage",
       "label": "mortgage",
-      "count": 5
-    },
-    {
-      "slug": "pau",
-      "label": "pau",
       "count": 5
     },
     {
@@ -12094,8 +12114,8 @@
       "count": 4
     },
     {
-      "slug": "la-rochelle",
-      "label": "la rochelle",
+      "slug": "living-in-france",
+      "label": "living in france",
       "count": 4
     },
     {
@@ -12156,6 +12176,16 @@
     {
       "slug": "retirement",
       "label": "retirement",
+      "count": 4
+    },
+    {
+      "slug": "tgv",
+      "label": "tgv",
+      "count": 4
+    },
+    {
+      "slug": "vannes",
+      "label": "vannes",
       "count": 4
     },
     {
@@ -12239,6 +12269,11 @@
       "count": 3
     },
     {
+      "slug": "covered-market",
+      "label": "covered market",
+      "count": 3
+    },
+    {
       "slug": "creteil",
       "label": "creteil",
       "count": 3
@@ -12311,11 +12346,6 @@
     {
       "slug": "limoges",
       "label": "limoges",
-      "count": 3
-    },
-    {
-      "slug": "living-in-france",
-      "label": "living in france",
       "count": 3
     },
     {
@@ -12399,18 +12429,8 @@
       "count": 3
     },
     {
-      "slug": "tgv",
-      "label": "tgv",
-      "count": 3
-    },
-    {
       "slug": "valence",
       "label": "valence",
-      "count": 3
-    },
-    {
-      "slug": "vannes",
-      "label": "vannes",
       "count": 3
     },
     {
