@@ -11580,6 +11580,21 @@
       "slug": "french-cities-most-active-property-markets-sales-per-1000-residents-400-cities-2026",
       "title": "Where do homes sell the most? Property sales per 1,000 residents in 400 French cities (DVF 2024-2025)",
       "emoji": "🔑"
+    },
+    {
+      "slug": "buying-property-in-france-on-one-income-2026",
+      "title": "Buying a home in France on a single income: what's realistic",
+      "emoji": "👤"
+    },
+    {
+      "slug": "buying-property-in-french-overseas-departments-2026",
+      "title": "Buying property in the French overseas departments: what to know first",
+      "emoji": "🌴"
+    },
+    {
+      "slug": "living-by-the-sea-year-round-france-2026",
+      "title": "Living by the sea all year in France: the July postcard vs. January",
+      "emoji": "🌊"
     }
   ],
   "tags": [
@@ -11756,7 +11771,7 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 26
+      "count": 27
     },
     {
       "slug": "burgundy",
@@ -11779,13 +11794,13 @@
       "count": 17
     },
     {
-      "slug": "bordeaux",
-      "label": "bordeaux",
-      "count": 16
-    },
-    {
       "slug": "reunion",
       "label": "reunion",
+      "count": 17
+    },
+    {
+      "slug": "bordeaux",
+      "label": "bordeaux",
       "count": 16
     },
     {
@@ -11802,6 +11817,11 @@
       "slug": "public-transport",
       "label": "public transport",
       "count": 15
+    },
+    {
+      "slug": "2026",
+      "label": "2026",
+      "count": 14
     },
     {
       "slug": "french-riviera",
@@ -11832,11 +11852,6 @@
       "slug": "train-holidays-with-children",
       "label": "train holidays with children",
       "count": 12
-    },
-    {
-      "slug": "2026",
-      "label": "2026",
-      "count": 11
     },
     {
       "slug": "affordable-retirement-france",
@@ -11879,6 +11894,11 @@
       "count": 10
     },
     {
+      "slug": "lifestyle",
+      "label": "lifestyle",
+      "count": 10
+    },
+    {
       "slug": "nantes",
       "label": "nantes",
       "count": 10
@@ -11906,11 +11926,6 @@
     {
       "slug": "corsica",
       "label": "corsica",
-      "count": 9
-    },
-    {
-      "slug": "lifestyle",
-      "label": "lifestyle",
       "count": 9
     },
     {
@@ -11954,6 +11969,11 @@
       "count": 8
     },
     {
+      "slug": "martinique",
+      "label": "martinique",
+      "count": 8
+    },
+    {
       "slug": "visa",
       "label": "visa",
       "count": 8
@@ -11991,11 +12011,6 @@
     {
       "slug": "lille",
       "label": "lille",
-      "count": 7
-    },
-    {
-      "slug": "martinique",
-      "label": "martinique",
       "count": 7
     },
     {
@@ -12084,6 +12099,11 @@
       "count": 6
     },
     {
+      "slug": "mortgage",
+      "label": "mortgage",
+      "count": 6
+    },
+    {
       "slug": "pau",
       "label": "pau",
       "count": 6
@@ -12124,8 +12144,18 @@
       "count": 5
     },
     {
+      "slug": "first-time-buyer",
+      "label": "first-time buyer",
+      "count": 5
+    },
+    {
       "slug": "franche-comte",
       "label": "franche-comte",
+      "count": 5
+    },
+    {
+      "slug": "guadeloupe",
+      "label": "guadeloupe",
       "count": 5
     },
     {
@@ -12136,11 +12166,6 @@
     {
       "slug": "le-mans",
       "label": "le mans",
-      "count": 5
-    },
-    {
-      "slug": "mortgage",
-      "label": "mortgage",
       "count": 5
     },
     {
@@ -12164,11 +12189,6 @@
       "count": 5
     },
     {
-      "slug": "first-time-buyer",
-      "label": "first-time buyer",
-      "count": 4
-    },
-    {
       "slug": "french-alps",
       "label": "french alps",
       "count": 4
@@ -12176,11 +12196,6 @@
     {
       "slug": "french-guiana",
       "label": "french guiana",
-      "count": 4
-    },
-    {
-      "slug": "guadeloupe",
-      "label": "guadeloupe",
       "count": 4
     },
     {
@@ -12464,13 +12479,28 @@
       "count": 3
     },
     {
+      "slug": "off-season",
+      "label": "off-season",
+      "count": 3
+    },
+    {
       "slug": "paris-suburbs",
       "label": "paris suburbs",
       "count": 3
     },
     {
+      "slug": "property",
+      "label": "property",
+      "count": 3
+    },
+    {
       "slug": "provence-alpes-cote-dazur",
       "label": "provence-alpes-cote-dazur",
+      "count": 3
+    },
+    {
+      "slug": "ptz",
+      "label": "PTZ",
       "count": 3
     },
     {
@@ -12501,6 +12531,11 @@
     {
       "slug": "sea-level-rise",
       "label": "sea level rise",
+      "count": 3
+    },
+    {
+      "slug": "seaside",
+      "label": "seaside",
       "count": 3
     },
     {

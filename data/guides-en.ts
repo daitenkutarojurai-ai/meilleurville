@@ -70464,6 +70464,199 @@ export const EN_GUIDES: EnGuide[] = [
       "number of transactions"
     ]
   },
+  {
+    "slug": "buying-property-in-france-on-one-income-2026",
+    "title": "Buying a home in France on a single income: what's realistic",
+    "metaTitle": "Buying in France on One Income: What's Realistic (2026)",
+    "metaDesc": "Single salary, single buyer: the 35% debt ceiling, down payment, interest-free PTZ loan, family gifts and the traps that sink one-income purchases in France.",
+    "category": "budget",
+    "emoji": "👤",
+    "readMinutes": 7,
+    "publishedAt": "2026-11-22",
+    "updatedAt": "2026-11-22",
+    "intro": "Buying alone, or as a couple where only one person earns, is harder in France than the two-income default the banks assume. It is still doable, but the margin for error is thin: one job loss, one broken boiler, and the budget stops working. This guide covers the rules that set how much you can borrow, the levers that raise it, and the mistakes that turn a one-income purchase into a long-running problem. It deliberately quotes no city prices: they move fast, and our city pages carry the current figures.",
+    "sections": [
+      {
+        "heading": "How French banks decide what you can borrow",
+        "body": "The ceiling comes from a rule set by the financial stability council (HCSF): total debt payments, loan insurance included, should not exceed 35% of your net income, and the loan should run no longer than 25 years (a little longer is allowed for new-build or when works are financed). Banks may exceed those limits for a small share of their loans, and most of that flexibility goes to first-time buyers buying a main home. With one income, the 35% applies to one salary, so the ceiling is simply lower than for a couple earning the same on each side. Lenders also look at your contract (a permanent contract, CDI, past its trial period, is the easy case), your savings habits and what you already owe. Self-employed buyers usually need two or three years of accounts."
+      },
+      {
+        "heading": "The down payment matters more when you are alone",
+        "body": "Banks expect you to fund the purchase costs yourself. Notary fees and taxes come to roughly 7-8% of the price on an older property and 2-3% on new-build, and most lenders want your down payment to cover at least that. A larger deposit also lowers the monthly payment, which is the only number the 35% rule really cares about. Realistic ways to build one: a few years of regular saving, a gift or loan from family, and an employer housing loan (see below). If you cannot reach the notary fees, wait a year and rent: buying with no cushion is exactly the profile that struggles when something goes wrong."
+      },
+      {
+        "heading": "The levers that raise your budget",
+        "body": "Four tools are worth checking before you accept a smaller budget. First, the PTZ (prêt à taux zéro): a state-backed interest-free loan for first-time buyers of a main home, with eligibility depending on income, household size, the property type and the local housing-market zone. The rules change often, so run your case through ANIL's simulator rather than trusting an old article. Second, a family gift: each parent can give each child up to €100,000 free of gift tax every 15 years. Third, Action Logement, the employer-funded housing scheme: if you work for a private-sector company with at least 10 employees, ask HR about its subsidised loan. Fourth, regional and local schemes: some regions, départements and towns add their own aid for first-time buyers, which you only find by asking the local housing information office (ADIL). Note that the old APL accession (a monthly housing allowance for buyers) was closed to new loans in 2018, so ignore guides that still list it."
+      },
+      {
+        "heading": "Where a single salary stretches furthest",
+        "body": "A single income points you away from the tight big-city markets and toward mid-size cities and former industrial towns, where a one- or two-bedroom flat costs a fraction of a Paris or Lyon price. Cities such as Limoges, Saint-Étienne and Brest are the kind of place where one salary can realistically buy, while Bayonne or Annecy price single-income buyers out. Check the 'Cost' score on each city page and compare it with local salaries, not just with prices. Then check that the town has enough work: a cheap flat in a place with no employer for your trade is a trap, because a job loss is the main risk when you carry the whole loan alone."
+      },
+      {
+        "heading": "Single parents and one-earner couples",
+        "body": "A single parent needs a second bedroom at minimum, which pushes the search towards a three-room flat and a higher price. Prioritise a short walk to school, a safe building and good public transport: a broken-down car with a child to drop off is a bigger logistical problem when there is no second adult. For a couple with one earner, the bank will usually ignore the second partner's future income, even if they plan to work again. If the non-earning partner is about to start a job, wait for the contract rather than hoping the lender takes your word."
+      },
+      {
+        "heading": "Insurance and the loan cost",
+        "body": "Borrower insurance is the largest avoidable cost on a loan. Since the Lemoine law of 2022 you can change insurer at any time, with no fee, and the health questionnaire is dropped for loans of up to €200,000 that end before your 60th birthday. Get a quote from an outside insurer as soon as the loan offer arrives: for a healthy borrower the saving over a 20-year loan can be several thousand euros. Also ask for a guarantee from a mutual guarantee company (caution, such as Crédit Logement) instead of a mortgage where the bank offers it, because that avoids mortgage registration costs and some of the fee at resale."
+      },
+      {
+        "heading": "Mistakes that sink one-income purchases",
+        "body": "Five come up again and again. One: looking only at the 35% ratio. The bank counts income, not what is left after transport, childcare and energy, so test your own monthly budget before signing. Two: buying an energy-inefficient home. A poor DPE rating (F or G) means high heating bills, and the worst classes are being restricted for rental, which hurts resale. Three: a long commute. An hour and a half per day wears you out and adds car costs, so set a realistic limit. Four: no repair fund. Keep several months of loan payments in reserve for a leak or a boiler. Five: skipping the job-loss test. Ask yourself how the loan survives six months without your salary, and what you would do: sublet a room, sell or rent. If the answer is nothing, buy a cheaper home."
+      },
+      {
+        "heading": "The honest verdict",
+        "body": "One income can buy a main home in France, with conditions: pick a mid-size city or an affordable regional town, build a real deposit, use every aid you qualify for, and keep a financial safety margin. What it cannot do is buy a home in a tense market at a stretched price. The discipline of staying below your limit matters more than finding the perfect moment. Before you search, use our cost-of-living pages for the cities on your list and run a loan simulation with ANIL or a broker (courtiers are paid by the bank, not by you, and can compare lenders)."
+      }
+    ],
+    "relatedCities": [
+      "limoges",
+      "saint-etienne",
+      "brest",
+      "bayonne"
+    ],
+    "tags": [
+      "single income",
+      "buying alone",
+      "PTZ",
+      "first-time buyer",
+      "mortgage",
+      "budget",
+      "2026"
+    ]
+  },
+  {
+    "slug": "buying-property-in-french-overseas-departments-2026",
+    "title": "Buying property in the French overseas departments: what to know first",
+    "metaTitle": "Buying Property in France's Overseas Departments (2026)",
+    "metaDesc": "Réunion, Martinique, Guadeloupe, French Guiana and Mayotte: what changes when you buy overseas: cyclones, quakes, family land titles, insurance and tax schemes.",
+    "category": "budget",
+    "emoji": "🌴",
+    "readMinutes": 7,
+    "publishedAt": "2026-11-22",
+    "updatedAt": "2026-11-22",
+    "intro": "Réunion, Martinique, Guadeloupe, French Guiana and Mayotte are full parts of France: same law, same currency, same notaries. Buying there is also a different project from buying in mainland France, with its own hazards, its own paperwork problems and a very narrow rental market. This guide covers what changes, territory by territory, and what to verify before you sign. We quote no prices: the markets are small and local, and a number from last year can be wrong by a wide margin.",
+    "sections": [
+      {
+        "heading": "Same law, different risks",
+        "body": "A property in an overseas département is bought through a French notary under French property law, and foreign buyers face the same rules as on the mainland. A non-EU citizen still needs the right to stay (a visa or residence permit) to live there; owning a home does not grant one. What differs is the physical and practical risk: cyclones, earthquakes, volcanic activity in places, sea-level rise, water supply and the cost of building materials shipped from far away. Treat these as part of the price, not as footnotes."
+      },
+      {
+        "heading": "Cyclones, earthquakes and insurance",
+        "body": "Cyclone seasons run roughly June to November in the Caribbean and November to April in the Indian Ocean (Réunion, Mayotte). Guadeloupe and Martinique sit in the highest seismic zone in France, so check that a house built or extended recently complies with parasismic building rules. Multirisk home insurance is required by lenders and is more expensive than on the mainland, and some insurers decline certain flood or landslide zones. Ask for insurance quotes before making an offer, not after: a house you cannot insure is a house you cannot finance. Also read the local risk-prevention plan (PPR) for the plot and the natural-risk disclosure included in the sale documents."
+      },
+      {
+        "heading": "Réunion",
+        "body": "Réunion is the largest and most developed overseas market, with a real urban economy around Saint-Denis, a university and a major hospital. The west coast around Saint-Paul and Saint-Gilles is the tourist and premium zone; the highlands (Le Tampon, Plaine des Cafres) are cooler and quieter, while the south coast mixes villages with a busy ring road. Traffic is the everyday cost: check commute times at rush hour rather than on a map. Water access is uneven in the dry west, so confirm the connection to the public network. Our city pages for the island's towns give the scores for services, climate and cost."
+      },
+      {
+        "heading": "Martinique and Guadeloupe",
+        "body": "The two Antilles share a hazard that mainland buyers rarely meet: chlordecone, a banned pesticide that contaminated some farmland and water for decades. If you plan to grow food, check the official soil mapping before buying land. Both islands have a strong tradition of family-held land, and Guadeloupe splits between a more urban Grande-Terre and a greener, wetter Basse-Terre with an active volcano. Sargassum seaweed washes up on some Atlantic-facing beaches, which can affect enjoyment and resale of a waterfront house. Look at the town's services before the view."
+      },
+      {
+        "heading": "French Guiana and Mayotte",
+        "body": "These are the most specific markets. French Guiana has a fast-growing population, a space-industry hub around Kourou and a long, expensive supply chain; equatorial humidity and tropical illness are everyday health factors. Mayotte faces serious pressure on public services, water shortages and security, and in December 2024 Cyclone Chido devastated large areas, so rebuilding and property conditions are still in flux. For both, buying makes sense mostly for people with a firm reason to be there, such as a posting, family ties or a defined project, rather than as a pure investment."
+      },
+      {
+        "heading": "Land titles and family property",
+        "body": "Many properties overseas are held in indivision: a family estate inherited by many people and not formally split. Buying from one co-owner without the agreement of the others is a legal risk, and some titles are incomplete or disputed. Insist on a notary who checks the full chain of title, and be wary of any seller who cannot show that every co-owner has signed. This slows deals down, and it is worth the delay."
+      },
+      {
+        "heading": "Tax schemes: read the current law",
+        "body": "Overseas properties have attracted tax schemes (the Girardin family of investment incentives, among others) that offer income-tax reductions for building or buying qualifying housing, often social housing, in exchange for a commitment to rent for several years. These schemes have been narrowed and revised repeatedly, and failing a rental commitment can claw back the whole benefit. Do not buy because of a tax reduction in an article: have an independent adviser check what exists today and whether you qualify. Local transfer-tax rates also differ from the mainland's, so ask the notary for the actual costs on your sale."
+      },
+      {
+        "heading": "Resale and the rental market",
+        "body": "The rental market in smaller territories is narrow, vacancy between tenants can run long, and resale liquidity depends heavily on local demand. A home already let on a year-round lease is easier to sell than an empty villa. If you build, expect higher construction costs than on the mainland because many materials are imported, and make sure the builder carries the standard ten-year warranty."
+      },
+      {
+        "heading": "The honest verdict",
+        "body": "Overseas property is a life project, not a tax shortcut. It suits people with a real tie to the territory, enough capital to absorb insurance and building costs, and a willingness to live with cyclones, earthquakes and isolation. Before you commit, rent for at least a full year including a cyclone season, get the insurance quote and the title checked, and compare the town with mainland alternatives on our city pages."
+      }
+    ],
+    "relatedCities": [
+      "fort-de-france",
+      "cayenne"
+    ],
+    "tags": [
+      "overseas France",
+      "DROM",
+      "Réunion",
+      "Martinique",
+      "Guadeloupe",
+      "property",
+      "insurance",
+      "2026"
+    ]
+  },
+  {
+    "slug": "living-by-the-sea-year-round-france-2026",
+    "title": "Living by the sea all year in France: the July postcard vs. January",
+    "metaTitle": "Living by the Sea Year-Round in France: Reality Check (2026)",
+    "metaDesc": "The French seaside in winter: closed shops, scarce doctors, salt damage and seasonal rentals. How to pick a coastal town you can actually live in all year.",
+    "category": "lifestyle",
+    "emoji": "🌊",
+    "readMinutes": 7,
+    "publishedAt": "2026-11-22",
+    "updatedAt": "2026-11-22",
+    "intro": "Living by the sea is the most common French property dream, and most of it is formed in July. From November to March a resort town can look very different: shuttered shops, a fraction of the summer population, wind and rain. None of that rules out living on the coast. It does mean the choice is between towns, not between 'sea' and 'no sea'. This guide gives you a way to tell a coastal town you can live in from a seasonal resort, with no prices quoted, since coastal markets move quickly.",
+    "sections": [
+      {
+        "heading": "What changes between July and January",
+        "body": "Most of the difference is people. A resort whose population multiplies in summer closes much of its shops, bars and restaurants out of season, and the winter community is smaller and often tight-knit. Services follow the people: fewer doctors and fewer clubs, thinner public transport, and school classes that may be small (which has upsides). The weather is part of it too: the Atlantic and Channel coasts are windy and wet in winter, while the Mediterranean coast has the mistral and cool but clear days. And the first time you notice salt and damp on a house is usually your second year."
+      },
+      {
+        "heading": "Choose a town, not a resort",
+        "body": "The simplest filter: prefer a real town with a harbour, a hospital or health centre, a primary school, a weekly market and year-round employers over a resort that lives on summer visitors. La Rochelle, Vannes, Saint-Malo, Brest, Bayonne and Le Havre are examples of towns that function all year; the tiny, famous beach resorts are the reverse. Use the population, services and healthcare scores on our city pages, and check how the town does in January, not in August."
+      },
+      {
+        "heading": "The Channel and North Sea coast",
+        "body": "Normandy, Picardy and the Opal Coast have a cool, windy, grey winter, with working ports and mid-size towns such as Cherbourg, Dieppe, Boulogne-sur-Mer, Calais and Dunkirk. Housing is generally cheaper than on the southern coasts, and the ports give them real economies. The trade-off is the climate and, in places, storm surge and cliff erosion."
+      },
+      {
+        "heading": "Brittany and the Atlantic",
+        "body": "Brittany has a mild but wet winter and strong local identity, with proper cities (Brest, Lorient, Quimper, Vannes) alongside fishing ports. South of the Loire, the Vendée and Charente-Maritime coast (Les Sables-d'Olonne, La Rochelle, Royan) has milder winters and a more commercial setting, while the Basque coast and the Landes are among the most expensive and most sought-after. Where rising seas and erosion hit hardest, notably parts of the Landes and Gironde coast, check the local risk plan."
+      },
+      {
+        "heading": "The Mediterranean and Riviera",
+        "body": "The Mediterranean gives the sunniest winters, but the premium also shows in prices and in summer crowding. Real cities like Nice, Toulon, Perpignan or Montpellier work year-round; the famous peninsulas and villages can be nearly empty from October. Summer heat waves, wildfire risk and water restrictions are the main climate issues to weigh."
+      },
+      {
+        "heading": "Salt, damp and the building",
+        "body": "Coastal houses age faster: facades need repainting more often, metalwork rusts, seals fail, and a poorly insulated house suffers from damp. Look for a good energy rating (DPE), sound ventilation and recent roof and window work, and budget for annual upkeep. Also check flood and coastal-erosion exposure. Communes on the national list of areas exposed to coastline retreat have extra disclosure and building rules, and your notary must tell you which apply."
+      },
+      {
+        "heading": "The year-round rental problem",
+        "body": "Many resort landlords let to holidaymakers in summer and shut the flat in winter, so a 12-month lease can be hard to find. Rents in the best towns also rise because of second-home demand, and many coastal communes apply a surcharge on second homes. If you are relocating, rent a place for a full winter before buying, ideally on a year-round lease."
+      },
+      {
+        "heading": "Who it suits, and who it doesn't",
+        "body": "It suits people who like quiet, can work remotely or have local work, are happy outdoors in poor weather, and can maintain an older house. It suits less well those who need a lively cultural scene, have fragile health that damp and wind aggravate, have a tight budget for repairs, or rely on a dense social life. If you recognise the second group, a mid-size coastal city that is an actual city, such as La Rochelle or Bayonne, is a safer bet than a resort village."
+      },
+      {
+        "heading": "A short checklist",
+        "body": "Spend a winter on the spot before buying. Check a doctor accepts new patients. Count the shops still open in January. Compare the energy rating and the cost of upkeep. Look up the flood and erosion plan. Then compare your shortlist on our city pages and use the 'Quality of life' and 'Nature' scores to see which towns hold up outside August."
+      }
+    ],
+    "relatedCities": [
+      "la-rochelle",
+      "vannes",
+      "saint-malo",
+      "brest",
+      "bayonne",
+      "le-havre",
+      "royan",
+      "nice"
+    ],
+    "tags": [
+      "seaside",
+      "coast",
+      "year-round",
+      "off-season",
+      "lifestyle",
+      "2026"
+    ]
+  }
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed
