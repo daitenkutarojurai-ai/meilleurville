@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { GlossaryView, type GlossarySection } from "@/components/GlossaryView";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pathAlternates } from "@/lib/i18n";
@@ -13,8 +13,7 @@ export const metadata: Metadata = {
   alternates: pathAlternates("/glossaire", "/glossary"),
 };
 
-type Term = { term: string; def: string };
-type Section = { title: string; emoji: string; terms: Term[] };
+type Section = GlossarySection;
 
 const SECTIONS: Section[] = [
   {
@@ -1294,8 +1293,9 @@ export default function GlossairePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermsJsonLd) }}
       />
 
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <GlossaryView
+        sections={SECTIONS}
+        breadcrumb={
           <Breadcrumbs
             items={[
               { label: "Accueil", href: "/" },
@@ -1303,58 +1303,23 @@ export default function GlossairePage() {
               { label: "Glossaire" },
             ]}
           />
-          <Badge variant="accent" className="mb-3">Glossaire</Badge>
-          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">
-            Glossaire immobilier & relocation
-          </h1>
-          <p className="text-[var(--text-secondary)] leading-relaxed">
-            {TERM_COUNT} termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
+        }
+        title={
+          <>
+            Glossaire{" "}
+            <span className="font-display gradient-text italic pr-1">immobilier &amp; relocation</span>
+          </>
+        }
+        intro={
+          <>
+            {TERM_COUNT}{" "}termes clés pour comprendre l&apos;immobilier, la location, l&apos;investissement
             locatif, l&apos;assurance du logement, le déménagement, la scolarisation des enfants,
             l&apos;accès aux soins, les transports, le marché du travail, les factures d&apos;eau et
             de déchets et la dépendance du grand âge, les études supérieures, le logement étudiant, l&apos;électricité et le gaz, le vote et le courrier à l&apos;arrivée en France, les animaux de compagnie en 2026. Pas de jargon inutile, juste les définitions qu&apos;il faut
             connaître avant de signer.
-          </p>
-        </div>
-      </section>
-
-      <div className="mx-auto max-w-3xl px-4 sm:px-6 py-12">
-        {/* TOC */}
-        <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 mb-10">
-          <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
-            Sections
-          </p>
-          <ol className="space-y-2">
-            {SECTIONS.map((s, i) => (
-              <li key={i}>
-                <a
-                  href={`#section-${i}`}
-                  className="text-sm text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors flex items-center gap-2"
-                >
-                  <span className="text-xl">{s.emoji}</span>
-                  {s.title} <span className="text-[var(--text-tertiary)]">({s.terms.length})</span>
-                </a>
-              </li>
-            ))}
-          </ol>
-        </div>
-
-        {SECTIONS.map((section, i) => (
-          <section key={i} id={`section-${i}`} className="mb-12 scroll-mt-20">
-            <div className="flex items-center gap-3 mb-5">
-              <span className="text-3xl">{section.emoji}</span>
-              <h2 className="text-xl font-bold text-[var(--text-primary)]">{section.title}</h2>
-            </div>
-            <dl className="space-y-5">
-              {section.terms.map((t, j) => (
-                <div key={j} className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5">
-                  <dt className="font-semibold text-[var(--text-primary)] mb-2">{t.term}</dt>
-                  <dd className="text-sm text-[var(--text-secondary)] leading-relaxed">{t.def}</dd>
-                </div>
-              ))}
-            </dl>
-          </section>
-        ))}
-      </div>
+          </>
+        }
+      />
 
       <StaticPageCrossLink exclude="/glossaire" />
       <Footer />

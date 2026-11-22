@@ -1799,3 +1799,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `/glossaire` : en-tête blanc + sections sans bande (1 300 lignes, découpage par lettre).
 2. `components/DromStrip.tsx` : tuiles « Outre-mer » (vérifier contraste du texte de palier).
 3. Hubs `/comparer-departements` + `/comparer-regions` (FR/EN).
+
+## 2026-11-22 ~11:00 UTC — glossaire (FR `/glossaire` + EN `/glossary`)
+
+**Surface** : les deux glossaires (267 termes / 30 rubriques FR, 32 / 5 EN). Avant : en-tête blanc à filet gris + badge, sommaire en carte grise, toutes les rubriques sur le canevas (une seule bande), termes en cartes à filet gris.
+
+**Changé** : nouveau composant serveur partagé `components/GlossaryView.tsx` — hero `.bg-aurora` + `EmojiBadge` 📖 + titre `.gradient-text`, pilule compteurs, sommaire en puces d'ancre pastel (`#sommaire`, sans JS) ; une bande par rubrique (indigo, pink, sky, aqua, lilac en rotation), pastille emoji + « Rubrique N / 30 », termes en cartes blanches 2 colonnes (md) à anneau teinté et liseré dégradé peint en fond (dl valide : dt/dd seuls), lien « Retour aux rubriques ». Ancres `#section-N`, JSON-LD et copie inchangés ; espace perdue « 267termes » corrigée. DromStrip (candidat précédent) était déjà en « Couleurs ».
+
+**Fichiers** : `components/GlossaryView.tsx`, `app/glossaire/page.tsx`, `app/[locale]/glossary/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 3 fichiers : 0 problème. Captures playwright FR/EN 1440 et 390 px (hero + rubrique 2), `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Hubs `/comparer-departements` + `/comparer-regions` (FR/EN).
+2. Hub `/comparer` (FR) + EN `/compare`.
+3. `/methode` (FR/EN) : vérifier en-tête et sections.
