@@ -218,6 +218,12 @@ export default function LouerOuAcheterIndexPage() {
             villes où le prix au m² affiché ne veut rien dire
           </Link>
           {" "}signale celles où il faut raisonner par quartier avant de comparer un loyer à une mensualité.
+          Et si la question est de savoir si les habitants en place peuvent seulement acheter, le
+          classement des{" "}
+          <Link href="/red-flags/villes-achat-hors-de-portee" className="text-[var(--accent)] underline hover:no-underline">
+            villes où acheter est hors de portée des revenus locaux
+          </Link>
+          {" "}rapporte le prix d&apos;un appartement au niveau de vie de la commune.
         </p>
 
         <p className="mt-4 text-sm text-[var(--text-secondary)] leading-relaxed">

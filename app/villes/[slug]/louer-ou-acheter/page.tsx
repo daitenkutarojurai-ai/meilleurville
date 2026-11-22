@@ -278,6 +278,12 @@ export default async function LouerOuAcheterPage({ params }: Props) {
                   <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Villes où l&apos;achat s&apos;éloigne le plus du loyer</div>
                 </div>
               </Link>
+              <Link href="/red-flags/villes-achat-hors-de-portee" className="block">
+                <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
+                  <div className="text-xs font-semibold uppercase tracking-wide text-[#4338CA]">Red flag</div>
+                  <div className="mt-1 text-sm font-semibold text-[var(--text-primary)]">Villes où acheter dépasse les revenus locaux</div>
+                </div>
+              </Link>
               <Link href="/louer-ou-acheter" className="block">
                 <div className="h-full rounded-2xl bg-[var(--band-indigo)] px-5 py-4 transition-colors hover:bg-[#DCD7FF]">
                   <div className="text-xs font-semibold uppercase tracking-wide text-[#4338CA]">Classement</div>

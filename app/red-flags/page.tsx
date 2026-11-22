@@ -424,7 +424,12 @@ export default function RedFlagsPage() {
                 villes où le prix au m² affiché ne veut rien dire
               </Link>{" "}
               les repère à partir des prix de vente enregistrés, et rappelle qu&apos;il
-              faut alors budgéter quartier par quartier.
+              faut alors budgéter quartier par quartier. Même avec un prix exact, l&apos;achat peut
+              rester hors d&apos;atteinte de ceux qui vivent déjà là : le classement des{" "}
+              <Link href="/red-flags/villes-achat-hors-de-portee" className="text-[var(--accent)] hover:underline">
+                villes où acheter est hors de portée des habitants
+              </Link>{" "}
+              mesure cet écart entre prix des appartements et niveau de vie local.
             </p>
             <p className="mt-2 text-sm text-[var(--text-secondary)]">
               Le red flag{" "}

@@ -84,6 +84,12 @@ export default function SimulateurAchatPage() {
               </Link>
               .
             </li>
+            <li>• Pour voir où le prix d&apos;achat dépasse le plus les revenus des habitants, voir{" "}
+              <Link href="/red-flags/villes-achat-hors-de-portee" className="underline">
+                les villes où acheter est hors de portée des revenus locaux
+              </Link>
+              .
+            </li>
             <li>• Pour repérer les villes en gentrification (anticiper la hausse), voir{" "}
               <Link href="/gentrification" className="underline">
                 l&apos;index de gentrification
