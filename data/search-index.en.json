@@ -10867,6 +10867,46 @@
       "emoji": "🏢"
     },
     {
+      "slug": "things-to-do-in-nanterre-2026",
+      "title": "Things to do in Nanterre: La Défense Arena, a big park and a theatre that matters",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-ivry-sur-seine-2026",
+      "title": "Things to do in Ivry-sur-Seine: an old factory turned theatre, Seine banks and Paris by metro",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-antony-2026",
+      "title": "Things to do in Antony: Sceaux park, Verrières wood and the RER B south of Paris",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "things-to-do-in-maisons-alfort-2026",
+      "title": "Things to do in Maisons-Alfort: the Fragonard anatomy museum and the Marne banks",
+      "emoji": "🦴"
+    },
+    {
+      "slug": "things-to-do-in-fontenay-sous-bois-2026",
+      "title": "Things to do in Fontenay-sous-Bois: the Bois de Vincennes and its château, by RER A",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "things-to-do-in-montrouge-2026",
+      "title": "Things to do in Montrouge: the belfry, a contemporary art salon and metro line 4",
+      "emoji": "🎨"
+    },
+    {
+      "slug": "things-to-do-in-clamart-2026",
+      "title": "Things to do in Clamart: the Meudon forest, hillside views of Paris and the T6 tram",
+      "emoji": "🌿"
+    },
+    {
+      "slug": "things-to-do-in-villejuif-2026",
+      "title": "Things to do in Villejuif: Hautes-Bruyères park, a rose garden next door and metro 7 and 14",
+      "emoji": "🌹"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -11546,12 +11586,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 363
+      "count": 371
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 357
+      "count": 365
     },
     {
       "slug": "moving-to-france",
@@ -11571,7 +11611,7 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 109
+      "count": 117
     },
     {
       "slug": "auvergne-rhone-alpes",
@@ -12401,6 +12441,11 @@
     {
       "slug": "mountains",
       "label": "mountains",
+      "count": 3
+    },
+    {
+      "slug": "nanterre",
+      "label": "nanterre",
       "count": 3
     },
     {

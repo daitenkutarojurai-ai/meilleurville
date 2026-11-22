@@ -2416,3 +2416,7 @@ Compteurs mesurés : FR 366 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'
 Écart FR→EN : 8 jumelles manquantes (nanterre, ivry-sur-seine + ces 6) → **prochain run : batch EN**.
 
 - 2026-11-21 (run contenu, guides + glossaire) : FR `villes-escalade-crossfit-street-workout-582-villes-2026` + jumelle EN native `french-cities-climbing-gyms-crossfit-street-workout-582-cities-2026` (OSM `data/city-sport-spots.json`, 582 villes, pop. Insee 2022) + EN `french-cities-most-active-property-markets-sales-per-1000-residents-400-cities-2026` (jumelle du guide FR ventes DVF/1 000 hab.). Glossaire +4 termes (« Activité du marché et données cartographiées », 267). Compteurs mesurés (`grep -c '^    "\?slug"\?: "'`) : FR 1687, EN 1589 ; search-index 1 687 FR / 1 590 EN. Prochain lot : jumelle EN des guides FR sans twin, ou parcs OSM par ville.
+
+**Tourisme batch EN — rattrapage de parité, 2026-11-22** : +8 jumelles `things-to-do-in-*` (nanterre, ivry-sur-seine, antony, maisons-alfort, fontenay-sous-bois, montrouge, clamart, villejuif), mêmes chiffres que les guides FR (loyers T3), anglais natif.
+Compteurs mesurés : FR 366 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`), EN 365 (`grep -c 'slug: "things-to-do-in-.*-2026"'`) ; search-index 1 705 FR / 1 604 EN. tsc + integrity + search-index:check verts.
+Prochain run : batch FR de villes non couvertes (mesurer sur `CITIES_SEED`, ~236 sans guide).
