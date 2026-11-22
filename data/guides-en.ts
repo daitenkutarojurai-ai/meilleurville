@@ -21335,6 +21335,246 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["car-free Nanterre", "RER A Nanterre", "RER E Nanterre-La Folie", "Hauts-de-Seine transport", "car-free Île-de-France 2026"],
   },
   {
+    slug: "car-free-living-in-issy-les-moulineaux-2026",
+    title: "Car-Free Living in Issy-les-Moulineaux 2026: Metro 12, Tram T2, RER C and a €1,300 T2",
+    metaTitle: "Car-Free Living in Issy-les-Moulineaux 2026: Rents",
+    metaDesc: "Issy-les-Moulineaux without a car: metro 12, tram T2 and RER C, transport 9/10, a €1,300 T2, €100 less than Boulogne-Billancourt.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "In Issy-les-Moulineaux a car is optional: three rail modes share the town (metro 12, tram T2 and RER C) and our transport score is 9/10, ranked 1st of 593 in a tie with 22 other cities. The price of that network is €1,300 a month for a one-bedroom flat (T2) on our rent estimate: €500 less than Paris, but €250 more than Nanterre.",
+    sections: [
+      {
+        heading: "Which lines serve Issy-les-Moulineaux?",
+        body: "Metro line 12 ends at Mairie d'Issy, after Corentin Celton. Tram T2 and the RER C (a regional express line) meet at Issy–Val de Seine station, on the river side and the business district. Three separate lines means three ways to reach Paris, La Défense or Porte de Versailles without a parking space. Frequencies and works change: check them on the Île-de-France Mobilités site before signing a lease.",
+      },
+      {
+        heading: "How much does housing cost in Issy-les-Moulineaux?",
+        body: "Our rent estimate gives €850 a month for a studio (T1), €1,300 for a T2 and €1,800 for a T3 (two bedrooms). In Boulogne-Billancourt a T2 is €1,400, so Issy saves €100 a month, €1,200 a year. Against Paris (€1,800 for a T2) the saving is €500 a month, €6,000 a year, and you keep a direct metro line.",
+      },
+      {
+        heading: "Who lives in Issy, and on what income?",
+        body: "Issy had 67,695 inhabitants in 2022, down 1% since 2016, roughly 700 people (source: INSEE, 2022 census). Median living standard is €33,650 a year and the poverty rate is 8% (source: INSEE, Filosofi 2021). It is a town of managers more than students, and rents follow.",
+      },
+      {
+        heading: "What does going car-free change day to day?",
+        body: "Schools score 9/10 and safety 7.2/10 in our city profile, which makes the town workable on foot with children. Nature stays at 4.3/10 and cost of living at 2.2/10: you save the car, not the grocery bill. For greenery, count on the wider Paris parks rather than the town itself.",
+      },
+      {
+        heading: "Issy-les-Moulineaux or Nanterre?",
+        body: "Both score 9/10 on transport. Nanterre asks €1,050 for a T2, €250 less a month, but with safety of 4.1/10 and schools at 5.8/10; Issy offers 7.2/10 and 9/10. The €3,000 a year rent gap pays for those score differences: it is a budget choice, not a network choice.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Manager without a car: metro 12 and the RER C cover Paris and La Défense, and a €1,300 T2 holds up. Family: a €1,800 T3 is steep, but schools at 9/10 weigh in the balance. Student: an €850 studio is out of budget for many, so look at Ivry or Nanterre. Retiree: transport and safety are good, day-to-day costs are high.",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux", "boulogne-billancourt", "nanterre"],
+    tags: ["car-free Issy-les-Moulineaux", "metro line 12 Issy", "tram T2 Issy-Val de Seine", "RER C Issy", "car-free Hauts-de-Seine 2026"],
+  },
+  {
+    slug: "car-free-living-in-levallois-perret-2026",
+    title: "Car-Free Living in Levallois-Perret 2026: Metro 3 and a €1,400 T2",
+    metaTitle: "Car-Free Living in Levallois-Perret 2026: Rents",
+    metaDesc: "In Levallois-Perret, metro line 3 links the town to Paris: transport 9/10, a €1,400 T2, population up 7.8% since 2016. Compared with Clichy.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Levallois-Perret runs on a single line: metro 3, whose Pont de Levallois–Bécon station is the western terminus. Our transport score is 9/10, ranked 1st of 593 in a tie with 22 other cities, but a one-bedroom flat (T2) costs €1,400 a month on our rent estimate, €220 more than in neighbouring Clichy, where transport is rated 8.4/10.",
+    sections: [
+      {
+        heading: "What does Levallois-Perret offer without a car?",
+        body: "Metro line 3 crosses the town with three stations: Louise Michel, Anatole France and the terminus Pont de Levallois–Bécon. Louise Michel has a street-level entrance on rue Louise-Michel. The line then carries you across Paris as far as Gallieni in the east. For other journeys you need buses and nearby stations: confirm rail connections on the SNCF site before choosing a district.",
+      },
+      {
+        heading: "How much does housing cost in Levallois-Perret?",
+        body: "Our rent estimate gives €900 a month for a studio (T1), €1,400 for a T2 and €2,000 for a T3 (two bedrooms). That is the same T2 price as Boulogne-Billancourt and €400 less than Paris (€1,800), or €4,800 a year. In Clichy a T2 is €1,180: €2,640 a year saved against Levallois.",
+      },
+      {
+        heading: "A town that is growing fast",
+        body: "Levallois had 68,412 inhabitants in 2022, up 7.8% since 2016, about 4,950 more people (source: INSEE, 2022 census). Median living standard is €34,500 a year with 9% poverty (source: INSEE, Filosofi 2021). Fast growth pulls rents up: demand comes from workers commuting to Paris or La Défense.",
+      },
+      {
+        heading: "What does our city profile say about daily life?",
+        body: "Schools 9/10, safety 7.2/10, culture 6.6/10: a solid setting for living on foot. Nature drops to 3/10 and cost of living to 2.2/10, the floor of our scale. Going car-free removes one expense line, but food, services and leisure stay at the price level of the expensive inner suburbs.",
+      },
+      {
+        heading: "Levallois-Perret or Clichy?",
+        body: "Clichy scores 8.4/10 on transport against 9/10 here, with a T2 at €1,180. But safety is 4.2/10 there against 7.2/10 in Levallois, and schools 4.1/10 against 9/10. The €220 monthly gap mostly buys those two scores; on a tight budget Clichy remains a realistic option, after checking the district.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Paris commuter: metro 3 is enough and a €1,400 T2 is normal for the western inner suburbs. Family: a €2,000 T3 is expensive, though schools at 9/10 offset part of it. Student: a €900 studio is hard to finance. Retiree: safety and transport are good, but cost of living at 2.2/10 is felt every month.",
+      },
+    ],
+    relatedCities: ["levallois-perret", "clichy", "boulogne-billancourt"],
+    tags: ["car-free Levallois-Perret", "metro line 3 Levallois", "Pont de Levallois-Bécon", "Hauts-de-Seine transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-neuilly-sur-seine-2026",
+    title: "Car-Free Living in Neuilly-sur-Seine 2026: Metro 1 and a €1,700 T2",
+    metaTitle: "Car-Free Living in Neuilly-sur-Seine 2026: Rents",
+    metaDesc: "Neuilly-sur-Seine without a car: metro 1 at Les Sablons and Pont de Neuilly, transport 9/10, a €1,700 T2, median living standard €48,010.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Neuilly-sur-Seine is easy to live in without a car, but not without a budget: transport scores 9/10, ranked 1st of 593 in a tie with 22 other cities, and a one-bedroom flat (T2) is €1,700 a month on our rent estimate, barely €100 under Paris. Metro 1 is the backbone, yet it is not the network that sets the price, it is the town.",
+    sections: [
+      {
+        heading: "Which stations serve Neuilly-sur-Seine?",
+        body: "Metro line 1 serves the town through Les Sablons and Pont de Neuilly, opened in 1937 when the line was extended west of Porte Maillot. Pont de Neuilly sits between Les Sablons and Esplanade de La Défense, across the Seine from Paris. The line runs straight to La Défense and east through Paris. Check frequencies and works with Île-de-France Mobilités.",
+      },
+      {
+        heading: "How much does housing cost in Neuilly-sur-Seine?",
+        body: "Our rent estimate gives €1,100 a month for a studio (T1), €1,700 for a T2 and €2,500 for a T3 (two bedrooms). That is €300 more than Levallois-Perret for a T2, or €3,600 a year, and €100 less than Paris (€1,800). At €2,500 for a T3 it is the most expensive town in this comparison.",
+      },
+      {
+        heading: "A wealthy town, older than its neighbours",
+        body: "Neuilly had 59,200 inhabitants in 2022, down 2.3% since 2016, about 1,380 fewer people (source: INSEE, 2022 census). Median living standard is €48,010 a year with 8% poverty (source: INSEE, Filosofi 2021). People aged 60 and over are about 28% of residents, one of the oldest profiles in the inner suburbs.",
+      },
+      {
+        heading: "What does our city profile say about daily life?",
+        body: "Schools 9/10, culture 7.6/10, safety 6.7/10, nature 4.2/10: a town with complete services, reachable on foot. Cost of living is 2.2/10, the floor of the scale, and going car-free does not change that. The Bois de Boulogne next door is accessible from the town; it is not part of our scores.",
+      },
+      {
+        heading: "Neuilly-sur-Seine or Levallois-Perret?",
+        body: "Both score 9/10 on transport and 9/10 on schools. Levallois has a €1,400 T2, Neuilly €1,700, with safety of 7.2/10 against 6.7/10. At equal network quality Levallois costs €300 less a month: you choose Neuilly for its setting and its neighbours, not for its transit.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Executive or high-income couple: metro 1 and La Défense, with a €1,700 T2 taken as given. Wealthy retiree: safety and services, no car needed. Family: a €2,500 T3 needs a solid income, and schools at 9/10 justify it. Student: a €1,100 studio is out of reach; Nanterre or Ivry are more realistic.",
+      },
+    ],
+    relatedCities: ["neuilly-sur-seine", "levallois-perret", "paris"],
+    tags: ["car-free Neuilly-sur-Seine", "metro line 1 Neuilly", "Les Sablons Pont de Neuilly", "Hauts-de-Seine transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-ivry-sur-seine-2026",
+    title: "Car-Free Living in Ivry-sur-Seine 2026: Metro 7 and a €1,000 T2",
+    metaTitle: "Car-Free Living in Ivry-sur-Seine 2026: Metro 7, Rents",
+    metaDesc: "Ivry-sur-Seine without a car: metro 7 and RER C, transport 9/10, a €1,000 T2, €800 less than Paris. Compared with Vitry and Issy.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "In Ivry-sur-Seine a one-bedroom flat (T2) at €1,000 a month on our rent estimate gets you onto metro line 7: that is €800 less than Paris, €9,600 a year, for a transport score of 9/10, ranked 1st of 593 in a tie with 22 other cities. The flip side: safety 5.2/10, schools 5.5/10 and 28% poverty.",
+    sections: [
+      {
+        heading: "Which lines serve Ivry-sur-Seine?",
+        body: "Metro line 7 serves Pierre et Marie Curie and then Mairie d'Ivry, opened in 1946. The RER C (a regional express line) has its Ivry-sur-Seine station about 650 metres from Mairie d'Ivry along avenue Georges-Gosnat, linked by buses 125 and 323. Two metro stops and one RER station: you can pick a district according to the line you need. Check frequencies with Île-de-France Mobilités.",
+      },
+      {
+        heading: "How much does housing cost in Ivry-sur-Seine?",
+        body: "Our rent estimate gives €700 a month for a studio (T1), €1,000 for a T2 and €1,350 for a T3 (two bedrooms). Issy-les-Moulineaux asks €1,300 for a T2: €300 more a month, €3,600 a year. In neighbouring Vitry-sur-Seine a T2 is €980, only €20 less.",
+      },
+      {
+        heading: "A young town that is growing",
+        body: "Ivry had 64,526 inhabitants in 2022, up 6.2% since 2016, about 3,755 more people (source: INSEE, 2022 census). People aged 15 to 29 are about 25% of residents. Median living standard is €19,680 a year and the poverty rate 28% (source: INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "What does our city profile say about daily life?",
+        body: "Culture 7.5/10, cost of living 4.6/10, safety 5.2/10, schools 5.5/10, nature 4.3/10. Cost of living, kinder than the 2.2/10 of the expensive western inner suburbs, extends the saving made on rent. Schools are the item to check before moving in with children.",
+      },
+      {
+        heading: "Ivry-sur-Seine or Vitry-sur-Seine?",
+        body: "Both score 9/10 on transport, with almost the same rent and schools at 5.5/10. Ivry has safety of 5.2/10 against 4.7/10 in Vitry, and a daily-life score of 5.9/10 against 4.9/10. For the same budget Ivry comes out ahead on our scores; Vitry is larger (95,282 inhabitants against 64,526) and offers more districts to choose from.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €700 studio is affordable, with metro 7 to class. Working couple: a €1,000 T2 is one of the cheapest in the metro-served inner suburbs. Family: the €1,350 T3 holds up, but schools at 5.5/10 deserve a close look. Retiree: good transport, average safety.",
+      },
+    ],
+    relatedCities: ["ivry-sur-seine", "vitry-sur-seine", "issy-les-moulineaux"],
+    tags: ["car-free Ivry-sur-Seine", "metro line 7 Ivry", "Mairie d'Ivry", "RER C Ivry", "car-free Val-de-Marne 2026"],
+  },
+  {
+    slug: "car-free-living-in-vitry-sur-seine-2026",
+    title: "Car-Free Living in Vitry-sur-Seine 2026: RER C and a €980 T2",
+    metaTitle: "Car-Free Living in Vitry-sur-Seine 2026: RER C, Rents",
+    metaDesc: "In Vitry-sur-Seine, the RER C and a €980 T2: transport 9/10, €820 less than Paris. What metro 15 will change, and the limits today.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Vitry-sur-Seine is the cheapest town in this Paris-area comparison: a one-bedroom flat (T2) is €980 a month on our rent estimate, €820 less than Paris, with a transport score of 9/10, ranked 1st of 593 in a tie with 22 other cities. The service rests on the RER C and on buses rather than the metro, and that is the point to check before signing.",
+    sections: [
+      {
+        heading: "What does Vitry-sur-Seine offer without a car?",
+        body: "The RER C (a regional express line) serves the town through the Vitry-sur-Seine and Les Ardoines stations, the latter between Vitry and Choisy-le-Roi. The metro is not yet a daily reality: line 15 South of the Grand Paris Express is a project whose opening date should be checked on official sites. A bridge over the RER C tracks was opened in Vitry on 10 October 2026 for the T Zen 5 bus: that is network work under way, not yet a service you can count on.",
+      },
+      {
+        heading: "How much does housing cost in Vitry-sur-Seine?",
+        body: "Our rent estimate gives €680 a month for a studio (T1), €980 for a T2 and €1,300 for a T3 (two bedrooms). Ivry-sur-Seine is €1,000 for a T2, €20 more; Issy-les-Moulineaux is €1,300, €320 more a month, €3,840 a year. Against Paris (€1,800) the yearly saving reaches €9,840.",
+      },
+      {
+        heading: "A large, working-class town",
+        body: "Vitry had 95,282 inhabitants in 2022, up 2.7% since 2016, roughly 2,527 more (source: INSEE, 2022 census). Children under 15 are about 20% of residents. Median living standard is €19,490 a year with 26% poverty (source: INSEE, Filosofi 2021): a working-class profile in which low rent is the first asset.",
+      },
+      {
+        heading: "What does our city profile say about daily life?",
+        body: "Cost of living 5/10, culture 6.6/10, safety 4.7/10, schools 5.5/10, nature 4.3/10. Cost of living is the most favourable in this comparison, which adds to the rent saving. Safety and schools are the two points to examine district by district before choosing a flat.",
+      },
+      {
+        heading: "Vitry-sur-Seine or Ivry-sur-Seine?",
+        body: "Nearly the same rent (€980 against €1,000) and the same 9/10 on transport. Ivry leads on safety (5.2/10 against 4.7/10) and daily life (5.9/10 against 4.9/10) in our city profile, and relies on two metro stations. Vitry has cost of living at 5/10 against 4.6/10 and a much larger territory: the right district matters more than the town.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €680 studio is among the cheapest in the series, with the RER journey to be checked. Working couple: a €980 T2 leaves room in the budget, provided your commute runs on the RER C. Family: the €1,300 T3 is affordable, schools at 5.5/10 need a look. Retiree: a light budget, but test the service on foot before committing.",
+      },
+    ],
+    relatedCities: ["vitry-sur-seine", "ivry-sur-seine", "issy-les-moulineaux"],
+    tags: ["car-free Vitry-sur-Seine", "RER C Vitry", "Les Ardoines", "car-free Val-de-Marne 2026", "Grand Paris Express transport"],
+  },
+  {
+    slug: "car-free-living-in-courbevoie-2026",
+    title: "Car-Free Living in Courbevoie 2026: La Défense and a €1,250 T2",
+    metaTitle: "Car-Free Living in Courbevoie 2026: La Défense, Rents",
+    metaDesc: "Courbevoie without a car: La Défense, metro 1, RER A and tram T2, transport 9/10, a €1,250 T2, €150 less than Boulogne-Billancourt.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Courbevoie is the town of La Défense, which is what makes it liveable without a car: transport scores 9/10, ranked 1st of 593 in a tie with 22 other cities, and a one-bedroom flat (T2) is €1,250 a month on our rent estimate, €150 less than in Boulogne-Billancourt. For anyone working at La Défense it is an address from which you can walk to the office.",
+    sections: [
+      {
+        heading: "Which lines serve Courbevoie?",
+        body: "The Esplanade de La Défense station on metro line 1 sits on the border of Courbevoie and Puteaux. La Défense station, served by the RER A and E and by Transilien lines L and U, is about 350 metres from Courbevoie. Tram T2 runs through, with Faubourg de l'Arche, which is also a district of the town, and Bécon-les-Bruyères is a line L station. Several lines overlap: check the nearest one to your future flat on Île-de-France Mobilités.",
+      },
+      {
+        heading: "How much does housing cost in Courbevoie?",
+        body: "Our rent estimate gives €820 a month for a studio (T1), €1,250 for a T2 and €1,750 for a T3 (two bedrooms). In Nanterre a T2 is €1,050: €200 a month apart, €2,400 a year. Against Boulogne-Billancourt (€1,400) Courbevoie saves €1,800 a year. Paris is €1,800, or €6,600 a year more.",
+      },
+      {
+        heading: "A stable, active and well-off town",
+        body: "Courbevoie had 81,945 inhabitants in 2022, up 0.3% since 2016, about 225 more people: a stable population (source: INSEE, 2022 census). People aged 15 to 29 are about 21% of residents. Median living standard is €32,080 a year with 11% poverty (source: INSEE, Filosofi 2021).",
+      },
+      {
+        heading: "What does our city profile say about daily life?",
+        body: "Remote work 9/10, schools 8.7/10, safety 6.7/10, nature 3.6/10, cost of living 2.2/10. A remote-work score of 9/10 is an alternative to a transport pass: few towns on our scale do as well. For greenery you have to leave town, and the grocery budget stays that of the expensive inner suburbs.",
+      },
+      {
+        heading: "Courbevoie or Nanterre?",
+        body: "Nanterre has rent €200 a month lower and the same 9/10 for transport, but safety is 4.1/10 against 6.7/10 in Courbevoie and schools 5.8/10 against 8.7/10. Nanterre's population is younger and larger (98,119 inhabitants). To work at La Défense, Courbevoie shortens the commute; Nanterre lightens the budget.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "La Défense employee: walking to work or a single stop changes life without a car. Family: a €1,750 T3 is fair, with schools at 8.7/10. Student: an €820 studio is to be weighed against Nanterre (€720). Retiree: transport and safety are good, nature is lacking at 3.6/10.",
+      },
+    ],
+    relatedCities: ["courbevoie", "nanterre", "boulogne-billancourt"],
+    tags: ["car-free Courbevoie", "La Défense car-free", "tram T2 Faubourg de l'Arche", "RER A La Défense", "car-free Hauts-de-Seine 2026"],
+  },
+  {
     slug: "living-in-ile-de-france-2026",
     title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
     metaTitle: "Living in Île-de-France: Expat Guide 2026",

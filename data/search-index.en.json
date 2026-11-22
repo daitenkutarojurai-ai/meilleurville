@@ -6312,6 +6312,36 @@
       "emoji": "🚆"
     },
     {
+      "slug": "car-free-living-in-issy-les-moulineaux-2026",
+      "title": "Car-Free Living in Issy-les-Moulineaux 2026: Metro 12, Tram T2, RER C and a €1,300 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-levallois-perret-2026",
+      "title": "Car-Free Living in Levallois-Perret 2026: Metro 3 and a €1,400 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-neuilly-sur-seine-2026",
+      "title": "Car-Free Living in Neuilly-sur-Seine 2026: Metro 1 and a €1,700 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-ivry-sur-seine-2026",
+      "title": "Car-Free Living in Ivry-sur-Seine 2026: Metro 7 and a €1,000 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-vitry-sur-seine-2026",
+      "title": "Car-Free Living in Vitry-sur-Seine 2026: RER C and a €980 T2",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "car-free-living-in-courbevoie-2026",
+      "title": "Car-Free Living in Courbevoie 2026: La Défense and a €1,250 T2",
+      "emoji": "🚆"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -12014,6 +12044,11 @@
       "count": 8
     },
     {
+      "slug": "car-free-ile-de-france-2026",
+      "label": "car-free Île-de-France 2026",
+      "count": 8
+    },
+    {
       "slug": "france-climate-2040",
       "label": "france climate 2040",
       "count": 8
@@ -12139,11 +12174,6 @@
       "count": 6
     },
     {
-      "slug": "car-free-ile-de-france-2026",
-      "label": "car-free Île-de-France 2026",
-      "count": 6
-    },
-    {
       "slug": "clermont-ferrand",
       "label": "clermont ferrand",
       "count": 6
@@ -12261,6 +12291,11 @@
     {
       "slug": "french-guiana",
       "label": "french guiana",
+      "count": 4
+    },
+    {
+      "slug": "hauts-de-seine-transport",
+      "label": "Hauts-de-Seine transport",
       "count": 4
     },
     {
