@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { PropertyCalendar, type CalendarMonth } from "@/components/PropertyCalendar";
 import { pathAlternatesEn } from "@/lib/i18n";
 
 export async function generateStaticParams() {
@@ -18,14 +18,7 @@ export const metadata: Metadata = {
   alternates: pathAlternatesEn("/calendrier-immobilier", "/property-calendar"),
 };
 
-type Month = {
-  name: string;
-  emoji: string;
-  buy: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-  sell: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-  rent: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-  move: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-};
+type Month = CalendarMonth;
 
 const MONTHS: Month[] = [
   {
@@ -126,29 +119,14 @@ const MONTHS: Month[] = [
   },
 ];
 
-const SCORE_COLORS: Record<1 | 2 | 3 | 4 | 5, string> = {
-  1: "bg-red-500/15 text-red-400 border-red-500/30",
-  2: "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  3: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  4: "bg-lime-500/15 text-lime-400 border-lime-500/30",
-  5: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-};
-
-const SCORE_LABELS: Record<1 | 2 | 3 | 4 | 5, string> = {
-  1: "Very unfavourable",
-  2: "Unfavourable",
-  3: "Neutral",
-  4: "Favourable",
-  5: "Very favourable",
-};
-
 export default function EnPropertyCalendarPage() {
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
-
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+      <PropertyCalendar
+        locale="en"
+        months={MONTHS}
+        breadcrumb={
           <nav className="text-xs text-[var(--text-tertiary)] mb-4">
             <Link href="/" className="hover:underline">Home</Link>
             {" / "}
@@ -156,96 +134,15 @@ export default function EnPropertyCalendarPage() {
             {" / "}
             <span>Property calendar</span>
           </nav>
-          <Badge variant="accent" className="mb-3">Calendar 2026</Badge>
-          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">
-            When to buy, sell, rent or move in France?
-          </h1>
-          <p className="text-[var(--text-secondary)] leading-relaxed">
-            Month-by-month seasonality of the French property market. Score from 1 (very
-            unfavourable) to 5 (very favourable) for each action. Based on patterns observed
-            in notaires.fr, SeLoger and OLAP data since 2018.
-          </p>
-        </div>
-      </section>
-
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-12">
-        {/* Legend */}
-        <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 mb-10">
-          <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
-            Score legend
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {([1, 2, 3, 4, 5] as const).map((s) => (
-              <span
-                key={s}
-                className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium ${SCORE_COLORS[s]}`}
-              >
-                <span className="font-mono-data font-bold">{s}/5</span> {SCORE_LABELS[s]}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Months */}
-        <div className="space-y-6">
-          {MONTHS.map((m) => (
-            <article
-              key={m.name}
-              className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-6"
-            >
-              <div className="flex items-baseline gap-3 mb-5">
-                <span className="text-3xl">{m.emoji}</span>
-                <h2 className="text-xl font-bold text-[var(--text-primary)]">{m.name}</h2>
-              </div>
-              <div className="grid sm:grid-cols-2 gap-4">
-                {([
-                  ["Buy", m.buy],
-                  ["Sell", m.sell],
-                  ["Let (as a landlord)", m.rent],
-                  ["Move", m.move],
-                ] as const).map(([label, item]) => (
-                  <div key={label} className="rounded-lg border border-[var(--border)] bg-[var(--bg-canvas)] p-4">
-                    <div className="flex items-center justify-between mb-2">
-                      <p className="text-sm font-semibold text-[var(--text-primary)]">{label}</p>
-                      <span
-                        className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-bold font-mono-data ${SCORE_COLORS[item.score]}`}
-                      >
-                        {item.score}/5
-                      </span>
-                    </div>
-                    <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                      {item.tip}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
-
-        {/* Related */}
-        <div className="mt-12 flex flex-wrap gap-3">
-          <Link
-            href="/guides"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            All guides →
-          </Link>
-          <Link
-            href="/glossary"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Property glossary →
-          </Link>
-          <Link
-            href="/quiz/compatibility"
-            className="rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-4 py-2.5 text-sm text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-colors"
-          >
-            ✨ Find your ideal French city →
-          </Link>
-        </div>
-      </div>
-
+        }
+        title="When to buy, sell, rent or move in France?"
+        intro="Month-by-month seasonality of the French property market. Score from 1 (very unfavourable) to 5 (very favourable) for each action. Based on patterns observed in notaires.fr, SeLoger and OLAP data since 2018."
+        links={[
+          { href: "/guides", label: "All guides →" },
+          { href: "/glossary", label: "Property glossary →" },
+          { href: "/quiz/compatibility", label: "✨ Find your ideal French city →" },
+        ]}
+      />
       <Footer />
     </main>
   );

@@ -1,8 +1,7 @@
 import { Metadata } from "next";
-import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Badge } from "@/components/ui/Badge";
+import { PropertyCalendar, type CalendarMonth } from "@/components/PropertyCalendar";
 import { StaticPageCrossLink } from "@/components/StaticPageCrossLink";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pathAlternates } from "@/lib/i18n";
@@ -14,14 +13,7 @@ export const metadata: Metadata = {
   alternates: pathAlternates("/calendrier-immobilier", "/property-calendar"),
 };
 
-type Month = {
-  name: string;
-  emoji: string;
-  buy: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-  sell: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-  rent: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-  move: { score: 1 | 2 | 3 | 4 | 5; tip: string };
-};
+type Month = CalendarMonth;
 
 const MONTHS: Month[] = [
   {
@@ -122,29 +114,14 @@ const MONTHS: Month[] = [
   },
 ];
 
-const SCORE_COLORS: Record<1 | 2 | 3 | 4 | 5, string> = {
-  1: "bg-red-500/15 text-red-400 border-red-500/30",
-  2: "bg-orange-500/15 text-orange-400 border-orange-500/30",
-  3: "bg-yellow-500/15 text-yellow-400 border-yellow-500/30",
-  4: "bg-lime-500/15 text-lime-400 border-lime-500/30",
-  5: "bg-emerald-500/15 text-emerald-400 border-emerald-500/30",
-};
-
-const SCORE_LABELS: Record<1 | 2 | 3 | 4 | 5, string> = {
-  1: "Très défavorable",
-  2: "Défavorable",
-  3: "Moyen",
-  4: "Favorable",
-  5: "Très favorable",
-};
-
 export default function CalendrierPage() {
   return (
     <main id="main-content" className="min-h-screen">
       <Navbar />
-
-      <section className="bg-[var(--bg-surface)] border-b border-[var(--border)] py-14">
-        <div className="mx-auto max-w-4xl px-4 sm:px-6">
+      <PropertyCalendar
+        locale="fr"
+        months={MONTHS}
+        breadcrumb={
           <Breadcrumbs
             items={[
               { label: "Accueil", href: "/" },
@@ -152,96 +129,15 @@ export default function CalendrierPage() {
               { label: "Calendrier immobilier" },
             ]}
           />
-          <Badge variant="accent" className="mb-3">Calendrier 2026</Badge>
-          <h1 className="text-3xl font-bold text-[var(--text-primary)] mb-3">
-            Quand acheter, vendre, louer ou déménager ?
-          </h1>
-          <p className="text-[var(--text-secondary)] leading-relaxed">
-            Saisonnalité du marché immobilier français mois par mois. Note de 1 (très défavorable)
-            à 5 (très favorable) pour chaque action. Basé sur les patterns observés notaires.fr,
-            SeLoger et Olap depuis 2018.
-          </p>
-        </div>
-      </section>
-
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-12">
-        {/* Quick legend */}
-        <div className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 mb-10">
-          <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-3">
-            Légende des notes
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {([1, 2, 3, 4, 5] as const).map((s) => (
-              <span
-                key={s}
-                className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium ${SCORE_COLORS[s]}`}
-              >
-                <span className="font-mono-data font-bold">{s}/5</span> {SCORE_LABELS[s]}
-              </span>
-            ))}
-          </div>
-        </div>
-
-        {/* Months */}
-        <div className="space-y-6">
-          {MONTHS.map((m) => (
-            <article
-              key={m.name}
-              className="rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] p-6"
-            >
-              <div className="flex items-baseline gap-3 mb-5">
-                <span className="text-3xl">{m.emoji}</span>
-                <h2 className="text-xl font-bold text-[var(--text-primary)]">{m.name}</h2>
-              </div>
-              <div className="grid sm:grid-cols-2 gap-4">
-                {([
-                  ["Acheter", m.buy],
-                  ["Vendre", m.sell],
-                  ["Louer / louer à un locataire", m.rent],
-                  ["Déménager", m.move],
-                ] as const).map(([label, item]) => (
-                  <div key={label} className="rounded-lg border border-[var(--border)] bg-[var(--bg-canvas)] p-4">
-                    <div className="flex items-center justify-between mb-2">
-                      <p className="text-sm font-semibold text-[var(--text-primary)]">{label}</p>
-                      <span
-                        className={`inline-flex items-center rounded-full border px-2 py-0.5 text-[10px] font-bold font-mono-data ${SCORE_COLORS[item.score]}`}
-                      >
-                        {item.score}/5
-                      </span>
-                    </div>
-                    <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
-                      {item.tip}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </article>
-          ))}
-        </div>
-
-        {/* Related */}
-        <div className="mt-12 flex flex-wrap gap-3">
-          <Link
-            href="/guides"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Tous les guides →
-          </Link>
-          <Link
-            href="/glossaire"
-            className="rounded-xl border border-[var(--border)] px-4 py-2.5 text-sm text-[var(--text-secondary)] hover:text-[var(--text-primary)] transition-colors"
-          >
-            Glossaire immobilier →
-          </Link>
-          <Link
-            href="/city-match"
-            className="rounded-xl border border-[var(--accent)]/30 bg-[var(--accent)]/5 px-4 py-2.5 text-sm text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-colors"
-          >
-            ✨ Trouver ma ville idéale →
-          </Link>
-        </div>
-      </div>
-
+        }
+        title="Quand acheter, vendre, louer ou déménager ?"
+        intro="Saisonnalité du marché immobilier français mois par mois. Note de 1 (très défavorable) à 5 (très favorable) pour chaque action. Basé sur les patterns observés notaires.fr, SeLoger et Olap depuis 2018."
+        links={[
+          { href: "/guides", label: "Tous les guides →" },
+          { href: "/glossaire", label: "Glossaire immobilier →" },
+          { href: "/city-match", label: "✨ Trouver ma ville idéale →" },
+        ]}
+      />
       <StaticPageCrossLink exclude="/calendrier-immobilier" />
       <Footer />
     </main>

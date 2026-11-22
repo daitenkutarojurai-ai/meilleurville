@@ -1784,3 +1784,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. `/calendrier-immobilier` : en-tête blanc à filet + mois en cartes grises.
 2. `/glossaire` : en-tête blanc + sections sans bande (1 300 lignes, découpage par lettre).
 3. Hub `/comparer` (FR) + EN `/compare`.
+
+## 2026-11-22 ~03:00 UTC — calendrier immobilier (FR `/calendrier-immobilier` + EN `/property-calendar`)
+
+**Surface** : les deux pages calendrier. Avant : en-tête blanc à filet gris, légende et 12 mois en cartes grises sur le canevas (une seule bande), notes 1-5 en texte `-400` sur fond `/15` (jaune/lime illisibles, < 4,5:1), liens en boutons gris.
+
+**Changé** : nouveau composant serveur partagé `components/PropertyCalendar.tsx` — hero `.bg-aurora` + `EmojiBadge` 📅 + titre `.gradient-text` + puces d'ancre vers les 12 mois (sans JS) ; vue d'ensemble `band-white` (légende sur encart lilas + tableau 12 × 4 à en-tête `grad-head-0`, mois liés aux ancres) ; un trimestre par bande (indigo, pink, sky, aqua), mois en cartes blanches à bandeau `grad-head-*` en rotation, actions en tuiles à pastille emoji ; liens en `band-bold` ; cross-link lilas (FR). Notes 1-5 en pastel de palier + encre foncée (AA). Données et copie inchangées.
+
+**Fichiers** : `components/PropertyCalendar.tsx`, `app/calendrier-immobilier/page.tsx`, `app/[locale]/property-calendar/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 3 fichiers : 0 problème. Captures playwright FR/EN 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. `/glossaire` : en-tête blanc + sections sans bande (1 300 lignes, découpage par lettre).
+2. `components/DromStrip.tsx` : tuiles « Outre-mer » (vérifier contraste du texte de palier).
+3. Hubs `/comparer-departements` + `/comparer-regions` (FR/EN).
