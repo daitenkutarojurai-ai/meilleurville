@@ -10412,6 +10412,36 @@
       "emoji": "🧑‍🍼"
     },
     {
+      "slug": "single-parent-holidays-saint-die-des-vosges-2026",
+      "title": "Single-parent holidays in Saint-Dié-des-Vosges: the cheapest flat in the series, and a direct train from Nancy",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-gaillac-2026",
+      "title": "Single-parent holidays in Gaillac: a direct train from Toulouse, and vineyards for the backdrop",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-provins-2026",
+      "title": "Single-parent holidays in Provins: a medieval town, and a train from Paris-Est",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-issoire-2026",
+      "title": "Single-parent holidays in Issoire: half an hour from Clermont, and a Romanesque abbey church",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-saint-lo-2026",
+      "title": "Single-parent holidays in Saint-Lô: the safest of the batch, and a direct train from Caen",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "slug": "single-parent-holidays-moissac-2026",
+      "title": "Single-parent holidays in Moissac: a Romanesque cloister, a canal, and a direct train from Toulouse",
+      "emoji": "🧑‍🍼"
+    },
+    {
       "slug": "things-to-do-in-selestat-2026",
       "title": "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
       "emoji": "📚"
@@ -11709,14 +11739,14 @@
       "count": 83
     },
     {
+      "slug": "single-parent-holidays",
+      "label": "single parent holidays",
+      "count": 83
+    },
+    {
       "slug": "expat-retirement",
       "label": "expat retirement",
       "count": 82
-    },
-    {
-      "slug": "single-parent-holidays",
-      "label": "single parent holidays",
-      "count": 77
     },
     {
       "slug": "student-housing-france",

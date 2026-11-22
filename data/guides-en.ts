@@ -59942,6 +59942,270 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["single parent holidays","challans with kids","vendee train holidays with children"]
   },
   {
+    slug: "single-parent-holidays-saint-die-des-vosges-2026",
+    title: "Single-parent holidays in Saint-Dié-des-Vosges: the cheapest flat in the series, and a direct train from Nancy",
+    metaTitle: "Single-Parent Holidays in Saint-Dié 2026",
+    metaDesc: "Saint-Dié-des-Vosges: 7.0/10 on our single-parent index, flat 670 €, cost 8.5/10, joint first. Direct regional train from Nancy, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Saint-Dié-des-Vosges comes out at 7.0/10 on our single-parent composite, joint twentieth of the eighty-three destinations, tied with four others (source: our trip-fit index). Its case rests on one number: cost of living is 8.5/10, joint first of the series with two others (source: our city profile), for a reference three-room flat at 670 €, one of the four lowest rents in the batch (source: our rent estimate). The rest of the profile: safety 7.5/10, quality of life 5.9/10 and transport 4.9/10. The town is shrinking: 19,324 inhabitants at the 2022 census against 21,361 in 2011, a fall of 9.5 % (source: INSEE census). Our engine rates it €. The asset: the budget, and a direct regional train from Nancy. The limit: little going on, and a thin local network.",
+    sections: [
+      {
+        heading: "Reaching Saint-Dié by train: a direct regional train from Nancy",
+        body: "Comparison sites checked online before writing show a regional train (TER) linking Nancy to Saint-Dié-des-Vosges with no change in 1 h 05 to 1 h 20 depending on the train, up to two an hour and 17 return trips a day according to the line's own page. To Strasbourg the sources contradict each other: some show a direct in 1 h 30 to 1 h 50, others a change and nearly two hours. Paris to Saint-Dié goes through Nancy or Strasbourg. Exact times are checked on SNCF Connect for your date. The transport axis is 4.9/10, below the series median of 6.4, joint seventy-third of the eighty-three, tied with four others: on the spot you walk or take the bus."
+      },
+      {
+        heading: "Budget: the cheapest of the batch on cost of living",
+        body: "On the cost-of-living axis a high score means affordable. Saint-Dié comes out at 8.5/10 (source: our city profile), joint first of the eighty-three, tied with two others, against a series median of 6.4. The market: 670 € for the reference three-room flat and 1,100 € per square metre (source: our rent estimate), against series medians of 900 € and 2,300 €. At 38 kilometres as the crow flies, Colmar, already in the series, shows a flat at 1,000 €; at 44 kilometres, Obernai, also in the series, at 1,040 €; at 39 kilometres, Épinal at 660 €. These are resident benchmarks, not holiday prices: a night's price is checked with the host."
+      },
+      {
+        heading: "Le Corbusier, the Liberty tower and the name \"America\"",
+        body: "Saint-Dié was rebuilt after 1944 and the streets show it. Two visits fit into half a day: the Duval factory, a Le Corbusier building, and the Liberty tower. The town also claims the first printing of the name \"America\" on Waldseemüller's 1507 map, a handy thread for children who like maps. Each autumn a geography festival fills the town. Hours, visits and dates are checked with the tourist office."
+      },
+      {
+        heading: "12 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 12 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap): the Simone Veil garden, and two play areas split by age, one for older children and one for the youngest. The combined footprint is about 4 hectares, the largest being the Jean Mansuy park at around one hectare: it is a short stroll, not an all-day park. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 7.5/10, quality of life 5.9/10",
+        body: "Saint-Dié shows 7.5/10 on the safety axis (source: our city profile), joint nineteenth of the eighty-three, tied with seven others, against a series median of 6.2. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 5.9/10, joint sixty-second, tied with thirteen others, below the series median of 6.8: that is the limit of the file. With 19,324 inhabitants and a falling population, the town offers less going on than its safety and cost scores suggest."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Strasbourg (Strasbourg-Entzheim), 59 kilometres away (source: Météo-France 1991-2020 normals). It gives 2.5 °C in January and 20.6 °C in July. The commune's own anchors come from our city profile: 1.5 °C in January, 21 °C in July and 1,650 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and says nothing about the nearby lakes and summits, busier in summer. The engine puts June first, then August, then July."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Vosges one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["saint-die-des-vosges","colmar","obernai"],
+    tags: ["single parent holidays","saint-die-des-vosges with kids","vosges budget holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-gaillac-2026",
+    title: "Single-parent holidays in Gaillac: a direct train from Toulouse, and vineyards for the backdrop",
+    metaTitle: "Single-Parent Holidays in Gaillac 2026",
+    metaDesc: "Gaillac scores 7.0/10 on our single-parent index: flat 800 €, safety 8.1/10, life 7.8/10. Direct regional train from Toulouse, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Gaillac comes out at 7.0/10 on our single-parent composite, joint twentieth of the eighty-three destinations, tied with four others (source: our trip-fit index). The detail: safety 8.1/10, joint eighth of the series with seven others, quality of life 7.8/10, joint eighth with eleven others, cost of living 7.6/10 and transport 4.2/10 (source: our city profile). The market: 800 € for the reference three-room flat and 1,800 € per square metre (source: our rent estimate), against series medians of 900 € and 2,300 €. The town is growing: 16,080 inhabitants at the 2022 census against 13,629 in 2011, a rise of 18.0 % (source: INSEE census). Our engine rates it €€. The asset: a direct regional train from Toulouse, and the vineyards. The limit: the transport axis, one of the six lowest in the series.",
+    sections: [
+      {
+        heading: "Reaching Gaillac by train: a direct regional train from Toulouse",
+        body: "Comparison sites checked online before writing show Gaillac linked to Toulouse-Matabiau by a direct regional train (TER) in 38 to 50 minutes depending on the train, about a dozen a day according to one comparison site; Paris to Gaillac therefore goes through Toulouse. Exact times are checked on SNCF Connect for your date. The transport axis is 4.2/10, far below the series median of 6.4, joint seventy-eighth of the eighty-three, tied with five others: in town you get about on foot, and the vineyards need a car or a bike."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Gaillac comes out at 7.6/10 (source: our city profile), joint eighth of the eighty-three, tied with eleven others, against a series median of 6.4. The market: 800 € for the reference three-room flat and 1,800 € per square metre. At 20 kilometres as the crow flies, Albi, already in the series, shows a flat at 840 €; at 49 kilometres, Toulouse, also in the series, at 1,150 € and 4,000 € per square metre. Gaillac's rent is therefore 40 € below Albi's and 350 € below Toulouse's. These are resident benchmarks, not holiday prices: a night's price is checked with the host."
+      },
+      {
+        heading: "Vineyards, Saint-Michel abbey and the banks of the Tarn",
+        body: "Gaillac is a wine town: its vineyard, one of the oldest in France, surrounds the town and shapes the local offer, with cellars open to visitors and harvest festivals. Saint-Michel abbey, on the banks of the Tarn, is the monument that gathers the heritage of the centre. With children, keep the wine in the background and favour a walk by the water and the park. Hours, festival dates and visits are checked with the tourist office."
+      },
+      {
+        heading: "3 green spaces mapped, 1 with a playground",
+        body: "The mapping survey records 3 green spaces in the commune, 1 of them with a playground (source: OpenStreetMap): the Foucault park, about 7 hectares, the town's largest play ground. The combined footprint is about 10 hectares with the Pichery park, around 2.5 hectares. The survey is contributory, not a register, so these numbers are floors: three spaces is few for a town of 16,000, and the Tarn makes up the rest."
+      },
+      {
+        heading: "Safety 8.1/10, quality of life 7.8/10",
+        body: "Gaillac shows 8.1/10 on the safety axis (source: our city profile), joint eighth of the eighty-three, tied with seven others, against a series median of 6.2. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 7.8/10, joint eighth, tied with eleven others, above the series median of 6.8: the best of the six towns in this batch. With 16,080 inhabitants, the town offers more services than a village, without reaching those of a big city."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Toulouse (Toulouse-Blagnac), 52 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.3 °C in January and 22.6 °C in July. The commune's own anchors come from our city profile: 5 °C in January, 25.5 °C in July and 2,200 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 2 from January to May and from October to December; level 3 in June and September; level 4 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture harvest-time crowds. The engine puts September first, then June, then May."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Tarn one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["gaillac","albi","toulouse"],
+    tags: ["single parent holidays","gaillac with kids","tarn train holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-provins-2026",
+    title: "Single-parent holidays in Provins: a medieval town, and a train from Paris-Est",
+    metaTitle: "Single-Parent Holidays in Provins 2026",
+    metaDesc: "Provins scores 6.9/10 on our single-parent index: flat 930 €, safety 7.5/10. Direct Transilien P from Paris-Est, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Provins comes out at 6.9/10 on our single-parent composite, joint twenty-fifth of the eighty-three destinations, tied with nine others (source: our trip-fit index). The detail: safety 7.5/10, cost of living 6.7/10, quality of life 6.8/10 and transport 5.6/10 (source: our city profile). The market: 930 € for the reference three-room flat and 2,300 € per square metre (source: our rent estimate), above the series median for rent (900 €) and level with it per square metre (2,300 €). It is the only town of this batch in the Paris region: 11,824 inhabitants at the 2022 census against 12,206 in 2011, a fall of 3.1 % (source: INSEE census). Our engine rates it €€. The asset: a medieval town on the UNESCO list, served direct from Paris-Est. The limit: a journey of about 1 h 25.",
+    sections: [
+      {
+        heading: "Reaching Provins by train: line P from Paris-Est",
+        body: "Comparison sites checked online before writing show Provins as the terminus of a branch of Transilien line P, direct from Paris-Est in 1 h 23 to 1 h 26, one train an hour according to one aggregator; the line has regular engineering works. Exact times are checked on SNCF Connect or transilien.com for your date. The transport axis is 5.6/10, below the series median of 6.4, joint sixty-first of the eighty-three, tied with seven others: on the spot the old town is walkable, the lower town means walking or the bus."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Provins comes out at 6.7/10 (source: our city profile), joint twenty-eighth of the eighty-three, tied with ten others, against a series median of 6.4. The market: 930 € for the reference three-room flat and 2,300 € per square metre. At 40 kilometres as the crow flies, Sens, already in the series, shows a flat at 920 €; at 47 kilometres, Fontainebleau, also in the series, at 1,200 € and 3,800 € per square metre. These are resident benchmarks, not holiday prices: a night's price is checked with the host."
+      },
+      {
+        heading: "Medieval town, ramparts and roses",
+        body: "The medieval town of Provins has been on the UNESCO World Heritage list since 2001. It brings together the César tower, ramparts, underground passages and a season of medieval shows, which makes it one of the few destinations in the batch where children have a set to explore. The Provins rose, grown here since the Middle Ages, gave its name to a rose garden. Hours, shows and prices are checked with the tourist office."
+      },
+      {
+        heading: "16 green spaces mapped, 1 with a playground",
+        body: "The mapping survey records 16 green spaces in the commune, only 1 of them with a playground (source: OpenStreetMap): the tourist-office park. The combined footprint is about 23 hectares, the largest of the batch: the boulevard d'Aligre park (5 hectares), the Ramparts park (4 hectares) and the rose garden (3.5 hectares). It is a setting for walks more than a playground: few equipped areas for a lot of greenery. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 7.5/10, quality of life 6.8/10",
+        body: "Provins shows 7.5/10 on the safety axis (source: our city profile), joint nineteenth of the eighty-three, tied with seven others, against a series median of 6.2. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 6.8/10, joint thirtieth, tied with sixteen others, right on the series median. With 11,824 inhabitants, it is the smallest of the six towns in this batch."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Paris (Paris-Montsouris), 76 kilometres away and so not very precise (source: Météo-France 1991-2020 normals). It gives 5.4 °C in January and 20.9 °C in July. The commune's own anchors come from our city profile: 4 °C in January, 21.5 °C in July and 1,750 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture medieval-show weekends. The engine puts June first, then July, then August."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Seine-et-Marne one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["provins","sens","fontainebleau"],
+    tags: ["single parent holidays","provins with kids","seine-et-marne train holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-issoire-2026",
+    title: "Single-parent holidays in Issoire: half an hour from Clermont, and a Romanesque abbey church",
+    metaTitle: "Single-Parent Holidays in Issoire 2026",
+    metaDesc: "Issoire scores 6.9/10 on our single-parent index: flat 720 €, cost 7.6/10, safety 7.5/10. Direct regional train from Clermont, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Issoire comes out at 6.9/10 on our single-parent composite, joint twenty-fifth of the eighty-three destinations, tied with nine others (source: our trip-fit index). The detail: safety 7.5/10, cost of living 7.6/10, joint eighth of the series with eleven others, quality of life 6.8/10 and transport 5.6/10 (source: our city profile). The market: 720 € for the reference three-room flat, one of the six lowest rents of the batch, and 1,600 € per square metre (source: our rent estimate), against series medians of 900 € and 2,300 €. The town is growing: 15,078 inhabitants at the 2022 census against 14,170 in 2011, a rise of 6.4 % (source: INSEE census). Our engine rates it €€. The asset: a direct regional train from Clermont-Ferrand in half an hour. The limit: the Auvergne volcanoes need a vehicle.",
+    sections: [
+      {
+        heading: "Reaching Issoire by train: a direct regional train from Clermont-Ferrand",
+        body: "Comparison sites checked online before writing show Issoire linked to Clermont-Ferrand by a direct regional train (TER) in 25 to 40 minutes depending on the train, more than twenty a day according to one comparison site. Other destinations go through Clermont. Exact times are checked on SNCF Connect for your date. The transport axis is 5.6/10, below the series median of 6.4, joint sixty-first of the eighty-three, tied with seven others: once there, the centre is done on foot, the hinterland needs a bus or a car."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Issoire comes out at 7.6/10 (source: our city profile), joint eighth of the eighty-three, tied with eleven others, against a series median of 6.4. The market: 720 € for the reference three-room flat and 1,600 € per square metre. At 29 kilometres as the crow flies, Clermont-Ferrand shows a flat at 900 €, 180 € more; at 66 kilometres, Vichy at 640 €. These are resident benchmarks, not holiday prices: a night's price is checked with the host."
+      },
+      {
+        heading: "The Romanesque abbey church and the gateway to the volcanoes",
+        body: "Issoire is known for the abbey church of Saint-Austremoine, a major Romanesque building of Auvergne, and for its Clock tower. The town is also the gateway to volcanic landscapes reached by car or coach, though our file does not let us cite a specific service: check with the tourist office. For children the town takes half a day, and the parks do the rest."
+      },
+      {
+        heading: "5 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 5 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap): the Edith Piaf park, about 3 hectares, the André Rioux square and the Cassin park. The combined footprint is about 6 hectares. Three playgrounds in five spaces is a high ratio for the batch: play is the easiest thing to find here, on foot from the centre. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 7.5/10, quality of life 6.8/10",
+        body: "Issoire shows 7.5/10 on the safety axis (source: our city profile), joint nineteenth of the eighty-three, tied with seven others, against a series median of 6.2. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 6.8/10, joint thirtieth, tied with sixteen others, right on the series median. With 15,078 inhabitants, the town offers what a small town does, not a conurbation."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Clermont-Ferrand (Clermont-Aulnat), 28 kilometres away (source: Météo-France 1991-2020 normals). It gives 4.3 °C in January and 20.6 °C in July. The commune's own anchors come from our city profile: 3.5 °C in January, 23.5 °C in July and 1,900 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and says nothing about crowds on the summits. The engine puts July first, then June, then August."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Puy-de-Dôme one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["issoire","clermont-ferrand","vichy"],
+    tags: ["single parent holidays","issoire with kids","auvergne train holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-saint-lo-2026",
+    title: "Single-parent holidays in Saint-Lô: the safest of the batch, and a direct train from Caen",
+    metaTitle: "Single-Parent Holidays in Saint-Lô 2026",
+    metaDesc: "Saint-Lô scores 6.9/10 on our single-parent index: flat 760 €, safety 8.2/10, sixth of 83. Direct regional train from Caen, parks, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Saint-Lô comes out at 6.9/10 on our single-parent composite, joint twenty-fifth of the eighty-three destinations, tied with nine others (source: our trip-fit index). Its strength is safety, 8.2/10, joint sixth of the series with one other, the best of the six towns in this batch (source: our city profile). The rest: cost of living 7.6/10, transport 5.6/10 and quality of life 5.9/10. The market: 760 € for the reference three-room flat and 1,600 € per square metre (source: our rent estimate), against series medians of 900 € and 2,300 €. The town is growing: 19,352 inhabitants at the 2022 census against 18,874 in 2011, a rise of 2.5 % (source: INSEE census). Our engine rates it €€. The asset: a direct regional train from Caen. The limit: quality of life below the median.",
+    sections: [
+      {
+        heading: "Reaching Saint-Lô by train: a direct regional train from Caen",
+        body: "Comparison sites checked online before writing show Saint-Lô linked to Caen by a direct regional train (TER) in 43 to 55 minutes depending on the train, 14 to 16 a day according to SNCF Connect; Paris to Saint-Lô involves a change, to be checked. Exact times are checked on SNCF Connect for your date. The transport axis is 5.6/10, below the series median of 6.4, joint sixty-first of the eighty-three, tied with seven others: in town you walk, and the coast needs a bus or a car."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Saint-Lô comes out at 7.6/10 (source: our city profile), joint eighth of the eighty-three, tied with eleven others, against a series median of 6.4. The market: 760 € for the reference three-room flat and 1,600 € per square metre. At 53 kilometres as the crow flies, Caen, already in the series, shows a flat at 930 € and 2,500 € per square metre; at 34 kilometres, Bayeux at 760 €, the same rent. These are resident benchmarks, not holiday prices: a night's price is checked with the host."
+      },
+      {
+        heading: "A rebuilt town, a national stud and ramparts",
+        body: "Saint-Lô was destroyed in 1944 and rebuilt: postwar planning makes it a town short on picturesque, but legible and safe, built around a surviving stretch of rampart and the church of Notre-Dame. The national stud and its horses are the outing children like best. The D-Day beaches and Bayeux are half a day's travel away; access and hours are checked with the tourist office."
+      },
+      {
+        heading: "4 green spaces mapped, 2 with a playground",
+        body: "The mapping survey records 4 green spaces in the commune, 2 of them with a playground (source: OpenStreetMap): the Dollée valley, about 6 hectares, and the Beaux-Regards square. The combined footprint is about 7 hectares. The Dollée valley is the largest play area of the batch after Gaillac's. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 8.2/10, quality of life 5.9/10",
+        body: "Saint-Lô shows 8.2/10 on the safety axis (source: our city profile), joint sixth of the eighty-three, tied with one other, against a series median of 6.2. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 5.9/10, joint sixty-second, tied with thirteen others, below the series median of 6.8: that is the counterweight in the file. With 19,352 inhabitants, it is the most populous of the six towns in this batch."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Caen (Caen-Carpiquet), 47 kilometres away (source: Météo-France 1991-2020 normals). It gives 5.6 °C in January and 18 °C in July. The commune's own anchors come from our city profile: 5.5 °C in January, 20 °C in July and 1,700 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and says nothing about the D-Day beaches, far busier in summer. The engine puts July first, then August, then June."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Manche one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["saint-lo","bayeux","caen"],
+    tags: ["single parent holidays","saint-lo with kids","normandy train holidays with children"]
+  },
+  {
+    slug: "single-parent-holidays-moissac-2026",
+    title: "Single-parent holidays in Moissac: a Romanesque cloister, a canal, and a direct train from Toulouse",
+    metaTitle: "Single-Parent Holidays in Moissac 2026",
+    metaDesc: "Moissac scores 6.9/10 on our single-parent index: flat 790 €, cost 8.0/10. Direct regional train from Toulouse, Romanesque cloister, funding.",
+    category: "family",
+    emoji: "🧑‍🍼",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Moissac comes out at 6.9/10 on our single-parent composite, joint twenty-fifth of the eighty-three destinations, tied with nine others (source: our trip-fit index). The detail: cost of living 8.0/10, joint sixth of the series with one other, safety 7.5/10, quality of life 6.8/10 and transport 4.2/10 (source: our city profile). The market: 790 € for the reference three-room flat and 1,500 € per square metre (source: our rent estimate), against series medians of 900 € and 2,300 €. The commune gained 1,287 inhabitants in eleven years: 13,652 at the 2022 census against 12,365 in 2011, a rise of 10.4 % (source: INSEE census). Our engine rates it €. The asset: a Romanesque cloister and the canal. The limit: the parks are tiny and the local network thin.",
+    sections: [
+      {
+        heading: "Reaching Moissac by train: a direct regional train from Toulouse",
+        body: "Comparison sites checked online before writing show Moissac linked to Toulouse-Matabiau by a direct regional train (TER) in 48 to 59 minutes depending on the source, about a dozen a day according to one comparison site. To Bordeaux the comparison sites contradict each other on whether a direct exists: the usual route goes through Toulouse. Exact times are checked on SNCF Connect for your date. The transport axis is 4.2/10, far below the series median of 6.4, joint seventy-eighth of the eighty-three, tied with five others: in town walking is enough for the centre, and the canal is done by bike."
+      },
+      {
+        heading: "Budget: cost benchmarks and neighbouring towns",
+        body: "On the cost-of-living axis a high score means affordable. Moissac comes out at 8.0/10 (source: our city profile), joint sixth of the eighty-three, tied with one other, against a series median of 6.4. The market: 790 € for the reference three-room flat and 1,500 € per square metre. At 24 kilometres as the crow flies, Montauban shows a flat at 860 € and 2,200 € per square metre; at 38 kilometres, Agen at 750 €. These are resident benchmarks, not holiday prices: a night's price is checked with the host."
+      },
+      {
+        heading: "The abbey, its cloister and the Garonne canal",
+        body: "Moissac is worth a visit for Saint-Pierre abbey and its Romanesque cloister, on the UNESCO World Heritage list as part of the Santiago de Compostela pilgrim routes, and for the lateral canal of the Garonne, flat and good for cycling. The town is also known for its chasselas, a table grape. For children the canal and towpath count for more than the cloister. Hours, visits and dates are checked with the tourist office."
+      },
+      {
+        heading: "8 green spaces mapped, 3 with a playground",
+        body: "The mapping survey records 8 green spaces in the commune, 3 of them with a playground (source: OpenStreetMap): the Petit Bois leisure area, the Sarlac square and the Firmin Bouisset garden. The combined footprint is about 1 hectare: the smallest of the batch, neighbourhood squares rather than parks. The canal banks make up for it, but they do not show in this survey. The survey is contributory, not a register, so these numbers are floors."
+      },
+      {
+        heading: "Safety 7.5/10, quality of life 6.8/10",
+        body: "Moissac shows 7.5/10 on the safety axis (source: our city profile), joint nineteenth of the eighty-three, tied with seven others, against a series median of 6.2. The indicator is a communal aggregate estimated by our model: it describes neither a district nor an hour of the day. Quality of life is 6.8/10, joint thirtieth, tied with sixteen others, right on the series median. With 13,652 inhabitants, the town offers what a small town does, not a conurbation."
+      },
+      {
+        heading: "When to go, and the limit of our indicator",
+        body: "The reference weather station is Toulouse (Toulouse-Blagnac), 58 kilometres away (source: Météo-France 1991-2020 normals). It gives 6.3 °C in January and 22.6 °C in July. The commune's own anchors come from our city profile: 5.5 °C in January, 26 °C in July and 2,100 hours of sunshine a year. Our crowding indicator runs from 1 (very quiet) to 5 (saturated): level 1 from January to May and from October to December; level 2 in June and September; level 3 in July and August (source: our seasons calendar). It is a generic regional indicator and does not capture pilgrimage peaks. The engine puts September first, then June, then May."
+      },
+      {
+        heading: "Funding: schemes, agencies, no amounts",
+        body: "On funding, four routes and no amounts, because the scales are revised regularly and worked out on your quotient familial, the means-tested family coefficient that the CAF, France's family benefits agency, calculates per household. VACAF (vacaf.org) approves operators and deducts its help from the bill, so choose an approved site and check before booking, not after. ANCV Chèques-Vacances (ancv.com) are taken by part of the accommodation and for cultural ticketing. Some CAFs offer holiday grants, and the Tarn-et-Garonne one is worth asking; existence and conditions are checked on caf.fr, months ahead. An employer's works council often negotiates ticketing or a contribution to the stay. All these schemes follow residence in France, not nationality."
+      }
+    ],
+    relatedCities: ["moissac","montauban","agen"],
+    tags: ["single parent holidays","moissac with kids","tarn-et-garonne train holidays with children"]
+  },
+  {
     slug: "things-to-do-in-selestat-2026",
     title: "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
     metaTitle: "Things to Do in Sélestat, Alsace (2026)",
