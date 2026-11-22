@@ -6282,6 +6282,36 @@
       "emoji": "🚋"
     },
     {
+      "slug": "car-free-living-in-boulogne-billancourt-2026",
+      "title": "Car-Free Living in Boulogne-Billancourt 2026: Metro 9 and 10, €1,400 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-montreuil-2026",
+      "title": "Car-Free Living in Montreuil 2026: Metro 9 and 11, €1,050 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-vincennes-2026",
+      "title": "Car-Free Living in Vincennes 2026: Metro 1 and a €1,300 T2",
+      "emoji": "🌳"
+    },
+    {
+      "slug": "car-free-living-in-saint-denis-2026",
+      "title": "Car-Free Living in Saint-Denis 2026: Metro 13 and 14, €950 T2",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "car-free-living-in-pantin-2026",
+      "title": "Car-Free Living in Pantin 2026: Metro 5, Tram T3b and a €1,050 T2",
+      "emoji": "🚲"
+    },
+    {
+      "slug": "car-free-living-in-nanterre-2026",
+      "title": "Car-Free Living in Nanterre 2026: RER A and E, €1,050 T2",
+      "emoji": "🚆"
+    },
+    {
       "slug": "living-in-ile-de-france-2026",
       "title": "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
       "emoji": "🏙️"
@@ -12079,6 +12109,11 @@
       "count": 6
     },
     {
+      "slug": "car-free-ile-de-france-2026",
+      "label": "car-free Île-de-France 2026",
+      "count": 6
+    },
+    {
       "slug": "clermont-ferrand",
       "label": "clermont ferrand",
       "count": 6
@@ -12536,6 +12571,11 @@
     {
       "slug": "seaside",
       "label": "seaside",
+      "count": 3
+    },
+    {
+      "slug": "seine-saint-denis-transport",
+      "label": "Seine-Saint-Denis transport",
       "count": 3
     },
     {

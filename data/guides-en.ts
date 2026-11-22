@@ -21095,6 +21095,246 @@ export const EN_GUIDES: EnGuide[] = [
   },
 
   {
+    slug: "car-free-living-in-boulogne-billancourt-2026",
+    title: "Car-Free Living in Boulogne-Billancourt 2026: Metro 9 and 10, €1,400 T2",
+    metaTitle: "Car-Free Living in Boulogne-Billancourt 2026: Metro, Rents",
+    metaDesc: "Boulogne-Billancourt has metro lines 9 and 10, so a car is optional, but a T2 costs €1,400 (€400 below Paris). Transport 9/10. Compared with Issy and Paris.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Boulogne-Billancourt is easy to live in without a car: our transport score is 9/10, ranked 1st of 593 in a tie with 22 other cities, and two metro lines serve the town. The catch is rent: a one-bedroom flat (T2) is €1,400 a month on our rent estimate, €400 less than in Paris but €100 more than in Issy-les-Moulineaux.",
+    sections: [
+      {
+        heading: "Which lines serve Boulogne-Billancourt?",
+        body: "Metro line 9 links Pont de Sèvres, at the western edge of the town, to Mairie de Montreuil on the far side of Paris. Line 10 serves the town as far as Boulogne–Jean Jaurès, reached on 3 October 1980, then Boulogne–Pont de Saint-Cloud, opened in 1981. Two lines crossing Paris with no change make a car a choice rather than a necessity. Check timetables and fares on the Île-de-France Mobilités website.",
+      },
+      {
+        heading: "How much does housing cost in Boulogne-Billancourt?",
+        body: "Our rent estimate gives €900 a month for a studio (T1), €1,400 for a T2 and €2,000 for a T3 (two bedrooms). Paris is €1,800 for a T2: over a year the gap with Boulogne reaches €4,800. A household without a car also saves insurance, fuel and above all parking, which is expensive in the inner suburbs; that item is not priced here for lack of data of our own.",
+      },
+      {
+        heading: "Who lives in Boulogne?",
+        body: "The town had 120,205 inhabitants in 2022, up 0.5% since 2016 (source: INSEE, 2022 census). Median living standard is €35,040 a year, with 9% poverty (source: INSEE, Filosofi 2021). Our scores: schools 8.7/10, safety 5.7/10, nature 4.5/10, cost of living 2.2/10. Access is exceptional, and the price reflects it.",
+      },
+      {
+        heading: "Boulogne, Issy or Paris: which is best without a car?",
+        body: "All three score 9/10 on transport. Issy-les-Moulineaux asks €100 less a month for a T2 (€1,300) and scores 7.2/10 on safety against 5.7/10 in Boulogne. Paris has more lines but costs €400 more for a T2, with safety at 3.9/10. Boulogne is the compromise: a foot in Paris, a gentler rent and schools at 8.7/10.",
+      },
+      {
+        heading: "What are the limits of going car-free here?",
+        body: "Cost of living, at 2.2/10, is the real brake: saving on a car does not offset €1,400 for a T2. Streets far from a metro station are reached by bus, which is slower. Nature is only 4.5/10, so green weekends mean leaving town.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Working couple with jobs in Paris: the €1,400 T2 is justified, and two lines avoid any change. Family: the €2,000 T3 is heavy, but schools at 8.7/10 weigh in its favour. Student: a €900 studio is still pricey, compare Montreuil. Retiree: access and services are there, the budget has to follow.",
+      },
+    ],
+    relatedCities: ["boulogne-billancourt", "issy-les-moulineaux", "paris"],
+    tags: ["car-free Boulogne-Billancourt", "metro line 9 Boulogne", "metro line 10 Boulogne", "Hauts-de-Seine transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-montreuil-2026",
+    title: "Car-Free Living in Montreuil 2026: Metro 9 and 11, €1,050 T2",
+    metaTitle: "Car-Free Living in Montreuil 2026: Metro 9 and 11, Rents",
+    metaDesc: "In Montreuil, metro lines 9 and 11 make a car optional, with a T2 at €1,050 against €1,800 in Paris. Transport 9/10. Compared with Pantin and Paris.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "In Montreuil a car is optional: a one-bedroom flat (T2) is €1,050 a month on our rent estimate, €750 less than in Paris, with a transport score of 9/10, ranked 1st of 593 in a tie with 22 other cities. That is €9,000 a year saved, for metro lines that run straight into Paris.",
+    sections: [
+      {
+        heading: "How do you get around Montreuil without a car?",
+        body: "Metro line 9 links Mairie de Montreuil to Pont de Sèvres across Paris. Since 13 June 2024, line 11 has been extended from Mairie des Lilas to Rosny–Bois-Perrier, with a Montreuil-Hôpital station among the six new ones. Two different lines, two axes into Paris: that is what separates Montreuil from towns with a single line. Check timetables on the Île-de-France Mobilités website.",
+      },
+      {
+        heading: "How much does housing cost in Montreuil?",
+        body: "Our rent estimate gives €700 a month for a studio (T1), €1,050 for a T2 and €1,400 for a T3 (two bedrooms). Paris is €1,800 for a T2. Even without a car, the transport pass is a line to budget: it comes on top of rent. On the other hand there is no insurance or parking to pay.",
+      },
+      {
+        heading: "A young and contrasted town",
+        body: "Montreuil had 110,758 inhabitants in 2022, up 2.2% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 19.2% of the population. Median living standard is €21,150 a year with 25% poverty (source: INSEE, Filosofi 2021). Our scores: safety 3.9/10, schools 5.3/10, nature 2.8/10, culture 7.3/10.",
+      },
+      {
+        heading: "Montreuil, Pantin or Paris?",
+        body: "Pantin has the same €1,050 T2 and the same transport score, but safety of 3.7/10 against 3.9/10 here. Paris is €1,800 for a T2, €9,000 more a year, with the same 3.9/10 on safety. Montreuil therefore offers Paris-level access for €750 less, with the same safety and culture at 7.3/10 against 9/10 in Paris.",
+      },
+      {
+        heading: "What are the limits of going car-free here?",
+        body: "Streets far from a metro station are reached by bus, which is slower. Safety at 3.9/10 and nature at 2.8/10 are criteria to weigh. Rents vary a lot from one district to the next: our estimate is a town-wide average.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €700 studio is gentler than Paris, with line 9 into the capital. Working couple: a €1,050 T2 is justified if you work along line 9 or 11. Family: the €1,400 T3 is within reach, but check schools at 5.3/10. Retiree: excellent transport, but safety at 3.9/10 needs weighing.",
+      },
+    ],
+    relatedCities: ["montreuil", "pantin", "paris"],
+    tags: ["car-free Montreuil", "metro line 9 Montreuil", "metro line 11 Montreuil", "Seine-Saint-Denis transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-vincennes-2026",
+    title: "Car-Free Living in Vincennes 2026: Metro 1 and a €1,300 T2",
+    metaTitle: "Car-Free Living in Vincennes 2026: Metro 1, Rents",
+    metaDesc: "In Vincennes, metro line 1 takes you to Paris without a car, but a T2 costs €1,300. Transport 9/10, schools 8.7/10. Compared with Montreuil and Paris.",
+    category: "lifestyle",
+    emoji: "🌳",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Vincennes is one of the inner-ring towns where a car is hardest to justify: metro line 1 runs in a straight line from Paris and our transport score is 9/10, ranked 1st of 593 in a tie with 22 other cities. The price is a one-bedroom flat (T2) at €1,300 a month on our rent estimate, €250 more than in Montreuil.",
+    sections: [
+      {
+        heading: "Which network serves Vincennes?",
+        body: "Line 1 ends at Château de Vincennes, a station opened on 24 March 1934 at the edge of the town and the park. The line has been fully automatic since 15 December 2012 and crosses Paris from east to west as far as La Défense. With a single metro line, check Île-de-France Mobilités timetables before choosing your street.",
+      },
+      {
+        heading: "How much does housing cost in Vincennes?",
+        body: "Our rent estimate gives €850 a month for a studio (T1), €1,300 for a T2 and €1,800 for a T3 (two bedrooms). Paris is €1,800 for a T2: over a year the gap reaches €6,000 in Vincennes's favour. Montreuil, next door to the east, is €1,050: €3,000 a year less for the same transport score.",
+      },
+      {
+        heading: "A well-off and stable town",
+        body: "Vincennes had 48,368 inhabitants in 2022, down 3% since 2016 (source: INSEE, 2022 census). Median living standard is €34,880 a year, with 8% poverty (source: INSEE, Filosofi 2021). Our scores: schools 8.7/10, safety 6.1/10, nature 5.6/10, cost of living 2.2/10.",
+      },
+      {
+        heading: "Vincennes or Montreuil: the trade-off",
+        body: "Montreuil has two metro lines and a €1,050 T2, but safety of 3.9/10 and schools at 5.3/10. Vincennes is €250 a month dearer, with safety at 6.1/10 and schools at 8.7/10. The gap is not transport but surroundings: you pay for calm and for nature at 5.6/10, higher than in Montreuil (2.8/10).",
+      },
+      {
+        heading: "What are the limits of going car-free here?",
+        body: "A single line makes the town dependent on its disruptions; buses and the RER A are the fallback. Cost of living, at 2.2/10, is the real limit: saving on a car does not offset the rent. The population has fallen 3% since 2016 (INSEE, 2022 census).",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Working couple: the €1,300 T2 is justified, with line 1 running direct to central Paris. Family: the €1,800 T3 is heavy, but schools (8.7/10) and safety keep their promise. Student: a €850 studio is still high, Montreuil is cheaper. Retiree: a calm setting, with Paris hospitals reachable by metro.",
+      },
+    ],
+    relatedCities: ["vincennes", "montreuil", "paris"],
+    tags: ["car-free Vincennes", "metro line 1 Vincennes", "Château de Vincennes metro", "Val-de-Marne transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-saint-denis-2026",
+    title: "Car-Free Living in Saint-Denis 2026: Metro 13 and 14, €950 T2",
+    metaTitle: "Car-Free Living in Saint-Denis 2026: Metro 13 and 14",
+    metaDesc: "In Saint-Denis, metro lines 13 and 14 and RER D make a car unnecessary, with a €950 T2. Transport 9/10, but safety 2.2/10. Compared with Pantin and Paris.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Saint-Denis pairs excellent access with real weaknesses: transport 9/10, ranked 1st of 593 in a tie with 22 other cities, but safety of 2.2/10 and schools at 2.4/10 on our city profile. A one-bedroom flat (T2) is €950 a month on our rent estimate, €850 less than in Paris, or €10,200 a year.",
+    sections: [
+      {
+        heading: "Which lines serve Saint-Denis?",
+        body: "Line 14 has a station at Saint-Denis–Pleyel, opened on 24 June 2024 with the northern extension of the line, which also reaches Orly in the south. Metro line 13 and the RER D complete the network. Three different modes with no car: that is why the score is 9/10. Check timetables and fares on the Île-de-France Mobilités website.",
+      },
+      {
+        heading: "How much does housing cost in Saint-Denis?",
+        body: "Our rent estimate gives €650 a month for a studio (T1), €950 for a T2 and €1,250 for a T3 (two bedrooms). Pantin is €1,050 for a T2: €100 more, or €1,200 a year. Paris is €1,800: the gap is the widest of the six towns in this batch, and it goes with low safety and schools scores.",
+      },
+      {
+        heading: "A growing town with fragilities",
+        body: "Saint-Denis had 148,907 inhabitants in 2022, up 5.6% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 22.7% of the population. Median living standard is €16,470 a year with 37% poverty (source: INSEE, Filosofi 2021). Our scores: safety 2.2/10, schools 2.4/10, nature 2.3/10, cost of living 5.0/10.",
+      },
+      {
+        heading: "Saint-Denis, Pantin or Paris?",
+        body: "Pantin asks €100 more a month and rises to 3.7/10 on safety, against 2.2/10 here. Paris costs €850 more and reaches 3.9/10. Saint-Denis wins on price and on cost of living at 5.0/10, the highest of the six towns in this batch, but safety and schools weigh more than rent for many profiles.",
+      },
+      {
+        heading: "What are the limits of going car-free here?",
+        body: "The network is dense, but quality of life depends on the district: schools at 2.4/10 and safety at 2.2/10 are town-wide averages that hide large differences. Visit at different times of day and talk to residents.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €650 studio is among the lowest in the inner ring, with lines 13 and 14 into Paris. Working couple: a €950 T2 suits you if your job is on line 14. Family: the €1,250 T3 is affordable, but schools at 2.4/10 need close study. Retiree: excellent transport, safety at 2.2/10 needs weighing.",
+      },
+    ],
+    relatedCities: ["saint-denis", "pantin", "paris"],
+    tags: ["car-free Saint-Denis", "metro line 14 Saint-Denis Pleyel", "metro line 13 Saint-Denis", "Seine-Saint-Denis transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-pantin-2026",
+    title: "Car-Free Living in Pantin 2026: Metro 5, Tram T3b and a €1,050 T2",
+    metaTitle: "Car-Free Living in Pantin 2026: Metro 5, Rents",
+    metaDesc: "In Pantin, metro line 5 makes a car optional, with a T2 at €1,050 against €1,800 in Paris. Transport 9/10, population up 10%. Compared with Montreuil.",
+    category: "lifestyle",
+    emoji: "🚲",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Pantin is the fastest-growing town in this batch: up 10.1% in inhabitants since 2016, with a transport score of 9/10, ranked 1st of 593 in a tie with 22 other cities. A one-bedroom flat (T2) is €1,050 a month on our rent estimate, €750 less than in Paris.",
+    sections: [
+      {
+        heading: "Which network serves Pantin?",
+        body: "Metro line 5 is the main axis: the Église de Pantin station opened on 12 October 1942 and was the terminus until 25 April 1985, before the extension to Bobigny–Pablo Picasso. The line also calls at Hoche and Porte de Pantin, where it meets tram T3b. The Ourcq canal runs along the town: on foot or by bike it is a gentle route. Timetables and fares on the Île-de-France Mobilités website.",
+      },
+      {
+        heading: "How much does housing cost in Pantin?",
+        body: "Our rent estimate gives €700 a month for a studio (T1), €1,050 for a T2 and €1,400 for a T3 (two bedrooms). Saint-Denis is €950 for a T2: €100 less. Paris is €1,800: over a year the gap with Pantin reaches €9,000, which you spend on a transport pass rather than on a car.",
+      },
+      {
+        heading: "A town gaining residents",
+        body: "Pantin had 60,954 inhabitants in 2022, up 10.1% since 2016, or 5,612 more people (source: INSEE, 2022 census). Median living standard is €19,740 a year with 27% poverty (source: INSEE, Filosofi 2021). Our scores: safety 3.7/10, schools 5.3/10, nature 2.8/10, culture 5.9/10.",
+      },
+      {
+        heading: "Pantin, Montreuil or Saint-Denis?",
+        body: "Montreuil has the same €1,050 T2 and the same transport score, but culture of 7.3/10 against 5.9/10 here. Saint-Denis is €100 cheaper with safety of 2.2/10 against 3.7/10 in Pantin. Pantin is the middle ground: a little safer than Saint-Denis, a little less cultural than Montreuil, at the same price as the latter.",
+      },
+      {
+        heading: "What are the limits of going car-free here?",
+        body: "Fast growth means building sites and rising rents: our estimate is a town-wide average. Nature is only 2.8/10: plan on the canal and nearby parks. Safety at 3.7/10 is a reason to visit several districts.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €700 studio is gentler than Paris, with line 5 to Gare du Nord. Working couple: a €1,050 T2 is justified if your job is on line 5. Family: the €1,400 T3 is fair, schools at 5.3/10. Retiree: easy access to Paris, safety at 3.7/10 needs weighing.",
+      },
+    ],
+    relatedCities: ["pantin", "montreuil", "saint-denis"],
+    tags: ["car-free Pantin", "metro line 5 Pantin", "Église de Pantin metro", "Seine-Saint-Denis transport", "car-free Île-de-France 2026"],
+  },
+  {
+    slug: "car-free-living-in-nanterre-2026",
+    title: "Car-Free Living in Nanterre 2026: RER A and E, €1,050 T2",
+    metaTitle: "Car-Free Living in Nanterre 2026: RER A, RER E, Rents",
+    metaDesc: "In Nanterre, the RER A and the RER E (extended in 2024) make a car optional, with a €1,050 T2. Transport 9/10. Compared with Boulogne and Paris.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Nanterre works without a car thanks to the RER rather than the metro: our transport score is 9/10, ranked 1st of 593 in a tie with 22 other cities, for a one-bedroom flat (T2) at €1,050 a month on our rent estimate, €350 less than in Boulogne-Billancourt. Since 6 May 2024 the RER E stops there too.",
+    sections: [
+      {
+        heading: "Which lines serve Nanterre?",
+        body: "The RER A (the east–west regional express line) serves the town. The RER E, extended west on 6 May 2024 from Haussmann–Saint-Lazare, serves Nanterre–La Folie via Neuilly–Porte Maillot and La Défense–Grande Arche. Since 15 December 2024 all trains from Haussmann–Saint-Lazare run on to Nanterre–La Folie, about 12 minutes away. Frequencies change: check them with Île-de-France Mobilités.",
+      },
+      {
+        heading: "How much does housing cost in Nanterre?",
+        body: "Our rent estimate gives €720 a month for a studio (T1), €1,050 for a T2 and €1,400 for a T3 (two bedrooms). Boulogne-Billancourt is €1,400 for a T2: over a year the gap reaches €4,200 in Nanterre's favour. Paris is €1,800, or €9,000 more a year.",
+      },
+      {
+        heading: "A university town on the rise",
+        body: "Nanterre had 98,119 inhabitants in 2022, up 4.1% since 2016 (source: INSEE, 2022 census). People aged 15 to 29 make up 22.7% of the population. Median living standard is €21,620 a year with 22% poverty (source: INSEE, Filosofi 2021). Our scores: safety 4.1/10, schools 5.8/10, nature 3.1/10, culture 6.6/10.",
+      },
+      {
+        heading: "Nanterre or Boulogne-Billancourt?",
+        body: "Boulogne has the same 9/10 on transport, but a €1,400 T2, safety of 5.7/10 and schools at 8.7/10. Nanterre is €350 cheaper a month, with safety at 4.1/10 and schools at 5.8/10. Cost of living is 3.3/10 here against 2.2/10 in Boulogne: the rent gap shows up in the rest of the budget too.",
+      },
+      {
+        heading: "What are the limits of going car-free here?",
+        body: "RER stations are far from some districts, so a bus has to take over. Nature, at 3.1/10, means leaving town for green space. Check the distance between flat and station before signing.",
+      },
+      {
+        heading: "Verdict by profile",
+        body: "Student: a €720 studio is affordable and the campus is in the town. Working couple: a €1,050 T2 is justified if you work at La Défense or Saint-Lazare. Family: the €1,400 T3 is within reach, schools at 5.8/10. Retiree: easy access to central Paris, safety at 4.1/10 needs weighing.",
+      },
+    ],
+    relatedCities: ["nanterre", "boulogne-billancourt", "paris"],
+    tags: ["car-free Nanterre", "RER A Nanterre", "RER E Nanterre-La Folie", "Hauts-de-Seine transport", "car-free Île-de-France 2026"],
+  },
+  {
     slug: "living-in-ile-de-france-2026",
     title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
     metaTitle: "Living in Île-de-France: Expat Guide 2026",
