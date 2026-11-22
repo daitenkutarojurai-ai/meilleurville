@@ -5677,6 +5677,36 @@
       "emoji": "🚆"
     },
     {
+      "slug": "vivre-sans-voiture-issy-les-moulineaux-guide-2026",
+      "title": "Vivre sans voiture à Issy-les-Moulineaux en 2026 : métro 12, T2 et RER C, T2 à 1 300 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-levallois-perret-guide-2026",
+      "title": "Vivre sans voiture à Levallois-Perret en 2026 : métro 3, T2 à 1 400 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-neuilly-sur-seine-guide-2026",
+      "title": "Vivre sans voiture à Neuilly-sur-Seine en 2026 : métro 1, T2 à 1 700 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-ivry-sur-seine-guide-2026",
+      "title": "Vivre sans voiture à Ivry-sur-Seine en 2026 : métro 7, T2 à 1 000 €",
+      "emoji": "🚇"
+    },
+    {
+      "slug": "vivre-sans-voiture-vitry-sur-seine-guide-2026",
+      "title": "Vivre sans voiture à Vitry-sur-Seine en 2026 : RER C, T2 à 980 €",
+      "emoji": "🚆"
+    },
+    {
+      "slug": "vivre-sans-voiture-courbevoie-guide-2026",
+      "title": "Vivre sans voiture à Courbevoie en 2026 : La Défense, T2 à 1 250 €",
+      "emoji": "🚆"
+    },
+    {
       "slug": "meilleures-villes-sports-outdoor-plein-air-france-2026",
       "title": "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
       "emoji": "🏔️"
@@ -12469,6 +12499,11 @@
       "count": 9
     },
     {
+      "slug": "sans-voiture-ile-de-france-2026",
+      "label": "sans voiture Île-de-France 2026",
+      "count": 9
+    },
+    {
       "slug": "tgv-paris",
       "label": "TGV Paris",
       "count": 9
@@ -12641,11 +12676,6 @@
     {
       "slug": "rendement",
       "label": "rendement",
-      "count": 7
-    },
-    {
-      "slug": "sans-voiture-ile-de-france-2026",
-      "label": "sans voiture Île-de-France 2026",
       "count": 7
     },
     {
@@ -13036,6 +13066,11 @@
     {
       "slug": "marche-immobilier",
       "label": "marché immobilier",
+      "count": 4
+    },
+    {
+      "slug": "mobilite-hauts-de-seine",
+      "label": "mobilité Hauts-de-Seine",
       "count": 4
     },
     {

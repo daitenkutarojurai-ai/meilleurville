@@ -20134,6 +20134,276 @@ export const GUIDES: Guide[] = [
     tags: ["vivre sans voiture Nanterre", "RER A Nanterre", "RER E Nanterre-La Folie", "mobilité Hauts-de-Seine", "sans voiture Île-de-France 2026"],
   },
   {
+    slug: "vivre-sans-voiture-issy-les-moulineaux-guide-2026",
+    title: "Vivre sans voiture à Issy-les-Moulineaux en 2026 : métro 12, T2 et RER C, T2 à 1 300 €",
+    metaTitle: "Vivre sans voiture à Issy-les-Moulineaux 2026 : M12, T2, RER C",
+    metaDesc: "Issy-les-Moulineaux sans voiture : métro 12, tram T2 et RER C, score transport 9/10, T2 à 1 300 € par mois, 100 € de moins que Boulogne-Billancourt.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "À Issy-les-Moulineaux, la voiture est facultative : trois modes ferrés se partagent la commune, le métro 12, le tramway T2 et le RER C, et notre score transport est de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes. Le prix de cette desserte : 1 300 € par mois pour un T2 sur notre estimation des loyers, soit 500 € de moins que Paris mais 250 € de plus que Nanterre.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Issy-les-Moulineaux ?",
+        body: "La ligne 12 du métro finit sa course à Mairie d'Issy, après Corentin Celton. Le tramway T2 et le RER C se retrouvent à la station Issy–Val de Seine, côté Seine et quartier d'affaires. Trois lignes différentes, donc trois façons de rejoindre Paris, La Défense ou la Porte de Versailles sans passer par un parking. Les fréquences et les travaux changent : vérifiez-les sur Île-de-France Mobilités avant de signer un bail.",
+      },
+      {
+        heading: "Combien coûte un logement à Issy-les-Moulineaux ?",
+        body: "Notre estimation des loyers donne 850 € pour un T1, 1 300 € pour un T2 et 1 800 € pour un T3 par mois. À Boulogne-Billancourt, le T2 est à 1 400 € : l'écart est de 100 € par mois, 1 200 € par an. Face à Paris (1 800 € le T2), on économise 500 € par mois, 6 000 € par an, en gardant un métro direct.",
+      },
+      {
+        heading: "Qui habite Issy, et à quel revenu ?",
+        body: "Issy compte 67 695 habitants en 2022, en léger recul de 1 % depuis 2016, soit environ 700 personnes (source : Insee, recensement 2022). Le niveau de vie médian atteint 33 650 € par an et le taux de pauvreté est de 8 % (source : Insee, Filosofi 2021). C'est un profil de cadres plus que d'étudiants : le loyer suit.",
+      },
+      {
+        heading: "Ce que l'absence de voiture change au quotidien",
+        body: "Les écoles sont notées 9/10 et la sécurité 7,2/10 dans notre fiche ville, ce qui rend la ville praticable à pied avec des enfants. La nature reste à 4,3/10 et le coût de la vie à 2,2/10 : on économise la voiture, pas le panier de courses. Pour le vert, il faut compter sur les parcs franciliens plutôt que sur la commune elle-même.",
+      },
+      {
+        heading: "Issy-les-Moulineaux ou Nanterre ?",
+        body: "Les deux villes ont 9/10 en transport. Nanterre demande 1 050 € pour un T2, soit 250 € de moins par mois, mais avec une sécurité de 4,1/10 et des écoles à 5,8/10 ; Issy offre 7,2/10 et 9/10. La différence de loyer, 3 000 € par an, finance ces écarts de score : c'est un choix de budget, pas de réseau.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Cadre sans voiture : le M12 et le RER C couvrent Paris et la Défense, le T2 à 1 300 € se défend. Famille : un T3 à 1 800 € reste cher, mais les écoles à 9/10 pèsent dans la balance. Étudiant : un T1 à 850 € est hors budget pour beaucoup, regardez Ivry ou Nanterre. Retraité : transports et sécurité sont bons, le budget courant est élevé.",
+      },
+    ],
+    relatedCities: ["issy-les-moulineaux", "boulogne-billancourt", "nanterre"],
+    relatedGuides: [
+      "vivre-sans-voiture-boulogne-billancourt-guide-2026",
+      "vivre-sans-voiture-nanterre-guide-2026",
+      "famille-a-issy-les-moulineaux-2026",
+    ],
+    tags: ["vivre sans voiture Issy-les-Moulineaux", "métro 12 Issy", "tram T2 Issy-Val de Seine", "RER C Issy", "sans voiture Hauts-de-Seine 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-levallois-perret-guide-2026",
+    title: "Vivre sans voiture à Levallois-Perret en 2026 : métro 3, T2 à 1 400 €",
+    metaTitle: "Vivre sans voiture à Levallois-Perret 2026 : métro 3, loyers",
+    metaDesc: "À Levallois-Perret, le métro 3 relie la commune à Paris : score transport 9/10, T2 à 1 400 €, 7,8 % d'habitants en plus depuis 2016. Comparatif Clichy.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Levallois-Perret tient sur une ligne : le métro 3, dont l'une des stations, Pont de Levallois–Bécon, est le terminus ouest. Notre score transport est de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes, mais le T2 coûte 1 400 € par mois sur notre estimation des loyers, soit 220 € de plus qu'à Clichy, la voisine, où la desserte est notée 8,4/10.",
+    sections: [
+      {
+        heading: "Quelle desserte pour Levallois-Perret sans voiture ?",
+        body: "La ligne 3 du métro traverse la ville avec trois stations : Louise Michel, Anatole France et le terminus Pont de Levallois–Bécon. Louise Michel a la particularité d'avoir un accès de plain-pied rue Louise-Michel. Le métro 3 relie ensuite le nord-ouest au reste de Paris jusqu'à Gallieni, à l'est. Pour les autres trajets, il faut regarder bus et gares voisines : confirmez les correspondances ferrées sur le site de la SNCF avant de choisir un quartier.",
+      },
+      {
+        heading: "Combien coûte un logement à Levallois-Perret ?",
+        body: "Notre estimation des loyers donne 900 € pour un T1, 1 400 € pour un T2 et 2 000 € pour un T3 par mois. C'est le même T2 qu'à Boulogne-Billancourt, et 400 € de moins que Paris (1 800 €), soit 4 800 € par an. À Clichy, le T2 est à 1 180 € : 2 640 € d'économie annuelle contre Levallois.",
+      },
+      {
+        heading: "Une commune qui grossit vite",
+        body: "Levallois compte 68 412 habitants en 2022, soit +7,8 % depuis 2016, environ 4 950 personnes de plus (source : Insee, recensement 2022). Le niveau de vie médian est de 34 500 € par an, pour 9 % de pauvreté (source : Insee, Filosofi 2021). La croissance rapide tire les loyers : la demande vient d'actifs qui travaillent à Paris ou à La Défense.",
+      },
+      {
+        heading: "Ce que dit notre fiche ville du quotidien",
+        body: "Écoles 9/10, sécurité 7,2/10, culture 6,6/10 : le cadre est solide pour vivre à pied. La nature tombe à 3/10 et le coût de la vie à 2,2/10, le plancher de notre barème. Sans voiture, on réduit un poste, mais l'alimentation, les services et les loisirs restent au niveau de la petite couronne chère.",
+      },
+      {
+        heading: "Levallois-Perret ou Clichy ?",
+        body: "Clichy est à 8,4/10 en transport contre 9/10 ici, avec un T2 à 1 180 €. Mais la sécurité y est de 4,2/10 contre 7,2/10 à Levallois, et les écoles de 4,1/10 contre 9/10. Les 220 € par mois d'écart achètent surtout ces deux scores ; pour un budget serré, Clichy reste une option réaliste, avec une vérification du quartier.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Actif parisien : le métro 3 suffit et le T2 à 1 400 € est dans la norme de la petite couronne ouest. Famille : le T3 à 2 000 € est cher, les écoles à 9/10 compensent en partie. Étudiant : un T1 à 900 € est difficile à financer. Retraité : sécurité et transports sont bons, le coût de la vie à 2,2/10 se sent chaque mois.",
+      },
+    ],
+    relatedCities: ["levallois-perret", "clichy", "boulogne-billancourt"],
+    relatedGuides: [
+      "vivre-sans-voiture-boulogne-billancourt-guide-2026",
+      "vivre-sans-voiture-paris-guide-2026",
+      "parent-solo-a-levallois-perret-2026",
+    ],
+    tags: ["vivre sans voiture Levallois-Perret", "métro 3 Levallois", "Pont de Levallois-Bécon", "mobilité Hauts-de-Seine", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-neuilly-sur-seine-guide-2026",
+    title: "Vivre sans voiture à Neuilly-sur-Seine en 2026 : métro 1, T2 à 1 700 €",
+    metaTitle: "Vivre sans voiture à Neuilly-sur-Seine 2026 : métro 1, loyers",
+    metaDesc: "Neuilly-sur-Seine sans voiture : métro 1 aux Sablons et Pont de Neuilly, score transport 9/10, T2 à 1 700 €, niveau de vie médian 48 010 €.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Neuilly-sur-Seine se passe de voiture sans effort, mais pas sans budget : score transport de 9/10, 1er rang sur 593 à égalité avec 22 autres villes, et un T2 à 1 700 € par mois sur notre estimation des loyers, à peine 100 € sous Paris. Le métro 1 en est l'épine dorsale, et ce n'est pas le réseau qui fait le prix, c'est la ville.",
+    sections: [
+      {
+        heading: "Quelles stations pour Neuilly-sur-Seine ?",
+        body: "La ligne 1 du métro dessert la commune avec Les Sablons et Pont de Neuilly, ouvertes en 1937 quand la ligne a été prolongée à l'ouest de Porte Maillot. Pont de Neuilly se trouve entre Les Sablons et Esplanade de La Défense, de l'autre côté de la Seine par rapport à Paris. Cette ligne mène directement à La Défense et traverse Paris d'ouest en est. Vérifiez les fréquences et les travaux sur Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Neuilly-sur-Seine ?",
+        body: "Notre estimation des loyers donne 1 100 € pour un T1, 1 700 € pour un T2 et 2 500 € pour un T3 par mois. C'est 300 € de plus qu'à Levallois-Perret pour un T2, soit 3 600 € par an, et 100 € de moins que Paris (1 800 €). Pour un T3, on dépasse 2 500 € : c'est la ville la plus chère de ce comparatif.",
+      },
+      {
+        heading: "Une ville aisée et plus âgée que ses voisines",
+        body: "Neuilly compte 59 200 habitants en 2022, en baisse de 2,3 % depuis 2016, environ 1 380 personnes de moins (source : Insee, recensement 2022). Le niveau de vie médian atteint 48 010 € par an, avec 8 % de pauvreté (source : Insee, Filosofi 2021). Les 60 ans et plus pèsent environ 28 % de la population, un des profils les plus âgés de la petite couronne.",
+      },
+      {
+        heading: "Ce que dit notre fiche ville du quotidien",
+        body: "Écoles 9/10, culture 7,6/10, sécurité 6,7/10, nature 4,2/10 : une ville de services complets, à pied. Le coût de la vie est à 2,2/10, le plancher du barème, et la décision sans voiture n'y change rien. Le Bois de Boulogne, voisin, est accessible depuis la commune ; il n'est pas dans nos scores.",
+      },
+      {
+        heading: "Neuilly-sur-Seine ou Levallois-Perret ?",
+        body: "Les deux villes ont 9/10 en transport et 9/10 pour les écoles. Levallois est à 1 400 € le T2, Neuilly à 1 700 €, pour des scores de sécurité de 7,2/10 contre 6,7/10. À niveau de réseau égal, Levallois se paie 300 € de moins par mois : Neuilly se choisit pour son cadre et ses voisins, pas pour sa desserte.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Cadre ou couple haut revenu : le métro 1 et La Défense, un T2 à 1 700 € assumé. Retraité aisé : sécurité et services, sans voiture. Famille : un T3 à 2 500 € demande un revenu solide, les écoles à 9/10 le justifient. Étudiant : un T1 à 1 100 € est hors de portée ; Nanterre ou Ivry sont plus réalistes.",
+      },
+    ],
+    relatedCities: ["neuilly-sur-seine", "levallois-perret", "paris"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-boulogne-billancourt-guide-2026",
+      "parent-solo-a-neuilly-sur-seine-2026",
+    ],
+    tags: ["vivre sans voiture Neuilly-sur-Seine", "métro 1 Neuilly", "Les Sablons Pont de Neuilly", "mobilité Hauts-de-Seine", "sans voiture Île-de-France 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-ivry-sur-seine-guide-2026",
+    title: "Vivre sans voiture à Ivry-sur-Seine en 2026 : métro 7, T2 à 1 000 €",
+    metaTitle: "Vivre sans voiture à Ivry-sur-Seine 2026 : métro 7, loyers",
+    metaDesc: "Ivry-sur-Seine sans voiture : métro 7 et RER C, score transport 9/10, T2 à 1 000 € par mois, 800 € de moins que Paris. Comparatif Vitry et Issy.",
+    category: "lifestyle",
+    emoji: "🚇",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "À Ivry-sur-Seine, un T2 à 1 000 € par mois sur notre estimation des loyers donne accès au métro 7 : c'est 800 € de moins que Paris, 9 600 € par an, pour un score transport de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes. L'envers : sécurité 5,2/10, écoles 5,5/10 et 28 % de pauvreté.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Ivry-sur-Seine ?",
+        body: "La ligne 7 du métro dessert Pierre et Marie Curie puis Mairie d'Ivry, ouverte en 1946. Le RER C a sa gare Ivry-sur-Seine, à environ 650 mètres de Mairie d'Ivry par l'avenue Georges-Gosnat, reliées par les bus 125 et 323. Deux stations de métro et une gare RER : on peut choisir son quartier selon la ligne dont on a besoin. Vérifiez les fréquences sur Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Ivry-sur-Seine ?",
+        body: "Notre estimation des loyers donne 700 € pour un T1, 1 000 € pour un T2 et 1 350 € pour un T3 par mois. Issy-les-Moulineaux demande 1 300 € pour un T2 : 300 € de plus par mois, 3 600 € par an. À Vitry-sur-Seine, la commune voisine, le T2 est à 980 € : 20 € de moins seulement.",
+      },
+      {
+        heading: "Une ville jeune et en croissance",
+        body: "Ivry compte 64 526 habitants en 2022, soit +6,2 % depuis 2016, environ 3 755 personnes de plus (source : Insee, recensement 2022). Les 15-29 ans représentent environ 25 % de la population. Le niveau de vie médian est de 19 680 € par an et le taux de pauvreté de 28 % (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Ce que dit notre fiche ville du quotidien",
+        body: "Culture 7,5/10, coût de la vie 4,6/10, sécurité 5,2/10, écoles 5,5/10, nature 4,3/10. Le coût de la vie, plus favorable que les 2,2/10 de la petite couronne ouest, prolonge l'économie faite sur le loyer. Les écoles restent le point à vérifier avant de s'installer avec des enfants.",
+      },
+      {
+        heading: "Ivry-sur-Seine ou Vitry-sur-Seine ?",
+        body: "Les deux villes ont 9/10 en transport, un loyer quasi identique et des écoles à 5,5/10. Ivry a un score de sécurité de 5,2/10 contre 4,7/10 à Vitry, et un score de vie de 5,9/10 contre 4,9/10. Pour un même budget, Ivry arrive devant sur nos scores ; Vitry a plus d'habitants (95 282 contre 64 526) et plus de choix de quartiers.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le T1 à 700 € est abordable avec le métro 7 pour les cours. Couple actif : un T2 à 1 000 € est l'un des moins chers de la petite couronne desservie par le métro. Famille : le T3 à 1 350 € se défend, les écoles à 5,5/10 sont à regarder de près. Retraité : transports bons, sécurité moyenne.",
+      },
+    ],
+    relatedCities: ["ivry-sur-seine", "vitry-sur-seine", "issy-les-moulineaux"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "vivre-sans-voiture-nanterre-guide-2026",
+      "parent-solo-a-ivry-sur-seine-2026",
+    ],
+    tags: ["vivre sans voiture Ivry-sur-Seine", "métro 7 Ivry", "Mairie d'Ivry", "RER C Ivry", "sans voiture Val-de-Marne 2026"],
+  },
+  {
+    slug: "vivre-sans-voiture-vitry-sur-seine-guide-2026",
+    title: "Vivre sans voiture à Vitry-sur-Seine en 2026 : RER C, T2 à 980 €",
+    metaTitle: "Vivre sans voiture à Vitry-sur-Seine 2026 : RER C, loyers",
+    metaDesc: "À Vitry-sur-Seine, RER C et loyer à 980 € le T2 : score transport 9/10, 820 € de moins que Paris. Ce que le métro 15 changera, et les limites.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Vitry-sur-Seine est la commune la moins chère de ce comparatif francilien : un T2 à 980 € par mois sur notre estimation des loyers, 820 € de moins que Paris, avec un score transport de 9/10, au 1er rang sur 593 à égalité avec 22 autres villes. La desserte repose sur le RER C et sur des bus plus que sur le métro, et c'est ce qu'il faut vérifier avant de signer.",
+    sections: [
+      {
+        heading: "Quelle desserte pour Vitry-sur-Seine sans voiture ?",
+        body: "Le RER C dessert la commune par les gares Vitry-sur-Seine et Les Ardoines, cette dernière entre Vitry et Choisy-le-Roi. Le métro n'y est pas encore une réalité quotidienne : la ligne 15 Sud du Grand Paris Express est un projet dont la date d'ouverture reste à vérifier sur les sites officiels. Un pont franchissant les voies du RER C a été inauguré à Vitry le 10 octobre 2026 pour le bus T Zen 5 : c'est un chantier de réseau en cours, pas encore un service acquis.",
+      },
+      {
+        heading: "Combien coûte un logement à Vitry-sur-Seine ?",
+        body: "Notre estimation des loyers donne 680 € pour un T1, 980 € pour un T2 et 1 300 € pour un T3 par mois. Ivry-sur-Seine est à 1 000 € pour un T2, soit 20 € de plus ; Issy-les-Moulineaux à 1 300 €, soit 320 € de plus par mois, 3 840 € par an. Face à Paris (1 800 €), l'économie annuelle atteint 9 840 €.",
+      },
+      {
+        heading: "Une grande commune populaire",
+        body: "Vitry compte 95 282 habitants en 2022, +2,7 % depuis 2016, environ 2 527 de plus (source : Insee, recensement 2022). Les moins de 15 ans représentent environ 20 % de la population. Le niveau de vie médian est de 19 490 € par an, avec 26 % de pauvreté (source : Insee, Filosofi 2021) : un profil populaire, où le loyer bas est le premier atout.",
+      },
+      {
+        heading: "Ce que dit notre fiche ville du quotidien",
+        body: "Coût de la vie 5/10, culture 6,6/10, sécurité 4,7/10, écoles 5,5/10, nature 4,3/10. Le coût de la vie est le plus favorable de ce comparatif, qui prolonge l'économie du loyer. La sécurité et les écoles sont les deux points à examiner quartier par quartier avant de choisir un logement.",
+      },
+      {
+        heading: "Vitry-sur-Seine ou Ivry-sur-Seine ?",
+        body: "Même loyer ou presque (980 € contre 1 000 €), même 9/10 en transport. Ivry est devant sur la sécurité (5,2/10 contre 4,7/10) et la vie quotidienne (5,9/10 contre 4,9/10) dans notre fiche ville, et mise sur deux stations de métro. Vitry a un coût de la vie à 5/10 contre 4,6/10 et une commune bien plus vaste : le bon quartier compte plus que la ville.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Étudiant : le T1 à 680 € est l'un des moins chers de la série, avec un trajet RER à valider. Couple actif : le T2 à 980 € laisse de la marge, à condition que votre trajet passe par le RER C. Famille : le T3 à 1 300 € est abordable, les écoles à 5,5/10 sont à regarder. Retraité : budget léger, desserte à tester à pied avant de s'engager.",
+      },
+    ],
+    relatedCities: ["vitry-sur-seine", "ivry-sur-seine", "issy-les-moulineaux"],
+    relatedGuides: [
+      "vivre-sans-voiture-paris-guide-2026",
+      "demenager-a-vitry-sur-seine-2026",
+      "parent-solo-a-vitry-sur-seine-2026",
+    ],
+    tags: ["vivre sans voiture Vitry-sur-Seine", "RER C Vitry", "Les Ardoines", "sans voiture Val-de-Marne 2026", "mobilité Grand Paris Express"],
+  },
+  {
+    slug: "vivre-sans-voiture-courbevoie-guide-2026",
+    title: "Vivre sans voiture à Courbevoie en 2026 : La Défense, T2 à 1 250 €",
+    metaTitle: "Vivre sans voiture à Courbevoie 2026 : La Défense, loyers",
+    metaDesc: "Courbevoie sans voiture : La Défense, métro 1, RER A et tram T2, score transport 9/10, T2 à 1 250 €, 150 € de moins que Boulogne-Billancourt.",
+    category: "lifestyle",
+    emoji: "🚆",
+    readMinutes: 6,
+    publishedAt: "2026-11-22",
+    updatedAt: "2026-11-22",
+    intro: "Courbevoie est la ville de La Défense, et c'est ce qui la rend vivable sans voiture : score transport de 9/10, 1er rang sur 593 à égalité avec 22 autres villes, et un T2 à 1 250 € par mois sur notre estimation des loyers, 150 € de moins qu'à Boulogne-Billancourt. Pour qui travaille à La Défense, c'est l'adresse où l'on peut aller au bureau à pied.",
+    sections: [
+      {
+        heading: "Quelles lignes desservent Courbevoie ?",
+        body: "La station Esplanade de La Défense du métro 1 se trouve à la limite de Courbevoie et de Puteaux. La Défense, gare du RER A et E et des lignes L et U du Transilien, est à environ 350 mètres de Courbevoie. Le tramway T2 y passe, avec Faubourg de l'Arche, qui est aussi un quartier de la ville, et Bécon-les-Bruyères est une gare de la ligne L. Plusieurs lignes se recoupent : vérifiez la plus proche de votre futur logement sur Île-de-France Mobilités.",
+      },
+      {
+        heading: "Combien coûte un logement à Courbevoie ?",
+        body: "Notre estimation des loyers donne 820 € pour un T1, 1 250 € pour un T2 et 1 750 € pour un T3 par mois. À Nanterre, le T2 est à 1 050 € : 200 € d'écart par mois, 2 400 € par an. À Boulogne-Billancourt (1 400 €), Courbevoie économise 1 800 € par an. Paris est à 1 800 € : 6 600 € par an de plus.",
+      },
+      {
+        heading: "Une commune stable, active et aisée",
+        body: "Courbevoie compte 81 945 habitants en 2022, +0,3 % depuis 2016, soit environ 225 personnes de plus : une population stable (source : Insee, recensement 2022). Les 15-29 ans représentent environ 21 % des habitants. Le niveau de vie médian est de 32 080 € par an avec 11 % de pauvreté (source : Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Ce que dit notre fiche ville du quotidien",
+        body: "Télétravail 9/10, écoles 8,7/10, sécurité 6,7/10, nature 3,6/10, coût de la vie 2,2/10. Le télétravail à 9/10 est une alternative à l'abonnement transport : peu de villes de notre barème font aussi bien. Pour la nature, il faut sortir de la commune ; pour le panier de courses, le budget reste celui de la petite couronne chère.",
+      },
+      {
+        heading: "Courbevoie ou Nanterre ?",
+        body: "Nanterre a un loyer plus bas de 200 € par mois et une desserte également à 9/10, mais la sécurité y est de 4,1/10 contre 6,7/10 à Courbevoie et les écoles de 5,8/10 contre 8,7/10. La population de Nanterre est plus jeune et plus nombreuse (98 119 habitants). Pour travailler à La Défense, Courbevoie raccourcit le trajet, Nanterre allège le budget.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Salarié de La Défense : le trajet à pied ou en un arrêt change la vie sans voiture. Famille : un T3 à 1 750 € est correct, avec des écoles à 8,7/10. Étudiant : un T1 à 820 € est à comparer avec Nanterre (720 €). Retraité : transports et sécurité sont bons, la nature manque, à 3,6/10.",
+      },
+    ],
+    relatedCities: ["courbevoie", "nanterre", "boulogne-billancourt"],
+    relatedGuides: [
+      "vivre-sans-voiture-nanterre-guide-2026",
+      "vivre-sans-voiture-boulogne-billancourt-guide-2026",
+      "demenager-a-courbevoie-2026",
+    ],
+    tags: ["vivre sans voiture Courbevoie", "La Défense sans voiture", "tram T2 Faubourg de l'Arche", "RER A La Défense", "sans voiture Hauts-de-Seine 2026"],
+  },
+  {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
     title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
     metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade",
