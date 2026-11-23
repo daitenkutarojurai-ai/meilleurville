@@ -41,6 +41,8 @@ export const RED_FLAG_THEME_EN_SLUG: Record<string, string> = {
   "villes-internet-precaire": "patchy-internet",
   "villes-emplois-en-recul": "shrinking-job-markets",
   "villes-qui-se-vident": "cities-emptying-out",
+  "villes-sans-enfants": "few-children-cities",
+  "villes-arrivees-loyers-hauts": "arrivals-high-rents",
 };
 
 /** `alternates` d'une page de thème FR : canonical seul si le thème n'a pas de jumelle EN. */

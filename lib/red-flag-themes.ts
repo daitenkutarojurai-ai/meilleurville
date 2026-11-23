@@ -2609,7 +2609,7 @@ const medianOf = (values: number[]) => {
   return s[Math.floor(s.length / 2)];
 };
 
-const POP_COVERED = CITIES_SEED.filter((c) => cityPopulation(c.slug) != null).length;
+export const POP_COVERED = CITIES_SEED.filter((c) => cityPopulation(c.slug) != null).length;
 const INCOME_COVERED = CITIES_SEED.filter((c) => cityIncome(c.slug) != null).length;
 const SEED_COUNT = CITIES_SEED.length;
 
