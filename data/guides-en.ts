@@ -40569,6 +40569,342 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["montelimar","moving to france with children","french school system","auvergne-rhone-alpes"],
   },
   {
+    slug: "family-in-colomiers-2026",
+    title: "Family life in Colomiers (2026): a €1,010 T3, €2,623 per m², schools 6.2, Toulouse 9 km away",
+    metaTitle: "Family Life in Colomiers 2026: €1,010 T3, €2,623/m²",
+    metaDesc:
+      "Raising children in Colomiers in 2026: a €1,010 T3, flats at €2,623 per m², schools 6.2, remote work 6.3. Budget and Tournefeuille, Blagnac, Toulouse compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "A T3 (two bedrooms and a living room) in Colomiers rents for €1,010 on our rent estimate, and a flat sells for €2,623 per m², about €210,000 for 80 m², 9 km from Toulouse. Schools score 6.2 (rank 219 of 593) and remote work 6.3 (rank 146); nature 4.3 and cost 4.8 are the two weak marks. Of 40,916 residents, 19.4% are under 15, and the town has grown 5.7% since 2016.",
+    sections: [
+      {
+        heading: "What does family housing cost in Colomiers?",
+        body: "The T3 is €1,010 and the T2 €750. A flat sells at €2,623 per m² (567 sales in 2024-2025, national DVF property register) and a house at €3,063 (354 sales), 17% more per m² (the house price includes the plot). An 80 m² flat at the median price is about €210,000 before fees.",
+      },
+      {
+        heading: "Is Colomiers a young town?",
+        body: "Yes: 19.4% of residents are under 15 and 21.6% are 60 or over (INSEE census 2022), among the youngest in this batch. Median standard of living is €23,690 per consumption unit, with 17% poverty (Insee, Filosofi 2021). The population has grown 5.7% since 2016, roughly 2,200 more people.",
+      },
+      {
+        heading: "What do the school, park and safety marks say?",
+        body: "Remote work 6.3 (rank 146, 109 tied), schools 6.2 (rank 219, 28 tied), transport 6.2 (rank 248, 33 tied), safety 4.8 (rank 384, 15 tied), cost 4.8 (rank 403, 10 tied) and nature 4.3 (rank 420, 43 tied). For children, per OpenStreetMap, the parc du Cabirol (11 hectares, playgrounds) is the largest green space, ahead of the parc de l'Armurier (9 hectares) and the parc du Pigeonnier (8 hectares).",
+      },
+      {
+        heading: "Colomiers against Tournefeuille, Blagnac and Toulouse",
+        body: "Tournefeuille, 3 km away, rents a T3 at €1,120 and sells at €2,955 per m², schools 7.7: €110 more a month and €332 more per m² for 1.5 school points. Blagnac, 5 km, is €1,080 and €2,983, schools 5.5. Toulouse, 9 km, is €1,150 and €3,222, schools 9.0, about €48,000 more for 80 m².",
+      },
+      {
+        heading: "What about the daily commute?",
+        body: "Colomiers sits inside the Toulouse urban area, 9 km from the city centre as the crow flies, and its transport mark (6.2) is in line with our average city. Toulouse metro line C, still a project, is meant to serve the town; until it opens, Tisséo buses are the everyday link. Our remote-work mark of 6.3 (rank 146) is one of the best in this batch.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families working in western Toulouse who want a T3 around €1,000 and can live with middling nature and safety marks in exchange for a young town. Those who want the best school sector will look at Tournefeuille (schools 7.7) and pay more; those after greenery and quiet should do the sums before aiming at a house.",
+      },
+    ],
+    relatedCities: ["colomiers","tournefeuille","blagnac","toulouse"],
+    tags: ["colomiers","moving to france with children","french school system","occitanie"],
+  },
+  {
+    slug: "family-in-saint-medard-en-jalles-2026",
+    title: "Family life in Saint-Médard-en-Jalles (2026): a €1,080 T3, €3,577 per m², 7% poverty",
+    metaTitle: "Family Life in Saint-Médard-en-Jalles 2026: €1,080 T3",
+    metaDesc:
+      "Raising children in Saint-Médard-en-Jalles in 2026: a €1,080 T3, flats at €3,577 per m², schools 6.2, cost 4.0. Eysines, Mérignac, Pessac, Bordeaux compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Saint-Médard-en-Jalles rents a T3 (two bedrooms and a living room) at €1,080 on our rent estimate and sells flats at €3,577 per m², about €286,000 for 80 m². Median income is €26,740 per consumption unit with 7% poverty, one of the lowest rates in this comparison; the cost mark (4.0, rank 488 of 593) shows the other side. Schools 6.2 (rank 219), safety 5.2 (rank 317).",
+    sections: [
+      {
+        heading: "What does it cost to house a family in Saint-Médard?",
+        body: "The T3 is €1,080 and the T2 €800. A flat sells at €3,577 per m² (167 sales in 2024-2025, national DVF property register) and a house at €3,626 (485 sales): a gap of only 1%, so a house is no dearer per m², though much dearer in total. An 80 m² flat at the median price is about €286,000 before fees. Houses are the main market here: 485 sales against 167 flats.",
+      },
+      {
+        heading: "Who lives in Saint-Médard-en-Jalles?",
+        body: "The town has 32,749 residents, up 5.8% since 2016 (roughly 1,800 more), of whom 17.9% are under 15 and 26.2% are 60 or over (INSEE census 2022). Median standard of living, €26,740 per consumption unit, is the highest in the batch; poverty is 7% (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "What do our marks say?",
+        body: "Remote work 6.3 (rank 146), schools 6.2 (rank 219, 28 tied), transport 6.2 (rank 248), daily life 5.9, nature 5.7 (rank 262, 58 tied), safety 5.2 (rank 317, 33 tied), culture 4.8 and cost 4.0 (rank 488, 8 tied). It reads as a residential town rated well for calm but expensive for the level of service.",
+      },
+      {
+        heading: "What green space is there for children?",
+        body: "Per OpenStreetMap, the Jalle de Gajac banks (8 hectares) and those at Magudas (4 hectares) have playgrounds, and the bois de Corbiac (4 hectares) adds more. The town sits on the edge of the forest, which sets it apart from the more urban Mérignac or Pessac.",
+      },
+      {
+        heading: "Saint-Médard against Eysines, Mérignac, Pessac and Bordeaux",
+        body: "Eysines, 6 km away, rents a T3 at €1,080 (the same as Saint-Médard) and sells at €3,431 per m², schools 6.4. Mérignac, 9 km, is €1,080 and €3,439, schools 5.5. Pessac, 12 km, is €1,080 and €3,482, schools 6.6. Bordeaux, 13 km, is €1,200 and €4,171, schools 7.4: 80 m² there cost about €47,500 more than in Saint-Médard.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a low-poverty town with greenery and a purchase budget of €3,500 per m² or more. Those counting on lower rent than in the Bordeaux area gain nothing here: the T3 is at the same level as in Mérignac or Pessac.",
+      },
+    ],
+    relatedCities: ["saint-medard-en-jalles","eysines","merignac","pessac","bordeaux"],
+    tags: ["saint-medard-en-jalles","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-thonon-les-bains-2026",
+    title: "Family life in Thonon-les-Bains (2026): a €1,200 T3, €3,594 per m², nature 7.8 on Lake Geneva",
+    metaTitle: "Family Life in Thonon-les-Bains 2026: €1,200 T3",
+    metaDesc:
+      "Raising children in Thonon-les-Bains in 2026: a €1,200 T3, flats at €3,594 per m², nature 7.8, schools 5.8. Annemasse and Annecy compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Thonon-les-Bains is the nature town of this batch: nature 7.8 (rank 40 of 593) against schools 5.8 (rank 249) and cost 4.5 (rank 453). A T3 (two bedrooms and a living room) costs €1,200 on our rent estimate, flats sell at €3,594 per m² and houses at €4,556; the population has grown 7.3% since 2016, to 37,689 residents.",
+    sections: [
+      {
+        heading: "What housing budget does a family need in Thonon?",
+        body: "The T3 is €1,200 and the T2 €900. A flat sells at €3,594 per m² (1,020 sales in 2024-2025, national DVF property register) and a house at €4,556 (167 sales), 27% more per m²: in Thonon a house is a niche purchase, six times less frequent than a flat. An 80 m² flat at the median price is about €288,000 before fees.",
+      },
+      {
+        heading: "How many children and how many seniors?",
+        body: "17.5% of residents are under 15 and 26.3% are 60 or over (INSEE census 2022). Median standard of living is €24,450 per consumption unit, with 15% poverty (Insee, Filosofi 2021). The town has gained roughly 2,560 residents since 2016.",
+      },
+      {
+        heading: "Why nature 7.8, and how good are the schools?",
+        body: "Nature 7.8 (rank 40, 42 tied), daily life 6.6 (rank 159), safety 6.1 (rank 198, 20 tied), schools 5.8 (rank 249, 22 tied), culture 5.5, remote work 5.3, transport 4.6 (rank 432) and cost 4.5 (rank 453, 10 tied). The lake is the first playground: the funicular links the upper town to the port of Rives, and CGN boats leave from that landing for Lausanne. Per OpenStreetMap, the parc de la Châtaigneraie (7 hectares, playgrounds) and the parc de Corzent (4 hectares) are the main parks.",
+      },
+      {
+        heading: "Thonon against Annemasse and Annecy",
+        body: "Annemasse, 27 km away, rents a T3 at €1,350 and sells at €3,506 per m², schools 7.7, with 22% poverty. Annecy, 59 km, is €1,450 and €5,092, schools 8.7: 80 m² there cost about €120,000 more than in Thonon. Thonon is €150 a month cheaper than Annemasse but €88 dearer per m², with 1.9 fewer school points.",
+      },
+      {
+        heading: "Is transport the weak point?",
+        body: "Our transport mark is 4.6 (rank 432, 17 tied): the town is well served by the lake, less by a dense urban network. For a job in Geneva or Annemasse, check the real journey before you sign: we do not put figures on travel times.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the lake, nature and a T3 at €1,200 rather than €1,450 as in Annecy. Those who put school first will find a better mark in Annemasse (7.7); those who want a house with a garden will face €4,556 per m².",
+      },
+    ],
+    relatedCities: ["thonon-les-bains","annemasse","annecy"],
+    tags: ["thonon-les-bains","moving to france with children","french school system","auvergne-rhone-alpes"],
+  },
+  {
+    slug: "family-in-gap-2026",
+    title: "Family life in Gap (2026): a €900 T3, €2,276 per m², nature 7.8 and 33.2% aged 60+",
+    metaTitle: "Family Life in Gap 2026: €900 T3, €2,276/m², Nature 7.8",
+    metaDesc:
+      "Raising children in Gap in 2026: a €900 T3, flats at €2,276 per m², nature 7.8, cost 5.5, schools 5.8. Budget and Grenoble, Manosque compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Gap rents a T3 (two bedrooms and a living room) at €900 on our rent estimate and sells flats at €2,276 per m², about €182,000 for 80 m²: mountain living at mid-sized-town prices, with nature 7.8 (rank 40 of 593) and cost 5.5 (rank 301). The demographic flip side is clear: 14.7% under 15 against 33.2% aged 60 or over, among 40,656 residents, almost stable since 2016 (−0.4%).",
+    sections: [
+      {
+        heading: "What housing budget does a family need in Gap?",
+        body: "The T3 is €900 and the T2 €680. A flat sells at €2,276 per m² (804 sales in 2024-2025, national DVF property register) and a house at €3,186 (250 sales), 40% more per m²: one of the widest gaps in the batch, worth weighing before you aim at a house. An 80 m² flat at the median price is about €182,000 before fees.",
+      },
+      {
+        heading: "Is Gap a town for children?",
+        body: "It is the oldest town in this batch: 14.7% under 15 and 33.2% aged 60 or over (INSEE census 2022), with 149 fewer residents since 2016. Median standard of living is €22,280 per consumption unit, with 15% poverty (Insee, Filosofi 2021). For a family that means fewer classmates of the same age than on the edge of a big city.",
+      },
+      {
+        heading: "What do the nature, school and safety marks say?",
+        body: "Nature 7.8 (rank 40, 42 tied), daily life 6.6 (rank 159), safety 5.9 (rank 230, 8 tied), cost 5.5 (rank 301, 6 tied), schools 5.8 (rank 249, 22 tied), culture 5.5, remote work 5.3 and transport 4.6 (rank 432). For parks, per OpenStreetMap, the parc de la Pépinière (6 hectares, playgrounds, avenue Maréchal-Foch) is the big city park, ahead of the parc Galleron and the Bernard-Givaudan garden (5 hectares each, playgrounds); the Charance estate overlooks the town.",
+      },
+      {
+        heading: "Gap against Grenoble and Manosque",
+        body: "Gap has no large neighbour close by. Grenoble, 75 km away, rents a T3 at €1,020 and sells at €2,500 per m², schools 9.0: €120 more a month, €224 more per m² and 3.2 more school points. Manosque, 84 km, rents a T3 at €900 like Gap but sells flats at €1,759, schools 5.3: Gap is €517 dearer per m² for 0.5 more school points.",
+      },
+      {
+        heading: "Is isolation the real issue?",
+        body: "The transport mark is 4.6 (rank 432): Gap is a mountain prefecture town, 70 km or more from the big cities in our data. For a job, shared custody or higher education, the local catchment is what counts: check it before moving.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want the mountains every day, a T3 at €900 and a city park nearby, with a local job market. Less so for those who want many children of the same age at school, a big city within an hour, or a house on a tight budget.",
+      },
+    ],
+    relatedCities: ["gap","grenoble","manosque"],
+    tags: ["gap","moving to france with children","french school system","provence-alpes-cote-d-azur"],
+  },
+  {
+    slug: "family-in-evreux-2026",
+    title: "Family life in Évreux (2026): an €820 T3, €1,750 per m², cost 6.3 and Paris about an hour away",
+    metaTitle: "Family Life in Évreux 2026: €820 T3, €1,750/m², Cost 6.3",
+    metaDesc:
+      "Raising children in Évreux in 2026: an €820 T3, flats at €1,750 per m², cost 6.3, schools 5.5, safety 4.7. Vernon, Dreux and Mantes-la-Jolie compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Évreux rents a T3 (two bedrooms and a living room) at €820 on our rent estimate and sells flats at €1,750 per m², about €140,000 for 80 m². Cost 6.3 (rank 203 of 593) and transport 6.2 (rank 248) lift the profile; safety 4.7 (rank 399) and remote work 3.8 (rank 493) pull it down. Of 48,335 residents, 19.2% are under 15, with 29% poverty.",
+    sections: [
+      {
+        heading: "What rent and purchase price should a family expect in Évreux?",
+        body: "The T3 is €820 and the T2 €610. A flat sells at €1,750 per m² (757 sales in 2024-2025, national DVF property register) and a house at €1,991 (461 sales), 14% more per m²: a modest gap, so a house is more within reach here than in Gap or Chalon. An 80 m² flat at the median price is about €140,000 before fees.",
+      },
+      {
+        heading: "What are the social and demographic facts?",
+        body: "The town has 48,335 residents, down 1.2% since 2016; 19.2% are under 15 and 23% are 60 or over (INSEE census 2022). Median standard of living is €18,580 per consumption unit, with 29% poverty (Insee, Filosofi 2021): the lowest in this batch, and it matters more for reading a given neighbourhood than the town-wide average suggests.",
+      },
+      {
+        heading: "What do the school and safety marks say?",
+        body: "Cost 6.3 (rank 203, 23 tied), transport 6.2 (rank 248, 33 tied), culture 5.7 (rank 272), schools 5.5 (rank 271, 105 tied), nature 5.0 (rank 346), daily life 4.9 (rank 393), safety 4.7 (rank 399, 28 tied) and remote work 3.8 (rank 493, 46 tied). For parks, per OpenStreetMap, the parc François-Mitterrand (3 hectares, playgrounds) and the botanical garden (2 hectares, playgrounds) are the ones to know; Notre-Dame cathedral is the monument of the centre.",
+      },
+      {
+        heading: "Évreux against Vernon, Dreux and Mantes-la-Jolie",
+        body: "Vernon, 25 km away, rents a T3 at €940 and sells at €2,677 per m², schools 4.9: €120 more a month and €927 more per m² for a lower school mark. Dreux, 36 km, is €930 and €1,519, schools 6.6, with 29% poverty. Mantes-la-Jolie, 41 km, is €1,080 and €2,426, schools 3.6, with 32% poverty.",
+      },
+      {
+        heading: "Évreux and Paris: what does the station offer?",
+        body: "Évreux is about an hour by train from Paris-Saint-Lazare according to SNCF Connect (direct trips run roughly 1 h to 1 h 15). That is why households from the Paris region look at the town: an €820 T3 compares with €1,080 in Mantes-la-Jolie. The remote-work mark of 3.8 is a reminder, though, that the town is not our best candidate for working from home.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a T3 under €850, a cost mark of 6.3 and a rail link to Paris. Those who want a better safety mark, a low-poverty neighbourhood or a high school score will look elsewhere, or go street by street.",
+      },
+    ],
+    relatedCities: ["evreux","vernon","dreux","mantes-la-jolie"],
+    tags: ["evreux","moving to france with children","french school system","normandie"],
+  },
+  {
+    slug: "family-in-chalon-sur-saone-2026",
+    title: "Family life in Chalon-sur-Saône (2026): a €740 T3, €1,381 per m², cost 7.2 and a 69-hectare lake",
+    metaTitle: "Family Life in Chalon-sur-Saône 2026: €740 T3, €1,381/m²",
+    metaDesc:
+      "Raising children in Chalon-sur-Saône in 2026: a €740 T3, flats at €1,381 per m², cost 7.2, schools 6.2. Beaune, Mâcon and Dijon compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Chalon-sur-Saône is one of the cheapest towns in this batch: a T3 (two bedrooms and a living room) at €740 on our rent estimate, flats at €1,381 per m², about €110,000 for 80 m², with cost 7.2 (rank 110 of 593). Schools 6.2 (rank 219) and culture 6.2 (rank 196) are the solid marks. The population is down 1.9% since 2016, to 44,592 residents, and poverty reaches 23%.",
+    sections: [
+      {
+        heading: "What is the housing budget in Chalon-sur-Saône?",
+        body: "The T3 is €740 and the T2 €550. A flat sells at €1,381 per m² (1,239 sales in 2024-2025, national DVF property register) and a house at €1,943 (194 sales), 41% more per m²: this is a flat market, and a house is a rarer, dearer purchase. An 80 m² flat at the median price is about €110,000 before fees.",
+      },
+      {
+        heading: "What is the population like, and how well off?",
+        body: "15.8% of residents are under 15 and 29.7% are 60 or over (INSEE census 2022); the town has lost roughly 850 residents since 2016. Median standard of living is €19,590 per consumption unit, with 23% poverty (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "What do our marks say?",
+        body: "Cost 7.2 (rank 110, 18 tied), culture 6.2 (rank 196, 23 tied), schools 6.2 (rank 219, 28 tied), transport 6.2 (rank 248), daily life 5.9, nature 5.7 (rank 262), safety 5.2 (rank 317, 33 tied) and remote work 5.1 (rank 342, 92 tied). Value for money is the town's strong point.",
+      },
+      {
+        heading: "Where can children go?",
+        body: "Per OpenStreetMap, the Prés Saint-Jean lake park (69 hectares, playground) is by far the largest leisure space, ahead of the parc de la Thalie (5 hectares) and the parc Georges-Nouelle (4 hectares, playgrounds). The Nicéphore-Niépce museum, quai des Messageries, is a reminder that photography was born here: an easy cultural outing with children.",
+      },
+      {
+        heading: "Chalon against Beaune, Mâcon and Dijon",
+        body: "Beaune, 27 km away, rents a T3 at €1,080 and sells at €2,533 per m², schools 7.7, with 14% poverty. Mâcon, 53 km, is €800 and €1,659, schools 6.2. Dijon, 62 km, is €950 and €2,625, schools 7.4: €210 more a month than Chalon and about €99,500 more for 80 m², with 1.2 more school points.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want to buy a flat around €110,000, a low cost of living and a big lake nearby. Less so for those who want a growing town, a school mark like Dijon's or Beaune's, or a cheap house: the 41% gap is worth weighing.",
+      },
+    ],
+    relatedCities: ["chalon-sur-saone","beaune","macon","dijon"],
+    tags: ["chalon-sur-saone","moving to france with children","french school system","bourgogne-franche-comte"],
+  },
+  {
+    slug: "family-in-agen-2026",
+    title: "Family life in Agen (2026): a €750 T3, €1,719 per m², cost 6.4 and 4.1% fewer residents",
+    metaTitle: "Family Life in Agen 2026: €750 T3, €1,719/m², Cost 6.4",
+    metaDesc:
+      "Raising children in Agen in 2026: a €750 T3, flats at €1,719 per m², cost 6.4, schools 5.3, safety 4.7. Villeneuve-sur-Lot and Montauban compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Agen rents a T3 (two bedrooms and a living room) at €750 on our rent estimate and sells flats at €1,719 per m², about €138,000 for 80 m². Cost is the best mark (6.4, rank 175 of 593); schools 5.3 (rank 376) and safety 4.7 (rank 399) deserve a close look. The town has lost 4.1% of its population since 2016, down to 32,193 residents, with 27% poverty.",
+    sections: [
+      {
+        heading: "What housing budget does a family need in Agen?",
+        body: "The T3 is €750 and the T2 €560. A flat sells at €1,719 per m² (742 sales in 2024-2025, national DVF property register) and a house at €1,765 (392 sales): a gap of only 3%, which puts a house almost as close to a flat per m². An 80 m² flat at the median price is about €138,000 before fees.",
+      },
+      {
+        heading: "What is the population trend?",
+        body: "Agen has lost roughly 1,376 residents since 2016 (−4.1%, the sharpest fall in this batch); 15.2% are under 15 and 25.5% are 60 or over (INSEE census 2022). Median standard of living is €19,160 per consumption unit, with 27% poverty (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "What do our marks say?",
+        body: "Cost 6.4 (rank 175, 28 tied), culture 5.5 (rank 308), daily life 5.1 (rank 378), schools 5.3 (rank 376, 34 tied), nature 5.0 (rank 346), safety 4.7 (rank 399, 28 tied), transport 4.6 (rank 432) and remote work 4.3 (rank 466, 27 tied). The Agen canal bridge (539 m, 23 arches, opened in 1849) is the town's landmark walk.",
+      },
+      {
+        heading: "What parks are there for children?",
+        body: "Per OpenStreetMap, Agen's green spaces are modest: the parc de la Préfecture (3 hectares), the parc Chabaud (1 hectare) and the Jayan garden (1 hectare, playgrounds). For a bigger outing, the canal and the Garonne offer walks more than play parks: worth checking if you want a large space next door.",
+      },
+      {
+        heading: "Agen against Villeneuve-sur-Lot and Montauban",
+        body: "Villeneuve-sur-Lot, 24 km away, rents a T3 at €810 and sells at €1,218 per m², schools 6.6: €60 more a month than Agen but €501 less per m², with 1.3 more school points. Montauban, 62 km, is €860 and €1,983, schools 6.2, with 19% poverty against 27% in Agen.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a T3 at €750, a house priced like a flat and a human-sized Garonne city. Those who want a school mark above 6, a low-poverty neighbourhood or a growing town will look at Villeneuve-sur-Lot or Montauban.",
+      },
+    ],
+    relatedCities: ["agen","villeneuve-sur-lot","montauban"],
+    tags: ["agen","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
+    slug: "family-in-mont-de-marsan-2026",
+    title: "Family life in Mont-de-Marsan (2026): a €740 T3, €2,101 per m², cost 6.2 and 5.3% more residents",
+    metaTitle: "Family Life in Mont-de-Marsan 2026: €740 T3, €2,101/m²",
+    metaDesc:
+      "Raising children in Mont-de-Marsan in 2026: a €740 T3, flats at €2,101 per m², cost 6.2, safety 5.7. Dax, Pau and Bayonne compared.",
+    category: "family",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro:
+      "Mont-de-Marsan rents a T3 (two bedrooms and a living room) at €740 on our rent estimate and sells flats at €2,101 per m², about €168,000 for 80 m², with cost 6.2 (rank 226 of 593) and safety 5.7 (rank 241). The town has grown 5.3% since 2016, to 31,455 residents; it is older than the average of this batch, with 14.4% under 15.",
+    sections: [
+      {
+        heading: "What is the housing budget in Mont-de-Marsan?",
+        body: "The T3 is €740 and the T2 €550. A flat sells at €2,101 per m² (371 sales in 2024-2025, national DVF property register) and a house at €2,067 (528 sales): the house is slightly cheaper per m² (the price includes the plot), and it is the main market. An 80 m² flat at the median price is about €168,000 before fees.",
+      },
+      {
+        heading: "What is the population like?",
+        body: "The town has gained roughly 1,570 residents since 2016 (+5.3%); 14.4% are under 15 and 28.5% are 60 or over (INSEE census 2022). Median standard of living is €22,030 per consumption unit, with 16% poverty (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "What do our marks say?",
+        body: "Cost 6.2 (rank 226, 23 tied), daily life 5.9 (rank 234), schools 5.8 (rank 249, 22 tied), safety 5.7 (rank 241, 31 tied), nature 5.6 (rank 320, 20 tied), culture 5.5 (rank 308), remote work 4.8 (rank 434, 26 tied) and transport 4.6 (rank 432). The profile is middling everywhere, with no breaking point.",
+      },
+      {
+        heading: "What spaces are there for children?",
+        body: "Per OpenStreetMap, the parc Jean-Rameau (9 hectares, playgrounds) is the big city park, ahead of the parc Étienne-Lacaze (4 hectares, playgrounds) and the Nahuques animal park (3 hectares, playgrounds). The town was built where the Midou and the Douze meet to form the Midouze: the quays are the town-centre walk.",
+      },
+      {
+        heading: "Mont-de-Marsan against Dax, Pau and Bayonne",
+        body: "Dax, 48 km away, rents a T3 at €780 and sells at €2,538 per m², schools 5.3. Pau, 67 km, is €900 and €2,135, schools 7.4: €160 more a month than Mont-de-Marsan for 1.6 more school points. Bayonne, 90 km, is €1,200 and €4,039, schools 7.0.",
+      },
+      {
+        heading: "Which families is it for?",
+        body: "Families who want a T3 under €750, a growing town and playgrounds in the urban fabric. Those who want a high school mark or dense cultural life will look at Pau; those who work on the coast will face the 90 km to Bayonne, to check before signing.",
+      },
+    ],
+    relatedCities: ["mont-de-marsan","dax","pau","bayonne"],
+    tags: ["mont-de-marsan","moving to france with children","french school system","nouvelle-aquitaine"],
+  },
+  {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
     metaTitle: "Things to Do in Salon-de-Provence (2026)",

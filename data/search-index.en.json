@@ -8437,6 +8437,46 @@
       "emoji": "👨‍👩‍👧‍👦"
     },
     {
+      "slug": "family-in-colomiers-2026",
+      "title": "Family life in Colomiers (2026): a €1,010 T3, €2,623 per m², schools 6.2, Toulouse 9 km away",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-saint-medard-en-jalles-2026",
+      "title": "Family life in Saint-Médard-en-Jalles (2026): a €1,080 T3, €3,577 per m², 7% poverty",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-thonon-les-bains-2026",
+      "title": "Family life in Thonon-les-Bains (2026): a €1,200 T3, €3,594 per m², nature 7.8 on Lake Geneva",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-gap-2026",
+      "title": "Family life in Gap (2026): a €900 T3, €2,276 per m², nature 7.8 and 33.2% aged 60+",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-evreux-2026",
+      "title": "Family life in Évreux (2026): an €820 T3, €1,750 per m², cost 6.3 and Paris about an hour away",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-chalon-sur-saone-2026",
+      "title": "Family life in Chalon-sur-Saône (2026): a €740 T3, €1,381 per m², cost 7.2 and a 69-hectare lake",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-agen-2026",
+      "title": "Family life in Agen (2026): a €750 T3, €1,719 per m², cost 6.4 and 4.1% fewer residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "slug": "family-in-mont-de-marsan-2026",
+      "title": "Family life in Mont-de-Marsan (2026): a €740 T3, €2,101 per m², cost 6.2 and 5.3% more residents",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
       "slug": "things-to-do-in-salon-de-provence-2026",
       "title": "Things to do in Salon-de-Provence: Nostradamus and a fortress",
       "emoji": "🔮"
@@ -11726,17 +11766,32 @@
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 104
+      "count": 105
     },
     {
       "slug": "nouvelle-aquitaine",
       "label": "nouvelle-aquitaine",
-      "count": 99
+      "count": 102
     },
     {
       "slug": "relocation",
       "label": "relocation",
       "count": 99
+    },
+    {
+      "slug": "french-school-system",
+      "label": "french school system",
+      "count": 97
+    },
+    {
+      "slug": "moving-to-france-with-children",
+      "label": "moving to france with children",
+      "count": 96
+    },
+    {
+      "slug": "occitanie",
+      "label": "occitanie",
+      "count": 92
     },
     {
       "slug": "solo-travel",
@@ -11747,21 +11802,6 @@
       "slug": "travelling-alone-in-france",
       "label": "travelling alone in france",
       "count": 92
-    },
-    {
-      "slug": "occitanie",
-      "label": "occitanie",
-      "count": 91
-    },
-    {
-      "slug": "french-school-system",
-      "label": "french school system",
-      "count": 89
-    },
-    {
-      "slug": "moving-to-france-with-children",
-      "label": "moving to france with children",
-      "count": 88
     },
     {
       "slug": "grand-est",
@@ -11839,13 +11879,13 @@
       "count": 45
     },
     {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 39
-    },
-    {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
+      "count": 40
+    },
+    {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
       "count": 39
     },
     {
@@ -11861,7 +11901,7 @@
     {
       "slug": "bourgogne-franche-comte",
       "label": "bourgogne-franche-comte",
-      "count": 29
+      "count": 30
     },
     {
       "slug": "budget",
@@ -12074,6 +12114,11 @@
       "count": 8
     },
     {
+      "slug": "normandie",
+      "label": "normandie",
+      "count": 8
+    },
+    {
       "slug": "visa",
       "label": "visa",
       "count": 8
@@ -12131,11 +12176,6 @@
     {
       "slug": "nimes",
       "label": "nimes",
-      "count": 7
-    },
-    {
-      "slug": "normandie",
-      "label": "normandie",
       "count": 7
     },
     {
