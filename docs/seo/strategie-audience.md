@@ -1,0 +1,144 @@
+# Stratégie d'audience — mavilleideale.fr (2026-11-23)
+
+Document de cap. Toutes les routines le lisent avant de choisir quoi faire. Les chiffres
+viennent de l'export Search Console (Web, 2026-08-22 → 2026-11-21) et sont détaillés,
+cible par cible, dans `docs/seo/cibles.md` (regénéré par `node scripts/gsc-cibles.mjs`).
+
+## 1. Où on en est
+
+| Mesure (90 jours) | Valeur |
+|---|---|
+| Clics | 12 372 (≈ 137/jour) |
+| Impressions | 956 333 |
+| CTR | 1,29 % |
+| Clics par semaine | ~800 en sept. → ~1 150 depuis le 17/10 (+40 %) |
+| Impressions par semaine | ~50 000 → ~110 000 (×2,2) |
+| CTR hebdo | 1,7 % → 1,05 % |
+| Mobile / ordinateur | 64 % des clics ; position 8,6 sur mobile contre 16,6 sur ordinateur |
+| France | 92 % des clics |
+| Domain Rating (Ahrefs) | **2,8** (ville-ideale.fr : 42 ; choisirsaville.fr : 10) |
+
+La croissance d'octobre est réelle, mais elle vient surtout d'impressions profondes : on
+apparaît plus souvent, plus bas, et le CTR baisse.
+
+## 2. Ce que disent les données
+
+1. **60 % des clics du top 1 000 requêtes sont des recherches « ville idéale ».** Ces gens
+   cherchent ville-ideale.fr, un site d'avis d'habitants. L'accueil fait 15 % des clics du
+   site, et ce trafic peut disparaître du jour au lendemain. Il montre aussi ce que veulent
+   ces visiteurs : *des notes et des avis d'habitants* (« avis ville », « note ville »,
+   « note ma ville », « bien dans ma ville »).
+2. **Une requête vide gonfle les chiffres.** La requête « parcs » fait 84 000 impressions
+   (9 % du total) et 0 clic. Ne jamais lire le CTR global sans l'exclure.
+3. **Les gabarits qui convertissent** (CTR au-dessus de la moyenne) :
+   - comparaisons `/comparer/*` (3,4 %) et guides `*-vs-*` (2,4 %, 594 clics avec 30 pages, le meilleur rendement du site) ;
+   - classements (2,4 %), quartiers (2,2 %) et fiscalité (taxe foncière, 2,1 %) ;
+   - `retraite-a-*` (5,8 %) ;
+   - **bruit (5,9 %), coût de la vie (3,6 %) et présidentielle 2027 (3,3 %)**, qui sont en `noindex` depuis le 04/11.
+4. **Ce que Google ne montre pas.** Environ 380 guides FR des séries `parent-solo-a-*`
+   (201), `vacances-celibataire-*` (98) et `vacances-monoparentales-*` (83) n'ont **aucune
+   page** dans le top 1 000. Chacune fait donc moins de 136 impressions en 90 jours, alors
+   que ces séries mobilisaient environ une routine par jour, sans compter leurs jumelles EN.
+5. **Les fiches ville sont en page 2.** Les 107 fiches visibles font 51 600 impressions en
+   position 13,2. « vivre à rennes » est en position 19, « avis montpellier » en 17,
+   « rennes avis » en 9. Les guides `vivre-a-*` (position 16) visent la même intention que
+   la fiche, d'où un risque de cannibalisation à vérifier ville par ville.
+6. **534 requêtes sont en position 4-10, avec un CTR de 0,8 %.** On est en page 1, mais en
+   bas. Il manque deux leviers : l'autorité (les liens) et des titres qui donnent envie.
+7. **Les petites villes touristiques ont de la traction** : Île de Ré, Amboise, Dinard,
+   Dinan, Narbonne, Concarneau, Granville, Carcassonne. Le site gagne là où la concurrence
+   est faible.
+
+## 3. Ce qui manque pour une audience plus large (par ordre d'impact)
+
+1. **De l'autorité.** Avec 7 domaines référents environ, aucune optimisation on-page ne
+   fera passer de la position 8 à la position 3 sur des requêtes disputées. C'est le premier
+   frein. Le levier : **des données qui méritent un lien**, c'est-à-dire des classements
+   datés et repris par la presse locale (canicule, climat 2040, taxe foncière, villes les
+   moins chères), avec un kit presse prêt à l'emploi. La prospection elle-même reste
+   manuelle, faite par le propriétaire (voir § 6).
+2. **De vrais avis d'habitants.** C'est l'intention de la moitié des visiteurs. Il faut
+   rendre l'avis visible et facile à donner sur chaque fiche, l'agréger par ville en
+   Schema.org `AggregateRating` seulement quand il est réel, et inviter les visiteurs à en
+   laisser un.
+3. **Des fiches ville qui répondent à « vivre à X » et « X avis ».** Il faut une page
+   forte par ville et par intention, avec un contenu propre à la ville en haut de page :
+   points forts et faibles chiffrés, quartiers, prix, avis. Fusionner ou relier
+   explicitement guide `vivre-a-X` et fiche.
+4. **Des titres et descriptions orientés clic** sur les pages déjà en page 1
+   (`cibles.md` § 2, 4, 7).
+5. **De la diffusion hors Google** :
+   - actu locale fraîche (« actualités lyon » en position 5,5), éligible à Discover ;
+   - newsletter Brevo (la liste existe) ;
+   - réseaux sociaux (`scripts/social-post.mjs` existe, mais les jetons de page ne sont pas configurés).
+6. **Une boucle de mesure.** Chaque mois : exporter la Search Console, lancer
+   `node scripts/gsc-cibles.mjs`, puis committer. Les routines ciblent ce fichier.
+
+## 4. Règles pour toute nouvelle page
+
+- **Preuve de demande obligatoire** : une requête dans `cibles.md`, ou une suggestion
+  Google trouvée par WebSearch, citée dans le commit. Sans preuve, pas de page.
+- **Priorité aux gabarits qui convertissent** : comparaison A vs B, classement
+  thématique, quartiers, fiscalité, retraite, avis.
+- **Priorité aux villes avec traction** (`cibles.md` § 5) avant les villes sans
+  impression.
+- **On arrête d'allonger les séries sans traction** (parent-solo, vacances-celibataire,
+  vacances-monoparentales, biodiversité par ville). On les rouvre seulement si une page de
+  la série entre dans le top 1 000 d'un export.
+- **Améliorer une page existante vaut mieux qu'en créer une nouvelle**, dès qu'une page
+  existante se classe en position 4-20 sur la requête.
+
+## 5. Feuille de route
+
+### Maintenant (semaines 1-2)
+- [ ] Titres et descriptions des 30 pages en position 4-12 les plus vues (`cibles.md` § 4, 7).
+- [ ] Fiches ville des 20 villes les plus vues : un bloc « En bref : vivre à X » en haut de
+      page (3 forces, 3 faiblesses chiffrées, prix, lien vers les quartiers et les avis), puis
+      une FAQ « X avis / vivre à X ».
+- [ ] Appel à l'avis visible sur chaque fiche ville et chaque page `/avis`. L'accueil doit
+      dire clairement « Avis et notes des villes, par des habitants ».
+- [ ] Rouvrir l'indexation de `bruit` et `cout-de-la-vie` en test : retirer les deux noms de
+      `lib/fr-index-policy.ts`, puis mesurer sur l'export suivant.
+- [ ] Cannibalisation : sur 10 villes, vérifier quelle page sort pour « vivre à X » (fiche
+      ou guide), puis relier ou canonicaliser.
+
+### Ce trimestre (décembre à février)
+- [ ] Comparaisons A vs B : traiter toutes les paires demandées dans `cibles.md` § 6, puis
+      les paires voisines des villes avec traction.
+- [ ] Un **classement de données par mois**, pensé pour la presse :
+      - un communiqué dans `/presse` ;
+      - un tableau téléchargeable ;
+      - une carte ;
+      - les chiffres par département, pour que chaque journal local ait son angle.
+- [ ] Présidentielle 2027 : rouvrir `/villes/[slug]/presidentielle-2027` quand la page porte
+      du contenu local distinct (sondages, résultats 2022, candidats déclarés). La demande va
+      monter toute l'année 2027.
+- [ ] Liste « communes ZRR 2026 » (647 impressions, position 9,7) et « top 20 des villes
+      les moins chères » (375 impressions, position 8,1) : en faire des pages dédiées et à jour.
+- [ ] Jumelles EN seulement pour les pages FR qui ont de la traction.
+
+### Plus tard (2027)
+- [ ] Discover : images 1 200 px et `max-image-preview:large` sur les actus et classements.
+- [ ] Automatiser la boucle Search Console : jeton OAuth en lecture seule, et une Action
+      GitHub qui regénère `cibles.md` chaque semaine.
+- [ ] Newsletter mensuelle « Le palmarès du mois » (Brevo), avec un lien de partage.
+
+## 6. Ce que seul le propriétaire peut faire
+
+1. **Prospection de liens** : envoyer chaque mois le kit presse (préparé par la routine du
+   mardi) à 10-20 journaux locaux concernés par le classement. Viser aussi les blogs
+   expatriation et retraite, et les sites des offices de tourisme des villes bien notées.
+2. **Export Search Console mensuel** : Performances > 3 mois > Exporter > CSV. Ensuite,
+   `node scripts/gsc-cibles.mjs <dossier>` et commit, ou donner le fichier zip à Claude.
+3. **Réseaux sociaux** : créer les jetons de page Facebook, LinkedIn et Threads pour
+   activer `scripts/social-post.mjs`.
+
+## 7. Indicateurs (à relire à chaque export)
+
+| Indicateur | Aujourd'hui | Cible 3 mois |
+|---|---|---|
+| Clics/semaine hors « ville idéale » | ≈ 1 000 | 1 600 |
+| CTR hors « parcs » | ≈ 1,4 % | 2,0 % |
+| Requêtes hors marque en position ≤ 3 (top 1 000) | 66 | 150 |
+| Domaines référents | ≈ 7 | 25 |
+| Fiches ville en position ≤ 10 | 0 sur le top 20 des villes | 10 |

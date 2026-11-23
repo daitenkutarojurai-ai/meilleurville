@@ -559,6 +559,10 @@ de section marche toujours, sur `docs/claude/` au lieu de `CLAUDE.md`).
 - Ton journal de run va dans le fichier `docs/claude/*.md` de ton sujet (ou `docs/…-log.md`), en
   **5 lignes maximum** : date, ce qui est livré, compteurs mesurés, prochain lot. Pas de récit.
 - Ne lis pas tout `docs/claude/guides.md` (240 Ko) : `grep` la section ou le dernier batch.
+- **Cap d'audience (2026-11-23)** : avant de choisir quoi faire, lis `docs/seo/strategie-audience.md`
+  et les cibles Search Console `docs/seo/cibles.md` (regénérées par `node scripts/gsc-cibles.mjs <export>`).
+  Une page neuve exige une preuve de demande ; améliorer une page en position 4-20 passe avant d'en créer une.
+  Les séries sans traction (parent-solo, vacances-celibataire, vacances-monoparentales) sont gelées.
 
 ## Index des titres déplacés
 
