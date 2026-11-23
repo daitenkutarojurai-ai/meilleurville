@@ -44512,6 +44512,365 @@ export const GUIDES: Guide[] = [
     tags: ["famille Montélimar 2026", "vivre en famille Montélimar", "loyer T3 Montélimar", "écoles Montélimar", "Montélimar avec enfants"],
   },
   {
+    slug: "famille-a-colomiers-2026",
+    title: "Famille à Colomiers en 2026 : un T3 à 1 010 €, 2 623 € le m², Écoles 6,2 et Toulouse à 9 km",
+    metaTitle: "Famille à Colomiers 2026 : T3 1 010 €, 2 623 €/m², Écoles 6,2",
+    metaDesc: "Famille à Colomiers : T3 à 1 010 €, appartements à 2 623 €/m², Écoles 6,2, Télétravail 6,3. Budget et comparaison avec Tournefeuille, Blagnac, Toulouse.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Colomiers loue un T3 1 010 € (notre estimation des loyers) et vend l'appartement 2 623 € le m², soit environ 210 000 € pour 80 m², à 9 km de Toulouse. Les Écoles sont notées 6,2 (rang 219 sur 593) et le Télétravail 6,3 (rang 146) ; Nature 4,3 et Coût 4,8 sont les deux notes basses. Sur 40 916 habitants, 19,4 % ont moins de 15 ans, et la ville a gagné 5,7 % de population depuis 2016.",
+    sections: [
+      {
+        heading: "Combien coûte un logement familial à Colomiers ?",
+        body: "Le T3 est à 1 010 €, le T2 à 750 €. L'appartement se vend 2 623 € le m² (567 ventes en 2024-2025, DVF) et la maison 3 063 € (354 ventes), soit 17 % de plus au m² (le prix de la maison inclut le terrain). Un appartement de 80 m² au prix médian revient à environ 210 000 €, hors frais.",
+      },
+      {
+        heading: "Colomiers est-elle une ville jeune ?",
+        body: "Oui : 19,4 % des habitants ont moins de 15 ans et 21,6 % ont 60 ans ou plus (Insee, recensement 2022), parmi les plus jeunes de ce lot. Le niveau de vie médian est de 23 690 € par unité de consommation, avec 17 % de pauvreté (Insee, Filosofi 2021). La population a progressé de 5,7 % depuis 2016, soit environ 2 200 habitants de plus.",
+      },
+      {
+        heading: "Quelles notes pour l'école, les parcs et la sécurité ?",
+        body: "Télétravail 6,3 (rang 146, 109 à égalité), Écoles 6,2 (rang 219, 28 à égalité), Transports 6,2 (rang 248, 33 à égalité), Sécurité 4,8 (rang 384, 15 à égalité), Coût 4,8 (rang 403, 10 à égalité) et Nature 4,3 (rang 420, 43 à égalité). Pour les enfants, d'après OpenStreetMap, le parc du Cabirol (11 hectares, aires de jeux) est le plus grand espace vert, devant le parc de l'Armurier (9 hectares) et le parc du Pigeonnier (8 hectares).",
+      },
+      {
+        heading: "Colomiers face à Tournefeuille, Blagnac et Toulouse",
+        body: "Tournefeuille, à 3 km, loue le T3 1 120 € et vend l'appartement 2 955 € le m², avec Écoles 7,7 : 110 € de plus par mois et 332 € de plus au m² pour 1,5 point d'école. Blagnac, à 5 km, est à 1 080 € et 2 983 € avec Écoles 5,5. Toulouse, à 9 km, est à 1 150 € et 3 222 € avec Écoles 9,0, soit environ 48 000 € de plus pour 80 m².",
+      },
+      {
+        heading: "Et pour les trajets quotidiens ?",
+        body: "Colomiers est dans l'agglomération toulousaine, à 9 km du centre de Toulouse à vol d'oiseau, et sa note Transports (6,2) est dans la moyenne de nos villes. La ligne C du métro de Toulouse, en projet, doit desservir la commune ; avant sa mise en service, les bus du réseau Tisséo restent le lien quotidien. Notre note Télétravail de 6,3 (rang 146) est l'une des meilleures de ce lot.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Colomiers convient aux familles qui travaillent dans l'ouest toulousain, veulent un T3 autour de 1 000 € et acceptent des notes Nature et Sécurité moyennes en échange d'une ville jeune. Celles qui veulent le meilleur secteur scolaire regarderont Tournefeuille (Écoles 7,7), en payant plus ; celles qui cherchent du vert et de la tranquillité feront le calcul avant de viser une maison.",
+      },
+    ],
+    relatedCities: ["colomiers", "tournefeuille", "blagnac", "toulouse"],
+    relatedGuides: [
+      "vivre-sans-voiture-toulouse-guide-2026",
+      "parent-solo-a-tournefeuille-2026",
+      "10-choses-a-faire-a-blagnac-2026",
+    ],
+    tags: ["famille Colomiers 2026", "vivre en famille Colomiers", "loyer T3 Colomiers", "écoles Colomiers", "Colomiers avec enfants"],
+  },
+  {
+    slug: "famille-a-saint-medard-en-jalles-2026",
+    title: "Famille à Saint-Médard-en-Jalles en 2026 : T3 à 1 080 €, 3 577 € le m², 7 % de pauvreté",
+    metaTitle: "Famille à Saint-Médard-en-Jalles 2026 : T3 1 080 €, 3 577 €/m²",
+    metaDesc: "Famille à Saint-Médard-en-Jalles : T3 à 1 080 €, appartements à 3 577 €/m², Écoles 6,2, Coût 4,0. Comparaison avec Eysines, Mérignac, Pessac et Bordeaux.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Saint-Médard-en-Jalles loue un T3 1 080 € (notre estimation des loyers) et vend l'appartement 3 577 € le m², soit environ 286 000 € pour 80 m². Le revenu médian y est de 26 740 € par unité de consommation avec 7 % de pauvreté, l'un des taux les plus bas de ce comparatif ; la note Coût (4,0, rang 488 sur 593) dit le revers. Écoles 6,2 (rang 219), Sécurité 5,2 (rang 317).",
+    sections: [
+      {
+        heading: "Quel prix pour se loger en famille à Saint-Médard ?",
+        body: "Le T3 est à 1 080 €, le T2 à 800 €. L'appartement se vend 3 577 € le m² (167 ventes en 2024-2025, DVF) et la maison 3 626 € (485 ventes) : l'écart n'est que de 1 %, donc la maison n'est pas plus chère au m², mais elle coûte nettement plus en valeur totale. Un appartement de 80 m² au prix médian revient à environ 286 000 €, hors frais. La maison est le marché principal : 485 ventes contre 167 appartements.",
+      },
+      {
+        heading: "Qui habite Saint-Médard-en-Jalles ?",
+        body: "La commune compte 32 749 habitants, +5,8 % depuis 2016 (environ 1 800 de plus), dont 17,9 % de moins de 15 ans et 26,2 % de 60 ans et plus (Insee, recensement 2022). Le niveau de vie médian de 26 740 € par unité de consommation est le plus haut du lot ; la pauvreté est de 7 % (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Que disent nos notes ?",
+        body: "Télétravail 6,3 (rang 146), Écoles 6,2 (rang 219, 28 à égalité), Transports 6,2 (rang 248), Vie quotidienne 5,9, Nature 5,7 (rang 262, 58 à égalité), Sécurité 5,2 (rang 317, 33 à égalité), Culture 4,8 et Coût 4,0 (rang 488, 8 à égalité). Le profil est celui d'une commune résidentielle bien notée pour la tranquillité mais chère par rapport à son niveau de service.",
+      },
+      {
+        heading: "Quels espaces verts pour les enfants ?",
+        body: "D'après OpenStreetMap, les bords de Jalle de Gajac (8 hectares) et ceux de Magudas (4 hectares) ont des aires de jeux, et le bois de Corbiac (4 hectares) complète l'offre. La commune a un caractère de lisière de forêt, ce qui la distingue de Mérignac ou Pessac, plus urbaines.",
+      },
+      {
+        heading: "Saint-Médard-en-Jalles face à Eysines, Mérignac, Pessac et Bordeaux",
+        body: "Eysines, à 6 km, loue le T3 1 080 € (comme Saint-Médard) et vend l'appartement 3 431 € le m², Écoles 6,4. Mérignac, à 9 km, est à 1 080 € et 3 439 €, Écoles 5,5. Pessac, à 12 km, est à 1 080 € et 3 482 €, Écoles 6,6. Bordeaux, à 13 km, est à 1 200 € et 4 171 €, Écoles 7,4 : 80 m² y coûtent environ 47 500 € de plus qu'à Saint-Médard.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Saint-Médard convient aux familles qui veulent une commune à faible pauvreté, de la verdure et un budget d'achat de 3 500 € le m² ou plus. Celles qui comptent sur un loyer plus bas que dans la métropole bordelaise n'y gagneront rien : le T3 est au même niveau qu'à Mérignac ou Pessac.",
+      },
+    ],
+    relatedCities: ["saint-medard-en-jalles", "eysines", "merignac", "pessac", "bordeaux"],
+    relatedGuides: [
+      "famille-a-merignac-2026",
+      "vivre-sans-voiture-bordeaux-guide-2026",
+      "parent-solo-a-eysines-2026",
+    ],
+    tags: ["famille Saint-Médard-en-Jalles 2026", "vivre en famille Saint-Médard-en-Jalles", "loyer T3 Saint-Médard-en-Jalles", "écoles Saint-Médard-en-Jalles", "Saint-Médard-en-Jalles avec enfants"],
+  },
+  {
+    slug: "famille-a-thonon-les-bains-2026",
+    title: "Famille à Thonon-les-Bains en 2026 : T3 à 1 200 €, 3 594 € le m², Nature 7,8 sur le Léman",
+    metaTitle: "Famille à Thonon-les-Bains 2026 : T3 1 200 €, 3 594 €/m²",
+    metaDesc: "Famille à Thonon-les-Bains : T3 à 1 200 €, appartements à 3 594 €/m², Nature 7,8, Écoles 5,8. Comparaison avec Annemasse et Annecy.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Thonon-les-Bains est la ville nature de ce lot : Nature 7,8 (rang 40 sur 593), contre Écoles 5,8 (rang 249) et Coût 4,5 (rang 453). Un T3 y coûte 1 200 € (notre estimation des loyers), l'appartement se vend 3 594 € le m² et la maison 4 556 € ; la population a gagné 7,3 % depuis 2016 sur 37 689 habitants.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Thonon ?",
+        body: "Le T3 est à 1 200 €, le T2 à 900 €. L'appartement se vend 3 594 € le m² (1 020 ventes en 2024-2025, DVF) et la maison 4 556 € (167 ventes), 27 % de plus au m² : à Thonon, une maison est un achat de niche, 6 fois moins fréquent qu'un appartement. Un appartement de 80 m² au prix médian revient à environ 288 000 €, hors frais.",
+      },
+      {
+        heading: "Quelle part d'enfants et de seniors ?",
+        body: "17,5 % des habitants ont moins de 15 ans et 26,3 % ont 60 ans ou plus (Insee, recensement 2022). Le niveau de vie médian est de 24 450 € par unité de consommation, avec 15 % de pauvreté (Insee, Filosofi 2021). La commune a gagné environ 2 560 habitants depuis 2016.",
+      },
+      {
+        heading: "Pourquoi Nature 7,8, et que valent les écoles ?",
+        body: "Nature 7,8 (rang 40, 42 à égalité), Vie quotidienne 6,6 (rang 159), Sécurité 6,1 (rang 198, 20 à égalité), Écoles 5,8 (rang 249, 22 à égalité), Culture 5,5, Télétravail 5,3, Transports 4,6 (rang 432) et Coût 4,5 (rang 453, 10 à égalité). Le lac est le premier espace de jeu : le funiculaire relie la ville haute au port de Rives, et les bateaux de la CGN partent de cet embarcadère pour Lausanne. D'après OpenStreetMap, le parc de la Châtaigneraie (7 hectares, jeux) et le parc de Corzent (4 hectares) sont les principaux parcs.",
+      },
+      {
+        heading: "Thonon face à Annemasse et Annecy",
+        body: "Annemasse, à 27 km, loue le T3 1 350 € et vend l'appartement 3 506 € le m², Écoles 7,7, avec 22 % de pauvreté. Annecy, à 59 km, est à 1 450 € et 5 092 €, Écoles 8,7 : 80 m² y coûtent environ 120 000 € de plus qu'à Thonon. Thonon est 150 € moins chère par mois qu'Annemasse mais 88 € plus chère au m², avec 1,9 point d'école en moins.",
+      },
+      {
+        heading: "Les transports sont-ils le point faible ?",
+        body: "Notre note Transports est de 4,6 (rang 432, 17 à égalité) : la ville est bien servie par le lac, moins par un réseau urbain dense. Pour un travail à Genève ou à Annemasse, il faut vérifier le trajet réel avant de signer : nous ne chiffrons pas les temps de parcours.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Thonon convient aux familles qui veulent le lac, la nature et un T3 à 1 200 € plutôt qu'à 1 450 € comme à Annecy. Celles qui placent l'école en premier trouveront un meilleur score à Annemasse (7,7) ; celles qui veulent une maison avec jardin affronteront 4 556 € le m².",
+      },
+    ],
+    relatedCities: ["thonon-les-bains", "annemasse", "annecy"],
+    relatedGuides: [
+      "famille-a-annemasse-2026",
+      "famille-a-annecy-2026",
+      "10-choses-a-faire-a-thonon-les-bains-2026",
+    ],
+    tags: ["famille Thonon-les-Bains 2026", "vivre en famille Thonon-les-Bains", "loyer T3 Thonon-les-Bains", "écoles Thonon-les-Bains", "Thonon-les-Bains avec enfants"],
+  },
+  {
+    slug: "famille-a-gap-2026",
+    title: "Famille à Gap en 2026 : un T3 à 900 €, 2 276 € le m², Nature 7,8 et 33,2 % de 60 ans et plus",
+    metaTitle: "Famille à Gap 2026 : T3 900 €, 2 276 €/m², Nature 7,8",
+    metaDesc: "Famille à Gap : T3 à 900 €, appartements à 2 276 €/m², Nature 7,8, Coût 5,5, Écoles 5,8. Budget et comparaison avec Grenoble et Manosque.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Gap loue un T3 900 € (notre estimation des loyers) et vend l'appartement 2 276 € le m², soit environ 182 000 € pour 80 m² : c'est la montagne à prix de ville moyenne, avec Nature 7,8 (rang 40 sur 593) et Coût 5,5 (rang 301). Le revers démographique est net : 14,7 % de moins de 15 ans pour 33,2 % de 60 ans et plus, sur 40 656 habitants, quasi stable depuis 2016 (−0,4 %).",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Gap ?",
+        body: "Le T3 est à 900 €, le T2 à 680 €. L'appartement se vend 2 276 € le m² (804 ventes en 2024-2025, DVF) et la maison 3 186 € (250 ventes), 40 % de plus au m² : l'écart est l'un des plus larges du lot, à peser avant de viser une maison. Un appartement de 80 m² au prix médian revient à environ 182 000 €, hors frais.",
+      },
+      {
+        heading: "Gap est-elle une ville pour les enfants ?",
+        body: "La ville est la plus âgée de ce lot : 14,7 % de moins de 15 ans et 33,2 % de 60 ans et plus (Insee, recensement 2022), avec −149 habitants depuis 2016. Le niveau de vie médian est de 22 280 € par unité de consommation, avec 15 % de pauvreté (Insee, Filosofi 2021). Pour une famille, cela signifie moins de camarades d'âge qu'en périphérie de grande ville.",
+      },
+      {
+        heading: "Quelles notes pour la nature, l'école et la sécurité ?",
+        body: "Nature 7,8 (rang 40, 42 à égalité), Vie quotidienne 6,6 (rang 159), Sécurité 5,9 (rang 230, 8 à égalité), Coût 5,5 (rang 301, 6 à égalité), Écoles 5,8 (rang 249, 22 à égalité), Culture 5,5, Télétravail 5,3 et Transports 4,6 (rang 432). Côté parcs, d'après OpenStreetMap, le parc de la Pépinière (6 hectares, jeux, avenue Maréchal-Foch) est le grand parc urbain, devant le parc Galleron et le jardin Bernard-Givaudan (5 hectares chacun, jeux) ; le domaine de Charance domine la ville.",
+      },
+      {
+        heading: "Gap face à Grenoble et Manosque",
+        body: "Gap n'a pas de grande voisine proche. Grenoble, à 75 km, loue le T3 1 020 € et vend l'appartement 2 500 € le m², avec Écoles 9,0 : 120 € de plus par mois, 224 € de plus au m² et 3,2 points d'école de plus. Manosque, à 84 km, loue le T3 900 € comme Gap mais vend l'appartement 1 759 €, Écoles 5,3 : Gap est 517 € plus chère au m² pour 0,5 point d'école de plus.",
+      },
+      {
+        heading: "L'isolement est-il le vrai sujet ?",
+        body: "La note Transports est de 4,6 (rang 432) : Gap est une ville-préfecture de montagne, à 70 km ou plus des métropoles du seed. Pour un emploi, une garde partagée ou des études supérieures, le bassin local est ce qui compte : à vérifier avant de s'installer.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Gap convient aux familles qui veulent la montagne au quotidien, un T3 à 900 € et un parc de ville à proximité, avec un bassin d'emploi local. Elle convient moins à celles qui veulent beaucoup d'enfants du même âge dans l'école, une grande ville à moins d'une heure, ou une maison à prix serré.",
+      },
+    ],
+    relatedCities: ["gap", "grenoble", "manosque"],
+    relatedGuides: [
+      "famille-a-grenoble-2026",
+      "10-choses-a-faire-a-gap-2026",
+    ],
+    tags: ["famille Gap 2026", "vivre en famille Gap", "loyer T3 Gap", "écoles Gap", "Gap avec enfants"],
+  },
+  {
+    slug: "famille-a-evreux-2026",
+    title: "Famille à Évreux en 2026 : un T3 à 820 €, 1 750 € le m², Coût 6,3 et Paris à environ 1 h",
+    metaTitle: "Famille à Évreux 2026 : T3 820 €, 1 750 €/m², Coût 6,3",
+    metaDesc: "Famille à Évreux : T3 à 820 €, appartements à 1 750 €/m², Coût 6,3, Écoles 5,5, Sécurité 4,7. Comparaison avec Vernon, Dreux et Mantes-la-Jolie.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Évreux loue un T3 820 € (notre estimation des loyers) et vend l'appartement 1 750 € le m², soit environ 140 000 € pour 80 m². Coût 6,3 (rang 203 sur 593) et Transports 6,2 (rang 248) tirent le profil ; Sécurité 4,7 (rang 399) et Télétravail 3,8 (rang 493) le tirent vers le bas. Sur 48 335 habitants, 19,2 % ont moins de 15 ans, avec 29 % de pauvreté.",
+    sections: [
+      {
+        heading: "Quel loyer et quel prix pour une famille à Évreux ?",
+        body: "Le T3 est à 820 €, le T2 à 610 €. L'appartement se vend 1 750 € le m² (757 ventes en 2024-2025, DVF) et la maison 1 991 € (461 ventes), 14 % de plus au m² : l'écart est modeste, la maison est donc plus accessible ici qu'à Gap ou à Chalon. Un appartement de 80 m² au prix médian revient à environ 140 000 €, hors frais.",
+      },
+      {
+        heading: "Quelle réalité sociale et démographique ?",
+        body: "La ville compte 48 335 habitants, −1,2 % depuis 2016 ; 19,2 % ont moins de 15 ans et 23 % ont 60 ans ou plus (Insee, recensement 2022). Le niveau de vie médian est de 18 580 € par unité de consommation, avec 29 % de pauvreté (Insee, Filosofi 2021) : c'est le plus bas de ce lot, et il pèse sur la lecture du quartier plus que la moyenne communale ne le dit.",
+      },
+      {
+        heading: "Que disent les notes d'école et de sécurité ?",
+        body: "Coût 6,3 (rang 203, 23 à égalité), Transports 6,2 (rang 248, 33 à égalité), Culture 5,7 (rang 272), Écoles 5,5 (rang 271, 105 à égalité), Nature 5,0 (rang 346), Vie quotidienne 4,9 (rang 393), Sécurité 4,7 (rang 399, 28 à égalité) et Télétravail 3,8 (rang 493, 46 à égalité). Côté parcs, d'après OpenStreetMap, le parc François-Mitterrand (3 hectares, jeux) et le jardin botanique (2 hectares, jeux) sont les espaces à connaître ; la cathédrale Notre-Dame est le monument du centre.",
+      },
+      {
+        heading: "Évreux face à Vernon, Dreux et Mantes-la-Jolie",
+        body: "Vernon, à 25 km, loue le T3 940 € et vend l'appartement 2 677 € le m², Écoles 4,9 : 120 € de plus par mois et 927 € de plus au m² pour une note d'école inférieure. Dreux, à 36 km, est à 930 € et 1 519 €, Écoles 6,6, avec 29 % de pauvreté. Mantes-la-Jolie, à 41 km, est à 1 080 € et 2 426 €, Écoles 3,6, avec 32 % de pauvreté.",
+      },
+      {
+        heading: "Évreux et Paris : que dit la gare ?",
+        body: "Évreux est à environ 1 h de train de Paris-Saint-Lazare selon SNCF Connect (les trajets directs vont de 1 h à 1 h 15 environ). C'est la raison pour laquelle des ménages franciliens regardent la ville : le loyer d'un T3 à 820 € est à comparer avec les 1 080 € de Mantes-la-Jolie. La note Télétravail de 3,8 rappelle toutefois que la ville n'est pas notre meilleure candidate pour travailler à distance.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Évreux convient aux familles qui veulent un T3 sous 850 €, une note Coût de 6,3 et un accès à Paris en train. Celles qui veulent une sécurité mieux notée, un quartier à faible pauvreté ou un score d'école élevé regarderont ailleurs, ou examineront rue par rue.",
+      },
+    ],
+    relatedCities: ["evreux", "vernon", "dreux", "mantes-la-jolie"],
+    relatedGuides: [
+      "parent-solo-a-evreux-2026",
+      "10-choses-a-faire-a-evreux-2026",
+      "parent-solo-a-dreux-2026",
+    ],
+    tags: ["famille Évreux 2026", "vivre en famille Évreux", "loyer T3 Évreux", "écoles Évreux", "Évreux avec enfants"],
+  },
+  {
+    slug: "famille-a-chalon-sur-saone-2026",
+    title: "Famille à Chalon-sur-Saône en 2026 : T3 à 740 €, 1 381 € le m², Coût 7,2 et lac de 69 ha",
+    metaTitle: "Famille à Chalon-sur-Saône 2026 : T3 740 €, 1 381 €/m²",
+    metaDesc: "Famille à Chalon-sur-Saône : T3 à 740 €, appartements à 1 381 €/m², Coût 7,2, Écoles 6,2. Comparaison avec Beaune, Mâcon et Dijon.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Chalon-sur-Saône est l'une des villes les moins chères de ce lot : T3 à 740 € (notre estimation des loyers), appartement à 1 381 € le m², soit environ 110 000 € pour 80 m², avec Coût 7,2 (rang 110 sur 593). Écoles 6,2 (rang 219) et Culture 6,2 (rang 196) sont les notes solides. La population baisse de 1,9 % depuis 2016, à 44 592 habitants, et la pauvreté atteint 23 %.",
+    sections: [
+      {
+        heading: "Quel budget logement à Chalon-sur-Saône ?",
+        body: "Le T3 est à 740 €, le T2 à 550 €. L'appartement se vend 1 381 € le m² (1 239 ventes en 2024-2025, DVF) et la maison 1 943 € (194 ventes), 41 % de plus au m² : le marché est celui de l'appartement, la maison est un achat plus rare et plus cher. Un appartement de 80 m² au prix médian revient à environ 110 000 €, hors frais.",
+      },
+      {
+        heading: "Quelle population, quel niveau de vie ?",
+        body: "15,8 % des habitants ont moins de 15 ans et 29,7 % ont 60 ans ou plus (Insee, recensement 2022) ; la ville a perdu environ 850 habitants depuis 2016. Le niveau de vie médian est de 19 590 € par unité de consommation, avec 23 % de pauvreté (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Que disent les notes ?",
+        body: "Coût 7,2 (rang 110, 18 à égalité), Culture 6,2 (rang 196, 23 à égalité), Écoles 6,2 (rang 219, 28 à égalité), Transports 6,2 (rang 248), Vie quotidienne 5,9, Nature 5,7 (rang 262), Sécurité 5,2 (rang 317, 33 à égalité) et Télétravail 5,1 (rang 342, 92 à égalité). Le rapport coût / services est le point fort de la ville.",
+      },
+      {
+        heading: "Quels lieux pour les enfants ?",
+        body: "D'après OpenStreetMap, le parc du lac des Prés Saint-Jean (69 hectares, aire de jeux) est de loin le plus grand espace de loisirs, devant le parc de la Thalie (5 hectares) et le parc Georges-Nouelle (4 hectares, jeux). Le musée Nicéphore-Niépce, quai des Messageries, rappelle que la photographie est née ici : une sortie culturelle facile avec des enfants.",
+      },
+      {
+        heading: "Chalon face à Beaune, Mâcon et Dijon",
+        body: "Beaune, à 27 km, loue le T3 1 080 € et vend l'appartement 2 533 € le m², Écoles 7,7, avec 14 % de pauvreté. Mâcon, à 53 km, est à 800 € et 1 659 €, Écoles 6,2. Dijon, à 62 km, est à 950 € et 2 625 €, Écoles 7,4 : 210 € de plus par mois qu'à Chalon et environ 99 500 € de plus pour 80 m², avec 1,2 point d'école de plus.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Chalon convient aux familles qui veulent acheter un appartement autour de 110 000 €, un coût de la vie bas et un grand lac à proximité. Elle convient moins à celles qui veulent une ville en croissance, une note d'école comparable à celle de Dijon ou de Beaune, ou une maison à prix bas : l'écart de 41 % est à peser.",
+      },
+    ],
+    relatedCities: ["chalon-sur-saone", "beaune", "macon", "dijon"],
+    relatedGuides: [
+      "famille-a-dijon-2026",
+      "parent-solo-a-chalon-sur-saone-2026",
+      "10-choses-a-faire-a-chalon-sur-saone-2026",
+    ],
+    tags: ["famille Chalon-sur-Saône 2026", "vivre en famille Chalon-sur-Saône", "loyer T3 Chalon-sur-Saône", "écoles Chalon-sur-Saône", "Chalon-sur-Saône avec enfants"],
+  },
+  {
+    slug: "famille-a-agen-2026",
+    title: "Famille à Agen en 2026 : un T3 à 750 €, 1 719 € le m², Coût 6,4 et −4,1 % d'habitants",
+    metaTitle: "Famille à Agen 2026 : T3 750 €, 1 719 €/m², Coût 6,4",
+    metaDesc: "Famille à Agen : T3 à 750 €, appartements à 1 719 €/m², Coût 6,4, Écoles 5,3, Sécurité 4,7. Comparaison avec Villeneuve-sur-Lot et Montauban.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Agen loue un T3 750 € (notre estimation des loyers) et vend l'appartement 1 719 € le m², soit environ 138 000 € pour 80 m². Le Coût est la meilleure note (6,4, rang 175 sur 593) ; Écoles 5,3 (rang 376) et Sécurité 4,7 (rang 399) sont à regarder de près. La ville a perdu 4,1 % de sa population depuis 2016, à 32 193 habitants, avec 27 % de pauvreté.",
+    sections: [
+      {
+        heading: "Quel budget logement pour une famille à Agen ?",
+        body: "Le T3 est à 750 €, le T2 à 560 €. L'appartement se vend 1 719 € le m² (742 ventes en 2024-2025, DVF) et la maison 1 765 € (392 ventes) : l'écart n'est que de 3 %, ce qui rend la maison presque aussi accessible au m² que l'appartement. Un appartement de 80 m² au prix médian revient à environ 138 000 €, hors frais.",
+      },
+      {
+        heading: "Quelle dynamique démographique ?",
+        body: "Agen a perdu environ 1 376 habitants depuis 2016 (−4,1 %, le recul le plus net de ce lot) ; 15,2 % ont moins de 15 ans et 25,5 % ont 60 ans ou plus (Insee, recensement 2022). Le niveau de vie médian est de 19 160 € par unité de consommation, avec 27 % de pauvreté (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Que disent les notes ?",
+        body: "Coût 6,4 (rang 175, 28 à égalité), Culture 5,5 (rang 308), Vie quotidienne 5,1 (rang 378), Écoles 5,3 (rang 376, 34 à égalité), Nature 5,0 (rang 346), Sécurité 4,7 (rang 399, 28 à égalité), Transports 4,6 (rang 432) et Télétravail 4,3 (rang 466, 27 à égalité). Le pont-canal d'Agen (539 m, 23 arches, mis en service en 1849) est le monument-promenade de la ville.",
+      },
+      {
+        heading: "Quels parcs pour les enfants ?",
+        body: "D'après OpenStreetMap, les espaces verts agenais sont modestes : le parc de la Préfecture (3 hectares), le parc Chabaud (1 hectare) et le jardin Jayan (1 hectare, jeux). Pour une sortie plus ample, le canal et la Garonne offrent des promenades plus que des parcs de jeux : c'est un point à vérifier si vous voulez un grand espace à côté.",
+      },
+      {
+        heading: "Agen face à Villeneuve-sur-Lot et Montauban",
+        body: "Villeneuve-sur-Lot, à 24 km, loue le T3 810 € et vend l'appartement 1 218 € le m², Écoles 6,6 : 60 € de plus par mois qu'Agen mais 501 € de moins au m², avec 1,3 point d'école de plus. Montauban, à 62 km, est à 860 € et 1 983 €, Écoles 6,2, avec 19 % de pauvreté, contre 27 % à Agen.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Agen convient aux familles qui veulent un T3 à 750 €, une maison au prix de l'appartement et une grande ville de Garonne à taille humaine. Celles qui veulent un score d'école supérieur à 6, un quartier à faible pauvreté ou une ville en croissance regarderont Villeneuve-sur-Lot ou Montauban.",
+      },
+    ],
+    relatedCities: ["agen", "villeneuve-sur-lot", "montauban"],
+    relatedGuides: [
+      "famille-a-montauban-2026",
+      "10-choses-a-faire-a-agen-2026",
+      "parent-solo-a-villeneuve-sur-lot-2026",
+    ],
+    tags: ["famille Agen 2026", "vivre en famille Agen", "loyer T3 Agen", "écoles Agen", "Agen avec enfants"],
+  },
+  {
+    slug: "famille-a-mont-de-marsan-2026",
+    title: "Famille à Mont-de-Marsan en 2026 : T3 à 740 €, 2 101 € le m², Coût 6,2 et +5,3 % d'habitants",
+    metaTitle: "Famille à Mont-de-Marsan 2026 : T3 740 €, 2 101 €/m²",
+    metaDesc: "Famille à Mont-de-Marsan : T3 à 740 €, appartements à 2 101 €/m², Coût 6,2, Sécurité 5,7. Comparaison avec Dax, Pau et Bayonne.",
+    category: "famille",
+    emoji: "👨‍👩‍👧‍👦",
+    readMinutes: 6,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Mont-de-Marsan loue un T3 740 € (notre estimation des loyers) et vend l'appartement 2 101 € le m², soit environ 168 000 € pour 80 m², avec Coût 6,2 (rang 226 sur 593) et Sécurité 5,7 (rang 241). La ville a gagné 5,3 % de population depuis 2016, à 31 455 habitants ; elle est plus âgée que la moyenne de ce lot, avec 14,4 % de moins de 15 ans.",
+    sections: [
+      {
+        heading: "Quel budget logement à Mont-de-Marsan ?",
+        body: "Le T3 est à 740 €, le T2 à 550 €. L'appartement se vend 2 101 € le m² (371 ventes en 2024-2025, DVF) et la maison 2 067 € (528 ventes) : la maison est un peu moins chère au m² (le prix inclut le terrain), et c'est le marché principal. Un appartement de 80 m² au prix médian revient à environ 168 000 €, hors frais.",
+      },
+      {
+        heading: "Quelle population ?",
+        body: "La commune a gagné environ 1 570 habitants depuis 2016 (+5,3 %) ; 14,4 % ont moins de 15 ans et 28,5 % ont 60 ans ou plus (Insee, recensement 2022). Le niveau de vie médian est de 22 030 € par unité de consommation, avec 16 % de pauvreté (Insee, Filosofi 2021).",
+      },
+      {
+        heading: "Que disent les notes ?",
+        body: "Coût 6,2 (rang 226, 23 à égalité), Vie quotidienne 5,9 (rang 234), Écoles 5,8 (rang 249, 22 à égalité), Sécurité 5,7 (rang 241, 31 à égalité), Nature 5,6 (rang 320, 20 à égalité), Culture 5,5 (rang 308), Télétravail 4,8 (rang 434, 26 à égalité) et Transports 4,6 (rang 432). Le profil est moyen partout, sans point de rupture.",
+      },
+      {
+        heading: "Quels espaces pour les enfants ?",
+        body: "D'après OpenStreetMap, le parc Jean-Rameau (9 hectares, jeux) est le grand parc urbain, devant le parc Étienne-Lacaze (4 hectares, jeux) et le parc animalier de Nahuques (3 hectares, jeux). La ville s'est bâtie au confluent du Midou et de la Douze, qui forment la Midouze : les quais sont la promenade du centre.",
+      },
+      {
+        heading: "Mont-de-Marsan face à Dax, Pau et Bayonne",
+        body: "Dax, à 48 km, loue le T3 780 € et vend l'appartement 2 538 € le m², Écoles 5,3. Pau, à 67 km, est à 900 € et 2 135 €, Écoles 7,4 : 160 € de plus par mois qu'à Mont-de-Marsan pour 1,6 point d'école de plus. Bayonne, à 90 km, est à 1 200 € et 4 039 €, Écoles 7,0.",
+      },
+      {
+        heading: "Verdict par profil",
+        body: "Mont-de-Marsan convient aux familles qui veulent un T3 sous 750 €, une ville en croissance et des parcs de jeux dans le tissu urbain. Celles qui veulent un score d'école élevé ou une vie culturelle dense regarderont Pau ; celles qui travaillent sur la côte feront les 90 km jusqu'à Bayonne, à vérifier avant de signer.",
+      },
+    ],
+    relatedCities: ["mont-de-marsan", "dax", "pau", "bayonne"],
+    relatedGuides: [
+      "famille-a-pau-2026",
+      "parent-solo-a-mont-de-marsan-2026",
+      "10-choses-a-faire-a-mont-de-marsan-2026",
+    ],
+    tags: ["famille Mont-de-Marsan 2026", "vivre en famille Mont-de-Marsan", "loyer T3 Mont-de-Marsan", "écoles Mont-de-Marsan", "Mont-de-Marsan avec enfants"],
+  },
+  {
     slug: "palmares-juillet-2026-rapport-qualite-vie-loyer",
     title: "Palmarès juillet 2026 : les 20 villes au meilleur rapport qualité de vie / loyer",
     metaTitle: "Palmarès juillet 2026 — Qualité de vie / loyer : le top 20",
