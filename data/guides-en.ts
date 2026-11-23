@@ -71400,7 +71400,59 @@ export const EN_GUIDES: EnGuide[] = [
       "lifestyle",
       "2026"
     ]
-  }
+  },
+  {
+    slug: "french-cities-apartment-price-spread-per-m2-dvf-483-cities-2026",
+    title: "Does the median price lie? The spread of apartment prices per m² in 483 French cities",
+    metaTitle: "Apartment price spread per m² in 483 French cities (DVF)",
+    metaDesc: "Montbéliard ×2.21, Guingamp ×2.18, Marseille ×1.83: in 483 cities the priciest quarter of apartments costs up to 2.2 times the cheapest quarter (DVF).",
+    category: "budget",
+    emoji: "📏",
+    readMinutes: 8,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Across the 483 cities where at least 100 apartments sold in 2024 and 2025, the priciest quarter costs a median 48% more per m² than the cheapest quarter, a gap of €1,064 per m². Four cities more than double it: Montbéliard (×2.21), Guingamp (×2.18), Les Abymes (×2.13) and Chenôve (×2.03). At the other end, La Chapelle-sur-Erdre (×1.15) and Eysines (×1.19) sell almost everything at one price. The practical upshot: in a wide-spread city the median price quoted everywhere is not what you will pay, and if your budget is tight the lower quarter is the number that matters. Figures come from the 2024-2025 DVF sales in our database; Alsace-Moselle (land-register regime) is not covered.",
+    sections: [
+      {
+        heading: "What does the gap between the lower and upper price quarter measure?",
+        body: "It compares two per-m² prices in the same city: the price below which 25% of apartments sold (the lower quarter, or first quartile) and the price below which 75% sold (the upper quarter). Their ratio shows how far prices fan out: ×1.2 means nearly everything sells at the same price, ×2 means the local upper end costs double the lower end. We computed it for the 483 cities in our database with at least 100 apartment sales in 2024 and 2025 in the DVF file. The median keeps a single point in the middle and says nothing about how wide the range is. For the median alone, see our ranking of apartment prices per m²; this guide looks at what it hides.",
+      },
+      {
+        heading: "Which cities have the widest relative spread?",
+        body: "Montbéliard (×2.21: €624 per m² for the lower quarter, €1,382 for the upper), Guingamp (×2.18: €1,610 and €3,513), Les Abymes (×2.13: €1,317 and €2,805), Chenôve (×2.03: €906 and €1,839), Aulnay-sous-Bois (×1.93: €2,070 and €4,000), Rillieux-la-Pape (×1.92), Échirolles (×1.87), Beauvais (×1.84), Marseille and Saint-Claude (×1.83), Vaulx-en-Velin (×1.82), then Montluçon, Biscarrosse and Montélimar (×1.81). In all, 37 of 483 cities top ×1.7 and four top ×2. These cities mix segments that have little in common: old flats needing work next to recent developments, city centre next to struggling estates, studios next to large apartments. The median there averages different worlds rather than describing a price you will actually meet.",
+      },
+      {
+        heading: "Where are prices the most uniform?",
+        body: "In residential suburbs and new towns with a more uniform housing stock. La Chapelle-sur-Erdre (×1.15: €3,170 and €3,661), Eysines (×1.19), Tournefeuille (×1.21), Bussy-Saint-Georges, Ozoir-la-Ferrière and Couëron (×1.22), Saint-Médard-en-Jalles (×1.23), then Romainville, Vélizy-Villacoublay and Gex (×1.25). In total 33 of 483 cities stay under ×1.3. That explanation is likely rather than proven by the data: a largely recent stock built in big operations naturally narrows the range. For a buyer it is reassuring: the quoted median is close to what you will pay whichever district you pick.",
+      },
+      {
+        heading: "Where is the top of the market furthest from the bottom, in euros?",
+        body: "The relative gap says nothing about the bill. In euros per m², Saint-Tropez opens the widest gap (€9,492 for the lower quarter, €13,853 for the upper, a €4,361 difference), ahead of Cannes (€4,301 and €7,691, €3,390), Paris (€8,139 and €11,455, €3,316), Cassis (€5,921 and €9,075), Biarritz (€5,802 and €8,720), Saint-Germain-en-Laye (€4,828 and €7,706), Hossegor (€6,659 and €9,507) and La Baule-Escoublac (€5,213 and €8,056). On a 50 m² flat, the lower-to-upper gap is nearly €170,000 in Cannes and nearly €166,000 in Paris, against about €53,000 for the median gap across the 483 cities.",
+      },
+      {
+        heading: "Are big cities more uneven?",
+        body: "A little, not much. The median ratio is ×1.50 across the 100 cities under 20,000 residents in the sample, ×1.44 across the 127 with 20,000 to 30,000, ×1.48 across the 217 with 30,000 to 100,000 and ×1.54 across the 39 with 100,000 or more; the gap in euros rises from €855 to €1,220 per m². Among big cities Marseille stands out (×1.83: €2,267 and €4,143), ahead of Nîmes (×1.75), Le Havre (×1.71), Perpignan (×1.68: €1,158 and €1,943), Toulon (×1.64), Saint-Denis (×1.62) and Nice (×1.61). The most uniform are Boulogne-Billancourt (×1.31), Paris (×1.41, though a €3,316 gap in euros), Bordeaux (×1.42), Nantes (×1.44) and Lyon (×1.45). Toulouse sits at ×1.59.",
+      },
+      {
+        heading: "Are expensive cities more uniform?",
+        body: "As a ratio yes, in euros no. In the 52 cities with a median under €1,500 per m², the median ratio is ×1.57 for a €548 gap; between €1,500 and €2,500 (144 cities) it is ×1.52 and €841; between €2,500 and €3,500 (136 cities), ×1.46 and €1,110; between €3,500 and €5,000 (82 cities), ×1.43 and €1,462; above €5,000 (69 cities), ×1.36 and €1,967. Where the m² is dear, prices fan out proportionally a little less, but the same proportion weighs far more. Conversely in a cheap city the relative spread is wider, and a buyer who targets the lower quarter can pay about half the median.",
+      },
+      {
+        heading: "Is the spread comparable for houses?",
+        body: "Same order of magnitude, with sharper extremes. Across the 460 cities with at least 100 house sales in 2024-2025, the median ratio is ×1.51. Ten cities more than double it: Thiers (×3.09: €533 and €1,646 per m²), Fort-de-France (×2.66), Ribérac (×2.37), Baie-Mahault (×2.23), Le Blanc (×2.22), Villefranche-de-Rouergue (×2.21), Saint-Paul on La Réunion (×2.13), Maubeuge (×2.09), Porto-Vecchio (×2.01) and Cannes (×2.00). The most uniform are mostly Paris-region new towns: Guyancourt (×1.20), Montigny-le-Bretonneux and Bussy-Saint-Georges (×1.22), Savigny-le-Temple (×1.23) and Torcy (×1.25), joined by Trélazé (×1.25) in Maine-et-Loire. In the 402 cities with both series, houses are more spread than apartments in 199 of them: close to one in two, so no rule.",
+      },
+      {
+        heading: "Which regions have the most spread-out markets?",
+        body: "Cities in Corsica (median ×1.59, five cities), Provence-Alpes-Côte d'Azur (×1.56, 43 cities), Normandy (×1.56, 18), Bourgogne-Franche-Comté, Centre-Val de Loire and Grand Est (×1.55) lead. Next come Hauts-de-France (×1.54), Auvergne-Rhône-Alpes and Occitanie (×1.52), La Réunion (×1.48, five cities), Brittany (×1.47), Pays de la Loire and Nouvelle-Aquitaine (×1.46). Île-de-France closes the list at ×1.40 across 161 cities: prices there are high but relatively uniform within each commune.",
+      },
+      {
+        heading: "How do you use this spread when buying?",
+        body: "Three rules. One: in a city at ×1.7 or more, do not budget at the median price; look at the range. In 116 cities of the sample the lower quarter sells under €1,500 per m², and in 29 under €1,000 (Montluçon €500, Saint-Claude €591, Montbéliard €624, Sedan €657, Tulle €659). Two: only three cities post a median of €2,500 or more with a lower quarter under €2,000: Rillieux-la-Pape (€1,750), Vaulx-en-Velin (€1,802) and Grenoble (€1,963), worth a close look, because the lower quarter there is also where the hardest districts sit. Three: a wide spread is not a bargain in itself; it flags a heterogeneous stock. Limits: DVF prices mix old and new, small and large flats, floors and condition, and cover 2024 and 2025 only; cities with fewer than 100 sales are left out for lack of a reliable statistic. See the median price ranking and the city profile for context.",
+      }
+    ],
+    relatedCities: ["montbeliard","guingamp","marseille","montlucon","cannes","paris","la-chapelle-sur-erdre","tournefeuille","perpignan","toulouse","nice"],
+    tags: ["apartment price spread","price per m²","DVF 2024-2025","price quartiles","median price","property market by city"],
+  },
 ];
 
 // Build-time guard: a duplicate slug makes the later guide dead/shadowed

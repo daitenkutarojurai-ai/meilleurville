@@ -11685,6 +11685,11 @@
       "slug": "living-by-the-sea-year-round-france-2026",
       "title": "Living by the sea all year in France: the July postcard vs. January",
       "emoji": "🌊"
+    },
+    {
+      "slug": "french-cities-apartment-price-spread-per-m2-dvf-483-cities-2026",
+      "title": "Does the median price lie? The spread of apartment prices per m² in 483 French cities",
+      "emoji": "📏"
     }
   ],
   "tags": [
@@ -12204,6 +12209,11 @@
       "count": 6
     },
     {
+      "slug": "price-per-m",
+      "label": "price per m²",
+      "count": 6
+    },
+    {
       "slug": "rhone-alpes",
       "label": "rhone alpes",
       "count": 6
@@ -12261,11 +12271,6 @@
     {
       "slug": "le-mans",
       "label": "le mans",
-      "count": 5
-    },
-    {
-      "slug": "price-per-m",
-      "label": "price per m²",
       "count": 5
     },
     {
@@ -12546,6 +12551,11 @@
     {
       "slug": "lorient",
       "label": "lorient",
+      "count": 3
+    },
+    {
+      "slug": "median-price",
+      "label": "median price",
       "count": 3
     },
     {

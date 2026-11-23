@@ -86142,6 +86142,59 @@ export const GUIDES: Guide[] = [
       "qualité de vie"
     ]
   },
+  {
+    slug: "villes-ecart-de-prix-des-appartements-au-m2-dvf-483-villes-2026",
+    title: "Le prix médian ment-il ? L'écart de prix des appartements au m² dans 483 villes",
+    metaTitle: "Écart de prix des appartements au m² : 483 villes (DVF)",
+    metaDesc: "Montbéliard ×2,21, Guingamp ×2,18, Marseille ×1,83 : dans 483 villes, le quart le plus cher des appartements coûte jusqu'à 2,2 fois le quart le moins cher (DVF).",
+    category: "budget",
+    emoji: "📏",
+    readMinutes: 8,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Dans 483 villes où au moins 100 appartements ont été vendus en 2024 et 2025, le prix du quart le plus cher dépasse en médiane de 48 % celui du quart le moins cher, soit un écart de 1 064 € par m². Quatre villes dépassent le double : Montbéliard (×2,21), Guingamp (×2,18), Les Abymes (×2,13) et Chenôve (×2,03). À l'autre bout, La Chapelle-sur-Erdre (×1,15) et Eysines (×1,19) vendent presque tout au même prix. Conclusion pratique : dans une ville à fort écart, le prix médian que vous lisez partout ne dit pas ce que vous paierez, et c'est le quart bas qui compte si votre budget est serré. Chiffres calculés à partir des ventes DVF 2024-2025 de notre base ; l'Alsace-Moselle (livre foncier) n'y figure pas.",
+    sections: [
+      {
+        heading: "Que mesure l'écart entre le quart bas et le quart haut des prix ?",
+        body: "Il compare deux prix au m² d'une même ville : celui en dessous duquel se vendent 25 % des appartements (le quart bas, ou premier quartile) et celui en dessous duquel se vendent 75 % d'entre eux (le quart haut). Leur rapport dit à quel point les prix s'étalent : ×1,2 signifie que presque tout se vend au même prix, ×2 que le haut de gamme local coûte le double du bas. Nous l'avons calculé sur les 483 villes de notre base qui comptent au moins 100 ventes d'appartements en 2024 et 2025 dans le fichier DVF. Le prix médian, lui, ne retient qu'un point au milieu : il ne dit rien de la largeur de la fourchette. Pour la médiane seule, voir notre classement des prix au m² des appartements ; ici on regarde ce qu'elle cache.",
+      },
+      {
+        heading: "Dans quelles villes l'écart relatif est-il le plus grand ?",
+        body: "Montbéliard (×2,21 : 624 € le m² pour le quart bas, 1 382 € pour le quart haut), Guingamp (×2,18 : 1 610 € et 3 513 €), Les Abymes (×2,13 : 1 317 € et 2 805 €), Chenôve (×2,03 : 906 € et 1 839 €), Aulnay-sous-Bois (×1,93 : 2 070 € et 4 000 €), Rillieux-la-Pape (×1,92), Échirolles (×1,87), Beauvais (×1,84), Marseille et Saint-Claude (×1,83), Vaulx-en-Velin (×1,82), puis Montluçon, Biscarrosse et Montélimar (×1,81). Au total, 37 villes sur 483 dépassent ×1,7 et 4 dépassent ×2. Ces villes mélangent des segments que tout oppose : logements anciens à rénover et résidences récentes, centre-ville et quartiers en difficulté, petites surfaces et grands appartements. Le prix médian y est une moyenne de mondes différents, pas un prix que l'on rencontre.",
+      },
+      {
+        heading: "Où les prix sont-ils les plus homogènes ?",
+        body: "Dans des communes résidentielles ou de villes nouvelles, à parc de logements plus uniforme. La Chapelle-sur-Erdre (×1,15 : 3 170 € et 3 661 €), Eysines (×1,19), Tournefeuille (×1,21), Bussy-Saint-Georges, Ozoir-la-Ferrière et Couëron (×1,22), Saint-Médard-en-Jalles (×1,23), puis Romainville, Vélizy-Villacoublay et Gex (×1,25). Au total, 33 villes sur 483 restent sous ×1,3. C'est une lecture probable, non démontrée par les données : un parc largement récent et construit par grandes opérations resserre naturellement l'éventail. Pour l'acheteur, l'effet est rassurant : le prix médian affiché est proche de ce qu'il paiera, quel que soit le quartier.",
+      },
+      {
+        heading: "Où le haut du marché est-il le plus loin du bas, en euros ?",
+        body: "L'écart relatif ne dit rien de la facture. En euros par m², c'est Saint-Tropez qui creuse le plus (9 492 € pour le quart bas, 13 853 € pour le quart haut, soit 4 361 € d'écart), devant Cannes (4 301 € et 7 691 €, 3 390 €), Paris (8 139 € et 11 455 €, 3 316 €), Cassis (5 921 € et 9 075 €), Biarritz (5 802 € et 8 720 €), Saint-Germain-en-Laye (4 828 € et 7 706 €), Hossegor (6 659 € et 9 507 €) et La Baule-Escoublac (5 213 € et 8 056 €). Sur un 50 m², l'écart entre quart bas et quart haut atteint près de 170 000 € à Cannes et près de 166 000 € à Paris, contre 53 000 € pour l'écart médian des 483 villes.",
+      },
+      {
+        heading: "Les grandes villes sont-elles plus hétérogènes ?",
+        body: "Un peu, pas beaucoup. Le rapport médian est de ×1,50 dans les 100 villes de moins de 20 000 habitants de l'échantillon, ×1,44 dans les 127 villes de 20 000 à 30 000, ×1,48 dans les 217 de 30 000 à 100 000 et ×1,54 dans les 39 de 100 000 et plus ; l'écart en euros, lui, monte de 855 € à 1 220 € le m². Parmi les grandes villes, Marseille détonne (×1,83 : 2 267 € et 4 143 €), devant Nîmes (×1,75), Le Havre (×1,71), Perpignan (×1,68 : 1 158 € et 1 943 €), Toulon (×1,64), Saint-Denis (×1,62) et Nice (×1,61). Les plus homogènes sont Boulogne-Billancourt (×1,31), Paris (×1,41, mais 3 316 € d'écart en euros), Bordeaux (×1,42), Nantes (×1,44) et Lyon (×1,45). Toulouse est à ×1,59.",
+      },
+      {
+        heading: "Les villes chères sont-elles plus homogènes ?",
+        body: "Oui en rapport, non en euros. Dans les 52 villes dont le prix médian est sous 1 500 € le m², le rapport médian est de ×1,57 pour un écart de 548 € ; entre 1 500 € et 2 500 € (144 villes), ×1,52 et 841 € ; entre 2 500 € et 3 500 € (136 villes), ×1,46 et 1 110 € ; entre 3 500 € et 5 000 € (82 villes), ×1,43 et 1 462 € ; au-dessus de 5 000 € (69 villes), ×1,36 et 1 967 €. Là où le m² est cher, les prix s'étalent en proportion un peu moins, mais la même proportion pèse beaucoup plus lourd. À l'inverse, dans une ville bon marché, l'étalement relatif est plus fort, et un acheteur qui vise le quart bas peut payer moitié moins que la médiane.",
+      },
+      {
+        heading: "Et pour les maisons, l'écart est-il comparable ?",
+        body: "Il est du même ordre, avec des extrêmes plus marqués. Sur les 460 villes comptant au moins 100 ventes de maisons en 2024-2025, le rapport médian est de ×1,51. Dix villes dépassent le double : Thiers (×3,09 : 533 € et 1 646 € le m²), Fort-de-France (×2,66), Ribérac (×2,37), Baie-Mahault (×2,23), Le Blanc (×2,22), Villefranche-de-Rouergue (×2,21), Saint-Paul à La Réunion (×2,13), Maubeuge (×2,09), Porto-Vecchio (×2,01) et Cannes (×2,00). Les plus homogènes sont surtout des villes nouvelles franciliennes : Guyancourt (×1,20), Montigny-le-Bretonneux et Bussy-Saint-Georges (×1,22), Savigny-le-Temple (×1,23) et Torcy (×1,25), rejointes par Trélazé (×1,25), en Maine-et-Loire. Dans les 402 villes qui ont les deux séries, la maison est plus dispersée que l'appartement dans 199 d'entre elles : presque une sur deux, donc pas de règle.",
+      },
+      {
+        heading: "Quelles régions ont les marchés les plus étalés ?",
+        body: "Les villes de Corse (×1,59 en médiane, cinq villes), de Provence-Alpes-Côte d'Azur (×1,56, 43 villes), de Normandie (×1,56, 18), de Bourgogne-Franche-Comté, du Centre-Val de Loire et du Grand Est (×1,55) sont en tête. Suivent les Hauts-de-France (×1,54), l'Auvergne-Rhône-Alpes et l'Occitanie (×1,52), La Réunion (×1,48, cinq villes), la Bretagne (×1,47), les Pays de la Loire et la Nouvelle-Aquitaine (×1,46). L'Île-de-France ferme la marche à ×1,40 sur 161 villes, des prix élevés mais relativement homogènes à l'intérieur de chaque commune.",
+      },
+      {
+        heading: "Comment utiliser cet écart quand on cherche à acheter ?",
+        body: "Trois règles. Un : dans une ville à ×1,7 et plus, ne budgétez pas au prix médian ; regardez la fourchette. Dans 116 villes de l'échantillon, le quart bas se vend sous 1 500 € le m², et dans 29 sous 1 000 € (Montluçon 500 €, Saint-Claude 591 €, Montbéliard 624 €, Sedan 657 €, Tulle 659 €). Deux : seules trois villes affichent une médiane de 2 500 € ou plus avec un quart bas sous 2 000 € : Rillieux-la-Pape (1 750 €), Vaulx-en-Velin (1 802 €) et Grenoble (1 963 €), des offres à examiner de près, car le quart bas y est aussi celui des quartiers les plus difficiles. Trois : un écart élevé n'est pas une bonne affaire en soi, il signale l'hétérogénéité du parc. Limites : les prix DVF mélangent ancien et neuf, petites et grandes surfaces, étages et états, et le fichier est celui de 2024 et 2025 seulement ; les villes à moins de 100 ventes sont exclues faute de statistique fiable. Voir le classement des prix médians et la fiche d'une ville pour le contexte.",
+      }
+    ],
+    relatedCities: ["montbeliard","guingamp","marseille","montlucon","cannes","paris","la-chapelle-sur-erdre","tournefeuille","perpignan","toulouse","nice"],
+    relatedGuides: ["prix-appartement-m2-par-ville-552-villes-dvf-2026","prix-maison-m2-par-ville-560-villes-dvf-2026","villes-maison-moins-chere-que-appartement-m2-dvf-2026","villes-france-moins-cheres-2026-top-10","annees-de-niveau-de-vie-pour-acheter-50-m2-409-villes-2026"],
+    tags: ["écart de prix au m²","prix des appartements","DVF 2024-2025","quartile de prix","prix médian","marché immobilier par ville"],
+  },
 ];
 
 // --- Build-time integrity check -------------------------------------------

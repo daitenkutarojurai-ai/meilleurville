@@ -12185,6 +12185,11 @@
       "slug": "villes-escalade-crossfit-street-workout-582-villes-2026",
       "title": "Où s'entraîner en France ? Escalade, CrossFit et street workout dans 582 villes",
       "emoji": "🧗"
+    },
+    {
+      "slug": "villes-ecart-de-prix-des-appartements-au-m2-dvf-483-villes-2026",
+      "title": "Le prix médian ment-il ? L'écart de prix des appartements au m² dans 483 villes",
+      "emoji": "📏"
     }
   ],
   "tags": [
@@ -13706,6 +13711,11 @@
     {
       "slug": "picardie",
       "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "prix-median",
+      "label": "prix médian",
       "count": 3
     },
     {

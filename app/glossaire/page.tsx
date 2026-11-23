@@ -1264,6 +1264,28 @@ const SECTIONS: Section[] = [
       },
     ],
   },
+  {
+    title: "Dispersion des prix de l'immobilier",
+    emoji: "📏",
+    terms: [
+      {
+        term: "Quartile de prix (quart bas, quart haut)",
+        def: "Les quartiles découpent les ventes d'une ville, classées du prix au m² le plus bas au plus haut, en quatre groupes égaux. Le premier quartile, ou quart bas, est le prix en dessous duquel se vendent 25 % des biens ; le troisième, ou quart haut, celui en dessous duquel se vendent 75 % d'entre eux ; entre les deux, la moitié des ventes. Ils complètent le prix médian (défini plus haut) : la médiane dit où se situe le milieu, les quartiles disent jusqu'où la fourchette s'étend de part et d'autre. Pour un budget serré, c'est le quart bas qui renseigne sur ce que l'on peut espérer trouver.",
+      },
+      {
+        term: "Écart interquartile de prix",
+        def: "Différence, ou rapport, entre le prix au m² du quart haut et celui du quart bas d'une même ville. Un rapport de ×1,2 signifie que presque tous les biens se vendent au même prix ; un rapport de ×2 que le haut du marché local coûte le double du bas. Dans notre mesure sur les ventes DVF 2024-2025 des appartements, le rapport médian des villes de plus de 100 ventes est de ×1,48 ; il dépasse ×2 à Montbéliard, Guingamp, Les Abymes et Chenôve. Un rapport élevé n'est ni bon ni mauvais : il dit que le prix médian décrit mal ce que l'on paiera réellement.",
+      },
+      {
+        term: "Effet de composition",
+        def: "Variation d'un prix moyen ou médian qui vient du changement de ce qui se vend, et non d'un changement de prix des mêmes biens. Si une année compte davantage de ventes de logements neufs, de grandes surfaces ou d'un quartier cher, la médiane de la ville monte sans que le moindre bien ait pris de valeur. C'est la raison pour laquelle deux millésimes DVF se comparent avec prudence, et pourquoi une médiane calculée sur peu de ventes (nous exigeons au moins 100 sur deux ans pour l'écart de prix) doit se lire comme un ordre de grandeur.",
+      },
+      {
+        term: "Hétérogénéité du parc de logements",
+        def: "Mesure informelle de la diversité des biens d'une commune : âge de construction, taille, état, quartiers. Plus le parc est hétérogène, plus la fourchette de prix est large et moins le prix médian représente un bien type. Les communes résidentielles bâties par grandes opérations, comme beaucoup de villes nouvelles, affichent les fourchettes les plus étroites ; les villes qui mêlent centre ancien, copropriétés dégradées et programmes neufs, les plus larges. C'est une lecture probable de l'écart de prix, pas une mesure directe : DVF ne donne ni l'état ni l'âge du bien.",
+      },
+    ],
+  },
 ];
 
 const TERM_COUNT = SECTIONS.reduce((n, s) => n + s.terms.length, 0);
