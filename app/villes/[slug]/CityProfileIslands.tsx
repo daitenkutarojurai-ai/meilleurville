@@ -173,13 +173,13 @@ export function LiveUserScoresCard({ citySlug, cityName, locale }: { citySlug: s
   );
 }
 
-export function RateCityButton({ label }: { label: string }) {
+export function RateCityButton({ label, className }: { label: string; className?: string }) {
   const ctx = useContext(ReviewCtx);
   return (
     <button
       type="button"
       onClick={() => ctx?.open()}
-      className="inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-[var(--accent-hover)] transition-colors"
+      className={className ?? "inline-flex items-center justify-center gap-1.5 w-full rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 hover:bg-[var(--accent-hover)] transition-colors"}
     >
       {label}
     </button>

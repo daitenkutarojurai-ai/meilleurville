@@ -24,12 +24,16 @@
  * tension locative…), les fiches ville, guides, classements, régions,
  * départements, paires de comparaison et hubs.
  *
+ * Rouvertes le 2026-11-23 (`docs/seo/strategie-audience.md`) : `bruit` (CTR 5,9 %,
+ * position 6,6 sur l’export Search Console 2026-08-22 → 11-21) et `cout-de-la-vie`
+ * (CTR 3,6 %), les deux au-dessus de la moyenne du site (1,29 %). Test : relire
+ * leurs impressions sur l’export suivant ; les remettre ici si elles retombent.
+ *
  * Les pages restent en ligne et liées (`noindex, follow`). Rouvrir une
  * famille = retirer son nom ici, rien d'autre. Ne pas en ajouter une sans la
  * mesurer de la même façon.
  */
 const FR_NOINDEX_CITY_SUBPAGES = [
-  "bruit",
   "securite",
   "sante",
   "emploi",
@@ -48,7 +52,6 @@ const FR_NOINDEX_CITY_SUBPAGES = [
   "statistiques",
   "agenda",
   "presidentielle-2027",
-  "cout-de-la-vie",
 ] as const;
 
 const FR_NOINDEX_PATTERNS: readonly RegExp[] = [

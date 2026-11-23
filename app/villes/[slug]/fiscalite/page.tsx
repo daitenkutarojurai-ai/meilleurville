@@ -31,7 +31,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const f = fiscalityForCity({ department: city.department, region: city.region });
   return {
-    title: fitTitle(`Fiscalité immobilière à ${city.name} · Taxe foncière, THRS, DMTO 2026`),
+    // Ouvre sur « taxe foncière » : c'est la requête qui amène les clics (CTR 3,7 %).
+    title: fitTitle(`Taxe foncière à ${city.name} 2026 · Taux, THRS, DMTO`),
     description: `Estimation départementale 2026 pour ${city.name} (${city.department}) : taxe foncière (${f.taxeFonciereT3}), THRS, droits de mutation. Données DGFiP.`,
     alternates: cityAlternates("fiscalite", slug),
     openGraph: {

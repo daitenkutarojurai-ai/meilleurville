@@ -13,7 +13,21 @@ import { FeedbackWidget } from "@/components/FeedbackWidget";
 import { ORIGIN_BY_LOCALE, pathAlternates } from "@/lib/i18n";
 import { cityFaq } from "@/lib/city-faq";
 import { cityPhoto } from "@/lib/city-images";
-import { fitTitle } from "@/lib/brand";
+import { formatScore } from "@/lib/utils";
+import { GUIDES } from "@/data/guides";
+import { clampMeta } from "@/lib/brand";
+
+/** « Vivre à X : avis, loyers et quartiers 2026 », raccourci par paliers sous 60 caractères.
+ *  La requête que la fiche doit gagner est « vivre à X » / « X avis » (Search Console 2026-11 :
+ *  « vivre à rennes » en position 19, fiches ville à 1,17 % de CTR contre 1,29 % pour le site). */
+function cityTitle(name: string): string {
+  for (const t of [
+    `Vivre à ${name} : avis, loyers et quartiers 2026`,
+    `Vivre à ${name} : avis et loyers 2026`,
+    `Vivre à ${name} : avis 2026`,
+  ]) if (t.length <= 60) return t;
+  return `Vivre à ${name}`;
+}
 
 // Pure static export (output:"export" on Cloudflare) — no ISR/runtime cache.
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -31,14 +45,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   const housing = getHousing(city.slug);
-  const rentHint = housing ? ` Loyer T2 : ${housing.avgRentT2}€/mois.` : "";
+  const rentHint = housing ? ` Loyer T2 ≈ ${housing.avgRentT2} €/mois.` : "";
   return {
-    title: fitTitle(`${city.name} · Avis habitants, qualité de vie & classements 2026`),
+    title: cityTitle(city.name),
     // No generic "Comparez avec d'autres villes." tail: it said nothing a
     // searcher wants and pushed 495 of the 540 city descriptions past the ~160
     // chars Google renders, so the rent figure — the part people actually scan
     // for — was what got cut. Without it, only 15 still overrun.
-    description: `${city.name} (${city.department}, ${city.region}) : score de qualité de vie ${city.scores.global}/10. Avis d'habitants, quartiers, données locales.${rentHint}`,
+    description: clampMeta(`Vivre à ${city.name} (${city.department}) : note ${formatScore(city.scores.global).replace(".", ",")}/10 sur 8 critères.${rentHint} Quartiers, points forts, points faibles et avis d'habitants.`),
     // City slugs are 1:1 across locales, so the EN equivalent is exact.
     // Via pathAlternates() plutôt qu'à la main : la carte écrite ici n'annonçait
     // que fr-FR / en-US, donc un anglophone hors des États-Unis retombait sur le
@@ -63,11 +77,14 @@ export default async function CityPage({ params }: Props) {
 
   const faq = cityFaq(city, "fr");
   const photo = cityPhoto(city.slug);
+  // Le guide « s'installer à X » de la ville, s'il existe : la fiche vise « vivre à X »,
+  // le guide « s'installer à X » ; les deux se citent au lieu de se concurrencer.
+  const installGuide = GUIDES.find((g) => g.slug.startsWith(`vivre-a-${city.slug}-`));
   return (
     <main id="main-content" className="min-h-screen">
       <CityJsonLd city={city} faq={faq} photo={photo} />
       <Navbar />
-      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} photo={photo} />
+      <CityProfile city={city} data={buildCityProfileData(city)} faq={faq} photo={photo} installGuideHref={installGuide ? `/guides/${installGuide.slug}` : undefined} />
       <CityNewsSection slug={city.slug} name={city.name} />
       <CityGuidesList slug={city.slug} name={city.name} />
       <div className="mx-auto max-w-4xl px-4 sm:px-6 pb-12">

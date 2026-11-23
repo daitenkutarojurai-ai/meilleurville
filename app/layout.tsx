@@ -113,7 +113,10 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true },
+    // Grandes vignettes et extraits complets : condition d'éligibilité à Discover
+    // (stratégie d'audience 2026-11-23). Les familles hors index gardent leur
+    // en-tête X-Robots-Tag posé par le Worker.
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1, "max-video-preview": -1 },
   },
   manifest: "/manifest.webmanifest",
   appleWebApp: {

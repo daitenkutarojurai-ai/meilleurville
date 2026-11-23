@@ -28,7 +28,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Avis honnête sur ${city.name} 2026 · Points forts, faiblesses, profils adaptés`),
+    // « Avis sur X » : la fiche ville vise « vivre à X », cette page la requête « X avis ».
+    title: fitTitle(`Avis sur ${city.name} 2026 · Ce qu'on aime, ce qui coince`),
     description: `Synthèse honnête sur ${city.name} : ce qui marche vraiment, ce qui cloche, pour qui c'est fait.`,
     alternates: cityAlternates("avis-honnete", slug),
     openGraph: {

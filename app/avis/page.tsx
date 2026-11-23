@@ -13,7 +13,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: hubTitle("Avis et notes des villes de France"),
+  title: hubTitle("Avis et notes des villes : notez la vôtre"),
   description: `La note de qualité de vie des ${CITIES_COUNT} villes françaises, sur 8 critères mesurés — et l'avis des gens qui y vivent. Cherchez la vôtre, lisez, donnez le vôtre.`,
   alternates: pathAlternates("/avis", "/reviews"),
   openGraph: {

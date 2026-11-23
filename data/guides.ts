@@ -109,7 +109,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "budget-vivre-en-france-comparatif",
     title: "Combien coûte vraiment la vie en dehors de Paris ? Comparatif 2025",
-    metaTitle: "Coût de la vie en France hors Paris — Comparatif 20 villes 2025",
+    metaTitle: "Coût de la vie en France hors Paris : 20 villes comparées",
     metaDesc:
       "Loyer, voiture, chauffage : ce que coûte la vie dans 15 villes hors Paris. Un T2 va de 600 € à Limoges à 1 100 € à Annecy, contre 1 800 € à Paris.",
     category: "budget",
@@ -1383,7 +1383,7 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes côtières françaises 2025 — Mer, Qualité de vie, Prix",
     emoji: "🌊",
     category: "lifestyle",
-    metaTitle: "Meilleures villes côtières France 2025 — Atlantique, Méditerranée",
+    metaTitle: "Meilleures villes en bord de mer où vivre en France",
     metaDesc: "Quelles villes côtières choisir en France ? Comparatif 2025 des meilleures villes au bord de la mer : Atlantique (La Rochelle, Brest, Saint-Nazaire), Méditerranée (Sète, Toulon, Antibes), Manche (Caen, Cherbourg).",
     intro: "Vivre au bord de la mer est un rêve pour beaucoup de Français. Mais la mer a un prix, et selon la côte choisie, il peut varier du simple au décuple. Ce guide compare les meilleures villes côtières selon le coût, la qualité de vie à l'année, et ce que la côte apporte vraiment au quotidien.",
     readMinutes: 8,
@@ -1943,7 +1943,7 @@ export const GUIDES: Guide[] = [
     title: "Normandie vs Bretagne 2025 — Quelle région choisir pour s'installer ?",
     emoji: "🌊",
     category: "comparaison",
-    metaTitle: "Normandie vs Bretagne 2025 — Comparatif complet pour s'installer",
+    metaTitle: "Bretagne ou Normandie : où vivre ? Le comparatif complet",
     metaDesc: "Vous hésitez entre Normandie et Bretagne ? Notre comparatif 2025 analyse les deux régions sur tous les critères : climat, emploi, qualité de vie, immobilier, transport et culture.",
     intro: "Normandie et Bretagne sont les deux grandes régions de l'Ouest français, souvent mises en concurrence par les Parisiens en quête d'une vie plus sereine en bord de mer. Elles sont proches géographiquement mais très différentes dans leur identité, leur économie et leur cadre de vie.",
     readMinutes: 8,
@@ -2798,7 +2798,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre dans les Pyrénées en 2025 — Le guide complet des villes de piémont",
     emoji: "⛰️",
     category: "region",
-    metaTitle: "Vivre dans les Pyrénées 2025 — guide villes de piémont",
+    metaTitle: "Où vivre dans les Pyrénées ? Les meilleures villes du piémont",
     metaDesc: "Pau, Tarbes, Foix, Pamiers, Bayonne, Perpignan… Notre guide pour s'installer au pied des Pyrénées en 2025 : qualité de vie, montagne, prix, et meilleures villes du piémont.",
     intro: "Les Pyrénées offrent un art de vivre unique que l'on ne retrouve nulle part ailleurs en France : montagne accessible, mer à 1h (Atlantique ou Méditerranée selon le versant), cuisine régionale d'exception (basque, gasconne, catalane) et des prix immobiliers parmi les plus bas de France. Ce guide couvre les meilleures villes de piémont pyrénéen pour s'installer en 2025.",
     readMinutes: 8,
@@ -3023,7 +3023,7 @@ export const GUIDES: Guide[] = [
     title: "Vivre en Savoie et Haute-Savoie 2025 — Annecy, Chambéry, Aix-les-Bains : le guide complet",
     emoji: "🏔️",
     category: "region",
-    metaTitle: "Vivre Savoie et Haute-Savoie 2025 — guide complet",
+    metaTitle: "Vivre en Savoie ou Haute-Savoie : quelle ville choisir ?",
     metaDesc: "Annecy, Chambéry, Aix-les-Bains, Thonon, Annemasse… Notre guide complet pour s'installer en Savoie et Haute-Savoie en 2025 : prix, qualité de vie, ski et transports.",
     intro: "Les deux Savoie forment l'une des régions les plus attractives de France pour la qualité de vie : montagnes, lacs, gastronomie, air pur, dynamisme économique et une connexion genevoise qui offre des opportunités salariales uniques. Voici les principales villes pour choisir sa base dans les Alpes du Nord.",
     readMinutes: 8,
@@ -3460,7 +3460,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "toulouse-vs-bordeaux-comparatif-2025",
     title: "Toulouse vs Bordeaux : laquelle choisir pour s'installer ?",
-    metaTitle: "Toulouse vs Bordeaux 2025 : comparatif complet",
+    metaTitle: "Toulouse ou Bordeaux : où vivre ? Le comparatif complet",
     metaDesc: "Toulouse ou Bordeaux ? Emploi, prix immobilier, qualité de vie, soleil : comparatif détaillé pour les familles et actifs qui hésitent entre les deux grandes métropoles du Sud-Ouest.",
     category: "comparaison",
     emoji: "⚖️",
@@ -4596,7 +4596,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-frontalier-france-belgique-luxembourg-suisse-2025",
     title: "Vivre côté français près des frontières : Belgique, Luxembourg, Suisse — guide 2025",
-    metaTitle: "Vivre frontalier France 2025 — Belgique, Luxembourg, Suisse",
+    metaTitle: "Vivre frontalier côté français : Suisse, Luxembourg, Belgique",
     metaDesc: "Où vivre en France quand on travaille en Belgique, Luxembourg ou Suisse ? Longwy, Thionville, Annemasse, Saint-Louis : le guide complet des travailleurs frontaliers 2025.",
     category: "teletravail",
     emoji: "🌍",
@@ -8028,7 +8028,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "annecy-vs-chambery-comparatif-2026",
     title: "Annecy vs Chambéry en 2026 : deux capitales savoyardes, deux rapports au prix",
-    metaTitle: "Annecy vs Chambéry 2026 — Lac, montagne, immobilier",
+    metaTitle: "Annecy ou Chambéry : où vivre ? Comparatif 2026",
     metaDesc:
       "Annecy ou Chambéry pour s'installer en Savoie ? L'une est la plus belle et la plus chère ; l'autre offre presque autant pour 40 % de moins. Notre comparatif honnête.",
     category: "comparaison",
@@ -9858,7 +9858,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "aix-en-provence-vs-marseille-comparatif-2026",
     title: "Aix-en-Provence vs Marseille — vivre, travailler, élever ses enfants — 2026",
-    metaTitle: "Aix-en-Provence vs Marseille 2026 : coût, sécurité, écoles",
+    metaTitle: "Aix-en-Provence ou Marseille : où vivre ? Comparatif 2026",
     metaDesc:
       "Aix bourgeoise, Marseille cosmopolite, à 30 km l'une de l'autre : tout les sépare sauf la géographie. Comparatif complet sur 8 critères pour choisir entre les deux capitales provençales.",
     category: "comparaison",
@@ -14646,7 +14646,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
     title: "Vivre en ZRR en 2026 — aides fiscales, où c'est encore actif, qui peut en bénéficier",
-    metaTitle: "ZRR France 2026 : aides fiscales, exonérations",
+    metaTitle: "Communes ZRR et FRR en 2026 : où s'installer, quelles aides",
     metaDesc:
       "ZRR (Zones de Revitalisation Rurale) en 2026 : exonérations IR/taxe foncière/cotisations, créateurs d'entreprise, communes éligibles France Ruralités Revitalisation.",
     category: "budget",
@@ -17877,7 +17877,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-toulon-bilan-honnete-2026",
     title: "Vivre à Toulon en 2026 : le bilan honnête",
-    metaTitle: "Vivre à Toulon 2026 — qualité de vie, logement",
+    metaTitle: "S'installer à Toulon en 2026 : qualité de vie, logement",
     metaDesc: "Toulon : mer, soleil, loyers bas par rapport à la PACA, mais aussi sécurité en deçà de la moyenne et offre économique limitée. Le guide sans filtre.",
     category: "lifestyle",
     emoji: "⚓",
@@ -20677,7 +20677,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-var-guide-2026",
     title: "Vivre dans le Var en 2026 : Toulon, Draguignan, Hyères — guide complet",
-    metaTitle: "Vivre dans le Var 2026 — Toulon, Draguignan, Hyères, Brignoles",
+    metaTitle: "Vivre dans le Var : où s'installer ? Toulon, Hyères… 2026",
     metaDesc: "Le Var : mer, Provence, forêts, mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2026.",
     category: "region",
     emoji: "🌿",
@@ -24342,7 +24342,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-moins-cheres-2026-top-10",
     title: "Top 10 des villes françaises les moins chères pour s'installer en 2026",
-    metaTitle: "Top 10 des villes les moins chères de France 2026",
+    metaTitle: "Villes les moins chères de France où vivre : top 10 2026",
     metaDesc: "Les 10 villes françaises les moins chères pour s'installer en 2026 : immobilier abordable, coût de la vie, qualité de vie. Classement honnête avec données réelles.",
     category: "budget",
     emoji: "💰",
@@ -35115,7 +35115,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bordeaux-2026",
     title: "Vivre à Bordeaux en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Bordeaux 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Bordeaux en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Bordeaux en 2026 : quartiers où chercher, budget réel, marché de l'emploi, océan à 50 min. Le guide honnête, effet TGV compris.",
     category: "lifestyle",
     emoji: "🍷",
@@ -35162,7 +35162,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-toulouse-2026",
     title: "Vivre à Toulouse en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Toulouse 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Toulouse en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Toulouse en 2026 : quartiers, budget réel, Airbus et l'emploi tech, Pyrénées à 1h30. Le guide honnête de la Ville Rose.",
     category: "lifestyle",
     emoji: "🌹",
@@ -35208,7 +35208,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-nantes-2026",
     title: "Vivre à Nantes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Nantes 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Nantes en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Nantes en 2026 : quartiers, budget réel, emploi diversifié, Atlantique à 50 min. Le guide honnête de la métropole de l'Ouest.",
     category: "lifestyle",
     emoji: "🐘",
@@ -35255,7 +35255,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-montpellier-2026",
     title: "Vivre à Montpellier en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Montpellier 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Montpellier en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Montpellier en 2026 : quartiers, budget réel, la mer à 12 km, et les limites du marché de l'emploi. Le guide honnête de la métropole méditerranéenne.",
     category: "lifestyle",
     emoji: "☀️",
@@ -35301,7 +35301,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-rennes-2026",
     title: "Vivre à Rennes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Rennes 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Rennes en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Rennes en 2026 : quartiers, budget réel, le tech breton, Paris en 1h27. Le guide honnête de la capitale bretonne.",
     category: "lifestyle",
     emoji: "🥞",
@@ -35348,7 +35348,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-strasbourg-2026",
     title: "Vivre à Strasbourg en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Strasbourg 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Strasbourg en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Strasbourg en 2026 : quartiers, budget réel, institutions européennes, vélo roi et frontière allemande. Le guide honnête de la capitale alsacienne.",
     category: "lifestyle",
     emoji: "🥨",
@@ -35440,7 +35440,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-marseille-2026",
     title: "Vivre à Marseille en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Marseille 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Marseille en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Marseille en 2026 : quartiers qui fonctionnent, budget réel, mer et calanques au quotidien, et les sujets que la ville ne cache même pas. Guide honnête.",
     category: "lifestyle",
     emoji: "⛵",
@@ -35532,7 +35532,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-grenoble-2026",
     title: "Vivre à Grenoble en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Grenoble 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Grenoble en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Grenoble en 2026 : quartiers, budget réel, pôle tech mondial, trois massifs à 45 min. Le guide honnête de la capitale des Alpes.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -35578,7 +35578,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-angers-2026",
     title: "Vivre à Angers en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Angers 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Angers en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Angers en 2026 : quartiers, budget réel, la douceur angevine chiffrée, Nantes à 50 min et Paris à 1h30. Le guide honnête.",
     category: "lifestyle",
     emoji: "🌿",
@@ -35808,7 +35808,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-clermont-ferrand-2026",
     title: "Vivre à Clermont-Ferrand en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Clermont-Ferrand 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Clermont-Ferrand en 2026 : quartiers, budget",
     metaDesc: "S'installer à Clermont-Ferrand en 2026 : quartiers, budget réel, Michelin, les volcans à 20 min. Le guide honnête de la capitale auvergnate.",
     category: "lifestyle",
     emoji: "🌋",
@@ -35854,7 +35854,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-la-rochelle-2026",
     title: "Vivre à La Rochelle en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à La Rochelle 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à La Rochelle en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à La Rochelle en 2026 : quartiers, budget réel après la surchauffe, l'Atlantique au quotidien et les limites d'une ville de 80 000 habitants. Guide honnête.",
     category: "lifestyle",
     emoji: "⚓",
@@ -36002,7 +36002,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-annecy-2026",
     title: "Vivre à Annecy en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Annecy 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Annecy en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Annecy en 2026 : quartiers, budget réel (la ville la plus chère hors Paris), lac, Genève à 40 min. Le guide honnête de la Venise des Alpes.",
     category: "lifestyle",
     emoji: "🏞️",
@@ -36140,7 +36140,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-orleans-2026",
     title: "Vivre à Orléans en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Orléans 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Orléans en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Orléans en 2026 : quartiers, budget réel, Paris à 1h05, la Loire sauvage. Le guide honnête de la porte sud de l'Île-de-France.",
     category: "lifestyle",
     emoji: "🌊",
@@ -36278,7 +36278,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bayonne-2026",
     title: "Vivre à Bayonne en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Bayonne 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Bayonne en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Bayonne en 2026 : quartiers, budget réel du Pays basque, l'océan à 8 km, la pression immobilière. Le guide honnête de la capitale basque.",
     category: "lifestyle",
     emoji: "🔴",
@@ -36416,7 +36416,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-toulon-2026",
     title: "Vivre à Toulon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Toulon 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Toulon en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Toulon en 2026 : quartiers, budget réel, plus de soleil que Nice à moitié prix, la rade et le Faron. Le guide honnête du littoral abordable.",
     category: "lifestyle",
     emoji: "☀️",
@@ -36508,7 +36508,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-avignon-2026",
     title: "Vivre à Avignon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Avignon 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Avignon en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Avignon en 2026 : intra ou extra-muros, budget réel, le Festival, la Provence sans les prix d'Aix. Le guide honnête de la cité des Papes.",
     category: "lifestyle",
     emoji: "🎭",
@@ -36554,7 +36554,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-perpignan-2026",
     title: "Vivre à Perpignan en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Perpignan 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Perpignan en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Perpignan en 2026 : la Méditerranée la moins chère de France, Barcelone à 1h, le Canigou en vitrine. Le guide honnête de la catalane.",
     category: "lifestyle",
     emoji: "🌅",
@@ -36600,7 +36600,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-besancon-2026",
     title: "Vivre à Besançon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Besançon 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Besançon en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Besançon en 2026 : la Boucle du Doubs, Vauban, la Suisse à 1h, des prix doux. Le guide honnête de la capitale comtoise.",
     category: "lifestyle",
     emoji: "🏞️",
@@ -36646,7 +36646,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-limoges-2026",
     title: "Vivre à Limoges en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Limoges 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Limoges en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Limoges en 2026 : la grande ville la moins chère de France (1 600 €/m²), CHU réputé, la campagne limousine. Le guide honnête, sans vernis.",
     category: "lifestyle",
     emoji: "🍽️",
@@ -36692,7 +36692,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-amiens-2026",
     title: "Vivre à Amiens en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Amiens 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Amiens en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Amiens en 2026 : Saint-Leu et les hortillonnages, Paris à 1h05, des prix picards. Le guide honnête de la capitale de la Somme.",
     category: "lifestyle",
     emoji: "🚣",
@@ -36738,7 +36738,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-saint-etienne-2026",
     title: "Vivre à Saint-Étienne en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Saint-Étienne 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Saint-Étienne en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Saint-Étienne en 2026 : la grande ville la moins chère de France avec Limoges, Lyon à 45 min, le Pilat. Le guide honnête du pari stéphanois.",
     category: "lifestyle",
     emoji: "💚",
@@ -36784,7 +36784,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-mulhouse-2026",
     title: "Vivre à Mulhouse en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Mulhouse 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Mulhouse en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Mulhouse en 2026 : Bâle à 30 min et ses salaires suisses, des prix à 1 700 €/m². Le guide honnête de l'équation frontalière la plus rentable de France.",
     category: "lifestyle",
     emoji: "🇨🇭",
@@ -36830,7 +36830,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-colmar-2026",
     title: "Vivre à Colmar en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Colmar 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Colmar en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Colmar en 2026 : la Petite Venise à l'année, la route des vins, 2 millions de touristes. Le guide honnête de la plus belle ville d'Alsace.",
     category: "lifestyle",
     emoji: "🍇",
@@ -36876,7 +36876,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-vannes-2026",
     title: "Vivre à Vannes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Vannes 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Vannes en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Vannes en 2026 : le golfe du Morbihan au quotidien, la ville close, des prix bretons hauts. Le guide honnête de la préférée de la Bretagne sud.",
     category: "lifestyle",
     emoji: "⛵",
@@ -36922,7 +36922,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-lorient-2026",
     title: "Vivre à Lorient en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Lorient 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Lorient en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Lorient en 2026 : la capitale de la voile à -30 % de Vannes, la rade, Groix en face. Le guide honnête du port de travail breton.",
     category: "lifestyle",
     emoji: "🌊",
@@ -36968,7 +36968,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-quimper-2026",
     title: "Vivre à Quimper en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Quimper 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Quimper en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Quimper en 2026 : la capitale de la Cornouaille, la Bretagne la plus bretonne, des prix doux. Le guide honnête de la préfecture du bout de terre.",
     category: "lifestyle",
     emoji: "🦩",
@@ -37014,7 +37014,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-poitiers-2026",
     title: "Vivre à Poitiers en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Poitiers 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Poitiers en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Poitiers en 2026 : Paris en 1h20 pour 2 100 €/m², la ville aux cent clochers, une des plus étudiantes de France. Le guide honnête.",
     category: "lifestyle",
     emoji: "🏛️",
@@ -37060,7 +37060,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-aix-en-provence-2026",
     title: "Vivre à Aix-en-Provence en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Aix-en-Provence 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Aix-en-Provence en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Aix en 2026 : le cours Mirabeau, Sainte-Victoire, des prix à 5 000 €/m². Le guide honnête de la Provence bourgeoise.",
     category: "lifestyle",
     emoji: "⛲",
@@ -37106,7 +37106,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-chambery-2026",
     title: "Vivre à Chambéry en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Chambéry 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Chambéry en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Chambéry en 2026 : les Alpes au prix raisonnable, le lac du Bourget à 15 min, les 3 Vallées à 1h15. Le guide honnête de l'anti-Annecy.",
     category: "lifestyle",
     emoji: "🐘",
@@ -37152,7 +37152,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-valence-2026",
     title: "Vivre à Valence en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Valence 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Valence en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Valence en 2026 : Lyon à 35 min de TGV, la Drôme provençale au sud, des prix doux. Le guide honnête de la porte du Midi.",
     category: "lifestyle",
     emoji: "🍑",
@@ -37198,7 +37198,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-beziers-2026",
     title: "Vivre à Béziers en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Béziers 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Béziers en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Béziers en 2026 : la Méditerranée à 25 km pour 1 500 €/m², le canal du Midi, la feria. Le guide honnête de la moins chère du littoral sud.",
     category: "lifestyle",
     emoji: "🍷",
@@ -37244,7 +37244,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-troyes-2026",
     title: "Vivre à Troyes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Troyes 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Troyes en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Troyes en 2026 : le bouchon de champagne médiéval, Paris à 1h30, des prix à 2 000 €/m². Le guide honnête de la belle discrète de l'Aube.",
     category: "lifestyle",
     emoji: "🏘️",
@@ -37290,7 +37290,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bourges-2026",
     title: "Vivre à Bourges en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Bourges 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Bourges en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Bourges en 2026 : capitale européenne de la culture 2028, cathédrale UNESCO, 1 900 €/m² au centre de la France. Le guide honnête du Berry.",
     category: "lifestyle",
     emoji: "🕍",
@@ -37336,7 +37336,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-cherbourg-2026",
     title: "Vivre à Cherbourg en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Cherbourg 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Cherbourg en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Cherbourg en 2026 : la plus grande rade artificielle d'Europe, l'EPR, le Cotentin sauvage, 1 900 €/m². Le guide honnête du bout de presqu'île.",
     category: "lifestyle",
     emoji: "🌦️",
@@ -37382,7 +37382,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-saint-malo-2026",
     title: "Vivre à Saint-Malo en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Saint-Malo 2026 — Quartiers, budget, emploi",
+    metaTitle: "S'installer à Saint-Malo en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Saint-Malo en 2026 : la cité corsaire à l'année, les marées record, 4 000 €/m² et 2 millions de touristes. Le guide honnête intra et extra-muros.",
     category: "lifestyle",
     emoji: "🏴‍☠️",

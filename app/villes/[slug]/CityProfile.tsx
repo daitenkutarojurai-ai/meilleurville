@@ -80,7 +80,7 @@ function SectionRule({ emoji, label, first }: { emoji: string; label: string; fi
 // housing, rankings, similar cities, political lean, honest review) — see
 // lib/city-profile-data. Importing those here would ship them all in the
 // client bundle of every city page.
-export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; faq: FaqItem[]; photo?: CityPhoto | null; locale?: "fr" | "en" }) {
+export function CityProfile({ city, data, faq, photo, locale = "fr", installGuideHref }: { city: CitySeed & { reviewCount?: number }; data: CityProfileData; faq: FaqItem[]; photo?: CityPhoto | null; locale?: "fr" | "en"; installGuideHref?: string }) {
   const L = (fr: string, en: string) => (locale === "en" ? en : fr);
   const sub = (fr: string, en: string) => `/${locale === "en" ? "cities" : "villes"}/${city.slug}/${locale === "en" ? en : fr}`;
   const { neighborhoods, housing } = data;
@@ -162,7 +162,10 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 <FavoriteButton slug={city.slug} className="!ml-1" label locale={locale} />
                 <FollowCityButton citySlug={city.slug} cityName={city.name} locale={locale} />
               </div>
+              {/* « Vivre à X » dans le h1 : c'est la requête que la fiche doit gagner
+                  (« vivre à rennes » sortait en position 19, Search Console 2026-11). */}
               <h1 className="text-5xl sm:text-7xl font-bold text-[var(--text-primary)] mb-3 tracking-tight leading-[1.02]">
+                <span className="block text-lg sm:text-xl font-semibold tracking-normal text-[var(--text-secondary)] mb-1">{L("Vivre à", "Living in")}</span>
                 <span className="font-display gradient-text-anim italic">{city.name}</span>
               </h1>
               <p className="text-[var(--text-secondary)] text-lg">
@@ -170,6 +173,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
                 {city.department} · {city.region}
                 {city.population && ` · ${formatNumber(city.population)}${L(" hab.", " inhabitants")}`}
               </p>
+              <CityInBrief city={city} rentT2={housing?.avgRentT2} labels={SCORE_AXIS_LABELS} L={L} sub={sub} installGuideHref={installGuideHref} />
             </div>
 
             {/* Global score — glass card */}
@@ -1461,6 +1465,75 @@ export function CityProfile({ city, data, faq, photo, locale = "fr" }: { city: C
         </div>
       )}
     </CityReviewProvider>
+    </div>
+  );
+}
+
+/**
+ * « En bref : vivre à X » (2026-11-23, stratégie d'audience) : répond en haut de
+ * la fiche à l'intention « vivre à X / X avis » avant le hero chargé (stats,
+ * badge, photo). Deux axes les mieux et les moins bien notés, valeurs rendues
+ * (`CITIES_SEED` calibré, jamais un littéral du seed), loyer T2 de `HOUSING`,
+ * puis l'appel à l'avis — celui que cherchent les visiteurs venus de
+ * « ville idéale ». Composant serveur ; seul le bouton d'avis est une île.
+ */
+function CityInBrief({ city, rentT2, labels, L, sub, installGuideHref }: {
+  city: CitySeed;
+  installGuideHref?: string;
+  rentT2?: number;
+  labels: Record<keyof CitySeed["scores"], string>;
+  L: (fr: string, en: string) => string;
+  sub: (fr: string, en: string) => string;
+}) {
+  const axes = (Object.keys(city.scores) as (keyof CitySeed["scores"])[])
+    .filter((k) => k !== "global")
+    .map((k) => ({ k, v: city.scores[k] }))
+    .sort((a, b) => b.v - a.v);
+  const best = axes.slice(0, 2);
+  const worst = axes.slice(-2).reverse();
+  const chip = "inline-flex items-baseline gap-1.5 rounded-full px-3 py-1 text-sm";
+  return (
+    <div className="mt-5 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)]/85 p-4 shadow-sm">
+      <p className="text-[11px] font-bold uppercase tracking-[0.16em] text-[var(--accent)] mb-2.5">
+        {L(`En bref : vivre à ${city.name}`, `In short: living in ${city.name}`)}
+      </p>
+      <div className="flex flex-wrap gap-2 mb-3">
+        <span className={`${chip} bg-[var(--accent)]/10 text-[var(--text-primary)]`}>
+          {L("Note", "Score")} <strong className={`font-mono-data ${scoreColor(city.scores.global)}`}>{formatScore(city.scores.global)}/10</strong>
+        </span>
+        {rentT2 ? (
+          <span className={`${chip} bg-[var(--accent)]/10 text-[var(--text-primary)]`}>
+            {L("Loyer T2", "2-room rent")} <strong className="font-mono-data">≈ {formatNumber(rentT2)} €{L("/mois", "/month")}</strong>
+          </span>
+        ) : null}
+        {best.map(({ k, v }) => (
+          <span key={k} className={`${chip} border border-emerald-200/80 bg-emerald-50/70 text-emerald-800`}>
+            <Check className="h-3.5 w-3.5 self-center" aria-hidden /> {labels[k]} <strong className="font-mono-data">{formatScore(v)}</strong>
+          </span>
+        ))}
+        {worst.map(({ k, v }) => (
+          <span key={k} className={`${chip} border border-rose-200/80 bg-rose-50/70 text-rose-800`}>
+            <X className="h-3.5 w-3.5 self-center" aria-hidden /> {labels[k]} <strong className="font-mono-data">{formatScore(v)}</strong>
+          </span>
+        ))}
+      </div>
+      <div className="flex flex-wrap items-center gap-2">
+        <RateCityButton
+          label={L(`Vous habitez ${city.name} ? Donnez votre avis`, `Live in ${city.name}? Leave a review`)}
+          className="inline-flex items-center justify-center gap-1.5 rounded-xl bg-[var(--accent)] text-white text-sm font-semibold px-4 py-2 min-h-[40px] hover:bg-[var(--accent-hover)] transition-colors"
+        />
+        <Link href={sub("quartiers", "neighbourhoods")} className="inline-flex items-center rounded-xl border border-[var(--border)] px-3 py-2 min-h-[40px] text-sm font-medium text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors">
+          {L("Quels quartiers ?", "Which neighbourhoods?")}
+        </Link>
+        <Link href={sub("avis-honnete", "honest-review")} className="inline-flex items-center rounded-xl border border-[var(--border)] px-3 py-2 min-h-[40px] text-sm font-medium text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors">
+          {L("Notre avis honnête", "Our honest review")}
+        </Link>
+        {installGuideHref ? (
+          <Link href={installGuideHref} className="inline-flex items-center rounded-xl border border-[var(--border)] px-3 py-2 min-h-[40px] text-sm font-medium text-[var(--text-primary)] hover:border-[var(--accent)] transition-colors">
+            {L(`Guide : s'installer à ${city.name}`, `Guide: moving to ${city.name}`)}
+          </Link>
+        ) : null}
+      </div>
     </div>
   );
 }

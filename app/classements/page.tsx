@@ -21,7 +21,7 @@ import { pathAlternates } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Classements villes françaises 2026 · Famille, Budget",
+  title: "Classement des villes de France où il fait bon vivre 2026",
   description:
     clampMeta("Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité. Données 2026."),
   openGraph: {

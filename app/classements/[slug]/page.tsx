@@ -18,6 +18,10 @@ import { clampMeta } from "@/lib/brand";
 // Titres de résultat Google quand le H1 (`headline`) dépasse ~60 caractères.
 const SERP_TITLE: Record<string, string> = {
   ecologie: "Villes les plus écologiques de France : nature, air, vélo",
+  // 2026-11-23 : titres alignés sur les requêtes (docs/seo/cibles.md § 4 et § 7).
+  budget: "Villes les moins chères de France où bien vivre (2026)",
+  gastronomie: "Villes de France où l'on mange le mieux : classement 2026",
+  "bord-de-mer": "Meilleures villes en bord de mer où vivre : classement 2026",
 };
 import { hreflangLanguages } from "@/lib/i18n";
 import { RankingTableTail, type RankingTailRow } from "./RankingTableTail";
