@@ -1055,6 +1055,36 @@ export const CITY_EVENTS: CityEvent[] = [
     sourceUrl: "https://www.footmercato.net/france/ligue-1/calendrier/6963969353828186229-journee-13",
     kind: "sport",
   },
+  // ── Sport (ajouts du 2026-11-23, chaque date recoupée sur au moins deux sources) ──
+  {
+    id: "urban-trail-de-tours-2027-03-14",
+    citySlug: "tours",
+    title: "Urban Trail de Tours (19 km, 15 km, 9 km)",
+    titleEn: "Urban Trail de Tours (19 km, 15 km, 9 km)",
+    start: "2027-03-14",
+    venue: "Place Jean-Jaurès (départ)",
+    body: "Course urbaine à travers Tours, proposée en trois formats : 19 km, 15 km et 9 km. Le départ se fait place Jean-Jaurès, par vagues, et le retrait des dossards a lieu la veille, le samedi 13 mars, à l'Espace Danton. Les mineurs doivent fournir une autorisation parentale à l'inscription en ligne. Pour venir, le tramway est plus simple que la voiture en centre-ville.",
+    bodyEn: "An urban trail through Tours, offered in three formats: 19 km, 15 km and 9 km. The start is on Place Jean-Jaurès, in waves, and bib pick-up takes place the day before, Saturday 13 March, at the Espace Danton. Minors must provide parental authorisation when registering online. To get there, the tram is easier than driving into the city centre.",
+    organizer: "Organisateur de l'Urban Trail de Tours",
+    source: "Fiches de l'épreuve sur Finishers, Marathons.com et Miles Republic (dates concordantes)",
+    sourceUrl: "https://www.finishers.com/en/event/urban-trail-de-tours",
+    kind: "sport",
+  },
+  {
+    id: "marathon-de-nantes-2027-04-25",
+    citySlug: "nantes",
+    title: "Marathon de Nantes, semi-marathon et Foulées de l'éléphant",
+    titleEn: "Nantes Marathon, half marathon and Foulées de l'éléphant",
+    start: "2027-04-24",
+    end: "2027-04-25",
+    venue: "Centre-ville de Nantes",
+    body: "Week-end de course à Nantes : marathon et semi-marathon le dimanche 25 avril, 10 km (Foulées de l'éléphant) la veille en soirée, le 24 avril. Les inscriptions sont ouvertes sur la page de Nantes Métropole, qui renvoie vers l'organisateur. Si vous venez de loin, réservez votre hébergement tôt.",
+    bodyEn: "A running weekend in Nantes: marathon and half marathon on Sunday 25 April, with the 10 km (Foulées de l'éléphant) the evening before, on 24 April. Registration is open via the Nantes Métropole page, which links to the organiser. If you are travelling in, book accommodation early.",
+    organizer: "Organisateur du Marathon de Nantes",
+    source: "Agenda de Nantes Métropole et fiche de l'épreuve sur werun.world (dates concordantes)",
+    sourceUrl: "https://metropole.nantes.fr/que-faire-a-nantes/agenda/40219053_inscriptions-imminentes-marathon-de-nantes-semi-marathon-foulees-de-lelephant-2027",
+    kind: "sport",
+  },
 ];
 
 assertKnownSlugs({
