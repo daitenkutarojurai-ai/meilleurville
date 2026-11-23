@@ -1814,3 +1814,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Hubs `/comparer-departements` + `/comparer-regions` (FR/EN).
 2. Hub `/comparer` (FR) + EN `/compare`.
 3. `/methode` (FR/EN) : vérifier en-tête et sections.
+
+## 2026-11-23 ~03:00 UTC — hubs comparateurs départements + régions (FR `/comparer-departements`, `/comparer-regions` + EN `/compare-departments`, `/compare-regions`)
+
+**Surface** : les quatre hubs de duels. Avant : en-tête blanc, départements en cartes grises par région sur le canevas (une seule bande), pastilles grises ; régions en cartes `Card` + `Badge`, combinaisons en pastilles grises, cross-link en carte blanche. FR départements affichait « 390duels » (espace JSX perdue).
+
+**Changé** : nouveau composant serveur partagé `components/AreaDuelsHub.tsx` (`DepartmentDuelsHub`, `RegionDuelsHub`) — hero `.bg-aurora` + `EmojiBadge` + titre `.gradient-text` ; départements : puces d'ancre pastel vers les 13 régions (sans JS), une bande par région (rotation indigo/pink/sky/aqua/lilac), pastille emoji régionale + « N duels », duels en pastilles blanches à anneau teinté et « vs » rose. Régions : prioritaires en `band-indigo` (cartes blanches à bandeau `grad-head-*`), combinaisons en `band-sky` (pastilles blanches), cross-link en `band-bold` (seul de la page). Copie, métadonnées, JSON-LD et URL inchangés.
+
+**Fichiers** : `components/AreaDuelsHub.tsx`, `app/comparer-departements/page.tsx`, `app/comparer-regions/page.tsx`, `app/[locale]/compare-departments/page.tsx`, `app/[locale]/compare-regions/page.tsx`.
+
+**Contrôles** : `npm ci`, `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` des 5 fichiers : 0 erreur (2 warnings préexistants `no-unused-expressions` dans `pairsByRegion`). Captures playwright des 4 pages 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages paires `/comparer-departements/[pair]` + `/comparer-regions/[pair]` (FR/EN, 468 pages).
+2. Hub `/comparer` (FR) + EN `/compare`.
+3. `/methode` (FR/EN) : vérifier en-tête et sections.

@@ -3,7 +3,8 @@ import Link from "@/components/AppLink";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
-import { Card } from "@/components/ui/Card";
+import { DepartmentDuelsHub, type DeptDuelGroup } from "@/components/AreaDuelsHub";
+import { REGION_EMOJIS, regionToSlug } from "@/lib/regions";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug } from "@/lib/dept-slug";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
@@ -45,52 +46,46 @@ function pairsByRegion(): Array<[string, Array<[string, string]>]> {
 }
 
 export default function ComparerDepartementsIndex() {
-  const groups = pairsByRegion();
-  const total = groups.reduce((s, [, p]) => s + p.length, 0);
+  const groups: DeptDuelGroup[] = pairsByRegion().map(([region, pairs]) => ({
+    id: `region-${regionToSlug(region)}`,
+    region,
+    emoji: REGION_EMOJIS[region] ?? "📍",
+    pairs: pairs.map(([a, b]) => ({
+      a,
+      b,
+      href: `/comparer-departements/${deptToSlug(a)}-vs-${deptToSlug(b)}`,
+    })),
+  }));
+  const total = groups.reduce((s, g) => s + g.pairs.length, 0);
   return (
     <div className="min-h-screen flex flex-col">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <AmbientBackground />
       <Navbar />
-      <main className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16">
-        <p className="text-xs font-bold uppercase tracking-widest text-[var(--accent)] mb-3">
-          Comparateur
-        </p>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-[var(--text-primary)] mb-4">
-          Comparer deux départements
-        </h1>
-        <p className="text-[var(--text-secondary)] leading-relaxed mb-10">
-          {total} duels entre départements d&apos;une même région : scores moyens
-          sur 8 critères, meilleures villes de chaque camp, verdict chiffré.
-          Pour comparer deux villes précises, passez par le{" "}
-          <Link href="/comparer" className="text-[var(--accent)] underline underline-offset-2">
-            comparateur de villes
-          </Link>
-          ; pour deux régions entières, le{" "}
-          <Link href="/comparer-regions" className="text-[var(--accent)] underline underline-offset-2">
-            comparateur de régions
-          </Link>
-          .
-        </p>
-
-        <div className="space-y-6">
-          {groups.map(([region, pairs]) => (
-            <Card key={region} className="p-5">
-              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">{region}</h2>
-              <div className="flex flex-wrap gap-2">
-                {pairs.map(([a, b]) => (
-                  <Link
-                    key={`${a}-${b}`}
-                    href={`/comparer-departements/${deptToSlug(a)}-vs-${deptToSlug(b)}`}
-                    className="rounded-full border border-[var(--border)] px-3 py-1.5 text-xs font-medium text-[var(--text-secondary)] hover:border-[var(--accent)]/40 hover:text-[var(--accent)] transition-colors"
-                  >
-                    {a} vs {b}
-                  </Link>
-                ))}
-              </div>
-            </Card>
-          ))}
-        </div>
+      <main id="main-content" className="flex-1 w-full">
+        <DepartmentDuelsHub
+          groups={groups}
+          eyebrow="Comparateur"
+          titleLead="Comparer deux"
+          titleAccent="départements"
+          jumpLabel="Aller à une région"
+          countLabel={(n) => `${n} duel${n > 1 ? "s" : ""}`}
+          intro={
+            <p>
+              {total}{" "}duels entre départements d&apos;une même région : scores moyens
+              sur 8 critères, meilleures villes de chaque camp, verdict chiffré.
+              Pour comparer deux villes précises, passez par le{" "}
+              <Link href="/comparer" className="font-semibold text-[#4338CA] underline underline-offset-2">
+                comparateur de villes
+              </Link>
+              ; pour deux régions entières, le{" "}
+              <Link href="/comparer-regions" className="font-semibold text-[#4338CA] underline underline-offset-2">
+                comparateur de régions
+              </Link>
+              .
+            </p>
+          }
+        />
       </main>
       <Footer />
     </div>
