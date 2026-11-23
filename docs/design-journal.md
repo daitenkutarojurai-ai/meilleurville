@@ -1829,3 +1829,18 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages paires `/comparer-departements/[pair]` + `/comparer-regions/[pair]` (FR/EN, 468 pages).
 2. Hub `/comparer` (FR) + EN `/compare`.
 3. `/methode` (FR/EN) : vérifier en-tête et sections.
+
+## 2026-11-23 ~11:00 UTC — pages paires départements (FR `/comparer-departements/[pair]` + EN `/compare-departments/[pair]`)
+
+**Surface** : les ≈ 390 pages de duel × 2 locales. Avant : en-tête texte nu sur le canevas, tableau et listes en `Card` à filet gris (une seule bande), notes en texte `scoreHex` -400/-500 sur blanc (lime/ambre < 4,5:1).
+
+**Changé** : nouveau composant serveur partagé `components/DepartmentDuelView.tsx` — hero `.bg-aurora` + `EmojiBadge` ⚖️ + titre `.gradient-text` + tableau d'affichage des deux scores globaux (« vs » rose) ; duel critère par critère en `band-white` (en-tête `grad-head-0`, lignes zébrées, ligne globale teintée, notes en pastille de palier pastel + encre -700, AA) ; meilleures villes en `band-indigo` (cartes à bandeau `grad-head-1`/`-2`, rangs en pastilles rose/cyan) ; « Aller plus loin » en `band-bold`. Copie, métadonnées, JSON-LD inchangés.
+
+**Fichiers** : `components/DepartmentDuelView.tsx`, `app/comparer-departements/[pair]/page.tsx`, `app/[locale]/compare-departments/[pair]/page.tsx`.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, `npx eslint` : 0 erreur (2 warnings préexistants `allPairs`). Captures playwright `ain-vs-allier` FR/EN 1440 et 390 px, `scrollWidth` = viewport. `npm run build` non lancé.
+
+**Prochaines surfaces candidates**
+1. Pages paires `/comparer-regions/[pair]` (FR/EN, 478/435 lignes) — réutiliser `DepartmentDuelView` si la structure le permet.
+2. Hub `/comparer` (FR) + EN `/compare`.
+3. `/methode` (FR/EN) : vérifier en-tête et sections.

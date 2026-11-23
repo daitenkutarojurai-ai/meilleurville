@@ -3,10 +3,9 @@ import Link from "@/components/AppLink";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { Card } from "@/components/ui/Card";
+import { DepartmentDuelView, type DuelSide } from "@/components/DepartmentDuelView";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
-import { scoreHex } from "@/lib/utils";
 import { ORIGIN_BY_LOCALE, hreflangLanguagesEn } from "@/lib/i18n";
 import { jsonLdScript } from "@/lib/jsonld";
 
@@ -161,115 +160,58 @@ export default async function EnCompareDepartmentsPair({ params }: Props) {
     ],
   };
 
+  const side = (dept: string, s: typeof A): DuelSide => ({
+    dept,
+    title: `Best cities — ${dept}`,
+    top: s.cities.slice(0, 5).map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      score: c.scores.global,
+      href: `/cities/${c.slug}`,
+    })),
+    allHref: `/departments/${deptToSlug(dept)}`,
+    allLabel: `All cities in ${dept} →`,
+  });
+
   return (
     <main id="main-content" className="min-h-screen flex flex-col">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(jsonLd)} />
       <Navbar />
 
-      <div className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16">
-        <p className="text-xs font-bold uppercase tracking-widest text-[var(--accent)] mb-3">
-          Department comparison
-        </p>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-[var(--text-primary)] mb-4">
-          {a} or {b}: where should you settle?
-        </h1>
-        <p className="text-[var(--text-secondary)] leading-relaxed mb-10">
-          Two departments of the same French region, compared on the average scores of
-          their cities ({A.cities.length} ranked cit{A.cities.length > 1 ? "ies" : "y"} in{" "}
-          {a}, {B.cities.length} in {b}). Across the 8 criteria,{" "}
-          <strong>{a}</strong> wins {wins.a} and <strong>{b}</strong> wins {wins.b}
-          {wins.a === wins.b ? " — a tie, so the detail decides" : ""}. On the overall
-          score, the edge goes to <strong>{leader}</strong>.
-        </p>
-
-        <Card className="p-5 mb-10 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-left text-xs uppercase tracking-wider text-[var(--text-tertiary)]">
-                <th className="pb-2 pr-3">Criterion</th>
-                <th className="pb-2 pr-3 text-right">{a}</th>
-                <th className="pb-2 text-right">{b}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {AXES.map(([k, label]) => {
-                const va = A.avg(k);
-                const vb = B.avg(k);
-                return (
-                  <tr key={k} className="border-t border-[var(--border)]">
-                    <td className="py-2 pr-3 font-medium text-[var(--text-secondary)]">{label}</td>
-                    <td className="py-2 pr-3 text-right font-bold" style={{ color: scoreHex(va) }}>
-                      {va.toFixed(1)}
-                      {va > vb + 0.05 ? " ✓" : ""}
-                    </td>
-                    <td className="py-2 text-right font-bold" style={{ color: scoreHex(vb) }}>
-                      {vb.toFixed(1)}
-                      {vb > va + 0.05 ? " ✓" : ""}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-          <p className="text-xs text-[var(--text-tertiary)] mt-3">
+      <DepartmentDuelView
+        a={a}
+        b={b}
+        rows={AXES.map(([k, label]) => ({ key: k, label, va: A.avg(k), vb: B.avg(k) }))}
+        sides={[side(a, A), side(b, B)]}
+        eyebrow="Department comparison"
+        titleLead={`${a} or ${b}:`}
+        titleAccent="where should you settle?"
+        criterionLabel="Criterion"
+        intro={
+          <p>
+            Two departments of the same French region, compared on the average scores of
+            their cities ({A.cities.length} ranked cit{A.cities.length > 1 ? "ies" : "y"} in{" "}
+            {a}, {B.cities.length} in {b}). Across the 8 criteria,{" "}
+            <strong>{a}</strong> wins {wins.a} and <strong>{b}</strong> wins {wins.b}
+            {wins.a === wins.b ? " — a tie, so the detail decides" : ""}. On the overall
+            score, the edge goes to <strong>{leader}</strong>.
+          </p>
+        }
+        tableNote={
+          <>
             Every score runs 0 to 10, higher is better — including cost of living, where
             10 means the most affordable.
-          </p>
-        </Card>
-
-        <div className="grid sm:grid-cols-2 gap-6 mb-10">
-          {[
-            { dept: a, s: A },
-            { dept: b, s: B },
-          ].map(({ dept, s }) => (
-            <Card key={dept} className="p-5">
-              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
-                Best cities — {dept}
-              </h2>
-              <ol className="space-y-2">
-                {s.cities.slice(0, 5).map((c, i) => (
-                  <li key={c.slug} className="flex items-center justify-between text-sm">
-                    <span>
-                      <span className="font-bold text-[var(--text-tertiary)] mr-2">{i + 1}.</span>
-                      <Link href={`/cities/${c.slug}`} className="text-[var(--accent)] hover:underline font-semibold">
-                        {c.name}
-                      </Link>
-                    </span>
-                    <span className="font-bold" style={{ color: scoreHex(c.scores.global) }}>
-                      {c.scores.global.toFixed(1)}
-                    </span>
-                  </li>
-                ))}
-              </ol>
-              <Link
-                href={`/departments/${deptToSlug(dept)}`}
-                className="inline-block mt-4 text-sm text-[var(--accent)] font-semibold hover:underline"
-              >
-                All cities in {dept} →
-              </Link>
-            </Card>
-          ))}
-        </div>
-
-        <Card className="p-5">
-          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-2">Go further</h2>
-          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-            Compare two specific cities with the{" "}
-            <Link href="/compare" className="text-[var(--accent)] underline underline-offset-2">
-              city comparator
-            </Link>
-            , browse the{" "}
-            <Link href="/map" className="text-[var(--accent)] underline underline-offset-2">
-              map by department
-            </Link>{" "}
-            or let{" "}
-            <Link href="/city-match" className="text-[var(--accent)] underline underline-offset-2">
-              City Match
-            </Link>{" "}
-            decide from your own priorities.
-          </p>
-        </Card>
-      </div>
+          </>
+        }
+        furtherTitle="Go further"
+        furtherBody={
+          <>
+            Compare two specific cities with the <Link href="/compare">city comparator</Link>,
+            browse the <Link href="/map">map by department</Link> or let{" "}
+            <Link href="/city-match">City Match</Link> decide from your own priorities.
+          </>
+        }
+      />
 
       <Footer />
     </main>

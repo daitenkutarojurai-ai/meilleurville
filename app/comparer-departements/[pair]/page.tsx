@@ -4,10 +4,9 @@ import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { AmbientBackground } from "@/components/AmbientBackground";
-import { Card } from "@/components/ui/Card";
+import { DepartmentDuelView, type DuelSide } from "@/components/DepartmentDuelView";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
-import { scoreHex } from "@/lib/utils";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hreflangLanguages } from "@/lib/i18n";
 
@@ -108,111 +107,55 @@ export default async function ComparerDepartementsPage({ params }: Props) {
     { name: `${a} vs ${b}`, path: `/comparer-departements/${pair}` },
   ]);
 
+  const side = (dept: string, s: typeof A): DuelSide => ({
+    dept,
+    title: `Les meilleures villes — ${dept}`,
+    top: s.cities.slice(0, 5).map((c) => ({
+      slug: c.slug,
+      name: c.name,
+      score: c.scores.global,
+      href: `/villes/${c.slug}`,
+    })),
+    allHref: `/departements/${deptToSlug(dept)}`,
+    allLabel: `Toutes les villes de ${dept} →`,
+  });
+
   return (
     <div className="min-h-screen flex flex-col">
       <script type="application/ld+json" dangerouslySetInnerHTML={jsonLdScript(breadcrumb)} />
       <AmbientBackground />
       <Navbar />
-      <main className="flex-1 w-full max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16">
-        <p className="text-xs font-bold uppercase tracking-widest text-[var(--accent)] mb-3">
-          Comparatif départements
-        </p>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-[var(--text-primary)] mb-4">
-          {a} ou {b} : où poser ses valises ?
-        </h1>
-        <p className="text-[var(--text-secondary)] leading-relaxed mb-10">
-          Deux départements de la même région, comparés sur les scores moyens de
-          leurs villes ({A.cities.length} ville{A.cities.length > 1 ? "s" : ""} notée
-          {A.cities.length > 1 ? "s" : ""} côté {a}, {B.cities.length} côté {b}).
-          Sur les 8 critères, <strong>{a}</strong> l&apos;emporte sur {wins.a},{" "}
-          <strong>{b}</strong> sur {wins.b}
-          {wins.a === wins.b ? " — égalité, le détail tranche" : ""}. Au score
-          global, l&apos;avantage est à <strong>{leader}</strong>.
-        </p>
-
-        <Card className="p-5 mb-10 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-left text-xs uppercase tracking-wider text-[var(--text-tertiary)]">
-                <th className="pb-2 pr-3">Critère</th>
-                <th className="pb-2 pr-3 text-right">{a}</th>
-                <th className="pb-2 text-right">{b}</th>
-              </tr>
-            </thead>
-            <tbody>
-              {AXES.map(([k, label]) => {
-                const va = A.avg(k);
-                const vb = B.avg(k);
-                return (
-                  <tr key={k} className="border-t border-[var(--border)]">
-                    <td className="py-2 pr-3 font-medium text-[var(--text-secondary)]">{label}</td>
-                    <td className="py-2 pr-3 text-right font-bold" style={{ color: scoreHex(va) }}>
-                      {va.toFixed(1)}
-                      {va > vb + 0.05 ? " ✓" : ""}
-                    </td>
-                    <td className="py-2 text-right font-bold" style={{ color: scoreHex(vb) }}>
-                      {vb.toFixed(1)}
-                      {vb > va + 0.05 ? " ✓" : ""}
-                    </td>
-                  </tr>
-                );
-              })}
-            </tbody>
-          </table>
-        </Card>
-
-        <div className="grid sm:grid-cols-2 gap-6 mb-10">
-          {[
-            { dept: a, s: A },
-            { dept: b, s: B },
-          ].map(({ dept, s }) => (
-            <Card key={dept} className="p-5">
-              <h2 className="text-lg font-bold text-[var(--text-primary)] mb-3">
-                Les meilleures villes — {dept}
-              </h2>
-              <ol className="space-y-2">
-                {s.cities.slice(0, 5).map((c, i) => (
-                  <li key={c.slug} className="flex items-center justify-between text-sm">
-                    <span>
-                      <span className="font-bold text-[var(--text-tertiary)] mr-2">{i + 1}.</span>
-                      <Link href={`/villes/${c.slug}`} className="text-[var(--accent)] hover:underline font-semibold">
-                        {c.name}
-                      </Link>
-                    </span>
-                    <span className="font-bold" style={{ color: scoreHex(c.scores.global) }}>
-                      {c.scores.global.toFixed(1)}
-                    </span>
-                  </li>
-                ))}
-              </ol>
-              <Link
-                href={`/departements/${deptToSlug(dept)}`}
-                className="inline-block mt-4 text-sm text-[var(--accent)] font-semibold hover:underline"
-              >
-                Toutes les villes de {dept} →
-              </Link>
-            </Card>
-          ))}
-        </div>
-
-        <Card className="p-5">
-          <h2 className="text-lg font-bold text-[var(--text-primary)] mb-2">Aller plus loin</h2>
-          <p className="text-sm text-[var(--text-secondary)] leading-relaxed">
-            Comparez deux villes précises avec le{" "}
-            <Link href="/comparer" className="text-[var(--accent)] underline underline-offset-2">
-              comparateur de villes
-            </Link>
-            , explorez la{" "}
-            <Link href="/carte" className="text-[var(--accent)] underline underline-offset-2">
-              carte par département
-            </Link>{" "}
-            ou laissez le{" "}
-            <Link href="/city-match" className="text-[var(--accent)] underline underline-offset-2">
-              City Match
-            </Link>{" "}
-            trancher selon vos priorités.
-          </p>
-        </Card>
+      <main id="main-content" className="flex-1 w-full">
+        <DepartmentDuelView
+          a={a}
+          b={b}
+          rows={AXES.map(([k, label]) => ({ key: k, label, va: A.avg(k), vb: B.avg(k) }))}
+          sides={[side(a, A), side(b, B)]}
+          eyebrow="Comparatif départements"
+          titleLead={`${a} ou ${b} :`}
+          titleAccent="où poser ses valises ?"
+          criterionLabel="Critère"
+          intro={
+            <p>
+              Deux départements de la même région, comparés sur les scores moyens de
+              leurs villes ({A.cities.length} ville{A.cities.length > 1 ? "s" : ""} notée
+              {A.cities.length > 1 ? "s" : ""} côté {a}, {B.cities.length} côté {b}).
+              Sur les 8 critères, <strong>{a}</strong> l&apos;emporte sur {wins.a},{" "}
+              <strong>{b}</strong> sur {wins.b}
+              {wins.a === wins.b ? " — égalité, le détail tranche" : ""}. Au score
+              global, l&apos;avantage est à <strong>{leader}</strong>.
+            </p>
+          }
+          furtherTitle="Aller plus loin"
+          furtherBody={
+            <>
+              Comparez deux villes précises avec le{" "}
+              <Link href="/comparer">comparateur de villes</Link>, explorez la{" "}
+              <Link href="/carte">carte par département</Link> ou laissez le{" "}
+              <Link href="/city-match">City Match</Link> trancher selon vos priorités.
+            </>
+          }
+        />
       </main>
       <Footer />
     </div>
