@@ -85367,6 +85367,348 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Villejuif","activités Villejuif 2026","parc des Hautes-Bruyères","roseraie du Val-de-Marne","métro 14"]
   },
   {
+    slug: "10-choses-a-faire-a-ile-de-re-2026",
+    title: "10 choses à faire à l'Île de Ré",
+    metaTitle: "10 choses à faire à l'Île de Ré",
+    metaDesc: "Pont, remparts Vauban, phare des Baleines, marais salants : 10 choses à faire sur l'Île de Ré.",
+    category: "tourisme",
+    emoji: "🏝️",
+    readMinutes: 4,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "L'Île de Ré compte environ 18 000 habitants dans notre fiche et un loyer T3 de 1 650 € par mois, soit 50 % de plus qu'à La Rochelle (1 100 €). C'est l'île de la côte charentaise, reliée au continent par un pont : on y vient pour le vélo, le sel et les villages blancs, plus que pour une liste de monuments. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Franchir le pont depuis La Rochelle",
+        body: "Le pont relie La Rochelle à l'île. En été, les files peuvent s'allonger aux heures d'arrivée et de départ : arriver tôt ou en milieu de semaine règle une bonne partie du problème."
+      },
+      {
+        heading: "2. Les remparts de Saint-Martin-de-Ré",
+        body: "Le port et les fortifications de Vauban font le cœur de la visite. Les fortifications figurent au patrimoine mondial de l'Unesco. Le tour des remparts à pied se fait tranquillement dans la matinée."
+      },
+      {
+        heading: "3. Le phare des Baleines",
+        body: "À la pointe nord-ouest, à Saint-Clément-des-Baleines, le phare est le repère de l'île. Vérifiez les conditions de visite avant de monter."
+      },
+      {
+        heading: "4. Le clocher noir et blanc d'Ars-en-Ré",
+        body: "Le clocher peint en noir et blanc d'Ars-en-Ré servait d'amer aux navigateurs. Le village, ses ruelles et ses maisons basses blanchies à la chaux se parcourent à pied."
+      },
+      {
+        heading: "5. Les marais salants et le fier d'Ars",
+        body: "Autour d'Ars, les marais salants sont encore exploités. On y regarde le travail des sauniers et on y observe des oiseaux ; la saison du sel est l'été."
+      },
+      {
+        heading: "6. L'île à vélo",
+        body: "Les pistes cyclables quadrillent l'île et permettent de la traverser sans voiture. Louer un vélo sur place est la manière la plus simple de se déplacer."
+      },
+      {
+        heading: "7. Les plages de la côte sud et ouest",
+        body: "Les plages de sable de la côte ouest s'ouvrent sur l'océan, celles de la côte nord-est sont plus calmes. Choisissez selon le vent et la marée."
+      },
+      {
+        heading: "8. Les huîtres, le sel et le marché",
+        body: "Huîtres, sel et pommes de terre primeurs de l'île se goûtent sur les marchés et chez les producteurs. Pas besoin de table réservée pour manger bien."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse l'île",
+        body: "Le loyer d'un T3 y est de 1 650 € par mois dans notre estimation, contre 1 100 € à La Rochelle et 660 € à Rochefort : l'île est une destination chère, en location comme à l'achat. Elle convient à qui veut du calme et du vélo, moins à qui cherche des commerces ouverts toute l'année."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée donne l'essentiel : Saint-Martin et Ars le matin, vélo et plage l'après-midi. Deux ou trois jours permettent de ralentir."
+      }
+    ],
+    relatedCities: ["ile-de-re","la-rochelle","rochefort"],
+    relatedGuides: ["10-choses-a-faire-a-la-rochelle-2026","10-choses-a-faire-a-rochefort-2026"],
+    tags: ["10 choses à faire à l'Île de Ré","activités Île de Ré 2026","Saint-Martin-de-Ré","phare des Baleines","Ars-en-Ré"]
+  },
+  {
+    slug: "10-choses-a-faire-a-gourdon-2026",
+    title: "10 choses à faire à Gourdon",
+    metaTitle: "10 choses à faire à Gourdon",
+    metaDesc: "Vieille ville en haut de la colline, grottes de Cougnac, Quercy : 10 choses à faire à Gourdon.",
+    category: "tourisme",
+    emoji: "🏰",
+    readMinutes: 4,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Gourdon compte environ 4 800 habitants dans notre fiche et un loyer T3 de 680 € par mois, contre 1 000 € à Sarlat-la-Canéda, à une courte route. Cette petite ville du nord du Lot garde une vieille ville médiévale sur sa colline et sert de base tranquille pour le Quercy et le Périgord. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. La vieille ville sur sa colline",
+        body: "Le quartier ancien s'étage autour de la colline, avec ses rues pentues et ses façades de pierre. Comptez une heure pour le parcourir à pied."
+      },
+      {
+        heading: "2. La rue du Majou",
+        body: "C'est l'axe médiéval du vieux Gourdon, bordé de maisons anciennes. Elle est pratiquée par les habitants autant que par les visiteurs."
+      },
+      {
+        heading: "3. L'église des Cordeliers",
+        body: "L'église des Cordeliers est un des monuments qui comptent de la ville. Entrez-y pour la fraîcheur autant que pour l'architecture."
+      },
+      {
+        heading: "4. L'église Saint-Pierre",
+        body: "Sur les hauteurs, l'église Saint-Pierre domine la vieille ville. Elle donne un bon repère pour s'orienter."
+      },
+      {
+        heading: "5. Le panorama depuis la colline",
+        body: "Du haut de la ville, la vue porte loin sur la campagne environnante. C'est la meilleure fin de balade."
+      },
+      {
+        heading: "6. Les grottes de Cougnac",
+        body: "À quelques kilomètres, les grottes de Cougnac abritent des peintures préhistoriques. Vérifiez jours et horaires avant de partir."
+      },
+      {
+        heading: "7. Sarlat et la Dordogne à côté",
+        body: "Sarlat-la-Canéda est toute proche et reste la grande étape du Périgord Noir. Gourdon permet de la visiter sans dormir dans sa foule."
+      },
+      {
+        heading: "8. Les marchés et la cuisine du Quercy",
+        body: "Les produits du terroir se trouvent sur les marchés de la ville : noix, foie gras, fromages. Le calendrier des marchés se vérifie auprès de l'office de tourisme."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 y est de 680 € par mois dans notre estimation, contre 590 € à Cahors et 1 000 € à Sarlat. Gourdon convient à qui veut un petit bourg calme, une voiture et un loyer bas ; elle ne convient pas à qui attend une vie de grande ville."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la ville. Ajoutez les grottes et Sarlat pour remplir deux jours."
+      }
+    ],
+    relatedCities: ["gourdon","sarlat-la-caneda","cahors"],
+    relatedGuides: ["10-choses-a-faire-a-sarlat-la-caneda-2026","10-choses-a-faire-a-cahors-2026"],
+    tags: ["10 choses à faire à Gourdon","activités Gourdon 2026","grottes de Cougnac","vieille ville de Gourdon","Quercy"]
+  },
+  {
+    slug: "10-choses-a-faire-a-joigny-2026",
+    title: "10 choses à faire à Joigny",
+    metaTitle: "10 choses à faire à Joigny",
+    metaDesc: "Quais de l'Yonne, maisons à pans de bois, château des Gondi : 10 choses à faire à Joigny.",
+    category: "tourisme",
+    emoji: "🍇",
+    readMinutes: 4,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Joigny compte environ 10 100 habitants dans notre fiche et un loyer T3 de 680 € par mois, quasiment le même qu'à Auxerre (660 €), contre 920 € à Sens. Cette ville de l'Yonne descend en terrasses vers la rivière et garde un centre ancien à pans de bois. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Les quais de l'Yonne",
+        body: "La ville se regarde depuis la rivière : les quais offrent la vue la plus connue sur les toits étagés et les clochers. C'est l'endroit pour commencer."
+      },
+      {
+        heading: "2. Les maisons à pans de bois du centre ancien",
+        body: "Le centre conserve plusieurs maisons médiévales à pans de bois. Elles se trouvent dans les rues qui montent depuis la rivière."
+      },
+      {
+        heading: "3. L'église Saint-Thibault",
+        body: "L'église Saint-Thibault est un des trois grands édifices religieux de la ville. Elle vaut le détour pour son architecture."
+      },
+      {
+        heading: "4. L'église Saint-Jean",
+        body: "L'église Saint-Jean complète le trio des églises de la ville haute. Marcher de l'une à l'autre fait un parcours simple."
+      },
+      {
+        heading: "5. L'église Saint-André",
+        body: "Dernière des trois, elle se visite dans la même balade, avec la vue sur la ville."
+      },
+      {
+        heading: "6. Le château des Gondi",
+        body: "Le château de la Renaissance, lié à la famille des Gondi, domine la ville. Il se découvre de l'extérieur et selon les ouvertures du moment."
+      },
+      {
+        heading: "7. La Porte du Bois",
+        body: "Cette porte fait partie des vestiges des anciens remparts. Elle marque l'entrée de la vieille ville."
+      },
+      {
+        heading: "8. Les coteaux de vigne et la balade le long de l'Yonne",
+        body: "Les coteaux voisins sont plantés de vigne. Le chemin de halage et les bords de rivière se font à pied ou à vélo."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 y est de 680 € par mois dans notre estimation, contre 660 € à Auxerre et 920 € à Sens. Joigny convient à qui veut un petit centre ancien, la rivière et Paris par le train ou la route ; moins à qui veut une grande offre de sorties."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit : quais, église, centre ancien. Ajoutez Auxerre le même jour pour une journée complète."
+      }
+    ],
+    relatedCities: ["joigny","auxerre","sens"],
+    relatedGuides: ["10-choses-a-faire-a-auxerre-2026","10-choses-a-faire-a-sens-2026"],
+    tags: ["10 choses à faire à Joigny","activités Joigny 2026","pans de bois","château des Gondi","Yonne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-girons-2026",
+    title: "10 choses à faire à Saint-Girons",
+    metaTitle: "10 choses à faire à Saint-Girons",
+    metaDesc: "Saint-Lizier, étang de Lers, Pyrénées ariégeoises : 10 choses à faire à Saint-Girons.",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 4,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Saint-Girons compte environ 6 700 habitants dans notre fiche et un loyer T3 de 680 € par mois, contre 710 € à Foix et 760 € à Pamiers. C'est la porte du Couserans, en Ariège, au pied des Pyrénées : on y vient surtout pour la montagne et les villages voisins. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le centre au bord du Salat",
+        body: "La ville s'étire au bord du Salat, avec une place centrale et des rues commerçantes. Prévoyez une heure pour la voir."
+      },
+      {
+        heading: "2. Le marché",
+        body: "Saint-Girons est la ville-marché du Couserans, où se retrouvent producteurs et habitants des vallées. Vérifiez les jours auprès de l'office de tourisme."
+      },
+      {
+        heading: "3. Saint-Lizier",
+        body: "Tout près, ce village classé parmi les Plus Beaux Villages de France possède une cathédrale et un cloître. C'est la première visite à ajouter."
+      },
+      {
+        heading: "4. Les rives du Salat et du Lez",
+        body: "Les berges des deux rivières se parcourent à pied. C'est la balade facile de la ville."
+      },
+      {
+        heading: "5. L'étang de Lers",
+        body: "Dans la montagne, l'étang de Lers est un lieu de promenade et de détente. Il se prête aux sorties à la journée."
+      },
+      {
+        heading: "6. Le parc naturel régional des Pyrénées ariégeoises",
+        body: "La ville est une base pour le parc : randonnées, villages de vallée, estives. Choisissez un parcours selon votre niveau."
+      },
+      {
+        heading: "7. Les cols et la route des Pyrénées",
+        body: "Les routes de montagne partent de la ville vers les cols. Vérifiez l'état des routes en cas de neige."
+      },
+      {
+        heading: "8. Les villages du Couserans",
+        body: "Les vallées voisines alignent des villages de pierre, des églises romanes et des granges. Ils se visitent à l'allure qu'on veut."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 y est de 680 € par mois dans notre estimation, contre 710 € à Foix et 760 € à Pamiers. Saint-Girons convient à qui aime la montagne et un rythme calme ; elle ne convient pas à qui dépend des transports en commun ou d'une grande offre culturelle."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une journée pour la ville et Saint-Lizier ; deux ou trois jours si vous partez en montagne."
+      }
+    ],
+    relatedCities: ["saint-girons","foix","pamiers"],
+    relatedGuides: ["10-choses-a-faire-a-foix-2026","10-choses-a-faire-a-pamiers-2026"],
+    tags: ["10 choses à faire à Saint-Girons","activités Saint-Girons 2026","Saint-Lizier","étang de Lers","Couserans"]
+  },
+  {
+    slug: "10-choses-a-faire-a-romorantin-lanthenay-2026",
+    title: "10 choses à faire à Romorantin-Lanthenay",
+    metaTitle: "10 choses à faire à Romorantin-Lanthenay",
+    metaDesc: "Sauldre, musée de Sologne, Chambord et Cheverny à côté : 10 choses à faire à Romorantin-Lanthenay.",
+    category: "tourisme",
+    emoji: "🌲",
+    readMinutes: 4,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Romorantin-Lanthenay compte environ 17 600 habitants dans notre fiche et un loyer T3 de 710 € par mois, contre 820 € à Blois et 650 € à Vierzon. C'est la capitale de la Sologne, en Loir-et-Cher, traversée par la Sauldre : on y vient pour les châteaux de la Loire voisins et pour les forêts. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Les bords de la Sauldre",
+        body: "La rivière traverse le centre, avec ses quais et d'anciens moulins. C'est le point de départ d'une balade simple."
+      },
+      {
+        heading: "2. Le centre ancien",
+        body: "Les rues du centre, la place et les halles composent un petit tour d'une heure. Les maisons anciennes alternent avec les bâtiments plus récents."
+      },
+      {
+        heading: "3. Le musée de Sologne",
+        body: "Le musée raconte la vie du pays solognot : chasse, pêche, vie rurale. Vérifiez ses horaires avant de venir."
+      },
+      {
+        heading: "4. L'espace automobile Matra",
+        body: "La ville abrite un musée consacré à l'histoire de Matra et de ses voitures. Il intéresse les curieux de mécanique et d'histoire industrielle."
+      },
+      {
+        heading: "5. Les étangs et forêts de Sologne",
+        body: "Autour de la ville, étangs, bois et sentiers font le paysage. On les parcourt à pied ou à vélo."
+      },
+      {
+        heading: "6. Le château de Chambord",
+        body: "Chambord est à une courte route : c'est la visite la plus connue de la région. Prévoyez une demi-journée."
+      },
+      {
+        heading: "7. Le château de Cheverny",
+        body: "Autre château voisin, Cheverny est connu pour son intérieur meublé. Il se combine bien avec Chambord."
+      },
+      {
+        heading: "8. Blois et la Loire",
+        body: "Blois, préfecture du département, est la grande étape voisine. La ville permet une journée sur la Loire."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 y est de 710 € par mois dans notre estimation, contre 820 € à Blois et 650 € à Vierzon. Romorantin convient à qui veut une petite ville calme et la proximité des châteaux ; elle suppose une voiture."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée pour la ville. Pour les châteaux, ajoutez une journée entière."
+      }
+    ],
+    relatedCities: ["romorantin-lanthenay","blois","vierzon"],
+    relatedGuides: ["10-choses-a-faire-a-blois-2026"],
+    tags: ["10 choses à faire à Romorantin-Lanthenay","activités Romorantin 2026","Sologne","musée de Sologne","Chambord"]
+  },
+  {
+    slug: "10-choses-a-faire-a-mayenne-2026",
+    title: "10 choses à faire à Mayenne",
+    metaTitle: "10 choses à faire à Mayenne",
+    metaDesc: "Château de Mayenne, basilique, voie verte, site gallo-romain de Jublains : 10 choses à faire à Mayenne.",
+    category: "tourisme",
+    emoji: "🏯",
+    readMinutes: 4,
+    publishedAt: "2026-11-23",
+    updatedAt: "2026-11-23",
+    intro: "Mayenne compte environ 12 500 habitants dans notre fiche et un loyer T3 de 760 € par mois, contre 660 € à Laval, la préfecture voisine. Cette ville du nord du département dresse son château au-dessus de la rivière Mayenne et sert de base pour le site gallo-romain de Jublains et les voies vertes. Ce guide dit quoi y faire.",
+    sections: [
+      {
+        heading: "1. Le château de Mayenne",
+        body: "Perché au-dessus de la rivière, le château est le monument phare de la ville. Il abrite un musée : vérifiez ses horaires avant de venir."
+      },
+      {
+        heading: "2. La basilique Notre-Dame",
+        body: "La basilique domine la rive. Elle se voit de loin et se visite en peu de temps."
+      },
+      {
+        heading: "3. Les quais et les ponts de la Mayenne",
+        body: "La rivière traverse la ville en contrebas du château. Les quais offrent la vue la plus agréable sur la vieille ville."
+      },
+      {
+        heading: "4. La voie verte le long de la rivière",
+        body: "Le chemin de halage est aménagé pour la marche et le vélo. On y roule sans voiture, loin de la circulation."
+      },
+      {
+        heading: "5. Le centre-ville et ses rues",
+        body: "Les rues du centre-ville regroupent les commerces et les cafés. Comptez une heure pour les parcourir."
+      },
+      {
+        heading: "6. Le site gallo-romain de Jublains",
+        body: "À quelques kilomètres, le site de Jublains conserve des vestiges d'une ville romaine. Il se visite à la belle saison."
+      },
+      {
+        heading: "7. Les balades en bateau et le canotage",
+        body: "La rivière se prête à la navigation de plaisance et au canoë. Renseignez-vous sur les périodes d'ouverture."
+      },
+      {
+        heading: "8. Laval à côté",
+        body: "Laval, avec son château et son vieux centre, est à une courte distance. Elle complète une journée en Mayenne."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 y est de 760 € par mois dans notre estimation, contre 660 € à Laval. Mayenne convient à qui veut une ville calme au bord de l'eau et qui dispose d'une voiture ; elle convient peu à qui cherche une offre culturelle dense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour la ville. Ajoutez Jublains et Laval pour deux jours."
+      }
+    ],
+    relatedCities: ["mayenne","laval"],
+    relatedGuides: ["10-choses-a-faire-a-laval-2026"],
+    tags: ["10 choses à faire à Mayenne","activités Mayenne 2026","château de Mayenne","Jublains","voie verte"]
+  },
+  {
     "slug": "villes-escalade-crossfit-street-workout-582-villes-2026",
     "title": "Où s'entraîner en France ? Escalade, CrossFit et street workout dans 582 villes",
     "metaTitle": "Escalade, CrossFit, street workout : 582 villes comparées",

@@ -2420,3 +2420,7 @@ Compteurs mesurés : FR 366 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'
 **Tourisme batch EN — rattrapage de parité, 2026-11-22** : +8 jumelles `things-to-do-in-*` (nanterre, ivry-sur-seine, antony, maisons-alfort, fontenay-sous-bois, montrouge, clamart, villejuif), mêmes chiffres que les guides FR (loyers T3), anglais natif.
 Compteurs mesurés : FR 366 (`grep -c 'slug: "10-choses-a-faire-a[ux]*-.*-2026"'`), EN 365 (`grep -c 'slug: "things-to-do-in-.*-2026"'`) ; search-index 1 705 FR / 1 604 EN. tsc + integrity + search-index:check verts.
 Prochain run : batch FR de villes non couvertes (mesurer sur `CITIES_SEED`, ~236 sans guide).
+
+**Tourisme batch 78 — FR, 2026-11-23** : +6 `10-choses-a-faire-a-*-2026` (ile-de-re, gourdon, joigny, saint-girons, romorantin-lanthenay, mayenne), loyers T3 de `data/housing.ts`, aucun tarif ni horaire.
+Compteurs mesurés : FR 362 (`grep -c 'slug: "10-choses-a-faire-a-.*-2026"'`, hors `au-`/`aux-`), EN 365 ; search-index 1 717 FR / 1 625 EN.
+Prochain run : batch EN (6 jumelles) puis batch FR (villes de petite couronne sans guide).

@@ -12112,6 +12112,36 @@
       "emoji": "🌹"
     },
     {
+      "slug": "10-choses-a-faire-a-ile-de-re-2026",
+      "title": "10 choses à faire à l'Île de Ré",
+      "emoji": "🏝️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-gourdon-2026",
+      "title": "10 choses à faire à Gourdon",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "10-choses-a-faire-a-joigny-2026",
+      "title": "10 choses à faire à Joigny",
+      "emoji": "🍇"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-girons-2026",
+      "title": "10 choses à faire à Saint-Girons",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-romorantin-lanthenay-2026",
+      "title": "10 choses à faire à Romorantin-Lanthenay",
+      "emoji": "🌲"
+    },
+    {
+      "slug": "10-choses-a-faire-a-mayenne-2026",
+      "title": "10 choses à faire à Mayenne",
+      "emoji": "🏯"
+    },
+    {
       "slug": "villes-escalade-crossfit-street-workout-582-villes-2026",
       "title": "Où s'entraîner en France ? Escalade, CrossFit et street workout dans 582 villes",
       "emoji": "🧗"
@@ -13681,6 +13711,11 @@
     {
       "slug": "que-faire-en-vendee",
       "label": "que faire en Vendée",
+      "count": 3
+    },
+    {
+      "slug": "quercy",
+      "label": "Quercy",
       "count": 3
     },
     {
