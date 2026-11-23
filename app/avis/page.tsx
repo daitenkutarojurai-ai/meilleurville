@@ -154,10 +154,12 @@ export default function AvisHubPage() {
           <div aria-hidden className="h-1.5 grad-head-5" />
           <div className="p-5">
           <h2 className="text-lg font-semibold text-[var(--text-primary)]">
-            Chercher la note d&apos;une ville
+            Chercher la note d&apos;une ville, ou noter la vôtre
           </h2>
           <p className="mt-2 text-sm text-[var(--text-secondary)]">
-            Tapez son nom dans la recherche, ou parcourez la liste complète plus bas.
+            Tapez son nom dans la recherche, ou parcourez la liste complète plus bas. Vous y habitez ?
+            Le bouton « Donnez votre avis » est en haut de chaque fiche ville : votre note s&apos;affiche
+            à côté de la nôtre.
           </p>
           <div className="mt-4 flex flex-wrap gap-2">
             <Link

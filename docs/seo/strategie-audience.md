@@ -91,16 +91,15 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 ## 5. Feuille de route
 
 ### Maintenant (semaines 1-2)
-- [ ] Titres et descriptions des 30 pages en position 4-12 les plus vues (`cibles.md` § 4, 7).
-- [ ] Fiches ville des 20 villes les plus vues : un bloc « En bref : vivre à X » en haut de
-      page (3 forces, 3 faiblesses chiffrées, prix, lien vers les quartiers et les avis), puis
-      une FAQ « X avis / vivre à X ».
-- [ ] Appel à l'avis visible sur chaque fiche ville et chaque page `/avis`. L'accueil doit
-      dire clairement « Avis et notes des villes, par des habitants ».
-- [ ] Rouvrir l'indexation de `bruit` et `cout-de-la-vie` en test : retirer les deux noms de
-      `lib/fr-index-policy.ts`, puis mesurer sur l'export suivant.
-- [ ] Cannibalisation : sur 10 villes, vérifier quelle page sort pour « vivre à X » (fiche
-      ou guide), puis relier ou canonicaliser.
+- [x] Titres et descriptions des pages en position 4-12 les plus vues (`cibles.md` § 4, 7) — 2026-11-23 (3ddb220) : fiche ville, 15 guides, 3 classements, `/classements`, `/avis`, gabarits avis-honnete et fiscalité. Suite : routine 4 du vendredi.
+- [x] Bloc « En bref : vivre à X » en haut des 593 fiches (note, loyer T2, 2 axes forts et 2 faibles,
+      quartiers, avis honnête, guide d'installation) — 2026-11-23. La FAQ + JSON-LD FAQPage existait déjà (`lib/city-faq.ts`).
+      Suite : faits propres à chaque ville, routine 2.
+- [x] Appel à l'avis en haut des 593 fiches (« Vous habitez X ? Donnez votre avis »), renvoi depuis `/avis`,
+      titre de l'accueil « MaVilleIdéale : avis et notes des villes de France » — 2026-11-23.
+- [x] Indexation de `bruit` et `cout-de-la-vie` rouverte en test — 2026-11-23. À mesurer sur l'export de décembre.
+- [x] Cannibalisation : les 10 villes les plus vues avaient fiche + guide `vivre-a-*` au même titre. Les 36 guides
+      passent en « S’installer à X en 2026 », la fiche garde « Vivre à X », liens croisés — 2026-11-23.
 
 ### Ce trimestre (décembre à février)
 - [ ] Comparaisons A vs B : traiter toutes les paires demandées dans `cibles.md` § 6, puis
@@ -118,7 +117,7 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 - [ ] Jumelles EN seulement pour les pages FR qui ont de la traction.
 
 ### Plus tard (2027)
-- [ ] Discover : images 1 200 px et `max-image-preview:large` sur les actus et classements.
+- [x] `max-image-preview:large` + `max-snippet:-1` sur tout le site — 2026-11-23. (Les images OG font déjà 1 200 px.)
 - [ ] Automatiser la boucle Search Console : jeton OAuth en lecture seule, et une Action
       GitHub qui regénère `cibles.md` chaque semaine.
 - [ ] Newsletter mensuelle « Le palmarès du mois » (Brevo), avec un lien de partage.

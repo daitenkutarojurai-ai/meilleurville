@@ -49,10 +49,12 @@ const IS_EN = DEFAULT_LOCALE === "en";
 const SITE_NAME = IS_EN ? "BestCitiesInFrance" : "MaVilleIdéale";
 const SITE_TITLE = IS_EN
   ? "BestCitiesInFrance — Find the French city that fits you"
-  : "MaVilleIdéale — Trouvez la ville qui vous ressemble";
+  // 2026-11-23 : l'accueil sort surtout sur « ville idéale », « avis ville », « note ville »
+  // (Search Console) : le titre dit maintenant ce que ces visiteurs cherchent.
+  : "MaVilleIdéale : avis et notes des villes de France";
 const SITE_DESCRIPTION = IS_EN
   ? `AI + lived experience + ${CITIES_COUNT} cities of official data. Rankings, resident reviews, lifestyle-matching quiz — independent and unbiased.`
-  : "IA + vraies expériences + données locales. Classements, avis d'habitants, quiz de matching. La référence pour choisir où vivre en France.";
+  : `Note sur 10 et avis d'habitants pour ${CITIES_COUNT} villes : qualité de vie, loyers, sécurité, climat. Trouvez où vivre en France, et notez votre ville.`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
