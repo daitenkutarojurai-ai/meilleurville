@@ -68,7 +68,7 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 4. **Des titres et descriptions orientés clic** sur les pages déjà en page 1
    (`cibles.md` § 2, 4, 7).
 5. **De la diffusion hors Google** :
-   - actu locale fraîche (« actualités lyon » en position 5,5), éligible à Discover ;
+   - agenda daté et politique 2027 à jour sur les villes avec traction, pour donner des raisons de revenir (« actualités lyon » sort déjà en position 5,5). La presse régionale reste exclue (droit voisin) ;
    - newsletter Brevo (la liste existe) ;
    - réseaux sociaux (`scripts/social-post.mjs` existe, mais les jetons de page ne sont pas configurés).
 6. **Une boucle de mesure.** Chaque mois : exporter la Search Console, lancer
@@ -133,7 +133,21 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 3. **Réseaux sociaux** : créer les jetons de page Facebook, LinkedIn et Threads pour
    activer `scripts/social-post.mjs`.
 
-## 7. Indicateurs (à relire à chaque export)
+## 7. Routines (4 par jour maximum, depuis le 2026-11-23)
+
+| UTC | Routine | Rôle |
+|---|---|---|
+| 06:45 | mvi 1/4 Actu & agenda (Sonnet) | Politique 2027, agenda daté des villes avec traction, fraîcheur des signaux publics |
+| 10:15 | mvi 2/4 Croissance SEO (Opus) | Pages en position 4-20 : titres, fiche ville « vivre à X / avis », cannibalisation, maillage, appel à l’avis |
+| 14:15 | mvi 3/4 Contenu à demande prouvée (Sonnet) | 2 à 4 pages neuves avec preuve de demande : comparaisons A vs B, classements thématiques |
+| 19:15 | mvi 4/4 Rotation (Sonnet) | Lun EN utile · Mar kit presse · Mer/Sam design · Jeu intégrité · Ven CTR · Dim palmarès + bilan |
+
+Journal commun : `docs/seo/journal.md`. Le digest quotidien (07:30, Haiku) vérifie ces 4 créneaux.
+Routines mises en pause le 2026-11-23 (réactivables) : series-villes, actu-politique, agenda-sport,
+actu-locale, parite-en, design-mavilleideale, extension-villes, vacances-celibataire, vacances-monoparental,
+parent-solo, biodiversite, maillage-interne, narration-rework, integrite-donnees.
+
+## 8. Indicateurs (à relire à chaque export)
 
 | Indicateur | Aujourd'hui | Cible 3 mois |
 |---|---|---|
