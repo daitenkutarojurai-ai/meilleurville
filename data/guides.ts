@@ -35068,7 +35068,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-lyon-2026",
     title: "Vivre à Lyon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Lyon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Lyon en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Lyon en 2026 : quels quartiers viser, quel budget prévoir, où travailler, et ce que la ville ne dit pas dans ses brochures. Guide honnête.",
     category: "lifestyle",
     emoji: "🦁",
@@ -35394,7 +35394,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-lille-2026",
     title: "Vivre à Lille en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Lille 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Lille en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Lille en 2026 : quartiers, budget réel (-40 % sur Paris), hub Eurostar Londres-Bruxelles-Paris. Le guide honnête de la capitale des Flandres.",
     category: "lifestyle",
     emoji: "🍺",
@@ -35486,7 +35486,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-nice-2026",
     title: "Vivre à Nice en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Nice 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Nice en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Nice en 2026 : quartiers, budget Côte d'Azur réel, hiver le plus doux de France, Monaco à 22 min. Le guide honnête de la capitale azuréenne.",
     category: "lifestyle",
     emoji: "🌴",
@@ -35624,7 +35624,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-dijon-2026",
     title: "Vivre à Dijon en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Dijon 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Dijon en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Dijon en 2026 : quartiers, budget réel, tram, vignobles de Bourgogne à 20 min et Paris à 1h35. Le guide honnête de la capitale bourguignonne.",
     category: "lifestyle",
     emoji: "🍇",
@@ -35670,7 +35670,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-tours-2026",
     title: "Vivre à Tours en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Tours 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Tours en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Tours en 2026 : quartiers, budget réel, Paris en 1h06, la Loire et les châteaux. Le guide honnête de la douceur tourangelle.",
     category: "lifestyle",
     emoji: "🏰",
@@ -35716,7 +35716,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-reims-2026",
     title: "Vivre à Reims en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Reims 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Reims en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Reims en 2026 : quartiers, budget réel, Paris en 45 minutes, le champagne en voisin. Le guide honnête de la cité des sacres.",
     category: "lifestyle",
     emoji: "🍾",
@@ -35762,7 +35762,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-nancy-2026",
     title: "Vivre à Nancy en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Nancy 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Nancy en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Nancy en 2026 : quartiers, budget réel, place Stanislas, grandes écoles et prix lorrains. Le guide honnête de la capitale des ducs.",
     category: "lifestyle",
     emoji: "🎨",
@@ -35956,7 +35956,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-metz-2026",
     title: "Vivre à Metz en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Metz 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Metz en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Metz en 2026 : quartiers, budget réel, le Luxembourg à 45 min, Pompidou-Metz. Le guide honnête de la ville la plus sous-cotée du Grand Est.",
     category: "lifestyle",
     emoji: "🟡",
@@ -36048,7 +36048,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-brest-2026",
     title: "Vivre à Brest en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Brest 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Brest en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Brest en 2026 : quartiers, budget réel (parmi les prix les plus bas de France), la mer partout, le rail iroise. Le guide honnête du bout du monde.",
     category: "lifestyle",
     emoji: "⚓",
@@ -36186,7 +36186,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-caen-2026",
     title: "Vivre à Caen en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Caen 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Caen en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Caen en 2026 : quartiers, budget réel, la mer à 15 min, une des villes les plus sûres de France. Le guide honnête de la capitale normande.",
     category: "lifestyle",
     emoji: "🏰",
@@ -36232,7 +36232,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-pau-2026",
     title: "Vivre à Pau en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Pau 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Pau en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Pau en 2026 : quartiers, budget réel, les Pyrénées en vitrine, TotalEnergies et Safran. Le guide honnête de la ville au balcon des Pyrénées.",
     category: "lifestyle",
     emoji: "⛰️",
@@ -36324,7 +36324,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-rouen-2026",
     title: "Vivre à Rouen en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Rouen 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Rouen en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Rouen en 2026 : quartiers, budget réel, Paris à 1h20, la Seine et les colombages. Le guide honnête de la capitale normande.",
     category: "lifestyle",
     emoji: "⛪",
@@ -36462,7 +36462,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-nimes-2026",
     title: "Vivre à Nîmes en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre à Nîmes 2026 — Quartiers, budget, emploi : le guide complet",
+    metaTitle: "S'installer à Nîmes en 2026 : quartiers, budget, emploi",
     metaDesc: "S'installer à Nîmes en 2026 : quartiers, budget réel, Rome en France à -40 % de Montpellier. Le guide honnête de la ville aux Arènes.",
     category: "lifestyle",
     emoji: "🏛️",
