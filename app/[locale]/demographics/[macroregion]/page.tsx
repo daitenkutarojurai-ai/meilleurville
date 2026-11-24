@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: fitTitle(`Demographics · ${label} 2026`),
+    title: fitTitle(`Demographics · ${label} 2027`),
     description: `Composite demographics ranking (ageing, young workers, trajectory, renewal) for cities in the ${label} macro-region. Most dynamic vs most ageing cities.`,
     alternates: pathAlternatesEn(`/demographie/${macro.slug}`, `/demographics/${macro.slug}`),
     openGraph: {

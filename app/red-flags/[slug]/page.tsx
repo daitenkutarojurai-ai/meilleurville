@@ -317,14 +317,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `Drapeaux à vérifier : ${top.join(", ")}.`
     : "Aucun drapeau majeur, profil de risque globalement maîtrisé.";
   return {
-    title: fitTitle(`Red Flags ${city.name} · Risques connus & sources publiques 2026`),
+    title: fitTitle(`Red Flags ${city.name} · Risques connus & sources publiques 2027`),
     description: clampMeta(`Ce qu'on ne vous dit pas avant de signer à ${city.name} : sécurité, inondation, canicule, pollution, sismicité, coût. ${teaser} Sources : Géorisques, SSMSI, ATMO, BRGM.`),
     alternates: { canonical: `/red-flags/${slug}` },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Red Flags ${city.name} · 2026`,
+      title: `Red Flags ${city.name} · 2027`,
       description: teaser,
       type: "article",
     },

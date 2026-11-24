@@ -28,15 +28,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: `Agenda culturel & saisonnier de ${city.name} 2026`,
-    description: `Que faire à ${city.name} mois par mois : festivals, marchés, événements nationaux et régionaux, meilleures saisons pour visiter. Calendrier 2026 indicatif.`,
+    title: `Agenda culturel & saisonnier de ${city.name} 2027`,
+    description: `Que faire à ${city.name} mois par mois : festivals, marchés, événements nationaux et régionaux, meilleures saisons pour visiter. Calendrier 2027 indicatif.`,
     alternates: cityAlternates("agenda", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
       title: `Agenda ${city.name} · que faire mois par mois`,
-      description: `Calendrier 2026 indicatif de ${city.name} — événements, marchés, saisons.`,
+      description: `Calendrier 2027 indicatif de ${city.name} — événements, marchés, saisons.`,
     },
   };
 }

@@ -19,7 +19,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Best value-for-money cities in France 2026",
+  title: "Best value-for-money cities in France 2027",
   description:
     "Top 50 French cities with the best quality-of-life-to-price ratio: overall score divided by buy price per m². Where you get the most for your money.",
   alternates: { canonical: `${EN_BASE}/best-value-cities` },
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Best value-for-money cities in France 2026",
+    title: "Best value-for-money cities in France 2027",
     description:
       "Which French cities give you the most quality of life per euro spent? Our value score reveals the underrated picks.",
     type: "website",

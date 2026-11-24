@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = bestMonthsFor(city);
   const months = best.map((m) => formatMonthLabel(m).toLowerCase()).join(", ");
   return {
-    title: fitTitle(`Vacances à ${city.name} 2026 · quand y aller, quoi y faire`),
+    title: fitTitle(`Vacances à ${city.name} 2027 · quand y aller, quoi y faire`),
     description: `Quand partir à ${city.name} (${city.department}) : meilleurs mois ${months}. Climat, affluence, activités où la ville excelle.`,
     // Les deux routes bouclent sur `CITIES_SEED` : mêmes 540 slugs des deux
     // côtés, seule la tête change (`vacances` → `vacations`). La tête est bien

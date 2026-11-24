@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Marché de l'emploi · ${macro.label} 2026`),
+    title: fitTitle(`Marché de l'emploi · ${macro.label} 2027`),
     description: `Classement composite marché du travail (chômage, salaire, dynamisme, mix) restreint aux villes de la macro-région ${macro.label}. Marché favorable vs. sinistré.`,
     alternates: pathAlternates(`/emploi/${macro.slug}`, `/employment/${macro.slug}`),
     openGraph: {

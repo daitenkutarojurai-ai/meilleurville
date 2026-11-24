@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: fitTitle(`${c.name} climate — temperatures, sunshine, rainfall (2026)`),
+    title: fitTitle(`${c.name} climate — temperatures, sunshine, rainfall (2027)`),
     description: `Climate in ${c.name}: average temperatures, annual sunshine, rainfall, and what it actually feels like to live there year-round.`,
     alternates: cityAlternatesEn("climate", slug),
   };

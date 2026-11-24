@@ -36,7 +36,7 @@ const EN_JOB_LABEL: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Job market in France · best cities for employment 2026",
+  title: "Job market in France · best cities for employment 2027",
   description:
     "French cities ranked by employment: unemployment rate, job creation, sector diversity. Top 30 most active vs top 20 most difficult job markets.",
   alternates: pathAlternatesEn("/emploi", "/employment"),
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Job market in France · best cities for employment 2026",
+    title: "Job market in France · best cities for employment 2027",
     description:
       "Top 30 most active job markets vs top 20 most difficult. Unemployment, jobs and pay measured by INSEE.",
   },

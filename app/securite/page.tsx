@@ -15,7 +15,7 @@ import { clampMeta } from "@/lib/brand";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Sécurité en France — villes calmes vs. tendues 2026",
+  title: "Sécurité en France — villes calmes vs. tendues 2027",
   description:
     clampMeta("Classement des villes françaises selon la sécurité : atteintes aux biens, aux personnes, nuit, violences faites aux femmes. Estimation communale, pas les faits enregistrés."),
   alternates: pathAlternates("/securite", "/safety"),

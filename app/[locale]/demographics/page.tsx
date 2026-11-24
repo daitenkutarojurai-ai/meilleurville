@@ -36,7 +36,7 @@ const EN_DEMO_LABEL: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Demographics in France · dynamic cities vs ageing 2026",
+  title: "Demographics in France · dynamic cities vs ageing 2027",
   description:
     "National ranking of French cities by demographic trajectory: population growth, age structure, birth rate. Top 30 most dynamic vs top 20 most ageing.",
   alternates: pathAlternatesEn("/demographie", "/demographics"),
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Demographics in France · dynamic cities vs ageing 2026",
+    title: "Demographics in France · dynamic cities vs ageing 2027",
     description:
       "Top 30 cities with the most dynamic demographic profile vs top 20 in critical tension.",
   },

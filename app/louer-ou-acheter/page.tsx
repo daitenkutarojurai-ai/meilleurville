@@ -8,14 +8,14 @@ import { buildAllRentVsBuy } from "@/lib/rent-vs-buy-rankings";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Louer ou acheter en France 2026 · Ratio prix/loyer par ville",
+  title: "Louer ou acheter en France 2027 · Ratio prix/loyer par ville",
   description: "Ratio prix/loyer par ville : où acheter s'amortit vite vs où louer reste rationnel. PER immobilier + médians 2026.",
   alternates: pathAlternates("/louer-ou-acheter", "/own-vs-rent"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Louer ou acheter ? Classement France 2026",
+    title: "Louer ou acheter ? Classement France 2027",
     description: "Ratio prix/loyer par ville : où acheter s'amortit, où louer reste plus malin.",
   },
 };

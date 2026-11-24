@@ -16,7 +16,7 @@ import { pathAlternates } from "@/lib/i18n";
 // ne revienne ici. Même dérive que la liste du sitemap, dérivée d'EXPAT_COUNTRIES
 // après coup — et que le paragraphe d'intro plus bas, qui nommait les 18 mêmes.
 export const metadata: Metadata = {
-  title: "Expat retour France 2026 · Guide pratique pour rentrer",
+  title: "Expat retour France 2027 · Guide pratique pour rentrer",
   description: `${EXPAT_COUNTRIES.length} pays d'origine (Suisse, USA, UK, Émirats, Singapour, Japon, Mexique…) : ce qui change côté salaire, fiscalité, santé, admin. Quiz retour inclus.`,
   alternates: pathAlternates("/expat-retour", "/expat-return"),
 };

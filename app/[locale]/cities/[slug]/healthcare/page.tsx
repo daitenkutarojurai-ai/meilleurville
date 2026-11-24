@@ -35,7 +35,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: fitTitle(`${c.name} healthcare access — GPs, specialists, ER (2026)`),
+    title: fitTitle(`${c.name} healthcare access — GPs, specialists, ER (2027)`),
     description: computeHealthcareAccess(c).measured
       ? `Healthcare access in ${c.name}: GP access measured by DREES (APL), emergency departments and pharmacies counted by INSEE, specialists estimated.`
       : `Healthcare access in ${c.name}: finding a GP, seeing a specialist, reaching emergency care. Commune-level estimate, not a count of practices.`,

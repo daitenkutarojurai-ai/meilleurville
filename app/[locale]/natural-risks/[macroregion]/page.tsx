@@ -72,7 +72,7 @@ export async function generateMetadata({
   if (!macro) return {};
   const label = macroLabelEn(macro.slug, macro.label);
   return {
-    title: fitTitle(`Natural risks · ${label} 2026`),
+    title: fitTitle(`Natural risks · ${label} 2027`),
     description: `Flood, seismic activity, clay shrinkage and wildfire across ${label} cities. Top 15 most-exposed vs top 10 calmest.`,
     alternates: pathAlternatesEn(`/risques/${macro.slug}`, `/natural-risks/${macro.slug}`),
     openGraph: {

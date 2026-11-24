@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `${p.apartment.medianM2.toLocaleString("fr-FR")} €/m² en appartement, ${p.house.medianM2.toLocaleString("fr-FR")} € en maison (ventes ${p.years[0]}-${p.years[p.years.length - 1]})`
       : null;
   return {
-    title: fitTitle(`Logement à ${city.name} — loyers, prix, tension locative 2026`),
+    title: fitTitle(`Logement à ${city.name} — loyers, prix, tension locative 2027`),
     description: clampMeta(measured
       ? `Loyers T1/T2/T3 et prix au m² à ${city.name} : ${measured}. Tension du marché et comparaison location vs achat.`
       : `Loyers T1/T2/T3 et prix d'achat au m² à ${city.name}. Tension du marché, quartiers abordables, comparaison location vs achat. Données Clameur 2024.`),
@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Logement à ${city.name} · Loyers et marché immobilier 2026`,
+      title: `Logement à ${city.name} · Loyers et marché immobilier 2027`,
       description: h
         ? `T2 ${h.avgRentT2} €/mois · Achat ${h.avgBuyPriceM2} €/m² · Score coût ${city.scores.cost.toFixed(1)}/10`
         : `Marché immobilier de ${city.name} — loyers, tension locative, logements par quartier.`,

@@ -15,7 +15,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Rent or buy in France 2026 · Price-to-rent ratio by city",
+  title: "Rent or buy in France 2027 · Price-to-rent ratio by city",
   description:
     "Ranking of French cities by price-to-rent ratio (PER). Cities where buying pays off quickly vs where renting stays rational. 2026 medians + benchmarks.",
   alternates: pathAlternatesEn("/louer-ou-acheter", "/own-vs-rent"),
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Rent or buy in France 2026 · Price-to-rent ratio by city",
+    title: "Rent or buy in France 2027 · Price-to-rent ratio by city",
     description:
       "Ranking of French cities by price-to-rent ratio (PER). Cities where buying pays off quickly vs where renting stays rational. 2026 medians + benchmarks.",
   },

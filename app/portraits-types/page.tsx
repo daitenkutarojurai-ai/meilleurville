@@ -12,7 +12,7 @@ import { pathAlternates } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Portraits-types · Qui déménage en France et pourquoi — 2026",
+  title: "Portraits-types · Qui déménage en France et pourquoi — 2027",
   description:
     clampMeta("6 profils fictifs illustrant les grandes migrations internes en France : freelances, retraités, étudiants, familles, expats, profils nature. Avec scores de compatibilité réels par ville."),
   alternates: pathAlternates("/portraits-types", "/community-profiles"),

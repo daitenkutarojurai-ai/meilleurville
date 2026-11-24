@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Healthiest cities in France · environmental index 2026",
+  title: "Healthiest cities in France · environmental index 2027",
   description:
     "French cities ranked by environmental health: air quality, noise, water stress, natural risks. Top 30 healthiest, top 20 most exposed.",
   alternates: pathAlternatesEn("/environnement", "/environment"),

@@ -36,7 +36,7 @@ const EN_SAFETY_LABEL: Record<string, string> = {
 };
 
 export const metadata: Metadata = {
-  title: "Safety in France 2026 · Safest and most strained cities",
+  title: "Safety in France 2027 · Safest and most strained cities",
   description:
     "National ranking of French cities by safety: property crime, personal crime, night safety, domestic violence. A commune-level estimate, not recorded crime counts.",
   alternates: pathAlternatesEn("/securite", "/safety"),
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Safety in France · 2026 ranking",
+    title: "Safety in France · 2027 ranking",
     description:
       "Top 30 safest cities vs top 20 most strained — 4 estimated sub-scores.",
   },

@@ -13,7 +13,7 @@ import { competitionRanks, hasTieInTop } from "@/lib/tie-rank";
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Leaderboard · Top French cities by quality of life (2026)",
+  title: "Leaderboard · Top French cities by quality of life (2027)",
   description:
     "Every French city we cover, ranked by quality of life: a weighted score across life, transport, nature, cost, safety, culture, schools and remote work.",
   alternates: pathAlternatesEn("/leaderboard", "/leaderboard"),

@@ -22,7 +22,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Fibre & internet coverage in France · 2026 ranking by city",
+  title: "Fibre & internet coverage in France · 2027 ranking by city",
   description:
     "Where fibre is widely deployed in France and where the connection is still patchy. Top 30 best-connected cities vs top 20 worst — ARCEP Q4 2024 data.",
   alternates: pathAlternatesEn("/internet", "/internet-quality"),
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Fibre & internet coverage in France · 2026 ranking",
+    title: "Fibre & internet coverage in France · 2027 ranking",
     description:
       "Top 30 cities with fully deployed FTTH vs top 20 where connections stay patchy. Regional estimate from ARCEP Q4 2024.",
   },

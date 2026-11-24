@@ -63,7 +63,7 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Single parent in France 2026 · Cities that actually work",
+  title: "Single parent in France 2027 · Cities that actually work",
   description:
     "Top 30 French cities where single-parent life holds: cost, transit, schools, safety. Weighted composite of 4 axes, estimated minimum income to rent a T3.",
   alternates: pathAlternatesEn("/parent-solo", "/single-parent"),
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Single parent in France · French cities that actually work in 2026",
+    title: "Single parent in France · French cities that actually work in 2027",
     description:
       `One income, one driver. Ranking of 4 axes (cost, transit, schools, safety) across ${CITIES_COUNT} French cities. No sugarcoating.`,
   },

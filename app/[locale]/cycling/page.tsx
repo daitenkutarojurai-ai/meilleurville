@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Most cycle-friendly cities in France · 2026 ranking",
+  title: "Most cycle-friendly cities in France · 2027 ranking",
   description:
     "National ranking of French cities by everyday cyclability: network, terrain, safety, climate. A commune-level estimate, not the FUB barometer score.",
   alternates: pathAlternatesEn("/velo", "/cycling"),

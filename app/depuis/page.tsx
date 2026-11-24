@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Week-end depuis votre ville · Destinations France 2026",
+    title: "Week-end depuis votre ville · Destinations France 2027",
     description:
       "26 grandes villes françaises, toutes leurs destinations à moins de 5h. Estimations SNCF + accès local.",
   },

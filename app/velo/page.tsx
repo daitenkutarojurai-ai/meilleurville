@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Villes cyclables en France 2026",
+    title: "Villes cyclables en France 2027",
     description:
       "Top 30 villes où le vélo est un plaisir vs. top 20 où il devient une épreuve. Estimation communale, pas le Baromètre FUB.",
   },

@@ -5,7 +5,7 @@ import { Footer } from "@/components/Footer";
 import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Which French city suits your profile? — Top 20 lists 2026",
+  title: "Which French city suits your profile? — Top 20 lists 2027",
   description:
     "13 lifestyle profiles, 13 top-20 rankings: families, couples, young professionals, retirees, freelancers, students, first-time buyers, single parents.",
   alternates: pathAlternatesEn("/pour-qui", "/for-who"),

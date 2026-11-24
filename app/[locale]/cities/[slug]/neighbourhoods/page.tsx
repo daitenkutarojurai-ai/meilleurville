@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const hoods = getNeighborhoods(slug);
   return {
-    title: fitTitle(`Neighbourhoods of ${city.name} · Which district to choose? 2026`),
+    title: fitTitle(`Neighbourhoods of ${city.name} · Which district to choose? 2027`),
     description: `Compare ${hoods.length || "all"} neighbourhoods in ${city.name}: safety, rents, transport, and atmosphere. Find the district that matches your lifestyle.`,
     alternates: cityAlternatesEn("neighbourhoods", slug),
     openGraph: {

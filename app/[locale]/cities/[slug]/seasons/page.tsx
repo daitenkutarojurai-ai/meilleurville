@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Living in ${city.name} season by season · Climate & tourism 2026`),
+    title: fitTitle(`Living in ${city.name} season by season · Climate & tourism 2027`),
     description: clampMeta(`What's ${city.name} like in spring, summer, autumn, winter? Temperatures, sunshine hours, rainy days and tourist crowd levels — four seasons, four realities.`),
     alternates: cityAlternatesEn("seasons", slug),
     openGraph: {

@@ -9,7 +9,7 @@ import { t, pathAlternatesEn } from "@/lib/i18n";
 import { CITIES_COUNT } from "@/lib/site-stats";
 
 export const metadata: Metadata = {
-  title: "Explore every French city · Reviews & 2026 rankings",
+  title: "Explore every French city · Reviews & 2027 rankings",
   description: `${CITIES_COUNT} French cities profiled with calibrated quality-of-life scores, resident reviews and local data. Filter by region, lifestyle and terrain.`,
   alternates: pathAlternatesEn("/villes", "/cities"),
 };

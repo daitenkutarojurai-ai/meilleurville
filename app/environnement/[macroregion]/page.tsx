@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Villes les plus saines · ${macro.label} 2026`),
+    title: fitTitle(`Villes les plus saines · ${macro.label} 2027`),
     description: `Classement environnemental composite (air, bruit, eau, risques) restreint aux villes de la macro-région ${macro.label}. Top villes saines vs. plus exposées.`,
     alternates: pathAlternates(`/environnement/${macro.slug}`, `/environment/${macro.slug}`),
     openGraph: {

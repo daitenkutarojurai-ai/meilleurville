@@ -19,7 +19,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Gentrification index 2026 · French cities on the rise",
+  title: "Gentrification index 2027 · French cities on the rise",
   description: `French cities where gentrification is accelerating: property prices, 25-35 demographics, café and coworking openings. ${CITIES_COUNT} cities, score 0-100.`,
   alternates: pathAlternatesEn("/gentrification", "/gentrification"),
 };

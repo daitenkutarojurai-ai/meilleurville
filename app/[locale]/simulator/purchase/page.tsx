@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Property purchase simulator 2026 · France on your budget",
+  title: "Property purchase simulator 2027 · France on your budget",
   description:
     "Enter your budget and target floor area — see the top 15 affordable French cities ranked by quality of life, with monthly mortgage payment and estimated notary fees.",
   alternates: pathAlternatesEn("/simulateur-achat", "/simulator/purchase"),

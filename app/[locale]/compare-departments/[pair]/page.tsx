@@ -83,7 +83,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: `${a} or ${b}: where to live? 2026 comparison`,
+    title: `${a} or ${b}: where to live? 2027 comparison`,
     description: `${a} vs ${b} — scores compared on 8 criteria (safety, cost, schools, transport) and the best cities in each French department.`,
     alternates: {
       canonical: `${EN_BASE}/compare-departments/${pair}`,

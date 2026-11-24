@@ -28,7 +28,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "familles-avec-enfants",
     emoji: "👨‍👩‍👧",
     label: "Families with children",
-    metaTitle: "Best French cities for families 2026 — Top 20",
+    metaTitle: "Best French cities for families 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for families with children: schools, safety, green spaces, affordable cost of living. Score calibrated on national data.",
     intro:
@@ -42,7 +42,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "jeunes-actifs",
     emoji: "🚀",
     label: "Young professionals",
-    metaTitle: "Best French cities for young professionals 2026 — Top 20",
+    metaTitle: "Best French cities for young professionals 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for young professionals (25-35): career opportunities, culture, remote work, affordable living. Calibrated on demographics and business data.",
     intro:
@@ -56,7 +56,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "retraites",
     emoji: "🌅",
     label: "Retirees",
-    metaTitle: "Best French cities for retirees 2026 — Top 20",
+    metaTitle: "Best French cities for retirees 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for retirees: healthcare access, safety, mild climate, quality of life, affordable cost. 2026 selection.",
     intro:
@@ -70,7 +70,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "freelances",
     emoji: "💼",
     label: "Freelancers",
-    metaTitle: "Best French cities for freelancers 2026 — Top 20",
+    metaTitle: "Best French cities for freelancers 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for freelancers and independents: fibre, coworking spaces, culture, optimised cost. 2026 calibration.",
     intro:
@@ -84,7 +84,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "teletravailleurs",
     emoji: "💻",
     label: "Remote workers",
-    metaTitle: "Best French cities for remote workers 2026 — Top 20",
+    metaTitle: "Best French cities for remote workers 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for employed remote workers: fibre connectivity, quality of life, weekend access, reasonable cost. 2026.",
     intro:
@@ -98,7 +98,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "etudiants",
     emoji: "🎓",
     label: "Students",
-    metaTitle: "Best French student cities 2026 — Top 20",
+    metaTitle: "Best French student cities 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for students: universities, culture, transport, affordable student housing. 2026 calibration.",
     intro:
@@ -112,7 +112,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "sans-voiture",
     emoji: "🚲",
     label: "Car-free living",
-    metaTitle: "Best French cities to live without a car 2026 — Top 20",
+    metaTitle: "Best French cities to live without a car 2027 — Top 20",
     metaDescription:
       "Top 20 French cities where you can genuinely live without a car: tram, metro, bus, cycling network. Proprietary car-free score + transport axis.",
     intro:
@@ -126,7 +126,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "premium",
     emoji: "✨",
     label: "Premium lifestyle",
-    metaTitle: "Top French cities for a premium lifestyle 2026 — Top 20",
+    metaTitle: "Top French cities for a premium lifestyle 2027 — Top 20",
     metaDescription:
       "Top 20 premium French cities: high quality of life, safety, exceptional setting, top schools, rich culture. For budgets above €4,000/month.",
     intro:
@@ -140,7 +140,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "solo-femme",
     emoji: "👤",
     label: "Women living solo",
-    metaTitle: "Best French cities for women living solo 2026 — Top 20",
+    metaTitle: "Best French cities for women living solo 2027 — Top 20",
     metaDescription:
       "Top 20 French cities adapted for women living alone: night safety, late public transport, urban quality of life.",
     intro:
@@ -154,7 +154,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "couple-sans-enfant",
     emoji: "👫",
     label: "Couples without children",
-    metaTitle: "Best French cities for couples without children 2026 — Top 20",
+    metaTitle: "Best French cities for couples without children 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for DINK couples: culture, restaurants, nightlife, weekend nature access, transport. 2026.",
     intro:
@@ -168,7 +168,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "expat-retour",
     emoji: "✈️",
     label: "Returning expats",
-    metaTitle: "Best French cities for returning expats 2026 — Top 20",
+    metaTitle: "Best French cities for returning expats 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for nationals returning from abroad: quality of life, international connectivity, border cities. Switzerland, Luxembourg, UK, Canada included.",
     intro:
@@ -182,7 +182,7 @@ const EN_PROFILES: EnProfile[] = [
     slug: "primo-accedants",
     emoji: "🔑",
     label: "First-time buyers",
-    metaTitle: "Best French cities for first-time property buyers 2026 — Top 20",
+    metaTitle: "Best French cities for first-time property buyers 2027 — Top 20",
     metaDescription:
       "Top 20 French cities for first-time buyers: affordable entry prices, low taxes, rental yield, growth potential. Cities where a starter home is still within reach.",
     intro:

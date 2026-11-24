@@ -63,7 +63,7 @@ export async function generateMetadata({
   if (!macro) return {};
   const label = macroLabelEn(macro.slug, macro.label);
   return {
-    title: fitTitle(`Retail coverage · ${label} 2026`),
+    title: fitTitle(`Retail coverage · ${label} 2027`),
     description: `Retail offer across ${label} cities: density, proximity, big-box, downtown vitality. An estimate, not a field count.`,
     alternates: pathAlternatesEn(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {

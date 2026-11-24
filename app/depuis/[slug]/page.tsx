@@ -32,14 +32,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getOriginCity(slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Week-end depuis ${city.name} · Destinations à moins de 5h 2026`),
+    title: fitTitle(`Week-end depuis ${city.name} · Destinations à moins de 5h 2027`),
     description: clampMeta(`Toutes les villes françaises accessibles depuis ${city.name} en moins de 5h (TGV, Intercités ou voiture). Classées par temps de trajet avec score de qualité de vie.`),
     alternates: pathAlternates(`/depuis/${slug}`, `/weekend-getaways/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Depuis ${city.name} · Destinations week-end France 2026`,
+      title: `Depuis ${city.name} · Destinations week-end France 2027`,
       description: `Destinations week-end depuis ${city.name} — temps de trajet estimé pour 500+ villes françaises.`,
     },
   };

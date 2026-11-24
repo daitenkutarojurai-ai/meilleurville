@@ -26,14 +26,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: fitTitle(`${city.name} — questions fréquentes & réponses 2026`),
+    title: fitTitle(`${city.name} — questions fréquentes & réponses 2027`),
     description: `Toutes les questions qu'on se pose avant de vivre à ${city.name} : loyers, sécurité, trajets, climat 2040, écoles, télétravail.`,
     alternates: cityAlternates("questions", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `${city.name} — questions fréquentes 2026`,
+      title: `${city.name} — questions fréquentes 2027`,
       description: `13 questions, 13 réponses chiffrées sur ${city.name}.`,
     },
   };

@@ -87,6 +87,11 @@ apparaît plus souvent, plus bas, et le CTR baisse.
   la série entre dans le top 1 000 d'un export.
 - **Améliorer une page existante vaut mieux qu'en créer une nouvelle**, dès qu'une page
   existante se classe en position 4-20 sur la requête.
+- **Millésime 2027 depuis le 2026-11-24** (décision du propriétaire) : titres, h1 et descriptions des guides
+  et des gabarits affichent 2027. Les slugs existants gardent leur `-2026` : ne jamais les renommer (historique
+  Google). Un guide neuf prend 2027 dans son titre et son slug. L’année reste 2026 quand c’est un fait : municipales
+  2026, lois, barèmes et fiscalité, PTZ, ZRR, DVF, palmarès mensuels, éditions d’événements, données datées
+  (« chiffres 2026 », « médians 2026 »), projections « 2026 → 2040 ». Ne rien repasser en 2026.
 
 ## 5. Feuille de route
 

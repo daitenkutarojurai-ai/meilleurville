@@ -33,14 +33,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) return {};
   return {
-    title: fitTitle(`Coût de la vie à ${city.name} par profil ménage · Solo, couple, famille, retraité 2026`),
+    title: fitTitle(`Coût de la vie à ${city.name} par profil ménage · Solo, couple, famille, retraité 2027`),
     description: clampMeta(`Coût mensuel réel à ${city.name} pour 4 profils : solo (T1), couple (T2), famille 2 enfants (T3), retraité. Loyer, chauffage, mobilité, taxes — médians honnêtes.`),
     alternates: pathAlternates(`/cout-menage/${ville}`, `/household-cost/${ville}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Coût ménage à ${city.name} · 4 profils 2026`,
+      title: `Coût ménage à ${city.name} · 4 profils 2027`,
       description: `Solo, couple, famille, retraité : combien ça coûte vraiment chaque mois à ${city.name} ?`,
     },
   };

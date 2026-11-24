@@ -29,14 +29,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // nu, et l'ajouter à la main poussait les 540 titres au-delà de 60
     // caractères (61-85), donc hors de ce que Google rend. La jumelle FR
     // `/villes/[slug]/questions` n'en a jamais porté.
-    title: fitTitle(`${city.name} — frequently asked questions 2026`),
-    description: `Everything to know before moving to ${city.name}: rents, safety, commute, 2040 climate, schools, remote work. Data-grounded 2026 answers.`,
+    title: fitTitle(`${city.name} — frequently asked questions 2027`),
+    description: `Everything to know before moving to ${city.name}: rents, safety, commute, 2040 climate, schools, remote work. Data-grounded 2027 answers.`,
     alternates: cityAlternatesEn("questions", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `${city.name} — FAQ 2026`,
+      title: `${city.name} — FAQ 2027`,
       description: `13 questions, 13 data-grounded answers about ${city.name}.`,
     },
   };

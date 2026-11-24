@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: fitTitle(`${c.name} demographics — ageing, growth, renewal (2026)`),
+    title: fitTitle(`${c.name} demographics — ageing, growth, renewal (2027)`),
     description: `Demographics of ${c.name}: ageing and trajectory measured in the Insee census, young adults and renewal estimated. Growing or emptying?`,
     alternates: cityAlternatesEn("demographics", slug),
   };

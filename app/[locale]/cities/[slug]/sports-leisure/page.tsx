@@ -100,7 +100,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!c) return {};
   const s = computeSportLeisure(c);
   return {
-    title: fitTitle(`Sport & leisure in ${c.name} — facilities, outdoor, clubs (2026)`),
+    title: fitTitle(`Sport & leisure in ${c.name} — facilities, outdoor, clubs (2027)`),
     description: `How sport-friendly is ${c.name}? Municipal facilities, outdoor playground, club scene and year-round climate. Composite ${s.composite}/10 (${LEVEL_EN[s.level].toLowerCase()}).`,
     alternates: cityAlternatesEn("sports-leisure", slug),
     openGraph: {

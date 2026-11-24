@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: fitTitle(`${c.name} cost of living — rent, property, monthly budget (2026)`),
-    description: `What it actually costs to live in ${c.name} in 2026: rent for a T2, property prices per m², and a realistic monthly budget.`,
+    title: fitTitle(`${c.name} cost of living — rent, property, monthly budget (2027)`),
+    description: `What it actually costs to live in ${c.name} in 2027: rent for a T2, property prices per m², and a realistic monthly budget.`,
     alternates: cityAlternatesEn("cost-of-living", slug),
   };
 }

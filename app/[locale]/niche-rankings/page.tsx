@@ -13,7 +13,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Niche city rankings — France 2026 · BestCitiesInFrance",
+  title: "Niche city rankings — France 2027 · BestCitiesInFrance",
   description:
     "10 specialised city rankings for France: air quality, quiet, safety for women, car-free living, heatwave resistance, remote work, social capital.",
   alternates: { canonical: `${EN_BASE}/niche-rankings` },

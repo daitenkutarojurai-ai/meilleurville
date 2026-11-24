@@ -13,7 +13,7 @@ import { pathAlternates } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Villes les moins chères de France 2026 · Loyer T2",
+  title: "Villes les moins chères de France 2027 · Loyer T2",
   description:
     clampMeta("Top 50 des villes françaises où se loger coûte le moins cher en 2026, classées par loyer T2 médian. Sources : observatoires des loyers (ANIL), DVF."),
   alternates: pathAlternates("/classements/villes-moins-cheres", "/cheapest-cities"),
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Villes les moins chères de France 2026",
+    title: "Villes les moins chères de France 2027",
     description:
       "Top 50 des villes où le loyer T2 est le plus bas. Le coût du logement, sans le filtre marketing.",
     type: "website",

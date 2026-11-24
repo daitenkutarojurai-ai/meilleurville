@@ -13,7 +13,7 @@ export function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Moving between French cities · Honest comparisons 2026",
+  title: "Moving between French cities · Honest comparisons 2027",
   description: `${QUITTER_PAIRS.length} origin → destination comparisons: Paris → Lyon, Marseille → Aix, Lille → Amiens. Fixed costs, quality-of-life delta and a clear verdict.`,
   alternates: pathAlternatesEn("/quitter", "/moving-from"),
   openGraph: {

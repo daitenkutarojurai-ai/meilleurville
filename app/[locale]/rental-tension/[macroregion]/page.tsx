@@ -47,7 +47,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = macroLabelEn(macro.slug, macro.label);
   return {
-    title: fitTitle(`Rental market pressure · ${label} 2026`),
+    title: fitTitle(`Rental market pressure · ${label} 2027`),
     description: `Rental market across ${label} cities: where renting is tight vs where it's accessible. Reference 1-bed rents and a pressure score per city.`,
     alternates: pathAlternatesEn(`/tension-locative/${macro.slug}`, `/rental-tension/${macro.slug}`),
     openGraph: {

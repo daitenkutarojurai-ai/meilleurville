@@ -127,7 +127,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const topAxis = axisLabelEN(s.strengths[0]).toLowerCase();
   const bottomAxis = axisLabelEN(s.tensions[0]).toLowerCase();
   return {
-    title: fitTitle(`${city.name} overview 2026 — all 8 indicators at a glance`),
+    title: fitTitle(`${city.name} overview 2027 — all 8 indicators at a glance`),
     description: `${city.name} (${city.department}) synthesis across 8 axes: global ${s.global}/10 (${LEVEL_LABEL_EN[s.level].toLowerCase()}). Strength: ${topAxis}, tension: ${bottomAxis}. Deterministic, no invented numbers.`,
     alternates: { canonical: `${EN_BASE}/cities/${slug}/overview` },
     openGraph: {

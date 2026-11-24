@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Pas de suffixe de marque : cf. `/cities/[slug]/questions`. Les 540
     // titres passaient de 61-85 caractères à 39-61 en le retirant, et la
     // jumelle FR `/villes/[slug]/agenda` n'en porte pas.
-    title: `Annual calendar of events in ${city.name} 2026`,
-    description: `What to do in ${city.name} month by month: festivals, markets, national and regional events, best seasons to visit. Indicative 2026 calendar.`,
+    title: `Annual calendar of events in ${city.name} 2027`,
+    description: `What to do in ${city.name} month by month: festivals, markets, national and regional events, best seasons to visit. Indicative 2027 calendar.`,
     alternates: cityAlternatesEn("calendar", slug),
   };
 }

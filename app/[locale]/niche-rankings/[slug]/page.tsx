@@ -37,7 +37,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_qualite_air",
     emoji: "🍃",
     label: "Best air quality",
-    metaTitle: "French cities with the best air quality 2026",
+    metaTitle: "French cities with the best air quality 2027",
     metaDescription:
       `French cities ranked on annual average PM2.5 per department (ATMO France 2023), across the ${SA.pool} cities the source covers. Atlantic and coastal cities lead.`,
     intro:
@@ -50,7 +50,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_bruit",
     emoji: "🤫",
     label: "Quietest cities",
-    metaTitle: "Quietest cities in France 2026 — noise ranking",
+    metaTitle: "Quietest cities in France 2027 — noise ranking",
     metaDescription:
       "French cities by acoustic environment: city size and an Île-de-France penalty (Lden ≥60 dB documented). The smallest, least dense cities top the list.",
     intro:
@@ -63,7 +63,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_securite_femme_seule",
     emoji: "👤",
     label: "Safest for women living solo",
-    metaTitle: "Safest French cities for women living solo 2026",
+    metaTitle: "Safest French cities for women living solo 2027",
     metaDescription:
       "French cities ranked on the safety index (SSMSI assault data) weighted with evening transport density — the two factors behind feeling secure coming home late.",
     intro:
@@ -76,7 +76,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_securite_nocturne",
     emoji: "🌙",
     label: "Night safety",
-    metaTitle: "Safest French cities at night 2026",
+    metaTitle: "Safest French cities at night 2027",
     metaDescription:
       "Ranking of French cities for night-time safety, derived from SSMSI person-assault data adjusted for after-dark incidents linked to nightlife and alcohol.",
     intro:
@@ -89,7 +89,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_sans_voiture",
     emoji: "🚲",
     label: "Car-free living",
-    metaTitle: "Best French cities for car-free living 2026",
+    metaTitle: "Best French cities for car-free living 2027",
     metaDescription:
       "French cities where transport and cycling make owning a car optional, ranked on the site transport axis with a penalty for small cities.",
     intro:
@@ -102,7 +102,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_teletravail",
     emoji: "💻",
     label: "Remote work (fibre-adjusted)",
-    metaTitle: "Best French cities for remote workers 2026 — fibre-adjusted",
+    metaTitle: "Best French cities for remote workers 2027 — fibre-adjusted",
     metaDescription:
       "French cities for remote work, combining FTTH fibre coverage by department (ARCEP Q4 2024) with the remote-work score. Well-fibred rural towns surface.",
     intro:
@@ -115,7 +115,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_canicule",
     emoji: "🥵",
     label: "Heatwave resistance",
-    metaTitle: "French cities most resistant to heatwaves 2026",
+    metaTitle: "French cities most resistant to heatwaves 2027",
     metaDescription:
       "French cities where summer heat remains liveable, ranked on July averages for 1991–2020. Coastal, Atlantic and northern cities lead; the Mediterranean trails.",
     intro:
@@ -128,7 +128,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_solitude",
     emoji: "🤝",
     label: "Social capital",
-    metaTitle: "French cities with the best social fabric 2026",
+    metaTitle: "French cities with the best social fabric 2027",
     metaDescription:
       "French cities where loneliness risk is lowest, from the share of single-person households by department (INSEE census 2020). Smaller towns lead.",
     intro:
@@ -141,7 +141,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_jeune_actif",
     emoji: "🚀",
     label: "Young professionals",
-    metaTitle: "Best French cities for young professionals 2026",
+    metaTitle: "Best French cities for young professionals 2027",
     metaDescription:
       "Niche ranking for young professionals: cultural offer, remote-work readiness and cost of living, with a bonus for cities big enough to build a network in.",
     intro:
@@ -154,7 +154,7 @@ const EN_NICHE_RANKINGS: EnNicheRanking[] = [
     scoreKey: "score_famille",
     emoji: "👨‍👩‍👧",
     label: "Families (niche score)",
-    metaTitle: "Best French cities for families 2026 — niche score",
+    metaTitle: "Best French cities for families 2027 — niche score",
     metaDescription:
       "Family niche ranking: schools, safety and nature access, with a penalty for the most expensive cities. A complementary view to the main families ranking.",
     intro:

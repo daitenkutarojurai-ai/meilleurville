@@ -7,7 +7,7 @@ import { METRO_REGIONS, REGION_EMOJIS, regionToSlug } from "@/lib/regions";
 import { pathAlternatesEn } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Compare French regions · 78 side-by-side comparisons 2026",
+  title: "Compare French regions · 78 side-by-side comparisons 2027",
   description:
     "Compare any two French regions side by side: cost of living, climate, housing, quality-of-life scores and top cities. All 78 combinations of the 13 mainland regions.",
   alternates: pathAlternatesEn("/comparer-regions", "/compare-regions"),

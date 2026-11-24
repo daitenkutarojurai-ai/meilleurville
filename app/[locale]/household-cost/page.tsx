@@ -14,7 +14,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: `Household cost by city 2026 · ${CITIES_SEED.length} French cities`,
+  title: `Household cost by city 2027 · ${CITIES_SEED.length} French cities`,
   description: `Monthly fixed costs for 4 household types — single, couple, family, retired — across ${CITIES_SEED.length} French cities. Rent, heating, mobility, taxes: honest medians.`,
   alternates: pathAlternatesEn("/cout-menage", "/household-cost"),
 };

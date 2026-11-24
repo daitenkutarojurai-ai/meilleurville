@@ -26,8 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Mentalité locale à ${city.name} 2026 — vibe, sociabilité, tempo`),
-    description: `Comment vit-on socialement à ${city.name} ? Tempo, ouverture, culture café, vie associative, archetype régional. Synthèse 2026 dérivée du seed + tags.`,
+    title: fitTitle(`Mentalité locale à ${city.name} 2027 — vibe, sociabilité, tempo`),
+    description: `Comment vit-on socialement à ${city.name} ? Tempo, ouverture, culture café, vie associative, archetype régional. Synthèse 2027 dérivée du seed + tags.`,
     alternates: cityAlternates("mentalite-locale", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

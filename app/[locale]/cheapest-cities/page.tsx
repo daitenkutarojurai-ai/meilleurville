@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Cheapest cities to live in France 2026 · Rent & buy prices",
+  title: "Cheapest cities to live in France 2027 · Rent & buy prices",
   description:
     "Top 50 cheapest French cities by median 2-bed rent in 2026, from national rent observatories (ANIL/OLL) and DVF property transactions.",
   alternates: pathAlternatesEn("/classements/villes-moins-cheres", "/cheapest-cities"),
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Cheapest cities to live in France 2026",
+    title: "Cheapest cities to live in France 2027",
     description:
       "Ranked by 2-bed median rent: 50 French cities where housing is still genuinely affordable.",
     type: "website",

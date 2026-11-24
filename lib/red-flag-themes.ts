@@ -2936,7 +2936,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-regrets-achat",
     title: "Villes où l'on regrette d'avoir acheté",
-    metaTitle: "Villes regrets d'achat 2026 — payer cher pour moins bien",
+    metaTitle: "Villes regrets d'achat 2027 — payer cher pour moins bien",
     metaDescription:
       `Classement 2026 des villes où le prix d'achat dépasse largement la qualité de vie réelle : score global, €/m² de référence, canicule et air. ${CITIES_SEED.length} villes.`,
     emoji: "💸",
@@ -2951,7 +2951,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-voiture-difficile",
     title: "Villes où vivre sans voiture est vraiment difficile",
-    metaTitle: "Villes où vivre sans voiture est difficile · 2026",
+    metaTitle: "Villes où vivre sans voiture est difficile · 2027",
     metaDescription:
       "Classement des villes françaises ≥ 30 000 hab. où vivre sans voiture reste compliqué : pas de tram, offre TER limitée. Score sans-voiture calibré sur transport + densité réseau.",
     emoji: "🚗",
@@ -2981,7 +2981,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-pollution-air-chronique",
     title: "Villes à l'air irrespirable l'hiver",
-    metaTitle: "Pollution de l'air 2026 : les villes au PM2.5 élevé",
+    metaTitle: "Pollution de l'air 2027 : les villes au PM2.5 élevé",
     metaDescription:
       "Classement 2026 des villes françaises où l'air dépasse durablement le seuil OMS : cuvettes alpines, bassin parisien, couloir rhodanien. Source ATMO France.",
     emoji: "🌫️",
@@ -2996,7 +2996,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-risques-naturels",
     title: "Villes les plus exposées aux risques naturels",
-    metaTitle: "Risques naturels 2026 : les villes les plus exposées",
+    metaTitle: "Risques naturels 2027 : les villes les plus exposées",
     metaDescription:
       "Classement 2026 des villes françaises au composite le plus élevé sur les 4 aléas : inondation, retrait-gonflement argile (BRGM), feu de forêt (ONF/ECASC), sismicité (zonage 2011). Données ouvertes Géorisques.",
     emoji: "⚠️",
@@ -3011,7 +3011,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-bruit-cauchemar",
     title: "Villes où le bruit est un cauchemar quotidien",
-    metaTitle: "Villes les plus bruyantes de France · classement 2026",
+    metaTitle: "Villes les plus bruyantes de France · classement 2027",
     metaDescription:
       "Classement 2026 des villes françaises où le bruit cumule trafic routier saturé, survols aéroportuaires (PEB), LGV et vie nocturne. Données CBS / DGAC / Bruitparif. Composite agrégé.",
     emoji: "🔊",
@@ -3026,7 +3026,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-eau-ete",
     title: "Villes où l'eau manquera l'été — sécheresse & restrictions",
-    metaTitle: "Sécheresse 2026 : villes au stress hydrique le plus élevé",
+    metaTitle: "Sécheresse 2027 : villes au stress hydrique le plus élevé",
     metaDescription:
       "Classement 2026 des villes françaises où la sécheresse est devenue récurrente : arrêtés Propluvia quasi annuels, nappes basses, eau potable sous tension.",
     emoji: "💧",
@@ -3041,7 +3041,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-desert-medical",
     title: "Villes désert médical — accès aux soins critique",
-    metaTitle: "Déserts médicaux 2026 : les villes en zone sous-dense",
+    metaTitle: "Déserts médicaux 2027 : les villes en zone sous-dense",
     metaDescription:
       "Villes de 10 000 hab. et plus sous le seuil de zone sous-dense en médecine générale (APL DREES 2024 < 2,5) : " + CORPUS_DESERT_MEDICAL.n + " villes, dont " + CORPUS_DESERT_MEDICAL.idf + " en Île-de-France.",
     emoji: "🩺",
@@ -3056,7 +3056,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-chomage-eleve",
     title: "Villes au chômage chronique — marché du travail sinistré",
-    metaTitle: "Chômage 2026 : les villes au marché du travail tendu",
+    metaTitle: "Chômage 2027 : les villes au marché du travail tendu",
     metaDescription:
       "Villes françaises ≥ 15 000 hab. qui cumulent chômage élevé, emplois en recul et salaires bas, mesurés commune par commune par l'Insee.",
     emoji: "📉",
@@ -3071,7 +3071,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-cadre-de-vie-tendu",
     title: "Villes au cadre de vie tendu — cumul environnement + santé + emploi",
-    metaTitle: "Cadre de vie tendu 2026 : les villes les moins bien notées",
+    metaTitle: "Cadre de vie tendu 2027 : les villes les moins bien notées",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. au Cadre de Vie le plus bas : environnement dégradé, accès aux soins difficile et marché du travail tendu.",
     emoji: "😓",
@@ -3086,7 +3086,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-couts-explosifs",
     title: "Villes aux coûts explosifs — quand le ménage famille pèse plus que le salaire local",
-    metaTitle: "Coût de la vie 2026 : villes trop chères pour une famille",
+    metaTitle: "Coût de la vie 2027 : villes trop chères pour une famille",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 20 000 hab. où le coût mensuel d'un ménage famille (lib) dépasse 60 % du salaire net médian départemental. Loyer, chauffage, mobilité, taxes.",
     emoji: "💥",
@@ -3101,7 +3101,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-desert-services-publics",
     title: "Villes en désert de services publics — la double peine du rural et des DROM tendus",
-    metaTitle: "Services publics 2026 : les villes les moins bien loties",
+    metaTitle: "Services publics 2027 : les villes les moins bien loties",
     metaDescription:
       "Classement 2026 des villes ≥ 10 000 hab. au composite services publics ≥ 6,5/10 : écoles, La Poste & France Services, mairie, médiathèque. Sources DEPP / CAF / La Poste / ANCT.",
     emoji: "🏛️",
@@ -3116,7 +3116,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-anti-velo",
     title: "Villes où le vélo au quotidien reste hors de portée",
-    metaTitle: "Villes anti-vélo 2026 : où pédaler au quotidien coince",
+    metaTitle: "Villes anti-vélo 2027 : où pédaler au quotidien coince",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. au composite cyclabilité ≤ 4,5/10 : faible réseau, relief, dangerosité, climat hostile. Sources Baromètre FUB + EuroVelo + Vélo & Territoires.",
     emoji: "🚲",
@@ -3131,7 +3131,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-vieillissement-critique",
     title: "Villes en vieillissement critique — pyramide étroite à la base et solde négatif",
-    metaTitle: "Villes qui vieillissent et se dépeuplent · 2026",
+    metaTitle: "Villes qui vieillissent et se dépeuplent · 2027",
     metaDescription:
       "Classement 2026 des villes ≥ 10 000 hab. au composite démographique ≥ 7/10 : seniors 60+, déficit jeunes actifs, solde naturel + migratoire négatif. Source INSEE RP + Bilan démographique.",
     emoji: "🕰️",
@@ -3146,7 +3146,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-nuit-tendue",
     title: "Villes à la sécurité nocturne tendue — centres festifs sous pression",
-    metaTitle: "Sécurité la nuit 2026 : les villes festives sous tension",
+    metaTitle: "Sécurité la nuit 2027 : les villes festives sous tension",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. où la nuit est la plus tendue : rixes et agressions concentrées dans les centres festifs. Source SSMSI.",
     emoji: "🌙",
@@ -3161,7 +3161,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-logement-introuvable",
     title: "Villes où le logement locatif est introuvable",
-    metaTitle: "Logement introuvable 2026 — Marché locatif le plus serré",
+    metaTitle: "Logement introuvable 2027 — Marché locatif le plus serré",
     metaDescription:
       "Classement 2026 des villes où décrocher un bail est une bataille : marché tendu, loyer T2 bien au-dessus de la médiane. Proxy DGALN-aligned.",
     emoji: "🔑",
@@ -3176,7 +3176,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-hiver-rude",
     title: "Villes où l'hiver est le plus rude",
-    metaTitle: "Hiver rude 2026 : les villes les plus dures en janvier",
+    metaTitle: "Hiver rude 2027 : les villes les plus dures en janvier",
     metaDescription:
       "Classement 2026 des villes françaises au pire hiver : janvier glacial et grisaille tenace cumulés. Températures et ensoleillement Météo-France 1991-2020.",
     emoji: "❄️",
@@ -3191,7 +3191,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-mono-touristiques",
     title: "Villes mono-touristiques — la saison morte qui plombe",
-    metaTitle: "Villes mono-touristiques 2026 — La saison morte qui plombe",
+    metaTitle: "Villes mono-touristiques 2027 — La saison morte qui plombe",
     metaDescription:
       "Classement 2026 des villes françaises au tissu mono-touristique : économie dépendante d'une saison, vie locale en sommeil hors-saison. Mix sectoriel INSEE.",
     emoji: "🏖️",
@@ -3206,7 +3206,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-fuite-jeunes-actifs",
     title: "Villes que les 25-35 ans quittent en silence",
-    metaTitle: "Villes fuite jeunes actifs 2026 — 25-35 ans en départ",
+    metaTitle: "Villes fuite jeunes actifs 2027 — 25-35 ans en départ",
     metaDescription:
       "Classement 2026 des villes françaises que les 25-35 ans quittent : déficit démographique, chômage et emploi local mesurés par l'Insee.",
     emoji: "🎒",
@@ -3221,7 +3221,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-internet-precaire",
     title: "Villes où le très haut débit reste un compromis",
-    metaTitle: "Internet précaire 2026 — Villes au débit limité",
+    metaTitle: "Internet précaire 2027 — Villes au débit limité",
     metaDescription:
       "Classement 2026 des villes françaises où la fibre n'est pas arrivée : ADSL plafonné, 4G fixe saturée, dépts ARCEP peu denses (Creuse, Cantal, Lozère).",
     emoji: "📡",
@@ -3236,7 +3236,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-isolement-social",
     title: "Villes où l'on se sent le plus seul",
-    metaTitle: "Villes où l'on se sent le plus seul — Isolement 2026",
+    metaTitle: "Villes où l'on se sent le plus seul — Isolement 2027",
     metaDescription:
       "Classement 2026 des villes françaises où le lien social est le plus fragile : forte part de ménages d'une personne (Insee) et anonymat des grandes métropoles.",
     emoji: "🫥",
@@ -3251,7 +3251,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-pauvres-en-sport",
     title: "Villes où la pratique sportive régulière reste compliquée",
-    metaTitle: "Villes pauvres en sport 2026 : pratiquer y est compliqué",
+    metaTitle: "Villes pauvres en sport 2027 : pratiquer y est compliqué",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. au composite sport & loisirs ≤ 4,5/10 : peu d'équipements municipaux, tissu associatif fragile, cadre outdoor limité. Sources INJEP/RES + DRAJES + Météo-France.",
     emoji: "🏟️",
@@ -3281,7 +3281,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-desert-culturel",
     title: "Villes où l'offre culturelle reste maigre",
-    metaTitle: "Désert culturel 2026 — Villes à l'offre limitée",
+    metaTitle: "Désert culturel 2027 — Villes à l'offre limitée",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. au score culture ≤ 4,5/10 : peu de scènes labellisées, cinémas d'art et essai rares, médiathèque municipale tendue. Sources DEPS-MC + BNF.",
     emoji: "🎭",
@@ -3296,7 +3296,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-enseignement-superieur",
     title: "Villes où les enfants devront partir étudier ailleurs",
-    metaTitle: "Villes sans enseignement supérieur 2026 · top 12",
+    metaTitle: "Villes sans enseignement supérieur 2027 · top 12",
     metaDescription:
       "Classement 2026 des villes ≥ 30 000 hab. sans université, école d'ingénieur, école de commerce ni Sciences Po. Source MESR / CGE 2024.",
     emoji: "🎓",
@@ -3311,7 +3311,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-vols-cambriolages",
     title: "Villes où cambriolages et vols de véhicules pèsent au quotidien",
-    metaTitle: "Vols & cambriolages 2026 — Villes les plus touchées",
+    metaTitle: "Vols & cambriolages 2027 — Villes les plus touchées",
     metaDescription:
       "Classement 2026 des villes ≥ 30 000 hab. où le sous-score « atteintes aux biens » dépasse 6,5/10 : cambriolages, vols de véhicules, dégradations volontaires. Estimation communale, pas les faits enregistrés.",
     emoji: "🔓",
@@ -3326,7 +3326,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-erosion-cotiere",
     title: "Villes en péril côtier — érosion littorale & submersion marine",
-    metaTitle: "Érosion côtière 2026 : les villes du littoral exposées",
+    metaTitle: "Érosion côtière 2027 : les villes du littoral exposées",
     metaDescription:
       "Classement 2026 des villes du littoral français les plus exposées au recul du trait de côte : érosion, falaise, submersion. Sources BRGM TRAIT + GIEC AR6.",
     emoji: "🌊",
@@ -3341,7 +3341,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-chauffage-hivernal-couteux",
     title: "Villes où le chauffage hivernal pèse le plus sur le salaire local",
-    metaTitle: "Chauffage coûteux 2026 : villes à précarité énergétique",
+    metaTitle: "Chauffage coûteux 2027 : villes à précarité énergétique",
     metaDescription:
       "Classement 2026 des villes françaises où la facture chauffage T2 (ADEME) pèse le plus dans le salaire net médian départemental. Zone climatique, altitude, salaire INSEE.",
     emoji: "🥶",
@@ -3356,7 +3356,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-climat-2040-deteriore",
     title: "Villes au climat 2040 le plus dégradé — projection ARPEGE",
-    metaTitle: "Climat 2040 dégradé 2026 — Villes les plus exposées",
+    metaTitle: "Climat 2040 dégradé 2027 — Villes les plus exposées",
     metaDescription:
       "Classement 2026 des villes ≥ 15 000 hab. dont la projection 2040 cumule hausse de juillet, jours > 30 °C et nuits tropicales. Source Météo-France ARPEGE.",
     emoji: "🌡️",
@@ -3371,7 +3371,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-deficit-soleil-hiver",
     title: "Villes en déficit chronique de soleil l'hiver",
-    metaTitle: "Villes les moins ensoleillées l'hiver · top 12, 2026",
+    metaTitle: "Villes les moins ensoleillées l'hiver · top 12, 2027",
     metaDescription:
       "Classement 2026 des villes françaises au-dessus du 45,5e parallèle avec ≤ 1 950 h de soleil/an : Bretagne, Normandie, Hauts-de-France, Lorraine. Insolation, latitude, janvier.",
     emoji: "☁️",
@@ -3386,7 +3386,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-embouteillages-quotidiens",
     title: "Villes prises dans les embouteillages quotidiens",
-    metaTitle: "Embouteillages quotidiens 2026 — Villes bloquées aux pics",
+    metaTitle: "Embouteillages quotidiens 2027 — Villes bloquées aux pics",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 40 000 hab. bloquées aux heures de pointe : A86, A7, A8, cuvette grenobloise. Score transport + couloirs saturés.",
     emoji: "🚥",
@@ -3401,7 +3401,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-manque-de-verdure",
     title: "Villes où la verdure quotidienne manque cruellement",
-    metaTitle: "Villes qui manquent de verdure · classement 2026",
+    metaTitle: "Villes qui manquent de verdure · classement 2027",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 30 000 hab. au score nature ≤ 5/10 : peu de parcs, ceinture verte lointaine, densité urbaine étouffante. Familles, retraités, télétravailleurs.",
     emoji: "🌵",
@@ -3416,7 +3416,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-parking-cauchemar",
     title: "Villes où se garer devient un cauchemar quotidien",
-    metaTitle: "Stationnement 2026 : les villes où se garer épuise",
+    metaTitle: "Stationnement 2027 : les villes où se garer épuise",
     metaDescription:
       "Classement 2026 des villes françaises ≥ 40 000 hab. avec centre historique saturé, hyper-centre sans stationnement, tournée 15-25 min pour se garer. Cerema, INDIGO, FNMS.",
     emoji: "🅿️",
@@ -3431,7 +3431,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-manque-de-creches",
     title: "Villes où trouver une place de crèche relève du parcours du combattant",
-    metaTitle: "Manque de crèches 2026 — Villes françaises tendues",
+    metaTitle: "Manque de crèches 2027 — Villes françaises tendues",
     metaDescription:
       "Classement 2026 des villes ≥ 25 000 hab. en Île-de-France, PACA littorale et DROM où les places de crèche saturent. Sources Onape, CAF, CNAF.",
     emoji: "🍼",
@@ -3476,7 +3476,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-achat-hors-de-portee",
     title: "Villes où acheter est hors de portée des habitants",
-    metaTitle: "Villes où acheter est hors de portée — classement 2026",
+    metaTitle: "Villes où acheter est hors de portée — classement 2027",
     metaDescription:
       "Classement 2026 des villes où le prix d'achat mesuré (DVF 2024-2025) s'éloigne le plus des revenus locaux : jusqu'à 18,6 années de revenu pour 65 m².",
     emoji: "🔑",
@@ -3491,7 +3491,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-prix-au-m2-trompeur",
     title: "Villes où le prix au m² affiché ne veut rien dire",
-    metaTitle: "Prix au m² trompeur 2026 — marchés à deux vitesses",
+    metaTitle: "Prix au m² trompeur 2027 — marchés à deux vitesses",
     metaDescription:
       "Classement 2026 des villes où les quartiles de prix s'écartent le plus (DVF 2024-2025) : jusqu'à 121 % d'écart entre le quart cher et le quart bon marché.",
     emoji: "📊",
@@ -3506,7 +3506,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-sans-enfants",
     title: "Villes où les enfants sont devenus rares",
-    metaTitle: "Villes où les enfants sont rares — classement 2026",
+    metaTitle: "Villes où les enfants sont rares — classement 2027",
     metaDescription:
       "Classement 2026 des villes comptant le plus de seniors par enfant (recensement Insee 2022) : jusqu'à 9,1 habitants de 60 ans et plus pour un moins de 15 ans.",
     emoji: "🧸",
@@ -3521,7 +3521,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-arrivees-loyers-hauts",
     title: "Villes où l'on arrive en masse et où le loyer est déjà haut",
-    metaTitle: "Arrivées en masse, loyers hauts — classement 2026",
+    metaTitle: "Arrivées en masse, loyers hauts — classement 2027",
     metaDescription:
       "Classement 2026 des villes qui gagnent le plus d'habitants (Insee 2011-2022) avec un loyer T3 au moins 15 % au-dessus de la médiane des villes comparées.",
     emoji: "🧳",
@@ -3536,7 +3536,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-jeunes-studio-cher",
     title: "Villes où l'on arrive jeune et où le studio est déjà cher",
-    metaTitle: "Villes jeunes, studios chers — classement 2026",
+    metaTitle: "Villes jeunes, studios chers — classement 2027",
     metaDescription:
       "Classement 2026 des villes où les 15-29 ans pèsent au moins 24 % des habitants (Insee 2022) et où le T1 dépasse de 10 % la médiane : Talence, Paris, Toulouse.",
     emoji: "🎓",
@@ -3551,7 +3551,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-vieillir-loin-des-soins",
     title: "Villes où l'on vieillit loin des soins",
-    metaTitle: "Vieillir loin des soins — 71 villes classées 2026",
+    metaTitle: "Vieillir loin des soins — 71 villes classées 2027",
     metaDescription:
       "Villes où les 75 ans et plus pèsent au moins 12 % des habitants (Insee) et où l'accès aux généralistes est sous la moyenne (APL DREES) : Vierzon, Sanary-sur-Mer…",
     emoji: "🩺",
@@ -3566,7 +3566,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-pauvres-loyers-hauts",
     title: "Villes où la pauvreté est haute et le loyer déjà cher",
-    metaTitle: "Pauvreté haute, loyers chers — classement 2026",
+    metaTitle: "Pauvreté haute, loyers chers — classement 2027",
     metaDescription:
       "Villes où 22 % des habitants vivent sous le seuil de pauvreté (Insee 2021) et où le T3 dépasse de 10 % la médiane : Aubervilliers, Saint-Denis.",
     emoji: "⚖️",
@@ -3626,7 +3626,7 @@ export const RED_FLAG_THEMES: RedFlagTheme[] = [
   {
     slug: "villes-urgences-eloignees",
     title: "Villes à plus de 10 km d'un service d'urgences",
-    metaTitle: "Loin des urgences : 42 villes à 10 km ou plus (2026)",
+    metaTitle: "Loin des urgences : 42 villes à 10 km ou plus (2027)",
     metaDescription:
       "42 villes sans service d'urgences sur place et à 10 km ou plus du plus proche (Insee, BPE 2025) : La Souterraine, Ribérac, Noirmoutier, Quiberon, Méru…",
     emoji: "🚑",

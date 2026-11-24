@@ -14,7 +14,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Services publics 2026 · Écoles, Poste, mairie par ville",
+  title: "Services publics 2027 · Écoles, Poste, mairie par ville",
   description:
     "Classement de l'accès aux services publics par ville : écoles, La Poste & France Services, mairie, médiathèque. Estimation communale, pas l'annuaire des équipements.",
   alternates: pathAlternates("/services-publics", "/public-services"),

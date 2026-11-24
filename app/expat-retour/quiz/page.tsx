@@ -12,7 +12,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Quiz expat retour France · Quelle ville pour vous ? 2026",
+  title: "Quiz expat retour France · Quelle ville pour vous ? 2027",
   description:
     clampMeta("Quiz pour les Français qui rentrent de Suisse, du Luxembourg, de Belgique, du Royaume-Uni ou du Canada : 5 questions, 5 villes françaises calibrées."),
   alternates: { canonical: "/expat-retour/quiz" },

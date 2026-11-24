@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         : ` Costs ${Math.round(-monthlySavings)} €/month more in fixed costs.`
       : "";
   return {
-    title: fitTitle(`Moving from ${origin.name} to ${destination.name} · Honest comparison 2026`),
+    title: fitTitle(`Moving from ${origin.name} to ${destination.name} · Honest comparison 2027`),
     description: clampMeta(
       `Moving from ${origin.name} to ${destination.name}: rent, fixed costs, quality-of-life scores, climate, and a verdict on who the move makes sense for.${savingsLabel}`,
     ),

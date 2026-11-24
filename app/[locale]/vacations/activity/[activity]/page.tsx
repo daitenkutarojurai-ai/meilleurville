@@ -42,52 +42,52 @@ const EN_ACTIVITY_DEFS: Record<ActivitySlug, { label: string; intro: string; met
   plage: {
     label: "Beach & relaxation",
     intro: "Fine sand, water above 22 °C, preserved coves or large family beaches. We rank on actual coastline quality and seasonal weather — not on marketing.",
-    metaDesc: "Best beach destinations in France 2026: Mediterranean, Atlantic, Brittany, Channel coast. Warm water, sand, hidden coves.",
+    metaDesc: "Best beach destinations in France 2027: Mediterranean, Atlantic, Brittany, Channel coast. Warm water, sand, hidden coves.",
   },
   montagne: {
     label: "Hiking & mountains",
     intro: "Marked trails, high-altitude lakes, perched villages. France has unique mountain density in Europe — here is where to go based on what you are after.",
-    metaDesc: "Hiking holidays in France 2026: Alps, Pyrenees, Massif Central, Jura, Vosges. High lakes, GR trails, refuges, perched villages.",
+    metaDesc: "Hiking holidays in France 2027: Alps, Pyrenees, Massif Central, Jura, Vosges. High lakes, GR trails, refuges, perched villages.",
   },
   ski: {
     label: "Skiing & winter sports",
     intro: "Well-known resorts, under-the-radar gems, and base-camp towns to ski without paying Courchevel rates.",
-    metaDesc: "Best ski resorts in France 2026: Alps, Pyrenees, Jura, Vosges. Snow cover, accessibility, atmosphere.",
+    metaDesc: "Best ski resorts in France 2027: Alps, Pyrenees, Jura, Vosges. Snow cover, accessibility, atmosphere.",
   },
   citytrip: {
     label: "City break & culture",
     intro: "Three days, one train and a backpack. We rank on real cultural depth (museums, live scene, heritage) more than postcard appeal.",
-    metaDesc: "Best cities for a city break in France 2026: museums, gastronomy, nightlife, heritage, affordable prices.",
+    metaDesc: "Best cities for a city break in France 2027: museums, gastronomy, nightlife, heritage, affordable prices.",
   },
   vignobles: {
     label: "Wine & vineyards",
     intro: "Wine routes, châteaux open for tastings, Michelin-starred restaurants. For those who consider wine and holiday to be the same word.",
-    metaDesc: "Wine tourism holidays in France 2026: Bordeaux, Burgundy, Champagne, Rhône, Alsace. Wine routes, châteaux, tastings.",
+    metaDesc: "Wine tourism holidays in France 2027: Bordeaux, Burgundy, Champagne, Rhône, Alsace. Wine routes, châteaux, tastings.",
   },
   surf: {
     label: "Surfing & watersports",
     intro: "Open Atlantic, consistent waves, surf schools everywhere. North Brittany for the brave, the Basque coast for surf culture.",
-    metaDesc: "Surf spots in France 2026: Basque coast, Landes, Brittany. Beginners and experienced surfers, waves, schools, atmosphere.",
+    metaDesc: "Surf spots in France 2027: Basque coast, Landes, Brittany. Beginners and experienced surfers, waves, schools, atmosphere.",
   },
   thermal: {
     label: "Thermal spas & wellness",
     intro: "Certified cures, high-end spas, hot springs open to the public. For spending a week switching off completely.",
-    metaDesc: "Thermal spa towns in France 2026: Vichy, Évian, Aix, Dax. Cures, spas, hot springs, wellness.",
+    metaDesc: "Thermal spa towns in France 2027: Vichy, Évian, Aix, Dax. Cures, spas, hot springs, wellness.",
   },
   "road-trip": {
     label: "Road trip",
     intro: "A car, two weeks and a map. We identify the ideal bases for exploring — not single-destination towns.",
-    metaDesc: "Road trip ideas in France 2026: Côte d'Azur, Brittany, Alsace, Causses, Pyrenees. Tested itineraries, stops, duration.",
+    metaDesc: "Road trip ideas in France 2027: Côte d'Azur, Brittany, Alsace, Causses, Pyrenees. Tested itineraries, stops, duration.",
   },
   gastro: {
     label: "Gastronomy",
     intro: "Lyon, Marseille, Bordeaux, Bayonne, Strasbourg — France has six serious gastronomic capitals, each with its own profile.",
-    metaDesc: "Gastronomic holidays in France 2026: Lyon, Bordeaux, Strasbourg, Nice. Michelin stars, covered markets, food culture.",
+    metaDesc: "Gastronomic holidays in France 2027: Lyon, Bordeaux, Strasbourg, Nice. Michelin stars, covered markets, food culture.",
   },
   famille: {
     label: "Family holidays",
     intro: "Safety, activities for children, restaurants that do not collapse when faced with a kids menu. We filter hard on these three criteria.",
-    metaDesc: "Family holidays in France 2026: destinations with kids — beach, parks, activities, safety, manageable budget.",
+    metaDesc: "Family holidays in France 2027: destinations with kids — beach, parks, activities, safety, manageable budget.",
   },
 };
 
@@ -106,7 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ACTIVITIES.includes(activity as ActivitySlug)) return {};
   const enDef = EN_ACTIVITY_DEFS[activity as ActivitySlug];
   return {
-    title: fitTitle(`${enDef.label} holidays in France 2026 · top destinations`),
+    title: fitTitle(`${enDef.label} holidays in France 2027 · top destinations`),
     description: enDef.metaDesc,
     // Réciproque du hreflang de /vacances/activite/[activite] : même slug
     // d'activité des deux côtés, seuls la tête et le sous-segment diffèrent.

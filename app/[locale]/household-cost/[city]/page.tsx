@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === city);
   if (!c) return {};
   return {
-    title: fitTitle(`Cost of living in ${c.name} by household type 2026 · Solo, couple, family, retired`),
+    title: fitTitle(`Cost of living in ${c.name} by household type 2027 · Solo, couple, family, retired`),
     description: `Real monthly fixed costs in ${c.name} for 4 household types: single (studio), couple (1-bed), family of 4, retired. Rent, heating, mobility, taxes.`,
     alternates: pathAlternatesEn(`/cout-menage/${city}`, `/household-cost/${city}`),
   };

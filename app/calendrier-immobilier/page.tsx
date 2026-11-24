@@ -7,7 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Calendrier immobilier 2026 · acheter, vendre, déménager",
+  title: "Calendrier immobilier 2027 · acheter, vendre, déménager",
   description:
     "Meilleurs mois pour acheter, vendre, louer ou déménager en France. Saisonnalité du marché immobilier, locations étudiantes, prix au m² mois par mois.",
   alternates: pathAlternates("/calendrier-immobilier", "/property-calendar"),

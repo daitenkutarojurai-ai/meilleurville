@@ -14,7 +14,7 @@ import { pathAlternates } from "@/lib/i18n";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Marché du travail en France · meilleures villes 2026",
+  title: "Marché du travail en France · meilleures villes 2027",
   description:
     "Classement des villes françaises selon le marché du travail : chômage, emploi, salaires mesurés par l'Insee, mix sectoriel estimé.",
   alternates: pathAlternates("/emploi", "/employment"),
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Marché du travail en France · meilleures villes 2026",
+    title: "Marché du travail en France · meilleures villes 2027",
     description:
       "Top 30 marchés favorables vs. top 20 marchés difficiles. Chômage, emploi et salaires mesurés par l'Insee.",
   },

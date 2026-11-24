@@ -21,11 +21,11 @@ import { pathAlternates } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Classement des villes de France où il fait bon vivre 2026",
+  title: "Classement des villes de France où il fait bon vivre 2027",
   description:
     clampMeta("Classements des meilleures villes françaises par style de vie : télétravail, famille, retraite, étudiant, nature, budget, soleil, sécurité. Données 2026."),
   openGraph: {
-    title: "Classements des meilleures villes françaises 2026",
+    title: "Classements des meilleures villes françaises 2027",
     description: `${RANKINGS_COUNT} classements thématiques : télétravail, famille, budget, soleil, sécurité, culture, gastronomie, investissement, logement, jeunes actifs et plus.`,
     type: "website",
   },
@@ -97,7 +97,7 @@ export default function ClassementsPage() {
       <section className="relative pt-20 pb-12 bg-aurora">
         <div className="mx-auto max-w-5xl px-4 sm:px-6 text-center">
           <p className="inline-flex items-center gap-2 rounded-full bg-white/80 ring-1 ring-[var(--accent)]/20 px-3 py-1 text-xs uppercase tracking-widest text-[var(--accent-hover)] font-semibold mb-4 shadow-sm">
-            Édition 2026 · {CATEGORIES.length} classements
+            Édition 2027 · {CATEGORIES.length} classements
           </p>
           <h1 className="text-4xl sm:text-6xl font-bold text-[var(--text-primary)] mb-4 tracking-tight leading-[1.05]">
             Les <span className="font-display gradient-text-anim italic">classements</span>{" "}<br className="hidden sm:block" />

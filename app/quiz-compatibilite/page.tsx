@@ -12,7 +12,7 @@ import { pathAlternates } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Quiz compatibilité ville 2026 · Top 5",
+  title: "Quiz compatibilité ville 2027 · Top 5",
   description: clampMeta(`Quiz de compatibilité ville : 10 questions sur votre budget, climat, situation, mode de travail. Algorithme calibré sur ${CITIES_COUNT} villes françaises. Top 5 avec score % et explication par critère.`),
   alternates: pathAlternates("/quiz-compatibilite", "/quiz/compatibility"),
 };

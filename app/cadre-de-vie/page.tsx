@@ -15,14 +15,14 @@ import { clampMeta } from "@/lib/brand";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Meilleur cadre de vie en France · index complet 2026",
+  title: "Meilleur cadre de vie en France · index complet 2027",
   description: clampMeta(`Index Cadre de Vie : environnement, accès aux soins et emploi agrégés pour ${CITIES_COUNT} villes françaises. Top 30 des villes au meilleur cadre de vie.`),
   alternates: pathAlternates("/cadre-de-vie", "/quality-of-life"),
   openGraph: {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Meilleur cadre de vie en France 2026",
+    title: "Meilleur cadre de vie en France 2027",
     description:
       "Index composite unique : environnement 35 % + santé 30 % + emploi 35 %. Top 30 villes pour vivre en France.",
   },

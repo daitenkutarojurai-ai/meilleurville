@@ -478,14 +478,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   // not a derived map.
   const frSlug = `depuis-${countryKey}`;
   return {
-    title: fitTitle(`Moving back to France from ${name} — 2026 guide`),
+    title: fitTitle(`Moving back to France from ${name} — 2027 guide`),
     description: `Salary, tax, healthcare, admin steps: everything that changes when you return to France from ${name}. Practical per-country guide with city suggestions.`,
     alternates: pathAlternatesEn(`/expat-retour/${frSlug}`, `/expat-return/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Returning to France from ${name} — practical guide 2026`,
+      title: `Returning to France from ${name} — practical guide 2027`,
       description: `What changes when you move back: purchasing power, healthcare, tax year split, driving licence exchange, and the best French cities to land in.`,
     },
   };

@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     if (cities.some((c) => !c)) return {};
     const [a, b, c] = cities as NonNullable<(typeof cities)[number]>[];
     return {
-      title: `${a.name} vs ${b.name} vs ${c.name} · Comparaison 3 villes 2026`,
+      title: `${a.name} vs ${b.name} vs ${c.name} · Comparaison 3 villes 2027`,
       description: `Comparaison à 3 entre ${a.name} (${a.scores.global}/10), ${b.name} (${b.scores.global}/10) et ${c.name} (${c.scores.global}/10) : coût de vie, sécurité, transport, nature, écoles. Tableau côte à côte + radar.`,
       alternates: { canonical: `/comparer/${pair}`, languages: hreflangLanguages(`/comparer/${pair}`) },
       openGraph: {
@@ -64,7 +64,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!a || !b) return {};
 
   return {
-    title: fitTitle(`${a.name} vs ${b.name} · Comparaison qualité de vie 2026`),
+    title: fitTitle(`${a.name} vs ${b.name} · Comparaison qualité de vie 2027`),
     description: `Comparaison complète entre ${a.name} (${a.scores.global}/10) et ${b.name} (${b.scores.global}/10) : coût de vie, transport, nature, sécurité, écoles. Laquelle choisir ?`,
     alternates: { canonical: `/comparer/${pair}`, languages: hreflangLanguages(`/comparer/${pair}`) },
     openGraph: {

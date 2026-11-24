@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // Queue courte alignée sur la jumelle FR (`· Comparatif régions 2026`) :
     // pour les paires de deux noms de région longs le titre reste au-dessus de
     // 60 — irréductible, la seule paire de noms pesant déjà ~56 caractères.
-    title: fitTitle(`${a} vs ${b} — French regions 2026`),
+    title: fitTitle(`${a} vs ${b} — French regions 2027`),
     // clampMeta comme la jumelle FR, qui l'utilise déjà : la description brute
     // atteignait 195 caractères et se terminait par une question de remplissage.
     description: clampMeta(

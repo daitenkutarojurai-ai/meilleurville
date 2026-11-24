@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: fitTitle(`Cycling-friendly cities · ${label} 2026`),
+    title: fitTitle(`Cycling-friendly cities · ${label} 2027`),
     description: `Composite cycling index (infrastructure, topography, safety, climate) for cities in the ${label} macro-region. Top cycling cities vs most challenging terrain.`,
     alternates: pathAlternatesEn(`/velo/${macro.slug}`, `/cycling/${macro.slug}`),
     openGraph: {

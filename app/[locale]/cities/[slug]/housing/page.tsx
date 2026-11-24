@@ -39,7 +39,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       ? `Flats €${p.apartment.medianM2.toLocaleString("en-GB")}/m², houses €${p.house.medianM2.toLocaleString("en-GB")}/m² in ${city.name} (${p.years[0]}-${p.years[p.years.length - 1]} sales).`
       : null;
   return {
-    title: fitTitle(`Housing in ${city.name} — rents, prices, market tension 2026`),
+    title: fitTitle(`Housing in ${city.name} — rents, prices, market tension 2027`),
     description: measured
       ? `${measured} Rents, market tension and buy vs rent.`
       : h

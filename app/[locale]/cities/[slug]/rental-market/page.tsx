@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tension = rentalTension(city);
   const tInfo = tensionInfo(tension);
   return {
-    title: fitTitle(`Rental market in ${city.name} 2026 — competition, delays, requirements`),
+    title: fitTitle(`Rental market in ${city.name} 2027 — competition, delays, requirements`),
     description: clampMeta(`How hard is it to find a flat in ${city.name}? Market tension score ${tension.toFixed(1)}/10 (${tInfo.shortLabel}), estimated weeks to find, applicants per listing, income rules. Clameur 2024.`),
     alternates: cityAlternatesEn("rental-market", slug),
   };

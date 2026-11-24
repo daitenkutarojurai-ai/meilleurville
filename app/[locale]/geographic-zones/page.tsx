@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "French geographic zones 2026 · Coast, Arc, Alps",
+  title: "French geographic zones 2027 · Coast, Arc, Alps",
   description:
     "6 zones that match real relocation projects: Atlantic coast, Mediterranean arc, Alpine arc, South-West, Rhône Valley, Greater Paris.",
   alternates: pathAlternatesEn("/macro-region", "/geographic-zones"),

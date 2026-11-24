@@ -42,7 +42,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "French cities ringed by protected nature — 2026",
+  title: "French cities ringed by protected nature — 2027",
   description:
     `Share of the 15 km radius under statutory protection around ${PROTECTION_RANKED_COUNT} French cities: nature reserves, national and regional parks, Natura 2000, biotope orders.`,
   alternates: pathAlternatesEn("/espaces-proteges", "/protected-areas"),

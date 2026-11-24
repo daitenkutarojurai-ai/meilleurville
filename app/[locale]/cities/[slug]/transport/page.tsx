@@ -24,7 +24,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: fitTitle(`${c.name} transport — public transit, cycling, walkability (2026)`),
+    title: fitTitle(`${c.name} transport — public transit, cycling, walkability (2027)`),
     description: `Public transport, cycling infrastructure and walkability in ${c.name}. What it's like getting around without a car.`,
     alternates: cityAlternatesEn("transport", slug),
   };

@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "French cities by train from Paris · Travel time ranking 2026",
+  title: "French cities by train from Paris · Travel time ranking 2027",
   description:
     "Rail travel time Paris ↔ every French city. Top cities under 1h, 2h, 3h from Paris. Essential tool for remote workers and weekend commuters.",
   alternates: pathAlternatesEn("/depuis-paris", "/from-paris"),

@@ -19,9 +19,9 @@ import { clampMeta } from "@/lib/brand";
 const SERP_TITLE: Record<string, string> = {
   ecologie: "Villes les plus écologiques de France : nature, air, vélo",
   // 2026-11-23 : titres alignés sur les requêtes (docs/seo/cibles.md § 4 et § 7).
-  budget: "Villes les moins chères de France où bien vivre (2026)",
-  gastronomie: "Villes de France où l'on mange le mieux : classement 2026",
-  "bord-de-mer": "Meilleures villes en bord de mer où vivre : classement 2026",
+  budget: "Villes les moins chères de France où bien vivre (2027)",
+  gastronomie: "Villes de France où l'on mange le mieux : classement 2027",
+  "bord-de-mer": "Meilleures villes en bord de mer où vivre : classement 2027",
 };
 import { hreflangLanguages } from "@/lib/i18n";
 import { RankingTableTail, type RankingTailRow } from "./RankingTableTail";
@@ -142,7 +142,7 @@ export default async function RankingPage({ params }: Props) {
         mainEntity: [
           {
             "@type": "Question",
-            name: `Quelle est la meilleure ville pour le classement ${meta.headline.toLowerCase()} en 2026 ?`,
+            name: `Quelle est la meilleure ville pour le classement ${meta.headline.toLowerCase()} en 2027 ?`,
             acceptedAnswer: {
               "@type": "Answer",
               text: `D'après notre algorithme, ${topName} arrive en tête du classement « ${meta.headline} » avec un score de ${topScore.toFixed(1)}/10, devant ${secondName}.`,
@@ -203,7 +203,7 @@ export default async function RankingPage({ params }: Props) {
             {sheetNo}
           </div>
           <p className="mb-3 inline-flex items-center gap-2 rounded-full bg-white/80 px-3 py-1 font-mono-data text-[11px] uppercase tracking-[0.14em] text-[var(--accent-hover)] font-semibold ring-1 ring-[var(--accent)]/20 shadow-sm">
-            Classement {sheetNo} / {sheetTotal} · Édition 2026 · {ranked.length} villes
+            Classement {sheetNo} / {sheetTotal} · Édition 2027 · {ranked.length} villes
           </p>
           <h1 className="mb-4 text-3xl sm:text-5xl font-bold text-[var(--text-primary)] tracking-tight leading-[1.05]">
             <span className="font-display gradient-text-anim italic">{meta.headline}</span>

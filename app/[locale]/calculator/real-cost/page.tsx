@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: `Real cost of living calculator · ${CITIES_SEED.length} French cities 2026`,
+  title: `Real cost of living calculator · ${CITIES_SEED.length} French cities 2027`,
   description: `The honest monthly cost of living in ${CITIES_SEED.length} French cities: median 1-bed rent, heating, car or transit, property tax. Automatic comparison with Paris.`,
   alternates: pathAlternatesEn("/calculateur-cout-reel", "/calculator/real-cost"),
 };

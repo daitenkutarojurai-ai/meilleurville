@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === ville);
   if (!city) return {};
   return {
-    title: fitTitle(`Quitter ${city.name} : où vont les gens comme vous ? · 2026`),
+    title: fitTitle(`Quitter ${city.name} : où vont les gens comme vous ? · 2027`),
     description: clampMeta(
       `Vous envisagez de quitter ${city.name} ? Selon votre profil — famille, télétravailleur, jeune actif, retraité, étudiant, primo-accédant — voici les villes qui font mieux. Modèle estimatif transparent (scores officiels), pas du suivi.`,
     ),

@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Villes sportives · ${macro.label} 2026`),
+    title: fitTitle(`Villes sportives · ${macro.label} 2027`),
     description: `Classement composite sport & loisirs (équipements, outdoor, clubs, climat) restreint aux villes de la macro-région ${macro.label}. Plus sportives vs. moins propices à la pratique.`,
     alternates: pathAlternates(`/sport/${macro.slug}`, `/sport/${macro.slug}`),
     openGraph: {

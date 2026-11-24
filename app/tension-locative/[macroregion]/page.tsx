@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Tension locative · ${macro.label} 2026`),
+    title: fitTitle(`Tension locative · ${macro.label} 2027`),
     description: `Marché locatif des villes de ${macro.label} : où se loger est tendu vs. où c'est accessible. Loyers T2 de référence et score de tension par ville.`,
     alternates: pathAlternates(`/tension-locative/${macro.slug}`, `/rental-tension/${macro.slug}`),
     openGraph: {

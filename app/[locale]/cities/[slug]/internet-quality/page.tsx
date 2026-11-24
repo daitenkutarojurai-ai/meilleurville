@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const score = internetScore(city);
   const { label } = internetLabel(score);
   return {
-    title: `Broadband & internet quality in ${city.name} 2026`,
+    title: `Broadband & internet quality in ${city.name} 2027`,
     description: `Internet quality in ${city.name}: fibre coverage, estimated speeds, mobile network. Score ${score.toFixed(1)}/10 — ${label}. Source: ARCEP 2024.`,
     alternates: cityAlternatesEn("internet-quality", slug),
   };

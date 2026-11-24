@@ -101,7 +101,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const origin = CITIES_SEED.find((c) => c.slug === city);
   if (!origin) return {};
   return {
-    title: fitTitle(`Leaving ${origin.name}: where do people like you move? · 2026`),
+    title: fitTitle(`Leaving ${origin.name}: where do people like you move? · 2027`),
     description: clampMeta(
       `Thinking of leaving ${origin.name}? By profile — family, remote worker, retiree, student, first-time buyer — here are the French cities that score better. Transparent model from official data, no tracking.`,
     ),

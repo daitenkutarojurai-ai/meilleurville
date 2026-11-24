@@ -60,7 +60,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     // pratique » poussait par ailleurs « Émirats arabes unis » à 66 caractères,
     // au-delà des ~60 que Google rend : elle est ramenée à l'année seule, ce
     // qui tient la fiche la plus longue à 53.
-    title: `Rentrer en France depuis ${countryWithArticle(country)} 2026`,
+    title: `Rentrer en France depuis ${countryWithArticle(country)} 2027`,
     // ≤ 160 caractères sur les 23 fiches. L'ancienne rédaction montait à 176
     // pour « Émirats arabes unis » et dépassait sur les 20 : la queue générique
     // « Avec villes recommandées (frontalières + métropoles). » poussait hors
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: ["/opengraph-image"],
       // `countryFrom` et non le nom nu : « Rentrer de Japon » se dit « du
       // Japon », « de États-Unis » « des États-Unis ».
-      title: `Rentrer ${countryFrom(country)} en France · Guide 2026`,
+      title: `Rentrer ${countryFrom(country)} en France · Guide 2027`,
       description: country.intro.slice(0, 160),
     },
   };

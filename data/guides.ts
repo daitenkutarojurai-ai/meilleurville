@@ -5511,9 +5511,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-couples-teletravail-deux-bureaux-2026",
-    title: "Meilleures villes françaises pour les couples en télétravail — deux bureaux, une adresse 2026",
-    metaTitle: "Villes idéales pour les couples en télétravail — Guide 2026",
-    metaDesc: "Deux télétravailleurs sous un même toit : quelle ville française offre assez d'espace, deux options de coworking et un budget raisonnable ? Notre guide complet 2026.",
+    title: "Meilleures villes françaises pour les couples en télétravail — deux bureaux, une adresse 2027",
+    metaTitle: "Villes idéales pour les couples en télétravail — Guide 2027",
+    metaDesc: "Deux télétravailleurs sous un même toit : quelle ville française offre assez d'espace, deux options de coworking et un budget raisonnable ? Notre guide complet 2027.",
     category: "teletravail",
     emoji: "👫",
     readMinutes: 9,
@@ -5560,8 +5560,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-etudiantes-france-2026",
-    title: "Meilleures villes étudiantes en France — Le guide honnête 2026",
-    metaTitle: "Meilleures villes étudiantes France 2026 — Classement & Guide",
+    title: "Meilleures villes étudiantes en France — Le guide honnête 2027",
+    metaTitle: "Meilleures villes étudiantes France 2027 — Classement & Guide",
     metaDesc:
       "Loyer studio, vie nocturne, offre universitaire, transports : notre classement honnête des meilleures villes étudiantes françaises en 2026. Sans langue de bois.",
     category: "budget",
@@ -5615,8 +5615,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-corse-guide-2026",
-    title: "Vivre en Corse en 2026 : Ajaccio, Bastia, Porto-Vecchio, Corte — le guide complet",
-    metaTitle: "Vivre en Corse 2026 — Ajaccio, Bastia, Corte : guide honnête",
+    title: "Vivre en Corse en 2027 : Ajaccio, Bastia, Porto-Vecchio, Corte — le guide complet",
+    metaTitle: "Vivre en Corse 2027 — Ajaccio, Bastia, Corte : guide honnête",
     metaDesc:
       "Logement, coût de la vie, emploi, santé, quotidien : notre guide complet et honnête pour s'installer en Corse en 2026. Ajaccio, Bastia, Porto-Vecchio, Corte : ce que les brochures ne disent pas.",
     category: "region",
@@ -5671,8 +5671,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-lorraine-metz-nancy-thionville-2026",
-    title: "Vivre en Lorraine en 2026 : Metz, Nancy, Thionville, Épinal — le guide complet",
-    metaTitle: "Vivre en Lorraine 2026 — Metz, Nancy, Thionville : guide honnête",
+    title: "Vivre en Lorraine en 2027 : Metz, Nancy, Thionville, Épinal — le guide complet",
+    metaTitle: "Vivre en Lorraine 2027 — Metz, Nancy, Thionville : guide honnête",
     metaDesc:
       "Logement abordable, avantage frontalier Luxembourg, culture et patrimoine exceptionnel : notre guide 2026 pour s'installer en Lorraine. Metz, Nancy, Thionville, Épinal : ce que les guides touristiques omettent.",
     category: "region",
@@ -5727,8 +5727,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-lyon-guide-2026",
-    title: "Quitter Lyon en 2026 : où aller, pourquoi, et combien on récupère",
-    metaTitle: "Quitter Lyon 2026 — Annecy, Grenoble, Saint-Étienne, ailleurs",
+    title: "Quitter Lyon en 2027 : où aller, pourquoi, et combien on récupère",
+    metaTitle: "Quitter Lyon 2027 — Annecy, Grenoble, Saint-Étienne, ailleurs",
     metaDesc:
       "Pollution, prix au m², circulation, A7 saturée : pourquoi de plus en plus de Lyonnais s'exilent. Les vraies destinations, le vrai calcul, et les pièges à éviter.",
     category: "comparaison",
@@ -5778,8 +5778,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-marseille-guide-2026",
-    title: "Quitter Marseille en 2026 : qui part, où, pourquoi",
-    metaTitle: "Quitter Marseille 2026 — Aix, Toulon, Avignon, Montpellier",
+    title: "Quitter Marseille en 2027 : qui part, où, pourquoi",
+    metaTitle: "Quitter Marseille 2027 — Aix, Toulon, Avignon, Montpellier",
     metaDesc:
       "Pourquoi tant de Marseillais cherchent à partir, et qui le devrait vraiment. Aix, Toulon, Avignon, Montpellier, Aubagne : avantages, vrais coûts et faux espoirs.",
     category: "comparaison",
@@ -5829,8 +5829,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-lille-guide-2026",
-    title: "Quitter Lille en 2026 : la métropole, et après ?",
-    metaTitle: "Quitter Lille 2026 — Arras, Roubaix, Valenciennes, Bruxelles",
+    title: "Quitter Lille en 2027 : la métropole, et après ?",
+    metaTitle: "Quitter Lille 2027 — Arras, Roubaix, Valenciennes, Bruxelles",
     metaDesc:
       "Lille est une métropole attachante mais le bassin évolue vite. Où aller depuis Lille (vers Arras, la Belgique frontalière, ou plus loin) et à quel coût.",
     category: "comparaison",
@@ -5876,8 +5876,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-toulouse-guide-2026",
-    title: "Quitter Toulouse en 2026 : où va-t-on quand on en a fait le tour ?",
-    metaTitle: "Quitter Toulouse 2026 — Albi, Montauban, Pau, Bordeaux",
+    title: "Quitter Toulouse en 2027 : où va-t-on quand on en a fait le tour ?",
+    metaTitle: "Quitter Toulouse 2027 — Albi, Montauban, Pau, Bordeaux",
     metaDesc:
       "Toulouse a explosé démographiquement : prix, embouteillages, canicules. Les vrais arbitrages pour partir : vers la périphérie, l'Occitanie ou la Nouvelle-Aquitaine.",
     category: "comparaison",
@@ -5923,8 +5923,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-bordeaux-guide-2026",
-    title: "Quitter Bordeaux en 2026 : la rançon du succès",
-    metaTitle: "Quitter Bordeaux 2026 — Arcachon, Bayonne, La Rochelle, Périgueux",
+    title: "Quitter Bordeaux en 2027 : la rançon du succès",
+    metaTitle: "Quitter Bordeaux 2027 — Arcachon, Bayonne, La Rochelle, Périgueux",
     metaDesc:
       "Bordeaux est devenue une des villes les plus chères de France hors capitale. Où vont les Bordelais qui ne suivent plus, et qui devrait vraiment partir.",
     category: "comparaison",
@@ -5974,8 +5974,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-outre-mer-guide-2026",
-    title: "Vivre en Outre-mer en 2026 : Antilles, Guyane, Réunion, Mayotte sans filtre",
-    metaTitle: "Vivre en Outre-mer 2026 — DROM, climat, coût, métiers",
+    title: "Vivre en Outre-mer en 2027 : Antilles, Guyane, Réunion, Mayotte sans filtre",
+    metaTitle: "Vivre en Outre-mer 2027 — DROM, climat, coût, métiers",
     metaDesc:
       "Antilles, Guyane, La Réunion, Mayotte : où vivre, à quel coût, quels avantages, quels écueils. Le guide honnête pour s'installer dans un département d'outre-mer.",
     category: "region",
@@ -6037,8 +6037,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-nantes-guide-2026",
-    title: "Quitter Nantes en 2026 : où aller quand la Loire Atlantique devient trop chère",
-    metaTitle: "Quitter Nantes 2026 — Angers, La Rochelle, Rennes, Vannes",
+    title: "Quitter Nantes en 2027 : où aller quand la Loire Atlantique devient trop chère",
+    metaTitle: "Quitter Nantes 2027 — Angers, La Rochelle, Rennes, Vannes",
     metaDesc:
       "Nantes a décroché son étoile mais ses prix ont suivi. Pourquoi les Nantais cherchent à partir et quelles villes offrent le meilleur rapport qualité-de-vie prix à moins de 2h.",
     category: "comparaison",
@@ -6088,8 +6088,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-rennes-guide-2026",
-    title: "Quitter Rennes en 2026 : les alternatives quand la Bretagne capitale devient trop dense",
-    metaTitle: "Quitter Rennes 2026 — Brest, Lorient, Vannes, Saint-Brieuc",
+    title: "Quitter Rennes en 2027 : les alternatives quand la Bretagne capitale devient trop dense",
+    metaTitle: "Quitter Rennes 2027 — Brest, Lorient, Vannes, Saint-Brieuc",
     metaDesc:
       "Rennes a rattrapé les métropoles en prix sans tout à fait les égaler en offre. Qui quitte et pourquoi. Les vraies options bretonnes et la carte Anjou ou Maine.",
     category: "comparaison",
@@ -6135,8 +6135,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-montpellier-guide-2026",
-    title: "Quitter Montpellier en 2026 : quand le soleil ne justifie plus le loyer",
-    metaTitle: "Quitter Montpellier 2026 — Sète, Béziers, Nîmes, Perpignan",
+    title: "Quitter Montpellier en 2027 : quand le soleil ne justifie plus le loyer",
+    metaTitle: "Quitter Montpellier 2027 — Sète, Béziers, Nîmes, Perpignan",
     metaDesc:
       "Montpellier a gagné 100 000 habitants en 15 ans et ses prix ont suivi. Qui quitte, pourquoi, et quelles villes occitanes offrent mer + soleil à moindre coût.",
     category: "comparaison",
@@ -6183,7 +6183,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "nice-vs-montpellier-comparatif-2026",
     title: "Nice vs Montpellier : deux villes méditerranéennes, deux philosophies",
-    metaTitle: "Nice vs Montpellier 2026 — Mer, soleil, coût : comparatif complet",
+    metaTitle: "Nice vs Montpellier 2027 — Mer, soleil, coût : comparatif complet",
     metaDesc:
       "Nice et Montpellier se disputent le titre de capitale méditerranéenne pour ceux qui quittent Paris. Laquelle choisir selon votre profil, votre budget et vos priorités ?",
     category: "comparaison",
@@ -6229,8 +6229,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-hauts-de-france-guide-2026",
-    title: "Vivre en Hauts-de-France en 2026 : Lille, Amiens, Arras, Valenciennes — le guide complet",
-    metaTitle: "Vivre en Hauts-de-France 2026 — Lille, Amiens, Arras",
+    title: "Vivre en Hauts-de-France en 2027 : Lille, Amiens, Arras, Valenciennes — le guide complet",
+    metaTitle: "Vivre en Hauts-de-France 2027 — Lille, Amiens, Arras",
     metaDesc:
       "La région la plus proche de Paris et de Londres offre bien plus que Lille. Notre guide honnête des villes des Hauts-de-France : coût, emploi, qualité de vie, sans clichés.",
     category: "region",
@@ -6276,8 +6276,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-centre-val-de-loire-guide-2026",
-    title: "Vivre en Centre-Val de Loire en 2026 : Tours, Orléans, Blois — le guide complet",
-    metaTitle: "Vivre en Centre-Val de Loire 2026 — Tours, Orléans, Blois",
+    title: "Vivre en Centre-Val de Loire en 2027 : Tours, Orléans, Blois — le guide complet",
+    metaTitle: "Vivre en Centre-Val de Loire 2027 — Tours, Orléans, Blois",
     metaDesc:
       "Châteaux, vignobles et 1h de TGV depuis Paris. Le Centre-Val de Loire est la région la plus accessible de France pour qui veut quitter la capitale sans aller loin. Notre guide complet.",
     category: "region",
@@ -6323,8 +6323,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-seniors-actifs-france-2026",
-    title: "Les meilleures villes pour les seniors actifs en France en 2026",
-    metaTitle: "Meilleures villes seniors actifs France 2026 — Randonnée, culture",
+    title: "Les meilleures villes pour les seniors actifs en France en 2027",
+    metaTitle: "Meilleures villes seniors actifs France 2027 — Randonnée, culture",
     metaDesc:
       "Retraite active, sport, culture, santé accessible : notre guide des villes françaises les plus adaptées aux 60-75 ans qui refusent de ralentir.",
     category: "lifestyle",
@@ -6374,8 +6374,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-bretagne-guide-2026",
-    title: "Télétravailler depuis la Bretagne en 2026 : le guide complet",
-    metaTitle: "Télétravailler depuis la Bretagne 2026 — Rennes, Brest, Lorient",
+    title: "Télétravailler depuis la Bretagne en 2027 : le guide complet",
+    metaTitle: "Télétravailler depuis la Bretagne 2027 — Rennes, Brest, Lorient",
     metaDesc:
       "Fibre, coworking, TGV Paris : la Bretagne est-elle vraiment compatible avec le télétravail ? Notre guide honnête des villes bretonnes pour les remote workers.",
     category: "teletravail",
@@ -6425,8 +6425,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-strasbourg-guide-2026",
-    title: "Quitter Strasbourg en 2026 : où aller quand le Rhin coûte trop cher",
-    metaTitle: "Quitter Strasbourg 2026 — Mulhouse, Colmar, Metz, Nancy",
+    title: "Quitter Strasbourg en 2027 : où aller quand le Rhin coûte trop cher",
+    metaTitle: "Quitter Strasbourg 2027 — Mulhouse, Colmar, Metz, Nancy",
     metaDesc:
       "Strasbourg est devenue l'une des villes les plus chères du Grand Est. Qui quitte, où, et pourquoi. Les vraies alternatives alsaciennes et lorraines, sans langue de bois.",
     category: "comparaison",
@@ -6472,8 +6472,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-nice-guide-2026",
-    title: "Quitter Nice en 2026 : qui part, où, et ce qu'on gagne vraiment",
-    metaTitle: "Quitter Nice 2026 — Toulon, Antibes, Montpellier, Aix",
+    title: "Quitter Nice en 2027 : qui part, où, et ce qu'on gagne vraiment",
+    metaTitle: "Quitter Nice 2027 — Toulon, Antibes, Montpellier, Aix",
     metaDesc:
       "Nice est magnifique et hors de prix. Pourquoi de plus en plus de Niçois regardent vers Toulon, l'arrière-pays ou Montpellier, et ce que le calcul donne vraiment.",
     category: "comparaison",
@@ -6519,8 +6519,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-pays-basque-guide-2026",
-    title: "Vivre en Pays Basque en 2026 : Bayonne, Biarritz, Saint-Jean-de-Luz — le guide honnête",
-    metaTitle: "Vivre au Pays Basque 2026 — Bayonne, Biarritz, Anglet",
+    title: "Vivre en Pays Basque en 2027 : Bayonne, Biarritz, Saint-Jean-de-Luz — le guide honnête",
+    metaTitle: "Vivre au Pays Basque 2027 — Bayonne, Biarritz, Anglet",
     metaDesc:
       "Le Pays Basque est la région de France dont les prix ont le plus augmenté en 10 ans. Notre guide honnête : qui peut encore s'y installer, et à quel prix réel.",
     category: "region",
@@ -6566,8 +6566,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "bordeaux-vs-rennes-comparatif-2026",
-    title: "Bordeaux vs Rennes en 2026 : le grand duel des métropoles atlantiques",
-    metaTitle: "Bordeaux vs Rennes 2026 — Coût, emploi, qualité de vie",
+    title: "Bordeaux vs Rennes en 2027 : le grand duel des métropoles atlantiques",
+    metaTitle: "Bordeaux vs Rennes 2027 — Coût, emploi, qualité de vie",
     metaDesc:
       "Les deux alternatives favorites des Parisiens qui partent vers l'Atlantique. Bordeaux vs Rennes : laquelle choisir selon votre profil, votre budget et votre projet de vie ?",
     category: "comparaison",
@@ -6613,8 +6613,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-artistes-creatifs-france-2026",
-    title: "Les meilleures villes françaises pour les artistes et créatifs en 2026",
-    metaTitle: "Meilleures villes artistes et créatifs 2026 — Studios, galeries",
+    title: "Les meilleures villes françaises pour les artistes et créatifs en 2027",
+    metaTitle: "Meilleures villes artistes et créatifs 2027 — Studios, galeries",
     metaDesc:
       "Ateliers abordables, scène culturelle vivante, communauté active : notre guide des villes françaises où un artiste ou créatif peut vraiment travailler et vivre sans se saigner.",
     category: "lifestyle",
@@ -6664,8 +6664,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-normandie-guide-2026",
-    title: "Télétravailler depuis la Normandie en 2026 : le guide complet",
-    metaTitle: "Télétravailler depuis la Normandie 2026 — Caen, Rouen, Le Havre",
+    title: "Télétravailler depuis la Normandie en 2027 : le guide complet",
+    metaTitle: "Télétravailler depuis la Normandie 2027 — Caen, Rouen, Le Havre",
     metaDesc:
       "2h de Paris en TGV, prix divisés par deux, mer à portée de main : la Normandie est l'une des régions les plus sous-estimées pour le télétravail. Notre guide complet 2026.",
     category: "teletravail",
@@ -6711,8 +6711,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-provence-guide-2026",
-    title: "Télétravailler depuis la Provence en 2026 : PACA, Luberon, Aix, Avignon",
-    metaTitle: "Télétravailler depuis la Provence 2026 — Aix, Avignon, Aubagne",
+    title: "Télétravailler depuis la Provence en 2027 : PACA, Luberon, Aix, Avignon",
+    metaTitle: "Télétravailler depuis la Provence 2027 — Aix, Avignon, Aubagne",
     metaDesc:
       "Soleil 300 jours/an, lavande et TGV : la Provence attire les télétravailleurs. Notre guide 2026 sur ce qui fonctionne vraiment, les prix réels et les villes à éviter.",
     category: "teletravail",
@@ -6758,8 +6758,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-gastronomie-france-2026",
-    title: "Les meilleures villes françaises pour les amateurs de gastronomie en 2026",
-    metaTitle: "Meilleures villes gastronomie France 2026 — Restaurants, marchés",
+    title: "Les meilleures villes françaises pour les amateurs de gastronomie en 2027",
+    metaTitle: "Meilleures villes gastronomie France 2027 — Restaurants, marchés",
     metaDesc:
       "Lyon, Bordeaux, Strasbourg, San Sebastián à 30 km : les villes françaises où bien manger quotidiennement sans se ruiner. Notre classement honnête 2026.",
     category: "lifestyle",
@@ -6805,8 +6805,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-grenoble-guide-2026",
-    title: "Quitter Grenoble en 2026 : quand la montagne et la pollution ne suffisent plus",
-    metaTitle: "Quitter Grenoble 2026 — Valence, Chambéry, Lyon, Gap",
+    title: "Quitter Grenoble en 2027 : quand la montagne et la pollution ne suffisent plus",
+    metaTitle: "Quitter Grenoble 2027 — Valence, Chambéry, Lyon, Gap",
     metaDesc:
       "Grenoble attire et frustre en parts égales. Qui part, pourquoi, et quelles villes offrent la montagne sans les inversions thermiques ni la saturation routière.",
     category: "comparaison",
@@ -6852,8 +6852,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-clermont-ferrand-guide-2026",
-    title: "Quitter Clermont-Ferrand en 2026 : et si l'Auvergne avait mieux à offrir juste à côté ?",
-    metaTitle: "Quitter Clermont-Ferrand 2026 — Vichy, Issoire, Lyon, Riom",
+    title: "Quitter Clermont-Ferrand en 2027 : et si l'Auvergne avait mieux à offrir juste à côté ?",
+    metaTitle: "Quitter Clermont-Ferrand 2027 — Vichy, Issoire, Lyon, Riom",
     metaDesc:
       "Clermont n'est pas Lyon. Mais elle est aussi différente d'elle-même selon le quartier. Qui part, pourquoi, et les vraies alternatives auvergnates avant de traverser le Massif Central.",
     category: "comparaison",
@@ -6895,8 +6895,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "toulon-vs-marseille-comparatif-2026",
-    title: "Toulon vs Marseille en 2026 : deux villes méditerranéennes, deux destins",
-    metaTitle: "Toulon vs Marseille 2026 — Rade, calanques, coût, emploi",
+    title: "Toulon vs Marseille en 2027 : deux villes méditerranéennes, deux destins",
+    metaTitle: "Toulon vs Marseille 2027 — Rade, calanques, coût, emploi",
     metaDesc:
       "Toulon ou Marseille ? Les deux villes partagent la Méditerranée et un fort caractère. Mais elles ont divergé radicalement en termes de coût, de sécurité, de dynamisme et de qualité de vie quotidienne.",
     category: "comparaison",
@@ -6942,8 +6942,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-auvergne-profonde-guide-2026",
-    title: "Vivre en Auvergne profonde en 2026 : Cantal, Haute-Loire, Allier — le guide honnête",
-    metaTitle: "Vivre en Auvergne profonde 2026 — Aurillac, Le Puy-en-Velay",
+    title: "Vivre en Auvergne profonde en 2027 : Cantal, Haute-Loire, Allier — le guide honnête",
+    metaTitle: "Vivre en Auvergne profonde 2027 — Aurillac, Le Puy-en-Velay",
     metaDesc:
       "L'Auvergne au-delà de Clermont : Cantal, Haute-Loire, Allier. Pour qui, à quel prix, et ce que personne ne vous dit sur la vie dans le Massif Central.",
     category: "region",
@@ -6989,8 +6989,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-cyclistes-france-2026",
-    title: "Les meilleures villes françaises pour les cyclistes en 2026",
-    metaTitle: "Meilleures villes cyclistes France 2026 — Pistes, culture vélo",
+    title: "Les meilleures villes françaises pour les cyclistes en 2027",
+    metaTitle: "Meilleures villes cyclistes France 2027 — Pistes, culture vélo",
     metaDesc:
       "Strasbourg, Bordeaux, Nantes, Grenoble : quelles villes françaises ont vraiment construit une culture du vélo du quotidien ? Notre classement honnête 2026 par profil cycliste.",
     category: "lifestyle",
@@ -7036,8 +7036,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-primo-accedants-france-2026",
-    title: "Premier achat immobilier : les meilleures villes françaises en 2026",
-    metaTitle: "Premier achat immobilier 2026 — Villes pour primo-accédants",
+    title: "Premier achat immobilier : les meilleures villes françaises en 2027",
+    metaTitle: "Premier achat immobilier 2027 — Villes pour primo-accédants",
     metaDesc:
       "PTZ, prix du m², loyer résiduel : notre guide des villes françaises où un primo-accédant avec un revenu médian peut encore acheter en 2026 sans sacrifier la qualité de vie.",
     category: "budget",
@@ -7087,8 +7087,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-grand-est-guide-2026",
-    title: "Télétravailler depuis le Grand Est en 2026 : Reims, Troyes, Champagne, Lorraine",
-    metaTitle: "Télétravailler depuis le Grand Est 2026 — Reims, Troyes, Metz",
+    title: "Télétravailler depuis le Grand Est en 2027 : Reims, Troyes, Champagne, Lorraine",
+    metaTitle: "Télétravailler depuis le Grand Est 2027 — Reims, Troyes, Metz",
     metaDesc:
       "À 45 minutes de TGV de Paris, Reims et Troyes sont parmi les villes les moins connues et les plus rentables pour les télétravailleurs. Notre guide complet du Grand Est 2026.",
     category: "teletravail",
@@ -7134,8 +7134,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-surf-sports-nautiques-france-2026",
-    title: "Les meilleures villes françaises pour le surf et les sports nautiques en 2026",
-    metaTitle: "Meilleures villes surf et sports nautiques France 2026",
+    title: "Les meilleures villes françaises pour le surf et les sports nautiques en 2027",
+    metaTitle: "Meilleures villes surf et sports nautiques France 2027",
     metaDesc:
       "Surf, voile, kayak, kitesurf : notre guide des villes françaises où pratiquer des sports nautiques au quotidien, avec le vrai coût de la vie et les spots par niveau.",
     category: "lifestyle",
@@ -7181,8 +7181,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-dans-les-landes-guide-2026",
-    title: "Vivre dans les Landes en 2026 : forêt, océan, Mont-de-Marsan, Dax — le guide complet",
-    metaTitle: "Vivre dans les Landes 2026 — Mont-de-Marsan, Dax, Biscarrosse",
+    title: "Vivre dans les Landes en 2027 : forêt, océan, Mont-de-Marsan, Dax — le guide complet",
+    metaTitle: "Vivre dans les Landes 2027 — Mont-de-Marsan, Dax, Biscarrosse",
     metaDesc:
       "Forêt de pins, côte atlantique, thermalisme, pelote basque : les Landes sont la grande oubliée des guides de relocation. Notre guide honnête 2026 du plus grand département forestier de France.",
     category: "region",
@@ -7228,8 +7228,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-roussillon-guide-2026",
-    title: "Vivre en Roussillon en 2026 : Perpignan, Collioure, Céret — le guide honnête",
-    metaTitle: "Vivre en Roussillon 2026 — Perpignan, Côte Vermeille",
+    title: "Vivre en Roussillon en 2027 : Perpignan, Collioure, Céret — le guide honnête",
+    metaTitle: "Vivre en Roussillon 2027 — Perpignan, Côte Vermeille",
     metaDesc:
       "Le Roussillon offre mer, montagne catalane, soleil et des prix parmi les plus bas du Midi. Notre guide honnête sur ce qu'on y gagne vraiment et ce qu'on n'y trouve pas.",
     category: "region",
@@ -7275,8 +7275,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "caen-vs-rouen-comparatif-2026",
-    title: "Caen vs Rouen en 2026 : deux capitales normandes, deux projets de vie",
-    metaTitle: "Caen vs Rouen 2026 — Mer, Seine, qualité de vie",
+    title: "Caen vs Rouen en 2027 : deux capitales normandes, deux projets de vie",
+    metaTitle: "Caen vs Rouen 2027 — Mer, Seine, qualité de vie",
     metaDesc:
       "Caen ou Rouen pour s'installer en Normandie ? Les deux villes ont des profils très différents malgré leur proximité. Notre comparatif honnête pour choisir selon votre situation.",
     category: "comparaison",
@@ -7322,8 +7322,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "dijon-vs-lyon-comparatif-2026",
-    title: "Dijon vs Lyon en 2026 : la capitale bourguignonne face à la métropole rhônalpine",
-    metaTitle: "Dijon vs Lyon 2026 — Prix, emploi, gastronomie",
+    title: "Dijon vs Lyon en 2027 : la capitale bourguignonne face à la métropole rhônalpine",
+    metaTitle: "Dijon vs Lyon 2027 — Prix, emploi, gastronomie",
     metaDesc:
       "Dijon est à 1h40 de TGV de Lyon. Pour la moitié du prix. Est-ce suffisant pour en faire une alternative crédible ? Notre comparatif honnête Dijon vs Lyon 2026.",
     category: "comparaison",
@@ -7369,8 +7369,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-randonnee-trail-france-2026",
-    title: "Les meilleures villes françaises pour la randonnée et le trail en 2026",
-    metaTitle: "Meilleures villes randonnée et trail France 2026 — GR, massifs",
+    title: "Les meilleures villes françaises pour la randonnée et le trail en 2027",
+    metaTitle: "Meilleures villes randonnée et trail France 2027 — GR, massifs",
     metaDesc:
       "Sortir randonner ou trailrunner depuis chez soi en 20 minutes : notre guide des villes françaises où c'est possible, avec les massifs accessibles, les clubs et le coût de vie.",
     category: "lifestyle",
@@ -7417,7 +7417,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-retraite-anticipee-fire-2026",
     title: "Retraite anticipée et FIRE en France : les meilleures villes pour s'arrêter à 45 ans",
-    metaTitle: "Retraite anticipée et FIRE France 2026 — Villes à faible coût",
+    metaTitle: "Retraite anticipée et FIRE France 2027 — Villes à faible coût",
     metaDesc:
       "S'arrêter de travailler à 40-50 ans en France : dans quelles villes est-ce financièrement viable avec un capital de 400 000 à 700 000 € ? Notre analyse 2026.",
     category: "lifestyle",
@@ -7463,8 +7463,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-bourgogne-guide-2026",
-    title: "Télétravailler depuis la Bourgogne en 2026 : Dijon, Beaune, Auxerre, Mâcon",
-    metaTitle: "Télétravailler depuis la Bourgogne 2026 — Dijon, Beaune",
+    title: "Télétravailler depuis la Bourgogne en 2027 : Dijon, Beaune, Auxerre, Mâcon",
+    metaTitle: "Télétravailler depuis la Bourgogne 2027 — Dijon, Beaune",
     metaDesc:
       "La Bourgogne est à 1h35 de TGV de Paris, trois fois moins chère, et propose une qualité de vie gastronomique unique. Notre guide complet pour télétravailler depuis les vignes.",
     category: "teletravail",
@@ -7510,8 +7510,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-freelances-independants-france-2026",
-    title: "Les meilleures villes françaises pour les freelances et indépendants en 2026",
-    metaTitle: "Meilleures villes freelances et indépendants France 2026",
+    title: "Les meilleures villes françaises pour les freelances et indépendants en 2027",
+    metaTitle: "Meilleures villes freelances et indépendants France 2027",
     metaDesc:
       "Coworking abordable, réseau professionnel actif, cotisations sociales : notre guide 2026 des villes françaises où un freelance peut développer son activité sans se ruiner.",
     category: "teletravail",
@@ -7557,8 +7557,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-dijon-guide-2026",
-    title: "Quitter Dijon en 2026 : quand la Bourgogne devient trop petite",
-    metaTitle: "Quitter Dijon 2026 — Lyon, Besançon, Chalon, Mâcon",
+    title: "Quitter Dijon en 2027 : quand la Bourgogne devient trop petite",
+    metaTitle: "Quitter Dijon 2027 — Lyon, Besançon, Chalon, Mâcon",
     metaDesc:
       "Dijon est agréable mais son marché de l'emploi est étroit. Qui part, pourquoi, et quelles villes offrent plus sans tout sacrifier : calcul honnête.",
     category: "comparaison",
@@ -7604,8 +7604,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "nantes-vs-bordeaux-comparatif-2026",
-    title: "Nantes vs Bordeaux en 2026 : le match des métropoles atlantiques enfin tranché",
-    metaTitle: "Nantes vs Bordeaux 2026 — Coût, emploi, qualité de vie",
+    title: "Nantes vs Bordeaux en 2027 : le match des métropoles atlantiques enfin tranché",
+    metaTitle: "Nantes vs Bordeaux 2027 — Coût, emploi, qualité de vie",
     metaDesc:
       "Nantes ou Bordeaux pour s'installer ? Les deux métropoles atlantiques sont les premières destinations des Parisiens qui partent. Ce comparatif honnête aide à choisir selon votre profil.",
     category: "comparaison",
@@ -7651,8 +7651,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "pau-vs-bayonne-comparatif-2026",
-    title: "Pau vs Bayonne en 2026 : deux visions du Sud-Ouest pyrénéen",
-    metaTitle: "Pau vs Bayonne 2026 — Pyrénées, mer, prix, emploi",
+    title: "Pau vs Bayonne en 2027 : deux visions du Sud-Ouest pyrénéen",
+    metaTitle: "Pau vs Bayonne 2027 — Pyrénées, mer, prix, emploi",
     metaDesc:
       "Pau ou Bayonne pour s'installer dans le Sud-Ouest ? Une préfecture calme et abordable contre une cité basque bouillonnante et chère. Notre comparatif honnête.",
     category: "comparaison",
@@ -7698,8 +7698,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-dans-l-ain-guide-2026",
-    title: "Vivre dans l'Ain en 2026 : Bourg-en-Bresse, Pays de Gex, Belley — le guide complet",
-    metaTitle: "Vivre dans l'Ain 2026 — Bourg-en-Bresse, Pays de Gex",
+    title: "Vivre dans l'Ain en 2027 : Bourg-en-Bresse, Pays de Gex, Belley — le guide complet",
+    metaTitle: "Vivre dans l'Ain 2027 — Bourg-en-Bresse, Pays de Gex",
     metaDesc:
       "L'Ain est le département français qui compte le plus de travailleurs frontaliers. Entre Pays de Gex à 20 minutes de Genève et Bresse authentique, notre guide complet 2026.",
     category: "region",
@@ -7745,8 +7745,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-pays-de-la-loire-guide-2026",
-    title: "Télétravailler depuis les Pays de la Loire en 2026 : Nantes, Angers, Le Mans, Saumur",
-    metaTitle: "Télétravailler depuis les Pays de la Loire 2026 — Nantes, Angers",
+    title: "Télétravailler depuis les Pays de la Loire en 2027 : Nantes, Angers, Le Mans, Saumur",
+    metaTitle: "Télétravailler depuis les Pays de la Loire 2027 — Nantes, Angers",
     metaDesc:
       "TGV < 2h10 de Paris, prix divisés par deux, Loire à Vélo : les Pays de la Loire sont peut-être la région la plus cohérente de France pour télétravailler. Notre guide complet 2026.",
     category: "teletravail",
@@ -7792,8 +7792,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-culture-festivals-france-2026",
-    title: "Les meilleures villes françaises pour la culture et les festivals en 2026",
-    metaTitle: "Meilleures villes culture et festivals France 2026",
+    title: "Les meilleures villes françaises pour la culture et les festivals en 2027",
+    metaTitle: "Meilleures villes culture et festivals France 2027",
     metaDesc:
       "Avignon, Rennes, Clermont-Ferrand, Montpellier : quelles villes françaises ont une vie culturelle intense toute l'année ? Notre guide honnête par type de culture.",
     category: "lifestyle",
@@ -7839,8 +7839,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "investissement-locatif-moins-100000-euros-france-2026",
-    title: "Investissement locatif sous 100 000 € : les villes françaises où c'est encore possible en 2026",
-    metaTitle: "Investissement locatif < 100 000 € 2026 — Rentabilité, villes",
+    title: "Investissement locatif sous 100 000 € : les villes françaises où c'est encore possible en 2027",
+    metaTitle: "Investissement locatif < 100 000 € 2027 — Rentabilité, villes",
     metaDesc:
       "Studio ou T2 sous 100 000 € avec un loyer viable : les villes françaises où ce profil reste possible en 2026, rentabilité brute, vacance locative, pièges à éviter.",
     category: "budget",
@@ -7886,8 +7886,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "expatries-retour-france-quelle-ville-2026",
-    title: "Expatriés : retour en France en 2026 — dans quelle ville s'installer ?",
-    metaTitle: "Expatriés de retour en France 2026 — Quelle ville choisir ?",
+    title: "Expatriés : retour en France en 2027 — dans quelle ville s'installer ?",
+    metaTitle: "Expatriés de retour en France 2027 — Quelle ville choisir ?",
     metaDesc:
       "Après des années à Londres, New York, Singapour ou Dubaï : comment choisir sa ville en France ? Notre guide pour les expatriés qui rentrent, selon leur budget et leur profil.",
     category: "lifestyle",
@@ -7933,8 +7933,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-rouen-guide-2026",
-    title: "Quitter Rouen en 2026 : quand la Seine devient trop contraignante",
-    metaTitle: "Quitter Rouen 2026 — Caen, Le Havre, Évreux, Paris",
+    title: "Quitter Rouen en 2027 : quand la Seine devient trop contraignante",
+    metaTitle: "Quitter Rouen 2027 — Caen, Le Havre, Évreux, Paris",
     metaDesc:
       "Rouen attire mais ses embouteillages, sa topographie et ses prix en hausse poussent certains à partir. Qui quitte, où, et ce qu'on gagne ou perd vraiment.",
     category: "comparaison",
@@ -7980,8 +7980,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-annecy-guide-2026",
-    title: "Quitter Annecy en 2026 : quand le lac ne justifie plus le prix",
-    metaTitle: "Quitter Annecy 2026 — Chambéry, Aix-les-Bains, Grenoble, Thonon",
+    title: "Quitter Annecy en 2027 : quand le lac ne justifie plus le prix",
+    metaTitle: "Quitter Annecy 2027 — Chambéry, Aix-les-Bains, Grenoble, Thonon",
     metaDesc:
       "Annecy est la ville française la plus chère hors Paris pour son niveau de services. Qui peut encore y rester, et où partent ceux qui n'en ont plus les moyens.",
     category: "comparaison",
@@ -8027,8 +8027,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "annecy-vs-chambery-comparatif-2026",
-    title: "Annecy vs Chambéry en 2026 : deux capitales savoyardes, deux rapports au prix",
-    metaTitle: "Annecy ou Chambéry : où vivre ? Comparatif 2026",
+    title: "Annecy vs Chambéry en 2027 : deux capitales savoyardes, deux rapports au prix",
+    metaTitle: "Annecy ou Chambéry : où vivre ? Comparatif 2027",
     metaDesc:
       "Annecy ou Chambéry pour s'installer en Savoie ? L'une est la plus belle et la plus chère ; l'autre offre presque autant pour 40 % de moins. Notre comparatif honnête.",
     category: "comparaison",
@@ -8074,8 +8074,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "reims-vs-amiens-comparatif-2026",
-    title: "Reims vs Amiens en 2026 : deux capitales du Grand Nord à moins de 2h de Paris",
-    metaTitle: "Reims vs Amiens 2026 — TGV, patrimoine, prix : comparatif complet",
+    title: "Reims vs Amiens en 2027 : deux capitales du Grand Nord à moins de 2h de Paris",
+    metaTitle: "Reims vs Amiens 2027 — TGV, patrimoine, prix : comparatif complet",
     metaDesc:
       "Reims ou Amiens pour s'installer à moins de 2h de Paris ? Deux villes à cathédrale classée UNESCO, deux profils économiques, deux dynamiques très différentes.",
     category: "comparaison",
@@ -8121,8 +8121,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-ariege-guide-2026",
-    title: "Vivre en Ariège en 2026 : Foix, Pamiers, Tarascon — le guide honnête",
-    metaTitle: "Vivre en Ariège 2026 — Foix, Pamiers, Pyrénées ariégeoises",
+    title: "Vivre en Ariège en 2027 : Foix, Pamiers, Tarascon — le guide honnête",
+    metaTitle: "Vivre en Ariège 2027 — Foix, Pamiers, Pyrénées ariégeoises",
     metaDesc:
       "L'Ariège est le département le moins cher de l'arc pyrénéen et le moins connu des guides de relocation. Pour qui, à quel prix, et ce qu'on n'y trouve vraiment pas.",
     category: "region",
@@ -8168,8 +8168,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-auvergne-guide-2026",
-    title: "Télétravailler depuis l'Auvergne en 2026 : Clermont, Vichy, Aurillac, Le Puy",
-    metaTitle: "Télétravailler depuis l'Auvergne 2026 — Clermont-Ferrand, volcans",
+    title: "Télétravailler depuis l'Auvergne en 2027 : Clermont, Vichy, Aurillac, Le Puy",
+    metaTitle: "Télétravailler depuis l'Auvergne 2027 — Clermont-Ferrand, volcans",
     metaDesc:
       "L'Auvergne cumule prix bas, nature volcanique unique et fibre en progression. Notre guide complet 2026 pour télétravailler depuis le Massif Central.",
     category: "teletravail",
@@ -8215,8 +8215,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-zero-dechet-ecologie-france-2026",
-    title: "Les meilleures villes françaises pour vivre zéro déchet et éco-responsable en 2026",
-    metaTitle: "Meilleures villes zéro déchet et écologie France 2026",
+    title: "Les meilleures villes françaises pour vivre zéro déchet et éco-responsable en 2027",
+    metaTitle: "Meilleures villes zéro déchet et écologie France 2027",
     metaDesc:
       "Vrac, compost, vélo, circuits courts, énergie renouvelable : quelles villes françaises ont vraiment construit une infrastructure du quotidien durable ? Notre guide 2026.",
     category: "lifestyle",
@@ -8310,7 +8310,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-nimes-guide-2026",
     title: "Quitter Nîmes : ce que personne ne vous dit avant de partir",
-    metaTitle: "Quitter Nîmes en 2026 : alternatives, coûts, raisons de partir",
+    metaTitle: "Quitter Nîmes en 2027 : alternatives, coûts, raisons de partir",
     metaDesc: "Embouteillages, marché de l'emploi limité, départs de jeunes actifs : pourquoi on quitte Nîmes et où aller. Montpellier, Avignon, Marseille — le comparatif honnête.",
     category: "comparaison",
     emoji: "🏛️",
@@ -8356,7 +8356,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-toulon-guide-2026",
     title: "Quitter Toulon : la ville navale qui divise, et où aller vraiment",
-    metaTitle: "Quitter Toulon en 2026 : alternatives honnêtes, coût-bénéfice",
+    metaTitle: "Quitter Toulon en 2027 : alternatives honnêtes, coût-bénéfice",
     metaDesc: "Toulon a la réputation la plus clivante de la Côte d'Azur. Faut-il vraiment partir ? Marseille, Nice, Aix, La Ciotat — le guide sans filtre pour décider.",
     category: "comparaison",
     emoji: "⚓",
@@ -8402,7 +8402,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "la-rochelle-vs-bayonne-comparatif-2026",
     title: "La Rochelle vs Bayonne : deux villes atlantiques, deux styles de vie",
-    metaTitle: "La Rochelle vs Bayonne 2026 : coût, qualité de vie, emploi",
+    metaTitle: "La Rochelle vs Bayonne 2027 : coût, qualité de vie, emploi",
     metaDesc: "La Rochelle ou Bayonne ? Deux perles de l'Atlantique avec des identités radicalement différentes. Le comparatif honnête pour trouver votre ville.",
     category: "comparaison",
     emoji: "🌊",
@@ -8444,7 +8444,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "brest-vs-lorient-comparatif-2026",
     title: "Brest vs Lorient : deux villes bretonnes navales, lequel vous convient ?",
-    metaTitle: "Brest vs Lorient 2026 : comparatif complet — prix, emploi",
+    metaTitle: "Brest vs Lorient 2027 : comparatif complet — prix, emploi",
     metaDesc: "Brest ou Lorient ? Deux villes portuaires de Bretagne Sud/Ouest avec des profils très différents. Prix, météo, jobs, vie sociale — le comparatif sans langue de bois.",
     category: "comparaison",
     emoji: "🌧️",
@@ -8486,7 +8486,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-ardennes-meuse-guide-2026",
     title: "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
-    metaTitle: "Vivre en Ardennes et Meuse 2026 : coût, nature, télétravail",
+    metaTitle: "Vivre en Ardennes et Meuse 2027 : coût, nature, télétravail",
     metaDesc: "Les départements les moins chers de France, des forêts immenses, et des villes qui se réinventent. Qui vit vraiment bien en Ardennes et Meuse ? Le guide sans fard.",
     category: "region",
     emoji: "🌲",
@@ -8528,7 +8528,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-creuse-guide-2026",
     title: "Vivre en Creuse : l'immobilier le moins cher de France et ce que ça cache",
-    metaTitle: "Vivre en Creuse 2026 : télétravailleurs, retraités, néoruraux",
+    metaTitle: "Vivre en Creuse 2027 : télétravailleurs, retraités, néoruraux",
     metaDesc: "La Creuse : maisons à 40 000 €, silence absolu, nature préservée. Mais aussi déserts médicaux et isolement. Le guide honnête pour ceux qui envisagent le grand saut.",
     category: "region",
     emoji: "🐄",
@@ -8570,7 +8570,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
     title: "Télétravailler depuis la Nouvelle-Aquitaine : la région la plus diverse de France",
-    metaTitle: "Télétravail Nouvelle-Aquitaine 2026 : meilleures villes, fibre",
+    metaTitle: "Télétravail Nouvelle-Aquitaine 2027 : meilleures villes, fibre",
     metaDesc: "De l\'Atlantique aux Pyrénées, la Nouvelle-Aquitaine offre une gamme incroyable pour le télétravail. Pau, La Rochelle, Périgueux, Libourne — le guide complet.",
     category: "teletravail",
     emoji: "🍷",
@@ -8612,7 +8612,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "teletravailler-grande-couronne-ile-de-france-2026",
     title: "Télétravailler depuis la Grande Couronne : rester près de Paris sans en payer le prix",
-    metaTitle: "Télétravail Grande Couronne Île-de-France 2026 : Meaux, Melun",
+    metaTitle: "Télétravail Grande Couronne Île-de-France 2027 : Meaux, Melun",
     metaDesc: "Ni Paris ni la province : la Grande Couronne pour les télétravailleurs qui veulent de l\'espace, des prix bas et un accès TGV en moins de 60 minutes.",
     category: "teletravail",
     emoji: "🚆",
@@ -8654,7 +8654,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-animaux-chiens-france-2026",
     title: "Meilleures villes françaises pour les propriétaires d\'animaux et de chiens",
-    metaTitle: "Meilleures villes pour chiens et animaux en France 2026",
+    metaTitle: "Meilleures villes pour chiens et animaux en France 2027",
     metaDesc: "Parcs, zones sans laisse, vétérinaires, terrasses dog-friendly : quelles villes françaises accueillent vraiment bien les chiens et leurs propriétaires ?",
     category: "lifestyle",
     emoji: "🐕",
@@ -8695,8 +8695,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-musique-scene-france-2026",
-    title: "Meilleures villes françaises pour la musique et la scène live en 2026",
-    metaTitle: "Meilleures villes pour la musique 2026 : scènes, festivals",
+    title: "Meilleures villes françaises pour la musique et la scène live en 2027",
+    metaTitle: "Meilleures villes pour la musique 2027 : scènes, festivals",
     metaDesc: "Rennes, Nantes, Bordeaux, Lyon, Marseille : quel est le vrai vivier musical de France ? Classement par scène live, festivals, salles de répétition et culture indie.",
     category: "lifestyle",
     emoji: "🎸",
@@ -8737,8 +8737,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-colocation-jeunes-actifs-2026",
-    title: "Meilleures villes pour la colocation de jeunes actifs en 2026",
-    metaTitle: "Colocation jeunes actifs 2026 : meilleures villes, prix",
+    title: "Meilleures villes pour la colocation de jeunes actifs en 2027",
+    metaTitle: "Colocation jeunes actifs 2027 : meilleures villes, prix",
     metaDesc: "25-35 ans, CDI ou freelance, vous voulez optimiser coût et vie sociale. Quelles villes offrent les meilleures colocations pour jeunes actifs ? Rennes, Toulouse, Lyon, Nantes.",
     category: "budget",
     emoji: "🏠",
@@ -8779,8 +8779,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-ecoles-alternatives-montessori-2026",
-    title: "Écoles alternatives en France : quelles villes ont la meilleure offre en 2026 ?",
-    metaTitle: "Écoles Montessori, Steiner, démocratiques 2026 : villes, tarifs",
+    title: "Écoles alternatives en France : quelles villes ont la meilleure offre en 2027 ?",
+    metaTitle: "Écoles Montessori, Steiner, démocratiques 2027 : villes, tarifs",
     metaDesc: "Montessori, Waldorf-Steiner, écoles démocratiques, unschooling : quelles villes françaises ont la densité d\'écoles alternatives la plus forte ? Guide pour familles.",
     category: "famille",
     emoji: "🎨",
@@ -8821,8 +8821,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "familles-expatriees-retour-france-quelle-ville-2026",
-    title: "Familles expatriées : quelle ville choisir pour rentrer en France en 2026 ?",
-    metaTitle: "Retour en France en famille 2026 : quelle ville choisir ?",
+    title: "Familles expatriées : quelle ville choisir pour rentrer en France en 2027 ?",
+    metaTitle: "Retour en France en famille 2027 : quelle ville choisir ?",
     metaDesc: "Vous revenez de Londres, New York, Dubaï ou Singapour avec des enfants. Quel ville française offre les meilleures écoles internationales, un réseau expat et un vrai marché du travail ?",
     category: "famille",
     emoji: "✈️",
@@ -8863,8 +8863,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "le-mans-vs-tours-comparatif-2026",
-    title: "Le Mans vs Tours : quelle ville choisir en 2026 ?",
-    metaTitle: "Le Mans vs Tours : comparatif complet 2026 — prix, transports",
+    title: "Le Mans vs Tours : quelle ville choisir en 2027 ?",
+    metaTitle: "Le Mans vs Tours : comparatif complet 2027 — prix, transports",
     metaDesc:
       "Le Mans à 9 €/m² ou Tours à 3 300 €/m² ? Deux villes de Centre-Val de Loire à moins d'1h de Paris en TGV : comparaison honnête pour choisir celle qui correspond à votre profil.",
     category: "comparaison",
@@ -8914,7 +8914,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "perpignan-vs-montpellier-comparatif-2026",
     title: "Perpignan vs Montpellier : soleil catalan ou métropole occitane ?",
-    metaTitle: "Perpignan vs Montpellier 2026 : comparatif complet — prix, emploi",
+    metaTitle: "Perpignan vs Montpellier 2027 : comparatif complet — prix, emploi",
     metaDesc:
       "Perpignan à 1 400 €/m² ou Montpellier à 3 600 €/m² ? Les deux promettent le soleil et la Méditerranée, mais avec des réalités très différentes. Comparatif objectif 2026.",
     category: "comparaison",
@@ -8964,8 +8964,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "metz-vs-nancy-comparatif-2026",
-    title: "Metz vs Nancy : le duel lorrain tranché en 2026",
-    metaTitle: "Metz vs Nancy 2026 : comparatif complet — culture, immobilier",
+    title: "Metz vs Nancy : le duel lorrain tranché en 2027",
+    metaTitle: "Metz vs Nancy 2027 : comparatif complet — culture, immobilier",
     metaDesc:
       "Metz (Centre Pompidou) ou Nancy (Place Stanislas) ? Deux rivales lorraines à 55 km l'une de l'autre, même prix immobilier, mais des identités et des atouts très différents.",
     category: "comparaison",
@@ -9014,8 +9014,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-perigord-dordogne-guide-2026",
-    title: "Vivre en Périgord-Dordogne : le guide complet 2026",
-    metaTitle: "Vivre en Périgord-Dordogne 2026 : prix, expats, qualité de vie",
+    title: "Vivre en Périgord-Dordogne : le guide complet 2027",
+    metaTitle: "Vivre en Périgord-Dordogne 2027 : prix, expats, qualité de vie",
     metaDesc:
       "Maison en pierre à 100 000 €, truffes et canard confit, grottes préhistoriques. Mais aussi peu d'emplois et des hivers qui font gris. Le vrai guide pour s'installer en Dordogne.",
     category: "region",
@@ -9063,8 +9063,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-alsace-guide-2026",
-    title: "Vivre en Alsace : le guide complet 2026",
-    metaTitle: "Vivre en Alsace 2026 : Strasbourg, Colmar, Mulhouse — prix",
+    title: "Vivre en Alsace : le guide complet 2027",
+    metaTitle: "Vivre en Alsace 2027 : Strasbourg, Colmar, Mulhouse — prix",
     metaDesc:
       "Institutions européennes, marché de Noël, bretzels et choucroute. Mais aussi loyers en hausse à Strasbourg et hiver froid. Le vrai guide pour s'installer en Alsace.",
     category: "region",
@@ -9112,8 +9112,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-charente-maritime-guide-2026",
-    title: "Vivre en Charente-Maritime : le guide complet 2026",
-    metaTitle: "Vivre en Charente-Maritime 2026 : La Rochelle, îles, retraite",
+    title: "Vivre en Charente-Maritime : le guide complet 2027",
+    metaTitle: "Vivre en Charente-Maritime 2027 : La Rochelle, îles, retraite",
     metaDesc:
       "La Rochelle à 3 000 €/m², Oléron à 5 500 €/m², Rochefort à 1 800 €/m². Oysters, soleil atlantique et lifestyle côtier : le vrai guide pour s'installer en Charente-Maritime.",
     category: "region",
@@ -9162,8 +9162,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-occitanie-guide-2026",
-    title: "Télétravailler depuis l'Occitanie : le guide 2026",
-    metaTitle: "Télétravail en Occitanie 2026 : Montpellier, Toulouse, Nîmes",
+    title: "Télétravailler depuis l'Occitanie : le guide 2027",
+    metaTitle: "Télétravail en Occitanie 2027 : Montpellier, Toulouse, Nîmes",
     metaDesc:
       "Fibre, TGV Paris 3h15, coworkings actifs et 300 jours de soleil. Les meilleures villes d'Occitanie pour télétravailler en 2026, avec les prix et les pièges réels.",
     category: "teletravail",
@@ -9212,8 +9212,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-hauts-de-france-guide-2026",
-    title: "Télétravailler depuis les Hauts-de-France : le guide 2026",
-    metaTitle: "Télétravail Hauts-de-France 2026 : Lille, Amiens, Arras",
+    title: "Télétravailler depuis les Hauts-de-France : le guide 2027",
+    metaTitle: "Télétravail Hauts-de-France 2027 : Lille, Amiens, Arras",
     metaDesc:
       "À 1h de Paris en TGV et 3x moins cher : Lille, Amiens, Arras. Le guide pour télétravailler depuis les Hauts-de-France en 2026, avec les prix, la fibre et les pièges.",
     category: "teletravail",
@@ -9261,8 +9261,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-bien-etre-spas-france-2026",
-    title: "Les meilleures villes pour le bien-être et les spas en France — 2026",
-    metaTitle: "Meilleures villes bien-être et spas France 2026 : Annecy, Vichy",
+    title: "Les meilleures villes pour le bien-être et les spas en France — 2027",
+    metaTitle: "Meilleures villes bien-être et spas France 2027 : Annecy, Vichy",
     metaDesc:
       "Villes thermales, yoga, randonnée et spas : les meilleures villes françaises pour un lifestyle centré sur le bien-être en 2026. Classement et analyse factuelle.",
     category: "lifestyle",
@@ -9310,8 +9310,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-entrepreneurs-startups-france-2026",
-    title: "Les meilleures villes pour les entrepreneurs et startups en France — 2026",
-    metaTitle: "Meilleures villes startups et entrepreneurs France 2026",
+    title: "Les meilleures villes pour les entrepreneurs et startups en France — 2027",
+    metaTitle: "Meilleures villes startups et entrepreneurs France 2027",
     metaDesc:
       "French Tech, accélérateurs, talent pool, coût de bureau : classement 2026 des meilleures villes françaises pour lancer une startup ou développer son entreprise.",
     category: "lifestyle",
@@ -9360,7 +9360,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-retraite-1500-euros-mois-france-2026",
     title: "Vivre avec 1 500 €/mois de retraite en France : les meilleures villes",
-    metaTitle: "Retraite à 1 500 €/mois en France 2026 : villes viables",
+    metaTitle: "Retraite à 1 500 €/mois en France 2027 : villes viables",
     metaDesc:
       "1 500 €/mois est la retraite médiane française. Où peut-on vivre décemment avec ce budget ? Guide 2026 avec les villes, les loyers réels et les calculs concrets.",
     category: "budget",
@@ -9458,8 +9458,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-familles-monoparentales-france-2026",
-    title: "Meilleures villes pour les familles monoparentales en France — 2026",
-    metaTitle: "Meilleures villes familles monoparentales France 2026",
+    title: "Meilleures villes pour les familles monoparentales en France — 2027",
+    metaTitle: "Meilleures villes familles monoparentales France 2027",
     metaDesc:
       "Crèches, logement abordable, transports, soutien CAF : les meilleures villes françaises pour les familles monoparentales en 2026. Classement factuel.",
     category: "famille",
@@ -9507,8 +9507,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-accessibilite-handicap-france-2026",
-    title: "Meilleures villes pour les personnes en situation de handicap en France — 2026",
-    metaTitle: "Accessibilité handicap 2026 : Grenoble, Strasbourg, Lyon, Nantes",
+    title: "Meilleures villes pour les personnes en situation de handicap en France — 2027",
+    metaTitle: "Accessibilité handicap 2027 : Grenoble, Strasbourg, Lyon, Nantes",
     metaDesc:
       "MDPH, transport adapté, logement PMR, emploi inclusif : les villes françaises les plus accessibles aux personnes handicapées en 2026. Classement et analyse factuelle.",
     category: "famille",
@@ -9556,8 +9556,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-reims-guide-2026",
-    title: "Quitter Reims en 2026 : quand la cathédrale ne compense plus la grisaille",
-    metaTitle: "Quitter Reims 2026 — Châlons, Épernay, Troyes, Paris",
+    title: "Quitter Reims en 2027 : quand la cathédrale ne compense plus la grisaille",
+    metaTitle: "Quitter Reims 2027 — Châlons, Épernay, Troyes, Paris",
     metaDesc:
       "Reims attire pour sa cathédrale et son TGV à 45 minutes de Paris, mais son climat, son tissu d'emploi et certains quartiers font partir. Où partent les Rémois, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
@@ -9613,8 +9613,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-la-campagne-france-guide-2026",
-    title: "Vivre à la campagne en France — vraie liberté ou faux rêve ? Guide 2026",
-    metaTitle: "Vivre à la campagne en France 2026 : prix, télétravail, services",
+    title: "Vivre à la campagne en France — vraie liberté ou faux rêve ? Guide 2027",
+    metaTitle: "Vivre à la campagne en France 2027 : prix, télétravail, services",
     metaDesc:
       "Loyers divisés par trois, fibre disponible, services médicaux fragiles : ce que vivre à la campagne en France veut vraiment dire en 2026. Avantages, angles morts, où s'installer.",
     category: "lifestyle",
@@ -9663,8 +9663,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-universitaires-etudiants-etrangers-france-2026",
-    title: "Meilleures villes universitaires françaises pour les étudiants étrangers — 2026",
-    metaTitle: "Universités France étudiants étrangers 2026 : Toulouse, Lyon",
+    title: "Meilleures villes universitaires françaises pour les étudiants étrangers — 2027",
+    metaTitle: "Universités France étudiants étrangers 2027 : Toulouse, Lyon",
     metaDesc:
       "Logement étudiant, démarches préfecture, services internationaux, coût de la vie : les villes françaises les plus accueillantes pour les étudiants internationaux en 2026.",
     category: "lifestyle",
@@ -9711,8 +9711,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-dans-le-vaucluse-guide-2026",
-    title: "Vivre dans le Vaucluse — Provence authentique, mistral inclus — Guide 2026",
-    metaTitle: "Vivre dans le Vaucluse 2026 : Avignon, Carpentras, Luberon",
+    title: "Vivre dans le Vaucluse — Provence authentique, mistral inclus — Guide 2027",
+    metaTitle: "Vivre dans le Vaucluse 2027 : Avignon, Carpentras, Luberon",
     metaDesc:
       "Avignon, Orange, Carpentras, Luberon : que vaut vraiment le Vaucluse en 2026 ? Climat, prix de l'immobilier, transports, désert médical. Le vrai bilan d'une installation provençale.",
     category: "region",
@@ -9760,8 +9760,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-saint-etienne-guide-2026",
-    title: "Quitter Saint-Étienne en 2026 — vers Lyon, vers la montagne, vers la mer ?",
-    metaTitle: "Quitter Saint-Étienne 2026 : Lyon, Annecy, Saint-Chamond, Roanne",
+    title: "Quitter Saint-Étienne en 2027 — vers Lyon, vers la montagne, vers la mer ?",
+    metaTitle: "Quitter Saint-Étienne 2027 : Lyon, Annecy, Saint-Chamond, Roanne",
     metaDesc:
       "Saint-Étienne attire pour son immobilier (parmi les moins chers de France) mais fait partir pour son emploi, sa réputation et son climat. Vers où partent les Stéphanois, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
@@ -9809,8 +9809,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-mulhouse-guide-2026",
-    title: "Quitter Mulhouse en 2026 — Suisse, Allemagne, ou Strasbourg ?",
-    metaTitle: "Quitter Mulhouse 2026 : Bâle, Fribourg, Strasbourg, Colmar",
+    title: "Quitter Mulhouse en 2027 — Suisse, Allemagne, ou Strasbourg ?",
+    metaTitle: "Quitter Mulhouse 2027 : Bâle, Fribourg, Strasbourg, Colmar",
     metaDesc:
       "Mulhouse a des avantages rares (frontière suisse, immobilier abordable) mais une réputation qui pèse. Vers où partent vraiment les Mulhousiens, et qui regrette ?",
     category: "comparaison",
@@ -9857,8 +9857,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "aix-en-provence-vs-marseille-comparatif-2026",
-    title: "Aix-en-Provence vs Marseille — vivre, travailler, élever ses enfants — 2026",
-    metaTitle: "Aix-en-Provence ou Marseille : où vivre ? Comparatif 2026",
+    title: "Aix-en-Provence vs Marseille — vivre, travailler, élever ses enfants — 2027",
+    metaTitle: "Aix-en-Provence ou Marseille : où vivre ? Comparatif 2027",
     metaDesc:
       "Aix bourgeoise, Marseille cosmopolite, à 30 km l'une de l'autre : tout les sépare sauf la géographie. Comparatif complet sur 8 critères pour choisir entre les deux capitales provençales.",
     category: "comparaison",
@@ -9910,8 +9910,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-bretagne-interieure-guide-2026",
-    title: "Vivre en Bretagne intérieure (Morbihan & Côtes-d'Armor) — 2026",
-    metaTitle: "Vivre en Bretagne intérieure 2026 : Pontivy, Loudéac, Carhaix",
+    title: "Vivre en Bretagne intérieure (Morbihan & Côtes-d'Armor) — 2027",
+    metaTitle: "Vivre en Bretagne intérieure 2027 : Pontivy, Loudéac, Carhaix",
     metaDesc:
       "La Bretagne loin du littoral surcoté : Pontivy, Loudéac, Rostrenen, Carhaix. Prix divisés par trois, fibre disponible, climat océanique tempéré. La vraie alternative bretonne en 2026.",
     category: "region",
@@ -9958,8 +9958,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-lgbt-friendly-france-2026",
-    title: "Meilleures villes LGBT+-friendly en France — 2026",
-    metaTitle: "Villes LGBT+ friendly France 2026 : Paris, Lyon, Marseille, Lille",
+    title: "Meilleures villes LGBT+-friendly en France — 2027",
+    metaTitle: "Villes LGBT+ friendly France 2027 : Paris, Lyon, Marseille, Lille",
     metaDesc:
       "Tissu associatif, visibilité, sécurité ressentie, accueil familles homoparentales : les villes françaises où la communauté LGBT+ se sent réellement chez elle. Classement et grille de lecture honnête.",
     category: "lifestyle",
@@ -10007,8 +10007,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-le-havre-guide-2026",
-    title: "Quitter Le Havre en 2026 — vers Rouen, vers Caen, vers Paris ?",
-    metaTitle: "Quitter Le Havre 2026 : Rouen, Caen, Paris, Deauville",
+    title: "Quitter Le Havre en 2027 — vers Rouen, vers Caen, vers Paris ?",
+    metaTitle: "Quitter Le Havre 2027 : Rouen, Caen, Paris, Deauville",
     metaDesc:
       "Le Havre attire pour son immobilier UNESCO abordable et son port, mais fait partir pour l'emploi cadre limité, le vent et la grisaille. Vers où partent les Havrais, et ce qu'ils gagnent vraiment.",
     category: "comparaison",
@@ -10056,8 +10056,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-tours-guide-2026",
-    title: "Quitter Tours en 2026 — vers Paris, vers Nantes, vers la campagne tourangelle ?",
-    metaTitle: "Quitter Tours 2026 : Paris (TGV), Nantes, Orléans, Poitiers",
+    title: "Quitter Tours en 2027 — vers Paris, vers Nantes, vers la campagne tourangelle ?",
+    metaTitle: "Quitter Tours 2027 : Paris (TGV), Nantes, Orléans, Poitiers",
     metaDesc:
       "Tours offre une qualité de vie reconnue et un TGV Paris en 1h, mais fait partir pour le manque de dynamisme cadre et la pression immobilière. Vers où partent les Tourangeaux, analyse honnête.",
     category: "comparaison",
@@ -10105,8 +10105,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-angers-guide-2026",
-    title: "Quitter Angers en 2026 — vers Nantes, vers Paris, vers la campagne ?",
-    metaTitle: "Quitter Angers 2026 : Nantes, Paris (TGV), Le Mans, Saumur",
+    title: "Quitter Angers en 2027 — vers Nantes, vers Paris, vers la campagne ?",
+    metaTitle: "Quitter Angers 2027 : Nantes, Paris (TGV), Le Mans, Saumur",
     metaDesc:
       "Angers a la qualité de vie mais le marché de l'emploi cadre reste modeste. Vers où partent vraiment les Angevins qui s'en vont, Nantes, Paris, ou la campagne du Maine-et-Loire ?",
     category: "comparaison",
@@ -10154,8 +10154,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-brest-guide-2026",
-    title: "Quitter Brest en 2026 — vers Rennes, vers Nantes, vers Paris ?",
-    metaTitle: "Quitter Brest 2026 : Rennes, Nantes, Quimper, Lorient",
+    title: "Quitter Brest en 2027 — vers Rennes, vers Nantes, vers Paris ?",
+    metaTitle: "Quitter Brest 2027 : Rennes, Nantes, Quimper, Lorient",
     metaDesc:
       "Brest a la mer, la marine et un immobilier accessible, mais la grisaille et l'éloignement font partir. Vers où vont vraiment les Brestois qui quittent la pointe, analyse data-led.",
     category: "comparaison",
@@ -10203,8 +10203,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-caen-guide-2026",
-    title: "Quitter Caen en 2026 — vers Rouen, vers Paris, vers la côte ?",
-    metaTitle: "Quitter Caen 2026 : Rouen, Paris, Cherbourg, Deauville — le guide",
+    title: "Quitter Caen en 2027 — vers Rouen, vers Paris, vers la côte ?",
+    metaTitle: "Quitter Caen 2027 : Rouen, Paris, Cherbourg, Deauville — le guide",
     metaDesc:
       "Caen offre la qualité de vie normande et la mer en 20 min, mais le marché cadre reste modeste. Vers où partent vraiment les Caennais qui changent de ville, données et arbitrages.",
     category: "comparaison",
@@ -10252,8 +10252,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-avignon-guide-2026",
-    title: "Quitter Avignon en 2026 — vers Aix, vers Marseille, vers la campagne provençale ?",
-    metaTitle: "Quitter Avignon 2026 : Aix-en-Provence, Marseille, Nîmes",
+    title: "Quitter Avignon en 2027 — vers Aix, vers Marseille, vers la campagne provençale ?",
+    metaTitle: "Quitter Avignon 2027 : Aix-en-Provence, Marseille, Nîmes",
     metaDesc:
       "Avignon a le patrimoine, le Festival, le TGV, mais une saisonnalité dure et un marché cadre limité. Vers où partent vraiment les Avignonnais, Aix, Marseille, Montpellier, ou la campagne ?",
     category: "comparaison",
@@ -10301,8 +10301,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-limoges-guide-2026",
-    title: "Quitter Limoges en 2026 — vers Bordeaux, vers Poitiers, vers Clermont ?",
-    metaTitle: "Quitter Limoges 2026 : Bordeaux, Poitiers, Clermont-Ferrand",
+    title: "Quitter Limoges en 2027 — vers Bordeaux, vers Poitiers, vers Clermont ?",
+    metaTitle: "Quitter Limoges 2027 : Bordeaux, Poitiers, Clermont-Ferrand",
     metaDesc:
       "Limoges a un immobilier parmi les plus accessibles de France et un cadre vert, mais le marché cadre reste étroit. Où vont vraiment les Limougeauds, et ce que coûte chaque option.",
     category: "comparaison",
@@ -10350,8 +10350,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-besancon-guide-2026",
-    title: "Quitter Besançon en 2026 — vers Dijon, vers Lyon, vers la Suisse ?",
-    metaTitle: "Quitter Besançon 2026 : Dijon, Lyon, Strasbourg",
+    title: "Quitter Besançon en 2027 — vers Dijon, vers Lyon, vers la Suisse ?",
+    metaTitle: "Quitter Besançon 2027 : Dijon, Lyon, Strasbourg",
     metaDesc:
       "Besançon a la qualité de vie comtoise et un cadre exceptionnel, mais le marché cadre reste limité. Vers où partent les Bisontins, Dijon, Lyon, Suisse, ou le Jura ?",
     category: "comparaison",
@@ -10399,8 +10399,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-pau-guide-2026",
-    title: "Quitter Pau en 2026 — vers Bordeaux, vers Toulouse, vers Bayonne ?",
-    metaTitle: "Quitter Pau 2026 : Bordeaux, Toulouse, Bayonne, Tarbes",
+    title: "Quitter Pau en 2027 — vers Bordeaux, vers Toulouse, vers Bayonne ?",
+    metaTitle: "Quitter Pau 2027 : Bordeaux, Toulouse, Bayonne, Tarbes",
     metaDesc:
       "Pau a les Pyrénées en face et un climat doux, mais le marché cadre reste limité. Où vont vraiment les Palois, Bordeaux, Toulouse, Pays Basque, ou montagne ?",
     category: "comparaison",
@@ -10448,8 +10448,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-bayonne-guide-2026",
-    title: "Quitter Bayonne en 2026 — vers Bordeaux, vers Pau, vers l'Espagne ?",
-    metaTitle: "Quitter Bayonne 2026 : Bordeaux, Pau, San Sebastian, Landes",
+    title: "Quitter Bayonne en 2027 — vers Bordeaux, vers Pau, vers l'Espagne ?",
+    metaTitle: "Quitter Bayonne 2027 : Bordeaux, Pau, San Sebastian, Landes",
     metaDesc:
       "Bayonne et le BAB (Bayonne-Anglet-Biarritz) ont vu les prix exploser. Où vont les Bayonnais qui ne peuvent plus suivre, Bordeaux, Espagne, Landes, ou Pau ?",
     category: "comparaison",
@@ -10497,8 +10497,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-perpignan-guide-2026",
-    title: "Quitter Perpignan en 2026 — vers Montpellier, vers Toulouse, vers Barcelone ?",
-    metaTitle: "Quitter Perpignan 2026 : Montpellier, Toulouse, Barcelone",
+    title: "Quitter Perpignan en 2027 — vers Montpellier, vers Toulouse, vers Barcelone ?",
+    metaTitle: "Quitter Perpignan 2027 : Montpellier, Toulouse, Barcelone",
     metaDesc:
       "Perpignan a le soleil et la frontière catalane, mais le chômage et la sécurité ressentie font partir. Où vont vraiment les Perpignanais, Montpellier, Barcelone, ou le Roussillon rural ?",
     category: "comparaison",
@@ -10546,8 +10546,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-la-rochelle-guide-2026",
-    title: "Quitter La Rochelle en 2026 — vers Bordeaux, vers Nantes, vers Niort ?",
-    metaTitle: "Quitter La Rochelle 2026 : Bordeaux, Nantes, Niort, Île de Ré",
+    title: "Quitter La Rochelle en 2027 — vers Bordeaux, vers Nantes, vers Niort ?",
+    metaTitle: "Quitter La Rochelle 2027 : Bordeaux, Nantes, Niort, Île de Ré",
     metaDesc:
       "La Rochelle a vu ses prix exploser et sa saisonnalité s'intensifier. Où vont les Rochelais qui ne suivent plus, Bordeaux, Nantes, Niort, ou l'arrière-pays charentais ?",
     category: "comparaison",
@@ -10595,8 +10595,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-metz-guide-2026",
-    title: "Quitter Metz en 2026 — vers Nancy, vers le Luxembourg, vers Strasbourg ?",
-    metaTitle: "Quitter Metz 2026 : Nancy, Luxembourg (frontalier), Strasbourg",
+    title: "Quitter Metz en 2027 — vers Nancy, vers le Luxembourg, vers Strasbourg ?",
+    metaTitle: "Quitter Metz 2027 : Nancy, Luxembourg (frontalier), Strasbourg",
     metaDesc:
       "Metz a la qualité de vie lorraine et le frontalier Luxembourg, mais le marché cadre local reste étroit. Où vont vraiment les Messins, Nancy, Lux, Strasbourg, ou les villes voisines ?",
     category: "comparaison",
@@ -10644,8 +10644,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-nancy-guide-2026",
-    title: "Quitter Nancy en 2026 — vers Metz, vers Strasbourg, vers Paris ?",
-    metaTitle: "Quitter Nancy 2026 : Metz, Strasbourg, Paris (TGV 1h30), Épinal",
+    title: "Quitter Nancy en 2027 — vers Metz, vers Strasbourg, vers Paris ?",
+    metaTitle: "Quitter Nancy 2027 : Metz, Strasbourg, Paris (TGV 1h30), Épinal",
     metaDesc:
       "Nancy a la qualité de vie et l'identité lorraine, mais le marché cadre reste contraint. Où vont vraiment les Nancéiens, Metz, Strasbourg, Paris, Luxembourg, ou la campagne ?",
     category: "comparaison",
@@ -10693,8 +10693,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-amiens-guide-2026",
-    title: "Quitter Amiens en 2026 — vers Lille, vers Paris, vers la baie de Somme ?",
-    metaTitle: "Quitter Amiens 2026 : Lille, Paris, Beauvais, Abbeville",
+    title: "Quitter Amiens en 2027 — vers Lille, vers Paris, vers la baie de Somme ?",
+    metaTitle: "Quitter Amiens 2027 : Lille, Paris, Beauvais, Abbeville",
     metaDesc:
       "Amiens a la cathédrale UNESCO et le TGV vers Paris, mais le marché cadre est étroit. Où vont vraiment les Amiénois, Lille, Paris, ou la côte picarde ?",
     category: "comparaison",
@@ -10742,8 +10742,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-reims-paris-lille-epernay-2026",
-    title: "Quitter Reims en 2026 — vers Paris, vers Lille, vers Épernay ?",
-    metaTitle: "Quitter Reims 2026 : Paris (TGV 45 min), Lille, Châlons, Épernay",
+    title: "Quitter Reims en 2027 — vers Paris, vers Lille, vers Épernay ?",
+    metaTitle: "Quitter Reims 2027 : Paris (TGV 45 min), Lille, Châlons, Épernay",
     metaDesc:
       "Reims est à 45 min de Paris en TGV mais le marché cadre local reste étroit. Où vont vraiment les Rémois, Paris, Lille, ou la Champagne viticole ?",
     category: "comparaison",
@@ -10791,8 +10791,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-le-mans-guide-2026",
-    title: "Quitter Le Mans en 2026 — vers Paris, vers Nantes, vers la Sarthe rurale ?",
-    metaTitle: "Quitter Le Mans 2026 : Paris (TGV 55 min), Nantes, Tours",
+    title: "Quitter Le Mans en 2027 — vers Paris, vers Nantes, vers la Sarthe rurale ?",
+    metaTitle: "Quitter Le Mans 2027 : Paris (TGV 55 min), Nantes, Tours",
     metaDesc:
       "Le Mans est à 55 min de Paris en TGV avec un immobilier accessible, mais le marché cadre reste étroit. Où vont les Manceaux, Paris, Nantes, Tours, ou la campagne sarthoise ?",
     category: "comparaison",
@@ -10840,8 +10840,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-paris-guide-2026",
-    title: "Vivre sans voiture à Paris en 2026 — vraiment possible ?",
-    metaTitle: "Vivre sans voiture à Paris 2026 : métro, vélo, Vélib, autopartage",
+    title: "Vivre sans voiture à Paris en 2027 — vraiment possible ?",
+    metaTitle: "Vivre sans voiture à Paris 2027 : métro, vélo, Vélib, autopartage",
     metaDesc:
       "Paris est la ville la plus compatible no-car de France. Le vrai chiffrage : transports, autopartage, livraisons, week-ends. Combien on économise vraiment.",
     category: "lifestyle",
@@ -10889,8 +10889,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-lyon-guide-2026",
-    title: "Vivre sans voiture à Lyon en 2026 — quartiers, transports, vrais coûts",
-    metaTitle: "Vivre sans voiture à Lyon 2026 : TCL, Vélo'v, autopartage Citiz",
+    title: "Vivre sans voiture à Lyon en 2027 — quartiers, transports, vrais coûts",
+    metaTitle: "Vivre sans voiture à Lyon 2027 : TCL, Vélo'v, autopartage Citiz",
     metaDesc:
       "Lyon est la 2e ville française la plus compatible no-car. Métro, Vélo'v, Citiz, TER : ce que ça coûte vraiment et dans quels quartiers ça marche.",
     category: "lifestyle",
@@ -10938,8 +10938,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-strasbourg-guide-2026",
-    title: "Vivre sans voiture à Strasbourg en 2026 — la ville la plus vélo de France",
-    metaTitle: "Vivre sans voiture à Strasbourg 2026 : tram, vélo, Vélhop — guide",
+    title: "Vivre sans voiture à Strasbourg en 2027 — la ville la plus vélo de France",
+    metaTitle: "Vivre sans voiture à Strasbourg 2027 : tram, vélo, Vélhop — guide",
     metaDesc:
       "Strasbourg a 600 km de pistes cyclables et 6 lignes de tram. C'est la ville française la plus vélo-compatible. Coûts, quartiers, écueils, guide 2026.",
     category: "lifestyle",
@@ -10987,8 +10987,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-bordeaux-guide-2026",
-    title: "Vivre sans voiture à Bordeaux en 2026 — tram, vélo, Yego",
-    metaTitle: "Vivre sans voiture à Bordeaux 2026 : TBM, V³, Yego, Citiz — guide",
+    title: "Vivre sans voiture à Bordeaux en 2027 — tram, vélo, Yego",
+    metaTitle: "Vivre sans voiture à Bordeaux 2027 : TBM, V³, Yego, Citiz — guide",
     metaDesc:
       "Bordeaux est devenue très compatible no-car grâce au tram et au vélo. Combien on économise, dans quels quartiers ça marche vraiment, et où ça coince.",
     category: "lifestyle",
@@ -11036,8 +11036,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-nantes-guide-2026",
-    title: "Vivre sans voiture à Nantes en 2026 — tram, Bicloo, navibus",
-    metaTitle: "Vivre sans voiture à Nantes 2026 : TAN, Bicloo, Navibus",
+    title: "Vivre sans voiture à Nantes en 2027 — tram, Bicloo, navibus",
+    metaTitle: "Vivre sans voiture à Nantes 2027 : TAN, Bicloo, Navibus",
     metaDesc:
       "Nantes a 3 lignes de tram historiques, le Navibus sur la Loire, Bicloo, Marguerite autopartage. Combien on économise, où ça marche, où ça coince.",
     category: "lifestyle",
@@ -11085,8 +11085,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-paris-quel-quartier-budget-2026",
-    title: "Acheter à Paris en 2026 — quel arrondissement pour quel budget ?",
-    metaTitle: "Acheter à Paris 2026 : quartier, budget, T2 T3 T4 — guide honnête",
+    title: "Acheter à Paris en 2027 — quel arrondissement pour quel budget ?",
+    metaTitle: "Acheter à Paris 2027 : quartier, budget, T2 T3 T4 — guide honnête",
     metaDesc:
       "Prix au m² par arrondissement, vrais budgets pour acheter T2/T3/T4 à Paris en 2026, arrondissements en hausse, en stagnation. Conseils primo-accédant.",
     category: "budget",
@@ -11134,8 +11134,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-lyon-quel-quartier-budget-2026",
-    title: "Acheter à Lyon en 2026 — quel arrondissement pour quel budget ?",
-    metaTitle: "Acheter à Lyon 2026 : Croix-Rousse, Confluence, 7e, budget",
+    title: "Acheter à Lyon en 2027 — quel arrondissement pour quel budget ?",
+    metaTitle: "Acheter à Lyon 2027 : Croix-Rousse, Confluence, 7e, budget",
     metaDesc:
       "Lyon en 2026 : prix au m² par arrondissement, vrais budgets T2/T3/T4, quartiers en hausse, conseils primo-accédant et investisseur.",
     category: "budget",
@@ -11183,8 +11183,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-marseille-quel-quartier-budget-2026",
-    title: "Acheter à Marseille en 2026 — quel arrondissement pour quel budget ?",
-    metaTitle: "Acheter à Marseille 2026 : 6e 7e 8e 13e, prix m², quartiers",
+    title: "Acheter à Marseille en 2027 — quel arrondissement pour quel budget ?",
+    metaTitle: "Acheter à Marseille 2027 : 6e 7e 8e 13e, prix m², quartiers",
     metaDesc:
       "Marseille en 2026 : amplitude énorme de prix entre arrondissements (3 000 à 6 500 €/m²). Quel quartier pour quel budget, où acheter, où éviter, guide honnête.",
     category: "budget",
@@ -11232,8 +11232,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-toulouse-quel-quartier-budget-2026",
-    title: "Acheter à Toulouse en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Toulouse 2026 : Saint-Cyprien, Carmes, Côte Pavée",
+    title: "Acheter à Toulouse en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Toulouse 2027 : Saint-Cyprien, Carmes, Côte Pavée",
     metaDesc:
       "Toulouse en 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Compans, Bonnefoy), où acheter ne reviendra plus en arrière.",
     category: "budget",
@@ -11281,8 +11281,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-lille-quel-quartier-budget-2026",
-    title: "Acheter à Lille en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Lille 2026 : Vieux-Lille, Wazemmes, Vauban, prix m²",
+    title: "Acheter à Lille en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Lille 2027 : Vieux-Lille, Wazemmes, Vauban, prix m²",
     metaDesc:
       "Lille en 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Fives, Moulins), conseils primo-accédant et investisseur locatif.",
     category: "budget",
@@ -11330,8 +11330,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "ou-vivre-france-meteo-qualite-air-2026",
-    title: "Météo, climat et qualité de l'air — où vivre en France en 2026 ?",
-    metaTitle: "Où vivre en France 2026 : climat, pluviométrie, soleil",
+    title: "Météo, climat et qualité de l'air — où vivre en France en 2027 ?",
+    metaTitle: "Où vivre en France 2027 : climat, pluviométrie, soleil",
     metaDesc:
       "Soleil annuel, pluviométrie, vagues de chaleur, qualité de l'air : la cartographie honnête des villes françaises où le climat est tenable en 2026 et au-delà.",
     category: "lifestyle",
@@ -11379,8 +11379,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-famille-bilingue-anglais-2026",
-    title: "Villes françaises pour élever une famille bilingue français-anglais en 2026",
-    metaTitle: "Famille bilingue FR/EN France 2026 : écoles, communauté",
+    title: "Villes françaises pour élever une famille bilingue français-anglais en 2027",
+    metaTitle: "Famille bilingue FR/EN France 2027 : écoles, communauté",
     metaDesc:
       "Où vivre en France pour élever des enfants bilingues français-anglais : écoles bilingues publiques et privées, communautés expat, ressources culturelles.",
     category: "famille",
@@ -11432,8 +11432,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-universitaires-cout-vie-raisonnable-france-2026",
-    title: "Villes universitaires françaises à coût de vie raisonnable — 2026",
-    metaTitle: "Villes universitaires France 2026 : Poitiers, Limoges, Le Mans",
+    title: "Villes universitaires françaises à coût de vie raisonnable — 2027",
+    metaTitle: "Villes universitaires France 2027 : Poitiers, Limoges, Le Mans",
     metaDesc:
       "Universités françaises où étudier coûte vraiment moins cher : Poitiers, Limoges, Le Mans, Pau, Rennes... Loyer, transport, courses comparés 2026.",
     category: "budget",
@@ -11481,8 +11481,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-etape-expatries-retour-france-2026",
-    title: "Villes-étapes pour expatriés revenant en France en 2026",
-    metaTitle: "Retour expatrié France 2026 : villes-étape Bordeaux, Annecy, Aix",
+    title: "Villes-étapes pour expatriés revenant en France en 2027",
+    metaTitle: "Retour expatrié France 2027 : villes-étape Bordeaux, Annecy, Aix",
     metaDesc:
       "Revenir en France après 10 ans à l'étranger : quelles villes facilitent la réintégration ? Communauté internationale, scolarité bilingue, marché emploi cadre.",
     category: "lifestyle",
@@ -11534,8 +11534,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-cotieres-teletravail-connexion-cadre-2026",
-    title: "Villes côtières françaises pour télétravail — connexion fibre et cadre 2026",
-    metaTitle: "Télétravail côte France 2026 : La Rochelle, Quimper, Hossegor",
+    title: "Villes côtières françaises pour télétravail — connexion fibre et cadre 2027",
+    metaTitle: "Télétravail côte France 2027 : La Rochelle, Quimper, Hossegor",
     metaDesc:
       "Vivre à la mer en télétravail en 2026 : couverture fibre vérifiée, climat, services et cadre. La Rochelle, Brest, Hossegor, Cassis, Bayonne comparées.",
     category: "teletravail",
@@ -11587,8 +11587,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-toulouse-guide-2026",
-    title: "Vivre sans voiture à Toulouse en 2026 — métro, vélo, Tisséo",
-    metaTitle: "Vivre sans voiture à Toulouse 2026 : Tisséo, VélôToulouse, Citiz",
+    title: "Vivre sans voiture à Toulouse en 2027 — métro, vélo, Tisséo",
+    metaTitle: "Vivre sans voiture à Toulouse 2027 : Tisséo, VélôToulouse, Citiz",
     metaDesc:
       "Toulouse 2026 : métro A/B, vélo, Tisséo, Citiz. Combien on économise sans voiture, dans quels quartiers, quels pièges éviter.",
     category: "lifestyle",
@@ -11636,8 +11636,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-grenoble-guide-2026",
-    title: "Vivre sans voiture à Grenoble en 2026 — tram, vélo, montagne",
-    metaTitle: "Vivre sans voiture à Grenoble 2026 : TAG, Métrovélo, Citiz",
+    title: "Vivre sans voiture à Grenoble en 2027 — tram, vélo, montagne",
+    metaTitle: "Vivre sans voiture à Grenoble 2027 : TAG, Métrovélo, Citiz",
     metaDesc:
       "Grenoble est la 2e ville française pour la part vélo. Tram, Métrovélo, Citiz, TER Alpes, combien on économise et où ça marche vraiment.",
     category: "lifestyle",
@@ -11685,8 +11685,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-rennes-guide-2026",
-    title: "Vivre sans voiture à Rennes en 2026 — métro, vélo, STAR",
-    metaTitle: "Vivre sans voiture à Rennes 2026 : STAR, LE vélo STAR, métro a/b",
+    title: "Vivre sans voiture à Rennes en 2027 — métro, vélo, STAR",
+    metaTitle: "Vivre sans voiture à Rennes 2027 : STAR, LE vélo STAR, métro a/b",
     metaDesc:
       "Rennes a 2 lignes de métro, LE vélo STAR, Citiz Ouest et un climat doux. Combien on économise sans voiture, dans quels quartiers ça marche.",
     category: "lifestyle",
@@ -11734,8 +11734,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-montpellier-guide-2026",
-    title: "Vivre sans voiture à Montpellier en 2026 — tram, vélo, TaM",
-    metaTitle: "Vivre sans voiture à Montpellier 2026 : TaM, Vélomagg",
+    title: "Vivre sans voiture à Montpellier en 2027 — tram, vélo, TaM",
+    metaTitle: "Vivre sans voiture à Montpellier 2027 : TaM, Vélomagg",
     metaDesc:
       "Montpellier 2026 : 4 lignes de tram (gratuit pour résidents), Vélomagg, climat ensoleillé. Combien on économise sans voiture, quartiers et écueils.",
     category: "lifestyle",
@@ -11783,8 +11783,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-nice-guide-2026",
-    title: "Vivre sans voiture à Nice en 2026 — tram, vélo, climat exceptionnel",
-    metaTitle: "Vivre sans voiture à Nice 2026 : Lignes d'Azur, Vélo Bleu",
+    title: "Vivre sans voiture à Nice en 2027 — tram, vélo, climat exceptionnel",
+    metaTitle: "Vivre sans voiture à Nice 2027 : Lignes d'Azur, Vélo Bleu",
     metaDesc:
       "Nice 2026 : 3 lignes de tram, climat le plus doux de France, vélo praticable. Combien on économise sans voiture, dans quels quartiers ça tient.",
     category: "lifestyle",
@@ -11832,8 +11832,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-bordeaux-quel-quartier-budget-2026",
-    title: "Acheter à Bordeaux en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Bordeaux 2026 : Chartrons, Saint-Pierre, Caudéran",
+    title: "Acheter à Bordeaux en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Bordeaux 2027 : Chartrons, Saint-Pierre, Caudéran",
     metaDesc:
       "Bordeaux 2026 : prix au m² par quartier après la correction 2024-2025, T2/T3/T4 budgets, quartiers en hausse, conseils primo-accédant.",
     category: "budget",
@@ -11881,8 +11881,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-nantes-quel-quartier-budget-2026",
-    title: "Acheter à Nantes en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Nantes 2026 : Île de Nantes, Decré, Madeleine, prix m²",
+    title: "Acheter à Nantes en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Nantes 2027 : Île de Nantes, Decré, Madeleine, prix m²",
     metaDesc:
       "Nantes 2026 : prix au m² par quartier, budget T2/T3/T4 réaliste, quartiers en hausse (Doulon, Bottière), conseils primo-accédant.",
     category: "budget",
@@ -11930,8 +11930,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-strasbourg-quel-quartier-budget-2026",
-    title: "Acheter à Strasbourg en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Strasbourg 2026 : Krutenau, Neudorf, Robertsau, prix m²",
+    title: "Acheter à Strasbourg en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Strasbourg 2027 : Krutenau, Neudorf, Robertsau, prix m²",
     metaDesc:
       "Strasbourg 2026 : prix au m² par quartier, T2/T3/T4 budgets, quartiers en hausse (Neudorf, Kœnigshoffen), conseils achat.",
     category: "budget",
@@ -11979,8 +11979,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-rennes-quel-quartier-budget-2026",
-    title: "Acheter à Rennes en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Rennes 2026 : Centre, Thabor, Beaulieu, Cleunay",
+    title: "Acheter à Rennes en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Rennes 2027 : Centre, Thabor, Beaulieu, Cleunay",
     metaDesc:
       "Rennes 2026 : prix au m² par quartier, budget T2/T3/T4, quartiers en hausse (Maurepas, Cleunay), conseils achat primo-accédant.",
     category: "budget",
@@ -12028,8 +12028,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-montpellier-quel-quartier-budget-2026",
-    title: "Acheter à Montpellier en 2026 — quel quartier pour quel budget ?",
-    metaTitle: "Acheter à Montpellier 2026 : Antigone, Beaux-Arts, Comédie",
+    title: "Acheter à Montpellier en 2027 — quel quartier pour quel budget ?",
+    metaTitle: "Acheter à Montpellier 2027 : Antigone, Beaux-Arts, Comédie",
     metaDesc:
       "Montpellier 2026 : prix au m² par quartier, T2/T3/T4 budget, quartiers en hausse (Port-Marianne, Cévennes), conseils primo-accédant et investisseur.",
     category: "budget",
@@ -12224,8 +12224,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-vert-pres-de-paris-1h-2026",
-    title: "Vivre au vert près de Paris en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Paris 2026 : Fontainebleau, Provins, Senlis",
+    title: "Vivre au vert près de Paris en 2027 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Paris 2027 : Fontainebleau, Provins, Senlis",
     metaDesc:
       "Quitter Paris pour le vert sans renoncer au travail parisien : Fontainebleau, Provins, Senlis, Chartres, Mantes. Comparaison train/budget/cadre.",
     category: "lifestyle",
@@ -12281,8 +12281,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-vert-pres-de-lyon-1h-2026",
-    title: "Vivre au vert près de Lyon en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Lyon 2026 : Beaujolais, Vienne, Pérouges",
+    title: "Vivre au vert près de Lyon en 2027 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Lyon 2027 : Beaujolais, Vienne, Pérouges",
     metaDesc:
       "Quitter Lyon pour le vert sans rompre le travail : Beaujolais, Vienne, Bourgoin-Jallieu, Pérouges. Comparaison train/budget/cadre.",
     category: "lifestyle",
@@ -12338,8 +12338,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-vert-pres-de-bordeaux-1h-2026",
-    title: "Vivre au vert près de Bordeaux en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Bordeaux 2026 : Saint-Émilion, Arcachon",
+    title: "Vivre au vert près de Bordeaux en 2027 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Bordeaux 2027 : Saint-Émilion, Arcachon",
     metaDesc:
       "Quitter Bordeaux pour le vert : Saint-Émilion, Libourne, Arcachon, Bergerac, Sainte-Foy-la-Grande. Comparaison train/budget/cadre.",
     category: "lifestyle",
@@ -12395,8 +12395,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-vert-pres-de-marseille-1h-2026",
-    title: "Vivre au vert près de Marseille en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Marseille 2026 : Cassis, Aubagne, Aix",
+    title: "Vivre au vert près de Marseille en 2027 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Marseille 2027 : Cassis, Aubagne, Aix",
     metaDesc:
       "Quitter Marseille pour le vert : Cassis, Aubagne, Salon, Aix, La Ciotat. Comparaison transport/budget/cadre. Guide honnête 2026.",
     category: "lifestyle",
@@ -12452,8 +12452,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-vert-pres-de-toulouse-1h-2026",
-    title: "Vivre au vert près de Toulouse en 2026 — top villes à 1h maximum",
-    metaTitle: "Vivre au vert près de Toulouse 2026 : Albi, Montauban, Auch",
+    title: "Vivre au vert près de Toulouse en 2027 — top villes à 1h maximum",
+    metaTitle: "Vivre au vert près de Toulouse 2027 : Albi, Montauban, Auch",
     metaDesc:
       "Quitter Toulouse pour le vert : Albi, Montauban, Auch, Castelnaudary, Foix. Comparaison train/budget/cadre. Guide 2026.",
     category: "lifestyle",
@@ -12509,8 +12509,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "investir-locatif-bordeaux-2026",
-    title: "Investir en locatif à Bordeaux en 2026 — rendement, quartiers, pièges",
-    metaTitle: "Investir locatif Bordeaux 2026 : rendement T2 T3, Bastide",
+    title: "Investir en locatif à Bordeaux en 2027 — rendement, quartiers, pièges",
+    metaTitle: "Investir locatif Bordeaux 2027 : rendement T2 T3, Bastide",
     metaDesc:
       "Investir dans l'immobilier locatif à Bordeaux en 2026 : rendement brut/net par quartier, fiscalité réelle, quartiers à viser (Bastide, Capucins, Saint-Augustin).",
     category: "budget",
@@ -13378,8 +13378,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-en-vefa-france-2026-villes-pieges",
-    title: "Acheter en VEFA en 2026 — quelles villes, quels pièges, quels avantages",
-    metaTitle: "Acheter VEFA 2026 : quelles villes, quels pièges — guide honnête",
+    title: "Acheter en VEFA en 2027 — quelles villes, quels pièges, quels avantages",
+    metaTitle: "Acheter VEFA 2027 : quelles villes, quels pièges — guide honnête",
     metaDesc:
       "VEFA en 2026 : avantages fiscaux (DMTO réduit, garantie décennale, PTZ), pièges (retards livraison, malfaçons, copropriétés jeunes), villes pertinentes.",
     category: "budget",
@@ -13428,7 +13428,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "elever-famille-bilingue-france-quelles-villes-2026",
     title: "Élever une famille bilingue en France — quelles villes pour FR/EN, FR/DE, FR/ES",
-    metaTitle: "Famille bilingue en France 2026 : meilleures villes FR/EN, FR/DE",
+    metaTitle: "Famille bilingue en France 2027 : meilleures villes FR/EN, FR/DE",
     metaDesc:
       "Quelles villes françaises pour élever une famille bilingue ? Écoles internationales, communautés expat, sections européennes. FR/EN, FR/DE, FR/ES.",
     category: "famille",
@@ -13477,7 +13477,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "petites-villes-50000-habitants-tout-france-2026",
     title: "Petites villes <50 000 habitants qui ont tout — TGV, hôpital, fibre, vie",
-    metaTitle: "Petites villes 2026 : moins de 50 000 habitants, tout sur place",
+    metaTitle: "Petites villes 2027 : moins de 50 000 habitants, tout sur place",
     metaDesc:
       "Petites villes françaises <50 000 habitants qui cumulent TGV, hôpital, fibre, écoles, vie culturelle. Liste honnête 2026, sans cliché 'rural mort'.",
     category: "lifestyle",
@@ -13529,8 +13529,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-moins-200000-euros-france-quelles-villes-2026",
-    title: "Acheter à moins de 200 000 € en 2026 — quelles villes (vraiment) accessibles",
-    metaTitle: "Acheter <200 000 € France 2026 : villes vraiment accessibles",
+    title: "Acheter à moins de 200 000 € en 2027 — quelles villes (vraiment) accessibles",
+    metaTitle: "Acheter <200 000 € France 2027 : villes vraiment accessibles",
     metaDesc:
       "Quelles villes françaises permettent d'acheter sa résidence principale à moins de 200 000 € en 2026 ? T3 ancien, neuf, types de villes, pièges à éviter.",
     category: "budget",
@@ -13578,8 +13578,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-frontalieres-suisse-allemagne-belgique-luxembourg-2026",
-    title: "Villes frontalières en France — Suisse, Allemagne, Belgique, Luxembourg en 2026",
-    metaTitle: "Frontaliers France 2026 : Suisse, Allemagne, Belgique, Luxembourg",
+    title: "Villes frontalières en France — Suisse, Allemagne, Belgique, Luxembourg en 2027",
+    metaTitle: "Frontaliers France 2027 : Suisse, Allemagne, Belgique, Luxembourg",
     metaDesc:
       "Travailler en Suisse, Allemagne, Belgique, Luxembourg en vivant en France : quelles villes choisir, fiscalité, transports, marché logement.",
     category: "comparaison",
@@ -13631,8 +13631,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "devenir-freelance-en-province-quelles-villes-france-2026",
-    title: "Devenir freelance en province en 2026 — quelles villes pour réussir",
-    metaTitle: "Freelance en province 2026 : meilleures villes, fibre, réseau",
+    title: "Devenir freelance en province en 2027 — quelles villes pour réussir",
+    metaTitle: "Freelance en province 2027 : meilleures villes, fibre, réseau",
     metaDesc:
       "Quitter Paris/Lyon pour devenir freelance en province : quelles villes offrent fibre, coworkings, écosystème, clients locaux. Sélection 2026 honnête.",
     category: "teletravail",
@@ -13681,7 +13681,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "quitter-paris-30-ans-couple-sans-enfant-2026",
     title: "Quitter Paris à 30 ans en couple sans enfant — où aller, comment, pour quoi",
-    metaTitle: "Quitter Paris 30 ans couple sans enfant 2026 : meilleures villes",
+    metaTitle: "Quitter Paris 30 ans couple sans enfant 2027 : meilleures villes",
     metaDesc:
       "Quitter Paris à 30 ans, en couple, sans enfant : quelles villes pour un duo dual-income, sans contrainte famille. Analyse honnête 2026.",
     category: "comparaison",
@@ -13733,8 +13733,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-maison-campagne-france-2026-vraiment-vivable",
-    title: "Acheter une maison de campagne en France 2026 — où c'est vraiment vivable",
-    metaTitle: "Maison de campagne 2026 : où c'est vraiment vivable en France",
+    title: "Acheter une maison de campagne en France 2027 — où c'est vraiment vivable",
+    metaTitle: "Maison de campagne 2027 : où c'est vraiment vivable en France",
     metaDesc:
       "Acheter une maison à la campagne en 2026 : où c'est vraiment vivable (fibre, hôpital, école), où ce n'est qu'un rêve. Analyse honnête par région.",
     category: "lifestyle",
@@ -13786,8 +13786,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-avant-40-ans-strategie-france-2026",
-    title: "Acheter avant 40 ans en France 2026 — stratégie par profil",
-    metaTitle: "Acheter avant 40 ans France 2026 : stratégie par profil — guide",
+    title: "Acheter avant 40 ans en France 2027 — stratégie par profil",
+    metaTitle: "Acheter avant 40 ans France 2027 : stratégie par profil — guide",
     metaDesc:
       "Acheter sa résidence principale avant 40 ans en 2026 : 5 profils (cadre seul, couple dual-income, freelance, parent solo, expat retour), villes, financement, pièges.",
     category: "budget",
@@ -13896,8 +13896,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-paris-avec-enfants-primaire-france-2026",
-    title: "Quitter Paris avec enfants en primaire en 2026 — quelles villes",
-    metaTitle: "Quitter Paris enfants primaire 2026 : meilleures villes — guide",
+    title: "Quitter Paris avec enfants en primaire en 2027 — quelles villes",
+    metaTitle: "Quitter Paris enfants primaire 2027 : meilleures villes — guide",
     metaDesc:
       "Quitter Paris avec enfants en école primaire (6-11 ans) en 2026 : critères école + pédiatres + activités, top villes, sectorisation, timing déménagement.",
     category: "famille",
@@ -14006,8 +14006,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "residence-secondaire-france-pieges-fiscaux-2026",
-    title: "Résidence secondaire en France 2026 — pièges fiscaux et où c'est pertinent",
-    metaTitle: "Résidence secondaire France 2026 : pièges fiscaux, THRS, IFI",
+    title: "Résidence secondaire en France 2027 — pièges fiscaux et où c'est pertinent",
+    metaTitle: "Résidence secondaire France 2027 : pièges fiscaux, THRS, IFI",
     metaDesc:
       "Acheter une résidence secondaire en France 2026 : THRS majoration jusqu'à +60 %, IFI, plus-value, location saisonnière encadrée. Villes pertinentes vs piégeuses.",
     category: "budget",
@@ -14059,8 +14059,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "construire-sa-maison-france-2026-ou-comment-prix",
-    title: "Construire sa maison en France 2026 — où, comment, prix réels",
-    metaTitle: "Construire sa maison France 2026 : où, comment, prix au m²",
+    title: "Construire sa maison en France 2027 — où, comment, prix réels",
+    metaTitle: "Construire sa maison France 2027 : où, comment, prix au m²",
     metaDesc:
       "Construire sa maison en France 2026 : terrain + permis + constructeur, prix au m² par région, RE2020, pièges sol/raccordements/délais. Analyse honnête.",
     category: "budget",
@@ -14120,8 +14120,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "partir-vivre-dans-le-sud-france-pieges-2026",
-    title: "Partir vivre dans le Sud en 2026 — pièges et alternatives lucides",
-    metaTitle: "Partir vivre dans le Sud 2026 : pièges (canicule, eau, prix)",
+    title: "Partir vivre dans le Sud en 2027 — pièges et alternatives lucides",
+    metaTitle: "Partir vivre dans le Sud 2027 : pièges (canicule, eau, prix)",
     metaDesc:
       "Partir vivre dans le Sud de la France en 2026 : fantasme vs réalité (canicule, sécheresse, foncier surévalué). Pièges, villes à éviter, alternatives.",
     category: "comparaison",
@@ -14181,8 +14181,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-en-couple-non-marie-pacs-sci-indivision-2026",
-    title: "Acheter en couple non marié — PACS, indivision, SCI en 2026",
-    metaTitle: "Acheter en couple non marié 2026 : PACS, indivision, SCI — guide",
+    title: "Acheter en couple non marié — PACS, indivision, SCI en 2027",
+    metaTitle: "Acheter en couple non marié 2027 : PACS, indivision, SCI — guide",
     metaDesc:
       "Acheter à deux non mariés en 2026 : indivision vs PACS vs SCI, droits succession, séparation, fiscalité, frais. Conseils notaire pour décider.",
     category: "budget",
@@ -14295,8 +14295,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "maison-vs-appartement-quel-choix-france-2026",
-    title: "Maison ou appartement en 2026 — quel choix par profil et par ville",
-    metaTitle: "Maison vs appartement 2026 : quel choix par profil et ville",
+    title: "Maison ou appartement en 2027 — quel choix par profil et par ville",
+    metaTitle: "Maison vs appartement 2027 : quel choix par profil et ville",
     metaDesc:
       "Maison ou appartement en France 2026 : par profil (célibataire, couple, famille) et par ville (métropole, ville moyenne, bourg). Coûts comparés, qualité de vie.",
     category: "comparaison",
@@ -14409,8 +14409,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-la-mer-toute-annee-france-2026-fantasme-realite",
-    title: "Vivre à la mer toute l'année en 2026 — fantasme vs réalité par côte",
-    metaTitle: "Vivre à la mer toute l'année 2026 : fantasme vs réalité — guide",
+    title: "Vivre à la mer toute l'année en 2027 — fantasme vs réalité par côte",
+    metaTitle: "Vivre à la mer toute l'année 2027 : fantasme vs réalité — guide",
     metaDesc:
       "Vivre au bord de la mer toute l'année en France 2026 : fantasme été vs réalité hiver. Côtes vivables vs stations désertes, services, climat, communauté.",
     category: "lifestyle",
@@ -14527,8 +14527,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-sintegrer-province-sans-reseau-2026",
-    title: "Déménager en province sans connaître personne — comment s'intégrer en 2026",
-    metaTitle: "S'intégrer en province sans réseau 2026 : associations, sport",
+    title: "Déménager en province sans connaître personne — comment s'intégrer en 2027",
+    metaTitle: "S'intégrer en province sans réseau 2027 : associations, sport",
     metaDesc:
       "Déménager dans une nouvelle ville sans connaître personne : comment se faire des amis adultes, associations, sport, sociabilité. Villes accueillantes.",
     category: "lifestyle",
@@ -14706,8 +14706,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "pel-cel-per-financer-achat-immobilier-france-2026",
-    title: "PEL, CEL, PER pour financer un achat immobilier en 2026",
-    metaTitle: "PEL CEL PER 2026 : financer achat immobilier — guide complet",
+    title: "PEL, CEL, PER pour financer un achat immobilier en 2027",
+    metaTitle: "PEL CEL PER 2027 : financer achat immobilier — guide complet",
     metaDesc:
       "Utiliser PEL, CEL ou PER pour financer son achat immobilier en 2026 : taux, déblocage, fiscalité, prêt épargne logement, optimisation apport.",
     category: "budget",
@@ -14767,8 +14767,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-immobilier-apres-50-ans-strategie-france-2026",
-    title: "Acheter de l'immobilier après 50 ans en 2026 — stratégie fin de carrière",
-    metaTitle: "Acheter immobilier 50 ans+ 2026 : prêt court, downsize, viager",
+    title: "Acheter de l'immobilier après 50 ans en 2027 — stratégie fin de carrière",
+    metaTitle: "Acheter immobilier 50 ans+ 2027 : prêt court, downsize, viager",
     metaDesc:
       "Acheter de l'immobilier après 50 ans en 2026 : prêt court 10-15 ans, downsize, viager, démembrement transmission, fiscalité. Stratégies par profil.",
     category: "budget",
@@ -14824,8 +14824,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quand-acheter-immobilier-france-2026-timing-marche",
-    title: "Quand acheter de l'immobilier en France 2026 — timing du marché",
-    metaTitle: "Quand acheter immobilier 2026 : timing marché, taux, signaux",
+    title: "Quand acheter de l'immobilier en France 2027 — timing du marché",
+    metaTitle: "Quand acheter immobilier 2027 : timing marché, taux, signaux",
     metaDesc:
       "Quand acheter en France 2026 : cycle baissier 2022-2025, taux directeurs BCE, signaux retournement, attendre vs acheter maintenant, saisonnalité.",
     category: "budget",
@@ -14885,8 +14885,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "habitat-participatif-coliving-france-2026",
-    title: "Habitat participatif et coliving en France 2026 — modèles, villes, projets concrets",
-    metaTitle: "Habitat participatif coliving France 2026 : modèles, villes",
+    title: "Habitat participatif et coliving en France 2027 — modèles, villes, projets concrets",
+    metaTitle: "Habitat participatif coliving France 2027 : modèles, villes",
     metaDesc:
       "Habitat participatif et coliving en France 2026 : coopératives d'habitat, écoquartiers, coliving adultes, communes pionnières, juridique, coût comparé.",
     category: "lifestyle",
@@ -15064,8 +15064,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-immobilier-a-plusieurs-amis-france-2026",
-    title: "Acheter de l'immobilier à plusieurs amis en 2026 — coloc' patrimoniale et SCI",
-    metaTitle: "Acheter à plusieurs amis 2026 : SCI, indivision, partage — guide",
+    title: "Acheter de l'immobilier à plusieurs amis en 2027 — coloc' patrimoniale et SCI",
+    metaTitle: "Acheter à plusieurs amis 2027 : SCI, indivision, partage — guide",
     metaDesc:
       "Acheter à plusieurs amis en 2026 : indivision à 3-4, SCI, partage charges, gouvernance, sortie de l'aventure, pièges juridiques. Analyse honnête.",
     category: "budget",
@@ -15125,8 +15125,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "mutation-professionnelle-vendre-acheter-vite-france-2026",
-    title: "Mutation professionnelle en 2026 — vendre et acheter vite sans piège",
-    metaTitle: "Mutation pro 2026 : vendre rapide, acheter vite, prêt relais",
+    title: "Mutation professionnelle en 2027 — vendre et acheter vite sans piège",
+    metaTitle: "Mutation pro 2027 : vendre rapide, acheter vite, prêt relais",
     metaDesc:
       "Mutation professionnelle en 2026 : prêt relais, location temporaire, indemnités employeur, timing 3-6 mois. Stratégies pour vendre vite et acheter vite.",
     category: "comparaison",
@@ -15243,8 +15243,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-immobilier-outre-mer-drom-france-2026",
-    title: "Acheter de l'immobilier en Outre-mer (DROM) en 2026 — Réunion, Antilles, Guyane",
-    metaTitle: "Immobilier DROM 2026 : Réunion, Antilles, Guyane, Mayotte — guide",
+    title: "Acheter de l'immobilier en Outre-mer (DROM) en 2027 — Réunion, Antilles, Guyane",
+    metaTitle: "Immobilier DROM 2027 : Réunion, Antilles, Guyane, Mayotte — guide",
     metaDesc:
       "Acheter en outre-mer DROM 2026 : Réunion, Martinique, Guadeloupe, Guyane, Mayotte. Fiscalité, dispositif Girardin, risques cycloniques, marchés.",
     category: "budget",
@@ -15304,8 +15304,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-montagne-toute-annee-france-2026",
-    title: "Vivre en montagne toute l'année en 2026 — stations, villages, vraies villes",
-    metaTitle: "Vivre en montagne toute l'année 2026 : stations, villages",
+    title: "Vivre en montagne toute l'année en 2027 — stations, villages, vraies villes",
+    metaTitle: "Vivre en montagne toute l'année 2027 : stations, villages",
     metaDesc:
       "Vivre en montagne en France 2026 toute l'année : stations vs villages, services hiver, fibre, écoles, économie 4 saisons, climat 2040.",
     category: "lifestyle",
@@ -15365,8 +15365,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "reprendre-commerce-avec-logement-france-2026",
-    title: "Reprendre un commerce avec logement en 2026 — boulangerie, café, gîte, épicerie",
-    metaTitle: "Reprendre commerce + logement 2026 : boulangerie, café, épicerie",
+    title: "Reprendre un commerce avec logement en 2027 — boulangerie, café, gîte, épicerie",
+    metaTitle: "Reprendre commerce + logement 2027 : boulangerie, café, épicerie",
     metaDesc:
       "Reprendre un commerce avec logement intégré en 2026 : boulangerie, café, gîte, épicerie. Financement BPI, villes en désertification, opportunités, pièges.",
     category: "budget",
@@ -15487,8 +15487,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-teletravail-pour-rural-france-2026-risques-opportunites",
-    title: "Quitter le télétravail urbain pour le rural en 2026 — risques et opportunités",
-    metaTitle: "Quitter la ville pour le rural 2026 : risques, reconversion",
+    title: "Quitter le télétravail urbain pour le rural en 2027 — risques et opportunités",
+    metaTitle: "Quitter la ville pour le rural 2027 : risques, reconversion",
     metaDesc:
       "Quitter le télétravail urbain pour s'installer en rural en 2026 : risques perte revenu, reconversion, néo-paysans, communautés. Analyse honnête.",
     category: "comparaison",
@@ -15544,8 +15544,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-au-bord-fleuve-riviere-france-2026",
-    title: "Acheter au bord d'un fleuve ou rivière en France 2026 — Rhône, Loire, Garonne, Seine, Dordogne",
-    metaTitle: "Acheter au bord fleuve 2026 : Loire, Rhône, Garonne, Seine",
+    title: "Acheter au bord d'un fleuve ou rivière en France 2027 — Rhône, Loire, Garonne, Seine, Dordogne",
+    metaTitle: "Acheter au bord fleuve 2027 : Loire, Rhône, Garonne, Seine",
     metaDesc:
       "Acheter au bord d'un fleuve en France 2026 : Rhône, Loire, Garonne, Seine, Dordogne. Risque inondation PPRI, valeur patrimoniale, climat 2040, pièges.",
     category: "lifestyle",
@@ -15605,8 +15605,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-ile-de-france-grande-couronne-2026",
-    title: "Vivre en Île-de-France grande couronne en 2026 — Yvelines, Essonne, Val-d'Oise, Seine-et-Marne",
-    metaTitle: "Grande couronne IDF 2026 : Yvelines, Essonne, Val-d'Oise — guide",
+    title: "Vivre en Île-de-France grande couronne en 2027 — Yvelines, Essonne, Val-d'Oise, Seine-et-Marne",
+    metaTitle: "Grande couronne IDF 2027 : Yvelines, Essonne, Val-d'Oise — guide",
     metaDesc:
       "Vivre en Île-de-France grande couronne 2026 : Yvelines, Essonne, Val-d'Oise, Seine-et-Marne. RER, Grand Paris Express, foncier vs Paris, qualité de vie.",
     category: "comparaison",
@@ -15727,8 +15727,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "securite-ressentie-vs-reelle-ville-france-2026",
-    title: "Sécurité ressentie vs réelle par ville en 2026 — décrypter les vrais signaux",
-    metaTitle: "Sécurité des villes 2026 : SSMSI vs perception, vérifier",
+    title: "Sécurité ressentie vs réelle par ville en 2027 — décrypter les vrais signaux",
+    metaTitle: "Sécurité des villes 2027 : SSMSI vs perception, vérifier",
     metaDesc:
       "Sécurité ressentie vs réelle dans les villes françaises 2026 : décrypter SSMSI, quartiers vraiment à risque, perception médiatique vs faits.",
     category: "lifestyle",
@@ -15849,8 +15849,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-grange-a-renover-france-2026",
-    title: "Acheter une grange à rénover en France 2026 — permis, coûts, régions",
-    metaTitle: "Acheter grange à rénover 2026 : permis, transformation, coûts",
+    title: "Acheter une grange à rénover en France 2027 — permis, coûts, régions",
+    metaTitle: "Acheter grange à rénover 2027 : permis, transformation, coûts",
     metaDesc:
       "Acheter une grange à rénover en France 2026 : permis transformation usage, ENS, coûts rénovation 80-200k€, villes/régions, néo-ruraux.",
     category: "lifestyle",
@@ -15910,8 +15910,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-proche-autoroute-tgv-france-2026-realite-bruit",
-    title: "Vivre proche d'une autoroute ou ligne TGV en 2026 — bruit, pollution, accès",
-    metaTitle: "Vivre proche autoroute/TGV 2026 : bruit, pollution, distances",
+    title: "Vivre proche d'une autoroute ou ligne TGV en 2027 — bruit, pollution, accès",
+    metaTitle: "Vivre proche autoroute/TGV 2027 : bruit, pollution, distances",
     metaDesc:
       "Vivre proche autoroute ou TGV en France 2026 : bruit infrastructures, pollution, commodité accès, distances minimales, villes accessibles.",
     category: "lifestyle",
@@ -15971,8 +15971,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "devenir-proprietaire-5-ans-strategie-france-2026",
-    title: "Devenir propriétaire en 5 ans en France 2026 — stratégie par tranche d'âge",
-    metaTitle: "Devenir propriétaire en 5 ans 2026 : plan année par année — guide",
+    title: "Devenir propriétaire en 5 ans en France 2027 — stratégie par tranche d'âge",
+    metaTitle: "Devenir propriétaire en 5 ans 2027 : plan année par année — guide",
     metaDesc:
       "Devenir propriétaire en 5 ans en France 2026 : plan année par année par tranche d'âge 25-45, construire apport, choisir ville, optimiser crédit.",
     category: "budget",
@@ -16032,8 +16032,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-mobilite-reduite-pmr-france-villes-accessibles-2026",
-    title: "Vivre avec mobilité réduite en France 2026 — quelles villes accessibles",
-    metaTitle: "Mobilité réduite 2026 : villes accessibles, métros PMR — guide",
+    title: "Vivre avec mobilité réduite en France 2027 — quelles villes accessibles",
+    metaTitle: "Mobilité réduite 2027 : villes accessibles, métros PMR — guide",
     metaDesc:
       "Vivre avec mobilité réduite (PMR/seniors) en France 2026 : métros accessibles, voirie, services médicaux, plain-pied, communes pionnières.",
     category: "famille",
@@ -16158,8 +16158,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-viager-france-2026-opportunites-risques",
-    title: "Acheter un viager en 2026 — opportunités, calcul, risques réels",
-    metaTitle: "Acheter viager 2026 : occupé vs libre, calcul rente, risques",
+    title: "Acheter un viager en 2027 — opportunités, calcul, risques réels",
+    metaTitle: "Acheter viager 2027 : occupé vs libre, calcul rente, risques",
     metaDesc:
       "Acheter un viager en France 2026 : viager occupé vs libre, calcul rente, espérance de vie, fiscalité, profils acheteurs, pièges éthiques.",
     category: "budget",
@@ -16219,8 +16219,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-dans-bourg-2000-habitants-france-2026",
-    title: "Vivre dans un bourg de 2 000 habitants en 2026 — services réels au seuil critique",
-    metaTitle: "Bourg 2 000 habitants 2026 : services réels, fibre, médecin",
+    title: "Vivre dans un bourg de 2 000 habitants en 2027 — services réels au seuil critique",
+    metaTitle: "Bourg 2 000 habitants 2027 : services réels, fibre, médecin",
     metaDesc:
       "Vivre dans un bourg de 2 000 habitants en France 2026 : services réels au seuil critique, désertification, fibre, école, médecin, communes pionnières.",
     category: "lifestyle",
@@ -16276,8 +16276,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "garantie-loyers-impayes-gli-visale-france-2026",
-    title: "GLI ou Visale en 2026 — quel choix entre assurance bailleur et caution État",
-    metaTitle: "GLI vs Visale 2026 : assurance loyers impayés ou caution État",
+    title: "GLI ou Visale en 2027 — quel choix entre assurance bailleur et caution État",
+    metaTitle: "GLI vs Visale 2027 : assurance loyers impayés ou caution État",
     metaDesc:
       "GLI ou Visale en 2026 : comparaison assurance loyers impayés bailleur (2-3% loyers) vs caution État Visale gratuite. Conditions, sinistres, choix.",
     category: "budget",
@@ -16337,8 +16337,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-maison-pecheur-atlantique-france-2026",
-    title: "Acheter une maison de pêcheur sur l'Atlantique en 2026 — Bretagne, Vendée, Charente",
-    metaTitle: "Maison pêcheur Atlantique 2026 : ports, climat 2040, érosion",
+    title: "Acheter une maison de pêcheur sur l'Atlantique en 2027 — Bretagne, Vendée, Charente",
+    metaTitle: "Maison pêcheur Atlantique 2027 : ports, climat 2040, érosion",
     metaDesc:
       "Acheter une maison de pêcheur sur l'Atlantique en 2026 : bâti vernaculaire, ports atlantiques, climat 2040, érosion, communautés, communes éligibles.",
     category: "lifestyle",
@@ -16524,8 +16524,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-proche-piste-cyclable-voie-verte-france-2026",
-    title: "Vivre proche d'une piste cyclable ou voie verte en 2026 — plus-value et qualité de vie",
-    metaTitle: "Vivre proche piste cyclable 2026 : EuroVelo, ViaRhôna — guide",
+    title: "Vivre proche d'une piste cyclable ou voie verte en 2027 — plus-value et qualité de vie",
+    metaTitle: "Vivre proche piste cyclable 2027 : EuroVelo, ViaRhôna — guide",
     metaDesc:
       "Vivre proche d'une piste cyclable ou voie verte en France 2026 : EuroVelo, ViaRhôna, plus-value immobilière, villes pionnières vélo.",
     category: "lifestyle",
@@ -16650,8 +16650,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "autoconstruction-kit-maison-france-2026",
-    title: "Autoconstruction et kit maison en France 2026 — économies, risques, démarches",
-    metaTitle: "Autoconstruction kit maison 2026 : économies, permis, assurances",
+    title: "Autoconstruction et kit maison en France 2027 — économies, risques, démarches",
+    metaTitle: "Autoconstruction kit maison 2027 : économies, permis, assurances",
     metaDesc:
       "Autoconstruction et kit maison en France 2026 : kits bois Allemagne/Pologne, container, paille, économies vs CCMI, permis, assurances décennale.",
     category: "budget",
@@ -16776,8 +16776,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-dans-une-ville-thermale-france-2026",
-    title: "Vivre dans une ville thermale en France 2026 — qualité de vie réelle, prix, pièges",
-    metaTitle: "Vivre en ville thermale 2026 : Vichy, Dax, Aix-les-Bains, Évian",
+    title: "Vivre dans une ville thermale en France 2027 — qualité de vie réelle, prix, pièges",
+    metaTitle: "Vivre en ville thermale 2027 : Vichy, Dax, Aix-les-Bains, Évian",
     metaDesc:
       "Vivre toute l'année dans une ville thermale française : qualité de vie hors saison, prix immobiliers, démographie, services médicaux. Les 6 villes du panel décortiquées.",
     category: "lifestyle",
@@ -16980,7 +16980,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "tester-une-ville-avant-de-demenager-week-end-reperage-2026",
     title: "Tester une ville avant de déménager : le week-end de repérage qui évite les regrets",
-    metaTitle: "Tester une ville avant de déménager : guide 2026",
+    metaTitle: "Tester une ville avant de déménager : guide 2027",
     metaDesc:
       "Comment organiser un week-end de repérage pour tester une ville avant de s'y installer : quartiers, transports, ambiance et les signaux à ne pas rater.",
     category: "lifestyle",
@@ -17070,7 +17070,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "trouver-appartement-france-guide-pratique-2026",
     title: "Trouver un appartement en France : le guide pratique pour ne pas perdre six mois",
-    metaTitle: "Trouver un appartement en France 2026 : dossier, astuces",
+    metaTitle: "Trouver un appartement en France 2027 : dossier, astuces",
     metaDesc:
       "Constituer un dossier béton, choisir les bons canaux, négocier le loyer, comprendre le bail : tout ce qu'il faut savoir pour louer un appartement en France sans galérer.",
     category: "budget",
@@ -17113,7 +17113,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "meilleures-villes-fibre-optique-teletravail-france-2026",
     title: "Fibre optique et télétravail : les villes françaises où la connexion ne vous lâchera pas",
-    metaTitle: "Meilleures villes fibre optique et télétravail France 2026",
+    metaTitle: "Meilleures villes fibre optique et télétravail France 2027",
     metaDesc:
       "Couverture fibre ARCEP, débit moyen, alternatives en zone blanche : le classement des villes françaises pour télétravailler sans galère de connexion en 2026.",
     category: "teletravail",
@@ -17156,7 +17156,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "auto-entrepreneur-choisir-sa-ville-france-2026",
     title: "Auto-entrepreneur en France : choisir sa ville pour payer moins et vivre mieux",
-    metaTitle: "Auto-entrepreneur 2026 : quelle ville choisir en France ?",
+    metaTitle: "Auto-entrepreneur 2027 : quelle ville choisir en France ?",
     metaDesc:
       "Charges sociales, cotisation foncière des entreprises, loyer, coworking, réseau professionnel : le guide pour choisir sa ville quand on est auto-entrepreneur en France en 2026.",
     category: "teletravail",
@@ -17199,7 +17199,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-france-avec-animaux-guide-2026",
     title: "Vivre avec des animaux en France : les villes les plus adaptées et les pièges à éviter",
-    metaTitle: "Vivre avec animaux France 2026 : meilleures villes, logement",
+    metaTitle: "Vivre avec animaux France 2027 : meilleures villes, logement",
     metaDesc:
       "Chien, chat, lapin, furet : trouver un logement, choisir la bonne ville et connaître les règles de copropriété. Le guide pratique pour propriétaires d'animaux en France.",
     category: "lifestyle",
@@ -17241,8 +17241,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-accessibles-budget-etudiant-hors-paris-2026",
-    title: "Étudier hors Paris : les meilleures villes pour un budget serré en 2026",
-    metaTitle: "Meilleures villes étudiantes hors Paris 2026 — loyer, budget",
+    title: "Étudier hors Paris : les meilleures villes pour un budget serré en 2027",
+    metaTitle: "Meilleures villes étudiantes hors Paris 2027 — loyer, budget",
     metaDesc:
       "Loyers sous 500 €, bonne offre universitaire, transports inclus, vie culturelle réelle : le classement des villes étudiantes abordables hors Paris pour 2026.",
     category: "budget",
@@ -17284,8 +17284,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-nice-quel-quartier-budget-2026",
-    title: "Acheter à Nice en 2026 : quel quartier, quel budget, ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Nice 2026 — prix par quartier, budget réel, pièges",
+    title: "Acheter à Nice en 2027 : quel quartier, quel budget, ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Nice 2027 — prix par quartier, budget réel, pièges",
     metaDesc:
       "Prix au m² par quartier à Nice, budget réel primo-accédant, quartiers en hausse, marché actuel : le guide honnête pour acheter un appartement à Nice en 2026.",
     category: "budget",
@@ -17327,8 +17327,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-grenoble-quel-quartier-budget-2026",
-    title: "Acheter à Grenoble en 2026 : quel quartier, quel budget et pourquoi le marché reste accessible",
-    metaTitle: "Acheter à Grenoble 2026 — prix par quartier, budget",
+    title: "Acheter à Grenoble en 2027 : quel quartier, quel budget et pourquoi le marché reste accessible",
+    metaTitle: "Acheter à Grenoble 2027 — prix par quartier, budget",
     metaDesc:
       "Prix au m² par quartier à Grenoble, budget primo-accédant, secteurs tech en hausse, pièges à éviter : le guide complet pour acheter un appartement à Grenoble en 2026.",
     category: "budget",
@@ -17413,8 +17413,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-dijon-quel-quartier-budget-2026",
-    title: "Acheter à Dijon en 2026 : prix honnêtes, quartiers, pourquoi le marché reste l'un des meilleurs de France",
-    metaTitle: "Acheter à Dijon 2026 — prix m² par quartier, budget réel",
+    title: "Acheter à Dijon en 2027 : prix honnêtes, quartiers, pourquoi le marché reste l'un des meilleurs de France",
+    metaTitle: "Acheter à Dijon 2027 — prix m² par quartier, budget réel",
     metaDesc:
       "Prix au m² par quartier à Dijon, budget primo-accédant avec PTZ, quartiers en valeur, pièges à éviter : guide complet pour acheter un appartement à Dijon en 2026.",
     category: "budget",
@@ -17500,7 +17500,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "negocier-prix-immobilier-france-guide-2026",
     title: "Négocier le prix d'un appartement en France : méthode, arguments, combien espérer",
-    metaTitle: "Négocier prix immobilier France 2026 — méthode, arguments",
+    metaTitle: "Négocier prix immobilier France 2027 — méthode, arguments",
     metaDesc:
       "Marché tendu ou détendu, délai de vente, DPE, travaux : les arguments qui font baisser le prix et ceux qui ne servent à rien. Guide pratique pour négocier un achat immobilier en France en 2026.",
     category: "budget",
@@ -17586,7 +17586,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "demenager-avec-enfants-france-guide-2026",
     title: "Déménager avec des enfants en France : quand partir, comment préparer, et ce que les études montrent vraiment",
-    metaTitle: "Déménager avec des enfants France 2026 — école, garde",
+    metaTitle: "Déménager avec des enfants France 2027 — école, garde",
     metaDesc:
       "Quel âge est le moins perturbant, comment gérer l'école, trouver une crèche ou assistante maternelle dans une nouvelle ville : le guide pratique pour déménager avec des enfants en France.",
     category: "famille",
@@ -17629,7 +17629,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "colocation-intergenerationnelle-france-2026",
     title: "Colocation intergénérationnelle en France : comment ça marche, ce que ça coûte vraiment",
-    metaTitle: "Colocation intergénérationnelle France 2026 — programme, loyer",
+    metaTitle: "Colocation intergénérationnelle France 2027 — programme, loyer",
     metaDesc:
       "Jeune logeant chez un senior en échange de services ou de loyer réduit : fonctionnement, programmes COSI et CAES, villes les plus actives, loyer moyen. Guide pratique 2026.",
     category: "budget",
@@ -17672,7 +17672,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-bretagne-mer-bilan-honnete-2026",
     title: "Vivre en Bretagne face à la mer : le bilan honnête après 12 mois",
-    metaTitle: "Vivre en Bretagne bord de mer 2026 — météo, isolement, coût",
+    metaTitle: "Vivre en Bretagne bord de mer 2027 — météo, isolement, coût",
     metaDesc:
       "Météo, isolement hivernal, transport, opportunités d'emploi, coût du littoral breton : le bilan réaliste pour ceux qui envisagent de s'installer en Bretagne côtière en 2026.",
     category: "region",
@@ -17714,8 +17714,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "loyer-reel-france-charges-estimees-villes-2026",
-    title: "Loyers réels en France en 2026 : les charges qui font la vraie différence",
-    metaTitle: "Loyers réels France 2026 — charges incluses, coût total par ville",
+    title: "Loyers réels en France en 2027 : les charges qui font la vraie différence",
+    metaTitle: "Loyers réels France 2027 — charges incluses, coût total par ville",
     metaDesc:
       "Loyer + charges locatives + énergie + internet + assurance : le coût mensuel réel d'un logement dans 20 grandes villes françaises en 2026. Les chiffres que les annonces ne montrent pas.",
     category: "budget",
@@ -17757,8 +17757,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-qualite-internet-fibre-debit-2026",
-    title: "Qualité d'internet par ville en France en 2026 : fibre, débit et zones blanches",
-    metaTitle: "Qualité internet France 2026 — fibre optique, débit moyen",
+    title: "Qualité d'internet par ville en France en 2027 : fibre, débit et zones blanches",
+    metaTitle: "Qualité internet France 2027 — fibre optique, débit moyen",
     metaDesc: "Taux de couverture fibre, débit moyen par ville, zones blanches et zones grises en France. Le guide honnête pour les télétravailleurs et les nomades numériques.",
     category: "teletravail",
     emoji: "📡",
@@ -17798,9 +17798,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "seniors-decouvrir-france-villes-accessibles-2026",
-    title: "Villes françaises accessibles et actives pour les seniors en 2026",
-    metaTitle: "Meilleures villes pour seniors actifs France 2026",
-    metaDesc: "Transport en commun, soins de proximité, activités, coût de la vie : le guide honnête des villes françaises les plus adaptées aux seniors actifs en 2026.",
+    title: "Villes françaises accessibles et actives pour les seniors en 2027",
+    metaTitle: "Meilleures villes pour seniors actifs France 2027",
+    metaDesc: "Transport en commun, soins de proximité, activités, coût de la vie : le guide honnête des villes françaises les plus adaptées aux seniors actifs en 2027.",
     category: "lifestyle",
     emoji: "🌞",
     readMinutes: 8,
@@ -17839,8 +17839,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-annecy-quel-quartier-budget-2026",
-    title: "Acheter à Annecy en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Annecy 2026 — prix m² par quartier et budget réel",
+    title: "Acheter à Annecy en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Annecy 2027 — prix m² par quartier et budget réel",
     metaDesc: "Annecy est l'une des villes les plus chères de province. Les vrais prix m² par quartier, les zones encore accessibles et le calcul honnête pour votre achat.",
     category: "budget",
     emoji: "🏔️",
@@ -17876,8 +17876,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-toulon-bilan-honnete-2026",
-    title: "Vivre à Toulon en 2026 : le bilan honnête",
-    metaTitle: "S'installer à Toulon en 2026 : qualité de vie, logement",
+    title: "Vivre à Toulon en 2027 : le bilan honnête",
+    metaTitle: "S'installer à Toulon en 2027 : qualité de vie, logement",
     metaDesc: "Toulon : mer, soleil, loyers bas par rapport à la PACA, mais aussi sécurité en deçà de la moyenne et offre économique limitée. Le guide sans filtre.",
     category: "lifestyle",
     emoji: "⚓",
@@ -17913,8 +17913,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-famille-bilingue-fr-en-2026",
-    title: "Villes françaises pour élever une famille bilingue français-anglais en 2026",
-    metaTitle: "Meilleures villes pour famille bilingue FR-EN France 2026",
+    title: "Villes françaises pour élever une famille bilingue français-anglais en 2027",
+    metaTitle: "Meilleures villes pour famille bilingue FR-EN France 2027",
     metaDesc: "Écoles bilingues, lycées internationaux, communauté anglophone : les villes françaises les mieux dotées pour élever des enfants bilingues français-anglais.",
     category: "famille",
     emoji: "🌍",
@@ -17954,8 +17954,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-alpes-guide-2026",
-    title: "Télétravailler depuis les Alpes en 2026 : le guide honnête",
-    metaTitle: "Télétravail Alpes France 2026 — connexion, logement",
+    title: "Télétravailler depuis les Alpes en 2027 : le guide honnête",
+    metaTitle: "Télétravail Alpes France 2027 — connexion, logement",
     metaDesc: "Annecy, Grenoble, Chambéry, Gap : télétravailler depuis les Alpes, c'est possible. La qualité des connexions, les logements disponibles, les contraintes réelles.",
     category: "teletravail",
     emoji: "⛷️",
@@ -17991,9 +17991,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-lille-guide-2026",
-    title: "Vivre sans voiture à Lille en 2026 : bilan honnête",
-    metaTitle: "Vivre sans voiture à Lille 2026 — métro, vélo, transports",
-    metaDesc: "Métro automatique, réseau de bus dense, vélos en libre-service : le bilan complet pour se passer de voiture à Lille en 2026.",
+    title: "Vivre sans voiture à Lille en 2027 : bilan honnête",
+    metaTitle: "Vivre sans voiture à Lille 2027 — métro, vélo, transports",
+    metaDesc: "Métro automatique, réseau de bus dense, vélos en libre-service : le bilan complet pour se passer de voiture à Lille en 2027.",
     category: "lifestyle",
     emoji: "🚇",
     readMinutes: 6,
@@ -18028,8 +18028,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-clermont-ferrand-guide-2026",
-    title: "Vivre sans voiture à Clermont-Ferrand en 2026 : bilan honnête",
-    metaTitle: "Vivre sans voiture à Clermont-Ferrand 2026 — tramway, bus, vélo",
+    title: "Vivre sans voiture à Clermont-Ferrand en 2027 : bilan honnête",
+    metaTitle: "Vivre sans voiture à Clermont-Ferrand 2027 — tramway, bus, vélo",
     metaDesc: "Clermont-Ferrand a un réseau de tramway récent, mais la ville reste très orientée voiture. Le bilan honnête pour ceux qui veulent s'en passer.",
     category: "lifestyle",
     emoji: "🌋",
@@ -18061,9 +18061,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "habitat-participatif-france-guide-2026",
-    title: "L'habitat participatif en France : guide pratique 2026",
-    metaTitle: "Habitat participatif France 2026 — fonctionnement, coûts, villes",
-    metaDesc: "Coopératives d'habitants, groupes d'autopromotion, habitat solidaire : le guide honnête sur l'habitat participatif en France en 2026.",
+    title: "L'habitat participatif en France : guide pratique 2027",
+    metaTitle: "Habitat participatif France 2027 — fonctionnement, coûts, villes",
+    metaDesc: "Coopératives d'habitants, groupes d'autopromotion, habitat solidaire : le guide honnête sur l'habitat participatif en France en 2027.",
     category: "lifestyle",
     emoji: "🏘️",
     readMinutes: 8,
@@ -18102,8 +18102,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-early-budget-serré-où-vivre-france-2026",
-    title: "FIRE et retraite anticipée avec un budget serré : quelle ville française en 2026 ?",
-    metaTitle: "FIRE France 2026 — retraite anticipée, budget serré : où vivre ?",
+    title: "FIRE et retraite anticipée avec un budget serré : quelle ville française en 2027 ?",
+    metaTitle: "FIRE France 2027 — retraite anticipée, budget serré : où vivre ?",
     metaDesc: "Vivre en retraite anticipée avec 1 200 à 2 000 €/mois en France : les villes où c'est confortable, les villes à éviter absolument.",
     category: "budget",
     emoji: "🏖️",
@@ -18139,9 +18139,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-clermont-ferrand-quel-quartier-budget-2026",
-    title: "Acheter à Clermont-Ferrand en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Clermont-Ferrand 2026 — prix m² quartiers, Montferrand",
-    metaDesc: "Clermont-Ferrand : une des villes françaises les plus abordables avec une vraie vie universitaire. Prix m² par quartier et calcul honnête pour acheter en 2026.",
+    title: "Acheter à Clermont-Ferrand en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Clermont-Ferrand 2027 — prix m² quartiers, Montferrand",
+    metaDesc: "Clermont-Ferrand : une des villes françaises les plus abordables avec une vraie vie universitaire. Prix m² par quartier et calcul honnête pour acheter en 2027.",
     category: "budget",
     emoji: "🌋",
     readMinutes: 6,
@@ -18176,9 +18176,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-caen-quel-quartier-budget-2026",
-    title: "Acheter à Caen en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Caen 2026 — prix m² quartiers, Grâce de Dieu, Vaucelles",
-    metaDesc: "Caen : 1h45 de Paris, mer à 20 km, une des villes les plus sûres de France. Prix m² par quartier et calcul honnête pour acheter à Caen en 2026.",
+    title: "Acheter à Caen en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Caen 2027 — prix m² quartiers, Grâce de Dieu, Vaucelles",
+    metaDesc: "Caen : 1h45 de Paris, mer à 20 km, une des villes les plus sûres de France. Prix m² par quartier et calcul honnête pour acheter à Caen en 2027.",
     category: "budget",
     emoji: "🏰",
     readMinutes: 6,
@@ -18213,8 +18213,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-pau-quel-quartier-budget-2026",
-    title: "Acheter à Pau en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Pau 2026 — prix m² quartiers, Boulevard des Pyrénées",
+    title: "Acheter à Pau en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Pau 2027 — prix m² quartiers, Boulevard des Pyrénées",
     metaDesc: "Pau : les Pyrénées en arrière-plan depuis le Boulevard, prix immobiliers raisonnables, marché de l'emploi solide (Total, Safran). Le guide honnête pour acheter à Pau.",
     category: "budget",
     emoji: "🏔️",
@@ -18250,8 +18250,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-normandie-interieure-guide-2026",
-    title: "Vivre en Normandie intérieure en 2026 : Évreux, Alençon, Argentan, Lisieux",
-    metaTitle: "Vivre en Normandie intérieure 2026 — Évreux, Alençon, Argentan",
+    title: "Vivre en Normandie intérieure en 2027 : Évreux, Alençon, Argentan, Lisieux",
+    metaTitle: "Vivre en Normandie intérieure 2027 — Évreux, Alençon, Argentan",
     metaDesc: "La Normandie intérieure, loin de Rouen, Caen et des côtes. Bocage, silence, prix bas, mais aussi un marché de l'emploi limité. Le guide sans bullshit.",
     category: "region",
     emoji: "🌿",
@@ -18287,9 +18287,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-toulon-quel-quartier-budget-2026",
-    title: "Acheter à Toulon en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Toulon 2026 — prix m² par quartier, Mourillon",
-    metaDesc: "Toulon offre les prix au m² les plus bas de la Côte d'Azur. Mais pas tous les quartiers se valent. Le guide honnête pour acheter à Toulon en 2026.",
+    title: "Acheter à Toulon en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Toulon 2027 — prix m² par quartier, Mourillon",
+    metaDesc: "Toulon offre les prix au m² les plus bas de la Côte d'Azur. Mais pas tous les quartiers se valent. Le guide honnête pour acheter à Toulon en 2027.",
     category: "budget",
     emoji: "⚓",
     readMinutes: 7,
@@ -18328,8 +18328,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-rouen-quel-quartier-budget-2026",
-    title: "Acheter à Rouen en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Rouen 2026 — prix m² par quartier, Rive Gauche",
+    title: "Acheter à Rouen en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Rouen 2027 — prix m² par quartier, Rive Gauche",
     metaDesc: "Rouen : 1h20 de Paris Saint-Lazare, prix immobiliers encore raisonnables. Mais tous les quartiers ne sont pas équivalents. Le guide honnête avec les vrais chiffres 2026.",
     category: "budget",
     emoji: "⚜️",
@@ -18369,8 +18369,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-marseille-guide-2026",
-    title: "Vivre sans voiture à Marseille en 2026 : possible, pas facile",
-    metaTitle: "Vivre sans voiture à Marseille 2026 — métro, bus, RTM, vélo",
+    title: "Vivre sans voiture à Marseille en 2027 : possible, pas facile",
+    metaTitle: "Vivre sans voiture à Marseille 2027 — métro, bus, RTM, vélo",
     metaDesc: "Marseille sans voiture : le métro couvre 2 lignes, les bus RTM sont lents, le vélo est risqué. Mais certains quartiers tiennent sans. Le guide honnête.",
     category: "lifestyle",
     emoji: "🚢",
@@ -18406,8 +18406,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-annecy-guide-2026",
-    title: "Vivre sans voiture à Annecy en 2026 : le paradoxe cyclable",
-    metaTitle: "Vivre sans voiture à Annecy 2026 — vélo, SIBRA, mobilité douce",
+    title: "Vivre sans voiture à Annecy en 2027 : le paradoxe cyclable",
+    metaTitle: "Vivre sans voiture à Annecy 2027 — vélo, SIBRA, mobilité douce",
     metaDesc: "Annecy : ville vélo d'exception au bord du lac, mais entourée de montagnes et d'une périphérie qui reste automobile. Le guide sans bullshit.",
     category: "lifestyle",
     emoji: "🚴",
@@ -18443,8 +18443,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-dijon-guide-2026",
-    title: "Vivre sans voiture à Dijon en 2026 : le modèle qui fonctionne",
-    metaTitle: "Vivre sans voiture à Dijon 2026 — tram, DiviaVélo, mobilité",
+    title: "Vivre sans voiture à Dijon en 2027 : le modèle qui fonctionne",
+    metaTitle: "Vivre sans voiture à Dijon 2027 — tram, DiviaVélo, mobilité",
     metaDesc: "Dijon a le tram, des pistes cyclables honnêtes et un centre à taille humaine. Vivre sans voiture y est plus facile que dans beaucoup de grandes villes. Voici les faits.",
     category: "lifestyle",
     emoji: "🍇",
@@ -18480,8 +18480,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-angers-guide-2026",
-    title: "Vivre sans voiture à Angers en 2026 : trois lignes de tram, un T2 à 750 €",
-    metaTitle: "Vivre sans voiture à Angers 2026 : tram A, B, C et loyers",
+    title: "Vivre sans voiture à Angers en 2027 : trois lignes de tram, un T2 à 750 €",
+    metaTitle: "Vivre sans voiture à Angers 2027 : tram A, B, C et loyers",
     metaDesc: "Angers a trois lignes de tram depuis juillet 2023 et un T2 à 750 € sur notre estimation. Réseau, loyers, limites et comparaison avec Tours et Nantes.",
     category: "lifestyle",
     emoji: "🚋",
@@ -18525,8 +18525,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-tours-guide-2026",
-    title: "Vivre sans voiture à Tours en 2026 : une ligne de tram et un T2 à 700 €",
-    metaTitle: "Vivre sans voiture à Tours 2026 : tram, Fil Bleu, Vélociti",
+    title: "Vivre sans voiture à Tours en 2027 : une ligne de tram et un T2 à 700 €",
+    metaTitle: "Vivre sans voiture à Tours 2027 : tram, Fil Bleu, Vélociti",
     metaDesc: "Tours n'a qu'une ligne de tram, mais un T2 à 700 € sur notre estimation et un centre compact. Réseau Fil Bleu, loyers et limites, avec Angers et Orléans.",
     category: "lifestyle",
     emoji: "🚲",
@@ -18570,8 +18570,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-caen-guide-2026",
-    title: "Vivre sans voiture à Caen en 2026 : le tram sur rails depuis 2019",
-    metaTitle: "Vivre sans voiture à Caen 2026 : tram T1 T2 T3, Twisto, Vélolib",
+    title: "Vivre sans voiture à Caen en 2027 : le tram sur rails depuis 2019",
+    metaTitle: "Vivre sans voiture à Caen 2027 : tram T1 T2 T3, Twisto, Vélolib",
     metaDesc: "Caen a trois lignes de tram sur rails depuis juillet 2019 et un T2 à 700 € sur notre estimation. Réseau, loyers, limites, avec Rouen et Le Havre.",
     category: "lifestyle",
     emoji: "🚊",
@@ -18615,8 +18615,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-brest-guide-2026",
-    title: "Vivre sans voiture à Brest en 2026 : tram, téléphérique et T2 à 650 €",
-    metaTitle: "Vivre sans voiture à Brest 2026 : tram A et B, téléphérique",
+    title: "Vivre sans voiture à Brest en 2027 : tram, téléphérique et T2 à 650 €",
+    metaTitle: "Vivre sans voiture à Brest 2027 : tram A et B, téléphérique",
     metaDesc: "Brest a un tram depuis 2012, un téléphérique urbain depuis 2016 et une ligne B ouverte en février 2026. T2 à 650 € sur notre estimation. Comparaison avec Rennes.",
     category: "lifestyle",
     emoji: "🚠",
@@ -18660,8 +18660,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-le-mans-guide-2026",
-    title: "Vivre sans voiture au Mans en 2026 : deux lignes de tram, le T2 le moins cher du lot",
-    metaTitle: "Vivre sans voiture au Mans 2026 : tram T1 T2, Setram, loyers",
+    title: "Vivre sans voiture au Mans en 2027 : deux lignes de tram, le T2 le moins cher du lot",
+    metaTitle: "Vivre sans voiture au Mans 2027 : tram T1 T2, Setram, loyers",
     metaDesc: "Le Mans a deux lignes de tram et un T2 à 650 € sur notre estimation, mais un score transport de 6,1/10. Réseau Setram, loyers, limites, avec Tours et Angers.",
     category: "lifestyle",
     emoji: "🚋",
@@ -18705,8 +18705,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-rouen-guide-2026",
-    title: "Vivre sans voiture à Rouen en 2026 : métro, TEOR et T2 à 720 €",
-    metaTitle: "Vivre sans voiture à Rouen 2026 : métro, TEOR, Lovélo, loyers",
+    title: "Vivre sans voiture à Rouen en 2027 : métro, TEOR et T2 à 720 €",
+    metaTitle: "Vivre sans voiture à Rouen 2027 : métro, TEOR, Lovélo, loyers",
     metaDesc: "Rouen a un métro, des TEOR et un vélo en libre-service, mais un score transport de 6,7/10 et un T2 à 720 €. Réseau Astuce, loyers, limites, avec Caen.",
     category: "lifestyle",
     emoji: "🚇",
@@ -18750,8 +18750,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-orleans-guide-2026",
-    title: "Vivre sans voiture à Orléans en 2026 : deux lignes de tram et un T2 à 700 €",
-    metaTitle: "Vivre sans voiture à Orléans 2026 : tram A et B, réseau Tao",
+    title: "Vivre sans voiture à Orléans en 2027 : deux lignes de tram et un T2 à 700 €",
+    metaTitle: "Vivre sans voiture à Orléans 2027 : tram A et B, réseau Tao",
     metaDesc: "Orléans a deux lignes de tram (2000 et 2012) et un T2 à 700 € sur notre estimation, au même prix qu'à Tours. Score transport 6,4/10. Réseau Tao, limites, verdict.",
     category: "lifestyle",
     emoji: "🚋",
@@ -18795,8 +18795,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-reims-guide-2026",
-    title: "Vivre sans voiture à Reims en 2026 : tram A et B et un T2 à 680 €",
-    metaTitle: "Vivre sans voiture à Reims 2026 : tram A et B, loyers, limites",
+    title: "Vivre sans voiture à Reims en 2027 : tram A et B et un T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Reims 2027 : tram A et B, loyers, limites",
     metaDesc: "Reims a deux lignes de tram depuis 2011 et un T2 à 680 € sur notre estimation. Score transport 6,4/10, 200e sur 593. Comparaison avec Nancy et Dijon.",
     category: "lifestyle",
     emoji: "🚊",
@@ -18840,8 +18840,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-nancy-guide-2026",
-    title: "Vivre sans voiture à Nancy en 2026 : trolleybus T1 et T2 à 710 €",
-    metaTitle: "Vivre sans voiture à Nancy 2026 : trolleybus T1, Stan, loyers",
+    title: "Vivre sans voiture à Nancy en 2027 : trolleybus T1 et T2 à 710 €",
+    metaTitle: "Vivre sans voiture à Nancy 2027 : trolleybus T1, Stan, loyers",
     metaDesc: "Nancy a remplacé son TVR par un trolleybus T1 en avril 2025. Score transport 7,0/10, T2 à 710 € sur notre estimation. Réseau Stan, limites, avec Metz et Reims.",
     category: "lifestyle",
     emoji: "🚎",
@@ -18885,8 +18885,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-saint-etienne-guide-2026",
-    title: "Vivre sans voiture à Saint-Étienne en 2026 : le plus vieux tram de France, T2 à 580 €",
-    metaTitle: "Vivre sans voiture à Saint-Étienne 2026 : tram T1 T2 T3, loyers",
+    title: "Vivre sans voiture à Saint-Étienne en 2027 : le plus vieux tram de France, T2 à 580 €",
+    metaTitle: "Vivre sans voiture à Saint-Étienne 2027 : tram T1 T2 T3, loyers",
     metaDesc: "Saint-Étienne exploite le plus ancien tram de France, trois lignes, et un T2 à 580 € sur notre estimation. Score transport 6,7/10. Comparaison avec Lyon.",
     category: "lifestyle",
     emoji: "🚋",
@@ -18930,8 +18930,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-besancon-guide-2026",
-    title: "Vivre sans voiture à Besançon en 2026 : tram T1 et T2 et un T2 à 680 €",
-    metaTitle: "Vivre sans voiture à Besançon 2026 : tram Ginko, loyers, nature",
+    title: "Vivre sans voiture à Besançon en 2027 : tram T1 et T2 et un T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Besançon 2027 : tram Ginko, loyers, nature",
     metaDesc: "Besançon a deux lignes de tram depuis 2014 et le meilleur score nature du lot (6,4/10). T2 à 680 € sur notre estimation. Réseau Ginko, limites, avec Dijon.",
     category: "lifestyle",
     emoji: "🚃",
@@ -18975,8 +18975,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-avignon-guide-2026",
-    title: "Vivre sans voiture à Avignon en 2026 : une ligne de tram et un T2 à 750 €",
-    metaTitle: "Vivre sans voiture à Avignon 2026 : tram T1, Orizo, loyers",
+    title: "Vivre sans voiture à Avignon en 2027 : une ligne de tram et un T2 à 750 €",
+    metaTitle: "Vivre sans voiture à Avignon 2027 : tram T1, Orizo, loyers",
     metaDesc: "Avignon n'a qu'une ligne de tram (T1, 2019) et un T2 à 750 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Réseau Orizo, limites, avec Nîmes.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19019,8 +19019,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-le-havre-guide-2026",
-    title: "Vivre sans voiture au Havre en 2026 : tram depuis 2012 et un T2 à 650 €",
-    metaTitle: "Vivre sans voiture au Havre 2026 : tram, loyers, limites",
+    title: "Vivre sans voiture au Havre en 2027 : tram depuis 2012 et un T2 à 650 €",
+    metaTitle: "Vivre sans voiture au Havre 2027 : tram, loyers, limites",
     metaDesc: "Au Havre, un T2 coûte 650 € sur notre estimation et le tram (2 lignes, 23 stations) dessert l'axe principal. Score transport 6,2/10, 248e sur 593. Comparé à Rouen.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19062,8 +19062,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-metz-guide-2026",
-    title: "Vivre sans voiture à Metz en 2026 : le Mettis et un T2 à 680 €",
-    metaTitle: "Vivre sans voiture à Metz 2026 : Mettis, loyers, limites",
+    title: "Vivre sans voiture à Metz en 2027 : le Mettis et un T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Metz 2027 : Mettis, loyers, limites",
     metaDesc: "Metz s'appuie sur le Mettis (BHNS, 2013) et un T2 à 680 € sur notre estimation. Score transport 6,7/10, 185e sur 593. Comparaison avec Nancy, limites et verdict.",
     category: "lifestyle",
     emoji: "🚌",
@@ -19106,8 +19106,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-amiens-guide-2026",
-    title: "Vivre sans voiture à Amiens en 2026 : bus électrique Nemo et T2 à 680 €",
-    metaTitle: "Vivre sans voiture à Amiens 2026 : Nemo, loyers, limites",
+    title: "Vivre sans voiture à Amiens en 2027 : bus électrique Nemo et T2 à 680 €",
+    metaTitle: "Vivre sans voiture à Amiens 2027 : Nemo, loyers, limites",
     metaDesc: "Amiens mise sur le BHNS électrique Nemo (2019) et un T2 à 680 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Comparaison avec Lille, limites et verdict.",
     category: "lifestyle",
     emoji: "🚌",
@@ -19150,8 +19150,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-dunkerque-guide-2026",
-    title: "Vivre sans voiture à Dunkerque en 2026 : bus gratuits et T2 à 560 €",
-    metaTitle: "Vivre sans voiture à Dunkerque 2026 : bus gratuits, loyers",
+    title: "Vivre sans voiture à Dunkerque en 2027 : bus gratuits et T2 à 560 €",
+    metaTitle: "Vivre sans voiture à Dunkerque 2027 : bus gratuits, loyers",
     metaDesc: "À Dunkerque, le réseau DK'Bus est gratuit depuis 2018 et le T2 est à 560 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Comparaison avec Lille.",
     category: "lifestyle",
     emoji: "🆓",
@@ -19193,8 +19193,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-valenciennes-guide-2026",
-    title: "Vivre sans voiture à Valenciennes en 2026 : tram depuis 2006, T2 à 490 €",
-    metaTitle: "Vivre sans voiture à Valenciennes 2026 : tram, loyers, limites",
+    title: "Vivre sans voiture à Valenciennes en 2027 : tram depuis 2006, T2 à 490 €",
+    metaTitle: "Vivre sans voiture à Valenciennes 2027 : tram, loyers, limites",
     metaDesc: "Valenciennes a un tram depuis 2006 et le T2 le moins cher de ce lot : 490 € sur notre estimation. Score transport 6,1/10, 281e sur 593. Comparaison avec Lille.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19236,8 +19236,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-la-rochelle-guide-2026",
-    title: "Vivre sans voiture à La Rochelle en 2026 : vélo, bateau-bus et T2 à 820 €",
-    metaTitle: "Vivre sans voiture à La Rochelle 2026 : vélo, Yélo, loyers",
+    title: "Vivre sans voiture à La Rochelle en 2027 : vélo, bateau-bus et T2 à 820 €",
+    metaTitle: "Vivre sans voiture à La Rochelle 2027 : vélo, Yélo, loyers",
     metaDesc: "À La Rochelle, vélo en libre-service et bus de mer rendent la voiture facultative, mais le T2 est à 820 € sur notre estimation. Score transport 7,0/10. Face à Poitiers.",
     category: "lifestyle",
     emoji: "🚲",
@@ -19280,8 +19280,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-villeurbanne-guide-2026",
-    title: "Vivre sans voiture à Villeurbanne en 2026 : métro A, tram et T2 à 870 €",
-    metaTitle: "Vivre sans voiture à Villeurbanne 2026 : métro A, tram, loyers",
+    title: "Vivre sans voiture à Villeurbanne en 2027 : métro A, tram et T2 à 870 €",
+    metaTitle: "Vivre sans voiture à Villeurbanne 2027 : métro A, tram, loyers",
     metaDesc: "À Villeurbanne, métro A et trams rendent la voiture facultative, avec un T2 à 870 €, 130 € de moins qu'à Lyon. Score transport 9,0/10. Comparatif chiffré.",
     category: "lifestyle",
     emoji: "🚇",
@@ -19325,8 +19325,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-creteil-guide-2026",
-    title: "Vivre sans voiture à Créteil en 2026 : métro 8 et T2 à 950 €",
-    metaTitle: "Vivre sans voiture à Créteil 2026 : métro 8, loyers, budget",
+    title: "Vivre sans voiture à Créteil en 2027 : métro 8 et T2 à 950 €",
+    metaTitle: "Vivre sans voiture à Créteil 2027 : métro 8, loyers, budget",
     metaDesc: "À Créteil, le métro 8 relie Paris sans voiture et le T2 est à 950 €, 850 € de moins qu'à Paris. Score transport 9,0/10. Comparatif chiffré et limites.",
     category: "lifestyle",
     emoji: "🚇",
@@ -19370,8 +19370,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-versailles-guide-2026",
-    title: "Vivre sans voiture à Versailles en 2026 : trois gares et T2 à 1 200 €",
-    metaTitle: "Vivre sans voiture à Versailles 2026 : trois gares, loyers",
+    title: "Vivre sans voiture à Versailles en 2027 : trois gares et T2 à 1 200 €",
+    metaTitle: "Vivre sans voiture à Versailles 2027 : trois gares, loyers",
     metaDesc: "À Versailles, trois gares relient Paris sans voiture, mais le T2 est à 1 200 € sur notre estimation. Score transport 8,4/10. Comparatif avec Paris et Nanterre.",
     category: "lifestyle",
     emoji: "🚆",
@@ -19415,8 +19415,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-nimes-guide-2026",
-    title: "Vivre sans voiture à Nîmes en 2026 : tram'bus Tango et T2 à 720 €",
-    metaTitle: "Vivre sans voiture à Nîmes 2026 : Tango, loyers, limites",
+    title: "Vivre sans voiture à Nîmes en 2027 : tram'bus Tango et T2 à 720 €",
+    metaTitle: "Vivre sans voiture à Nîmes 2027 : Tango, loyers, limites",
     metaDesc: "À Nîmes, le réseau Tango de tram'bus rend la voiture facultative en ville, avec un T2 à 720 €. Score transport 6,1/10. Comparatif avec Montpellier et Avignon.",
     category: "lifestyle",
     emoji: "🚌",
@@ -19460,8 +19460,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-aix-en-provence-guide-2026",
-    title: "Vivre sans voiture à Aix-en-Provence en 2026 : bus, vélo et T2 à 1 050 €",
-    metaTitle: "Vivre sans voiture à Aix-en-Provence 2026 : bus, loyers",
+    title: "Vivre sans voiture à Aix-en-Provence en 2027 : bus, vélo et T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Aix-en-Provence 2027 : bus, loyers",
     metaDesc: "À Aix-en-Provence, centre compact et gare routière rendent la voiture facultative, mais le T2 est à 1 050 €. Score transport 6,1/10. Comparatif avec Marseille.",
     category: "lifestyle",
     emoji: "🚲",
@@ -19505,8 +19505,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-limoges-guide-2026",
-    title: "Vivre sans voiture à Limoges en 2026 : trolleybus et T2 à 600 €",
-    metaTitle: "Vivre sans voiture à Limoges 2026 : trolleybus, loyers",
+    title: "Vivre sans voiture à Limoges en 2027 : trolleybus et T2 à 600 €",
+    metaTitle: "Vivre sans voiture à Limoges 2027 : trolleybus, loyers",
     metaDesc: "À Limoges, un réseau de trolleybus et un T2 à 600 € permettent de se passer de voiture. Score transport 6,1/10. Comparatif avec Clermont-Ferrand.",
     category: "lifestyle",
     emoji: "🚎",
@@ -19550,8 +19550,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-poitiers-guide-2026",
-    title: "Vivre sans voiture à Poitiers en 2026 : bus Vitalis, TGV et T2 à 660 €",
-    metaTitle: "Vivre sans voiture à Poitiers 2026 : Vitalis, TGV, loyers",
+    title: "Vivre sans voiture à Poitiers en 2027 : bus Vitalis, TGV et T2 à 660 €",
+    metaTitle: "Vivre sans voiture à Poitiers 2027 : Vitalis, TGV, loyers",
     metaDesc: "À Poitiers, le réseau Vitalis et le TGV rendent la voiture facultative, avec un T2 à 660 €. Score transport 6,4/10. Comparatif avec Tours et Limoges.",
     category: "lifestyle",
     emoji: "🚌",
@@ -19595,8 +19595,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-roubaix-guide-2026",
-    title: "Vivre sans voiture à Roubaix en 2026 : métro 2 vers Lille et T2 à 520 €",
-    metaTitle: "Vivre sans voiture à Roubaix 2026 : métro, loyers, Lille",
+    title: "Vivre sans voiture à Roubaix en 2027 : métro 2 vers Lille et T2 à 520 €",
+    metaTitle: "Vivre sans voiture à Roubaix 2027 : métro, loyers, Lille",
     metaDesc: "À Roubaix, la ligne 2 du métro lillois rend la voiture facultative, avec un T2 à 520 €. Score transport 7,7/10. Comparatif avec Lille et Tourcoing.",
     category: "lifestyle",
     emoji: "🚇",
@@ -19640,8 +19640,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-tourcoing-guide-2026",
-    title: "Vivre sans voiture à Tourcoing en 2026 : terminus du métro 2, T2 à 550 €",
-    metaTitle: "Vivre sans voiture à Tourcoing 2026 : métro 2, T2 à 550 €",
+    title: "Vivre sans voiture à Tourcoing en 2027 : terminus du métro 2, T2 à 550 €",
+    metaTitle: "Vivre sans voiture à Tourcoing 2027 : métro 2, T2 à 550 €",
     metaDesc: "À Tourcoing, le métro 2 s'arrête à CH Dron et le T2 coûte 550 €. Score transport 7,7/10. Comparatif avec Roubaix et Lille, pour vivre sans voiture.",
     category: "lifestyle",
     emoji: "🚊",
@@ -19685,8 +19685,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-merignac-guide-2026",
-    title: "Vivre sans voiture à Mérignac en 2026 : tram A jusqu'à l'aéroport, T2 à 800 €",
-    metaTitle: "Vivre sans voiture à Mérignac 2026 : tram A, aéroport, loyers",
+    title: "Vivre sans voiture à Mérignac en 2027 : tram A jusqu'à l'aéroport, T2 à 800 €",
+    metaTitle: "Vivre sans voiture à Mérignac 2027 : tram A, aéroport, loyers",
     metaDesc: "À Mérignac, le tram A mène à Bordeaux et à l'aéroport depuis 2023, avec un T2 à 800 €. Score transport 7,7/10. Comparatif avec Bordeaux, sans voiture.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19730,8 +19730,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-saint-herblain-guide-2026",
-    title: "Vivre sans voiture à Saint-Herblain en 2026 : tram 1 et T2 à 670 €",
-    metaTitle: "Vivre sans voiture à Saint-Herblain 2026 : tram 1, loyers",
+    title: "Vivre sans voiture à Saint-Herblain en 2027 : tram 1 et T2 à 670 €",
+    metaTitle: "Vivre sans voiture à Saint-Herblain 2027 : tram 1, loyers",
     metaDesc: "À Saint-Herblain, le tram 1 relie Atlantis à Nantes et le T2 coûte 670 €. Score transport 7,7/10. Comparatif avec Nantes pour vivre sans voiture.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19775,8 +19775,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-annemasse-guide-2026",
-    title: "Vivre sans voiture à Annemasse en 2026 : Léman Express, tram 17 et T2 à 1 000 €",
-    metaTitle: "Vivre sans voiture à Annemasse 2026 : Léman Express, loyers",
+    title: "Vivre sans voiture à Annemasse en 2027 : Léman Express, tram 17 et T2 à 1 000 €",
+    metaTitle: "Vivre sans voiture à Annemasse 2027 : Léman Express, loyers",
     metaDesc: "À Annemasse, le Léman Express et le tram 17 rendent la voiture facultative, avec un T2 à 1 000 €. Score transport 9,0/10. Comparatif avec Annecy.",
     category: "lifestyle",
     emoji: "🚆",
@@ -19820,8 +19820,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-saint-martin-d-heres-guide-2026",
-    title: "Vivre sans voiture à Saint-Martin-d'Hères en 2026 : tram B, C, D et T2 à 670 €",
-    metaTitle: "Vivre sans voiture à Saint-Martin-d'Hères 2026 : trams, T2",
+    title: "Vivre sans voiture à Saint-Martin-d'Hères en 2027 : tram B, C, D et T2 à 670 €",
+    metaTitle: "Vivre sans voiture à Saint-Martin-d'Hères 2027 : trams, T2",
     metaDesc: "À Saint-Martin-d'Hères, trois lignes de tram desservent le campus de Grenoble et le T2 coûte 670 €. Score transport 8,4/10. Comparatif avec Grenoble.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19865,8 +19865,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-boulogne-billancourt-guide-2026",
-    title: "Vivre sans voiture à Boulogne-Billancourt en 2026 : métro 9 et 10, T2 à 1 400 €",
-    metaTitle: "Vivre sans voiture à Boulogne-Billancourt 2026 : métro, loyers",
+    title: "Vivre sans voiture à Boulogne-Billancourt en 2027 : métro 9 et 10, T2 à 1 400 €",
+    metaTitle: "Vivre sans voiture à Boulogne-Billancourt 2027 : métro, loyers",
     metaDesc: "À Boulogne-Billancourt, métros 9 et 10 rendent la voiture inutile, mais le T2 est à 1 400 € (400 € sous Paris). Score transport 9/10. Comparatif Issy et Paris.",
     category: "lifestyle",
     emoji: "🚇",
@@ -19910,8 +19910,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-montreuil-guide-2026",
-    title: "Vivre sans voiture à Montreuil en 2026 : métros 9 et 11, T2 à 1 050 €",
-    metaTitle: "Vivre sans voiture à Montreuil 2026 : métros 9 et 11, loyers",
+    title: "Vivre sans voiture à Montreuil en 2027 : métros 9 et 11, T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Montreuil 2027 : métros 9 et 11, loyers",
     metaDesc: "À Montreuil, métros 9 et 11 rendent la voiture facultative, avec un T2 à 1 050 € contre 1 800 € à Paris. Score transport 9/10. Comparatif avec Pantin et Paris.",
     category: "lifestyle",
     emoji: "🚇",
@@ -19955,8 +19955,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-vincennes-guide-2026",
-    title: "Vivre sans voiture à Vincennes en 2026 : métro 1 et T2 à 1 300 €",
-    metaTitle: "Vivre sans voiture à Vincennes 2026 : métro 1, loyers",
+    title: "Vivre sans voiture à Vincennes en 2027 : métro 1 et T2 à 1 300 €",
+    metaTitle: "Vivre sans voiture à Vincennes 2027 : métro 1, loyers",
     metaDesc: "À Vincennes, le métro 1 mène à Paris sans voiture, mais le T2 est à 1 300 €. Score transport 9/10, écoles 8,7/10. Comparatif avec Montreuil et Paris.",
     category: "lifestyle",
     emoji: "🌳",
@@ -20000,8 +20000,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-saint-denis-guide-2026",
-    title: "Vivre sans voiture à Saint-Denis en 2026 : métros 13 et 14, T2 à 950 €",
-    metaTitle: "Vivre sans voiture à Saint-Denis 2026 : métros 13 et 14",
+    title: "Vivre sans voiture à Saint-Denis en 2027 : métros 13 et 14, T2 à 950 €",
+    metaTitle: "Vivre sans voiture à Saint-Denis 2027 : métros 13 et 14",
     metaDesc: "À Saint-Denis, métros 13 et 14 et RER D rendent la voiture inutile, avec un T2 à 950 €. Score transport 9/10, mais sécurité 2,2/10. Comparatif Pantin et Paris.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20045,8 +20045,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-pantin-guide-2026",
-    title: "Vivre sans voiture à Pantin en 2026 : métro 5, T3b et T2 à 1 050 €",
-    metaTitle: "Vivre sans voiture à Pantin 2026 : métro 5, loyers",
+    title: "Vivre sans voiture à Pantin en 2027 : métro 5, T3b et T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Pantin 2027 : métro 5, loyers",
     metaDesc: "À Pantin, le métro 5 rend la voiture facultative, avec un T2 à 1 050 € contre 1 800 € à Paris. Score transport 9/10, +10 % d'habitants. Comparatif Montreuil.",
     category: "lifestyle",
     emoji: "🚲",
@@ -20090,8 +20090,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-nanterre-guide-2026",
-    title: "Vivre sans voiture à Nanterre en 2026 : RER A et E, T2 à 1 050 €",
-    metaTitle: "Vivre sans voiture à Nanterre 2026 : RER A, RER E, loyers",
+    title: "Vivre sans voiture à Nanterre en 2027 : RER A et E, T2 à 1 050 €",
+    metaTitle: "Vivre sans voiture à Nanterre 2027 : RER A, RER E, loyers",
     metaDesc: "À Nanterre, RER A et RER E prolongé en 2024 rendent la voiture facultative, avec un T2 à 1 050 €. Score transport 9/10. Comparatif Boulogne et Paris.",
     category: "lifestyle",
     emoji: "🚆",
@@ -20135,8 +20135,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-issy-les-moulineaux-guide-2026",
-    title: "Vivre sans voiture à Issy-les-Moulineaux en 2026 : métro 12, T2 et RER C, T2 à 1 300 €",
-    metaTitle: "Vivre sans voiture à Issy-les-Moulineaux 2026 : M12, T2, RER C",
+    title: "Vivre sans voiture à Issy-les-Moulineaux en 2027 : métro 12, T2 et RER C, T2 à 1 300 €",
+    metaTitle: "Vivre sans voiture à Issy-les-Moulineaux 2027 : M12, T2, RER C",
     metaDesc: "Issy-les-Moulineaux sans voiture : métro 12, tram T2 et RER C, score transport 9/10, T2 à 1 300 € par mois, 100 € de moins que Boulogne-Billancourt.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20180,8 +20180,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-levallois-perret-guide-2026",
-    title: "Vivre sans voiture à Levallois-Perret en 2026 : métro 3, T2 à 1 400 €",
-    metaTitle: "Vivre sans voiture à Levallois-Perret 2026 : métro 3, loyers",
+    title: "Vivre sans voiture à Levallois-Perret en 2027 : métro 3, T2 à 1 400 €",
+    metaTitle: "Vivre sans voiture à Levallois-Perret 2027 : métro 3, loyers",
     metaDesc: "À Levallois-Perret, le métro 3 relie la commune à Paris : score transport 9/10, T2 à 1 400 €, 7,8 % d'habitants en plus depuis 2016. Comparatif Clichy.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20225,8 +20225,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-neuilly-sur-seine-guide-2026",
-    title: "Vivre sans voiture à Neuilly-sur-Seine en 2026 : métro 1, T2 à 1 700 €",
-    metaTitle: "Vivre sans voiture à Neuilly-sur-Seine 2026 : métro 1, loyers",
+    title: "Vivre sans voiture à Neuilly-sur-Seine en 2027 : métro 1, T2 à 1 700 €",
+    metaTitle: "Vivre sans voiture à Neuilly-sur-Seine 2027 : métro 1, loyers",
     metaDesc: "Neuilly-sur-Seine sans voiture : métro 1 aux Sablons et Pont de Neuilly, score transport 9/10, T2 à 1 700 €, niveau de vie médian 48 010 €.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20270,8 +20270,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-ivry-sur-seine-guide-2026",
-    title: "Vivre sans voiture à Ivry-sur-Seine en 2026 : métro 7, T2 à 1 000 €",
-    metaTitle: "Vivre sans voiture à Ivry-sur-Seine 2026 : métro 7, loyers",
+    title: "Vivre sans voiture à Ivry-sur-Seine en 2027 : métro 7, T2 à 1 000 €",
+    metaTitle: "Vivre sans voiture à Ivry-sur-Seine 2027 : métro 7, loyers",
     metaDesc: "Ivry-sur-Seine sans voiture : métro 7 et RER C, score transport 9/10, T2 à 1 000 € par mois, 800 € de moins que Paris. Comparatif Vitry et Issy.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20315,8 +20315,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-vitry-sur-seine-guide-2026",
-    title: "Vivre sans voiture à Vitry-sur-Seine en 2026 : RER C, T2 à 980 €",
-    metaTitle: "Vivre sans voiture à Vitry-sur-Seine 2026 : RER C, loyers",
+    title: "Vivre sans voiture à Vitry-sur-Seine en 2027 : RER C, T2 à 980 €",
+    metaTitle: "Vivre sans voiture à Vitry-sur-Seine 2027 : RER C, loyers",
     metaDesc: "À Vitry-sur-Seine, RER C et loyer à 980 € le T2 : score transport 9/10, 820 € de moins que Paris. Ce que le métro 15 changera, et les limites.",
     category: "lifestyle",
     emoji: "🚆",
@@ -20360,8 +20360,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-sans-voiture-courbevoie-guide-2026",
-    title: "Vivre sans voiture à Courbevoie en 2026 : La Défense, T2 à 1 250 €",
-    metaTitle: "Vivre sans voiture à Courbevoie 2026 : La Défense, loyers",
+    title: "Vivre sans voiture à Courbevoie en 2027 : La Défense, T2 à 1 250 €",
+    metaTitle: "Vivre sans voiture à Courbevoie 2027 : La Défense, loyers",
     metaDesc: "Courbevoie sans voiture : La Défense, métro 1, RER A et tram T2, score transport 9/10, T2 à 1 250 €, 150 € de moins que Boulogne-Billancourt.",
     category: "lifestyle",
     emoji: "🚆",
@@ -20405,8 +20405,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-sports-outdoor-plein-air-france-2026",
-    title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2026",
-    metaTitle: "Meilleures villes sports outdoor France 2026 — trail, escalade",
+    title: "Les meilleures villes de France pour les amateurs de sports outdoor en 2027",
+    metaTitle: "Meilleures villes sports outdoor France 2027 — trail, escalade",
     metaDesc: "Trail, escalade, VTT, kayak, ski : quelles villes françaises offrent le meilleur accès aux sports outdoor ? Le classement honnête avec les distances réelles.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -20442,9 +20442,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-haute-savoie-guide-2026",
-    title: "Vivre en Haute-Savoie en 2026 : le guide complet (Annecy, Thonon, Cluses)",
-    metaTitle: "Vivre en Haute-Savoie 2026 — Annecy, Thonon-les-Bains, Cluses",
-    metaDesc: "Haute-Savoie : les Alpes, le lac Léman, la Suisse à portée. Mais aussi les prix immobiliers les plus chers de province et les hivers qui durent. Guide honnête 2026.",
+    title: "Vivre en Haute-Savoie en 2027 : le guide complet (Annecy, Thonon, Cluses)",
+    metaTitle: "Vivre en Haute-Savoie 2027 — Annecy, Thonon-les-Bains, Cluses",
+    metaDesc: "Haute-Savoie : les Alpes, le lac Léman, la Suisse à portée. Mais aussi les prix immobiliers les plus chers de province et les hivers qui durent. Guide honnête 2027.",
     category: "region",
     emoji: "🏔️",
     readMinutes: 8,
@@ -20483,9 +20483,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-bord-de-mer-france-villes-guide-2026",
-    title: "Prendre sa retraite au bord de la mer en France : les vraies villes pour 2026",
-    metaTitle: "Retraite bord de mer France 2026 — La Rochelle, Sète, Vannes",
-    metaDesc: "Retraite au bord de la mer en France : quelles côtes sont viables financièrement, lesquelles sont saturées de touristes, où trouver l'équilibre ? Le guide honnête 2026.",
+    title: "Prendre sa retraite au bord de la mer en France : les vraies villes pour 2027",
+    metaTitle: "Retraite bord de mer France 2027 — La Rochelle, Sète, Vannes",
+    metaDesc: "Retraite au bord de la mer en France : quelles côtes sont viables financièrement, lesquelles sont saturées de touristes, où trouver l'équilibre ? Le guide honnête 2027.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 8,
@@ -20524,8 +20524,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-jeunes-professionnels-france-2026",
-    title: "Les meilleures villes de France pour les jeunes professionnels en 2026",
-    metaTitle: "Meilleures villes jeunes pros France 2026 — salaires, logement",
+    title: "Les meilleures villes de France pour les jeunes professionnels en 2027",
+    metaTitle: "Meilleures villes jeunes pros France 2027 — salaires, logement",
     metaDesc: "Pour un jeune professionnel en France : Rennes, Lyon, Nantes ou Bordeaux ? Le classement basé sur les salaires nets de charge vs. loyers, la densité d'employeurs et la vie sociale.",
     category: "lifestyle",
     emoji: "🚀",
@@ -20561,8 +20561,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "divorce-separation-demenager-quelle-ville-france-2026",
-    title: "Après une séparation : quelle ville pour repartir en France en 2026 ?",
-    metaTitle: "Repartir après une séparation 2026 : quelle ville choisir ?",
+    title: "Après une séparation : quelle ville pour repartir en France en 2027 ?",
+    metaTitle: "Repartir après une séparation 2027 : quelle ville choisir ?",
     metaDesc: "Après un divorce ou une séparation : budget réduit, un seul revenu, peut-être des enfants. Quelles villes françaises offrent un nouveau départ réaliste ? Le guide sans bullshit.",
     category: "budget",
     emoji: "🌱",
@@ -20598,9 +20598,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-cote-d-azur-guide-2026",
-    title: "Vivre sur la Côte d'Azur en 2026 : Nice, Cannes, Antibes, Menton — le guide complet",
-    metaTitle: "Vivre sur la Côte d'Azur 2026 — Nice, Cannes, Antibes, prix",
-    metaDesc: "Côte d'Azur 2026 : le soleil est réel, les prix aussi. Nice, Cannes, Antibes, Menton : que choisir et pour quel budget ? Le guide sans illusions.",
+    title: "Vivre sur la Côte d'Azur en 2027 : Nice, Cannes, Antibes, Menton — le guide complet",
+    metaTitle: "Vivre sur la Côte d'Azur 2027 — Nice, Cannes, Antibes, prix",
+    metaDesc: "Côte d'Azur 2027 : le soleil est réel, les prix aussi. Nice, Cannes, Antibes, Menton : que choisir et pour quel budget ? Le guide sans illusions.",
     category: "region",
     emoji: "🌊",
     readMinutes: 9,
@@ -20639,9 +20639,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-naturalistes-biodiversite-france-2026",
-    title: "Les meilleures villes de France pour les amateurs de nature et de biodiversité en 2026",
-    metaTitle: "Meilleures villes nature et biodiversité France 2026",
-    metaDesc: "Birdwatching, botaniste, observateur des oiseaux, amoureux de la nature sauvage : quelles villes françaises offrent le meilleur accès aux espaces naturels protégés ? Guide 2026.",
+    title: "Les meilleures villes de France pour les amateurs de nature et de biodiversité en 2027",
+    metaTitle: "Meilleures villes nature et biodiversité France 2027",
+    metaDesc: "Birdwatching, botaniste, observateur des oiseaux, amoureux de la nature sauvage : quelles villes françaises offrent le meilleur accès aux espaces naturels protégés ? Guide 2027.",
     category: "lifestyle",
     emoji: "🌿",
     readMinutes: 7,
@@ -20676,9 +20676,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-var-guide-2026",
-    title: "Vivre dans le Var en 2026 : Toulon, Draguignan, Hyères — guide complet",
-    metaTitle: "Vivre dans le Var : où s'installer ? Toulon, Hyères… 2026",
-    metaDesc: "Le Var : mer, Provence, forêts, mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2026.",
+    title: "Vivre dans le Var en 2027 : Toulon, Draguignan, Hyères — guide complet",
+    metaTitle: "Vivre dans le Var : où s'installer ? Toulon, Hyères… 2027",
+    metaDesc: "Le Var : mer, Provence, forêts, mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2027.",
     category: "region",
     emoji: "🌿",
     readMinutes: 8,
@@ -20717,9 +20717,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "investir-dans-logements-etudiants-france-2026",
-    title: "Investir dans les logements étudiants en France en 2026 : guide complet",
-    metaTitle: "Investissement locatif étudiant France 2026 — studios, résidences",
-    metaDesc: "Investir dans les logements étudiants en France : meilleures villes universitaires, rendements locatifs bruts, pièges à éviter, loi Pinel vs meublé LMNP. Guide 2026.",
+    title: "Investir dans les logements étudiants en France en 2027 : guide complet",
+    metaTitle: "Investissement locatif étudiant France 2027 — studios, résidences",
+    metaDesc: "Investir dans les logements étudiants en France : meilleures villes universitaires, rendements locatifs bruts, pièges à éviter, loi Pinel vs meublé LMNP. Guide 2027.",
     category: "budget",
     emoji: "🎓",
     readMinutes: 8,
@@ -20758,9 +20758,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-metz-quel-quartier-budget-2026",
-    title: "Acheter à Metz en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Metz 2026 — prix m², quartiers, budget primo-accédant",
-    metaDesc: "Guide immobilier Metz 2026 : prix par quartier (Centre historique, Devant-les-Ponts, Borny, Grigy), fourchettes de budget et tendances du marché.",
+    title: "Acheter à Metz en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Metz 2027 — prix m², quartiers, budget primo-accédant",
+    metaDesc: "Guide immobilier Metz 2027 : prix par quartier (Centre historique, Devant-les-Ponts, Borny, Grigy), fourchettes de budget et tendances du marché.",
     category: "budget",
     emoji: "🏰",
     readMinutes: 9,
@@ -20799,9 +20799,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-nancy-quel-quartier-budget-2026",
-    title: "Acheter à Nancy en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Nancy 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Nancy 2026 : prix par quartier (Place Stanislas, Trois-Maisons, Haussonville, Rives de Meurthe), fourchettes budget et tendances.",
+    title: "Acheter à Nancy en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Nancy 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Nancy 2027 : prix par quartier (Place Stanislas, Trois-Maisons, Haussonville, Rives de Meurthe), fourchettes budget et tendances.",
     category: "budget",
     emoji: "⚜️",
     readMinutes: 9,
@@ -20840,9 +20840,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-la-rochelle-quel-quartier-budget-2026",
-    title: "Acheter à La Rochelle en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à La Rochelle 2026 — prix m², quartiers, conseils",
-    metaDesc: "Guide immobilier La Rochelle 2026 : prix par quartier (Vieux-Port, Les Minimes, Mireuil, Tasdon), budget primo-accédant et tendances du marché.",
+    title: "Acheter à La Rochelle en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à La Rochelle 2027 — prix m², quartiers, conseils",
+    metaDesc: "Guide immobilier La Rochelle 2027 : prix par quartier (Vieux-Port, Les Minimes, Mireuil, Tasdon), budget primo-accédant et tendances du marché.",
     category: "budget",
     emoji: "⚓",
     readMinutes: 9,
@@ -20881,9 +20881,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-reims-quel-quartier-budget-2026",
-    title: "Acheter à Reims en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Reims 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Reims 2026 : prix par quartier (Centre cathédrale, Clairmarais, Europe, Croix-Rouge), budget d'achat et tendances du marché.",
+    title: "Acheter à Reims en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Reims 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Reims 2027 : prix par quartier (Centre cathédrale, Clairmarais, Europe, Croix-Rouge), budget d'achat et tendances du marché.",
     category: "budget",
     emoji: "🍾",
     readMinutes: 9,
@@ -20922,9 +20922,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-poitou-guide-2026",
-    title: "Vivre en Poitou en 2026 : Poitiers, Niort, Châtellerault — bilan honnête",
-    metaTitle: "Vivre en Poitou 2026 — Poitiers, Niort, Châtellerault",
-    metaDesc: "Guide Poitou 2026 : Poitiers la universitaire, Niort la mutualisante, Châtellerault la discrète. Loyers, scores, réalité du terrain.",
+    title: "Vivre en Poitou en 2027 : Poitiers, Niort, Châtellerault — bilan honnête",
+    metaTitle: "Vivre en Poitou 2027 — Poitiers, Niort, Châtellerault",
+    metaDesc: "Guide Poitou 2027 : Poitiers la universitaire, Niort la mutualisante, Châtellerault la discrète. Loyers, scores, réalité du terrain.",
     category: "region",
     emoji: "🦅",
     readMinutes: 9,
@@ -20963,8 +20963,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-vegans-vegetariens-france-2026",
-    title: "Meilleures villes de France pour les végans et végétariens en 2026",
-    metaTitle: "Meilleures villes véganes et végétariennes France 2026",
+    title: "Meilleures villes de France pour les végans et végétariens en 2027",
+    metaTitle: "Meilleures villes véganes et végétariennes France 2027",
     metaDesc: "Où vivre en France quand on est végan ou végétarien ? Classement des 10 meilleures villes : offre culinaire, épiceries bio, communauté, coût de vie.",
     category: "lifestyle",
     emoji: "🌱",
@@ -21004,9 +21004,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "guide-mobilite-douce-france-villes-2026",
-    title: "Mobilité douce en France 2026 : les villes où voiture = option, pas obligation",
-    metaTitle: "Mobilité douce 2026 — vélo, tram, bus : villes sans voiture",
-    metaDesc: "Guide mobilité douce 2026 : les 12 villes françaises où vélo, transports en commun et marche permettent de vivre sans voiture. Scores, infrastructure, réalité.",
+    title: "Mobilité douce en France 2027 : les villes où voiture = option, pas obligation",
+    metaTitle: "Mobilité douce 2027 — vélo, tram, bus : villes sans voiture",
+    metaDesc: "Guide mobilité douce 2027 : les 12 villes françaises où vélo, transports en commun et marche permettent de vivre sans voiture. Scores, infrastructure, réalité.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 10,
@@ -21045,9 +21045,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "brest-vs-rennes-comparatif-2026",
-    title: "Brest ou Rennes en 2026 : laquelle choisir ? Comparatif complet",
-    metaTitle: "Brest vs Rennes 2026 — comparatif : prix, emploi, qualité de vie",
-    metaDesc: "Brest ou Rennes ? Comparatif complet 2026 : loyers, marché de l'emploi, vie culturelle, météo, transport, pour choisir la bonne ville bretonne.",
+    title: "Brest ou Rennes en 2027 : laquelle choisir ? Comparatif complet",
+    metaTitle: "Brest vs Rennes 2027 — comparatif : prix, emploi, qualité de vie",
+    metaDesc: "Brest ou Rennes ? Comparatif complet 2027 : loyers, marché de l'emploi, vie culturelle, météo, transport, pour choisir la bonne ville bretonne.",
     category: "comparaison",
     emoji: "⚓",
     readMinutes: 9,
@@ -21090,9 +21090,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "angers-vs-tours-comparatif-2026",
-    title: "Angers ou Tours en 2026 : laquelle choisir ? Comparatif complet",
-    metaTitle: "Angers vs Tours 2026 — comparatif : prix, emploi, qualité de vie",
-    metaDesc: "Angers ou Tours ? Comparatif complet 2026 : loyers, marché de l'emploi, patrimoine UNESCO, vie étudiante et connexions TGV.",
+    title: "Angers ou Tours en 2027 : laquelle choisir ? Comparatif complet",
+    metaTitle: "Angers vs Tours 2027 — comparatif : prix, emploi, qualité de vie",
+    metaDesc: "Angers ou Tours ? Comparatif complet 2027 : loyers, marché de l'emploi, patrimoine UNESCO, vie étudiante et connexions TGV.",
     category: "comparaison",
     emoji: "🏰",
     readMinutes: 8,
@@ -21131,9 +21131,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "clermont-ferrand-vs-limoges-comparatif-2026",
-    title: "Clermont-Ferrand ou Limoges en 2026 : comparatif complet",
-    metaTitle: "Clermont-Ferrand vs Limoges 2026 — coût de vie, emploi",
-    metaDesc: "Clermont-Ferrand ou Limoges ? Comparatif 2026 : loyers, marché de l'emploi, vie étudiante, cadre naturel et connexions.",
+    title: "Clermont-Ferrand ou Limoges en 2027 : comparatif complet",
+    metaTitle: "Clermont-Ferrand vs Limoges 2027 — coût de vie, emploi",
+    metaDesc: "Clermont-Ferrand ou Limoges ? Comparatif 2027 : loyers, marché de l'emploi, vie étudiante, cadre naturel et connexions.",
     category: "comparaison",
     emoji: "🌋",
     readMinutes: 8,
@@ -21172,8 +21172,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-oenophiles-vins-france-2026",
-    title: "Les meilleures villes de France pour les amateurs de vin en 2026",
-    metaTitle: "Meilleures villes pour amateurs de vin France 2026",
+    title: "Les meilleures villes de France pour les amateurs de vin en 2027",
+    metaTitle: "Meilleures villes pour amateurs de vin France 2027",
     metaDesc: "Où vivre en France quand le vin est une passion ? Classement des 10 meilleures villes : proximité des vignobles, caves, restaurants, événements viticoles.",
     category: "lifestyle",
     emoji: "🍷",
@@ -21213,9 +21213,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-berry-guide-2026",
-    title: "Vivre dans le Berry en 2026 : Bourges, Châteauroux — bilan honnête",
-    metaTitle: "Vivre dans le Berry 2026 — Bourges, Châteauroux, coût de vie",
-    metaDesc: "Guide Berry 2026 : Bourges la médiévale, Châteauroux l'accessible. Loyers très bas, patrimoine classé UNESCO, marché de l'emploi réel et vie quotidienne.",
+    title: "Vivre dans le Berry en 2027 : Bourges, Châteauroux — bilan honnête",
+    metaTitle: "Vivre dans le Berry 2027 — Bourges, Châteauroux, coût de vie",
+    metaDesc: "Guide Berry 2027 : Bourges la médiévale, Châteauroux l'accessible. Loyers très bas, patrimoine classé UNESCO, marché de l'emploi réel et vie quotidienne.",
     category: "region",
     emoji: "🐏",
     readMinutes: 8,
@@ -21254,8 +21254,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-teletravail-et-nature-2026",
-    title: "Télétravail + nature : les villes françaises qui combinent les deux en 2026",
-    metaTitle: "Télétravail et nature France 2026 — top 12 villes : fibre, espace",
+    title: "Télétravail + nature : les villes françaises qui combinent les deux en 2027",
+    metaTitle: "Télétravail et nature France 2027 — top 12 villes : fibre, espace",
     metaDesc: "Les meilleures villes françaises pour télétravailler tout en vivant au vert : fibre optique, nature à 20 min, logement spacieux, communauté de remote workers.",
     category: "teletravail",
     emoji: "🌲",
@@ -21291,9 +21291,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-bayonne-quel-quartier-budget-2026",
-    title: "Acheter à Bayonne en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Bayonne 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Bayonne 2026 : prix par quartier (Grand Bayonne, Petit Bayonne, Saint-Esprit, Mousserolles), budget d'achat et marché immobilier basque.",
+    title: "Acheter à Bayonne en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Bayonne 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Bayonne 2027 : prix par quartier (Grand Bayonne, Petit Bayonne, Saint-Esprit, Mousserolles), budget d'achat et marché immobilier basque.",
     category: "budget",
     emoji: "🏉",
     readMinutes: 9,
@@ -21332,9 +21332,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-brest-quel-quartier-budget-2026",
-    title: "Acheter à Brest en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Brest 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Brest 2026 : prix par quartier (Recouvrance, Saint-Marc, Lambézellec, Europe), budget d'achat, marché en hausse. La ville la moins chère de France ?",
+    title: "Acheter à Brest en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Brest 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Brest 2027 : prix par quartier (Recouvrance, Saint-Marc, Lambézellec, Europe), budget d'achat, marché en hausse. La ville la moins chère de France ?",
     category: "budget",
     emoji: "⚓",
     readMinutes: 8,
@@ -21373,9 +21373,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-tours-quel-quartier-budget-2026",
-    title: "Acheter à Tours en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Tours 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Tours 2026 : prix par quartier (Vieux-Tours, Prébendes, Saint-Symphorien, Sanitas), budget d'achat, marché accessible proche Paris.",
+    title: "Acheter à Tours en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Tours 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Tours 2027 : prix par quartier (Vieux-Tours, Prébendes, Saint-Symphorien, Sanitas), budget d'achat, marché accessible proche Paris.",
     category: "budget",
     emoji: "🏰",
     readMinutes: 8,
@@ -21414,9 +21414,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-angers-quel-quartier-budget-2026",
-    title: "Acheter à Angers en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Angers 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Angers 2026 : prix par quartier (centre, Doutre, Belle-Beille, Roseraie), budget d'achat, TGV Paris 1h35.",
+    title: "Acheter à Angers en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Angers 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Angers 2027 : prix par quartier (centre, Doutre, Belle-Beille, Roseraie), budget d'achat, TGV Paris 1h35.",
     category: "budget",
     emoji: "🏯",
     readMinutes: 8,
@@ -21455,9 +21455,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-nimes-quel-quartier-budget-2026",
-    title: "Acheter à Nîmes en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Nîmes 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Nîmes 2026 : prix par quartier (Écusson, Croix de Fer, Mas de Mingue, Haut-Gravier), budget d'achat dans la capitale du Gard.",
+    title: "Acheter à Nîmes en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Nîmes 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Nîmes 2027 : prix par quartier (Écusson, Croix de Fer, Mas de Mingue, Haut-Gravier), budget d'achat dans la capitale du Gard.",
     category: "budget",
     emoji: "🏛️",
     readMinutes: 8,
@@ -21496,9 +21496,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-avignon-quel-quartier-budget-2026",
-    title: "Acheter à Avignon en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Avignon 2026 — prix m², intra-muros, Monclar",
-    metaDesc: "Guide immobilier Avignon 2026 : prix par quartier (intra-muros, Monclar, Courtine, Montfavet), budget d'achat. Festival, Palais des Papes, TGV Marseille 35 min.",
+    title: "Acheter à Avignon en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Avignon 2027 — prix m², intra-muros, Monclar",
+    metaDesc: "Guide immobilier Avignon 2027 : prix par quartier (intra-muros, Monclar, Courtine, Montfavet), budget d'achat. Festival, Palais des Papes, TGV Marseille 35 min.",
     category: "budget",
     emoji: "🎭",
     readMinutes: 8,
@@ -21537,9 +21537,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-perpignan-quel-quartier-budget-2026",
-    title: "Acheter à Perpignan en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Perpignan 2026 — prix m², quartiers, primo-accédant",
-    metaDesc: "Guide immobilier Perpignan 2026 : prix par quartier (centre, Saint-Jacques, Moulin à vent, Saint-Assiscle), budgets et rentabilité. La ville la moins chère du littoral méditerranéen.",
+    title: "Acheter à Perpignan en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Perpignan 2027 — prix m², quartiers, primo-accédant",
+    metaDesc: "Guide immobilier Perpignan 2027 : prix par quartier (centre, Saint-Jacques, Moulin à vent, Saint-Assiscle), budgets et rentabilité. La ville la moins chère du littoral méditerranéen.",
     category: "budget",
     emoji: "🌊",
     readMinutes: 8,
@@ -21578,9 +21578,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-aix-en-provence-quel-quartier-budget-2026",
-    title: "Acheter à Aix-en-Provence en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Aix-en-Provence 2026 — prix m², quartiers",
-    metaDesc: "Guide immobilier Aix-en-Provence 2026 : prix m² par quartier (Mazarin, Cours Mirabeau, Jas de Bouffan, périphérie), dynamique du marché, et les pièges à éviter dans cette ville chère et sous tension.",
+    title: "Acheter à Aix-en-Provence en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Aix-en-Provence 2027 — prix m², quartiers",
+    metaDesc: "Guide immobilier Aix-en-Provence 2027 : prix m² par quartier (Mazarin, Cours Mirabeau, Jas de Bouffan, périphérie), dynamique du marché, et les pièges à éviter dans cette ville chère et sous tension.",
     category: "budget",
     emoji: "🌿",
     readMinutes: 10,
@@ -21619,9 +21619,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-saint-etienne-quel-quartier-budget-2026",
-    title: "Acheter à Saint-Étienne en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Saint-Étienne 2026 — prix m² imbattables, quartiers",
-    metaDesc: "Immobilier Saint-Étienne 2026 : T2 à 50 000 €, maisons à 80 000 €, les prix les plus bas de France pour une ville de 170 000 habitants. Mais faut-il y aller ? Le guide honnête.",
+    title: "Acheter à Saint-Étienne en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Saint-Étienne 2027 — prix m² imbattables, quartiers",
+    metaDesc: "Immobilier Saint-Étienne 2027 : T2 à 50 000 €, maisons à 80 000 €, les prix les plus bas de France pour une ville de 170 000 habitants. Mais faut-il y aller ? Le guide honnête.",
     category: "budget",
     emoji: "⚙️",
     readMinutes: 9,
@@ -21660,9 +21660,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-le-havre-quel-quartier-budget-2026",
-    title: "Acheter au Havre en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter au Havre 2026 — prix m², quartiers Perret, Saint-François",
-    metaDesc: "Immobilier Le Havre 2026 : patrimoine Perret classé UNESCO, front de mer, accès ferroviaire Paris en 2h. Prix m² par quartier, dynamique du marché normand, ce qu'il faut savoir avant d'acheter.",
+    title: "Acheter au Havre en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter au Havre 2027 — prix m², quartiers Perret, Saint-François",
+    metaDesc: "Immobilier Le Havre 2027 : patrimoine Perret classé UNESCO, front de mer, accès ferroviaire Paris en 2h. Prix m² par quartier, dynamique du marché normand, ce qu'il faut savoir avant d'acheter.",
     category: "budget",
     emoji: "🚢",
     readMinutes: 9,
@@ -21701,9 +21701,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-orleans-quel-quartier-budget-2026",
-    title: "Acheter à Orléans en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Orléans 2026 — prix m², quartiers, Beaugency",
-    metaDesc: "Immobilier Orléans 2026 : TGV Paris en 1h05, université, marché accessible à 2 000–3 200 €/m². Les quartiers qui montent, ceux à éviter, et le calcul navetteur-Paris.",
+    title: "Acheter à Orléans en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Orléans 2027 — prix m², quartiers, Beaugency",
+    metaDesc: "Immobilier Orléans 2027 : TGV Paris en 1h05, université, marché accessible à 2 000–3 200 €/m². Les quartiers qui montent, ceux à éviter, et le calcul navetteur-Paris.",
     category: "budget",
     emoji: "⚔️",
     readMinutes: 9,
@@ -21742,9 +21742,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-limoges-quel-quartier-budget-2026",
-    title: "Acheter à Limoges en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Limoges 2026 — prix m² très bas, quartiers, réalité",
-    metaDesc: "Immobilier Limoges 2026 : T3 à 100 000–160 000 €, maisons avec jardin à 130 000 €. Les prix les plus bas des grandes villes françaises. Le guide honnête pour acheter à Limoges.",
+    title: "Acheter à Limoges en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Limoges 2027 — prix m² très bas, quartiers, réalité",
+    metaDesc: "Immobilier Limoges 2027 : T3 à 100 000–160 000 €, maisons avec jardin à 130 000 €. Les prix les plus bas des grandes villes françaises. Le guide honnête pour acheter à Limoges.",
     category: "budget",
     emoji: "🏺",
     readMinutes: 9,
@@ -21783,9 +21783,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-amiens-quel-quartier-budget-2026",
-    title: "Acheter à Amiens en 2026 : quel quartier et quel budget ?",
-    metaTitle: "Acheter à Amiens 2026 — prix m², quartiers, navetteur Paris",
-    metaDesc: "Immobilier Amiens 2026 : TGV Paris en 1h05, cathédrale gothique, marché à 1 800–2 800 €/m². Quartiers Saint-Leu, Montplaisir, Saint-Acheul, guide honnête pour acheter dans la Somme.",
+    title: "Acheter à Amiens en 2027 : quel quartier et quel budget ?",
+    metaTitle: "Acheter à Amiens 2027 — prix m², quartiers, navetteur Paris",
+    metaDesc: "Immobilier Amiens 2027 : TGV Paris en 1h05, cathédrale gothique, marché à 1 800–2 800 €/m². Quartiers Saint-Leu, Montplaisir, Saint-Acheul, guide honnête pour acheter dans la Somme.",
     category: "budget",
     emoji: "🕌",
     readMinutes: 9,
@@ -21824,9 +21824,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "guide-vivre-seul-france-quelle-ville-2026",
-    title: "Vivre seul en France : quelle ville choisir en 2026 ?",
-    metaTitle: "Vivre seul en France 2026 — meilleures villes pour célibataires",
-    metaDesc: "Où vivre seul en France en 2026 ? Guide complet : studios accessibles, vie sociale, sécurité, transports, communauté, sans budget couple.",
+    title: "Vivre seul en France : quelle ville choisir en 2027 ?",
+    metaTitle: "Vivre seul en France 2027 — meilleures villes pour célibataires",
+    metaDesc: "Où vivre seul en France en 2027 ? Guide complet : studios accessibles, vie sociale, sécurité, transports, communauté, sans budget couple.",
     category: "lifestyle",
     emoji: "🧭",
     readMinutes: 9,
@@ -21865,9 +21865,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "teletravailler-depuis-alsace-guide-2026",
-    title: "Télétravailler depuis l'Alsace en 2026 : guide complet",
-    metaTitle: "Télétravailler depuis l'Alsace 2026 — Strasbourg, Colmar",
-    metaDesc: "Guide télétravail Alsace 2026 : où s'installer dans le Bas-Rhin et le Haut-Rhin, coût de vie, connexion, communauté remote workers, accès nature.",
+    title: "Télétravailler depuis l'Alsace en 2027 : guide complet",
+    metaTitle: "Télétravailler depuis l'Alsace 2027 — Strasbourg, Colmar",
+    metaDesc: "Guide télétravail Alsace 2027 : où s'installer dans le Bas-Rhin et le Haut-Rhin, coût de vie, connexion, communauté remote workers, accès nature.",
     category: "teletravail",
     emoji: "🥨",
     readMinutes: 9,
@@ -21906,9 +21906,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "familles-enfants-en-bas-age-quelle-ville-france-2026",
-    title: "Quelle ville choisir pour élever des enfants en bas âge en France ? Guide 2026",
-    metaTitle: "Meilleures villes pour enfants en bas âge 2026 — crèches, parcs",
-    metaDesc: "Guide 2026 pour les parents de jeunes enfants (0-6 ans) : quelles villes françaises combinent crèches accessibles, parcs, sécurité et budget maîtrisé ?",
+    title: "Quelle ville choisir pour élever des enfants en bas âge en France ? Guide 2027",
+    metaTitle: "Meilleures villes pour enfants en bas âge 2027 — crèches, parcs",
+    metaDesc: "Guide 2027 pour les parents de jeunes enfants (0-6 ans) : quelles villes françaises combinent crèches accessibles, parcs, sécurité et budget maîtrisé ?",
     category: "famille",
     emoji: "🧸",
     readMinutes: 10,
@@ -21948,7 +21948,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-litteraires-patrimoine-culturel-2026",
     title: "Les villes littéraires et culturelles de France : où vivre si vous aimez les livres et les arts",
-    metaTitle: "Villes littéraires culturelles France 2026 — librairies, théâtres",
+    metaTitle: "Villes littéraires culturelles France 2027 — librairies, théâtres",
     metaDesc: "Classement des villes françaises les plus riches culturellement : librairies indépendantes, théâtres, musées, festivals littéraires, patrimoine, pour les amateurs d'art et de culture.",
     category: "lifestyle",
     emoji: "📚",
@@ -21988,8 +21988,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "fonctionnaires-mutation-choisir-ville-france-2026",
-    title: "Fonctionnaire en mutation : comment choisir sa ville en 2026",
-    metaTitle: "Fonctionnaire mutation quelle ville France 2026 — guide complet",
+    title: "Fonctionnaire en mutation : comment choisir sa ville en 2027",
+    metaTitle: "Fonctionnaire mutation quelle ville France 2027 — guide complet",
     metaDesc: "Fonctionnaire en mutation : critères pour choisir sa ville d'affectation. Coût de la vie, qualité des écoles, logement, transports, qualité de vie. Comparatif des principales villes d'accueil.",
     category: "lifestyle",
     emoji: "🏛️",
@@ -22029,9 +22029,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "van-life-france-choisir-base-ville-guide-2026",
-    title: "Van life en France : quelle ville choisir comme base en 2026",
-    metaTitle: "Van life en France 2026 — quelle ville choisir comme base ?",
-    metaDesc: "Van life en France : quelle ville utiliser comme base fixe ou de départ ? Critères : stationnement, domiciliation, accès nature, coût de la vie, météo. Guide pratique 2026.",
+    title: "Van life en France : quelle ville choisir comme base en 2027",
+    metaTitle: "Van life en France 2027 — quelle ville choisir comme base ?",
+    metaDesc: "Van life en France : quelle ville utiliser comme base fixe ou de départ ? Critères : stationnement, domiciliation, accès nature, coût de la vie, météo. Guide pratique 2027.",
     category: "lifestyle",
     emoji: "🚐",
     readMinutes: 8,
@@ -22070,8 +22070,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "ingenieur-aeronautique-defense-france-2026",
-    title: "Ingénieur aéronautique et défense en France : où s'installer en 2026",
-    metaTitle: "Ingénieur aéronautique et défense 2026 — Toulouse, Bordeaux",
+    title: "Ingénieur aéronautique et défense en France : où s'installer en 2027",
+    metaTitle: "Ingénieur aéronautique et défense 2027 — Toulouse, Bordeaux",
     metaDesc: "Ingénieur dans l'aéronautique ou la défense en France : les meilleures villes pour travailler chez Airbus, Safran, Thales, MBDA, Naval Group. Qualité de vie, salaires, logement, bassins d'emploi.",
     category: "lifestyle",
     emoji: "✈️",
@@ -22111,9 +22111,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "enseignants-professeurs-quelle-ville-france-2026",
-    title: "Enseignants : quelle ville choisir pour son poste en 2026",
-    metaTitle: "Enseignant 2026 : quelle ville, académie, mutation",
-    metaDesc: "Enseignants en mutation ou primo-affectés : quelle ville choisir pour son poste ? Qualité de vie, coût du logement, écoles pour vos enfants, ambiance académique. Guide 2026.",
+    title: "Enseignants : quelle ville choisir pour son poste en 2027",
+    metaTitle: "Enseignant 2027 : quelle ville, académie, mutation",
+    metaDesc: "Enseignants en mutation ou primo-affectés : quelle ville choisir pour son poste ? Qualité de vie, coût du logement, écoles pour vos enfants, ambiance académique. Guide 2027.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -22152,9 +22152,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "expats-anglophones-france-villes-installation-2026",
-    title: "Expats anglophones en France : les meilleures villes pour s'installer en 2026",
-    metaTitle: "Expats anglophones en France 2026 — meilleures villes",
-    metaDesc: "Anglophones s'installant en France : quelles villes choisir ? Communautés anglophone actives, services en anglais, qualité de vie, coût de la vie, écoles bilingues. Guide complet 2026.",
+    title: "Expats anglophones en France : les meilleures villes pour s'installer en 2027",
+    metaTitle: "Expats anglophones en France 2027 — meilleures villes",
+    metaDesc: "Anglophones s'installant en France : quelles villes choisir ? Communautés anglophone actives, services en anglais, qualité de vie, coût de la vie, écoles bilingues. Guide complet 2027.",
     category: "lifestyle",
     emoji: "🌍",
     readMinutes: 9,
@@ -22193,9 +22193,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "professions-sante-infirmier-medecin-quelle-ville-2026",
-    title: "Professions de santé : quelle ville choisir pour exercer en France en 2026",
-    metaTitle: "Médecin, infirmier 2026 : quelle ville choisir en France ?",
-    metaDesc: "Médecins, infirmiers, kinés, pharmaciens : quelle ville choisir pour exercer en France ? Déserts médicaux, primes d'installation, qualité de vie, hôpitaux et cliniques. Guide 2026.",
+    title: "Professions de santé : quelle ville choisir pour exercer en France en 2027",
+    metaTitle: "Médecin, infirmier 2027 : quelle ville choisir en France ?",
+    metaDesc: "Médecins, infirmiers, kinés, pharmaciens : quelle ville choisir pour exercer en France ? Déserts médicaux, primes d'installation, qualité de vie, hôpitaux et cliniques. Guide 2027.",
     category: "lifestyle",
     emoji: "🩺",
     readMinutes: 9,
@@ -22234,8 +22234,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-besancon-quel-quartier-budget-2026",
-    title: "Acheter à Besançon en 2026 : quartiers, prix et budget",
-    metaTitle: "Acheter à Besançon 2026 — Prix par quartier, budget",
+    title: "Acheter à Besançon en 2027 : quartiers, prix et budget",
+    metaTitle: "Acheter à Besançon 2027 — Prix par quartier, budget",
     metaDesc: "Guide complet pour acheter à Besançon : prix au m² par quartier (Boucle, Battant, Mouillère), budget studio à maison, citadelle UNESCO, frontière suisse. Données 2026.",
     category: "budget",
     emoji: "🏰",
@@ -22279,9 +22279,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-troyes-quel-quartier-budget-2026",
-    title: "Acheter à Troyes en 2026 : prix, quartiers, budget achat immobilier",
-    metaTitle: "Acheter à Troyes 2026 — Prix par quartier, achat immobilier",
-    metaDesc: "Guide achat immobilier Troyes 2026 : prix au m² centre médiéval, Saint-Martin, périphérie. À 1h30 de Paris, l'une des plus belles villes médiévales de France.",
+    title: "Acheter à Troyes en 2027 : prix, quartiers, budget achat immobilier",
+    metaTitle: "Acheter à Troyes 2027 — Prix par quartier, achat immobilier",
+    metaDesc: "Guide achat immobilier Troyes 2027 : prix au m² centre médiéval, Saint-Martin, périphérie. À 1h30 de Paris, l'une des plus belles villes médiévales de France.",
     category: "budget",
     emoji: "🦢",
     readMinutes: 7,
@@ -22324,9 +22324,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-valence-quel-quartier-budget-2026",
-    title: "Acheter à Valence en 2026 : prix, quartiers et conseils",
-    metaTitle: "Acheter à Valence (Drôme) 2026 — Prix immobiliers par quartier",
-    metaDesc: "Guide achat immobilier Valence 2026 : prix 1 900–2 800 €/m², quartiers Victor Hugo, Fontbarlettes, plan-les-Ouates. Soleil, TGV Lyon 35min.",
+    title: "Acheter à Valence en 2027 : prix, quartiers et conseils",
+    metaTitle: "Acheter à Valence (Drôme) 2027 — Prix immobiliers par quartier",
+    metaDesc: "Guide achat immobilier Valence 2027 : prix 1 900–2 800 €/m², quartiers Victor Hugo, Fontbarlettes, plan-les-Ouates. Soleil, TGV Lyon 35min.",
     category: "budget",
     emoji: "🌻",
     readMinutes: 7,
@@ -22369,9 +22369,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-poitiers-quel-quartier-budget-2026",
-    title: "Acheter à Poitiers en 2026 : quartiers, prix au m², conseils",
-    metaTitle: "Acheter à Poitiers 2026 — Prix immobilier par quartier",
-    metaDesc: "Guide achat immobilier Poitiers 2026 : centre médiéval, Demi-Lune, banlieues. Prix 1 400–2 500 €/m². 30 000 étudiants, Paris 1h20 TGV, rendements locatifs étudiants.",
+    title: "Acheter à Poitiers en 2027 : quartiers, prix au m², conseils",
+    metaTitle: "Acheter à Poitiers 2027 — Prix immobilier par quartier",
+    metaDesc: "Guide achat immobilier Poitiers 2027 : centre médiéval, Demi-Lune, banlieues. Prix 1 400–2 500 €/m². 30 000 étudiants, Paris 1h20 TGV, rendements locatifs étudiants.",
     category: "budget",
     emoji: "🐴",
     readMinutes: 7,
@@ -22414,9 +22414,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-vannes-quel-quartier-budget-2026",
-    title: "Acheter à Vannes en 2026 : quartiers, prix et budget",
-    metaTitle: "Acheter à Vannes 2026 — Prix immobilier quartier par quartier",
-    metaDesc: "Guide achat immobilier Vannes 2026 : prix 2 500–4 500 €/m² (centre médiéval, Saint-Patern, Tohannic). Golfe du Morbihan, tram, TGV Paris 2h40.",
+    title: "Acheter à Vannes en 2027 : quartiers, prix et budget",
+    metaTitle: "Acheter à Vannes 2027 — Prix immobilier quartier par quartier",
+    metaDesc: "Guide achat immobilier Vannes 2027 : prix 2 500–4 500 €/m² (centre médiéval, Saint-Patern, Tohannic). Golfe du Morbihan, tram, TGV Paris 2h40.",
     category: "budget",
     emoji: "⛵",
     readMinutes: 8,
@@ -22459,9 +22459,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-mulhouse-quel-quartier-budget-2026",
-    title: "Acheter à Mulhouse en 2026 : prix, quartiers et marché immobilier",
-    metaTitle: "Acheter à Mulhouse 2026 — Prix immobilier par quartier",
-    metaDesc: "Guide achat immobilier Mulhouse 2026 : prix 900–2 200 €/m² selon quartier. Frontalier Suisse (Bâle 25km), tramway, rendements locatifs élevés, pièges à éviter.",
+    title: "Acheter à Mulhouse en 2027 : prix, quartiers et marché immobilier",
+    metaTitle: "Acheter à Mulhouse 2027 — Prix immobilier par quartier",
+    metaDesc: "Guide achat immobilier Mulhouse 2027 : prix 900–2 200 €/m² selon quartier. Frontalier Suisse (Bâle 25km), tramway, rendements locatifs élevés, pièges à éviter.",
     category: "budget",
     emoji: "🏭",
     readMinutes: 7,
@@ -22504,8 +22504,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-aix-en-provence-guide-2026",
-    title: "Quitter Aix-en-Provence en 2026 : où aller quand Provence devient trop chère",
-    metaTitle: "Quitter Aix-en-Provence 2026 — les alternatives abordables",
+    title: "Quitter Aix-en-Provence en 2027 : où aller quand Provence devient trop chère",
+    metaTitle: "Quitter Aix-en-Provence 2027 — les alternatives abordables",
     metaDesc: "Aix-en-Provence à 5 000 €/m² et des loyers qui dépassent Lyon : qui part, où va-t-on, et quelles alternatives provençales ou occitanes permettent de garder le soleil sans le prix ?",
     category: "comparaison",
     emoji: "🌿",
@@ -22549,9 +22549,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-françaises-qui-perdent-habitants-2026",
-    title: "Les villes françaises qui perdent des habitants en 2026 — comprendre et décider",
-    metaTitle: "Villes françaises en déclin démographique 2026 — lesquelles ?",
-    metaDesc: "Quelles villes françaises perdent le plus d'habitants en 2026 ? Déclin démographique : causes, conséquences sur l'immobilier et les services, et pourquoi certaines méritent quand même d'être considérées.",
+    title: "Les villes françaises qui perdent des habitants en 2027 — comprendre et décider",
+    metaTitle: "Villes françaises en déclin démographique 2027 — lesquelles ?",
+    metaDesc: "Quelles villes françaises perdent le plus d'habitants en 2027 ? Déclin démographique : causes, conséquences sur l'immobilier et les services, et pourquoi certaines méritent quand même d'être considérées.",
     category: "lifestyle",
     emoji: "📉",
     readMinutes: 11,
@@ -22594,8 +22594,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "deserts-medicaux-france-villes-eviter-2026",
-    title: "Déserts médicaux en France 2026 : ce que ça change concrètement pour choisir sa ville",
-    metaTitle: "Déserts médicaux France 2026 — zones sous-dotées, où vivre",
+    title: "Déserts médicaux en France 2027 : ce que ça change concrètement pour choisir sa ville",
+    metaTitle: "Déserts médicaux France 2027 — zones sous-dotées, où vivre",
     metaDesc: "Déserts médicaux en France : cartographie 2026 par département, impact sur la qualité de vie, et comment éviter de vous installer dans une zone où trouver un médecin prend 6 mois.",
     category: "lifestyle",
     emoji: "🏥",
@@ -22639,9 +22639,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "immobilier-sous-cote-france-2026-villes",
-    title: "Les villes françaises immobilièrement sous-cotées en 2026 — le guide honnête",
-    metaTitle: "Immobilier sous-coté France 2026 — villes au bon rapport prix",
-    metaDesc: "Quelles villes françaises offrent le meilleur rapport qualité de vie / prix immobilier en 2026 ? Le guide des marchés sous-cotés qui n'ont pas encore rattrapé leur retard.",
+    title: "Les villes françaises immobilièrement sous-cotées en 2027 — le guide honnête",
+    metaTitle: "Immobilier sous-coté France 2027 — villes au bon rapport prix",
+    metaDesc: "Quelles villes françaises offrent le meilleur rapport qualité de vie / prix immobilier en 2027 ? Le guide des marchés sous-cotés qui n'ont pas encore rattrapé leur retard.",
     category: "budget",
     emoji: "💎",
     readMinutes: 11,
@@ -22684,9 +22684,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "nouvelles-villes-montantes-france-2026",
-    title: "Les nouvelles villes qui montent en France en 2026 — émergence et trajectoires",
-    metaTitle: "Villes françaises montantes 2026 — émergence, trajectoires",
-    metaDesc: "Quelles villes françaises gagnent en attractivité en 2026 ? Émergence post-Covid, télétravail, réurbanisation des villes moyennes: les marchés en train de se retourner.",
+    title: "Les nouvelles villes qui montent en France en 2027 — émergence et trajectoires",
+    metaTitle: "Villes françaises montantes 2027 — émergence, trajectoires",
+    metaDesc: "Quelles villes françaises gagnent en attractivité en 2027 ? Émergence post-Covid, télétravail, réurbanisation des villes moyennes: les marchés en train de se retourner.",
     category: "lifestyle",
     emoji: "🚀",
     readMinutes: 10,
@@ -22729,9 +22729,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "tgv-paris-accessibilite-villes-2026",
-    title: "Accessibilité TGV depuis Paris en 2026 : le guide pour choisir sa ville",
-    metaTitle: "TGV Paris vers les villes françaises 2026 — temps de trajet, coût",
-    metaDesc: "Temps de trajet TGV depuis Paris vers les principales villes françaises en 2026. Fréquences, coût de l'abonnement, gares secondaires : le guide pratique pour le navetteur et le choisisseur de ville.",
+    title: "Accessibilité TGV depuis Paris en 2027 : le guide pour choisir sa ville",
+    metaTitle: "TGV Paris vers les villes françaises 2027 — temps de trajet, coût",
+    metaDesc: "Temps de trajet TGV depuis Paris vers les principales villes françaises en 2027. Fréquences, coût de l'abonnement, gares secondaires : le guide pratique pour le navetteur et le choisisseur de ville.",
     category: "teletravail",
     emoji: "🚄",
     readMinutes: 10,
@@ -22774,8 +22774,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-valence-guide-2026",
-    title: "Quitter Valence (Drôme) en 2026 : où aller et pourquoi",
-    metaTitle: "Quitter Valence 2026 — les alternatives hors de la Drôme",
+    title: "Quitter Valence (Drôme) en 2027 : où aller et pourquoi",
+    metaTitle: "Quitter Valence 2027 — les alternatives hors de la Drôme",
     metaDesc: "Pourquoi quitte-t-on Valence ? Emploi limité, pression locative, manque de centre-ville vivant. Les alternatives crédibles : Grenoble, Lyon, Montélimar, Bourg-lès-Valence.",
     category: "comparaison",
     emoji: "🌻",
@@ -22819,9 +22819,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-troyes-guide-2026",
-    title: "Quitter Troyes en 2026 : alternatives et destination après l'Aube",
-    metaTitle: "Quitter Troyes 2026 — Où partir quand la Champagne ne suffit plus",
-    metaDesc: "Pourquoi quitter Troyes ? Marché de l'emploi limité, manque de dynamisme culturel. Les alternatives : Reims, Dijon, Paris, Sens. Guide complet 2026.",
+    title: "Quitter Troyes en 2027 : alternatives et destination après l'Aube",
+    metaTitle: "Quitter Troyes 2027 — Où partir quand la Champagne ne suffit plus",
+    metaDesc: "Pourquoi quitter Troyes ? Marché de l'emploi limité, manque de dynamisme culturel. Les alternatives : Reims, Dijon, Paris, Sens. Guide complet 2027.",
     category: "comparaison",
     emoji: "🦢",
     readMinutes: 7,
@@ -22864,9 +22864,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-vannes-guide-2026",
-    title: "Quitter Vannes en 2026 : où aller quand le Golfe du Morbihan devient trop cher",
-    metaTitle: "Quitter Vannes 2026 — alternatives quand le Morbihan est cher",
-    metaDesc: "Vannes à 3 500–4 500 €/m² : qui quitte, où va-t-on ? Lorient, Brest, Rennes, Saint-Brieuc. Guide complet quitter Vannes 2026.",
+    title: "Quitter Vannes en 2027 : où aller quand le Golfe du Morbihan devient trop cher",
+    metaTitle: "Quitter Vannes 2027 — alternatives quand le Morbihan est cher",
+    metaDesc: "Vannes à 3 500–4 500 €/m² : qui quitte, où va-t-on ? Lorient, Brest, Rennes, Saint-Brieuc. Guide complet quitter Vannes 2027.",
     category: "comparaison",
     emoji: "⛵",
     readMinutes: 8,
@@ -22909,9 +22909,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-poitiers-guide-2026",
-    title: "Quitter Poitiers en 2026 : alternatives à la Vienne",
-    metaTitle: "Quitter Poitiers 2026 — où aller, les alternatives crédibles",
-    metaDesc: "Pourquoi quitter Poitiers ? Emploi limité hors université, ville terne. Les alternatives : La Rochelle, Tours, Bordeaux, Niort. Guide 2026.",
+    title: "Quitter Poitiers en 2027 : alternatives à la Vienne",
+    metaTitle: "Quitter Poitiers 2027 — où aller, les alternatives crédibles",
+    metaDesc: "Pourquoi quitter Poitiers ? Emploi limité hors université, ville terne. Les alternatives : La Rochelle, Tours, Bordeaux, Niort. Guide 2027.",
     category: "comparaison",
     emoji: "🐴",
     readMinutes: 7,
@@ -22954,9 +22954,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-colmar-guide-2026",
-    title: "Quitter Colmar en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Colmar 2026 — Alternatives Alsace, où partir après Colmar",
-    metaDesc: "Pourquoi quitter Colmar ? Tourisme saturé, emploi limité. Les alternatives : Strasbourg, Mulhouse, Besançon, Bâle (Suisse). Guide comparatif 2026.",
+    title: "Quitter Colmar en 2027 : pourquoi et où aller",
+    metaTitle: "Quitter Colmar 2027 — Alternatives Alsace, où partir après Colmar",
+    metaDesc: "Pourquoi quitter Colmar ? Tourisme saturé, emploi limité. Les alternatives : Strasbourg, Mulhouse, Besançon, Bâle (Suisse). Guide comparatif 2027.",
     category: "comparaison",
     emoji: "🍷",
     readMinutes: 7,
@@ -22999,9 +22999,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-biarritz-guide-2026",
-    title: "Quitter Biarritz en 2026 : quand le Pays Basque devient inaccessible",
-    metaTitle: "Quitter Biarritz 2026 — alternatives sur la côte basque",
-    metaDesc: "Biarritz à 5 000–7 500 €/m² : qui part, où va-t-on ? Bayonne, Anglet, Saint-Jean-de-Luz, Dax. Guide complet quitter Biarritz 2026.",
+    title: "Quitter Biarritz en 2027 : quand le Pays Basque devient inaccessible",
+    metaTitle: "Quitter Biarritz 2027 — alternatives sur la côte basque",
+    metaDesc: "Biarritz à 5 000–7 500 €/m² : qui part, où va-t-on ? Bayonne, Anglet, Saint-Jean-de-Luz, Dax. Guide complet quitter Biarritz 2027.",
     category: "comparaison",
     emoji: "🏄",
     readMinutes: 8,
@@ -23044,9 +23044,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-chartres-quel-quartier-budget-2026",
-    title: "Acheter à Chartres en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Chartres 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Chartres 2026. Prix 2 000–3 200 €/m², 1h08 de Paris Montparnasse. Quartiers Cathédrale, Beaulieu, Rechèvres. Comparatif complet.",
+    title: "Acheter à Chartres en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Chartres 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Chartres 2027. Prix 2 000–3 200 €/m², 1h08 de Paris Montparnasse. Quartiers Cathédrale, Beaulieu, Rechèvres. Comparatif complet.",
     category: "budget",
     emoji: "⛪",
     readMinutes: 8,
@@ -23084,9 +23084,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-lorient-quel-quartier-budget-2026",
-    title: "Acheter à Lorient en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Lorient 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Lorient 2026. Prix 1 600–2 800 €/m², port militaire, festival interceltique. Quartiers Lorient centre, Keryado, Lanester. Guide complet.",
+    title: "Acheter à Lorient en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Lorient 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Lorient 2027. Prix 1 600–2 800 €/m², port militaire, festival interceltique. Quartiers Lorient centre, Keryado, Lanester. Guide complet.",
     category: "budget",
     emoji: "🛳️",
     readMinutes: 8,
@@ -23124,9 +23124,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-chambery-quel-quartier-budget-2026",
-    title: "Acheter à Chambéry en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Chambéry 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Chambéry 2026. Prix 2 200–3 600 €/m², alternative à Annecy. Quartiers Vieux-Chambéry, Jacob-Bellecombette, Bissy. Comparatif complet.",
+    title: "Acheter à Chambéry en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Chambéry 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Chambéry 2027. Prix 2 200–3 600 €/m², alternative à Annecy. Quartiers Vieux-Chambéry, Jacob-Bellecombette, Bissy. Comparatif complet.",
     category: "budget",
     emoji: "🏰",
     readMinutes: 8,
@@ -23164,9 +23164,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-colmar-quel-quartier-budget-2026",
-    title: "Acheter à Colmar en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Colmar 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Colmar 2026. Prix 2 200–3 800 €/m², frontaliers Bâle-Fribourg. Quartiers Petite Venise, Tanner, Ladhof. Comparatif complet 2026.",
+    title: "Acheter à Colmar en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Colmar 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Colmar 2027. Prix 2 200–3 800 €/m², frontaliers Bâle-Fribourg. Quartiers Petite Venise, Tanner, Ladhof. Comparatif complet 2027.",
     category: "budget",
     emoji: "🍷",
     readMinutes: 8,
@@ -23205,9 +23205,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-arles-quel-quartier-budget-2026",
-    title: "Acheter à Arles en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Arles 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Arles 2026. Prix 1 900–3 500 €/m², LUMA, Camargue. Quartiers Arles centre, Trinquetaille, Griffeuille. Comparatif complet 2026.",
+    title: "Acheter à Arles en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Arles 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Arles 2027. Prix 1 900–3 500 €/m², LUMA, Camargue. Quartiers Arles centre, Trinquetaille, Griffeuille. Comparatif complet 2027.",
     category: "budget",
     emoji: "🌾",
     readMinutes: 8,
@@ -23245,9 +23245,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-biarritz-quel-quartier-budget-2026",
-    title: "Acheter à Biarritz en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter à Biarritz 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Biarritz 2026. Prix 4 500–8 000 €/m², surf, côte basque. Quartiers Centre, Côte des Basques, Milady, Angloy. Comparatif complet.",
+    title: "Acheter à Biarritz en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter à Biarritz 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Biarritz 2027. Prix 4 500–8 000 €/m², surf, côte basque. Quartiers Centre, Côte des Basques, Milady, Angloy. Comparatif complet.",
     category: "budget",
     emoji: "🏄",
     readMinutes: 8,
@@ -23285,9 +23285,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "nice-vs-marseille-comparatif-2026",
-    title: "Nice vs Marseille 2026 : laquelle choisir pour s'installer ?",
-    metaTitle: "Nice vs Marseille 2026 — Comparatif complet pour s'installer",
-    metaDesc: "Nice ou Marseille ? Comparatif immobilier, emploi, sécurité, plages, transports 2026. Deux villes méditerranéennes avec des profils très différents. Guide objectif.",
+    title: "Nice vs Marseille 2027 : laquelle choisir pour s'installer ?",
+    metaTitle: "Nice vs Marseille 2027 — Comparatif complet pour s'installer",
+    metaDesc: "Nice ou Marseille ? Comparatif immobilier, emploi, sécurité, plages, transports 2027. Deux villes méditerranéennes avec des profils très différents. Guide objectif.",
     category: "comparaison",
     emoji: "🌊",
     readMinutes: 9,
@@ -23326,9 +23326,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "montpellier-vs-toulouse-comparatif-2026",
-    title: "Montpellier vs Toulouse 2026 : laquelle choisir pour s'installer ?",
-    metaTitle: "Montpellier vs Toulouse 2026 — Comparatif pour s'installer",
-    metaDesc: "Montpellier ou Toulouse ? Comparatif immobilier, emploi, étudiants, soleil, transports 2026. Deux métropoles du Sud en pleine croissance. Guide objectif.",
+    title: "Montpellier vs Toulouse 2027 : laquelle choisir pour s'installer ?",
+    metaTitle: "Montpellier vs Toulouse 2027 — Comparatif pour s'installer",
+    metaDesc: "Montpellier ou Toulouse ? Comparatif immobilier, emploi, étudiants, soleil, transports 2027. Deux métropoles du Sud en pleine croissance. Guide objectif.",
     category: "comparaison",
     emoji: "☀️",
     readMinutes: 9,
@@ -23367,9 +23367,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "strasbourg-vs-colmar-comparatif-2026",
-    title: "Strasbourg vs Colmar 2026 : laquelle choisir pour s'installer en Alsace ?",
-    metaTitle: "Strasbourg vs Colmar 2026 — Comparatif pour vivre en Alsace",
-    metaDesc: "Strasbourg ou Colmar ? Comparatif immobilier, emploi, frontaliers, charme, transports 2026. Deux villes alsaciennes très différentes. Guide objectif.",
+    title: "Strasbourg vs Colmar 2027 : laquelle choisir pour s'installer en Alsace ?",
+    metaTitle: "Strasbourg vs Colmar 2027 — Comparatif pour vivre en Alsace",
+    metaDesc: "Strasbourg ou Colmar ? Comparatif immobilier, emploi, frontaliers, charme, transports 2027. Deux villes alsaciennes très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🥨",
     readMinutes: 8,
@@ -23408,9 +23408,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-arles-guide-2026",
-    title: "Quitter Arles en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Arles 2026 — Alternatives Provence, où partir après Arles",
-    metaDesc: "Pourquoi quitter Arles ? Tourisme saturé, économie fragile, chaleur extrême. Les alternatives : Avignon, Nîmes, Montpellier, Aix. Guide comparatif 2026.",
+    title: "Quitter Arles en 2027 : pourquoi et où aller",
+    metaTitle: "Quitter Arles 2027 — Alternatives Provence, où partir après Arles",
+    metaDesc: "Pourquoi quitter Arles ? Tourisme saturé, économie fragile, chaleur extrême. Les alternatives : Avignon, Nîmes, Montpellier, Aix. Guide comparatif 2027.",
     category: "comparaison",
     emoji: "🌾",
     readMinutes: 7,
@@ -23449,9 +23449,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-chambery-guide-2026",
-    title: "Quitter Chambéry en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Chambéry 2026 — alternatives en Savoie, où partir",
-    metaDesc: "Pourquoi quitter Chambéry ? Emploi limité, Annecy trop chère. Les alternatives : Grenoble, Lyon, Annecy, Aix-les-Bains. Guide comparatif 2026.",
+    title: "Quitter Chambéry en 2027 : pourquoi et où aller",
+    metaTitle: "Quitter Chambéry 2027 — alternatives en Savoie, où partir",
+    metaDesc: "Pourquoi quitter Chambéry ? Emploi limité, Annecy trop chère. Les alternatives : Grenoble, Lyon, Annecy, Aix-les-Bains. Guide comparatif 2027.",
     category: "comparaison",
     emoji: "🏰",
     readMinutes: 7,
@@ -23490,9 +23490,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-chartres-guide-2026",
-    title: "Quitter Chartres en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Chartres 2026 — Alternatives, où partir après Chartres",
-    metaDesc: "Pourquoi quitter Chartres ? Dépendance Paris, emploi limité. Les alternatives : Orléans, Rambouillet, Tours, Rouen. Guide comparatif 2026.",
+    title: "Quitter Chartres en 2027 : pourquoi et où aller",
+    metaTitle: "Quitter Chartres 2027 — Alternatives, où partir après Chartres",
+    metaDesc: "Pourquoi quitter Chartres ? Dépendance Paris, emploi limité. Les alternatives : Orléans, Rambouillet, Tours, Rouen. Guide comparatif 2027.",
     category: "comparaison",
     emoji: "⛪",
     readMinutes: 7,
@@ -23531,9 +23531,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-lorient-guide-2026",
-    title: "Quitter Lorient en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Lorient 2026 — alternatives en Bretagne, où partir",
-    metaDesc: "Pourquoi quitter Lorient ? Chômage élevé, emploi limité. Les alternatives : Vannes, Quimper, Rennes, Brest. Guide comparatif 2026.",
+    title: "Quitter Lorient en 2027 : pourquoi et où aller",
+    metaTitle: "Quitter Lorient 2027 — alternatives en Bretagne, où partir",
+    metaDesc: "Pourquoi quitter Lorient ? Chômage élevé, emploi limité. Les alternatives : Vannes, Quimper, Rennes, Brest. Guide comparatif 2027.",
     category: "comparaison",
     emoji: "🛳️",
     readMinutes: 7,
@@ -23572,9 +23572,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "quitter-orleans-guide-2026",
-    title: "Quitter Orléans en 2026 : pourquoi et où aller",
-    metaTitle: "Quitter Orléans 2026 — alternatives sur la Loire, où partir",
-    metaDesc: "Pourquoi quitter Orléans ? Proximité Paris stressante, centre-ville commercial en souffrance. Les alternatives : Tours, Blois, Paris, Nantes. Guide comparatif 2026.",
+    title: "Quitter Orléans en 2027 : pourquoi et où aller",
+    metaTitle: "Quitter Orléans 2027 — alternatives sur la Loire, où partir",
+    metaDesc: "Pourquoi quitter Orléans ? Proximité Paris stressante, centre-ville commercial en souffrance. Les alternatives : Tours, Blois, Paris, Nantes. Guide comparatif 2027.",
     category: "comparaison",
     emoji: "🌹",
     readMinutes: 7,
@@ -23613,9 +23613,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-normandie-guide-2026",
-    title: "Vivre en Normandie en 2026 : guide complet de la région",
-    metaTitle: "Vivre en Normandie 2026 — Guide complet, villes, qualité de vie",
-    metaDesc: "Tout sur vivre en Normandie : Rouen, Caen, Le Havre, falaises, mer, immobilier. Guide complet pour s'installer en Normandie en 2026.",
+    title: "Vivre en Normandie en 2027 : guide complet de la région",
+    metaTitle: "Vivre en Normandie 2027 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Normandie : Rouen, Caen, Le Havre, falaises, mer, immobilier. Guide complet pour s'installer en Normandie en 2027.",
     category: "region",
     emoji: "⚓",
     readMinutes: 9,
@@ -23654,9 +23654,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-bretagne-guide-2026",
-    title: "Vivre en Bretagne en 2026 : guide complet de la région",
-    metaTitle: "Vivre en Bretagne 2026 — Guide complet, villes, qualité de vie",
-    metaDesc: "Tout sur vivre en Bretagne : Rennes, Brest, Saint-Malo, Quimper, immobilier, emploi, mer. Guide complet pour s'installer en Bretagne en 2026.",
+    title: "Vivre en Bretagne en 2027 : guide complet de la région",
+    metaTitle: "Vivre en Bretagne 2027 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Bretagne : Rennes, Brest, Saint-Malo, Quimper, immobilier, emploi, mer. Guide complet pour s'installer en Bretagne en 2027.",
     category: "region",
     emoji: "🌊",
     readMinutes: 9,
@@ -23695,9 +23695,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-en-occitanie-guide-2026",
-    title: "Vivre en Occitanie en 2026 : guide complet de la région",
-    metaTitle: "Vivre en Occitanie 2026 — Guide complet, villes, qualité de vie",
-    metaDesc: "Tout sur vivre en Occitanie : Toulouse, Montpellier, Nîmes, Perpignan, Carcassonne, immobilier, emploi, soleil. Guide complet pour s'installer en Occitanie en 2026.",
+    title: "Vivre en Occitanie en 2027 : guide complet de la région",
+    metaTitle: "Vivre en Occitanie 2027 — Guide complet, villes, qualité de vie",
+    metaDesc: "Tout sur vivre en Occitanie : Toulouse, Montpellier, Nîmes, Perpignan, Carcassonne, immobilier, emploi, soleil. Guide complet pour s'installer en Occitanie en 2027.",
     category: "region",
     emoji: "☀️",
     readMinutes: 9,
@@ -23736,9 +23736,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "acheter-a-le-mans-quel-quartier-budget-2026",
-    title: "Acheter au Mans en 2026 : quartiers, budget et ce qu'on ne vous dit pas",
-    metaTitle: "Acheter au Mans 2026 — Prix immobilier, quartiers",
-    metaDesc: "Guide achat immobilier Le Mans 2026. Prix 1 400–2 600 €/m², TGV Paris 56 min. Quartiers Vieux-Mans, Jacobins, Ronceray-Glonnières. Comparatif complet.",
+    title: "Acheter au Mans en 2027 : quartiers, budget et ce qu'on ne vous dit pas",
+    metaTitle: "Acheter au Mans 2027 — Prix immobilier, quartiers",
+    metaDesc: "Guide achat immobilier Le Mans 2027. Prix 1 400–2 600 €/m², TGV Paris 56 min. Quartiers Vieux-Mans, Jacobins, Ronceray-Glonnières. Comparatif complet.",
     category: "budget",
     emoji: "🏎️",
     readMinutes: 8,
@@ -23777,9 +23777,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-paris-2026",
-    title: "Budget mensuel réaliste à Paris en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Paris 2026 — Ce que coûte vraiment vivre à Paris",
-    metaDesc: "Combien faut-il pour vivre à Paris en 2026 ? Budget mensuel détaillé : loyer, transport, courses, sorties. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Paris en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Paris 2027 — Ce que coûte vraiment vivre à Paris",
+    metaDesc: "Combien faut-il pour vivre à Paris en 2027 ? Budget mensuel détaillé : loyer, transport, courses, sorties. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🗼",
     readMinutes: 7,
@@ -23817,9 +23817,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-lyon-2026",
-    title: "Budget mensuel réaliste à Lyon en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Lyon 2026 — Ce que coûte vraiment vivre à Lyon",
-    metaDesc: "Combien faut-il pour vivre à Lyon en 2026 ? Budget mensuel détaillé : loyer, transport, courses, restau. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Lyon en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Lyon 2027 — Ce que coûte vraiment vivre à Lyon",
+    metaDesc: "Combien faut-il pour vivre à Lyon en 2027 ? Budget mensuel détaillé : loyer, transport, courses, restau. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🥩",
     readMinutes: 7,
@@ -23857,9 +23857,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-bordeaux-2026",
-    title: "Budget mensuel réaliste à Bordeaux en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Bordeaux 2026 — ce que coûte vraiment la vie",
-    metaDesc: "Combien faut-il pour vivre à Bordeaux en 2026 ? Budget mensuel détaillé : loyer, tram, courses, vin. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Bordeaux en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Bordeaux 2027 — ce que coûte vraiment la vie",
+    metaDesc: "Combien faut-il pour vivre à Bordeaux en 2027 ? Budget mensuel détaillé : loyer, tram, courses, vin. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🍷",
     readMinutes: 7,
@@ -23897,9 +23897,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-toulouse-2026",
-    title: "Budget mensuel réaliste à Toulouse en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Toulouse 2026 — ce que coûte vraiment la vie",
-    metaDesc: "Combien faut-il pour vivre à Toulouse en 2026 ? Budget mensuel détaillé : loyer, métro, courses, cassoulet. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Toulouse en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Toulouse 2027 — ce que coûte vraiment la vie",
+    metaDesc: "Combien faut-il pour vivre à Toulouse en 2027 ? Budget mensuel détaillé : loyer, métro, courses, cassoulet. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🌹",
     readMinutes: 7,
@@ -23937,9 +23937,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-montpellier-2026",
-    title: "Budget mensuel réaliste à Montpellier en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Montpellier 2026 — ce que coûte vraiment la vie",
-    metaDesc: "Combien faut-il pour vivre à Montpellier en 2026 ? Budget mensuel détaillé : loyer, tram, mer, plages. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Montpellier en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Montpellier 2027 — ce que coûte vraiment la vie",
+    metaDesc: "Combien faut-il pour vivre à Montpellier en 2027 ? Budget mensuel détaillé : loyer, tram, mer, plages. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🌊",
     readMinutes: 7,
@@ -23977,9 +23977,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-nice-2026",
-    title: "Budget mensuel réaliste à Nice en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Nice 2026 — Ce que coûte vraiment vivre à Nice",
-    metaDesc: "Combien faut-il pour vivre à Nice en 2026 ? Budget mensuel détaillé : loyer Côte d'Azur, tram, mer, Monaco. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Nice en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Nice 2027 — Ce que coûte vraiment vivre à Nice",
+    metaDesc: "Combien faut-il pour vivre à Nice en 2027 ? Budget mensuel détaillé : loyer Côte d'Azur, tram, mer, Monaco. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🌴",
     readMinutes: 7,
@@ -24017,9 +24017,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-nantes-2026",
-    title: "Budget mensuel réaliste à Nantes en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Nantes 2026 — Ce que coûte vraiment vivre à Nantes",
-    metaDesc: "Combien faut-il pour vivre à Nantes en 2026 ? Budget mensuel détaillé : loyer, tramway, Loire, Atlantique. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Nantes en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Nantes 2027 — Ce que coûte vraiment vivre à Nantes",
+    metaDesc: "Combien faut-il pour vivre à Nantes en 2027 ? Budget mensuel détaillé : loyer, tramway, Loire, Atlantique. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🏰",
     readMinutes: 7,
@@ -24057,9 +24057,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-rennes-2026",
-    title: "Budget mensuel réaliste à Rennes en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Rennes 2026 — Ce que coûte vraiment vivre à Rennes",
-    metaDesc: "Combien faut-il pour vivre à Rennes en 2026 ? Budget mensuel détaillé : loyer, métro, crêpes, Bretagne. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Rennes en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Rennes 2027 — Ce que coûte vraiment vivre à Rennes",
+    metaDesc: "Combien faut-il pour vivre à Rennes en 2027 ? Budget mensuel détaillé : loyer, métro, crêpes, Bretagne. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🌊",
     readMinutes: 7,
@@ -24097,9 +24097,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "rennes-vs-nantes-comparatif-2026",
-    title: "Rennes vs Nantes 2026 : laquelle choisir pour s'installer ?",
-    metaTitle: "Rennes vs Nantes 2026 — Comparatif complet pour s'installer",
-    metaDesc: "Rennes ou Nantes ? Comparatif immobilier, emploi, Bretagne vs Loire, transports 2026. Deux métropoles de l'Ouest avec des profils différents. Guide objectif.",
+    title: "Rennes vs Nantes 2027 : laquelle choisir pour s'installer ?",
+    metaTitle: "Rennes vs Nantes 2027 — Comparatif complet pour s'installer",
+    metaDesc: "Rennes ou Nantes ? Comparatif immobilier, emploi, Bretagne vs Loire, transports 2027. Deux métropoles de l'Ouest avec des profils différents. Guide objectif.",
     category: "comparaison",
     emoji: "🌊",
     readMinutes: 8,
@@ -24138,9 +24138,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "lille-vs-amiens-comparatif-2026",
-    title: "Lille vs Amiens 2026 : laquelle choisir pour s'installer dans le Nord ?",
-    metaTitle: "Lille vs Amiens 2026 — Comparatif Hauts-de-France",
-    metaDesc: "Lille ou Amiens ? Comparatif immobilier, emploi, Eurostar, qualité de vie nord France 2026. Deux villes des Hauts-de-France très différentes. Guide objectif.",
+    title: "Lille vs Amiens 2027 : laquelle choisir pour s'installer dans le Nord ?",
+    metaTitle: "Lille vs Amiens 2027 — Comparatif Hauts-de-France",
+    metaDesc: "Lille ou Amiens ? Comparatif immobilier, emploi, Eurostar, qualité de vie nord France 2027. Deux villes des Hauts-de-France très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🍺",
     readMinutes: 8,
@@ -24179,9 +24179,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "tours-vs-orléans-comparatif-2026",
-    title: "Tours vs Orléans 2026 : laquelle choisir pour s'installer sur la Loire ?",
-    metaTitle: "Tours vs Orléans 2026 — Comparatif pour vivre en Val de Loire",
-    metaDesc: "Tours ou Orléans ? Comparatif immobilier, TGV Paris, emploi, châteaux Loire 2026. Deux villes ligériennes très différentes. Guide objectif.",
+    title: "Tours vs Orléans 2027 : laquelle choisir pour s'installer sur la Loire ?",
+    metaTitle: "Tours vs Orléans 2027 — Comparatif pour vivre en Val de Loire",
+    metaDesc: "Tours ou Orléans ? Comparatif immobilier, TGV Paris, emploi, châteaux Loire 2027. Deux villes ligériennes très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🏰",
     readMinutes: 7,
@@ -24220,9 +24220,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-strasbourg-2026",
-    title: "Budget mensuel réaliste à Strasbourg en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Strasbourg 2026 — ce que coûte vraiment la vie",
-    metaDesc: "Combien faut-il pour vivre à Strasbourg en 2026 ? Budget mensuel détaillé : loyer, tram, bière, Parlement Européen. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Strasbourg en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Strasbourg 2027 — ce que coûte vraiment la vie",
+    metaDesc: "Combien faut-il pour vivre à Strasbourg en 2027 ? Budget mensuel détaillé : loyer, tram, bière, Parlement Européen. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🥨",
     readMinutes: 7,
@@ -24260,9 +24260,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "budget-mensuel-realiste-lille-2026",
-    title: "Budget mensuel réaliste à Lille en 2026 : ce que ça coûte vraiment",
-    metaTitle: "Budget mensuel Lille 2026 — Ce que coûte vraiment vivre à Lille",
-    metaDesc: "Combien faut-il pour vivre à Lille en 2026 ? Budget mensuel détaillé : loyer, métro, frites, Eurostar. Chiffres réels pour célibataire et couple.",
+    title: "Budget mensuel réaliste à Lille en 2027 : ce que ça coûte vraiment",
+    metaTitle: "Budget mensuel Lille 2027 — Ce que coûte vraiment vivre à Lille",
+    metaDesc: "Combien faut-il pour vivre à Lille en 2027 ? Budget mensuel détaillé : loyer, métro, frites, Eurostar. Chiffres réels pour célibataire et couple.",
     category: "budget",
     emoji: "🍺",
     readMinutes: 7,
@@ -24300,9 +24300,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "lyon-vs-grenoble-comparatif-2026",
-    title: "Lyon vs Grenoble 2026 : laquelle choisir pour s'installer en Auvergne-Rhône-Alpes ?",
-    metaTitle: "Lyon vs Grenoble 2026 — Comparatif pour vivre en Rhône-Alpes",
-    metaDesc: "Lyon ou Grenoble ? Comparatif immobilier, emploi, Alpes, qualité de vie 2026. Deux métropoles alpines très différentes. Guide objectif.",
+    title: "Lyon vs Grenoble 2027 : laquelle choisir pour s'installer en Auvergne-Rhône-Alpes ?",
+    metaTitle: "Lyon vs Grenoble 2027 — Comparatif pour vivre en Rhône-Alpes",
+    metaDesc: "Lyon ou Grenoble ? Comparatif immobilier, emploi, Alpes, qualité de vie 2027. Deux métropoles alpines très différentes. Guide objectif.",
     category: "comparaison",
     emoji: "🏔️",
     readMinutes: 7,
@@ -24341,9 +24341,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-moins-cheres-2026-top-10",
-    title: "Top 10 des villes françaises les moins chères pour s'installer en 2026",
-    metaTitle: "Villes les moins chères de France où vivre : top 10 2026",
-    metaDesc: "Les 10 villes françaises les moins chères pour s'installer en 2026 : immobilier abordable, coût de la vie, qualité de vie. Classement honnête avec données réelles.",
+    title: "Top 10 des villes françaises les moins chères pour s'installer en 2027",
+    metaTitle: "Villes les moins chères de France où vivre : top 10 2027",
+    metaDesc: "Les 10 villes françaises les moins chères pour s'installer en 2027 : immobilier abordable, coût de la vie, qualité de vie. Classement honnête avec données réelles.",
     category: "budget",
     emoji: "💰",
     readMinutes: 8,
@@ -24385,7 +24385,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-paris-2026",
     title: "10 choses à faire à Paris (au-delà des clichés)",
-    metaTitle: "10 choses à faire à Paris 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Paris 2027 — activités et sorties locales",
     metaDesc: "Au-delà de la tour Eiffel : 10 activités concrètes à Paris pour vivre la ville comme un habitant, marchés, quartiers vivants, scènes culturelles.",
     category: "tourisme",
     emoji: "🗼",
@@ -24445,7 +24445,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lyon-2026",
     title: "10 choses à faire à Lyon (comme un Lyonnais)",
-    metaTitle: "10 choses à faire à Lyon 2026 — activités et spots locaux",
+    metaTitle: "10 choses à faire à Lyon 2027 — activités et spots locaux",
     metaDesc: "Gastronomie, traboules, Confluence et vie nocturne : 10 activités concrètes à Lyon pour dépasser les cartes postales et vivre la ville de l'intérieur.",
     category: "tourisme",
     emoji: "🦁",
@@ -24505,7 +24505,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bordeaux-2026",
     title: "10 choses à faire à Bordeaux (et sa métropole)",
-    metaTitle: "10 choses à faire à Bordeaux 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bordeaux 2027 — activités et sorties locales",
     metaDesc: "Vignobles, miroir d'eau, Darwin et Cité du Vin : 10 activités à Bordeaux pour aller au-delà du centre-ville et profiter de ce que les habitants connaissent.",
     category: "tourisme",
     emoji: "🍷",
@@ -24565,7 +24565,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-toulouse-2026",
     title: "10 choses à faire à Toulouse (la Ville Rose vue de l'intérieur)",
-    metaTitle: "10 choses à faire à Toulouse 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Toulouse 2027 — activités et sorties locales",
     metaDesc: "Canal du Midi, rugby, Capitole et scène musicale : 10 activités à Toulouse pour dépasser les clichés et vivre la ville comme ses habitants.",
     category: "tourisme",
     emoji: "🌹",
@@ -24625,7 +24625,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-marseille-2026",
     title: "10 choses à faire à Marseille (la vraie, pas celle des guides)",
-    metaTitle: "10 choses à faire à Marseille 2026 — calanques, marché et culture",
+    metaTitle: "10 choses à faire à Marseille 2027 — calanques, marché et culture",
     metaDesc: "Calanques, Vieux-Port, MuCEM et quartiers vivants : 10 activités concrètes à Marseille pour aller au-delà des clichés et vivre la ville comme ses habitants.",
     category: "tourisme",
     emoji: "⚓",
@@ -24685,7 +24685,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nice-2026",
     title: "10 choses à faire à Nice (au-delà de la Promenade des Anglais)",
-    metaTitle: "10 choses à faire à Nice 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Nice 2027 — activités et sorties locales",
     metaDesc: "Vieux-Nice, colline du Château, marché du Cours Saleya et arrière-pays : 10 activités concrètes à Nice pour aller au-delà des promenades touristiques.",
     category: "tourisme",
     emoji: "🌊",
@@ -24745,7 +24745,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nantes-2026",
     title: "10 choses à faire à Nantes (bien plus qu'un éléphant mécanique)",
-    metaTitle: "10 choses à faire à Nantes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Nantes 2027 — activités et sorties locales",
     metaDesc: "Machines de l'Île, Île de Nantes, Loire et vie nocturne : 10 activités concrètes à Nantes pour aller au-delà de la carte postale industrielle et créative.",
     category: "tourisme",
     emoji: "🐘",
@@ -24805,7 +24805,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-rennes-2026",
     title: "10 choses à faire à Rennes (la ville bretonne qui ne dort pas)",
-    metaTitle: "10 choses à faire à Rennes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Rennes 2027 — activités et sorties locales",
     metaDesc: "Colombages médiévaux, marché des Lices, scène musicale et accès à la Bretagne sauvage : 10 activités à Rennes pour vivre la capitale bretonne de l'intérieur.",
     category: "tourisme",
     emoji: "⚗️",
@@ -24865,7 +24865,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-strasbourg-2026",
     title: "10 choses à faire à Strasbourg (la ville qui réconcilie tout)",
-    metaTitle: "10 choses à faire à Strasbourg 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Strasbourg 2027 — activités et sorties",
     metaDesc: "Cathédrale, Petite France, Parlement européen et forêt-noire à portée : 10 activités à Strasbourg pour vivre la ville alsacienne de l'intérieur.",
     category: "tourisme",
     emoji: "🥨",
@@ -24925,7 +24925,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montpellier-2026",
     title: "10 choses à faire à Montpellier (la ville méditerranéenne qui bouge)",
-    metaTitle: "10 choses à faire à Montpellier 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Montpellier 2027 — activités et sorties",
     metaDesc: "Plages à 20 minutes, vieille ville, garrigue et scène étudiante : 10 activités à Montpellier pour vivre la capitale héraultaise de l'intérieur.",
     category: "tourisme",
     emoji: "🌞",
@@ -24985,7 +24985,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lille-2026",
     title: "10 choses à faire à Lille (la nordiste qui surprend toujours)",
-    metaTitle: "10 choses à faire à Lille 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Lille 2027 — activités et sorties locales",
     metaDesc: "Braderie, Vieux-Lille, estaminets et Grand Place : 10 activités à Lille pour aller au-delà des idées reçues et vivre la capitale nordiste.",
     category: "tourisme",
     emoji: "🍺",
@@ -25045,7 +25045,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-grenoble-2026",
     title: "10 choses à faire à Grenoble (la capitale des Alpes accessible)",
-    metaTitle: "10 choses à faire à Grenoble 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Grenoble 2027 — activités et sorties locales",
     metaDesc: "Bastille, Vercors, vie étudiante et Musée de Grenoble : 10 activités à Grenoble pour vivre la ville entre Alpes et plaine iséroise.",
     category: "tourisme",
     emoji: "⛰️",
@@ -25105,7 +25105,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-rouen-2026",
     title: "10 choses à faire à Rouen (la cité aux cent clochers)",
-    metaTitle: "10 choses à faire à Rouen 2026 — activités culturelles et sorties",
+    metaTitle: "10 choses à faire à Rouen 2027 — activités culturelles et sorties",
     metaDesc: "Cathédrale, colombages médiévaux, Armada et bords de Seine : 10 activités à Rouen pour découvrir la capitale normande au-delà de Jeanne d'Arc.",
     category: "tourisme",
     emoji: "⚜️",
@@ -25165,7 +25165,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dijon-2026",
     title: "10 choses à faire à Dijon (la capitale bourguignonne sous-estimée)",
-    metaTitle: "10 choses à faire à Dijon 2026 — activités et gastronomie locale",
+    metaTitle: "10 choses à faire à Dijon 2027 — activités et gastronomie locale",
     metaDesc: "Moutarde, vins de Bourgogne, Palais des Ducs et Route des Grands Crus : 10 activités à Dijon pour découvrir la ville autrement qu'en transit.",
     category: "tourisme",
     emoji: "🍷",
@@ -25225,7 +25225,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-metz-2026",
     title: "10 choses à faire à Metz (la cité de lumière méconnue)",
-    metaTitle: "10 choses à faire à Metz 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Metz 2027 — activités et sorties locales",
     metaDesc: "Centre Pompidou-Metz, cathédrale lumière, Moselle et gastronomie lorraine : 10 activités à Metz pour découvrir la capitale lorraine.",
     category: "tourisme",
     emoji: "🏛️",
@@ -25285,7 +25285,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-angers-2026",
     title: "10 choses à faire à Angers (la douceur angevine n'est pas un mythe)",
-    metaTitle: "10 choses à faire à Angers 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Angers 2027 — activités et sorties locales",
     metaDesc: "Château d'Angers, Maine et vignes d'Anjou : 10 activités concrètes à Angers pour vivre la capitale de l'Anjou au quotidien.",
     category: "tourisme",
     emoji: "🏰",
@@ -25345,7 +25345,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-reims-2026",
     title: "10 choses à faire à Reims (champagne et cathédrale gothique)",
-    metaTitle: "10 choses à faire à Reims 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Reims 2027 — activités et sorties locales",
     metaDesc: "Cathédrale UNESCO, caves à champagne, montagne de Reims et vie de quartier : 10 activités à Reims pour aller au-delà des clichés de la cité du sacre.",
     category: "tourisme",
     emoji: "🍾",
@@ -25405,7 +25405,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aix-en-provence-2026",
     title: "10 choses à faire à Aix-en-Provence (la Provence accessible)",
-    metaTitle: "10 choses à faire à Aix-en-Provence 2026 — activités locales",
+    metaTitle: "10 choses à faire à Aix-en-Provence 2027 — activités locales",
     metaDesc: "Cours Mirabeau, Cézanne, Luberon et marché provençal : 10 activités à Aix-en-Provence pour vivre la capitale provençale de l'intérieur.",
     category: "tourisme",
     emoji: "🌿",
@@ -25465,7 +25465,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-brest-2026",
     title: "10 choses à faire à Brest (la ville bretonne du bout du monde)",
-    metaTitle: "10 choses à faire à Brest 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Brest 2027 — activités et sorties locales",
     metaDesc: "Iroise, Océanopolis, rade et vie nocturne : 10 activités à Brest pour découvrir la cité maritime et sa presqu'île de Crozon.",
     category: "tourisme",
     emoji: "⚓",
@@ -25525,7 +25525,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-clermont-ferrand-2026",
     title: "10 choses à faire à Clermont-Ferrand (la capitale volcanique de France)",
-    metaTitle: "10 choses à faire à Clermont-Ferrand 2026 — volcans et vie locale",
+    metaTitle: "10 choses à faire à Clermont-Ferrand 2027 — volcans et vie locale",
     metaDesc: "Puy de Dôme, fromages d'Auvergne, cathédrale de lave noire et randonnées : 10 activités à Clermont-Ferrand pour vivre la capitale auvergnate.",
     category: "tourisme",
     emoji: "🌋",
@@ -25585,7 +25585,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-tours-2026",
     title: "10 choses à faire à Tours (capitale du Val de Loire)",
-    metaTitle: "10 choses à faire à Tours 2026 — châteaux, Loire et vie locale",
+    metaTitle: "10 choses à faire à Tours 2027 — châteaux, Loire et vie locale",
     metaDesc: "Vieille ville, châteaux de la Loire, vignobles de Touraine et gastronomie : 10 activités à Tours pour vivre la capitale du Val de Loire.",
     category: "tourisme",
     emoji: "🏰",
@@ -25645,7 +25645,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-perpignan-2026",
     title: "10 choses à faire à Perpignan (la Catalane oubliée)",
-    metaTitle: "10 choses à faire à Perpignan 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Perpignan 2027 — activités et sorties locales",
     metaDesc: "Palais des Rois de Majorque, Côte Vermeille et cuisine catalane : 10 activités à Perpignan pour découvrir la ville la plus méridionale de France.",
     category: "tourisme",
     emoji: "🔴",
@@ -25705,7 +25705,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-le-havre-2026",
     title: "10 choses à faire au Havre (l'architecture de l'après-guerre)",
-    metaTitle: "10 choses à faire au Havre 2026 — Perret, mer et vie portuaire",
+    metaTitle: "10 choses à faire au Havre 2027 — Perret, mer et vie portuaire",
     metaDesc: "Architecture UNESCO de Perret, plages, MuMa et vie nocturne : 10 activités au Havre pour découvrir la grande ville portuaire normande.",
     category: "tourisme",
     emoji: "🚢",
@@ -25765,7 +25765,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-orleans-2026",
     title: "10 choses à faire à Orléans (la cité de Jeanne d'Arc sur la Loire)",
-    metaTitle: "10 choses à faire à Orléans 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Orléans 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Sainte-Croix, bords de Loire, vignes de l'Orléanais et patrimoine médiéval : 10 activités à Orléans pour découvrir la ville la plus proche de Paris.",
     category: "tourisme",
     emoji: "⚔️",
@@ -25825,7 +25825,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-caen-2026",
     title: "10 choses à faire à Caen (Normandie et mémoire)",
-    metaTitle: "10 choses à faire à Caen 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Caen 2027 — activités et sorties locales",
     metaDesc: "Mémorial, château ducal, abbaye aux Hommes et cuisine normande : 10 activités à Caen pour explorer la capitale bas-normande au-delà du Débarquement.",
     category: "tourisme",
     emoji: "⚓",
@@ -25885,7 +25885,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nancy-2026",
     title: "10 choses à faire à Nancy (la place Stanislas et au-delà)",
-    metaTitle: "10 choses à faire à Nancy 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Nancy 2027 — activités et sorties locales",
     metaDesc: "Place Stanislas UNESCO, Art Nouveau, forêt de Haye et gastronomie lorraine : 10 activités à Nancy pour découvrir la capitale lorraine.",
     category: "tourisme",
     emoji: "🏛️",
@@ -25945,7 +25945,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-amiens-2026",
     title: "10 choses à faire à Amiens (la cathédrale et les hortillonnages)",
-    metaTitle: "10 choses à faire à Amiens 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Amiens 2027 — activités et sorties locales",
     metaDesc: "Cathédrale gothique UNESCO, hortillonnages, maison Jules Verne et cuisine picarde : 10 activités à Amiens pour découvrir la préfecture de la Somme.",
     category: "tourisme",
     emoji: "🌾",
@@ -26005,7 +26005,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-limoges-2026",
     title: "10 choses à faire à Limoges (porcelaine et forêts limousines)",
-    metaTitle: "10 choses à faire à Limoges 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Limoges 2027 — activités et sorties locales",
     metaDesc: "Porcelaine, émail cloisonné, forêt du Limousin et gastronomie : 10 activités à Limoges pour aller au-delà des poncifs sur la capitale limousine.",
     category: "tourisme",
     emoji: "🍽️",
@@ -26065,7 +26065,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-besancon-2026",
     title: "10 choses à faire à Besançon (la citadelle Vauban et le Doubs)",
-    metaTitle: "10 choses à faire à Besançon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Besançon 2027 — activités et sorties locales",
     metaDesc: "Citadelle UNESCO, boucle du Doubs, musée du Temps et gastronomie comtoise : 10 activités à Besançon pour explorer la capitale de la Franche-Comté.",
     category: "tourisme",
     emoji: "⏱️",
@@ -26125,7 +26125,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pau-2026",
     title: "10 choses à faire à Pau (boulevard des Pyrénées et Béarn)",
-    metaTitle: "10 choses à faire à Pau 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Pau 2027 — activités et sorties locales",
     metaDesc: "Boulevard des Pyrénées, château de Henri IV, Pic du Midi et gastronomie béarnaise : 10 activités à Pau pour profiter de la porte des Pyrénées.",
     category: "tourisme",
     emoji: "🏔️",
@@ -26185,7 +26185,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bayonne-2026",
     title: "10 choses à faire à Bayonne (fêtes et chocolat basque)",
-    metaTitle: "10 choses à faire à Bayonne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bayonne 2027 — activités et sorties locales",
     metaDesc: "Fêtes de Bayonne, chocolat, cathédrale gothique et vie de quartier basque : 10 activités à Bayonne pour vivre la capitale du Pays Basque.",
     category: "tourisme",
     emoji: "🎉",
@@ -26245,7 +26245,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-biarritz-2026",
     title: "10 choses à faire à Biarritz (surf, falaises et Belle Époque)",
-    metaTitle: "10 choses à faire à Biarritz 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Biarritz 2027 — activités et sorties locales",
     metaDesc: "Grande Plage, falaises, surf et architecture Belle Époque : 10 activités à Biarritz pour comprendre la station basque au-delà des clichés de la côte.",
     category: "tourisme",
     emoji: "🏄",
@@ -26305,7 +26305,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-rochelle-2026",
     title: "10 choses à faire à La Rochelle (le port et le large)",
-    metaTitle: "10 choses à faire à La Rochelle 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à La Rochelle 2027 — activités et sorties",
     metaDesc: "Vieux-Port, tours médiévales, Île de Ré et gastronomie charentaise : 10 activités à La Rochelle pour vivre la capitale atlantique au-delà des cartes postales.",
     category: "tourisme",
     emoji: "⛵",
@@ -26365,7 +26365,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-annecy-2026",
     title: "10 choses à faire à Annecy (le lac et les Alpes)",
-    metaTitle: "10 choses à faire à Annecy 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Annecy 2027 — activités et sorties locales",
     metaDesc: "Lac d'Annecy, vieille ville, Gorges du Fier et randonnées alpines : 10 activités à Annecy pour profiter de la Venise des Alpes sans les pièges touristiques.",
     category: "tourisme",
     emoji: "🏔️",
@@ -26425,7 +26425,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chambery-2026",
     title: "10 choses à faire à Chambéry (entre Alpes et lac du Bourget)",
-    metaTitle: "10 choses à faire à Chambéry 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Chambéry 2027 — activités et sorties locales",
     metaDesc: "Château des Ducs, Éléphants, Lac du Bourget et gastronomie savoyarde : 10 activités à Chambéry pour explorer la capitale historique de la Savoie.",
     category: "tourisme",
     emoji: "🐘",
@@ -26485,7 +26485,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-toulon-2026",
     title: "10 choses à faire à Toulon (la rade et la montagne du Faron)",
-    metaTitle: "10 choses à faire à Toulon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Toulon 2027 — activités et sorties locales",
     metaDesc: "Rade militaire, Mont Faron, Corniche du Var et gastronomie provençale : 10 activités à Toulon pour découvrir la troisième ville de PACA.",
     category: "tourisme",
     emoji: "⚓",
@@ -26545,7 +26545,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-valence-2026",
     title: "10 choses à faire à Valence (entre Rhône et Vercors)",
-    metaTitle: "10 choses à faire à Valence 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Valence 2027 — activités et sorties locales",
     metaDesc: "Vercors, Rhône, gastronomie Pic et vieille ville : 10 activités à Valence pour explorer la porte du Midi entre Lyon et Marseille.",
     category: "tourisme",
     emoji: "🌞",
@@ -26605,7 +26605,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-poitiers-2026",
     title: "10 choses à faire à Poitiers (art roman et Futuroscope)",
-    metaTitle: "10 choses à faire à Poitiers 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Poitiers 2027 — activités et sorties locales",
     metaDesc: "Baptistère Saint-Jean, Notre-Dame-la-Grande, Futuroscope et cuisine poitevine : 10 activités à Poitiers pour découvrir la capitale du Poitou-Charentes.",
     category: "tourisme",
     emoji: "🏛️",
@@ -26665,7 +26665,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-troyes-2026",
     title: "10 choses à faire à Troyes (la ville médiévale et le champagne)",
-    metaTitle: "10 choses à faire à Troyes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Troyes 2027 — activités et sorties locales",
     metaDesc: "Vieille ville médiévale, vitraux gothiques, marché aux affaires et gastronomie champenoise : 10 activités à Troyes pour découvrir la capitale de l'Aube.",
     category: "tourisme",
     emoji: "🏘️",
@@ -26725,7 +26725,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-colmar-2026",
     title: "10 choses à faire à Colmar (la Petite Venise et la route des vins)",
-    metaTitle: "10 choses à faire à Colmar 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Colmar 2027 — activités et sorties locales",
     metaDesc: "Petite Venise, retable d'Issenheim, route des vins d'Alsace et gastronomie alsacienne : 10 activités à Colmar pour découvrir le cœur de l'Alsace.",
     category: "tourisme",
     emoji: "🍷",
@@ -26785,7 +26785,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nimes-2026",
     title: "10 choses à faire à Nîmes (les arènes romaines et le Midi gardois)",
-    metaTitle: "10 choses à faire à Nîmes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Nîmes 2027 — activités et sorties locales",
     metaDesc: "Arènes romaines, Maison Carrée, Pont du Gard et feria : 10 activités à Nîmes pour découvrir la Roma francesa du Languedoc.",
     category: "tourisme",
     emoji: "🏛️",
@@ -26846,7 +26846,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-avignon-2026",
     title: "10 choses à faire à Avignon (le Palais des Papes et le festival)",
-    metaTitle: "10 choses à faire à Avignon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Avignon 2027 — activités et sorties locales",
     metaDesc: "Palais des Papes, festival d'Avignon, Luberon et vignes du Rhône : 10 activités à Avignon pour découvrir la cité des papes en Provence.",
     category: "tourisme",
     emoji: "🎭",
@@ -26907,7 +26907,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cannes-2026",
     title: "10 choses à faire à Cannes (palaces, festivals et îles de Lérins)",
-    metaTitle: "10 choses à faire à Cannes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cannes 2027 — activités et sorties locales",
     metaDesc: "Festival de Cannes, îles de Lérins, Croisette et arrière-pays grassois : 10 activités à Cannes pour découvrir la Côte d'Azur au-delà du tapis rouge.",
     category: "tourisme",
     emoji: "🎬",
@@ -26967,7 +26967,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-malo-2026",
     title: "10 choses à faire à Saint-Malo (la cité corsaire et la mer d'Iroise)",
-    metaTitle: "10 choses à faire à Saint-Malo 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Malo 2027 — activités et sorties",
     metaDesc: "Remparts intra-muros, îles du large, Route du Rhum et huîtres de Cancale : 10 activités à Saint-Malo pour découvrir la cité corsaire de Bretagne.",
     category: "tourisme",
     emoji: "⚓",
@@ -27027,7 +27027,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vannes-2026",
     title: "10 choses à faire à Vannes (le golfe du Morbihan et la cité médiévale)",
-    metaTitle: "10 choses à faire à Vannes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Vannes 2027 — activités et sorties locales",
     metaDesc: "Golfe du Morbihan, cité médiévale, île aux Moines et mégalithes de Carnac : 10 activités à Vannes pour découvrir le cœur de la Bretagne du Sud.",
     category: "tourisme",
     emoji: "⛵",
@@ -27088,7 +27088,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-quimper-2026",
     title: "10 choses à faire à Quimper (la capitale de la Cornouaille bretonne)",
-    metaTitle: "10 choses à faire à Quimper 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Quimper 2027 — activités et sorties locales",
     metaDesc: "Cathédrale gothique, faïences de Quimper, festival de Cornouaille et pointe du Raz : 10 activités à Quimper pour découvrir le cœur de la Bretagne ancienne.",
     category: "tourisme",
     emoji: "🏺",
@@ -27148,7 +27148,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dunkerque-2026",
     title: "10 choses à faire à Dunkerque (le carnaval et les plages de la mer du Nord)",
-    metaTitle: "10 choses à faire à Dunkerque 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Dunkerque 2027 — activités et sorties locales",
     metaDesc: "Carnaval de Dunkerque, plage de Malo-les-Bains, Beffroi et mémorial de Dunkerque : 10 activités pour découvrir la cité flamande de la Côte d'Opale.",
     category: "tourisme",
     emoji: "🎭",
@@ -27207,7 +27207,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mulhouse-2026",
     title: "10 choses à faire à Mulhouse (les musées de l'industrie et l'Alsace du Sud)",
-    metaTitle: "10 choses à faire à Mulhouse 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Mulhouse 2027 — activités et sorties locales",
     metaDesc: "Cité de l'Automobile, écomusée d'Alsace, Cité du Train et Sundgau : 10 activités à Mulhouse pour découvrir la capitale alsacienne de l'industrie.",
     category: "tourisme",
     emoji: "🚗",
@@ -27268,7 +27268,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-arles-2026",
     title: "10 choses à faire à Arles (les arènes et la Camargue de Van Gogh)",
-    metaTitle: "10 choses à faire à Arles 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Arles 2027 — activités et sorties locales",
     metaDesc: "Arènes romaines, Camargue, Rencontres de la photographie et traces de Van Gogh : 10 activités à Arles pour découvrir la capitale des Bouches-du-Rhône ancienne.",
     category: "tourisme",
     emoji: "🌻",
@@ -27329,7 +27329,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montauban-2026",
     title: "10 choses à faire à Montauban (la ville rose de Ingres et du Tarn-et-Garonne)",
-    metaTitle: "10 choses à faire à Montauban 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Montauban 2027 — activités et sorties locales",
     metaDesc: "Place Nationale en brique rose, musée Ingres-Bourdelle, gorges de l'Aveyron et foie gras : 10 activités à Montauban pour découvrir la préfecture du Tarn-et-Garonne.",
     category: "tourisme",
     emoji: "🖼️",
@@ -27389,7 +27389,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-albi-2026",
     title: "10 choses à faire à Albi (la cathédrale forteresse et Toulouse-Lautrec)",
-    metaTitle: "10 choses à faire à Albi 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Albi 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Sainte-Cécile, musée Toulouse-Lautrec, vieille ville classée UNESCO et gorges du Tarn : 10 activités à Albi pour découvrir la cité épiscopale du Tarn.",
     category: "tourisme",
     emoji: "🏰",
@@ -27449,7 +27449,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-tarbes-2026",
     title: "10 choses à faire à Tarbes (les Pyrénées et la ville de Foch)",
-    metaTitle: "10 choses à faire à Tarbes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Tarbes 2027 — activités et sorties locales",
     metaDesc: "Jardin Massey, haras national, pic du Midi et Lourdes : 10 activités à Tarbes pour découvrir la capitale des Hautes-Pyrénées au pied des sommets.",
     category: "tourisme",
     emoji: "🏔️",
@@ -27509,7 +27509,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-niort-2026",
     title: "10 choses à faire à Niort (le Marais poitevin et la ville de la mutualité)",
-    metaTitle: "10 choses à faire à Niort 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Niort 2027 — activités et sorties locales",
     metaDesc: "Marais poitevin en barque, donjon Plantagenêt, Venise verte et Fontenay-le-Comte : 10 activités à Niort pour découvrir la préfecture des Deux-Sèvres.",
     category: "tourisme",
     emoji: "🚣",
@@ -27568,7 +27568,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-angouleme-2026",
     title: "10 choses à faire à Angoulême (la BD et la ville haute sur l'Angoumois)",
-    metaTitle: "10 choses à faire à Angoulême 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Angoulême 2027 — activités et sorties locales",
     metaDesc: "Festival international de la BD, remparts sur la Charente, cognac et circuit automobile : 10 activités à Angoulême pour découvrir la capitale mondiale de la bande dessinée.",
     category: "tourisme",
     emoji: "💬",
@@ -27627,7 +27627,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saintes-2026",
     title: "10 choses à faire à Saintes (la capitale romaine de l'Aquitaine)",
-    metaTitle: "10 choses à faire à Saintes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saintes 2027 — activités et sorties locales",
     metaDesc: "Arènes gallo-romaines, arc de Germanicus, abbaye aux Dames et marais de la Seudre : 10 activités à Saintes pour découvrir la capitale charentaise de l'Antiquité.",
     category: "tourisme",
     emoji: "🏛️",
@@ -27686,7 +27686,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-le-mans-2026",
     title: "10 choses à faire au Mans (les 24 Heures et la cité Plantagenêt)",
-    metaTitle: "10 choses à faire au Mans 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire au Mans 2027 — activités et sorties locales",
     metaDesc: "24 Heures du Mans, cité Plantagenêt médiévale, cathédrale Saint-Julien et Abbaye de l'Épau : 10 activités au Mans pour découvrir la capitale de la Sarthe.",
     category: "tourisme",
     emoji: "🏎️",
@@ -27747,7 +27747,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lorient-2026",
     title: "10 choses à faire à Lorient (le festival interceltique et les ports de guerre)",
-    metaTitle: "10 choses à faire à Lorient 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Lorient 2027 — activités et sorties locales",
     metaDesc: "Festival Interceltique, sous-marins de Keroman, presqu'île de Quiberon et Groix : 10 activités à Lorient pour découvrir la ville bretonne aux sept ports.",
     category: "tourisme",
     emoji: "🎺",
@@ -27808,7 +27808,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chartres-2026",
     title: "10 choses à faire à Chartres (la cathédrale gothique et la Beauce)",
-    metaTitle: "10 choses à faire à Chartres 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Chartres 2027 — activités et sorties locales",
     metaDesc: "Cathédrale gothique classée UNESCO, vitraux médiévaux, pèlerinage de Chartres et Chartres en Lumières : 10 activités à Chartres pour découvrir la capitale de la Beauce.",
     category: "tourisme",
     emoji: "⛪",
@@ -27869,7 +27869,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-blois-2026",
     title: "10 choses à faire à Blois (les châteaux de la Loire et la ville royale)",
-    metaTitle: "10 choses à faire à Blois 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Blois 2027 — activités et sorties locales",
     metaDesc: "Château royal de Blois, Chambord, Cheverny et son de lumière : 10 activités à Blois pour découvrir la capitale du Val de Loire et la vallée des châteaux.",
     category: "tourisme",
     emoji: "🏰",
@@ -27930,7 +27930,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-auxerre-2026",
     title: "10 choses à faire à Auxerre (la cathédrale et les vins de Bourgogne du Nord)",
-    metaTitle: "10 choses à faire à Auxerre 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Auxerre 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Saint-Étienne, Chablis, abbaye Saint-Germain et canal de Bourgogne : 10 activités à Auxerre pour découvrir la capitale de l'Yonne en Bourgogne.",
     category: "tourisme",
     emoji: "🍇",
@@ -27990,7 +27990,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-belfort-2026",
     title: "10 choses à faire à Belfort (le lion de Bartholdi et le territoire de la liberté)",
-    metaTitle: "10 choses à faire à Belfort 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Belfort 2027 — activités et sorties locales",
     metaDesc: "Lion de Bartholdi, citadelle de Vauban, festival Eurockéennes et ballon d'Alsace : 10 activités à Belfort pour découvrir la ville invaincue du Territoire de Belfort.",
     category: "tourisme",
     emoji: "🦁",
@@ -28050,7 +28050,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-epinal-2026",
     title: "10 choses à faire à Épinal (l'imagerie vosgienne et les lacs du massif)",
-    metaTitle: "10 choses à faire à Épinal 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Épinal 2027 — activités et sorties locales",
     metaDesc: "Imagerie d'Épinal, basilique Saint-Maurice, lacs des Vosges et parc international d'art : 10 activités à Épinal pour découvrir la préfecture des Vosges.",
     category: "tourisme",
     emoji: "🖨️",
@@ -28109,7 +28109,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-roanne-2026",
     title: "10 choses à faire à Roanne (la gastronomie et la Loire en son berceau)",
-    metaTitle: "10 choses à faire à Roanne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Roanne 2027 — activités et sorties locales",
     metaDesc: "Maison Troisgros, gorges de la Loire, Charlieu et musée Déchelette : 10 activités à Roanne pour découvrir la capitale gastronomique de la Loire.",
     category: "tourisme",
     emoji: "🍽️",
@@ -28168,7 +28168,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chalon-sur-saone-2026",
     title: "10 choses à faire à Chalon-sur-Saône (le carnaval et les vins de Bourgogne du Sud)",
-    metaTitle: "10 choses à faire à Chalon-sur-Saône 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Chalon-sur-Saône 2027 — activités et sorties",
     metaDesc: "Carnaval de Chalon, musée Nicéphore Niépce, côte chalonnaise et abbaye de Cluny : 10 activités à Chalon-sur-Saône pour découvrir la capitale du Sud Bourgogne.",
     category: "tourisme",
     emoji: "🎪",
@@ -28228,7 +28228,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-etienne-2026",
     title: "10 choses à faire à Saint-Étienne (le design et l'héritage industriel du Forez)",
-    metaTitle: "10 choses à faire à Saint-Étienne 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Étienne 2027 — activités et sorties",
     metaDesc: "Cité du Design, musée d'Art Moderne, gorges de la Loire et Pilat : 10 activités à Saint-Étienne pour découvrir la ville UNESCO du design et de l'industrie.",
     category: "tourisme",
     emoji: "⚙️",
@@ -28289,7 +28289,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-frejus-2026",
     title: "10 choses à faire à Fréjus (la ville romaine et l'Estérel rouge)",
-    metaTitle: "10 choses à faire à Fréjus 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Fréjus 2027 — activités et sorties locales",
     metaDesc: "Amphithéâtre romain, cathédrale médiévale, massif de l'Estérel et calanques de porphyre : 10 activités à Fréjus pour découvrir la cité antique du Var.",
     category: "tourisme",
     emoji: "🏛️",
@@ -28349,7 +28349,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-arras-2026",
     title: "10 choses à faire à Arras (les places flamandes et les champs de bataille)",
-    metaTitle: "10 choses à faire à Arras 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Arras 2027 — activités et sorties locales",
     metaDesc: "Grand-Place flamande, Boves souterrains, mémoriaux de la Grande Guerre et beffroi : 10 activités à Arras pour découvrir la capitale de l'Artois.",
     category: "tourisme",
     emoji: "🏟️",
@@ -28409,7 +28409,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lens-2026",
     title: "10 choses à faire à Lens (le Louvre-Lens et le bassin minier)",
-    metaTitle: "10 choses à faire à Lens 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Lens 2027 — activités et sorties locales",
     metaDesc: "Louvre-Lens, terrils UNESCO, stade Bollaert et bassin minier : 10 activités à Lens pour découvrir la capitale culturelle du bassin minier du Nord.",
     category: "tourisme",
     emoji: "🎨",
@@ -28469,7 +28469,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-calais-2026",
     title: "10 choses à faire à Calais (la dentelle et le détroit le plus fréquenté du monde)",
-    metaTitle: "10 choses à faire à Calais 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Calais 2027 — activités et sorties locales",
     metaDesc: "Musée de la Dentelle, cap Blanc-Nez, Cité Europe et mémorial du Débarquement : 10 activités à Calais pour découvrir la ville du détroit et de la dentelle.",
     category: "tourisme",
     emoji: "🧵",
@@ -28529,7 +28529,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-boulogne-sur-mer-2026",
     title: "10 choses à faire à Boulogne-sur-Mer (Nausicaá et le premier port de pêche de France)",
-    metaTitle: "10 choses à faire à Boulogne-sur-Mer 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Boulogne-sur-Mer 2027 — activités et sorties",
     metaDesc: "Nausicaá, ville haute médiévale, cap Gris-Nez et hareng fumé : 10 activités à Boulogne-sur-Mer pour découvrir le premier port de pêche de France.",
     category: "tourisme",
     emoji: "🐟",
@@ -28589,7 +28589,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-macon-2026",
     title: "10 choses à faire à Mâcon (les vins de Bourgogne du Sud et la ville de Lamartine)",
-    metaTitle: "10 choses à faire à Mâcon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Mâcon 2027 — activités et sorties locales",
     metaDesc: "Vignoble de Pouilly-Fuissé, roches de Solutré, Cluny et Lamartine : 10 activités à Mâcon pour découvrir la porte méridionale de la Bourgogne.",
     category: "tourisme",
     emoji: "🍾",
@@ -28649,7 +28649,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bourg-en-bresse-2026",
     title: "10 choses à faire à Bourg-en-Bresse (le monastère royal de Brou et la volaille AOP)",
-    metaTitle: "10 choses à faire à Bourg-en-Bresse 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Bourg-en-Bresse 2027 — activités et sorties",
     metaDesc: "Monastère royal de Brou, volaille de Bresse AOP, Haut-Bugey et lacs du Jura : 10 activités à Bourg-en-Bresse pour découvrir la capitale de l'Ain.",
     category: "tourisme",
     emoji: "🐔",
@@ -28709,7 +28709,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montlucon-2026",
     title: "10 choses à faire à Montluçon (la cité bourbonnaise et la forêt de Tronçais)",
-    metaTitle: "10 choses à faire à Montluçon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Montluçon 2027 — activités et sorties locales",
     metaDesc: "Château des ducs de Bourbon, MuPop, forêt de Tronçais et gorges du Cher : 10 activités à Montluçon pour découvrir la sous-préfecture de l'Allier.",
     category: "tourisme",
     emoji: "🎻",
@@ -28769,7 +28769,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vichy-2026",
     title: "10 choses à faire à Vichy (la reine des villes d'eaux et UNESCO)",
-    metaTitle: "10 choses à faire à Vichy 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Vichy 2027 — activités et sorties locales",
     metaDesc: "Sources thermales, parcs Napoléon-III, opéra Belle Époque et hippodrome : 10 activités à Vichy pour découvrir la station UNESCO des Grandes Villes Thermales.",
     category: "tourisme",
     emoji: "💧",
@@ -28829,7 +28829,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-clermont-l-herault-2026",
     title: "10 choses à faire à Clermont-l'Hérault (le lac du Salagou et Saint-Guilhem)",
-    metaTitle: "10 choses à faire à Clermont-l'Hérault 2026",
+    metaTitle: "10 choses à faire à Clermont-l'Hérault 2027",
     metaDesc: "Lac du Salagou, cirque de Mourèze, Saint-Guilhem-le-Désert UNESCO et grotte de Clamouse : 10 activités à Clermont-l'Hérault pour découvrir le cœur géologique de l'Hérault.",
     category: "tourisme",
     emoji: "🏞️",
@@ -28888,7 +28888,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sete-2026",
     title: "10 choses à faire à Sète (la Venise du Languedoc et les joutes)",
-    metaTitle: "10 choses à faire à Sète 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Sète 2027 — activités et sorties locales",
     metaDesc: "Canal royal, Mont Saint-Clair, joutes nautiques, Brassens et étang de Thau : 10 activités à Sète pour découvrir la ville singulière de l'Hérault.",
     category: "tourisme",
     emoji: "🐟",
@@ -28947,7 +28947,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-hyeres-2026",
     title: "10 choses à faire à Hyères (les Îles d'Or et la villa Noailles)",
-    metaTitle: "10 choses à faire à Hyères 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Hyères 2027 — activités et sorties locales",
     metaDesc: "Porquerolles, Port-Cros, Presqu'île de Giens, villa Noailles et vieille ville médiévale : 10 activités à Hyères pour découvrir la doyenne des stations varoises.",
     category: "tourisme",
     emoji: "🌴",
@@ -29008,7 +29008,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-draguignan-2026",
     title: "10 choses à faire à Draguignan (la porte du Verdon et l'arrière-pays varois)",
-    metaTitle: "10 choses à faire à Draguignan 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Draguignan 2027 — activités et sorties",
     metaDesc: "Tour de l'Horloge, gorges du Verdon, Lorgues, cascade de Sillans et Aups truffes : 10 activités à Draguignan pour explorer le Var intérieur.",
     category: "tourisme",
     emoji: "🌲",
@@ -29069,7 +29069,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-laval-2026",
     title: "10 choses à faire à Laval (la cité du Douanier Rousseau et la Mayenne)",
-    metaTitle: "10 choses à faire à Laval 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Laval 2027 — activités et sorties locales",
     metaDesc: "Vieux château, musée Henri Rousseau, bains-douches Art déco et abbaye de Port-Salut : 10 activités à Laval pour découvrir la capitale de la Mayenne.",
     category: "tourisme",
     emoji: "🎨",
@@ -29128,7 +29128,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cherbourg-2026",
     title: "10 choses à faire à Cherbourg (la Cité de la Mer et la pointe du Cotentin)",
-    metaTitle: "10 choses à faire à Cherbourg 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cherbourg 2027 — activités et sorties locales",
     metaDesc: "Cité de la Mer, gare maritime Art déco, Cap de la Hague, Nez de Jobourg et parapluies de Cherbourg : 10 activités pour découvrir la pointe du Cotentin.",
     category: "tourisme",
     emoji: "⚓",
@@ -29187,7 +29187,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-nazaire-2026",
     title: "10 choses à faire à Saint-Nazaire (les chantiers navals et la base sous-marine)",
-    metaTitle: "10 choses à faire à Saint-Nazaire 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Nazaire 2027 — activités et sorties",
     metaDesc: "Chantiers de l'Atlantique, Escal'Atlantic, base sous-marine, Brière et plage de Monsieur Hulot : 10 activités à Saint-Nazaire pour découvrir le port estuarien.",
     category: "tourisme",
     emoji: "⚓",
@@ -29246,7 +29246,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cholet-2026",
     title: "10 choses à faire à Cholet (la capitale du textile et la guerre de Vendée)",
-    metaTitle: "10 choses à faire à Cholet 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cholet 2027 — activités et sorties locales",
     metaDesc: "Musée d'art et d'histoire, mouchoir de Cholet, Puy du Fou, lac de Ribou et bocage des Mauges : 10 activités à Cholet pour découvrir le sud du Maine-et-Loire.",
     category: "tourisme",
     emoji: "🏭",
@@ -29305,7 +29305,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-roche-sur-yon-2026",
     title: "10 choses à faire à La Roche-sur-Yon (la ville Napoléon et le bocage vendéen)",
-    metaTitle: "10 choses à faire à La Roche-sur-Yon 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à La Roche-sur-Yon 2027 — activités et sorties",
     metaDesc: "Place Napoléon, Haras de la Vendée, Puy du Fou et Sables-d'Olonne : 10 activités à La Roche-sur-Yon pour découvrir la préfecture impériale de Vendée.",
     category: "tourisme",
     emoji: "🐎",
@@ -29364,7 +29364,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chatellerault-2026",
     title: "10 choses à faire à Châtellerault (la manufacture d'armes et le Futuroscope)",
-    metaTitle: "10 choses à faire à Châtellerault 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Châtellerault 2027 — activités et sorties",
     metaDesc: "Pont Henri-IV, Manufacture d'armes, musée Auto Moto Vélo, maison de Descartes et Futuroscope : 10 activités à Châtellerault, dans le nord du Poitou.",
     category: "tourisme",
     emoji: "⚙️",
@@ -29424,7 +29424,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cognac-2026",
     title: "10 choses à faire à Cognac (les chais et le berceau du spiritueux mondial)",
-    metaTitle: "10 choses à faire à Cognac 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cognac 2027 — activités et sorties locales",
     metaDesc: "Chais Hennessy, Martell, Rémy Martin, château de François Ier et Charente fluviale : 10 activités à Cognac pour découvrir la capitale mondiale de l'eau-de-vie.",
     category: "tourisme",
     emoji: "🥃",
@@ -29483,7 +29483,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-perigueux-2026",
     title: "10 choses à faire à Périgueux (la cité gallo-romaine et la cathédrale byzantine)",
-    metaTitle: "10 choses à faire à Périgueux 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Périgueux 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Saint-Front, Vesunna, marché aux truffes, Lascaux et vallée de la Vézère : 10 activités à Périgueux pour découvrir la capitale du Périgord.",
     category: "tourisme",
     emoji: "🍄",
@@ -29542,7 +29542,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-agen-2026",
     title: "10 choses à faire à Agen (la cité du pruneau et la vallée de la Garonne)",
-    metaTitle: "10 choses à faire à Agen 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Agen 2027 — activités et sorties locales",
     metaDesc: "Pruneau d'Agen, musée des Beaux-Arts, pont-canal, Nérac et Lot-et-Garonne : 10 activités à Agen pour découvrir la sous-préfecture viticole.",
     category: "tourisme",
     emoji: "🍇",
@@ -29601,7 +29601,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-carcassonne-2026",
     title: "10 choses à faire à Carcassonne (la cité médiévale UNESCO et le pays cathare)",
-    metaTitle: "10 choses à faire à Carcassonne 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Carcassonne 2027 — activités et sorties",
     metaDesc: "Cité médiévale UNESCO, château comtal, canal du Midi, châteaux cathares et vignobles Corbières : 10 activités à Carcassonne pour découvrir le berceau cathare.",
     category: "tourisme",
     emoji: "🏰",
@@ -29660,7 +29660,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aix-les-bains-2026",
     title: "10 choses à faire à Aix-les-Bains (la Riviera des Alpes et le lac du Bourget)",
-    metaTitle: "10 choses à faire à Aix-les-Bains 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Aix-les-Bains 2027 — activités et sorties",
     metaDesc: "Lac du Bourget, thermes nationaux, Abbaye de Hautecombe, Mont Revard et casino : 10 activités à Aix-les-Bains pour découvrir la Riviera des Alpes.",
     category: "tourisme",
     emoji: "🛁",
@@ -29719,7 +29719,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-evian-les-bains-2026",
     title: "10 choses à faire à Évian-les-Bains (la source mondiale et le Léman)",
-    metaTitle: "10 choses à faire à Évian-les-Bains 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Évian-les-Bains 2027 — activités et sorties",
     metaDesc: "Source Cachat, palais Lumière, Léman, jardins d'Évian et abbaye d'Abondance : 10 activités à Évian-les-Bains pour découvrir la perle du Léman français.",
     category: "tourisme",
     emoji: "💧",
@@ -29778,7 +29778,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-manosque-2026",
     title: "10 choses à faire à Manosque (la patrie de Giono et le plateau de Valensole)",
-    metaTitle: "10 choses à faire à Manosque 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Manosque 2027 — activités et sorties locales",
     metaDesc: "Centre Jean-Giono, plateau de Valensole, gorges du Verdon, L'Occitane et Forcalquier : 10 activités à Manosque pour découvrir la haute Provence parfumée.",
     category: "tourisme",
     emoji: "💜",
@@ -29837,7 +29837,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-narbonne-2026",
     title: "10 choses à faire à Narbonne (la cité romaine et le canal de la Robine)",
-    metaTitle: "10 choses à faire à Narbonne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Narbonne 2027 — activités et sorties locales",
     metaDesc: "Cathédrale inachevée, Narbo Via, halles, abbaye de Fontfroide et Gruissan : 10 activités à Narbonne pour découvrir la première colonie romaine de Gaule.",
     category: "tourisme",
     emoji: "🏛️",
@@ -29896,7 +29896,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-beziers-2026",
     title: "10 choses à faire à Béziers (la cité aux 9 écluses et la corrida)",
-    metaTitle: "10 choses à faire à Béziers 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Béziers 2027 — activités et sorties locales",
     metaDesc: "Écluses de Fonsérannes, cathédrale Saint-Nazaire, Pont Vieux, Feria et plage de Valras : 10 activités à Béziers pour découvrir la cité héraultaise.",
     category: "tourisme",
     emoji: "🐂",
@@ -29955,7 +29955,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-castres-2026",
     title: "10 choses à faire à Castres (le Petit Versailles tarnais et Jaurès)",
-    metaTitle: "10 choses à faire à Castres 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Castres 2027 — activités et sorties locales",
     metaDesc: "Musée Goya, maisons sur l'Agout, jardin Le Nôtre, parc du Sidobre et Lacaune : 10 activités à Castres pour découvrir la cité protestante du Tarn.",
     category: "tourisme",
     emoji: "🏞️",
@@ -30014,7 +30014,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-millau-2026",
     title: "10 choses à faire à Millau (le viaduc le plus haut du monde et les Causses)",
-    metaTitle: "10 choses à faire à Millau 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Millau 2027 — activités et sorties locales",
     metaDesc: "Viaduc de Millau, gorges du Tarn, Roquefort, Larzac et Templiers : 10 activités à Millau pour découvrir le Sud-Aveyron et les Grands Causses.",
     category: "tourisme",
     emoji: "🌉",
@@ -30073,7 +30073,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-rodez-2026",
     title: "10 choses à faire à Rodez (la cathédrale gothique et le musée Soulages)",
-    metaTitle: "10 choses à faire à Rodez 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Rodez 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Notre-Dame, musée Soulages, Conques, plateau de l'Aubrac et estives : 10 activités à Rodez pour découvrir la préfecture de l'Aveyron.",
     category: "tourisme",
     emoji: "⚫",
@@ -30132,7 +30132,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-auch-2026",
     title: "10 choses à faire à Auch (la cité de d'Artagnan et l'escalier monumental)",
-    metaTitle: "10 choses à faire à Auch 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Auch 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Sainte-Marie, escalier monumental, statue de d'Artagnan, Marciac et Armagnac : 10 activités à Auch pour découvrir la capitale de la Gascogne.",
     category: "tourisme",
     emoji: "⚔️",
@@ -30191,7 +30191,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cahors-2026",
     title: "10 choses à faire à Cahors (le pont Valentré et le vin noir du Lot)",
-    metaTitle: "10 choses à faire à Cahors 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cahors 2027 — activités et sorties locales",
     metaDesc: "Pont Valentré, vin noir AOC Cahors, Saint-Cirq-Lapopie, gouffre de Padirac et vallée du Lot : 10 activités à Cahors pour découvrir la préfecture du Lot.",
     category: "tourisme",
     emoji: "🍷",
@@ -30251,7 +30251,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mende-2026",
     title: "10 choses à faire à Mende (la cité du Gévaudan et le plus haut chef-lieu de France)",
-    metaTitle: "10 choses à faire à Mende 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Mende 2027 — activités et sorties locales",
     metaDesc: "Cathédrale gothique, mont Mimat, gorges du Tarn, Aubrac et Cévennes : 10 activités à Mende pour découvrir la préfecture la plus rurale de France.",
     category: "tourisme",
     emoji: "🐺",
@@ -30310,7 +30310,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-privas-2026",
     title: "10 choses à faire à Privas (la plus petite préfecture de France et le marron AOP)",
-    metaTitle: "10 choses à faire à Privas 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Privas 2027 — activités et sorties locales",
     metaDesc: "Vieille ville huguenote, marron d'Ardèche AOP, gorges de l'Ardèche, Mont Gerbier-de-Jonc et Vivarais : 10 activités à Privas pour découvrir l'Ardèche méridionale.",
     category: "tourisme",
     emoji: "🌰",
@@ -30369,7 +30369,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aurillac-2026",
     title: "10 choses à faire à Aurillac (le théâtre de rue et les volcans du Cantal)",
-    metaTitle: "10 choses à faire à Aurillac 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Aurillac 2027 — activités et sorties locales",
     metaDesc: "Festival des Arts de la Rue, château Saint-Étienne, Plomb du Cantal, Salers et Carladès : 10 activités à Aurillac pour découvrir la préfecture du Cantal.",
     category: "tourisme",
     emoji: "🎭",
@@ -30429,7 +30429,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-puy-en-velay-2026",
     title: "10 choses à faire au Puy-en-Velay (les pitons volcaniques et le chemin de Compostelle)",
-    metaTitle: "10 choses à faire au Puy-en-Velay 2026 — activités et sorties",
+    metaTitle: "10 choses à faire au Puy-en-Velay 2027 — activités et sorties",
     metaDesc: "Notre-Dame du Puy, statue Saint-Michel d'Aiguilhe, rocher Corneille, dentelle du Puy et lentille verte AOP : 10 activités au Puy-en-Velay pour découvrir la cité jacquaire.",
     category: "tourisme",
     emoji: "🌋",
@@ -30489,7 +30489,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-moulins-2026",
     title: "10 choses à faire à Moulins (la cité des Bourbons et le Centre National du Costume)",
-    metaTitle: "10 choses à faire à Moulins 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Moulins 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Notre-Dame, Centre national du costume de scène, château des Bourbons, vignobles Saint-Pourçain et forêt de Tronçais : 10 activités à Moulins pour découvrir la préfecture de l'Allier.",
     category: "tourisme",
     emoji: "🎭",
@@ -30549,7 +30549,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bressuire-2026",
     title: "10 choses à faire à Bressuire (le château des Beaumont-Bressuire et le bocage)",
-    metaTitle: "10 choses à faire à Bressuire 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bressuire 2027 — activités et sorties locales",
     metaDesc: "Château fortifié, bocage bressuirais, Puy du Fou, Mauléon et Marais poitevin : 10 activités à Bressuire pour découvrir le nord des Deux-Sèvres.",
     category: "tourisme",
     emoji: "🐎",
@@ -30609,7 +30609,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bar-le-duc-2026",
     title: "10 choses à faire à Bar-le-Duc (la ville haute Renaissance et la Voie sacrée)",
-    metaTitle: "10 choses à faire à Bar-le-Duc 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Bar-le-Duc 2027 — activités et sorties",
     metaDesc: "Ville haute Renaissance, Voie sacrée, Verdun, Saint-Mihiel et confiture à pépin de groseille : 10 activités à Bar-le-Duc pour découvrir le sud de la Meuse.",
     category: "tourisme",
     emoji: "🍓",
@@ -30668,7 +30668,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chaumont-2026",
     title: "10 choses à faire à Chaumont (le viaduc Eiffel et la Biennale du Graphisme)",
-    metaTitle: "10 choses à faire à Chaumont 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Chaumont 2027 — activités et sorties locales",
     metaDesc: "Viaduc, Signe (Centre national du graphisme), Colombey, vallée de la Marne et lac du Der : 10 activités à Chaumont pour découvrir la préfecture de la Haute-Marne.",
     category: "tourisme",
     emoji: "🎨",
@@ -30728,7 +30728,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-gueret-2026",
     title: "10 choses à faire à Guéret (les Monédières et le plateau de Millevaches)",
-    metaTitle: "10 choses à faire à Guéret 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Guéret 2027 — activités et sorties locales",
     metaDesc: "Musée de la Sénatorerie, parc des Loups de Chabrières, plateau de Millevaches et tapisserie d'Aubusson : 10 activités à Guéret pour découvrir la préfecture la plus rurale de la Creuse.",
     category: "tourisme",
     emoji: "🐺",
@@ -30788,7 +30788,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-brieuc-2026",
     title: "10 choses à faire à Saint-Brieuc (la baie aux marées et la côte de Goëlo)",
-    metaTitle: "10 choses à faire à Saint-Brieuc 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Brieuc 2027 — activités et sorties",
     metaDesc: "Baie de Saint-Brieuc, falaises de Plouha, Cap Fréhel, île de Bréhat et marées XXL : 10 activités à Saint-Brieuc pour découvrir le nord des Côtes-d'Armor.",
     category: "tourisme",
     emoji: "🌊",
@@ -30848,7 +30848,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-lo-2026",
     title: "10 choses à faire à Saint-Lô (le haras national et la reconstruction d'après-guerre)",
-    metaTitle: "10 choses à faire à Saint-Lô 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saint-Lô 2027 — activités et sorties locales",
     metaDesc: "Haras national, cathédrale reconstruite, plages du Débarquement, marais du Cotentin et Bayeux : 10 activités à Saint-Lô pour découvrir le centre Manche.",
     category: "tourisme",
     emoji: "🐎",
@@ -30908,7 +30908,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-evreux-2026",
     title: "10 choses à faire à Évreux (la cathédrale Notre-Dame et la vallée de l'Iton)",
-    metaTitle: "10 choses à faire à Évreux 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Évreux 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Notre-Dame, beffroi, musée municipal, château-musée de Beaumesnil et Giverny : 10 activités à Évreux pour découvrir la préfecture de l'Eure.",
     category: "tourisme",
     emoji: "🌳",
@@ -30967,7 +30967,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-beauvais-2026",
     title: "10 choses à faire à Beauvais (la cathédrale la plus haute du monde et la tapisserie)",
-    metaTitle: "10 choses à faire à Beauvais 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Beauvais 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Saint-Pierre, Galerie Nationale de la Tapisserie, MUDO, château de Chantilly et Senlis : 10 activités à Beauvais pour découvrir la préfecture de l'Oise.",
     category: "tourisme",
     emoji: "⛪",
@@ -31026,7 +31026,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-laon-2026",
     title: "10 choses à faire à Laon (la cathédrale gothique perchée et la cité fortifiée)",
-    metaTitle: "10 choses à faire à Laon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Laon 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Notre-Dame, remparts médiévaux, palais épiscopal, Chemin des Dames et caves du Champagne : 10 activités à Laon pour découvrir la cité haute de l'Aisne.",
     category: "tourisme",
     emoji: "🏰",
@@ -31085,7 +31085,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-charleville-mezieres-2026",
     title: "10 choses à faire à Charleville-Mézières (la place ducale et Rimbaud)",
-    metaTitle: "10 choses à faire à Charleville-Mézières 2026",
+    metaTitle: "10 choses à faire à Charleville-Mézières 2027",
     metaDesc: "Place ducale, musée Rimbaud, Festival mondial des Théâtres de Marionnettes et vallée de la Meuse : 10 activités à Charleville-Mézières pour découvrir la préfecture ardennaise.",
     category: "tourisme",
     emoji: "🎭",
@@ -31144,7 +31144,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-die-des-vosges-2026",
     title: "10 choses à faire à Saint-Dié-des-Vosges (la cité du géographe et le massif vosgien)",
-    metaTitle: "10 choses à faire à Saint-Dié-des-Vosges 2026",
+    metaTitle: "10 choses à faire à Saint-Dié-des-Vosges 2027",
     metaDesc: "Cathédrale, baptême de l'Amérique, Festival international de Géographie, Gérardmer et Hautes-Vosges : 10 activités à Saint-Dié-des-Vosges.",
     category: "tourisme",
     emoji: "🌲",
@@ -31203,7 +31203,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pontarlier-2026",
     title: "10 choses à faire à Pontarlier (la ville la plus haute de France et l'absinthe)",
-    metaTitle: "10 choses à faire à Pontarlier 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Pontarlier 2027 — activités et sorties",
     metaDesc: "Absinthe, musée du Pays du Haut-Doubs, lac Saint-Point, château de Joux et fromage Comté : 10 activités à Pontarlier pour découvrir le Doubs frontalier.",
     category: "tourisme",
     emoji: "🌿",
@@ -31263,7 +31263,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-omer-2026",
     title: "10 choses à faire à Saint-Omer (le marais audomarois et la cathédrale)",
-    metaTitle: "10 choses à faire à Saint-Omer 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Omer 2027 — activités et sorties",
     metaDesc: "Marais audomarois, cathédrale, ruines de Saint-Bertin, distillerie de gin et coupole d'Helfaut : 10 activités à Saint-Omer pour découvrir le sud des Hauts-de-France.",
     category: "tourisme",
     emoji: "🛶",
@@ -31322,7 +31322,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chateauroux-2026",
     title: "10 choses à faire à Châteauroux (le couvent des Cordeliers et la Brenne)",
-    metaTitle: "10 choses à faire à Châteauroux 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Châteauroux 2027 — activités et sorties",
     metaDesc: "Couvent des Cordeliers, château Raoul, parc Balsan, parc naturel régional de la Brenne et George Sand : 10 activités à Châteauroux pour découvrir la préfecture de l'Indre.",
     category: "tourisme",
     emoji: "🦆",
@@ -31381,7 +31381,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-nevers-2026",
     title: "10 choses à faire à Nevers (la faïence et la sainte Bernadette)",
-    metaTitle: "10 choses à faire à Nevers 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Nevers 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Saint-Cyr, palais ducal, faïence de Nevers, sainte Bernadette et Magny-Cours : 10 activités à Nevers pour découvrir la préfecture de la Nièvre.",
     category: "tourisme",
     emoji: "🏺",
@@ -31440,7 +31440,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vesoul-2026",
     title: "10 choses à faire à Vesoul (le lac et la « ville mille fois trop douce »)",
-    metaTitle: "10 choses à faire à Vesoul 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Vesoul 2027 — activités et sorties locales",
     metaDesc: "Lac de Vesoul, château de la Motte, Jacques Brel, Ronchamp et plateau des Mille Étangs : 10 activités à Vesoul pour découvrir la Haute-Saône.",
     category: "tourisme",
     emoji: "🌅",
@@ -31499,7 +31499,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lons-le-saunier-2026",
     title: "10 choses à faire à Lons-le-Saunier (la cité du sel et le vin jaune)",
-    metaTitle: "10 choses à faire à Lons-le-Saunier 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Lons-le-Saunier 2027 — activités et sorties",
     metaDesc: "Place de la Liberté, Marseillaise, vignobles du Jura, Château-Chalon et lacs de Cascades du Hérisson : 10 activités à Lons-le-Saunier pour découvrir le Jura.",
     category: "tourisme",
     emoji: "🍷",
@@ -31559,7 +31559,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-foix-2026",
     title: "10 choses à faire à Foix (le château des comtes et l'Ariège pyrénéenne)",
-    metaTitle: "10 choses à faire à Foix 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Foix 2027 — activités et sorties locales",
     metaDesc: "Château fort, grotte de Niaux, Montségur, rivière souterraine de Labouiche et Mirepoix : 10 activités à Foix pour découvrir la préfecture de l'Ariège.",
     category: "tourisme",
     emoji: "🏔️",
@@ -31619,7 +31619,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-gap-2026",
     title: "10 choses à faire à Gap (la station de Charance et les Hautes-Alpes)",
-    metaTitle: "10 choses à faire à Gap 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Gap 2027 — activités et sorties locales",
     metaDesc: "Domaine de Charance, lac de Serre-Ponçon, Devoluy, Buëch et plus beaux villages : 10 activités à Gap pour découvrir la préfecture des Hautes-Alpes.",
     category: "tourisme",
     emoji: "⛰️",
@@ -31678,7 +31678,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-digne-les-bains-2026",
     title: "10 choses à faire à Digne-les-Bains (la cité thermale et la route des Lavandes)",
-    metaTitle: "10 choses à faire à Digne-les-Bains 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Digne-les-Bains 2027 — activités et sorties",
     metaDesc: "Thermes de Digne, route des Lavandes, géologie UNESCO, train des Pignes et plateau de Valensole : 10 activités à Digne-les-Bains pour découvrir les Alpes-de-Haute-Provence.",
     category: "tourisme",
     emoji: "💜",
@@ -31737,7 +31737,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mont-de-marsan-2026",
     title: "10 choses à faire à Mont-de-Marsan (la cité Carcen et la course landaise)",
-    metaTitle: "10 choses à faire à Mont-de-Marsan 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Mont-de-Marsan 2027 — activités et sorties",
     metaDesc: "Musée Despiau-Wlérick, courses landaises, plages de Capbreton, forêt des Landes et Hossegor : 10 activités à Mont-de-Marsan pour découvrir la préfecture des Landes.",
     category: "tourisme",
     emoji: "🐃",
@@ -31797,7 +31797,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-tulle-2026",
     title: "10 choses à faire à Tulle (la cité de l'accordéon et le plateau corrézien)",
-    metaTitle: "10 choses à faire à Tulle 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Tulle 2027 — activités et sorties locales",
     metaDesc: "Cathédrale gothique, musée de l'Accordéon, plateau de Millevaches, gouffre de la Fage et Brive : 10 activités à Tulle pour découvrir la préfecture de la Corrèze.",
     category: "tourisme",
     emoji: "🪗",
@@ -31856,7 +31856,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chalons-en-champagne-2026",
     title: "10 choses à faire à Châlons-en-Champagne (la capitale champenoise et la Marne)",
-    metaTitle: "10 choses à faire à Châlons-en-Champagne 2026",
+    metaTitle: "10 choses à faire à Châlons-en-Champagne 2027",
     metaDesc: "Cathédrale Saint-Étienne, Notre-Dame-en-Vaux, Reims, Épernay et caves de champagne : 10 activités à Châlons-en-Champagne pour découvrir la préfecture de la Marne.",
     category: "tourisme",
     emoji: "🥂",
@@ -31916,7 +31916,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-alencon-2026",
     title: "10 choses à faire à Alençon (le point d'Alençon et le parc naturel Normandie-Maine)",
-    metaTitle: "10 choses à faire à Alençon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Alençon 2027 — activités et sorties locales",
     metaDesc: "Musée des Beaux-Arts et de la Dentelle, basilique Notre-Dame, sainte Thérèse, Bagnoles-de-l'Orne et Suisse normande : 10 activités à Alençon pour découvrir l'Orne.",
     category: "tourisme",
     emoji: "🪡",
@@ -31976,7 +31976,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bourges-2026",
     title: "10 choses à faire à Bourges (la cathédrale UNESCO et le palais Jacques-Cœur)",
-    metaTitle: "10 choses à faire à Bourges 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bourges 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Saint-Étienne UNESCO, palais Jacques-Cœur, Printemps de Bourges, marais et Sancerre : 10 activités à Bourges pour découvrir la préfecture du Cher.",
     category: "tourisme",
     emoji: "⛪",
@@ -32035,7 +32035,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-fontainebleau-2026",
     title: "10 choses à faire à Fontainebleau (le château royal et la forêt de l'École)",
-    metaTitle: "10 choses à faire à Fontainebleau 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Fontainebleau 2027 — activités et sorties",
     metaDesc: "Château royal, forêt de Fontainebleau, escalade, Barbizon et Vaux-le-Vicomte : 10 activités à Fontainebleau pour découvrir la cité royale et son massif forestier.",
     category: "tourisme",
     emoji: "🌳",
@@ -32094,7 +32094,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-honfleur-2026",
     title: "10 choses à faire à Honfleur (le Vieux Bassin et les peintres impressionnistes)",
-    metaTitle: "10 choses à faire à Honfleur 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Honfleur 2027 — activités et sorties locales",
     metaDesc: "Vieux Bassin, église Sainte-Catherine en bois, musée Eugène Boudin, Deauville et estuaire de la Seine : 10 activités à Honfleur pour découvrir la cité normande.",
     category: "tourisme",
     emoji: "⚓",
@@ -32153,7 +32153,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sarlat-la-caneda-2026",
     title: "10 choses à faire à Sarlat-la-Canéda (la cité médiévale dorée et le foie gras)",
-    metaTitle: "10 choses à faire à Sarlat-la-Canéda 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Sarlat-la-Canéda 2027 — activités et sorties",
     metaDesc: "Vieille ville Renaissance, marché aux truffes, châteaux du Périgord, gouffre de Padirac et Rocamadour : 10 activités à Sarlat pour découvrir le cœur du Périgord noir.",
     category: "tourisme",
     emoji: "🦆",
@@ -32213,7 +32213,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-ajaccio-2026",
     title: "10 choses à faire à Ajaccio (la cité napoléonienne et le golfe de la Corse-du-Sud)",
-    metaTitle: "10 choses à faire à Ajaccio 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Ajaccio 2027 — activités et sorties locales",
     metaDesc: "Maison Bonaparte, citadelle, Îles Sanguinaires, calanques de Piana et Filitosa : 10 activités à Ajaccio pour découvrir la préfecture de la Corse-du-Sud.",
     category: "tourisme",
     emoji: "🌊",
@@ -32272,7 +32272,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bastia-2026",
     title: "10 choses à faire à Bastia (le vieux port et le Cap Corse)",
-    metaTitle: "10 choses à faire à Bastia 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bastia 2027 — activités et sorties locales",
     metaDesc: "Vieux port, citadelle Terra Nova, Cap Corse, Saint-Florent et désert des Agriates : 10 activités à Bastia pour découvrir la Haute-Corse.",
     category: "tourisme",
     emoji: "🏖️",
@@ -32331,7 +32331,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cassis-2026",
     title: "10 choses à faire à Cassis (les calanques et le Cap Canaille)",
-    metaTitle: "10 choses à faire à Cassis 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Cassis 2027 — activités et sorties locales",
     metaDesc: "Calanques de Cassis, Cap Canaille, vins blancs AOC, port de pêche et plage de l'Arène : 10 activités à Cassis pour découvrir la perle de la Côte d'Azur méridionale.",
     category: "tourisme",
     emoji: "🌊",
@@ -32390,7 +32390,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-collioure-2026",
     title: "10 choses à faire à Collioure (le village des Fauves et le Roussillon)",
-    metaTitle: "10 choses à faire à Collioure 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Collioure 2027 — activités et sorties locales",
     metaDesc: "Église Notre-Dame-des-Anges, château royal, anchois, Banyuls et Côte Vermeille : 10 activités à Collioure pour découvrir le berceau de la peinture fauve.",
     category: "tourisme",
     emoji: "🎨",
@@ -32450,7 +32450,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-tropez-2026",
     title: "10 choses à faire à Saint-Tropez (la presqu'île et la baie des Canoubiers)",
-    metaTitle: "10 choses à faire à Saint-Tropez 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Tropez 2027 — activités et sorties",
     metaDesc: "Vieux port, citadelle, plage de Pampelonne, sentier du Littoral et îles d'Hyères : 10 activités à Saint-Tropez pour découvrir la plus glamour des cités varoises.",
     category: "tourisme",
     emoji: "🛥️",
@@ -32510,7 +32510,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-menton-2026",
     title: "10 choses à faire à Menton (la cité des citrons et la Riviera frontalière)",
-    metaTitle: "10 choses à faire à Menton 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Menton 2027 — activités et sorties locales",
     metaDesc: "Fête du Citron, vieille ville baroque, jardins exotiques, Cap-Martin et villages perchés : 10 activités à Menton pour découvrir l'extrémité orientale de la Côte d'Azur.",
     category: "tourisme",
     emoji: "🍋",
@@ -32570,7 +32570,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-epernay-2026",
     title: "10 choses à faire à Épernay (la capitale du champagne et l'Avenue UNESCO)",
-    metaTitle: "10 choses à faire à Épernay 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Épernay 2027 — activités et sorties locales",
     metaDesc: "Avenue de Champagne UNESCO, Moët & Chandon, Mercier, Hautvillers, Dom Pérignon et Reims : 10 activités à Épernay pour découvrir la capitale du champagne.",
     category: "tourisme",
     emoji: "🍾",
@@ -32630,7 +32630,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-provins-2026",
     title: "10 choses à faire à Provins (la cité médiévale UNESCO et les remparts)",
-    metaTitle: "10 choses à faire à Provins 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Provins 2027 — activités et sorties locales",
     metaDesc: "Cité médiévale UNESCO, remparts, tour César, spectacles, Disneyland Paris et Fontainebleau : 10 activités à Provins pour découvrir la cité des Foires de Champagne.",
     category: "tourisme",
     emoji: "🏰",
@@ -32689,7 +32689,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lourdes-2026",
     title: "10 choses à faire à Lourdes (le sanctuaire marial et le pic du Midi)",
-    metaTitle: "10 choses à faire à Lourdes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Lourdes 2027 — activités et sorties locales",
     metaDesc: "Sanctuaire Notre-Dame, grotte de Massabielle, pic du Midi de Bigorre, cirque de Gavarnie et thermes : 10 activités à Lourdes pour découvrir le sanctuaire pyrénéen.",
     category: "tourisme",
     emoji: "⛪",
@@ -32748,7 +32748,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-beaune-2026",
     title: "10 choses à faire à Beaune (les Hospices et la route des Grands Crus)",
-    metaTitle: "10 choses à faire à Beaune 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Beaune 2027 — activités et sorties locales",
     metaDesc: "Hospices, vente aux enchères, route des Grands Crus, climats UNESCO et villages viticoles : 10 activités à Beaune pour découvrir la capitale des vins de Bourgogne.",
     category: "tourisme",
     emoji: "🍷",
@@ -32807,7 +32807,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-concarneau-2026",
     title: "10 choses à faire à Concarneau (la Ville Close fortifiée et les Glénan)",
-    metaTitle: "10 choses à faire à Concarneau 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Concarneau 2027 — activités et sorties",
     metaDesc: "Ville Close, port de pêche, archipel des Glénan, Pont-Aven et école de peinture : 10 activités à Concarneau pour découvrir la côte du Finistère sud.",
     category: "tourisme",
     emoji: "🐟",
@@ -32866,7 +32866,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-jean-de-luz-2026",
     title: "10 choses à faire à Saint-Jean-de-Luz (la baie basque et le mariage de Louis XIV)",
-    metaTitle: "10 choses à faire à Saint-Jean-de-Luz 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Jean-de-Luz 2027 — activités et sorties",
     metaDesc: "Plage de la Grande Plage, église Saint-Jean-Baptiste, Espelette, Sare et corniche basque : 10 activités à Saint-Jean-de-Luz pour découvrir la côte basque.",
     category: "tourisme",
     emoji: "🌊",
@@ -32925,7 +32925,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-carnac-2026",
     title: "10 choses à faire à Carnac (les alignements mégalithiques et le golfe du Morbihan)",
-    metaTitle: "10 choses à faire à Carnac 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Carnac 2027 — activités et sorties locales",
     metaDesc: "Alignements mégalithiques, plages, île de Belle-Île-en-Mer, golfe du Morbihan et Vannes : 10 activités à Carnac pour découvrir le Morbihan préhistorique.",
     category: "tourisme",
     emoji: "🪨",
@@ -32984,7 +32984,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-gordes-2026",
     title: "10 choses à faire à Gordes (le village perché du Luberon et l'abbaye de Sénanque)",
-    metaTitle: "10 choses à faire à Gordes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Gordes 2027 — activités et sorties locales",
     metaDesc: "Gordes perché, abbaye de Sénanque, Roussillon, Bonnieux, Ménerbes et lavandes : 10 activités à Gordes pour découvrir le cœur du Luberon classique.",
     category: "tourisme",
     emoji: "💜",
@@ -33043,7 +33043,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-paul-de-vence-2026",
     title: "10 choses à faire à Saint-Paul-de-Vence (la cité des artistes et la Riviera de l'arrière-pays)",
-    metaTitle: "10 choses à faire à Saint-Paul-de-Vence 2026",
+    metaTitle: "10 choses à faire à Saint-Paul-de-Vence 2027",
     metaDesc: "Cité fortifiée, Fondation Maeght, Colombe d'Or, Vence et villages perchés : 10 activités à Saint-Paul-de-Vence pour découvrir la Riviera des artistes.",
     category: "tourisme",
     emoji: "🎨",
@@ -33103,7 +33103,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-amboise-2026",
     title: "10 choses à faire à Amboise (le château royal et le Clos Lucé de Léonard de Vinci)",
-    metaTitle: "10 choses à faire à Amboise 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Amboise 2027 — activités et sorties locales",
     metaDesc: "Château royal, Clos Lucé, Chenonceau, Chambord et vignobles Vouvray : 10 activités à Amboise pour découvrir le cœur des châteaux de la Loire.",
     category: "tourisme",
     emoji: "🏰",
@@ -33162,7 +33162,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saumur-2026",
     title: "10 choses à faire à Saumur (le château des ducs d'Anjou et le Cadre Noir)",
-    metaTitle: "10 choses à faire à Saumur 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Saumur 2027 — activités et sorties locales",
     metaDesc: "Château ducal, Cadre Noir, Abbaye de Fontevraud, vignobles Saumur-Champigny et grottes troglodytes : 10 activités à Saumur pour découvrir le Val de Loire angevin.",
     category: "tourisme",
     emoji: "🐎",
@@ -33221,7 +33221,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chantilly-2026",
     title: "10 choses à faire à Chantilly (le château Renaissance et les Grandes Écuries)",
-    metaTitle: "10 choses à faire à Chantilly 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Chantilly 2027 — activités et sorties locales",
     metaDesc: "Château, musée Condé, Grandes Écuries, hippodrome, jardins Le Nôtre et Senlis : 10 activités à Chantilly pour découvrir l'Oise royale.",
     category: "tourisme",
     emoji: "🐎",
@@ -33281,7 +33281,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-grasse-2026",
     title: "10 choses à faire à Grasse (la capitale mondiale du parfum et l'arrière-pays niçois)",
-    metaTitle: "10 choses à faire à Grasse 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Grasse 2027 — activités et sorties locales",
     metaDesc: "Parfumeries Fragonard, Galimard, Molinard, musée international de la Parfumerie, vieille ville et Cabris : 10 activités à Grasse pour découvrir la capitale du parfum.",
     category: "tourisme",
     emoji: "🌹",
@@ -33341,7 +33341,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-antibes-2026",
     title: "10 choses à faire à Antibes (le Vieil Antibes et le musée Picasso)",
-    metaTitle: "10 choses à faire à Antibes 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Antibes 2027 — activités et sorties locales",
     metaDesc: "Vieil Antibes, Cap d'Antibes, musée Picasso, marché provençal et Juan-les-Pins : 10 activités à Antibes pour découvrir la perle de la Côte d'Azur.",
     category: "tourisme",
     emoji: "🛥️",
@@ -33401,7 +33401,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cagnes-sur-mer-2026",
     title: "10 choses à faire à Cagnes-sur-Mer (Renoir et l'hippodrome de la Côte d'Azur)",
-    metaTitle: "10 choses à faire à Cagnes-sur-Mer 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Cagnes-sur-Mer 2027 — activités et sorties",
     metaDesc: "Musée Renoir, Haut-de-Cagnes médiéval, hippodrome de la Côte d'Azur, Vence et Saint-Paul-de-Vence : 10 activités à Cagnes-sur-Mer pour découvrir la commune où vécut Renoir.",
     category: "tourisme",
     emoji: "🎨",
@@ -33461,7 +33461,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-raphael-2026",
     title: "10 choses à faire à Saint-Raphaël (l'Estérel rouge et la baie d'Agay)",
-    metaTitle: "10 choses à faire à Saint-Raphaël 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Raphaël 2027 — activités et sorties",
     metaDesc: "Massif de l'Estérel, baie d'Agay, port de plaisance, Fréjus et Cannes : 10 activités à Saint-Raphaël pour découvrir la côte d'Esterel rouge.",
     category: "tourisme",
     emoji: "🏝️",
@@ -33521,7 +33521,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chinon-2026",
     title: "10 choses à faire à Chinon (la forteresse Plantagenêt et Rabelais)",
-    metaTitle: "10 choses à faire à Chinon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Chinon 2027 — activités et sorties locales",
     metaDesc: "Forteresse royale, musée Rabelais, vignobles Chinon, Fontevraud et bord de Loire : 10 activités à Chinon pour découvrir le Val de Loire angevin.",
     category: "tourisme",
     emoji: "🏰",
@@ -33580,7 +33580,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-compiegne-2026",
     title: "10 choses à faire à Compiègne (le palais impérial et la clairière de l'Armistice)",
-    metaTitle: "10 choses à faire à Compiègne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Compiègne 2027 — activités et sorties locales",
     metaDesc: "Palais impérial, clairière de l'Armistice, forêt de Compiègne, Pierrefonds et Senlis : 10 activités à Compiègne pour découvrir la résidence des rois et empereurs.",
     category: "tourisme",
     emoji: "🏛️",
@@ -33640,7 +33640,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bayeux-2026",
     title: "10 choses à faire à Bayeux (la tapisserie UNESCO et les plages du Débarquement)",
-    metaTitle: "10 choses à faire à Bayeux 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Bayeux 2027 — activités et sorties locales",
     metaDesc: "Tapisserie de Bayeux, cathédrale, plages du Débarquement, cimetière américain et Mont-Saint-Michel : 10 activités à Bayeux pour découvrir le Calvados.",
     category: "tourisme",
     emoji: "🧵",
@@ -33699,7 +33699,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-martigues-2026",
     title: "10 choses à faire à Martigues (la Venise provençale et l'étang de Berre)",
-    metaTitle: "10 choses à faire à Martigues 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Martigues 2027 — activités et sorties locales",
     metaDesc: "Canaux, miroir aux oiseaux, étang de Berre, calanques voisines et la Côte Bleue : 10 activités à Martigues pour découvrir la cité des trois pêcheurs.",
     category: "tourisme",
     emoji: "🛶",
@@ -33758,7 +33758,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-calvi-2026",
     title: "10 choses à faire à Calvi (la citadelle génoise et la Balagne)",
-    metaTitle: "10 choses à faire à Calvi 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Calvi 2027 — activités et sorties locales",
     metaDesc: "Citadelle génoise, plage de Calvi, Balagne, calanques de Piana et désert des Agriates : 10 activités à Calvi pour découvrir la côte ouest de la Corse.",
     category: "tourisme",
     emoji: "🏖️",
@@ -33817,7 +33817,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-porto-vecchio-2026",
     title: "10 choses à faire à Porto-Vecchio (les plages turquoise et l'Alta Rocca)",
-    metaTitle: "10 choses à faire à Porto-Vecchio 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Porto-Vecchio 2027 — activités et sorties",
     metaDesc: "Plage de Palombaggia, Santa-Giulia, Bonifacio, Alta Rocca et marais salants : 10 activités à Porto-Vecchio pour découvrir le sud-est de la Corse.",
     category: "tourisme",
     emoji: "🏝️",
@@ -33876,7 +33876,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-arcachon-2026",
     title: "10 choses à faire à Arcachon (le bassin et la dune du Pilat)",
-    metaTitle: "10 choses à faire à Arcachon 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Arcachon 2027 — activités et sorties locales",
     metaDesc: "Bassin d'Arcachon, dune du Pilat, Cap-Ferret, île aux Oiseaux et huîtres : 10 activités à Arcachon pour découvrir la perle de la Gironde.",
     category: "tourisme",
     emoji: "🦪",
@@ -33935,7 +33935,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-royan-2026",
     title: "10 choses à faire à Royan (l'architecture des années 50 et la Côte de Beauté)",
-    metaTitle: "10 choses à faire à Royan 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Royan 2027 — activités et sorties locales",
     metaDesc: "Église Notre-Dame, marché, Côte de Beauté, La Palmyre et phare de Cordouan : 10 activités à Royan pour découvrir la station charentaise.",
     category: "tourisme",
     emoji: "🏖️",
@@ -33994,7 +33994,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-libourne-2026",
     title: "10 choses à faire à Libourne (Saint-Émilion et le grand vignoble bordelais)",
-    metaTitle: "10 choses à faire à Libourne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Libourne 2027 — activités et sorties locales",
     metaDesc: "Saint-Émilion, Pomerol, Fronsac, vieille bastide et confluent : 10 activités à Libourne pour découvrir le cœur viticole du Libournais.",
     category: "tourisme",
     emoji: "🍇",
@@ -34053,7 +34053,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dinan-2026",
     title: "10 choses à faire à Dinan (la cité médiévale et la Rance)",
-    metaTitle: "10 choses à faire à Dinan 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Dinan 2027 — activités et sorties locales",
     metaDesc: "Remparts médiévaux, rue du Jerzual, port de Dinan, Saint-Malo et Mont-Saint-Michel : 10 activités à Dinan pour découvrir la cité bretonne fortifiée.",
     category: "tourisme",
     emoji: "🏰",
@@ -34113,7 +34113,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pezenas-2026",
     title: "10 choses à faire à Pézenas (la cité de Molière et le Languedoc)",
-    metaTitle: "10 choses à faire à Pézenas 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Pézenas 2027 — activités et sorties locales",
     metaDesc: "Hôtels particuliers Renaissance, atelier Molière, marché, Béziers et étang de Thau : 10 activités à Pézenas pour découvrir la « Versailles du Languedoc ».",
     category: "tourisme",
     emoji: "🎭",
@@ -34172,7 +34172,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vienne-2026",
     title: "10 choses à faire à Vienne (la cité gallo-romaine du Rhône et le jazz)",
-    metaTitle: "10 choses à faire à Vienne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Vienne 2027 — activités et sorties locales",
     metaDesc: "Temple d'Auguste, théâtre romain, Festival Jazz à Vienne, vignobles Côte-Rôtie et Lyon : 10 activités à Vienne pour découvrir l'Isère gallo-romaine.",
     category: "tourisme",
     emoji: "🏛️",
@@ -34231,7 +34231,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-riom-2026",
     title: "10 choses à faire à Riom (la cité judiciaire et l'Auvergne romane)",
-    metaTitle: "10 choses à faire à Riom 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Riom 2027 — activités et sorties locales",
     metaDesc: "Vieille ville, basilique Saint-Amable, Vichy, Volvic, chaîne des Puys et Clermont-Ferrand : 10 activités à Riom pour découvrir le nord du Puy-de-Dôme.",
     category: "tourisme",
     emoji: "🌋",
@@ -34291,7 +34291,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sisteron-2026",
     title: "10 choses à faire à Sisteron (la citadelle Vauban et la Provence-Alpes)",
-    metaTitle: "10 choses à faire à Sisteron 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Sisteron 2027 — activités et sorties locales",
     metaDesc: "Citadelle, agneau de Sisteron, gorges de la Durance, plateau de Valensole et Manosque : 10 activités à Sisteron pour découvrir la « porte de la Provence ».",
     category: "tourisme",
     emoji: "⛰️",
@@ -34350,7 +34350,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-apt-2026",
     title: "10 choses à faire à Apt (le marché du Luberon et les fruits confits)",
-    metaTitle: "10 choses à faire à Apt 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Apt 2027 — activités et sorties locales",
     metaDesc: "Marché provençal, fruits confits, ocres de Roussillon, Luberon et Gordes : 10 activités à Apt pour découvrir le cœur du Vaucluse.",
     category: "tourisme",
     emoji: "🍑",
@@ -34409,7 +34409,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-annonay-2026",
     title: "10 choses à faire à Annonay (la cité des Montgolfier et l'Ardèche nord)",
-    metaTitle: "10 choses à faire à Annonay 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Annonay 2027 — activités et sorties locales",
     metaDesc: "Montgolfière, musée des frères Montgolfier, ViaRhôna, vignobles Saint-Joseph et parc du Pilat : 10 activités à Annonay pour découvrir l'Ardèche nord.",
     category: "tourisme",
     emoji: "🎈",
@@ -34468,7 +34468,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montbeliard-2026",
     title: "10 choses à faire à Montbéliard (le château des Württemberg et l'Alsace francophone)",
-    metaTitle: "10 choses à faire à Montbéliard 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Montbéliard 2027 — activités et sorties",
     metaDesc: "Château, Lumières de Noël, musée Peugeot, vallée de la Loue et Sochaux : 10 activités à Montbéliard pour découvrir le nord du Doubs.",
     category: "tourisme",
     emoji: "🎄",
@@ -34528,7 +34528,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aubagne-2026",
     title: "10 choses à faire à Aubagne (le pays de Marcel Pagnol)",
-    metaTitle: "10 choses à faire à Aubagne 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Aubagne 2027 — activités et sorties locales",
     metaDesc: "Collines de Pagnol, Garlaban, santons, Sainte-Baume, Cassis à 20 km : 10 activités à Aubagne pour découvrir le seuil est de la Provence marseillaise.",
     category: "tourisme",
     emoji: "🎭",
@@ -34590,7 +34590,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-anglet-2026",
     title: "10 choses à faire à Anglet (la côte basque côté surf)",
-    metaTitle: "10 choses à faire à Anglet 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Anglet 2027 — activités et sorties locales",
     metaDesc: "Chambre d'Amour, plage des Cavaliers, forêt du Pignada, golf de Chiberta, Bayonne et Biarritz à 5 min : 10 activités à Anglet sur la côte basque.",
     category: "tourisme",
     emoji: "🏄",
@@ -34652,7 +34652,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-autun-2026",
     title: "10 choses à faire à Autun (la sœur romaine de Rome en Morvan)",
-    metaTitle: "10 choses à faire à Autun 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Autun 2027 — activités et sorties locales",
     metaDesc: "Cathédrale Saint-Lazare, théâtre romain, portes gallo-romaines, Bibracte et parc du Morvan : 10 activités à Autun pour découvrir Augustodunum.",
     category: "tourisme",
     emoji: "🏛️",
@@ -34713,7 +34713,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bagneres-de-bigorre-2026",
     title: "10 choses à faire à Bagnères-de-Bigorre (les Pyrénées thermales et le Pic du Midi)",
-    metaTitle: "10 choses à faire à Bagnères-de-Bigorre 2026 — activités locales",
+    metaTitle: "10 choses à faire à Bagnères-de-Bigorre 2027 — activités locales",
     metaDesc: "Thermes, Pic du Midi, Grand Tourmalet, grottes de Médous, Payolle : 10 activités à Bagnères-de-Bigorre pour découvrir les Pyrénées centrales.",
     category: "tourisme",
     emoji: "⛰️",
@@ -34774,8 +34774,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "meilleures-villes-marches-couverts-france-2026",
-    title: "Vivre près d'un marché couvert : les meilleures villes françaises en 2026",
-    metaTitle: "Marchés couverts France 2026 — Vivre tout près au quotidien",
+    title: "Vivre près d'un marché couvert : les meilleures villes françaises en 2027",
+    metaTitle: "Marchés couverts France 2027 — Vivre tout près au quotidien",
     metaDesc:
       "Halles centrales, marchés quotidiens : où en France peut-on encore faire ses courses chaque jour dans un vrai marché couvert traditionnel ? Le guide 2026.",
     category: "lifestyle",
@@ -34829,8 +34829,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-se-ressourcer-apres-burn-out-france-2026",
-    title: "Se ressourcer après un burn-out : les meilleures villes françaises en 2026",
-    metaTitle: "Villes où se ressourcer après un burn-out — France 2026",
+    title: "Se ressourcer après un burn-out : les meilleures villes françaises en 2027",
+    metaTitle: "Villes où se ressourcer après un burn-out — France 2027",
     metaDesc:
       "Calme, nature, climat doux, services médicaux : où poser sa valise pour reconstruire son énergie après un burn-out. Guide France 2026, 8 villes ressources.",
     category: "lifestyle",
@@ -34892,8 +34892,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-pres-aeroport-france-bruit-aerien-2026",
-    title: "Vivre près d'un aéroport en France 2026 — bruit aérien, PEB, décote, où regarder vraiment",
-    metaTitle: "Vivre près d'un aéroport 2026 : PEB, bruit, décote",
+    title: "Vivre près d'un aéroport en France 2027 — bruit aérien, PEB, décote, où regarder vraiment",
+    metaTitle: "Vivre près d'un aéroport 2027 : PEB, bruit, décote",
     metaDesc:
       "Vivre près d'un aéroport en France 2026 : zones PEB A à D, niveaux Lden réels, couloirs d'approche, décote immobilière, vols de nuit, à vérifier avant achat.",
     category: "lifestyle",
@@ -34953,8 +34953,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-france-gare-tgv-acces-direct-2026",
-    title: "Vivre dans une ville avec gare TGV : ce que change vraiment l'accès direct en 2026",
-    metaTitle: "Vivre dans une ville avec gare TGV — Guide 2026",
+    title: "Vivre dans une ville avec gare TGV : ce que change vraiment l'accès direct en 2027",
+    metaTitle: "Vivre dans une ville avec gare TGV — Guide 2027",
     metaDesc:
       "Quel intérêt réel d'habiter à 5 min d'une gare TGV ? Temps de trajet, effet sur l'immobilier, gares excentrées : guide 2026 des villes françaises connectées.",
     category: "lifestyle",
@@ -35067,9 +35067,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-lyon-2026",
-    title: "Vivre à Lyon en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Lyon en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Lyon en 2026 : quels quartiers viser, quel budget prévoir, où travailler, et ce que la ville ne dit pas dans ses brochures. Guide honnête.",
+    title: "Vivre à Lyon en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Lyon en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Lyon en 2027 : quels quartiers viser, quel budget prévoir, où travailler, et ce que la ville ne dit pas dans ses brochures. Guide honnête.",
     category: "lifestyle",
     emoji: "🦁",
     readMinutes: 10,
@@ -35114,9 +35114,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-bordeaux-2026",
-    title: "Vivre à Bordeaux en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Bordeaux en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Bordeaux en 2026 : quartiers où chercher, budget réel, marché de l'emploi, océan à 50 min. Le guide honnête, effet TGV compris.",
+    title: "Vivre à Bordeaux en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Bordeaux en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Bordeaux en 2027 : quartiers où chercher, budget réel, marché de l'emploi, océan à 50 min. Le guide honnête, effet TGV compris.",
     category: "lifestyle",
     emoji: "🍷",
     readMinutes: 10,
@@ -35161,9 +35161,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-toulouse-2026",
-    title: "Vivre à Toulouse en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Toulouse en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Toulouse en 2026 : quartiers, budget réel, Airbus et l'emploi tech, Pyrénées à 1h30. Le guide honnête de la Ville Rose.",
+    title: "Vivre à Toulouse en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Toulouse en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Toulouse en 2027 : quartiers, budget réel, Airbus et l'emploi tech, Pyrénées à 1h30. Le guide honnête de la Ville Rose.",
     category: "lifestyle",
     emoji: "🌹",
     readMinutes: 10,
@@ -35207,9 +35207,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-nantes-2026",
-    title: "Vivre à Nantes en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Nantes en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Nantes en 2026 : quartiers, budget réel, emploi diversifié, Atlantique à 50 min. Le guide honnête de la métropole de l'Ouest.",
+    title: "Vivre à Nantes en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Nantes en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Nantes en 2027 : quartiers, budget réel, emploi diversifié, Atlantique à 50 min. Le guide honnête de la métropole de l'Ouest.",
     category: "lifestyle",
     emoji: "🐘",
     readMinutes: 10,
@@ -35254,9 +35254,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-montpellier-2026",
-    title: "Vivre à Montpellier en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Montpellier en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Montpellier en 2026 : quartiers, budget réel, la mer à 12 km, et les limites du marché de l'emploi. Le guide honnête de la métropole méditerranéenne.",
+    title: "Vivre à Montpellier en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Montpellier en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Montpellier en 2027 : quartiers, budget réel, la mer à 12 km, et les limites du marché de l'emploi. Le guide honnête de la métropole méditerranéenne.",
     category: "lifestyle",
     emoji: "☀️",
     readMinutes: 10,
@@ -35300,9 +35300,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-rennes-2026",
-    title: "Vivre à Rennes en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Rennes en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Rennes en 2026 : quartiers, budget réel, le tech breton, Paris en 1h27. Le guide honnête de la capitale bretonne.",
+    title: "Vivre à Rennes en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Rennes en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Rennes en 2027 : quartiers, budget réel, le tech breton, Paris en 1h27. Le guide honnête de la capitale bretonne.",
     category: "lifestyle",
     emoji: "🥞",
     readMinutes: 10,
@@ -35347,9 +35347,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-strasbourg-2026",
-    title: "Vivre à Strasbourg en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Strasbourg en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Strasbourg en 2026 : quartiers, budget réel, institutions européennes, vélo roi et frontière allemande. Le guide honnête de la capitale alsacienne.",
+    title: "Vivre à Strasbourg en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Strasbourg en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Strasbourg en 2027 : quartiers, budget réel, institutions européennes, vélo roi et frontière allemande. Le guide honnête de la capitale alsacienne.",
     category: "lifestyle",
     emoji: "🥨",
     readMinutes: 10,
@@ -35393,9 +35393,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-lille-2026",
-    title: "Vivre à Lille en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Lille en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Lille en 2026 : quartiers, budget réel (-40 % sur Paris), hub Eurostar Londres-Bruxelles-Paris. Le guide honnête de la capitale des Flandres.",
+    title: "Vivre à Lille en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Lille en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Lille en 2027 : quartiers, budget réel (-40 % sur Paris), hub Eurostar Londres-Bruxelles-Paris. Le guide honnête de la capitale des Flandres.",
     category: "lifestyle",
     emoji: "🍺",
     readMinutes: 10,
@@ -35439,9 +35439,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-marseille-2026",
-    title: "Vivre à Marseille en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Marseille en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Marseille en 2026 : quartiers qui fonctionnent, budget réel, mer et calanques au quotidien, et les sujets que la ville ne cache même pas. Guide honnête.",
+    title: "Vivre à Marseille en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Marseille en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Marseille en 2027 : quartiers qui fonctionnent, budget réel, mer et calanques au quotidien, et les sujets que la ville ne cache même pas. Guide honnête.",
     category: "lifestyle",
     emoji: "⛵",
     readMinutes: 11,
@@ -35485,9 +35485,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-nice-2026",
-    title: "Vivre à Nice en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Nice en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Nice en 2026 : quartiers, budget Côte d'Azur réel, hiver le plus doux de France, Monaco à 22 min. Le guide honnête de la capitale azuréenne.",
+    title: "Vivre à Nice en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Nice en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Nice en 2027 : quartiers, budget Côte d'Azur réel, hiver le plus doux de France, Monaco à 22 min. Le guide honnête de la capitale azuréenne.",
     category: "lifestyle",
     emoji: "🌴",
     readMinutes: 10,
@@ -35531,9 +35531,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-grenoble-2026",
-    title: "Vivre à Grenoble en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Grenoble en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Grenoble en 2026 : quartiers, budget réel, pôle tech mondial, trois massifs à 45 min. Le guide honnête de la capitale des Alpes.",
+    title: "Vivre à Grenoble en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Grenoble en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Grenoble en 2027 : quartiers, budget réel, pôle tech mondial, trois massifs à 45 min. Le guide honnête de la capitale des Alpes.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 10,
@@ -35577,9 +35577,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-angers-2026",
-    title: "Vivre à Angers en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Angers en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Angers en 2026 : quartiers, budget réel, la douceur angevine chiffrée, Nantes à 50 min et Paris à 1h30. Le guide honnête.",
+    title: "Vivre à Angers en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Angers en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Angers en 2027 : quartiers, budget réel, la douceur angevine chiffrée, Nantes à 50 min et Paris à 1h30. Le guide honnête.",
     category: "lifestyle",
     emoji: "🌿",
     readMinutes: 10,
@@ -35623,9 +35623,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-dijon-2026",
-    title: "Vivre à Dijon en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Dijon en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Dijon en 2026 : quartiers, budget réel, tram, vignobles de Bourgogne à 20 min et Paris à 1h35. Le guide honnête de la capitale bourguignonne.",
+    title: "Vivre à Dijon en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Dijon en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Dijon en 2027 : quartiers, budget réel, tram, vignobles de Bourgogne à 20 min et Paris à 1h35. Le guide honnête de la capitale bourguignonne.",
     category: "lifestyle",
     emoji: "🍇",
     readMinutes: 9,
@@ -35669,9 +35669,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-tours-2026",
-    title: "Vivre à Tours en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Tours en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Tours en 2026 : quartiers, budget réel, Paris en 1h06, la Loire et les châteaux. Le guide honnête de la douceur tourangelle.",
+    title: "Vivre à Tours en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Tours en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Tours en 2027 : quartiers, budget réel, Paris en 1h06, la Loire et les châteaux. Le guide honnête de la douceur tourangelle.",
     category: "lifestyle",
     emoji: "🏰",
     readMinutes: 9,
@@ -35715,9 +35715,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-reims-2026",
-    title: "Vivre à Reims en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Reims en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Reims en 2026 : quartiers, budget réel, Paris en 45 minutes, le champagne en voisin. Le guide honnête de la cité des sacres.",
+    title: "Vivre à Reims en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Reims en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Reims en 2027 : quartiers, budget réel, Paris en 45 minutes, le champagne en voisin. Le guide honnête de la cité des sacres.",
     category: "lifestyle",
     emoji: "🍾",
     readMinutes: 9,
@@ -35761,9 +35761,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-nancy-2026",
-    title: "Vivre à Nancy en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Nancy en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Nancy en 2026 : quartiers, budget réel, place Stanislas, grandes écoles et prix lorrains. Le guide honnête de la capitale des ducs.",
+    title: "Vivre à Nancy en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Nancy en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Nancy en 2027 : quartiers, budget réel, place Stanislas, grandes écoles et prix lorrains. Le guide honnête de la capitale des ducs.",
     category: "lifestyle",
     emoji: "🎨",
     readMinutes: 9,
@@ -35807,9 +35807,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-clermont-ferrand-2026",
-    title: "Vivre à Clermont-Ferrand en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Clermont-Ferrand en 2026 : quartiers, budget",
-    metaDesc: "S'installer à Clermont-Ferrand en 2026 : quartiers, budget réel, Michelin, les volcans à 20 min. Le guide honnête de la capitale auvergnate.",
+    title: "Vivre à Clermont-Ferrand en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Clermont-Ferrand en 2027 : quartiers, budget",
+    metaDesc: "S'installer à Clermont-Ferrand en 2027 : quartiers, budget réel, Michelin, les volcans à 20 min. Le guide honnête de la capitale auvergnate.",
     category: "lifestyle",
     emoji: "🌋",
     readMinutes: 9,
@@ -35853,9 +35853,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-la-rochelle-2026",
-    title: "Vivre à La Rochelle en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à La Rochelle en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à La Rochelle en 2026 : quartiers, budget réel après la surchauffe, l'Atlantique au quotidien et les limites d'une ville de 80 000 habitants. Guide honnête.",
+    title: "Vivre à La Rochelle en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à La Rochelle en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à La Rochelle en 2027 : quartiers, budget réel après la surchauffe, l'Atlantique au quotidien et les limites d'une ville de 80 000 habitants. Guide honnête.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 9,
@@ -35899,8 +35899,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "photovoltaique-autoconsommation-france-2026-ou-rentable",
-    title: "Panneaux photovoltaïques en autoconsommation en France : où c'est vraiment rentable en 2026",
-    metaTitle: "Photovoltaïque autoconsommation France 2026 — où c'est rentable",
+    title: "Panneaux photovoltaïques en autoconsommation en France : où c'est vraiment rentable en 2027",
+    metaTitle: "Photovoltaïque autoconsommation France 2027 — où c'est rentable",
     metaDesc:
       "Coût réel d'une installation solaire, ensoleillement par région, prime à l'autoconsommation, revente de surplus : où les panneaux photovoltaïques se rentabilisent vraiment en France en 2026.",
     category: "budget",
@@ -35955,9 +35955,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-metz-2026",
-    title: "Vivre à Metz en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Metz en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Metz en 2026 : quartiers, budget réel, le Luxembourg à 45 min, Pompidou-Metz. Le guide honnête de la ville la plus sous-cotée du Grand Est.",
+    title: "Vivre à Metz en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Metz en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Metz en 2027 : quartiers, budget réel, le Luxembourg à 45 min, Pompidou-Metz. Le guide honnête de la ville la plus sous-cotée du Grand Est.",
     category: "lifestyle",
     emoji: "🟡",
     readMinutes: 9,
@@ -36001,9 +36001,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-annecy-2026",
-    title: "Vivre à Annecy en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Annecy en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Annecy en 2026 : quartiers, budget réel (la ville la plus chère hors Paris), lac, Genève à 40 min. Le guide honnête de la Venise des Alpes.",
+    title: "Vivre à Annecy en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Annecy en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Annecy en 2027 : quartiers, budget réel (la ville la plus chère hors Paris), lac, Genève à 40 min. Le guide honnête de la Venise des Alpes.",
     category: "lifestyle",
     emoji: "🏞️",
     readMinutes: 10,
@@ -36047,9 +36047,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-brest-2026",
-    title: "Vivre à Brest en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Brest en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Brest en 2026 : quartiers, budget réel (parmi les prix les plus bas de France), la mer partout, le rail iroise. Le guide honnête du bout du monde.",
+    title: "Vivre à Brest en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Brest en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Brest en 2027 : quartiers, budget réel (parmi les prix les plus bas de France), la mer partout, le rail iroise. Le guide honnête du bout du monde.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 9,
@@ -36093,9 +36093,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-mans-2026",
-    title: "Vivre au Mans en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre au Mans 2026 — Quartiers, budget, emploi : le guide complet",
-    metaDesc: "S'installer au Mans en 2026 : quartiers, budget réel (1 900 €/m²), Paris en 56 minutes. Le guide honnête de la ville la plus rationnelle pour un navetteur.",
+    title: "Vivre au Mans en 2027 : le guide complet pour s'installer",
+    metaTitle: "Vivre au Mans 2027 — Quartiers, budget, emploi : le guide complet",
+    metaDesc: "S'installer au Mans en 2027 : quartiers, budget réel (1 900 €/m²), Paris en 56 minutes. Le guide honnête de la ville la plus rationnelle pour un navetteur.",
     category: "lifestyle",
     emoji: "🏁",
     readMinutes: 9,
@@ -36139,9 +36139,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-orleans-2026",
-    title: "Vivre à Orléans en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Orléans en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Orléans en 2026 : quartiers, budget réel, Paris à 1h05, la Loire sauvage. Le guide honnête de la porte sud de l'Île-de-France.",
+    title: "Vivre à Orléans en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Orléans en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Orléans en 2027 : quartiers, budget réel, Paris à 1h05, la Loire sauvage. Le guide honnête de la porte sud de l'Île-de-France.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 9,
@@ -36185,9 +36185,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-caen-2026",
-    title: "Vivre à Caen en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Caen en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Caen en 2026 : quartiers, budget réel, la mer à 15 min, une des villes les plus sûres de France. Le guide honnête de la capitale normande.",
+    title: "Vivre à Caen en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Caen en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Caen en 2027 : quartiers, budget réel, la mer à 15 min, une des villes les plus sûres de France. Le guide honnête de la capitale normande.",
     category: "lifestyle",
     emoji: "🏰",
     readMinutes: 9,
@@ -36231,9 +36231,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-pau-2026",
-    title: "Vivre à Pau en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Pau en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Pau en 2026 : quartiers, budget réel, les Pyrénées en vitrine, TotalEnergies et Safran. Le guide honnête de la ville au balcon des Pyrénées.",
+    title: "Vivre à Pau en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Pau en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Pau en 2027 : quartiers, budget réel, les Pyrénées en vitrine, TotalEnergies et Safran. Le guide honnête de la ville au balcon des Pyrénées.",
     category: "lifestyle",
     emoji: "⛰️",
     readMinutes: 9,
@@ -36277,9 +36277,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-bayonne-2026",
-    title: "Vivre à Bayonne en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Bayonne en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Bayonne en 2026 : quartiers, budget réel du Pays basque, l'océan à 8 km, la pression immobilière. Le guide honnête de la capitale basque.",
+    title: "Vivre à Bayonne en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Bayonne en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Bayonne en 2027 : quartiers, budget réel du Pays basque, l'océan à 8 km, la pression immobilière. Le guide honnête de la capitale basque.",
     category: "lifestyle",
     emoji: "🔴",
     readMinutes: 10,
@@ -36323,9 +36323,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-rouen-2026",
-    title: "Vivre à Rouen en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Rouen en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Rouen en 2026 : quartiers, budget réel, Paris à 1h20, la Seine et les colombages. Le guide honnête de la capitale normande.",
+    title: "Vivre à Rouen en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Rouen en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Rouen en 2027 : quartiers, budget réel, Paris à 1h20, la Seine et les colombages. Le guide honnête de la capitale normande.",
     category: "lifestyle",
     emoji: "⛪",
     readMinutes: 9,
@@ -36369,9 +36369,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-au-havre-2026",
-    title: "Vivre au Havre en 2026 : le guide complet pour s'installer",
-    metaTitle: "Vivre au Havre 2026 — Quartiers, budget, emploi",
-    metaDesc: "S'installer au Havre en 2026 : le centre Perret UNESCO, la plage en ville, des prix à 2 000 €/m². Le guide honnête de la ville la plus mal jugée de France.",
+    title: "Vivre au Havre en 2027 : le guide complet pour s'installer",
+    metaTitle: "Vivre au Havre 2027 — Quartiers, budget, emploi",
+    metaDesc: "S'installer au Havre en 2027 : le centre Perret UNESCO, la plage en ville, des prix à 2 000 €/m². Le guide honnête de la ville la plus mal jugée de France.",
     category: "lifestyle",
     emoji: "🚢",
     readMinutes: 9,
@@ -36415,9 +36415,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-toulon-2026",
-    title: "Vivre à Toulon en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Toulon en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Toulon en 2026 : quartiers, budget réel, plus de soleil que Nice à moitié prix, la rade et le Faron. Le guide honnête du littoral abordable.",
+    title: "Vivre à Toulon en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Toulon en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Toulon en 2027 : quartiers, budget réel, plus de soleil que Nice à moitié prix, la rade et le Faron. Le guide honnête du littoral abordable.",
     category: "lifestyle",
     emoji: "☀️",
     readMinutes: 9,
@@ -36461,9 +36461,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-nimes-2026",
-    title: "Vivre à Nîmes en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Nîmes en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Nîmes en 2026 : quartiers, budget réel, Rome en France à -40 % de Montpellier. Le guide honnête de la ville aux Arènes.",
+    title: "Vivre à Nîmes en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Nîmes en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Nîmes en 2027 : quartiers, budget réel, Rome en France à -40 % de Montpellier. Le guide honnête de la ville aux Arènes.",
     category: "lifestyle",
     emoji: "🏛️",
     readMinutes: 9,
@@ -36507,9 +36507,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-avignon-2026",
-    title: "Vivre à Avignon en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Avignon en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Avignon en 2026 : intra ou extra-muros, budget réel, le Festival, la Provence sans les prix d'Aix. Le guide honnête de la cité des Papes.",
+    title: "Vivre à Avignon en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Avignon en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Avignon en 2027 : intra ou extra-muros, budget réel, le Festival, la Provence sans les prix d'Aix. Le guide honnête de la cité des Papes.",
     category: "lifestyle",
     emoji: "🎭",
     readMinutes: 9,
@@ -36553,9 +36553,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-perpignan-2026",
-    title: "Vivre à Perpignan en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Perpignan en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Perpignan en 2026 : la Méditerranée la moins chère de France, Barcelone à 1h, le Canigou en vitrine. Le guide honnête de la catalane.",
+    title: "Vivre à Perpignan en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Perpignan en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Perpignan en 2027 : la Méditerranée la moins chère de France, Barcelone à 1h, le Canigou en vitrine. Le guide honnête de la catalane.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 9,
@@ -36599,9 +36599,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-besancon-2026",
-    title: "Vivre à Besançon en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Besançon en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Besançon en 2026 : la Boucle du Doubs, Vauban, la Suisse à 1h, des prix doux. Le guide honnête de la capitale comtoise.",
+    title: "Vivre à Besançon en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Besançon en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Besançon en 2027 : la Boucle du Doubs, Vauban, la Suisse à 1h, des prix doux. Le guide honnête de la capitale comtoise.",
     category: "lifestyle",
     emoji: "🏞️",
     readMinutes: 9,
@@ -36645,9 +36645,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-limoges-2026",
-    title: "Vivre à Limoges en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Limoges en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Limoges en 2026 : la grande ville la moins chère de France (1 600 €/m²), CHU réputé, la campagne limousine. Le guide honnête, sans vernis.",
+    title: "Vivre à Limoges en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Limoges en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Limoges en 2027 : la grande ville la moins chère de France (1 600 €/m²), CHU réputé, la campagne limousine. Le guide honnête, sans vernis.",
     category: "lifestyle",
     emoji: "🍽️",
     readMinutes: 9,
@@ -36691,9 +36691,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-amiens-2026",
-    title: "Vivre à Amiens en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Amiens en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Amiens en 2026 : Saint-Leu et les hortillonnages, Paris à 1h05, des prix picards. Le guide honnête de la capitale de la Somme.",
+    title: "Vivre à Amiens en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Amiens en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Amiens en 2027 : Saint-Leu et les hortillonnages, Paris à 1h05, des prix picards. Le guide honnête de la capitale de la Somme.",
     category: "lifestyle",
     emoji: "🚣",
     readMinutes: 9,
@@ -36737,9 +36737,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-saint-etienne-2026",
-    title: "Vivre à Saint-Étienne en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Saint-Étienne en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Saint-Étienne en 2026 : la grande ville la moins chère de France avec Limoges, Lyon à 45 min, le Pilat. Le guide honnête du pari stéphanois.",
+    title: "Vivre à Saint-Étienne en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Saint-Étienne en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Saint-Étienne en 2027 : la grande ville la moins chère de France avec Limoges, Lyon à 45 min, le Pilat. Le guide honnête du pari stéphanois.",
     category: "lifestyle",
     emoji: "💚",
     readMinutes: 9,
@@ -36783,9 +36783,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-mulhouse-2026",
-    title: "Vivre à Mulhouse en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Mulhouse en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Mulhouse en 2026 : Bâle à 30 min et ses salaires suisses, des prix à 1 700 €/m². Le guide honnête de l'équation frontalière la plus rentable de France.",
+    title: "Vivre à Mulhouse en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Mulhouse en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Mulhouse en 2027 : Bâle à 30 min et ses salaires suisses, des prix à 1 700 €/m². Le guide honnête de l'équation frontalière la plus rentable de France.",
     category: "lifestyle",
     emoji: "🇨🇭",
     readMinutes: 9,
@@ -36829,9 +36829,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-colmar-2026",
-    title: "Vivre à Colmar en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Colmar en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Colmar en 2026 : la Petite Venise à l'année, la route des vins, 2 millions de touristes. Le guide honnête de la plus belle ville d'Alsace.",
+    title: "Vivre à Colmar en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Colmar en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Colmar en 2027 : la Petite Venise à l'année, la route des vins, 2 millions de touristes. Le guide honnête de la plus belle ville d'Alsace.",
     category: "lifestyle",
     emoji: "🍇",
     readMinutes: 9,
@@ -36875,9 +36875,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-vannes-2026",
-    title: "Vivre à Vannes en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Vannes en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Vannes en 2026 : le golfe du Morbihan au quotidien, la ville close, des prix bretons hauts. Le guide honnête de la préférée de la Bretagne sud.",
+    title: "Vivre à Vannes en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Vannes en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Vannes en 2027 : le golfe du Morbihan au quotidien, la ville close, des prix bretons hauts. Le guide honnête de la préférée de la Bretagne sud.",
     category: "lifestyle",
     emoji: "⛵",
     readMinutes: 9,
@@ -36921,9 +36921,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-lorient-2026",
-    title: "Vivre à Lorient en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Lorient en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Lorient en 2026 : la capitale de la voile à -30 % de Vannes, la rade, Groix en face. Le guide honnête du port de travail breton.",
+    title: "Vivre à Lorient en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Lorient en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Lorient en 2027 : la capitale de la voile à -30 % de Vannes, la rade, Groix en face. Le guide honnête du port de travail breton.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 9,
@@ -36967,9 +36967,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-quimper-2026",
-    title: "Vivre à Quimper en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Quimper en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Quimper en 2026 : la capitale de la Cornouaille, la Bretagne la plus bretonne, des prix doux. Le guide honnête de la préfecture du bout de terre.",
+    title: "Vivre à Quimper en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Quimper en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Quimper en 2027 : la capitale de la Cornouaille, la Bretagne la plus bretonne, des prix doux. Le guide honnête de la préfecture du bout de terre.",
     category: "lifestyle",
     emoji: "🦩",
     readMinutes: 9,
@@ -37013,9 +37013,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-poitiers-2026",
-    title: "Vivre à Poitiers en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Poitiers en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Poitiers en 2026 : Paris en 1h20 pour 2 100 €/m², la ville aux cent clochers, une des plus étudiantes de France. Le guide honnête.",
+    title: "Vivre à Poitiers en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Poitiers en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Poitiers en 2027 : Paris en 1h20 pour 2 100 €/m², la ville aux cent clochers, une des plus étudiantes de France. Le guide honnête.",
     category: "lifestyle",
     emoji: "🏛️",
     readMinutes: 9,
@@ -37059,9 +37059,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-aix-en-provence-2026",
-    title: "Vivre à Aix-en-Provence en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Aix-en-Provence en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Aix en 2026 : le cours Mirabeau, Sainte-Victoire, des prix à 5 000 €/m². Le guide honnête de la Provence bourgeoise.",
+    title: "Vivre à Aix-en-Provence en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Aix-en-Provence en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Aix en 2027 : le cours Mirabeau, Sainte-Victoire, des prix à 5 000 €/m². Le guide honnête de la Provence bourgeoise.",
     category: "lifestyle",
     emoji: "⛲",
     readMinutes: 10,
@@ -37105,9 +37105,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-chambery-2026",
-    title: "Vivre à Chambéry en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Chambéry en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Chambéry en 2026 : les Alpes au prix raisonnable, le lac du Bourget à 15 min, les 3 Vallées à 1h15. Le guide honnête de l'anti-Annecy.",
+    title: "Vivre à Chambéry en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Chambéry en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Chambéry en 2027 : les Alpes au prix raisonnable, le lac du Bourget à 15 min, les 3 Vallées à 1h15. Le guide honnête de l'anti-Annecy.",
     category: "lifestyle",
     emoji: "🐘",
     readMinutes: 9,
@@ -37151,9 +37151,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-valence-2026",
-    title: "Vivre à Valence en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Valence en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Valence en 2026 : Lyon à 35 min de TGV, la Drôme provençale au sud, des prix doux. Le guide honnête de la porte du Midi.",
+    title: "Vivre à Valence en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Valence en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Valence en 2027 : Lyon à 35 min de TGV, la Drôme provençale au sud, des prix doux. Le guide honnête de la porte du Midi.",
     category: "lifestyle",
     emoji: "🍑",
     readMinutes: 9,
@@ -37197,9 +37197,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-beziers-2026",
-    title: "Vivre à Béziers en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Béziers en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Béziers en 2026 : la Méditerranée à 25 km pour 1 500 €/m², le canal du Midi, la feria. Le guide honnête de la moins chère du littoral sud.",
+    title: "Vivre à Béziers en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Béziers en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Béziers en 2027 : la Méditerranée à 25 km pour 1 500 €/m², le canal du Midi, la feria. Le guide honnête de la moins chère du littoral sud.",
     category: "lifestyle",
     emoji: "🍷",
     readMinutes: 9,
@@ -37243,9 +37243,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-troyes-2026",
-    title: "Vivre à Troyes en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Troyes en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Troyes en 2026 : le bouchon de champagne médiéval, Paris à 1h30, des prix à 2 000 €/m². Le guide honnête de la belle discrète de l'Aube.",
+    title: "Vivre à Troyes en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Troyes en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Troyes en 2027 : le bouchon de champagne médiéval, Paris à 1h30, des prix à 2 000 €/m². Le guide honnête de la belle discrète de l'Aube.",
     category: "lifestyle",
     emoji: "🏘️",
     readMinutes: 9,
@@ -37289,9 +37289,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-bourges-2026",
-    title: "Vivre à Bourges en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Bourges en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Bourges en 2026 : capitale européenne de la culture 2028, cathédrale UNESCO, 1 900 €/m² au centre de la France. Le guide honnête du Berry.",
+    title: "Vivre à Bourges en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Bourges en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Bourges en 2027 : capitale européenne de la culture 2028, cathédrale UNESCO, 1 900 €/m² au centre de la France. Le guide honnête du Berry.",
     category: "lifestyle",
     emoji: "🕍",
     readMinutes: 9,
@@ -37335,9 +37335,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-cherbourg-2026",
-    title: "Vivre à Cherbourg en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Cherbourg en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Cherbourg en 2026 : la plus grande rade artificielle d'Europe, l'EPR, le Cotentin sauvage, 1 900 €/m². Le guide honnête du bout de presqu'île.",
+    title: "Vivre à Cherbourg en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Cherbourg en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Cherbourg en 2027 : la plus grande rade artificielle d'Europe, l'EPR, le Cotentin sauvage, 1 900 €/m². Le guide honnête du bout de presqu'île.",
     category: "lifestyle",
     emoji: "🌦️",
     readMinutes: 9,
@@ -37381,9 +37381,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vivre-a-saint-malo-2026",
-    title: "Vivre à Saint-Malo en 2026 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Saint-Malo en 2026 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Saint-Malo en 2026 : la cité corsaire à l'année, les marées record, 4 000 €/m² et 2 millions de touristes. Le guide honnête intra et extra-muros.",
+    title: "Vivre à Saint-Malo en 2027 : le guide complet pour s'installer",
+    metaTitle: "S'installer à Saint-Malo en 2027 : quartiers, budget, emploi",
+    metaDesc: "S'installer à Saint-Malo en 2027 : la cité corsaire à l'année, les marées record, 4 000 €/m² et 2 millions de touristes. Le guide honnête intra et extra-muros.",
     category: "lifestyle",
     emoji: "🏴‍☠️",
     readMinutes: 9,
@@ -37427,9 +37427,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-toulouse-2026",
-    title: "Étudiant à Toulouse en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Toulouse 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Toulouse en 2026 : où se loger (et à quel prix), budget mensuel réaliste, campus, vie étudiante. Le guide honnête de la 3e ville étudiante de France.",
+    title: "Étudiant à Toulouse en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Toulouse 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Toulouse en 2027 : où se loger (et à quel prix), budget mensuel réaliste, campus, vie étudiante. Le guide honnête de la 3e ville étudiante de France.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37473,9 +37473,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-lyon-2026",
-    title: "Étudiant à Lyon en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Lyon 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Lyon en 2026 : quartiers étudiants, vrais budgets, campus, vie nocturne. Le guide honnête de la 2e ville étudiante de France.",
+    title: "Étudiant à Lyon en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Lyon 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Lyon en 2027 : quartiers étudiants, vrais budgets, campus, vie nocturne. Le guide honnête de la 2e ville étudiante de France.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37519,9 +37519,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-montpellier-2026",
-    title: "Étudiant à Montpellier en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Montpellier 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Montpellier en 2026 : quartiers étudiants, budget réel, campus, la mer à 12 km. Le guide honnête de la ville la plus étudiante de France en proportion.",
+    title: "Étudiant à Montpellier en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Montpellier 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Montpellier en 2027 : quartiers étudiants, budget réel, campus, la mer à 12 km. Le guide honnête de la ville la plus étudiante de France en proportion.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37565,9 +37565,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-rennes-2026",
-    title: "Étudiant à Rennes en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Rennes 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Rennes en 2026 : la rue de la Soif, les vrais budgets, Beaulieu et Villejean, le job tech au bout. Le guide honnête de la capitale étudiante bretonne.",
+    title: "Étudiant à Rennes en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Rennes 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Rennes en 2027 : la rue de la Soif, les vrais budgets, Beaulieu et Villejean, le job tech au bout. Le guide honnête de la capitale étudiante bretonne.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37611,9 +37611,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-grenoble-2026",
-    title: "Étudiant à Grenoble en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Grenoble 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Grenoble en 2026 : le campus américain, les loyers doux, le ski étudiant, la recherche mondiale. Le guide honnête de la capitale universitaire des Alpes.",
+    title: "Étudiant à Grenoble en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Grenoble 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Grenoble en 2027 : le campus américain, les loyers doux, le ski étudiant, la recherche mondiale. Le guide honnête de la capitale universitaire des Alpes.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37657,9 +37657,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-lille-2026",
-    title: "Étudiant à Lille en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Lille 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Lille en 2026 : Wazemmes ou Vauban, budgets réels, campus, la vie étudiante la plus chaleureuse de France. Le guide honnête.",
+    title: "Étudiant à Lille en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Lille 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Lille en 2027 : Wazemmes ou Vauban, budgets réels, campus, la vie étudiante la plus chaleureuse de France. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37703,9 +37703,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-poitiers-2026",
-    title: "Étudiant à Poitiers en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Poitiers 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Poitiers en 2026 : la ville la plus étudiante de France en proportion, studio à 400 €, Paris à 1h20. Le guide honnête du campus millénaire.",
+    title: "Étudiant à Poitiers en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Poitiers 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Poitiers en 2027 : la ville la plus étudiante de France en proportion, studio à 400 €, Paris à 1h20. Le guide honnête du campus millénaire.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37749,9 +37749,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-nancy-2026",
-    title: "Étudiant à Nancy en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Nancy 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Nancy en 2026 : Stanislas pour décor, T1 à 45 000 € pour les parents investisseurs, Mines et ICN, budgets minimaux. Le guide honnête.",
+    title: "Étudiant à Nancy en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Nancy 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Nancy en 2027 : Stanislas pour décor, T1 à 45 000 € pour les parents investisseurs, Mines et ICN, budgets minimaux. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37795,9 +37795,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-bordeaux-2026",
-    title: "Étudiant à Bordeaux en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Bordeaux 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Bordeaux en 2026 : où se loger face à la tension, budget réel, campus de Pessac-Talence, l'océan en TER. Le guide honnête.",
+    title: "Étudiant à Bordeaux en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Bordeaux 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Bordeaux en 2027 : où se loger face à la tension, budget réel, campus de Pessac-Talence, l'océan en TER. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37841,9 +37841,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-strasbourg-2026",
-    title: "Étudiant à Strasbourg en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Strasbourg 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Strasbourg en 2026 : l'université des Nobel, la Krutenau, budgets réels, l'Europe au coin de la rue. Le guide honnête.",
+    title: "Étudiant à Strasbourg en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Strasbourg 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Strasbourg en 2027 : l'université des Nobel, la Krutenau, budgets réels, l'Europe au coin de la rue. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37887,9 +37887,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-nantes-2026",
-    title: "Étudiant à Nantes en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Nantes 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Nantes en 2026 : quartiers étudiants, budget réel, campus Tertre et Centrale, l'océan à 50 min. Le guide honnête.",
+    title: "Étudiant à Nantes en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Nantes 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Nantes en 2027 : quartiers étudiants, budget réel, campus Tertre et Centrale, l'océan à 50 min. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37933,9 +37933,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-marseille-2026",
-    title: "Étudiant à Marseille en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Marseille 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Marseille en 2026 : la plus grande université de France, quartiers étudiants sûrs, budget réel, la mer entre deux cours. Le guide honnête.",
+    title: "Étudiant à Marseille en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Marseille 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Marseille en 2027 : la plus grande université de France, quartiers étudiants sûrs, budget réel, la mer entre deux cours. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -37979,9 +37979,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-dijon-2026",
-    title: "Étudiant à Dijon en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Dijon 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Dijon en 2026 : campus unique, loyers doux, la Bourgogne en TD pratique. Le guide honnête de la ville étudiante qui monte.",
+    title: "Étudiant à Dijon en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Dijon 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Dijon en 2027 : campus unique, loyers doux, la Bourgogne en TD pratique. Le guide honnête de la ville étudiante qui monte.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38025,9 +38025,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-besancon-2026",
-    title: "Étudiant à Besançon en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Besançon 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Besançon en 2026 : la Boucle pour décor, loyers minimaux, microtechniques d'élite et nature partout. Le guide honnête.",
+    title: "Étudiant à Besançon en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Besançon 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Besançon en 2027 : la Boucle pour décor, loyers minimaux, microtechniques d'élite et nature partout. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38071,9 +38071,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-clermont-ferrand-2026",
-    title: "Étudiant à Clermont-Ferrand en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Clermont-Ferrand 2026 — Logement, budget, campus",
-    metaDesc: "Étudier à Clermont en 2026 : 36 000 étudiants, loyers doux, les volcans après les cours, Michelin pour les stages. Le guide honnête.",
+    title: "Étudiant à Clermont-Ferrand en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Clermont-Ferrand 2027 — Logement, budget, campus",
+    metaDesc: "Étudier à Clermont en 2027 : 36 000 étudiants, loyers doux, les volcans après les cours, Michelin pour les stages. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38117,9 +38117,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-angers-2026",
-    title: "Étudiant à Angers en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Angers 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Angers en 2026 : 43 000 étudiants, la ville la plus verte de France, loyers doux, la douceur angevine en cursus. Le guide honnête.",
+    title: "Étudiant à Angers en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Angers 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Angers en 2027 : 43 000 étudiants, la ville la plus verte de France, loyers doux, la douceur angevine en cursus. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38163,9 +38163,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-caen-2026",
-    title: "Étudiant à Caen en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Caen 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Caen en 2026 : le Phénix universitaire, la mer à 15 km, loyers doux et sécurité. Le guide honnête de la ville étudiante normande.",
+    title: "Étudiant à Caen en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Caen 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Caen en 2027 : le Phénix universitaire, la mer à 15 km, loyers doux et sécurité. Le guide honnête de la ville étudiante normande.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38209,9 +38209,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-limoges-2026",
-    title: "Étudiant à Limoges en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Limoges 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Limoges en 2026 : le budget étudiant le plus bas de France, 15 000 étudiants, CHU réputé. Le guide honnête du bon plan absolu.",
+    title: "Étudiant à Limoges en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Limoges 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Limoges en 2027 : le budget étudiant le plus bas de France, 15 000 étudiants, CHU réputé. Le guide honnête du bon plan absolu.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38255,9 +38255,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-tours-2026",
-    title: "Étudiant à Tours en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Tours 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Tours en 2026 : 30 000 étudiants, la place Plum' en QG, la Loire à vélo, Paris à 1h06. Le guide honnête de la douceur tourangelle étudiante.",
+    title: "Étudiant à Tours en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Tours 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Tours en 2027 : 30 000 étudiants, la place Plum' en QG, la Loire à vélo, Paris à 1h06. Le guide honnête de la douceur tourangelle étudiante.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38301,9 +38301,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-amiens-2026",
-    title: "Étudiant à Amiens en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Amiens 2026 — Logement, budget, campus : le guide",
-    metaDesc: "Étudier à Amiens en 2026 : une des villes les plus jeunes de France, Saint-Leu au bord des canaux, loyers doux, Paris à 1h05. Le guide honnête.",
+    title: "Étudiant à Amiens en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Amiens 2027 — Logement, budget, campus : le guide",
+    metaDesc: "Étudier à Amiens en 2027 : une des villes les plus jeunes de France, Saint-Leu au bord des canaux, loyers doux, Paris à 1h05. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38347,9 +38347,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-paris-2026",
-    title: "Étudiant à Paris en 2026 : logement, budget, facs, le guide honnête",
-    metaTitle: "Étudiant à Paris 2026 : logement, budget, facs",
-    metaDesc: "Étudier à Paris en 2026 : studio à 1 200 € sur notre estimation, budget de l'ordre de 1 600 €, repas Crous à 1 €, aides et facs. Le guide sans enjoliver.",
+    title: "Étudiant à Paris en 2027 : logement, budget, facs, le guide honnête",
+    metaTitle: "Étudiant à Paris 2027 : logement, budget, facs",
+    metaDesc: "Étudier à Paris en 2027 : studio à 1 200 € sur notre estimation, budget de l'ordre de 1 600 €, repas Crous à 1 €, aides et facs. Le guide sans enjoliver.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 9,
@@ -38394,9 +38394,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-aix-en-provence-2026",
-    title: "Étudiant à Aix-en-Provence en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Aix-en-Provence 2026 : logement, budget",
-    metaDesc: "Étudier à Aix en 2026 : vie étudiante à 7,7/10, studio à 760 € sur notre estimation, les pièges du double campus Aix-Marseille. Le guide honnête.",
+    title: "Étudiant à Aix-en-Provence en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Aix-en-Provence 2027 : logement, budget",
+    metaDesc: "Étudier à Aix en 2027 : vie étudiante à 7,7/10, studio à 760 € sur notre estimation, les pièges du double campus Aix-Marseille. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38441,9 +38441,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-nice-2026",
-    title: "Étudiant à Nice en 2026 : logement, budget, campus, le guide honnête",
-    metaTitle: "Étudiant à Nice 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Nice en 2026 : studio à 780 € sur notre estimation, une ville moins jeune qu'on le croit, Université Côte d'Azur et Sophia. Le guide.",
+    title: "Étudiant à Nice en 2027 : logement, budget, campus, le guide honnête",
+    metaTitle: "Étudiant à Nice 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Nice en 2027 : studio à 780 € sur notre estimation, une ville moins jeune qu'on le croit, Université Côte d'Azur et Sophia. Le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38488,9 +38488,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-rouen-2026",
-    title: "Étudiant à Rouen en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Rouen 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Rouen en 2026 : 33 % de 15-29 ans, studio à 520 € sur notre estimation, Paris à environ 1h15. Campus, budget, pièges : le guide honnête.",
+    title: "Étudiant à Rouen en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Rouen 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Rouen en 2027 : 33 % de 15-29 ans, studio à 520 € sur notre estimation, Paris à environ 1h15. Campus, budget, pièges : le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38535,9 +38535,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-reims-2026",
-    title: "Étudiant à Reims en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Reims 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Reims en 2026 : studio à 490 € sur notre estimation, Paris à 45 min en TGV, URCA, Sciences Po, NEOMA. Budget et pièges : le guide honnête.",
+    title: "Étudiant à Reims en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Reims 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Reims en 2027 : studio à 490 € sur notre estimation, Paris à 45 min en TGV, URCA, Sciences Po, NEOMA. Budget et pièges : le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38582,9 +38582,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-brest-2026",
-    title: "Étudiant à Brest en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Brest 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Brest en 2026 : 6e ex æquo au classement L'Etudiant, studio à 480 € sur notre estimation, sciences de la mer, tram et téléphérique. Le guide.",
+    title: "Étudiant à Brest en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Brest 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Brest en 2027 : 6e ex æquo au classement L'Etudiant, studio à 480 € sur notre estimation, sciences de la mer, tram et téléphérique. Le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38629,9 +38629,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-orleans-2026",
-    title: "Étudiant à Orléans en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Orléans 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Orléans en 2026 : studio à 510 € sur notre estimation, Paris à 1h de train, campus de La Source à 25 min du centre. Budget et pièges.",
+    title: "Étudiant à Orléans en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Orléans 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Orléans en 2027 : studio à 510 € sur notre estimation, Paris à 1h de train, campus de La Source à 25 min du centre. Budget et pièges.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38676,9 +38676,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-metz-2026",
-    title: "Étudiant à Metz en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Metz 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Metz en 2026 : studio à 500 € sur notre estimation, île du Saulcy, Technopôle, Luxembourg à moins d'une heure. Budget et pièges.",
+    title: "Étudiant à Metz en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Metz 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Metz en 2027 : studio à 500 € sur notre estimation, île du Saulcy, Technopôle, Luxembourg à moins d'une heure. Budget et pièges.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38723,9 +38723,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-saint-etienne-2026",
-    title: "Étudiant à Saint-Étienne en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Saint-Étienne 2026 : logement, budget",
-    metaDesc: "Étudier à Saint-Étienne en 2026 : studio à 420 €, parmi les plus bas de notre série, Lyon à environ 50 min, Mines et Jean-Monnet. Budget et pièges : le guide.",
+    title: "Étudiant à Saint-Étienne en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Saint-Étienne 2027 : logement, budget",
+    metaDesc: "Étudier à Saint-Étienne en 2027 : studio à 420 €, parmi les plus bas de notre série, Lyon à environ 50 min, Mines et Jean-Monnet. Budget et pièges : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38770,9 +38770,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-le-mans-2026",
-    title: "Étudiant au Mans en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant au Mans 2026 : logement, budget, campus",
-    metaDesc: "Étudier au Mans en 2026 : studio à 470 € sur notre estimation, Paris à moins d'1h en TGV, acoustique et ENSIM, tram jusqu'au campus. Le guide honnête.",
+    title: "Étudiant au Mans en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant au Mans 2027 : logement, budget, campus",
+    metaDesc: "Étudier au Mans en 2027 : studio à 470 € sur notre estimation, Paris à moins d'1h en TGV, acoustique et ENSIM, tram jusqu'au campus. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38817,9 +38817,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-perpignan-2026",
-    title: "Étudiant à Perpignan en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Perpignan 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Perpignan en 2026 : studio à 470 € sur notre estimation, mer à 15 km, Barcelone en train, UPVD. Budget et points de vigilance : le guide.",
+    title: "Étudiant à Perpignan en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Perpignan 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Perpignan en 2027 : studio à 470 € sur notre estimation, mer à 15 km, Barcelone en train, UPVD. Budget et points de vigilance : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38863,9 +38863,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-pau-2026",
-    title: "Étudiant à Pau en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Pau 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Pau en 2026 : studio à 490 € sur notre estimation, UPPA, Pyrénées à une heure et océan à un peu plus. Budget et pièges : le guide honnête.",
+    title: "Étudiant à Pau en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Pau 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Pau en 2027 : studio à 490 € sur notre estimation, UPPA, Pyrénées à une heure et océan à un peu plus. Budget et pièges : le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38909,9 +38909,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-la-rochelle-2026",
-    title: "Étudiant à La Rochelle en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à La Rochelle 2026 : logement, budget",
-    metaDesc: "Étudier à La Rochelle en 2026 : campus des Minimes face à la mer, studio à 600 € sur notre estimation, le marché locatif touristique. Le guide honnête.",
+    title: "Étudiant à La Rochelle en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à La Rochelle 2027 : logement, budget",
+    metaDesc: "Étudier à La Rochelle en 2027 : campus des Minimes face à la mer, studio à 600 € sur notre estimation, le marché locatif touristique. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -38955,9 +38955,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-toulon-2026",
-    title: "Étudiant à Toulon en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Toulon 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Toulon en 2026 : studio à 560 € sur notre estimation, campus de La Garde, bateaux-bus et rade, défense et mer. Budget et pièges : le guide.",
+    title: "Étudiant à Toulon en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Toulon 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Toulon en 2027 : studio à 560 € sur notre estimation, campus de La Garde, bateaux-bus et rade, défense et mer. Budget et pièges : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39002,9 +39002,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-avignon-2026",
-    title: "Étudiant à Avignon en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Avignon 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Avignon en 2026 : un campus dans les remparts, studio à 540 € sur notre estimation, le Festival en juillet. Budget et pièges : le guide honnête.",
+    title: "Étudiant à Avignon en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Avignon 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Avignon en 2027 : un campus dans les remparts, studio à 540 € sur notre estimation, le Festival en juillet. Budget et pièges : le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39048,9 +39048,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-chambery-2026",
-    title: "Étudiant à Chambéry en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Chambéry 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Chambéry en 2026 : Université Savoie Mont Blanc, studio à 590 € sur notre estimation, lac du Bourget et stations. Budget et pièges : le guide.",
+    title: "Étudiant à Chambéry en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Chambéry 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Chambéry en 2027 : Université Savoie Mont Blanc, studio à 590 € sur notre estimation, lac du Bourget et stations. Budget et pièges : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39094,9 +39094,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-valenciennes-2026",
-    title: "Étudiant à Valenciennes en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Valenciennes 2026 : logement, budget",
-    metaDesc: "Étudier à Valenciennes en 2026 : studio à 360 €, le plus bas de notre série, UPHF, INSA, Rubika, Lille à 40 min. Budget et pièges : le guide honnête.",
+    title: "Étudiant à Valenciennes en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Valenciennes 2027 : logement, budget",
+    metaDesc: "Étudier à Valenciennes en 2027 : studio à 360 €, le plus bas de notre série, UPHF, INSA, Rubika, Lille à 40 min. Budget et pièges : le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39139,9 +39139,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-mulhouse-2026",
-    title: "Étudiant à Mulhouse en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Mulhouse 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Mulhouse en 2026 : studio à 420 € sur notre estimation, Bâle à 20 min, UHA, chimie et textile. Budget et points de vigilance : le guide honnête.",
+    title: "Étudiant à Mulhouse en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Mulhouse 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Mulhouse en 2027 : studio à 420 € sur notre estimation, Bâle à 20 min, UHA, chimie et textile. Budget et points de vigilance : le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39185,9 +39185,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-le-havre-2026",
-    title: "Étudiant au Havre en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant au Havre 2026 : logement, budget, campus",
-    metaDesc: "Étudier au Havre en 2026 : studio à 470 € sur notre estimation, campus en centre-ville, Sciences Po, école maritime, plage en ville. Le guide honnête.",
+    title: "Étudiant au Havre en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant au Havre 2027 : logement, budget, campus",
+    metaDesc: "Étudier au Havre en 2027 : studio à 470 € sur notre estimation, campus en centre-ville, Sciences Po, école maritime, plage en ville. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39232,9 +39232,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-nimes-2026",
-    title: "Étudiant à Nîmes en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Nîmes 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Nîmes en 2026 : studio à 520 € sur notre estimation, campus dans le centre, Montpellier à 30 min. Budget et points de vigilance : le guide.",
+    title: "Étudiant à Nîmes en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Nîmes 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Nîmes en 2027 : studio à 520 € sur notre estimation, campus dans le centre, Montpellier à 30 min. Budget et points de vigilance : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39279,9 +39279,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-annecy-2026",
-    title: "Étudiant à Annecy en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Annecy 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Annecy en 2026 : studio à 750 € sur notre estimation, campus d'Annecy-le-Vieux, 160 € de plus qu'à Chambéry. Budget et pièges : le guide.",
+    title: "Étudiant à Annecy en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Annecy 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Annecy en 2027 : studio à 750 € sur notre estimation, campus d'Annecy-le-Vieux, 160 € de plus qu'à Chambéry. Budget et pièges : le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39326,9 +39326,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-vannes-2026",
-    title: "Étudiant à Vannes en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Vannes 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Vannes en 2026 : studio à 620 € sur notre estimation, plus cher qu'à Rennes, campus de Tohannic et golfe du Morbihan. Le guide honnête.",
+    title: "Étudiant à Vannes en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Vannes 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Vannes en 2027 : studio à 620 € sur notre estimation, plus cher qu'à Rennes, campus de Tohannic et golfe du Morbihan. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39372,9 +39372,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-lorient-2026",
-    title: "Étudiant à Lorient en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Lorient 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Lorient en 2026 : studio à 500 € sur notre estimation, université Bretagne Sud, IUT et ENSIBS, port de pêche et voile. Le guide honnête.",
+    title: "Étudiant à Lorient en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Lorient 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Lorient en 2027 : studio à 500 € sur notre estimation, université Bretagne Sud, IUT et ENSIBS, port de pêche et voile. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39418,9 +39418,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-quimper-2026",
-    title: "Étudiant à Quimper en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Quimper 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Quimper en 2026 : studio à 510 € sur notre estimation, pôle Pierre-Jakez Hélias, IUT et 2 824 étudiants UBO. Le guide honnête.",
+    title: "Étudiant à Quimper en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Quimper 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Quimper en 2027 : studio à 510 € sur notre estimation, pôle Pierre-Jakez Hélias, IUT et 2 824 étudiants UBO. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39464,9 +39464,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-troyes-2026",
-    title: "Étudiant à Troyes en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Troyes 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Troyes en 2026 : studio à 470 € sur notre estimation, UTT, IUT et 24,6 % de 15-29 ans, mais 30 % de pauvreté. Le guide honnête.",
+    title: "Étudiant à Troyes en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Troyes 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Troyes en 2027 : studio à 470 € sur notre estimation, UTT, IUT et 24,6 % de 15-29 ans, mais 30 % de pauvreté. Le guide honnête.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -39510,9 +39510,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-la-roche-sur-yon-2026",
-    title: "Étudiant à La Roche-sur-Yon en 2026 : logement, budget, campus",
-    metaTitle: "Étudiant à La Roche-sur-Yon 2026 : logement, campus",
-    metaDesc: "Étudier à La Roche-sur-Yon en 2026 : studio à 440 € sur notre estimation, campus Nantes Université à la Courtaisière, budget et limites.",
+    title: "Étudiant à La Roche-sur-Yon en 2027 : logement, budget, campus",
+    metaTitle: "Étudiant à La Roche-sur-Yon 2027 : logement, campus",
+    metaDesc: "Étudier à La Roche-sur-Yon en 2027 : studio à 440 € sur notre estimation, campus Nantes Université à la Courtaisière, budget et limites.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39555,9 +39555,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-niort-2026",
-    title: "Étudiant à Niort en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Niort 2026 : logement, budget, campus",
-    metaDesc: "Étudier à Niort en 2026 : studio à 460 € sur notre estimation, pôle de l'Université de Poitiers, IUT et filière assurance des mutuelles. Le guide.",
+    title: "Étudiant à Niort en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Niort 2027 : logement, budget, campus",
+    metaDesc: "Étudier à Niort en 2027 : studio à 460 € sur notre estimation, pôle de l'Université de Poitiers, IUT et filière assurance des mutuelles. Le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39600,9 +39600,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-cergy-2026",
-    title: "Étudiant à Cergy en 2026 : logement, budget, campus, le guide",
-    metaTitle: "Étudiant à Cergy 2026 : logement, budget, CY Cergy Paris",
-    metaDesc: "Étudier à Cergy en 2026 : studio à 600 € sur notre estimation, CY Cergy Paris Université, ESSEC, RER A vers Paris. Le guide chiffré.",
+    title: "Étudiant à Cergy en 2027 : logement, budget, campus, le guide",
+    metaTitle: "Étudiant à Cergy 2027 : logement, budget, CY Cergy Paris",
+    metaDesc: "Étudier à Cergy en 2027 : studio à 600 € sur notre estimation, CY Cergy Paris Université, ESSEC, RER A vers Paris. Le guide chiffré.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39644,9 +39644,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-evry-courcouronnes-2026",
-    title: "Étudiant à Évry-Courcouronnes en 2026 : logement, budget, campus",
-    metaTitle: "Étudiant à Évry-Courcouronnes 2026 : logement, budget",
-    metaDesc: "Étudier à Évry-Courcouronnes en 2026 : studio à 600 € sur notre estimation, université d'Évry Paris-Saclay, 11 000 étudiants. Le guide chiffré.",
+    title: "Étudiant à Évry-Courcouronnes en 2027 : logement, budget, campus",
+    metaTitle: "Étudiant à Évry-Courcouronnes 2027 : logement, budget",
+    metaDesc: "Étudier à Évry-Courcouronnes en 2027 : studio à 600 € sur notre estimation, université d'Évry Paris-Saclay, 11 000 étudiants. Le guide chiffré.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39687,9 +39687,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-compiegne-2026",
-    title: "Étudiant à Compiègne en 2026 : UTC, logement, budget, le guide",
-    metaTitle: "Étudiant à Compiègne 2026 : UTC, logement, budget",
-    metaDesc: "Étudier à Compiègne en 2026 : studio à 530 € sur notre estimation, l'Université de technologie (UTC), train direct vers Paris. Le guide chiffré.",
+    title: "Étudiant à Compiègne en 2027 : UTC, logement, budget, le guide",
+    metaTitle: "Étudiant à Compiègne 2027 : UTC, logement, budget",
+    metaDesc: "Étudier à Compiègne en 2027 : studio à 530 € sur notre estimation, l'Université de technologie (UTC), train direct vers Paris. Le guide chiffré.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39731,9 +39731,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-albi-2026",
-    title: "Étudiant à Albi en 2026 : Mines, Champollion, logement, budget",
-    metaTitle: "Étudiant à Albi 2026 : Mines, Champollion, budget",
-    metaDesc: "Étudier à Albi en 2026 : studio à 450 € sur notre estimation, IMT Mines Albi, université Champollion. Le guide chiffré, avec Toulouse en repère.",
+    title: "Étudiant à Albi en 2027 : Mines, Champollion, logement, budget",
+    metaTitle: "Étudiant à Albi 2027 : Mines, Champollion, budget",
+    metaDesc: "Étudier à Albi en 2027 : studio à 450 € sur notre estimation, IMT Mines Albi, université Champollion. Le guide chiffré, avec Toulouse en repère.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39776,9 +39776,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-angouleme-2026",
-    title: "Étudiant à Angoulême en 2026 : image, BD, logement, budget",
-    metaTitle: "Étudiant à Angoulême 2026 : campus de l'image, budget",
-    metaDesc: "Étudier à Angoulême en 2026 : studio à 450 € sur notre estimation, campus de l'image, école européenne supérieure de l'image, IUT. Le guide.",
+    title: "Étudiant à Angoulême en 2027 : image, BD, logement, budget",
+    metaTitle: "Étudiant à Angoulême 2027 : campus de l'image, budget",
+    metaDesc: "Étudier à Angoulême en 2027 : studio à 450 € sur notre estimation, campus de l'image, école européenne supérieure de l'image, IUT. Le guide.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39821,9 +39821,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-bayonne-2026",
-    title: "Étudiant à Bayonne en 2026 : IUT, logement, budget, le guide",
-    metaTitle: "Étudiant à Bayonne 2026 : IUT, logement, budget",
-    metaDesc: "Étudier à Bayonne en 2026 : studio à 660 € sur notre estimation, IUT de Bayonne et du Pays basque, UPPA, Anglet. Le guide chiffré, avec Pau.",
+    title: "Étudiant à Bayonne en 2027 : IUT, logement, budget, le guide",
+    metaTitle: "Étudiant à Bayonne 2027 : IUT, logement, budget",
+    metaDesc: "Étudier à Bayonne en 2027 : studio à 660 € sur notre estimation, IUT de Bayonne et du Pays basque, UPPA, Anglet. Le guide chiffré, avec Pau.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39866,9 +39866,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-saint-brieuc-2026",
-    title: "Étudiant à Saint-Brieuc en 2026 : IUT, logement, budget, le guide",
-    metaTitle: "Étudiant à Saint-Brieuc 2026 : IUT, logement, budget",
-    metaDesc: "Étudier à Saint-Brieuc en 2026 : studio à 420 € sur notre estimation, IUT et antennes de Rennes 1 et Rennes 2 au campus Mazier. Le guide chiffré, avec Lorient.",
+    title: "Étudiant à Saint-Brieuc en 2027 : IUT, logement, budget, le guide",
+    metaTitle: "Étudiant à Saint-Brieuc 2027 : IUT, logement, budget",
+    metaDesc: "Étudier à Saint-Brieuc en 2027 : studio à 420 € sur notre estimation, IUT et antennes de Rennes 1 et Rennes 2 au campus Mazier. Le guide chiffré, avec Lorient.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39911,9 +39911,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-arras-2026",
-    title: "Étudiant à Arras en 2026 : université d'Artois, logement, budget",
-    metaTitle: "Étudiant à Arras 2026 : université d'Artois, budget",
-    metaDesc: "Étudier à Arras en 2026 : studio à 390 € sur notre estimation, siège de l'université d'Artois, lettres, langues et droit. Le guide chiffré, avec Lens et Lille.",
+    title: "Étudiant à Arras en 2027 : université d'Artois, logement, budget",
+    metaTitle: "Étudiant à Arras 2027 : université d'Artois, budget",
+    metaDesc: "Étudier à Arras en 2027 : studio à 390 € sur notre estimation, siège de l'université d'Artois, lettres, langues et droit. Le guide chiffré, avec Lens et Lille.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -39956,9 +39956,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-belfort-2026",
-    title: "Étudiant à Belfort en 2026 : UTBM, logement, budget, le guide",
-    metaTitle: "Étudiant à Belfort 2026 : UTBM, logement, budget",
-    metaDesc: "Étudier à Belfort en 2026 : studio à 380 € sur notre estimation, UTBM et ses sites de Belfort et Sevenans. Le guide chiffré, avec Besançon et Mulhouse.",
+    title: "Étudiant à Belfort en 2027 : UTBM, logement, budget, le guide",
+    metaTitle: "Étudiant à Belfort 2027 : UTBM, logement, budget",
+    metaDesc: "Étudier à Belfort en 2027 : studio à 380 € sur notre estimation, UTBM et ses sites de Belfort et Sevenans. Le guide chiffré, avec Besançon et Mulhouse.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40002,9 +40002,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-saint-quentin-2026",
-    title: "Étudiant à Saint-Quentin en 2026 : IUT de l'Aisne, budget",
-    metaTitle: "Étudiant à Saint-Quentin 2026 : IUT, logement, budget",
-    metaDesc: "Étudier à Saint-Quentin en 2026 : studio à 350 € sur notre estimation, IUT de l'Aisne et INSSET (UPJV). Le guide chiffré, avec Amiens et Compiègne.",
+    title: "Étudiant à Saint-Quentin en 2027 : IUT de l'Aisne, budget",
+    metaTitle: "Étudiant à Saint-Quentin 2027 : IUT, logement, budget",
+    metaDesc: "Étudier à Saint-Quentin en 2027 : studio à 350 € sur notre estimation, IUT de l'Aisne et INSSET (UPJV). Le guide chiffré, avec Amiens et Compiègne.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40047,9 +40047,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-dunkerque-2026",
-    title: "Étudiant à Dunkerque en 2026 : ULCO, logement, budget, le guide",
-    metaTitle: "Étudiant à Dunkerque 2026 : ULCO, logement, budget",
-    metaDesc: "Étudier à Dunkerque en 2026 : studio à 400 € sur notre estimation, université du Littoral Côte d'Opale et IUT. Le guide chiffré, avec Lille et Calais.",
+    title: "Étudiant à Dunkerque en 2027 : ULCO, logement, budget, le guide",
+    metaTitle: "Étudiant à Dunkerque 2027 : ULCO, logement, budget",
+    metaDesc: "Étudier à Dunkerque en 2027 : studio à 400 € sur notre estimation, université du Littoral Côte d'Opale et IUT. Le guide chiffré, avec Lille et Calais.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40092,9 +40092,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-valence-2026",
-    title: "Étudiant à Valence en 2026 : campus Briffaut, IUT, budget",
-    metaTitle: "Étudiant à Valence 2026 : campus Briffaut, IUT, budget",
-    metaDesc: "Étudier à Valence en 2026 : studio à 490 € sur notre estimation, campus UGA Briffaut, IUT et ESISAR. Le guide chiffré, avec Grenoble et Avignon.",
+    title: "Étudiant à Valence en 2027 : campus Briffaut, IUT, budget",
+    metaTitle: "Étudiant à Valence 2027 : campus Briffaut, IUT, budget",
+    metaDesc: "Étudier à Valence en 2027 : studio à 490 € sur notre estimation, campus UGA Briffaut, IUT et ESISAR. Le guide chiffré, avec Grenoble et Avignon.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40137,9 +40137,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-villeurbanne-2026",
-    title: "Étudiant à Villeurbanne en 2026 : La Doua, INSA, loyers, budget",
-    metaTitle: "Étudiant à Villeurbanne 2026 : La Doua, INSA, budget",
-    metaDesc: "Étudier à Villeurbanne en 2026 : studio à 600 € sur notre estimation, campus de la Doua, tram T1 et T4. Le guide chiffré, avec Lyon et Grenoble.",
+    title: "Étudiant à Villeurbanne en 2027 : La Doua, INSA, loyers, budget",
+    metaTitle: "Étudiant à Villeurbanne 2027 : La Doua, INSA, budget",
+    metaDesc: "Étudier à Villeurbanne en 2027 : studio à 600 € sur notre estimation, campus de la Doua, tram T1 et T4. Le guide chiffré, avec Lyon et Grenoble.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40182,9 +40182,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-versailles-2026",
-    title: "Étudiant à Versailles en 2026 : architecture, paysage, loyers",
-    metaTitle: "Étudiant à Versailles 2026 : écoles, loyers, budget",
-    metaDesc: "Étudier à Versailles en 2026 : studio à 800 € sur notre estimation, école d'architecture et de paysage. Le guide chiffré, avec Paris et Cergy.",
+    title: "Étudiant à Versailles en 2027 : architecture, paysage, loyers",
+    metaTitle: "Étudiant à Versailles 2027 : écoles, loyers, budget",
+    metaDesc: "Étudier à Versailles en 2027 : studio à 800 € sur notre estimation, école d'architecture et de paysage. Le guide chiffré, avec Paris et Cergy.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40227,9 +40227,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-creteil-2026",
-    title: "Étudiant à Créteil en 2026 : UPEC, métro ligne 8, budget",
-    metaTitle: "Étudiant à Créteil 2026 : UPEC, métro 8, budget",
-    metaDesc: "Étudier à Créteil en 2026 : studio à 650 € sur notre estimation, université Paris-Est Créteil et métro ligne 8. Le guide chiffré, avec Paris et Nanterre.",
+    title: "Étudiant à Créteil en 2027 : UPEC, métro ligne 8, budget",
+    metaTitle: "Étudiant à Créteil 2027 : UPEC, métro 8, budget",
+    metaDesc: "Étudier à Créteil en 2027 : studio à 650 € sur notre estimation, université Paris-Est Créteil et métro ligne 8. Le guide chiffré, avec Paris et Nanterre.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40272,9 +40272,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-nanterre-2026",
-    title: "Étudiant à Nanterre en 2026 : université, RER A, loyers, budget",
-    metaTitle: "Étudiant à Nanterre 2026 : université, RER A, budget",
-    metaDesc: "Étudier à Nanterre en 2026 : studio à 720 € sur notre estimation, université Paris Nanterre et RER A. Le guide chiffré, avec Paris et Créteil.",
+    title: "Étudiant à Nanterre en 2027 : université, RER A, loyers, budget",
+    metaTitle: "Étudiant à Nanterre 2027 : université, RER A, budget",
+    metaDesc: "Étudier à Nanterre en 2027 : studio à 720 € sur notre estimation, université Paris Nanterre et RER A. Le guide chiffré, avec Paris et Créteil.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40317,9 +40317,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-montreuil-2026",
-    title: "Habiter à Montreuil quand on étudie à Paris : loyers, budget 2026",
-    metaTitle: "Étudiant à Montreuil 2026 : loyers, métro, budget",
-    metaDesc: "Étudiant à Montreuil en 2026 : studio à 700 € sur notre estimation, 500 € de moins qu'à Paris, métro 9 et 11. Le guide chiffré, avec Paris et Saint-Denis.",
+    title: "Habiter à Montreuil quand on étudie à Paris : loyers, budget 2027",
+    metaTitle: "Étudiant à Montreuil 2027 : loyers, métro, budget",
+    metaDesc: "Étudiant à Montreuil en 2027 : studio à 700 € sur notre estimation, 500 € de moins qu'à Paris, métro 9 et 11. Le guide chiffré, avec Paris et Saint-Denis.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40362,9 +40362,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-beauvais-2026",
-    title: "Étudiant à Beauvais en 2026 : UniLaSalle, IUT de l'Oise, budget",
-    metaTitle: "Étudiant à Beauvais 2026 : UniLaSalle, IUT, budget",
-    metaDesc: "Étudier à Beauvais en 2026 : studio à 470 € sur notre estimation, UniLaSalle et IUT de l'Oise. Le guide chiffré, avec Amiens et Compiègne.",
+    title: "Étudiant à Beauvais en 2027 : UniLaSalle, IUT de l'Oise, budget",
+    metaTitle: "Étudiant à Beauvais 2027 : UniLaSalle, IUT, budget",
+    metaDesc: "Étudier à Beauvais en 2027 : studio à 470 € sur notre estimation, UniLaSalle et IUT de l'Oise. Le guide chiffré, avec Amiens et Compiègne.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40407,9 +40407,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-roubaix-2026",
-    title: "Étudiant à Roubaix en 2026 : IUT de Lille, ESMOD, studio à 380 €",
-    metaTitle: "Étudiant à Roubaix 2026 : studio à 380 €, IUT, budget",
-    metaDesc: "Étudier à Roubaix en 2026 : studio à 380 € sur notre estimation, IUT de Lille, ESMOD et ENSAIT. Le guide chiffré, avec Tourcoing et Lille.",
+    title: "Étudiant à Roubaix en 2027 : IUT de Lille, ESMOD, studio à 380 €",
+    metaTitle: "Étudiant à Roubaix 2027 : studio à 380 €, IUT, budget",
+    metaDesc: "Étudier à Roubaix en 2027 : studio à 380 € sur notre estimation, IUT de Lille, ESMOD et ENSAIT. Le guide chiffré, avec Tourcoing et Lille.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40450,9 +40450,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-tourcoing-2026",
-    title: "Étudiant à Tourcoing en 2026 : IUT de Lille, loyers, budget",
-    metaTitle: "Étudiant à Tourcoing 2026 : IUT, loyer, budget mensuel",
-    metaDesc: "Étudier à Tourcoing en 2026 : studio à 400 € sur notre estimation, IUT de Lille rue Sainte-Barbe. Budget chiffré, comparé à Roubaix et Lille.",
+    title: "Étudiant à Tourcoing en 2027 : IUT de Lille, loyers, budget",
+    metaTitle: "Étudiant à Tourcoing 2027 : IUT, loyer, budget mensuel",
+    metaDesc: "Étudier à Tourcoing en 2027 : studio à 400 € sur notre estimation, IUT de Lille rue Sainte-Barbe. Budget chiffré, comparé à Roubaix et Lille.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40493,9 +40493,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-cherbourg-2026",
-    title: "Étudiant à Cherbourg en 2026 : IUT, ESIX, loyers, budget",
-    metaTitle: "Étudiant à Cherbourg 2026 : IUT, ESIX, budget",
-    metaDesc: "Étudier à Cherbourg-en-Cotentin en 2026 : studio à 450 € sur notre estimation, IUT et école d'ingénieurs ESIX. Le guide chiffré, avec Caen.",
+    title: "Étudiant à Cherbourg en 2027 : IUT, ESIX, loyers, budget",
+    metaTitle: "Étudiant à Cherbourg 2027 : IUT, ESIX, budget",
+    metaDesc: "Étudier à Cherbourg-en-Cotentin en 2027 : studio à 450 € sur notre estimation, IUT et école d'ingénieurs ESIX. Le guide chiffré, avec Caen.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40536,9 +40536,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-beziers-2026",
-    title: "Étudiant à Béziers en 2026 : IUT, antenne universitaire, budget",
-    metaTitle: "Étudiant à Béziers 2026 : IUT, studio à 380 €, budget",
-    metaDesc: "Étudier à Béziers en 2026 : studio à 380 € sur notre estimation, IUT et antenne universitaire. Le guide chiffré, avec Montpellier et Narbonne.",
+    title: "Étudiant à Béziers en 2027 : IUT, antenne universitaire, budget",
+    metaTitle: "Étudiant à Béziers 2027 : IUT, studio à 380 €, budget",
+    metaDesc: "Étudier à Béziers en 2027 : studio à 380 € sur notre estimation, IUT et antenne universitaire. Le guide chiffré, avec Montpellier et Narbonne.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40580,9 +40580,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-nevers-2026",
-    title: "Étudiant à Nevers en 2026 : ISAT, IUT, loyers, budget",
-    metaTitle: "Étudiant à Nevers 2026 : ISAT, IUT, budget mensuel",
-    metaDesc: "Étudier à Nevers en 2026 : studio à 390 € sur notre estimation, ISAT et IUT Dijon-Auxerre. Le guide chiffré, avec Bourges et Auxerre.",
+    title: "Étudiant à Nevers en 2027 : ISAT, IUT, loyers, budget",
+    metaTitle: "Étudiant à Nevers 2027 : ISAT, IUT, budget mensuel",
+    metaDesc: "Étudier à Nevers en 2027 : studio à 390 € sur notre estimation, ISAT et IUT Dijon-Auxerre. Le guide chiffré, avec Bourges et Auxerre.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40624,9 +40624,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "etudiant-a-chalons-en-champagne-2026",
-    title: "Étudiant à Châlons-en-Champagne en 2026 : Arts et Métiers, IUT, budget",
-    metaTitle: "Étudiant à Châlons-en-Champagne 2026 : budget, écoles",
-    metaDesc: "Étudier à Châlons-en-Champagne en 2026 : studio à 390 €, Arts et Métiers et IUT de Reims-Châlons-Charleville. Budget chiffré, avec Reims et Troyes.",
+    title: "Étudiant à Châlons-en-Champagne en 2027 : Arts et Métiers, IUT, budget",
+    metaTitle: "Étudiant à Châlons-en-Champagne 2027 : budget, écoles",
+    metaDesc: "Étudier à Châlons-en-Champagne en 2027 : studio à 390 €, Arts et Métiers et IUT de Reims-Châlons-Charleville. Budget chiffré, avec Reims et Troyes.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 7,
@@ -40668,9 +40668,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-lyon-2026",
-    title: "En famille à Lyon en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Lyon 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Lyon en 2026 : les quartiers qui marchent avec des enfants, écoles, budget T4, parcs et mercredis. Le guide honnête.",
+    title: "En famille à Lyon en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Lyon 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Lyon en 2027 : les quartiers qui marchent avec des enfants, écoles, budget T4, parcs et mercredis. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40710,9 +40710,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-nantes-2026",
-    title: "En famille à Nantes en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Nantes 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Nantes en 2026 : quartiers avec jardin, écoles, budget réel, l'océan du dimanche. Le guide honnête de la métropole familiale de l'Ouest.",
+    title: "En famille à Nantes en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Nantes 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Nantes en 2027 : quartiers avec jardin, écoles, budget réel, l'océan du dimanche. Le guide honnête de la métropole familiale de l'Ouest.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40752,9 +40752,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-bordeaux-2026",
-    title: "En famille à Bordeaux en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Bordeaux 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Bordeaux en 2026 : Caudéran ou la Bastide, écoles, budget réel, l'océan du samedi. Le guide honnête.",
+    title: "En famille à Bordeaux en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Bordeaux 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Bordeaux en 2027 : Caudéran ou la Bastide, écoles, budget réel, l'océan du samedi. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40794,9 +40794,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-toulouse-2026",
-    title: "En famille à Toulouse en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Toulouse 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Toulouse en 2026 : Côte Pavée ou Blagnac, écoles, budget réel, la maison avec piscine possible. Le guide honnête.",
+    title: "En famille à Toulouse en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Toulouse 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Toulouse en 2027 : Côte Pavée ou Blagnac, écoles, budget réel, la maison avec piscine possible. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40836,9 +40836,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-rennes-2026",
-    title: "En famille à Rennes en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Rennes 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Rennes en 2026 : Thabor ou Cesson, écoles solides, budget réel, la mer à 55 minutes. Le guide honnête.",
+    title: "En famille à Rennes en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Rennes 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Rennes en 2027 : Thabor ou Cesson, écoles solides, budget réel, la mer à 55 minutes. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40878,9 +40878,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-strasbourg-2026",
-    title: "En famille à Strasbourg en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Strasbourg 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Strasbourg en 2026 : Neudorf ou Robertsau, le bilinguisme, budget réel, les vélos-cargos rois. Le guide honnête.",
+    title: "En famille à Strasbourg en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Strasbourg 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Strasbourg en 2027 : Neudorf ou Robertsau, le bilinguisme, budget réel, les vélos-cargos rois. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40920,9 +40920,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-angers-2026",
-    title: "En famille à Angers en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Angers 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Angers en 2026 : la ville la plus famille de France ? Quartiers, écoles, budget doux, lac de Maine. Le guide honnête.",
+    title: "En famille à Angers en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Angers 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Angers en 2027 : la ville la plus famille de France ? Quartiers, écoles, budget doux, lac de Maine. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -40963,9 +40963,9 @@ export const GUIDES: Guide[] = [
 
   {
     slug: "famille-a-lille-2026",
-    title: "En famille à Lille en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Lille 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Lille en 2026 : la maison 1930 abordable, écoles, budget réel, la chaleur nordiste pour élever des enfants. Le guide honnête.",
+    title: "En famille à Lille en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Lille 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Lille en 2027 : la maison 1930 abordable, écoles, budget réel, la chaleur nordiste pour élever des enfants. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41005,9 +41005,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-montpellier-2026",
-    title: "En famille à Montpellier en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Montpellier 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Montpellier en 2026 : Port-Marianne ou Castelnau, écoles, budget réel, la mer après l'école. Le guide honnête.",
+    title: "En famille à Montpellier en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Montpellier 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Montpellier en 2027 : Port-Marianne ou Castelnau, écoles, budget réel, la mer après l'école. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41047,9 +41047,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-marseille-2026",
-    title: "En famille à Marseille en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Marseille 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Marseille en 2026 : les quartiers famille qui marchent, écoles (le vrai sujet), budget, la mer en héritage. Le guide honnête.",
+    title: "En famille à Marseille en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Marseille 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Marseille en 2027 : les quartiers famille qui marchent, écoles (le vrai sujet), budget, la mer en héritage. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41089,9 +41089,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-nice-2026",
-    title: "En famille à Nice en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Nice 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Nice en 2026 : Cimiez ou Fabron, écoles, budget Côte d'Azur, l'hiver doux des enfants. Le guide honnête.",
+    title: "En famille à Nice en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Nice 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Nice en 2027 : Cimiez ou Fabron, écoles, budget Côte d'Azur, l'hiver doux des enfants. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41131,9 +41131,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-caen-2026",
-    title: "En famille à Caen en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Caen 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Caen en 2026 : une des villes les plus sûres de France, la plage à 15 km, budget doux. Le guide honnête du choix parental rationnel.",
+    title: "En famille à Caen en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Caen 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Caen en 2027 : une des villes les plus sûres de France, la plage à 15 km, budget doux. Le guide honnête du choix parental rationnel.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41173,9 +41173,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-dijon-2026",
-    title: "En famille à Dijon en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Dijon 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Dijon en 2026 : Montchapet, écoles solides, budget doux, la ville à hauteur d'enfant. Le guide honnête.",
+    title: "En famille à Dijon en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Dijon 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Dijon en 2027 : Montchapet, écoles solides, budget doux, la ville à hauteur d'enfant. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41215,9 +41215,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-tours-2026",
-    title: "En famille à Tours en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Tours 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Tours en 2026 : Prébendes ou Saint-Symphorien, écoles, budget, la Loire à vélo en héritage. Le guide honnête.",
+    title: "En famille à Tours en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Tours 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Tours en 2027 : Prébendes ou Saint-Symphorien, écoles, budget, la Loire à vélo en héritage. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41258,9 +41258,9 @@ export const GUIDES: Guide[] = [
 
   {
     slug: "famille-a-metz-2026",
-    title: "En famille à Metz en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Metz 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Metz en 2026 : Queuleu ou Montigny, écoles, budget doux, le salaire luxembourgeois en option. Le guide honnête.",
+    title: "En famille à Metz en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Metz 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Metz en 2027 : Queuleu ou Montigny, écoles, budget doux, le salaire luxembourgeois en option. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41300,9 +41300,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-clermont-ferrand-2026",
-    title: "En famille à Clermont-Ferrand en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Clermont-Ferrand 2026 — Quartiers, écoles, budget",
-    metaDesc: "S'installer en famille à Clermont en 2026 : Chamalières ou Beaumont, écoles, budget doux, les volcans en terrain de jeu. Le guide honnête.",
+    title: "En famille à Clermont-Ferrand en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Clermont-Ferrand 2027 — Quartiers, écoles, budget",
+    metaDesc: "S'installer en famille à Clermont en 2027 : Chamalières ou Beaumont, écoles, budget doux, les volcans en terrain de jeu. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41342,9 +41342,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-au-mans-2026",
-    title: "En famille au Mans en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille au Mans 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille au Mans en 2026 : la maison à 250 000 €, écoles, Paris à 56 min pour un parent navetteur. Le guide honnête du tableur familial.",
+    title: "En famille au Mans en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille au Mans 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille au Mans en 2027 : la maison à 250 000 €, écoles, Paris à 56 min pour un parent navetteur. Le guide honnête du tableur familial.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41384,9 +41384,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-orleans-2026",
-    title: "En famille à Orléans en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Orléans 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Orléans en 2026 : Saint-Marceau ou Olivet, écoles, la maison à 1h de Paris, la Loire sauvage. Le guide honnête.",
+    title: "En famille à Orléans en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Orléans 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Orléans en 2027 : Saint-Marceau ou Olivet, écoles, la maison à 1h de Paris, la Loire sauvage. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41426,9 +41426,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-pau-2026",
-    title: "En famille à Pau en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Pau 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Pau en 2026 : Trespoey ou Jurançon, écoles, budget doux, les Pyrénées en héritage d'enfance. Le guide honnête.",
+    title: "En famille à Pau en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Pau 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Pau en 2027 : Trespoey ou Jurançon, écoles, budget doux, les Pyrénées en héritage d'enfance. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41468,9 +41468,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-besancon-2026",
-    title: "En famille à Besançon en 2026 : quartiers, écoles, budget, le guide",
-    metaTitle: "Famille à Besançon 2026 — Quartiers, écoles, budget : le guide",
-    metaDesc: "S'installer en famille à Besançon en 2026 : la nature en ville, écoles, budget minimal, la Suisse en option salariale. Le guide honnête.",
+    title: "En famille à Besançon en 2027 : quartiers, écoles, budget, le guide",
+    metaTitle: "Famille à Besançon 2027 — Quartiers, écoles, budget : le guide",
+    metaDesc: "S'installer en famille à Besançon en 2027 : la nature en ville, écoles, budget minimal, la Suisse en option salariale. Le guide honnête.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
     readMinutes: 8,
@@ -41510,8 +41510,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-grenoble-2026",
-    title: "Famille à Grenoble en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Grenoble 2026 : loyer T3, écoles, montagne",
+    title: "Famille à Grenoble en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Grenoble 2027 : loyer T3, écoles, montagne",
     metaDesc: "Vivre en famille à Grenoble : T3 à 1 020 €, note Écoles parmi les plus hautes du corpus, sécurité plus fragile. Chiffres et verdict par profil.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41556,8 +41556,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-reims-2026",
-    title: "Famille à Reims en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Reims 2026 : budget, écoles, maison ou appart",
+    title: "Famille à Reims en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Reims 2027 : budget, écoles, maison ou appart",
     metaDesc: "Famille à Reims : T3 à 900 €, une maison au même prix au m² qu'un appartement, 16,2 % de moins de 15 ans. Chiffres, comparaison Châlons, verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41602,8 +41602,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-rouen-2026",
-    title: "Famille à Rouen en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Rouen 2026 : budget, écoles, quotidien",
+    title: "Famille à Rouen en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Rouen 2027 : budget, écoles, quotidien",
     metaDesc: "Famille à Rouen : T3 à 950 €, +5,6 % d'habitants depuis 2016, note Écoles 6,6. Chiffres, comparaison Le Havre, verdict par profil.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41648,8 +41648,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-brest-2026",
-    title: "Famille à Brest en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Brest 2026 : T3 à 850 €, écoles, mer",
+    title: "Famille à Brest en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Brest 2027 : T3 à 850 €, écoles, mer",
     metaDesc: "Famille à Brest : T3 à 850 €, note Écoles 7,4, sécurité correcte (5,7), mer à portée. Chiffres, comparaison Quimper et Lorient, verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41694,8 +41694,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-saint-etienne-2026",
-    title: "Famille à Saint-Étienne en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Saint-Étienne 2026 : T3 à 770 €, m² à 1 197 €",
+    title: "Famille à Saint-Étienne en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Saint-Étienne 2027 : T3 à 770 €, m² à 1 197 €",
     metaDesc: "Famille à Saint-Étienne : T3 à 770 €, appartements à 1 197 € le m², 17,1 % de moins de 15 ans. Les chiffres et les réserves, honnêtement.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41740,8 +41740,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-limoges-2026",
-    title: "Famille à Limoges en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Limoges 2026 : T3 à 800 €, sécurité, budget",
+    title: "Famille à Limoges en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Limoges 2027 : T3 à 800 €, sécurité, budget",
     metaDesc: "Famille à Limoges : T3 à 800 €, sécurité à 6,1, coût de la vie à 7,1 mais peu d'enfants (13,9 %). Chiffres, Poitiers, Brive, verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41786,8 +41786,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-amiens-2026",
-    title: "Famille à Amiens en 2026 : budget, écoles, quotidien, les chiffres",
-    metaTitle: "Famille à Amiens 2026 : budget, écoles, maison moins chère",
+    title: "Famille à Amiens en 2027 : budget, écoles, quotidien, les chiffres",
+    metaTitle: "Famille à Amiens 2027 : budget, écoles, maison moins chère",
     metaDesc: "Famille à Amiens : T3 à 900 €, maison moins chère que l'appartement (2 273 € contre 2 491 €), 16,2 % de moins de 15 ans. Chiffres et verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41832,8 +41832,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-perpignan-2026",
-    title: "Famille à Perpignan en 2026 : loyers bas, maison chère, les chiffres",
-    metaTitle: "Famille à Perpignan 2026 : T3 à 870 €, écoles, budget",
+    title: "Famille à Perpignan en 2027 : loyers bas, maison chère, les chiffres",
+    metaTitle: "Famille à Perpignan 2027 : T3 à 870 €, écoles, budget",
     metaDesc: "Famille à Perpignan : T3 à 870 €, maison à 2 181 €/m² contre 1 500 € pour un appartement, 17,5 % de moins de 15 ans. Chiffres et verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41878,8 +41878,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-annecy-2026",
-    title: "Famille à Annecy en 2026 : un cadre exceptionnel, un budget à prévoir",
-    metaTitle: "Famille à Annecy 2026 : T3 à 1 450 €, écoles 8,7, budget",
+    title: "Famille à Annecy en 2027 : un cadre exceptionnel, un budget à prévoir",
+    metaTitle: "Famille à Annecy 2027 : T3 à 1 450 €, écoles 8,7, budget",
     metaDesc: "Famille à Annecy : T3 à 1 450 €, appartements à 5 092 €/m², note Écoles 8,7 et Vie quotidienne 9,0, mais Coût de la vie à 3,1. Chiffres et verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41924,8 +41924,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-la-rochelle-2026",
-    title: "Famille à La Rochelle en 2026 : la mer, le vélo et un prix de la pierre élevé",
-    metaTitle: "Famille à La Rochelle 2026 : T3 à 1 100 €, vélo, budget",
+    title: "Famille à La Rochelle en 2027 : la mer, le vélo et un prix de la pierre élevé",
+    metaTitle: "Famille à La Rochelle 2027 : T3 à 1 100 €, vélo, budget",
     metaDesc: "Famille à La Rochelle : T3 à 1 100 €, appartements à 4 844 €/m² (plus chers que les maisons), 12,9 % de moins de 15 ans, +5,6 % depuis 2016.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -41970,8 +41970,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-poitiers-2026",
-    title: "Famille à Poitiers en 2026 : budget maîtrisé, écoles dans la moyenne haute",
-    metaTitle: "Famille à Poitiers 2026 : T3 à 880 €, écoles 7,4, budget",
+    title: "Famille à Poitiers en 2027 : budget maîtrisé, écoles dans la moyenne haute",
+    metaTitle: "Famille à Poitiers 2027 : T3 à 880 €, écoles 7,4, budget",
     metaDesc: "Famille à Poitiers : T3 à 880 €, appartements à 2 200 €/m², note Écoles 7,4 mais Sécurité 5,7, 13,9 % de moins de 15 ans. Chiffres et verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42016,8 +42016,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-nancy-2026",
-    title: "Famille à Nancy en 2026 : écoles solides, parcs au centre, prix abordables",
-    metaTitle: "Famille à Nancy 2026 : T3 à 950 €, écoles 7,4, parcs",
+    title: "Famille à Nancy en 2027 : écoles solides, parcs au centre, prix abordables",
+    metaTitle: "Famille à Nancy 2027 : T3 à 950 €, écoles 7,4, parcs",
     metaDesc: "Famille à Nancy : T3 à 950 €, appartements à 2 282 €/m² (maisons à 2 610 €), 12,2 % de moins de 15 ans, note Écoles 7,4. Chiffres et verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42062,8 +42062,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-vannes-2026",
-    title: "Famille à Vannes en 2026 : golfe, sécurité haute et prix à l'avenant",
-    metaTitle: "Famille à Vannes 2026 : T3 à 1 150 €, sécurité 6,9, budget",
+    title: "Famille à Vannes en 2027 : golfe, sécurité haute et prix à l'avenant",
+    metaTitle: "Famille à Vannes 2027 : T3 à 1 150 €, sécurité 6,9, budget",
     metaDesc: "Famille à Vannes : T3 à 1 150 €, appartements à 3 864 €/m² (maisons à 4 112 €), Sécurité 6,9, Écoles 7,4, 12,7 % de moins de 15 ans. Verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42108,8 +42108,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-au-havre-2026",
-    title: "Famille au Havre en 2026 : loyers bas, mer proche, points de vigilance",
-    metaTitle: "Famille au Havre 2026 : T3 à 870 €, 17,7 % de moins de 15 ans",
+    title: "Famille au Havre en 2027 : loyers bas, mer proche, points de vigilance",
+    metaTitle: "Famille au Havre 2027 : T3 à 870 €, 17,7 % de moins de 15 ans",
     metaDesc: "Famille au Havre : T3 à 870 €, appartements à 2 237 €/m², 17,7 % de moins de 15 ans, mais −2,3 % d'habitants depuis 2016 et Sécurité 4,5.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42153,8 +42153,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-quimper-2026",
-    title: "Famille à Quimper en 2026 : une préfecture bretonne à taille d'enfant",
-    metaTitle: "Famille à Quimper 2026 : T3 à 940 €, maison à 2 259 €/m²",
+    title: "Famille à Quimper en 2027 : une préfecture bretonne à taille d'enfant",
+    metaTitle: "Famille à Quimper 2027 : T3 à 940 €, maison à 2 259 €/m²",
     metaDesc: "Famille à Quimper : T3 à 940 €, appartements à 2 122 €/m² (maisons à 2 259 €), 14,3 % de moins de 15 ans, Écoles 6,6, Sécurité 6,1. Verdict par profil.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42197,8 +42197,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-valence-2026",
-    title: "Famille à Valence en 2026 : loyers doux, sécurité moyenne, vallée du Rhône",
-    metaTitle: "Famille à Valence 2026 : T3 à 900 €, 16,3 % de moins de 15 ans",
+    title: "Famille à Valence en 2027 : loyers doux, sécurité moyenne, vallée du Rhône",
+    metaTitle: "Famille à Valence 2027 : T3 à 900 €, 16,3 % de moins de 15 ans",
     metaDesc: "Famille à Valence : T3 à 900 €, appartements à 1 989 €/m², maisons à 2 510 €, 16,3 % de moins de 15 ans, Sécurité 5,2, Coût de la vie 6,7.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42242,8 +42242,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-bayonne-2026",
-    title: "Famille à Bayonne en 2026 : la côte basque sans le prix d'Anglet",
-    metaTitle: "Famille à Bayonne 2026 : T3 à 1 200 €, appartements 4 039 €/m²",
+    title: "Famille à Bayonne en 2027 : la côte basque sans le prix d'Anglet",
+    metaTitle: "Famille à Bayonne 2027 : T3 à 1 200 €, appartements 4 039 €/m²",
     metaDesc: "Famille à Bayonne : T3 à 1 200 €, appartements à 4 039 €/m², Écoles 7,0, Vie quotidienne 7,0, mais Coût de la vie 3,8 et 13,0 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42287,8 +42287,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-chambery-2026",
-    title: "Famille à Chambéry en 2026 : les Alpes à portée, la facture en prime",
-    metaTitle: "Famille à Chambéry 2026 : T3 à 1 100 €, Nature 8,1, Écoles 7,4",
+    title: "Famille à Chambéry en 2027 : les Alpes à portée, la facture en prime",
+    metaTitle: "Famille à Chambéry 2027 : T3 à 1 100 €, Nature 8,1, Écoles 7,4",
     metaDesc: "Famille à Chambéry : T3 à 1 100 €, appartements à 2 895 €/m² (maisons à 3 817 €), Nature 8,1, Écoles 7,4, Sécurité 6,3, 17,0 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42333,8 +42333,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-avignon-2026",
-    title: "Famille à Avignon en 2026 : un loyer correct, des notes à lire de près",
-    metaTitle: "Famille à Avignon 2026 : T3 à 1 000 €, 19,3 % de moins de 15 ans",
+    title: "Famille à Avignon en 2027 : un loyer correct, des notes à lire de près",
+    metaTitle: "Famille à Avignon 2027 : T3 à 1 000 €, 19,3 % de moins de 15 ans",
     metaDesc: "Famille à Avignon : T3 à 1 000 €, appartements à 2 321 €/m², 19,3 % de moins de 15 ans, mais Écoles 5,3, Sécurité 4,3 et 33 % de pauvreté. Verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42379,8 +42379,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-nimes-2026",
-    title: "Famille à Nîmes en 2026 : romaine, jeune et exigeante sur le choix du quartier",
-    metaTitle: "Famille à Nîmes 2026 : T3 à 960 €, maisons à 2 852 €/m²",
+    title: "Famille à Nîmes en 2027 : romaine, jeune et exigeante sur le choix du quartier",
+    metaTitle: "Famille à Nîmes 2027 : T3 à 960 €, maisons à 2 852 €/m²",
     metaDesc: "Famille à Nîmes : T3 à 960 €, appartements à 2 106 €/m² (maisons à 2 852 €), 16,9 % de moins de 15 ans, Écoles 5,3, Sécurité 3,9. Verdict par profil.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42425,8 +42425,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-toulon-2026",
-    title: "Famille à Toulon en 2026 : la rade, le Faron et un équilibre à vérifier",
-    metaTitle: "Famille à Toulon 2026 : T3 à 1 050 €, Nature 7,0, Écoles 4,5",
+    title: "Famille à Toulon en 2027 : la rade, le Faron et un équilibre à vérifier",
+    metaTitle: "Famille à Toulon 2027 : T3 à 1 050 €, Nature 7,0, Écoles 4,5",
     metaDesc: "Famille à Toulon : T3 à 1 050 €, appartements à 2 667 €/m², maisons à 4 518 €, Nature 7,0 mais Écoles 4,5 et Sécurité 4,1. +6,6 % d'habitants depuis 2016.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42472,8 +42472,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-aix-en-provence-2026",
-    title: "Famille à Aix-en-Provence en 2026 : les meilleures écoles du lot, au prix fort",
-    metaTitle: "Famille à Aix-en-Provence 2026 : T3 à 1 400 €, Écoles 8,3",
+    title: "Famille à Aix-en-Provence en 2027 : les meilleures écoles du lot, au prix fort",
+    metaTitle: "Famille à Aix-en-Provence 2027 : T3 à 1 400 €, Écoles 8,3",
     metaDesc: "Famille à Aix-en-Provence : T3 à 1 400 €, appartements à 4 819 €/m², Écoles 8,3 (rang 30), 15 % de pauvreté. Ce que coûte la meilleure note du Sud-Est.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42519,8 +42519,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-montauban-2026",
-    title: "Famille à Montauban en 2026 : un T3 à 860 € et une ville qui regarde Toulouse",
-    metaTitle: "Famille à Montauban 2026 : T3 à 860 €, 1 983 €/m²",
+    title: "Famille à Montauban en 2027 : un T3 à 860 € et une ville qui regarde Toulouse",
+    metaTitle: "Famille à Montauban 2027 : T3 à 860 €, 1 983 €/m²",
     metaDesc: "Famille à Montauban : T3 à 860 €, appartements à 1 983 €/m², maisons à 2 233 €, 17 % de moins de 15 ans, Écoles 6,2, Sécurité 5,5. Verdict par profil.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42563,8 +42563,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-troyes-2026",
-    title: "Famille à Troyes en 2026 : des prix bas pour une ville de 62 000 habitants, des revenus aussi",
-    metaTitle: "Famille à Troyes 2026 : T3 à 860 €, 1 586 €/m²",
+    title: "Famille à Troyes en 2027 : des prix bas pour une ville de 62 000 habitants, des revenus aussi",
+    metaTitle: "Famille à Troyes 2027 : T3 à 860 €, 1 586 €/m²",
     metaDesc: "Famille à Troyes : T3 à 860 €, appartements à 1 586 €/m², 17,4 % de moins de 15 ans, Écoles 6,4 (rang 215), mais 30 % de pauvreté. Verdict.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42609,8 +42609,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-angouleme-2026",
-    title: "Famille à Angoulême en 2026 : la bande dessinée, des loyers bas et une population qui recule",
-    metaTitle: "Famille à Angoulême 2026 : T3 à 820 €, 1 597 €/m²",
+    title: "Famille à Angoulême en 2027 : la bande dessinée, des loyers bas et une population qui recule",
+    metaTitle: "Famille à Angoulême 2027 : T3 à 820 €, 1 597 €/m²",
     metaDesc: "Famille à Angoulême : T3 à 820 €, appartements à 1 597 €/m², Écoles 6,2, Sécurité 5,1, 26 % de pauvreté, population en recul de 1,2 % depuis 2016.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42652,8 +42652,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-lorient-2026",
-    title: "Famille à Lorient en 2026 : la voile pour les enfants, un T3 à 900 €",
-    metaTitle: "Famille à Lorient 2026 : T3 à 900 €, appartements 2 574 €/m²",
+    title: "Famille à Lorient en 2027 : la voile pour les enfants, un T3 à 900 €",
+    metaTitle: "Famille à Lorient 2027 : T3 à 900 €, appartements 2 574 €/m²",
     metaDesc: "Famille à Lorient : T3 à 900 €, appartements à 2 574 €/m², maisons à 3 016 €, Écoles 6,6, Nature 6,4, 21 % de pauvreté. La Cité de la Voile et le Flore.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42699,8 +42699,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-arles-2026",
-    title: "Famille à Arles en 2026 : monuments romains et Camargue, mais des notes basses",
-    metaTitle: "Famille à Arles 2026 : T3 à 930 €, Écoles 4,5, Sécurité 4,1",
+    title: "Famille à Arles en 2027 : monuments romains et Camargue, mais des notes basses",
+    metaTitle: "Famille à Arles 2027 : T3 à 930 €, Écoles 4,5, Sécurité 4,1",
     metaDesc: "Famille à Arles : T3 à 930 €, appartements à 2 586 €/m², maisons à 2 903 €, Écoles 4,5 (rang 442), Sécurité 4,1, population en recul de 3,2 % depuis 2016.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42744,8 +42744,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-cherbourg-2026",
-    title: "Famille à Cherbourg en 2026 : un T3 à 820 € et une ville qui perd des habitants",
-    metaTitle: "Famille à Cherbourg 2026 : T3 à 820 €, 14 % de pauvreté",
+    title: "Famille à Cherbourg en 2027 : un T3 à 820 € et une ville qui perd des habitants",
+    metaTitle: "Famille à Cherbourg 2027 : T3 à 820 €, 14 % de pauvreté",
     metaDesc: "Famille à Cherbourg-en-Cotentin : T3 à 820 €, appartements à 2 264 €/m², 14 % de pauvreté, 15,4 % de moins de 15 ans, mais 2,6 % d'habitants en moins.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42789,8 +42789,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-bourges-2026",
-    title: "Famille à Bourges en 2026 : un T3 à 760 € dans une ville qui recule de 2 %",
-    metaTitle: "Famille à Bourges 2026 : T3 760 €, Écoles 5,8, Sécurité 5,3",
+    title: "Famille à Bourges en 2027 : un T3 à 760 € dans une ville qui recule de 2 %",
+    metaTitle: "Famille à Bourges 2027 : T3 760 €, Écoles 5,8, Sécurité 5,3",
     metaDesc: "Famille à Bourges : T3 à 760 €, appartements à 1 570 €/m², maisons à 1 738 €, Écoles 5,8, Sécurité 5,3, mais 2 % d'habitants en moins depuis 2016.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42834,8 +42834,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-la-roche-sur-yon-2026",
-    title: "Famille à La Roche-sur-Yon en 2026 : Écoles 7,7 et Sécurité 8,0 pour un T3 à 800 €",
-    metaTitle: "Famille à La Roche-sur-Yon 2026 : T3 800 €, Écoles 7,7",
+    title: "Famille à La Roche-sur-Yon en 2027 : Écoles 7,7 et Sécurité 8,0 pour un T3 à 800 €",
+    metaTitle: "Famille à La Roche-sur-Yon 2027 : T3 800 €, Écoles 7,7",
     metaDesc: "Famille à La Roche-sur-Yon : T3 à 800 €, appartements à 2 404 €/m², Écoles 7,7 (rang 38), Sécurité 8,0 (rang 72), 15 % de pauvreté, population +1,8 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42878,8 +42878,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-niort-2026",
-    title: "Famille à Niort en 2026 : un T3 à 860 €, 16 % de pauvreté et une ville qui regagne des habitants",
-    metaTitle: "Famille à Niort 2026 : T3 860 €, Écoles 6,6, pauvreté 16 %",
+    title: "Famille à Niort en 2027 : un T3 à 860 €, 16 % de pauvreté et une ville qui regagne des habitants",
+    metaTitle: "Famille à Niort 2027 : T3 860 €, Écoles 6,6, pauvreté 16 %",
     metaDesc: "Famille à Niort : T3 à 860 €, appartements à 2 000 €/m², maisons à 2 021 €, Écoles 6,6, Sécurité 5,9, niveau de vie 23 120 €, population en hausse de 1,8 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42922,8 +42922,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-chartres-2026",
-    title: "Famille à Chartres en 2026 : niveau de vie de 22 770 €, T3 à 890 €, mais 2 % d'habitants en moins",
-    metaTitle: "Famille à Chartres 2026 : T3 890 €, Écoles 6,6, Sécurité 5,5",
+    title: "Famille à Chartres en 2027 : niveau de vie de 22 770 €, T3 à 890 €, mais 2 % d'habitants en moins",
+    metaTitle: "Famille à Chartres 2027 : T3 890 €, Écoles 6,6, Sécurité 5,5",
     metaDesc: "Famille à Chartres : T3 à 890 €, appartements à 2 438 €/m², Écoles 6,6, Sécurité 5,5, niveau de vie 22 770 €, 16 % de pauvreté, population en recul de 2 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -42967,8 +42967,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-blois-2026",
-    title: "Famille à Blois en 2026 : jeune et en croissance, mais 27 % de pauvreté",
-    metaTitle: "Famille à Blois 2026 : T3 à 820 €, 18,5 % de moins de 15 ans",
+    title: "Famille à Blois en 2027 : jeune et en croissance, mais 27 % de pauvreté",
+    metaTitle: "Famille à Blois 2027 : T3 à 820 €, 18,5 % de moins de 15 ans",
     metaDesc: "Famille à Blois : T3 à 820 €, appartements à 1 814 €/m², Écoles 6,2, Sécurité 5,3, 18,5 % de moins de 15 ans, 27 % de pauvreté, population en hausse de 3,1 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43010,8 +43010,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-auxerre-2026",
-    title: "Famille à Auxerre en 2026 : un T3 à 660 €, l'un des plus bas du lot, et Écoles 6,6",
-    metaTitle: "Famille à Auxerre 2026 : T3 à 660 €, Écoles 6,6, Coût 7,2",
+    title: "Famille à Auxerre en 2027 : un T3 à 660 €, l'un des plus bas du lot, et Écoles 6,6",
+    metaTitle: "Famille à Auxerre 2027 : T3 à 660 €, Écoles 6,6, Coût 7,2",
     metaDesc: "Famille à Auxerre : T3 à 660 €, appartements à 1 568 €/m², maisons à 1 831 €, Écoles 6,6, Sécurité 5,7, 22 % de pauvreté, population en hausse de 1,1 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43054,8 +43054,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-saint-brieuc-2026",
-    title: "Famille à Saint-Brieuc en 2026 : la baie et un T3 à 780 €, mais des transports faibles",
-    metaTitle: "Famille à Saint-Brieuc 2026 : T3 780 €, Écoles 6,2, Nature 6,4",
+    title: "Famille à Saint-Brieuc en 2027 : la baie et un T3 à 780 €, mais des transports faibles",
+    metaTitle: "Famille à Saint-Brieuc 2027 : T3 780 €, Écoles 6,2, Nature 6,4",
     metaDesc: "Famille à Saint-Brieuc : T3 à 780 €, appartements à 1 760 €/m², maisons à 1 988 €, Écoles 6,2, Nature 6,4, Transports 4,9, 15,7 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43097,8 +43097,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-nevers-2026",
-    title: "Famille à Nevers en 2026 : un T3 à 710 €, Coût 8,2 au 41e rang, mais 23 % de pauvreté",
-    metaTitle: "Famille à Nevers 2026 : T3 710 €, Coût 8,2, Écoles 5,5",
+    title: "Famille à Nevers en 2027 : un T3 à 710 €, Coût 8,2 au 41e rang, mais 23 % de pauvreté",
+    metaTitle: "Famille à Nevers 2027 : T3 710 €, Coût 8,2, Écoles 5,5",
     metaDesc: "Famille à Nevers : T3 à 710 €, appartements à 1 050 €/m², maisons à 1 362 €, Coût 8,2, Écoles 5,5, 23 % de pauvreté, population stable (-0,2 %).",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43140,8 +43140,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-cholet-2026",
-    title: "Famille à Cholet en 2026 : Écoles 7,7, Sécurité 7,1 et un T3 à 800 €, 200 € sous Angers",
-    metaTitle: "Famille à Cholet 2026 : T3 800 €, Écoles 7,7, Sécurité 7,1",
+    title: "Famille à Cholet en 2027 : Écoles 7,7, Sécurité 7,1 et un T3 à 800 €, 200 € sous Angers",
+    metaTitle: "Famille à Cholet 2027 : T3 800 €, Écoles 7,7, Sécurité 7,1",
     metaDesc: "Famille à Cholet : T3 à 800 €, appartements à 2 007 €/m², maisons à 2 106 €, Écoles 7,7, Sécurité 7,1, 14 % de pauvreté, 16,9 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43183,8 +43183,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-albi-2026",
-    title: "Famille à Albi en 2026 : Écoles 7,7, un T3 à 840 € et une maison moins chère que l'appartement",
-    metaTitle: "Famille à Albi 2026 : T3 840 €, Écoles 7,7, Sécurité 6,7",
+    title: "Famille à Albi en 2027 : Écoles 7,7, un T3 à 840 € et une maison moins chère que l'appartement",
+    metaTitle: "Famille à Albi 2027 : T3 840 €, Écoles 7,7, Sécurité 6,7",
     metaDesc: "Famille à Albi : T3 à 840 €, appartements à 2 392 €/m², maisons à 2 018 €, Écoles 7,7, Sécurité 6,7, population en hausse de 3,2 %, 20 % de pauvreté.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43226,8 +43226,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-laval-2026",
-    title: "Famille à Laval en 2026 : T3 à 660 €, Sécurité 6,8 au 138e rang et une ville au repos démographique",
-    metaTitle: "Famille à Laval 2026 : T3 660 €, Sécurité 6,8, Écoles 6,6",
+    title: "Famille à Laval en 2027 : T3 à 660 €, Sécurité 6,8 au 138e rang et une ville au repos démographique",
+    metaTitle: "Famille à Laval 2027 : T3 660 €, Sécurité 6,8, Écoles 6,6",
     metaDesc: "Famille à Laval : T3 à 660 €, appartements à 2 035 €/m², maisons à 2 164 €, Sécurité 6,8, Écoles 6,6, 18 % de pauvreté, 16 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43269,8 +43269,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-saint-malo-2026",
-    title: "Famille à Saint-Malo en 2026 : la mer, Nature 7,2, mais un appartement à 4 531 € le m²",
-    metaTitle: "Famille à Saint-Malo 2026 : T3 1 080 €, Nature 7,2, 4 531 €/m²",
+    title: "Famille à Saint-Malo en 2027 : la mer, Nature 7,2, mais un appartement à 4 531 € le m²",
+    metaTitle: "Famille à Saint-Malo 2027 : T3 1 080 €, Nature 7,2, 4 531 €/m²",
     metaDesc: "Famille à Saint-Malo : T3 à 1 080 €, appartements à 4 531 €/m², Nature 7,2, Écoles 6,2, Coût 5,0, 13 % de pauvreté, 11,9 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43312,8 +43312,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-belfort-2026",
-    title: "Famille à Belfort en 2026 : un T3 à 690 €, un appartement à 1 275 € le m² et 6,8 % d'habitants en moins",
-    metaTitle: "Famille à Belfort 2026 : T3 690 €, Écoles 6,6, 29 % de pauvreté",
+    title: "Famille à Belfort en 2027 : un T3 à 690 €, un appartement à 1 275 € le m² et 6,8 % d'habitants en moins",
+    metaTitle: "Famille à Belfort 2027 : T3 690 €, Écoles 6,6, 29 % de pauvreté",
     metaDesc: "Famille à Belfort : T3 à 690 €, appartements à 1 275 €/m², maisons à 1 655 €, Écoles 6,6, Transports 6,2, 29 % de pauvreté, population en baisse de 6,8 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43355,8 +43355,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-villeurbanne-2026",
-    title: "Famille à Villeurbanne en 2026 : un T3 à 1 150 €, 230 € sous Lyon, avec Écoles 7,7",
-    metaTitle: "Famille à Villeurbanne 2026 : T3 1 150 €, Écoles 7,7, 3 554 €/m²",
+    title: "Famille à Villeurbanne en 2027 : un T3 à 1 150 €, 230 € sous Lyon, avec Écoles 7,7",
+    metaTitle: "Famille à Villeurbanne 2027 : T3 1 150 €, Écoles 7,7, 3 554 €/m²",
     metaDesc: "Famille à Villeurbanne : T3 à 1 150 €, appartements à 3 554 €/m², Écoles 7,7, Transports 9,0, 21 % de pauvreté, 16,6 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43398,8 +43398,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-versailles-2026",
-    title: "Famille à Versailles en 2026 : Écoles 9,0 au rang 1, mais un appartement à 6 491 € le m²",
-    metaTitle: "Famille à Versailles 2026 : Écoles 9,0, T3 1 700 €, 6 491 €/m²",
+    title: "Famille à Versailles en 2027 : Écoles 9,0 au rang 1, mais un appartement à 6 491 € le m²",
+    metaTitle: "Famille à Versailles 2027 : Écoles 9,0, T3 1 700 €, 6 491 €/m²",
     metaDesc: "Famille à Versailles : T3 à 1 700 €, appartements à 6 491 €/m², Écoles 9,0, Sécurité 6,3, 7 % de pauvreté, 18,0 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43441,8 +43441,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-boulogne-billancourt-2026",
-    title: "Famille à Boulogne-Billancourt en 2026 : Écoles 8,7, un T3 à 2 000 € et 8 243 € le m²",
-    metaTitle: "Famille à Boulogne-Billancourt 2026 : T3 2 000 €, Écoles 8,7",
+    title: "Famille à Boulogne-Billancourt en 2027 : Écoles 8,7, un T3 à 2 000 € et 8 243 € le m²",
+    metaTitle: "Famille à Boulogne-Billancourt 2027 : T3 2 000 €, Écoles 8,7",
     metaDesc: "Famille à Boulogne-Billancourt : T3 à 2 000 €, appartements à 8 243 €/m², Écoles 8,7, Transports 9,0, 9 % de pauvreté, 16,1 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43484,8 +43484,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-dunkerque-2026",
-    title: "Famille à Dunkerque en 2026 : un T3 à 750 €, la maison moins chère que l'appartement et un bus gratuit",
-    metaTitle: "Famille à Dunkerque 2026 : T3 750 €, Écoles 5,8, bus gratuit",
+    title: "Famille à Dunkerque en 2027 : un T3 à 750 €, la maison moins chère que l'appartement et un bus gratuit",
+    metaTitle: "Famille à Dunkerque 2027 : T3 750 €, Écoles 5,8, bus gratuit",
     metaDesc: "Famille à Dunkerque : T3 à 750 €, appartements à 2 227 €/m², maisons à 2 027 €, Écoles 5,8, 22 % de pauvreté, population en baisse de 1,2 %.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43527,8 +43527,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-creteil-2026",
-    title: "Famille à Créteil en 2026 : un T3 à 1 250 €, la ligne 8 jusqu'au lac et 3 495 € le m²",
-    metaTitle: "Famille à Créteil 2026 : T3 1 250 €, 3 495 €/m², Écoles 5,3",
+    title: "Famille à Créteil en 2027 : un T3 à 1 250 €, la ligne 8 jusqu'au lac et 3 495 € le m²",
+    metaTitle: "Famille à Créteil 2027 : T3 1 250 €, 3 495 €/m², Écoles 5,3",
     metaDesc: "Famille à Créteil : T3 à 1 250 €, appartements à 3 495 €/m², Écoles 5,3, Transports 9,0, 21 % de pauvreté, 19,7 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43570,8 +43570,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-montreuil-2026",
-    title: "Famille à Montreuil en 2026 : un T3 à 1 400 €, 5 938 € le m² et un revenu médian de 21 150 €",
-    metaTitle: "Famille à Montreuil 2026 : T3 1 400 €, 5 938 €/m², Écoles 5,3",
+    title: "Famille à Montreuil en 2027 : un T3 à 1 400 €, 5 938 € le m² et un revenu médian de 21 150 €",
+    metaTitle: "Famille à Montreuil 2027 : T3 1 400 €, 5 938 €/m², Écoles 5,3",
     metaDesc: "Famille à Montreuil : T3 à 1 400 €, appartements à 5 938 €/m², Écoles 5,3, Transports 9,0, 25 % de pauvreté, 19,4 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43613,8 +43613,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-nanterre-2026",
-    title: "Famille à Nanterre en 2026 : un T3 à 1 400 €, Écoles 5,8, 4 996 € le m² et 4,1 % d'habitants en plus",
-    metaTitle: "Famille à Nanterre 2026 : T3 1 400 €, 4 996 €/m², Écoles 5,8",
+    title: "Famille à Nanterre en 2027 : un T3 à 1 400 €, Écoles 5,8, 4 996 € le m² et 4,1 % d'habitants en plus",
+    metaTitle: "Famille à Nanterre 2027 : T3 1 400 €, 4 996 €/m², Écoles 5,8",
     metaDesc: "Famille à Nanterre : T3 à 1 400 €, appartements à 4 996 €/m², Écoles 5,8, Transports 9,0, 22 % de pauvreté, 19,6 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43656,8 +43656,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-merignac-2026",
-    title: "Famille à Mérignac en 2026 : un T3 à 1 080 €, 3 439 € le m², Transports 7,7 et 9,7 % d'habitants en plus",
-    metaTitle: "Famille à Mérignac 2026 : T3 1 080 €, 3 439 €/m², Écoles 5,5",
+    title: "Famille à Mérignac en 2027 : un T3 à 1 080 €, 3 439 € le m², Transports 7,7 et 9,7 % d'habitants en plus",
+    metaTitle: "Famille à Mérignac 2027 : T3 1 080 €, 3 439 €/m², Écoles 5,5",
     metaDesc: "Famille à Mérignac : T3 à 1 080 €, appartements à 3 439 €/m², Écoles 5,5, Transports 7,7, 16,1 % de moins de 15 ans, forêt du Bourgailh.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43704,8 +43704,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-pessac-2026",
-    title: "Famille à Pessac en 2026 : un T3 à 1 080 €, Écoles 6,6, 3 482 € le m² et un campus voisin",
-    metaTitle: "Famille à Pessac 2026 : T3 1 080 €, 3 482 €/m², Écoles 6,6",
+    title: "Famille à Pessac en 2027 : un T3 à 1 080 €, Écoles 6,6, 3 482 € le m² et un campus voisin",
+    metaTitle: "Famille à Pessac 2027 : T3 1 080 €, 3 482 €/m², Écoles 6,6",
     metaDesc: "Famille à Pessac : T3 à 1 080 €, appartements à 3 482 €/m², Écoles 6,6, Transports 7,7, 13 % de pauvreté, 15,6 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43752,8 +43752,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-saint-nazaire-2026",
-    title: "Famille à Saint-Nazaire en 2026 : un T3 à 850 €, Coût 6,3, 2 849 € le m² et 30,5 % de 60 ans et plus",
-    metaTitle: "Famille à Saint-Nazaire 2026 : T3 850 €, 2 849 €/m²",
+    title: "Famille à Saint-Nazaire en 2027 : un T3 à 850 €, Coût 6,3, 2 849 € le m² et 30,5 % de 60 ans et plus",
+    metaTitle: "Famille à Saint-Nazaire 2027 : T3 850 €, 2 849 €/m²",
     metaDesc: "Famille à Saint-Nazaire : T3 à 850 €, appartements à 2 849 €/m², Écoles 6,6, Sécurité 5,5, Coût 6,3, 30,5 % de 60 ans et plus.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43796,8 +43796,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-antibes-2026",
-    title: "Famille à Antibes en 2026 : un T3 à 1 450 €, 5 149 € le m², Nature 7,0 et seulement 13,8 % de moins de 15 ans",
-    metaTitle: "Famille à Antibes 2026 : T3 1 450 €, 5 149 €/m², Écoles 5,3",
+    title: "Famille à Antibes en 2027 : un T3 à 1 450 €, 5 149 € le m², Nature 7,0 et seulement 13,8 % de moins de 15 ans",
+    metaTitle: "Famille à Antibes 2027 : T3 1 450 €, 5 149 €/m², Écoles 5,3",
     metaDesc: "Famille à Antibes : T3 à 1 450 €, appartements à 5 149 €/m², Nature 7,0, Écoles 5,3, 13,8 % de moins de 15 ans, 33,8 % de 60 ans et plus.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43840,8 +43840,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-rueil-malmaison-2026",
-    title: "Famille à Rueil-Malmaison en 2026 : Écoles 9,0 au rang 1, un T3 à 1 600 € et 5 478 € le m²",
-    metaTitle: "Famille à Rueil-Malmaison 2026 : Écoles 9,0, T3 1 600 €",
+    title: "Famille à Rueil-Malmaison en 2027 : Écoles 9,0 au rang 1, un T3 à 1 600 € et 5 478 € le m²",
+    metaTitle: "Famille à Rueil-Malmaison 2027 : Écoles 9,0, T3 1 600 €",
     metaDesc: "Famille à Rueil-Malmaison : Écoles 9,0 (rang 1), T3 à 1 600 €, appartements à 5 478 €/m², Sécurité 7,2, 19,2 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43884,8 +43884,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-cergy-2026",
-    title: "Famille à Cergy en 2026 : un T3 à 1 150 €, 23,4 % de moins de 15 ans, Transports 8,4 et 3 192 € le m²",
-    metaTitle: "Famille à Cergy 2026 : T3 1 150 €, 3 192 €/m², Écoles 6,6",
+    title: "Famille à Cergy en 2027 : un T3 à 1 150 €, 23,4 % de moins de 15 ans, Transports 8,4 et 3 192 € le m²",
+    metaTitle: "Famille à Cergy 2027 : T3 1 150 €, 3 192 €/m², Écoles 6,6",
     metaDesc: "Famille à Cergy : T3 à 1 150 €, appartements à 3 192 €/m², Transports 8,4, Écoles 6,6, Sécurité 4,4, 23,4 % de moins de 15 ans.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43928,8 +43928,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-beziers-2026",
-    title: "Famille à Béziers en 2026 : un T3 à 720 €, 1 667 € le m², mais Écoles 3,6 et 36 % de pauvreté",
-    metaTitle: "Famille à Béziers 2026 : T3 720 €, 1 667 €/m², Écoles 3,6",
+    title: "Famille à Béziers en 2027 : un T3 à 720 €, 1 667 € le m², mais Écoles 3,6 et 36 % de pauvreté",
+    metaTitle: "Famille à Béziers 2027 : T3 720 €, 1 667 €/m², Écoles 3,6",
     metaDesc: "Famille à Béziers : T3 à 720 €, appartements à 1 667 €/m², mais Écoles 3,6, Sécurité 3,5 et 36 % de pauvreté. Chiffres et alternatives proches.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -43973,8 +43973,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-compiegne-2026",
-    title: "Famille à Compiègne en 2026 : un T3 à 980 €, Écoles 7,7 et 14 000 hectares de forêt à côté",
-    metaTitle: "Famille à Compiègne 2026 : T3 980 €, Écoles 7,7, forêt",
+    title: "Famille à Compiègne en 2027 : un T3 à 980 €, Écoles 7,7 et 14 000 hectares de forêt à côté",
+    metaTitle: "Famille à Compiègne 2027 : T3 980 €, Écoles 7,7, forêt",
     metaDesc: "Famille à Compiègne : T3 à 980 €, appartements à 2 273 €/m², Écoles 7,7, Sécurité 6,2. Budget, parcs, forêt et comparaison avec Senlis et Creil.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44018,8 +44018,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-les-sables-d-olonne-2026",
-    title: "Famille aux Sables-d'Olonne en 2026 : Sécurité 8,0 et Nature 8,5, mais 4 647 € le m² et 10 % d'enfants",
-    metaTitle: "Famille aux Sables-d'Olonne 2026 : T3 1 050 €, 4 647 €/m²",
+    title: "Famille aux Sables-d'Olonne en 2027 : Sécurité 8,0 et Nature 8,5, mais 4 647 € le m² et 10 % d'enfants",
+    metaTitle: "Famille aux Sables-d'Olonne 2027 : T3 1 050 €, 4 647 €/m²",
     metaDesc: "Famille aux Sables-d'Olonne : T3 à 1 050 €, appartements à 4 647 €/m², Sécurité 8,0, Nature 8,5, mais 10 % de moins de 15 ans. Comparaison avec La Roche-sur-Yon.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44063,8 +44063,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-anglet-2026",
-    title: "Famille à Anglet en 2026 : Écoles 8,7 et 11 plages, mais 5 188 € le m² et un Coût noté 4,5",
-    metaTitle: "Famille à Anglet 2026 : T3 1 200 €, 5 188 €/m², Écoles 8,7",
+    title: "Famille à Anglet en 2027 : Écoles 8,7 et 11 plages, mais 5 188 € le m² et un Coût noté 4,5",
+    metaTitle: "Famille à Anglet 2027 : T3 1 200 €, 5 188 €/m², Écoles 8,7",
     metaDesc: "Famille à Anglet : T3 à 1 200 €, appartements à 5 188 €/m², Écoles 8,7, Sécurité 7,2, Coût 4,5. Plages, forêt, comparaison avec Bayonne et Biarritz.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44108,8 +44108,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-saint-germain-en-laye-2026",
-    title: "Famille à Saint-Germain-en-Laye en 2026 : Écoles 9,0 (rang 1), mais un T3 à 1 600 € et 6 429 € le m²",
-    metaTitle: "Famille à Saint-Germain-en-Laye 2026 : T3 1 600 €, Écoles 9,0",
+    title: "Famille à Saint-Germain-en-Laye en 2027 : Écoles 9,0 (rang 1), mais un T3 à 1 600 € et 6 429 € le m²",
+    metaTitle: "Famille à Saint-Germain-en-Laye 2027 : T3 1 600 €, Écoles 9,0",
     metaDesc: "Famille à Saint-Germain-en-Laye : Écoles 9,0, T3 à 1 600 €, appartements à 6 429 €/m², RER A. Budget et comparaison avec Poissy et Rueil-Malmaison.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44153,8 +44153,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-arras-2026",
-    title: "Famille à Arras en 2026 : un T3 à 720 €, 2 450 € le m², mais Nature 4,2 et 25 % de pauvreté",
-    metaTitle: "Famille à Arras 2026 : T3 720 €, 2 450 €/m², Écoles 6,6",
+    title: "Famille à Arras en 2027 : un T3 à 720 €, 2 450 € le m², mais Nature 4,2 et 25 % de pauvreté",
+    metaTitle: "Famille à Arras 2027 : T3 720 €, 2 450 €/m², Écoles 6,6",
     metaDesc: "Famille à Arras : T3 à 720 €, appartements à 2 450 €/m², Écoles 6,6, Sécurité 5,3, Nature 4,2. Budget, lieux et comparaison avec Lens, Douai, Cambrai.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44198,8 +44198,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-bourg-en-bresse-2026",
-    title: "Famille à Bourg-en-Bresse en 2026 : un T3 à 840 €, 1 866 € le m², Écoles 6,6 et un parc de 61 hectares",
-    metaTitle: "Famille à Bourg-en-Bresse 2026 : T3 840 €, 1 866 €/m²",
+    title: "Famille à Bourg-en-Bresse en 2027 : un T3 à 840 €, 1 866 € le m², Écoles 6,6 et un parc de 61 hectares",
+    metaTitle: "Famille à Bourg-en-Bresse 2027 : T3 840 €, 1 866 €/m²",
     metaDesc: "Famille à Bourg-en-Bresse : T3 à 840 €, appartements à 1 866 €/m², Écoles 6,6, Sécurité 5,5. Budget, parc de Bouvent et comparaison avec Mâcon et Villefranche.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44243,8 +44243,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-brive-la-gaillarde-2026",
-    title: "Famille à Brive-la-Gaillarde en 2026 : un T3 à 780 €, 1 834 € le m², Culture 7,5 et Sécurité 6,7",
-    metaTitle: "Famille à Brive-la-Gaillarde 2026 : T3 780 €, 1 834 €/m²",
+    title: "Famille à Brive-la-Gaillarde en 2027 : un T3 à 780 €, 1 834 € le m², Culture 7,5 et Sécurité 6,7",
+    metaTitle: "Famille à Brive-la-Gaillarde 2027 : T3 780 €, 1 834 €/m²",
     metaDesc: "Famille à Brive : T3 à 780 €, appartements à 1 834 €/m², Écoles 6,6, Sécurité 6,7, Culture 7,5. Budget, parcs et comparaison avec Limoges et Périgueux.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44288,8 +44288,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-castres-2026",
-    title: "Famille à Castres en 2026 : un T3 à 700 €, 1 695 € le m², Coût 7,2 mais Transports 5,5",
-    metaTitle: "Famille à Castres 2026 : T3 700 €, 1 695 €/m², Écoles 6,6",
+    title: "Famille à Castres en 2027 : un T3 à 700 €, 1 695 € le m², Coût 7,2 mais Transports 5,5",
+    metaTitle: "Famille à Castres 2027 : T3 700 €, 1 695 €/m², Écoles 6,6",
     metaDesc: "Famille à Castres : T3 à 700 €, appartements à 1 695 €/m², Écoles 6,6, Coût 7,2, Transports 5,5. Budget, Gourjade et comparaison avec Albi et Toulouse.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44333,8 +44333,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-annemasse-2026",
-    title: "Famille à Annemasse en 2026 : un T3 à 1 350 €, 3 506 € le m², Écoles 7,7 et Transports 9,0",
-    metaTitle: "Famille à Annemasse 2026 : T3 1 350 €, 3 506 €/m², Écoles 7,7",
+    title: "Famille à Annemasse en 2027 : un T3 à 1 350 €, 3 506 € le m², Écoles 7,7 et Transports 9,0",
+    metaTitle: "Famille à Annemasse 2027 : T3 1 350 €, 3 506 €/m², Écoles 7,7",
     metaDesc: "Famille à Annemasse : T3 à 1 350 €, appartements à 3 506 €/m², Écoles 7,7, Transports 9,0, Coût 3,4. Budget et comparaison avec Annecy, Thonon, Cluses.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44378,8 +44378,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-issy-les-moulineaux-2026",
-    title: "Famille à Issy-les-Moulineaux en 2026 : un T3 à 1 800 €, 7 511 € le m², Écoles 9,0 et Nature 4,3",
-    metaTitle: "Famille à Issy-les-Moulineaux 2026 : T3 1 800 €, Écoles 9,0",
+    title: "Famille à Issy-les-Moulineaux en 2027 : un T3 à 1 800 €, 7 511 € le m², Écoles 9,0 et Nature 4,3",
+    metaTitle: "Famille à Issy-les-Moulineaux 2027 : T3 1 800 €, Écoles 9,0",
     metaDesc: "Famille à Issy : T3 à 1 800 €, appartements à 7 511 €/m², Écoles 9,0, Nature 4,3, Coût 2,2. Budget, parcs, transports et comparaison avec Vanves et Meudon.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44423,8 +44423,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-villefranche-sur-saone-2026",
-    title: "Famille à Villefranche-sur-Saône en 2026 : un T3 à 1 070 €, 2 439 € le m² et Écoles 8,7",
-    metaTitle: "Famille à Villefranche-sur-Saône 2026 : T3 1 070 €, Écoles 8,7",
+    title: "Famille à Villefranche-sur-Saône en 2027 : un T3 à 1 070 €, 2 439 € le m² et Écoles 8,7",
+    metaTitle: "Famille à Villefranche-sur-Saône 2027 : T3 1 070 €, Écoles 8,7",
     metaDesc: "Famille à Villefranche-sur-Saône : T3 à 1 070 €, appartements à 2 439 €/m², Écoles 8,7, Sécurité 6,3. Budget, TER vers Lyon et comparaison avec Mâcon et Bourg.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44468,8 +44468,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-montelimar-2026",
-    title: "Famille à Montélimar en 2026 : un T3 à 780 €, 1 760 € le m², Coût 6,7 et Nature 6,4",
-    metaTitle: "Famille à Montélimar 2026 : T3 780 €, 1 760 €/m², Écoles 6,6",
+    title: "Famille à Montélimar en 2027 : un T3 à 780 €, 1 760 € le m², Coût 6,7 et Nature 6,4",
+    metaTitle: "Famille à Montélimar 2027 : T3 780 €, 1 760 €/m², Écoles 6,6",
     metaDesc: "Famille à Montélimar : T3 à 780 €, appartements à 1 760 €/m², Écoles 6,6, Nature 6,4, Sécurité 5,7. Budget et comparaison avec Valence, Orange, Bagnols.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44513,8 +44513,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-colomiers-2026",
-    title: "Famille à Colomiers en 2026 : un T3 à 1 010 €, 2 623 € le m², Écoles 6,2 et Toulouse à 9 km",
-    metaTitle: "Famille à Colomiers 2026 : T3 1 010 €, 2 623 €/m², Écoles 6,2",
+    title: "Famille à Colomiers en 2027 : un T3 à 1 010 €, 2 623 € le m², Écoles 6,2 et Toulouse à 9 km",
+    metaTitle: "Famille à Colomiers 2027 : T3 1 010 €, 2 623 €/m², Écoles 6,2",
     metaDesc: "Famille à Colomiers : T3 à 1 010 €, appartements à 2 623 €/m², Écoles 6,2, Télétravail 6,3. Budget et comparaison avec Tournefeuille, Blagnac, Toulouse.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44558,8 +44558,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-saint-medard-en-jalles-2026",
-    title: "Famille à Saint-Médard-en-Jalles en 2026 : T3 à 1 080 €, 3 577 € le m², 7 % de pauvreté",
-    metaTitle: "Famille à Saint-Médard-en-Jalles 2026 : T3 1 080 €, 3 577 €/m²",
+    title: "Famille à Saint-Médard-en-Jalles en 2027 : T3 à 1 080 €, 3 577 € le m², 7 % de pauvreté",
+    metaTitle: "Famille à Saint-Médard-en-Jalles 2027 : T3 1 080 €, 3 577 €/m²",
     metaDesc: "Famille à Saint-Médard-en-Jalles : T3 à 1 080 €, appartements à 3 577 €/m², Écoles 6,2, Coût 4,0. Comparaison avec Eysines, Mérignac, Pessac et Bordeaux.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44603,8 +44603,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-thonon-les-bains-2026",
-    title: "Famille à Thonon-les-Bains en 2026 : T3 à 1 200 €, 3 594 € le m², Nature 7,8 sur le Léman",
-    metaTitle: "Famille à Thonon-les-Bains 2026 : T3 1 200 €, 3 594 €/m²",
+    title: "Famille à Thonon-les-Bains en 2027 : T3 à 1 200 €, 3 594 € le m², Nature 7,8 sur le Léman",
+    metaTitle: "Famille à Thonon-les-Bains 2027 : T3 1 200 €, 3 594 €/m²",
     metaDesc: "Famille à Thonon-les-Bains : T3 à 1 200 €, appartements à 3 594 €/m², Nature 7,8, Écoles 5,8. Comparaison avec Annemasse et Annecy.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44648,8 +44648,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-gap-2026",
-    title: "Famille à Gap en 2026 : un T3 à 900 €, 2 276 € le m², Nature 7,8 et 33,2 % de 60 ans et plus",
-    metaTitle: "Famille à Gap 2026 : T3 900 €, 2 276 €/m², Nature 7,8",
+    title: "Famille à Gap en 2027 : un T3 à 900 €, 2 276 € le m², Nature 7,8 et 33,2 % de 60 ans et plus",
+    metaTitle: "Famille à Gap 2027 : T3 900 €, 2 276 €/m², Nature 7,8",
     metaDesc: "Famille à Gap : T3 à 900 €, appartements à 2 276 €/m², Nature 7,8, Coût 5,5, Écoles 5,8. Budget et comparaison avec Grenoble et Manosque.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44692,8 +44692,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-evreux-2026",
-    title: "Famille à Évreux en 2026 : un T3 à 820 €, 1 750 € le m², Coût 6,3 et Paris à environ 1 h",
-    metaTitle: "Famille à Évreux 2026 : T3 820 €, 1 750 €/m², Coût 6,3",
+    title: "Famille à Évreux en 2027 : un T3 à 820 €, 1 750 € le m², Coût 6,3 et Paris à environ 1 h",
+    metaTitle: "Famille à Évreux 2027 : T3 820 €, 1 750 €/m², Coût 6,3",
     metaDesc: "Famille à Évreux : T3 à 820 €, appartements à 1 750 €/m², Coût 6,3, Écoles 5,5, Sécurité 4,7. Comparaison avec Vernon, Dreux et Mantes-la-Jolie.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44737,8 +44737,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-chalon-sur-saone-2026",
-    title: "Famille à Chalon-sur-Saône en 2026 : T3 à 740 €, 1 381 € le m², Coût 7,2 et lac de 69 ha",
-    metaTitle: "Famille à Chalon-sur-Saône 2026 : T3 740 €, 1 381 €/m²",
+    title: "Famille à Chalon-sur-Saône en 2027 : T3 à 740 €, 1 381 € le m², Coût 7,2 et lac de 69 ha",
+    metaTitle: "Famille à Chalon-sur-Saône 2027 : T3 740 €, 1 381 €/m²",
     metaDesc: "Famille à Chalon-sur-Saône : T3 à 740 €, appartements à 1 381 €/m², Coût 7,2, Écoles 6,2. Comparaison avec Beaune, Mâcon et Dijon.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44782,8 +44782,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-agen-2026",
-    title: "Famille à Agen en 2026 : un T3 à 750 €, 1 719 € le m², Coût 6,4 et −4,1 % d'habitants",
-    metaTitle: "Famille à Agen 2026 : T3 750 €, 1 719 €/m², Coût 6,4",
+    title: "Famille à Agen en 2027 : un T3 à 750 €, 1 719 € le m², Coût 6,4 et −4,1 % d'habitants",
+    metaTitle: "Famille à Agen 2027 : T3 750 €, 1 719 €/m², Coût 6,4",
     metaDesc: "Famille à Agen : T3 à 750 €, appartements à 1 719 €/m², Coût 6,4, Écoles 5,3, Sécurité 4,7. Comparaison avec Villeneuve-sur-Lot et Montauban.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -44827,8 +44827,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "famille-a-mont-de-marsan-2026",
-    title: "Famille à Mont-de-Marsan en 2026 : T3 à 740 €, 2 101 € le m², Coût 6,2 et +5,3 % d'habitants",
-    metaTitle: "Famille à Mont-de-Marsan 2026 : T3 740 €, 2 101 €/m²",
+    title: "Famille à Mont-de-Marsan en 2027 : T3 à 740 €, 2 101 € le m², Coût 6,2 et +5,3 % d'habitants",
+    metaTitle: "Famille à Mont-de-Marsan 2027 : T3 740 €, 2 101 €/m²",
     metaDesc: "Famille à Mont-de-Marsan : T3 à 740 €, appartements à 2 101 €/m², Coût 6,2, Sécurité 5,7. Comparaison avec Dax, Pau et Bayonne.",
     category: "famille",
     emoji: "👨‍👩‍👧‍👦",
@@ -45126,9 +45126,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-dinan-2026",
-    title: "Retraite à Dinan en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Dinan 2026 — Santé, logement, budget : le guide",
-    metaDesc: "Prendre sa retraite à Dinan en 2026 : accès aux soins, louer ou acheter (2 300 €/m²), budget mensuel réaliste, vie quotidienne. Le guide honnête de la cité médiévale des bords de Rance.",
+    title: "Retraite à Dinan en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Dinan 2027 — Santé, logement, budget : le guide",
+    metaDesc: "Prendre sa retraite à Dinan en 2027 : accès aux soins, louer ou acheter (2 300 €/m²), budget mensuel réaliste, vie quotidienne. Le guide honnête de la cité médiévale des bords de Rance.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45172,9 +45172,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-lannion-2026",
-    title: "Retraite à Lannion en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Lannion 2026 — Santé, logement, budget : le guide",
-    metaDesc: "Prendre sa retraite à Lannion en 2026 : la Côte de Granit Rose à 15 minutes, un T2 à 600 €, l'accès aux soins, le budget mensuel réel. Le guide honnête du Trégor.",
+    title: "Retraite à Lannion en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Lannion 2027 — Santé, logement, budget : le guide",
+    metaDesc: "Prendre sa retraite à Lannion en 2027 : la Côte de Granit Rose à 15 minutes, un T2 à 600 €, l'accès aux soins, le budget mensuel réel. Le guide honnête du Trégor.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45218,9 +45218,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-les-sables-d-olonne-2026",
-    title: "Retraite aux Sables-d'Olonne en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite aux Sables-d'Olonne 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite aux Sables-d'Olonne en 2026 : la ville balnéaire préférée des retraités français au banc d'essai. Soins, immobilier (3 500 €/m²), budget mensuel, vraies limites.",
+    title: "Retraite aux Sables-d'Olonne en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite aux Sables-d'Olonne 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite aux Sables-d'Olonne en 2027 : la ville balnéaire préférée des retraités français au banc d'essai. Soins, immobilier (3 500 €/m²), budget mensuel, vraies limites.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45264,9 +45264,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-royan-2026",
-    title: "Retraite à Royan en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Royan 2026 — Santé, logement, budget : le guide",
-    metaDesc: "Prendre sa retraite à Royan en 2026 : cinq plages en ville, un immobilier à 2 900 €/m², l'un des meilleurs ensoleillements de l'Atlantique. Soins, budget mensuel et limites, sans détour.",
+    title: "Retraite à Royan en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Royan 2027 — Santé, logement, budget : le guide",
+    metaDesc: "Prendre sa retraite à Royan en 2027 : cinq plages en ville, un immobilier à 2 900 €/m², l'un des meilleurs ensoleillements de l'Atlantique. Soins, budget mensuel et limites, sans détour.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45310,9 +45310,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-le-puy-en-velay-2026",
-    title: "Retraite au Puy-en-Velay en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite au Puy-en-Velay 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite au Puy-en-Velay en 2026 : un patrimoine UNESCO, un T2 à 530 €, l'achat à 1 600 €/m² et un vrai hôpital sur place. Le guide honnête de la retraite en Haute-Loire.",
+    title: "Retraite au Puy-en-Velay en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite au Puy-en-Velay 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite au Puy-en-Velay en 2027 : un patrimoine UNESCO, un T2 à 530 €, l'achat à 1 600 €/m² et un vrai hôpital sur place. Le guide honnête de la retraite en Haute-Loire.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45356,9 +45356,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-anglet-2026",
-    title: "Retraite à Anglet en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Anglet 2026 — Santé, logement, budget : le guide",
-    metaDesc: "Prendre sa retraite à Anglet en 2026 : les plages basques, la forêt de Chiberta, l'hôpital de la Côte Basque à côté, un immobilier à 4 300 €/m². Le guide honnête, budget compris.",
+    title: "Retraite à Anglet en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Anglet 2027 — Santé, logement, budget : le guide",
+    metaDesc: "Prendre sa retraite à Anglet en 2027 : les plages basques, la forêt de Chiberta, l'hôpital de la Côte Basque à côté, un immobilier à 4 300 €/m². Le guide honnête, budget compris.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45402,9 +45402,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-hendaye-2026",
-    title: "Retraite à Hendaye en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Hendaye 2026 — Santé, logement, budget : le guide",
-    metaDesc: "Prendre sa retraite à Hendaye en 2026 : la plage la plus sûre de la côte basque, l'hiver le plus doux de France métropolitaine ou presque, l'Espagne à pied. Le guide honnête, budget compris.",
+    title: "Retraite à Hendaye en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Hendaye 2027 — Santé, logement, budget : le guide",
+    metaDesc: "Prendre sa retraite à Hendaye en 2027 : la plage la plus sûre de la côte basque, l'hiver le plus doux de France métropolitaine ou presque, l'Espagne à pied. Le guide honnête, budget compris.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45448,9 +45448,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-vitre-2026",
-    title: "Retraite à Vitré en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Vitré 2026 — Santé, logement, budget : le guide",
-    metaDesc: "Prendre sa retraite à Vitré en 2026 : une cité médiévale sûre (8,5/10), Rennes à 35 minutes, Paris en TGV direct, un T2 à 600 €. Le guide honnête de la porte de Bretagne.",
+    title: "Retraite à Vitré en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Vitré 2027 — Santé, logement, budget : le guide",
+    metaDesc: "Prendre sa retraite à Vitré en 2027 : une cité médiévale sûre (8,5/10), Rennes à 35 minutes, Paris en TGV direct, un T2 à 600 €. Le guide honnête de la porte de Bretagne.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45494,9 +45494,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-fontainebleau-2026",
-    title: "Retraite à Fontainebleau en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Fontainebleau 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Fontainebleau en 2026 : 20 000 hectares de forêt, un château UNESCO, Paris à 40 minutes de train, l'achat à 3 800 €/m². Le guide honnête de la retraite bellifontaine.",
+    title: "Retraite à Fontainebleau en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Fontainebleau 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Fontainebleau en 2027 : 20 000 hectares de forêt, un château UNESCO, Paris à 40 minutes de train, l'achat à 3 800 €/m². Le guide honnête de la retraite bellifontaine.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45540,9 +45540,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-ile-de-re-2026",
-    title: "Retraite à l'île de Ré en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à l'île de Ré 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à l'île de Ré en 2026 : 100 km de pistes cyclables et dix villages, mais 7 500 €/m² et pas d'hôpital sur l'île. Le guide honnête d'un rêve qui se mérite.",
+    title: "Retraite à l'île de Ré en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à l'île de Ré 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à l'île de Ré en 2027 : 100 km de pistes cyclables et dix villages, mais 7 500 €/m² et pas d'hôpital sur l'île. Le guide honnête d'un rêve qui se mérite.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45586,9 +45586,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-challans-2026",
-    title: "Retraite à Challans en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Challans 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Challans en 2026 : la porte du Marais breton, l'océan à 20 minutes, sans le tarif du littoral. Soins, immobilier, budget mensuel, vraies limites.",
+    title: "Retraite à Challans en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Challans 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Challans en 2027 : la porte du Marais breton, l'océan à 20 minutes, sans le tarif du littoral. Soins, immobilier, budget mensuel, vraies limites.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45632,9 +45632,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-tulle-2026",
-    title: "Retraite à Tulle en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Tulle 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Tulle en 2026 : la Corrèze abordable au bord des gorges, un T2 à 530 € et l'achat à 1 400 €/m². Soins, budget mensuel, limites du choix rural.",
+    title: "Retraite à Tulle en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Tulle 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Tulle en 2027 : la Corrèze abordable au bord des gorges, un T2 à 530 € et l'achat à 1 400 €/m². Soins, budget mensuel, limites du choix rural.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45678,9 +45678,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-pontarlier-2026",
-    title: "Retraite à Pontarlier en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Pontarlier 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Pontarlier en 2026 : le Jura à 837 m d'altitude, la Suisse à 10 minutes, l'immobilier sous pression frontalière. Soins, budget mensuel, vraies limites.",
+    title: "Retraite à Pontarlier en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Pontarlier 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Pontarlier en 2027 : le Jura à 837 m d'altitude, la Suisse à 10 minutes, l'immobilier sous pression frontalière. Soins, budget mensuel, vraies limites.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45724,9 +45724,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-die-des-vosges-2026",
-    title: "Retraite à Saint-Dié-des-Vosges en 2026 : santé, logement, budget",
-    metaTitle: "Retraite à Saint-Dié 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Saint-Dié-des-Vosges en 2026 : la forêt vosgienne à la porte, un T2 à 500 € et l'achat à 1 100 €/m². Soins, budget mensuel, limites de l'hiver vosgien.",
+    title: "Retraite à Saint-Dié-des-Vosges en 2027 : santé, logement, budget",
+    metaTitle: "Retraite à Saint-Dié 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Saint-Dié-des-Vosges en 2027 : la forêt vosgienne à la porte, un T2 à 500 € et l'achat à 1 100 €/m². Soins, budget mensuel, limites de l'hiver vosgien.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45770,9 +45770,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-chateau-gontier-2026",
-    title: "Retraite à Château-Gontier en 2026 : santé, logement, budget",
-    metaTitle: "Retraite à Château-Gontier 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Château-Gontier-sur-Mayenne en 2026 : bords de Mayenne, T2 à 520 €, achat à 1 300 €/m². Soins, budget mensuel, limites d'un choix de calme absolu.",
+    title: "Retraite à Château-Gontier en 2027 : santé, logement, budget",
+    metaTitle: "Retraite à Château-Gontier 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Château-Gontier-sur-Mayenne en 2027 : bords de Mayenne, T2 à 520 €, achat à 1 300 €/m². Soins, budget mensuel, limites d'un choix de calme absolu.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45816,9 +45816,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-albertville-2026",
-    title: "Retraite à Albertville en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Albertville 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Albertville en 2026 : la Tarentaise à la porte, l'immobilier sous pression alpine (2 900 €/m²), un CHU à 45 minutes. Soins, budget, vraies limites.",
+    title: "Retraite à Albertville en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Albertville 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Albertville en 2027 : la Tarentaise à la porte, l'immobilier sous pression alpine (2 900 €/m²), un CHU à 45 minutes. Soins, budget, vraies limites.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45862,9 +45862,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-gaillac-2026",
-    title: "Retraite à Gaillac en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Gaillac 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Gaillac en 2026 : vignoble AOC, Albi à 25 minutes, Toulouse à 1 heure, achat autour de 1 900 €/m². Soins, budget mensuel, vraies limites.",
+    title: "Retraite à Gaillac en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Gaillac 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Gaillac en 2027 : vignoble AOC, Albi à 25 minutes, Toulouse à 1 heure, achat autour de 1 900 €/m². Soins, budget mensuel, vraies limites.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45908,9 +45908,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-vendome-2026",
-    title: "Retraite à Vendôme en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Vendôme 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Vendôme en 2026 : TGV Paris en 45 minutes, achat à 1 900 €/m², abbaye et Loir. Soins, budget mensuel, vraies limites d'un compromis Paris-province.",
+    title: "Retraite à Vendôme en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Vendôme 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Vendôme en 2027 : TGV Paris en 45 minutes, achat à 1 900 €/m², abbaye et Loir. Soins, budget mensuel, vraies limites d'un compromis Paris-province.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -45954,9 +45954,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-marmande-2026",
-    title: "Retraite à Marmande en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Marmande 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Marmande en 2026 : la Garonne, la tomate AOP, Bordeaux à 1 heure, achat à 1 350 €/m². Soins, budget mensuel, vraies limites du Lot-et-Garonne.",
+    title: "Retraite à Marmande en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Marmande 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Marmande en 2027 : la Garonne, la tomate AOP, Bordeaux à 1 heure, achat à 1 350 €/m². Soins, budget mensuel, vraies limites du Lot-et-Garonne.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -46000,9 +46000,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-lo-2026",
-    title: "Retraite à Saint-Lô en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Saint-Lô 2026 — Santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Saint-Lô en 2026 : la Manche prairie, T2 à 570 €, achat à 1 600 €/m², Cotentin à la porte. Soins, budget mensuel, vraies limites du bocage.",
+    title: "Retraite à Saint-Lô en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Saint-Lô 2027 — Santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Saint-Lô en 2027 : la Manche prairie, T2 à 570 €, achat à 1 600 €/m², Cotentin à la porte. Soins, budget mensuel, vraies limites du bocage.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -46046,9 +46046,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-montpellier-2026",
-    title: "Retraite à Montpellier en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Montpellier 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Montpellier en 2026 : CHU sur place, transports gratuits pour les habitants, T2 à 850 €, chaleur d'été. Le guide honnête.",
+    title: "Retraite à Montpellier en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Montpellier 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Montpellier en 2027 : CHU sur place, transports gratuits pour les habitants, T2 à 850 €, chaleur d'été. Le guide honnête.",
     category: "lifestyle",
     emoji: "☀️",
     readMinutes: 8,
@@ -46093,9 +46093,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-bordeaux-2026",
-    title: "Retraite à Bordeaux en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Bordeaux 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Bordeaux en 2026 : CHU sur place, T2 à 900 €, l'océan à une heure, un centre classé. Santé, budget mensuel et limites : le guide.",
+    title: "Retraite à Bordeaux en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Bordeaux 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Bordeaux en 2027 : CHU sur place, T2 à 900 €, l'océan à une heure, un centre classé. Santé, budget mensuel et limites : le guide.",
     category: "lifestyle",
     emoji: "🍷",
     readMinutes: 8,
@@ -46140,9 +46140,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-nice-2026",
-    title: "Retraite à Nice en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Nice 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Nice en 2026 : 10,5 °C en janvier, CHU sur place, mais un T2 à 1 100 €. Santé, budget mensuel et limites : le guide honnête.",
+    title: "Retraite à Nice en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Nice 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Nice en 2027 : 10,5 °C en janvier, CHU sur place, mais un T2 à 1 100 €. Santé, budget mensuel et limites : le guide honnête.",
     category: "lifestyle",
     emoji: "🌴",
     readMinutes: 8,
@@ -46187,9 +46187,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-perpignan-2026",
-    title: "Retraite à Perpignan en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Perpignan 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Perpignan en 2026 : soleil, mer à 15 km, T2 à 650 €, mais pas de CHU sur place. Santé, budget mensuel et limites : le guide.",
+    title: "Retraite à Perpignan en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Perpignan 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Perpignan en 2027 : soleil, mer à 15 km, T2 à 650 €, mais pas de CHU sur place. Santé, budget mensuel et limites : le guide.",
     category: "lifestyle",
     emoji: "🌞",
     readMinutes: 8,
@@ -46234,9 +46234,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-la-rochelle-2026",
-    title: "Retraite à La Rochelle en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à La Rochelle 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à La Rochelle en 2026 : ville plate, océan, 2 190 h de soleil, T2 à 820 €, spécialistes tendus. Budget et limites : le guide.",
+    title: "Retraite à La Rochelle en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à La Rochelle 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à La Rochelle en 2027 : ville plate, océan, 2 190 h de soleil, T2 à 820 €, spécialistes tendus. Budget et limites : le guide.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 8,
@@ -46281,9 +46281,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-pau-2026",
-    title: "Retraite à Pau en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Pau 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Pau en 2026 : vue sur les Pyrénées, T2 à 680 €, hivers doux, CHU à distance. Santé, budget mensuel et limites : le guide honnête.",
+    title: "Retraite à Pau en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Pau 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Pau en 2027 : vue sur les Pyrénées, T2 à 680 €, hivers doux, CHU à distance. Santé, budget mensuel et limites : le guide honnête.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 8,
@@ -46328,9 +46328,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-toulon-2026",
-    title: "Retraite à Toulon en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Toulon 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Toulon en 2026 : 2 750 h de soleil, T2 à 780 €, rade et mont Faron, CHU de Marseille à 50 km. Budget et limites : le guide.",
+    title: "Retraite à Toulon en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Toulon 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Toulon en 2027 : 2 750 h de soleil, T2 à 780 €, rade et mont Faron, CHU de Marseille à 50 km. Budget et limites : le guide.",
     category: "lifestyle",
     emoji: "⛵",
     readMinutes: 8,
@@ -46375,9 +46375,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-vannes-2026",
-    title: "Retraite à Vannes en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Vannes 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Vannes en 2026 : golfe du Morbihan, score retraite 7/10, T2 à 850 €, spécialistes tendus. Santé, budget et limites : le guide.",
+    title: "Retraite à Vannes en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Vannes 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Vannes en 2027 : golfe du Morbihan, score retraite 7/10, T2 à 850 €, spécialistes tendus. Santé, budget et limites : le guide.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 8,
@@ -46422,9 +46422,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-angers-2026",
-    title: "Retraite à Angers en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Angers 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Angers en 2026 : CHU sur place, tram, T2 à 750 €, Paris à 1h30. Santé, budget mensuel et limites : le guide honnête.",
+    title: "Retraite à Angers en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Angers 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Angers en 2027 : CHU sur place, tram, T2 à 750 €, Paris à 1h30. Santé, budget mensuel et limites : le guide honnête.",
     category: "lifestyle",
     emoji: "🌳",
     readMinutes: 8,
@@ -46469,9 +46469,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-hyeres-2026",
-    title: "Retraite à Hyères en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Hyères 2026 : santé, logement, budget",
-    metaDesc: "Prendre sa retraite à Hyères en 2026 : 2 900 h de soleil, 9 °C en janvier, îles d'Or, T2 à 950 €. Santé, budget mensuel et limites : le guide honnête.",
+    title: "Retraite à Hyères en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Hyères 2027 : santé, logement, budget",
+    metaDesc: "Prendre sa retraite à Hyères en 2027 : 2 900 h de soleil, 9 °C en janvier, îles d'Or, T2 à 950 €. Santé, budget mensuel et limites : le guide honnête.",
     category: "lifestyle",
     emoji: "🌺",
     readMinutes: 8,
@@ -46515,9 +46515,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-biarritz-2026",
-    title: "Retraite à Biarritz en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Biarritz 2026 : budget, santé, vie sociale",
-    metaDesc: "Retraite à Biarritz en 2026 : 44,6 % de 60 ans et plus, T2 à 1 000 €, m² à 6 500 €, CHU à 165 km. Santé, budget mensuel et limites, sans fard.",
+    title: "Retraite à Biarritz en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Biarritz 2027 : budget, santé, vie sociale",
+    metaDesc: "Retraite à Biarritz en 2027 : 44,6 % de 60 ans et plus, T2 à 1 000 €, m² à 6 500 €, CHU à 165 km. Santé, budget mensuel et limites, sans fard.",
     category: "lifestyle",
     emoji: "🏄",
     readMinutes: 7,
@@ -46561,9 +46561,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-arcachon-2026",
-    title: "Retraite à Arcachon en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Arcachon 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Arcachon en 2026 : 60,4 % de 60 ans et plus, T2 à 1 100 €, m² à 6 800 €, hôpital à La Teste. Santé, budget mensuel et limites du bassin.",
+    title: "Retraite à Arcachon en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Arcachon 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Arcachon en 2027 : 60,4 % de 60 ans et plus, T2 à 1 100 €, m² à 6 800 €, hôpital à La Teste. Santé, budget mensuel et limites du bassin.",
     category: "lifestyle",
     emoji: "🌲",
     readMinutes: 7,
@@ -46606,9 +46606,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-malo-2026",
-    title: "Retraite à Saint-Malo en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Saint-Malo 2026 : budget, santé, vie",
-    metaDesc: "Retraite à Saint-Malo en 2026 : score retraite 7,3/10, T2 à 800 €, m² à 4 000 €, 41,2 % de 60 ans et plus, hôpital Broussais. Budget et limites.",
+    title: "Retraite à Saint-Malo en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Saint-Malo 2027 : budget, santé, vie",
+    metaDesc: "Retraite à Saint-Malo en 2027 : score retraite 7,3/10, T2 à 800 €, m² à 4 000 €, 41,2 % de 60 ans et plus, hôpital Broussais. Budget et limites.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 7,
@@ -46652,9 +46652,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-annecy-2026",
-    title: "Retraite à Annecy en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Annecy 2026 : budget, santé, hiver",
-    metaDesc: "Retraite à Annecy en 2026 : 25,7 % de 60 ans et plus, T2 à 1 100 €, m² à 5 500 €, hiver à 2,3 °C, CHU à Grenoble. Budget, santé, limites.",
+    title: "Retraite à Annecy en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Annecy 2027 : budget, santé, hiver",
+    metaDesc: "Retraite à Annecy en 2027 : 25,7 % de 60 ans et plus, T2 à 1 100 €, m² à 5 500 €, hiver à 2,3 °C, CHU à Grenoble. Budget, santé, limites.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 7,
@@ -46698,9 +46698,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-sete-2026",
-    title: "Retraite à Sète en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Sète 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Sète en 2026 : 41 % de 60 ans et plus, T2 à 680 €, m² à 2 600 €, 2 800 h de soleil, CHU à Montpellier. Santé, budget et limites.",
+    title: "Retraite à Sète en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Sète 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Sète en 2027 : 41 % de 60 ans et plus, T2 à 680 €, m² à 2 600 €, 2 800 h de soleil, CHU à Montpellier. Santé, budget et limites.",
     category: "lifestyle",
     emoji: "🛥️",
     readMinutes: 7,
@@ -46744,9 +46744,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-narbonne-2026",
-    title: "Retraite à Narbonne en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Narbonne 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Narbonne en 2026 : T2 à 680 €, m² à 2 400 €, 2 900 h de soleil, 32,6 % de 60 ans et plus, CHU à Montpellier. Budget et limites.",
+    title: "Retraite à Narbonne en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Narbonne 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Narbonne en 2027 : T2 à 680 €, m² à 2 400 €, 2 900 h de soleil, 32,6 % de 60 ans et plus, CHU à Montpellier. Budget et limites.",
     category: "lifestyle",
     emoji: "🏛️",
     readMinutes: 7,
@@ -46789,9 +46789,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-nimes-2026",
-    title: "Retraite à Nîmes en 2026 : santé, logement, budget, le guide",
-    metaTitle: "Retraite à Nîmes 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Nîmes en 2026 : CHU sur place, T2 à 720 €, m² à 2 800 €, 27,4 % de 60 ans et plus, 2 700 h de soleil. Budget, santé, limites.",
+    title: "Retraite à Nîmes en 2027 : santé, logement, budget, le guide",
+    metaTitle: "Retraite à Nîmes 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Nîmes en 2027 : CHU sur place, T2 à 720 €, m² à 2 800 €, 27,4 % de 60 ans et plus, 2 700 h de soleil. Budget, santé, limites.",
     category: "lifestyle",
     emoji: "🏟️",
     readMinutes: 7,
@@ -46835,9 +46835,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-quimper-2026",
-    title: "Retraite à Quimper en 2026 : budget, santé, vie locale, le guide",
-    metaTitle: "Retraite à Quimper 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Quimper en 2026 : T2 à 700 €, m² à 2 800 €, 28,7 % de 60 ans et plus, CHU de Brest à 52 km, sécurité 6,1/10. Budget et limites.",
+    title: "Retraite à Quimper en 2027 : budget, santé, vie locale, le guide",
+    metaTitle: "Retraite à Quimper 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Quimper en 2027 : T2 à 700 €, m² à 2 800 €, 28,7 % de 60 ans et plus, CHU de Brest à 52 km, sécurité 6,1/10. Budget et limites.",
     category: "lifestyle",
     emoji: "🥞",
     readMinutes: 7,
@@ -46881,9 +46881,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-lorient-2026",
-    title: "Retraite à Lorient en 2026 : budget, santé, port, le guide",
-    metaTitle: "Retraite à Lorient 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Lorient en 2026 : T2 à 680 €, m² à 2 800 €, 28,9 % de 60 ans et plus, CHU de Brest à 110 km, 21 % de pauvreté. Budget et limites.",
+    title: "Retraite à Lorient en 2027 : budget, santé, port, le guide",
+    metaTitle: "Retraite à Lorient 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Lorient en 2027 : T2 à 680 €, m² à 2 800 €, 28,9 % de 60 ans et plus, CHU de Brest à 110 km, 21 % de pauvreté. Budget et limites.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 7,
@@ -46927,9 +46927,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-brieuc-2026",
-    title: "Retraite à Saint-Brieuc en 2026 : le budget le plus bas de Bretagne ?",
-    metaTitle: "Retraite à Saint-Brieuc 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Saint-Brieuc en 2026 : T2 à 580 €, m² à 1 800 €, 28,8 % de 60 ans et plus, CHU de Rennes à 92 km, 2 000 h de soleil. Budget, limites.",
+    title: "Retraite à Saint-Brieuc en 2027 : le budget le plus bas de Bretagne ?",
+    metaTitle: "Retraite à Saint-Brieuc 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Saint-Brieuc en 2027 : T2 à 580 €, m² à 1 800 €, 28,8 % de 60 ans et plus, CHU de Rennes à 92 km, 2 000 h de soleil. Budget, limites.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 7,
@@ -46973,9 +46973,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-menton-2026",
-    title: "Retraite à Menton en 2026 : le soleil, mais à quel prix ?",
-    metaTitle: "Retraite à Menton 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Menton en 2026 : 2 950 h de soleil, 12 °C en janvier, T2 à 1 050 €, m² à 5 200 €, 32,1 % de 60 ans et plus, CHU de Nice à 20 km.",
+    title: "Retraite à Menton en 2027 : le soleil, mais à quel prix ?",
+    metaTitle: "Retraite à Menton 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Menton en 2027 : 2 950 h de soleil, 12 °C en janvier, T2 à 1 050 €, m² à 5 200 €, 32,1 % de 60 ans et plus, CHU de Nice à 20 km.",
     category: "lifestyle",
     emoji: "🍋",
     readMinutes: 7,
@@ -47018,9 +47018,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-dax-2026",
-    title: "Retraite à Dax en 2026 : thermes, Landes et budget serré",
-    metaTitle: "Retraite à Dax 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Dax en 2026 : T2 à 580 €, m² à 2 200 €, 36,1 % de 60 ans et plus, ville thermale des Landes, CHU de Bordeaux à 127 km. Budget, limites.",
+    title: "Retraite à Dax en 2027 : thermes, Landes et budget serré",
+    metaTitle: "Retraite à Dax 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Dax en 2027 : T2 à 580 €, m² à 2 200 €, 36,1 % de 60 ans et plus, ville thermale des Landes, CHU de Bordeaux à 127 km. Budget, limites.",
     category: "lifestyle",
     emoji: "♨️",
     readMinutes: 7,
@@ -47063,9 +47063,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-bayonne-2026",
-    title: "Retraite à Bayonne en 2026 : Pays basque, budget et limites",
-    metaTitle: "Retraite à Bayonne 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Bayonne en 2026 : T2 à 900 €, m² à 4 500 €, 26,7 % de 60 ans et plus, accès aux soins 7,0/10, hôpital sur place. Budget et limites.",
+    title: "Retraite à Bayonne en 2027 : Pays basque, budget et limites",
+    metaTitle: "Retraite à Bayonne 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Bayonne en 2027 : T2 à 900 €, m² à 4 500 €, 26,7 % de 60 ans et plus, accès aux soins 7,0/10, hôpital sur place. Budget et limites.",
     category: "lifestyle",
     emoji: "🐟",
     readMinutes: 7,
@@ -47110,9 +47110,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-antibes-2026",
-    title: "Retraite à Antibes en 2026 : remparts, Picasso et prix azuréens",
-    metaTitle: "Retraite à Antibes 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Antibes en 2026 : T2 à 1 050 €, m² à 5 200 €, 33,8 % de 60 ans et plus, accès aux soins 7,2/10, CHU de Nice à 18 km. Budget et limites.",
+    title: "Retraite à Antibes en 2027 : remparts, Picasso et prix azuréens",
+    metaTitle: "Retraite à Antibes 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Antibes en 2027 : T2 à 1 050 €, m² à 5 200 €, 33,8 % de 60 ans et plus, accès aux soins 7,2/10, CHU de Nice à 18 km. Budget et limites.",
     category: "lifestyle",
     emoji: "⛵",
     readMinutes: 7,
@@ -47156,9 +47156,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-cannes-2026",
-    title: "Retraite à Cannes en 2026 : Croisette, soins et budget à tenir",
-    metaTitle: "Retraite à Cannes 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Cannes en 2026 : T2 à 1 250 €, m² à 6 500 €, 36,6 % de 60 ans et plus, 21 % de pauvreté, accès aux soins 7,2/10, hôpital sur place.",
+    title: "Retraite à Cannes en 2027 : Croisette, soins et budget à tenir",
+    metaTitle: "Retraite à Cannes 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Cannes en 2027 : T2 à 1 250 €, m² à 6 500 €, 36,6 % de 60 ans et plus, 21 % de pauvreté, accès aux soins 7,2/10, hôpital sur place.",
     category: "lifestyle",
     emoji: "🎬",
     readMinutes: 7,
@@ -47201,9 +47201,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-frejus-2026",
-    title: "Retraite à Fréjus en 2026 : antique, ensoleillée, 10 % plus peuplée",
-    metaTitle: "Retraite à Fréjus 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Fréjus en 2026 : T2 à 850 €, m² à 3 800 €, 36 % de 60 ans et plus, 2 900 h de soleil, accès aux soins 6,2/10, CHU de Nice à 52 km.",
+    title: "Retraite à Fréjus en 2027 : antique, ensoleillée, 10 % plus peuplée",
+    metaTitle: "Retraite à Fréjus 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Fréjus en 2027 : T2 à 850 €, m² à 3 800 €, 36 % de 60 ans et plus, 2 900 h de soleil, accès aux soins 6,2/10, CHU de Nice à 52 km.",
     category: "lifestyle",
     emoji: "🏛️",
     readMinutes: 7,
@@ -47246,9 +47246,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-aix-en-provence-2026",
-    title: "Retraite à Aix-en-Provence en 2026 : culture, prix et ville jeune",
-    metaTitle: "Retraite à Aix-en-Provence 2026 : budget, limites",
-    metaDesc: "Retraite à Aix-en-Provence en 2026 : T2 à 1 050 €, m² à 5 000 €, 24,9 % de 60 ans et plus, culture 8,4/10, accès aux soins 7,2/10. Budget et limites.",
+    title: "Retraite à Aix-en-Provence en 2027 : culture, prix et ville jeune",
+    metaTitle: "Retraite à Aix-en-Provence 2027 : budget, limites",
+    metaDesc: "Retraite à Aix-en-Provence en 2027 : T2 à 1 050 €, m² à 5 000 €, 24,9 % de 60 ans et plus, culture 8,4/10, accès aux soins 7,2/10. Budget et limites.",
     category: "lifestyle",
     emoji: "🌳",
     readMinutes: 7,
@@ -47292,9 +47292,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-avignon-2026",
-    title: "Retraite à Avignon en 2026 : papes, festival et budget serré",
-    metaTitle: "Retraite à Avignon 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Avignon en 2026 : T2 à 750 €, m² à 3 000 €, culture 9,0/10, 33 % de pauvreté, accès aux soins 6,4/10, CHU de Nîmes à 38 km. Budget et limites.",
+    title: "Retraite à Avignon en 2027 : papes, festival et budget serré",
+    metaTitle: "Retraite à Avignon 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Avignon en 2027 : T2 à 750 €, m² à 3 000 €, culture 9,0/10, 33 % de pauvreté, accès aux soins 6,4/10, CHU de Nîmes à 38 km. Budget et limites.",
     category: "lifestyle",
     emoji: "🌉",
     readMinutes: 7,
@@ -47338,9 +47338,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-beziers-2026",
-    title: "Retraite à Béziers en 2026 : la moins chère du lot, avec ses réserves",
-    metaTitle: "Retraite à Béziers 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Béziers en 2026 : T2 à 530 €, m² à 1 500 €, 29,6 % de 60 ans et plus, accès aux soins 6,1/10, CHU de Montpellier à 61 km. Budget et limites.",
+    title: "Retraite à Béziers en 2027 : la moins chère du lot, avec ses réserves",
+    metaTitle: "Retraite à Béziers 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Béziers en 2027 : T2 à 530 €, m² à 1 500 €, 29,6 % de 60 ans et plus, accès aux soins 6,1/10, CHU de Montpellier à 61 km. Budget et limites.",
     category: "lifestyle",
     emoji: "🚢",
     readMinutes: 7,
@@ -47384,9 +47384,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-reims-2026",
-    title: "Retraite à Reims en 2026 : un CHU en ville, des loyers modérés, une population qui baisse",
-    metaTitle: "Retraite à Reims 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Reims en 2026 : T2 à 680 €, m² à 2 300 €, 21,9 % de 60 ans et plus, accès aux soins 7,9/10, CHU dans la ville. Budget mensuel et limites.",
+    title: "Retraite à Reims en 2027 : un CHU en ville, des loyers modérés, une population qui baisse",
+    metaTitle: "Retraite à Reims 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Reims en 2027 : T2 à 680 €, m² à 2 300 €, 21,9 % de 60 ans et plus, accès aux soins 7,9/10, CHU dans la ville. Budget mensuel et limites.",
     category: "lifestyle",
     emoji: "🥂",
     readMinutes: 7,
@@ -47430,9 +47430,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-etienne-2026",
-    title: "Retraite à Saint-Étienne en 2026 : la grande ville la moins chère, relief compris",
-    metaTitle: "Retraite à Saint-Étienne 2026 : budget, santé, relief",
-    metaDesc: "Retraite à Saint-Étienne en 2026 : T2 à 580 €, m² à 1 500 €, 25,7 % de 60 ans et plus, accès aux soins 7,2/10, CHU en ville. Budget, relief et limites.",
+    title: "Retraite à Saint-Étienne en 2027 : la grande ville la moins chère, relief compris",
+    metaTitle: "Retraite à Saint-Étienne 2027 : budget, santé, relief",
+    metaDesc: "Retraite à Saint-Étienne en 2027 : T2 à 580 €, m² à 1 500 €, 25,7 % de 60 ans et plus, accès aux soins 7,2/10, CHU en ville. Budget, relief et limites.",
     category: "lifestyle",
     emoji: "🚋",
     readMinutes: 7,
@@ -47476,9 +47476,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-dijon-2026",
-    title: "Retraite à Dijon en 2026 : la ville qui grossit, à un budget serré",
-    metaTitle: "Retraite à Dijon 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Dijon en 2026 : T2 à 720 €, m² à 2 600 €, 22,9 % de 60 ans et plus, accès aux soins 7,6/10, CHU dans la ville. Budget mensuel et limites.",
+    title: "Retraite à Dijon en 2027 : la ville qui grossit, à un budget serré",
+    metaTitle: "Retraite à Dijon 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Dijon en 2027 : T2 à 720 €, m² à 2 600 €, 22,9 % de 60 ans et plus, accès aux soins 7,6/10, CHU dans la ville. Budget mensuel et limites.",
     category: "lifestyle",
     emoji: "🍇",
     readMinutes: 7,
@@ -47522,9 +47522,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-grenoble-2026",
-    title: "Retraite à Grenoble en 2026 : nature et soins au rendez-vous, budget tendu",
-    metaTitle: "Retraite à Grenoble 2026 : budget, santé, limites",
-    metaDesc: "Retraite à Grenoble en 2026 : T2 à 750 €, m² à 3 200 €, 19,6 % de 60 ans et plus, accès aux soins 7,5/10, nature 8,4/10. Budget et limites.",
+    title: "Retraite à Grenoble en 2027 : nature et soins au rendez-vous, budget tendu",
+    metaTitle: "Retraite à Grenoble 2027 : budget, santé, limites",
+    metaDesc: "Retraite à Grenoble en 2027 : T2 à 750 €, m² à 3 200 €, 19,6 % de 60 ans et plus, accès aux soins 7,5/10, nature 8,4/10. Budget et limites.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 7,
@@ -47568,9 +47568,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-clermont-ferrand-2026",
-    title: "Retraite à Clermont-Ferrand en 2026 : volcans à l'horizon, CHU à portée",
-    metaTitle: "Retraite à Clermont-Ferrand 2026 : budget, santé",
-    metaDesc: "Retraite à Clermont-Ferrand en 2026 : T2 à 680 €, m² à 2 400 €, 21 % de 60 ans et plus, accès aux soins 7,5/10, nature 7,2/10. Budget et limites.",
+    title: "Retraite à Clermont-Ferrand en 2027 : volcans à l'horizon, CHU à portée",
+    metaTitle: "Retraite à Clermont-Ferrand 2027 : budget, santé",
+    metaDesc: "Retraite à Clermont-Ferrand en 2027 : T2 à 680 €, m² à 2 400 €, 21 % de 60 ans et plus, accès aux soins 7,5/10, nature 7,2/10. Budget et limites.",
     category: "lifestyle",
     emoji: "🌋",
     readMinutes: 7,
@@ -47614,9 +47614,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-brest-2026",
-    title: "Retraite à Brest en 2026 : le meilleur score retraite du lot, avec la pluie",
-    metaTitle: "Retraite à Brest 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Brest en 2026 : T2 à 650 €, m² à 2 500 €, 22,5 % de 60 ans et plus, accès aux soins 7,9/10, janvier à 6,2 °C. Budget et limites.",
+    title: "Retraite à Brest en 2027 : le meilleur score retraite du lot, avec la pluie",
+    metaTitle: "Retraite à Brest 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Brest en 2027 : T2 à 650 €, m² à 2 500 €, 22,5 % de 60 ans et plus, accès aux soins 7,9/10, janvier à 6,2 °C. Budget et limites.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 7,
@@ -47660,9 +47660,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-limoges-2026",
-    title: "Retraite à Limoges en 2026 : T2 à 600 €, soins faciles, mais une ville qui se vide",
-    metaTitle: "Retraite à Limoges 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Limoges en 2026 : T2 à 600 €, m² à 1 600 €, accès aux soins 7,9/10, 3 services d'urgences. Budget réel et limites d'une ville qui perd des habitants.",
+    title: "Retraite à Limoges en 2027 : T2 à 600 €, soins faciles, mais une ville qui se vide",
+    metaTitle: "Retraite à Limoges 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Limoges en 2027 : T2 à 600 €, m² à 1 600 €, accès aux soins 7,9/10, 3 services d'urgences. Budget réel et limites d'une ville qui perd des habitants.",
     category: "lifestyle",
     emoji: "🏺",
     readMinutes: 7,
@@ -47706,9 +47706,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-tours-2026",
-    title: "Retraite à Tours en 2026 : la Loire à vélo, un CHU, et 700 € le T2",
-    metaTitle: "Retraite à Tours 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Tours en 2026 : T2 à 700 €, m² à 2 700 €, accès aux soins 7,9/10, 23,5 % de 60 ans et plus, 1 880 h de soleil. Budget et limites.",
+    title: "Retraite à Tours en 2027 : la Loire à vélo, un CHU, et 700 € le T2",
+    metaTitle: "Retraite à Tours 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Tours en 2027 : T2 à 700 €, m² à 2 700 €, accès aux soins 7,9/10, 23,5 % de 60 ans et plus, 1 880 h de soleil. Budget et limites.",
     category: "lifestyle",
     emoji: "🏰",
     readMinutes: 7,
@@ -47752,9 +47752,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-amiens-2026",
-    title: "Retraite à Amiens en 2026 : le meilleur accès aux soins du lot, le ciel le plus gris",
-    metaTitle: "Retraite à Amiens 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Amiens en 2026 : T2 à 680 €, m² à 2 200 €, accès aux soins 8,1/10, 1 570 h de soleil, janvier à 3,2 °C. Budget et limites.",
+    title: "Retraite à Amiens en 2027 : le meilleur accès aux soins du lot, le ciel le plus gris",
+    metaTitle: "Retraite à Amiens 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Amiens en 2027 : T2 à 680 €, m² à 2 200 €, accès aux soins 8,1/10, 1 570 h de soleil, janvier à 3,2 °C. Budget et limites.",
     category: "lifestyle",
     emoji: "⛪",
     readMinutes: 7,
@@ -47798,9 +47798,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-metz-2026",
-    title: "Retraite à Metz en 2026 : une ville qui gagne des habitants, mais le CHU est à Nancy",
-    metaTitle: "Retraite à Metz 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Metz en 2026 : T2 à 680 €, m² à 2 300 €, accès aux soins 7,2/10, +3,2 % d'habitants depuis 2016, janvier à 2,7 °C. Budget et limites.",
+    title: "Retraite à Metz en 2027 : une ville qui gagne des habitants, mais le CHU est à Nancy",
+    metaTitle: "Retraite à Metz 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Metz en 2027 : T2 à 680 €, m² à 2 300 €, accès aux soins 7,2/10, +3,2 % d'habitants depuis 2016, janvier à 2,7 °C. Budget et limites.",
     category: "lifestyle",
     emoji: "🎨",
     readMinutes: 7,
@@ -47844,9 +47844,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-besancon-2026",
-    title: "Retraite à Besançon en 2026 : 6,3/10, le meilleur score du lot, avec un hiver à 2,1 °C",
-    metaTitle: "Retraite à Besançon 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Besançon en 2026 : T2 à 680 €, m² à 2 300 €, accès aux soins 7,9/10, +3,1 % d'habitants, janvier à 2,1 °C. Budget et limites.",
+    title: "Retraite à Besançon en 2027 : 6,3/10, le meilleur score du lot, avec un hiver à 2,1 °C",
+    metaTitle: "Retraite à Besançon 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Besançon en 2027 : T2 à 680 €, m² à 2 300 €, accès aux soins 7,9/10, +3,1 % d'habitants, janvier à 2,1 °C. Budget et limites.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 7,
@@ -47890,9 +47890,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-au-havre-2026",
-    title: "Retraite au Havre en 2026 : 650 € le T2 et la mer, mais le CHU est à Caen",
-    metaTitle: "Retraite au Havre 2026 : budget, santé, climat",
-    metaDesc: "Retraite au Havre en 2026 : T2 à 650 €, m² à 2 000 €, accès aux soins 6,4/10, 26,6 % de 60 ans et plus, 1 590 h de soleil. Budget et limites.",
+    title: "Retraite au Havre en 2027 : 650 € le T2 et la mer, mais le CHU est à Caen",
+    metaTitle: "Retraite au Havre 2027 : budget, santé, climat",
+    metaDesc: "Retraite au Havre en 2027 : T2 à 650 €, m² à 2 000 €, accès aux soins 6,4/10, 26,6 % de 60 ans et plus, 1 590 h de soleil. Budget et limites.",
     category: "lifestyle",
     emoji: "🚢",
     readMinutes: 7,
@@ -47936,9 +47936,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-albi-2026",
-    title: "Retraite à Albi en 2026 : T2 à 620 €, cité épiscopale et Toulouse à 67 km",
-    metaTitle: "Retraite à Albi 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Albi en 2026 : T2 à 620 €, m² à 2 200 €, score retraite 7,5/10, accès aux soins 6,6/10. Budget réel, médecins, CHU de Toulouse à 67 km.",
+    title: "Retraite à Albi en 2027 : T2 à 620 €, cité épiscopale et Toulouse à 67 km",
+    metaTitle: "Retraite à Albi 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Albi en 2027 : T2 à 620 €, m² à 2 200 €, score retraite 7,5/10, accès aux soins 6,6/10. Budget réel, médecins, CHU de Toulouse à 67 km.",
     category: "lifestyle",
     emoji: "🧱",
     readMinutes: 7,
@@ -47982,9 +47982,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-carcassonne-2026",
-    title: "Retraite à Carcassonne en 2026 : T2 à 530 €, soleil, mais 28 % de pauvreté",
-    metaTitle: "Retraite à Carcassonne 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Carcassonne en 2026 : T2 à 530 €, m² à 1 500 €, 2 500 h de soleil, accès aux soins 6,1/10. Budget réel et limites : CHU à Toulouse, 85 km.",
+    title: "Retraite à Carcassonne en 2027 : T2 à 530 €, soleil, mais 28 % de pauvreté",
+    metaTitle: "Retraite à Carcassonne 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Carcassonne en 2027 : T2 à 530 €, m² à 1 500 €, 2 500 h de soleil, accès aux soins 6,1/10. Budget réel et limites : CHU à Toulouse, 85 km.",
     category: "lifestyle",
     emoji: "🏰",
     readMinutes: 7,
@@ -48028,9 +48028,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-raphael-2026",
-    title: "Retraite à Saint-Raphaël en 2026 : près d'un habitant sur deux a 60 ans ou plus",
-    metaTitle: "Retraite à Saint-Raphaël 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Saint-Raphaël en 2026 : T2 à 970 €, m² à 4 500 €, 48,5 % d'habitants de 60 ans et plus, urgences à Fréjus, 5 km. Budget réel et limites.",
+    title: "Retraite à Saint-Raphaël en 2027 : près d'un habitant sur deux a 60 ans ou plus",
+    metaTitle: "Retraite à Saint-Raphaël 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Saint-Raphaël en 2027 : T2 à 970 €, m² à 4 500 €, 48,5 % d'habitants de 60 ans et plus, urgences à Fréjus, 5 km. Budget réel et limites.",
     category: "lifestyle",
     emoji: "🌊",
     readMinutes: 7,
@@ -48074,9 +48074,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-cagnes-sur-mer-2026",
-    title: "Retraite à Cagnes-sur-Mer en 2026 : généralistes faciles, Nice à 10 km, T2 à 920 €",
-    metaTitle: "Retraite à Cagnes-sur-Mer 2026 : budget, santé",
-    metaDesc: "Retraite à Cagnes-sur-Mer en 2026 : T2 à 920 €, m² à 3 800 €, accès aux généralistes 5,11, CHU de Nice à 10 km. Budget réel et comparaison avec Antibes.",
+    title: "Retraite à Cagnes-sur-Mer en 2027 : généralistes faciles, Nice à 10 km, T2 à 920 €",
+    metaTitle: "Retraite à Cagnes-sur-Mer 2027 : budget, santé",
+    metaDesc: "Retraite à Cagnes-sur-Mer en 2027 : T2 à 920 €, m² à 3 800 €, accès aux généralistes 5,11, CHU de Nice à 10 km. Budget réel et comparaison avec Antibes.",
     category: "lifestyle",
     emoji: "🖼️",
     readMinutes: 7,
@@ -48120,9 +48120,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-poitiers-2026",
-    title: "Retraite à Poitiers en 2026 : CHU sur place, T2 à 660 €, mais une ville d'étudiants",
-    metaTitle: "Retraite à Poitiers 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Poitiers en 2026 : T2 à 660 €, m² à 2 100 €, accès aux soins 7,8/10, CHU et 101 généralistes. Budget réel et limites d'une ville jeune.",
+    title: "Retraite à Poitiers en 2027 : CHU sur place, T2 à 660 €, mais une ville d'étudiants",
+    metaTitle: "Retraite à Poitiers 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Poitiers en 2027 : T2 à 660 €, m² à 2 100 €, accès aux soins 7,8/10, CHU et 101 généralistes. Budget réel et limites d'une ville jeune.",
     category: "lifestyle",
     emoji: "⛪",
     readMinutes: 7,
@@ -48166,9 +48166,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-valence-2026",
-    title: "Retraite à Valence en 2026 : T2 à 680 €, Rhône et Vercors, CHU à 68 km",
-    metaTitle: "Retraite à Valence 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Valence (Drôme) en 2026 : T2 à 680 €, m² à 2 400 €, 2 310 h de soleil, accès aux soins 6,1/10. Budget réel, soins, comparaison avec Montélimar.",
+    title: "Retraite à Valence en 2027 : T2 à 680 €, Rhône et Vercors, CHU à 68 km",
+    metaTitle: "Retraite à Valence 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Valence (Drôme) en 2027 : T2 à 680 €, m² à 2 400 €, 2 310 h de soleil, accès aux soins 6,1/10. Budget réel, soins, comparaison avec Montélimar.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 7,
@@ -48212,9 +48212,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-saint-nazaire-2026",
-    title: "Retraite à Saint-Nazaire en 2026 : T2 à 640 €, océan, Nantes à 50 km",
-    metaTitle: "Retraite à Saint-Nazaire 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Saint-Nazaire en 2026 : T2 à 640 €, m² à 2 200 €, +4,9 % d'habitants, 89 généralistes, CHU de Nantes à 50 km. Budget réel et comparaison.",
+    title: "Retraite à Saint-Nazaire en 2027 : T2 à 640 €, océan, Nantes à 50 km",
+    metaTitle: "Retraite à Saint-Nazaire 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Saint-Nazaire en 2027 : T2 à 640 €, m² à 2 200 €, +4,9 % d'habitants, 89 généralistes, CHU de Nantes à 50 km. Budget réel et comparaison.",
     category: "lifestyle",
     emoji: "⚓",
     readMinutes: 7,
@@ -48258,9 +48258,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-caen-2026",
-    title: "Retraite à Caen en 2026 : CHU sur place, T2 à 700 € et la mer à 15 km",
-    metaTitle: "Retraite à Caen 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Caen en 2026 : T2 à 700 €, m² à 2 500 €, accès aux soins 8,1/10, CHU sur place, +2,8 % d'habitants, janvier à 5,6 °C. Budget et limites.",
+    title: "Retraite à Caen en 2027 : CHU sur place, T2 à 700 € et la mer à 15 km",
+    metaTitle: "Retraite à Caen 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Caen en 2027 : T2 à 700 €, m² à 2 500 €, accès aux soins 8,1/10, CHU sur place, +2,8 % d'habitants, janvier à 5,6 °C. Budget et limites.",
     category: "lifestyle",
     emoji: "🏰",
     readMinutes: 7,
@@ -48304,9 +48304,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-rennes-2026",
-    title: "Retraite à Rennes en 2026 : 6,3/10 et un CHU, mais 1 510 € par mois pour une personne seule",
-    metaTitle: "Retraite à Rennes 2026 : budget, santé, métro",
-    metaDesc: "Retraite à Rennes en 2026 : T2 à 820 €, m² à 3 800 €, accès aux soins 7,6/10, +5,3 % d'habitants, seulement 18,6 % de 60 ans et plus. Budget et limites.",
+    title: "Retraite à Rennes en 2027 : 6,3/10 et un CHU, mais 1 510 € par mois pour une personne seule",
+    metaTitle: "Retraite à Rennes 2027 : budget, santé, métro",
+    metaDesc: "Retraite à Rennes en 2027 : T2 à 820 €, m² à 3 800 €, accès aux soins 7,6/10, +5,3 % d'habitants, seulement 18,6 % de 60 ans et plus. Budget et limites.",
     category: "lifestyle",
     emoji: "🥞",
     readMinutes: 7,
@@ -48350,9 +48350,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-strasbourg-2026",
-    title: "Retraite à Strasbourg en 2026 : le meilleur accès aux généralistes du lot, un budget de 1 490 €",
-    metaTitle: "Retraite à Strasbourg 2026 : budget, santé, tram",
-    metaDesc: "Retraite à Strasbourg en 2026 : T2 à 800 €, m² à 3 800 €, 463 généralistes, accès aux soins 8,0/10, +4,4 % d'habitants, janvier à 2,5 °C. Budget et limites.",
+    title: "Retraite à Strasbourg en 2027 : le meilleur accès aux généralistes du lot, un budget de 1 490 €",
+    metaTitle: "Retraite à Strasbourg 2027 : budget, santé, tram",
+    metaDesc: "Retraite à Strasbourg en 2027 : T2 à 800 €, m² à 3 800 €, 463 généralistes, accès aux soins 8,0/10, +4,4 % d'habitants, janvier à 2,5 °C. Budget et limites.",
     category: "lifestyle",
     emoji: "🥨",
     readMinutes: 7,
@@ -48396,9 +48396,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-rouen-2026",
-    title: "Retraite à Rouen en 2026 : +5,6 % d'habitants, accès aux soins 8,0/10, mais un score de 5,4",
-    metaTitle: "Retraite à Rouen 2026 : budget, santé, avis",
-    metaDesc: "Retraite à Rouen en 2026 : T2 à 720 €, m² à 2 600 €, accès aux soins 8,0/10, +5,6 % d'habitants, sécurité 4,7/10. Budget et limites avant de choisir.",
+    title: "Retraite à Rouen en 2027 : +5,6 % d'habitants, accès aux soins 8,0/10, mais un score de 5,4",
+    metaTitle: "Retraite à Rouen 2027 : budget, santé, avis",
+    metaDesc: "Retraite à Rouen en 2027 : T2 à 720 €, m² à 2 600 €, accès aux soins 8,0/10, +5,6 % d'habitants, sécurité 4,7/10. Budget et limites avant de choisir.",
     category: "lifestyle",
     emoji: "⛪",
     readMinutes: 7,
@@ -48442,9 +48442,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-nancy-2026",
-    title: "Retraite à Nancy en 2026 : T2 à 710 €, CHU sur place, une ville qui ne grandit plus",
-    metaTitle: "Retraite à Nancy 2026 : budget, santé, patrimoine",
-    metaDesc: "Retraite à Nancy en 2026 : T2 à 710 €, m² à 2 400 €, accès aux soins 8,0/10, CHU sur place, population stable (-0,2 %). Budget et comparaison avec Metz.",
+    title: "Retraite à Nancy en 2027 : T2 à 710 €, CHU sur place, une ville qui ne grandit plus",
+    metaTitle: "Retraite à Nancy 2027 : budget, santé, patrimoine",
+    metaDesc: "Retraite à Nancy en 2027 : T2 à 710 €, m² à 2 400 €, accès aux soins 8,0/10, CHU sur place, population stable (-0,2 %). Budget et comparaison avec Metz.",
     category: "lifestyle",
     emoji: "🏛️",
     readMinutes: 7,
@@ -48488,9 +48488,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-cherbourg-2026",
-    title: "Retraite à Cherbourg-en-Cotentin en 2026 : T2 à 620 €, mais le CHU est à Caen, à 104 km",
-    metaTitle: "Retraite à Cherbourg 2026 : budget, santé, climat",
-    metaDesc: "Retraite à Cherbourg en 2026 : T2 à 620 €, m² à 1 900 €, 28,3 % de 60 ans et plus, accès aux soins 5,9/10, CHU de Caen à 104 km. Budget et limites.",
+    title: "Retraite à Cherbourg-en-Cotentin en 2027 : T2 à 620 €, mais le CHU est à Caen, à 104 km",
+    metaTitle: "Retraite à Cherbourg 2027 : budget, santé, climat",
+    metaDesc: "Retraite à Cherbourg en 2027 : T2 à 620 €, m² à 1 900 €, 28,3 % de 60 ans et plus, accès aux soins 5,9/10, CHU de Caen à 104 km. Budget et limites.",
     category: "lifestyle",
     emoji: "🚢",
     readMinutes: 7,
@@ -48534,9 +48534,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-orleans-2026",
-    title: "Retraite à Orléans en 2026 : un CHU sur place, un T2 à 700 € et un budget de 1 390 €",
-    metaTitle: "Retraite à Orléans 2026 : budget, santé, tram",
-    metaDesc: "Retraite à Orléans en 2026 : T2 à 700 €, m² à 2 400 €, CHU dans la commune, 21,1 % de 60 ans et plus, tram A jusqu'à l'hôpital. Budget et limites.",
+    title: "Retraite à Orléans en 2027 : un CHU sur place, un T2 à 700 € et un budget de 1 390 €",
+    metaTitle: "Retraite à Orléans 2027 : budget, santé, tram",
+    metaDesc: "Retraite à Orléans en 2027 : T2 à 700 €, m² à 2 400 €, CHU dans la commune, 21,1 % de 60 ans et plus, tram A jusqu'à l'hôpital. Budget et limites.",
     category: "lifestyle",
     emoji: "⚜️",
     readMinutes: 7,
@@ -48580,9 +48580,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-dunkerque-2026",
-    title: "Retraite à Dunkerque en 2026 : le T2 le moins cher du lot à 560 €, mais le CHU est à 66 km",
-    metaTitle: "Retraite à Dunkerque 2026 : budget, santé, mer",
-    metaDesc: "Retraite à Dunkerque en 2026 : T2 à 560 €, m² à 1 800 €, 28,7 % de 60 ans et plus, accès aux soins 6,1/10, CHU de Lille à 66 km. Budget et limites.",
+    title: "Retraite à Dunkerque en 2027 : le T2 le moins cher du lot à 560 €, mais le CHU est à 66 km",
+    metaTitle: "Retraite à Dunkerque 2027 : budget, santé, mer",
+    metaDesc: "Retraite à Dunkerque en 2027 : T2 à 560 €, m² à 1 800 €, 28,7 % de 60 ans et plus, accès aux soins 6,1/10, CHU de Lille à 66 km. Budget et limites.",
     category: "lifestyle",
     emoji: "🌬️",
     readMinutes: 7,
@@ -48626,9 +48626,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-nantes-2026",
-    title: "Retraite à Nantes en 2026 : un CHU et un tram, mais 1 540 € par mois pour une personne seule",
-    metaTitle: "Retraite à Nantes 2026 : budget, santé, transports",
-    metaDesc: "Retraite à Nantes en 2026 : T2 à 850 €, m² à 4 200 €, 384 généralistes, accès aux soins 7,6/10, 18,5 % de 60 ans et plus. Budget et limites.",
+    title: "Retraite à Nantes en 2027 : un CHU et un tram, mais 1 540 € par mois pour une personne seule",
+    metaTitle: "Retraite à Nantes 2027 : budget, santé, transports",
+    metaDesc: "Retraite à Nantes en 2027 : T2 à 850 €, m² à 4 200 €, 384 généralistes, accès aux soins 7,6/10, 18,5 % de 60 ans et plus. Budget et limites.",
     category: "lifestyle",
     emoji: "🐘",
     readMinutes: 7,
@@ -48672,9 +48672,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-lyon-2026",
-    title: "Retraite à Lyon en 2026 : 709 généralistes et 5 urgences, mais 1 690 € par mois pour une personne seule",
-    metaTitle: "Retraite à Lyon 2026 : budget, santé, métro",
-    metaDesc: "Retraite à Lyon en 2026 : T2 à 1 000 €, m² à 5 000 €, 709 généralistes, accès aux soins 7,7/10, 19,0 % de 60 ans et plus. Budget et limites.",
+    title: "Retraite à Lyon en 2027 : 709 généralistes et 5 urgences, mais 1 690 € par mois pour une personne seule",
+    metaTitle: "Retraite à Lyon 2027 : budget, santé, métro",
+    metaDesc: "Retraite à Lyon en 2027 : T2 à 1 000 €, m² à 5 000 €, 709 généralistes, accès aux soins 7,7/10, 19,0 % de 60 ans et plus. Budget et limites.",
     category: "lifestyle",
     emoji: "🦁",
     readMinutes: 7,
@@ -48718,9 +48718,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-toulouse-2026",
-    title: "Retraite à Toulouse en 2026 : 2 075 heures de soleil et le métro, mais un T2 à 850 €",
-    metaTitle: "Retraite à Toulouse 2026 : budget, santé, soleil",
-    metaDesc: "Retraite à Toulouse en 2026 : T2 à 850 €, m² à 4 000 €, accès aux soins 7,6/10, 559 généralistes, +7,6 % d'habitants, 2 075 h de soleil. Budget.",
+    title: "Retraite à Toulouse en 2027 : 2 075 heures de soleil et le métro, mais un T2 à 850 €",
+    metaTitle: "Retraite à Toulouse 2027 : budget, santé, soleil",
+    metaDesc: "Retraite à Toulouse en 2027 : T2 à 850 €, m² à 4 000 €, accès aux soins 7,6/10, 559 généralistes, +7,6 % d'habitants, 2 075 h de soleil. Budget.",
     category: "lifestyle",
     emoji: "🧱",
     readMinutes: 7,
@@ -48764,9 +48764,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "retraite-a-lille-2026",
-    title: "Retraite à Lille en 2026 : le meilleur accès aux généralistes du lot, mais seulement 14,6 % de 60 ans et plus",
-    metaTitle: "Retraite à Lille 2026 : budget, santé, métro",
-    metaDesc: "Retraite à Lille en 2026 : T2 à 800 €, m² à 3 500 €, accès aux soins 8,1/10, 309 généralistes, 14,6 % de 60 ans et plus. Budget et limites.",
+    title: "Retraite à Lille en 2027 : le meilleur accès aux généralistes du lot, mais seulement 14,6 % de 60 ans et plus",
+    metaTitle: "Retraite à Lille 2027 : budget, santé, métro",
+    metaDesc: "Retraite à Lille en 2027 : T2 à 800 €, m² à 3 500 €, accès aux soins 8,1/10, 309 généralistes, 14,6 % de 60 ans et plus. Budget et limites.",
     category: "lifestyle",
     emoji: "🧇",
     readMinutes: 7,
@@ -48810,9 +48810,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-paris-2026",
-    title: "Déménager à Paris en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Paris 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Paris en 2026 : trouver un logement en zone très tendue, encadrement des loyers, monte-meubles et stationnement, budget d'installation réel. Le guide pratique complet.",
+    title: "Déménager à Paris en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Paris 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Paris en 2027 : trouver un logement en zone très tendue, encadrement des loyers, monte-meubles et stationnement, budget d'installation réel. Le guide pratique complet.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -48856,9 +48856,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-lyon-2026",
-    title: "Déménager à Lyon en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Lyon 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Lyon en 2026 : encadrement des loyers, quartiers d'atterrissage, pentes de la Croix-Rousse et ZFE, budget d'installation complet. Le guide pratique sans détour.",
+    title: "Déménager à Lyon en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Lyon 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Lyon en 2027 : encadrement des loyers, quartiers d'atterrissage, pentes de la Croix-Rousse et ZFE, budget d'installation complet. Le guide pratique sans détour.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -48902,9 +48902,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-marseille-2026",
-    title: "Déménager à Marseille en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Marseille 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Marseille en 2026 : pourquoi il faut visiter avant de signer, les quartiers d'atterrissage fiables, le stationnement, le budget d'installation. Le guide pratique honnête.",
+    title: "Déménager à Marseille en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Marseille 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Marseille en 2027 : pourquoi il faut visiter avant de signer, les quartiers d'atterrissage fiables, le stationnement, le budget d'installation. Le guide pratique honnête.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -48948,9 +48948,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-toulouse-2026",
-    title: "Déménager à Toulouse en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Toulouse 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Toulouse en 2026 : éviter le rush de la rentrée, choisir son quartier d'atterrissage, gérer le jour J et le budget d'installation. Le guide pratique de la ville rose.",
+    title: "Déménager à Toulouse en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Toulouse 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Toulouse en 2027 : éviter le rush de la rentrée, choisir son quartier d'atterrissage, gérer le jour J et le budget d'installation. Le guide pratique de la ville rose.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -48994,9 +48994,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-nice-2026",
-    title: "Déménager à Nice en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Nice 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Nice en 2026 : trouver un bail à l'année face au meublé touristique, quartiers d'atterrissage, collines et stationnement, budget d'installation. Le guide pratique honnête.",
+    title: "Déménager à Nice en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Nice 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Nice en 2027 : trouver un bail à l'année face au meublé touristique, quartiers d'atterrissage, collines et stationnement, budget d'installation. Le guide pratique honnête.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49040,9 +49040,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-nantes-2026",
-    title: "Déménager à Nantes en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Nantes 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Nantes en 2026 : un marché locatif très demandé, les quartiers d'atterrissage fiables, le jour J sans stress et le budget d'installation complet. Le guide pratique.",
+    title: "Déménager à Nantes en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Nantes 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Nantes en 2027 : un marché locatif très demandé, les quartiers d'atterrissage fiables, le jour J sans stress et le budget d'installation complet. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49086,9 +49086,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-montpellier-2026",
-    title: "Déménager à Montpellier en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Montpellier 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Montpellier en 2026 : encadrement des loyers, rush étudiant à éviter, Écusson piéton le jour J, budget d'installation complet. Le guide pratique et honnête.",
+    title: "Déménager à Montpellier en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Montpellier 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Montpellier en 2027 : encadrement des loyers, rush étudiant à éviter, Écusson piéton le jour J, budget d'installation complet. Le guide pratique et honnête.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49132,9 +49132,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-strasbourg-2026",
-    title: "Déménager à Strasbourg en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Strasbourg 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Strasbourg en 2026 : marché locatif, quartiers d'atterrissage, Grande Île piétonne le jour J, droit local alsacien et budget d'installation. Le guide pratique complet.",
+    title: "Déménager à Strasbourg en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Strasbourg 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Strasbourg en 2027 : marché locatif, quartiers d'atterrissage, Grande Île piétonne le jour J, droit local alsacien et budget d'installation. Le guide pratique complet.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49178,9 +49178,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-bordeaux-2026",
-    title: "Déménager à Bordeaux en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Bordeaux 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Bordeaux en 2026 : encadrement des loyers, échoppes et rues étroites le jour J, quartiers d'atterrissage, budget d'installation complet. Le guide pratique sans détour.",
+    title: "Déménager à Bordeaux en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Bordeaux 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Bordeaux en 2027 : encadrement des loyers, échoppes et rues étroites le jour J, quartiers d'atterrissage, budget d'installation complet. Le guide pratique sans détour.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49224,9 +49224,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-lille-2026",
-    title: "Déménager à Lille en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Lille 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Lille en 2026 : encadrement des loyers, maisons 1930 et escaliers raides, quartiers d'atterrissage, budget d'installation. Le guide pratique de la capitale des Flandres.",
+    title: "Déménager à Lille en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Lille 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Lille en 2027 : encadrement des loyers, maisons 1930 et escaliers raides, quartiers d'atterrissage, budget d'installation. Le guide pratique de la capitale des Flandres.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49270,9 +49270,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-rennes-2026",
-    title: "Déménager à Rennes en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Rennes 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Rennes en 2026 : marché locatif rapide, quartiers d'atterrissage, jour J en centre médiéval, budget d'installation. Le guide pratique de la capitale bretonne.",
+    title: "Déménager à Rennes en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Rennes 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Rennes en 2027 : marché locatif rapide, quartiers d'atterrissage, jour J en centre médiéval, budget d'installation. Le guide pratique de la capitale bretonne.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49316,9 +49316,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-grenoble-2026",
-    title: "Déménager à Grenoble en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Grenoble 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Grenoble en 2026 : marché locatif étudiant, quartiers à privilégier, ZFE et vieux centre, budget d'installation complet. Le guide pratique de la capitale des Alpes.",
+    title: "Déménager à Grenoble en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Grenoble 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Grenoble en 2027 : marché locatif étudiant, quartiers à privilégier, ZFE et vieux centre, budget d'installation complet. Le guide pratique de la capitale des Alpes.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49362,9 +49362,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-rouen-2026",
-    title: "Déménager à Rouen en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Rouen 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Rouen en 2026 : marché locatif détendu, choisir entre rive droite et rive gauche, TEOR et jour J, budget d'installation complet. Le guide pratique.",
+    title: "Déménager à Rouen en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Rouen 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Rouen en 2027 : marché locatif détendu, choisir entre rive droite et rive gauche, TEOR et jour J, budget d'installation complet. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49408,9 +49408,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-angers-2026",
-    title: "Déménager à Angers en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Angers 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Angers en 2026 : marché locatif ordonné, quartiers d'atterrissage, tram et centre médiéval, budget d'installation. Le guide pratique de la ville régulièrement classée.",
+    title: "Déménager à Angers en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Angers 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Angers en 2027 : marché locatif ordonné, quartiers d'atterrissage, tram et centre médiéval, budget d'installation. Le guide pratique de la ville régulièrement classée.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49454,9 +49454,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-dijon-2026",
-    title: "Déménager à Dijon en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Dijon 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Dijon en 2026 : marché locatif accessible, quartiers d'atterrissage, tram et centre historique, budget d'installation. Le guide pratique de la capitale bourguignonne.",
+    title: "Déménager à Dijon en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Dijon 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Dijon en 2027 : marché locatif accessible, quartiers d'atterrissage, tram et centre historique, budget d'installation. Le guide pratique de la capitale bourguignonne.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49500,9 +49500,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-tours-2026",
-    title: "Déménager à Tours en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Tours 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Tours en 2026 : marché locatif équilibré, quartiers d'atterrissage, tram et centre historique, budget d'installation. Le guide pratique de la ville aux 55 minutes de Paris.",
+    title: "Déménager à Tours en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Tours 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Tours en 2027 : marché locatif équilibré, quartiers d'atterrissage, tram et centre historique, budget d'installation. Le guide pratique de la ville aux 55 minutes de Paris.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49546,9 +49546,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-clermont-ferrand-2026",
-    title: "Déménager à Clermont-Ferrand en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Clermont-Ferrand 2026 — Logistique, budget",
-    metaDesc: "Déménager à Clermont-Ferrand en 2026 : marché locatif accessible, quartiers d'atterrissage, ville plate et tram, budget d'installation. Le guide pratique de la capitale auvergnate.",
+    title: "Déménager à Clermont-Ferrand en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Clermont-Ferrand 2027 — Logistique, budget",
+    metaDesc: "Déménager à Clermont-Ferrand en 2027 : marché locatif accessible, quartiers d'atterrissage, ville plate et tram, budget d'installation. Le guide pratique de la capitale auvergnate.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49592,9 +49592,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-metz-2026",
-    title: "Déménager à Metz en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Metz 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Metz en 2026 : marché locatif accessible, quartiers d'atterrissage, BHNS Mettis et centre médiéval, budget d'installation. Le guide pratique.",
+    title: "Déménager à Metz en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Metz 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Metz en 2027 : marché locatif accessible, quartiers d'atterrissage, BHNS Mettis et centre médiéval, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49638,9 +49638,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-nancy-2026",
-    title: "Déménager à Nancy en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Nancy 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Nancy en 2026 : marché locatif accessible, quartiers d'atterrissage, tram et centre Art nouveau, budget d'installation. Le guide pratique de la capitale lorraine.",
+    title: "Déménager à Nancy en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Nancy 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Nancy en 2027 : marché locatif accessible, quartiers d'atterrissage, tram et centre Art nouveau, budget d'installation. Le guide pratique de la capitale lorraine.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49684,9 +49684,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-caen-2026",
-    title: "Déménager à Caen en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Caen 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Caen en 2026 : marché locatif accessible, quartiers d'atterrissage, tram et centre reconstruit, budget d'installation. Le guide pratique de la Normandie.",
+    title: "Déménager à Caen en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Caen 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Caen en 2027 : marché locatif accessible, quartiers d'atterrissage, tram et centre reconstruit, budget d'installation. Le guide pratique de la Normandie.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49730,9 +49730,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-saint-etienne-2026",
-    title: "Déménager à Saint-Étienne en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Saint-Étienne 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Saint-Étienne en 2026 : marché locatif parmi les plus abordables de France, quartiers à privilégier, tram et relief, budget d'installation. Le guide pratique.",
+    title: "Déménager à Saint-Étienne en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Saint-Étienne 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Saint-Étienne en 2027 : marché locatif parmi les plus abordables de France, quartiers à privilégier, tram et relief, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49776,9 +49776,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-le-havre-2026",
-    title: "Déménager au Havre en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager au Havre 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager au Havre en 2026 : marché locatif détendu, ville Auguste Perret classée UNESCO, tram et vent, budget d'installation. Le guide pratique de la Porte océane.",
+    title: "Déménager au Havre en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager au Havre 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager au Havre en 2027 : marché locatif détendu, ville Auguste Perret classée UNESCO, tram et vent, budget d'installation. Le guide pratique de la Porte océane.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49822,9 +49822,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-reims-2026",
-    title: "Déménager à Reims en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Reims 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Reims en 2026 : marché locatif accessible, quartiers d'atterrissage, TGV Paris 45 min, tram et coteaux, budget d'installation. Le guide pratique de la Champagne.",
+    title: "Déménager à Reims en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Reims 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Reims en 2027 : marché locatif accessible, quartiers d'atterrissage, TGV Paris 45 min, tram et coteaux, budget d'installation. Le guide pratique de la Champagne.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -49869,9 +49869,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-toulon-2026",
-    title: "Déménager à Toulon en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Toulon 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Toulon en 2026 : marché locatif tendu, quartiers à privilégier, rade et Mont Faron, budget d'installation. Le guide pratique de la préfecture du Var.",
+    title: "Déménager à Toulon en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Toulon 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Toulon en 2027 : marché locatif tendu, quartiers à privilégier, rade et Mont Faron, budget d'installation. Le guide pratique de la préfecture du Var.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49916,9 +49916,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-villeurbanne-2026",
-    title: "Déménager à Villeurbanne en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Villeurbanne 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Villeurbanne en 2026 : encadrement des loyers, quartiers Gratte-Ciel et Charpennes, tram et métro TCL, budget d'installation. Le guide pratique.",
+    title: "Déménager à Villeurbanne en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Villeurbanne 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Villeurbanne en 2027 : encadrement des loyers, quartiers Gratte-Ciel et Charpennes, tram et métro TCL, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -49962,9 +49962,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-nimes-2026",
-    title: "Déménager à Nîmes en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Nîmes 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Nîmes en 2026 : marché locatif accessible, quartiers historiques et Arènes, canicule et Cévennol, budget d'installation. Le guide pratique du Gard.",
+    title: "Déménager à Nîmes en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Nîmes 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Nîmes en 2027 : marché locatif accessible, quartiers historiques et Arènes, canicule et Cévennol, budget d'installation. Le guide pratique du Gard.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50009,9 +50009,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-aix-en-provence-2026",
-    title: "Déménager à Aix-en-Provence en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Aix-en-Provence 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Aix-en-Provence en 2026 : marché locatif très tendu, quartiers historiques et Sud-Aix, mistral et canicule, budget d'installation. Le guide pratique.",
+    title: "Déménager à Aix-en-Provence en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Aix-en-Provence 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Aix-en-Provence en 2027 : marché locatif très tendu, quartiers historiques et Sud-Aix, mistral et canicule, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50055,9 +50055,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-brest-2026",
-    title: "Déménager à Brest en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Brest 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Brest en 2026 : marché locatif abordable, quartiers Recouvrance et Siam, téléphérique et rade, budget d'installation. Le guide pratique du Finistère.",
+    title: "Déménager à Brest en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Brest 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Brest en 2027 : marché locatif abordable, quartiers Recouvrance et Siam, téléphérique et rade, budget d'installation. Le guide pratique du Finistère.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50102,9 +50102,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-le-mans-2026",
-    title: "Déménager au Mans en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager au Mans 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager au Mans en 2026 : marché locatif accessible, Cité Plantagenêt, tram et TGV Paris 55 min, budget d'installation. Le guide pratique de la Sarthe.",
+    title: "Déménager au Mans en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager au Mans 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager au Mans en 2027 : marché locatif accessible, Cité Plantagenêt, tram et TGV Paris 55 min, budget d'installation. Le guide pratique de la Sarthe.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50148,9 +50148,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-amiens-2026",
-    title: "Déménager à Amiens en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Amiens 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Amiens en 2026 : marché locatif accessible, cathédrale et Saint-Leu, BHNS Nemo, budget d'installation. Le guide pratique de la Somme.",
+    title: "Déménager à Amiens en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Amiens 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Amiens en 2027 : marché locatif accessible, cathédrale et Saint-Leu, BHNS Nemo, budget d'installation. Le guide pratique de la Somme.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50196,9 +50196,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-saint-denis-2026",
-    title: "Déménager à Saint-Denis (93) en 2026 : logistique, budget, démarches, le guide",
+    title: "Déménager à Saint-Denis (93) en 2027 : logistique, budget, démarches, le guide",
     metaTitle: "Déménager à Saint-Denis 93 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Saint-Denis en 2026 : marché locatif tendu mais accessible pour l'IDF, basilique royale, Stade de France, Grand-Paris-Express, budget d'installation. Le guide pratique.",
+    metaDesc: "Déménager à Saint-Denis en 2027 : marché locatif tendu mais accessible pour l'IDF, basilique royale, Stade de France, Grand-Paris-Express, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50243,9 +50243,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-perpignan-2026",
-    title: "Déménager à Perpignan en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Perpignan 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Perpignan en 2026 : marché locatif abordable, quartiers historiques catalans, tramuntana et plages, budget d'installation. Le guide pratique des Pyrénées-Orientales.",
+    title: "Déménager à Perpignan en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Perpignan 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Perpignan en 2027 : marché locatif abordable, quartiers historiques catalans, tramuntana et plages, budget d'installation. Le guide pratique des Pyrénées-Orientales.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50290,9 +50290,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-boulogne-billancourt-2026",
-    title: "Déménager à Boulogne-Billancourt en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Boulogne-Billancourt 2026 — Logistique, budget",
-    metaDesc: "Déménager à Boulogne-Billancourt en 2026 : marché locatif tendu, quartiers Marcel-Sembat à Jean-Jaurès, île Seguin, métro 9-10, budget d'installation. Le guide pratique des Hauts-de-Seine.",
+    title: "Déménager à Boulogne-Billancourt en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Boulogne-Billancourt 2027 — Logistique, budget",
+    metaDesc: "Déménager à Boulogne-Billancourt en 2027 : marché locatif tendu, quartiers Marcel-Sembat à Jean-Jaurès, île Seguin, métro 9-10, budget d'installation. Le guide pratique des Hauts-de-Seine.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50337,9 +50337,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-argenteuil-2026",
-    title: "Déménager à Argenteuil en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Argenteuil 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Argenteuil en 2026 : marché locatif accessible côté Val-d'Oise, ligne J vers Saint-Lazare 15 min, bord de Seine impressionniste, budget d'installation. Le guide pratique.",
+    title: "Déménager à Argenteuil en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Argenteuil 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Argenteuil en 2027 : marché locatif accessible côté Val-d'Oise, ligne J vers Saint-Lazare 15 min, bord de Seine impressionniste, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50384,9 +50384,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-orleans-2026",
-    title: "Déménager à Orléans en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Orléans 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Orléans en 2026 : marché locatif accessible, quartiers Bourgogne et Saint-Marceau, tram A et B, TER Paris 1 h, budget d'installation. Le guide pratique du Loiret.",
+    title: "Déménager à Orléans en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Orléans 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Orléans en 2027 : marché locatif accessible, quartiers Bourgogne et Saint-Marceau, tram A et B, TER Paris 1 h, budget d'installation. Le guide pratique du Loiret.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50431,9 +50431,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-mulhouse-2026",
-    title: "Déménager à Mulhouse en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Mulhouse 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Mulhouse en 2026 : marché locatif très détendu, quartiers Rebberg et Fonderie, tram-train, Bâle à 25 min, budget d'installation. Le guide pratique du Sud Alsace.",
+    title: "Déménager à Mulhouse en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Mulhouse 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Mulhouse en 2027 : marché locatif très détendu, quartiers Rebberg et Fonderie, tram-train, Bâle à 25 min, budget d'installation. Le guide pratique du Sud Alsace.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50478,9 +50478,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-saint-paul-reunion-2026",
-    title: "Déménager à Saint-Paul (La Réunion) en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Saint-Paul Réunion 2026 — Logistique, budget",
-    metaDesc: "Déménager à Saint-Paul en 2026 : marché DROM tendu, lagon côte ouest, Ermitage et Saline, alizés et cyclones, budget d'installation. Le guide pratique de La Réunion.",
+    title: "Déménager à Saint-Paul (La Réunion) en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Saint-Paul Réunion 2027 — Logistique, budget",
+    metaDesc: "Déménager à Saint-Paul en 2027 : marché DROM tendu, lagon côte ouest, Ermitage et Saline, alizés et cyclones, budget d'installation. Le guide pratique de La Réunion.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50522,9 +50522,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-nanterre-2026",
-    title: "Déménager à Nanterre en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Nanterre 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Nanterre en 2026 : marché locatif tendu 92, quartiers Université et Vieux-Pont, RER A vers La Défense, Paris La Défense Arena, budget d'installation. Le guide pratique.",
+    title: "Déménager à Nanterre en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Nanterre 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Nanterre en 2027 : marché locatif tendu 92, quartiers Université et Vieux-Pont, RER A vers La Défense, Paris La Défense Arena, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50569,9 +50569,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-creteil-2026",
-    title: "Déménager à Créteil en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Créteil 2026 — Logistique, budget, démarches",
-    metaDesc: "Déménager à Créteil en 2026 : marché locatif tendu 94, ville-nouvelle et lac, métro 8 vers Paris, UPEC, budget d'installation. Le guide pratique du Val-de-Marne.",
+    title: "Déménager à Créteil en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Créteil 2027 — Logistique, budget, démarches",
+    metaDesc: "Déménager à Créteil en 2027 : marché locatif tendu 94, ville-nouvelle et lac, métro 8 vers Paris, UPEC, budget d'installation. Le guide pratique du Val-de-Marne.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50616,9 +50616,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-vitry-sur-seine-2026",
-    title: "Déménager à Vitry-sur-Seine en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Vitry-sur-Seine 2026 — Logistique, budget",
-    metaDesc: "Déménager à Vitry-sur-Seine en 2026 : marché locatif tendu 94, MAC/VAL, métro 7 et futur M15 Ardoines, budget d'installation. Le guide pratique du Val-de-Marne.",
+    title: "Déménager à Vitry-sur-Seine en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Vitry-sur-Seine 2027 — Logistique, budget",
+    metaDesc: "Déménager à Vitry-sur-Seine en 2027 : marché locatif tendu 94, MAC/VAL, métro 7 et futur M15 Ardoines, budget d'installation. Le guide pratique du Val-de-Marne.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50663,9 +50663,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-saint-denis-reunion-2026",
-    title: "Déménager à Saint-Denis (La Réunion) en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Saint-Denis Réunion 2026 — Logistique, budget",
-    metaDesc: "Déménager à Saint-Denis-de-la-Réunion en 2026 : marché DROM, Barachois, Bellepierre, alizés, cyclones, conteneur maritime, budget. Le guide pratique.",
+    title: "Déménager à Saint-Denis (La Réunion) en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Saint-Denis Réunion 2027 — Logistique, budget",
+    metaDesc: "Déménager à Saint-Denis-de-la-Réunion en 2027 : marché DROM, Barachois, Bellepierre, alizés, cyclones, conteneur maritime, budget. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50707,9 +50707,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-le-tampon-2026",
-    title: "Déménager au Tampon (La Réunion) en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager au Tampon Réunion 2026 — Logistique, budget",
-    metaDesc: "Déménager au Tampon en 2026 : marché DROM détendu, hauts sud à 550 m, Plaine des Cafres, budget d'installation. Le guide pratique du sud de La Réunion.",
+    title: "Déménager au Tampon (La Réunion) en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager au Tampon Réunion 2027 — Logistique, budget",
+    metaDesc: "Déménager au Tampon en 2027 : marché DROM détendu, hauts sud à 550 m, Plaine des Cafres, budget d'installation. Le guide pratique du sud de La Réunion.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -50752,9 +50752,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-aubervilliers-2026",
-    title: "Déménager à Aubervilliers en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Aubervilliers 2026 — Logistique, budget",
-    metaDesc: "Déménager à Aubervilliers en 2026 : marché locatif tendu 93, métro 12 Front-Populaire, Campus Condorcet, futur M15, budget d'installation. Le guide pratique.",
+    title: "Déménager à Aubervilliers en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Aubervilliers 2027 — Logistique, budget",
+    metaDesc: "Déménager à Aubervilliers en 2027 : marché locatif tendu 93, métro 12 Front-Populaire, Campus Condorcet, futur M15, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50799,9 +50799,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-colombes-2026",
-    title: "Déménager à Colombes en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Colombes 2026 — Logistique, budget",
-    metaDesc: "Déménager à Colombes en 2026 : marché locatif tendu 92, tram T2, Transilien J, U Arena, futur M15, budget d'installation. Le guide pratique.",
+    title: "Déménager à Colombes en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Colombes 2027 — Logistique, budget",
+    metaDesc: "Déménager à Colombes en 2027 : marché locatif tendu 92, tram T2, Transilien J, U Arena, futur M15, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50846,9 +50846,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-asnieres-sur-seine-2026",
-    title: "Déménager à Asnières-sur-Seine en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Asnières 2026 — Logistique, budget",
-    metaDesc: "Déménager à Asnières-sur-Seine en 2026 : marché locatif tendu 92, ligne 13, tram T1, Transilien J, RER C, budget d'installation. Le guide pratique.",
+    title: "Déménager à Asnières-sur-Seine en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Asnières 2027 — Logistique, budget",
+    metaDesc: "Déménager à Asnières-sur-Seine en 2027 : marché locatif tendu 92, ligne 13, tram T1, Transilien J, RER C, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50893,9 +50893,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-courbevoie-2026",
-    title: "Déménager à Courbevoie en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Courbevoie 2026 — Logistique, budget",
-    metaDesc: "Déménager à Courbevoie en 2026 : marché locatif tendu 92, La Défense en porte, RER A, Transilien L, tram T2, budget d'installation. Le guide pratique.",
+    title: "Déménager à Courbevoie en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Courbevoie 2027 — Logistique, budget",
+    metaDesc: "Déménager à Courbevoie en 2027 : marché locatif tendu 92, La Défense en porte, RER A, Transilien L, tram T2, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50940,9 +50940,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-rueil-malmaison-2026",
-    title: "Déménager à Rueil-Malmaison en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Rueil-Malmaison 2026 — Logistique, budget",
-    metaDesc: "Déménager à Rueil-Malmaison en 2026 : marché locatif tendu 92, RER A, tram T2, château de Malmaison, budget d'installation. Le guide pratique.",
+    title: "Déménager à Rueil-Malmaison en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Rueil-Malmaison 2027 — Logistique, budget",
+    metaDesc: "Déménager à Rueil-Malmaison en 2027 : marché locatif tendu 92, RER A, tram T2, château de Malmaison, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -50987,9 +50987,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-champigny-sur-marne-2026",
-    title: "Déménager à Champigny-sur-Marne en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Champigny 2026 — Logistique, budget",
-    metaDesc: "Déménager à Champigny-sur-Marne en 2026 : marché locatif tendu 94, RER A/E, futur M15 Est, boucle de la Marne, budget d'installation. Le guide pratique.",
+    title: "Déménager à Champigny-sur-Marne en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Champigny 2027 — Logistique, budget",
+    metaDesc: "Déménager à Champigny-sur-Marne en 2027 : marché locatif tendu 94, RER A/E, futur M15 Est, boucle de la Marne, budget d'installation. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -51034,9 +51034,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-saint-maur-des-fosses-2026",
-    title: "Déménager à Saint-Maur-des-Fossés en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Saint-Maur 2026 — Logistique, budget",
-    metaDesc: "Déménager à Saint-Maur-des-Fossés en 2026 : marché locatif tendu 94, RER A, boucle de la Marne, quartiers pavillonnaires, budget. Le guide pratique.",
+    title: "Déménager à Saint-Maur-des-Fossés en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Saint-Maur 2027 — Logistique, budget",
+    metaDesc: "Déménager à Saint-Maur-des-Fossés en 2027 : marché locatif tendu 94, RER A, boucle de la Marne, quartiers pavillonnaires, budget. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 7,
@@ -51081,9 +51081,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "demenager-a-antibes-2026",
-    title: "Déménager à Antibes en 2026 : logistique, budget, démarches, le guide",
-    metaTitle: "Déménager à Antibes 2026 — Logistique, budget",
-    metaDesc: "Déménager à Antibes en 2026 : marché locatif tendu Côte d'Azur, Vieil-Antibes, Juan-les-Pins, port Vauban, Sophia-Antipolis, budget. Le guide pratique.",
+    title: "Déménager à Antibes en 2027 : logistique, budget, démarches, le guide",
+    metaTitle: "Déménager à Antibes 2027 — Logistique, budget",
+    metaDesc: "Déménager à Antibes en 2027 : marché locatif tendu Côte d'Azur, Vieil-Antibes, Juan-les-Pins, port Vauban, Sophia-Antipolis, budget. Le guide pratique.",
     category: "lifestyle",
     emoji: "📦",
     readMinutes: 8,
@@ -51130,9 +51130,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-paris-2026",
-    title: "Travailler à Paris en 2026 : bassin d'emploi, secteurs, salaires",
-    metaTitle: "Travailler à Paris 2026 — Emploi, secteurs, salaires",
-    metaDesc: "Chercher un emploi à Paris en 2026 : secteurs qui recrutent, salaires réels, La Défense, réseaux et pièges du marché francilien. Guide sans détour.",
+    title: "Travailler à Paris en 2027 : bassin d'emploi, secteurs, salaires",
+    metaTitle: "Travailler à Paris 2027 — Emploi, secteurs, salaires",
+    metaDesc: "Chercher un emploi à Paris en 2027 : secteurs qui recrutent, salaires réels, La Défense, réseaux et pièges du marché francilien. Guide sans détour.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 9,
@@ -51177,9 +51177,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-lyon-2026",
-    title: "Travailler à Lyon en 2026 : bassin d'emploi, secteurs, salaires",
-    metaTitle: "Travailler à Lyon 2026 — Emploi, secteurs, salaires",
-    metaDesc: "Chercher un emploi à Lyon en 2026 : Part-Dieu, pharma, chimie, banque et tech. Salaires réels, réseaux, pièges du 2e bassin français. Guide sans détour.",
+    title: "Travailler à Lyon en 2027 : bassin d'emploi, secteurs, salaires",
+    metaTitle: "Travailler à Lyon 2027 — Emploi, secteurs, salaires",
+    metaDesc: "Chercher un emploi à Lyon en 2027 : Part-Dieu, pharma, chimie, banque et tech. Salaires réels, réseaux, pièges du 2e bassin français. Guide sans détour.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51224,9 +51224,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-marseille-2026",
-    title: "Travailler à Marseille en 2026 : bassin d'emploi, secteurs, salaires",
-    metaTitle: "Travailler à Marseille 2026 — Emploi, secteurs, salaires",
-    metaDesc: "Chercher un emploi à Marseille en 2026 : port, maritime, tech Aix-Marseille, santé, tourisme. Chômage élevé, salaires modérés, pièges du bassin PACA.",
+    title: "Travailler à Marseille en 2027 : bassin d'emploi, secteurs, salaires",
+    metaTitle: "Travailler à Marseille 2027 — Emploi, secteurs, salaires",
+    metaDesc: "Chercher un emploi à Marseille en 2027 : port, maritime, tech Aix-Marseille, santé, tourisme. Chômage élevé, salaires modérés, pièges du bassin PACA.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51271,9 +51271,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-toulouse-2026",
-    title: "Travailler à Toulouse en 2026 : aéronautique, spatial, salaires",
-    metaTitle: "Travailler à Toulouse 2026 — Aéronautique, spatial, IT",
-    metaDesc: "Chercher un emploi à Toulouse en 2026 : Airbus, Thales, Continental, spatial CNES. Salaires, réseaux, pièges du 3e bassin cadre français. Sans détour.",
+    title: "Travailler à Toulouse en 2027 : aéronautique, spatial, salaires",
+    metaTitle: "Travailler à Toulouse 2027 — Aéronautique, spatial, IT",
+    metaDesc: "Chercher un emploi à Toulouse en 2027 : Airbus, Thales, Continental, spatial CNES. Salaires, réseaux, pièges du 3e bassin cadre français. Sans détour.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51318,9 +51318,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-bordeaux-2026",
-    title: "Travailler à Bordeaux en 2026 : aéro-défense, tech, salaires",
-    metaTitle: "Travailler à Bordeaux 2026 — Aéro-défense, tech, vin",
-    metaDesc: "Chercher un emploi à Bordeaux en 2026 : Dassault, Thales, French Tech, vin. Marché tendu par l'effet TGV, salaires, réseaux et pièges. Guide honnête.",
+    title: "Travailler à Bordeaux en 2027 : aéro-défense, tech, salaires",
+    metaTitle: "Travailler à Bordeaux 2027 — Aéro-défense, tech, vin",
+    metaDesc: "Chercher un emploi à Bordeaux en 2027 : Dassault, Thales, French Tech, vin. Marché tendu par l'effet TGV, salaires, réseaux et pièges. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51365,9 +51365,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-nantes-2026",
-    title: "Travailler à Nantes en 2026 : bassin d'emploi, secteurs, salaires",
-    metaTitle: "Travailler à Nantes 2026 — Emploi, secteurs, salaires",
-    metaDesc: "Chercher un emploi à Nantes en 2026 : Airbus, French Tech, banque, agro. Chômage bas, salaires, réseaux et pièges du bassin ligérien. Sans détour.",
+    title: "Travailler à Nantes en 2027 : bassin d'emploi, secteurs, salaires",
+    metaTitle: "Travailler à Nantes 2027 — Emploi, secteurs, salaires",
+    metaDesc: "Chercher un emploi à Nantes en 2027 : Airbus, French Tech, banque, agro. Chômage bas, salaires, réseaux et pièges du bassin ligérien. Sans détour.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51412,9 +51412,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-lille-2026",
-    title: "Travailler à Lille en 2026 : retail, tech, salaires, réseaux",
-    metaTitle: "Travailler à Lille 2026 — Retail, tech, salaires",
-    metaDesc: "Chercher un emploi à Lille en 2026 : Auchan, Décathlon, Leroy Merlin, EuraTechnologies. Chômage haut, réseaux, pièges du bassin nordiste. Guide honnête.",
+    title: "Travailler à Lille en 2027 : retail, tech, salaires, réseaux",
+    metaTitle: "Travailler à Lille 2027 — Retail, tech, salaires",
+    metaDesc: "Chercher un emploi à Lille en 2027 : Auchan, Décathlon, Leroy Merlin, EuraTechnologies. Chômage haut, réseaux, pièges du bassin nordiste. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51459,9 +51459,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-nice-2026",
-    title: "Travailler à Nice en 2026 : Sophia Antipolis, tourisme, salaires",
-    metaTitle: "Travailler à Nice 2026 — Sophia Antipolis, tech, tourisme",
-    metaDesc: "Chercher un emploi à Nice en 2026 : Sophia Antipolis, tourisme, santé, luxe. Salaires, réseaux, pièges du bassin Côte d'Azur. Guide sans détour.",
+    title: "Travailler à Nice en 2027 : Sophia Antipolis, tourisme, salaires",
+    metaTitle: "Travailler à Nice 2027 — Sophia Antipolis, tech, tourisme",
+    metaDesc: "Chercher un emploi à Nice en 2027 : Sophia Antipolis, tourisme, santé, luxe. Salaires, réseaux, pièges du bassin Côte d'Azur. Guide sans détour.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51506,9 +51506,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-strasbourg-2026",
-    title: "Travailler à Strasbourg en 2026 : Europe, pharma, transfrontalier",
-    metaTitle: "Travailler à Strasbourg 2026 — Europe, pharma, frontalier",
-    metaDesc: "Chercher un emploi à Strasbourg en 2026 : institutions européennes, pharma, transfrontalier Allemagne. Salaires, réseaux, pièges alsaciens. Sans détour.",
+    title: "Travailler à Strasbourg en 2027 : Europe, pharma, transfrontalier",
+    metaTitle: "Travailler à Strasbourg 2027 — Europe, pharma, frontalier",
+    metaDesc: "Chercher un emploi à Strasbourg en 2027 : institutions européennes, pharma, transfrontalier Allemagne. Salaires, réseaux, pièges alsaciens. Sans détour.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51553,9 +51553,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-rennes-2026",
-    title: "Travailler à Rennes en 2026 : tech, cyber-défense, agro, salaires",
-    metaTitle: "Travailler à Rennes 2026 — Tech, cyber, agro, salaires",
-    metaDesc: "Chercher un emploi à Rennes en 2026 : French Tech 300 startups, cyber-défense DGA MI, agro Groupama, PSA. Chômage bas, salaires, réseaux. Guide honnête.",
+    title: "Travailler à Rennes en 2027 : tech, cyber-défense, agro, salaires",
+    metaTitle: "Travailler à Rennes 2027 — Tech, cyber, agro, salaires",
+    metaDesc: "Chercher un emploi à Rennes en 2027 : French Tech 300 startups, cyber-défense DGA MI, agro Groupama, PSA. Chômage bas, salaires, réseaux. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51600,9 +51600,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-montpellier-2026",
-    title: "Travailler à Montpellier en 2026 : santé, tech, salaires réels",
-    metaTitle: "Travailler à Montpellier 2026 — Santé, tech, salaires",
-    metaDesc: "Chercher un emploi à Montpellier en 2026 : CHU, French Tech, IBM, Dell, Ubisoft. Chômage élevé, salaires modérés, pièges d'un marché sursouscrit. Guide honnête.",
+    title: "Travailler à Montpellier en 2027 : santé, tech, salaires réels",
+    metaTitle: "Travailler à Montpellier 2027 — Santé, tech, salaires",
+    metaDesc: "Chercher un emploi à Montpellier en 2027 : CHU, French Tech, IBM, Dell, Ubisoft. Chômage élevé, salaires modérés, pièges d'un marché sursouscrit. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51647,9 +51647,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-grenoble-2026",
-    title: "Travailler à Grenoble en 2026 : microélectronique, R&D, salaires",
-    metaTitle: "Travailler à Grenoble 2026 — Micro, R&D, salaires",
-    metaDesc: "Chercher un emploi à Grenoble en 2026 : STMicroelectronics, CEA, Soitec, Schneider. Bassin R&D dense, salaires ingénieurs, pièges à connaître. Guide honnête.",
+    title: "Travailler à Grenoble en 2027 : microélectronique, R&D, salaires",
+    metaTitle: "Travailler à Grenoble 2027 — Micro, R&D, salaires",
+    metaDesc: "Chercher un emploi à Grenoble en 2027 : STMicroelectronics, CEA, Soitec, Schneider. Bassin R&D dense, salaires ingénieurs, pièges à connaître. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51694,9 +51694,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-rouen-2026",
-    title: "Travailler à Rouen en 2026 : chimie, banque, énergie, salaires",
-    metaTitle: "Travailler à Rouen 2026 — Chimie, banque, énergie",
-    metaDesc: "Chercher un emploi à Rouen en 2026 : Sanofi, Total Énergies, port Seine-Aval, tertiaire régional. Chômage moyen, salaires, pièges d'un bassin en transition. Honnête.",
+    title: "Travailler à Rouen en 2027 : chimie, banque, énergie, salaires",
+    metaTitle: "Travailler à Rouen 2027 — Chimie, banque, énergie",
+    metaDesc: "Chercher un emploi à Rouen en 2027 : Sanofi, Total Énergies, port Seine-Aval, tertiaire régional. Chômage moyen, salaires, pièges d'un bassin en transition. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51741,9 +51741,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-angers-2026",
-    title: "Travailler à Angers en 2026 : végétal, biotech, salaires réels",
-    metaTitle: "Travailler à Angers 2026 — Végétal, biotech, salaires",
-    metaDesc: "Chercher un emploi à Angers en 2026 : végétal spécialisé, biotech, Bull-Atos, Thales, tourisme château. Chômage bas, salaires modérés, pièges. Guide honnête.",
+    title: "Travailler à Angers en 2027 : végétal, biotech, salaires réels",
+    metaTitle: "Travailler à Angers 2027 — Végétal, biotech, salaires",
+    metaDesc: "Chercher un emploi à Angers en 2027 : végétal spécialisé, biotech, Bull-Atos, Thales, tourisme château. Chômage bas, salaires modérés, pièges. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51788,9 +51788,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-dijon-2026",
-    title: "Travailler à Dijon en 2026 : agroalimentaire, santé, salaires",
-    metaTitle: "Travailler à Dijon 2026 — Agro, santé, salaires",
-    metaDesc: "Chercher un emploi à Dijon en 2026 : agroalimentaire Amora-Vandamme-La Vosgienne, CHU, TGV Paris. Chômage bas, salaires, pièges d'un bassin bourguignon. Honnête.",
+    title: "Travailler à Dijon en 2027 : agroalimentaire, santé, salaires",
+    metaTitle: "Travailler à Dijon 2027 — Agro, santé, salaires",
+    metaDesc: "Chercher un emploi à Dijon en 2027 : agroalimentaire Amora-Vandamme-La Vosgienne, CHU, TGV Paris. Chômage bas, salaires, pièges d'un bassin bourguignon. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51835,9 +51835,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-tours-2026",
-    title: "Travailler à Tours en 2026 : santé, banque, industrie, salaires",
-    metaTitle: "Travailler à Tours 2026 — Santé, banque, industrie",
-    metaDesc: "Chercher un emploi à Tours en 2026 : CHRU, Michelin, Crédit Mutuel, tech-numérique. TGV Paris 55 min, chômage moyen, salaires, pièges. Guide honnête.",
+    title: "Travailler à Tours en 2027 : santé, banque, industrie, salaires",
+    metaTitle: "Travailler à Tours 2027 — Santé, banque, industrie",
+    metaDesc: "Chercher un emploi à Tours en 2027 : CHRU, Michelin, Crédit Mutuel, tech-numérique. TGV Paris 55 min, chômage moyen, salaires, pièges. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51882,9 +51882,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-clermont-ferrand-2026",
-    title: "Travailler à Clermont-Ferrand en 2026 : Michelin, pharma, salaires",
-    metaTitle: "Travailler à Clermont-Ferrand 2026 — Michelin, salaires",
-    metaDesc: "Chercher un emploi à Clermont-Ferrand en 2026 : Michelin (10 000 salariés), Limagrain, pharma. Chômage modéré, salaires, pièges d'un bassin mono-employeur. Honnête.",
+    title: "Travailler à Clermont-Ferrand en 2027 : Michelin, pharma, salaires",
+    metaTitle: "Travailler à Clermont-Ferrand 2027 — Michelin, salaires",
+    metaDesc: "Chercher un emploi à Clermont-Ferrand en 2027 : Michelin (10 000 salariés), Limagrain, pharma. Chômage modéré, salaires, pièges d'un bassin mono-employeur. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51929,9 +51929,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-metz-2026",
-    title: "Travailler à Metz en 2026 : sidérurgie, tertiaire, frontaliers",
-    metaTitle: "Travailler à Metz 2026 — Sidérurgie, tertiaire, frontaliers",
-    metaDesc: "Chercher un emploi à Metz en 2026 : PSA Trémery, tertiaire, frontaliers Luxembourg. Chômage moyen, salaires, pièges d'un bassin transfrontalier. Guide honnête.",
+    title: "Travailler à Metz en 2027 : sidérurgie, tertiaire, frontaliers",
+    metaTitle: "Travailler à Metz 2027 — Sidérurgie, tertiaire, frontaliers",
+    metaDesc: "Chercher un emploi à Metz en 2027 : PSA Trémery, tertiaire, frontaliers Luxembourg. Chômage moyen, salaires, pièges d'un bassin transfrontalier. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -51976,9 +51976,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-nancy-2026",
-    title: "Travailler à Nancy en 2026 : santé, tertiaire, ingénieurs",
-    metaTitle: "Travailler à Nancy 2026 — Santé, tertiaire, ingénieurs",
-    metaDesc: "Chercher un emploi à Nancy en 2026 : CHU, École des Mines, Sanofi, tertiaire régional. Chômage moyen, salaires, pièges d'un bassin lorrain universitaire. Honnête.",
+    title: "Travailler à Nancy en 2027 : santé, tertiaire, ingénieurs",
+    metaTitle: "Travailler à Nancy 2027 — Santé, tertiaire, ingénieurs",
+    metaDesc: "Chercher un emploi à Nancy en 2027 : CHU, École des Mines, Sanofi, tertiaire régional. Chômage moyen, salaires, pièges d'un bassin lorrain universitaire. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52023,9 +52023,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-caen-2026",
-    title: "Travailler à Caen en 2026 : santé, agroalimentaire, salaires",
-    metaTitle: "Travailler à Caen 2026 — Santé, agroalimentaire, salaires",
-    metaDesc: "Chercher un emploi à Caen en 2026 : CHU, Ganil, agroalimentaire normand, tertiaire. Chômage moyen, salaires, pièges d'un bassin normand universitaire. Guide honnête.",
+    title: "Travailler à Caen en 2027 : santé, agroalimentaire, salaires",
+    metaTitle: "Travailler à Caen 2027 — Santé, agroalimentaire, salaires",
+    metaDesc: "Chercher un emploi à Caen en 2027 : CHU, Ganil, agroalimentaire normand, tertiaire. Chômage moyen, salaires, pièges d'un bassin normand universitaire. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52070,9 +52070,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-reims-2026",
-    title: "Travailler à Reims en 2026 : champagne, tertiaire, TGV Paris",
-    metaTitle: "Travailler à Reims 2026 — Champagne, tertiaire, TGV",
-    metaDesc: "Chercher un emploi à Reims en 2026 : maisons de champagne, industrie, tertiaire régional, effet TGV Paris 45 min. Chômage moyen, salaires, pièges. Guide honnête.",
+    title: "Travailler à Reims en 2027 : champagne, tertiaire, TGV Paris",
+    metaTitle: "Travailler à Reims 2027 — Champagne, tertiaire, TGV",
+    metaDesc: "Chercher un emploi à Reims en 2027 : maisons de champagne, industrie, tertiaire régional, effet TGV Paris 45 min. Chômage moyen, salaires, pièges. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52117,9 +52117,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-le-havre-2026",
-    title: "Travailler au Havre en 2026 : port, industrie, énergie, salaires",
-    metaTitle: "Travailler au Havre 2026 — Port, industrie, énergie",
-    metaDesc: "Chercher un emploi au Havre en 2026 : HAROPA port, Total Énergies, Renault Sandouville, Sanofi, tertiaire. Chômage élevé, salaires, pièges d'un bassin industriel. Honnête.",
+    title: "Travailler au Havre en 2027 : port, industrie, énergie, salaires",
+    metaTitle: "Travailler au Havre 2027 — Port, industrie, énergie",
+    metaDesc: "Chercher un emploi au Havre en 2027 : HAROPA port, Total Énergies, Renault Sandouville, Sanofi, tertiaire. Chômage élevé, salaires, pièges d'un bassin industriel. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52163,9 +52163,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-saint-etienne-2026",
-    title: "Travailler à Saint-Étienne en 2026 : industrie, design, salaires",
-    metaTitle: "Travailler à Saint-Étienne 2026 — Industrie, design, tech",
-    metaDesc: "Chercher un emploi à Saint-Étienne en 2026 : Casino siège, Thales, Aubert & Duval, Cité du Design UNESCO, tertiaire. Chômage moyen, salaires, pièges. Guide honnête.",
+    title: "Travailler à Saint-Étienne en 2027 : industrie, design, salaires",
+    metaTitle: "Travailler à Saint-Étienne 2027 — Industrie, design, tech",
+    metaDesc: "Chercher un emploi à Saint-Étienne en 2027 : Casino siège, Thales, Aubert & Duval, Cité du Design UNESCO, tertiaire. Chômage moyen, salaires, pièges. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52210,9 +52210,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-toulon-2026",
-    title: "Travailler à Toulon en 2026 : marine, Naval Group, salaires",
-    metaTitle: "Travailler à Toulon 2026 — Marine, défense, tourisme",
-    metaDesc: "Chercher un emploi à Toulon en 2026 : base navale (1er port militaire), Naval Group, IFREMER, tertiaire varois, tourisme. Chômage moyen, salaires, pièges. Guide honnête.",
+    title: "Travailler à Toulon en 2027 : marine, Naval Group, salaires",
+    metaTitle: "Travailler à Toulon 2027 — Marine, défense, tourisme",
+    metaDesc: "Chercher un emploi à Toulon en 2027 : base navale (1er port militaire), Naval Group, IFREMER, tertiaire varois, tourisme. Chômage moyen, salaires, pièges. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52257,9 +52257,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-nimes-2026",
-    title: "Travailler à Nîmes en 2026 : tertiaire, agroalimentaire, transport",
-    metaTitle: "Travailler à Nîmes 2026 — Tertiaire, Perrier, LGV",
-    metaDesc: "Chercher un emploi à Nîmes en 2026 : Perrier, Royal Canin, tertiaire régional gardois, LGV Med. Chômage élevé, salaires modérés, pièges d'un bassin languedocien. Honnête.",
+    title: "Travailler à Nîmes en 2027 : tertiaire, agroalimentaire, transport",
+    metaTitle: "Travailler à Nîmes 2027 — Tertiaire, Perrier, LGV",
+    metaDesc: "Chercher un emploi à Nîmes en 2027 : Perrier, Royal Canin, tertiaire régional gardois, LGV Med. Chômage élevé, salaires modérés, pièges d'un bassin languedocien. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52304,9 +52304,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-aix-en-provence-2026",
-    title: "Travailler à Aix-en-Provence en 2026 : tertiaire, ITER, Airbus H",
-    metaTitle: "Travailler à Aix-en-Provence 2026 — Tertiaire, ITER, aéro",
-    metaDesc: "Chercher un emploi à Aix-en-Provence en 2026 : tertiaire signature Aix, Airbus Helicopters, ITER Cadarache, Arkema, université. Chômage moyen, salaires, pièges. Honnête.",
+    title: "Travailler à Aix-en-Provence en 2027 : tertiaire, ITER, Airbus H",
+    metaTitle: "Travailler à Aix-en-Provence 2027 — Tertiaire, ITER, aéro",
+    metaDesc: "Chercher un emploi à Aix-en-Provence en 2027 : tertiaire signature Aix, Airbus Helicopters, ITER Cadarache, Arkema, université. Chômage moyen, salaires, pièges. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52351,9 +52351,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-brest-2026",
-    title: "Travailler à Brest en 2026 : marine, recherche marine, salaires",
-    metaTitle: "Travailler à Brest 2026 — Marine, IFREMER, Thales",
-    metaDesc: "Chercher un emploi à Brest en 2026 : Marine nationale, arsenal Naval Group, IFREMER Ouest, Thales, UBO. Chômage bas, salaires modérés, pièges d'un bassin finistérien. Honnête.",
+    title: "Travailler à Brest en 2027 : marine, recherche marine, salaires",
+    metaTitle: "Travailler à Brest 2027 — Marine, IFREMER, Thales",
+    metaDesc: "Chercher un emploi à Brest en 2027 : Marine nationale, arsenal Naval Group, IFREMER Ouest, Thales, UBO. Chômage bas, salaires modérés, pièges d'un bassin finistérien. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52398,9 +52398,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-le-mans-2026",
-    title: "Travailler au Mans en 2026 : assurances, automobile, TGV Paris",
-    metaTitle: "Travailler au Mans 2026 — Assurances, auto, TGV Paris",
-    metaDesc: "Chercher un emploi au Mans en 2026 : MMA-MACSF assurance, automobile, tertiaire régional, effet TGV Paris 55 min. Chômage moyen, salaires, pièges d'un bassin sarthois. Honnête.",
+    title: "Travailler au Mans en 2027 : assurances, automobile, TGV Paris",
+    metaTitle: "Travailler au Mans 2027 — Assurances, auto, TGV Paris",
+    metaDesc: "Chercher un emploi au Mans en 2027 : MMA-MACSF assurance, automobile, tertiaire régional, effet TGV Paris 55 min. Chômage moyen, salaires, pièges d'un bassin sarthois. Honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52444,9 +52444,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-amiens-2026",
-    title: "Travailler à Amiens en 2026 : industrie, agroalimentaire, salaires",
-    metaTitle: "Travailler à Amiens 2026 — Industrie, agroalimentaire, santé",
-    metaDesc: "Chercher un emploi à Amiens en 2026 : Tereos, Procter & Gamble, Valeo, CHU Amiens-Picardie, UPJV. Chômage élevé, salaires modérés, pièges d'un bassin picard. Guide honnête.",
+    title: "Travailler à Amiens en 2027 : industrie, agroalimentaire, salaires",
+    metaTitle: "Travailler à Amiens 2027 — Industrie, agroalimentaire, santé",
+    metaDesc: "Chercher un emploi à Amiens en 2027 : Tereos, Procter & Gamble, Valeo, CHU Amiens-Picardie, UPJV. Chômage élevé, salaires modérés, pièges d'un bassin picard. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52491,9 +52491,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "travail-a-orleans-2026",
-    title: "Travailler à Orléans en 2026 : pharma, tech, industrie, TGV Paris",
-    metaTitle: "Travailler à Orléans 2026 — Pharma, tech, R&D, TGV",
-    metaDesc: "Chercher un emploi à Orléans en 2026 : Servier R&D Gidy, BRGM siège, John Deere, IBM, tertiaire régional. Chômage moyen, salaires, pièges d'un bassin ligérien. Guide honnête.",
+    title: "Travailler à Orléans en 2027 : pharma, tech, industrie, TGV Paris",
+    metaTitle: "Travailler à Orléans 2027 — Pharma, tech, R&D, TGV",
+    metaDesc: "Chercher un emploi à Orléans en 2027 : Servier R&D Gidy, BRGM siège, John Deere, IBM, tertiaire régional. Chômage moyen, salaires, pièges d'un bassin ligérien. Guide honnête.",
     category: "lifestyle",
     emoji: "💼",
     readMinutes: 8,
@@ -52538,9 +52538,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-paris-2026",
-    title: "Étudier à Paris en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Paris 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Paris en 2026 : Sorbonne, PSL, Sciences Po, logement CROUS, budget mensuel réaliste et pièges à connaître.",
+    title: "Étudier à Paris en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Paris 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Paris en 2027 : Sorbonne, PSL, Sciences Po, logement CROUS, budget mensuel réaliste et pièges à connaître.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52585,9 +52585,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-lyon-2026",
-    title: "Étudier à Lyon en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Lyon 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Lyon en 2026 : Lyon 1 Claude Bernard, INSA, EM Lyon, Centrale, logement CROUS, budget réaliste et pièges à connaître.",
+    title: "Étudier à Lyon en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Lyon 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Lyon en 2027 : Lyon 1 Claude Bernard, INSA, EM Lyon, Centrale, logement CROUS, budget réaliste et pièges à connaître.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52632,9 +52632,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-toulouse-2026",
-    title: "Étudier à Toulouse en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Toulouse 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Toulouse en 2026 : UT Capitole, UT3 Paul Sabatier, ISAE-Supaéro, INSA, logement CROUS et aides mobilisables.",
+    title: "Étudier à Toulouse en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Toulouse 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Toulouse en 2027 : UT Capitole, UT3 Paul Sabatier, ISAE-Supaéro, INSA, logement CROUS et aides mobilisables.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52679,9 +52679,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-lille-2026",
-    title: "Étudier à Lille en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Lille 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Lille en 2026 : Université de Lille, Sciences Po Lille, EDHEC, Centrale Lille, logement CROUS et aides mobilisables.",
+    title: "Étudier à Lille en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Lille 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Lille en 2027 : Université de Lille, Sciences Po Lille, EDHEC, Centrale Lille, logement CROUS et aides mobilisables.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52726,9 +52726,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-bordeaux-2026",
-    title: "Étudier à Bordeaux en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Bordeaux 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Bordeaux en 2026 : Université de Bordeaux, Bordeaux-Montaigne, Sciences Po, Kedge, logement CROUS et aides.",
+    title: "Étudier à Bordeaux en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Bordeaux 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Bordeaux en 2027 : Université de Bordeaux, Bordeaux-Montaigne, Sciences Po, Kedge, logement CROUS et aides.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52773,9 +52773,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-aix-en-provence-2026",
-    title: "Étudier à Aix-en-Provence en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Aix-en-Provence 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Aix-en-Provence en 2026 : Aix-Marseille Université, Sciences Po Aix, IEP, logement CROUS et aides.",
+    title: "Étudier à Aix-en-Provence en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Aix-en-Provence 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Aix-en-Provence en 2027 : Aix-Marseille Université, Sciences Po Aix, IEP, logement CROUS et aides.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52820,9 +52820,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-montpellier-2026",
-    title: "Étudier à Montpellier en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Montpellier 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Montpellier en 2026 : Université de Montpellier, Paul-Valéry, faculté de médecine historique, logement CROUS et aides.",
+    title: "Étudier à Montpellier en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Montpellier 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Montpellier en 2027 : Université de Montpellier, Paul-Valéry, faculté de médecine historique, logement CROUS et aides.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52867,9 +52867,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-rennes-2026",
-    title: "Étudier à Rennes en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Rennes 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Rennes en 2026 : Université de Rennes, Rennes 2, Sciences Po Rennes, INSA, ENS, logement CROUS et aides.",
+    title: "Étudier à Rennes en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Rennes 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Rennes en 2027 : Université de Rennes, Rennes 2, Sciences Po Rennes, INSA, ENS, logement CROUS et aides.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52914,9 +52914,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-strasbourg-2026",
-    title: "Étudier à Strasbourg en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Strasbourg 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Strasbourg en 2026 : Université de Strasbourg, Sciences Po, ENA-INSP, EM Strasbourg, logement CROUS et aides.",
+    title: "Étudier à Strasbourg en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Strasbourg 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Strasbourg en 2027 : Université de Strasbourg, Sciences Po, ENA-INSP, EM Strasbourg, logement CROUS et aides.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -52961,9 +52961,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-nantes-2026",
-    title: "Étudier à Nantes en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Nantes 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Nantes en 2026 : Nantes Université, Centrale Nantes, Audencia, École du Design, logement CROUS et aides.",
+    title: "Étudier à Nantes en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Nantes 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Nantes en 2027 : Nantes Université, Centrale Nantes, Audencia, École du Design, logement CROUS et aides.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -53008,9 +53008,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-grenoble-2026",
-    title: "Étudier à Grenoble en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Grenoble 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Grenoble en 2026 : UGA, Grenoble INP, Sciences Po Grenoble, GEM, logement CROUS et aides Auvergne-Rhône-Alpes.",
+    title: "Étudier à Grenoble en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Grenoble 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Grenoble en 2027 : UGA, Grenoble INP, Sciences Po Grenoble, GEM, logement CROUS et aides Auvergne-Rhône-Alpes.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -53055,9 +53055,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-nice-2026",
-    title: "Étudier à Nice en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Nice 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Nice en 2026 : Université Côte d'Azur, EDHEC, SKEMA, Polytech Nice-Sophia, logement CROUS et aides Sud PACA.",
+    title: "Étudier à Nice en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Nice 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Nice en 2027 : Université Côte d'Azur, EDHEC, SKEMA, Polytech Nice-Sophia, logement CROUS et aides Sud PACA.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -53102,9 +53102,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-clermont-ferrand-2026",
-    title: "Étudier à Clermont-Ferrand en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Clermont-Ferrand 2026 — Établissements, logement",
-    metaDesc: "Universités et grandes écoles à Clermont-Ferrand en 2026 : UCA, ESC Clermont, VetAgro Sup, SIGMA, logement CROUS et aides Auvergne-Rhône-Alpes.",
+    title: "Étudier à Clermont-Ferrand en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Clermont-Ferrand 2027 — Établissements, logement",
+    metaDesc: "Universités et grandes écoles à Clermont-Ferrand en 2027 : UCA, ESC Clermont, VetAgro Sup, SIGMA, logement CROUS et aides Auvergne-Rhône-Alpes.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -53149,9 +53149,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-nancy-2026",
-    title: "Étudier à Nancy en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Nancy 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Nancy en 2026 : Université de Lorraine, Mines Nancy, ARTEM, Sciences Po Nancy, logement CROUS et aides Grand Est.",
+    title: "Étudier à Nancy en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Nancy 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Nancy en 2027 : Université de Lorraine, Mines Nancy, ARTEM, Sciences Po Nancy, logement CROUS et aides Grand Est.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -53196,9 +53196,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "universites-dijon-2026",
-    title: "Étudier à Dijon en 2026 : universités, écoles, logement, coût réel",
-    metaTitle: "Universités Dijon 2026 — Établissements, coût, logement",
-    metaDesc: "Universités et grandes écoles à Dijon en 2026 : Université de Bourgogne, BSB, Sciences Po Dijon, AgroSup, logement CROUS et aides Bourgogne-Franche-Comté.",
+    title: "Étudier à Dijon en 2027 : universités, écoles, logement, coût réel",
+    metaTitle: "Universités Dijon 2027 — Établissements, coût, logement",
+    metaDesc: "Universités et grandes écoles à Dijon en 2027 : Université de Bourgogne, BSB, Sciences Po Dijon, AgroSup, logement CROUS et aides Bourgogne-Franche-Comté.",
     category: "lifestyle",
     emoji: "🎓",
     readMinutes: 8,
@@ -53243,9 +53243,9 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-paris-2026",
-    title: "Parent solo à Paris en 2026 : ce que ça coûte, ce que ça change",
-    metaTitle: "Parent solo à Paris 2026 — Budget, écoles, périscolaire",
-    metaDesc: "Élever seul·e à Paris en 2026 : le budget T3 sur un revenu, la garde d'enfant, les arrondissements qui tiennent, ceux qui craquent. Sans misérabilisme.",
+    title: "Parent solo à Paris en 2027 : ce que ça coûte, ce que ça change",
+    metaTitle: "Parent solo à Paris 2027 — Budget, écoles, périscolaire",
+    metaDesc: "Élever seul·e à Paris en 2027 : le budget T3 sur un revenu, la garde d'enfant, les arrondissements qui tiennent, ceux qui craquent. Sans misérabilisme.",
     category: "famille",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -53289,8 +53289,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-lyon-2026",
-    title: "Parent solo à Lyon en 2026 : la métropole qui rend ça faisable",
-    metaTitle: "Parent solo à Lyon 2026 — Budget, écoles, transports",
+    title: "Parent solo à Lyon en 2027 : la métropole qui rend ça faisable",
+    metaTitle: "Parent solo à Lyon 2027 — Budget, écoles, transports",
     metaDesc: "Élever seul·e à Lyon : T3 à 1 380 €, quatre lignes de métro, écoles 8,9/10, fit 6,6/10 dans un palier de 10 communes. Voici l'arbitrage réel.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53336,8 +53336,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-marseille-2026",
-    title: "Parent solo à Marseille en 2026 : le vrai calcul quartier par quartier",
-    metaTitle: "Parent solo à Marseille 2026 — Budget, écoles, sécurité",
+    title: "Parent solo à Marseille en 2027 : le vrai calcul quartier par quartier",
+    metaTitle: "Parent solo à Marseille 2027 — Budget, écoles, sécurité",
     metaDesc: "Élever seul·e à Marseille : T3 à 1 100 €, un métro court mais utile, une carte sécurité qui varie fortement selon l'arrondissement. Ce que ça change vraiment.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53383,8 +53383,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-toulouse-2026",
-    title: "Parent solo à Toulouse en 2026 : le meilleur rapport écoles-budget du sud",
-    metaTitle: "Parent solo à Toulouse 2026 — Budget, écoles, quartiers",
+    title: "Parent solo à Toulouse en 2027 : le meilleur rapport écoles-budget du sud",
+    metaTitle: "Parent solo à Toulouse 2027 — Budget, écoles, quartiers",
     metaDesc: "Élever seul·e à Toulouse : T3 à 1 150 €, écoles publiques 9,0/10, réseau Tisséo correct mais pas assez pour se passer de voiture. Guide honnête.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53430,8 +53430,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-nice-2026",
-    title: "Parent solo à Nice en 2026 : le coût de vivre au soleil",
-    metaTitle: "Parent solo à Nice 2026 — Budget, écoles, transports",
+    title: "Parent solo à Nice en 2027 : le coût de vivre au soleil",
+    metaTitle: "Parent solo à Nice 2027 — Budget, écoles, transports",
     metaDesc: "Élever seul·e à Nice : T3 à 1 500 €, tram utile mais un métro absent, climat mérité mais coût de la vie qui pique. Le vrai calcul pour un profil monoparental.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53477,8 +53477,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-nantes-2026",
-    title: "Parent solo à Nantes en 2026 : la métropole la plus vivable de l'Ouest",
-    metaTitle: "Parent solo à Nantes 2026 — Budget, écoles, tram",
+    title: "Parent solo à Nantes en 2027 : la métropole la plus vivable de l'Ouest",
+    metaTitle: "Parent solo à Nantes 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Nantes : T3 à 1 150 €, tram dense, écoles 7,9/10, sécurité correcte. Le meilleur candidat sérieux à Lyon pour un parent solo.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53524,8 +53524,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-montpellier-2026",
-    title: "Parent solo à Montpellier en 2026 : soleil, tram, et budget qui reste tendu",
-    metaTitle: "Parent solo à Montpellier 2026 — Budget, écoles, tram",
+    title: "Parent solo à Montpellier en 2027 : soleil, tram, et budget qui reste tendu",
+    metaTitle: "Parent solo à Montpellier 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Montpellier : T3 à 1 150 €, quatre lignes de tram, climat 300 jours de soleil. Un choix rationnel si le revenu suit, pas si le budget est serré.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53571,8 +53571,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-strasbourg-2026",
-    title: "Parent solo à Strasbourg en 2026 : la ville vélo qui rend ça faisable",
-    metaTitle: "Parent solo à Strasbourg 2026 — Budget, écoles, vélo",
+    title: "Parent solo à Strasbourg en 2027 : la ville vélo qui rend ça faisable",
+    metaTitle: "Parent solo à Strasbourg 2027 — Budget, écoles, vélo",
     metaDesc: "Élever seul·e à Strasbourg : T3 à 1 080 €, tram et vélo omniprésents, écoles 8,7/10. Un des meilleurs candidats de province pour un parent solo.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53618,8 +53618,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bordeaux-2026",
-    title: "Parent solo à Bordeaux en 2026 : ce qui a changé depuis la LGV",
-    metaTitle: "Parent solo à Bordeaux 2026 — Budget, écoles, tram",
+    title: "Parent solo à Bordeaux en 2027 : ce qui a changé depuis la LGV",
+    metaTitle: "Parent solo à Bordeaux 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Bordeaux : T3 à 1 200 €, tram étendu, écoles 7,4/10. La ville est plus tendue depuis la LGV Paris, ce qui change les arbitrages.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53665,8 +53665,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-lille-2026",
-    title: "Parent solo à Lille en 2026 : la métropole la moins chère du top 10",
-    metaTitle: "Parent solo à Lille 2026 — Budget, écoles, métro",
+    title: "Parent solo à Lille en 2027 : la métropole la moins chère du top 10",
+    metaTitle: "Parent solo à Lille 2027 — Budget, écoles, métro",
     metaDesc: "Élever seul·e à Lille : T3 à 1 080 €, deux métros automatiques, écoles 7,9/10. Un des meilleurs rapports coût-transports, avec un filtre sécurité à faire.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -53772,7 +53772,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-denis-reunion-2026",
     title: "10 choses à faire à Saint-Denis de La Réunion (le chef-lieu créole)",
-    metaTitle: "10 choses à faire à Saint-Denis (La Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-Denis (La Réunion) 2027",
     metaDesc: "Barachois, rue de Paris, Jardin de l'État, Mafate, Salazie, Piton de la Fournaise : 10 activités à Saint-Denis de La Réunion et autour du chef-lieu.",
     category: "tourisme",
     emoji: "🌋",
@@ -53834,7 +53834,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-paul-reunion-2026",
     title: "10 choses à faire à Saint-Paul (La Réunion, côte ouest)",
-    metaTitle: "10 choses à faire à Saint-Paul (La Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-Paul (La Réunion) 2027",
     metaDesc: "Marché du front de mer, cimetière marin, lagon de l'Ermitage, Boucan Canot, Maïdo, baleines : 10 activités à Saint-Paul sur la côte ouest de La Réunion.",
     category: "tourisme",
     emoji: "🏝️",
@@ -53896,7 +53896,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-pierre-reunion-2026",
     title: "10 choses à faire à Saint-Pierre (La Réunion, le Sud)",
-    metaTitle: "10 choses à faire à Saint-Pierre (La Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-Pierre (La Réunion) 2027",
     metaDesc: "Marché du samedi, front de mer, Saga du Rhum, Sud sauvage, Grand Brûlé, Cilaos, Entre-Deux : 10 activités à Saint-Pierre et dans le sud de La Réunion.",
     category: "tourisme",
     emoji: "☀️",
@@ -53958,7 +53958,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-fort-de-france-2026",
     title: "10 choses à faire à Fort-de-France (Martinique)",
-    metaTitle: "10 choses à faire à Fort-de-France 2026",
+    metaTitle: "10 choses à faire à Fort-de-France 2027",
     metaDesc: "Bibliothèque Schœlcher, Fort Saint-Louis, grand marché, jardin de Balata, Trois-Îlets, Montagne Pelée, rhum AOC : 10 activités à Fort-de-France.",
     category: "tourisme",
     emoji: "🌺",
@@ -54020,7 +54020,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pointe-a-pitre-2026",
     title: "10 choses à faire à Pointe-à-Pitre (Guadeloupe)",
-    metaTitle: "10 choses à faire à Pointe-à-Pitre 2026",
+    metaTitle: "10 choses à faire à Pointe-à-Pitre 2027",
     metaDesc: "Mémorial ACTe, marché Saint-Antoine, place de la Victoire, musée Saint-John-Perse, Les Saintes, Soufrière : 10 activités à Pointe-à-Pitre en Guadeloupe.",
     category: "tourisme",
     emoji: "⚓",
@@ -54082,7 +54082,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cayenne-2026",
     title: "10 choses à faire à Cayenne (Guyane)",
-    metaTitle: "10 choses à faire à Cayenne 2026",
+    metaTitle: "10 choses à faire à Cayenne 2027",
     metaDesc: "Place des Palmistes, fort Cépérou, marché, Rémire-Montjoly, centre spatial de Kourou, îles du Salut, marais de Kaw : 10 activités à Cayenne en Guyane.",
     category: "tourisme",
     emoji: "🚀",
@@ -54144,7 +54144,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-versailles-2026",
     title: "10 choses à faire à Versailles (au-delà de la galerie des Glaces)",
-    metaTitle: "10 choses à faire à Versailles 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Versailles 2027 — activités et sorties",
     metaDesc: "Château, jardins de Le Nôtre, Trianon, Potager du Roi, salle du Jeu de paume, marché Notre-Dame : 10 activités à Versailles, dont la moitié sans billet.",
     category: "tourisme",
     emoji: "👑",
@@ -54206,7 +54206,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-denis-2026",
     title: "10 choses à faire à Saint-Denis (Seine-Saint-Denis)",
-    metaTitle: "10 choses à faire à Saint-Denis 93 en 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Saint-Denis 93 en 2027 — activités et sorties",
     metaDesc: "Basilique et nécropole royale, musée Paul-Éluard, marché, Stade de France, centre aquatique olympique, canal : 10 activités à Saint-Denis en Seine-Saint-Denis.",
     category: "tourisme",
     emoji: "⛪",
@@ -54267,7 +54267,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-roubaix-2026",
     title: "10 choses à faire à Roubaix (la ville qui a transformé ses usines en musées)",
-    metaTitle: "10 choses à faire à Roubaix 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Roubaix 2027 — activités et sorties locales",
     metaDesc: "La Piscine, la Manufacture, la Condition Publique, parc Barbieux, villa Cavrois, vélodrome de Paris-Roubaix : 10 activités à Roubaix dans le Nord.",
     category: "tourisme",
     emoji: "🏊",
@@ -54329,7 +54329,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-tourcoing-2026",
     title: "10 choses à faire à Tourcoing (art contemporain, carillon et bunker du Débarquement)",
-    metaTitle: "10 choses à faire à Tourcoing 2026 — activités et sorties locales",
+    metaTitle: "10 choses à faire à Tourcoing 2027 — activités et sorties locales",
     metaDesc: "MUba Eugène-Leroy, Le Fresnoy, hospice d'Havré, carillon Saint-Christophe, musée du 5 juin 1944 : 10 activités à Tourcoing, aux portes de la Belgique.",
     category: "tourisme",
     emoji: "🎨",
@@ -54391,7 +54391,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-boulogne-billancourt-2026",
     title: "10 choses à faire à Boulogne-Billancourt (jardins d'Albert Kahn, île Seguin et années 1930)",
-    metaTitle: "10 choses à faire à Boulogne-Billancourt 2026",
+    metaTitle: "10 choses à faire à Boulogne-Billancourt 2027",
     metaDesc: "Musée Albert-Kahn, Seine Musicale sur l'île Seguin, musée des Années Trente, musée Paul-Belmondo, marché Escudier : 10 activités à Boulogne-Billancourt.",
     category: "tourisme",
     emoji: "🌿",
@@ -54452,7 +54452,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-villeurbanne-2026",
     title: "10 choses à faire à Villeurbanne (les Gratte-Ciel, le TNP et l'art contemporain)",
-    metaTitle: "10 choses à faire à Villeurbanne 2026 — activités et sorties",
+    metaTitle: "10 choses à faire à Villeurbanne 2027 — activités et sorties",
     metaDesc: "Gratte-Ciel de 1934, TNP, Institut d'art contemporain, Le Rize, parc de la Feyssine, usines TASE : 10 activités à Villeurbanne, aux portes de Lyon.",
     category: "tourisme",
     emoji: "🏙️",
@@ -54513,7 +54513,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-tampon-2026",
     title: "10 choses à faire au Tampon (La Réunion) : le volcan, les Hauts et le froid tropical",
-    metaTitle: "10 choses à faire au Tampon 2026 — Plaine des Cafres et volcan",
+    metaTitle: "10 choses à faire au Tampon 2027 — Plaine des Cafres et volcan",
     metaDesc: "Piton de la Fournaise, Plaine des Sables, Cité du Volcan, Grand Bassin, Bois-Court, Miel Vert : 10 activités au Tampon, dans les Hauts de La Réunion.",
     category: "tourisme",
     emoji: "🌋",
@@ -54574,8 +54574,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-paris-2026",
-    title: "Vacances célibataire à Paris en 2026 : où sortir, où dormir seul·e, quand y aller",
-    metaTitle: "Vacances célibataire Paris 2026 — Sortir, dormir seul·e, budget",
+    title: "Vacances célibataire à Paris en 2027 : où sortir, où dormir seul·e, quand y aller",
+    metaTitle: "Vacances célibataire Paris 2027 — Sortir, dormir seul·e, budget",
     metaDesc: "Paris pour un séjour célibataire : quartiers vivants tous les soirs, hôtels d'affaires en semaine pour éviter le supplément single, sortie du bar à minuit sans voiture.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54619,8 +54619,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-lyon-2026",
-    title: "Vacances célibataire à Lyon en 2026 : sorties, bouchons, quartiers pour un séjour seul·e",
-    metaTitle: "Vacances célibataire Lyon 2026 — Sortir seul·e, bouchons",
+    title: "Vacances célibataire à Lyon en 2027 : sorties, bouchons, quartiers pour un séjour seul·e",
+    metaTitle: "Vacances célibataire Lyon 2027 — Sortir seul·e, bouchons",
     metaDesc: "Lyon en séjour célibataire : où sortir en semaine, quartiers vivants tous les soirs, se déplacer sans voiture après minuit, éviter le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54665,8 +54665,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-bordeaux-2026",
-    title: "Vacances célibataire à Bordeaux en 2026 : bars à vins, quartiers, séjour sans voiture",
-    metaTitle: "Vacances célibataire Bordeaux 2026 — Bars à vins, quartiers",
+    title: "Vacances célibataire à Bordeaux en 2027 : bars à vins, quartiers, séjour sans voiture",
+    metaTitle: "Vacances célibataire Bordeaux 2027 — Bars à vins, quartiers",
     metaDesc: "Bordeaux pour un séjour célibataire : bars à vins de Saint-Pierre, quartier des Chartrons, tramway jusqu'à minuit, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54711,8 +54711,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-nantes-2026",
-    title: "Vacances célibataire à Nantes en 2026 : Bouffay, Île de Nantes, séjour sans voiture",
-    metaTitle: "Vacances célibataire Nantes 2026 — Bouffay, sortir seul·e, budget",
+    title: "Vacances célibataire à Nantes en 2027 : Bouffay, Île de Nantes, séjour sans voiture",
+    metaTitle: "Vacances célibataire Nantes 2027 — Bouffay, sortir seul·e, budget",
     metaDesc: "Nantes en séjour célibataire : sortir au Bouffay tous les soirs, Île de Nantes créative, tramway tardif, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54757,8 +54757,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-strasbourg-2026",
-    title: "Vacances célibataire à Strasbourg en 2026 : winstubs, Krutenau, séjour sans voiture",
-    metaTitle: "Vacances célibataire Strasbourg 2026 — Winstubs, sortir, budget",
+    title: "Vacances célibataire à Strasbourg en 2027 : winstubs, Krutenau, séjour sans voiture",
+    metaTitle: "Vacances célibataire Strasbourg 2027 — Winstubs, sortir, budget",
     metaDesc: "Strasbourg en séjour célibataire : sortir à la Krutenau, winstubs de la Grande Île, tram jusque tard, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54803,8 +54803,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-rennes-2026",
-    title: "Vacances célibataire à Rennes en 2026 : centre médiéval, mardi soir, séjour sans voiture",
-    metaTitle: "Vacances célibataire Rennes 2026 — Sortir seul·e, budget, quand",
+    title: "Vacances célibataire à Rennes en 2027 : centre médiéval, mardi soir, séjour sans voiture",
+    metaTitle: "Vacances célibataire Rennes 2027 — Sortir seul·e, budget, quand",
     metaDesc: "Rennes en séjour célibataire : centre médiéval piéton, sortir un mardi soir, métro tardif, contourner le supplément single sur une ville étudiante.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54849,8 +54849,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-montpellier-2026",
-    title: "Vacances célibataire à Montpellier en 2026 : Écusson, Comédie, séjour sans voiture",
-    metaTitle: "Vacances célibataire Montpellier 2026 — Écusson, sortir, budget",
+    title: "Vacances célibataire à Montpellier en 2027 : Écusson, Comédie, séjour sans voiture",
+    metaTitle: "Vacances célibataire Montpellier 2027 — Écusson, sortir, budget",
     metaDesc: "Montpellier en séjour célibataire : Écusson et place de la Comédie, terrasses ouvertes tard, tramway tardif, contourner le supplément single sur ville étudiante.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54895,8 +54895,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-bayonne-2026",
-    title: "Vacances célibataire à Bayonne en 2026 : pintxos, Petit Bayonne, séjour sans voiture",
-    metaTitle: "Vacances célibataire Bayonne 2026 — Pintxos, sortir seul·e",
+    title: "Vacances célibataire à Bayonne en 2027 : pintxos, Petit Bayonne, séjour sans voiture",
+    metaTitle: "Vacances célibataire Bayonne 2027 — Pintxos, sortir seul·e",
     metaDesc: "Bayonne en séjour célibataire : bars à pintxos de Petit Bayonne, ambiance basque toute l'année, TGV direct, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54941,8 +54941,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-toulouse-2026",
-    title: "Vacances célibataire à Toulouse en 2026 : Carmes, Saint-Cyprien, séjour sans voiture",
-    metaTitle: "Vacances célibataire Toulouse 2026 — Sortir seul·e, quartiers",
+    title: "Vacances célibataire à Toulouse en 2027 : Carmes, Saint-Cyprien, séjour sans voiture",
+    metaTitle: "Vacances célibataire Toulouse 2027 — Sortir seul·e, quartiers",
     metaDesc: "Toulouse en séjour célibataire : bars des Carmes, ambiance étudiante et rugby toute l'année, métro tardif le week-end, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -54986,8 +54986,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-lille-2026",
-    title: "Vacances célibataire à Lille en 2026 : Vieux-Lille, estaminets, séjour sans voiture",
-    metaTitle: "Vacances célibataire Lille 2026 — Vieux-Lille, sortir, budget",
+    title: "Vacances célibataire à Lille en 2027 : Vieux-Lille, estaminets, séjour sans voiture",
+    metaTitle: "Vacances célibataire Lille 2027 — Vieux-Lille, sortir, budget",
     metaDesc: "Lille en séjour célibataire : Vieux-Lille et Wazemmes, estaminets, TGV Paris 1 h, Eurostar Londres, contourner le supplément single sur ville étudiante.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55031,8 +55031,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-aix-en-provence-2026",
-    title: "Vacances célibataire à Aix-en-Provence en 2026 : Cours Mirabeau, Vieil Aix, ville étudiante",
-    metaTitle: "Vacances célibataire Aix-en-Provence 2026 — Sortir, budget",
+    title: "Vacances célibataire à Aix-en-Provence en 2027 : Cours Mirabeau, Vieil Aix, ville étudiante",
+    metaTitle: "Vacances célibataire Aix-en-Provence 2027 — Sortir, budget",
     metaDesc: "Aix-en-Provence en séjour célibataire : Cours Mirabeau, Vieil Aix, ville qui vit toute l'année grâce à ses étudiants, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55076,8 +55076,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-angers-2026",
-    title: "Vacances célibataire à Angers en 2026 : Doutre, Cité, séjour sans voiture",
-    metaTitle: "Vacances célibataire Angers 2026 — Sortir seul·e, budget",
+    title: "Vacances célibataire à Angers en 2027 : Doutre, Cité, séjour sans voiture",
+    metaTitle: "Vacances célibataire Angers 2027 — Sortir seul·e, budget",
     metaDesc: "Angers en séjour célibataire : ville étudiante vivante toute l'année, Le Chabada, TGV Paris 1h30, tramway récent, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55121,8 +55121,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-grenoble-2026",
-    title: "Vacances célibataire à Grenoble en 2026 : Berriat, hyper-centre, séjour sans voiture",
-    metaTitle: "Vacances célibataire Grenoble 2026 — Berriat, sortir, budget",
+    title: "Vacances célibataire à Grenoble en 2027 : Berriat, hyper-centre, séjour sans voiture",
+    metaTitle: "Vacances célibataire Grenoble 2027 — Berriat, sortir, budget",
     metaDesc: "Grenoble en séjour célibataire : Berriat et Notre-Dame, tramway tardif, ville étudiante vivante hors saison, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55166,8 +55166,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-dijon-2026",
-    title: "Vacances célibataire à Dijon en 2026 : centre historique, bars à vins, séjour sans voiture",
-    metaTitle: "Vacances célibataire Dijon 2026 — Sortir seul·e, budget",
+    title: "Vacances célibataire à Dijon en 2027 : centre historique, bars à vins, séjour sans voiture",
+    metaTitle: "Vacances célibataire Dijon 2027 — Sortir seul·e, budget",
     metaDesc: "Dijon en séjour célibataire : centre historique piéton, bars à vins de Bourgogne, TGV Paris 1h30, tramway récent, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55211,8 +55211,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-la-rochelle-2026",
-    title: "Vacances célibataire à La Rochelle en 2026 : Vieux Port, Cours des Dames, hors saison",
-    metaTitle: "Vacances célibataire La Rochelle 2026 — Sortir seul·e, budget",
+    title: "Vacances célibataire à La Rochelle en 2027 : Vieux Port, Cours des Dames, hors saison",
+    metaTitle: "Vacances célibataire La Rochelle 2027 — Sortir seul·e, budget",
     metaDesc: "La Rochelle en séjour célibataire : la seule ville portuaire qui vit hors saison, Vieux Port, TGV Paris 2 h 30, Yélo, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55256,8 +55256,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-nancy-2026",
-    title: "Vacances célibataire à Nancy en 2026 : Ville-Vieille, place Stanislas, séjour sans voiture",
-    metaTitle: "Vacances célibataire Nancy 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Nancy en 2027 : Ville-Vieille, place Stanislas, séjour sans voiture",
+    metaTitle: "Vacances célibataire Nancy 2027 : sortir seul·e, quartiers",
     metaDesc: "Nancy en séjour célibataire : 36,4 % de 15-29 ans, culture 7,6/10, Ville-Vieille piétonne, TGV depuis Paris. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55301,8 +55301,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-poitiers-2026",
-    title: "Vacances célibataire à Poitiers en 2026 : plateau piéton, Confort Moderne, séjour sans voiture",
-    metaTitle: "Vacances célibataire Poitiers 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Poitiers en 2027 : plateau piéton, Confort Moderne, séjour sans voiture",
+    metaTitle: "Vacances célibataire Poitiers 2027 : sortir seul·e, budget",
     metaDesc: "Poitiers en séjour célibataire : 36 % de 15-29 ans, coût 6,6/10, plateau piéton, TGV depuis Paris. Où loger, sortir en semaine, limiter le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55346,8 +55346,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-rouen-2026",
-    title: "Vacances célibataire à Rouen en 2026 : Vieux-Marché, Eau-de-Robec, séjour sans voiture",
-    metaTitle: "Vacances célibataire Rouen 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Rouen en 2027 : Vieux-Marché, Eau-de-Robec, séjour sans voiture",
+    metaTitle: "Vacances célibataire Rouen 2027 : sortir seul·e, quartiers",
     metaDesc: "Rouen en séjour célibataire : 33,4 % de 15-29 ans, culture 7,3/10, centre médiéval piéton, métro et TEOR. Loger, sortir un mardi, limiter le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55391,8 +55391,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-caen-2026",
-    title: "Vacances célibataire à Caen en 2026 : Vaugueux, rue Écuyère, séjour sans voiture",
-    metaTitle: "Vacances célibataire Caen 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Caen en 2027 : Vaugueux, rue Écuyère, séjour sans voiture",
+    metaTitle: "Vacances célibataire Caen 2027 : sortir seul·e, quartiers",
     metaDesc: "Caen en séjour célibataire : 33,3 % de 15-29 ans, sécurité 5,9/10, tramway depuis 2019, mer à un quart d'heure de train. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55436,8 +55436,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-clermont-ferrand-2026",
-    title: "Vacances célibataire à Clermont-Ferrand en 2026 : Jaude, Coopé, volcans sans voiture",
-    metaTitle: "Vacances célibataire Clermont-Ferrand 2026 : sortir seul·e",
+    title: "Vacances célibataire à Clermont-Ferrand en 2027 : Jaude, Coopé, volcans sans voiture",
+    metaTitle: "Vacances célibataire Clermont-Ferrand 2027 : sortir seul·e",
     metaDesc: "Clermont-Ferrand en séjour célibataire : 31,5 % de 15-29 ans, nature 7,2/10, tramway ligne A, La Coopérative de Mai. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55481,8 +55481,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-tours-2026",
-    title: "Vacances célibataire à Tours en 2026 : place Plumereau, Vieux Tours, séjour sans voiture",
-    metaTitle: "Vacances célibataire Tours 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Tours en 2027 : place Plumereau, Vieux Tours, séjour sans voiture",
+    metaTitle: "Vacances célibataire Tours 2027 : sortir seul·e, quartiers",
     metaDesc: "Tours en séjour célibataire : 29,7 % de 15-29 ans, culture 7,3/10, tramway et TGV depuis Paris, place Plumereau. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55526,8 +55526,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-besancon-2026",
-    title: "Vacances célibataire à Besançon en 2026 : Battant, la Boucle, séjour sans voiture",
-    metaTitle: "Vacances célibataire Besançon 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Besançon en 2027 : Battant, la Boucle, séjour sans voiture",
+    metaTitle: "Vacances célibataire Besançon 2027 : sortir seul·e, budget",
     metaDesc: "Besançon en séjour célibataire : 28,9 % de 15-29 ans, nature 6,4/10, tramway et TGV en gare Viotte, quartier Battant. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55571,8 +55571,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-brest-2026",
-    title: "Vacances célibataire à Brest en 2026 : Saint-Martin, les Capucins, séjour sans voiture",
-    metaTitle: "Vacances célibataire Brest 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Brest en 2027 : Saint-Martin, les Capucins, séjour sans voiture",
+    metaTitle: "Vacances célibataire Brest 2027 : sortir seul·e, quartiers",
     metaDesc: "Brest en séjour célibataire : 28,8 % de 15-29 ans, 24e ville de France sur ce critère, tramway et téléphérique. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55616,8 +55616,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-reims-2026",
-    title: "Vacances célibataire à Reims en 2026 : centre cathédrale, Cartonnerie, séjour sans voiture",
-    metaTitle: "Vacances célibataire Reims 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Reims en 2027 : centre cathédrale, Cartonnerie, séjour sans voiture",
+    metaTitle: "Vacances célibataire Reims 2027 : sortir seul·e, quartiers",
     metaDesc: "Reims en séjour célibataire : 27,5 % de 15-29 ans, culture 7,6/10, la plus élevée de ce lot, tramway et TGV. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55661,8 +55661,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-orleans-2026",
-    title: "Vacances célibataire à Orléans en 2026 : centre piéton, Astrolabe, séjour sans voiture",
-    metaTitle: "Vacances célibataire Orléans 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Orléans en 2027 : centre piéton, Astrolabe, séjour sans voiture",
+    metaTitle: "Vacances célibataire Orléans 2027 : sortir seul·e, budget",
     metaDesc: "Orléans en séjour célibataire : 25,6 % de 15-29 ans, deux lignes de tramway, Paris en une heure. Loger, sortir un mardi, contourner le supplément single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55706,8 +55706,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-metz-2026",
-    title: "Vacances célibataire à Metz en 2026 : centre Pompidou, Trinitaires, séjour sans voiture",
-    metaTitle: "Vacances célibataire Metz 2026 : sortir seul·e, quartiers",
+    title: "Vacances célibataire à Metz en 2027 : centre Pompidou, Trinitaires, séjour sans voiture",
+    metaTitle: "Vacances célibataire Metz 2027 : sortir seul·e, quartiers",
     metaDesc: "Metz en séjour célibataire : 25,6 % de 15-29 ans, culture 7,3/10, Cité musicale et Centre Pompidou. Loger, sortir un mardi, budget solo sans voiture.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55751,8 +55751,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-troyes-2026",
-    title: "Vacances célibataire à Troyes en 2026 : bouchon de champagne, Chapelle Argence, séjour sans voiture",
-    metaTitle: "Vacances célibataire Troyes 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Troyes en 2027 : bouchon de champagne, Chapelle Argence, séjour sans voiture",
+    metaTitle: "Vacances célibataire Troyes 2027 : sortir seul·e, budget",
     metaDesc: "Troyes en séjour célibataire : 24,6 % de 15-29 ans, coût 7,1/10, le plus favorable de ce lot, Paris-Est en 1 h 30 sans TGV. Loger, sortir, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55796,8 +55796,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-pau-2026",
-    title: "Vacances célibataire à Pau en 2026 : boulevard des Pyrénées, Le Foirail, séjour sans voiture",
-    metaTitle: "Vacances célibataire Pau 2026 : sortir seul·e, budget solo",
+    title: "Vacances célibataire à Pau en 2027 : boulevard des Pyrénées, Le Foirail, séjour sans voiture",
+    metaTitle: "Vacances célibataire Pau 2027 : sortir seul·e, budget solo",
     metaDesc: "Pau en séjour célibataire : 24,1 % de 15-29 ans, nature 7,0/10, funiculaire gratuit et BHNS à hydrogène. Loger, sortir un mardi, contourner le single.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55841,8 +55841,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-chambery-2026",
-    title: "Vacances célibataire à Chambéry en 2026 : vieille ville, Malraux, séjour sans voiture",
-    metaTitle: "Vacances célibataire Chambéry 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Chambéry en 2027 : vieille ville, Malraux, séjour sans voiture",
+    metaTitle: "Vacances célibataire Chambéry 2027 : sortir seul·e, budget",
     metaDesc: "Chambéry en séjour célibataire : 22,7 % de 15-29 ans, vie 7,0/10 et nature 8,1/10, les meilleures de ce lot. Loger, sortir un mardi, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55886,8 +55886,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-le-mans-2026",
-    title: "Vacances célibataire au Mans en 2026 : Cité Plantagenêt, tramway, budget solo",
-    metaTitle: "Vacances célibataire Le Mans 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire au Mans en 2027 : Cité Plantagenêt, tramway, budget solo",
+    metaTitle: "Vacances célibataire Le Mans 2027 : sortir seul·e, budget",
     metaDesc: "Le Mans en séjour célibataire : 21,7 % de 15-29 ans, deux lignes de tramway, un centre médiéval éclairé tous les soirs d'été. Loger, sortir, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55931,8 +55931,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-valence-2026",
-    title: "Vacances célibataire à Valence en 2026 : centre historique, TGV, budget solo",
-    metaTitle: "Vacances célibataire Valence 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Valence en 2027 : centre historique, TGV, budget solo",
+    metaTitle: "Vacances célibataire Valence 2027 : sortir seul·e, budget",
     metaDesc: "Valence en séjour célibataire : meilleur score de transport et de coût du lot, 21,4 % de 15-29 ans. Loger, sortir un mardi, et ne pas se tromper de gare.",
     category: "lifestyle",
     emoji: "🍸",
@@ -55976,7 +55976,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-denis-reunion-2026",
-    title: "Vacances célibataire à Saint-Denis de La Réunion en 2026 : Barachois, saisons inversées",
+    title: "Vacances célibataire à Saint-Denis de La Réunion en 2027 : Barachois, saisons inversées",
     metaTitle: "Vacances célibataire Saint-Denis 974 : sortir seul·e, budget",
     metaDesc: "Saint-Denis de La Réunion en séjour célibataire : la ville la plus vivante du lot, aucun train sur l'île, et un calendrier entièrement inversé.",
     category: "lifestyle",
@@ -56021,8 +56021,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-mulhouse-2026",
-    title: "Vacances célibataire à Mulhouse en 2026 : Nouveau Bassin, tramway, budget solo",
-    metaTitle: "Vacances célibataire Mulhouse 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Mulhouse en 2027 : Nouveau Bassin, tramway, budget solo",
+    metaTitle: "Vacances célibataire Mulhouse 2027 : sortir seul·e, budget",
     metaDesc: "Mulhouse en séjour célibataire : trois lignes de tramway, des loyers parmi les plus bas du lot et une friche industrielle devenue quartier de sortie.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56066,8 +56066,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-avignon-2026",
-    title: "Vacances célibataire à Avignon en 2026 : intra-muros, festival, budget solo",
-    metaTitle: "Vacances célibataire Avignon 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Avignon en 2027 : intra-muros, festival, budget solo",
+    metaTitle: "Vacances célibataire Avignon 2027 : sortir seul·e, budget",
     metaDesc: "Avignon en séjour célibataire : culture 9,0/10, le maximum du lot, mais un calendrier qui concentre l'essentiel de l'année sur trois semaines de juillet.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56111,8 +56111,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-bourges-2026",
-    title: "Vacances célibataire à Bourges en 2026 : centre UNESCO, Printemps, budget solo",
-    metaTitle: "Vacances célibataire Bourges 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Bourges en 2027 : centre UNESCO, Printemps, budget solo",
+    metaTitle: "Vacances célibataire Bourges 2027 : sortir seul·e, budget",
     metaDesc: "Bourges en séjour célibataire : les loyers les plus bas du lot, aucun TGV ni tramway, et une capitale européenne de la culture programmée pour 2028.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56156,8 +56156,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-quimper-2026",
-    title: "Vacances célibataire à Quimper en 2026 : centre breton, TGV, budget solo",
-    metaTitle: "Vacances célibataire Quimper 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Quimper en 2027 : centre breton, TGV, budget solo",
+    metaTitle: "Vacances célibataire Quimper 2027 : sortir seul·e, budget",
     metaDesc: "Quimper en séjour célibataire : la meilleure sécurité et le meilleur confort du lot, mais la part de 15-29 ans la plus basse. Loger, sortir, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56201,8 +56201,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-nice-2026",
-    title: "Vacances célibataire à Nice en 2026 : tram jusqu'à une heure, février en pointe, budget solo",
-    metaTitle: "Vacances célibataire Nice 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Nice en 2027 : tram jusqu'à une heure, février en pointe, budget solo",
+    metaTitle: "Vacances célibataire Nice 2027 : sortir seul·e, budget",
     metaDesc: "Nice en séjour célibataire : le meilleur transport du lot, un tram qui roule jusqu'à une heure, le loyer le plus élevé des sept. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56246,8 +56246,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-annecy-2026",
-    title: "Vacances célibataire à Annecy en 2026 : la Cité de l'animation change la donne hors saison",
-    metaTitle: "Vacances célibataire Annecy 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Annecy en 2027 : la Cité de l'animation change la donne hors saison",
+    metaTitle: "Vacances célibataire Annecy 2027 : sortir seul·e, budget",
     metaDesc: "Annecy en séjour célibataire : le meilleur cadre de vie de la série, le coût le plus défavorable après Paris, un équipement neuf ouvert 362 jours par an.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56291,8 +56291,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-colmar-2026",
-    title: "Vacances célibataire à Colmar en 2026 : la seule ville de la série dont la pointe est en hiver",
-    metaTitle: "Vacances célibataire Colmar 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Colmar en 2027 : la seule ville de la série dont la pointe est en hiver",
+    metaTitle: "Vacances célibataire Colmar 2027 : sortir seul·e, budget",
     metaDesc: "Colmar en séjour célibataire : meilleur score de culture du lot à égalité avec Nice, et un calendrier inversé qui met décembre en pointe. Loger et sortir.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56336,8 +56336,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-pierre-reunion-2026",
-    title: "Vacances célibataire à Saint-Pierre de La Réunion en 2026 : côte sous le vent, hiver austral, budget solo",
-    metaTitle: "Vacances célibataire Saint-Pierre 2026 : sortir, budget",
+    title: "Vacances célibataire à Saint-Pierre de La Réunion en 2027 : côte sous le vent, hiver austral, budget solo",
+    metaTitle: "Vacances célibataire Saint-Pierre 2027 : sortir, budget",
     metaDesc: "Saint-Pierre en séjour célibataire : la population la plus jeune du lot, le studio le moins cher des sept, aucun train sur l'île. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56381,8 +56381,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-niort-2026",
-    title: "Vacances célibataire à Niort en 2026 : une ville qui travaille, le deux-pièces le moins cher du lot",
-    metaTitle: "Vacances célibataire Niort 2026 : sortir seul·e, budget",
+    title: "Vacances célibataire à Niort en 2027 : une ville qui travaille, le deux-pièces le moins cher du lot",
+    metaTitle: "Vacances célibataire Niort 2027 : sortir seul·e, budget",
     metaDesc: "Niort en séjour célibataire : aucune réputation touristique, plus de dix mille emplois mutualistes, le loyer le plus bas des sept. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56426,8 +56426,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-montauban-2026",
-    title: "Vacances célibataire à Montauban en 2026 : la deuxième destination la moins chère de la série",
-    metaTitle: "Vacances célibataire Montauban 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Montauban en 2027 : la deuxième destination la moins chère de la série",
+    metaTitle: "Vacances célibataire Montauban 2027 : sortir, budget solo",
     metaDesc: "Montauban en séjour célibataire : le deuxième meilleur score de coût de la série derrière Albi, et des 15-29 ans sous la médiane. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56471,8 +56471,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-fort-de-france-2026",
-    title: "Vacances célibataire à Fort-de-France en 2026 : une capitale qui travaille, pas une station",
-    metaTitle: "Vacances célibataire Fort-de-France 2026 : sortir, budget",
+    title: "Vacances célibataire à Fort-de-France en 2027 : une capitale qui travaille, pas une station",
+    metaTitle: "Vacances célibataire Fort-de-France 2027 : sortir, budget",
     metaDesc: "Fort-de-France en célibataire : la part de 15-29 ans la plus basse de la série, une scène nationale à cent soixante spectacles par saison. Loger et sortir.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56516,8 +56516,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-arras-2026",
-    title: "Vacances célibataire à Arras en 2026 : le logement le moins cher des cinquante destinations",
-    metaTitle: "Vacances célibataire Arras 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Arras en 2027 : le logement le moins cher des cinquante destinations",
+    metaTitle: "Vacances célibataire Arras 2027 : sortir, budget solo",
     metaDesc: "Arras en séjour célibataire : studio, deux-pièces et trois-pièces les moins chers des 50 destinations de la série, et 24,5 % de 15-29 ans.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56561,8 +56561,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-angouleme-2026",
-    title: "Vacances célibataire à Angoulême en 2026 : le festival n'a pas eu lieu, la ville tient quand même",
-    metaTitle: "Vacances célibataire Angoulême 2026 : sortir, budget",
+    title: "Vacances célibataire à Angoulême en 2027 : le festival n'a pas eu lieu, la ville tient quand même",
+    metaTitle: "Vacances célibataire Angoulême 2027 : sortir, budget",
     metaDesc: "Angoulême en séjour célibataire : l'édition 2026 du festival de BD a été annulée, et c'est l'équipement permanent qui porte la ville. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56606,8 +56606,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-compiegne-2026",
-    title: "Vacances célibataire à Compiègne en 2026 : le bus est gratuit depuis 1975",
-    metaTitle: "Vacances célibataire Compiègne 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Compiègne en 2027 : le bus est gratuit depuis 1975",
+    metaTitle: "Vacances célibataire Compiègne 2027 : sortir, budget solo",
     metaDesc: "Compiègne en séjour célibataire : réseau de bus entièrement gratuit, 39 minutes de Paris-Nord en direct, 23,9 % de 15-29 ans. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56651,8 +56651,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-albi-2026",
-    title: "Vacances célibataire à Albi en 2026 : la destination la moins chère de la série, et la plus âgée",
-    metaTitle: "Vacances célibataire Albi 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Albi en 2027 : la destination la moins chère de la série, et la plus âgée",
+    metaTitle: "Vacances célibataire Albi 2027 : sortir, budget solo",
     metaDesc: "Albi en séjour célibataire : meilleur score de coût des 50 destinations de la série et part de seniors la plus élevée. Loger, sortir, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56696,8 +56696,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-lorient-2026",
-    title: "Vacances célibataire à Lorient en 2026 : un bunker à sous-marins devenu salle de concert",
-    metaTitle: "Vacances célibataire Lorient 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Lorient en 2027 : un bunker à sous-marins devenu salle de concert",
+    metaTitle: "Vacances célibataire Lorient 2027 : sortir, budget solo",
     metaDesc: "Lorient en séjour célibataire : une scène de musiques actuelles installée dans un blockhaus, 21,8 % de 15-29 ans, et dix jours d'été à éviter.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56741,8 +56741,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-vannes-2026",
-    title: "Vacances célibataire à Vannes en 2026 : la plus chère du lot, et sa salle de concert est ailleurs",
-    metaTitle: "Vacances célibataire Vannes 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Vannes en 2027 : la plus chère du lot, et sa salle de concert est ailleurs",
+    metaTitle: "Vacances célibataire Vannes 2027 : sortir, budget solo",
     metaDesc: "Vannes en séjour célibataire : le meilleur cadre de vie du lot, le trois-pièces au prix de Nantes, et une scène de musiques actuelles hors commune.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56786,8 +56786,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-beauvais-2026",
-    title: "Vacances célibataire à Beauvais en 2026 : le plus haut chœur gothique jamais construit",
-    metaTitle: "Vacances célibataire Beauvais 2026 : sortir, budget solo",
+    title: "Vacances célibataire à Beauvais en 2027 : le plus haut chœur gothique jamais construit",
+    metaTitle: "Vacances célibataire Beauvais 2027 : sortir, budget solo",
     metaDesc: "Beauvais en séjour célibataire : 21,4 % de 15-29 ans, un chœur gothique de 48,50 m, le meilleur transport du lot et le parc de studios le plus étroit.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56831,8 +56831,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-marseille-2026",
-    title: "Vacances célibataire à Marseille en 2026 : la meilleure scène du soir du corpus, et son score de vie le plus bas",
-    metaTitle: "Vacances célibataire Marseille 2026 : sortir, budget",
+    title: "Vacances célibataire à Marseille en 2027 : la meilleure scène du soir du corpus, et son score de vie le plus bas",
+    metaTitle: "Vacances célibataire Marseille 2027 : sortir, budget",
     metaDesc: "Marseille en séjour célibataire : culture 9/10, vie du soir 9/10 au Cours Julien, et le score de vie le plus bas des 56 destinations. Sortir, loger, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56872,8 +56872,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-villeurbanne-2026",
-    title: "Vacances célibataire à Villeurbanne en 2026 : la scène la plus régulière du corpus, et Lyon à deux stations",
-    metaTitle: "Vacances célibataire Villeurbanne 2026 : sortir, budget",
+    title: "Vacances célibataire à Villeurbanne en 2027 : la scène la plus régulière du corpus, et Lyon à deux stations",
+    metaTitle: "Vacances célibataire Villeurbanne 2027 : sortir, budget",
     metaDesc: "Villeurbanne en séjour célibataire : 8,00 de moyenne de vie du soir sur trois quartiers, première Capitale française de la culture, métro A. Loger et sortir.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56913,8 +56913,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-paul-reunion-2026",
-    title: "Vacances célibataire à Saint-Paul de La Réunion en 2026 : le lagon est à Saint-Gilles, pas devant la ville",
-    metaTitle: "Vacances célibataire Saint-Paul 974 en 2026 : sortir",
+    title: "Vacances célibataire à Saint-Paul de La Réunion en 2027 : le lagon est à Saint-Gilles, pas devant la ville",
+    metaTitle: "Vacances célibataire Saint-Paul 974 en 2027 : sortir",
     metaDesc: "Saint-Paul de La Réunion en séjour célibataire : Saint-Gilles-les-Bains à 8,5/10 de vie du soir, baignade autorisée dans le lagon seulement, saisons inversées.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56954,8 +56954,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-nimes-2026",
-    title: "Vacances célibataire à Nîmes en 2026 : la seule du lot qui passe aussi la règle des étudiants",
-    metaTitle: "Vacances célibataire Nîmes 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Nîmes en 2027 : la seule du lot qui passe aussi la règle des étudiants",
+    metaTitle: "Vacances célibataire Nîmes 2027 : sortir, loger, budget",
     metaDesc: "Nîmes en séjour célibataire : quartier des Arènes à 8/10 de vie du soir, 21,1 % de 15-29 ans, Maison Carrée inscrite en 2023. Loger, sortir, budget solo.",
     category: "lifestyle",
     emoji: "🍸",
@@ -56995,8 +56995,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-bastia-2026",
-    title: "Vacances célibataire à Bastia en 2026 : la première destination corse de la série, et la moins bien desservie",
-    metaTitle: "Vacances célibataire Bastia 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Bastia en 2027 : la première destination corse de la série, et la moins bien desservie",
+    metaTitle: "Vacances célibataire Bastia 2027 : sortir, loger, budget",
     metaDesc: "Bastia en séjour célibataire : Terra Vecchia à 8/10 de vie du soir, une ville-port qui vit hors saison, et le score de transport le plus bas des 56.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57036,8 +57036,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-amiens-2026",
-    title: "Vacances célibataire à Amiens en 2026 : une salle de 500 places ouverte le 12 septembre, dans le quartier qui sort",
-    metaTitle: "Vacances célibataire Amiens 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Amiens en 2027 : une salle de 500 places ouverte le 12 septembre, dans le quartier qui sort",
+    metaTitle: "Vacances célibataire Amiens 2027 : sortir, loger, budget",
     metaDesc: "Amiens en séjour célibataire : Saint-Leu à 8/10 de vie du soir, une nouvelle salle de 500 places depuis septembre 2026, et 29 % de 15-29 ans. Loger et sortir.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57077,8 +57077,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-vienne-2026",
-    title: "Vacances célibataire à Vienne en 2026 : 37,1 % de 15-29 ans, sur la ligne de Lyon",
-    metaTitle: "Vacances célibataire Vienne 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Vienne en 2027 : 37,1 % de 15-29 ans, sur la ligne de Lyon",
+    metaTitle: "Vacances célibataire Vienne 2027 : sortir, loger, budget",
     metaDesc: "Vienne en séjour célibataire : 37,1 % de 15-29 ans, culture notée 9/10, un deux-pièces à 700 € et Lyon sur la même ligne. Où loger, quand venir, le budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57118,8 +57118,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-anglet-2026",
-    title: "Vacances célibataire à Anglet en 2026 : le surf, 9 % de population en plus et un coût à 4,5/10",
-    metaTitle: "Vacances célibataire Anglet 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Anglet en 2027 : le surf, 9 % de population en plus et un coût à 4,5/10",
+    metaTitle: "Vacances célibataire Anglet 2027 : sortir, loger, budget",
     metaDesc: "Anglet en séjour célibataire : vie quotidienne 8,7/10, quartier des Plages à 8/10 de vie du soir, mais coût 4,5/10 et 37,3 % de 60 ans et plus.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57159,8 +57159,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-limoges-2026",
-    title: "Vacances célibataire à Limoges en 2026 : 39,5 % de 15-29 ans et un deux-pièces à 600 €",
-    metaTitle: "Vacances célibataire Limoges 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Limoges en 2027 : 39,5 % de 15-29 ans et un deux-pièces à 600 €",
+    metaTitle: "Vacances célibataire Limoges 2027 : sortir, loger, budget",
     metaDesc: "Limoges en séjour célibataire : 39,5 % de 15-29 ans, un deux-pièces à 600 €, une ville de 129 754 habitants qui vit toute l'année. Loger et sortir.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57200,8 +57200,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-etienne-2026",
-    title: "Vacances célibataire à Saint-Étienne en 2026 : 40,9 % de 15-29 ans, la ville du design qui ne cherche pas à plaire",
-    metaTitle: "Célibataire à Saint-Étienne 2026 : sortir, loger",
+    title: "Vacances célibataire à Saint-Étienne en 2027 : 40,9 % de 15-29 ans, la ville du design qui ne cherche pas à plaire",
+    metaTitle: "Célibataire à Saint-Étienne 2027 : sortir, loger",
     metaDesc: "Saint-Étienne en séjour célibataire : 40,9 % de 15-29 ans, un deux-pièces à 580 €, tram et TGV. Sécurité 4,3/10 : ce que cela change.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57241,8 +57241,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-dunkerque-2026",
-    title: "Vacances célibataire à Dunkerque en 2026 : un carnaval en hiver, une plage à Malo et un deux-pièces à 560 €",
-    metaTitle: "Vacances célibataire Dunkerque 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Dunkerque en 2027 : un carnaval en hiver, une plage à Malo et un deux-pièces à 560 €",
+    metaTitle: "Vacances célibataire Dunkerque 2027 : sortir, loger, budget",
     metaDesc: "Dunkerque en séjour célibataire : 34,6 % de 15-29 ans, un deux-pièces à 560 €, le carnaval en hiver et Malo-les-Bains. Loger, sortir, budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57282,8 +57282,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-brive-la-gaillarde-2026",
-    title: "Vacances célibataire à Brive-la-Gaillarde en 2026 : un marché, un stade de rugby et un deux-pièces à 580 €",
-    metaTitle: "Vacances célibataire Brive 2026 : sortir, loger, budget",
+    title: "Vacances célibataire à Brive-la-Gaillarde en 2027 : un marché, un stade de rugby et un deux-pièces à 580 €",
+    metaTitle: "Vacances célibataire Brive 2027 : sortir, loger, budget",
     metaDesc: "Brive en séjour célibataire : culture 7,5/10, 32,1 % de 15-29 ans, marché couvert, rugby, deux-pièces à 580 €. Une ville de Corrèze qui vit toute l'année.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57323,8 +57323,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-talence-2026",
-    title: "Vacances célibataire à Talence en 2026 : la ville étudiante au bout du tram B",
-    metaTitle: "Vacances célibataire Talence 2026 : tram, campus, budget",
+    title: "Vacances célibataire à Talence en 2027 : la ville étudiante au bout du tram B",
+    metaTitle: "Vacances célibataire Talence 2027 : tram, campus, budget",
     metaDesc: "Talence en séjour célibataire : 36,5 % de 15-29 ans, tram B vers Bordeaux, transport 8,1/10. Mais coût 3,6/10 et deux-pièces à 850 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57364,8 +57364,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-valenciennes-2026",
-    title: "Vacances célibataire à Valenciennes en 2026 : un musée, une université et un deux-pièces à 490 €",
-    metaTitle: "Vacances célibataire Valenciennes 2026 : sortir, budget",
+    title: "Vacances célibataire à Valenciennes en 2027 : un musée, une université et un deux-pièces à 490 €",
+    metaTitle: "Vacances célibataire Valenciennes 2027 : sortir, budget",
     metaDesc: "Valenciennes en séjour célibataire : culture 6,2/10, 26 % de 15-29 ans, deux-pièces à 490 €, TER vers Lille et Bruxelles.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57405,8 +57405,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-belfort-2026",
-    title: "Vacances célibataire à Belfort en 2026 : une gare TGV, un faubourg animé et un deux-pièces à 520 €",
-    metaTitle: "Vacances célibataire Belfort 2026 : sortir, TGV, budget",
+    title: "Vacances célibataire à Belfort en 2027 : une gare TGV, un faubourg animé et un deux-pièces à 520 €",
+    metaTitle: "Vacances célibataire Belfort 2027 : sortir, TGV, budget",
     metaDesc: "Belfort en séjour célibataire : coût 7,2/10, gare TGV, centre à 7/10 de vie du soir, deux-pièces à 520 €. Une ville qui perd des habitants.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57446,8 +57446,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-douai-2026",
-    title: "Vacances célibataire à Douai en 2026 : beffroi UNESCO, étudiants et un deux-pièces à 500 €",
-    metaTitle: "Vacances célibataire Douai 2026 : beffroi, sortir, budget",
+    title: "Vacances célibataire à Douai en 2027 : beffroi UNESCO, étudiants et un deux-pièces à 500 €",
+    metaTitle: "Vacances célibataire Douai 2027 : beffroi, sortir, budget",
     metaDesc: "Douai en séjour célibataire : culture 6,2/10, beffroi UNESCO, université, deux-pièces à 500 €, desserte TGV et TER.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57487,8 +57487,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-tarbes-2026",
-    title: "Vacances célibataire à Tarbes en 2026 : les Pyrénées à portée de bus et un coût de 7,4/10",
-    metaTitle: "Vacances célibataire Tarbes 2026 : Pyrénées, budget, sortir",
+    title: "Vacances célibataire à Tarbes en 2027 : les Pyrénées à portée de bus et un coût de 7,4/10",
+    metaTitle: "Vacances célibataire Tarbes 2027 : Pyrénées, budget, sortir",
     metaDesc: "Tarbes en séjour célibataire : coût 7,4/10, nature 6,4/10, +10,4 % d'habitants depuis 2016, deux-pièces à 580 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57528,8 +57528,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-agen-2026",
-    title: "Vacances célibataire à Agen en 2026 : marché, gare TGV et deux-pièces à 560 €",
-    metaTitle: "Vacances célibataire Agen 2026 : marché, gare, budget",
+    title: "Vacances célibataire à Agen en 2027 : marché, gare TGV et deux-pièces à 560 €",
+    metaTitle: "Vacances célibataire Agen 2027 : marché, gare, budget",
     metaDesc: "Agen en séjour célibataire : coût 6,4/10, 2 100 h de soleil, marché couvert, gare TGV, deux-pièces à 560 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57569,8 +57569,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-le-havre-2026",
-    title: "Vacances célibataire au Havre en 2026 : centre Perret, tram et deux-pièces à 650 €",
-    metaTitle: "Vacances célibataire Le Havre 2026 : centre, tram, budget",
+    title: "Vacances célibataire au Havre en 2027 : centre Perret, tram et deux-pièces à 650 €",
+    metaTitle: "Vacances célibataire Le Havre 2027 : centre, tram, budget",
     metaDesc: "Le Havre en séjour célibataire : centre reconstruit classé UNESCO, tram, deux-pièces à 650 €, 1 590 h de soleil. Ce que la ville tient hors saison.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57610,8 +57610,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-toulon-2026",
-    title: "Vacances célibataire à Toulon en 2026 : marché, Mourillon et deux-pièces à 780 €",
-    metaTitle: "Vacances célibataire Toulon 2026 : marché, plages, budget",
+    title: "Vacances célibataire à Toulon en 2027 : marché, Mourillon et deux-pièces à 780 €",
+    metaTitle: "Vacances célibataire Toulon 2027 : marché, plages, budget",
     metaDesc: "Toulon en séjour célibataire : 2 750 h de soleil, marché du cours Lafayette, plages du Mourillon, gare TGV, deux-pièces à 780 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57651,8 +57651,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-perpignan-2026",
-    title: "Vacances célibataire à Perpignan en 2026 : Castillet, marchés et deux-pièces à 650 €",
-    metaTitle: "Vacances célibataire Perpignan 2026 : Castillet, budget",
+    title: "Vacances célibataire à Perpignan en 2027 : Castillet, marchés et deux-pièces à 650 €",
+    metaTitle: "Vacances célibataire Perpignan 2027 : Castillet, budget",
     metaDesc: "Perpignan en séjour célibataire : 2 750 h de soleil, centre catalan autour du Castillet, gare TGV, deux-pièces à 650 €. Les réserves à connaître.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57692,8 +57692,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-montelimar-2026",
-    title: "Vacances célibataire à Montélimar en 2026 : centre animé, gare et deux-pièces à 580 €",
-    metaTitle: "Vacances célibataire Montélimar 2026 : centre, budget",
+    title: "Vacances célibataire à Montélimar en 2027 : centre animé, gare et deux-pièces à 580 €",
+    metaTitle: "Vacances célibataire Montélimar 2027 : centre, budget",
     metaDesc: "Montélimar en séjour célibataire : 2 600 h de soleil, centre historique, deux-pièces à 580 €, une ville plus petite qui tient hors saison.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57733,8 +57733,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-arles-2026",
-    title: "Vacances célibataire à Arles en 2026 : culture 9/10, hors saison calme et deux-pièces à 700 €",
-    metaTitle: "Vacances célibataire Arles 2026 : culture, budget, saison",
+    title: "Vacances célibataire à Arles en 2027 : culture 9/10, hors saison calme et deux-pièces à 700 €",
+    metaTitle: "Vacances célibataire Arles 2027 : culture, budget, saison",
     metaDesc: "Arles en séjour célibataire : culture 9/10, 2 700 h de soleil, deux-pièces à 700 €, mais seulement 15,3 % de 15-29 ans hors saison.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57774,8 +57774,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-cergy-2026",
-    title: "Vacances célibataire à Cergy en 2026 : ville jeune, RER A et deux-pièces à 880 €",
-    metaTitle: "Vacances célibataire Cergy 2026 : RER A, ville jeune",
+    title: "Vacances célibataire à Cergy en 2027 : ville jeune, RER A et deux-pièces à 880 €",
+    metaTitle: "Vacances célibataire Cergy 2027 : RER A, ville jeune",
     metaDesc: "Cergy en séjour célibataire : 26,3 % de 15-29 ans, RER A, université, Axe majeur, deux-pièces à 880 €. Une base, pas une station.",
     category: "lifestyle",
     emoji: "🍸",
@@ -57815,8 +57815,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-beziers-2026",
-    title: "Vacances célibataire à Béziers en 2026 : le Canal du Midi et un deux-pièces à 530 €",
-    metaTitle: "Vacances célibataire Béziers 2026 : budget bas, TGV",
+    title: "Vacances célibataire à Béziers en 2027 : le Canal du Midi et un deux-pièces à 530 €",
+    metaTitle: "Vacances célibataire Béziers 2027 : budget bas, TGV",
     metaDesc: "Béziers en séjour célibataire : 17,7 % de 15-29 ans, TGV, Allées Paul-Riquet, deux-pièces à 530 €, 2 850 h de soleil. Ce que la ville tient hors saison.",
     category: "lifestyle",
     emoji: "🍷",
@@ -57856,8 +57856,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-ajaccio-2026",
-    title: "Vacances célibataire à Ajaccio en 2026 : 2 890 h de soleil, mais pas de train",
-    metaTitle: "Vacances célibataire Ajaccio 2026 : soleil, sans train",
+    title: "Vacances célibataire à Ajaccio en 2027 : 2 890 h de soleil, mais pas de train",
+    metaTitle: "Vacances célibataire Ajaccio 2027 : soleil, sans train",
     metaDesc: "Ajaccio en séjour célibataire : 2 890 h de soleil, 10,5 °C en janvier, 13,7 % de 15-29 ans, centre historique, deux-pièces à 900 €. Honnête sur l'hiver.",
     category: "lifestyle",
     emoji: "🏝️",
@@ -57897,8 +57897,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-cayenne-2026",
-    title: "Vacances célibataire à Cayenne en 2026 : la ville la plus jeune du lot, hors de tout circuit",
-    metaTitle: "Vacances célibataire Cayenne 2026 : ville jeune, Guyane",
+    title: "Vacances célibataire à Cayenne en 2027 : la ville la plus jeune du lot, hors de tout circuit",
+    metaTitle: "Vacances célibataire Cayenne 2027 : ville jeune, Guyane",
     metaDesc: "Cayenne en séjour célibataire : 23,7 % de 15-29 ans, 13,1 % de seniors, centre-ville, marché, deux-pièces à 800 €. Pas de train, pas de saisons.",
     category: "lifestyle",
     emoji: "🌴",
@@ -57938,8 +57938,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-germain-en-laye-2026",
-    title: "Vacances célibataire à Saint-Germain-en-Laye en 2026 : RER A et forêt, au prix d'un deux-pièces à 1 150 €",
-    metaTitle: "Vacances célibataire Saint-Germain-en-Laye 2026 : RER A",
+    title: "Vacances célibataire à Saint-Germain-en-Laye en 2027 : RER A et forêt, au prix d'un deux-pièces à 1 150 €",
+    metaTitle: "Vacances célibataire Saint-Germain-en-Laye 2027 : RER A",
     metaDesc: "Saint-Germain-en-Laye en séjour célibataire : RER A, château, forêt, 16,6 % de 15-29 ans, deux-pièces à 1 150 €. Une base calme, chère.",
     category: "lifestyle",
     emoji: "🏰",
@@ -57979,8 +57979,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-versailles-2026",
-    title: "Vacances célibataire à Versailles en 2026 : 9/10 en culture, mais un deux-pièces à 1 200 €",
-    metaTitle: "Vacances célibataire Versailles 2026 : culture, RER, TGV",
+    title: "Vacances célibataire à Versailles en 2027 : 9/10 en culture, mais un deux-pièces à 1 200 €",
+    metaTitle: "Vacances célibataire Versailles 2027 : culture, RER, TGV",
     metaDesc: "Versailles en séjour célibataire : culture 9/10, RER et TGV, 20,8 % de 15-29 ans, deux-pièces à 1 200 €. Une ville à budget haut, calme le soir.",
     category: "lifestyle",
     emoji: "👑",
@@ -58020,8 +58020,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-cherbourg-2026",
-    title: "Vacances célibataire à Cherbourg-en-Cotentin en 2026 : mer, port et un deux-pièces à 620 €",
-    metaTitle: "Vacances célibataire Cherbourg 2026 : port, budget bas",
+    title: "Vacances célibataire à Cherbourg-en-Cotentin en 2027 : mer, port et un deux-pièces à 620 €",
+    metaTitle: "Vacances célibataire Cherbourg 2027 : port, budget bas",
     metaDesc: "Cherbourg-en-Cotentin en séjour célibataire : 18,8 % de 15-29 ans, centre-ville, Cité de la Mer, deux-pièces à 620 €. Sans train direct, climat frais.",
     category: "lifestyle",
     emoji: "⚓",
@@ -58061,8 +58061,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-la-roche-sur-yon-2026",
-    title: "Vacances célibataire à La Roche-sur-Yon en 2026 : TGV, place Napoléon et un deux-pièces à 600 €",
-    metaTitle: "Vacances célibataire La Roche-sur-Yon 2026 : TGV, budget",
+    title: "Vacances célibataire à La Roche-sur-Yon en 2027 : TGV, place Napoléon et un deux-pièces à 600 €",
+    metaTitle: "Vacances célibataire La Roche-sur-Yon 2027 : TGV, budget",
     metaDesc: "La Roche-sur-Yon en séjour célibataire : 22,3 % de 15-29 ans, TGV direct, centre historique, deux-pièces à 600 €. Vie du soir calme, mer à proximité.",
     category: "lifestyle",
     emoji: "🐎",
@@ -58102,8 +58102,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-cholet-2026",
-    title: "Vacances célibataire à Cholet en 2026 : Puy du Fou, vie du soir en centre-ville et deux-pièces à 600 €",
-    metaTitle: "Vacances célibataire Cholet 2026 : budget bas, Puy du Fou",
+    title: "Vacances célibataire à Cholet en 2027 : Puy du Fou, vie du soir en centre-ville et deux-pièces à 600 €",
+    metaTitle: "Vacances célibataire Cholet 2027 : budget bas, Puy du Fou",
     metaDesc: "Cholet en séjour célibataire : 18,1 % de 15-29 ans, centre-ville, lac de Ribou, Puy du Fou à 30 km, deux-pièces à 600 €. Sans TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "🧵",
@@ -58143,8 +58143,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-bourg-en-bresse-2026",
-    title: "Vacances célibataire à Bourg-en-Bresse en 2026 : TGV, monastère de Brou et un deux-pièces à 630 €",
-    metaTitle: "Vacances célibataire Bourg-en-Bresse 2026 : TGV, Brou",
+    title: "Vacances célibataire à Bourg-en-Bresse en 2027 : TGV, monastère de Brou et un deux-pièces à 630 €",
+    metaTitle: "Vacances célibataire Bourg-en-Bresse 2027 : TGV, Brou",
     metaDesc: "Bourg-en-Bresse en séjour célibataire : 20,6 % de 15-29 ans, TGV direct, monastère de Brou, deux-pièces à 630 €. Lyon à 70 km pour les soirées.",
     category: "lifestyle",
     emoji: "🐓",
@@ -58184,8 +58184,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-blois-2026",
-    title: "Vacances célibataire à Blois en 2026 : château, Loire à vélo et un deux-pièces à 610 €",
-    metaTitle: "Vacances célibataire Blois 2026 : château, Loire à vélo",
+    title: "Vacances célibataire à Blois en 2027 : château, Loire à vélo et un deux-pièces à 610 €",
+    metaTitle: "Vacances célibataire Blois 2027 : château, Loire à vélo",
     metaDesc: "Blois en séjour célibataire : 21,1 % de 15-29 ans, culture 7,3/10, château royal, Loire à vélo, deux-pièces à 610 €. Sans TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "🏰",
@@ -58225,8 +58225,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-chalon-sur-saone-2026",
-    title: "Vacances célibataire à Chalon-sur-Saône en 2026 : Niépce, quais de Saône et un deux-pièces à 550 €",
-    metaTitle: "Vacances célibataire Chalon-sur-Saône 2026 : Niépce, budget",
+    title: "Vacances célibataire à Chalon-sur-Saône en 2027 : Niépce, quais de Saône et un deux-pièces à 550 €",
+    metaTitle: "Vacances célibataire Chalon-sur-Saône 2027 : Niépce, budget",
     metaDesc: "Chalon-sur-Saône en séjour célibataire : 19,9 % de 15-29 ans, centre-ville, musée Niépce, quais de Saône, deux-pièces à 550 €. Sans TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "📷",
@@ -58266,8 +58266,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-charleville-mezieres-2026",
-    title: "Vacances célibataire à Charleville-Mézières en 2026 : marionnettes, place Ducale et un deux-pièces à 520 €",
-    metaTitle: "Vacances célibataire Charleville-Mézières 2026 : budget",
+    title: "Vacances célibataire à Charleville-Mézières en 2027 : marionnettes, place Ducale et un deux-pièces à 520 €",
+    metaTitle: "Vacances célibataire Charleville-Mézières 2027 : budget",
     metaDesc: "Charleville-Mézières en séjour célibataire : 18,6 % de 15-29 ans, place Ducale, musée Rimbaud, deux-pièces à 520 €. Sans TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "🎭",
@@ -58307,8 +58307,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-pessac-2026",
-    title: "Vacances célibataire à Pessac en 2026 : Le Corbusier, Haut-Brion et le tram B jusqu'à Bordeaux",
-    metaTitle: "Vacances célibataire Pessac 2026 : tram, budget, campus",
+    title: "Vacances célibataire à Pessac en 2027 : Le Corbusier, Haut-Brion et le tram B jusqu'à Bordeaux",
+    metaTitle: "Vacances célibataire Pessac 2027 : tram, budget, campus",
     metaDesc: "Pessac en séjour célibataire : 26,3 % de 15-29 ans, cité Frugès-Le Corbusier, tram B, T2 à 800 €. Un coût noté 4/10, dit sans détour.",
     category: "lifestyle",
     emoji: "🏛️",
@@ -58348,8 +58348,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-laval-2026",
-    title: "Vacances célibataire à Laval en 2026 : musée d'art naïf, vieux quartier et T2 à 490 €",
-    metaTitle: "Vacances célibataire Laval 2026 : budget, vieux Laval",
+    title: "Vacances célibataire à Laval en 2027 : musée d'art naïf, vieux quartier et T2 à 490 €",
+    metaTitle: "Vacances célibataire Laval 2027 : budget, vieux Laval",
     metaDesc: "Laval en séjour célibataire : 22,5 % de 15-29 ans, château, musée d'Art naïf, vieux quartier animé, T2 à 490 €. TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "🎨",
@@ -58389,8 +58389,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-boulogne-sur-mer-2026",
-    title: "Vacances célibataire à Boulogne-sur-Mer en 2026 : Nausicaá, ville haute et un T2 à 580 €",
-    metaTitle: "Vacances célibataire Boulogne-sur-Mer 2026 : budget",
+    title: "Vacances célibataire à Boulogne-sur-Mer en 2027 : Nausicaá, ville haute et un T2 à 580 €",
+    metaTitle: "Vacances célibataire Boulogne-sur-Mer 2027 : budget",
     metaDesc: "Boulogne-sur-Mer en séjour célibataire : 22 % de 15-29 ans, Nausicaá, remparts, port, T2 à 580 €. Sécurité notée 4,3/10, dite sans détour.",
     category: "lifestyle",
     emoji: "🐟",
@@ -58430,8 +58430,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-brieuc-2026",
-    title: "Vacances célibataire à Saint-Brieuc en 2026 : baie, centre animé et un T2 à 580 €",
-    metaTitle: "Vacances célibataire Saint-Brieuc 2026 : budget, baie",
+    title: "Vacances célibataire à Saint-Brieuc en 2027 : baie, centre animé et un T2 à 580 €",
+    metaTitle: "Vacances célibataire Saint-Brieuc 2027 : budget, baie",
     metaDesc: "Saint-Brieuc en séjour célibataire : 21 % de 15-29 ans, baie aux grandes marées, centre-ville animé, T2 à 580 €. TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "🌊",
@@ -58471,8 +58471,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-quentin-2026",
-    title: "Vacances célibataire à Saint-Quentin en 2026 : Art déco, pastels de La Tour et un T2 à 480 €",
-    metaTitle: "Vacances célibataire Saint-Quentin 2026 : Art déco, budget",
+    title: "Vacances célibataire à Saint-Quentin en 2027 : Art déco, pastels de La Tour et un T2 à 480 €",
+    metaTitle: "Vacances célibataire Saint-Quentin 2027 : Art déco, budget",
     metaDesc: "Saint-Quentin en séjour célibataire : 20,3 % de 15-29 ans, circuit Art déco, musée Lécuyer, T2 à 480 €, culture 7,5/10. Sécurité 4,7/10.",
     category: "lifestyle",
     emoji: "🏙️",
@@ -58512,8 +58512,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-thionville-2026",
-    title: "Vacances célibataire à Thionville en 2026 : quais de Moselle, forts et un T2 à 660 €",
-    metaTitle: "Vacances célibataire Thionville 2026 : Moselle, budget",
+    title: "Vacances célibataire à Thionville en 2027 : quais de Moselle, forts et un T2 à 660 €",
+    metaTitle: "Vacances célibataire Thionville 2027 : Moselle, budget",
     metaDesc: "Thionville en séjour célibataire : 18,7 % de 15-29 ans, centre animé sur la Moselle, tour aux Puces, T2 à 660 €. Une ville qui gagne des habitants.",
     category: "lifestyle",
     emoji: "🏰",
@@ -58553,8 +58553,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-draguignan-2026",
-    title: "Vacances célibataire à Draguignan en 2026 : marché, Verdon et un T2 à 720 €",
-    metaTitle: "Vacances célibataire Draguignan 2026 : Verdon, budget",
+    title: "Vacances célibataire à Draguignan en 2027 : marché, Verdon et un T2 à 720 €",
+    metaTitle: "Vacances célibataire Draguignan 2027 : Verdon, budget",
     metaDesc: "Draguignan en séjour célibataire : 34,1 % de 15-29 ans, centre à 7/10 de vie du soir, T2 à 720 €, base pour le Verdon. Aucun TGV dans notre relevé.",
     category: "lifestyle",
     emoji: "🌿",
@@ -58594,8 +58594,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-saint-nazaire-2026",
-    title: "Vacances célibataire à Saint-Nazaire en 2026 : estuaire, base sous-marine et un T2 à 640 €",
-    metaTitle: "Vacances célibataire Saint-Nazaire 2026 : estuaire, budget",
+    title: "Vacances célibataire à Saint-Nazaire en 2027 : estuaire, base sous-marine et un T2 à 640 €",
+    metaTitle: "Vacances célibataire Saint-Nazaire 2027 : estuaire, budget",
     metaDesc: "Saint-Nazaire en séjour célibataire : 33,2 % de 15-29 ans, TGV, base sous-marine, T2 à 640 €, ville qui gagne des habitants. Vie du soir 6,5/10.",
     category: "lifestyle",
     emoji: "🚢",
@@ -58635,8 +58635,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-grasse-2026",
-    title: "Vacances célibataire à Grasse en 2026 : parfumeries, vieille ville et un T2 à 800 €",
-    metaTitle: "Vacances célibataire Grasse 2026 : parfum, budget",
+    title: "Vacances célibataire à Grasse en 2027 : parfumeries, vieille ville et un T2 à 800 €",
+    metaTitle: "Vacances célibataire Grasse 2027 : parfum, budget",
     metaDesc: "Grasse en séjour célibataire : 32,8 % de 15-29 ans, culture 7,5/10, vieille ville, T2 à 800 €, coût 4/10. La population recule de 4 % depuis 2016.",
     category: "lifestyle",
     emoji: "🌸",
@@ -58676,8 +58676,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-chateauroux-2026",
-    title: "Vacances célibataire à Châteauroux en 2026 : Berry, Brenne et un T2 à 480 €",
-    metaTitle: "Vacances célibataire Châteauroux 2026 : Berry, budget",
+    title: "Vacances célibataire à Châteauroux en 2027 : Berry, Brenne et un T2 à 480 €",
+    metaTitle: "Vacances célibataire Châteauroux 2027 : Berry, budget",
     metaDesc: "Châteauroux en séjour célibataire : 34,2 % de 15-29 ans, centre à 6,5/10 de vie du soir, T2 à 480 €, base pour la Brenne et Nohant. Séjour calme.",
     category: "lifestyle",
     emoji: "🦆",
@@ -58717,8 +58717,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-evreux-2026",
-    title: "Vacances célibataire à Évreux en 2026 : cathédrale, Giverny et un T2 à 610 €",
-    metaTitle: "Vacances célibataire Évreux 2026 : cathédrale, budget",
+    title: "Vacances célibataire à Évreux en 2027 : cathédrale, Giverny et un T2 à 610 €",
+    metaTitle: "Vacances célibataire Évreux 2027 : cathédrale, budget",
     metaDesc: "Évreux en séjour célibataire : 40 % de 15-29 ans, 23 % de seniors, cathédrale, train vers Paris-Saint-Lazare, T2 à 610 €. Vie du soir 6/10.",
     category: "lifestyle",
     emoji: "⛪",
@@ -58758,8 +58758,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-celibataire-calais-2026",
-    title: "Vacances célibataire à Calais en 2026 : dentelle, falaises et un T2 à 480 €",
-    metaTitle: "Vacances célibataire Calais 2026 : dentelle, budget",
+    title: "Vacances célibataire à Calais en 2027 : dentelle, falaises et un T2 à 480 €",
+    metaTitle: "Vacances célibataire Calais 2027 : dentelle, budget",
     metaDesc: "Calais en séjour célibataire : 38,4 % de 15-29 ans, musée de la dentelle, Cap Blanc-Nez, T2 à 480 €. Sécurité 3,7/10, population en recul de 9,9 %.",
     category: "lifestyle",
     emoji: "🌊",
@@ -58799,8 +58799,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "partir-en-vacances-seul-2026",
-    title: "Partir en vacances seul·e en 2026 : supplément single, villes vivantes, bonne saison",
-    metaTitle: "Partir en vacances seul·e 2026 — Budget, villes, saison",
+    title: "Partir en vacances seul·e en 2027 : supplément single, villes vivantes, bonne saison",
+    metaTitle: "Partir en vacances seul·e 2027 — Budget, villes, saison",
     metaDesc: "Le supplément single expliqué par l'arithmétique, les villes qui vivent vraiment toute l'année mesurées au recensement Insee, et quand partir.",
     category: "lifestyle",
     emoji: "🍸",
@@ -58858,8 +58858,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-la-rochelle-2026",
-    title: "Vacances monoparentales à La Rochelle en 2026",
-    metaTitle: "Vacances monoparentales à La Rochelle 2026",
+    title: "Vacances monoparentales à La Rochelle en 2027",
+    metaTitle: "Vacances monoparentales à La Rochelle 2027",
     metaDesc: "La Rochelle en parent solo : TGV 2h30, Yélo vélo libre, plages en bus, aquarium à côté de la gare. Le guide direct sans supplément single caché.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -58908,8 +58908,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-strasbourg-2026",
-    title: "Vacances monoparentales à Strasbourg en 2026",
-    metaTitle: "Vacances monoparentales à Strasbourg 2026",
+    title: "Vacances monoparentales à Strasbourg en 2027",
+    metaTitle: "Vacances monoparentales à Strasbourg 2027",
     metaDesc: "Strasbourg en parent solo : TGV 1h50, tram dense, Petite France et Neustadt à pied, marchés de Noël, vélo. Le guide direct sans surtaxe cachée.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -58958,8 +58958,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-nantes-2026",
-    title: "Vacances monoparentales à Nantes en 2026",
-    metaTitle: "Vacances monoparentales à Nantes 2026",
+    title: "Vacances monoparentales à Nantes en 2027",
+    metaTitle: "Vacances monoparentales à Nantes 2027",
     metaDesc: "Nantes en parent solo : TGV 2h05, tram + Chronobus, Machines de l'Île à pied, Bicloo. Le guide direct sans supplément single caché.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -59008,8 +59008,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-rennes-2026",
-    title: "Vacances monoparentales à Rennes en 2026",
-    metaTitle: "Vacances monoparentales à Rennes 2026",
+    title: "Vacances monoparentales à Rennes en 2027",
+    metaTitle: "Vacances monoparentales à Rennes 2027",
     metaDesc: "Rennes en parent solo : TGV 1h25, deux lignes de métro, patrimoine et Thabor à pied, base pour la Bretagne. Le guide direct sans supplément single caché.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -59058,8 +59058,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-vannes-2026",
-    title: "Vacances monoparentales à Vannes en 2026",
-    metaTitle: "Vacances monoparentales à Vannes 2026",
+    title: "Vacances monoparentales à Vannes en 2027",
+    metaTitle: "Vacances monoparentales à Vannes 2027",
     metaDesc: "Vannes en parent solo : TGV 2h30, remparts et golfe du Morbihan à pied, bateaux vers Île aux Moines. Le guide direct sans supplément single caché.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -59108,8 +59108,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-nancy-2026",
-    title: "Vacances monoparentales à Nancy en 2026",
-    metaTitle: "Vacances monoparentales à Nancy 2026",
+    title: "Vacances monoparentales à Nancy en 2027",
+    metaTitle: "Vacances monoparentales à Nancy 2027",
     metaDesc: "Nancy en parent solo : TGV 1h30, Place Stanislas UNESCO à pied, tram et bus, coût contenu. Le guide direct sans supplément single caché.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -59158,8 +59158,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-dijon-2026",
-    title: "Vacances monoparentales à Dijon en 2026",
-    metaTitle: "Vacances monoparentales à Dijon 2026",
+    title: "Vacances monoparentales à Dijon en 2027",
+    metaTitle: "Vacances monoparentales à Dijon 2027",
     metaDesc: "Dijon en parent solo : TGV 1h35, tram + Diviaviélo, secteur sauvegardé à pied, base pour Beaune. Le guide direct sans supplément single caché.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -59209,7 +59209,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-ouen-sur-seine-2026",
     title: "10 choses à faire à Saint-Ouen-sur-Seine (les Puces, les Docks et l'après-JO)",
-    metaTitle: "10 choses à faire à Saint-Ouen-sur-Seine en 2026",
+    metaTitle: "10 choses à faire à Saint-Ouen-sur-Seine en 2027",
     metaDesc: "Marché aux Puces, rue des Rosiers, parc du Château, Grand Parc des Docks, village olympique reconverti : 10 activités à Saint-Ouen-sur-Seine.",
     category: "tourisme",
     emoji: "🪑",
@@ -59270,7 +59270,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vitry-sur-seine-2026",
     title: "10 choses à faire à Vitry-sur-Seine (le MAC VAL et la capitale française du street art)",
-    metaTitle: "10 choses à faire à Vitry-sur-Seine 2026 — activités",
+    metaTitle: "10 choses à faire à Vitry-sur-Seine 2027 — activités",
     metaDesc: "MAC VAL, street art de C215, Exploradôme, parc des Lilas, berges de Seine : 10 activités à Vitry-sur-Seine, ville d'art contemporain du Val-de-Marne.",
     category: "tourisme",
     emoji: "🎨",
@@ -59331,7 +59331,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montreuil-2026",
     title: "10 choses à faire à Montreuil (les murs à pêches, Méliès et les ateliers d'artistes)",
-    metaTitle: "10 choses à faire à Montreuil 2026 — activités locales",
+    metaTitle: "10 choses à faire à Montreuil 2027 — activités locales",
     metaDesc: "Murs à pêches, cinéma Le Méliès, parc des Beaumonts, marché de la Croix-de-Chavaux, musée de l'Histoire vivante : 10 activités à Montreuil.",
     category: "tourisme",
     emoji: "🍑",
@@ -59392,7 +59392,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-argenteuil-2026",
     title: "10 choses à faire à Argenteuil (Monet, la Seine et la Sainte Tunique)",
-    metaTitle: "10 choses à faire à Argenteuil 2026 — activités locales",
+    metaTitle: "10 choses à faire à Argenteuil 2027 — activités locales",
     metaDesc: "Sites impressionnistes de Monet, basilique Saint-Denys, butte d'Orgemont, berges de Seine, asperge d'Argenteuil : 10 activités à Argenteuil.",
     category: "tourisme",
     emoji: "🖼️",
@@ -59453,7 +59453,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-neuilly-sur-seine-2026",
     title: "10 choses à faire à Neuilly-sur-Seine (l'île de la Jatte, l'axe historique et le Bois)",
-    metaTitle: "10 choses à faire à Neuilly-sur-Seine 2026 — sorties",
+    metaTitle: "10 choses à faire à Neuilly-sur-Seine 2027 — sorties",
     metaDesc: "Île de la Jatte et Seurat, Folie Saint-James, axe historique, Bois de Boulogne, Jardin d'acclimatation : 10 activités à Neuilly-sur-Seine.",
     category: "tourisme",
     emoji: "🌳",
@@ -59514,7 +59514,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pantin-2026",
     title: "10 choses à faire à Pantin (le canal de l'Ourcq, les Grands Moulins et la danse)",
-    metaTitle: "10 choses à faire à Pantin 2026 — activités locales",
+    metaTitle: "10 choses à faire à Pantin 2027 — activités locales",
     metaDesc: "Canal de l'Ourcq, Grands Moulins, Centre national de la danse, Magasins généraux, parc de la Bergère : 10 activités à Pantin, aux portes de Paris.",
     category: "tourisme",
     emoji: "🩰",
@@ -59575,7 +59575,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-meaux-2026",
     title: "10 choses à faire à Meaux (la cité épiscopale, la Grande Guerre et le brie)",
-    metaTitle: "10 choses à faire à Meaux 2026 — activités locales",
+    metaTitle: "10 choses à faire à Meaux 2027 — activités locales",
     metaDesc: "Musée de la Grande Guerre, cathédrale Saint-Étienne, jardin Bossuet, brie de Meaux, parc du Pâtis, spectacle historique : 10 activités à Meaux.",
     category: "tourisme",
     emoji: "🧀",
@@ -59636,7 +59636,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cergy-2026",
     title: "10 choses à faire à Cergy (l'Axe majeur, le port et le vieux village)",
-    metaTitle: "10 choses à faire à Cergy 2026 — activités locales",
+    metaTitle: "10 choses à faire à Cergy 2027 — activités locales",
     metaDesc: "Axe majeur de Dani Karavan, port de plaisance, île de loisirs, vieux village, église Saint-Christophe : 10 activités à Cergy, au terminus du RER A.",
     category: "tourisme",
     emoji: "🗼",
@@ -59697,7 +59697,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-issy-les-moulineaux-2026",
     title: "10 choses à faire à Issy-les-Moulineaux (Dubuffet, les cartes à jouer et la Seine)",
-    metaTitle: "10 choses à faire à Issy-les-Moulineaux 2026",
+    metaTitle: "10 choses à faire à Issy-les-Moulineaux 2027",
     metaDesc: "Tour aux figures de Dubuffet, musée de la Carte à jouer, île Saint-Germain, fort d'Issy, berceau de l'aviation : 10 activités à Issy-les-Moulineaux.",
     category: "tourisme",
     emoji: "🃏",
@@ -59758,7 +59758,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aubervilliers-2026",
     title: "10 choses à faire à Aubervilliers (le 19M, la Maladrerie et le canal)",
-    metaTitle: "10 choses à faire à Aubervilliers 2026 — activités",
+    metaTitle: "10 choses à faire à Aubervilliers 2027 — activités",
     metaDesc: "Galerie du 19M, église Notre-Dame-des-Vertus, cité de la Maladrerie, canal Saint-Denis et Street Art Avenue, théâtre de la Commune : 10 activités.",
     category: "tourisme",
     emoji: "🧵",
@@ -59819,7 +59819,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-merignac-2026",
     title: "10 choses à faire à Mérignac (Bourran, la Maison carrée et le Krakatoa)",
-    metaTitle: "10 choses à faire à Mérignac 2026 — activités locales",
+    metaTitle: "10 choses à faire à Mérignac 2027 — activités locales",
     metaDesc: "Parc de Bourran, Maison carrée d'Arlac, vieille église Saint-Vincent, Krakatoa, Pin Galant, vignoble Luchey-Halde : 10 activités à Mérignac.",
     category: "tourisme",
     emoji: "✈️",
@@ -59880,7 +59880,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pessac-2026",
     title: "10 choses à faire à Pessac (Le Corbusier, Haut-Brion et le Bourgailh)",
-    metaTitle: "10 choses à faire à Pessac 2026 — activités locales",
+    metaTitle: "10 choses à faire à Pessac 2027 — activités locales",
     metaDesc: "Cité Frugès de Le Corbusier inscrite à l'UNESCO, châteaux Haut-Brion et Pape Clément, écosite du Bourgailh, cinéma Jean Eustache : 10 activités à Pessac.",
     category: "tourisme",
     emoji: "🏡",
@@ -59941,7 +59941,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-venissieux-2026",
     title: "10 choses à faire à Vénissieux (Parilly, le bourg ancien et la mémoire de 1983)",
-    metaTitle: "10 choses à faire à Vénissieux 2026 — activités",
+    metaTitle: "10 choses à faire à Vénissieux 2027 — activités",
     metaDesc: "Parc et hippodrome de Parilly, église Saint-Germain, vieux bourg, médiathèque Lucie-Aubrac, mémoire de la Marche de 1983 : 10 activités à Vénissieux.",
     category: "tourisme",
     emoji: "🌳",
@@ -60001,8 +60001,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-rennes-2026",
-    title: "Parent solo à Rennes en 2026 : deux lignes de métro et un T3 à 1 100 €",
-    metaTitle: "Parent solo à Rennes 2026 — Budget, écoles, métro",
+    title: "Parent solo à Rennes en 2027 : deux lignes de métro et un T3 à 1 100 €",
+    metaTitle: "Parent solo à Rennes 2027 — Budget, écoles, métro",
     metaDesc: "Élever seul·e à Rennes : T3 à 1 100 €, deux lignes de métro depuis 2022, écoles 9,0/10, sécurité 5,9/10. Un des meilleurs candidats en parent solo.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60048,8 +60048,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-nancy-2026",
-    title: "Parent solo à Nancy en 2026 : T3 à 950 € et cœur baroque compact",
-    metaTitle: "Parent solo à Nancy 2026 — Budget, écoles, tram",
+    title: "Parent solo à Nancy en 2027 : T3 à 950 € et cœur baroque compact",
+    metaTitle: "Parent solo à Nancy 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Nancy : T3 à 950 €, deux lignes tram-BHNS, écoles 7,4/10, coût 6,2/10. L'arbitrage pour un parent solo dans le Grand Est.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60095,8 +60095,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-angers-2026",
-    title: "Parent solo à Angers en 2026 : T3 à 1 000 € et douceur angevine",
-    metaTitle: "Parent solo à Angers 2026 — Budget, écoles, tram",
+    title: "Parent solo à Angers en 2027 : T3 à 1 000 € et douceur angevine",
+    metaTitle: "Parent solo à Angers 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Angers : T3 à 1 000 €, deux lignes tram, écoles 7,9/10, sécurité 5,7/10. Qualité de vie 7,2/10, testée sur un budget solo.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60142,8 +60142,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-grenoble-2026",
-    title: "Parent solo à Grenoble en 2026 : T3 à 1 020 € et montagne au bout du tram",
-    metaTitle: "Parent solo à Grenoble 2026 — Budget, écoles, tram",
+    title: "Parent solo à Grenoble en 2027 : T3 à 1 020 € et montagne au bout du tram",
+    metaTitle: "Parent solo à Grenoble 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Grenoble : T3 à 1 020 €, cinq lignes de tram, écoles 9,0/10, air d'hiver à surveiller. Ville plate, cyclable, avec un vrai réseau.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60189,8 +60189,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-dijon-2026",
-    title: "Parent solo à Dijon en 2026 : T3 à 950 € et une ville qui se traverse à pied",
-    metaTitle: "Parent solo à Dijon 2026 — Budget, écoles, tram",
+    title: "Parent solo à Dijon en 2027 : T3 à 950 € et une ville qui se traverse à pied",
+    metaTitle: "Parent solo à Dijon 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Dijon : T3 à 950 €, deux lignes de tram, écoles 7,4/10, coût 6,2/10. Cœur historique compact, LGV Paris 1 h 40 — l'arbitrage réel.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60236,8 +60236,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-metz-2026",
-    title: "Parent solo à Metz en 2026 : T3 à 910 € et un cœur vert compact",
-    metaTitle: "Parent solo à Metz 2026 — Budget, écoles, mettis",
+    title: "Parent solo à Metz en 2027 : T3 à 910 € et un cœur vert compact",
+    metaTitle: "Parent solo à Metz 2027 — Budget, écoles, mettis",
     metaDesc: "Élever seul·e à Metz : T3 à 910 €, deux lignes Mettis BHNS, écoles 6,6/10, coût 6,2/10. Ville verte, Luxembourg à 45 min — l'arbitrage réel.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60283,8 +60283,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-reims-2026",
-    title: "Parent solo à Reims en 2026 : T3 à 900 € et Paris à 45 minutes",
-    metaTitle: "Parent solo à Reims 2026 — Budget, écoles, tram",
+    title: "Parent solo à Reims en 2027 : T3 à 900 € et Paris à 45 minutes",
+    metaTitle: "Parent solo à Reims 2027 — Budget, écoles, tram",
     metaDesc: "Élever seul·e à Reims : T3 à 900 €, deux lignes de tram, écoles 6,2/10, LGV Paris 45 min. Le meilleur rapport coût-accès Paris — l'arbitrage réel.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60330,8 +60330,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-aix-en-provence-2026",
-    title: "Parent solo à Aix-en-Provence en 2026 : T3 à 1 400 € et soleil à plein temps",
-    metaTitle: "Parent solo à Aix 2026 — Budget, écoles, transports",
+    title: "Parent solo à Aix-en-Provence en 2027 : T3 à 1 400 € et soleil à plein temps",
+    metaTitle: "Parent solo à Aix 2027 — Budget, écoles, transports",
     metaDesc: "Élever seul·e à Aix-en-Provence : T3 à 1 400 €, sécurité 5,9/10, écoles 8,3/10, mais coût 3,6/10 : le budget est le point de rupture.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60377,8 +60377,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-rouen-2026",
-    title: "Parent solo à Rouen en 2026 : T3 à 950 € et Paris à 1 h 15",
-    metaTitle: "Parent solo à Rouen 2026 — Budget, écoles, métro",
+    title: "Parent solo à Rouen en 2027 : T3 à 950 € et Paris à 1 h 15",
+    metaTitle: "Parent solo à Rouen 2027 — Budget, écoles, métro",
     metaDesc: "Élever seul·e à Rouen : T3 à 950 €, métro F1 + tram, écoles 6,6/10, sécurité 4,7/10 — la ville normande à filtrer quartier par quartier.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60424,8 +60424,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-toulon-2026",
-    title: "Parent solo à Toulon en 2026 : T3 à 1 050 €, soleil et rade",
-    metaTitle: "Parent solo à Toulon 2026 — Budget, écoles, mer",
+    title: "Parent solo à Toulon en 2027 : T3 à 1 050 €, soleil et rade",
+    metaTitle: "Parent solo à Toulon 2027 — Budget, écoles, mer",
     metaDesc: "Élever seul·e à Toulon : T3 à 1 050 €, 2 750 h de soleil, écoles 4,5/10, sécurité 4,1/10 — l'alternative méditerranéenne aux prix de Nice, avec ses filtres.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60471,8 +60471,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-villeurbanne-2026",
-    title: "Parent solo à Villeurbanne en 2026 : le meilleur réseau de France, à condition d'avoir le revenu",
-    metaTitle: "Parent solo à Villeurbanne 2026 — transports, T3, écoles",
+    title: "Parent solo à Villeurbanne en 2027 : le meilleur réseau de France, à condition d'avoir le revenu",
+    metaTitle: "Parent solo à Villeurbanne 2027 — transports, T3, écoles",
     metaDesc: "Transports 9,0/10, écoles 7,7/10, T3 à 1 150 €. Villeurbanne est dans un palier de 6 communes en fit parent solo, mais demande 3 500 € net.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60518,8 +60518,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-besancon-2026",
-    title: "Parent solo à Besançon en 2026 : la ville compacte qui fait gagner du temps",
-    metaTitle: "Parent solo à Besançon 2026 — T3, tram, écoles, sécurité",
+    title: "Parent solo à Besançon en 2027 : la ville compacte qui fait gagner du temps",
+    metaTitle: "Parent solo à Besançon 2027 — T3, tram, écoles, sécurité",
     metaDesc: "Fit parent solo 6,6/10, palier de 10 communes. T3 à 900 €, écoles 7,4/10, tram depuis 2014, revenu minimum 2 750 €. Le calcul complet pour Besançon.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60565,8 +60565,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-caen-2026",
-    title: "Parent solo à Caen en 2026 : la meilleure sécurité du lot, à 930 € le T3",
-    metaTitle: "Parent solo à Caen 2026 — sécurité, T3, écoles, tram",
+    title: "Parent solo à Caen en 2027 : la meilleure sécurité du lot, à 930 € le T3",
+    metaTitle: "Parent solo à Caen 2027 — sécurité, T3, écoles, tram",
     metaDesc: "Fit 6,6/10, palier de 10 communes. Sécurité 5,9/10, écoles 7,4/10, T3 à 930 €, revenu minimum 2 800 €. Ce que Caen change vraiment quand on élève seul.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60612,8 +60612,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-brest-2026",
-    title: "Parent solo à Brest en 2026 : le meilleur ratio écoles-loyer de France",
-    metaTitle: "Parent solo à Brest 2026 — T3 850 €, écoles 7,4/10, tram",
+    title: "Parent solo à Brest en 2027 : le meilleur ratio écoles-loyer de France",
+    metaTitle: "Parent solo à Brest 2027 — T3 850 €, écoles 7,4/10, tram",
     metaDesc: "115 € de loyer par point d'écoles : le meilleur ratio du classement. Fit 6,5/10, T3 à 850 €, revenu minimum 2 600 €. Le calcul complet pour Brest.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60659,8 +60659,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-tours-2026",
-    title: "Parent solo à Tours en 2026 : le meilleur score écoles des neuf villes comparées",
-    metaTitle: "Parent solo à Tours 2026 — écoles 7,9/10, T3, tram, budget",
+    title: "Parent solo à Tours en 2027 : le meilleur score écoles des neuf villes comparées",
+    metaTitle: "Parent solo à Tours 2027 — écoles 7,9/10, T3, tram, budget",
     metaDesc: "Écoles 7,9/10, le meilleur du lot. Fit 6,5/10, T3 à 940 €, revenu minimum 2 850 €, Paris à 1 h. L'arbitrage réel pour un parent seul à Tours.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60706,8 +60706,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-limoges-2026",
-    title: "Parent solo à Limoges en 2026 : coût et sécurité au-dessus de 6, ce qui est rare",
-    metaTitle: "Parent solo à Limoges 2026 — T3 800 €, sécurité 6,1/10",
+    title: "Parent solo à Limoges en 2027 : coût et sécurité au-dessus de 6, ce qui est rare",
+    metaTitle: "Parent solo à Limoges 2027 — T3 800 €, sécurité 6,1/10",
     metaDesc: "La seule ville du lot où coût (7,1/10) et sécurité (6,1/10) dépassent 6 ensemble. T3 à 800 €, revenu minimum 2 400 €. Le calcul complet.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60753,8 +60753,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-clermont-ferrand-2026",
-    title: "Parent solo à Clermont-Ferrand en 2026 : de la nature, un tram, un seul axe",
-    metaTitle: "Parent solo à Clermont-Ferrand 2026 — T3, écoles, tram",
+    title: "Parent solo à Clermont-Ferrand en 2027 : de la nature, un tram, un seul axe",
+    metaTitle: "Parent solo à Clermont-Ferrand 2027 — T3, écoles, tram",
     metaDesc: "Fit 6,3/10, T3 à 900 €, écoles 7,0/10, nature 7,2/10, revenu minimum 2 750 €. Ce que la géographie clermontoise change pour un parent seul.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60800,8 +60800,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-etienne-2026",
-    title: "Parent solo à Saint-Étienne en 2026 : le loyer le plus bas, et ce qu'il coûte ailleurs",
-    metaTitle: "Parent solo à Saint-Étienne 2026 — T3 770 €, le vrai calcul",
+    title: "Parent solo à Saint-Étienne en 2027 : le loyer le plus bas, et ce qu'il coûte ailleurs",
+    metaTitle: "Parent solo à Saint-Étienne 2027 — T3 770 €, le vrai calcul",
     metaDesc: "T3 à 770 €, revenu minimum 2 350 €, le plus bas des neuf villes comparées. Mais sécurité 4,3/10 et écoles 5,8/10. L'arbitrage chiffré, sans détour.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60847,8 +60847,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-le-havre-2026",
-    title: "Parent solo au Havre en 2026 : la mer, l'achat à 2 000 € le m², et deux axes qui coincent",
-    metaTitle: "Parent solo au Havre 2026 — T3 870 €, achat, écoles, tram",
+    title: "Parent solo au Havre en 2027 : la mer, l'achat à 2 000 € le m², et deux axes qui coincent",
+    metaTitle: "Parent solo au Havre 2027 — T3 870 €, achat, écoles, tram",
     metaDesc: "Fit 5,7/10, palier de 18 communes. T3 à 870 €, achat à 2 000 €/m², mais sécurité 4,5/10 et écoles 5,8/10. Le calcul honnête pour un parent seul.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -60895,7 +60895,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-laurent-du-maroni-2026",
     title: "10 choses à faire à Saint-Laurent-du-Maroni (Guyane)",
-    metaTitle: "10 choses à faire à Saint-Laurent-du-Maroni 2026",
+    metaTitle: "10 choses à faire à Saint-Laurent-du-Maroni 2027",
     metaDesc: "Camp de la Transportation, briques rouges, pirogues vers Albina, remontée du Maroni, tortues luth d'Awala-Yalimapo : 10 activités dans l'Ouest guyanais.",
     category: "tourisme",
     emoji: "🛶",
@@ -60957,7 +60957,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mamoudzou-2026",
     title: "10 choses à faire à Mamoudzou (Mayotte)",
-    metaTitle: "10 choses à faire à Mamoudzou (Mayotte) 2026",
+    metaTitle: "10 choses à faire à Mamoudzou (Mayotte) 2027",
     metaDesc: "Marché couvert, barge pour Petite-Terre, lac Dziani Dzaha, lagon à double barrière, baleines à bosse, ylang-ylang : 10 activités à Mamoudzou et autour.",
     category: "tourisme",
     emoji: "🐋",
@@ -61019,7 +61019,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-francois-2026",
     title: "10 choses à faire au François (Martinique)",
-    metaTitle: "10 choses à faire au François (Martinique) 2026",
+    metaTitle: "10 choses à faire au François (Martinique) 2027",
     metaDesc: "Fonds blancs, baignoire de Joséphine, îlets Oscar et Thierry, Habitation Clément, marché du bourg, yoles rondes : 10 activités au François, côte atlantique.",
     category: "tourisme",
     emoji: "🏝️",
@@ -61081,7 +61081,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-robert-2026",
     title: "10 choses à faire au Robert (Martinique)",
-    metaTitle: "10 choses à faire au Robert (Martinique) 2026",
+    metaTitle: "10 choses à faire au Robert (Martinique) 2027",
     metaDesc: "Havre du Robert, îlet Chancel et ses iguanes, fonds blancs, kayak en mangrove, Pointe Fort, Vert-Pré : 10 activités au Robert, sur la côte atlantique.",
     category: "tourisme",
     emoji: "🦎",
@@ -61143,7 +61143,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-benoit-reunion-2026",
     title: "10 choses à faire à Saint-Benoît (La Réunion)",
-    metaTitle: "10 choses à faire à Saint-Benoît (Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-Benoît (Réunion) 2027",
     metaDesc: "Takamaka, Grand Étang, bassin La Paix, rafting sur la rivière des Marsouins, église Sainte-Anne, îlet Bethléem : 10 activités à Saint-Benoît, côte au vent.",
     category: "tourisme",
     emoji: "💦",
@@ -61205,7 +61205,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-andre-reunion-2026",
     title: "10 choses à faire à Saint-André (La Réunion)",
-    metaTitle: "10 choses à faire à Saint-André (Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-André (Réunion) 2027",
     metaDesc: "Temple du Colosse, Dipavali, sucrerie de Bois Rouge, distillerie Savanna, église en ruine de Champ-Borne, maison Valliamé : 10 activités à Saint-André.",
     category: "tourisme",
     emoji: "🪔",
@@ -61267,7 +61267,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-aux-abymes-2026",
     title: "10 choses à faire aux Abymes (Guadeloupe)",
-    metaTitle: "10 choses à faire aux Abymes (Guadeloupe) 2026",
+    metaTitle: "10 choses à faire aux Abymes (Guadeloupe) 2027",
     metaDesc: "Maison de la Mangrove de Taonaba, canal Perrin, Grand Cul-de-Sac Marin, Grands-Fonds, marché, Mémorial ACTe voisin : 10 activités aux Abymes.",
     category: "tourisme",
     emoji: "🌳",
@@ -61328,8 +61328,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-poitiers-2026",
-    title: "Parent solo à Poitiers en 2026 : le meilleur rapport écoles-loyer de son lot",
-    metaTitle: "Parent solo à Poitiers 2026 — T3 880 €, écoles 7,4/10",
+    title: "Parent solo à Poitiers en 2027 : le meilleur rapport écoles-loyer de son lot",
+    metaTitle: "Parent solo à Poitiers 2027 — T3 880 €, écoles 7,4/10",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. T3 à 880 €, écoles 7,4/10 : 119 € de loyer par point, le meilleur ratio de ce batch. Le calcul complet sur un seul revenu.",
     category: "famille",
@@ -61377,8 +61377,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-annecy-2026",
-    title: "Parent solo à Annecy en 2026 : le meilleur dossier du batch, et le plus inaccessible",
-    metaTitle: "Parent solo à Annecy 2026 — il faut 4 150 € net pour un T3",
+    title: "Parent solo à Annecy en 2027 : le meilleur dossier du batch, et le plus inaccessible",
+    metaTitle: "Parent solo à Annecy 2027 — il faut 4 150 € net pour un T3",
     metaDesc:
       "Fit 6,2/10, palier de 13 communes. Écoles 8,7/10 et sécurité 7,3/10, les meilleures du batch. Mais T3 à 1 450 € : le seuil d'entrée est de 4 150 € net par mois.",
     category: "famille",
@@ -61426,8 +61426,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-orleans-2026",
-    title: "Parent solo à Orléans en 2026 : le tram, Paris à portée, et 2 800 € net pour un T3",
-    metaTitle: "Parent solo à Orléans 2026 — T3 930 €, tram, écoles 6,6",
+    title: "Parent solo à Orléans en 2027 : le tram, Paris à portée, et 2 800 € net pour un T3",
+    metaTitle: "Parent solo à Orléans 2027 — T3 930 €, tram, écoles 6,6",
     metaDesc:
       "Fit 6,1/10, palier de 13 communes. T3 à 930 €, écoles 6,6/10, transports 6,4/10 et deux lignes de tram. Le calcul sur un seul revenu.",
     category: "famille",
@@ -61475,8 +61475,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-le-mans-2026",
-    title: "Parent solo au Mans en 2026 : 1 900 € le mètre carré, un tram, et un seul revenu",
-    metaTitle: "Parent solo au Mans 2026 — T3 870 €, achat à 1 900 €/m²",
+    title: "Parent solo au Mans en 2027 : 1 900 € le mètre carré, un tram, et un seul revenu",
+    metaTitle: "Parent solo au Mans 2027 — T3 870 €, achat à 1 900 €/m²",
     metaDesc:
       "Fit 6,0/10, palier de 12 communes. T3 à 870 €, achat à 1 900 €/m², tram et TGV. Écoles 6,2/10, sécurité 5,3/10 : le calcul complet pour un parent seul.",
     category: "famille",
@@ -61524,8 +61524,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-amiens-2026",
-    title: "Parent solo à Amiens en 2026 : de bonnes écoles, un loyer bas, et une sécurité à 4,5",
-    metaTitle: "Parent solo à Amiens 2026 — T3 900 €, écoles 6,6/10",
+    title: "Parent solo à Amiens en 2027 : de bonnes écoles, un loyer bas, et une sécurité à 4,5",
+    metaTitle: "Parent solo à Amiens 2027 — T3 900 €, écoles 6,6/10",
     metaDesc:
       "Fit 5,9/10, palier de 19 communes. T3 à 900 € et écoles 6,6/10, soit 136 € par point. Mais sécurité 4,5/10 : l'arbitrage posé sans détour pour un seul revenu.",
     category: "famille",
@@ -61573,8 +61573,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-mulhouse-2026",
-    title: "Parent solo à Mulhouse en 2026 : le logement le moins cher du batch, et pourquoi",
-    metaTitle: "Parent solo à Mulhouse 2026 — T3 780 €, tram, achat 1 700 €",
+    title: "Parent solo à Mulhouse en 2027 : le logement le moins cher du batch, et pourquoi",
+    metaTitle: "Parent solo à Mulhouse 2027 — T3 780 €, tram, achat 1 700 €",
     metaDesc:
       "Fit 5,9/10, palier de 19 communes. T3 à 780 € et achat à 1 700 €/m², les plus bas du batch. Transports 7,0/10, sécurité 4,5/10 : l'arbitrage chiffré.",
     category: "famille",
@@ -61622,8 +61622,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-dunkerque-2026",
-    title: "Parent solo à Dunkerque en 2026 : les transports gratuits et le loyer le plus bas du batch",
-    metaTitle: "Parent solo à Dunkerque 2026 — T3 750 €, bus gratuit",
+    title: "Parent solo à Dunkerque en 2027 : les transports gratuits et le loyer le plus bas du batch",
+    metaTitle: "Parent solo à Dunkerque 2027 — T3 750 €, bus gratuit",
     metaDesc:
       "Fit 5,7/10, palier de 13 communes. T3 à 750 € et seuil d'entrée à 2 250 €, les plus bas du batch. Bus gratuit depuis 2018, sécurité 4,5/10 : le calcul honnête.",
     category: "famille",
@@ -61671,8 +61671,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-nimes-2026",
-    title: "Parent solo à Nîmes en 2026 : le soleil ne compense pas le classement",
-    metaTitle: "Parent solo à Nîmes 2026 — T3 960 €, sécurité 3,9/10",
+    title: "Parent solo à Nîmes en 2027 : le soleil ne compense pas le classement",
+    metaTitle: "Parent solo à Nîmes 2027 — T3 960 €, sécurité 3,9/10",
     metaDesc:
       "Fit 5,3/10, palier de 18 communes, sous la médiane. T3 à 960 €, écoles 5,3/10, sécurité 3,9/10 : 181 € de loyer par point. L'arbitrage posé sans arrondir.",
     category: "famille",
@@ -61720,8 +61720,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-perpignan-2026",
-    title: "Parent solo à Perpignan en 2026 : le dossier métropolitain le plus difficile du batch",
-    metaTitle: "Parent solo à Perpignan 2026 — T3 870 €, écoles 4,5/10",
+    title: "Parent solo à Perpignan en 2027 : le dossier métropolitain le plus difficile du batch",
+    metaTitle: "Parent solo à Perpignan 2027 — T3 870 €, écoles 4,5/10",
     metaDesc:
       "Fit 5,0/10, palier de 14 communes. Écoles 4,5/10 et sécurité 3,7/10, les plus basses du batch, pour un T3 à 870 €. Ce que le loyer bas ne compense pas.",
     category: "famille",
@@ -61769,8 +61769,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-denis-reunion-2026",
-    title: "Parent solo à Saint-Denis de La Réunion en 2026 : la vie chère, la voiture, et l'éloignement",
-    metaTitle: "Parent solo à Saint-Denis (974) 2026 — T3 900 €, voiture",
+    title: "Parent solo à Saint-Denis de La Réunion en 2027 : la vie chère, la voiture, et l'éloignement",
+    metaTitle: "Parent solo à Saint-Denis (974) 2027 — T3 900 €, voiture",
     metaDesc:
       "Fit 4,8/10, palier de 14 communes. Coût 4,1/10 et transports 4,7/10, les plus bas du batch, pour un T3 à 900 €. Le premier guide outre-mer de la série.",
     category: "famille",
@@ -61818,7 +61818,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-paul-reunion-2026",
-    title: "Parent solo à Saint-Paul (La Réunion) en 2026 : 2 550 € et une voiture qui ne se supprime pas",
+    title: "Parent solo à Saint-Paul (La Réunion) en 2027 : 2 550 € et une voiture qui ne se supprime pas",
     metaTitle: "Parent solo à Saint-Paul 974 — T3 900 €, fit 4,4/10",
     metaDesc:
       "Fit 4,4/10, palier de 15 communes. T3 à 900 €, transports 4,0/10 : la voiture est une charge fixe, pas une variable. Le calcul complet sur un seul revenu.",
@@ -61867,8 +61867,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-avignon-2026",
-    title: "Parent solo à Avignon en 2026 : culture 9/10, et 228e ex æquo quand même",
-    metaTitle: "Parent solo à Avignon 2026 — T3 1 000 €, fit 5,3/10",
+    title: "Parent solo à Avignon en 2027 : culture 9/10, et 228e ex æquo quand même",
+    metaTitle: "Parent solo à Avignon 2027 — T3 1 000 €, fit 5,3/10",
     metaDesc:
       "Fit 5,3/10, palier de 18 communes. Culture 9,0/10, sécurité 4,3/10, T3 à 1 000 € : pourquoi la réputation d'une ville ne pèse rien dans ce classement.",
     category: "famille",
@@ -61916,7 +61916,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-pierre-reunion-2026",
-    title: "Parent solo à Saint-Pierre (La Réunion) en 2026 : le meilleur dossier de l'île, et il reste difficile",
+    title: "Parent solo à Saint-Pierre (La Réunion) en 2027 : le meilleur dossier de l'île, et il reste difficile",
     metaTitle: "Parent solo à Saint-Pierre 974 — T3 840 €, fit 4,9/10",
     metaDesc:
       "Fit 4,9/10, palier de 16 communes. T3 à 840 €, seuil d'entrée 2 400 €, transports 4,7/10 : le dossier réunionnais le mieux équilibré, à égalité avec Le Tampon.",
@@ -61965,8 +61965,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-beziers-2026",
-    title: "Parent solo à Béziers en 2026 : 2 200 € suffisent, et c'est la seule bonne nouvelle du dossier",
-    metaTitle: "Parent solo à Béziers 2026 — T3 720 €, fit 4,7/10",
+    title: "Parent solo à Béziers en 2027 : 2 200 € suffisent, et c'est la seule bonne nouvelle du dossier",
+    metaTitle: "Parent solo à Béziers 2027 — T3 720 €, fit 4,7/10",
     metaDesc:
       "Fit 4,7/10, palier de 4 communes, dernière d'Occitanie. T3 à 720 €, seuil d'entrée 2 200 € : le prix le plus bas du batch, et pourquoi il se paie ailleurs.",
     category: "famille",
@@ -62014,8 +62014,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-la-rochelle-2026",
-    title: "Parent solo à La Rochelle en 2026 : 64e ex æquo du classement, 3 150 € pour y entrer",
-    metaTitle: "Parent solo à La Rochelle 2026 — T3 1 100 €, fit 6,3/10",
+    title: "Parent solo à La Rochelle en 2027 : 64e ex æquo du classement, 3 150 € pour y entrer",
+    metaTitle: "Parent solo à La Rochelle 2027 — T3 1 100 €, fit 6,3/10",
     metaDesc:
       "Fit 6,3/10, palier de 16 communes, sécurité 6,5/10, mais un seuil d'entrée à 3 150 € net. Un bon palier n'est pas un test de solvabilité.",
     category: "famille",
@@ -62063,8 +62063,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-pau-2026",
-    title: "Parent solo à Pau en 2026 : 122 € de loyer par point d'écoles, le meilleur du batch",
-    metaTitle: "Parent solo à Pau 2026 — T3 900 €, écoles 7,4/10",
+    title: "Parent solo à Pau en 2027 : 122 € de loyer par point d'écoles, le meilleur du batch",
+    metaTitle: "Parent solo à Pau 2027 — T3 900 €, écoles 7,4/10",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. T3 à 900 € pour des écoles à 7,4/10 : 122 € par point, le meilleur ratio du batch. Le calcul complet sur un seul revenu.",
     category: "famille",
@@ -62112,8 +62112,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-cherbourg-2026",
-    title: "Parent solo à Cherbourg-en-Cotentin en 2026 : 2 500 €, une commune nouvelle et une voiture",
-    metaTitle: "Parent solo à Cherbourg 2026 — T3 820 €, fit 5,7/10",
+    title: "Parent solo à Cherbourg-en-Cotentin en 2027 : 2 500 €, une commune nouvelle et une voiture",
+    metaTitle: "Parent solo à Cherbourg 2027 — T3 820 €, fit 5,7/10",
     metaDesc:
       "Fit 5,7/10, palier de 18 communes. T3 à 820 €, m² à 1 900 €, transports 4,9/10 : le deuxième rapport écoles-loyer du batch, et pourquoi il faut une voiture.",
     category: "famille",
@@ -62161,8 +62161,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-fort-de-france-2026",
-    title: "Parent solo à Fort-de-France en 2026 : la ville a perdu 11 588 habitants, et ça compte",
-    metaTitle: "Parent solo à Fort-de-France 2026 — T3 960 €, fit 4,5/10",
+    title: "Parent solo à Fort-de-France en 2027 : la ville a perdu 11 588 habitants, et ça compte",
+    metaTitle: "Parent solo à Fort-de-France 2027 — T3 960 €, fit 4,5/10",
     metaDesc:
       "Fit 4,5/10, palier de 16 communes. T3 à 960 €, coût de la vie 4,1/10, et 13 % de population en moins depuis 2011 : ce que ça change pour un foyer à un adulte.",
     category: "famille",
@@ -62210,8 +62210,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-merignac-2026",
-    title: "Parent solo à Mérignac en 2026 : le prix de Bordeaux sans les écoles de Bordeaux",
-    metaTitle: "Parent solo à Mérignac 2026 — T3 1 080 €, fit 5,3/10",
+    title: "Parent solo à Mérignac en 2027 : le prix de Bordeaux sans les écoles de Bordeaux",
+    metaTitle: "Parent solo à Mérignac 2027 — T3 1 080 €, fit 5,3/10",
     metaDesc:
       "Fit 5,3/10, palier de 18 communes. T3 à 1 080 €, écoles 5,5/10 quand Pessac fait 6,6 au même loyer : l'arbitrage chiffré dans la métropole bordelaise.",
     category: "famille",
@@ -62260,7 +62260,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-lamentin-2026",
     title: "10 choses à faire au Lamentin (Martinique)",
-    metaTitle: "10 choses à faire au Lamentin (Martinique) 2026",
+    metaTitle: "10 choses à faire au Lamentin (Martinique) 2027",
     metaDesc: "Mangrove de Morne-Cabri, kayak dans la baie de Génipa, distillerie La Favorite, Nèg Mawon, église Saint-Laurent, marché du dimanche : 10 activités au Lamentin.",
     category: "tourisme",
     emoji: "🌿",
@@ -62322,7 +62322,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-baie-mahault-2026",
     title: "10 choses à faire à Baie-Mahault (Guadeloupe)",
-    metaTitle: "10 choses à faire à Baie-Mahault (Guadeloupe) 2026",
+    metaTitle: "10 choses à faire à Baie-Mahault (Guadeloupe) 2027",
     metaDesc: "Église Ali Tur, Grand Cul-de-Sac Marin, maison coloniale de Wonche, Jarry, pont de la Gabarre, îlets : 10 activités à Baie-Mahault, Guadeloupe.",
     category: "tourisme",
     emoji: "🛶",
@@ -62383,7 +62383,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-louis-reunion-974-2026",
     title: "10 choses à faire à Saint-Louis (La Réunion)",
-    metaTitle: "10 choses à faire à Saint-Louis (Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-Louis (Réunion) 2027",
     metaDesc: "Temple du Gol, sucrerie du Gol, étang du Gol, forêt et observatoire des Makes, Fenêtre sur Cilaos, route aux 400 virages : 10 activités à Saint-Louis.",
     category: "tourisme",
     emoji: "🛕",
@@ -62445,7 +62445,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-joseph-reunion-2026",
     title: "10 choses à faire à Saint-Joseph (La Réunion)",
-    metaTitle: "10 choses à faire à Saint-Joseph (Réunion) 2026",
+    metaTitle: "10 choses à faire à Saint-Joseph (Réunion) 2027",
     metaDesc: "Cascade de Grand Galet, bassins de la rivière Langevin, Manapany, gecko vert, Grand Coude et son thé, curcuma de la Plaine des Grègues : 10 activités.",
     category: "tourisme",
     emoji: "🦎",
@@ -62507,7 +62507,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-aux-sables-d-olonne-2026",
     title: "10 choses à faire aux Sables-d'Olonne",
-    metaTitle: "10 choses à faire aux Sables-d'Olonne en 2026",
+    metaTitle: "10 choses à faire aux Sables-d'Olonne en 2027",
     metaDesc: "Remblai, Vendée Globe et Port-Olona, île Penotte, La Chaume et la tour d'Arundel, musée de l'Abbaye Sainte-Croix, Puits d'Enfer : 10 activités aux Sables.",
     category: "tourisme",
     emoji: "⛵",
@@ -62569,7 +62569,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vincennes-2026",
     title: "10 choses à faire à Vincennes",
-    metaTitle: "10 choses à faire à Vincennes en 2026",
+    metaTitle: "10 choses à faire à Vincennes en 2027",
     metaDesc: "Donjon et Sainte-Chapelle du château, fossés et mémoire, église Saint-Louis Art déco, marchés, bois de Vincennes et Parc floral : 10 activités à Vincennes.",
     category: "tourisme",
     emoji: "🏰",
@@ -62631,7 +62631,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-salon-de-provence-2026",
     title: "10 choses à faire à Salon-de-Provence",
-    metaTitle: "10 choses à faire à Salon-de-Provence en 2026",
+    metaTitle: "10 choses à faire à Salon-de-Provence en 2027",
     metaDesc: "Château et musée de l'Empéri, maison et tombeau de Nostradamus, fontaine moussue, savonnerie Marius Fabre, Patrouille de France : 10 activités à Salon.",
     category: "tourisme",
     emoji: "🔮",
@@ -62693,7 +62693,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-quentin-2026",
     title: "10 choses à faire à Saint-Quentin",
-    metaTitle: "10 choses à faire à Saint-Quentin en 2026",
+    metaTitle: "10 choses à faire à Saint-Quentin en 2027",
     metaDesc: "Basilique gothique, hôtel de ville flamboyant et Art déco, pastels de Quentin de La Tour, marais d'Isle, mémoire de 1918 : 10 activités à Saint-Quentin.",
     category: "tourisme",
     emoji: "🎨",
@@ -62755,7 +62755,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-brive-la-gaillarde-2026",
     title: "10 choses à faire à Brive-la-Gaillarde",
-    metaTitle: "10 choses à faire à Brive-la-Gaillarde en 2026",
+    metaTitle: "10 choses à faire à Brive-la-Gaillarde en 2027",
     metaDesc: "Marché sous la halle Brassens, collégiale et crypte, musée Labenche, distillerie Denoix, musée Michelet, Foire du livre : 10 activités à Brive-la-Gaillarde.",
     category: "tourisme",
     emoji: "🛒",
@@ -62817,7 +62817,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-seyne-sur-mer-2026",
     title: "10 choses à faire à La Seyne-sur-Mer",
-    metaTitle: "10 choses à faire à La Seyne-sur-Mer en 2026",
+    metaTitle: "10 choses à faire à La Seyne-sur-Mer en 2027",
     metaDesc: "Pont levant des chantiers, fort Balaguier, Tamaris et Michel Pacha, hameau Pouillon des Sablettes, cap Sicié : 10 activités à La Seyne-sur-Mer.",
     category: "tourisme",
     emoji: "⚓",
@@ -62879,7 +62879,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-valenciennes-2026",
     title: "10 choses à faire à Valenciennes",
-    metaTitle: "10 choses à faire à Valenciennes en 2026",
+    metaTitle: "10 choses à faire à Valenciennes en 2027",
     metaDesc: "Musée des Beaux-Arts, Watteau et Carpeaux, bibliothèque des Jésuites, Mont-de-Piété, parc de la Rhonelle, le phénix : 10 activités à Valenciennes.",
     category: "tourisme",
     emoji: "🖼️",
@@ -62941,7 +62941,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-thionville-2026",
     title: "10 choses à faire à Thionville",
-    metaTitle: "10 choses à faire à Thionville en 2026",
+    metaTitle: "10 choses à faire à Thionville en 2027",
     metaDesc: "Tour aux Puces et son musée, beffroi, fort de Guentrange, château de La Grange, Hackenberg, Puzzle : 10 activités à Thionville, aux portes du Luxembourg.",
     category: "tourisme",
     emoji: "🛡️",
@@ -63002,8 +63002,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-lyon-2026",
-    title: "Vacances monoparentales à Lyon en 2026",
-    metaTitle: "Vacances monoparentales à Lyon 2026",
+    title: "Vacances monoparentales à Lyon en 2027",
+    metaTitle: "Vacances monoparentales à Lyon 2027",
     metaDesc: "Lyon en parent solo : transports 9/10, tout se fait sans voiture, mais c'est la ville la plus chère de la sélection. Les mois et les quartiers qui tiennent.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63053,8 +63053,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-angers-2026",
-    title: "Vacances monoparentales à Angers en 2026",
-    metaTitle: "Vacances monoparentales à Angers 2026",
+    title: "Vacances monoparentales à Angers en 2027",
+    metaTitle: "Vacances monoparentales à Angers 2027",
     metaDesc: "Angers en parent solo : même classement que Lyon au composite, à un niveau de prix bien inférieur, et une affluence à 1 sur 5 en avril et en octobre.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63104,8 +63104,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-bordeaux-2026",
-    title: "Vacances monoparentales à Bordeaux en 2026",
-    metaTitle: "Vacances monoparentales à Bordeaux 2026",
+    title: "Vacances monoparentales à Bordeaux en 2027",
+    metaTitle: "Vacances monoparentales à Bordeaux 2027",
     metaDesc: "Bordeaux en parent solo : tram partout, hiver le plus doux du lot à 6,9 °C, mais coût 4,5/10 et affluence à 5 sur 5 en juillet. Le calendrier fait tout.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63155,8 +63155,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-besancon-2026",
-    title: "Vacances monoparentales à Besançon en 2026",
-    metaTitle: "Vacances monoparentales à Besançon 2026",
+    title: "Vacances monoparentales à Besançon en 2027",
+    metaTitle: "Vacances monoparentales à Besançon 2027",
     metaDesc: "Besançon en parent solo : la Citadelle réunit muséum, zoo, insectarium et aquarium en un seul billet. Le meilleur regroupement d'activités de la sélection.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63206,8 +63206,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-grenoble-2026",
-    title: "Vacances monoparentales à Grenoble en 2026",
-    metaTitle: "Vacances monoparentales à Grenoble 2026",
+    title: "Vacances monoparentales à Grenoble en 2027",
+    metaTitle: "Vacances monoparentales à Grenoble 2027",
     metaDesc: "Grenoble en parent solo : nature 8,4/10, le meilleur du lot, tram et téléphérique depuis le centre. Mais sécurité 4,3/10 et la montagne demande une voiture.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63257,8 +63257,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-brest-2026",
-    title: "Vacances monoparentales à Brest en 2026",
-    metaTitle: "Vacances monoparentales à Brest 2026",
+    title: "Vacances monoparentales à Brest en 2027",
+    metaTitle: "Vacances monoparentales à Brest 2027",
     metaDesc: "Brest en parent solo : le niveau de prix le plus bas du lot, un téléphérique dans le réseau de bus, et un plan B couvert obligatoire. Juillet à 18,6 °C.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63308,8 +63308,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-tours-2026",
-    title: "Vacances monoparentales à Tours en 2026",
-    metaTitle: "Vacances monoparentales à Tours 2026",
+    title: "Vacances monoparentales à Tours en 2027",
+    metaTitle: "Vacances monoparentales à Tours 2027",
     metaDesc: "Tours en parent solo : Chenonceaux à 400 m de sa gare, Amboise en TER, châteaux sans voiture. Et le piège de la gare TGV de Saint-Pierre-des-Corps.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63359,8 +63359,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-valence-2026",
-    title: "Vacances monoparentales à Valence en 2026",
-    metaTitle: "Vacances monoparentales à Valence 2026",
+    title: "Vacances monoparentales à Valence en 2027",
+    metaTitle: "Vacances monoparentales à Valence 2027",
     metaDesc: "Valence en parent solo : le seul budget €€ de la sélection, coût 6,7/10, juillet à 25,8 °C. Mais pas de tram, et une gare TGV à l'écart de la ville.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -63410,8 +63410,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-toulouse-2026",
-    title: "Vacances monoparentales à Toulouse en 2026",
-    metaTitle: "Vacances monoparentales à Toulouse 2026",
+    title: "Vacances monoparentales à Toulouse en 2027",
+    metaTitle: "Vacances monoparentales à Toulouse 2027",
     metaDesc:
       "Toulouse en parent solo : le meilleur réseau de ce lot, 7,5/10, pour des sites enfants tous en périphérie. Et l'un des scores de sécurité les plus bas de la série.",
     category: "famille",
@@ -63463,8 +63463,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-pau-2026",
-    title: "Vacances monoparentales à Pau en 2026",
-    metaTitle: "Vacances monoparentales à Pau 2026",
+    title: "Vacances monoparentales à Pau en 2027",
+    metaTitle: "Vacances monoparentales à Pau 2027",
     metaDesc:
       "Pau en parent solo : un funiculaire gratuit relie la gare au centre haut, nature 7,0/10. Mais transports 6,1 : la montagne ne s'atteint pas sans plan.",
     category: "famille",
@@ -63516,8 +63516,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-macon-2026",
-    title: "Vacances monoparentales à Mâcon en 2026",
-    metaTitle: "Vacances monoparentales à Mâcon 2026",
+    title: "Vacances monoparentales à Mâcon en 2027",
+    metaTitle: "Vacances monoparentales à Mâcon 2027",
     metaDesc:
       "Mâcon en parent solo : la destination la moins chère des vingt-deux de la série, T3 à 800 €. Mais le TGV s'arrête à Loché, à 7 km, et pas en ville.",
     category: "famille",
@@ -63569,8 +63569,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-aix-en-provence-2026",
-    title: "Vacances monoparentales à Aix-en-Provence en 2026",
-    metaTitle: "Vacances monoparentales à Aix-en-Provence 2026",
+    title: "Vacances monoparentales à Aix-en-Provence en 2027",
+    metaTitle: "Vacances monoparentales à Aix-en-Provence 2027",
     metaDesc:
       "Aix en parent solo : la destination la plus chère des vingt-deux de la série, T3 à 1 400 €. Ce que la qualité de vie 7,8/10 et la culture 8,4 achètent vraiment.",
     category: "famille",
@@ -63622,8 +63622,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-poitiers-2026",
-    title: "Vacances monoparentales à Poitiers en 2026",
-    metaTitle: "Vacances monoparentales à Poitiers 2026",
+    title: "Vacances monoparentales à Poitiers en 2027",
+    metaTitle: "Vacances monoparentales à Poitiers 2027",
     metaDesc:
       "Poitiers en parent solo : le Futuroscope a sa propre gare TGV et un bus depuis la ville. Un grand parc à thème sans louer de voiture, à 2 100 € le m².",
     category: "famille",
@@ -63675,8 +63675,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saint-raphael-2026",
-    title: "Vacances monoparentales à Saint-Raphaël en 2026",
-    metaTitle: "Vacances monoparentales à Saint-Raphaël 2026",
+    title: "Vacances monoparentales à Saint-Raphaël en 2027",
+    metaTitle: "Vacances monoparentales à Saint-Raphaël 2027",
     metaDesc:
       "Saint-Raphaël en parent solo : la gare est au centre, la plage à quelques minutes à pied. Meilleure sécurité du lot, 6,2/10, et le deuxième prix le plus élevé.",
     category: "famille",
@@ -63728,8 +63728,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-metz-2026",
-    title: "Vacances monoparentales à Metz en 2026",
-    metaTitle: "Vacances monoparentales à Metz 2026",
+    title: "Vacances monoparentales à Metz en 2027",
+    metaTitle: "Vacances monoparentales à Metz 2027",
     metaDesc:
       "Metz en parent solo : la sortie sud de la gare donne sur le parvis du Centre Pompidou. Zéro correspondance avec les bagages, et un T3 de référence à 910 €.",
     category: "famille",
@@ -63781,8 +63781,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-reims-2026",
-    title: "Vacances monoparentales à Reims en 2026",
-    metaTitle: "Vacances monoparentales à Reims 2026",
+    title: "Vacances monoparentales à Reims en 2027",
+    metaTitle: "Vacances monoparentales à Reims 2027",
     metaDesc:
       "Reims en parent solo : le tramway passe devant la gare et mène à la cathédrale, T3 à 900 €. Mais la nature sort 4,2/10, l'avant-dernier des trente.",
     category: "famille",
@@ -63834,8 +63834,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-le-mans-2026",
-    title: "Vacances monoparentales au Mans en 2026",
-    metaTitle: "Vacances monoparentales au Mans 2026",
+    title: "Vacances monoparentales au Mans en 2027",
+    metaTitle: "Vacances monoparentales au Mans 2027",
     metaDesc:
       "Le Mans en parent solo : une enceinte romaine de 1 300 m de tour, à l'échelle d'un enfant, et 870 € le T3. La station météo, elle, est à 74 km.",
     category: "famille",
@@ -63887,8 +63887,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-lille-2026",
-    title: "Vacances monoparentales à Lille en 2026",
-    metaTitle: "Vacances monoparentales à Lille 2026",
+    title: "Vacances monoparentales à Lille en 2027",
+    metaTitle: "Vacances monoparentales à Lille 2027",
     metaDesc:
       "Lille en parent solo : deux gares à 500 m l'une de l'autre et le 3e transport des trente. En face, la nature la plus basse de la série, 3,4/10.",
     category: "famille",
@@ -63940,8 +63940,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-mulhouse-2026",
-    title: "Vacances monoparentales à Mulhouse en 2026",
-    metaTitle: "Vacances monoparentales à Mulhouse 2026",
+    title: "Vacances monoparentales à Mulhouse en 2027",
+    metaTitle: "Vacances monoparentales à Mulhouse 2027",
     metaDesc:
       "Mulhouse en parent solo : deux des plus grands musées de leur catégorie au monde, dans la 2e destination la moins chère des trente. T3 780 €.",
     category: "famille",
@@ -63993,8 +63993,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saint-etienne-2026",
-    title: "Vacances monoparentales à Saint-Étienne en 2026",
-    metaTitle: "Vacances monoparentales à Saint-Étienne 2026",
+    title: "Vacances monoparentales à Saint-Étienne en 2027",
+    metaTitle: "Vacances monoparentales à Saint-Étienne 2027",
     metaDesc:
       "Saint-Étienne en parent solo : la destination la moins chère des trente, T3 à 770 €. Et la plus faible sur la qualité de vie comme sur la culture.",
     category: "famille",
@@ -64046,8 +64046,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-angouleme-2026",
-    title: "Vacances monoparentales à Angoulême en 2026",
-    metaTitle: "Vacances monoparentales à Angoulême 2026",
+    title: "Vacances monoparentales à Angoulême en 2027",
+    metaTitle: "Vacances monoparentales à Angoulême 2027",
     metaDesc:
       "Angoulême en parent solo : le plus faible score de transports des trente, et ça n'empêche rien. Mais le festival BD n'a pas eu lieu en 2026.",
     category: "famille",
@@ -64099,8 +64099,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-montpellier-2026",
-    title: "Vacances monoparentales à Montpellier en 2026",
-    metaTitle: "Vacances monoparentales à Montpellier 2026",
+    title: "Vacances monoparentales à Montpellier en 2027",
+    metaTitle: "Vacances monoparentales à Montpellier 2027",
     metaDesc:
       "Montpellier en parent solo : le tramway est gratuit, mais pas pour vous. La gratuité est réservée aux résidents de la métropole, sur pass nominatif.",
     category: "famille",
@@ -64152,8 +64152,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-avignon-2026",
-    title: "Vacances monoparentales à Avignon en 2026",
-    metaTitle: "Vacances monoparentales à Avignon 2026",
+    title: "Vacances monoparentales à Avignon en 2027",
+    metaTitle: "Vacances monoparentales à Avignon 2027",
     metaDesc:
       "Avignon en parent solo : la gare TGV est à 6 km, et c'est la seule de la série reliée au centre par un train de cinq minutes. Culture 9,0/10.",
     category: "famille",
@@ -64205,8 +64205,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-anglet-2026",
-    title: "Vacances monoparentales à Anglet en 2026",
-    metaTitle: "Vacances monoparentales à Anglet 2026",
+    title: "Vacances monoparentales à Anglet en 2027",
+    metaTitle: "Vacances monoparentales à Anglet 2027",
     metaDesc:
       "Anglet sort à 7,3/10 au composite monoparental, le meilleur de la série avec Vendôme, et la plus haute qualité de vie des 38. Mais elle n'a pas de gare.",
     category: "famille",
@@ -64258,8 +64258,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-vendome-2026",
-    title: "Vacances monoparentales à Vendôme en 2026",
-    metaTitle: "Vacances monoparentales à Vendôme 2026",
+    title: "Vacances monoparentales à Vendôme en 2027",
+    metaTitle: "Vacances monoparentales à Vendôme 2027",
     metaDesc:
       "Vendôme sort à 7,3/10 au composite monoparental, le meilleur de la série avec Anglet, pour un T3 de référence à 720 € et un mètre carré à 1 500 €.",
     category: "famille",
@@ -64311,8 +64311,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-la-roche-sur-yon-2026",
-    title: "Vacances monoparentales à La Roche-sur-Yon en 2026",
-    metaTitle: "Vacances monoparentales La Roche-sur-Yon 2026",
+    title: "Vacances monoparentales à La Roche-sur-Yon en 2027",
+    metaTitle: "Vacances monoparentales La Roche-sur-Yon 2027",
     metaDesc:
       "La Roche-sur-Yon porte la meilleure sécurité des trente-huit destinations de la série, 8,0/10, et la plus faible culture, 5,7/10. Le guide dit ce que ça change.",
     category: "famille",
@@ -64364,8 +64364,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-vienne-2026",
-    title: "Vacances monoparentales à Vienne en 2026",
-    metaTitle: "Vacances monoparentales à Vienne (Isère) 2026",
+    title: "Vacances monoparentales à Vienne en 2027",
+    metaTitle: "Vacances monoparentales à Vienne (Isère) 2027",
     metaDesc:
       "Vienne porte 9,0/10 de culture, le maximum de la série, sur 31 555 habitants. TER de 18 min depuis Lyon, aucun TGV, huit parcs sur huit avec aire de jeux.",
     category: "famille",
@@ -64417,7 +64417,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-villefranche-sur-saone-2026",
-    title: "Vacances monoparentales à Villefranche-sur-Saône en 2026",
+    title: "Vacances monoparentales à Villefranche-sur-Saône en 2027",
     metaTitle: "Vacances monoparentales Villefranche-sur-Saône",
     metaDesc:
       "Villefranche sort à 6,9/10 au composite monoparental, avec 8,7/10 d'écoles. Vingt minutes de TER depuis Lyon, mais son patrimoine est invisible depuis la rue.",
@@ -64470,8 +64470,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-brive-la-gaillarde-2026",
-    title: "Vacances monoparentales à Brive-la-Gaillarde en 2026",
-    metaTitle: "Vacances monoparentales Brive-la-Gaillarde 2026",
+    title: "Vacances monoparentales à Brive-la-Gaillarde en 2027",
+    metaTitle: "Vacances monoparentales Brive-la-Gaillarde 2027",
     metaDesc:
       "Brive sort à 6,8/10 au composite monoparental, avec 6,7/10 de sécurité et un T3 à 780 €. Mais l'arrivée depuis Paris est un Intercités de 4 h 35.",
     category: "famille",
@@ -64523,8 +64523,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-compiegne-2026",
-    title: "Vacances monoparentales à Compiègne en 2026",
-    metaTitle: "Vacances monoparentales à Compiègne 2026",
+    title: "Vacances monoparentales à Compiègne en 2027",
+    metaTitle: "Vacances monoparentales à Compiègne 2027",
     metaDesc:
       "Compiègne a la meilleure arrivée du lot depuis Paris : un TER direct de Gare du Nord toutes les demi-heures, sans TGV. Transports 7,7/10, nature 7,1/10.",
     category: "famille",
@@ -64576,8 +64576,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-dieppe-2026",
-    title: "Vacances monoparentales à Dieppe en 2026",
-    metaTitle: "Vacances monoparentales à Dieppe 2026",
+    title: "Vacances monoparentales à Dieppe en 2027",
+    metaTitle: "Vacances monoparentales à Dieppe 2027",
     metaDesc:
       "Dieppe est la seule des huit sans train direct depuis Paris, et celle où la voiture sert le moins une fois arrivé. Cinq espaces verts, le minimum de la série.",
     category: "famille",
@@ -64629,8 +64629,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-valence-2026",
-    title: "Parent solo à Valence en 2026 : 2 750 € net, et le meilleur transport du lot après Pessac",
-    metaTitle: "Parent solo à Valence 2026 — T3 900 €, fit 6,4/10",
+    title: "Parent solo à Valence en 2027 : 2 750 € net, et le meilleur transport du lot après Pessac",
+    metaTitle: "Parent solo à Valence 2027 — T3 900 €, fit 6,4/10",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. T3 à 900 €, transports 7,4/10, revenu minimum 2 750 € : le meilleur dossier du batch, et ce que la sécurité coûte.",
     category: "famille",
@@ -64678,8 +64678,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-colmar-2026",
-    title: "Parent solo à Colmar en 2026 : la seule du batch sans axe faible, et 2 539 habitants de moins",
-    metaTitle: "Parent solo à Colmar 2026 — T3 1 000 €, fit 6,3/10",
+    title: "Parent solo à Colmar en 2027 : la seule du batch sans axe faible, et 2 539 habitants de moins",
+    metaTitle: "Parent solo à Colmar 2027 — T3 1 000 €, fit 6,3/10",
     metaDesc:
       "Fit 6,3/10, palier de 16 communes. Quatre axes tous au-dessus de 6, un T3 à 1 000 € et une population qui recule depuis 2016 : le calcul sur un seul revenu.",
     category: "famille",
@@ -64727,8 +64727,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-nazaire-2026",
-    title: "Parent solo à Saint-Nazaire en 2026 : le meilleur ratio du batch, dans la région qui fait mieux ailleurs",
-    metaTitle: "Parent solo à Saint-Nazaire 2026 — T3 850 €, fit 6,2",
+    title: "Parent solo à Saint-Nazaire en 2027 : le meilleur ratio du batch, dans la région qui fait mieux ailleurs",
+    metaTitle: "Parent solo à Saint-Nazaire 2027 — T3 850 €, fit 6,2",
     metaDesc:
       "Fit 6,2/10, palier de 13 communes. T3 à 850 €, 129 € par point d'écoles : le meilleur rapport du batch, et pourquoi cinq villes des Pays de la Loire font mieux.",
     category: "famille",
@@ -64776,8 +64776,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chambery-2026",
-    title: "Parent solo à Chambéry en 2026 : le meilleur dossier du batch, et 3 350 € pour y accéder",
-    metaTitle: "Parent solo à Chambéry 2026 — écoles 7,4, T3 1 100 €",
+    title: "Parent solo à Chambéry en 2027 : le meilleur dossier du batch, et 3 350 € pour y accéder",
+    metaTitle: "Parent solo à Chambéry 2027 — écoles 7,4, T3 1 100 €",
     metaDesc:
       "Fit 6,1/10, palier de 13 communes. Écoles 7,4/10 et sécurité 6,3/10, les deux meilleures du batch, pour 3 350 € net de seuil d'entrée. Le calcul complet.",
     category: "famille",
@@ -64825,8 +64825,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bourges-2026",
-    title: "Parent solo à Bourges en 2026 : 123 500 € pour 65 m², et une voiture à intégrer au calcul",
-    metaTitle: "Parent solo à Bourges 2026 — T3 760 €, m² à 1 900 €",
+    title: "Parent solo à Bourges en 2027 : 123 500 € pour 65 m², et une voiture à intégrer au calcul",
+    metaTitle: "Parent solo à Bourges 2027 — T3 760 €, m² à 1 900 €",
     metaDesc:
       "Fit 5,8/10, palier de 18 communes. T3 à 760 €, seuil d'entrée 2 300 €, m² à 1 900 € : la ville de ce batch où acheter reste arithmétiquement possible.",
     category: "famille",
@@ -64874,8 +64874,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-pessac-2026",
-    title: "Parent solo à Pessac en 2026 : même loyer que Mérignac, un point d'écoles de plus",
-    metaTitle: "Parent solo à Pessac 2026 — T3 1 080 €, transports 7,7",
+    title: "Parent solo à Pessac en 2027 : même loyer que Mérignac, un point d'écoles de plus",
+    metaTitle: "Parent solo à Pessac 2027 — T3 1 080 €, transports 7,7",
     metaDesc:
       "Fit 5,6/10, palier de 6 communes. Même T3 et même m² qu'à Mérignac pour 1,1 point d'écoles de plus, avec le meilleur transport du batch. Le calcul à un revenu.",
     category: "famille",
@@ -64923,8 +64923,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-calais-2026",
-    title: "Parent solo à Calais en 2026 : 1 950 € net, le seuil d'entrée le plus bas de toute la série",
-    metaTitle: "Parent solo à Calais 2026 — T3 640 €, seuil 1 950 €",
+    title: "Parent solo à Calais en 2027 : 1 950 € net, le seuil d'entrée le plus bas de toute la série",
+    metaTitle: "Parent solo à Calais 2027 — T3 640 €, seuil 1 950 €",
     metaDesc:
       "Fit 5,2/10, palier de 23 communes. T3 à 640 €, m² à 1 350 €, seuil d'entrée 1 950 € : les chiffres les plus bas de la série, et les deux axes qui les paient.",
     category: "famille",
@@ -64972,8 +64972,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-le-tampon-2026",
-    title: "Parent solo au Tampon en 2026 : premier de La Réunion sur ce classement, 303e ex æquo en France",
-    metaTitle: "Parent solo au Tampon 2026 — T3 780 €, fit 4,9/10",
+    title: "Parent solo au Tampon en 2027 : premier de La Réunion sur ce classement, 303e ex æquo en France",
+    metaTitle: "Parent solo au Tampon 2027 — T3 780 €, fit 4,9/10",
     metaDesc:
       "Fit 4,9/10, palier de 16 communes, mais premier des dix communes réunionnaises. T3 à 780 €, seuil 2 250 €, transports 3,7/10 : le calcul sur un seul revenu.",
     category: "famille",
@@ -65021,8 +65021,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-ajaccio-2026",
-    title: "Parent solo à Ajaccio en 2026 : 3 650 € net pour des écoles à 4,1/10",
-    metaTitle: "Parent solo à Ajaccio 2026 — T3 1 200 €, fit 4,4/10",
+    title: "Parent solo à Ajaccio en 2027 : 3 650 € net pour des écoles à 4,1/10",
+    metaTitle: "Parent solo à Ajaccio 2027 — T3 1 200 €, fit 4,4/10",
     metaDesc:
       "Fit 4,4/10, palier de 15 communes. Seuil d'entrée 3 650 € net, au-dessus de Bordeaux, pour des écoles à 4,1/10 et des transports à 4,0/10.",
     category: "famille",
@@ -65070,8 +65070,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-la-roche-sur-yon-2026",
-    title: "Parent solo à La Roche-sur-Yon en 2026 : la seule ville de France que ce classement note « Excellent »",
-    metaTitle: "Parent solo à La Roche-sur-Yon 2026 — 1re sur 363",
+    title: "Parent solo à La Roche-sur-Yon en 2027 : la seule ville de France que ce classement note « Excellent »",
+    metaTitle: "Parent solo à La Roche-sur-Yon 2027 — 1re sur 363",
     metaDesc:
       "Fit 7,5/10, 1re sur 363 et seule ville classée « Excellent ». T3 à 800 €, seuil d'entrée 2 400 €, 104 € de loyer par point d'écoles. Le dossier complet.",
     category: "famille",
@@ -65119,8 +65119,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-dole-2026",
-    title: "Parent solo à Dole en 2026 : 101 € de loyer par point d'écoles, le meilleur rapport de la série",
-    metaTitle: "Parent solo à Dole 2026 — T3 780 €, seuil 2 350 €",
+    title: "Parent solo à Dole en 2027 : 101 € de loyer par point d'écoles, le meilleur rapport de la série",
+    metaTitle: "Parent solo à Dole 2027 — T3 780 €, seuil 2 350 €",
     metaDesc:
       "Fit 7,2/10, palier de 2 communes. T3 à 780 €, m² à 1 800 €, seuil d'entrée 2 350 € et 101 € de loyer par point d'écoles, septième rapport de la série.",
     category: "famille",
@@ -65168,8 +65168,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-lannion-2026",
-    title: "Parent solo à Lannion en 2026 : 8,2 de sécurité, 4,9 de transports, et un arbitrage à faire",
-    metaTitle: "Parent solo à Lannion 2026 — T3 800 €, seuil 2 400 €",
+    title: "Parent solo à Lannion en 2027 : 8,2 de sécurité, 4,9 de transports, et un arbitrage à faire",
+    metaTitle: "Parent solo à Lannion 2027 — T3 800 €, seuil 2 400 €",
     metaDesc:
       "Fit 7,2/10, palier de 2 communes. Sécurité 8,2/10 et écoles 7,7/10 pour un T3 à 800 €, mais transports 4,9/10 : la voiture est une ligne du budget.",
     category: "famille",
@@ -65217,8 +65217,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-challans-2026",
-    title: "Parent solo à Challans en 2026 : la meilleure note de sécurité de France, et 20,9 % d'habitants en plus",
-    metaTitle: "Parent solo à Challans 2026 — sécurité 8,3, T3 860 €",
+    title: "Parent solo à Challans en 2027 : la meilleure note de sécurité de France, et 20,9 % d'habitants en plus",
+    metaTitle: "Parent solo à Challans 2027 — sécurité 8,3, T3 860 €",
     metaDesc:
       "Fit 7,1/10, palier de 3 communes. Meilleure note de sécurité des 363 villes classées, T3 à 860 €, seuil 2 600 € — et la croissance qui tend le périscolaire.",
     category: "famille",
@@ -65266,8 +65266,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-die-des-vosges-2026",
-    title: "Parent solo à Saint-Dié-des-Vosges en 2026 : 71 500 € pour 65 m², et une ville qui perd des habitants",
-    metaTitle: "Parent solo à Saint-Dié 2026 — T3 670 €, m² à 1 100 €",
+    title: "Parent solo à Saint-Dié-des-Vosges en 2027 : 71 500 € pour 65 m², et une ville qui perd des habitants",
+    metaTitle: "Parent solo à Saint-Dié 2027 — T3 670 €, m² à 1 100 €",
     metaDesc:
       "Fit 7,1/10, palier de 3 communes. Le m² le moins cher de la série et le deuxième seuil le plus bas, face au deuxième recul démographique.",
     category: "famille",
@@ -65315,8 +65315,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-albi-2026",
-    title: "Parent solo à Albi en 2026 : 2 550 € de seuil pour 7,7 d'écoles, la meilleure combinaison d'Occitanie",
-    metaTitle: "Parent solo à Albi 2026 — T3 840 €, écoles 7,7/10",
+    title: "Parent solo à Albi en 2027 : 2 550 € de seuil pour 7,7 d'écoles, la meilleure combinaison d'Occitanie",
+    metaTitle: "Parent solo à Albi 2027 — T3 840 €, écoles 7,7/10",
     metaDesc:
       "Fit 7,0/10, palier de 4 communes et 1re d'Occitanie. T3 à 840 €, seuil d'entrée 2 550 €, 109 € de loyer par point d'écoles — contre 3 500 € à Toulouse.",
     category: "famille",
@@ -65364,8 +65364,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-cholet-2026",
-    title: "Parent solo à Cholet en 2026 : 800 € de T3 pour 7,7 d'écoles, et 650 € de revenu de moins qu'à Angers",
-    metaTitle: "Parent solo à Cholet 2026 — T3 800 €, seuil 2 400 €",
+    title: "Parent solo à Cholet en 2027 : 800 € de T3 pour 7,7 d'écoles, et 650 € de revenu de moins qu'à Angers",
+    metaTitle: "Parent solo à Cholet 2027 — T3 800 €, seuil 2 400 €",
     metaDesc:
       "Fit 7,0/10, palier de 4 communes. T3 à 800 €, seuil d'entrée 2 400 €, 104 € par point d'écoles : 650 € de revenu mensuel de moins qu'à Angers.",
     category: "famille",
@@ -65413,8 +65413,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-laon-2026",
-    title: "Parent solo à Laon en 2026 : 2 250 € de seuil, et trois villes de l'Aisne à comparer avant de signer",
-    metaTitle: "Parent solo à Laon 2026 — T3 740 €, seuil 2 250 €",
+    title: "Parent solo à Laon en 2027 : 2 250 € de seuil, et trois villes de l'Aisne à comparer avant de signer",
+    metaTitle: "Parent solo à Laon 2027 — T3 740 €, seuil 2 250 €",
     metaDesc:
       "Fit 7,0/10, palier de 4 communes et 1re des Hauts-de-France. T3 à 740 €, m² à 1 400 €, seuil 2 250 €, devant Soissons et Saint-Quentin.",
     category: "famille",
@@ -65462,8 +65462,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-anglet-2026",
-    title: "Parent solo à Anglet en 2026 : même loyer qu'à Bayonne, 1,7 point d'écoles de plus",
-    metaTitle: "Parent solo à Anglet 2026 — T3 1 200 €, seuil 3 450 €",
+    title: "Parent solo à Anglet en 2027 : même loyer qu'à Bayonne, 1,7 point d'écoles de plus",
+    metaTitle: "Parent solo à Anglet 2027 — T3 1 200 €, seuil 3 450 €",
     metaDesc:
       "Fit 6,9/10, palier de 5 communes et 1re de Nouvelle-Aquitaine. Même T3 et même seuil qu'à Bayonne pour 1,7 point d'écoles de plus.",
     category: "famille",
@@ -65512,7 +65512,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-orange-2026",
     title: "10 choses à faire à Orange",
-    metaTitle: "10 choses à faire à Orange en 2026",
+    metaTitle: "10 choses à faire à Orange en 2027",
     metaDesc: "Théâtre antique et son mur de scène unique, arc de triomphe, cadastres romains, Chorégies, colline Saint-Eutrope : 10 activités à Orange, dans le Vaucluse.",
     category: "tourisme",
     emoji: "🏛️",
@@ -65636,7 +65636,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-ciotat-2026",
     title: "10 choses à faire à La Ciotat",
-    metaTitle: "10 choses à faire à La Ciotat en 2026",
+    metaTitle: "10 choses à faire à La Ciotat en 2027",
     metaDesc: "Eden Théâtre, plus ancien cinéma du monde, berceau de la pétanque, Bec de l'Aigle, île Verte, calanque de Figuerolles : 10 activités à La Ciotat.",
     category: "tourisme",
     emoji: "🎬",
@@ -65698,7 +65698,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-rochefort-2026",
     title: "10 choses à faire à Rochefort",
-    metaTitle: "10 choses à faire à Rochefort en 2026",
+    metaTitle: "10 choses à faire à Rochefort en 2027",
     metaDesc: "Corderie Royale, arsenal, maison de Pierre Loti rouverte en 2025, pont transbordeur de Martrou : 10 activités à Rochefort, en Charente-Maritime.",
     category: "tourisme",
     emoji: "⚓",
@@ -65760,7 +65760,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dieppe-2026",
     title: "10 choses à faire à Dieppe",
-    metaTitle: "10 choses à faire à Dieppe en 2026",
+    metaTitle: "10 choses à faire à Dieppe en 2027",
     metaDesc: "Première station balnéaire de France, château-musée et sa collection d'ivoires, Cité de la Mer, falaises, mémoire du 19 août 1942 : 10 activités à Dieppe.",
     category: "tourisme",
     emoji: "🪁",
@@ -65822,7 +65822,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-douai-2026",
     title: "10 choses à faire à Douai",
-    metaTitle: "10 choses à faire à Douai en 2026",
+    metaTitle: "10 choses à faire à Douai en 2027",
     metaDesc: "Beffroi UNESCO et son carillon de 62 cloches, géants de Gayant, musée de la Chartreuse, mine de Lewarde : 10 activités à Douai, dans le Nord.",
     category: "tourisme",
     emoji: "🔔",
@@ -65884,7 +65884,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sens-2026",
     title: "10 choses à faire à Sens",
-    metaTitle: "10 choses à faire à Sens en 2026",
+    metaTitle: "10 choses à faire à Sens en 2027",
     metaDesc: "La première cathédrale gothique de France, le trésor et les vêtements de Thomas Becket, les musées, le marché couvert de 1882 : 10 activités à Sens.",
     category: "tourisme",
     emoji: "⛪",
@@ -65946,7 +65946,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-poissy-2026",
     title: "10 choses à faire à Poissy",
-    metaTitle: "10 choses à faire à Poissy en 2026",
+    metaTitle: "10 choses à faire à Poissy en 2027",
     metaDesc: "La villa Savoye de Le Corbusier, la collégiale du baptême de Saint Louis, le musée du Jouet, le parc Meissonier : 10 activités à Poissy, dans les Yvelines.",
     category: "tourisme",
     emoji: "🏗️",
@@ -66008,7 +66008,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-rueil-malmaison-2026",
     title: "10 choses à faire à Rueil-Malmaison",
-    metaTitle: "10 choses à faire à Rueil-Malmaison en 2026",
+    metaTitle: "10 choses à faire à Rueil-Malmaison en 2027",
     metaDesc: "Le château de Malmaison, la roseraie de Joséphine, ses tombeaux à Saint-Pierre-Saint-Paul, Bois-Préau, l'Atelier Grognard : 10 activités à Rueil-Malmaison.",
     category: "tourisme",
     emoji: "👑",
@@ -66070,7 +66070,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vernon-2026",
     title: "10 choses à faire à Vernon",
-    metaTitle: "10 choses à faire à Vernon en 2026",
+    metaTitle: "10 choses à faire à Vernon en 2027",
     metaDesc: "Le Vieux-Moulin sur la Seine, le château des Tourelles, le musée Blanche Hoschedé-Monet, Giverny à côté : 10 activités à Vernon, dans l'Eure.",
     category: "tourisme",
     emoji: "🎨",
@@ -66132,7 +66132,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dole-2026",
     title: "10 choses à faire à Dole",
-    metaTitle: "10 choses à faire à Dole en 2026",
+    metaTitle: "10 choses à faire à Dole en 2027",
     metaDesc: "La maison natale de Pasteur, le canal des Tanneurs, le clocher de 73 mètres, l'Hôtel-Dieu, la forêt de Chaux : 10 activités à Dole, dans le Jura.",
     category: "tourisme",
     emoji: "🔬",
@@ -66194,7 +66194,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-soissons-2026",
     title: "10 choses à faire à Soissons",
-    metaTitle: "10 choses à faire à Soissons en 2026",
+    metaTitle: "10 choses à faire à Soissons en 2027",
     metaDesc: "Les tours de Saint-Jean-des-Vignes, la cathédrale et son Rubens, le musée Saint-Léger, le vase de Clovis : 10 activités à Soissons, dans l'Aisne.",
     category: "tourisme",
     emoji: "⛪",
@@ -66256,7 +66256,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cambrai-2026",
     title: "10 choses à faire à Cambrai",
-    metaTitle: "10 choses à faire à Cambrai en 2026",
+    metaTitle: "10 choses à faire à Cambrai en 2027",
     metaDesc: "Le beffroi inscrit à l'UNESCO, la cathédrale et le mausolée de Fénelon, le musée, la bataille de chars de 1917 : 10 activités à Cambrai, dans le Nord.",
     category: "tourisme",
     emoji: "🔔",
@@ -66318,7 +66318,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-carpentras-2026",
     title: "10 choses à faire à Carpentras",
-    metaTitle: "10 choses à faire à Carpentras en 2026",
+    metaTitle: "10 choses à faire à Carpentras en 2027",
     metaDesc: "La plus ancienne synagogue de France en activité, la cathédrale Saint-Siffrein, l'Inguimbertine, le marché du vendredi : 10 activités à Carpentras.",
     category: "tourisme",
     emoji: "🕍",
@@ -66380,7 +66380,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bergerac-2026",
     title: "10 choses à faire à Bergerac",
-    metaTitle: "10 choses à faire à Bergerac en 2026",
+    metaTitle: "10 choses à faire à Bergerac en 2027",
     metaDesc: "Le cloître des Récollets, le musée du Tabac, les gabares sur la Dordogne, Monbazillac : 10 activités à Bergerac, et la vérité sur Cyrano.",
     category: "tourisme",
     emoji: "🍇",
@@ -66442,7 +66442,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-agde-2026",
     title: "10 choses à faire à Agde",
-    metaTitle: "10 choses à faire à Agde en 2026",
+    metaTitle: "10 choses à faire à Agde en 2027",
     metaDesc: "Une cathédrale en basalte, un volcan, l'Éphèbe de bronze, l'écluse ronde du canal du Midi : 10 activités à Agde, la ville noire de l'Hérault.",
     category: "tourisme",
     emoji: "🌋",
@@ -66504,7 +66504,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-thonon-les-bains-2026",
     title: "10 choses à faire à Thonon-les-Bains",
-    metaTitle: "10 choses à faire à Thonon-les-Bains en 2026",
+    metaTitle: "10 choses à faire à Thonon-les-Bains en 2027",
     metaDesc: "Un funiculaire de 1888, le château de Ripaille, les fresques de Maurice Denis, le Léman : 10 activités à Thonon-les-Bains, capitale du Chablais.",
     category: "tourisme",
     emoji: "🚡",
@@ -66566,7 +66566,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-rambouillet-2026",
     title: "10 choses à faire à Rambouillet",
-    metaTitle: "10 choses à faire à Rambouillet en 2026",
+    metaTitle: "10 choses à faire à Rambouillet en 2027",
     metaDesc: "Le château où meurt François Ier, la laiterie de Marie-Antoinette, la Bergerie nationale et ses mérinos : 10 activités à Rambouillet, en Yvelines.",
     category: "tourisme",
     emoji: "🐑",
@@ -66628,7 +66628,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bethune-2026",
     title: "10 choses à faire à Béthune",
-    metaTitle: "10 choses à faire à Béthune en 2026",
+    metaTitle: "10 choses à faire à Béthune en 2027",
     metaDesc: "Un beffroi inscrit à l'UNESCO, une Grand-Place Art déco reconstruite, un centre dramatique national : 10 activités à Béthune, dans le Pas-de-Calais.",
     category: "tourisme",
     emoji: "🐉",
@@ -66690,7 +66690,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montelimar-2026",
     title: "10 choses à faire à Montélimar",
-    metaTitle: "10 choses à faire à Montélimar en 2026",
+    metaTitle: "10 choses à faire à Montélimar en 2027",
     metaDesc: "Le nougat et son IGP, le château des Adhémar, la collégiale Sainte-Croix, un musée d'avions de chasse : 10 activités à Montélimar, dans la Drôme.",
     category: "tourisme",
     emoji: "🍬",
@@ -66752,7 +66752,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-cavaillon-2026",
     title: "10 choses à faire à Cavaillon",
-    metaTitle: "10 choses à faire à Cavaillon en 2026",
+    metaTitle: "10 choses à faire à Cavaillon en 2027",
     metaDesc: "Une synagogue du XVIIIe siècle, un arc romain déplacé pierre à pierre, la colline Saint-Jacques, le melon : 10 activités à Cavaillon, dans le Vaucluse.",
     category: "tourisme",
     emoji: "🍈",
@@ -66813,8 +66813,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-fontainebleau-2026",
-    title: "Parent solo à Fontainebleau en 2026 : première d'Île-de-France, et 15 787 habitants",
-    metaTitle: "Parent solo à Fontainebleau 2026 — seuil 3 450 €",
+    title: "Parent solo à Fontainebleau en 2027 : première d'Île-de-France, et 15 787 habitants",
+    metaTitle: "Parent solo à Fontainebleau 2027 — seuil 3 450 €",
     metaDesc:
       "Fit 6,9/10, palier de 5 communes et 1re des 115 communes franciliennes classées. T3 à 1 200 €, seuil 3 450 €, écoles 8,7/10 sans le prix des Hauts-de-Seine.",
     category: "famille",
@@ -66862,8 +66862,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-soissons-2026",
-    title: "Parent solo à Soissons en 2026 : 6,9/10, et Laon fait mieux pour 190 € de moins",
-    metaTitle: "Parent solo à Soissons 2026 — T3 930 €, seuil 2 800 €",
+    title: "Parent solo à Soissons en 2027 : 6,9/10, et Laon fait mieux pour 190 € de moins",
+    metaTitle: "Parent solo à Soissons 2027 — T3 930 €, seuil 2 800 €",
     metaDesc:
       "Fit 6,9/10, palier de 5 communes et 2e des Hauts-de-France. T3 à 930 €, seuil 2 800 €, mais 141 € par point d'écoles, le rapport le moins favorable du lot.",
     category: "famille",
@@ -66911,8 +66911,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-vienne-2026",
-    title: "Parent solo à Vienne en 2026 : première d'Auvergne-Rhône-Alpes, devant Lyon et Grenoble",
-    metaTitle: "Parent solo à Vienne (38) 2026 — seuil 2 850 €",
+    title: "Parent solo à Vienne en 2027 : première d'Auvergne-Rhône-Alpes, devant Lyon et Grenoble",
+    metaTitle: "Parent solo à Vienne (38) 2027 — seuil 2 850 €",
     metaDesc:
       "Fit 6,9/10, palier de 5 communes à égalité avec Villefranche-sur-Saône en tête d'Auvergne-Rhône-Alpes. T3 à 940 €, transports et écoles à 7,7/10.",
     category: "famille",
@@ -66960,8 +66960,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-villefranche-sur-saone-2026",
-    title: "Parent solo à Villefranche-sur-Saône en 2026 : 8,7/10 d'écoles pour 700 € de revenu de moins qu'à Lyon",
-    metaTitle: "Parent solo à Villefranche-sur-Saône 2026 — T3 1 070 €",
+    title: "Parent solo à Villefranche-sur-Saône en 2027 : 8,7/10 d'écoles pour 700 € de revenu de moins qu'à Lyon",
+    metaTitle: "Parent solo à Villefranche-sur-Saône 2027 — T3 1 070 €",
     metaDesc:
       "Fit 6,9/10, palier de 5 communes. Écoles 8,7/10, le niveau de Strasbourg et d'Annecy, pour un seuil de 3 250 € contre 3 950 € à Lyon. Mais la population recule.",
     category: "famille",
@@ -67009,8 +67009,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-auch-2026",
-    title: "Parent solo à Auch en 2026 : 97 € de loyer par point d'écoles, le meilleur rapport de la série",
-    metaTitle: "Parent solo à Auch 2026 — T3 640 €, seuil 1 950 €",
+    title: "Parent solo à Auch en 2027 : 97 € de loyer par point d'écoles, le meilleur rapport de la série",
+    metaTitle: "Parent solo à Auch 2027 — T3 640 €, seuil 1 950 €",
     metaDesc:
       "Fit 6,8/10, palier de 6 communes. T3 à 640 €, seuil 1 950 € et 97 € par point d'écoles, à égalité avec Vichy et Cambrai derrière Alençon. Transports 4,2/10.",
     category: "famille",
@@ -67058,8 +67058,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chaumont-2026",
-    title: "Parent solo à Chaumont en 2026 : le mètre carré le moins cher des 363 communes classées",
-    metaTitle: "Parent solo à Chaumont 2026 — m² 950 €, seuil 1 900 €",
+    title: "Parent solo à Chaumont en 2027 : le mètre carré le moins cher des 363 communes classées",
+    metaTitle: "Parent solo à Chaumont 2027 — m² 950 €, seuil 1 900 €",
     metaDesc:
       "Fit 6,8/10, palier de 6 communes. Le m² le moins cher du classement à 950 €, soit 61 750 € les 65 m². Écoles 5,5/10 et population en recul.",
     category: "famille",
@@ -67107,8 +67107,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-compiegne-2026",
-    title: "Parent solo à Compiègne en 2026 : transports et écoles à 7,7/10, le coût en contrepartie",
-    metaTitle: "Parent solo à Compiègne 2026 — T3 980 €, seuil 2 950 €",
+    title: "Parent solo à Compiègne en 2027 : transports et écoles à 7,7/10, le coût en contrepartie",
+    metaTitle: "Parent solo à Compiègne 2027 — T3 980 €, seuil 2 950 €",
     metaDesc:
       "Fit 6,8/10, palier de 6 communes et 3e des Hauts-de-France. Transports 7,7/10 et écoles 7,7/10, l'un des cinq profils du lot à réussir les deux.",
     category: "famille",
@@ -67156,8 +67156,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-les-sables-d-olonne-2026",
-    title: "Parent solo aux Sables-d'Olonne en 2026 : 800 € de revenu de plus qu'à La Roche-sur-Yon pour les mêmes écoles",
-    metaTitle: "Parent solo aux Sables-d'Olonne 2026 — seuil 3 200 €",
+    title: "Parent solo aux Sables-d'Olonne en 2027 : 800 € de revenu de plus qu'à La Roche-sur-Yon pour les mêmes écoles",
+    metaTitle: "Parent solo aux Sables-d'Olonne 2027 — seuil 3 200 €",
     metaDesc:
       "Fit 6,8/10, palier de 6 communes et 4e des Pays de la Loire. Sécurité 8,0/10 et écoles 7,7/10, mais La Roche-sur-Yon offre autant pour 800 € de revenu de moins.",
     category: "famille",
@@ -67205,8 +67205,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-sens-2026",
-    title: "Parent solo à Sens en 2026 : aucun axe sous 6,4, le deuxième profil le plus plat du top 20",
-    metaTitle: "Parent solo à Sens 2026 — T3 920 €, seuil 2 800 €",
+    title: "Parent solo à Sens en 2027 : aucun axe sous 6,4, le deuxième profil le plus plat du top 20",
+    metaTitle: "Parent solo à Sens 2027 — T3 920 €, seuil 2 800 €",
     metaDesc:
       "Fit 6,8/10, palier de 6 communes et 2e de Bourgogne-Franche-Comté. Aucun des quatre axes sous 6,4/10 : le deuxième profil le plus régulier du top 20.",
     category: "famille",
@@ -67254,8 +67254,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-alencon-2026",
-    title: "Parent solo à Alençon en 2026 : le meilleur rapport loyer/écoles des 363 villes classées",
-    metaTitle: "Parent solo à Alençon 2026 — T3 620 €, seuil 1 900 €",
+    title: "Parent solo à Alençon en 2027 : le meilleur rapport loyer/écoles des 363 villes classées",
+    metaTitle: "Parent solo à Alençon 2027 — T3 620 €, seuil 1 900 €",
     metaDesc:
       "Fit 6,7/10, palier de 5 communes et 1re de Normandie. 94 € de loyer par point d'offre scolaire : le meilleur rapport du classement, et 4,2/10 de transports.",
     category: "famille",
@@ -67303,8 +67303,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-brive-la-gaillarde-2026",
-    title: "Parent solo à Brive-la-Gaillarde en 2026 : le profil le plus régulier des 363 villes classées",
-    metaTitle: "Parent solo à Brive 2026 — T3 780 €, seuil 2 350 €",
+    title: "Parent solo à Brive-la-Gaillarde en 2027 : le profil le plus régulier des 363 villes classées",
+    metaTitle: "Parent solo à Brive 2027 — T3 780 €, seuil 2 350 €",
     metaDesc:
       "Fit 6,7/10, palier de 5 communes et 2e de Nouvelle-Aquitaine. 0,4 point sépare son meilleur axe du plus faible : l'amplitude la plus réduite du classement.",
     category: "famille",
@@ -67352,8 +67352,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-etampes-2026",
-    title: "Parent solo à Étampes en 2026 : deuxième d'Île-de-France, et la seule du lot qui gagne des habitants",
-    metaTitle: "Parent solo à Étampes 2026 — T3 1 120 €, seuil 3 400 €",
+    title: "Parent solo à Étampes en 2027 : deuxième d'Île-de-France, et la seule du lot qui gagne des habitants",
+    metaTitle: "Parent solo à Étampes 2027 — T3 1 120 €, seuil 3 400 €",
     metaDesc:
       "Fit 6,7/10, palier de 5 communes et 2e des 115 communes franciliennes classées. Écoles 7,7/10, mais un seuil d'entrée de 3 400 € : l'Île-de-France se paie.",
     category: "famille",
@@ -67401,8 +67401,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-vichy-2026",
-    title: "Parent solo à Vichy en 2026 : 97 € par point d'école, et 41,5 % d'habitants de 60 ans et plus",
-    metaTitle: "Parent solo à Vichy 2026 — T3 640 €, seuil 1 950 €",
+    title: "Parent solo à Vichy en 2027 : 97 € par point d'école, et 41,5 % d'habitants de 60 ans et plus",
+    metaTitle: "Parent solo à Vichy 2027 — T3 640 €, seuil 1 950 €",
     metaDesc:
       "Fit 6,7/10, palier de 5 communes et 4e d'Auvergne-Rhône-Alpes. Un des quatre meilleurs rapports loyer/écoles du classement, dans une commune très âgée.",
     category: "famille",
@@ -67450,8 +67450,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-beaune-2026",
-    title: "Parent solo à Beaune en 2026 : 8,1/10 de sécurité, et le coût le plus dur des dix villes du lot",
-    metaTitle: "Parent solo à Beaune 2026 — T3 1 080 €, seuil 3 250 €",
+    title: "Parent solo à Beaune en 2027 : 8,1/10 de sécurité, et le coût le plus dur des dix villes du lot",
+    metaTitle: "Parent solo à Beaune 2027 — T3 1 080 €, seuil 3 250 €",
     metaDesc:
       "Fit 6,6/10, palier de 10 communes à égalité avec Besançon en Bourgogne-Franche-Comté. Écoles 7,7/10, sécurité 8,1/10, coût de la vie exactement 5,0/10.",
     category: "famille",
@@ -67499,8 +67499,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-dieppe-2026",
-    title: "Parent solo à Dieppe en 2026 : première de Seine-Maritime, et 0,8 point d'amplitude",
-    metaTitle: "Parent solo à Dieppe 2026 — T3 820 €, seuil 2 500 €",
+    title: "Parent solo à Dieppe en 2027 : première de Seine-Maritime, et 0,8 point d'amplitude",
+    metaTitle: "Parent solo à Dieppe 2027 — T3 820 €, seuil 2 500 €",
     metaDesc:
       "Fit 6,6/10, palier de 10 communes et 1re des 5 communes classées de Seine-Maritime. Un profil presque plat, dans une commune qui perd 8,2 % d'habitants.",
     category: "famille",
@@ -67548,8 +67548,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-dreux-2026",
-    title: "Parent solo à Dreux en 2026 : première de Centre-Val de Loire, devant Tours et Orléans",
-    metaTitle: "Parent solo à Dreux 2026 — T3 930 €, seuil 2 800 €",
+    title: "Parent solo à Dreux en 2027 : première de Centre-Val de Loire, devant Tours et Orléans",
+    metaTitle: "Parent solo à Dreux 2027 — T3 930 €, seuil 2 800 €",
     metaDesc:
       "Fit 6,6/10, palier de 10 communes et 1re des 11 communes classées de Centre-Val de Loire. Transports 7,0/10, et une sécurité à 5,7/10 qui plafonne le dossier.",
     category: "famille",
@@ -67597,8 +67597,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-laval-2026",
-    title: "Parent solo à Laval en 2026 : 100 € par point d'école, et cinq villes de sa région devant elle",
-    metaTitle: "Parent solo à Laval 2026 — T3 660 €, seuil 2 000 €",
+    title: "Parent solo à Laval en 2027 : 100 € par point d'école, et cinq villes de sa région devant elle",
+    metaTitle: "Parent solo à Laval 2027 — T3 660 €, seuil 2 000 €",
     metaDesc:
       "Fit 6,6/10, palier de 10 communes et 6e des 14 communes classées des Pays de la Loire. Un des six meilleurs rapports loyer/écoles, et une région très dense.",
     category: "famille",
@@ -67646,8 +67646,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-roanne-2026",
-    title: "Parent solo à Roanne en 2026 : première de la Loire, et 97 500 € pour 65 mètres carrés",
-    metaTitle: "Parent solo à Roanne 2026 — T3 700 €, seuil 2 100 €",
+    title: "Parent solo à Roanne en 2027 : première de la Loire, et 97 500 € pour 65 mètres carrés",
+    metaTitle: "Parent solo à Roanne 2027 — T3 700 €, seuil 2 100 €",
     metaDesc:
       "Fit 6,6/10, palier de 10 communes et 1re des 3 communes classées de la Loire. Coût de la vie 7,7/10, sécurité 5,7/10 : l'arbitrage est net.",
     category: "famille",
@@ -67695,8 +67695,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-quentin-2026",
-    title: "Parent solo à Saint-Quentin en 2026 : le meilleur budget de l'Aisne, les deux axes faibles du trio",
-    metaTitle: "Parent solo à Saint-Quentin 2026 — T3 650 €, seuil 1 950 €",
+    title: "Parent solo à Saint-Quentin en 2027 : le meilleur budget de l'Aisne, les deux axes faibles du trio",
+    metaTitle: "Parent solo à Saint-Quentin 2027 — T3 650 €, seuil 1 950 €",
     metaDesc:
       "Fit 6,6/10, palier de 10 communes et 4e des Hauts-de-France. Coût 8,3/10 et transports 7,7/10 contre 5,5/10 d'écoles et 4,7/10 de sécurité.",
     category: "famille",
@@ -67744,8 +67744,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chatellerault-2026",
-    title: "Parent solo à Châtellerault en 2026 : le seuil d'entrée le plus bas du palier 6,5",
-    metaTitle: "Parent solo à Châtellerault 2026 — seuil 1 950 €",
+    title: "Parent solo à Châtellerault en 2027 : le seuil d'entrée le plus bas du palier 6,5",
+    metaTitle: "Parent solo à Châtellerault 2027 — seuil 1 950 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. Le seuil d'entrée le plus bas des 14 villes du palier : 1 950 € net pour un T3 à 640 €, et 7,7/10 de transports.",
     category: "famille",
@@ -67793,8 +67793,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-dizier-2026",
-    title: "Parent solo à Saint-Dizier en 2026 : 65 000 € les 65 mètres carrés, et une ville qui se vide",
-    metaTitle: "Parent solo à Saint-Dizier 2026 — m² à 1 000 €",
+    title: "Parent solo à Saint-Dizier en 2027 : 65 000 € les 65 mètres carrés, et une ville qui se vide",
+    metaTitle: "Parent solo à Saint-Dizier 2027 — m² à 1 000 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. Le deuxième mètre carré le moins cher du classement et la population qui recule le plus vite du lot : 8,5 % en six ans.",
     category: "famille",
@@ -67842,8 +67842,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-charleville-mezieres-2026",
-    title: "Parent solo à Charleville-Mézières en 2026 : le meilleur coût de la vie du classement ne fait pas un pouvoir d'achat",
-    metaTitle: "Parent solo à Charleville-Mézières 2026",
+    title: "Parent solo à Charleville-Mézières en 2027 : le meilleur coût de la vie du classement ne fait pas un pouvoir d'achat",
+    metaTitle: "Parent solo à Charleville-Mézières 2027",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. Coût de la vie 8,5/10, le meilleur axe du classement, face à 30 % de taux de pauvreté : les deux mesurent la même économie.",
     category: "famille",
@@ -67891,8 +67891,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-castres-2026",
-    title: "Parent solo à Castres en 2026 : la seule ville de province du palier qui gagne des habitants",
-    metaTitle: "Parent solo à Castres 2026 — T3 700 €, seuil 2 100 €",
+    title: "Parent solo à Castres en 2027 : la seule ville de province du palier qui gagne des habitants",
+    metaTitle: "Parent solo à Castres 2027 — T3 700 €, seuil 2 100 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. 106 € de loyer par point d'offre scolaire, 14e rapport des 363 à égalité, et la seule du lot dont la population monte.",
     category: "famille",
@@ -67940,8 +67940,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-montbeliard-2026",
-    title: "Parent solo à Montbéliard en 2026 : un profil plat dont le creux est la sécurité",
-    metaTitle: "Parent solo à Montbéliard 2026 — T3 720 €",
+    title: "Parent solo à Montbéliard en 2027 : un profil plat dont le creux est la sécurité",
+    metaTitle: "Parent solo à Montbéliard 2027 — T3 720 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. 1,7 point d'amplitude entre ses quatre axes, 109 € de loyer par point d'école, et un plancher à 5,5/10 sur la sécurité.",
     category: "famille",
@@ -67989,8 +67989,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-abbeville-2026",
-    title: "Parent solo à Abbeville en 2026 : le meilleur axe coût du lot, et pourtant le loyer le plus élevé",
-    metaTitle: "Parent solo à Abbeville 2026 — T3 830 €",
+    title: "Parent solo à Abbeville en 2027 : le meilleur axe coût du lot, et pourtant le loyer le plus élevé",
+    metaTitle: "Parent solo à Abbeville 2027 — T3 830 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes et 1re de la Somme. L'axe coût la place dans un palier de 8 communes, son T3 au 89e rang à égalité : deux mesures distinctes.",
     category: "famille",
@@ -68038,8 +68038,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saumur-2026",
-    title: "Parent solo à Saumur en 2026 : la meilleure sécurité du palier, et le seul revenu local proche de la médiane",
-    metaTitle: "Parent solo à Saumur 2026 — sécurité 7,4/10",
+    title: "Parent solo à Saumur en 2027 : la meilleure sécurité du palier, et le seul revenu local proche de la médiane",
+    metaTitle: "Parent solo à Saumur 2027 — sécurité 7,4/10",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. Sécurité 7,4/10, 10e des 363 et seule à ce niveau, avec le revenu local le plus élevé des huit villes de province du lot.",
     category: "famille",
@@ -68087,8 +68087,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-villeneuve-sur-lot-2026",
-    title: "Parent solo à Villeneuve-sur-Lot en 2026 : 4,2/10 de transports et 37 % de plus de 60 ans",
-    metaTitle: "Parent solo à Villeneuve-sur-Lot 2026 — T3 810 €",
+    title: "Parent solo à Villeneuve-sur-Lot en 2027 : 4,2/10 de transports et 37 % de plus de 60 ans",
+    metaTitle: "Parent solo à Villeneuve-sur-Lot 2027 — T3 810 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes, 1,2 point devant Agen. Sécurité 7,0/10, mais des transports dans les trente derniers rangs et la population la plus âgée.",
     category: "famille",
@@ -68136,8 +68136,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-issy-les-moulineaux-2026",
-    title: "Parent solo à Issy-les-Moulineaux en 2026 : transports 9, écoles 9, coût 2,2",
-    metaTitle: "Parent solo à Issy-les-Moulineaux 2026",
+    title: "Parent solo à Issy-les-Moulineaux en 2027 : transports 9, écoles 9, coût 2,2",
+    metaTitle: "Parent solo à Issy-les-Moulineaux 2027",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. Le maximum du classement sur les transports et les écoles, le minimum sur le coût, et 5 150 € de seuil d'entrée.",
     category: "famille",
@@ -68185,8 +68185,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-levallois-perret-2026",
-    title: "Parent solo à Levallois-Perret en 2026 : même note que Châtellerault, presque trois fois le revenu",
-    metaTitle: "Parent solo à Levallois-Perret 2026 — T3 2 000 €",
+    title: "Parent solo à Levallois-Perret en 2027 : même note que Châtellerault, presque trois fois le revenu",
+    metaTitle: "Parent solo à Levallois-Perret 2027 — T3 2 000 €",
     metaDesc:
       "Fit 6,5/10, palier de 14 communes. Le palier 6,5 va de 1 950 € à 5 700 € de seuil d'entrée pour une note identique : un palier n'est pas une liste de choix.",
     category: "famille",
@@ -68234,8 +68234,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-annemasse-2026",
-    title: "Parent solo à Annemasse en 2026 : tout tient sauf le prix, et le prix vient de Genève",
-    metaTitle: "Parent solo à Annemasse 2026 — seuil 3 850 €",
+    title: "Parent solo à Annemasse en 2027 : tout tient sauf le prix, et le prix vient de Genève",
+    metaTitle: "Parent solo à Annemasse 2027 — seuil 3 850 €",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. Transports 9,0/10, écoles 7,7/10, sécurité 6,8/10, et un seul axe qui coince : le coût, à 3,4/10 pour un T3 à 1 350 €.",
     category: "famille",
@@ -68283,8 +68283,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-belfort-2026",
-    title: "Parent solo à Belfort en 2026 : 58 € manquent au ménage médian, et c'est tout le sujet",
-    metaTitle: "Parent solo à Belfort 2026 — seuil 2 100 €",
+    title: "Parent solo à Belfort en 2027 : 58 € manquent au ménage médian, et c'est tout le sujet",
+    metaTitle: "Parent solo à Belfort 2027 — seuil 2 100 €",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. T3 à 690 €, 105 € par point d'offre scolaire, 12e rapport des 416. Mais 29 % de pauvreté.",
     category: "famille",
@@ -68332,8 +68332,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-cambrai-2026",
-    title: "Parent solo à Cambrai en 2026 : le seuil d'entrée le plus bas du classement, et une sécurité à 4,6",
-    metaTitle: "Parent solo à Cambrai 2026 — seuil 1 950 €",
+    title: "Parent solo à Cambrai en 2027 : le seuil d'entrée le plus bas du classement, et une sécurité à 4,6",
+    metaTitle: "Parent solo à Cambrai 2027 — seuil 1 950 €",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. Seuil 1 950 € net, 97 € par point d'école : 2e rapport des 363, à égalité. Sécurité 4,6/10, le creux.",
     category: "famille",
@@ -68381,8 +68381,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-epernay-2026",
-    title: "Parent solo à Épernay en 2026 : le profil le plus régulier du palier, sans aucun point faible",
-    metaTitle: "Parent solo à Épernay 2026 — seuil 2 600 €",
+    title: "Parent solo à Épernay en 2027 : le profil le plus régulier du palier, sans aucun point faible",
+    metaTitle: "Parent solo à Épernay 2027 — seuil 2 600 €",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. Quatre axes entre 5,6 et 6,7, le profil le plus régulier du lot. Première des trois communes de la Marne.",
     category: "famille",
@@ -68430,8 +68430,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-neuilly-sur-seine-2026",
-    title: "Parent solo à Neuilly-sur-Seine en 2026 : la commune la plus riche du classement, et un seuil à 7 150 €",
-    metaTitle: "Parent solo à Neuilly 2026 — seuil 7 150 €",
+    title: "Parent solo à Neuilly-sur-Seine en 2027 : la commune la plus riche du classement, et un seuil à 7 150 €",
+    metaTitle: "Parent solo à Neuilly 2027 — seuil 7 150 €",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. Transports et écoles à 9,0/10, coût 2,2 : l'amplitude maximale du corpus. Le ménage médian rate le seuil de 1 949 €.",
     category: "famille",
@@ -68483,8 +68483,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-nevers-2026",
-    title: "Parent solo à Nevers en 2026 : 22 € de marge, et deux axes à 5,5 qui expliquent pourquoi",
-    metaTitle: "Parent solo à Nevers 2026 — coût de la vie 8,2",
+    title: "Parent solo à Nevers en 2027 : 22 € de marge, et deux axes à 5,5 qui expliquent pourquoi",
+    metaTitle: "Parent solo à Nevers 2027 — coût de la vie 8,2",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. Coût de la vie 8,2/10, partagé avec une seule autre commune. Mais transports et écoles à 5,5, et 32,5 % de 60 ans et plus.",
     category: "famille",
@@ -68532,8 +68532,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-oyonnax-2026",
-    title: "Parent solo à Oyonnax en 2026 : 4,2/10 de transports, l'axe qui décide de la semaine",
-    metaTitle: "Parent solo à Oyonnax 2026 — transports 4,2/10",
+    title: "Parent solo à Oyonnax en 2027 : 4,2/10 de transports, l'axe qui décide de la semaine",
+    metaTitle: "Parent solo à Oyonnax 2027 — transports 4,2/10",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. Coût de la vie 7,6/10 et sécurité 6,5/10, mais des transports dans les trente derniers rangs : la voiture est obligatoire.",
     category: "famille",
@@ -68581,8 +68581,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-troyes-2026",
-    title: "Parent solo à Troyes en 2026 : la seule du lot qui gagne des habitants et qui appauvrit",
-    metaTitle: "Parent solo à Troyes 2026 — seuil 2 600 €",
+    title: "Parent solo à Troyes en 2027 : la seule du lot qui gagne des habitants et qui appauvrit",
+    metaTitle: "Parent solo à Troyes 2027 — seuil 2 600 €",
     metaDesc:
       "Fit 6,4/10, palier de 13 communes. +3 % d'habitants en six ans, mais 30 % de pauvreté et le niveau de vie le plus bas du lot. Seuil 2 600 €.",
     category: "famille",
@@ -68630,8 +68630,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-auxerre-2026",
-    title: "Parent solo à Auxerre en 2026 : la seule des seize où le ménage médian franchit le seuil",
-    metaTitle: "Parent solo à Auxerre 2026 — seuil 2 000 €",
+    title: "Parent solo à Auxerre en 2027 : la seule des seize où le ménage médian franchit le seuil",
+    metaTitle: "Parent solo à Auxerre 2027 — seuil 2 000 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 000 €, cinquième rapport loyer/école des 416, à égalité avec Laval. Mais 29,9 % de 60 ans et plus.",
     category: "famille",
@@ -68679,8 +68679,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bourgoin-jallieu-2026",
-    title: "Parent solo à Bourgoin-Jallieu en 2026 : le profil le plus plat du lot, et un seuil qui ne suit pas",
-    metaTitle: "Parent solo à Bourgoin-Jallieu 2026 — 3 200 €",
+    title: "Parent solo à Bourgoin-Jallieu en 2027 : le profil le plus plat du lot, et un seuil qui ne suit pas",
+    metaTitle: "Parent solo à Bourgoin-Jallieu 2027 — 3 200 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Quatre axes tenus en 0,6 point, la commune la plus jeune du lot, +13 % d'habitants. Mais seuil d'entrée à 3 200 €.",
     category: "famille",
@@ -68728,8 +68728,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chalon-sur-saone-2026",
-    title: "Parent solo à Chalon-sur-Saône en 2026 : même note et même département que Mâcon, 150 € d'écart à l'entrée",
-    metaTitle: "Parent solo à Chalon-sur-Saône 2026 — 2 250 €",
+    title: "Parent solo à Chalon-sur-Saône en 2027 : même note et même département que Mâcon, 150 € d'écart à l'entrée",
+    metaTitle: "Parent solo à Chalon-sur-Saône 2027 — 2 250 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 250 €, T3 à 740 €. Seul département du classement dont les deux communes portent la même note.",
     category: "famille",
@@ -68777,8 +68777,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-courbevoie-2026",
-    title: "Parent solo à Courbevoie en 2026 : le meilleur réseau de France et un coût de la vie à 2,2/10",
-    metaTitle: "Parent solo à Courbevoie 2026 — seuil 5 000 €",
+    title: "Parent solo à Courbevoie en 2027 : le meilleur réseau de France et un coût de la vie à 2,2/10",
+    metaTitle: "Parent solo à Courbevoie 2027 — seuil 5 000 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Transports au maximum du corpus, coût de la vie 2,2/10, amplitude 6,8 points. Seuil d'entrée 5 000 € par mois.",
     category: "famille",
@@ -68826,8 +68826,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-rueil-malmaison-2026",
-    title: "Parent solo à Rueil-Malmaison en 2026 : les meilleures écoles du corpus, et 977 € qui manquent quand même",
-    metaTitle: "Parent solo à Rueil-Malmaison 2026 — 4 550 €",
+    title: "Parent solo à Rueil-Malmaison en 2027 : les meilleures écoles du corpus, et 977 € qui manquent quand même",
+    metaTitle: "Parent solo à Rueil-Malmaison 2027 — 4 550 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Écoles au maximum du corpus, 8 % de pauvreté, mais coût de la vie 2,2/10 et seuil d'entrée à 4 550 € par mois.",
     category: "famille",
@@ -68875,8 +68875,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-macon-2026",
-    title: "Parent solo à Mâcon en 2026 : dernière de sa région par le nom, pas par le calcul",
-    metaTitle: "Parent solo à Mâcon 2026 — seuil 2 400 €",
+    title: "Parent solo à Mâcon en 2027 : dernière de sa région par le nom, pas par le calcul",
+    metaTitle: "Parent solo à Mâcon 2027 — seuil 2 400 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 400 €, transports 7,0/10, les meilleurs des neuf villes de province du lot. Mais 25 % de pauvreté.",
     category: "famille",
@@ -68924,8 +68924,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-montauban-2026",
-    title: "Parent solo à Montauban en 2026 : seule commune classée du Tarn-et-Garonne, et +10 % d'habitants",
-    metaTitle: "Parent solo à Montauban 2026 — seuil 2 600 €",
+    title: "Parent solo à Montauban en 2027 : seule commune classée du Tarn-et-Garonne, et +10 % d'habitants",
+    metaTitle: "Parent solo à Montauban 2027 — seuil 2 600 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Coût de la vie 7,2/10, seuil d'entrée 2 600 €, 10,5 % d'habitants en plus depuis 2011. Sécurité 5,5/10.",
     category: "famille",
@@ -68973,8 +68973,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-montelimar-2026",
-    title: "Parent solo à Montélimar en 2026 : la croissance la plus forte du lot, et 37 € qui manquent",
-    metaTitle: "Parent solo à Montélimar 2026 — seuil 2 350 €",
+    title: "Parent solo à Montélimar en 2027 : la croissance la plus forte du lot, et 37 € qui manquent",
+    metaTitle: "Parent solo à Montélimar 2027 — seuil 2 350 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 350 €, 14,1 % d'habitants en plus depuis 2011, et un ménage médian à 37 € du seuil.",
     category: "famille",
@@ -69022,8 +69022,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-muret-2026",
-    title: "Parent solo à Muret en 2026 : la sécurité de la périphérie toulousaine, au prix du marché toulousain",
-    metaTitle: "Parent solo à Muret 2026 — seuil 3 500 €",
+    title: "Parent solo à Muret en 2027 : la sécurité de la périphérie toulousaine, au prix du marché toulousain",
+    metaTitle: "Parent solo à Muret 2027 — seuil 3 500 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Sécurité 6,1/10 contre 4,3 à Toulouse, mais seuil d'entrée 3 500 €, le même que Toulouse. Transports 5,6/10.",
     category: "famille",
@@ -69071,8 +69071,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-tarbes-2026",
-    title: "Parent solo à Tarbes en 2026 : le seul coût de la vie à 7,4/10 du classement, et les transports les plus faibles du lot",
-    metaTitle: "Parent solo à Tarbes 2026 — seuil 2 350 €",
+    title: "Parent solo à Tarbes en 2027 : le seul coût de la vie à 7,4/10 du classement, et les transports les plus faibles du lot",
+    metaTitle: "Parent solo à Tarbes 2027 — seuil 2 350 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Seuil d'entrée 2 350 €, T3 à 770 €, mais transports 5,2/10 et 26 % de pauvreté, le plus élevé du lot.",
     category: "famille",
@@ -69120,8 +69120,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-vannes-2026",
-    title: "Parent solo à Vannes en 2026 : la meilleure sécurité du lot, un tiers de la commune à plus de 60 ans",
-    metaTitle: "Parent solo à Vannes 2026 — seuil 3 500 €",
+    title: "Parent solo à Vannes en 2027 : la meilleure sécurité du lot, un tiers de la commune à plus de 60 ans",
+    metaTitle: "Parent solo à Vannes 2027 — seuil 3 500 €",
     metaDesc:
       "Fit 6,3/10 dans un palier de 16 communes. Sécurité 6,9/10 et écoles 7,4/10, les meilleures du lot hors Île-de-France. Mais seuil 3 500 €, 33,1 % de seniors.",
     category: "famille",
@@ -69169,8 +69169,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-beauvais-2026",
-    title: "Parent solo à Beauvais en 2026 : un seuil de 2 650 € porté par le loyer et les transports, sur un revenu local à 19 520 €",
-    metaTitle: "Parent solo à Beauvais 2026 : seuil 2 650 €",
+    title: "Parent solo à Beauvais en 2027 : un seuil de 2 650 € porté par le loyer et les transports, sur un revenu local à 19 520 €",
+    metaTitle: "Parent solo à Beauvais 2027 : seuil 2 650 €",
     metaDesc:
       "Seuil 2 650 € par mois, T3 à 870 €, pauvreté 25 %. Transports 7,7/10 et coût de la vie 6,7/10 dans un palier de 13 communes. Il manque 535 € au ménage médian.",
     category: "famille",
@@ -69218,8 +69218,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-cergy-2026",
-    title: "Parent solo à Cergy en 2026 : +19,3 % d'habitants en onze ans, 12,8 % de seniors et une sécurité à 4,4/10",
-    metaTitle: "Parent solo à Cergy 2026 — seuil 3 500 €",
+    title: "Parent solo à Cergy en 2027 : +19,3 % d'habitants en onze ans, 12,8 % de seniors et une sécurité à 4,4/10",
+    metaTitle: "Parent solo à Cergy 2027 — seuil 3 500 €",
     metaDesc:
       "Composite 6,2/10 : transports 8,4, écoles 6,6, mais sécurité 4,4. Seuil de 3 500 € par mois, ménage médian à 2 196 €, +19,3 % d'habitants depuis 2011.",
     category: "famille",
@@ -69267,8 +69267,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chalons-en-champagne-2026",
-    title: "Parent solo à Châlons-en-Champagne en 2026 : un seuil à 2 200 € que le ménage médian franchit d'un euro",
-    metaTitle: "Parent solo à Châlons 2026 : seuil 2 200 €",
+    title: "Parent solo à Châlons-en-Champagne en 2027 : un seuil à 2 200 € que le ménage médian franchit d'un euro",
+    metaTitle: "Parent solo à Châlons 2027 : seuil 2 200 €",
     metaDesc:
       "Seuil d'entrée 2 200 € pour 2 201 € au ménage médian local : +1 €. T3 à 720 €, amplitude de 1,0 point, mais 3,9 % d'habitants en moins depuis 2016.",
     category: "famille",
@@ -69316,8 +69316,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chartres-2026",
-    title: "Parent solo à Chartres en 2026 : un seuil de 2 700 €, 233 € d'écart et une commune qui perd 3,3 % d'habitants",
-    metaTitle: "Parent solo à Chartres 2026 — seuil 2 700 €",
+    title: "Parent solo à Chartres en 2027 : un seuil de 2 700 €, 233 € d'écart et une commune qui perd 3,3 % d'habitants",
+    metaTitle: "Parent solo à Chartres 2027 — seuil 2 700 €",
     metaDesc:
       "Fit 6,2/10, seuil 2 700 € par mois, T3 à 890 €, ménage médian à 233 € du compte. Écoles 6,6/10, sécurité 5,5/10, mais -3,3 % d'habitants depuis 2011.",
     category: "famille",
@@ -69365,8 +69365,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-haguenau-2026",
-    title: "Parent solo à Haguenau en 2026 : le profil le plus plat du palier, 346 € sous le seuil",
-    metaTitle: "Parent solo à Haguenau 2026 : seuil 2 850 €",
+    title: "Parent solo à Haguenau en 2027 : le profil le plus plat du palier, 346 € sous le seuil",
+    metaTitle: "Parent solo à Haguenau 2027 : seuil 2 850 €",
     metaDesc:
       "Seuil 2 850 € pour 2 504 € au ménage médian local : il manque 346 €. T3 à 940 €, amplitude de 0,9 point, pauvreté 14 % et +4,7 % d'habitants depuis 2016.",
     category: "famille",
@@ -69414,8 +69414,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-libourne-2026",
-    title: "Parent solo à Libourne en 2026 : un seuil de 2 900 €, 21 % de pauvreté et 640 € qui manquent au ménage médian",
-    metaTitle: "Parent solo à Libourne 2026 — seuil 2 900 €",
+    title: "Parent solo à Libourne en 2027 : un seuil de 2 900 €, 21 % de pauvreté et 640 € qui manquent au ménage médian",
+    metaTitle: "Parent solo à Libourne 2027 — seuil 2 900 €",
     metaDesc:
       "Fit 6,2/10, seuil 2 900 € par mois, T3 à 960 €. Mais 21 % de pauvreté, un ménage médian à 2 260 € (640 € de moins) et des transports à 5,2/10.",
     category: "famille",
@@ -69463,8 +69463,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-quimper-2026",
-    title: "Parent solo à Quimper en 2026 : un seuil à 2 850 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Quimper 2026 : seuil 2 850 €",
+    title: "Parent solo à Quimper en 2027 : un seuil à 2 850 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Quimper 2027 : seuil 2 850 €",
     metaDesc:
       "Fit 6,1/10, T3 940 €, seuil 2 850 € par mois, 391 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69516,8 +69516,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-lorient-2026",
-    title: "Parent solo à Lorient en 2026 : un seuil à 2 750 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Lorient 2026 : seuil 2 750 €",
+    title: "Parent solo à Lorient en 2027 : un seuil à 2 750 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Lorient 2027 : seuil 2 750 €",
     metaDesc:
       "Fit 6,1/10, T3 900 €, seuil 2 750 € par mois, 490 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69569,8 +69569,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-montlucon-2026",
-    title: "Parent solo à Montluçon en 2026 : un seuil à 1 950 €, 2 axes sur 4 au-dessus de la médiane et 3,8 points d'amplitude",
-    metaTitle: "Parent solo à Montluçon 2026 : seuil 1 950 €",
+    title: "Parent solo à Montluçon en 2027 : un seuil à 1 950 €, 2 axes sur 4 au-dessus de la médiane et 3,8 points d'amplitude",
+    metaTitle: "Parent solo à Montluçon 2027 : seuil 1 950 €",
     metaDesc:
       "Fit 6,1/10, T3 650 €, seuil 1 950 € par mois, 154 € de marge au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69622,8 +69622,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-niort-2026",
-    title: "Parent solo à Niort en 2026 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Niort 2026 : seuil 2 600 €",
+    title: "Parent solo à Niort en 2027 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Niort 2027 : seuil 2 600 €",
     metaDesc:
       "Fit 6,1/10, T3 860 €, seuil 2 600 € par mois, 95 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69675,8 +69675,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bourg-en-bresse-2026",
-    title: "Parent solo à Bourg-en-Bresse en 2026 : un seuil à 2 550 €, quatre axes au-dessus de la médiane",
-    metaTitle: "Parent solo à Bourg-en-Bresse 2026 : seuil 2 550 €",
+    title: "Parent solo à Bourg-en-Bresse en 2027 : un seuil à 2 550 €, quatre axes au-dessus de la médiane",
+    metaTitle: "Parent solo à Bourg-en-Bresse 2027 : seuil 2 550 €",
     metaDesc:
       "Fit 6,1/10, T3 840 €, seuil 2 550 € par mois, 361 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69728,8 +69728,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-arras-2026",
-    title: "Parent solo à Arras en 2026 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Arras 2026 : seuil 2 200 €",
+    title: "Parent solo à Arras en 2027 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Arras 2027 : seuil 2 200 €",
     metaDesc:
       "Fit 6,1/10, T3 720 €, seuil 2 200 € par mois, 8 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69779,8 +69779,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-selestat-2026",
-    title: "Parent solo à Sélestat en 2026 : un seuil à 3 050 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Sélestat 2026 : seuil 3 050 €",
+    title: "Parent solo à Sélestat en 2027 : un seuil à 3 050 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Sélestat 2027 : seuil 3 050 €",
     metaDesc:
       "Fit 6,1/10, T3 1 000 €, seuil 3 050 € par mois, 596 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69831,8 +69831,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-boulogne-billancourt-2026",
-    title: "Parent solo à Boulogne-Billancourt en 2026 : un seuil à 5 700 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
-    metaTitle: "Parent solo à Boulogne-Billancourt 2026 : seuil 5 700 €",
+    title: "Parent solo à Boulogne-Billancourt en 2027 : un seuil à 5 700 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
+    metaTitle: "Parent solo à Boulogne-Billancourt 2027 : seuil 5 700 €",
     metaDesc:
       "Fit 6,1/10, T3 2 000 €, seuil 5 700 € par mois, 1 904 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69884,8 +69884,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-orange-2026",
-    title: "Parent solo à Orange en 2026 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Orange 2026 : seuil 2 800 €",
+    title: "Parent solo à Orange en 2027 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Orange 2027 : seuil 2 800 €",
     metaDesc:
       "Fit 6,1/10, T3 920 €, seuil 2 800 € par mois, 594 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69935,8 +69935,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-aubagne-2026",
-    title: "Parent solo à Aubagne en 2026 : un seuil à 3 350 €, 3 axes sur 4 au-dessus de la médiane et 3,4 points d'amplitude",
-    metaTitle: "Parent solo à Aubagne 2026 : seuil 3 350 €",
+    title: "Parent solo à Aubagne en 2027 : un seuil à 3 350 €, 3 axes sur 4 au-dessus de la médiane et 3,4 points d'amplitude",
+    metaTitle: "Parent solo à Aubagne 2027 : seuil 3 350 €",
     metaDesc:
       "Fit 6,1/10, T3 1 100 €, seuil 3 350 € par mois, 907 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -69986,8 +69986,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-lens-2026",
-    title: "Parent solo à Lens en 2026 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane et 3,1 points d'amplitude",
-    metaTitle: "Parent solo à Lens 2026 : seuil 1 800 €",
+    title: "Parent solo à Lens en 2027 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane et 3,1 points d'amplitude",
+    metaTitle: "Parent solo à Lens 2027 : seuil 1 800 €",
     metaDesc:
       "Fit 6,0/10, T3 590 €, seuil 1 800 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70038,8 +70038,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-noisy-le-grand-2026",
-    title: "Parent solo à Noisy-le-Grand en 2026 : un seuil à 3 800 €, 3 axes sur 4 au-dessus de la médiane et 5,3 points d'amplitude",
-    metaTitle: "Parent solo à Noisy-le-Grand 2026 : seuil 3 800 €",
+    title: "Parent solo à Noisy-le-Grand en 2027 : un seuil à 3 800 €, 3 axes sur 4 au-dessus de la médiane et 5,3 points d'amplitude",
+    metaTitle: "Parent solo à Noisy-le-Grand 2027 : seuil 3 800 €",
     metaDesc:
       "Fit 6,0/10, T3 1 250 €, seuil 3 800 € par mois, 1 255 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70088,8 +70088,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-cagnes-sur-mer-2026",
-    title: "Parent solo à Cagnes-sur-Mer en 2026 : un seuil à 3 550 €, 3 axes sur 4 au-dessus de la médiane et 3,7 points d'amplitude",
-    metaTitle: "Parent solo à Cagnes-sur-Mer 2026 : seuil 3 550 €",
+    title: "Parent solo à Cagnes-sur-Mer en 2027 : un seuil à 3 550 €, 3 axes sur 4 au-dessus de la médiane et 3,7 points d'amplitude",
+    metaTitle: "Parent solo à Cagnes-sur-Mer 2027 : seuil 3 550 €",
     metaDesc:
       "Fit 6,0/10, T3 1 240 €, seuil 3 550 € par mois, 956 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70139,8 +70139,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-carpentras-2026",
-    title: "Parent solo à Carpentras en 2026 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane et 1,8 points d'amplitude",
-    metaTitle: "Parent solo à Carpentras 2026 : seuil 2 800 €",
+    title: "Parent solo à Carpentras en 2027 : un seuil à 2 800 €, 3 axes sur 4 au-dessus de la médiane et 1,8 points d'amplitude",
+    metaTitle: "Parent solo à Carpentras 2027 : seuil 2 800 €",
     metaDesc:
       "Fit 6,0/10, T3 920 €, seuil 2 800 € par mois, 765 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70191,8 +70191,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-massy-2026",
-    title: "Parent solo à Massy en 2026 : un seuil à 4 700 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
-    metaTitle: "Parent solo à Massy 2026 : seuil 4 700 €",
+    title: "Parent solo à Massy en 2027 : un seuil à 4 700 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
+    metaTitle: "Parent solo à Massy 2027 : seuil 4 700 €",
     metaDesc:
       "Fit 6,0/10, T3 1 650 €, seuil 4 700 € par mois, 2 039 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70242,8 +70242,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-orvault-2026",
-    title: "Parent solo à Orvault en 2026 : un seuil à 2 900 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
-    metaTitle: "Parent solo à Orvault 2026 : seuil 2 900 €",
+    title: "Parent solo à Orvault en 2027 : un seuil à 2 900 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+    metaTitle: "Parent solo à Orvault 2027 : seuil 2 900 €",
     metaDesc:
       "Fit 6,0/10, T3 1 010 €, seuil 2 900 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70294,8 +70294,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-sceaux-2026",
-    title: "Parent solo à Sceaux en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
-    metaTitle: "Parent solo à Sceaux 2026 : seuil 4 300 €",
+    title: "Parent solo à Sceaux en 2027 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,8 points d'amplitude",
+    metaTitle: "Parent solo à Sceaux 2027 : seuil 4 300 €",
     metaDesc:
       "Fit 6,0/10, T3 1 500 €, seuil 4 300 € par mois, 399 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70346,8 +70346,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bourg-la-reine-2026",
-    title: "Parent solo à Bourg-la-Reine en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
-    metaTitle: "Parent solo à Bourg-la-Reine 2026 : seuil 4 300 €",
+    title: "Parent solo à Bourg-la-Reine en 2027 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
+    metaTitle: "Parent solo à Bourg-la-Reine 2027 : seuil 4 300 €",
     metaDesc:
       "Fit 6,0/10, T3 1 500 €, seuil 4 300 € par mois, 649 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70398,8 +70398,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-angouleme-2026",
-    title: "Parent solo à Angoulême en 2026 : un seuil à 2 500 €, 3 axes sur 4 au-dessus de la médiane et 1,6 point d'amplitude",
-    metaTitle: "Parent solo à Angoulême 2026 : seuil 2 500 €",
+    title: "Parent solo à Angoulême en 2027 : un seuil à 2 500 €, 3 axes sur 4 au-dessus de la médiane et 1,6 point d'amplitude",
+    metaTitle: "Parent solo à Angoulême 2027 : seuil 2 500 €",
     metaDesc:
       "Fit 5,9/10, T3 820 €, seuil 2 500 € par mois, 352 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70448,8 +70448,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-blois-2026",
-    title: "Parent solo à Blois en 2026 : un seuil à 2 500 €, 3 axes sur 4 au-dessus de la médiane et 1,1 point d'amplitude",
-    metaTitle: "Parent solo à Blois 2026 : seuil 2 500 €",
+    title: "Parent solo à Blois en 2027 : un seuil à 2 500 €, 3 axes sur 4 au-dessus de la médiane et 1,1 point d'amplitude",
+    metaTitle: "Parent solo à Blois 2027 : seuil 2 500 €",
     metaDesc:
       "Fit 5,9/10, T3 820 €, seuil 2 500 € par mois, 403 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70498,8 +70498,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-thionville-2026",
-    title: "Parent solo à Thionville en 2026 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane et 1,1 point d'amplitude",
-    metaTitle: "Parent solo à Thionville 2026 : seuil 2 650 €",
+    title: "Parent solo à Thionville en 2027 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane et 1,1 point d'amplitude",
+    metaTitle: "Parent solo à Thionville 2027 : seuil 2 650 €",
     metaDesc:
       "Fit 5,9/10, T3 880 €, seuil 2 650 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70549,8 +70549,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-brieuc-2026",
-    title: "Parent solo à Saint-Brieuc en 2026 : un seuil à 2 350 €, 3 axes sur 4 au-dessus de la médiane et 1,5 point d'amplitude",
-    metaTitle: "Parent solo à Saint-Brieuc 2026 : seuil 2 350 €",
+    title: "Parent solo à Saint-Brieuc en 2027 : un seuil à 2 350 €, 3 axes sur 4 au-dessus de la médiane et 1,5 point d'amplitude",
+    metaTitle: "Parent solo à Saint-Brieuc 2027 : seuil 2 350 €",
     metaDesc:
       "Fit 5,9/10, T3 780 €, seuil 2 350 € par mois, 85 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70600,8 +70600,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-epinal-2026",
-    title: "Parent solo à Épinal en 2026 : un seuil à 2 000 €, 3 axes sur 4 au-dessus de la médiane et 1,2 point d'amplitude",
-    metaTitle: "Parent solo à Épinal 2026 : seuil 2 000 €",
+    title: "Parent solo à Épinal en 2027 : un seuil à 2 000 €, 3 axes sur 4 au-dessus de la médiane et 1,2 point d'amplitude",
+    metaTitle: "Parent solo à Épinal 2027 : seuil 2 000 €",
     metaDesc:
       "Fit 5,9/10, T3 660 €, seuil 2 000 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70651,8 +70651,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saintes-2026",
-    title: "Parent solo à Saintes en 2026 : un seuil à 2 100 €, 3 axes sur 4 au-dessus de la médiane et 1,3 point d'amplitude",
-    metaTitle: "Parent solo à Saintes 2026 : seuil 2 100 €",
+    title: "Parent solo à Saintes en 2027 : un seuil à 2 100 €, 3 axes sur 4 au-dessus de la médiane et 1,3 point d'amplitude",
+    metaTitle: "Parent solo à Saintes 2027 : seuil 2 100 €",
     metaDesc:
       "Fit 5,9/10, T3 700 €, seuil 2 100 € par mois, le ménage médian local couvre le seuil : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70702,8 +70702,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-ivry-sur-seine-2026",
-    title: "Parent solo à Ivry-sur-Seine en 2026 : un seuil à 3 850 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
-    metaTitle: "Parent solo à Ivry-sur-Seine 2026 : seuil 3 850 €",
+    title: "Parent solo à Ivry-sur-Seine en 2027 : un seuil à 3 850 €, 2 axes sur 4 au-dessus de la médiane et 4,4 points d'amplitude",
+    metaTitle: "Parent solo à Ivry-sur-Seine 2027 : seuil 3 850 €",
     metaDesc:
       "Fit 5,9/10, T3 1 350 €, seuil 3 850 € par mois, 1 718 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70754,8 +70754,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-vitry-sur-seine-2026",
-    title: "Parent solo à Vitry-sur-Seine en 2026 : un seuil à 3 950 €, 1 axe sur 4 au-dessus de la médiane et 4,3 points d'amplitude",
-    metaTitle: "Parent solo à Vitry-sur-Seine 2026 : seuil 3 950 €",
+    title: "Parent solo à Vitry-sur-Seine en 2027 : un seuil à 3 950 €, 1 axe sur 4 au-dessus de la médiane et 4,3 points d'amplitude",
+    metaTitle: "Parent solo à Vitry-sur-Seine 2027 : seuil 3 950 €",
     metaDesc:
       "Fit 5,9/10, T3 1 300 €, seuil 3 950 € par mois, 1 839 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70806,8 +70806,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-cloud-2026",
-    title: "Parent solo à Saint-Cloud en 2026 : un seuil à 5 650 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
-    metaTitle: "Parent solo à Saint-Cloud 2026 : seuil 5 650 €",
+    title: "Parent solo à Saint-Cloud en 2027 : un seuil à 5 650 €, 3 axes sur 4 au-dessus de la médiane et 6,5 points d'amplitude",
+    metaTitle: "Parent solo à Saint-Cloud 2027 : seuil 5 650 €",
     metaDesc:
       "Fit 5,9/10, T3 1 980 €, seuil 5 650 € par mois, 1 343 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70858,8 +70858,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-talence-2026",
-    title: "Parent solo à Talence en 2026 : un seuil à 3 300 €, 3 axes sur 4 au-dessus de la médiane et 4,5 points d'amplitude",
-    metaTitle: "Parent solo à Talence 2026 : seuil 3 300 €",
+    title: "Parent solo à Talence en 2027 : un seuil à 3 300 €, 3 axes sur 4 au-dessus de la médiane et 4,5 points d'amplitude",
+    metaTitle: "Parent solo à Talence 2027 : seuil 3 300 €",
     metaDesc:
       "Fit 5,9/10, T3 1 150 €, seuil 3 300 € par mois, 672 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70910,8 +70910,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-illkirch-graffenstaden-2026",
-    title: "Parent solo à Illkirch-Graffenstaden en 2026 : un seuil à 2 950 €, 3 axes sur 4 au-dessus de la médiane et 2,1 points d'amplitude",
-    metaTitle: "Parent solo à Illkirch-Graffenstaden 2026 : seuil 2 950 €",
+    title: "Parent solo à Illkirch-Graffenstaden en 2027 : un seuil à 2 950 €, 3 axes sur 4 au-dessus de la médiane et 2,1 points d'amplitude",
+    metaTitle: "Parent solo à Illkirch-Graffenstaden 2027 : seuil 2 950 €",
     metaDesc:
       "Fit 5,9/10, T3 970 €, seuil 2 950 € par mois, 329 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -70962,8 +70962,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-olivet-2026",
-    title: "Parent solo à Olivet en 2026 : un seuil à 3 050 €, 2 axes sur 4 au-dessus de la médiane et 1,6 point d'amplitude",
-    metaTitle: "Parent solo à Olivet 2026 : seuil 3 050 €",
+    title: "Parent solo à Olivet en 2027 : un seuil à 3 050 €, 2 axes sur 4 au-dessus de la médiane et 1,6 point d'amplitude",
+    metaTitle: "Parent solo à Olivet 2027 : seuil 3 050 €",
     metaDesc:
       "Fit 5,9/10, T3 1 010 €, seuil 3 050 € par mois, 51 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -71013,8 +71013,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-champs-sur-marne-2026",
-    title: "Parent solo à Champs-sur-Marne en 2026 : un seuil à 3 850 €, 3 axes sur 4 au-dessus de la médiane et 2,1 points d'amplitude",
-    metaTitle: "Parent solo à Champs-sur-Marne 2026 : seuil 3 850 €",
+    title: "Parent solo à Champs-sur-Marne en 2027 : un seuil à 3 850 €, 3 axes sur 4 au-dessus de la médiane et 2,1 points d'amplitude",
+    metaTitle: "Parent solo à Champs-sur-Marne 2027 : seuil 3 850 €",
     metaDesc:
       "Fit 5,9/10, T3 1 270 €, seuil 3 850 € par mois, 1 277 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -71064,8 +71064,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-mande-2026",
-    title: "Parent solo à Saint-Mandé en 2026 : un seuil à 4 550 €, 3 axes sur 4 au-dessus de la médiane et 6,2 points d'amplitude",
-    metaTitle: "Parent solo à Saint-Mandé 2026 : seuil 4 550 €",
+    title: "Parent solo à Saint-Mandé en 2027 : un seuil à 4 550 €, 3 axes sur 4 au-dessus de la médiane et 6,2 points d'amplitude",
+    metaTitle: "Parent solo à Saint-Mandé 2027 : seuil 4 550 €",
     metaDesc:
       "Fit 5,9/10, T3 1 600 €, seuil 4 550 € par mois, 631 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -71116,8 +71116,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-sainte-foy-les-lyon-2026",
-    title: "Parent solo à Sainte-Foy-lès-Lyon en 2026 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
-    metaTitle: "Parent solo à Sainte-Foy-lès-Lyon 2026 : seuil 3 750 €",
+    title: "Parent solo à Sainte-Foy-lès-Lyon en 2027 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+    metaTitle: "Parent solo à Sainte-Foy-lès-Lyon 2027 : seuil 3 750 €",
     metaDesc:
       "Fit 5,9/10, T3 1 310 €, seuil 3 750 € par mois, 632 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -71168,8 +71168,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-meudon-2026",
-    title: "Parent solo à Meudon en 2026 : un seuil à 5 300 €, 3 axes sur 4 au-dessus de la médiane et 6,1 points d'amplitude",
-    metaTitle: "Parent solo à Meudon 2026 : seuil 5 300 €",
+    title: "Parent solo à Meudon en 2027 : un seuil à 5 300 €, 3 axes sur 4 au-dessus de la médiane et 6,1 points d'amplitude",
+    metaTitle: "Parent solo à Meudon 2027 : seuil 5 300 €",
     metaDesc:
       "Fit 5,9/10, T3 1 860 €, seuil 5 300 € par mois, 1 976 € qui manquent au ménage médian local : le détail par axe et ce que la note recouvre.",
     category: "famille",
@@ -71220,8 +71220,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-rochefort-2026",
-    title: "Parent solo à Rochefort en 2026 : un seuil à 2 000 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Rochefort 2026 : seuil 2 000 €",
+    title: "Parent solo à Rochefort en 2027 : un seuil à 2 000 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Rochefort 2027 : seuil 2 000 €",
     metaDesc:
       "Fit 5,8/10, T3 660 €, seuil 2 000 € par mois : le détail par axe.",
     category: "famille",
@@ -71267,8 +71267,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-perigueux-2026",
-    title: "Parent solo à Périgueux en 2026 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Périgueux 2026 : seuil 2 200 €",
+    title: "Parent solo à Périgueux en 2027 : un seuil à 2 200 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Périgueux 2027 : seuil 2 200 €",
     metaDesc:
       "Fit 5,8/10, T3 720 €, seuil 2 200 € par mois : le détail par axe.",
     category: "famille",
@@ -71314,8 +71314,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-rodez-2026",
-    title: "Parent solo à Rodez en 2026 : un seuil à 2 050 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Rodez 2026 : seuil 2 050 €",
+    title: "Parent solo à Rodez en 2027 : un seuil à 2 050 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Rodez 2027 : seuil 2 050 €",
     metaDesc:
       "Fit 5,8/10, T3 680 €, seuil 2 050 € par mois : le détail par axe.",
     category: "famille",
@@ -71361,8 +71361,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-romans-sur-isere-2026",
-    title: "Parent solo à Romans-sur-Isère en 2026 : un seuil à 2 250 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Romans-sur-Isère 2026 : seuil 2 250 €",
+    title: "Parent solo à Romans-sur-Isère en 2027 : un seuil à 2 250 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Romans-sur-Isère 2027 : seuil 2 250 €",
     metaDesc:
       "Fit 5,8/10, T3 740 €, seuil 2 250 € par mois, 27 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71408,8 +71408,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-douai-2026",
-    title: "Parent solo à Douai en 2026 : un seuil à 2 050 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Douai 2026 : seuil 2 050 €",
+    title: "Parent solo à Douai en 2027 : un seuil à 2 050 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Douai 2027 : seuil 2 050 €",
     metaDesc:
       "Fit 5,8/10, T3 670 €, seuil 2 050 € par mois, 52 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71455,8 +71455,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-colombes-2026",
-    title: "Parent solo à Colombes en 2026 : un seuil à 3 700 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Colombes 2026 : seuil 3 700 €",
+    title: "Parent solo à Colombes en 2027 : un seuil à 3 700 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Colombes 2027 : seuil 3 700 €",
     metaDesc:
       "Fit 5,8/10, T3 1 300 €, seuil 3 700 € par mois, 981 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71502,8 +71502,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-argenteuil-2026",
-    title: "Parent solo à Argenteuil en 2026 : un seuil à 3 650 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Argenteuil 2026 : seuil 3 650 €",
+    title: "Parent solo à Argenteuil en 2027 : un seuil à 3 650 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Argenteuil 2027 : seuil 3 650 €",
     metaDesc:
       "Fit 5,8/10, T3 1 200 €, seuil 3 650 € par mois, 1 554 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71549,8 +71549,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-menton-2026",
-    title: "Parent solo à Menton en 2026 : un seuil à 4 150 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Menton 2026 : seuil 4 150 €",
+    title: "Parent solo à Menton en 2027 : un seuil à 4 150 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Menton 2027 : seuil 4 150 €",
     metaDesc:
       "Fit 5,8/10, T3 1 450 €, seuil 4 150 € par mois, 1 703 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71596,8 +71596,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-raphael-2026",
-    title: "Parent solo à Saint-Raphaël en 2026 : un seuil à 3 700 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Saint-Raphaël 2026 : seuil 3 700 €",
+    title: "Parent solo à Saint-Raphaël en 2027 : un seuil à 3 700 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Saint-Raphaël 2027 : seuil 3 700 €",
     metaDesc:
       "Fit 5,8/10, T3 1 300 €, seuil 3 700 € par mois, 991 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71643,8 +71643,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-caluire-et-cuire-2026",
-    title: "Parent solo à Caluire-et-Cuire en 2026 : un seuil à 4 150 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Caluire-et-Cuire 2026 : seuil 4 150 €",
+    title: "Parent solo à Caluire-et-Cuire en 2027 : un seuil à 4 150 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Caluire-et-Cuire 2027 : seuil 4 150 €",
     metaDesc:
       "Fit 5,8/10, T3 1 450 €, seuil 4 150 € par mois, 1 185 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71690,8 +71690,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-le-bouscat-2026",
-    title: "Parent solo à Le Bouscat en 2026 : un seuil à 3 600 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Le Bouscat 2026 : seuil 3 600 €",
+    title: "Parent solo à Le Bouscat en 2027 : un seuil à 3 600 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Le Bouscat 2027 : seuil 3 600 €",
     metaDesc:
       "Fit 5,8/10, T3 1 260 €, seuil 3 600 € par mois, 613 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71737,8 +71737,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-tournefeuille-2026",
-    title: "Parent solo à Tournefeuille en 2026 : un seuil à 3 200 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Tournefeuille 2026 : seuil 3 200 €",
+    title: "Parent solo à Tournefeuille en 2027 : un seuil à 3 200 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Tournefeuille 2027 : seuil 3 200 €",
     metaDesc:
       "Fit 5,8/10, T3 1 120 €, seuil 3 200 € par mois, 56 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71784,8 +71784,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-martin-d-heres-2026",
-    title: "Parent solo à Saint-Martin-d'Hères en 2026 : un seuil à 2 550 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Saint-Martin-d'Hères 2026 : seuil 2 550 €",
+    title: "Parent solo à Saint-Martin-d'Hères en 2027 : un seuil à 2 550 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Saint-Martin-d'Hères 2027 : seuil 2 550 €",
     metaDesc:
       "Fit 5,8/10, T3 900 €, seuil 2 550 € par mois, 258 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71831,8 +71831,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-palaiseau-2026",
-    title: "Parent solo à Palaiseau en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Palaiseau 2026 : seuil 4 050 €",
+    title: "Parent solo à Palaiseau en 2027 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Palaiseau 2027 : seuil 4 050 €",
     metaDesc:
       "Fit 5,8/10, T3 1 410 €, seuil 4 050 € par mois, 955 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71878,8 +71878,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bois-colombes-2026",
-    title: "Parent solo à Bois-Colombes en 2026 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Bois-Colombes 2026 : seuil 4 300 €",
+    title: "Parent solo à Bois-Colombes en 2027 : un seuil à 4 300 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Bois-Colombes 2027 : seuil 4 300 €",
     metaDesc:
       "Fit 5,8/10, T3 1 500 €, seuil 4 300 € par mois, 763 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71925,8 +71925,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-montigny-les-metz-2026",
-    title: "Parent solo à Montigny-lès-Metz en 2026 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Montigny-lès-Metz 2026 : seuil 2 600 €",
+    title: "Parent solo à Montigny-lès-Metz en 2027 : un seuil à 2 600 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Montigny-lès-Metz 2027 : seuil 2 600 €",
     metaDesc:
       "Fit 5,8/10, T3 850 €, seuil 2 600 € par mois, 224 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -71972,8 +71972,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-genis-laval-2026",
-    title: "Parent solo à Saint-Genis-Laval en 2026 : un seuil à 3 450 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Saint-Genis-Laval 2026 : seuil 3 450 €",
+    title: "Parent solo à Saint-Genis-Laval en 2027 : un seuil à 3 450 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Saint-Genis-Laval 2027 : seuil 3 450 €",
     metaDesc:
       "Fit 5,8/10, T3 1 200 €, seuil 3 450 € par mois, 546 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -72019,8 +72019,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-tassin-la-demi-lune-2026",
-    title: "Parent solo à Tassin-la-Demi-Lune en 2026 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
-    metaTitle: "Parent solo à Tassin-la-Demi-Lune 2026 : seuil 4 050 €",
+    title: "Parent solo à Tassin-la-Demi-Lune en 2027 : un seuil à 4 050 €, 2 axes sur 4 au-dessus de la médiane et 3,6 points d'amplitude",
+    metaTitle: "Parent solo à Tassin-la-Demi-Lune 2027 : seuil 4 050 €",
     metaDesc:
       "Fit 6,1/10, T3 1 410 €, seuil 4 050 € par mois, 907 € qui manquent au ménage médian local : le détail par axe.",
     category: "famille",
@@ -72071,8 +72071,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-rambouillet-2026",
-    title: "Parent solo à Rambouillet en 2026 : des axes forts partout sauf le coût de la vie, un seuil à 4 050 € et 27,6 % de seniors",
-    metaTitle: "Parent solo à Rambouillet 2026 : seuil 4 050 €",
+    title: "Parent solo à Rambouillet en 2027 : des axes forts partout sauf le coût de la vie, un seuil à 4 050 € et 27,6 % de seniors",
+    metaTitle: "Parent solo à Rambouillet 2027 : seuil 4 050 €",
     metaDesc:
       "Fit 6,2/10, sécurité 7/10, écoles 7,7/10. Seuil 4 050 € par mois, 1 018 € qui manquent au ménage médian local, 27,6 % de 60 ans et plus : le détail.",
     category: "famille",
@@ -72120,8 +72120,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-germain-en-laye-2026",
-    title: "Parent solo à Saint-Germain-en-Laye en 2026 : des écoles à 9/10, un coût de la vie à 2,2/10 et un seuil à 4 550 €",
-    metaTitle: "Parent solo à Saint-Germain-en-Laye 2026",
+    title: "Parent solo à Saint-Germain-en-Laye en 2027 : des écoles à 9/10, un coût de la vie à 2,2/10 et un seuil à 4 550 €",
+    metaTitle: "Parent solo à Saint-Germain-en-Laye 2027",
     metaDesc:
       "Fit 6,2/10, écoles 9/10, sécurité 6,5/10, mais coût de la vie 2,2/10 : seuil 4 550 € par mois, dont 948 € qui manquent au ménage médian local.",
     category: "famille",
@@ -72169,8 +72169,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-versailles-2026",
-    title: "Parent solo à Versailles en 2026 : écoles 9,0/10, coût de la vie 2,4/10 et un seuil de 4 850 €",
-    metaTitle: "Parent solo à Versailles 2026 — seuil 4 850 €",
+    title: "Parent solo à Versailles en 2027 : écoles 9,0/10, coût de la vie 2,4/10 et un seuil de 4 850 €",
+    metaTitle: "Parent solo à Versailles 2027 — seuil 4 850 €",
     metaDesc:
       "Seuil 4 850 € par mois, T3 à 1 700 €, coût de la vie 2,4/10. Écoles 9,0/10 et transports 8,4/10 : 6,6 points d'amplitude. Il manque 1 190 € au ménage médian.",
     category: "famille",
@@ -72218,8 +72218,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-vincennes-2026",
-    title: "Parent solo à Vincennes en 2026 : transports à 9/10, coût de la vie à 2,2/10 et seuil d'entrée à 5 150 €",
-    metaTitle: "Parent solo à Vincennes 2026 — seuil 5 150 €",
+    title: "Parent solo à Vincennes en 2027 : transports à 9/10, coût de la vie à 2,2/10 et seuil d'entrée à 5 150 €",
+    metaTitle: "Parent solo à Vincennes 2027 — seuil 5 150 €",
     metaDesc:
       "Composite 6,2/10 : transports 9,0, écoles 8,7, sécurité 6,1, mais coût de la vie 2,2. Seuil de 5 150 € par mois pour un T3 à 1 800 €, ménage médian à 3 779 €.",
     category: "famille",
@@ -72267,8 +72267,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-malo-2026",
-    title: "Parent solo à Saint-Malo en 2026 : un seuil à 3 250 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Saint-Malo 2026 : seuil 3 250 €",
+    title: "Parent solo à Saint-Malo en 2027 : un seuil à 3 250 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Saint-Malo 2027 : seuil 3 250 €",
     metaDesc:
       "Fit 5,7/10, T3 1 080 €, seuil 3 250 € par mois : le détail par axe.",
     category: "famille",
@@ -72314,8 +72314,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-evreux-2026",
-    title: "Parent solo à Évreux en 2026 : un seuil à 2 500 €, 1 axe sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Évreux 2026 : seuil 2 500 €",
+    title: "Parent solo à Évreux en 2027 : un seuil à 2 500 €, 1 axe sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Évreux 2027 : seuil 2 500 €",
     metaDesc:
       "Fit 5,7/10, T3 820 €, seuil 2 500 € par mois : le détail par axe.",
     category: "famille",
@@ -72361,8 +72361,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-valenciennes-2026",
-    title: "Parent solo à Valenciennes en 2026 : un seuil à 2 000 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Valenciennes 2026 : seuil 2 000 €",
+    title: "Parent solo à Valenciennes en 2027 : un seuil à 2 000 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Valenciennes 2027 : seuil 2 000 €",
     metaDesc:
       "Fit 5,7/10, T3 660 €, seuil 2 000 € par mois : le détail par axe.",
     category: "famille",
@@ -72408,8 +72408,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-aurillac-2026",
-    title: "Parent solo à Aurillac en 2026 : un seuil à 1 700 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Aurillac 2026 : seuil 1 700 €",
+    title: "Parent solo à Aurillac en 2027 : un seuil à 1 700 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Aurillac 2027 : seuil 1 700 €",
     metaDesc:
       "Fit 5,7/10, T3 560 €, seuil 1 700 € par mois : le détail par axe.",
     category: "famille",
@@ -72455,8 +72455,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chateauroux-2026",
-    title: "Parent solo à Châteauroux en 2026 : un seuil à 1 950 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Châteauroux 2026 : seuil 1 950 €",
+    title: "Parent solo à Châteauroux en 2027 : un seuil à 1 950 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Châteauroux 2027 : seuil 1 950 €",
     metaDesc:
       "Fit 5,7/10, T3 640 €, seuil 1 950 € par mois : le détail par axe.",
     category: "famille",
@@ -72502,8 +72502,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-mont-de-marsan-2026",
-    title: "Parent solo à Mont-de-Marsan en 2026 : un seuil à 2 250 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Mont-de-Marsan 2026 : seuil 2 250 €",
+    title: "Parent solo à Mont-de-Marsan en 2027 : un seuil à 2 250 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Mont-de-Marsan 2027 : seuil 2 250 €",
     metaDesc:
       "Fit 5,7/10, T3 740 €, seuil 2 250 € par mois : le détail par axe.",
     category: "famille",
@@ -72549,8 +72549,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-la-ciotat-2026",
-    title: "Parent solo à La Ciotat en 2026 : un seuil à 3 800 €, 1 axe sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à La Ciotat 2026 : seuil 3 800 €",
+    title: "Parent solo à La Ciotat en 2027 : un seuil à 3 800 €, 1 axe sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à La Ciotat 2027 : seuil 3 800 €",
     metaDesc:
       "Fit 5,7/10, T3 1 250 €, seuil 3 800 € par mois : le détail par axe.",
     category: "famille",
@@ -72596,8 +72596,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-vandoeuvre-les-nancy-2026",
-    title: "Parent solo à Vandœuvre-lès-Nancy en 2026 : un seuil à 2 550 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Vandœuvre-lès-Nancy 2026 : seuil 2 550 €",
+    title: "Parent solo à Vandœuvre-lès-Nancy en 2027 : un seuil à 2 550 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Vandœuvre-lès-Nancy 2027 : seuil 2 550 €",
     metaDesc:
       "Fit 5,7/10, T3 840 €, seuil 2 550 € par mois : le détail par axe.",
     category: "famille",
@@ -72643,8 +72643,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-louis-haut-rhin-2026",
-    title: "Parent solo à Saint-Louis (Haut-Rhin) en 2026 : un seuil à 3 050 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Saint-Louis (Haut-Rhin) 2026 : seuil 3 050 €",
+    title: "Parent solo à Saint-Louis (Haut-Rhin) en 2027 : un seuil à 3 050 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Saint-Louis (Haut-Rhin) 2027 : seuil 3 050 €",
     metaDesc:
       "Fit 5,7/10, T3 1 010 €, seuil 3 050 € par mois : le détail par axe.",
     category: "famille",
@@ -72690,8 +72690,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-la-garenne-colombes-2026",
-    title: "Parent solo à La Garenne-Colombes en 2026 : un seuil à 4 450 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à La Garenne-Colombes 2026 : seuil 4 450 €",
+    title: "Parent solo à La Garenne-Colombes en 2027 : un seuil à 4 450 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à La Garenne-Colombes 2027 : seuil 4 450 €",
     metaDesc:
       "Fit 5,7/10, T3 1 550 €, seuil 4 450 € par mois : le détail par axe.",
     category: "famille",
@@ -72737,8 +72737,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chaville-2026",
-    title: "Parent solo à Chaville en 2026 : un seuil à 5 400 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Chaville 2026 : seuil 5 400 €",
+    title: "Parent solo à Chaville en 2027 : un seuil à 5 400 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Chaville 2027 : seuil 5 400 €",
     metaDesc:
       "Fit 5,7/10, T3 1 890 €, seuil 5 400 € par mois : le détail par axe.",
     category: "famille",
@@ -72784,8 +72784,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-eysines-2026",
-    title: "Parent solo à Eysines en 2026 : un seuil à 3 100 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Eysines 2026 : seuil 3 100 €",
+    title: "Parent solo à Eysines en 2027 : un seuil à 3 100 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Eysines 2027 : seuil 3 100 €",
     metaDesc:
       "Fit 5,7/10, T3 1 080 €, seuil 3 100 € par mois : le détail par axe.",
     category: "famille",
@@ -72831,8 +72831,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-coueron-2026",
-    title: "Parent solo à Couëron en 2026 : un seuil à 2 700 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Couëron 2026 : seuil 2 700 €",
+    title: "Parent solo à Couëron en 2027 : un seuil à 2 700 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Couëron 2027 : seuil 2 700 €",
     metaDesc:
       "Fit 5,7/10, T3 940 €, seuil 2 700 € par mois : le détail par axe.",
     category: "famille",
@@ -72878,8 +72878,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-la-chapelle-sur-erdre-2026",
-    title: "Parent solo à La Chapelle-sur-Erdre en 2026 : un seuil à 2 700 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à La Chapelle-sur-Erdre 2026 : seuil 2 700 €",
+    title: "Parent solo à La Chapelle-sur-Erdre en 2027 : un seuil à 2 700 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à La Chapelle-sur-Erdre 2027 : seuil 2 700 €",
     metaDesc:
       "Fit 5,7/10, T3 940 €, seuil 2 700 € par mois : le détail par axe.",
     category: "famille",
@@ -72925,8 +72925,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-carquefou-2026",
-    title: "Parent solo à Carquefou en 2026 : un seuil à 2 700 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Carquefou 2026 : seuil 2 700 €",
+    title: "Parent solo à Carquefou en 2027 : un seuil à 2 700 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Carquefou 2027 : seuil 2 700 €",
     metaDesc:
       "Fit 5,7/10, T3 950 €, seuil 2 700 € par mois : le détail par axe.",
     category: "famille",
@@ -72972,8 +72972,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-millau-2026",
-    title: "Parent solo à Millau en 2026 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Millau 2026 : seuil 1 800 €",
+    title: "Parent solo à Millau en 2027 : un seuil à 1 800 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Millau 2027 : seuil 1 800 €",
     metaDesc:
       "Fit 5,6/10, T3 600 €, seuil 1 800 € par mois : le détail par axe.",
     category: "famille",
@@ -73019,8 +73019,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-venissieux-2026",
-    title: "Parent solo à Vénissieux en 2026 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Vénissieux 2026 : seuil 3 750 €",
+    title: "Parent solo à Vénissieux en 2027 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Vénissieux 2027 : seuil 3 750 €",
     metaDesc:
       "Fit 5,6/10, T3 1 240 €, seuil 3 750 € par mois : le détail par axe.",
     category: "famille",
@@ -73066,8 +73066,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-sevres-2026",
-    title: "Parent solo à Sèvres en 2026 : un seuil à 5 500 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Sèvres 2026 : seuil 5 500 €",
+    title: "Parent solo à Sèvres en 2027 : un seuil à 5 500 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Sèvres 2027 : seuil 5 500 €",
     metaDesc:
       "Fit 5,6/10, T3 1 920 €, seuil 5 500 € par mois : le détail par axe.",
     category: "famille",
@@ -73113,8 +73113,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-torcy-2026",
-    title: "Parent solo à Torcy en 2026 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Torcy 2026 : seuil 3 750 €",
+    title: "Parent solo à Torcy en 2027 : un seuil à 3 750 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Torcy 2027 : seuil 3 750 €",
     metaDesc:
       "Fit 5,6/10, T3 1 240 €, seuil 3 750 € par mois : le détail par axe.",
     category: "famille",
@@ -73160,8 +73160,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-joinville-le-pont-2026",
-    title: "Parent solo à Joinville-le-Pont en 2026 : un seuil à 4 950 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Joinville-le-Pont 2026 : seuil 4 950 €",
+    title: "Parent solo à Joinville-le-Pont en 2027 : un seuil à 4 950 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Joinville-le-Pont 2027 : seuil 4 950 €",
     metaDesc:
       "Fit 5,6/10, T3 1 740 €, seuil 4 950 € par mois : le détail par axe.",
     category: "famille",
@@ -73207,8 +73207,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-gradignan-2026",
-    title: "Parent solo à Gradignan en 2026 : un seuil à 3 100 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Gradignan 2026 : seuil 3 100 €",
+    title: "Parent solo à Gradignan en 2027 : un seuil à 3 100 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Gradignan 2027 : seuil 3 100 €",
     metaDesc:
       "Fit 5,6/10, T3 1 080 €, seuil 3 100 € par mois : le détail par axe.",
     category: "famille",
@@ -73254,8 +73254,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-chilly-mazarin-2026",
-    title: "Parent solo à Chilly-Mazarin en 2026 : un seuil à 4 200 €, 1 axe sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Chilly-Mazarin 2026 : seuil 4 200 €",
+    title: "Parent solo à Chilly-Mazarin en 2027 : un seuil à 4 200 €, 1 axe sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Chilly-Mazarin 2027 : seuil 4 200 €",
     metaDesc:
       "Fit 5,6/10, T3 1 390 €, seuil 4 200 € par mois : le détail par axe.",
     category: "famille",
@@ -73301,8 +73301,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-saint-sebastien-sur-loire-2026",
-    title: "Parent solo à Saint-Sébastien-sur-Loire en 2026 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Saint-Sébastien-sur-Loire 2026 : seuil 2 650 €",
+    title: "Parent solo à Saint-Sébastien-sur-Loire en 2027 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Saint-Sébastien-sur-Loire 2027 : seuil 2 650 €",
     metaDesc:
       "Fit 5,6/10, T3 930 €, seuil 2 650 € par mois : le détail par axe.",
     category: "famille",
@@ -73348,8 +73348,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-bouguenais-2026",
-    title: "Parent solo à Bouguenais en 2026 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Bouguenais 2026 : seuil 2 650 €",
+    title: "Parent solo à Bouguenais en 2027 : un seuil à 2 650 €, 3 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Bouguenais 2027 : seuil 2 650 €",
     metaDesc:
       "Fit 5,6/10, T3 930 €, seuil 2 650 € par mois : le détail par axe.",
     category: "famille",
@@ -73395,8 +73395,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "parent-solo-a-ozoir-la-ferriere-2026",
-    title: "Parent solo à Ozoir-la-Ferrière en 2026 : un seuil à 3 800 €, 2 axes sur 4 au-dessus de la médiane",
-    metaTitle: "Parent solo à Ozoir-la-Ferrière 2026 : seuil 3 800 €",
+    title: "Parent solo à Ozoir-la-Ferrière en 2027 : un seuil à 3 800 €, 2 axes sur 4 au-dessus de la médiane",
+    metaTitle: "Parent solo à Ozoir-la-Ferrière 2027 : seuil 3 800 €",
     metaDesc:
       "Fit 5,6/10, T3 1 250 €, seuil 3 800 € par mois : le détail par axe.",
     category: "famille",
@@ -73443,7 +73443,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-pontoise-2026",
     title: "10 choses à faire à Pontoise",
-    metaTitle: "10 choses à faire à Pontoise en 2026",
+    metaTitle: "10 choses à faire à Pontoise en 2027",
     metaDesc:
       "Une cathédrale du XIIe siècle, un hôtel gothique devenu musée, le quartier où Pissarro a peint : 10 activités à Pontoise, dans le Val-d'Oise.",
     category: "tourisme",
@@ -73507,7 +73507,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-haguenau-2026",
     title: "10 choses à faire à Haguenau",
-    metaTitle: "10 choses à faire à Haguenau en 2026",
+    metaTitle: "10 choses à faire à Haguenau en 2027",
     metaDesc:
       "Une ville impériale brûlée deux fois en 1677, la plus grande forêt indivise de France, un musée du bagage : 10 activités à Haguenau, dans le Bas-Rhin.",
     category: "tourisme",
@@ -73572,7 +73572,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-ales-2026",
     title: "10 choses à faire à Alès",
-    metaTitle: "10 choses à faire à Alès en 2026",
+    metaTitle: "10 choses à faire à Alès en 2027",
     metaDesc:
       "Sept cents mètres de galeries de mine, un fort de Vauban, un musée né d'un imprimeur ami de Picasso : 10 activités à Alès, porte des Cévennes.",
     category: "tourisme",
@@ -73764,7 +73764,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-blagnac-2026",
     title: "10 choses à faire à Blagnac",
-    metaTitle: "10 choses à faire à Blagnac en 2026",
+    metaTitle: "10 choses à faire à Blagnac en 2027",
     metaDesc:
       "Monter dans un Concorde, voir assembler un A350, une église inscrite depuis 1926 : 10 activités à Blagnac, aux portes de Toulouse.",
     category: "tourisme",
@@ -73828,7 +73828,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-au-cannet-2026",
     title: "10 choses à faire au Cannet",
-    metaTitle: "10 choses à faire au Cannet en 2026",
+    metaTitle: "10 choses à faire au Cannet en 2027",
     metaDesc:
       "Le seul musée au monde consacré à Bonnard, une chapelle décorée par Tobiasse, une tour du XVIe siècle : 10 activités au Cannet, au-dessus de Cannes.",
     category: "tourisme",
@@ -73956,7 +73956,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mantes-la-jolie-2026",
     title: "10 choses à faire à Mantes-la-Jolie",
-    metaTitle: "10 choses à faire à Mantes-la-Jolie en 2026",
+    metaTitle: "10 choses à faire à Mantes-la-Jolie en 2027",
     metaDesc:
       "Une collégiale contemporaine de Notre-Dame de Paris, la plus grande collection publique de Maximilien Luce : 10 activités à Mantes-la-Jolie.",
     category: "tourisme",
@@ -74020,7 +74020,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-istres-2026",
     title: "10 choses à faire à Istres",
-    metaTitle: "10 choses à faire à Istres en 2026",
+    metaTitle: "10 choses à faire à Istres en 2027",
     metaDesc:
       "Un oppidum au-dessus d'un étang de 220 hectares, un jet d'eau de 50 mètres, un parcours de dinosaures grandeur nature : 10 activités à Istres.",
     category: "tourisme",
@@ -74084,7 +74084,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-conflans-sainte-honorine-2026",
     title: "10 choses à faire à Conflans-Sainte-Honorine",
-    metaTitle: "10 choses à faire à Conflans-Sainte-Honorine en 2026",
+    metaTitle: "10 choses à faire à Conflans-Sainte-Honorine en 2027",
     metaDesc:
       "Un donjon du XIe siècle, le musée de la batellerie, un bateau-chapelle amarré depuis 1936 : 10 activités à Conflans-Sainte-Honorine, au confluent.",
     category: "tourisme",
@@ -74148,7 +74148,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-bron-2026",
     title: "10 choses à faire à Bron",
-    metaTitle: "10 choses à faire à Bron en 2026",
+    metaTitle: "10 choses à faire à Bron en 2027",
     metaDesc:
       "Un fort Séré de Rivières ouvert un dimanche par mois, un aéromusée, 178 hectares de parc : 10 activités à Bron, à l'est de Lyon.",
     category: "tourisme",
@@ -74212,7 +74212,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vaulx-en-velin-2026",
     title: "10 choses à faire à Vaulx-en-Velin",
-    metaTitle: "10 choses à faire à Vaulx-en-Velin en 2026",
+    metaTitle: "10 choses à faire à Vaulx-en-Velin en 2027",
     metaDesc:
       "Un planétarium à dôme de 15 mètres, une usine de soie artificielle classée, 2 200 hectares de parc : 10 activités à Vaulx-en-Velin.",
     category: "tourisme",
@@ -74276,7 +74276,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-priest-2026",
     title: "10 choses à faire à Saint-Priest",
-    metaTitle: "10 choses à faire à Saint-Priest en 2026",
+    metaTitle: "10 choses à faire à Saint-Priest en 2027",
     metaDesc:
       "Une maison forte du XIVe siècle, un héritage du Front populaire, un village dans la métropole : 10 activités à Saint-Priest, à l'est de Lyon.",
     category: "tourisme",
@@ -74340,7 +74340,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-verdun-2026",
     title: "10 choses à faire à Verdun",
-    metaTitle: "10 choses à faire à Verdun en 2026",
+    metaTitle: "10 choses à faire à Verdun en 2027",
     metaDesc:
       "Sept kilomètres de galeries sous la citadelle, une cathédrale consacrée en 1147, et un champ de bataille qui n'est pas dans la ville : 10 activités à Verdun.",
     category: "tourisme",
@@ -74404,7 +74404,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vaison-la-romaine-2026",
     title: "10 choses à faire à Vaison-la-Romaine",
-    metaTitle: "10 choses à faire à Vaison-la-Romaine en 2026",
+    metaTitle: "10 choses à faire à Vaison-la-Romaine en 2027",
     metaDesc:
       "Quinze hectares de vestiges antiques, un pont romain qui a tenu la crue de 1992, une ville haute perchée : 10 activités à Vaison-la-Romaine, dans le Vaucluse.",
     category: "tourisme",
@@ -74468,7 +74468,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-senlis-2026",
     title: "10 choses à faire à Senlis",
-    metaTitle: "10 choses à faire à Senlis en 2026",
+    metaTitle: "10 choses à faire à Senlis en 2027",
     metaDesc:
       "Une des premières cathédrales gothiques, un rempart gallo-romain presque entier, le château où Hugues Capet fut élu : 10 activités à Senlis, dans l'Oise.",
     category: "tourisme",
@@ -74532,7 +74532,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dinard-2026",
     title: "10 choses à faire à Dinard",
-    metaTitle: "10 choses à faire à Dinard en 2026",
+    metaTitle: "10 choses à faire à Dinard en 2027",
     metaDesc:
       "Des centaines de villas Belle Époque, une promenade taillée dans la falaise, un festival du film britannique : 10 activités à Dinard, sur la Côte d'Émeraude.",
     category: "tourisme",
@@ -74596,7 +74596,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-briancon-2026",
     title: "10 choses à faire à Briançon",
-    metaTitle: "10 choses à faire à Briançon en 2026",
+    metaTitle: "10 choses à faire à Briançon en 2027",
     metaDesc:
       "La plus haute ville de France, des fortifications de Vauban inscrites à l'UNESCO en 2008, un pont de 1731 : 10 activités à Briançon, dans les Hautes-Alpes.",
     category: "tourisme",
@@ -74660,7 +74660,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-figeac-2026",
     title: "10 choses à faire à Figeac",
-    metaTitle: "10 choses à faire à Figeac en 2026",
+    metaTitle: "10 choses à faire à Figeac en 2027",
     metaDesc:
       "La maison natale de Champollion, une place pavée de la pierre de Rosette, des greniers ouverts sous les toits : 10 activités à Figeac, dans le Lot.",
     category: "tourisme",
@@ -74724,7 +74724,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-granville-2026",
     title: "10 choses à faire à Granville",
-    metaTitle: "10 choses à faire à Granville en 2026",
+    metaTitle: "10 choses à faire à Granville en 2027",
     metaDesc:
       "Une ville haute fondée par les Anglais en 1440, la maison d'enfance de Christian Dior, un carnaval classé UNESCO : 10 activités à Granville, dans la Manche.",
     category: "tourisme",
@@ -74788,7 +74788,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-langres-2026",
     title: "10 choses à faire à Langres",
-    metaTitle: "10 choses à faire à Langres en 2026",
+    metaTitle: "10 choses à faire à Langres en 2027",
     metaDesc:
       "3,5 km de remparts qu'on parcourt en entier, la ville natale de Diderot, un fromage AOP à cuvette : 10 activités à Langres, en Haute-Marne.",
     category: "tourisme",
@@ -74916,7 +74916,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-baule-2026",
     title: "10 choses à faire à La Baule",
-    metaTitle: "10 choses à faire à La Baule en 2026",
+    metaTitle: "10 choses à faire à La Baule en 2027",
     metaDesc:
       "Un village enseveli sous le sable, une forêt plantée pour l'arrêter, 9 km de plage et 6 871 bâtiments sous protection : 10 activités à La Baule.",
     category: "tourisme",
@@ -74980,7 +74980,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-morlaix-2026",
     title: "10 choses à faire à Morlaix",
-    metaTitle: "10 choses à faire à Morlaix en 2026",
+    metaTitle: "10 choses à faire à Morlaix en 2027",
     metaDesc:
       "Un viaduc de 62 m au-dessus des toits, des maisons à pondalez qu'on ne trouve nulle part ailleurs, une rivière enterrée : 10 activités à Morlaix.",
     category: "tourisme",
@@ -75044,7 +75044,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dax-2026",
     title: "10 choses à faire à Dax",
-    metaTitle: "10 choses à faire à Dax en 2026",
+    metaTitle: "10 choses à faire à Dax en 2027",
     metaDesc:
       "Une source qui débite 2,4 millions de litres par jour à 64 °C, 320 m de rempart romain debout, des arènes de 1913 : 10 activités à Dax, dans les Landes.",
     category: "tourisme",
@@ -75108,7 +75108,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vendome-2026",
     title: "10 choses à faire à Vendôme",
-    metaTitle: "10 choses à faire à Vendôme en 2026",
+    metaTitle: "10 choses à faire à Vendôme en 2027",
     metaDesc:
       "Une façade flamboyante signée Jean de Beauce, une relique qui a fait pèlerinage sept siècles, le Loir en bras multiples : 10 activités à Vendôme.",
     category: "tourisme",
@@ -75172,7 +75172,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-ceret-2026",
     title: "10 choses à faire à Céret",
-    metaTitle: "10 choses à faire à Céret en 2026",
+    metaTitle: "10 choses à faire à Céret en 2027",
     metaDesc:
       "Le plus grand arc de pont du monde en 1341, Picasso et Braque à l'été 1911, les cerises de l'Élysée : 10 activités à Céret, dans les Pyrénées-Orientales.",
     category: "tourisme",
@@ -75236,7 +75236,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-selestat-2026",
     title: "10 choses à faire à Sélestat",
-    metaTitle: "10 choses à faire à Sélestat en 2026",
+    metaTitle: "10 choses à faire à Sélestat en 2027",
     metaDesc:
       "Une bibliothèque de 1452 inscrite à l'UNESCO, le registre de 1521 qui parle d'un sapin, 1 855 hectares de Ried : 10 activités à Sélestat.",
     category: "tourisme",
@@ -75300,7 +75300,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-obernai-2026",
     title: "10 choses à faire à Obernai",
-    metaTitle: "10 choses à faire à Obernai en 2026",
+    metaTitle: "10 choses à faire à Obernai en 2027",
     metaDesc:
       "Un puits de 1579, un beffroi de 60 mètres, un marché tenu le jeudi depuis 1301 : 10 activités à Obernai, sur la route des Vins d'Alsace.",
     category: "tourisme",
@@ -75364,7 +75364,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saverne-2026",
     title: "10 choses à faire à Saverne",
-    metaTitle: "10 choses à faire à Saverne en 2026",
+    metaTitle: "10 choses à faire à Saverne en 2027",
     metaDesc:
       "140 mètres de façade en grès rose bâtis par le cardinal du collier de la reine, 8 500 rosiers, l'œil de l'Alsace : 10 activités à Saverne.",
     category: "tourisme",
@@ -75428,7 +75428,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-aubusson-2026",
     title: "10 choses à faire à Aubusson",
-    metaTitle: "10 choses à faire à Aubusson en 2026",
+    metaTitle: "10 choses à faire à Aubusson en 2027",
     metaDesc:
       "Un savoir-faire inscrit à l'UNESCO en 2009, une cité de la tapisserie ouverte en 2016, Tolkien tissé pendant sept ans : 10 activités à Aubusson.",
     category: "tourisme",
@@ -75492,7 +75492,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-douarnenez-2026",
     title: "10 choses à faire à Douarnenez",
-    metaTitle: "10 choses à faire à Douarnenez en 2026",
+    metaTitle: "10 choses à faire à Douarnenez en 2027",
     metaDesc:
       "Des cuves à garum du Ier siècle, un musée où les bateaux flottent, le berceau du kouign-amann : 10 activités à Douarnenez, dans le Finistère.",
     category: "tourisme",
@@ -75556,7 +75556,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-quiberon-2026",
     title: "10 choses à faire à Quiberon",
-    metaTitle: "10 choses à faire à Quiberon en 2026",
+    metaTitle: "10 choses à faire à Quiberon en 2027",
     metaDesc:
       "Une côte où la baignade est interdite par arrêté, l'embarcadère de Belle-Île, la thalasso de 1964 : 10 activités à Quiberon, dans le Morbihan.",
     category: "tourisme",
@@ -75620,7 +75620,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-moissac-2026",
     title: "10 choses à faire à Moissac",
-    metaTitle: "10 choses à faire à Moissac en 2026",
+    metaTitle: "10 choses à faire à Moissac en 2027",
     metaDesc:
       "Un cloître de 1100 sauvé du chemin de fer, un tympan de l'Apocalypse, un quartier Art déco né d'une crue : 10 activités à Moissac.",
     category: "tourisme",
@@ -75684,7 +75684,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sedan-2026",
     title: "10 choses à faire à Sedan",
-    metaTitle: "10 choses à faire à Sedan en 2026",
+    metaTitle: "10 choses à faire à Sedan en 2027",
     metaDesc:
       "Le plus grand château fort d'Europe, une principauté souveraine jusqu'en 1642, et deux défaites françaises au même gué : 10 activités à Sedan.",
     category: "tourisme",
@@ -75748,7 +75748,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-corte-2026",
     title: "10 choses à faire à Corte",
-    metaTitle: "10 choses à faire à Corte en 2026",
+    metaTitle: "10 choses à faire à Corte en 2027",
     metaDesc:
       "La capitale de la Corse indépendante, un musée dans une citadelle, une université rouverte après deux siècles : 10 activités à Corte.",
     category: "tourisme",
@@ -75812,7 +75812,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-aux-andelys-2026",
     title: "10 choses à faire aux Andelys",
-    metaTitle: "10 choses à faire aux Andelys en 2026",
+    metaTitle: "10 choses à faire aux Andelys en 2027",
     metaDesc:
       "Château-Gaillard bâti en deux ans par Richard Cœur de Lion, un siège de six mois en 1204, Poussin né tout près : 10 activités aux Andelys.",
     category: "tourisme",
@@ -75876,7 +75876,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-paray-le-monial-2026",
     title: "10 choses à faire à Paray-le-Monial",
-    metaTitle: "10 choses à faire à Paray-le-Monial en 2026",
+    metaTitle: "10 choses à faire à Paray-le-Monial en 2027",
     metaDesc:
       "Une basilique bâtie en même temps que Cluny et qui lui a survécu, des apparitions de 1673, un trésor national amputé : 10 activités à Paray.",
     category: "tourisme",
@@ -75940,7 +75940,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vitre-2026",
     title: "10 choses à faire à Vitré",
-    metaTitle: "10 choses à faire à Vitré en 2026",
+    metaTitle: "10 choses à faire à Vitré en 2027",
     metaDesc:
       "Un château des Marches de Bretagne, une ville close presque intacte, le manoir de Madame de Sévigné : 10 activités à Vitré.",
     category: "tourisme",
@@ -76004,7 +76004,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-firminy-2026",
     title: "10 choses à faire à Firminy",
-    metaTitle: "10 choses à faire à Firminy en 2026",
+    metaTitle: "10 choses à faire à Firminy en 2027",
     metaDesc:
       "Le plus grand ensemble de Le Corbusier en Europe, une église achevée quarante ans après sa mort, un seul bâtiment UNESCO : 10 activités à Firminy.",
     category: "tourisme",
@@ -76068,7 +76068,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-noirmoutier-2026",
     title: "10 choses à faire à Noirmoutier",
-    metaTitle: "10 choses à faire à Noirmoutier en 2026",
+    metaTitle: "10 choses à faire à Noirmoutier en 2027",
     metaDesc:
       "Une route que la mer recouvre deux fois par jour, un donjon roman, des marais salants sur un tiers de l'île : 10 activités à Noirmoutier.",
     category: "tourisme",
@@ -76131,8 +76131,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-chatellerault-2026",
-    title: "Vacances monoparentales à Châtellerault en 2026",
-    metaTitle: "Vacances monoparentales à Châtellerault 2026",
+    title: "Vacances monoparentales à Châtellerault en 2027",
+    metaTitle: "Vacances monoparentales à Châtellerault 2027",
     metaDesc:
       "Châtellerault sort à 6,5/10 au composite monoparental et porte le T3 le moins cher des quarante-cinq, 640 € à égalité avec Cambrai. TGV Paris en 1 h 36.",
     category: "famille",
@@ -76184,8 +76184,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-annemasse-2026",
-    title: "Vacances monoparentales à Annemasse en 2026",
-    metaTitle: "Vacances monoparentales à Annemasse 2026",
+    title: "Vacances monoparentales à Annemasse en 2027",
+    metaTitle: "Vacances monoparentales à Annemasse 2027",
     metaDesc:
       "Annemasse sort à 6,5/10 au composite monoparental avec les meilleurs transports de la série, 9,0/10, et le coût le plus élevé des quarante-cinq : 3,4/10.",
     category: "famille",
@@ -76236,8 +76236,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-caen-2026",
-    title: "Vacances monoparentales à Caen en 2026",
-    metaTitle: "Vacances monoparentales à Caen 2026",
+    title: "Vacances monoparentales à Caen en 2027",
+    metaTitle: "Vacances monoparentales à Caen 2027",
     metaDesc:
       "Caen sort à 6,4/10 au composite monoparental, avec au moins 23 aires de jeux, trois lignes de tramway et une station météo à 6 km. T3 930 €, m² 2 500 €.",
     category: "famille",
@@ -76289,8 +76289,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saint-quentin-2026",
-    title: "Vacances monoparentales à Saint-Quentin en 2026",
-    metaTitle: "Vacances monoparentales à Saint-Quentin 2026",
+    title: "Vacances monoparentales à Saint-Quentin en 2027",
+    metaTitle: "Vacances monoparentales à Saint-Quentin 2027",
     metaDesc:
       "Saint-Quentin porte le meilleur axe coût des quarante-cinq, 8,3/10, et un centre Art déco entier en accès libre. Mais sécurité 4,7/10 et 2 aires de jeux.",
     category: "famille",
@@ -76342,8 +76342,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-dreux-2026",
-    title: "Vacances monoparentales à Dreux en 2026",
-    metaTitle: "Vacances monoparentales à Dreux 2026",
+    title: "Vacances monoparentales à Dreux en 2027",
+    metaTitle: "Vacances monoparentales à Dreux 2027",
     metaDesc:
       "Dreux sort à 6,4/10 au composite monoparental, à moins d'une heure de Paris-Montparnasse en TER direct, avec 12 aires de jeux et une nécropole royale.",
     category: "famille",
@@ -76394,8 +76394,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-beauvais-2026",
-    title: "Vacances monoparentales à Beauvais en 2026",
-    metaTitle: "Vacances monoparentales à Beauvais 2026",
+    title: "Vacances monoparentales à Beauvais en 2027",
+    metaTitle: "Vacances monoparentales à Beauvais 2027",
     metaDesc:
       "Beauvais sort à 6,2/10 au composite monoparental, à 1 h 10 de Paris-Nord en TER, avec la plus haute voûte gothique du monde et un aéroport dans la ville.",
     category: "famille",
@@ -76447,8 +76447,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-cambrai-2026",
-    title: "Vacances monoparentales à Cambrai en 2026",
-    metaTitle: "Vacances monoparentales à Cambrai 2026",
+    title: "Vacances monoparentales à Cambrai en 2027",
+    metaTitle: "Vacances monoparentales à Cambrai 2027",
     metaDesc:
       "Cambrai porte le T3 le moins cher des quarante-cinq à 640 €, à égalité avec Châtellerault, et 14 aires de jeux. Mais sécurité 4,6/10 et pas de train direct.",
     category: "famille",
@@ -76500,8 +76500,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-obernai-2026",
-    title: "Vacances monoparentales à Obernai en 2026",
-    metaTitle: "Vacances monoparentales à Obernai 2026",
+    title: "Vacances monoparentales à Obernai en 2027",
+    metaTitle: "Vacances monoparentales à Obernai 2027",
     metaDesc:
       "Obernai a le meilleur composite des 53 destinations de la série (8,0/10), la sécurité la plus haute et un TER vers Strasbourg. Mais T3 à 1 040 €.",
     category: "famille",
@@ -76552,8 +76552,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-laon-2026",
-    title: "Vacances monoparentales à Laon en 2026",
-    metaTitle: "Vacances monoparentales à Laon 2026",
+    title: "Vacances monoparentales à Laon en 2027",
+    metaTitle: "Vacances monoparentales à Laon 2027",
     metaDesc:
       "Laon partage le mètre carré le plus bas de la série (1 400 €), coût de la vie 8,3/10, TER direct vers Paris. Mais le funiculaire a fermé en 2016.",
     category: "famille",
@@ -76605,8 +76605,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-dole-2026",
-    title: "Vacances monoparentales à Dole en 2026",
-    metaTitle: "Vacances monoparentales à Dole 2026",
+    title: "Vacances monoparentales à Dole en 2027",
+    metaTitle: "Vacances monoparentales à Dole 2027",
     metaDesc:
       "Dole : T3 à 780 €, sécurité 7,0/10, une gare en centre-ville avec TGV direct vers Paris et TER vers Dijon. Un canal, la maison de Pasteur, des berges plates.",
     category: "famille",
@@ -76658,8 +76658,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-hendaye-2026",
-    title: "Vacances monoparentales à Hendaye en 2026",
-    metaTitle: "Vacances monoparentales à Hendaye 2026",
+    title: "Vacances monoparentales à Hendaye en 2027",
+    metaTitle: "Vacances monoparentales à Hendaye 2027",
     metaDesc:
       "Hendaye : TGV direct depuis Paris, trois kilomètres de plage, sécurité 7,5/10 et Espagne à 40 minutes en train. Mais T3 à 1 130 € et station météo à 185 km.",
     category: "famille",
@@ -76709,8 +76709,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-albertville-2026",
-    title: "Vacances monoparentales à Albertville en 2026",
-    metaTitle: "Vacances monoparentales à Albertville 2026",
+    title: "Vacances monoparentales à Albertville en 2027",
+    metaTitle: "Vacances monoparentales à Albertville 2027",
     metaDesc:
       "Albertville : sécurité 8,0/10 (2e de la série), TGV direct depuis Paris, cité médiévale de Conflans. Station météo à 90 km, l'hiver pèse 5 sur 5.",
     category: "famille",
@@ -76760,8 +76760,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-montargis-2026",
-    title: "Vacances monoparentales à Montargis en 2026",
-    metaTitle: "Vacances monoparentales à Montargis 2026",
+    title: "Vacances monoparentales à Montargis en 2027",
+    metaTitle: "Vacances monoparentales à Montargis 2027",
     metaDesc:
       "Montargis : T3 à 790 €, coût de la vie 8,0/10 (3e de la série), un TER direct vers Paris-Bercy en environ une heure. Canaux, ponts, prasline.",
     category: "famille",
@@ -76811,8 +76811,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-lourdes-2026",
-    title: "Vacances monoparentales à Lourdes en 2026",
-    metaTitle: "Vacances monoparentales à Lourdes 2026",
+    title: "Vacances monoparentales à Lourdes en 2027",
+    metaTitle: "Vacances monoparentales à Lourdes 2027",
     metaDesc:
       "Lourdes partage le mètre carré le plus bas de la série (1 400 €), sécurité 7,5/10 et un TGV direct depuis Paris. Séjour calé sur le calendrier du sanctuaire.",
     category: "famille",
@@ -76862,8 +76862,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-annecy-2026",
-    title: "Vacances monoparentales à Annecy en 2026",
-    metaTitle: "Vacances monoparentales à Annecy 2026",
+    title: "Vacances monoparentales à Annecy en 2027",
+    metaTitle: "Vacances monoparentales à Annecy 2027",
     metaDesc:
       "Annecy est la plus chère des 53 destinations (T3 1 450 €, 5 500 €/m²) mais première sur la qualité de vie (9,0/10) et 40 espaces verts. Gare et lac.",
     category: "famille",
@@ -77267,8 +77267,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-les-sables-d-olonne-2026",
-    title: "Vacances monoparentales aux Sables-d'Olonne en 2026",
-    metaTitle: "Vacances monoparentales aux Sables-d'Olonne 2026",
+    title: "Vacances monoparentales aux Sables-d'Olonne en 2027",
+    metaTitle: "Vacances monoparentales aux Sables-d'Olonne 2027",
     metaDesc: "Les Sables-d'Olonne : 7,1/10 au composite monoparental, T3 1 050 €, sécurité 8,0/10. Accès en train, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77324,8 +77324,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-troyes-2026",
-    title: "Vacances monoparentales à Troyes en 2026",
-    metaTitle: "Vacances monoparentales à Troyes 2026",
+    title: "Vacances monoparentales à Troyes en 2027",
+    metaTitle: "Vacances monoparentales à Troyes 2027",
     metaDesc: "Troyes : 6,3/10 au composite monoparental, T3 860 €, sécurité 5,4/10. Accès en train, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77380,8 +77380,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-chartres-2026",
-    title: "Vacances monoparentales à Chartres en 2026",
-    metaTitle: "Vacances monoparentales à Chartres 2026",
+    title: "Vacances monoparentales à Chartres en 2027",
+    metaTitle: "Vacances monoparentales à Chartres 2027",
     metaDesc: "Chartres : 6,0/10 au composite monoparental, T3 890 €, sécurité 5,5/10. Accès en train, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77436,8 +77436,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saint-nazaire-2026",
-    title: "Vacances monoparentales à Saint-Nazaire en 2026",
-    metaTitle: "Vacances monoparentales à Saint-Nazaire 2026",
+    title: "Vacances monoparentales à Saint-Nazaire en 2027",
+    metaTitle: "Vacances monoparentales à Saint-Nazaire 2027",
     metaDesc: "Saint-Nazaire : 6,0/10 au composite monoparental, T3 850 €, sécurité 5,5/10. Accès en train, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77492,8 +77492,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-lorient-2026",
-    title: "Vacances monoparentales à Lorient en 2026",
-    metaTitle: "Vacances monoparentales à Lorient 2026",
+    title: "Vacances monoparentales à Lorient en 2027",
+    metaTitle: "Vacances monoparentales à Lorient 2027",
     metaDesc: "Lorient : 6,0/10 au composite monoparental, T3 900 €, sécurité 5,5/10. Accès en train, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77548,8 +77548,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-sens-2026",
-    title: "Vacances monoparentales à Sens en 2026",
-    metaTitle: "Vacances monoparentales à Sens 2026",
+    title: "Vacances monoparentales à Sens en 2027",
+    metaTitle: "Vacances monoparentales à Sens 2027",
     metaDesc: "Sens : 6,6/10 au composite monoparental, T3 920 €, sécurité 6,5/10. Accès en train, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77603,8 +77603,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-amboise-2026",
-    title: "Vacances monoparentales à Amboise en 2026",
-    metaTitle: "Vacances monoparentales à Amboise 2026",
+    title: "Vacances monoparentales à Amboise en 2027",
+    metaTitle: "Vacances monoparentales à Amboise 2027",
     metaDesc: "Amboise : 7,5/10 au composite monoparental, T3 880 €, sécurité 7,5/10. Train depuis Tours, coût, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77654,8 +77654,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-fontainebleau-2026",
-    title: "Vacances monoparentales à Fontainebleau en 2026",
-    metaTitle: "Vacances monoparentales à Fontainebleau 2026",
+    title: "Vacances monoparentales à Fontainebleau en 2027",
+    metaTitle: "Vacances monoparentales à Fontainebleau 2027",
     metaDesc: "Fontainebleau : 7,4/10 au composite monoparental, mais T3 1 200 €. Train 40 min de Paris, parcs, coût et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77705,8 +77705,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-le-puy-en-velay-2026",
-    title: "Vacances monoparentales au Puy-en-Velay en 2026",
-    metaTitle: "Vacances monoparentales au Puy-en-Velay 2026",
+    title: "Vacances monoparentales au Puy-en-Velay en 2027",
+    metaTitle: "Vacances monoparentales au Puy-en-Velay 2027",
     metaDesc: "Le Puy-en-Velay : 7,3/10 au composite monoparental, T3 700 €, mais transports dernière de la série. Train, coût, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77756,8 +77756,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-vitre-2026",
-    title: "Vacances monoparentales à Vitré en 2026",
-    metaTitle: "Vacances monoparentales à Vitré 2026",
+    title: "Vacances monoparentales à Vitré en 2027",
+    metaTitle: "Vacances monoparentales à Vitré 2027",
     metaDesc: "Vitré : 7,3/10 au composite monoparental, T3 800 €, sécurité 8,5/10. TGV direct depuis Paris, coût, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77807,8 +77807,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saverne-2026",
-    title: "Vacances monoparentales à Saverne en 2026",
-    metaTitle: "Vacances monoparentales à Saverne 2026",
+    title: "Vacances monoparentales à Saverne en 2027",
+    metaTitle: "Vacances monoparentales à Saverne 2027",
     metaDesc: "Saverne : 7,3/10 au composite monoparental, T3 970 €, sécurité 8,1/10. TER de Strasbourg en 25 à 45 min, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77858,8 +77858,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-lannion-2026",
-    title: "Vacances monoparentales à Lannion en 2026",
-    metaTitle: "Vacances monoparentales à Lannion 2026",
+    title: "Vacances monoparentales à Lannion en 2027",
+    metaTitle: "Vacances monoparentales à Lannion 2027",
     metaDesc: "Lannion : 7,2/10 au composite monoparental, T3 800 €, 14 aires de jeux relevées. Train via Plouaret, coût, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77909,8 +77909,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-autun-2026",
-    title: "Vacances monoparentales à Autun en 2026",
-    metaTitle: "Vacances monoparentales à Autun 2026",
+    title: "Vacances monoparentales à Autun en 2027",
+    metaTitle: "Vacances monoparentales à Autun 2027",
     metaDesc: "Autun : 7,4/10 au composite monoparental, T3 720 €, 3e sur 77. Train avec changement, vestiges romains, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -77960,8 +77960,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-pontarlier-2026",
-    title: "Vacances monoparentales à Pontarlier en 2026",
-    metaTitle: "Vacances monoparentales à Pontarlier 2026",
+    title: "Vacances monoparentales à Pontarlier en 2027",
+    metaTitle: "Vacances monoparentales à Pontarlier 2027",
     metaDesc: "Pontarlier : 7,3/10 au composite monoparental, T3 940 €, sécurité 8,1/10. TER via Frasne, ville de montagne, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78011,8 +78011,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-chinon-2026",
-    title: "Vacances monoparentales à Chinon en 2026",
-    metaTitle: "Vacances monoparentales à Chinon 2026",
+    title: "Vacances monoparentales à Chinon en 2027",
+    metaTitle: "Vacances monoparentales à Chinon 2027",
     metaDesc: "Chinon : 7,2/10 au composite monoparental, T3 820 €, 11e sur 77. TER via Tours, forteresse, parcs et aides sans montant.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78062,8 +78062,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-dinan-2026",
-    title: "Vacances monoparentales à Dinan en 2026",
-    metaTitle: "Vacances monoparentales à Dinan 2026",
+    title: "Vacances monoparentales à Dinan en 2027",
+    metaTitle: "Vacances monoparentales à Dinan 2027",
     metaDesc: "Dinan : 7,2/10 au composite monoparental, sécurité 8,7/10 (1re sur 77), T3 800 €. TER via Rennes, remparts, parcs et aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78113,8 +78113,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-paray-le-monial-2026",
-    title: "Vacances monoparentales à Paray-le-Monial en 2026",
-    metaTitle: "Vacances monoparentales à Paray-le-Monial 2026",
+    title: "Vacances monoparentales à Paray-le-Monial en 2027",
+    metaTitle: "Vacances monoparentales à Paray-le-Monial 2027",
     metaDesc: "Paray-le-Monial : 7,2/10 au composite monoparental, sécurité 8,6/10, T3 720 €, 1 300 €/m². Train via Montchanin, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78164,8 +78164,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-challans-2026",
-    title: "Vacances monoparentales à Challans en 2026",
-    metaTitle: "Vacances monoparentales à Challans 2026",
+    title: "Vacances monoparentales à Challans en 2027",
+    metaTitle: "Vacances monoparentales à Challans 2027",
     metaDesc: "Challans : 7,0/10 au composite monoparental, T3 860 €, sécurité 8,3/10, 5e sur 77. TER direct de Nantes, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78215,8 +78215,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saint-die-des-vosges-2026",
-    title: "Vacances monoparentales à Saint-Dié-des-Vosges en 2026",
-    metaTitle: "Vacances monoparentales à Saint-Dié-des-Vosges 2026",
+    title: "Vacances monoparentales à Saint-Dié-des-Vosges en 2027",
+    metaTitle: "Vacances monoparentales à Saint-Dié-des-Vosges 2027",
     metaDesc: "Saint-Dié-des-Vosges : 7,0/10 au composite monoparental, T3 670 €, coût 8,5/10, 1re sur 83. TER direct de Nancy, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78266,8 +78266,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-gaillac-2026",
-    title: "Vacances monoparentales à Gaillac en 2026",
-    metaTitle: "Vacances monoparentales à Gaillac 2026",
+    title: "Vacances monoparentales à Gaillac en 2027",
+    metaTitle: "Vacances monoparentales à Gaillac 2027",
     metaDesc: "Gaillac : 7,0/10 au composite monoparental, T3 800 €, sécurité 8,1/10, vie 7,8/10. TER direct de Toulouse, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78317,8 +78317,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-provins-2026",
-    title: "Vacances monoparentales à Provins en 2026",
-    metaTitle: "Vacances monoparentales à Provins 2026",
+    title: "Vacances monoparentales à Provins en 2027",
+    metaTitle: "Vacances monoparentales à Provins 2027",
     metaDesc: "Provins : 6,9/10 au composite monoparental, T3 930 €, sécurité 7,5/10, 25e sur 83. Transilien P direct de Paris-Est, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78368,8 +78368,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-issoire-2026",
-    title: "Vacances monoparentales à Issoire en 2026",
-    metaTitle: "Vacances monoparentales à Issoire 2026",
+    title: "Vacances monoparentales à Issoire en 2027",
+    metaTitle: "Vacances monoparentales à Issoire 2027",
     metaDesc: "Issoire : 6,9/10 au composite monoparental, T3 720 €, coût 7,6/10, sécurité 7,5/10. TER direct de Clermont-Ferrand, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78419,8 +78419,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-saint-lo-2026",
-    title: "Vacances monoparentales à Saint-Lô en 2026",
-    metaTitle: "Vacances monoparentales à Saint-Lô 2026",
+    title: "Vacances monoparentales à Saint-Lô en 2027",
+    metaTitle: "Vacances monoparentales à Saint-Lô 2027",
     metaDesc: "Saint-Lô : 6,9/10 au composite monoparental, T3 760 €, sécurité 8,2/10, 6e sur 83. TER direct de Caen, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78470,8 +78470,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "vacances-monoparentales-moissac-2026",
-    title: "Vacances monoparentales à Moissac en 2026",
-    metaTitle: "Vacances monoparentales à Moissac 2026",
+    title: "Vacances monoparentales à Moissac en 2027",
+    metaTitle: "Vacances monoparentales à Moissac 2027",
     metaDesc: "Moissac : 6,9/10 au composite monoparental, T3 790 €, coût 8,0/10, 25e sur 83. TER direct de Toulouse, cloître roman, parcs, aides.",
     category: "famille",
     emoji: "🧑‍🍼",
@@ -78522,7 +78522,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-gerardmer-2026",
     title: "10 choses à faire à Gérardmer",
-    metaTitle: "10 choses à faire à Gérardmer en 2026",
+    metaTitle: "10 choses à faire à Gérardmer en 2027",
     metaDesc:
       "Un lac glaciaire, une ville reconstruite après 1944, des cascades dans les Vosges et un festival du film fantastique : 10 activités à Gérardmer.",
     category: "tourisme",
@@ -78586,7 +78586,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-lannion-2026",
     title: "10 choses à faire à Lannion",
-    metaTitle: "10 choses à faire à Lannion en 2026",
+    metaTitle: "10 choses à faire à Lannion en 2027",
     metaDesc:
       "Maisons à pans de bois, église sur sa colline, vallée du Léguer et radôme du premier direct transatlantique : 10 activités à Lannion.",
     category: "tourisme",
@@ -78650,7 +78650,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-flour-2026",
     title: "10 choses à faire à Saint-Flour",
-    metaTitle: "10 choses à faire à Saint-Flour en 2026",
+    metaTitle: "10 choses à faire à Saint-Flour en 2027",
     metaDesc:
       "Une ville haute posée sur un éperon volcanique, une cathédrale sombre, le viaduc de Garabit et la Margeride : 10 activités à Saint-Flour.",
     category: "tourisme",
@@ -78714,7 +78714,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-semur-en-auxois-2026",
     title: "10 choses à faire à Semur-en-Auxois",
-    metaTitle: "10 choses à faire à Semur-en-Auxois en 2026",
+    metaTitle: "10 choses à faire à Semur-en-Auxois en 2027",
     metaDesc:
       "Une cité médiévale dans une boucle de l'Armançon, un pont du XVIIIe, une collégiale gothique et Alésia à portée : 10 activités à Semur-en-Auxois.",
     category: "tourisme",
@@ -78778,7 +78778,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-maubeuge-2026",
     title: "10 choses à faire à Maubeuge",
-    metaTitle: "10 choses à faire à Maubeuge en 2026",
+    metaTitle: "10 choses à faire à Maubeuge en 2027",
     metaDesc:
       "Les fortifications de Vauban, le siège de 1914, un zoo de renom régional et la Sambre : 10 activités à Maubeuge, dans la Sambre-Avesnois.",
     category: "tourisme",
@@ -78842,7 +78842,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sartene-2026",
     title: "10 choses à faire à Sartène",
-    metaTitle: "10 choses à faire à Sartène en 2026",
+    metaTitle: "10 choses à faire à Sartène en 2027",
     metaDesc:
       "Une ville de granit, la procession du Catenacciu, le musée de préhistoire corse et les alignements de Cauria : 10 activités à Sartène.",
     category: "tourisme",
@@ -78906,7 +78906,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sceaux-2026",
     title: "10 choses à faire à Sceaux",
-    metaTitle: "10 choses à faire à Sceaux en 2026",
+    metaTitle: "10 choses à faire à Sceaux en 2027",
     metaDesc:
       "Le parc dessiné par Le Nôtre, le pavillon de l'Aurore de Le Brun, l'Orangerie et le Grand Canal : 10 activités à Sceaux, aux portes de Paris.",
     category: "tourisme",
@@ -78970,7 +78970,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montbard-2026",
     title: "10 choses à faire à Montbard",
-    metaTitle: "10 choses à faire à Montbard en 2026",
+    metaTitle: "10 choses à faire à Montbard en 2027",
     metaDesc:
       "Le parc de Buffon, la tour de l'Aubespin et le canal de Bourgogne : 10 choses à faire à Montbard, ville natale du naturaliste.",
     category: "tourisme",
@@ -79033,7 +79033,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sainte-maxime-2026",
     title: "10 choses à faire à Sainte-Maxime",
-    metaTitle: "10 choses à faire à Sainte-Maxime en 2026",
+    metaTitle: "10 choses à faire à Sainte-Maxime en 2027",
     metaDesc:
       "La plage de la Nartelle, la tour Carrée et la traversée vers Saint-Tropez : 10 activités à Sainte-Maxime, face au golfe.",
     category: "tourisme",
@@ -79096,7 +79096,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-mandelieu-la-napoule-2026",
     title: "10 choses à faire à Mandelieu-la-Napoule",
-    metaTitle: "10 choses à faire à Mandelieu-la-Napoule en 2026",
+    metaTitle: "10 choses à faire à Mandelieu-la-Napoule en 2027",
     metaDesc:
       "Le château de la Napoule, le mimosa et l'Estérel : 10 choses à faire à Mandelieu-la-Napoule, à côté de Cannes.",
     category: "tourisme",
@@ -79159,7 +79159,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-berck-2026",
     title: "10 choses à faire à Berck",
-    metaTitle: "10 choses à faire à Berck en 2026",
+    metaTitle: "10 choses à faire à Berck en 2027",
     metaDesc:
       "La grande plage, la baie d'Authie et l'histoire de la ville-hôpital : 10 choses à faire à Berck, sur la Côte d'Opale.",
     category: "tourisme",
@@ -79221,7 +79221,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-florac-trois-rivieres-2026",
     title: "10 choses à faire à Florac-Trois-Rivières",
-    metaTitle: "10 choses à faire à Florac-Trois-Rivières en 2026",
+    metaTitle: "10 choses à faire à Florac-Trois-Rivières en 2027",
     metaDesc:
       "Le parc national des Cévennes, la source du Pêcher et les gorges du Tarn : 10 choses à faire à Florac-Trois-Rivières.",
     category: "tourisme",
@@ -79284,7 +79284,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sallanches-2026",
     title: "10 choses à faire à Sallanches",
-    metaTitle: "10 choses à faire à Sallanches en 2026",
+    metaTitle: "10 choses à faire à Sallanches en 2027",
     metaDesc:
       "Une ville reconstruite en style sarde face au Mont-Blanc : 10 choses à faire à Sallanches, porte de la vallée de l'Arve.",
     category: "tourisme",
@@ -79345,7 +79345,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-chateaudun-2026",
     title: "10 choses à faire à Châteaudun",
-    metaTitle: "10 choses à faire à Châteaudun en 2026",
+    metaTitle: "10 choses à faire à Châteaudun en 2027",
     metaDesc:
       "Le donjon du XIIᵉ siècle, la Sainte-Chapelle et l'aile de Dunois : 10 activités à Châteaudun, sur son éperon au-dessus du Loir.",
     category: "tourisme",
@@ -79408,7 +79408,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-peronne-2026",
     title: "10 choses à faire à Péronne",
-    metaTitle: "10 choses à faire à Péronne en 2026",
+    metaTitle: "10 choses à faire à Péronne en 2027",
     metaDesc:
       "L'Historial de la Grande Guerre dans le château, le jardin de la paix et l'histoire de Louis XI : 10 activités à Péronne, dans la Somme.",
     category: "tourisme",
@@ -79470,7 +79470,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sarreguemines-2026",
     title: "10 choses à faire à Sarreguemines",
-    metaTitle: "10 choses à faire à Sarreguemines en 2026",
+    metaTitle: "10 choses à faire à Sarreguemines en 2027",
     metaDesc:
       "Le musée de la faïence, le jardin d'hiver carrelé de faïence et la frontière allemande : 10 activités à Sarreguemines, en Moselle.",
     category: "tourisme",
@@ -79532,7 +79532,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-montargis-2026",
     title: "10 choses à faire à Montargis",
-    metaTitle: "10 choses à faire à Montargis en 2026",
+    metaTitle: "10 choses à faire à Montargis en 2027",
     metaDesc:
       "Les ponts et les canaux de la « Venise du Gâtinais », le musée Girodet et la prasline : 10 activités à Montargis, dans le Loiret.",
     category: "tourisme",
@@ -79594,7 +79594,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-guebwiller-2026",
     title: "10 choses à faire à Guebwiller",
-    metaTitle: "10 choses à faire à Guebwiller en 2026",
+    metaTitle: "10 choses à faire à Guebwiller en 2027",
     metaDesc:
       "Trois églises, le musée Théodore Deck, le Florival et le Grand Ballon : 10 activités à Guebwiller, en Alsace.",
     category: "tourisme",
@@ -79657,7 +79657,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-claude-2026",
     title: "10 choses à faire à Saint-Claude",
-    metaTitle: "10 choses à faire à Saint-Claude en 2026",
+    metaTitle: "10 choses à faire à Saint-Claude en 2027",
     metaDesc:
       "Le musée de la pipe et du diamant, la cathédrale et ses stalles du XVᵉ siècle : 10 activités à Saint-Claude, dans le Haut-Jura.",
     category: "tourisme",
@@ -79772,7 +79772,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-longwy-2026",
     title: "10 choses à faire à Longwy",
-    metaTitle: "10 choses à faire à Longwy en 2026",
+    metaTitle: "10 choses à faire à Longwy en 2027",
     metaDesc:
       "Ville haute de Vauban inscrite à l'UNESCO, émaux et faïences : 10 choses à faire à Longwy, à la frontière belge et luxembourgeoise.",
     category: "tourisme",
@@ -79834,7 +79834,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-thiers-2026",
     title: "10 choses à faire à Thiers",
-    metaTitle: "10 choses à faire à Thiers en 2026",
+    metaTitle: "10 choses à faire à Thiers en 2027",
     metaDesc:
       "Capitale de la coutellerie : musée, vallée des Rouets, Creux de l'Enfer et vieille ville. 10 choses à faire à Thiers, dans le Puy-de-Dôme.",
     category: "tourisme",
@@ -79896,7 +79896,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-gien-2026",
     title: "10 choses à faire à Gien",
-    metaTitle: "10 choses à faire à Gien en 2026",
+    metaTitle: "10 choses à faire à Gien en 2027",
     metaDesc:
       "Château et musée de la chasse, faïencerie fondée en 1821, rives de la Loire : 10 choses à faire à Gien, dans le Loiret.",
     category: "tourisme",
@@ -79958,7 +79958,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-vallauris-2026",
     title: "10 choses à faire à Vallauris",
-    metaTitle: "10 choses à faire à Vallauris en 2026",
+    metaTitle: "10 choses à faire à Vallauris en 2027",
     metaDesc:
       "La Guerre et la Paix de Picasso, poterie, céramique et Golfe-Juan : 10 choses à faire à Vallauris, entre Cannes et Antibes.",
     category: "tourisme",
@@ -80021,7 +80021,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-la-fleche-2026",
     title: "10 choses à faire à La Flèche",
-    metaTitle: "10 choses à faire à La Flèche en 2026",
+    metaTitle: "10 choses à faire à La Flèche en 2027",
     metaDesc:
       "Prytanée militaire, château des Carmes, zoo et bords du Loir : 10 choses à faire à La Flèche, dans la Sarthe.",
     category: "tourisme",
@@ -80146,7 +80146,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-saint-cloud-2026",
     title: "10 choses à faire à Saint-Cloud",
-    metaTitle: "10 choses à faire à Saint-Cloud en 2026",
+    metaTitle: "10 choses à faire à Saint-Cloud en 2027",
     metaDesc:
       "Parc du domaine national, Grande Cascade, ruines du château incendié en 1870 : 10 choses à faire à Saint-Cloud, dans les Hauts-de-Seine.",
     category: "tourisme",
@@ -80205,7 +80205,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-sevres-2026",
     title: "10 choses à faire à Sèvres",
-    metaTitle: "10 choses à faire à Sèvres en 2026",
+    metaTitle: "10 choses à faire à Sèvres en 2027",
     metaDesc:
       "Cité de la céramique, manufacture de porcelaine, pavillon de Breteuil : 10 choses à faire à Sèvres, dans les Hauts-de-Seine.",
     category: "tourisme",
@@ -80264,7 +80264,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-maisons-laffitte-2026",
     title: "10 choses à faire à Maisons-Laffitte",
-    metaTitle: "10 choses à faire à Maisons-Laffitte en 2026",
+    metaTitle: "10 choses à faire à Maisons-Laffitte en 2027",
     metaDesc:
       "Château attribué à Mansart, hippodrome, villas du parc lotis par Laffitte : 10 choses à faire à Maisons-Laffitte, dans les Yvelines.",
     category: "tourisme",
@@ -80323,7 +80323,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-abbeville-2026",
     title: "10 choses à faire à Abbeville",
-    metaTitle: "10 choses à faire à Abbeville en 2026",
+    metaTitle: "10 choses à faire à Abbeville en 2027",
     metaDesc:
       "Collégiale Saint-Vulfran, ville reconstruite après 1940, baie de Somme à proximité : 10 choses à faire à Abbeville, dans la Somme.",
     category: "tourisme",
@@ -80382,7 +80382,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-brioude-2026",
     title: "10 choses à faire à Brioude",
-    metaTitle: "10 choses à faire à Brioude en 2026",
+    metaTitle: "10 choses à faire à Brioude en 2027",
     metaDesc:
       "Basilique Saint-Julien, plus grande église romane d'Auvergne, vitraux contemporains, gorges de l'Allier : 10 choses à faire à Brioude.",
     category: "tourisme",
@@ -80441,7 +80441,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-issoire-2026",
     title: "10 choses à faire à Issoire",
-    metaTitle: "10 choses à faire à Issoire en 2026",
+    metaTitle: "10 choses à faire à Issoire en 2027",
     metaDesc:
       "Abbatiale Saint-Austremoine, tour de l'Horloge, pays d'Issoire et vallée de l'Allier : 10 choses à faire à Issoire, dans le Puy-de-Dôme.",
     category: "tourisme",
@@ -80500,7 +80500,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-meudon-2026",
     title: "10 choses à faire à Meudon",
-    metaTitle: "10 choses à faire à Meudon en 2026",
+    metaTitle: "10 choses à faire à Meudon en 2027",
     metaDesc:
       "Villa des Brillants et tombe de Rodin, observatoire, musée d'art et d'histoire, terrasse et forêt : 10 choses à faire à Meudon, dans les Hauts-de-Seine.",
     category: "tourisme",
@@ -80618,7 +80618,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-etampes-2026",
     title: "10 choses à faire à Étampes",
-    metaTitle: "10 choses à faire à Étampes en 2026",
+    metaTitle: "10 choses à faire à Étampes en 2027",
     metaDesc:
       "Tour de Guinette, collégiale Notre-Dame-du-Fort, hôtel d'Anne de Pisseleu et clocher penché de Saint-Martin : 10 choses à faire à Étampes, dans l'Essonne.",
     category: "tourisme",
@@ -80677,7 +80677,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-dreux-2026",
     title: "10 choses à faire à Dreux",
-    metaTitle: "10 choses à faire à Dreux en 2026",
+    metaTitle: "10 choses à faire à Dreux en 2027",
     metaDesc:
       "Chapelle royale Saint-Louis, beffroi, église Saint-Pierre et musée d'art et d'histoire : 10 choses à faire à Dreux, en Eure-et-Loir.",
     category: "tourisme",
@@ -80736,7 +80736,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "10-choses-a-faire-a-oyonnax-2026",
     title: "10 choses à faire à Oyonnax",
-    metaTitle: "10 choses à faire à Oyonnax en 2026",
+    metaTitle: "10 choses à faire à Oyonnax en 2027",
     metaDesc:
       "Musée du peigne et de la plasturgie, Plastics Vallée, défilé du 11 novembre 1943 et lacs du Haut-Bugey : 10 choses à faire à Oyonnax, dans l'Ain.",
     category: "tourisme",
@@ -83395,7 +83395,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "acheter-appartement-moins-100000-euros-villes-2026",
     title: "Acheter un appartement à moins de 100 000 € pour y habiter : 108 villes, et ce que le prix cache",
-    metaTitle: "Appartement à moins de 100 000 € : 108 villes en 2026",
+    metaTitle: "Appartement à moins de 100 000 € : 108 villes en 2027",
     metaDesc: "108 villes de 20 000 habitants et plus où 45 m² au prix médian DVF coûtent moins de 100 000 € : lesquelles, où, et ce que ce prix cache.",
     category: "budget",
     emoji: "🔑",
@@ -83534,7 +83534,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "trois-fois-le-loyer-revenu-requis-t2-villes-2026",
     title: "La règle des trois fois le loyer : quel revenu faut-il pour louer un deux-pièces, ville par ville ?",
-    metaTitle: "Trois fois le loyer : revenu requis pour un T2 en 2026",
+    metaTitle: "Trois fois le loyer : revenu requis pour un T2 en 2027",
     metaDesc: "Dans 409 villes de 20 000 habitants et plus, trois fois le loyer d'un T2 dépasse le niveau de vie médian local dans 348 d'entre elles. Le détail ville par ville.",
     category: "budget",
     emoji: "🧾",
@@ -84075,7 +84075,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-taux-de-pauvrete-niveau-de-vie-409-villes-2026",
-    title: "Taux de pauvreté et niveau de vie : le classement de 409 villes (2026)",
+    title: "Taux de pauvreté et niveau de vie : le classement de 409 villes (2027)",
     metaTitle: "Taux de pauvreté par ville : classement de 409 villes",
     metaDesc: "Maisons-Laffitte 6 %, Roubaix 46 % : taux de pauvreté et niveau de vie médian (Insee, Filosofi 2021) dans 409 villes, par région et par taille.",
     category: "lifestyle",
@@ -84124,8 +84124,8 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-salaires-les-plus-eleves-et-les-plus-bas-358-villes-2026",
-    title: "Salaire net moyen par ville : le classement de 358 villes d'emploi (2026)",
-    metaTitle: "Salaire net par ville : classement de 358 villes (2026)",
+    title: "Salaire net moyen par ville : le classement de 358 villes d'emploi (2027)",
+    metaTitle: "Salaire net par ville : classement de 358 villes (2027)",
     metaDesc: "Saint-Germain-en-Laye 5 422 €, Le Tampon 1 931 € : salaire net moyen par ville d'emploi (Insee, 2024), par région et taille, croisé avec le loyer d'un T3.",
     category: "budget",
     emoji: "💼",
@@ -85332,7 +85332,7 @@ export const GUIDES: Guide[] = [
   },
   {
     slug: "villes-sans-urgences-distance-hopital-591-villes-2026",
-    title: "Villes sans service d'urgences : 242 villes, 42 à plus de 10 km (2026)",
+    title: "Villes sans service d'urgences : 242 villes, 42 à plus de 10 km (2027)",
     metaTitle: "Villes sans urgences : 242 sur 591, 42 à 10 km ou plus",
     metaDesc: "242 des 591 villes n'ont aucun service d'urgences ; 42 sont à 10 km ou plus du plus proche, de La Souterraine (31,5 km) à Hendaye (10,9 km). Liste complète.",
     category: "lifestyle",

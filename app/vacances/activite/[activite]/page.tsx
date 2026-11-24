@@ -44,7 +44,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!ACTIVITIES.includes(activite as ActivitySlug)) return {};
   const def = ACTIVITY_DEFS[activite as ActivitySlug];
   return {
-    title: fitTitle(`Vacances ${def.label.toLowerCase()} en France 2026 · top destinations`),
+    title: fitTitle(`Vacances ${def.label.toLowerCase()} en France 2027 · top destinations`),
     description: def.metaDesc,
     // Les deux routes dérivent leur `generateStaticParams` du même `ACTIVITIES`
     // (lib/vacation-activities) : le slug est identique des deux côtés, seule

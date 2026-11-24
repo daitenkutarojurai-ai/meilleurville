@@ -552,7 +552,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "familles-avec-enfants",
     emoji: "👨‍👩‍👧",
     label: "Familles avec enfants",
-    metaTitle: "Meilleures villes familles avec enfants 2026 — Top 20 France",
+    metaTitle: "Meilleures villes familles avec enfants 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises adaptées aux familles avec enfants : écoles, sécurité, espaces verts, coût accessible. Score composite calibré sur Insee + DEPP + SSMSI.",
     intro:
       "Familles avec enfants : la combinaison qui compte vraiment, c'est écoles + sécurité + espaces verts + coût accessible. Pas le top 5 du palmarès culture ou nightlife — les familles ne s'y intéressent pas. Ce classement reflète l'arbitrage réel.",
@@ -564,7 +564,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "jeunes-actifs",
     emoji: "🚀",
     label: "Jeunes actifs",
-    metaTitle: "Meilleures villes jeunes actifs 2026 — Top 20 France",
+    metaTitle: "Meilleures villes jeunes actifs 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises pour jeunes actifs 25-35 ans : carrière + culture + télétravail + coût accessible. Calibré sur démographie et SIRENE.",
     intro:
       "Jeunes actifs : il faut un cocktail spécifique — un marché de l'emploi qui bouge, une scène culturelle qui ne s'arrête pas à 22 h, des loyers où on peut commencer sans hériter, et un réseau pour se faire des amis. Ces 20 villes cochent tout ça.",
@@ -576,7 +576,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "jeunes-diplomes",
     emoji: "🎓",
     label: "Jeunes diplômés (20-26 ans)",
-    metaTitle: "Meilleures villes jeunes diplômés 2026 — Top 20 France",
+    metaTitle: "Meilleures villes jeunes diplômés 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes pour un premier poste après le diplôme : loyer compatible avec salaire d'entrée, densité jeune actif pour le réseau, transports, culture. 2026.",
     intro:
@@ -597,7 +597,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "retraites",
     emoji: "🌅",
     label: "Retraités",
-    metaTitle: "Meilleures villes retraités 2026 — Top 20 France",
+    metaTitle: "Meilleures villes retraités 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises pour retraités : santé, sécurité, climat doux, calme, coût accessible. Sélection 2026 calibrée.",
     intro:
       "Retraités : santé d'abord, sécurité ensuite, climat agréable, qualité de vie quotidienne. Le coût compte mais moins que pour des actifs (la pension est fixe — c'est la valeur de l'immobilier déjà acquis qui importe). Ces 20 villes maximisent ce mélange.",
@@ -609,7 +609,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "freelances",
     emoji: "💼",
     label: "Freelances et indépendants",
-    metaTitle: "Meilleures villes freelances 2026 — Top 20 France",
+    metaTitle: "Meilleures villes freelances 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises pour freelances et indépendants : fibre + coworking + culture + coût optimisé. Calibré 2026.",
     intro:
       "Freelances : fibre, coworking, communauté locale d'indépendants, qualité de vie pour ne pas crever sous le travail. Ces 20 villes ont le bon mélange — pas juste les grandes métros, plusieurs villes moyennes en montée s'y glissent.",
@@ -621,7 +621,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "teletravailleurs",
     emoji: "💻",
     label: "Télétravailleurs salariés",
-    metaTitle: "Meilleures villes télétravail salarié 2026 — Top 20 France",
+    metaTitle: "Meilleures villes télétravail salarié 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises pour salarié·e·s en télétravail : fibre, qualité de vie, accès week-end, coût raisonnable. Calibré 2026.",
     intro:
       "Salariés en télétravail : différents des freelances. Vous gardez votre employeur (souvent parisien), donc l'éloignement coûte zéro côté carrière mais beaucoup côté loyer. Ces 20 villes optimisent le rapport qualité de vie / connectivité / accessibilité Paris.",
@@ -633,7 +633,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "etudiants",
     emoji: "🎓",
     label: "Étudiants",
-    metaTitle: "Meilleures villes étudiantes 2026 — Top 20 France",
+    metaTitle: "Meilleures villes étudiantes 2027 — Top 20 France",
     metaDescription: "Top 20 villes étudiantes en France : universités, culture, transports, coût logement étudiant abordable. Calibré 2026.",
     intro:
       "Étudiants : universités, vie nocturne, transports, et surtout des loyers compatibles avec une bourse Crous. Ces 20 villes ont le mélange — Toulouse, Montpellier, Rennes en tête sans surprise, mais aussi des petites villes universitaires sous-cotées.",
@@ -645,7 +645,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "sans-voiture",
     emoji: "🚲",
     label: "Vivre sans voiture",
-    metaTitle: "Meilleures villes pour vivre sans voiture 2026 — Top 20",
+    metaTitle: "Meilleures villes pour vivre sans voiture 2027 — Top 20",
     metaDescription: "Top 20 villes françaises où vivre sans voiture : tram, métro, bus, vélo. Score sans-voiture propriétaire + transport.",
     intro:
       "Si vous voulez vivre sans permis ou simplement laisser la voiture au garage, ces 20 villes ont le réseau pour. Le score combine la densité du tram/métro/bus avec la walkability et le réseau cyclable.",
@@ -657,7 +657,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "premium",
     emoji: "✨",
     label: "Vie premium",
-    metaTitle: "Villes françaises premium 2026 — Top 20",
+    metaTitle: "Villes françaises premium 2027 — Top 20",
     metaDescription: "Top 20 villes françaises premium : qualité de vie haut de gamme, sécurité, cadre exceptionnel, écoles + culture. Pour budgets > 4 000 €/mois.",
     intro:
       "Vie premium : pas une question de prestige, mais de combinaison rare. Sécurité élevée, cadre exceptionnel, écoles renommées, scène culturelle riche, et un coût qui reflète tout ça. Ces 20 villes sont pour les budgets ≥ 4 000 €/mois.",
@@ -669,7 +669,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "solo-femme",
     emoji: "👤",
     label: "Femme seule",
-    metaTitle: "Meilleures villes femme seule 2026 — Top 20 France",
+    metaTitle: "Meilleures villes femme seule 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises adaptées aux femmes seules : sécurité nocturne, densité transport tardif, qualité de vie urbaine.",
     intro:
       "Femme seule : sécurité globale ne suffit pas — il faut sécurité nocturne ET transport tardif. Ces 20 villes maximisent le retour soir serein, sans renoncer à la qualité de vie urbaine et culturelle.",
@@ -681,7 +681,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "couple-sans-enfant",
     emoji: "👫",
     label: "Couple sans enfant",
-    metaTitle: "Meilleures villes couple sans enfant 2026 — Top 20",
+    metaTitle: "Meilleures villes couple sans enfant 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises pour couples sans enfant : culture, restaurants, sorties, week-ends nature, transport. Score composite calibré 2026.",
     intro:
@@ -694,7 +694,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "celibataires",
     emoji: "💫",
     label: "Célibataires (25-45)",
-    metaTitle: "Meilleures villes célibataires 2026 — Top 20 France",
+    metaTitle: "Meilleures villes célibataires 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour célibataires 25-45 ans : densité célibataires, sorties, culture, coût sur un revenu, transports tardifs. Calibré 2026.",
     intro:
@@ -715,7 +715,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "expat-retour",
     emoji: "✈️",
     label: "Retour d'expatriation",
-    metaTitle: "Meilleures villes retour expatriation 2026 — Top 20 France",
+    metaTitle: "Meilleures villes retour expatriation 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises pour Français rentrant d'expatriation : qualité de vie + international + frontalières. Suisse, Lux, UK, Canada inclus.",
     intro:
       "Retour d'expat : transition entre un mode de vie international (souvent confort élevé) et une rentrée française. Ces 20 villes combinent qualité de vie, accessibilité internationale (aéroports, frontalières) et un cadre qui ne dépaysera pas trop.",
@@ -727,7 +727,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "primo-accedants",
     emoji: "🔑",
     label: "Primo-accédants",
-    metaTitle: "Meilleures villes primo-accédants 2026 — Top 20 France",
+    metaTitle: "Meilleures villes primo-accédants 2027 — Top 20 France",
     metaDescription: "Top 20 villes françaises pour acheter son premier logement : prix au m² accessibles, qualité de vie correcte, sécurité, transport. Sélection 2026.",
     intro:
       "Primo-accédants : le premier achat se joue d'abord sur le prix au m². Pas la peine de viser une métropole où le ticket d'entrée pour un T3 correct dépasse 350 000 € — la mensualité étouffe tout le reste. Ces 20 villes mettent en avant un prix d'achat raisonnable sans sacrifier la qualité de vie quotidienne ni la valeur de revente à 10 ans.",
@@ -739,7 +739,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "familles-monoparentales",
     emoji: "👩‍👧",
     label: "Familles monoparentales",
-    metaTitle: "Meilleures villes familles monoparentales 2026 — Top 20",
+    metaTitle: "Meilleures villes familles monoparentales 2027 — Top 20",
     metaDescription: "Top 20 villes pour parents solos : coût accessible avec un seul revenu, sécurité, écoles, transport, services famille. Sélection 2026 calibrée.",
     intro:
       "Familles monoparentales : un seul revenu, des contraintes d'organisation doublées et zéro marge sur le budget. Le triangle qui compte vraiment, c'est coût accessible, sécurité (jour et soir) et école proche d'un transport efficace. Le réseau de garde et les services famille font la différence entre survivre et tenir. Ces 20 villes maximisent ce mélange — souvent des préfectures moyennes plus que des grandes métropoles, parce qu'elles concentrent les services à un coût soutenable.",
@@ -759,7 +759,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "familles-nombreuses",
     emoji: "👨‍👩‍👧‍👦",
     label: "Familles nombreuses",
-    metaTitle: "Meilleures villes familles nombreuses 2026 — Top 20",
+    metaTitle: "Meilleures villes familles nombreuses 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises pour familles nombreuses : logement spacieux abordable, écoles, sécurité, espaces verts. Score composite calibré 2026.",
     intro:
@@ -779,7 +779,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "amateurs-de-plein-air",
     emoji: "🥾",
     label: "Amateurs de plein air",
-    metaTitle: "Meilleures villes nature et plein air 2026 — Top 20",
+    metaTitle: "Meilleures villes nature et plein air 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises pour les amateurs de plein air : accès nature, air respirable, climat tempéré pour rando, vélo, mer. Score composite calibré 2026.",
     intro:
@@ -792,7 +792,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "neo-ruraux",
     emoji: "🌾",
     label: "Néo-ruraux",
-    metaTitle: "Meilleures villes pour néo-ruraux 2026 — Top 20 France",
+    metaTitle: "Meilleures villes pour néo-ruraux 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes pour quitter la métropole et s'installer au vert : coût abordable, nature, calme, fibre télétravail. Score composite calibré 2026.",
     intro:
@@ -805,7 +805,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "anti-canicule",
     emoji: "🧊",
     label: "Anti-canicule",
-    metaTitle: "Meilleures villes anti-canicule 2026 — Top 20 France",
+    metaTitle: "Meilleures villes anti-canicule 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises où l'été reste vivable : étés tempérés, air respirable, nature accessible. Pour les personnes sensibles à la chaleur.",
     intro:
@@ -818,7 +818,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "sensibles-au-bruit",
     emoji: "🤫",
     label: "Sensibles au bruit",
-    metaTitle: "Meilleures villes pour sensibles au bruit 2026 — Top 20",
+    metaTitle: "Meilleures villes pour sensibles au bruit 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises où le calme tient toute la journée : faible exposition sonore, nature accessible, air respirable. Pour hypersensibles et télétravail.",
     intro:
@@ -831,7 +831,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "asthmatiques-allergiques",
     emoji: "🌬️",
     label: "Asthmatiques et allergiques",
-    metaTitle: "Meilleures villes pour asthmatiques et allergiques 2026",
+    metaTitle: "Meilleures villes pour asthmatiques et allergiques 2027",
     metaDescription:
       "Top 20 villes françaises où l'air respire et les crises s'espacent : air propre, étés tempérés, nature non saturée de pollens. Asthme, rhinite, allergies.",
     intro:
@@ -866,7 +866,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "investisseurs-locatifs",
     emoji: "🏘️",
     label: "Investisseurs locatifs",
-    metaTitle: "Meilleures villes investissement locatif 2026 — Top 20",
+    metaTitle: "Meilleures villes investissement locatif 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises pour investir en locatif : rendement brut estimé, tension de marché, demande jeunes actifs, sécurité de l'actif. Calibré 2026.",
     intro:
@@ -892,7 +892,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "familles-avec-ados",
     emoji: "🎒",
     label: "Familles avec ados (12-17 ans)",
-    metaTitle: "Meilleures villes familles avec ados 2026 — Top 20",
+    metaTitle: "Meilleures villes familles avec ados 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises pour familles avec adolescents 12-17 ans : lycée, transport autonomie ado, sécurité nocturne, scène culturelle, espaces pour s'aérer. Calibré 2026.",
     intro:
@@ -915,7 +915,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "sportifs",
     emoji: "🏋️",
     label: "Sportifs réguliers",
-    metaTitle: "Meilleures villes pour sportifs 2026 — Top 20 France",
+    metaTitle: "Meilleures villes pour sportifs 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour pratiquants réguliers : équipements (piscines, gymnases, salles), clubs, cadre outdoor, climat propice. Calibré 2026.",
     intro:
@@ -934,7 +934,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "proches-aidants",
     emoji: "🤝",
     label: "Proches aidants",
-    metaTitle: "Meilleures villes proches aidants 2026 — Top 20 France",
+    metaTitle: "Meilleures villes proches aidants 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises adaptées aux proches aidants : sécurité, calme, tissu médico-social, coût maîtrisé, transports vers l'hôpital. Calibré 2026.",
     intro:
@@ -956,7 +956,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "futurs-retraites",
     emoji: "🧭",
     label: "Futurs retraités (55-65 ans)",
-    metaTitle: "Meilleures villes futurs retraités 2026 — Top 20 France",
+    metaTitle: "Meilleures villes futurs retraités 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour préparer sa retraite (55-65 ans) : coût maîtrisé, santé future, climat tempéré, transports, qualité de vie. Calibré 2026.",
     intro:
@@ -978,7 +978,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "cyclistes-urbains",
     emoji: "🚴",
     label: "Cyclistes urbains",
-    metaTitle: "Meilleures villes pour cyclistes urbains 2026 — Top 20",
+    metaTitle: "Meilleures villes pour cyclistes urbains 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises où vivre à vélo au quotidien : réseau cyclable continu, relief praticable, sécurité, climat. Calibré sur le baromètre FUB et Géovélo 2026.",
     intro:
@@ -999,7 +999,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "mobilite-reduite",
     emoji: "♿",
     label: "Personnes à mobilité réduite",
-    metaTitle: "Meilleures villes mobilité réduite 2026 — Top 20 France",
+    metaTitle: "Meilleures villes mobilité réduite 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour vivre avec une mobilité réduite : métro/tramway PMR, centre-ville plat et court, calme, coût soutenable. Indicateurs indirects assumés.",
     intro:
@@ -1020,7 +1020,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "amateurs-de-littoral",
     emoji: "🌊",
     label: "Amateurs de littoral",
-    metaTitle: "Meilleures villes littoral 2026 — Top 20 France",
+    metaTitle: "Meilleures villes littoral 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour vivre au bord de la mer : accès quotidien, cadre marin, qualité de vie, air marin. Manche, Atlantique, Méditerranée.",
     intro:
@@ -1048,7 +1048,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "amateurs-de-montagne",
     emoji: "🏔️",
     label: "Amateurs de montagne",
-    metaTitle: "Meilleures villes montagne 2026 — Top 20 France",
+    metaTitle: "Meilleures villes montagne 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour vivre en montagne : accès quotidien au relief, cadre alpin, air pur, étés frais. Alpes, Pyrénées, Massif central, Jura, Vosges.",
     intro:
@@ -1076,7 +1076,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "amateurs-de-culture",
     emoji: "🎭",
     label: "Amateurs de culture",
-    metaTitle: "Meilleures villes culture 2026 — Top 20 France",
+    metaTitle: "Meilleures villes culture 2027 — Top 20 France",
     metaDescription:
       "Top 20 villes françaises pour la vie culturelle au quotidien : musées, théâtres, opéras, scènes labellisées, festivals structurants, patrimoine. Culture 3.0 + urbanité.",
     intro:
@@ -1097,7 +1097,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "navetteurs-hybrides",
     emoji: "🚆",
     label: "Actifs en hybride (2-3 jours au bureau)",
-    metaTitle: "Meilleures villes télétravail hybride 2026 — Top 20",
+    metaTitle: "Meilleures villes télétravail hybride 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises pour le télétravail hybride 2-3 jours : trajet estimé vers le pôle d'emploi le plus proche, loyer, fibre, qualité de vie.",
     intro:
@@ -1126,7 +1126,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "suivi-medical-regulier",
     emoji: "🩺",
     label: "Suivi médical régulier",
-    metaTitle: "Meilleures villes suivi médical régulier 2026 — Top 20",
+    metaTitle: "Meilleures villes suivi médical régulier 2027 — Top 20",
     metaDescription:
       "Top 20 villes françaises quand une pathologie chronique impose des rendez-vous réguliers : généralistes, spécialistes, urgences, pharmacies, trajets, coût.",
     intro:
@@ -1208,7 +1208,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "travailleurs-frontaliers",
     emoji: "🛂",
     label: "Travailleurs frontaliers",
-    metaTitle: "Meilleures villes travailleurs frontaliers 2026 — Top 20",
+    metaTitle: "Meilleures villes travailleurs frontaliers 2027 — Top 20",
     metaDescription:
       "Top 20 des villes où habiter quand on travaille en Suisse, au Luxembourg, en Allemagne, en Belgique ou à Monaco : distance au pôle, loyer, transports, fibre.",
     intro:
@@ -1231,7 +1231,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "famille-a-l-etranger",
     emoji: "✈️",
     label: "Famille à l'étranger",
-    metaTitle: "Meilleures villes famille à l'étranger 2026 — Top 20",
+    metaTitle: "Meilleures villes famille à l'étranger 2027 — Top 20",
     metaDescription:
       "Top 20 des villes où habiter quand la famille est à l'étranger : accès à un aéroport international, coût du logement, fibre. Toutes les villes du site comparées.",
     intro:
@@ -1253,7 +1253,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "professionnels-de-sante",
     emoji: "\u{1F9D1}\u200D\u2695\uFE0F",
     label: "Professionnels de santé",
-    metaTitle: "Villes où s'installer soignant 2026 — Top 20 France",
+    metaTitle: "Villes où s'installer soignant 2027 — Top 20 France",
     metaDescription:
       "Top 20 des villes où installer un cabinet quand on est médecin, infirmier ou kiné : manque de soignants estimé, coût du logement, écoles, zonage ARS.",
     intro:
@@ -1358,7 +1358,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "artistes-et-createurs",
     emoji: "🎨",
     label: "Artistes et créatifs",
-    metaTitle: "Villes pour artistes et créatifs 2026 — Top 20 France",
+    metaTitle: "Villes pour artistes et créatifs 2027 — Top 20 France",
     metaDescription:
       "Top 20 des villes françaises où vivre de la création : patrimoine et vie culturelle réels, atelier et loyer abordables, sécurité. Paris sort 315e.",
     intro:
@@ -1418,7 +1418,7 @@ export const PROFILE_PAGES: ProfileDef[] = [
     slug: "couples-a-deux-carrieres",
     emoji: "💼",
     label: "Couples à deux carrières",
-    metaTitle: "Villes pour couples à deux carrières 2026 — Top 20 France",
+    metaTitle: "Villes pour couples à deux carrières 2027 — Top 20 France",
     metaDescription:
       "Top 20 des villes où deux actifs trouvent chacun leur poste : pôle d'emploi à moins d'une demi-heure, télétravail, loyer tenable. Paris sort 27e.",
     intro:

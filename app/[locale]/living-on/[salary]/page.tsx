@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const s = parseSalaryFromSlug(salary);
   if (!s) return {};
   return {
-    title: fitTitle(`Living in France on €${s.toLocaleString("en-GB")}/month 2026 · Top 10 cities`),
+    title: fitTitle(`Living in France on €${s.toLocaleString("en-GB")}/month 2027 · Top 10 cities`),
     description: `Net salary €${s}/month: where can you live comfortably in France? Top 10 compatible cities with a housing budget of €${Math.round(s * 0.33)}, disposable income calculation, and Paris comparison.`,
     alternates: pathAlternatesEn(`/vivre-avec/${salary}`, `/living-on/${salary}`),
   };

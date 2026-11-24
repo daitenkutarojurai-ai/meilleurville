@@ -8,7 +8,7 @@ import { pathAlternatesEn } from "@/lib/i18n";
 import { ReportCTA } from "@/components/ReportCTA";
 
 export const metadata: Metadata = {
-  title: "Red Flag Radar · City risks 2026 | BestCitiesInFrance",
+  title: "Red Flag Radar · City risks 2027 | BestCitiesInFrance",
   description:
     `What property listings never tell you: safety, flooding, heat, pollution, seismic risk, cost, and more. Open-data cross-check for all ${CITIES_SEED.length} French cities.`,
   alternates: pathAlternatesEn("/red-flags", "/red-flags"),

@@ -17,14 +17,14 @@ import { formatScore } from "@/lib/utils";
 import { GUIDES } from "@/data/guides";
 import { clampMeta } from "@/lib/brand";
 
-/** « Vivre à X : avis, loyers et quartiers 2026 », raccourci par paliers sous 60 caractères.
+/** « Vivre à X : avis, loyers et quartiers 2027 », raccourci par paliers sous 60 caractères.
  *  La requête que la fiche doit gagner est « vivre à X » / « X avis » (Search Console 2026-11 :
  *  « vivre à rennes » en position 19, fiches ville à 1,17 % de CTR contre 1,29 % pour le site). */
 function cityTitle(name: string): string {
   for (const t of [
-    `Vivre à ${name} : avis, loyers et quartiers 2026`,
-    `Vivre à ${name} : avis et loyers 2026`,
-    `Vivre à ${name} : avis 2026`,
+    `Vivre à ${name} : avis, loyers et quartiers 2027`,
+    `Vivre à ${name} : avis et loyers 2027`,
+    `Vivre à ${name} : avis 2027`,
   ]) if (t.length <= 60) return t;
   return `Vivre à ${name}`;
 }

@@ -74,7 +74,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (triplet) {
     const [a, b, c] = triplet;
     return {
-      title: `${a.name} vs ${b.name} vs ${c.name} — 3-city comparison 2026`,
+      title: `${a.name} vs ${b.name} vs ${c.name} — 3-city comparison 2027`,
       description: `Compare ${a.name} (${a.scores.global}/10), ${b.name} (${b.scores.global}/10) and ${c.name} (${c.scores.global}/10) side by side: cost of living, safety, transport, nature, schools.`,
       alternates: { canonical: `${EN_BASE}/compare/${pair}`, languages: hreflangLanguagesEn(`/compare/${pair}`) },
     };
@@ -84,7 +84,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: fitTitle(`${a.name} vs ${b.name} — Quality-of-life comparison 2026`),
+    title: fitTitle(`${a.name} vs ${b.name} — Quality-of-life comparison 2027`),
     description: `Full comparison of ${a.name} (${a.scores.global}/10) and ${b.name} (${b.scores.global}/10): cost of living, transport, nature, safety, schools. Which French city should you choose?`,
     alternates: { canonical: `${EN_BASE}/compare/${pair}`, languages: hreflangLanguagesEn(`/compare/${pair}`) },
     openGraph: {

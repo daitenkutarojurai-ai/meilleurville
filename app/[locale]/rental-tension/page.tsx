@@ -18,7 +18,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Rental market pressure in France · 2026 ranking by city",
+  title: "Rental market pressure in France · 2027 ranking by city",
   description:
     "Where is it hard or easy to find a rental in France? Top 30 tightest rental markets vs top 20 most relaxed, with reference 1-bed rents.",
   alternates: pathAlternatesEn("/tension-locative", "/rental-tension"),
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Rental market pressure in France · 2026 ranking",
+    title: "Rental market pressure in France · 2027 ranking",
     description:
       "Top 30 cities where finding a flat is hardest vs top 20 where the market stays accessible.",
   },

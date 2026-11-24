@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Natural risks in France · 2026 city ranking",
+  title: "Natural risks in France · 2027 city ranking",
   description:
     "Where flooding, seismic activity, clay-shrinkage and wildfires stack up in France. Top 30 most-exposed cities vs top 20 safest — BCSF · BRGM · ONF sources.",
   alternates: pathAlternatesEn("/risques", "/natural-risks"),
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Natural risks in France · 2026 city ranking",
+    title: "Natural risks in France · 2027 city ranking",
     description:
       "Top 30 most-exposed cities vs top 20 safest across flood, seismic, clay shrinkage and wildfire hazards.",
   },

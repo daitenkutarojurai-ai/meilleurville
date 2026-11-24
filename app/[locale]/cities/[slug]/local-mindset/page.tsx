@@ -25,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Local mindset of ${city.name} 2026 — vibe, sociability, tempo`),
-    description: `What it actually feels like to live in ${city.name} socially: tempo, openness, café culture, civic life, regional archetype. 2026 derived synthesis.`,
+    title: fitTitle(`Local mindset of ${city.name} 2027 — vibe, sociability, tempo`),
+    description: `What it actually feels like to live in ${city.name} socially: tempo, openness, café culture, civic life, regional archetype. 2027 derived synthesis.`,
     alternates: cityAlternatesEn("local-mindset", slug),
   };
 }

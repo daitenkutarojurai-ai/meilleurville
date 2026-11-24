@@ -26,7 +26,7 @@ import { clampMeta } from "@/lib/brand";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Où partir en vacances en France 2026 · guide mois par mois",
+  title: "Où partir en vacances en France 2027 · guide mois par mois",
   description: clampMeta(`Le bon mois, la bonne destination. Classement honnête des ${CITIES_COUNT} villes françaises pour vos vacances : plage, montagne, citytrip, vignobles. Données climat + affluence + budget.`),
   alternates: pathAlternates("/vacances", "/vacations"),
   openGraph: {

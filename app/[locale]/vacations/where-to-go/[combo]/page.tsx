@@ -124,7 +124,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const phrase = PROFILE_PHRASE[slug];
   return {
     // 44-58 caractères selon le mois et le profil, sous la coupure SERP.
-    title: fitTitle(`Where to go in ${month} ${phrase} · France 2026`),
+    title: fitTitle(`Where to go in ${month} ${phrase} · France 2027`),
     description: `Where to go in France in ${month} ${phrase}: climate, crowds, budget and car-free access. Ranked across ${CITIES_COUNT} towns and cities, not an agency top 10.`,
     alternates: pathAlternatesEn(
       `/vacances/ou-partir/${crossing.slug}`,

@@ -114,7 +114,7 @@ function tierOf(rows: Row[], fit: number, better: (a: number, b: number) => bool
 }
 
 export const metadata: Metadata = {
-  title: "Parent solo : les villes qui tiennent en 2026",
+  title: "Parent solo : les villes qui tiennent en 2027",
   description:
     "Les villes françaises où la vie de parent solo tient : coût, transports, écoles, sécurité. Composite 4 axes pondérés, mêmes poids que City Match, budget T3 estimé.",
   alternates: pathAlternates("/parent-solo", "/single-parent"),
@@ -122,7 +122,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Parent solo · Les villes françaises qui tiennent en 2026",
+    title: "Parent solo · Les villes françaises qui tiennent en 2027",
     description:
       `Un seul revenu, un seul conducteur. Classement 4 axes (coût, transports, écoles, sécurité) sur ${CITIES_COUNT} villes.`,
   },

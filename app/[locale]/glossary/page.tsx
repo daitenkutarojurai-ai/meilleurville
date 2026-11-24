@@ -14,7 +14,7 @@ export const revalidate = false;
 export const metadata: Metadata = {
   // 63 caractères avec le suffixe de marque, 42 sans. La jumelle FR
   // `/glossaire` n'en porte pas.
-  title: "French property & relocation glossary 2026",
+  title: "French property & relocation glossary 2027",
   description:
     "French property glossary: DPE energy rating, LMNP, taxe foncière, ZFE zones, rent control, notary fees. The terms you need before buying or renting.",
   alternates: pathAlternatesEn("/glossaire", "/glossary"),

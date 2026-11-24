@@ -1,5 +1,10 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-24 · session manuelle (propriétaire + Claude) · commits 7309fca + millésime 2027
+  - 13 guides vivre-a-*-2026 oubliés renommés « S’installer à X en 2026 », puis passés en 2027 avec le reste.
+  - Millésime 2027 : 2 911 guides FR/EN (title, metaTitle, metaDesc ; 61 exclus car l’année y est un fait) + ≈ 420 lignes de titres de gabarits (fiche ville, classements, rankings, red flags, profils, vacances). Slugs inchangés. Règle dans strategie-audience § 4.
+  - Mesure : les titres retouchés le 2026-11-23 ont aussi changé d’année ; à l’export de décembre, comparer le CTR à position égale.
+  - R1 (actu & agenda) assouplie : une source officielle suffit, WebFetch obligatoire, sondages > 14 jours prioritaires, ≥ 5 événements par run.
 - 2026-11-23 · session manuelle (propriétaire + Claude) · commits 3ddb220, 827e096
   - Fiche ville : title « Vivre à X : avis, loyers et quartiers 2026 », h1 « Vivre à X », bloc « En bref » + bouton d'avis sur les 593 fiches. Chantiers B et E de la routine 2 : le mécanisme générique existe, la suite = faits propres à chaque ville.
   - Cannibalisation (chantier C) : 49 guides vivre-a-*-2026 renommés « S'installer à X en 2026 » (36 + 13 oubliés le 2026-11-24, 7309fca) ; liens fiche ↔ guide. Ne pas re-renommer.

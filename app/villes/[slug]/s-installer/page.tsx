@@ -30,14 +30,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const housing = getHousing(slug);
   return {
-    title: fitTitle(`S'installer à ${city.name} — logement, démarches, internet 2026`),
+    title: fitTitle(`S'installer à ${city.name} — logement, démarches, internet 2027`),
     description: `Guide pratique pour s'installer à ${city.name} : loyers (T2 ${housing ? `${housing.avgRentT2} €/mois` : "estimés"}), tension locative, fibre, fiscalité, démarches administratives.`,
     alternates: cityAlternates("s-installer", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `S'installer à ${city.name} — guide pratique 2026`,
+      title: `S'installer à ${city.name} — guide pratique 2027`,
       description: `Logement, internet, fiscalité, démarches : tout ce qu'il faut savoir avant de s'installer à ${city.name}.`,
     },
   };

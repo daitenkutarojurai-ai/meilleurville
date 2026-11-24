@@ -108,8 +108,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = CITIES_SEED.find((c) => c.slug === slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Que faire à ${city.name} 2026 — activités, sorties et bons plans`),
-    description: `10 activités incontournables et bons plans locaux à ${city.name} : nature, gastronomie, culture, vie de quartier et sorties week-end 2026.`,
+    title: fitTitle(`Que faire à ${city.name} 2027 — activités, sorties et bons plans`),
+    description: `10 activités incontournables et bons plans locaux à ${city.name} : nature, gastronomie, culture, vie de quartier et sorties week-end 2027.`,
     alternates: cityAlternates("a-faire", slug),
   };
 }

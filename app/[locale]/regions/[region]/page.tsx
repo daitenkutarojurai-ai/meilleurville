@@ -73,7 +73,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!regionName) return {};
   return {
     title: fitTitle(`Cities in ${regionName} · French city guide`),
-    description: `Best cities to live in ${regionName} in 2026 — rankings, quality of life, and resident reviews.`,
+    description: `Best cities to live in ${regionName} in 2027 — rankings, quality of life, and resident reviews.`,
     alternates: { canonical: `${EN_BASE}/regions/${region}`, languages: hreflangLanguagesEn(`/regions/${region}`) },
   };
 }

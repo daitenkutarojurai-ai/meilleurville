@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
-  title: "Weekend getaways from your city · By travel time, 2026",
+  title: "Weekend getaways from your city · By travel time, 2027",
   description:
     "Pick your departure city and see every French destination ranked by travel time. Ideal for planning a weekend or a short break.",
   alternates: pathAlternatesEn("/depuis", "/weekend-getaways"),
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Weekend getaways from your city · France 2026",
+    title: "Weekend getaways from your city · France 2027",
     description:
       "26 major French cities, every destination within 5 hours. SNCF estimates + local access.",
   },

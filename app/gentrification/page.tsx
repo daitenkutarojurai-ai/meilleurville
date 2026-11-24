@@ -12,7 +12,7 @@ import { pathAlternates } from "@/lib/i18n";
 import { clampMeta } from "@/lib/brand";
 
 export const metadata: Metadata = {
-  title: "Index de gentrification 2026 · Villes qui montent en France",
+  title: "Index de gentrification 2027 · Villes qui montent en France",
   description: clampMeta(`Classement des villes françaises où la gentrification accélère : prix immobilier, démographie 25-35 ans, ouvertures (cafés / coworking), télétravailleurs. ${CITIES_COUNT} villes, score composite 0-100.`),
   alternates: pathAlternates("/gentrification", "/gentrification"),
 };

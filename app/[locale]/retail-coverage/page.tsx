@@ -22,7 +22,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Retail coverage in France · 2026 city ranking",
+  title: "Retail coverage in France · 2027 city ranking",
   description:
     "Where French cities have the densest retail offer and where downtown is thinning. Top 30 best-covered vs top 20 in retail stress. Honest proxy, no field count.",
   alternates: pathAlternatesEn("/commerces", "/retail-coverage"),
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Retail coverage in France · 2026 ranking",
+    title: "Retail coverage in France · 2027 ranking",
     description:
       "Top 30 cities with the densest retail offer vs top 20 where downtown vitality is weakest. Coverage, proximity, big-box, downtown.",
   },

@@ -106,7 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const best = bestMonthsFor(city);
   const months = best.map((m) => enMonthFull(m).toLowerCase()).join(", ");
   return {
-    title: fitTitle(`Holidays in ${city.name} 2026 · when to go, what to do`),
+    title: fitTitle(`Holidays in ${city.name} 2027 · when to go, what to do`),
     description: `When to visit ${city.name} (${city.department}): best months ${months}. Climate, crowds, activities where the city excels. Holiday fit score + hotels.`,
     // Réciproque du hreflang de /vacances/[ville] : même slug de ville des
     // deux côtés, les deux routes dérivant de `CITIES_SEED`.

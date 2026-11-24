@@ -303,7 +303,7 @@ export const RANKING_META = {
     slug: "logement",
     label: "Logement abordable",
     emoji: "🔑",
-    headline: "Villes françaises où se loger reste accessible en 2026",
+    headline: "Villes françaises où se loger reste accessible en 2027",
     description:
       "Classement basé sur nos repères de loyer (T1, T2, T3) et de prix au m² : où votre budget logement va le plus loin sans renoncer à la qualité de vie. Repères éditoriaux calés sur les Observatoires Locaux des Loyers, pas les médianes de transactions DVF.",
     methodology:
@@ -325,7 +325,7 @@ export const RANKING_META = {
     slug: "jeunes-actifs",
     label: "Jeunes actifs",
     emoji: "🚀",
-    headline: "Meilleures villes françaises pour les jeunes actifs en 2026",
+    headline: "Meilleures villes françaises pour les jeunes actifs en 2027",
     description:
       "Classement des villes françaises où démarrer ou relancer une carrière en 2026 : scène culturelle, mobilité, aptitude au télétravail et coût de la vie compatible avec un premier salaire. Score estimé depuis nos axes éditoriaux, calé sur les cadres de référence publics (Insee, Dares, Arcep, Observatoires Locaux des Loyers) sans reprendre leurs relevés.",
     methodology:
@@ -348,7 +348,7 @@ export const RANKING_META = {
     slug: "gastronomie",
     label: "Gastronomie",
     emoji: "🍽️",
-    headline: "Meilleures villes françaises pour la gastronomie en 2026",
+    headline: "Meilleures villes françaises pour la gastronomie en 2027",
     description:
       "Classement des villes françaises pour bien manger : scène culturelle et culinaire, ambiance, terroir, accessibilité d'un repas honnête. Score estimé depuis nos axes éditoriaux : ni les étoiles Michelin, ni les Bib Gourmand, ni les appellations INAO ne sont comptés ville par ville.",
     methodology:
@@ -393,7 +393,7 @@ export const RANKING_META = {
     slug: "cyclistes",
     label: "Vélo & cyclistes",
     emoji: "🚴",
-    headline: "Meilleures villes françaises pour les cyclistes en 2026",
+    headline: "Meilleures villes françaises pour les cyclistes en 2027",
     description:
       "Classement des villes françaises les plus cyclables : mobilité, cadre roulant, sécurité de la cohabitation, topographie et climat. Score estimé depuis nos axes éditoriaux : ni les kilomètres d'aménagements, ni la note FUB, ni le stationnement sécurisé ne sont comptés ville par ville.",
     methodology:
@@ -417,7 +417,7 @@ export const RANKING_META = {
     slug: "bord-de-mer",
     label: "Bord de mer",
     emoji: "🌊",
-    headline: "Meilleures villes côtières françaises où vivre en 2026",
+    headline: "Meilleures villes côtières françaises où vivre en 2027",
     description:
       "Classement des villes françaises au bord de l'océan, de la Méditerranée, de la Manche ou de la mer du Nord — celles où l'on peut vivre à l'année sans devenir touriste de sa propre rue. Filtre par caractère maritime puis composite nature + qualité de vie + sécurité, avec bonus ensoleillement. Score estimé depuis nos axes éditoriaux, pas un relevé d'organisme.",
     methodology:

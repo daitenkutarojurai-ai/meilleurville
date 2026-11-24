@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Accès aux soins · ${macro.label} 2026`),
+    title: fitTitle(`Accès aux soins · ${macro.label} 2027`),
     description: `Classement composite accès aux soins (médecins, spécialistes, urgences, pharmacies) restreint aux villes de la macro-région ${macro.label}. Meilleur accès vs. déserts médicaux.`,
     alternates: pathAlternates(`/sante/${macro.slug}`, `/healthcare/${macro.slug}`),
     openGraph: {

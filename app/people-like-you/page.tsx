@@ -15,7 +15,7 @@ export const revalidate = false;
 export const dynamicParams = false;
 
 export const metadata: Metadata = {
-  title: "Où vont les profils comme vous · Villes recommandées 2026",
+  title: "Où vont les profils comme vous · Villes recommandées 2027",
   description:
     clampMeta("Choisissez votre profil de vie et votre ville actuelle : on calcule les destinations où des gens comme vous s'épanouissent davantage."),
   alternates: pathAlternates("/people-like-you", "/people-like-you"),

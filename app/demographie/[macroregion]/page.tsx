@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Démographie · ${macro.label} 2026`),
+    title: fitTitle(`Démographie · ${macro.label} 2027`),
     description: `Classement composite démographie (vieillissement, jeunes actifs, trajectoire, renouvellement) restreint aux villes de la macro-région ${macro.label}. Dynamiques vs. vieillissantes.`,
     alternates: pathAlternates(`/demographie/${macro.slug}`, `/demographics/${macro.slug}`),
     openGraph: {

@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: fitTitle(`Job market · ${label} 2026`),
+    title: fitTitle(`Job market · ${label} 2027`),
     description: `Composite employment ranking (unemployment, salary, dynamism, sector mix) for cities in the ${label} macro-region. Most dynamic vs most difficult labour markets.`,
     alternates: pathAlternatesEn(`/emploi/${macro.slug}`, `/employment/${macro.slug}`),
     openGraph: {

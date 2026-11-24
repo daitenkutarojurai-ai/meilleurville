@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: fitTitle(`Healthcare access · ${label} 2026`),
+    title: fitTitle(`Healthcare access · ${label} 2027`),
     description: `Composite healthcare access ranking (GPs, specialists, A&E, pharmacies) for cities in the ${label} macro-region. Best-served cities vs medical deserts.`,
     alternates: pathAlternatesEn(`/sante/${macro.slug}`, `/healthcare/${macro.slug}`),
     openGraph: {

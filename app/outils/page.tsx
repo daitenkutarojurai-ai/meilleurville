@@ -180,7 +180,7 @@ const TOOLS: Tool[] = [
     href: "/calendrier-immobilier",
     group: "reference",
     emoji: "📅",
-    title: "Calendrier 2026",
+    title: "Calendrier 2027",
     desc:
       "Quand acheter, vendre, louer ou déménager ? Saisonnalité du marché immobilier mois par mois, avec conseils tactiques par action.",
     cta: "Voir le calendrier",

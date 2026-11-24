@@ -34,7 +34,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-to-france-where-to-live-2026",
     title: "Moving to France: how to actually choose where to live",
-    metaTitle: "Moving to France — How to Choose Where to Live (2026)",
+    metaTitle: "Moving to France — How to Choose Where to Live (2027)",
     metaDesc:
       "A practical, no-fluff guide to picking the right French city: climate, cost, jobs, healthcare and the trade-offs nobody mentions before you sign a lease.",
     category: "moving",
@@ -76,7 +76,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "cost-of-living-france-by-city-2026",
     title: "Cost of living in France, city by city",
-    metaTitle: "Cost of Living in France by City (2026)",
+    metaTitle: "Cost of Living in France by City (2027)",
     metaDesc:
       "What it really costs to live in a French city in 2026 — rent, utilities, groceries, transport — and how to find the places where your income goes furthest.",
     category: "budget",
@@ -118,7 +118,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-paris-where-to-go-2026",
     title: "Leaving Paris: where Parisians actually move",
-    metaTitle: "Leaving Paris — Where to Move in France (2026)",
+    metaTitle: "Leaving Paris — Where to Move in France (2027)",
     metaDesc:
       "Thinking of leaving Paris? The cities that draw the most ex-Parisians, why they work, and how to avoid swapping one set of problems for another.",
     category: "moving",
@@ -160,7 +160,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-france-best-cities-2026",
     title: "Retiring in France: choosing the right city",
-    metaTitle: "Retiring in France — Best Cities to Choose (2026)",
+    metaTitle: "Retiring in France — Best Cities to Choose (2027)",
     metaDesc:
       "Healthcare access, climate, calm and cost — the factors that should drive a retirement move in France, and the cities that balance them best.",
     category: "lifestyle",
@@ -202,7 +202,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "renting-an-apartment-in-france-2026",
     title: "Renting an apartment in France: the dossier, the deposit, the catches",
-    metaTitle: "Renting an Apartment in France (2026)",
+    metaTitle: "Renting an Apartment in France (2027)",
     metaDesc:
       "How renting works in France: the dossier, the guarantor problem, furnished vs unfurnished leases, deposits, fees and the costs newcomers miss.",
     category: "moving",
@@ -244,7 +244,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "warmest-sunniest-cities-france-2026",
     title: "The warmest and sunniest cities in France",
-    metaTitle: "Warmest & Sunniest Cities in France (2026)",
+    metaTitle: "Warmest & Sunniest Cities in France (2027)",
     metaDesc:
       "Where the sun and warmth really are in France, the heat trade-offs nobody mentions, and how to pick your spot on the warmth spectrum.",
     category: "lifestyle",
@@ -286,7 +286,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-for-students-2026",
     title: "The best French cities for students",
-    metaTitle: "Best French Cities for Students (2026)",
+    metaTitle: "Best French Cities for Students (2027)",
     metaDesc:
       "Where to study in France on a real budget: the cities that balance affordable rent, student life and good universities, plus the aid you should claim.",
     category: "budget",
@@ -328,7 +328,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-coastal-cities-france-2026",
     title: "Living by the sea: the best coastal cities in France",
-    metaTitle: "Best Coastal Cities in France (2026)",
+    metaTitle: "Best Coastal Cities in France (2027)",
     metaDesc:
       "France's three coasts compared for full-time living: Atlantic, Mediterranean and Channel, the seasonal-town trap, and what living by the sea really costs.",
     category: "lifestyle",
@@ -369,8 +369,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "buying-property-in-france-honest-guide-2026",
-    title: "Buying property in France: an honest guide for 2026",
-    metaTitle: "Buying Property in France — Honest Guide 2026",
+    title: "Buying property in France: an honest guide for 2027",
+    metaTitle: "Buying Property in France — Honest Guide 2027",
     metaDesc:
       "The real costs, the traps and the honest maths of buying property in France in 2026. From notaire fees to negotiation room and which cities are worth buying in.",
     category: "budget",
@@ -411,8 +411,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-for-expats-2026",
-    title: "The best French cities for expats in 2026",
-    metaTitle: "Best French Cities for Expats 2026 | BestCitiesInFrance",
+    title: "The best French cities for expats in 2027",
+    metaTitle: "Best French Cities for Expats 2027 | BestCitiesInFrance",
     metaDesc:
       "Not every French city is equally expat-friendly. Here's what actually matters — English spoken, international schools, expat community, healthcare access — and the cities that score best.",
     category: "moving",
@@ -453,8 +453,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "mid-size-french-cities-underrated-2026",
-    title: "France's most underrated mid-size cities in 2026",
-    metaTitle: "Underrated Mid-Size French Cities Worth Moving To (2026)",
+    title: "France's most underrated mid-size cities in 2027",
+    metaTitle: "Underrated Mid-Size French Cities Worth Moving To (2027)",
     metaDesc:
       "Everyone talks about Lyon and Bordeaux. Here are the mid-size French cities that consistently deliver quality of life, affordability and character — without the hype premium.",
     category: "lifestyle",
@@ -496,7 +496,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-countryside-living-honest-guide-2026",
     title: "Living in the French countryside — what nobody tells you",
-    metaTitle: "Living in the French Countryside — Honest Guide 2026",
+    metaTitle: "Living in the French Countryside — Honest Guide 2027",
     metaDesc:
       "The dream and the reality of rural France. What life actually looks like — healthcare, internet, community, isolation — before you sign for that farmhouse.",
     category: "lifestyle",
@@ -537,8 +537,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "safest-french-cities-2026",
-    title: "The safest French cities in 2026 — honest data, not vibes",
-    metaTitle: "Safest French Cities 2026 — Crime Data & Honest Rankings",
+    title: "The safest French cities in 2027 — honest data, not vibes",
+    metaTitle: "Safest French Cities 2027 — Crime Data & Honest Rankings",
     metaDesc:
       "Which French cities have the lowest crime rates? SSMSI data on theft, assault and burglary by city — and why 'safe' means very different things depending on your lifestyle.",
     category: "lifestyle",
@@ -579,8 +579,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cycling-french-cities-2026",
-    title: "The best French cities for cyclists in 2026",
-    metaTitle: "Best French Cities for Cycling 2026 — Infrastructure & Daily Use",
+    title: "The best French cities for cyclists in 2027",
+    metaTitle: "Best French Cities for Cycling 2027 — Infrastructure & Daily Use",
     metaDesc:
       "Which French cities have built cycling infrastructure that actually works for daily commuting? An honest look beyond the promotional cycle paths.",
     category: "lifestyle",
@@ -621,8 +621,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-cities-tech-jobs-2026",
-    title: "Best French cities for tech workers in 2026",
-    metaTitle: "Best French Cities for Tech Jobs 2026 — Startups, Salaries",
+    title: "Best French cities for tech workers in 2027",
+    metaTitle: "Best French Cities for Tech Jobs 2027 — Startups, Salaries",
     metaDesc:
       "Paris isn't the only option. Lyon, Bordeaux, Nantes, Rennes and Toulouse all have serious tech ecosystems — at half the rent.",
     category: "moving",
@@ -663,8 +663,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-for-digital-nomads-2026",
-    title: "France for digital nomads: the honest guide 2026",
-    metaTitle: "France for Digital Nomads 2026 — Visas, Cities & Real Costs",
+    title: "France for digital nomads: the honest guide 2027",
+    metaTitle: "France for Digital Nomads 2027 — Visas, Cities & Real Costs",
     metaDesc:
       "Visas, fibre coverage, co-working costs and which French cities actually work for a location-independent lifestyle. Without the travel-blog clichés.",
     category: "remote-work",
@@ -706,7 +706,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-paris-best-french-cities-2026",
     title: "Leaving Paris: where to actually go in France",
-    metaTitle: "Leaving Paris 2026 — Best French Cities to Move To",
+    metaTitle: "Leaving Paris 2027 — Best French Cities to Move To",
     metaDesc:
       "The honest case for each major destination when you're done with Paris rents, commutes and winters. With actual numbers: rent savings, quality-of-life gains, what you give up.",
     category: "moving",
@@ -752,7 +752,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-without-a-car-best-cities-2026",
     title: "Living in France without a car: which cities actually work",
-    metaTitle: "Car-Free Living in France 2026 — Best Cities for No-Car Lifestyle",
+    metaTitle: "Car-Free Living in France 2027 — Best Cities for No-Car Lifestyle",
     metaDesc:
       "Which French cities have public transport, cycling infrastructure and daily access good enough to make car-free living genuinely comfortable? An honest ranking.",
     category: "lifestyle",
@@ -798,7 +798,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-riviera-cote-dazur-living-2026",
     title: "Living on the French Riviera: beyond the clichés",
-    metaTitle: "Living on the French Riviera — Honest Guide 2026",
+    metaTitle: "Living on the French Riviera — Honest Guide 2027",
     metaDesc:
       "Real rents, summer crowds, wildfire risk and the best affordable alternatives: what life on the Côte d'Azur actually looks like beyond the postcard.",
     category: "lifestyle",
@@ -839,8 +839,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-american-expats-2026",
-    title: "Best French cities for American expats (2026)",
-    metaTitle: "Best French Cities for American Expats 2026",
+    title: "Best French cities for American expats (2027)",
+    metaTitle: "Best French Cities for American Expats 2027",
     metaDesc:
       "Visa options, FATCA awareness, English-speaking communities and international schools: where Americans actually settle in France and what makes it work.",
     category: "moving",
@@ -882,7 +882,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "south-of-france-cost-of-living-2026",
     title: "Cost of living in the South of France — honest numbers",
-    metaTitle: "Cost of Living in South of France 2026 — Honest Numbers",
+    metaTitle: "Cost of Living in South of France 2027 — Honest Numbers",
     metaDesc:
       "Actual rents, food, utilities and car costs for Marseille, Montpellier, Toulon, Perpignan and Nîmes. Compare the South against Paris and see who can afford what.",
     category: "budget",
@@ -924,7 +924,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "learning-french-which-city-2026",
     title: "Which French city is best for learning French?",
-    metaTitle: "Best French City for Learning French 2026 — Honest Guide",
+    metaTitle: "Best French City for Learning French 2027 — Honest Guide",
     metaDesc:
       "Accent clarity, immersion quality, language school density and the cost of a long stay. Where serious French learners should actually go.",
     category: "lifestyle",
@@ -966,7 +966,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-hiking-outdoor-2026",
     title: "Best French cities for hiking and outdoor living",
-    metaTitle: "Best French Cities for Hiking & Outdoor Life (2026)",
+    metaTitle: "Best French Cities for Hiking & Outdoor Life (2027)",
     metaDesc:
       "Grenoble, Annecy, Pau, Chambéry: a direct comparison of French cities where the mountains, trails and outdoor culture are genuinely baked into daily life.",
     category: "lifestyle",
@@ -1008,7 +1008,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-to-france-from-uk-2026",
     title: "Moving to France from the UK: what changed after Brexit",
-    metaTitle: "Moving to France from the UK (2026) — Post-Brexit Guide",
+    metaTitle: "Moving to France from the UK (2027) — Post-Brexit Guide",
     metaDesc:
       "Visas, healthcare, driving licences, pensions, banking: a direct post-Brexit guide to relocating from the UK to France in 2026.",
     category: "moving",
@@ -1050,7 +1050,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "brittany-living-guide-2026",
     title: "Living in Brittany: the honest guide",
-    metaTitle: "Living in Brittany France 2026 — Honest Guide",
+    metaTitle: "Living in Brittany France 2027 — Honest Guide",
     metaDesc:
       "Rennes, Brest, Quimper, Saint-Malo: cost of living, weather, jobs, and who Brittany actually suits. Not the tourist brochure version.",
     category: "lifestyle",
@@ -1088,7 +1088,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "provence-alps-living-guide-2026",
     title: "Living in Provence and the Côte d'Azur: what the brochures don't say",
-    metaTitle: "Living in Provence & Côte d'Azur 2026 — Honest Guide",
+    metaTitle: "Living in Provence & Côte d'Azur 2027 — Honest Guide",
     metaDesc:
       "Marseille, Aix-en-Provence, Nice, Toulon: the real trade-offs of living in the south of France in an era of accelerating Mediterranean summers.",
     category: "lifestyle",
@@ -1126,7 +1126,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lyon-living-guide-2026",
     title: "Living in Lyon: France's second city done right",
-    metaTitle: "Living in Lyon France 2026 — Honest Guide",
+    metaTitle: "Living in Lyon France 2027 — Honest Guide",
     metaDesc:
       "Cost of living, neighbourhoods, food, transport and who Lyon actually suits. France's most liveable metropolis, with its real weaknesses.",
     category: "lifestyle",
@@ -1164,7 +1164,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-education-system-families-2026",
     title: "France's education system: what families need to know",
-    metaTitle: "French Education System Guide for Families 2026",
+    metaTitle: "French Education System Guide for Families 2027",
     metaDesc:
       "Public, private, international schools in France: a practical guide for expat and relocating families to understand the French school system, catchment areas and realistic options.",
     category: "family",
@@ -1205,8 +1205,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-property-market-buyers-guide-2026",
-    title: "Buying property in France in 2026: the honest buyer's guide",
-    metaTitle: "Buying Property in France 2026 — Honest Buyer's Guide",
+    title: "Buying property in France in 2027: the honest buyer's guide",
+    metaTitle: "Buying Property in France 2027 — Honest Buyer's Guide",
     metaDesc:
       "Notaires, frais de notaire, DPE, mortgage access for non-residents: what foreign buyers need to understand about France's property market in 2026.",
     category: "budget",
@@ -1244,7 +1244,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-cost-of-living-vs-salary-2026",
     title: "France: what salary do you actually need to live well?",
-    metaTitle: "France Cost of Living vs Salary (2026) — What You Need",
+    metaTitle: "France Cost of Living vs Salary (2027) — What You Need",
     metaDesc:
       "Realistic salary benchmarks for living comfortably in Paris, Lyon, Bordeaux, Rennes and smaller French cities in 2026. Rent, food, transport and what's left over.",
     category: "budget",
@@ -1282,7 +1282,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "bordeaux-living-guide-2026",
     title: "Living in Bordeaux: the honest guide",
-    metaTitle: "Living in Bordeaux France 2026 — Honest Resident's Guide",
+    metaTitle: "Living in Bordeaux France 2027 — Honest Resident's Guide",
     metaDesc:
       "What living in Bordeaux is really like in 2026: cost of living, best neighbourhoods, the wine country, and who it suits (and who it doesn't).",
     category: "lifestyle",
@@ -1358,7 +1358,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "toulouse-living-guide-2026",
     title: "Living in Toulouse: the honest picture",
-    metaTitle: "Living in Toulouse 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Toulouse 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Toulouse is France's aerospace capital and a city of 500,000 with genuine warmth, good weather and a competitive property market. Here's what to actually expect.",
     category: "lifestyle",
@@ -1396,7 +1396,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nantes-living-guide-2026",
     title: "Living in Nantes: what the rankings don't tell you",
-    metaTitle: "Living in Nantes 2026 — Honest Expat & Relocation Guide",
+    metaTitle: "Living in Nantes 2027 — Honest Expat & Relocation Guide",
     metaDesc:
       "Nantes tops most French quality-of-life rankings. Here's a granular picture: what the scores mean in practice, what the city gets right, and what it doesn't.",
     category: "lifestyle",
@@ -1434,7 +1434,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "montpellier-living-guide-2026",
     title: "Living in Montpellier: sun, students and a stretched housing market",
-    metaTitle: "Living in Montpellier 2026 — Honest Expat & Relocation Guide",
+    metaTitle: "Living in Montpellier 2027 — Honest Expat & Relocation Guide",
     metaDesc:
       "Montpellier is France's fastest-growing major city. The sun is real. So is the competition for housing, the heat in summer, and the uneven quality of the suburbs.",
     category: "lifestyle",
@@ -1472,7 +1472,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nice-living-guide-2026",
     title: "Living in Nice: the Côte d'Azur without the illusions",
-    metaTitle: "Living in Nice 2026 — Honest Guide for Expats and Remote Workers",
+    metaTitle: "Living in Nice 2027 — Honest Guide for Expats and Remote Workers",
     metaDesc:
       "Nice is beautiful, genuinely sunny, and expensive in ways that catch newcomers off guard. A realistic picture of what living here looks like, week to week.",
     category: "lifestyle",
@@ -1510,7 +1510,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "alsace-strasbourg-living-guide-2026",
     title: "Living in Alsace and Strasbourg: Europe's most underrated region",
-    metaTitle: "Living in Alsace & Strasbourg 2026 — Honest Expat Guide",
+    metaTitle: "Living in Alsace & Strasbourg 2027 — Honest Expat Guide",
     metaDesc:
       "Strasbourg is bilingual, walkable, European and often overlooked. Alsace is a region where France and Germany have been arguing and collaborating for centuries — and the result is genuinely distinctive.",
     category: "lifestyle",
@@ -1548,7 +1548,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-london-moving-to-france-2026",
     title: "Leaving London for France: the decisions that actually matter",
-    metaTitle: "Leaving London for France 2026 — Practical Relocation Guide",
+    metaTitle: "Leaving London for France 2027 — Practical Relocation Guide",
     metaDesc:
       "Post-Brexit practical guide for British nationals moving from London to France — visas, healthcare, pensions, tax, and which French cities make the most sense.",
     category: "moving",
@@ -1586,7 +1586,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-from-usa-to-france-2026",
     title: "Moving from the US to France: the decisions that surprise Americans",
-    metaTitle: "Moving from USA to France 2026 — Practical Guide for Americans",
+    metaTitle: "Moving from USA to France 2027 — Practical Guide for Americans",
     metaDesc:
       "Healthcare, FATCA tax obligations, visas, and the cultural shifts that catch Americans off guard. A realistic guide for US nationals planning to move to France.",
     category: "moving",
@@ -1624,7 +1624,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "paris-suburbs-affordable-living-2026",
     title: "The Paris suburbs that are worth it: what nobody moving to 'near Paris' checks",
-    metaTitle: "Paris Suburbs Guide 2026 — Best Affordable Areas Near Paris",
+    metaTitle: "Paris Suburbs Guide 2027 — Best Affordable Areas Near Paris",
     metaDesc:
       "The Paris metropolitan area has 12 million people. Not all of them live in expensive arrondissements. A practical guide to the suburban belt that gets the results without the price.",
     category: "budget",
@@ -1662,7 +1662,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "grenoble-living-guide-2026",
     title: "Living in Grenoble: France's science city between two mountain ranges",
-    metaTitle: "Living in Grenoble 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Grenoble 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Grenoble has the lowest cost of living of any major French city with a significant tech sector, and the best mountain access in France. Here's what living there actually involves.",
     category: "lifestyle",
@@ -1700,7 +1700,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "marseille-living-guide-2026",
     title: "Living in Marseille: the city that doesn't apologise for itself",
-    metaTitle: "Living in Marseille 2026 — Honest Expat & Relocation Guide",
+    metaTitle: "Living in Marseille 2027 — Honest Expat & Relocation Guide",
     metaDesc:
       "Marseille is polarising, genuinely sunny, genuinely complex and the most affordable major French city on the Mediterranean. A honest picture.",
     category: "lifestyle",
@@ -1738,7 +1738,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "rennes-living-guide-2026",
     title: "Living in Rennes: the Breton capital that gets everything right for a certain type of person",
-    metaTitle: "Living in Rennes 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Rennes 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Rennes consistently ranks in France's top 5 for quality of life. A granular look at what it delivers, what it doesn't, and who it suits.",
     category: "lifestyle",
@@ -1776,7 +1776,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "annecy-living-guide-2026",
     title: "Living in Annecy: the price of paradise",
-    metaTitle: "Living in Annecy 2026 — Honest Guide to the Alpine Lake Town",
+    metaTitle: "Living in Annecy 2027 — Honest Guide to the Alpine Lake Town",
     metaDesc:
       "Annecy is consistently voted France's most beautiful city. It is also one of the most expensive outside Paris. A realistic look at what living here involves.",
     category: "lifestyle",
@@ -1814,7 +1814,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-south-of-france-guide-2026",
     title: "Retiring in the south of France: a realistic plan",
-    metaTitle: "Retiring in the South of France 2026 — Practical Guide",
+    metaTitle: "Retiring in the South of France 2027 — Practical Guide",
     metaDesc:
       "Healthcare access, visa requirements, cost of living, and which parts of the south are actually affordable for retirees on a pension. The honest version.",
     category: "lifestyle",
@@ -1852,7 +1852,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-social-security-expats-guide-2026",
     title: "French social security for newcomers: what you're actually entitled to",
-    metaTitle: "French Social Security for Expats 2026 — PUMA, Healthcare",
+    metaTitle: "French Social Security for Expats 2027 — PUMA, Healthcare",
     metaDesc:
       "How the French social security system works for non-citizens — PUMA affiliation, healthcare reimbursements, unemployment rights, family allowances. What you get and when.",
     category: "moving",
@@ -1890,7 +1890,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "normandy-living-guide-2026",
     title: "Living in Normandy: the honest case for France's most underestimated region",
-    metaTitle: "Living in Normandy 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Normandy 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Caen, Rouen and the Normandy coast offer proximity to Paris, affordable property and strong quality of life. A granular look at what living here means.",
     category: "lifestyle",
@@ -1928,7 +1928,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lyon-where-to-go-2026",
     title: "Leaving Lyon: where people actually go, and why",
-    metaTitle: "Leaving Lyon 2026 — Where to Move Next | Honest Guide",
+    metaTitle: "Leaving Lyon 2027 — Where to Move Next | Honest Guide",
     metaDesc:
       "Lyon is France's most liveable major city on most metrics — which means leaving it is a real decision. A clear-eyed look at the most rational destinations.",
     category: "moving",
@@ -1966,7 +1966,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "loire-valley-living-guide-2026",
     title: "Living in the Loire Valley: France's garden, its châteaux, and its housing market",
-    metaTitle: "Living in Loire Valley 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Loire Valley 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Tours, Orléans, Blois and the villages between. The Loire Valley is genuinely beautiful, genuinely affordable, and genuinely underrated as a place to actually live.",
     category: "lifestyle",
@@ -2004,7 +2004,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "dijon-living-guide-2026",
     title: "Living in Dijon: France's most underrated gastronomic capital",
-    metaTitle: "Living in Dijon 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Dijon 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Dijon is central, cheap, beautiful, and connected. It is also completely overlooked in most French city rankings. A clear-eyed case for considering it seriously.",
     category: "lifestyle",
@@ -2042,7 +2042,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "opening-bank-account-france-expats-2026",
     title: "Opening a bank account in France as a foreigner: what actually works",
-    metaTitle: "Opening a French Bank Account for Expats 2026 — Practical Guide",
+    metaTitle: "Opening a French Bank Account for Expats 2027 — Practical Guide",
     metaDesc:
       "French banks are notoriously difficult for non-residents and some EU citizens. A frank guide to which approaches actually work and what documents you'll need.",
     category: "moving",
@@ -2080,7 +2080,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "reims-living-guide-2026",
     title: "Living in Reims: champagne, cathedrals and 45 minutes from Paris",
-    metaTitle: "Living in Reims 2026 — Honest Guide for Expats & Movers",
+    metaTitle: "Living in Reims 2027 — Honest Guide for Expats & Movers",
     metaDesc:
       "Reims is the best-connected city under 200,000 in France outside the Paris region. Affordable, architecturally exceptional, 45 minutes from Paris by TGV.",
     category: "lifestyle",
@@ -2118,7 +2118,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "basque-country-living-guide-2026",
     title: "Living in the French Basque Country: what makes it different, and what it costs",
-    metaTitle: "Living in French Basque Country 2026 — Bayonne, Biarritz",
+    metaTitle: "Living in French Basque Country 2027 — Bayonne, Biarritz",
     metaDesc:
       "The Basque Country has the most distinctive regional identity in France, excellent surf, good weather and one of the highest property price growth rates in the country.",
     category: "lifestyle",
@@ -2156,7 +2156,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-australian-expats-2026",
     title: "Moving to France from Australia: the practical questions answered",
-    metaTitle: "Moving to France from Australia 2026 — Expat Guide",
+    metaTitle: "Moving to France from Australia 2027 — Expat Guide",
     metaDesc:
       "Visa options, healthcare access, superannuation, tax obligations, and which French cities work best for Australians. The information gaps the general guides miss.",
     category: "moving",
@@ -2194,7 +2194,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-schools-system-guide-2026",
     title: "The French school system: what every expat parent needs to know",
-    metaTitle: "French Schools for Expat Children 2026 — Complete Guide",
+    metaTitle: "French Schools for Expat Children 2027 — Complete Guide",
     metaDesc:
       "From maternelle at 3 to baccalauréat at 18, how French education works, what international options exist, how to enrol, and what to expect language-wise.",
     category: "family",
@@ -2232,7 +2232,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "strasbourg-living-guide-2026",
     title: "Living in Strasbourg: Europe's crossroads city",
-    metaTitle: "Living in Strasbourg 2026 — Expat and Relocation Guide",
+    metaTitle: "Living in Strasbourg 2027 — Expat and Relocation Guide",
     metaDesc:
       "Strasbourg is France's most distinctly European city — half French, half German in feel, with EU institutions, good salaries, and quality of life that punches well above its size.",
     category: "city-guide",
@@ -2270,7 +2270,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "la-rochelle-living-guide-2026",
     title: "Living in La Rochelle: the Atlantic city that gets almost everything right",
-    metaTitle: "Living in La Rochelle 2026 — Relocation and Expat Guide",
+    metaTitle: "Living in La Rochelle 2027 — Relocation and Expat Guide",
     metaDesc:
       "La Rochelle combines Atlantic coast access, an excellent quality of life, strong cycling infrastructure, and a diverse economy — with none of the overcrowding of Bordeaux. The honest case for and against.",
     category: "city-guide",
@@ -2308,7 +2308,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "brest-living-guide-2026",
     title: "Living in Brest: France's western outpost, honestly assessed",
-    metaTitle: "Living in Brest 2026 — Honest Relocation Guide",
+    metaTitle: "Living in Brest 2027 — Honest Relocation Guide",
     metaDesc:
       "Brest has one of France's best natural harbours, a strong naval and research economy, and housing prices that seem implausibly cheap by French standards. The weather requires managing expectations.",
     category: "city-guide",
@@ -2346,7 +2346,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-bordeaux-where-to-go-2026",
     title: "Leaving Bordeaux: where to go and why",
-    metaTitle: "Leaving Bordeaux 2026 — Best Alternatives After Bordeaux",
+    metaTitle: "Leaving Bordeaux 2027 — Best Alternatives After Bordeaux",
     metaDesc:
       "Bordeaux's property market has repriced dramatically since 2016. If you're considering leaving, here are the data-backed alternatives sorted by profile — and what you actually give up by going.",
     category: "city-guide",
@@ -2384,7 +2384,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-vs-portugal-where-to-live-2026",
     title: "France vs Portugal: an honest comparison for expats deciding between the two",
-    metaTitle: "France vs Portugal 2026 — Which Country Should You Move To?",
+    metaTitle: "France vs Portugal 2027 — Which Country Should You Move To?",
     metaDesc:
       "Both are popular expat destinations. Portugal has better weather and simpler bureaucracy; France has better infrastructure and a more diverse economy. The data on what actually differs.",
     category: "moving",
@@ -2421,8 +2421,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-mountain-towns-live-work-2026",
-    title: "The best French mountain towns to live and work in 2026",
-    metaTitle: "Best French Mountain Towns to Live In 2026",
+    title: "The best French mountain towns to live and work in 2027",
+    metaTitle: "Best French Mountain Towns to Live In 2027",
     metaDesc:
       "Annecy, Grenoble, Chambéry, Briançon, Gap, Moûtiers — which French mountain towns work for year-round living, remote work, and long-term relocation, beyond the ski season.",
     category: "lifestyle",
@@ -2460,7 +2460,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-work-permit-guide-2026",
     title: "Working in France: visa and work permit options for non-EU nationals",
-    metaTitle: "France Work Visa and Work Permit Guide 2026 — Non-EU Nationals",
+    metaTitle: "France Work Visa and Work Permit Guide 2027 — Non-EU Nationals",
     metaDesc:
       "Talent passport, salarié visa, entrepreneur routes, freelance options — the actual French visa routes for working in France, what they require, and what the process looks like.",
     category: "moving",
@@ -2498,7 +2498,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "nantes-living-and-working-guide-2026",
     title: "Living in Nantes: France's most liveable large city, examined",
-    metaTitle: "Living and Working in Nantes 2026 — Deep-dive Expat Guide",
+    metaTitle: "Living and Working in Nantes 2027 — Deep-dive Expat Guide",
     metaDesc:
       "Nantes regularly tops French quality-of-life surveys. The reasons are real: diverse economy, strong public transport, Atlantic access, affordable housing by French metro standards. The honest caveats too.",
     category: "city-guide",
@@ -2536,7 +2536,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-toulouse-where-to-go-2026",
     title: "Leaving Toulouse: where to go and what you give up",
-    metaTitle: "Leaving Toulouse 2026 — Best Alternatives After Toulouse",
+    metaTitle: "Leaving Toulouse 2027 — Best Alternatives After Toulouse",
     metaDesc:
       "Toulouse's tech economy and sun have driven prices up sharply. If you're weighing an exit, here are the data-backed destinations sorted by what you value most — and an honest cost-benefit.",
     category: "city-guide",
@@ -2574,7 +2574,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "lille-living-guide-2026",
     title: "Living in Lille: the northern city that surprises",
-    metaTitle: "Living in Lille 2026 — Honest Relocation and Expat Guide",
+    metaTitle: "Living in Lille 2027 — Honest Relocation and Expat Guide",
     metaDesc:
       "Lille is 1h from Paris by Eurostar, 35 minutes from Brussels, 1h25 from London. Its quality of life is systematically underrated. The honest account of why, and what the downsides are.",
     category: "city-guide",
@@ -2612,7 +2612,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-nice-where-to-go-2026",
     title: "Leaving Nice: where to go when the Côte d'Azur becomes unaffordable",
-    metaTitle: "Leaving Nice 2026 — Affordable Alternatives to the Côte d'Azur",
+    metaTitle: "Leaving Nice 2027 — Affordable Alternatives to the Côte d'Azur",
     metaDesc:
       "Nice's property market has repriced beyond most residents' reach. The honest guide to where the sunshine, coast, and quality of life can still be found at lower cost.",
     category: "city-guide",
@@ -2650,7 +2650,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-german-expats-2026",
     title: "Moving to France from Germany: what's different, what's better, what's harder",
-    metaTitle: "Moving to France from Germany 2026 — German Expat Guide",
+    metaTitle: "Moving to France from Germany 2027 — German Expat Guide",
     metaDesc:
       "Germany and France are neighbours with similar income levels but very different bureaucratic cultures. What German expats find better in France, what they miss, and which cities suit German lifestyles.",
     category: "moving",
@@ -2688,7 +2688,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "perpignan-mediterranean-coast-living-2026",
     title: "Perpignan and the Roussillon coast: France's cheapest Mediterranean option",
-    metaTitle: "Living in Perpignan 2026 — Roussillon and Catalan Coast Guide",
+    metaTitle: "Living in Perpignan 2027 — Roussillon and Catalan Coast Guide",
     metaDesc:
       "Perpignan has more sunshine than Nice, cheaper property than anywhere else on the French Mediterranean, and a Catalan identity distinct from the rest of France. The honest case for and against.",
     category: "city-guide",
@@ -2726,7 +2726,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-nantes-where-to-go-2026",
     title: "Leaving Nantes: where to go when the Atlantic west becomes too expensive",
-    metaTitle: "Leaving Nantes 2026 — Best Alternatives After Nantes",
+    metaTitle: "Leaving Nantes 2027 — Best Alternatives After Nantes",
     metaDesc:
       "Nantes' property prices have risen 40% since 2018. If you're weighing an exit, here's where the Atlantic quality of life can be found at lower cost — with honest trade-offs.",
     category: "city-guide",
@@ -2760,7 +2760,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-rennes-where-to-go-2026",
     title: "Leaving Rennes: why people leave and where they go",
-    metaTitle: "Leaving Rennes 2026 — Alternatives and What You Give Up",
+    metaTitle: "Leaving Rennes 2027 — Alternatives and What You Give Up",
     metaDesc:
       "Rennes is fast, well-connected, and affordable. The people who leave are usually seeking more sun. Here's where they go and what the trade-offs look like.",
     category: "city-guide",
@@ -2828,7 +2828,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-irish-expats-2026",
     title: "Moving to France from Ireland: the practical guide",
-    metaTitle: "Moving to France from Ireland 2026 — Irish Expat Guide",
+    metaTitle: "Moving to France from Ireland 2027 — Irish Expat Guide",
     metaDesc:
       "EU freedom of movement makes the France-Ireland move administratively simple. The practical questions: which cities suit Irish lifestyles, how the tax system compares, where the communities are.",
     category: "moving",
@@ -2866,7 +2866,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "metz-nancy-living-guide-2026",
     title: "Metz and Nancy: the Grand Est's twin cities compared",
-    metaTitle: "Living in Metz or Nancy 2026 — Grand Est City Guide",
+    metaTitle: "Living in Metz or Nancy 2027 — Grand Est City Guide",
     metaDesc:
       "Metz and Nancy are 55km apart in Lorraine but have distinct characters. Metz is Luxembourg's commuter city; Nancy is the art nouveau capital with a university focus. The comparison.",
     category: "city-guide",
@@ -2904,7 +2904,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-montpellier-where-to-go-2026",
     title: "Leaving Montpellier: where to go when the fastest-growing French city starts to strain",
-    metaTitle: "Leaving Montpellier 2026 — Alternatives and What You Give Up",
+    metaTitle: "Leaving Montpellier 2027 — Alternatives and What You Give Up",
     metaDesc:
       "Montpellier has grown faster than its infrastructure for 15 years. If you're considering an exit, here's what the Mediterranean lifestyle looks like in cheaper, less crowded alternatives.",
     category: "city-guide",
@@ -2934,7 +2934,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-to-france-from-canada-2026",
     title: "Moving to France from Canada: the practical guide for Canadians",
-    metaTitle: "Moving to France from Canada 2026 — Canadian Expat Guide",
+    metaTitle: "Moving to France from Canada 2027 — Canadian Expat Guide",
     metaDesc:
       "Visa routes, Quebec French vs European French, tax treaties, healthcare comparisons, and the French cities Canadians most commonly choose. The practical guide for the France-Canada move.",
     category: "moving",
@@ -2971,8 +2971,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-single-professionals-2026",
-    title: "The best French cities for single professionals in 2026",
-    metaTitle: "Best French Cities for Single Professionals 2026",
+    title: "The best French cities for single professionals in 2027",
+    metaTitle: "Best French Cities for Single Professionals 2027",
     metaDesc:
       "Career options, social life density, dating market size, safety, and cost per square metre of social infrastructure. The cities where being single in France works best.",
     category: "lifestyle",
@@ -3010,7 +3010,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-netherlands-expat-comparison-2026",
     title: "France vs the Netherlands for expats: which country actually works better?",
-    metaTitle: "France vs Netherlands 2026 — Expat Comparison Guide",
+    metaTitle: "France vs Netherlands 2027 — Expat Comparison Guide",
     metaDesc:
       "Both are popular expat destinations in Western Europe. The Netherlands is more English-friendly; France has a lower cost of living outside Paris. The honest comparison on what actually matters.",
     category: "moving",
@@ -3048,7 +3048,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-countryside-living-guide-2026",
     title: "Living in the French countryside: what city-leavers actually discover",
-    metaTitle: "French Countryside Living 2026 — Honest Guide for City-Leavers",
+    metaTitle: "French Countryside Living 2027 — Honest Guide for City-Leavers",
     metaDesc:
       "The dream of the French farmhouse is older than social media, but the reality is specific. What rural France actually offers, what it doesn't, and which regions suit which profiles.",
     category: "lifestyle",
@@ -3086,7 +3086,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-vs-spain-where-to-live-2026",
     title: "France vs Spain: the honest comparison for people choosing between the two",
-    metaTitle: "France vs Spain 2026 — Which Country Should Expats Choose?",
+    metaTitle: "France vs Spain 2027 — Which Country Should Expats Choose?",
     metaDesc:
       "Both offer Mediterranean weather, good food, and lower costs than the UK or US. Spain has the Beckham Law; France has better infrastructure. The real differences that affect daily life.",
     category: "moving",
@@ -3124,7 +3124,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "aix-en-provence-living-guide-2026",
     title: "Living in Aix-en-Provence: beautiful, expensive, and worth examining carefully",
-    metaTitle: "Living in Aix-en-Provence 2026 — Honest Relocation Guide",
+    metaTitle: "Living in Aix-en-Provence 2027 — Honest Relocation Guide",
     metaDesc:
       "Aix is one of France's most genuinely beautiful cities. It's also one of the most expensive outside the Riviera, with a limited private job market and a challenging rental scene. The honest account.",
     category: "city-guide",
@@ -3162,7 +3162,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "le-havre-caen-normandy-coast-living-2026",
     title: "Le Havre and Caen: Normandy's coastal cities for people who value value",
-    metaTitle: "Living in Le Havre or Caen 2026 — Normandy Coast Guide",
+    metaTitle: "Living in Le Havre or Caen 2027 — Normandy Coast Guide",
     metaDesc:
       "Le Havre and Caen offer some of France's best city-quality-per-euro north of the Loire. Both are 2 hours from Paris; both have harbour and sea access. The comparison.",
     category: "city-guide",
@@ -3196,7 +3196,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-wine-regions-where-to-live-2026",
     title: "Living in France's wine regions: which one actually suits you?",
-    metaTitle: "Living in French Wine Regions 2026 — Bordeaux, Burgundy, Alsace",
+    metaTitle: "Living in French Wine Regions 2027 — Bordeaux, Burgundy, Alsace",
     metaDesc:
       "France has five major wine regions you can actually live in. Each has different costs, climates, and job markets. Where wine-lovers should base themselves for the vineyard lifestyle.",
     category: "lifestyle",
@@ -3234,7 +3234,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "tours-loire-valley-living-guide-2026",
     title: "Living in Tours: a quiet case for the Loire Valley's most liveable city",
-    metaTitle: "Living in Tours 2026 — Loire Valley Relocation Guide",
+    metaTitle: "Living in Tours 2027 — Loire Valley Relocation Guide",
     metaDesc:
       "Tours is 1 hour from Paris by TGV, surrounded by Châteaux de la Loire, and priced at a fraction of the cities attracting the most attention. An honest case for an underrated destination.",
     category: "city-guide",
@@ -3268,7 +3268,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "clermont-ferrand-living-guide-2026",
     title: "Living in Clermont-Ferrand: Michelin's city and the Massif Central gateway",
-    metaTitle: "Living in Clermont-Ferrand 2026 — Honest Relocation Guide",
+    metaTitle: "Living in Clermont-Ferrand 2027 — Honest Relocation Guide",
     metaDesc:
       "Clermont-Ferrand is affordable, volcanic, and powered by Michelin. One of France's most overlooked cities for quality-of-life value. The honest account.",
     category: "city-guide",
@@ -3302,7 +3302,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "navigating-french-bureaucracy-2026",
     title: "Navigating French bureaucracy: a guide that actually helps",
-    metaTitle: "French Bureaucracy for Expats 2026 — Practical Survival Guide",
+    metaTitle: "French Bureaucracy for Expats 2027 — Practical Survival Guide",
     metaDesc:
       "French administrative processes are genuinely complex. This guide covers the préfecture system, the key registrations in sequence, how to avoid the most common mistakes, and what to expect.",
     category: "moving",
@@ -3340,7 +3340,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "avignon-provence-living-guide-2026",
     title: "Living in Avignon: medieval walls, theatre, and the Southern Rhône",
-    metaTitle: "Living in Avignon 2026 — Provence Relocation Guide",
+    metaTitle: "Living in Avignon 2027 — Provence Relocation Guide",
     metaDesc:
       "Avignon combines medieval UNESCO heritage, the Southern Rhône wine country, and a manageable cost of living. An honest account of life inside and outside the walls.",
     category: "city-guide",
@@ -3374,7 +3374,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-property-france-step-by-step-2026",
     title: "Buying property in France: the complete step-by-step process",
-    metaTitle: "Buying Property in France 2026 — Step-by-Step Process Guide",
+    metaTitle: "Buying Property in France 2027 — Step-by-Step Process Guide",
     metaDesc:
       "From finding to signing: the notaire system, compromis de vente, mandatory diagnostics, cooling-off period, and final acte de vente. What each step takes, costs, and requires.",
     category: "budget",
@@ -3412,7 +3412,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "angers-living-guide-2026",
     title: "Living in Angers: the Loire city that keeps outperforming expectations",
-    metaTitle: "Living in Angers 2026 — Loire Valley Relocation Guide",
+    metaTitle: "Living in Angers 2027 — Loire Valley Relocation Guide",
     metaDesc:
       "Angers has wine, the Loire, 40 minutes from Nantes by TGV, and housing cheaper than any comparable French city. The honest account of why more people haven't discovered it.",
     category: "city-guide",
@@ -3446,7 +3446,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-to-france-complete-checklist-2026",
     title: "Moving to France: the complete checklist for the first 90 days",
-    metaTitle: "Moving to France Checklist 2026 — First 90 Days Guide",
+    metaTitle: "Moving to France Checklist 2027 — First 90 Days Guide",
     metaDesc:
       "What to do before you leave, in your first week, and in your first three months in France. Sequenced, practical, with approximate timelines. Not a general guide — a working checklist.",
     category: "moving",
@@ -3484,7 +3484,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "pau-basque-foothills-living-guide-2026",
     title: "Living in Pau: the Pyrenees at your doorstep, Paris in your pocket",
-    metaTitle: "Living in Pau 2026 — Béarn and Pyrenees Relocation Guide",
+    metaTitle: "Living in Pau 2027 — Béarn and Pyrenees Relocation Guide",
     metaDesc:
       "Pau is where the Pyrenees meet the city. Affordable, sunny, with genuine urban infrastructure — and the TGV arrives from Paris in 3h45. The honest case for Béarn.",
     category: "city-guide",
@@ -3513,8 +3513,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-artists-creatives-2026",
-    title: "The best French cities for artists and creatives in 2026",
-    metaTitle: "Best French Cities for Artists and Creatives 2026",
+    title: "The best French cities for artists and creatives in 2027",
+    metaTitle: "Best French Cities for Artists and Creatives 2027",
     metaDesc:
       "Studio space costs, cultural infrastructure density, artist communities, and quality-of-life per euro. The French cities where creative work is genuinely supported rather than merely tolerated.",
     category: "lifestyle",
@@ -3552,7 +3552,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-electricity-housing-costs-2026",
     title: "France utility and housing costs: what you'll actually pay each month",
-    metaTitle: "French Utility and Housing Costs 2026 — Real Monthly Budget Guide",
+    metaTitle: "French Utility and Housing Costs 2027 — Real Monthly Budget Guide",
     metaDesc:
       "Electricity tariffs, gas costs, internet, water charges, co-ownership fees (charges de copropriété) — the real monthly costs of French housing beyond the rent or mortgage.",
     category: "budget",
@@ -3590,7 +3590,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "dijon-relocation-guide-2026",
     title: "Living in Dijon: Burgundy's underrated capital that quietly ticks every box",
-    metaTitle: "Relocating to Dijon 2026 — expat guide: cost, lifestyle, pros",
+    metaTitle: "Relocating to Dijon 2027 — expat guide: cost, lifestyle, pros",
     metaDesc: "Dijon: TGV 1h35 to Paris, genuinely affordable housing, world-class food culture, strong university. The honest guide to living in Burgundy's capital.",
     category: "city-guide",
     emoji: "🍷",
@@ -3626,8 +3626,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lyon-best-alternatives-2026",
     title: "Leaving Lyon: where to go when France's second city stops fitting your life",
-    metaTitle: "Leaving Lyon 2026 — Best Alternative Cities for Expats",
-    metaDesc: "Housing costs, commute fatigue, neighbourhood change: the honest guide to leaving Lyon and the 8 destinations worth considering in 2026.",
+    metaTitle: "Leaving Lyon 2027 — Best Alternative Cities for Expats",
+    metaDesc: "Housing costs, commute fatigue, neighbourhood change: the honest guide to leaving Lyon and the 8 destinations worth considering in 2027.",
     category: "moving",
     emoji: "🚀",
     readMinutes: 9,
@@ -3662,8 +3662,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-healthcare-guide-expats-2026",
     title: "French healthcare for expats: how the system works and how to use it",
-    metaTitle: "French healthcare expats 2026 — PUMA, mutuelle, GP",
-    metaDesc: "How to register for French state healthcare (PUMA), what a mutuelle covers, how to find a GP, and what to expect from French hospitals. Practical guide for expats 2026.",
+    metaTitle: "French healthcare expats 2027 — PUMA, mutuelle, GP",
+    metaDesc: "How to register for French state healthcare (PUMA), what a mutuelle covers, how to find a GP, and what to expect from French hospitals. Practical guide for expats 2027.",
     category: "moving",
     emoji: "🏥",
     readMinutes: 10,
@@ -3698,7 +3698,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "grenoble-relocation-guide-2026",
     title: "Living in Grenoble: the tech city with mountains at the door — an honest assessment",
-    metaTitle: "Relocating to Grenoble 2026 — expat guide: tech jobs, mountains",
+    metaTitle: "Relocating to Grenoble 2027 — expat guide: tech jobs, mountains",
     metaDesc: "Grenoble: semiconductors, ski resorts, affordable housing, grey winters. The complete honest guide for expats and remote workers considering France's most tech-dense city outside Paris.",
     category: "city-guide",
     emoji: "⛷️",
@@ -3734,7 +3734,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-school-system-expat-guide-2026",
     title: "The French school system: what expat families need to know before enrolling",
-    metaTitle: "French School System 2026 — Expat Guide, Maternelle to Bac",
+    metaTitle: "French School System 2027 — Expat Guide, Maternelle to Bac",
     metaDesc: "Maternelle, CP, collège, lycée, baccalauréat, international sections: everything expat parents need to understand about French education before choosing a city or school.",
     category: "family",
     emoji: "📚",
@@ -3770,8 +3770,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-seniors-retirees-2026",
     title: "Best French cities for seniors and retirees: where to live well on a fixed income",
-    metaTitle: "Best French Cities for Retirees 2026 — Healthcare, Climate, Cost",
-    metaDesc: "Healthcare access, warm climate, affordable housing, and cultural life: the 8 best French cities for retirees and seniors in 2026, with honest scores and real numbers.",
+    metaTitle: "Best French Cities for Retirees 2027 — Healthcare, Climate, Cost",
+    metaDesc: "Healthcare access, warm climate, affordable housing, and cultural life: the 8 best French cities for retirees and seniors in 2027, with honest scores and real numbers.",
     category: "lifestyle",
     emoji: "🌞",
     readMinutes: 9,
@@ -3806,8 +3806,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-banking-guide-expats-2026",
     title: "Banking in France as an expat: how to open an account without losing your mind",
-    metaTitle: "France banking expats 2026 — open account, best banks",
-    metaDesc: "How to open a French bank account as a foreign resident, which banks accept expats easily, what to do while waiting, and how to transfer money internationally. Practical 2026 guide.",
+    metaTitle: "France banking expats 2027 — open account, best banks",
+    metaDesc: "How to open a French bank account as a foreign resident, which banks accept expats easily, what to do while waiting, and how to transfer money internationally. Practical 2027 guide.",
     category: "moving",
     emoji: "🏦",
     readMinutes: 8,
@@ -3842,8 +3842,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "montpellier-relocation-guide-2026",
     title: "Living in Montpellier: 300,000 sun hours and the housing market that goes with it",
-    metaTitle: "Relocating to Montpellier 2026 — expat guide: cost, climate, pros",
-    metaDesc: "Montpellier: best sunshine in mainland France, top medical faculty, rising housing prices, young energy. The honest guide for expats and remote workers in 2026.",
+    metaTitle: "Relocating to Montpellier 2027 — expat guide: cost, climate, pros",
+    metaDesc: "Montpellier: best sunshine in mainland France, top medical faculty, rising housing prices, young energy. The honest guide for expats and remote workers in 2027.",
     category: "city-guide",
     emoji: "☀️",
     readMinutes: 8,
@@ -3914,7 +3914,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-for-scandinavian-expats-2026",
     title: "France for Scandinavian expats: the real adjustments — and why most don't regret it",
-    metaTitle: "France for Scandinavian expats 2026 — Danish, Swedish, Norwegian",
+    metaTitle: "France for Scandinavian expats 2027 — Danish, Swedish, Norwegian",
     metaDesc: "What Swedes, Danes, Norwegians and Finns actually find when they move to France: bureaucracy, taxes, healthcare, social life, and which cities suit Scandinavian sensibilities best.",
     category: "moving",
     emoji: "🇫🇷",
@@ -3950,8 +3950,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-outdoor-sports-2026",
     title: "Best French cities for outdoor sports: where to live when the weekend matters as much as the job",
-    metaTitle: "Best French cities outdoor sports 2026 — cycling, skiing, hiking",
-    metaDesc: "Skiing 30 minutes away, cycling routes from your door, Atlantic surf, trail running: the 8 French cities with the best outdoor sports access. Honest 2026 guide.",
+    metaTitle: "Best French cities outdoor sports 2027 — cycling, skiing, hiking",
+    metaDesc: "Skiing 30 minutes away, cycling routes from your door, Atlantic surf, trail running: the 8 French cities with the best outdoor sports access. Honest 2027 guide.",
     category: "lifestyle",
     emoji: "🏔️",
     readMinutes: 8,
@@ -3986,7 +3986,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "cost-of-living-france-paris-vs-province-2026",
     title: "Cost of living in France: Paris vs. 10 provincial cities — the real numbers",
-    metaTitle: "France cost of living 2026 — Paris vs Bordeaux, Lyon, Rennes",
+    metaTitle: "France cost of living 2027 — Paris vs Bordeaux, Lyon, Rennes",
     metaDesc: "Side-by-side monthly budget comparison: Paris vs. 10 French cities. Rent, food, transport, dining out, taxes. Who saves €500/month by leaving Paris?",
     category: "budget",
     emoji: "💸",
@@ -4022,8 +4022,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-driving-licence-guide-expats-2026",
     title: "Your driving licence in France: what expats actually need to know",
-    metaTitle: "Driving Licence in France 2026 — Expat Guide: Exchange, Tests",
-    metaDesc: "Can you drive on your foreign licence? When do you need to exchange it? How hard is the French driving test? Honest answers for expats in France in 2026.",
+    metaTitle: "Driving Licence in France 2027 — Expat Guide: Exchange, Tests",
+    metaDesc: "Can you drive on your foreign licence? When do you need to exchange it? How hard is the French driving test? Honest answers for expats in France in 2027.",
     category: "moving",
     emoji: "🚗",
     readMinutes: 8,
@@ -4058,7 +4058,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "caen-living-guide-2026",
     title: "Living in Caen: Normandy's pragmatic capital — honest expat guide",
-    metaTitle: "Living in Caen 2026 — Expat & Relocation Guide: Cost, Housing",
+    metaTitle: "Living in Caen 2027 — Expat & Relocation Guide: Cost, Housing",
     metaDesc: "Caen: affordable housing, direct ferry to Portsmouth, good university, Calvados countryside. What it's genuinely like to live in Normandy's largest city.",
     category: "city-guide",
     emoji: "🏰",
@@ -4094,7 +4094,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "toulouse-vs-bordeaux-which-city-2026",
     title: "Toulouse vs Bordeaux: two southern capitals, two very different lives",
-    metaTitle: "Toulouse vs Bordeaux 2026 — Which City Is Right for You?",
+    metaTitle: "Toulouse vs Bordeaux 2027 — Which City Is Right for You?",
     metaDesc: "Both are sunny, affordable-by-French-standards, and growing fast. But they attract different people and offer very different daily lives. An honest comparative guide.",
     category: "city-guide",
     emoji: "⚖️",
@@ -4130,8 +4130,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-rental-market-expats-guide-2026",
     title: "Renting in France: what expats need to know before signing",
-    metaTitle: "Renting in France 2026 — Expat Guide: Guarantees, Deposits",
-    metaDesc: "Proof of income, guarantors, rental deposit, tenant rights, giving notice: everything you need to rent an apartment in France as a foreigner in 2026.",
+    metaTitle: "Renting in France 2027 — Expat Guide: Guarantees, Deposits",
+    metaDesc: "Proof of income, guarantors, rental deposit, tenant rights, giving notice: everything you need to rent an apartment in France as a foreigner in 2027.",
     category: "moving",
     emoji: "🏠",
     readMinutes: 9,
@@ -4165,9 +4165,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-remote-workers-2026",
-    title: "The best French cities for remote workers in 2026",
-    metaTitle: "Best French Cities for Remote Work 2026 — Fibre, Coworking, Cost",
-    metaDesc: "Fibre coverage, coworking density, cost of living, climate, and community: the honest ranking of the best French cities for full-time remote workers in 2026.",
+    title: "The best French cities for remote workers in 2027",
+    metaTitle: "Best French Cities for Remote Work 2027 — Fibre, Coworking, Cost",
+    metaDesc: "Fibre coverage, coworking density, cost of living, climate, and community: the honest ranking of the best French cities for full-time remote workers in 2027.",
     category: "remote-work",
     emoji: "💻",
     readMinutes: 9,
@@ -4210,7 +4210,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "france-visa-for-remote-workers-2026",
     title: "Working remotely from France: which visa, which status, what it costs",
-    metaTitle: "France Remote Work Visa 2026 — Visa Talent, APS",
+    metaTitle: "France Remote Work Visa 2027 — Visa Talent, APS",
     metaDesc: "Non-EU citizen working remotely from France: the Visa Talent (Passeport Talent), the APS, auto-entrepreneur status, and the tax implications. Honest answers.",
     category: "remote-work",
     emoji: "🛂",
@@ -4245,8 +4245,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "nice-living-guide-for-expats-2026",
-    title: "Living in Nice: the honest guide for expats in 2026",
-    metaTitle: "Living in Nice 2026 — Expat Guide: Cost, Pros, Cons",
+    title: "Living in Nice: the honest guide for expats in 2027",
+    metaTitle: "Living in Nice 2027 — Expat Guide: Cost, Pros, Cons",
     metaDesc: "Nice: 300 sunny days, Italy 30 minutes away, Promenade des Anglais. But also: expensive, earthquake risk, summer crowds. The complete honest picture.",
     category: "city-guide",
     emoji: "🌊",
@@ -4281,8 +4281,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "bordeaux-living-guide-for-expats-2026",
-    title: "Living in Bordeaux: the honest expat guide for 2026",
-    metaTitle: "Living in Bordeaux 2026 — Expat Guide: Cost, Neighbourhoods, Pros",
+    title: "Living in Bordeaux: the honest expat guide for 2027",
+    metaTitle: "Living in Bordeaux 2027 — Expat Guide: Cost, Neighbourhoods, Pros",
     metaDesc: "Bordeaux: wine country, TGV to Paris in 2h, affordable by French standards. But also: rising prices, Atlantic rain, tech jobs outside Paris are harder to find. Full picture.",
     category: "city-guide",
     emoji: "🍷",
@@ -4317,8 +4317,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "lille-living-guide-for-expats-2026",
-    title: "Living in Lille: the honest expat guide for 2026",
-    metaTitle: "Living in Lille 2026 — Expat Guide: Cost, Pros and Cons",
+    title: "Living in Lille: the honest expat guide for 2027",
+    metaTitle: "Living in Lille 2027 — Expat Guide: Cost, Pros and Cons",
     metaDesc: "Lille: affordable, flat, well-connected to Paris and Brussels. But also: grey, cold, and a job market that depends heavily on which sector you work in. Full honest picture.",
     category: "city-guide",
     emoji: "🧇",
@@ -4353,9 +4353,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-paris-best-cities-2026",
-    title: "Leaving Paris in 2026: where people actually go (and why)",
-    metaTitle: "Leaving Paris 2026 — Where to Move: Bordeaux, Nantes, Rennes",
-    metaDesc: "Paris leavers in 2026 don't all go to Bordeaux. The data on where people actually move, what they gain, what they miss, and which French cities genuinely deliver on the promise.",
+    title: "Leaving Paris in 2027: where people actually go (and why)",
+    metaTitle: "Leaving Paris 2027 — Where to Move: Bordeaux, Nantes, Rennes",
+    metaDesc: "Paris leavers in 2027 don't all go to Bordeaux. The data on where people actually move, what they gain, what they miss, and which French cities genuinely deliver on the promise.",
     category: "lifestyle",
     emoji: "🗼",
     readMinutes: 8,
@@ -4389,8 +4389,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "montpellier-living-guide-for-expats-2026",
-    title: "Living in Montpellier: the honest expat guide for 2026",
-    metaTitle: "Living in Montpellier 2026 — Expat Guide: Cost, Beaches",
+    title: "Living in Montpellier: the honest expat guide for 2027",
+    metaTitle: "Living in Montpellier 2027 — Expat Guide: Cost, Beaches",
     metaDesc: "Montpellier: Mediterranean sun, 12km from the sea, 250,000 students, TGV to Paris. But also: summer heat, housing tension, and a job market that is narrower than it looks. Full picture.",
     category: "city-guide",
     emoji: "☀️",
@@ -4425,9 +4425,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-for-families-2026",
-    title: "Best French cities for families in 2026: the honest ranking",
-    metaTitle: "Best French Cities for Families 2026 — Schools, Safety, Cost",
-    metaDesc: "The best French cities for families in 2026, based on school quality, safety, housing costs, green space, and family infrastructure. The data-led ranking.",
+    title: "Best French cities for families in 2027: the honest ranking",
+    metaTitle: "Best French Cities for Families 2027 — Schools, Safety, Cost",
+    metaDesc: "The best French cities for families in 2027, based on school quality, safety, housing costs, green space, and family infrastructure. The data-led ranking.",
     category: "family",
     emoji: "👨‍👩‍👧",
     readMinutes: 8,
@@ -4461,8 +4461,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "grenoble-living-guide-for-expats-2026",
-    title: "Living in Grenoble: the honest expat guide for 2026",
-    metaTitle: "Living in Grenoble 2026 — Expat Guide: Alps Access, Cost",
+    title: "Living in Grenoble: the honest expat guide for 2027",
+    metaTitle: "Living in Grenoble 2027 — Expat Guide: Alps Access, Cost",
     metaDesc: "Grenoble: surrounded by three mountain ranges, Europe's leading research hub, affordable housing. But also: pollution in winter, limited nightlife, heavy industry legacy. Honest picture.",
     category: "city-guide",
     emoji: "⛰️",
@@ -4497,9 +4497,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "clermont-ferrand-living-guide-for-expats-2026",
-    title: "Living in Clermont-Ferrand: the honest expat guide for 2026",
-    metaTitle: "Living in Clermont-Ferrand 2026 — Expat Guide & Costs",
-    metaDesc: "Clermont-Ferrand: volcanoes, Michelin, affordable housing, mountain access. And one of France's most underrated cities for quality of life. The honest expat picture for 2026.",
+    title: "Living in Clermont-Ferrand: the honest expat guide for 2027",
+    metaTitle: "Living in Clermont-Ferrand 2027 — Expat Guide & Costs",
+    metaDesc: "Clermont-Ferrand: volcanoes, Michelin, affordable housing, mountain access. And one of France's most underrated cities for quality of life. The honest expat picture for 2027.",
     category: "city-guide",
     emoji: "🌋",
     readMinutes: 6,
@@ -4533,8 +4533,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "strasbourg-living-guide-for-expats-2026",
-    title: "Living in Strasbourg as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Strasbourg 2026 — Expat Guide: Costs, Neighbourhoods",
+    title: "Living in Strasbourg as an Expat: The Honest Guide (2027)",
+    metaTitle: "Living in Strasbourg 2027 — Expat Guide: Costs, Neighbourhoods",
     metaDesc: "Everything expats need to know about Strasbourg: rent, EU institutions, German border life, neighbourhoods, healthcare, and the real daily experience.",
     category: "city-guide",
     emoji: "🇪🇺",
@@ -4573,9 +4573,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "rennes-living-guide-for-expats-2026",
-    title: "Living in Rennes as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Rennes 2026 — expat guide: cost of living, tech scene",
-    metaDesc: "Everything expats need to know about Rennes in 2026: rent, tech industry, neighbourhoods, Breton culture, and the real daily experience.",
+    title: "Living in Rennes as an Expat: The Honest Guide (2027)",
+    metaTitle: "Living in Rennes 2027 — expat guide: cost of living, tech scene",
+    metaDesc: "Everything expats need to know about Rennes in 2027: rent, tech industry, neighbourhoods, Breton culture, and the real daily experience.",
     category: "city-guide",
     emoji: "🦁",
     readMinutes: 10,
@@ -4613,9 +4613,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "nantes-living-guide-for-expats-2026",
-    title: "Living in Nantes as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Nantes 2026 — expat guide: cost of living, culture",
-    metaDesc: "Everything expats need to know about Nantes in 2026: rent prices, industries, neighbourhoods, cultural scene, and the real daily experience in France's Atlantic capital.",
+    title: "Living in Nantes as an Expat: The Honest Guide (2027)",
+    metaTitle: "Living in Nantes 2027 — expat guide: cost of living, culture",
+    metaDesc: "Everything expats need to know about Nantes in 2027: rent prices, industries, neighbourhoods, cultural scene, and the real daily experience in France's Atlantic capital.",
     category: "city-guide",
     emoji: "🐘",
     readMinutes: 10,
@@ -4653,8 +4653,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-education-system-guide-for-expat-parents-2026",
-    title: "The French Education System: What Expat Parents Need to Know (2026)",
-    metaTitle: "French Education System for Expats 2026 — Schools & Enrolment",
+    title: "The French Education System: What Expat Parents Need to Know (2027)",
+    metaTitle: "French Education System for Expats 2027 — Schools & Enrolment",
     metaDesc: "A practical guide to enrolling children in French schools as an expat. Public vs private, maternelle to lycée, bilingual options, baccalaureate, and the realities.",
     category: "moving",
     emoji: "🎒",
@@ -4693,9 +4693,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "driving-in-france-expat-guide-2026",
-    title: "Driving in France as an Expat: Licence Exchange, Rules & What's Changed (2026)",
-    metaTitle: "Driving in France as Expat 2026 — licence exchange, rules, fines",
-    metaDesc: "Complete guide to driving in France as an expat in 2026: licence exchange rules, French road laws, fines, speed cameras, motorway system, and buying a car.",
+    title: "Driving in France as an Expat: Licence Exchange, Rules & What's Changed (2027)",
+    metaTitle: "Driving in France as Expat 2027 — licence exchange, rules, fines",
+    metaDesc: "Complete guide to driving in France as an expat in 2027: licence exchange rules, French road laws, fines, speed cameras, motorway system, and buying a car.",
     category: "moving",
     emoji: "🚗",
     readMinutes: 10,
@@ -4729,9 +4729,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "toulouse-living-guide-for-expats-2026",
-    title: "Living in Toulouse as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Toulouse 2026 — expat guide: Airbus, cost of living",
-    metaDesc: "Everything expats need to know about Toulouse in 2026: aerospace industry, rent, neighbourhoods, the Garonne, and the real experience of France's fourth city.",
+    title: "Living in Toulouse as an Expat: The Honest Guide (2027)",
+    metaTitle: "Living in Toulouse 2027 — expat guide: Airbus, cost of living",
+    metaDesc: "Everything expats need to know about Toulouse in 2027: aerospace industry, rent, neighbourhoods, the Garonne, and the real experience of France's fourth city.",
     category: "city-guide",
     emoji: "🚀",
     readMinutes: 10,
@@ -4769,9 +4769,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "lyon-living-guide-for-expats-2026",
-    title: "Living in Lyon as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Lyon 2026 — Expat Guide: Costs, Arrondissements, Food",
-    metaDesc: "Everything expats need to know about Lyon in 2026: rent, best arrondissements, the food scene, international schools, healthcare, and the real daily experience.",
+    title: "Living in Lyon as an Expat: The Honest Guide (2027)",
+    metaTitle: "Living in Lyon 2027 — Expat Guide: Costs, Arrondissements, Food",
+    metaDesc: "Everything expats need to know about Lyon in 2027: rent, best arrondissements, the food scene, international schools, healthcare, and the real daily experience.",
     category: "city-guide",
     emoji: "🦁",
     readMinutes: 11,
@@ -4809,9 +4809,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "marseille-living-guide-for-expats-2026",
-    title: "Living in Marseille as an Expat: The Honest Guide (2026)",
-    metaTitle: "Living in Marseille 2026 — expat guide: neighbourhoods, safety",
-    metaDesc: "The honest guide to Marseille for expats in 2026: best neighbourhoods, realistic safety picture, cost of living, port culture, and what actually makes it work.",
+    title: "Living in Marseille as an Expat: The Honest Guide (2027)",
+    metaTitle: "Living in Marseille 2027 — expat guide: neighbourhoods, safety",
+    metaDesc: "The honest guide to Marseille for expats in 2027: best neighbourhoods, realistic safety picture, cost of living, port culture, and what actually makes it work.",
     category: "city-guide",
     emoji: "⚓",
     readMinutes: 11,
@@ -4849,9 +4849,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-renting-apartment-guide-expats-2026",
-    title: "Renting a Flat in France as an Expat: The Complete Guide (2026)",
-    metaTitle: "Renting in France 2026 Expat Guide — dossier, garantie, lease",
-    metaDesc: "How to rent a flat in France as a foreigner in 2026: what a dossier needs, guarantees, the lease, tenant rights, and traps to avoid.",
+    title: "Renting a Flat in France as an Expat: The Complete Guide (2027)",
+    metaTitle: "Renting in France 2027 Expat Guide — dossier, garantie, lease",
+    metaDesc: "How to rent a flat in France as a foreigner in 2027: what a dossier needs, guarantees, the lease, tenant rights, and traps to avoid.",
     category: "moving",
     emoji: "🔑",
     readMinutes: 12,
@@ -4889,9 +4889,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "bordeaux-living-guide-for-expats-deep-dive-2026",
-    title: "Living in Bordeaux as an Expat in 2026: What Nobody Tells You",
-    metaTitle: "Living in Bordeaux 2026 — The Real Expat Guide Beyond the Wine",
-    metaDesc: "The unvarnished Bordeaux expat guide for 2026: real cost of living, neighbourhoods after gentrification, the Bordeaux paradox, and what actually works long-term.",
+    title: "Living in Bordeaux as an Expat in 2027: What Nobody Tells You",
+    metaTitle: "Living in Bordeaux 2027 — The Real Expat Guide Beyond the Wine",
+    metaDesc: "The unvarnished Bordeaux expat guide for 2027: real cost of living, neighbourhoods after gentrification, the Bordeaux paradox, and what actually works long-term.",
     category: "city-guide",
     emoji: "🍷",
     readMinutes: 10,
@@ -4930,8 +4930,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "moving-pets-to-france-complete-guide-2026",
     title: "Moving Your Pet to France: The Complete 2026 Guide",
-    metaTitle: "Moving Pets to France 2026 — dogs, cats, requirements, paperwork",
-    metaDesc: "How to move your dog or cat to France in 2026: EU pet passport, rabies vaccination, microchip, airline rules, costs, vet network, and city-by-city pet-friendliness.",
+    metaTitle: "Moving Pets to France 2027 — dogs, cats, requirements, paperwork",
+    metaDesc: "How to move your dog or cat to France in 2027: EU pet passport, rabies vaccination, microchip, airline rules, costs, vet network, and city-by-city pet-friendliness.",
     category: "moving",
     emoji: "🐾",
     readMinutes: 11,
@@ -4969,9 +4969,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "childcare-france-expat-parents-guide-2026",
-    title: "Childcare in France for Expat Parents: Nursery to Maternelle (2026)",
-    metaTitle: "Childcare in France 2026 — crèche, assistante maternelle",
-    metaDesc: "How childcare works in France in 2026 for expat parents: crèche vs. assistante maternelle vs. private daycare, school enrolment, CAF subsidies, real costs.",
+    title: "Childcare in France for Expat Parents: Nursery to Maternelle (2027)",
+    metaTitle: "Childcare in France 2027 — crèche, assistante maternelle",
+    metaDesc: "How childcare works in France in 2027 for expat parents: crèche vs. assistante maternelle vs. private daycare, school enrolment, CAF subsidies, real costs.",
     category: "family",
     emoji: "👶",
     readMinutes: 11,
@@ -5009,9 +5009,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-climate-change-outlook-expats-2026",
-    title: "France in 2040: A Climate-Informed Relocation Guide (2026)",
+    title: "France in 2040: A Climate-Informed Relocation Guide (2027)",
     metaTitle: "France Climate 2040 — Where to Live as the Climate Changes",
-    metaDesc: "If you are moving to France in 2026 with a 10-15 year horizon, here is what climate science says about which French regions will remain liveable, and which will struggle.",
+    metaDesc: "If you are moving to France in 2027 with a 10-15 year horizon, here is what climate science says about which French regions will remain liveable, and which will struggle.",
     category: "lifestyle",
     emoji: "🌡️",
     readMinutes: 12,
@@ -5089,9 +5089,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-utilities-internet-mobile-setup-expat-2026",
-    title: "Setting Up Utilities, Internet and Mobile in France as an Expat (2026)",
-    metaTitle: "France Utilities Setup 2026 — EDF, internet, mobile, water, gas",
-    metaDesc: "How to set up electricity (EDF), internet (Free, Orange, SFR), mobile, gas and water in France as an expat in 2026: providers, costs, contracts, billing.",
+    title: "Setting Up Utilities, Internet and Mobile in France as an Expat (2027)",
+    metaTitle: "France Utilities Setup 2027 — EDF, internet, mobile, water, gas",
+    metaDesc: "How to set up electricity (EDF), internet (Free, Orange, SFR), mobile, gas and water in France as an expat in 2027: providers, costs, contracts, billing.",
     category: "moving",
     emoji: "⚡",
     readMinutes: 10,
@@ -5129,9 +5129,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "pregnancy-giving-birth-france-expat-guide-2026",
-    title: "Pregnancy and Giving Birth in France as an Expat (2026)",
-    metaTitle: "Pregnancy & Birth in France 2026 — Expat Guide, Care, Costs",
-    metaDesc: "How prenatal care and giving birth work in France for expats in 2026: gynae, sage-femme, hospital choice, costs, maternity leave, and birth registration.",
+    title: "Pregnancy and Giving Birth in France as an Expat (2027)",
+    metaTitle: "Pregnancy & Birth in France 2027 — Expat Guide, Care, Costs",
+    metaDesc: "How prenatal care and giving birth work in France for expats in 2027: gynae, sage-femme, hospital choice, costs, maternity leave, and birth registration.",
     category: "family",
     emoji: "🤰",
     readMinutes: 12,
@@ -5169,9 +5169,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-citizenship-naturalisation-expat-guide-2026",
-    title: "Becoming French: Citizenship and Naturalisation for Expats (2026)",
-    metaTitle: "French Citizenship 2026 — naturalisation, eligibility, dossier",
-    metaDesc: "How to obtain French citizenship in 2026 as an expat: eligibility, residency requirement, dossier, language test, naturalisation interview, timelines.",
+    title: "Becoming French: Citizenship and Naturalisation for Expats (2027)",
+    metaTitle: "French Citizenship 2027 — naturalisation, eligibility, dossier",
+    metaDesc: "How to obtain French citizenship in 2027 as an expat: eligibility, residency requirement, dossier, language test, naturalisation interview, timelines.",
     category: "moving",
     emoji: "🇫🇷",
     readMinutes: 11,
@@ -5249,9 +5249,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "shipping-belongings-to-france-expat-guide-2026",
-    title: "Shipping Your Belongings to France: The 2026 Expat Guide",
-    metaTitle: "Shipping Belongings to France 2026 — costs, providers, customs",
-    metaDesc: "How to ship your furniture and belongings to France in 2026: choose a mover, sea vs air freight, customs forms, costs, what to bring and what to sell.",
+    title: "Shipping Your Belongings to France: The 2027 Expat Guide",
+    metaTitle: "Shipping Belongings to France 2027 — costs, providers, customs",
+    metaDesc: "How to ship your furniture and belongings to France in 2027: choose a mover, sea vs air freight, customs forms, costs, what to bring and what to sell.",
     category: "moving",
     emoji: "📦",
     readMinutes: 11,
@@ -5289,9 +5289,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "le-mans-living-guide-expats-2026",
-    title: "Living in Le Mans as an Expat: A Loire-Sarthe Guide (2026)",
-    metaTitle: "Living in Le Mans 2026 — Expat Guide: Costs, Paris by TGV",
-    metaDesc: "Honest expat guide to Le Mans in 2026: 55-min TGV to Paris, half the property prices, medieval Cité Plantagenêt, real cost of living.",
+    title: "Living in Le Mans as an Expat: A Loire-Sarthe Guide (2027)",
+    metaTitle: "Living in Le Mans 2027 — Expat Guide: Costs, Paris by TGV",
+    metaDesc: "Honest expat guide to Le Mans in 2027: 55-min TGV to Paris, half the property prices, medieval Cité Plantagenêt, real cost of living.",
     category: "city-guide",
     emoji: "🏎️",
     readMinutes: 9,
@@ -5329,9 +5329,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "saint-etienne-living-guide-expats-2026",
-    title: "Living in Saint-Étienne as an Expat: The Underdog Guide (2026)",
-    metaTitle: "Living in Saint-Étienne 2026 — Expat Guide, Cheapest Metro",
-    metaDesc: "Honest expat guide to Saint-Étienne in 2026: France's cheapest major city, Lyon at 40 min, UNESCO Design City, the Stade Geoffroy-Guichard pulse.",
+    title: "Living in Saint-Étienne as an Expat: The Underdog Guide (2027)",
+    metaTitle: "Living in Saint-Étienne 2027 — Expat Guide, Cheapest Metro",
+    metaDesc: "Honest expat guide to Saint-Étienne in 2027: France's cheapest major city, Lyon at 40 min, UNESCO Design City, the Stade Geoffroy-Guichard pulse.",
     category: "city-guide",
     emoji: "⚙️",
     readMinutes: 10,
@@ -5369,9 +5369,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-lgbtq-expat-guide-2026",
-    title: "France for LGBTQ+ Expats: The 2026 Guide",
-    metaTitle: "LGBTQ+ Moving to France 2026 — best cities, legal rights",
-    metaDesc: "Moving to France as an LGBTQ+ expat in 2026: legal rights (marriage, adoption, healthcare), the most welcoming cities, communities and what to know.",
+    title: "France for LGBTQ+ Expats: The 2027 Guide",
+    metaTitle: "LGBTQ+ Moving to France 2027 — best cities, legal rights",
+    metaDesc: "Moving to France as an LGBTQ+ expat in 2027: legal rights (marriage, adoption, healthcare), the most welcoming cities, communities and what to know.",
     category: "lifestyle",
     emoji: "🏳️‍🌈",
     readMinutes: 11,
@@ -5409,9 +5409,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "limoges-living-guide-expats-2026",
-    title: "Living in Limoges as an Expat: The Forgotten Bargain (2026)",
-    metaTitle: "Living in Limoges 2026 — Expat Guide: Costs, Neighbourhoods",
-    metaDesc: "Honest expat guide to Limoges in 2026: cheapest major city in France, central French nature, porcelain heritage, what it lacks and offers.",
+    title: "Living in Limoges as an Expat: The Forgotten Bargain (2027)",
+    metaTitle: "Living in Limoges 2027 — Expat Guide: Costs, Neighbourhoods",
+    metaDesc: "Honest expat guide to Limoges in 2027: cheapest major city in France, central French nature, porcelain heritage, what it lacks and offers.",
     category: "city-guide",
     emoji: "🏺",
     readMinutes: 9,
@@ -5449,9 +5449,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "tours-vs-orleans-loire-comparison-expats-2026",
-    title: "Tours vs Orléans: Which Loire Valley City for Expats? (2026)",
-    metaTitle: "Tours vs Orléans 2026 — Loire Valley Expat City Comparison",
-    metaDesc: "Tours or Orléans for expats in 2026? Compared by cost of living, TGV access to Paris, neighbourhoods, expat community, schools, lifestyle.",
+    title: "Tours vs Orléans: Which Loire Valley City for Expats? (2027)",
+    metaTitle: "Tours vs Orléans 2027 — Loire Valley Expat City Comparison",
+    metaDesc: "Tours or Orléans for expats in 2027? Compared by cost of living, TGV access to Paris, neighbourhoods, expat community, schools, lifestyle.",
     category: "city-guide",
     emoji: "🏰",
     readMinutes: 10,
@@ -5493,9 +5493,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-winter-ski-expat-guide-2026",
-    title: "France for Winter & Ski Lovers: The Expat Settler's Guide (2026)",
-    metaTitle: "Living in the French Alps & Pyrenees 2026 — Ski Expat Guide",
-    metaDesc: "Where to live in the French Alps or Pyrenees as a ski-loving expat in 2026: best resort towns, real costs, remote work, schools, year-round liveability.",
+    title: "France for Winter & Ski Lovers: The Expat Settler's Guide (2027)",
+    metaTitle: "Living in the French Alps & Pyrenees 2027 — Ski Expat Guide",
+    metaDesc: "Where to live in the French Alps or Pyrenees as a ski-loving expat in 2027: best resort towns, real costs, remote work, schools, year-round liveability.",
     category: "lifestyle",
     emoji: "⛷️",
     readMinutes: 12,
@@ -5533,9 +5533,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "biarritz-basque-coast-expat-guide-2026",
-    title: "Living in Biarritz & the Basque Coast as an Expat (2026)",
-    metaTitle: "Biarritz Basque Coast 2026 — expat guide: surf, cost of living",
-    metaDesc: "Honest expat guide to Biarritz, Anglet, Saint-Jean-de-Luz, Bayonne in 2026: surf culture, real cost of living, neighbourhoods, Basque identity, year-round life.",
+    title: "Living in Biarritz & the Basque Coast as an Expat (2027)",
+    metaTitle: "Biarritz Basque Coast 2027 — expat guide: surf, cost of living",
+    metaDesc: "Honest expat guide to Biarritz, Anglet, Saint-Jean-de-Luz, Bayonne in 2027: surf culture, real cost of living, neighbourhoods, Basque identity, year-round life.",
     category: "city-guide",
     emoji: "🌊",
     readMinutes: 11,
@@ -5577,9 +5577,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "mortgage-france-foreigner-expat-guide-2026",
-    title: "Getting a Mortgage in France as a Foreigner (2026)",
-    metaTitle: "France Mortgage for Foreigners 2026 — non-resident, expat, rates",
-    metaDesc: "How to get a mortgage in France as a foreigner in 2026: non-resident vs resident, banks, rates, dossier, LTV, broker, taxes, the complete process.",
+    title: "Getting a Mortgage in France as a Foreigner (2027)",
+    metaTitle: "France Mortgage for Foreigners 2027 — non-resident, expat, rates",
+    metaDesc: "How to get a mortgage in France as a foreigner in 2027: non-resident vs resident, banks, rates, dossier, LTV, broker, taxes, the complete process.",
     category: "moving",
     emoji: "🏦",
     readMinutes: 12,
@@ -5621,9 +5621,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "bringing-car-to-france-immatriculation-expat-guide-2026",
-    title: "Bringing Your Car to France: Import & Registration Guide (2026)",
-    metaTitle: "Importing Car to France 2026 — immatriculation, customs, EU",
-    metaDesc: "How to bring your car to France in 2026: EU vs non-EU imports, customs, TVA, technical inspection, immatriculation, costs, timeline.",
+    title: "Bringing Your Car to France: Import & Registration Guide (2027)",
+    metaTitle: "Importing Car to France 2027 — immatriculation, customs, EU",
+    metaDesc: "How to bring your car to France in 2027: EU vs non-EU imports, customs, TVA, technical inspection, immatriculation, costs, timeline.",
     category: "moving",
     emoji: "🚗",
     readMinutes: 11,
@@ -5661,9 +5661,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "dental-vision-care-france-expat-guide-2026",
-    title: "Dental and Vision Care in France for Expats (2026)",
-    metaTitle: "Dental & Vision Care in France 2026 — Expat Guide, Costs",
-    metaDesc: "How dental and vision care work in France for expats in 2026: Assurance Maladie reimbursement, 100% Santé reform, mutuelle, costs of glasses, crowns, implants.",
+    title: "Dental and Vision Care in France for Expats (2027)",
+    metaTitle: "Dental & Vision Care in France 2027 — Expat Guide, Costs",
+    metaDesc: "How dental and vision care work in France for expats in 2027: Assurance Maladie reimbursement, 100% Santé reform, mutuelle, costs of glasses, crowns, implants.",
     category: "lifestyle",
     emoji: "🦷",
     readMinutes: 10,
@@ -5701,9 +5701,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-cross-border-workers-expat-guide-2026",
-    title: "France for Cross-Border Workers: Switzerland, Germany, Luxembourg, Belgium (2026)",
-    metaTitle: "Cross-Border Workers in France 2026 — Expat Guide",
-    metaDesc: "Living in France while working in Switzerland, Germany, Luxembourg or Belgium in 2026: taxation, healthcare, transport, the best border cities, costs.",
+    title: "France for Cross-Border Workers: Switzerland, Germany, Luxembourg, Belgium (2027)",
+    metaTitle: "Cross-Border Workers in France 2027 — Expat Guide",
+    metaDesc: "Living in France while working in Switzerland, Germany, Luxembourg or Belgium in 2027: taxation, healthcare, transport, the best border cities, costs.",
     category: "remote-work",
     emoji: "🌍",
     readMinutes: 11,
@@ -5741,9 +5741,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "aix-en-provence-vs-marseille-expat-comparison-2026",
-    title: "Aix-en-Provence vs Marseille: Which for Expats? (2026)",
-    metaTitle: "Aix vs Marseille 2026 — expat city comparison, cost of living",
-    metaDesc: "Aix-en-Provence or Marseille for expats in 2026? Compared by cost of living, neighbourhoods, safety, schools, expat community, climate, and lifestyle.",
+    title: "Aix-en-Provence vs Marseille: Which for Expats? (2027)",
+    metaTitle: "Aix vs Marseille 2027 — expat city comparison, cost of living",
+    metaDesc: "Aix-en-Provence or Marseille for expats in 2027? Compared by cost of living, neighbourhoods, safety, schools, expat community, climate, and lifestyle.",
     category: "city-guide",
     emoji: "🌞",
     readMinutes: 10,
@@ -5789,9 +5789,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "working-from-france-foreign-employer-expat-guide-2026",
-    title: "Working from France for a Foreign Employer: Your Options (2026)",
+    title: "Working from France for a Foreign Employer: Your Options (2027)",
     metaTitle: "Working from France for Foreign Employer 2026 — EOR, contractor",
-    metaDesc: "Working remotely from France for a US, UK or international employer in 2026: employer of record (EOR), contractor status, French branch, tax and social charges.",
+    metaDesc: "Working remotely from France for a US, UK or international employer in 2027: employer of record (EOR), contractor status, French branch, tax and social charges.",
     category: "remote-work",
     emoji: "💻",
     readMinutes: 11,
@@ -5833,9 +5833,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "lille-north-france-expat-guide-2026",
-    title: "Living in Lille and the North as an Expat (2026)",
-    metaTitle: "Living in Lille 2026 — expat guide: cost of living, Eurostar",
-    metaDesc: "Honest expat guide to Lille and the Hauts-de-France region in 2026: 1h to Paris, 35min to Brussels, real cost of living, neighbourhoods, the Flemish-French culture.",
+    title: "Living in Lille and the North as an Expat (2027)",
+    metaTitle: "Living in Lille 2027 — expat guide: cost of living, Eurostar",
+    metaDesc: "Honest expat guide to Lille and the Hauts-de-France region in 2027: 1h to Paris, 35min to Brussels, real cost of living, neighbourhoods, the Flemish-French culture.",
     category: "city-guide",
     emoji: "🍺",
     readMinutes: 10,
@@ -5877,9 +5877,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-france-non-eu-students-guide-2026",
-    title: "Studying in France as a Non-EU Student: The 2026 Guide",
-    metaTitle: "Studying in France 2026 — non-EU student guide: visa, fees",
-    metaDesc: "Studying in France as a non-EU student in 2026: visa (VLS-TS), Campus France, universities, fees, accommodation, working rights, healthcare, life after graduation.",
+    title: "Studying in France as a Non-EU Student: The 2027 Guide",
+    metaTitle: "Studying in France 2027 — non-EU student guide: visa, fees",
+    metaDesc: "Studying in France as a non-EU student in 2027: visa (VLS-TS), Campus France, universities, fees, accommodation, working rights, healthcare, life after graduation.",
     category: "moving",
     emoji: "🎓",
     readMinutes: 12,
@@ -5921,9 +5921,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-marseille-where-to-go-expat-2026",
-    title: "Leaving Marseille: Where to Go (2026)",
-    metaTitle: "Leaving Marseille 2026 — best cities to move to, alternatives",
-    metaDesc: "Where to move if leaving Marseille in 2026: top alternatives by profile (family, remote work, Mediterranean lover, professional). Honest comparisons.",
+    title: "Leaving Marseille: Where to Go (2027)",
+    metaTitle: "Leaving Marseille 2027 — best cities to move to, alternatives",
+    metaDesc: "Where to move if leaving Marseille in 2027: top alternatives by profile (family, remote work, Mediterranean lover, professional). Honest comparisons.",
     category: "city-guide",
     emoji: "🧭",
     readMinutes: 9,
@@ -5961,9 +5961,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "perpignan-roussillon-mediterranean-expat-guide-2026",
-    title: "Living in Perpignan and the Roussillon as an Expat (2026)",
-    metaTitle: "Living in Perpignan 2026 — Expat Guide: Mediterranean, Costs",
-    metaDesc: "Honest expat guide to Perpignan and the French Catalan coast in 2026: cheap Mediterranean property, Spain proximity, Catalan culture, climate trade-offs.",
+    title: "Living in Perpignan and the Roussillon as an Expat (2027)",
+    metaTitle: "Living in Perpignan 2027 — Expat Guide: Mediterranean, Costs",
+    metaDesc: "Honest expat guide to Perpignan and the French Catalan coast in 2027: cheap Mediterranean property, Spain proximity, Catalan culture, climate trade-offs.",
     category: "city-guide",
     emoji: "🍷",
     readMinutes: 10,
@@ -6005,9 +6005,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "buying-rural-property-france-expat-guide-2026",
-    title: "Buying Rural Property in France as an Expat (2026)",
-    metaTitle: "Buying Rural Property France 2026 — expat guide: where, costs",
-    metaDesc: "How to buy rural property in France as an expat in 2026: best regions, real costs, renovation reality, water and septic, taxes, and pitfalls to avoid.",
+    title: "Buying Rural Property in France as an Expat (2027)",
+    metaTitle: "Buying Rural Property France 2027 — expat guide: where, costs",
+    metaDesc: "How to buy rural property in France as an expat in 2027: best regions, real costs, renovation reality, water and septic, taxes, and pitfalls to avoid.",
     category: "moving",
     emoji: "🏚️",
     readMinutes: 12,
@@ -6049,9 +6049,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-lyon-expat-where-to-move-2026",
-    title: "Leaving Lyon: Where to Move (2026)",
-    metaTitle: "Leaving Lyon 2026 — best cities to move to, alternatives",
-    metaDesc: "Where to move from Lyon in 2026: top alternatives by profile (family, professional, cheaper, sunnier). Honest comparisons and trade-offs.",
+    title: "Leaving Lyon: Where to Move (2027)",
+    metaTitle: "Leaving Lyon 2027 — best cities to move to, alternatives",
+    metaDesc: "Where to move from Lyon in 2027: top alternatives by profile (family, professional, cheaper, sunnier). Honest comparisons and trade-offs.",
     category: "city-guide",
     emoji: "🧭",
     readMinutes: 9,
@@ -6089,9 +6089,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "annecy-deep-dive-expat-guide-2026",
-    title: "Living in Annecy as an Expat: The Lake-and-Alps Deep Dive (2026)",
-    metaTitle: "Living in Annecy 2026 — expat guide: deep dive, neighbourhoods",
-    metaDesc: "Honest deep-dive expat guide to Annecy in 2026: lake, Alps, real cost of living, Geneva commute, neighbourhoods, schools, climate, and the reality after a year.",
+    title: "Living in Annecy as an Expat: The Lake-and-Alps Deep Dive (2027)",
+    metaTitle: "Living in Annecy 2027 — expat guide: deep dive, neighbourhoods",
+    metaDesc: "Honest deep-dive expat guide to Annecy in 2027: lake, Alps, real cost of living, Geneva commute, neighbourhoods, schools, climate, and the reality after a year.",
     category: "city-guide",
     emoji: "🏔️",
     readMinutes: 12,
@@ -6137,9 +6137,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "buying-property-france-step-by-step-expat-guide-2026",
-    title: "Buying Property in France: The Step-by-Step Expat Guide (2026)",
-    metaTitle: "Buying Property in France 2026 — Step-by-Step Expat Guide",
-    metaDesc: "Step-by-step guide to buying property in France in 2026: from search to keys, the notaire system, costs, taxes, common pitfalls for foreign buyers.",
+    title: "Buying Property in France: The Step-by-Step Expat Guide (2027)",
+    metaTitle: "Buying Property in France 2027 — Step-by-Step Expat Guide",
+    metaDesc: "Step-by-step guide to buying property in France in 2027: from search to keys, the notaire system, costs, taxes, common pitfalls for foreign buyers.",
     category: "moving",
     emoji: "🔑",
     readMinutes: 13,
@@ -6181,9 +6181,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-with-disabled-chronic-illness-expat-guide-2026",
-    title: "France with a Disability or Chronic Illness: An Expat Guide (2026)",
-    metaTitle: "Disability & Chronic Illness in France 2026 — Expat Guide",
-    metaDesc: "Living in France with a disability or chronic illness as an expat in 2026: accessibility, MDPH, ALD healthcare, accessible cities, benefits, and the real picture.",
+    title: "France with a Disability or Chronic Illness: An Expat Guide (2027)",
+    metaTitle: "Disability & Chronic Illness in France 2027 — Expat Guide",
+    metaDesc: "Living in France with a disability or chronic illness as an expat in 2027: accessibility, MDPH, ALD healthcare, accessible cities, benefits, and the real picture.",
     category: "lifestyle",
     emoji: "♿",
     readMinutes: 11,
@@ -6225,9 +6225,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "navigating-cpam-doctolib-france-healthcare-expat-2026",
-    title: "Navigating CPAM, Doctolib and Finding a Doctor in France (2026)",
-    metaTitle: "CPAM & Doctolib in France 2026 — Expat Healthcare Guide",
-    metaDesc: "How to register with CPAM, declare a médecin traitant, use Doctolib and navigate the French healthcare system in 2026 as a new expat in France.",
+    title: "Navigating CPAM, Doctolib and Finding a Doctor in France (2027)",
+    metaTitle: "CPAM & Doctolib in France 2027 — Expat Healthcare Guide",
+    metaDesc: "How to register with CPAM, declare a médecin traitant, use Doctolib and navigate the French healthcare system in 2027 as a new expat in France.",
     category: "moving",
     emoji: "🏥",
     readMinutes: 10,
@@ -6269,9 +6269,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-pension-retirement-system-expat-guide-2026",
-    title: "The French Pension and Retirement System for Expats (2026)",
-    metaTitle: "French Pension System 2026 — Expat Guide, EU and Non-EU",
-    metaDesc: "How the French pension and retirement system works for expats in 2026: regimes, totalisation with other countries, retirement age, complementary pensions, taxes.",
+    title: "The French Pension and Retirement System for Expats (2027)",
+    metaTitle: "French Pension System 2027 — Expat Guide, EU and Non-EU",
+    metaDesc: "How the French pension and retirement system works for expats in 2027: regimes, totalisation with other countries, retirement age, complementary pensions, taxes.",
     category: "moving",
     emoji: "👴",
     readMinutes: 11,
@@ -6353,9 +6353,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-toulouse-where-to-move-expat-2026",
-    title: "Leaving Toulouse: Where to Move (2026)",
-    metaTitle: "Leaving Toulouse 2026 — best cities to move to, alternatives",
-    metaDesc: "Where to move if leaving Toulouse in 2026: top alternatives by profile (family, aerospace careers, cheaper, cooler climate). Honest comparisons.",
+    title: "Leaving Toulouse: Where to Move (2027)",
+    metaTitle: "Leaving Toulouse 2027 — best cities to move to, alternatives",
+    metaDesc: "Where to move if leaving Toulouse in 2027: top alternatives by profile (family, aerospace careers, cheaper, cooler climate). Honest comparisons.",
     category: "city-guide",
     emoji: "🧭",
     readMinutes: 8,
@@ -6393,9 +6393,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-vs-germany-expat-comparison-2026",
-    title: "France vs Germany: Where Should an Expat Move? (2026)",
-    metaTitle: "France vs Germany 2026 — expat comparison: cost of living, salary",
-    metaDesc: "France or Germany for expats in 2026? Comparing cost of living, salaries, taxes, healthcare, language, schools, lifestyle and career mobility honestly.",
+    title: "France vs Germany: Where Should an Expat Move? (2027)",
+    metaTitle: "France vs Germany 2027 — expat comparison: cost of living, salary",
+    metaDesc: "France or Germany for expats in 2027? Comparing cost of living, salaries, taxes, healthcare, language, schools, lifestyle and career mobility honestly.",
     category: "lifestyle",
     emoji: "🇫🇷",
     readMinutes: 11,
@@ -6437,9 +6437,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-bordeaux-where-to-move-expat-2026",
-    title: "Leaving Bordeaux: Where to Move (2026)",
-    metaTitle: "Leaving Bordeaux 2026 — best cities to move to, alternatives",
-    metaDesc: "Where to move from Bordeaux in 2026: top alternatives by profile (Atlantic, cheaper, family, career). Honest comparisons and trade-offs.",
+    title: "Leaving Bordeaux: Where to Move (2027)",
+    metaTitle: "Leaving Bordeaux 2027 — best cities to move to, alternatives",
+    metaDesc: "Where to move from Bordeaux in 2027: top alternatives by profile (Atlantic, cheaper, family, career). Honest comparisons and trade-offs.",
     category: "city-guide",
     emoji: "🧭",
     readMinutes: 9,
@@ -6477,9 +6477,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "reims-champagne-living-expat-guide-2026",
-    title: "Living in Reims and the Champagne Region as an Expat (2026)",
-    metaTitle: "Living in Reims 2026 — Expat Guide: 45 min to Paris, Costs",
-    metaDesc: "Honest expat guide to Reims and the Champagne region in 2026: 45 minutes TGV to Paris, the Champagne industry, cost of living, neighbourhoods, family infrastructure.",
+    title: "Living in Reims and the Champagne Region as an Expat (2027)",
+    metaTitle: "Living in Reims 2027 — Expat Guide: 45 min to Paris, Costs",
+    metaDesc: "Honest expat guide to Reims and the Champagne region in 2027: 45 minutes TGV to Paris, the Champagne industry, cost of living, neighbourhoods, family infrastructure.",
     category: "city-guide",
     emoji: "🥂",
     readMinutes: 9,
@@ -6521,9 +6521,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "americans-retiring-in-france-deep-guide-2026",
-    title: "Americans Retiring in France: The Deep 2026 Guide",
-    metaTitle: "Americans Retiring in France 2026 — deep guide: visa, healthcare",
-    metaDesc: "Americans retiring in France in 2026: long-stay visa, Medicare and healthcare, US tax obligations, FATCA, social security, where to live, real costs.",
+    title: "Americans Retiring in France: The Deep 2027 Guide",
+    metaTitle: "Americans Retiring in France 2027 — deep guide: visa, healthcare",
+    metaDesc: "Americans retiring in France in 2027: long-stay visa, Medicare and healthcare, US tax obligations, FATCA, social security, where to live, real costs.",
     category: "moving",
     emoji: "🦅",
     readMinutes: 13,
@@ -6565,9 +6565,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "vannes-morbihan-coast-living-expat-2026",
-    title: "Living in Vannes and the Morbihan Coast as an Expat (2026)",
-    metaTitle: "Living in Vannes 2026 — Morbihan expat guide, Gulf of Morbihan",
-    metaDesc: "Honest expat guide to Vannes and the Morbihan coast in 2026: Gulf of Morbihan, mild climate, real cost of living, neighbourhoods, family infrastructure.",
+    title: "Living in Vannes and the Morbihan Coast as an Expat (2027)",
+    metaTitle: "Living in Vannes 2027 — Morbihan expat guide, Gulf of Morbihan",
+    metaDesc: "Honest expat guide to Vannes and the Morbihan coast in 2027: Gulf of Morbihan, mild climate, real cost of living, neighbourhoods, family infrastructure.",
     category: "city-guide",
     emoji: "⛵",
     readMinutes: 9,
@@ -6605,9 +6605,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "british-retiring-in-france-post-brexit-2026",
-    title: "British Retiring in France Post-Brexit: The 2026 Guide",
-    metaTitle: "British Retiring France 2026 — post-Brexit guide, visa, NHS",
-    metaDesc: "How British nationals retire in France in 2026 post-Brexit: long-stay visa, NHS-to-French healthcare transition, pension, S1 form, tax, residency.",
+    title: "British Retiring in France Post-Brexit: The 2027 Guide",
+    metaTitle: "British Retiring France 2027 — post-Brexit guide, visa, NHS",
+    metaDesc: "How British nationals retire in France in 2027 post-Brexit: long-stay visa, NHS-to-French healthcare transition, pension, S1 form, tax, residency.",
     category: "moving",
     emoji: "🇬🇧",
     readMinutes: 12,
@@ -6649,9 +6649,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "caen-vs-rouen-normandy-expat-comparison-2026",
-    title: "Caen vs Rouen: Which Normandy City for Expats? (2026)",
-    metaTitle: "Caen vs Rouen 2026 — Normandy Expat City Comparison",
-    metaDesc: "Caen or Rouen for expats in 2026? Compared by cost of living, Paris access, neighbourhoods, schools, climate, lifestyle, expat community.",
+    title: "Caen vs Rouen: Which Normandy City for Expats? (2027)",
+    metaTitle: "Caen vs Rouen 2027 — Normandy Expat City Comparison",
+    metaDesc: "Caen or Rouen for expats in 2027? Compared by cost of living, Paris access, neighbourhoods, schools, climate, lifestyle, expat community.",
     category: "city-guide",
     emoji: "⚓",
     readMinutes: 9,
@@ -6693,9 +6693,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-tech-entrepreneurs-startup-expat-guide-2026",
-    title: "France for Tech Entrepreneurs and Startup Founders (2026)",
-    metaTitle: "Tech Founders in France 2026 — Startup Expat Guide, Visa, BPI",
-    metaDesc: "Founding a tech startup in France as an expat in 2026: passeport talent, BPI funding, French Tech ecosystems, best cities, tax credits, real costs.",
+    title: "France for Tech Entrepreneurs and Startup Founders (2027)",
+    metaTitle: "Tech Founders in France 2027 — Startup Expat Guide, Visa, BPI",
+    metaDesc: "Founding a tech startup in France as an expat in 2027: passeport talent, BPI funding, French Tech ecosystems, best cities, tax credits, real costs.",
     category: "remote-work",
     emoji: "🚀",
     readMinutes: 12,
@@ -6737,9 +6737,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-nice-cote-azur-where-to-move-2026",
-    title: "Leaving Nice and the Côte d'Azur: Where to Move (2026)",
-    metaTitle: "Leaving Nice 2026 — Best Cities to Move to from the Côte d'Azur",
-    metaDesc: "Where to move if leaving Nice or the Côte d'Azur in 2026: top alternatives by profile (Mediterranean, cheaper, family, climate). Honest comparisons.",
+    title: "Leaving Nice and the Côte d'Azur: Where to Move (2027)",
+    metaTitle: "Leaving Nice 2027 — Best Cities to Move to from the Côte d'Azur",
+    metaDesc: "Where to move if leaving Nice or the Côte d'Azur in 2027: top alternatives by profile (Mediterranean, cheaper, family, climate). Honest comparisons.",
     category: "city-guide",
     emoji: "🧭",
     readMinutes: 9,
@@ -6817,8 +6817,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "insurance-france-expat-guide-mutuelle-home-car-2026",
-    title: "Insurance in France for Expats: Mutuelle, Home, Car (2026)",
-    metaTitle: "France Insurance Expat 2026 — mutuelle complementaire, home",
+    title: "Insurance in France for Expats: Mutuelle, Home, Car (2027)",
+    metaTitle: "France Insurance Expat 2027 — mutuelle complementaire, home",
     metaDesc: "Complete expat guide to French insurance: top-up mutuelle health, home (assurance habitation), car, and the small print that catches foreigners.",
     category: "moving",
     emoji: "🛡️",
@@ -6853,9 +6853,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-corsica-expat-guide-2026",
-    title: "Living in Corsica as an Expat: The Honest 2026 Guide",
-    metaTitle: "Living in Corsica 2026 — expat guide to Ajaccio, Bastia",
-    metaDesc: "Living in Corsica as an expat in 2026: cost of living, where to settle (Ajaccio, Bastia, Porto-Vecchio), pros, cons, what no one tells you about island life.",
+    title: "Living in Corsica as an Expat: The Honest 2027 Guide",
+    metaTitle: "Living in Corsica 2027 — expat guide to Ajaccio, Bastia",
+    metaDesc: "Living in Corsica as an expat in 2027: cost of living, where to settle (Ajaccio, Bastia, Porto-Vecchio), pros, cons, what no one tells you about island life.",
     category: "lifestyle",
     emoji: "🏝️",
     readMinutes: 11,
@@ -6889,8 +6889,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "paris-arrondissements-expat-guide-2026",
-    title: "Paris Arrondissements: An Expat Guide to Picking Your District (2026)",
-    metaTitle: "Paris Arrondissements 2026 — District-by-District Expat Guide",
+    title: "Paris Arrondissements: An Expat Guide to Picking Your District (2027)",
+    metaTitle: "Paris Arrondissements 2027 — District-by-District Expat Guide",
     metaDesc: "An honest expat guide to Paris's 20 arrondissements: who lives where, rents, lifestyle, English-friendliness, best districts for families, professionals, students.",
     category: "city-guide",
     emoji: "🗼",
@@ -6929,9 +6929,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "marseille-vs-lyon-which-city-expat-2026",
-    title: "Marseille vs Lyon: Which French City for Expats? (2026)",
-    metaTitle: "Marseille vs Lyon 2026 — head-to-head expat comparison, prices",
-    metaDesc: "Marseille vs Lyon as an expat in 2026: cost of living, salaries, climate, safety, job market, family life. Honest head-to-head between France's #2 and #3.",
+    title: "Marseille vs Lyon: Which French City for Expats? (2027)",
+    metaTitle: "Marseille vs Lyon 2027 — head-to-head expat comparison, prices",
+    metaDesc: "Marseille vs Lyon as an expat in 2027: cost of living, salaries, climate, safety, job market, family life. Honest head-to-head between France's #2 and #3.",
     category: "city-guide",
     emoji: "🏛️",
     readMinutes: 11,
@@ -6973,9 +6973,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "renovating-old-french-house-expat-guide-2026",
-    title: "Renovating an Old French House as an Expat: The Honest 2026 Guide",
-    metaTitle: "Renovating French House Expat 2026 — costs, permits, artisans",
-    metaDesc: "Honest 2026 guide to renovating an old French house as an expat: costs, permits, finding artisans, dealing with the Mairie, and the budget multipliers no one warns you about.",
+    title: "Renovating an Old French House as an Expat: The Honest 2027 Guide",
+    metaTitle: "Renovating French House Expat 2027 — costs, permits, artisans",
+    metaDesc: "Honest 2027 guide to renovating an old French house as an expat: costs, permits, finding artisans, dealing with the Mairie, and the budget multipliers no one warns you about.",
     category: "moving",
     emoji: "🔨",
     readMinutes: 12,
@@ -7053,8 +7053,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-foodies-expat-2026",
-    title: "Best French Cities for Foodies: An Expat Guide (2026)",
-    metaTitle: "Best French Cities for Foodies 2026 — Ranked for Expats",
+    title: "Best French Cities for Foodies: An Expat Guide (2027)",
+    metaTitle: "Best French Cities for Foodies 2027 — Ranked for Expats",
     metaDesc: "France for serious eaters: the cities where the food scene actually merits a move. Markets, gastronomy, restaurants, wine regions, expat-friendly cooking life.",
     category: "lifestyle",
     emoji: "🍽️",
@@ -7089,8 +7089,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-near-paris-ile-de-france-expat-guide-2026",
-    title: "Living Near Paris: The Île-de-France Expat Guide (2026)",
-    metaTitle: "Living Near Paris 2026 — Best Île-de-France Suburbs for Expats",
+    title: "Living Near Paris: The Île-de-France Expat Guide (2027)",
+    metaTitle: "Living Near Paris 2027 — Best Île-de-France Suburbs for Expats",
     metaDesc: "Where to live near Paris as an expat: best Île-de-France suburbs by profile (family, professional, budget), commute realities, schools, prices, with honest neighbourhood guides.",
     category: "moving",
     emoji: "🏘️",
@@ -7129,9 +7129,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-female-expats-france-guide-2026",
-    title: "Solo Female Expats in France: An Honest Guide (2026)",
-    metaTitle: "Solo Female Expats France 2026 — best cities, safety, community",
-    metaDesc: "Honest 2026 guide for solo female expats moving to France: best cities for safety and community, dating/social life, the practicalities, and what to expect.",
+    title: "Solo Female Expats in France: An Honest Guide (2027)",
+    metaTitle: "Solo Female Expats France 2027 — best cities, safety, community",
+    metaDesc: "Honest 2027 guide for solo female expats moving to France: best cities for safety and community, dating/social life, the practicalities, and what to expect.",
     category: "lifestyle",
     emoji: "🚺",
     readMinutes: 10,
@@ -7169,9 +7169,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-vs-italy-where-to-live-expat-2026",
-    title: "France vs Italy: Where Should an Expat Live? (2026)",
-    metaTitle: "France vs Italy Expat 2026 — honest comparison: cost, healthcare",
-    metaDesc: "France vs Italy as an expat in 2026: head-to-head on cost of living, healthcare, bureaucracy, climate, jobs, and lifestyle. Honest comparison from someone who's lived both.",
+    title: "France vs Italy: Where Should an Expat Live? (2027)",
+    metaTitle: "France vs Italy Expat 2027 — honest comparison: cost, healthcare",
+    metaDesc: "France vs Italy as an expat in 2027: head-to-head on cost of living, healthcare, bureaucracy, climate, jobs, and lifestyle. Honest comparison from someone who's lived both.",
     category: "moving",
     emoji: "🇫🇷",
     readMinutes: 11,
@@ -7209,8 +7209,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-mountain-lovers-expat-2026",
-    title: "Best French Cities for Mountain Lovers: An Expat Guide (2026)",
-    metaTitle: "Best French Cities Mountain Lovers Expat 2026 — Alps, Pyrenees",
+    title: "Best French Cities for Mountain Lovers: An Expat Guide (2027)",
+    metaTitle: "Best French Cities Mountain Lovers Expat 2027 — Alps, Pyrenees",
     metaDesc: "Best French cities for mountain-loving expats: Annecy, Grenoble, Chambéry, Pau, Briançon. Skiing, hiking, climbing, expat life in the Alps and Pyrenees.",
     category: "lifestyle",
     emoji: "⛰️",
@@ -7249,9 +7249,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-vs-uk-expat-comparison-2026",
-    title: "France vs the UK: An Expat Comparison (2026)",
-    metaTitle: "France vs UK Expat 2026 — cost, healthcare, jobs, lifestyle",
-    metaDesc: "France vs the UK as an expat in 2026: head-to-head comparison on cost of living, NHS vs CPAM, schools, jobs, taxes, lifestyle. Honest read for those weighing both.",
+    title: "France vs the UK: An Expat Comparison (2027)",
+    metaTitle: "France vs UK Expat 2027 — cost, healthcare, jobs, lifestyle",
+    metaDesc: "France vs the UK as an expat in 2027: head-to-head comparison on cost of living, NHS vs CPAM, schools, jobs, taxes, lifestyle. Honest read for those weighing both.",
     category: "moving",
     emoji: "🇬🇧",
     readMinutes: 12,
@@ -7293,9 +7293,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-cycling-bike-friendly-2026",
-    title: "Best French Cities for Cyclists: A Bike-Friendly Guide (2026)",
-    metaTitle: "Best French Cycling Cities 2026 — Bike-Friendly Places to Live",
-    metaDesc: "Best French cities for cycling in 2026: Strasbourg, Grenoble, Bordeaux, Nantes, Rennes — bike infrastructure, daily cycling, weekend routes, cycling community.",
+    title: "Best French Cities for Cyclists: A Bike-Friendly Guide (2027)",
+    metaTitle: "Best French Cycling Cities 2027 — Bike-Friendly Places to Live",
+    metaDesc: "Best French cities for cycling in 2027: Strasbourg, Grenoble, Bordeaux, Nantes, Rennes — bike infrastructure, daily cycling, weekend routes, cycling community.",
     category: "lifestyle",
     emoji: "🚴",
     readMinutes: 9,
@@ -7333,9 +7333,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "dordogne-perigord-living-guide-expats-2026",
-    title: "Living in the Dordogne and Périgord: the honest expat guide (2026)",
-    metaTitle: "Dordogne Périgord living guide expats 2026 — cost, community",
-    metaDesc: "Thinking of moving to the Dordogne or Périgord? The honest expat guide: costs, healthcare, English-speaking community, what no one tells you about rural France. Updated 2026.",
+    title: "Living in the Dordogne and Périgord: the honest expat guide (2027)",
+    metaTitle: "Dordogne Périgord living guide expats 2027 — cost, community",
+    metaDesc: "Thinking of moving to the Dordogne or Périgord? The honest expat guide: costs, healthcare, English-speaking community, what no one tells you about rural France. Updated 2027.",
     category: "lifestyle",
     emoji: "🏡",
     publishedAt: "2026-05-26",
@@ -7369,9 +7369,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-alps-annecy-chambery-living-guide-2026",
-    title: "Living in the French Alps: Annecy, Chambéry and the mountain lifestyle (2026)",
-    metaTitle: "Living in the French Alps 2026 — Annecy, Chambéry Expat Guide",
-    metaDesc: "Moving to the French Alps: Annecy, Chambéry, Grenoble. Cost of living, skiing, outdoor lifestyle, expat community, job market. Honest guide for 2026.",
+    title: "Living in the French Alps: Annecy, Chambéry and the mountain lifestyle (2027)",
+    metaTitle: "Living in the French Alps 2027 — Annecy, Chambéry Expat Guide",
+    metaDesc: "Moving to the French Alps: Annecy, Chambéry, Grenoble. Cost of living, skiing, outdoor lifestyle, expat community, job market. Honest guide for 2027.",
     category: "lifestyle",
     emoji: "🏔️",
     publishedAt: "2026-05-26",
@@ -7405,9 +7405,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "occitanie-rural-lot-aveyron-tarn-expat-guide-2026",
-    title: "Rural Occitanie: living in the Lot, Aveyron and Tarn as an expat (2026)",
-    metaTitle: "Lot, Aveyron, Tarn Expat Guide 2026 — Cheap Rural France",
-    metaDesc: "Living in rural Occitanie: the Lot, Aveyron and Tarn. Affordable property, space, landscape, honest assessment of healthcare and community. Expat guide 2026.",
+    title: "Rural Occitanie: living in the Lot, Aveyron and Tarn as an expat (2027)",
+    metaTitle: "Lot, Aveyron, Tarn Expat Guide 2027 — Cheap Rural France",
+    metaDesc: "Living in rural Occitanie: the Lot, Aveyron and Tarn. Affordable property, space, landscape, honest assessment of healthcare and community. Expat guide 2027.",
     category: "lifestyle",
     emoji: "🌾",
     publishedAt: "2026-05-26",
@@ -7441,9 +7441,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "bordeaux-wine-country-medoc-saint-emilion-living-2026",
-    title: "Living in Bordeaux wine country: the Médoc, Saint-Émilion and surrounds (2026)",
-    metaTitle: "Living in Bordeaux Wine Country 2026 — Médoc, Saint-Émilion",
-    metaDesc: "Living in the Bordeaux wine country: the Médoc, Saint-Émilion, Entre-Deux-Mers. Property, lifestyle, expat community, distance to Bordeaux city. Honest guide 2026.",
+    title: "Living in Bordeaux wine country: the Médoc, Saint-Émilion and surrounds (2027)",
+    metaTitle: "Living in Bordeaux Wine Country 2027 — Médoc, Saint-Émilion",
+    metaDesc: "Living in the Bordeaux wine country: the Médoc, Saint-Émilion, Entre-Deux-Mers. Property, lifestyle, expat community, distance to Bordeaux city. Honest guide 2027.",
     category: "lifestyle",
     emoji: "🍷",
     publishedAt: "2026-05-26",
@@ -7477,9 +7477,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "normandy-coast-versus-brittany-coast-expat-2026",
-    title: "Normandy coast vs Brittany coast: which is right for you? (2026 expat guide)",
-    metaTitle: "Normandy vs Brittany coast expat 2026 — cost, climate",
-    metaDesc: "Normandy coast vs Brittany coast for expats: honest comparison of costs, climate, community size, ferry access, quality of life. Which Atlantic coast suits you? Guide 2026.",
+    title: "Normandy coast vs Brittany coast: which is right for you? (2027 expat guide)",
+    metaTitle: "Normandy vs Brittany coast expat 2027 — cost, climate",
+    metaDesc: "Normandy coast vs Brittany coast for expats: honest comparison of costs, climate, community size, ferry access, quality of life. Which Atlantic coast suits you? Guide 2027.",
     category: "moving",
     emoji: "⚓",
     publishedAt: "2026-05-26",
@@ -7513,9 +7513,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-cities-for-food-lovers-expat-guide-2026",
-    title: "The best French cities for food lovers: an expat's guide (2026)",
-    metaTitle: "Best French cities food lovers expats 2026 — markets, restaurants",
-    metaDesc: "Best French cities for food lovers: local markets, restaurants, food culture, regional specialities. Honest guide for expats who put food at the centre of the decision. 2026.",
+    title: "The best French cities for food lovers: an expat's guide (2027)",
+    metaTitle: "Best French cities food lovers expats 2027 — markets, restaurants",
+    metaDesc: "Best French cities for food lovers: local markets, restaurants, food culture, regional specialities. Honest guide for expats who put food at the centre of the decision. 2027.",
     category: "lifestyle",
     emoji: "🧀",
     publishedAt: "2026-05-26",
@@ -7549,8 +7549,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-toulon-var-coast-expat-guide-2026",
-    title: "Living in Toulon and the Var Coast as an Expat (2026)",
-    metaTitle: "Living in Toulon and the Var Coast: honest expat guide 2026",
+    title: "Living in Toulon and the Var Coast as an Expat (2027)",
+    metaTitle: "Living in Toulon and the Var Coast: honest expat guide 2027",
     metaDesc: "Toulon, Hyères, Bandol, Sanary-sur-Mer: what the Var coast is actually like to live in. Property prices, climate, healthcare, what works and what doesn't.",
     category: "city-guide",
     emoji: "⚓",
@@ -7593,8 +7593,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-saint-malo-brittany-expat-guide-2026",
-    title: "Living in Saint-Malo and North Brittany as an Expat (2026)",
-    metaTitle: "Living in Saint-Malo and North Brittany: honest expat guide 2026",
+    title: "Living in Saint-Malo and North Brittany as an Expat (2027)",
+    metaTitle: "Living in Saint-Malo and North Brittany: honest expat guide 2027",
     metaDesc: "Saint-Malo, Dinard, Dinan: what north Brittany is actually like to live in. Ferries to the UK, property prices, climate, and the honest trade-offs.",
     category: "city-guide",
     emoji: "⛵",
@@ -7637,9 +7637,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-valence-drome-expat-guide-2026",
-    title: "Living in Valence and the Drôme: the Affordable Provence Gateway (2026)",
-    metaTitle: "Living in Valence and the Drôme: honest expat guide 2026",
-    metaDesc: "Valence sits between Lyon and Provence on the Rhône corridor. Affordable, sunny, overlooked. What it's actually like to live here as an expat in 2026.",
+    title: "Living in Valence and the Drôme: the Affordable Provence Gateway (2027)",
+    metaTitle: "Living in Valence and the Drôme: honest expat guide 2027",
+    metaDesc: "Valence sits between Lyon and Provence on the Rhône corridor. Affordable, sunny, overlooked. What it's actually like to live here as an expat in 2027.",
     category: "city-guide",
     emoji: "🌻",
     readMinutes: 10,
@@ -7677,8 +7677,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-bayonne-pays-basque-expat-guide-2026",
-    title: "Living in Bayonne: the Basque Capital That Nobody Overhypes (2026)",
-    metaTitle: "Living in Bayonne & the French Basque Country — Expat Guide 2026",
+    title: "Living in Bayonne: the Basque Capital That Nobody Overhypes (2027)",
+    metaTitle: "Living in Bayonne & the French Basque Country — Expat Guide 2027",
     metaDesc: "Bayonne, Anglet, Biarritz: the real costs, the real character, and what it's like to actually live on the Basque coast versus just holiday there.",
     category: "city-guide",
     emoji: "🦅",
@@ -7718,8 +7718,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-arles-camargue-expat-guide-2026",
     title: "Living in Arles and the Camargue: Van Gogh's City at Affordable Provence Prices (2026)",
-    metaTitle: "Living in Arles and the Camargue: honest expat guide 2026",
-    metaDesc: "Arles: Roman amphitheatre, Van Gogh's Provence, the Camargue on the doorstep — and property prices that are 40% cheaper than Aix. The honest 2026 guide.",
+    metaTitle: "Living in Arles and the Camargue: honest expat guide 2027",
+    metaDesc: "Arles: Roman amphitheatre, Van Gogh's Provence, the Camargue on the doorstep — and property prices that are 40% cheaper than Aix. The honest 2027 guide.",
     category: "city-guide",
     emoji: "🌾",
     readMinutes: 10,
@@ -7757,8 +7757,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-colmar-alsace-expat-guide-2026",
-    title: "Living in Colmar: Alsace's Most Beautiful City Without the Strasbourg Premium (2026)",
-    metaTitle: "Living in Colmar, Alsace: honest expat guide 2026",
+    title: "Living in Colmar: Alsace's Most Beautiful City Without the Strasbourg Premium (2027)",
+    metaTitle: "Living in Colmar, Alsace: honest expat guide 2027",
     metaDesc: "Colmar is Alsace's chocolate-box city — half-timbered streets, world-class wine, the Rhine 20 minutes away. And property prices 30% below Strasbourg. The honest guide.",
     category: "city-guide",
     emoji: "🍷",
@@ -7797,8 +7797,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "rouen-living-guide-expats-2026",
-    title: "Living in Rouen: the expat guide 2026",
-    metaTitle: "Living in Rouen, France: Expat Guide 2026 | Costs, Neighbourhoods",
+    title: "Living in Rouen: the expat guide 2027",
+    metaTitle: "Living in Rouen, France: Expat Guide 2027 | Costs, Neighbourhoods",
     metaDesc: "Honest expat guide to living in Rouen: property prices €1,900–3,200/m², rents, best quartiers, 75 minutes from Paris, healthcare, schools.",
     category: "city-guide",
     emoji: "⚓",
@@ -7841,8 +7841,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "orleans-living-guide-expats-2026",
-    title: "Living in Orléans: the expat guide 2026",
-    metaTitle: "Living in Orléans: Expat Guide 2026 | Loire Valley, Paris 1h",
+    title: "Living in Orléans: the expat guide 2027",
+    metaTitle: "Living in Orléans: Expat Guide 2027 | Loire Valley, Paris 1h",
     metaDesc: "Complete expat guide to Orléans: property prices €2,200–3,400/m², trams, best quartiers, 1h05 from Paris, Loire Valley lifestyle.",
     category: "city-guide",
     emoji: "⚔️",
@@ -7885,8 +7885,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "besancon-living-guide-expats-2026",
-    title: "Living in Besançon: the expat's complete guide 2026",
-    metaTitle: "Living in Besançon: Expat Guide 2026 | Citadel, Swiss Border",
+    title: "Living in Besançon: the expat's complete guide 2027",
+    metaTitle: "Living in Besançon: Expat Guide 2027 | Citadel, Swiss Border",
     metaDesc: "Honest expat guide to Besançon: property €1,700–2,800/m², tram city, Swiss border lifestyle, healthcare city, Franche-Comté at its best.",
     category: "city-guide",
     emoji: "🏰",
@@ -7973,8 +7973,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "atlantic-coast-france-best-cities-expats-2026",
-    title: "Living on the Atlantic coast of France: expat guide 2026",
-    metaTitle: "Atlantic Coast France: Best Cities for Expats 2026",
+    title: "Living on the Atlantic coast of France: expat guide 2027",
+    metaTitle: "Atlantic Coast France: Best Cities for Expats 2027",
     metaDesc: "Complete guide to the French Atlantic coast for expats: La Rochelle, Nantes, Biarritz, Bayonne, Vannes. Costs, climate, surfing, lifestyle, honest comparison.",
     category: "lifestyle",
     emoji: "🌊",
@@ -8018,7 +8018,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "sunshine-cities-france-beat-winter-blues-expats-2026",
     title: "France's sunniest cities: beating the winter blues as an expat",
-    metaTitle: "Sunniest Cities in France 2026: Beat Winter Blues, Best for SAD",
+    metaTitle: "Sunniest Cities in France 2027: Beat Winter Blues, Best for SAD",
     metaDesc: "Which French cities get the most winter sunshine? Ranked and explained for expats who struggle with grey winters: Mediterranean vs Atlantic, data vs myths.",
     category: "lifestyle",
     emoji: "☀️",
@@ -8062,8 +8062,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-aix-en-provence-where-to-go-2026",
     title: "Leaving Aix-en-Provence: where to go when Provence gets too expensive",
-    metaTitle: "Leaving Aix-en-Provence 2026: Cheaper Provence Alternatives",
-    metaDesc: "Aix-en-Provence at €5,000–6,500/m²: where do expats go when they leave? Avignon, Arles, Toulon, Nîmes — honest comparison for 2026.",
+    metaTitle: "Leaving Aix-en-Provence 2027: Cheaper Provence Alternatives",
+    metaDesc: "Aix-en-Provence at €5,000–6,500/m²: where do expats go when they leave? Avignon, Arles, Toulon, Nîmes — honest comparison for 2027.",
     category: "lifestyle",
     emoji: "🌿",
     readMinutes: 9,
@@ -8102,8 +8102,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-strasbourg-where-to-go-expat-2026",
     title: "Leaving Strasbourg: where to go when Alsace feels small",
-    metaTitle: "Leaving Strasbourg 2026: Alternatives | Colmar, Nancy, Basel",
-    metaDesc: "Honest guide to leaving Strasbourg in 2026: Colmar, Nancy, Metz, or crossing into Germany/Switzerland. Costs, why people leave, what to expect.",
+    metaTitle: "Leaving Strasbourg 2027: Alternatives | Colmar, Nancy, Basel",
+    metaDesc: "Honest guide to leaving Strasbourg in 2027: Colmar, Nancy, Metz, or crossing into Germany/Switzerland. Costs, why people leave, what to expect.",
     category: "lifestyle",
     emoji: "🥨",
     readMinutes: 8,
@@ -8141,8 +8141,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "leaving-grenoble-where-to-go-2026",
-    title: "Leaving Grenoble: the honest guide to alternatives in 2026",
-    metaTitle: "Leaving Grenoble 2026: Best Alternatives | Annecy, Lyon, Valence",
+    title: "Leaving Grenoble: the honest guide to alternatives in 2027",
+    metaTitle: "Leaving Grenoble 2027: Best Alternatives | Annecy, Lyon, Valence",
     metaDesc: "Honest guide to leaving Grenoble for expats: Annecy, Lyon, Valence, Chambéry. Why people leave, what they find, costs. Complete 2026 guide.",
     category: "lifestyle",
     emoji: "⛷️",
@@ -8182,7 +8182,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-annecy-where-to-go-expat-2026",
     title: "Leaving Annecy: when the most beautiful French city gets too expensive",
-    metaTitle: "Leaving Annecy 2026: Cheaper Alpine Alternatives for Expats",
+    metaTitle: "Leaving Annecy 2027: Cheaper Alpine Alternatives for Expats",
     metaDesc: "Annecy at €4,500–7,000/m²: honest guide to leaving when costs become unsustainable. Chambéry, Grenoble, Aix-les-Bains, Thonon-les-Bains — real alternatives.",
     category: "lifestyle",
     emoji: "🏔️",
@@ -8222,8 +8222,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-biarritz-where-to-go-2026",
     title: "Leaving Biarritz: where to go when the Basque coast gets unaffordable",
-    metaTitle: "Leaving Biarritz 2026: Cheaper Alternatives | Bayonne, Anglet",
-    metaDesc: "Biarritz at €5,000–7,500/m²: honest guide to leaving. Bayonne, Anglet, Saint-Jean-de-Luz, Dax — where expats go and what they find. 2026 guide.",
+    metaTitle: "Leaving Biarritz 2027: Cheaper Alternatives | Bayonne, Anglet",
+    metaDesc: "Biarritz at €5,000–7,500/m²: honest guide to leaving. Bayonne, Anglet, Saint-Jean-de-Luz, Dax — where expats go and what they find. 2027 guide.",
     category: "lifestyle",
     emoji: "🏄",
     readMinutes: 8,
@@ -8262,8 +8262,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lille-where-to-go-expat-2026",
     title: "Leaving Lille: where to go when northern France isn't enough",
-    metaTitle: "Leaving Lille 2026: Best Alternatives for Expats | Ghent, Amiens",
-    metaDesc: "Honest guide to leaving Lille for expats: Ghent, Brussels, Amiens, Reims, Paris. Why people leave, where they go, costs. 2026 guide.",
+    metaTitle: "Leaving Lille 2027: Best Alternatives for Expats | Ghent, Amiens",
+    metaDesc: "Honest guide to leaving Lille for expats: Ghent, Brussels, Amiens, Reims, Paris. Why people leave, where they go, costs. 2027 guide.",
     category: "lifestyle",
     emoji: "🍺",
     readMinutes: 8,
@@ -8301,8 +8301,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "nice-vs-marseille-expat-comparison-2026",
-    title: "Nice vs Marseille: which city for expats in 2026?",
-    metaTitle: "Nice vs Marseille 2026: Which City for Expats? Costs, Lifestyle",
+    title: "Nice vs Marseille: which city for expats in 2027?",
+    metaTitle: "Nice vs Marseille 2027: Which City for Expats? Costs, Lifestyle",
     metaDesc: "Nice vs Marseille for expats: honest comparison of costs, property prices, lifestyle, safety, healthcare, transport. Which Mediterranean city wins for you?",
     category: "city-guide",
     emoji: "🌊",
@@ -8341,8 +8341,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "lyon-vs-bordeaux-expat-comparison-2026",
-    title: "Lyon vs Bordeaux for expats: which French city in 2026?",
-    metaTitle: "Lyon vs Bordeaux 2026: Which City for Expats? Honest Comparison",
+    title: "Lyon vs Bordeaux for expats: which French city in 2027?",
+    metaTitle: "Lyon vs Bordeaux 2027: Which City for Expats? Honest Comparison",
     metaDesc: "Lyon vs Bordeaux for expats: costs, property, job market, lifestyle, food scene. Which of France's two most popular expat cities is right for you?",
     category: "city-guide",
     emoji: "🍷",
@@ -8382,7 +8382,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "rennes-vs-nantes-expat-comparison-2026",
     title: "Rennes vs Nantes: which Atlantic France city for expats?",
-    metaTitle: "Rennes vs Nantes 2026: Which City for Expats?",
+    metaTitle: "Rennes vs Nantes 2027: Which City for Expats?",
     metaDesc: "Rennes vs Nantes for expats: costs, property, tech economy, lifestyle, transport. Two of France's most dynamic cities — which one is right for your profile?",
     category: "city-guide",
     emoji: "🦁",
@@ -8421,8 +8421,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "montpellier-vs-toulouse-expat-comparison-2026",
-    title: "Montpellier vs Toulouse: Occitania for expats in 2026",
-    metaTitle: "Montpellier vs Toulouse 2026: Which Occitanie City for Expats?",
+    title: "Montpellier vs Toulouse: Occitania for expats in 2027",
+    metaTitle: "Montpellier vs Toulouse 2027: Which Occitanie City for Expats?",
     metaDesc: "Montpellier vs Toulouse for expats: costs, careers, sunshine, students, lifestyle. Which Occitanie city wins for your profile?",
     category: "city-guide",
     emoji: "☀️",
@@ -8461,9 +8461,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "nantes-vs-bordeaux-expat-comparison-2026",
-    title: "Nantes vs Bordeaux: which Atlantic city for expats in 2026?",
-    metaTitle: "Nantes vs Bordeaux 2026: Which Atlantic City for Expats?",
-    metaDesc: "Nantes vs Bordeaux for expats: costs, jobs, lifestyle, climate, wine versus Brittany. Which Atlantic city is right for you in 2026?",
+    title: "Nantes vs Bordeaux: which Atlantic city for expats in 2027?",
+    metaTitle: "Nantes vs Bordeaux 2027: Which Atlantic City for Expats?",
+    metaDesc: "Nantes vs Bordeaux for expats: costs, jobs, lifestyle, climate, wine versus Brittany. Which Atlantic city is right for you in 2027?",
     category: "city-guide",
     emoji: "🍇",
     readMinutes: 9,
@@ -8502,7 +8502,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "strasbourg-vs-colmar-alsace-expat-2026",
     title: "Strasbourg vs Colmar: which Alsace city for expats?",
-    metaTitle: "Strasbourg vs Colmar 2026: Which Alsace City for Expats?",
+    metaTitle: "Strasbourg vs Colmar 2027: Which Alsace City for Expats?",
     metaDesc: "Strasbourg vs Colmar for expats: costs, EU careers, Basel access, Alsatian life. Which Alsace city is right for your profile?",
     category: "city-guide",
     emoji: "🥨",
@@ -8541,9 +8541,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "toulouse-for-expats-complete-guide-2026",
-    title: "Moving to Toulouse: the complete expat guide (2026)",
-    metaTitle: "Moving to Toulouse 2026: Complete Expat Guide — Costs, Jobs",
-    metaDesc: "Everything about moving to Toulouse as an expat: property prices, Airbus jobs, English-speaking community, best neighbourhoods, healthcare, schools. Honest 2026 guide.",
+    title: "Moving to Toulouse: the complete expat guide (2027)",
+    metaTitle: "Moving to Toulouse 2027: Complete Expat Guide — Costs, Jobs",
+    metaDesc: "Everything about moving to Toulouse as an expat: property prices, Airbus jobs, English-speaking community, best neighbourhoods, healthcare, schools. Honest 2027 guide.",
     category: "city-guide",
     emoji: "✈️",
     readMinutes: 11,
@@ -8581,9 +8581,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "bordeaux-for-expats-complete-guide-2026",
-    title: "Moving to Bordeaux: the complete expat guide (2026)",
-    metaTitle: "Moving to Bordeaux 2026: Complete Expat Guide — Costs, Wine",
-    metaDesc: "Everything about moving to Bordeaux as an expat: property prices by quarter, English-speaking community, best neighbourhoods, lifestyle, healthcare. Honest 2026 guide.",
+    title: "Moving to Bordeaux: the complete expat guide (2027)",
+    metaTitle: "Moving to Bordeaux 2027: Complete Expat Guide — Costs, Wine",
+    metaDesc: "Everything about moving to Bordeaux as an expat: property prices by quarter, English-speaking community, best neighbourhoods, lifestyle, healthcare. Honest 2027 guide.",
     category: "city-guide",
     emoji: "🍷",
     readMinutes: 10,
@@ -8617,9 +8617,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "retiring-to-france-best-cities-2026",
-    title: "Retiring to France in 2026: which cities actually work for expat retirees?",
-    metaTitle: "Retiring to France 2026: Best Cities for Expat Retirees",
-    metaDesc: "Planning to retire in France? The cities that actually work for English-speaking retirees: healthcare access, cost of living, English community, climate. Honest comparison 2026.",
+    title: "Retiring to France in 2027: which cities actually work for expat retirees?",
+    metaTitle: "Retiring to France 2027: Best Cities for Expat Retirees",
+    metaDesc: "Planning to retire in France? The cities that actually work for English-speaking retirees: healthcare access, cost of living, English community, climate. Honest comparison 2027.",
     category: "lifestyle",
     emoji: "🌅",
     readMinutes: 10,
@@ -8657,9 +8657,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "nice-vs-marseille-expat-guide-2026",
-    title: "Nice vs Marseille: which Mediterranean city for expats in 2026?",
-    metaTitle: "Nice vs Marseille 2026: Which Mediterranean City for Expats?",
-    metaDesc: "Nice or Marseille for expats? Property prices, safety, English community, beaches, careers. Two very different Mediterranean cities. Honest 2026 comparison.",
+    title: "Nice vs Marseille: which Mediterranean city for expats in 2027?",
+    metaTitle: "Nice vs Marseille 2027: Which Mediterranean City for Expats?",
+    metaDesc: "Nice or Marseille for expats? Property prices, safety, English community, beaches, careers. Two very different Mediterranean cities. Honest 2027 comparison.",
     category: "city-guide",
     emoji: "🌊",
     readMinutes: 9,
@@ -8694,8 +8694,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-alps-cities-expats-annecy-grenoble-chambery-2026",
     title: "French Alps cities for expats: Annecy, Grenoble, or Chambéry?",
-    metaTitle: "Annecy vs Grenoble vs Chambéry 2026: Which City for Expats?",
-    metaDesc: "Annecy, Grenoble, or Chambéry for expats? Property prices, jobs, mountains access, English community. Honest 2026 comparison of the three main French Alps cities.",
+    metaTitle: "Annecy vs Grenoble vs Chambéry 2027: Which City for Expats?",
+    metaDesc: "Annecy, Grenoble, or Chambéry for expats? Property prices, jobs, mountains access, English community. Honest 2027 comparison of the three main French Alps cities.",
     category: "city-guide",
     emoji: "⛰️",
     readMinutes: 9,
@@ -8729,9 +8729,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "lyon-for-expats-complete-guide-2026",
-    title: "Moving to Lyon: the complete expat guide (2026)",
-    metaTitle: "Moving to Lyon 2026: Complete Expat Guide — Costs, Food",
-    metaDesc: "Everything about moving to Lyon as an expat: property prices, Presqu'île vs Croix-Rousse, food culture, English community, jobs. Honest 2026 expat guide.",
+    title: "Moving to Lyon: the complete expat guide (2027)",
+    metaTitle: "Moving to Lyon 2027: Complete Expat Guide — Costs, Food",
+    metaDesc: "Everything about moving to Lyon as an expat: property prices, Presqu'île vs Croix-Rousse, food culture, English community, jobs. Honest 2027 expat guide.",
     category: "city-guide",
     emoji: "🥩",
     readMinutes: 10,
@@ -8765,9 +8765,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-bureaucracy-guide-expats-2026",
-    title: "French bureaucracy for expats: what you actually need to know (2026)",
-    metaTitle: "French Bureaucracy for Expats 2026: Complete Practical Guide",
-    metaDesc: "Visa, carte de séjour, CPAM, CAF, driving licence, bank account. French bureaucracy explained clearly for expats moving to France in 2026.",
+    title: "French bureaucracy for expats: what you actually need to know (2027)",
+    metaTitle: "French Bureaucracy for Expats 2027: Complete Practical Guide",
+    metaDesc: "Visa, carte de séjour, CPAM, CAF, driving licence, bank account. French bureaucracy explained clearly for expats moving to France in 2027.",
     category: "moving",
     emoji: "📋",
     readMinutes: 10,
@@ -8805,8 +8805,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-vs-spain-vs-portugal-expat-comparison-2026",
-    title: "France vs Spain vs Portugal: which country for expats in 2026?",
-    metaTitle: "France vs Spain vs Portugal 2026: Which Country for Expats?",
+    title: "France vs Spain vs Portugal: which country for expats in 2027?",
+    metaTitle: "France vs Spain vs Portugal 2027: Which Country for Expats?",
     metaDesc: "France, Spain or Portugal for expats? Cost of living, weather, bureaucracy, language, healthcare. A realistic three-way comparison for those considering a move.",
     category: "moving",
     emoji: "🌍",
@@ -8841,9 +8841,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-france-monthly-budget-2026",
-    title: "Real cost of living in France: monthly budget breakdown (2026)",
-    metaTitle: "Cost of Living France 2026: Realistic Monthly Budget for Expats",
-    metaDesc: "How much does it cost to live in France? Monthly budget breakdown for single person and couple in Paris, Lyon, Bordeaux, Toulouse, Montpellier. Real numbers 2026.",
+    title: "Real cost of living in France: monthly budget breakdown (2027)",
+    metaTitle: "Cost of Living France 2027: Realistic Monthly Budget for Expats",
+    metaDesc: "How much does it cost to live in France? Monthly budget breakdown for single person and couple in Paris, Lyon, Bordeaux, Toulouse, Montpellier. Real numbers 2027.",
     category: "budget",
     emoji: "💶",
     readMinutes: 8,
@@ -8877,9 +8877,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "marseille-for-expats-honest-guide-2026",
-    title: "Moving to Marseille: an honest expat guide (2026)",
-    metaTitle: "Moving to Marseille 2026: Honest Expat Guide, Safety, Costs",
-    metaDesc: "Honest guide to moving to Marseille as an expat: which neighbourhoods work, what safety is actually like, costs, the cultural adjustment. 2026 reality check.",
+    title: "Moving to Marseille: an honest expat guide (2027)",
+    metaTitle: "Moving to Marseille 2027: Honest Expat Guide, Safety, Costs",
+    metaDesc: "Honest guide to moving to Marseille as an expat: which neighbourhoods work, what safety is actually like, costs, the cultural adjustment. 2027 reality check.",
     category: "city-guide",
     emoji: "⚓",
     readMinutes: 10,
@@ -8913,9 +8913,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "rennes-for-expats-guide-2026",
-    title: "Moving to Rennes: the expat guide (2026)",
-    metaTitle: "Moving to Rennes 2026: Expat Guide — Tech Jobs, Breton Life",
-    metaDesc: "Rennes for expats: the tech hub, Breton culture, property prices, English community, getting settled. Honest 2026 guide for anyone considering Rennes.",
+    title: "Moving to Rennes: the expat guide (2027)",
+    metaTitle: "Moving to Rennes 2027: Expat Guide — Tech Jobs, Breton Life",
+    metaDesc: "Rennes for expats: the tech hub, Breton culture, property prices, English community, getting settled. Honest 2027 guide for anyone considering Rennes.",
     category: "city-guide",
     emoji: "🌊",
     readMinutes: 8,
@@ -8949,9 +8949,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "buying-vs-renting-france-expats-2026",
-    title: "Buying vs renting in France as an expat: what actually makes sense (2026)",
-    metaTitle: "Buying vs Renting in France for Expats 2026: Honest Analysis",
-    metaDesc: "Should expats buy or rent in France? Mortgage access for foreigners, transaction costs, price trajectories, break-even periods. Honest 2026 guide.",
+    title: "Buying vs renting in France as an expat: what actually makes sense (2027)",
+    metaTitle: "Buying vs Renting in France for Expats 2027: Honest Analysis",
+    metaDesc: "Should expats buy or rent in France? Mortgage access for foreigners, transaction costs, price trajectories, break-even periods. Honest 2027 guide.",
     category: "budget",
     emoji: "🏡",
     readMinutes: 8,
@@ -8985,9 +8985,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "normandy-for-expats-coast-history-life-2026",
-    title: "Normandy for expats: coast, history, and the real cost of living (2026)",
-    metaTitle: "Normandy for Expats 2026: Living on the French Coast Near Paris",
-    metaDesc: "Living in Normandy as an expat: D-Day coast, cliffs, Rouen, Caen, affordable property near Paris, English community. Honest 2026 guide.",
+    title: "Normandy for expats: coast, history, and the real cost of living (2027)",
+    metaTitle: "Normandy for Expats 2027: Living on the French Coast Near Paris",
+    metaDesc: "Living in Normandy as an expat: D-Day coast, cliffs, Rouen, Caen, affordable property near Paris, English community. Honest 2027 guide.",
     category: "city-guide",
     emoji: "⚓",
     readMinutes: 8,
@@ -9021,9 +9021,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "pet-friendly-cities-france-expats-2026",
-    title: "Pet-friendly cities in France for expats: where your dog or cat actually fits in (2026)",
-    metaTitle: "Pet-Friendly Cities France 2026: Best Places for Expats with Pets",
-    metaDesc: "Best French cities for expats with pets: vet access, apartment regulations, parks and beaches, rental market restrictions. Honest 2026 guide.",
+    title: "Pet-friendly cities in France for expats: where your dog or cat actually fits in (2027)",
+    metaTitle: "Pet-Friendly Cities France 2027: Best Places for Expats with Pets",
+    metaDesc: "Best French cities for expats with pets: vet access, apartment regulations, parks and beaches, rental market restrictions. Honest 2027 guide.",
     category: "lifestyle",
     emoji: "🐾",
     readMinutes: 7,
@@ -9057,8 +9057,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "france-for-remote-workers-complete-guide-2026",
-    title: "France for remote workers: the complete guide (2026)",
-    metaTitle: "France for Remote Workers 2026: Complete Guide — Visa, Cities",
+    title: "France for remote workers: the complete guide (2027)",
+    metaTitle: "France for Remote Workers 2027: Complete Guide — Visa, Cities",
     metaDesc: "Everything about working remotely from France: the best cities, internet quality, co-working spaces, visa options, tax implications. Complete 2026 guide for remote workers.",
     category: "remote-work",
     emoji: "💻",
@@ -9093,9 +9093,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "nantes-for-expats-guide-2026",
-    title: "Moving to Nantes: the expat guide (2026)",
-    metaTitle: "Moving to Nantes 2026: Expat Guide — Atlantic City, Costs",
-    metaDesc: "Nantes for expats: Atlantic city life, property prices, English community, Pays de la Loire lifestyle. Honest 2026 guide for anyone considering Nantes.",
+    title: "Moving to Nantes: the expat guide (2027)",
+    metaTitle: "Moving to Nantes 2027: Expat Guide — Atlantic City, Costs",
+    metaDesc: "Nantes for expats: Atlantic city life, property prices, English community, Pays de la Loire lifestyle. Honest 2027 guide for anyone considering Nantes.",
     category: "city-guide",
     emoji: "🏰",
     readMinutes: 8,
@@ -9129,9 +9129,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "learning-french-expats-practical-guide-2026",
-    title: "Learning French as an expat: the practical guide that actually helps (2026)",
-    metaTitle: "Learning French as an Expat 2026: Practical Guide That Works",
-    metaDesc: "How to actually learn French as an expat in France: realistic timeline, best methods, where to find classes, common pitfalls. Practical 2026 guide.",
+    title: "Learning French as an expat: the practical guide that actually helps (2027)",
+    metaTitle: "Learning French as an Expat 2027: Practical Guide That Works",
+    metaDesc: "How to actually learn French as an expat in France: realistic timeline, best methods, where to find classes, common pitfalls. Practical 2027 guide.",
     category: "moving",
     emoji: "🗣️",
     readMinutes: 8,
@@ -9165,9 +9165,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "expat-families-france-which-cities-2026",
-    title: "France for expat families: which cities work best in 2026?",
-    metaTitle: "Best Cities France for Expat Families 2026: Schools, Safety",
-    metaDesc: "Best French cities for expat families: international schools, safe neighbourhoods, parks, space. Honest 2026 guide for families moving to France.",
+    title: "France for expat families: which cities work best in 2027?",
+    metaTitle: "Best Cities France for Expat Families 2027: Schools, Safety",
+    metaDesc: "Best French cities for expat families: international schools, safe neighbourhoods, parks, space. Honest 2027 guide for families moving to France.",
     category: "family",
     emoji: "👨‍👩‍👧",
     readMinutes: 9,
@@ -9201,9 +9201,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "grenoble-for-expats-guide-2026",
-    title: "Moving to Grenoble: the expat guide (2026)",
-    metaTitle: "Moving to Grenoble 2026: Expat Guide — Science City, Alps Access",
-    metaDesc: "Grenoble for expats: CERN, CEA, ski slopes from the city, international scientific community, property prices. Honest 2026 guide.",
+    title: "Moving to Grenoble: the expat guide (2027)",
+    metaTitle: "Moving to Grenoble 2027: Expat Guide — Science City, Alps Access",
+    metaDesc: "Grenoble for expats: CERN, CEA, ski slopes from the city, international scientific community, property prices. Honest 2027 guide.",
     category: "city-guide",
     emoji: "⛷️",
     readMinutes: 8,
@@ -9239,8 +9239,8 @@ export const EN_GUIDES: EnGuide[] = [
   // ── Expat practical series ─────────────────────────────────────────────────
   {
     slug: "french-bureaucracy-survival-guide-2026",
-    title: "French Bureaucracy Survival Guide for Expats (2026)",
-    metaTitle: "French Bureaucracy Survival Guide 2026 — Visa, CAF, CPAM",
+    title: "French Bureaucracy Survival Guide for Expats (2027)",
+    metaTitle: "French Bureaucracy Survival Guide 2027 — Visa, CAF, CPAM",
     metaDesc: "A no-nonsense walkthrough of French admin: residence permits, CAF housing aid, CPAM health coverage, bank accounts, and the prefecture system — what to expect and in what order.",
     category: "moving",
     emoji: "📋",
@@ -9287,8 +9287,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "buying-property-in-france-expat-guide-2026",
-    title: "Buying Property in France as a Foreigner — Complete Guide (2026)",
-    metaTitle: "Buying Property in France as a Foreigner 2026 — Full Guide",
+    title: "Buying Property in France as a Foreigner — Complete Guide (2027)",
+    metaTitle: "Buying Property in France as a Foreigner 2027 — Full Guide",
     metaDesc: "How to buy a house or apartment in France as a non-resident or expat: the notaire process, mortgage rules, taxes, fees, and what the agents won't tell you upfront.",
     category: "moving",
     emoji: "🏡",
@@ -9331,9 +9331,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "lyon-vs-bordeaux-which-city-to-move-to-2026",
-    title: "Lyon vs Bordeaux — Which French City Should You Move To? (2026)",
-    metaTitle: "Lyon vs Bordeaux 2026 — Expat City Comparison: Cost, Jobs",
-    metaDesc: "A direct comparison of Lyon and Bordeaux for expats and remote workers: property prices, job market, transport, climate, cultural life, and daily quality of life in 2026.",
+    title: "Lyon vs Bordeaux — Which French City Should You Move To? (2027)",
+    metaTitle: "Lyon vs Bordeaux 2027 — Expat City Comparison: Cost, Jobs",
+    metaDesc: "A direct comparison of Lyon and Bordeaux for expats and remote workers: property prices, job market, transport, climate, cultural life, and daily quality of life in 2027.",
     category: "city-guide",
     emoji: "⚖️",
     publishedAt: "2026-05-26",
@@ -9375,9 +9375,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "paris-vs-province-real-cost-comparison-2026",
-    title: "Paris vs Province — The Real Cost Comparison (2026)",
-    metaTitle: "Paris vs Province France — Real Cost Comparison 2026 for Expats",
-    metaDesc: "What does it actually cost to live in Paris vs Lyon, Bordeaux, Toulouse, or Rennes? A side-by-side comparison of rent, groceries, childcare, dining out, and total monthly budgets for 2026.",
+    title: "Paris vs Province — The Real Cost Comparison (2027)",
+    metaTitle: "Paris vs Province France — Real Cost Comparison 2027 for Expats",
+    metaDesc: "What does it actually cost to live in Paris vs Lyon, Bordeaux, Toulouse, or Rennes? A side-by-side comparison of rent, groceries, childcare, dining out, and total monthly budgets for 2027.",
     category: "budget",
     emoji: "💶",
     publishedAt: "2026-05-26",
@@ -9419,8 +9419,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "learning-french-in-france-guide-2026",
-    title: "Learning French in France — Schools, Methods, and Realistic Expectations (2026)",
-    metaTitle: "Learning French in France 2026 — Language Schools, Apps",
+    title: "Learning French in France — Schools, Methods, and Realistic Expectations (2027)",
+    metaTitle: "Learning French in France 2027 — Language Schools, Apps",
     metaDesc: "How to learn French as an expat living in France: language schools, Alliance Française, immersion strategies, DELF/DALF certification, and realistic timelines by level.",
     category: "moving",
     emoji: "🗣️",
@@ -9504,7 +9504,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-paris-2026",
     title: "Things to do in Paris: a resident's honest shortlist",
-    metaTitle: "Things to Do in Paris (2026) — A Resident's Honest Guide",
+    metaTitle: "Things to Do in Paris (2027) — A Resident's Honest Guide",
     metaDesc:
       "What's actually worth your time in Paris: the landmarks that earn the queue, the museums to skip the crowds, and the neighbourhoods where the city feels lived-in.",
     category: "city-guide",
@@ -9546,7 +9546,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lyon-2026",
     title: "Things to do in Lyon: food capital, two rivers, Roman hills",
-    metaTitle: "Things to Do in Lyon (2026) — Food, History & Neighbourhoods",
+    metaTitle: "Things to Do in Lyon (2027) — Food, History & Neighbourhoods",
     metaDesc:
       "Lyon beyond the bouchons: the Renaissance old town, the traboule passages, the hilltop Roman ruins and where to eat without the tourist markup.",
     category: "city-guide",
@@ -9584,7 +9584,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nice-2026",
     title: "Things to do in Nice: the Riviera without the clichés",
-    metaTitle: "Things to Do in Nice (2026) — Old Town, Sea & Day Trips",
+    metaTitle: "Things to Do in Nice (2027) — Old Town, Sea & Day Trips",
     metaDesc:
       "Nice beyond the Promenade: the old town, the hilltop views, the art museums and the easy train hops along the Côte d'Azur.",
     category: "city-guide",
@@ -9622,7 +9622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bordeaux-2026",
     title: "Things to do in Bordeaux: stone, wine and the river",
-    metaTitle: "Things to Do in Bordeaux (2026) — Old Town, Wine & River",
+    metaTitle: "Things to Do in Bordeaux (2027) — Old Town, Wine & River",
     metaDesc:
       "Bordeaux beyond the vineyards: the 18th-century waterfront, the wine museum that's actually fun, and the day trips into Médoc and Saint-Émilion.",
     category: "city-guide",
@@ -9660,7 +9660,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-marseille-2026",
     title: "Things to do in Marseille: the rough, real Mediterranean city",
-    metaTitle: "Things to Do in Marseille (2026) — Calanques, Port & Panier",
+    metaTitle: "Things to Do in Marseille (2027) — Calanques, Port & Panier",
     metaDesc:
       "Marseille without the clichés: the old port, the Panier quarter, the basilica view and the turquoise Calanques on the city's doorstep.",
     category: "city-guide",
@@ -9698,7 +9698,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-strasbourg-2026",
     title: "Things to do in Strasbourg: French-German crossroads on the Rhine",
-    metaTitle: "Things to Do in Strasbourg (2026) — Cathedral, Canals & Alsace",
+    metaTitle: "Things to Do in Strasbourg (2027) — Cathedral, Canals & Alsace",
     metaDesc:
       "Strasbourg's sandstone cathedral, the canal-laced Petite France quarter, the European institutions and the Alsace wine villages on the doorstep.",
     category: "city-guide",
@@ -9736,7 +9736,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-toulouse-2026",
     title: "Things to do in Toulouse: the pink city on the Garonne",
-    metaTitle: "Things to Do in Toulouse (2026) — Old Town, Space & Canals",
+    metaTitle: "Things to Do in Toulouse (2027) — Old Town, Space & Canals",
     metaDesc:
       "Toulouse beyond aerospace: the rose-brick old town, the basilica, the Canal du Midi and the riverside life of France's fourth city.",
     category: "city-guide",
@@ -9774,7 +9774,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nantes-2026",
     title: "Things to do in Nantes: mechanical elephants and Atlantic edge",
-    metaTitle: "Things to Do in Nantes (2026) — Les Machines, Château & Loire",
+    metaTitle: "Things to Do in Nantes (2027) — Les Machines, Château & Loire",
     metaDesc:
       "Nantes beyond the castle: the giant mechanical elephant, the art trail along the Loire, the medieval centre and the estuary out to the coast.",
     category: "city-guide",
@@ -9808,7 +9808,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montpellier-2026",
     title: "Things to do in Montpellier: young, sunny, ten minutes from the sea",
-    metaTitle: "Things to Do in Montpellier (2026) — Old Town, Beaches & Art",
+    metaTitle: "Things to Do in Montpellier (2027) — Old Town, Beaches & Art",
     metaDesc:
       "Montpellier's medieval lanes, the grand Place de la Comédie, the modern Antigone quarter and the Mediterranean beaches a tram ride away.",
     category: "city-guide",
@@ -9842,7 +9842,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lille-2026",
     title: "Things to do in Lille: Flemish flair in the French north",
-    metaTitle: "Things to Do in Lille (2026) — Vieux-Lille, Art & Markets",
+    metaTitle: "Things to Do in Lille (2027) — Vieux-Lille, Art & Markets",
     metaDesc:
       "Lille's Flemish old town, the grand squares, one of France's great fine-arts museums and the famous September braderie.",
     category: "city-guide",
@@ -9876,7 +9876,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-annecy-2026",
     title: "Things to do in Annecy: the Alpine lake town",
-    metaTitle: "Things to Do in Annecy (2026) — Lake, Old Town & Mountains",
+    metaTitle: "Things to Do in Annecy (2027) — Lake, Old Town & Mountains",
     metaDesc:
       "Annecy's canal-laced old town, the clearest lake in France, the lakeside cycle path and the mountains rising straight from the water.",
     category: "city-guide",
@@ -9910,7 +9910,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-avignon-2026",
     title: "Things to do in Avignon: popes, ramparts and the Provence bridge",
-    metaTitle: "Things to Do in Avignon (2026) — Papal Palace, Bridge & Festival",
+    metaTitle: "Things to Do in Avignon (2027) — Papal Palace, Bridge & Festival",
     metaDesc:
       "Avignon's vast papal palace, the famous half-bridge, the walled old town and the Provence villages and vineyards on its doorstep.",
     category: "city-guide",
@@ -9944,7 +9944,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-rennes-2026",
     title: "Things to do in Rennes: Breton capital, half-timbered and young",
-    metaTitle: "Things to Do in Rennes (2026) — Old Town, Parks & Brittany",
+    metaTitle: "Things to Do in Rennes (2027) — Old Town, Parks & Brittany",
     metaDesc:
       "Rennes's medieval half-timbered centre, the parliament of Brittany, the Thabor gardens and the lively student-city nightlife.",
     category: "city-guide",
@@ -9978,7 +9978,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-grenoble-2026",
     title: "Things to do in Grenoble: a city wrapped in mountains",
-    metaTitle: "Things to Do in Grenoble (2026) — Bastille, Museums & Alps",
+    metaTitle: "Things to Do in Grenoble (2027) — Bastille, Museums & Alps",
     metaDesc:
       "Grenoble's cable-car fortress, strong museums, the old town and the three mountain ranges that start at the end of the tram line.",
     category: "city-guide",
@@ -10012,7 +10012,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aix-en-provence-2026",
     title: "Things to do in Aix-en-Provence: fountains, Cézanne and markets",
-    metaTitle: "Things to Do in Aix-en-Provence (2026) — Old Town & Cézanne",
+    metaTitle: "Things to Do in Aix-en-Provence (2027) — Old Town & Cézanne",
     metaDesc:
       "Aix's elegant old town and the Cours Mirabeau, the Cézanne trail, the Provençal markets and the mountain that he painted.",
     category: "city-guide",
@@ -10046,7 +10046,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dijon-2026",
     title: "Things to do in Dijon: dukes, mustard and Burgundy wine",
-    metaTitle: "Things to Do in Dijon (2026) — Ducal Palace, Owl Trail & Wine",
+    metaTitle: "Things to Do in Dijon (2027) — Ducal Palace, Owl Trail & Wine",
     metaDesc:
       "Dijon's ducal palace and fine-arts museum, the owl trail through the old town, the mustard and the Burgundy wine route on the doorstep.",
     category: "city-guide",
@@ -10080,7 +10080,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-rouen-2026",
     title: "Things to do in Rouen: Normandy's Gothic, half-timbered capital",
-    metaTitle: "Things to Do in Rouen (2026) — Cathedral, Old Town & Monet",
+    metaTitle: "Things to Do in Rouen (2027) — Cathedral, Old Town & Monet",
     metaDesc:
       "Rouen's soaring cathedral that Monet painted, the half-timbered medieval streets, the Joan of Arc story and the Normandy coast nearby.",
     category: "city-guide",
@@ -10114,7 +10114,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-reims-2026",
     title: "Things to do in Reims: coronation cathedral and Champagne cellars",
-    metaTitle: "Things to Do in Reims (2026) — Cathedral, Champagne & Cellars",
+    metaTitle: "Things to Do in Reims (2027) — Cathedral, Champagne & Cellars",
     metaDesc:
       "Reims's coronation cathedral, the great Champagne houses and their chalk cellars, the Roman gate and an easy day trip from Paris.",
     category: "city-guide",
@@ -10148,7 +10148,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-la-rochelle-2026",
     title: "Things to do in La Rochelle: towers, harbour and Atlantic light",
-    metaTitle: "Things to Do in La Rochelle (2026) — Old Port, Towers & Islands",
+    metaTitle: "Things to Do in La Rochelle (2027) — Old Port, Towers & Islands",
     metaDesc:
       "La Rochelle's medieval harbour towers, the arcaded old town, the aquarium and the island of Ré a bridge away.",
     category: "city-guide",
@@ -10182,7 +10182,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-biarritz-2026",
     title: "Things to do in Biarritz: surf, Belle Époque and Basque flavour",
-    metaTitle: "Things to Do in Biarritz (2026) — Beaches, Surf & Basque Coast",
+    metaTitle: "Things to Do in Biarritz (2027) — Beaches, Surf & Basque Coast",
     metaDesc:
       "Biarritz's surf beaches, the Rock of the Virgin, the Belle Époque seafront and the Basque towns along the coast.",
     category: "city-guide",
@@ -10216,7 +10216,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-colmar-2026",
     title: "Things to do in Colmar: the storybook capital of Alsace wine",
-    metaTitle: "Things to Do in Colmar (2026) — Little Venice, Wine & Old Town",
+    metaTitle: "Things to Do in Colmar (2027) — Little Venice, Wine & Old Town",
     metaDesc:
       "Colmar's half-timbered old town and Little Venice canals, the Unterlinden museum's altarpiece, and the Alsace wine villages around it.",
     category: "city-guide",
@@ -10250,7 +10250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-toulon-2026",
     title: "Things to do in Toulon: naval harbour and a cable-car mountain",
-    metaTitle: "Things to Do in Toulon (2026) — Harbour, Mont Faron & Beaches",
+    metaTitle: "Things to Do in Toulon (2027) — Harbour, Mont Faron & Beaches",
     metaDesc:
       "Toulon's great naval harbour, the Mont Faron cable car, the old town and the beaches and islands of the Var coast.",
     category: "city-guide",
@@ -10280,7 +10280,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-perpignan-2026",
     title: "Things to do in Perpignan: Catalan France at the Pyrenees' edge",
-    metaTitle: "Things to Do in Perpignan (2026) — Palace, Old Town & Coast",
+    metaTitle: "Things to Do in Perpignan (2027) — Palace, Old Town & Coast",
     metaDesc:
       "Perpignan's kings-of-Majorca palace, the Catalan old town, the Castillet gate and the beaches and mountains of the Pyrénées-Orientales.",
     category: "city-guide",
@@ -10310,7 +10310,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-carcassonne-2026",
     title: "Things to do in Carcassonne: Europe's great walled city",
-    metaTitle: "Things to Do in Carcassonne (2026) — Cité, Ramparts & Canal",
+    metaTitle: "Things to Do in Carcassonne (2027) — Cité, Ramparts & Canal",
     metaDesc:
       "Carcassonne's double-walled medieval citadel, the castle and ramparts, the lower town and the Canal du Midi.",
     category: "city-guide",
@@ -10340,7 +10340,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cannes-2026",
     title: "Things to do in Cannes: beyond the red carpet",
-    metaTitle: "Things to Do in Cannes (2026) — Croisette, Old Town & Islands",
+    metaTitle: "Things to Do in Cannes (2027) — Croisette, Old Town & Islands",
     metaDesc:
       "Cannes past the film festival: the Croisette and beaches, the old Le Suquet quarter, and the calm Lérins islands a short boat ride out.",
     category: "city-guide",
@@ -10374,7 +10374,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-antibes-2026",
     title: "Things to do in Antibes: ramparts, Picasso and the biggest yachts",
-    metaTitle: "Things to Do in Antibes (2026) — Old Town, Picasso & Cap",
+    metaTitle: "Things to Do in Antibes (2027) — Old Town, Picasso & Cap",
     metaDesc:
       "Antibes's ramparts and old town, the Picasso museum in the seafront castle, the Provençal market and the millionaire's Cap d'Antibes.",
     category: "city-guide",
@@ -10408,7 +10408,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-malo-2026",
     title: "Things to do in Saint-Malo: the walled corsair city",
-    metaTitle: "Things to Do in Saint-Malo (2026) — Ramparts, Beaches & Tides",
+    metaTitle: "Things to Do in Saint-Malo (2027) — Ramparts, Beaches & Tides",
     metaDesc:
       "Saint-Malo's walled old town and rampart walk, the tidal islands, the huge Atlantic tides and the Brittany coast around it.",
     category: "city-guide",
@@ -10442,7 +10442,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-honfleur-2026",
     title: "Things to do in Honfleur: the painters' harbour of Normandy",
-    metaTitle: "Things to Do in Honfleur (2026) — Old Port, Art & Normandy Coast",
+    metaTitle: "Things to Do in Honfleur (2027) — Old Port, Art & Normandy Coast",
     metaDesc:
       "Honfleur's picture-perfect old harbour, the remarkable wooden church, the Impressionist heritage and the Normandy coast nearby.",
     category: "city-guide",
@@ -10476,7 +10476,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-menton-2026",
     title: "Things to do in Menton: lemons, gardens and the Italian border",
-    metaTitle: "Things to Do in Menton (2026) — Old Town, Gardens & Lemons",
+    metaTitle: "Things to Do in Menton (2027) — Old Town, Gardens & Lemons",
     metaDesc:
       "Menton's pastel old town, the exotic gardens, the famous lemon festival and the last warm corner of France before Italy.",
     category: "city-guide",
@@ -10510,7 +10510,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cassis-2026",
     title: "Things to do in Cassis: calanques, cliffs and a fishing port",
-    metaTitle: "Things to Do in Cassis (2026) — Calanques, Port & Cap Canaille",
+    metaTitle: "Things to Do in Cassis (2027) — Calanques, Port & Cap Canaille",
     metaDesc:
       "Cassis's pretty fishing harbour, the turquoise calanques on its doorstep, the towering Cap Canaille cliff road and the local wine.",
     category: "city-guide",
@@ -10544,7 +10544,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-arles-2026",
     title: "Things to do in Arles: Roman stones and Van Gogh's light",
-    metaTitle: "Things to Do in Arles (2026) — Roman Arena, Van Gogh",
+    metaTitle: "Things to Do in Arles (2027) — Roman Arena, Van Gogh",
     metaDesc:
       "Arles's Roman amphitheatre, the Van Gogh trail, the world-class photography festival and the wild Camargue on its doorstep.",
     category: "city-guide",
@@ -10586,7 +10586,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nimes-2026",
     title: "Things to do in Nîmes: the best-preserved Roman city in France",
-    metaTitle: "Things to Do in Nîmes (2026) — Roman Arena, Maison Carrée",
+    metaTitle: "Things to Do in Nîmes (2027) — Roman Arena, Maison Carrée",
     metaDesc:
       "Nîmes's astonishing Roman amphitheatre and temple, the modern Musée de la Romanité, the gardens, and the Pont du Gard nearby.",
     category: "city-guide",
@@ -10628,7 +10628,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bayeux-2026",
     title: "Things to do in Bayeux: the Tapestry and the D-Day beaches",
-    metaTitle: "Things to Do in Bayeux (2026) — The Tapestry, Cathedral",
+    metaTitle: "Things to Do in Bayeux (2027) — The Tapestry, Cathedral",
     metaDesc:
       "Bayeux's medieval tapestry, its soaring cathedral, the spared old town, and the D-Day landing beaches and cemeteries on its doorstep.",
     category: "city-guide",
@@ -10666,7 +10666,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-caen-2026",
     title: "Things to do in Caen: William's castle and the Memorial",
-    metaTitle: "Things to Do in Caen (2026) — Castle, Abbeys & the Mémorial",
+    metaTitle: "Things to Do in Caen (2027) — Castle, Abbeys & the Mémorial",
     metaDesc:
       "Caen's huge medieval castle, William the Conqueror's two abbeys, the powerful Mémorial peace museum and the D-Day coast nearby.",
     category: "city-guide",
@@ -10704,7 +10704,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tours-2026",
     title: "Things to do in Tours: the gateway to the Loire châteaux",
-    metaTitle: "Things to Do in Tours (2026) — Old Town, Cathedral",
+    metaTitle: "Things to Do in Tours (2027) — Old Town, Cathedral",
     metaDesc:
       "Tours's handsome old town and cathedral, its lively student energy and food scene, and the great Loire Valley châteaux on its doorstep.",
     category: "city-guide",
@@ -10746,7 +10746,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-beaune-2026",
     title: "Things to do in Beaune: the capital of Burgundy wine",
-    metaTitle: "Things to Do in Beaune (2026) — Hospices, Wine Cellars",
+    metaTitle: "Things to Do in Beaune (2027) — Hospices, Wine Cellars",
     metaDesc:
       "Beaune's glittering Hospices, the cellars beneath the ramparts, the Côte de Beaune vineyards and the grand cru villages all around.",
     category: "city-guide",
@@ -10784,7 +10784,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sarlat-la-caneda-2026",
     title: "Things to do in Sarlat: the golden capital of the Dordogne",
-    metaTitle: "Things to Do in Sarlat (2026) — Medieval Town, Markets",
+    metaTitle: "Things to Do in Sarlat (2027) — Medieval Town, Markets",
     metaDesc:
       "Sarlat's honey-stone medieval centre, its famous markets and foie gras, and the castles, caves and river valleys of the Périgord around it.",
     category: "city-guide",
@@ -10826,7 +10826,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-tropez-2026",
     title: "Things to do in Saint-Tropez: beyond the yachts",
-    metaTitle: "Things to Do in Saint-Tropez (2026) — Old Town, Beaches & Art",
+    metaTitle: "Things to Do in Saint-Tropez (2027) — Old Town, Beaches & Art",
     metaDesc:
       "Saint-Tropez's old fishing village, the Annonciade art museum, the Pampelonne beaches and the markets, past the superyacht clichés.",
     category: "city-guide",
@@ -10864,7 +10864,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-paul-de-vence-2026",
     title: "Things to do in Saint-Paul-de-Vence: an art village above the coast",
-    metaTitle: "Things to Do in Saint-Paul-de-Vence (2026) — Ramparts, Galleries",
+    metaTitle: "Things to Do in Saint-Paul-de-Vence (2027) — Ramparts, Galleries",
     metaDesc:
       "Saint-Paul-de-Vence's ramparts and galleries, the world-class Fondation Maeght, the artists' legacy and nearby Vence and the coast.",
     category: "city-guide",
@@ -10902,7 +10902,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-ajaccio-2026",
     title: "Things to do in Ajaccio: Napoleon's city on the Corsican coast",
-    metaTitle: "Things to Do in Ajaccio (2026) — Napoleon, Beaches",
+    metaTitle: "Things to Do in Ajaccio (2027) — Napoleon, Beaches",
     metaDesc:
       "Ajaccio's Napoleon heritage, its old town and market, the golden beaches and the boat trip out to the Sanguinaire islands.",
     category: "city-guide",
@@ -10940,7 +10940,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-amboise-2026",
     title: "Things to do in Amboise: a royal château and Leonardo's last home",
-    metaTitle: "Things to Do in Amboise (2026) — Château, Clos Lucé & the Loire",
+    metaTitle: "Things to Do in Amboise (2027) — Château, Clos Lucé & the Loire",
     metaDesc:
       "Amboise's royal château above the Loire, Leonardo da Vinci's final home at Clos Lucé, the old town and the nearby Loire châteaux.",
     category: "city-guide",
@@ -10978,7 +10978,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-blois-2026",
     title: "Things to do in Blois: a royal city between Chambord and Chambord",
-    metaTitle: "Things to Do in Blois (2026) — Royal Château, Old Town",
+    metaTitle: "Things to Do in Blois (2027) — Royal Château, Old Town",
     metaDesc:
       "Blois's royal château with its famous spiral staircase, the steep old town, the house of magic, and Chambord and Chaumont nearby.",
     category: "city-guide",
@@ -11012,7 +11012,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chinon-2026",
     title: "Things to do in Chinon: a medieval fortress and red wine",
-    metaTitle: "Things to Do in Chinon (2026) — Royal Fortress, Old Town & Wine",
+    metaTitle: "Things to Do in Chinon (2027) — Royal Fortress, Old Town & Wine",
     metaDesc:
       "Chinon's clifftop royal fortress where Joan of Arc met the future king, the medieval old town, and the red wines of the Vienne valley.",
     category: "city-guide",
@@ -11050,7 +11050,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saumur-2026",
     title: "Things to do in Saumur: white château, sparkling wine and horses",
-    metaTitle: "Things to Do in Saumur (2026) — Château, Cavalry School & Wine",
+    metaTitle: "Things to Do in Saumur (2027) — Château, Cavalry School & Wine",
     metaDesc:
       "Saumur's gleaming white château over the Loire, the famous Cadre Noir riding school, the sparkling-wine cellars and the troglodyte villages.",
     category: "city-guide",
@@ -11088,7 +11088,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bayonne-2026",
     title: "Things to do in Bayonne: chocolate, ham and Basque colour",
-    metaTitle: "Things to Do in Bayonne (2026) — Old Town, Cathedral",
+    metaTitle: "Things to Do in Bayonne (2027) — Old Town, Cathedral",
     metaDesc:
       "Bayonne's red-and-green Basque old town, its Gothic cathedral, the famous ham and chocolate, the Basque museum and nearby Biarritz.",
     category: "city-guide",
@@ -11126,7 +11126,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-jean-de-luz-2026",
     title: "Things to do in Saint-Jean-de-Luz: a Basque fishing town and a royal wedding",
-    metaTitle: "Things to Do in Saint-Jean-de-Luz (2026) — Beach, Old Town & Bay",
+    metaTitle: "Things to Do in Saint-Jean-de-Luz (2027) — Beach, Old Town & Bay",
     metaDesc:
       "Saint-Jean-de-Luz's sheltered beach, the church where Louis XIV married, the lively old town and the Basque coast around it.",
     category: "city-guide",
@@ -11164,7 +11164,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dinan-2026",
     title: "Things to do in Dinan: a walled medieval town above the Rance",
-    metaTitle: "Things to Do in Dinan (2026) — Ramparts, Old Town",
+    metaTitle: "Things to Do in Dinan (2027) — Ramparts, Old Town",
     metaDesc:
       "Dinan's complete medieval ramparts, the cobbled old town and timber houses, the steep port on the Rance, and Brittany's north coast nearby.",
     category: "city-guide",
@@ -11202,7 +11202,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vannes-2026",
     title: "Things to do in Vannes: a walled town on the Gulf of Morbihan",
-    metaTitle: "Things to Do in Vannes (2026) — Ramparts, Old Town & the Gulf",
+    metaTitle: "Things to Do in Vannes (2027) — Ramparts, Old Town & the Gulf",
     metaDesc:
       "Vannes's medieval walls and gardens, the half-timbered old town, the harbour, and boat trips out into the island-dotted Gulf of Morbihan.",
     category: "city-guide",
@@ -11240,7 +11240,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-quimper-2026",
     title: "Things to do in Quimper: cathedral spires and Breton faience",
-    metaTitle: "Things to Do in Quimper (2026) — Cathedral, Old Town & Pottery",
+    metaTitle: "Things to Do in Quimper (2027) — Cathedral, Old Town & Pottery",
     metaDesc:
       "Quimper's twin-spired cathedral, the half-timbered old town along the Odet, the famous hand-painted faience, and the heart of Breton culture.",
     category: "city-guide",
@@ -11278,7 +11278,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gordes-2026",
     title: "Things to do in Gordes: the postcard hill village of the Luberon",
-    metaTitle: "Things to Do in Gordes (2026) — Hill Village, Sénanque",
+    metaTitle: "Things to Do in Gordes (2027) — Hill Village, Sénanque",
     metaDesc:
       "Gordes's tumbling stone village, the lavender abbey of Sénanque, the dry-stone Village des Bories, and the Luberon villages around it.",
     category: "city-guide",
@@ -11316,7 +11316,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-metz-2026",
     title: "Things to do in Metz: golden stone, glass and a Pompidou",
-    metaTitle: "Things to Do in Metz (2026) — Cathedral, Centre Pompidou",
+    metaTitle: "Things to Do in Metz (2027) — Cathedral, Centre Pompidou",
     metaDesc:
       "Metz's luminous Gothic cathedral, the Centre Pompidou-Metz, the German Imperial quarter and the gardens along the Moselle.",
     category: "city-guide",
@@ -11354,7 +11354,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nancy-2026",
     title: "Things to do in Nancy: a royal square and Art Nouveau",
-    metaTitle: "Things to Do in Nancy (2026) — Place Stanislas, Art Nouveau",
+    metaTitle: "Things to Do in Nancy (2027) — Place Stanislas, Art Nouveau",
     metaDesc:
       "Nancy's golden Place Stanislas, the Art Nouveau of the École de Nancy, the medieval old town and the ducal palace.",
     category: "city-guide",
@@ -11388,7 +11388,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-havre-2026",
     title: "Things to do in Le Havre: concrete, light and the sea",
-    metaTitle: "Things to Do in Le Havre (2026) — Perret's City, MuMa & the Beach",
+    metaTitle: "Things to Do in Le Havre (2027) — Perret's City, MuMa & the Beach",
     metaDesc:
       "Le Havre's UNESCO-listed Perret architecture, the light-filled MuMa museum of Impressionism, Niemeyer's Volcano, and the seafront.",
     category: "city-guide",
@@ -11426,7 +11426,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-arcachon-2026",
     title: "Things to do in Arcachon: oysters, dunes and the bay",
-    metaTitle: "Things to Do in Arcachon (2026) — Dune du Pilat, Oysters",
+    metaTitle: "Things to Do in Arcachon (2027) — Dune du Pilat, Oysters",
     metaDesc:
       "Arcachon's belle-époque villas, the towering Dune du Pilat, the oyster ports of the bay, and boat trips to the Île aux Oiseaux.",
     category: "city-guide",
@@ -11464,7 +11464,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-collioure-2026",
     title: "Things to do in Collioure: the Catalan harbour that inspired Fauvism",
-    metaTitle: "Things to Do in Collioure (2026) — Harbour, Castle",
+    metaTitle: "Things to Do in Collioure (2027) — Harbour, Castle",
     metaDesc:
       "Collioure's bell-tower harbour, the royal castle, the Fauvism trail of Matisse and Derain, the anchovies, and the Vermilion Coast.",
     category: "city-guide",
@@ -11502,7 +11502,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pau-2026",
     title: "Things to do in Pau: a Pyrenean balcony and a royal castle",
-    metaTitle: "Things to Do in Pau (2026) — Château, Boulevard des Pyrénées",
+    metaTitle: "Things to Do in Pau (2027) — Château, Boulevard des Pyrénées",
     metaDesc:
       "Pau's royal castle birthplace of Henri IV, the mountain-view Boulevard des Pyrénées, the English-era parks and the gateway to the Pyrenees.",
     category: "city-guide",
@@ -11540,7 +11540,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-brest-2026",
     title: "Things to do in Brest: a great harbour at the edge of France",
-    metaTitle: "Things to Do in Brest (2026) — Océanopolis, Castle & the Harbour",
+    metaTitle: "Things to Do in Brest (2027) — Océanopolis, Castle & the Harbour",
     metaDesc:
       "Brest's Océanopolis aquarium, the castle and maritime museum, the cable car over the harbour, and the wild tip of Brittany beyond.",
     category: "city-guide",
@@ -11578,7 +11578,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-royan-2026",
     title: "Things to do in Royan: 1950s seaside modernism and Atlantic beaches",
-    metaTitle: "Things to Do in Royan (2026) — Beaches, Modernist Architecture",
+    metaTitle: "Things to Do in Royan (2027) — Beaches, Modernist Architecture",
     metaDesc:
       "Royan's curved 1950s architecture, the concrete Notre-Dame church, the sandy conches, and the Gironde estuary and Zoo de la Palmyre nearby.",
     category: "city-guide",
@@ -11616,7 +11616,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bastia-2026",
     title: "Things to do in Bastia: Corsica's working capital with an Italian soul",
-    metaTitle: "Things to Do in Bastia (2026) — Old Port, Citadel & Cap Corse",
+    metaTitle: "Things to Do in Bastia (2027) — Old Port, Citadel & Cap Corse",
     metaDesc:
       "Bastia's old port and baroque churches, the citadel of Terra Nova, the grand Place Saint-Nicolas, and the wild Cap Corse beyond.",
     category: "city-guide",
@@ -11654,7 +11654,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-calvi-2026",
     title: "Things to do in Calvi: a citadel, a curving beach and the mountains",
-    metaTitle: "Things to Do in Calvi (2026) — Citadel, Beach & the Balagne",
+    metaTitle: "Things to Do in Calvi (2027) — Citadel, Beach & the Balagne",
     metaDesc:
       "Calvi's Genoese citadel over the bay, the long pine-backed beach, the marina, and the hill villages of the Balagne behind.",
     category: "city-guide",
@@ -11692,7 +11692,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-albi-2026",
     title: "Things to do in Albi: a red-brick cathedral-fortress and Toulouse-Lautrec",
-    metaTitle: "Things to Do in Albi (2026) — Sainte-Cécile, Toulouse-Lautrec",
+    metaTitle: "Things to Do in Albi (2027) — Sainte-Cécile, Toulouse-Lautrec",
     metaDesc:
       "Albi's vast brick cathedral, the Toulouse-Lautrec museum in the bishop's palace, the UNESCO old town and the banks of the Tarn.",
     category: "city-guide",
@@ -11726,7 +11726,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cahors-2026",
     title: "Things to do in Cahors: a fortified bridge and dark red wine",
-    metaTitle: "Things to Do in Cahors (2026) — Pont Valentré, Old Town",
+    metaTitle: "Things to Do in Cahors (2027) — Pont Valentré, Old Town",
     metaDesc:
       "Cahors's UNESCO fortified medieval bridge, the cathedral and old town in a loop of the Lot, the black wine, and the valley beyond.",
     category: "city-guide",
@@ -11764,7 +11764,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-perigueux-2026",
     title: "Things to do in Périgueux: Roman ruins and a domed cathedral",
-    metaTitle: "Things to Do in Périgueux (2026) — Cathedral, Roman Town",
+    metaTitle: "Things to Do in Périgueux (2027) — Cathedral, Roman Town",
     metaDesc:
       "Périgueux's Byzantine-domed cathedral, the medieval old town, the Roman quarter and Gallo-Roman museum, and the famous Périgord markets.",
     category: "city-guide",
@@ -11802,7 +11802,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chartres-2026",
     title: "Things to do in Chartres: the greatest Gothic cathedral and its blue glass",
-    metaTitle: "Things to Do in Chartres (2026) — Cathedral, Stained Glass",
+    metaTitle: "Things to Do in Chartres (2027) — Cathedral, Stained Glass",
     metaDesc:
       "Chartres's UNESCO cathedral and its famous medieval stained glass, the old town on the Eure, the light festival, and an easy day from Paris.",
     category: "city-guide",
@@ -11840,7 +11840,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-amiens-2026",
     title: "Things to do in Amiens: France's largest cathedral and floating gardens",
-    metaTitle: "Things to Do in Amiens (2026) — Cathedral, Hortillonnages",
+    metaTitle: "Things to Do in Amiens (2027) — Cathedral, Hortillonnages",
     metaDesc:
       "Amiens's vast Gothic cathedral, the floating market gardens of the Hortillonnages, the Jules Verne house, and the Saint-Leu quarter.",
     category: "city-guide",
@@ -11874,7 +11874,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bourges-2026",
     title: "Things to do in Bourges: a cathedral, a palace and medieval lanes",
-    metaTitle: "Things to Do in Bourges (2026) — Cathedral, Palais Jacques-Cœur",
+    metaTitle: "Things to Do in Bourges (2027) — Cathedral, Palais Jacques-Cœur",
     metaDesc:
       "Bourges's UNESCO cathedral, the lavish Palais Jacques-Cœur, the half-timbered old town and the marshland gardens.",
     category: "city-guide",
@@ -11908,7 +11908,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-orleans-2026",
     title: "Things to do in Orléans: Joan of Arc and the upper Loire",
-    metaTitle: "Things to Do in Orléans (2026) — Joan of Arc, Cathedral",
+    metaTitle: "Things to Do in Orléans (2027) — Joan of Arc, Cathedral",
     metaDesc:
       "Orléans's Joan of Arc heritage, the twin-spired cathedral, the restored old town, the riverside, and the Loire châteaux nearby.",
     category: "city-guide",
@@ -11946,7 +11946,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-grasse-2026",
     title: "Things to do in Grasse: the perfume capital of the world",
-    metaTitle: "Things to Do in Grasse (2026) — Perfume Houses, Old Town",
+    metaTitle: "Things to Do in Grasse (2027) — Perfume Houses, Old Town",
     metaDesc:
       "Grasse's historic perfume houses and museum, the steep old town, the flower fields behind the Riviera, and the hill villages around.",
     category: "city-guide",
@@ -11984,7 +11984,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sete-2026",
     title: "Things to do in Sète: canals, seafood and a singular spirit",
-    metaTitle: "Things to Do in Sète (2026) — Canals, Mont Saint-Clair & Seafood",
+    metaTitle: "Things to Do in Sète (2027) — Canals, Mont Saint-Clair & Seafood",
     metaDesc:
       "Sète's working canals and water-jousting, the view from Mont Saint-Clair, the beaches, the oyster-rich lagoon and the famous seafood.",
     category: "city-guide",
@@ -12022,7 +12022,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-narbonne-2026",
     title: "Things to do in Narbonne: Roman roots and a half-built cathedral",
-    metaTitle: "Things to Do in Narbonne (2026) — Cathedral, Roman Horreum",
+    metaTitle: "Things to Do in Narbonne (2027) — Cathedral, Roman Horreum",
     metaDesc:
       "Narbonne's soaring unfinished cathedral, the archbishops' palace, the Roman road and underground granary, the new Narbo Via museum and the canal.",
     category: "city-guide",
@@ -12060,7 +12060,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-angers-2026",
     title: "Things to do in Angers: a black-stone château and the Apocalypse tapestry",
-    metaTitle: "Things to Do in Angers (2026) — Château, Apocalypse Tapestry",
+    metaTitle: "Things to Do in Angers (2027) — Château, Apocalypse Tapestry",
     metaDesc:
       "Angers's massive château and its medieval Apocalypse tapestry, the old town and cathedral, the Cointreau distillery, and the Loire's Anjou.",
     category: "city-guide",
@@ -12098,7 +12098,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-mans-2026",
     title: "Things to do in Le Mans: a Roman-walled old city and the 24 Hours",
-    metaTitle: "Things to Do in Le Mans (2026) — Cité Plantagenêt, Roman Walls",
+    metaTitle: "Things to Do in Le Mans (2027) — Cité Plantagenêt, Roman Walls",
     metaDesc:
       "Le Mans's medieval Cité Plantagenêt inside Roman walls, the great cathedral, the 24 Hours racing museum, and the night-light show.",
     category: "city-guide",
@@ -12136,7 +12136,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-limoges-2026",
     title: "Things to do in Limoges: porcelain, enamels and a covered market",
-    metaTitle: "Things to Do in Limoges (2026) — Porcelain, Cathedral",
+    metaTitle: "Things to Do in Limoges (2027) — Porcelain, Cathedral",
     metaDesc:
       "Limoges's world-famous porcelain and the Adrien Dubouché museum, the medieval old town, the cathedral, and the art-nouveau market hall.",
     category: "city-guide",
@@ -12174,7 +12174,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-angouleme-2026",
     title: "Things to do in Angoulême: comic-strip capital on a hill",
-    metaTitle: "Things to Do in Angoulême (2026) — Comics, Ramparts",
+    metaTitle: "Things to Do in Angoulême (2027) — Comics, Ramparts",
     metaDesc:
       "Angoulême's comic-strip heritage and museum, the ramparts walk with valley views, the cathedral, the painted murals and the Charente river.",
     category: "city-guide",
@@ -12212,7 +12212,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lourdes-2026",
     title: "Things to do in Lourdes: a great pilgrimage in the Pyrenees",
-    metaTitle: "Things to Do in Lourdes (2026) — Sanctuary, Castle",
+    metaTitle: "Things to Do in Lourdes (2027) — Sanctuary, Castle",
     metaDesc:
       "Lourdes's pilgrimage sanctuary and grotto, the hilltop castle, the Pic du Jer funicular, and the Pyrenees on the doorstep.",
     category: "city-guide",
@@ -12250,7 +12250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-hyeres-2026",
     title: "Things to do in Hyères: palms, islands and a modernist villa",
-    metaTitle: "Things to Do in Hyères (2026) — Old Town, Îles d'Or",
+    metaTitle: "Things to Do in Hyères (2027) — Old Town, Îles d'Or",
     metaDesc:
       "Hyères's medieval hilltop old town, the modernist Villa Noailles, the golden islands of Porquerolles and Port-Cros, and the salt-pan beaches.",
     category: "city-guide",
@@ -12288,7 +12288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-frejus-2026",
     title: "Things to do in Fréjus: Roman ruins and Riviera beaches",
-    metaTitle: "Things to Do in Fréjus (2026) — Roman Town, Cathedral & the Coast",
+    metaTitle: "Things to Do in Fréjus (2027) — Roman Town, Cathedral & the Coast",
     metaDesc:
       "Fréjus's Roman amphitheatre and remains, the medieval cathedral cloister, the sandy beaches, and the red rocks of the Estérel nearby.",
     category: "city-guide",
@@ -12326,7 +12326,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chambery-2026",
     title: "Things to do in Chambéry: a Savoyard capital between the mountains",
-    metaTitle: "Things to Do in Chambéry (2026) — Castle, Old Town",
+    metaTitle: "Things to Do in Chambéry (2027) — Castle, Old Town",
     metaDesc:
       "Chambéry's dukes-of-Savoy castle, the arcaded old town, the famous Elephant Fountain, Rousseau's house, and the Alps and lakes around.",
     category: "city-guide",
@@ -12364,7 +12364,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aix-les-bains-2026",
     title: "Things to do in Aix-les-Bains: a belle-époque spa on the lake",
-    metaTitle: "Things to Do in Aix-les-Bains (2026) — Lac du Bourget, Spa",
+    metaTitle: "Things to Do in Aix-les-Bains (2027) — Lac du Bourget, Spa",
     metaDesc:
       "Aix-les-Bains's lakeside on Lac du Bourget, the thermal baths and belle-époque heritage, the Hautecombe abbey by boat, and the Alpine views.",
     category: "city-guide",
@@ -12402,7 +12402,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-valence-2026",
     title: "Things to do in Valence: the gateway to the south",
-    metaTitle: "Things to Do in Valence (2026) — Old Town, Kiosk & the Rhône",
+    metaTitle: "Things to Do in Valence (2027) — Old Town, Kiosk & the Rhône",
     metaDesc:
       "Valence's old town and cathedral, the Peynet bandstand and park, the Maison des Têtes, great food, and the gateway to Provence and the Ardèche.",
     category: "city-guide",
@@ -12440,7 +12440,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-besancon-2026",
     title: "Things to do in Besançon: a Vauban citadel in a river loop",
-    metaTitle: "Things to Do in Besançon (2026) — Citadel, Old Town & Victor Hugo",
+    metaTitle: "Things to Do in Besançon (2027) — Citadel, Old Town & Victor Hugo",
     metaDesc:
       "Besançon's UNESCO Vauban citadel, the old town in a loop of the Doubs, Victor Hugo's birthplace, the astronomical clock and the green hills.",
     category: "city-guide",
@@ -12478,7 +12478,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-puy-en-velay-2026",
     title: "Things to do in Le Puy-en-Velay: chapels on volcanic pinnacles",
-    metaTitle: "Things to Do in Le Puy-en-Velay (2026) — Cathedral, Rocks",
+    metaTitle: "Things to Do in Le Puy-en-Velay (2027) — Cathedral, Rocks",
     metaDesc:
       "Le Puy's cathedral and rock-top chapel, the giant red statue, the start of the Camino pilgrim route, the lace and green lentils.",
     category: "city-guide",
@@ -12516,7 +12516,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-millau-2026",
     title: "Things to do in Millau: the great viaduct and the Tarn gorges",
-    metaTitle: "Things to Do in Millau (2026) — Viaduct, Gorges du Tarn",
+    metaTitle: "Things to Do in Millau (2027) — Viaduct, Gorges du Tarn",
     metaDesc:
       "Millau's record-breaking viaduct, the Tarn and Jonte gorges, outdoor sports, the glove-making heritage, and Roquefort cheese caves nearby.",
     category: "city-guide",
@@ -12554,7 +12554,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-rodez-2026",
     title: "Things to do in Rodez: a red cathedral and the Soulages museum",
-    metaTitle: "Things to Do in Rodez (2026) — Cathedral, Musée Soulages",
+    metaTitle: "Things to Do in Rodez (2027) — Cathedral, Musée Soulages",
     metaDesc:
       "Rodez's towering red sandstone cathedral, the striking Soulages museum of abstract art, the old town, and the Aveyron countryside.",
     category: "city-guide",
@@ -12592,7 +12592,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saintes-2026",
     title: "Things to do in Saintes: a Roman town on the Charente",
-    metaTitle: "Things to Do in Saintes (2026) — Roman Arena, Arch",
+    metaTitle: "Things to Do in Saintes (2027) — Roman Arena, Arch",
     metaDesc:
       "Saintes's Roman amphitheatre and triumphal arch, the Abbaye aux Dames, the riverside old town, and the Charente countryside.",
     category: "city-guide",
@@ -12630,7 +12630,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cognac-2026",
     title: "Things to do in Cognac: brandy houses on the Charente",
-    metaTitle: "Things to Do in Cognac (2026) — Brandy Houses, Old Town",
+    metaTitle: "Things to Do in Cognac (2027) — Brandy Houses, Old Town",
     metaDesc:
       "Cognac's great brandy houses and cellar tours, the old town and castle, the 'angels' share' atmosphere, and the Charente vineyards.",
     category: "city-guide",
@@ -12668,7 +12668,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bourg-en-bresse-2026",
     title: "Things to do in Bourg-en-Bresse: a flamboyant monastery and famous chicken",
-    metaTitle: "Things to Do in Bourg-en-Bresse (2026) — Brou Monastery, Old Town",
+    metaTitle: "Things to Do in Bourg-en-Bresse (2027) — Brou Monastery, Old Town",
     metaDesc:
       "Bourg-en-Bresse's masterpiece monastery of Brou, the old town's timbered houses, the famous AOC Bresse chicken, and the Dombes lakes nearby.",
     category: "city-guide",
@@ -12706,7 +12706,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vichy-2026",
     title: "Things to do in Vichy: a belle-époque spa town",
-    metaTitle: "Things to Do in Vichy (2026) — Spa Heritage, Parks & the Lake",
+    metaTitle: "Things to Do in Vichy (2027) — Spa Heritage, Parks & the Lake",
     metaDesc:
       "Vichy's belle-époque spa architecture, the Halle des Sources and opera, the riverside lake and parks, and the famous waters and pastilles.",
     category: "city-guide",
@@ -12744,7 +12744,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-compiegne-2026",
     title: "Things to do in Compiègne: an imperial palace and an armistice clearing",
-    metaTitle: "Things to Do in Compiègne (2026) — Imperial Palace, Forest",
+    metaTitle: "Things to Do in Compiègne (2027) — Imperial Palace, Forest",
     metaDesc:
       "Compiègne's vast imperial palace, the great forest, the Armistice clearing where both world wars' truces were signed, and the old town.",
     category: "city-guide",
@@ -12782,7 +12782,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-beauvais-2026",
     title: "Things to do in Beauvais: the tallest Gothic choir ever built",
-    metaTitle: "Things to Do in Beauvais (2026) — Cathedral, Astronomical Clock",
+    metaTitle: "Things to Do in Beauvais (2027) — Cathedral, Astronomical Clock",
     metaDesc:
       "Beauvais's audacious unfinished cathedral with the tallest Gothic choir, its astronomical clock, the tapestry heritage, and an easy hop from Paris.",
     category: "city-guide",
@@ -12816,7 +12816,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-clermont-ferrand-2026",
     title: "Things to do in Clermont-Ferrand: a black cathedral and a ring of volcanoes",
-    metaTitle: "Things to Do in Clermont-Ferrand (2026) — Cathedral, Volcanoes",
+    metaTitle: "Things to Do in Clermont-Ferrand (2027) — Cathedral, Volcanoes",
     metaDesc:
       "Clermont-Ferrand's black lava cathedral, the old town, the Puy de Dôme volcano and its rack railway, and the Auvergne volcano park.",
     category: "city-guide",
@@ -12850,7 +12850,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-carnac-2026",
     title: "Things to do in Carnac: thousands of standing stones",
-    metaTitle: "Things to Do in Carnac (2026) — Megaliths, Beaches & the Bay",
+    metaTitle: "Things to Do in Carnac (2027) — Megaliths, Beaches & the Bay",
     metaDesc:
       "Carnac's vast prehistoric stone alignments, the megalith museum, the sandy beaches and the Gulf of Morbihan nearby.",
     category: "city-guide",
@@ -12888,7 +12888,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chantilly-2026",
     title: "Things to do in Chantilly: a château, an art collection and horses",
-    metaTitle: "Things to Do in Chantilly (2026) — Château, Condé Museum",
+    metaTitle: "Things to Do in Chantilly (2027) — Château, Condé Museum",
     metaDesc:
       "Chantilly's fairytale château and Condé art museum, the Great Stables and living horse museum, the gardens, and the famous cream.",
     category: "city-guide",
@@ -12926,7 +12926,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-fontainebleau-2026",
     title: "Things to do in Fontainebleau: a royal palace and a forest of rocks",
-    metaTitle: "Things to Do in Fontainebleau (2026) — Château, Forest",
+    metaTitle: "Things to Do in Fontainebleau (2027) — Château, Forest",
     metaDesc:
       "Fontainebleau's vast royal château and gardens, the world-famous forest for walking and bouldering, and the artists' village of Barbizon.",
     category: "city-guide",
@@ -12964,7 +12964,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-poitiers-2026",
     title: "Things to do in Poitiers: Romanesque churches and a theme park",
-    metaTitle: "Things to Do in Poitiers (2026) — Notre-Dame-la-Grande, Old Town",
+    metaTitle: "Things to Do in Poitiers (2027) — Notre-Dame-la-Grande, Old Town",
     metaDesc:
       "Poitiers's richly carved Romanesque churches, the medieval old town, the baptistery, and the Futuroscope theme park nearby.",
     category: "city-guide",
@@ -13002,7 +13002,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-troyes-2026",
     title: "Things to do in Troyes: a half-timbered champagne capital",
-    metaTitle: "Things to Do in Troyes (2026) — Old Town, Churches",
+    metaTitle: "Things to Do in Troyes (2027) — Old Town, Churches",
     metaDesc:
       "Troyes's beautifully preserved half-timbered old town, its stained-glass churches, the cork-shaped medieval plan, and the famous outlet stores.",
     category: "city-guide",
@@ -13040,7 +13040,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-provins-2026",
     title: "Things to do in Provins: a complete medieval fair town",
-    metaTitle: "Things to Do in Provins (2026) — Ramparts, Tower & Medieval Shows",
+    metaTitle: "Things to Do in Provins (2027) — Ramparts, Tower & Medieval Shows",
     metaDesc:
       "Provins's UNESCO medieval ramparts and Tour César, the underground galleries, the falconry and knights' shows, and the rose heritage.",
     category: "city-guide",
@@ -13078,7 +13078,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mulhouse-2026",
     title: "Things to do in Mulhouse: world-class museums in industrial Alsace",
-    metaTitle: "Things to Do in Mulhouse (2026) — Car Museum, Train Museum",
+    metaTitle: "Things to Do in Mulhouse (2027) — Car Museum, Train Museum",
     metaDesc:
       "Mulhouse's extraordinary car and railway museums, the painted old-town square, the printed-textile heritage, and the Alsace wine route nearby.",
     category: "city-guide",
@@ -13116,7 +13116,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-concarneau-2026",
     title: "Things to do in Concarneau: a walled island in a fishing port",
-    metaTitle: "Things to Do in Concarneau (2026) — Ville Close, Fishing Port",
+    metaTitle: "Things to Do in Concarneau (2027) — Ville Close, Fishing Port",
     metaDesc:
       "Concarneau's walled island old town (Ville Close), the working fishing port, the fishing museum, the beaches and the south Brittany coast.",
     category: "city-guide",
@@ -13150,7 +13150,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vienne-2026",
     title: "Things to do in Vienne: Roman ruins and a jazz festival",
-    metaTitle: "Things to Do in Vienne (2026) — Roman Temple, Theatre & Jazz",
+    metaTitle: "Things to Do in Vienne (2027) — Roman Temple, Theatre & Jazz",
     metaDesc:
       "Vienne's remarkably preserved Roman temple and theatre, the medieval cathedral, the riverside old town, and the famous summer jazz festival.",
     category: "city-guide",
@@ -13188,7 +13188,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-epernay-2026",
     title: "Things to do in Épernay: the capital of champagne",
-    metaTitle: "Things to Do in Épernay (2026) — Avenue de Champagne, Cellars",
+    metaTitle: "Things to Do in Épernay (2027) — Avenue de Champagne, Cellars",
     metaDesc:
       "Épernay's grand Avenue de Champagne and its great houses, the kilometres of cellars, tastings, and the vineyards of the Marne valley.",
     category: "city-guide",
@@ -13222,7 +13222,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-arras-2026",
     title: "Things to do in Arras: Flemish squares and a great belfry",
-    metaTitle: "Things to Do in Arras (2026) — Grand-Place, Belfry & WWI Sites",
+    metaTitle: "Things to Do in Arras (2027) — Grand-Place, Belfry & WWI Sites",
     metaDesc:
       "Arras's two arcaded Flemish squares, the UNESCO belfry, the underground tunnels, and the WWI battlefields and memorials nearby.",
     category: "city-guide",
@@ -13260,7 +13260,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-boulogne-sur-mer-2026",
     title: "Things to do in Boulogne-sur-Mer: a walled town and a great aquarium",
-    metaTitle: "Things to Do in Boulogne-sur-Mer (2026) — Nausicaá, Old Town",
+    metaTitle: "Things to Do in Boulogne-sur-Mer (2027) — Nausicaá, Old Town",
     metaDesc:
       "Boulogne's huge Nausicaá sea-life centre, the walled upper town and basilica, the fishing port, and the cliffs of the Opal Coast nearby.",
     category: "city-guide",
@@ -13298,7 +13298,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-calais-2026",
     title: "Things to do in Calais: Rodin's burghers, lace and the Channel",
-    metaTitle: "Things to Do in Calais (2026) — The Burghers, Lace Museum",
+    metaTitle: "Things to Do in Calais (2027) — The Burghers, Lace Museum",
     metaDesc:
       "Calais's Rodin 'Burghers' sculpture, the lace and fashion museum, the dragon machine, the beach and lighthouse, and the Opal Coast.",
     category: "city-guide",
@@ -13332,7 +13332,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dunkerque-2026",
     title: "Things to do in Dunkirk: beaches, carnival and 1940",
-    metaTitle: "Things to Do in Dunkerque (2026) — Beaches, Carnival",
+    metaTitle: "Things to Do in Dunkerque (2027) — Beaches, Carnival",
     metaDesc:
       "Dunkirk's long beach at Malo-les-Bains, the Operation Dynamo war museum, the wild carnival, the port museum and the Flemish coast.",
     category: "city-guide",
@@ -13370,7 +13370,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cagnes-sur-mer-2026",
     title: "Things to do in Cagnes-sur-Mer: Renoir's home and a hilltop village",
-    metaTitle: "Things to Do in Cagnes-sur-Mer (2026) — Renoir Museum & Beach",
+    metaTitle: "Things to Do in Cagnes-sur-Mer (2027) — Renoir Museum & Beach",
     metaDesc:
       "Cagnes-sur-Mer's Renoir house and museum, the medieval hill village of Haut-de-Cagnes and its castle, and the Riviera beaches.",
     category: "city-guide",
@@ -13404,7 +13404,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-raphael-2026",
     title: "Things to do in Saint-Raphaël: a Riviera resort beneath red hills",
-    metaTitle: "Things to Do in Saint-Raphaël (2026) — Beaches, Old Town",
+    metaTitle: "Things to Do in Saint-Raphaël (2027) — Beaches, Old Town",
     metaDesc:
       "Saint-Raphaël's beaches and seafront, the old town and basilica, boat trips to Saint-Tropez, and the red Estérel coast for hiking and diving.",
     category: "city-guide",
@@ -13442,7 +13442,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-martigues-2026",
     title: "Things to do in Martigues: the 'Venice of Provence'",
-    metaTitle: "Things to Do in Martigues (2026) — Canals, Old Town",
+    metaTitle: "Things to Do in Martigues (2027) — Canals, Old Town",
     metaDesc:
       "Martigues's colourful canals and the painters' corner, the old town on its islands, the étang de Berre, and the Côte Bleue creeks nearby.",
     category: "city-guide",
@@ -13476,7 +13476,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-macon-2026",
     title: "Things to do in Mâcon: the Saône, Lamartine and southern Burgundy wine",
-    metaTitle: "Things to Do in Mâcon (2026) — Riverside, Wine",
+    metaTitle: "Things to Do in Mâcon (2027) — Riverside, Wine",
     metaDesc:
       "Mâcon's Saône-side quays, the Lamartine heritage, the white wines of Pouilly-Fuissé, and the dramatic Rock of Solutré nearby.",
     category: "city-guide",
@@ -13510,7 +13510,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-beziers-2026",
     title: "Things to do in Béziers: a cathedral over the vines and the Canal du Midi",
-    metaTitle: "Things to Do in Béziers (2026) — Cathedral, Canal du Midi",
+    metaTitle: "Things to Do in Béziers (2027) — Cathedral, Canal du Midi",
     metaDesc:
       "Béziers's hilltop cathedral over the Orb, the Canal du Midi and the staircase of Fonseranes locks, the old town, and the Languedoc wine country.",
     category: "city-guide",
@@ -13548,7 +13548,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-porto-vecchio-2026",
     title: "Things to do in Porto-Vecchio: Corsica's dream beaches",
-    metaTitle: "Things to Do in Porto-Vecchio (2026) — Palombaggia, Old Town",
+    metaTitle: "Things to Do in Porto-Vecchio (2027) — Palombaggia, Old Town",
     metaDesc:
       "Porto-Vecchio's world-famous beaches like Palombaggia and Santa Giulia, the hilltop old town, the salt marshes, and the wild south of Corsica.",
     category: "city-guide",
@@ -13586,7 +13586,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montauban-2026",
     title: "Things to do in Montauban: a pink-brick city and the painter Ingres",
-    metaTitle: "Things to Do in Montauban (2026) — Place Nationale & the Tarn",
+    metaTitle: "Things to Do in Montauban (2027) — Place Nationale & the Tarn",
     metaDesc:
       "Montauban's arcaded pink-brick Place Nationale, the Ingres Bourdelle museum, the old bridge over the Tarn, and the southwest countryside.",
     category: "city-guide",
@@ -13620,7 +13620,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-foix-2026",
     title: "Things to do in Foix: a three-towered castle in the Pyrenees",
-    metaTitle: "Things to Do in Foix (2026) — Castle, Cave & the Ariège Pyrenees",
+    metaTitle: "Things to Do in Foix (2027) — Castle, Cave & the Ariège Pyrenees",
     metaDesc:
       "Foix's dramatic counts' castle, the underground river cave of Lombrives or Labouiche, the old town, and the Cathar country of the Ariège.",
     category: "city-guide",
@@ -13658,7 +13658,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-evian-les-bains-2026",
     title: "Things to do in Évian-les-Bains: a spa town on Lake Geneva",
-    metaTitle: "Things to Do in Évian-les-Bains (2026) — Lakefront, Spa Heritage",
+    metaTitle: "Things to Do in Évian-les-Bains (2027) — Lakefront, Spa Heritage",
     metaDesc:
       "Évian's Lake Geneva promenade and boats to Switzerland, the belle-époque spa architecture, the famous water spring, and the Alps behind.",
     category: "city-guide",
@@ -13696,7 +13696,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-apt-2026",
     title: "Things to do in Apt: ochre country and the great Luberon market",
-    metaTitle: "Things to Do in Apt (2026) — Saturday Market, Ochre Trails",
+    metaTitle: "Things to Do in Apt (2027) — Saturday Market, Ochre Trails",
     metaDesc:
       "Apt's famous Saturday market, the candied-fruit and ochre heritage, the Colorado Provençal and Roussillon cliffs, and the Luberon villages.",
     category: "city-guide",
@@ -13734,7 +13734,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-auxerre-2026",
     title: "Things to do in Auxerre: a Burgundy town on the Yonne",
-    metaTitle: "Things to Do in Auxerre (2026) — Old Town, Cathedral & Chablis",
+    metaTitle: "Things to Do in Auxerre (2027) — Old Town, Cathedral & Chablis",
     metaDesc:
       "Auxerre's hillside old town and cathedral over the Yonne, the frescoed abbey crypt, the riverside quays, and the Chablis vineyards nearby.",
     category: "city-guide",
@@ -13772,7 +13772,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-nazaire-2026",
     title: "Things to do in Saint-Nazaire: giant ships and an Atlantic past",
-    metaTitle: "Things to Do in Saint-Nazaire (2026) — Shipyards, Submarine Base",
+    metaTitle: "Things to Do in Saint-Nazaire (2027) — Shipyards, Submarine Base",
     metaDesc:
       "Saint-Nazaire's shipyard and ocean-liner heritage, the WWII submarine base, the Escal'Atlantic experience, the beaches, and the Loire estuary.",
     category: "city-guide",
@@ -13810,7 +13810,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lorient-2026",
     title: "Things to do in Lorient: sailing, a submarine base and a Celtic festival",
-    metaTitle: "Things to Do in Lorient (2026) — Cité de la Voile, Submarine Base",
+    metaTitle: "Things to Do in Lorient (2027) — Cité de la Voile, Submarine Base",
     metaDesc:
       "Lorient's sailing museum and Eric Tabarly heritage, the WWII submarine base, the great Interceltique festival, and the south Brittany coast.",
     category: "city-guide",
@@ -13848,7 +13848,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chalon-sur-saone-2026",
     title: "Things to do in Chalon-sur-Saône: birthplace of photography on the river",
-    metaTitle: "Things to Do in Chalon-sur-Saône (2026) — Niépce Museum, Old Town",
+    metaTitle: "Things to Do in Chalon-sur-Saône (2027) — Niépce Museum, Old Town",
     metaDesc:
       "Chalon-sur-Saône's photography museum honouring Niépce, the half-timbered old town, the riverside and island, and the Côte Chalonnaise wines.",
     category: "city-guide",
@@ -13886,7 +13886,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-nevers-2026",
     title: "Things to do in Nevers: faience, a ducal palace and the Loire",
-    metaTitle: "Things to Do in Nevers (2026) — Ducal Palace, Faience",
+    metaTitle: "Things to Do in Nevers (2027) — Ducal Palace, Faience",
     metaDesc:
       "Nevers's ducal palace and cathedral, the famous blue faience pottery, the shrine of Saint Bernadette, and the Loire riverside.",
     category: "city-guide",
@@ -13924,7 +13924,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-etienne-2026",
     title: "Things to do in Saint-Étienne: design, art and industrial reinvention",
-    metaTitle: "Things to Do in Saint-Étienne (2026) — Design, Modern Art",
+    metaTitle: "Things to Do in Saint-Étienne (2027) — Design, Modern Art",
     metaDesc:
       "Saint-Étienne's design heritage and biennale, the modern art museum, the Cité du Design, and Le Corbusier's Firminy site nearby.",
     category: "city-guide",
@@ -13962,7 +13962,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-belfort-2026",
     title: "Things to do in Belfort: a giant lion and a Vauban citadel",
-    metaTitle: "Things to Do in Belfort (2026) — The Lion, Citadel & Old Town",
+    metaTitle: "Things to Do in Belfort (2027) — The Lion, Citadel & Old Town",
     metaDesc:
       "Belfort's colossal Bartholdi lion, the Vauban citadel and fortifications, the old town, and the gateway between the Vosges and Jura.",
     category: "city-guide",
@@ -13996,7 +13996,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cherbourg-2026",
     title: "Things to do in Cherbourg: a great port and the Cité de la Mer",
-    metaTitle: "Things to Do in Cherbourg (2026) — Cité de la Mer, Umbrellas",
+    metaTitle: "Things to Do in Cherbourg (2027) — Cité de la Mer, Umbrellas",
     metaDesc:
       "Cherbourg's Cité de la Mer with its giant submarine and Titanic story, the famous umbrellas, the art museum, and the wild Cotentin coast.",
     category: "city-guide",
@@ -14034,7 +14034,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-laon-2026",
     title: "Things to do in Laon: a cathedral city on a crowned mountain",
-    metaTitle: "Things to Do in Laon (2026) — Cathedral, Ramparts",
+    metaTitle: "Things to Do in Laon (2027) — Cathedral, Ramparts",
     metaDesc:
       "Laon's early-Gothic cathedral with its ox towers, the long ramparts walk, the hilltop old town, and the views over the Picardy plain.",
     category: "city-guide",
@@ -14068,7 +14068,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tarbes-2026",
     title: "Things to do in Tarbes: a garden city at the foot of the Pyrenees",
-    metaTitle: "Things to Do in Tarbes (2026) — Massey Garden, Stud Farm",
+    metaTitle: "Things to Do in Tarbes (2027) — Massey Garden, Stud Farm",
     metaDesc:
       "Tarbes's beautiful Massey garden, the national stud farm, the Foch museum, and the gateway to the high Pyrenees and Lourdes.",
     category: "city-guide",
@@ -14106,7 +14106,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pezenas-2026",
     title: "Things to do in Pézenas: Molière's town of art and crafts",
-    metaTitle: "Things to Do in Pézenas (2026) — Old Town, Molière",
+    metaTitle: "Things to Do in Pézenas (2027) — Old Town, Molière",
     metaDesc:
       "Pézenas's beautifully preserved old town, its Molière heritage, the artisan and antique workshops, the markets, and the Languedoc wine country.",
     category: "city-guide",
@@ -14144,7 +14144,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-moulins-2026",
     title: "Things to do in Moulins: the dukes of Bourbon and a costume museum",
-    metaTitle: "Things to Do in Moulins (2026) — Cathedral, Stage-Costume Museum",
+    metaTitle: "Things to Do in Moulins (2027) — Cathedral, Stage-Costume Museum",
     metaDesc:
       "Moulins's cathedral triptych, the national stage-costume museum, the Bourbon old town and clock tower, and the Allier riverside.",
     category: "city-guide",
@@ -14178,7 +14178,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-castres-2026",
     title: "Things to do in Castres: a Goya museum on a painted river",
-    metaTitle: "Things to Do in Castres (2026) — Goya Museum, Riverside Houses",
+    metaTitle: "Things to Do in Castres (2027) — Goya Museum, Riverside Houses",
     metaDesc:
       "Castres's Goya museum of Spanish art, the colourful houses along the Agout, the Goudouli garden, and the granite Sidobre nearby.",
     category: "city-guide",
@@ -14216,7 +14216,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-libourne-2026",
     title: "Things to do in Libourne: a bastide gateway to Saint-Émilion",
-    metaTitle: "Things to Do in Libourne (2026) — Bastide Square, Wine",
+    metaTitle: "Things to Do in Libourne (2027) — Bastide Square, Wine",
     metaDesc:
       "Libourne's arcaded bastide square and riverside, and its role as the gateway to the Saint-Émilion and Pomerol wine country.",
     category: "city-guide",
@@ -14254,7 +14254,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-manosque-2026",
     title: "Things to do in Manosque: Giono's town in high Provence",
-    metaTitle: "Things to Do in Manosque (2026) — Old Town, Giono & the Luberon",
+    metaTitle: "Things to Do in Manosque (2027) — Old Town, Giono & the Luberon",
     metaDesc:
       "Manosque's walled old town and gates, the Giono literary heritage, the L'Occitane connection, and the lavender and gorges of high Provence.",
     category: "city-guide",
@@ -14292,7 +14292,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lens-2026",
     title: "Things to do in Lens: the Louvre in mining country",
-    metaTitle: "Things to Do in Lens (2026) — Louvre-Lens, Mining Heritage",
+    metaTitle: "Things to Do in Lens (2027) — Louvre-Lens, Mining Heritage",
     metaDesc:
       "Lens's Louvre-Lens museum, the UNESCO mining basin and its slag heaps, the WWI memorials nearby, and the region's football passion.",
     category: "city-guide",
@@ -14326,7 +14326,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-niort-2026",
     title: "Things to do in Niort: a keep and the Green Venice",
-    metaTitle: "Things to Do in Niort (2026) — Keep, Old Town",
+    metaTitle: "Things to Do in Niort (2027) — Keep, Old Town",
     metaDesc:
       "Niort's medieval double keep, the old town and covered market, and the canals of the Marais Poitevin 'Green Venice' nearby.",
     category: "city-guide",
@@ -14360,7 +14360,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-omer-2026",
     title: "Things to do in Saint-Omer: a marsh of market gardens and a great cathedral",
-    metaTitle: "Things to Do in Saint-Omer (2026) — Cathedral, Marais",
+    metaTitle: "Things to Do in Saint-Omer (2027) — Cathedral, Marais",
     metaDesc:
       "Saint-Omer's Gothic cathedral and Sandelin museum, the cultivated marsh explored by boat, and La Coupole WWII bunker nearby.",
     category: "city-guide",
@@ -14394,7 +14394,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-charleville-mezieres-2026",
     title: "Things to do in Charleville-Mézières: Rimbaud and the puppet capital",
-    metaTitle: "Things to Do in Charleville-Mézières (2026) — Place Ducale",
+    metaTitle: "Things to Do in Charleville-Mézières (2027) — Place Ducale",
     metaDesc:
       "Charleville-Mézières's grand Place Ducale, the Rimbaud museum, the world puppet festival and museum, and the Meuse valley of the Ardennes.",
     category: "city-guide",
@@ -14432,7 +14432,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-digne-les-bains-2026",
     title: "Things to do in Digne-les-Bains: lavender, fossils and Alpine spa",
-    metaTitle: "Things to Do in Digne-les-Bains (2026) — Lavender, UNESCO Geopark",
+    metaTitle: "Things to Do in Digne-les-Bains (2027) — Lavender, UNESCO Geopark",
     metaDesc:
       "Digne-les-Bains's lavender, the UNESCO geological reserve and giant ammonite slab, the Alexandra David-Néel house, and the spa and mountains.",
     category: "city-guide",
@@ -14470,7 +14470,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montbeliard-2026",
     title: "Things to do in Montbéliard: a castle, a car museum and a festival of light",
-    metaTitle: "Things to Do in Montbéliard (2026) — Château, Peugeot Museum",
+    metaTitle: "Things to Do in Montbéliard (2027) — Château, Peugeot Museum",
     metaDesc:
       "Montbéliard's twin-towered château, the Peugeot Adventure car museum, the colourful old town, and the famous Christmas lights festival.",
     category: "city-guide",
@@ -14508,7 +14508,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chalons-en-champagne-2026",
     title: "Things to do in Châlons-en-Champagne: canals and Gothic churches",
-    metaTitle: "Things to Do in Châlons-en-Champagne (2026) — Cathedral, Canals",
+    metaTitle: "Things to Do in Châlons-en-Champagne (2027) — Cathedral, Canals",
     metaDesc:
       "Châlons-en-Champagne's cathedral and Notre-Dame-en-Vaux, the canals and 'Petite Venise', the half-timbered houses, and the champagne country.",
     category: "city-guide",
@@ -14546,7 +14546,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-auch-2026",
     title: "Things to do in Auch: d'Artagnan's Gascony and a grand staircase",
-    metaTitle: "Things to Do in Auch (2026) — Cathedral, Monumental Stair",
+    metaTitle: "Things to Do in Auch (2027) — Cathedral, Monumental Stair",
     metaDesc:
       "Auch's cathedral with its carved choir and Renaissance glass, the monumental staircase and d'Artagnan statue, the old town, and Gascony around.",
     category: "city-guide",
@@ -14584,7 +14584,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-brieuc-2026",
     title: "Things to do in Saint-Brieuc: a bay, cliffs and a coastal path",
-    metaTitle: "Things to Do in Saint-Brieuc (2026) — Old Town, the Bay",
+    metaTitle: "Things to Do in Saint-Brieuc (2027) — Old Town, the Bay",
     metaDesc:
       "Saint-Brieuc's cathedral and old town, the great bay with its huge tides, the coastal path and beaches, and the pink granite coast nearby.",
     category: "city-guide",
@@ -14622,7 +14622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gap-2026",
     title: "Things to do in Gap: the sunny capital of the southern Alps",
-    metaTitle: "Things to Do in Gap (2026) — Old Town, Domaine de Charance",
+    metaTitle: "Things to Do in Gap (2027) — Old Town, Domaine de Charance",
     metaDesc:
       "Gap's lively old town, the Domaine de Charance gardens and lake, the surrounding mountains and lakes, and the gateway to the Écrins.",
     category: "city-guide",
@@ -14656,7 +14656,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sisteron-2026",
     title: "Things to do in Sisteron: the gateway to Provence",
-    metaTitle: "Things to Do in Sisteron (2026) — Citadel, Rock & the Durance",
+    metaTitle: "Things to Do in Sisteron (2027) — Citadel, Rock & the Durance",
     metaDesc:
       "Sisteron's dramatic citadel and folded rock over the Durance, the old town's narrow andrônes, and the gateway between the Alps and Provence.",
     category: "city-guide",
@@ -14690,7 +14690,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-agen-2026",
     title: "Things to do in Agen: prunes, art and a canal over a river",
-    metaTitle: "Things to Do in Agen (2026) — Fine Arts Museum, Canal Bridge",
+    metaTitle: "Things to Do in Agen (2027) — Fine Arts Museum, Canal Bridge",
     metaDesc:
       "Agen's fine-arts museum with its Goya and Venus, the great canal bridge over the Garonne, the old town, and the famous prunes.",
     category: "city-guide",
@@ -14724,7 +14724,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mende-2026",
     title: "Things to do in Mende: a cathedral town in wild Lozère",
-    metaTitle: "Things to Do in Mende (2026) — Cathedral, Old Town & the Gorges",
+    metaTitle: "Things to Do in Mende (2027) — Cathedral, Old Town & the Gorges",
     metaDesc:
       "Mende's grand cathedral and medieval old town, the old Pont Notre-Dame, and the gateway to the Tarn gorges, Aubrac and Cévennes.",
     category: "city-guide",
@@ -14758,7 +14758,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-roanne-2026",
     title: "Things to do in Roanne: gastronomy on the upper Loire",
-    metaTitle: "Things to Do in Roanne (2026) — Food, the Loire Gorges",
+    metaTitle: "Things to Do in Roanne (2027) — Food, the Loire Gorges",
     metaDesc:
       "Roanne's celebrated food scene, the riverside and port, the museum, and the Loire gorges and Roannais wine country nearby.",
     category: "city-guide",
@@ -14792,7 +14792,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-epinal-2026",
     title: "Things to do in Épinal: printed images and the Vosges",
-    metaTitle: "Things to Do in Épinal (2026) — Imagerie, Old Town",
+    metaTitle: "Things to Do in Épinal (2027) — Imagerie, Old Town",
     metaDesc:
       "Épinal's famous imagerie print workshop and image museum, the old town and basilica on the Moselle, the park, and the Vosges nearby.",
     category: "city-guide",
@@ -14830,7 +14830,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pontarlier-2026",
     title: "Things to do in Pontarlier: absinthe and the high Jura",
-    metaTitle: "Things to Do in Pontarlier (2026) — Absinthe, Old Town",
+    metaTitle: "Things to Do in Pontarlier (2027) — Absinthe, Old Town",
     metaDesc:
       "Pontarlier's absinthe heritage, the old town gate, the dramatic Cluse de Joux fortress, and the lakes and slopes of the high Jura.",
     category: "city-guide",
@@ -14868,7 +14868,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-die-des-vosges-2026",
     title: "Things to do in Saint-Dié-des-Vosges: where America got its name",
-    metaTitle: "Things to Do in Saint-Dié-des-Vosges (2026) — Cathedral & Vosges",
+    metaTitle: "Things to Do in Saint-Dié-des-Vosges (2027) — Cathedral & Vosges",
     metaDesc:
       "Saint-Dié's cathedral and cloister, its claim as the 'godmother of America', the Pierre d'Appel and Camp Celtique, and the Vosges around.",
     category: "city-guide",
@@ -14906,7 +14906,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-evreux-2026",
     title: "Things to do in Évreux: a cathedral and gardens in Normandy",
-    metaTitle: "Things to Do in Évreux (2026) — Cathedral, Belfry & the Iton",
+    metaTitle: "Things to Do in Évreux (2027) — Cathedral, Belfry & the Iton",
     metaDesc:
       "Évreux's cathedral with its famous stained glass, the belfry, the riverside gardens along the Iton, and the museum in the bishops' palace.",
     category: "city-guide",
@@ -14940,7 +14940,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-laval-2026",
     title: "Things to do in Laval: a castle, a customs-officer painter and the Mayenne",
-    metaTitle: "Things to Do in Laval (2026) — Château, Rousseau & the River",
+    metaTitle: "Things to Do in Laval (2027) — Château, Rousseau & the River",
     metaDesc:
       "Laval's old and new castles, the naïve-art museum honouring Henri Rousseau, the riverboats on the Mayenne, and the old town.",
     category: "city-guide",
@@ -14974,7 +14974,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aurillac-2026",
     title: "Things to do in Aurillac: street theatre and the heart of the Cantal",
-    metaTitle: "Things to Do in Aurillac (2026) — Old Town, Street-Arts Festival",
+    metaTitle: "Things to Do in Aurillac (2027) — Old Town, Street-Arts Festival",
     metaDesc:
       "Aurillac's old town and castle keep, the famous international street-theatre festival, the Cantal cheese, and the volcanic mountains around.",
     category: "city-guide",
@@ -15008,7 +15008,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-alencon-2026",
     title: "Things to do in Alençon: the lace capital of Normandy",
-    metaTitle: "Things to Do in Alençon (2026) — Lace, Old Town & the Château",
+    metaTitle: "Things to Do in Alençon (2027) — Lace, Old Town & the Château",
     metaDesc:
       "Alençon's UNESCO-listed needle lace and its museum, the old town and basilica, the ducal castle, and the forests of the Normandie-Maine.",
     category: "city-guide",
@@ -15042,7 +15042,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-lo-2026",
     title: "Things to do in Saint-Lô: a rebuilt city of ramparts and horses",
-    metaTitle: "Things to Do in Saint-Lô (2026) — Ramparts, Stud Farm",
+    metaTitle: "Things to Do in Saint-Lô (2027) — Ramparts, Stud Farm",
     metaDesc:
       "Saint-Lô's surviving ramparts and rebuilt centre, the national stud farm, the art museum, and the Normandy bocage and D-Day sites nearby.",
     category: "city-guide",
@@ -15076,7 +15076,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cholet-2026",
     title: "Things to do in Cholet: textiles, the Vendée wars and a great lake",
-    metaTitle: "Things to Do in Cholet (2026) — History Museum, Textiles",
+    metaTitle: "Things to Do in Cholet (2027) — History Museum, Textiles",
     metaDesc:
       "Cholet's history and textile museums, the red handkerchief heritage, the Vendée wars story, and the Lac de Ribou for outdoor leisure.",
     category: "city-guide",
@@ -15110,7 +15110,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-la-roche-sur-yon-2026",
     title: "Things to do in La Roche-sur-Yon: Napoleon's planned town",
-    metaTitle: "Things to Do in La Roche-sur-Yon (2026) — Place Napoléon, Vendée",
+    metaTitle: "Things to Do in La Roche-sur-Yon (2027) — Place Napoléon, Vendée",
     metaDesc:
       "La Roche-sur-Yon's pentagonal Napoleonic plan and grand square, the animated animal statues, the haras, and the Vendée coast nearby.",
     category: "city-guide",
@@ -15148,7 +15148,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chateauroux-2026",
     title: "Things to do in Châteauroux: the Berry, George Sand country",
-    metaTitle: "Things to Do in Châteauroux (2026) — Old Town, Bertrand Museum",
+    metaTitle: "Things to Do in Châteauroux (2027) — Old Town, Bertrand Museum",
     metaDesc:
       "Châteauroux's old town and the Raymond Bertrand museum, the riverside, the Déols abbey nearby, and George Sand's Berry countryside.",
     category: "city-guide",
@@ -15182,7 +15182,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montlucon-2026",
     title: "Things to do in Montluçon: a medieval old town and a music museum",
-    metaTitle: "Things to Do in Montluçon (2026) — Château, Old Town & MuPop",
+    metaTitle: "Things to Do in Montluçon (2027) — Château, Old Town & MuPop",
     metaDesc:
       "Montluçon's hilltop medieval old town and ducal castle, the MuPop popular-music museum, the canal, and the Bourbonnais countryside.",
     category: "city-guide",
@@ -15216,7 +15216,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-riom-2026",
     title: "Things to do in Riom: black-stone elegance near Clermont",
-    metaTitle: "Things to Do in Riom (2026) — Old Town, Mascarons & the Auvergne",
+    metaTitle: "Things to Do in Riom (2027) — Old Town, Mascarons & the Auvergne",
     metaDesc:
       "Riom's elegant black-lava old town and carved mascarons, the Madonna with a bird, the law-courts heritage, and the Auvergne volcanoes nearby.",
     category: "city-guide",
@@ -15250,7 +15250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-draguignan-2026",
     title: "Things to do in Draguignan: a Provençal town and a great dolmen",
-    metaTitle: "Things to Do in Draguignan (2026) — Old Town, Pierre de la Fée",
+    metaTitle: "Things to Do in Draguignan (2027) — Old Town, Pierre de la Fée",
     metaDesc:
       "Draguignan's old town and clock tower, the giant Pierre de la Fée dolmen, the American war cemetery, and the Verdon and Var country nearby.",
     category: "city-guide",
@@ -15288,7 +15288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mont-de-marsan-2026",
     title: "Things to do in Mont-de-Marsan: a town of three rivers and sculpture",
-    metaTitle: "Things to Do in Mont-de-Marsan (2026) — Old Town & the Landes",
+    metaTitle: "Things to Do in Mont-de-Marsan (2027) — Old Town & the Landes",
     metaDesc:
       "Mont-de-Marsan's confluence of rivers and old town, the figurative-sculpture museum, the férias, and the Landes forest and coast nearby.",
     category: "city-guide",
@@ -15326,7 +15326,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-annonay-2026",
     title: "Things to do in Annonay: the birthplace of the hot-air balloon",
-    metaTitle: "Things to Do in Annonay (2026) — Montgolfier Heritage, Old Town",
+    metaTitle: "Things to Do in Annonay (2027) — Montgolfier Heritage, Old Town",
     metaDesc:
       "Annonay's Montgolfier balloon heritage and museum, the old town and viaducts, the paper-making history, and the northern Ardèche hills.",
     category: "city-guide",
@@ -15364,7 +15364,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-privas-2026",
     title: "Things to do in Privas: chestnuts and the heart of the Ardèche",
-    metaTitle: "Things to Do in Privas (2026) — Old Town, Marrons & the Ardèche",
+    metaTitle: "Things to Do in Privas (2027) — Old Town, Marrons & the Ardèche",
     metaDesc:
       "Privas's old town and bridge, its famous candied chestnuts (marrons glacés), and the wild Ardèche mountains and gorges around.",
     category: "city-guide",
@@ -15398,7 +15398,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lons-le-saunier-2026",
     title: "Things to do in Lons-le-Saunier: salt, an anthem and the Jura",
-    metaTitle: "Things to Do in Lons-le-Saunier (2026) — Arcades, Rouget de Lisle",
+    metaTitle: "Things to Do in Lons-le-Saunier (2027) — Arcades, Rouget de Lisle",
     metaDesc:
       "Lons-le-Saunier's arcaded old town, the Rouget de Lisle and Marseillaise heritage, the salt-spa past, and the Jura vineyards and lakes nearby.",
     category: "city-guide",
@@ -15436,7 +15436,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vesoul-2026",
     title: "Things to do in Vesoul: a lake, a hill chapel and the Haute-Saône",
-    metaTitle: "Things to Do in Vesoul (2026) — Old Town, Lake & La Motte",
+    metaTitle: "Things to Do in Vesoul (2027) — Old Town, Lake & La Motte",
     metaDesc:
       "Vesoul's old town and museum, the hilltop chapel of La Motte, the leisure lake, and the green Haute-Saône countryside around.",
     category: "city-guide",
@@ -15470,7 +15470,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tulle-2026",
     title: "Things to do in Tulle: lace, accordions and the Corrèze",
-    metaTitle: "Things to Do in Tulle (2026) — Cathedral, Accordion Heritage",
+    metaTitle: "Things to Do in Tulle (2027) — Cathedral, Accordion Heritage",
     metaDesc:
       "Tulle's cathedral and cloister, the lace ('poinct de Tulle') and accordion-making heritage, the stepped old town, and the green Corrèze valleys.",
     category: "city-guide",
@@ -15508,7 +15508,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gueret-2026",
     title: "Things to do in Guéret: wolves and the green Creuse",
-    metaTitle: "Things to Do in Guéret (2026) — Wolf Park, Old Town & the Creuse",
+    metaTitle: "Things to Do in Guéret (2027) — Wolf Park, Old Town & the Creuse",
     metaDesc:
       "Guéret's old town and art museum, the nearby Loups de Chabrières wolf park, the maze and arboretum, and the unspoiled Creuse countryside.",
     category: "city-guide",
@@ -15546,7 +15546,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bar-le-duc-2026",
     title: "Things to do in Bar-le-Duc: a Renaissance upper town and redcurrant jam",
-    metaTitle: "Things to Do in Bar-le-Duc (2026) — Ville Haute, the Skeleton",
+    metaTitle: "Things to Do in Bar-le-Duc (2027) — Ville Haute, the Skeleton",
     metaDesc:
       "Bar-le-Duc's remarkable Renaissance upper town, Ligier Richier's macabre skeleton statue, the famous seeded redcurrant jam, and the Meuse.",
     category: "city-guide",
@@ -15584,7 +15584,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chaumont-2026",
     title: "Things to do in Chaumont: a giant viaduct and graphic design",
-    metaTitle: "Things to Do in Chaumont (2026) — Viaduct, Le Signe",
+    metaTitle: "Things to Do in Chaumont (2027) — Viaduct, Le Signe",
     metaDesc:
       "Chaumont's monumental railway viaduct, the Le Signe graphic-design centre and poster biennial, the old town and keep, and the Haute-Marne.",
     category: "city-guide",
@@ -15622,7 +15622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bressuire-2026",
     title: "Things to do in Bressuire: a great castle in the Vendée hills",
-    metaTitle: "Things to Do in Bressuire (2026) — Château, Old Town & the Bocage",
+    metaTitle: "Things to Do in Bressuire (2027) — Château, Old Town & the Bocage",
     metaDesc:
       "Bressuire's vast medieval castle ruins, the old town and church, the market, and the Vendée wars heritage of the bocage country.",
     category: "city-guide",
@@ -15656,7 +15656,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-clermont-l-herault-2026",
     title: "Things to do in Clermont-l'Hérault: a red lake and Languedoc hills",
-    metaTitle: "Things to Do in Clermont-l'Hérault (2026) — Lac du Salagou",
+    metaTitle: "Things to Do in Clermont-l'Hérault (2027) — Lac du Salagou",
     metaDesc:
       "Clermont-l'Hérault's old town and Gothic church, the striking red shores of the Lac du Salagou, the dolomite chaos of Mourèze, and the Languedoc wine.",
     category: "city-guide",
@@ -15694,7 +15694,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chatellerault-2026",
     title: "Things to do in Châtellerault: a grand bridge and industrial heritage",
-    metaTitle: "Things to Do in Châtellerault (2026) — Pont Henri IV, Car Museum",
+    metaTitle: "Things to Do in Châtellerault (2027) — Pont Henri IV, Car Museum",
     metaDesc:
       "Châtellerault's monumental Pont Henri IV, the automobile and industrial museum in the old arms factory, the old town, and the Vienne valley.",
     category: "city-guide",
@@ -15732,7 +15732,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-anglet-2026",
     title: "Things to do in Anglet: the Basque coast, minus the resort prices",
-    metaTitle: "Things to Do in Anglet (2026) — Surf Beaches, Pine Forest",
+    metaTitle: "Things to Do in Anglet (2027) — Surf Beaches, Pine Forest",
     metaDesc:
       "Anglet's chain of surf beaches, the Pignada pine forest, the Chiberta links course, and Bayonne and Biarritz both a tram ride away.",
     category: "city-guide",
@@ -15774,7 +15774,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aubagne-2026",
     title: "Things to do in Aubagne: Pagnol's hills and clay figurines",
-    metaTitle: "Things to Do in Aubagne (2026) — Garlaban, Santons",
+    metaTitle: "Things to Do in Aubagne (2027) — Garlaban, Santons",
     metaDesc:
       "Marcel Pagnol's home town: the Garlaban hills he wrote about, the santon workshops, the Foreign Legion museum, and Cassis 20 km away.",
     category: "city-guide",
@@ -15812,7 +15812,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-autun-2026",
     title: "Things to do in Autun: a Roman city on the edge of the Morvan",
-    metaTitle: "Things to Do in Autun (2026) — Roman Theatre, Gislebertus",
+    metaTitle: "Things to Do in Autun (2027) — Roman Theatre, Gislebertus",
     metaDesc:
       "Autun's Roman theatre and gates, the signed Romanesque tympanum of Saint-Lazare, the Gaulish hillfort of Bibracte, and the Morvan park.",
     category: "city-guide",
@@ -15850,7 +15850,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bagneres-de-bigorre-2026",
     title: "Things to do in Bagnères-de-Bigorre: spa town under the Pic du Midi",
-    metaTitle: "Things to Do in Bagnères-de-Bigorre (2026) — Pic du Midi, Caves",
+    metaTitle: "Things to Do in Bagnères-de-Bigorre (2027) — Pic du Midi, Caves",
     metaDesc:
       "The Pic du Midi observatory, the Grand Tourmalet ski area, the Médous and Esparros caves, the Payolle lake and a Roman-era spa tradition.",
     category: "city-guide",
@@ -15892,7 +15892,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-denis-reunion-2026",
     title: "Things to do in Saint-Denis de La Réunion: creole capital under the volcano",
-    metaTitle: "Things to Do in Saint-Denis, Réunion (2026) — Barachois, Mafate",
+    metaTitle: "Things to Do in Saint-Denis, Réunion (2027) — Barachois, Mafate",
     metaDesc:
       "Réunion's capital: the Barachois seafront, creole houses on the rue de Paris, the botanical garden, and the Mafate and Salazie cirques above town.",
     category: "city-guide",
@@ -15938,7 +15938,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-paul-reunion-2026",
     title: "Things to do in Saint-Paul: Réunion's lagoon coast",
-    metaTitle: "Things to Do in Saint-Paul, Réunion (2026) — Lagoon, Maïdo",
+    metaTitle: "Things to Do in Saint-Paul, Réunion (2027) — Lagoon, Maïdo",
     metaDesc:
       "The Ermitage lagoon, the seafront market, the pirate's grave in the marine cemetery, the Maïdo viewpoint over Mafate, and humpback whale season.",
     category: "city-guide",
@@ -15984,7 +15984,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-pierre-reunion-2026",
     title: "Things to do in Saint-Pierre: the south of Réunion",
-    metaTitle: "Things to Do in Saint-Pierre, Réunion (2026) — Market, Lava Coast",
+    metaTitle: "Things to Do in Saint-Pierre, Réunion (2027) — Market, Lava Coast",
     metaDesc:
       "Saint-Pierre's Saturday market and seafront, the rum museum, the wild south and its lava flows, and the mountain roads to Cilaos and the volcano.",
     category: "city-guide",
@@ -16030,7 +16030,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-fort-de-france-2026",
     title: "Things to do in Fort-de-France: Martinique's capital",
-    metaTitle: "Things to Do in Fort-de-France (2026) — Schœlcher Library, Balata",
+    metaTitle: "Things to Do in Fort-de-France (2027) — Schœlcher Library, Balata",
     metaDesc:
       "The Schœlcher library, the covered market, the Balata botanical garden, Aimé Césaire's city, the ferry to Trois-Îlets and Martinique's AOC rum.",
     category: "city-guide",
@@ -16076,7 +16076,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pointe-a-pitre-2026",
     title: "Things to do in Pointe-à-Pitre: Guadeloupe's working capital",
-    metaTitle: "Things to Do in Pointe-à-Pitre (2026) — Mémorial ACTe, Markets",
+    metaTitle: "Things to Do in Pointe-à-Pitre (2027) — Mémorial ACTe, Markets",
     metaDesc:
       "The Mémorial ACTe slavery museum, the spice market, the creole centre, ferries to Les Saintes and Marie-Galante, and the Soufrière volcano.",
     category: "city-guide",
@@ -16122,7 +16122,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cayenne-2026",
     title: "Things to do in Cayenne: France on the edge of the Amazon",
-    metaTitle: "Things to Do in Cayenne (2026) — Market, Space Centre",
+    metaTitle: "Things to Do in Cayenne (2027) — Market, Space Centre",
     metaDesc:
       "Cayenne's place des Palmistes and creole centre, the market, the Kourou space centre, the penal-colony islands, and the Kaw marshes.",
     category: "city-guide",
@@ -16172,7 +16172,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "one-week-in-provence-itinerary-2026",
     title: "One week in Provence: a route that actually works",
-    metaTitle: "One Week in Provence Itinerary (2026) — A Practical Route",
+    metaTitle: "One Week in Provence Itinerary (2027) — A Practical Route",
     metaDesc:
       "A realistic 7-day Provence itinerary: Avignon, the Luberon villages, Aix, Marseille and the calanques, with honest pacing and where to base yourself.",
     category: "lifestyle",
@@ -16214,7 +16214,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "french-riviera-road-trip-itinerary-2026",
     title: "French Riviera road trip: Nice, the corniches and the coast",
-    metaTitle: "French Riviera Road Trip Itinerary (2026) — Côte d'Azur Route",
+    metaTitle: "French Riviera Road Trip Itinerary (2027) — Côte d'Azur Route",
     metaDesc:
       "A practical Côte d'Azur itinerary from Nice: the three corniche roads, Cannes, Antibes, Menton and the perched villages, with honest advice on driving vs the train.",
     category: "lifestyle",
@@ -16252,7 +16252,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "loire-valley-chateaux-itinerary-2026",
     title: "Loire Valley châteaux itinerary: which castles, in what order",
-    metaTitle: "Loire Valley Châteaux Itinerary (2026) — A Practical Route",
+    metaTitle: "Loire Valley Châteaux Itinerary (2027) — A Practical Route",
     metaDesc:
       "A realistic Loire Valley castle route: Chambord, Chenonceau, Amboise, Blois and Chinon, with how many châteaux are too many and where to base yourself.",
     category: "lifestyle",
@@ -16290,7 +16290,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "alsace-wine-route-itinerary-2026",
     title: "Alsace Wine Route itinerary: villages, vines and two capitals",
-    metaTitle: "Alsace Wine Route Itinerary (2026) — Villages & Wine",
+    metaTitle: "Alsace Wine Route Itinerary (2027) — Villages & Wine",
     metaDesc:
       "A practical Alsace Wine Route itinerary: Strasbourg, Colmar and the prettiest wine villages, with how to taste, where to base and the best season.",
     category: "lifestyle",
@@ -16328,7 +16328,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "brittany-coast-road-trip-itinerary-2026",
     title: "Brittany coast road trip: walled cities, capes and oysters",
-    metaTitle: "Brittany Road Trip Itinerary (2026) — Coast & Towns",
+    metaTitle: "Brittany Road Trip Itinerary (2027) — Coast & Towns",
     metaDesc:
       "A practical Brittany coastal itinerary: Saint-Malo, the pink granite coast, the wild west capes, Quimper and Vannes, with honest pacing and food stops.",
     category: "lifestyle",
@@ -16366,7 +16366,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "three-days-in-paris-first-time-itinerary-2026",
     title: "Three days in Paris: a first-timer's itinerary that isn't exhausting",
-    metaTitle: "3 Days in Paris Itinerary (2026) — A First-Timer's Route",
+    metaTitle: "3 Days in Paris Itinerary (2027) — A First-Timer's Route",
     metaDesc:
       "A realistic first-time Paris itinerary over three days: the essential landmarks, two museums not ten, and time to actually enjoy a neighbourhood.",
     category: "lifestyle",
@@ -16408,8 +16408,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "cost-of-living-paris-2026",
     title: "Cost of living in Paris: the real monthly budget",
-    metaTitle: "Cost of Living in Paris 2026: Real Monthly Budget",
-    metaDesc: "What Paris actually costs in 2026: rent €900-2,200, Navigo €86.40/mo, groceries €300-650. A single comfortable life runs €2,500-3,000/month.",
+    metaTitle: "Cost of Living in Paris 2027: Real Monthly Budget",
+    metaDesc: "What Paris actually costs in 2027: rent €900-2,200, Navigo €86.40/mo, groceries €300-650. A single comfortable life runs €2,500-3,000/month.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16447,9 +16447,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-lyon-2026",
-    title: "Cost of Living in Lyon: What It Really Costs to Move Here (2026)",
-    metaTitle: "Cost of Living in Lyon 2026: Rent, Transport & Real Budgets",
-    metaDesc: "What Lyon actually costs in 2026: rent by neighbourhood, the TCL pass, groceries, eating out and honest single/couple monthly budgets for expats.",
+    title: "Cost of Living in Lyon: What It Really Costs to Move Here (2027)",
+    metaTitle: "Cost of Living in Lyon 2027: Rent, Transport & Real Budgets",
+    metaDesc: "What Lyon actually costs in 2027: rent by neighbourhood, the TCL pass, groceries, eating out and honest single/couple monthly budgets for expats.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16487,9 +16487,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-bordeaux-2026",
-    title: "Cost of Living in Bordeaux: What Expats Actually Spend (2026)",
-    metaTitle: "Cost of Living in Bordeaux 2026: Rent, Transport & Budget Guide",
-    metaDesc: "Real 2026 numbers for living in Bordeaux: rent by neighbourhood, the 57 €/month TBM pass, groceries, wine and the monthly budgets singles and couples need.",
+    title: "Cost of Living in Bordeaux: What Expats Actually Spend (2027)",
+    metaTitle: "Cost of Living in Bordeaux 2027: Rent, Transport & Budget Guide",
+    metaDesc: "Real 2027 numbers for living in Bordeaux: rent by neighbourhood, the 57 €/month TBM pass, groceries, wine and the monthly budgets singles and couples need.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16527,9 +16527,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-toulouse-2026",
-    title: "The Cost of Living in Toulouse: An Expat's Real Budget (2026)",
-    metaTitle: "Cost of Living in Toulouse 2026: Real Monthly Budget for Expats",
-    metaDesc: "What living in Toulouse actually costs in 2026: rent by neighbourhood, the Tisséo pass, CAF aid, groceries, and aerospace salaries. Real euro figures.",
+    title: "The Cost of Living in Toulouse: An Expat's Real Budget (2027)",
+    metaTitle: "Cost of Living in Toulouse 2027: Real Monthly Budget for Expats",
+    metaDesc: "What living in Toulouse actually costs in 2027: rent by neighbourhood, the Tisséo pass, CAF aid, groceries, and aerospace salaries. Real euro figures.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16567,9 +16567,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-montpellier-2026",
-    title: "Cost of Living in Montpellier in 2026: An Expat's Budget Guide",
-    metaTitle: "Cost of Living in Montpellier 2026 — Real Budgets for Expats",
-    metaDesc: "What it really costs to live in Montpellier in 2026: rent by neighbourhood, the TaM tram pass, groceries, and monthly budgets for singles and couples in euros.",
+    title: "Cost of Living in Montpellier in 2027: An Expat's Budget Guide",
+    metaTitle: "Cost of Living in Montpellier 2027 — Real Budgets for Expats",
+    metaDesc: "What it really costs to live in Montpellier in 2027: rent by neighbourhood, the TaM tram pass, groceries, and monthly budgets for singles and couples in euros.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16607,9 +16607,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-nice-2026",
-    title: "The Cost of Living in Nice in 2026: An Expat's Real Budget",
-    metaTitle: "Cost of Living in Nice 2026: Real Monthly Budget (€)",
-    metaDesc: "Real 2026 costs of living in Nice: rent by neighbourhood, the €17 Lignes d'Azur pass, groceries, going out, and what a single or couple needs to earn.",
+    title: "The Cost of Living in Nice in 2027: An Expat's Real Budget",
+    metaTitle: "Cost of Living in Nice 2027: Real Monthly Budget (€)",
+    metaDesc: "Real 2027 costs of living in Nice: rent by neighbourhood, the €17 Lignes d'Azur pass, groceries, going out, and what a single or couple needs to earn.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16647,9 +16647,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-nantes-2026",
-    title: "Cost of Living in Nantes (2026): A Realistic Budget for Expats",
-    metaTitle: "Cost of Living in Nantes 2026: Rent, Transport & Budget Guide",
-    metaDesc: "Real 2026 costs for living in Nantes: rent by neighbourhood, TAN tram pass, groceries, CAF aid and full monthly budgets for singles and couples.",
+    title: "Cost of Living in Nantes (2027): A Realistic Budget for Expats",
+    metaTitle: "Cost of Living in Nantes 2027: Rent, Transport & Budget Guide",
+    metaDesc: "Real 2027 costs for living in Nantes: rent by neighbourhood, TAN tram pass, groceries, CAF aid and full monthly budgets for singles and couples.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16687,9 +16687,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-rennes-2026",
-    title: "Cost of Living in Rennes: An Expat's 2026 Budget Guide",
-    metaTitle: "Cost of Living in Rennes 2026: Real Monthly Budget for Expats",
-    metaDesc: "Real 2026 monthly budgets for living in Rennes: rent by neighbourhood, the STAR transport pass, groceries, tech salaries and single vs couple totals.",
+    title: "Cost of Living in Rennes: An Expat's 2027 Budget Guide",
+    metaTitle: "Cost of Living in Rennes 2027: Real Monthly Budget for Expats",
+    metaDesc: "Real 2027 monthly budgets for living in Rennes: rent by neighbourhood, the STAR transport pass, groceries, tech salaries and single vs couple totals.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16727,9 +16727,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-strasbourg-2026",
-    title: "Cost of Living in Strasbourg in 2026: An Expat's Budget Guide",
-    metaTitle: "Cost of Living in Strasbourg 2026 — Expat Budget Guide",
-    metaDesc: "Real 2026 costs for Strasbourg: rent by district, the CTS tram pass, groceries, EU-institution salaries and cross-border work in Germany. Honest euro figures.",
+    title: "Cost of Living in Strasbourg in 2027: An Expat's Budget Guide",
+    metaTitle: "Cost of Living in Strasbourg 2027 — Expat Budget Guide",
+    metaDesc: "Real 2027 costs for Strasbourg: rent by district, the CTS tram pass, groceries, EU-institution salaries and cross-border work in Germany. Honest euro figures.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16767,9 +16767,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "cost-of-living-lille-2026",
-    title: "The Cost of Living in Lille in 2026: A Practical Guide for Expats",
-    metaTitle: "Cost of Living in Lille 2026: Rent, Transport & Budgets",
-    metaDesc: "What it really costs to live in Lille in 2026: rent by neighbourhood, the Ilevia pass, groceries, going out and the salary you need. Real euro figures.",
+    title: "The Cost of Living in Lille in 2027: A Practical Guide for Expats",
+    metaTitle: "Cost of Living in Lille 2027: Rent, Transport & Budgets",
+    metaDesc: "What it really costs to live in Lille in 2027: rent by neighbourhood, the Ilevia pass, groceries, going out and the salary you need. Real euro figures.",
     category: "budget",
     emoji: "💸",
     readMinutes: 7,
@@ -16807,9 +16807,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-paris-2026",
-    title: "Where to Buy Property in Paris in 2026: A Buyer's Map",
-    metaTitle: "Where to Buy Property in Paris in 2026 | Buyer's Guide",
-    metaDesc: "Paris averages ~€10,500/m² in 2026 after a ~7% dip. Arrondissement-by-arrondissement prices, what your budget buys, and the process for foreign buyers.",
+    title: "Where to Buy Property in Paris in 2027: A Buyer's Map",
+    metaTitle: "Where to Buy Property in Paris in 2027 | Buyer's Guide",
+    metaDesc: "Paris averages ~€10,500/m² in 2027 after a ~7% dip. Arrondissement-by-arrondissement prices, what your budget buys, and the process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -16847,9 +16847,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-lyon-2026",
-    title: "Where to Buy Property in Lyon: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Lyon in 2026: Areas, Prices & Process",
-    metaDesc: "Where to buy in Lyon in 2026: arrondissement prices per m², premium vs value areas, what each budget buys, and how foreign buyers purchase property in France.",
+    title: "Where to Buy Property in Lyon: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Lyon in 2027: Areas, Prices & Process",
+    metaDesc: "Where to buy in Lyon in 2027: arrondissement prices per m², premium vs value areas, what each budget buys, and how foreign buyers purchase property in France.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -16887,9 +16887,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-marseille-2026",
-    title: "Where to Buy Property in Marseille (2026): A District-by-District Guide for Foreign Buyers",
-    metaTitle: "Where to Buy Property in Marseille 2026 | Foreign Buyer Guide",
-    metaDesc: "District-by-district guide to buying property in Marseille in 2026: real €/m² by arrondissement, seafront vs north, fees, and the foreign-buyer process.",
+    title: "Where to Buy Property in Marseille (2027): A District-by-District Guide for Foreign Buyers",
+    metaTitle: "Where to Buy Property in Marseille 2027 | Foreign Buyer Guide",
+    metaDesc: "District-by-district guide to buying property in Marseille in 2027: real €/m² by arrondissement, seafront vs north, fees, and the foreign-buyer process.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -16927,9 +16927,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-toulouse-2026",
-    title: "Where to Buy Property in Toulouse: An International Buyer's Guide (2026)",
-    metaTitle: "Where to Buy in Toulouse 2026 — Areas, Prices",
-    metaDesc: "Where to buy property in Toulouse in 2026: real €/m² by neighbourhood, what your budget buys, and how foreigners purchase French property step by step.",
+    title: "Where to Buy Property in Toulouse: An International Buyer's Guide (2027)",
+    metaTitle: "Where to Buy in Toulouse 2027 — Areas, Prices",
+    metaDesc: "Where to buy property in Toulouse in 2027: real €/m² by neighbourhood, what your budget buys, and how foreigners purchase French property step by step.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -16967,9 +16967,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-lille-2026",
-    title: "Where to Buy Property in Lille: A Foreign Buyer's Guide (2026)",
-    metaTitle: "Where to Buy Property in Lille 2026 | Foreign Buyer Guide",
-    metaDesc: "Where to buy in Lille in 2026: real €/m² by neighbourhood, what your budget buys, and the French buying process and fees explained for foreign buyers.",
+    title: "Where to Buy Property in Lille: A Foreign Buyer's Guide (2027)",
+    metaTitle: "Where to Buy Property in Lille 2027 | Foreign Buyer Guide",
+    metaDesc: "Where to buy in Lille in 2027: real €/m² by neighbourhood, what your budget buys, and the French buying process and fees explained for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17007,9 +17007,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-bordeaux-2026",
-    title: "Where to Buy Property in Bordeaux: A Foreign Buyer's Guide (2026)",
-    metaTitle: "Where to Buy in Bordeaux 2026: Neighbourhoods & Prices",
-    metaDesc: "Where to buy property in Bordeaux in 2026: real prices per neighbourhood, value picks, what your budget buys, and the buying process for foreign buyers.",
+    title: "Where to Buy Property in Bordeaux: A Foreign Buyer's Guide (2027)",
+    metaTitle: "Where to Buy in Bordeaux 2027: Neighbourhoods & Prices",
+    metaDesc: "Where to buy property in Bordeaux in 2027: real prices per neighbourhood, value picks, what your budget buys, and the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17047,9 +17047,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-nantes-2026",
-    title: "Where to Buy Property in Nantes (2026): Neighbourhoods, Prices, Process",
-    metaTitle: "Where to Buy in Nantes 2026: Prices by Neighbourhood & Process",
-    metaDesc: "Where to buy property in Nantes in 2026: per-neighbourhood prices, value picks, what your budget buys, plus the buying process for foreign buyers.",
+    title: "Where to Buy Property in Nantes (2027): Neighbourhoods, Prices, Process",
+    metaTitle: "Where to Buy in Nantes 2027: Prices by Neighbourhood & Process",
+    metaDesc: "Where to buy property in Nantes in 2027: per-neighbourhood prices, value picks, what your budget buys, plus the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17087,9 +17087,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-strasbourg-2026",
-    title: "Where to Buy Property in Strasbourg: A Foreign Buyer's Guide (2026)",
-    metaTitle: "Where to Buy Property in Strasbourg 2026: Neighbourhoods & Prices",
-    metaDesc: "Where to buy in Strasbourg in 2026: neighbourhood prices per m², what your budget gets, and how foreigners buy property in France. Direct, no fluff.",
+    title: "Where to Buy Property in Strasbourg: A Foreign Buyer's Guide (2027)",
+    metaTitle: "Where to Buy Property in Strasbourg 2027: Neighbourhoods & Prices",
+    metaDesc: "Where to buy in Strasbourg in 2027: neighbourhood prices per m², what your budget gets, and how foreigners buy property in France. Direct, no fluff.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17127,9 +17127,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-rennes-2026",
-    title: "Where to Buy Property in Rennes: A Foreign Buyer's Guide (2026)",
-    metaTitle: "Where to Buy Property in Rennes 2026 | Foreign Buyer Guide",
-    metaDesc: "Rennes property prices by neighbourhood in 2026, what your budget really buys, and how foreigners buy in France: notaire fees, mortgages and timeline.",
+    title: "Where to Buy Property in Rennes: A Foreign Buyer's Guide (2027)",
+    metaTitle: "Where to Buy Property in Rennes 2027 | Foreign Buyer Guide",
+    metaDesc: "Rennes property prices by neighbourhood in 2027, what your budget really buys, and how foreigners buy in France: notaire fees, mortgages and timeline.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17167,9 +17167,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-montpellier-2026",
-    title: "Where to Buy Property in Montpellier (2026): A Foreign Buyer's Guide",
-    metaTitle: "Where to Buy in Montpellier 2026: Neighbourhoods & Prices",
-    metaDesc: "Where to buy property in Montpellier in 2026: real prices per m² by neighbourhood, what each budget buys, and how foreign buyers purchase in France today.",
+    title: "Where to Buy Property in Montpellier (2027): A Foreign Buyer's Guide",
+    metaTitle: "Where to Buy in Montpellier 2027: Neighbourhoods & Prices",
+    metaDesc: "Where to buy property in Montpellier in 2027: real prices per m² by neighbourhood, what each budget buys, and how foreign buyers purchase in France today.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17207,9 +17207,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-nice-2026",
-    title: "Where to Buy Property in Nice: A 2026 Neighbourhood Guide",
-    metaTitle: "Where to Buy Property in Nice 2026: Neighbourhoods & €/m² Prices",
-    metaDesc: "Where to buy in Nice in 2026: real €/m² by neighbourhood, the Riviera premium, value areas, what your budget buys, and the buying process for foreigners.",
+    title: "Where to Buy Property in Nice: A 2027 Neighbourhood Guide",
+    metaTitle: "Where to Buy Property in Nice 2027: Neighbourhoods & €/m² Prices",
+    metaDesc: "Where to buy in Nice in 2027: real €/m² by neighbourhood, the Riviera premium, value areas, what your budget buys, and the buying process for foreigners.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17247,9 +17247,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-grenoble-2026",
-    title: "Where to Buy Property in Grenoble: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Grenoble 2026: Property Guide for Expats",
-    metaDesc: "Where to buy property in Grenoble in 2026: neighbourhood prices per m², budget tiers, the air-quality caveat, and the buying process for foreign buyers.",
+    title: "Where to Buy Property in Grenoble: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Grenoble 2027: Property Guide for Expats",
+    metaDesc: "Where to buy property in Grenoble in 2027: neighbourhood prices per m², budget tiers, the air-quality caveat, and the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17287,9 +17287,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-annecy-2026",
-    title: "Where to Buy Property in Annecy: A 2026 Guide for Foreign Buyers",
-    metaTitle: "Where to Buy in Annecy 2026 — Areas, €/m² and Foreign-Buyer Guide",
-    metaDesc: "Where to buy property in Annecy in 2026: real €/m² by area, lakefront vs better-value zones, what your budget buys, and how foreign buyers buy in France.",
+    title: "Where to Buy Property in Annecy: A 2027 Guide for Foreign Buyers",
+    metaTitle: "Where to Buy in Annecy 2027 — Areas, €/m² and Foreign-Buyer Guide",
+    metaDesc: "Where to buy property in Annecy in 2027: real €/m² by area, lakefront vs better-value zones, what your budget buys, and how foreign buyers buy in France.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17327,9 +17327,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-aix-en-provence-2026",
-    title: "Where to Buy Property in Aix-en-Provence in 2026",
-    metaTitle: "Where to Buy Property in Aix-en-Provence 2026 | Areas & Prices",
-    metaDesc: "A foreign buyer's guide to Aix-en-Provence property in 2026: neighbourhood prices per m², premium vs value areas, notaire fees, mortgages and the buying process.",
+    title: "Where to Buy Property in Aix-en-Provence in 2027",
+    metaTitle: "Where to Buy Property in Aix-en-Provence 2027 | Areas & Prices",
+    metaDesc: "A foreign buyer's guide to Aix-en-Provence property in 2027: neighbourhood prices per m², premium vs value areas, notaire fees, mortgages and the buying process.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17367,9 +17367,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-biarritz-2026",
-    title: "Where to Buy Property in Biarritz: Neighbourhoods, Prices & Budget (2026)",
-    metaTitle: "Where to Buy Property in Biarritz 2026: Areas & Prices Guide",
-    metaDesc: "A foreign buyer's guide to Biarritz property in 2026: neighbourhood prices per m², what your budget buys, notaire fees and the French buying process.",
+    title: "Where to Buy Property in Biarritz: Neighbourhoods, Prices & Budget (2027)",
+    metaTitle: "Where to Buy Property in Biarritz 2027: Areas & Prices Guide",
+    metaDesc: "A foreign buyer's guide to Biarritz property in 2027: neighbourhood prices per m², what your budget buys, notaire fees and the French buying process.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -17407,9 +17407,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-paris-2026",
-    title: "Car-Free Living in Paris: An Expat's 2026 Guide",
-    metaTitle: "Car-Free Living in Paris 2026: An Expat's Honest Guide",
-    metaDesc: "Living in Paris without a car in 2026: the metro and RER network, the Navigo pass at ~925 €/year, Vélib', cycling, and the best no-car neighbourhoods.",
+    title: "Car-Free Living in Paris: An Expat's 2027 Guide",
+    metaTitle: "Car-Free Living in Paris 2027: An Expat's Honest Guide",
+    metaDesc: "Living in Paris without a car in 2027: the metro and RER network, the Navigo pass at ~925 €/year, Vélib', cycling, and the best no-car neighbourhoods.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 6,
@@ -17447,8 +17447,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-lyon-2026",
-    title: "Living in Lyon Without a Car: A Practical Guide for 2026",
-    metaTitle: "Car-Free Living in Lyon: An Expat's Guide (2026)",
+    title: "Living in Lyon Without a Car: A Practical Guide for 2027",
+    metaTitle: "Car-Free Living in Lyon: An Expat's Guide (2027)",
     metaDesc: "Can you live in Lyon without a car? Yes — and easily. TCL transport, Vélo'v, the best no-car neighbourhoods, real costs and when you'll still want wheels.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17487,8 +17487,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-strasbourg-2026",
-    title: "Car-Free Living in Strasbourg: The 2026 Expat Guide",
-    metaTitle: "Car-Free Living in Strasbourg (2026): Trams, Bikes & Costs",
+    title: "Car-Free Living in Strasbourg: The 2027 Expat Guide",
+    metaTitle: "Car-Free Living in Strasbourg (2027): Trams, Bikes & Costs",
     metaDesc: "France's #1 cycling city, decoded for expats: CTS trams, 600 km of bike paths, the best car-free neighbourhoods, and when you'll still want a car.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17527,8 +17527,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-bordeaux-2026",
-    title: "Living in Bordeaux Without a Car: An Expat's Guide for 2026",
-    metaTitle: "Car-Free Living in Bordeaux: Expat Guide 2026",
+    title: "Living in Bordeaux Without a Car: An Expat's Guide for 2027",
+    metaTitle: "Car-Free Living in Bordeaux: Expat Guide 2027",
     metaDesc: "Can you live in Bordeaux without a car? Tram, riverboats, V³ bikes and flat terrain make it easy in the centre. Where it works and where you'll need wheels.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17567,8 +17567,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-nantes-2026",
-    title: "Living Without a Car in Nantes: A 2026 Guide for Expats",
-    metaTitle: "Car-Free Living in Nantes 2026: Trams, Bikes & Costs",
+    title: "Living Without a Car in Nantes: A 2027 Guide for Expats",
+    metaTitle: "Car-Free Living in Nantes 2027: Trams, Bikes & Costs",
     metaDesc: "Can you live in Nantes without a car? Tram, Busway, river shuttles, flat bike paths, the best car-free neighbourhoods and what a year really costs you.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17607,9 +17607,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-toulouse-2026",
-    title: "Car-Free Living in Toulouse: An Expat's 2026 Guide",
-    metaTitle: "Car-Free Living in Toulouse 2026: Metro, Bikes & Costs",
-    metaDesc: "Can you live in Toulouse without a car in 2026? Honest expat guide to the Tisséo metro, Line C, cycling, the best car-free neighbourhoods and real costs.",
+    title: "Car-Free Living in Toulouse: An Expat's 2027 Guide",
+    metaTitle: "Car-Free Living in Toulouse 2027: Metro, Bikes & Costs",
+    metaDesc: "Can you live in Toulouse without a car in 2027? Honest expat guide to the Tisséo metro, Line C, cycling, the best car-free neighbourhoods and real costs.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 6,
@@ -17647,8 +17647,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-grenoble-2026",
-    title: "Living Without a Car in Grenoble: An Expat's Guide for 2026",
-    metaTitle: "Car-Free Living in Grenoble: Expat Guide 2026",
+    title: "Living Without a Car in Grenoble: An Expat's Guide for 2027",
+    metaTitle: "Car-Free Living in Grenoble: Expat Guide 2027",
     metaDesc: "Can you live car-free in Grenoble? A flat valley, 5 tram lines and 480 km of cycle paths say yes. Honest expat guide to transport, bikes and the ski catch.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17688,8 +17688,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "car-free-living-in-rennes-2026",
     title: "Living Without a Car in Rennes",
-    metaTitle: "Car-Free Living in Rennes: An Expat Guide (2026)",
-    metaDesc: "Can you live in Rennes without a car? Two driverless metro lines, cheap STAR passes, dense bike paths and a compact centre. The honest 2026 expat take.",
+    metaTitle: "Car-Free Living in Rennes: An Expat Guide (2027)",
+    metaDesc: "Can you live in Rennes without a car? Two driverless metro lines, cheap STAR passes, dense bike paths and a compact centre. The honest 2027 expat take.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 6,
@@ -17727,9 +17727,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-montpellier-2026",
-    title: "Living Without a Car in Montpellier: The 2026 Guide for Expats",
-    metaTitle: "Car-Free Living in Montpellier 2026: Free Tram, Bikes & Sun",
-    metaDesc: "Montpellier made public transport free for residents. Here is the honest expat guide to living car-free in 2026: trams, Vélomagg, neighbourhoods and limits.",
+    title: "Living Without a Car in Montpellier: The 2027 Guide for Expats",
+    metaTitle: "Car-Free Living in Montpellier 2027: Free Tram, Bikes & Sun",
+    metaDesc: "Montpellier made public transport free for residents. Here is the honest expat guide to living car-free in 2027: trams, Vélomagg, neighbourhoods and limits.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 6,
@@ -17767,8 +17767,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-nice-2026",
-    title: "Living in Nice Without a Car: A 2026 Guide",
-    metaTitle: "Car-Free Living in Nice: The 2026 Expat Guide",
+    title: "Living in Nice Without a Car: A 2027 Guide",
+    metaTitle: "Car-Free Living in Nice: The 2027 Expat Guide",
     metaDesc: "Can you live car-free in Nice? Trams, coastal trains, Vélo Bleu and the Promenade make it easy along the coast. Costs, neighbourhoods and limits.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17808,8 +17808,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "car-free-living-in-lille-2026",
     title: "Living Without a Car in Lille",
-    metaTitle: "Car-Free Living in Lille: An Expat Guide (2026)",
-    metaDesc: "Can you live in Lille without a car? The driverless VAL metro, trams, V'Lille bikes and flat terrain say yes. An expat's honest 2026 guide.",
+    metaTitle: "Car-Free Living in Lille: An Expat Guide (2027)",
+    metaDesc: "Can you live in Lille without a car? The driverless VAL metro, trams, V'Lille bikes and flat terrain say yes. An expat's honest 2027 guide.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 6,
@@ -17847,9 +17847,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-annecy-2026",
-    title: "Living Without a Car in Annecy: An Expat's Honest Guide (2026)",
-    metaTitle: "Car-Free Living in Annecy 2026 — Buses, Bikes & the Lake Path",
-    metaDesc: "Can you live in Annecy without a car? An honest 2026 guide for expats: SIBRA buses, the lakeside cycle path, the best car-free areas, and when you'll still want one.",
+    title: "Living Without a Car in Annecy: An Expat's Honest Guide (2027)",
+    metaTitle: "Car-Free Living in Annecy 2027 — Buses, Bikes & the Lake Path",
+    metaDesc: "Can you live in Annecy without a car? An honest 2027 guide for expats: SIBRA buses, the lakeside cycle path, the best car-free areas, and when you'll still want one.",
     category: "lifestyle",
     emoji: "🚲",
     readMinutes: 6,
@@ -17887,8 +17887,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-dijon-2026",
-    title: "Living in Dijon Without a Car: An Expat's Honest Guide (2026)",
-    metaTitle: "Car-Free Living in Dijon: Expat Guide (2026)",
+    title: "Living in Dijon Without a Car: An Expat's Honest Guide (2027)",
+    metaTitle: "Car-Free Living in Dijon: Expat Guide (2027)",
     metaDesc: "Can you live in Dijon without a car? An honest expat guide to the Divia tram, DiviaVélo bikes, flat cycling, costs, and the best car-free neighbourhoods.",
     category: "lifestyle",
     emoji: "🚲",
@@ -17927,9 +17927,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-the-dordogne-2026",
-    title: "Living in the Dordogne: An Honest 2026 Expat Guide",
-    metaTitle: "Living in the Dordogne (Périgord): Expat Guide 2026",
-    metaDesc: "What it's really like to live in the Dordogne in 2026: the four Périgords, property prices, the British community, climate, transport and the honest trade-offs.",
+    title: "Living in the Dordogne: An Honest 2027 Expat Guide",
+    metaTitle: "Living in the Dordogne (Périgord): Expat Guide 2027",
+    metaDesc: "What it's really like to live in the Dordogne in 2027: the four Périgords, property prices, the British community, climate, transport and the honest trade-offs.",
     category: "moving",
     emoji: "🌻",
     readMinutes: 7,
@@ -17967,9 +17967,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-the-french-basque-country-2026",
-    title: "Living in the French Basque Country: An Expat's Guide for 2026",
-    metaTitle: "Living in the French Basque Country: Expat Guide 2026",
-    metaDesc: "Moving to the French Basque Country in 2026? Honest guide to Bayonne, Biarritz, Anglet, prices, climate, surf and the steep coastal premium.",
+    title: "Living in the French Basque Country: An Expat's Guide for 2027",
+    metaTitle: "Living in the French Basque Country: Expat Guide 2027",
+    metaDesc: "Moving to the French Basque Country in 2027? Honest guide to Bayonne, Biarritz, Anglet, prices, climate, surf and the steep coastal premium.",
     category: "moving",
     emoji: "🌊",
     readMinutes: 7,
@@ -18008,8 +18008,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-on-the-french-riviera-2026",
     title: "Living on the French Riviera: An Honest Expat Guide",
-    metaTitle: "Living on the French Riviera (Côte d'Azur): Expat Guide 2026",
-    metaDesc: "What it's really like to live on the French Riviera in 2026: where to base yourself, property prices, climate, getting around, and exactly who it suits.",
+    metaTitle: "Living on the French Riviera (Côte d'Azur): Expat Guide 2027",
+    metaDesc: "What it's really like to live on the French Riviera in 2027: where to base yourself, property prices, climate, getting around, and exactly who it suits.",
     category: "moving",
     emoji: "☀️",
     readMinutes: 7,
@@ -18047,9 +18047,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-the-var-2026",
-    title: "Living in the Var: An Expat Guide to Provence's Coast and Green Interior (2026)",
-    metaTitle: "Living in the Var 2026: Expat Guide to Toulon, Hyères & Provence",
-    metaDesc: "Moving to the Var in 2026? An honest expat guide to the pricey coast vs affordable interior, property prices, climate, fire risk, transport and who it suits.",
+    title: "Living in the Var: An Expat Guide to Provence's Coast and Green Interior (2027)",
+    metaTitle: "Living in the Var 2027: Expat Guide to Toulon, Hyères & Provence",
+    metaDesc: "Moving to the Var in 2027? An honest expat guide to the pricey coast vs affordable interior, property prices, climate, fire risk, transport and who it suits.",
     category: "moving",
     emoji: "🌿",
     readMinutes: 7,
@@ -18087,9 +18087,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-alsace-2026",
-    title: "Living in Alsace: An Expat's Guide for 2026",
-    metaTitle: "Living in Alsace 2026: Expat Relocation Guide",
-    metaDesc: "Moving to Alsace? An honest 2026 expat guide to Strasbourg, Colmar and Mulhouse — property prices, cross-border work, climate and who the region suits.",
+    title: "Living in Alsace: An Expat's Guide for 2027",
+    metaTitle: "Living in Alsace 2027: Expat Relocation Guide",
+    metaDesc: "Moving to Alsace? An honest 2027 expat guide to Strasbourg, Colmar and Mulhouse — property prices, cross-border work, climate and who the region suits.",
     category: "moving",
     emoji: "🍇",
     readMinutes: 7,
@@ -18128,8 +18128,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-brittany-2026",
     title: "Living in Brittany: An Expat's Guide to France's Celtic Coast",
-    metaTitle: "Living in Brittany 2026: Expat Relocation Guide to Bretagne",
-    metaDesc: "Moving to Brittany? Honest 2026 guide to Rennes, the coast, property prices in €/m², the famous wet weather, ferries to the UK, and who it suits.",
+    metaTitle: "Living in Brittany 2027: Expat Relocation Guide to Bretagne",
+    metaDesc: "Moving to Brittany? Honest 2027 guide to Rennes, the coast, property prices in €/m², the famous wet weather, ferries to the UK, and who it suits.",
     category: "moving",
     emoji: "⚓",
     readMinutes: 7,
@@ -18167,8 +18167,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-normandy-2026",
-    title: "Living in Normandy: An Expat's Guide for 2026",
-    metaTitle: "Living in Normandy 2026: Expat & Relocation Guide",
+    title: "Living in Normandy: An Expat's Guide for 2027",
+    metaTitle: "Living in Normandy 2027: Expat & Relocation Guide",
     metaDesc: "Moving to Normandy? Rouen, Caen, the chic coast and cheap bocage interior, property prices, ferries to the UK and what daily life is really like.",
     category: "moving",
     emoji: "🐄",
@@ -18208,8 +18208,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-charente-maritime-2026",
     title: "Living in Charente-Maritime: An Expat Guide to France's Sunniest Atlantic Coast",
-    metaTitle: "Living in Charente-Maritime 2026: La Rochelle, Royan",
-    metaDesc: "Moving to Charente-Maritime? Real 2026 property prices, climate, La Rochelle vs Royan, the Île de Ré premium, and who this Atlantic coast suits.",
+    metaTitle: "Living in Charente-Maritime 2027: La Rochelle, Royan",
+    metaDesc: "Moving to Charente-Maritime? Real 2027 property prices, climate, La Rochelle vs Royan, the Île de Ré premium, and who this Atlantic coast suits.",
     category: "moving",
     emoji: "🦪",
     readMinutes: 7,
@@ -18247,8 +18247,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-haute-savoie-2026",
-    title: "Living in Haute-Savoie: An Expat Guide to the French Alps (2026)",
-    metaTitle: "Living in Haute-Savoie 2026: Expat & Relocation Guide",
+    title: "Living in Haute-Savoie: An Expat Guide to the French Alps (2027)",
+    metaTitle: "Living in Haute-Savoie 2027: Expat & Relocation Guide",
     metaDesc: "Moving to Haute-Savoie? Annecy, Chamonix and the Lake Geneva towns, French Alps property prices, the Swiss frontalier commute and who it really suits.",
     category: "moving",
     emoji: "🏔️",
@@ -18287,8 +18287,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-occitanie-2026",
-    title: "Living in Occitanie: An Expat Guide to the Sunny South (2026)",
-    metaTitle: "Living in Occitanie 2026: Expat Guide to South France",
+    title: "Living in Occitanie: An Expat Guide to the Sunny South (2027)",
+    metaTitle: "Living in Occitanie 2027: Expat Guide to South France",
     metaDesc: "Moving to Occitanie? An honest expat guide to Toulouse, Montpellier, the Med coast and the Pyrenees — sunshine, property prices, costs and downsides.",
     category: "moving",
     emoji: "☀️",
@@ -18327,9 +18327,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-roussillon-2026",
-    title: "Living in Roussillon: A Relocation Guide to French Catalonia (2026)",
-    metaTitle: "Living in Roussillon 2026: Expat Guide to Pyrénées-Orientales",
-    metaDesc: "Moving to Roussillon in 2026: Perpignan, the Côte Vermeille and Collioure, € property levels, France's sunniest mild winters, plus the honest downsides.",
+    title: "Living in Roussillon: A Relocation Guide to French Catalonia (2027)",
+    metaTitle: "Living in Roussillon 2027: Expat Guide to Pyrénées-Orientales",
+    metaDesc: "Moving to Roussillon in 2027: Perpignan, the Côte Vermeille and Collioure, € property levels, France's sunniest mild winters, plus the honest downsides.",
     category: "moving",
     emoji: "🌅",
     readMinutes: 7,
@@ -18368,7 +18368,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-hauts-de-france-2026",
     title: "Living in Hauts-de-France: The Honest Expat Guide",
-    metaTitle: "Living in Hauts-de-France in 2026: Expat Relocation Guide",
+    metaTitle: "Living in Hauts-de-France in 2027: Expat Relocation Guide",
     metaDesc: "Lille, Amiens, Arras and the Opal Coast. Cheap property, unbeatable UK and Belgium links, and the grey-sky truth before you move to the north of France.",
     category: "moving",
     emoji: "🌾",
@@ -18407,9 +18407,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-amiens-2026",
-    title: "Where to Buy Property in Amiens: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Amiens 2026 — Prices & Areas",
-    metaDesc: "Buying in Amiens 2026: €1,800-2,800/m² across the city, Saint-Leu, Montplaisir and the periphery. Foreign-buyer process, fees and budgets explained.",
+    title: "Where to Buy Property in Amiens: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Amiens 2027 — Prices & Areas",
+    metaDesc: "Buying in Amiens 2027: €1,800-2,800/m² across the city, Saint-Leu, Montplaisir and the periphery. Foreign-buyer process, fees and budgets explained.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18447,9 +18447,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-angers-2026",
-    title: "Where to Buy Property in Angers: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Angers 2026 — Prices & Areas",
-    metaDesc: "Buying in Angers 2026: €2,600-3,200/m² medians, La Doutre, Belle-Beille, Roseraie. Foreign-buyer process, fees and realistic budgets explained.",
+    title: "Where to Buy Property in Angers: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Angers 2027 — Prices & Areas",
+    metaDesc: "Buying in Angers 2027: €2,600-3,200/m² medians, La Doutre, Belle-Beille, Roseraie. Foreign-buyer process, fees and realistic budgets explained.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18487,9 +18487,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-arles-2026",
-    title: "Where to Buy Property in Arles: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Arles 2026 — Prices & Areas",
-    metaDesc: "Buying in Arles 2026: €1,900-3,500/m², UNESCO centre, Trinquetaille, Griffeuille. Foreign-buyer process, fees and a realistic budget worked through.",
+    title: "Where to Buy Property in Arles: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Arles 2027 — Prices & Areas",
+    metaDesc: "Buying in Arles 2027: €1,900-3,500/m², UNESCO centre, Trinquetaille, Griffeuille. Foreign-buyer process, fees and a realistic budget worked through.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18527,9 +18527,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-avignon-2026",
-    title: "Where to Buy Property in Avignon: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Avignon 2026 — Prices & Areas",
-    metaDesc: "Buying in Avignon 2026: €2,800-3,800/m² medians, intra-muros, Monclar, Montfavet. Foreign-buyer process, fees and realistic budgets explained.",
+    title: "Where to Buy Property in Avignon: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Avignon 2027 — Prices & Areas",
+    metaDesc: "Buying in Avignon 2027: €2,800-3,800/m² medians, intra-muros, Monclar, Montfavet. Foreign-buyer process, fees and realistic budgets explained.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18567,9 +18567,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-bayonne-2026",
-    title: "Where to Buy Property in Bayonne: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Bayonne 2026 — Prices & Areas",
-    metaDesc: "Buying in Bayonne 2026: €3,200-4,000/m² for older flats, Grand Bayonne, Saint-Esprit. Foreign-buyer process, fees and Basque Country budgets explained.",
+    title: "Where to Buy Property in Bayonne: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Bayonne 2027 — Prices & Areas",
+    metaDesc: "Buying in Bayonne 2027: €3,200-4,000/m² for older flats, Grand Bayonne, Saint-Esprit. Foreign-buyer process, fees and Basque Country budgets explained.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18607,9 +18607,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-besancon-2026",
-    title: "Where to Buy Property in Besançon: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Besançon 2026 — Prices & Areas",
-    metaDesc: "Buying in Besançon 2026: €1,700-2,800/m² across the city, La Boucle, Battant, Mouillère. Foreign-buyer process, fees and budgets explained.",
+    title: "Where to Buy Property in Besançon: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Besançon 2027 — Prices & Areas",
+    metaDesc: "Buying in Besançon 2027: €1,700-2,800/m² across the city, La Boucle, Battant, Mouillère. Foreign-buyer process, fees and budgets explained.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18647,9 +18647,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-brest-2026",
-    title: "Where to Buy Property in Brest: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Brest 2026 — Areas & Prices",
-    metaDesc: "Brest property prices run 1,700-2,500 €/m² in 2026, among the lowest of any large French city. Where to buy by area and how foreign buyers purchase.",
+    title: "Where to Buy Property in Brest: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Brest 2027 — Areas & Prices",
+    metaDesc: "Brest property prices run 1,700-2,500 €/m² in 2027, among the lowest of any large French city. Where to buy by area and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -18687,9 +18687,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-caen-2026",
-    title: "Where to Buy Property in Caen: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Caen 2026 — Areas & Prices",
-    metaDesc: "Caen property prices run 1,200-3,500 €/m² in 2026, well below most regional capitals. Where to buy by area and how foreign buyers purchase in Normandy.",
+    title: "Where to Buy Property in Caen: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Caen 2027 — Areas & Prices",
+    metaDesc: "Caen property prices run 1,200-3,500 €/m² in 2027, well below most regional capitals. Where to buy by area and how foreign buyers purchase in Normandy.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -18728,9 +18728,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-chambery-2026",
-    title: "Where to Buy Property in Chambéry: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Chambéry 2026 — Areas & Prices",
-    metaDesc: "Chambéry property prices run 2,000-3,600 €/m² in 2026, far below Annecy. Where to buy by area and how foreign buyers purchase in the Savoie Alps.",
+    title: "Where to Buy Property in Chambéry: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Chambéry 2027 — Areas & Prices",
+    metaDesc: "Chambéry property prices run 2,000-3,600 €/m² in 2027, far below Annecy. Where to buy by area and how foreign buyers purchase in the Savoie Alps.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -18768,9 +18768,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-chartres-2026",
-    title: "Where to Buy Property in Chartres: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Chartres 2026 — Areas & Prices",
-    metaDesc: "Chartres property prices run 1,900-3,200 €/m² in 2026, about 40% below Orléans. Where to buy by area and how foreign buyers purchase near Paris.",
+    title: "Where to Buy Property in Chartres: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Chartres 2027 — Areas & Prices",
+    metaDesc: "Chartres property prices run 1,900-3,200 €/m² in 2027, about 40% below Orléans. Where to buy by area and how foreign buyers purchase near Paris.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -18808,9 +18808,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-clermont-ferrand-2026",
-    title: "Where to Buy Property in Clermont-Ferrand: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Clermont-Ferrand 2026 — Areas & Prices",
-    metaDesc: "Clermont-Ferrand property prices run 1,200-3,500 €/m² in 2026, among France's most affordable big cities. Where to buy by area and how foreign buyers purchase.",
+    title: "Where to Buy Property in Clermont-Ferrand: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Clermont-Ferrand 2027 — Areas & Prices",
+    metaDesc: "Clermont-Ferrand property prices run 1,200-3,500 €/m² in 2027, among France's most affordable big cities. Where to buy by area and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -18848,9 +18848,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-colmar-2026",
-    title: "Where to Buy Property in Colmar: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Colmar 2026 — Areas & Prices",
-    metaDesc: "Colmar property prices run 1,900-3,800 €/m² in 2026, below Strasbourg. Where to buy by area and how foreign buyers and cross-border workers purchase in Alsace.",
+    title: "Where to Buy Property in Colmar: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Colmar 2027 — Areas & Prices",
+    metaDesc: "Colmar property prices run 1,900-3,800 €/m² in 2027, below Strasbourg. Where to buy by area and how foreign buyers and cross-border workers purchase in Alsace.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -18888,9 +18888,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-dijon-2026",
-    title: "Where to Buy Property in Dijon: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Dijon 2026 — Areas & Prices",
-    metaDesc: "Dijon property prices run roughly €1,600–€3,500/m² by area in 2026. Where to buy, what your budget gets, and how the process works for foreign buyers.",
+    title: "Where to Buy Property in Dijon: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Dijon 2027 — Areas & Prices",
+    metaDesc: "Dijon property prices run roughly €1,600–€3,500/m² by area in 2027. Where to buy, what your budget gets, and how the process works for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18928,9 +18928,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-la-rochelle-2026",
-    title: "Where to Buy Property in La Rochelle: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in La Rochelle 2026 — Areas & Prices",
-    metaDesc: "La Rochelle property runs €3,200–€5,000/m² by area in 2026 after the post-Covid surge. Where to buy, budgets, and how the process works for foreign buyers.",
+    title: "Where to Buy Property in La Rochelle: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in La Rochelle 2027 — Areas & Prices",
+    metaDesc: "La Rochelle property runs €3,200–€5,000/m² by area in 2027 after the post-Covid surge. Where to buy, budgets, and how the process works for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -18968,9 +18968,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-le-havre-2026",
-    title: "Where to Buy Property in Le Havre: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Le Havre 2026 — Areas & Prices",
-    metaDesc: "Le Havre property runs €1,000–€4,500/m² by area in 2026, with UNESCO Perret stock around €1,800–€2,800/m². Where to buy and how it works for foreign buyers.",
+    title: "Where to Buy Property in Le Havre: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Le Havre 2027 — Areas & Prices",
+    metaDesc: "Le Havre property runs €1,000–€4,500/m² by area in 2027, with UNESCO Perret stock around €1,800–€2,800/m². Where to buy and how it works for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19008,9 +19008,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-le-mans-2026",
-    title: "Where to Buy Property in Le Mans: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Le Mans 2026 — Areas & Prices",
-    metaDesc: "Le Mans property runs €1,200–€2,600/m² by area in 2026, with a 56-minute TGV to Paris. Where to buy, what your budget gets, and how it works for foreign buyers.",
+    title: "Where to Buy Property in Le Mans: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Le Mans 2027 — Areas & Prices",
+    metaDesc: "Le Mans property runs €1,200–€2,600/m² by area in 2027, with a 56-minute TGV to Paris. Where to buy, what your budget gets, and how it works for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -19048,9 +19048,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-limoges-2026",
-    title: "Where to Buy Property in Limoges: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Limoges 2026 — Areas & Prices",
-    metaDesc: "Limoges has some of France's lowest city prices, €1,000–€2,200/m² in 2026. Where to buy, what your budget gets, and how the process works for foreign buyers.",
+    title: "Where to Buy Property in Limoges: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Limoges 2027 — Areas & Prices",
+    metaDesc: "Limoges has some of France's lowest city prices, €1,000–€2,200/m² in 2027. Where to buy, what your budget gets, and how the process works for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -19088,9 +19088,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-lorient-2026",
-    title: "Where to Buy Property in Lorient: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Lorient 2026 — Areas & Prices",
-    metaDesc: "Lorient property runs €1,400–€3,800/m² by area in 2026, cheaper than Rennes or Brest. Where to buy, what your budget gets, and how it works for foreign buyers.",
+    title: "Where to Buy Property in Lorient: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Lorient 2027 — Areas & Prices",
+    metaDesc: "Lorient property runs €1,400–€3,800/m² by area in 2027, cheaper than Rennes or Brest. Where to buy, what your budget gets, and how it works for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -19128,9 +19128,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-metz-2026",
-    title: "Where to Buy Property in Metz: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Metz: 2026 Buyer's Guide",
-    metaDesc: "Metz property in 2026 runs roughly 2,100-2,400 €/m². Neighbourhood prices, budget tiers and the buying process for foreign buyers, including non-resident mortgages.",
+    title: "Where to Buy Property in Metz: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Metz: 2027 Buyer's Guide",
+    metaDesc: "Metz property in 2027 runs roughly 2,100-2,400 €/m². Neighbourhood prices, budget tiers and the buying process for foreign buyers, including non-resident mortgages.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19168,9 +19168,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-mulhouse-2026",
-    title: "Where to Buy Property in Mulhouse: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Mulhouse: 2026 Buyer's Guide",
-    metaDesc: "Mulhouse property in 2026 ranges roughly 900-2,400 €/m² by area, with Basel 25 km away. Neighbourhood prices, budgets and the buying process for foreign buyers.",
+    title: "Where to Buy Property in Mulhouse: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Mulhouse: 2027 Buyer's Guide",
+    metaDesc: "Mulhouse property in 2027 ranges roughly 900-2,400 €/m² by area, with Basel 25 km away. Neighbourhood prices, budgets and the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19208,9 +19208,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-nancy-2026",
-    title: "Where to Buy Property in Nancy: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Nancy: 2026 Buyer's Guide",
-    metaDesc: "Nancy property in 2026 runs roughly 1,900-2,300 €/m². Neighbourhood prices, budget tiers and the buying process for foreign buyers, including non-resident mortgages.",
+    title: "Where to Buy Property in Nancy: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Nancy: 2027 Buyer's Guide",
+    metaDesc: "Nancy property in 2027 runs roughly 1,900-2,300 €/m². Neighbourhood prices, budget tiers and the buying process for foreign buyers, including non-resident mortgages.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19248,9 +19248,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-nimes-2026",
-    title: "Where to Buy Property in Nîmes: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Nîmes: 2026 Buyer's Guide",
-    metaDesc: "Nîmes property in 2026 runs roughly 2,000-2,700 €/m². Neighbourhood prices, budget tiers and the buying process for foreign buyers, including non-resident mortgages.",
+    title: "Where to Buy Property in Nîmes: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Nîmes: 2027 Buyer's Guide",
+    metaDesc: "Nîmes property in 2027 runs roughly 2,000-2,700 €/m². Neighbourhood prices, budget tiers and the buying process for foreign buyers, including non-resident mortgages.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19288,9 +19288,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-orleans-2026",
-    title: "Where to Buy Property in Orléans: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Orléans: 2026 Buyer's Guide",
-    metaDesc: "Orléans property in 2026 runs roughly 2,000-3,200 €/m², just over an hour from Paris by train. Neighbourhood prices, budgets and the buying process for foreign buyers.",
+    title: "Where to Buy Property in Orléans: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Orléans: 2027 Buyer's Guide",
+    metaDesc: "Orléans property in 2027 runs roughly 2,000-3,200 €/m², just over an hour from Paris by train. Neighbourhood prices, budgets and the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19328,9 +19328,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-pau-2026",
-    title: "Where to Buy Property in Pau: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Pau: 2026 Buyer's Guide",
-    metaDesc: "Pau property in 2026 runs roughly 1,500-3,800 €/m² by area, with the Pyrenees nearby. Neighbourhood prices, budgets and the buying process for foreign buyers.",
+    title: "Where to Buy Property in Pau: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Pau: 2027 Buyer's Guide",
+    metaDesc: "Pau property in 2027 runs roughly 1,500-3,800 €/m² by area, with the Pyrenees nearby. Neighbourhood prices, budgets and the buying process for foreign buyers.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -19368,9 +19368,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-perpignan-2026",
-    title: "Where to Buy Property in Perpignan: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Perpignan 2026 — Prices & Areas",
-    metaDesc: "Perpignan property guide 2026: neighbourhood prices from 1,600 to 2,600 €/m², the cheapest Mediterranean city in France, and how foreign buyers purchase.",
+    title: "Where to Buy Property in Perpignan: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Perpignan 2027 — Prices & Areas",
+    metaDesc: "Perpignan property guide 2027: neighbourhood prices from 1,600 to 2,600 €/m², the cheapest Mediterranean city in France, and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19408,9 +19408,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-poitiers-2026",
-    title: "Where to Buy Property in Poitiers: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Poitiers 2026 — Prices & Areas",
-    metaDesc: "Poitiers property guide 2026: neighbourhood prices from 1,300 to 2,500 €/m², a student city 1h20 from Paris by TGV, and how foreign buyers purchase.",
+    title: "Where to Buy Property in Poitiers: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Poitiers 2027 — Prices & Areas",
+    metaDesc: "Poitiers property guide 2027: neighbourhood prices from 1,300 to 2,500 €/m², a student city 1h20 from Paris by TGV, and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 6,
@@ -19448,9 +19448,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-reims-2026",
-    title: "Where to Buy Property in Reims: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Reims 2026 — Prices & Areas",
-    metaDesc: "Reims property guide 2026: neighbourhood prices from 1,600 to 3,200 €/m², the champagne capital 45 minutes from Paris by TGV, and how foreign buyers purchase.",
+    title: "Where to Buy Property in Reims: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Reims 2027 — Prices & Areas",
+    metaDesc: "Reims property guide 2027: neighbourhood prices from 1,600 to 3,200 €/m², the champagne capital 45 minutes from Paris by TGV, and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19488,9 +19488,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-rouen-2026",
-    title: "Where to Buy Property in Rouen: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Rouen 2026 — Prices & Areas",
-    metaDesc: "Rouen property guide 2026: neighbourhood prices from 1,500 to 4,000 €/m², a Norman capital 1h20 from Paris, and how foreign buyers purchase.",
+    title: "Where to Buy Property in Rouen: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Rouen 2027 — Prices & Areas",
+    metaDesc: "Rouen property guide 2027: neighbourhood prices from 1,500 to 4,000 €/m², a Norman capital 1h20 from Paris, and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19528,9 +19528,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-saint-etienne-2026",
-    title: "Where to Buy Property in Saint-Étienne: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Saint-Étienne 2026 — Prices & Areas",
-    metaDesc: "Saint-Étienne property guide 2026: neighbourhood prices from under 600 to 1,500 €/m², the cheapest large city in France, and how foreign buyers purchase.",
+    title: "Where to Buy Property in Saint-Étienne: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Saint-Étienne 2027 — Prices & Areas",
+    metaDesc: "Saint-Étienne property guide 2027: neighbourhood prices from under 600 to 1,500 €/m², the cheapest large city in France, and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19568,9 +19568,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-toulon-2026",
-    title: "Where to Buy Property in Toulon: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy in Toulon 2026 — Prices & Areas",
-    metaDesc: "Toulon property guide 2026: neighbourhood prices from 1,800 to 5,500 €/m², the cheapest entry to the Côte d'Azur, and how foreign buyers purchase.",
+    title: "Where to Buy Property in Toulon: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy in Toulon 2027 — Prices & Areas",
+    metaDesc: "Toulon property guide 2027: neighbourhood prices from 1,800 to 5,500 €/m², the cheapest entry to the Côte d'Azur, and how foreign buyers purchase.",
     category: "budget",
     emoji: "🏠",
     readMinutes: 7,
@@ -19608,8 +19608,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-tours-2026",
-    title: "Where to Buy Property in Tours: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Tours 2026 — Prices by Area",
+    title: "Where to Buy Property in Tours: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Tours 2027 — Prices by Area",
     metaDesc: "Tours property guide for foreign buyers: prices run 1,800–4,000 €/m² by district, with the city average near 2,700 €/m². Where to buy and how the process works.",
     category: "budget",
     emoji: "🏠",
@@ -19648,8 +19648,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-troyes-2026",
-    title: "Where to Buy Property in Troyes: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Troyes 2026 — Prices by Area",
+    title: "Where to Buy Property in Troyes: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Troyes 2027 — Prices by Area",
     metaDesc: "Troyes property guide for foreign buyers: prices run 1,400–2,800 €/m² by district, city average near 2,000 €/m². Where to buy and how the process works.",
     category: "budget",
     emoji: "🏠",
@@ -19688,8 +19688,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-valence-2026",
-    title: "Where to Buy Property in Valence: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Valence 2026 — Prices by Area",
+    title: "Where to Buy Property in Valence: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Valence 2027 — Prices by Area",
     metaDesc: "Valence property guide for foreign buyers: prices run 1,200–2,800 €/m² by district, city average near 2,400 €/m². Where to buy and how the process works.",
     category: "budget",
     emoji: "🏠",
@@ -19728,8 +19728,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-buy-in-vannes-2026",
-    title: "Where to Buy Property in Vannes: A 2026 Guide for International Buyers",
-    metaTitle: "Where to Buy Property in Vannes 2026 — Prices by Area",
+    title: "Where to Buy Property in Vannes: A 2027 Guide for International Buyers",
+    metaTitle: "Where to Buy Property in Vannes 2027 — Prices by Area",
     metaDesc: "Vannes property guide for foreign buyers: prices run 2,500–4,800 €/m² by district, city average near 3,900 €/m². Where to buy and how the process works.",
     category: "budget",
     emoji: "🏠",
@@ -19768,8 +19768,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-clermont-ferrand-2026",
-    title: "Living in Clermont-Ferrand Without a Car: An Expat's Guide for 2026",
-    metaTitle: "Car-Free Living in Clermont-Ferrand: Expat Guide 2026",
+    title: "Living in Clermont-Ferrand Without a Car: An Expat's Guide for 2027",
+    metaTitle: "Car-Free Living in Clermont-Ferrand: Expat Guide 2027",
     metaDesc: "Clermont-Ferrand is a car town with one tram line. Car-free works in the centre and along the T1, but the periphery and the volcanic relief push back.",
     category: "lifestyle",
     emoji: "🚲",
@@ -19808,8 +19808,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-marseille-2026",
-    title: "Living in Marseille Without a Car: An Expat's Guide for 2026",
-    metaTitle: "Car-Free Living in Marseille: Expat Guide 2026",
+    title: "Living in Marseille Without a Car: An Expat's Guide for 2027",
+    metaTitle: "Car-Free Living in Marseille: Expat Guide 2027",
     metaDesc: "Marseille without a car is possible but not easy. Two metro lines and trams cover the core; the northern districts and calanques still need wheels.",
     category: "lifestyle",
     emoji: "🚲",
@@ -19848,8 +19848,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-angers-2026",
-    title: "Car-Free Living in Angers 2026: Three Tram Lines, a €750 Two-Bed",
-    metaTitle: "Car-Free Living in Angers 2026: Tram Lines A, B, C",
+    title: "Car-Free Living in Angers 2027: Three Tram Lines, a €750 Two-Bed",
+    metaTitle: "Car-Free Living in Angers 2027: Tram Lines A, B, C",
     metaDesc: "Angers has three tram lines since July 2023 and a €750 two-room flat on our rent estimate. Network, rents, limits, and how it compares with Tours and Nantes.",
     category: "lifestyle",
     emoji: "🚋",
@@ -19888,8 +19888,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-tours-2026",
-    title: "Car-Free Living in Tours 2026: One Tram Line and a €700 Two-Bed",
-    metaTitle: "Car-Free Living in Tours 2026: Tram, Fil Bleu, Vélociti",
+    title: "Car-Free Living in Tours 2027: One Tram Line and a €700 Two-Bed",
+    metaTitle: "Car-Free Living in Tours 2027: Tram, Fil Bleu, Vélociti",
     metaDesc: "Tours has one tram line, but a €700 T2 on our rent estimate and a compact centre. Fil Bleu network, rents and limits, with Angers and Orléans.",
     category: "lifestyle",
     emoji: "🚲",
@@ -19928,8 +19928,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-caen-2026",
-    title: "Car-Free Living in Caen 2026: The Rail Tram Since 2019",
-    metaTitle: "Car-Free Living in Caen 2026: Tram T1 T2 T3, Twisto",
+    title: "Car-Free Living in Caen 2027: The Rail Tram Since 2019",
+    metaTitle: "Car-Free Living in Caen 2027: Tram T1 T2 T3, Twisto",
     metaDesc: "Caen has had three rail tram lines since July 2019 and a €700 T2 on our rent estimate. Network, rents, limits, with Rouen and Le Havre.",
     category: "lifestyle",
     emoji: "🚊",
@@ -19968,8 +19968,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-brest-2026",
-    title: "Car-Free Living in Brest 2026: Tram, Cable Car and a €650 Two-Bed",
-    metaTitle: "Car-Free Living in Brest 2026: Tram Lines A and B, Cable Car",
+    title: "Car-Free Living in Brest 2027: Tram, Cable Car and a €650 Two-Bed",
+    metaTitle: "Car-Free Living in Brest 2027: Tram Lines A and B, Cable Car",
     metaDesc: "Brest has had a tram since 2012, an urban cable car since 2016 and line B since February 2026. €650 T2 on our rent estimate. Compared with Rennes.",
     category: "lifestyle",
     emoji: "🚠",
@@ -20008,8 +20008,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-le-mans-2026",
-    title: "Car-Free Living in Le Mans 2026: Two Tram Lines, the Cheapest T2 of the Batch",
-    metaTitle: "Car-Free Living in Le Mans 2026: Tram T1 T2, Setram, Rents",
+    title: "Car-Free Living in Le Mans 2027: Two Tram Lines, the Cheapest T2 of the Batch",
+    metaTitle: "Car-Free Living in Le Mans 2027: Tram T1 T2, Setram, Rents",
     metaDesc: "Le Mans has two tram lines and a €650 T2 on our rent estimate, but a transport score of 6.1/10. Setram network, rents, limits, with Tours and Angers.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20048,8 +20048,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-rouen-2026",
-    title: "Car-Free Living in Rouen 2026: Metro, TEOR and a €720 Two-Bed",
-    metaTitle: "Car-Free Living in Rouen 2026: Metro, TEOR, Lovélo, Rents",
+    title: "Car-Free Living in Rouen 2027: Metro, TEOR and a €720 Two-Bed",
+    metaTitle: "Car-Free Living in Rouen 2027: Metro, TEOR, Lovélo, Rents",
     metaDesc: "Rouen has a metro, TEOR buses and a bike-share, but a transport score of 6.7/10 and a €720 T2. Astuce network, rents, limits, with Caen.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20089,8 +20089,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-orleans-2026",
-    title: "Car-Free Living in Orléans 2026: Two Tram Lines and a €700 T2",
-    metaTitle: "Car-Free Living in Orléans 2026: Tram A and B, Tao Network",
+    title: "Car-Free Living in Orléans 2027: Two Tram Lines and a €700 T2",
+    metaTitle: "Car-Free Living in Orléans 2027: Tram A and B, Tao Network",
     metaDesc: "Orléans has two tram lines (2000 and 2012) and a €700 T2 on our rent estimate, the same as Tours. Transport score 6.4/10. Tao network, limits, verdict.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20129,8 +20129,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-reims-2026",
-    title: "Car-Free Living in Reims 2026: Tram A and B and a €680 T2",
-    metaTitle: "Car-Free Living in Reims 2026: Tram A and B, Rents, Limits",
+    title: "Car-Free Living in Reims 2027: Tram A and B and a €680 T2",
+    metaTitle: "Car-Free Living in Reims 2027: Tram A and B, Rents, Limits",
     metaDesc: "Reims has had two tram lines since 2011 and a €680 T2 on our rent estimate. Transport score 6.4/10, 200th of 593. Compared with Nancy and Dijon.",
     category: "lifestyle",
     emoji: "🚊",
@@ -20169,8 +20169,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-nancy-2026",
-    title: "Car-Free Living in Nancy 2026: Trolleybus T1 and a €710 T2",
-    metaTitle: "Car-Free Living in Nancy 2026: Trolleybus T1, Stan, Rents",
+    title: "Car-Free Living in Nancy 2027: Trolleybus T1 and a €710 T2",
+    metaTitle: "Car-Free Living in Nancy 2027: Trolleybus T1, Stan, Rents",
     metaDesc: "Nancy replaced its TVR with a T1 trolleybus in April 2025. Transport score 7.0/10, €710 T2 on our rent estimate. Stan network, limits, with Metz and Reims.",
     category: "lifestyle",
     emoji: "🚎",
@@ -20209,8 +20209,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-saint-etienne-2026",
-    title: "Car-Free Living in Saint-Étienne 2026: France's Oldest Tram, €580 T2",
-    metaTitle: "Car-Free Living in Saint-Étienne 2026: Tram T1 T2 T3, Rents",
+    title: "Car-Free Living in Saint-Étienne 2027: France's Oldest Tram, €580 T2",
+    metaTitle: "Car-Free Living in Saint-Étienne 2027: Tram T1 T2 T3, Rents",
     metaDesc: "Saint-Étienne runs France's oldest tram, on three lines, and a €580 T2 on our rent estimate. Transport score 6.7/10. Compared with Lyon.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20249,8 +20249,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-besancon-2026",
-    title: "Car-Free Living in Besançon 2026: Tram T1 and T2 and a €680 T2",
-    metaTitle: "Car-Free Living in Besançon 2026: Ginko Tram, Rents, Nature",
+    title: "Car-Free Living in Besançon 2027: Tram T1 and T2 and a €680 T2",
+    metaTitle: "Car-Free Living in Besançon 2027: Ginko Tram, Rents, Nature",
     metaDesc: "Besançon has had two tram lines since 2014 and the best nature score of the batch (6.4/10). €680 T2 on our rent estimate. Ginko network, limits, with Dijon.",
     category: "lifestyle",
     emoji: "🚃",
@@ -20289,8 +20289,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-avignon-2026",
-    title: "Car-Free Living in Avignon 2026: One Tram Line and a €750 T2",
-    metaTitle: "Car-Free Living in Avignon 2026: Tram T1, Orizo, Rents",
+    title: "Car-Free Living in Avignon 2027: One Tram Line and a €750 T2",
+    metaTitle: "Car-Free Living in Avignon 2027: Tram T1, Orizo, Rents",
     metaDesc: "Avignon has a single tram line (T1, 2019) and a €750 T2 on our rent estimate. Transport score 6.1/10, 281st of 593. Orizo network, limits, with Nîmes.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20330,8 +20330,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-le-havre-2026",
-    title: "Car-Free Living in Le Havre 2026: A 2012 Tram and a €650 T2",
-    metaTitle: "Car-Free Living in Le Havre 2026: Tram, Rents, Limits",
+    title: "Car-Free Living in Le Havre 2027: A 2012 Tram and a €650 T2",
+    metaTitle: "Car-Free Living in Le Havre 2027: Tram, Rents, Limits",
     metaDesc: "Le Havre has a two-line tram (23 stops) and a €650 T2 on our rent estimate. Transport score 6.2/10, 248th of 593. Compared with Rouen, limits, verdict.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20371,8 +20371,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-metz-2026",
-    title: "Car-Free Living in Metz 2026: The Mettis Bus Rapid Transit and a €680 T2",
-    metaTitle: "Car-Free Living in Metz 2026: Mettis, Rents, Limits",
+    title: "Car-Free Living in Metz 2027: The Mettis Bus Rapid Transit and a €680 T2",
+    metaTitle: "Car-Free Living in Metz 2027: Mettis, Rents, Limits",
     metaDesc: "Metz relies on the Mettis (bus rapid transit, 2013) and a €680 T2 on our rent estimate. Transport score 6.7/10, 185th of 593. Compared with Nancy, limits, verdict.",
     category: "lifestyle",
     emoji: "🚌",
@@ -20412,8 +20412,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-amiens-2026",
-    title: "Car-Free Living in Amiens 2026: Electric Nemo Buses and a €680 T2",
-    metaTitle: "Car-Free Living in Amiens 2026: Nemo, Rents, Limits",
+    title: "Car-Free Living in Amiens 2027: Electric Nemo Buses and a €680 T2",
+    metaTitle: "Car-Free Living in Amiens 2027: Nemo, Rents, Limits",
     metaDesc: "Amiens bets on the electric Nemo bus rapid transit (2019) and a €680 T2 on our rent estimate. Transport score 6.1/10, 281st of 593. Compared with Lille.",
     category: "lifestyle",
     emoji: "🚌",
@@ -20453,8 +20453,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-dunkerque-2026",
-    title: "Car-Free Living in Dunkirk 2026: Free Buses and a €560 T2",
-    metaTitle: "Car-Free Living in Dunkirk 2026: Free Buses, Rents",
+    title: "Car-Free Living in Dunkirk 2027: Free Buses and a €560 T2",
+    metaTitle: "Car-Free Living in Dunkirk 2027: Free Buses, Rents",
     metaDesc: "In Dunkirk the DK'Bus network has been free since 2018 and a T2 is €560 on our rent estimate. Transport score 6.1/10, 281st of 593. Compared with Lille.",
     category: "lifestyle",
     emoji: "🆓",
@@ -20494,8 +20494,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-valenciennes-2026",
-    title: "Car-Free Living in Valenciennes 2026: A Tram Since 2006 and a €490 T2",
-    metaTitle: "Car-Free Living in Valenciennes 2026: Tram, Rents",
+    title: "Car-Free Living in Valenciennes 2027: A Tram Since 2006 and a €490 T2",
+    metaTitle: "Car-Free Living in Valenciennes 2027: Tram, Rents",
     metaDesc: "Valenciennes has had a tram since 2006 and the cheapest T2 of this batch: €490 on our rent estimate. Transport score 6.1/10, 281st of 593. Compared with Lille.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20535,8 +20535,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-la-rochelle-2026",
-    title: "Car-Free Living in La Rochelle 2026: Bikes, Sea Buses and a €820 T2",
-    metaTitle: "Car-Free Living in La Rochelle 2026: Bikes, Yélo, Rents",
+    title: "Car-Free Living in La Rochelle 2027: Bikes, Sea Buses and a €820 T2",
+    metaTitle: "Car-Free Living in La Rochelle 2027: Bikes, Yélo, Rents",
     metaDesc: "In La Rochelle, shared bikes and sea buses make a car optional, but a T2 is €820 on our rent estimate. Transport score 7.0/10. Compared with Poitiers.",
     category: "lifestyle",
     emoji: "🚲",
@@ -20575,8 +20575,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-villeurbanne-2026",
-    title: "Car-Free Living in Villeurbanne 2026: Metro A, Trams and a €870 T2",
-    metaTitle: "Car-Free Living in Villeurbanne 2026: Metro A, Rents",
+    title: "Car-Free Living in Villeurbanne 2027: Metro A, Trams and a €870 T2",
+    metaTitle: "Car-Free Living in Villeurbanne 2027: Metro A, Rents",
     metaDesc: "In Villeurbanne, metro line A and two tram lines make a car optional, with a T2 at €870, €130 less than Lyon. Transport score 9.0/10. Figures compared.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20615,8 +20615,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-creteil-2026",
-    title: "Car-Free Living in Créteil 2026: Metro Line 8 and a €950 T2",
-    metaTitle: "Car-Free Living in Créteil 2026: Metro 8, Rents, Budget",
+    title: "Car-Free Living in Créteil 2027: Metro Line 8 and a €950 T2",
+    metaTitle: "Car-Free Living in Créteil 2027: Metro 8, Rents, Budget",
     metaDesc: "In Créteil, metro line 8 links you to Paris without a car and a T2 is €950, €850 less than Paris. Transport score 9.0/10. Figures and limits compared.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20655,8 +20655,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-versailles-2026",
-    title: "Car-Free Living in Versailles 2026: Three Stations and a €1,200 T2",
-    metaTitle: "Car-Free Living in Versailles 2026: Three Stations, Rents",
+    title: "Car-Free Living in Versailles 2027: Three Stations and a €1,200 T2",
+    metaTitle: "Car-Free Living in Versailles 2027: Three Stations, Rents",
     metaDesc: "In Versailles, three train stations link you to Paris without a car, but a T2 is €1,200 on our rent estimate. Transport score 8.4/10. Versus Paris, Nanterre.",
     category: "lifestyle",
     emoji: "🚆",
@@ -20695,8 +20695,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-nimes-2026",
-    title: "Car-Free Living in Nîmes 2026: Tango Tram-Bus and a €720 T2",
-    metaTitle: "Car-Free Living in Nîmes 2026: Tango Tram-Bus, Rents",
+    title: "Car-Free Living in Nîmes 2027: Tango Tram-Bus and a €720 T2",
+    metaTitle: "Car-Free Living in Nîmes 2027: Tango Tram-Bus, Rents",
     metaDesc: "In Nîmes, the Tango tram-bus network makes a car optional in town, with a T2 at €720. Transport score 6.1/10. Compared with Montpellier and Avignon.",
     category: "lifestyle",
     emoji: "🚌",
@@ -20735,8 +20735,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-aix-en-provence-2026",
-    title: "Car-Free Living in Aix-en-Provence 2026: Buses, Bikes and a €1,050 T2",
-    metaTitle: "Car-Free Living in Aix-en-Provence 2026: Buses, Rents",
+    title: "Car-Free Living in Aix-en-Provence 2027: Buses, Bikes and a €1,050 T2",
+    metaTitle: "Car-Free Living in Aix-en-Provence 2027: Buses, Rents",
     metaDesc: "In Aix-en-Provence, a compact centre and a bus station make a car optional, but a T2 is €1,050. Transport score 6.1/10. Compared with Marseille.",
     category: "lifestyle",
     emoji: "🚲",
@@ -20775,8 +20775,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-limoges-2026",
-    title: "Car-Free Living in Limoges 2026: Trolleybuses and a €600 T2",
-    metaTitle: "Car-Free Living in Limoges 2026: Trolleybuses, Rents",
+    title: "Car-Free Living in Limoges 2027: Trolleybuses and a €600 T2",
+    metaTitle: "Car-Free Living in Limoges 2027: Trolleybuses, Rents",
     metaDesc: "In Limoges, a trolleybus network and a €600 T2 make a car optional. Transport score 6.1/10. Compared with Clermont-Ferrand.",
     category: "lifestyle",
     emoji: "🚎",
@@ -20815,8 +20815,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-poitiers-2026",
-    title: "Car-Free Living in Poitiers 2026: Vitalis Buses, TGV and a €660 T2",
-    metaTitle: "Car-Free Living in Poitiers 2026: Vitalis, TGV, Rents",
+    title: "Car-Free Living in Poitiers 2027: Vitalis Buses, TGV and a €660 T2",
+    metaTitle: "Car-Free Living in Poitiers 2027: Vitalis, TGV, Rents",
     metaDesc: "In Poitiers, the Vitalis bus network and the TGV make a car optional, with a T2 at €660. Transport score 6.4/10. Compared with Tours and Limoges.",
     category: "lifestyle",
     emoji: "🚌",
@@ -20855,8 +20855,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-roubaix-2026",
-    title: "Car-Free Living in Roubaix 2026: Metro Line 2 to Lille and a €520 T2",
-    metaTitle: "Car-Free Living in Roubaix 2026: Metro, Rents, Lille",
+    title: "Car-Free Living in Roubaix 2027: Metro Line 2 to Lille and a €520 T2",
+    metaTitle: "Car-Free Living in Roubaix 2027: Metro, Rents, Lille",
     metaDesc: "In Roubaix, Lille metro line 2 makes a car optional, with a T2 at €520. Transport score 7.7/10. Compared with Lille and Tourcoing.",
     category: "lifestyle",
     emoji: "🚇",
@@ -20895,8 +20895,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-tourcoing-2026",
-    title: "Car-Free Living in Tourcoing 2026: End of Metro Line 2 and a €550 T2",
-    metaTitle: "Car-Free Living in Tourcoing 2026: Metro 2, €550 T2",
+    title: "Car-Free Living in Tourcoing 2027: End of Metro Line 2 and a €550 T2",
+    metaTitle: "Car-Free Living in Tourcoing 2027: Metro 2, €550 T2",
     metaDesc: "In Tourcoing, metro line 2 ends at CH Dron and a T2 costs €550. Transport score 7.7/10. Compared with Roubaix and Lille, for car-free living.",
     category: "lifestyle",
     emoji: "🚊",
@@ -20935,8 +20935,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-merignac-2026",
-    title: "Car-Free Living in Mérignac 2026: Tram A to the Airport and an €800 T2",
-    metaTitle: "Car-Free Living in Mérignac 2026: Tram A, Airport, Rents",
+    title: "Car-Free Living in Mérignac 2027: Tram A to the Airport and an €800 T2",
+    metaTitle: "Car-Free Living in Mérignac 2027: Tram A, Airport, Rents",
     metaDesc: "In Mérignac, tram A reaches Bordeaux and the airport since 2023, with a T2 at €800. Transport score 7.7/10. Compared with Bordeaux.",
     category: "lifestyle",
     emoji: "🚋",
@@ -20975,8 +20975,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-saint-herblain-2026",
-    title: "Car-Free Living in Saint-Herblain 2026: Tram 1 and a €670 T2",
-    metaTitle: "Car-Free Living in Saint-Herblain 2026: Tram 1, Rents",
+    title: "Car-Free Living in Saint-Herblain 2027: Tram 1 and a €670 T2",
+    metaTitle: "Car-Free Living in Saint-Herblain 2027: Tram 1, Rents",
     metaDesc: "In Saint-Herblain, tram 1 links Atlantis to Nantes and a T2 costs €670. Transport score 7.7/10. Compared with Nantes, for car-free living.",
     category: "lifestyle",
     emoji: "🚋",
@@ -21015,8 +21015,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-annemasse-2026",
-    title: "Car-Free Living in Annemasse 2026: Léman Express, Tram 17 and a €1,000 T2",
-    metaTitle: "Car-Free Living in Annemasse 2026: Léman Express, Rents",
+    title: "Car-Free Living in Annemasse 2027: Léman Express, Tram 17 and a €1,000 T2",
+    metaTitle: "Car-Free Living in Annemasse 2027: Léman Express, Rents",
     metaDesc: "In Annemasse, the Léman Express and tram 17 make a car optional, with a T2 at €1,000. Transport score 9.0/10. Compared with Annecy.",
     category: "lifestyle",
     emoji: "🚆",
@@ -21055,8 +21055,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-saint-martin-d-heres-2026",
-    title: "Car-Free Living in Saint-Martin-d'Hères 2026: Trams B, C, D and a €670 T2",
-    metaTitle: "Car-Free Living in Saint-Martin-d'Hères 2026: Trams, T2",
+    title: "Car-Free Living in Saint-Martin-d'Hères 2027: Trams B, C, D and a €670 T2",
+    metaTitle: "Car-Free Living in Saint-Martin-d'Hères 2027: Trams, T2",
     metaDesc: "In Saint-Martin-d'Hères, three tram lines serve the Grenoble campus and a T2 costs €670. Transport score 8.4/10. Compared with Grenoble.",
     category: "lifestyle",
     emoji: "🚋",
@@ -21096,8 +21096,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "car-free-living-in-boulogne-billancourt-2026",
-    title: "Car-Free Living in Boulogne-Billancourt 2026: Metro 9 and 10, €1,400 T2",
-    metaTitle: "Car-Free Living in Boulogne-Billancourt 2026: Metro, Rents",
+    title: "Car-Free Living in Boulogne-Billancourt 2027: Metro 9 and 10, €1,400 T2",
+    metaTitle: "Car-Free Living in Boulogne-Billancourt 2027: Metro, Rents",
     metaDesc: "Boulogne-Billancourt has metro lines 9 and 10, so a car is optional, but a T2 costs €1,400 (€400 below Paris). Transport 9/10. Compared with Issy and Paris.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21136,8 +21136,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-montreuil-2026",
-    title: "Car-Free Living in Montreuil 2026: Metro 9 and 11, €1,050 T2",
-    metaTitle: "Car-Free Living in Montreuil 2026: Metro 9 and 11, Rents",
+    title: "Car-Free Living in Montreuil 2027: Metro 9 and 11, €1,050 T2",
+    metaTitle: "Car-Free Living in Montreuil 2027: Metro 9 and 11, Rents",
     metaDesc: "In Montreuil, metro lines 9 and 11 make a car optional, with a T2 at €1,050 against €1,800 in Paris. Transport 9/10. Compared with Pantin and Paris.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21176,8 +21176,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-vincennes-2026",
-    title: "Car-Free Living in Vincennes 2026: Metro 1 and a €1,300 T2",
-    metaTitle: "Car-Free Living in Vincennes 2026: Metro 1, Rents",
+    title: "Car-Free Living in Vincennes 2027: Metro 1 and a €1,300 T2",
+    metaTitle: "Car-Free Living in Vincennes 2027: Metro 1, Rents",
     metaDesc: "In Vincennes, metro line 1 takes you to Paris without a car, but a T2 costs €1,300. Transport 9/10, schools 8.7/10. Compared with Montreuil and Paris.",
     category: "lifestyle",
     emoji: "🌳",
@@ -21216,8 +21216,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-saint-denis-2026",
-    title: "Car-Free Living in Saint-Denis 2026: Metro 13 and 14, €950 T2",
-    metaTitle: "Car-Free Living in Saint-Denis 2026: Metro 13 and 14",
+    title: "Car-Free Living in Saint-Denis 2027: Metro 13 and 14, €950 T2",
+    metaTitle: "Car-Free Living in Saint-Denis 2027: Metro 13 and 14",
     metaDesc: "In Saint-Denis, metro lines 13 and 14 and RER D make a car unnecessary, with a €950 T2. Transport 9/10, but safety 2.2/10. Compared with Pantin and Paris.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21256,8 +21256,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-pantin-2026",
-    title: "Car-Free Living in Pantin 2026: Metro 5, Tram T3b and a €1,050 T2",
-    metaTitle: "Car-Free Living in Pantin 2026: Metro 5, Rents",
+    title: "Car-Free Living in Pantin 2027: Metro 5, Tram T3b and a €1,050 T2",
+    metaTitle: "Car-Free Living in Pantin 2027: Metro 5, Rents",
     metaDesc: "In Pantin, metro line 5 makes a car optional, with a T2 at €1,050 against €1,800 in Paris. Transport 9/10, population up 10%. Compared with Montreuil.",
     category: "lifestyle",
     emoji: "🚲",
@@ -21296,8 +21296,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-nanterre-2026",
-    title: "Car-Free Living in Nanterre 2026: RER A and E, €1,050 T2",
-    metaTitle: "Car-Free Living in Nanterre 2026: RER A, RER E, Rents",
+    title: "Car-Free Living in Nanterre 2027: RER A and E, €1,050 T2",
+    metaTitle: "Car-Free Living in Nanterre 2027: RER A, RER E, Rents",
     metaDesc: "In Nanterre, the RER A and the RER E (extended in 2024) make a car optional, with a €1,050 T2. Transport 9/10. Compared with Boulogne and Paris.",
     category: "lifestyle",
     emoji: "🚆",
@@ -21336,8 +21336,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-issy-les-moulineaux-2026",
-    title: "Car-Free Living in Issy-les-Moulineaux 2026: Metro 12, Tram T2, RER C and a €1,300 T2",
-    metaTitle: "Car-Free Living in Issy-les-Moulineaux 2026: Rents",
+    title: "Car-Free Living in Issy-les-Moulineaux 2027: Metro 12, Tram T2, RER C and a €1,300 T2",
+    metaTitle: "Car-Free Living in Issy-les-Moulineaux 2027: Rents",
     metaDesc: "Issy-les-Moulineaux without a car: metro 12, tram T2 and RER C, transport 9/10, a €1,300 T2, €100 less than Boulogne-Billancourt.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21376,8 +21376,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-levallois-perret-2026",
-    title: "Car-Free Living in Levallois-Perret 2026: Metro 3 and a €1,400 T2",
-    metaTitle: "Car-Free Living in Levallois-Perret 2026: Rents",
+    title: "Car-Free Living in Levallois-Perret 2027: Metro 3 and a €1,400 T2",
+    metaTitle: "Car-Free Living in Levallois-Perret 2027: Rents",
     metaDesc: "In Levallois-Perret, metro line 3 links the town to Paris: transport 9/10, a €1,400 T2, population up 7.8% since 2016. Compared with Clichy.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21416,8 +21416,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-neuilly-sur-seine-2026",
-    title: "Car-Free Living in Neuilly-sur-Seine 2026: Metro 1 and a €1,700 T2",
-    metaTitle: "Car-Free Living in Neuilly-sur-Seine 2026: Rents",
+    title: "Car-Free Living in Neuilly-sur-Seine 2027: Metro 1 and a €1,700 T2",
+    metaTitle: "Car-Free Living in Neuilly-sur-Seine 2027: Rents",
     metaDesc: "Neuilly-sur-Seine without a car: metro 1 at Les Sablons and Pont de Neuilly, transport 9/10, a €1,700 T2, median living standard €48,010.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21456,8 +21456,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-ivry-sur-seine-2026",
-    title: "Car-Free Living in Ivry-sur-Seine 2026: Metro 7 and a €1,000 T2",
-    metaTitle: "Car-Free Living in Ivry-sur-Seine 2026: Metro 7, Rents",
+    title: "Car-Free Living in Ivry-sur-Seine 2027: Metro 7 and a €1,000 T2",
+    metaTitle: "Car-Free Living in Ivry-sur-Seine 2027: Metro 7, Rents",
     metaDesc: "Ivry-sur-Seine without a car: metro 7 and RER C, transport 9/10, a €1,000 T2, €800 less than Paris. Compared with Vitry and Issy.",
     category: "lifestyle",
     emoji: "🚇",
@@ -21496,8 +21496,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-vitry-sur-seine-2026",
-    title: "Car-Free Living in Vitry-sur-Seine 2026: RER C and a €980 T2",
-    metaTitle: "Car-Free Living in Vitry-sur-Seine 2026: RER C, Rents",
+    title: "Car-Free Living in Vitry-sur-Seine 2027: RER C and a €980 T2",
+    metaTitle: "Car-Free Living in Vitry-sur-Seine 2027: RER C, Rents",
     metaDesc: "In Vitry-sur-Seine, the RER C and a €980 T2: transport 9/10, €820 less than Paris. What metro 15 will change, and the limits today.",
     category: "lifestyle",
     emoji: "🚆",
@@ -21536,8 +21536,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "car-free-living-in-courbevoie-2026",
-    title: "Car-Free Living in Courbevoie 2026: La Défense and a €1,250 T2",
-    metaTitle: "Car-Free Living in Courbevoie 2026: La Défense, Rents",
+    title: "Car-Free Living in Courbevoie 2027: La Défense and a €1,250 T2",
+    metaTitle: "Car-Free Living in Courbevoie 2027: La Défense, Rents",
     metaDesc: "Courbevoie without a car: La Défense, metro 1, RER A and tram T2, transport 9/10, a €1,250 T2, €150 less than Boulogne-Billancourt.",
     category: "lifestyle",
     emoji: "🚆",
@@ -21576,9 +21576,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-ile-de-france-2026",
-    title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2026)",
-    metaTitle: "Living in Île-de-France: Expat Guide 2026",
-    metaDesc: "Where to live around Paris in 2026. An honest look at Paris intra-muros, the leafy suburbs of Versailles and Vincennes, and cheaper Cergy and Montreuil.",
+    title: "Living in Île-de-France: An Expat Guide to Paris and Beyond (2027)",
+    metaTitle: "Living in Île-de-France: Expat Guide 2027",
+    metaDesc: "Where to live around Paris in 2027. An honest look at Paris intra-muros, the leafy suburbs of Versailles and Vincennes, and cheaper Cergy and Montreuil.",
     category: "moving",
     emoji: "🏙️",
     readMinutes: 8,
@@ -21616,9 +21616,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-auvergne-rhone-alpes-2026",
-    title: "Living in Auvergne-Rhône-Alpes: An Expat Guide to Lyon, the Alps and Beyond (2026)",
-    metaTitle: "Living in Auvergne-Rhône-Alpes: Expat Guide 2026",
-    metaDesc: "Where to live in Auvergne-Rhône-Alpes in 2026. An honest guide to Lyon, Grenoble, Annecy, Chambéry, Valence and Clermont-Ferrand: jobs, prices and mountain life.",
+    title: "Living in Auvergne-Rhône-Alpes: An Expat Guide to Lyon, the Alps and Beyond (2027)",
+    metaTitle: "Living in Auvergne-Rhône-Alpes: Expat Guide 2027",
+    metaDesc: "Where to live in Auvergne-Rhône-Alpes in 2027. An honest guide to Lyon, Grenoble, Annecy, Chambéry, Valence and Clermont-Ferrand: jobs, prices and mountain life.",
     category: "moving",
     emoji: "🏔️",
     readMinutes: 8,
@@ -21656,8 +21656,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-nouvelle-aquitaine-2026",
-    title: "Living in Nouvelle-Aquitaine: An Expat Guide to France's Atlantic South-West (2026)",
-    metaTitle: "Living in Nouvelle-Aquitaine 2026: Expat & Relocation Guide",
+    title: "Living in Nouvelle-Aquitaine: An Expat Guide to France's Atlantic South-West (2027)",
+    metaTitle: "Living in Nouvelle-Aquitaine 2027: Expat & Relocation Guide",
     metaDesc: "Moving to Nouvelle-Aquitaine? An honest expat guide to Bordeaux, Pau, La Rochelle and Poitiers — Atlantic coast, property prices, costs and the trade-offs.",
     category: "moving",
     emoji: "🌊",
@@ -21696,8 +21696,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-provence-alpes-cote-d-azur-2026",
-    title: "Living in Provence-Alpes-Côte d'Azur (PACA): An Expat Guide to France's Sun-and-Sea Region (2026)",
-    metaTitle: "Living in PACA 2026: Expat Guide to Provence & the Côte d'Azur",
+    title: "Living in Provence-Alpes-Côte d'Azur (PACA): An Expat Guide to France's Sun-and-Sea Region (2027)",
+    metaTitle: "Living in PACA 2027: Expat Guide to Provence & the Côte d'Azur",
     metaDesc: "Moving to Provence-Alpes-Côte d'Azur? An honest expat guide to Nice, Marseille, Aix-en-Provence and Toulon — sun, sea, property prices and the real downsides.",
     category: "moving",
     emoji: "☀️",
@@ -21736,8 +21736,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-grand-est-2026",
-    title: "Living in Grand Est: An Expat Guide to France's Border Region (2026)",
-    metaTitle: "Living in Grand Est 2026: Expat Guide to Strasbourg & Nancy",
+    title: "Living in Grand Est: An Expat Guide to France's Border Region (2027)",
+    metaTitle: "Living in Grand Est 2027: Expat Guide to Strasbourg & Nancy",
     metaDesc: "Moving to Grand Est? An honest expat guide to Strasbourg, Nancy, Metz and Reims — cross-border work, property prices, costs and the real downsides.",
     category: "moving",
     emoji: "🥨",
@@ -21776,8 +21776,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-pays-de-la-loire-2026",
-    title: "Living in Pays de la Loire: An Expat Guide to the Atlantic West (2026)",
-    metaTitle: "Living in Pays de la Loire 2026: Expat Guide to Nantes & Angers",
+    title: "Living in Pays de la Loire: An Expat Guide to the Atlantic West (2027)",
+    metaTitle: "Living in Pays de la Loire 2027: Expat Guide to Nantes & Angers",
     metaDesc: "Moving to Pays de la Loire? An honest expat guide to Nantes, Angers, Le Mans and Saint-Nazaire — jobs, property prices, costs and the real downsides.",
     category: "moving",
     emoji: "⛵",
@@ -21816,8 +21816,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-bourgogne-franche-comte-2026",
-    title: "Living in Bourgogne-Franche-Comté: An Expat Guide to Burgundy and the Jura (2026)",
-    metaTitle: "Living in Bourgogne-Franche-Comté 2026: Expat Guide",
+    title: "Living in Bourgogne-Franche-Comté: An Expat Guide to Burgundy and the Jura (2027)",
+    metaTitle: "Living in Bourgogne-Franche-Comté 2027: Expat Guide",
     metaDesc: "Moving to Bourgogne-Franche-Comté? An honest expat guide to Dijon, Besançon and Auxerre — wine, the Jura, some of the most affordable property in France, and the trade-offs.",
     category: "moving",
     emoji: "🍷",
@@ -21856,8 +21856,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-centre-val-de-loire-2026",
-    title: "Living in Centre-Val de Loire: An Expat Guide to the Loire Châteaux Country (2026)",
-    metaTitle: "Living in Centre-Val de Loire 2026: Expat Guide",
+    title: "Living in Centre-Val de Loire: An Expat Guide to the Loire Châteaux Country (2027)",
+    metaTitle: "Living in Centre-Val de Loire 2027: Expat Guide",
     metaDesc: "Moving to Centre-Val de Loire? An honest expat guide to Tours, Orléans and Blois — châteaux, vineyards, an hour from Paris by train, affordable property, and the catch.",
     category: "moving",
     emoji: "🏰",
@@ -21896,8 +21896,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-international-schools-2026",
-    title: "Best French Cities for International and Bilingual Schools (2026)",
-    metaTitle: "Best French Cities for International Schools 2026",
+    title: "Best French Cities for International and Bilingual Schools (2027)",
+    metaTitle: "Best French Cities for International Schools 2027",
     metaDesc: "Where to move in France if you want bilingual sections, international lycées or English-language schooling for your children. Ranked, with fees and trade-offs.",
     category: "family",
     emoji: "🎓",
@@ -21936,8 +21936,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-healthcare-2026",
-    title: "Best French Cities for Healthcare Access (2026)",
-    metaTitle: "Best French Cities for Healthcare Access 2026",
+    title: "Best French Cities for Healthcare Access (2027)",
+    metaTitle: "Best French Cities for Healthcare Access 2027",
     metaDesc: "CHU teaching hospitals, GP density and medical deserts: where to move in France for the best access to care. Ranked for families, retirees and newcomers.",
     category: "lifestyle",
     emoji: "🏥",
@@ -21976,9 +21976,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-lgbt-friendly-2026",
-    title: "Best French Cities for LGBT+ People in 2026",
-    metaTitle: "Best LGBT-Friendly Cities in France 2026: Paris, Lyon",
-    metaDesc: "Where LGBT+ people actually feel at home in France: scene, Pride, family healthcare and safety, ranked honestly for anyone moving here in 2026.",
+    title: "Best French Cities for LGBT+ People in 2027",
+    metaTitle: "Best LGBT-Friendly Cities in France 2027: Paris, Lyon",
+    metaDesc: "Where LGBT+ people actually feel at home in France: scene, Pride, family healthcare and safety, ranked honestly for anyone moving here in 2027.",
     category: "lifestyle",
     emoji: "🏳️‍🌈",
     readMinutes: 9,
@@ -22016,9 +22016,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-wine-lovers-2026",
-    title: "Best French Cities for Wine Lovers in 2026",
-    metaTitle: "Best French Cities for Wine Lovers 2026: Bordeaux, Dijon, Lyon",
-    metaDesc: "Where to live in France if wine is a passion: vineyards on the doorstep, serious wine merchants and buying direct, ranked for anyone moving here in 2026.",
+    title: "Best French Cities for Wine Lovers in 2027",
+    metaTitle: "Best French Cities for Wine Lovers 2027: Bordeaux, Dijon, Lyon",
+    metaDesc: "Where to live in France if wine is a passion: vineyards on the doorstep, serious wine merchants and buying direct, ranked for anyone moving here in 2027.",
     category: "lifestyle",
     emoji: "🍷",
     readMinutes: 9,
@@ -22056,8 +22056,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-property-investment-2026",
-    title: "Best French cities for property investment and shared rentals in 2026",
-    metaTitle: "Best French Cities for Property Investment (2026)",
+    title: "Best French cities for property investment and shared rentals in 2027",
+    metaTitle: "Best French Cities for Property Investment (2027)",
     metaDesc: "Where buy-to-let actually pays in France: student-share cities, high-yield mid-size markets, gross vs net yields, and the foreign-buyer process explained.",
     category: "budget",
     emoji: "📈",
@@ -22092,8 +22092,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-surf-watersports-2026",
-    title: "Best French cities for surf and watersports in 2026",
-    metaTitle: "Best French Cities for Surf and Watersports (2026)",
+    title: "Best French cities for surf and watersports in 2027",
+    metaTitle: "Best French Cities for Surf and Watersports (2027)",
     metaDesc: "Where to live in France to surf before work or sail at the weekend: the breaks, the seasons, the cost of living, and an honest look at the winter reality.",
     category: "lifestyle",
     emoji: "🏄",
@@ -22132,8 +22132,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-vegan-vegetarian-2026",
-    title: "Best French Cities for Vegans and Vegetarians in 2026",
-    metaTitle: "Best French Cities for Vegans & Vegetarians 2026",
+    title: "Best French Cities for Vegans and Vegetarians in 2027",
+    metaTitle: "Best French Cities for Vegans & Vegetarians 2027",
     metaDesc: "Moving to France on a plant-based diet? A ranked, honest guide to the cities with the best vegan restaurants, organic shops, markets and community.",
     category: "lifestyle",
     emoji: "🌱",
@@ -22172,8 +22172,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-culture-festivals-2026",
-    title: "Best French Cities for Culture and Festivals in 2026",
-    metaTitle: "Best French Cities for Culture & Festivals 2026",
+    title: "Best French Cities for Culture and Festivals in 2027",
+    metaTitle: "Best French Cities for Culture & Festivals 2027",
     metaDesc: "Moving to France for the arts? A ranked, honest guide to the cities with the strongest theatre, music, film and contemporary-art scenes, by type.",
     category: "lifestyle",
     emoji: "🎭",
@@ -22212,9 +22212,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-wellness-spas-2026",
-    title: "Best French Cities for Wellness and Spas (2026)",
-    metaTitle: "Best French Cities for Wellness and Spas 2026",
-    metaDesc: "Ranking the best French cities for a wellness lifestyle in 2026: thermal towns, thalassotherapy, yoga and nature access, with real prices and trade-offs.",
+    title: "Best French Cities for Wellness and Spas (2027)",
+    metaTitle: "Best French Cities for Wellness and Spas 2027",
+    metaDesc: "Ranking the best French cities for a wellness lifestyle in 2027: thermal towns, thalassotherapy, yoga and nature access, with real prices and trade-offs.",
     category: "lifestyle",
     emoji: "💆",
     readMinutes: 9,
@@ -22252,9 +22252,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-clean-air-2026",
-    title: "Best French Cities for Clean Air (2026)",
-    metaTitle: "Best French Cities for Clean Air 2026",
-    metaDesc: "Ranking the French cities with the cleanest air and best nature access in 2026, plus an honest look at where pollution and Alpine winter inversions are real.",
+    title: "Best French Cities for Clean Air (2027)",
+    metaTitle: "Best French Cities for Clean Air 2027",
+    metaDesc: "Ranking the French cities with the cleanest air and best nature access in 2027, plus an honest look at where pollution and Alpine winter inversions are real.",
     category: "lifestyle",
     emoji: "🌬️",
     readMinutes: 8,
@@ -22292,8 +22292,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-affordable-property-2026",
-    title: "Best French Cities to Buy Property on a Budget (2026)",
-    metaTitle: "Best French Cities to Buy Property on a Budget 2026",
+    title: "Best French Cities to Buy Property on a Budget (2027)",
+    metaTitle: "Best French Cities to Buy Property on a Budget 2027",
     metaDesc: "Where to buy in France on a budget: the cheapest viable cities ranked by €/m², what €150k actually gets you, and the foreign first-time-buyer process.",
     category: "budget",
     emoji: "🔑",
@@ -22332,8 +22332,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-entrepreneurs-startups-2026",
-    title: "Best French Cities for Entrepreneurs and Startups (2026)",
-    metaTitle: "Best French Cities for Startups & Founders (2026)",
+    title: "Best French Cities for Entrepreneurs and Startups (2027)",
+    metaTitle: "Best French Cities for Startups & Founders (2027)",
     metaDesc: "Where to start a company in France: Paris vs Bordeaux, Nantes, Rennes, Grenoble and Toulouse. Ecosystems, talent, funding, cost and the French Tech Visa.",
     category: "remote-work",
     emoji: "🚀",
@@ -22372,9 +22372,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-accessibility-2026",
-    title: "Best French Cities for Accessibility and Reduced Mobility (2026)",
-    metaTitle: "Best French Cities for Accessibility (2026)",
-    metaDesc: "Accessible trams, smooth pavements, building access and disability services: the most accessible French cities for wheelchair and reduced-mobility residents in 2026.",
+    title: "Best French Cities for Accessibility and Reduced Mobility (2027)",
+    metaTitle: "Best French Cities for Accessibility (2027)",
+    metaDesc: "Accessible trams, smooth pavements, building access and disability services: the most accessible French cities for wheelchair and reduced-mobility residents in 2027.",
     category: "lifestyle",
     emoji: "♿",
     readMinutes: 9,
@@ -22412,8 +22412,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-sustainability-2026",
-    title: "Greenest and Most Sustainable French Cities (2026)",
-    metaTitle: "Greenest, Most Sustainable French Cities (2026)",
+    title: "Greenest and Most Sustainable French Cities (2027)",
+    metaTitle: "Greenest, Most Sustainable French Cities (2027)",
     metaDesc: "Which French cities have actually built green space, soft mobility, bulk shops and biowaste collection? A ranked, honest guide for eco-conscious movers.",
     category: "lifestyle",
     emoji: "♻️",
@@ -22456,8 +22456,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-international-students-2026",
-    title: "Best French Cities for International Students (2026)",
-    metaTitle: "Best French Cities for International Students 2026",
+    title: "Best French Cities for International Students (2027)",
+    metaTitle: "Best French Cities for International Students 2027",
     metaDesc: "Where to study in France as a foreign student: international reputation, English-taught programmes, visa-friendly préfectures, CROUS housing, CAF aid and cost.",
     category: "lifestyle",
     emoji: "🎓",
@@ -22496,9 +22496,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-ariege-2026",
-    title: "Living in the Ariège: A Relocation Guide to the Rural Pyrenees (2026)",
-    metaTitle: "Living in the Ariège 2026: Expat Guide to the Pyrenees Foothills",
-    metaDesc: "Moving to the Ariège in 2026: Foix, Pamiers and Saint-Girons, the cheapest property in the Pyrenees, mountain life, and the honest rural downsides.",
+    title: "Living in the Ariège: A Relocation Guide to the Rural Pyrenees (2027)",
+    metaTitle: "Living in the Ariège 2027: Expat Guide to the Pyrenees Foothills",
+    metaDesc: "Moving to the Ariège in 2027: Foix, Pamiers and Saint-Girons, the cheapest property in the Pyrenees, mountain life, and the honest rural downsides.",
     category: "moving",
     emoji: "🏔️",
     readMinutes: 8,
@@ -22536,9 +22536,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-creuse-2026",
-    title: "Living in the Creuse: France's Cheapest Property and What It Hides (2026)",
-    metaTitle: "Living in the Creuse 2026: Expat Guide to Rural Limousin",
-    metaDesc: "Moving to the Creuse in 2026: village houses from €40,000, deep-rural calm, Guéret and Aubusson, plus the medical deserts and isolation no one warns you about.",
+    title: "Living in the Creuse: France's Cheapest Property and What It Hides (2027)",
+    metaTitle: "Living in the Creuse 2027: Expat Guide to Rural Limousin",
+    metaDesc: "Moving to the Creuse in 2027: village houses from €40,000, deep-rural calm, Guéret and Aubusson, plus the medical deserts and isolation no one warns you about.",
     category: "moving",
     emoji: "🌿",
     readMinutes: 8,
@@ -22576,9 +22576,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-berry-2026",
-    title: "Living in the Berry: A Relocation Guide to Rural Central France (2026)",
-    metaTitle: "Living in the Berry 2026: Expat Guide to Bourges & Châteauroux",
-    metaDesc: "Moving to the Berry in 2026: Bourges, Châteauroux, some of France's lowest property prices, UNESCO heritage, the rural calm — and the honest downsides.",
+    title: "Living in the Berry: A Relocation Guide to Rural Central France (2027)",
+    metaTitle: "Living in the Berry 2027: Expat Guide to Bourges & Châteauroux",
+    metaDesc: "Moving to the Berry in 2027: Bourges, Châteauroux, some of France's lowest property prices, UNESCO heritage, the rural calm — and the honest downsides.",
     category: "moving",
     emoji: "🌾",
     readMinutes: 8,
@@ -22616,9 +22616,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-poitou-2026",
-    title: "Living in the Poitou: A Relocation Guide to Affordable Western France (2026)",
-    metaTitle: "Living in the Poitou 2026: Expat Guide to Poitiers & Niort",
-    metaDesc: "Moving to the Poitou in 2026: Poitiers, Niort, Châtellerault — affordable property, a fast Paris TGV, real jobs in insurance, plus the honest trade-offs.",
+    title: "Living in the Poitou: A Relocation Guide to Affordable Western France (2027)",
+    metaTitle: "Living in the Poitou 2027: Expat Guide to Poitiers & Niort",
+    metaDesc: "Moving to the Poitou in 2027: Poitiers, Niort, Châtellerault — affordable property, a fast Paris TGV, real jobs in insurance, plus the honest trade-offs.",
     category: "moving",
     emoji: "🏞️",
     readMinutes: 8,
@@ -22656,9 +22656,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "living-in-ardennes-meuse-2026",
-    title: "Living in the Ardennes and Meuse: France's Cheapest, Quietest Corner (2026)",
-    metaTitle: "Living in the Ardennes & Meuse 2026: Relocation Guide",
-    metaDesc: "Moving to the Ardennes or Meuse in 2026: Charleville-Mézières, Verdun, Sedan, Bar-le-Duc, France's lowest property prices, cross-border work and the honest downsides.",
+    title: "Living in the Ardennes and Meuse: France's Cheapest, Quietest Corner (2027)",
+    metaTitle: "Living in the Ardennes & Meuse 2027: Relocation Guide",
+    metaDesc: "Moving to the Ardennes or Meuse in 2027: Charleville-Mézières, Verdun, Sedan, Bar-le-Duc, France's lowest property prices, cross-border work and the honest downsides.",
     category: "moving",
     emoji: "🌲",
     readMinutes: 8,
@@ -22697,7 +22697,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-versailles-2026",
     title: "Things to do in Versailles: beyond the Hall of Mirrors",
-    metaTitle: "Things to Do in Versailles (2026) — Beyond the Palace",
+    metaTitle: "Things to Do in Versailles (2027) — Beyond the Palace",
     metaDesc:
       "The palace and Le Nôtre's gardens, Trianon and the Queen's Hamlet, the King's Kitchen Garden, the Tennis Court, the Notre-Dame market — half of it free.",
     category: "city-guide",
@@ -22747,7 +22747,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-denis-2026",
     title: "Things to do in Saint-Denis, on the northern edge of Paris",
-    metaTitle: "Things to Do in Saint-Denis, Seine-Saint-Denis (2026)",
+    metaTitle: "Things to Do in Saint-Denis, Seine-Saint-Denis (2027)",
     metaDesc:
       "The basilica where Gothic architecture was invented, the royal necropolis, the Paul-Éluard museum, the market, the Stade de France and the Olympic pool.",
     category: "city-guide",
@@ -22797,7 +22797,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-roubaix-2026",
     title: "Things to do in Roubaix: the town that turned its mills into museums",
-    metaTitle: "Things to Do in Roubaix (2026) — Mills Turned Museums",
+    metaTitle: "Things to Do in Roubaix (2027) — Mills Turned Museums",
     metaDesc:
       "La Piscine in a 1930s Art Deco swimming pool, the Manufacture, the Condition Publique, Parc Barbieux, the Villa Cavrois and the Paris-Roubaix velodrome.",
     category: "city-guide",
@@ -22847,7 +22847,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-tourcoing-2026",
     title: "Things to do in Tourcoing: contemporary art, a carillon and a D-Day bunker",
-    metaTitle: "Things to Do in Tourcoing (2026) — Art, Bells, Bunker",
+    metaTitle: "Things to Do in Tourcoing (2027) — Art, Bells, Bunker",
     metaDesc:
       "The MUba Eugène-Leroy, Le Fresnoy art school, the Hospice d'Havré cloister, the Saint-Christophe carillon and the bunker that intercepted the Verlaine message.",
     category: "city-guide",
@@ -22897,7 +22897,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-boulogne-billancourt-2026",
     title: "Things to do in Boulogne-Billancourt: gardens, an island concert hall and the 1930s",
-    metaTitle: "Things to Do in Boulogne-Billancourt (2026)",
+    metaTitle: "Things to Do in Boulogne-Billancourt (2027)",
     metaDesc:
       "The Albert-Kahn museum and its gardens, La Seine Musicale on the Île Seguin, the Museum of the 1930s, the Paul-Belmondo museum and the Escudier market.",
     category: "city-guide",
@@ -22947,7 +22947,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-villeurbanne-2026",
     title: "Things to do in Villeurbanne: the Gratte-Ciel, the TNP and contemporary art",
-    metaTitle: "Things to Do in Villeurbanne (2026) — Lyon's Twin",
+    metaTitle: "Things to Do in Villeurbanne (2027) — Lyon's Twin",
     metaDesc:
       "The 1934 Gratte-Ciel towers, the Théâtre National Populaire, the Institut d'art contemporain, Le Rize, the Feyssine park and the TASE silk works.",
     category: "city-guide",
@@ -22997,7 +22997,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-tampon-2026",
     title: "Things to do in Le Tampon: the volcano, the highlands and tropical cold",
-    metaTitle: "Things to Do in Le Tampon, Réunion (2026) — Volcano",
+    metaTitle: "Things to Do in Le Tampon, Réunion (2027) — Volcano",
     metaDesc:
       "Piton de la Fournaise, the Plaine des Sables, the Cité du Volcan, Grand Bassin, the Bois-Court viewpoint and the Miel Vert fair in Réunion's highlands.",
     category: "city-guide",
@@ -23047,7 +23047,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-ouen-sur-seine-2026",
     title: "Things to do in Saint-Ouen: the world's largest flea market",
-    metaTitle: "Things to Do in Saint-Ouen-sur-Seine (2026)",
+    metaTitle: "Things to Do in Saint-Ouen-sur-Seine (2027)",
     metaDesc:
       "The Puces flea market and its dozen halls, rue des Rosiers gypsy jazz, the château park, the Docks park and the converted Olympic village.",
     category: "city-guide",
@@ -23097,7 +23097,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vitry-sur-seine-2026",
     title: "Things to do in Vitry-sur-Seine, France's street-art capital",
-    metaTitle: "Things to Do in Vitry-sur-Seine (2026) — Street Art",
+    metaTitle: "Things to Do in Vitry-sur-Seine (2027) — Street Art",
     metaDesc:
       "The MAC VAL contemporary art museum, hundreds of street works including C215's stencils, the Exploradôme, the Parc des Lilas and the Seine banks.",
     category: "city-guide",
@@ -23147,7 +23147,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montreuil-2026",
     title: "Things to do in Montreuil: peach walls, Méliès and artists' studios",
-    metaTitle: "Things to Do in Montreuil, Paris (2026)",
+    metaTitle: "Things to Do in Montreuil, Paris (2027)",
     metaDesc:
       "The peach walls, the Méliès cinema, the Croix-de-Chavaux market, Parc des Beaumonts, the museum of living history and hundreds of artists' studios.",
     category: "city-guide",
@@ -23197,7 +23197,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-argenteuil-2026",
     title: "Things to do in Argenteuil: Monet's river and the Holy Tunic",
-    metaTitle: "Things to Do in Argenteuil (2026) — Monet's Seine",
+    metaTitle: "Things to Do in Argenteuil (2027) — Monet's Seine",
     metaDesc:
       "Monet's Seine basin, the basilica and the Holy Tunic, Héloïse's abbey, the Orgemont hill, rowing on the river and the famous Argenteuil asparagus.",
     category: "city-guide",
@@ -23247,7 +23247,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-neuilly-sur-seine-2026",
     title: "Things to do in Neuilly-sur-Seine: Seurat's island and the great axis",
-    metaTitle: "Things to Do in Neuilly-sur-Seine (2026)",
+    metaTitle: "Things to Do in Neuilly-sur-Seine (2027)",
     metaDesc:
       "Seurat's Grande Jatte island, the historical axis from the Arc de Triomphe to La Défense, the Folie Saint-James, the Bois de Boulogne and the quays.",
     category: "city-guide",
@@ -23297,7 +23297,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pantin-2026",
     title: "Things to do in Pantin: the canal, the mills and the dance centre",
-    metaTitle: "Things to Do in Pantin (2026) — Canal and Mills",
+    metaTitle: "Things to Do in Pantin (2027) — Canal and Mills",
     metaDesc:
       "The Ourcq canal towpath, the Grands Moulins, the National Dance Centre, the Magasins généraux, free art galleries and the Parc de la Bergère.",
     category: "city-guide",
@@ -23347,7 +23347,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-meaux-2026",
     title: "Things to do in Meaux: the Great War museum, the cathedral and the brie",
-    metaTitle: "Things to Do in Meaux (2026) — WWI Museum and Brie",
+    metaTitle: "Things to Do in Meaux (2027) — WWI Museum and Brie",
     metaDesc:
       "Europe's largest First World War collection, the Gothic cathedral where Bossuet is buried, the bishop's garden, Brie de Meaux, mustard and the Pâtis park.",
     category: "city-guide",
@@ -23397,7 +23397,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cergy-2026",
     title: "Things to do in Cergy: the Axe Majeur, the marina and the old village",
-    metaTitle: "Things to Do in Cergy (2026) — The Axe Majeur",
+    metaTitle: "Things to Do in Cergy (2027) — The Axe Majeur",
     metaDesc:
       "A 3.2 km land-art walk by Dani Karavan, the first marina in the Paris region, a surviving wine-growers' village and a cable-tow lake, all on the RER A.",
     category: "city-guide",
@@ -23447,7 +23447,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-issy-les-moulineaux-2026",
     title: "Things to do in Issy-les-Moulineaux: Dubuffet, playing cards and the Seine",
-    metaTitle: "Things to Do in Issy-les-Moulineaux (2026)",
+    metaTitle: "Things to Do in Issy-les-Moulineaux (2027)",
     metaDesc:
       "Dubuffet's walk-in Tour aux Figures, the only playing-card museum in France, an island park on the Seine and a fort turned eco-district.",
     category: "city-guide",
@@ -23497,7 +23497,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aubervilliers-2026",
     title: "Things to do in Aubervilliers: the 19M, La Maladrerie and the canal",
-    metaTitle: "Things to Do in Aubervilliers (2026) — The 19M",
+    metaTitle: "Things to Do in Aubervilliers (2027) — The 19M",
     metaDesc:
       "Chanel's free 19M gallery, a listed pilgrimage church, Renée Gailhoustet's Maladrerie estate, the Saint-Denis canal street-art route and the Condorcet campus.",
     category: "city-guide",
@@ -23547,7 +23547,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-merignac-2026",
     title: "Things to do in Mérignac: Bourran park, a pre-revolutionary folly and the Krakatoa",
-    metaTitle: "Things to Do in Mérignac (2026) — Beyond the Airport",
+    metaTitle: "Things to Do in Mérignac (2027) — Beyond the Airport",
     metaDesc:
       "Bourran park and its château, the neoclassical Maison Carrée d'Arlac, a Romanesque church turned gallery and an urban Pessac-Léognan vineyard.",
     category: "city-guide",
@@ -23597,7 +23597,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pessac-2026",
     title: "Things to do in Pessac: Le Corbusier, Haut-Brion and the Bourgailh",
-    metaTitle: "Things to Do in Pessac (2026) — Le Corbusier",
+    metaTitle: "Things to Do in Pessac (2027) — Le Corbusier",
     metaDesc:
       "A UNESCO-listed Le Corbusier estate you can go inside, Château Haut-Brion and Pape Clément, and a forest reclaimed from a former landfill.",
     category: "city-guide",
@@ -23647,7 +23647,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-venissieux-2026",
     title: "Things to do in Vénissieux: Parilly, the old village and the 1983 March",
-    metaTitle: "Things to Do in Vénissieux (2026) — Parc de Parilly",
+    metaTitle: "Things to Do in Vénissieux (2027) — Parc de Parilly",
     metaDesc:
       "A 187-hectare park with a racecourse inside it, a fifteenth-century bell tower, the oldest street in town and the birthplace of the 1983 March for Equality.",
     category: "city-guide",
@@ -23696,9 +23696,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-paris-2026",
-    title: "Single Parent in Paris (2026): What It Actually Takes",
-    metaTitle: "Single Parent in Paris 2026: Rent, Schools, Real Budgets",
-    metaDesc: "Raising a child alone in Paris in 2026: T3 rent at €2,800, dense state schools, sliding-scale canteens, and which arrondissements actually work.",
+    title: "Single Parent in Paris (2027): What It Actually Takes",
+    metaTitle: "Single Parent in Paris 2027: Rent, Schools, Real Budgets",
+    metaDesc: "Raising a child alone in Paris in 2027: T3 rent at €2,800, dense state schools, sliding-scale canteens, and which arrondissements actually work.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23736,9 +23736,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-lyon-2026",
-    title: "Single Parent in Lyon (2026): The Metro That Makes This Doable",
-    metaTitle: "Single Parent in Lyon 2026: Rent, Schools, Transport",
-    metaDesc: "Raising a child alone in Lyon in 2026: T3 at €1,380, four metro lines, dense state schools. Probably the best big French metro for a single parent.",
+    title: "Single Parent in Lyon (2027): The Metro That Makes This Doable",
+    metaTitle: "Single Parent in Lyon 2027: Rent, Schools, Transport",
+    metaDesc: "Raising a child alone in Lyon in 2027: T3 at €1,380, four metro lines, dense state schools. Probably the best big French metro for a single parent.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23776,9 +23776,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-marseille-2026",
-    title: "Single Parent in Marseille (2026): Neighbourhood-by-Neighbourhood Maths",
-    metaTitle: "Single Parent in Marseille 2026: Rent, Schools, Safety",
-    metaDesc: "Raising a child alone in Marseille in 2026: T3 at €1,100, a short but useful metro, and a safety map that varies sharply by arrondissement.",
+    title: "Single Parent in Marseille (2027): Neighbourhood-by-Neighbourhood Maths",
+    metaTitle: "Single Parent in Marseille 2027: Rent, Schools, Safety",
+    metaDesc: "Raising a child alone in Marseille in 2027: T3 at €1,100, a short but useful metro, and a safety map that varies sharply by arrondissement.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23816,9 +23816,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-toulouse-2026",
-    title: "Single Parent in Toulouse (2026): The Car Question Decides Everything",
-    metaTitle: "Single Parent in Toulouse 2026: Rent, Schools, Metro",
-    metaDesc: "Raising a child alone in Toulouse in 2026: T3 at €1,150, two metro lines, decent state schools — and one big question: can you live car-free?",
+    title: "Single Parent in Toulouse (2027): The Car Question Decides Everything",
+    metaTitle: "Single Parent in Toulouse 2027: Rent, Schools, Metro",
+    metaDesc: "Raising a child alone in Toulouse in 2027: T3 at €1,150, two metro lines, decent state schools — and one big question: can you live car-free?",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23856,9 +23856,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-nice-2026",
-    title: "Single Parent in Nice (2026): Sun, Sea, and the €2,500 Floor",
-    metaTitle: "Single Parent in Nice 2026: Rent, Schools, Real Budgets",
-    metaDesc: "Raising a child alone in Nice in 2026: T3 at €1,500, two tram lines, low pollution — but the €2,500 net floor that decides whether Nice works.",
+    title: "Single Parent in Nice (2027): Sun, Sea, and the €2,500 Floor",
+    metaTitle: "Single Parent in Nice 2027: Rent, Schools, Real Budgets",
+    metaDesc: "Raising a child alone in Nice in 2027: T3 at €1,500, two tram lines, low pollution — but the €2,500 net floor that decides whether Nice works.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23896,9 +23896,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-nantes-2026",
-    title: "Single Parent in Nantes (2026): Lyon-Level Fit at Half the Rain",
-    metaTitle: "Single Parent in Nantes 2026: Rent, Schools, Transport",
-    metaDesc: "Raising a child alone in Nantes in 2026: T3 at €1,150, dense tram + Chronobus, strong state schools. Nantes rivals Lyon on nearly every single-parent axis.",
+    title: "Single Parent in Nantes (2027): Lyon-Level Fit at Half the Rain",
+    metaTitle: "Single Parent in Nantes 2027: Rent, Schools, Transport",
+    metaDesc: "Raising a child alone in Nantes in 2027: T3 at €1,150, dense tram + Chronobus, strong state schools. Nantes rivals Lyon on nearly every single-parent axis.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23936,9 +23936,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-montpellier-2026",
-    title: "Single Parent in Montpellier (2026): The Mediterranean Bet That Works",
-    metaTitle: "Single Parent in Montpellier 2026: Rent, Schools, Trams",
-    metaDesc: "Raising a child alone in Montpellier in 2026: T3 at €1,150, five tram lines, 300 sunny days — the Mediterranean bet that actually adds up on one income.",
+    title: "Single Parent in Montpellier (2027): The Mediterranean Bet That Works",
+    metaTitle: "Single Parent in Montpellier 2027: Rent, Schools, Trams",
+    metaDesc: "Raising a child alone in Montpellier in 2027: T3 at €1,150, five tram lines, 300 sunny days — the Mediterranean bet that actually adds up on one income.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -23976,9 +23976,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-strasbourg-2026",
-    title: "Single Parent in Strasbourg (2026): Bike, Tram, School — All Solved",
-    metaTitle: "Single Parent in Strasbourg 2026: Rent, Schools, Trams",
-    metaDesc: "Raising a child alone in Strasbourg in 2026: T3 at €1,080, six tram lines, France's best cycling city, solid state schools. Quietly excellent.",
+    title: "Single Parent in Strasbourg (2027): Bike, Tram, School — All Solved",
+    metaTitle: "Single Parent in Strasbourg 2027: Rent, Schools, Trams",
+    metaDesc: "Raising a child alone in Strasbourg in 2027: T3 at €1,080, six tram lines, France's best cycling city, solid state schools. Quietly excellent.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24016,9 +24016,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-bordeaux-2026",
-    title: "Single Parent in Bordeaux (2026): Post-TGV Prices, Real Trade-offs",
-    metaTitle: "Single Parent in Bordeaux 2026: Rent, Schools, Trams",
-    metaDesc: "Raising a child alone in Bordeaux in 2026: T3 at €1,200, four tram lines, decent state schools — and the post-TGV rent that changed the maths.",
+    title: "Single Parent in Bordeaux (2027): Post-TGV Prices, Real Trade-offs",
+    metaTitle: "Single Parent in Bordeaux 2027: Rent, Schools, Trams",
+    metaDesc: "Raising a child alone in Bordeaux in 2027: T3 at €1,200, four tram lines, decent state schools — and the post-TGV rent that changed the maths.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24056,9 +24056,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-lille-2026",
-    title: "Single Parent in Lille (2026): The Cheapest Top-10 T3 With a Metro",
-    metaTitle: "Single Parent in Lille 2026: Rent, Schools, Metro",
-    metaDesc: "Raising a child alone in Lille in 2026: T3 at €1,080, two metro lines, cost score 5.4/10, near the top of the big-10 — cheap rent, with a real safety-by-district filter.",
+    title: "Single Parent in Lille (2027): The Cheapest Top-10 T3 With a Metro",
+    metaTitle: "Single Parent in Lille 2027: Rent, Schools, Metro",
+    metaDesc: "Raising a child alone in Lille in 2027: T3 at €1,080, two metro lines, cost score 5.4/10, near the top of the big-10 — cheap rent, with a real safety-by-district filter.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24096,9 +24096,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-rennes-2026",
-    title: "Single Parent in Rennes (2026): Two Metro Lines, T3 at €1,100",
-    metaTitle: "Single Parent in Rennes 2026: Rent, Schools, Metro",
-    metaDesc: "Raising a child alone in Rennes in 2026: T3 at €1,100, two automated metro lines, schools 9.0/10, safety 5.9/10 — probably the best mid-size French bet.",
+    title: "Single Parent in Rennes (2027): Two Metro Lines, T3 at €1,100",
+    metaTitle: "Single Parent in Rennes 2027: Rent, Schools, Metro",
+    metaDesc: "Raising a child alone in Rennes in 2027: T3 at €1,100, two automated metro lines, schools 9.0/10, safety 5.9/10 — probably the best mid-size French bet.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24136,9 +24136,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-nancy-2026",
-    title: "Single Parent in Nancy (2026): T3 at €950, Compact Baroque Core",
-    metaTitle: "Single Parent in Nancy 2026: Rent, Schools, Tram",
-    metaDesc: "Raising a child alone in Nancy in 2026: T3 at €950, cost 6.2/10, schools 7.4/10, culture 7.6/10 — the best cost-to-quality ratio in the Grand Est.",
+    title: "Single Parent in Nancy (2027): T3 at €950, Compact Baroque Core",
+    metaTitle: "Single Parent in Nancy 2027: Rent, Schools, Tram",
+    metaDesc: "Raising a child alone in Nancy in 2027: T3 at €950, cost 6.2/10, schools 7.4/10, culture 7.6/10 — the best cost-to-quality ratio in the Grand Est.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24176,9 +24176,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-angers-2026",
-    title: "Single Parent in Angers (2026): T3 at €1,000, Two Tram Lines",
-    metaTitle: "Single Parent in Angers 2026: Rent, Schools, Tram",
-    metaDesc: "Raising a child alone in Angers in 2026: T3 at €1,000, two tram lines, schools 7.9/10, safety 5.7/10 — France's quality-of-life leader, on one income.",
+    title: "Single Parent in Angers (2027): T3 at €1,000, Two Tram Lines",
+    metaTitle: "Single Parent in Angers 2027: Rent, Schools, Tram",
+    metaDesc: "Raising a child alone in Angers in 2027: T3 at €1,000, two tram lines, schools 7.9/10, safety 5.7/10 — France's quality-of-life leader, on one income.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24216,9 +24216,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-grenoble-2026",
-    title: "Single Parent in Grenoble (2026): T3 at €1,020, Five Tram Lines",
-    metaTitle: "Single Parent in Grenoble 2026: Rent, Schools, Air",
-    metaDesc: "Raising a child alone in Grenoble in 2026: T3 at €1,020, five tram lines, schools 9.0/10, and winter air pollution you should factor in honestly.",
+    title: "Single Parent in Grenoble (2027): T3 at €1,020, Five Tram Lines",
+    metaTitle: "Single Parent in Grenoble 2027: Rent, Schools, Air",
+    metaDesc: "Raising a child alone in Grenoble in 2027: T3 at €1,020, five tram lines, schools 9.0/10, and winter air pollution you should factor in honestly.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24256,9 +24256,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-dijon-2026",
-    title: "Single Parent in Dijon (2026): T3 at €950, a City You Cross on Foot",
-    metaTitle: "Single Parent in Dijon 2026: Rent, Schools, Tram",
-    metaDesc: "Raising a child alone in Dijon in 2026: T3 at €950, two tram lines, schools 7.4/10, culture 7.3/10, Paris 1h40 by TGV — the real arbitrage.",
+    title: "Single Parent in Dijon (2027): T3 at €950, a City You Cross on Foot",
+    metaTitle: "Single Parent in Dijon 2027: Rent, Schools, Tram",
+    metaDesc: "Raising a child alone in Dijon in 2027: T3 at €950, two tram lines, schools 7.4/10, culture 7.3/10, Paris 1h40 by TGV — the real arbitrage.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24296,9 +24296,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-metz-2026",
-    title: "Single Parent in Metz (2026): T3 at €910, Luxembourg 45 Minutes Away",
-    metaTitle: "Single Parent in Metz 2026: Rent, Schools, Mettis",
-    metaDesc: "Raising a child alone in Metz in 2026: T3 at €910, two Mettis BHNS lines, cost 6.2/10, and a cross-border job market 45 minutes away by train.",
+    title: "Single Parent in Metz (2027): T3 at €910, Luxembourg 45 Minutes Away",
+    metaTitle: "Single Parent in Metz 2027: Rent, Schools, Mettis",
+    metaDesc: "Raising a child alone in Metz in 2027: T3 at €910, two Mettis BHNS lines, cost 6.2/10, and a cross-border job market 45 minutes away by train.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24336,9 +24336,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-reims-2026",
-    title: "Single Parent in Reims (2026): T3 at €900, Paris in 45 Minutes",
-    metaTitle: "Single Parent in Reims 2026: Rent, Schools, Commuting",
-    metaDesc: "Raising a child alone in Reims in 2026: T3 at €900, two tram lines, Paris 45 minutes by TGV — the best rent-to-Paris-access ratio in France.",
+    title: "Single Parent in Reims (2027): T3 at €900, Paris in 45 Minutes",
+    metaTitle: "Single Parent in Reims 2027: Rent, Schools, Commuting",
+    metaDesc: "Raising a child alone in Reims in 2027: T3 at €900, two tram lines, Paris 45 minutes by TGV — the best rent-to-Paris-access ratio in France.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24376,9 +24376,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-aix-en-provence-2026",
-    title: "Single Parent in Aix-en-Provence (2026): T3 at €1,400, Sun Included",
-    metaTitle: "Single Parent in Aix 2026: Rent, Schools, Real Budgets",
-    metaDesc: "Raising a child alone in Aix-en-Provence in 2026: T3 at €1,400, safety 5.9/10, schools 8.3/10, but cost 3.6/10 — the tightest budget in this series.",
+    title: "Single Parent in Aix-en-Provence (2027): T3 at €1,400, Sun Included",
+    metaTitle: "Single Parent in Aix 2027: Rent, Schools, Real Budgets",
+    metaDesc: "Raising a child alone in Aix-en-Provence in 2027: T3 at €1,400, safety 5.9/10, schools 8.3/10, but cost 3.6/10 — the tightest budget in this series.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24416,9 +24416,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-rouen-2026",
-    title: "Single Parent in Rouen (2026): T3 at €950, Paris in 1h15",
-    metaTitle: "Single Parent in Rouen 2026: Rent, Schools, Metro",
-    metaDesc: "Raising a child alone in Rouen in 2026: T3 at €950, a metro line plus four trams, schools 6.6/10, safety 4.7/10 — the Normandy city to filter carefully.",
+    title: "Single Parent in Rouen (2027): T3 at €950, Paris in 1h15",
+    metaTitle: "Single Parent in Rouen 2027: Rent, Schools, Metro",
+    metaDesc: "Raising a child alone in Rouen in 2027: T3 at €950, a metro line plus four trams, schools 6.6/10, safety 4.7/10 — the Normandy city to filter carefully.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24456,9 +24456,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-toulon-2026",
-    title: "Single Parent in Toulon (2026): T3 at €1,050, Sun and a Harbour",
-    metaTitle: "Single Parent in Toulon 2026: Rent, Schools, Trade-offs",
-    metaDesc: "Raising a child alone in Toulon in 2026: T3 at €1,050, 2,750 hours of sun, schools 4.5/10, safety 4.1/10 — the Mediterranean alternative to Nice, with filters.",
+    title: "Single Parent in Toulon (2027): T3 at €1,050, Sun and a Harbour",
+    metaTitle: "Single Parent in Toulon 2027: Rent, Schools, Trade-offs",
+    metaDesc: "Raising a child alone in Toulon in 2027: T3 at €1,050, 2,750 hours of sun, schools 4.5/10, safety 4.1/10 — the Mediterranean alternative to Nice, with filters.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24496,9 +24496,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-villeurbanne-2026",
-    title: "Single Parent in Villeurbanne (2026): the Best Transport in France, if the Income Follows",
-    metaTitle: "Single Parent in Villeurbanne 2026: Transport, Rent",
-    metaDesc: "Raising a child alone in Villeurbanne in 2026: transport 9.0/10, schools 7.7/10, T3 at €1,150 and a €3,500 net floor. The trade-off, in figures.",
+    title: "Single Parent in Villeurbanne (2027): the Best Transport in France, if the Income Follows",
+    metaTitle: "Single Parent in Villeurbanne 2027: Transport, Rent",
+    metaDesc: "Raising a child alone in Villeurbanne in 2027: transport 9.0/10, schools 7.7/10, T3 at €1,150 and a €3,500 net floor. The trade-off, in figures.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 9,
@@ -24536,9 +24536,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-besancon-2026",
-    title: "Single Parent in Besançon (2026): the Compact City That Buys Back Time",
-    metaTitle: "Single Parent in Besançon 2026: Rent, Tram, Schools",
-    metaDesc: "Raising a child alone in Besançon in 2026: T3 at €900, schools 7.4/10, a tram since 2014, €2,750 net floor. No weak axis below 5.7/10.",
+    title: "Single Parent in Besançon (2027): the Compact City That Buys Back Time",
+    metaTitle: "Single Parent in Besançon 2027: Rent, Tram, Schools",
+    metaDesc: "Raising a child alone in Besançon in 2027: T3 at €900, schools 7.4/10, a tram since 2014, €2,750 net floor. No weak axis below 5.7/10.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -24576,9 +24576,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-caen-2026",
-    title: "Single Parent in Caen (2026): the Best Safety Score in the Batch, at €930",
-    metaTitle: "Single Parent in Caen 2026: Safety, Rent, Schools, Tram",
-    metaDesc: "Raising a child alone in Caen in 2026: safety 5.9/10, schools 7.4/10, T3 at €930, €2,800 net floor. The best-balanced file of the nine.",
+    title: "Single Parent in Caen (2027): the Best Safety Score in the Batch, at €930",
+    metaTitle: "Single Parent in Caen 2027: Safety, Rent, Schools, Tram",
+    metaDesc: "Raising a child alone in Caen in 2027: safety 5.9/10, schools 7.4/10, T3 at €930, €2,800 net floor. The best-balanced file of the nine.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -24616,8 +24616,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-brest-2026",
-    title: "Single Parent in Brest (2026): the Best Schools-to-Rent Ratio in France",
-    metaTitle: "Single Parent in Brest 2026: T3 €850, Schools 7.4/10",
+    title: "Single Parent in Brest (2027): the Best Schools-to-Rent Ratio in France",
+    metaTitle: "Single Parent in Brest 2027: T3 €850, Schools 7.4/10",
     metaDesc: "€115 of rent per point of school score, the best in the ranking. T3 at €850, €2,600 net floor, schools 7.4/10. The catch is the map, not the numbers.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -24656,9 +24656,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-tours-2026",
-    title: "Single Parent in Tours (2026): the Best School Score of the Nine Cities Compared",
-    metaTitle: "Single Parent in Tours 2026: Schools 7.9/10, Rent, Tram",
-    metaDesc: "Raising a child alone in Tours in 2026: schools 7.9/10, the best of the batch, T3 at €940, €2,850 net floor and Paris one hour away by TGV.",
+    title: "Single Parent in Tours (2027): the Best School Score of the Nine Cities Compared",
+    metaTitle: "Single Parent in Tours 2027: Schools 7.9/10, Rent, Tram",
+    metaDesc: "Raising a child alone in Tours in 2027: schools 7.9/10, the best of the batch, T3 at €940, €2,850 net floor and Paris one hour away by TGV.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -24696,8 +24696,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-limoges-2026",
-    title: "Single Parent in Limoges (2026): Cost and Safety Both Above 6, Which Is Rare",
-    metaTitle: "Single Parent in Limoges 2026: T3 €800, Safety 6.1/10",
+    title: "Single Parent in Limoges (2027): Cost and Safety Both Above 6, Which Is Rare",
+    metaTitle: "Single Parent in Limoges 2027: T3 €800, Safety 6.1/10",
     metaDesc: "The only city in the batch where cost (7.1/10) and safety (6.1/10) both clear 6. T3 at €800, €2,400 net floor, buying at €1,600 per square metre.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -24736,9 +24736,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-clermont-ferrand-2026",
-    title: "Single Parent in Clermont-Ferrand (2026): Volcanoes, a Tram, and One Single Axis",
-    metaTitle: "Single Parent in Clermont-Ferrand 2026: Rent, Schools",
-    metaDesc: "Raising a child alone in Clermont-Ferrand in 2026: T3 at €900, schools 7.0/10, nature 7.2/10, €2,750 net floor. What the terrain changes day to day.",
+    title: "Single Parent in Clermont-Ferrand (2027): Volcanoes, a Tram, and One Single Axis",
+    metaTitle: "Single Parent in Clermont-Ferrand 2027: Rent, Schools",
+    metaDesc: "Raising a child alone in Clermont-Ferrand in 2027: T3 at €900, schools 7.0/10, nature 7.2/10, €2,750 net floor. What the terrain changes day to day.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -24776,8 +24776,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-etienne-2026",
-    title: "Single Parent in Saint-Étienne (2026): the Lowest Rent, and What It Costs Elsewhere",
-    metaTitle: "Single Parent in Saint-Étienne 2026: T3 €770, the Trade",
+    title: "Single Parent in Saint-Étienne (2027): the Lowest Rent, and What It Costs Elsewhere",
+    metaTitle: "Single Parent in Saint-Étienne 2027: T3 €770, the Trade",
     metaDesc: "T3 at €770 and a €2,350 net floor, the lowest of the nine cities compared. But safety 4.3/10 and schools 5.8/10. The trade-off in figures, without softening.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -24816,9 +24816,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-le-havre-2026",
-    title: "Single Parent in Le Havre (2026): the Sea, Buying at €2,000, and Two Axes That Fail",
-    metaTitle: "Single Parent in Le Havre 2026: Rent, Buying, Schools",
-    metaDesc: "Raising a child alone in Le Havre in 2026: T3 at €870, buying at €2,000 per square metre, but safety 4.5/10 and schools 5.8/10. The honest maths.",
+    title: "Single Parent in Le Havre (2027): the Sea, Buying at €2,000, and Two Axes That Fail",
+    metaTitle: "Single Parent in Le Havre 2027: Rent, Buying, Schools",
+    metaDesc: "Raising a child alone in Le Havre in 2027: T3 at €870, buying at €2,000 per square metre, but safety 4.5/10 and schools 5.8/10. The honest maths.",
     category: "family",
     emoji: "🧑‍🍼",
     readMinutes: 8,
@@ -24857,8 +24857,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-paris-2026",
-    title: "Studying in Paris (2026): what it actually costs a foreign student",
-    metaTitle: "Studying in Paris 2026: Universities, Housing, Real Cost",
+    title: "Studying in Paris (2027): what it actually costs a foreign student",
+    metaTitle: "Studying in Paris 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Paris has around 700,000 students and the worst student housing odds in France. Universities, CROUS reality, visa steps and the honest monthly budget.",
     category: "lifestyle",
@@ -24906,8 +24906,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-lyon-2026",
-    title: "Studying in Lyon (2026): France's second campus, at half the Paris price",
-    metaTitle: "Studying in Lyon 2026: Universities, Housing, Real Cost",
+    title: "Studying in Lyon (2027): France's second campus, at half the Paris price",
+    metaTitle: "Studying in Lyon 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Around 175,000 students, studios at €500-700 and a metro that works. Lyon universities, CROUS odds, what foreign students can claim, and the traps.",
     category: "lifestyle",
@@ -24955,8 +24955,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-toulouse-2026",
-    title: "Studying in Toulouse (2026): aerospace, cheap rent, and the cycle nobody warns you about",
-    metaTitle: "Studying in Toulouse 2026: Universities, Housing, Cost",
+    title: "Studying in Toulouse (2027): aerospace, cheap rent, and the cycle nobody warns you about",
+    metaTitle: "Studying in Toulouse 2027: Universities, Housing, Cost",
     metaDesc:
       "France's third student city: 130,000 students, studios at €450-600, ISAE-Supaéro and TSE. Universities, CROUS odds and what foreign students can claim.",
     category: "lifestyle",
@@ -25004,8 +25004,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-lille-2026",
-    title: "Studying in Lille (2026): the cheapest big student city in France",
-    metaTitle: "Studying in Lille 2026: Universities, Housing, Real Cost",
+    title: "Studying in Lille (2027): the cheapest big student city in France",
+    metaTitle: "Studying in Lille 2027: Universities, Housing, Real Cost",
     metaDesc:
       "120,000 students, studios from €420 and an all-in budget of €800-1,050. Lille universities, EDHEC, CROUS odds, and what a foreign student can claim.",
     category: "lifestyle",
@@ -25053,8 +25053,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-bordeaux-2026",
-    title: "Studying in Bordeaux (2026): great city, tightening housing market",
-    metaTitle: "Studying in Bordeaux 2026: Universities, Housing, Cost",
+    title: "Studying in Bordeaux (2027): great city, tightening housing market",
+    metaTitle: "Studying in Bordeaux 2027: Universities, Housing, Cost",
     metaDesc:
       "100,000 students, studios at €550-720, and a rental market squeezed since the 2017 high-speed line. Universities, CROUS odds and what you can claim.",
     category: "lifestyle",
@@ -25102,8 +25102,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-montpellier-2026",
-    title: "Studying in Montpellier (2026): Europe's oldest medical faculty, and the sea at 12 km",
-    metaTitle: "Studying in Montpellier 2026: Universities, Housing, Cost",
+    title: "Studying in Montpellier (2027): Europe's oldest medical faculty, and the sea at 12 km",
+    metaTitle: "Studying in Montpellier 2027: Universities, Housing, Cost",
     metaDesc:
       "75,000 students, studios at €500-650, and the oldest working medical faculty in Europe. Universities, CROUS odds and what a foreign student can claim.",
     category: "lifestyle",
@@ -25151,8 +25151,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-rennes-2026",
-    title: "Studying in Rennes (2026): the highest-scoring student city in France",
-    metaTitle: "Studying in Rennes 2026: Universities, Housing, Real Cost",
+    title: "Studying in Rennes (2027): the highest-scoring student city in France",
+    metaTitle: "Studying in Rennes 2027: Universities, Housing, Real Cost",
     metaDesc:
       "70,000 students, a 7.4/10 overall score, studios at €490-620 and a metro that works. Rennes universities, CROUS odds and what foreign students can claim.",
     category: "lifestyle",
@@ -25200,8 +25200,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-strasbourg-2026",
-    title: "Studying in Strasbourg (2026): a top-4 French university on the German border",
-    metaTitle: "Studying in Strasbourg 2026: Universities, Housing, Cost",
+    title: "Studying in Strasbourg (2027): a top-4 French university on the German border",
+    metaTitle: "Studying in Strasbourg 2027: Universities, Housing, Cost",
     metaDesc:
       "55,000 students, France's fourth-best Shanghai ranking, studios at €480-620 and Germany 3 km away. Universities, CROUS odds and what you can claim.",
     category: "lifestyle",
@@ -25249,8 +25249,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-nantes-2026",
-    title: "Studying in Nantes (2026): design, engineering and a tightening rental market",
-    metaTitle: "Studying in Nantes 2026: Universities, Housing, Real Cost",
+    title: "Studying in Nantes (2027): design, engineering and a tightening rental market",
+    metaTitle: "Studying in Nantes 2027: Universities, Housing, Real Cost",
     metaDesc:
       "55,000 students, Centrale and Audencia, studios at €520-680. Nantes universities, CROUS odds, what foreign students can claim, and the commute to check.",
     category: "lifestyle",
@@ -25298,8 +25298,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-grenoble-2026",
-    title: "Studying in Grenoble (2026): physics, microelectronics and the cheapest rooms in France",
-    metaTitle: "Studying in Grenoble 2026: Universities, Housing, Cost",
+    title: "Studying in Grenoble (2027): physics, microelectronics and the cheapest rooms in France",
+    metaTitle: "Studying in Grenoble 2027: Universities, Housing, Cost",
     metaDesc:
       "65,000 students, Europe's largest urban campus outside capitals, CROUS rooms from €170 and the Alps at 30 minutes. Universities, costs and the traps.",
     category: "lifestyle",
@@ -25346,8 +25346,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-marseille-2026",
-    title: "Studying in Marseille (2026): France's biggest university, honestly assessed",
-    metaTitle: "Studying in Marseille 2026: Universities, Housing, Cost",
+    title: "Studying in Marseille (2027): France's biggest university, honestly assessed",
+    metaTitle: "Studying in Marseille 2027: Universities, Housing, Cost",
     metaDesc:
       "Aix-Marseille is France's largest university, with a campus inside a national park. Costs, the neighbourhood rule, and what a foreign student can claim.",
     category: "lifestyle",
@@ -25395,8 +25395,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-nice-2026",
-    title: "Studying in Nice (2026): the Riviera campus and what it really costs",
-    metaTitle: "Studying in Nice 2026: Universities, Housing, Real Cost",
+    title: "Studying in Nice (2027): the Riviera campus and what it really costs",
+    metaTitle: "Studying in Nice 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Université Côte d'Azur, EDHEC, SKEMA and Sophia Antipolis. Studios at €620-780, the summer letting trap, and what a foreign student can actually claim.",
     category: "lifestyle",
@@ -25444,8 +25444,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-aix-en-provence-2026",
-    title: "Studying in Aix-en-Provence (2026): Sciences Po, AMU and a serious rent",
-    metaTitle: "Studying in Aix-en-Provence 2026: Cost, Housing, Schools",
+    title: "Studying in Aix-en-Provence (2027): Sciences Po, AMU and a serious rent",
+    metaTitle: "Studying in Aix-en-Provence 2027: Cost, Housing, Schools",
     metaDesc:
       "Aix-Marseille Université, Sciences Po Aix and the IAE. Studios at €620-750, the Aix-Marseille double commute, and what a foreign student can claim.",
     category: "lifestyle",
@@ -25493,8 +25493,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-clermont-ferrand-2026",
-    title: "Studying in Clermont-Ferrand (2026): volcanoes, Michelin and low rent",
-    metaTitle: "Studying in Clermont-Ferrand 2026: Cost, Housing, Schools",
+    title: "Studying in Clermont-Ferrand (2027): volcanoes, Michelin and low rent",
+    metaTitle: "Studying in Clermont-Ferrand 2027: Cost, Housing, Schools",
     metaDesc:
       "Université Clermont Auvergne, SIGMA and ESC Clermont. Studios at €380-500, the rail isolation nobody mentions, and what a foreign student can claim.",
     category: "lifestyle",
@@ -25542,8 +25542,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-nancy-2026",
-    title: "Studying in Nancy (2026): ten public grandes écoles at €170 a year",
-    metaTitle: "Studying in Nancy 2026: Universities, Housing, Real Cost",
+    title: "Studying in Nancy (2027): ten public grandes écoles at €170 a year",
+    metaTitle: "Studying in Nancy 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Université de Lorraine, Mines Nancy, ARTEM and Sciences Po Nancy. Studios at €380-500, the Luxembourg border mirage, and what foreign students can claim.",
     category: "lifestyle",
@@ -25591,8 +25591,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-dijon-2026",
-    title: "Studying in Dijon (2026): one campus, a triple-crown school and cheap rent",
-    metaTitle: "Studying in Dijon 2026: Universities, Housing, Real Cost",
+    title: "Studying in Dijon (2027): one campus, a triple-crown school and cheap rent",
+    metaTitle: "Studying in Dijon 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Université de Bourgogne, BSB, Sciences Po Dijon and Institut Agro. Studios at €400-520, the vendanges job clash, and what foreign students can claim.",
     category: "lifestyle",
@@ -25640,8 +25640,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-angers-2026",
-    title: "Studying in Angers (2026): 43,000 students in the greenest city in France",
-    metaTitle: "Studying in Angers 2026: Universities, Housing, Real Cost",
+    title: "Studying in Angers (2027): 43,000 students in the greenest city in France",
+    metaTitle: "Studying in Angers 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Université d'Angers, UCO, ESSCA and ESA. Rooms in a flatshare at €350-450, the public-versus-private fee gap, and what foreign students can claim.",
     category: "lifestyle",
@@ -25689,8 +25689,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-caen-2026",
-    title: "Studying in Caen (2026): 30,000 students, the sea, and a ferry to England",
-    metaTitle: "Studying in Caen 2026: Universities, Housing, Real Cost",
+    title: "Studying in Caen (2027): 30,000 students, the sea, and a ferry to England",
+    metaTitle: "Studying in Caen 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Université de Caen Normandie, ENSICAEN and the GANIL accelerator. Studios at €470-510, the sea 15 km away, and what foreign students can claim.",
     category: "lifestyle",
@@ -25738,8 +25738,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-tours-2026",
-    title: "Studying in Tours (2026): the Loire, the Renaissance, and Paris in 66 minutes",
-    metaTitle: "Studying in Tours 2026: Universities, Housing, Real Cost",
+    title: "Studying in Tours (2027): the Loire, the Renaissance, and Paris in 66 minutes",
+    metaTitle: "Studying in Tours 2027: Universities, Housing, Real Cost",
     metaDesc:
       "Université de Tours, the Renaissance studies centre and Polytech. Studios at €480-540, Paris 1h06 away, and what a foreign student can claim.",
     category: "lifestyle",
@@ -25787,8 +25787,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-poitiers-2026",
-    title: "Studying in Poitiers (2026): the cheapest real university town in France",
-    metaTitle: "Studying in Poitiers 2026: Cost, Housing, Universities",
+    title: "Studying in Poitiers (2027): the cheapest real university town in France",
+    metaTitle: "Studying in Poitiers 2027: Cost, Housing, Universities",
     metaDesc:
       "One resident in three is a student. Studios at €400-480, a monthly budget from €620, a university founded in 1431, and what foreign students can claim.",
     category: "lifestyle",
@@ -25836,8 +25836,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-amiens-2026",
-    title: "Studying in Amiens (2026): Paris in 65 minutes, at Picardy prices",
-    metaTitle: "Studying in Amiens 2026: Universities, Housing, Real Cost",
+    title: "Studying in Amiens (2027): Paris in 65 minutes, at Picardy prices",
+    metaTitle: "Studying in Amiens 2027: Universities, Housing, Real Cost",
     metaDesc:
       "30,000 students, canal-side Saint-Leu, studios at €470-510 and Paris 1h05 away. What a foreign student can claim, and the honest weak points.",
     category: "lifestyle",
@@ -25885,8 +25885,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-besancon-2026",
-    title: "Studying in Besançon (2026): the city built for foreign students",
-    metaTitle: "Studying in Besançon 2026: Universities, Housing, Cost",
+    title: "Studying in Besançon (2027): the city built for foreign students",
+    metaTitle: "Studying in Besançon 2027: Universities, Housing, Cost",
     metaDesc:
       "France's capital for teaching French as a foreign language, plus microtechnology and the Swiss border an hour away. Rooms from €320, and what you can claim.",
     category: "lifestyle",
@@ -25934,8 +25934,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-limoges-2026",
-    title: "Studying in Limoges (2026): a French degree without the debt",
-    metaTitle: "Studying in Limoges 2026: Universities, Housing, Real Cost",
+    title: "Studying in Limoges (2027): a French degree without the debt",
+    metaTitle: "Studying in Limoges 2027: Universities, Housing, Real Cost",
     metaDesc:
       "The lowest student budget in France: rooms at €280-380, €600-840 a month all in, a full university and a leading materials lab. What you can claim.",
     category: "lifestyle",
@@ -25983,8 +25983,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "studying-in-rouen-2026",
-    title: "Studying in Rouen (2026): a young city, provincial rents, Paris in 75 minutes",
-    metaTitle: "Studying in Rouen 2026: Campuses, Housing, Real Cost",
+    title: "Studying in Rouen (2027): a young city, provincial rents, Paris in 75 minutes",
+    metaTitle: "Studying in Rouen 2027: Campuses, Housing, Real Cost",
     metaDesc:
       "A third of Rouen is aged 15-29. Studios around €520, an all-in budget near €910, a split campus map, and what a foreign student can actually claim.",
     category: "lifestyle",
@@ -26025,8 +26025,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-reims-2026",
-    title: "Studying in Reims (2026): 45 minutes from Paris at half the price",
-    metaTitle: "Studying in Reims 2026: Sciences Po, NEOMA, Real Cost",
+    title: "Studying in Reims (2027): 45 minutes from Paris at half the price",
+    metaTitle: "Studying in Reims 2027: Sciences Po, NEOMA, Real Cost",
     metaDesc:
       "Paris is 45 minutes away by TGV. Studios around €490, a budget near €860, Sciences Po's Reims campus, and what a foreign student can actually claim.",
     category: "lifestyle",
@@ -26067,8 +26067,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-brest-2026",
-    title: "Studying in Brest (2026): France's marine-science city on a student budget",
-    metaTitle: "Studying in Brest 2026: Marine Science, Housing, Cost",
+    title: "Studying in Brest (2027): France's marine-science city on a student budget",
+    metaTitle: "Studying in Brest 2027: Marine Science, Housing, Cost",
     metaDesc:
       "Joint 6th in France's 2026 student-city ranking. Studios around €480, a budget near €850, ocean sciences, a tram and a cable car. The honest guide.",
     category: "lifestyle",
@@ -26109,8 +26109,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-orleans-2026",
-    title: "Studying in Orléans (2026): an hour from Paris, with one big catch",
-    metaTitle: "Studying in Orléans 2026: La Source Campus, Real Cost",
+    title: "Studying in Orléans (2027): an hour from Paris, with one big catch",
+    metaTitle: "Studying in Orléans 2027: La Source Campus, Real Cost",
     metaDesc:
       "Studios around €510, Paris an hour by train, and a main campus 25 minutes from the centre by tram. Budget, housing and what foreign students can claim.",
     category: "lifestyle",
@@ -26151,8 +26151,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-metz-2026",
-    title: "Studying in Metz (2026): a riverside campus and Luxembourg on the doorstep",
-    metaTitle: "Studying in Metz 2026: Campuses, Housing, Luxembourg",
+    title: "Studying in Metz (2027): a riverside campus and Luxembourg on the doorstep",
+    metaTitle: "Studying in Metz 2027: Campuses, Housing, Luxembourg",
     metaDesc:
       "Studios around €500, a campus on an island in the Moselle, Georgia Tech Europe, and Luxembourg under an hour away. Budget, housing and what you can claim.",
     category: "lifestyle",
@@ -26193,8 +26193,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-saint-etienne-2026",
-    title: "Studying in Saint-Étienne (2026): low rents with Lyon 50 minutes away",
-    metaTitle: "Studying in Saint-Étienne 2026: Mines, Design, Low Cost",
+    title: "Studying in Saint-Étienne (2027): low rents with Lyon 50 minutes away",
+    metaTitle: "Studying in Saint-Étienne 2027: Mines, Design, Low Cost",
     metaDesc:
       "Studios around €420, among the lowest in our series, Lyon about 50 minutes away, Mines Saint-Étienne and UNESCO design city status. Budget, housing, traps.",
     category: "lifestyle",
@@ -26235,8 +26235,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-le-mans-2026",
-    title: "Studying in Le Mans (2026): acoustics, a compact campus, Paris in under an hour",
-    metaTitle: "Studying in Le Mans 2026: Acoustics, Housing, Real Cost",
+    title: "Studying in Le Mans (2027): acoustics, a compact campus, Paris in under an hour",
+    metaTitle: "Studying in Le Mans 2027: Acoustics, Housing, Real Cost",
     metaDesc:
       "Studios around €470, Paris under an hour by TGV, a world-class acoustics lab and a tram to campus. Who Le Mans suits, what it costs, what you can claim.",
     category: "lifestyle",
@@ -26277,8 +26277,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-perpignan-2026",
-    title: "Studying in Perpignan (2026): sun, sea and Spain, with eyes open",
-    metaTitle: "Studying in Perpignan 2026: UPVD, Housing, Real Cost",
+    title: "Studying in Perpignan (2027): sun, sea and Spain, with eyes open",
+    metaTitle: "Studying in Perpignan 2027: UPVD, Housing, Real Cost",
     metaDesc:
       "2,750 hours of sun, the sea 15 km away, Barcelona by train and studios around €470. The budget, the campus and the social figures you should know.",
     category: "lifestyle",
@@ -26319,8 +26319,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-pau-2026",
-    title: "Studying in Pau (2026): the Pyrenees at an hour, the Atlantic just beyond",
-    metaTitle: "Studying in Pau 2026: UPPA, Mountains, Real Cost",
+    title: "Studying in Pau (2027): the Pyrenees at an hour, the Atlantic just beyond",
+    metaTitle: "Studying in Pau 2027: UPPA, Mountains, Real Cost",
     metaDesc:
       "Studios around €490, a budget near €850, skiing an hour away and the Basque coast a little further. What studying at UPPA costs and what you can claim.",
     category: "lifestyle",
@@ -26361,8 +26361,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-la-rochelle-2026",
-    title: "Studying in La Rochelle (2026): a seafront campus and a holiday-town rent",
-    metaTitle: "Studying in La Rochelle 2026: Campus, Housing, Cost",
+    title: "Studying in La Rochelle (2027): a seafront campus and a holiday-town rent",
+    metaTitle: "Studying in La Rochelle 2027: Campus, Housing, Cost",
     metaDesc:
       "A campus facing the ocean, studios around €600 because students share the market with holidaymakers, and a budget near €960. The honest guide.",
     category: "lifestyle",
@@ -26403,8 +26403,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-toulon-2026",
-    title: "Studying in Toulon (2026): a Mediterranean harbour at a lower rent than Nice",
-    metaTitle: "Studying in Toulon 2026: La Garde Campus, Housing, Cost",
+    title: "Studying in Toulon (2027): a Mediterranean harbour at a lower rent than Nice",
+    metaTitle: "Studying in Toulon 2027: La Garde Campus, Housing, Cost",
     metaDesc:
       "Studios around €560, well below Nice or Aix, a campus at La Garde, water buses across the harbour, and a defence and maritime job market. The honest guide.",
     category: "lifestyle",
@@ -26445,8 +26445,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-avignon-2026",
-    title: "Studying in Avignon (2026): a campus inside the ramparts and a July like no other",
-    metaTitle: "Studying in Avignon 2026: Campus, Festival, Real Cost",
+    title: "Studying in Avignon (2027): a campus inside the ramparts and a July like no other",
+    metaTitle: "Studying in Avignon 2027: Campus, Festival, Real Cost",
     metaDesc:
       "A campus inside the city walls, studios around €540, a budget near €910, and the Festival every July. Culture, housing and what a foreign student can claim.",
     category: "lifestyle",
@@ -26487,8 +26487,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-chambery-2026",
-    title: "Studying in Chambéry (2026): a mountain campus with an Alpine rent",
-    metaTitle: "Studying in Chambéry 2026: Savoie Mont Blanc, Cost",
+    title: "Studying in Chambéry (2027): a mountain campus with an Alpine rent",
+    metaTitle: "Studying in Chambéry 2027: Savoie Mont Blanc, Cost",
     metaDesc:
       "Université Savoie Mont Blanc, studios around €590, Lac du Bourget and the ski resorts on the doorstep. What it costs, where to live, what you can claim.",
     category: "lifestyle",
@@ -26529,8 +26529,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-valenciennes-2026",
-    title: "Studying in Valenciennes (2026): the lowest rent in our series, a top-tier score",
-    metaTitle: "Studying in Valenciennes 2026: UPHF, Rubika, Low Cost",
+    title: "Studying in Valenciennes (2027): the lowest rent in our series, a top-tier score",
+    metaTitle: "Studying in Valenciennes 2027: UPHF, Rubika, Low Cost",
     metaDesc:
       "Studios around €360, the lowest in our series, a 7.1/10 student-life score, INSA and the Rubika animation school, Lille 40 minutes away. The honest guide.",
     category: "lifestyle",
@@ -26571,8 +26571,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-mulhouse-2026",
-    title: "Studying in Mulhouse (2026): three countries, low rents and a tri-national university network",
-    metaTitle: "Studying in Mulhouse 2026: UHA, Basel, Real Cost",
+    title: "Studying in Mulhouse (2027): three countries, low rents and a tri-national university network",
+    metaTitle: "Studying in Mulhouse 2027: UHA, Basel, Real Cost",
     metaDesc:
       "Studios around €420, Basel 20 minutes away, chemistry and textile engineering, and the Eucor network. The budget, the border and the figures to know.",
     category: "lifestyle",
@@ -26613,8 +26613,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-le-havre-2026",
-    title: "Studying in Le Havre (2026): a city-centre campus with the beach down the road",
-    metaTitle: "Studying in Le Havre 2026: Sciences Po, Housing, Cost",
+    title: "Studying in Le Havre (2027): a city-centre campus with the beach down the road",
+    metaTitle: "Studying in Le Havre 2027: Sciences Po, Housing, Cost",
     metaDesc:
       "Studios around €470, a campus in the centre, Sciences Po's Asia campus, the merchant-navy school and a beach in town. Budget, housing, what you can claim.",
     category: "lifestyle",
@@ -26655,8 +26655,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-nimes-2026",
-    title: "Studying in Nîmes (2026): Roman monuments, a small university, Montpellier at 30 minutes",
-    metaTitle: "Studying in Nîmes 2026: Campus, Housing, Real Cost",
+    title: "Studying in Nîmes (2027): Roman monuments, a small university, Montpellier at 30 minutes",
+    metaTitle: "Studying in Nîmes 2027: Campus, Housing, Real Cost",
     metaDesc:
       "Studios around €520, campuses in the town centre including a Vauban citadel, Montpellier 30 minutes away. The budget, the flood risk and what you can claim.",
     category: "lifestyle",
@@ -26697,8 +26697,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-annecy-2026",
-    title: "Studying in Annecy (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Annecy 2026: Housing, Budget, Campus",
+    title: "Studying in Annecy (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Annecy 2027: Housing, Budget, Campus",
     metaDesc:
       "Studios at €750 on our estimate, the Annecy-le-Vieux campus, €160 more than Chambéry. Budget, housing and what international students can claim.",
     category: "lifestyle",
@@ -26739,8 +26739,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-vannes-2026",
-    title: "Studying in Vannes (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Vannes 2026: Housing, Budget, Campus",
+    title: "Studying in Vannes (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Vannes 2027: Housing, Budget, Campus",
     metaDesc:
       "A studio at €620 on our estimate, dearer than Rennes. The Tohannic campus, the ENSIBS engineering school and the Gulf of Morbihan: what it really costs.",
     category: "lifestyle",
@@ -26781,8 +26781,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-lorient-2026",
-    title: "Studying in Lorient (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Lorient 2026: Housing, Budget, Campus",
+    title: "Studying in Lorient (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Lorient 2027: Housing, Budget, Campus",
     metaDesc:
       "A studio at €500 on our estimate, Université Bretagne Sud, the IUT and ENSIBS, a fishing port and sailing. The cheapest half of the university, honestly.",
     category: "lifestyle",
@@ -26823,8 +26823,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-quimper-2026",
-    title: "Studying in Quimper (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Quimper 2026: Housing, Budget, Campus",
+    title: "Studying in Quimper (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Quimper 2027: Housing, Budget, Campus",
     metaDesc:
       "A studio at €510 on our estimate, the Pierre-Jakez Hélias campus, the IUT and 2,824 UBO students. A calm Breton town, with the numbers.",
     category: "lifestyle",
@@ -26865,8 +26865,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-troyes-2026",
-    title: "Studying in Troyes (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Troyes 2026: UTT, Housing, Budget",
+    title: "Studying in Troyes (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Troyes 2027: UTT, Housing, Budget",
     metaDesc:
       "A studio at €470 on our estimate, the UTT technology university and the IUT, 24.6% of residents aged 15-29, but a 30% poverty rate. The honest guide.",
     category: "lifestyle",
@@ -26907,8 +26907,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-la-roche-sur-yon-2026",
-    title: "Studying in La Roche-sur-Yon (2026): housing, budget and campus",
-    metaTitle: "Studying in La Roche-sur-Yon 2026: Housing, Campus",
+    title: "Studying in La Roche-sur-Yon (2027): housing, budget and campus",
+    metaTitle: "Studying in La Roche-sur-Yon 2027: Housing, Campus",
     metaDesc:
       "A studio at €440 on our estimate, the Nantes Université campus at La Courtaisière, budget and limits. The cheapest studio of this batch.",
     category: "lifestyle",
@@ -26949,8 +26949,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-niort-2026",
-    title: "Studying in Niort (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Niort 2026: Housing, Budget, Campus",
+    title: "Studying in Niort (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Niort 2027: Housing, Budget, Campus",
     metaDesc:
       "A studio at €460 on our estimate, a University of Poitiers pole, the IUT and an insurance track tied to the mutual insurers. The honest guide.",
     category: "lifestyle",
@@ -26991,8 +26991,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-cergy-2026",
-    title: "Studying in Cergy (2026): housing, budget and campus, the honest guide",
-    metaTitle: "Studying in Cergy 2026: Housing, Budget, CY Cergy Paris",
+    title: "Studying in Cergy (2027): housing, budget and campus, the honest guide",
+    metaTitle: "Studying in Cergy 2027: Housing, Budget, CY Cergy Paris",
     metaDesc:
       "A studio at €600 on our estimate, CY Cergy Paris University, the ESSEC campus and the RER A to Paris. The honest, figure-by-figure guide.",
     category: "lifestyle",
@@ -27033,8 +27033,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-evry-courcouronnes-2026",
-    title: "Studying in Évry-Courcouronnes (2026): housing, budget and campus",
-    metaTitle: "Studying in Évry-Courcouronnes 2026: Housing, Budget",
+    title: "Studying in Évry-Courcouronnes (2027): housing, budget and campus",
+    metaTitle: "Studying in Évry-Courcouronnes 2027: Housing, Budget",
     metaDesc:
       "A studio at €600 on our estimate, the University of Évry Paris-Saclay and about 11,000 students. The honest, figure-by-figure student guide.",
     category: "lifestyle",
@@ -27075,8 +27075,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-compiegne-2026",
-    title: "Studying in Compiègne (2026): UTC, housing and budget, the honest guide",
-    metaTitle: "Studying in Compiègne 2026: UTC, Housing, Budget",
+    title: "Studying in Compiègne (2027): UTC, housing and budget, the honest guide",
+    metaTitle: "Studying in Compiègne 2027: UTC, Housing, Budget",
     metaDesc:
       "A studio at €530 on our estimate, the University of Technology (UTC) and a direct train to Paris. The honest, figure-by-figure student guide.",
     category: "lifestyle",
@@ -27117,8 +27117,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-albi-2026",
-    title: "Studying in Albi (2026): Mines, Champollion, housing and budget",
-    metaTitle: "Studying in Albi 2026: Mines, Champollion, Budget",
+    title: "Studying in Albi (2027): Mines, Champollion, housing and budget",
+    metaTitle: "Studying in Albi 2027: Mines, Champollion, Budget",
     metaDesc:
       "A studio at €450 on our estimate, IMT Mines Albi and the Champollion university institute, with Toulouse as the benchmark. The honest guide.",
     category: "lifestyle",
@@ -27159,8 +27159,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-angouleme-2026",
-    title: "Studying in Angoulême (2026): image, comics, housing and budget",
-    metaTitle: "Studying in Angoulême 2026: Image Campus, Budget",
+    title: "Studying in Angoulême (2027): image, comics, housing and budget",
+    metaTitle: "Studying in Angoulême 2027: Image Campus, Budget",
     metaDesc:
       "A studio at €450 on our estimate, the image campus, the European art school (EESI) and an IUT. The honest, figure-by-figure student guide.",
     category: "lifestyle",
@@ -27201,8 +27201,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-bayonne-2026",
-    title: "Studying in Bayonne (2026): IUT, housing and budget, the honest guide",
-    metaTitle: "Studying in Bayonne 2026: IUT, Housing, Budget",
+    title: "Studying in Bayonne (2027): IUT, housing and budget, the honest guide",
+    metaTitle: "Studying in Bayonne 2027: IUT, Housing, Budget",
     metaDesc:
       "A studio at €660 on our estimate, the Bayonne and Basque Country IUT, the UPPA and Anglet. The honest, figure-by-figure guide, with Pau as the benchmark.",
     category: "lifestyle",
@@ -27243,8 +27243,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-saint-brieuc-2026",
-    title: "Studying in Saint-Brieuc (2026): IUT, housing and budget, the honest guide",
-    metaTitle: "Studying in Saint-Brieuc 2026: IUT, Housing, Budget",
+    title: "Studying in Saint-Brieuc (2027): IUT, housing and budget, the honest guide",
+    metaTitle: "Studying in Saint-Brieuc 2027: IUT, Housing, Budget",
     metaDesc:
       "A studio at €420 on our estimate, the IUT and the Rennes 1 and Rennes 2 branches at the Mazier campus. The figure-by-figure guide, with Lorient as the benchmark.",
     category: "lifestyle",
@@ -27285,8 +27285,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-arras-2026",
-    title: "Studying in Arras (2026): Université d'Artois, housing and budget",
-    metaTitle: "Studying in Arras 2026: Université d'Artois, Budget",
+    title: "Studying in Arras (2027): Université d'Artois, housing and budget",
+    metaTitle: "Studying in Arras 2027: Université d'Artois, Budget",
     metaDesc:
       "A studio at €390 on our estimate, the seat of the Université d'Artois, arts, languages and law. The figure-by-figure guide, with Lens and Lille.",
     category: "lifestyle",
@@ -27327,8 +27327,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-belfort-2026",
-    title: "Studying in Belfort (2026): UTBM, housing and budget, the honest guide",
-    metaTitle: "Studying in Belfort 2026: UTBM, Housing, Budget",
+    title: "Studying in Belfort (2027): UTBM, housing and budget, the honest guide",
+    metaTitle: "Studying in Belfort 2027: UTBM, Housing, Budget",
     metaDesc:
       "A studio at €380 on our estimate, the UTBM engineering university on its Belfort and Sevenans sites. The figure-by-figure guide, with Besançon and Mulhouse.",
     category: "lifestyle",
@@ -27369,8 +27369,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-saint-quentin-2026",
-    title: "Studying in Saint-Quentin (2026): IUT de l'Aisne and budget",
-    metaTitle: "Studying in Saint-Quentin 2026: IUT, Housing, Budget",
+    title: "Studying in Saint-Quentin (2027): IUT de l'Aisne and budget",
+    metaTitle: "Studying in Saint-Quentin 2027: IUT, Housing, Budget",
     metaDesc:
       "A studio at €350 on our estimate, the Aisne IUT and the INSSET engineering school (UPJV). The figure-by-figure guide, with Amiens and Compiègne.",
     category: "lifestyle",
@@ -27411,8 +27411,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-dunkerque-2026",
-    title: "Studying in Dunkirk (2026): ULCO, housing and budget, the honest guide",
-    metaTitle: "Studying in Dunkirk 2026: ULCO, Housing, Budget",
+    title: "Studying in Dunkirk (2027): ULCO, housing and budget, the honest guide",
+    metaTitle: "Studying in Dunkirk 2027: ULCO, Housing, Budget",
     metaDesc:
       "A studio at €400 on our estimate, the Université du Littoral Côte d'Opale and its IUT. The figure-by-figure guide, with Lille and Calais as benchmarks.",
     category: "lifestyle",
@@ -27453,8 +27453,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-valence-2026",
-    title: "Studying in Valence (2026): Briffaut campus, IUT and budget",
-    metaTitle: "Studying in Valence 2026: Briffaut Campus, Budget",
+    title: "Studying in Valence (2027): Briffaut campus, IUT and budget",
+    metaTitle: "Studying in Valence 2027: Briffaut Campus, Budget",
     metaDesc:
       "A studio at €490 on our estimate, the UGA Briffaut campus, the IUT and ESISAR. The figure-by-figure guide, with Grenoble and Avignon as benchmarks.",
     category: "lifestyle",
@@ -27495,8 +27495,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-villeurbanne-2026",
-    title: "Studying in Villeurbanne (2026): La Doua campus, INSA, budget",
-    metaTitle: "Studying in Villeurbanne 2026: La Doua, INSA, Budget",
+    title: "Studying in Villeurbanne (2027): La Doua campus, INSA, budget",
+    metaTitle: "Studying in Villeurbanne 2027: La Doua, INSA, Budget",
     metaDesc:
       "A studio at €600 on our estimate, the La Doua campus, tram T1 and T4. The figure-by-figure guide, with Lyon and Grenoble as benchmarks.",
     category: "lifestyle",
@@ -27537,8 +27537,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-versailles-2026",
-    title: "Studying in Versailles (2026): architecture, landscape, rents",
-    metaTitle: "Studying in Versailles 2026: Schools, Rents, Budget",
+    title: "Studying in Versailles (2027): architecture, landscape, rents",
+    metaTitle: "Studying in Versailles 2027: Schools, Rents, Budget",
     metaDesc:
       "A studio at €800 on our estimate, the architecture and landscape schools. The figure-by-figure guide, with Paris and Cergy as benchmarks.",
     category: "lifestyle",
@@ -27579,8 +27579,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-creteil-2026",
-    title: "Studying in Créteil (2026): UPEC, metro line 8, budget",
-    metaTitle: "Studying in Créteil 2026: UPEC, Metro 8, Budget",
+    title: "Studying in Créteil (2027): UPEC, metro line 8, budget",
+    metaTitle: "Studying in Créteil 2027: UPEC, Metro 8, Budget",
     metaDesc:
       "A studio at €650 on our estimate, Paris-Est Créteil University and metro line 8. The figure-by-figure guide, with Paris and Nanterre.",
     category: "lifestyle",
@@ -27621,8 +27621,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-nanterre-2026",
-    title: "Studying in Nanterre (2026): university, RER A, rents, budget",
-    metaTitle: "Studying in Nanterre 2026: University, RER A, Budget",
+    title: "Studying in Nanterre (2027): university, RER A, rents, budget",
+    metaTitle: "Studying in Nanterre 2027: University, RER A, Budget",
     metaDesc:
       "A studio at €720 on our estimate, Paris Nanterre University and the RER A. The figure-by-figure guide, with Paris and Créteil.",
     category: "lifestyle",
@@ -27663,8 +27663,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-montreuil-2026",
-    title: "Living in Montreuil while studying in Paris: rents, budget 2026",
-    metaTitle: "Studying in Montreuil 2026: Rents, Metro, Budget",
+    title: "Living in Montreuil while studying in Paris: rents, budget 2027",
+    metaTitle: "Studying in Montreuil 2027: Rents, Metro, Budget",
     metaDesc:
       "A studio at €700 on our estimate, €500 less than Paris, metro lines 9 and 11. The figure-by-figure guide, with Paris and Saint-Denis.",
     category: "lifestyle",
@@ -27705,8 +27705,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-beauvais-2026",
-    title: "Studying in Beauvais (2026): UniLaSalle, IUT, budget",
-    metaTitle: "Studying in Beauvais 2026: UniLaSalle, IUT, Budget",
+    title: "Studying in Beauvais (2027): UniLaSalle, IUT, budget",
+    metaTitle: "Studying in Beauvais 2027: UniLaSalle, IUT, Budget",
     metaDesc:
       "A studio at €470 on our estimate, UniLaSalle and the Oise IUT. The figure-by-figure guide, with Amiens and Compiègne as benchmarks.",
     category: "lifestyle",
@@ -27747,8 +27747,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-roubaix-2026",
-    title: "Studying in Roubaix (2026): IUT, ESMOD, €380 studio",
-    metaTitle: "Studying in Roubaix 2026: €380 Studio, IUT, Budget",
+    title: "Studying in Roubaix (2027): IUT, ESMOD, €380 studio",
+    metaTitle: "Studying in Roubaix 2027: €380 Studio, IUT, Budget",
     metaDesc:
       "A studio at €380 on our estimate, IUT de Lille, ESMOD and ENSAIT. The figure-by-figure student guide, with Tourcoing and Lille as benchmarks.",
     category: "lifestyle",
@@ -27789,8 +27789,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-tourcoing-2026",
-    title: "Studying in Tourcoing (2026): IUT de Lille, rent, budget",
-    metaTitle: "Studying in Tourcoing 2026: IUT, Rent, Monthly Budget",
+    title: "Studying in Tourcoing (2027): IUT de Lille, rent, budget",
+    metaTitle: "Studying in Tourcoing 2027: IUT, Rent, Monthly Budget",
     metaDesc:
       "A studio at €400 on our estimate, IUT de Lille on rue Sainte-Barbe. The student budget in figures, against Roubaix and Lille.",
     category: "lifestyle",
@@ -27831,8 +27831,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-cherbourg-2026",
-    title: "Studying in Cherbourg (2026): IUT, ESIX, rent, budget",
-    metaTitle: "Studying in Cherbourg 2026: IUT, ESIX, Budget",
+    title: "Studying in Cherbourg (2027): IUT, ESIX, rent, budget",
+    metaTitle: "Studying in Cherbourg 2027: IUT, ESIX, Budget",
     metaDesc:
       "A studio at €450 on our estimate, an IUT and the ESIX engineering school. The student guide in figures, with Caen as the benchmark.",
     category: "lifestyle",
@@ -27873,8 +27873,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-beziers-2026",
-    title: "Studying in Béziers (2026): IUT, university outpost, budget",
-    metaTitle: "Studying in Béziers 2026: IUT, €380 Studio, Budget",
+    title: "Studying in Béziers (2027): IUT, university outpost, budget",
+    metaTitle: "Studying in Béziers 2027: IUT, €380 Studio, Budget",
     metaDesc:
       "A studio at €380 on our estimate, an IUT and a university outpost. The student guide in figures, with Montpellier and Narbonne as benchmarks.",
     category: "lifestyle",
@@ -27915,8 +27915,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-nevers-2026",
-    title: "Studying in Nevers (2026): ISAT, IUT, rent, budget",
-    metaTitle: "Studying in Nevers 2026: ISAT, IUT, Monthly Budget",
+    title: "Studying in Nevers (2027): ISAT, IUT, rent, budget",
+    metaTitle: "Studying in Nevers 2027: ISAT, IUT, Monthly Budget",
     metaDesc:
       "A studio at €390 on our estimate, the ISAT engineering school and an IUT. The student guide in figures, with Bourges and Auxerre.",
     category: "lifestyle",
@@ -27957,8 +27957,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "studying-in-chalons-en-champagne-2026",
-    title: "Studying in Châlons-en-Champagne (2026): Arts et Métiers, IUT",
-    metaTitle: "Studying in Châlons-en-Champagne 2026: Budget, Schools",
+    title: "Studying in Châlons-en-Champagne (2027): Arts et Métiers, IUT",
+    metaTitle: "Studying in Châlons-en-Champagne 2027: Budget, Schools",
     metaDesc:
       "A studio at €390, Arts et Métiers and the IUT Reims-Châlons-Charleville. The student budget in figures, with Reims and Troyes.",
     category: "lifestyle",
@@ -28000,7 +28000,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-paris-2026",
     title: "Solo travel in Paris: where to stay, where to drink, when to go",
-    metaTitle: "Solo Travel in Paris 2026: Where to Stay, Going Out Alone",
+    metaTitle: "Solo Travel in Paris 2027: Where to Stay, Going Out Alone",
     metaDesc:
       "Paris on your own: neighbourhoods that are alive on a Tuesday, business hotels to dodge the single supplement, and getting home after the last metro.",
     category: "lifestyle",
@@ -28050,7 +28050,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-lyon-2026",
     title: "Solo travel in Lyon: bouchons, quays and a city that runs midweek",
-    metaTitle: "Solo Travel in Lyon 2026: Bouchons, Bars, Where to Stay",
+    metaTitle: "Solo Travel in Lyon 2027: Bouchons, Bars, Where to Stay",
     metaDesc:
       "Lyon on your own: eating at the counter in a bouchon, which quarter to sleep in, night trams and buses, and dodging the single supplement.",
     category: "lifestyle",
@@ -28100,7 +28100,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-bordeaux-2026",
     title: "Solo travel in Bordeaux: wine counters, quarters and no car",
-    metaTitle: "Solo Travel in Bordeaux 2026: Wine Bars, Where to Stay",
+    metaTitle: "Solo Travel in Bordeaux 2027: Wine Bars, Where to Stay",
     metaDesc:
       "Bordeaux on your own: wine bars where you drink at the counter, which quarter to sleep in, trams until 1am, and how to soften the single supplement.",
     category: "lifestyle",
@@ -28150,7 +28150,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-lille-2026",
     title: "Solo travel in Lille: estaminets, Eurostar and the easiest counter in France",
-    metaTitle: "Solo Travel in Lille 2026: Estaminets, Where to Stay",
+    metaTitle: "Solo Travel in Lille 2027: Estaminets, Where to Stay",
     metaDesc:
       "Lille on your own: 80 minutes from London, estaminets where eating alone is normal, driverless metro past midnight, and a mild single supplement.",
     category: "lifestyle",
@@ -28200,7 +28200,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-strasbourg-2026",
     title: "Solo travel in Strasbourg: winstubs, trams and Germany by bike",
-    metaTitle: "Solo Travel in Strasbourg 2026: Winstubs, Where to Stay",
+    metaTitle: "Solo Travel in Strasbourg 2027: Winstubs, Where to Stay",
     metaDesc:
       "Strasbourg on your own: shared tables in a winstub, which quarter to sleep in, trams until half past midnight, and Germany ten minutes away by bike.",
     category: "lifestyle",
@@ -28250,7 +28250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-toulouse-2026",
     title: "Solo travel in Toulouse: Carmes, rugby Saturdays and a long terrace season",
-    metaTitle: "Solo Travel in Toulouse 2026: Carmes, Bars, Where to Stay",
+    metaTitle: "Solo Travel in Toulouse 2027: Carmes, Bars, Where to Stay",
     metaDesc:
       "Toulouse on your own: wine bars in the Carmes, rugby nights where strangers talk, metro to midnight, and a single supplement softened by student studios.",
     category: "lifestyle",
@@ -28300,7 +28300,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-montpellier-2026",
     title: "Solo travel in Montpellier: the Écusson, long terraces and no car",
-    metaTitle: "Solo Travel in Montpellier 2026: Écusson, Where to Stay",
+    metaTitle: "Solo Travel in Montpellier 2027: Écusson, Where to Stay",
     metaDesc:
       "Montpellier on your own: a medieval centre you cross in twenty minutes, terraces open from March to November, late trams, and a mild single supplement.",
     category: "lifestyle",
@@ -28350,7 +28350,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-nantes-2026",
     title: "Solo travel in Nantes: Bouffay, the Île de Nantes and a midweek scene",
-    metaTitle: "Solo Travel in Nantes 2026: Bouffay, Bars, Where to Stay",
+    metaTitle: "Solo Travel in Nantes 2027: Bouffay, Bars, Where to Stay",
     metaDesc:
       "Nantes on your own: a pedestrian centre where the bars run midweek, trams past midnight, the ocean forty minutes away, and a soft single supplement.",
     category: "lifestyle",
@@ -28399,7 +28399,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-rennes-2026",
     title: "Solo travel in Rennes: a student city that still goes out on a Tuesday",
-    metaTitle: "Solo Travel in Rennes 2026: Where to Stay, Going Out",
+    metaTitle: "Solo Travel in Rennes 2027: Where to Stay, Going Out",
     metaDesc:
       "Rennes on your own: a compact medieval centre, 60,000 students who go out midweek, a metro running past midnight, and a mild single supplement.",
     category: "lifestyle",
@@ -28448,7 +28448,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-bayonne-2026",
     title: "Solo travel in Bayonne: pintxos, Petit Bayonne and a counter you can walk into",
-    metaTitle: "Solo Travel in Bayonne 2026: Pintxos, Where to Stay",
+    metaTitle: "Solo Travel in Bayonne 2027: Pintxos, Where to Stay",
     metaDesc:
       "Bayonne on your own: Basque pintxo bars where eating alone is normal, a walkable old town, direct TGV from Paris, and a gentle single supplement.",
     category: "lifestyle",
@@ -28497,7 +28497,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-aix-en-provence-2026",
     title: "Solo travel in Aix-en-Provence: a postcard town that is also a student town",
-    metaTitle: "Solo Travel in Aix-en-Provence 2026: Stay, Go Out",
+    metaTitle: "Solo Travel in Aix-en-Provence 2027: Stay, Go Out",
     metaDesc:
       "Aix alone: 40,000 students keep the old town alive midweek all year, the Cours Mirabeau is walkable, and the single supplement needs planning for.",
     category: "lifestyle",
@@ -28546,7 +28546,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-angers-2026",
     title: "Solo travel in Angers: the most underrated small city in France for going out alone",
-    metaTitle: "Solo Travel in Angers 2026: Where to Stay, Going Out",
+    metaTitle: "Solo Travel in Angers 2027: Where to Stay, Going Out",
     metaDesc:
       "Angers alone: 40,000 students, Le Chabada for gigs, 90 minutes from Paris, a recent tramway, and one of the mildest single supplements in France.",
     category: "lifestyle",
@@ -28595,7 +28595,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-grenoble-2026",
     title: "Solo travel in Grenoble: a big student city with mountains at the end of the tram line",
-    metaTitle: "Solo Travel in Grenoble 2026: Berriat, Stay, Go Out",
+    metaTitle: "Solo Travel in Grenoble 2027: Berriat, Stay, Go Out",
     metaDesc:
       "Grenoble alone: 60,000 students, five tram lines running past midnight, the Bastille cable car, and one of the mildest single supplements in France.",
     category: "lifestyle",
@@ -28644,7 +28644,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-dijon-2026",
     title: "Solo travel in Dijon: a UNESCO centre you can cross on foot, and wine bars that take one",
-    metaTitle: "Solo Travel in Dijon 2026: Wine Bars, Where to Stay",
+    metaTitle: "Solo Travel in Dijon 2027: Wine Bars, Where to Stay",
     metaDesc:
       "Dijon alone: a pedestrian UNESCO centre, Burgundy wine bars where drinking at the counter is normal, 90 minutes from Paris, and a manageable single supplement.",
     category: "lifestyle",
@@ -28693,7 +28693,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-la-rochelle-2026",
     title: "Solo travel in La Rochelle: the one French port town that still works off-season",
-    metaTitle: "Solo Travel in La Rochelle 2026: Stay, Go Out",
+    metaTitle: "Solo Travel in La Rochelle 2027: Stay, Go Out",
     metaDesc:
       "La Rochelle alone: a port town that stays awake off-season thanks to 15,000 students, a walkable Vieux Port, and softer rates outside July and August.",
     category: "lifestyle",
@@ -28742,7 +28742,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-nancy-2026",
     title: "Solo travel in Nancy: the fourth youngest city in France, and no tram",
-    metaTitle: "Solo Travel in Nancy 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Nancy 2027: Where to Stay, Go Out",
     metaDesc:
       "Nancy alone: 36.4% of residents aged 15 to 29, a pedestrian old town around place Stanislas, direct TGV from Paris, and how to keep the single supplement down.",
     category: "lifestyle",
@@ -28791,7 +28791,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-poitiers-2026",
     title: "Solo travel in Poitiers: a pedestrian plateau and the cheapest room in this series",
-    metaTitle: "Solo Travel in Poitiers 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Poitiers 2027: Stay, Go Out, Budget",
     metaDesc:
       "Poitiers alone: 36% of residents aged 15 to 29, a fully pedestrian central plateau, direct TGV from Paris, the Confort Moderne, and a gentle single supplement.",
     category: "lifestyle",
@@ -28840,7 +28840,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-rouen-2026",
     title: "Solo travel in Rouen: a medieval centre, and the metro that is a tram",
-    metaTitle: "Solo Travel in Rouen 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Rouen 2027: Where to Stay, Go Out",
     metaDesc:
       "Rouen alone: 33.4% of residents aged 15 to 29, a pedestrian medieval centre, the 106 on the quays, an hour and a half from Paris-Saint-Lazare, no TGV.",
     category: "lifestyle",
@@ -28889,7 +28889,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-caen-2026",
     title: "Solo travel in Caen: a student city with three tram lines and the sea nearby",
-    metaTitle: "Solo Travel in Caen 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Caen 2027: Where to Stay, Go Out",
     metaDesc:
       "Caen alone: 33.3% of residents aged 15 to 29, the safest city in this series, three tram lines since 2019, and the Normandy coast a short train ride away.",
     category: "lifestyle",
@@ -28938,7 +28938,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-clermont-ferrand-2026",
     title: "Solo travel in Clermont-Ferrand: a student city with volcanoes at the end of the line",
-    metaTitle: "Solo Travel in Clermont-Ferrand 2026: Stay, Go Out",
+    metaTitle: "Solo Travel in Clermont-Ferrand 2027: Stay, Go Out",
     metaDesc:
       "Clermont-Ferrand alone: 31.5% of residents aged 15 to 29, the Coopérative de Mai, a rack railway up the puy de Dôme, and no TGV from Paris.",
     category: "lifestyle",
@@ -28987,7 +28987,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-tours-2026",
     title: "Solo travel in Tours: place Plumereau holds up on a Tuesday in November",
-    metaTitle: "Solo Travel in Tours 2026: Plumereau, Stay, Go Out",
+    metaTitle: "Solo Travel in Tours 2027: Plumereau, Stay, Go Out",
     metaDesc:
       "Tours alone: 29.7% of residents aged 15 to 29, direct TGV from Paris, terraces on place Plumereau that fill midweek, and Loire chateaux by regional train.",
     category: "lifestyle",
@@ -29036,7 +29036,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-besancon-2026",
     title: "Solo travel in Besançon: the Boucle, Battant, and two stations that are not the same",
-    metaTitle: "Solo Travel in Besançon 2026: Battant, Stay, Go Out",
+    metaTitle: "Solo Travel in Besançon 2027: Battant, Stay, Go Out",
     metaDesc:
       "Besançon alone: 28.9% of residents aged 15 to 29, a historic centre inside a river loop, the Battant bar quarter, and a TGV trap worth knowing before you book.",
     category: "lifestyle",
@@ -29086,7 +29086,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-brest-2026",
     title:
       "Solo travel in Brest: the youngest city in this batch, and a cable car on the bus network",
-    metaTitle: "Solo Travel in Brest 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Brest 2027: Where to Stay, Go Out",
     metaDesc:
       "Brest alone: 28.8% of residents aged 15 to 29, 24th in France, a tram, a cable car you board on an ordinary ticket, and how to keep the single supplement down.",
     category: "lifestyle",
@@ -29138,7 +29138,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-chambery-2026",
     title:
       "Solo travel in Chambéry: not a ski resort, and the best stay of this batch",
-    metaTitle: "Solo Travel in Chambéry 2026: Old Town, Costs",
+    metaTitle: "Solo Travel in Chambéry 2027: Old Town, Costs",
     metaDesc:
       "Chambéry alone: 22.7% aged 15 to 29, the best everyday-life, safety and nature scores of this batch, the worst on cost, and how to book around that.",
     category: "lifestyle",
@@ -29189,7 +29189,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-metz-2026",
     title: "Solo travel in Metz: three halls, one orchestra, and no tram",
-    metaTitle: "Solo Travel in Metz 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Metz 2027: Where to Stay, Go Out",
     metaDesc:
       "Metz alone: 25.6% aged 15 to 29, a culture score of 7.3/10, three concert halls under one organisation, the Centre Pompidou-Metz and direct TGV from Paris.",
     category: "lifestyle",
@@ -29241,7 +29241,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-orleans-2026",
     title:
       "Solo travel in Orléans: an hour from Paris, and no Festival de Loire in 2026",
-    metaTitle: "Solo Travel in Orléans 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Orléans 2027: Stay, Go Out, Budget",
     metaDesc:
       "Orléans alone: 25.6% aged 15 to 29, the youngest age structure of this batch, two tram lines, an hour by train from Paris, and one calendar trap to avoid.",
     category: "lifestyle",
@@ -29293,7 +29293,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-pau-2026",
     title:
       "Solo travel in Pau: a free funicular from the station, and the Pyrenees facing you",
-    metaTitle: "Solo Travel in Pau 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Pau 2027: Where to Stay, Go Out",
     metaDesc:
       "Pau alone: 24.1% aged 15 to 29, a nature score of 7.0/10, a free funicular from the station to the centre, the Hédas at night and the single supplement.",
     category: "lifestyle",
@@ -29345,7 +29345,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-reims-2026",
     title:
       "Solo travel in Reims: the strongest cultural offer of this batch, and champagne for one",
-    metaTitle: "Solo Travel in Reims 2026: Where to Stay, Go Out",
+    metaTitle: "Solo Travel in Reims 2027: Where to Stay, Go Out",
     metaDesc:
       "Reims alone: 27.5% aged 15 to 29, a culture score of 7.6/10, the highest of this batch, a tram, direct TGV from Paris-Est, and cellar visits for one person.",
     category: "lifestyle",
@@ -29396,7 +29396,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-troyes-2026",
     title: "Solo travel in Troyes: the cheapest of this batch, and no TGV",
-    metaTitle: "Solo Travel in Troyes 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Troyes 2027: Stay, Go Out, Budget",
     metaDesc:
       "Troyes alone: 24.6% aged 15 to 29, a cost score of 7.1/10, the best of this batch, a medieval centre you cross on foot, and direct trains from Paris-Est.",
     category: "lifestyle",
@@ -29447,7 +29447,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-le-mans-2026",
     title: "Solo travel in Le Mans: the Plantagenet quarter, and the weekend to avoid",
-    metaTitle: "Solo Travel in Le Mans 2026: Old Town, Trams, Budget",
+    metaTitle: "Solo Travel in Le Mans 2027: Old Town, Trams, Budget",
     metaDesc:
       "Le Mans alone: a walled medieval quarter, two tram lines, free light projections every summer evening, and the one June weekend to book around.",
     category: "lifestyle",
@@ -29498,7 +29498,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-quimper-2026",
     title: "Solo travel in Quimper: a Breton centre, a festival, and honest limits",
-    metaTitle: "Solo Travel in Quimper 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Quimper 2027: Stay, Go Out, Budget",
     metaDesc:
       "Quimper alone: the safest city in this batch, a medieval centre on the Odet, fest-noz sessions you can walk into, and a direct TGV from Paris.",
     category: "lifestyle",
@@ -29549,7 +29549,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-valence-2026",
     title: "Solo travel in Valence: the best-balanced of this batch, and a station trap",
-    metaTitle: "Solo Travel in Valence 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Valence 2027: Stay, Go Out, Budget",
     metaDesc:
       "Valence alone, and not Valencia: the best transport and cost scores in this batch, a walkable Rhône-side centre, and two stations ten kilometres apart.",
     category: "lifestyle",
@@ -29600,7 +29600,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-avignon-2026",
     title: "Solo travel in Avignon: three weeks of excess, forty-nine weeks of city",
-    metaTitle: "Solo Travel in Avignon 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Avignon 2027: Stay, Go Out, Budget",
     metaDesc:
       "Avignon alone: the highest culture score in this batch at 9.0/10, a walled centre you cross on foot, and a July festival to plan around.",
     category: "lifestyle",
@@ -29651,7 +29651,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-mulhouse-2026",
     title: "Solo travel in Mulhouse: most for the least, with the bluntest reservations",
-    metaTitle: "Solo Travel in Mulhouse 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Mulhouse 2027: Stay, Go Out, Budget",
     metaDesc:
       "Mulhouse alone: three tram lines, the world's largest car collection, the cheapest rooms in this batch after Bourges, and Basel twenty minutes away by train.",
     category: "lifestyle",
@@ -29702,7 +29702,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-bourges-2026",
     title: "Solo travel in Bourges: the cheapest here, and a 2028 deadline",
-    metaTitle: "Solo Travel in Bourges 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Bourges 2027: Stay, Go Out, Budget",
     metaDesc:
       "Bourges alone: the lowest rents in this batch, a Gothic cathedral on the UNESCO list, an April music festival, and European Capital of Culture status in 2028.",
     category: "lifestyle",
@@ -29753,7 +29753,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-saint-denis-reunion-2026",
     title: "Solo travel in Saint-Denis de La Réunion: inverted seasons, and no train",
-    metaTitle: "Solo Travel in Saint-Denis, Réunion 2026: Stay, Budget",
+    metaTitle: "Solo Travel in Saint-Denis, Réunion 2027: Stay, Budget",
     metaDesc:
       "Saint-Denis de La Réunion alone: the best everyday-life and nature scores in this batch, inverted seasons, no railway, and a visa rule that is not Schengen.",
     category: "lifestyle",
@@ -29804,7 +29804,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-laurent-du-maroni-2026",
     title: "Things to do in Saint-Laurent-du-Maroni: the penal colony and the river",
-    metaTitle: "Things to Do in Saint-Laurent-du-Maroni (2026)",
+    metaTitle: "Things to Do in Saint-Laurent-du-Maroni (2027)",
     metaDesc:
       "The Camp de la Transportation, red-brick penal architecture, pirogues across to Suriname, upriver trips on the Maroni and leatherbacks at Awala-Yalimapo.",
     category: "city-guide",
@@ -29860,7 +29860,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mamoudzou-2026",
     title: "Things to do in Mamoudzou: Mayotte's lagoon, and what Chido left",
-    metaTitle: "Things to Do in Mamoudzou, Mayotte (2026)",
+    metaTitle: "Things to Do in Mamoudzou, Mayotte (2027)",
     metaDesc:
       "The covered market, the barge to Petite-Terre, the Dziani Dzaha crater lake, a double-barrier lagoon and humpback whales — and what to check before booking.",
     category: "city-guide",
@@ -29910,7 +29910,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-francois-2026",
     title: "Things to do in Le François: the fonds blancs and Habitation Clément",
-    metaTitle: "Things to Do in Le François, Martinique (2026)",
+    metaTitle: "Things to Do in Le François, Martinique (2027)",
     metaDesc:
       "Sandbanks you can stand on far from shore, Joséphine's Bathtub, the îlets Oscar and Thierry, Habitation Clément and its art foundation, and round yoles.",
     category: "city-guide",
@@ -29960,7 +29960,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-robert-2026",
     title: "Things to do in Le Robert: iguanas, îlets and a sheltered bay",
-    metaTitle: "Things to Do in Le Robert, Martinique (2026)",
+    metaTitle: "Things to Do in Le Robert, Martinique (2027)",
     metaDesc:
       "The havre du Robert, îlet Chancel and its Lesser Antillean iguanas, quieter fonds blancs, kayaking in the mangrove and the Caravelle peninsula nearby.",
     category: "city-guide",
@@ -30010,7 +30010,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-benoit-reunion-2026",
     title: "Things to do in Saint-Benoît: waterfalls on Réunion's windward coast",
-    metaTitle: "Things to Do in Saint-Benoît, Réunion (2026)",
+    metaTitle: "Things to Do in Saint-Benoît, Réunion (2027)",
     metaDesc:
       "Takamaka's ramparts, the Grand Étang, the bassin La Paix, whitewater rafting, the extraordinary Sainte-Anne church — and the swimming rule with no exception.",
     category: "city-guide",
@@ -30065,7 +30065,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-andre-reunion-2026",
     title: "Things to do in Saint-André: Tamil Réunion, sugar and rum",
-    metaTitle: "Things to Do in Saint-André, Réunion (2026)",
+    metaTitle: "Things to Do in Saint-André, Réunion (2027)",
     metaDesc:
       "The Colosse Tamil temple, the Dipavali festival, a working sugar mill and rum distillery, a church wrecked by a cyclone, and the most Indian town in France.",
     category: "city-guide",
@@ -30120,7 +30120,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-les-abymes-2026",
     title: "Things to do in Les Abymes: the mangrove everyone drives past",
-    metaTitle: "Things to Do in Les Abymes, Guadeloupe (2026)",
+    metaTitle: "Things to Do in Les Abymes, Guadeloupe (2027)",
     metaDesc:
       "The Taonaba mangrove house, a boardwalk through swamp forest, the canal Perrin, the Grand Cul-de-Sac Marin and the Grands-Fonds — minutes from the airport.",
     category: "city-guide",
@@ -30170,7 +30170,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-lamentin-2026",
     title: "Things to do in Le Lamentin: the mangrove behind the airport",
-    metaTitle: "Things to Do in Le Lamentin, Martinique (2026)",
+    metaTitle: "Things to Do in Le Lamentin, Martinique (2027)",
     metaDesc:
       "The Morne-Cabri mangrove, kayaking the baie de Génipa, a steam-driven rum distillery and the Nèg Mawon, on Martinique's largest agricultural plain.",
     category: "city-guide",
@@ -30220,7 +30220,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-baie-mahault-2026",
     title: "Things to do in Baie-Mahault: an Ali Tur church and the mangrove",
-    metaTitle: "Things to Do in Baie-Mahault, Guadeloupe (2026)",
+    metaTitle: "Things to Do in Baie-Mahault, Guadeloupe (2027)",
     metaDesc:
       "An Ali Tur church listed since 2017, the Grand Cul-de-Sac Marin mangrove, the maison de Wonche and the Gabarre bridge, in Guadeloupe's crossroads commune.",
     category: "city-guide",
@@ -30270,7 +30270,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-louis-reunion-974-2026",
     title: "Things to do in Saint-Louis: the oldest Hindu temple on Réunion",
-    metaTitle: "Things to Do in Saint-Louis, Réunion (2026)",
+    metaTitle: "Things to Do in Saint-Louis, Réunion (2027)",
     metaDesc:
       "Réunion's oldest Hindu temple, a working sugar mill, the Gol wetland, the Makes observatory and the window onto Cilaos, plus the island's swimming rule.",
     category: "city-guide",
@@ -30320,7 +30320,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-joseph-reunion-2026",
     title: "Things to do in Saint-Joseph: the wild south of Réunion",
-    metaTitle: "Things to Do in Saint-Joseph, Réunion (2026)",
+    metaTitle: "Things to Do in Saint-Joseph, Réunion (2027)",
     metaDesc:
       "Grand Galet falls, the Langevin river pools, Manapany and its endemic gecko, Grand Coude tea and Plaine des Grègues turmeric, in Réunion's wild south.",
     category: "city-guide",
@@ -30370,7 +30370,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-les-sables-d-olonne-2026",
     title: "Things to do in Les Sables-d'Olonne: where the Vendée Globe starts",
-    metaTitle: "Things to Do in Les Sables-d'Olonne (2026)",
+    metaTitle: "Things to Do in Les Sables-d'Olonne (2027)",
     metaDesc:
       "The Remblai, the Vendée Globe start at Port-Olona, the shell mosaics of île Penotte, La Chaume and the Arundel tower, the MASC and the Puits d'Enfer.",
     category: "city-guide",
@@ -30420,7 +30420,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vincennes-2026",
     title: "Things to do in Vincennes: the tallest medieval keep in Europe",
-    metaTitle: "Things to Do in Vincennes, near Paris (2026)",
+    metaTitle: "Things to Do in Vincennes, near Paris (2027)",
     metaDesc:
       "A royal keep, a Sainte-Chapelle, moats with a heavy history, an Art Deco church in concrete, and the bois, which belongs to Paris and not to Vincennes.",
     category: "city-guide",
@@ -30470,7 +30470,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-royan-2026",
     title: "Retiring in Royan: the Atlantic coast at a price that still works",
-    metaTitle: "Retiring in Royan 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Royan 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Royan: five town beaches, property at €2,900/m², 7°C winters, and the hospital distances to work out before you buy. Honest numbers.",
     category: "moving",
@@ -30522,7 +30522,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-les-sables-d-olonne-2026",
     title: "Retiring in Les Sables-d'Olonne: France's unofficial seaside retirement capital",
-    metaTitle: "Retiring in Les Sables-d'Olonne 2026 — The Real Numbers",
+    metaTitle: "Retiring in Les Sables-d'Olonne 2027 — The Real Numbers",
     metaDesc:
       "Retiring in Les Sables-d'Olonne: €3,500/m², a flat seafront, 8°C winters and a solid hospital. What it costs and what August is really like.",
     category: "moving",
@@ -30574,7 +30574,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-ile-de-re-2026",
     title: "Retiring on the Île de Ré: the dream, priced honestly",
-    metaTitle: "Retiring on the Île de Ré 2026 — Cost, Care, Reality",
+    metaTitle: "Retiring on the Île de Ré 2027 — Cost, Care, Reality",
     metaDesc:
       "Retiring on the Île de Ré: €7,500/m², no hospital on the island, 100km of flat cycle paths. The numbers and the constraints, stated plainly.",
     category: "moving",
@@ -30626,7 +30626,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-dinan-2026",
     title: "Retiring in Dinan: medieval Brittany with a teaching hospital an hour away",
-    metaTitle: "Retiring in Dinan 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Dinan 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Dinan: safety 8.7/10, property at €2,300/m², the sea 30 minutes away and Rennes teaching hospital under an hour. The honest guide.",
     category: "moving",
@@ -30678,7 +30678,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-lannion-2026",
     title: "Retiring in Lannion: the Pink Granite Coast at inland prices",
-    metaTitle: "Retiring in Lannion 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Lannion 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Lannion: the Pink Granite Coast 15 minutes away, €600 two-beds, €2,100/m², a hospital in town. And a 19°C July you should know about.",
     category: "moving",
@@ -30730,7 +30730,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-vitre-2026",
     title: "Retiring in Vitré: a medieval town on the Paris line",
-    metaTitle: "Retiring in Vitré 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Vitré 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Vitré: safety 8.5/10, €600 two-beds, €2,200/m², Rennes in 35 minutes and a direct TGV to Paris. The rational Breton choice, examined.",
     category: "moving",
@@ -30782,7 +30782,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-anglet-2026",
     title: "Retiring in Anglet: the Basque coast with a serious hospital next door",
-    metaTitle: "Retiring in Anglet 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Anglet 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Anglet: 9°C winters, ocean beaches, a major hospital next door and a tram-bus network. It costs €4,300/m². Whether that adds up.",
     category: "moving",
@@ -30834,7 +30834,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-hendaye-2026",
     title: "Retiring in Hendaye: the mildest winter in this series, and Spain across the bay",
-    metaTitle: "Retiring in Hendaye 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Hendaye 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Hendaye: 10.5°C in January, 3km of gently shelving beach, Spain five minutes away, €3,700/m². The border effect, and the isolation.",
     category: "moving",
@@ -30886,7 +30886,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-le-puy-en-velay-2026",
     title: "Retiring in Le Puy-en-Velay: heritage, volcanoes, and a light budget",
-    metaTitle: "Retiring in Le Puy-en-Velay 2026 — Health, Housing, Cost",
+    metaTitle: "Retiring in Le Puy-en-Velay 2027 — Health, Housing, Cost",
     metaDesc:
       "Retiring in Le Puy-en-Velay: culture 8.7/10, safety 8.1/10, a two-bed at €530, €1,600/m² to buy and a real hospital in town. The winters, examined.",
     category: "moving",
@@ -30938,7 +30938,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-fontainebleau-2026",
     title: "Retiring in Fontainebleau: 20,000 hectares of forest, Paris at 40 minutes",
-    metaTitle: "Retiring in Fontainebleau 2026 — Health, Housing, Cost",
+    metaTitle: "Retiring in Fontainebleau 2027 — Health, Housing, Cost",
     metaDesc:
       "Retiring in Fontainebleau: a UNESCO château, nature 8.5/10 in the Paris region, trains to Gare de Lyon in 40 minutes, €3,800/m². What it costs.",
     category: "moving",
@@ -30990,7 +30990,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-challans-2026",
     title: "Retiring in Challans: the Vendée coast without the coastal price",
-    metaTitle: "Retiring in Challans 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Challans 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Challans: safety 8.3/10, a two-bed at €640, €2,100/m², beaches 20 minutes away and a hospital in town. The Vendée value case.",
     category: "moving",
@@ -31042,7 +31042,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-tulle-2026",
     title: "Retiring in Tulle: one of France's cheapest prefectures, and its trade-offs",
-    metaTitle: "Retiring in Tulle 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Tulle 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Tulle: cost 8/10, a two-bed at €530, €1,400/m² to buy, gorges on the doorstep and a hospital in town. The rural limits, stated.",
     category: "moving",
@@ -31094,7 +31094,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-pontarlier-2026",
     title: "Retiring in Pontarlier: the Jura at 837 metres, Switzerland at ten minutes",
-    metaTitle: "Retiring in Pontarlier 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Pontarlier 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Pontarlier: nature 8.5/10, safety 8.1/10, cross-border pressure at €2,400/m² and winters averaging −0.5°C. Whether it adds up.",
     category: "moving",
@@ -31146,7 +31146,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-saint-die-des-vosges-2026",
     title: "Retiring in Saint-Dié-des-Vosges: forest, a geography festival, €1,100/m²",
-    metaTitle: "Retiring in Saint-Dié 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Saint-Dié 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Saint-Dié-des-Vosges: cost 8.5/10, nature 8.5/10, a two-bed at €500 and €1,100/m² to buy. The Vosges winter, stated plainly.",
     category: "moving",
@@ -31198,7 +31198,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-chateau-gontier-2026",
     title: "Retiring in Château-Gontier: a river town, safety 8.7/10, €1,300/m²",
-    metaTitle: "Retiring in Château-Gontier 2026 — Health and Budget",
+    metaTitle: "Retiring in Château-Gontier 2027 — Health and Budget",
     metaDesc:
       "Retiring in Château-Gontier-sur-Mayenne: safety 8.7/10, a two-bed at €520, €1,300/m², three hospitals within 80 minutes. Very quiet, deliberately.",
     category: "moving",
@@ -31250,7 +31250,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-albertville-2026",
     title: "Retiring in Albertville: the Alps at the door, a hospital in the valley",
-    metaTitle: "Retiring in Albertville 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Albertville 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Albertville: nature 8.5/10, transport 6.4/10, ski valleys within an hour, €2,800/m². Cheaper than Annecy, and why that is the point.",
     category: "moving",
@@ -31302,7 +31302,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-gaillac-2026",
     title: "Retiring in Gaillac: an old vineyard, 2,200 hours of sun, Toulouse at an hour",
-    metaTitle: "Retiring in Gaillac 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Gaillac 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Gaillac: 2,200 hours of sun, safety 8.1/10, a two-bed at €600, €1,800/m², Albi 25 minutes and Toulouse an hour. Summers included.",
     category: "moving",
@@ -31354,7 +31354,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-vendome-2026",
     title: "Retiring in Vendôme: Paris in 45 minutes, at Loir-et-Cher prices",
-    metaTitle: "Retiring in Vendôme 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Vendôme 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Vendôme: TGV to Paris in 45 minutes, transport 7.1/10, a two-bed at €540 and €1,500/m² to buy. The Paris-province compromise, tested.",
     category: "moving",
@@ -31406,7 +31406,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-marmande-2026",
     title: "Retiring in Marmande: sun, the Garonne, and the lowest budget in the series",
-    metaTitle: "Retiring in Marmande 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Marmande 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Marmande: 2,100 hours of sun, 25.5°C in July, a two-bed at €560 and €1,500/m², Bordeaux an hour away. The summer heat, stated.",
     category: "moving",
@@ -31458,7 +31458,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-saint-lo-2026",
     title: "Retiring in Saint-Lô: the best hospital in the Manche, and a modest budget",
-    metaTitle: "Retiring in Saint-Lô 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Saint-Lô 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Saint-Lô: safety 8.2/10, a two-bed at €570, €1,600/m², the main Manche hospital in town and Cherbourg ferries at 75 minutes.",
     category: "moving",
@@ -31510,7 +31510,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-montpellier-2026",
     title: "Retiring in Montpellier: a teaching hospital and sun, in a young city",
-    metaTitle: "Retiring in Montpellier 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Montpellier 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Montpellier: a university hospital on site, free public transport for residents, a one-bed at €850, summer heat. The honest guide.",
     category: "moving",
@@ -31558,7 +31558,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-bordeaux-2026",
     title: "Retiring in Bordeaux: a World Heritage centre, tram lines and the ocean an hour away",
-    metaTitle: "Retiring in Bordeaux 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Bordeaux 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Bordeaux: a university hospital on site, a one-bed at €900, the ocean an hour away, a UNESCO-listed centre. Health, budget, limits.",
     category: "moving",
@@ -31606,7 +31606,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-nice-2026",
     title: "Retiring in Nice: the mildest winter of any big French city, at Riviera prices",
-    metaTitle: "Retiring in Nice 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Nice 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Nice: 10.5°C in January, a university hospital on site, but a one-bed at €1,100. Health, monthly budget and honest limits.",
     category: "moving",
@@ -31654,7 +31654,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-perpignan-2026",
     title: "Retiring in Perpignan: the cheapest big Mediterranean city, with one gap to check",
-    metaTitle: "Retiring in Perpignan 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Perpignan 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Perpignan: sun, the sea 15 km away, a one-bed at €650, but no university hospital on site. Health, budget and limits, stated.",
     category: "moving",
@@ -31702,7 +31702,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-la-rochelle-2026",
     title: "Retiring in La Rochelle: flat, sunny for the Atlantic coast, and tight on specialists",
-    metaTitle: "Retiring in La Rochelle 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in La Rochelle 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in La Rochelle: a flat city by the ocean, 2,190 hours of sun, a one-bed at €820, tight specialist access. Budget and limits.",
     category: "moving",
@@ -31750,7 +31750,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-pau-2026",
     title: "Retiring in Pau: Pyrenees views, mild winters and low prices, a long way from a CHU",
-    metaTitle: "Retiring in Pau 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Pau 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Pau: views of the Pyrenees, a one-bed at €680, mild winters, a university hospital far away. Health, monthly budget and limits.",
     category: "moving",
@@ -31798,7 +31798,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-toulon-2026",
     title: "Retiring in Toulon: Nice's sun at a more reasonable price, with Marseille's CHU nearby",
-    metaTitle: "Retiring in Toulon 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Toulon 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Toulon: 2,750 hours of sun, a one-bed at €780, the bay and Mont Faron, a university hospital 50 km away. Budget and limits.",
     category: "moving",
@@ -31846,7 +31846,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-vannes-2026",
     title: "Retiring in Vannes: the highest retirement score in this series, on the Gulf of Morbihan",
-    metaTitle: "Retiring in Vannes 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Vannes 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Vannes: Gulf of Morbihan, retirement score 7/10, a one-bed at €850, tight specialist access. Health, budget and limits.",
     category: "moving",
@@ -31894,7 +31894,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-angers-2026",
     title: "Retiring in Angers: the quiet all-rounder of the west, with a CHU and Paris in 90 minutes",
-    metaTitle: "Retiring in Angers 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Angers 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Angers: a university hospital on site, a tram, a one-bed at €750, Paris in about 1h30 by train. Health, budget and limits.",
     category: "moving",
@@ -31942,7 +31942,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-hyeres-2026",
     title: "Retiring in Hyères: one of the oldest towns we track, and the mildest winters",
-    metaTitle: "Retiring in Hyères 2026 — Health, Housing, Budget",
+    metaTitle: "Retiring in Hyères 2027 — Health, Housing, Budget",
     metaDesc:
       "Retiring in Hyères: 2,900 hours of sun, 9°C in January, the Îles d'Or, a one-bed at €950. Health, monthly budget and honest limits.",
     category: "moving",
@@ -31991,7 +31991,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-biarritz-2026",
     title: "Retiring in Biarritz: pricey, mild and proud of it, with a CHU 165 km away",
-    metaTitle: "Retiring in Biarritz 2026: Budget, Health, Limits",
+    metaTitle: "Retiring in Biarritz 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Biarritz: 44.6% aged 60+, a two-bed at €1,000, €6,500/m², nearest CHU 165 km away. Health, monthly budget and honest limits.",
     category: "moving",
@@ -32040,7 +32040,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-arcachon-2026",
     title: "Retiring in Arcachon: the oldest town in this series, and the thinnest healthcare",
-    metaTitle: "Retiring in Arcachon 2026: Budget, Health, Limits",
+    metaTitle: "Retiring in Arcachon 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Arcachon: 60.4% aged 60+, a two-bed at €1,100, €6,800/m², hospital in La Teste. Health, monthly budget and the limits of the bay.",
     category: "moving",
@@ -32089,7 +32089,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-saint-malo-2026",
     title: "Retiring in Saint-Malo: the highest retirement score of this lot, at half Biarritz's price",
-    metaTitle: "Retiring in Saint-Malo 2026: Budget, Health, Life",
+    metaTitle: "Retiring in Saint-Malo 2027: Budget, Health, Life",
     metaDesc:
       "Retiring in Saint-Malo: retirement score 7.3/10, a two-bed at €800, €4,000/m², 41.2% aged 60+, Broussais hospital. Budget and limits.",
     category: "moving",
@@ -32138,7 +32138,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-annecy-2026",
     title: "Retiring in Annecy: lake, mountains and a January at 2.3°C",
-    metaTitle: "Retiring in Annecy 2026: Budget, Health, Winters",
+    metaTitle: "Retiring in Annecy 2027: Budget, Health, Winters",
     metaDesc:
       "Retiring in Annecy: 25.7% aged 60+, a two-bed at €1,100, €5,500/m², January at 2.3°C, CHU in Grenoble. Budget, health and limits.",
     category: "moving",
@@ -32187,7 +32187,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-sete-2026",
     title: "Retiring in Sète: the Mediterranean at €680 a two-bed, with a CHU 27 km away",
-    metaTitle: "Retiring in Sète 2026: Budget, Health, Limits",
+    metaTitle: "Retiring in Sète 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Sète: 41% aged 60+, a two-bed at €680, €2,600/m², 2,800 hours of sun, CHU in Montpellier. Health, budget and limits.",
     category: "moving",
@@ -32236,7 +32236,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-narbonne-2026",
     title: "Retiring in Narbonne: sun, Roman heritage and one of the cheapest Mediterranean rents",
-    metaTitle: "Retiring in Narbonne 2026: Budget, Health, Limits",
+    metaTitle: "Retiring in Narbonne 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Narbonne: a two-bed at €680, €2,400/m², 2,900 hours of sun, 32.6% aged 60+, CHU in Montpellier. Budget and limits.",
     category: "moving",
@@ -32285,7 +32285,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "retiring-in-nimes-2026",
     title: "Retiring in Nîmes: the only town in this series with a CHU on site",
-    metaTitle: "Retiring in Nîmes 2026: Budget, Health, Limits",
+    metaTitle: "Retiring in Nîmes 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Nîmes: CHU in town, a two-bed at €720, €2,800/m², 27.4% aged 60+, 2,700 hours of sun. Budget, health and limits.",
     category: "moving",
@@ -32333,8 +32333,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-quimper-2026",
-    title: "Retiring in Quimper (2026): Brittany at human scale, a CHU 52 km away",
-    metaTitle: "Retiring in Quimper 2026: Budget, Health, Limits",
+    title: "Retiring in Quimper (2027): Brittany at human scale, a CHU 52 km away",
+    metaTitle: "Retiring in Quimper 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Quimper: two-bed at €700, €2,800/m², 28.7% aged 60+, Brest CHU 52 km away, safety 6.1/10. Budget and limits.",
     category: "moving",
@@ -32382,8 +32382,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-lorient-2026",
-    title: "Retiring in Lorient (2026): a working port, a CHU 110 km away",
-    metaTitle: "Retiring in Lorient 2026: Budget, Health, Limits",
+    title: "Retiring in Lorient (2027): a working port, a CHU 110 km away",
+    metaTitle: "Retiring in Lorient 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Lorient: two-bed at €680, €2,800/m², 28.9% aged 60+, Brest CHU 110 km away, 21% poverty rate. Budget and limits.",
     category: "moving",
@@ -32431,8 +32431,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-saint-brieuc-2026",
-    title: "Retiring in Saint-Brieuc (2026): the lowest budget in Brittany?",
-    metaTitle: "Retiring in Saint-Brieuc 2026: Budget, Health, Limits",
+    title: "Retiring in Saint-Brieuc (2027): the lowest budget in Brittany?",
+    metaTitle: "Retiring in Saint-Brieuc 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Saint-Brieuc: two-bed at €580, €1,800/m², 28.8% aged 60+, Rennes CHU 92 km away, 2,000 hours of sun. Budget and limits.",
     category: "moving",
@@ -32480,8 +32480,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-menton-2026",
-    title: "Retiring in Menton (2026): the sun, but at what price?",
-    metaTitle: "Retiring in Menton 2026: Budget, Health, Limits",
+    title: "Retiring in Menton (2027): the sun, but at what price?",
+    metaTitle: "Retiring in Menton 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Menton: 2,950 hours of sun, 12°C in January, two-bed at €1,050, €5,200/m², 32.1% aged 60+, Nice CHU 20 km away.",
     category: "moving",
@@ -32529,8 +32529,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-dax-2026",
-    title: "Retiring in Dax (2026): thermal baths, the Landes and a tight budget",
-    metaTitle: "Retiring in Dax 2026: Budget, Health, Limits",
+    title: "Retiring in Dax (2027): thermal baths, the Landes and a tight budget",
+    metaTitle: "Retiring in Dax 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Dax: two-bed at €580, €2,200/m², 36.1% aged 60+, a spa town in the Landes, Bordeaux CHU 127 km away. Budget and limits.",
     category: "moving",
@@ -32578,8 +32578,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-bayonne-2026",
-    title: "Retiring in Bayonne (2026): the Basque Country, budget and limits",
-    metaTitle: "Retiring in Bayonne 2026: Budget, Health, Limits",
+    title: "Retiring in Bayonne (2027): the Basque Country, budget and limits",
+    metaTitle: "Retiring in Bayonne 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Bayonne: two-bed at €900, €4,500/m², 26.7% aged 60+, healthcare access 7.0/10, hospital in town. Budget and limits.",
     category: "moving",
@@ -32627,8 +32627,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-antibes-2026",
-    title: "Retiring in Antibes (2026): ramparts, Picasso and Riviera prices",
-    metaTitle: "Retiring in Antibes 2026: Budget, Health, Limits",
+    title: "Retiring in Antibes (2027): ramparts, Picasso and Riviera prices",
+    metaTitle: "Retiring in Antibes 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Antibes: two-bed at €1,050, €5,200/m², 33.8% aged 60+, healthcare access 7.2/10, Nice university hospital 18 km away. Budget and limits.",
     category: "moving",
@@ -32676,8 +32676,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-cannes-2026",
-    title: "Retiring in Cannes (2026): the Croisette, healthcare and a budget to hold",
-    metaTitle: "Retiring in Cannes 2026: Budget, Health, Limits",
+    title: "Retiring in Cannes (2027): the Croisette, healthcare and a budget to hold",
+    metaTitle: "Retiring in Cannes 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Cannes: two-bed at €1,250, €6,500/m², 36.6% aged 60+, 21% poverty, healthcare access 7.2/10, hospital in town. Budget and limits.",
     category: "moving",
@@ -32725,8 +32725,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-frejus-2026",
-    title: "Retiring in Fréjus (2026): Roman, sunny and 10% bigger",
-    metaTitle: "Retiring in Fréjus 2026: Budget, Health, Limits",
+    title: "Retiring in Fréjus (2027): Roman, sunny and 10% bigger",
+    metaTitle: "Retiring in Fréjus 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Fréjus: two-bed at €850, €3,800/m², 36% aged 60+, 2,900 hours of sun, healthcare access 6.2/10, Nice CHU 52 km away. Budget and limits.",
     category: "moving",
@@ -32774,8 +32774,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-aix-en-provence-2026",
-    title: "Retiring in Aix-en-Provence (2026): culture, prices and a young town",
-    metaTitle: "Retiring in Aix-en-Provence 2026: Budget, Limits",
+    title: "Retiring in Aix-en-Provence (2027): culture, prices and a young town",
+    metaTitle: "Retiring in Aix-en-Provence 2027: Budget, Limits",
     metaDesc:
       "Retiring in Aix-en-Provence: two-bed at €1,050, €5,000/m², 24.9% aged 60+, culture 8.4/10, healthcare access 7.2/10. Budget and limits.",
     category: "moving",
@@ -32823,8 +32823,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-avignon-2026",
-    title: "Retiring in Avignon (2026): popes, a festival and a tight budget",
-    metaTitle: "Retiring in Avignon 2026: Budget, Health, Limits",
+    title: "Retiring in Avignon (2027): popes, a festival and a tight budget",
+    metaTitle: "Retiring in Avignon 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Avignon: two-bed at €750, €3,000/m², culture 9.0/10, 33% poverty, healthcare access 6.4/10, Nîmes CHU 38 km away. Budget and limits.",
     category: "moving",
@@ -32872,8 +32872,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-beziers-2026",
-    title: "Retiring in Béziers (2026): the cheapest of the batch, with reservations",
-    metaTitle: "Retiring in Béziers 2026: Budget, Health, Limits",
+    title: "Retiring in Béziers (2027): the cheapest of the batch, with reservations",
+    metaTitle: "Retiring in Béziers 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Béziers: two-bed at €530, €1,500/m², 29.6% aged 60+, healthcare access 6.1/10, Montpellier CHU 61 km away. Budget and limits.",
     category: "moving",
@@ -32921,8 +32921,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-reims-2026",
-    title: "Retiring in Reims (2026): A University Hospital in Town, Moderate Rents, a Shrinking Population",
-    metaTitle: "Retiring in Reims 2026: Budget, Health, Limits",
+    title: "Retiring in Reims (2027): A University Hospital in Town, Moderate Rents, a Shrinking Population",
+    metaTitle: "Retiring in Reims 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Reims: two-bed at €680, €2,300/m², 21.9% aged 60+, healthcare access 7.9/10, university hospital in town. Monthly budget and limits.",
     category: "moving",
@@ -32970,8 +32970,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-saint-etienne-2026",
-    title: "Retiring in Saint-Étienne (2026): The Cheapest Big City, Hills Included",
-    metaTitle: "Retiring in Saint-Étienne 2026: Budget, Health, Hills",
+    title: "Retiring in Saint-Étienne (2027): The Cheapest Big City, Hills Included",
+    metaTitle: "Retiring in Saint-Étienne 2027: Budget, Health, Hills",
     metaDesc:
       "Retiring in Saint-Étienne: two-bed at €580, €1,500/m², 25.7% aged 60+, healthcare access 7.2/10, university hospital in town. Budget, hills and limits.",
     category: "moving",
@@ -33019,8 +33019,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-dijon-2026",
-    title: "Retiring in Dijon (2026): A Growing City on a Tight Budget",
-    metaTitle: "Retiring in Dijon 2026: Budget, Health, Limits",
+    title: "Retiring in Dijon (2027): A Growing City on a Tight Budget",
+    metaTitle: "Retiring in Dijon 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Dijon: two-bed at €720, €2,600/m², 22.9% aged 60+, healthcare access 7.6/10, university hospital in town. Monthly budget and limits.",
     category: "moving",
@@ -33068,8 +33068,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-grenoble-2026",
-    title: "Retiring in Grenoble (2026): Nature and Care at the Door, a Stretched Budget",
-    metaTitle: "Retiring in Grenoble 2026: Budget, Health, Limits",
+    title: "Retiring in Grenoble (2027): Nature and Care at the Door, a Stretched Budget",
+    metaTitle: "Retiring in Grenoble 2027: Budget, Health, Limits",
     metaDesc:
       "Retiring in Grenoble: two-bed at €750, €3,200/m², 19.6% aged 60+, healthcare access 7.5/10, nature 8.4/10. Monthly budget and limits.",
     category: "moving",
@@ -33117,8 +33117,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-clermont-ferrand-2026",
-    title: "Retiring in Clermont-Ferrand (2026): Volcanoes on the Horizon, a University Hospital Close",
-    metaTitle: "Retiring in Clermont-Ferrand 2026: Budget, Health",
+    title: "Retiring in Clermont-Ferrand (2027): Volcanoes on the Horizon, a University Hospital Close",
+    metaTitle: "Retiring in Clermont-Ferrand 2027: Budget, Health",
     metaDesc:
       "Retiring in Clermont-Ferrand: two-bed at €680, €2,400/m², 21% aged 60+, healthcare access 7.5/10, nature 7.2/10. Monthly budget and limits.",
     category: "moving",
@@ -33166,8 +33166,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-brest-2026",
-    title: "Retiring in Brest (2026): The Best Retirement Score of the Batch, Rain Included",
-    metaTitle: "Retiring in Brest 2026: Budget, Health, Climate",
+    title: "Retiring in Brest (2027): The Best Retirement Score of the Batch, Rain Included",
+    metaTitle: "Retiring in Brest 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Brest: two-bed at €650, €2,500/m², 22.5% aged 60+, healthcare access 7.9/10, January at 6.2 °C. Monthly budget and limits.",
     category: "moving",
@@ -33215,8 +33215,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-limoges-2026",
-    title: "Retiring in Limoges (2026): €600 Two-Bed, Easy Care, a Town That Is Shrinking",
-    metaTitle: "Retiring in Limoges 2026: Budget, Health, Climate",
+    title: "Retiring in Limoges (2027): €600 Two-Bed, Easy Care, a Town That Is Shrinking",
+    metaTitle: "Retiring in Limoges 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Limoges: two-bed at €600, €1,600/m², healthcare access 7.9/10, three emergency departments. Real budget and the limits of a shrinking town.",
     category: "moving",
@@ -33258,8 +33258,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-tours-2026",
-    title: "Retiring in Tours (2026): Loire by Bike, a University Hospital, €700 Two-Bed",
-    metaTitle: "Retiring in Tours 2026: Budget, Health, Climate",
+    title: "Retiring in Tours (2027): Loire by Bike, a University Hospital, €700 Two-Bed",
+    metaTitle: "Retiring in Tours 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Tours: two-bed at €700, €2,700/m², healthcare access 7.9/10, 23.5% aged 60+, 1,880 hours of sun. Monthly budget and limits.",
     category: "moving",
@@ -33301,8 +33301,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-amiens-2026",
-    title: "Retiring in Amiens (2026): The Best Healthcare Access of the Batch, the Greyest Sky",
-    metaTitle: "Retiring in Amiens 2026: Budget, Health, Climate",
+    title: "Retiring in Amiens (2027): The Best Healthcare Access of the Batch, the Greyest Sky",
+    metaTitle: "Retiring in Amiens 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Amiens: two-bed at €680, €2,200/m², healthcare access 8.1/10, 1,570 hours of sun, January at 3.2 °C. Budget and limits.",
     category: "moving",
@@ -33344,8 +33344,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-metz-2026",
-    title: "Retiring in Metz (2026): A Growing Town, but the University Hospital Is in Nancy",
-    metaTitle: "Retiring in Metz 2026: Budget, Health, Climate",
+    title: "Retiring in Metz (2027): A Growing Town, but the University Hospital Is in Nancy",
+    metaTitle: "Retiring in Metz 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Metz: two-bed at €680, €2,300/m², healthcare access 7.2/10, population up 3.2% since 2016, January at 2.7 °C. Budget and limits.",
     category: "moving",
@@ -33387,8 +33387,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-besancon-2026",
-    title: "Retiring in Besançon (2026): 6.3/10, the Best Score of the Batch, with a 2.1 °C Winter",
-    metaTitle: "Retiring in Besançon 2026: Budget, Health, Climate",
+    title: "Retiring in Besançon (2027): 6.3/10, the Best Score of the Batch, with a 2.1 °C Winter",
+    metaTitle: "Retiring in Besançon 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Besançon: two-bed at €680, €2,300/m², healthcare access 7.9/10, population up 3.1%, January at 2.1 °C. Budget and limits.",
     category: "moving",
@@ -33430,8 +33430,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-le-havre-2026",
-    title: "Retiring in Le Havre (2026): €650 Two-Bed and the Sea, but the University Hospital Is in Caen",
-    metaTitle: "Retiring in Le Havre 2026: Budget, Health, Climate",
+    title: "Retiring in Le Havre (2027): €650 Two-Bed and the Sea, but the University Hospital Is in Caen",
+    metaTitle: "Retiring in Le Havre 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Le Havre: two-bed at €650, €2,000/m², healthcare access 6.4/10, 26.6% aged 60+, 1,590 hours of sun. Budget and limits.",
     category: "moving",
@@ -33474,8 +33474,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-albi-2026",
-    title: "Retiring in Albi (2026): €620 Two-Bed, a UNESCO Cathedral Town, Toulouse 67 km Away",
-    metaTitle: "Retiring in Albi 2026: Budget, Health, Climate",
+    title: "Retiring in Albi (2027): €620 Two-Bed, a UNESCO Cathedral Town, Toulouse 67 km Away",
+    metaTitle: "Retiring in Albi 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Albi: two-bed at €620, €2,200/m², retirement score 7.5/10, healthcare access 6.6/10, university hospital in Toulouse 67 km away.",
     category: "moving",
@@ -33517,8 +33517,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-carcassonne-2026",
-    title: "Retiring in Carcassonne (2026): €530 Two-Bed and 2,500 Hours of Sun, With 28% Poverty",
-    metaTitle: "Retiring in Carcassonne 2026: Budget, Health",
+    title: "Retiring in Carcassonne (2027): €530 Two-Bed and 2,500 Hours of Sun, With 28% Poverty",
+    metaTitle: "Retiring in Carcassonne 2027: Budget, Health",
     metaDesc:
       "Retiring in Carcassonne: two-bed at €530, €1,500/m², 2,500 hours of sun, healthcare access 6.1/10, CHU in Toulouse 85 km away. Budget and limits.",
     category: "moving",
@@ -33560,8 +33560,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-saint-raphael-2026",
-    title: "Retiring in Saint-Raphaël (2026): Nearly One Resident in Two Is 60 or Over",
-    metaTitle: "Retiring in Saint-Raphaël 2026: Budget, Health",
+    title: "Retiring in Saint-Raphaël (2027): Nearly One Resident in Two Is 60 or Over",
+    metaTitle: "Retiring in Saint-Raphaël 2027: Budget, Health",
     metaDesc:
       "Retiring in Saint-Raphaël: two-bed at €970, €4,500/m², 48.5% aged 60+, no emergency department in town (Fréjus, 5 km). Budget and limits.",
     category: "moving",
@@ -33603,8 +33603,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-cagnes-sur-mer-2026",
-    title: "Retiring in Cagnes-sur-Mer (2026): Easy GP Access, Nice 10 km Away, €920 Two-Bed",
-    metaTitle: "Retiring in Cagnes-sur-Mer 2026: Budget, Health",
+    title: "Retiring in Cagnes-sur-Mer (2027): Easy GP Access, Nice 10 km Away, €920 Two-Bed",
+    metaTitle: "Retiring in Cagnes-sur-Mer 2027: Budget, Health",
     metaDesc:
       "Retiring in Cagnes-sur-Mer: two-bed at €920, €3,800/m², GP access 5.11, CHU in Nice 10 km away. Budget and how it compares with Antibes.",
     category: "moving",
@@ -33646,8 +33646,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-poitiers-2026",
-    title: "Retiring in Poitiers (2026): A CHU in Town and €660 Two-Bed, in a Student City",
-    metaTitle: "Retiring in Poitiers 2026: Budget, Health, Climate",
+    title: "Retiring in Poitiers (2027): A CHU in Town and €660 Two-Bed, in a Student City",
+    metaTitle: "Retiring in Poitiers 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Poitiers: two-bed at €660, €2,100/m², healthcare access 7.8/10, university hospital and 101 GPs. Budget and the limits of a young town.",
     category: "moving",
@@ -33689,8 +33689,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-valence-2026",
-    title: "Retiring in Valence (2026): €680 Two-Bed Between the Rhône and the Vercors, CHU 68 km Away",
-    metaTitle: "Retiring in Valence 2026: Budget, Health, Climate",
+    title: "Retiring in Valence (2027): €680 Two-Bed Between the Rhône and the Vercors, CHU 68 km Away",
+    metaTitle: "Retiring in Valence 2027: Budget, Health, Climate",
     metaDesc:
       "Retiring in Valence (Drôme): two-bed at €680, €2,400/m², 2,310 hours of sun, healthcare access 6.1/10. Budget, care and a comparison with Montélimar.",
     category: "moving",
@@ -33732,8 +33732,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-saint-nazaire-2026",
-    title: "Retiring in Saint-Nazaire (2026): €640 Two-Bed, the Atlantic, Nantes 50 km Away",
-    metaTitle: "Retiring in Saint-Nazaire 2026: Budget, Health",
+    title: "Retiring in Saint-Nazaire (2027): €640 Two-Bed, the Atlantic, Nantes 50 km Away",
+    metaTitle: "Retiring in Saint-Nazaire 2027: Budget, Health",
     metaDesc:
       "Retiring in Saint-Nazaire: two-bed at €640, €2,200/m², +4.9% residents, 89 GPs, CHU in Nantes 50 km away. Budget and how it compares.",
     category: "moving",
@@ -33775,8 +33775,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-caen-2026",
-    title: "Retiring in Caen (2026): University Hospital in Town, €700 Two-Bed, the Sea 15 km Away",
-    metaTitle: "Retiring in Caen 2026: Budget, Health, Climate",
+    title: "Retiring in Caen (2027): University Hospital in Town, €700 Two-Bed, the Sea 15 km Away",
+    metaTitle: "Retiring in Caen 2027: Budget, Health, Climate",
     metaDesc: "Retiring in Caen: two-bed at €700, €2,500/m², health access 8.1/10, CHU in town, +2.8% residents, January at 5.6 °C. Budget and limits.",
     category: "moving",
     emoji: "🏰",
@@ -33816,8 +33816,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-rennes-2026",
-    title: "Retiring in Rennes (2026): 6.3/10 and a CHU, but €1,510 a Month for One Person",
-    metaTitle: "Retiring in Rennes 2026: Budget, Health, Metro",
+    title: "Retiring in Rennes (2027): 6.3/10 and a CHU, but €1,510 a Month for One Person",
+    metaTitle: "Retiring in Rennes 2027: Budget, Health, Metro",
     metaDesc: "Retiring in Rennes: two-bed at €820, €3,800/m², health access 7.6/10, +5.3% residents, only 18.6% aged 60+. Budget and limits.",
     category: "moving",
     emoji: "🥞",
@@ -33857,8 +33857,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-strasbourg-2026",
-    title: "Retiring in Strasbourg (2026): Best GP Access of the Batch, a €1,490 Budget",
-    metaTitle: "Retiring in Strasbourg 2026: Budget, Health, Tram",
+    title: "Retiring in Strasbourg (2027): Best GP Access of the Batch, a €1,490 Budget",
+    metaTitle: "Retiring in Strasbourg 2027: Budget, Health, Tram",
     metaDesc: "Retiring in Strasbourg: two-bed at €800, €3,800/m², 463 GPs, health access 8.0/10, +4.4% residents, January at 2.5 °C. Budget and limits.",
     category: "moving",
     emoji: "🥨",
@@ -33898,8 +33898,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-rouen-2026",
-    title: "Retiring in Rouen (2026): +5.6% Residents, Health Access 8.0/10, but a Score of 5.4",
-    metaTitle: "Retiring in Rouen 2026: Budget, Health, Safety",
+    title: "Retiring in Rouen (2027): +5.6% Residents, Health Access 8.0/10, but a Score of 5.4",
+    metaTitle: "Retiring in Rouen 2027: Budget, Health, Safety",
     metaDesc: "Retiring in Rouen: two-bed at €720, €2,600/m², health access 8.0/10, +5.6% residents, safety 4.7/10. Budget and limits before you choose.",
     category: "moving",
     emoji: "⛪",
@@ -33939,8 +33939,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-nancy-2026",
-    title: "Retiring in Nancy (2026): €710 Two-Bed, CHU in Town, a City That Has Stopped Growing",
-    metaTitle: "Retiring in Nancy 2026: Budget, Health, Heritage",
+    title: "Retiring in Nancy (2027): €710 Two-Bed, CHU in Town, a City That Has Stopped Growing",
+    metaTitle: "Retiring in Nancy 2027: Budget, Health, Heritage",
     metaDesc: "Retiring in Nancy: two-bed at €710, €2,400/m², health access 8.0/10, CHU in town, stable population (-0.2%). Budget and comparison with Metz.",
     category: "moving",
     emoji: "🏛️",
@@ -33980,8 +33980,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-cherbourg-2026",
-    title: "Retiring in Cherbourg-en-Cotentin (2026): €620 Two-Bed, but the CHU Is in Caen, 104 km Away",
-    metaTitle: "Retiring in Cherbourg 2026: Budget, Health, Climate",
+    title: "Retiring in Cherbourg-en-Cotentin (2027): €620 Two-Bed, but the CHU Is in Caen, 104 km Away",
+    metaTitle: "Retiring in Cherbourg 2027: Budget, Health, Climate",
     metaDesc: "Retiring in Cherbourg: two-bed at €620, €1,900/m², 28.3% aged 60+, health access 5.9/10, CHU in Caen 104 km away. Budget and limits.",
     category: "moving",
     emoji: "🚢",
@@ -34021,8 +34021,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-orleans-2026",
-    title: "Retiring in Orléans (2026): a CHU in Town, a €700 Two-Bed and a €1,390 Budget",
-    metaTitle: "Retiring in Orléans 2026: Budget, Health, Tram",
+    title: "Retiring in Orléans (2027): a CHU in Town, a €700 Two-Bed and a €1,390 Budget",
+    metaTitle: "Retiring in Orléans 2027: Budget, Health, Tram",
     metaDesc: "Retiring in Orléans: two-bed at €700, €2,400/m², CHU in town, 21.1% aged 60+, tram line A to the hospital. Budget and limits.",
     category: "moving",
     emoji: "⚜️",
@@ -34062,8 +34062,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-dunkerque-2026",
-    title: "Retiring in Dunkirk (2026): the Cheapest Two-Bed of the Batch at €560, but the CHU Is 66 km Away",
-    metaTitle: "Retiring in Dunkirk 2026: Budget, Health, Sea",
+    title: "Retiring in Dunkirk (2027): the Cheapest Two-Bed of the Batch at €560, but the CHU Is 66 km Away",
+    metaTitle: "Retiring in Dunkirk 2027: Budget, Health, Sea",
     metaDesc: "Retiring in Dunkirk: two-bed at €560, €1,800/m², 28.7% aged 60+, health access 6.1/10, Lille CHU 66 km away. Budget and limits.",
     category: "moving",
     emoji: "🌬️",
@@ -34103,8 +34103,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-nantes-2026",
-    title: "Retiring in Nantes (2026): a CHU and a Tram, but €1,540 a Month for a Single Person",
-    metaTitle: "Retiring in Nantes 2026: Budget, Health, Transport",
+    title: "Retiring in Nantes (2027): a CHU and a Tram, but €1,540 a Month for a Single Person",
+    metaTitle: "Retiring in Nantes 2027: Budget, Health, Transport",
     metaDesc: "Retiring in Nantes: two-bed at €850, €4,200/m², 384 GPs, health access 7.6/10, 18.5% aged 60+. Budget and limits.",
     category: "moving",
     emoji: "🐘",
@@ -34144,8 +34144,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-lyon-2026",
-    title: "Retiring in Lyon (2026): 709 GPs and 5 Emergency Departments, but €1,690 a Month for a Single Person",
-    metaTitle: "Retiring in Lyon 2026: Budget, Health, Metro",
+    title: "Retiring in Lyon (2027): 709 GPs and 5 Emergency Departments, but €1,690 a Month for a Single Person",
+    metaTitle: "Retiring in Lyon 2027: Budget, Health, Metro",
     metaDesc: "Retiring in Lyon: two-bed at €1,000, €5,000/m², 709 GPs, health access 7.7/10, 19.0% aged 60+. Budget and limits.",
     category: "moving",
     emoji: "🦁",
@@ -34185,8 +34185,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-toulouse-2026",
-    title: "Retiring in Toulouse (2026): 2,075 Hours of Sun and the Metro, but an €850 Two-Bed",
-    metaTitle: "Retiring in Toulouse 2026: Budget, Health, Sun",
+    title: "Retiring in Toulouse (2027): 2,075 Hours of Sun and the Metro, but an €850 Two-Bed",
+    metaTitle: "Retiring in Toulouse 2027: Budget, Health, Sun",
     metaDesc: "Retiring in Toulouse: two-bed at €850, €4,000/m², health access 7.6/10, 559 GPs, +7.6% residents, 2,075 sun hours. Budget.",
     category: "moving",
     emoji: "🧱",
@@ -34226,8 +34226,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "retiring-in-lille-2026",
-    title: "Retiring in Lille (2026): the Best GP Access of the Batch, but Only 14.6% Aged 60+",
-    metaTitle: "Retiring in Lille 2026: Budget, Health, Metro",
+    title: "Retiring in Lille (2027): the Best GP Access of the Batch, but Only 14.6% Aged 60+",
+    metaTitle: "Retiring in Lille 2027: Budget, Health, Metro",
     metaDesc: "Retiring in Lille: two-bed at €800, €3,500/m², health access 8.1/10, 309 GPs, 14.6% aged 60+. Budget and limits.",
     category: "moving",
     emoji: "🧇",
@@ -34267,8 +34267,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-nimes-2026",
-    title: "Single Parent in Nîmes (2026): Sunshine Does Not Pay for Schools",
-    metaTitle: "Single Parent in Nîmes 2026: T3 €960, Safety 3.9/10",
+    title: "Single Parent in Nîmes (2027): Sunshine Does Not Pay for Schools",
+    metaTitle: "Single Parent in Nîmes 2027: T3 €960, Safety 3.9/10",
     metaDesc:
       "Fit 5.3/10, joint 228th of 416, below the median. T3 at €960, schools 5.3/10, safety 3.9/10: €181 of rent per point. The trade-off, unrounded.",
     category: "family",
@@ -34310,8 +34310,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-saint-denis-reunion-2026",
-    title: "Single Parent in Saint-Denis, Réunion (2026): Prices, the Car, and 9,000 km",
-    metaTitle: "Single Parent in Saint-Denis 974 2026: T3 €900, Car",
+    title: "Single Parent in Saint-Denis, Réunion (2027): Prices, the Car, and 9,000 km",
+    metaTitle: "Single Parent in Saint-Denis 974 2027: T3 €900, Car",
     metaDesc:
       "Fit 4.8/10, joint 319th of 416. Cost 4.1/10 and transport 4.7/10, the lowest here, on a T3 at €900. The first overseas guide in the series.",
     category: "family",
@@ -34353,8 +34353,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-le-mans-2026",
-    title: "Single Parent in Le Mans (2026): €1,900 a Square Metre, a Tram, One Income",
-    metaTitle: "Single Parent in Le Mans 2026: T3 €870, Buy €1,900/m²",
+    title: "Single Parent in Le Mans (2027): €1,900 a Square Metre, a Tram, One Income",
+    metaTitle: "Single Parent in Le Mans 2027: T3 €870, Buy €1,900/m²",
     metaDesc:
       "Fit 6.0/10, joint 106th of 416. T3 at €870, buying at €1,900 per square metre, tram and high-speed rail. Schools 6.2/10, safety 5.3/10.",
     category: "family",
@@ -34396,8 +34396,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-amiens-2026",
-    title: "Single Parent in Amiens (2026): Good Schools, Low Rent, Safety at 4.5",
-    metaTitle: "Single Parent in Amiens 2026: T3 €900, Schools 6.6/10",
+    title: "Single Parent in Amiens (2027): Good Schools, Low Rent, Safety at 4.5",
+    metaTitle: "Single Parent in Amiens 2027: T3 €900, Schools 6.6/10",
     metaDesc:
       "Fit 5.9/10, joint 118th of 416. T3 at €900 and schools 6.6/10, so €136 per point. But safety 4.5/10: the trade-off on a single income.",
     category: "family",
@@ -34439,8 +34439,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-annecy-2026",
-    title: "Single Parent in Annecy (2026): the Best File Here, and the Least Reachable",
-    metaTitle: "Single Parent in Annecy 2026: €4,150 Net for a T3",
+    title: "Single Parent in Annecy (2027): the Best File Here, and the Least Reachable",
+    metaTitle: "Single Parent in Annecy 2027: €4,150 Net for a T3",
     metaDesc:
       "Fit 6.2/10, joint 80th of 416. Schools 8.7/10 and safety 7.3/10, the best here. But a T3 at €1,450: the entry floor is €4,150 net a month.",
     category: "family",
@@ -34482,8 +34482,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-perpignan-2026",
-    title: "Single Parent in Perpignan (2026): the Hardest Mainland File Here",
-    metaTitle: "Single Parent in Perpignan 2026: T3 €870, Schools 4.5",
+    title: "Single Parent in Perpignan (2027): the Hardest Mainland File Here",
+    metaTitle: "Single Parent in Perpignan 2027: T3 €870, Schools 4.5",
     metaDesc:
       "Fit 5.0/10, joint 289th of 416. Schools 4.5/10 and safety 3.7/10, the lowest here, on a T3 at €870. What the cheap rent does not offset.",
     category: "family",
@@ -34525,8 +34525,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-orleans-2026",
-    title: "Single Parent in Orléans (2026): the Tram, Paris Close By, €2,800 Net",
-    metaTitle: "Single Parent in Orléans 2026: T3 €930, Tram, Schools",
+    title: "Single Parent in Orléans (2027): the Tram, Paris Close By, €2,800 Net",
+    metaTitle: "Single Parent in Orléans 2027: T3 €930, Tram, Schools",
     metaDesc:
       "Fit 6.1/10, joint 93rd of 416. T3 at €930, schools 6.6/10, transport 6.4/10 and two tram lines. On one income and one driver.",
     category: "family",
@@ -34568,8 +34568,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-mulhouse-2026",
-    title: "Single Parent in Mulhouse (2026): the Cheapest Housing Here, and Why",
-    metaTitle: "Single Parent in Mulhouse 2026: T3 €780, Buy €1,700/m²",
+    title: "Single Parent in Mulhouse (2027): the Cheapest Housing Here, and Why",
+    metaTitle: "Single Parent in Mulhouse 2027: T3 €780, Buy €1,700/m²",
     metaDesc:
       "Fit 5.9/10, joint 118th of 416. T3 at €780 and buying at €1,700 per square metre, the lowest here. Transport 7.0/10, safety 4.5/10.",
     category: "family",
@@ -34611,8 +34611,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-poitiers-2026",
-    title: "Single Parent in Poitiers (2026): the Best Schools-to-Rent Ratio Here",
-    metaTitle: "Single Parent in Poitiers 2026: T3 €880, Schools 7.4/10",
+    title: "Single Parent in Poitiers (2027): the Best Schools-to-Rent Ratio Here",
+    metaTitle: "Single Parent in Poitiers 2027: T3 €880, Schools 7.4/10",
     metaDesc:
       "Fit 6.5/10, joint 37th of 416. T3 at €880, schools 7.4/10: €119 of rent per point, the best ratio in this batch. On one income.",
     category: "family",
@@ -34654,8 +34654,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-dunkerque-2026",
-    title: "Single Parent in Dunkirk (2026): Free Buses and the Lowest Rent Here",
-    metaTitle: "Single Parent in Dunkirk 2026: T3 €750, Free Buses",
+    title: "Single Parent in Dunkirk (2027): Free Buses and the Lowest Rent Here",
+    metaTitle: "Single Parent in Dunkirk 2027: T3 €750, Free Buses",
     metaDesc:
       "Fit 5.7/10, joint 156th of 416. T3 at €750 and a €2,250 entry floor, the lowest here. Buses free since 2018, safety 4.5/10.",
     category: "family",
@@ -34696,8 +34696,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-pau-2026",
-    title: "Single parent in Pau (2026): the best rent-per-school-point in this batch",
-    metaTitle: "Single Parent in Pau 2026: T3 €900, joint 51st of 416",
+    title: "Single parent in Pau (2027): the best rent-per-school-point in this batch",
+    metaTitle: "Single Parent in Pau 2027: T3 €900, joint 51st of 416",
     metaDesc:
       "Fit 6.4/10, joint 51st of 416, the strongest file in this batch. T3 at €900, a €2,750 entry floor, schools 7.4/10 for €122 a point.",
     category: "family",
@@ -34738,8 +34738,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-la-rochelle-2026",
-    title: "Single parent in La Rochelle (2026): the best file here, and the highest price of entry",
-    metaTitle: "Single Parent in La Rochelle 2026: T3 €1,100",
+    title: "Single parent in La Rochelle (2027): the best file here, and the highest price of entry",
+    metaTitle: "Single Parent in La Rochelle 2027: T3 €1,100",
     metaDesc:
       "Fit 6.3/10, joint 64th of 416. Best schools and safety in this batch, and the highest entry floor: €3,150 net a month for a €1,100 T3.",
     category: "family",
@@ -34780,8 +34780,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-cherbourg-2026",
-    title: "Single parent in Cherbourg-en-Cotentin (2026): €2,500, a merged commune and a car",
-    metaTitle: "Single Parent in Cherbourg 2026: T3 €820, €2,500",
+    title: "Single parent in Cherbourg-en-Cotentin (2027): €2,500, a merged commune and a car",
+    metaTitle: "Single Parent in Cherbourg 2027: T3 €820, €2,500",
     metaDesc:
       "Fit 5.7/10, joint 156th of 416. T3 at €820 and a €2,500 entry floor. Transport 4.9/10, and 3,662 fewer residents than in 2011.",
     category: "family",
@@ -34822,8 +34822,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-merignac-2026",
-    title: "Single parent in Mérignac (2026): Bordeaux prices without Bordeaux schools",
-    metaTitle: "Single Parent in Mérignac 2026: T3 €1,080, joint 228th",
+    title: "Single parent in Mérignac (2027): Bordeaux prices without Bordeaux schools",
+    metaTitle: "Single Parent in Mérignac 2027: T3 €1,080, joint 228th",
     metaDesc:
       "Fit 5.3/10, joint 228th of 416. T3 at €1,080 and schools 5.5/10, when Pessac gives 6.6 at the same rent. The Bordeaux-metro trade-off, costed.",
     category: "family",
@@ -34864,8 +34864,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-avignon-2026",
-    title: "Single parent in Avignon (2026): culture 9/10, and joint 228th all the same",
-    metaTitle: "Single Parent in Avignon 2026: Culture 9/10, Joint 228th",
+    title: "Single parent in Avignon (2027): culture 9/10, and joint 228th all the same",
+    metaTitle: "Single Parent in Avignon 2027: Culture 9/10, Joint 228th",
     metaDesc:
       "Fit 5.3/10, joint 228th of 416. Culture at 9/10 counts for nothing on this profile; safety at 4.3/10 counts for a quarter. T3 €1,000.",
     category: "family",
@@ -34906,8 +34906,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-beziers-2026",
-    title: "Single parent in Béziers (2026): €2,200 is enough, and that is the only good news",
-    metaTitle: "Single Parent in Béziers 2026: €2,200, Last in Region",
+    title: "Single parent in Béziers (2027): €2,200 is enough, and that is the only good news",
+    metaTitle: "Single Parent in Béziers 2027: €2,200, Last in Region",
     metaDesc:
       "Fit 4.7/10, joint 333rd of 416 and 22nd of 22 in Occitanie. Entry floor €2,200, the lowest here. Schools 3.6/10, safety 3.5/10.",
     category: "family",
@@ -34948,8 +34948,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-pierre-reunion-2026",
-    title: "Single parent in Saint-Pierre, Réunion (2026): the island's best file, and still hard",
-    metaTitle: "Single Parent in Saint-Pierre, Réunion 2026: €2,400",
+    title: "Single parent in Saint-Pierre, Réunion (2027): the island's best file, and still hard",
+    metaTitle: "Single Parent in Saint-Pierre, Réunion 2027: €2,400",
     metaDesc:
       "Fit 4.9/10, joint 303rd of 416 — the best file on Réunion and still in the bottom third. T3 €840, entry floor €2,400, schools 5.5/10.",
     category: "family",
@@ -34990,8 +34990,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-fort-de-france-2026",
-    title: "Single parent in Fort-de-France (2026): the city lost 11,588 residents, and it counts",
-    metaTitle: "Single Parent in Fort-de-France 2026: joint 344th of 416",
+    title: "Single parent in Fort-de-France (2027): the city lost 11,588 residents, and it counts",
+    metaTitle: "Single Parent in Fort-de-France 2027: joint 344th of 416",
     metaDesc:
       "Fit 4.5/10, joint 344th of 416. The commune lost 11,588 residents since 2011. T3 €960, entry floor €2,750, safety 4.2/10.",
     category: "family",
@@ -35032,8 +35032,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-paul-reunion-2026",
-    title: "Single parent in Saint-Paul, Réunion (2026): €2,550 and a car you cannot drop",
-    metaTitle: "Single Parent in Saint-Paul, Réunion 2026: 325th",
+    title: "Single parent in Saint-Paul, Réunion (2027): €2,550 and a car you cannot drop",
+    metaTitle: "Single Parent in Saint-Paul, Réunion 2027: 325th",
     metaDesc:
       "Fit 4.4/10, joint 360th of 416, last in this batch. All four axes below average. T3 €900, entry floor €2,550, transport 4.0/10.",
     category: "family",
@@ -35075,8 +35075,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-paris-2026",
     title: "Working in Paris: the deepest job market in France, and what it costs you",
-    metaTitle: "Working in Paris 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Paris in 2026: job market 6.6/10, median living standard €2,480 a month, T2 rent €1,800. The sectors that hire and the traps.",
+    metaTitle: "Working in Paris 2027 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Paris in 2027: job market 6.6/10, median living standard €2,480 a month, T2 rent €1,800. The sectors that hire and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35123,8 +35123,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-lyon-2026",
     title: "Working in Lyon: the best-rated job market in our ranking, examined",
-    metaTitle: "Working in Lyon 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Lyon in 2026: job market 6.6/10, T2 rent €1,000. Pharma, chemicals, banking, tech, and the traps.",
+    metaTitle: "Working in Lyon 2027 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Lyon in 2027: job market 6.6/10, T2 rent €1,000. Pharma, chemicals, banking, tech, and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35171,8 +35171,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-marseille-2026",
     title: "Working in Marseille: a two-speed market, read honestly",
-    metaTitle: "Working in Marseille 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Marseille in 2026: job market 6.0/10, poverty rate 26%, T2 rent €820. Shipping, health, tech, and what the ranking hides.",
+    metaTitle: "Working in Marseille 2027 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Marseille in 2027: job market 6.0/10, poverty rate 26%, T2 rent €820. Shipping, health, tech, and what the ranking hides.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35219,8 +35219,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-toulouse-2026",
     title: "Working in Toulouse: aerospace, space, and the risk of one industry",
-    metaTitle: "Working in Toulouse 2026 — Aerospace, Pay, Job Search",
-    metaDesc: "Working in Toulouse in 2026: job market 6.3/10, T2 rent €850, schools 9/10. Airbus, space, IT, and the cost of a single-industry city.",
+    metaTitle: "Working in Toulouse 2027 — Aerospace, Pay, Job Search",
+    metaDesc: "Working in Toulouse in 2027: job market 6.3/10, T2 rent €850, schools 9/10. Airbus, space, IT, and the cost of a single-industry city.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35267,8 +35267,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-bordeaux-2026",
     title: "Working in Bordeaux: what the high-speed line did to the job market",
-    metaTitle: "Working in Bordeaux 2026 — Sectors, Pay, Job Search",
-    metaDesc: "Working in Bordeaux in 2026: job market 6.6/10, T2 rent €900, buying €4,500/m². Aerospace, tech, wine, and the Paris commuter effect.",
+    metaTitle: "Working in Bordeaux 2027 — Sectors, Pay, Job Search",
+    metaDesc: "Working in Bordeaux in 2027: job market 6.6/10, T2 rent €900, buying €4,500/m². Aerospace, tech, wine, and the Paris commuter effect.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35315,8 +35315,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-lille-2026",
     title: "Working in Lille: retail head offices, tech, and a hard labour market",
-    metaTitle: "Working in Lille 2026 — Retail, Tech, Pay, Job Search",
-    metaDesc: "Working in Lille in 2026: job market 5.7/10, T2 rent €800, Brussels 35 minutes. Retail head offices, EuraTechnologies, and the traps.",
+    metaTitle: "Working in Lille 2027 — Retail, Tech, Pay, Job Search",
+    metaDesc: "Working in Lille in 2027: job market 5.7/10, T2 rent €800, Brussels 35 minutes. Retail head offices, EuraTechnologies, and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35363,8 +35363,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-strasbourg-2026",
     title: "Working in Strasbourg: European institutions, pharma, and Germany at ten minutes",
-    metaTitle: "Working in Strasbourg 2026 — EU Jobs, Pharma, Border",
-    metaDesc: "Working in Strasbourg in 2026: job market 5.5/10, T2 rent €800. EU institutions, pharma, cross-border work.",
+    metaTitle: "Working in Strasbourg 2027 — EU Jobs, Pharma, Border",
+    metaDesc: "Working in Strasbourg in 2027: job market 5.5/10, T2 rent €800. EU institutions, pharma, cross-border work.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35411,8 +35411,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-montpellier-2026",
     title: "Working in Montpellier: high demand, thin supply, and the arithmetic of that",
-    metaTitle: "Working in Montpellier 2026 — Health, Tech, Job Search",
-    metaDesc: "Working in Montpellier in 2026: job market 5.5/10, poverty rate 28%, T2 rent €850. Health, tech and research, in an oversubscribed city.",
+    metaTitle: "Working in Montpellier 2027 — Health, Tech, Job Search",
+    metaDesc: "Working in Montpellier in 2027: job market 5.5/10, poverty rate 28%, T2 rent €850. Health, tech and research, in an oversubscribed city.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35459,8 +35459,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-nice-2026",
     title: "Working in Nice: Sophia Antipolis, tourism, and a cost problem",
-    metaTitle: "Working in Nice 2026 — Sophia Antipolis, Pay, Jobs",
-    metaDesc: "Working in Nice in 2026: job market 6.0/10, T2 rent €1,100, buying €5,200/m². Sophia Antipolis, tourism, Monaco, and the traps.",
+    metaTitle: "Working in Nice 2027 — Sophia Antipolis, Pay, Jobs",
+    metaDesc: "Working in Nice in 2027: job market 6.0/10, T2 rent €1,100, buying €5,200/m². Sophia Antipolis, tourism, Monaco, and the traps.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35507,8 +35507,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-rennes-2026",
     title: "Working in Rennes: tech, cyber defence, and the limits of a specialism",
-    metaTitle: "Working in Rennes 2026 — Tech, Cyber, Pay, Job Search",
-    metaDesc: "Working in Rennes in 2026: job market 6.1/10, T2 rent €820, remote work 9/10. Tech, cyber, agrifood.",
+    metaTitle: "Working in Rennes 2027 — Tech, Cyber, Pay, Job Search",
+    metaDesc: "Working in Rennes in 2027: job market 6.1/10, T2 rent €820, remote work 9/10. Tech, cyber, agrifood.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35555,8 +35555,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-grenoble-2026",
     title: "Working in Grenoble: semiconductors, public research, and one valley",
-    metaTitle: "Working in Grenoble 2026 — Chips, R&D, Pay",
-    metaDesc: "Working in Grenoble in 2026: job market 5.8/10, T2 rent €750, schools 9/10. STMicroelectronics, CEA, Soitec, and the cost of specialising.",
+    metaTitle: "Working in Grenoble 2027 — Chips, R&D, Pay",
+    metaDesc: "Working in Grenoble in 2027: job market 5.8/10, T2 rent €750, schools 9/10. STMicroelectronics, CEA, Soitec, and the cost of specialising.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35603,8 +35603,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-rouen-2026",
     title: "Working in Rouen: chemicals, banking, and an hour from Paris",
-    metaTitle: "Working in Rouen 2026 — Chemicals, Banking, Pay",
-    metaDesc: "Working in Rouen in 2026: job market 5.2/10, T2 rent €720, €2,600 per m². Sanofi, Renault Cléon, the port, and an industry in transition.",
+    metaTitle: "Working in Rouen 2027 — Chemicals, Banking, Pay",
+    metaDesc: "Working in Rouen in 2027: job market 5.2/10, T2 rent €720, €2,600 per m². Sanofi, Renault Cléon, the port, and an industry in transition.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35651,8 +35651,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-reims-2026",
     title: "Working in Reims: champagne, services, and 45 minutes from Paris",
-    metaTitle: "Working in Reims 2026 — Champagne, Services, Pay",
-    metaDesc: "Working in Reims in 2026: job market 4.9/10, T2 rent €680, €2,300 per m². Champagne houses, regional banking, and a two-tier salary market.",
+    metaTitle: "Working in Reims 2027 — Champagne, Services, Pay",
+    metaDesc: "Working in Reims in 2027: job market 4.9/10, T2 rent €680, €2,300 per m². Champagne houses, regional banking, and a two-tier salary market.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35699,8 +35699,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-saint-etienne-2026",
     title: "Working in Saint-Étienne: cheap rent, design, and one shrinking employer",
-    metaTitle: "Working in Saint-Étienne 2026 — Industry, Design, Pay",
-    metaDesc: "Working in Saint-Étienne in 2026: job market 4.1/10, T2 rent €580, €1,500 per m². Design, industry, and the lowest housing costs of any big French city.",
+    metaTitle: "Working in Saint-Étienne 2027 — Industry, Design, Pay",
+    metaDesc: "Working in Saint-Étienne in 2027: job market 4.1/10, T2 rent €580, €1,500 per m². Design, industry, and the lowest housing costs of any big French city.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35747,8 +35747,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-toulon-2026",
     title: "Working in Toulon: the navy, the arsenal, and very little else",
-    metaTitle: "Working in Toulon 2026 — Navy, Defence, Pay",
-    metaDesc: "Working in Toulon in 2026: job market 5.3/10, T2 rent €780, €3,200 per m². Naval Group, the fleet, marine research, and a clearance problem.",
+    metaTitle: "Working in Toulon 2027 — Navy, Defence, Pay",
+    metaDesc: "Working in Toulon in 2027: job market 5.3/10, T2 rent €780, €3,200 per m². Naval Group, the fleet, marine research, and a clearance problem.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35795,8 +35795,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-angers-2026",
     title: "Working in Angers: plant science, electronics, and a low unemployment rate",
-    metaTitle: "Working in Angers 2026 — Plant Science, Tech, Pay",
-    metaDesc: "Working in Angers in 2026: job market 5.3/10, T2 rent €750, schools 7.9/10. Végépolys, Atos, the teaching hospital, and a narrow specialism.",
+    metaTitle: "Working in Angers 2027 — Plant Science, Tech, Pay",
+    metaDesc: "Working in Angers in 2027: job market 5.3/10, T2 rent €750, schools 7.9/10. Végépolys, Atos, the teaching hospital, and a narrow specialism.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35843,8 +35843,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-dijon-2026",
     title: "Working in Dijon: food, health, banking, and 95 minutes from Paris",
-    metaTitle: "Working in Dijon 2026 — Food, Health, Banking, Pay",
-    metaDesc: "Working in Dijon in 2026: job market 5.6/10, poverty rate 17%, T2 rent €720. Food processing, the teaching hospital, and a very sedentary market.",
+    metaTitle: "Working in Dijon 2027 — Food, Health, Banking, Pay",
+    metaDesc: "Working in Dijon in 2027: job market 5.6/10, poverty rate 17%, T2 rent €720. Food processing, the teaching hospital, and a very sedentary market.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35891,8 +35891,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-nancy-2026",
     title: "Working in Nancy: ten engineering schools and not enough employers",
-    metaTitle: "Working in Nancy 2026 — Health, Research, Pay",
-    metaDesc: "Working in Nancy in 2026: job market 4.4/10, T2 rent €710, €2,400 per m². The teaching hospital, public research, and a graduate surplus.",
+    metaTitle: "Working in Nancy 2027 — Health, Research, Pay",
+    metaDesc: "Working in Nancy in 2027: job market 4.4/10, T2 rent €710, €2,400 per m². The teaching hospital, public research, and a graduate surplus.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35939,8 +35939,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-clermont-ferrand-2026",
     title: "Working in Clermont-Ferrand: one company, and everything around it",
-    metaTitle: "Working in Clermont-Ferrand 2026 — Michelin, Pay",
-    metaDesc: "Working in Clermont-Ferrand in 2026: job market 5.4/10, T2 rent €680, nature 7.2/10. Michelin, Limagrain, and the risk of a single employer.",
+    metaTitle: "Working in Clermont-Ferrand 2027 — Michelin, Pay",
+    metaDesc: "Working in Clermont-Ferrand in 2027: job market 5.4/10, T2 rent €680, nature 7.2/10. Michelin, Limagrain, and the risk of a single employer.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -35987,8 +35987,8 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-metz-2026",
     title: "Working in Metz: two labour markets, one of them in Luxembourg",
-    metaTitle: "Working in Metz 2026 — Industry, Cross-Border Work",
-    metaDesc: "Working in Metz in 2026: job market 4.7/10, T2 rent €680, €2,300 per m². Local industry, and the 34-day tax cap on cross-border remote work.",
+    metaTitle: "Working in Metz 2027 — Industry, Cross-Border Work",
+    metaDesc: "Working in Metz in 2027: job market 4.7/10, T2 rent €680, €2,300 per m². Local industry, and the 34-day tax cap on cross-border remote work.",
     category: "moving",
     emoji: "💼",
     readMinutes: 8,
@@ -36035,7 +36035,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-caen-2026",
     title: "Working in Caen: hospitals, dairy, and a particle accelerator",
-    metaTitle: "Working in Caen 2026 — Health, Food, Research",
+    metaTitle: "Working in Caen 2027 — Health, Food, Research",
     metaDesc:
       "Working in Caen in 2026: job market 5.1/10, T2 rent €700, €2,500 per m². The teaching hospital, Normandy dairy, GANIL, and no direct TGV to Paris.",
     category: "moving",
@@ -36085,7 +36085,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-brest-2026",
     title: "Working in Brest: the navy, the ocean, and a security clearance",
-    metaTitle: "Working in Brest 2026 — Navy, Ocean Science, Pay",
+    metaTitle: "Working in Brest 2027 — Navy, Ocean Science, Pay",
     metaDesc:
       "Working in Brest in 2026: job market 5.4/10, T2 rent €650, €2,500 per m². Naval Group, the navy, Ifremer, and the clearance that gates half the jobs.",
     category: "moving",
@@ -36135,7 +36135,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-tours-2026",
     title: "Working in Tours: hospitals, banking, and 55 minutes from Paris",
-    metaTitle: "Working in Tours 2026 — Health, Banking, TGV Paris",
+    metaTitle: "Working in Tours 2027 — Health, Banking, TGV Paris",
     metaDesc:
       "Working in Tours in 2026: job market 5.3/10, T2 rent €700, €2,700 per m². The teaching hospital, Michelin, Sanofi, and a two-tier commuter market.",
     category: "moving",
@@ -36185,7 +36185,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-orleans-2026",
     title: "Working in Orléans: pharma research, geoscience, and an hour from Paris",
-    metaTitle: "Working in Orléans 2026 — Pharma, R&D, Cosmetics",
+    metaTitle: "Working in Orléans 2027 — Pharma, R&D, Cosmetics",
     metaDesc:
       "Working in Orléans in 2026: job market 4.9/10, T2 rent €700, €2,400 per m². Servier research, the BRGM, Dior cosmetics, and a one-hour Paris line.",
     category: "moving",
@@ -36235,7 +36235,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-le-mans-2026",
     title: "Working in Le Mans: insurance, car parts, and one week a year that changes everything",
-    metaTitle: "Working in Le Mans 2026 — Insurance, Industry, TGV",
+    metaTitle: "Working in Le Mans 2027 — Insurance, Industry, TGV",
     metaDesc:
       "Working in Le Mans in 2026: job market 4.8/10, T2 rent €650, €1,900 per m². Covéa and mutual insurance, car components, and 55 minutes to Paris.",
     category: "moving",
@@ -36285,7 +36285,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-amiens-2026",
     title: "Working in Amiens: food processing, factories, and a squeeze between two cities",
-    metaTitle: "Working in Amiens 2026 — Industry, Food, Salaries",
+    metaTitle: "Working in Amiens 2027 — Industry, Food, Salaries",
     metaDesc:
       "Working in Amiens in 2026: job market 4.4/10, T2 rent €680, €2,200 per m². Sugar and food processing, the teaching hospital, and cheap rent with hard maths.",
     category: "moving",
@@ -36335,7 +36335,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-le-havre-2026",
     title: "Working in Le Havre: the port, the refinery, and an industry changing shape",
-    metaTitle: "Working in Le Havre 2026 — Port, Industry, Energy",
+    metaTitle: "Working in Le Havre 2027 — Port, Industry, Energy",
     metaDesc:
       "Working in Le Havre in 2026: job market 4.6/10, T2 rent €650, €2,000 per m². France's leading container port, refining in transition, and shift work.",
     category: "moving",
@@ -36385,7 +36385,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-nimes-2026",
     title: "Working in Nîmes: sunshine, Roman stone, and the hardest job market in this series",
-    metaTitle: "Working in Nîmes 2026 — Jobs, Salaries, Reality",
+    metaTitle: "Working in Nîmes 2027 — Jobs, Salaries, Reality",
     metaDesc:
       "Working in Nîmes in 2026: job market 4.3/10, T2 rent €720, €2,800 per m². Food processing, public administration, high unemployment, and 40°C summers.",
     category: "moving",
@@ -36435,7 +36435,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-aix-en-provence-2026",
     title: "Working in Aix-en-Provence: law, consulting, fusion research, and the rent",
-    metaTitle: "Working in Aix-en-Provence 2026 — Law, Consulting",
+    metaTitle: "Working in Aix-en-Provence 2027 — Law, Consulting",
     metaDesc:
       "Working in Aix-en-Provence in 2026: job market 6.5/10, T2 rent €1,050, €5,000 per m². Audit and law firms, Airbus Helicopters, ITER, and the housing squeeze.",
     category: "moving",
@@ -36491,7 +36491,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "working-in-nantes-2026",
     title: "Working in Nantes: aerospace, shipyards, tech, and a city that keeps arriving",
-    metaTitle: "Working in Nantes 2026 — Sectors, Pay, Job Search",
+    metaTitle: "Working in Nantes 2027 — Sectors, Pay, Job Search",
     metaDesc:
       "Working in Nantes in 2026: job market 6.4/10, aerospace and shipbuilding, French Tech, €850 two-bed, remote work 9/10.",
     category: "moving",
@@ -36547,7 +36547,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-la-rochelle-2026",
     title: "Single-parent holidays in La Rochelle: the week that works without a car",
-    metaTitle: "Single-Parent Holidays in La Rochelle 2026",
+    metaTitle: "Single-Parent Holidays in La Rochelle 2027",
     metaDesc:
       "La Rochelle alone with the kids: 2h30 by TGV, the aquarium opposite the station, Yélo bikes, beaches by bus, and the weeks that price you out.",
     category: "family",
@@ -36595,7 +36595,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-strasbourg-2026",
     title: "Single-parent holidays in Strasbourg: six tram lines and a walkable island",
-    metaTitle: "Single-Parent Holidays in Strasbourg 2026",
+    metaTitle: "Single-Parent Holidays in Strasbourg 2027",
     metaDesc:
       "Strasbourg alone with the kids: 1h50 by TGV, six tram lines, a UNESCO island you cross on foot, Le Vaisseau, and how to do the Christmas markets.",
     category: "family",
@@ -36643,7 +36643,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-nantes-2026",
     title: "Single-parent holidays in Nantes: a mechanical elephant and three tram lines",
-    metaTitle: "Single-Parent Holidays in Nantes 2026",
+    metaTitle: "Single-Parent Holidays in Nantes 2027",
     metaDesc:
       "Nantes alone with the kids: 2h05 by TGV, three tram lines and a river shuttle, the Machines de l'Île, and the June weekend to plan around.",
     category: "family",
@@ -36691,7 +36691,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-rennes-2026",
     title: "Single-parent holidays in Rennes: the base camp for Brittany without a car",
-    metaTitle: "Single-Parent Holidays in Rennes 2026",
+    metaTitle: "Single-Parent Holidays in Rennes 2027",
     metaDesc:
       "Rennes alone with the kids: 1h25 by TGV, two metro lines, the Thabor park, and day trips to Saint-Malo, Dinan and Vitré by regional train.",
     category: "family",
@@ -36739,7 +36739,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-vannes-2026",
     title: "Single-parent holidays in Vannes: ramparts, islands and a lot of walking",
-    metaTitle: "Single-Parent Holidays in Vannes 2026",
+    metaTitle: "Single-Parent Holidays in Vannes 2027",
     metaDesc:
       "Vannes alone with the kids: 2h30 by TGV, a walled town you cross in ten minutes, boats to the Gulf islands — and the light local bus network.",
     category: "family",
@@ -36787,7 +36787,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-nancy-2026",
     title: "Single-parent holidays in Nancy: a UNESCO square you can afford",
-    metaTitle: "Single-Parent Holidays in Nancy 2026",
+    metaTitle: "Single-Parent Holidays in Nancy 2027",
     metaDesc:
       "Nancy alone with the kids: 1h30 by TGV, a UNESCO square 500 m from the station, Art Nouveau, a 23-hectare park — and the cheapest cost axis here.",
     category: "family",
@@ -36835,7 +36835,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-dijon-2026",
     title: "Single-parent holidays in Dijon: an owl trail and a train to Beaune",
-    metaTitle: "Single-Parent Holidays in Dijon 2026",
+    metaTitle: "Single-Parent Holidays in Dijon 2027",
     metaDesc:
       "Dijon alone with the kids: 1h35 by TGV, a 22-stop owl trail through the old town, free permanent collections, and Beaune 25 minutes away.",
     category: "family",
@@ -36882,8 +36882,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-lyon-2026",
-    title: "Family life in Lyon (2026): districts, schools, the real budget",
-    metaTitle: "Family Life in Lyon 2026: Districts, Schools, Budget",
+    title: "Family life in Lyon (2027): districts, schools, the real budget",
+    metaTitle: "Family Life in Lyon 2027: Districts, Schools, Budget",
     metaDesc:
       "Raising children in Lyon in 2026: which districts work, how school enrolment really happens, a €1,380 T3, and the childcare gap nobody warns you about.",
     category: "family",
@@ -36928,8 +36928,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-nantes-2026",
-    title: "Family life in Nantes (2026): the house-with-a-garden metro",
-    metaTitle: "Family Life in Nantes 2026: Schools, Houses, Budget",
+    title: "Family life in Nantes (2027): the house-with-a-garden metro",
+    metaTitle: "Family Life in Nantes 2027: Schools, Houses, Budget",
     metaDesc:
       "Raising children in Nantes in 2026: a €1,150 T3, houses at €4,128/m², schools in the national top 40, and the ring communes families actually buy in.",
     category: "family",
@@ -36974,8 +36974,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-bordeaux-2026",
-    title: "Family life in Bordeaux (2026): the district decides everything",
-    metaTitle: "Family Life in Bordeaux 2026: Schools, Districts, Cost",
+    title: "Family life in Bordeaux (2027): the district decides everything",
+    metaTitle: "Family Life in Bordeaux 2027: Schools, Districts, Cost",
     metaDesc:
       "Raising children in Bordeaux in 2026: a €1,200 T3, flats at €4,171/m², and the lowest child share of this series. Where families actually end up.",
     category: "family",
@@ -37020,8 +37020,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-toulouse-2026",
-    title: "Family life in Toulouse (2026): top-scoring schools, ring-commune prices",
-    metaTitle: "Family Life in Toulouse 2026: Schools, Suburbs, Budget",
+    title: "Family life in Toulouse (2027): top-scoring schools, ring-commune prices",
+    metaTitle: "Family Life in Toulouse 2027: Schools, Suburbs, Budget",
     metaDesc:
       "Raising children in Toulouse in 2026: schools tied for first of 593, a €1,150 T3, flats at €3,222/m², and why the family market is in the ring communes.",
     category: "family",
@@ -37066,8 +37066,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-rennes-2026",
-    title: "Family life in Rennes (2026): top-scoring schools, and a close ring",
-    metaTitle: "Family Life in Rennes 2026: Schools, Districts, Budget",
+    title: "Family life in Rennes (2027): top-scoring schools, and a close ring",
+    metaTitle: "Family Life in Rennes 2027: Schools, Districts, Budget",
     metaDesc:
       "Raising children in Rennes in 2026: schools tied for first of 593, a €1,100 T3, houses at €4,529/m², and the sea 55 minutes away by train.",
     category: "family",
@@ -37112,8 +37112,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-strasbourg-2026",
-    title: "Family life in Strasbourg (2026): free bilingual schooling",
-    metaTitle: "Family Life in Strasbourg 2026: Bilingual Schools, Cost",
+    title: "Family life in Strasbourg (2027): free bilingual schooling",
+    metaTitle: "Family Life in Strasbourg 2027: Bilingual Schools, Cost",
     metaDesc:
       "Raising children in Strasbourg in 2026: free German-French bilingual state schooling, a €1,080 T3, cargo bikes, and Germany a tram ride away.",
     category: "family",
@@ -37158,8 +37158,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-lille-2026",
-    title: "Family life in Lille (2026): where the family house still exists",
-    metaTitle: "Family Life in Lille 2026: Houses, Schools, Real Budget",
+    title: "Family life in Lille (2027): where the family house still exists",
+    metaTitle: "Family Life in Lille 2027: Houses, Schools, Real Budget",
     metaDesc:
       "Raising children in Lille in 2026: houses at €2,815/m², cheaper per m² than flats, a €1,080 T3, and three capitals within 90 minutes.",
     category: "family",
@@ -37204,8 +37204,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-montpellier-2026",
-    title: "Family life in Montpellier (2026): the sea, and the school map",
-    metaTitle: "Family Life in Montpellier 2026: Schools, Districts, Cost",
+    title: "Family life in Montpellier (2027): the sea, and the school map",
+    metaTitle: "Family Life in Montpellier 2027: Schools, Districts, Cost",
     metaDesc:
       "Raising children in Montpellier in 2026: a €1,150 T3, flats at €3,354/m², the Mediterranean after school, and the widest school gaps in this series.",
     category: "family",
@@ -37250,8 +37250,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-marseille-2026",
-    title: "Family life in Marseille (2026): the school question comes first",
-    metaTitle: "Family Life in Marseille 2026: Schools, Districts, Cost",
+    title: "Family life in Marseille (2027): the school question comes first",
+    metaTitle: "Family Life in Marseille 2027: Schools, Districts, Cost",
     metaDesc:
       "Raising children in Marseille in 2026: the most children of any city in this series, the weakest schools ranking, and the method families use to make it work.",
     category: "family",
@@ -37296,8 +37296,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-nice-2026",
-    title: "Family life in Nice (2026): the mildest winter, at Riviera prices",
-    metaTitle: "Family Life in Nice 2026: Schools, Districts, Real Cost",
+    title: "Family life in Nice (2027): the mildest winter, at Riviera prices",
+    metaTitle: "Family Life in Nice 2027: Schools, Districts, Real Cost",
     metaDesc:
       "Raising children in Nice in 2026: the most expensive housing in this series at €1,500 a T3 and €4,802/m², international schools, and winters spent outdoors.",
     category: "family",
@@ -37342,8 +37342,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-angers-2026",
-    title: "Family life in Angers (2026): where the house costs what the flat costs",
-    metaTitle: "Family Life in Angers 2026: Schools, Districts, Budget",
+    title: "Family life in Angers (2027): where the house costs what the flat costs",
+    metaTitle: "Family Life in Angers 2027: Schools, Districts, Budget",
     metaDesc:
       "Raising children in Angers in 2026: schools in the national top 40, a €1,000 T3, and houses at €3,235/m² against flats at €3,143. The full picture.",
     category: "family",
@@ -37388,8 +37388,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-caen-2026",
-    title: "Family life in Caen (2026): the sea at 15 km, and the fewest children",
-    metaTitle: "Family Life in Caen 2026: Schools, the Sea, Real Costs",
+    title: "Family life in Caen (2027): the sea at 15 km, and the fewest children",
+    metaTitle: "Family Life in Caen 2027: Schools, the Sea, Real Costs",
     metaDesc:
       "Raising children in Caen in 2026: a €930 T3, houses at €3,545/m², the Channel 15 km away, and the lowest child share of any city in this series.",
     category: "family",
@@ -37434,8 +37434,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-dijon-2026",
-    title: "Family life in Dijon (2026): the highest incomes of the batch",
-    metaTitle: "Family Life in Dijon 2026: Schools, Districts, Budget",
+    title: "Family life in Dijon (2027): the highest incomes of the batch",
+    metaTitle: "Family Life in Dijon 2027: Schools, Districts, Budget",
     metaDesc:
       "Raising children in Dijon in 2026: a €950 T3, flats at €2,625/m², the lowest poverty rate in this series, and the ring communes families buy in.",
     category: "family",
@@ -37480,8 +37480,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-tours-2026",
-    title: "Family life in Tours (2026): top-35 schools on the Loire",
-    metaTitle: "Family Life in Tours 2026: Schools, the Loire, Budget",
+    title: "Family life in Tours (2027): top-35 schools on the Loire",
+    metaTitle: "Family Life in Tours 2027: Schools, the Loire, Budget",
     metaDesc:
       "Raising children in Tours in 2026: schools in the national top 40, a €940 T3, flats at €2,827/m², and the classes for children who arrive without French.",
     category: "family",
@@ -37526,8 +37526,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-metz-2026",
-    title: "Family life in Metz (2026): local law, Luxembourg, and no price data",
-    metaTitle: "Family Life in Metz 2026: Schools, Local Law, Budget",
+    title: "Family life in Metz (2027): local law, Luxembourg, and no price data",
+    metaTitle: "Family Life in Metz 2027: Schools, Local Law, Budget",
     metaDesc:
       "Raising children in Metz in 2026: a €910 T3, the Alsace-Moselle local law that changes school and health cover, and what Luxembourg does to a family budget.",
     category: "family",
@@ -37572,8 +37572,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-clermont-ferrand-2026",
-    title: "Family life in Clermont-Ferrand (2026): volcanoes and the cheapest flats",
-    metaTitle: "Family Life in Clermont-Ferrand 2026: Schools, Costs",
+    title: "Family life in Clermont-Ferrand (2027): volcanoes and the cheapest flats",
+    metaTitle: "Family Life in Clermont-Ferrand 2027: Schools, Costs",
     metaDesc:
       "Raising children in Clermont-Ferrand in 2026: flats at €2,105/m², a €900 T3, volcanoes on the doorstep, and the highest poverty rate in this batch.",
     category: "family",
@@ -37618,8 +37618,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-orleans-2026",
-    title: "Family life in Orléans (2026): the one city here with children in it",
-    metaTitle: "Family Life in Orléans 2026: Schools, Houses, Budget",
+    title: "Family life in Orléans (2027): the one city here with children in it",
+    metaTitle: "Family Life in Orléans 2027: Schools, Houses, Budget",
     metaDesc:
       "Raising children in Orléans in 2026: the only city in this batch above the national child share, houses at €2,572/m², a €930 T3, and the Paris commute.",
     category: "family",
@@ -37664,8 +37664,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-pau-2026",
-    title: "Family life in Pau (2026): the Pyrenees at the end of the street",
-    metaTitle: "Family Life in Pau 2026: Schools, Mountains, Budget",
+    title: "Family life in Pau (2027): the Pyrenees at the end of the street",
+    metaTitle: "Family Life in Pau 2027: Schools, Mountains, Budget",
     metaDesc:
       "Raising children in Pau in 2026: a €900 T3, flats at €2,135/m², ski resorts an hour away, and the oldest population of any city in this series.",
     category: "family",
@@ -37710,8 +37710,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-besancon-2026",
-    title: "Family life in Besançon (2026): forest at the end of every street",
-    metaTitle: "Family Life in Besançon 2026: Schools, Nature, Costs",
+    title: "Family life in Besançon (2027): forest at the end of every street",
+    metaTitle: "Family Life in Besançon 2027: Schools, Nature, Costs",
     metaDesc:
       "Raising children in Besançon in 2026: a €900 T3, flats at €2,178/m², a UNESCO citadel with a zoo in it, and what working in Switzerland really involves.",
     category: "family",
@@ -37756,8 +37756,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-grenoble-2026",
-    title: "Family life in Grenoble (2026): the numbers, the schools, the catch",
-    metaTitle: "Family Life in Grenoble 2026: T3 Rent, Schools, Safety",
+    title: "Family life in Grenoble (2027): the numbers, the schools, the catch",
+    metaTitle: "Family Life in Grenoble 2027: T3 Rent, Schools, Safety",
     metaDesc:
       "Raising children in Grenoble in 2026: a €1,020 T3, a top-band schools score, mountains at the end of the street, and a safety score that deserves a second look.",
     category: "family",
@@ -37798,8 +37798,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-reims-2026",
-    title: "Family life in Reims (2026): a house at flat prices, and what it costs elsewhere",
-    metaTitle: "Family Life in Reims 2026: Budget, Schools, House or Flat",
+    title: "Family life in Reims (2027): a house at flat prices, and what it costs elsewhere",
+    metaTitle: "Family Life in Reims 2027: Budget, Schools, House or Flat",
     metaDesc:
       "Raising children in Reims in 2026: a €900 T3, houses priced the same per m² as flats, 16.2% of residents under 15, and how Reims compares with Châlons.",
     category: "family",
@@ -37840,8 +37840,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-rouen-2026",
-    title: "Family life in Rouen (2026): a growing city, a €950 T3",
-    metaTitle: "Family Life in Rouen 2026: Budget, Schools, Daily Life",
+    title: "Family life in Rouen (2027): a growing city, a €950 T3",
+    metaTitle: "Family Life in Rouen 2027: Budget, Schools, Daily Life",
     metaDesc:
       "Raising children in Rouen in 2026: a €950 T3, 5.6% more residents since 2016, schooling score 6.6, and how Rouen compares with Le Havre.",
     category: "family",
@@ -37882,8 +37882,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-brest-2026",
-    title: "Family life in Brest (2026): sea, schools and an €850 T3",
-    metaTitle: "Family Life in Brest 2026: T3 at €850, Schools, Sea",
+    title: "Family life in Brest (2027): sea, schools and an €850 T3",
+    metaTitle: "Family Life in Brest 2027: T3 at €850, Schools, Sea",
     metaDesc:
       "Raising children in Brest in 2026: a €850 T3, schooling score 7.4, a decent 5.7 on safety, and the sea within reach. Figures, Quimper and Lorient compared.",
     category: "family",
@@ -37924,8 +37924,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-saint-etienne-2026",
-    title: "Family life in Saint-Étienne (2026): cheap, big, and honest about the catch",
-    metaTitle: "Family Life in Saint-Étienne 2026: T3 at €770, Prices",
+    title: "Family life in Saint-Étienne (2027): cheap, big, and honest about the catch",
+    metaTitle: "Family Life in Saint-Étienne 2027: T3 at €770, Prices",
     metaDesc:
       "Raising children in Saint-Étienne in 2026: a €770 T3, flats at €1,197/m², 17.1% of residents under 15. The figures, and the reservations, plainly.",
     category: "family",
@@ -37966,8 +37966,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-limoges-2026",
-    title: "Family life in Limoges (2026): calm, cheap, and short of children",
-    metaTitle: "Family Life in Limoges 2026: T3 at €800, Safety, Costs",
+    title: "Family life in Limoges (2027): calm, cheap, and short of children",
+    metaTitle: "Family Life in Limoges 2027: T3 at €800, Safety, Costs",
     metaDesc:
       "Raising children in Limoges in 2026: a €800 T3, safety scored 6.1, cost of living 7.1 but few children (13.9%). Figures, Poitiers and Brive compared.",
     category: "family",
@@ -38008,8 +38008,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-amiens-2026",
-    title: "Family life in Amiens (2026): where a house is cheaper than a flat",
-    metaTitle: "Family Life in Amiens 2026: Budget, Schools, Houses",
+    title: "Family life in Amiens (2027): where a house is cheaper than a flat",
+    metaTitle: "Family Life in Amiens 2027: Budget, Schools, Houses",
     metaDesc:
       "Raising children in Amiens in 2026: a €900 T3, houses cheaper than flats (€2,273 vs €2,491 per m²), 16.2% of residents under 15. Figures and verdict.",
     category: "family",
@@ -38050,8 +38050,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-perpignan-2026",
-    title: "Family life in Perpignan (2026): low rents, a pricey house market",
-    metaTitle: "Family Life in Perpignan 2026: €870 T3, Schools, Budget",
+    title: "Family life in Perpignan (2027): low rents, a pricey house market",
+    metaTitle: "Family Life in Perpignan 2027: €870 T3, Schools, Budget",
     metaDesc:
       "Raising children in Perpignan in 2026: a €870 T3, houses at €2,181 per m² against €1,500 for flats, 17.5% under 15. Figures and verdict.",
     category: "family",
@@ -38092,8 +38092,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-annecy-2026",
-    title: "Family life in Annecy (2026): an exceptional setting, a budget to plan",
-    metaTitle: "Family Life in Annecy 2026: €1,450 T3, Schools, Costs",
+    title: "Family life in Annecy (2027): an exceptional setting, a budget to plan",
+    metaTitle: "Family Life in Annecy 2027: €1,450 T3, Schools, Costs",
     metaDesc:
       "Raising children in Annecy in 2026: a €1,450 T3, flats at €5,092 per m², schools scored 8.7 and daily life 9.0, but cost of living 3.1. Figures and verdict.",
     category: "family",
@@ -38134,8 +38134,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-la-rochelle-2026",
-    title: "Family life in La Rochelle (2026): sea, bikes and a high price per m²",
-    metaTitle: "Family Life in La Rochelle 2026: €1,100 T3, Bikes, Costs",
+    title: "Family life in La Rochelle (2027): sea, bikes and a high price per m²",
+    metaTitle: "Family Life in La Rochelle 2027: €1,100 T3, Bikes, Costs",
     metaDesc:
       "Raising children in La Rochelle in 2026: a €1,100 T3, flats at €4,844 per m² (dearer than houses), 12.9% under 15, population up 5.6% since 2016.",
     category: "family",
@@ -38176,8 +38176,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-poitiers-2026",
-    title: "Family life in Poitiers (2026): a controlled budget, upper-middle schools",
-    metaTitle: "Family Life in Poitiers 2026: €880 T3, Schools, Budget",
+    title: "Family life in Poitiers (2027): a controlled budget, upper-middle schools",
+    metaTitle: "Family Life in Poitiers 2027: €880 T3, Schools, Budget",
     metaDesc:
       "Raising children in Poitiers in 2026: a €880 T3, flats at €2,200 per m², schools scored 7.4 but safety 5.7, 13.9% under 15. Figures and verdict.",
     category: "family",
@@ -38218,8 +38218,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-nancy-2026",
-    title: "Family life in Nancy (2026): solid schools, city-centre parks, fair prices",
-    metaTitle: "Family Life in Nancy 2026: €950 T3, Schools, Parks",
+    title: "Family life in Nancy (2027): solid schools, city-centre parks, fair prices",
+    metaTitle: "Family Life in Nancy 2027: €950 T3, Schools, Parks",
     metaDesc:
       "Raising children in Nancy in 2026: a €950 T3, flats at €2,282 per m² (houses €2,610), 12.2% under 15, schools scored 7.4. Figures and verdict.",
     category: "family",
@@ -38260,8 +38260,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-vannes-2026",
-    title: "Family life in Vannes (2026): the gulf, high safety and prices to match",
-    metaTitle: "Family Life in Vannes 2026: €1,150 T3, Safety 6.9, Costs",
+    title: "Family life in Vannes (2027): the gulf, high safety and prices to match",
+    metaTitle: "Family Life in Vannes 2027: €1,150 T3, Safety 6.9, Costs",
     metaDesc:
       "Raising children in Vannes in 2026: a €1,150 T3, flats at €3,864 per m² (houses €4,112), safety 6.9, schools 7.4, 12.7% under 15. Figures, verdict.",
     category: "family",
@@ -38302,8 +38302,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-le-havre-2026",
-    title: "Family life in Le Havre (2026): low rents, the sea close, points to watch",
-    metaTitle: "Family Life in Le Havre 2026: €870 T3, 17.7% Under 15",
+    title: "Family life in Le Havre (2027): low rents, the sea close, points to watch",
+    metaTitle: "Family Life in Le Havre 2027: €870 T3, 17.7% Under 15",
     metaDesc:
       "Raising children in Le Havre in 2026: a €870 T3, flats at €2,237 per m², 17.7% under 15, but population down 2.3% since 2016 and safety 4.5.",
     category: "family",
@@ -38344,8 +38344,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-quimper-2026",
-    title: "Family life in Quimper (2026): a Breton préfecture at child scale",
-    metaTitle: "Family Life in Quimper 2026: €940 T3, Houses €2,259/m²",
+    title: "Family life in Quimper (2027): a Breton préfecture at child scale",
+    metaTitle: "Family Life in Quimper 2027: €940 T3, Houses €2,259/m²",
     metaDesc:
       "Raising children in Quimper in 2026: a €940 T3, flats at €2,122 per m², houses at €2,259, 14.3% under 15, schools 6.6 and safety 6.1.",
     category: "family",
@@ -38386,8 +38386,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-valence-2026",
-    title: "Family life in Valence (2026): gentle rents, middling safety, Rhône valley",
-    metaTitle: "Family Life in Valence 2026: €900 T3, 16.3% Under 15",
+    title: "Family life in Valence (2027): gentle rents, middling safety, Rhône valley",
+    metaTitle: "Family Life in Valence 2027: €900 T3, 16.3% Under 15",
     metaDesc:
       "Raising children in Valence in 2026: a €900 T3, flats at €1,989 per m², houses at €2,510, 16.3% under 15, safety 5.2, cost of living 6.7.",
     category: "family",
@@ -38428,8 +38428,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-bayonne-2026",
-    title: "Family life in Bayonne (2026): the Basque coast without Anglet's prices",
-    metaTitle: "Family Life in Bayonne 2026: €1,200 T3, Flats €4,039/m²",
+    title: "Family life in Bayonne (2027): the Basque coast without Anglet's prices",
+    metaTitle: "Family Life in Bayonne 2027: €1,200 T3, Flats €4,039/m²",
     metaDesc:
       "Raising children in Bayonne in 2026: a €1,200 T3, flats at €4,039 per m², schools 7.0, daily life 7.0, but cost of living 3.8 and 13.0% under 15.",
     category: "family",
@@ -38470,8 +38470,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-chambery-2026",
-    title: "Family life in Chambéry (2026): the Alps at hand, the bill included",
-    metaTitle: "Family Life in Chambéry 2026: €1,100 T3, Nature 8.1",
+    title: "Family life in Chambéry (2027): the Alps at hand, the bill included",
+    metaTitle: "Family Life in Chambéry 2027: €1,100 T3, Nature 8.1",
     metaDesc:
       "Raising children in Chambéry in 2026: a €1,100 T3, flats at €2,895 per m², houses at €3,817, nature 8.1, schools 7.4, 17.0% under 15.",
     category: "family",
@@ -38512,8 +38512,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-avignon-2026",
-    title: "Family life in Avignon (2026): a fair rent, scores to read closely",
-    metaTitle: "Family Life in Avignon 2026: €1,000 T3, 19.3% Under 15",
+    title: "Family life in Avignon (2027): a fair rent, scores to read closely",
+    metaTitle: "Family Life in Avignon 2027: €1,000 T3, 19.3% Under 15",
     metaDesc:
       "Raising children in Avignon in 2026: a €1,000 T3, flats at €2,321 per m², 19.3% under 15, but schools 5.3, safety 4.3 and 33% poverty.",
     category: "family",
@@ -38554,8 +38554,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-nimes-2026",
-    title: "Family life in Nîmes (2026): Roman, young and demanding on the choice of neighbourhood",
-    metaTitle: "Family Life in Nîmes 2026: €960 T3, Houses €2,852/m²",
+    title: "Family life in Nîmes (2027): Roman, young and demanding on the choice of neighbourhood",
+    metaTitle: "Family Life in Nîmes 2027: €960 T3, Houses €2,852/m²",
     metaDesc:
       "Raising children in Nîmes in 2026: a €960 T3, flats at €2,106 per m², houses at €2,852, 16.9% under 15, schools 5.3, safety 3.9.",
     category: "family",
@@ -38596,8 +38596,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-toulon-2026",
-    title: "Family life in Toulon (2026): the roadstead, Mont Faron and a balance to check",
-    metaTitle: "Family Life in Toulon 2026: €1,050 T3, Nature 7.0",
+    title: "Family life in Toulon (2027): the roadstead, Mont Faron and a balance to check",
+    metaTitle: "Family Life in Toulon 2027: €1,050 T3, Nature 7.0",
     metaDesc:
       "Raising children in Toulon in 2026: a €1,050 T3, flats at €2,667 per m², houses at €4,518, nature 7.0 but schools 4.5 and safety 4.1.",
     category: "family",
@@ -38638,8 +38638,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-aix-en-provence-2026",
-    title: "Family life in Aix-en-Provence (2026): the best schools in the lot, at a premium",
-    metaTitle: "Family Life in Aix-en-Provence 2026: €1,400 T3, Schools 8.3",
+    title: "Family life in Aix-en-Provence (2027): the best schools in the lot, at a premium",
+    metaTitle: "Family Life in Aix-en-Provence 2027: €1,400 T3, Schools 8.3",
     metaDesc:
       "Raising children in Aix-en-Provence in 2026: a €1,400 T3, flats at €4,819 per m², schools 8.3 (rank 30), 15% poverty. The price of the top score.",
     category: "family",
@@ -38680,8 +38680,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-montauban-2026",
-    title: "Family life in Montauban (2026): a €860 T3 and a city that looks to Toulouse",
-    metaTitle: "Family Life in Montauban 2026: €860 T3, €1,983 per m²",
+    title: "Family life in Montauban (2027): a €860 T3 and a city that looks to Toulouse",
+    metaTitle: "Family Life in Montauban 2027: €860 T3, €1,983 per m²",
     metaDesc:
       "Raising children in Montauban in 2026: a €860 T3, flats at €1,983 per m², houses at €2,233, 17% under 15, schools 6.2 and safety 5.5.",
     category: "family",
@@ -38722,8 +38722,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-troyes-2026",
-    title: "Family life in Troyes (2026): low prices for a city of 62,000, low incomes too",
-    metaTitle: "Family Life in Troyes 2026: €860 T3, €1,586 per m²",
+    title: "Family life in Troyes (2027): low prices for a city of 62,000, low incomes too",
+    metaTitle: "Family Life in Troyes 2027: €860 T3, €1,586 per m²",
     metaDesc:
       "Raising children in Troyes in 2026: a €860 T3, flats at €1,586 per m², 17.4% under 15, schools 6.4 (rank 215) but 30% poverty. Verdict by profile.",
     category: "family",
@@ -38764,8 +38764,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-angouleme-2026",
-    title: "Family life in Angoulême (2026): comics, low rents and a shrinking population",
-    metaTitle: "Family Life in Angoulême 2026: €820 T3, €1,597 per m²",
+    title: "Family life in Angoulême (2027): comics, low rents and a shrinking population",
+    metaTitle: "Family Life in Angoulême 2027: €820 T3, €1,597 per m²",
     metaDesc:
       "Raising children in Angoulême in 2026: a €820 T3, flats at €1,597 per m², schools 6.2, safety 5.1, 26% poverty and a population down 1.2% since 2016.",
     category: "family",
@@ -38806,8 +38806,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-lorient-2026",
-    title: "Family life in Lorient (2026): sailing for children and a €900 T3",
-    metaTitle: "Family Life in Lorient 2026: €900 T3, €2,574 per m²",
+    title: "Family life in Lorient (2027): sailing for children and a €900 T3",
+    metaTitle: "Family Life in Lorient 2027: €900 T3, €2,574 per m²",
     metaDesc:
       "Raising children in Lorient in 2026: a €900 T3, flats at €2,574 per m², houses at €3,016, schools 6.6, nature 6.4 and 21% poverty.",
     category: "family",
@@ -38848,8 +38848,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-arles-2026",
-    title: "Family life in Arles (2026): Roman monuments and the Camargue, but low scores",
-    metaTitle: "Family Life in Arles 2026: €930 T3, Schools 4.5, Safety 4.1",
+    title: "Family life in Arles (2027): Roman monuments and the Camargue, but low scores",
+    metaTitle: "Family Life in Arles 2027: €930 T3, Schools 4.5, Safety 4.1",
     metaDesc:
       "Raising children in Arles in 2026: a €930 T3, flats at €2,586 per m², houses at €2,903, schools 4.5 (rank 442), safety 4.1, population down 3.2% since 2016.",
     category: "family",
@@ -38890,8 +38890,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-cherbourg-2026",
-    title: "Family life in Cherbourg (2026): an €820 T3 and a city losing residents",
-    metaTitle: "Family Life in Cherbourg 2026: €820 T3, 14% Poverty",
+    title: "Family life in Cherbourg (2027): an €820 T3 and a city losing residents",
+    metaTitle: "Family Life in Cherbourg 2027: €820 T3, 14% Poverty",
     metaDesc:
       "Raising children in Cherbourg-en-Cotentin in 2026: an €820 T3, flats at €2,264 per m², 14% poverty, 15.4% under 15, but 2.6% fewer residents.",
     category: "family",
@@ -38932,8 +38932,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-bourges-2026",
-    title: "Family life in Bourges (2026): a €760 T3 in a city shrinking by 2%",
-    metaTitle: "Family Life in Bourges 2026: €760 T3, Schools 5.8",
+    title: "Family life in Bourges (2027): a €760 T3 in a city shrinking by 2%",
+    metaTitle: "Family Life in Bourges 2027: €760 T3, Schools 5.8",
     metaDesc:
       "Raising children in Bourges in 2026: a €760 T3, flats at €1,570 per m², houses at €1,738, schools 5.8, safety 5.3, but 2% fewer residents since 2016.",
     category: "family",
@@ -38974,8 +38974,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-la-roche-sur-yon-2026",
-    title: "Family life in La Roche-sur-Yon (2026): schools 7.7 and safety 8.0 for an €800 T3",
-    metaTitle: "Family Life in La Roche-sur-Yon 2026: €800 T3, Schools 7.7",
+    title: "Family life in La Roche-sur-Yon (2027): schools 7.7 and safety 8.0 for an €800 T3",
+    metaTitle: "Family Life in La Roche-sur-Yon 2027: €800 T3, Schools 7.7",
     metaDesc:
       "Raising children in La Roche-sur-Yon in 2026: an €800 T3, flats at €2,404 per m², schools 7.7 (rank 38), safety 8.0 (rank 72), 15% poverty, population +1.8%.",
     category: "family",
@@ -39016,8 +39016,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-niort-2026",
-    title: "Family life in Niort (2026): an €860 T3, 16% poverty and a city regaining residents",
-    metaTitle: "Family Life in Niort 2026: €860 T3, Schools 6.6, 16% Poverty",
+    title: "Family life in Niort (2027): an €860 T3, 16% poverty and a city regaining residents",
+    metaTitle: "Family Life in Niort 2027: €860 T3, Schools 6.6, 16% Poverty",
     metaDesc:
       "Raising children in Niort in 2026: an €860 T3, flats at €2,000 per m², houses at €2,021, schools 6.6, safety 5.9, living standard €23,120, population up 1.8%.",
     category: "family",
@@ -39058,8 +39058,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-chartres-2026",
-    title: "Family life in Chartres (2026): a €22,770 living standard, an €890 T3, but 2% fewer residents",
-    metaTitle: "Family Life in Chartres 2026: €890 T3, Schools 6.6",
+    title: "Family life in Chartres (2027): a €22,770 living standard, an €890 T3, but 2% fewer residents",
+    metaTitle: "Family Life in Chartres 2027: €890 T3, Schools 6.6",
     metaDesc:
       "Raising children in Chartres in 2026: an €890 T3, flats at €2,438 per m², schools 6.6, safety 5.5, living standard €22,770, 16% poverty, population down 2%.",
     category: "family",
@@ -39100,8 +39100,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-blois-2026",
-    title: "Family life in Blois (2026): young and growing, but 27% poverty",
-    metaTitle: "Family Life in Blois 2026: €820 T3, 18.5% Under 15",
+    title: "Family life in Blois (2027): young and growing, but 27% poverty",
+    metaTitle: "Family Life in Blois 2027: €820 T3, 18.5% Under 15",
     metaDesc:
       "Raising children in Blois in 2026: an €820 T3, flats at €1,814 per m², schools 6.2, safety 5.3, 18.5% under 15, 27% poverty, population up 3.1%.",
     category: "family",
@@ -39142,8 +39142,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-auxerre-2026",
-    title: "Family life in Auxerre (2026): a €660 T3, among the lowest of the batch, and schools 6.6",
-    metaTitle: "Family Life in Auxerre 2026: €660 T3, Schools 6.6, Cost 7.2",
+    title: "Family life in Auxerre (2027): a €660 T3, among the lowest of the batch, and schools 6.6",
+    metaTitle: "Family Life in Auxerre 2027: €660 T3, Schools 6.6, Cost 7.2",
     metaDesc:
       "Raising children in Auxerre in 2026: a €660 T3, flats at €1,568 per m², houses at €1,831, schools 6.6, safety 5.7, 22% poverty, population up 1.1%.",
     category: "family",
@@ -39184,8 +39184,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-saint-brieuc-2026",
-    title: "Family life in Saint-Brieuc (2026): the bay and a €780 T3, but weak transport",
-    metaTitle: "Family Life in Saint-Brieuc 2026: €780 T3, Schools 6.2",
+    title: "Family life in Saint-Brieuc (2027): the bay and a €780 T3, but weak transport",
+    metaTitle: "Family Life in Saint-Brieuc 2027: €780 T3, Schools 6.2",
     metaDesc:
       "Raising children in Saint-Brieuc in 2026: a €780 T3, flats at €1,760 per m², houses at €1,988, schools 6.2, nature 6.4, transport 4.9, 15.7% under 15.",
     category: "family",
@@ -39226,8 +39226,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-nevers-2026",
-    title: "Family life in Nevers (2026): a €710 T3 and cost 8.2, but 23% poverty",
-    metaTitle: "Family Life in Nevers 2026: €710 T3, Cost 8.2, Schools 5.5",
+    title: "Family life in Nevers (2027): a €710 T3 and cost 8.2, but 23% poverty",
+    metaTitle: "Family Life in Nevers 2027: €710 T3, Cost 8.2, Schools 5.5",
     metaDesc:
       "Raising children in Nevers in 2026: a €710 T3, flats at €1,050 per m², houses at €1,362, cost 8.2, schools 5.5, 23% poverty, population steady (-0.2%).",
     category: "family",
@@ -39268,8 +39268,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-cholet-2026",
-    title: "Family life in Cholet (2026): schools 7.7, safety 7.1 and a €800 T3, €200 under Angers",
-    metaTitle: "Family Life in Cholet 2026: €800 T3, Schools 7.7, Safety 7.1",
+    title: "Family life in Cholet (2027): schools 7.7, safety 7.1 and a €800 T3, €200 under Angers",
+    metaTitle: "Family Life in Cholet 2027: €800 T3, Schools 7.7, Safety 7.1",
     metaDesc:
       "Raising children in Cholet in 2026: a €800 T3, flats at €2,007 per m², houses at €2,106, schools 7.7, safety 7.1, 14% poverty, 16.9% under 15.",
     category: "family",
@@ -39310,8 +39310,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-albi-2026",
-    title: "Family life in Albi (2026): schools 7.7, a €840 T3 and houses cheaper than flats",
-    metaTitle: "Family Life in Albi 2026: €840 T3, Schools 7.7, Safety 6.7",
+    title: "Family life in Albi (2027): schools 7.7, a €840 T3 and houses cheaper than flats",
+    metaTitle: "Family Life in Albi 2027: €840 T3, Schools 7.7, Safety 6.7",
     metaDesc:
       "Raising children in Albi in 2026: a €840 T3, flats at €2,392 per m², houses at €2,018, schools 7.7, safety 6.7, population up 3.2%, 20% poverty.",
     category: "family",
@@ -39352,8 +39352,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-laval-2026",
-    title: "Family life in Laval (2026): a €660 T3, safety 6.8 and a town at demographic rest",
-    metaTitle: "Family Life in Laval 2026: €660 T3, Safety 6.8, Schools 6.6",
+    title: "Family life in Laval (2027): a €660 T3, safety 6.8 and a town at demographic rest",
+    metaTitle: "Family Life in Laval 2027: €660 T3, Safety 6.8, Schools 6.6",
     metaDesc:
       "Raising children in Laval in 2026: a €660 T3, flats at €2,035 per m², houses at €2,164, safety 6.8, schools 6.6, 18% poverty, 16% under 15.",
     category: "family",
@@ -39394,8 +39394,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-saint-malo-2026",
-    title: "Family life in Saint-Malo (2026): the sea, nature 7.2, but flats at €4,531 per m²",
-    metaTitle: "Family Life in Saint-Malo 2026: €1,080 T3, Nature 7.2",
+    title: "Family life in Saint-Malo (2027): the sea, nature 7.2, but flats at €4,531 per m²",
+    metaTitle: "Family Life in Saint-Malo 2027: €1,080 T3, Nature 7.2",
     metaDesc:
       "Raising children in Saint-Malo in 2026: a €1,080 T3, flats at €4,531 per m², nature 7.2, schools 6.2, cost 5.0, 13% poverty, 11.9% under 15.",
     category: "family",
@@ -39436,8 +39436,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-belfort-2026",
-    title: "Family life in Belfort (2026): a €690 T3, flats at €1,275 per m² and 6.8% fewer residents",
-    metaTitle: "Family Life in Belfort 2026: €690 T3, Schools 6.6",
+    title: "Family life in Belfort (2027): a €690 T3, flats at €1,275 per m² and 6.8% fewer residents",
+    metaTitle: "Family Life in Belfort 2027: €690 T3, Schools 6.6",
     metaDesc:
       "Raising children in Belfort in 2026: a €690 T3, flats at €1,275 per m², houses at €1,655, schools 6.6, transport 6.2, 29% poverty, population down 6.8%.",
     category: "family",
@@ -39478,8 +39478,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-villeurbanne-2026",
-    title: "Family life in Villeurbanne (2026): a €1,150 T3, €230 under Lyon, with schools 7.7",
-    metaTitle: "Family Life in Villeurbanne 2026: €1,150 T3, Schools 7.7",
+    title: "Family life in Villeurbanne (2027): a €1,150 T3, €230 under Lyon, with schools 7.7",
+    metaTitle: "Family Life in Villeurbanne 2027: €1,150 T3, Schools 7.7",
     metaDesc:
       "Raising children in Villeurbanne in 2026: a €1,150 T3, flats at €3,554 per m², schools 7.7, transport 9.0, 21% poverty, 16.6% under 15.",
     category: "family",
@@ -39520,8 +39520,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-versailles-2026",
-    title: "Family life in Versailles (2026): schools 9.0 at rank 1, but flats at €6,491 per m²",
-    metaTitle: "Family Life in Versailles 2026: Schools 9.0, T3 €1,700",
+    title: "Family life in Versailles (2027): schools 9.0 at rank 1, but flats at €6,491 per m²",
+    metaTitle: "Family Life in Versailles 2027: Schools 9.0, T3 €1,700",
     metaDesc:
       "Raising children in Versailles in 2026: a €1,700 T3, flats at €6,491 per m², schools 9.0, safety 6.3, 7% poverty, 18.0% under 15.",
     category: "family",
@@ -39562,8 +39562,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-boulogne-billancourt-2026",
-    title: "Family life in Boulogne-Billancourt (2026): schools 8.7, a €2,000 T3 and €8,243 per m²",
-    metaTitle: "Family Life in Boulogne-Billancourt 2026: T3 €2,000",
+    title: "Family life in Boulogne-Billancourt (2027): schools 8.7, a €2,000 T3 and €8,243 per m²",
+    metaTitle: "Family Life in Boulogne-Billancourt 2027: T3 €2,000",
     metaDesc:
       "Raising children in Boulogne-Billancourt in 2026: a €2,000 T3, flats at €8,243 per m², schools 8.7, transport 9.0, 9% poverty, 16.1% under 15.",
     category: "family",
@@ -39604,8 +39604,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-dunkerque-2026",
-    title: "Family life in Dunkerque (2026): a €750 T3, houses cheaper than flats and free buses",
-    metaTitle: "Family Life in Dunkerque 2026: €750 T3, Free Buses",
+    title: "Family life in Dunkerque (2027): a €750 T3, houses cheaper than flats and free buses",
+    metaTitle: "Family Life in Dunkerque 2027: €750 T3, Free Buses",
     metaDesc:
       "Raising children in Dunkerque in 2026: a €750 T3, flats at €2,227 per m², houses at €2,027, schools 5.8, 22% poverty, population down 1.2%.",
     category: "family",
@@ -39646,8 +39646,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-creteil-2026",
-    title: "Family life in Créteil (2026): a €1,250 T3, metro line 8 to the lake and €3,495 per m²",
-    metaTitle: "Family Life in Créteil 2026: €1,250 T3, €3,495 per m²",
+    title: "Family life in Créteil (2027): a €1,250 T3, metro line 8 to the lake and €3,495 per m²",
+    metaTitle: "Family Life in Créteil 2027: €1,250 T3, €3,495 per m²",
     metaDesc:
       "Raising children in Créteil in 2026: a €1,250 T3, flats at €3,495 per m², schools 5.3, transport 9.0, 21% poverty, 19.7% under 15.",
     category: "family",
@@ -39688,8 +39688,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-montreuil-2026",
-    title: "Family life in Montreuil (2026): a €1,400 T3, €5,938 per m² and a €21,150 median income",
-    metaTitle: "Family Life in Montreuil 2026: €1,400 T3, €5,938 per m²",
+    title: "Family life in Montreuil (2027): a €1,400 T3, €5,938 per m² and a €21,150 median income",
+    metaTitle: "Family Life in Montreuil 2027: €1,400 T3, €5,938 per m²",
     metaDesc:
       "Raising children in Montreuil in 2026: a €1,400 T3, flats at €5,938 per m², schools 5.3, transport 9.0, 25% poverty, 19.4% under 15.",
     category: "family",
@@ -39730,8 +39730,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-nanterre-2026",
-    title: "Family life in Nanterre (2026): a €1,400 T3, schools 5.8, €4,996 per m² and 4.1% more residents",
-    metaTitle: "Family Life in Nanterre 2026: €1,400 T3, €4,996 per m²",
+    title: "Family life in Nanterre (2027): a €1,400 T3, schools 5.8, €4,996 per m² and 4.1% more residents",
+    metaTitle: "Family Life in Nanterre 2027: €1,400 T3, €4,996 per m²",
     metaDesc:
       "Raising children in Nanterre in 2026: a €1,400 T3, flats at €4,996 per m², schools 5.8, transport 9.0, 22% poverty, 19.6% under 15.",
     category: "family",
@@ -39772,8 +39772,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-merignac-2026",
-    title: "Family life in Mérignac (2026): a €1,080 T3, €3,439 per m², transport 7.7 and 9.7% more residents",
-    metaTitle: "Family Life in Mérignac 2026: €1,080 T3, €3,439 per m²",
+    title: "Family life in Mérignac (2027): a €1,080 T3, €3,439 per m², transport 7.7 and 9.7% more residents",
+    metaTitle: "Family Life in Mérignac 2027: €1,080 T3, €3,439 per m²",
     metaDesc:
       "Raising children in Mérignac in 2026: a €1,080 T3, flats at €3,439 per m², schools 5.5, transport 7.7, 16.1% under 15, Bourgailh forest.",
     category: "family",
@@ -39814,8 +39814,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-pessac-2026",
-    title: "Family life in Pessac (2026): a €1,080 T3, schools 6.6, €3,482 per m² and a university next door",
-    metaTitle: "Family Life in Pessac 2026: €1,080 T3, €3,482 per m²",
+    title: "Family life in Pessac (2027): a €1,080 T3, schools 6.6, €3,482 per m² and a university next door",
+    metaTitle: "Family Life in Pessac 2027: €1,080 T3, €3,482 per m²",
     metaDesc:
       "Raising children in Pessac in 2026: a €1,080 T3, flats at €3,482 per m², schools 6.6, transport 7.7, 13% poverty, 15.6% under 15.",
     category: "family",
@@ -39856,8 +39856,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-saint-nazaire-2026",
-    title: "Family life in Saint-Nazaire (2026): a €850 T3, cost 6.3, €2,849 per m² and 30.5% aged 60+",
-    metaTitle: "Family Life in Saint-Nazaire 2026: €850 T3, €2,849 per m²",
+    title: "Family life in Saint-Nazaire (2027): a €850 T3, cost 6.3, €2,849 per m² and 30.5% aged 60+",
+    metaTitle: "Family Life in Saint-Nazaire 2027: €850 T3, €2,849 per m²",
     metaDesc:
       "Raising children in Saint-Nazaire in 2026: a €850 T3, flats at €2,849 per m², schools 6.6, safety 5.5, cost 6.3, 30.5% aged 60 and over.",
     category: "family",
@@ -39898,8 +39898,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-antibes-2026",
-    title: "Family life in Antibes (2026): a €1,450 T3, €5,149 per m², nature 7.0 and only 13.8% under 15",
-    metaTitle: "Family Life in Antibes 2026: €1,450 T3, €5,149 per m²",
+    title: "Family life in Antibes (2027): a €1,450 T3, €5,149 per m², nature 7.0 and only 13.8% under 15",
+    metaTitle: "Family Life in Antibes 2027: €1,450 T3, €5,149 per m²",
     metaDesc:
       "Raising children in Antibes in 2026: a €1,450 T3, flats at €5,149 per m², nature 7.0, schools 5.3, 13.8% under 15, 33.8% aged 60 and over.",
     category: "family",
@@ -39940,8 +39940,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-rueil-malmaison-2026",
-    title: "Family life in Rueil-Malmaison (2026): schools 9.0 at rank 1, a €1,600 T3 and €5,478 per m²",
-    metaTitle: "Family Life in Rueil-Malmaison 2026: Schools 9.0, €1,600 T3",
+    title: "Family life in Rueil-Malmaison (2027): schools 9.0 at rank 1, a €1,600 T3 and €5,478 per m²",
+    metaTitle: "Family Life in Rueil-Malmaison 2027: Schools 9.0, €1,600 T3",
     metaDesc:
       "Raising children in Rueil-Malmaison in 2026: schools 9.0 (rank 1), a €1,600 T3, flats at €5,478 per m², safety 7.2, 19.2% under 15.",
     category: "family",
@@ -39982,8 +39982,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-cergy-2026",
-    title: "Family life in Cergy (2026): a €1,150 T3, 23.4% under 15, transport 8.4 and €3,192 per m²",
-    metaTitle: "Family Life in Cergy 2026: €1,150 T3, €3,192 per m²",
+    title: "Family life in Cergy (2027): a €1,150 T3, 23.4% under 15, transport 8.4 and €3,192 per m²",
+    metaTitle: "Family Life in Cergy 2027: €1,150 T3, €3,192 per m²",
     metaDesc:
       "Raising children in Cergy in 2026: a €1,150 T3, flats at €3,192 per m², transport 8.4, schools 6.6, safety 4.4, 23.4% under 15.",
     category: "family",
@@ -40024,8 +40024,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-beziers-2026",
-    title: "Family life in Béziers (2026): a €720 T3, €1,667 per m², but schools 3.6 and 36% poverty",
-    metaTitle: "Family Life in Béziers 2026: €720 T3, €1,667 per m²",
+    title: "Family life in Béziers (2027): a €720 T3, €1,667 per m², but schools 3.6 and 36% poverty",
+    metaTitle: "Family Life in Béziers 2027: €720 T3, €1,667 per m²",
     metaDesc:
       "Raising children in Béziers in 2026: a €720 T3, flats at €1,667 per m², but schools 3.6, safety 3.5 and 36% poverty. Figures and nearby options.",
     category: "family",
@@ -40066,8 +40066,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-compiegne-2026",
-    title: "Family life in Compiègne (2026): a €980 T3, schools 7.7 and 14,000 hectares of forest next door",
-    metaTitle: "Family Life in Compiègne 2026: €980 T3, Schools 7.7",
+    title: "Family life in Compiègne (2027): a €980 T3, schools 7.7 and 14,000 hectares of forest next door",
+    metaTitle: "Family Life in Compiègne 2027: €980 T3, Schools 7.7",
     metaDesc:
       "Raising children in Compiègne in 2026: a €980 T3, flats at €2,273 per m², schools 7.7, safety 6.2. Budget, forest, parks and nearby towns compared.",
     category: "family",
@@ -40108,8 +40108,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-les-sables-d-olonne-2026",
-    title: "Family life in Les Sables-d'Olonne (2026): safety 8.0 and nature 8.5, but €4,647 per m² and 10% children",
-    metaTitle: "Family Life in Les Sables-d'Olonne 2026: €1,050 T3",
+    title: "Family life in Les Sables-d'Olonne (2027): safety 8.0 and nature 8.5, but €4,647 per m² and 10% children",
+    metaTitle: "Family Life in Les Sables-d'Olonne 2027: €1,050 T3",
     metaDesc:
       "Raising children in Les Sables-d'Olonne in 2026: a €1,050 T3, flats at €4,647 per m², safety 8.0, nature 8.5, but only 10% under 15. Figures and options.",
     category: "family",
@@ -40150,8 +40150,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-anglet-2026",
-    title: "Family life in Anglet (2026): schools 8.7 and 11 beaches, but €5,188 per m² and a cost score of 4.5",
-    metaTitle: "Family Life in Anglet 2026: €1,200 T3, Schools 8.7",
+    title: "Family life in Anglet (2027): schools 8.7 and 11 beaches, but €5,188 per m² and a cost score of 4.5",
+    metaTitle: "Family Life in Anglet 2027: €1,200 T3, Schools 8.7",
     metaDesc:
       "Raising children in Anglet in 2026: a €1,200 T3, flats at €5,188 per m², schools 8.7, safety 7.2, cost 4.5. Beaches, forest, Bayonne and Biarritz compared.",
     category: "family",
@@ -40192,8 +40192,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-saint-germain-en-laye-2026",
-    title: "Family life in Saint-Germain-en-Laye (2026): schools 9.0 (rank 1), but a €1,600 T3 and €6,429 per m²",
-    metaTitle: "Family Life in Saint-Germain-en-Laye 2026: €1,600 T3",
+    title: "Family life in Saint-Germain-en-Laye (2027): schools 9.0 (rank 1), but a €1,600 T3 and €6,429 per m²",
+    metaTitle: "Family Life in Saint-Germain-en-Laye 2027: €1,600 T3",
     metaDesc:
       "Raising children in Saint-Germain-en-Laye in 2026: schools 9.0, a €1,600 T3, flats at €6,429 per m², RER A to Paris. Budget and Poissy, Rueil compared.",
     category: "family",
@@ -40234,8 +40234,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-arras-2026",
-    title: "Family life in Arras (2026): a €720 T3, €2,450 per m², but nature 4.2 and 25% poverty",
-    metaTitle: "Family Life in Arras 2026: €720 T3, €2,450 per m²",
+    title: "Family life in Arras (2027): a €720 T3, €2,450 per m², but nature 4.2 and 25% poverty",
+    metaTitle: "Family Life in Arras 2027: €720 T3, €2,450 per m²",
     metaDesc:
       "Raising children in Arras in 2026: a €720 T3, flats at €2,450 per m², schools 6.6, safety 5.3, nature 4.2. Budget, places and Lens, Douai, Cambrai compared.",
     category: "family",
@@ -40276,8 +40276,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-bourg-en-bresse-2026",
-    title: "Family life in Bourg-en-Bresse (2026): a €840 T3, €1,866 per m², schools 6.6 and a 61-hectare park",
-    metaTitle: "Family Life in Bourg-en-Bresse 2026: €840 T3",
+    title: "Family life in Bourg-en-Bresse (2027): a €840 T3, €1,866 per m², schools 6.6 and a 61-hectare park",
+    metaTitle: "Family Life in Bourg-en-Bresse 2027: €840 T3",
     metaDesc:
       "Raising children in Bourg-en-Bresse in 2026: a €840 T3, flats at €1,866 per m², schools 6.6, safety 5.5. Budget, Bouvent park and Mâcon, Villefranche compared.",
     category: "family",
@@ -40318,8 +40318,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-brive-la-gaillarde-2026",
-    title: "Family life in Brive-la-Gaillarde (2026): a €780 T3, €1,834 per m², safety 6.7 and culture 7.5",
-    metaTitle: "Family Life in Brive-la-Gaillarde 2026: €780 T3",
+    title: "Family life in Brive-la-Gaillarde (2027): a €780 T3, €1,834 per m², safety 6.7 and culture 7.5",
+    metaTitle: "Family Life in Brive-la-Gaillarde 2027: €780 T3",
     metaDesc:
       "Raising children in Brive-la-Gaillarde in 2026: a €780 T3, flats at €1,834 per m², schools 6.6, safety 6.7. Budget, parks and Limoges, Périgueux compared.",
     category: "family",
@@ -40360,8 +40360,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-castres-2026",
-    title: "Family life in Castres (2026): a €700 T3, €1,695 per m², cost 7.2 but transport 5.5",
-    metaTitle: "Family Life in Castres 2026: €700 T3, €1,695/m²",
+    title: "Family life in Castres (2027): a €700 T3, €1,695 per m², cost 7.2 but transport 5.5",
+    metaTitle: "Family Life in Castres 2027: €700 T3, €1,695/m²",
     metaDesc:
       "Raising children in Castres in 2026: a €700 T3, flats at €1,695 per m², schools 6.6, transport 5.5. Budget, Gourjade park and Albi, Toulouse compared.",
     category: "family",
@@ -40402,8 +40402,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-annemasse-2026",
-    title: "Family life in Annemasse (2026): a €1,350 T3, €3,506 per m², schools 7.7 and transport 9.0",
-    metaTitle: "Family Life in Annemasse 2026: €1,350 T3, Schools 7.7",
+    title: "Family life in Annemasse (2027): a €1,350 T3, €3,506 per m², schools 7.7 and transport 9.0",
+    metaTitle: "Family Life in Annemasse 2027: €1,350 T3, Schools 7.7",
     metaDesc:
       "Raising children in Annemasse in 2026: a €1,350 T3, flats at €3,506 per m², schools 7.7, transport 9.0, cost 3.4. Budget and Annecy, Thonon, Cluses compared.",
     category: "family",
@@ -40444,8 +40444,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-issy-les-moulineaux-2026",
-    title: "Family life in Issy-les-Moulineaux (2026): a €1,800 T3, €7,511 per m², schools 9.0, nature 4.3",
-    metaTitle: "Family Life in Issy-les-Moulineaux 2026: €1,800 T3",
+    title: "Family life in Issy-les-Moulineaux (2027): a €1,800 T3, €7,511 per m², schools 9.0, nature 4.3",
+    metaTitle: "Family Life in Issy-les-Moulineaux 2027: €1,800 T3",
     metaDesc:
       "Raising children in Issy-les-Moulineaux in 2026: a €1,800 T3, flats at €7,511 per m², schools 9.0, nature 4.3. Budget, parks, metro and Vanves, Meudon compared.",
     category: "family",
@@ -40486,8 +40486,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-villefranche-sur-saone-2026",
-    title: "Family life in Villefranche-sur-Saône (2026): a €1,070 T3, €2,439 per m² and schools 8.7",
-    metaTitle: "Family Life in Villefranche-sur-Saône 2026: €1,070 T3",
+    title: "Family life in Villefranche-sur-Saône (2027): a €1,070 T3, €2,439 per m² and schools 8.7",
+    metaTitle: "Family Life in Villefranche-sur-Saône 2027: €1,070 T3",
     metaDesc:
       "Raising children in Villefranche-sur-Saône in 2026: a €1,070 T3, flats at €2,439 per m², schools 8.7, safety 6.3. Budget, train to Lyon and Mâcon, Bourg compared.",
     category: "family",
@@ -40528,8 +40528,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-montelimar-2026",
-    title: "Family life in Montélimar (2026): a €780 T3, €1,760 per m², cost 6.7 and nature 6.4",
-    metaTitle: "Family Life in Montélimar 2026: €780 T3, €1,760/m²",
+    title: "Family life in Montélimar (2027): a €780 T3, €1,760 per m², cost 6.7 and nature 6.4",
+    metaTitle: "Family Life in Montélimar 2027: €780 T3, €1,760/m²",
     metaDesc:
       "Raising children in Montélimar in 2026: a €780 T3, flats at €1,760 per m², schools 6.6, nature 6.4, safety 5.7. Budget and Valence, Orange, Bagnols compared.",
     category: "family",
@@ -40570,8 +40570,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-colomiers-2026",
-    title: "Family life in Colomiers (2026): a €1,010 T3, €2,623 per m², schools 6.2, Toulouse 9 km away",
-    metaTitle: "Family Life in Colomiers 2026: €1,010 T3, €2,623/m²",
+    title: "Family life in Colomiers (2027): a €1,010 T3, €2,623 per m², schools 6.2, Toulouse 9 km away",
+    metaTitle: "Family Life in Colomiers 2027: €1,010 T3, €2,623/m²",
     metaDesc:
       "Raising children in Colomiers in 2026: a €1,010 T3, flats at €2,623 per m², schools 6.2, remote work 6.3. Budget and Tournefeuille, Blagnac, Toulouse compared.",
     category: "family",
@@ -40612,8 +40612,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-saint-medard-en-jalles-2026",
-    title: "Family life in Saint-Médard-en-Jalles (2026): a €1,080 T3, €3,577 per m², 7% poverty",
-    metaTitle: "Family Life in Saint-Médard-en-Jalles 2026: €1,080 T3",
+    title: "Family life in Saint-Médard-en-Jalles (2027): a €1,080 T3, €3,577 per m², 7% poverty",
+    metaTitle: "Family Life in Saint-Médard-en-Jalles 2027: €1,080 T3",
     metaDesc:
       "Raising children in Saint-Médard-en-Jalles in 2026: a €1,080 T3, flats at €3,577 per m², schools 6.2, cost 4.0. Eysines, Mérignac, Pessac, Bordeaux compared.",
     category: "family",
@@ -40654,8 +40654,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-thonon-les-bains-2026",
-    title: "Family life in Thonon-les-Bains (2026): a €1,200 T3, €3,594 per m², nature 7.8 on Lake Geneva",
-    metaTitle: "Family Life in Thonon-les-Bains 2026: €1,200 T3",
+    title: "Family life in Thonon-les-Bains (2027): a €1,200 T3, €3,594 per m², nature 7.8 on Lake Geneva",
+    metaTitle: "Family Life in Thonon-les-Bains 2027: €1,200 T3",
     metaDesc:
       "Raising children in Thonon-les-Bains in 2026: a €1,200 T3, flats at €3,594 per m², nature 7.8, schools 5.8. Annemasse and Annecy compared.",
     category: "family",
@@ -40696,8 +40696,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-gap-2026",
-    title: "Family life in Gap (2026): a €900 T3, €2,276 per m², nature 7.8 and 33.2% aged 60+",
-    metaTitle: "Family Life in Gap 2026: €900 T3, €2,276/m², Nature 7.8",
+    title: "Family life in Gap (2027): a €900 T3, €2,276 per m², nature 7.8 and 33.2% aged 60+",
+    metaTitle: "Family Life in Gap 2027: €900 T3, €2,276/m², Nature 7.8",
     metaDesc:
       "Raising children in Gap in 2026: a €900 T3, flats at €2,276 per m², nature 7.8, cost 5.5, schools 5.8. Budget and Grenoble, Manosque compared.",
     category: "family",
@@ -40738,8 +40738,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-evreux-2026",
-    title: "Family life in Évreux (2026): an €820 T3, €1,750 per m², cost 6.3 and Paris about an hour away",
-    metaTitle: "Family Life in Évreux 2026: €820 T3, €1,750/m², Cost 6.3",
+    title: "Family life in Évreux (2027): an €820 T3, €1,750 per m², cost 6.3 and Paris about an hour away",
+    metaTitle: "Family Life in Évreux 2027: €820 T3, €1,750/m², Cost 6.3",
     metaDesc:
       "Raising children in Évreux in 2026: an €820 T3, flats at €1,750 per m², cost 6.3, schools 5.5, safety 4.7. Vernon, Dreux and Mantes-la-Jolie compared.",
     category: "family",
@@ -40780,8 +40780,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-chalon-sur-saone-2026",
-    title: "Family life in Chalon-sur-Saône (2026): a €740 T3, €1,381 per m², cost 7.2 and a 69-hectare lake",
-    metaTitle: "Family Life in Chalon-sur-Saône 2026: €740 T3, €1,381/m²",
+    title: "Family life in Chalon-sur-Saône (2027): a €740 T3, €1,381 per m², cost 7.2 and a 69-hectare lake",
+    metaTitle: "Family Life in Chalon-sur-Saône 2027: €740 T3, €1,381/m²",
     metaDesc:
       "Raising children in Chalon-sur-Saône in 2026: a €740 T3, flats at €1,381 per m², cost 7.2, schools 6.2. Beaune, Mâcon and Dijon compared.",
     category: "family",
@@ -40822,8 +40822,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-agen-2026",
-    title: "Family life in Agen (2026): a €750 T3, €1,719 per m², cost 6.4 and 4.1% fewer residents",
-    metaTitle: "Family Life in Agen 2026: €750 T3, €1,719/m², Cost 6.4",
+    title: "Family life in Agen (2027): a €750 T3, €1,719 per m², cost 6.4 and 4.1% fewer residents",
+    metaTitle: "Family Life in Agen 2027: €750 T3, €1,719/m², Cost 6.4",
     metaDesc:
       "Raising children in Agen in 2026: a €750 T3, flats at €1,719 per m², cost 6.4, schools 5.3, safety 4.7. Villeneuve-sur-Lot and Montauban compared.",
     category: "family",
@@ -40864,8 +40864,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "family-in-mont-de-marsan-2026",
-    title: "Family life in Mont-de-Marsan (2026): a €740 T3, €2,101 per m², cost 6.2 and 5.3% more residents",
-    metaTitle: "Family Life in Mont-de-Marsan 2026: €740 T3, €2,101/m²",
+    title: "Family life in Mont-de-Marsan (2027): a €740 T3, €2,101 per m², cost 6.2 and 5.3% more residents",
+    metaTitle: "Family Life in Mont-de-Marsan 2027: €740 T3, €2,101/m²",
     metaDesc:
       "Raising children in Mont-de-Marsan in 2026: a €740 T3, flats at €2,101 per m², cost 6.2, safety 5.7. Dax, Pau and Bayonne compared.",
     category: "family",
@@ -40907,7 +40907,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-salon-de-provence-2026",
     title: "Things to do in Salon-de-Provence: Nostradamus and a fortress",
-    metaTitle: "Things to Do in Salon-de-Provence (2026)",
+    metaTitle: "Things to Do in Salon-de-Provence (2027)",
     metaDesc:
       "A tenth-century fortress, Nostradamus's house and tomb, a mossy fountain, a working soap works, and the home base of the French air force display team.",
     category: "city-guide",
@@ -40957,7 +40957,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-quentin-2026",
     title: "Things to do in Saint-Quentin: Gothic, Art Deco, and 1918",
-    metaTitle: "Things to Do in Saint-Quentin, Aisne (2026)",
+    metaTitle: "Things to Do in Saint-Quentin, Aisne (2027)",
     metaDesc:
       "A vast Gothic basilica, a town rebuilt in Art Deco after 1918, the world's largest collection of La Tour pastels, and a marsh reserve inside the town.",
     category: "city-guide",
@@ -41007,7 +41007,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-brive-la-gaillarde-2026",
     title: "Things to do in Brive-la-Gaillarde: the market comes first",
-    metaTitle: "Things to Do in Brive-la-Gaillarde (2026)",
+    metaTitle: "Things to Do in Brive-la-Gaillarde (2027)",
     metaDesc:
       "A working market hall, a free archaeological crypt, a Renaissance museum, a walnut distillery running since 1839, and the red villages an hour away.",
     category: "city-guide",
@@ -41057,7 +41057,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-la-seyne-sur-mer-2026",
     title: "Things to do in La Seyne-sur-Mer: shipyards and a bay",
-    metaTitle: "Things to Do in La Seyne-sur-Mer, Var (2026)",
+    metaTitle: "Things to Do in La Seyne-sur-Mer, Var (2027)",
     metaDesc:
       "A listed lifting bridge, a seventeenth-century fort, an Ottoman-flavoured seaside quarter, a Pouillon hamlet, and a commuter boat across the bay of Toulon.",
     category: "city-guide",
@@ -41107,7 +41107,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-valenciennes-2026",
     title: "Things to do in Valenciennes: Watteau, Carpeaux, and Flanders",
-    metaTitle: "Things to Do in Valenciennes (2026)",
+    metaTitle: "Things to Do in Valenciennes (2027)",
     metaDesc:
       "A fine arts museum well above the town's weight, two major artists born here, an intact pre-Revolution library, and a Flemish pawnshop of 1622.",
     category: "city-guide",
@@ -41207,7 +41207,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-lyon-2026",
     title: "Single-parent holidays in Lyon: transport 9/10, and what it costs",
-    metaTitle: "Single-Parent Holidays in Lyon 2026",
+    metaTitle: "Single-Parent Holidays in Lyon 2027",
     metaDesc:
       "Lyon alone with the kids: transport scores 9/10, so no hire car — but it is the priciest city in this series. The months and districts that hold up.",
     category: "family",
@@ -41255,7 +41255,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-angers-2026",
     title: "Single-parent holidays in Angers: Lyon's score at provincial prices",
-    metaTitle: "Single-Parent Holidays in Angers 2026",
+    metaTitle: "Single-Parent Holidays in Angers 2027",
     metaDesc:
       "Angers alone with the kids: the same composite as Lyon at a far lower price level, a TGV station in the centre, and crowding at 1 out of 5 in April.",
     category: "family",
@@ -41303,7 +41303,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-bordeaux-2026",
     title: "Single-parent holidays in Bordeaux: the calendar decides everything",
-    metaTitle: "Single-Parent Holidays in Bordeaux 2026",
+    metaTitle: "Single-Parent Holidays in Bordeaux 2027",
     metaDesc:
       "Bordeaux alone with the kids: trams everywhere, the mildest winter in this series at 6.9 °C — but cost 4.5/10 and crowding at 5 out of 5 in July.",
     category: "family",
@@ -41351,7 +41351,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-besancon-2026",
     title: "Single-parent holidays in Besançon: four attractions, one ticket",
-    metaTitle: "Single-Parent Holidays in Besançon 2026",
+    metaTitle: "Single-Parent Holidays in Besançon 2027",
     metaDesc:
       "Besançon alone with the kids: the Citadel holds a natural history museum, zoo, insectarium and aquarium on one ticket. The tightest grouping in this series.",
     category: "family",
@@ -41399,7 +41399,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-grenoble-2026",
     title: "Single-parent holidays in Grenoble: mountains in view, and the limit",
-    metaTitle: "Single-Parent Holidays in Grenoble 2026",
+    metaTitle: "Single-Parent Holidays in Grenoble 2027",
     metaDesc:
       "Grenoble alone with the kids: nature 8.4/10, the best in this series, trams and a cable car from the centre. But safety 4.3/10, and the peaks need a car.",
     category: "family",
@@ -41447,7 +41447,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-brest-2026",
     title: "Single-parent holidays in Brest: the cheapest week in this series",
-    metaTitle: "Single-Parent Holidays in Brest 2026",
+    metaTitle: "Single-Parent Holidays in Brest 2027",
     metaDesc:
       "Brest alone with the kids: the lowest price level in this series, a cable car that is a bus route, and an indoor plan B that is not optional. July at 18.6 °C.",
     category: "family",
@@ -41495,7 +41495,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-tours-2026",
     title: "Single-parent holidays in Tours: Loire châteaux by train, no car",
-    metaTitle: "Single-Parent Holidays in Tours 2026",
+    metaTitle: "Single-Parent Holidays in Tours 2027",
     metaDesc:
       "Tours alone with the kids: Chenonceaux has its own station 400 m from the château, Amboise by regional train — and the Saint-Pierre-des-Corps arrival trap.",
     category: "family",
@@ -41543,7 +41543,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-valence-2026",
     title: "Single-parent holidays in Valence: the only cheap tier in this series",
-    metaTitle: "Single-Parent Holidays in Valence 2026",
+    metaTitle: "Single-Parent Holidays in Valence 2027",
     metaDesc:
       "Valence alone with the kids: the only €€ destination in this series, cost 6.7/10, July at 25.8 °C. But no tram, and the TGV station is outside town.",
     category: "family",
@@ -41591,7 +41591,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-vaucluse-2026",
     title: "Living in the Vaucluse: Provence without the postcard",
-    metaTitle: "Living in the Vaucluse 2026: Avignon, Luberon, Carpentras",
+    metaTitle: "Living in the Vaucluse 2027: Avignon, Luberon, Carpentras",
     metaDesc:
       "Moving to the Vaucluse? Honest 2026 guide to Avignon, the Luberon and Carpentras: rents, €/m², the mistral, 40 °C summers, doctors and who it suits.",
     category: "moving",
@@ -41633,7 +41633,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-gard-2026",
     title: "Living in the Gard: Roman Nîmes, Uzès and the Cévennes",
-    metaTitle: "Living in the Gard 2026: Nîmes, Uzès, Alès Expat Guide",
+    metaTitle: "Living in the Gard 2027: Nîmes, Uzès, Alès Expat Guide",
     metaDesc:
       "Moving to the Gard? Honest 2026 guide to Nîmes, Uzès and Alès: property prices, 2,700 hours of sun, flash-flood risk, ferias and who the department suits.",
     category: "moving",
@@ -41675,7 +41675,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-gascony-the-gers-2026",
     title: "Living in Gascony: the Gers, France's slowest department",
-    metaTitle: "Living in the Gers 2026: Gascony Expat Guide",
+    metaTitle: "Living in the Gers 2027: Gascony Expat Guide",
     metaDesc:
       "Moving to the Gers? Honest 2026 guide to Auch, Condom and Lectoure: property from €1,000/m², 2,000 hours of sun, no motorway, no TGV, and who it suits.",
     category: "moving",
@@ -41717,7 +41717,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-landes-2026",
     title: "Living in the Landes: pine forest, Atlantic surf, low prices",
-    metaTitle: "Living in the Landes 2026: Dax, Mont-de-Marsan, Hossegor",
+    metaTitle: "Living in the Landes 2027: Dax, Mont-de-Marsan, Hossegor",
     metaDesc:
       "Moving to the Landes? Honest 2026 guide to Dax, Mont-de-Marsan and the surf coast: rents, €/m², forest fire risk, rip currents and who it suits.",
     category: "moving",
@@ -41759,7 +41759,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-vendee-2026",
     title: "Living in the Vendée: Atlantic coast, bocage and actual jobs",
-    metaTitle: "Living in the Vendée 2026: Les Sables, La Roche, Challans",
+    metaTitle: "Living in the Vendée 2027: Les Sables, La Roche, Challans",
     metaDesc:
       "Moving to the Vendée? Honest 2026 guide to La Roche-sur-Yon, Les Sables-d'Olonne and Challans: rents, €/m², 2,100 hours of sun, jobs and who it suits.",
     category: "moving",
@@ -41801,7 +41801,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-correze-and-limousin-2026",
     title: "Living in the Corrèze and Limousin: France's cheapest stone houses",
-    metaTitle: "Living in the Corrèze & Limousin 2026: Brive, Tulle, Limoges",
+    metaTitle: "Living in the Corrèze & Limousin 2027: Brive, Tulle, Limoges",
     metaDesc:
       "Moving to the Limousin? Honest 2026 guide to Limoges, Brive and Tulle: houses from €80,000, real train times, medical access and the resale question.",
     category: "moving",
@@ -41843,7 +41843,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-ain-2026",
     title: "Living in the Ain: Geneva salaries, French prices",
-    metaTitle: "Living in the Ain 2026: Pays de Gex & Geneva Border Guide",
+    metaTitle: "Living in the Ain 2027: Pays de Gex & Geneva Border Guide",
     metaDesc:
       "Moving to the Ain? Honest 2026 guide to the Pays de Gex and Geneva cross-border work: rents, €/m², where you pay tax, health cover and who it suits.",
     category: "moving",
@@ -41885,7 +41885,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-ardeche-and-drome-2026",
     title: "Living in the Ardèche and Drôme: sun, space and no trains",
-    metaTitle: "Living in the Ardèche & Drôme 2026: Valence, Aubenas, Die",
+    metaTitle: "Living in the Ardèche & Drôme 2027: Valence, Aubenas, Die",
     metaDesc:
       "Moving to the Ardèche or Drôme? Honest 2026 guide to Valence, Montélimar, Die and Aubenas: rents, €/m², 2,400 hours of sun and the rail problem.",
     category: "moving",
@@ -41927,7 +41927,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-pyrenees-2026",
     title: "Living in the Pyrenees: the foothill towns",
-    metaTitle: "Living in the Pyrenees 2026: Pau, Tarbes & Foothills",
+    metaTitle: "Living in the Pyrenees 2027: Pau, Tarbes & Foothills",
     metaDesc:
       "Moving to the Pyrenees? Honest 2026 guide to Pau, Bayonne, Tarbes, Foix and Perpignan: rents, €/m², mountain and sea access, and who each town suits.",
     category: "moving",
@@ -41973,7 +41973,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-lorraine-2026",
     title: "Living in Lorraine: Metz, Nancy and the Luxembourg effect",
-    metaTitle: "Living in Lorraine 2026: Metz, Nancy & Luxembourg",
+    metaTitle: "Living in Lorraine 2027: Metz, Nancy & Luxembourg",
     metaDesc:
       "Moving to Lorraine? Honest 2026 guide to Metz, Nancy, Thionville and Épinal: rents, €/m², Luxembourg cross-border work, tax and remote-work limits.",
     category: "moving",
@@ -42019,7 +42019,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-sarthe-2026",
     title: "Living in the Sarthe: Le Mans, the Loir and the forests",
-    metaTitle: "Living in the Sarthe 2026: Le Mans & the Loir Valley",
+    metaTitle: "Living in the Sarthe 2027: Le Mans & the Loir Valley",
     metaDesc:
       "Moving to the Sarthe? Honest 2026 guide to Le Mans, La Flèche and Sablé: rents, €/m², 55 minutes to Paris by TGV, and who the department suits.",
     category: "moving",
@@ -42061,7 +42061,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-auvergne-2026",
     title: "Living in the Auvergne: volcanoes and cheap houses",
-    metaTitle: "Living in the Auvergne 2026: Volcanoes, Cheap Property",
+    metaTitle: "Living in the Auvergne 2027: Volcanoes, Cheap Property",
     metaDesc:
       "Moving to the Auvergne? Honest 2026 guide to Clermont-Ferrand, Vichy, Thiers and Aurillac: rents, €/m², the volcano country and who it suits.",
     category: "moving",
@@ -42103,7 +42103,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-inland-brittany-2026",
     title: "Living in inland Brittany: the Argoat",
-    metaTitle: "Living in Inland Brittany 2026: The Argoat Guide",
+    metaTitle: "Living in Inland Brittany 2027: The Argoat Guide",
     metaDesc:
       "Brittany away from the coast: Pontivy, Loudéac and Carhaix. Houses under €150,000, near-total fibre, mild winters, and the medical problem nobody mentions.",
     category: "moving",
@@ -42145,7 +42145,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-in-the-french-overseas-departments-2026",
     title: "Living in France's overseas departments",
-    metaTitle: "Living in France's Overseas Departments 2026",
+    metaTitle: "Living in France's Overseas Departments 2027",
     metaDesc:
       "Réunion, Martinique, Guadeloupe, Guiana and Mayotte: cost of living, visas, salaries, healthcare and schooling. What moving to the DROM is really like.",
     category: "moving",
@@ -42194,8 +42194,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-valence-2026",
-    title: "Single parent in Valence (2026): the strongest file in this batch, and what the safety score costs",
-    metaTitle: "Single Parent in Valence 2026: Fit 6.4/10",
+    title: "Single parent in Valence (2027): the strongest file in this batch, and what the safety score costs",
+    metaTitle: "Single Parent in Valence 2027: Fit 6.4/10",
     metaDesc:
       "Fit 6.4/10, joint 51st of 416, the strongest file in this batch. T3 €900, entry floor €2,750, transport 7.4/10, safety 5.2/10.",
     category: "family",
@@ -42236,8 +42236,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-colmar-2026",
-    title: "Single parent in Colmar (2026): the only file here with no weak axis, and 2,539 fewer residents",
-    metaTitle: "Single Parent in Colmar 2026: Fit 6.3/10",
+    title: "Single parent in Colmar (2027): the only file here with no weak axis, and 2,539 fewer residents",
+    metaTitle: "Single Parent in Colmar 2027: Fit 6.3/10",
     metaDesc:
       "Fit 6.3/10, joint 64th of 416. All four axes above 6, a T3 at €1,000, and a population down 2,539 since 2016. The arithmetic on one income.",
     category: "family",
@@ -42278,8 +42278,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-nazaire-2026",
-    title: "Single parent in Saint-Nazaire (2026): the best rent-per-school-point here, in a region that beats it",
-    metaTitle: "Single Parent in Saint-Nazaire 2026: €129 a Point",
+    title: "Single parent in Saint-Nazaire (2027): the best rent-per-school-point here, in a region that beats it",
+    metaTitle: "Single Parent in Saint-Nazaire 2027: €129 a Point",
     metaDesc:
       "Fit 6.2/10, joint 80th of 416. T3 €850 and €129 per school point, the best ratio in this batch, and why four Pays de la Loire towns beat it.",
     category: "family",
@@ -42320,8 +42320,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-chambery-2026",
-    title: "Single parent in Chambéry (2026): the best schools and safety here, and €3,350 to reach them",
-    metaTitle: "Single Parent in Chambéry 2026: Schools 7.4/10",
+    title: "Single parent in Chambéry (2027): the best schools and safety here, and €3,350 to reach them",
+    metaTitle: "Single Parent in Chambéry 2027: Schools 7.4/10",
     metaDesc:
       "Fit 6.1/10, joint 93rd of 416. Schools 7.4/10 and safety 6.3/10, the two best in this batch, for a €3,350 entry floor. The full calculation.",
     category: "family",
@@ -42362,8 +42362,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-bourges-2026",
-    title: "Single parent in Bourges (2026): €123,500 for 65 square metres, and a car to put in the budget",
-    metaTitle: "Single Parent in Bourges 2026: T3 €760",
+    title: "Single parent in Bourges (2027): €123,500 for 65 square metres, and a car to put in the budget",
+    metaTitle: "Single Parent in Bourges 2027: T3 €760",
     metaDesc:
       "Fit 5.8/10, joint 138th of 416. T3 €760, entry floor €2,300, €1,900 a square metre: the city in this batch where buying on one income still adds up.",
     category: "family",
@@ -42404,8 +42404,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-pessac-2026",
-    title: "Single parent in Pessac (2026): the same rent as Mérignac, a point more of schools",
-    metaTitle: "Single Parent in Pessac 2026: Transport 7.7/10",
+    title: "Single parent in Pessac (2027): the same rent as Mérignac, a point more of schools",
+    metaTitle: "Single Parent in Pessac 2027: Transport 7.7/10",
     metaDesc:
       "Fit 5.6/10, 170th of 363. Same T3 and same square metre as Mérignac for 1.1 points more of schools, with the best transport in this batch.",
     category: "family",
@@ -42446,8 +42446,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-calais-2026",
-    title: "Single parent in Calais (2026): €1,950 net, the lowest entry floor in the whole series",
-    metaTitle: "Single Parent in Calais 2026: Floor €1,950",
+    title: "Single parent in Calais (2027): €1,950 net, the lowest entry floor in the whole series",
+    metaTitle: "Single Parent in Calais 2027: Floor €1,950",
     metaDesc:
       "Fit 5.2/10, joint 246th of 416. T3 €640, €1,350 a square metre, entry floor €1,950: the lowest figures in this series, and the two axes that pay for them.",
     category: "family",
@@ -42488,8 +42488,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-le-tampon-2026",
-    title: "Single parent in Le Tampon (2026): first on Réunion in this ranking, joint 303rd in France",
-    metaTitle: "Single Parent in Le Tampon 2026: Fit 4.9/10",
+    title: "Single parent in Le Tampon (2027): first on Réunion in this ranking, joint 303rd in France",
+    metaTitle: "Single Parent in Le Tampon 2027: Fit 4.9/10",
     metaDesc:
       "Fit 4.9/10, joint 303rd of 416, yet first of Réunion's ten communes. T3 €780, floor €2,250, transport 3.7/10: the calculation on one income.",
     category: "family",
@@ -42530,8 +42530,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-ajaccio-2026",
-    title: "Single parent in Ajaccio (2026): €3,650 net for schools at 4.1/10",
-    metaTitle: "Single Parent in Ajaccio 2026: Floor €3,650",
+    title: "Single parent in Ajaccio (2027): €3,650 net for schools at 4.1/10",
+    metaTitle: "Single Parent in Ajaccio 2027: Floor €3,650",
     metaDesc:
       "Fit 4.4/10, joint 360th of 416. An entry floor of €3,650 net, higher than Bordeaux, for schools at 4.1/10 and transport at 4.0/10. The full calculation.",
     category: "family",
@@ -43259,7 +43259,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-poissy-2026",
     title: "Things to do in Poissy: Le Corbusier and a royal font",
-    metaTitle: "Things to Do in Poissy, Yvelines (2026)",
+    metaTitle: "Things to Do in Poissy, Yvelines (2027)",
     metaDesc:
       "The Villa Savoye, the collegiate church where Saint Louis was baptised, a toy museum in a medieval gatehouse, and a park a painter chose to live beside.",
     category: "city-guide",
@@ -43309,7 +43309,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-rueil-malmaison-2026",
     title: "Things to do in Rueil-Malmaison: Joséphine's house",
-    metaTitle: "Things to Do in Rueil-Malmaison (2026)",
+    metaTitle: "Things to Do in Rueil-Malmaison (2027)",
     metaDesc:
       "An imperial residence with its furniture, Joséphine's rose garden and tomb, a seventeen-hectare park, and a Cavaillé-Coll organ, all on the RER A.",
     category: "city-guide",
@@ -43359,7 +43359,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vernon-2026",
     title: "Things to do in Vernon, Normandy: more than the stop for Giverny",
-    metaTitle: "Things to Do in Vernon, Normandy (2026)",
+    metaTitle: "Things to Do in Vernon, Normandy (2027)",
     metaDesc:
       "A timber mill on a medieval bridge, a keep of Philip Augustus, an impressionist museum renamed in 2024, and Giverny five kilometres away.",
     category: "city-guide",
@@ -43409,7 +43409,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dole-2026",
     title: "Things to do in Dole: Pasteur's town and a lost capital",
-    metaTitle: "Things to Do in Dole, Jura (2026)",
+    metaTitle: "Things to Do in Dole, Jura (2027)",
     metaDesc:
       "Pasteur's birthplace on a tanners' canal, a 73-metre belfry that was once taller, a hospital turned library, and France's second-largest broadleaf forest.",
     category: "city-guide",
@@ -43459,7 +43459,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-soissons-2026",
     title: "Things to do in Soissons: a façade with no church behind it",
-    metaTitle: "Things to Do in Soissons, Aisne (2026)",
+    metaTitle: "Things to Do in Soissons, Aisne (2027)",
     metaDesc:
       "Two abbey towers standing in front of nothing, a Gothic cathedral with a Rubens hanging free to view, a rounded transept found almost nowhere else in France.",
     category: "city-guide",
@@ -43509,7 +43509,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cambrai-2026",
     title: "Things to do in Cambrai: a UNESCO belfry and the first tank battle",
-    metaTitle: "Things to Do in Cambrai, Nord (2026)",
+    metaTitle: "Things to Do in Cambrai, Nord (2027)",
     metaDesc:
       "A UNESCO-listed belfry, a cathedral that was an abbey, an underrated museum, and the 1917 battle for which British church bells rang.",
     category: "city-guide",
@@ -43559,7 +43559,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-carpentras-2026",
     title: "Things to do in Carpentras: the oldest working synagogue in France",
-    metaTitle: "Things to Do in Carpentras, Vaucluse (2026)",
+    metaTitle: "Things to Do in Carpentras, Vaucluse (2027)",
     metaDesc:
       "A synagogue of 1367 still in use, a cathedral built for an antipope, a library-museum without equivalent, and one of the great markets of Provence.",
     category: "city-guide",
@@ -43610,7 +43610,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-la-roche-sur-yon-2026",
     title:
       "Single parent in La Roche-sur-Yon (2026): the only city this ranking rates Excellent",
-    metaTitle: "Single Parent in La Roche-sur-Yon 2026: 1st of 363",
+    metaTitle: "Single Parent in La Roche-sur-Yon 2027: 1st of 363",
     metaDesc:
       "Fit 7.5/10, 1st of 363 and the only city rated Excellent. T3 at €800, entry floor €2,400, €104 of rent per school point. The full file.",
     category: "family",
@@ -43657,8 +43657,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-dole-2026",
-    title: "Single parent in Dole (2026): €101 of rent per school point, the best ratio in the series",
-    metaTitle: "Single Parent in Dole 2026: T3 €780, Floor €2,350",
+    title: "Single parent in Dole (2027): €101 of rent per school point, the best ratio in the series",
+    metaTitle: "Single Parent in Dole 2027: T3 €780, Floor €2,350",
     metaDesc:
       "Fit 7.2/10, joint 2nd of 416. T3 at €780, €1,800 a square metre, entry floor €2,350 and €101 of rent per school point: the best ratio of the 66 guides.",
     category: "family",
@@ -43705,8 +43705,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-lannion-2026",
-    title: "Single parent in Lannion (2026): safety 8.2, transport 4.9, and a trade-off to make",
-    metaTitle: "Single Parent in Lannion 2026: T3 €800, Floor €2,400",
+    title: "Single parent in Lannion (2027): safety 8.2, transport 4.9, and a trade-off to make",
+    metaTitle: "Single Parent in Lannion 2027: T3 €800, Floor €2,400",
     metaDesc:
       "Fit 7.2/10, joint 2nd of 416. Safety 8.2/10 and schools 7.7/10 for a €800 T3, but transport at 4.9: the car is a budget line, not an option.",
     category: "family",
@@ -43755,7 +43755,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-challans-2026",
     title:
       "Single parent in Challans (2026): the best safety mark in France, and 20.9 per cent more residents",
-    metaTitle: "Single Parent in Challans 2026: Safety 8.3, T3 €860",
+    metaTitle: "Single Parent in Challans 2027: Safety 8.3, T3 €860",
     metaDesc:
       "Fit 7.1/10, 4th of 363. The best safety mark of the 363 ranked cities, a T3 at €860, floor €2,600, and the growth that stretches childcare.",
     category: "family",
@@ -43804,7 +43804,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-saint-die-des-vosges-2026",
     title:
       "Single parent in Saint-Dié-des-Vosges (2026): €71,500 for 65 square metres, in a town losing residents",
-    metaTitle: "Single Parent in Saint-Dié 2026: T3 €670, €1,100/m²",
+    metaTitle: "Single Parent in Saint-Dié 2027: T3 €670, €1,100/m²",
     metaDesc:
       "Fit 7.1/10, joint 4th of 416. The cheapest square metre and the second lowest entry floor in the series, against the second steepest decline. The trade-off.",
     category: "family",
@@ -43853,7 +43853,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-albi-2026",
     title:
       "Single parent in Albi (2026): a €2,550 floor for schools at 7.7, the best combination in Occitanie",
-    metaTitle: "Single Parent in Albi 2026: T3 €840, Schools 7.7/10",
+    metaTitle: "Single Parent in Albi 2027: T3 €840, Schools 7.7/10",
     metaDesc:
       "Fit 7.0/10, joint 7th of 416 and 1st in Occitanie. T3 at €840, entry floor €2,550, €109 of rent per school point, against €3,500 at Toulouse.",
     category: "family",
@@ -43902,7 +43902,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-cholet-2026",
     title:
       "Single parent in Cholet (2026): a €800 T3 for schools at 7.7, and €650 less income than Angers",
-    metaTitle: "Single Parent in Cholet 2026: T3 €800, Floor €2,400",
+    metaTitle: "Single Parent in Cholet 2027: T3 €800, Floor €2,400",
     metaDesc:
       "Fit 7.0/10, joint 7th of 416. T3 at €800, entry floor €2,400, €104 of rent per school point: €650 less monthly income than Angers, at equal provision.",
     category: "family",
@@ -43951,7 +43951,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-laon-2026",
     title:
       "Single parent in Laon (2026): a €2,250 floor, and three towns in the Aisne to compare before signing",
-    metaTitle: "Single Parent in Laon 2026: T3 €740, Floor €2,250",
+    metaTitle: "Single Parent in Laon 2027: T3 €740, Floor €2,250",
     metaDesc:
       "Fit 7.0/10, joint 7th of 416 and 1st in Hauts-de-France. T3 at €740, €1,400 a square metre, floor €2,250, against Soissons and Saint-Quentin next door.",
     category: "family",
@@ -44000,7 +44000,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-anglet-2026",
     title:
       "Single parent in Anglet (2026): the same rent as Bayonne, 1.7 more points of schools",
-    metaTitle: "Single Parent in Anglet 2026: T3 €1,200, Floor €3,450",
+    metaTitle: "Single Parent in Anglet 2027: T3 €1,200, Floor €3,450",
     metaDesc:
       "Fit 6.9/10, 11th of 363 and 1st in Nouvelle-Aquitaine. Same T3 and same floor as Bayonne for 1.7 more points of schools, and the floor is the lenient one.",
     category: "family",
@@ -44048,7 +44048,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-toulouse-2026",
     title: "Single-parent holidays in Toulouse: the best network, the lowest safety score",
-    metaTitle: "Single-Parent Holidays in Toulouse 2026",
+    metaTitle: "Single-Parent Holidays in Toulouse 2027",
     metaDesc:
       "Toulouse alone with the kids: transport 7.5/10, the best of this batch, because nothing children want is central. And safety 4.3/10, the series low.",
     category: "family",
@@ -44096,7 +44096,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-pau-2026",
     title: "Single-parent holidays in Pau: a free funicular from the station",
-    metaTitle: "Single-Parent Holidays in Pau 2026",
+    metaTitle: "Single-Parent Holidays in Pau 2027",
     metaDesc:
       "Pau alone with the kids: a free funicular lifts you from the station to the centre, nature 7.0/10. But transport 6.1 — the Pyrenees need a plan.",
     category: "family",
@@ -44144,7 +44144,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-macon-2026",
     title: "Single-parent holidays in Mâcon: the cheapest stop in this series",
-    metaTitle: "Single-Parent Holidays in Mâcon 2026",
+    metaTitle: "Single-Parent Holidays in Mâcon 2027",
     metaDesc:
       "Mâcon alone with the kids: the cheapest of the twenty-two destinations in this series, 800 € for a three-room flat. But the TGV stops at Loché, 7 km out.",
     category: "family",
@@ -44192,7 +44192,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-aix-en-provence-2026",
     title: "Single-parent holidays in Aix-en-Provence: the most expensive in this series",
-    metaTitle: "Single-Parent Holidays in Aix-en-Provence 2026",
+    metaTitle: "Single-Parent Holidays in Aix-en-Provence 2027",
     metaDesc:
       "Aix alone with the kids: the priciest of the twenty-two destinations here, 1,400 € for a three-room flat. What quality of life 7.8 and culture 8.4 buy.",
     category: "family",
@@ -44240,7 +44240,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-poitiers-2026",
     title: "Single-parent holidays in Poitiers: a theme park you reach by train",
-    metaTitle: "Single-Parent Holidays in Poitiers 2026",
+    metaTitle: "Single-Parent Holidays in Poitiers 2027",
     metaDesc:
       "Poitiers alone with the kids: the Futuroscope has its own TGV station and a city bus. A big theme park without hiring a car, at 2,100 € per square metre.",
     category: "family",
@@ -44288,7 +44288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-raphael-2026",
     title: "Single-parent holidays in Saint-Raphaël: the station is in the town",
-    metaTitle: "Single-Parent Holidays in Saint-Raphaël 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Raphaël 2027",
     metaDesc:
       "Saint-Raphaël alone with the kids: the station is central, the beach minutes away on foot. Best safety of this batch at 6.2/10, and the second-highest price.",
     category: "family",
@@ -44336,7 +44336,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-metz-2026",
     title: "Single-parent holidays in Metz: the station exit is the museum forecourt",
-    metaTitle: "Single-Parent Holidays in Metz 2026",
+    metaTitle: "Single-Parent Holidays in Metz 2027",
     metaDesc:
       "Metz alone with the kids: the station's south exit opens onto the Centre Pompidou-Metz forecourt. No connection with the bags, and 910 € for a three-room flat.",
     category: "family",
@@ -44384,7 +44384,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-le-mans-2026",
     title: "Single-parent holidays in Le Mans: a Roman wall a child can actually walk",
-    metaTitle: "Single-Parent Holidays in Le Mans 2026",
+    metaTitle: "Single-Parent Holidays in Le Mans 2027",
     metaDesc:
       "Le Mans alone with the kids: a Roman wall 1,300 m round, safety 5.3/10 and 870 € for a three-room flat. But check the June race dates before booking.",
     category: "family",
@@ -44431,7 +44431,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-reims-2026",
     title: "Single-parent holidays in Reims: off the train, on the tram, at the cathedral",
-    metaTitle: "Single-Parent Holidays in Reims 2026",
+    metaTitle: "Single-Parent Holidays in Reims 2027",
     metaDesc:
       "Reims alone with the kids: the tram passes the station and reaches the cathedral, 900 € a three-room flat. But nature scores 4.2/10, second lowest of thirty.",
     category: "family",
@@ -44478,7 +44478,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-lille-2026",
     title: "Single-parent holidays in Lille: two stations 500 m apart, and no landscape",
-    metaTitle: "Single-Parent Holidays in Lille 2026",
+    metaTitle: "Single-Parent Holidays in Lille 2027",
     metaDesc:
       "Lille alone with the kids: transport 8.7/10, third of thirty, and two stations 500 m apart. Against that, nature 3.4/10, the lowest score in the series.",
     category: "family",
@@ -44526,7 +44526,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-mulhouse-2026",
     title: "Single-parent holidays in Mulhouse: two world-class museums at 780 € a flat",
-    metaTitle: "Single-Parent Holidays in Mulhouse 2026",
+    metaTitle: "Single-Parent Holidays in Mulhouse 2027",
     metaDesc:
       "Mulhouse alone with the kids: the world's largest car museum and Europe's largest railway museum, in the second cheapest destination of the thirty.",
     category: "family",
@@ -44574,7 +44574,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-etienne-2026",
     title: "Single-parent holidays in Saint-Étienne: the cheapest of the thirty, and why",
-    metaTitle: "Single-Parent Holidays in Saint-Étienne 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Étienne 2027",
     metaDesc:
       "Saint-Étienne alone with the kids: the cheapest destination of the thirty at 770 € a flat, and the lowest on quality of life and culture. Both faces, in order.",
     category: "family",
@@ -44621,7 +44621,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-angouleme-2026",
     title: "Single-parent holidays in Angoulême: the worst transport score, and it barely matters",
-    metaTitle: "Single-Parent Holidays in Angoulême 2026",
+    metaTitle: "Single-Parent Holidays in Angoulême 2027",
     metaDesc:
       "Angoulême alone with the kids: transport 5.2/10, the lowest of thirty, on a walled plateau you cross on foot. And the comics festival did not run in 2026.",
     category: "family",
@@ -44668,7 +44668,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-montpellier-2026",
     title: "Single-parent holidays in Montpellier: the tram is free, but not for you",
-    metaTitle: "Single-Parent Holidays in Montpellier 2026",
+    metaTitle: "Single-Parent Holidays in Montpellier 2027",
     metaDesc:
       "Montpellier alone with the kids: the network is free only for metropolitan residents, on a named pass. Transport 7.7/10, and safety 3.7/10, lowest of thirty.",
     category: "family",
@@ -44716,7 +44716,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-avignon-2026",
     title: "Single-parent holidays in Avignon: a five-minute train from the TGV station",
-    metaTitle: "Single-Parent Holidays in Avignon 2026",
+    metaTitle: "Single-Parent Holidays in Avignon 2027",
     metaDesc:
       "Avignon alone with the kids: the TGV station is 6 km out, but a five-minute shuttle train reaches the centre. Culture 9.0/10, the best of the thirty.",
     category: "family",
@@ -44763,7 +44763,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bergerac-2026",
     title: "Things to do in Bergerac: wine, a river, and a Cyrano who never lived here",
-    metaTitle: "Things to Do in Bergerac, Dordogne (2026)",
+    metaTitle: "Things to Do in Bergerac, Dordogne (2027)",
     metaDesc:
       "A seventeenth-century cloister, the only tobacco museum in France, flat-bottomed boats on the Dordogne, and the truth about Cyrano.",
     category: "city-guide",
@@ -44813,7 +44813,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-agde-2026",
     title: "Things to do in Agde: the black town, which is not the resort",
-    metaTitle: "Things to Do in Agde, Hérault (2026)",
+    metaTitle: "Things to Do in Agde, Hérault (2027)",
     metaDesc:
       "A cathedral of black volcanic stone, an extinct volcano, a Greek bronze pulled from the river, and the round lock on the Canal du Midi.",
     category: "city-guide",
@@ -44863,7 +44863,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-thonon-les-bains-2026",
     title: "Things to do in Thonon-les-Bains: a funicular, a lake and a duke's retreat",
-    metaTitle: "Things to Do in Thonon-les-Bains (2026)",
+    metaTitle: "Things to Do in Thonon-les-Bains (2027)",
     metaDesc:
       "A funicular running since 1888, the château de Ripaille, late Maurice Denis murals, and a boat across Lake Geneva to Lausanne.",
     category: "city-guide",
@@ -44919,7 +44919,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-rambouillet-2026",
     title: "Things to do in Rambouillet: a royal château, a merino flock and two summits",
-    metaTitle: "Things to Do in Rambouillet, Yvelines (2026)",
+    metaTitle: "Things to Do in Rambouillet, Yvelines (2027)",
     metaDesc:
       "The château where François I died, Marie-Antoinette's dairy, the merino flock behind an American sheep breed, and the 1999 Kosovo talks.",
     category: "city-guide",
@@ -44969,7 +44969,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bethune-2026",
     title: "Things to do in Béthune: a UNESCO belfry and a square rebuilt after 1918",
-    metaTitle: "Things to Do in Béthune, Pas-de-Calais (2026)",
+    metaTitle: "Things to Do in Béthune, Pas-de-Calais (2027)",
     metaDesc:
       "A UNESCO belfry, a Grand-Place rebuilt in Art Deco after the town burned in 1918, a national drama centre and the Ring of Remembrance.",
     category: "city-guide",
@@ -45019,7 +45019,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montelimar-2026",
     title: "Things to do in Montélimar: nougat, a castle, and the gate to Provence",
-    metaTitle: "Things to Do in Montélimar, Drôme (2026)",
+    metaTitle: "Things to Do in Montélimar, Drôme (2027)",
     metaDesc:
       "Nougat with a protected geographical indication, a twelfth-century castle turned art centre, and the point where Provence begins.",
     category: "city-guide",
@@ -45069,7 +45069,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-cavaillon-2026",
     title: "Things to do in Cavaillon: a synagogue, a Roman arch and Dumas's melons",
-    metaTitle: "Things to Do in Cavaillon, Vaucluse (2026)",
+    metaTitle: "Things to Do in Cavaillon, Vaucluse (2027)",
     metaDesc:
       "An eighteenth-century synagogue, a Roman arch moved stone by stone, a hill fort above the plain, and the melons Alexandre Dumas took as a fee.",
     category: "city-guide",
@@ -45119,8 +45119,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-cheap-rent-2026",
-    title: "Cheapest French Cities to Rent In (2026)",
-    metaTitle: "Cheapest French Cities to Rent In 2026",
+    title: "Cheapest French Cities to Rent In (2027)",
+    metaTitle: "Cheapest French Cities to Rent In 2027",
     metaDesc:
       "Where a two-room flat rents for under €600 in a town that still works: 22 French cities ranked by rent, with the ones we deliberately left out.",
     category: "budget",
@@ -45172,8 +45172,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-retire-by-the-sea-budget-2026",
-    title: "Retiring by the Sea in France on a Budget (2026)",
-    metaTitle: "Retire by the Sea in France on a Budget 2026",
+    title: "Retiring by the Sea in France on a Budget (2027)",
+    metaTitle: "Retire by the Sea in France on a Budget 2027",
     metaDesc:
       "Sun, sea and a rent under €700: the Mediterranean towns where retiring cheaply in France still works, and the honest reason they cost less.",
     category: "budget",
@@ -45225,8 +45225,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-family-budget-2026",
-    title: "Best French Towns for Families on a Tight Budget (2026)",
-    metaTitle: "Best French Towns for Families on a Budget 2026",
+    title: "Best French Towns for Families on a Tight Budget (2027)",
+    metaTitle: "Best French Towns for Families on a Budget 2027",
     metaDesc:
       "Good schools, high safety and a three-room rent under €800: the French towns that work for a family without a metropolitan income, and the real catch.",
     category: "family",
@@ -45278,8 +45278,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-tech-jobs-2026",
-    title: "Best French Cities for Tech Jobs (2026)",
-    metaTitle: "Best French Cities for Tech Jobs 2026",
+    title: "Best French Cities for Tech Jobs (2027)",
+    metaTitle: "Best French Cities for Tech Jobs 2027",
     metaDesc:
       "Where the French tech jobs actually are outside Paris: Lyon, Toulouse, Grenoble, Rennes and Nantes compared on rent, and which ones work in English.",
     category: "moving",
@@ -45335,8 +45335,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-dog-owners-2026",
-    title: "Moving to France With a Dog: Best Cities (2026)",
-    metaTitle: "Moving to France With a Dog: Best Cities 2026",
+    title: "Moving to France With a Dog: Best Cities (2027)",
+    metaTitle: "Moving to France With a Dog: Best Cities 2027",
     metaDesc:
       "The import rules that catch people out, the breeds France bans outright, and the French cities that actually suit a large dog — with rents.",
     category: "lifestyle",
@@ -45388,8 +45388,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-alps-property-2026",
-    title: "Buying Property in the French Alps (2026)",
-    metaTitle: "Buying Property in the French Alps 2026",
+    title: "Buying Property in the French Alps (2027)",
+    metaTitle: "Buying Property in the French Alps 2027",
     metaDesc:
       "Recorded sale prices for the Alpine valley towns, from €2,278/m² in Albertville to €5,092 in Annecy, plus what a foreign buyer actually pays on top.",
     category: "budget",
@@ -45441,8 +45441,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "best-french-cities-industrial-jobs-2026",
-    title: "Where the Industrial Jobs Are in France (2026)",
-    metaTitle: "Where the Industrial Jobs Are in France 2026",
+    title: "Where the Industrial Jobs Are in France (2027)",
+    metaTitle: "Where the Industrial Jobs Are in France 2027",
     metaDesc:
       "Precision machining, cutlery, shipbuilding, electronics: the French towns with real industrial labour shortages and apartments from €703 per m².",
     category: "moving",
@@ -45493,8 +45493,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-house-with-garden-2026",
-    title: "Where €200,000 Still Buys a House With a Garden in France (2026)",
-    metaTitle: "A House With a Garden Under €200k in France 2026",
+    title: "Where €200,000 Still Buys a House With a Garden in France (2027)",
+    metaTitle: "A House With a Garden Under €200k in France 2027",
     metaDesc:
       "The French towns where €200,000 still buys a family house with land, ranked from recorded sale prices, and the ones that are cheap for a bad reason.",
     category: "budget",
@@ -45622,7 +45622,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-flatsharing-2026",
     title: "Flatsharing in France: Where a Room Costs What, and How the Lease Works",
-    metaTitle: "Flatsharing in France 2026: Rooms, Rents and the Lease",
+    metaTitle: "Flatsharing in France 2027: Rooms, Rents and the Lease",
     metaDesc:
       "A room in a French flatshare costs about a third less than a studio almost everywhere. What changes is the euro figure, and the lease you sign.",
     category: "budget",
@@ -45682,7 +45682,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-remote-working-couples-2026",
     title: "Two Remote Jobs, One Flat: The Best French Cities for Remote Couples",
-    metaTitle: "Best French Cities for Two Remote Workers (2026)",
+    metaTitle: "Best French Cities for Two Remote Workers (2027)",
     metaDesc:
       "Two people working from home need a third room. Here is what that room costs in each French city, and what each foreign employer has to do about it.",
     category: "remote-work",
@@ -45741,8 +45741,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "best-french-cities-single-parent-families-2026",
-    title: "Best French Cities for Single-Parent Families (2026)",
-    metaTitle: "Best French Cities for Single-Parent Families 2026",
+    title: "Best French Cities for Single-Parent Families (2027)",
+    metaTitle: "Best French Cities for Single-Parent Families 2027",
     metaDesc:
       "Ranked on the four things that decide a single-parent household: cost, transport, schools and safety, with the income each city's three-room rent needs.",
     category: "family",
@@ -45806,7 +45806,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "best-french-cities-protected-nature-2026",
     title: "French Cities With Protected Nature on the Doorstep, Measured",
-    metaTitle: "French Cities With Protected Nature Nearby (2026)",
+    metaTitle: "French Cities With Protected Nature Nearby (2027)",
     metaDesc:
       "How much land within 15 km of each French city is legally protected, measured on the national mapping. The national median is 6.8%. Some cities are at 0.",
     category: "lifestyle",
@@ -45871,7 +45871,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-fontainebleau-2026",
     title:
       "Single parent in Fontainebleau (2026): first in the Paris region, on 15,787 residents",
-    metaTitle: "Single Parent in Fontainebleau 2026: Floor €3,450",
+    metaTitle: "Single Parent in Fontainebleau 2027: Floor €3,450",
     metaDesc:
       "Fit 6.9/10, 12th of 363 and first of the 115 ranked Paris-region communes. T3 €1,200, floor €3,450, schools 8.7/10 without the Hauts-de-Seine price.",
     category: "family",
@@ -45920,7 +45920,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-soissons-2026",
     title:
       "Single parent in Soissons (2026): joint 11th of 416, and Laon does as well for €190 less",
-    metaTitle: "Single Parent in Soissons 2026: T3 €930, Floor €2,800",
+    metaTitle: "Single Parent in Soissons 2027: T3 €930, Floor €2,800",
     metaDesc:
       "Fit 6.9/10, joint 11th of 416 and second in Hauts-de-France. T3 €930, floor €2,800, but €141 of rent per point of schools: the worst ratio in the top 15.",
     category: "family",
@@ -45969,7 +45969,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-vienne-2026",
     title:
       "Single parent in Vienne (2026): first in Auvergne-Rhône-Alpes, ahead of Lyon and Grenoble",
-    metaTitle: "Single Parent in Vienne, Isère 2026: Floor €2,850",
+    metaTitle: "Single Parent in Vienne, Isère 2027: Floor €2,850",
     metaDesc:
       "Fit 6.9/10, 14th of 363 and first of 39 in Auvergne-Rhône-Alpes. T3 €940, floor €2,850, transport and schools both 7.7/10. Safety 5.7 is the reserve.",
     category: "family",
@@ -46018,7 +46018,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-villefranche-sur-saone-2026",
     title:
       "Single parent in Villefranche-sur-Saône (2026): 8.7/10 of schools for €700 less income than Lyon",
-    metaTitle: "Single Parent in Villefranche-sur-Saône 2026: T3 €1,070",
+    metaTitle: "Single Parent in Villefranche-sur-Saône 2027: T3 €1,070",
     metaDesc:
       "Fit 6.9/10, 15th of 363. Schools 8.7/10, the level of Strasbourg and Annecy, for a floor of €3,250 against €3,950 at Lyon. But the population is falling.",
     category: "family",
@@ -46067,7 +46067,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-auch-2026",
     title:
       "Single parent in Auch (2026): €97 of rent per point of schools, the best ratio in the series",
-    metaTitle: "Single Parent in Auch 2026: T3 €640, Floor €1,950",
+    metaTitle: "Single Parent in Auch 2027: T3 €640, Floor €1,950",
     metaDesc:
       "Fit 6.8/10, 16th of 363. T3 €640, floor €1,950 and €97 of rent per point of schools, the best ratio in the series. Transport 4.2/10 is the counterpart.",
     category: "family",
@@ -46116,7 +46116,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-chaumont-2026",
     title:
       "Single parent in Chaumont (2026): the cheapest square metre of the 363 ranked communes",
-    metaTitle: "Single Parent in Chaumont 2026: €950/m², Floor €1,900",
+    metaTitle: "Single Parent in Chaumont 2027: €950/m², Floor €1,900",
     metaDesc:
       "Fit 6.8/10, 17th of 363. The cheapest square metre in the ranking at €950, that is €61,750 for 65 m². Schools 5.5/10 and a falling population: the two reserves.",
     category: "family",
@@ -46165,7 +46165,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-compiegne-2026",
     title:
       "Single parent in Compiègne (2026): transport and schools both 7.7/10, cost as the counterpart",
-    metaTitle: "Single Parent in Compiègne 2026: T3 €980, Floor €2,950",
+    metaTitle: "Single Parent in Compiègne 2027: T3 €980, Floor €2,950",
     metaDesc:
       "Fit 6.8/10, joint 16th of 416 and third in Hauts-de-France. Transport 7.7/10 and schools 7.7/10, one of only five in the top 20 to do both. Cost 5.9 in reserve.",
     category: "family",
@@ -46214,7 +46214,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-les-sables-d-olonne-2026",
     title:
       "Single parent in Les Sables-d'Olonne (2026): €800 more income than La Roche-sur-Yon for the same schools",
-    metaTitle: "Single Parent in Les Sables-d'Olonne 2026: Floor €3,200",
+    metaTitle: "Single Parent in Les Sables-d'Olonne 2027: Floor €3,200",
     metaDesc:
       "Fit 6.8/10, 19th of 363 and fourth in Pays de la Loire. Safety 8.0/10 and schools 7.7/10, but La Roche-sur-Yon offers as much for €800 less income.",
     category: "family",
@@ -46263,7 +46263,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-sens-2026",
     title:
       "Single parent in Sens (2026): no axis under 6.4, the second flattest profile in the top 20",
-    metaTitle: "Single Parent in Sens 2026: T3 €920, Floor €2,800",
+    metaTitle: "Single Parent in Sens 2027: T3 €920, Floor €2,800",
     metaDesc:
       "Fit 6.8/10, 20th of 363 and second in Bourgogne-Franche-Comté. None of the four axes under 6.4/10: the second most even profile in the top 20.",
     category: "family",
@@ -46312,7 +46312,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-alencon-2026",
     title:
       "Single parent in Alençon (2026): the best rent-to-schools ratio of the 363 ranked towns",
-    metaTitle: "Single Parent in Alençon 2026: T3 €620, Floor €1,900",
+    metaTitle: "Single Parent in Alençon 2027: T3 €620, Floor €1,900",
     metaDesc:
       "Fit 6.7/10, 22nd of 363 and first in Normandy. €94 of rent per point of school provision, the lowest of the ranking, against 4.2/10 of transport.",
     category: "family",
@@ -46361,7 +46361,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-brive-la-gaillarde-2026",
     title:
       "Single parent in Brive-la-Gaillarde (2026): the most even profile of the 363 ranked towns",
-    metaTitle: "Single Parent in Brive 2026: T3 €780, Floor €2,350",
+    metaTitle: "Single Parent in Brive 2027: T3 €780, Floor €2,350",
     metaDesc:
       "Fit 6.7/10, 24th of 363 and second in Nouvelle-Aquitaine. 0.4 of a point separates its best axis from its weakest: the narrowest spread of the ranking.",
     category: "family",
@@ -46410,7 +46410,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-etampes-2026",
     title:
       "Single parent in Étampes (2026): second in the Paris region, and the only town of the batch that is growing",
-    metaTitle: "Single Parent in Étampes 2026: T3 €1,120, Floor €3,400",
+    metaTitle: "Single Parent in Étampes 2027: T3 €1,120, Floor €3,400",
     metaDesc:
       "Fit 6.7/10, 25th of 363 and second of the 115 ranked Paris-region communes. Schools 7.7/10, but an entry floor of €3,400: the Paris region is paid for.",
     category: "family",
@@ -46459,7 +46459,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-vichy-2026",
     title:
       "Single parent in Vichy (2026): €97 a point of schooling, and 41.5 per cent of residents aged 60 and over",
-    metaTitle: "Single Parent in Vichy 2026: T3 €640, Floor €1,950",
+    metaTitle: "Single Parent in Vichy 2027: T3 €640, Floor €1,950",
     metaDesc:
       "Fit 6.7/10, 26th of 363 and fourth in Auvergne-Rhône-Alpes. One of the three best rent-to-schools ratios of the ranking, in a very old commune.",
     category: "family",
@@ -46508,7 +46508,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-beaune-2026",
     title:
       "Single parent in Beaune (2026): 8.1/10 of safety, and the hardest cost of the ten towns in the batch",
-    metaTitle: "Single Parent in Beaune 2026: T3 €1,080, Floor €3,250",
+    metaTitle: "Single Parent in Beaune 2027: T3 €1,080, Floor €3,250",
     metaDesc:
       "Fit 6.6/10, joint 27th of 416 and third in Bourgogne-Franche-Comté. Schools 7.7/10 and safety 8.1/10, for a cost of living sitting exactly on 5.0/10.",
     category: "family",
@@ -46557,7 +46557,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-dieppe-2026",
     title:
       "Single parent in Dieppe (2026): first in Seine-Maritime, and 0.8 of a point of spread",
-    metaTitle: "Single Parent in Dieppe 2026: T3 €820, Floor €2,500",
+    metaTitle: "Single Parent in Dieppe 2027: T3 €820, Floor €2,500",
     metaDesc:
       "Fit 6.6/10, 30th of 363 and first of the 5 ranked communes of Seine-Maritime. An almost flat profile, in a commune losing 8.2 per cent of its residents.",
     category: "family",
@@ -46606,7 +46606,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-dreux-2026",
     title:
       "Single parent in Dreux (2026): first in Centre-Val de Loire, ahead of Tours and Orléans",
-    metaTitle: "Single Parent in Dreux 2026: T3 €930, Floor €2,800",
+    metaTitle: "Single Parent in Dreux 2027: T3 €930, Floor €2,800",
     metaDesc:
       "Fit 6.6/10, 31st of 363 and first of the 11 ranked communes of Centre-Val de Loire. Transport 7.0/10, and a safety mark of 5.7/10 that caps the file.",
     category: "family",
@@ -46655,7 +46655,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-laval-2026",
     title:
       "Single parent in Laval (2026): €100 a point of schooling, and five towns of its region ahead of it",
-    metaTitle: "Single Parent in Laval 2026: T3 €660, Floor €2,000",
+    metaTitle: "Single Parent in Laval 2027: T3 €660, Floor €2,000",
     metaDesc:
       "Fit 6.6/10, 33rd of 363 and sixth of the 14 ranked communes of Pays de la Loire. One of the five best rent-to-schools ratios, in a very dense region.",
     category: "family",
@@ -46704,7 +46704,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-roanne-2026",
     title:
       "Single parent in Roanne (2026): first in the Loire, and €97,500 for 65 square metres",
-    metaTitle: "Single Parent in Roanne 2026: T3 €700, Floor €2,100",
+    metaTitle: "Single Parent in Roanne 2027: T3 €700, Floor €2,100",
     metaDesc:
       "Fit 6.6/10, 35th of 363 and first of the 3 ranked communes of the Loire, ahead of Saint-Étienne. Cost of living 7.7/10, safety 5.7/10: the trade is clear.",
     category: "family",
@@ -46753,7 +46753,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-saint-quentin-2026",
     title:
       "Single parent in Saint-Quentin (2026): the best budget of the Aisne, the two weak axes of the trio",
-    metaTitle: "Single Parent in Saint-Quentin 2026: T3 €650",
+    metaTitle: "Single Parent in Saint-Quentin 2027: T3 €650",
     metaDesc:
       "Fit 6.6/10, 36th of 363 and fourth in Hauts-de-France. Cost 8.3/10 and transport 7.7/10, against 5.5/10 of schools and 4.7/10 of safety.",
     category: "family",
@@ -46801,7 +46801,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-pontoise-2026",
     title: "Things to do in Pontoise: the town where Pissarro worked",
-    metaTitle: "Things to Do in Pontoise, Val-d'Oise (2026)",
+    metaTitle: "Things to Do in Pontoise, Val-d'Oise (2027)",
     metaDesc:
       "A twelfth-century cathedral, a Gothic townhouse turned museum, the world's largest Otto Freundlich holding, and the hillside Pissarro painted.",
     category: "city-guide",
@@ -46852,7 +46852,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-haguenau-2026",
     title: "Things to do in Haguenau: an imperial town burned twice in one year",
-    metaTitle: "Things to Do in Haguenau, Alsace (2026)",
+    metaTitle: "Things to Do in Haguenau, Alsace (2027)",
     metaDesc:
       "An emperor's palace that no longer exists, the largest jointly owned forest in France, and a luggage museum with no equivalent in Europe.",
     category: "city-guide",
@@ -46903,7 +46903,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-ales-2026",
     title: "Things to do in Alès: seven hundred metres of mine galleries",
-    metaTitle: "Things to Do in Alès, Gard (2026)",
+    metaTitle: "Things to Do in Alès, Gard (2027)",
     metaDesc:
       "The largest visitable mine network in France, a fort from the Camisard war, a museum built by Picasso's printer, and the valleys Stevenson walked.",
     category: "city-guide",
@@ -46954,7 +46954,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-villefranche-sur-saone-2026",
     title: "Things to do in Villefranche-sur-Saône: courtyards behind the shopfronts",
-    metaTitle: "Things to Do in Villefranche-sur-Saône (2026)",
+    metaTitle: "Things to Do in Villefranche-sur-Saône (2027)",
     metaDesc:
       "Dozens of Renaissance courtyards hidden behind an ordinary shopping street, a 72-metre spire, and the capital of Beaujolais half an hour from Lyon.",
     category: "city-guide",
@@ -47011,7 +47011,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-six-fours-les-plages-2026",
     title: "Things to do in Six-Fours-les-Plages: everything that is not on the beach",
-    metaTitle: "Things to Do in Six-Fours-les-Plages (2026)",
+    metaTitle: "Things to Do in Six-Fours-les-Plages (2027)",
     metaDesc:
       "An early Christian chapel, a Louis Bréa polyptych, and a cape falling 358 metres into the sea, with the fire-season rule that decides your walking day.",
     category: "city-guide",
@@ -47068,7 +47068,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-blagnac-2026",
     title: "Things to do in Blagnac: board a Concorde, watch an A350 being built",
-    metaTitle: "Things to Do in Blagnac, near Toulouse (2026)",
+    metaTitle: "Things to Do in Blagnac, near Toulouse (2027)",
     metaDesc:
       "The only place in France where you can walk into a Concorde flight deck and look down on a working A350 assembly line, plus the brick village underneath.",
     category: "city-guide",
@@ -47119,7 +47119,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-le-cannet-2026",
     title: "Things to do in Le Cannet: the only Bonnard museum in the world",
-    metaTitle: "Things to Do in Le Cannet, above Cannes (2026)",
+    metaTitle: "Things to Do in Le Cannet, above Cannes (2027)",
     metaDesc:
       "Le Cannet is not Cannes: a separate town in the hills with no coastline, the world's only Bonnard museum, a Tobiasse chapel and a sixteenth-century tower.",
     category: "city-guide",
@@ -47221,7 +47221,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mantes-la-jolie-2026",
     title: "Things to do in Mantes-la-Jolie: where William the Conqueror took his death wound",
-    metaTitle: "Things to Do in Mantes-la-Jolie (2026)",
+    metaTitle: "Things to Do in Mantes-la-Jolie (2027)",
     metaDesc:
       "The town William the Conqueror burned in 1087, a collegiate church begun with Notre-Dame de Paris, and France's largest public Maximilien Luce holding.",
     category: "city-guide",
@@ -47278,7 +47278,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-istres-2026",
     title: "Things to do in Istres: an oppidum, a lagoon and a shuttle runway",
-    metaTitle: "Things to Do in Istres, Bouches-du-Rhône (2026)",
+    metaTitle: "Things to Do in Istres, Bouches-du-Rhône (2027)",
     metaDesc:
       "An Iron Age hill fort over a 220-hectare lagoon, a 50-metre water jet, life-size dinosaurs, and the runway NASA kept as a shuttle abort site.",
     category: "city-guide",
@@ -47329,7 +47329,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-conflans-sainte-honorine-2026",
     title: "Things to do in Conflans-Sainte-Honorine: the capital of the French barge",
-    metaTitle: "Things to Do in Conflans-Sainte-Honorine (2026)",
+    metaTitle: "Things to Do in Conflans-Sainte-Honorine (2027)",
     metaDesc:
       "An eleventh-century keep, the national museum of inland waterways, and a chapel barge moored since 1936, at the confluence of the Oise and the Seine.",
     category: "city-guide",
@@ -47386,7 +47386,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-bron-2026",
     title: "Things to do in Bron: a buried fort and the airport Lyon outgrew",
-    metaTitle: "Things to Do in Bron, near Lyon (2026)",
+    metaTitle: "Things to Do in Bron, near Lyon (2027)",
     metaDesc:
       "A buried nineteenth-century fort open one Sunday a month, an aviation museum inside it, and 178 hectares of park, on the eastern edge of Lyon.",
     category: "city-guide",
@@ -47437,7 +47437,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vaulx-en-velin-2026",
     title: "Things to do in Vaulx-en-Velin: a planetarium and a rayon factory",
-    metaTitle: "Things to Do in Vaulx-en-Velin, Lyon (2026)",
+    metaTitle: "Things to Do in Vaulx-en-Velin, Lyon (2027)",
     metaDesc:
       "A 15-metre planetarium dome, a listed artificial-silk factory of 1924, and 2,200 hectares of riverside park, on the eastern edge of Lyon.",
     category: "city-guide",
@@ -47494,7 +47494,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-priest-2026",
     title: "Things to do in Saint-Priest: a medieval keep in an industrial suburb",
-    metaTitle: "Things to Do in Saint-Priest, near Lyon (2026)",
+    metaTitle: "Things to Do in Saint-Priest, near Lyon (2027)",
     metaDesc:
       "A fourteenth-century fortified house turned château, a Popular Front legacy of civic buildings, and a village centre inside the Lyon metropolis.",
     category: "city-guide",
@@ -47550,8 +47550,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-paris-2026",
-    title: "Moving to Paris in 2026: the file, the truck, the first weeks",
-    metaTitle: "Moving to Paris 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Paris in 2027: the file, the truck, the first weeks",
+    metaTitle: "Moving to Paris 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "The practical side of moving to Paris: rent control, the tenancy file when your payslips are foreign, kerb permits, furniture lifts and what landing costs.",
     category: "moving",
@@ -47607,8 +47607,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-lyon-2026",
-    title: "Moving to Lyon in 2026: rent caps, hills and the first weeks",
-    metaTitle: "Moving to Lyon 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Lyon in 2027: rent caps, hills and the first weeks",
+    metaTitle: "Moving to Lyon 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Lyon: rent control, the tenancy file when your payslips are foreign, the Croix-Rousse slopes, the low-emission zone and what landing really costs.",
     category: "moving",
@@ -47664,8 +47664,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-marseille-2026",
-    title: "Moving to Marseille in 2026: never rent this city sight unseen",
-    metaTitle: "Moving to Marseille 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Marseille in 2027: never rent this city sight unseen",
+    metaTitle: "Moving to Marseille 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Marseille: why you never rent here from photos, the districts that work for a first lease, narrow-street logistics and what landing actually costs.",
     category: "moving",
@@ -47721,8 +47721,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-bordeaux-2026",
-    title: "Moving to Bordeaux in 2026: rent caps, stone stairs, the ring road",
-    metaTitle: "Moving to Bordeaux 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Bordeaux in 2027: rent caps, stone stairs, the ring road",
+    metaTitle: "Moving to Bordeaux 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Bordeaux: the rent cap, the tenancy file when your payslips are foreign, narrow stone streets, the ring road trap and what landing actually costs.",
     category: "moving",
@@ -47778,8 +47778,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-toulouse-2026",
-    title: "Moving to Toulouse in 2026: timing, brick and the ring road",
-    metaTitle: "Moving to Toulouse 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Toulouse in 2027: timing, brick and the ring road",
+    metaTitle: "Moving to Toulouse 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Toulouse: why the month you arrive decides everything, where to land, the ring road trap, moving-day rules and what the arrival actually costs.",
     category: "moving",
@@ -47835,8 +47835,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-nice-2026",
-    title: "Moving to Nice in 2026: year-round leases in a holiday-let market",
-    metaTitle: "Moving to Nice 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Nice in 2027: year-round leases in a holiday-let market",
+    metaTitle: "Moving to Nice 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Nice: how holiday lets squeeze year-round leases, the districts that work, hillside access problems and what the arrival actually costs.",
     category: "moving",
@@ -47892,8 +47892,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-strasbourg-2026",
-    title: "Moving to Strasbourg in 2026: the island, the bikes, the local law",
-    metaTitle: "Moving to Strasbourg 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Strasbourg in 2027: the island, the bikes, the local law",
+    metaTitle: "Moving to Strasbourg 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Strasbourg: the UNESCO island's delivery rules, EU-institution rental pressure, Alsace-Moselle local law and what the arrival actually costs.",
     category: "moving",
@@ -47949,8 +47949,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-lille-2026",
-    title: "Moving to Lille in 2026: the 1930s house that eats your sofa",
-    metaTitle: "Moving to Lille 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Lille in 2027: the 1930s house that eats your sofa",
+    metaTitle: "Moving to Lille 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Lille: the rent cap, the narrow 1930s houses and their staircases, cobbled Vieux-Lille permits and what the arrival actually costs.",
     category: "moving",
@@ -48006,8 +48006,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-nantes-2026",
-    title: "Moving to Nantes in 2026: the queue, not the price",
-    metaTitle: "Moving to Nantes 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Nantes in 2027: the queue, not the price",
+    metaTitle: "Moving to Nantes 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Nantes: why the queue matters more than the rent, the districts that work for a first lease, an easy moving day and what the arrival costs.",
     category: "moving",
@@ -48063,8 +48063,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-montpellier-2026",
-    title: "Moving to Montpellier in 2026: never arrive in late August",
-    metaTitle: "Moving to Montpellier 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Montpellier in 2027: never arrive in late August",
+    metaTitle: "Moving to Montpellier 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Montpellier: the rent cap worth checking, the August rush to avoid, the pedestrian Écusson on moving day and what the arrival really costs.",
     category: "moving",
@@ -48120,8 +48120,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-aix-en-provence-2026",
-    title: "Moving to Aix-en-Provence in 2026: the cheap-Provence myth",
-    metaTitle: "Moving to Aix-en-Provence 2026 — Rents, Costs, Moving",
+    title: "Moving to Aix-en-Provence in 2027: the cheap-Provence myth",
+    metaTitle: "Moving to Aix-en-Provence 2027 — Rents, Costs, Moving",
     metaDesc:
       "Moving to Aix-en-Provence: what the lease really costs, the September student crush, the mistral and the heat on moving day, and the local traps.",
     category: "moving",
@@ -48177,8 +48177,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-antibes-2026",
-    title: "Moving to Antibes in 2026: the Sophia commute decides it",
-    metaTitle: "Moving to Antibes 2026 — Rents, Sophia, Moving Day",
+    title: "Moving to Antibes in 2027: the Sophia commute decides it",
+    metaTitle: "Moving to Antibes 2027 — Rents, Sophia, Moving Day",
     metaDesc:
       "Moving to Antibes: rents, the seasonal-let squeeze on long leases, the Sophia-Antipolis commute, moving day inside the ramparts and what it all costs.",
     category: "moving",
@@ -48234,8 +48234,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-reims-2026",
-    title: "Moving to Reims in 2026: a Paris salary on a Reims budget",
-    metaTitle: "Moving to Reims 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Reims in 2027: a Paris salary on a Reims budget",
+    metaTitle: "Moving to Reims 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Reims: 45 minutes from Paris by TGV, a two-room flat at €680, the September squeeze, moving day around the cathedral and what arriving costs.",
     category: "moving",
@@ -48291,8 +48291,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-tours-2026",
-    title: "Moving to Tours in 2026: 55 minutes from Paris, half the rent",
-    metaTitle: "Moving to Tours 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Tours in 2027: 55 minutes from Paris, half the rent",
+    metaTitle: "Moving to Tours 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Tours: 55 minutes from Paris by TGV, a two-room flat at €700, a relaxed rental market, moving day in the old town and what arriving costs.",
     category: "moving",
@@ -48348,8 +48348,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-caen-2026",
-    title: "Moving to Caen in 2026: the ferry port with a city attached",
-    metaTitle: "Moving to Caen 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Caen in 2027: the ferry port with a city attached",
+    metaTitle: "Moving to Caen 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Caen: a two-room flat at €700, three tram lines, the sea fifteen minutes away, the Portsmouth ferry, moving day and what arriving really costs.",
     category: "moving",
@@ -48405,8 +48405,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-le-havre-2026",
-    title: "Moving to Le Havre in 2026: a UNESCO centre at €650 a flat",
-    metaTitle: "Moving to Le Havre 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Le Havre in 2027: a UNESCO centre at €650 a flat",
+    metaTitle: "Moving to Le Havre 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Le Havre: a two-room flat at €650, a UNESCO-listed centre, Paris in 2h05, the wind that dictates moving day, and what the arrival really costs.",
     category: "moving",
@@ -48462,8 +48462,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-nimes-2026",
-    title: "Moving to Nîmes in 2026: plan the arrival around the heat",
-    metaTitle: "Moving to Nîmes 2026 — Rents, Heat, Moving Day",
+    title: "Moving to Nîmes in 2027: plan the arrival around the heat",
+    metaTitle: "Moving to Nîmes 2027 — Rents, Heat, Moving Day",
     metaDesc:
       "Moving to Nîmes: a two-room flat at €720, Roman monuments, the summer heat that dictates moving day, Cévennes flood risk and what arriving really costs.",
     category: "moving",
@@ -48519,8 +48519,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-clermont-ferrand-2026",
-    title: "Moving to Clermont-Ferrand in 2026: the rail distance filters it",
-    metaTitle: "Moving to Clermont-Ferrand 2026 — Rents and Costs",
+    title: "Moving to Clermont-Ferrand in 2027: the rail distance filters it",
+    metaTitle: "Moving to Clermont-Ferrand 2027 — Rents and Costs",
     metaDesc:
       "Moving to Clermont-Ferrand: a two-room flat at €680, a relaxed market, the volcanoes fifteen minutes away, moving day in the black-stone centre, real costs.",
     category: "moving",
@@ -48576,8 +48576,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-rennes-2026",
-    title: "Moving to Rennes in 2026: a metro city that lets in days",
-    metaTitle: "Moving to Rennes 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Rennes in 2027: a metro city that lets in days",
+    metaTitle: "Moving to Rennes 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Rennes: a rental market that moves in days, the districts that work, medieval streets on moving day and what the arrival actually costs.",
     category: "moving",
@@ -48633,8 +48633,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-grenoble-2026",
-    title: "Moving to Grenoble in 2026: the bowl decides everything",
-    metaTitle: "Moving to Grenoble 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Grenoble in 2027: the bowl decides everything",
+    metaTitle: "Moving to Grenoble 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Grenoble: a strict low-emission zone, winter inversions in the bowl, the districts that work for a first lease and what the arrival costs.",
     category: "moving",
@@ -48690,8 +48690,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-toulon-2026",
-    title: "Moving to Toulon in 2026: the Riviera at half the rent",
-    metaTitle: "Moving to Toulon 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Toulon in 2027: the Riviera at half the rent",
+    metaTitle: "Moving to Toulon 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Toulon: Mediterranean rents well below Nice, seasonal lets disguised as year-round leases, the mistral on moving day and the real arrival cost.",
     category: "moving",
@@ -48747,8 +48747,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-rouen-2026",
-    title: "Moving to Rouen in 2026: the easy arrival, with two caveats",
-    metaTitle: "Moving to Rouen 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Rouen in 2027: the easy arrival, with two caveats",
+    metaTitle: "Moving to Rouen 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Rouen: an unusually relaxed rental market, choosing between the two banks, half-timbered logistics and what the arrival actually costs.",
     category: "moving",
@@ -48804,8 +48804,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-angers-2026",
-    title: "Moving to Angers in 2026: live along the two tram lines",
-    metaTitle: "Moving to Angers 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Angers in 2027: live along the two tram lines",
+    metaTitle: "Moving to Angers 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Angers: a market that tightened since 2019, why the tram corridor decides your district, timber-framed logistics and the real arrival cost.",
     category: "moving",
@@ -48861,8 +48861,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-dijon-2026",
-    title: "Moving to Dijon in 2026: the cheapest arrival of the big cities",
-    metaTitle: "Moving to Dijon 2026 — Rentals, Costs, Moving Day",
+    title: "Moving to Dijon in 2027: the cheapest arrival of the big cities",
+    metaTitle: "Moving to Dijon 2027 — Rentals, Costs, Moving Day",
     metaDesc:
       "Moving to Dijon: a genuinely relaxed rental market, a continental winter that the postcard hides, pedestrian-centre permits and what the arrival costs.",
     category: "moving",
@@ -48919,7 +48919,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-verdun-2026",
     title: "Things to do in Verdun: the battlefield is not in the town",
-    metaTitle: "Things to Do in Verdun, Meuse (2026)",
+    metaTitle: "Things to Do in Verdun, Meuse (2027)",
     metaDesc:
       "Seven kilometres of galleries under the citadel, a cathedral consecrated in 1147, and the battlefield that lies ten kilometres outside the town.",
     category: "city-guide",
@@ -48970,7 +48970,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vaison-la-romaine-2026",
     title: "Things to do in Vaison-la-Romaine: a Roman town you can walk through",
-    metaTitle: "Things to Do in Vaison-la-Romaine (2026)",
+    metaTitle: "Things to Do in Vaison-la-Romaine (2027)",
     metaDesc:
       "Fifteen hectares of Roman remains, a bridge that survived the 1992 flood, and a medieval town on the rock above: how to plan a day in Vaison.",
     category: "city-guide",
@@ -49021,7 +49021,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-senlis-2026",
     title: "Things to do in Senlis: where the Capetian dynasty started",
-    metaTitle: "Things to Do in Senlis, Oise (2026)",
+    metaTitle: "Things to Do in Senlis, Oise (2027)",
     metaDesc:
       "One of the first Gothic cathedrals, a Roman wall still almost complete, and the castle where Hugh Capet was elected king in 987, an hour from Paris.",
     category: "city-guide",
@@ -49072,7 +49072,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dinard-2026",
     title: "Things to do in Dinard: the Breton resort the British built",
-    metaTitle: "Things to Do in Dinard, Brittany (2026)",
+    metaTitle: "Things to Do in Dinard, Brittany (2027)",
     metaDesc:
       "Hundreds of Belle Epoque villas, an Anglican church from 1871, a clifftop promenade and a British film festival, on Brittany's Emerald Coast.",
     category: "city-guide",
@@ -49123,7 +49123,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-briancon-2026",
     title: "Things to do in Briançon: the highest town in France",
-    metaTitle: "Things to Do in Briançon, Hautes-Alpes (2026)",
+    metaTitle: "Things to Do in Briançon, Hautes-Alpes (2027)",
     metaDesc:
       "A walled town at 1,326 metres, Vauban fortifications on the UNESCO list since 2008, and a single-span bridge finished in 1731 over the Durance gorge.",
     category: "city-guide",
@@ -49174,7 +49174,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-figeac-2026",
     title: "Things to do in Figeac: the town that produced Champollion",
-    metaTitle: "Things to Do in Figeac, Lot (2026)",
+    metaTitle: "Things to Do in Figeac, Lot (2027)",
     metaDesc:
       "Champollion's birthplace, a courtyard paved with the Rosetta Stone inscription, and medieval merchant houses with open drying lofts under the roof.",
     category: "city-guide",
@@ -49225,7 +49225,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-granville-2026",
     title: "Things to do in Granville: the Norman town the English founded",
-    metaTitle: "Things to Do in Granville, Normandy (2026)",
+    metaTitle: "Things to Do in Granville, Normandy (2027)",
     metaDesc:
       "A walled town the English built in 1440 to besiege Mont-Saint-Michel, Christian Dior's childhood home, and a carnival on the UNESCO heritage list.",
     category: "city-guide",
@@ -49276,7 +49276,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-annecy-2026",
     title: "Solo travel in Annecy: the best setting in the series, and the price that goes with it",
-    metaTitle: "Solo Travel in Annecy 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Annecy 2027: Stay, Go Out, Budget",
     metaDesc:
       "Annecy alone: the best everyday-life, safety and nature scores in the series, the second worst cost score, and a new animation museum open 362 days a year.",
     category: "lifestyle",
@@ -49325,7 +49325,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-colmar-2026",
     title: "Solo travel in Colmar: the only city in this series that peaks in winter",
-    metaTitle: "Solo Travel in Colmar 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Colmar 2027: Stay, Go Out, Budget",
     metaDesc:
       "Colmar alone: the best culture score in this batch level with Nice, and a calendar that peaks in December against every other guide in this series.",
     category: "lifestyle",
@@ -49374,7 +49374,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-fort-de-france-2026",
     title: "Solo travel in Fort-de-France: a capital that works, not a resort",
-    metaTitle: "Solo Travel in Fort-de-France 2026: Stay, Budget",
+    metaTitle: "Solo Travel in Fort-de-France 2027: Stay, Budget",
     metaDesc:
       "Fort-de-France alone: the lowest share of under-30s in the series, a national theatre staging 160 shows a season, and entry rules that are not Schengen.",
     category: "lifestyle",
@@ -49423,7 +49423,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-montauban-2026",
     title: "Solo travel in Montauban: the cheapest destination in this whole series",
-    metaTitle: "Solo Travel in Montauban 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Montauban 2027: Stay, Go Out, Budget",
     metaDesc:
       "Montauban alone: the best cost score of the 43 destinations in this series, a share of under-30s below the national median, and Toulouse 35 minutes away.",
     category: "lifestyle",
@@ -49472,7 +49472,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-nice-2026",
     title: "Solo travel in Nice: trams until one in the morning, February at the top of the year",
-    metaTitle: "Solo Travel in Nice 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Nice 2027: Stay, Go Out, Budget",
     metaDesc:
       "Nice alone: the best transport score in this batch, a tram that runs until one in the morning, the highest rents of the seven, and a carnival in February.",
     category: "lifestyle",
@@ -49521,7 +49521,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-niort-2026",
     title: "Solo travel in Niort: a town that works, and the cheapest flat of the seven",
-    metaTitle: "Solo Travel in Niort 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Niort 2027: Stay, Go Out, Budget",
     metaDesc:
       "Niort alone: no tourist reputation, more than ten thousand mutual insurance jobs, the lowest rents of the seven, and a keep begun by Henry II of England.",
     category: "lifestyle",
@@ -49570,7 +49570,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-saint-pierre-reunion-2026",
     title: "Solo travel in Saint-Pierre de La Réunion: leeward coast, southern winter, no train",
-    metaTitle: "Solo Travel in Saint-Pierre, Réunion 2026: Stay, Budget",
+    metaTitle: "Solo Travel in Saint-Pierre, Réunion 2027: Stay, Budget",
     metaDesc:
       "Saint-Pierre alone: the youngest population of the seven, the cheapest studio, no railway on the island, and the rule about where you are allowed to swim.",
     category: "lifestyle",
@@ -49619,8 +49619,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "single-parent-in-chatellerault-2026",
-    title: "Single parent in Châtellerault (2026): the lowest entry floor of the 6.5 band",
-    metaTitle: "Single Parent in Châtellerault 2026: T3 €640, Floor €1,950",
+    title: "Single parent in Châtellerault (2027): the lowest entry floor of the 6.5 band",
+    metaTitle: "Single Parent in Châtellerault 2027: T3 €640, Floor €1,950",
     metaDesc:
       "Fit 6.5/10, in the 14-commune band sharing that mark. The lowest entry floor of the band, €1,950 net for a €640 T3, and transport at 7.7/10.",
     category: "family",
@@ -49667,8 +49667,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-dizier-2026",
-    title: "Single parent in Saint-Dizier (2026): €65,000 for 65 square metres, in a town that is emptying",
-    metaTitle: "Single Parent in Saint-Dizier 2026: €1,000 a Square Metre",
+    title: "Single parent in Saint-Dizier (2027): €65,000 for 65 square metres, in a town that is emptying",
+    metaTitle: "Single Parent in Saint-Dizier 2027: €1,000 a Square Metre",
     metaDesc:
       "Fit 6.5/10. The second cheapest square metre of the 363 ranked communes, €65,000 for 65 sq m, against a population down 8.5% in six years.",
     category: "family",
@@ -49715,8 +49715,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-charleville-mezieres-2026",
-    title: "Single parent in Charleville-Mézières (2026): the best cost axis in the ranking is not purchasing power",
-    metaTitle: "Single Parent in Charleville-Mézières 2026: Cost 8.5/10",
+    title: "Single parent in Charleville-Mézières (2027): the best cost axis in the ranking is not purchasing power",
+    metaTitle: "Single Parent in Charleville-Mézières 2027: Cost 8.5/10",
     metaDesc:
       "Fit 6.5/10. The best cost-of-living axis in the ranking sits beside a 30% poverty rate: the two figures describe the same local economy.",
     category: "family",
@@ -49763,8 +49763,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-castres-2026",
-    title: "Single parent in Castres (2026): €106 a school point, and the only province town in the batch that is growing",
-    metaTitle: "Single Parent in Castres 2026: €106 per School Point",
+    title: "Single parent in Castres (2027): €106 a school point, and the only province town in the batch that is growing",
+    metaTitle: "Single Parent in Castres 2027: €106 per School Point",
     metaDesc:
       "Fit 6.5/10, third in Occitanie. €106 of rent per school point, 13th of 363, and the only province town in this batch gaining residents.",
     category: "family",
@@ -49811,8 +49811,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-montbeliard-2026",
-    title: "Single parent in Montbéliard (2026): an even profile whose floor is safety",
-    metaTitle: "Single Parent in Montbéliard 2026: T3 €720, Even Profile",
+    title: "Single parent in Montbéliard (2027): an even profile whose floor is safety",
+    metaTitle: "Single Parent in Montbéliard 2027: T3 €720, Even Profile",
     metaDesc:
       "Fit 6.5/10. Just 1.7 points between its best and weakest axis, €109 of rent per school point, but the floor of the file is safety at 5.5/10.",
     category: "family",
@@ -49859,8 +49859,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-abbeville-2026",
-    title: "Single parent in Abbeville (2026): the best cost axis of the batch, and yet the highest rent",
-    metaTitle: "Single Parent in Abbeville 2026: T3 €830, Floor €2,500",
+    title: "Single parent in Abbeville (2027): the best cost axis of the batch, and yet the highest rent",
+    metaTitle: "Single Parent in Abbeville 2027: T3 €830, Floor €2,500",
     metaDesc:
       "Fit 6.5/10, first in the Somme. The cost axis ranks it 14th of 416, its rent ranks it 89th: the two figures do not measure the same thing.",
     category: "family",
@@ -49907,8 +49907,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saumur-2026",
-    title: "Single parent in Saumur (2026): the best safety mark of the band, and the highest local income of the eight",
-    metaTitle: "Single Parent in Saumur 2026: Safety 7.4/10",
+    title: "Single parent in Saumur (2027): the best safety mark of the band, and the highest local income of the eight",
+    metaTitle: "Single Parent in Saumur 2027: Safety 7.4/10",
     metaDesc:
       "Fit 6.5/10. Safety 7.4/10, 10th of 363 and the only commune at that exact level, plus the highest local income of the eight province towns.",
     category: "family",
@@ -49955,8 +49955,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-villeneuve-sur-lot-2026",
-    title: "Single parent in Villeneuve-sur-Lot (2026): transport 4.2/10 and 37 per cent aged 60 or over",
-    metaTitle: "Single Parent in Villeneuve-sur-Lot 2026: Transport 4.2",
+    title: "Single parent in Villeneuve-sur-Lot (2027): transport 4.2/10 and 37 per cent aged 60 or over",
+    metaTitle: "Single Parent in Villeneuve-sur-Lot 2027: Transport 4.2",
     metaDesc:
       "Fit 6.5/10, 1.2 points ahead of Agen. Safety 7.0/10, but transport in the last thirty ranks of 363 and 37.0% of residents aged 60 or over.",
     category: "family",
@@ -50003,8 +50003,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-issy-les-moulineaux-2026",
-    title: "Single parent in Issy-les-Moulineaux (2026): transport 9, schools 9, cost 2.2",
-    metaTitle: "Single Parent in Issy-les-Moulineaux 2026: Floor €5,150",
+    title: "Single parent in Issy-les-Moulineaux (2027): transport 9, schools 9, cost 2.2",
+    metaTitle: "Single Parent in Issy-les-Moulineaux 2027: Floor €5,150",
     metaDesc:
       "Fit 6.5/10. The ranking maximum on transport and schools, its minimum on cost, and a €5,150 entry floor for the same mark as Châtellerault.",
     category: "family",
@@ -50051,8 +50051,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-levallois-perret-2026",
-    title: "Single parent in Levallois-Perret (2026): the same mark as Châtellerault, for almost three times the income",
-    metaTitle: "Single Parent in Levallois-Perret 2026: T3 €2,000",
+    title: "Single parent in Levallois-Perret (2027): the same mark as Châtellerault, for almost three times the income",
+    metaTitle: "Single Parent in Levallois-Perret 2027: T3 €2,000",
     metaDesc:
       "Fit 6.5/10, the same mark as Châtellerault for almost three times the income. The band runs from €1,950 to €5,700: a band is not a shortlist.",
     category: "family",
@@ -50100,8 +50100,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-champigny-sur-marne-2026",
-    title: "Moving to Champigny-sur-Marne in 2026: the cheap side of the loop",
-    metaTitle: "Moving to Champigny-sur-Marne 2026 — Rents, Costs",
+    title: "Moving to Champigny-sur-Marne in 2027: the cheap side of the loop",
+    metaTitle: "Moving to Champigny-sur-Marne 2027 — Rents, Costs",
     metaDesc:
       "Moving to Champigny-sur-Marne: a two-room flat at €980, the metro that is now autumn 2027 and not next year, the Marne flood zone, and what arriving costs.",
     category: "moving",
@@ -50157,8 +50157,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-saint-maur-des-fosses-2026",
-    title: "Moving to Saint-Maur-des-Fossés in 2026: six villages on a peninsula",
-    metaTitle: "Moving to Saint-Maur-des-Fosses 2026 — Rents, Costs",
+    title: "Moving to Saint-Maur-des-Fossés in 2027: six villages on a peninsula",
+    metaTitle: "Moving to Saint-Maur-des-Fosses 2027 — Rents, Costs",
     metaDesc:
       "Moving to Saint-Maur-des-Fossés: four RER A stations, six village districts, Belle Epoque houses that cost a fortune to heat, and what arriving really costs.",
     category: "moving",
@@ -50214,8 +50214,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-creteil-2026",
-    title: "Moving to Créteil in 2026: a 1970s new town that works",
-    metaTitle: "Moving to Créteil 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Créteil in 2027: a 1970s new town that works",
+    metaTitle: "Moving to Créteil 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Créteil: the best floor area per euro in the inner suburbs, a metro with four stations, a lake, a university, and the service charges to check first.",
     category: "moving",
@@ -50271,8 +50271,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-vitry-sur-seine-2026",
-    title: "Moving to Vitry-sur-Seine in 2026: street art and a building site",
-    metaTitle: "Moving to Vitry-sur-Seine 2026 — Rents, Costs",
+    title: "Moving to Vitry-sur-Seine in 2027: street art and a building site",
+    metaTitle: "Moving to Vitry-sur-Seine 2027 — Rents, Costs",
     metaDesc:
       "Moving to Vitry-sur-Seine: France's street-art capital, a major contemporary art museum, two metro stations due in 2027, and what the arrival actually costs.",
     category: "moving",
@@ -50328,8 +50328,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-colombes-2026",
-    title: "Moving to Colombes in 2026: the Chariots of Fire stadium, and a long wait",
-    metaTitle: "Moving to Colombes 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Colombes in 2027: the Chariots of Fire stadium, and a long wait",
+    metaTitle: "Moving to Colombes 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Colombes: ten minutes from La Défense by tram, the 1924 Olympic stadium, and the Grand Paris metro that arrives in 2031 rather than next year.",
     category: "moving",
@@ -50385,8 +50385,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-asnieres-sur-seine-2026",
-    title: "Moving to Asnières-sur-Seine in 2026: eight minutes from Saint-Lazare",
-    metaTitle: "Moving to Asnieres-sur-Seine 2026 — Rents, Costs",
+    title: "Moving to Asnières-sur-Seine in 2027: eight minutes from Saint-Lazare",
+    metaTitle: "Moving to Asnieres-sur-Seine 2027 — Rents, Costs",
     metaDesc:
       "Moving to Asnières-sur-Seine: eight minutes to Paris Saint-Lazare, the summer Van Gogh painted here, a sharp north-south divide, and what arriving costs.",
     category: "moving",
@@ -50442,8 +50442,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-courbevoie-2026",
-    title: "Moving to Courbevoie in 2026: living at the foot of La Défense",
-    metaTitle: "Moving to Courbevoie 2026 — Rents, Charges, Costs",
+    title: "Moving to Courbevoie in 2027: living at the foot of La Défense",
+    metaTitle: "Moving to Courbevoie 2027 — Rents, Charges, Costs",
     metaDesc:
       "Moving to Courbevoie: three districts with nothing in common, the service charges that are not in the advertised rent, and what arriving at La Défense costs.",
     category: "moving",
@@ -50499,8 +50499,8 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "moving-to-rueil-malmaison-2026",
-    title: "Moving to Rueil-Malmaison in 2026: Joséphine's house and a very large commune",
-    metaTitle: "Moving to Rueil-Malmaison 2026 — Rents, Costs",
+    title: "Moving to Rueil-Malmaison in 2027: Joséphine's house and a very large commune",
+    metaTitle: "Moving to Rueil-Malmaison 2027 — Rents, Costs",
     metaDesc:
       "Moving to Rueil-Malmaison: the best-rated commune in this series, ten minutes from La Défense, 14.7 km² that you must read district by district.",
     category: "moving",
@@ -50557,7 +50557,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-langres-2026",
     title: "Things to do in Langres: a rampart ring that never breaks, and Diderot",
-    metaTitle: "Things to Do in Langres, Haute-Marne (2026)",
+    metaTitle: "Things to Do in Langres, Haute-Marne (2027)",
     metaDesc:
       "A 3.5 km rampart circuit with no gap in it, the birthplace of Diderot, a washed-rind cheese with a crater, and four lakes dug to feed a canal.",
     category: "city-guide",
@@ -50608,7 +50608,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-remy-de-provence-2026",
     title: "Things to do in Saint-Rémy-de-Provence: Glanum, and the year Van Gogh spent here",
-    metaTitle: "Things to Do in Saint-Rémy-de-Provence (2026)",
+    metaTitle: "Things to Do in Saint-Rémy-de-Provence (2027)",
     metaDesc:
       "A Roman town that slept under an olive grove, the asylum where Van Gogh painted over 140 canvases in a year, and Nostradamus, born here in 1503.",
     category: "city-guide",
@@ -50665,7 +50665,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-la-baule-2026",
     title: "Things to do in La Baule: a resort built on top of a buried village",
-    metaTitle: "Things to Do in La Baule, Loire-Atlantique (2026)",
+    metaTitle: "Things to Do in La Baule, Loire-Atlantique (2027)",
     metaDesc:
       "A village buried under sand, a pine forest planted to stop it, nine kilometres of beach shared by three communes, and 6,871 protected buildings.",
     category: "city-guide",
@@ -50716,7 +50716,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-morlaix-2026",
     title: "Things to do in Morlaix: a viaduct over the rooftops, and a motto aimed at England",
-    metaTitle: "Things to Do in Morlaix, Finistère (2026)",
+    metaTitle: "Things to Do in Morlaix, Finistère (2027)",
     metaDesc:
       "A 62 m railway viaduct over the town centre, a house type found almost nowhere else, a buried river, and a town motto England earned in 1522.",
     category: "city-guide",
@@ -50767,7 +50767,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dax-2026",
     title: "Things to do in Dax: the biggest spa town in France, and what a cure actually is",
-    metaTitle: "Things to Do in Dax, Landes: Spa Town Guide 2026",
+    metaTitle: "Things to Do in Dax, Landes: Spa Town Guide 2027",
     metaDesc:
       "Not the stock index: a town in the Landes where a spring runs 2.4 million litres a day at 64 degrees, with 320 m of Roman wall still standing.",
     category: "city-guide",
@@ -50818,7 +50818,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vendome-2026",
     title: "Things to do in Vendôme: a 1508 façade, and the relic that paid for it",
-    metaTitle: "Things to Do in Vendôme, Loir-et-Cher (2026)",
+    metaTitle: "Things to Do in Vendôme, Loir-et-Cher (2027)",
     metaDesc:
       "A flamboyant Gothic front by the man who built the north spire at Chartres, seven centuries of pilgrimage, and the Loir, which is not the Loire.",
     category: "city-guide",
@@ -50869,7 +50869,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-ceret-2026",
     title: "Things to do in Céret: the bridge Picasso painted that is not in Paris",
-    metaTitle: "Things to Do in Céret, French Catalonia (2026)",
+    metaTitle: "Things to Do in Céret, French Catalonia (2027)",
     metaDesc:
       "Canvases long filed under the Pont-Neuf in Paris show a bridge here. Plus a record-breaking 1341 arch, 78 Picassos, and the cherries sent to the Élysée.",
     category: "city-guide",
@@ -50919,7 +50919,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-arras-2026",
     title: "Solo travel in Arras: the cheapest rents in this whole series",
-    metaTitle: "Solo Travel in Arras 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Arras 2027: Stay, Go Out, Budget",
     metaDesc:
       "Arras alone: the lowest studio, one-bed and two-bed rents of the fifty destinations in this series, 24.53% of residents aged 15 to 29, Paris in 49 minutes.",
     category: "lifestyle",
@@ -50977,7 +50977,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-angouleme-2026",
     title:
       "Solo travel in Angoulême: the festival did not happen, the town still works",
-    metaTitle: "Solo Travel in Angoulême 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Angoulême 2027: Stay, Go Out, Budget",
     metaDesc:
       "Angoulême alone: the 2026 comics festival was cancelled, so what carries the town is the year-round venue. Where to stay, going out, the single supplement.",
     category: "lifestyle",
@@ -51033,7 +51033,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-compiegne-2026",
     title: "Solo travel in Compiègne: the buses have been free since 1975",
-    metaTitle: "Solo Travel in Compiègne 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Compiègne 2027: Stay, Go Out, Budget",
     metaDesc:
       "Compiègne alone: a bus network free since 1975, 39 minutes from Paris-Nord direct, 23.89% of residents aged 15 to 29, and the glade where 1918 ended.",
     category: "lifestyle",
@@ -51093,7 +51093,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-albi-2026",
     title:
       "Solo travel in Albi: the cheapest destination in this series, and the oldest",
-    metaTitle: "Solo Travel in Albi 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Albi 2027: Stay, Go Out, Budget",
     metaDesc:
       "Albi alone: the best cost score of the fifty destinations in this series and the highest share of over-60s. Where to stay, going out, single supplement.",
     category: "lifestyle",
@@ -51153,7 +51153,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-lorient-2026",
     title: "Solo travel in Lorient: a U-boat bunker turned concert hall",
-    metaTitle: "Solo Travel in Lorient 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Lorient 2027: Stay, Go Out, Budget",
     metaDesc:
       "Lorient alone: a contemporary music venue built inside a submarine bunker, 21.80% of residents aged 15 to 29, and ten days in summer to avoid or plan for.",
     category: "lifestyle",
@@ -51210,7 +51210,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-vannes-2026",
     title:
       "Solo travel in Vannes: the dearest in this batch, and its concert hall is elsewhere",
-    metaTitle: "Solo Travel in Vannes 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Vannes 2027: Stay, Go Out, Budget",
     metaDesc:
       "Vannes alone: the best quality of life in this batch, a two-bed flat at Nantes prices, and a contemporary music venue in a different commune altogether.",
     category: "lifestyle",
@@ -51269,7 +51269,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "solo-travel-in-beauvais-2026",
     title: "Solo travel in Beauvais: the tallest Gothic choir ever built",
-    metaTitle: "Solo Travel in Beauvais 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Beauvais 2027: Stay, Go Out, Budget",
     metaDesc:
       "Beauvais alone: 21.38% of residents aged 15 to 29, a Gothic vault 48.50 m high, the best transport in this batch and the thinnest studio market here.",
     category: "lifestyle",
@@ -51329,7 +51329,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-marseille-2026",
     title:
       "Solo travel in Marseille: the best night out in this series, and the metro stops at 21:30",
-    metaTitle: "Solo Travel in Marseille 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Marseille 2027: Stay, Go Out, Budget",
     metaDesc:
       "Marseille alone: culture 9.0/10, nightlife 9.0/10 at the Cours Julien, the lowest daily-life score of the fifty-six, and a metro that stops at 21:30 midweek.",
     category: "lifestyle",
@@ -51391,7 +51391,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-villeurbanne-2026",
     title:
       "Solo travel in Villeurbanne: the steadiest night scene here, and Lyon two stops away",
-    metaTitle: "Solo Travel in Villeurbanne 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Villeurbanne 2027: Stay, Go Out, Budget",
     metaDesc:
       "Villeurbanne alone: 8.00 average nightlife across three districts, the first French Capital of Culture, metro line A, and Part-Dieu station two stops away.",
     category: "lifestyle",
@@ -51453,7 +51453,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-saint-paul-reunion-2026",
     title:
       "Solo travel in Saint-Paul, Réunion: the lagoon is at Saint-Gilles, not at the town",
-    metaTitle: "Solo Travel in Saint-Paul, Réunion 2026: Stay, Go Out",
+    metaTitle: "Solo Travel in Saint-Paul, Réunion 2027: Stay, Go Out",
     metaDesc:
       "Saint-Paul on Réunion alone: Saint-Gilles-les-Bains at 8.5/10 for nightlife, swimming lawful in the lagoon only, inverted seasons, and no Schengen visa here.",
     category: "lifestyle",
@@ -51515,7 +51515,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-nimes-2026",
     title:
       "Solo travel in Nîmes: the town that gave denim its name, and it passes both our rules",
-    metaTitle: "Solo Travel in Nîmes 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Nîmes 2027: Stay, Go Out, Budget",
     metaDesc:
       "Nîmes alone: the Arènes district at 8/10 for nightlife, 21.12% aged 15 to 29, a Roman temple listed in 2023, and a TGV station that is in two other communes.",
     category: "lifestyle",
@@ -51577,7 +51577,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-bastia-2026",
     title:
       "Solo travel in Bastia: the first Corsican destination here, and the worst connected",
-    metaTitle: "Solo Travel in Bastia 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Bastia 2027: Stay, Go Out, Budget",
     metaDesc:
       "Bastia alone: Terra Vecchia at 8/10 for nightlife, a working port that lives out of season, the lowest transport score in the series, and Nelson besieged it.",
     category: "lifestyle",
@@ -51638,7 +51638,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "solo-travel-in-amiens-2026",
     title:
       "Solo travel in Amiens: a 500-seat hall opened this month, in the district that goes out",
-    metaTitle: "Solo Travel in Amiens 2026: Stay, Go Out, Budget",
+    metaTitle: "Solo Travel in Amiens 2027: Stay, Go Out, Budget",
     metaDesc:
       "Amiens alone: Saint-Leu at 8/10 for nightlife, a new 500-seat music venue since September 2026, 28.98% aged 15 to 29, and the best cost score in this batch.",
     category: "lifestyle",
@@ -51696,8 +51696,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-vienne-2026",
-    title: "Solo travel in Vienne, France (2026): 37.1% aged 15 to 29, on the Lyon line",
-    metaTitle: "Solo Travel in Vienne 2026: Stay, Go Out, Budget",
+    title: "Solo travel in Vienne, France (2027): 37.1% aged 15 to 29, on the Lyon line",
+    metaTitle: "Solo Travel in Vienne 2027: Stay, Go Out, Budget",
     metaDesc: "Vienne (Isère) alone: 37.1% aged 15 to 29, culture 9/10, a two-room flat reference of 700 €, and Lyon on the same railway line. Where to stay, when to come.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51736,8 +51736,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-anglet-2026",
-    title: "Solo travel in Anglet (2026): surf, 9% more residents and a cost score of 4.5/10",
-    metaTitle: "Solo Travel in Anglet 2026: Stay, Go Out, Budget",
+    title: "Solo travel in Anglet (2027): surf, 9% more residents and a cost score of 4.5/10",
+    metaTitle: "Solo Travel in Anglet 2027: Stay, Go Out, Budget",
     metaDesc: "Anglet alone: daily life 8.7/10, the Plages district at 8/10 for evenings, but cost 4.5/10 and 37.3% aged 60 or over. Who it suits, where to stay, when to go.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51776,8 +51776,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-limoges-2026",
-    title: "Solo travel in Limoges (2026): 39.5% aged 15 to 29 and a two-room flat at 600 €",
-    metaTitle: "Solo Travel in Limoges 2026: Stay, Go Out, Budget",
+    title: "Solo travel in Limoges (2027): 39.5% aged 15 to 29 and a two-room flat at 600 €",
+    metaTitle: "Solo Travel in Limoges 2027: Stay, Go Out, Budget",
     metaDesc: "Limoges alone: 39.5% aged 15 to 29, a 600 € two-room flat reference, a town of 129,754 that lives all year. Where to stay and how to go out.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51816,8 +51816,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-saint-etienne-2026",
-    title: "Solo travel in Saint-Étienne (2026): 40.9% aged 15 to 29, the design city that does not try to please",
-    metaTitle: "Solo Travel in Saint-Étienne 2026: Go Out, Stay",
+    title: "Solo travel in Saint-Étienne (2027): 40.9% aged 15 to 29, the design city that does not try to please",
+    metaTitle: "Solo Travel in Saint-Étienne 2027: Go Out, Stay",
     metaDesc: "Saint-Étienne alone: 40.9% aged 15 to 29, a 580 € two-room flat reference, tram and TGV. Safety 4.3/10: what that changes and where to stay.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51856,8 +51856,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-dunkerque-2026",
-    title: "Solo travel in Dunkirk (2026): a winter carnival, a beach at Malo and a two-room flat at 560 €",
-    metaTitle: "Solo Travel in Dunkirk 2026: Stay, Go Out, Budget",
+    title: "Solo travel in Dunkirk (2027): a winter carnival, a beach at Malo and a two-room flat at 560 €",
+    metaTitle: "Solo Travel in Dunkirk 2027: Stay, Go Out, Budget",
     metaDesc: "Dunkirk alone: 34.6% aged 15 to 29, a 560 € two-room flat reference, the winter carnival and Malo-les-Bains. Where to stay, when to go, the budget.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51896,8 +51896,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-brive-la-gaillarde-2026",
-    title: "Solo travel in Brive-la-Gaillarde (2026): a market, a rugby ground and a two-room flat at 580 €",
-    metaTitle: "Solo Travel in Brive 2026: Stay, Go Out, Budget",
+    title: "Solo travel in Brive-la-Gaillarde (2027): a market, a rugby ground and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Brive 2027: Stay, Go Out, Budget",
     metaDesc: "Brive alone: culture 7.5/10, 32.1% aged 15 to 29, covered market, rugby, a 580 € two-room flat reference. A Corrèze town that lives all year.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51936,8 +51936,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-talence-2026",
-    title: "Solo travel in Talence (2026): the student town at the end of tram line B",
-    metaTitle: "Solo Travel in Talence 2026: Tram, Campus, Budget",
+    title: "Solo travel in Talence (2027): the student town at the end of tram line B",
+    metaTitle: "Solo Travel in Talence 2027: Tram, Campus, Budget",
     metaDesc: "Talence alone: 36.5% aged 15 to 29, tram B into Bordeaux, transport 8.1/10. But cost 3.6/10 and a two-room flat at 850 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -51976,8 +51976,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-valenciennes-2026",
-    title: "Solo travel in Valenciennes (2026): a fine-arts museum, a university and a two-room flat at 490 €",
-    metaTitle: "Solo Travel in Valenciennes 2026: Go Out, Budget",
+    title: "Solo travel in Valenciennes (2027): a fine-arts museum, a university and a two-room flat at 490 €",
+    metaTitle: "Solo Travel in Valenciennes 2027: Go Out, Budget",
     metaDesc: "Valenciennes alone: culture 6.2/10, 26% aged 15 to 29, a two-room flat at 490 €, regional trains to Lille and Brussels.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52016,8 +52016,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-belfort-2026",
-    title: "Solo travel in Belfort (2026): a high-speed station, a lively old quarter and a two-room flat at 520 €",
-    metaTitle: "Solo Travel in Belfort 2026: Go Out, TGV, Budget",
+    title: "Solo travel in Belfort (2027): a high-speed station, a lively old quarter and a two-room flat at 520 €",
+    metaTitle: "Solo Travel in Belfort 2027: Go Out, TGV, Budget",
     metaDesc: "Belfort alone: cost 7.2/10, a TGV station, a centre scoring 7/10 for evenings, a two-room flat at 520 €. A town losing residents.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52056,8 +52056,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-douai-2026",
-    title: "Solo travel in Douai (2026): a UNESCO belfry, students and a two-room flat at 500 €",
-    metaTitle: "Solo Travel in Douai 2026: Belfry, Go Out, Budget",
+    title: "Solo travel in Douai (2027): a UNESCO belfry, students and a two-room flat at 500 €",
+    metaTitle: "Solo Travel in Douai 2027: Belfry, Go Out, Budget",
     metaDesc: "Douai alone: culture 6.2/10, a UNESCO belfry, a university, a two-room flat at 500 €, high-speed and regional trains.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52096,8 +52096,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-tarbes-2026",
-    title: "Solo travel in Tarbes (2026): the Pyrenees within reach and a cost score of 7.4/10",
-    metaTitle: "Solo Travel in Tarbes 2026: Pyrenees, Budget",
+    title: "Solo travel in Tarbes (2027): the Pyrenees within reach and a cost score of 7.4/10",
+    metaTitle: "Solo Travel in Tarbes 2027: Pyrenees, Budget",
     metaDesc: "Tarbes alone: cost 7.4/10, nature 6.4/10, 10.4% more residents since 2016, a two-room flat at 580 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52136,8 +52136,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-agen-2026",
-    title: "Solo travel in Agen (2026): a market, a high-speed station and a two-room flat at 560 €",
-    metaTitle: "Solo Travel in Agen 2026: Market, Station, Budget",
+    title: "Solo travel in Agen (2027): a market, a high-speed station and a two-room flat at 560 €",
+    metaTitle: "Solo Travel in Agen 2027: Market, Station, Budget",
     metaDesc: "Agen alone: cost 6.4/10, 2,100 hours of sunshine, a covered market, a TGV station, a two-room flat at 560 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52176,8 +52176,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-le-havre-2026",
-    title: "Solo travel in Le Havre (2026): Perret's rebuilt centre, a tram and a two-room flat at 650 €",
-    metaTitle: "Solo Travel in Le Havre 2026: Centre, Tram, Budget",
+    title: "Solo travel in Le Havre (2027): Perret's rebuilt centre, a tram and a two-room flat at 650 €",
+    metaTitle: "Solo Travel in Le Havre 2027: Centre, Tram, Budget",
     metaDesc: "Le Havre alone: a rebuilt UNESCO centre, a tram, a two-room flat at 650 €, 1,590 hours of sun. What the town holds off-season.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52216,8 +52216,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-toulon-2026",
-    title: "Solo travel in Toulon (2026): a market, the Mourillon beaches and a two-room flat at 780 €",
-    metaTitle: "Solo Travel in Toulon 2026: Market, Beaches, Budget",
+    title: "Solo travel in Toulon (2027): a market, the Mourillon beaches and a two-room flat at 780 €",
+    metaTitle: "Solo Travel in Toulon 2027: Market, Beaches, Budget",
     metaDesc: "Toulon alone: 2,750 hours of sun, the cours Lafayette market, Mourillon beaches, a TGV station, a two-room flat at 780 €.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52256,8 +52256,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-perpignan-2026",
-    title: "Solo travel in Perpignan (2026): the Castillet, markets and a two-room flat at 650 €",
-    metaTitle: "Solo Travel in Perpignan 2026: Castillet, Budget",
+    title: "Solo travel in Perpignan (2027): the Castillet, markets and a two-room flat at 650 €",
+    metaTitle: "Solo Travel in Perpignan 2027: Castillet, Budget",
     metaDesc: "Perpignan alone: 2,750 hours of sun, a Catalan centre around the Castillet, a TGV station, a two-room flat at 650 €. The caveats.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52296,8 +52296,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-montelimar-2026",
-    title: "Solo travel in Montélimar (2026): a lively centre, a station and a two-room flat at 580 €",
-    metaTitle: "Solo Travel in Montélimar 2026: Centre, Budget",
+    title: "Solo travel in Montélimar (2027): a lively centre, a station and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Montélimar 2027: Centre, Budget",
     metaDesc: "Montélimar alone: 2,600 hours of sun, a historic centre, a two-room flat at 580 €, a smaller town that holds up off-season.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52336,8 +52336,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-arles-2026",
-    title: "Solo travel in Arles (2026): culture 9/10, a quiet off-season and a two-room flat at 700 €",
-    metaTitle: "Solo Travel in Arles 2026: Culture, Budget, Season",
+    title: "Solo travel in Arles (2027): culture 9/10, a quiet off-season and a two-room flat at 700 €",
+    metaTitle: "Solo Travel in Arles 2027: Culture, Budget, Season",
     metaDesc: "Arles alone: culture 9/10, 2,700 hours of sun, a two-room flat at 700 €, but only 15.3% aged 15 to 29 off-season.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52376,8 +52376,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-cergy-2026",
-    title: "Solo travel in Cergy (2026): a young town, the RER A and a two-room flat at 880 €",
-    metaTitle: "Solo Travel in Cergy 2026: RER A, Young Town",
+    title: "Solo travel in Cergy (2027): a young town, the RER A and a two-room flat at 880 €",
+    metaTitle: "Solo Travel in Cergy 2027: RER A, Young Town",
     metaDesc: "Cergy alone: 26.3% aged 15 to 29, the RER A, a university, the Axe majeur, a two-room flat at 880 €. A base, not a resort.",
     category: "lifestyle",
     emoji: "🍸",
@@ -52416,8 +52416,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-beziers-2026",
-    title: "Solo travel in Béziers (2026): the Canal du Midi and a two-room flat at 530 €",
-    metaTitle: "Solo Travel in Béziers 2026: Low Budget, TGV",
+    title: "Solo travel in Béziers (2027): the Canal du Midi and a two-room flat at 530 €",
+    metaTitle: "Solo Travel in Béziers 2027: Low Budget, TGV",
     metaDesc: "Béziers alone: 17.7% aged 15 to 29, a direct TGV, the Allées Paul-Riquet, a two-room flat at 530 €, 2,850 hours of sun. How it holds up off-season.",
     category: "lifestyle",
     emoji: "🍷",
@@ -52456,8 +52456,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-ajaccio-2026",
-    title: "Solo travel in Ajaccio (2026): 2,890 hours of sun, but no train",
-    metaTitle: "Solo Travel in Ajaccio 2026: Sun, No Train",
+    title: "Solo travel in Ajaccio (2027): 2,890 hours of sun, but no train",
+    metaTitle: "Solo Travel in Ajaccio 2027: Sun, No Train",
     metaDesc: "Ajaccio alone: 2,890 hours of sun, 10.5 °C in January, 13.7% aged 15 to 29, an old centre, a two-room flat at 900 €. Honest about winter.",
     category: "lifestyle",
     emoji: "🏝️",
@@ -52496,8 +52496,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-cayenne-2026",
-    title: "Solo travel in Cayenne (2026): a young town in French Guiana, outside any usual circuit",
-    metaTitle: "Solo Travel in Cayenne 2026: Young Town, Guiana",
+    title: "Solo travel in Cayenne (2027): a young town in French Guiana, outside any usual circuit",
+    metaTitle: "Solo Travel in Cayenne 2027: Young Town, Guiana",
     metaDesc: "Cayenne alone: 23.7% aged 15 to 29, 13.1% aged 60 or over, a centre, a market, a two-room flat at 800 €. No train, no seasons to quote.",
     category: "lifestyle",
     emoji: "🌴",
@@ -52536,8 +52536,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-saint-germain-en-laye-2026",
-    title: "Solo travel in Saint-Germain-en-Laye (2026): the RER A and a forest, at 1,150 € for a two-room flat",
-    metaTitle: "Solo Travel in Saint-Germain-en-Laye 2026: RER A",
+    title: "Solo travel in Saint-Germain-en-Laye (2027): the RER A and a forest, at 1,150 € for a two-room flat",
+    metaTitle: "Solo Travel in Saint-Germain-en-Laye 2027: RER A",
     metaDesc: "Saint-Germain-en-Laye alone: the RER A, a château, a forest, 16.6% aged 15 to 29, a two-room flat at 1,150 €. A calm base, and a dear one.",
     category: "lifestyle",
     emoji: "🏰",
@@ -52576,8 +52576,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-versailles-2026",
-    title: "Solo travel in Versailles (2026): 9/10 for culture, but a two-room flat at 1,200 €",
-    metaTitle: "Solo Travel in Versailles 2026: Culture, RER, TGV",
+    title: "Solo travel in Versailles (2027): 9/10 for culture, but a two-room flat at 1,200 €",
+    metaTitle: "Solo Travel in Versailles 2027: Culture, RER, TGV",
     metaDesc: "Versailles alone: culture 9/10, RER and TGV, 20.8% aged 15 to 29, a two-room flat at 1,200 €. A high-budget town, calm at night.",
     category: "lifestyle",
     emoji: "👑",
@@ -52616,8 +52616,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-cherbourg-2026",
-    title: "Solo travel in Cherbourg-en-Cotentin (2026): the sea, a port and a two-room flat at 620 €",
-    metaTitle: "Solo Travel in Cherbourg 2026: Port, Low Budget",
+    title: "Solo travel in Cherbourg-en-Cotentin (2027): the sea, a port and a two-room flat at 620 €",
+    metaTitle: "Solo Travel in Cherbourg 2027: Port, Low Budget",
     metaDesc: "Cherbourg-en-Cotentin alone: 18.8% aged 15 to 29, a centre, the Cité de la Mer, a two-room flat at 620 €. No direct train in our data, a cool climate.",
     category: "lifestyle",
     emoji: "⚓",
@@ -52656,8 +52656,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-la-roche-sur-yon-2026",
-    title: "Solo travel in La Roche-sur-Yon (2026): a direct TGV, Place Napoléon and a two-room flat at 600 €",
-    metaTitle: "Solo Travel in La Roche-sur-Yon 2026: TGV, Budget",
+    title: "Solo travel in La Roche-sur-Yon (2027): a direct TGV, Place Napoléon and a two-room flat at 600 €",
+    metaTitle: "Solo Travel in La Roche-sur-Yon 2027: TGV, Budget",
     metaDesc: "La Roche-sur-Yon alone: 22.3% aged 15 to 29, direct TGV, a historic centre, a two-room flat at 600 €. A quiet evening scene, the coast within reach.",
     category: "lifestyle",
     emoji: "🐎",
@@ -52696,8 +52696,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-cholet-2026",
-    title: "Solo travel in Cholet (2026): Puy du Fou, an evening scene in the centre and a two-room flat at 600 €",
-    metaTitle: "Solo Travel in Cholet 2026: Low Budget, Puy du Fou",
+    title: "Solo travel in Cholet (2027): Puy du Fou, an evening scene in the centre and a two-room flat at 600 €",
+    metaTitle: "Solo Travel in Cholet 2027: Low Budget, Puy du Fou",
     metaDesc: "Cholet alone: 18.1% aged 15 to 29, a town centre, Lac de Ribou, Puy du Fou 30 km away, a two-room flat at 600 €. No TGV in our survey.",
     category: "lifestyle",
     emoji: "🧵",
@@ -52736,8 +52736,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-bourg-en-bresse-2026",
-    title: "Solo travel in Bourg-en-Bresse (2026): a direct TGV, the Brou monastery and a two-room flat at 630 €",
-    metaTitle: "Solo Travel in Bourg-en-Bresse 2026: TGV, Brou",
+    title: "Solo travel in Bourg-en-Bresse (2027): a direct TGV, the Brou monastery and a two-room flat at 630 €",
+    metaTitle: "Solo Travel in Bourg-en-Bresse 2027: TGV, Brou",
     metaDesc: "Bourg-en-Bresse alone: 20.6% aged 15 to 29, direct TGV, the Brou monastery, a two-room flat at 630 €. Lyon is 70 km away for bigger nights.",
     category: "lifestyle",
     emoji: "🐓",
@@ -52776,8 +52776,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-blois-2026",
-    title: "Solo travel in Blois (2026): a château, the Loire by bike and a two-room flat at 610 €",
-    metaTitle: "Solo Travel in Blois 2026: Château, Loire by Bike",
+    title: "Solo travel in Blois (2027): a château, the Loire by bike and a two-room flat at 610 €",
+    metaTitle: "Solo Travel in Blois 2027: Château, Loire by Bike",
     metaDesc: "Blois alone: 21.1% aged 15 to 29, culture 7.3/10, a royal château, the Loire by bike, a two-room flat at 610 €. No TGV in our survey.",
     category: "lifestyle",
     emoji: "🏰",
@@ -52816,8 +52816,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-chalon-sur-saone-2026",
-    title: "Solo travel in Chalon-sur-Saône (2026): Niépce, the Saône quays and a two-room flat at 550 €",
-    metaTitle: "Solo Travel in Chalon-sur-Saône 2026: Niépce, Budget",
+    title: "Solo travel in Chalon-sur-Saône (2027): Niépce, the Saône quays and a two-room flat at 550 €",
+    metaTitle: "Solo Travel in Chalon-sur-Saône 2027: Niépce, Budget",
     metaDesc: "Chalon-sur-Saône alone: 19.9% aged 15 to 29, a town centre, the Niépce museum, the Saône quays, a two-room flat at 550 €. No TGV in our survey.",
     category: "lifestyle",
     emoji: "📷",
@@ -52856,8 +52856,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-charleville-mezieres-2026",
-    title: "Solo travel in Charleville-Mézières (2026): puppets, Place Ducale and a two-room flat at 520 €",
-    metaTitle: "Solo Travel in Charleville-Mézières 2026: Budget",
+    title: "Solo travel in Charleville-Mézières (2027): puppets, Place Ducale and a two-room flat at 520 €",
+    metaTitle: "Solo Travel in Charleville-Mézières 2027: Budget",
     metaDesc: "Charleville-Mézières alone: 18.6% aged 15 to 29, Place Ducale, the Rimbaud museum, a two-room flat at 520 €. No TGV in our survey.",
     category: "lifestyle",
     emoji: "🎭",
@@ -52896,8 +52896,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-pessac-2026",
-    title: "Solo travel in Pessac (2026): Le Corbusier, Haut-Brion and tram B into Bordeaux",
-    metaTitle: "Solo Travel in Pessac 2026: Tram B, Budget, Campus",
+    title: "Solo travel in Pessac (2027): Le Corbusier, Haut-Brion and tram B into Bordeaux",
+    metaTitle: "Solo Travel in Pessac 2027: Tram B, Budget, Campus",
     metaDesc: "Pessac alone: 26.3% aged 15 to 29, the Frugès–Le Corbusier estate, tram B, a two-room flat at 800 €. Cost scores 4/10, stated plainly.",
     category: "lifestyle",
     emoji: "🏛️",
@@ -52936,8 +52936,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-laval-2026",
-    title: "Solo travel in Laval (2026): naïve art museum, old town and a two-room flat at 490 €",
-    metaTitle: "Solo Travel in Laval 2026: Budget, Old Town",
+    title: "Solo travel in Laval (2027): naïve art museum, old town and a two-room flat at 490 €",
+    metaTitle: "Solo Travel in Laval 2027: Budget, Old Town",
     metaDesc: "Laval alone: 22.5% aged 15 to 29, a château, the Naïve Art museum, a lively old town, a two-room flat at 490 €. TGV in our survey.",
     category: "lifestyle",
     emoji: "🎨",
@@ -52976,8 +52976,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-boulogne-sur-mer-2026",
-    title: "Solo travel in Boulogne-sur-Mer (2026): Nausicaá, the upper town and a two-room flat at 580 €",
-    metaTitle: "Solo Travel in Boulogne-sur-Mer 2026: Budget",
+    title: "Solo travel in Boulogne-sur-Mer (2027): Nausicaá, the upper town and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Boulogne-sur-Mer 2027: Budget",
     metaDesc: "Boulogne-sur-Mer alone: 22% aged 15 to 29, Nausicaá, ramparts, harbour, a two-room flat at 580 €. Safety scores 4.3/10, stated plainly.",
     category: "lifestyle",
     emoji: "🐟",
@@ -53016,8 +53016,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-saint-brieuc-2026",
-    title: "Solo travel in Saint-Brieuc (2026): the bay, a lively centre and a two-room flat at 580 €",
-    metaTitle: "Solo Travel in Saint-Brieuc 2026: Budget, Bay",
+    title: "Solo travel in Saint-Brieuc (2027): the bay, a lively centre and a two-room flat at 580 €",
+    metaTitle: "Solo Travel in Saint-Brieuc 2027: Budget, Bay",
     metaDesc: "Saint-Brieuc alone: 21% aged 15 to 29, a bay with big tides, a lively town centre, a two-room flat at 580 €. TGV in our survey.",
     category: "lifestyle",
     emoji: "🌊",
@@ -53056,8 +53056,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-saint-quentin-2026",
-    title: "Solo travel in Saint-Quentin (2026): Art Deco, La Tour pastels and a two-room flat at 480 €",
-    metaTitle: "Solo Travel in Saint-Quentin 2026: Art Deco, Budget",
+    title: "Solo travel in Saint-Quentin (2027): Art Deco, La Tour pastels and a two-room flat at 480 €",
+    metaTitle: "Solo Travel in Saint-Quentin 2027: Art Deco, Budget",
     metaDesc: "Saint-Quentin alone: 20.3% aged 15 to 29, an Art Deco trail, the Lécuyer museum, a two-room flat at 480 €, culture 7.5/10. Safety 4.7/10.",
     category: "lifestyle",
     emoji: "🏙️",
@@ -53096,8 +53096,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solo-travel-in-thionville-2026",
-    title: "Solo travel in Thionville (2026): Moselle quays, forts and a two-room flat at 660 €",
-    metaTitle: "Solo Travel in Thionville 2026: Moselle, Budget",
+    title: "Solo travel in Thionville (2027): Moselle quays, forts and a two-room flat at 660 €",
+    metaTitle: "Solo Travel in Thionville 2027: Moselle, Budget",
     metaDesc: "Thionville alone: 18.7% aged 15 to 29, a lively centre on the Moselle, the Tour aux Puces, a two-room flat at 660 €. A growing town.",
     category: "lifestyle",
     emoji: "🏰",
@@ -53138,7 +53138,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-annemasse-2026",
     title:
       "Single parent in Annemasse (2026): everything works except the price, and the price comes from Geneva",
-    metaTitle: "Single Parent in Annemasse 2026: floor €3,850",
+    metaTitle: "Single Parent in Annemasse 2027: floor €3,850",
     metaDesc:
       "Fit 6.4/10. Transport 9.0, schools 7.7, safety 6.8, and one axis that blocks: cost at 3.4/10 for a T3 at €1,350. The reason is across the border.",
     category: "family",
@@ -53193,7 +53193,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-belfort-2026",
     title:
       "Single parent in Belfort (2026): the median household is €58 short, and that is the whole subject",
-    metaTitle: "Single Parent in Belfort 2026: floor €2,100",
+    metaTitle: "Single Parent in Belfort 2027: floor €2,100",
     metaDesc:
       "Fit 6.4/10. A T3 at €690 and €105 of rent per point of school provision, 12th of 416. Against that: 29 per cent poverty and 6.8 per cent fewer people.",
     category: "family",
@@ -53248,7 +53248,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-cambrai-2026",
     title:
       "Single parent in Cambrai (2026): the lowest entry floor of the band, and a safety mark of 4.6",
-    metaTitle: "Single Parent in Cambrai 2026: floor €1,950",
+    metaTitle: "Single Parent in Cambrai 2027: floor €1,950",
     metaDesc:
       "Fit 6.4/10. An entry floor of €1,950 net and €97 of rent per point of school provision, among the three lowest of 363. Safety 4.6/10 is the hollow.",
     category: "family",
@@ -53303,7 +53303,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-epernay-2026",
     title:
       "Single parent in Épernay (2026): the steadiest profile of the band, with no weak point",
-    metaTitle: "Single Parent in Épernay 2026: floor €2,600",
+    metaTitle: "Single Parent in Épernay 2027: floor €2,600",
     metaDesc:
       "Fit 6.4/10. Four axes between 5.6 and 6.7, a spread of 1.1 points: the steadiest profile of the batch, and first of the three Marne communes.",
     category: "family",
@@ -53359,7 +53359,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-neuilly-sur-seine-2026",
     title:
       "Single parent in Neuilly-sur-Seine (2026): the richest commune of the ranking, and a floor of €7,150",
-    metaTitle: "Single Parent in Neuilly 2026: floor €7,150",
+    metaTitle: "Single Parent in Neuilly 2027: floor €7,150",
     metaDesc:
       "Fit 6.4/10. Transport and schools at 9.0/10, cost of living at 2.2: the widest spread in the corpus. The median household misses the floor by €1,949.",
     category: "family",
@@ -53414,7 +53414,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-nevers-2026",
     title:
       "Single parent in Nevers (2026): the median household clears the floor by €22",
-    metaTitle: "Single Parent in Nevers 2026: floor €2,150",
+    metaTitle: "Single Parent in Nevers 2027: floor €2,150",
     metaDesc:
       "Fit 6.4/10. Cost of living 8.2/10, the best of the band, against schools and transport both at 5.5. The median household clears the floor by €22.",
     category: "family",
@@ -53469,7 +53469,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-oyonnax-2026",
     title:
       "Single parent in Oyonnax (2026): transport at 4.2, the lowest mark of the batch",
-    metaTitle: "Single Parent in Oyonnax 2026: floor €2,400",
+    metaTitle: "Single Parent in Oyonnax 2027: floor €2,400",
     metaDesc:
       "Fit 6.4/10. Cost 7.6/10 and safety 6.5/10 against transport at 4.2, the lowest of the batch. A valley town where a car is not optional.",
     category: "family",
@@ -53524,7 +53524,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-troyes-2026",
     title:
       "Single parent in Troyes (2026): one of two communes in this batch that is growing, and 30 per cent poverty",
-    metaTitle: "Single Parent in Troyes 2026: floor €2,600",
+    metaTitle: "Single Parent in Troyes 2027: floor €2,600",
     metaDesc:
       "Fit 6.4/10. A T3 at €860 and a population up 3.0 per cent in six years, against the highest poverty rate of the batch at 30 per cent.",
     category: "family",
@@ -53580,7 +53580,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-auxerre-2026",
     title:
       "Single parent in Auxerre (2026): a €2,000 floor, and the only clear margin of its tier",
-    metaTitle: "Single Parent in Auxerre 2026: T3 €660, Floor €2,000",
+    metaTitle: "Single Parent in Auxerre 2027: T3 €660, Floor €2,000",
     metaDesc:
       "Fit 6.3/10, inside a sixteen-commune tie. The only one of the sixteen where a median single-parent household clears its own entry floor, by €204.",
     category: "family",
@@ -53629,7 +53629,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-chalon-sur-saone-2026",
     title:
       "Single parent in Chalon-sur-Saône (2026): €128 short of the floor, and safety at 5.2/10",
-    metaTitle: "Single Parent in Chalon 2026: T3 €740, Floor €2,250",
+    metaTitle: "Single Parent in Chalon 2027: T3 €740, Floor €2,250",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. A median household falls €128 short of the entry floor, and safety at 5.2/10 is the weakest of the batch.",
     category: "family",
@@ -53678,7 +53678,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-macon-2026",
     title:
       "Single parent in Mâcon (2026): transport 7.0/10, the best of the nine provincial towns",
-    metaTitle: "Single Parent in Mâcon 2026: T3 €800, Floor €2,400",
+    metaTitle: "Single Parent in Mâcon 2027: T3 €800, Floor €2,400",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. Transport 7.0/10 is the best of the nine provincial towns of the batch, on the lowest median income of the eleven.",
     category: "family",
@@ -53727,7 +53727,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-montauban-2026",
     title:
       "Single parent in Montauban (2026): 10.5 per cent more residents, and the Ingres collection",
-    metaTitle: "Single Parent in Montauban 2026: T3 €860, Floor €2,600",
+    metaTitle: "Single Parent in Montauban 2027: T3 €860, Floor €2,600",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. Cost of living 7.2/10 carries the file, on a population up 10.5 per cent in eleven years.",
     category: "family",
@@ -53776,7 +53776,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-montelimar-2026",
     title:
       "Single parent in Montélimar (2026): €37 from clearing the floor, and the strongest growth of the batch",
-    metaTitle: "Single Parent in Montélimar 2026: T3 €780, Floor €2,350",
+    metaTitle: "Single Parent in Montélimar 2027: T3 €780, Floor €2,350",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. A median household falls just €37 short of the entry floor, on a population up 14.1 per cent in eleven years.",
     category: "family",
@@ -53825,7 +53825,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-bourgoin-jallieu-2026",
     title:
       "Single parent in Bourgoin-Jallieu (2026): four axes inside 0.6 of a point, and the youngest commune of the batch",
-    metaTitle: "Single Parent in Bourgoin-Jallieu 2026: Floor €3,200",
+    metaTitle: "Single Parent in Bourgoin-Jallieu 2027: Floor €3,200",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. The flattest profile of the batch, no axis below 6.0, in the youngest of the eleven communes covered.",
     category: "family",
@@ -53874,7 +53874,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-muret-2026",
     title:
       "Single parent in Muret (2026): the same entry floor as Toulouse, and 1.8 points more safety",
-    metaTitle: "Single Parent in Muret 2026: T3 €1,150, Floor €3,500",
+    metaTitle: "Single Parent in Muret 2027: T3 €1,150, Floor €3,500",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. Identical rent and entry floor to Toulouse, with safety at 6.1/10 against 4.3 and schools at 6.6 against 9.0.",
     category: "family",
@@ -53923,7 +53923,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-tarbes-2026",
     title:
       "Single parent in Tarbes (2026): the only 7.4 of the ranking on cost, and the two weakest axes of the batch",
-    metaTitle: "Single Parent in Tarbes 2026: T3 €770, Floor €2,350",
+    metaTitle: "Single Parent in Tarbes 2027: T3 €770, Floor €2,350",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. The only commune of the 363 scoring 7.4 on cost of living, with transport and schools the weakest of the batch.",
     category: "family",
@@ -53972,7 +53972,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-vannes-2026",
     title:
       "Single parent in Vannes (2026): the best schools and safety outside Paris, and a third of the commune over 60",
-    metaTitle: "Single Parent in Vannes 2026: T3 €1,150, Floor €3,500",
+    metaTitle: "Single Parent in Vannes 2027: T3 €1,150, Floor €3,500",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie, fourth in Brittany. Schools 7.4/10 and safety 6.9/10, on a coastal market and 33.1 per cent aged 60 and over.",
     category: "family",
@@ -54021,7 +54021,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-courbevoie-2026",
     title:
       "Single parent in Courbevoie (2026): a €5,000 floor for the same mark as a €2,000 town",
-    metaTitle: "Single Parent in Courbevoie 2026: Floor €5,000",
+    metaTitle: "Single Parent in Courbevoie 2027: Floor €5,000",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. Transport 9.0/10 and schools 8.7/10, against a cost-of-living mark of 2.2 and the highest floor of the batch.",
     category: "family",
@@ -54070,7 +54070,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-rueil-malmaison-2026",
     title:
       "Single parent in Rueil-Malmaison (2026): schools at the top of the scale, cancelled by a cost mark of 2.2",
-    metaTitle: "Single Parent in Rueil 2026: T3 €1,600, Floor €4,550",
+    metaTitle: "Single Parent in Rueil 2027: T3 €1,600, Floor €4,550",
     metaDesc:
       "Fit 6.3/10 inside a sixteen-commune tie. Schools 9.0/10 and the best safety of the batch at 7.2, against a cost-of-living mark of 2.2 out of 10.",
     category: "family",
@@ -54119,7 +54119,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-beauvais-2026",
     title:
       "Single parent in Beauvais (2026): a €2,650 floor carried by rent and transport, on a local income of €19,520",
-    metaTitle: "Single Parent in Beauvais 2026: Floor €2,650",
+    metaTitle: "Single Parent in Beauvais 2027: Floor €2,650",
     metaDesc:
       "Floor €2,650 a month, T3 €870, poverty 25%. Transport 7.7/10 and cost of living 6.7/10 in a 13-commune tie. The median household is €535 short.",
     category: "family",
@@ -54168,7 +54168,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-cergy-2026",
     title:
       "Single parent in Cergy (2026): +19.3% in residents over eleven years, 12.8% seniors and safety at 4.4/10",
-    metaTitle: "Single Parent in Cergy 2026: Floor €3,500, Safety 4.4",
+    metaTitle: "Single Parent in Cergy 2027: Floor €3,500, Safety 4.4",
     metaDesc:
       "Fit 6.2/10: transport 8.4, schools 6.6, but safety 4.4. Entry floor of €3,500 a month, median household at €2,196, population up 19.3% since 2011.",
     category: "family",
@@ -54217,7 +54217,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-chalons-en-champagne-2026",
     title:
       "Single parent in Châlons-en-Champagne (2026): an entry floor of €2,200 that the median household clears by one euro",
-    metaTitle: "Single Parent in Châlons 2026: Floor €2,200",
+    metaTitle: "Single Parent in Châlons 2027: Floor €2,200",
     metaDesc:
       "Entry floor €2,200 against €2,201 for the median local household: +€1. T3 at €720, a 1.0-point spread, but 3.9% fewer residents since 2016.",
     category: "family",
@@ -54266,7 +54266,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-chartres-2026",
     title:
       "Single parent in Chartres (2026): a €2,700 floor, a €233 gap and a commune that has lost 3.3% of its residents",
-    metaTitle: "Single Parent in Chartres 2026: Floor €2,700, T3 €890",
+    metaTitle: "Single Parent in Chartres 2027: Floor €2,700, T3 €890",
     metaDesc:
       "Fit 6.2/10, floor €2,700 a month, T3 at €890, median household €233 short. Schools 6.6/10, safety 5.5/10, but 3.3% fewer residents since 2011.",
     category: "family",
@@ -54315,7 +54315,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-haguenau-2026",
     title:
       "Single parent in Haguenau (2026): the flattest profile in its tier, €346 below the floor",
-    metaTitle: "Single Parent in Haguenau 2026: Floor €2,850",
+    metaTitle: "Single Parent in Haguenau 2027: Floor €2,850",
     metaDesc:
       "Floor €2,850 against €2,504 for the median local household: €346 short. T3 at €940, a 0.9-point spread, 14% poverty and +4.7% residents since 2016.",
     category: "family",
@@ -54364,7 +54364,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-libourne-2026",
     title:
       "Single parent in Libourne (2026): a €2,900 floor, 21% poverty and a median household €640 short",
-    metaTitle: "Single Parent in Libourne 2026: Floor €2,900",
+    metaTitle: "Single Parent in Libourne 2027: Floor €2,900",
     metaDesc:
       "Fit 6.2/10, income floor €2,900 a month, T3 at €960. But 21% poverty, a median household at €2,260 (€640 short) and transport at 5.2/10.",
     category: "family",
@@ -54413,7 +54413,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-rambouillet-2026",
     title:
       "Single parent in Rambouillet (2026): strong on three axes, weak on cost of living, a €4,050 floor and 27.6% aged 60 and over",
-    metaTitle: "Single Parent in Rambouillet 2026: Floor €4,050",
+    metaTitle: "Single Parent in Rambouillet 2027: Floor €4,050",
     metaDesc:
       "Fit 6.2/10, safety 7/10, schools 7.7/10. A floor of €4,050 a month, a €1,018 shortfall for the median local household, 27.6% aged 60 and over.",
     category: "family",
@@ -54462,7 +54462,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-saint-germain-en-laye-2026",
     title:
       "Single parent in Saint-Germain-en-Laye (2026): schools at 9/10, cost of living at 2.2/10, and a €4,550 floor",
-    metaTitle: "Single Parent in Saint-Germain-en-Laye 2026: Floor €4,550",
+    metaTitle: "Single Parent in Saint-Germain-en-Laye 2027: Floor €4,550",
     metaDesc:
       "Fit 6.2/10, schools 9/10, safety 6.5/10, but cost of living 2.2/10: a €4,550 monthly floor, with the local median household €948 short of it.",
     category: "family",
@@ -54511,7 +54511,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-versailles-2026",
     title:
       "Single parent in Versailles (2026): schools 9.0/10, cost of living 2.4/10 and a floor of €4,850",
-    metaTitle: "Single Parent in Versailles 2026: Floor €4,850",
+    metaTitle: "Single Parent in Versailles 2027: Floor €4,850",
     metaDesc:
       "Floor €4,850 a month, T3 at €1,700, cost of living 2.4/10. Schools 9.0/10 and transport 8.4/10 give a 6.6-point spread. The median household is €1,190 short.",
     category: "family",
@@ -54560,7 +54560,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "single-parent-in-vincennes-2026",
     title:
       "Single parent in Vincennes (2026): transport at 9/10, cost of living at 2.2/10 and an entry floor of €5,150",
-    metaTitle: "Single Parent in Vincennes 2026: Floor €5,150",
+    metaTitle: "Single Parent in Vincennes 2027: Floor €5,150",
     metaDesc:
       "Fit 6.2/10: transport 9.0, schools 8.7, safety 6.1, but cost of living 2.2. A €5,150 monthly floor for a €1,800 T3, against a median household at €3,779.",
     category: "family",
@@ -54607,8 +54607,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
 {
     slug: "single-parent-in-arras-2026",
-    title: "Single parent in Arras (2026): a €2,200 floor, three axes out of four above the median",
-    metaTitle: "Single Parent in Arras 2026: €2,200 Floor",
+    title: "Single parent in Arras (2027): a €2,200 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Arras 2027: €2,200 Floor",
     metaDesc:
       "Fit 6.1/10, T3 at €720, a €2,200 monthly floor and €8 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -54659,8 +54659,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-aubagne-2026",
-    title: "Single parent in Aubagne (2026): a €3,350 floor, safety at 4.3/10 and a 3.4-point spread",
-    metaTitle: "Single Parent in Aubagne 2026: €3,350 Floor",
+    title: "Single parent in Aubagne (2027): a €3,350 floor, safety at 4.3/10 and a 3.4-point spread",
+    metaTitle: "Single Parent in Aubagne 2027: €3,350 Floor",
     metaDesc:
       "Fit 6.1/10, T3 at €1,100, a €3,350 monthly floor and €907 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -54711,8 +54711,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-boulogne-billancourt-2026",
-    title: "Single parent in Boulogne-Billancourt (2026): a €5,700 floor, transport at 9.0/10 and a 6.8-point spread",
-    metaTitle: "Single Parent Boulogne-Billancourt 2026: €5,700",
+    title: "Single parent in Boulogne-Billancourt (2027): a €5,700 floor, transport at 9.0/10 and a 6.8-point spread",
+    metaTitle: "Single Parent Boulogne-Billancourt 2027: €5,700",
     metaDesc:
       "Fit 6.1/10, T3 at €2,000, a €5,700 monthly floor and €1,904 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -54763,8 +54763,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-bourg-en-bresse-2026",
-    title: "Single parent in Bourg-en-Bresse (2026): a €2,550 floor, four axes above the median",
-    metaTitle: "Single Parent in Bourg-en-Bresse 2026: €2,550",
+    title: "Single parent in Bourg-en-Bresse (2027): a €2,550 floor, four axes above the median",
+    metaTitle: "Single Parent in Bourg-en-Bresse 2027: €2,550",
     metaDesc:
       "Fit 6.1/10, T3 at €840, a €2,550 monthly floor and €361 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -54815,8 +54815,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
 {
     slug: "single-parent-in-lorient-2026",
-    title: "Single parent in Lorient (2026): a €2,750 floor, three axes out of four above the median",
-    metaTitle: "Single Parent in Lorient 2026: Floor €2,750",
+    title: "Single parent in Lorient (2027): a €2,750 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Lorient 2027: Floor €2,750",
     metaDesc: "Fit 6.1/10, T3 €900, €2,750 monthly floor, €490 short for the local median household: the axis-by-axis detail.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -54871,8 +54871,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-montlucon-2026",
-    title: "Single parent in Montluçon (2026): a €1,950 floor, two axes out of four above the median and a spread of 3.8 points",
-    metaTitle: "Single Parent in Montluçon 2026: Floor €1,950",
+    title: "Single parent in Montluçon (2027): a €1,950 floor, two axes out of four above the median and a spread of 3.8 points",
+    metaTitle: "Single Parent in Montluçon 2027: Floor €1,950",
     metaDesc: "Fit 6.1/10, T3 €650, €1,950 monthly floor, €154 of margin for the local median household: the axis-by-axis detail.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -54927,8 +54927,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-niort-2026",
-    title: "Single parent in Niort (2026): a €2,600 floor, three axes out of four above the median",
-    metaTitle: "Single Parent in Niort 2026: Floor €2,600",
+    title: "Single parent in Niort (2027): a €2,600 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Niort 2027: Floor €2,600",
     metaDesc: "Fit 6.1/10, T3 €860, €2,600 monthly floor, €95 short for the local median household: the axis-by-axis detail.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -54983,8 +54983,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-orange-2026",
-    title: "Single parent in Orange (2026): a €2,800 floor, three axes out of four above the median",
-    metaTitle: "Single Parent in Orange 2026: Floor €2,800",
+    title: "Single parent in Orange (2027): a €2,800 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Orange 2027: Floor €2,800",
     metaDesc: "Fit 6.1/10, T3 €920, €2,800 monthly floor, €594 short for the local median household: the axis-by-axis detail.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -55039,8 +55039,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
 {
     slug: "single-parent-in-quimper-2026",
-    title: "Single parent in Quimper (2026): a €2,850 floor, three axes out of four above the median",
-    metaTitle: "Single Parent in Quimper 2026: Floor €2,850",
+    title: "Single parent in Quimper (2027): a €2,850 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Quimper 2027: Floor €2,850",
     metaDesc:
       "Fit 6.1/10, €940 T3, a €2,850 monthly floor, and the median local household is €391 short: the axis-by-axis detail.",
     category: "family",
@@ -55085,8 +55085,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-selestat-2026",
-    title: "Single parent in Sélestat (2026): a €3,050 floor, three axes out of four above the median",
-    metaTitle: "Single Parent in Sélestat 2026: Floor €3,050",
+    title: "Single parent in Sélestat (2027): a €3,050 floor, three axes out of four above the median",
+    metaTitle: "Single Parent in Sélestat 2027: Floor €3,050",
     metaDesc:
       "Fit 6.1/10, €1,000 T3, a €3,050 monthly floor, and the median local household is €596 short: the axis-by-axis detail.",
     category: "family",
@@ -55131,8 +55131,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-tassin-la-demi-lune-2026",
-    title: "Single parent in Tassin-la-Demi-Lune (2026): a €4,050 floor, two axes out of four above the median and a 3.6-point spread",
-    metaTitle: "Single Parent in Tassin-la-Demi-Lune 2026: €4,050",
+    title: "Single parent in Tassin-la-Demi-Lune (2027): a €4,050 floor, two axes out of four above the median and a 3.6-point spread",
+    metaTitle: "Single Parent in Tassin-la-Demi-Lune 2027: €4,050",
     metaDesc:
       "Fit 6.1/10, €1,410 T3, a €4,050 monthly floor, and the median local household is €907 short: the axis-by-axis detail.",
     category: "family",
@@ -55177,8 +55177,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-lens-2026",
-    title: "Single parent in Lens (2026): a €1,800 floor, 2 axes out of four above the median and a 3.1-point spread",
-    metaTitle: "Single Parent in Lens 2026: Floor €1,800",
+    title: "Single parent in Lens (2027): a €1,800 floor, 2 axes out of four above the median and a 3.1-point spread",
+    metaTitle: "Single Parent in Lens 2027: Floor €1,800",
     metaDesc:
       "Fit 6.0/10, €590 T3, a €1,800 monthly floor, and the median local household covers it: the axis-by-axis detail.",
     category: "family",
@@ -55223,8 +55223,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-noisy-le-grand-2026",
-    title: "Single parent in Noisy-le-Grand (2026): a €3,800 floor, 3 axes out of four above the median and a 5.3-point spread",
-    metaTitle: "Single Parent in Noisy-le-Grand 2026: Floor €3,800",
+    title: "Single parent in Noisy-le-Grand (2027): a €3,800 floor, 3 axes out of four above the median and a 5.3-point spread",
+    metaTitle: "Single Parent in Noisy-le-Grand 2027: Floor €3,800",
     metaDesc:
       "Fit 6.0/10, €1,250 T3, a €3,800 monthly floor, and the median local household is €1,255 short: the axis-by-axis detail.",
     category: "family",
@@ -55269,8 +55269,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-cagnes-sur-mer-2026",
-    title: "Single parent in Cagnes-sur-Mer (2026): a €3,550 floor, 3 axes out of four above the median and a 3.7-point spread",
-    metaTitle: "Single Parent in Cagnes-sur-Mer 2026: Floor €3,550",
+    title: "Single parent in Cagnes-sur-Mer (2027): a €3,550 floor, 3 axes out of four above the median and a 3.7-point spread",
+    metaTitle: "Single Parent in Cagnes-sur-Mer 2027: Floor €3,550",
     metaDesc:
       "Fit 6.0/10, €1,240 T3, a €3,550 monthly floor, and the median local household is €956 short: the axis-by-axis detail.",
     category: "family",
@@ -55315,8 +55315,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-carpentras-2026",
-    title: "Single parent in Carpentras (2026): a €2,800 floor, 3 axes out of four above the median and a 1.8-point spread",
-    metaTitle: "Single Parent in Carpentras 2026: Floor €2,800",
+    title: "Single parent in Carpentras (2027): a €2,800 floor, 3 axes out of four above the median and a 1.8-point spread",
+    metaTitle: "Single Parent in Carpentras 2027: Floor €2,800",
     metaDesc:
       "Fit 6.0/10, €920 T3, a €2,800 monthly floor, and the median local household is €765 short: the axis-by-axis detail.",
     category: "family",
@@ -55361,8 +55361,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-massy-2026",
-    title: "Single parent in Massy (2026): a €4,700 floor, 2 axes out of four above the median and a 4.4-point spread",
-    metaTitle: "Single Parent in Massy 2026: Floor €4,700",
+    title: "Single parent in Massy (2027): a €4,700 floor, 2 axes out of four above the median and a 4.4-point spread",
+    metaTitle: "Single Parent in Massy 2027: Floor €4,700",
     metaDesc:
       "Fit 6.0/10, €1,650 T3, a €4,700 monthly floor, and the median local household is €2,039 short: the axis-by-axis detail.",
     category: "family",
@@ -55407,8 +55407,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-orvault-2026",
-    title: "Single parent in Orvault (2026): a €2,900 floor, 2 axes out of four above the median and a 3.6-point spread",
-    metaTitle: "Single Parent in Orvault 2026: Floor €2,900",
+    title: "Single parent in Orvault (2027): a €2,900 floor, 2 axes out of four above the median and a 3.6-point spread",
+    metaTitle: "Single Parent in Orvault 2027: Floor €2,900",
     metaDesc:
       "Fit 6.0/10, €1,010 T3, a €2,900 monthly floor, and the median local household covers it: the axis-by-axis detail.",
     category: "family",
@@ -55453,8 +55453,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-sceaux-2026",
-    title: "Single parent in Sceaux (2026): a €4,300 floor, 3 axes out of four above the median and a 6.8-point spread",
-    metaTitle: "Single Parent in Sceaux 2026: Floor €4,300",
+    title: "Single parent in Sceaux (2027): a €4,300 floor, 3 axes out of four above the median and a 6.8-point spread",
+    metaTitle: "Single Parent in Sceaux 2027: Floor €4,300",
     metaDesc:
       "Fit 6.0/10, €1,500 T3, a €4,300 monthly floor, and the median local household is €399 short: the axis-by-axis detail.",
     category: "family",
@@ -55499,8 +55499,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-bourg-la-reine-2026",
-    title: "Single parent in Bourg-la-Reine (2026): a €4,300 floor, 3 axes out of four above the median and a 6.5-point spread",
-    metaTitle: "Single Parent in Bourg-la-Reine 2026: Floor €4,300",
+    title: "Single parent in Bourg-la-Reine (2027): a €4,300 floor, 3 axes out of four above the median and a 6.5-point spread",
+    metaTitle: "Single Parent in Bourg-la-Reine 2027: Floor €4,300",
     metaDesc:
       "Fit 6.0/10, €1,500 T3, a €4,300 monthly floor, and the median local household is €649 short: the axis-by-axis detail.",
     category: "family",
@@ -55545,8 +55545,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-angouleme-2026",
-    title: "Single parent in Angoulême (2026): an entry floor of €2,500, 3 of 4 axes above the median and a spread of 1.6 points",
-    metaTitle: "Single Parent in Angoulême 2026: Floor €2,500",
+    title: "Single parent in Angoulême (2027): an entry floor of €2,500, 3 of 4 axes above the median and a spread of 1.6 points",
+    metaTitle: "Single Parent in Angoulême 2027: Floor €2,500",
     metaDesc:
       "Fit 5.9/10, T3 €820, floor €2,500 a month, €352 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -55591,8 +55591,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-blois-2026",
-    title: "Single parent in Blois (2026): an entry floor of €2,500, 3 of 4 axes above the median and a spread of 1.1 points",
-    metaTitle: "Single Parent in Blois 2026: Floor €2,500",
+    title: "Single parent in Blois (2027): an entry floor of €2,500, 3 of 4 axes above the median and a spread of 1.1 points",
+    metaTitle: "Single Parent in Blois 2027: Floor €2,500",
     metaDesc:
       "Fit 5.9/10, T3 €820, floor €2,500 a month, €403 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -55637,8 +55637,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-thionville-2026",
-    title: "Single parent in Thionville (2026): an entry floor of €2,650, 3 of 4 axes above the median and a spread of 1.1 points",
-    metaTitle: "Single Parent in Thionville 2026: Floor €2,650",
+    title: "Single parent in Thionville (2027): an entry floor of €2,650, 3 of 4 axes above the median and a spread of 1.1 points",
+    metaTitle: "Single Parent in Thionville 2027: Floor €2,650",
     metaDesc:
       "Fit 5.9/10, T3 €880, floor €2,650 a month, the median local household clears the floor: the breakdown axis by axis.",
     category: "family",
@@ -55683,8 +55683,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-brieuc-2026",
-    title: "Single parent in Saint-Brieuc (2026): an entry floor of €2,350, 3 of 4 axes above the median and a spread of 1.5 points",
-    metaTitle: "Single Parent in Saint-Brieuc 2026: Floor €2,350",
+    title: "Single parent in Saint-Brieuc (2027): an entry floor of €2,350, 3 of 4 axes above the median and a spread of 1.5 points",
+    metaTitle: "Single Parent in Saint-Brieuc 2027: Floor €2,350",
     metaDesc:
       "Fit 5.9/10, T3 €780, floor €2,350 a month, €85 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -55729,8 +55729,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-epinal-2026",
-    title: "Single parent in Épinal (2026): an entry floor of €2,000, 3 of 4 axes above the median and a spread of 1.2 points",
-    metaTitle: "Single Parent in Épinal 2026: Floor €2,000",
+    title: "Single parent in Épinal (2027): an entry floor of €2,000, 3 of 4 axes above the median and a spread of 1.2 points",
+    metaTitle: "Single Parent in Épinal 2027: Floor €2,000",
     metaDesc:
       "Fit 5.9/10, T3 €660, floor €2,000 a month, the median local household clears the floor: the breakdown axis by axis.",
     category: "family",
@@ -55775,8 +55775,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saintes-2026",
-    title: "Single parent in Saintes (2026): an entry floor of €2,100, 3 of 4 axes above the median and a spread of 1.3 points",
-    metaTitle: "Single Parent in Saintes 2026: Floor €2,100",
+    title: "Single parent in Saintes (2027): an entry floor of €2,100, 3 of 4 axes above the median and a spread of 1.3 points",
+    metaTitle: "Single Parent in Saintes 2027: Floor €2,100",
     metaDesc:
       "Fit 5.9/10, T3 €700, floor €2,100 a month, the median local household clears the floor: the breakdown axis by axis.",
     category: "family",
@@ -55821,8 +55821,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-ivry-sur-seine-2026",
-    title: "Single parent in Ivry-sur-Seine (2026): an entry floor of €3,850, 2 of 4 axes above the median and a spread of 4.4 points",
-    metaTitle: "Single Parent in Ivry-sur-Seine 2026: Floor €3,850",
+    title: "Single parent in Ivry-sur-Seine (2027): an entry floor of €3,850, 2 of 4 axes above the median and a spread of 4.4 points",
+    metaTitle: "Single Parent in Ivry-sur-Seine 2027: Floor €3,850",
     metaDesc:
       "Fit 5.9/10, T3 €1,350, floor €3,850 a month, €1,718 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -55867,8 +55867,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-vitry-sur-seine-2026",
-    title: "Single parent in Vitry-sur-Seine (2026): an entry floor of €3,950, 1 of 4 axes above the median and a spread of 4.3 points",
-    metaTitle: "Single Parent in Vitry-sur-Seine 2026: Floor €3,950",
+    title: "Single parent in Vitry-sur-Seine (2027): an entry floor of €3,950, 1 of 4 axes above the median and a spread of 4.3 points",
+    metaTitle: "Single Parent in Vitry-sur-Seine 2027: Floor €3,950",
     metaDesc:
       "Fit 5.9/10, T3 €1,300, floor €3,950 a month, €1,839 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -55913,8 +55913,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-cloud-2026",
-    title: "Single parent in Saint-Cloud (2026): an entry floor of €5,650, 3 of 4 axes above the median and a spread of 6.5 points",
-    metaTitle: "Single Parent in Saint-Cloud 2026: Floor €5,650",
+    title: "Single parent in Saint-Cloud (2027): an entry floor of €5,650, 3 of 4 axes above the median and a spread of 6.5 points",
+    metaTitle: "Single Parent in Saint-Cloud 2027: Floor €5,650",
     metaDesc:
       "Fit 5.9/10, T3 €1,980, floor €5,650 a month, €1,343 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -55959,8 +55959,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-talence-2026",
-    title: "Single parent in Talence (2026): an entry floor of €3,300, 3 of 4 axes above the median and a spread of 4.5 points",
-    metaTitle: "Single Parent in Talence 2026: Floor €3,300",
+    title: "Single parent in Talence (2027): an entry floor of €3,300, 3 of 4 axes above the median and a spread of 4.5 points",
+    metaTitle: "Single Parent in Talence 2027: Floor €3,300",
     metaDesc:
       "Fit 5.9/10, T3 €1,150, floor €3,300 a month, €672 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56005,8 +56005,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-illkirch-graffenstaden-2026",
-    title: "Single parent in Illkirch-Graffenstaden (2026): an entry floor of €2,950, 3 of 4 axes above the median and a spread of 2.1 points",
-    metaTitle: "Single Parent in Illkirch-Graffenstaden 2026: Floor €2,950",
+    title: "Single parent in Illkirch-Graffenstaden (2027): an entry floor of €2,950, 3 of 4 axes above the median and a spread of 2.1 points",
+    metaTitle: "Single Parent in Illkirch-Graffenstaden 2027: Floor €2,950",
     metaDesc:
       "Fit 5.9/10, T3 €970, floor €2,950 a month, €329 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56051,8 +56051,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-olivet-2026",
-    title: "Single parent in Olivet (2026): an entry floor of €3,050, 2 of 4 axes above the median and a spread of 1.6 points",
-    metaTitle: "Single Parent in Olivet 2026: Floor €3,050",
+    title: "Single parent in Olivet (2027): an entry floor of €3,050, 2 of 4 axes above the median and a spread of 1.6 points",
+    metaTitle: "Single Parent in Olivet 2027: Floor €3,050",
     metaDesc:
       "Fit 5.9/10, T3 €1,010, floor €3,050 a month, €51 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56097,8 +56097,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-champs-sur-marne-2026",
-    title: "Single parent in Champs-sur-Marne (2026): an entry floor of €3,850, 3 of 4 axes above the median and a spread of 2.1 points",
-    metaTitle: "Single Parent in Champs-sur-Marne 2026: Floor €3,850",
+    title: "Single parent in Champs-sur-Marne (2027): an entry floor of €3,850, 3 of 4 axes above the median and a spread of 2.1 points",
+    metaTitle: "Single Parent in Champs-sur-Marne 2027: Floor €3,850",
     metaDesc:
       "Fit 5.9/10, T3 €1,270, floor €3,850 a month, €1,277 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56143,8 +56143,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-mande-2026",
-    title: "Single parent in Saint-Mandé (2026): an entry floor of €4,550, 3 of 4 axes above the median and a spread of 6.2 points",
-    metaTitle: "Single Parent in Saint-Mandé 2026: Floor €4,550",
+    title: "Single parent in Saint-Mandé (2027): an entry floor of €4,550, 3 of 4 axes above the median and a spread of 6.2 points",
+    metaTitle: "Single Parent in Saint-Mandé 2027: Floor €4,550",
     metaDesc:
       "Fit 5.9/10, T3 €1,600, floor €4,550 a month, €631 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56189,8 +56189,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-sainte-foy-les-lyon-2026",
-    title: "Single parent in Sainte-Foy-lès-Lyon (2026): an entry floor of €3,750, 2 of 4 axes above the median and a spread of 3.6 points",
-    metaTitle: "Single Parent in Sainte-Foy-lès-Lyon 2026: Floor €3,750",
+    title: "Single parent in Sainte-Foy-lès-Lyon (2027): an entry floor of €3,750, 2 of 4 axes above the median and a spread of 3.6 points",
+    metaTitle: "Single Parent in Sainte-Foy-lès-Lyon 2027: Floor €3,750",
     metaDesc:
       "Fit 5.9/10, T3 €1,310, floor €3,750 a month, €632 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56235,8 +56235,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-meudon-2026",
-    title: "Single parent in Meudon (2026): an entry floor of €5,300, 3 of 4 axes above the median and a spread of 6.1 points",
-    metaTitle: "Single Parent in Meudon 2026: Floor €5,300",
+    title: "Single parent in Meudon (2027): an entry floor of €5,300, 3 of 4 axes above the median and a spread of 6.1 points",
+    metaTitle: "Single Parent in Meudon 2027: Floor €5,300",
     metaDesc:
       "Fit 5.9/10, T3 €1,860, floor €5,300 a month, €1,976 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56281,8 +56281,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-rochefort-2026",
-    title: "Single parent in Rochefort (2026): an entry floor of €2,000, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Rochefort 2026: Floor €2,000",
+    title: "Single parent in Rochefort (2027): an entry floor of €2,000, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Rochefort 2027: Floor €2,000",
     metaDesc:
       "Fit 5.8/10, T3 €660, floor €2,000 a month: the breakdown axis by axis.",
     category: "family",
@@ -56327,8 +56327,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-perigueux-2026",
-    title: "Single parent in Périgueux (2026): an entry floor of €2,200, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Périgueux 2026: Floor €2,200",
+    title: "Single parent in Périgueux (2027): an entry floor of €2,200, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Périgueux 2027: Floor €2,200",
     metaDesc:
       "Fit 5.8/10, T3 €720, floor €2,200 a month: the breakdown axis by axis.",
     category: "family",
@@ -56373,8 +56373,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-rodez-2026",
-    title: "Single parent in Rodez (2026): an entry floor of €2,050, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Rodez 2026: Floor €2,050",
+    title: "Single parent in Rodez (2027): an entry floor of €2,050, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Rodez 2027: Floor €2,050",
     metaDesc:
       "Fit 5.8/10, T3 €680, floor €2,050 a month: the breakdown axis by axis.",
     category: "family",
@@ -56419,8 +56419,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-romans-sur-isere-2026",
-    title: "Single parent in Romans-sur-Isère (2026): an entry floor of €2,250, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Romans-sur-Isère 2026: Floor €2,250",
+    title: "Single parent in Romans-sur-Isère (2027): an entry floor of €2,250, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Romans-sur-Isère 2027: Floor €2,250",
     metaDesc:
       "Fit 5.8/10, T3 €740, floor €2,250 a month, €27 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56465,8 +56465,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-douai-2026",
-    title: "Single parent in Douai (2026): an entry floor of €2,050, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Douai 2026: Floor €2,050",
+    title: "Single parent in Douai (2027): an entry floor of €2,050, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Douai 2027: Floor €2,050",
     metaDesc:
       "Fit 5.8/10, T3 €670, floor €2,050 a month, €52 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56511,8 +56511,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-colombes-2026",
-    title: "Single parent in Colombes (2026): an entry floor of €3,700, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Colombes 2026: Floor €3,700",
+    title: "Single parent in Colombes (2027): an entry floor of €3,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Colombes 2027: Floor €3,700",
     metaDesc:
       "Fit 5.8/10, T3 €1,300, floor €3,700 a month, €981 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56557,8 +56557,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-argenteuil-2026",
-    title: "Single parent in Argenteuil (2026): an entry floor of €3,650, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Argenteuil 2026: Floor €3,650",
+    title: "Single parent in Argenteuil (2027): an entry floor of €3,650, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Argenteuil 2027: Floor €3,650",
     metaDesc:
       "Fit 5.8/10, T3 €1,200, floor €3,650 a month, €1,554 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56603,8 +56603,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-menton-2026",
-    title: "Single parent in Menton (2026): an entry floor of €4,150, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Menton 2026: Floor €4,150",
+    title: "Single parent in Menton (2027): an entry floor of €4,150, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Menton 2027: Floor €4,150",
     metaDesc:
       "Fit 5.8/10, T3 €1,450, floor €4,150 a month, €1,703 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56649,8 +56649,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-raphael-2026",
-    title: "Single parent in Saint-Raphaël (2026): an entry floor of €3,700, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Saint-Raphaël 2026: Floor €3,700",
+    title: "Single parent in Saint-Raphaël (2027): an entry floor of €3,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Raphaël 2027: Floor €3,700",
     metaDesc:
       "Fit 5.8/10, T3 €1,300, floor €3,700 a month, €991 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56695,8 +56695,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-caluire-et-cuire-2026",
-    title: "Single parent in Caluire-et-Cuire (2026): an entry floor of €4,150, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Caluire-et-Cuire 2026: Floor €4,150",
+    title: "Single parent in Caluire-et-Cuire (2027): an entry floor of €4,150, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Caluire-et-Cuire 2027: Floor €4,150",
     metaDesc:
       "Fit 5.8/10, T3 €1,450, floor €4,150 a month, €1,185 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56741,8 +56741,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-le-bouscat-2026",
-    title: "Single parent in Le Bouscat (2026): an entry floor of €3,600, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Le Bouscat 2026: Floor €3,600",
+    title: "Single parent in Le Bouscat (2027): an entry floor of €3,600, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Le Bouscat 2027: Floor €3,600",
     metaDesc:
       "Fit 5.8/10, T3 €1,260, floor €3,600 a month, €613 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56787,8 +56787,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-tournefeuille-2026",
-    title: "Single parent in Tournefeuille (2026): an entry floor of €3,200, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Tournefeuille 2026: Floor €3,200",
+    title: "Single parent in Tournefeuille (2027): an entry floor of €3,200, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Tournefeuille 2027: Floor €3,200",
     metaDesc:
       "Fit 5.8/10, T3 €1,120, floor €3,200 a month, €56 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56833,8 +56833,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-martin-d-heres-2026",
-    title: "Single parent in Saint-Martin-d'Hères (2026): an entry floor of €2,550, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Saint-Martin-d'Hères 2026: Floor €2,550",
+    title: "Single parent in Saint-Martin-d'Hères (2027): an entry floor of €2,550, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Martin-d'Hères 2027: Floor €2,550",
     metaDesc:
       "Fit 5.8/10, T3 €900, floor €2,550 a month, €258 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56879,8 +56879,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-palaiseau-2026",
-    title: "Single parent in Palaiseau (2026): an entry floor of €4,050, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Palaiseau 2026: Floor €4,050",
+    title: "Single parent in Palaiseau (2027): an entry floor of €4,050, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Palaiseau 2027: Floor €4,050",
     metaDesc:
       "Fit 5.8/10, T3 €1,410, floor €4,050 a month, €955 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56925,8 +56925,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-bois-colombes-2026",
-    title: "Single parent in Bois-Colombes (2026): an entry floor of €4,300, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Bois-Colombes 2026: Floor €4,300",
+    title: "Single parent in Bois-Colombes (2027): an entry floor of €4,300, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Bois-Colombes 2027: Floor €4,300",
     metaDesc:
       "Fit 5.8/10, T3 €1,500, floor €4,300 a month, €763 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -56971,8 +56971,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-montigny-les-metz-2026",
-    title: "Single parent in Montigny-lès-Metz (2026): an entry floor of €2,600, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Montigny-lès-Metz 2026: Floor €2,600",
+    title: "Single parent in Montigny-lès-Metz (2027): an entry floor of €2,600, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Montigny-lès-Metz 2027: Floor €2,600",
     metaDesc:
       "Fit 5.8/10, T3 €850, floor €2,600 a month, €224 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -57017,8 +57017,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-genis-laval-2026",
-    title: "Single parent in Saint-Genis-Laval (2026): an entry floor of €3,450, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Saint-Genis-Laval 2026: Floor €3,450",
+    title: "Single parent in Saint-Genis-Laval (2027): an entry floor of €3,450, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Genis-Laval 2027: Floor €3,450",
     metaDesc:
       "Fit 5.8/10, T3 €1,200, floor €3,450 a month, €546 short for the median local household: the breakdown axis by axis.",
     category: "family",
@@ -57063,8 +57063,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-malo-2026",
-    title: "Single parent in Saint-Malo (2026): an entry floor of €3,250, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Saint-Malo 2026: Floor €3,250",
+    title: "Single parent in Saint-Malo (2027): an entry floor of €3,250, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Malo 2027: Floor €3,250",
     metaDesc:
       "Fit 5.7/10, T3 €1,080, floor €3,250 a month: the breakdown axis by axis.",
     category: "family",
@@ -57109,8 +57109,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-evreux-2026",
-    title: "Single parent in Évreux (2026): an entry floor of €2,500, 1 of 4 axes above the median",
-    metaTitle: "Single Parent in Évreux 2026: Floor €2,500",
+    title: "Single parent in Évreux (2027): an entry floor of €2,500, 1 of 4 axes above the median",
+    metaTitle: "Single Parent in Évreux 2027: Floor €2,500",
     metaDesc:
       "Fit 5.7/10, T3 €820, floor €2,500 a month: the breakdown axis by axis.",
     category: "family",
@@ -57155,8 +57155,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-valenciennes-2026",
-    title: "Single parent in Valenciennes (2026): an entry floor of €2,000, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Valenciennes 2026: Floor €2,000",
+    title: "Single parent in Valenciennes (2027): an entry floor of €2,000, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Valenciennes 2027: Floor €2,000",
     metaDesc:
       "Fit 5.7/10, T3 €660, floor €2,000 a month: the breakdown axis by axis.",
     category: "family",
@@ -57201,8 +57201,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-aurillac-2026",
-    title: "Single parent in Aurillac (2026): an entry floor of €1,700, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Aurillac 2026: Floor €1,700",
+    title: "Single parent in Aurillac (2027): an entry floor of €1,700, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Aurillac 2027: Floor €1,700",
     metaDesc:
       "Fit 5.7/10, T3 €560, floor €1,700 a month: the breakdown axis by axis.",
     category: "family",
@@ -57247,8 +57247,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-chateauroux-2026",
-    title: "Single parent in Châteauroux (2026): an entry floor of €1,950, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Châteauroux 2026: Floor €1,950",
+    title: "Single parent in Châteauroux (2027): an entry floor of €1,950, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Châteauroux 2027: Floor €1,950",
     metaDesc:
       "Fit 5.7/10, T3 €640, floor €1,950 a month: the breakdown axis by axis.",
     category: "family",
@@ -57293,8 +57293,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-mont-de-marsan-2026",
-    title: "Single parent in Mont-de-Marsan (2026): an entry floor of €2,250, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Mont-de-Marsan 2026: Floor €2,250",
+    title: "Single parent in Mont-de-Marsan (2027): an entry floor of €2,250, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Mont-de-Marsan 2027: Floor €2,250",
     metaDesc:
       "Fit 5.7/10, T3 €740, floor €2,250 a month: the breakdown axis by axis.",
     category: "family",
@@ -57339,8 +57339,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-la-ciotat-2026",
-    title: "Single parent in La Ciotat (2026): an entry floor of €3,800, 1 of 4 axes above the median",
-    metaTitle: "Single Parent in La Ciotat 2026: Floor €3,800",
+    title: "Single parent in La Ciotat (2027): an entry floor of €3,800, 1 of 4 axes above the median",
+    metaTitle: "Single Parent in La Ciotat 2027: Floor €3,800",
     metaDesc:
       "Fit 5.7/10, T3 €1,250, floor €3,800 a month: the breakdown axis by axis.",
     category: "family",
@@ -57385,8 +57385,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-vandoeuvre-les-nancy-2026",
-    title: "Single parent in Vandœuvre-lès-Nancy (2026): an entry floor of €2,550, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Vandœuvre-lès-Nancy 2026: Floor €2,550",
+    title: "Single parent in Vandœuvre-lès-Nancy (2027): an entry floor of €2,550, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Vandœuvre-lès-Nancy 2027: Floor €2,550",
     metaDesc:
       "Fit 5.7/10, T3 €840, floor €2,550 a month: the breakdown axis by axis.",
     category: "family",
@@ -57431,8 +57431,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-louis-haut-rhin-2026",
-    title: "Single parent in Saint-Louis (Haut-Rhin) (2026): an entry floor of €3,050, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Saint-Louis (Haut-Rhin) 2026: Floor €3,050",
+    title: "Single parent in Saint-Louis (Haut-Rhin) (2027): an entry floor of €3,050, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Louis (Haut-Rhin) 2027: Floor €3,050",
     metaDesc:
       "Fit 5.7/10, T3 €1,010, floor €3,050 a month: the breakdown axis by axis.",
     category: "family",
@@ -57477,8 +57477,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-la-garenne-colombes-2026",
-    title: "Single parent in La Garenne-Colombes (2026): an entry floor of €4,450, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in La Garenne-Colombes 2026: Floor €4,450",
+    title: "Single parent in La Garenne-Colombes (2027): an entry floor of €4,450, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in La Garenne-Colombes 2027: Floor €4,450",
     metaDesc:
       "Fit 5.7/10, T3 €1,550, floor €4,450 a month: the breakdown axis by axis.",
     category: "family",
@@ -57523,8 +57523,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-chaville-2026",
-    title: "Single parent in Chaville (2026): an entry floor of €5,400, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Chaville 2026: Floor €5,400",
+    title: "Single parent in Chaville (2027): an entry floor of €5,400, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Chaville 2027: Floor €5,400",
     metaDesc:
       "Fit 5.7/10, T3 €1,890, floor €5,400 a month: the breakdown axis by axis.",
     category: "family",
@@ -57569,8 +57569,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-eysines-2026",
-    title: "Single parent in Eysines (2026): an entry floor of €3,100, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Eysines 2026: Floor €3,100",
+    title: "Single parent in Eysines (2027): an entry floor of €3,100, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Eysines 2027: Floor €3,100",
     metaDesc:
       "Fit 5.7/10, T3 €1,080, floor €3,100 a month: the breakdown axis by axis.",
     category: "family",
@@ -57615,8 +57615,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-coueron-2026",
-    title: "Single parent in Couëron (2026): an entry floor of €2,700, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Couëron 2026: Floor €2,700",
+    title: "Single parent in Couëron (2027): an entry floor of €2,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Couëron 2027: Floor €2,700",
     metaDesc:
       "Fit 5.7/10, T3 €940, floor €2,700 a month: the breakdown axis by axis.",
     category: "family",
@@ -57661,8 +57661,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-la-chapelle-sur-erdre-2026",
-    title: "Single parent in La Chapelle-sur-Erdre (2026): an entry floor of €2,700, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in La Chapelle-sur-Erdre 2026: Floor €2,700",
+    title: "Single parent in La Chapelle-sur-Erdre (2027): an entry floor of €2,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in La Chapelle-sur-Erdre 2027: Floor €2,700",
     metaDesc:
       "Fit 5.7/10, T3 €940, floor €2,700 a month: the breakdown axis by axis.",
     category: "family",
@@ -57707,8 +57707,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-carquefou-2026",
-    title: "Single parent in Carquefou (2026): an entry floor of €2,700, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Carquefou 2026: Floor €2,700",
+    title: "Single parent in Carquefou (2027): an entry floor of €2,700, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Carquefou 2027: Floor €2,700",
     metaDesc:
       "Fit 5.7/10, T3 €950, floor €2,700 a month: the breakdown axis by axis.",
     category: "family",
@@ -57753,8 +57753,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-millau-2026",
-    title: "Single parent in Millau (2026): an entry floor of €1,800, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Millau 2026: Floor €1,800",
+    title: "Single parent in Millau (2027): an entry floor of €1,800, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Millau 2027: Floor €1,800",
     metaDesc:
       "Fit 5.6/10, T3 €600, floor €1,800 a month: the breakdown axis by axis.",
     category: "family",
@@ -57799,8 +57799,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-venissieux-2026",
-    title: "Single parent in Vénissieux (2026): an entry floor of €3,750, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Vénissieux 2026: Floor €3,750",
+    title: "Single parent in Vénissieux (2027): an entry floor of €3,750, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Vénissieux 2027: Floor €3,750",
     metaDesc:
       "Fit 5.6/10, T3 €1,240, floor €3,750 a month: the breakdown axis by axis.",
     category: "family",
@@ -57845,8 +57845,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-sevres-2026",
-    title: "Single parent in Sèvres (2026): an entry floor of €5,500, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Sèvres 2026: Floor €5,500",
+    title: "Single parent in Sèvres (2027): an entry floor of €5,500, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Sèvres 2027: Floor €5,500",
     metaDesc:
       "Fit 5.6/10, T3 €1,920, floor €5,500 a month: the breakdown axis by axis.",
     category: "family",
@@ -57891,8 +57891,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-torcy-2026",
-    title: "Single parent in Torcy (2026): an entry floor of €3,750, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Torcy 2026: Floor €3,750",
+    title: "Single parent in Torcy (2027): an entry floor of €3,750, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Torcy 2027: Floor €3,750",
     metaDesc:
       "Fit 5.6/10, T3 €1,240, floor €3,750 a month: the breakdown axis by axis.",
     category: "family",
@@ -57937,8 +57937,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-joinville-le-pont-2026",
-    title: "Single parent in Joinville-le-Pont (2026): an entry floor of €4,950, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Joinville-le-Pont 2026: Floor €4,950",
+    title: "Single parent in Joinville-le-Pont (2027): an entry floor of €4,950, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Joinville-le-Pont 2027: Floor €4,950",
     metaDesc:
       "Fit 5.6/10, T3 €1,740, floor €4,950 a month: the breakdown axis by axis.",
     category: "family",
@@ -57983,8 +57983,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-gradignan-2026",
-    title: "Single parent in Gradignan (2026): an entry floor of €3,100, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Gradignan 2026: Floor €3,100",
+    title: "Single parent in Gradignan (2027): an entry floor of €3,100, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Gradignan 2027: Floor €3,100",
     metaDesc:
       "Fit 5.6/10, T3 €1,080, floor €3,100 a month: the breakdown axis by axis.",
     category: "family",
@@ -58029,8 +58029,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-chilly-mazarin-2026",
-    title: "Single parent in Chilly-Mazarin (2026): an entry floor of €4,200, 1 of 4 axes above the median",
-    metaTitle: "Single Parent in Chilly-Mazarin 2026: Floor €4,200",
+    title: "Single parent in Chilly-Mazarin (2027): an entry floor of €4,200, 1 of 4 axes above the median",
+    metaTitle: "Single Parent in Chilly-Mazarin 2027: Floor €4,200",
     metaDesc:
       "Fit 5.6/10, T3 €1,390, floor €4,200 a month: the breakdown axis by axis.",
     category: "family",
@@ -58075,8 +58075,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-saint-sebastien-sur-loire-2026",
-    title: "Single parent in Saint-Sébastien-sur-Loire (2026): an entry floor of €2,650, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Saint-Sébastien-sur-Loire 2026: Floor €2,650",
+    title: "Single parent in Saint-Sébastien-sur-Loire (2027): an entry floor of €2,650, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Saint-Sébastien-sur-Loire 2027: Floor €2,650",
     metaDesc:
       "Fit 5.6/10, T3 €930, floor €2,650 a month: the breakdown axis by axis.",
     category: "family",
@@ -58121,8 +58121,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-bouguenais-2026",
-    title: "Single parent in Bouguenais (2026): an entry floor of €2,650, 3 of 4 axes above the median",
-    metaTitle: "Single Parent in Bouguenais 2026: Floor €2,650",
+    title: "Single parent in Bouguenais (2027): an entry floor of €2,650, 3 of 4 axes above the median",
+    metaTitle: "Single Parent in Bouguenais 2027: Floor €2,650",
     metaDesc:
       "Fit 5.6/10, T3 €930, floor €2,650 a month: the breakdown axis by axis.",
     category: "family",
@@ -58167,8 +58167,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-in-ozoir-la-ferriere-2026",
-    title: "Single parent in Ozoir-la-Ferrière (2026): an entry floor of €3,800, 2 of 4 axes above the median",
-    metaTitle: "Single Parent in Ozoir-la-Ferrière 2026: Floor €3,800",
+    title: "Single parent in Ozoir-la-Ferrière (2027): an entry floor of €3,800, 2 of 4 axes above the median",
+    metaTitle: "Single Parent in Ozoir-la-Ferrière 2027: Floor €3,800",
     metaDesc:
       "Fit 5.6/10, T3 €1,250, floor €3,800 a month: the breakdown axis by axis.",
     category: "family",
@@ -58214,7 +58214,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-anglet-2026",
     title: "Single-parent holidays in Anglet: no railway station, but the airport is here",
-    metaTitle: "Single-Parent Holidays in Anglet 2026",
+    metaTitle: "Single-Parent Holidays in Anglet 2027",
     metaDesc:
       "Anglet tops our single-parent composite at 7.3/10, with the best quality of life of the thirty-eight. No railway station, but the Biarritz airport is here.",
     category: "family",
@@ -58261,7 +58261,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-vendome-2026",
     title: "Single-parent holidays in Vendôme: 42 minutes from Paris, and the cheapest of the series",
-    metaTitle: "Single-Parent Holidays in Vendôme 2026",
+    metaTitle: "Single-Parent Holidays in Vendôme 2027",
     metaDesc:
       "Vendôme ties for the best single-parent composite at 7.3/10 and is the cheapest of the thirty-eight: 720 € for a three-room flat, 42 minutes from Paris by TGV.",
     category: "family",
@@ -58308,7 +58308,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-la-roche-sur-yon-2026",
     title: "Single-parent holidays in La Roche-sur-Yon: the safest of the series, and the least cultural",
-    metaTitle: "Single-Parent Holidays La Roche-sur-Yon 2026",
+    metaTitle: "Single-Parent Holidays La Roche-sur-Yon 2027",
     metaDesc:
       "La Roche-sur-Yon carries the best safety score of the thirty-eight at 8.0/10 and the lowest culture at 5.7/10. A Napoleonic grid town, 35 km from the coast.",
     category: "family",
@@ -58355,7 +58355,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-vienne-2026",
     title: "Single-parent holidays in Vienne: not Vienna, and the Templars were abolished here",
-    metaTitle: "Single-Parent Holidays in Vienne, Isère 2026",
+    metaTitle: "Single-Parent Holidays in Vienne, Isère 2027",
     metaDesc:
       "Vienne carries 9.0/10 on culture, the series maximum, on 31,555 residents. Eighteen minutes by train from Lyon, no TGV, and eight parks with eight playgrounds.",
     category: "family",
@@ -58449,7 +58449,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-brive-la-gaillarde-2026",
     title: "Single-parent holidays in Brive-la-Gaillarde: the most even profile of the eight, and a four-and-a-half-hour arrival",
-    metaTitle: "Single-Parent Holidays Brive-la-Gaillarde 2026",
+    metaTitle: "Single-Parent Holidays Brive-la-Gaillarde 2027",
     metaDesc:
       "Brive scores 6.8/10 on our single-parent composite, with 6.7/10 safety and a 780 € three-room flat. But the trip from Paris takes four and a half hours.",
     category: "family",
@@ -58496,7 +58496,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-compiegne-2026",
     title: "Single-parent holidays in Compiègne: where the Armistice was signed, half an hour from Paris",
-    metaTitle: "Single-Parent Holidays in Compiègne 2026",
+    metaTitle: "Single-Parent Holidays in Compiègne 2027",
     metaDesc:
       "Compiègne has the best arrival of the batch: a direct regional train from Paris Gare du Nord every half hour, no TGV. Transport 7.7/10, nature 7.1/10.",
     category: "family",
@@ -58542,8 +58542,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "single-parent-holidays-dieppe-2026",
-    title: "Single-parent holidays in Dieppe: a ferry from Newhaven, and no kite festival in 2026",
-    metaTitle: "Single-Parent Holidays in Dieppe 2026",
+    title: "Single-parent holidays in Dieppe: a ferry from Newhaven, and no kite festival in 2027",
+    metaTitle: "Single-Parent Holidays in Dieppe 2027",
     metaDesc:
       "Dieppe is the only one of the eight with no direct weekday train from Paris, and the one where a car is least useful. Five green spaces, the series minimum.",
     category: "family",
@@ -58590,7 +58590,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-chatellerault-2026",
     title: "Single-parent holidays in Châtellerault: the cheapest flat in the series, and a direct TGV",
-    metaTitle: "Single-Parent Holidays in Châtellerault 2026",
+    metaTitle: "Single-Parent Holidays in Châtellerault 2027",
     metaDesc:
       "Châtellerault has the lowest reference rent of the forty-five destinations, 640 €, and a direct TGV from Paris-Montparnasse in about 1 h 36.",
     category: "family",
@@ -58637,7 +58637,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-annemasse-2026",
     title: "Single-parent holidays in Annemasse: a tram into Switzerland, and the most expensive town in the series",
-    metaTitle: "Single-Parent Holidays in Annemasse 2026",
+    metaTitle: "Single-Parent Holidays in Annemasse 2027",
     metaDesc:
       "Annemasse has the best transport score of the forty-five, 9.0/10, and the highest cost, 3.4/10. A tram line runs across the Swiss border.",
     category: "family",
@@ -58684,7 +58684,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-caen-2026",
     title: "Single-parent holidays in Caen: three tram lines, and the D-Day beaches are not in town",
-    metaTitle: "Single-Parent Holidays in Caen 2026",
+    metaTitle: "Single-Parent Holidays in Caen 2027",
     metaDesc:
       "Caen is the most median destination of the series: rent 930 €, tram lines T1 to T3 from the station, at least 23 playgrounds. The beaches are 15 km north.",
     category: "family",
@@ -58731,7 +58731,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-quentin-2026",
     title: "Single-parent holidays in Saint-Quentin: the best cost score of the series, and a free Art Deco centre",
-    metaTitle: "Single-Parent Holidays in Saint-Quentin 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Quentin 2027",
     metaDesc:
       "Saint-Quentin has the best cost axis of the forty-five, 8.3/10, and a whole Art Deco centre free to walk. But safety is 4.7/10 and there are 2 playgrounds.",
     category: "family",
@@ -58778,7 +58778,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-dreux-2026",
     title: "Single-parent holidays in Dreux: under an hour from Paris, and a royal burial chapel",
-    metaTitle: "Single-Parent Holidays in Dreux 2026",
+    metaTitle: "Single-Parent Holidays in Dreux 2027",
     metaDesc:
       "Dreux is under an hour from Paris-Montparnasse by direct regional train, with 12 playgrounds and the burial chapel of the House of Orléans. Fit 6.4/10.",
     category: "family",
@@ -58825,7 +58825,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-beauvais-2026",
     title: "Single-parent holidays in Beauvais: the airport that calls itself Paris, and the tallest Gothic vault",
-    metaTitle: "Single-Parent Holidays in Beauvais 2026",
+    metaTitle: "Single-Parent Holidays in Beauvais 2027",
     metaDesc:
       "Beauvais is 1 h 10 from Paris-Nord by regional train, has a low-cost airport in town and the tallest Gothic vault in the world. Fit 6.2/10, 6 playgrounds.",
     category: "family",
@@ -58872,7 +58872,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-cambrai-2026",
     title: "Single-parent holidays in Cambrai: the lowest rent in the series, and no direct train from Paris",
-    metaTitle: "Single-Parent Holidays in Cambrai 2026",
+    metaTitle: "Single-Parent Holidays in Cambrai 2027",
     metaDesc:
       "Cambrai shares the lowest reference rent of the forty-five, 640 €, with 14 playgrounds. But safety is 4.6/10 and there is no direct train from Paris.",
     category: "family",
@@ -58919,7 +58919,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-obernai-2026",
     title: "Single-parent holidays in Obernai: the best composite of the series, and the price of it",
-    metaTitle: "Single-Parent Holidays in Obernai 2026",
+    metaTitle: "Single-Parent Holidays in Obernai 2027",
     metaDesc:
       "Obernai has the best composite of the 53 destinations (8.0/10), the top safety score and a regional train to Strasbourg. Three-room flat 1,040 €.",
     category: "family",
@@ -58966,7 +58966,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-laon-2026",
     title: "Single-parent holidays in Laon: the cheapest square metre in the series, and a funicular that closed in 2016",
-    metaTitle: "Single-Parent Holidays in Laon 2026",
+    metaTitle: "Single-Parent Holidays in Laon 2027",
     metaDesc:
       "Laon shares the lowest price per square metre of the series (1,400 €) and has a direct train to Paris. But the funicular closed in 2016.",
     category: "family",
@@ -59013,7 +59013,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-dole-2026",
     title: "Single-parent holidays in Dole: Pasteur's birthplace, a canal and a balanced profile",
-    metaTitle: "Single-Parent Holidays in Dole 2026",
+    metaTitle: "Single-Parent Holidays in Dole 2027",
     metaDesc:
       "Dole: three-room flat 780 €, safety 7.0/10, a town-centre station with a direct TGV to Paris. A canal, Pasteur's house and flat riverbanks.",
     category: "family",
@@ -59060,7 +59060,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-hendaye-2026",
     title: "Single-parent holidays in Hendaye: three kilometres of beach, and Spain by local train",
-    metaTitle: "Single-Parent Holidays in Hendaye 2026",
+    metaTitle: "Single-Parent Holidays in Hendaye 2027",
     metaDesc:
       "Hendaye: direct TGV from Paris, three kilometres of beach, safety 7.5/10 and Spain by train. But a three-room flat costs 1,130 €.",
     category: "family",
@@ -59107,7 +59107,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-albertville-2026",
     title: "Single-parent holidays in Albertville: 1992 Olympic host, and a season that sets the price",
-    metaTitle: "Single-Parent Holidays in Albertville 2026",
+    metaTitle: "Single-Parent Holidays in Albertville 2027",
     metaDesc:
       "Albertville: safety 8.0/10 (second of the series), direct TGV from Paris, a medieval quarter at Conflans. Weather station 90 km away, winter is 5 out of 5.",
     category: "family",
@@ -59154,7 +59154,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-montargis-2026",
     title: "Single-parent holidays in Montargis: the Venice of the Gâtinais, an hour from Paris-Bercy",
-    metaTitle: "Single-Parent Holidays in Montargis 2026",
+    metaTitle: "Single-Parent Holidays in Montargis 2027",
     metaDesc:
       "Montargis: three-room flat 790 €, cost of living 8.0/10 (third of the series), a direct train to Paris-Bercy in about an hour. Canals and pralines.",
     category: "family",
@@ -59201,7 +59201,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-lourdes-2026",
     title: "Single-parent holidays in Lourdes: the cheapest square metre in the series, set to the sanctuary's calendar",
-    metaTitle: "Single-Parent Holidays in Lourdes 2026",
+    metaTitle: "Single-Parent Holidays in Lourdes 2027",
     metaDesc:
       "Lourdes shares the lowest price per square metre of the series (1,400 €), safety 7.5/10 and a direct TGV from Paris. A stay set to the sanctuary calendar.",
     category: "family",
@@ -59248,7 +59248,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-annecy-2026",
     title: "Single-parent holidays in Annecy: the dearest of the series, and the best quality of life",
-    metaTitle: "Single-Parent Holidays in Annecy 2026",
+    metaTitle: "Single-Parent Holidays in Annecy 2027",
     metaDesc:
       "Annecy is the dearest of the 53 destinations (flat 1,450 €, 5,500 €/m²) but first on quality of life (9.0/10), with 40 green spaces.",
     category: "family",
@@ -59294,7 +59294,7 @@ export const EN_GUIDES: EnGuide[] = [
   },  {
     slug: "single-parent-holidays-colmar-2026",
     title: "Single-parent holidays in Colmar: a walkable Alsace town, with a train change in Strasbourg",
-    metaTitle: "Single-Parent Holidays in Colmar 2026",
+    metaTitle: "Single-Parent Holidays in Colmar 2027",
     metaDesc: "Colmar scores 6.3/10 on our single-parent index: three-room flat 1,000 €, safety 6.1/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59348,7 +59348,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-chambery-2026",
     title: "Single-parent holidays in Chambéry: under three hours by direct TGV, the Alps on the doorstep",
-    metaTitle: "Single-Parent Holidays in Chambéry 2026",
+    metaTitle: "Single-Parent Holidays in Chambéry 2027",
     metaDesc: "Chambéry scores 6.3/10 on our single-parent index: three-room flat 1,100 €, safety 6.3/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59402,7 +59402,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-malo-2026",
     title: "Single-parent holidays in Saint-Malo: walls, beaches and a tide you plan around",
-    metaTitle: "Single-Parent Holidays in Saint-Malo 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Malo 2027",
     metaDesc: "Saint-Malo scores 6.2/10 on our single-parent index: three-room flat 1,080 €, safety 6.5/10. Train access, tides, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59456,7 +59456,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-beaune-2026",
     title: "Single-parent holidays in Beaune: fourth of the fifty-nine on our index, with a train change in Dijon",
-    metaTitle: "Single-Parent Holidays in Beaune 2026",
+    metaTitle: "Single-Parent Holidays in Beaune 2027",
     metaDesc: "Beaune scores 7.2/10 on our single-parent index: three-room flat 1,080 €, safety 8.1/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59510,7 +59510,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-albi-2026",
     title: "Single-parent holidays in Albi: cheap, 7.6/10 on cost, via Toulouse by train",
-    metaTitle: "Single-Parent Holidays in Albi 2026",
+    metaTitle: "Single-Parent Holidays in Albi 2027",
     metaDesc: "Albi scores 6.9/10 on our single-parent index: three-room flat 840 €, safety 6.7/10. Train access via Toulouse, costs, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59564,7 +59564,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saumur-2026",
     title: "Single-parent holidays in Saumur: the Loire, the Cadre Noir and an 800 € three-room flat",
-    metaTitle: "Single-Parent Holidays in Saumur 2026",
+    metaTitle: "Single-Parent Holidays in Saumur 2027",
     metaDesc: "Saumur scores 6.9/10 on our single-parent index: three-room flat 800 €, safety 7.4/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59671,7 +59671,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-troyes-2026",
     title: "Single-parent holidays in Troyes: half-timbered streets, a direct train and an 860 € flat",
-    metaTitle: "Single-Parent Holidays in Troyes 2026",
+    metaTitle: "Single-Parent Holidays in Troyes 2027",
     metaDesc: "Troyes scores 6.3/10 on our single-parent index: flat 860 €, safety 5.4/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59724,7 +59724,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-chartres-2026",
     title: "Single-parent holidays in Chartres: a cathedral day trip and an 890 € flat",
-    metaTitle: "Single-Parent Holidays in Chartres 2026",
+    metaTitle: "Single-Parent Holidays in Chartres 2027",
     metaDesc: "Chartres scores 6.0/10 on our single-parent index: flat 890 €, safety 5.5/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59777,7 +59777,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-nazaire-2026",
     title: "Single-parent holidays in Saint-Nazaire: a port first, a beach second, an 850 € flat",
-    metaTitle: "Single-Parent Holidays in Saint-Nazaire 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Nazaire 2027",
     metaDesc: "Saint-Nazaire scores 6.0/10 on our single-parent index: flat 850 €, safety 5.5/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59830,7 +59830,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-lorient-2026",
     title: "Single-parent holidays in Lorient: the Sailing City, the bay and a 900 € flat",
-    metaTitle: "Single-Parent Holidays in Lorient 2026",
+    metaTitle: "Single-Parent Holidays in Lorient 2027",
     metaDesc: "Lorient scores 6.0/10 on our single-parent index: flat 900 €, safety 5.5/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59883,7 +59883,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-sens-2026",
     title: "Single-parent holidays in Sens: an hour from Paris and a 920 € flat",
-    metaTitle: "Single-Parent Holidays in Sens 2026",
+    metaTitle: "Single-Parent Holidays in Sens 2027",
     metaDesc: "Sens scores 6.6/10 on our single-parent index: flat 920 €, safety 6.5/10. Train access, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59936,7 +59936,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-amboise-2026",
     title: "Single-parent holidays in Amboise: a château town twenty minutes from Tours",
-    metaTitle: "Single-Parent Holidays in Amboise 2026",
+    metaTitle: "Single-Parent Holidays in Amboise 2027",
     metaDesc: "Amboise scores 7.5/10 on our single-parent index: flat 880 €, safety 7.5/10. Train from Tours, costs, parks and funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -59989,7 +59989,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-fontainebleau-2026",
     title: "Single-parent holidays in Fontainebleau: top-ranked, but a 1,200 € flat",
-    metaTitle: "Single-Parent Holidays in Fontainebleau 2026",
+    metaTitle: "Single-Parent Holidays in Fontainebleau 2027",
     metaDesc: "Fontainebleau scores 7.4/10 on our single-parent index, but the flat is 1,200 €. Train 40 min from Paris, parks, costs, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60042,7 +60042,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-le-puy-en-velay-2026",
     title: "Single-parent holidays in Le Puy-en-Velay: a 700 € flat, the hardest town to reach",
-    metaTitle: "Single-Parent Holidays in Le Puy-en-Velay 2026",
+    metaTitle: "Single-Parent Holidays in Le Puy-en-Velay 2027",
     metaDesc: "Le Puy-en-Velay scores 7.3/10 on our single-parent index, flat 700 €, but last on transport. Train, costs, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60095,7 +60095,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-vitre-2026",
     title: "Single-parent holidays in Vitré: safety 8.5/10 and a direct TGV from Paris",
-    metaTitle: "Single-Parent Holidays in Vitré 2026",
+    metaTitle: "Single-Parent Holidays in Vitré 2027",
     metaDesc: "Vitré scores 7.3/10 on our single-parent index: flat 800 €, safety 8.5/10. Direct TGV from Paris, costs, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60148,7 +60148,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saverne-2026",
     title: "Single-parent holidays in Saverne: Alsace by train, Strasbourg half an hour away",
-    metaTitle: "Single-Parent Holidays in Saverne 2026",
+    metaTitle: "Single-Parent Holidays in Saverne 2027",
     metaDesc: "Saverne scores 7.3/10 on our single-parent index: flat 970 €, safety 8.1/10. Regional train from Strasbourg, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60201,7 +60201,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-lannion-2026",
     title: "Single-parent holidays in Lannion: 14 playgrounds, and a change at Plouaret",
-    metaTitle: "Single-Parent Holidays in Lannion 2026",
+    metaTitle: "Single-Parent Holidays in Lannion 2027",
     metaDesc: "Lannion scores 7.2/10 on our single-parent index: flat 800 €, 14 playgrounds mapped. Train via Plouaret, costs, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60256,7 +60256,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-autun-2026",
     title: "Single-parent holidays in Autun: the cheapest town of the series, and no direct train",
-    metaTitle: "Single-Parent Holidays in Autun 2026",
+    metaTitle: "Single-Parent Holidays in Autun 2027",
     metaDesc: "Autun scores 7.4/10 on our single-parent index: flat 720 €, Roman remains, parks mapped. Train with a change, costs, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60300,7 +60300,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-pontarlier-2026",
     title: "Single-parent holidays in Pontarlier: a mountain town where winter is peak season",
-    metaTitle: "Single-Parent Holidays in Pontarlier 2026",
+    metaTitle: "Single-Parent Holidays in Pontarlier 2027",
     metaDesc: "Pontarlier scores 7.3/10 on our single-parent index: flat 940 €, safety 8.1/10. Train via Frasne, winter crowds, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60344,7 +60344,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-chinon-2026",
     title: "Single-parent holidays in Chinon: a royal fortress, and everything goes through Tours",
-    metaTitle: "Single-Parent Holidays in Chinon 2026",
+    metaTitle: "Single-Parent Holidays in Chinon 2027",
     metaDesc: "Chinon scores 7.2/10 on our single-parent index: flat 820 €, safety 8.1/10. Regional train via Tours, fortress, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60388,7 +60388,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-dinan-2026",
     title: "Single-parent holidays in Dinan: first for safety, and a steep hill to the port",
-    metaTitle: "Single-Parent Holidays in Dinan 2026",
+    metaTitle: "Single-Parent Holidays in Dinan 2027",
     metaDesc: "Dinan scores 7.2/10 on our single-parent index: safety 8.7/10, first of 77, flat 800 €. Train via Rennes, ramparts, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60432,7 +60432,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-paray-le-monial-2026",
     title: "Single-parent holidays in Paray-le-Monial: the lowest price per square metre of the series",
-    metaTitle: "Single-Parent Holidays in Paray-le-Monial 2026",
+    metaTitle: "Single-Parent Holidays in Paray-le-Monial 2027",
     metaDesc: "Paray-le-Monial scores 7.2/10 on our single-parent index: safety 8.6/10, flat 720 €, 1,300 €/m². Train via Montchanin, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60476,7 +60476,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-challans-2026",
     title: "Single-parent holidays in Challans: a direct train from Nantes, and the sea elsewhere",
-    metaTitle: "Single-Parent Holidays in Challans 2026",
+    metaTitle: "Single-Parent Holidays in Challans 2027",
     metaDesc: "Challans scores 7.0/10 on our single-parent index: flat 860 €, safety 8.3/10. Direct regional train from Nantes, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60520,7 +60520,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-die-des-vosges-2026",
     title: "Single-parent holidays in Saint-Dié-des-Vosges: the cheapest flat in the series, and a direct train from Nancy",
-    metaTitle: "Single-Parent Holidays in Saint-Dié 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Dié 2027",
     metaDesc: "Saint-Dié-des-Vosges: 7.0/10 on our single-parent index, flat 670 €, cost 8.5/10, joint first. Direct regional train from Nancy, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60564,7 +60564,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-gaillac-2026",
     title: "Single-parent holidays in Gaillac: a direct train from Toulouse, and vineyards for the backdrop",
-    metaTitle: "Single-Parent Holidays in Gaillac 2026",
+    metaTitle: "Single-Parent Holidays in Gaillac 2027",
     metaDesc: "Gaillac scores 7.0/10 on our single-parent index: flat 800 €, safety 8.1/10, life 7.8/10. Direct regional train from Toulouse, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60608,7 +60608,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-provins-2026",
     title: "Single-parent holidays in Provins: a medieval town, and a train from Paris-Est",
-    metaTitle: "Single-Parent Holidays in Provins 2026",
+    metaTitle: "Single-Parent Holidays in Provins 2027",
     metaDesc: "Provins scores 6.9/10 on our single-parent index: flat 930 €, safety 7.5/10. Direct Transilien P from Paris-Est, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60652,7 +60652,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-issoire-2026",
     title: "Single-parent holidays in Issoire: half an hour from Clermont, and a Romanesque abbey church",
-    metaTitle: "Single-Parent Holidays in Issoire 2026",
+    metaTitle: "Single-Parent Holidays in Issoire 2027",
     metaDesc: "Issoire scores 6.9/10 on our single-parent index: flat 720 €, cost 7.6/10, safety 7.5/10. Direct regional train from Clermont, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60696,7 +60696,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-saint-lo-2026",
     title: "Single-parent holidays in Saint-Lô: the safest of the batch, and a direct train from Caen",
-    metaTitle: "Single-Parent Holidays in Saint-Lô 2026",
+    metaTitle: "Single-Parent Holidays in Saint-Lô 2027",
     metaDesc: "Saint-Lô scores 6.9/10 on our single-parent index: flat 760 €, safety 8.2/10, sixth of 83. Direct regional train from Caen, parks, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60740,7 +60740,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "single-parent-holidays-moissac-2026",
     title: "Single-parent holidays in Moissac: a Romanesque cloister, a canal, and a direct train from Toulouse",
-    metaTitle: "Single-Parent Holidays in Moissac 2026",
+    metaTitle: "Single-Parent Holidays in Moissac 2027",
     metaDesc: "Moissac scores 6.9/10 on our single-parent index: flat 790 €, cost 8.0/10. Direct regional train from Toulouse, Romanesque cloister, funding.",
     category: "family",
     emoji: "🧑‍🍼",
@@ -60784,7 +60784,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-selestat-2026",
     title: "Things to do in Sélestat: a 1521 account book, and the Christmas tree argument",
-    metaTitle: "Things to Do in Sélestat, Alsace (2026)",
+    metaTitle: "Things to Do in Sélestat, Alsace (2027)",
     metaDesc:
       "A library of 1452 on the UNESCO Memory of the World register, a 1521 entry about a fir tree, and 1,855 hectares of wetland forest.",
     category: "city-guide",
@@ -60835,7 +60835,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-obernai-2026",
     title: "Things to do in Obernai: a wine-route town with a railway station",
-    metaTitle: "Things to Do in Obernai, Alsace Wine Route (2026)",
+    metaTitle: "Things to Do in Obernai, Alsace Wine Route (2027)",
     metaDesc:
       "A well of 1579, a 60 m civic tower, a market held on Thursdays since 1301, and the brewery where the beer called 1664 is actually made.",
     category: "city-guide",
@@ -60886,7 +60886,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saverne-2026",
     title: "Things to do in Saverne: a palace finished for a cardinal already ruined",
-    metaTitle: "Things to Do in Saverne, Alsace: Rohan Palace 2026",
+    metaTitle: "Things to Do in Saverne, Alsace: Rohan Palace 2027",
     metaDesc:
       "A 140 m sandstone façade built by the cardinal of the diamond necklace affair, 8,500 rose bushes, and the eye of Alsace on the ridge above.",
     category: "city-guide",
@@ -60937,7 +60937,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-aubusson-2026",
     title: "Things to do in Aubusson: a town of three thousand that wove Tolkien for seven years",
-    metaTitle: "Things to Do in Aubusson, Creuse: Tapestry 2026",
+    metaTitle: "Things to Do in Aubusson, Creuse: Tapestry 2027",
     metaDesc:
       "A craft on the UNESCO intangible list since 2009, a tapestry centre opened in 2016, and Tolkien's own drawings woven over seven years.",
     category: "city-guide",
@@ -60988,7 +60988,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-douarnenez-2026",
     title: "Things to do in Douarnenez: Roman fish-sauce tanks, and where the kouign-amann comes from",
-    metaTitle: "Things to Do in Douarnenez, Finistère (2026)",
+    metaTitle: "Things to Do in Douarnenez, Finistère (2027)",
     metaDesc:
       "First-century Roman salting tanks on a free coast path, a museum where the boats float, and the working port that invented the kouign-amann.",
     category: "city-guide",
@@ -61039,7 +61039,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-quiberon-2026",
     title: "Things to do in Quiberon: the bay the Royal Navy knows, and a coast you cannot swim from",
-    metaTitle: "Things to Do in Quiberon, Morbihan (2026)",
+    metaTitle: "Things to Do in Quiberon, Morbihan (2027)",
     metaDesc:
       "Swimming is banned along the whole Côte Sauvage by municipal order, the fort is a working army base, and the bay is the one Hawke sailed into in 1759.",
     category: "city-guide",
@@ -61090,7 +61090,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-moissac-2026",
     title: "Things to do in Moissac: a cloister of 1100, an hour from Toulouse, on the Le Puy camino",
-    metaTitle: "Things to Do in Moissac: Cloister and Camino 2026",
+    metaTitle: "Things to Do in Moissac: Cloister and Camino 2027",
     metaDesc:
       "Seventy-six capitals dated to 1100, an Apocalypse tympanum, and an Art deco quarter built after the flood of 1930. A stage on the GR 65.",
     category: "city-guide",
@@ -61140,7 +61140,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-reims-where-to-go-2026",
     title: "Leaving Reims: where people actually go",
-    metaTitle: "Leaving Reims 2026: Where to Go Next",
+    metaTitle: "Leaving Reims 2027: Where to Go Next",
     metaDesc:
       "Leaving Reims as an expat: Châlons, Épernay, Troyes, Metz, Nancy, Paris. Real rents, real travel times, and what the cathedral city still gives you.",
     category: "lifestyle",
@@ -61190,7 +61190,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-toulon-where-to-go-2026",
     title: "Leaving Toulon: the navy town that splits opinion",
-    metaTitle: "Leaving Toulon 2026: Where to Go Next",
+    metaTitle: "Leaving Toulon 2027: Where to Go Next",
     metaDesc:
       "Leaving Toulon as an expat: Marseille, Aix, Hyères, Six-Fours, Nice. Real rents and square-metre prices, and why Toulon is cheaper than the rest of the coast.",
     category: "lifestyle",
@@ -61236,7 +61236,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-le-havre-where-to-go-2026",
     title: "Leaving Le Havre: Rouen, Caen, Paris or the coast",
-    metaTitle: "Leaving Le Havre 2026: Where to Go Next",
+    metaTitle: "Leaving Le Havre 2027: Where to Go Next",
     metaDesc:
       "Leaving Le Havre as an expat: Rouen, Caen, Paris, the Côte Fleurie. Real rents, the ferry that is closing, and why the concrete is UNESCO-listed.",
     category: "lifestyle",
@@ -61282,7 +61282,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-saint-etienne-where-to-go-2026",
     title: "Leaving Saint-Étienne: Lyon, the mountains, or staying put",
-    metaTitle: "Leaving Saint-Étienne 2026: Where to Go",
+    metaTitle: "Leaving Saint-Étienne 2027: Where to Go",
     metaDesc:
       "Leaving Saint-Étienne as an expat: Lyon, Grenoble, Chambéry, Annecy, Roanne, Firminy. Real rents, and why this is the cheapest big city in France.",
     category: "lifestyle",
@@ -61328,7 +61328,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-dijon-where-to-go-2026",
     title: "Leaving Dijon: when Burgundy starts to feel small",
-    metaTitle: "Leaving Dijon 2026: Where to Go Next",
+    metaTitle: "Leaving Dijon 2027: Where to Go Next",
     metaDesc:
       "Leaving Dijon as an expat: Lyon, Besançon, Chalon, Mâcon, Beaune, Paris. Real rents and prices, and what a city with a ducal palace still gives you.",
     category: "lifestyle",
@@ -61374,7 +61374,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-angers-where-to-go-2026",
     title: "Leaving Angers: Nantes, Paris or the Anjou countryside",
-    metaTitle: "Leaving Angers 2026: Where to Go Next",
+    metaTitle: "Leaving Angers 2027: Where to Go Next",
     metaDesc:
       "Leaving Angers as an expat: Nantes, Paris, Le Mans, Laval, Saumur, Cholet. Real rents and prices, and why the English crown is named after this place.",
     category: "lifestyle",
@@ -61420,7 +61420,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-nimes-where-to-go-2026",
     title: "Leaving Nîmes: what nobody tells you first",
-    metaTitle: "Leaving Nîmes 2026: Where to Go Next",
+    metaTitle: "Leaving Nîmes 2027: Where to Go Next",
     metaDesc:
       "Leaving Nîmes as an expat: Montpellier, Avignon, Marseille, Alès. Real rents and prices, plus two things English speakers get wrong about the city.",
     category: "lifestyle",
@@ -61466,7 +61466,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-le-mans-where-to-go-2026",
     title: "Leaving Le Mans: Paris, Nantes or the Sarthe",
-    metaTitle: "Leaving Le Mans 2026: Where to Go Next",
+    metaTitle: "Leaving Le Mans 2027: Where to Go Next",
     metaDesc:
       "Leaving Le Mans as an expat: Paris, Nantes, Tours, Angers, Laval, rural Sarthe. Real rents, and why an English king was born inside the Roman walls.",
     category: "lifestyle",
@@ -61512,7 +61512,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-les-andelys-2026",
     title: "Things to do in Les Andelys: Richard the Lionheart's castle above the Seine",
-    metaTitle: "Things to Do in Les Andelys: Château-Gaillard 2026",
+    metaTitle: "Things to Do in Les Andelys: Château-Gaillard 2027",
     metaDesc:
       "The fortress Richard I threw up in two years to block the Seine, the six-month siege that lost Normandy in 1204, and Poussin's birthplace.",
     category: "city-guide",
@@ -61612,7 +61612,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sedan-2026",
     title: "Things to do in Sedan: the largest castle in Europe, and two French defeats at one crossing",
-    metaTitle: "Things to Do in Sedan: Europe's Largest Castle 2026",
+    metaTitle: "Things to Do in Sedan: Europe's Largest Castle 2027",
     metaDesc:
       "A fortress of 35,000 square metres, a sovereign Protestant principality until 1642, and the same stretch of the Meuse lost twice, in 1870 and 1940.",
     category: "city-guide",
@@ -61666,7 +61666,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gerardmer-2026",
     title: "Things to do in Gérardmer: a glacial lake, a rebuilt town and a horror-film festival",
-    metaTitle: "Things to Do in Gérardmer: Lake and Vosges 2026",
+    metaTitle: "Things to Do in Gérardmer: Lake and Vosges 2027",
     metaDesc:
       "A glacial lake of about 115 hectares, a town rebuilt after 1944, waterfalls in the Vosges and a fantasy and horror film festival: what to do in Gérardmer.",
     category: "city-guide",
@@ -61724,7 +61724,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-lannion-2026",
     title: "Things to do in Lannion: half-timbered streets and the dome that carried Telstar",
-    metaTitle: "Things to Do in Lannion: Brittany's Trégor 2026",
+    metaTitle: "Things to Do in Lannion: Brittany's Trégor 2027",
     metaDesc:
       "Half-timbered houses, a church on its hill, the Léguer valley and the radome of the first live transatlantic television link: what to do in Lannion.",
     category: "city-guide",
@@ -61782,7 +61782,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-flour-2026",
     title: "Things to do in Saint-Flour: an upper town on a volcanic spur",
-    metaTitle: "Things to Do in Saint-Flour: Cantal Guide 2026",
+    metaTitle: "Things to Do in Saint-Flour: Cantal Guide 2027",
     metaDesc:
       "An upper town on a volcanic spur, a dark cathedral, the Garabit viaduct and the Margeride plateau: what to do in Saint-Flour, in the Cantal.",
     category: "city-guide",
@@ -61840,7 +61840,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-semur-en-auxois-2026",
     title: "Things to do in Semur-en-Auxois: a medieval town in a loop of the river",
-    metaTitle: "Things to Do in Semur-en-Auxois 2026",
+    metaTitle: "Things to Do in Semur-en-Auxois 2027",
     metaDesc:
       "A medieval town in a bend of the Armançon, an eighteenth-century bridge, a Gothic collegiate church and Alésia close by: what to do in Semur-en-Auxois.",
     category: "city-guide",
@@ -61898,7 +61898,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-maubeuge-2026",
     title: "Things to do in Maubeuge: Vauban's fortifications and the siege of 1914",
-    metaTitle: "Things to Do in Maubeuge: Vauban's Fortress 2026",
+    metaTitle: "Things to Do in Maubeuge: Vauban's Fortress 2027",
     metaDesc:
       "Vauban's fortifications, the siege of 1914, a well-known regional zoo and the river Sambre: what to do in Maubeuge, in northern France.",
     category: "city-guide",
@@ -62014,7 +62014,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sceaux-2026",
     title: "Things to do in Sceaux: Le Nôtre's park, half an hour from Paris",
-    metaTitle: "Things to Do in Sceaux: Le Nôtre's Park 2026",
+    metaTitle: "Things to Do in Sceaux: Le Nôtre's Park 2027",
     metaDesc:
       "A park laid out by Le Nôtre, Le Brun's Aurora pavilion, the Orangery and the Grand Canal: what to do in Sceaux, on the edge of Paris.",
     category: "city-guide",
@@ -62072,7 +62072,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-firminy-2026",
     title: "Things to do in Firminy: the largest Le Corbusier site in Europe",
-    metaTitle: "Things to Do in Firminy: Le Corbusier Site 2026",
+    metaTitle: "Things to Do in Firminy: Le Corbusier Site 2027",
     metaDesc:
       "Four Le Corbusier buildings in one district, a church finished forty years after he died, and only one of them on the UNESCO list. Here is which.",
     category: "city-guide",
@@ -62126,7 +62126,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-paray-le-monial-2026",
     title: "Things to do in Paray-le-Monial: the Romanesque church that outlived Cluny",
-    metaTitle: "Things to Do in Paray-le-Monial: Basilica 2026",
+    metaTitle: "Things to Do in Paray-le-Monial: Basilica 2027",
     metaDesc:
       "A basilica built alongside Cluny III and still standing when Cluny was not, the visions of 1673, and a national treasure part-stolen in 2024.",
     category: "city-guide",
@@ -62180,7 +62180,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vitre-2026",
     title: "Things to do in Vitré: a walled Breton town half an hour from Rennes",
-    metaTitle: "Things to Do in Vitré: Castle and Walled Town 2026",
+    metaTitle: "Things to Do in Vitré: Castle and Walled Town 2027",
     metaDesc:
       "A castle of about 1050 on the Breton march, five hundred metres of surviving rampart, timber-framed streets, and Madame de Sévigné's manor.",
     category: "city-guide",
@@ -62234,7 +62234,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-noirmoutier-2026",
     title: "Things to do in Noirmoutier: a road the sea covers twice a day",
-    metaTitle: "Things to Do in Noirmoutier: the Gois and Salt 2026",
+    metaTitle: "Things to Do in Noirmoutier: the Gois and Salt 2027",
     metaDesc:
       "A tidal causeway with nine rescue beacons, a Romanesque keep, salt marshes over a third of the island, and mimosa flowering in February.",
     category: "city-guide",
@@ -62288,7 +62288,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-chateaudun-2026",
     title: "Things to do in Châteaudun: a Loir fortress and a town that burned in 1870",
-    metaTitle: "Things to Do in Châteaudun: Keep and Chapel 2026",
+    metaTitle: "Things to Do in Châteaudun: Keep and Chapel 2027",
     metaDesc:
       "A twelfth-century keep on a spur above the Loir, a royal-style chapel, the wing of Joan of Arc's companion Dunois, and a small town with no theme-park polish.",
     category: "city-guide",
@@ -62338,7 +62338,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-peronne-2026",
     title: "Things to do in Péronne: the Somme museum and the town the war rebuilt",
-    metaTitle: "Things to Do in Péronne: Historial and Somme 2026",
+    metaTitle: "Things to Do in Péronne: Historial and Somme 2027",
     metaDesc:
       "The Historial of the Great War in a medieval castle, a peace garden in the moat, and the base for the Somme battlefields. What to see and what lies elsewhere.",
     category: "city-guide",
@@ -62388,7 +62388,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sarreguemines-2026",
     title: "Things to do in Sarreguemines: faience, a winter garden, and the German border",
-    metaTitle: "Things to Do in Sarreguemines: Faience Museum 2026",
+    metaTitle: "Things to Do in Sarreguemines: Faience Museum 2027",
     metaDesc:
       "A museum of faience, a winter garden tiled with ceramic, a Roman site split between two countries, and a frontier town where Saarland begins.",
     category: "city-guide",
@@ -62438,7 +62438,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montargis-2026",
     title: "Things to do in Montargis: the Venice of the Gâtinais, minus the gondolas",
-    metaTitle: "Things to Do in Montargis: Canals and Praslines 2026",
+    metaTitle: "Things to Do in Montargis: Canals and Praslines 2027",
     metaDesc:
       "Bridges and canals in a small Loiret town, a museum for the painter Girodet, and the praline named after a duke. What the nickname promises and what it does not.",
     category: "city-guide",
@@ -62488,7 +62488,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-guebwiller-2026",
     title: "Things to do in Guebwiller: three churches, grand cru vines and the Vosges' top summit",
-    metaTitle: "Things to Do in Guebwiller: Florival and Wine 2026",
+    metaTitle: "Things to Do in Guebwiller: Florival and Wine 2027",
     metaDesc:
       "Three very different churches, a ceramics museum, four grand cru vineyards and the Grand Ballon, the highest peak in the Vosges, on the Alsace wine route.",
     category: "city-guide",
@@ -62538,7 +62538,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-claude-2026",
     title: "Things to do in Saint-Claude: the pipe capital of France, high in the Jura",
-    metaTitle: "Things to Do in Saint-Claude: Pipe Museum 2026",
+    metaTitle: "Things to Do in Saint-Claude: Pipe Museum 2027",
     metaDesc:
       "A museum of the pipe and the diamond, a cathedral with fifteenth-century choir stalls, and a Haut-Jura town that has lost a fifth of its people in eleven years.",
     category: "city-guide",
@@ -62588,7 +62588,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-montbard-2026",
     title: "Things to do in Montbard: Buffon's hill above the Burgundy canal",
-    metaTitle: "Things to Do in Montbard: Buffon's Park 2026",
+    metaTitle: "Things to Do in Montbard: Buffon's Park 2027",
     metaDesc:
       "Buffon's terraced park, his study in the Saint-Louis tower, the Burgundy canal towpath and Fontenay abbey a few kilometres away: what Montbard offers.",
     category: "city-guide",
@@ -62638,7 +62638,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sainte-maxime-2026",
     title: "Things to do in Sainte-Maxime: the quiet shore facing Saint-Tropez",
-    metaTitle: "Things to Do in Sainte-Maxime 2026",
+    metaTitle: "Things to Do in Sainte-Maxime 2027",
     metaDesc:
       "A sand beach, the Square Tower museum and a seasonal boat across the gulf to Saint-Tropez, plus the fire-season rules for the Maures hills behind.",
     category: "city-guide",
@@ -62688,7 +62688,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-mandelieu-la-napoule-2026",
     title: "Things to do in Mandelieu-la-Napoule: an American sculptor's castle next to Cannes",
-    metaTitle: "Things to Do in Mandelieu-la-Napoule 2026",
+    metaTitle: "Things to Do in Mandelieu-la-Napoule 2027",
     metaDesc:
       "The Clews castle on the sea, the red Esterel hills, a mimosa festival and a cheaper base than Cannes: what Mandelieu-la-Napoule offers.",
     category: "city-guide",
@@ -62738,7 +62738,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-berck-2026",
     title: "Things to do in Berck: a vast beach and a town built around a seaside hospital",
-    metaTitle: "Things to Do in Berck: Beach and Seals 2026",
+    metaTitle: "Things to Do in Berck: Beach and Seals 2027",
     metaDesc:
       "A huge tidal beach, sand yachting, the Authie bay seals and the story of the hospital town that began in 1861, on the Opal Coast.",
     category: "city-guide",
@@ -62788,7 +62788,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-florac-trois-rivieres-2026",
     title: "Things to do in Florac-Trois-Rivières: the gateway to the Cévennes national park",
-    metaTitle: "Things to Do in Florac-Trois-Rivières 2026",
+    metaTitle: "Things to Do in Florac-Trois-Rivières 2027",
     metaDesc:
       "The Cévennes national park headquarters, the Pêcher spring, the Stevenson trail and the Tarn gorges nearby, with the flash-flood rules that matter.",
     category: "city-guide",
@@ -62838,7 +62838,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sallanches-2026",
     title: "Things to do in Sallanches: a Sardinian-style town facing Mont Blanc",
-    metaTitle: "Things to Do in Sallanches 2026",
+    metaTitle: "Things to Do in Sallanches 2027",
     metaDesc:
       "A town rebuilt on a grid after an 1840 fire, a Mont Blanc view from the valley floor, and a cheaper base than Chamonix or Megève.",
     category: "city-guide",
@@ -62888,7 +62888,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-longwy-2026",
     title: "Things to do in Longwy: a Vauban hilltop town at the Belgian and Luxembourg borders",
-    metaTitle: "Things to Do in Longwy 2026",
+    metaTitle: "Things to Do in Longwy 2027",
     metaDesc:
       "A Vauban fortress town on the UNESCO list, enamel and faience, and a tri-border position next to Belgium and Luxembourg.",
     category: "city-guide",
@@ -62938,7 +62938,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-thiers-2026",
     title: "Things to do in Thiers: France's cutlery capital above the Durolle valley",
-    metaTitle: "Things to Do in Thiers 2026",
+    metaTitle: "Things to Do in Thiers 2027",
     metaDesc:
       "France's cutlery capital: the knife museum, the Vallée des Rouets, the Creux de l'Enfer art centre and a steep medieval old town.",
     category: "city-guide",
@@ -62984,7 +62984,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-gien-2026",
     title: "Things to do in Gien: a hunting museum, a faience works and the Loire",
-    metaTitle: "Things to Do in Gien 2026",
+    metaTitle: "Things to Do in Gien 2027",
     metaDesc:
       "A château housing the International Hunting Museum, a faience works founded in 1821 by an Englishman, and the Loire from the bridge.",
     category: "city-guide",
@@ -63030,7 +63030,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-vallauris-2026",
     title: "Things to do in Vallauris: Picasso's War and Peace and a town of potters",
-    metaTitle: "Things to Do in Vallauris 2026",
+    metaTitle: "Things to Do in Vallauris 2027",
     metaDesc:
       "Picasso's War and Peace panels, ceramics and Golfe-Juan: what to see in Vallauris, between Cannes and Antibes.",
     category: "city-guide",
@@ -63076,7 +63076,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-la-fleche-2026",
     title: "Things to do in La Flèche: a military school, a zoo and the river Loir",
-    metaTitle: "Things to Do in La Flèche 2026",
+    metaTitle: "Things to Do in La Flèche 2027",
     metaDesc:
       "A military school founded by Henri IV, the Carmes château, one of France's largest zoos and the banks of the Loir.",
     category: "city-guide",
@@ -63168,7 +63168,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-saint-cloud-2026",
     title: "Things to do in Saint-Cloud: a national estate park, a burnt château and a view of Paris",
-    metaTitle: "Things to Do in Saint-Cloud 2026",
+    metaTitle: "Things to Do in Saint-Cloud 2027",
     metaDesc:
       "A national estate park designed by Le Nôtre, the Grande Cascade and the ruins of a château burnt in 1870, west of Paris.",
     category: "city-guide",
@@ -63214,7 +63214,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-sevres-2026",
     title: "Things to do in Sèvres: the porcelain town and the home of the metre",
-    metaTitle: "Things to Do in Sèvres 2026",
+    metaTitle: "Things to Do in Sèvres 2027",
     metaDesc:
       "The Cité de la céramique, a porcelain manufacture still at work and the Pavillon de Breteuil, just southwest of Paris.",
     category: "city-guide",
@@ -63260,7 +63260,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-maisons-laffitte-2026",
     title: "Things to do in Maisons-Laffitte: a classical château and racehorse country",
-    metaTitle: "Things to Do in Maisons-Laffitte 2026",
+    metaTitle: "Things to Do in Maisons-Laffitte 2027",
     metaDesc:
       "A château attributed to Mansart, a racecourse and villas laid out by the banker Laffitte, a short RER ride from Paris.",
     category: "city-guide",
@@ -63306,7 +63306,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-abbeville-2026",
     title: "Things to do in Abbeville: a rebuilt town on the Somme and the gateway to the bay",
-    metaTitle: "Things to Do in Abbeville 2026",
+    metaTitle: "Things to Do in Abbeville 2027",
     metaDesc:
       "The Saint-Vulfran collegiate church, a town rebuilt after 1940 and the Bay of Somme close by, in northern France.",
     category: "city-guide",
@@ -63352,7 +63352,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-brioude-2026",
     title: "Things to do in Brioude: Auvergne's largest Romanesque church on the Allier",
-    metaTitle: "Things to Do in Brioude 2026",
+    metaTitle: "Things to Do in Brioude 2027",
     metaDesc:
       "The Saint-Julien basilica, contemporary stained glass, a Compostela stop and the Allier gorges, in Haute-Loire.",
     category: "city-guide",
@@ -63394,7 +63394,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-issoire-2026",
     title: "Things to do in Issoire: a Romanesque abbey church and the gateway to the Sancy",
-    metaTitle: "Things to Do in Issoire 2026",
+    metaTitle: "Things to Do in Issoire 2027",
     metaDesc:
       "The Saint-Austremoine abbey church, the Clock Tower and the Allier valley, in the Puy-de-Dôme.",
     category: "city-guide",
@@ -63436,7 +63436,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-meudon-2026",
     title: "Things to do in Meudon: Rodin's grave, an observatory and a hilltop terrace",
-    metaTitle: "Things to Do in Meudon 2026",
+    metaTitle: "Things to Do in Meudon 2027",
     metaDesc:
       "Rodin's villa and grave, the observatory, the local museum and the forest, in the Hauts-de-Seine.",
     category: "city-guide",
@@ -63552,7 +63552,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-etampes-2026",
     title: "Things to do in Étampes: a royal town with a leaning bell tower",
-    metaTitle: "Things to Do in Étampes 2026",
+    metaTitle: "Things to Do in Étampes 2027",
     metaDesc:
       "Guinette Tower, Notre-Dame-du-Fort, Renaissance mansions and Saint-Martin's leaning tower, in the Essonne.",
     category: "city-guide",
@@ -63610,7 +63610,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-dreux-2026",
     title: "Things to do in Dreux: the Orléans family tombs and a Renaissance belfry",
-    metaTitle: "Things to Do in Dreux 2026",
+    metaTitle: "Things to Do in Dreux 2027",
     metaDesc:
       "The royal chapel of Saint-Louis, the belfry, Saint-Pierre church and the museum, in Eure-et-Loir.",
     category: "city-guide",
@@ -63668,7 +63668,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "things-to-do-in-oyonnax-2026",
     title: "Things to do in Oyonnax: from boxwood combs to plastics",
-    metaTitle: "Things to Do in Oyonnax 2026",
+    metaTitle: "Things to Do in Oyonnax 2027",
     metaDesc:
       "The comb and plastics museum, Plastics Vallée, the 1943 march and the lakes of Haut-Bugey, in the Ain.",
     category: "city-guide",
@@ -65172,7 +65172,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-an-apartment-under-100000-euros-france-2026",
     title: "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
-    metaTitle: "Apartment under €100,000 in France: 108 cities (2026)",
+    metaTitle: "Apartment under €100,000 in France: 108 cities (2027)",
     metaDesc: "108 French cities of 20,000+ people where 45 m² at the median sale price costs under €100,000: which ones, where, and what the low price hides.",
     category: "budget",
     emoji: "🔑",
@@ -65836,8 +65836,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "solar-panels-self-consumption-france-worth-it-2026",
-    title: "Solar panels in France: when self-consumption pays off in 2026",
-    metaTitle: "Solar panels in France: is it worth it in 2026?",
+    title: "Solar panels in France: when self-consumption pays off in 2027",
+    metaTitle: "Solar panels in France: is it worth it in 2027?",
     metaDesc: "How to work out whether rooftop solar pays in France: sunshine by region, cost, self-consumption, feed-in tariff and the door-to-door sales traps.",
     category: "budget",
     emoji: "☀️",
@@ -65922,7 +65922,7 @@ export const EN_GUIDES: EnGuide[] = [
     slug: "freelancing-in-france-choosing-a-city-micro-entrepreneur-2026",
     title: "Freelancing in France: choosing a city as a micro-entrepreneur",
     metaTitle: "Freelancing in France: best cities for micro-entrepreneurs",
-    metaDesc: "As a micro-entrepreneur in France your rent is the cost you control. Business-rates, coworking, freelance networks and cities compared for 2026.",
+    metaDesc: "As a micro-entrepreneur in France your rent is the cost you control. Business-rates, coworking, freelance networks and cities compared for 2027.",
     category: "remote-work",
     emoji: "💼",
     readMinutes: 8,
@@ -66089,7 +66089,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lille-where-to-go-2026",
     title: "Leaving Lille: where people go when the metropolis gets expensive",
-    metaTitle: "Leaving Lille 2026: Arras, Amiens, Reims or Belgium",
+    metaTitle: "Leaving Lille 2027: Arras, Amiens, Reims or Belgium",
     metaDesc:
       "Lille scores 5.7/10 and a three-room flat rents around €1,080. Where people go instead (Arras, Amiens, Reims, the Belgian border) and what each costs.",
     category: "city-guide",
@@ -66131,7 +66131,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-rouen-where-to-go-2026",
     title: "Leaving Rouen: Caen, Le Havre, Évreux or Paris",
-    metaTitle: "Leaving Rouen 2026: Caen, Le Havre, Évreux, Paris",
+    metaTitle: "Leaving Rouen 2027: Caen, Le Havre, Évreux, Paris",
     metaDesc:
       "Rouen scores 5.8/10 and rents a T3 near €950. Where people go: Caen (6.4/10), Le Havre, Évreux, or Paris, with the real price differences.",
     category: "city-guide",
@@ -66173,7 +66173,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-annecy-where-to-go-2026",
     title: "Leaving Annecy: when the lake stops being affordable",
-    metaTitle: "Leaving Annecy 2026: Chambéry, Aix, Thonon, Grenoble",
+    metaTitle: "Leaving Annecy 2027: Chambéry, Aix, Thonon, Grenoble",
     metaDesc:
       "Annecy scores 7.3/10, rents a T3 near €1,450 and buys at about €5,500/m². Cheaper alpine options: Chambéry, Aix-les-Bains, Thonon, Grenoble.",
     category: "city-guide",
@@ -66215,7 +66215,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-clermont-ferrand-where-to-go-2026",
     title: "Leaving Clermont-Ferrand: Vichy, Riom, Issoire or Lyon",
-    metaTitle: "Leaving Clermont-Ferrand 2026: Vichy, Riom, Lyon",
+    metaTitle: "Leaving Clermont-Ferrand 2027: Vichy, Riom, Lyon",
     metaDesc:
       "Clermont-Ferrand scores 6.3/10 and rents a T3 near €900. Alternatives inside Auvergne (Vichy, Riom, Issoire) and the Lyon option, with real price gaps.",
     category: "city-guide",
@@ -66253,7 +66253,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-mulhouse-where-to-go-2026",
     title: "Leaving Mulhouse: Basel, Strasbourg, Colmar or Freiburg",
-    metaTitle: "Leaving Mulhouse 2026: Strasbourg, Colmar, Basel",
+    metaTitle: "Leaving Mulhouse 2027: Strasbourg, Colmar, Basel",
     metaDesc:
       "Mulhouse scores 5.8/10 and rents a T3 near €780. Staying and commuting to Basel, or moving to Strasbourg (7.5/10), Colmar or Freiburg: real price gaps.",
     category: "city-guide",
@@ -66295,7 +66295,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-tours-where-to-go-2026",
     title: "Leaving Tours: Paris, Nantes, Orléans or the Touraine countryside",
-    metaTitle: "Leaving Tours 2026: Nantes, Orléans, Paris, Amboise",
+    metaTitle: "Leaving Tours 2027: Nantes, Orléans, Paris, Amboise",
     metaDesc:
       "Tours scores 6.4/10 and rents a T3 near €940. Where people go: Paris by TGV, Nantes (6.9/10), Orléans or Amboise, with the real price differences.",
     category: "city-guide",
@@ -66337,7 +66337,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-brest-where-to-go-2026",
     title: "Leaving Brest: Rennes, Nantes, Quimper or the south Brittany coast",
-    metaTitle: "Leaving Brest 2026: Rennes, Nantes, Quimper, Vannes",
+    metaTitle: "Leaving Brest 2027: Rennes, Nantes, Quimper, Vannes",
     metaDesc:
       "Brest scores 6.4/10 and rents a T3 near €850. Where people go: Rennes (7.4/10), Nantes, Quimper, Vannes, with the real price differences.",
     category: "city-guide",
@@ -66379,7 +66379,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-limoges-where-to-go-2026",
     title: "Leaving Limoges: Bordeaux, Poitiers, Clermont-Ferrand or Brive",
-    metaTitle: "Leaving Limoges 2026: Bordeaux, Poitiers, Brive",
+    metaTitle: "Leaving Limoges 2027: Bordeaux, Poitiers, Brive",
     metaDesc:
       "Limoges scores 6.1/10 and buys at about €1,600/m², among the cheapest large cities. Where people go: Bordeaux, Poitiers, Clermont-Ferrand, Brive.",
     category: "city-guide",
@@ -66421,7 +66421,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-bayonne-where-to-go-2026",
     title: "Leaving Bayonne: Bordeaux, Pau, the Landes or across the border in Spain",
-    metaTitle: "Leaving Bayonne 2026: Bordeaux, Pau, Landes, Spain",
+    metaTitle: "Leaving Bayonne 2027: Bordeaux, Pau, Landes, Spain",
     metaDesc:
       "Bayonne scores 5.9/10 with a T3 near €1,200 and about €4,500/m² to buy, as dear as Bordeaux. Where locals priced out go: Pau, the Landes, Irun.",
     category: "city-guide",
@@ -66463,7 +66463,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-perpignan-where-to-go-2026",
     title: "Leaving Perpignan: Montpellier, Toulouse, Narbonne, Barcelona or the Catalan hills",
-    metaTitle: "Leaving Perpignan 2026: Montpellier, Toulouse, Narbonne",
+    metaTitle: "Leaving Perpignan 2027: Montpellier, Toulouse, Narbonne",
     metaDesc:
       "Perpignan scores 4.7/10 with a T3 near €870 and about €2,300/m² to buy. Jobs and safety push people out. Where they go: Montpellier, Toulouse, Barcelona.",
     category: "city-guide",
@@ -66505,7 +66505,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-la-rochelle-where-to-go-2026",
     title: "Leaving La Rochelle: Bordeaux, Nantes, Niort or the Charente countryside",
-    metaTitle: "Leaving La Rochelle 2026: Bordeaux, Nantes, Niort",
+    metaTitle: "Leaving La Rochelle 2027: Bordeaux, Nantes, Niort",
     metaDesc:
       "La Rochelle scores 7.2/10 with a T3 near €1,100 and about €4,200/m² to buy. Prices and summer crowds push locals out. Where they go: Niort, Nantes.",
     category: "city-guide",
@@ -66547,7 +66547,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-metz-where-to-go-2026",
     title: "Leaving Metz: Luxembourg, Nancy, Strasbourg or the border towns",
-    metaTitle: "Leaving Metz 2026: Luxembourg, Nancy, Strasbourg",
+    metaTitle: "Leaving Metz 2027: Luxembourg, Nancy, Strasbourg",
     metaDesc:
       "Metz scores 6.0/10 with a T3 near €910 and about €2,300/m² to buy. The pull is Luxembourg pay. Where people go: cross-border, Nancy, Strasbourg, Thionville.",
     category: "city-guide",
@@ -66589,7 +66589,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-nancy-where-to-go-2026",
     title: "Leaving Nancy: Metz, Strasbourg, Paris or the Lorraine countryside",
-    metaTitle: "Leaving Nancy 2026: Metz, Strasbourg, Paris, Épinal",
+    metaTitle: "Leaving Nancy 2027: Metz, Strasbourg, Paris, Épinal",
     metaDesc:
       "Nancy scores 6.2/10 with a T3 near €950 and about €2,400/m² to buy. The limit is the private-sector job market. Where people go: Metz, Strasbourg, Paris.",
     category: "city-guide",
@@ -66631,7 +66631,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-amiens-where-to-go-2026",
     title: "Leaving Amiens: Lille, Paris, Beauvais, Compiègne or the Somme coast",
-    metaTitle: "Leaving Amiens 2026: Lille, Paris, Beauvais, Compiègne",
+    metaTitle: "Leaving Amiens 2027: Lille, Paris, Beauvais, Compiègne",
     metaDesc:
       "Amiens scores 5.3/10 with a T3 near €900 and about €2,200/m² to buy. A narrow job market pushes people out. Where they go: Lille, Paris, Compiègne.",
     category: "city-guide",
@@ -66673,7 +66673,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-caen-where-to-go-2026",
     title: "Leaving Caen: Rouen, Paris, the Normandy coast or the Calvados countryside",
-    metaTitle: "Leaving Caen 2026: Rouen, Paris, Cherbourg, Bayeux",
+    metaTitle: "Leaving Caen 2027: Rouen, Paris, Cherbourg, Bayeux",
     metaDesc:
       "Caen scores 6.4/10 with a T3 near €930 and about €2,500/m² to buy. The limit is the private-sector job market. Where people go: Rouen, Paris, Cherbourg, Bayeux.",
     category: "city-guide",
@@ -66715,7 +66715,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-avignon-where-to-go-2026",
     title: "Leaving Avignon: Aix, Marseille, Montpellier, Nîmes or the Provençal countryside",
-    metaTitle: "Leaving Avignon 2026: Aix, Marseille, Montpellier, Nîmes",
+    metaTitle: "Leaving Avignon 2027: Aix, Marseille, Montpellier, Nîmes",
     metaDesc:
       "Avignon scores 5.6/10 with a T3 near €1,000 and about €3,000/m² to buy. Festival crowds and a narrow job market push people out. Where they go.",
     category: "city-guide",
@@ -66757,7 +66757,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-besancon-where-to-go-2026",
     title: "Leaving Besançon: Dijon, Lyon, Strasbourg, Switzerland or the Jura",
-    metaTitle: "Leaving Besançon 2026: Dijon, Lyon, Switzerland, Jura",
+    metaTitle: "Leaving Besançon 2027: Dijon, Lyon, Switzerland, Jura",
     metaDesc:
       "Besançon scores 6.5/10 with a T3 near €900 and about €2,300/m² to buy. Where people go: Dijon, Lyon, Strasbourg, Swiss border jobs, the Jura.",
     category: "city-guide",
@@ -66799,7 +66799,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-pau-where-to-go-2026",
     title: "Leaving Pau: Bordeaux, Toulouse, the Basque Coast or the Pyrenees valleys",
-    metaTitle: "Leaving Pau 2026: Bordeaux, Toulouse, Bayonne, Tarbes",
+    metaTitle: "Leaving Pau 2027: Bordeaux, Toulouse, Bayonne, Tarbes",
     metaDesc:
       "Pau scores 6.4/10 with a T3 near €900 and about €2,400/m² to buy. A job market built around one employer pushes people out. Where they go.",
     category: "city-guide",
@@ -66980,8 +66980,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-metz-2026",
-    title: "Moving to Metz in 2026: Luxembourg commuters and a limestone old town",
-    metaTitle: "Moving to Metz 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Metz in 2027: Luxembourg commuters and a limestone old town",
+    metaTitle: "Moving to Metz 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Metz: a two-room flat at €680, Luxembourg 45 minutes by train, a medieval centre that needs a permit on moving day, and what landing costs.",
     category: "moving",
@@ -67030,8 +67030,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-nancy-2026",
-    title: "Moving to Nancy in 2026: a UNESCO square and 48,000 students",
-    metaTitle: "Moving to Nancy 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Nancy in 2027: a UNESCO square and 48,000 students",
+    metaTitle: "Moving to Nancy 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Nancy: a two-room flat at €710, TGV to Paris in 1 h 30, an Art Nouveau centre with moving-day permits, and a realistic landing budget.",
     category: "moving",
@@ -67080,8 +67080,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-saint-etienne-2026",
-    title: "Moving to Saint-Étienne in 2026: the cheapest big city, and its hills",
-    metaTitle: "Moving to Saint-Étienne 2026 — Rents, Costs, Hills",
+    title: "Moving to Saint-Étienne in 2027: the cheapest big city, and its hills",
+    metaTitle: "Moving to Saint-Étienne 2027 — Rents, Costs, Hills",
     metaDesc:
       "Moving to Saint-Étienne: a two-room flat at €580, three tram lines, a valley city with steep streets, and the cost of landing in France's cheapest big city.",
     category: "moving",
@@ -67130,8 +67130,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-brest-2026",
-    title: "Moving to Brest in 2026: rain, wind and a very easy rental market",
-    metaTitle: "Moving to Brest 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Brest in 2027: rain, wind and a very easy rental market",
+    metaTitle: "Moving to Brest 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Brest: a two-room flat at €650, a city split by the Penfeld, wind that can stop a removal, and a realistic landing budget in Brittany.",
     category: "moving",
@@ -67180,8 +67180,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-amiens-2026",
-    title: "Moving to Amiens in 2026: Gothic cathedral, canals and Paris in an hour",
-    metaTitle: "Moving to Amiens 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Amiens in 2027: Gothic cathedral, canals and Paris in an hour",
+    metaTitle: "Moving to Amiens 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Amiens: a two-room flat at €680, Paris in 1 h 05 by TER, the canal district Saint-Leu on moving day, and what landing really costs.",
     category: "moving",
@@ -67230,8 +67230,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-orleans-2026",
-    title: "Moving to Orléans in 2026: an hour from Paris, with the Loire to watch",
-    metaTitle: "Moving to Orléans 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Orléans in 2027: an hour from Paris, with the Loire to watch",
+    metaTitle: "Moving to Orléans 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Orléans: a two-room flat at €700, Paris in about an hour by TER, two tram lines, flood-zone and heritage traps, and what landing costs.",
     category: "moving",
@@ -67280,8 +67280,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-le-mans-2026",
-    title: "Moving to Le Mans in 2026: an hour from Paris, with a race week to plan around",
-    metaTitle: "Moving to Le Mans 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Le Mans in 2027: an hour from Paris, with a race week to plan around",
+    metaTitle: "Moving to Le Mans 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Le Mans: a two-room flat at €650, Paris in about 55 minutes by TGV, a walled old town, a June race week to avoid, and what landing costs.",
     category: "moving",
@@ -67330,8 +67330,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-perpignan-2026",
-    title: "Moving to Perpignan in 2026: Catalan sun, cheap rents, a long way from Paris",
-    metaTitle: "Moving to Perpignan 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Perpignan in 2027: Catalan sun, cheap rents, a long way from Paris",
+    metaTitle: "Moving to Perpignan 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Perpignan: a two-room flat at €650, buying near €2,300/m², Catalan old town, wind and sun, and what landing costs. A practical guide.",
     category: "moving",
@@ -67430,8 +67430,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-argenteuil-2026",
-    title: "Moving to Argenteuil in 2026: Paris in 15 minutes by train, at a lower rent",
-    metaTitle: "Moving to Argenteuil 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Argenteuil in 2027: Paris in 15 minutes by train, at a lower rent",
+    metaTitle: "Moving to Argenteuil 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Argenteuil: a two-room flat at €900, buying near €3,600/m², a direct train to Saint-Lazare, the Seine's impressionist bank, and landing costs.",
     category: "moving",
@@ -67480,8 +67480,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-nanterre-2026",
-    title: "Moving to Nanterre in 2026: La Défense next door, at a Paris-suburb price",
-    metaTitle: "Moving to Nanterre 2026 — Rents, Costs, Moving Day",
+    title: "Moving to Nanterre in 2027: La Défense next door, at a Paris-suburb price",
+    metaTitle: "Moving to Nanterre 2027 — Rents, Costs, Moving Day",
     metaDesc:
       "Moving to Nanterre: a two-room flat at €1,050, buying near €5,000/m², RER A to La Défense, a big university, a stadium next door, and landing costs.",
     category: "moving",
@@ -67530,8 +67530,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "moving-to-boulogne-billancourt-2026",
-    title: "Moving to Boulogne-Billancourt in 2026: the chic suburb with two metro lines",
-    metaTitle: "Moving to Boulogne-Billancourt 2026 — Rents, Costs",
+    title: "Moving to Boulogne-Billancourt in 2027: the chic suburb with two metro lines",
+    metaTitle: "Moving to Boulogne-Billancourt 2027 — Rents, Costs",
     metaDesc:
       "Moving to Boulogne-Billancourt: a two-room flat at €1,400, buying near €7,200/m², metro lines 9 and 10, the Renault island, and what landing costs.",
     category: "moving",
@@ -67581,7 +67581,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-arles-where-to-go-2026",
     title: "Leaving Arles: Avignon, Nîmes, Montpellier or the Alpilles",
-    metaTitle: "Leaving Arles 2026: Avignon, Nîmes, Montpellier, Alpilles",
+    metaTitle: "Leaving Arles 2027: Avignon, Nîmes, Montpellier, Alpilles",
     metaDesc:
       "Arles scores 5.2/10 with a T3 near €930 and about €3,200/m² to buy. Seasonal jobs and summer heat push people out. Where they go: Avignon, Nîmes, Montpellier.",
     category: "city-guide",
@@ -67623,7 +67623,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-chambery-where-to-go-2026",
     title: "Leaving Chambéry: Grenoble, Lyon, Annecy or Aix-les-Bains",
-    metaTitle: "Leaving Chambéry 2026: Grenoble, Lyon, Annecy",
+    metaTitle: "Leaving Chambéry 2027: Grenoble, Lyon, Annecy",
     metaDesc:
       "Chambéry scores 6.5/10 with a T3 near €1,100 and about €3,600/m² to buy. A provincial job market is the main limit. Where people go: Grenoble, Lyon, Annecy.",
     category: "city-guide",
@@ -67665,7 +67665,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-chartres-where-to-go-2026",
     title: "Leaving Chartres: Orléans, Tours, Rambouillet or Vendôme",
-    metaTitle: "Leaving Chartres 2026: Orléans, Tours, Rambouillet",
+    metaTitle: "Leaving Chartres 2027: Orléans, Tours, Rambouillet",
     metaDesc:
       "Chartres scores 6.0/10 with a T3 near €890 and about €2,500/m² to buy. Commuters to Paris are the main leavers. Where they go: Orléans, Tours, Rambouillet.",
     category: "city-guide",
@@ -67707,7 +67707,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-colmar-where-to-go-2026",
     title: "Leaving Colmar: Strasbourg, Mulhouse, Besançon or Basel",
-    metaTitle: "Leaving Colmar 2026: Strasbourg, Mulhouse, Besançon",
+    metaTitle: "Leaving Colmar 2027: Strasbourg, Mulhouse, Besançon",
     metaDesc:
       "Colmar scores 6.4/10 with a T3 near €1,000 and about €3,000/m² to buy. Tourist saturation and a narrow job market push people out. Where they go.",
     category: "city-guide",
@@ -67749,7 +67749,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-lorient-where-to-go-2026",
     title: "Leaving Lorient: Vannes, Rennes, Quimper or Brest",
-    metaTitle: "Leaving Lorient 2026: Vannes, Rennes, Quimper, Brest",
+    metaTitle: "Leaving Lorient 2027: Vannes, Rennes, Quimper, Brest",
     metaDesc:
       "Lorient scores 6.1/10 with a T3 near €900 and about €2,800/m² to buy. A narrow job market is the main limit. Where people go: Vannes, Rennes, Quimper, Brest.",
     category: "city-guide",
@@ -67791,7 +67791,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-orleans-where-to-go-2026",
     title: "Leaving Orléans: Tours, Paris, Blois or Nantes",
-    metaTitle: "Leaving Orléans 2026: Tours, Paris, Blois, Nantes",
+    metaTitle: "Leaving Orléans 2027: Tours, Paris, Blois, Nantes",
     metaDesc:
       "Orléans scores 5.8/10 with a T3 near €930 and about €2,400/m² to buy. Too close to Paris to stand alone. Where people go: Tours, Paris, Blois, Nantes.",
     category: "city-guide",
@@ -67833,7 +67833,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-poitiers-where-to-go-2026",
     title: "Leaving Poitiers: La Rochelle, Tours, Bordeaux or Niort",
-    metaTitle: "Leaving Poitiers 2026: La Rochelle, Tours, Bordeaux",
+    metaTitle: "Leaving Poitiers 2027: La Rochelle, Tours, Bordeaux",
     metaDesc:
       "Poitiers scores 6.1/10 with a T3 near €880 and about €2,100/m² to buy. A narrow job market pushes graduates out. Where they go: La Rochelle, Tours, Bordeaux.",
     category: "city-guide",
@@ -67875,7 +67875,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-troyes-where-to-go-2026",
     title: "Leaving Troyes: Reims, Dijon, Sens or Paris",
-    metaTitle: "Leaving Troyes 2026: Reims, Dijon, Sens, Paris",
+    metaTitle: "Leaving Troyes 2027: Reims, Dijon, Sens, Paris",
     metaDesc:
       "Troyes scores 6.2/10 with a T3 near €860 and about €2,000/m² to buy. Graduates leave for lack of senior jobs. Where they go: Reims, Dijon, Sens, Paris.",
     category: "city-guide",
@@ -67917,7 +67917,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-valence-where-to-go-2026",
     title: "Leaving Valence: Grenoble, Lyon, Montélimar or Montpellier",
-    metaTitle: "Leaving Valence 2026: Grenoble, Lyon, Montélimar",
+    metaTitle: "Leaving Valence 2027: Grenoble, Lyon, Montélimar",
     metaDesc:
       "Valence scores 6.3/10 with a T3 near €900 and about €2,400/m² to buy. A narrow job market and transit-town feel push people out. Where they go.",
     category: "city-guide",
@@ -67959,7 +67959,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "leaving-vannes-where-to-go-2026",
     title: "Leaving Vannes: Lorient, Brest, Saint-Brieuc or Rennes",
-    metaTitle: "Leaving Vannes 2026: Lorient, Brest, Saint-Brieuc, Rennes",
+    metaTitle: "Leaving Vannes 2027: Lorient, Brest, Saint-Brieuc, Rennes",
     metaDesc:
       "Vannes scores 6.9/10 with a T3 near €1,150 and about €3,900/m² to buy. Prices outpace local wages. Where people go: Lorient, Brest, Saint-Brieuc, Rennes.",
     category: "city-guide",
@@ -68317,7 +68317,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "buying-a-home-unmarried-couple-france-pacs-indivision-sci-2026",
     title: "Buying a home in France as an unmarried couple: PACS, indivision or SCI",
-    metaTitle: "Buying in France as an Unmarried Couple (2026)",
+    metaTitle: "Buying in France as an Unmarried Couple (2027)",
     metaDesc:
       "Unmarried and buying together in France? How indivision, PACS, SCI and marriage compare on death, break-up and tax, and what to sort out before the compromis.",
     category: "moving",
@@ -68422,7 +68422,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "participatory-housing-and-coliving-france-2026",
     title: "Participatory housing and coliving in France: models, cities and trade-offs",
-    metaTitle: "Participatory Housing & Coliving in France (2026)",
+    metaTitle: "Participatory Housing & Coliving in France (2027)",
     metaDesc:
       "Habitat participatif and coliving in France: how the legal models work, which cities have the strongest scene, who each suits, and the catches to check first.",
     category: "lifestyle",
@@ -68472,8 +68472,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-cities-access-to-gps-measured-413-cities-2026",
-    title: "Access to a GP in 413 French cities: the measured ranking (2026)",
-    metaTitle: "GP access by French city: ranking of 413 cities (2026)",
+    title: "Access to a GP in 413 French cities: the measured ranking (2027)",
+    metaTitle: "GP access by French city: ranking of 413 cities (2027)",
     metaDesc: "Villenave-d'Ornon 8.67, Bayonne 6.66, Houilles 1.15: access to general practitioners (DREES APL 2024) in 413 French cities, with ERs and pharmacies.",
     category: "lifestyle",
     emoji: "🩺",
@@ -68577,7 +68577,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "landlord-rent-guarantee-gli-vs-visale-france-2026",
     title: "Unpaid-rent cover in France: GLI insurance vs the Visale state guarantee",
-    metaTitle: "GLI vs Visale 2026: Unpaid-Rent Cover in France",
+    metaTitle: "GLI vs Visale 2027: Unpaid-Rent Cover in France",
     metaDesc:
       "Landlords in France: GLI private unpaid-rent insurance vs the free Visale state guarantee. Who is eligible, what each covers, cost, and how to choose.",
     category: "budget",
@@ -68623,7 +68623,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "scpi-vs-buying-to-let-france-2026",
     title: "SCPI or buying to let in France: how the two property routes compare",
-    metaTitle: "SCPI vs Buy-to-Let in France: Which Suits You (2026)",
+    metaTitle: "SCPI vs Buy-to-Let in France: Which Suits You (2027)",
     metaDesc:
       "SCPI property funds vs buying a flat to rent in France: entry cost, fees, tax, liquidity and time spent. A plain comparison by investor profile.",
     category: "budget",
@@ -68828,8 +68828,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-cities-poverty-rate-and-living-standards-409-cities-2026",
-    title: "Poverty rate and living standards in 409 French cities (2026)",
-    metaTitle: "Poverty rate by French city: ranking of 409 cities (2026)",
+    title: "Poverty rate and living standards in 409 French cities (2027)",
+    metaTitle: "Poverty rate by French city: ranking of 409 cities (2027)",
     metaDesc: "Maisons-Laffitte 6%, Roubaix 46%: poverty rate and median living standard (INSEE, Filosofi 2021) in 409 French cities, by region and size.",
     category: "lifestyle",
     emoji: "💶",
@@ -69094,8 +69094,8 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-cities-salaries-highest-and-lowest-358-cities-2026",
-    title: "Average net salary by city: ranking of 358 French job markets (2026)",
-    metaTitle: "Average salary by French city: 358 cities ranked (2026)",
+    title: "Average net salary by city: ranking of 358 French job markets (2027)",
+    metaTitle: "Average salary by French city: 358 cities ranked (2027)",
     metaDesc: "Saint-Germain-en-Laye €5,422, Le Tampon €1,931: average net salary by city of work (INSEE, 2024), by region and size, set against a 3-room rent.",
     category: "budget",
     emoji: "💼",
@@ -69960,7 +69960,7 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "where-to-live-in-france-after-divorce-or-separation-2026",
-    title: "Where to Live in France After a Divorce or Separation (2026)",
+    title: "Where to Live in France After a Divorce or Separation (2027)",
     metaTitle: "Where to Live in France After a Divorce or Separation",
     metaDesc:
       "One income, a flat to find fast, maybe shared custody. What to weigh when choosing a French city after a split, which mistakes to avoid, and which aid to claim.",
@@ -70087,7 +70087,7 @@ export const EN_GUIDES: EnGuide[] = [
 
   {
     slug: "buying-property-in-france-after-50-strategy-2026",
-    title: "Buying Property in France After 50 (2026): Shorter Loans, Downsizing, Passing It On",
+    title: "Buying Property in France After 50 (2027): Shorter Loans, Downsizing, Passing It On",
     metaTitle: "Buying Property in France After 50: Loans & Estate Plan",
     metaDesc:
       "Buying in France after 50: loan terms and borrower insurance by age, downsizing, usufruct, gifts, life-insurance allowance and viager, by profile.",
@@ -70285,9 +70285,9 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "buying-barn-to-convert-france-2026",
-    title: "Buying a barn to convert in France 2026: planning, costs, regions",
+    title: "Buying a barn to convert in France 2027: planning, costs, regions",
     metaTitle: "Buying a barn to convert in France: permit, costs, regions",
-    metaDesc: "Converting a French barn into a home: change-of-use rules, the CUb check, a realistic budget and the pitfalls that sink projects. 2026 guide.",
+    metaDesc: "Converting a French barn into a home: change-of-use rules, the CUb check, a realistic budget and the pitfalls that sink projects. 2027 guide.",
     category: "lifestyle",
     emoji: "🏚️",
     readMinutes: 8,
@@ -70814,7 +70814,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "living-near-motorway-or-tgv-line-france-noise-2026",
     title: "Living near a motorway or TGV line in France: noise, air, access",
-    metaTitle: "Living Near a Motorway or TGV Line in France: Noise (2026)",
+    metaTitle: "Living Near a Motorway or TGV Line in France: Noise (2027)",
     metaDesc: "What a motorway or high-speed rail line does to a home in France: noise zones, air quality, resale value, and how to check before you buy.",
     category: "lifestyle",
     emoji: "🚄",
@@ -70844,7 +70844,7 @@ export const EN_GUIDES: EnGuide[] = [
   {
     slug: "pel-cel-per-saving-for-a-french-home-deposit-2026",
     title: "PEL, CEL and PER: using French savings plans for a home deposit",
-    metaTitle: "PEL, CEL, PER: Saving for a French Home Deposit (2026)",
+    metaTitle: "PEL, CEL, PER: Saving for a French Home Deposit (2027)",
     metaDesc: "How the PEL, CEL and PER savings plans work when buying a home in France, which still make sense, and what to check before you rely on one.",
     category: "budget",
     emoji: "💳",
@@ -70987,7 +70987,7 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "french-cities-without-emergency-room-distance-to-hospital-591-cities-2026",
-    title: "French cities with no emergency room: 242 cities, 42 more than 10 km away (2026)",
+    title: "French cities with no emergency room: 242 cities, 42 more than 10 km away (2027)",
     metaTitle: "Cities with no ER in France: 242 of 591, 42 beyond 10 km",
     metaDesc: "242 of 591 French cities have no emergency department; 42 sit 10 km or more from the nearest one, from La Souterraine (31.5 km) to Hendaye (10.9 km).",
     category: "lifestyle",

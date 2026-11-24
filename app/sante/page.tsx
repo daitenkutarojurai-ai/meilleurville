@@ -15,7 +15,7 @@ import { clampMeta } from "@/lib/brand";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Accès aux soins 2026 · Villes bien dotées, déserts médicaux",
+  title: "Accès aux soins 2027 · Villes bien dotées, déserts médicaux",
   description:
     clampMeta("Classement des villes françaises selon l'accès aux soins : généralistes, spécialistes, urgences, pharmacies. Top 30 meilleur accès, top 20 accès difficile."),
   alternates: pathAlternates("/sante", "/healthcare"),

@@ -32,7 +32,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   teletravail: {
     label: "Remote work",
     tagline: "Fibre, coworking, cost-of-life vs salary.",
-    headline: "Best French cities for remote work in 2026",
+    headline: "Best French cities for remote work in 2027",
     description:
       "Ranking of French cities for remote workers: fibre coverage, coworking spaces, cost of living vs salary, quality of life, and digital-nomad community.",
     methodology:
@@ -48,7 +48,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   famille: {
     label: "Families",
     tagline: "Schools, parks, paediatric coverage.",
-    headline: "Best French cities for families in 2026",
+    headline: "Best French cities for families in 2027",
     description:
       "Ranking of French cities to raise kids in: schools, safety, green space, housing affordability, and access to paediatric care.",
     methodology: "Composite score: Schools (×3), Safety (×2.5), Nature (×2), Cost (×1.5), Transport (×1).",
@@ -231,7 +231,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   logement: {
     label: "Housing affordability",
     tagline: "Rent and purchase price vs local wages.",
-    headline: "French cities where housing remains affordable in 2026",
+    headline: "French cities where housing remains affordable in 2027",
     description:
       "Ranking based on our rent and price-per-m² benchmarks (T1/T2/T3): where your housing budget goes furthest without sacrificing quality of life. Editorial benchmarks calibrated against the Observatoires Locaux des Loyers, not DVF transaction medians.",
     methodology:
@@ -247,7 +247,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   "jeunes-actifs": {
     label: "Young professionals",
     tagline: "Job market, TGV links, nightlife, entry-level rent.",
-    headline: "Best French cities for young professionals in 2026",
+    headline: "Best French cities for young professionals in 2027",
     description:
       "Ranking of French cities to start or restart a career: density of professionals, TGV mobility, cultural scene, pro community, cost of living compatible with an entry salary.",
     methodology:
@@ -264,7 +264,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   gastronomie: {
     label: "Food & dining",
     tagline: "Restaurants, markets, regional specialities.",
-    headline: "Best French cities for food in 2026",
+    headline: "Best French cities for food in 2027",
     description:
       "Ranking of French cities to eat well: density of restaurants, Michelin stars and Bib Gourmand 2025, AOC/AOP terroir, and regional culinary tradition.",
     methodology:
@@ -296,7 +296,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   cyclistes: {
     label: "Cycling & bike-friendly",
     tagline: "Bike-lane kilometres, network continuity, secure parking.",
-    headline: "Best French cities for cyclists in 2026",
+    headline: "Best French cities for cyclists in 2027",
     description:
       "Ranking of the most cycle-friendly French cities: kilometres of bike lanes, real perceived safety, network continuity, secure parking, and local cycling policy.",
     methodology:
@@ -314,7 +314,7 @@ export const RANKING_EN: Record<string, RankingEn> = {
   "bord-de-mer": {
     label: "Seaside living",
     tagline: "Coastal cities you can live in year-round.",
-    headline: "Best French seaside cities to live in (2026)",
+    headline: "Best French seaside cities to live in (2027)",
     description:
       "Ranking of French cities by the Atlantic, Mediterranean, Channel or North Sea — places where you can actually live year-round without becoming a tourist on your own street.",
     methodology:

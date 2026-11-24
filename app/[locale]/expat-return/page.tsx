@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Moving back to France as an expat 2026 · Practical guide",
+  title: "Moving back to France as an expat 2027 · Practical guide",
   description:
     "Returning to France from Switzerland, Luxembourg, Belgium, UK or Canada? Salary / cost of living / tax / admin comparison by country + quiz + city suggestions.",
   alternates: pathAlternatesEn("/expat-retour", "/expat-return"),

@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = macroLabelEn(macro.slug, macro.label);
   return {
-    title: fitTitle(`Sport-friendly cities · ${label} 2026`),
+    title: fitTitle(`Sport-friendly cities · ${label} 2027`),
     description: `Composite sport & leisure ranking (facilities, outdoor, clubs, climate) restricted to cities in the ${label} macro-region. Most sport-friendly vs least sport-friendly.`,
     alternates: pathAlternatesEn(`/sport/${macro.slug}`, `/sport/${macro.slug}`),
     openGraph: {

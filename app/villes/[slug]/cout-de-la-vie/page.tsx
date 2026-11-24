@@ -38,14 +38,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!city) return {};
   const score = city.scores.cost;
   return {
-    title: fitTitle(`Coût de la vie à ${city.name} en 2026 — loyers, achat, budget`),
-    description: `Ce que coûte vraiment vivre à ${city.name} en 2026 : loyer T2, prix au m², et budget mensuel réaliste. Score coût ${score.toFixed(1)}/10.`,
+    title: fitTitle(`Coût de la vie à ${city.name} en 2027 — loyers, achat, budget`),
+    description: `Ce que coûte vraiment vivre à ${city.name} en 2027 : loyer T2, prix au m², et budget mensuel réaliste. Score coût ${score.toFixed(1)}/10.`,
     alternates: cityAlternates("cout-de-la-vie", slug),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
       // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
       images: ["/opengraph-image"],
-      title: `Coût de la vie à ${city.name} · Budget mensuel 2026`,
+      title: `Coût de la vie à ${city.name} · Budget mensuel 2027`,
       description: `Loyers, prix d'achat et budget réaliste à ${city.name}. Sources : DVF + observatoires locaux des loyers.`,
     },
   };

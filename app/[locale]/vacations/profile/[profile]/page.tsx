@@ -41,31 +41,31 @@ export function generateStaticParams() {
 const EN_PROFILE_DEFS: Record<VacationProfile, { intro: string; metaDesc: string }> = {
   famille: {
     intro: "Day-to-day safety, activities to keep children occupied, restaurants that actually work with kids. The destinations ranked here deliver all three — no agency top-10.",
-    metaDesc: "Family holidays in France 2026: safe destinations, easy with children, manageable budget. Beach, parks, activities.",
+    metaDesc: "Family holidays in France 2027: safe destinations, easy with children, manageable budget. Beach, parks, activities.",
   },
   monoparental: {
     intro: "One adult, one or more children, one budget. Ranked on what matters when nobody takes over: getting around on foot or by public transport, activities for children within reach, and a cost that doesn't double because you're travelling alone with them.",
-    metaDesc: "Single-parent holidays in France 2026: destinations that work without a car, activities for children, single-income budgets. Ranked on real data.",
+    metaDesc: "Single-parent holidays in France 2027: destinations that work without a car, activities for children, single-income budgets. Ranked on real data.",
   },
   couple: {
     intro: "Restaurants, cultural scene, walks for two. The towns that lend themselves to a romantic long weekend without falling into clichés.",
-    metaDesc: "Couple holidays in France 2026: romantic destinations, gastronomy, cultural atmosphere. Away from tourist traps.",
+    metaDesc: "Couple holidays in France 2027: romantic destinations, gastronomy, cultural atmosphere. Away from tourist traps.",
   },
   solo: {
     intro: "Safety (women travelling alone included), good transport options, enough cultural life to stay entertained. The cities where travelling alone is genuinely comfortable.",
-    metaDesc: "Solo travel in France 2026: safe destinations, dense cultural scene, accessible by train.",
+    metaDesc: "Solo travel in France 2027: safe destinations, dense cultural scene, accessible by train.",
   },
   celibataire: {
     intro: "Different from travelling solo: here you want people around. Density of bars, terraces and cultural scene, and towns lively enough off-season that you don't end up alone in an empty resort in October.",
-    metaDesc: "Holidays for singles in France 2026: lively towns, dense nightlife and cultural scene, easy to reach by train. Ranked on real data.",
+    metaDesc: "Holidays for singles in France 2027: lively towns, dense nightlife and cultural scene, easy to reach by train. Ranked on real data.",
   },
   amis: {
     intro: "Bars, restaurants, nightlife, shared budget. The destinations that handle a group of 4–8 without breaking the bank.",
-    metaDesc: "Group holidays in France 2026: destinations with nightlife, restaurants, manageable budget. Coast, mountains, city breaks.",
+    metaDesc: "Group holidays in France 2027: destinations with nightlife, restaurants, manageable budget. Coast, mountains, city breaks.",
   },
   seniors: {
     intro: "Mild climate, accessibility, calm, healthcare nearby. No \"senior\" marketing — just the cities where day-to-day life feels genuinely relaxed.",
-    metaDesc: "Senior holidays in France 2026: calm destinations, mild climate, accessibility, health infrastructure.",
+    metaDesc: "Senior holidays in France 2027: calm destinations, mild climate, accessibility, health infrastructure.",
   },
 };
 
@@ -75,7 +75,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const enDef = EN_PROFILE_DEFS[profile as VacationProfile];
   const enLabel = EN_PROFILE_LABEL[profile as VacationProfile];
   return {
-    title: fitTitle(`${enLabel} holidays in France 2026 · top destinations`),
+    title: fitTitle(`${enLabel} holidays in France 2027 · top destinations`),
     description: enDef.metaDesc,
     // Réciproque du hreflang de /vacances/profil/[profil]. Le segment est le
     // même des deux côtés : cette route sert les slugs FR sur le domaine

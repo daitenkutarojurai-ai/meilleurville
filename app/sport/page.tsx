@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     // Sans `images`, un openGraph de page remplace celui hérité de la racine
     // — la carte sociale disparaissait entièrement au lieu de retomber dessus.
     images: ["/opengraph-image"],
-    title: "Villes sportives en France 2026",
+    title: "Villes sportives en France 2027",
     description:
       "Top 30 villes où la pratique sportive est facile vs. top 20 où elle reste contraignante. INJEP · RES · CREPS · DRAJES.",
   },

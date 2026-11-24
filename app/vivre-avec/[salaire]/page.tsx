@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const salary = parseSalaryFromSlug(salaire);
   if (!salary) return {};
   return {
-    title: fitTitle(`Vivre avec ${salary} €/mois en France 2026 · Top 10 villes adaptées`),
+    title: fitTitle(`Vivre avec ${salary} €/mois en France 2027 · Top 10 villes adaptées`),
     description: `Salaire net ${salary} €/mois : où vivre confortablement en France ? Top 10 villes compatibles avec budget logement ${Math.round(salary * 0.33)} €, calcul du reste à vivre + comparatif Paris.`,
     alternates: pathAlternates(`/vivre-avec/${salaire}`, `/living-on/${salaire}`),
     openGraph: {

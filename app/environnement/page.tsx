@@ -15,7 +15,7 @@ import { clampMeta } from "@/lib/brand";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Villes les plus saines de France · Index 2026",
+  title: "Villes les plus saines de France · Index 2027",
   description:
     clampMeta("Classement national des villes françaises selon leur santé environnementale : qualité de l'air, bruit, stress hydrique, risques naturels. Top 30 villes les plus saines + top 20 villes les plus exposées. Méthodologie publique."),
   alternates: pathAlternates("/environnement", "/environment"),

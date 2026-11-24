@@ -38,7 +38,7 @@ import {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Villes entourées d'espaces naturels protégés — 2026",
+  title: "Villes entourées d'espaces naturels protégés — 2027",
   description:
     `Part du rayon de 15 km sous protection réglementaire autour des ${PROTECTION_RANKED_COUNT} villes du site : réserves, parcs nationaux et régionaux, Natura 2000, arrêtés de biotope.`,
   alternates: pathAlternates("/espaces-proteges", "/protected-areas"),

@@ -10,7 +10,7 @@ import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "Quiz vacances en France 2026 · où partir selon votre profil",
+  title: "Quiz vacances en France 2027 · où partir selon votre profil",
   description: "5 questions, 3 destinations françaises adaptées : mois, activité, profil voyageur, budget, durée. Sélection data-driven, sans listicle d'agence.",
   // ⚠️ Pas de hreflang ici, et c'est volontaire : **il n'existe pas de
   // `/vacations/quiz`**. Le reste de la famille vacances déclare sa paire

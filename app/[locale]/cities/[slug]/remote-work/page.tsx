@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = CITIES_SEED.find((x) => x.slug === slug);
   if (!c) return {};
   return {
-    title: fitTitle(`Working remotely from ${c.name} — fibre, coworking, real cost (2026)`),
+    title: fitTitle(`Working remotely from ${c.name} — fibre, coworking, real cost (2027)`),
     description: `${c.name} for remote work: fibre coverage, quality-of-life score, monthly remote-worker budget and the ideal profile. Built on calibrated city data.`,
     alternates: cityAlternatesEn("remote-work", slug),
   };

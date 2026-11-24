@@ -35,7 +35,7 @@ export async function generateMetadata({
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Risques naturels · ${macro.label} 2026`),
+    title: fitTitle(`Risques naturels · ${macro.label} 2027`),
     description: `Inondation, sismicité, argile, feux de forêt dans les villes de ${macro.label}. Top 15 les plus exposées vs top 10 les plus tranquilles.`,
     alternates: pathAlternates(`/risques/${macro.slug}`, `/natural-risks/${macro.slug}`),
     openGraph: {

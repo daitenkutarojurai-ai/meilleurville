@@ -48,7 +48,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!macro) return {};
   const label = EN_MACRO_LABEL[macroregion] ?? macro.label;
   return {
-    title: fitTitle(`Safety — ${label} 2026`),
+    title: fitTitle(`Safety — ${label} 2027`),
     description: `Composite safety ranking (property crime, personal crime, night-time, domestic violence) for cities in the ${label} macro-region. Quietest vs most tense cities.`,
     alternates: pathAlternatesEn(`/securite/${macro.slug}`, `/safety/${macro.slug}`),
     openGraph: {

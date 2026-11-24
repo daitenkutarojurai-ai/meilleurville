@@ -61,7 +61,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const r = slugToRegion(region, ALL_REGIONS);
   if (!r) return {};
   return {
-    title: fitTitle(`Vacances en ${r} 2026 · top destinations`),
+    title: fitTitle(`Vacances en ${r} 2027 · top destinations`),
     description: `Où partir en vacances en ${r} : top destinations classées, meilleurs mois, activités phares. ${REGION_TAGLINES[r] ?? ""}`,
     alternates: pathAlternates(`/vacances/region/${region}`, `/vacations/region/${region}`),
     openGraph: {

@@ -27,7 +27,7 @@ export const revalidate = false;
 const EN_BASE = ORIGIN_BY_LOCALE.en;
 
 export const metadata: Metadata = {
-  title: "Where to go on holiday in France 2026 · month-by-month guide",
+  title: "Where to go on holiday in France 2027 · month-by-month guide",
   description: `Honest rankings of ${CITIES_COUNT} French cities for your holiday: beach, mountains, city breaks, wine regions. Real climate data, crowd levels, budget.`,
   alternates: pathAlternatesEn("/vacances", "/vacations"),
   openGraph: {

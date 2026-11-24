@@ -14,7 +14,7 @@ import { CITIES_COUNT } from "@/lib/site-stats";
 import { pathAlternates } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "Salaire équivalent entre villes · Calculateur 2026",
+  title: "Salaire équivalent entre villes · Calculateur 2027",
   description: `Combien gagner dans une autre ville pour garder le même reste à vivre ? Calculateur interactif ${CITIES_COUNT} villes françaises. Loyer, mobilité, taxes inclus.`,
   alternates: pathAlternates("/salaire-equivalent", "/salary-equivalent"),
 };

@@ -36,7 +36,7 @@ export async function generateMetadata({
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Couverture commerciale · ${macro.label} 2026`),
+    title: fitTitle(`Couverture commerciale · ${macro.label} 2027`),
     description: `Offre commerciale des villes de ${macro.label} : densité, proximité, grandes surfaces, centre-ville. Estimé, pas un décompte terrain.`,
     alternates: pathAlternates(`/commerces/${macro.slug}`, `/retail-coverage/${macro.slug}`),
     openGraph: {

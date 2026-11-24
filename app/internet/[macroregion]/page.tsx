@@ -32,7 +32,7 @@ export async function generateMetadata({
   const macro = getMacroRegion(macroregion);
   if (!macro) return {};
   return {
-    title: fitTitle(`Couverture internet · ${macro.label} 2026`),
+    title: fitTitle(`Couverture internet · ${macro.label} 2027`),
     description: `Couverture fibre des villes de ${macro.label} : où le FTTH est généralisé vs où la connexion reste précaire. Estimation régionale ARCEP T4 2024.`,
     alternates: pathAlternates(`/internet/${macro.slug}`, `/internet-quality/${macro.slug}`),
     openGraph: {

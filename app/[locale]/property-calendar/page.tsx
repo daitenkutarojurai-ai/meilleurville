@@ -12,7 +12,7 @@ export async function generateStaticParams() {
 export const revalidate = false;
 
 export const metadata: Metadata = {
-  title: "French property calendar 2026 · When to buy, sell or move",
+  title: "French property calendar 2027 · When to buy, sell or move",
   description:
     "Best months to buy, sell, rent or move in France: month-by-month seasonality of the property market, from notaires.fr, SeLoger and OLAP patterns.",
   alternates: pathAlternatesEn("/calendrier-immobilier", "/property-calendar"),

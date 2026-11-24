@@ -80,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!parsed) return {};
   const { a, b } = parsed;
   return {
-    title: fitTitle(`${a} vs ${b} · Comparatif régions 2026`),
+    title: fitTitle(`${a} vs ${b} · Comparatif régions 2027`),
     description: clampMeta(`Comparaison complète entre ${a} et ${b} : coût de la vie, climat, immobilier, scores qualité de vie, meilleures villes. Données calibrées sur les ${CITIES_COUNT} villes du site.`),
     alternates: pathAlternates(`/comparer-regions/${pair}`, `/compare-regions/${pair}`),
     openGraph: {

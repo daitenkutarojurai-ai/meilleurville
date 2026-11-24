@@ -104,7 +104,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!r) return {};
   const tagline = REGION_EN_TAGLINES[r] ?? "";
   return {
-    title: fitTitle(`Holidays in ${r} 2026 · top destinations`),
+    title: fitTitle(`Holidays in ${r} 2027 · top destinations`),
     description: `Where to go on holiday in ${r}: top destinations ranked, best months, key activities. ${tagline}`,
     alternates: pathAlternatesEn(`/vacances/region/${region}`, `/vacations/region/${region}`),
     openGraph: {
