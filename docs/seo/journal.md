@@ -1,5 +1,9 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-24 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
+  - Livré : guides vannes-vs-lorient, marseille-vs-montpellier, narbonne-vs-perpignan (notes rendues, loyers, FAQ), +7 liens entrants (vivre-a-*, brest-vs-lorient, nice-vs-marseille, retraite-a-narbonne…).
+  - Cibles (cibles.md § 6) : « vannes ou lorient » (45+32 impr.), « marseille ou montpellier » (32+21), « vivre à narbonne ou perpignan » (28, pos. 4,7) ; WebSearch confirme la requête.
+  - Suite : colmar vs mulhouse, sète vs montpellier, pau vs tarbes ; le gabarit guide n'affiche pas les tableaux markdown (chiffres rédigés en phrases).
 - 2026-11-24 · routine 2/4 Croissance SEO · chantier D (maillage depuis les pages fortes)
   - +25 liens contextuels vers des pages en position 8-20 (cibles § 4/§ 7), ancres = requête : accueil +10 (6 guides vs, moins chères, 1h de Paris, ZRR, /pour-qui/retraites), /avis +8 (fiches Rennes, Nantes, Strasbourg, Bordeaux, Montpellier, Alençon ; avis-honnete Cannes, Antony).
   - Gabarit /classements/[slug] : guides épinglés en tête des « Guides associés » sur 8 classements (budget, logement, investissement, bord-de-mer, soleil, famille, jeunes-actifs, télétravail).

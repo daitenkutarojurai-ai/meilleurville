@@ -8481,12 +8481,155 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["brest", "lorient", "quimper", "vannes", "rennes", "saint-brieuc"],
     relatedGuides: [
+      "vannes-vs-lorient-comparatif-2026",
       "teletravailler-depuis-bretagne-guide-2026",
       "budget-vivre-en-france-comparatif",
       "meilleures-villes-cyclistes-france-2026",
       "meilleures-villes-randonnee-trail-france-2026",
     ],
     tags: ["Brest", "Lorient", "Bretagne", "comparatif villes", "immobilier Bretagne", "vie étudiante Brest", "Festival Interceltique"],
+  },
+  {
+    slug: "vannes-vs-lorient-comparatif-2026",
+    title: "Vannes ou Lorient : quelle ville du Morbihan choisir en 2027 ?",
+    metaTitle: "Vannes ou Lorient 2027 : loyers, notes, verdict",
+    metaDesc: "Vannes ou Lorient ? Notes /10, loyers T2 (850 € contre 680 €), prix au m², sécurité, emploi : le verdict chiffré pour choisir où vivre dans le Morbihan.",
+    category: "comparaison",
+    emoji: "⚓",
+    readMinutes: 7,
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    intro: "Vannes ou Lorient : prenez Vannes si vous voulez la ville la mieux notée du Morbihan (6,9/10 contre 6,1) et pouvez payer environ 170 € de loyer en plus par mois pour un T2, prenez Lorient si le budget passe avant le cadre. Vannes pèse environ 60 000 habitants et Lorient environ 58 000 : la taille ne départage pas, le prix et le profil oui.\n\nLes deux villes sont à une trentaine de minutes de train l'une de l'autre, ce qui permet de tester les deux avant de signer un bail. Tous les chiffres ci-dessous sont ceux de nos fiches ville, notes rendues sur 10 (10 = meilleur).",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Vannes et à Lorient ?",
+        body: "Vannes est nettement plus chère. Notre estimation des loyers donne 850 € pour un T2 et 1 150 € pour un T3 à Vannes, contre 680 € et 900 € à Lorient : environ 25 % de plus sur un T2, soit 2 040 € par an. À l'achat, le prix moyen est de 3 900 €/m² à Vannes et 2 800 €/m² à Lorient, environ 39 % d'écart.\n\nLoyer T2 : Vannes 850 €, Lorient 680 €. Loyer T3 : Vannes 1 150 €, Lorient 900 €. Achat au m² : Vannes 3 900 €, Lorient 2 800 €. Note « coût de la vie » : Vannes 5,5/10, Lorient 6,2/10.\n\nÀ revenu égal, Lorient laisse donc plus de marge, ou permet d'acheter une surface bien plus grande.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Vannes ou Lorient ?",
+        body: "Vannes gagne sur la note globale (6,9 contre 6,1) et sur six axes sur huit. Lorient ne l'emporte que sur les transports (6,1 contre 5,5) et le coût de la vie (6,2 contre 5,5) ; la culture est à égalité à 6,2.\n\nNote globale : Vannes 6,9, Lorient 6,1. Qualité de vie : Vannes 7,8, Lorient 6,2. Nature : Vannes 7,2, Lorient 6,4. Sécurité : Vannes 6,9, Lorient 5,5. Écoles : Vannes 7,4, Lorient 6,6. Télétravail : Vannes 7,8, Lorient 6,3. Culture : Vannes 6,2, Lorient 6,2. Transports : Vannes 5,5, Lorient 6,1.\n\nL'écart de sécurité (1,4 point) et de qualité de vie (1,6 point) est le plus net. Détail sur nos fiches Vannes et Lorient.",
+      },
+      {
+        heading: "Où fait-il meilleur : climat et nature",
+        body: "Les deux villes ont un climat océanique doux. Nos fiches donnent environ 1 900 heures d'ensoleillement par an à Vannes contre 1 750 à Lorient, avec 21 °C en moyenne en juillet contre 19,5 °C, et 6,5 °C en janvier contre 6,8 °C. Vannes profite de l'abri du golfe du Morbihan, ses îles et ses sentiers côtiers ; Lorient est tournée vers sa rade, ses ports et les plages de Larmor-Plage et Gâvres. Dans les deux cas, prévoyez de la pluie à toute saison.",
+      },
+      {
+        heading: "Emploi, télétravail et études",
+        body: "Pour travailler à distance, Vannes est mieux notée (7,8 contre 6,3 sur l'axe télétravail). Lorient reste un bassin d'emploi de poids avec son port de pêche, sa base navale et son pôle nautique, et accueille des formations supérieures. Un salarié local de la marine ou de la pêche trouvera plus de débouchés à Lorient ; un cadre en télétravail ou un indépendant se plaira plus à Vannes.",
+      },
+      {
+        heading: "Le verdict : Vannes ou Lorient selon votre profil",
+        body: "Choisissez Vannes si vous êtes en famille, retraité ou télétravailleur avec un budget à l'aise : meilleures notes, meilleur cadre, mais logement cher. Choisissez Lorient si vous achetez, si vous êtes étudiant ou si vous voulez rester sous 700 € pour un T2 tout en gardant la mer. Compromis fréquent : habiter l'une et travailler dans l'autre, la liaison ferroviaire étant courte.",
+      },
+      {
+        heading: "FAQ : Vannes ou Lorient",
+        body: "**Quelle ville est la moins chère ?** Lorient, de 170 € par mois sur un T2 selon notre estimation.\n\n**Quelle ville est la plus sûre ?** Vannes dans nos notes (6,9 contre 5,5 sur 10), à lire comme une tendance et non un classement de quartiers.\n\n**Peut-on vivre à Lorient et travailler à Vannes ?** Oui, le train relie les deux villes en une trentaine de minutes : vérifiez les horaires de vos créneaux avant de vous engager.",
+      },
+    ],
+    relatedCities: ["vannes","lorient","quimper","brest","rennes","saint-brieuc"],
+    relatedGuides: [
+      "vivre-a-vannes-2026",
+      "vivre-a-lorient-2026",
+      "brest-vs-lorient-comparatif-2026",
+      "acheter-a-vannes-quel-quartier-budget-2026",
+      "acheter-a-lorient-quel-quartier-budget-2026",
+      "vivre-en-bretagne-guide-2026",
+    ],
+    tags: ["Vannes","Lorient","Morbihan","comparatif villes","loyers Bretagne","vannes ou lorient"],
+  },
+  {
+    slug: "marseille-vs-montpellier-comparatif-2026",
+    title: "Marseille ou Montpellier : quelle ville du Sud choisir en 2027 ?",
+    metaTitle: "Marseille ou Montpellier 2027 : notes, loyers, verdict",
+    metaDesc: "Marseille ou Montpellier ? Notes /10 (3,8 contre 5,6), loyers, écoles, sécurité, télétravail : le comparatif chiffré pour choisir où vivre dans le Sud.",
+    category: "comparaison",
+    emoji: "☀️",
+    readMinutes: 7,
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    intro: "Marseille ou Montpellier : Montpellier l'emporte pour vivre au quotidien (5,6/10 contre 3,8 sur nos fiches), surtout pour une famille ou un télétravailleur, alors que Marseille gagne sur la culture (9,0 contre 7,6) et un peu sur le soleil. La grande ville de 870 000 habitants et la métropole étudiante de 285 000 ne jouent pas dans la même catégorie.\n\nCes chiffres sont les notes rendues de nos fiches ville (sur 10, 10 = meilleur) et notre estimation des loyers. Ils décrivent la ville entière : à Marseille comme à Montpellier, l'écart entre quartiers est souvent plus grand que l'écart entre les deux villes.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Marseille et à Montpellier ?",
+        body: "Les deux villes sont proches. Notre estimation donne 820 € pour un T2 et 1 100 € pour un T3 à Marseille, contre 850 € et 1 150 € à Montpellier. À l'achat, 3 500 €/m² à Marseille et 3 900 €/m² à Montpellier. La différence est faible, ne la faites pas peser seule dans la décision.\n\nLoyer T2 : Marseille 820 €, Montpellier 850 €. Loyer T3 : Marseille 1 100 €, Montpellier 1 150 €. Achat au m² : Marseille 3 500 €, Montpellier 3 900 €. Note « coût de la vie » : Marseille 5,4/10, Montpellier 4,7/10.",
+      },
+      {
+        heading: "Qui a les meilleures notes ?",
+        body: "Montpellier gagne sur la note globale (5,6 contre 3,8) et sur cinq axes ; Marseille domine sur la culture et la nature.\n\nNote globale : Marseille 3,8, Montpellier 5,6. Qualité de vie : Marseille 4,1, Montpellier 5,9. Sécurité : Marseille 2,7, Montpellier 3,7. Écoles : Marseille 2,4, Montpellier 7,0. Télétravail : Marseille 4,3, Montpellier 7,8. Transports : Marseille 6,1, Montpellier 7,7. Culture : Marseille 9,0, Montpellier 7,6. Nature : Marseille 7,0, Montpellier 6,4.\n\nLes deux écarts qui comptent : les écoles (2,4 contre 7,0) et le télétravail (4,3 contre 7,8). Aucune des deux villes n'est bien notée en sécurité, Marseille étant la plus basse.",
+      },
+      {
+        heading: "Climat : laquelle est la plus ensoleillée ?",
+        body: "Marseille : environ 2 850 heures de soleil par an, 27,5 °C en juillet et 8,1 °C en janvier. Montpellier : environ 2 740 heures, 27 °C en juillet et 7,7 °C en janvier. L'écart est mince ; le mistral souffle plus à Marseille, Montpellier est un peu plus éloignée du relief mais à quelques kilomètres du littoral.",
+      },
+      {
+        heading: "Vie quotidienne : culture, transports, études",
+        body: "Marseille offre la culture la plus riche (9,0/10 : musées, calanques, scène musicale), mais la circulation est dense et les transports notés 6,1. Montpellier est plus compacte, mieux desservie (tramway, 7,7/10), très étudiante et plus facile à vivre sans voiture. Pour des enfants scolarisés, notre note écoles place Montpellier loin devant.",
+      },
+      {
+        heading: "Le verdict : Marseille ou Montpellier selon votre profil",
+        body: "Montpellier si vous avez des enfants, télétravaillez ou cherchez une ville à échelle humaine. Marseille si vous voulez une vraie métropole, une vie culturelle intense et le prix d'achat au m² plus bas, en acceptant des notes sécurité et école faibles : l'arbitrage se fait quartier par quartier, pas à l'échelle de la ville.",
+      },
+      {
+        heading: "FAQ : Marseille ou Montpellier",
+        body: "**Quelle ville est la moins chère ?** Marseille de peu : 30 € de moins sur un T2 et 400 €/m² à l'achat selon notre estimation.\n\n**Quelle ville pour une famille ?** Montpellier, avec 7,0 sur les écoles contre 2,4.\n\n**Quelle ville pour télétravailler ?** Montpellier : 7,8 contre 4,3 sur l'axe télétravail.",
+      },
+    ],
+    relatedCities: ["marseille","montpellier","aix-en-provence","nimes","toulon","perpignan"],
+    relatedGuides: [
+      "vivre-a-marseille-2026",
+      "vivre-a-montpellier-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+      "nice-vs-marseille-comparatif-2026",
+      "aix-en-provence-vs-marseille-comparatif-2026",
+      "montpellier-vs-toulouse-comparatif-2026",
+    ],
+    tags: ["Marseille","Montpellier","comparatif villes","Sud de la France","marseille ou montpellier"],
+  },
+  {
+    slug: "narbonne-vs-perpignan-comparatif-2026",
+    title: "Narbonne ou Perpignan : quelle ville choisir en 2027 ?",
+    metaTitle: "Narbonne ou Perpignan 2027 : loyers, notes, verdict",
+    metaDesc: "Narbonne ou Perpignan ? Loyers T2 (680 € contre 650 €), notes /10, sécurité, soleil : le comparatif chiffré entre deux villes du Languedoc-Roussillon.",
+    category: "comparaison",
+    emoji: "🌞",
+    readMinutes: 6,
+    publishedAt: "2026-11-24",
+    updatedAt: "2026-11-24",
+    intro: "Narbonne ou Perpignan : les deux sont presque à égalité (4,9/10 contre 4,7 sur nos fiches), donc le choix dépend de la taille : Narbonne, 55 000 habitants, plus calme et mieux notée en sécurité ; Perpignan, près de 122 000 habitants, plus de services et loyers un peu plus bas. Aucune des deux n'est chère : un T2 coûte 680 € à Narbonne et 650 € à Perpignan.\n\nLes notes ci-dessous sont celles de nos fiches ville (sur 10, 10 = meilleur) ; les loyers sont notre estimation.",
+    sections: [
+      {
+        heading: "Quel est le budget logement ?",
+        body: "Perpignan est un peu moins chère. T2 : 650 € contre 680 € ; T3 : 870 € contre 920 € ; achat : 2 300 €/m² contre 2 400 €/m².\n\nLoyer T2 : Narbonne 680 €, Perpignan 650 €. Loyer T3 : Narbonne 920 €, Perpignan 870 €. Achat au m² : Narbonne 2 400 €, Perpignan 2 300 €. Note « coût de la vie » : Narbonne 5,9/10, Perpignan 6,2/10.\n\nL'écart ne dépasse pas 50 € par mois : ne choisissez pas sur ce critère.",
+      },
+      {
+        heading: "Quelles sont les notes de Narbonne et Perpignan ?",
+        body: "Narbonne devant sur la note globale (4,9 contre 4,7), la qualité de vie (5,1 contre 4,9) et la sécurité (4,1 contre 3,7). Perpignan devant sur les transports (5,5 contre 4,9), la nature (6,1 contre 5,9) et le coût de la vie. Culture (6,2), télétravail (4,8) et écoles (4,5) sont à égalité.\n\nNote globale : Narbonne 4,9, Perpignan 4,7. Qualité de vie : Narbonne 5,1, Perpignan 4,9. Sécurité : Narbonne 4,1, Perpignan 3,7. Transports : Narbonne 4,9, Perpignan 5,5. Nature : Narbonne 5,9, Perpignan 6,1. Culture : Narbonne 6,2, Perpignan 6,2. Télétravail : Narbonne 4,8, Perpignan 4,8. Écoles : Narbonne 4,5, Perpignan 4,5.",
+      },
+      {
+        heading: "Soleil et climat",
+        body: "Les deux villes ont un climat méditerranéen. Nos fiches donnent environ 2 900 heures de soleil par an à Narbonne (29 °C en juillet, 8 °C en janvier) et 2 750 à Perpignan (27,2 °C en juillet, 7,5 °C en janvier). Le vent, tramontane côté Perpignan et cers côté Narbonne, est la vraie contrainte du quotidien.",
+      },
+      {
+        heading: "Taille, services et identité",
+        body: "Narbonne est une ville moyenne : centre historique, canal de la Robine, halles, plages de Narbonne-Plage et Gruissan à proximité. Perpignan est le chef-lieu des Pyrénées-Orientales : plus d'équipements, d'enseignement supérieur et une forte identité catalane, mais aussi des contrastes marqués selon les quartiers. Pour un retraité, Narbonne séduit par sa taille ; pour des études ou un emploi de service, Perpignan offre davantage.",
+      },
+      {
+        heading: "Le verdict : Narbonne ou Perpignan",
+        body: "Narbonne pour la tranquillité, la sécurité (meilleure note) et un cadre à taille humaine. Perpignan pour les services, les transports, un loyer légèrement plus bas et la proximité catalane. Les deux sont à moins d'une heure de route : visitez-les un week-end avant de décider.",
+      },
+      {
+        heading: "FAQ : Narbonne ou Perpignan",
+        body: "**Quelle ville est la moins chère ?** Perpignan, de 30 € par mois sur un T2.\n\n**Quelle ville est la plus sûre ?** Narbonne dans nos notes (4,1 contre 3,7 sur 10), avec des écarts forts selon les quartiers.\n\n**Où prendre sa retraite ?** Narbonne est plus calme ; voir notre guide retraite à Narbonne.",
+      },
+    ],
+    relatedCities: ["narbonne","perpignan","beziers","carcassonne","montpellier","sete"],
+    relatedGuides: [
+      "retraite-a-narbonne-2026",
+      "vivre-a-perpignan-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+      "vivre-en-occitanie-guide-2026",
+    ],
+    tags: ["Narbonne","Perpignan","comparatif villes","Occitanie","narbonne ou perpignan"],
   },
   {
     slug: "vivre-en-ardennes-meuse-guide-2026",
@@ -8957,6 +9100,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["perpignan", "montpellier", "nimes", "toulouse", "carcassonne"],
     relatedGuides: [
+      "marseille-vs-montpellier-comparatif-2026",
       "teletravailler-depuis-occitanie-guide-2026",
       "quitter-montpellier-guide-2026",
       "quitter-nimes-guide-2026",
@@ -23325,6 +23469,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["nice", "marseille", "toulon", "aix-en-provence", "antibes"],
     relatedGuides: [
+      "marseille-vs-montpellier-comparatif-2026",
       "nice-vs-montpellier-comparatif-2026",
       "aix-en-provence-vs-marseille-comparatif-2026",
       "marseille-vs-toulouse-comparatif-2025",
@@ -36597,6 +36742,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["perpignan", "collioure", "carcassonne", "narbonne", "beziers"],
     relatedGuides: [
+      "narbonne-vs-perpignan-comparatif-2026",
       "acheter-a-perpignan-quel-quartier-budget-2026",
       "quitter-perpignan-guide-2026",
       "10-choses-a-faire-a-perpignan-2026",
@@ -36919,6 +37065,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["vannes", "lorient", "quiberon", "carnac", "rennes"],
     relatedGuides: [
+      "vannes-vs-lorient-comparatif-2026",
       "acheter-a-vannes-quel-quartier-budget-2026",
       "quitter-vannes-guide-2026",
       "10-choses-a-faire-a-vannes-2026",
@@ -36965,6 +37112,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["lorient", "vannes", "quimper", "quiberon", "brest"],
     relatedGuides: [
+      "vannes-vs-lorient-comparatif-2026",
       "acheter-a-lorient-quel-quartier-budget-2026",
       "quitter-lorient-guide-2026",
       "10-choses-a-faire-a-lorient-2026",
@@ -46788,6 +46936,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["narbonne", "beziers", "sete", "perpignan", "carcassonne"],
     relatedGuides: [
+      "narbonne-vs-perpignan-comparatif-2026",
       "10-choses-a-faire-a-narbonne-2026",
       "retraite-a-perpignan-2026",
       "retraite-bord-de-mer-france-villes-guide-2026",

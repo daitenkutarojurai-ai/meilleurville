@@ -4507,6 +4507,21 @@
       "emoji": "🌧️"
     },
     {
+      "slug": "vannes-vs-lorient-comparatif-2026",
+      "title": "Vannes ou Lorient : quelle ville du Morbihan choisir en 2027 ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "marseille-vs-montpellier-comparatif-2026",
+      "title": "Marseille ou Montpellier : quelle ville du Sud choisir en 2027 ?",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "narbonne-vs-perpignan-comparatif-2026",
+      "title": "Narbonne ou Perpignan : quelle ville choisir en 2027 ?",
+      "emoji": "🌞"
+    },
+    {
       "slug": "vivre-en-ardennes-meuse-guide-2026",
       "title": "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
       "emoji": "🌲"
@@ -12289,14 +12304,14 @@
       "count": 19
     },
     {
-      "slug": "soleil",
-      "label": "soleil",
+      "slug": "montpellier",
+      "label": "Montpellier",
       "count": 19
     },
     {
-      "slug": "montpellier",
-      "label": "Montpellier",
-      "count": 18
+      "slug": "soleil",
+      "label": "soleil",
+      "count": 19
     },
     {
       "slug": "famille-monoparentale-grand-est",
@@ -12384,6 +12399,11 @@
       "count": 13
     },
     {
+      "slug": "marseille",
+      "label": "Marseille",
+      "count": 13
+    },
+    {
       "slug": "mediterranee",
       "label": "méditerranée",
       "count": 13
@@ -12406,11 +12426,6 @@
     {
       "slug": "famille-monoparentale-occitanie",
       "label": "famille monoparentale Occitanie",
-      "count": 12
-    },
-    {
-      "slug": "marseille",
-      "label": "Marseille",
       "count": 12
     },
     {
@@ -12734,6 +12749,11 @@
       "count": 7
     },
     {
+      "slug": "occitanie",
+      "label": "Occitanie",
+      "count": 7
+    },
+    {
       "slug": "pays-basque",
       "label": "Pays Basque",
       "count": 7
@@ -12789,6 +12809,11 @@
       "count": 6
     },
     {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
+      "count": 6
+    },
+    {
       "slug": "dvf",
       "label": "DVF",
       "count": 6
@@ -12819,6 +12844,11 @@
       "count": 6
     },
     {
+      "slug": "lorient",
+      "label": "Lorient",
+      "count": 6
+    },
+    {
       "slug": "lorraine",
       "label": "Lorraine",
       "count": 6
@@ -12846,11 +12876,6 @@
     {
       "slug": "nancy",
       "label": "Nancy",
-      "count": 6
-    },
-    {
-      "slug": "occitanie",
-      "label": "Occitanie",
       "count": 6
     },
     {
@@ -12949,11 +12974,6 @@
       "count": 5
     },
     {
-      "slug": "lorient",
-      "label": "Lorient",
-      "count": 5
-    },
-    {
       "slug": "loyer-bas-parent-seul",
       "label": "loyer bas parent seul",
       "count": 5
@@ -12971,6 +12991,11 @@
     {
       "slug": "perigueux",
       "label": "Périgueux",
+      "count": 5
+    },
+    {
+      "slug": "perpignan",
+      "label": "Perpignan",
       "count": 5
     },
     {
@@ -13011,6 +13036,11 @@
     {
       "slug": "universite",
       "label": "université",
+      "count": 5
+    },
+    {
+      "slug": "vannes",
+      "label": "Vannes",
       "count": 5
     },
     {
@@ -13174,11 +13204,6 @@
       "count": 4
     },
     {
-      "slug": "perpignan",
-      "label": "Perpignan",
-      "count": 4
-    },
-    {
       "slug": "pollution",
       "label": "pollution",
       "count": 4
@@ -13259,6 +13284,11 @@
       "count": 4
     },
     {
+      "slug": "sud-de-la-france",
+      "label": "Sud de la France",
+      "count": 4
+    },
+    {
       "slug": "thionville",
       "label": "Thionville",
       "count": 4
@@ -13271,11 +13301,6 @@
     {
       "slug": "valence",
       "label": "Valence",
-      "count": 4
-    },
-    {
-      "slug": "vannes",
-      "label": "Vannes",
       "count": 4
     },
     {
@@ -13396,11 +13421,6 @@
     {
       "slug": "communaute",
       "label": "communauté",
-      "count": 3
-    },
-    {
-      "slug": "comparatif-villes",
-      "label": "comparatif villes",
       "count": 3
     },
     {
@@ -13654,6 +13674,16 @@
       "count": 3
     },
     {
+      "slug": "morbihan",
+      "label": "Morbihan",
+      "count": 3
+    },
+    {
+      "slug": "narbonne",
+      "label": "Narbonne",
+      "count": 3
+    },
+    {
       "slug": "neo-rural",
       "label": "néo-rural",
       "count": 3
@@ -13901,11 +13931,6 @@
     {
       "slug": "studio",
       "label": "studio",
-      "count": 3
-    },
-    {
-      "slug": "sud-de-la-france",
-      "label": "Sud de la France",
       "count": 3
     },
     {
