@@ -1,5 +1,9 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-24 (après-midi) · session manuelle · présidentielle 2027 rouverte à l'index
+  - `/villes/*/presidentielle-2027` (593 pages, CTR 3,34 %, position 10,6) : nouveau `data/presidential-2022-t2.json` (2nd tour par commune, `npm run pres2022-t2`), blocs « Ce qui distingue le vote de X », « Le second tour de 2022 », « Les villes autour », FAQ 2nd tour.
+  - Similarité de gabarit (texte de main, chiffres et noms masqués, 5-grammes) : 0,87 / 0,88 → 0,76 / 0,76. Retirée de `lib/fr-index-policy.ts` ; sitemap FR 19 738 URL.
+  - Suite : relire ses impressions sur l'export de décembre ; la remettre en noindex si elles retombent.
 - 2026-11-24 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
   - Livré : guides vannes-vs-lorient, marseille-vs-montpellier, narbonne-vs-perpignan (notes rendues, loyers, FAQ), +7 liens entrants (vivre-a-*, brest-vs-lorient, nice-vs-marseille, retraite-a-narbonne…).
   - Cibles (cibles.md § 6) : « vannes ou lorient » (45+32 impr.), « marseille ou montpellier » (32+21), « vivre à narbonne ou perpignan » (28, pos. 4,7) ; WebSearch confirme la requête.

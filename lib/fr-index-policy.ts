@@ -29,6 +29,12 @@
  * (CTR 3,6 %), les deux au-dessus de la moyenne du site (1,29 %). Test : relire
  * leurs impressions sur l’export suivant ; les remettre ici si elles retombent.
  *
+ * Rouverte le 2026-11-24 : `presidentielle-2027` (CTR 3,34 %, position 10,6 sur 2 486
+ * impressions, même export). La page porte désormais du contenu propre à la ville
+ * (`lib/presidential-local.ts`) : second tour 2022 par commune, écarts au national candidat
+ * par candidat, rang dans le département et la région, voisines qui ont voté autrement.
+ * Similarité mesurée (même méthode) : 0,87 / 0,88 → 0,76 / 0,76. Même test que ci-dessus.
+ *
  * Les pages restent en ligne et liées (`noindex, follow`). Rouvrir une
  * famille = retirer son nom ici, rien d'autre. Ne pas en ajouter une sans la
  * mesurer de la même façon.
@@ -51,7 +57,6 @@ const FR_NOINDEX_CITY_SUBPAGES = [
   "commerces",
   "statistiques",
   "agenda",
-  "presidentielle-2027",
 ] as const;
 
 const FR_NOINDEX_PATTERNS: readonly RegExp[] = [

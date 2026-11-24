@@ -9,7 +9,7 @@
 // Une enquête peut ne pas sommer à 100 (candidats non listés, hypothèses
 // partielles) : chaque sondage est ramené à 100 avant la moyenne.
 
-import type { Bloc } from "@/lib/political-lean-meta";
+import type { Bloc, CandidateKey } from "@/lib/political-lean-meta";
 
 export type Candidate2027 =
   | "arthaud" | "melenchon" | "roussel" | "tondelier" | "glucksmann"
@@ -68,3 +68,25 @@ export const NATIONAL_2022_BLOCS: Record<Bloc, number> = {
   // Le Pen 23,15 + Zemmour 7,07
   extreme_droite: 30.22,
 };
+
+/** Même source, candidat par candidat (% des exprimés, 1er tour du 10 avril 2022). */
+export const NATIONAL_2022_CANDS: Record<CandidateKey, number> = {
+  arthaud: 0.56,
+  poutou: 0.77,
+  roussel: 2.28,
+  melenchon: 21.95,
+  hidalgo: 1.75,
+  jadot: 4.63,
+  macron: 27.85,
+  pecresse: 4.78,
+  lassalle: 3.13,
+  "dupont-aignan": 2.06,
+  lepen: 23.15,
+  zemmour: 7.07,
+};
+
+/** Abstention nationale au 1er tour 2022 (% des inscrits, Conseil constitutionnel). */
+export const NATIONAL_2022_T1_ABSTENTION = 26.31;
+
+/** 2nd tour du 24 avril 2022, résultat national officiel (Conseil constitutionnel). */
+export const NATIONAL_2022_T2 = { macron: 58.55, lepen: 41.45, abstentionPct: 28.01 } as const;

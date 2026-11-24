@@ -28,6 +28,7 @@
     "air-quality": "node scripts/city-air-quality.mjs",
     "air-quality:light": "node scripts/city-air-light.mjs",
     "political-lean": "node scripts/build-political-lean.mjs",
+    "pres2022-t2": "node scripts/build-pres2022-t2.mjs",
     "property-prices": "node scripts/city-property-prices.mjs",
     "property-prices:selftest": "node scripts/city-property-prices.mjs --selftest",
     "property-prices:stats": "node scripts/city-property-prices.mjs --stats",

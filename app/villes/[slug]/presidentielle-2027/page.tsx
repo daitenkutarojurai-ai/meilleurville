@@ -13,7 +13,8 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { allPoliticalLeans, getPoliticalLean } from "@/lib/political-lean";
 import { BLOC_COLORS, BLOC_LABEL, BLOC_ORDER, CANDIDATE_BY_KEY, type Bloc, type CandidateKey } from "@/lib/political-lean-meta";
 import { project2027, BLOC_FIGURES } from "@/lib/presidential-2027";
-import { NATIONAL_2022_BLOCS, POLLS_2027 } from "@/data/presidential-2027-polls";
+import { NATIONAL_2022_BLOCS, NATIONAL_2022_T2, POLLS_2027 } from "@/data/presidential-2027-polls";
+import { getRound2, localFacts, neighbours, round2Facts, type Seg } from "@/lib/presidential-local";
 import { breadcrumbJsonLd, faqJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { clampMeta } from "@/lib/brand";
 import { cityAlternates } from "@/lib/i18n";
@@ -61,6 +62,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function Sentence({ segs }: { segs: Seg[] }) {
+  return (
+    <>
+      {segs.map((s, i) =>
+        typeof s === "string" ? (
+          <span key={i}>{s}</span>
+        ) : (
+          <Link key={i} href={`/villes/${s.slug}/presidentielle-2027`} className="font-medium text-[var(--accent)] hover:underline">
+            {s.name}
+          </Link>
+        ),
+      )}
+    </>
+  );
+}
+
 function Bar({ blocs, tall }: { blocs: Record<Bloc, number>; tall?: boolean }) {
   return (
     <div className={`flex w-full gap-[2px] overflow-hidden rounded-full ${tall ? "h-5" : "h-3"}`} aria-hidden>
@@ -100,6 +117,10 @@ export default async function CityPresidentielle2027Page({ params }: Props) {
 
   const ranked2027 = [...BLOC_ORDER].sort((a, b) => p.blocs[b] - p.blocs[a]);
   const topCandName = lean.topCand ? CANDIDATE_BY_KEY[lean.topCand].name : BLOC_LABEL.fr[lean.lean];
+  const facts = localFacts(slug);
+  const r2 = getRound2(slug);
+  const r2Facts = round2Facts(slug);
+  const around = neighbours(slug);
 
   const faq = [
     {
@@ -114,6 +135,14 @@ export default async function CityPresidentielle2027Page({ params }: Props) {
       q: `Quel était le taux d'abstention à ${city.name} ?`,
       a: `${fmt(lean.turnout.abstentionPct)} % des inscrits se sont abstenus au 1er tour 2022, sur ${lean.turnout.inscrits.toLocaleString("fr-FR")} inscrits. Les votes blancs et nuls représentaient ${fmt(lean.turnout.blancsNulsPct)} %.`,
     },
+    ...(r2
+      ? [
+          {
+            q: `Qui a gagné le second tour 2022 à ${city.name} ?`,
+            a: `Le 24 avril 2022, ${r2.macron > r2.lepen ? `Emmanuel Macron l'a emporté à ${city.name} avec ${fmt(r2.macron)} %` : `Marine Le Pen l'a emporté à ${city.name} avec ${fmt(r2.lepen)} %`} des suffrages exprimés, contre ${NATIONAL_2022_T2.macron.toLocaleString("fr-FR")} % pour Emmanuel Macron au niveau national. Abstention : ${fmt(r2.abstentionPct)} %.`,
+          },
+        ]
+      : []),
   ];
 
   const breadcrumb = breadcrumbJsonLd([
@@ -250,6 +279,82 @@ export default async function CityPresidentielle2027Page({ params }: Props) {
               </p>
             </div>
           </section>
+
+          {facts.length > 0 && (
+            <section aria-labelledby="singularites" className="rounded-3xl border border-[var(--border)] bg-[var(--bg-surface)] p-5 sm:p-6">
+              <h2 id="singularites" className="mb-3 text-xl font-bold text-[var(--text-primary)]">
+                Ce qui distingue le vote de {city.name}
+              </h2>
+              <ul className="space-y-2 text-sm leading-relaxed text-[var(--text-secondary)]">
+                {facts.map((segs, i) => (
+                  <li key={i} className="flex gap-2">
+                    <span aria-hidden className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
+                    <span><Sentence segs={segs} /></span>
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-3 text-[11px] text-[var(--text-tertiary)]">
+                Calculé sur les résultats officiels du 1ᵉʳ tour 2022 de chaque commune. « Plus à gauche / à droite » compare
+                la somme droite + extrême droite moins gauche + extrême gauche.
+              </p>
+            </section>
+          )}
+
+          {r2 && (
+            <section aria-labelledby="second-tour">
+              <h2 id="second-tour" className="mb-3 text-xl font-bold text-[var(--text-primary)]">Le second tour de 2022</h2>
+              <div className="rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)] p-4">
+                <div className="flex items-center justify-between text-sm font-semibold text-[var(--text-primary)]">
+                  <span>Emmanuel Macron {fmt(r2.macron)} %</span>
+                  <span>Marine Le Pen {fmt(r2.lepen)} %</span>
+                </div>
+                <div className="mt-2 flex h-4 w-full gap-[2px] overflow-hidden rounded-full" aria-hidden>
+                  <span style={{ width: `${r2.macron}%`, backgroundColor: CANDIDATE_BY_KEY.macron.color }} />
+                  <span style={{ width: `${r2.lepen}%`, backgroundColor: CANDIDATE_BY_KEY.lepen.color }} />
+                </div>
+                <p className="mt-1 text-[11px] text-[var(--text-tertiary)]">
+                  National : {NATIONAL_2022_T2.macron.toLocaleString("fr-FR")} % / {NATIONAL_2022_T2.lepen.toLocaleString("fr-FR")} %
+                </p>
+                <ul className="mt-3 space-y-1.5 text-sm leading-relaxed text-[var(--text-secondary)]">
+                  {r2Facts.map((segs, i) => (
+                    <li key={i}><Sentence segs={segs} /></li>
+                  ))}
+                </ul>
+                <p className="mt-2 text-[11px] text-[var(--text-tertiary)]">
+                  Source : ministère de l&apos;Intérieur, résultats définitifs du 2nd tour par commune (data.gouv.fr).
+                </p>
+              </div>
+            </section>
+          )}
+
+          {around.length >= 2 && (
+            <section aria-labelledby="autour">
+              <h2 id="autour" className="mb-1 text-xl font-bold text-[var(--text-primary)]">Comment ont voté les villes autour de {city.name}</h2>
+              <p className="mb-3 text-sm text-[var(--text-secondary)]">
+                {`Les ${around.length} villes suivies les plus proches, à vol d'oiseau, et leur résultat de 2022.`}
+              </p>
+              <ul className="space-y-1.5">
+                {around.map((n) => (
+                  <li key={n.slug}>
+                    <Link
+                      href={`/villes/${n.slug}/presidentielle-2027`}
+                      className="group grid grid-cols-[1fr_auto] items-center gap-x-3 rounded-xl border border-[var(--border)] bg-[var(--bg-surface)] px-3 py-2 text-sm hover:border-[var(--accent)]/50"
+                    >
+                      <span className="min-w-0">
+                        <span className="font-semibold text-[var(--text-primary)] group-hover:text-[var(--accent)]">{n.name}</span>
+                        <span className="text-[var(--text-tertiary)]"> · {n.km} km</span>
+                        <span className="block text-xs text-[var(--text-secondary)]">
+                          1ᵉʳ tour : {n.t1Winner ?? "—"} en tête ({fmt(n.t1Pct)} %)
+                          {n.t2Lepen !== null && <> · 2nd tour : Marine Le Pen {fmt(n.t2Lepen)} %</>}
+                        </span>
+                      </span>
+                      <ArrowRight className="h-4 w-4 text-[var(--text-tertiary)]" aria-hidden />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           <section aria-labelledby="calendrier">
             <h2 id="calendrier" className="mb-3 text-xl font-bold text-[var(--text-primary)]">Les dates à retenir</h2>

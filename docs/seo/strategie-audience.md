@@ -114,9 +114,9 @@ apparaît plus souvent, plus bas, et le CTR baisse.
       - un tableau téléchargeable ;
       - une carte ;
       - les chiffres par département, pour que chaque journal local ait son angle.
-- [ ] Présidentielle 2027 : rouvrir `/villes/[slug]/presidentielle-2027` quand la page porte
-      du contenu local distinct (sondages, résultats 2022, candidats déclarés). La demande va
-      monter toute l'année 2027.
+- [x] Présidentielle 2027 : `/villes/[slug]/presidentielle-2027` rouverte le 2026-11-24 avec du contenu
+      local (second tour 2022 par commune, écarts au national, rang département/région, voisines ;
+      `lib/presidential-local.ts`). Similarité 0,87 → 0,76. À relire sur l'export de décembre.
 - [ ] Liste « communes ZRR 2026 » (647 impressions, position 9,7) et « top 20 des villes
       les moins chères » (375 impressions, position 8,1) : en faire des pages dédiées et à jour.
 - [ ] Jumelles EN seulement pour les pages FR qui ont de la traction.

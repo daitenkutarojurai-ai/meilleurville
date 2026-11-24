@@ -14,6 +14,8 @@
 - **`components/ReportCTA.tsx`** : boutons « Signaler un événement / un point noir / corriger une info / une actu politique », qui ouvrent `/contact?topic=…&ville=…` avec un gabarit pré-rempli (`lib/contact-prefill.ts`). Sujets `evenement` et `politique` ajoutés à l'enum du worker. Présent sur toutes les sous-pages ville (via `DiscussionCTA`), l'agenda, les Red Flags et les pages politiques.
 - `/red-flags` : vignettes d'abord, texte de lecture en fin de page (« Pour aller plus loin »), à la demande du propriétaire.
 
+- **2026-11-24 — fiche ville présidentielle rouverte à l'index.** Second tour 2022 par commune dans `data/presidential-2022-t2.json` (`npm run pres2022-t2`, source ministère de l'Intérieur, appariement sur le code INSEE de `data/political-lean.json`). Phrases calculées dans `lib/presidential-local.ts` (`localFacts`, `round2Facts`, `neighbours`) ; résultats nationaux officiels dans `data/presidential-2027-polls.ts` (`NATIONAL_2022_CANDS`, `NATIONAL_2022_T1_ABSTENTION`, `NATIONAL_2022_T2`). Aucune phrase écrite à la main : tout vient des résultats officiels.
+
 ## Agenda daté par ville (`data/city-events.ts`, 2026-10-16)
 
 `/villes/[slug]/agenda` (EN `/cities/[slug]/calendar`) opens with an « À venir » block
