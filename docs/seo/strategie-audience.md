@@ -98,7 +98,7 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 - [x] Appel à l'avis en haut des 593 fiches (« Vous habitez X ? Donnez votre avis »), renvoi depuis `/avis`,
       titre de l'accueil « MaVilleIdéale : avis et notes des villes de France » — 2026-11-23.
 - [x] Indexation de `bruit` et `cout-de-la-vie` rouverte en test — 2026-11-23. À mesurer sur l'export de décembre.
-- [x] Cannibalisation : les 10 villes les plus vues avaient fiche + guide `vivre-a-*` au même titre. Les 36 guides
+- [x] Cannibalisation : les 10 villes les plus vues avaient fiche + guide `vivre-a-*` au même titre. Les 49 guides
       passent en « S’installer à X en 2026 », la fiche garde « Vivre à X », liens croisés — 2026-11-23.
 
 ### Ce trimestre (décembre à février)
