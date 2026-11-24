@@ -519,7 +519,7 @@ Same repo, same build, two Vercel projects, two domains.
   sitemap, `sitemap:check`) — 20 sous-pages ville + gentrification, cout-menage, calculateur-cout-reel,
   badge, synthèse de paire ; sitemap FR 32 654 → 17 660. Critère : texte de `<main>`, chiffres et noms masqués,
   similarité > 0,75 entre deux villes sur deux paires. `/air` gardée (traction GSC). Une nouvelle famille FR
-  par ville se **mesure** avant d'être indexée.
+  par ville se **mesure** avant d’être indexée : `node scripts/template-similarity.mjs <origine> <sous-page>` (lit un peu plus haut que l’audit : `air` 0,90-0,93 contre 0,86).
 - **Adding EN content for a 11th city.** Add `descriptionEn`, `seoTitleEn`,
   `seoDescriptionEn` to the seed record. No other change required.
 
