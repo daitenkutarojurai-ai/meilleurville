@@ -140,6 +140,35 @@ export default function PressePage() {
         </a>
 
         <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
+          Communiqué : loyers, les villes les moins chères de France
+        </h2>
+        <Card className="p-5 mb-6 text-sm text-[var(--text-secondary)] leading-relaxed space-y-3">
+          <p className="font-bold text-[var(--text-primary)]">
+            Un T2 à 390 € à Mauriac, 1 800 € à Paris : l&apos;écart des loyers entre les villes françaises atteint 4,6 fois
+          </p>
+          <ul className="list-disc pl-5 space-y-1">
+            <li>Sur {CITIES_COUNT} villes suivies, le loyer médian d&apos;un T2 est de 710 € par mois ; 62 villes sont à 500 € ou moins, 91 à 1 000 € ou plus.</li>
+            <li>Les T2 les moins chers : Mauriac (Cantal) et La Souterraine (Creuse) à 390 €, Bellac (Haute-Vienne) à 400 €, Commercy (Meuse) et Le Blanc (Indre) à 420 €.</li>
+            <li>Parmi les villes de plus de 50 000 habitants, Calais et Saint-Quentin sont les moins chères (480 €), devant Laval (490 €).</li>
+          </ul>
+          <p>
+            Méthode : nos repères de loyer T1, T2 et T3 sont des estimations éditoriales, calées sur les observatoires locaux des loyers. Ce ne sont pas des
+            médianes de transactions ni des annonces. Un loyer bas ne dit rien de la qualité de vie : chaque ville garde sa note globale et ses huit critères.
+          </p>
+          <p className="flex flex-wrap gap-3">
+            <a href="/presse/loyers-villes-mavilleideale-2026.csv" download className="text-[var(--accent)] underline underline-offset-2">
+              Loyers par ville (CSV)
+            </a>
+            <a href="/presse/loyers-par-departement-mavilleideale-2026.csv" download className="text-[var(--accent)] underline underline-offset-2">
+              Synthèse par département (CSV)
+            </a>
+            <Link href="/guides/villes-france-moins-cheres-2026-top-10" className="text-[var(--accent)] underline underline-offset-2">
+              Le classement détaillé
+            </Link>
+          </p>
+        </Card>
+
+        <h2 className="text-xl font-bold text-[var(--text-primary)] mb-4">
           Conditions de reprise
         </h2>
         <Card className="p-5 mb-12 flex gap-4">

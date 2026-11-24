@@ -1,5 +1,9 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-24 · routine 4/4 Rotation (mardi, kit presse) · loyers, villes les moins chères
+  - Livré : communiqué dans `/presse`, 2 CSV (par ville, par département : 102), `scripts/export-presse-loyers.ts`, kit `docs/seo/kits-presse/2026-11-24-loyers-villes-moins-cheres.md` (15 types de médias, 3 posts).
+  - Cible : « top 20 des villes les moins chères de france » (375 impr., pos. 8,1) + autorité (7 domaines référents).
+  - Suite : envoi par le propriétaire ; prochain kit : taxe foncière ou canicule.
 - 2026-11-24 (après-midi) · session manuelle · présidentielle 2027 rouverte à l'index
   - `/villes/*/presidentielle-2027` (593 pages, CTR 3,34 %, position 10,6) : nouveau `data/presidential-2022-t2.json` (2nd tour par commune, `npm run pres2022-t2`), blocs « Ce qui distingue le vote de X », « Le second tour de 2022 », « Les villes autour », FAQ 2nd tour.
   - Similarité de gabarit (texte de main, chiffres et noms masqués, 5-grammes) : 0,87 / 0,88 → 0,76 / 0,76. Retirée de `lib/fr-index-policy.ts` ; sitemap FR 19 738 URL.

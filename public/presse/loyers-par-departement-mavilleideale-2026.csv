@@ -1,0 +1,103 @@
+﻿departement,villes_suivies,ville_la_moins_chere,loyer_t2_eur,ville_la_plus_chere,loyer_t2_max_eur,loyer_t2_median_eur
+"Ain",4,"Oyonnax",600,"Gex",1100,630
+"Aisne",3,"Saint-Quentin",480,"Soissons",700,550
+"Allier",3,"Vichy",480,"Moulins",510,490
+"Alpes-de-Haute-Provence",3,"Sisteron",540,"Manosque",680,540
+"Alpes-Maritimes",11,"Grasse",800,"Saint-Paul-de-Vence",1300,1050
+"Ardèche",3,"Privas",530,"Annonay",570,560
+"Ardennes",3,"Rethel",450,"Sedan",540,520
+"Ariège",3,"Saint-Girons",510,"Pamiers",570,530
+"Aube",3,"Bar-sur-Aube",480,"Troyes",650,480
+"Aude",3,"Carcassonne",530,"Narbonne",680,540
+"Aveyron",3,"Millau",450,"Villefranche-de-Rouergue",530,510
+"Bas-Rhin",9,"Bischheim",660,"Strasbourg",800,720
+"Bouches-du-Rhône",13,"Istres",700,"Cassis",1200,800
+"Calvados",4,"Bayeux",570,"Honfleur",700,670
+"Cantal",3,"Mauriac",390,"Saint-Flour",470,420
+"Charente",3,"Jarnac",450,"Angoulême",620,460
+"Charente-Maritime",5,"Rochefort",490,"Île de Ré",1200,700
+"Cher",3,"Vierzon",480,"Bourges",570,540
+"Corrèze",3,"Ussel",460,"Brive-la-Gaillarde",580,530
+"Corse-du-Sud",3,"Sartène",700,"Ajaccio",900,880
+"Côte-d'Or",5,"Montbard",480,"Beaune",800,600
+"Côtes-d'Armor",4,"Guingamp",540,"Dinan",600,590
+"Creuse",3,"La Souterraine",390,"Guéret",470,440
+"Deux-Sèvres",3,"Parthenay",500,"Niort",640,530
+"Dordogne",4,"Ribérac",430,"Sarlat-la-Canéda",740,515
+"Doubs",3,"Montbéliard",540,"Pontarlier",700,680
+"Drôme",3,"Romans-sur-Isère",550,"Valence",680,580
+"Essonne",20,"Étampes",840,"Massy",1230,960
+"Eure",4,"Évreux",610,"Vernon",700,665
+"Eure-et-Loir",3,"Châteaudun",510,"Dreux",700,680
+"Finistère",5,"Douarnenez",510,"Quimper",700,650
+"Gard",3,"Alès",520,"Nîmes",720,640
+"Gers",3,"Auch",480,"Condom",510,490
+"Gironde",12,"Libourne",720,"Arcachon",1100,800
+"Guadeloupe",3,"Les Abymes",700,"Baie-Mahault",730,720
+"Guyane",2,"Saint-Laurent-du-Maroni",650,"Cayenne",800,725
+"Haut-Rhin",8,"Wittenheim",530,"Saint-Louis (Haut-Rhin)",750,665
+"Haute-Corse",3,"Corte",650,"Calvi",820,820
+"Haute-Garonne",7,"Saint-Gaudens",570,"Toulouse",850,800
+"Haute-Loire",3,"Brioude",450,"Monistrol-sur-Loire",620,530
+"Haute-Marne",3,"Chaumont",470,"Saint-Dizier",510,490
+"Haute-Saône",3,"Lure",450,"Gray",510,480
+"Haute-Savoie",7,"Cluses",790,"Annecy",1100,900
+"Haute-Vienne",3,"Bellac",400,"Limoges",600,480
+"Hautes-Alpes",3,"Embrun",680,"Briançon",720,680
+"Hautes-Pyrénées",3,"Lourdes",540,"Tarbes",580,540
+"Hauts-de-Seine",32,"Bagneux",950,"Neuilly-sur-Seine",1700,1150
+"Hérault",6,"Clermont-l'Hérault",490,"Montpellier",850,640
+"Ille-et-Vilaine",4,"Vitré",600,"Rennes",820,795
+"Indre",3,"Le Blanc",420,"Issoudun",540,480
+"Indre-et-Loire",4,"Chinon",610,"Tours",700,650
+"Isère",7,"Voiron",650,"Bourgoin-Jallieu",790,680
+"Jura",3,"Saint-Claude",540,"Lons-le-Saunier",610,580
+"La Réunion",10,"Saint-Joseph (Réunion)",580,"Saint-Denis (La Réunion)",700,640
+"Landes",4,"Mont-de-Marsan",550,"Hossegor",990,680
+"Loir-et-Cher",3,"Romorantin-Lanthenay",530,"Blois",610,540
+"Loire",5,"Firminy",470,"Montbrison",590,530
+"Loire-Atlantique",12,"Saint-Nazaire",640,"La Baule-Escoublac",920,700
+"Loiret",5,"Gien",540,"Olivet",750,650
+"Lot",3,"Figeac",420,"Gourdon",510,440
+"Lot-et-Garonne",3,"Marmande",560,"Villeneuve-sur-Lot",610,560
+"Lozère",3,"Saint-Chély-d'Apcher",440,"Mende",480,480
+"Maine-et-Loire",4,"Trélazé",580,"Angers",750,600
+"Manche",3,"Saint-Lô",570,"Cherbourg-en-Cotentin",620,610
+"Marne",3,"Châlons-en-Champagne",540,"Reims",680,630
+"Martinique",4,"Le Robert (Martinique)",670,"Fort-de-France",750,700
+"Mayenne",3,"Laval",490,"Mayenne",570,520
+"Mayotte",1,"Mamoudzou",900,"Mamoudzou",900,900
+"Métropole de Lyon",15,"Givors",660,"Caluire-et-Cuire",1080,900
+"Meurthe-et-Moselle",5,"Vandœuvre-lès-Nancy",620,"Nancy",710,680
+"Meuse",3,"Commercy",420,"Bar-le-Duc",540,510
+"Morbihan",5,"Lanester",570,"Vannes",850,790
+"Moselle",8,"Forbach",500,"Metz",680,570
+"Nièvre",3,"Clamecy",450,"Nevers",530,520
+"Nord",14,"Denain",450,"Lille",800,545
+"Oise",7,"Creil",590,"Chantilly",1000,670
+"Orne",3,"Alençon",460,"Flers",540,540
+"Paris",1,"Paris",1800,"Paris",1800,1800
+"Pas-de-Calais",10,"Lens",440,"Berck",630,530
+"Puy-de-Dôme",4,"Thiers",510,"Clermont-Ferrand",680,580
+"Pyrénées-Atlantiques",6,"Pau",680,"Biarritz",1000,895
+"Pyrénées-Orientales",3,"Céret",630,"Collioure",880,650
+"Rhône",1,"Villefranche-sur-Saône",800,"Villefranche-sur-Saône",800,800
+"Saône-et-Loire",4,"Paray-le-Monial",540,"Mâcon",600,545
+"Sarthe",3,"Sablé-sur-Sarthe",510,"Le Mans",650,590
+"Savoie",3,"Albertville",740,"Aix-les-Bains",870,820
+"Seine-et-Marne",15,"Provins",690,"Meaux",1020,920
+"Seine-Maritime",6,"Dieppe",610,"Mont-Saint-Aignan",750,665
+"Seine-Saint-Denis",29,"Stains",740,"Saint-Ouen-sur-Seine",1180,880
+"Somme",3,"Péronne",490,"Amiens",680,620
+"Tarn",3,"Castres",520,"Albi",620,600
+"Tarn-et-Garonne",3,"Castelsarrasin",590,"Montauban",650,590
+"Territoire de Belfort",2,"Delle",480,"Belfort",520,500
+"Val-d'Oise",21,"Villiers-le-Bel",720,"Pontoise",1100,880
+"Val-de-Marne",26,"Créteil",950,"Nogent-sur-Marne",1380,1065
+"Var",10,"Draguignan",720,"Saint-Tropez",1800,920
+"Vaucluse",8,"Cavaillon",640,"Gordes",1150,720
+"Vendée",5,"Fontenay-le-Comte",560,"Noirmoutier-en-l'Île",820,640
+"Vienne",3,"Montmorillon",440,"Poitiers",660,480
+"Vosges",3,"Épinal",490,"Gérardmer",650,500
+"Yonne",3,"Auxerre",490,"Sens",690,510
+"Yvelines",19,"Mantes-la-Jolie",800,"Versailles",1200,970
