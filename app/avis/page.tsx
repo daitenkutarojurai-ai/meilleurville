@@ -43,6 +43,17 @@ const AXES: { key: keyof (typeof CITIES_LIGHT)[number]["scores"]; label: string;
   { key: "schools", label: "Écoles", emoji: "🎓" },
 ];
 
+const MOST_ASKED: { href: string; slug: string; label: string }[] = [
+  { href: "/villes/rennes", slug: "rennes", label: "Vivre à Rennes : avis et note" },
+  { href: "/villes/nantes", slug: "nantes", label: "Vivre à Nantes : avis et note" },
+  { href: "/villes/strasbourg", slug: "strasbourg", label: "Strasbourg : avis des habitants" },
+  { href: "/villes/bordeaux", slug: "bordeaux", label: "Bordeaux : avis et qualité de vie" },
+  { href: "/villes/montpellier", slug: "montpellier", label: "Avis sur Montpellier" },
+  { href: "/villes/alencon", slug: "alencon", label: "Vivre à Alençon : avis" },
+  { href: "/villes/cannes/avis-honnete", slug: "cannes", label: "Cannes : notre avis honnête" },
+  { href: "/villes/antony/avis-honnete", slug: "antony", label: "Antony : notre avis honnête" },
+];
+
 function CityRow({ rank, slug, name, department, score, podium = false }: {
   rank: number;
   podium?: boolean;
@@ -343,6 +354,33 @@ export default function AvisHubPage() {
         <EmojiBadge emoji="🧭" tone="aqua" size="sm" />
         <h2 className="text-2xl font-bold text-[var(--text-primary)]">Aller plus loin</h2>
         </div>
+        {/* Avis les plus cherchés : fiches et pages avis-honnete en position
+            8-20 (Search Console, docs/seo/cibles.md § 4 et § 7). /avis est une
+            page forte (position 7,5) ; l'ancre reprend la requête. Routine 2,
+            chantier D, 2026-11-24. */}
+        <h3 className="mt-6 text-base font-semibold text-[var(--text-primary)]">
+          Les avis de villes les plus demandés
+        </h3>
+        <ul className="mt-3 grid grid-cols-1 gap-2 text-sm sm:grid-cols-2">
+          {MOST_ASKED.map(({ href, slug, label }) => {
+            const c = CITIES_LIGHT.find((x) => x.slug === slug);
+            return (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="flex items-center justify-between gap-3 rounded-xl bg-white px-4 py-2.5 ring-1 ring-[#C7D2FE] hover:ring-[#818CF8] transition-colors"
+                >
+                  <span className="font-medium text-[var(--text-primary)]">{label}</span>
+                  {c && (
+                    <span className={`shrink-0 tabular-nums text-xs font-bold ${scoreColor(c.scores.global)}`}>
+                      {c.scores.global.toFixed(1).replace(".", ",")}/10
+                    </span>
+                  )}
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
         <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Link
             href="/classements"

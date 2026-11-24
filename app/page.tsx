@@ -111,6 +111,15 @@ export default function HomePage() {
                   </Link>
                 ))}
               </div>
+              <ContextLinks
+                label="Pour aller plus loin"
+                links={[
+                  ["/guides/villes-france-moins-cheres-2026-top-10", "Top 10 des villes les moins chères"],
+                  ["/guides/vivre-ile-de-france-alternatives-pas-cheres-2025", "Villes à 1h de Paris, moins chères"],
+                  ["/guides/vivre-en-zrr-aides-fiscales-zones-rurales-france-2026", "Vivre en ZRR : aides et communes"],
+                  ["/pour-qui/retraites", "Les meilleures villes pour la retraite"],
+                ]}
+              />
             </div>
           </section>
         );
@@ -174,6 +183,17 @@ export default function HomePage() {
               );
             })}
           </div>
+          <ContextLinks
+            label="Nos comparatifs détaillés"
+            links={[
+              ["/guides/toulouse-vs-bordeaux-comparatif-2025", "Toulouse ou Bordeaux"],
+              ["/guides/aix-en-provence-vs-marseille-comparatif-2026", "Aix-en-Provence ou Marseille"],
+              ["/guides/annecy-vs-chambery-comparatif-2026", "Annecy ou Chambéry"],
+              ["/guides/angers-vs-tours-comparatif-2026", "Angers ou Tours"],
+              ["/guides/le-mans-vs-tours-comparatif-2026", "Le Mans ou Tours"],
+              ["/guides/dijon-vs-besancon-comparatif-2025", "Dijon ou Besançon"],
+            ]}
+          />
         </div>
       </section>
 
@@ -214,5 +234,28 @@ export default function HomePage() {
       <NewsletterSection />
       <Footer />
     </main>
+  );
+}
+
+// Liens contextuels de l'accueil (page la plus forte du site, position 3,8)
+// vers des pages déjà classées en position 8-20 — docs/seo/cibles.md § 4.
+// Les ancres reprennent la requête. Routine 2, chantier D, 2026-11-24.
+function ContextLinks({ label, links }: { label: string; links: [string, string][] }) {
+  return (
+    <nav aria-label={label} className="mt-6">
+      <p className="text-xs uppercase tracking-widest text-[var(--text-tertiary)] font-semibold mb-2">{label}</p>
+      <ul className="flex flex-wrap gap-2">
+        {links.map(([href, text]) => (
+          <li key={href}>
+            <Link
+              href={href}
+              className="inline-flex min-h-10 items-center rounded-full bg-[var(--bg-surface)] px-4 py-2 text-sm font-medium text-[var(--text-primary)] ring-1 ring-[var(--border)] hover:text-[var(--accent)] hover:ring-[var(--accent)]/40 transition-colors"
+            >
+              {text} →
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </nav>
   );
 }

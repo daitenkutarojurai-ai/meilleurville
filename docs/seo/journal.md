@@ -1,5 +1,10 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-24 · routine 2/4 Croissance SEO · chantier D (maillage depuis les pages fortes)
+  - +25 liens contextuels vers des pages en position 8-20 (cibles § 4/§ 7), ancres = requête : accueil +10 (6 guides vs, moins chères, 1h de Paris, ZRR, /pour-qui/retraites), /avis +8 (fiches Rennes, Nantes, Strasbourg, Bordeaux, Montpellier, Alençon ; avis-honnete Cannes, Antony).
+  - Gabarit /classements/[slug] : guides épinglés en tête des « Guides associés » sur 8 classements (budget, logement, investissement, bord-de-mer, soleil, famille, jeunes-actifs, télétravail).
+  - relatedGuides : metz-vs-nancy +2, normandie-vs-bretagne +3, toulouse-vs-bordeaux +2 (guides vs et bord-de-mer en page 2).
+  - Suite : chantier B (faits propres par ville, top § 5) ; mesurer ces cibles à l'export de décembre.
 - 2026-11-24 · session manuelle (propriétaire + Claude) · commits 7309fca + millésime 2027
   - 13 guides vivre-a-*-2026 oubliés renommés « S’installer à X en 2026 », puis passés en 2027 avec le reste.
   - Millésime 2027 : 2 911 guides FR/EN (title, metaTitle, metaDesc ; 61 exclus car l’année y est un fait) + ≈ 420 lignes de titres de gabarits (fiche ville, classements, rankings, red flags, profils, vacances). Slugs inchangés. Règle dans strategie-audience § 4.

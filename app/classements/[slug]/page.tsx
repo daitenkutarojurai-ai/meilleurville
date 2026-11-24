@@ -99,14 +99,46 @@ export default async function RankingPage({ params }: Props) {
   };
   const allowedCategories = guideCategoryMap[slug] ?? ["lifestyle"];
   const topCitySlugs = new Set(ranked.slice(0, 10).map((r) => r.city.slug));
-  const relatedGuides = GUIDES.filter((g) => allowedCategories.includes(g.category))
+  // Guides épinglés en tête des « Guides associés » : pages déjà classées en
+  // position 8-20 (Search Console, docs/seo/cibles.md § 4 et § 7) qui répondent
+  // à la même intention que le classement. Le classement est une page forte
+  // (position ≈ 9, CTR 2,4 %) ; ce lien contextuel est le plus court chemin
+  // d'autorité vers elles. Routine 2, chantier D, 2026-11-24.
+  const pinnedGuideSlugs: Record<string, string[]> = {
+    budget: [
+      "villes-france-moins-cheres-2026-top-10",
+      "vivre-ile-de-france-alternatives-pas-cheres-2025",
+      "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+    ],
+    logement: [
+      "villes-france-moins-cheres-2026-top-10",
+      "vivre-ile-de-france-alternatives-pas-cheres-2025",
+    ],
+    investissement: ["vivre-en-zrr-aides-fiscales-zones-rurales-france-2026"],
+    "bord-de-mer": ["meilleures-villes-bord-de-mer-france-2025"],
+    soleil: ["vivre-en-var-guide-2026", "meilleures-villes-bord-de-mer-france-2025"],
+    famille: ["villes-france-ecoles-alternatives-montessori-2026"],
+    "jeunes-actifs": [
+      "grande-ville-ou-ville-moyenne-ou-vit-on-le-mieux",
+      "petites-villes-50000-habitants-tout-france-2026",
+    ],
+    teletravail: [
+      "petites-villes-50000-habitants-tout-france-2026",
+      "vivre-en-zrr-aides-fiscales-zones-rurales-france-2026",
+    ],
+  };
+  const pinned = (pinnedGuideSlugs[slug] ?? [])
+    .map((s) => GUIDES.find((g) => g.slug === s))
+    .filter((g): g is (typeof GUIDES)[number] => Boolean(g));
+  const pinnedSet = new Set(pinned.map((g) => g.slug));
+  const relatedGuides = [...pinned, ...GUIDES.filter((g) => allowedCategories.includes(g.category) && !pinnedSet.has(g.slug))
     .map((g) => {
       const overlap = g.relatedCities.filter((s) => topCitySlugs.has(s)).length;
       return { g, score: overlap * 2, date: new Date(g.updatedAt).getTime() };
     })
     .sort((a, b) => (b.score !== a.score ? b.score - a.score : b.date - a.date))
-    .slice(0, 6)
-    .map((x) => x.g);
+    .slice(0, Math.max(3, 6 - pinned.length))
+    .map((x) => x.g)];
 
   const topName = ranked[0]?.city.name ?? "—";
   const topScore = ranked[0]?.score ?? 0;
