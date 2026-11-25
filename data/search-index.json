@@ -4517,6 +4517,21 @@
       "emoji": "☀️"
     },
     {
+      "slug": "tours-vs-orleans-comparatif-2027",
+      "title": "Tours ou Orléans : quelle ville de la Loire choisir en 2027 ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "sete-vs-montpellier-comparatif-2027",
+      "title": "Sète ou Montpellier : où vivre dans l'Hérault en 2027 ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "colmar-vs-mulhouse-comparatif-2027",
+      "title": "Colmar ou Mulhouse : où vivre dans le Haut-Rhin en 2027 ?",
+      "emoji": "🥨"
+    },
+    {
       "slug": "narbonne-vs-perpignan-comparatif-2026",
       "title": "Narbonne ou Perpignan : quelle ville choisir en 2027 ?",
       "emoji": "🌞"
@@ -12314,6 +12329,11 @@
       "count": 20
     },
     {
+      "slug": "montpellier",
+      "label": "Montpellier",
+      "count": 20
+    },
+    {
       "slug": "primo-accedant",
       "label": "primo-accédant",
       "count": 20
@@ -12331,11 +12351,6 @@
     {
       "slug": "famille-monoparentale-nouvelle-aquitaine",
       "label": "famille monoparentale Nouvelle-Aquitaine",
-      "count": 19
-    },
-    {
-      "slug": "montpellier",
-      "label": "Montpellier",
       "count": 19
     },
     {
@@ -12469,6 +12484,11 @@
       "count": 12
     },
     {
+      "slug": "alsace",
+      "label": "Alsace",
+      "count": 11
+    },
+    {
       "slug": "investissement-locatif",
       "label": "investissement locatif",
       "count": 11
@@ -12492,11 +12512,6 @@
       "slug": "tgv",
       "label": "TGV",
       "count": 11
-    },
-    {
-      "slug": "alsace",
-      "label": "Alsace",
-      "count": 10
     },
     {
       "slug": "emploi",
@@ -12574,6 +12589,11 @@
       "count": 9
     },
     {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
+      "count": 9
+    },
+    {
       "slug": "enfants",
       "label": "enfants",
       "count": 9
@@ -12626,6 +12646,11 @@
     {
       "slug": "tgv-paris",
       "label": "TGV Paris",
+      "count": 9
+    },
+    {
+      "slug": "tours",
+      "label": "Tours",
       "count": 9
     },
     {
@@ -12691,11 +12716,6 @@
     {
       "slug": "reims",
       "label": "Reims",
-      "count": 8
-    },
-    {
-      "slug": "tours",
-      "label": "Tours",
       "count": 8
     },
     {
@@ -12774,6 +12794,11 @@
       "count": 7
     },
     {
+      "slug": "mulhouse",
+      "label": "Mulhouse",
+      "count": 7
+    },
+    {
       "slug": "nice",
       "label": "Nice",
       "count": 7
@@ -12839,11 +12864,6 @@
       "count": 6
     },
     {
-      "slug": "comparatif-villes",
-      "label": "comparatif villes",
-      "count": 6
-    },
-    {
       "slug": "dvf",
       "label": "DVF",
       "count": 6
@@ -12899,13 +12919,13 @@
       "count": 6
     },
     {
-      "slug": "mulhouse",
-      "label": "Mulhouse",
+      "slug": "nancy",
+      "label": "Nancy",
       "count": 6
     },
     {
-      "slug": "nancy",
-      "label": "Nancy",
+      "slug": "orleans",
+      "label": "Orléans",
       "count": 6
     },
     {
@@ -12964,6 +12984,11 @@
       "count": 5
     },
     {
+      "slug": "colmar",
+      "label": "Colmar",
+      "count": 5
+    },
+    {
       "slug": "cout-de-la-vie",
       "label": "coût de la vie",
       "count": 5
@@ -13011,11 +13036,6 @@
     {
       "slug": "monoparental-val-de-marne",
       "label": "monoparental Val-de-Marne",
-      "count": 5
-    },
-    {
-      "slug": "orleans",
-      "label": "Orléans",
       "count": 5
     },
     {
@@ -13111,11 +13131,6 @@
     {
       "slug": "chartres",
       "label": "Chartres",
-      "count": 4
-    },
-    {
-      "slug": "colmar",
-      "label": "Colmar",
       "count": 4
     },
     {
@@ -13554,6 +13569,11 @@
       "count": 3
     },
     {
+      "slug": "herault",
+      "label": "Hérault",
+      "count": 3
+    },
+    {
       "slug": "hopital",
       "label": "hôpital",
       "count": 3
@@ -13949,6 +13969,11 @@
       "count": 3
     },
     {
+      "slug": "sete",
+      "label": "Sète",
+      "count": 3
+    },
+    {
       "slug": "sorties-hauts-de-france-beffrois",
       "label": "sorties Hauts-de-France beffrois",
       "count": 3
@@ -13991,6 +14016,11 @@
     {
       "slug": "troyes",
       "label": "Troyes",
+      "count": 3
+    },
+    {
+      "slug": "val-de-loire",
+      "label": "Val de Loire",
       "count": 3
     },
     {

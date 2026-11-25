@@ -8586,6 +8586,153 @@ export const GUIDES: Guide[] = [
     tags: ["Marseille","Montpellier","comparatif villes","Sud de la France","marseille ou montpellier"],
   },
   {
+    slug: "tours-vs-orleans-comparatif-2027",
+    title: "Tours ou Orléans : quelle ville de la Loire choisir en 2027 ?",
+    metaTitle: "Tours ou Orléans 2027 : loyers, notes, verdict",
+    metaDesc: "Tours ou Orléans ? Notes /10 (6,4 contre 5,8), loyer T2 identique à 700 €, achat à 2 700 contre 2 400 €/m² : le verdict chiffré pour choisir où vivre.",
+    category: "comparaison",
+    emoji: "🏰",
+    readMinutes: 7,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Tours ou Orléans : prenez Tours si vous voulez la ville la mieux notée des deux (6,4/10 contre 5,8) pour un loyer qui ne change pas, prenez Orléans si vous achetez et que le prix au m² compte plus que le reste. Le T2 se loue 700 € dans les deux villes selon notre estimation ; à l'achat, Tours coûte environ 300 €/m² de plus (2 700 € contre 2 400 €).\n\nTours compte environ 139 000 habitants et Orléans environ 116 000. Tous les chiffres ci-dessous viennent de nos fiches ville : notes rendues sur 10 (10 = meilleur), loyers et prix de notre estimation, niveau de vie de l'Insee.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Tours et à Orléans ?",
+        body: "À la location, il n'y a presque aucune différence. Notre estimation des loyers donne 510 € pour un T1, 700 € pour un T2 et 940 € pour un T3 à Tours, contre 510 €, 700 € et 930 € à Orléans. À l'achat, l'écart apparaît : 2 700 €/m² à Tours contre 2 400 €/m² à Orléans, soit environ 12 % de plus, ou 18 000 € sur un appartement de 60 m².\n\nLoyer T2 : Tours 700 €, Orléans 700 €. Loyer T3 : Tours 940 €, Orléans 930 €. Achat au m² : Tours 2 700 €, Orléans 2 400 €. Note « coût de la vie » : Tours 5,9/10, Orléans 6,2/10.\n\nLe niveau de vie médian est lui aussi quasi identique : 21 250 € par an et par unité de consommation à Tours, 21 370 € à Orléans (Insee, Filosofi 2021), avec un taux de pauvreté de 21 % contre 22 %. Locataire, vous ne gagnerez rien à choisir l'une plutôt que l'autre sur le budget ; acheteur, Orléans laisse plus de marge.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Tours ou Orléans ?",
+        body: "Tours gagne sur la note globale (6,4 contre 5,8) et sur sept axes sur huit. Orléans ne l'emporte que sur le coût de la vie (6,2 contre 5,9).\n\nNote globale : Tours 6,4, Orléans 5,8. Qualité de vie : Tours 6,6, Orléans 5,5. Transports : Tours 7,0, Orléans 6,4. Nature : Tours 5,0, Orléans 4,8. Sécurité : Tours 5,5, Orléans 5,1. Culture : Tours 7,3, Orléans 6,6. Télétravail : Tours 7,3, Orléans 5,8. Écoles : Tours 7,9, Orléans 6,6.\n\nLes plus gros écarts portent sur les écoles (1,3 point), le télétravail (1,5 point) et la qualité de vie (1,1 point). Pour une famille ou un télétravailleur, c'est ce qui compte. Sur la nature, les deux villes sont moyennes : aucune n'est une ville verte, et la Loire est leur principal atout commun.",
+      },
+      {
+        heading: "Où fait-il meilleur : Tours ou Orléans ?",
+        body: "Les deux villes ont le même climat océanique dégradé du Val de Loire. Nos fiches donnent environ 1 880 heures d'ensoleillement par an à Tours contre 1 810 à Orléans, 22,6 °C en moyenne en juillet contre 22,3 °C, et 5,0 °C en janvier contre 4,1 °C. Tours est un peu plus douce l'hiver, Orléans un peu plus fraîche : l'écart est d'environ un degré, pas de quoi décider.",
+      },
+      {
+        heading: "Études, emploi et proximité de Paris",
+        body: "Tours est la plus universitaire des deux ; sa note de télétravail (7,3 contre 5,8) en fait aussi la meilleure base pour un salarié à distance. Orléans joue sa carte sur la proximité de l'Île-de-France : le surnom de « Paris proche » figure dans ses étiquettes de ville, et c'est un atout pour qui fait des allers-retours réguliers. Dans les deux cas, vérifiez vos horaires de train avant de signer un bail.",
+      },
+      {
+        heading: "Le verdict : Tours ou Orléans selon votre profil",
+        body: "Choisissez Tours si vous êtes en famille, étudiant ou télétravailleur : meilleures écoles, meilleure note de télétravail, meilleure culture, pour le même loyer. Choisissez Orléans si vous achetez et que 300 €/m² d'économie pèsent dans votre plan de financement, ou si vous voulez rester proche de Paris. Locataire sans contrainte particulière : Tours l'emporte sur presque tous les axes.",
+      },
+      {
+        heading: "FAQ : Tours ou Orléans",
+        body: "**Quelle ville est la moins chère ?** À la location, elles se valent (700 € le T2). À l'achat, Orléans, de 300 €/m² selon notre estimation.\n\n**Quelle ville est la mieux notée ?** Tours, 6,4/10 contre 5,8 pour Orléans.\n\n**Quelle ville est la plus sûre ?** Tours dans nos notes (5,5 contre 5,1 sur 10), un écart faible à lire comme une tendance, pas comme un classement de quartiers.\n\n**Peut-on vivre dans l'une et travailler dans l'autre ?** C'est possible en train, mais la durée du trajet en fait une contrainte quotidienne : testez-la avant de vous engager.",
+      },
+    ],
+    relatedCities: ["tours", "orleans", "blois", "angers", "le-mans", "bourges"],
+    relatedGuides: [
+      "vivre-a-tours-2026",
+      "vivre-a-orleans-2026",
+      "centre-val-de-loire-tours-orleans-guide-2025",
+      "angers-vs-tours-comparatif-2026",
+      "le-mans-vs-tours-comparatif-2026",
+      "acheter-a-tours-quel-quartier-budget-2026",
+      "acheter-a-orleans-quel-quartier-budget-2026",
+    ],
+    tags: ["Tours", "Orléans", "Val de Loire", "comparatif villes", "tours ou orléans", "orléans ou tours", "tours vs orléans"],
+  },
+  {
+    slug: "sete-vs-montpellier-comparatif-2027",
+    title: "Sète ou Montpellier : où vivre dans l'Hérault en 2027 ?",
+    metaTitle: "Sète ou Montpellier 2027 : loyers, notes, verdict",
+    metaDesc: "Sète ou Montpellier ? Loyer T2 à 680 € contre 850 €, achat à 2 600 contre 3 900 €/m², sécurité, transports, écoles : le verdict chiffré pour choisir.",
+    category: "comparaison",
+    emoji: "🌊",
+    readMinutes: 7,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Sète ou Montpellier : prenez Sète si le budget et la mer passent avant les services (T2 à 680 € contre 850 €, achat à 2 600 € contre 3 900 €/m²), prenez Montpellier si vous avez besoin de transports, d'écoles et d'un marché de l'emploi à distance (7,8/10 de télétravail contre 4,8). Les notes globales sont proches : 5,6 pour Montpellier, 5,4 pour Sète.\n\nMontpellier compte environ 285 000 habitants, Sète environ 46 000, à une trentaine de kilomètres de distance. Tous les chiffres viennent de nos fiches ville : notes rendues sur 10 (10 = meilleur), loyers et prix de notre estimation.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Sète et à Montpellier ?",
+        body: "Sète est environ 20 % moins chère à la location et un tiers moins chère à l'achat. Notre estimation des loyers donne 490 € pour un T1, 680 € pour un T2 et 920 € pour un T3 à Sète, contre 620 €, 850 € et 1 150 € à Montpellier. Sur un T2, l'écart est de 170 € par mois, soit 2 040 € par an. À l'achat, le prix moyen est de 2 600 €/m² à Sète contre 3 900 €/m² à Montpellier : 1 300 €/m² d'écart, soit 78 000 € sur 60 m².\n\nLoyer T2 : Sète 680 €, Montpellier 850 €. Loyer T3 : Sète 920 €, Montpellier 1 150 €. Achat au m² : Sète 2 600 €, Montpellier 3 900 €. Note « coût de la vie » : Sète 5,3/10, Montpellier 4,7/10.\n\nLe niveau de vie médian est proche : 19 960 € par an et par unité de consommation à Sète, 19 670 € à Montpellier (Insee, Filosofi 2021), avec un taux de pauvreté de 25 % contre 28 %. À revenu équivalent, Sète pèse donc moins lourd sur le budget.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Sète ou Montpellier ?",
+        body: "Montpellier est devant sur quatre axes (transports, culture, télétravail, écoles) et la note globale (5,6 contre 5,4). Sète gagne sur le coût de la vie et la sécurité ; la qualité de vie et la nature sont à égalité.\n\nNote globale : Sète 5,4, Montpellier 5,6. Qualité de vie : 5,9 pour les deux. Transports : Sète 4,9, Montpellier 7,7. Nature : 6,4 pour les deux. Sécurité : Sète 4,5, Montpellier 3,7. Culture : Sète 7,3, Montpellier 7,6. Télétravail : Sète 4,8, Montpellier 7,8. Écoles : Sète 4,5, Montpellier 7,0.\n\nLes écarts qui décident sont les transports (2,8 points), le télétravail (3,0 points) et les écoles (2,5 points) en faveur de Montpellier. La sécurité, mal notée dans les deux villes, est meilleure à Sète (0,8 point), mais 4,5 reste une note basse : à lire comme une tendance, pas comme un verdict sur un quartier.",
+      },
+      {
+        heading: "Où fait-il meilleur : Sète ou Montpellier ?",
+        body: "Les deux villes ont un climat méditerranéen très ensoleillé. Nos fiches donnent environ 2 800 heures d'ensoleillement par an à Sète contre 2 740 à Montpellier. Sète, face à la mer, est plus fraîche l'été (25,5 °C en moyenne en juillet contre 27 °C) et un peu plus douce l'hiver (8,0 °C en janvier contre 7,7 °C). Ceux qui supportent mal la chaleur d'août préféreront Sète.",
+      },
+      {
+        heading: "Emploi, études et déplacements",
+        body: "Montpellier est un pôle universitaire et d'emploi de premier plan : transports notés 7,7, télétravail 7,8, écoles 7,0. Sète est une ville de port, de pêche et de tourisme, plus petite, moins bien dotée en offre de formation et de transports (4,9). Vivre à Sète et travailler à Montpellier est une option courante, à condition de compter le trajet : c'est un arbitrage entre un loyer de 170 € plus bas et un temps de transport quotidien.",
+      },
+      {
+        heading: "Le verdict : Sète ou Montpellier selon votre profil",
+        body: "Choisissez Sète si vous êtes retraité, indépendant ou acheteur : mer, canaux, ville à taille humaine et 1 300 €/m² d'économie. Choisissez Montpellier si vous êtes étudiant, en famille ou salarié qui a besoin d'un réseau de transports, d'écoles bien notées et d'un bassin d'emploi. Pour un couple actif, le compromis Sète plus trajet est à tester avant de signer.",
+      },
+      {
+        heading: "FAQ : Sète ou Montpellier",
+        body: "**Quelle ville est la moins chère ?** Sète, de 170 € par mois sur un T2 et de 1 300 €/m² à l'achat selon notre estimation.\n\n**Quelle ville est la mieux notée ?** Montpellier de peu, 5,6/10 contre 5,4 pour Sète.\n\n**Quelle ville est la plus sûre ?** Sète dans nos notes (4,5 contre 3,7 sur 10), mais les deux restent sous la moyenne.\n\n**Sète est-elle une bonne ville pour la retraite ?** Nos notes la placent bien sur la nature (6,4) et la culture (7,3) ; voir notre guide retraite à Sète.",
+      },
+    ],
+    relatedCities: ["sete", "montpellier", "beziers", "nimes", "perpignan", "narbonne"],
+    relatedGuides: [
+      "retraite-a-sete-2026",
+      "10-choses-a-faire-a-sete-2026",
+      "vivre-a-montpellier-2026",
+      "perpignan-vs-montpellier-comparatif-2026",
+      "marseille-vs-montpellier-comparatif-2026",
+      "montpellier-vs-toulouse-comparatif-2026",
+      "acheter-a-montpellier-quel-quartier-budget-2026",
+    ],
+    tags: ["Sète", "Montpellier", "Hérault", "comparatif villes", "sète ou montpellier", "vivre à sète", "loyers Occitanie"],
+  },
+  {
+    slug: "colmar-vs-mulhouse-comparatif-2027",
+    title: "Colmar ou Mulhouse : où vivre dans le Haut-Rhin en 2027 ?",
+    metaTitle: "Colmar ou Mulhouse 2027 : loyers, notes, verdict",
+    metaDesc: "Colmar ou Mulhouse ? Notes /10 (6,4 contre 5,8), loyer T2 à 750 € contre 580 €, achat à 3 000 contre 1 700 €/m² : le verdict chiffré pour choisir.",
+    category: "budget",
+    emoji: "🥨",
+    readMinutes: 7,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Colmar ou Mulhouse : prenez Colmar si vous voulez la ville la mieux notée (6,4/10 contre 5,8) et la plus sûre, prenez Mulhouse si le prix du logement décide (T2 à 580 € contre 750 €, achat à 1 700 € contre 3 000 €/m²). Colmar gagne sur cinq axes, Mulhouse sur les transports et le coût de la vie.\n\nColmar compte environ 68 000 habitants, Mulhouse environ 108 000. Tous les chiffres viennent de nos fiches ville : notes rendues sur 10 (10 = meilleur), loyers et prix de notre estimation, niveau de vie de l'Insee.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Colmar et à Mulhouse ?",
+        body: "Mulhouse est nettement moins chère, surtout à l'achat. Notre estimation des loyers donne 550 € pour un T1, 750 € pour un T2 et 1 000 € pour un T3 à Colmar, contre 420 €, 580 € et 780 € à Mulhouse. Sur un T2, l'écart est de 170 € par mois, soit 2 040 € par an. À l'achat, le prix moyen est de 3 000 €/m² à Colmar contre 1 700 €/m² à Mulhouse : 1 300 €/m² d'écart, soit 78 000 € sur 60 m². Colmar coûte environ 76 % de plus que Mulhouse à l'achat.\n\nLoyer T2 : Colmar 750 €, Mulhouse 580 €. Loyer T3 : Colmar 1 000 €, Mulhouse 780 €. Achat au m² : Colmar 3 000 €, Mulhouse 1 700 €. Note « coût de la vie » : Colmar 6,2/10, Mulhouse 6,4/10.\n\nLe niveau de vie médian pèse aussi dans l'arbitrage : 21 120 € par an et par unité de consommation à Colmar contre 16 620 € à Mulhouse (Insee, Filosofi 2021), avec un taux de pauvreté de 21 % contre 36 %. Le logement est moins cher à Mulhouse, mais les ménages y ont aussi moins de revenus.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Colmar ou Mulhouse ?",
+        body: "Colmar gagne sur la note globale (6,4 contre 5,8) et sur cinq axes. Mulhouse l'emporte sur les transports (7,0 contre 6,1) et le coût de la vie (6,4 contre 6,2) ; le télétravail est à égalité à 6,3.\n\nNote globale : Colmar 6,4, Mulhouse 5,8. Qualité de vie : Colmar 6,8, Mulhouse 5,5. Sécurité : Colmar 6,1, Mulhouse 4,5. Nature : Colmar 5,9, Mulhouse 5,0. Culture : Colmar 7,6, Mulhouse 6,9. Écoles : Colmar 6,6, Mulhouse 5,8. Transports : Colmar 6,1, Mulhouse 7,0. Télétravail : 6,3 pour les deux.\n\nL'écart de sécurité (1,6 point) et de qualité de vie (1,3 point) est celui qui compte le plus pour une famille. À lire comme une tendance par ville, pas comme un classement de quartiers : à Mulhouse, la situation varie beaucoup d'un secteur à l'autre.",
+      },
+      {
+        heading: "Où fait-il meilleur : Colmar ou Mulhouse ?",
+        body: "Les deux villes ont le même climat semi-continental d'Alsace, parmi les plus secs de France à l'abri des Vosges. Nos fiches donnent environ 1 680 heures d'ensoleillement par an à Colmar contre 1 780 à Mulhouse, 22,5 °C en moyenne en juillet pour les deux, et 2,8 °C en janvier à Colmar contre 2,5 °C à Mulhouse. Le climat ne départage pas les deux villes.",
+      },
+      {
+        heading: "Emploi, transports et frontière suisse",
+        body: "Mulhouse est mieux notée sur les transports (7,0 contre 6,1) et affiche l'étiquette « frontalier-Suisse » dans nos fiches : c'est la base logique pour travailler du côté de Bâle tout en payant un loyer alsacien. Colmar est plus tournée vers le patrimoine et le tourisme (Petite Venise, vignoble) ; son marché du logement est plus tendu. Si vous travaillez en Suisse ou dans l'industrie, Mulhouse est la plus pratique ; si vous cherchez un cadre de vie, Colmar.",
+      },
+      {
+        heading: "Le verdict : Colmar ou Mulhouse selon votre profil",
+        body: "Choisissez Colmar si vous êtes en famille, retraité ou acheteur avec un budget confortable : meilleures notes de vie, de sécurité, de culture et d'écoles, mais logement plus cher. Choisissez Mulhouse si vous voulez acheter pour 1 700 €/m², travailler en frontalier ou rester sous 600 € pour un T2. Beaucoup de ménages choisissent Colmar pour habiter et Mulhouse pour le travail : testez le trajet avant de vous engager.",
+      },
+      {
+        heading: "FAQ : Colmar ou Mulhouse",
+        body: "**Quelle ville est la moins chère ?** Mulhouse, de 170 € par mois sur un T2 et de 1 300 €/m² à l'achat selon notre estimation.\n\n**Quelle ville est la plus sûre ?** Colmar dans nos notes (6,1 contre 4,5 sur 10), à lire comme une tendance et non un classement de quartiers.\n\n**Quelle ville est la mieux notée ?** Colmar, 6,4/10 contre 5,8 pour Mulhouse.\n\n**Où travailler en Suisse depuis l'Alsace ?** Mulhouse est la plus proche des deux de la frontière ; vérifiez vos temps de trajet réels.",
+      },
+    ],
+    relatedCities: ["colmar", "mulhouse", "strasbourg", "belfort", "besancon"],
+    relatedGuides: [
+      "vivre-a-colmar-2026",
+      "vivre-a-mulhouse-2026",
+      "strasbourg-vs-colmar-comparatif-2026",
+      "strasbourg-vs-mulhouse-comparatif-2025",
+      "vivre-en-alsace-strasbourg-colmar-mulhouse-2025",
+      "acheter-a-colmar-quel-quartier-budget-2026",
+      "acheter-a-mulhouse-quel-quartier-budget-2026",
+    ],
+    tags: ["Colmar", "Mulhouse", "Haut-Rhin", "Alsace", "comparatif villes", "colmar ou mulhouse", "mulhouse ou colmar"],
+  },
+  {
     slug: "narbonne-vs-perpignan-comparatif-2026",
     title: "Narbonne ou Perpignan : quelle ville choisir en 2027 ?",
     metaTitle: "Narbonne ou Perpignan 2027 : loyers, notes, verdict",
@@ -35443,6 +35590,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["montpellier", "nimes", "sete", "beziers", "perpignan"],
     relatedGuides: [
+      "sete-vs-montpellier-comparatif-2027",
       "budget-mensuel-realiste-montpellier-2026",
       "acheter-a-montpellier-quel-quartier-budget-2026",
       "vivre-sans-voiture-montpellier-guide-2026",
@@ -35858,6 +36006,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["tours", "joue-les-tours", "amboise", "blois", "orleans"],
     relatedGuides: [
+      "tours-vs-orleans-comparatif-2027",
       "acheter-a-tours-quel-quartier-budget-2026",
       "quitter-tours-guide-2026",
       "10-choses-a-faire-a-tours-2026",
@@ -36328,6 +36477,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["orleans", "olivet", "blois", "tours", "chartres"],
     relatedGuides: [
+      "tours-vs-orleans-comparatif-2027",
       "acheter-a-orleans-quel-quartier-budget-2026",
       "quitter-orleans-guide-2026",
       "10-choses-a-faire-a-orleans-2026",
@@ -36973,6 +37123,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["mulhouse", "colmar", "belfort", "montbeliard", "strasbourg"],
     relatedGuides: [
+      "colmar-vs-mulhouse-comparatif-2027",
       "acheter-a-mulhouse-quel-quartier-budget-2026",
       "quitter-mulhouse-guide-2026",
       "10-choses-a-faire-a-mulhouse-2026",
@@ -37019,6 +37170,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["colmar", "strasbourg", "mulhouse", "selestat", "obernai"],
     relatedGuides: [
+      "colmar-vs-mulhouse-comparatif-2027",
       "acheter-a-colmar-quel-quartier-budget-2026",
       "quitter-colmar-guide-2026",
       "10-choses-a-faire-a-colmar-2026",
@@ -46890,6 +47042,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["sete", "montpellier", "beziers", "narbonne", "agde"],
     relatedGuides: [
+      "sete-vs-montpellier-comparatif-2027",
       "10-choses-a-faire-a-sete-2026",
       "retraite-a-montpellier-2026",
       "retraite-a-hyeres-2026",

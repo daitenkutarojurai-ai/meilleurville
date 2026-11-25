@@ -34,3 +34,7 @@
   - Cannibalisation (chantier C) : 49 guides vivre-a-*-2026 renommés « S'installer à X en 2026 » (36 + 13 oubliés le 2026-11-24, 7309fca) ; liens fiche ↔ guide. Ne pas re-renommer.
   - Titres retouchés (ne pas y revenir avant le 2026-12-14) : 15 guides (bord-de-mer, moins-chères, ZRR, Var, Pyrénées, Savoie, frontaliers, coût de la vie, Aix/Marseille, Toulouse/Bordeaux, Bretagne/Normandie, Annecy/Chambéry, Limoges, Bayonne, Colmar), classements budget/gastronomie/bord-de-mer, /classements, /avis, accueil, gabarits avis-honnete et fiscalité. Metz vs Nancy volontairement inchangé (page n° 3).
   - Indexation rouverte : /villes/*/bruit et /villes/*/cout-de-la-vie. googleBot max-image-preview:large.
+- 2026-11-25 · routine contenu · 3 comparaisons A vs B
+  - Livré : guides tours-vs-orleans, sete-vs-montpellier (comparaison), colmar-vs-mulhouse (budget) -comparatif-2027 ; notes rendues, loyers, niveau de vie Insee, FAQ ; +6 liens entrants (vivre-a-*, retraite-a-sete).
+  - Cibles (cibles.md § 6) : « tours ou orléans » (30-52 impr.), « vivre à sète ou montpellier » (17, pos. 5,2), « colmar ou mulhouse » (19, pos. 6,5). Compteur FR mesuré : 1729.
+  - Suite : pau vs tarbes, savoie vs haute-savoie (vérifier le doublon avec vivre-en-savoie-haute-savoie).
