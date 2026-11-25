@@ -57,3 +57,6 @@ scripts/instagram-queue.json
 
 # Wikidata/Commons crawl cache (rebuildable: npm run photos)
 /.cache/
+
+# Sorties de scripts/social-weekly.ts
+/social-out/

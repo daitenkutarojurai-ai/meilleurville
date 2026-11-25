@@ -1,0 +1,63 @@
+# Un post par semaine sur la page Facebook « Ma ville ideal » et Instagram @mavilleideal.
+# Le contenu (duel de villes ou ville en chiffres) et ses chiffres sortent du site lui-même :
+# voir scripts/social-weekly.ts. Le jeton de page expire le 2027-01-24 : le job échouera
+# (et GitHub enverra un mail) tant que le secret FB_ACCESS_TOKEN n'est pas renouvelé.
+name: social-weekly
+
+on:
+  schedule:
+    # Mardi 16h30 UTC (17h30 à Paris l'hiver, 18h30 l'été).
+    - cron: "30 16 * * 2"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Générer l'image et la légende sans publier"
+        type: boolean
+        default: true
+      week:
+        description: "Forcer une semaine ISO (vide = semaine courante)"
+        type: string
+        default: ""
+
+concurrency:
+  group: social-weekly
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # Police avec € et accents pour le texte posé par sharp.
+      - name: Fonts
+        run: sudo apt-get install -y -qq fonts-dejavu-core
+
+      - run: npm ci
+
+      - name: Generate and publish
+        env:
+          FB_ACCESS_TOKEN: ${{ secrets.FB_ACCESS_TOKEN }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: >
+          npx --yes tsx --tsconfig tsconfig.json scripts/social-weekly.ts
+          ${{ inputs.dry_run && '--dry-run' || '' }}
+          ${{ inputs.week != '' && inputs.week && format('--week {0}', inputs.week) || '' }}
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: social-post
+          path: social-out/
+          if-no-files-found: ignore
