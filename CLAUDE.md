@@ -514,7 +514,10 @@ Same repo, same build, two Vercel projects, two domains.
   restent en ligne en `noindex, follow` (en-tête posé par le Worker) et sortent du sitemap EN. Liste unique :
   `lib/en-index-policy.ts`, lue par le Worker, `app/sitemap.ts` et `sitemap:check`. Cause : 90 % du sitemap EN
   était du gabarit à 70-97 % identique, sur un domaine sans lien externe → Google a lâché le domaine entier.
-  Une nouvelle famille EN programmatique entre dans cette liste par défaut.
+  Une nouvelle famille EN programmatique entre dans cette liste par défaut. **2ᵉ passe 2026-11-25** (GSC EN :
+  1 clic / 903 impressions en 90 j) : paires `/compare`, `/leaving`, `/living-on`, `/weekend-getaways` sorties
+  aussi (0,85-1,00) → sitemap EN **3 294 URL**. Les paires restent indexées en FR. Mesurer une famille hors
+  sous-page ville : `node scripts/template-similarity.mjs --urls <A1> <B1> …`.
 - **FR : 25 familles gabarit hors index (2026-11-04).** `lib/fr-index-policy.ts` (même mécanique : Worker,
   sitemap, `sitemap:check`) — 20 sous-pages ville + gentrification, cout-menage, calculateur-cout-reel,
   badge, synthèse de paire ; sitemap FR 32 654 → 17 660. Critère : texte de `<main>`, chiffres et noms masqués,

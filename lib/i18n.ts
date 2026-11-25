@@ -40,7 +40,7 @@ export function getCityTitle(
   city: { name: string; descriptionEn?: string; seoTitleEn?: string },
   locale: Locale,
 ): string {
-  if (locale === "en") return city.seoTitleEn ?? `${city.name} — Quality of life, reviews & rankings 2026`;
+  if (locale === "en") return city.seoTitleEn ?? `${city.name} — Quality of life, reviews & rankings 2027`;
   return `${city.name} — Avis habitants, qualité de vie & classements 2026`;
 }
 

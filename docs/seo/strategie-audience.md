@@ -160,3 +160,16 @@ parent-solo, biodiversite, maillage-interne, narration-rework, integrite-donnees
 | Requêtes hors marque en position ≤ 3 (top 1 000) | 66 | 150 |
 | Domaines référents | ≈ 7 | 25 |
 | Fiches ville en position ≤ 10 | 0 sur le top 20 des villes | 10 |
+
+## 9. bestcitiesinfrance.com (export du 2026-11-25)
+
+- **90 jours : 1 clic, 903 impressions**, ≈ 25/jour fin août puis ≈ 10/jour depuis le 1er septembre, position
+  médiane au-delà de 40. Le domaine n'a pas d'autorité propre : le levier n° 1 reste les liens (§ 6), pas l'on-page.
+- **Index** : 2ᵉ passe le 2026-11-25 (`lib/en-index-policy.ts`) — paires `/compare`, `/leaving`, `/living-on`,
+  `/weekend-getaways` en noindex, sitemap EN 3 294 URL. 203 des 463 URL vues dans l'export étaient déjà en
+  noindex depuis le 31/10 : Google ne les avait pas encore recrawlées.
+- **Règle** : aucune nouvelle famille EN programmatique. La routine EN du lundi améliore les guides EN qui ont des
+  impressions (`childcare-france-expat-parents-guide-2026`, `france-vs-spain-where-to-live-2026`,
+  `nantes-living-guide-for-expats-2026`, `montpellier-vs-toulouse-expat-comparison-2026`) avant d'en écrire.
+- **Prochain export EN vers le 2027-01-20** : regarder les impressions par jour (au-dessus de 30 = reprise) et la
+  part d'URL en noindex encore présentes dans l'export.

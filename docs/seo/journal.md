@@ -1,5 +1,11 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-25 · session manuelle · export Search Console de bestcitiesinfrance.com (90 j : 1 clic, 903 impressions, ≈ 10/jour)
+  - Index EN, 2ᵉ passe : `/compare/<paire>` (0,85-1,00), `/leaving/*` (0,98), `/living-on/*` (0,95), `/weekend-getaways/*` (0,94) en noindex ; sitemap EN 4 121 → 3 294. Mesure : `template-similarity.mjs --urls` (nouveau mode).
+  - Worker : `/compare|comparer/b-vs-a` → 301 vers `a-vs-b` quand seule celle-ci existe (404 avant). Sitemap : `lastmod` des fiches, paires et classements 2026-05-24 → 2026-11-24.
+  - Millésime 2027 oublié sur les 593 titres de fiche EN (`seoTitleEn`). Guide childcare EN (« preschool enrollment 2026 », pos. 8,5) : titre, description, section inscription en maternelle 2027.
+  - Suite : nouvel export EN vers le 2027-01-20 (strategie-audience § 9).
+
 - 2026-11-24 · routine 4/4 Rotation (mardi, kit presse) · loyers, villes les moins chères
   - Livré : communiqué dans `/presse`, 2 CSV (par ville, par département : 102), `scripts/export-presse-loyers.ts`, kit `docs/seo/kits-presse/2026-11-24-loyers-villes-moins-cheres.md` (15 types de médias, 3 posts).
   - Cible : « top 20 des villes les moins chères de france » (375 impr., pos. 8,1) + autorité (7 domaines référents).

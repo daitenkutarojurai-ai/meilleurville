@@ -4969,14 +4969,14 @@ export const EN_GUIDES: EnGuide[] = [
   },
   {
     slug: "childcare-france-expat-parents-guide-2026",
-    title: "Childcare in France for Expat Parents: Nursery to Maternelle (2027)",
-    metaTitle: "Childcare in France 2027 — crèche, assistante maternelle",
-    metaDesc: "How childcare works in France in 2027 for expat parents: crèche vs. assistante maternelle vs. private daycare, school enrolment, CAF subsidies, real costs.",
+    title: "Childcare and Preschool in France for Expat Parents (2027)",
+    metaTitle: "Childcare & Preschool in France 2027: Crèche, Enrolment, Costs",
+    metaDesc: "Childcare and preschool in France for expat parents: crèche, childminder or nanny, free école maternelle from 3, when and how to enrol, CAF aid, real costs.",
     category: "family",
     emoji: "👶",
-    readMinutes: 11,
+    readMinutes: 13,
     publishedAt: "2026-05-25",
-    updatedAt: "2026-05-25",
+    updatedAt: "2026-11-25",
     intro: "France has one of the most developed childcare and early-education systems in the world: universal free school from age 3, subsidised daycare, paid parental leave, and direct cash support for families through CAF (Caisse d'Allocations Familiales). For expat parents, the system works once you understand it, but it is dense, region-dependent, and most foreign parents underestimate how early they need to apply. This guide walks through the real options from birth to age 6, what they actually cost in 2026, and how to navigate the system from outside it.",
     sections: [
       {
@@ -4985,7 +4985,11 @@ export const EN_GUIDES: EnGuide[] = [
       },
       {
         heading: "École maternelle: free universal school from age 3",
-        body: "Since the 2019 reform, school is mandatory from age 3 (not 6 as previously). École maternelle covers ages 3 to 6 in three classes: petite section (PS, age 3), moyenne section (MS, age 4), grande section (GS, age 5 to 6). It is **completely free** in public schools: no tuition, no enrolment fees, no books to buy (supplies are provided by the school). Hours are typically 8:30am to 4:30pm Monday, Tuesday, Thursday and Friday, with Wednesday off in most districts (this varies, as about 30% of communes have Wednesday morning school). Lunch (cantine) costs €3 to 7/day on a scaled fee. After-school care (garderie / périscolaire) costs €2 to 5/day. To enrol, go to your mairie (city hall) during pregnancy or as soon as you arrive in France. You will need proof of address, the child's birth certificate (translated and apostilled if foreign), and a vaccination record. The school assignment is by sector (carte scolaire). Private and bilingual schools are also options but charge tuition.",
+        body: "Since the 2019 reform, school is mandatory from age 3 (not 6 as previously). École maternelle covers ages 3 to 6 in three classes: petite section (PS, age 3), moyenne section (MS, age 4), grande section (GS, age 5 to 6). It is **completely free** in public schools: no tuition, no enrolment fees, no books to buy (supplies are provided by the school). Hours are typically 8:30am to 4:30pm Monday, Tuesday, Thursday and Friday, with Wednesday off in most districts (this varies, as about 30% of communes have Wednesday morning school). Lunch (cantine) costs €3 to 7/day on a scaled fee. After-school care (garderie / périscolaire) costs €2 to 5/day. To enrol, go to your mairie (city hall) during its registration window, in the first months of the year your child turns 3, or as soon as you arrive in France. You will need proof of address, the child's birth certificate (translated and apostilled if foreign), and a vaccination record. The school assignment is by sector (carte scolaire). Private and bilingual schools are also options but charge tuition.",
+      },
+      {
+        heading: "Preschool enrolment for September 2027: who, when, how",
+        body: "**Who starts in September 2027.** A child enters petite section in the September of the calendar year in which they turn 3: for the 2027 school year, that means every child born in 2024, including those born in December 2024 who will still be 2 on the first day. Instruction has been compulsory from age 3 since the 2019 school year, so this is not optional: the commune has to find your child a place. **Step 1: register at the mairie.** Each mairie sets its own registration window for September entry. In most cities it opens in January or February and closes in March or April; large cities run it online through the municipal family portal. Check your mairie's website from December. Bring the livret de famille or a full birth certificate (with a sworn translation if it is not in French), proof of address under three months old, and the child's vaccination record showing the compulsory vaccines. The mairie gives you a certificat d'inscription naming the public school assigned to your address. **Step 2: admission at the school.** Take that certificate and the vaccination record to the school's director, usually between April and June, to confirm the place. Canteen and after-school care are booked separately, often on the same municipal portal, and fill up before September in many cities. **Arriving during the year.** You can enrol at any time: go to the mairie as soon as you have an address, and the child joins the assigned school once the two steps are done. **Before age 3.** Some public schools take two-year-olds in a toute petite section, within the places available and with priority for schools in education priority areas (REP and REP+). Ask the mairie when you register. **Private schools under contract** (sous contrat) do not go through the mairie: apply to the school directly, often in the autumn before entry, and expect fees set by each school.",
       },
       {
         heading: "CAF: the direct cash and subsidy machine",

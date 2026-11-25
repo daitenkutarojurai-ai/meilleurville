@@ -855,6 +855,24 @@ const RETIRED_EN_GUIDES: Record<string, string> = {
   "french-property-purchase-guide-for-expats-2026": "buying-property-in-france-expat-guide-2026",
 };
 
+/**
+ * `/compare/b-vs-a` quand seule `/compare/a-vs-b` existe (idem `/comparer/` en FR).
+ *
+ * Les paires sont générées dans un seul ordre, mais on les cherche dans les deux :
+ * « grenoble vs lyon » et « lyon vs grenoble », « courbevoie nanterre » et
+ * « nanterre courbevoie » figurent côte à côte dans la Search Console EN
+ * (export du 2026-11-25), et l'URL inversée répondait 404. Le chemin rendu ici
+ * n'est qu'un candidat : l'appelant ne redirige que si l'asset existe, jamais
+ * de 301 vers un 404. Paires seulement : un trio n'a pas d'ordre « inverse ».
+ */
+function reversedPairPath(path: string, head: "compare" | "comparer"): string | null {
+  const m = path.match(/^\/(compare|comparer)\/([a-z0-9-]+)(?:\/(synthesis|synthese))?$/);
+  if (!m || m[1] !== head) return null;
+  const halves = m[2].split("-vs-");
+  if (halves.length !== 2 || !halves[0] || !halves[1]) return null;
+  return `/${head}/${halves[1]}-vs-${halves[0]}${m[3] ? `/${m[3]}` : ""}`;
+}
+
 /** `/guides/<slug retiré>` sur le domaine EN → l'URL EN canonique, ou null. */
 function retiredEnGuideTarget(pathname: string): string | null {
   const parts = pathname.replace(/\/+$/, "").split("/").filter(Boolean);
@@ -1027,7 +1045,14 @@ export default {
         if (enAsset.status !== 404) return enAsset;
         const isInfraFile =
           /\.[a-z0-9]+$/i.test(path) || path === "/opengraph-image" || path.endsWith("/opengraph-image");
-        if (!isInfraFile) return serve404();
+        if (!isInfraFile) {
+          const rev = reversedPairPath(path, "compare");
+          if (rev) {
+            const revAsset = await env.ASSETS.fetch(new Request(new URL(`/en${rev}`, url), request));
+            if (revAsset.status !== 404) return Response.redirect(`${url.origin}${rev}${url.search}`, 301);
+          }
+          return serve404();
+        }
       }
 
       const asset = await env.ASSETS.fetch(request);
@@ -1043,6 +1068,11 @@ export default {
         return res;
       }
       if (asset.status !== 404) return asset;
+      const rev = locale !== "en" ? reversedPairPath(path, "comparer") : null;
+      if (rev) {
+        const revAsset = await env.ASSETS.fetch(new Request(new URL(rev, url), request));
+        if (revAsset.status !== 404) return Response.redirect(`${url.origin}${rev}${url.search}`, 301);
+      }
       return serve404();
     } catch (err) {
       // Never echo err.message — D1/SQL errors disclose internals.

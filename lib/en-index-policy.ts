@@ -23,13 +23,31 @@
  *
  * Le FR a sa propre liste depuis le 2026-11-04 (`lib/fr-index-policy.ts`),
  * plus courte : familles mesurées une à une, seuil 0,75.
+ *
+ * Deuxième passe, 2026-11-25. Export Search Console du domaine (Web,
+ * 2026-08-24 → 11-23) : 1 clic et 903 impressions en 90 jours, ≈ 10 par jour
+ * depuis le 1er septembre, position médiane au-delà de 40. Rien ne remonte
+ * trois semaines après la première passe. Mesure des 4 121 URL encore
+ * déclarées (même méthode : texte de `<main>`, chiffres et noms masqués,
+ * 5-grammes) : quatre familles dépassaient encore le seuil — `/compare/<paire>`
+ * 0,85 à 1,00 sur 10 paires sur 11 (436 mots, le même texte partout, trios
+ * compris : 0,88-0,93), `/leaving/<ville>` 1,00, `/living-on/<montant>` 0,93-0,98,
+ * `/weekend-getaways/<ville>` 0,86-0,91. Les comparaisons étaient la famille la
+ * plus vue (185 impressions, 0 clic, position ~60) : à cette profondeur, ce
+ * n'est pas une traction. Elles restent indexées côté FR, où elles convertissent
+ * (`docs/seo/strategie-audience.md`). Hubs `/compare`, `/living-on` et
+ * `/weekend-getaways` inchangés. Sitemap EN 4 121 → ≈ 3 300 URL.
+ *
  * Rouvrir une famille = retirer sa ligne ici, rien d'autre.
  */
 const EN_NOINDEX_PATTERNS: readonly RegExp[] = [
   // Les 42 sous-pages ville (24 314 URL). La fiche /cities/<slug> reste.
   /^\/cities\/[^/]+\/.+$/,
-  // Synthèse d'une paire : redit la page /compare/<paire>.
-  /^\/compare\/[^/]+\/synthesis$/,
+  // Paires et trios (/compare/a-vs-b, a-vs-b-vs-c) et leur synthèse, qui redit
+  // la paire. Le hub /compare reste.
+  /^\/compare\/[^/]+(\/synthesis)?$/,
+  // Une page par ville ou par budget, même texte à 0,86-1,00 (2026-11-25).
+  /^\/(leaving|living-on|weekend-getaways)\/[^/]+$/,
   // Une page par ville, même gabarit à 91-97 %.
   /^\/(household-cost|gentrification|moving-from|tags)\/[^/]+$/,
   /^\/calculator\/real-cost\/[^/]+$/,

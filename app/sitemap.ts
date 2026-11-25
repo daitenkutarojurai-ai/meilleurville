@@ -51,8 +51,12 @@ export const dynamic = "force-static";
 
 // Honest lastModified values per content family.
 // Bump these when the underlying source actually changes.
-const CITY_DATA_UPDATED = new Date("2026-05-24"); // last seed + score calibration
-const RANKING_UPDATED = new Date("2026-05-24");
+// Restées au 2026-05-24 pendant six mois alors que le seed bougeait (dernier ajout de
+// ville le 2026-10-15) : 2 597 des 4 121 URL du sitemap EN annonçaient cette date.
+// 2026-11-24 = millésime 2027 des titres de fiches, paires et classements, au lendemain
+// du bloc « En bref » sur les 593 fiches.
+const CITY_DATA_UPDATED = new Date("2026-11-24"); // seed, scores ou gabarit des pages ville/paire
+const RANKING_UPDATED = new Date("2026-11-24");
 const STATIC_UPDATED = new Date("2026-05-24");
 const LEGAL_UPDATED = new Date("2026-05-19"); // cgu/confidentialite/mentions-legales
 
