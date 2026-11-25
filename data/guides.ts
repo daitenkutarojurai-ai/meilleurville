@@ -2160,6 +2160,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["paris", "lyon", "nantes", "bordeaux", "toulouse", "rennes", "grenoble", "strasbourg"],
     relatedGuides: [
+      "paris-vs-lyon-comparatif-2027",
       "quitter-paris-guide-pratique-2025",
       "vivre-en-ile-de-france-guide-2025",
       "budget-vivre-en-france-comparatif",
@@ -2835,6 +2836,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["pau", "bayonne", "biarritz", "tarbes", "foix", "pamiers", "perpignan", "dax"],
     relatedGuides: [
+      "pau-vs-tarbes-comparatif-2027",
       "cote-basque-landes-vivre-atlantique-2025",
       "vivre-en-nouvelle-aquitaine-guide-2025",
       "vivre-en-occitanie-guide-2026",
@@ -7695,6 +7697,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["pau", "bayonne", "biarritz", "anglet", "tarbes"],
     relatedGuides: [
+      "pau-vs-tarbes-comparatif-2027",
       "vivre-en-pays-basque-guide-2026",
       "vivre-dans-les-pyrenees-guide-2025",
       "vivre-en-nouvelle-aquitaine-guide-2025",
@@ -8439,6 +8442,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["la-rochelle", "bayonne", "biarritz", "niort", "rochefort", "anglet"],
     relatedGuides: [
+      "vannes-vs-la-rochelle-comparatif-2027",
       "vivre-en-pays-basque-guide-2026",
       "teletravailler-depuis-nouvelle-aquitaine-guide-2026",
       "budget-vivre-en-france-comparatif",
@@ -8528,6 +8532,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["vannes","lorient","quimper","brest","rennes","saint-brieuc"],
     relatedGuides: [
+      "vannes-vs-la-rochelle-comparatif-2027",
       "vivre-a-vannes-2026",
       "vivre-a-lorient-2026",
       "brest-vs-lorient-comparatif-2026",
@@ -8731,6 +8736,150 @@ export const GUIDES: Guide[] = [
       "acheter-a-mulhouse-quel-quartier-budget-2026",
     ],
     tags: ["Colmar", "Mulhouse", "Haut-Rhin", "Alsace", "comparatif villes", "colmar ou mulhouse", "mulhouse ou colmar"],
+  },
+  {
+    slug: "pau-vs-tarbes-comparatif-2027",
+    title: "Pau ou Tarbes : où vivre dans les Pyrénées en 2027 ?",
+    metaTitle: "Pau ou Tarbes 2027 : loyers, notes, verdict",
+    metaDesc: "Pau ou Tarbes ? Notes /10 (6,4 contre 6,0), loyer T2 à 680 € contre 580 €, achat à 2 400 contre 1 600 €/m² : le verdict chiffré pour choisir.",
+    category: "comparaison",
+    emoji: "🏔️",
+    readMinutes: 6,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Pau ou Tarbes : prenez Pau si vous voulez la ville la mieux notée (6,4/10 contre 6,0), plus de culture et d'écoles, prenez Tarbes si le budget décide (T2 à 580 € contre 680 €, achat à 1 600 € contre 2 400 €/m²). Pau gagne sur sept axes sur neuf ; Tarbes l'emporte sur le coût de la vie et sur la sécurité.\n\nPau compte environ 78 600 habitants, Tarbes environ 44 500 (Insee, recensement 2022). Les deux villes sont à environ une heure l'une de l'autre en TER. Les notes sont celles de nos fiches ville (sur 10, 10 = meilleur), les loyers notre estimation.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Pau et à Tarbes ?",
+        body: "Tarbes est nettement moins chère, surtout à l'achat. Notre estimation donne 490 € pour un T1, 680 € pour un T2 et 900 € pour un T3 à Pau, contre 420 €, 580 € et 770 € à Tarbes. Sur un T2, l'écart est de 100 € par mois, soit 1 200 € par an. À l'achat, le prix moyen est de 2 400 €/m² à Pau contre 1 600 €/m² à Tarbes : 800 €/m² d'écart, soit 48 000 € sur 60 m². Pau coûte environ 50 % de plus que Tarbes à l'achat.\n\nLoyer T2 : Pau 680 €, Tarbes 580 €. Loyer T3 : Pau 900 €, Tarbes 770 €. Achat au m² : Pau 2 400 €, Tarbes 1 600 €. Note « coût de la vie » : Pau 6,2/10, Tarbes 7,4/10.\n\nCôté revenus, le niveau de vie médian est de 20 970 € par an à Pau et de 19 070 € à Tarbes, avec un taux de pauvreté de 22 % contre 26 % (Insee, Filosofi 2021). Les deux villes comptent des quartiers très contrastés : l'écart de prix reflète en partie cela.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Pau ou Tarbes ?",
+        body: "Pau gagne sur la note globale (6,4 contre 6,0) et sur sept axes. Tarbes l'emporte sur le coût de la vie (7,4 contre 6,2) et la sécurité (6,2 contre 5,7).\n\nNote globale : Pau 6,4, Tarbes 6,0. Qualité de vie : Pau 6,6, Tarbes 5,9. Transports : Pau 6,1, Tarbes 5,2. Nature : Pau 7,0, Tarbes 6,4. Culture : Pau 6,6, Tarbes 4,8. Écoles : Pau 7,4, Tarbes 5,8. Télétravail : Pau 6,3, Tarbes 5,8. Sécurité : Pau 5,7, Tarbes 6,2.\n\nLes plus gros écarts sont la culture (1,8 point) et les écoles (1,6 point). Pau est une préfecture universitaire avec un aéroport, un théâtre et un hôpital de référence ; Tarbes est plus petite et plus tournée vers le sport et la montagne. L'écart de sécurité est à lire comme une tendance de ville entière, pas comme un jugement de quartier.",
+      },
+      {
+        heading: "Où fait-il meilleur : Pau ou Tarbes ?",
+        body: "Les deux villes ont un climat océanique de piémont, avec des étés doux et des hivers modérés. Nos fiches donnent environ 1 820 heures d'ensoleillement par an à Pau contre 1 950 à Tarbes, 23 °C en moyenne en juillet à Pau contre 24 °C à Tarbes, et 6 °C en janvier à Pau contre 3,5 °C à Tarbes. Tarbes, plus haute (320 m contre 207 m), a des hivers plus froids ; Pau profite de sa vue sur la chaîne des Pyrénées. Dans les deux cas, les stations de ski sont à environ une heure de route.",
+      },
+      {
+        heading: "Emploi, transports et vie quotidienne",
+        body: "Pau est le pôle économique du Béarn : énergie, aéronautique, université, hôpital, et un aéroport (Pau-Pyrénées) qui relie la ville à Paris. Tarbes est la ville des Hautes-Pyrénées, avec un tissu industriel et la proximité de Lourdes, à une trentaine de minutes en TER. Les deux villes sont reliées par le train : comptez environ une heure entre les gares. Si vous travaillez à l'un des deux bouts, habiter à Tarbes pour acheter moins cher puis rejoindre Pau en train est un arbitrage réel, à tester avant de signer.",
+      },
+      {
+        heading: "Le verdict : Pau ou Tarbes selon votre profil",
+        body: "Choisissez Pau si vous avez des enfants (meilleure note d'écoles), cherchez une vie culturelle, un aéroport et un marché de l'emploi plus large, et pouvez payer 100 € de plus par mois. Choisissez Tarbes si vous voulez acheter pour 1 600 €/m², garder un budget serré ou vivre plus près des sports de montagne. Pour une retraite, Tarbes laisse plus de marge financière ; Pau offre plus de services.",
+      },
+      {
+        heading: "FAQ : Pau ou Tarbes",
+        body: "**Quelle ville est la moins chère ?** Tarbes, de 100 € par mois sur un T2 et de 800 €/m² à l'achat selon notre estimation.\n\n**Quelle ville est la mieux notée ?** Pau, 6,4/10 contre 6,0 pour Tarbes.\n\n**Quelle ville est la plus sûre ?** Tarbes dans nos notes (6,2 contre 5,7 sur 10), avec de fortes différences selon les quartiers.\n\n**Quelle distance entre Pau et Tarbes ?** Environ 42 km, soit à peu près une heure en TER.",
+      },
+    ],
+    relatedCities: ["pau", "tarbes", "bayonne", "lourdes", "toulouse"],
+    relatedGuides: [
+      "vivre-a-pau-2026",
+      "retraite-a-pau-2026",
+      "pau-vs-bayonne-comparatif-2026",
+      "vivre-dans-les-pyrenees-guide-2025",
+      "acheter-a-pau-quel-quartier-budget-2026",
+      "10-choses-a-faire-a-tarbes-2026",
+    ],
+    tags: ["Pau", "Tarbes", "Pyrénées", "comparatif villes", "pau ou tarbes", "tarbes ou pau", "Nouvelle-Aquitaine", "Occitanie"],
+  },
+  {
+    slug: "vannes-vs-la-rochelle-comparatif-2027",
+    title: "Vannes ou La Rochelle : quelle ville de l'Atlantique en 2027 ?",
+    metaTitle: "Vannes ou La Rochelle 2027 : loyers, notes, verdict",
+    metaDesc: "Vannes ou La Rochelle ? Notes /10 (6,9 contre 7,2), loyer T2 à 850 € contre 820 €, soleil, transports : le verdict chiffré pour choisir.",
+    category: "comparaison",
+    emoji: "⛵",
+    readMinutes: 6,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Vannes ou La Rochelle : La Rochelle l'emporte de peu sur la note globale (7,2/10 contre 6,9), les transports, la culture et le télétravail, Vannes gagne sur la sécurité et le coût de la vie. Les deux villes ont le même prix de loyer à 30 € près (T2 à 850 € à Vannes, 820 € à La Rochelle selon notre estimation) : le budget ne les départage pas.\n\nVannes compte environ 55 000 habitants, La Rochelle environ 80 000 (Insee, recensement 2022). Les notes sont celles de nos fiches ville (sur 10, 10 = meilleur).",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Vannes et à La Rochelle ?",
+        body: "Les deux villes sont chères pour leur taille et presque au même niveau. Notre estimation donne 620 € pour un T1, 850 € pour un T2 et 1 150 € pour un T3 à Vannes, contre 600 €, 820 € et 1 100 € à La Rochelle. À l'achat, le prix moyen est de 3 900 €/m² à Vannes contre 4 200 €/m² à La Rochelle, soit 18 000 € de plus sur 60 m² côté Rochelais.\n\nLoyer T2 : Vannes 850 €, La Rochelle 820 €. Loyer T3 : Vannes 1 150 €, La Rochelle 1 100 €. Achat au m² : Vannes 3 900 €, La Rochelle 4 200 €. Note « coût de la vie » : Vannes 5,5/10, La Rochelle 4,6/10.\n\nLe niveau de vie médian est de 24 070 € par an à Vannes et de 22 200 € à La Rochelle, avec un taux de pauvreté de 15 % contre 18 % (Insee, Filosofi 2021). Vannes est donc la ville la plus aisée des deux.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Vannes ou La Rochelle ?",
+        body: "La Rochelle gagne sur la note globale (7,2 contre 6,9) et quatre axes ; Vannes l'emporte sur la sécurité et le coût de la vie ; nature et écoles sont à égalité.\n\nNote globale : Vannes 6,9, La Rochelle 7,2. Qualité de vie : Vannes 7,8, La Rochelle 8,1. Transports : Vannes 5,5, La Rochelle 7,0. Culture : Vannes 6,2, La Rochelle 6,9. Télétravail : Vannes 7,8, La Rochelle 8,8. Sécurité : Vannes 6,9, La Rochelle 6,5. Coût de la vie : Vannes 5,5, La Rochelle 4,6. Nature : 7,2 pour les deux. Écoles : 7,4 pour les deux.\n\nLe plus gros écart est celui des transports (1,5 point) : La Rochelle a une gare TGV vers Paris, un centre très praticable à vélo ; Vannes est plus isolée. Les deux villes sont à égalité sur la nature et les écoles.",
+      },
+      {
+        heading: "Où fait-il meilleur : Vannes ou La Rochelle ?",
+        body: "La Rochelle est plus ensoleillée. Nos fiches donnent environ 2 190 heures de soleil par an à La Rochelle contre 1 900 à Vannes, 22,8 °C en juillet contre 21 °C, et 6,6 °C en janvier contre 6,5 °C. Les hivers sont aussi doux dans les deux villes ; la différence se joue sur les étés, plus lumineux et plus chauds à La Rochelle, plus frais et plus humides à Vannes (golfe du Morbihan).",
+      },
+      {
+        heading: "Mer, vie locale et accès",
+        body: "Vannes est une ville à taille humaine, au fond du golfe du Morbihan : remparts, port, îles accessibles en bateau, voile. La Rochelle est plus grande, plus animée : vieux port, tours, aquarium, festivals, université, plages et île de Ré à proximité, mais aussi une forte affluence touristique l'été. Les deux villes ne sont pas reliées directement : comptez environ quatre heures via Nantes pour aller de l'une à l'autre en transports.",
+      },
+      {
+        heading: "Le verdict : Vannes ou La Rochelle selon votre profil",
+        body: "Choisissez La Rochelle si vous voulez plus de soleil, de transports, de culture et de vie étudiante, et êtes prêt à payer un peu plus à l'achat. Choisissez Vannes si vous voulez une ville plus calme et plus sûre, un cadre breton à taille humaine et un niveau de vie local plus élevé. Pour le télétravail, les deux sont très bien notées (7,8 et 8,8) ; La Rochelle a l'avantage grâce au TGV.",
+      },
+      {
+        heading: "FAQ : Vannes ou La Rochelle",
+        body: "**Quelle ville est la moins chère ?** Quasi à égalité : La Rochelle est 30 € moins chère sur un T2, Vannes 300 €/m² moins chère à l'achat, selon notre estimation.\n\n**Quelle ville est la mieux notée ?** La Rochelle, 7,2/10 contre 6,9 pour Vannes.\n\n**Quelle ville est la plus sûre ?** Vannes dans nos notes (6,9 contre 6,5 sur 10).\n\n**Laquelle a le plus de soleil ?** La Rochelle, environ 2 190 heures par an contre 1 900.",
+      },
+    ],
+    relatedCities: ["vannes", "la-rochelle", "lorient", "nantes", "bayonne"],
+    relatedGuides: [
+      "vivre-a-vannes-2026",
+      "vivre-a-la-rochelle-2026",
+      "retraite-a-vannes-2026",
+      "retraite-a-la-rochelle-2026",
+      "vannes-vs-lorient-comparatif-2026",
+      "la-rochelle-vs-bayonne-comparatif-2026",
+    ],
+    tags: ["Vannes", "La Rochelle", "Bretagne", "Charente-Maritime", "comparatif villes", "vannes ou la rochelle", "vivre à vannes ou la rochelle"],
+  },
+  {
+    slug: "paris-vs-lyon-comparatif-2027",
+    title: "Paris ou Lyon : où vivre en 2027 ? Loyers, notes, verdict",
+    metaTitle: "Paris ou Lyon 2027 : loyers, notes, verdict",
+    metaDesc: "Paris ou Lyon ? Notes /10 (5,1 contre 7,1), loyer T2 à 1 800 € contre 1 000 €, achat à 10 500 contre 5 000 €/m² : le comparatif chiffré.",
+    category: "comparaison",
+    emoji: "🏙️",
+    readMinutes: 7,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Paris ou Lyon : Lyon gagne sur le cadre de vie, avec une note de 7,1/10 contre 5,1, un loyer T2 à 1 000 € contre 1 800 € et un achat à 5 000 € contre 10 500 €/m². Paris reste devant sur le niveau de vie médian et sur l'emploi, et fait jeu égal sur les transports, la culture et le télétravail (9,0 chacune).\n\nParis compte environ 2,11 millions d'habitants, Lyon environ 521 000 (Insee, recensement 2022). Les notes sont celles de nos fiches ville (sur 10, 10 = meilleur), les loyers notre estimation.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Paris et à Lyon ?",
+        body: "Lyon coûte presque deux fois moins cher. Notre estimation donne 1 200 € pour un T1, 1 800 € pour un T2 et 2 800 € pour un T3 à Paris, contre 720 €, 1 000 € et 1 380 € à Lyon. Sur un T2, l'écart est de 800 € par mois, soit 9 600 € par an. À l'achat, le prix moyen est de 10 500 €/m² à Paris contre 5 000 €/m² à Lyon : 5 500 €/m² d'écart, soit 330 000 € sur 60 m². Paris coûte plus de deux fois plus cher que Lyon à l'achat.\n\nLoyer T2 : Paris 1 800 €, Lyon 1 000 €. Loyer T3 : Paris 2 800 €, Lyon 1 380 €. Achat au m² : Paris 10 500 €, Lyon 5 000 €. Note « coût de la vie » : Paris 2,2/10, Lyon 4,2/10.\n\nLe niveau de vie médian est de 29 730 € par an à Paris et de 25 430 € à Lyon, avec un taux de pauvreté de 16 % dans les deux villes (Insee, Filosofi 2021). L'écart de revenus (4 300 €) est bien plus faible que l'écart de loyer (9 600 € par an sur un T2) : à revenu équivalent, la vie est plus confortable à Lyon.",
+      },
+      {
+        heading: "Qui a les meilleures notes : Paris ou Lyon ?",
+        body: "Lyon gagne sur la note globale (7,1 contre 5,1) et sur cinq axes ; trois axes sont à égalité à 9,0.\n\nNote globale : Paris 5,1, Lyon 7,1. Qualité de vie : Paris 5,5, Lyon 6,8. Nature : Paris 2,3, Lyon 5,0. Coût de la vie : Paris 2,2, Lyon 4,2. Sécurité : Paris 3,9, Lyon 5,1. Écoles : Paris 7,9, Lyon 8,9. Transports, culture et télétravail : 9,0 pour les deux.\n\nLes plus gros écarts sont la nature (2,7 points), le coût de la vie (2,0 points) et la qualité de vie (1,3 point). Paris est imbattable sur l'offre culturelle et les transports en commun, mais elle paie sa densité : peu d'espaces verts par habitant, logement cher, sécurité plus faible dans nos notes. Lyon a les deux fleuves, les Monts d'Or et les Alpes à portée de week-end.",
+      },
+      {
+        heading: "Où fait-il meilleur : Paris ou Lyon ?",
+        body: "Lyon est plus ensoleillée et plus chaude l'été. Nos fiches donnent environ 1 970 heures de soleil par an à Lyon contre 1 630 à Paris, 23,7 °C en juillet contre 20,5 °C, et 4,2 °C en janvier contre 4,8 °C. Lyon a donc des étés plus chauds, avec les pics de chaleur que cela suppose, et des hivers un peu plus froids ; Paris a un climat plus doux et plus gris toute l'année.",
+      },
+      {
+        heading: "Emploi, trajets et vie quotidienne",
+        body: "Paris concentre les sièges sociaux, les institutions et les métiers rares : si votre secteur n'existe qu'à Paris (finance, luxe, médias, administration centrale), le salaire plus élevé compense en partie le loyer. Lyon offre un marché diversifié (santé, pharmacie, numérique, industrie, banque-assurance) et reste à environ deux heures de Paris en TGV. Le télétravail partiel change le calcul : avec deux jours à distance, habiter à Lyon et monter à Paris par le train est réaliste pour certains profils.",
+      },
+      {
+        heading: "Le verdict : Paris ou Lyon selon votre profil",
+        body: "Choisissez Lyon si vous cherchez une ville grande mais respirable, un loyer deux fois plus bas, de meilleures écoles et un accès rapide à la nature. Choisissez Paris si votre métier ou votre réseau l'exige, si vous voulez la plus grande offre culturelle de France ou si vous avez un logement déjà acquis. Pour une famille ou un premier achat, Lyon est la plus rationnelle des deux.",
+      },
+      {
+        heading: "FAQ : Paris ou Lyon",
+        body: "**Quelle ville est la moins chère ?** Lyon, de 800 € par mois sur un T2 et de 5 500 €/m² à l'achat selon notre estimation.\n\n**Quelle ville est la mieux notée ?** Lyon, 7,1/10 contre 5,1 pour Paris.\n\n**Où trouver les meilleures écoles ?** Lyon dans nos notes (8,9 contre 7,9 sur 10).\n\n**Peut-on vivre à Lyon et travailler à Paris ?** Quelques profils le font en télétravail partiel, avec environ deux heures de TGV ; testez le rythme avant de vous engager.",
+      },
+    ],
+    relatedCities: ["paris", "lyon", "grenoble", "bordeaux", "nantes"],
+    relatedGuides: [
+      "vivre-a-lyon-2026",
+      "lyon-vs-grenoble-comparatif-2026",
+      "lyon-vs-bordeaux-comparatif-2025",
+      "paris-vs-province-qualite-de-vie-2025",
+      "quitter-paris-guide-2025",
+      "acheter-a-lyon-quel-quartier-budget-2026",
+    ],
+    tags: ["Paris", "Lyon", "comparatif villes", "paris ou lyon", "lyon ou paris", "quitter Paris", "loyers"],
   },
   {
     slug: "narbonne-vs-perpignan-comparatif-2026",
@@ -24632,6 +24781,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["lyon", "grenoble", "chambery", "annecy", "saint-etienne"],
     relatedGuides: [
+      "paris-vs-lyon-comparatif-2027",
       "budget-mensuel-realiste-lyon-2026",
       "acheter-a-grenoble-quel-quartier-budget-2026",
       "acheter-a-lyon-quel-quartier-budget-2026",
@@ -35403,6 +35553,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["lyon", "villeurbanne", "grenoble", "annecy", "saint-etienne"],
     relatedGuides: [
+      "paris-vs-lyon-comparatif-2027",
       "budget-mensuel-realiste-lyon-2026",
       "acheter-a-lyon-quel-quartier-budget-2026",
       "quitter-lyon-guide-2026",
@@ -36191,6 +36342,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["la-rochelle", "rochefort", "niort", "saintes", "nantes"],
     relatedGuides: [
+      "vannes-vs-la-rochelle-comparatif-2027",
       "acheter-a-la-rochelle-quel-quartier-budget-2026",
       "quitter-la-rochelle-guide-2026",
       "10-choses-a-faire-a-la-rochelle-2026",
@@ -36570,6 +36722,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["pau", "tarbes", "bayonne", "mont-de-marsan", "lourdes"],
     relatedGuides: [
+      "pau-vs-tarbes-comparatif-2027",
       "acheter-a-pau-quel-quartier-budget-2026",
       "quitter-pau-guide-2026",
       "10-choses-a-faire-a-pau-2026",
@@ -37217,6 +37370,7 @@ export const GUIDES: Guide[] = [
     ],
     relatedCities: ["vannes", "lorient", "quiberon", "carnac", "rennes"],
     relatedGuides: [
+      "vannes-vs-la-rochelle-comparatif-2027",
       "vannes-vs-lorient-comparatif-2026",
       "acheter-a-vannes-quel-quartier-budget-2026",
       "quitter-vannes-guide-2026",

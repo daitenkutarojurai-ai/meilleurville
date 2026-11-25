@@ -4532,6 +4532,21 @@
       "emoji": "🥨"
     },
     {
+      "slug": "pau-vs-tarbes-comparatif-2027",
+      "title": "Pau ou Tarbes : où vivre dans les Pyrénées en 2027 ?",
+      "emoji": "🏔️"
+    },
+    {
+      "slug": "vannes-vs-la-rochelle-comparatif-2027",
+      "title": "Vannes ou La Rochelle : quelle ville de l'Atlantique en 2027 ?",
+      "emoji": "⛵"
+    },
+    {
+      "slug": "paris-vs-lyon-comparatif-2027",
+      "title": "Paris ou Lyon : où vivre en 2027 ? Loyers, notes, verdict",
+      "emoji": "🏙️"
+    },
+    {
       "slug": "narbonne-vs-perpignan-comparatif-2026",
       "title": "Narbonne ou Perpignan : quelle ville choisir en 2027 ?",
       "emoji": "🌞"
@@ -12301,12 +12316,12 @@
     {
       "slug": "lyon",
       "label": "Lyon",
-      "count": 25
+      "count": 26
     },
     {
       "slug": "bretagne",
       "label": "Bretagne",
-      "count": 23
+      "count": 24
     },
     {
       "slug": "comparatif",
@@ -12389,6 +12404,11 @@
       "count": 15
     },
     {
+      "slug": "la-rochelle",
+      "label": "La Rochelle",
+      "count": 15
+    },
+    {
       "slug": "monoparental-hauts-de-seine",
       "label": "monoparental Hauts-de-Seine",
       "count": 15
@@ -12424,8 +12444,8 @@
       "count": 14
     },
     {
-      "slug": "la-rochelle",
-      "label": "La Rochelle",
+      "slug": "paris",
+      "label": "Paris",
       "count": 14
     },
     {
@@ -12459,13 +12479,13 @@
       "count": 13
     },
     {
-      "slug": "paris",
-      "label": "Paris",
-      "count": 13
-    },
-    {
       "slug": "budget",
       "label": "budget",
+      "count": 12
+    },
+    {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
       "count": 12
     },
     {
@@ -12501,6 +12521,11 @@
     {
       "slug": "nature",
       "label": "nature",
+      "count": 11
+    },
+    {
+      "slug": "pau",
+      "label": "Pau",
       "count": 11
     },
     {
@@ -12544,11 +12569,6 @@
       "count": 10
     },
     {
-      "slug": "pau",
-      "label": "Pau",
-      "count": 10
-    },
-    {
       "slug": "remote-work",
       "label": "remote work",
       "count": 10
@@ -12589,11 +12609,6 @@
       "count": 9
     },
     {
-      "slug": "comparatif-villes",
-      "label": "comparatif villes",
-      "count": 9
-    },
-    {
       "slug": "enfants",
       "label": "enfants",
       "count": 9
@@ -12631,6 +12646,16 @@
     {
       "slug": "province",
       "label": "province",
+      "count": 9
+    },
+    {
+      "slug": "pyrenees",
+      "label": "Pyrénées",
+      "count": 9
+    },
+    {
+      "slug": "quitter-paris",
+      "label": "quitter Paris",
       "count": 9
     },
     {
@@ -12694,18 +12719,18 @@
       "count": 8
     },
     {
-      "slug": "pyrenees",
-      "label": "Pyrénées",
+      "slug": "loyers",
+      "label": "loyers",
+      "count": 8
+    },
+    {
+      "slug": "occitanie",
+      "label": "Occitanie",
       "count": 8
     },
     {
       "slug": "que-faire-pres-de-paris",
       "label": "que faire près de Paris",
-      "count": 8
-    },
-    {
-      "slug": "quitter-paris",
-      "label": "quitter Paris",
       "count": 8
     },
     {
@@ -12779,11 +12804,6 @@
       "count": 7
     },
     {
-      "slug": "loyers",
-      "label": "loyers",
-      "count": 7
-    },
-    {
       "slug": "monoparental-gironde",
       "label": "monoparental Gironde",
       "count": 7
@@ -12801,11 +12821,6 @@
     {
       "slug": "nice",
       "label": "Nice",
-      "count": 7
-    },
-    {
-      "slug": "occitanie",
-      "label": "Occitanie",
       "count": 7
     },
     {
@@ -12949,6 +12964,11 @@
       "count": 6
     },
     {
+      "slug": "vannes",
+      "label": "Vannes",
+      "count": 6
+    },
+    {
       "slug": "vignoble",
       "label": "vignoble",
       "count": 6
@@ -13089,11 +13109,6 @@
       "count": 5
     },
     {
-      "slug": "vannes",
-      "label": "Vannes",
-      "count": 5
-    },
-    {
       "slug": "vivre-au-vert",
       "label": "vivre au vert",
       "count": 5
@@ -13126,6 +13141,11 @@
     {
       "slug": "cahors",
       "label": "Cahors",
+      "count": 4
+    },
+    {
+      "slug": "charente-maritime",
+      "label": "Charente-Maritime",
       "count": 4
     },
     {
@@ -13241,6 +13261,11 @@
     {
       "slug": "nord",
       "label": "Nord",
+      "count": 4
+    },
+    {
+      "slug": "nouvelle-aquitaine",
+      "label": "Nouvelle-Aquitaine",
       "count": 4
     },
     {
@@ -13451,11 +13476,6 @@
     {
       "slug": "centre-val-de-loire",
       "label": "Centre-Val de Loire",
-      "count": 3
-    },
-    {
-      "slug": "charente-maritime",
-      "label": "Charente-Maritime",
       "count": 3
     },
     {
@@ -13746,11 +13766,6 @@
     {
       "slug": "nimes",
       "label": "Nîmes",
-      "count": 3
-    },
-    {
-      "slug": "nouvelle-aquitaine",
-      "label": "Nouvelle-Aquitaine",
       "count": 3
     },
     {

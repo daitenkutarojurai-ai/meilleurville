@@ -1,4 +1,9 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-25 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
+  - Livré : guides pau-vs-tarbes, vannes-vs-la-rochelle, paris-vs-lyon -comparatif-2027 (notes rendues, loyers, niveau de vie Insee, FAQ) ; +10 liens entrants (vivre-a-*, pau-vs-bayonne, lyon-vs-grenoble, paris-vs-province…).
+  - Cibles (cibles.md § 6) : « vivre à pau ou tarbes » (36 impr.), « vivre à vannes ou la rochelle » (22), « paris ou lyon » (20) ; WebSearch confirme la requête.
+  - Suite : savoie vs haute-savoie (doublon à vérifier), nantes vs bordeaux/rennes à rafraîchir, lorient vs vannes déjà couvert.
+
 
 - 2026-11-25 · routine 2/4 Croissance SEO · chantier B (fiche ville « vivre à X / avis »), Nantes
   - Générique (593 fiches) : « En bref » 2+2 → 3 forces + 3 faiblesses ; FAQ (+ JSON-LD FAQPage) 14 → 16 questions : « Pourquoi vivre à X » → « Fait-il bon vivre à X ? », + « Quel quartier choisir à X ? » (mieux noté, plus abordable, plus calme) et « Quel est l'avis des habitants sur X ? » (FR + EN).
