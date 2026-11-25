@@ -1,5 +1,10 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 
+- 2026-11-25 · routine 2/4 Croissance SEO · chantier B (fiche ville « vivre à X / avis »), Nantes
+  - Générique (593 fiches) : « En bref » 2+2 → 3 forces + 3 faiblesses ; FAQ (+ JSON-LD FAQPage) 14 → 16 questions : « Pourquoi vivre à X » → « Fait-il bon vivre à X ? », + « Quel quartier choisir à X ? » (mieux noté, plus abordable, plus calme) et « Quel est l'avis des habitants sur X ? » (FR + EN).
+  - Nouveau `lib/city-local-facts.ts` : 3 faits sourcés par ville, affichés « Ce qui distingue X » et repris dans la réponse FAQ. Nantes : gratuité le week-end (24/04/2021), tram 1985 + lignes 6-7 fin 2027, Capitale verte 2013.
+  - Cible : /villes/nantes (2 713 impr., pos. 14,3, CTR 0,59 %). Suite : faits propres pour rennes, ile-de-re, amboise, narbonne (cibles § 5).
+
 - 2026-11-25 · session manuelle · export Search Console de bestcitiesinfrance.com (90 j : 1 clic, 903 impressions, ≈ 10/jour)
   - Index EN, 2ᵉ passe : `/compare/<paire>` (0,85-1,00), `/leaving/*` (0,98), `/living-on/*` (0,95), `/weekend-getaways/*` (0,94) en noindex ; sitemap EN 4 121 → 3 294. Mesure : `template-similarity.mjs --urls` (nouveau mode).
   - Worker : `/compare|comparer/b-vs-a` → 301 vers `a-vs-b` quand seule celle-ci existe (404 avant). Sitemap : `lastmod` des fiches, paires et classements 2026-05-24 → 2026-11-24.

@@ -43,6 +43,7 @@ import type { CitySeed } from "@/data/cities-seed";
 import type { CityProfileData } from "@/lib/city-profile-data";
 import type { CityPhoto } from "@/lib/city-images";
 import type { FaqItem } from "@/lib/city-faq";
+import { cityLocalFacts } from "@/lib/city-local-facts";
 
 const SCORE_LABELS: Array<{ key: keyof CitySeed["scores"]; label: string; icon: React.ElementType }> = [
   { key: "life", label: "Qualité de vie", icon: Star },
@@ -1489,8 +1490,10 @@ function CityInBrief({ city, rentT2, labels, L, sub, installGuideHref }: {
     .filter((k) => k !== "global")
     .map((k) => ({ k, v: city.scores[k] }))
     .sort((a, b) => b.v - a.v);
-  const best = axes.slice(0, 2);
-  const worst = axes.slice(-2).reverse();
+  // 3 forces et 3 faiblesses (8 axes : jamais de recouvrement).
+  const best = axes.slice(0, 3);
+  const worst = axes.slice(-3).reverse();
+  const facts = cityLocalFacts(city.slug);
   const chip = "inline-flex items-baseline gap-1.5 rounded-full px-3 py-1 text-sm";
   return (
     <div className="mt-5 rounded-2xl border border-[var(--border)] bg-[var(--bg-surface)]/85 p-4 shadow-sm">
@@ -1517,6 +1520,21 @@ function CityInBrief({ city, rentT2, labels, L, sub, installGuideHref }: {
           </span>
         ))}
       </div>
+      {facts.length > 0 ? (
+        <div className="mb-3">
+          <p className="text-sm font-semibold text-[var(--text-primary)] mb-1.5">
+            {L(`Ce qui distingue ${city.name}`, `What sets ${city.name} apart`)}
+          </p>
+          <ul className="space-y-1.5 text-sm text-[var(--text-secondary)]">
+            {facts.map((f) => (
+              <li key={f.source + f.fr.slice(0, 24)} className="flex gap-2">
+                <Sparkles className="h-3.5 w-3.5 mt-1 shrink-0 text-[var(--accent-pink)]" aria-hidden />
+                <span>{L(f.fr, f.en)} <span className="text-xs opacity-80">{L(`(source : ${f.source})`, `(source: ${f.source})`)}</span></span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
       <div className="flex flex-wrap items-center gap-2">
         <RateCityButton
           label={L(`Vous habitez ${city.name} ? Donnez votre avis`, `Live in ${city.name}? Leave a review`)}

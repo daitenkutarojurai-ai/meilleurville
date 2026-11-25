@@ -9,6 +9,8 @@ import { HOUSING } from "@/data/housing";
 import { rentalTension, tensionInfo } from "@/lib/rental-tension";
 import { commuteEstimate } from "@/lib/commute-estimate";
 import { projectClimate2040 } from "@/lib/climate-2040";
+import { NEIGHBORHOODS } from "@/data/neighborhoods";
+import { cityLocalFacts } from "@/lib/city-local-facts";
 
 export interface FaqItem {
   q: string;
@@ -43,11 +45,30 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
   const commute = commuteEstimate(city);
   const region = regionLabel(city.region, lang);
   const items: FaqItem[] = [];
+  // « Fait-il bon vivre à X ? » est la formulation de la requête (Search Console 2026-11) ;
+  // les faits propres à la ville, quand il y en a, différencient la réponse du gabarit.
+  const facts = cityLocalFacts(city.slug);
+  const hoods = (NEIGHBORHOODS.find((n) => n.citySlug === city.slug)?.neighborhoods ?? []);
+  const bestHood = [...hoods].sort((a, b) => b.scores.global - a.scores.global)[0];
+  const cheapHood = [...hoods].sort((a, b) => a.avgRentT2 - b.avgRentT2)[0];
+  const calmHood = [...hoods].filter((h) => h !== bestHood).sort((a, b) => b.scores.safety - a.scores.safety)[0];
 
   if (lang === "fr") {
     items.push({
-      q: `Pourquoi vivre à ${city.name} ?`,
-      a: `${city.name} affiche un score qualité de vie global de ${fmtScore(city.scores.global)}/10 en 2026. Les axes les plus forts : ${strongAxesFR(city)}. Les points de vigilance : ${weakAxesFR(city)}. La ville compte ~${city.population.toLocaleString("fr-FR")} habitants en ${region}.`,
+      q: `Fait-il bon vivre à ${city.name} ?`,
+      a: `${city.name} affiche un score qualité de vie global de ${fmtScore(city.scores.global)}/10 en 2026. Les axes les plus forts : ${strongAxesFR(city)}. Les points de vigilance : ${weakAxesFR(city)}. La ville compte ~${city.population.toLocaleString("fr-FR")} habitants en ${region}.${facts.length ? " " + facts.slice(0, 2).map((f) => f.fr).join(" ") : ""}`,
+    });
+
+    if (hoods.length >= 2 && bestHood && cheapHood) {
+      items.push({
+        q: `Quel quartier choisir à ${city.name} ?`,
+        a: `Le quartier le mieux noté de notre fiche quartiers est ${bestHood.name} (${fmtScore(bestHood.scores.global).replace(".", ",")}/10, T2 ≈ ${bestHood.avgRentT2} €/mois). ${cheapHood !== bestHood ? `Le plus abordable : ${cheapHood.name} (T2 ≈ ${cheapHood.avgRentT2} €/mois). ` : ""}${calmHood && calmHood !== cheapHood ? `Pour le calme : ${calmHood.name} (sécurité ${fmtScore(calmHood.scores.safety).replace(".", ",")}/10). ` : ""}Les ${hoods.length} quartiers étudiés sont comparés sur la page « Quartiers ».`,
+      });
+    }
+
+    items.push({
+      q: `Quel est l'avis des habitants sur ${city.name} ?`,
+      a: `Les avis d'habitants publiés sont affichés dans l'onglet « Avis » de la fiche, et chacun peut laisser le sien avec le bouton « Vous habitez ${city.name} ? Donnez votre avis ». Notre propre lecture, forces et faiblesses comprises, est sur la page « Avis honnête » (point le plus faible relevé : ${lowestAxisFR(city)}).`,
     });
 
     if (housing) {
@@ -124,7 +145,19 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
     // English
     items.push({
       q: `Why move to ${city.name}?`,
-      a: `${city.name} scores ${fmtScore(city.scores.global)}/10 overall on our 2026 quality-of-life index. Strongest axes: ${strongAxesEN(city)}. Watch-outs: ${weakAxesEN(city)}. Population ~${city.population.toLocaleString("en-US")} in ${region}.`,
+      a: `${city.name} scores ${fmtScore(city.scores.global)}/10 overall on our 2026 quality-of-life index. Strongest axes: ${strongAxesEN(city)}. Watch-outs: ${weakAxesEN(city)}. Population ~${city.population.toLocaleString("en-US")} in ${region}.${facts.length ? " " + facts.slice(0, 2).map((f) => f.en).join(" ") : ""}`,
+    });
+
+    if (hoods.length >= 2 && bestHood && cheapHood) {
+      items.push({
+        q: `Which neighbourhood should I choose in ${city.name}?`,
+        a: `The best-rated neighbourhood in our district data is ${bestHood.name} (${fmtScore(bestHood.scores.global)}/10, 1-bedroom ≈ €${bestHood.avgRentT2}/month). ${cheapHood !== bestHood ? `Most affordable: ${cheapHood.name} (1-bedroom ≈ €${cheapHood.avgRentT2}/month). ` : ""}${calmHood && calmHood !== cheapHood ? `For quiet: ${calmHood.name} (safety ${fmtScore(calmHood.scores.safety)}/10). ` : ""}All ${hoods.length} districts we cover are compared on the Neighbourhoods page.`,
+      });
+    }
+
+    items.push({
+      q: `What do residents think of ${city.name}?`,
+      a: `Published resident reviews appear in the profile's Reviews tab, and anyone living there can add one with the "Live in ${city.name}? Leave a review" button. Our own take, strengths and weaknesses included, is on the Honest review page (weakest point flagged: ${lowestAxisEN(city)}).`,
     });
 
     if (housing) {
