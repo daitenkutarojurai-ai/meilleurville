@@ -86224,6 +86224,348 @@ export const GUIDES: Guide[] = [
     tags: ["10 choses à faire à Mayenne","activités Mayenne 2026","château de Mayenne","Jublains","voie verte"]
   },
   {
+    slug: "10-choses-a-faire-a-massy-2026",
+    title: "10 choses à faire à Massy",
+    metaTitle: "10 choses à faire à Massy",
+    metaDesc: "Opéra de Massy, parc de Vilgénis, gare TGV : 10 choses à faire à Massy, ville de l'Essonne.",
+    category: "tourisme",
+    emoji: "🎭",
+    readMinutes: 4,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Massy compte 50 597 habitants (Insee 2022) et un loyer T3 de 1 650 € par mois dans notre estimation, contre 1 410 € à Palaiseau, sa voisine du plateau de Saclay. Ce n'est pas une destination de week-end : c'est une ville d'Essonne bien reliée, avec un opéra, un grand parc et une gare à correspondances. Ce guide dit ce qui vaut le déplacement et ce qui relève de la sortie par RER.",
+    sections: [
+      {
+        heading: "1. L'Opéra de Massy",
+        body: "Le théâtre lyrique de la ville programme opéra, opérette et concerts toute la saison. C'est la sortie culturelle la plus identifiable de Massy : consultez la programmation avant de venir."
+      },
+      {
+        heading: "2. Le parc et le domaine de Vilgénis",
+        body: "Au sud-est de la ville, le parc de Vilgénis offre étangs, pelouses et chemins pour une marche tranquille. On y vient surtout le week-end, à pied ou à vélo depuis le centre."
+      },
+      {
+        heading: "3. Le quartier Atlantis et son architecture",
+        body: "Le quartier d'Atlantis, construit dans les années 1970 et 1980, intéresse les amateurs d'urbanisme moderne. On le parcourt à pied en une heure, sans programme particulier."
+      },
+      {
+        heading: "4. La gare de Massy-Palaiseau, porte d'entrée de la ville",
+        body: "La gare réunit RER B, RER C et TGV. Pour un voyageur, c'est d'abord un point de correspondance : elle permet de rejoindre Paris, mais aussi l'ouest et le sud de la France sans traverser la capitale."
+      },
+      {
+        heading: "5. Le marché et le centre-ville",
+        body: "Les commerces du centre et le marché donnent la mesure du quotidien d'une ville de 50 000 habitants. Les jours et horaires du marché sont à vérifier auprès de la mairie."
+      },
+      {
+        heading: "6. Les balades dans la vallée de la Bièvre et sur le plateau de Saclay",
+        body: "À la sortie de la ville, les chemins agricoles du plateau de Saclay se parcourent à vélo. C'est une promenade de périphérie, pas un site touristique : prévoyez de bonnes chaussures."
+      },
+      {
+        heading: "7. Le parc de Sceaux, à quelques stations de RER",
+        body: "Le domaine de Sceaux, avec son château et son parc, se rejoint en RER B depuis Massy. C'est la sortie verte de référence du sud des Hauts-de-Seine."
+      },
+      {
+        heading: "8. Paris et Versailles en transports",
+        body: "Paris se rejoint en RER, Versailles par les lignes de banlieue. Massy fait un camp de base moins coûteux que la capitale pour qui visite l'Île-de-France."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 est de 1 650 € par mois dans notre estimation, contre 1 410 € à Palaiseau et 2 800 € à Paris. Massy convient à qui travaille sur le plateau de Saclay ou à Orly et veut un RER direct ; elle convient peu à qui cherche une ville à visiter pour elle-même."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée pour l'opéra et le parc. Si vous êtes de passage par la gare, une pause d'une heure suffit."
+      }
+    ],
+    relatedCities: ["massy", "palaiseau", "paris"],
+    relatedGuides: ["10-choses-a-faire-a-paris-2026"],
+    tags: ["10 choses à faire à Massy", "activités Massy 2026", "Opéra de Massy", "parc de Vilgénis", "Essonne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-joue-les-tours-2026",
+    title: "10 choses à faire à Joué-lès-Tours",
+    metaTitle: "10 choses à faire à Joué-lès-Tours",
+    metaDesc: "Lac de la Bergeonnerie, Vallée Violette, tram vers Tours : 10 choses à faire à Joué-lès-Tours.",
+    category: "tourisme",
+    emoji: "🏞️",
+    readMinutes: 4,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Joué-lès-Tours compte 38 432 habitants (Insee 2022) et un loyer T3 de 860 € par mois dans notre estimation, contre 940 € à Tours, desservie par le même tram. C'est la deuxième ville d'Indre-et-Loire, assez verte, qui sert de base pour visiter Tours et les châteaux de la Loire sans payer le prix du centre. Ce guide dit quoi faire sur place et ce que vous pouvez rejoindre facilement.",
+    sections: [
+      {
+        heading: "1. Le lac de la Bergeonnerie",
+        body: "Le plan d'eau de Joué est l'espace de détente principal de la ville : promenade, pique-nique, pêche selon les secteurs. Le tour se fait à pied en une heure."
+      },
+      {
+        heading: "2. Le parc de la Vallée Violette",
+        body: "Ce parc de la ville offre pelouses et allées ombragées. C'est un lieu de promenade pour les habitants, calme en semaine."
+      },
+      {
+        heading: "3. Les bords du Cher",
+        body: "Le Cher borde la commune. Les chemins de rive se parcourent à pied ou à vélo, et prolongent la balade vers Tours."
+      },
+      {
+        heading: "4. Le tram jusqu'à Tours",
+        body: "La ligne de tram relie Joué-lès-Tours au centre de Tours. C'est l'avantage de la ville : on dort à Joué et on visite Tours sans voiture."
+      },
+      {
+        heading: "5. Le Vieux-Tours et la place Plumereau",
+        body: "À quelques arrêts de tram, le secteur de la place Plumereau concentre maisons à colombages, terrasses et restaurants. La cathédrale Saint-Gatien est à deux pas."
+      },
+      {
+        heading: "6. Les châteaux de la Loire",
+        body: "Villandry, Azay-le-Rideau, Chenonceau ou Amboise se visitent à la journée depuis Joué. Une voiture ou un train régional est utile : comptez une journée par château au minimum."
+      },
+      {
+        heading: "7. Les balades à vélo en Touraine",
+        body: "La Loire à Vélo passe à proximité de Tours, et le Cher offre des variantes plus calmes. Joué sert de point de départ côté sud."
+      },
+      {
+        heading: "8. Le centre-ville et les commerces",
+        body: "Le cœur de Joué rassemble commerces et marché. C'est la sortie du quotidien plutôt qu'une attraction touristique."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 est de 860 € par mois dans notre estimation, contre 940 € à Tours. Joué convient aux familles et à qui travaille à Tours ; elle convient moins à qui veut dormir dans un centre historique."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Un jour pour Joué même est trop : la ville vaut une matinée. Comptez trois jours si vous associez Tours et deux châteaux."
+      }
+    ],
+    relatedCities: ["joue-les-tours", "tours"],
+    relatedGuides: ["10-choses-a-faire-a-tours-2026"],
+    tags: ["10 choses à faire à Joué-lès-Tours", "activités Joué-lès-Tours 2026", "lac de la Bergeonnerie", "Touraine", "châteaux de la Loire"]
+  },
+  {
+    slug: "10-choses-a-faire-a-creil-2026",
+    title: "10 choses à faire à Creil",
+    metaTitle: "10 choses à faire à Creil",
+    metaDesc: "Musée Gallé-Juillet, bords de l'Oise, Chantilly à côté : 10 choses à faire à Creil.",
+    category: "tourisme",
+    emoji: "🚉",
+    readMinutes: 4,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Creil compte 36 494 habitants (Insee 2022) et un loyer T3 de 800 € par mois dans notre estimation, contre 980 € à Compiègne et 870 € à Beauvais. Ville de l'Oise connue pour sa gare, elle a aussi un musée et des rives d'Oise, et se trouve à côté de Chantilly. Ce guide dit ce que vaut Creil elle-même et ce qu'on rejoint en peu de temps.",
+    sections: [
+      {
+        heading: "1. Le musée Gallé-Juillet",
+        body: "Le musée de la ville conserve des collections sur l'histoire locale et la faïence de Creil. Vérifiez les horaires avant de venir."
+      },
+      {
+        heading: "2. L'église Saint-Médard",
+        body: "L'église Saint-Médard est l'un des édifices anciens du centre. Elle se visite rapidement, en passant."
+      },
+      {
+        heading: "3. Les bords de l'Oise",
+        body: "La rivière traverse la ville. Les berges offrent une promenade simple, à pied ou à vélo."
+      },
+      {
+        heading: "4. La faïence de Creil dans l'histoire locale",
+        body: "Creil a une longue histoire de manufactures de faïence. Le musée y consacre une partie de ses salles : c'est le fil conducteur pour comprendre la ville."
+      },
+      {
+        heading: "5. La gare de Creil, un carrefour",
+        body: "La gare relie Paris, Amiens, Compiègne et d'autres villes de Picardie. Un voyageur y passe souvent en correspondance ; une pause d'une heure en ville est possible."
+      },
+      {
+        heading: "6. Chantilly, tout près",
+        body: "Le château de Chantilly et son domaine se rejoignent en train ou en voiture en peu de temps. C'est la sortie la plus connue depuis Creil, à prévoir sur une journée."
+      },
+      {
+        heading: "7. Senlis et sa cathédrale",
+        body: "La vieille ville de Senlis, avec sa cathédrale et ses remparts, se visite à la demi-journée depuis Creil. Elle est plus intime que Chantilly."
+      },
+      {
+        heading: "8. Compiègne et Beauvais, villes voisines",
+        body: "Compiègne et son château, Beauvais et sa cathédrale sont accessibles en train ou en voiture. Creil sert de base si l'on veut les enchaîner."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 est de 800 € par mois dans notre estimation, contre 980 € à Compiègne et 870 € à Beauvais. Creil convient à qui veut un loyer bas près de Paris par le train ; elle convient peu à qui cherche une ville agréable à parcourir pour elle-même."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée pour le musée et les rives de l'Oise. Deux jours si vous ajoutez Chantilly et Senlis."
+      }
+    ],
+    relatedCities: ["creil", "compiegne", "beauvais"],
+    relatedGuides: ["10-choses-a-faire-a-compiegne-2026"],
+    tags: ["10 choses à faire à Creil", "activités Creil 2026", "musée Gallé-Juillet", "Chantilly", "Oise"]
+  },
+  {
+    slug: "10-choses-a-faire-a-vitrolles-2026",
+    title: "10 choses à faire à Vitrolles",
+    metaTitle: "10 choses à faire à Vitrolles",
+    metaDesc: "Rocher de Vitrolles, étang de Berre, Marseille et Aix à proximité : 10 choses à faire à Vitrolles.",
+    category: "tourisme",
+    emoji: "🪨",
+    readMinutes: 4,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Vitrolles compte 36 612 habitants (Insee 2022) et un loyer T3 de 970 € par mois dans notre estimation, contre 1 100 € à Marseille et 1 400 € à Aix-en-Provence. Entre l'étang de Berre et le plateau de l'Arbois, elle sert surtout de base pour rejoindre les deux grandes villes voisines. Ce guide dit ce qu'on y fait et ce qu'on rejoint.",
+    sections: [
+      {
+        heading: "1. Le vieux village et son rocher",
+        body: "Le village ancien est perché sur un rocher qui domine la commune. Il se parcourt rapidement et offre une vue large sur l'étang de Berre."
+      },
+      {
+        heading: "2. L'étang de Berre et ses rives",
+        body: "L'étang borde la commune et s'observe depuis plusieurs points de vue. La qualité d'accès aux berges varie : renseignez-vous avant de venir."
+      },
+      {
+        heading: "3. L'étang de Bolmon",
+        body: "Plus petit, l'étang de Bolmon est apprécié des promeneurs et des oiseaux. C'est une sortie de nature simple, proche des zones urbaines."
+      },
+      {
+        heading: "4. Le plateau de l'Arbois",
+        body: "Le plateau, couvert de garrigue, se prête à la randonnée. Préférez le printemps et l'automne : la chaleur d'été y est difficile."
+      },
+      {
+        heading: "5. Les pistes de randonnée de la chaîne de l'Arbois",
+        body: "Des sentiers balisés traversent la garrigue autour de Vitrolles. Prévoyez de l'eau, un chapeau et vérifiez les restrictions d'accès liées aux risques d'incendie."
+      },
+      {
+        heading: "6. Marseille, à une courte distance",
+        body: "Le Vieux-Port, le MuCEM et les calanques se rejoignent en voiture ou par les transports régionaux. Marseille se visite à la journée depuis Vitrolles."
+      },
+      {
+        heading: "7. Aix-en-Provence, l'autre voisine",
+        body: "Le cours Mirabeau et les ruelles de la vieille ville se visitent en demi-journée. Aix est plus chère que Marseille et que Vitrolles."
+      },
+      {
+        heading: "8. L'aéroport Marseille-Provence à proximité",
+        body: "L'aéroport est tout proche, ce qui fait de Vitrolles une base pratique avant un vol tôt. Ce n'est pas un motif de séjour en soi."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 est de 970 € par mois dans notre estimation, contre 1 100 € à Marseille et 1 400 € à Aix. Vitrolles convient à qui travaille près de l'aéroport ou de l'étang de Berre et dispose d'une voiture ; elle convient peu à qui cherche un centre historique vivant."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée pour le rocher et l'étang. Deux jours si vous ajoutez Marseille et Aix."
+      }
+    ],
+    relatedCities: ["vitrolles", "marseille", "aix-en-provence"],
+    relatedGuides: ["10-choses-a-faire-a-marseille-2026", "10-choses-a-faire-a-aix-en-provence-2026"],
+    tags: ["10 choses à faire à Vitrolles", "activités Vitrolles 2026", "étang de Berre", "Arbois", "Provence"]
+  },
+  {
+    slug: "10-choses-a-faire-a-corbeil-essonnes-2026",
+    title: "10 choses à faire à Corbeil-Essonnes",
+    metaTitle: "10 choses à faire à Corbeil-Essonnes",
+    metaDesc: "Église Saint-Spire, Grands Moulins, bords de Seine : 10 choses à faire à Corbeil-Essonnes.",
+    category: "tourisme",
+    emoji: "⛪",
+    readMinutes: 4,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Corbeil-Essonnes compte 53 712 habitants (Insee 2022) et un loyer T3 de 1 160 € par mois dans notre estimation, contre 1 150 € à Évry-Courcouronnes, sa voisine de l'Essonne. Ville de la Seine, elle garde un patrimoine médiéval et industriel : église Saint-Spire, Grands Moulins, île Saint-Étienne. Ce guide dit ce qui vaut la visite.",
+    sections: [
+      {
+        heading: "1. L'église Saint-Spire",
+        body: "L'ancienne collégiale Saint-Spire domine le vieux Corbeil. C'est l'édifice historique le plus visible de la ville, à visiter en passant."
+      },
+      {
+        heading: "2. Les Grands Moulins de Corbeil",
+        body: "Les anciens moulins industriels bordent la Seine et se voient de loin. Ils racontent le passé de Corbeil comme ville de la minoterie."
+      },
+      {
+        heading: "3. Les bords de Seine",
+        body: "Les quais permettent une promenade directe, avec vue sur les moulins. On y marche en une heure."
+      },
+      {
+        heading: "4. L'île Saint-Étienne",
+        body: "Cette île, au cœur de la ville, offre un espace calme au bord de l'eau. Elle se rejoint à pied depuis le centre."
+      },
+      {
+        heading: "5. Les Moulins Louis-Notta",
+        body: "Ancien site industriel d'Essonnes, il rappelle l'histoire de la papeterie et de la meunerie locales. Vérifiez les conditions d'accès avant de venir."
+      },
+      {
+        heading: "6. Le centre-ville de Corbeil",
+        body: "Les rues du centre rassemblent commerces et cafés. Comptez une heure pour les parcourir."
+      },
+      {
+        heading: "7. La forêt de Sénart, à proximité",
+        body: "La forêt est à courte distance et se parcourt à pied, à vélo ou à cheval. C'est la sortie verte la plus facile depuis Corbeil."
+      },
+      {
+        heading: "8. Évry-Courcouronnes et Fontainebleau",
+        body: "Évry-Courcouronnes est voisine, Fontainebleau et son château à une distance plus longue. Corbeil sert de base à qui veut associer les deux."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 est de 1 160 € par mois dans notre estimation, contre 1 150 € à Évry-Courcouronnes. Corbeil convient à qui veut un patrimoine accessible et la Seine pour promenade ; elle convient peu à qui cherche une offre culturelle dense."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée suffit pour l'église, les moulins et les quais. Ajoutez une journée pour la forêt de Sénart."
+      }
+    ],
+    relatedCities: ["corbeil-essonnes", "evry-courcouronnes"],
+    relatedGuides: ["10-choses-a-faire-a-evry-courcouronnes-2026"],
+    tags: ["10 choses à faire à Corbeil-Essonnes", "activités Corbeil-Essonnes 2026", "église Saint-Spire", "Grands Moulins", "Essonne"]
+  },
+  {
+    slug: "10-choses-a-faire-a-saint-chamond-2026",
+    title: "10 choses à faire à Saint-Chamond",
+    metaTitle: "10 choses à faire à Saint-Chamond",
+    metaDesc: "Parc du Pilat, vallée du Gier, Saint-Étienne à proximité : 10 choses à faire à Saint-Chamond.",
+    category: "tourisme",
+    emoji: "⛰️",
+    readMinutes: 4,
+    publishedAt: "2026-11-25",
+    updatedAt: "2026-11-25",
+    intro: "Saint-Chamond compte 35 586 habitants (Insee 2022) et un loyer T3 de 710 € par mois dans notre estimation, contre 770 € à Saint-Étienne. Ville de la vallée du Gier, elle est la porte nord du parc naturel régional du Pilat. Ce guide dit ce qu'on y fait et ce qu'on rejoint depuis la ville.",
+    sections: [
+      {
+        heading: "1. Le parc naturel régional du Pilat",
+        body: "Le massif du Pilat commence aux portes de la ville. Sentiers, crêtes et villages se découvrent à pied : c'est la raison principale de venir à Saint-Chamond."
+      },
+      {
+        heading: "2. Les randonnées vers le Pilat",
+        body: "Plusieurs sentiers partent de la vallée du Gier vers les hauteurs. Choisissez selon la saison et vérifiez la météo en altitude."
+      },
+      {
+        heading: "3. Le centre-ville de Saint-Chamond",
+        body: "Le centre regroupe commerces, cafés et places. Il se parcourt en une heure."
+      },
+      {
+        heading: "4. Le patrimoine industriel de la vallée du Gier",
+        body: "La vallée a une longue histoire industrielle, de la métallurgie au textile. Elle se lit encore dans les bâtiments et les quartiers."
+      },
+      {
+        heading: "5. Le Gier et ses berges",
+        body: "La rivière traverse la ville. Des aménagements de berges permettent une promenade près de l'eau, à vérifier selon les secteurs."
+      },
+      {
+        heading: "6. Saint-Étienne, la voisine",
+        body: "La Cité du design, le musée d'Art moderne et le centre-ville de Saint-Étienne se rejoignent en train régional ou en voiture. C'est la sortie culturelle évidente."
+      },
+      {
+        heading: "7. Lyon par le train",
+        body: "Lyon se rejoint par la ligne ferroviaire de la vallée du Gier. C'est une option pour une journée en grande ville depuis un loyer plus bas."
+      },
+      {
+        heading: "8. Les villages du Pilat",
+        body: "Pélussin et d'autres bourgs du parc se visitent en voiture ou à vélo. Prévoyez une demi-journée pour l'ensemble."
+      },
+      {
+        heading: "9. Combien coûte le séjour, et à qui s'adresse la ville",
+        body: "Le loyer d'un T3 est de 710 € par mois dans notre estimation, contre 770 € à Saint-Étienne. Saint-Chamond convient aux randonneurs et à qui travaille dans la vallée du Gier ; elle convient peu à qui cherche un centre historique remarquable."
+      },
+      {
+        heading: "10. Y aller et combien de temps rester",
+        body: "Une demi-journée pour la ville. Un à deux jours si vous marchez dans le Pilat."
+      }
+    ],
+    relatedCities: ["saint-chamond", "saint-etienne"],
+    relatedGuides: ["10-choses-a-faire-a-saint-etienne-2026"],
+    tags: ["10 choses à faire à Saint-Chamond", "activités Saint-Chamond 2026", "parc du Pilat", "vallée du Gier", "Loire"]
+  },
+  {
     "slug": "villes-escalade-crossfit-street-workout-582-villes-2026",
     "title": "Où s'entraîner en France ? Escalade, CrossFit et street workout dans 582 villes",
     "metaTitle": "Escalade, CrossFit, street workout : 582 villes comparées",

@@ -2426,3 +2426,7 @@ Compteurs mesurés : FR 362 (`grep -c 'slug: "10-choses-a-faire-a-.*-2026"'`, ho
 Prochain run : batch EN (6 jumelles) puis batch FR (villes de petite couronne sans guide).
 
 - 2026-11-23 (run contenu, guides + glossaire) : FR `villes-ecart-de-prix-des-appartements-au-m2-dvf-483-villes-2026` + jumelle EN `french-cities-apartment-price-spread-per-m2-dvf-483-cities-2026` (rapport p75/p25 des prix DVF 2024-2025, 483 villes ≥ 100 ventes d'appartements ; maisons : 460 villes, médiane ×1,51). Glossaire +4 termes (« Dispersion des prix de l'immobilier », 271). Compteurs mesurés (`grep -c '^    slug: "'`) : FR 1717, EN 1597 ; search-index 1 726 FR / 1 626 EN. Piste écartée : parcs OSM par habitant (aires bruitées, bois comptés ; liste plafonnée à 40). Prochain lot : jumelles EN des guides FR sans twin (15-29 ans, croissance 2016-2022, 75 ans et plus).
+
+**Tourisme batch 79 — FR, 2026-11-25** : +6 `10-choses-a-faire-a-*-2026` (massy, joue-les-tours, creil, vitrolles, corbeil-essonnes, saint-chamond), loyers T3 de `data/housing.ts`, aucun tarif ni horaire.
+Compteurs mesurés : FR 368 (`grep -c 'slug: "10-choses-a-faire-a-.*-2026"'`), EN 365 ; search-index 1 735 FR / 1 634 EN. tsc + integrity + search-index:check verts.
+Prochain run : batch EN (6 jumelles, mêmes chiffres) puis FR (sarcelles, bobigny, clichy, echirolles, meyzieu… sans guide).

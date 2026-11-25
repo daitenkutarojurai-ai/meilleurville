@@ -12197,6 +12197,36 @@
       "emoji": "🏯"
     },
     {
+      "slug": "10-choses-a-faire-a-massy-2026",
+      "title": "10 choses à faire à Massy",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "10-choses-a-faire-a-joue-les-tours-2026",
+      "title": "10 choses à faire à Joué-lès-Tours",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "10-choses-a-faire-a-creil-2026",
+      "title": "10 choses à faire à Creil",
+      "emoji": "🚉"
+    },
+    {
+      "slug": "10-choses-a-faire-a-vitrolles-2026",
+      "title": "10 choses à faire à Vitrolles",
+      "emoji": "🪨"
+    },
+    {
+      "slug": "10-choses-a-faire-a-corbeil-essonnes-2026",
+      "title": "10 choses à faire à Corbeil-Essonnes",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "10-choses-a-faire-a-saint-chamond-2026",
+      "title": "10 choses à faire à Saint-Chamond",
+      "emoji": "⛰️"
+    },
+    {
       "slug": "villes-escalade-crossfit-street-workout-582-villes-2026",
       "title": "Où s'entraîner en France ? Escalade, CrossFit et street workout dans 582 villes",
       "emoji": "🧗"
@@ -12454,6 +12484,11 @@
       "count": 11
     },
     {
+      "slug": "provence",
+      "label": "Provence",
+      "count": 11
+    },
+    {
       "slug": "tgv",
       "label": "TGV",
       "count": 11
@@ -12484,6 +12519,11 @@
       "count": 10
     },
     {
+      "slug": "loire",
+      "label": "Loire",
+      "count": 10
+    },
+    {
       "slug": "ou-vivre",
       "label": "où vivre",
       "count": 10
@@ -12491,11 +12531,6 @@
     {
       "slug": "pau",
       "label": "Pau",
-      "count": 10
-    },
-    {
-      "slug": "provence",
-      "label": "Provence",
       "count": 10
     },
     {
@@ -12561,11 +12596,6 @@
     {
       "slug": "grand-est",
       "label": "Grand Est",
-      "count": 9
-    },
-    {
-      "slug": "loire",
-      "label": "Loire",
       "count": 9
     },
     {
@@ -13469,6 +13499,11 @@
       "count": 3
     },
     {
+      "slug": "essonne",
+      "label": "Essonne",
+      "count": 3
+    },
+    {
       "slug": "exode-urbain",
       "label": "exode urbain",
       "count": 3
@@ -13941,6 +13976,11 @@
     {
       "slug": "t2",
       "label": "T2",
+      "count": 3
+    },
+    {
+      "slug": "touraine",
+      "label": "Touraine",
       "count": 3
     },
     {
