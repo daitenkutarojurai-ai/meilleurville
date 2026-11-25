@@ -53,13 +53,15 @@ Aucune donnée n'est utilisée pour de la publicité ciblée ou du profilage com
 
 Le site est référencé dans Google Search Console pour suivre son indexation : il s'agit d'un outil pour webmasters qui ne dépose aucun cookie sur votre navigateur et ne collecte aucune donnée d'usage individuelle.
 
-Booking.com peut déposer ses propres cookies si vous cliquez sur un lien partenaire et arrivez sur leur site — ces cookies relèvent alors de la politique de confidentialité de Booking.com, et non de la nôtre.`,
+Booking.com peut déposer ses propres cookies si vous cliquez sur un lien partenaire et arrivez sur leur site — ces cookies relèvent alors de la politique de confidentialité de Booking.com, et non de la nôtre. De même, un clic sur un lien partenaire Awin passe par le domaine awin1.com, qui dépose son cookie de suivi avant de vous rediriger vers le partenaire ; aucun script Awin n'est chargé sur nos pages.`,
   },
   {
-    title: "5. Liens d'affiliation Booking.com",
+    title: "5. Liens d'affiliation (Booking.com, Awin)",
     content: `MaVilleIdéale participe au programme Booking.com Partners. Certains liens sortants vers Booking.com (boutons « Trouver un hôtel », barre flottante, fiches vacances) sont des liens partenaires.
 
 Concrètement : si vous cliquez sur un de ces liens et réservez un hébergement sur Booking, nous touchons une petite commission de Booking. Cela ne change rien au prix que vous payez. Cela ne nous donne pas accès à vos données de réservation : Booking ne nous communique que des statistiques agrégées et anonymes (nombre de clics, nombre de réservations, montant total commissionné).
+
+MaVilleIdéale est aussi inscrite au réseau d'affiliation Awin. Les encadrés « Préparer l'emménagement » (pages « S'installer à… ») et « Organiser le séjour » (pages vacances) renvoient vers des partenaires de ce réseau. Le principe est le même : une commission si vous souscrivez ou réservez, sans surcoût, et aucune donnée personnelle en retour : Awin nous indique seulement les clics et les ventes (date, montant, commission, emplacement du lien).
 
 Tous les liens d'affiliation sont identifiés visuellement par la mention « lien partenaire » et portent l'attribut HTML rel="sponsored". Notre traitement éditorial (scores, classements, avis) est totalement indépendant de cette relation commerciale.`,
   },
@@ -94,6 +96,7 @@ Si vous estimez que vos droits ne sont pas respectés, vous pouvez introduire un
 
 • Cloudflare, Inc. (États-Unis) — hébergement, CDN, journaux techniques, base de données D1 (région WEUR — Paris). Cloudflare adhère au Data Privacy Framework UE-USA, qui encadre les transferts de données vers les États-Unis (décision d'adéquation de la Commission européenne du 10 juillet 2023).
 • Booking.com B.V. (Pays-Bas) — uniquement si vous cliquez sur un lien partenaire ; aucune donnée n'est partagée en amont.
+• AWIN Ltd (Royaume-Uni) et l'annonceur concerné — uniquement si vous cliquez sur un lien partenaire Awin ; aucune donnée n'est partagée en amont.
 
 Nous ne vendons jamais vos données. Nous ne les partageons jamais avec des courtiers de données, des régies publicitaires ou des plateformes de profilage.`,
   },

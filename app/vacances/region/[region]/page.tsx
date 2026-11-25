@@ -6,6 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { BookingCTA } from "@/components/BookingCTA";
+import { PartnerOffers } from "@/components/PartnerOffers";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   METRO_REGIONS,
@@ -258,6 +259,14 @@ export default async function RegionVacancesPage({ params }: Props) {
           </div>
         </section>
       )}
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-4">
+        <PartnerOffers
+          placement="vacances"
+          clickref={`vacances-region-${regionToSlug(r)}`}
+          title={`Organiser un séjour en ${r}`}
+        />
+      </div>
 
       {/* Cross-links autres régions */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-8">

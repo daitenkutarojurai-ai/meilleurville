@@ -8,6 +8,7 @@ import { Card } from "@/components/ui/Card";
 import { Badge } from "@/components/ui/Badge";
 import { BookingCTA } from "@/components/BookingCTA";
 import { StickyBookingBar } from "@/components/StickyBookingBar";
+import { PartnerOffers } from "@/components/PartnerOffers";
 import { CITIES_SEED } from "@/data/cities-seed";
 import {
   MONTHS_SHORT,
@@ -335,6 +336,15 @@ export default async function VilleVacancesPage({ params }: Props) {
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">
         <BookingCTA cityName={city.name} variant="full" />
       </section>
+
+      <div className="mx-auto max-w-4xl px-4 sm:px-6 py-2">
+        <PartnerOffers
+          placement="vacances"
+          clickref={`vacances-${city.slug}`}
+          title={`Organiser le séjour à ${city.name}`}
+          mountain={activityFitness(city, "montagne") >= 5}
+        />
+      </div>
 
       {/* Lien vers fiche complète */}
       <section className="mx-auto max-w-4xl px-4 sm:px-6 py-6">

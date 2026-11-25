@@ -107,6 +107,15 @@ export default function MentionsLegalesPage() {
               et sans aucun effet sur les prix affichés.
             </p>
             <p className="mt-2">
+              MaVilleIdéale est aussi inscrite au réseau d&apos;affiliation Awin
+              (AWIN Ltd). Les encadrés « Préparer l&apos;emménagement » et
+              « Organiser le séjour » renvoient vers des partenaires de ce réseau
+              (déménagement, location d&apos;utilitaires, énergie, assurance
+              habitation, train, hébergement de vacances). Si vous souscrivez
+              ou réservez après un clic, l&apos;éditeur peut percevoir une
+              commission, sans surcoût pour vous.
+            </p>
+            <p className="mt-2">
               Tous les liens concernés sont identifiés par la mention « lien
               partenaire » et portent l&apos;attribut HTML{" "}
               <code className="font-mono text-xs">rel=&quot;sponsored&quot;</code>

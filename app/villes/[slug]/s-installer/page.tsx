@@ -5,6 +5,7 @@ import { Navbar } from "@/components/Navbar";
 import { DiscussionCTA } from "@/components/DiscussionCTA";
 import { Footer } from "@/components/Footer";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { PartnerOffers } from "@/components/PartnerOffers";
 import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { fiscalityForCity } from "@/lib/fiscalite";
@@ -331,6 +332,12 @@ export default async function SInstallerPage({ params }: Props) {
               ))}
             </ol>
           </section>
+
+          <PartnerOffers
+            placement="installation"
+            clickref={`sinstaller-${city.slug}`}
+            title={`Préparer l'emménagement à ${city.name}`}
+          />
 
           {/* Liens vers sous-pages liées */}
           <section>
