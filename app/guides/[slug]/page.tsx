@@ -24,6 +24,7 @@ import { GuidePoiCard } from "@/components/GuidePoiCard";
 import { guidePois } from "@/lib/guide-pois";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { decodeParam } from "@/lib/route-params";
+import { VersusScoreboard, versusCities } from "@/components/VersusScoreboard";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -103,6 +104,7 @@ export default async function GuidePage({ params }: Props) {
   const pois = guidePois(guide.slug);
   const heroCityName = hero ? CITIES_SEED.find((c) => c.slug === hero.slug)?.name ?? hero.slug : null;
   const catMeta = GUIDE_CATEGORIES.find((c) => c.id === guide.category);
+  const versus = versusCities(guide.slug, guide.relatedCities.map((s) => CITIES_SEED.find((c) => c.slug === s)).filter((c): c is NonNullable<typeof c> => Boolean(c)));
 
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL ?? "https://www.mavilleideale.fr";
   const articleWordCount = guide.sections.reduce(
@@ -234,6 +236,7 @@ export default async function GuidePage({ params }: Props) {
         <div className="flex flex-col lg:flex-row gap-10">
           {/* Main article */}
           <article className="flex-1 min-w-0">
+            {versus && <VersusScoreboard a={versus[0]} b={versus[1]} />}
             {/* Table of contents */}
             <div className="mb-8 overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
               <p className="grad-head-0 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest">

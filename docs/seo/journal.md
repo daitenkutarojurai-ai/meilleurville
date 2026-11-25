@@ -1,4 +1,8 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-25 · routine 4/4 Rotation (mercredi, design) · guides « A vs B »
+  - Livré : `VersusScoreboard` (FR + EN) en tête des 41 guides `*-vs-*` : notes rendues, 8 critères, verdict, lien vers /comparer et fiches.
+  - Cible : guides `*-vs-*` (CTR 2,4 %, 594 clics, meilleur rendement) : trouver la réponse sans scroller et cliquer plus loin.
+  - Suite : /comparer-regions/[pair], hub /comparer, /classements/* ; vérifier le rendu en capture au prochain run local.
 - 2026-11-25 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
   - Livré : guides pau-vs-tarbes, vannes-vs-la-rochelle, paris-vs-lyon -comparatif-2027 (notes rendues, loyers, niveau de vie Insee, FAQ) ; +10 liens entrants (vivre-a-*, pau-vs-bayonne, lyon-vs-grenoble, paris-vs-province…).
   - Cibles (cibles.md § 6) : « vivre à pau ou tarbes » (36 impr.), « vivre à vannes ou la rochelle » (22), « paris ou lyon » (20) ; WebSearch confirme la requête.

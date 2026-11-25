@@ -1844,3 +1844,13 @@ Captures `next dev` + playwright `/villes/lyon/bruit` 1440 et 390 px, `scrollWid
 1. Pages paires `/comparer-regions/[pair]` (FR/EN, 478/435 lignes) — réutiliser `DepartmentDuelView` si la structure le permet.
 2. Hub `/comparer` (FR) + EN `/compare`.
 3. `/methode` (FR/EN) : vérifier en-tête et sections.
+
+## 2026-11-25 ~19:15 UTC — guides « A vs B » : tableau « Le duel en chiffres » (FR `/guides/[slug]` + EN `/guides/[slug]`)
+
+**Surface** : les 41 guides FR `*-vs-*` à deux villes (meilleur CTR du site, 2,4 %) et leurs jumeaux EN. Avant : le lecteur devait lire l'intro puis la table des matières pour voir le verdict ; les tableaux markdown ne s'affichent pas dans le gabarit guide.
+
+**Changé** : nouveau composant serveur `components/VersusScoreboard.tsx` (zéro JS) placé avant la table des matières : notes globales rendues des deux villes (couleur de palier), verdict une ligne, 8 critères en tableau 3 colonnes lisible à 390 px (gagnant en pastille indigo), légende du sens de la note, lien vers `/comparer/<paire>` (ou `/compare/`) et fiches villes. Notes lues via `CITIES_SEED` (valeurs rendues). Garde : ne s'affiche que si le slug « a-vs-b » correspond aux deux premières villes liées.
+
+**Contrôles** : `npx tsc --noEmit` propre, `npm run integrity` vert, eslint du composant propre. Pas de capture ni de build (cloud).
+
+**Prochaines surfaces** : pages paires `/comparer-regions/[pair]`, hub `/comparer` + EN `/compare`, `/classements/*` (verdict en haut).

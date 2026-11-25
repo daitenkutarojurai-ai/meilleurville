@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "@/components/AppLink";
+import { VersusScoreboard, versusCities } from "@/components/VersusScoreboard";
 import { notFound } from "next/navigation";
 import { Navbar } from "@/components/Navbar";
 import { CityPhotoBand } from "@/components/CityPhoto";
@@ -73,6 +74,7 @@ export default async function EnGuidePage({ params }: Props) {
     .filter((c): c is NonNullable<typeof c> => Boolean(c));
   const otherGuides = suggestNextEnGuides(g, 3);
   const catMeta = EN_CATEGORY_STYLE[g.category];
+  const versus = versusCities(g.slug, relatedCities);
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -195,6 +197,7 @@ export default async function EnGuidePage({ params }: Props) {
       <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
         <div className="flex flex-col gap-10 lg:flex-row">
           <article className="min-w-0 flex-1">
+            {versus && <VersusScoreboard a={versus[0]} b={versus[1]} locale="en" />}
             <div className="mb-8 overflow-hidden rounded-2xl bg-white shadow-[0_12px_30px_-18px_rgba(79,70,229,0.55)]">
               <p className="grad-head-0 px-5 py-2.5 text-xs font-semibold uppercase tracking-widest">
                 Contents
