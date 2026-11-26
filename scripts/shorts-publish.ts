@@ -125,8 +125,8 @@ async function main() {
       continue;
     }
     summary(`## ${v.title}`);
-    for (const [name, fn] of [["Facebook", facebookReel], ["Instagram", instagramReel]] as const) {
-      if (ONLY && !name.toLowerCase().startsWith(ONLY)) continue;
+    for (const [key, name, fn] of [["fb", "Facebook", facebookReel], ["ig", "Instagram", instagramReel]] as const) {
+      if (ONLY && ONLY !== key) continue;
       try {
         summary(`- ${name} : ${await fn(file, cap)}`);
       } catch (e) {
