@@ -7,6 +7,7 @@ import { GraduationCap, Home, Laptop, Sun } from "lucide-react";
 import { ScoreBar } from "@/components/ui/ScoreBar";
 import { UserScoresCard } from "@/components/UserScoresCard";
 import { CityReviewModal } from "@/components/CityReviewModal";
+import { QuickCityRating } from "@/components/QuickCityRating";
 import { cn } from "@/lib/utils";
 
 type Tab = { id: string; label: string };
@@ -171,6 +172,12 @@ export function LiveUserScoresCard({ citySlug, cityName, locale }: { citySlug: s
       locale={locale}
     />
   );
+}
+
+// Note rapide des habitants : branchée sur la modale d'avis écrit (« Ajouter un avis écrit »).
+export function LiveQuickRating({ citySlug, cityName, locale }: { citySlug: string; cityName: string; locale: "fr" | "en" }) {
+  const ctx = useContext(ReviewCtx);
+  return <QuickCityRating citySlug={citySlug} cityName={cityName} locale={locale} onWriteReview={ctx?.open} />;
 }
 
 export function RateCityButton({ label, className }: { label: string; className?: string }) {

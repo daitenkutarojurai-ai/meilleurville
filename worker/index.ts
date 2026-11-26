@@ -16,6 +16,7 @@ import { setDB, type D1Database } from "@/lib/db";
 import { addComment, listComments, countComments } from "@/lib/comments-store";
 import { addContactMessage, maybeForwardEmail } from "@/lib/contact-store";
 import { addPageFeedback, maybeForwardFeedback } from "@/lib/feedback-store";
+import { addCityRating, cityRatingSummary, allCityRatingSummaries, RATING_RELATIONS } from "@/lib/city-ratings-store";
 import {
   addSubscriber,
   maybeSyncList,
@@ -136,6 +137,25 @@ const FeedbackSchema = z.object({
   locale: z.enum(["fr", "en"]).default("fr"),
   website: z.string().max(0).optional(),
 });
+
+// Note rapide des habitants (lib/city-ratings-store.ts) : un tap, sans compte ni email.
+const RatingSchema = z.object({
+  city: z.string().min(1).max(80).regex(/^[a-z0-9-]+$/),
+  overall: z.number().int().min(1).max(5),
+  relation: z.enum(RATING_RELATIONS),
+  criteria: z
+    .object({
+      securite: z.number().int().min(1).max(5).optional(),
+      transport: z.number().int().min(1).max(5).optional(),
+      cout: z.number().int().min(1).max(5).optional(),
+      ambiance: z.number().int().min(1).max(5).optional(),
+    })
+    .optional(),
+  locale: z.enum(["fr", "en"]).default("fr"),
+  website: z.string().max(200).optional(), // honeypot : rempli = réponse « ok » muette, rien d enregistré
+  formStartedAt: z.number().int().optional(),
+});
+const CITY_SLUGS = new Set(CITIES_SEED.map((c) => c.slug));
 
 const CommentSchema = z.object({
   topic: z.string().min(1).max(120).regex(/^[a-z0-9:_\-]+$/i),
@@ -483,6 +503,42 @@ async function handleFeedback(request: Request): Promise<Response> {
   const stored = await addPageFeedback({ path, sentiment, comment, locale });
   const sent = await maybeForwardFeedback(stored);
   return json({ ok: true, id: stored.id, emailDelivered: sent }, { status: 201 });
+}
+
+async function handleRatingPost(request: Request): Promise<Response> {
+  const ip = getClientIp(request.headers);
+  if (!rateLimit(`rt:b:${ip}`, 8, 5 * 60_000).allowed) return json({ error: "Trop de notes d'un coup — patientez un peu." }, { status: 429 });
+
+  let payload: unknown;
+  try { payload = await request.json(); } catch { return json({ error: "Body JSON invalide" }, { status: 400 }); }
+  const parsed = RatingSchema.safeParse(payload);
+  if (!parsed.success) return json({ error: "Données invalides", issues: parsed.error.flatten().fieldErrors }, { status: 400 });
+  const { city, overall, relation, criteria, locale, website, formStartedAt } = parsed.data;
+  if (website && website.length > 0) return json({ ok: true }); // honeypot
+  if (!CITY_SLUGS.has(city)) return json({ error: "Ville inconnue" }, { status: 404 });
+  if (formStartedAt && Date.now() - formStartedAt < 1_500) return json({ error: "Patientez une seconde avant d'envoyer." }, { status: 429 });
+
+  // Une note par ville et par IP sur 30 jours, 25 villes par IP et par jour (D1, partagé entre colos).
+  const perCity = await rateLimitD1(`rt:c:${ip}:${city}`, 1, 30 * DAY_MS);
+  if (!perCity.allowed) return json({ error: "Vous avez déjà noté cette ville ce mois-ci. Merci !", already: true }, { status: 429 });
+  const perDay = await rateLimitD1(`rt:d:${ip}`, 25, DAY_MS);
+  if (!perDay.allowed) return json({ error: "Limite quotidienne atteinte." }, { status: 429 });
+
+  const stored = await addCityRating({ city, overall, relation, criteria, locale });
+  const summary = await cityRatingSummary(city);
+  return json({ ok: true, id: stored.id, summary }, { status: 201 });
+}
+
+async function handleRatingGet(url: URL): Promise<Response> {
+  const city = url.searchParams.get("city") ?? "";
+  if (!CITY_SLUGS.has(city)) return json({ error: "Ville inconnue" }, { status: 404 });
+  const summary = await cityRatingSummary(city);
+  return json(summary, { headers: { "cache-control": "public, max-age=60" } });
+}
+
+async function handleRatingSummary(): Promise<Response> {
+  const cities = await allCityRatingSummaries();
+  return json({ cities, total: cities.reduce((s, c) => s + c.n, 0) }, { headers: { "cache-control": "public, max-age=300" } });
 }
 
 async function handleNewsletter(request: Request): Promise<Response> {
@@ -964,6 +1020,9 @@ export default {
       }
       if (path === "/api/contact" && method === "POST") return await handleContact(request);
       if (path === "/api/feedback" && method === "POST") return await handleFeedback(request);
+      if (path === "/api/ratings" && method === "POST") return await handleRatingPost(request);
+      if (path === "/api/ratings" && method === "GET") return await handleRatingGet(url);
+      if (path === "/api/ratings/summary" && method === "GET") return await handleRatingSummary();
       if (path === "/api/newsletter" && method === "POST") return await handleNewsletter(request);
       if (path === "/api/newsletter/confirm" && method === "GET") return await handleNewsletterConfirm(url);
       if (path === "/api/vacances/newsletter" && method === "POST") return await handleVacancesNewsletter(request);

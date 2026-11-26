@@ -13,7 +13,7 @@ import { AISummaryCard } from "@/components/AISummaryCard";
 import { UserVsOfficialScore } from "@/components/UserVsOfficialScore";
 import { SimilarCities } from "@/components/SimilarCities";
 import { OwnerScoresCard } from "@/components/OwnerScoresCard";
-import { CityProfileTabs, LifeStagePicker, CityReviewProvider, LiveUserScoresCard, RateCityButton } from "./CityProfileIslands";
+import { CityProfileTabs, LifeStagePicker, CityReviewProvider, LiveUserScoresCard, RateCityButton, LiveQuickRating } from "./CityProfileIslands";
 import { HonestReviewCard } from "@/components/HonestReviewCard";
 import { DistancesCard } from "@/components/DistancesCard";
 import { RentVsBuyCard } from "@/components/RentVsBuyCard";
@@ -175,6 +175,7 @@ export function CityProfile({ city, data, faq, photo, locale = "fr", installGuid
                 {city.population && ` · ${formatNumber(city.population)}${L(" hab.", " inhabitants")}`}
               </p>
               <CityInBrief city={city} rentT2={housing?.avgRentT2} labels={SCORE_AXIS_LABELS} L={L} sub={sub} installGuideHref={installGuideHref} />
+              <LiveQuickRating citySlug={city.slug} cityName={city.name} locale={locale} />
             </div>
 
             {/* Global score — glass card */}

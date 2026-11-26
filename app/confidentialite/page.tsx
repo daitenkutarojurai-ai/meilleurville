@@ -27,6 +27,7 @@ Le site n'emploie ni délégué à la protection des données (DPO), ni co-respo
 
 • Adresse e-mail — uniquement si vous vous inscrivez à la newsletter ou laissez un avis.
 • Contenu des avis et commentaires que vous publiez volontairement (texte, scores, tags).
+• Note rapide d'une ville (étoiles, lien avec la ville) : enregistrée sans nom ni e-mail. Pour éviter les votes multiples, un compteur technique associé à votre adresse IP est conservé 30 jours au plus, puis effacé ; l'adresse IP n'est pas stockée avec la note.
 • Données techniques de connexion gérées par notre hébergeur Cloudflare : adresse IP (anonymisée dans les 30 jours), user-agent, URL visitée. Ces logs servent à détecter les abus et à dimensionner l'infrastructure.
 • Préférences du quiz et favoris — stockés uniquement dans votre navigateur via localStorage. Ces données ne sont pas envoyées au serveur.
 
