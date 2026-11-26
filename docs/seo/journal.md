@@ -52,3 +52,7 @@
   - Livré : guides tours-vs-orleans, sete-vs-montpellier (comparaison), colmar-vs-mulhouse (budget) -comparatif-2027 ; notes rendues, loyers, niveau de vie Insee, FAQ ; +6 liens entrants (vivre-a-*, retraite-a-sete).
   - Cibles (cibles.md § 6) : « tours ou orléans » (30-52 impr.), « vivre à sète ou montpellier » (17, pos. 5,2), « colmar ou mulhouse » (19, pos. 6,5). Compteur FR mesuré : 1729.
   - Suite : pau vs tarbes, savoie vs haute-savoie (vérifier le doublon avec vivre-en-savoie-haute-savoie).
+- 2026-11-26 · routine contenu · 2 comparaisons + 1 guide département (demande prouvée)
+  - Livré : guides aix-les-bains-vs-annecy-comparatif-2027 (« vivre à aix-les-bains ou annecy », 178 impr., pos. 25), savoie-vs-haute-savoie-comparatif-2027 (90 impr., pos. 6,6 ; moyennes simples des villes de nos fiches), vivre-en-loire-atlantique-guide-2027 (« où vivre en loire-atlantique » 105 + 99 impr., pos. 34-37) ; notes rendues, loyers, Insee, FAQ ; +8 liens entrants.
+  - Compteur FR mesuré : 1735 guides. Pas de jumelle EN : metz-nancy-living-guide-2026 couvre déjà le sujet.
+  - Suite : jumelles EN seulement si traction ; paires restantes de cibles.md § 6 : peu (la plupart existent déjà).

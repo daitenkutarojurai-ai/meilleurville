@@ -4547,6 +4547,21 @@
       "emoji": "🏙️"
     },
     {
+      "slug": "aix-les-bains-vs-annecy-comparatif-2027",
+      "title": "Aix-les-Bains ou Annecy : où vivre en 2027 ? Loyers, notes, verdict",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "savoie-vs-haute-savoie-comparatif-2027",
+      "title": "Savoie ou Haute-Savoie : où vivre en 2027 ? Loyers, notes, verdict",
+      "emoji": "⛰️"
+    },
+    {
+      "slug": "vivre-en-loire-atlantique-guide-2027",
+      "title": "Où vivre en Loire-Atlantique : Nantes, littoral ou couronne ?",
+      "emoji": "🌊"
+    },
+    {
       "slug": "narbonne-vs-perpignan-comparatif-2026",
       "title": "Narbonne ou Perpignan : quelle ville choisir en 2027 ?",
       "emoji": "🌞"
@@ -12324,13 +12339,13 @@
       "count": 24
     },
     {
-      "slug": "comparatif",
-      "label": "comparatif",
-      "count": 21
-    },
-    {
       "slug": "nantes",
       "label": "Nantes",
+      "count": 22
+    },
+    {
+      "slug": "comparatif",
+      "label": "comparatif",
       "count": 21
     },
     {
@@ -12389,6 +12404,11 @@
       "count": 16
     },
     {
+      "slug": "annecy",
+      "label": "Annecy",
+      "count": 15
+    },
+    {
       "slug": "atlantique",
       "label": "Atlantique",
       "count": 15
@@ -12429,11 +12449,6 @@
       "count": 15
     },
     {
-      "slug": "annecy",
-      "label": "Annecy",
-      "count": 14
-    },
-    {
       "slug": "famille-monoparentale-hauts-de-france",
       "label": "famille monoparentale Hauts-de-France",
       "count": 14
@@ -12452,6 +12467,11 @@
       "slug": "patrimoine",
       "label": "patrimoine",
       "count": 14
+    },
+    {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
+      "count": 13
     },
     {
       "slug": "famille-monoparentale-pays-de-la-loire",
@@ -12481,11 +12501,6 @@
     {
       "slug": "budget",
       "label": "budget",
-      "count": 12
-    },
-    {
-      "slug": "comparatif-villes",
-      "label": "comparatif villes",
       "count": 12
     },
     {
@@ -12899,6 +12914,11 @@
       "count": 6
     },
     {
+      "slug": "haute-savoie",
+      "label": "Haute-Savoie",
+      "count": 6
+    },
+    {
       "slug": "ile-de-france",
       "label": "Île-de-France",
       "count": 6
@@ -12956,6 +12976,11 @@
     {
       "slug": "rouen",
       "label": "Rouen",
+      "count": 6
+    },
+    {
+      "slug": "savoie",
+      "label": "Savoie",
       "count": 6
     },
     {
@@ -13129,6 +13154,11 @@
       "count": 5
     },
     {
+      "slug": "aix-les-bains",
+      "label": "Aix-les-Bains",
+      "count": 4
+    },
+    {
       "slug": "albi",
       "label": "Albi",
       "count": 4
@@ -13196,11 +13226,6 @@
     {
       "slug": "frontaliers",
       "label": "frontaliers",
-      "count": 4
-    },
-    {
-      "slug": "haute-savoie",
-      "label": "Haute-Savoie",
       "count": 4
     },
     {
@@ -13339,11 +13364,6 @@
       "count": 4
     },
     {
-      "slug": "savoie",
-      "label": "Savoie",
-      "count": 4
-    },
-    {
       "slug": "seniors",
       "label": "seniors",
       "count": 4
@@ -13416,11 +13436,6 @@
     {
       "slug": "airbnb",
       "label": "Airbnb",
-      "count": 3
-    },
-    {
-      "slug": "aix-les-bains",
-      "label": "Aix-les-Bains",
       "count": 3
     },
     {
