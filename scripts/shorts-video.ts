@@ -296,8 +296,8 @@ async function encode(file: string, seconds: number, frameAt: (t: number) => Fra
   // La musique s'efface sous la voix (compresseur piloté par la voix), puis les deux sont mixées.
   const filter = hasVoice
     ? "[1:a]asplit=2[v1][v2];[2:a]volume=0.42[m];[m][v1]sidechaincompress=threshold=0.02:ratio=8:attack=15:release=350[mc];" +
-      "[mc][v2]amix=inputs=2:normalize=0:duration=longest,aresample=44100,aformat=channel_layouts=stereo[a]"
-    : "[2:a]volume=0.75,aresample=44100,aformat=channel_layouts=stereo[a]";
+      "[mc][v2]amix=inputs=2:normalize=0:duration=longest,loudnorm=I=-15:TP=-1.5:LRA=11,aresample=44100,aformat=channel_layouts=stereo[a]"
+    : "[2:a]loudnorm=I=-18:TP=-1.5:LRA=11,aresample=44100,aformat=channel_layouts=stereo[a]";
   const ff = spawn(
     "ffmpeg",
     [
@@ -332,7 +332,7 @@ const fitFont = (s: string, maxW: number, max: number, k = 0.56) => Math.min(max
 const text = (x: number, y: number, s: string, o: { size: number; fill?: string; weight?: number; anchor?: string; family?: string; opacity?: number }) =>
   `<text x="${x}" y="${y}" font-family="${o.family ?? SANS}" font-size="${o.size}" font-weight="${o.weight ?? 700}" fill="${o.fill ?? "#FFFFFF"}"${o.anchor ? ` text-anchor="${o.anchor}"` : ""}${o.opacity !== undefined ? ` fill-opacity="${o.opacity.toFixed(3)}"` : ""}>${esc(s)}</text>`;
 const pill = (x: number, y: number, label: string, fill = "url(#brand)") => {
-  const w = Math.round(label.length * 15.5 + 56);
+  const w = Math.round(label.length * 17.5 + 56); // large : DejaVu (CI) est plus large que Segoe UI
   return `<rect x="${x}" y="${y}" width="${w}" height="56" rx="28" fill="${fill}"/>${text(x + 28, y + 38, label, { size: 27, weight: 800 })}`;
 };
 const brandBar = (url: string) =>
