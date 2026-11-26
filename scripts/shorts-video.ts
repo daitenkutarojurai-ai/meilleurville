@@ -602,7 +602,7 @@ function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Vi
     return { photos, svg: svg + "</svg>" };
   };
   const caption = captionBlock({
-    title: `${meta.headline} : le top ${N} (2027)`,
+    title: `${meta.headline} : le top ${N}${meta.headline.includes("2027") ? "" : " (2027)"}`,
     hook: `${meta.headline} : notre top ${N} sur 593 villes.`,
     body: [
       ...ranked.map((r) => `${r.rank}${r.tied ? " ex æquo" : ""}. ${r.f.c.name} (${r.f.c.department}) : ${fmt(r.score)}/10`),
