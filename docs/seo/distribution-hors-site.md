@@ -36,7 +36,12 @@ Une vidéo de 15 à 19 secondes par sujet, avec un chiffre par plan, est le form
 - **YouTube : programmé à l'avance.** `shorts-weekly` rend un lot (`-f from=AAAA-MM-JJ -f count=12`) ; les vidéos
   sont envoyées et programmées (18h, date du créneau) depuis une fenêtre Chrome dédiée (profil
   `E:\mavilleideal\.yt-chrome-profile`, port 9333, connectée à la chaîne MaVilleIdeal) par un script puppeteer.
-  L'API YouTube n'est pas utilisée : un projet non audité ne peut publier qu'en privé.
+  L'API YouTube n'est pas utilisée : un projet non audité ne peut publier qu'en privé. Outils hors dépôt :
+  `E:\mavilleideal\tools\start-youtube-chrome.cmd` (ouvre la fenêtre) puis
+  `node E:\mavilleideal\tools\yt-upload.mjs <dossier du lot>` (créneau du jour = public, les autres programmés ;
+  `youtube.json` dans le dossier garde les liens et évite les doublons si on relance). Premier lot : 12 vidéos du
+  26/11 au 14/12, dossier `E:\mavilleideal\shorts\2026-11-26-voix\`. Prochain lot à rendre vers le 10/12
+  (`gh workflow run shorts-weekly.yml -f from=2026-12-16 -f count=12`).
 - TikTok : à la main, avec la légende « TikTok » du `.txt` (pas d'API de publication ouverte).
 
 **Mise en place (une fois, propriétaire)** :
