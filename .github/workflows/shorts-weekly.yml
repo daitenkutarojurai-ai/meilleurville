@@ -1,0 +1,52 @@
+# Trois vidéos courtes verticales par semaine (duel de villes, ville en chiffres, top 5 régional),
+# générées depuis les données du site par scripts/shorts-video.ts. Rien n'est publié : les MP4 et
+# leurs légendes (TikTok, YouTube Shorts, Reels) sont dans l'artefact « shorts » du run, à poster
+# à la main en ajoutant un son dans l'appli. Voir docs/seo/distribution-hors-site.md.
+name: shorts-weekly
+
+on:
+  schedule:
+    # Lundi 06h00 UTC : les vidéos sont prêtes pour la semaine.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      week:
+        description: "Forcer une semaine ISO (vide = semaine courante)"
+        type: string
+        default: ""
+
+concurrency:
+  group: shorts-weekly
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # ffmpeg pour l'encodage, DejaVu pour les accents et le symbole euro dans le texte posé par sharp.
+      - name: ffmpeg + polices
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - run: npm ci
+
+      - name: Rendu des vidéos
+        run: >
+          npx --yes tsx --tsconfig tsconfig.json scripts/shorts-video.ts --out shorts-out
+          ${{ inputs.week != '' && inputs.week && format('--week {0}', inputs.week) || '' }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shorts
+          path: shorts-out/
+          retention-days: 30
