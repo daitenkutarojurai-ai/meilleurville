@@ -135,7 +135,7 @@ function spoken(s: string): string {
     .replace(/n° ?(\d)/g, "numéro $1");
 }
 
-const estimate = (s: string) => Math.max(1.2, spoken(s).length / 14.5);
+const estimate = (s: string) => Math.max(1.2, spoken(s).length / 17);
 
 function timeline(scenes: Scene[], dur: number[]): Timeline {
   const start: number[] = [];
@@ -146,7 +146,7 @@ function timeline(scenes: Scene[], dur: number[]): Timeline {
     const lead = i === 0 ? 0.35 : 0.15;
     start.push(t);
     voice.push(t + lead);
-    t += Math.max(s.min, lead + dur[i] + 0.35);
+    t += Math.max(s.min, lead + dur[i] + 0.22);
     end.push(t);
   });
   return { start, end, voice, dur, total: t + 0.5 };

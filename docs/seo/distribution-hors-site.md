@@ -25,10 +25,19 @@ nos données.
 aucun concurrent direct (ville-ideale, bien-dans-ma-ville, choisirsaville) ne publie de vidéos de données.
 Une vidéo de 15 à 19 secondes par sujet, avec un chiffre par plan, est le format qui circule.
 
-**Déjà prêt** : `scripts/shorts-video.ts` (3 formats : duel A vs B, ville en 5 chiffres, top 5 d'une région) et
-le workflow `.github/workflows/shorts-weekly.yml` (lundi 06h UTC, 3 vidéos + légendes en artefact). Première
-série de 6 vidéos : `E:\mavilleideal\shorts\2026-11-26\` (Nantes ou Rennes, Metz ou Nancy, Bordeaux ou
-Toulouse, Île de Ré, Amboise, top 5 Normandie).
+**En place depuis le 2026-11-26** :
+- `scripts/shorts-video.ts` : 4 formats (duel A vs B, top N d'un des 19 classements, ville en 5 chiffres, top N
+  d'une région), voix off française (OpenAI, secret `OPENAI_API_KEY`), musique originale synthétisée
+  (`scripts/shorts-audio.ts`), sous-titres incrustés + `.srt`. Calendrier : un créneau le lundi, mercredi,
+  vendredi et dimanche (`--plan` pour le voir).
+- **Facebook + Instagram : automatique.** Workflow `shorts-publish` (17h UTC les jours de créneau) : rend la vidéo
+  du jour et la publie en Reel (`scripts/shorts-publish.ts`, jeton de page de `social-weekly`, expire le 2027-01-24).
+  À la main : `gh workflow run shorts-publish.yml -f mode=check|dry-run|publish [-f slot=AAAA-MM-JJ]`.
+- **YouTube : programmé à l'avance.** `shorts-weekly` rend un lot (`-f from=AAAA-MM-JJ -f count=12`) ; les vidéos
+  sont envoyées et programmées (18h, date du créneau) depuis une fenêtre Chrome dédiée (profil
+  `E:\mavilleideal\.yt-chrome-profile`, port 9333, connectée à la chaîne MaVilleIdeal) par un script puppeteer.
+  L'API YouTube n'est pas utilisée : un projet non audité ne peut publier qu'en privé.
+- TikTok : à la main, avec la légende « TikTok » du `.txt` (pas d'API de publication ouverte).
 
 **Mise en place (une fois, propriétaire)** :
 1. Compte TikTok **professionnel** `@mavilleideale` (le lien cliquable dans la bio n'existe qu'en compte pro,

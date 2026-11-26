@@ -6,11 +6,12 @@
  * Tout est en PCM 16 bits mono à 24 kHz (le format WAV que renvoie l'API), mixé ensuite par ffmpeg.
  */
 import { writeFileSync } from "fs";
+import { spawnSync } from "child_process";
 
 export const SR = 24000;
 const VOICE_INSTRUCTIONS =
-  "Voix française naturelle, ton dynamique et chaleureux de présentatrice de vidéo courte. Débit vif mais clair, " +
-  "chiffres bien articulés, pas d'emphase théâtrale.";
+  "Voix française naturelle, ton enjoué de présentatrice de vidéo courte (TikTok). Débit rapide, phrases enchaînées " +
+  "sans longues pauses, chiffres articulés, pas d'emphase théâtrale.";
 
 export interface Clip {
   pcm: Int16Array;
@@ -73,6 +74,25 @@ function trim(x: Float32Array): Float32Array {
   return x.subarray(Math.max(0, a - SR * 0.03), Math.min(x.length, b + SR * 0.08));
 }
 
+/**
+ * La voix de l'API est posée, avec des pauses à chaque deux-points : on raccourcit les silences internes
+ * (gardés à 0,1 s) et on accélère de 20 % sans changer la hauteur (ffmpeg atempo). Sans ffmpeg, clip inchangé.
+ */
+function tighten(pcm: Int16Array): Int16Array {
+  const r = spawnSync(
+    "ffmpeg",
+    [
+      "-v", "error", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", "-",
+      "-af", "silenceremove=start_periods=1:start_threshold=-42dB:stop_periods=-1:stop_duration=0.18:stop_threshold=-42dB:stop_silence=0.1,atempo=1.2",
+      "-f", "s16le", "-ar", String(SR), "-ac", "1", "-",
+    ],
+    { input: Buffer.from(pcm.buffer, pcm.byteOffset, pcm.byteLength), maxBuffer: 64 * 1024 * 1024 },
+  );
+  if (r.status !== 0 || !r.stdout?.length) return pcm;
+  const out = r.stdout as Buffer;
+  return new Int16Array(out.buffer.slice(out.byteOffset, out.byteOffset + out.length - (out.length % 2)));
+}
+
 const toInt16 = (x: Float32Array) => Int16Array.from(x, (v) => Math.max(-32767, Math.min(32767, Math.round(v * 32767))));
 
 export async function tts(text: string): Promise<Clip | null> {
@@ -94,7 +114,7 @@ export async function tts(text: string): Promise<Clip | null> {
         continue;
       }
       const w = parseWav(Buffer.from(await res.arrayBuffer()));
-      const pcm = toInt16(trim(resample(w.samples, w.rate)));
+      const pcm = tighten(toInt16(trim(resample(w.samples, w.rate))));
       return { pcm, seconds: pcm.length / SR };
     } catch (e) {
       console.warn(`TTS ${t.model} : ${String(e).slice(0, 160)}`);
