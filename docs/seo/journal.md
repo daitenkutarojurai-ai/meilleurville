@@ -1,5 +1,8 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
 - 2026-11-26 · session manuelle (propriétaire + Claude) · audit concurrence et audience, commits 5ea34c7 → 6c23ec4
+- 2026-11-26 · routine 4/4 Rotation (jeudi, intégrité) · run propre, 0 correction
+  - 10 villes : FAQ FR/EN (16/16) mêmes nombres ; 10 guides A vs B de la semaine : notes citées = notes rendues.
+  - Rapport `docs/integrite-2026-11-26.md`. Suite : composite sécurité et chemins Red Flags restent à arbitrer.
   - Constat : 20 avis d’habitants pour 593 villes, 1 abonné newsletter FR, aucune vidéo ; concurrents : bien-dans-ma-ville (80 000 avis), palmarès « Villes et villages » (presse), choisirsaville (data.gouv.fr).
   - Livré : note rapide des habitants (593 fiches, /api/ratings), titres « Où vivre en X ? » (102 départements + 18 régions, 2026 → 2027), CSV presse 540 → 593 villes, `scripts/shorts-video.ts` + workflow `shorts-weekly` + 6 vidéos.
   - Docs : `docs/audits/2026-11-26-concurrence-audience.md`, `docs/seo/distribution-hors-site.md` (routine hebdo du propriétaire, kit data.gouv.fr, presse).
