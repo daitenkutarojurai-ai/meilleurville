@@ -1,0 +1,76 @@
+# Publication automatique des vidéos courtes en Reels (page Facebook + Instagram), quatre fois par semaine.
+# Chaque run rend la vidéo du créneau du jour (calendrier de scripts/shorts-video.ts : lun, mer, ven, dim),
+# avec voix off OpenAI, musique et sous-titres, puis la publie (scripts/shorts-publish.ts).
+# Mêmes secrets que social-weekly ; le jeton de page expire le 2027-01-24 (le job échouera, GitHub enverra
+# un mail, tant que FB_ACCESS_TOKEN n'est pas renouvelé). Lancement manuel : mode check / dry-run / publish.
+name: shorts-publish
+
+on:
+  schedule:
+    # 17h00 UTC (18h à Paris l'hiver) les lundi, mercredi, vendredi et dimanche.
+    - cron: "0 17 * * 0,1,3,5"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "check = droits du jeton · dry-run = rendu sans publier · publish = rendu + publication"
+        type: choice
+        options: [dry-run, check, publish]
+        default: dry-run
+      slot:
+        description: "Créneau AAAA-MM-JJ (vide = celui du jour)"
+        type: string
+        default: ""
+
+concurrency:
+  group: shorts-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      FB_ACCESS_TOKEN: ${{ secrets.FB_ACCESS_TOKEN }}
+      FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+      IG_USER_ID: ${{ secrets.IG_USER_ID }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      MODE: ${{ inputs.mode || 'publish' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: ffmpeg + polices
+        if: env.MODE != 'check'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+
+      - run: npm ci
+
+      - name: Droits du jeton
+        run: npx --yes tsx --tsconfig tsconfig.json scripts/shorts-publish.ts --check
+
+      - name: Rendu du créneau
+        if: env.MODE != 'check'
+        run: >
+          npx --yes tsx --tsconfig tsconfig.json scripts/shorts-video.ts --out shorts-out
+          ${{ inputs.slot != '' && inputs.slot && format('--slot {0}', inputs.slot) || '' }}
+
+      - name: Publication Facebook + Instagram
+        if: env.MODE != 'check'
+        run: >
+          npx --yes tsx --tsconfig tsconfig.json scripts/shorts-publish.ts --dir shorts-out
+          ${{ env.MODE == 'dry-run' && '--dry-run' || '' }}
+
+      - uses: actions/upload-artifact@v4
+        if: always() && env.MODE != 'check'
+        with:
+          name: shorts-publish
+          path: shorts-out/
+          retention-days: 30
+          if-no-files-found: ignore

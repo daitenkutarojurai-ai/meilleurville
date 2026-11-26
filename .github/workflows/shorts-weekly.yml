@@ -1,19 +1,22 @@
-# Trois vidéos courtes verticales par semaine (duel de villes, ville en chiffres, top 5 régional),
-# générées depuis les données du site par scripts/shorts-video.ts. Rien n'est publié : les MP4 et
-# leurs légendes (TikTok, YouTube Shorts, Reels) sont dans l'artefact « shorts » du run, à poster
-# à la main en ajoutant un son dans l'appli. Voir docs/seo/distribution-hors-site.md.
+# Rendu par lots des vidéos courtes du calendrier (scripts/shorts-video.ts), avec voix off, musique et
+# sous-titres : les MP4, leurs .srt et leurs légendes partent en artefact « shorts ». Sert à programmer
+# YouTube Shorts (et TikTok) à l'avance ; Facebook et Instagram sont publiés par shorts-publish.
+# Le lundi : les 4 créneaux de la semaine. À la main : n'importe quelle période.
 name: shorts-weekly
 
 on:
   schedule:
-    # Lundi 06h00 UTC : les vidéos sont prêtes pour la semaine.
     - cron: "0 6 * * 1"
   workflow_dispatch:
     inputs:
-      week:
-        description: "Forcer une semaine ISO (vide = semaine courante)"
+      from:
+        description: "Premier jour AAAA-MM-JJ (vide = aujourd'hui)"
         type: string
         default: ""
+      count:
+        description: "Nombre de créneaux à rendre"
+        type: string
+        default: "4"
 
 concurrency:
   group: shorts-weekly
@@ -25,7 +28,7 @@ permissions:
 jobs:
   render:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 
@@ -41,9 +44,14 @@ jobs:
       - run: npm ci
 
       - name: Rendu des vidéos
-        run: >
-          npx --yes tsx --tsconfig tsconfig.json scripts/shorts-video.ts --out shorts-out
-          ${{ inputs.week != '' && inputs.week && format('--week {0}', inputs.week) || '' }}
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FROM: ${{ inputs.from }}
+          COUNT: ${{ inputs.count }}
+        run: |
+          [ -z "$FROM" ] && FROM=$(date -u +%F)
+          [ -z "$COUNT" ] && COUNT=4
+          npx --yes tsx --tsconfig tsconfig.json scripts/shorts-video.ts --out shorts-out --from "$FROM" --count "$COUNT"
 
       - uses: actions/upload-artifact@v4
         with:
