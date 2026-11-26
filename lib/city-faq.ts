@@ -6,7 +6,7 @@
 
 import type { CitySeed } from "@/data/cities-seed";
 import { HOUSING } from "@/data/housing";
-import { rentalTension, tensionInfo } from "@/lib/rental-tension";
+import { rentalTension } from "@/lib/rental-tension";
 import { commuteEstimate } from "@/lib/commute-estimate";
 import { projectClimate2040 } from "@/lib/climate-2040";
 import { NEIGHBORHOODS } from "@/data/neighborhoods";
@@ -36,11 +36,14 @@ function regionLabel(region: string, lang: Lang): string {
 function fmtScore(n: number): string {
   return n.toFixed(1);
 }
+/** Virgule décimale en copie française (« 7,4/10 »), comme le reste de la fiche. */
+function fmtScoreFR(n: number): string {
+  return fmtScore(n).replace(".", ",");
+}
 
 export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
   const housing = HOUSING[city.slug];
   const tension = rentalTension(city);
-  const tInfo = tensionInfo(tension);
   const climate = projectClimate2040(city);
   const commute = commuteEstimate(city);
   const region = regionLabel(city.region, lang);
@@ -56,13 +59,13 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
   if (lang === "fr") {
     items.push({
       q: `Fait-il bon vivre à ${city.name} ?`,
-      a: `${city.name} affiche un score qualité de vie global de ${fmtScore(city.scores.global)}/10 en 2026. Les axes les plus forts : ${strongAxesFR(city)}. Les points de vigilance : ${weakAxesFR(city)}. La ville compte ~${city.population.toLocaleString("fr-FR")} habitants en ${region}.${facts.length ? " " + facts.slice(0, 2).map((f) => f.fr).join(" ") : ""}`,
+      a: `${city.name} affiche un score qualité de vie global de ${fmtScoreFR(city.scores.global)}/10 en 2026. Les axes les plus forts : ${strongAxesFR(city)}. Les points de vigilance : ${weakAxesFR(city)}. La ville compte ~${city.population.toLocaleString("fr-FR")} habitants en ${region}.${facts.length ? " " + facts.slice(0, 2).map((f) => f.fr).join(" ") : ""}`,
     });
 
     if (hoods.length >= 2 && bestHood && cheapHood) {
       items.push({
         q: `Quel quartier choisir à ${city.name} ?`,
-        a: `Le quartier le mieux noté de notre fiche quartiers est ${bestHood.name} (${fmtScore(bestHood.scores.global).replace(".", ",")}/10, T2 ≈ ${bestHood.avgRentT2} €/mois). ${cheapHood !== bestHood ? `Le plus abordable : ${cheapHood.name} (T2 ≈ ${cheapHood.avgRentT2} €/mois). ` : ""}${calmHood && calmHood !== cheapHood ? `Pour le calme : ${calmHood.name} (sécurité ${fmtScore(calmHood.scores.safety).replace(".", ",")}/10). ` : ""}Les ${hoods.length} quartiers étudiés sont comparés sur la page « Quartiers ».`,
+        a: `Le quartier le mieux noté de notre fiche quartiers est ${bestHood.name} (${fmtScoreFR(bestHood.scores.global)}/10, T2 ≈ ${bestHood.avgRentT2} €/mois). ${cheapHood !== bestHood ? `Le plus abordable : ${cheapHood.name} (T2 ≈ ${cheapHood.avgRentT2} €/mois). ` : ""}${calmHood && calmHood !== cheapHood ? `Pour le calme : ${calmHood.name} (sécurité ${fmtScoreFR(calmHood.scores.safety)}/10). ` : ""}Les ${hoods.length} quartiers étudiés sont comparés sur la page « Quartiers ».`,
       });
     }
 
@@ -78,12 +81,12 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
       });
       items.push({
         q: `Est-il difficile de trouver un logement à ${city.name} ?`,
-        a: `Tension locative estimée : ${tension.toFixed(1)}/10 (niveau ${tInfo.label}). ${tension >= 7 ? `Marché tendu — dossier complet, garant et visites groupées à prévoir.` : tension >= 4 ? `Marché équilibré — dossier sérieux suffit, 2 à 6 semaines de recherche en moyenne.` : `Marché détendu — délais courts, négociation parfois possible.`}`,
+        a: `Tension locative estimée : ${fmtScoreFR(tension)}/10 (10 = marché le plus tendu). ${tension >= 7 ? `Marché tendu — dossier complet, garant et visites groupées à prévoir.` : tension >= 4 ? `Marché équilibré — dossier sérieux suffit, 2 à 6 semaines de recherche en moyenne.` : `Marché détendu — délais courts, négociation parfois possible.`}`,
       });
     } else {
       items.push({
         q: `Quel loyer prévoir à ${city.name} en 2026 ?`,
-        a: `Nous n'avons pas de relevé Clameur officiel pour ${city.name}. Le score coût-de-vie est de ${fmtScore(city.scores.cost)}/10 (10 = très accessible). Pour les loyers réels, consulter PAP, Leboncoin ou l'observatoire des loyers de votre département.`,
+        a: `Nous n'avons pas de relevé Clameur officiel pour ${city.name}. Le score coût de la vie est de ${fmtScoreFR(city.scores.cost)}/10 (10 = très accessible). Pour les loyers réels, consulter PAP, Leboncoin ou l'observatoire des loyers de votre département.`,
       });
     }
 
@@ -94,7 +97,7 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
 
     items.push({
       q: `${city.name} est-elle une ville sûre ?`,
-      a: `Score sécurité : ${fmtScore(city.scores.safety)}/10 (10 = très sûr) dans notre grille calibrée sur les statistiques SSMSI. ${city.scores.safety >= 7 ? `Niveau confortable, criminalité globalement maîtrisée.` : city.scores.safety >= 5 ? `Vigilance moyenne — comme dans toute ville de cette taille, certains quartiers exigent plus de prudence.` : `Vigilance élevée — voir notre fiche sécurité détaillée et les red-flags référencés.`}`,
+      a: `Score sécurité : ${fmtScoreFR(city.scores.safety)}/10 (10 = très sûr) dans notre grille calibrée sur les statistiques SSMSI. ${city.scores.safety >= 7 ? `Niveau confortable, criminalité globalement maîtrisée.` : city.scores.safety >= 5 ? `Vigilance moyenne — comme dans toute ville de cette taille, certains quartiers exigent plus de prudence.` : `Vigilance élevée — voir notre fiche sécurité détaillée et les red-flags référencés.`}`,
     });
 
     items.push({
@@ -104,22 +107,22 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
 
     items.push({
       q: `Quelle est la qualité des écoles à ${city.name} ?`,
-      a: `Score scolaire : ${fmtScore(city.scores.schools)}/10. ${city.scores.schools >= 7 ? `Offre scolaire solide, options secondaire et lycées renommés disponibles.` : city.scores.schools >= 5 ? `Offre scolaire correcte, choix limité au-delà du secteur public.` : `Offre scolaire restreinte, certaines familles privilégient les villes voisines.`} Cartographie complète sur la sous-page "Écoles".`,
+      a: `Score scolaire : ${fmtScoreFR(city.scores.schools)}/10. ${city.scores.schools >= 7 ? `Offre scolaire solide, options secondaire et lycées renommés disponibles.` : city.scores.schools >= 5 ? `Offre scolaire correcte, choix limité au-delà du secteur public.` : `Offre scolaire restreinte, certaines familles privilégient les villes voisines.`} Cartographie complète sur la sous-page "Écoles".`,
     });
 
     items.push({
       q: `${city.name} convient-elle au télétravail ?`,
-      a: `Score télétravail composite : ${fmtScore(city.scores.remoteWork)}/10 (qualité internet, cafés, espaces coworking, calme). ${city.scores.remoteWork >= 7 ? `Configuration confortable pour télétravailleurs.` : city.scores.remoteWork >= 5 ? `Configuration correcte, mais limites possibles sur fibre/coworking selon le quartier.` : `Configuration faible pour télétravail à temps plein — internet et tiers-lieux à vérifier.`}`,
+      a: `Score télétravail composite : ${fmtScoreFR(city.scores.remoteWork)}/10 (qualité internet, cafés, espaces coworking, calme). ${city.scores.remoteWork >= 7 ? `Configuration confortable pour télétravailleurs.` : city.scores.remoteWork >= 5 ? `Configuration correcte, mais limites possibles sur fibre/coworking selon le quartier.` : `Configuration faible pour télétravail à temps plein — internet et tiers-lieux à vérifier.`}`,
     });
 
     items.push({
       q: `Quelle est l'offre culturelle à ${city.name} ?`,
-      a: `Score culture : ${fmtScore(city.scores.culture)}/10. ${city.scores.culture >= 7 ? `Programmation riche et régulière (théâtres, scènes, expositions, festivals).` : city.scores.culture >= 5 ? `Offre culturelle locale présente mais limitée — métropole voisine souvent indispensable.` : `Offre culturelle restreinte — déplacement vers grande ville à anticiper pour une vraie diversité.`}`,
+      a: `Score culture : ${fmtScoreFR(city.scores.culture)}/10. ${city.scores.culture >= 7 ? `Programmation riche et régulière (théâtres, scènes, expositions, festivals).` : city.scores.culture >= 5 ? `Offre culturelle locale présente mais limitée — métropole voisine souvent indispensable.` : `Offre culturelle restreinte — déplacement vers grande ville à anticiper pour une vraie diversité.`}`,
     });
 
     items.push({
       q: `${city.name} est-elle accessible en transports en commun ?`,
-      a: `Score transport : ${fmtScore(city.scores.transport)}/10. ${city.scores.transport >= 7 ? `Maillage transports en commun dense, voiture optionnelle au quotidien.` : city.scores.transport >= 5 ? `Réseau présent mais une voiture reste souvent nécessaire en périphérie.` : `Réseau limité — voiture pratiquement indispensable pour vivre confortablement.`} Voir notre sous-page "Transports" pour le détail des lignes.`,
+      a: `Score transport : ${fmtScoreFR(city.scores.transport)}/10. ${city.scores.transport >= 7 ? `Maillage transports en commun dense, voiture optionnelle au quotidien.` : city.scores.transport >= 5 ? `Réseau présent mais une voiture reste souvent nécessaire en périphérie.` : `Réseau limité — voiture pratiquement indispensable pour vivre confortablement.`} Voir notre sous-page "Transports" pour le détail des lignes.`,
     });
 
     items.push({
@@ -134,12 +137,12 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
 
     items.push({
       q: `Combien coûte la vie à ${city.name} par rapport à la moyenne française ?`,
-      a: `Score coût-de-vie : ${fmtScore(city.scores.cost)}/10 (10 = très accessible). ${city.scores.cost >= 7 ? `Coût-de-vie nettement inférieur à la moyenne nationale.` : city.scores.cost >= 5 ? `Coût-de-vie proche de la moyenne nationale.` : `Coût-de-vie supérieur à la moyenne, surtout pour le logement.`} Notre calculateur "coût réel" permet une simulation par profil familial.`,
+      a: `Score coût de la vie : ${fmtScoreFR(city.scores.cost)}/10 (10 = très accessible). ${city.scores.cost >= 7 ? `Coût de la vie nettement inférieur à la moyenne nationale.` : city.scores.cost >= 5 ? `Coût de la vie proche de la moyenne nationale.` : `Coût de la vie supérieur à la moyenne, surtout pour le logement.`} Notre calculateur "coût réel" permet une simulation par profil familial.`,
     });
 
     items.push({
       q: `${city.name} a-t-elle des espaces naturels proches ?`,
-      a: `Score nature : ${fmtScore(city.scores.nature)}/10. ${city.scores.nature >= 7 ? `Forte densité de nature accessible — parcs, forêts, plans d'eau ou littoral.` : city.scores.nature >= 5 ? `Accès nature correct, souvent en périphérie proche.` : `Accès nature limité — anticiper les déplacements pour le week-end.`}`,
+      a: `Score nature : ${fmtScoreFR(city.scores.nature)}/10. ${city.scores.nature >= 7 ? `Forte densité de nature accessible — parcs, forêts, plans d'eau ou littoral.` : city.scores.nature >= 5 ? `Accès nature correct, souvent en périphérie proche.` : `Accès nature limité — anticiper les déplacements pour le week-end.`}`,
     });
   } else {
     // English
@@ -235,17 +238,19 @@ export function cityFaq(city: CitySeed, lang: Lang = "fr"): FaqItem[] {
   return items;
 }
 
+// Chaque axe porte sa note rendue (« télétravail 8,1/10 ») : la réponse FAQ, reprise en
+// JSON-LD, donne un chiffre là où elle ne donnait qu'un mot.
 function strongAxesFR(city: CitySeed): string {
-  return topAxes(city, 2).map(axisLabel.fr).join(", ");
+  return topAxes(city, 2).map((k) => `${axisLabel.fr(k)} ${fmtScoreFR(city.scores[k])}/10`).join(", ");
 }
 function weakAxesFR(city: CitySeed): string {
-  return bottomAxes(city, 2).map(axisLabel.fr).join(", ");
+  return bottomAxes(city, 2).map((k) => `${axisLabel.fr(k)} ${fmtScoreFR(city.scores[k])}/10`).join(", ");
 }
 function strongAxesEN(city: CitySeed): string {
-  return topAxes(city, 2).map(axisLabel.en).join(", ");
+  return topAxes(city, 2).map((k) => `${axisLabel.en(k)} ${fmtScore(city.scores[k])}/10`).join(", ");
 }
 function weakAxesEN(city: CitySeed): string {
-  return bottomAxes(city, 2).map(axisLabel.en).join(", ");
+  return bottomAxes(city, 2).map((k) => `${axisLabel.en(k)} ${fmtScore(city.scores[k])}/10`).join(", ");
 }
 function lowestAxisFR(city: CitySeed): string {
   return axisLabel.fr(bottomAxes(city, 1)[0]);
@@ -262,7 +267,7 @@ const axisLabel = {
     life: "qualité de vie",
     transport: "transports",
     nature: "nature",
-    cost: "coût-de-vie",
+    cost: "coût de la vie",
     safety: "sécurité",
     culture: "culture",
     remoteWork: "télétravail",

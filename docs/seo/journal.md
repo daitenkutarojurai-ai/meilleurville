@@ -1,4 +1,8 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-26 · routine 2/4 Croissance SEO · chantier B (fiche ville « vivre à X / avis »), Rennes, Île de Ré, Amboise, Narbonne
+  - `lib/city-local-facts.ts` : 3 faits recoupés (2 sources chacun) pour rennes (métro a 2002 / b 2022, Lices depuis 1622, Cityval), ile-de-re (pont 1988, Vauban Unesco 2008, 10 villages à vélo), amboise (Vinci 1516-1519, château royal, Val de Loire Unesco 2000), narbonne (Narbo Martius 118 av. J.-C., Narbo Via 19/05/2021, Robine Unesco 1996) → bloc « Ce qui distingue X » + FAQ/JSON-LD. Villes couvertes : 1 → 5.
+  - Générique (593 fiches, FAQ FR + JSON-LD) : axes forts/faibles chiffrés (« télétravail 9,0/10 »), virgule décimale FR (16/16 réponses, contre 15), « coût de la vie », légende de la tension locative.
+  - Cibles : « vivre à rennes » (pos. 19), « rennes avis » (pos. 9), /villes/ile-de-re (73 cl.), amboise, narbonne (cibles § 5). Suite : marseille, dinard, saint-malo, dinan, cannes.
 - 2026-11-25 · routine 4/4 Rotation (mercredi, design) · guides « A vs B »
   - Livré : `VersusScoreboard` (FR + EN) en tête des 41 guides `*-vs-*` : notes rendues, 8 critères, verdict, lien vers /comparer et fiches.
   - Cible : guides `*-vs-*` (CTR 2,4 %, 594 clics, meilleur rendement) : trouver la réponse sans scroller et cliquer plus loin.
