@@ -10,7 +10,8 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { GUIDES } from "@/data/guides";
 import type { City } from "@/lib/types";
 import { hreflangLanguages } from "@/lib/i18n";
-import { fitTitle } from "@/lib/brand";
+import { clampMeta, fitTitle } from "@/lib/brand";
+import { inRegion, regionPrefix } from "@/lib/place-prep";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -92,8 +93,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cities = CITIES_SEED.filter((c) => c.region === region);
   const topCity = [...cities].sort((a, b) => b.scores.global - a.scores.global)[0];
   return {
-    title: fitTitle(`Meilleures villes ${region} 2027 · Qualité de vie & Classements`),
-    description: `Découvrez les ${cities.length} meilleures villes de ${region} : scores de qualité de vie, avis d'habitants, comparaisons. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`,
+    // « où vivre en bretagne », « bien vivre nouvelle-aquitaine », « qualité de cadre de vie … » (cibles.md, 2026-11-23).
+    title: fitTitle(`Où vivre ${inRegion(region)} ? Meilleures villes 2027 · Qualité de vie`),
+    description: clampMeta(
+      `Où fait-il bon vivre ${inRegion(region)} ? Nos ${cities.length} villes classées sur 8 critères (qualité de vie, loyers, sécurité), avec avis d'habitants. N° 1 : ${topCity?.name} (${topCity?.scores.global.toFixed(1).replace(".", ",")}/10).`,
+    ),
     alternates: { canonical: `/regions/${regionSlug}`, languages: hreflangLanguages(`/regions/${regionSlug}`) },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -244,7 +248,8 @@ export default async function RegionPage({ params }: Props) {
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            <span className="font-display gradient-text-anim italic">{regionName}</span>
+            Où vivre {regionPrefix(regionName)}
+            <span className="font-display gradient-text-anim italic">{regionName}</span>&nbsp;?
           </h1>
           <div className="mt-4 flex flex-wrap gap-2 text-xs">
             <span className="inline-flex items-center rounded-full bg-white/85 px-3 py-1 font-semibold text-[#4338CA] ring-1 ring-[#C7D2FE]">{cities.length} villes analysées</span>

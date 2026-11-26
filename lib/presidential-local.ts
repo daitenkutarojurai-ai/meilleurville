@@ -15,6 +15,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { allPoliticalLeans, getPoliticalLean } from "@/lib/political-lean";
 import { CANDIDATE_BY_KEY, type CandidateKey } from "@/lib/political-lean-meta";
 import { NATIONAL_2022_CANDS, NATIONAL_2022_T1_ABSTENTION, NATIONAL_2022_T2 } from "@/data/presidential-2027-polls";
+import { inRegion } from "@/lib/place-prep";
 
 /** Un segment de phrase : du texte, ou un lien vers la page présidentielle d'une autre ville. */
 export type Seg = string | { slug: string; name: string };
@@ -30,14 +31,7 @@ export interface Round2 {
 const T2 = t2Data as Record<string, Round2>;
 export const getRound2 = (slug: string): Round2 | null => T2[slug] ?? null;
 
-const REGION_IN: Record<string, string> = {
-  "Grand Est": "dans le Grand Est",
-  "Hauts-de-France": "dans les Hauts-de-France",
-  "Pays de la Loire": "dans les Pays de la Loire",
-  "La Réunion": "à La Réunion",
-  Mayotte: "à Mayotte",
-};
-const inRegion = (r: string) => REGION_IN[r] ?? `en ${r}`;
+// Prépositions de région : lib/place-prep.ts (partagé avec les titres « Où vivre en … ? »).
 
 const fmt = (n: number) => n.toLocaleString("fr-FR", { maximumFractionDigits: 1 });
 // Résultats nationaux officiels : deux décimales, comme le Conseil constitutionnel les publie.

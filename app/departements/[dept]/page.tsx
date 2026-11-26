@@ -15,6 +15,7 @@ import type { City } from "@/lib/types";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { hreflangLanguages } from "@/lib/i18n";
 import { clampMeta, fitTitle } from "@/lib/brand";
+import { departementPrefix, inDepartement } from "@/lib/place-prep";
 
 // ISR Reads optimization: pure SSG (no Vercel Data Cache layer).
 // revalidate=false → page built once at deploy, served from static edge cache.
@@ -34,13 +35,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cities = CITIES_SEED.filter((c) => c.department === dept);
   const topCity = [...cities].sort((a, b) => b.scores.global - a.scores.global)[0];
   return {
-    // Mayotte est à la fois région et département : même titre que /regions/mayotte sans ce cas.
-    title: fitTitle(
-      topCity?.region === dept
-        ? `Villes du département ${dept} 2026 · Qualité de vie & Classements`
-        : `Meilleures villes ${dept} 2026 · Qualité de vie & Classements`,
+    // Requêtes « où vivre en loire-atlantique » / « où fait-il bon vivre en … » (cibles.md § 6, pos. 33-37
+    // le 2026-11-23) : le titre reprend la question. Les 5 DROM restent distincts de /regions/* (« Où vivre … ? · Qualité de vie »).
+    title: fitTitle(`Où vivre ${inDepartement(dept)} ? Meilleures villes 2027 · Classement & avis`),
+    description: clampMeta(
+      `Où fait-il bon vivre ${inDepartement(dept)} ? Nos ${cities.length} villes classées sur 8 critères, loyers et avis d'habitants. N° 1 : ${topCity?.name} (${topCity?.scores.global.toFixed(1).replace(".", ",")}/10).`,
     ),
-    description: clampMeta(`Découvrez les ${cities.length} meilleures villes du département ${dept} : scores qualité de vie, comparaisons, avis d'habitants. N°1 : ${topCity?.name} (${topCity?.scores.global}/10).`),
     alternates: { canonical: `/departements/${deptSlug}`, languages: hreflangLanguages(`/departements/${deptSlug}`) },
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine
@@ -215,7 +215,8 @@ export default async function DeptPage({ params }: Props) {
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            <span className="font-display gradient-text-anim italic">{deptName}</span>
+            Où vivre {departementPrefix(deptName)}
+            <span className="font-display gradient-text-anim italic">{deptName}</span>&nbsp;?
           </h1>
           <p className="text-sm text-[var(--text-secondary)] mt-2">
             Région {region} ·{" "}
