@@ -1,4 +1,9 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-26 · session manuelle (propriétaire + Claude) · audit concurrence et audience, commits 5ea34c7 → 6c23ec4
+  - Constat : 20 avis d’habitants pour 593 villes, 1 abonné newsletter FR, aucune vidéo ; concurrents : bien-dans-ma-ville (80 000 avis), palmarès « Villes et villages » (presse), choisirsaville (data.gouv.fr).
+  - Livré : note rapide des habitants (593 fiches, /api/ratings), titres « Où vivre en X ? » (102 départements + 18 régions, 2026 → 2027), CSV presse 540 → 593 villes, `scripts/shorts-video.ts` + workflow `shorts-weekly` + 6 vidéos.
+  - Docs : `docs/audits/2026-11-26-concurrence-audience.md`, `docs/seo/distribution-hors-site.md` (routine hebdo du propriétaire, kit data.gouv.fr, presse).
+  - Suite : routine 4 du mardi = palmarès annuel départemental pour mi-janvier ; routine 2 = instantané statique de la note des habitants quand les votes arrivent.
 - 2026-11-26 · routine 2/4 Croissance SEO · chantier B (fiche ville « vivre à X / avis »), Rennes, Île de Ré, Amboise, Narbonne
   - `lib/city-local-facts.ts` : 3 faits recoupés (2 sources chacun) pour rennes (métro a 2002 / b 2022, Lices depuis 1622, Cityval), ile-de-re (pont 1988, Vauban Unesco 2008, 10 villages à vélo), amboise (Vinci 1516-1519, château royal, Val de Loire Unesco 2000), narbonne (Narbo Martius 118 av. J.-C., Narbo Via 19/05/2021, Robine Unesco 1996) → bloc « Ce qui distingue X » + FAQ/JSON-LD. Villes couvertes : 1 → 5.
   - Générique (593 fiches, FAQ FR + JSON-LD) : axes forts/faibles chiffrés (« télétravail 9,0/10 »), virgule décimale FR (16/16 réponses, contre 15), « coût de la vie », légende de la tension locative.

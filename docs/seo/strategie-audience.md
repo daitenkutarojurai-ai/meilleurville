@@ -70,7 +70,10 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 5. **De la diffusion hors Google** :
    - agenda daté et politique 2027 à jour sur les villes avec traction, pour donner des raisons de revenir (« actualités lyon » sort déjà en position 5,5). La presse régionale reste exclue (droit voisin) ;
    - newsletter Brevo (la liste existe) ;
-   - réseaux sociaux (`scripts/social-post.mjs` existe, mais les jetons de page ne sont pas configurés).
+   - réseaux sociaux : post FB + IG hebdomadaire (`social-weekly`), **vidéos courtes** TikTok / Shorts / Reels
+     depuis le 2026-11-26 (`scripts/shorts-video.ts`, workflow `shorts-weekly`) ;
+   - data.gouv.fr (jeu de données + réutilisations), demandes de journalistes, LinkedIn / Bluesky.
+   Plan complet, qui fait quoi et quand : **`docs/seo/distribution-hors-site.md`**.
 6. **Une boucle de mesure.** Chaque mois : exporter la Search Console, lancer
    `node scripts/gsc-cibles.mjs`, puis committer. Les routines ciblent ce fichier.
 
@@ -106,7 +109,17 @@ apparaît plus souvent, plus bas, et le CTR baisse.
 - [x] Cannibalisation : les 10 villes les plus vues avaient fiche + guide `vivre-a-*` au même titre. Les 49 guides
       passent en « S’installer à X en 2026 », la fiche garde « Vivre à X », liens croisés — 2026-11-23.
 
+- [x] Audit concurrence du 2026-11-26 (`docs/audits/2026-11-26-concurrence-audience.md`) : **note rapide des habitants**
+      sur les 593 fiches (un tap, sans compte), titres « Où vivre en X ? » sur 102 départements et 18 régions,
+      CSV presse à 593 villes, générateur de vidéos courtes + 6 premières vidéos.
+
 ### Ce trimestre (décembre à février)
+- [ ] Note des habitants en HTML statique : instantané `/api/ratings/summary` → `data/city-ratings.json` (data-runner),
+      rendu dans la fiche et la FAQ ; classement des villes notées par leurs habitants à partir de 10 votes.
+- [ ] **Palmarès annuel 2027 décliné par département**, kit presse prêt le 15 décembre, envoi mi-janvier
+      (moment où la presse reprend le palmarès « Villes et villages où il fait bon vivre »).
+- [ ] Classements par taille de ville (grandes, moyennes, petites) : « ville moyenne » 263 impr., pos. 10,9.
+- [ ] Newsletter : vérifier la confirmation (double opt-in), puis inscription après une note, un quiz, une comparaison.
 - [ ] Comparaisons A vs B : traiter toutes les paires demandées dans `cibles.md` § 6, puis
       les paires voisines des villes avec traction.
 - [ ] Un **classement de données par mois**, pensé pour la presse :
@@ -134,8 +147,11 @@ apparaît plus souvent, plus bas, et le CTR baisse.
    expatriation et retraite, et les sites des offices de tourisme des villes bien notées.
 2. **Export Search Console mensuel** : Performances > 3 mois > Exporter > CSV. Ensuite,
    `node scripts/gsc-cibles.mjs <dossier>` et commit, ou donner le fichier zip à Claude.
-3. **Réseaux sociaux** : créer les jetons de page Facebook, LinkedIn et Threads pour
-   activer `scripts/social-post.mjs`.
+3. **Réseaux sociaux** : poster chaque lundi les 3 vidéos de l’artefact `shorts-weekly` sur TikTok, YouTube
+   Shorts et Reels (créer TikTok pro et la chaîne YouTube une fois) ; un chiffre par semaine sur LinkedIn ou Bluesky.
+4. **data.gouv.fr** (une fois, 30 min) : organisation, jeu de données, réutilisations — textes prêts dans
+   `docs/seo/distribution-hors-site.md` § 3. Choisir la licence du jeu de données.
+5. **Demandes de journalistes** (site anglais) : profils Qwoted et Source of Sources.
 
 ## 7. Routines (4 par jour maximum, depuis le 2026-11-23)
 

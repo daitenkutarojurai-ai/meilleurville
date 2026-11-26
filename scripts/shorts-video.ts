@@ -520,7 +520,7 @@ function captionBlock(o: { title: string; hook: string; body: string[]; link: st
     `Description :\n${o.hook}\n\n${o.body.join("\n")}\n\nTous les chiffres : ${o.link}\n\n${credits}\n${tags} #shorts`,
     "",
     "=== TikTok ===",
-    `${o.hook}\n${o.body.slice(0, 4).join("\n")}\nLe détail sur ${short} (lien en bio)\n${tags} #pourtoi #france`,
+    `${o.hook}\n${o.body.slice(0, 7).join("\n")}\nLe détail sur ${short} (lien en bio)\n${tags} #pourtoi #france`,
     "",
     "=== Instagram Reels / Facebook ===",
     `${o.hook}\n\n${o.body.join("\n")}\n\n👉 ${short} (lien en bio)\n\n${credits}\n\n${tags} #reels`,
