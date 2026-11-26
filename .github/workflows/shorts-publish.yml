@@ -20,6 +20,14 @@ on:
         description: "Créneau AAAA-MM-JJ (vide = celui du jour)"
         type: string
         default: ""
+      only:
+        description: "Limiter à une plateforme (fb ou ig, vide = les deux)"
+        type: string
+        default: ""
+      fb_video:
+        description: "Avec only=ig : id du Reel Facebook déjà publié dont Instagram reprend la vidéo"
+        type: string
+        default: ""
 
 concurrency:
   group: shorts-publish
@@ -66,6 +74,8 @@ jobs:
         run: >
           npx --yes tsx --tsconfig tsconfig.json scripts/shorts-publish.ts --dir shorts-out
           ${{ env.MODE == 'dry-run' && '--dry-run' || '' }}
+          ${{ inputs.only != '' && inputs.only && format('--only {0}', inputs.only) || '' }}
+          ${{ inputs.fb_video != '' && inputs.fb_video && format('--fb-video {0}', inputs.fb_video) || '' }}
 
       - uses: actions/upload-artifact@v4
         if: always() && env.MODE != 'check'

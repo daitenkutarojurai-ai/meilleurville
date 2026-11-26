@@ -42,25 +42,52 @@ async function upload(url: string, file: string) {
   if (!res.ok || (j as { error?: unknown }).error) throw new Error(`upload ${res.status} : ${JSON.stringify(j).slice(0, 300)}`);
 }
 
+let lastFbVideo: string | null = arg("fb-video") ?? null;
+
 async function facebookReel(file: string, caption: string): Promise<string> {
   const start = await graph(`${page}/video_reels`, { upload_phase: "start" });
   await upload(start.upload_url ?? `https://rupload.facebook.com/video-upload/v21.0/${start.video_id}`, file);
   await graph(`${page}/video_reels`, { upload_phase: "finish", video_id: start.video_id, video_state: "PUBLISHED", description: caption });
+  lastFbVideo = start.video_id;
   return `https://www.facebook.com/reel/${start.video_id}`;
 }
 
-async function instagramReel(file: string, caption: string): Promise<string> {
-  const c = await graph(`${ig}/media`, { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true", thumb_offset: "1500" });
-  await upload(c.uri ?? `https://rupload.facebook.com/ig-api-upload/v21.0/${c.id}`, file);
-  // Instagram transcode : on attend FINISHED (jusqu'à 6 minutes).
-  for (let i = 0; i < 72; i++) {
-    const s = await graph(c.id, { fields: "status_code,status" }, "GET");
-    if (s.status_code === "FINISHED") break;
-    if (s.status_code === "ERROR" || s.status_code === "EXPIRED") throw new Error(`Instagram a refusé la vidéo : ${s.status}`);
-    if (i === 71) throw new Error("Instagram : traitement trop long");
+// URL publique de la vidéo hébergée par Facebook (même méthode que social-weekly pour les images).
+async function fbVideoSource(id: string): Promise<string> {
+  for (let i = 0; i < 60; i++) {
+    const v = await graph(id, { fields: "source,status" }, "GET").catch(() => ({}) as { source?: string });
+    if ((v as { source?: string }).source) return (v as { source: string }).source;
     await new Promise((r) => setTimeout(r, 5000));
   }
-  const m = await graph(`${ig}/media_publish`, { creation_id: c.id });
+  throw new Error(`source de la vidéo Facebook ${id} indisponible`);
+}
+
+async function igWait(id: string) {
+  for (let i = 0; i < 72; i++) {
+    const s = await graph(id, { fields: "status_code,status" }, "GET");
+    if (s.status_code === "FINISHED") return;
+    if (s.status_code === "ERROR" || s.status_code === "EXPIRED") throw new Error(`Instagram a refusé la vidéo : ${s.status}`);
+    await new Promise((r) => setTimeout(r, 5000));
+  }
+  throw new Error("Instagram : traitement trop long");
+}
+
+async function instagramReel(file: string, caption: string): Promise<string> {
+  let id: string;
+  try {
+    const c = await graph(`${ig}/media`, { media_type: "REELS", upload_type: "resumable", caption, share_to_feed: "true", thumb_offset: "1500" });
+    await upload(c.uri ?? `https://rupload.facebook.com/ig-api-upload/v21.0/${c.id}`, file);
+    await igWait(c.id);
+    id = c.id;
+  } catch (e) {
+    // Le 2026-11-26, l'envoi direct a répondu 400 ProcessingFailedError : repli sur l'URL de la vidéo Facebook.
+    if (!lastFbVideo) throw e;
+    console.warn(`Instagram, envoi direct refusé (${String(e).slice(0, 120)}) : repli sur la vidéo Facebook ${lastFbVideo}`);
+    const c = await graph(`${ig}/media`, { media_type: "REELS", video_url: await fbVideoSource(lastFbVideo), caption, share_to_feed: "true", thumb_offset: "1500" });
+    await igWait(c.id);
+    id = c.id;
+  }
+  const m = await graph(`${ig}/media_publish`, { creation_id: id });
   const info = await graph(m.id, { fields: "permalink" }, "GET");
   return info.permalink as string;
 }
