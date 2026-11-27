@@ -41,9 +41,14 @@ Une vidéo de 15 à 19 secondes par sujet, avec un chiffre par plan, est le form
   L'API YouTube n'est pas utilisée : un projet non audité ne peut publier qu'en privé. Outils hors dépôt :
   `E:\mavilleideal\tools\start-youtube-chrome.cmd` (ouvre la fenêtre) puis
   `node E:\mavilleideal\tools\yt-upload.mjs <dossier du lot>` (créneau du jour = public, les autres programmés ;
-  `youtube.json` dans le dossier garde les liens et évite les doublons si on relance). Premier lot : 12 vidéos du
-  26/11 au 14/12, dossier `E:\mavilleideal\shorts\2026-11-26-voix\`. Prochain lot à rendre vers le 10/12
-  (`gh workflow run shorts-weekly.yml -f from=2026-12-16 -f count=12`).
+  `youtube.json` dans le dossier garde les liens et évite les doublons si on relance). Lot 1 : 12 vidéos du
+  26/11 au 14/12, dossier `E:\mavilleideal\shorts\2026-11-26-voix\` (ancienne voix, laissées telles quelles à la
+  demande du propriétaire). Lot 2 : 12 vidéos du 16/12 au 04/01, dossier `E:\mavilleideal\shorts\2026-12-16-lot2\`.
+  Prochain lot à rendre vers le 31/12 (`gh workflow run shorts-weekly.yml -f from=2027-01-06 -f count=12`).
+- **Début et fin (2026-11-27)** : la voix part à 0,1 s sur une question parlée (« Où bien vivre sans se ruiner ? »),
+  pas sur le titre de la page ; la vidéo finit sur le n° 1 ou le verdict puis « Dites-le en commentaire », jamais
+  sur une publicité pour le site (pas de lien cliquable dans un Short, et la fin publicitaire fait décrocher juste
+  avant la fin). L'adresse reste en haut de l'écran, en petit sur la carte de fin et dans la légende.
 - TikTok : à la main, avec la légende « TikTok » du `.txt` (pas d'API de publication ouverte).
 
 **Mise en place (une fois, propriétaire)** :
