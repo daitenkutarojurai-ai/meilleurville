@@ -163,6 +163,7 @@ function spoken(s: string): string {
   return s
     .replace(/mavilleideale\.fr(\/\S*)?/gi, "Ma Ville Idéale point f r")
     .replace(/MaVilleIdéale/g, "Ma Ville Idéale")
+    .replace(/\s:\s/g, ", ")
     .replace(/\s*\(?ex æquo\)?/gi, " à égalité")
     .replace(/(\d)\s?€/g, "$1 euros")
     .replace(/\/10\b/g, " sur dix")
@@ -200,7 +201,11 @@ interface Chunk { from: number; to: number; lines: string[] }
 function subtitleChunks(scenes: Scene[], tl: Timeline): Chunk[] {
   const chunks: Chunk[] = [];
   scenes.forEach((s, i) => {
-    const words = s.sub.split(/\s+/).filter(Boolean);
+    const words = s.sub.split(/\s+/).filter(Boolean).reduce<string[]>((acc, w) => {
+      if (/^[:;!?»]$/.test(w) && acc.length) acc[acc.length - 1] += "\u00a0" + w;
+      else acc.push(w);
+      return acc;
+    }, []);
     const groups: string[][] = [];
     let cur: string[] = [];
     for (const w of words) {
@@ -599,7 +604,7 @@ function placeOf(r: Ranked, fact?: Fact, prev?: Ranked): string {
   const c = r.f.c;
   const where = c.department.includes(c.name) ? inRegion(c.region) : inDepartement(c.department);
   if (!fact) return where;
-  const n = fact === "rent" && r.f.rent ? `un T2 autour de ${euros(r.f.rent)}` : `environ ${nb(roughPop(c.population))} habitants`;
+  const n = fact === "rent" && r.f.rent ? `T2 à ${euros(r.f.rent)}` : `environ ${nb(roughPop(c.population))} habitants`;
   // Département déjà dit pour la ville d'avant : on ne le répète pas.
   return prev?.f.c.department === c.department ? n : `${where}, ${n}`;
 }
@@ -658,7 +663,7 @@ function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Vi
   const N = ranked.length;
   const order = [...ranked].reverse(); // révélé du dernier au premier
   const scenes: Scene[] = [
-    { sub: `${meta.headline} : notre top ${N}, sur ${CITIES_SEED.length} villes.`, min: 2.6 },
+    { sub: `${meta.headline} : notre top ${N}.`, min: 2.6 },
     ...revealLines(order, RENT_RANKINGS.has(slug) ? "rent" : "pop").map((sub) => ({ sub, min: 2.0 })),
     { sub: `Le classement complet et la méthode sont sur mavilleideale.fr.`, min: 3.0 },
   ];
