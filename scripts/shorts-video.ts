@@ -1008,7 +1008,7 @@ async function urlOk(url: string): Promise<boolean> {
 
 async function render(v: Video, stills: boolean) {
   const clips: (Clip | null)[] = [];
-  for (const s of v.scenes) clips.push(stills ? null : await tts(spoken(s.sub)));
+  for (const [i, s] of v.scenes.entries()) clips.push(stills ? null : await tts(spoken(s.sub), { hook: i === 0 }));
   const hasVoice = clips.every(Boolean);
   if (!stills && !hasVoice) console.warn(`${v.file} : pas de voix (aucune clé de synthèse vocale ou TTS en échec) — musique seule`);
   const dur = v.scenes.map((s, i) => (hasVoice ? (clips[i] as Clip).seconds : estimate(s.sub)));

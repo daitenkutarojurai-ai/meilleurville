@@ -14,6 +14,16 @@ const VOICE_INSTRUCTIONS =
   "Locutrice française native, accent de France, prononciation française des noms de villes françaises. Ton naturel " +
   "et enjoué de vidéo courte : débit vif et rythmé sans précipitation, attaque directe dès le premier mot et même débit du début à la fin, pauses brèves, articulation nette, aucune emphase théâtrale.";
 
+/**
+ * La première phrase sortait plus lente que le reste (retour du 2026-11-27, mesuré : 12 car./s contre 14 à
+ * 17 ensuite, avec une pause après le point d'interrogation). Elle reçoit sa propre consigne, et un débit
+ * plus haut chez les fournisseurs qui en ont un : c'est un réglage de synthèse, pas un retraitement.
+ */
+const HOOK_INSTRUCTIONS =
+  " Cette phrase est l'accroche, la toute première de la vidéo : débit rapide et énergique dès le premier mot, " +
+  "enchaîne la phrase suivante sans marquer de pause après le point d'interrogation.";
+export interface TtsOptions { hook?: boolean }
+
 export interface Clip {
   pcm: Int16Array;
   seconds: number;
@@ -86,7 +96,7 @@ const clip = (buf: Buffer): Clip => {
 };
 
 /** Google Cloud Text-to-Speech, voix fr-FR neuronale (secret GOOGLE_TTS_API_KEY, voix GOOGLE_TTS_VOICE). */
-async function googleTts(text: string): Promise<Clip | null> {
+async function googleTts(text: string, o: TtsOptions): Promise<Clip | null> {
   const key = process.env.GOOGLE_TTS_API_KEY;
   if (!key) return null;
   const res = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${key}`, {
@@ -95,7 +105,7 @@ async function googleTts(text: string): Promise<Clip | null> {
     body: JSON.stringify({
       input: { text },
       voice: { languageCode: "fr-FR", name: process.env.GOOGLE_TTS_VOICE || "fr-FR-Neural2-F" },
-      audioConfig: { audioEncoding: "LINEAR16", sampleRateHertz: SR, speakingRate: 1.08 },
+      audioConfig: { audioEncoding: "LINEAR16", sampleRateHertz: SR, speakingRate: o.hook ? 1.15 : 1.08 },
     }),
   });
   if (!res.ok) {
@@ -106,7 +116,7 @@ async function googleTts(text: string): Promise<Clip | null> {
 }
 
 /** Azure Speech, fr-FR-DeniseNeural (secrets AZURE_SPEECH_KEY + AZURE_SPEECH_REGION). */
-async function azureTts(text: string): Promise<Clip | null> {
+async function azureTts(text: string, o: TtsOptions): Promise<Clip | null> {
   const key = process.env.AZURE_SPEECH_KEY;
   const region = process.env.AZURE_SPEECH_REGION;
   if (!key || !region) return null;
@@ -118,7 +128,7 @@ async function azureTts(text: string): Promise<Clip | null> {
       "Content-Type": "application/ssml+xml",
       "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm",
     },
-    body: `<speak version="1.0" xml:lang="fr-FR"><voice name="${process.env.AZURE_SPEECH_VOICE || "fr-FR-DeniseNeural"}"><prosody rate="+8%">${xml}</prosody></voice></speak>`,
+    body: `<speak version="1.0" xml:lang="fr-FR"><voice name="${process.env.AZURE_SPEECH_VOICE || "fr-FR-DeniseNeural"}"><prosody rate="${o.hook ? "+15%" : "+8%"}">${xml}</prosody></voice></speak>`,
   });
   if (!res.ok) {
     console.warn(`TTS Azure : ${res.status} ${(await res.text()).slice(0, 160)}`);
@@ -128,12 +138,12 @@ async function azureTts(text: string): Promise<Clip | null> {
 }
 
 /** OpenAI, en dernier recours : son français est moyen (retour du propriétaire du 2026-11-26). */
-async function openaiTts(text: string): Promise<Clip | null> {
+async function openaiTts(text: string, o: TtsOptions): Promise<Clip | null> {
   const key = process.env.OPENAI_API_KEY;
   if (!key) return null;
   const tries: Record<string, unknown>[] = [
-    { model: "gpt-4o-mini-tts", voice: "coral", instructions: VOICE_INSTRUCTIONS },
-    { model: "tts-1-hd", voice: "nova", speed: 1.05 },
+    { model: "gpt-4o-mini-tts", voice: "coral", instructions: VOICE_INSTRUCTIONS + (o.hook ? HOOK_INSTRUCTIONS : "") },
+    { model: "tts-1-hd", voice: "nova", speed: o.hook ? 1.12 : 1.05 },
   ];
   for (const t of tries) {
     const res = await fetch("https://api.openai.com/v1/audio/speech", {
@@ -151,10 +161,10 @@ async function openaiTts(text: string): Promise<Clip | null> {
  * Aucun retraitement du clip (ni suppression de silences ni accélération) : c'est ce qui hachait la voix.
  * Le rythme vient du réglage de débit du fournisseur et de phrases courtes.
  */
-export async function tts(text: string): Promise<Clip | null> {
+export async function tts(text: string, o: TtsOptions = {}): Promise<Clip | null> {
   for (const f of [googleTts, azureTts, openaiTts]) {
     try {
-      const c = await f(text);
+      const c = await f(text, o);
       if (c) return c;
     } catch (e) {
       console.warn(`TTS : ${String(e).slice(0, 160)}`);
