@@ -198,6 +198,7 @@ function timeline(scenes: Scene[], dur: number[]): Timeline {
 }
 
 interface Chunk { from: number; to: number; lines: string[] }
+const LINKERS = new Set(["à", "au", "aux", "de", "du", "des", "en", "dans", "le", "la", "les", "un", "une", "et", "sur", "pour", "avec"]);
 function subtitleChunks(scenes: Scene[], tl: Timeline): Chunk[] {
   const chunks: Chunk[] = [];
   scenes.forEach((s, i) => {
@@ -210,14 +211,17 @@ function subtitleChunks(scenes: Scene[], tl: Timeline): Chunk[] {
     let cur: string[] = [];
     for (const w of words) {
       if ([...cur, w].join(" ").length > 58 && cur.length) {
+        // « en », « dans le »… ne finissent pas un morceau : ils partent avec le mot qu'ils annoncent.
+        const carry: string[] = [];
+        while (cur.length > 1 && LINKERS.has(cur[cur.length - 1].toLowerCase())) carry.unshift(cur.pop()!);
         groups.push(cur);
-        cur = [];
+        cur = carry;
       }
       cur.push(w);
     }
     if (cur.length) groups.push(cur);
     // Pas de mot orphelin : une fin trop courte rejoint le morceau précédent.
-    if (groups.length > 1 && groups[groups.length - 1].join(" ").length < 18) groups[groups.length - 2].push(...groups.pop()!);
+    if (groups.length > 1 && groups[groups.length - 1].join(" ").length < 24) groups[groups.length - 2].push(...groups.pop()!);
     const total = groups.reduce((n, g) => n + g.join(" ").length, 0) || 1;
     let t = tl.voice[i];
     for (const g of groups) {
