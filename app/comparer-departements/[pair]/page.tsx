@@ -9,6 +9,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { deptToSlug, slugToDept, getAllDepartments } from "@/lib/dept-slug";
 import { breadcrumbJsonLd, jsonLdScript } from "@/lib/jsonld";
 import { hreflangLanguages } from "@/lib/i18n";
+import { clampMeta } from "@/lib/brand";
 
 export const revalidate = false;
 export const dynamicParams = false;
@@ -73,9 +74,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const parsed = parsePair(pair);
   if (!parsed) return {};
   const { a, b } = parsed;
+  // Le verdict dans l'extrait : note moyenne rendue des villes de chaque département.
+  const A = deptStats(a);
+  const B = deptStats(b);
+  const mean = (cs: typeof A.cities) =>
+    cs.length ? cs.reduce((t, c) => t + c.scores.global, 0) / cs.length : 0;
+  const ma = mean(A.cities).toFixed(1).replace(".", ",");
+  const mb = mean(B.cities).toFixed(1).replace(".", ",");
   return {
     title: `${a} ou ${b} : où vivre ? Comparatif 2027`,
-    description: `${a} vs ${b} — scores comparés sur 8 critères (sécurité, coût, écoles, transports), meilleures villes de chaque département.`,
+    description: clampMeta(
+      `${a} (${ma}/10) ou ${b} (${mb}/10) : note moyenne des villes, sécurité, coût, écoles, transports, et le meilleur choix selon votre profil.`
+    ),
     alternates: {
       canonical: `/comparer-departements/${pair}`,
       languages: hreflangLanguages(`/comparer-departements/${pair}`),

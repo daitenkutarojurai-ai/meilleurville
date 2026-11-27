@@ -109,7 +109,7 @@ export const GUIDES: Guide[] = [
   {
     slug: "budget-vivre-en-france-comparatif",
     title: "Combien coûte vraiment la vie en dehors de Paris ? Comparatif 2025",
-    metaTitle: "Coût de la vie en France hors Paris : 20 villes comparées",
+    metaTitle: "Coût de la vie hors Paris : loyer, voiture, chauffage",
     metaDesc:
       "Loyer, voiture, chauffage : ce que coûte la vie dans 15 villes hors Paris. Un T2 va de 600 € à Limoges à 1 100 € à Annecy, contre 1 800 € à Paris.",
     category: "budget",
@@ -1384,8 +1384,8 @@ export const GUIDES: Guide[] = [
     title: "Meilleures villes côtières françaises 2025 — Mer, Qualité de vie, Prix",
     emoji: "🌊",
     category: "lifestyle",
-    metaTitle: "Meilleures villes en bord de mer où vivre en France",
-    metaDesc: "Quelles villes côtières choisir en France ? Comparatif 2025 des meilleures villes au bord de la mer : Atlantique (La Rochelle, Brest, Saint-Nazaire), Méditerranée (Sète, Toulon, Antibes), Manche (Caen, Cherbourg).",
+    metaTitle: "Où vivre en bord de mer en France : les villes comparées",
+    metaDesc: "Quelle ville au bord de la mer choisir ? La Rochelle, Brest, Sète, Toulon, Caen comparées : loyers, hiver, vent, saisonnalité. Le bon choix selon votre budget.",
     intro: "Vivre au bord de la mer est un rêve pour beaucoup de Français. Mais la mer a un prix, et selon la côte choisie, il peut varier du simple au décuple. Ce guide compare les meilleures villes côtières selon le coût, la qualité de vie à l'année, et ce que la côte apporte vraiment au quotidien.",
     readMinutes: 8,
     publishedAt: "2025-10-15",
@@ -21383,8 +21383,8 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-en-var-guide-2026",
     title: "Vivre dans le Var en 2027 : Toulon, Draguignan, Hyères — guide complet",
-    metaTitle: "Vivre dans le Var : où s'installer ? Toulon, Hyères… 2027",
-    metaDesc: "Le Var : mer, Provence, forêts, mais aussi les prix qui montent, les incendies, et les villes qui diffèrent beaucoup entre elles. Guide honnête 2027.",
+    metaTitle: "Vivre dans le Var en 2027 : où s'installer, prix, incendies",
+    metaDesc: "Toulon, Hyères, Draguignan : le Var entre mer et Provence, mais aussi prix en hausse et risque incendie. Où s'installer selon votre budget, guide honnête.",
     category: "region",
     emoji: "🌿",
     readMinutes: 8,
@@ -25050,8 +25050,8 @@ export const GUIDES: Guide[] = [
   {
     slug: "villes-france-moins-cheres-2026-top-10",
     title: "Top 10 des villes françaises les moins chères pour s'installer en 2027",
-    metaTitle: "Villes les moins chères de France où vivre : top 10 2027",
-    metaDesc: "Les 10 villes françaises les moins chères pour s'installer en 2027 : immobilier abordable, coût de la vie, qualité de vie. Classement honnête avec données réelles.",
+    metaTitle: "Villes les moins chères de France : top 10 où vivre (2027)",
+    metaDesc: "Limoges, Châteauroux, Bourges… Les 10 villes les moins chères de France : maisons dès 70 000 €, loyers, emploi et pièges à connaître avant de s'installer.",
     category: "budget",
     emoji: "💰",
     readMinutes: 8,
@@ -36995,8 +36995,8 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-bayonne-2026",
     title: "Vivre à Bayonne en 2027 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Bayonne en 2027 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Bayonne en 2027 : quartiers, budget réel du Pays basque, l'océan à 8 km, la pression immobilière. Le guide honnête de la capitale basque.",
+    metaTitle: "Vivre à Bayonne en 2027 : prix, quartiers, budget, avis",
+    metaDesc: "Vivre à Bayonne : l'océan à 8 km, quartiers, budget réel du Pays basque et pression immobilière. Le guide honnête de la capitale basque avant de s'installer.",
     category: "lifestyle",
     emoji: "🔴",
     readMinutes: 10,
@@ -37364,8 +37364,8 @@ export const GUIDES: Guide[] = [
   {
     slug: "vivre-a-limoges-2026",
     title: "Vivre à Limoges en 2027 : le guide complet pour s'installer",
-    metaTitle: "S'installer à Limoges en 2027 : quartiers, budget, emploi",
-    metaDesc: "S'installer à Limoges en 2027 : la grande ville la moins chère de France (1 600 €/m²), CHU réputé, la campagne limousine. Le guide honnête, sans vernis.",
+    metaTitle: "Vivre à Limoges en 2027 : prix, quartiers, emploi, avis",
+    metaDesc: "Vivre à Limoges : la grande ville la moins chère de France (1 600 €/m²), CHU, campagne limousine. Quartiers, budget, emploi : le guide honnête, sans vernis.",
     category: "lifestyle",
     emoji: "🍽️",
     readMinutes: 9,

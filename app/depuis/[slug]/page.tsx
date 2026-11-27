@@ -32,8 +32,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const city = getOriginCity(slug);
   if (!city) return {};
   return {
-    title: fitTitle(`Week-end depuis ${city.name} · Destinations à moins de 5h 2027`),
-    description: clampMeta(`Toutes les villes françaises accessibles depuis ${city.name} en moins de 5h (TGV, Intercités ou voiture). Classées par temps de trajet avec score de qualité de vie.`),
+    title: fitTitle(`Où partir en week-end depuis ${city.name} ? (2027)`, 60),
+    description: clampMeta(`Idées de week-end depuis ${city.name} : villes à moins de 5 h en TGV, Intercités ou voiture, triées par durée de trajet, avec la note de chaque ville.`),
     alternates: pathAlternates(`/depuis/${slug}`, `/weekend-getaways/${slug}`),
     openGraph: {
       // Sans `images`, un openGraph de page remplace celui hérité de la racine

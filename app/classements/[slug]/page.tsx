@@ -16,6 +16,12 @@ import { scoreColor } from "@/lib/utils";
 import { clampMeta } from "@/lib/brand";
 
 // Titres de résultat Google quand le H1 (`headline`) dépasse ~60 caractères.
+// Description de résultat propre à un classement dont le texte éditorial ouvre mal un extrait
+// (2026-11-27, cibles § 7 : gastronomie 1 333 impr., CTR 0,75 %).
+const SERP_DESC: Record<string, string> = {
+  gastronomie:
+    "Où manger le mieux en France ? Classement 2027 des villes par scène culinaire, marchés, terroir et prix d'un repas honnête. Score estimé : ni Michelin ni Bib comptés.",
+};
 const SERP_TITLE: Record<string, string> = {
   ecologie: "Villes les plus écologiques de France : nature, air, vélo",
   // 2026-11-23 : titres alignés sur les requêtes (docs/seo/cibles.md § 4 et § 7).
@@ -43,7 +49,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const meta = RANKING_META[slug as RankingSlug];
   // meta.description doubles as the on-page intro, so it runs 250–515 chars —
   // fine as body copy, three times what a SERP renders. Clamp the tag only.
-  const metaDesc = clampMeta(meta.description);
+  const metaDesc = clampMeta(SERP_DESC[slug] ?? meta.description);
   return {
     // `headline` est aussi le H1 : un titre de résultat plus court se déclare ici.
     title: SERP_TITLE[slug] ?? meta.headline,

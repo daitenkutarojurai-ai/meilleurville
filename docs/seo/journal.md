@@ -1,4 +1,8 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-27 · routine 4/4 Rotation (vendredi, CTR et snippets) · cibles § 7, 8 gabarits/pages
+  - Livré : metaTitle/metaDesc de 5 guides (bord-de-mer, moins-chères top 10, vivre-a-limoges, vivre-en-var, vivre-a-bayonne) + coût hors Paris (titre « 20 villes » ≠ corps) ; /classements/gastronomie (description propre) ; /depuis/* (titre question) ; /comparer-departements/* (notes moyennes rendues dans l'extrait).
+  - Cibles § 7 : bord-de-mer 4 561 impr., gastronomie 1 333, depuis/clermont-ferrand 1 303, moins-chères 1 186, limoges 935, haute-savoie-vs-savoie 873, var 823, bayonne 328 (CTR 0,5-0,8 %). FAQPage déjà émis par le gabarit guide.
+  - Suite : fiches ville alencon/le-puy/saintes/draveil et sous-pages fiscalite/quartiers/avis-honnete (gabarits) au prochain vendredi ; comparer le CTR à l'export de décembre.
 - 2026-11-27 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
   - Livré : guides dinard-vs-saint-malo, carcassonne-vs-narbonne, cannes-vs-antibes (comparatif-2027 ; notes rendues, loyers, Insee Filosofi, FAQ) ; +6 liens entrants (vivre-a-saint-malo, retraite-a-*).
   - Cibles : « dinard ou saint-malo » (suggestion WebSearch, villes § 5), « carcassonne ou narbonne » (villes § 5), « cannes ou antibes » (WebSearch ; cannes § 5). Les paires de cibles § 6 sont toutes couvertes.
