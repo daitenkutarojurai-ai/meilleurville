@@ -9,7 +9,7 @@
  * Légende : section « Instagram Reels / Facebook » du .txt de chaque vidéo. Une vidéo dont le lien n'a pas
  * répondu 200 au rendu (manifest.linkOk = false) n'est pas publiée.
  */
-import { appendFileSync, readFileSync, statSync } from "fs";
+import { appendFileSync, readFileSync, statSync, writeFileSync } from "fs";
 import { join, resolve } from "path";
 
 const GRAPH = "https://graph.facebook.com/v21.0";
@@ -111,16 +111,22 @@ async function main() {
     return;
   }
   const dir = resolve(arg("dir") ?? "shorts-out");
-  const manifest = JSON.parse(readFileSync(join(dir, "manifest.json"), "utf8")) as { file: string; link: string; linkOk: boolean; title: string }[];
+  const manifest = JSON.parse(readFileSync(join(dir, "manifest.json"), "utf8")) as { file: string; link: string; linkOk: boolean; title: string; slot: string | null }[];
   let failures = 0;
+  // Résultat par plateforme, relu par scripts/shorts-notify.ts pour le mail de confirmation.
+  const published: { file: string; title: string; slot: string | null; skipped?: string; results: Record<string, { ok: boolean; url?: string; error?: string }> }[] = [];
   for (const v of manifest) {
     const file = join(dir, v.file);
     const cap = caption(readFileSync(file.replace(/\.mp4$/, ".txt"), "utf8"));
+    const entry: (typeof published)[number] = { file: v.file, title: v.title, slot: v.slot, results: {} };
+    published.push(entry);
     if (!v.linkOk) {
+      entry.skipped = `lien ${v.link} non vérifié au rendu`;
       summary(`⏭ ${v.file} : lien ${v.link} non vérifié au rendu, non publié`);
       continue;
     }
     if (DRY) {
+      entry.skipped = "dry-run";
       summary(`dry-run ${v.file} (${(statSync(file).size / 1e6).toFixed(1)} Mo)\n\n${cap}\n`);
       continue;
     }
@@ -128,13 +134,17 @@ async function main() {
     for (const [key, name, fn] of [["fb", "Facebook", facebookReel], ["ig", "Instagram", instagramReel]] as const) {
       if (ONLY && ONLY !== key) continue;
       try {
-        summary(`- ${name} : ${await fn(file, cap)}`);
+        const url = await fn(file, cap);
+        entry.results[key] = { ok: true, url };
+        summary(`- ${name} : ${url}`);
       } catch (e) {
         failures++;
+        entry.results[key] = { ok: false, error: String(e).slice(0, 400) };
         summary(`- ${name} : ÉCHEC ${String(e).slice(0, 400)}`);
       }
     }
   }
+  writeFileSync(join(dir, "published.json"), JSON.stringify(published, null, 2) + "\n");
   if (failures) process.exit(1);
 }
 

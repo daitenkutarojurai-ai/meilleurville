@@ -45,6 +45,12 @@ Une vidéo de 15 à 19 secondes par sujet, avec un chiffre par plan, est le form
   26/11 au 14/12, dossier `E:\mavilleideal\shorts\2026-11-26-voix\` (ancienne voix, laissées telles quelles à la
   demande du propriétaire). Lot 2 : 12 vidéos du 16/12 au 04/01, dossier `E:\mavilleideal\shorts\2026-12-16-lot2\`.
   Prochain lot à rendre vers le 31/12 (`gh workflow run shorts-weekly.yml -f from=2027-01-06 -f count=12`).
+- **Mail après chaque publication (2026-11-27)** : étape « Mail de confirmation » de `shorts-publish`
+  (`scripts/shorts-notify.ts`, Brevo, secrets `BREVO_API_KEY` + `NOTIFY_EMAIL`) : lien Facebook, Instagram et
+  YouTube (vidéo du créneau publique ? oEmbed : 200 = en ligne), ou ce qui a échoué. À 5 vidéos YouTube programmées
+  ou moins, l'objet le signale et le mail donne la commande du lot suivant. Le stock vient de
+  `scripts/shorts-youtube.json` (créneau → vidéo), que `yt-upload.mjs` complète à chaque envoi : **le commiter après
+  chaque lot**, sinon le mail croit le stock épuisé. Essai : `gh workflow run shorts-publish.yml -f mode=notify-test`.
 - **Début et fin (2026-11-27)** : la voix part à 0,1 s sur une question parlée (« Où bien vivre sans se ruiner ? »),
   pas sur le titre de la page ; la vidéo finit sur le n° 1 ou le verdict puis « Dites-le en commentaire », jamais
   sur une publicité pour le site (pas de lien cliquable dans un Short, et la fin publicitaire fait décrocher juste
