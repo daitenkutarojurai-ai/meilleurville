@@ -27,7 +27,9 @@ Une vidéo de 15 à 19 secondes par sujet, avec un chiffre par plan, est le form
 
 **En place depuis le 2026-11-26** :
 - `scripts/shorts-video.ts` : 4 formats (duel A vs B, top N d'un des 19 classements, ville en 5 chiffres, top N
-  d'une région), voix off française (OpenAI, secret `OPENAI_API_KEY`), musique originale synthétisée
+  d'une région), voix off française (Google Cloud TTS `GOOGLE_TTS_API_KEY`, sinon Azure `AZURE_SPEECH_KEY` + `AZURE_SPEECH_REGION`,
+  sinon OpenAI `OPENAI_API_KEY` ; chiffres écrits en toutes lettres, clip jamais retouché ; `--texte` affiche ce que
+  la voix lit), musique originale synthétisée
   (`scripts/shorts-audio.ts`), sous-titres incrustés + `.srt`. Calendrier : un créneau le lundi, mercredi,
   vendredi et dimanche (`--plan` pour le voir).
 - **Facebook + Instagram : automatique.** Workflow `shorts-publish` (17h UTC les jours de créneau) : rend la vidéo

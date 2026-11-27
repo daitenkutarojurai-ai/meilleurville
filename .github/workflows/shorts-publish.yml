@@ -45,6 +45,10 @@ jobs:
       FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
       IG_USER_ID: ${{ secrets.IG_USER_ID }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      # Voix françaises natives, prioritaires dès que le secret existe (scripts/shorts-audio.ts).
+      GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
       MODE: ${{ inputs.mode || 'publish' }}
     steps:
       - uses: actions/checkout@v4

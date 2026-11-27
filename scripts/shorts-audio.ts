@@ -1,17 +1,18 @@
 /**
  * Son des vidéos courtes (scripts/shorts-video.ts) :
- *   - voix off française par l'API OpenAI (gpt-4o-mini-tts, repli tts-1-hd), si OPENAI_API_KEY existe
- *     (secret GitHub : la voix se fabrique dans le workflow) ;
+ *   - voix off française, premier fournisseur dont la clé existe : Google Cloud TTS fr-FR (GOOGLE_TTS_API_KEY),
+ *     Azure fr-FR-DeniseNeural (AZURE_SPEECH_KEY + AZURE_SPEECH_REGION), puis OpenAI (OPENAI_API_KEY, dont le
+ *     français est moyen). Secrets GitHub : la voix se fabrique dans le workflow. Le clip n'est jamais retouché
+ *     (ni silences coupés, ni accéléré : c'est ce qui hachait la voix le 2026-11-26) ;
  *   - fond musical synthétisé ici, note par note : aucun morceau tiers, donc aucun droit à gérer.
  * Tout est en PCM 16 bits mono à 24 kHz (le format WAV que renvoie l'API), mixé ensuite par ffmpeg.
  */
 import { writeFileSync } from "fs";
-import { spawnSync } from "child_process";
 
 export const SR = 24000;
 const VOICE_INSTRUCTIONS =
-  "Voix française naturelle, ton enjoué de présentatrice de vidéo courte (TikTok). Débit rapide, phrases enchaînées " +
-  "sans longues pauses, chiffres articulés, pas d'emphase théâtrale.";
+  "Locutrice française native, accent de France, prononciation française des noms de villes françaises. Ton naturel " +
+  "et enjoué de vidéo courte, débit soutenu mais posé, articulation nette, aucune emphase théâtrale.";
 
 export interface Clip {
   pcm: Int16Array;
@@ -66,58 +67,97 @@ function resample(x: Float32Array, from: number): Float32Array {
 
 // Coupe les silences de tête et de queue : la scène dure le temps de la phrase, pas du blanc autour.
 function trim(x: Float32Array): Float32Array {
-  const thr = 0.01;
+  let peak = 0;
+  for (const v of x) peak = Math.max(peak, Math.abs(v));
+  const thr = Math.max(0.003, peak * 0.02);
   let a = 0;
   let b = x.length - 1;
   while (a < b && Math.abs(x[a]) < thr) a++;
   while (b > a && Math.abs(x[b]) < thr) b--;
-  return x.subarray(Math.max(0, a - SR * 0.03), Math.min(x.length, b + SR * 0.08));
-}
-
-/**
- * La voix de l'API est posée, avec des pauses à chaque deux-points : on raccourcit les silences internes
- * (gardés à 0,1 s) et on accélère de 20 % sans changer la hauteur (ffmpeg atempo). Sans ffmpeg, clip inchangé.
- */
-function tighten(pcm: Int16Array): Int16Array {
-  const r = spawnSync(
-    "ffmpeg",
-    [
-      "-v", "error", "-f", "s16le", "-ar", String(SR), "-ac", "1", "-i", "-",
-      "-af", "silenceremove=start_periods=1:start_threshold=-42dB:stop_periods=-1:stop_duration=0.18:stop_threshold=-42dB:stop_silence=0.1,atempo=1.2",
-      "-f", "s16le", "-ar", String(SR), "-ac", "1", "-",
-    ],
-    { input: Buffer.from(pcm.buffer, pcm.byteOffset, pcm.byteLength), maxBuffer: 64 * 1024 * 1024 },
-  );
-  if (r.status !== 0 || !r.stdout?.length) return pcm;
-  const out = r.stdout as Buffer;
-  return new Int16Array(out.buffer.slice(out.byteOffset, out.byteOffset + out.length - (out.length % 2)));
+  return x.subarray(Math.max(0, a - Math.round(SR * 0.12)), Math.min(x.length, b + Math.round(SR * 0.25)));
 }
 
 const toInt16 = (x: Float32Array) => Int16Array.from(x, (v) => Math.max(-32767, Math.min(32767, Math.round(v * 32767))));
 
-export async function tts(text: string): Promise<Clip | null> {
+const clip = (buf: Buffer): Clip => {
+  const w = parseWav(buf);
+  const pcm = toInt16(trim(resample(w.samples, w.rate)));
+  return { pcm, seconds: pcm.length / SR };
+};
+
+/** Google Cloud Text-to-Speech, voix fr-FR neuronale (secret GOOGLE_TTS_API_KEY, voix GOOGLE_TTS_VOICE). */
+async function googleTts(text: string): Promise<Clip | null> {
+  const key = process.env.GOOGLE_TTS_API_KEY;
+  if (!key) return null;
+  const res = await fetch(`https://texttospeech.googleapis.com/v1/text:synthesize?key=${key}`, {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({
+      input: { text },
+      voice: { languageCode: "fr-FR", name: process.env.GOOGLE_TTS_VOICE || "fr-FR-Neural2-F" },
+      audioConfig: { audioEncoding: "LINEAR16", sampleRateHertz: SR, speakingRate: 1.08 },
+    }),
+  });
+  if (!res.ok) {
+    console.warn(`TTS Google : ${res.status} ${(await res.text()).slice(0, 160)}`);
+    return null;
+  }
+  return clip(Buffer.from((await res.json()).audioContent, "base64"));
+}
+
+/** Azure Speech, fr-FR-DeniseNeural (secrets AZURE_SPEECH_KEY + AZURE_SPEECH_REGION). */
+async function azureTts(text: string): Promise<Clip | null> {
+  const key = process.env.AZURE_SPEECH_KEY;
+  const region = process.env.AZURE_SPEECH_REGION;
+  if (!key || !region) return null;
+  const xml = text.replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  const res = await fetch(`https://${region}.tts.speech.microsoft.com/cognitiveservices/v1`, {
+    method: "POST",
+    headers: {
+      "Ocp-Apim-Subscription-Key": key,
+      "Content-Type": "application/ssml+xml",
+      "X-Microsoft-OutputFormat": "riff-24khz-16bit-mono-pcm",
+    },
+    body: `<speak version="1.0" xml:lang="fr-FR"><voice name="${process.env.AZURE_SPEECH_VOICE || "fr-FR-DeniseNeural"}"><prosody rate="+8%">${xml}</prosody></voice></speak>`,
+  });
+  if (!res.ok) {
+    console.warn(`TTS Azure : ${res.status} ${(await res.text()).slice(0, 160)}`);
+    return null;
+  }
+  return clip(Buffer.from(await res.arrayBuffer()));
+}
+
+/** OpenAI, en dernier recours : son français est moyen (retour du propriétaire du 2026-11-26). */
+async function openaiTts(text: string): Promise<Clip | null> {
   const key = process.env.OPENAI_API_KEY;
   if (!key) return null;
   const tries: Record<string, unknown>[] = [
     { model: "gpt-4o-mini-tts", voice: "coral", instructions: VOICE_INSTRUCTIONS },
-    { model: "tts-1-hd", voice: "nova", speed: 1.08 },
+    { model: "tts-1-hd", voice: "nova", speed: 1.05 },
   ];
   for (const t of tries) {
+    const res = await fetch("https://api.openai.com/v1/audio/speech", {
+      method: "POST",
+      headers: { Authorization: `Bearer ${key}`, "content-type": "application/json" },
+      body: JSON.stringify({ ...t, input: text, response_format: "wav" }),
+    });
+    if (res.ok) return clip(Buffer.from(await res.arrayBuffer()));
+    console.warn(`TTS ${t.model} : ${res.status} ${(await res.text()).slice(0, 160)}`);
+  }
+  return null;
+}
+
+/**
+ * Aucun retraitement du clip (ni suppression de silences ni accélération) : c'est ce qui hachait la voix.
+ * Le rythme vient du réglage de débit du fournisseur et de phrases courtes.
+ */
+export async function tts(text: string): Promise<Clip | null> {
+  for (const f of [googleTts, azureTts, openaiTts]) {
     try {
-      const res = await fetch("https://api.openai.com/v1/audio/speech", {
-        method: "POST",
-        headers: { Authorization: `Bearer ${key}`, "content-type": "application/json" },
-        body: JSON.stringify({ ...t, input: text, response_format: "wav" }),
-      });
-      if (!res.ok) {
-        console.warn(`TTS ${t.model} : ${res.status} ${(await res.text()).slice(0, 160)}`);
-        continue;
-      }
-      const w = parseWav(Buffer.from(await res.arrayBuffer()));
-      const pcm = tighten(toInt16(trim(resample(w.samples, w.rate))));
-      return { pcm, seconds: pcm.length / SR };
+      const c = await f(text);
+      if (c) return c;
     } catch (e) {
-      console.warn(`TTS ${t.model} : ${String(e).slice(0, 160)}`);
+      console.warn(`TTS : ${String(e).slice(0, 160)}`);
     }
   }
   return null;

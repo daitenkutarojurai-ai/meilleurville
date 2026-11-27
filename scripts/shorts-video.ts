@@ -7,10 +7,11 @@
  *   npx tsx --tsconfig tsconfig.json scripts/shorts-video.ts --duel nantes,rennes --ville ile-de-re
  *        --top5 region:bretagne --classement securite          # sujets choisis à la main
  *   options : --out <dossier> (défaut shorts-out) · --stills (images clés, sans encodage) · --plan (liste seule)
+ *             · --texte (sous-titres et texte lu par la voix, sans rendu)
  *
  * Quatre formats, 1080×1920, 30 i/s : duel A vs B (barres critère par critère, verdict), classement
  * (top 5 d'un des 19 classements, en barres), ville en 5 chiffres (appel à la note des habitants), top 5
- * d'une région. Voix off (OpenAI, si OPENAI_API_KEY) + fond musical synthétisé (scripts/shorts-audio.ts),
+ * d'une région. Voix off (Google, Azure ou OpenAI selon la clé présente) + fond musical synthétisé (scripts/shorts-audio.ts),
  * sous-titres incrustés et fichier .srt. Chaque scène dure le temps de sa phrase : image, voix et
  * sous-titres restent calés. Sans clé, la vidéo sort avec la musique seule et des durées estimées.
  *
@@ -31,6 +32,7 @@ import { CITIES_SEED } from "@/data/cities-seed";
 import { getHousing } from "@/data/housing";
 import { comparePairSlug } from "@/lib/comparer-pairs";
 import { RANKING_META, getRankedCities, type RankingSlug } from "@/lib/rankings";
+import { inDepartement } from "@/lib/place-prep";
 import CARDS from "@/data/city-cards.json";
 import { tts, music, writeWav, SR, type Clip } from "./shorts-audio";
 
@@ -122,17 +124,59 @@ type Facts = ReturnType<typeof facts>;
 interface Scene { sub: string; min: number }
 interface Timeline { start: number[]; end: number[]; voice: number[]; dur: number[]; total: number }
 
-// Ce que la voix doit lire : pas d'URL épelée, pas de symbole.
+// Nombres en toutes lettres : les voix de synthèse lisent mal « 18 000 », « 1 200 € » ou « 6,9 » (retour du
+// propriétaire du 2026-11-26).
+const UNITS = ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze", "douze", "treize", "quatorze", "quinze", "seize"];
+const TENS = ["", "dix", "vingt", "trente", "quarante", "cinquante", "soixante", "soixante", "quatre-vingt", "quatre-vingt"];
+function below100(n: number): string {
+  if (n < 17) return UNITS[n];
+  if (n < 20) return `dix-${UNITS[n - 10]}`;
+  const t = Math.floor(n / 10);
+  const u = n % 10;
+  if (t === 7 || t === 9) return t === 7 && u === 1 ? "soixante et onze" : `${TENS[t]}-${below100(10 + u)}`;
+  if (u === 0) return t === 8 ? "quatre-vingts" : TENS[t];
+  if (u === 1 && t !== 8) return `${TENS[t]} et un`;
+  return `${TENS[t]}-${UNITS[u]}`;
+}
+function below1000(n: number, final = true): string {
+  const h = Math.floor(n / 100);
+  const r = n % 100;
+  let out = h === 0 ? "" : h === 1 ? "cent" : `${UNITS[h]} cent${r === 0 && final ? "s" : ""}`;
+  if (r > 0) out += (out ? " " : "") + (r === 80 && !final ? "quatre-vingt" : below100(r));
+  return out || "zéro";
+}
+export function enLettres(n: number): string {
+  if (n >= 1_000_000) {
+    const m = Math.floor(n / 1_000_000);
+    const r = n % 1_000_000;
+    return `${m === 1 ? "un million" : `${below1000(m)} millions`}${r ? ` ${enLettres(r)}` : ""}`;
+  }
+  if (n < 1000) return below1000(n);
+  const k = Math.floor(n / 1000);
+  const r = n % 1000;
+  return `${k === 1 ? "mille" : `${below1000(k, false)} mille`}${r ? ` ${below1000(r)}` : ""}`;
+}
+
+// Ce que la voix doit lire : pas d'URL épelée, pas de symbole, pas de chiffres. « ex æquo » devient « à
+// égalité » : les voix le prononçaient « ex éguo » (retour du propriétaire du 2026-11-27).
 function spoken(s: string): string {
   return s
-    .replace(/mavilleideale\.fr(\/\S*)?/gi, "MaVilleIdéale point F R")
+    .replace(/mavilleideale\.fr(\/\S*)?/gi, "Ma Ville Idéale point f r")
+    .replace(/MaVilleIdéale/g, "Ma Ville Idéale")
+    .replace(/\s*\(?ex æquo\)?/gi, " à égalité")
     .replace(/(\d)\s?€/g, "$1 euros")
-    .replace(/(\d),(\d)/g, "$1 virgule $2")
-    .replace(/\/10\b/g, " sur 10")
+    .replace(/\/10\b/g, " sur dix")
     .replace(/\bT2\b/g, "deux-pièces")
     .replace(/≈\s?/g, "environ ")
     .replace(/#(\d)/g, "numéro $1")
-    .replace(/n° ?(\d)/g, "numéro $1");
+    .replace(/n° ?(\d)/g, "numéro $1")
+    .replace(/(\d{1,3}(?:[   ]\d{3})+|\d+)(?:,(\d+))?/g, (_, int: string, dec?: string) => {
+      const whole = enLettres(Number(int.replace(/\D/g, "")));
+      if (!dec || /^0+$/.test(dec)) return whole;
+      // « 6,05 » : chiffre par chiffre après le zéro.
+      const frac = dec.startsWith("0") ? [...dec].map((d) => enLettres(Number(d))).join(" ") : enLettres(Number(dec));
+      return `${whole} virgule ${frac}`;
+    });
 }
 
 const estimate = (s: string) => Math.max(1.2, spoken(s).length / 17);
@@ -146,7 +190,7 @@ function timeline(scenes: Scene[], dur: number[]): Timeline {
     const lead = i === 0 ? 0.35 : 0.15;
     start.push(t);
     voice.push(t + lead);
-    t += Math.max(s.min, lead + dur[i] + 0.22);
+    t += Math.max(s.min, lead + dur[i] + 0.1);
     end.push(t);
   });
   return { start, end, voice, dur, total: t + 0.5 };
@@ -391,15 +435,24 @@ function duelVideo(a: Facts, b: Facts, stamp: string): Video {
 
   const scenes: Scene[] = [
     { sub: `${a.c.name} ou ${b.c.name} : où vit-on le mieux ? Six critères, un verdict.`, min: 3.4 },
-    ...rows.map((r) => ({
-      sub: r.da === r.db
-        ? `${r.label.replace(" (le moins cher gagne)", "")} : égalité, ${r.da} partout.`
-        : r.lowerWins
-          ? `Loyer d'un T2 : ${r.da} à ${a.c.name}, ${r.db} à ${b.c.name}.`
-          : `${r.label} : ${r.da} pour ${a.c.name}, ${r.db} pour ${b.c.name}.`,
-      min: 1.7,
-    })),
-    { sub: `Note globale : ${fmt(ga)}/10 pour ${a.c.name}, ${fmt(gb)}/10 pour ${b.c.name}. ${verdict}.`, min: 3.8 },
+    // Phrases courtes : la voix donne le gagnant, l'écran montre les chiffres. Tournures en rotation, pour ne
+    // pas dire « avantage X » six fois de suite.
+    ...rows.map((r, i) => {
+      const label = r.label.replace(" (le moins cher gagne)", "");
+      const w = winner(r) === 1 ? a.c.name : b.c.name;
+      const say = [
+        `${label} : avantage ${w}.`,
+        `${label} : ${w} passe devant.`,
+        `${label} : point pour ${w}.`,
+        `${label} : c'est ${w} qui l'emporte.`,
+        `${label} : ${w} fait mieux.`,
+      ][i % 5];
+      return {
+        sub: r.da === r.db ? (i % 2 ? `${label} : match nul.` : `${label} : égalité.`) : r.lowerWins ? `Loyer : ${w} est moins cher.` : say,
+        min: 1.8,
+      };
+    }),
+    { sub: `Note globale : ${fmt(ga)} pour ${a.c.name}, ${fmt(gb)} pour ${b.c.name}. ${verdict}.`, min: 3.8 },
     { sub: `Le comparatif complet est sur mavilleideale.fr. Et vous, laquelle choisissez-vous ?`, min: 3.2 },
   ];
   const R = rows.length;
@@ -528,7 +581,75 @@ function rankTopN(items: { slug: string; score: number }[]): Ranked[] | null {
   });
 }
 
-const rankSay = (r: Ranked) => `n° ${r.rank}${r.tied ? " ex æquo" : ""}`;
+const ORD = ["", "première", "deuxième", "troisième", "quatrième", "cinquième", "sixième", "septième"];
+const COUNT_FR = ["", "une", "deux", "trois", "quatre", "cinq", "six", "sept"];
+const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+const nb = (n: number) => n.toLocaleString("fr-FR").replace(/[  ]/g, " ");
+// Deux chiffres significatifs : « environ 6 500 habitants », pas « 6 543 ».
+const roughPop = (n: number) => {
+  const p = 10 ** Math.max(2, Math.floor(Math.log10(n)) - 1);
+  return Math.round(n / p) * p;
+};
+// Classements où le loyer départage le mieux des ex æquo ; ailleurs, la taille de la ville.
+const RENT_RANKINGS = new Set(["budget", "logement", "etudiant", "jeunes-actifs", "investissement", "famille", "retraite"]);
+type Fact = "rent" | "pop";
+
+/** Où est la ville (« dans le Cantal ») et, pour les ex æquo, un chiffre qui la distingue des autres. */
+function placeOf(r: Ranked, fact?: Fact, prev?: Ranked): string {
+  const c = r.f.c;
+  const where = c.department.includes(c.name) ? inRegion(c.region) : inDepartement(c.department);
+  if (!fact) return where;
+  const n = fact === "rent" && r.f.rent ? `un T2 autour de ${euros(r.f.rent)}` : `environ ${nb(roughPop(c.population))} habitants`;
+  // Département déjà dit pour la ville d'avant : on ne le répète pas.
+  return prev?.f.c.department === c.department ? n : `${where}, ${n}`;
+}
+
+/**
+ * Une phrase par ville, révélées de la dernière à la première (même ordre que l'écran). Une égalité est
+ * annoncée une fois (« Quatre villes se partagent la deuxième place, à 7,6/10 »), puis chaque ville a sa
+ * phrase avec son département et un chiffre qui la distingue : la voix répétait « numéro deux ex æquo,
+ * 7,6 sur 10 » à chaque ville (retour du propriétaire du 2026-11-27). Les tournures varient d'une ville à
+ * l'autre ; aucune ne met le nom après « à » ou « de » (« à Le Havre »).
+ */
+function revealLines(order: Ranked[], fact: Fact): string[] {
+  const out: string[] = [];
+  let single = 0;
+  for (let i = 0; i < order.length; ) {
+    const rank = order[i].rank;
+    let j = i;
+    while (j < order.length && order[j].rank === rank) j++;
+    const group = order.slice(i, j);
+    const score = `${fmt(group[0].score)}/10`;
+    if (group.length === 1) {
+      const r = group[0];
+      const who = `${r.f.c.name}, ${placeOf(r)}`;
+      if (rank === 1) out.push(`Tout en haut du classement : ${who}, avec ${score} !`);
+      else if (rank === 2) out.push(`Médaille d'argent : ${who}, ${score}.`);
+      else if (rank === 3) out.push(`Sur la troisième marche du podium : ${who}, ${score}.`);
+      else if (i === 0) out.push(`On commence à la ${ORD[rank]} place : ${who}, ${score}.`);
+      else {
+        out.push([
+          `Juste devant, ${who}, avec ${score}.`,
+          `${cap(ORD[rank])} place : ${who}, ${score}.`,
+          `${r.f.c.name} se hisse à la ${ORD[rank]} place, avec ${score}.`,
+        ][single % 3]);
+      }
+      single++;
+    } else {
+      group.forEach((r, k) => {
+        const who = `${r.f.c.name}, ${placeOf(r, fact, group[k - 1])}`;
+        if (k === 0) {
+          out.push(rank === 1
+            ? `Pour la première place, égalité parfaite : ${COUNT_FR[group.length]} villes à ${score}. D'abord ${who}.`
+            : `${cap(COUNT_FR[group.length])} villes se partagent la ${ORD[rank]} place, à ${score}. D'abord ${who}.`);
+        } else if (k === group.length - 1) out.push(`${rank === 1 ? "Et enfin" : "Et"} ${who}.`);
+        else out.push([`Puis ${who}.`, `Il y a aussi ${who}.`, `Ensuite, ${who}.`][(k - 1) % 3]);
+      });
+    }
+    i = j;
+  }
+  return out;
+}
 
 function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Video {
   const meta = RANKING_META[slug];
@@ -537,8 +658,8 @@ function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Vi
   const N = ranked.length;
   const order = [...ranked].reverse(); // révélé du dernier au premier
   const scenes: Scene[] = [
-    { sub: `${meta.headline} : notre top ${N}.`, min: 2.6 },
-    ...order.map((r) => ({ sub: `${rankSay(r)} : ${r.f.c.name}, ${fmt(r.score)}/10.`, min: 2.0 })),
+    { sub: `${meta.headline} : notre top ${N}, sur ${CITIES_SEED.length} villes.`, min: 2.6 },
+    ...revealLines(order, RENT_RANKINGS.has(slug) ? "rent" : "pop").map((sub) => ({ sub, min: 2.0 })),
     { sub: `Le classement complet et la méthode sont sur mavilleideale.fr.`, min: 3.0 },
   ];
   const card: Rect = { x: 40, y: 370, w: 1000, h: 400 };
@@ -616,6 +737,13 @@ function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Vi
 }
 
 // ─── Format 3 : une ville en cinq chiffres ────────────────────────────────────
+// « à Lyon », « au Havre », « aux Andelys », « sur l'île de Ré ».
+const aVille = (name: string) =>
+  /^Île /.test(name) ? `sur l'île ${name.slice(4)}`
+    : /^Le /.test(name) ? `au ${name.slice(3)}`
+      : /^Les /.test(name) ? `aux ${name.slice(4)}`
+        : `à ${name}`;
+
 function villeVideo(f: Facts, stamp: string): Video {
   const link = `${SITE}/villes/${f.c.slug}`;
   const shortLink = link.replace("https://www.", "");
@@ -627,9 +755,9 @@ function villeVideo(f: Facts, stamp: string): Video {
     { label: `Point faible : ${AXIS_FR[f.worst.k].toLowerCase()}`, value: `${fmt(f.worst.v)}/10`, color: "#FDA4AF", sub: `Point faible : ${AXIS_FR[f.worst.k].toLowerCase()}, ${fmt(f.worst.v)}/10.` },
     { label: "Habitants", value: `≈ ${pop}`, color: PINK, sub: `Environ ${pop} habitants.` },
   ];
-  const title = `Vivre à ${f.c.name}`;
+  const title = `Vivre ${aVille(f.c.name)}`;
   const scenes: Scene[] = [
-    { sub: `Vivre à ${f.c.name}, en cinq chiffres.`, min: 2.8 },
+    { sub: `${title}, en cinq chiffres.`, min: 2.8 },
     ...stats.map((s) => ({ sub: s.sub, min: 1.6 })),
     { sub: `Vous habitez ${f.c.name} ? Donnez votre note en dix secondes sur mavilleideale.fr.`, min: 3.4 },
   ];
@@ -674,8 +802,8 @@ function villeVideo(f: Facts, stamp: string): Video {
     return { photos: [{ src: f, rect: r, pan: t / tl.total }], svg: svg + "</svg>" };
   };
   const caption = captionBlock({
-    title: `Vivre à ${f.c.name} : la ville en 5 chiffres`,
-    hook: `Vivre à ${f.c.name}, ça donne quoi en chiffres ?`,
+    title: `${title} : la ville en 5 chiffres`,
+    hook: `${title}, ça donne quoi en chiffres ?`,
     body: [...stats.map((s) => s.sub), `Vous y habitez ? Donnez votre note en 10 secondes sur la fiche de la ville.`],
     link: `${link}#note-habitants`,
     tags: [hashtag(f.c.name), hashtag(f.c.region), "#vivrea" + slugify(f.c.name).replace(/-/g, ""), "#ouvivre", "#demenagement", "#qualitedevie"],
@@ -696,7 +824,7 @@ function top5Video(region: string, ranked: Ranked[], stamp: string): Video {
   const listH = Math.min(52, 290 / N);
   const scenes: Scene[] = [
     { sub: `Où vivre ${inRegion(region)} ? Voici notre top ${N}.`, min: 2.4 },
-    ...order.map((r) => ({ sub: `${rankSay(r)} : ${r.f.c.name}, ${fmt(r.score)}/10.`, min: 2.3 })),
+    ...revealLines(order, "rent").map((sub) => ({ sub, min: 2.3 })),
     { sub: `Le classement complet et les avis sont sur mavilleideale.fr.`, min: 3.0 },
   ];
   const card: Rect = { x: 40, y: 400, w: 1000, h: 540 };
@@ -850,7 +978,7 @@ async function render(v: Video, stills: boolean) {
   const clips: (Clip | null)[] = [];
   for (const s of v.scenes) clips.push(stills ? null : await tts(spoken(s.sub)));
   const hasVoice = clips.every(Boolean);
-  if (!stills && !hasVoice) console.warn(`${v.file} : pas de voix (OPENAI_API_KEY absente ou TTS en échec) — musique seule`);
+  if (!stills && !hasVoice) console.warn(`${v.file} : pas de voix (aucune clé de synthèse vocale ou TTS en échec) — musique seule`);
   const dur = v.scenes.map((s, i) => (hasVoice ? (clips[i] as Clip).seconds : estimate(s.sub)));
   const tl = timeline(v.scenes, dur);
   const chunks = subtitleChunks(v.scenes, tl);
@@ -917,6 +1045,14 @@ async function main() {
 
   if (args.includes("--plan")) {
     for (const j of jobs) console.log(`${j.slot ?? "manuel"} · ${j.video.file} · ${j.video.link}`);
+    return;
+  }
+  // Relire le texte sans rien rendre : sous-titre, puis ce que la voix reçoit.
+  if (args.includes("--texte")) {
+    for (const j of jobs) {
+      console.log(`\n## ${j.video.file}`);
+      for (const s of j.video.scenes) console.log(`  ${s.sub}\n    🔊 ${spoken(s.sub)}`);
+    }
     return;
   }
   mkdirSync(OUT, { recursive: true });
