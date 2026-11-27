@@ -4567,6 +4567,21 @@
       "emoji": "🌞"
     },
     {
+      "slug": "dinard-vs-saint-malo-comparatif-2027",
+      "title": "Dinard ou Saint-Malo : où vivre sur la Côte d'Émeraude en 2027 ?",
+      "emoji": "🌊"
+    },
+    {
+      "slug": "carcassonne-vs-narbonne-comparatif-2027",
+      "title": "Carcassonne ou Narbonne : quelle ville choisir en 2027 ?",
+      "emoji": "🏰"
+    },
+    {
+      "slug": "cannes-vs-antibes-comparatif-2027",
+      "title": "Cannes ou Antibes : où vivre sur la Côte d'Azur en 2027 ?",
+      "emoji": "🌴"
+    },
+    {
       "slug": "vivre-en-ardennes-meuse-guide-2026",
       "title": "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
       "emoji": "🌲"
@@ -12336,7 +12351,7 @@
     {
       "slug": "bretagne",
       "label": "Bretagne",
-      "count": 24
+      "count": 25
     },
     {
       "slug": "nantes",
@@ -12387,6 +12402,11 @@
       "slug": "soleil",
       "label": "soleil",
       "count": 19
+    },
+    {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
+      "count": 16
     },
     {
       "slug": "famille-monoparentale-grand-est",
@@ -12467,11 +12487,6 @@
       "slug": "patrimoine",
       "label": "patrimoine",
       "count": 14
-    },
-    {
-      "slug": "comparatif-villes",
-      "label": "comparatif villes",
-      "count": 13
     },
     {
       "slug": "famille-monoparentale-pays-de-la-loire",
@@ -12654,6 +12669,11 @@
       "count": 9
     },
     {
+      "slug": "occitanie",
+      "label": "Occitanie",
+      "count": 9
+    },
+    {
       "slug": "paca",
       "label": "PACA",
       "count": 9
@@ -12736,11 +12756,6 @@
     {
       "slug": "loyers",
       "label": "loyers",
-      "count": 8
-    },
-    {
-      "slug": "occitanie",
-      "label": "Occitanie",
       "count": 8
     },
     {
@@ -13034,6 +13049,11 @@
       "count": 5
     },
     {
+      "slug": "cote-d-azur",
+      "label": "Côte d'Azur",
+      "count": 5
+    },
+    {
       "slug": "cout-de-la-vie",
       "label": "coût de la vie",
       "count": 5
@@ -13189,11 +13209,6 @@
       "count": 4
     },
     {
-      "slug": "cote-d-azur",
-      "label": "Côte d'Azur",
-      "count": 4
-    },
-    {
       "slug": "couple",
       "label": "couple",
       "count": 4
@@ -13281,6 +13296,11 @@
     {
       "slug": "monoparental-seine-et-marne",
       "label": "monoparental Seine-et-Marne",
+      "count": 4
+    },
+    {
+      "slug": "narbonne",
+      "label": "Narbonne",
       "count": 4
     },
     {
@@ -13766,11 +13786,6 @@
     {
       "slug": "morbihan",
       "label": "Morbihan",
-      "count": 3
-    },
-    {
-      "slug": "narbonne",
-      "label": "Narbonne",
       "count": 3
     },
     {

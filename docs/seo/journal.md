@@ -1,4 +1,8 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-27 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
+  - Livré : guides dinard-vs-saint-malo, carcassonne-vs-narbonne, cannes-vs-antibes (comparatif-2027 ; notes rendues, loyers, Insee Filosofi, FAQ) ; +6 liens entrants (vivre-a-saint-malo, retraite-a-*).
+  - Cibles : « dinard ou saint-malo » (suggestion WebSearch, villes § 5), « carcassonne ou narbonne » (villes § 5), « cannes ou antibes » (WebSearch ; cannes § 5). Les paires de cibles § 6 sont toutes couvertes.
+  - Suite : concarneau/quimper, albi/castres, dax/mont-de-marsan ; classements « ville moyenne », ZRR.
 - 2026-11-26 · session manuelle (propriétaire + Claude) · audit concurrence et audience, commits 5ea34c7 → 6c23ec4
 - 2026-11-26 · routine 4/4 Rotation (jeudi, intégrité) · run propre, 0 correction
   - 10 villes : FAQ FR/EN (16/16) mêmes nombres ; 10 guides A vs B de la semaine : notes citées = notes rendues.
