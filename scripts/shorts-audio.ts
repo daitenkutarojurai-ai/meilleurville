@@ -12,7 +12,7 @@ import { writeFileSync } from "fs";
 export const SR = 24000;
 const VOICE_INSTRUCTIONS =
   "Locutrice française native, accent de France, prononciation française des noms de villes françaises. Ton naturel " +
-  "et enjoué de vidéo courte : débit vif et rythmé sans précipitation, pauses brèves, articulation nette, aucune emphase théâtrale.";
+  "et enjoué de vidéo courte : débit vif et rythmé sans précipitation, attaque directe dès le premier mot et même débit du début à la fin, pauses brèves, articulation nette, aucune emphase théâtrale.";
 
 export interface Clip {
   pcm: Int16Array;

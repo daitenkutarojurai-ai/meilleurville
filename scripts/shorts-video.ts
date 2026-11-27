@@ -188,7 +188,7 @@ function timeline(scenes: Scene[], dur: number[]): Timeline {
   const voice: number[] = [];
   let t = 0;
   scenes.forEach((s, i) => {
-    const lead = i === 0 ? 0.35 : 0.15;
+    const lead = i === 0 ? 0.1 : 0.15;
     start.push(t);
     voice.push(t + lead);
     t += Math.max(s.min, lead + dur[i] + 0.1);
@@ -405,7 +405,7 @@ const endCard = (lines: { s: string; size: number; fill?: string; weight?: numbe
     out += text(540, y, l.s, { size: fitFont(l.s, 900, l.size), weight: l.weight ?? 800, anchor: "middle", fill: l.fill ?? "#FFFFFF" });
     y += l.size + 26;
   }
-  out += text(540, 1230, link, { size: fitFont(link, 900, 42), weight: 800, anchor: "middle", fill: CYAN });
+  out += text(540, 1262, link, { size: fitFont(link, 900, 28), weight: 600, anchor: "middle", fill: "#94A3B8" });
   return out + "</g>";
 };
 
@@ -462,7 +462,7 @@ function duelVideo(a: Facts, b: Facts, stamp: string): Video {
       };
     }),
     { sub: `Note globale : ${fmt(ga)} pour ${a.c.name}, ${fmt(gb)} pour ${b.c.name}. ${verdict}.`, min: 3.8 },
-    { sub: `Le comparatif complet est sur mavilleideale.fr. Et vous, laquelle choisissez-vous ?`, min: 3.2 },
+    { sub: `Et vous, ${a.c.name} ou ${b.c.name} ? Dites-le en commentaire.`, min: 2.6 },
   ];
   const R = rows.length;
   const introA: Rect = { x: 40, y: 370, w: 1000, h: 470 };
@@ -544,9 +544,9 @@ function duelVideo(a: Facts, b: Facts, stamp: string): Video {
         if (t >= T_END) {
           svg += endCard(
             [
-              { s: "Le comparatif complet,", size: 48 },
-              { s: "8 critères, loyers et quartiers :", size: 38, weight: 600, fill: INK },
-              { s: "Et vous, laquelle choisissez-vous ?", size: 40, fill: PINK },
+              { s: "Et vous ?", size: 64, fill: PINK },
+              { s: `${a.c.name} ou ${b.c.name} ?`, size: 52 },
+              { s: "Dites-le en commentaire", size: 40, weight: 600, fill: INK },
             ],
             shortLink,
             endP,
@@ -589,6 +589,29 @@ function rankTopN(items: { slug: string; score: number }[]): Ranked[] | null {
     return { f: facts(it.slug), rank: first + 1, tied: top.filter((x) => d(x) === d(it)).length > 1, score: it.score };
   });
 }
+
+// Accroche parlée de chaque classement : une question, pas le titre de la page.
+const HOOKS: Partial<Record<string, string>> = {
+  budget: "Où bien vivre sans se ruiner ?",
+  securite: "Où vit-on le plus en sécurité en France ?",
+  "bord-de-mer": "Vivre au bord de la mer, oui, mais où ?",
+  culture: "Où trouver la meilleure vie culturelle ?",
+  climat: "Où trouver le climat le plus agréable ?",
+  teletravail: "Où s'installer quand on télétravaille ?",
+  famille: "Où élever ses enfants en France ?",
+  retraite: "Où passer sa retraite en France ?",
+  soleil: "Où profiter du soleil toute l'année ?",
+  nature: "Où vivre au plus près de la nature ?",
+  etudiant: "Où faire ses études en France ?",
+  mobilite: "Où vivre sans voiture ?",
+  sante: "Où est-on le mieux soigné en France ?",
+  gastronomie: "Où mange-t-on le mieux en France ?",
+  "jeunes-actifs": "Où démarrer sa vie active ?",
+  logement: "Où se loger sans exploser son budget ?",
+  investissement: "Où investir dans l'immobilier ?",
+  ecologie: "Quelles villes sont les plus engagées pour l'écologie ?",
+  cyclistes: "Où vivre à vélo en France ?",
+};
 
 const ORD = ["", "première", "deuxième", "troisième", "quatrième", "cinquième", "sixième", "septième"];
 const COUNT_FR = ["", "une", "deux", "trois", "quatre", "cinq", "six", "sept"];
@@ -667,9 +690,9 @@ function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Vi
   const N = ranked.length;
   const order = [...ranked].reverse(); // révélé du dernier au premier
   const scenes: Scene[] = [
-    { sub: `${meta.headline} : notre top ${N}.`, min: 2.6 },
+    { sub: HOOKS[slug] ? `${HOOKS[slug]} Voici notre top ${N}.` : `${meta.headline} : notre top ${N}.`, min: 2.4 },
     ...revealLines(order, RENT_RANKINGS.has(slug) ? "rent" : "pop").map((sub) => ({ sub, min: 2.0 })),
-    { sub: `Le classement complet et la méthode sont sur mavilleideale.fr.`, min: 3.0 },
+    { sub: `Une ville oubliée dans ce top ? Dites-le en commentaire.`, min: 2.6 },
   ];
   const card: Rect = { x: 40, y: 370, w: 1000, h: 400 };
   const rowH = Math.min(104, 560 / N);
@@ -721,8 +744,8 @@ function classementVideo(slug: RankingSlug, ranked: Ranked[], stamp: string): Vi
       svg += endCard(
         [
           { s: firsts.length > 1 ? `n° 1 ex æquo : ${firsts.join(", ")}` : `n° 1 : ${firsts[0]}`, size: 52, fill: PINK },
-          { s: "Le classement complet", size: 40 },
-          { s: "et la méthode :", size: 38, weight: 600, fill: INK },
+          { s: "Une ville oubliée ?", size: 48 },
+          { s: "Dites-le en commentaire", size: 40, weight: 600, fill: INK },
         ],
         shortLink,
         p,
@@ -762,13 +785,13 @@ function villeVideo(f: Facts, stamp: string): Video {
     ...(f.rent ? [{ label: "Loyer d'un T2", value: `≈ ${euros(f.rent)}/mois`, color: CYAN, sub: `Un T2 se loue environ ${euros(f.rent)} par mois.` }] : []),
     { label: `Point fort : ${AXIS_FR[f.best.k].toLowerCase()}`, value: `${fmt(f.best.v)}/10`, color: "#86EFAC", sub: `Point fort : ${AXIS_FR[f.best.k].toLowerCase()}, ${fmt(f.best.v)}/10.` },
     { label: `Point faible : ${AXIS_FR[f.worst.k].toLowerCase()}`, value: `${fmt(f.worst.v)}/10`, color: "#FDA4AF", sub: `Point faible : ${AXIS_FR[f.worst.k].toLowerCase()}, ${fmt(f.worst.v)}/10.` },
-    { label: "Habitants", value: `≈ ${pop}`, color: PINK, sub: `Environ ${pop} habitants.` },
+    { label: "Habitants", value: `≈ ${pop}`, color: PINK, sub: `Environ ${nb(roughPop(f.c.population))} habitants.` },
   ];
   const title = `Vivre ${aVille(f.c.name)}`;
   const scenes: Scene[] = [
-    { sub: `${title}, en cinq chiffres.`, min: 2.8 },
+    { sub: `${title}, ça vaut le coup ? Réponse en cinq chiffres.`, min: 2.6 },
     ...stats.map((s) => ({ sub: s.sub, min: 1.6 })),
-    { sub: `Vous habitez ${f.c.name} ? Donnez votre note en dix secondes sur mavilleideale.fr.`, min: 3.4 },
+    { sub: `Vous vivez ${aVille(f.c.name)} ? Quelle note lui donnez-vous ? Dites-le en commentaire.`, min: 3.0 },
   ];
   const S = stats.length;
   const hero: Rect = { x: 40, y: 360, w: 1000, h: 640 };
@@ -799,9 +822,9 @@ function villeVideo(f: Facts, stamp: string): Video {
     if (t >= T_CTA) {
       svg += endCard(
         [
-          { s: `Vous habitez ${f.c.name} ?`, size: 52 },
-          { s: "Donnez votre note en 10 secondes,", size: 38, weight: 600, fill: INK },
-          { s: "sans inscription :", size: 38, weight: 600, fill: INK },
+          { s: `Vous vivez ${aVille(f.c.name)} ?`, size: 52 },
+          { s: "Quelle note lui donnez-vous ?", size: 42, fill: PINK },
+          { s: "Dites-le en commentaire", size: 38, weight: 600, fill: INK },
         ],
         shortLink,
         ctaP,
@@ -834,7 +857,7 @@ function top5Video(region: string, ranked: Ranked[], stamp: string): Video {
   const scenes: Scene[] = [
     { sub: `Où vivre ${inRegion(region)} ? Voici notre top ${N}.`, min: 2.4 },
     ...revealLines(order, "rent").map((sub) => ({ sub, min: 2.3 })),
-    { sub: `Le classement complet et les avis sont sur mavilleideale.fr.`, min: 3.0 },
+    { sub: `Il manque une ville ${inRegion(region)} ? Dites-le en commentaire.`, min: 2.6 },
   ];
   const card: Rect = { x: 40, y: 400, w: 1000, h: 540 };
   const frame = (t: number, tl: Timeline): Frame => {
@@ -874,8 +897,8 @@ function top5Video(region: string, ranked: Ranked[], stamp: string): Video {
       const firsts = ranked.filter((r) => r.rank === 1).map((r) => r.f.c.name);
       photos.push({ src: first.f, rect: card, pan: (t - T_END) / 3.2, opacity: p });
       svg += `<g opacity="${p.toFixed(3)}">` + photoOverlay(card, firsts.length > 1 ? `n° 1 ex æquo : ${firsts.join(", ")}` : `n° 1 : ${first.f.c.name}`, first.f.credit) +
-        text(540, 1030, "Le classement complet et les avis :", { size: 36, weight: 700, anchor: "middle", fill: INK }) +
-        text(540, 1088, shortLink, { size: fitFont(shortLink, 900, 40), weight: 800, anchor: "middle", fill: CYAN }) + `</g>`;
+        text(540, 1036, "Il manque une ville ?", { size: 48, weight: 800, anchor: "middle" }) +
+        text(540, 1094, "Dites-le en commentaire", { size: 38, weight: 600, anchor: "middle", fill: INK }) + `</g>`;
     }
     svg += legend(`Note globale MaVilleIdéale sur 10 · loyers estimés${anyTie ? " · ex æquo : ordre alphabétique" : ""}`);
     return { photos, svg: svg + "</svg>" };
