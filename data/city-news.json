@@ -1,6 +1,6 @@
 {
   "meta": {
-    "refreshedAt": "2026-11-26",
+    "refreshedAt": "2026-11-27",
     "queryVersion": 3,
     "windowMonths": 12,
     "maxEntriesPerCity": 8
@@ -45244,7 +45244,7 @@
       ]
     },
     "vallauris": {
-      "refreshedAt": "2026-11-12",
+      "refreshedAt": "2026-11-27",
       "queryVersion": 3,
       "sources": [
         "bodacc",
@@ -45254,8 +45254,8 @@
         {
           "date": "2026-11-01",
           "kind": "entreprises",
-          "title": "27 créations d'entreprises publiées au BODACC en novembre 2026",
-          "titleEn": "27 business registrations published in the BODACC in November 2026",
+          "title": "51 créations d'entreprises publiées au BODACC en novembre 2026",
+          "titleEn": "51 business registrations published in the BODACC in November 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -45263,8 +45263,8 @@
         {
           "date": "2026-11-01",
           "kind": "procedures",
-          "title": "6 procédures collectives publiées au BODACC en novembre 2026",
-          "titleEn": "6 insolvency proceedings published in the BODACC in November 2026",
+          "title": "15 procédures collectives publiées au BODACC en novembre 2026",
+          "titleEn": "15 insolvency proceedings published in the BODACC in November 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
@@ -45272,8 +45272,8 @@
         {
           "date": "2026-11-01",
           "kind": "radiations",
-          "title": "11 radiations d'entreprises publiées au BODACC en novembre 2026",
-          "titleEn": "11 business deregistrations published in the BODACC in November 2026",
+          "title": "16 radiations d'entreprises publiées au BODACC en novembre 2026",
+          "titleEn": "16 business deregistrations published in the BODACC in November 2026",
           "source": "BODACC",
           "sourceUrl": "https://www.bodacc.fr/",
           "licence": "Licence Ouverte / Etalab"
