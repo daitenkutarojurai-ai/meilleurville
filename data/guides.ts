@@ -9186,6 +9186,96 @@ export const GUIDES: Guide[] = [
     tags: ["Cannes", "Antibes", "comparatif villes", "Côte d'Azur", "cannes ou antibes", "Alpes-Maritimes"],
   },
   {
+    slug: "montpellier-vs-nimes-comparatif-2027",
+    title: "Montpellier ou Nîmes : où vivre dans l'Hérault et le Gard en 2027 ?",
+    metaTitle: "Montpellier ou Nîmes 2027 : loyers, notes, verdict",
+    metaDesc: "Montpellier ou Nîmes ? T2 à 850 € contre 720 €, achat à 3 900 € contre 2 800 €/m², notes /10 : le comparatif chiffré des deux grandes villes du Languedoc.",
+    category: "comparaison",
+    emoji: "☀️",
+    readMinutes: 6,
+    publishedAt: "2026-11-28",
+    updatedAt: "2026-11-28",
+    intro: "Montpellier ou Nîmes : pour le budget, Nîmes l'emporte nettement (T2 à 720 € contre 850 €, achat à 2 800 €/m² contre 3 900 €), et son coût de la vie est mieux noté (5,9/10 contre 4,7). Montpellier prend la tête sur les transports (7,7 contre 6,1), le télétravail (7,8 contre 5,3) et les écoles (7,0 contre 5,3), et sa note globale est plus haute (5,6 contre 5,1).\n\nLes deux villes sont à une cinquantaine de kilomètres l'une de l'autre, mais ne vivent pas au même rythme : Montpellier compte 307 101 habitants (recensement 2022) et grandit, Nîmes en compte 150 444 et stagne. Les notes sont celles de nos fiches ville (sur 10, 10 = meilleur) ; les loyers sont notre estimation.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Montpellier et à Nîmes ?",
+        body: "Nîmes est environ 15 % moins chère à la location et 28 % à l'achat. T2 : 850 € à Montpellier contre 720 € à Nîmes ; T3 : 1 150 € contre 960 € ; achat : 3 900 €/m² contre 2 800 €/m².\n\nLoyer T1 : Montpellier 620 €, Nîmes 520 €. Loyer T2 : Montpellier 850 €, Nîmes 720 €. Loyer T3 : Montpellier 1 150 €, Nîmes 960 €. Achat au m² : Montpellier 3 900 €, Nîmes 2 800 €.\n\nPar quartier, un T2 coûte 780 € à Antigone, 800 € dans l'Écusson et 850 € à Port Marianne à Montpellier ; 550 € à Pissevin, 690 € dans l'Écusson et 720 € autour des Arènes à Nîmes.",
+      },
+      {
+        heading: "Quelles sont les notes de Montpellier et de Nîmes ?",
+        body: "Montpellier devant sur la note globale (5,6 contre 5,1), la qualité de vie (5,9 contre 5,1), les transports (7,7 contre 6,1), la nature (6,4 contre 5,6), le télétravail (7,8 contre 5,3), les écoles (7,0 contre 5,3) et la culture (7,6 contre 7,3). Nîmes devant sur le coût de la vie (5,9 contre 4,7) et, de peu, sur la sécurité (3,9 contre 3,7).\n\nNote globale : Montpellier 5,6, Nîmes 5,1. Coût de la vie : Montpellier 4,7, Nîmes 5,9. Sécurité : Montpellier 3,7, Nîmes 3,9. Culture : Montpellier 7,6, Nîmes 7,3. Transports : Montpellier 7,7, Nîmes 6,1. Télétravail : Montpellier 7,8, Nîmes 5,3. Écoles : Montpellier 7,0, Nîmes 5,3. Les deux sont sous 4/10 en sécurité : c'est le point faible commun, à vérifier quartier par quartier.",
+      },
+      {
+        heading: "Quel niveau de vie et quel climat ?",
+        body: "Montpellier est un peu plus aisée : niveau de vie médian de 19 670 € par an (environ 1 640 € par mois) contre 18 760 € à Nîmes (environ 1 560 € par mois), mais le taux de pauvreté y est de 28 % contre 31 % à Nîmes (Insee, Filosofi 2021).\n\nLe climat est proche : 2 740 heures de soleil par an à Montpellier contre 2 700 à Nîmes, 27 °C en juillet contre 27,5 °C, et un hiver plus doux à Montpellier (7,7 °C en janvier contre 6,5 °C).",
+      },
+      {
+        heading: "Qui habite à Montpellier, qui habite à Nîmes ?",
+        body: "Montpellier est une ville de jeunes : 31,5 % des habitants ont entre 15 et 29 ans et 19,0 % ont 60 ans ou plus. À Nîmes, c'est l'inverse : 21,1 % ont entre 15 et 29 ans et 27,4 % ont 60 ans ou plus (Insee, recensement 2022). Entre 2016 et 2022, Montpellier a gagné 9,1 % d'habitants ; Nîmes en a perdu 0,4 %.\n\nConcrètement, Montpellier offre un marché de l'emploi et des études plus large mais des loyers sous tension ; Nîmes est plus calme, plus abordable et plus âgée.",
+      },
+      {
+        heading: "Quels quartiers choisir ?",
+        body: "À Montpellier, Port Marianne (lac, espaces verts, sécurité 8,4 dans nos notes de quartier) est le choix des familles, l'Écusson celui des étudiants et des jeunes actifs, Antigone celui de ceux qui veulent du calme près du centre. À Nîmes, les Arènes et l'Écusson concentrent restaurants, férias et commerces indépendants, tandis que Pissevin offre les loyers les plus bas de la ville, avec un programme de rénovation en cours.",
+      },
+      {
+        heading: "Le verdict : Montpellier ou Nîmes ?",
+        body: "Montpellier pour le télétravail, les études, les transports et une ville jeune, si vous acceptez environ 130 € de plus par mois pour un T2. Nîmes pour le budget, l'achat (1 100 € de moins au m²) et un rythme plus posé, avec un patrimoine romain intact. Une famille qui achète regardera d'abord l'écart au m² ; un étudiant ou un télétravailleur, l'écart de transports et de connectivité.",
+      },
+      {
+        heading: "FAQ : Montpellier ou Nîmes",
+        body: "**Quelle ville est la moins chère ?** Nîmes : 720 € contre 850 € pour un T2, 2 800 € contre 3 900 €/m² à l'achat.\n\n**Quelle ville est la plus sûre ?** Nîmes de peu dans nos notes (3,9 contre 3,7 sur 10), les deux restant faibles.\n\n**Où prendre sa retraite ?** Nîmes, plus abordable ; voir nos guides retraite à Nîmes et à Montpellier.\n\n**Où étudier ?** Montpellier, plus grande et plus jeune ; voir notre guide étudiant à Montpellier.",
+      },
+    ],
+    relatedCities: ["montpellier","nimes","perpignan","beziers","avignon"],
+    relatedGuides: ["vivre-a-montpellier-2026","vivre-a-nimes-2026","retraite-a-nimes-2026","retraite-a-montpellier-2026","etudiant-a-montpellier-2026","famille-a-nimes-2026","sete-vs-montpellier-comparatif-2027","vivre-en-occitanie-guide-2026"],
+    tags: ["Montpellier","Nîmes","comparatif villes","Hérault","Gard","Occitanie","montpellier ou nîmes"],
+  },
+  {
+    slug: "poitiers-vs-limoges-comparatif-2027",
+    title: "Poitiers ou Limoges : où vivre en Nouvelle-Aquitaine en 2027 ?",
+    metaTitle: "Poitiers ou Limoges 2027 : loyers, notes, verdict",
+    metaDesc: "Poitiers ou Limoges ? T2 à 660 € contre 600 €, achat à 2 100 € contre 1 600 €/m², notes /10 : le comparatif chiffré des deux villes de Nouvelle-Aquitaine.",
+    category: "comparaison",
+    emoji: "🏛️",
+    readMinutes: 6,
+    publishedAt: "2026-11-28",
+    updatedAt: "2026-11-28",
+    intro: "Poitiers ou Limoges : Limoges est moins chère (T2 à 600 € contre 660 €, achat à 1 600 €/m² contre 2 100 €) et un peu mieux notée sur la sécurité (6,1/10 contre 5,7) et la nature (5,6 contre 5,0). Poitiers prend l'avantage sur les écoles (7,4 contre 6,2), la culture (6,2 contre 5,9) et le télétravail (5,8 contre 5,3). La note globale est identique : 6,1 des deux côtés.\n\nPoitiers compte 89 472 habitants (recensement 2022) et grandit ; Limoges en compte 129 754 et en perd. Les notes sont celles de nos fiches ville (sur 10, 10 = meilleur) ; les loyers sont notre estimation.",
+    sections: [
+      {
+        heading: "Quel est le budget logement à Poitiers et à Limoges ?",
+        body: "Limoges est environ 9 % moins chère à la location et 24 % à l'achat. T2 : 660 € à Poitiers contre 600 € à Limoges ; T3 : 880 € contre 800 € ; achat : 2 100 €/m² contre 1 600 €/m².\n\nLoyer T1 : Poitiers 480 €, Limoges 440 €. Loyer T2 : Poitiers 660 €, Limoges 600 €. Loyer T3 : Poitiers 880 €, Limoges 800 €. Achat au m² : Poitiers 2 100 €, Limoges 1 600 €.\n\nPar quartier, un T2 coûte 640 € à Pont Achard, 660 € à Buxerolles et 680 € dans le centre historique à Poitiers ; 520 € à Beaubreuil, 620 € dans le centre historique et 640 € à Aurence à Limoges.",
+      },
+      {
+        heading: "Quelles sont les notes de Poitiers et de Limoges ?",
+        body: "Poitiers devant sur les écoles (7,4 contre 6,2), les transports (6,4 contre 6,1), la culture (6,2 contre 5,9) et le télétravail (5,8 contre 5,3). Limoges devant sur le coût de la vie (7,1 contre 6,6), la sécurité (6,1 contre 5,7) et la nature (5,6 contre 5,0). Note globale et qualité de vie sont à égalité (6,1 et 5,9).\n\nNote globale : 6,1 des deux côtés. Coût de la vie : Poitiers 6,6, Limoges 7,1. Sécurité : Poitiers 5,7, Limoges 6,1. Nature : Poitiers 5,0, Limoges 5,6. Culture : Poitiers 6,2, Limoges 5,9. Transports : Poitiers 6,4, Limoges 6,1. Télétravail : Poitiers 5,8, Limoges 5,3. Écoles : Poitiers 7,4, Limoges 6,2.",
+      },
+      {
+        heading: "Quel niveau de vie et quel climat ?",
+        body: "Les revenus sont proches : niveau de vie médian de 20 150 € par an à Poitiers (environ 1 680 € par mois) contre 20 590 € à Limoges (environ 1 720 € par mois), avec un taux de pauvreté de 26 % contre 24 % (Insee, Filosofi 2021).\n\nPoitiers est un peu plus ensoleillée : environ 1 968 heures de soleil par an contre 1 871 à Limoges, 22,5 °C en juillet contre 22 °C et 4,8 °C en janvier contre 4,5 °C.",
+      },
+      {
+        heading: "Une ville étudiante contre une ville vieillissante ?",
+        body: "À Poitiers, 36,0 % des habitants ont entre 15 et 29 ans et 20,0 % ont 60 ans ou plus ; à Limoges, 25,6 % ont entre 15 et 29 ans et 28,0 % ont 60 ans ou plus (Insee, recensement 2022). Entre 2016 et 2022, Poitiers a gagné 1,7 % d'habitants, Limoges en a perdu 2,2 %.\n\nPoitiers est donc une ville d'étudiants, animée en semaine ; Limoges, plus grande, est plus calme et plus âgée, avec des logements très peu chers.",
+      },
+      {
+        heading: "Quels quartiers choisir ?",
+        body: "À Poitiers, le centre historique (patrimoine roman, Notre-Dame-la-Grande) est le plus animé, Buxerolles et Pont Achard sont les secteurs résidentiels et verts préférés des familles. À Limoges, le centre autour de la cathédrale Saint-Étienne et des halles est desservi par le trolleybus, Aurence est verdoyant et résidentiel (sécurité 8,2 dans nos notes de quartier), et Beaubreuil a les loyers les plus bas.",
+      },
+      {
+        heading: "Le verdict : Poitiers ou Limoges ?",
+        body: "Poitiers pour les études, les écoles, une ville plus jeune et un peu plus de culture, au prix d'environ 60 € de plus par mois pour un T2. Limoges pour acheter pas cher (500 € de moins au m²), la sécurité et la nature, avec un rythme plus calme. À budget égal, Limoges offre plus de surface ; à projet familial centré sur l'école, Poitiers marque des points.",
+      },
+      {
+        heading: "FAQ : Poitiers ou Limoges",
+        body: "**Quelle ville est la moins chère ?** Limoges : 600 € contre 660 € pour un T2, 1 600 € contre 2 100 €/m² à l'achat.\n\n**Quelle ville est la plus sûre ?** Limoges dans nos notes (6,1 contre 5,7 sur 10).\n\n**Où étudier ?** Poitiers, plus jeune et mieux notée sur les écoles ; voir nos guides étudiant à Poitiers et à Limoges.\n\n**Où prendre sa retraite ?** Limoges, plus abordable ; voir nos guides retraite à Limoges et à Poitiers.",
+      },
+    ],
+    relatedCities: ["poitiers","limoges","angouleme","tours","clermont-ferrand"],
+    relatedGuides: ["vivre-a-poitiers-2026","vivre-a-limoges-2026","retraite-a-limoges-2026","retraite-a-poitiers-2026","etudiant-a-poitiers-2026","etudiant-a-limoges-2026","clermont-ferrand-vs-limoges-comparatif-2026","vivre-en-nouvelle-aquitaine-guide-2025"],
+    tags: ["Poitiers","Limoges","comparatif villes","Vienne","Haute-Vienne","Nouvelle-Aquitaine","poitiers ou limoges"],
+  },
+  {
     slug: "vivre-en-ardennes-meuse-guide-2026",
     title: "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
     metaTitle: "Vivre en Ardennes et Meuse 2027 : coût, nature, télétravail",

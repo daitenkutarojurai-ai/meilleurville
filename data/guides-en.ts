@@ -71002,6 +71002,50 @@ export const EN_GUIDES: EnGuide[] = [
     tags: ["safety","crime","neighbourhoods","moving to France"],
   },
   {
+    slug: "rouen-vs-le-havre-expat-comparison-2026",
+    title: "Rouen vs Le Havre: Which Normandy City Should You Pick?",
+    metaTitle: "Rouen vs Le Havre 2027: Rents, Scores, Verdict",
+    metaDesc: "Rouen or Le Havre? One-bed rent €720 vs €650, buying €2,600 vs €2,000 per m², scores out of 10: a data-led comparison of Normandy's two big cities.",
+    category: "city-guide",
+    emoji: "⚓",
+    readMinutes: 6,
+    publishedAt: "2026-11-28",
+    updatedAt: "2026-11-28",
+    intro: "Rouen or Le Havre: Le Havre is cheaper (a two-room flat at €650 against €720 a month, buying at €2,000 per m² against €2,600), but Rouen scores higher overall (5.8 out of 10 against 5.5), mainly on culture (7.3 against 6.2), remote work (6.3 against 5.3) and schools (the ratings are 6.6 and 5.8). Le Havre wins on nature and the sea.\n\nLe Havre is actually the bigger city, with 166,462 residents against 116,331 in Rouen (INSEE 2022 census), but it is shrinking while Rouen grows. Scores are from our city profiles (out of 10, 10 = best); rents are our own estimates.",
+    sections: [
+      {
+        heading: "How do housing costs compare in Rouen and Le Havre?",
+        body: "Le Havre is about 10 percent cheaper to rent and 23 percent cheaper to buy. A two-room flat (T2) costs €720 a month in Rouen against €650 in Le Havre; a three-room (T3) €950 against €870; buying €2,600 per m² against €2,000.\n\nStudio or one-room (T1): Rouen €520, Le Havre €470. T2: Rouen €720, Le Havre €650. T3: Rouen €950, Le Havre €870. Purchase price per m²: Rouen €2,600, Le Havre €2,000.\n\nBy neighbourhood, a T2 runs €720 in Martainville, €730 in Saint-Sever and €760 in the Vieux-Marché in Rouen, against €560 in Quartier Nord, €660 in Sainte-Marie and €680 in the rebuilt centre in Le Havre.",
+      },
+      {
+        heading: "Which city scores higher?",
+        body: "Rouen leads on overall score (5.8 against 5.5), quality of life (5.7 against 5.1), transport (6.7 against 6.2), culture (7.3 against 6.2), remote work (6.3 against 5.3), safety (4.7 against 4.5) and schools (Rouen 6.6, Le Havre 5.8). Le Havre leads on nature (5.0 against 4.5) and, marginally, on cost of living (6.3 against 6.2).\n\nOverall: Rouen 5.8, Le Havre 5.5. Cost of living: Rouen 6.2, Le Havre 6.3. Safety: Rouen 4.7, Le Havre 4.5. Nature: Rouen 4.5, Le Havre 5.0. Culture: Rouen 7.3, Le Havre 6.2. Transport: Rouen 6.7, Le Havre 6.2. Remote work: Rouen 6.3, Le Havre 5.3. Schools: Rouen 6.6, Le Havre 5.8. Safety is below 5 in both: check it street by street.",
+      },
+      {
+        heading: "What about incomes and climate?",
+        body: "Rouen has a slightly higher median standard of living: €21,330 a year (about €1,780 a month) against €20,180 in Le Havre (about €1,680), with the same 23 percent poverty rate (INSEE, Filosofi 2021).\n\nBoth are Atlantic-influenced and mild. Rouen gets about 1,680 hours of sun a year against 1,590 in Le Havre; July averages 20.8 °C against 19.5 °C, and January 4.2 °C against 4.8 °C. The coast keeps Le Havre milder in winter and cooler in summer.",
+      },
+      {
+        heading: "Who lives where?",
+        body: "Rouen is a young city: 33.4 percent of residents are 15 to 29 and 18.6 percent are 60 or over. In Le Havre it is 20.0 percent and 26.6 percent (INSEE 2022 census). Between 2016 and 2022 Rouen gained 5.6 percent in population while Le Havre lost 2.3 percent.\n\nIn practice Rouen has the student life and the denser job market; Le Havre has more space, the beach and port-city character, with fewer young people.",
+      },
+      {
+        heading: "Which neighbourhoods suit whom?",
+        body: "In Rouen, the Vieux-Marché (medieval lanes, cathedral, restaurants) suits singles and couples; Saint-Sever, around the station and shopping centre, is the transport hub; Martainville is quiet, residential and family-oriented (safety 8.0 in our district scores). In Le Havre, the Perret-designed centre is UNESCO-listed and on the tramway, Sainte-Marie is residential and close to the beaches, and Quartier Nord has the lowest rents in the city, with an urban renewal programme under way.",
+      },
+      {
+        heading: "Verdict: Rouen or Le Havre?",
+        body: "Rouen for culture, schools, remote work and a younger city, if you accept about €70 more a month for a T2. Le Havre for the lowest purchase prices (about €600 less per m²), the seaside and a quieter pace. If you will commute to Paris or work in a creative or academic job, pick Rouen; if you are retired, remote and want the sea, pick Le Havre.",
+      },
+      {
+        heading: "FAQ: Rouen or Le Havre",
+        body: "**Which is cheaper?** Le Havre: €650 against €720 for a T2, €2,000 against €2,600 per m² to buy.\n\n**Which is safer?** Rouen, slightly, in our scores (4.7 against 4.5 out of 10); both are below 5.\n\n**Where should I study?** Rouen, which is younger and better rated on culture and schools; see our guides on studying in Rouen and in Le Havre.\n\n**Where should I retire?** Le Havre for budget and sea air; see retiring in Le Havre and in Rouen.",
+      },
+    ],
+    relatedCities: ["rouen","le-havre","caen","amiens","reims"],
+    tags: ["Rouen","Le Havre","Normandy","city comparison","moving to France"],
+  },
+  {
     slug: "pel-cel-per-saving-for-a-french-home-deposit-2026",
     title: "PEL, CEL and PER: using French savings plans for a home deposit",
     metaTitle: "PEL, CEL, PER: Saving for a French Home Deposit (2027)",

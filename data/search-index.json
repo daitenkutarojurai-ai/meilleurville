@@ -4582,6 +4582,16 @@
       "emoji": "🌴"
     },
     {
+      "slug": "montpellier-vs-nimes-comparatif-2027",
+      "title": "Montpellier ou Nîmes : où vivre dans l'Hérault et le Gard en 2027 ?",
+      "emoji": "☀️"
+    },
+    {
+      "slug": "poitiers-vs-limoges-comparatif-2027",
+      "title": "Poitiers ou Limoges : où vivre en Nouvelle-Aquitaine en 2027 ?",
+      "emoji": "🏛️"
+    },
+    {
       "slug": "vivre-en-ardennes-meuse-guide-2026",
       "title": "Vivre en Ardennes et en Meuse : le grand pari de la France oubliée",
       "emoji": "🌲"
@@ -12364,6 +12374,11 @@
       "count": 21
     },
     {
+      "slug": "montpellier",
+      "label": "Montpellier",
+      "count": 21
+    },
+    {
       "slug": "rennes",
       "label": "Rennes",
       "count": 21
@@ -12371,11 +12386,6 @@
     {
       "slug": "abordable",
       "label": "abordable",
-      "count": 20
-    },
-    {
-      "slug": "montpellier",
-      "label": "Montpellier",
       "count": 20
     },
     {
@@ -12406,7 +12416,7 @@
     {
       "slug": "comparatif-villes",
       "label": "comparatif villes",
-      "count": 16
+      "count": 18
     },
     {
       "slug": "famille-monoparentale-grand-est",
@@ -12524,6 +12534,11 @@
       "count": 12
     },
     {
+      "slug": "limoges",
+      "label": "Limoges",
+      "count": 12
+    },
+    {
       "slug": "mer",
       "label": "mer",
       "count": 12
@@ -12541,11 +12556,6 @@
     {
       "slug": "investissement-locatif",
       "label": "investissement locatif",
-      "count": 11
-    },
-    {
-      "slug": "limoges",
-      "label": "Limoges",
       "count": 11
     },
     {
@@ -12591,6 +12601,11 @@
     {
       "slug": "loire",
       "label": "Loire",
+      "count": 10
+    },
+    {
+      "slug": "occitanie",
+      "label": "Occitanie",
       "count": 10
     },
     {
@@ -12666,11 +12681,6 @@
     {
       "slug": "normandie",
       "label": "Normandie",
-      "count": 9
-    },
-    {
-      "slug": "occitanie",
-      "label": "Occitanie",
       "count": 9
     },
     {
@@ -13104,6 +13114,11 @@
       "count": 5
     },
     {
+      "slug": "nouvelle-aquitaine",
+      "label": "Nouvelle-Aquitaine",
+      "count": 5
+    },
+    {
       "slug": "perigueux",
       "label": "Périgueux",
       "count": 5
@@ -13244,6 +13259,11 @@
       "count": 4
     },
     {
+      "slug": "herault",
+      "label": "Hérault",
+      "count": 4
+    },
+    {
       "slug": "installation-val-de-marne",
       "label": "installation Val-de-Marne",
       "count": 4
@@ -13304,13 +13324,13 @@
       "count": 4
     },
     {
-      "slug": "nord",
-      "label": "Nord",
+      "slug": "nimes",
+      "label": "Nîmes",
       "count": 4
     },
     {
-      "slug": "nouvelle-aquitaine",
-      "label": "Nouvelle-Aquitaine",
+      "slug": "nord",
+      "label": "Nord",
       "count": 4
     },
     {
@@ -13624,11 +13644,6 @@
       "count": 3
     },
     {
-      "slug": "herault",
-      "label": "Hérault",
-      "count": 3
-    },
-    {
       "slug": "hopital",
       "label": "hôpital",
       "count": 3
@@ -13794,11 +13809,6 @@
       "count": 3
     },
     {
-      "slug": "nimes",
-      "label": "Nîmes",
-      "count": 3
-    },
-    {
       "slug": "numerique",
       "label": "numérique",
       "count": 3
@@ -13841,6 +13851,11 @@
     {
       "slug": "picardie",
       "label": "Picardie",
+      "count": 3
+    },
+    {
+      "slug": "poitiers",
+      "label": "Poitiers",
       "count": 3
     },
     {

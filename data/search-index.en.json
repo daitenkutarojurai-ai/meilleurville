@@ -11682,6 +11682,11 @@
       "emoji": "🛡️"
     },
     {
+      "slug": "rouen-vs-le-havre-expat-comparison-2026",
+      "title": "Rouen vs Le Havre: Which Normandy City Should You Pick?",
+      "emoji": "⚓"
+    },
+    {
       "slug": "pel-cel-per-saving-for-a-french-home-deposit-2026",
       "title": "PEL, CEL and PER: using French savings plans for a home deposit",
       "emoji": "💳"
@@ -11776,7 +11781,7 @@
     {
       "slug": "moving-to-france",
       "label": "moving to france",
-      "count": 335
+      "count": 336
     },
     {
       "slug": "single-parent-in-france",
@@ -11901,7 +11906,7 @@
     {
       "slug": "normandy",
       "label": "normandy",
-      "count": 46
+      "count": 47
     },
     {
       "slug": "provence",
@@ -12134,6 +12139,11 @@
       "count": 8
     },
     {
+      "slug": "le-havre",
+      "label": "le havre",
+      "count": 8
+    },
+    {
       "slug": "marseille",
       "label": "marseille",
       "count": 8
@@ -12179,11 +12189,6 @@
       "count": 7
     },
     {
-      "slug": "le-havre",
-      "label": "le havre",
-      "count": 7
-    },
-    {
       "slug": "lille",
       "label": "lille",
       "count": 7
@@ -12221,6 +12226,11 @@
     {
       "slug": "reims",
       "label": "reims",
+      "count": 7
+    },
+    {
+      "slug": "rouen",
+      "label": "rouen",
       "count": 7
     },
     {
@@ -12286,11 +12296,6 @@
     {
       "slug": "rhone-alpes",
       "label": "rhone alpes",
-      "count": 6
-    },
-    {
-      "slug": "rouen",
-      "label": "rouen",
       "count": 6
     },
     {
