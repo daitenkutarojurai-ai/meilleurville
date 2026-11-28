@@ -11037,6 +11037,36 @@
       "emoji": "🌹"
     },
     {
+      "slug": "things-to-do-in-massy-2026",
+      "title": "Things to do in Massy: the opera, Vilgénis park and a TGV station south of Paris",
+      "emoji": "🎭"
+    },
+    {
+      "slug": "things-to-do-in-joue-les-tours-2026",
+      "title": "Things to do in Joué-lès-Tours: a lake, a green valley and the tram into Tours",
+      "emoji": "🏞️"
+    },
+    {
+      "slug": "things-to-do-in-creil-2026",
+      "title": "Things to do in Creil: the Gallé-Juillet museum, the Oise and Chantilly next door",
+      "emoji": "🚉"
+    },
+    {
+      "slug": "things-to-do-in-vitrolles-2026",
+      "title": "Things to do in Vitrolles: the old village rock, the Berre lagoon and Marseille and Aix nearby",
+      "emoji": "🪨"
+    },
+    {
+      "slug": "things-to-do-in-corbeil-essonnes-2026",
+      "title": "Things to do in Corbeil-Essonnes: Saint-Spire church, the Grands Moulins and the Seine",
+      "emoji": "⛪"
+    },
+    {
+      "slug": "things-to-do-in-saint-chamond-2026",
+      "title": "Things to do in Saint-Chamond: the north gate of the Pilat park, with Saint-Étienne and Lyon in reach",
+      "emoji": "⛰️"
+    },
+    {
       "slug": "buying-an-apartment-under-100000-euros-france-2026",
       "title": "Buying an apartment in France for under €100,000: 108 cities, and what the price hides",
       "emoji": "🔑"
@@ -11736,12 +11766,12 @@
     {
       "slug": "travel",
       "label": "travel",
-      "count": 371
+      "count": 377
     },
     {
       "slug": "city-guide",
       "label": "city guide",
-      "count": 365
+      "count": 371
     },
     {
       "slug": "moving-to-france",
@@ -11761,12 +11791,12 @@
     {
       "slug": "ile-de-france",
       "label": "ile de france",
-      "count": 117
+      "count": 119
     },
     {
       "slug": "auvergne-rhone-alpes",
       "label": "auvergne-rhone-alpes",
-      "count": 105
+      "count": 106
     },
     {
       "slug": "nouvelle-aquitaine",
@@ -11804,13 +11834,13 @@
       "count": 92
     },
     {
-      "slug": "grand-est",
-      "label": "grand est",
-      "count": 83
-    },
-    {
       "slug": "hauts-de-france",
       "label": "hauts-de-france",
+      "count": 84
+    },
+    {
+      "slug": "grand-est",
+      "label": "grand est",
       "count": 83
     },
     {
@@ -11876,17 +11906,17 @@
     {
       "slug": "provence",
       "label": "provence",
-      "count": 45
+      "count": 46
+    },
+    {
+      "slug": "centre-val-de-loire",
+      "label": "centre-val de loire",
+      "count": 40
     },
     {
       "slug": "provence-alpes-cote-d-azur",
       "label": "provence-alpes-cote-d-azur",
       "count": 40
-    },
-    {
-      "slug": "centre-val-de-loire",
-      "label": "centre-val de loire",
-      "count": 39
     },
     {
       "slug": "working-in-france",
@@ -11914,13 +11944,13 @@
       "count": 21
     },
     {
-      "slug": "alsace",
-      "label": "alsace",
-      "count": 19
-    },
-    {
       "slug": "loire-valley",
       "label": "loire valley",
+      "count": 20
+    },
+    {
+      "slug": "alsace",
+      "label": "alsace",
       "count": 19
     },
     {

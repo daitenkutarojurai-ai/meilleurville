@@ -2430,3 +2430,7 @@ Prochain run : batch EN (6 jumelles) puis batch FR (villes de petite couronne sa
 **Tourisme batch 79 — FR, 2026-11-25** : +6 `10-choses-a-faire-a-*-2026` (massy, joue-les-tours, creil, vitrolles, corbeil-essonnes, saint-chamond), loyers T3 de `data/housing.ts`, aucun tarif ni horaire.
 Compteurs mesurés : FR 368 (`grep -c 'slug: "10-choses-a-faire-a-.*-2026"'`), EN 365 ; search-index 1 735 FR / 1 634 EN. tsc + integrity + search-index:check verts.
 Prochain run : batch EN (6 jumelles, mêmes chiffres) puis FR (sarcelles, bobigny, clichy, echirolles, meyzieu… sans guide).
+
+**Tourisme batch EN — rattrapage de parité, 2026-11-28** : +6 jumelles `things-to-do-in-*` (massy, joue-les-tours, creil, vitrolles, corbeil-essonnes, saint-chamond), mêmes chiffres que les guides FR (loyers T3), anglais natif.
+Compteurs mesurés : FR 368, EN 371 (`grep -c 'slug: "things-to-do-in-.*-2026"'`, dont 9 sans jumelle FR) ; search-index 1 747 FR / 1 640 EN. tsc + integrity + search-index:check verts.
+Prochain run : 6 jumelles EN restantes (ile-de-re, gourdon, joigny, saint-girons, romorantin-lanthenay, mayenne), puis batch FR (sarcelles, bobigny, clichy, echirolles, meyzieu…).
