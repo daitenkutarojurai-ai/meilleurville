@@ -109,6 +109,96 @@ export const CITY_LOCAL_FACTS: Record<string, CityLocalFact[]> = {
       source: "Unesco, ministère de la Culture",
     },
   ],
+  // 2026-11-28 — /villes/marseille : 1 274 impressions, 29 clics (cibles.md § 5).
+  marseille: [
+    {
+      fr: "Fondée vers 600 av. J.-C. par des Grecs venus de Phocée sous le nom de Massalia, Marseille revendique le titre de plus ancienne ville de France ; le Vieux-Port occupe toujours la calanque du Lacydon où la cité est née.",
+      en: "Founded around 600 BC by Greeks from Phocaea as Massalia, Marseille claims to be France's oldest city; the Old Port still fills the Lacydon inlet where it began.",
+      source: "Ville de Marseille, Odysseum (Éducation nationale)",
+    },
+    {
+      fr: "Le parc national des Calanques, créé par décret le 18 avril 2012, est le premier parc national d'Europe à la fois terrestre, marin et périurbain : ses criques commencent dans les quartiers sud de la ville.",
+      en: "Calanques National Park, created by decree on 18 April 2012, is Europe's first national park that is at once land-based, marine and peri-urban: its coves begin in the city's southern districts.",
+      source: "Parc national des Calanques, Journal officiel",
+    },
+    {
+      fr: "Le Mucem, premier musée national transféré de Paris vers une autre ville, a ouvert le 7 juin 2013 sur le môle J4, l'année où Marseille était Capitale européenne de la culture.",
+      en: "The Mucem, the first national museum moved out of Paris, opened on 7 June 2013 on the J4 pier, the year Marseille was European Capital of Culture.",
+      source: "Mucem, France.fr",
+    },
+  ],
+  // 2026-11-28 — /villes/dinard : 1 258 impressions, 25 clics ; guide dinard-vs-saint-malo du 27/11.
+  dinard: [
+    {
+      fr: "Environ 400 villas et hôtels de la Belle Époque (407 recensés) sont protégés depuis 2000 par une zone de protection du patrimoine : c'est l'un des ensembles balnéaires les plus fournis de France.",
+      en: "About 400 Belle Époque villas and hotels (407 listed) have been protected since 2000 by a heritage conservation zone, one of the largest seaside ensembles in France.",
+      source: "Dinard Côte d'Émeraude Tourisme, Paris Zigzag",
+    },
+    {
+      fr: "Le Festival du film britannique (devenu britannique et irlandais) s'y tient chaque automne depuis 1989 ; l'édition 2026 était programmée du 7 au 11 octobre.",
+      en: "The British (now British and Irish) Film Festival has been held here every autumn since 1989; the 2026 edition was scheduled for 7-11 October.",
+      source: "Festival du film de Dinard, Tourisme Bretagne",
+    },
+    {
+      fr: "Saint-Malo est à 10 minutes en vedette (Compagnie Corsaire, liaison assurée depuis 1904, de fin mars à début novembre), et l'usine marémotrice de la Rance, inaugurée le 26 novembre 1966, relie aussi les deux rives par la route.",
+      en: "Saint-Malo is a 10-minute boat ride away (Compagnie Corsaire, running since 1904, late March to early November), and the Rance tidal power station, inaugurated on 26 November 1966, also links both banks by road.",
+      source: "Compagnie Corsaire, EDF",
+    },
+  ],
+  // 2026-11-28 — /villes/saint-malo : 716 impressions, 24 clics.
+  "saint-malo": [
+    {
+      fr: "L'intra-muros, détruit à environ 80 % pendant les combats de l'été 1944, a été reconstruit dans l'esprit d'origine, en granit et derrière ses remparts : la ville close que l'on habite aujourd'hui date en grande partie des années 1950.",
+      en: "The walled town, about 80% destroyed in the fighting of summer 1944, was rebuilt in its original spirit, in granite and behind its ramparts: most of the intra-muros you live in today dates from the 1950s.",
+      source: "Chemins de mémoire (ministère des Armées), Saint-Malo Tourisme",
+    },
+    {
+      fr: "La Route du Rhum, transat en solitaire vers la Guadeloupe créée en 1978, part de Saint-Malo tous les quatre ans ; en 2026, les 115 bateaux ont dû quitter le bassin Vauban sur trois jours, au rythme des marées et des écluses.",
+      en: "The Route du Rhum, the solo transatlantic race to Guadeloupe founded in 1978, starts from Saint-Malo every four years; in 2026 the 115 boats needed three days to leave the Vauban basin, paced by tides and locks.",
+      source: "Ministère de la Mer, Figaro Nautisme",
+    },
+    {
+      fr: "Chateaubriand, mort en juillet 1848, repose sur l'îlot du Grand Bé, accessible à pied seulement à marée basse ; lors des grandes marées, une corne avertit les promeneurs que la mer remonte.",
+      en: "Chateaubriand, who died in July 1848, is buried on the Grand Bé islet, reachable on foot only at low tide; during spring tides a horn warns walkers that the sea is coming back in.",
+      source: "Saint-Malo Tourisme, Atlas Obscura",
+    },
+  ],
+  // 2026-11-28 — /villes/dinan : 1 515 impressions, 23 clics, fiche en position 8,8.
+  dinan: [
+    {
+      fr: "Ses remparts, longs d'environ 3 km, sont les plus longs de Bretagne ; le chemin de ronde se parcourt à pied depuis la porte du Jerzual ou la porte Saint-Malo.",
+      en: "Its ramparts, about 3 km long, are the longest in Brittany; the wall walk is open on foot from the Porte du Jerzual or the Porte Saint-Malo.",
+      source: "Lonely Planet, Tourisme Bretagne",
+    },
+    {
+      fr: "La vieille ville garde plus d'une centaine de maisons à pans de bois des XVe-XVIIe siècles, et la rue du Jerzual descend en pente raide jusqu'au port sur la Rance ; la basilique Saint-Sauveur conserve le cœur de Bertrand du Guesclin.",
+      en: "The old town keeps more than a hundred half-timbered houses from the 15th to 17th centuries, the steep Rue du Jerzual drops down to the port on the Rance, and the Basilica of Saint-Sauveur holds Bertrand du Guesclin's heart.",
+      source: "Tourisme Bretagne, France This Way",
+    },
+    {
+      fr: "La Fête des remparts, organisée tous les deux ans depuis 1983, attire plus de 100 000 visiteurs sur un week-end ; la prochaine édition est annoncée les 24 et 25 juillet 2027.",
+      en: "The Fête des Remparts, held every two years since 1983, draws more than 100,000 visitors over one weekend; the next edition is announced for 24-25 July 2027.",
+      source: "Tourisme Bretagne, Dinan Cap Fréhel Tourisme",
+    },
+  ],
+  // 2026-11-28 — /villes/cannes : 2 481 impressions, 21 clics ; /cannes/statistiques et /avis-honnete en cibles § 7.
+  cannes: [
+    {
+      fr: "Le premier Festival de Cannes s'est ouvert le 20 septembre 1946 dans l'ancien casino ; il se tient chaque mois de mai au Palais des Festivals, inauguré en décembre 1982 au bout de la Croisette.",
+      en: "The first Cannes Film Festival opened on 20 September 1946 in the old casino; it now runs every May at the Palais des Festivals, inaugurated in December 1982 at the end of the Croisette.",
+      source: "Ville de Cannes, Festival de Cannes",
+    },
+    {
+      fr: "Au large, les îles de Lérins se rejoignent en bateau depuis le Vieux-Port : sur Saint-Honorat, une communauté de moines vit encore à l'abbaye fondée par saint Honorat au début du Ve siècle.",
+      en: "Offshore, the Lérins Islands are a boat ride from the Old Port: on Saint-Honorat a community of monks still lives at the abbey founded by Saint Honoratus in the early 5th century.",
+      source: "Abbaye de Lérins, Unesco (liste indicative)",
+    },
+    {
+      fr: "Sur l'île Sainte-Marguerite, le Fort Royal, devenu prison d'État en 1685, a détenu le Masque de fer pendant onze ans, jusqu'en 1698 ; il abrite aujourd'hui le musée du Masque de fer et du Fort Royal.",
+      en: "On Île Sainte-Marguerite, the Fort Royal, a state prison from 1685, held the Man in the Iron Mask for eleven years until 1698; it now houses the Musée du Masque de Fer et du Fort Royal.",
+      source: "Ville de Cannes, Chemins de mémoire (ministère des Armées)",
+    },
+  ],
 };
 
 export function cityLocalFacts(slug: string): CityLocalFact[] {

@@ -1,4 +1,9 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-28 · routine 2/4 Croissance SEO · chantier B (fiche ville « vivre à X / avis »), Marseille, Dinard, Saint-Malo, Dinan, Cannes
+  - `lib/city-local-facts.ts` : 3 faits recoupés (2 sources chacun) par ville → bloc « Ce qui distingue X » + réponse FAQ « Fait-il bon vivre à X ? » (JSON-LD FAQPage), FR + EN. Villes couvertes : 5 → 10.
+  - Faits : Massalia ~600 av. J.-C., Calanques 18/04/2012, Mucem 07/06/2013 · 407 villas Belle Époque, festival 1989, vedette 10 min + Rance 1966 · intra-muros 80 % détruit 1944, Route du Rhum 1978, Grand Bé · remparts 3 km, Jerzual/Du Guesclin, Fête des remparts 2027 · Festival 1946/Palais 1982, Lérins, Masque de fer 1687-1698.
+  - Cibles (cibles § 5) : marseille 1 274 impr., dinard 1 258, saint-malo 716, dinan 1 515 (fiche pos. 8,8), cannes 2 481. Cannibalisation déjà traitée (guides vivre-a-marseille/saint-malo liés par « En bref »).
+  - Suite : concarneau, laon, granville, carcassonne, bordeaux.
 - 2026-11-27 · routine 4/4 Rotation (vendredi, CTR et snippets) · cibles § 7, 8 gabarits/pages
   - Livré : metaTitle/metaDesc de 5 guides (bord-de-mer, moins-chères top 10, vivre-a-limoges, vivre-en-var, vivre-a-bayonne) + coût hors Paris (titre « 20 villes » ≠ corps) ; /classements/gastronomie (description propre) ; /depuis/* (titre question) ; /comparer-departements/* (notes moyennes rendues dans l'extrait).
   - Cibles § 7 : bord-de-mer 4 561 impr., gastronomie 1 333, depuis/clermont-ferrand 1 303, moins-chères 1 186, limoges 935, haute-savoie-vs-savoie 873, var 823, bayonne 328 (CTR 0,5-0,8 %). FAQPage déjà émis par le gabarit guide.
