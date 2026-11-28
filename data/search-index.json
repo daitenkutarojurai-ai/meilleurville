@@ -4587,6 +4587,21 @@
       "emoji": "☀️"
     },
     {
+      "slug": "concarneau-vs-quimper-comparatif-2027",
+      "title": "Concarneau ou Quimper : où vivre dans le Finistère Sud en 2027 ?",
+      "emoji": "⚓"
+    },
+    {
+      "slug": "albi-vs-castres-comparatif-2027",
+      "title": "Albi ou Castres : où vivre dans le Tarn en 2027 ?",
+      "emoji": "🧱"
+    },
+    {
+      "slug": "dax-vs-mont-de-marsan-comparatif-2027",
+      "title": "Dax ou Mont-de-Marsan : où vivre dans les Landes en 2027 ?",
+      "emoji": "🌲"
+    },
+    {
       "slug": "poitiers-vs-limoges-comparatif-2027",
       "title": "Poitiers ou Limoges : où vivre en Nouvelle-Aquitaine en 2027 ?",
       "emoji": "🏛️"
@@ -12354,14 +12369,14 @@
       "count": 31
     },
     {
-      "slug": "lyon",
-      "label": "Lyon",
+      "slug": "bretagne",
+      "label": "Bretagne",
       "count": 26
     },
     {
-      "slug": "bretagne",
-      "label": "Bretagne",
-      "count": 25
+      "slug": "lyon",
+      "label": "Lyon",
+      "count": 26
     },
     {
       "slug": "nantes",
@@ -12371,6 +12386,11 @@
     {
       "slug": "comparatif",
       "label": "comparatif",
+      "count": 21
+    },
+    {
+      "slug": "comparatif-villes",
+      "label": "comparatif villes",
       "count": 21
     },
     {
@@ -12412,11 +12432,6 @@
       "slug": "soleil",
       "label": "soleil",
       "count": 19
-    },
-    {
-      "slug": "comparatif-villes",
-      "label": "comparatif villes",
-      "count": 18
     },
     {
       "slug": "famille-monoparentale-grand-est",
@@ -12564,6 +12579,11 @@
       "count": 11
     },
     {
+      "slug": "occitanie",
+      "label": "Occitanie",
+      "count": 11
+    },
+    {
       "slug": "pau",
       "label": "Pau",
       "count": 11
@@ -12601,11 +12621,6 @@
     {
       "slug": "loire",
       "label": "Loire",
-      "count": 10
-    },
-    {
-      "slug": "occitanie",
-      "label": "Occitanie",
       "count": 10
     },
     {
@@ -12984,6 +12999,11 @@
       "count": 6
     },
     {
+      "slug": "nouvelle-aquitaine",
+      "label": "Nouvelle-Aquitaine",
+      "count": 6
+    },
+    {
       "slug": "orleans",
       "label": "Orléans",
       "count": 6
@@ -13031,6 +13051,11 @@
     {
       "slug": "accessibilite",
       "label": "accessibilité",
+      "count": 5
+    },
+    {
+      "slug": "albi",
+      "label": "Albi",
       "count": 5
     },
     {
@@ -13104,6 +13129,11 @@
       "count": 5
     },
     {
+      "slug": "landes",
+      "label": "Landes",
+      "count": 5
+    },
+    {
       "slug": "loyer-bas-parent-seul",
       "label": "loyer bas parent seul",
       "count": 5
@@ -13111,11 +13141,6 @@
     {
       "slug": "monoparental-val-de-marne",
       "label": "monoparental Val-de-Marne",
-      "count": 5
-    },
-    {
-      "slug": "nouvelle-aquitaine",
-      "label": "Nouvelle-Aquitaine",
       "count": 5
     },
     {
@@ -13194,11 +13219,6 @@
       "count": 4
     },
     {
-      "slug": "albi",
-      "label": "Albi",
-      "count": 4
-    },
-    {
       "slug": "apl",
       "label": "APL",
       "count": 4
@@ -13271,11 +13291,6 @@
     {
       "slug": "investissement",
       "label": "investissement",
-      "count": 4
-    },
-    {
-      "slug": "landes",
-      "label": "Landes",
       "count": 4
     },
     {
@@ -13554,6 +13569,11 @@
       "count": 3
     },
     {
+      "slug": "dax",
+      "label": "Dax",
+      "count": 3
+    },
+    {
       "slug": "demembrement",
       "label": "démembrement",
       "count": 3
@@ -13601,6 +13621,11 @@
     {
       "slug": "figeac",
       "label": "Figeac",
+      "count": 3
+    },
+    {
+      "slug": "finistere",
+      "label": "Finistère",
       "count": 3
     },
     {

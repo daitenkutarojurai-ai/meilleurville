@@ -1,4 +1,8 @@
 # Journal des 4 routines (le plus récent en haut, 5 lignes max par run)
+- 2026-11-28 · routine 3/4 Contenu à demande prouvée · 3 comparaisons A vs B
+  - Livré : guides concarneau-vs-quimper, albi-vs-castres, dax-vs-mont-de-marsan (comparatif-2027 ; notes rendues, loyers, Insee Filosofi/recensement 2022, FAQ) ; +7 liens entrants (retraite/famille/10-choses).
+  - Cibles : « concarneau ou quimper », « albi ou castres », « dax ou mont-de-marsan » (suggestions WebSearch ; concarneau 1 194, albi 620, dax 1 276 impr., cibles § 5).
+  - Suite : laon/saint-quentin, granville/saint-lo, angers/le-mans ; classements « ville moyenne », ZRR.
 - 2026-11-28 · routine 2/4 Croissance SEO · chantier B (fiche ville « vivre à X / avis »), Marseille, Dinard, Saint-Malo, Dinan, Cannes
   - `lib/city-local-facts.ts` : 3 faits recoupés (2 sources chacun) par ville → bloc « Ce qui distingue X » + réponse FAQ « Fait-il bon vivre à X ? » (JSON-LD FAQPage), FR + EN. Villes couvertes : 5 → 10.
   - Faits : Massalia ~600 av. J.-C., Calanques 18/04/2012, Mucem 07/06/2013 · 407 villas Belle Époque, festival 1989, vedette 10 min + Rance 1966 · intra-muros 80 % détruit 1944, Route du Rhum 1978, Grand Bé · remparts 3 km, Jerzual/Du Guesclin, Fête des remparts 2027 · Festival 1946/Palais 1982, Lérins, Masque de fer 1687-1698.
